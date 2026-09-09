@@ -1393,6 +1393,7 @@ export function helmutKohlKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SE8w9) – Chancellor of Unity"},
         {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SE8w9) – the same pattern of hidden vulnerability"},
+        {route:"krankheitsportraets-galarrwuy-yunupingu", label:"Illness Portrait: Galarrwuy Yunupingu (SE8w9) – the same pattern, control despite physical decline"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se8", label:"Subtype Profile SE8"},
       ])}

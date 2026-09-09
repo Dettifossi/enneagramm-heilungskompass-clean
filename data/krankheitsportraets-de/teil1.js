@@ -3988,3 +3988,194 @@ export function margaretRutherfordKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function galarrwuyYunupinguKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-galarrwuy-yunupingu-portrait.jpg" alt="Galarrwuy Yunupingu" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Galarrwuy Yunupingu</p>
+        <p class="krim-portrait-typ">SE8w9 · Selbsterhaltender Typ 8 mit Neunerflügel · 1948–2023</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Orang-Utan</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Tierentsprechung: Orang-Utan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE8")};left:${tierAvatarLeft("SE8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Galarrwuy Yunupingu</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-galarrwuy-yunupingu">Porträt berühmter Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Landrechte-Führer der
+        Yolngu. Diese Seite vertieft ein Kapitel, das dort nur gestreift wird: eine über Jahrzehnte
+        fortschreitende Nierenerkrankung, die ihn zu wiederholten, oft monatelangen Aufenthalten
+        fernab seines eigenen Landes zwang – ausgerechnet den Mann, dessen Lebenswerk das Recht
+        aller Yolngu war, auf ihrem eigenen Land zu bleiben.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Yunupingu</strong> ist dem <strong>selbsterhaltenden Typ 8 mit Neunerflügel</strong>
+        zugeordnet. Die SE8 investiert ihre Kraft in die kompromisslose Sicherung des eigenen
+        Terrains; der Neunerflügel bringt Geduld und die Fähigkeit hinzu, über Jahrzehnte an einer
+        Aufgabe festzuhalten, ohne sie öffentlich dramatisch zu inszenieren. Genau diese Kombination
+        bestimmte auch, wie er mit der eigenen, zunehmend ernsten Erkrankung umging: nicht durch
+        offenen Rückzug, sondern durch stille Fortsetzung seiner Führungsrolle, so lange es der
+        Körper irgend zuließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine fortschreitende Nierenerkrankung:</strong>
+        Über Jahre hinweg verschlechterte sich Yunupingus Nierenfunktion – eine Erkrankung, die im
+        Northern Territory unter Aborigines aus entlegenen Gemeinden weit überdurchschnittlich
+        häufig auftritt und regelmäßig eine lebenslange Dialysebehandlung oder eine
+        Nierentransplantation nötig macht.</p>
+        <p class="vb-intro"><strong>b) Kollaps in der Öffentlichkeit 2010:</strong>
+        Bereits im Januar 2010 brach Yunupingu in einer Bank in Nhulunbuy zusammen und musste ins
+        Krankenhaus gebracht werden – ein erstes öffentlich gewordenes Zeichen des sich
+        verschlechternden Gesundheitszustands.</p>
+        <p class="vb-intro"><strong>c) Nierentransplantation Ende 2016:</strong>
+        Ende 2016 unterzog sich Yunupingu einer Nierentransplantation – ein Eingriff, der ihn für
+        längere Zeit von seinem Heimatland in Arnhem Land fort nach Darwin zwang, wo die
+        entsprechende medizinische Versorgung verfügbar war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Beinamputation im Juli 2017:</strong>
+        Nur wenige Monate nach der Transplantation musste Yunupingu sich einer Amputation des
+        Unterschenkels unterziehen – eine der gefürchteten Gefäßkomplikationen, die bei
+        langjähriger, fortgeschrittener Nierenerkrankung auftreten können.</p>
+        <p class="vb-intro"><strong>b) Wiederkehrende Behandlungsaufenthalte in Darwin:</strong>
+        In den folgenden Jahren verbrachte Yunupingu wiederholt längere Zeiträume in Darwin zur
+        medizinischen Behandlung – fern von dem Land, für dessen rechtlichen Schutz er sein
+        gesamtes Erwachsenenleben gekämpft hatte.</p>
+        <p class="vb-intro"><strong>c) Ein familiäres Muster:</strong>
+        Sein jüngerer Bruder Dr. M. Yunupingu (Mandawuy, Frontmann von Yothu Yindi) war bereits 2013
+        im Alter von 56 Jahren an derselben Krankheit gestorben – ein Verlust, der die Schwere und
+        familiäre Dimension der Nierenerkrankung innerhalb der Yolngu-Gemeinschaft schmerzhaft
+        unterstrich.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Weiterführung der Führungsrolle trotz schwerer Erkrankung:</strong>
+        Trotz Transplantation und Amputation zog sich Yunupingu nicht aus der Öffentlichkeit
+        zurück, sondern blieb in politische Debatten um Landrechte und Verfassungsfragen
+        eingebunden, bis weit in seine letzten Lebensjahre hinein.</p>
+        <p class="vb-intro"><strong>b) Ein strukturelles Gesundheitsproblem, kein Einzelschicksal:</strong>
+        Zum Zeitpunkt seiner Erkrankung lebten im Northern Territory rund 700 Menschen mit
+        Nierenversagen im Endstadium, landesweit rund 20.000 – Yunupingus Fall wurde von
+        Ärzten und Gesundheitsexperten wiederholt genutzt, um auf die unzureichende
+        Dialyseversorgung in entlegenen Regionen Australiens aufmerksam zu machen.</p>
+        <p class="vb-intro"><strong>c) Tod nach langer Krankheit 2023:</strong>
+        Galarrwuy Yunupingu starb am 3. April 2023 im Alter von 74 Jahren nach langer Krankheit –
+        in seinem eigenen Land, wie seine Familie in ihrer Erklärung ausdrücklich betonte: „Er wurde
+        auf unserem Land geboren, er lebte sein ganzes Leben auf unserem Land, und er starb auf
+        unserem Land."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Landrechte-Erbe, das die Krankheit überdauerte:</strong>
+        Trotz Jahren gesundheitlicher Rückschläge blieb Yunupingus historische Bedeutung als
+        Architekt der modernen australischen Landrechtsbewegung ungebrochen – seine Krankheit
+        schmälerte sein politisches Vermächtnis nicht.</p>
+        <p class="vb-intro"><strong>b) Ein öffentlich gewordenes Versorgungsproblem:</strong>
+        Sein Fall trug, gemeinsam mit dem Tod des mit ihm eng verbundenen Musikers Dr. G.
+        Yunupingu (Gurrumul) 2017, zu politischem Druck bei, die medizinische Versorgung – vor
+        allem Dialyseangebote – in entlegenen Teilen Australiens zu verbessern.</p>
+        <p class="vb-intro"><strong>c) Rückkehr aufs eigene Land am Lebensende:</strong>
+        Dass Yunupingu, anders als viele Betroffene mit derselben Erkrankung, am Ende auf dem
+        eigenen Land sterben konnte, wurde von seiner Familie als eigenständige, bewusst
+        hervorgehobene Errungenschaft gewürdigt – ein letztes Echo seines lebenslangen Kampfes.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Die Amputation als erzwungene Grenze für einen Mann des Terrains:</strong>
+        Für eine selbsterhaltende Acht, deren gesamtes Selbstverständnis auf physischer Präsenz und
+        Bewegungsfähigkeit im eigenen Land beruhte, traf der Verlust eines Beins einen besonders
+        empfindlichen Punkt – die körperliche Fähigkeit, das eigene Territorium buchstäblich zu
+        durchqueren, wurde eingeschränkt, während der Wille, es zu verteidigen, unverändert blieb.</p>
+        <p class="vb-intro"><strong>b) Der Neunerflügel und das Weiterarbeiten trotz allem:</strong>
+        Die neunertypische Fähigkeit, eine Aufgabe geduldig über Jahrzehnte fortzuführen, ohne sie
+        dramatisch zu inszenieren, zeigte sich auch in der Krankheit selbst: kein öffentliches Klagen,
+        sondern ein stilles Weiterarbeiten, so lange es irgend möglich war.</p>
+        <p class="vb-intro"><strong>c) Fernbehandlung als Umkehrung des Lebensthemas:</strong>
+        Dass ausgerechnet der Mann, der sein Leben der Verteidigung des Rechts widmete, auf dem
+        eigenen Land zu bleiben, selbst wiederholt gezwungen war, sein Land für die eigene
+        Behandlung zu verlassen, ist eine der bittersten Ironien seiner Biografie.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Orang-Utan, der sein Revier trotz Verlusts nicht aufgab:</strong>
+        Yunupingus gesamtes Lebenswerk beruhte auf der unbeirrten Verteidigung von Land und
+        Gemeinschaft – die eigene Erkrankung bedrohte ausgerechnet die körperliche Grundlage
+        dieser Präsenz, während der Wille zur Verteidigung des Territoriums bis zuletzt bestehen
+        blieb.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-helmut-kohl">Helmut Kohl</a>
+        (ebenfalls SE8w9) hielt nach seinem schweren Sturz 2008 trotz fast vollständigen
+        körperlichen Verfalls an der Kontrolle über sein unmittelbares Umfeld fest, wenn auch aus
+        dem Hintergrund; Yunupingu ging noch einen Schritt weiter und blieb selbst nach
+        Transplantation und Beinamputation aktiv in seine politische Rolle eingebunden, statt sich
+        zurückzuziehen. Beide Fälle zeigen dasselbe SE8w9-Muster: Die Acht mit Neunerflügel gibt
+        die Verantwortung für das eigene Terrain selbst angesichts massiver körperlicher
+        Einschränkung nicht leichtfertig auf. Mehr dazu im
+        <a href="javascript:void(0)" data-route="krankheitsportraets-helmut-kohl">Krankheitsporträt zu Helmut Kohl</a>.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die Beine?</strong>
+        Für einen selbsterhaltenden Achter, dessen gesamte Lebensaufgabe darin bestand, das eigene
+        Land buchstäblich zu durchqueren, zu verteidigen und darauf zu bleiben, liegt eine Deutung
+        nahe: Ausgerechnet jene körperliche Fähigkeit, die physische Verbindung zum eigenen
+        Territorium, wurde zum Ort der Einschränkung. Diese Deutung ist eine plausible
+        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Acht zwangsläufig zu einer
+        Nierenerkrankung mit Amputation führt – <strong>jeder Mensch kann jede Krankheit erleiden,
+        unabhängig vom Subtyp</strong>, und Nierenerkrankungen in entlegenen indigenen Gemeinden
+        Australiens haben vor allem strukturelle, gesundheitspolitische Ursachen. Was sich an
+        Yunupingus Fall zeigen lässt, ist ein Muster im Umgang mit fortschreitendem
+        Kontrollverlust über den eigenen Körper, das bei einer ausgeprägten selbsterhaltenden Acht
+        mit Neunerflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
+        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Yunupingu kannte sein eigenes Enneagramm-Muster nicht – die selbsterhaltende Acht mit
+        Neunerflügel hält reflexhaft an der Verantwortung für das eigene Terrain fest, statt
+        rechtzeitig die eigene körperliche Notlage über die Aufgabe zu stellen. Genau dieses Muster
+        bestimmte, wie er mit der eigenen Erkrankung umging: weiterarbeiten, verhandeln, präsent
+        bleiben, statt sich frühzeitig ganz der eigenen Behandlung zu widmen – nicht aus
+        Verdrängung im klinischen Sinne, sondern weil die Verantwortung für Land und Gemeinschaft
+        in seinem inneren Muster tiefer verankert war als die Sorge um den eigenen Körper.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die selbsterhaltende Acht mit Neunerflügel erklärt bei <strong>Galarrwuy Yunupingu</strong>
+        vieles am Verlauf seiner letzten Lebensjahre: ein Mann, dessen gesamtes Lebenswerk auf der
+        physischen und rechtlichen Verteidigung seines Landes beruhte, verlor durch
+        Nierenerkrankung und Amputation einen Teil der eigenen körperlichen Verbindung zu diesem
+        Land – und kämpfte doch bis zuletzt weiter, bis er am Ende genau dort sterben konnte, wofür
+        er sein ganzes Leben eingestanden war. Der Orang-Utan, der sein Revier auch im eigenen
+        körperlichen Verfall nicht aufgab.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-galarrwuy-yunupingu", label:"Porträt: Galarrwuy Yunupingu (SE8w9) – Landrechte-Führer"},
+        {route:"krankheitsportraets-helmut-kohl", label:"Krankheitsporträt: Helmut Kohl (SE8w9) – dasselbe Muster, Kontrolle trotz körperlichen Verfalls"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se8", label:"Subtyp-Profil SE8"},
+      ])}
+    </div>
+  `);
+}

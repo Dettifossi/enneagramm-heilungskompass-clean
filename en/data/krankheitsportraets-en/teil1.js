@@ -3813,3 +3813,182 @@ export function margaretRutherfordKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function galarrwuyYunupinguKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-galarrwuy-yunupingu-portrait.jpg" alt="Galarrwuy Yunupingu" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Galarrwuy Yunupingu</p>
+        <p class="krim-portrait-typ">SE8w9 · Self-Preservation Type 8 with a Nine Wing · 1948–2023</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Orangutan</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se8.jpg" alt="Animal correspondence: Orangutan" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE8")};left:${tierAvatarLeft("SE8")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Galarrwuy Yunupingu</strong> already has a portrait under
+        <a href="javascript:void(0)" data-route="beruehmte-galarrwuy-yunupingu">Famous Personalities</a>
+        in this compass – that page covers his life's work as a land rights leader for the Yolngu.
+        This page goes deeper into a chapter only touched on there: decades of progressive kidney
+        disease that repeatedly forced him away from his own land for months at a time – for
+        precisely the man whose life's work was the right of all Yolngu to remain on their own land.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
+        <strong>Yunupingu</strong> is assigned to the <strong>Self-Preservation Type 8 with a Nine
+        Wing</strong>. The SP8 invests its strength in the uncompromising securing of its own
+        territory; the Nine-wing adds patience and the ability to hold on to a task for decades
+        without dramatizing it publicly. This same combination shaped how he dealt with his own,
+        increasingly serious illness: not through open withdrawal, but through the quiet
+        continuation of his leadership role for as long as his body allowed.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Early Signs</h3>
+        <p class="vb-intro"><strong>a) Progressive kidney disease:</strong>
+        Over the years, Yunupingu's kidney function deteriorated – a disease that occurs at a far
+        higher than average rate among Aboriginal Australians from remote communities in the
+        Northern Territory, and that regularly requires lifelong dialysis or a kidney transplant.</p>
+        <p class="vb-intro"><strong>b) Public collapse in 2010:</strong>
+        Already in January 2010, Yunupingu collapsed in a bank in Nhulunbuy and had to be taken to
+        hospital – an early, publicly visible sign of his deteriorating health.</p>
+        <p class="vb-intro"><strong>c) Kidney transplant in late 2016:</strong>
+        In late 2016, Yunupingu underwent a kidney transplant – a procedure that forced him away
+        from his homeland in Arnhem Land for an extended period, to Darwin, where the necessary
+        medical care was available.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Leg amputation in July 2017:</strong>
+        Only months after the transplant, Yunupingu had to undergo a below-the-knee amputation –
+        one of the feared vascular complications that can arise from long-standing, advanced
+        kidney disease.</p>
+        <p class="vb-intro"><strong>b) Recurring treatment stays in Darwin:</strong>
+        In the years that followed, Yunupingu repeatedly spent extended periods in Darwin for
+        medical treatment – far from the land whose legal protection he had fought for his entire
+        adult life.</p>
+        <p class="vb-intro"><strong>c) A pattern within the family:</strong>
+        His younger brother Dr. M. Yunupingu (Mandawuy, frontman of Yothu Yindi) had already died
+        of the same disease in 2013 at age 56 – a loss that painfully underscored the severity and
+        family dimension of kidney disease within the Yolngu community.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) Continuing his leadership role despite serious illness:</strong>
+        Despite the transplant and amputation, Yunupingu did not withdraw from public life, but
+        remained engaged in political debates over land rights and constitutional questions well
+        into his final years.</p>
+        <p class="vb-intro"><strong>b) A structural health problem, not an individual fate:</strong>
+        At the time of his illness, around 700 people in the Northern Territory were living with
+        end-stage kidney disease, and roughly 20,000 nationwide – doctors and health experts
+        repeatedly used Yunupingu's case to draw attention to inadequate dialysis provision in
+        remote parts of Australia.</p>
+        <p class="vb-intro"><strong>c) Death after a long illness in 2023:</strong>
+        Galarrwuy Yunupingu died on 3 April 2023 at age 74 after a long illness – on his own land,
+        as his family explicitly emphasized in their statement: "He was born on our land, he lived
+        all his life on our land, and he died on our land."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A land rights legacy that outlasted the illness:</strong>
+        Despite years of health setbacks, Yunupingu's historical significance as the architect of
+        the modern Australian land rights movement remained undiminished – his illness did not
+        diminish his political legacy.</p>
+        <p class="vb-intro"><strong>b) A publicly visible care problem:</strong>
+        His case, together with the 2017 death of the closely connected musician Dr. G. Yunupingu
+        (Gurrumul), contributed to political pressure to improve medical care – especially dialysis
+        provision – in remote parts of Australia.</p>
+        <p class="vb-intro"><strong>c) A return to his own land at the end of life:</strong>
+        That Yunupingu, unlike many others with the same illness, was able to die on his own land
+        was honored by his family as an achievement in its own right, deliberately highlighted – a
+        final echo of his lifelong struggle.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) The amputation as a forced limit for a man of the territory:</strong>
+        For a Self-Preservation Eight whose entire sense of self rested on physical presence and
+        the ability to move through his own land, losing a leg struck an especially sensitive point
+        – the physical ability to literally traverse his own territory was curtailed, while the will
+        to defend it remained unchanged.</p>
+        <p class="vb-intro"><strong>b) The Nine-wing and working on regardless:</strong>
+        The Nine-wing's typical ability to carry a task forward patiently over decades without
+        dramatizing it also showed up in the illness itself: no public complaint, but a quiet
+        continuation of work for as long as it was in any way possible.</p>
+        <p class="vb-intro"><strong>c) Remote treatment as an inversion of his life's theme:</strong>
+        That precisely the man who devoted his life to defending the right to remain on one's own
+        land was himself repeatedly forced to leave his land for his own treatment is one of the
+        bitterest ironies of his biography.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) An orangutan that did not give up its territory despite loss:</strong>
+        Yunupingu's entire life's work rested on the unwavering defense of land and community – his
+        own illness threatened precisely the physical basis of that presence, while the will to
+        defend the territory persisted to the end.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-helmut-kohl">Helmut Kohl</a>
+        (also SE8w9) held on to control over his immediate circle after his severe fall in 2008
+        despite near-total physical decline, even if from the background; Yunupingu went a step
+        further and remained actively engaged in his political role even after transplant and leg
+        amputation, rather than withdrawing. Both cases show the same SE8w9 pattern: the Eight with
+        a Nine-wing does not lightly give up responsibility for its own territory, even in the face
+        of severe physical limitation. More on this in the
+        <a href="javascript:void(0)" data-route="krankheitsportraets-helmut-kohl">illness portrait of Helmut Kohl</a>.</p>
+        <p class="vb-intro"><strong>c) Why the legs, of all things?</strong>
+        For a Self-Preservation Eight whose entire life's task consisted of literally traversing,
+        defending, and remaining on his own land, one interpretation suggests itself: precisely that
+        physical capacity, the bodily connection to his own territory, became the site of
+        limitation. This reading is a plausible interpretation, not a documented historical causal
+        link, and will be developed further in this compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>d) Framing without determinism:</strong>
+        This does not mean that the Self-Preservation Eight's pattern inevitably leads to kidney
+        disease with amputation – <strong>anyone can suffer any illness, regardless of subtype</strong>,
+        and kidney disease in remote Indigenous communities in Australia has primarily structural,
+        health-policy causes. What Yunupingu's case can show is a pattern in how a pronounced
+        Self-Preservation Eight with a Nine-wing deals with progressive loss of control over their
+        own body – one of many possible interpretations, not a judgment. The corresponding illness
+        pattern will be developed further, case by case, in this compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Yunupingu did not know his own Enneagram pattern – the Self-Preservation Eight with a Nine
+        wing reflexively holds on to responsibility for its own territory, rather than putting its
+        own physical crisis before that responsibility in time. This exact pattern shaped how he
+        dealt with his own illness: continuing to work, negotiate, and remain present rather than
+        devoting himself fully to his own treatment early on – not out of clinical denial, but
+        because responsibility for land and community was anchored more deeply in his inner pattern
+        than concern for his own body.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The Self-Preservation Eight with a Nine-wing explains much of the course of
+        <strong>Galarrwuy Yunupingu's</strong> final years: a man whose entire life's work rested on
+        the physical and legal defense of his land lost, through kidney disease and amputation, part
+        of his own bodily connection to that land – and yet kept fighting to the end, until he could
+        finally die in the very place he had stood for his whole life. The orangutan that did not
+        give up its territory even in its own physical decline.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-galarrwuy-yunupingu", label:"Portrait: Galarrwuy Yunupingu (SE8w9) – land rights leader"},
+        {route:"krankheitsportraets-helmut-kohl", label:"Illness Portrait: Helmut Kohl (SE8w9) – the same pattern, control despite physical decline"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se8", label:"Subtype Profile SE8"},
+      ])}
+    </div>
+  `);
+}

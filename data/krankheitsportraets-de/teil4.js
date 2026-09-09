@@ -1468,6 +1468,7 @@ export function helmutKohlKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-helmut-kohl", label:"Porträt: Helmut Kohl (SE8w9) – Kanzler der Einheit"},
         {route:"krankheitsportraets-winston-churchill", label:"Krankheitsporträt: Winston Churchill (SE8w9) – dasselbe Muster verborgener Verwundbarkeit"},
+        {route:"krankheitsportraets-galarrwuy-yunupingu", label:"Krankheitsporträt: Galarrwuy Yunupingu (SE8w9) – dasselbe Muster, Kontrolle trotz körperlichen Verfalls"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se8", label:"Subtyp-Profil SE8"},
       ])}
