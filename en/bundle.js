@@ -3448,6 +3448,7 @@ text.nav = [
     { route: "zitate", label: "Quotes of the Wise" },
     { route: "tischdialoge", label: "Table Dialogues of the 27 Subtypes" },
     { route: "library", label: "Library" },
+    { route: "zahlen-fakten", label: "The Compass in Numbers" },
     { route: "register", label: "Index" },
   ]},
   { route: "schaubilder", label: "Diagrams", dropdown: [
@@ -8140,6 +8141,67 @@ function libraryPage() {
     </section>
     ${werkSection()}
 
+  `);
+}
+
+// Text-volume estimate (section 2 below) – recalculate TEXTUMFANG_STAND and update the date
+// once several hundred more portraits have been added.
+const TEXTUMFANG_STAND = { datum: "Sep 9, 2026", woerterMio: "1.5", normseiten: "5,850", buecher: "20" };
+// PRAXISTIPPS_ANZAHL is maintained manually (the TIPPS array is local to praxistippsHeilpraktikerPage) –
+// count it up whenever a new practice tip is added.
+const PRAXISTIPPS_ANZAHL = 15;
+
+function zahlenFaktenPage() {
+  const beruehmt = BERUEHMT_PORTRAITS.length;
+  const krankheit = KRANKHEITS_PORTRAITS.length;
+  const kriminal = KRIMINAL_PORTRAITS.length;
+  const portraitsGesamt = beruehmt + krankheit + kriminal;
+  const registerAnzahl = registerEntriesEN.length;
+  const statCard = (num, label) => `
+    <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1.1rem 1.2rem;">
+      <div style="font-family:system-ui,sans-serif;font-size:2.1rem;font-weight:800;color:var(--copper);line-height:1;font-variant-numeric:tabular-nums;">${num}</div>
+      <div style="font-family:system-ui,sans-serif;font-size:.82rem;color:var(--muted);margin-top:.4rem;">${label}</div>
+    </article>`;
+  return shell(`
+    ${pageHeader("library")}
+    <section class="narrow">
+      <p class="eyebrow">Knowledge · Library</p>
+      <h1>The Compass in Numbers</h1>
+      <p class="lead-small">An overview of how much is actually packed into this compass – the portrait and structure counts are drawn live from the app's current content, not maintained by hand.</p>
+
+      <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Portraits &amp; Case Studies</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.9rem;">
+        ${statCard(beruehmt, "Famous Personalities")}
+        ${statCard(krankheit, "Illness Portraits")}
+        ${statCard(kriminal, "Criminal Psychology Cases")}
+        ${statCard(portraitsGesamt, "Portraits Total")}
+      </div>
+
+      <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Structure &amp; System</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.9rem;">
+        ${statCard(27, "Subtype Profiles")}
+        ${statCard(PRAXISTIPPS_ANZAHL, "Practical Tips from the Naturopath")}
+        ${statCard(5, "Remedy Systems per Subtype<br><span style=\"font-weight:400;\">(Homeopathy, Bach Flowers, Oils, Gemstones, Schuessler Salts)</span>")}
+        ${statCard(registerAnzahl.toLocaleString("en-US") + "+", "Register Entries")}
+      </div>
+
+      <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Text Volume</h2>
+      <div style="background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1.4rem 1.6rem;">
+        <div style="font-family:system-ui,sans-serif;font-size:2.6rem;font-weight:800;color:var(--copper);font-variant-numeric:tabular-nums;">≈ ${TEXTUMFANG_STAND.woerterMio}M</div>
+        <div style="font-family:system-ui,sans-serif;font-size:.85rem;color:var(--muted);margin-top:.3rem;">words in the portrait and subtype texts alone</div>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.9rem;margin-top:.9rem;">
+        ${statCard("≈ " + TEXTUMFANG_STAND.normseiten, "Manuscript pages (at 1,800 characters)")}
+        ${statCard("≈ " + TEXTUMFANG_STAND.buecher, "Books at 300 pages each")}
+      </div>
+      <p style="font-family:system-ui,sans-serif;font-size:.75rem;color:var(--muted);margin-top:.6rem;">Estimate based on the running text of the portrait and subtype articles alone (as of ${TEXTUMFANG_STAND.datum}) – excluding diagrams, quizzes, the register, and navigation text, which would expand the volume considerably further. Meant as a rough orientation, not an exact figure.</p>
+
+      ${relatedLinks([
+        {route:"library", label:"Library & Life's Work"},
+        {route:"register", label:"Register"},
+        {route:"knowledge", label:"Knowledge Base"},
+      ])}
+    </section>
   `);
 }
 
@@ -119277,6 +119339,7 @@ function subtypeSchaubilderPage() {
     practice: practicePage,
     "praxistipps-heilpraktiker": praxistippsHeilpraktikerPage,
     library: libraryPage,
+    "zahlen-fakten": zahlenFaktenPage,
     knowledge: typesPage,
     types: typesPage,
     wissen: knowledgePage,

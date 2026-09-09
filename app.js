@@ -15931,6 +15931,7 @@ const uiText = {
       { route: "zitate", label: "Zitate der Weisen" },
       { route: "tischdialoge", label: "Tischdialoge der 27 Subtypen" },
       { route: "library", label: "Bibliothek" },
+      { route: "zahlen-fakten", label: "Der Kompass in Zahlen" },
       { route: "register", label: "Register" },
     ]},
     { route: "schaubilder", label: "Schaubilder", dropdown: [
@@ -37016,6 +37017,67 @@ function libraryPage() {
         </audio>
         <p style="color:rgba(245,233,208,0.45);font-size:0.78rem;margin:0.5rem 0 0;">Laufzeit ca. 22 Minuten \u00b7 Verlagshaus Rathmer</p>
       </div>
+    </section>
+  `);
+}
+
+// Stand der Textumfang-Sch\u00e4tzung (Punkt 2 unten) \u2013 bei deutlich mehr neuen Portr\u00e4ts
+// (grob alle paar hundert) den Wert in TEXTUMFANG_STAND neu berechnen und Datum aktualisieren.
+const TEXTUMFANG_STAND = { datum: "09.09.2026", woerterMio: "1,5", normseiten: "5.850", buecher: "20" };
+// PRAXISTIPPS_ANZAHL manuell pflegen (TIPPS-Array ist lokal in praxistippsHeilpraktikerPage gekapselt) \u2013
+// bei jedem neuen Praxistipp hier mitz\u00e4hlen.
+const PRAXISTIPPS_ANZAHL = 15;
+
+function zahlenFaktenPage() {
+  const beruehmt = BERUEHMT_PORTRAITS.length;
+  const krankheit = KRANKHEITS_PORTRAITS.length;
+  const kriminal = KRIMINAL_PORTRAITS.length;
+  const portraitsGesamt = beruehmt + krankheit + kriminal;
+  const registerAnzahl = registerEntries.length;
+  const statCard = (num, label) => `
+    <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1.1rem 1.2rem;">
+      <div style="font-family:system-ui,sans-serif;font-size:2.1rem;font-weight:800;color:var(--copper);line-height:1;font-variant-numeric:tabular-nums;">${num}</div>
+      <div style="font-family:system-ui,sans-serif;font-size:.82rem;color:var(--muted);margin-top:.4rem;">${label}</div>
+    </article>`;
+  return shell(`
+    ${pageHeader("library")}
+    <section class="narrow">
+      <p class="eyebrow">Wissen \u00b7 Bibliothek</p>
+      <h1>Der Kompass in Zahlen</h1>
+      <p class="lead-small">Ein \u00dcberblick, wie viel in diesem Kompass tats\u00e4chlich steckt \u2013 die Portr\u00e4t- und Struktur-Zahlen live aus den aktuellen App-Inhalten gez\u00e4hlt, nicht von Hand gepflegt.</p>
+
+      <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Portr\u00e4ts &amp; Fallanalysen</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.9rem;">
+        ${statCard(beruehmt, "Ber\u00fchmte Pers\u00f6nlichkeiten")}
+        ${statCard(krankheit, "Krankheitsportr\u00e4ts")}
+        ${statCard(kriminal, "Kriminalpsychologie-F\u00e4lle")}
+        ${statCard(portraitsGesamt, "Portr\u00e4ts insgesamt")}
+      </div>
+
+      <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Struktur &amp; System</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.9rem;">
+        ${statCard(27, "Subtyp-Profile")}
+        ${statCard(PRAXISTIPPS_ANZAHL, "Praxistipps vom Heilpraktiker")}
+        ${statCard(5, "Heilmittel-Systeme je Subtyp<br><span style=\"font-weight:400;\">(Hom\u00f6opathie, Bachbl\u00fcten, \u00d6le, Edelsteine, Sch\u00fc\u00dfler-Salze)</span>")}
+        ${statCard(registerAnzahl.toLocaleString("de-DE") + "+", "Eintr\u00e4ge im Register")}
+      </div>
+
+      <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Textumfang</h2>
+      <div style="background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1.4rem 1.6rem;">
+        <div style="font-family:system-ui,sans-serif;font-size:2.6rem;font-weight:800;color:var(--copper);font-variant-numeric:tabular-nums;">\u2248 ${TEXTUMFANG_STAND.woerterMio} Mio.</div>
+        <div style="font-family:system-ui,sans-serif;font-size:.85rem;color:var(--muted);margin-top:.3rem;">W\u00f6rter allein in den Portr\u00e4t- und Subtyp-Texten</div>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.9rem;margin-top:.9rem;">
+        ${statCard("\u2248 " + TEXTUMFANG_STAND.normseiten, "Normseiten (\u00e0 1.800 Zeichen)")}
+        ${statCard("\u2248 " + TEXTUMFANG_STAND.buecher, "B\u00fccher \u00e0 300 Seiten")}
+      </div>
+      <p style="font-family:system-ui,sans-serif;font-size:.75rem;color:var(--muted);margin-top:.6rem;">Sch\u00e4tzung auf Basis des reinen Flie\u00dftexts der Portr\u00e4t- und Subtyp-Artikel (Stand: ${TEXTUMFANG_STAND.datum}) \u2013 ohne Schaubilder, Quiz, Register und Navigationstexte, die den Umfang noch deutlich erweitern w\u00fcrden. Als grobe Orientierung gedacht, nicht als exakte Zahl.</p>
+
+      ${relatedLinks([
+        {route:"library", label:"Bibliothek & Lebenswerk"},
+        {route:"register", label:"Register"},
+        {route:"knowledge", label:"Wissensbasis"},
+      ])}
     </section>
   `);
 }
@@ -75848,6 +75910,7 @@ const ROUTES = {
     practice: practicePage,
     "praxistipps-heilpraktiker": praxistippsHeilpraktikerPage,
     library: libraryPage,
+    "zahlen-fakten": zahlenFaktenPage,
     knowledge: typesPage,
     types: typesPage,
     wissen: knowledgePage,
