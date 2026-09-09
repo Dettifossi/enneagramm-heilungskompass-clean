@@ -1964,6 +1964,7 @@ export function jerryLewisPortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-truman-capote", label:"Portrait: Truman Capote (SO2w3) – also public devotion with a personal cost"},
         {route:"beruehmte-eva-peron", label:"Portrait: Eva Perón (SO2w3)"},
+        {route:"beruehmte-usain-bolt", label:"Portrait: Usain Bolt (SO2w3) – also the same subtype"},
       ])}
     </div>
   `);

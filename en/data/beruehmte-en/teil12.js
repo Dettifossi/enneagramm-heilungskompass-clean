@@ -1909,3 +1909,68 @@ export function carloAncelottiPortraitPage() {
     </div>
   `);
 }
+
+export function usainBoltPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-usain-bolt-portrait.jpg" alt="Usain Bolt – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Usain Bolt</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with a Three-Wing</p>
+        <p class="krim-portrait-subtitle">b. 1986 – Jamaican sprinter, fastest human in history – Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever Who Took the Stadium With Him</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the Social Two – warm, irresistibly driven to win over an entire audience. Usain Bolt, born in 1986 in rural Sherwood Content, Jamaica, played cricket and football as a child before his primary school teacher and cricket coach noticed his extraordinary speed and pushed him toward sprinting. Even as a teenager, Bolt stood out less for quiet discipline than for the sheer joy of running in front of people.</p>
+          <p class="vb-intro">That joy in the audience became his trademark: no other sprinter in history danced, joked, and posed as extensively before the start and after the finish as Bolt. The Golden Retriever doesn't just run fast for itself – it runs to carry an entire stadium along with it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: A Nation, a World as Audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Two (SO2)</strong> seeks belonging not in a single relationship but in the wider collective. Naranjo called this subtype <em>Ambition</em>: the drive to become indispensable through impact on a larger field. In Bolt this showed in how inseparably his athletic success was woven into Jamaica's national pride – a small Caribbean nation that, through his records, suddenly stood at the center of the global sporting world, and that he visibly represented at every appearance.</p>
+          <p class="vb-intro">Even at the moment of his greatest individual triumph – the 100-meter world record in Berlin in 2009 (9.58 seconds) – Bolt never came across as a lone competitor. He reflexively thanked his longtime coach Glen Mills, his team, his country. The Golden Retriever doesn't win for itself alone; the victory only counts once it is shared with others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: The Fastest Man as a Global Brand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing</strong> gives the Social Two its drive toward visible, measurable achievement. In Bolt this showed in an unprecedented career of records and showmanship at once: eight Olympic gold medals (Beijing 2008, London 2012, Rio 2016), world records over 100 and 200 meters that still stand today, and a global brand image reaching far beyond sport – with Puma as a longtime partner and the "To Di World" pose (also known as the "Lightning Bolt") as a globally recognized signature gesture.</p>
+          <p class="vb-intro">Even in the 2008 Beijing 100-meter final, he slowed down meters before the finish line to celebrate, rather than optimizing the last stretch for pure time – behavior critics called reckless, but which shows exactly the SO2w3 logic at work: the moment of public confirmation, the shared celebration with the audience, mattered more in that instant than the last hundredth of a second of an even faster time.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 shows in Bolt's ability to combine athletic excellence with genuine joy – his charisma made track and field accessible to a mass audience that would otherwise have had little interest in the sport.</p>
+          <p class="vb-intro">The Two's fatal flaw is <strong>pride</strong> – the conviction of being indispensable to one's own nation and to the sport as a whole. In Bolt this showed in his years-long, publicly followed effort to remain relevant even after retiring from athletics – football trials, his own music label, numerous business ventures in Jamaica – as if athletic fame alone weren't enough to satisfy the need for ongoing public confirmation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Shadow Behind the Radiant Image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2017, Bolt was retroactively stripped of one of his nine Olympic gold medals after his relay teammate Nesta Carter later tested positive for a banned substance – Bolt himself was never suspected of doping, but the flawless shine of his record was marked by something he had no part in causing. Publicly he responded with composure, while stressing how much this collective responsibility for a teammate's mistake had affected him.</p>
+          <p class="vb-intro">His life as a father and partner also stayed largely in the background of his public persona for years – far more was known about his records and endorsement deals than about his private life, a pattern not uncommon for the Social Two: devotion goes first to the large, publicly visible collective that loves back, while the private, close circle more easily slips out of view.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Fastest Man Who Needed an Audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Usain Bolt remains the undisputed fastest human in recorded history – speeds no person had ever reached before him. But what sets him apart from other exceptional athletes is not the raw time on the clock alone, but how inseparably that achievement was bound to the need to be seen and celebrated by a nation, a sport, an entire world.</p>
+          <p class="vb-intro">This is the Social Two with a Three-wing at its most radiant: an achievement that is real and historic – and that was celebrated so publicly, so playfully, so loudly precisely because the celebration itself was an inseparable part of the success.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-jerry-lewis", label:"Portrait: Jerry Lewis (SO2w3) – also the same subtype"},
+        {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
+      ])}
+    </div>
+  `);
+}

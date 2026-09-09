@@ -1907,3 +1907,68 @@ export function carloAncelottiPortraitPage() {
     </div>
   `);
 }
+
+export function usainBoltPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-usain-bolt-portrait.jpg" alt="Usain Bolt – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Usain Bolt</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Sozialer Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">geb. 1986 &ndash; jamaikanischer Sprinter, schnellster Mensch der Geschichte &ndash; Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever, der das Stadion mitnahm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei – zugewandt, unwiderstehlich darauf aus, ein ganzes Publikum für sich zu gewinnen. Usain Bolt, 1986 im ländlichen Sherwood Content in Jamaika geboren, spielte als Kind zunächst Cricket und Fußball, bevor sein Grundschullehrer und Cricket-Trainer seine außergewöhnliche Schnelligkeit bemerkte und ihn zum Sprint drängte. Schon als Teenager fiel Bolt weniger durch stille Disziplin auf als durch die schiere Freude, vor Publikum zu laufen.</p>
+          <p class="vb-intro">Diese Freude am Publikum wurde zu seinem Markenzeichen: Kein anderer Sprinter der Geschichte tanzte, scherzte und posierte so ausgiebig vor dem Start und nach dem Zieleinlauf wie Bolt. Der Golden Retriever läuft nicht nur für sich selbst schnell – er läuft, um ein ganzes Stadion mitzureißen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Ein Land, eine Welt als Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> sucht Zugehörigkeit nicht in der einen Beziehung, sondern im großen Kollektiv. Naranjo nannte diesen Subtyp <em>Ambition</em>: den Drang, durch Wirkung im größeren Feld unentbehrlich zu werden. Bei Bolt zeigte sich das darin, wie untrennbar sein sportlicher Erfolg mit dem Nationalstolz Jamaikas verwoben wurde – ein kleines Karibikland, das durch seine Rekorde plötzlich im Zentrum der globalen Sportwelt stand, und das er bei jedem Auftritt sichtbar repräsentierte.</p>
+          <p class="vb-intro">Selbst im Moment seines größten individuellen Triumphs – dem 100-Meter-Weltrekord 2009 in Berlin (9,58 Sekunden) – wirkte Bolt nie wie ein Einzelkämpfer. Er bedankte sich reflexhaft bei seinem langjährigen Trainer Glen Mills, bei seinem Team, bei seinem Land. Der Golden Retriever gewinnt nicht für sich allein; der Sieg zählt erst, wenn er mit anderen geteilt ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Der schnellste Mensch als globale Marke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sozialen Zwei den Antrieb zur sichtbaren, messbaren Leistung. Bei Bolt äußerte sich das in einer beispiellosen Karriere aus Rekorden und Inszenierung zugleich: acht olympische Goldmedaillen (Peking 2008, London 2012, Rio 2016), Weltrekorde über 100 und 200 Meter, die bis heute Bestand haben, und ein globales Markenimage, das weit über den Sport hinausreichte – mit Puma als langjährigem Partner und der „To Di World"-Pose (auch „Lightning Bolt" genannt) als weltweit erkennbarem Erkennungszeichen.</p>
+          <p class="vb-intro">Selbst beim 100-Meter-Finale 2008 in Peking verlangsamte er sein Tempo Meter vor dem Ziel bereits, um zu feiern, statt den letzten Schritt noch auf reine Zeit zu optimieren – ein Verhalten, das Kritiker als Leichtsinn werteten, das aber genau die SO2w3-Logik zeigt: Der Moment der öffentlichen Bestätigung, das gemeinsame Feiern mit dem Publikum, wog in diesem Augenblick schwerer als der letzte Hundertstel einer noch schnelleren Zeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2w3 zeigt sich in Bolts Fähigkeit, sportliche Höchstleistung mit echter Lebensfreude zu verbinden – seine Ausstrahlung machte die Leichtathletik einem Millionenpublikum zugänglich, das sich sonst kaum für die Sportart interessiert hätte.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> – die Überzeugung, unentbehrlich für die eigene Nation und den gesamten Sport zu sein. Bei Bolt zeigte sich das in seinem jahrelangen, öffentlich verfolgten Bemühen, auch nach dem Karriereende als Fußballer, Musiker und Unternehmer relevant zu bleiben – Probetrainings bei Fußballclubs, ein eigenes Musiklabel, zahlreiche Geschäftsprojekte in Jamaika –, als reiche der sportliche Ruhm allein nicht aus, um das Bedürfnis nach fortwährender öffentlicher Bestätigung zu stillen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Schatten hinter dem strahlenden Bild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2017 wurde Bolt rückwirkend eine seiner neun olympischen Goldmedaillen aberkannt, nachdem sein Staffelkollege Nesta Carter nachträglich positiv auf ein verbotenes Mittel getestet worden war – Bolt selbst stand nie im Verdacht des Dopings, doch der makellose Glanz seiner Bilanz bekam einen Kratzer, den er sich nicht selbst zuzuschreiben hatte. Öffentlich reagierte er gefasst, betonte aber, wie sehr ihn diese kollektive Verantwortung für die Fehler eines Teammitglieds getroffen habe.</p>
+          <p class="vb-intro">Auch seine Zeit als Vater und Partner blieb lange im Hintergrund seiner öffentlichen Persona – über Jahre hinweg war deutlich mehr über seine Rekorde und Werbeverträge bekannt als über sein Privatleben, ein Muster, das bei der sozialen Zwei nicht selten ist: Die Zuwendung gilt zuerst dem großen, öffentlich sichtbaren Kollektiv, das zurückliebt, während das private Nahfeld leichter aus dem Blick gerät.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der schnellste Mann, der ein Publikum brauchte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Usain Bolt bleibt der unbestritten schnellste Mensch der bisher gemessenen Geschichte – Geschwindigkeiten, die vor ihm kein Mensch je erreicht hatte. Doch was ihn von anderen Ausnahmeathleten unterscheidet, ist nicht allein die reine Zeit auf der Uhr, sondern wie untrennbar diese Leistung mit dem Bedürfnis verbunden war, von einem Land, einer Sportart, einer ganzen Welt gesehen und gefeiert zu werden.</p>
+          <p class="vb-intro">Das ist die soziale Zwei mit Dreierflügel in ihrer strahlendsten Form: eine Leistung, die real und historisch ist – und die genau deshalb so öffentlich, so tänzerisch, so laut gefeiert wurde, weil das Feiern selbst zum untrennbaren Teil des Erfolgs gehörte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SO2w3) – ebenfalls derselbe Subtyp"},
+        {route:"beruehmte-will-smith", label:"Porträt: Will Smith (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
