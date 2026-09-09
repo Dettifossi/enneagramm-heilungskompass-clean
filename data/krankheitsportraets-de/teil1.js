@@ -4086,8 +4086,9 @@ export function galarrwuyYunupinguKrankheitsportraetPage() {
         Architekt der modernen australischen Landrechtsbewegung ungebrochen – seine Krankheit
         schmälerte sein politisches Vermächtnis nicht.</p>
         <p class="vb-intro"><strong>b) Ein öffentlich gewordenes Versorgungsproblem:</strong>
-        Sein Fall trug, gemeinsam mit dem Tod des mit ihm eng verbundenen Musikers Dr. G.
-        Yunupingu (Gurrumul) 2017, zu politischem Druck bei, die medizinische Versorgung – vor
+        Sein Fall trug, gemeinsam mit dem Tod seines Neffen, des Musikers Dr. G. Yunupingu
+        (Gurrumul, 1971–2017), an ähnlichen, ebenfalls nierenbedingten Komplikationen im Juli
+        2017 mit nur 46 Jahren, zu politischem Druck bei, die medizinische Versorgung – vor
         allem Dialyseangebote – in entlegenen Teilen Australiens zu verbessern.</p>
         <p class="vb-intro"><strong>c) Rückkehr aufs eigene Land am Lebensende:</strong>
         Dass Yunupingu, anders als viele Betroffene mit derselben Erkrankung, am Ende auf dem

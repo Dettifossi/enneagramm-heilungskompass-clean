@@ -3905,9 +3905,10 @@ export function galarrwuyYunupinguKrankheitsportraetPage() {
         the modern Australian land rights movement remained undiminished – his illness did not
         diminish his political legacy.</p>
         <p class="vb-intro"><strong>b) A publicly visible care problem:</strong>
-        His case, together with the 2017 death of the closely connected musician Dr. G. Yunupingu
-        (Gurrumul), contributed to political pressure to improve medical care – especially dialysis
-        provision – in remote parts of Australia.</p>
+        His case, together with the 2017 death of his nephew, the musician Dr. G. Yunupingu
+        (Gurrumul, 1971–2017), from similarly kidney-related complications at just 46, contributed
+        to political pressure to improve medical care – especially dialysis provision – in remote
+        parts of Australia.</p>
         <p class="vb-intro"><strong>c) A return to his own land at the end of life:</strong>
         That Yunupingu, unlike many others with the same illness, was able to die on his own land
         was honored by his family as an achievement in its own right, deliberately highlighted – a
