@@ -1924,7 +1924,7 @@ export function jerryLewisPortraitPage() {
         <h2 class="vb-section">1. Der Golden Retriever, der geliebt werden musste</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei – zugewandt, unwiderstehlich darauf aus, gebraucht und geliebt zu werden. Jerry Lewis, 1926 als Joseph Levitch in Newark, New Jersey, geboren, wuchs als Sohn zweier Vaudeville-Künstler weitgehend bei Verwandten auf, während seine Eltern auf Tournee waren – von zwei Schulen flog er, doch schon als Kind entwickelte er eine Schallplatten-Mimik-Nummer, mit der er sich Applaus und Aufmerksamkeit sicherte, die ihm im Alltag oft fehlten.</p>
-          <p class="vb-intro">Dieses früh angelegte Muster – Zuneigung durch Auftritt statt durch bloßes Dasein zu bekommen – trug ihn sein gesamtes Leben lang. Der Golden Retriever wedelt nicht zufällig, wenn er auf die Bühne tritt; er hat gelernt, dass genau dort die Liebe wartet, die anderswo nicht verlässlich kam.</p>
+          <p class="vb-intro">Dieses früh angelegte Muster – Zuneigung durch Auftritt statt durch bloßes Dasein zu bekommen – trug ihn sein gesamtes Leben lang. Der Golden Retriever wedelt nicht zufällig mit dem Schwanz, wenn er auf die Bühne tritt; er hat gelernt, dass genau dort die Liebe wartet, die anderswo nicht verlässlich kam.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Zwei: Vom Publikum gebraucht werden</h2>
