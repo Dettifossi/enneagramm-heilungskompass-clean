@@ -381,6 +381,7 @@ export function dhapanbalYunupinguPortraitPage() {
           {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
           {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
           {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SE8w9)"},
+          {route:"beruehmte-galarrwuy-yunupingu", label:"Porträt: Galarrwuy Yunupingu (SE8w9) – ihr Onkel, ebenfalls Landrechte-Führer aus Arnhem Land"},
         ])}
       </div>
     </div>

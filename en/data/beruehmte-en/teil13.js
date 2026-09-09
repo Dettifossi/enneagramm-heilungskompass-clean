@@ -1889,3 +1889,68 @@ export function juergenVonDerLippePortraitPage() {
     </div>
   `);
 }
+
+export function galarrwuyYunupinguPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-galarrwuy-yunupingu-portrait.jpg" alt="Galarrwuy Yunupingu – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Galarrwuy Yunupingu</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with a Nine Wing</p>
+        <p class="krim-portrait-subtitle">Yolngu Leader, Land Rights Activist, 1948&ndash;2023 &ndash; Animal correspondence: Orangutan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Orangutan Who Never Left His Land</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>orangutan</strong> does not defend someone else's territory – it defends its own, with a persistence that can span an entire lifetime. Galarrwuy Yunupingu, born in 1948 in Arnhem Land in northern Australia, grew up as the son of an elder of the Gumatj clan of the Yolngu people – the very land he would defend for his entire adult life, without ever really leaving it.</p>
+          <p class="vb-intro">In 1963, while still a teenager, his father signed the famous Yirrkala bark petitions – hand-painted bark paintings with attached typed petitions to the Australian parliament, through which the Yolngu protested against the mining of their land for a bauxite mine. It was the first official recognition of an Indigenous land rights claim in Australian constitutional history – and Galarrwuy Yunupingu grew up in the middle of this struggle, which he would later call his life's work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Eight: Land as Inalienable Property</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Eight (SE8)</strong> invests its strength, according to Naranjo, not in an abstract, wide-reaching mission but in the uncompromising securing of its own, closest territory. In hardly any other figure in this compass is that as literal as in Yunupingu: his life's theme was, quite literally, land – the land of his ancestors, which he defended for decades as chairman of the Northern Land Council against mining companies and the Australian government.</p>
+          <p class="vb-intro">In 1971, he and his uncle lost the first major land rights case in Australian history, Milirrpum v Nabalco – a legal defeat, but politically the start of a decades-long, never-flagging campaign that eventually led to the Aboriginal Land Rights Act of 1976. This persistence in defending a territory across setbacks, rather than abandoning it, is pure SE8 logic.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Negotiation Instead of Confrontation at Any Cost</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> shows up in Yunupingu not as withdrawal, but as a calm, negotiation-ready disposition that takes the pure confrontational edge off the Eight. Despite decades of often frustrating disputes with governments and mining companies, he consistently relied on negotiation, agreements, and legal means rather than open escalation – a tenacity expressed through quiet persistence, not volume.</p>
+          <p class="vb-intro">In 1978, he became the first Aboriginal Australian of the Year – a recognition he used to keep negotiating for his people, not to put himself at the center. For more than four decades he remained connected to the Northern Land Council in changing roles, a rock that kept returning to the same negotiating table.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From the Bark Petitions' Legacy to the Native Title Act</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Yunupingu's work spans from the early land rights struggles of the 1960s through his role as chairman of the Northern Land Council (with interruptions, from 1977 to 2004) to the negotiations around the Native Title Act following the landmark Mabo decision of 1992. He was instrumental in negotiating numerous land rights agreements that reached far beyond his own Gumatj territory.</p>
+          <p class="vb-intro">He also contributed to the 1988 Barunga Statement, which moved then-Prime Minister Bob Hawke to a (never fulfilled) promise of a treaty with Aboriginal Australians – another building block in a life's work that always pursued the same goal: securing his own land and the sovereignty of his own community in law.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Eight with a Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE8w9 shows in Yunupingu's lifelong, never-flagging defense of his land and his community – a steadfastness that did not let up across half a century, even as many battles were lost before they were won.</p>
+          <p class="vb-intro">The shadow showed in recurring internal conflicts within the land rights movement, where Yunupingu's uncompromising leadership style also met resistance from within his own ranks – the flip side of a territorial defense that sometimes struggled to share control, even with allies.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Land He Never Gave Up</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Galarrwuy Yunupingu died in 2023 in his homeland of Arnhem Land – the same land he had fought for his entire adult life. The orangutan never really left its branch; it defended it, negotiation by negotiation, agreement by agreement, until the land he was born into passed to the next generation, legally and culturally secured.</p>
+          <p class="vb-intro">His niece <a href="javascript:void(0)" data-route="beruehmte-dhapanbal-yunupingu">Dhapanbal Yunupingu</a> (SE8w9), daughter of his younger brother Dr. M. Yunupingu (Yothu Yindi), carries the same principle forward from a younger generation – quietly claiming a cultural legacy rather than marketing it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
+        {route:"beruehmte-dhapanbal-yunupingu", label:"Portrait: Dhapanbal Yunupingu (SE8w9) – same principle, younger generation"},
+        {route:"beruehmte-helmut-kohl", label:"Portrait: Helmut Kohl (SE8w9) – also the same subtype"},
+      ])}
+    </div>
+  `);
+}

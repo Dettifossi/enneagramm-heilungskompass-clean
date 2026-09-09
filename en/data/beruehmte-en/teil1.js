@@ -381,6 +381,7 @@ export function dhapanbalYunupinguPortraitPage() {
           {route:"subtype/se8", label:"SP8 – The Orangutan: Subtype Profile"},
           {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SP8w9)"},
           {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SP8w9)"},
+          {route:"beruehmte-galarrwuy-yunupingu", label:"Portrait: Galarrwuy Yunupingu (SE8w9) – her uncle, also a land rights leader from Arnhem Land"},
         ])}
       </div>
     </div>

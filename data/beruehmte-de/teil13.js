@@ -1905,3 +1905,68 @@ export function juergenVonDerLippePortraitPage() {
     </div>
   `);
 }
+
+export function galarrwuyYunupinguPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-galarrwuy-yunupingu-portrait.jpg" alt="Galarrwuy Yunupingu – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Galarrwuy Yunupingu</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Selbsterhaltender Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Yolngu-Führer, Landrechte-Aktivist, 1948&ndash;2023 &ndash; Tierentsprechung: Orang-Utan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Orang-Utan, der sein Land nie verließ</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> verteidigt kein fremdes Territorium – er verteidigt das eigene, und zwar mit einer Beharrlichkeit, die sich über ein ganzes Leben erstrecken kann. Galarrwuy Yunupingu, 1948 im Arnhemland im Norden Australiens geboren, wuchs als Sohn eines Ältesten des Gumatj-Klans der Yolngu auf – jenes Landes, das er sein gesamtes Erwachsenenleben lang verteidigte, ohne es je wirklich zu verlassen.</p>
+          <p class="vb-intro">1963, als er noch ein Teenager war, unterzeichnete sein Vater die berühmten Bark-Petitionen von Yirrkala – handgemalte Rindenbilder mit angehefteten Textpetitionen an das australische Parlament, mit denen die Yolngu gegen den Abbau ihres Landes für eine Bauxitmine protestierten. Es war die erste offizielle Anerkennung indigenen Landrechts-Anliegens in der australischen Verfassungsgeschichte – und Galarrwuy Yunupingu wuchs mitten in diesem Kampf auf, den er später sein Lebenswerk nennen sollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Selbsterhaltungs-Acht: Land als unveräußerliches Eigentum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> investiert ihre Kraft nach Naranjo nicht in eine abstrakte, weite Mission, sondern in die kompromisslose Sicherung des eigenen, engsten Terrains. Bei kaum einer anderen Persönlichkeit in diesem Kompass ist das so wörtlich zu nehmen wie bei Yunupingu: Sein Lebensthema war buchstäblich Land – das Land seiner Vorfahren, das er als Vorsitzender des Northern Land Council über Jahrzehnte hinweg gegen Bergbaukonzerne und die australische Regierung verteidigte.</p>
+          <p class="vb-intro">1971 verlor er mit seinem Onkel den ersten großen Landrechtsprozess der australischen Geschichte, Milirrpum gegen Nabalco – juristisch eine Niederlage, politisch aber der Auftakt zu einer jahrzehntelangen, nie nachlassenden Kampagne, die schließlich 1976 zum Aboriginal Land Rights Act führte. Diese Ausdauer, ein Territorium über Rückschläge hinweg zu verteidigen, statt es aufzugeben, ist reine SE8-Logik.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Verhandeln statt Konfrontation um jeden Preis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> zeigt sich bei Yunupingu nicht als Rückzug, sondern als eine ruhige, verhandlungsbereite Grundhaltung, die der Acht ihre reine Konfrontationslust nimmt. Trotz jahrzehntelanger, oft frustrierender Auseinandersetzungen mit Regierungen und Bergbaukonzernen setzte er konsequent auf Verhandlung, Verträge und juristische Mittel statt auf offene Eskalation – eine Zähigkeit, die sich in ruhiger Beharrlichkeit ausdrückte, nicht in Lautstärke.</p>
+          <p class="vb-intro">1978 wurde er als erster Aborigine zum Australier des Jahres gewählt – eine Anerkennung, die er nutzte, um weiter für sein Volk zu verhandeln, nicht um sich selbst in den Mittelpunkt zu stellen. Über vier Jahrzehnte blieb er dem Northern Land Council in wechselnden Funktionen verbunden, ein Fels, der immer wieder an denselben Verhandlungstisch zurückkehrte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Bark-Petition-Erbe zum Native Title Act</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Yunupingus Wirken reicht von den frühen Landrechtskämpfen der 1960er-Jahre über seine Rolle als Vorsitzender des Northern Land Council (mit Unterbrechungen von 1977 bis 2004) bis zu den Verhandlungen um den Native Title Act nach dem wegweisenden Mabo-Urteil von 1992. Er war maßgeblich an der Aushandlung zahlreicher Landrechtsabkommen beteiligt, die weit über sein eigenes Gumatj-Territorium hinaus Wirkung entfalteten.</p>
+          <p class="vb-intro">Auch am Barunga Statement von 1988, das den damaligen Premierminister Bob Hawke zu einem (nie eingelösten) Versprechen eines Vertrags mit den Aborigines bewegte, wirkte er mit – ein weiterer Baustein in einem Lebenswerk, das stets dasselbe Ziel verfolgte: das eigene Land und die Souveränität der eigenen Gemeinschaft rechtlich absichern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Acht mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE8w9 zeigt sich in Yunupingus lebenslanger, nie erlahmender Verteidigung seines Landes und seiner Gemeinschaft – eine Standfestigkeit, die über ein halbes Jahrhundert nicht nachließ, obwohl viele Kämpfe verloren gingen, bevor sie gewonnen wurden.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in wiederkehrenden internen Konflikten innerhalb der Landrechtsbewegung, in denen Yunupingus kompromissloser Führungsstil auch auf Widerstand aus den eigenen Reihen stieß – die Kehrseite einer Territorialverteidigung, die sich mitunter schwertat, Kontrolle zu teilen, selbst mit Verbündeten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Land, das er nie aufgab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Galarrwuy Yunupingu starb 2023 in seinem Heimatland Arnhemland – demselben Land, für das er sein gesamtes Erwachsenenleben gekämpft hatte. Der Orang-Utan verließ seinen Ast nie wirklich; er verteidigte ihn, Verhandlung um Verhandlung, Vertrag um Vertrag, bis das Land, in dem er geboren wurde, rechtlich und kulturell abgesichert an die nächste Generation überging.</p>
+          <p class="vb-intro">Seine Nichte <a href="javascript:void(0)" data-route="beruehmte-dhapanbal-yunupingu">Dhapanbal Yunupingu</a> (SE8w9), Tochter seines jüngeren Bruders Dr. M. Yunupingu (Yothu Yindi), trägt aus einer jüngeren Generation heraus dasselbe Prinzip weiter – ein kulturelles Erbe still zu beanspruchen, statt es zu vermarkten.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
+          {route:"beruehmte-dhapanbal-yunupingu", label:"Porträt: Dhapanbal Yunupingu (SE8w9) – dasselbe Prinzip, jüngere Generation"},
+          {route:"beruehmte-helmut-kohl", label:"Porträt: Helmut Kohl (SE8w9) – ebenfalls derselbe Subtyp"},
+        ])}
+      </div>
+    </div>
+  `);
+}
