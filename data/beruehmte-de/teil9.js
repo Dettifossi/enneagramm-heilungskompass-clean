@@ -1942,7 +1942,7 @@ export function louiseHayPortraitPage() {
 
         <h2 class="vb-section">1. Der Wolf, der der Angst den Krieg erklärte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Tier, das Bedrohung nicht meidet, sondern ihr direkt ins Auge sieht. Louise Hay, 1926 als Helen Vera Lunney in Armut in Los Angeles geboren, erlebte als Fünfjährige sexuellen Missbrauch durch einen Nachbarn und wuchs mit einem gewalttätigen Stiefvater auf. Mit fünfzehn brach sie die Schule ab, mit sechzehn brachte sie ein Kind zur Welt, das zur Adoption freigegeben wurde. Wenig später verließ sie zuhause – eine Kindheit, in der Angst nicht die Ausnahme, sondern der Normalzustand war.</p>
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Tier, das Bedrohung nicht meidet, sondern ihr direkt ins Auge sieht. Louise Hay, 1926 als Helen Vera Lunney in Armut in Los Angeles geboren, erlebte als Fünfjährige sexuellen Missbrauch durch einen Nachbarn und wuchs mit einem gewalttätigen Stiefvater auf. Mit fünfzehn brach sie die Schule ab, mit sechzehn brachte sie ein Kind zur Welt, das zur Adoption freigegeben wurde. Wenig später verließ sie ihr Zuhause – eine Kindheit, in der Angst nicht die Ausnahme, sondern der Normalzustand war.</p>
           <p class="vb-intro">Statt sich von dieser Angst dauerhaft lähmen zu lassen, baute Hay ihr gesamtes späteres Leben auf der Überzeugung auf, dass genau diese Angst besiegbar sei – nicht durch Vermeidung, sondern durch direkte, wiederholte Konfrontation mit ihr. Der Wolf verkriecht sich nicht; er lernt, der Bedrohung mit erhobenem Kopf zu begegnen.</p>
         </blockquote>
 
