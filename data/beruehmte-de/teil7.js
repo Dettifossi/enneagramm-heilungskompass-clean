@@ -1937,3 +1937,69 @@ export function virgilVanDijkPortraitPage() {
     </div>
   `);
 }
+
+export function haraldVPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-harald-v-portrait.jpg" alt="König Harald V." class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">König Harald V.</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">König von Norwegen 1991–2026, 1937–2026 – Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins – ein Tier, das seinen Posten nicht verlässt, keine Bühne braucht und keine Zustimmung sucht. Harald wurde 1937 als Sohn von Kronprinz Olav und Prinzessin Märtha auf dem Gut Skaugum geboren. Als die deutsche Wehrmacht 1940 Norwegen besetzte, floh die königliche Familie – die Kindheitsjahre verbrachte er im Exil in Schweden und den USA, unter anderem in Washington, wo er 1945 hinter Franklin D. Roosevelt bei dessen vierter Amtseinführung stand.</p>
+          <p class="vb-intro">1957 starb sein Großvater König Haakon VII., und Harald wurde mit zwanzig Jahren Kronprinz. Er studierte an der Militärakademie und am Balliol College in Oxford Geschichte, Wirtschaft und Politik. Als sein Vater am 17. Januar 1991 starb, bestieg er den Thron – der erste in Norwegen geborene Monarch seit 1387. Fünfunddreißig Jahre lang blieb er auf diesem Posten, bis zu seinem Tod am 28. August 2026 im Alter von 89 Jahren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Der Eid, der nicht verhandelbar war</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> trägt ihren Perfektionsanspruch nicht nach außen, sondern nach innen – Naranjo nannte diesen Subtyp <em>Worry</em>, Besorgnis: die ständige innere Frage, ob man der eigenen Aufgabe wirklich gerecht wird. Bei Harald V. zeigte sich das in einer Konsequenz, die selbst für einen Monarchen ungewöhnlich war: Trotz Blasenkrebs (2003), zweier Herzoperationen (2005 und 2020), mehrerer Beinoperationen, wiederholter Atemwegsinfekte, zweimaliger Covid-Erkrankung und eines dauerhaften Herzschrittmachers (2024) dachte er nie ernsthaft an Abdankung. Auf die Frage der Presse antwortete er sinngemäß, er stehe zu seinem Verfassungseid – auf Lebenszeit.</p>
+          <p class="vb-intro">Genau das ist die SE1: keine öffentlich zur Schau gestellte Pflichterfüllung, sondern eine private, innerlich getragene Verpflichtung, die auch dann gilt, wenn niemand sie einfordert. Der eigene Körper wurde zur Nebensache, solange der Eid noch zu halten war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Neun Jahre warten, ohne zu kämpfen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der selbsterhaltenden Eins etwas, das eine SE1 mit schwächer ausgeprägtem Neunerflügel nicht in demselben Maß hätte: die Fähigkeit, an einer als richtig erkannten Entscheidung ruhig, ohne Eskalation, aber auch ohne Nachgeben festzuhalten. Harald lernte die Bürgerliche Sonja Haraldsen 1959 kennen. Sein Vater lehnte eine Verbindung mit einer Nicht-Adligen zunächst entschieden ab. Es folgten neun Jahre – kein offener Bruch, kein Skandal, sondern ein stilles, unbewegliches Beharren, bis Harald 1968 erklärte, er werde entweder Sonja heiraten oder gar nicht. Sein Vater gab nach.</p>
+          <p class="vb-intro">Dieselbe Qualität trug seine fast sechzig Jahre währende Segelleidenschaft: drei Olympia-Teilnahmen (1964, 1968, 1972), WM-Gold 1987, WM-Bronze 1988, Gründungspräsident des norwegischen Segelverbands, aktiv bis 2022. Kein lauter Sport, sondern eine einzige, über ein ganzes Leben gepflegte, ruhige Disziplin – der Neunerflügel braucht seinen Anker, und er fand ihn auf dem Wasser.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Zorn als stille Beharrlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> – bei der SE1w9 nicht als sichtbare Härte, sondern als unerbittliche innere Disziplin, die niemand von außen bemerkt. Bei Harald V. äußerte sich das gerade nicht in Strenge, sondern im Gegenteil: Er wurde als „Großvater der Nation" geliebt, mit ruhigem Humor und beruhigender Präsenz bei der Neujahrssturmflut 1992, den Anschlägen von Utøya 2011 und der Corona-Pandemie. Der Zorn der Eins richtete sich nach innen, gegen die eigene Nachlässigkeit – nicht gegen andere.</p>
+          <p class="vb-intro">Am deutlichsten zeigt sich dieses Muster in seiner Jubiläumsrede von 2016: „Norweger sind Mädchen, die Mädchen lieben, Jungen, die Jungen lieben … Norweger glauben an Gott, Allah, das Universum und nichts." Keine Anklage, keine Konfrontation – sondern der stille moralische Anspruch der Eins, das Richtige zu benennen, getragen vom Neunerflügel in einer Form, die niemanden ausschloss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 ist eine Beständigkeit, die über Jahrzehnte trägt, ohne sich in den Vordergrund zu drängen. Harald V. hielt fünfunddreißig Jahre lang die Mitte eines Landes, das sich um ihn herum wandelte – Ölboom, EU-Debatten, gesellschaftliche Öffnung, Pandemie –, ohne je selbst zum Streitpunkt zu werden. Als am Tag seines Todes rund 10.000 Menschen mit Blumen und Fahnen an den Straßen Oslos standen, zeigte sich, wie tief diese stille Verlässlichkeit gewirkt hatte.</p>
+          <p class="vb-intro">Der Schatten der SE1w9 liegt darin, dass die innere Pflichterfüllung auch dann weitergeht, wenn der Körper längst nach Ruhe verlangt. Harald V. hätte spätestens nach dem zweiten Herzeingriff 2020 zurücktreten können, wie es andere europäische Monarchen taten. Er tat es nicht. Der Adler blieb auf seinem Felsen, bis es keine andere Möglichkeit mehr gab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Adler, der seinen Posten nie verließ</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">König Harald V. verkörperte die selbsterhaltende Eins mit Neunerflügel in einer Form, die auffällige Parallelen zu <a href="#beruehmte-queen-elizabeth-ii">Queen Elizabeth II. (SE1w9)</a> aufweist: ein Amt auf Lebenszeit, das bis zum letzten Atemzug ausgefüllt wurde; eine öffentliche Zurückhaltung, die nie als Kälte, sondern als Verlässlichkeit gedeutet wurde; ein privater Anker – bei Elizabeth die Corgis und Balmoral, bei Harald der Segelsport und die neun geduldig durchgehaltenen Jahre bis zur eigenen Eheschließung.</p>
+          <p class="vb-intro">Nach 35 Jahren auf dem Thron folgte ihm sein Sohn Haakon als König nach. Der Adler hat seinen Felsen verlassen – aber die Verlässlichkeit, für die er stand, bleibt das, woran sich ein ganzes Land noch lange erinnern wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-sting", label:"Porträt: Sting (SE1w9)"},
+        {route:"beruehmte-reinhold-messner", label:"Porträt: Reinhold Messner (SE1w9)"},
+      ])}
+    </div>
+  `);
+}

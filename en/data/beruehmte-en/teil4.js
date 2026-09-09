@@ -1376,6 +1376,7 @@ export function queenElizabethIIPortraitPage() {
         {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
         {route:"beruehmte-ludwig-wittgenstein", label:"Portrait: Ludwig Wittgenstein (SE1w9)"},
+        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SE1w9)"},
       ])}
     </div>
   `);

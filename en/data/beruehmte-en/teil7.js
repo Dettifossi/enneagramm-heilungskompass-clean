@@ -1917,3 +1917,69 @@ export function virgilVanDijkPortraitPage() {
     </div>
   `);
 }
+
+export function haraldVPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-harald-v-portrait.jpg" alt="King Harald V" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">King Harald V</p>
+        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with a Nine Wing</p>
+        <p class="krim-portrait-subtitle">King of Norway 1991–2026, 1937–2026 – Animal equivalent: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One – an animal that never abandons its post, needs no stage, and seeks no applause. Harald was born in 1937 to Crown Prince Olav and Princess Märtha at the Skaugum estate. When the Wehrmacht occupied Norway in 1940, the royal family fled – he spent his childhood years in exile in Sweden and the United States, including Washington, D.C., where in 1945 he stood behind Franklin D. Roosevelt at his fourth inauguration.</p>
+          <p class="vb-intro">In 1957 his grandfather King Haakon VII died, and at twenty Harald became Crown Prince. He studied at the military academy and at Balliol College, Oxford, reading history, economics, and politics. When his father died on January 17, 1991, he ascended to the throne – the first Norwegian-born monarch since 1387. He remained on that post for thirty-five years, until his death on August 28, 2026, at age 89.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: The Oath That Wasn't Negotiable</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> carries its perfectionism inward rather than outward – Naranjo called this subtype <em>Worry</em>: the constant inner question of whether one is truly doing justice to one's task. In Harald V this showed with a consistency unusual even for a monarch: despite bladder cancer (2003), two heart surgeries (2005 and 2020), several leg operations, repeated respiratory infections, Covid-19 twice, and a permanent pacemaker (2024), he never seriously considered abdicating. Asked by the press, he replied in essence that he stood by his constitutional oath – for life.</p>
+          <p class="vb-intro">That is the SE1: not a publicly performed sense of duty, but a private, inwardly carried obligation that holds even when nobody demands it. His own body became a secondary concern for as long as the oath still had to be kept.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine Wing: Nine Years of Waiting Without a Fight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine wing (w9)</strong> gives the self-preservation One something a SE1 with a more weakly developed Nine wing would not have to the same degree: the ability to hold quietly, without escalation but also without yielding, to a decision recognized as right. Harald met commoner Sonja Haraldsen in 1959. His father initially opposed the match firmly. Nine years followed – no open rupture, no scandal, just a quiet, immovable persistence, until in 1968 Harald declared he would either marry Sonja or no one. His father relented.</p>
+          <p class="vb-intro">The same quality carried his nearly sixty-year passion for sailing: three Olympic appearances (1964, 1968, 1972), a World Championship gold in 1987 and bronze in 1988, founding president of the Norwegian Sailing Federation, active until 2022. Not a loud sport, but a single, quiet discipline tended across an entire lifetime – the Nine wing needs its anchor, and it found one on the water.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Anger as Quiet Persistence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the One is called <strong>anger</strong> – for the SE1w9 not as visible harshness, but as an unrelenting inner discipline nobody from outside notices. In Harald V this showed as the very opposite of severity: he was loved as the "grandfather of the nation," with quiet humor and a reassuring presence during the 1992 New Year's storm, the 2011 Utøya attacks, and the Covid-19 pandemic. The One's anger turned inward, against his own lapses – never outward, against others.</p>
+          <p class="vb-intro">This pattern shows most clearly in his 2016 anniversary speech: "Norwegians are girls who love girls, boys who love boys... Norwegians believe in God, Allah, the Universe and nothing." No accusation, no confrontation – just the One's quiet moral insistence on naming what is right, carried by the Nine wing in a form that excluded no one.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE1w9 is a constancy that holds for decades without pushing itself into the foreground. Harald V held the center of a country that transformed around him for thirty-five years – oil boom, EU debates, social liberalization, pandemic – without himself ever becoming a point of contention. When roughly 10,000 people lined Oslo's streets with flowers and flags on the day of his death, it showed how deeply this quiet reliability had taken hold.</p>
+          <p class="vb-intro">The shadow of the SE1w9 lies in the fact that this inner sense of duty keeps going even when the body has long been asking for rest. Harald V could have stepped down at the latest after his second heart procedure in 2020, as other European monarchs did. He did not. The eagle stayed on its cliff until there was no other way left.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Eagle Who Never Left Its Post</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">King Harald V embodied the self-preservation One with a Nine wing in a form that shows striking parallels to <a href="#beruehmte-queen-elizabeth-ii">Queen Elizabeth II (SE1w9)</a>: an office held for life, filled to the very last breath; a public reserve never read as coldness but as reliability; a private anchor – for Elizabeth the corgis and Balmoral, for Harald the sailing and the nine patiently endured years before his own marriage.</p>
+          <p class="vb-intro">After 35 years on the throne, his son Haakon succeeded him as king. The eagle has left its cliff – but the reliability he stood for is what an entire country will remember for a long time to come.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
+        {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
+        {route:"beruehmte-reinhold-messner", label:"Portrait: Reinhold Messner (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
