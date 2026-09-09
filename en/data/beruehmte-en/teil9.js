@@ -1926,3 +1926,68 @@ export function zoeKravitzPortraitPage() {
     </div>
   `);
 }
+
+export function louiseHayPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-louise-hay-portrait.jpg" alt="Louise Hay – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Louise Hay</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with a Seven-Wing</p>
+        <p class="krim-portrait-subtitle">Self-help author, founder of Hay House, 1926–2017 – Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf Who Declared War on Fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of the Sexual Six – an animal that does not avoid threat but looks it directly in the eye. Louise Hay, born Helen Vera Lunney in 1926 into poverty in Los Angeles, experienced sexual abuse by a neighbor at age five and grew up with a violent stepfather. At fifteen she dropped out of school; at sixteen she gave birth to a child who was given up for adoption. Shortly after, she left home – a childhood in which fear was not the exception but the baseline condition.</p>
+          <p class="vb-intro">Rather than letting that fear permanently paralyze her, Hay built her entire later life on the conviction that this exact fear could be defeated – not through avoidance, but through direct, repeated confrontation with it. The wolf doesn't hide; it learns to meet the threat head-on.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: Fear as an Enemy to Be Defeated</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Six (SX6)</strong> meets threat, according to Naranjo, not with retreat but with counterattack – security arises through actively overpowering one's own fear, not through accommodating it. Hay's entire life's work can be read as a single, decades-long confrontation strategy against fear: her affirmation technique called on people to stand up against their own fear and self-loathing daily, out loud, and repeatedly, rather than suppressing it.</p>
+          <p class="vb-intro">When she was diagnosed with what was considered incurable cervical cancer in 1977/78, she declined conventional treatment and met her own fear of death with exactly the same frontal confrontation she preached to others – through forgiveness work, dietary changes, and daily affirmations. Whether this approach was the actual cause of her recovery is not medically established; what matters for the typing is the stance behind it: no surrender to fear, but an attempt to defeat it through sheer willpower.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Out of the Darkness Into the Boundlessly Positive</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing</strong> shows up in Hay through the striking breadth and unbroken optimism of her work. Rather than confining herself to a single trauma topic, she developed a universal system that traced literally every physical ailment – from acne to cancer – back to a psychological pattern, and thereby made it seem solvable. This tendency to instantly transform any darkness into a hopeful, actionable message is pure Seven energy, combined with the Sexual Six's use of exactly that hope as a weapon against its own fear.</p>
+          <p class="vb-intro">Hay House, the publishing company she founded in 1984 and which had more than 130 authors under contract by 2015, reaching far beyond Hay's own topic into nutrition, spirituality, business, and self-help, shows the same Seven-typical breadth: never stay on one topic, always open up new facets of positive thinking.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The "Hayrides": Defeating Fear Together With the Most Afraid</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the mid-1980s, at the height of the AIDS epidemic and the social stigmatization of those affected, Hay founded the "Hayrides" support group in West Hollywood – initially for a handful of people, later for more than 800, mostly gay men confronting their diagnosis and approaching mortality. She walked directly into a space most of the public avoided out of fear, and confronted the collective fear of death of an entire generation.</p>
+          <p class="vb-intro">This willingness to confront the greatest social fear of her era directly and publicly, rather than avoiding it, is perhaps the clearest expression of the Sexual Six in her work – not retreat from the unspeakable, but active, repeated confrontation with it, week after week, alongside those affected themselves.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Six with a Seven-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w7 shows in the genuine comfort Hay gave hundreds of dying men at a time when churches, families, and even parts of the healthcare system turned away from them – a concrete, lived form of courage against collective fear.</p>
+          <p class="vb-intro"><strong>Important note:</strong> Hay's core thesis, that physical illness is fundamentally rooted in a lack of self-love or unresolved emotional patterns, is not scientifically established and is contested among experts – it carries the risk of blaming the sick for their own illness and of discouraging necessary medical treatment. This shadow side shows how the Six's need to defeat fear through a closed explanatory system can turn into an oversimplification that blocks out complex medical reality.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Wolf Who Wanted to Take Fear From Millions</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Louise Hay died in 2017 at age 90, after her book "You Can Heal Your Life" (1984) had sold more than 50 million copies worldwide and Hay House had become one of the most influential self-help publishers in the world. From an abused child to the founder of a global empire of self-love – her whole life remained an attempt to take from others, out of her own deepest fear, the very fear she once carried herself.</p>
+          <p class="vb-intro">A comparison within the same subtype in this compass: <a href="javascript:void(0)" data-route="beruehmte-eva-mendes">Eva Mendes</a> (SX6w7) shows a related pattern – from an anxious child in an immigrant family to a self-assured sex symbol, by facing her own fear directly rather than avoiding it.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+          {route:"beruehmte-eva-mendes", label:"Portrait: Eva Mendes (SX6w7) – also the same subtype"},
+          {route:"beruehmte-heather-thomas", label:"Portrait: Heather Thomas (SX6w7)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

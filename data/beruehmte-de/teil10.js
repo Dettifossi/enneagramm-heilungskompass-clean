@@ -458,6 +458,7 @@ export function evaMendesPortraitPage() {
         {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SX6w7)"},
         {route:"beruehmte-heather-thomas", label:"Porträt: Heather Thomas (SX6w7)"},
         {route:"beruehmte-olena-zelenska", label:"Porträt: Olena Zelenska (SX6w7)"},
+        {route:"beruehmte-louise-hay", label:"Porträt: Louise Hay (SX6w7) – ebenfalls derselbe Subtyp"},
       ])}
     </div>
   `);

@@ -1924,3 +1924,68 @@ export function zoeKravitzPortraitPage() {
     </div>
   `);
 }
+
+export function louiseHayPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-louise-hay-portrait.jpg" alt="Louise Hay – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Louise Hay</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Selbsthilfe-Autorin, Gründerin von Hay House, 1926&ndash;2017 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf, der der Angst den Krieg erklärte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Tier, das Bedrohung nicht meidet, sondern ihr direkt ins Auge sieht. Louise Hay, 1926 als Helen Vera Lunney in Armut in Los Angeles geboren, erlebte als Fünfjährige sexuellen Missbrauch durch einen Nachbarn und wuchs mit einem gewalttätigen Stiefvater auf. Mit fünfzehn brach sie die Schule ab, mit sechzehn brachte sie ein Kind zur Welt, das zur Adoption freigegeben wurde. Wenig später verließ sie zuhause – eine Kindheit, in der Angst nicht die Ausnahme, sondern der Normalzustand war.</p>
+          <p class="vb-intro">Statt sich von dieser Angst dauerhaft lähmen zu lassen, baute Hay ihr gesamtes späteres Leben auf der Überzeugung auf, dass genau diese Angst besiegbar sei – nicht durch Vermeidung, sondern durch direkte, wiederholte Konfrontation mit ihr. Der Wolf verkriecht sich nicht; er lernt, der Bedrohung mit erhobenem Kopf zu begegnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Angst als Gegner, der besiegt werden muss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> begegnet Bedrohung nach Naranjo nicht mit Rückzug, sondern mit Gegenangriff – Sicherheit entsteht durch aktives Bezwingen der eigenen Furcht, nicht durch Anpassung an sie. Hays gesamtes Lebenswerk lässt sich als eine einzige, jahrzehntelange Konfrontationsstrategie gegen die Angst lesen: ihre Affirmationstechnik forderte Menschen dazu auf, sich täglich, laut und wiederholt gegen die eigene Furcht und Selbstverachtung zu stellen, statt sie zu verdrängen.</p>
+          <p class="vb-intro">Als bei ihr 1977/78 ein als unheilbar geltender Gebärmutterhalskrebs diagnostiziert wurde, lehnte sie eine konventionelle Behandlung ab und begegnete der eigenen Todesangst mit genau derselben Frontalkonfrontation, die sie auch anderen predigte – durch Vergebungsarbeit, Ernährungsumstellung und tägliche Affirmationen. Ob dieser Ansatz die tatsächliche Ursache ihrer Genesung war, ist medizinisch nicht belegt; entscheidend für die Typisierung ist die Haltung dahinter: keine Kapitulation vor der Angst, sondern der Versuch, sie mit bloßer Willenskraft zu besiegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Aus dem Dunkel ins grenzenlos Positive</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> zeigt sich bei Hay in der auffälligen Breite und dem ungebrochenen Optimismus ihres Wirkens. Statt sich auf ein einzelnes Trauma-Thema zu beschränken, entwickelte sie ein universelles System, das buchstäblich jede körperliche Beschwerde – von Akne bis Krebs – auf ein psychologisches Muster zurückführte und damit lösbar erscheinen ließ. Diese Tendenz, jede Dunkelheit sofort in eine hoffnungsvolle, umsetzbare Botschaft zu verwandeln, ist reine Siebener-Energie, verbunden mit der sexuellen Sechs, die genau diese Hoffnung als Waffe gegen die eigene Furcht einsetzt.</p>
+          <p class="vb-intro">Auch der 1984 gegründete Verlag Hay House, der bis 2015 über 130 Autoren unter Vertrag hatte und weit über Hays eigenes Thema hinaus in Ernährung, Spiritualität, Wirtschaft und Selbsthilfe hineinwirkte, zeigt dieselbe siebenertypische Weite: nie bei einem Thema stehen bleiben, immer neue Facetten des positiven Denkens erschließen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die „Hayrides": Angst mit den Ängstlichsten gemeinsam bezwingen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mitte der 1980er-Jahre, auf dem Höhepunkt der AIDS-Epidemie und der gesellschaftlichen Stigmatisierung Betroffener, gründete Hay in West Hollywood die Selbsthilfegruppe „Hayrides" – zunächst für eine Handvoll, später für über 800 überwiegend schwule Männer, die mit der Diagnose und der nahenden eigenen Sterblichkeit konfrontiert waren. Sie ging damit direkt in einen Raum, den die meiste Öffentlichkeit aus Angst mied, und stellte sich der kollektiven Todesfurcht einer ganzen Generation.</p>
+          <p class="vb-intro">Diese Bereitschaft, sich der größten gesellschaftlichen Angst ihrer Zeit direkt und öffentlich entgegenzustellen, statt ihr auszuweichen, ist der wohl deutlichste Ausdruck der sexuellen Sechs in ihrem Wirken – nicht Rückzug vor dem Unaussprechlichen, sondern aktive, wiederholte Konfrontation damit, Woche für Woche, gemeinsam mit den Betroffenen selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Sechs mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 zeigt sich in dem echten Trost, den Hay hunderten sterbenden Männern in einer Zeit spendete, in der Kirchen, Familien und selbst Teile des Gesundheitssystems sich von ihnen abwandten – eine konkrete, gelebte Form von Mut gegen kollektive Angst.</p>
+          <p class="vb-intro"><strong>Wichtiger Hinweis:</strong> Hays Kernthese, wonach körperliche Krankheiten grundsätzlich auf mangelnde Selbstliebe oder ungelöste emotionale Muster zurückzuführen seien, ist wissenschaftlich nicht belegt und in der Fachwelt umstritten – sie birgt das Risiko, Erkrankten die Schuld an der eigenen Krankheit zuzuschreiben und von notwendiger medizinischer Behandlung abzuhalten. Diese Schattenseite zeigt, wie aus dem Sechser-Bedürfnis, die Angst durch ein geschlossenes Erklärungssystem zu bezwingen, eine Vereinfachung werden kann, die komplexe medizinische Realität ausblendet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Wolf, der Millionen die Angst nehmen wollte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Louise Hay starb 2017 im Alter von 90 Jahren, nachdem ihr Buch „Heile deinen Körper" (You Can Heal Your Life, 1984) weltweit über 50 Millionen Mal verkauft worden war und Hay House zu einem der einflussreichsten Selbsthilfe-Verlage der Welt geworden war. Vom missbrauchten Kind zur Gründerin eines globalen Imperiums der Selbstliebe – ihr ganzes Leben blieb ein Versuch, aus der eigenen, tiefsten Angst heraus anderen Menschen die ihrige zu nehmen.</p>
+          <p class="vb-intro">Ein Vergleich im selben Subtyp-Feld dieses Kompasses: <a href="javascript:void(0)" data-route="beruehmte-eva-mendes">Eva Mendes</a> (SX6w7) zeigt ein verwandtes Muster – vom ängstlichen Kind einer Einwandererfamilie zum selbstbewussten Sexsymbol, indem sie der eigenen Angst nicht auswich, sondern sich ihr direkt stellte.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+          {route:"beruehmte-eva-mendes", label:"Porträt: Eva Mendes (SX6w7) – ebenfalls derselbe Subtyp"},
+          {route:"beruehmte-heather-thomas", label:"Porträt: Heather Thomas (SX6w7)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
