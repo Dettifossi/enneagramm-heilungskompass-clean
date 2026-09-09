@@ -1968,7 +1968,7 @@ export function guentherKrabbenhoeftPortraitPage() {
         <h2 class="vb-section">4. Die Leidenschaft: Unmäßigkeit, gebändigt durch ein Leben lang Struktur</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Unmäßigkeit</strong> – bei der SO7 nicht als zügellose Suche nach immer neuen Reizen, sondern als eine Begeisterungsfähigkeit, die sich in feste Bahnen legt. Krabbenhöft entdeckte seine Liebe zur Technoszene erst spät, als Freunde ihn ins Berghain mitnahmen, wo er acht Stunden am Stück tanzte – eine für sein Alter ungewöhnliche, geradezu grenzenlose Ausdauer. Doch diese Grenzenlosigkeit bleibt eingebettet in ein Leben, das fünfzig Jahre lang von Struktur, Pflicht und Verlässlichkeit geprägt war.</p>
-          <p class="vb-intro">„Ich kleide mich für mich, nicht für andere", sagt er über seinen Stil – ein Satz, der zunächst nach reinem Selbstgenuss klingt. Doch sein eigentliches Ziel formuliert er anders: „Ich möchte mein Herz mit schönen Gedanken und Gefühlen füllen." Das ist keine Suche nach dem nächsten Kick, sondern das Bedürfnis, eine innere Fülle aufzubauen – und diese Fülle, siebentypisch, mit anderen zu teilen.</p>
+          <p class="vb-intro">„Ich kleide mich für mich, nicht für andere", sagt er über seinen Stil – ein Satz, der zunächst nach reinem Selbstgenuss klingt. Doch sein eigentliches Ziel formuliert er anders: „Ich möchte mein Herz mit schönen Gedanken und Gefühlen füllen." Das ist keine Suche nach dem nächsten Kick, sondern das Bedürfnis, eine innere Fülle aufzubauen – und diese Fülle, siebenertypisch, mit anderen zu teilen.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten der sozialen Sieben</h2>
