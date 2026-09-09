@@ -1960,7 +1960,7 @@ export function idaPfeifferPortraitPage() {
         <h2 class="vb-section">3. Der Sechserflügel: Mut, der sich der Gefahr bewusst stellte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Sechserflügel</strong> zeigt sich bei Pfeiffer nicht als Ängstlichkeit, sondern als wache, oft kontraphobische Bereitschaft, sich Gefahr direkt auszusetzen, statt ihr auszuweichen. Sie bestieg aktive Vulkane, reiste in politisch instabile Regionen und geriet auf Madagaskar unwissentlich in eine höfische Verschwörung gegen Königin Ranavalona I. – mit der Folge, dass sie des Landes verwiesen wurde und sich dabei die Krankheit zuzog, an der sie 1858 in Wien starb.</p>
-          <p class="vb-intro">Diese Kombination aus Sieben-Verlangen und Sechser-Wachsamkeit erklärt, warum Pfeiffer nie als naive Abenteurerin auftrat, sondern als jemand, die sich der realen Risiken ihrer Reisen sehr bewusst war – und trotzdem, oder gerade deshalb, immer wieder in sie hineinging.</p>
+          <p class="vb-intro">Diese Kombination aus Siebener-Verlangen und Sechser-Wachsamkeit erklärt, warum Pfeiffer nie als naive Abenteurerin auftrat, sondern als jemand, die sich der realen Risiken ihrer Reisen sehr bewusst war – und trotzdem, oder gerade deshalb, immer wieder in sie hineinging.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Das Werk: Sammlerin quer durch alle Naturreiche</h2>
