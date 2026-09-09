@@ -1903,3 +1903,68 @@ export function sergioBambarenPortraitPage() {
     </div>
   `);
 }
+
+export function jerryLewisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jerry-lewis-portrait.jpg" alt="Jerry Lewis – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jerry Lewis</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with a Three Wing</p>
+        <p class="krim-portrait-subtitle">1926–2017 – American comedian, director, philanthropist – Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever Who Needed to Be Loved</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the Social Two – warm, devoted, irresistibly driven to be needed and loved. Jerry Lewis, born Joseph Levitch in 1926 in Newark, New Jersey, grew up largely with relatives while his vaudevillian parents toured – expelled from two schools, he had already developed a record-miming routine as a child that reliably brought him applause and attention he often lacked elsewhere.</p>
+          <p class="vb-intro">This early pattern – earning affection through performance rather than mere presence – carried him through his entire life. The Golden Retriever doesn't wag its tail by accident when it steps on stage; it has learned that this is exactly where the love it couldn't rely on elsewhere is waiting.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Needed by the Audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Two (SO2)</strong> seeks belonging not in a single relationship but in the wider collective – a congregation, an audience, an entire society. Naranjo called this subtype <em>Ambition</em>: the drive to become indispensable through impact on a larger field. When his years-long partnership with Dean Martin broke apart in 1956, Lewis later described an outright breakdown – he "couldn't put one foot in front of the other," utterly unmoored at suddenly being alone. It wasn't the loss of a creative sparring partner that threw him off course, but the loss of the bond itself.</p>
+          <p class="vb-intro">Only when he spontaneously stepped in for Judy Garland and the crowd, as he experienced it, "exploded," did he regain his confidence. From that moment on, Lewis sought an even larger, more reliable source of being needed – and found it from 1966 onward in the annual Labor Day Telethon for the Muscular Dystrophy Association, which he hosted for 44 years and made the center of his public life. Over $2.6 billion was raised through "Jerry's Kids" – an institution built entirely around his own person as an indispensable benefactor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Charity as Record, Directing as Control</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing</strong> turns the Two's giving into visible, measurable achievement. In Lewis this showed in the sheer scale of the telethon numbers, publicly announced year after year, but also in his work as a self-declared "total filmmaker": he wrote, directed, produced, and starred simultaneously, and had "unlimited creative control" written into his contracts. To review every take instantly, he developed video-assist technology that later became an industry standard – perfectionism as visible, measurable mastery over his own impact.</p>
+          <p class="vb-intro">Even at 90, he still performed. Asked how he wanted posterity to remember him, he answered, in substance, that this didn't interest him at all – what interested him was the recognition, in the moment of performing itself, from the people who were actually there. No legacy, no idea meant to outlast him, but the immediate, personal confirmation of being appreciated in the moment of encounter – the purest form of Two motivation, amplified by a Three-wing that wanted that confirmation made publicly visible and measurable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 shows in the sheer impact of his charity work: few individuals in the US have mobilized as much money for a single disease as Lewis did over four decades of telethon work.</p>
+          <p class="vb-intro">The Two's fatal flaw is <strong>pride</strong> – the conviction of being indispensable, paired with difficulty recognizing one's own neediness behind it. In Lewis this showed in growing controversy: disability activists, led by the group "Jerry's Orphans," accused him of a rhetoric that framed those affected as pitiable "kids," whose suffering above all magnified his own role as savior – pity as a stage for his own indispensability rather than genuine respect for the people he meant to help.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. When the Recognition Failed to Come</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">When Lewis's central role was called into question, the same caregiving quickly tipped into control and anger. During the 1976 Broadway production of "Hellzapoppin," he refused to rehearse with his co-star, and openly clashed with the producer, writer, and cast – the show was cancelled before it reached New York. After a stage fall in 1965, he became dependent on the painkiller Percodan for thirteen years, before getting clean in 1978.</p>
+          <p class="vb-intro">Little of the public warmth remained in private, either: his son Gary publicly accused him of never showing love or care, and suspected a connection between paternal neglect and his brother Joseph's 2009 suicide. The Golden Retriever who gave his devotion to millions of strangers often had little left over for his own family – a pattern not uncommon for the Social Two: the caregiving belongs to the large collective that loves back publicly, not necessarily to the people standing closest.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Applause as a Life's Elixir</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jerry Lewis died in 2017 at age 91, having sought out the stage and the camera well into old age. What remains is a deeply divided legacy: a comedian whose physical slapstick shaped generations, a benefactor who mobilized billions for research into neuromuscular disease – and a man whose own children publicly accused him of withholding, at home, exactly the devotion he so freely gave the world.</p>
+          <p class="vb-intro">This is the Social Two with a Three-wing in its most contradictory form: a love for the audience that was real and effective – and that stayed so unquenchable precisely because it could never truly satisfy a deeper, more personal need.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-truman-capote", label:"Portrait: Truman Capote (SO2w3) – also public devotion with a personal cost"},
+        {route:"beruehmte-eva-peron", label:"Portrait: Eva Perón (SO2w3)"},
+      ])}
+    </div>
+  `);
+}

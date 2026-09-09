@@ -1607,6 +1607,7 @@ export function trumanCapotePortraitPage() {
         {route:"beruehmte-julius-caesar", label:"Porträt: Julius Caesar (SO2w3)"},
         {route:"beruehmte-eva-peron", label:"Porträt: Eva Perón (SO2w3)"},
         {route:"beruehmte-kamala-harris", label:"Porträt: Kamala Harris (SO2w3)"},
+        {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SO2w3) – ebenfalls öffentliche Zuwendung mit persönlichem Preis"},
       ])}
     </div>
   `);

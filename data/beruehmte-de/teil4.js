@@ -1905,3 +1905,68 @@ export function sergioBambarenPortraitPage() {
     </div>
   `);
 }
+
+export function jerryLewisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jerry-lewis-portrait.jpg" alt="Jerry Lewis – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jerry Lewis</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Sozialer Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">1926&ndash;2017 &ndash; US-amerikanischer Komiker, Regisseur, Wohltäter &ndash; Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever, der geliebt werden musste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei – zugewandt, unwiderstehlich darauf aus, gebraucht und geliebt zu werden. Jerry Lewis, 1926 als Joseph Levitch in Newark, New Jersey, geboren, wuchs als Sohn zweier Vaudeville-Künstler weitgehend bei Verwandten auf, während seine Eltern auf Tournee waren – von zwei Schulen flog er, doch schon als Kind entwickelte er eine Schallplatten-Mimik-Nummer, mit der er sich Applaus und Aufmerksamkeit sicherte, die ihm im Alltag oft fehlten.</p>
+          <p class="vb-intro">Dieses früh angelegte Muster – Zuneigung durch Auftritt statt durch bloßes Dasein zu bekommen – trug ihn sein gesamtes Leben lang. Der Golden Retriever wedelt nicht zufällig, wenn er auf die Bühne tritt; er hat gelernt, dass genau dort die Liebe wartet, die anderswo nicht verlässlich kam.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Vom Publikum gebraucht werden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> sucht Zugehörigkeit nicht in der einen Beziehung, sondern im großen Kollektiv – einer Gemeinde, einem Publikum, einer ganzen Gesellschaft. Naranjo nannte diesen Subtyp <em>Ambition</em>: den Drang, durch Wirkung im größeren Feld unentbehrlich zu werden. Als seine jahrelange Partnerschaft mit Dean Martin 1956 zerbrach, beschrieb Lewis später einen regelrechten Zusammenbruch – er habe „keinen Fuß vor den anderen setzen" können, völlig verunsichert, plötzlich allein zu sein. Nicht der Verlust eines kreativen Sparringspartners warf ihn aus der Bahn, sondern der Verlust der Bindung selbst.</p>
+          <p class="vb-intro">Erst als er spontan für Judy Garland einsprang und das Publikum, wie er es erlebte, förmlich „explodierte", fand er sein Selbstvertrauen zurück. Von diesem Moment an suchte Lewis eine noch größere, verlässlichere Quelle des Gebrauchtwerdens – und fand sie ab 1966 in der jährlichen Labor-Day-Telethon für die Muscular Dystrophy Association, die er 44 Jahre lang moderierte und zum Zentrum seines öffentlichen Lebens machte. Über 2,6 Milliarden Dollar kamen durch „Jerry's Kids" zusammen – eine Institution, die ganz auf seiner Person als unentbehrlichem Wohltäter aufgebaut war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Wohltätigkeit als Rekord, Regie als Kontrolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> verwandelt das Geben der Zwei in sichtbare, messbare Leistung. Bei Lewis zeigte sich das in der schieren Größe der Telethon-Zahlen, die Jahr für Jahr öffentlich verkündet wurden, aber auch in seiner Arbeit als selbsternannter „Total Filmmaker": Er schrieb, inszenierte, produzierte und spielte die Hauptrolle gleichzeitig und ließ sich vertraglich „unbegrenzte kreative Kontrolle" zusichern. Um jede Einstellung sofort prüfen zu können, entwickelte er die Video-Assist-Technik, die später zum Industriestandard wurde – Perfektionismus als sichtbare, messbare Beherrschung der eigenen Wirkung.</p>
+          <p class="vb-intro">Auch mit 90 Jahren trat er noch auf. Auf die Frage, wie ihn die Nachwelt in Erinnerung behalten solle, antwortete er sinngemäß, das interessiere ihn nicht – was ihn interessiere, sei die Würdigung im Moment des Auftritts selbst, von den Menschen, die gerade da waren. Kein Vermächtnis, keine Idee, die über ihn hinaus wirken sollte, sondern die unmittelbare, persönliche Bestätigung im Augenblick der Begegnung – die reinste Form der Zwei-Motivation, verstärkt durch den Dreierflügel, der diese Bestätigung öffentlich sichtbar und messbar haben wollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2w3 zeigt sich in der schieren Wirkung seiner Wohltätigkeitsarbeit: Kaum eine Einzelperson hat in den USA so viel Geld für eine einzelne Krankheit mobilisiert wie Lewis über vier Jahrzehnte Telethon-Arbeit.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> – die Überzeugung, unentbehrlich zu sein, verbunden mit der Schwierigkeit, die eigene Bedürftigkeit dahinter zu erkennen. Bei Lewis zeigte sich das in wachsender Kontroverse: Behindertenaktivisten, allen voran die Gruppe „Jerry's Orphans", warfen ihm vor, seine Rhetorik stelle die Betroffenen als bemitleidenswerte „Kinder" dar, deren Leid vor allem seine eigene Rolle als Retter größer mache – Mitleid als Bühne für die eigene Unentbehrlichkeit statt echter Würdigung der Menschen, denen geholfen werden sollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Wenn die Bestätigung ausblieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wurde Lewis' zentrale Rolle infrage gestellt, kippte dieselbe Fürsorge schnell in Kontrolle und Wut. Bei der Broadway-Produktion „Hellzapoppin" 1976 weigerte er sich, mit seiner Co-Star zu proben, geriet in offene Konflikte mit Produzent, Autor und Ensemble – die Produktion wurde abgesagt, bevor sie New York erreichte. Nach einem Bühnensturz 1965 wurde er 13 Jahre lang abhängig vom Schmerzmittel Percodan, bevor er 1978 clean wurde.</p>
+          <p class="vb-intro">Auch privat blieb wenig von der öffentlichen Warmherzigkeit übrig: Sein Sohn Gary warf ihm öffentlich vor, nie Liebe oder Fürsorge gezeigt zu haben, und vermutete einen Zusammenhang zwischen väterlicher Vernachlässigung und dem Suizid seines Bruders Joseph 2009. Der Golden Retriever, der Millionen Fremden seine Zuwendung schenkte, hatte für die eigene Familie oft wenig davon übrig – ein Muster, das bei der sozialen Zwei nicht selten ist: Die Fürsorge gilt dem großen Kollektiv, das öffentlich zurückliebt, nicht notwendigerweise den Menschen, die am nächsten stehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Applaus als Lebenselixier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jerry Lewis starb 2017 im Alter von 91 Jahren, nachdem er bis ins hohe Alter Bühne und Kamera gesucht hatte. Was bleibt, ist ein zutiefst zwiespältiges Erbe: ein Komiker, dessen körperbetonter Klamauk Generationen prägte, ein Wohltäter, der Milliarden für die Erforschung neuromuskulärer Erkrankungen mobilisierte – und ein Mann, dessen eigene Kinder ihm öffentlich vorwarfen, genau jene Zuwendung, die er der Welt so freigiebig schenkte, im eigenen Zuhause verweigert zu haben.</p>
+          <p class="vb-intro">Das ist die soziale Zwei mit Dreierflügel in ihrer widersprüchlichsten Form: eine Liebe zum Publikum, die real und wirksam war – und die genau deshalb so unstillbar blieb, weil sie eine tiefere, persönlichere Bedürftigkeit nie wirklich sättigen konnte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-truman-capote", label:"Porträt: Truman Capote (SO2w3) – ebenfalls öffentliche Zuwendung mit persönlichem Preis"},
+        {route:"beruehmte-eva-peron", label:"Porträt: Eva Perón (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
