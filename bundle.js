@@ -31768,7 +31768,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Russland", tags:["Politik"], gender:"m"},
   { route:"beruehmte-bobby-fischer", name:"Bobby Fischer", added:"2026-09-09", subtyp:"SX6w5",
     heading:"Bobby Fischer – Sexueller Typ 6",
-    teaser:"SX6w5 · 1943–2008. Schachweltmeister 1972, jahrzehntelang eskalierendes Misstrauen bis zu Verschwörungstheorien und offenem Antisemitismus, Titelverzicht 1975 statt Kontrollverlust. Der Wolf, der sein eigenes Rudel am Ende verlor.",
+    teaser:"SX6w5 · 1943–2008. Schachweltmeister 1972, zwanzig Partien lange Siegesserie ohne Niederlage gegen die Weltklasse, bis heute als eines der größten Schachgenies der Geschichte gefeiert – und zugleich jahrzehntelang eskalierendes Misstrauen bis zu Verschwörungstheorien und offenem Antisemitismus. Der Wolf, der sein eigenes Rudel am Ende verlor.",
     land:"USA", tags:["Sport","Kontrovers"], gender:"m"},
   { route:"beruehmte-otto-von-bismarck", name:"Otto von Bismarck", added:"2026-08-27", subtyp:"SX6w5",
     heading:"Otto von Bismarck \u2013 Sexueller Typ 6",

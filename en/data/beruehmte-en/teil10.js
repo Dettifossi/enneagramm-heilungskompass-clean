@@ -1925,7 +1925,7 @@ export function bobbyFischerPortraitPage() {
         </div>
         <p class="krim-portrait-name">Bobby Fischer</p>
         <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with a Five-Wing</p>
-        <p class="krim-portrait-subtitle">Chess World Champion, 1943–2008 – Animal correspondence: Wolf</p>
+        <p class="krim-portrait-subtitle">Chess World Champion, greatest chess genius in history, 1943–2008 – Animal correspondence: Wolf</p>
       </div>
       <div class="page-content">
 
@@ -1935,33 +1935,41 @@ export function bobbyFischerPortraitPage() {
           <p class="vb-intro">Even as a child, his identity fused completely with the game: after learning the rules in 1949, he spent hours at first playing against himself – his mother worried he was spending too much time alone. The wolf carves out its own, controllable territory when the world around it offers no reliable footing.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Sexual Six: From Justified Suspicion to Global Paranoia</h2>
+        <h2 class="vb-section">2. The Genius at the Board: Preparation as a Weapon Against Fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At just thirteen, Fischer produced what later became known as the "Game of the Century" against Donald Byrne in 1956: he sacrificed his queen to unleash an unstoppable attack – a combination still taught worldwide today. Grandmaster David Bronstein later said: "For a long time I couldn't understand why this fifteen-year-old boy played so brilliantly." This was no fluke: Fischer prepared with a thoroughness that surprised even Soviet professionals. In Moscow in 1958 he found theoretical ideas in foreign-language chess literature that local experts had overlooked; he taught himself Russian purely to read Soviet chess journals in the original that no competitor otherwise studied.</p>
+          <p class="vb-intro">This intensity of preparation is pure SX6w5 logic: the Five-wing supplies the capacity for exhaustive, solitary mastery of knowledge others overlook; the Sexual Six turns that knowledge into a weapon against its own fear of being caught off guard or outsmarted. At his 1971 Candidates match against Mark Taimanov, Fischer found a move buried in a footnote of a Soviet monograph – a line Taimanov, himself a Sicilian expert, had missed. Fischer won 6–0. Weeks later he won 6–0 against Bent Larsen as well, then 6½–2½ against Tigran Petrosian – a twenty-game winning streak against world-class players without a single loss, a feat never matched before or since. Petrosian later said Fischer had "become a genius" after the sixth game, while he himself had "collapsed"; Garry Kasparov called this record a dominance over rivals that no one else had ever shown.</p>
+          <p class="vb-intro">His playing style itself was never passive or defensive but confrontational and aggressive – he sought out open, complication-rich positions that gave his opponent no quiet moment. This is the same movement that shaped his life beyond the board as well: fear is not avoided, but neutralized through total, overwhelming preparation and frontal attack before it can even become a threat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Sexual Six: From Justified Suspicion to Global Paranoia</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Sexual Six (SX6)</strong> meets threat, according to Naranjo, not with retreat but with attack – security arises through a demonstration of strength, not through accommodation. Fischer's path began with a justified suspicion: in 1962 he accused three Soviet players at the Candidates Tournament of colluding to quickly draw their games in order to favor a fellow countryman – an accusation that later turned out to be largely accurate.</p>
           <p class="vb-intro">But over the decades, this pointed, well-founded distrust grew into something far larger: Fischer became increasingly suspicious of organizers, arbiters, the entire world chess federation – and eventually generalized his distrust into open conspiracy theories and antisemitism, despite his own Jewish ancestry. This is exactly the typical trajectory of the unhealthy Sexual Six: an initially accurate vigilance that can no longer contain itself.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Five-Wing: Retreat Into a Safe Territory</h2>
+        <h2 class="vb-section">4. The Five-Wing: Retreat Into a Safe Territory</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Five-wing</strong> shows up in Fischer as an obsessive, isolated deepening into chess as his own, controllable domain of knowledge. Contemporaries reported that even alongside intensive joint analysis sessions with players like Mikhail Tal, he still found additional time for his own private study – perfection through total control over his own learning environment, not through exchange.</p>
           <p class="vb-intro">After his 1972 world championship triumph, he virtually vanished from public life – twenty years without official tournaments, before resurfacing only in 1992 for an unofficial rematch against Boris Spassky under international embargo. This capacity for radical withdrawal, for reducing social needs to an absolute minimum, is pure Five logic, combined with the Sexual Six's search for security in a self-chosen retreat rather than negotiating it in the social field.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Control as the Price of Playing</h2>
+        <h2 class="vb-section">5. Control as the Price of Playing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Before the 1972 world championship match against Spassky in Reykjavik, Fischer's control demands showed in extreme form: he refused to travel until the prize fund was increased by an additional $125,000, argued for weeks over the venue, and had seventeen suits custom-tailored to control every detail of his public appearance himself. During the match, he constantly demanded new conditions – control over the entire environment was not a side issue for him, but the very precondition for feeling safe at all.</p>
+          <p class="vb-intro">Before the 1972 world championship match against Spassky in Reykjavik, Fischer's control demands showed in extreme form: he refused to travel until the prize fund was increased by an additional $125,000, argued for weeks over the venue, and had seventeen suits custom-tailored to control every detail of his public appearance himself. Unusually for a grandmaster of his era, he also trained intensively in tennis and fitness, so that his body, too, would be ready for the endurance of long games – control that extended to his own body just as much as to the outer conditions. During the match, he constantly demanded new conditions – control over the entire environment was not a side issue for him, but the very precondition for feeling safe at all.</p>
           <p class="vb-intro">In 1975 he ultimately gave up the world championship title entirely rather than play under FIDE conditions he could not dictate himself. No compromise, no adapting to the best possible outcome under the given circumstances – for the Sexual Six, control over one's own conditions of safety matters more than success itself.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow of the Sexual Six with a Five-Wing</h2>
+        <h2 class="vb-section">6. Light and Shadow of the Sexual Six with a Five-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX6w5 shows in Fischer's unprecedented 11–0 result at the 1963/64 US Championship against the strongest American players of his era – a concentration and vigilance that let no weakness in his own game go unnoticed became the clearest combinatorial chess ever played.</p>
+          <p class="vb-intro">The light of the SX6w5 shows in Fischer's unprecedented 11–0 result at the 1963/64 US Championship against the strongest American players of his era – a concentration and vigilance that let no weakness in his own game go unnoticed became the clearest combinatorial chess ever played. Soviet grandmaster Yuri Averbakh described him as early as 1958 as showing "astonishing poise, precise calculation, and diabolical resourcefulness" – a vigilance that translated into pure genius as long as it stayed bound to the chessboard.</p>
           <p class="vb-intro"><strong>Important note:</strong> Fischer's later public statements – Holocaust denial and open antisemitism despite his own Jewish heritage – are historically documented, morally indefensible, and are not relativized here. They show the shadow side of the unhealthy Sexual Six in its most extreme form: an originally justified distrust that detaches from its concrete original cause and generalizes into an all-explaining, dehumanizing worldview.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Wolf Who Lost His Own Pack</h2>
+        <h2 class="vb-section">7. The Wolf Who Lost His Own Pack</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Bobby Fischer died in 2008, completely isolated, in Reykjavik, Iceland, where he had finally found exile after an arrest in Japan and a travel ban from the United States. The boy who as a child found his sense of security only in the chessboard ended up as a man who, quite literally, could no longer find a country he trusted.</p>
+          <p class="vb-intro">And yet, independent of everything that came after: Fischer's pure chess achievement – the twenty-game winning streak without a single loss against the strongest players of his era, the never-repeated 11–0 of 1963/64, the 1972 world title he won single-handedly against the closed ranks of the Soviet chess school – still stands today as one of the greatest individual achievements in the history of sport. This is not a contradiction of everything said above but inseparable from it: the same uncompromising, fearless vigilance that ultimately drove him into isolation and delusion was exactly the force that had earlier made him, arguably, the greatest chess player who ever lived.</p>
           <p class="vb-intro">A comparison within the same subtype in this compass: <a href="javascript:void(0)" data-route="beruehmte-wladimir-putin">Wladimir Putin</a> (SX6w5) shows the same underlying pattern – security through control over one's environment rather than through trust – only lived out through the power apparatus of a state rather than at the chessboard. More on this in the <a href="javascript:void(0)" data-route="beruehmte-wladimir-putin">portrait of Wladimir Putin</a>.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}

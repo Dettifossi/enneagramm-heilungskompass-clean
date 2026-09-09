@@ -1952,7 +1952,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Russia", tags:["Politics"], gender:"m"},
 { route:"beruehmte-bobby-fischer", name:"Bobby Fischer", added:"2026-09-09", subtyp:"SX6w5",
     heading:"Bobby Fischer – Sexual Type 6",
-    teaser:"SX6w5 · 1943–2008. Chess World Champion 1972, decades of escalating distrust into conspiracy theories and open antisemitism, gave up the title in 1975 rather than lose control. The wolf who, in the end, lost his own pack.",
+    teaser:"SX6w5 · 1943–2008. Chess World Champion 1972, a twenty-game winning streak without a single loss against the world elite, still celebrated as one of the greatest chess geniuses in history – and, in parallel, decades of escalating distrust into conspiracy theories and open antisemitism. The wolf who, in the end, lost his own pack.",
     land:"USA", tags:["Sports","Controversial"], gender:"m"},
 { route:"beruehmte-otto-von-bismarck", name:"Otto von Bismarck", added:"2026-08-27", subtyp:"SX6w5",
     heading:"Otto von Bismarck – Sexual Type 6",
