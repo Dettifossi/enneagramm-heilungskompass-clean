@@ -255,6 +255,7 @@ export function carolinePetersPortraitPage() {
           {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
           {route:"beruehmte-ina-mueller", label:"Portrait: Ina Müller (SX7w8)"},
           {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SE7w6)"},
+          {route:"beruehmte-ida-pfeiffer", label:"Portrait: Ida Pfeiffer (SX7w6) – also the same subtype"},
         ])}
       </div>
     </div>

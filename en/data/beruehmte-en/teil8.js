@@ -1918,3 +1918,68 @@ export function sonoyaMizunoPortraitPage() {
     </div>
   `);
 }
+
+export function idaPfeifferPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ida-pfeiffer-portrait.jpg" alt="Ida Pfeiffer – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ida Pfeiffer</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with a Six-Wing</p>
+        <p class="krim-portrait-subtitle">Austrian world traveler and naturalist, 1797–1858 – Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee Who Waited for Decades</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the Sexual Seven – curious, ready to merge completely with whatever fascinates it in the moment, driven by a craving for intensity that cannot be permanently suppressed. Ida Pfeiffer, born in Vienna in 1797, described herself as a child as "wild as a boy, and bolder and more forward than my elder brothers" – she preferred boys' clothing and time outdoors to anything considered proper for a girl. After her father's death in 1806, her mother forced her into a conventional role: dresses instead of trousers, piano lessons instead of adventure.</p>
+          <p class="vb-intro">At twenty-two she married Mark Anton Pfeiffer, a widowed lawyer twenty-four years her senior – a marriage of security, not passion. When the family fell into poverty, she taught for years to support her children. The chimpanzee that had carried so much of the world within her as a child had to sit completely still for over two decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Seven: A Craving That Could No Longer Be Held Back</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Seven (SX7)</strong> lives the Seven's passion – gluttony, the insatiable craving for intense experience – not spread thin, but bundled onto the one object or undertaking that fascinates it in the moment. Pfeiffer herself described a "strong desire to see the world" that she had carried since childhood, fed by the travel literature of her time and her admiration for Alexander von Humboldt.</p>
+          <p class="vb-intro">Only at forty-five, once her children were grown and her family duty seemed fulfilled, did she set out – and what followed was no leisurely travel, but an almost unrestrained release of this decades-long pent-up craving: two complete circumnavigations of the globe, across South America, Asia, the Pacific, and Africa, largely alone, under the simplest and often most dangerous conditions. This is exactly the movement of the Sexual Seven: limitation is endured until it releases – and then no measured opening follows, but the full, unrestrained breadth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Courage That Faced Danger Consciously</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> shows up in Pfeiffer not as timidity, but as an alert, often counterphobic readiness to expose herself directly to danger rather than avoid it. She climbed active volcanoes, traveled through politically unstable regions, and on Madagascar was unknowingly drawn into a court conspiracy against Queen Ranavalona I – as a result of which she was expelled from the country and contracted the illness that killed her in Vienna in 1858.</p>
+          <p class="vb-intro">This combination of Seven craving and Six vigilance explains why Pfeiffer never came across as a naive adventurer, but as someone acutely aware of the real risks of her travels – and who, precisely for that reason, kept walking into them anyway.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: A Collector Across Every Realm of Nature</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Pfeiffer largely financed her travels herself, in part through the systematic sale of her natural history collections – plants, insects, shells, minerals – to European museums; from Madagascar and Mauritius alone, museums acquired 721 of her specimens, and a species of frog was later named after her. What stands out is the breadth of these collections: no narrow specialization in a single field, but a craving to capture as many different facets of nature as possible at once.</p>
+          <p class="vb-intro">Her travel accounts became bestsellers, financed further expeditions, and earned her the support of Humboldt himself, honorary memberships in geographic societies, and the Gold Medal for Science and Art from the King of Prussia – recognition fed by the sheer intensity of her lived craving, not by systematic depth of expertise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Seven with a Six-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX7w6 shows in the fact that Pfeiffer became one of the first women ever to complete two full circumnavigations of the globe, making her a sensation of her time – a life that proved a craving suppressed for decades does not dissolve, but waits.</p>
+          <p class="vb-intro">The shadow shows in her disregard for her own health: Pfeiffer traveled under the harshest possible conditions to the very end, repeatedly ignored warning signs, and ultimately died of an illness contracted on precisely the journey those close to her had advised against. The Sexual Seven often knows no upper limit for its own craving – not even once the body itself has long since signaled its limits.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The World Traveler Who Never Betrayed Her Craving</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ida Pfeiffer died in 1858 in Vienna from the effects of her final journey – only a few years after becoming an international celebrity as a two-time circumnavigator of the globe. Twenty years of domestic duty had not extinguished the chimpanzee's craving, only deferred it.</p>
+          <p class="vb-intro">Her life shows the Sexual Seven with a Six-wing in a particularly striking form: not a careless indulgence of curiosity, but a consciously risked, fully committed craving – lived out to her very last breath.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+          {route:"beruehmte-caroline-peters", label:"Portrait: Caroline Peters (SX7w6)"},
+          {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
+        ])}
+      </div>
+    </div>
+  `);
+}

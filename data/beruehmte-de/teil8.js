@@ -1929,3 +1929,68 @@ export function sonoyaMizunoPortraitPage() {
     </div>
   `);
 }
+
+export function idaPfeifferPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ida-pfeiffer-portrait.jpg" alt="Ida Pfeiffer – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ida Pfeiffer</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Österreichische Weltreisende und Naturforscherin, 1797&ndash;1858 &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse, der jahrzehntelang wartete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 – neugierig, verschmelzungsbereit mit dem, was ihn gerade fasziniert, und getrieben von einem Verlangen nach Intensität, das sich nicht dauerhaft unterdrücken lässt. Ida Pfeiffer, 1797 in Wien geboren, beschrieb sich selbst als Kind als „wild wie ein Junge, kühner und vorlauter als meine älteren Brüder" – sie bevorzugte Jungenkleidung und Zeit im Freien gegenüber allem, was als schickliches Mädchenleben galt. Nach dem Tod ihres Vaters 1806 zwang ihre Mutter sie in ein konventionelles Rollenbild: Kleider statt Hosen, Klavierunterricht statt Abenteuer.</p>
+          <p class="vb-intro">Mit zweiundzwanzig heiratete sie den um vierundzwanzig Jahre älteren, verwitweten Anwalt Mark Anton Pfeiffer – eine Versorgungsehe, keine Liebesheirat. Als die Familie verarmte, unterrichtete sie jahrelang, um ihre Kinder durchzubringen. Der Schimpanse, der als Kind so viel Welt in sich trug, musste über zwei Jahrzehnte lang völlig still sitzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Ein Verlangen, das sich nicht länger halten ließ</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> lebt die Leidenschaft der Sieben – die Völlerei, das unstillbare Verlangen nach intensiver Erfahrung – nicht breit verteilt, sondern gebündelt auf das eine, gerade faszinierende Objekt oder Vorhaben. Pfeiffer selbst beschrieb ein „starkes Verlangen, die Welt zu sehen", das sie seit Kindheit in sich trug, genährt von der Reiseliteratur ihrer Zeit und ihrer Bewunderung für Alexander von Humboldt.</p>
+          <p class="vb-intro">Erst mit fünfundvierzig Jahren, nachdem ihre Kinder erwachsen waren und die familiäre Pflicht erfüllt schien, brach sie auf – und was dann folgte, war kein gemächliches Reisen, sondern eine geradezu hemmungslose Verausgabung dieses jahrzehntelang aufgestauten Verlangens: zwei vollständige Erdumrundungen, quer durch Südamerika, Asien, den Pazifik und Afrika, größtenteils allein, unter den einfachsten und oft gefährlichsten Bedingungen. Genau das ist die Bewegung der sexuellen Sieben: Begrenzung wird ertragen, bis sie sich löst – dann folgt keine maßvolle Öffnung, sondern die volle, ungebremste Weite.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Mut, der sich der Gefahr bewusst stellte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> zeigt sich bei Pfeiffer nicht als Ängstlichkeit, sondern als wache, oft kontraphobische Bereitschaft, sich Gefahr direkt auszusetzen, statt ihr auszuweichen. Sie bestieg aktive Vulkane, reiste in politisch instabile Regionen und geriet auf Madagaskar unwissentlich in eine höfische Verschwörung gegen Königin Ranavalona I. – mit der Folge, dass sie des Landes verwiesen wurde und sich dabei die Krankheit zuzog, an der sie 1858 in Wien starb.</p>
+          <p class="vb-intro">Diese Kombination aus Sieben-Verlangen und Sechser-Wachsamkeit erklärt, warum Pfeiffer nie als naive Abenteurerin auftrat, sondern als jemand, die sich der realen Risiken ihrer Reisen sehr bewusst war – und trotzdem, oder gerade deshalb, immer wieder in sie hineinging.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Sammlerin quer durch alle Naturreiche</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Pfeiffer finanzierte ihre Reisen zu großen Teilen selbst, unter anderem durch den systematischen Verkauf ihrer naturkundlichen Sammlungen – Pflanzen, Insekten, Muscheln, Mineralien – an europäische Museen; allein aus Madagaskar und Mauritius erwarben Museen 721 ihrer Exemplare, eine Froschart wurde später nach ihr benannt. Bezeichnend ist die Breite dieser Sammlungen: keine enge Spezialisierung auf ein einzelnes Fachgebiet, sondern ein Verlangen, möglichst viele verschiedene Facetten der Natur gleichzeitig zu erfassen.</p>
+          <p class="vb-intro">Ihre Reiseberichte wurden zu Bestsellern, finanzierten weitere Expeditionen und brachten ihr die Unterstützung von Humboldt selbst, Ehrenmitgliedschaften geografischer Gesellschaften und die Goldmedaille für Wissenschaft und Kunst des preußischen Königs ein – Anerkennung, die sich aus der reinen Intensität ihres gelebten Verlangens speiste, nicht aus systematischer Fachtiefe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX7w6 zeigt sich darin, dass Pfeiffer als eine der ersten Frauen überhaupt zwei vollständige Weltumrundungen unternahm und damit zu einer Sensation ihrer Zeit wurde – ein Leben, das bewies, dass ein jahrzehntelang unterdrücktes Verlangen sich nicht auflöst, sondern wartet.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Rücksichtslosigkeit gegenüber der eigenen Gesundheit: Pfeiffer reiste bis zuletzt unter denkbar härtesten Bedingungen, ignorierte wiederholt Warnzeichen und starb schließlich an einer Krankheit, die sie sich auf genau jener Reise zuzog, von der ihr nahestehende Menschen abgeraten hatten. Die sexuelle Sieben kennt oft keine Obergrenze für das eigene Verlangen – auch dann nicht, wenn der eigene Körper längst Grenzen anzeigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Weltreisende, die ihr Verlangen nie verriet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ida Pfeiffer starb 1858 in Wien an den Folgen ihrer letzten Reise – nur wenige Jahre, nachdem sie als zweifache Weltumrunderin zur internationalen Berühmtheit geworden war. Zwanzig Jahre häuslicher Pflicht hatten das Verlangen des Schimpansen nicht gelöscht, sondern nur aufgeschoben.</p>
+          <p class="vb-intro">Ihr Leben zeigt die sexuelle Sieben mit Sechserflügel in einer besonders eindrücklichen Form: kein leichtfertiges Ausleben von Neugier, sondern ein bewusst riskiertes, mit vollem Einsatz gelebtes Verlangen – bis zum letzten Atemzug.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+          {route:"beruehmte-caroline-peters", label:"Porträt: Caroline Peters (SX7w6)"},
+          {route:"beruehmte-morgan-freeman", label:"Porträt: Morgan Freeman (SX7w6)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
