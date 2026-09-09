@@ -1578,6 +1578,7 @@ export function wladimirPutinPortraitPage() {
         {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-alice-schwarzer", label:"Portr\u00e4t: Alice Schwarzer (SX6w5)"},
         {route:"beruehmte-otto-von-bismarck", label:"Portr\u00e4t: Otto von Bismarck (SX6w5)"},
+        {route:"beruehmte-bobby-fischer", label:"Portr\u00e4t: Bobby Fischer (SX6w5) \u2013 dasselbe Muster, andere B\u00fchne"},
       ])}
     </div>
   `);
@@ -1908,6 +1909,71 @@ export function lennyKravitzPortraitPage() {
           {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SX3w2)"},
           {route:"beruehmte-brigitte-bardot", label:"Porträt: Brigitte Bardot (SX3w2)"},
           {route:"beruehmte-zoe-kravitz", label:"Porträt: Zoë Kravitz (SO3w2) – seine Tochter"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+export function bobbyFischerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bobby-fischer-portrait.jpg" alt="Bobby Fischer – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bobby Fischer</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Schachweltmeister, 1943&ndash;2008 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf am Schachbrett</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Tier, das nicht leicht vertraut, lange beobachtet, bevor es handelt, und jede Bedrohung mit kompromissloser Härte beantwortet. Bobby Fischer, 1943 geboren, wuchs unter instabilen Verhältnissen auf: Bis zur vierten Klasse hatte er bereits sechs Schulen durchlaufen, seine Mutter Regina zog ihn allein groß und war politisch stark eingespannt. Mit sechzehn verließ sie die gemeinsame Wohnung für ihre medizinische Ausbildung – Fischer blieb allein zurück, mit dem Schachbrett als einzig verlässlichem Territorium.</p>
+          <p class="vb-intro">Schon als Kind verschmolz seine Identität vollständig mit dem Spiel: Nachdem er 1949 die Regeln gelernt hatte, spielte er zunächst stundenlang gegen sich selbst – seine Mutter befürchtete, er verbringe zu viel Zeit allein. Der Wolf sucht sich sein eigenes, kontrollierbares Revier, wenn die Welt drumherum keinen verlässlichen Halt bietet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Von berechtigtem Verdacht zur globalen Paranoia</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> begegnet Bedrohung nach Naranjo nicht mit Rückzug, sondern mit Angriff – Sicherheit entsteht durch Stärke-Demonstration, nicht durch Anpassung. Fischers Weg begann mit einem berechtigten Verdacht: 1962 beschuldigte er drei sowjetische Spieler beim Kandidatenturnier der Absprache, ihre Partien schnell remis zu geben, um einen gemeinsamen Landsmann zu begünstigen – eine Anschuldigung, die sich später als weitgehend zutreffend herausstellte.</p>
+          <p class="vb-intro">Doch aus diesem punktuellen, begründeten Misstrauen wurde über Jahrzehnte etwas Größeres: Fischer misstraute zunehmend Organisatoren, Schiedsrichtern, dem gesamten Weltschachverband – und generalisierte sein Misstrauen am Ende zu offenen Verschwörungstheorien und Antisemitismus, trotz eigener jüdischer Abstammung. Genau das ist die typische Verlaufskurve der ungesunden sexuellen Sechs: eine anfänglich zutreffende Wachsamkeit, die sich selbst nicht mehr begrenzen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Rückzug in ein sicheres Territorium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> zeigt sich bei Fischer in der obsessiven, isolierten Vertiefung ins Schach als eigenes, kontrollierbares Wissensgebiet. Zeitgenossen berichteten, dass er selbst neben intensivsten gemeinsamen Analysen mit Spielern wie Michail Tal noch zusätzliche Zeit für eigenes Studium fand – Perfektion durch vollständige Kontrolle über das eigene Lernumfeld, nicht durch Austausch.</p>
+          <p class="vb-intro">Nach seinem WM-Triumph 1972 verschwand er praktisch vollständig aus der Öffentlichkeit – zwanzig Jahre ohne offizielle Turniere, bevor er 1992 nur für ein inoffizielles Rematch gegen Boris Spassky unter internationalem Embargo wieder auftauchte. Diese Fähigkeit zum radikalen Rückzug, zur vollständigen Reduktion sozialer Bedürfnisse auf das Nötigste, ist reine Fünfer-Logik, verbunden mit der sexuellen Sechs, die ihre Sicherheit im selbstgewählten Rückzugsort sucht, statt sie im sozialen Feld zu verhandeln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Kontrolle als Preis für das Spielen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Vor dem WM-Match 1972 gegen Spassky in Reykjavik zeigten sich Fischers Kontrollansprüche in extremer Form: Er weigerte sich anzureisen, bis das Preisgeld um zusätzliche 125.000 Dollar erhöht wurde, stritt wochenlang über den Austragungsort und ließ sich siebzehn Maßanzüge schneidern, um jedes Detail seiner öffentlichen Erscheinung selbst zu bestimmen. Während des Matches forderte er ständig neue Bedingungen – Kontrolle über das gesamte Umfeld war für ihn keine Nebensache, sondern Voraussetzung für Sicherheit überhaupt.</p>
+          <p class="vb-intro">1975 verzichtete er schließlich lieber komplett auf den Weltmeistertitel, als unter Bedingungen der FIDE zu spielen, die er nicht selbst diktieren konnte. Kein Kompromiss, keine Anpassung an das bestmögliche Ergebnis unter gegebenen Umständen – für die sexuelle Sechs zählt die Kontrolle über die eigenen Sicherheitsbedingungen mehr als der Erfolg selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Sechs mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 zeigt sich in Fischers beispiellosem 11:0-Ergebnis beim US-Meisterschaftsfinale 1963/64 gegen die stärksten amerikanischen Spieler seiner Zeit – eine Konzentration und Wachsamkeit, die keine Schwachstelle im eigenen Spiel je unbeachtet ließ, wurde zur größten kombinatorischen Klarheit der Schachgeschichte.</p>
+          <p class="vb-intro"><strong>Wichtiger Hinweis:</strong> Fischers spätere öffentliche Äußerungen – Leugnung des Holocaust und offener Antisemitismus trotz eigener jüdischer Herkunft – sind historisch belegt, moralisch verwerflich und werden hier nicht relativiert. Sie zeigen die Schattenseite der ungesunden sexuellen Sechs in ihrer extremsten Form: Ein einmal berechtigtes Misstrauen, das sich von seinem ursprünglichen, konkreten Anlass löst und zu einer alles erklärenden, menschenverachtenden Weltsicht generalisiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Wolf, der sein eigenes Rudel verlor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bobby Fischer starb 2008 vollständig isoliert in Reykjavik, Island, wohin er nach einer Verhaftung in Japan und einem Ausreiseverbot aus den USA schließlich Exil gefunden hatte. Der Junge, der als Kind sein Sicherheitsgefühl allein im Schachbrett fand, endete als Mann, der buchstäblich kein Land mehr fand, dem er vertrauen konnte.</p>
+          <p class="vb-intro">Ein Vergleich im selben Subtyp-Feld dieses Kompasses: <a href="javascript:void(0)" data-route="beruehmte-wladimir-putin">Wladimir Putin</a> (SX6w5) zeigt dasselbe Grundmuster – Sicherheit durch Kontrolle über das eigene Umfeld statt durch Vertrauen –, nur im Machtapparat eines Staates statt am Schachbrett ausgelebt. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-wladimir-putin">Porträt zu Wladimir Putin</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+          {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+          {route:"beruehmte-wladimir-putin", label:"Porträt: Wladimir Putin (SX6w5) – dasselbe Muster, andere Bühne"},
+          {route:"beruehmte-otto-von-bismarck", label:"Porträt: Otto von Bismarck (SX6w5)"},
         ])}
       </div>
     </div>

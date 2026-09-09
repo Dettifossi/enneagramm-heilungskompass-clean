@@ -753,6 +753,7 @@ export const registerEntries = [
 
   // Berühmte Persönlichkeiten – Portraits
   { term: "Wladimir Putin",                route: "beruehmte-wladimir-putin",              description: "Portrait: SX6w5 · Sexueller Typ 6 · Politiker, Präsident der Russischen Föderation" },
+  { term: "Bobby Fischer",                 route: "beruehmte-bobby-fischer",               description: "Portrait: SX6w5 · Sexueller Typ 6 · Schachweltmeister" },
   { term: "Otto von Bismarck",             route: "beruehmte-otto-von-bismarck",           description: "Portrait: SX6w5 · Sexueller Typ 6 · Erster Reichskanzler des Deutschen Kaiserreichs" },
   { term: "Platon",                        route: "beruehmte-platon",                      description: "Portrait: SX6w5 · Sexueller Typ 6 · Philosoph, Schüler des Sokrates, Gründer der Akademie" },
   { term: "Friedrich Schiller",            route: "beruehmte-friedrich-schiller",          description: "Portrait: SX6w5 · Sexueller Typ 6 · Dichter, Dramatiker, Historiker" },
@@ -1406,6 +1407,7 @@ export const registerEntriesEN = [
 
   // Famous Personalities – Portraits
   { term: "Vladimir Putin", route: "beruehmte-wladimir-putin", description: "Portrait: SX6w5 · Sexual Type 6 · Politician, President of the Russian Federation" },
+  { term: "Bobby Fischer", route: "beruehmte-bobby-fischer", description: "Portrait: SX6w5 · Sexual Type 6 · Chess World Champion" },
   { term: "Otto von Bismarck", route: "beruehmte-otto-von-bismarck", description: "Portrait: SX6w5 · Sexual Type 6 · First Chancellor of the German Empire" },
   { term: "Plato", route: "beruehmte-platon", description: "Portrait: SX6w5 · Sexual Type 6 · Philosopher, student of Socrates, founder of the Academy" },
   { term: "Friedrich Schiller", route: "beruehmte-friedrich-schiller", description: "Portrait: SX6w5 · Sexual Type 6 · Poet, playwright, historian" },

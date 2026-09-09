@@ -1577,6 +1577,7 @@ export function wladimirPutinPortraitPage() {
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-alice-schwarzer", label:"Portrait: Alice Schwarzer (SX6w5)"},
         {route:"beruehmte-otto-von-bismarck", label:"Portrait: Otto von Bismarck (SX6w5)"},
+        {route:"beruehmte-bobby-fischer", label:"Portrait: Bobby Fischer (SX6w5) – same pattern, different stage"},
       ])}
     </div>
   `);
@@ -1907,6 +1908,71 @@ export function lennyKravitzPortraitPage() {
           {route:"beruehmte-helene-fischer", label:"Portrait: Helene Fischer (SX3w2)"},
           {route:"beruehmte-brigitte-bardot", label:"Portrait: Brigitte Bardot (SX3w2)"},
           {route:"beruehmte-zoe-kravitz", label:"Portrait: Zoë Kravitz (SO3w2) – his daughter"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+export function bobbyFischerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bobby-fischer-portrait.jpg" alt="Bobby Fischer – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bobby Fischer</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with a Five-Wing</p>
+        <p class="krim-portrait-subtitle">Chess World Champion, 1943–2008 – Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf at the Chessboard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of the Sexual Six – an animal that does not trust easily, watches for a long time before acting, and answers every threat with uncompromising hardness. Bobby Fischer, born in 1943, grew up under unstable conditions: by fourth grade he had already been in and out of six schools, and his mother Regina raised him alone while heavily engaged in political activism. When he was sixteen, she left their shared apartment for her medical training – Fischer was left alone, with the chessboard as his one reliable territory.</p>
+          <p class="vb-intro">Even as a child, his identity fused completely with the game: after learning the rules in 1949, he spent hours at first playing against himself – his mother worried he was spending too much time alone. The wolf carves out its own, controllable territory when the world around it offers no reliable footing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: From Justified Suspicion to Global Paranoia</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Six (SX6)</strong> meets threat, according to Naranjo, not with retreat but with attack – security arises through a demonstration of strength, not through accommodation. Fischer's path began with a justified suspicion: in 1962 he accused three Soviet players at the Candidates Tournament of colluding to quickly draw their games in order to favor a fellow countryman – an accusation that later turned out to be largely accurate.</p>
+          <p class="vb-intro">But over the decades, this pointed, well-founded distrust grew into something far larger: Fischer became increasingly suspicious of organizers, arbiters, the entire world chess federation – and eventually generalized his distrust into open conspiracy theories and antisemitism, despite his own Jewish ancestry. This is exactly the typical trajectory of the unhealthy Sexual Six: an initially accurate vigilance that can no longer contain itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Retreat Into a Safe Territory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing</strong> shows up in Fischer as an obsessive, isolated deepening into chess as his own, controllable domain of knowledge. Contemporaries reported that even alongside intensive joint analysis sessions with players like Mikhail Tal, he still found additional time for his own private study – perfection through total control over his own learning environment, not through exchange.</p>
+          <p class="vb-intro">After his 1972 world championship triumph, he virtually vanished from public life – twenty years without official tournaments, before resurfacing only in 1992 for an unofficial rematch against Boris Spassky under international embargo. This capacity for radical withdrawal, for reducing social needs to an absolute minimum, is pure Five logic, combined with the Sexual Six's search for security in a self-chosen retreat rather than negotiating it in the social field.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Control as the Price of Playing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Before the 1972 world championship match against Spassky in Reykjavik, Fischer's control demands showed in extreme form: he refused to travel until the prize fund was increased by an additional $125,000, argued for weeks over the venue, and had seventeen suits custom-tailored to control every detail of his public appearance himself. During the match, he constantly demanded new conditions – control over the entire environment was not a side issue for him, but the very precondition for feeling safe at all.</p>
+          <p class="vb-intro">In 1975 he ultimately gave up the world championship title entirely rather than play under FIDE conditions he could not dictate himself. No compromise, no adapting to the best possible outcome under the given circumstances – for the Sexual Six, control over one's own conditions of safety matters more than success itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Six with a Five-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w5 shows in Fischer's unprecedented 11–0 result at the 1963/64 US Championship against the strongest American players of his era – a concentration and vigilance that let no weakness in his own game go unnoticed became the clearest combinatorial chess ever played.</p>
+          <p class="vb-intro"><strong>Important note:</strong> Fischer's later public statements – Holocaust denial and open antisemitism despite his own Jewish heritage – are historically documented, morally indefensible, and are not relativized here. They show the shadow side of the unhealthy Sexual Six in its most extreme form: an originally justified distrust that detaches from its concrete original cause and generalizes into an all-explaining, dehumanizing worldview.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Wolf Who Lost His Own Pack</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bobby Fischer died in 2008, completely isolated, in Reykjavik, Iceland, where he had finally found exile after an arrest in Japan and a travel ban from the United States. The boy who as a child found his sense of security only in the chessboard ended up as a man who, quite literally, could no longer find a country he trusted.</p>
+          <p class="vb-intro">A comparison within the same subtype in this compass: <a href="javascript:void(0)" data-route="beruehmte-wladimir-putin">Wladimir Putin</a> (SX6w5) shows the same underlying pattern – security through control over one's environment rather than through trust – only lived out through the power apparatus of a state rather than at the chessboard. More on this in the <a href="javascript:void(0)" data-route="beruehmte-wladimir-putin">portrait of Wladimir Putin</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth &ndash; protective patterns, passions, and the path to essence.", "Who You Really Are &ndash; Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared &ndash; how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+          {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+          {route:"beruehmte-wladimir-putin", label:"Portrait: Wladimir Putin (SX6w5) – same pattern, different stage"},
+          {route:"beruehmte-otto-von-bismarck", label:"Portrait: Otto von Bismarck (SX6w5)"},
         ])}
       </div>
     </div>
