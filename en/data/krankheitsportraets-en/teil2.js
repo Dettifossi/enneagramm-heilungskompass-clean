@@ -2630,7 +2630,7 @@ export function ottoVonBismarckKrankheitsportraetPage() {
         <strong>Otto von Bismarck</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-otto-von-bismarck">portrait under Famous Personalities</a>
         in this Compass – that page covers his life's work, the wolf as animal motif, and his
-        type structure in general. This page focuses on a chapter only touched on there: the
+        type structure in general. Here the spotlight shifts to what that page barely mentions: the
         exhaustion crisis and severe obesity of the early 1880s, the radical treatment by
         Dr. Ernst Schweninger, and the refused treatment of a gangrene of the foot that led to
         his final weeks in 1898.

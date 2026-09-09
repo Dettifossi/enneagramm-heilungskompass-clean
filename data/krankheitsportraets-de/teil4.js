@@ -3131,8 +3131,8 @@ export function tELawrenceKrankheitsportraetPage() {
         <strong>T. E. Lawrence</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-t-e-lawrence">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um den Wüstenkrieg, den selbst mitgeschaffenen
-        Weltruhm-Mythos und den Rückzug unter falschem Namen. Dieses Porträt widmet sich einem
-        Kapitel, das dort nur gestreift wird: den letzten dreizehn Lebensjahren, geprägt von
+        Weltruhm-Mythos und den Rückzug unter falschem Namen. Im Fokus steht hier ein Abschnitt,
+        der dort nur am Rande erscheint: den letzten dreizehn Lebensjahren, geprägt von
         chronischer Depression, Selbsthass und einer bis heute von Biografen als
         posttraumatische Belastungsstörung gedeuteten Nachwirkung der Gefangennahme in Deraa 1917.
       </p>
@@ -3884,7 +3884,7 @@ export function michaelBerrymanKrankheitsportraetPage() {
         <strong>Michael Berryman</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-michael-berryman">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um seine Schauspielkarriere als
-        Horror-Ikone. Dieses Porträt vertieft ein Kapitel, das dort nur gestreift wird:
+        Horror-Ikone. Diese Seite beleuchtet näher, was dort nur kurz anklingt:
         das Leben mit der angeborenen hypohidrotischen ektodermalen Dysplasie und den
         Umgang mit Mobbing, Neugier und Anstarren, der daraus über Jahrzehnte wurde.</p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">

@@ -1171,7 +1171,7 @@ export function honoreDeBalzacKrankheitsportraetPage() {
         <strong>Honoré de Balzac</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-honore-de-balzac">portrait under Famous Personalities</a>
         in this Compass – that page covers his life's work, his background, and his type
-        structure in general. This portrait is devoted to a chapter only touched on there: the
+        structure in general. What follows here goes beyond what that page only hints at: the
         decades-long exploitation of his own body through compulsive overwork, caffeine excess,
         and sleep deprivation – and the heart failure with fatal gangrene that killed him five
         months after his wedding.
@@ -1893,7 +1893,7 @@ export function ludwigWittgensteinKrankheitsportraetPage() {
         <strong>Ludwig Wittgenstein</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-ludwig-wittgenstein">portrait under Famous Personalities</a>
         in this Compass – that page covers his life's work, the Eagle as animal motif, and his type
-        structure in general. This page focuses on a chapter only touched on there: the prostate
+        structure in general. Here the emphasis falls on something that page barely mentions: the prostate
         cancer diagnosis of December 1949, the months of unexplained exhaustion beforehand, and
         the final year and a half before his death in 1951.
       </p>
@@ -2045,8 +2045,8 @@ export function martinLutherKrankheitsportraetPage() {
         <strong>Martin Luther</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-martin-luther">portrait under Famous Personalities</a>
         in this Compass – that page covers his life's work, the Black Mamba as animal motif, and
-        his type structure in general. This page focuses on a chapter only touched on there: the
-        decade between 1535 and his death in 1546, in which worsening heart problems, kidney
+        his type structure in general. This page takes up a thread that page only touches in
+        passing: the decade between 1535 and his death in 1546, in which worsening heart problems, kidney
         stones, and dizzy spells became inseparably intertwined with severe, recurring depressive
         episodes – his own "Anfechtungen."
       </p>

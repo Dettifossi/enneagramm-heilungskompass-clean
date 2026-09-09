@@ -3884,8 +3884,8 @@ export function juergenDrewsKrankheitsportraetPage() {
         <strong>Jürgen Drews</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-juergen-drews">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um seine Karriere als Schlagersänger
-        und um seine jahrzehntelange Ehe mit Ramona. Dieses Porträt vertieft ein Kapitel,
-        das dort nur gestreift wird: seine 2022 öffentlich gemachte Diagnose der
+        und um seine jahrzehntelange Ehe mit Ramona. Im Zentrum steht hier, was dort nur knapp
+        erwähnt wird: seine 2022 öffentlich gemachte Diagnose der
         Nervenkrankheit Polyneuropathie und den stillen, unspektakulären Umgang damit.</p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>

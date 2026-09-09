@@ -3295,7 +3295,7 @@ export function vincentVanGoghKrankheitsportraetPage() {
         <strong>Vincent van Gogh</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein Lebenswerk und sein systematisches
-        Selbststudium. Dieses Porträt widmet sich einem Kapitel, das dort nur gestreift wird:
+        Selbststudium. Im Mittelpunkt steht hier, was dort nur am Rande erscheint:
         den wiederkehrenden psychotischen und mutmaßlich epileptischen Krisen der letzten
         beiden Lebensjahre, dem Ohrschnitt 1888 und dem Tod durch eine vermutlich selbst
         beigebrachte Schussverletzung 1890.
@@ -3837,8 +3837,8 @@ export function margaretRutherfordKrankheitsportraetPage() {
         <strong>Margaret Rutherford</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-margaret-rutherford">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um ihre komödiantische Bühnenkarriere und
-        die verborgene Substanz hinter der behäbigen Fassade. Hier geht es ausschließlich um
-        ein Kapitel, das dort nur gestreift wird: eine lebenslange schwere Depression, gefolgt
+        die verborgene Substanz hinter der behäbigen Fassade. Hier steht ausschließlich das im
+        Mittelpunkt, was dort nur angedeutet bleibt: eine lebenslange schwere Depression, gefolgt
         von einer fortschreitenden Demenz in ihren letzten Lebensjahren – zwei Erkrankungen,
         die sie mit derselben stillen Beharrlichkeit ertrug, mit der sie ihr ganzes Leben in
         vertraute Routinen flüchtete.
@@ -4011,7 +4011,7 @@ export function galarrwuyYunupinguKrankheitsportraetPage() {
         <strong>Galarrwuy Yunupingu</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-galarrwuy-yunupingu">Porträt berühmter Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Landrechte-Führer der
-        Yolngu. Diese Seite vertieft ein Kapitel, das dort nur gestreift wird: eine über Jahrzehnte
+        Yolngu. Diese Seite geht einem Aspekt nach, der dort nur am Rande erwähnt wird: eine über Jahrzehnte
         fortschreitende Nierenerkrankung, die ihn zu wiederholten, oft monatelangen Aufenthalten
         fernab seines eigenen Landes zwang – ausgerechnet den Mann, dessen Lebenswerk das Recht
         aller Yolngu war, auf ihrem eigenen Land zu bleiben.

@@ -3443,8 +3443,8 @@ export function sammyDavisJrKrankheitsportraetPage() {
         <strong>Sammy Davis Jr.</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-sammy-davis-jr">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein sechs Jahrzehnte umspannendes
-        Lebenswerk und seine Typstruktur im Allgemeinen. Hier rückt ein Kapitel in den
-        Vordergrund, das dort nur gestreift wird: die im Spätsommer 1989 diagnostizierte
+        Lebenswerk und seine Typstruktur im Allgemeinen. Hier rückt in den Mittelpunkt,
+        was dort nur beiläufig erwähnt wird: die im Spätsommer 1989 diagnostizierte
         Krebserkrankung, die er der Öffentlichkeit lange verbarg, während er weiter auftrat –
         bis zu seinem Tod im Mai 1990 im Alter von 64 Jahren.
       </p>

@@ -3604,8 +3604,8 @@ export function diegoVelazquezKrankheitsportraetPage() {
         <strong>Diego Velázquez</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-diego-velazquez">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein malerisches Lebenswerk,
-        allen voran ›Las Meninas‹. Dieses Porträt vertieft ein Kapitel, das dort
-        nur gestreift wird: seinen plötzlichen Tod binnen einer Woche, unmittelbar
+        allen voran ›Las Meninas‹. Diese Seite geht näher auf das ein, was dort
+        nur knapp erwähnt wird: seinen plötzlichen Tod binnen einer Woche, unmittelbar
         nachdem er sich für eine letzte, erschöpfende höfische Pflicht vollständig
         verausgabt hatte.</p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
@@ -3789,7 +3789,7 @@ export function adamSmithKrankheitsportraetPage() {
         <strong>Adam Smith</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-adam-smith">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein ökonomisches Lebenswerk.
-        Dieses Porträt vertieft ein Kapitel, das dort nur gestreift wird: ein
+        Im Zentrum dieser Seite steht, was dort nur beiläufig erwähnt wird: ein
         jahrzehntelanges, chronisches Verdauungsleiden und eine letzte, radikale
         Geste kurz vor seinem Tod, mit der er sein eigenes unveröffentlichtes Werk
         fast vollständig vernichten ließ.</p>

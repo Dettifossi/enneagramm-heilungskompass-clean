@@ -1086,8 +1086,8 @@ export function georgeGershwinKrankheitsportraetPage() {
         <strong>George Gershwin</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-george-gershwin">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein kompositorisches Lebenswerk, von
-        „Rhapsody in Blue" bis „Porgy and Bess". Dieses Porträt vertieft ein Kapitel, das
-        dort nur gestreift wird: die letzten Monate seines Lebens, in denen ein bösartiger
+        „Rhapsody in Blue" bis „Porgy and Bess". Diese Seite blendet ein anderes Kapitel auf, das
+        dort nur am Rande vorkommt: die letzten Monate seines Lebens, in denen ein bösartiger
         Hirntumor zunächst als Erschöpfung und Nervosität fehlgedeutet wurde, bis er am
         11. Juli 1937 im Alter von nur 38 Jahren daran starb.
       </p>
@@ -3059,8 +3059,8 @@ export function stephenHawkingKrankheitsportraetPage() {
         <strong>Stephen Hawking</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-stephen-hawking">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein wissenschaftliches Lebenswerk,
-        von der Hawking-Strahlung bis zu „Eine kurze Geschichte der Zeit". Dieses Porträt
-        vertieft ein Kapitel, das dort nur gestreift wird: die Amyotrophe Lateralsklerose
+        von der Hawking-Strahlung bis zu „Eine kurze Geschichte der Zeit". Diese Seite folgt
+        einer Spur, die dort nur kurz angedeutet wird: die Amyotrophe Lateralsklerose
         (ALS), eine fortschreitende Erkrankung der Nervenzellen, die Muskeln zunehmend
         lähmt. Mit 21 Jahren diagnostiziert und mit einer Lebenserwartung von zwei Jahren
         konfrontiert, lebte er noch 55 weitere Jahre – bei vollständigem Verlust der

@@ -3143,7 +3143,7 @@ export function vincentVanGoghKrankheitsportraetPage() {
         <strong>Vincent van Gogh</strong> already has a
         <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">portrait under Famous Personalities</a>
         in this Compass – that page covers his life's work and his systematic self-taught
-        study. This portrait is devoted to a chapter only touched on there: the recurring
+        study. The focus here is on what that page only mentions in passing: the recurring
         psychotic and suspected epileptic crises of his final two years, the ear incident of
         1888, and his death in 1890 from a likely self-inflicted gunshot wound.
       </p>
@@ -3836,7 +3836,7 @@ export function galarrwuyYunupinguKrankheitsportraetPage() {
         <strong>Galarrwuy Yunupingu</strong> already has a portrait under
         <a href="javascript:void(0)" data-route="beruehmte-galarrwuy-yunupingu">Famous Personalities</a>
         in this compass – that page covers his life's work as a land rights leader for the Yolngu.
-        This page goes deeper into a chapter only touched on there: decades of progressive kidney
+        This page follows a thread that page only briefly mentions: decades of progressive kidney
         disease that repeatedly forced him away from his own land for months at a time – for
         precisely the man whose life's work was the right of all Yolngu to remain on their own land.
       </p>

@@ -1036,7 +1036,7 @@ export function georgeGershwinKrankheitsportraetPage() {
         <strong>George Gershwin</strong> already appears in this Compass as a
         <a href="javascript:void(0)" data-route="beruehmte-george-gershwin">famous-personality portrait</a>
         – that page covers his compositional life's work, from "Rhapsody in Blue" to
-        "Porgy and Bess." This page goes deeper into a chapter only touched on there: the
+        "Porgy and Bess." This page opens up a chapter that page only glances at: the
         final months of his life, during which a malignant brain tumor was at first
         mistaken for exhaustion and nervousness, until it killed him on 11 July 1937 at
         only 38 years old.
@@ -2911,7 +2911,7 @@ export function stephenHawkingKrankheitsportraetPage() {
         <strong>Stephen Hawking</strong> already appears in this Compass as a
         <a href="javascript:void(0)" data-route="beruehmte-stephen-hawking">famous-personality portrait</a>
         – that page covers his scientific life's work, from Hawking radiation to "A Brief
-        History of Time." This page goes deeper into a chapter only touched on there:
+        History of Time." This page traces a thread that page only briefly picks up:
         amyotrophic lateral sclerosis (ALS), a progressive disease of the nerve cells that
         increasingly paralyzes the muscles. Diagnosed at 21 and given a life expectancy of
         two years, he lived another 55 years – with complete loss of voluntary muscle
