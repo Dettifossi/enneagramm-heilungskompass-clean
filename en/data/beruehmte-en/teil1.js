@@ -1931,3 +1931,68 @@ export function willYunLeePortraitPage() {
     </div>
   `);
 }
+
+export function guentherKrabbenhoeftPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-guenther-krabbenhoeft-portrait.jpg" alt="Günther Krabbenhöft" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Günther Krabbenhöft</p>
+        <p class="krim-portrait-typ">SO7w6 · Social Type 7 with a Six Wing</p>
+        <p class="krim-portrait-subtitle">Model &amp; Style Icon, b. 1945 in Hildesheim – Animal equivalent: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> is the animal of the social Seven – an animal that doesn't build for itself alone, but creates habitats an entire ecosystem benefits from. Günther Krabbenhöft, born in 1945 near Hanover in Hildesheim, worked as a cook for fifty years – a craft of fixed routines, recurring tasks, dependable structure. At 25 he married and became father to a daughter, divorced ten years later, and raised her alone afterward. Since 1968 he has lived in Berlin, first in Moabit, later in Kreuzberg, where over the decades he became a familiar, well-known figure in the neighborhood.</p>
+          <p class="vb-intro">Nothing in this biography hinted at what followed from February 2015 onward: a tourist photographed the then 69-year-old at the Kottbusser Tor subway station – bowler hat, waistcoat, bow tie – and posted the picture on Facebook. Within weeks, Günther was appearing in fashion blogs, on magazine covers, and across social media. Almost overnight, the neighborhood character became "the world's most stylish grandpa".</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Joy That Belongs to Others</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Seven (SO7)</strong> is the countertype of the Seven: instead of pursuing pleasure for itself, the Seven's energy is placed in service of a larger circle – Naranjo called this principle <em>Sacrifice</em>. Where a sexual or self-preservation Seven mostly maximizes its own experience, the social Seven directs its enthusiasm outward: it builds something that carries others along with it.</p>
+          <p class="vb-intro">That is exactly what can be observed in Krabbenhöft. His now-famous line, "The club is my church service," is not spoken about himself alone – he lives it out publicly, for his roughly 300,000 Instagram followers, in a self-written book with the programmatic title <em>Just Be Yourself! You're Never Too Old to Be Young</em>, and in advertising campaigns for Google, Polaroid, Picard, and Sparkasse. His own zest for life became a public message against an entire society's image of aging – not self-indulgence, but something to pass on.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six Wing: The Fixed Outfit, the Fixed Role, the Fixed Loyalty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six wing (w6)</strong> gives the social Seven something a SO7 with a more weakly developed Six wing would not have to the same degree: a longing for a dependable, recognizable frame within which enthusiasm can unfold. Krabbenhöft doesn't wear changing, arbitrary outfits – the bowler hat and waistcoat have become his fixed trademark, a recognizable signal one can rely on, the same way people could rely on him as a cook for fifty years.</p>
+          <p class="vb-intro">The same reliability shows in his family history: after the divorce, he raised his daughter alone instead of shirking the responsibility – a quiet duty carried for years, long before anyone knew who he was. The Six wing keeps the Seven's enthusiasm from becoming unmoored, binding it instead to fixed points of reference: a role, a place, people one stays loyal to.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Excess, Tamed by a Lifetime of Structure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Seven is called <strong>gluttony</strong> – for the SO7 not as an unbounded chase after ever-new stimulation, but as an enthusiasm channeled into fixed grooves. Krabbenhöft only discovered his love for the techno scene late in life, when friends took him to Berghain, where he danced for eight hours straight – an almost boundless stamina, unusual for his age. Yet this boundlessness remains embedded in a life shaped for fifty years by structure, duty, and reliability.</p>
+          <p class="vb-intro">"I dress for myself, not for others," he says about his style – a sentence that at first sounds like pure self-indulgence. But he formulates his actual goal differently: "I want to fill my heart with beautiful thoughts and feelings." That isn't a chase after the next thrill, but the need to build an inner fullness – and, in Seven fashion, to share that fullness with others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Seven</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w6 is the ability to turn one's own enthusiasm into a gift for others. "The older I get, the more I dare to be young," Krabbenhöft says – a sentence that gives thousands of older people the courage not to let themselves be reduced to a socially assigned image of old age. The 2015 Street Fashion Pluck Award from the German Fashion and Textile Designers' Association honors exactly this effect: not mere extravagance, but an attitude that is contagious.</p>
+          <p class="vb-intro">The shadow of the social Seven lies in the risk of eventually being unable to distinguish one's own role from public expectation – when genuine enthusiasm turns into an obligation to be perpetually present. In Krabbenhöft, little of this is visible so far: in interviews he doesn't come across as someone playing a role, but as someone who spent a lifetime preparing for this moment without knowing it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Beaver Who Builds a New Dam at 70</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Günther Krabbenhöft displays the social Seven with a Six wing in a rarely so clear form: fifty years of dependable craft, decades of quiet responsibility for his own daughter, a fixed, recognizable appearance – and, in the midst of that structure, a burst of joie de vivre that begins only late in life and is shared immediately instead of being kept to himself.</p>
+          <p class="vb-intro">The beaver doesn't build for itself alone. What Krabbenhöft has built with his dam of bowler hat, techno, and a book about staying young now reaches far beyond Berlin-Kreuzberg – an invitation to everyone who believes joy comes with an expiration date.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"beruehmte-rowan-atkinson", label:"Portrait: Rowan Atkinson (SO7w6)"},
+        {route:"beruehmte-christian-drosten", label:"Portrait: Prof. Dr. Christian Drosten (SO7w6)"},
+      ])}
+    </div>
+  `);
+}

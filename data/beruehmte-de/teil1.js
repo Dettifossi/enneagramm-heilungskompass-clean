@@ -1931,3 +1931,68 @@ export function willYunLeePortraitPage() {
     </div>
   `);
 }
+
+export function guentherKrabbenhoeftPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-guenther-krabbenhoeft-portrait.jpg" alt="Günther Krabbenhöft" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Günther Krabbenhöft</p>
+        <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Model &amp; Stilikone, geb. 1945 in Hildesheim – Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben – ein Tier, das nicht für sich allein baut, sondern Lebensräume schafft, von denen ein ganzes Ökosystem profitiert. Günther Krabbenhöft, 1945 in Hildesheim bei Hannover geboren, hat fünfzig Jahre lang als Koch gearbeitet – ein Handwerk mit festen Abläufen, wiederkehrenden Handgriffen, verlässlicher Struktur. Mit 25 Jahren heiratete er, wurde Vater einer Tochter, ließ sich zehn Jahre später scheiden und zog sie danach allein groß. Seit 1968 lebt er in Berlin, zunächst in Moabit, später in Kreuzberg, wo er über Jahrzehnte zu einer festen, bekannten Figur im Kiez wurde.</p>
+          <p class="vb-intro">Nichts an dieser Biografie deutete auf das hin, was ab Februar 2015 folgte: Ein Tourist fotografierte den damals bereits 69-Jährigen am U-Bahnhof Kottbusser Tor – mit Melone, Weste und Fliege – und stellte das Bild auf Facebook. Innerhalb weniger Wochen war Günther in Modeblogs, auf Titelseiten und in sozialen Medien präsent. Aus dem Kiez-Original wurde, fast über Nacht, „der stilvollste Opa der Welt".</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Freude, die anderen gehört</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> ist der Kontratyp der Sieben: Statt die eigene Genusssuche zu verfolgen, wird die Energie der Sieben in den Dienst eines größeren Kreises gestellt – Naranjo nannte dieses Prinzip <em>Sacrifice</em>, Opferbereitschaft. Wo eine sexuelle oder selbsterhaltende Sieben in erster Linie das eigene Erleben maximiert, richtet die soziale Sieben ihre Begeisterung nach außen: Sie baut etwas, das andere mitnimmt, mitreißt, mitträgt.</p>
+          <p class="vb-intro">Genau das ist bei Krabbenhöft zu beobachten. Seinen berühmt gewordenen Satz „Der Club ist mein Gottesdienst" spricht er nicht über sich allein – er lebt ihn öffentlich vor, für seine inzwischen rund 300.000 Instagram-Follower, in einem selbst geschriebenen Buch mit dem programmatischen Titel <em>Sei einfach du! Zum Jungsein bist du nie zu alt</em>, und in Werbekampagnen für Google, Polaroid, Picard und die Sparkasse. Aus der eigenen Lebensfreude wurde eine öffentliche Botschaft gegen das Altersbild einer ganzen Gesellschaft – nicht Selbstgenuss, sondern Weitergabe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Der feste Anzug, die feste Rolle, die feste Loyalität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Sieben etwas, das eine SO7 mit schwächer ausgeprägtem Sechserflügel nicht in demselben Maß hätte: die Sehnsucht nach einem verlässlichen, wiedererkennbaren Rahmen, innerhalb dessen sich die Begeisterung entfalten kann. Krabbenhöft trägt nicht wechselnde, beliebige Outfits – Melone und Weste sind sein feststehendes Markenzeichen geworden, ein Erkennungszeichen, auf das man sich verlassen kann, so wie man sich fünfzig Jahre lang auf ihn als Koch verlassen konnte.</p>
+          <p class="vb-intro">Dieselbe Verlässlichkeit zeigt sich in seiner Familiengeschichte: Nach der Scheidung zog er seine Tochter allein groß, statt sich der Verantwortung zu entziehen – eine über Jahre getragene, stille Pflichterfüllung, lange bevor irgendjemand ihn kannte. Der Sechserflügel sorgt dafür, dass die Begeisterung der Sieben nicht haltlos bleibt, sondern an feste Bezugspunkte gebunden wird: an eine Rolle, an einen Ort, an Menschen, denen man treu bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Unmäßigkeit, gebändigt durch ein Leben lang Struktur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Unmäßigkeit</strong> – bei der SO7 nicht als zügellose Suche nach immer neuen Reizen, sondern als eine Begeisterungsfähigkeit, die sich in feste Bahnen legt. Krabbenhöft entdeckte seine Liebe zur Technoszene erst spät, als Freunde ihn ins Berghain mitnahmen, wo er acht Stunden am Stück tanzte – eine für sein Alter ungewöhnliche, geradezu grenzenlose Ausdauer. Doch diese Grenzenlosigkeit bleibt eingebettet in ein Leben, das fünfzig Jahre lang von Struktur, Pflicht und Verlässlichkeit geprägt war.</p>
+          <p class="vb-intro">„Ich kleide mich für mich, nicht für andere", sagt er über seinen Stil – ein Satz, der zunächst nach reinem Selbstgenuss klingt. Doch sein eigentliches Ziel formuliert er anders: „Ich möchte mein Herz mit schönen Gedanken und Gefühlen füllen." Das ist keine Suche nach dem nächsten Kick, sondern das Bedürfnis, eine innere Fülle aufzubauen – und diese Fülle, siebentypisch, mit anderen zu teilen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Sieben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w6 ist die Fähigkeit, aus der eigenen Begeisterung ein Geschenk an andere zu machen. „Je älter ich werde, desto mehr traue ich mich, jung zu sein", sagt Krabbenhöft – ein Satz, der Tausenden älteren Menschen Mut macht, sich nicht auf ein gesellschaftlich zugewiesenes Altersbild reduzieren zu lassen. Der 2015 verliehene Street Fashion Pluck Award des Verbands Deutscher Mode- und Textildesigner würdigt genau diese Wirkung: nicht bloße Extravaganz, sondern eine Haltung, die andere ansteckt.</p>
+          <p class="vb-intro">Der Schatten der sozialen Sieben liegt in der Gefahr, die eigene Rolle irgendwann nicht mehr von der öffentlichen Erwartung unterscheiden zu können – wenn aus echter Begeisterung eine Pflicht zur Dauerpräsenz wird. Bei Krabbenhöft ist davon bislang wenig zu spüren: Er wirkt in Interviews nicht wie jemand, der eine Rolle spielt, sondern wie jemand, der ein Leben lang auf diesen Moment vorbereitet war, ohne es zu wissen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Biber, der mit 70 noch einen neuen Damm baut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Günther Krabbenhöft zeigt die soziale Sieben mit Sechserflügel in einer selten so klaren Form: fünfzig Jahre verlässliches Handwerk, jahrzehntelange stille Verantwortung für die eigene Tochter, ein festes, wiedererkennbares Erscheinungsbild – und mitten in dieser Struktur ein Ausbruch von Lebensfreude, der erst im späten Alter beginnt und sofort geteilt wird, statt für sich behalten zu werden.</p>
+          <p class="vb-intro">Der Biber baut nicht für sich allein. Was Krabbenhöft mit seinem Damm aus Melone, Techno und einem Buch über das Jungsein errichtet hat, trägt inzwischen weit über Berlin-Kreuzberg hinaus – als Einladung an alle, die glauben, für Freude gäbe es ein Verfallsdatum.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
+        {route:"beruehmte-christian-drosten", label:"Porträt: Prof. Dr. Christian Drosten (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
