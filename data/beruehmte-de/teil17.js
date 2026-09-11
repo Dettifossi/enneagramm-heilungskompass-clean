@@ -706,6 +706,7 @@ export function jeanneCalmentPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-larry-king", label:"Portr\xe4t: Larry King (SE7w6)"},
           {route:"beruehmte-jasmin-paolini", label:"Portr\xe4t: Jasmine Paolini (SE7w6)"},
+          {route:"beruehmte-elton-john", label:"Portr\xe4t: Elton John (SE7w6)"},
         ])}
       </div>
     </div>

@@ -1938,3 +1938,69 @@ export function olenaZelenskaPortraitPage() {
     </div>
   `);
 }
+
+export function eltonJohnPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-elton-john-portrait.jpg" alt="Elton John" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Elton John</p>
+        <p class="krim-portrait-typ">SE7w6 · Self-Preservation Type 7 with a Six Wing</p>
+        <p class="krim-portrait-subtitle">Musician, composer, EGOT winner, born 1947 – Animal equivalent: Fox</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Fox</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>fox</strong> is the animal of the self-preservation Seven: agile, pleasure-seeking, always looking for the next enjoyment and the next safety net at the same time. Reginald Kenneth Dwight was born in 1947 in Pinner, into a home full of tension – his father, a Royal Air Force officer, rejected his musical ambitions and wanted a conventional banking career for him. There were, by all accounts, fierce arguments at home that weighed heavily on the boy. His parents divorced when he was fourteen.</p>
+          <p class="vb-intro">His mother and grandmother raised him more generously and freely – at their piano, as a small boy, he learned to play classical pieces by ear. At eleven he won a scholarship to the Royal Academy of Music. The fox learned early to build himself an escape hatch out of a cramped home, using talent.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Seven: Pleasure as a Counterweight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Seven (SE7)</strong> secures safety and well-being not through restraint but through active enjoyment and the ability to provide for oneself. Elton John himself said his wild stage costumes and performances were his way of letting go after a restrictive childhood. Ostrich feathers, $5,000 glasses spelling out his name in lights, costumes as the Statue of Liberty, Donald Duck, or Mozart – the most famous of all at his 1975 Dodger Stadium shows in a sequined baseball uniform.</p>
+          <p class="vb-intro">This abundance of color, fabric, and staging is the SE7 in its purest form: not restraint, but excess as a path to one's own safety. Yet the same pursuit of pleasure tipped, over two decades, into severe cocaine and alcohol addiction, compounded by bulimia – until by 1990 nothing was left that still gave him any sense of safety.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six Wing: Loyalty as a Lifeline</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six wing (w6)</strong> gives the self-preservation Seven something a SE7 with a more weakly developed Six wing would not have to the same degree: the ability to stabilize through one firm, loyal bond rather than relying solely on ever-new stimulation. On April 8, 1990, Elton John sat at the bedside of sixteen-year-old Ryan White, a teenager dying of AIDS with whom he had built a close friendship. "Ryan was the spark that helped me to recover from my addictions and start the AIDS foundation," he later said.</p>
+          <p class="vb-intro">A few months later, on July 29, 1990, he checked himself into Parkside Lutheran Hospital in Chicago – one of the few clinics at the time able to treat bulimia alongside cocaine and alcohol addiction. He has remained sober ever since. In 1992 he founded the Elton John AIDS Foundation, which has since raised over $600 million for HIV programs in more than 55 countries – a lasting, reliable structure that provides exactly the safety the Six wing has always sought.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Gluttony as a Life Principle and as a Trap</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Seven is called <strong>gluttony</strong> – for the SE7w6 not just as an appetite for experience, but as a fundamental strategy of protecting oneself against scarcity by stocking up on everything available. His partnership with lyricist Bernie Taupin, unbroken since 1967, worked on the same principle of effortless abundance: Taupin often wrote a lyric in under an hour, John composed the music for it in about thirty minutes – an output that barely let up for decades.</p>
+          <p class="vb-intro">This same abundance became a trap during the addiction years: always more, never enough, until the body itself drew the line. He recorded his 1992 album "The One" fully sober for the first time – "I was used to making records under the haze of alcohol or drugs, and here I was, 100% sober, so it was tough," he reflected in 2020.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Seven</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE7w6 shows in how boundless pleasure can turn into equally boundless generosity: over 300 million records sold, EGOT status (Emmy, Grammy, Oscar, Tony), a knighthood in 1998 – and alongside it, one of the world's most influential AIDS foundations, whose annual Oscar party has long become one of Hollywood's most significant charity events.</p>
+          <p class="vb-intro">The shadow showed in the two lost decades of addiction and in a marriage to Renate Blauel, entered in 1984 and lasting only three years – an attempt to force himself into a conventional form that did not fit his true identity. Only with David Furnish, a civil partnership since 2005 and married since 2014, did he find the stable, loyal bond the Six wing had always been searching for.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: From a Fleeing Fox to a Reliable Advocate</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Elton John has traveled the full range of the SE7w6 path: from the boy who built himself a first escape hatch at his grandmother's piano, through the fox in ostrich feathers who outshone a cramped childhood home with boundless stage splendor, to the addict who only found the anchor he needed at the bedside of a sixteen-year-old friend.</p>
+          <p class="vb-intro">His "Farewell Yellow Brick Road" tour (2018–2023) became the most successful tour in music history – one last, extended indulgence, this time without the escape reflexes of earlier decades.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se7", label:"SE7 – The Fox: Subtype Profile"},
+        {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6)"},
+        {route:"beruehmte-junko-tabei", label:"Portrait: Junko Tabei (SE7w6)"},
+        {route:"beruehmte-jeanne-calment", label:"Portrait: Jeanne Calment (SE7w6)"},
+      ])}
+    </div>
+  `);
+}

@@ -1939,3 +1939,69 @@ export function olenaZelenskaPortraitPage() {
     </div>
   `);
 }
+
+export function eltonJohnPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-elton-john-portrait.jpg" alt="Elton John" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Elton John</p>
+        <p class="krim-portrait-typ">SE7w6 · Selbsterhaltender Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Musiker, Komponist, EGOT-Gewinner, geb. 1947 – Tierentsprechung: Fuchs</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Fuchs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fuchs</strong> ist das Tier der selbsterhaltenden Sieben: wendig, genussfreudig, immer auf der Suche nach dem nächsten Vergnügen und der nächsten Absicherung zugleich. Reginald Kenneth Dwight wurde 1947 in Pinner geboren, in ein Zuhause voller Spannung – sein Vater, ein Offizier der Royal Air Force, lehnte seine musikalischen Ambitionen ab und wünschte sich für ihn eine konventionelle Bankkarriere. Zu Hause gab es, so wird berichtet, heftige Streits, die den Jungen tief belasteten. Mit vierzehn ließen sich die Eltern scheiden.</p>
+          <p class="vb-intro">Seine Mutter und seine Großmutter zogen ihn großzügiger und freigeistiger auf – an ihrem Klavier lernte er als kleiner Junge, klassische Stücke nach Gehör nachzuspielen. Mit elf gewann er ein Stipendium an der Royal Academy of Music. Der Fuchs lernte früh, sich mit Talent selbst eine Fluchttür aus einem beengten Zuhause zu bauen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Genuss als Gegengewicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sieben (SE7)</strong> sichert sich Sicherheit und Wohlbefinden nicht durch Zurückhaltung, sondern durch aktiven Genuss und die Fähigkeit, sich selbst zu versorgen. Elton John erklärte selbst, seine wilden Bühnenkostüme und Auftritte seien seine Art gewesen, sich nach einer einengenden Kindheit gehen zu lassen. Straußenfedern, 5.000-Dollar-Brillen, die seinen Namen in Lichtern buchstabierten, Kostüme als Freiheitsstatue, Donald Duck oder Mozart – der berühmteste Auftritt 1975 im Dodger Stadium in einem mit Pailletten besetzten Baseball-Trikot.</p>
+          <p class="vb-intro">Diese Fülle an Farbe, Stoff und Ausstattung ist die SE7 in Reinform: nicht Verzicht, sondern Überfluss als Weg zur eigenen Sicherheit. Doch dieselbe Suche nach Genuss kippte über zwei Jahrzehnte hinweg in schwere Kokain- und Alkoholsucht, verstärkt durch eine Bulimie-Erkrankung – bis 1990 nichts mehr davon zurückblieb, das ihm noch Sicherheit gab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Loyalität als Rettungsanker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der selbsterhaltenden Sieben etwas, das eine SE7 mit schwächer ausgeprägtem Sechserflügel so nicht hätte: die Fähigkeit, sich über eine feste, loyale Bindung zu stabilisieren, statt allein auf immer neue Reize zu setzen. Am 8. April 1990 saß Elton John am Sterbebett des sechzehnjährigen Ryan White, eines an AIDS erkrankten Jugendlichen, mit dem er eine enge Freundschaft aufgebaut hatte. „Ryan war der Funke, der mir half, von meinen Süchten loszukommen und die AIDS-Stiftung zu gründen", sagte er später.</p>
+          <p class="vb-intro">Wenige Monate danach, am 29. Juli 1990, checkte er sich selbst in die Parkside Lutheran Hospital in Chicago ein – eine der wenigen Kliniken, die damals Bulimie zusammen mit Kokain- und Alkoholsucht behandeln konnten. Er blieb seither nüchtern. 1992 gründete er die Elton John AIDS Foundation, die inzwischen über 600 Millionen Dollar für HIV-Programme in mehr als 55 Ländern gesammelt hat – eine dauerhafte, verlässliche Struktur, die genau die Sicherheit gibt, die der Sechserflügel braucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Völlerei als Lebensprinzip und als Falle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Völlerei</strong> – bei der SE7w6 nicht nur als Appetit auf Erlebnisse, sondern als grundsätzliche Strategie, sich selbst vor Mangel zu schützen, indem man sich mit allem Verfügbaren versorgt. Die Partnerschaft mit Textdichter Bernie Taupin, seit 1967 ununterbrochen, funktionierte nach demselben Prinzip von müheloser Fülle: Taupin schrieb einen Text oft in unter einer Stunde, John komponierte die Musik dazu in etwa dreißig Minuten – ein Ausstoß, der über Jahrzehnte kaum abriss.</p>
+          <p class="vb-intro">Genau diese Fülle wurde in den Suchtjahren zur Falle: Immer mehr, nie genug, bis der Körper selbst die Grenze zog. Sein Album „The One" von 1992 nahm er zum ersten Mal vollständig nüchtern auf – „ich war es gewohnt, Platten im Rausch von Alkohol oder Drogen aufzunehmen, und jetzt war ich hundertprozentig nüchtern, das war hart", sagte er 2020 rückblickend.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Sieben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE7w6 zeigt sich darin, wie aus grenzenlosem Genuss eine ebenso grenzenlose Großzügigkeit werden kann: Über 300 Millionen verkaufte Tonträger, EGOT-Status (Emmy, Grammy, Oscar, Tony), die Ritterwürde 1998 – und parallel dazu eine der einflussreichsten AIDS-Stiftungen der Welt, deren jährliche Oscar-Party längst zu einem der bedeutendsten Wohltätigkeitsereignisse Hollywoods geworden ist.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in den zwei verlorenen Jahrzehnten der Sucht und in einer 1984 geschlossenen, nur drei Jahre haltenden Ehe mit Renate Blauel – ein Versuch, sich in eine konventionelle Form zu zwingen, die nicht zu seiner eigentlichen Identität passte. Erst mit David Furnish, seit 2005 eingetragene Partnerschaft, seit 2014 verheiratet, fand er die stabile, loyale Bindung, die der Sechserflügel eigentlich schon immer gesucht hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Vom flüchtenden Fuchs zum verlässlichen Fürsprecher</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Elton John hat den Weg der SE7w6 in seiner ganzen Bandbreite durchlaufen: vom Jungen, der sich am Klavier seiner Großmutter eine erste Fluchttür baute, über den Fuchs in Straußenfedern, der ein enges Elternhaus mit grenzenloser Bühnenpracht überstrahlte, bis zum Süchtigen, der erst am Sterbebett eines sechzehnjährigen Freundes den Anker fand, den er brauchte.</p>
+          <p class="vb-intro">Seine „Farewell Yellow Brick Road"-Tournee (2018–2023) wurde zur erfolgreichsten Tournee der Musikgeschichte – ein letzter, ausgedehnter Genuss, diesmal ganz ohne die Fluchtreflexe der früheren Jahrzehnte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se7", label:"SE7 – Der Fuchs: Subtyp-Profil"},
+        {route:"beruehmte-larry-king", label:"Porträt: Larry King (SE7w6)"},
+        {route:"beruehmte-junko-tabei", label:"Porträt: Junko Tabei (SE7w6)"},
+        {route:"beruehmte-jeanne-calment", label:"Porträt: Jeanne Calment (SE7w6)"},
+      ])}
+    </div>
+  `);
+}

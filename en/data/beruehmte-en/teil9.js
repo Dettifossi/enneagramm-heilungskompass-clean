@@ -871,6 +871,7 @@ export function junkoTabeiPortraitPage() {
           {route:"beruehmte-jeanne-calment", label:"Portrait: Jeanne Calment (SE7w6)"},
           {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6)"},
           {route:"krankheitsportraets-junko-tabei", label:"Illness Portrait: Junko Tabei (SE7w6) – cancer and further summits"},
+          {route:"beruehmte-elton-john", label:"Portrait: Elton John (SE7w6)"},
         ])}
       </div>
     </div>

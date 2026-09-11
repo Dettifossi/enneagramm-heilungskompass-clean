@@ -901,6 +901,7 @@ export function larryKingPortraitPage() {
         {route:"beruehmte-wallace-shawn", label:"Portr\u00e4t: Wallace Shawn (SE7w6)"},
         {route:"krankheitsportraets-larry-king", label:"Krankheitsporträt: Larry King – Herz, Krebs & COVID-19"},
         {route:"bibel-lazarus", label:"Bibel-Porträt: Lazarus (SE7w6)"},
+        {route:"beruehmte-elton-john", label:"Porträt: Elton John (SE7w6)"},
       ])}
     </div>
   `);
