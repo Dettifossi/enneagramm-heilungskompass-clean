@@ -1948,3 +1948,69 @@ export function connieChiuPortraitPage() {
     </div>
   `);
 }
+
+export function michaelStipePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-stipe-portrait.jpg" alt="Michael Stipe – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Stipe</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with a Five Wing</p>
+        <p class="krim-portrait-subtitle">Musician, singer of R.E.M., born 1960 – Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo That Built Its Own Shell</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four – a creature that hides its vulnerability behind a self-built protective layer and, when needed, curls up rather than exposing itself. John Michael Stipe was born in 1960 in Decatur, Georgia, the son of an Army helicopter pilot – the family moved repeatedly, between West Germany, Texas, Illinois, and Alabama. No fixed place, no fixed belonging that came naturally.</p>
+          <p class="vb-intro">At fourteen he came across an article about the CBGB scene and Patti Smith in Creem magazine. "Since then, I never looked back," he said later. The armadillo finds its own shell early – not out of fear, but because it learns that the outside world is unreliable and one's own, self-constructed identity is more dependable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: Distinctiveness as a Public Stance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Four (SO4)</strong> doesn't seek its uniqueness in hiding but in a deliberately outward-facing, unmistakable position – often paired with a deep sense of justice toward the society it simultaneously sets itself apart from. In 1980, Stipe met Peter Buck, Mike Mills, and Bill Berry at the University of Georgia in Athens; together they dropped out of school to form R.E.M. Their debut album "Murmur" (1983) won Rolling Stone's Critics Poll Album of the Year over Michael Jackson's "Thriller" – critical recognition far outside any mainstream logic, exactly the SO4 pattern: acclaim, but on one's own, unadapted terms.</p>
+          <p class="vb-intro">His political engagement – against the Iraq War in 2006, for gun-control reform in 2018, for a ceasefire in Gaza in 2023 – shows the same structure: his own voice made public, visible, and paired with a clear moral stance, never incidental, always a deliberate positioning against a society he sees as needing correction.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five Wing: Retreat Into the Cryptic Instead of the Loud</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five wing (w5)</strong> gives the social Four a withdrawn, intellectually distanced side. Stipe's early lyrics were deliberately unclear – "you all know there aren't words, per se, to a lot of the early stuff," he later admitted. Not accident, but method: first simple pictures, then language meant to resist linear sense. Thom Yorke later described this quality admiringly: Stipe would take an emotion – then take a step back from it.</p>
+          <p class="vb-intro">The same withdrawal showed in his personal life: in 1994 he described himself as an "equal opportunity lech" and refused any clear category; only in 2001 did he publicly call himself a "queer artist" and speak of a three-year relationship with a man. His own truth was not disclosed on demand, but on an inner, self-determined timetable – a Five wing that grants closeness only when it is itself ready.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Envy as a Measure of Never Quite Belonging</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Four is called <strong>envy</strong> – for the SO4 not as petty resentment, but as a constant, often painful comparison with a society one wants to belong to yet never quite seems to. During the recording of "Fables of the Reconstruction" in 1985, Stipe fell into a phase of exhaustion and depression, shaved his head into a monk's tonsure, and behaved increasingly erratically. "I was well on my way to losing my mind," he said in retrospect.</p>
+          <p class="vb-intro">In 1992, HIV rumors circulated about him, triggered by his appearance and perceived queerness. Instead of withdrawing, he countered publicly – with a hat reading "White House Stop AIDS." The Four doesn't turn the pain of exclusion into retreat, but into an even clearer public gesture.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4w5 shows in how radical distinctiveness becomes lasting cultural influence: R.E.M. shaped an entire generation of musicians, from Kurt Cobain to Thom Yorke, without ever compromising its own artistic vision. Stipe chose nearly all the band's album covers himself and directed many of its music videos – the band's visual identity remained his own handwriting throughout.</p>
+          <p class="vb-intro">The shadow lies in the risk of internalizing one's own outsider status so deeply that real closeness stays difficult, even once it's long since possible. Only after decades of public reticence does Stipe now live openly with his longtime partner, photographer Thomas Dozol, between New York and Berlin – a late but deliberate arrival.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Distinctiveness That Never Became a Pose</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">R.E.M. disbanded amicably in 2011, after more than thirty years without a single scandal-driven rupture – unusual for a band of this magnitude, but typical of Stipe's need to finish telling his own story himself rather than letting it fall apart. In 2023, Rolling Stone ranked him #152 among the 200 Greatest Singers of All Time.</p>
+          <p class="vb-intro">Since the band's breakup he has continued releasing his own music and working as a photographer and film producer – never to push back into the spotlight, but to remain visible on his own terms. The armadillo has never fully shed its shell, but it has learned to open it itself, whenever it decides the moment is right.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-edvard-munch", label:"Portrait: Edvard Munch (SO4w5)"},
+        {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5)"},
+        {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
+      ])}
+    </div>
+  `);
+}

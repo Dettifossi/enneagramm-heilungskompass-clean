@@ -1948,3 +1948,69 @@ export function connieChiuPortraitPage() {
     </div>
   `);
 }
+
+export function michaelStipePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-stipe-portrait.jpg" alt="Michael Stipe – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Stipe</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Musiker, Sänger von R.E.M., geb. 1960 &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier, das seinen eigenen Panzer baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier – ein Wesen, das seine Verletzlichkeit hinter einer selbstgebauten Schutzschicht verbirgt und sich, wenn nötig, einrollt, statt sich zu zeigen. John Michael Stipe wurde 1960 in Decatur, Georgia, als Sohn eines Armee-Hubschrauberpiloten geboren – die Familie zog wiederholt um, zwischen Westdeutschland, Texas, Illinois und Alabama. Kein fester Ort, keine feste Zugehörigkeit, die sich von selbst ergab.</p>
+          <p class="vb-intro">Mit vierzehn stieß er auf einen Artikel über die CBGB-Szene und Patti Smith im Magazin ›Creem‹. ›Seitdem habe ich nie mehr zurückgeblickt‹, sagte er später. Das Gürteltier findet früh seinen eigenen Panzer – nicht aus Angst, sondern weil es lernt, dass die Welt draußen unzuverlässig ist und die eigene, selbst konstruierte Identität verlässlicher.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Besonderheit als öffentliche Haltung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> sucht ihre Einzigartigkeit nicht im Verborgenen, sondern in einer bewusst nach außen getragenen, unverwechselbaren Position – oft verbunden mit einem tiefen Gerechtigkeitsempfinden gegenüber der Gesellschaft, aus der sie sich zugleich absetzt. 1980 traf Stipe an der University of Georgia in Athens auf Peter Buck, Mike Mills und Bill Berry; gemeinsam brachen sie ihr Studium ab, um R.E.M. zu gründen. Ihr Debütalbum ›Murmur‹ (1983) gewann bei der Rolling-Stone-Kritikerumfrage sogar gegen Michael Jacksons ›Thriller‹ – ein Achtungserfolg fernab jeder Mainstream-Logik, genau das Muster der SO4: Anerkennung, aber auf den eigenen, unangepassten Bedingungen.</p>
+          <p class="vb-intro">Sein politisches Engagement – gegen den Irakkrieg 2006, für Waffenrecht-Reformen 2018, für einen Waffenstillstand in Gaza 2023 – zeigt dieselbe Struktur: die eigene Stimme wird öffentlich, sichtbar und mit klarer moralischer Haltung eingesetzt, nie beiläufig, immer als bewusste Positionierung gegenüber einer Gesellschaft, die aus seiner Sicht Korrektur braucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Rückzug ins Kryptische statt ins Laute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sozialen Vier eine zurückgezogene, intellektuell distanzierte Seite. Stipes frühe Texte waren bewusst unklar – ›ihr wisst alle, dass es zu vielem vom frühen Material eigentlich keine Worte im eigentlichen Sinn gibt‹, gab er später zu. Kein Zufall, sondern Methode: erst einfache Bilder, dann Sprache, die keinen linearen Sinn ergeben sollte. Thom Yorke beschrieb genau diese Qualität später bewundernd: Stipe nehme ein Gefühl auf – und trete dann einen Schritt davon zurück.</p>
+          <p class="vb-intro">Auch privat zeigte sich dieser Rückzug: 1994 beschrieb er sich als ›equal opportunity lech‹ und verweigerte jede eindeutige Kategorie, erst 2001 nannte er sich öffentlich einen ›queer artist‹ und sprach über eine dreijährige Beziehung mit einem Mann. Die eigene Wahrheit wurde nicht auf Verlangen preisgegeben, sondern nach einem inneren, selbstbestimmten Zeitplan – ein Fünferflügel, der Nähe erst gewährt, wenn er selbst dazu bereit ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Neid als Maßstab, nie ganz dazuzugehören</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Vier heißt <strong>Neid</strong> – bei der SO4 nicht als kleinliche Missgunst, sondern als ständiger, oft schmerzhafter Vergleich mit einer Gesellschaft, der man sich zwar zugehörig fühlen will, aber nie ganz anzugehören scheint. Während der Aufnahmen zu ›Fables of the Reconstruction‹ 1985 geriet Stipe in eine Erschöpfungs- und Depressionsphase, rasierte sich eine Mönchstonsur und verhielt sich zunehmend erratisch. ›Ich war kurz davor, den Verstand zu verlieren‹, sagte er rückblickend.</p>
+          <p class="vb-intro">1992 kursierten HIV-Gerüchte über ihn, ausgelöst durch sein Äußeres und seine wahrgenommene Queerness. Statt sich zurückzuziehen, konterte er öffentlich – mit einer Mütze, auf der ›White House Stop AIDS‹ stand. Die Vier verwandelt den Schmerz des Ausgeschlossenseins nicht in Rückzug, sondern in eine noch deutlichere öffentliche Geste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 zeigt sich darin, wie aus radikaler Unverwechselbarkeit dauerhafter kultureller Einfluss wird: R.E.M. prägte eine ganze Generation von Musikern, von Kurt Cobain bis Thom Yorke, ohne je den eigenen künstlerischen Kompromiss einzugehen. Stipe wählte fast alle Albumcover selbst aus und führte bei vielen Musikvideos Regie – die visuelle Identität der Band blieb durchgehend seine eigene Handschrift.</p>
+          <p class="vb-intro">Der Schatten liegt in der Gefahr, das eigene Außenseitertum so tief zu verinnerlichen, dass echte Nähe schwer bleibt, selbst wenn sie längst möglich wäre. Erst nach Jahrzehnten öffentlicher Zurückhaltung lebt Stipe heute offen mit seinem langjährigen Partner, dem Fotografen Thomas Dozol, zwischen New York und Berlin – ein spätes, aber bewusstes Ankommen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Besonderheit, die nie zur Pose wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">R.E.M. löste sich 2011 einvernehmlich auf, nach über dreißig Jahren ohne einen einzigen Skandal-Bruch – ungewöhnlich für eine Band dieser Größenordnung, aber typisch für Stipes Bedürfnis, die eigene Geschichte selbst zu Ende zu erzählen, statt sie zerfallen zu lassen. 2023 rangierte ihn der Rolling Stone unter den 200 größten Sängerinnen und Sängern aller Zeiten auf Platz 152.</p>
+          <p class="vb-intro">Seit der Bandauflösung veröffentlicht er weiterhin eigene Musik, arbeitet als Fotograf und Filmproduzent – nie um zurück ins Rampenlicht zu drängen, sondern um auf eigenen Bedingungen sichtbar zu bleiben. Das Gürteltier hat seinen Panzer nie ganz abgelegt, aber gelernt, ihn selbst zu öffnen, wann immer es das für richtig hält.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-edvard-munch", label:"Porträt: Edvard Munch (SO4w5)"},
+        {route:"beruehmte-marcel-proust", label:"Porträt: Marcel Proust (SO4w5)"},
+        {route:"beruehmte-gustav-mahler", label:"Porträt: Gustav Mahler (SO4w5)"},
+      ])}
+    </div>
+  `);
+}

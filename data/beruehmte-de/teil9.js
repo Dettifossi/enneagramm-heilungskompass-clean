@@ -1732,6 +1732,7 @@ export function edvardMunchPortraitPage() {
         {route:"beruehmte-marcel-proust", label:"Portr\xe4t: Marcel Proust (SO4w5) – dieselbe R\xfcckzugslogik bei fortbestehender Zugeh\xf6rigkeit"},
         {route:"beruehmte-gustav-mahler", label:"Portr\xe4t: Gustav Mahler (SO4w5)"},
         {route:"beruehmte-leonard-cohen", label:"Portr\xe4t: Leonard Cohen (SO4w5)"},
+        {route:"beruehmte-michael-stipe", label:"Portr\xe4t: Michael Stipe (SO4w5)"},
       ])}
     </div>
   `);

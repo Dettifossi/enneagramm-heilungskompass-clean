@@ -1075,6 +1075,7 @@ export function marcelProustPortraitPage() {
         {route:"beruehmte-edvard-munch", label:"Portr\xe4t: Edvard Munch (SO4w5) \u2013 dieselbe R\xfcckzugslogik bei fortbestehender Zugeh\xf6rigkeit"},
         {route:"krankheitsportraets-gustav-mahler", label:"Krankheitsportr\u00e4t: Gustav Mahler (SO4w5) \u2013 Parallele zu Prousts Wettlauf gegen die Zeit"},
         {route:"krankheitsportraets-marcel-proust", label:"Krankheitsportr\u00e4t: Marcel Proust (SO4w5) \u2013 lebenslanges Asthma"},
+        {route:"beruehmte-michael-stipe", label:"Portr\u00e4t: Michael Stipe (SO4w5)"},
       ])}
     </div>
   `);

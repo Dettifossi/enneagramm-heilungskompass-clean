@@ -593,6 +593,7 @@ export function gustavMahlerPortraitPage() {
         {route:"beruehmte-edgar-allan-poe", label:"Portrait: Edgar Allan Poe (SO4w5)"},
         {route:"beruehmte-edvard-munch", label:"Portrait: Edvard Munch (SO4w5) – personal suffering as a public confession"},
         {route:"krankheitsportraets-gustav-mahler", label:"Illness Portrait: Gustav Mahler (SO4w5)"},
+        {route:"beruehmte-michael-stipe", label:"Portrait: Michael Stipe (SO4w5)"},
       ])}
     </div>
   `);

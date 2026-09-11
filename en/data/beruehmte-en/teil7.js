@@ -1074,6 +1074,7 @@ export function marcelProustPortraitPage() {
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
         {route:"krankheitsportraets-gustav-mahler", label:"Illness Portrait: Gustav Mahler (SO4w5) – parallel to Proust's race against time"},
         {route:"krankheitsportraets-marcel-proust", label:"Illness Portrait: Marcel Proust (SO4w5) – lifelong asthma"},
+        {route:"beruehmte-michael-stipe", label:"Portrait: Michael Stipe (SO4w5)"},
       ])}
     </div>
   `);

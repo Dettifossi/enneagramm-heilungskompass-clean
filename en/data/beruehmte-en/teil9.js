@@ -1734,6 +1734,7 @@ export function edvardMunchPortraitPage() {
         {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5) – the same logic of withdrawal-while-belonging"},
         {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
         {route:"beruehmte-leonard-cohen", label:"Portrait: Leonard Cohen (SO4w5)"},
+        {route:"beruehmte-michael-stipe", label:"Portrait: Michael Stipe (SO4w5)"},
       ])}
     </div>
   `);
