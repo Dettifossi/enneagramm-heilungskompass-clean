@@ -31872,7 +31872,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Frankreich", tags:["Gesellschaft"], gender:"f"},
   { route:"beruehmte-elton-john", name:"Elton John", added:"2026-09-11", subtyp:"SE7w6",
     heading:"Elton John – Selbsterhaltender Typ 7",
-    teaser:"SE7w6 · geb. 1947. Musiker, Komponist, EGOT-Gewinner. Zwei Jahrzehnte Sucht, seit 1990 nüchtern nach dem Tod eines jungen Freundes, seither Gründer einer der größten AIDS-Stiftungen der Welt. Der Fuchs, der Fülle in Verlässlichkeit verwandelte.",
+    teaser:"SE7w6 · geb. 1947. Musiker, Komponist, EGOT-Gewinner. Zwei Jahrzehnte Sucht, seit 1990 nüchtern nach dem Tod eines jungen Freundes, seither Gründer einer der größten AIDS-Stiftungen der Welt. Der Gorilla, der Fülle in Verlässlichkeit verwandelte.",
     land:"Vereinigtes Königreich", tags:["Musik","Wohltätigkeit"], gender:"m"},
   { route:"beruehmte-larry-king", name:"Larry King", added:"2026-08-03", subtyp:"SE7w6",
     heading:"Larry King \u2013 Selbsterhaltender Typ 7",

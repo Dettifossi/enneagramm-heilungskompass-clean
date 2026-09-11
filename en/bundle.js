@@ -2096,7 +2096,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Russia", tags:["Society"], gender:"f"},
 { route:"beruehmte-elton-john", name:"Elton John", added:"2026-09-11", subtyp:"SE7w6",
     heading:"Elton John – Self-Preservation Type 7",
-    teaser:"SE7w6 · born 1947. Musician, composer, EGOT winner. Two decades of addiction, sober since 1990 after the death of a young friend, since then the founder of one of the world's largest AIDS foundations. The fox who turned excess into reliability.",
+    teaser:"SE7w6 · born 1947. Musician, composer, EGOT winner. Two decades of addiction, sober since 1990 after the death of a young friend, since then the founder of one of the world's largest AIDS foundations. The gorilla who turned excess into reliability.",
     land:"United Kingdom", tags:["Music","Philanthropy"], gender:"m"},
 { route:"beruehmte-larry-king", name:"Larry King", added:"2026-08-03", subtyp:"SE7w6",
     heading:"Larry King – Self-Preservation Type 7",

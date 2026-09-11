@@ -1951,14 +1951,14 @@ export function eltonJohnPortraitPage() {
         </div>
         <p class="krim-portrait-name">Elton John</p>
         <p class="krim-portrait-typ">SE7w6 · Selbsterhaltender Typ 7 mit Sechserflügel</p>
-        <p class="krim-portrait-subtitle">Musiker, Komponist, EGOT-Gewinner, geb. 1947 – Tierentsprechung: Fuchs</p>
+        <p class="krim-portrait-subtitle">Musiker, Komponist, EGOT-Gewinner, geb. 1947 – Tierentsprechung: Gorilla</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Der Fuchs</h2>
+        <h2 class="vb-section">1. Der Gorilla</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Fuchs</strong> ist das Tier der selbsterhaltenden Sieben: wendig, genussfreudig, immer auf der Suche nach dem nächsten Vergnügen und der nächsten Absicherung zugleich. Reginald Kenneth Dwight wurde 1947 in Pinner geboren, in ein Zuhause voller Spannung – sein Vater, ein Offizier der Royal Air Force, lehnte seine musikalischen Ambitionen ab und wünschte sich für ihn eine konventionelle Bankkarriere. Zu Hause gab es, so wird berichtet, heftige Streits, die den Jungen tief belasteten. Mit vierzehn ließen sich die Eltern scheiden.</p>
-          <p class="vb-intro">Seine Mutter und seine Großmutter zogen ihn großzügiger und freigeistiger auf – an ihrem Klavier lernte er als kleiner Junge, klassische Stücke nach Gehör nachzuspielen. Mit elf gewann er ein Stipendium an der Royal Academy of Music. Der Fuchs lernte früh, sich mit Talent selbst eine Fluchttür aus einem beengten Zuhause zu bauen.</p>
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier der selbsterhaltenden Sieben: genussfreudig, territorial, immer bemüht, sich ein eigenes, geschütztes Revier aus Fülle und Sicherheit aufzubauen. Reginald Kenneth Dwight wurde 1947 in Pinner geboren, in ein Zuhause voller Spannung – sein Vater, ein Offizier der Royal Air Force, lehnte seine musikalischen Ambitionen ab und wünschte sich für ihn eine konventionelle Bankkarriere. Zu Hause gab es, so wird berichtet, heftige Streits, die den Jungen tief belasteten. Mit vierzehn ließen sich die Eltern scheiden.</p>
+          <p class="vb-intro">Seine Mutter und seine Großmutter zogen ihn großzügiger und freigeistiger auf – an ihrem Klavier lernte er als kleiner Junge, klassische Stücke nach Gehör nachzuspielen. Mit elf gewann er ein Stipendium an der Royal Academy of Music. Der Gorilla lernte früh, sich mit Talent ein erstes eigenes Revier zu schaffen – einen Ort abseits des beengten Elternhauses, an dem eigene Regeln galten.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Sieben: Genuss als Gegengewicht</h2>
@@ -1985,9 +1985,9 @@ export function eltonJohnPortraitPage() {
           <p class="vb-intro">Der Schatten zeigte sich in den zwei verlorenen Jahrzehnten der Sucht und in einer 1984 geschlossenen, nur drei Jahre haltenden Ehe mit Renate Blauel – ein Versuch, sich in eine konventionelle Form zu zwingen, die nicht zu seiner eigentlichen Identität passte. Erst mit David Furnish, seit 2005 eingetragene Partnerschaft, seit 2014 verheiratet, fand er die stabile, loyale Bindung, die der Sechserflügel eigentlich schon immer gesucht hatte.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Das Vermächtnis: Vom flüchtenden Fuchs zum verlässlichen Fürsprecher</h2>
+        <h2 class="vb-section">6. Das Vermächtnis: Vom rastlosen Reviersucher zum verlässlichen Fürsprecher</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Elton John hat den Weg der SE7w6 in seiner ganzen Bandbreite durchlaufen: vom Jungen, der sich am Klavier seiner Großmutter eine erste Fluchttür baute, über den Fuchs in Straußenfedern, der ein enges Elternhaus mit grenzenloser Bühnenpracht überstrahlte, bis zum Süchtigen, der erst am Sterbebett eines sechzehnjährigen Freundes den Anker fand, den er brauchte.</p>
+          <p class="vb-intro">Elton John hat den Weg der SE7w6 in seiner ganzen Bandbreite durchlaufen: vom Jungen, der sich am Klavier seiner Großmutter ein erstes eigenes Revier baute, über den Gorilla in Straußenfedern, der ein enges Elternhaus mit grenzenloser Bühnenpracht überstrahlte, bis zum Süchtigen, der erst am Sterbebett eines sechzehnjährigen Freundes den Anker fand, den er brauchte.</p>
           <p class="vb-intro">Seine „Farewell Yellow Brick Road"-Tournee (2018–2023) wurde zur erfolgreichsten Tournee der Musikgeschichte – ein letzter, ausgedehnter Genuss, diesmal ganz ohne die Fluchtreflexe der früheren Jahrzehnte.</p>
         </blockquote>
 
@@ -1997,7 +1997,7 @@ export function eltonJohnPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se7", label:"SE7 – Der Fuchs: Subtyp-Profil"},
+        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-larry-king", label:"Porträt: Larry King (SE7w6)"},
         {route:"beruehmte-junko-tabei", label:"Porträt: Junko Tabei (SE7w6)"},
         {route:"beruehmte-jeanne-calment", label:"Porträt: Jeanne Calment (SE7w6)"},

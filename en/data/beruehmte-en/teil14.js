@@ -1950,14 +1950,14 @@ export function eltonJohnPortraitPage() {
         </div>
         <p class="krim-portrait-name">Elton John</p>
         <p class="krim-portrait-typ">SE7w6 · Self-Preservation Type 7 with a Six Wing</p>
-        <p class="krim-portrait-subtitle">Musician, composer, EGOT winner, born 1947 – Animal equivalent: Fox</p>
+        <p class="krim-portrait-subtitle">Musician, composer, EGOT winner, born 1947 – Animal equivalent: Gorilla</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Fox</h2>
+        <h2 class="vb-section">1. The Gorilla</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>fox</strong> is the animal of the self-preservation Seven: agile, pleasure-seeking, always looking for the next enjoyment and the next safety net at the same time. Reginald Kenneth Dwight was born in 1947 in Pinner, into a home full of tension – his father, a Royal Air Force officer, rejected his musical ambitions and wanted a conventional banking career for him. There were, by all accounts, fierce arguments at home that weighed heavily on the boy. His parents divorced when he was fourteen.</p>
-          <p class="vb-intro">His mother and grandmother raised him more generously and freely – at their piano, as a small boy, he learned to play classical pieces by ear. At eleven he won a scholarship to the Royal Academy of Music. The fox learned early to build himself an escape hatch out of a cramped home, using talent.</p>
+          <p class="vb-intro">The <strong>gorilla</strong> is the animal of the self-preservation Seven: pleasure-seeking, territorial, always working to build itself a protected domain of abundance and safety. Reginald Kenneth Dwight was born in 1947 in Pinner, into a home full of tension – his father, a Royal Air Force officer, rejected his musical ambitions and wanted a conventional banking career for him. There were, by all accounts, fierce arguments at home that weighed heavily on the boy. His parents divorced when he was fourteen.</p>
+          <p class="vb-intro">His mother and grandmother raised him more generously and freely – at their piano, as a small boy, he learned to play classical pieces by ear. At eleven he won a scholarship to the Royal Academy of Music. The gorilla learned early to carve out a first domain of his own using talent – a place away from a cramped childhood home, where his own rules applied.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Seven: Pleasure as a Counterweight</h2>
@@ -1984,9 +1984,9 @@ export function eltonJohnPortraitPage() {
           <p class="vb-intro">The shadow showed in the two lost decades of addiction and in a marriage to Renate Blauel, entered in 1984 and lasting only three years – an attempt to force himself into a conventional form that did not fit his true identity. Only with David Furnish, a civil partnership since 2005 and married since 2014, did he find the stable, loyal bond the Six wing had always been searching for.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Legacy: From a Fleeing Fox to a Reliable Advocate</h2>
+        <h2 class="vb-section">6. The Legacy: From a Restless Territory-Builder to a Reliable Advocate</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Elton John has traveled the full range of the SE7w6 path: from the boy who built himself a first escape hatch at his grandmother's piano, through the fox in ostrich feathers who outshone a cramped childhood home with boundless stage splendor, to the addict who only found the anchor he needed at the bedside of a sixteen-year-old friend.</p>
+          <p class="vb-intro">Elton John has traveled the full range of the SE7w6 path: from the boy who built himself a first domain of his own at his grandmother's piano, through the gorilla in ostrich feathers who outshone a cramped childhood home with boundless stage splendor, to the addict who only found the anchor he needed at the bedside of a sixteen-year-old friend.</p>
           <p class="vb-intro">His "Farewell Yellow Brick Road" tour (2018–2023) became the most successful tour in music history – one last, extended indulgence, this time without the escape reflexes of earlier decades.</p>
         </blockquote>
 
@@ -1996,7 +1996,7 @@ export function eltonJohnPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se7", label:"SE7 – The Fox: Subtype Profile"},
+        {route:"subtype/se7", label:"SE7 – The Gorilla: Subtype Profile"},
         {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6)"},
         {route:"beruehmte-junko-tabei", label:"Portrait: Junko Tabei (SE7w6)"},
         {route:"beruehmte-jeanne-calment", label:"Portrait: Jeanne Calment (SE7w6)"},
