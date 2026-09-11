@@ -1967,7 +1967,6 @@ export function usainBoltPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
-        {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SO2w3) – ebenfalls derselbe Subtyp"},
         {route:"beruehmte-will-smith", label:"Porträt: Will Smith (SO2w3)"},
       ])}
     </div>
