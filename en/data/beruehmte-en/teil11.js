@@ -1937,3 +1937,69 @@ export function barneyFishwickPortraitPage() {
     </div>
   `);
 }
+
+export function brianFennellPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-brian-fennell-portrait.jpg" alt="Brian Fennell (SYML) – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Brian Fennell (SYML)</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Self-Preservation Four with a Three Wing</p>
+        <p class="krim-portrait-subtitle">Musician and songwriter, born 1983 – Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove Searching for Its Own Origin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four – a bird that finds its way home even when it never consciously learned the route. Brian Leseney Fennell was born in 1983 in Issaquah, Washington, to teenage Welsh immigrant parents, and given up for adoption shortly after birth. As a child he already received classical piano training and performed at his grandmother's retirement home – an early, quiet outlet for feelings that had no other form of expression yet.</p>
+          <p class="vb-intro">At eighteen, after the death of a schoolmate, he began composing – not as a training step, but as a way of coping. The dove returns to its origin even when it never knew it: his stage name SYML is the Welsh word for "simple" – a deliberate nod to the heritage that was taken from him at birth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: Pain Processed Quietly</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SE4)</strong> doesn't display the Four's characteristic longing for what is missing, but processes it quietly, often in a disciplined, craft-like form – Naranjo called this subtype the "stoic" or "brave" variant of the Four: suffering isn't put on display, it's transformed into a daily, disciplined practice. Fennell studied music education with an emphasis on percussion at Seattle Pacific University – a methodical, craft-based approach to a deeply emotional field.</p>
+          <p class="vb-intro">In 2021 his adoptive father died of cancer. Instead of suppressing the loss, Fennell made it the center of his work: the EP "Dim" (Welsh for "nothing") and later the album "The Day My Father Died" (2023) grew directly out of this grief. "The word dim perfectly describes mourning," he said – a theme he has kept returning to ever since, not dramatically, but as a recurring, quiet reworking of the same pain.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three Wing: From Band Member to Own, Visible Brand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three wing (w3)</strong> gives the self-preservation Four the ability to shape inner pain into a presentable, publicly successful body of work. In 2005 Fennell co-founded the band Barcelona, which signed with Universal in 2008 – but instead of dissolving into the group identity, he later left it to continue solo under his own, deliberately chosen name, SYML.</p>
+          <p class="vb-intro">The bet paid off: his song "Where's My Love" became a hit after placement on the series "Teen Wolf" in 2017, going 2× Platinum in the US, 2× Platinum in Australia, and reaching #1 in Canada twice. A deeply private, melancholic composition became a measurable, worldwide success – the Four supplies the feeling, the Three wing makes sure it gets heard.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Envy as Longing for What Others Seem to Take for Granted</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Four is called <strong>envy</strong> – for the SE4w3 not as malice, but as a constant wrestling with what others seem to be granted effortlessly: a known origin, an unbroken family, a taken-for-granted sense of belonging. Fennell's entire body of work circles around exactly these themes – adoption, heritage, loss – revisited again and again, never finally resolved.</p>
+          <p class="vb-intro">In 2023, Lana Del Rey sampled his instrumental composition "I Wanted to Leave" for her song "Paris, Texas" – a late, public confirmation that this quiet, self-sufficient musical language is also recognized as significant from the outside, without him ever having sought to attach himself to a larger pop-star apparatus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE4w3 shows in how a deeply personal, even existential subject – his own adoption, the loss of his father – becomes a body of work reaching millions of people without losing its sincerity. In 2025 Fennell released "Nobody Lives Here," already his third studio album – continuous, disciplined creative output rather than a single outburst.</p>
+          <p class="vb-intro">The shadow lies in the risk of getting stuck in exactly this one subject: grief, loss, and origin run through nearly his entire body of work – a rich, honest well, but one that also shows how hard it is for the SE4 to finally leave one's own pain behind, rather than setting it to music again and again.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Quiet Dove That Was Heard Anyway</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brian Fennell lives with his wife Marion and their three children near Seattle, working from a home studio – a deliberately small, protected setting for a body of work heard internationally. Like <a href="#beruehmte-michael-david-rosenberg">Michael David Rosenberg, aka Passenger (SE4w3)</a>, Fennell also shows how the self-preservation Four with a Three wing can shape quiet, often sorrowful introspection into measurable, worldwide success without losing its own vulnerability.</p>
+          <p class="vb-intro">His stage name remains the most fitting self-portrait: "simple" – not a grand stage persona, but a dove that, despite its quiet nature, found its way to a global audience.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-michael-david-rosenberg", label:"Portrait: Michael David Rosenberg (Passenger) (SE4w3) – also a musician, same subtype"},
+        {route:"beruehmte-adele", label:"Portrait: Adele (SE4w3)"},
+        {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SE4w3)"},
+      ])}
+    </div>
+  `);
+}

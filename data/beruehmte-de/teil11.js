@@ -1942,3 +1942,69 @@ export function barneyFishwickPortraitPage() {
     </div>
   `);
 }
+
+export function brianFennellPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-brian-fennell-portrait.jpg" alt="Brian Fennell (SYML) – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Brian Fennell (SYML)</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Selbsterhaltungs-Vier mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Musiker und Songwriter, geb. 1983 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die ihren eigenen Ursprung suchte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – ein Vogel, der seinen Weg nach Hause findet, selbst wenn er ihn nie bewusst gelernt hat. Brian Leseney Fennell wurde 1983 in Issaquah, Washington, als Sohn zweier walisischer Einwanderer-Teenager geboren und kurz nach der Geburt zur Adoption freigegeben. Schon als Kind erhielt er klassischen Klavierunterricht und trat im Altersheim seiner Großmutter auf – ein früher, stiller Rahmen für Gefühle, die noch keinen anderen Ausdruck fanden.</p>
+          <p class="vb-intro">Mit achtzehn, nach dem Tod eines Mitschülers, begann er zu komponieren – nicht als Ausbildungsschritt, sondern als Bewältigung. Die Taube kehrt zu ihrem Ursprung zurück, auch wenn sie ihn nie gekannt hat: Sein Künstlername SYML ist das walisische Wort für ›einfach‹ – eine bewusste Verbeugung vor der Herkunft, die ihm bei der Geburt genommen wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Schmerz, der leise verarbeitet wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt die für die Vier typische Sehnsucht nach dem Fehlenden nicht nach außen, sondern verarbeitet sie in stiller, oft handwerklicher Form – Naranjo nannte diesen Subtyp den ›tapferen‹ oder ›stoischen‹ Typus der Vier: Das Leiden wird nicht ausgestellt, sondern in eine tägliche, disziplinierte Praxis verwandelt. Fennell studierte Musikpädagogik mit Schwerpunkt Percussion an der Seattle Pacific University – ein handwerklicher, methodischer Zugang zu einem zutiefst gefühlsbetonten Feld.</p>
+          <p class="vb-intro">2021 starb sein Adoptivvater an Krebs. Statt den Verlust zu verdrängen, machte Fennell ihn zum Zentrum seines Schaffens: die EP ›Dim‹ (walisisch für ›nichts‹) und später das Album ›The Day My Father Died‹ (2023) entstanden direkt aus dieser Trauer. ›Das Wort dim beschreibt Trauer perfekt‹, sagte er dazu – ein Thema, zu dem er seither immer wieder zurückkehrt, nicht dramatisch, sondern als wiederkehrende, leise Bearbeitung desselben Schmerzes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Bandmitglied zur eigenen, sichtbaren Marke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Vier die Fähigkeit, aus innerem Schmerz ein präsentables, öffentlich erfolgreiches Werk zu formen. 2005 gründete Fennell mit anderen die Band Barcelona, die 2008 einen Plattenvertrag bei Universal erhielt – doch statt in der Gruppenidentität aufzugehen, verließ er sie später, um unter dem eigenen, bewusst gewählten Namen SYML solo weiterzumachen.</p>
+          <p class="vb-intro">Die Rechnung ging auf: Sein Song ›Where's My Love‹ wurde nach einer Platzierung in der Serie ›Teen Wolf‹ 2017 zum Hit, zweifach platiniert in den USA, zweifach platiniert in Australien, zweimal Nummer eins in Kanada. Eine zutiefst private, melancholische Komposition wurde zu einem messbaren, weltweiten Erfolg – die Vier liefert das Gefühl, der Dreierflügel sorgt dafür, dass es gehört wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Neid als Sehnsucht nach dem, was anderen selbstverständlich scheint</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Vier heißt <strong>Neid</strong> – bei der SE4w3 nicht als Missgunst, sondern als ständiges Ringen um das, was anderen mühelos zuzustehen scheint: eine bekannte Herkunft, eine ungebrochene Familie, ein selbstverständliches Zugehörigkeitsgefühl. Fennells gesamtes musikalisches Werk kreist um genau diese Themen – Adoption, Herkunft, Verlust –, immer wieder neu befragt, nie endgültig aufgelöst.</p>
+          <p class="vb-intro">2023 sampelte Lana Del Rey seine Instrumentalkomposition ›I Wanted to Leave‹ für ihren Song ›Paris, Texas‹ – eine späte, öffentliche Bestätigung, dass genau diese leise, selbstgenügsame Klangsprache auch von außen als bedeutsam erkannt wird, ohne dass er selbst je danach gesucht hätte, sich einem größeren Popstar-Apparat anzuschließen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w3 zeigt sich darin, wie aus einem sehr persönlichen, sogar existenziellen Thema – der eigenen Adoption, dem Verlust des Vaters – ein Werk entsteht, das Millionen Menschen erreicht, ohne dabei an Aufrichtigkeit zu verlieren. Fennell veröffentlichte 2025 mit ›Nobody Lives Here‹ bereits sein drittes Studioalbum – kontinuierliche, disziplinierte Schaffenskraft statt einmaligem Ausbruch.</p>
+          <p class="vb-intro">Der Schatten liegt in der Gefahr, sich in genau diesem einen Thema festzusetzen: Trauer, Verlust und Herkunft ziehen sich durch fast sein gesamtes Werk – ein reicher, ehrlicher Fundus, der aber auch zeigt, wie schwer es der SE4 fällt, den eigenen Schmerz endgültig hinter sich zu lassen, statt ihn immer wieder neu zu vertonen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Die stille Taube, die dennoch gehört wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Brian Fennell lebt mit seiner Frau Marion und den gemeinsamen drei Kindern in der Nähe von Seattle, arbeitet von einem Heimstudio aus – ein bewusst kleiner, geschützter Rahmen für ein Werk, das international gehört wird. Wie <a href="#beruehmte-michael-david-rosenberg">Michael David Rosenberg alias Passenger (SE4w3)</a> zeigt auch Fennell, wie die selbsterhaltende Vier mit Dreierflügel aus stiller, oft trauriger Introspektion messbaren, weltweiten Erfolg formen kann, ohne die eigene Verletzlichkeit dabei zu verlieren.</p>
+          <p class="vb-intro">Sein Künstlername bleibt das treffendste Selbstporträt: ›einfach‹ – keine große Bühnenfigur, sondern eine Taube, die trotz ihrer stillen Art ihren Weg zu einem Millionenpublikum gefunden hat.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-michael-david-rosenberg", label:"Porträt: Michael David Rosenberg (Passenger) (SE4w3) – ebenfalls Musiker, derselbe Subtyp"},
+        {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
+        {route:"beruehmte-tim-bendzko", label:"Porträt: Tim Bendzko (SE4w3)"},
+      ])}
+    </div>
+  `);
+}

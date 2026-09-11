@@ -1933,6 +1933,7 @@ export function michaelDavidRosenbergPortraitPage() {
           {route:"beruehmte-tim-bendzko", label:"Portr\u00e4t: Tim Bendzko (SE4w3) \u2013 ebenfalls Musiker, derselbe Subtyp"},
           {route:"beruehmte-adele", label:"Portr\u00e4t: Adele (SE4w3)"},
           {route:"beruehmte-nicolas-cage", label:"Portr\u00e4t: Nicolas Cage (SE4w3)"},
+          {route:"beruehmte-brian-fennell", label:"Portr\u00e4t: Brian Fennell (SYML) (SE4w3) \u2013 ebenfalls Musiker, derselbe Subtyp"},
         ])}
       </div>
     </div>
