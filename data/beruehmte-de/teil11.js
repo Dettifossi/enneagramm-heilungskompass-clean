@@ -1985,7 +1985,7 @@ export function brianFennellPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Vier</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SE4w3 zeigt sich darin, wie aus einem sehr persönlichen, sogar existenziellen Thema – der eigenen Adoption, dem Verlust des Vaters – ein Werk entsteht, das Millionen Menschen erreicht, ohne dabei an Aufrichtigkeit zu verlieren. Fennell veröffentlichte 2025 mit ›Nobody Lives Here‹ bereits sein drittes Studioalbum – kontinuierliche, disziplinierte Schaffenskraft statt einmaligem Ausbruch.</p>
-          <p class="vb-intro">Der Schatten liegt in der Gefahr, sich in genau diesem einen Thema festzusetzen: Trauer, Verlust und Herkunft ziehen sich durch fast sein gesamtes Werk – ein reicher, ehrlicher Fundus, der aber auch zeigt, wie schwer es der SE4 fällt, den eigenen Schmerz endgültig hinter sich zu lassen, statt ihn immer wieder neu zu vertonen.</p>
+          <p class="vb-intro">Der Schatten liegt in der Gefahr, sich in genau diesem einen Thema festzusetzen: Trauer, Verlust und Herkunft ziehen sich durch fast sein gesamtes Werk – ein reicher, ehrlicher Fundus, der aber auch zeigt, wie sehr die SE4 im eigenen Schmerz verhaftet bleiben kann, weil sie ihn immer wieder neu vertont, statt ihn irgendwann endgültig hinter sich zu lassen.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Vermächtnis: Die stille Taube, die dennoch gehört wurde</h2>

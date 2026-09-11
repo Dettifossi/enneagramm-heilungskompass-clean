@@ -1980,7 +1980,7 @@ export function brianFennellPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Four</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SE4w3 shows in how a deeply personal, even existential subject – his own adoption, the loss of his father – becomes a body of work reaching millions of people without losing its sincerity. In 2025 Fennell released "Nobody Lives Here," already his third studio album – continuous, disciplined creative output rather than a single outburst.</p>
-          <p class="vb-intro">The shadow lies in the risk of getting stuck in exactly this one subject: grief, loss, and origin run through nearly his entire body of work – a rich, honest well, but one that also shows how hard it is for the SE4 to finally leave one's own pain behind, rather than setting it to music again and again.</p>
+          <p class="vb-intro">The shadow lies in the risk of getting stuck in exactly this one subject: grief, loss, and origin run through nearly his entire body of work – a rich, honest well, but one that also shows how easily the SE4 can stay bound to its own pain, precisely because it keeps setting that pain to music again and again instead of ever finally leaving it behind.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: The Quiet Dove That Was Heard Anyway</h2>
