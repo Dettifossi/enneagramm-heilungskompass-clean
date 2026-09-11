@@ -4542,7 +4542,7 @@ function leseprobePage() {
           ${BERUEHMT_PORTRAITS.length} Famous Personalities &ndash; Portraits
         </h2>
         <p style="font-size:0.88rem;color:var(--muted);margin:0 0 0.9rem;line-height:1.55;">
-          For all 27 Subtypes there are two portraits of famous personalities each &ndash; with both wing expressions. This brings the subtype to life and makes it concretely recognisable.
+          For all 27 Subtypes there are many portraits of famous personalities each &ndash; with different wing expressions. This brings the subtype to life and makes it concretely recognisable.
         </p>
         <p style="font-size:0.83rem;color:var(--muted);margin:0 0 1rem;line-height:1.55;">
           From Bärbel Bas to Keanu Reeves, from Willy Brandt to Heike Makatsch &ndash; from politics, culture, sport and science.
@@ -4673,7 +4673,7 @@ function leseprobePage() {
 
       <!-- 4: Interactive Learning Games -->
       <h2 style="font-family:'EB Garamond',serif;font-size:1.35rem;color:var(--ink);margin:0 0 .4rem;">Learn interactively – not just read</h2>
-      <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Four tools to deepen your knowledge playfully – drawing on all 600+ portraits in the Compass.</p>
+      <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Four tools to deepen your knowledge playfully – drawing on all ${BERUEHMT_PORTRAITS.length + KRIMINAL_PORTRAITS.length + KRANKHEITS_PORTRAITS.length} portraits in the Compass.</p>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-bottom:1.8rem;">
         <div data-route="blickqualitaeten-atlas" style="cursor:pointer;background:linear-gradient(135deg,#f0e4d0,#dfc49a);border-radius:10px;padding:.85rem .8rem;">
           <div style="font-size:1.4rem;margin-bottom:.25rem;">&#128065;</div>

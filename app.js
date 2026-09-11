@@ -34052,7 +34052,7 @@ function leseprobePage() {
 
       <!-- 4: Interaktive Lernspiele -->
       <h2 style="font-family:'EB Garamond',serif;font-size:1.35rem;color:var(--ink);margin:0 0 .4rem;">Interaktiv lernen – nicht nur lesen</h2>
-      <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Vier Werkzeuge, um das Wissen spielerisch zu vertiefen – gespeist aus allen über 600 Porträts des Kompasses.</p>
+      <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Vier Werkzeuge, um das Wissen spielerisch zu vertiefen – gespeist aus allen ${BERUEHMT_PORTRAITS.length + KRIMINAL_PORTRAITS.length + KRANKHEITS_PORTRAITS.length} Porträts des Kompasses.</p>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-bottom:1.8rem;">
         <div data-route="blickqualitaeten-atlas" style="cursor:pointer;background:linear-gradient(135deg,#f0e4d0,#dfc49a);border-radius:10px;padding:.85rem .8rem;">
           <div style="font-size:1.4rem;margin-bottom:.25rem;">&#128065;</div>
