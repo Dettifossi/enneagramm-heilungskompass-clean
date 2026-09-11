@@ -647,6 +647,7 @@ export function herbertGroenomeyerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
         {route:"beruehmte-james-corden", label:"Portrait: James Corden (SO6w7)"},
+        {route:"beruehmte-jonah-hill", label:"Portrait: Jonah Hill (SO6w7)"},
       ])}
     </div>
   `);

@@ -379,6 +379,7 @@ export function donataHopfenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/so6", label:"SO6 \u2013 Das Erdm\xe4nnchen: Subtyp-Profil"},
         {route:"beruehmte-melanie-kreis", label:"Portr\xe4t: Melanie Kreis (SO6w5)"},
+        {route:"beruehmte-jonah-hill", label:"Portr\xe4t: Jonah Hill (SO6w7)"},
       ])}
     </div>
   `);

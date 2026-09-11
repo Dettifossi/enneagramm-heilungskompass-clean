@@ -1938,3 +1938,69 @@ export function michaelDavidRosenbergPortraitPage() {
     </div>
   `);
 }
+
+export function jonahHillPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jonah-hill-portrait.jpg" alt="Jonah Hill" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jonah Hill</p>
+        <p class="krim-portrait-typ">SO6w7 · Sozialer Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Regisseur, Oscar-Nominierter, geb. 1983 – Tierentsprechung: Erdmännchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdmännchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdmännchen</strong> ist das Tier der sozialen Sechs: Es steht nie ganz entspannt da – ein Teil der Kolonie hält immer Wache, scannt den Horizont, registriert jede Bewegung. Jonah Hill Feldstein wuchs 1983 in Los Angeles in einem Haushalt auf, der selbst schon von Unsicherheit geprägt war: sein Vater Tourbuchhalter für Guns N' Roses, seine Mutter Kostümbildnerin, sein älterer Bruder Jordan später Musikmanager. Als übergewichtiges, unsportliches Kind an einer teuren Privatschule in Santa Monica lernte er früh, sich über Humor und Wachsamkeit gegenüber der Stimmung im Raum abzusichern – nicht über Stärke oder Status.</p>
+          <p class="vb-intro">2007 gelang ihm mit „Superbad" der Durchbruch. Es folgten „Moneyball" und „The Wolf of Wall Street" – zwei Oscar-Nominierungen, für Letzteres akzeptierte er sogar den gewerkschaftlichen Mindestlohn von 60.000 Dollar, nur um bei Scorsese und DiCaprio mitspielen zu können. Das Erdmännchen wählt die Nähe zur Gruppe, die es für sicher und bedeutsam hält, auch wenn es dafür finanziell zurücksteckt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sechs: Zwanzig Jahre im Alarmzustand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sechs (SO6)</strong> sucht Sicherheit nicht in der eigenen Festung, sondern im verlässlichen Netz der Gruppe – und wird zur ständigen Wache für Gefahren, die andere oft noch gar nicht bemerkt haben. Hill litt nach eigenen Angaben fast zwanzig Jahre lang unter Angstattacken, die sich besonders bei öffentlichen Auftritten und Presseterminen verstärkten. 2022 kündigte er an, keine seiner kommenden Filme mehr aktiv zu bewerben, um seine psychische Gesundheit zu schützen – eine ungewöhnlich offene Entscheidung für einen Hollywood-Star mitten im Erfolg.</p>
+          <p class="vb-intro">Genau darin zeigt sich das SO6-Muster in seiner reinsten Form: Die wache Sorge gilt nicht nur der eigenen Sicherheit, sondern der Frage, was die Öffentlichkeit über einen denkt, wie verlässlich der eigene Platz in der Gruppe ist. Als Fans 2021 weiter über sein Aussehen kommentierten, bat er öffentlich darum, damit aufzuhören: „Ich möchte euch höflich mitteilen, dass das nicht hilfreich ist und sich nicht gut anfühlt." Keine Drohung, kein Rückzug – ein Appell an die Gemeinschaft, die Spielregeln zu ändern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Die Wache, die selbst vorausläuft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der sozialen Sechs eine zusätzliche, nach vorn gerichtete Energie: Statt nur abzuwarten und zu horchen, läuft sie der Gefahr aktiv voraus, sucht sich selbst Wege heraus aus der Angst, bevor die Gruppe reagieren muss. Bei Hill zeigt sich das in seinem eigenen Umgang mit der Panik: transzendentale Meditation, Surfen, regelmäßiges Brazilian Jiu-Jitsu – körperliche, bewegte Auswege statt reinem Aushalten.</p>
+          <p class="vb-intro">Am deutlichsten zeigt sich der Siebenerflügel in seiner Entscheidung, die eigene Therapie öffentlich zu machen: 2022 produzierte und inszenierte er die Dokumentation „Stutz" über seinen Therapeuten Dr. Phil Stutz. Statt seine Ängste privat zu verarbeiten, verwandelte er sie in ein Werkzeug für ein großes Publikum – eine aktive, vorwärtsgerichtete Geste, die typisch für den Siebenerflügel ist: nicht nur die eigene Wache halten, sondern der ganzen Gruppe die eigenen Erkenntnisse mitgeben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Angst als ständiger Prüfstein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sechs heißt <strong>Angst</strong> – bei der SO6w7 nicht als lähmende Starre, sondern als beweglicher, oft körperlich spürbarer Alarmzustand, der ständig nach dem nächsten möglichen Risiko sucht. Hill beschrieb seine Panikattacken als etwas, das ihn seit fast zwei Jahrzehnten begleitet, verstärkt gerade durch das, was für andere selbstverständlich zum Beruf gehört: Interviews, Kamerapräsenz, öffentliche Bewertung.</p>
+          <p class="vb-intro">Bezeichnend ist, dass sich diese Angst nicht in Rückzug aus der Branche entlud, sondern in einer permanenten Suche nach Werkzeugen dagegen – Therapie, Meditation, körperliches Training, schließlich die eigene Regiearbeit mit „Mid90s" (2018) über eine Gruppe von Jugendlichen, die genau die Zugehörigkeit sucht, die Hill selbst als Kind fehlte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO6w7 liegt in der Fähigkeit, aus der eigenen Angst heraus etwas zu bauen, das anderen nützt – „Stutz" wurde von vielen Zuschauern als seltener, ehrlicher Einblick in echte Therapiearbeit gelobt, gerade weil Hill bereit war, sich selbst verletzlich zu zeigen. Auch sein offener Umgang mit Body-Shaming half sichtbar anderen Betroffenen, ähnliche Grenzen zu ziehen.</p>
+          <p class="vb-intro">Der Schatten zeigte sich 2023, als seine Ex-Partnerin Sarah Brady ihm vorwarf, ihr Verhalten über Textnachrichten kontrolliert zu haben. Aus Enneagramm-Perspektive lässt sich das als Kehrseite derselben Wachsamkeit lesen: Wo die SO6 Sicherheit für die Gruppe sucht, kann daraus im destruktiven Fall der Versuch werden, die eigene Unsicherheit durch Kontrolle über eine nahestehende Person zu beruhigen – eine Deutung, die die Vorwürfe nicht entschuldigt, aber im Musterzusammenhang einordnet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Vom wachsamen Kind zum Vermittler der eigenen Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jonah Hill hat sein Leben lang das getan, was das Erdmännchen am besten kann: aufmerksam bleiben, Gefahr früh erkennen – und irgendwann beschließen, diese Wachsamkeit nicht länger als Last, sondern als geteilte Erfahrung zu behandeln. Vom übergewichtigen Kind, das sich über Humor absicherte, über den Star, der aus Angst um seine Gesundheit auf Werbetouren verzichtete, bis zum Regisseur, der seine eigene Therapie zum Filmstoff machte.</p>
+          <p class="vb-intro">2026 heiratete er Olivia Millar, mit der er zwei Kinder hat – ein privater, bewusst zurückgehaltener Anker, den das Erdmännchen sich nach Jahren öffentlicher Wachsamkeit erlaubt hat.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
+        {route:"beruehmte-donata-hopfen", label:"Porträt: Donata Hopfen (SO6w7)"},
+        {route:"beruehmte-herbert-groenemeyer", label:"Porträt: Herbert Grönemeyer (SO6w7)"},
+        {route:"beruehmte-james-corden", label:"Porträt: James Corden (SO6w7)"},
+      ])}
+    </div>
+  `);
+}

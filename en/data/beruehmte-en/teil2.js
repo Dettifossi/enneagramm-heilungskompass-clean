@@ -1919,3 +1919,69 @@ export function michaelDavidRosenbergPortraitPage() {
     </div>
   `);
 }
+
+export function jonahHillPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jonah-hill-portrait.jpg" alt="Jonah Hill" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jonah Hill</p>
+        <p class="krim-portrait-typ">SO6w7 · Social Type 6 with a Seven Wing</p>
+        <p class="krim-portrait-subtitle">Actor, director, Oscar nominee, born 1983 – Animal equivalent: Meerkat</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Meerkat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>meerkat</strong> is the animal of the social Six: it never stands fully relaxed – part of the colony is always on watch, scanning the horizon, registering every movement. Jonah Hill Feldstein grew up in Los Angeles in 1983 in a household already marked by its own kind of instability: his father a tour accountant for Guns N' Roses, his mother a costume designer, his older brother Jordan later a music manager. As an overweight, unathletic child at an expensive private school in Santa Monica, he learned early to secure his place through humor and a keen sense of the room's mood – not through strength or status.</p>
+          <p class="vb-intro">In 2007 he broke through with "Superbad." "Moneyball" and "The Wolf of Wall Street" followed – two Oscar nominations, and for the latter he even accepted the union minimum wage of $60,000 just to work with Scorsese and DiCaprio. The meerkat chooses closeness to the group it deems safe and meaningful, even at a financial cost to itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Six: Twenty Years on High Alert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Six (SO6)</strong> seeks safety not in a private fortress but in the group's reliable network – becoming a constant lookout for dangers others may not yet have noticed. Hill has said he suffered from anxiety attacks for nearly two decades, intensified especially by public appearances and press events. In 2022 he announced he would stop actively promoting his upcoming films to protect his mental health – an unusually candid decision for a Hollywood star at the height of his success.</p>
+          <p class="vb-intro">This is the SO6 pattern in its purest form: the watchful concern is not just for one's own safety, but for how the public perceives one, how reliable one's place within the group really is. When fans kept commenting on his appearance in 2021, he publicly asked them to stop: "I want to politely let you know it's not helpful and doesn't feel good." No threat, no withdrawal – an appeal to the community to change the rules.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven Wing: The Lookout That Runs Ahead</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven wing (w7)</strong> gives the social Six an additional, forward-facing energy: instead of merely waiting and listening, it actively runs ahead of danger, finding its own way out of fear before the group needs to react. In Hill this shows in how he handles his own panic: transcendental meditation, surfing, regular Brazilian jiu-jitsu – physical, active ways out rather than pure endurance.</p>
+          <p class="vb-intro">The Seven wing shows most clearly in his decision to make his own therapy public: in 2022 he produced and directed "Stutz," a documentary about his therapist Dr. Phil Stutz. Instead of processing his fears privately, he turned them into a tool for a wide audience – an active, forward-moving gesture typical of the Seven wing: not just keeping watch for oneself, but handing the whole group one's own insights.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Fear as a Constant Test</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Six is called <strong>fear</strong> – for the SO6w7 not as paralyzing rigidity, but as a mobile, often physically felt state of alert constantly scanning for the next possible risk. Hill described his panic attacks as something that has followed him for almost two decades, intensified precisely by what for others is a routine part of the job: interviews, camera presence, public judgment.</p>
+          <p class="vb-intro">Tellingly, this fear did not lead to withdrawal from the industry but to a permanent search for tools against it – therapy, meditation, physical training, and eventually his own directing work with "Mid90s" (2018), about a group of teenagers seeking exactly the belonging Hill himself lacked as a child.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Six</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO6w7 lies in the ability to build something useful for others out of one's own fear – "Stutz" was praised by many viewers as a rare, honest look into real therapy work, precisely because Hill was willing to show himself vulnerable. His open handling of body-shaming visibly helped other affected people set similar boundaries.</p>
+          <p class="vb-intro">The shadow appeared in 2023, when his ex-partner Sarah Brady accused him of controlling her behavior through text messages. From an Enneagram perspective, this can be read as the flip side of the same vigilance: where the SO6 seeks safety for the group, in its destructive form this can become an attempt to soothe one's own insecurity through control over someone close – a reading that does not excuse the allegations but places them within the pattern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: From Watchful Child to Broker of His Own Fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jonah Hill has spent his life doing what the meerkat does best: staying alert, spotting danger early – and eventually deciding to treat that vigilance not as a burden but as a shared experience. From the overweight child who secured himself through humor, to the star who skipped promotional tours out of concern for his own health, to the director who turned his own therapy into film material.</p>
+          <p class="vb-intro">In 2026 he married Olivia Millar, with whom he has two children – a private, deliberately guarded anchor the meerkat allowed itself after years of public vigilance.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
+        {route:"beruehmte-donata-hopfen", label:"Portrait: Donata Hopfen (SO6w7)"},
+        {route:"beruehmte-herbert-groenemeyer", label:"Portrait: Herbert Grönemeyer (SO6w7)"},
+        {route:"beruehmte-james-corden", label:"Portrait: James Corden (SO6w7)"},
+      ])}
+    </div>
+  `);
+}

@@ -379,6 +379,7 @@ export function donataHopfenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
         {route:"beruehmte-melanie-kreis", label:"Portrait: Melanie Kreis (SO6w5)"},
+        {route:"beruehmte-jonah-hill", label:"Portrait: Jonah Hill (SO6w7)"},
       ])}
     </div>
   `);

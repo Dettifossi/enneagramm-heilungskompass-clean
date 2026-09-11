@@ -747,6 +747,7 @@ export function jamesCordenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so6", label:"SO6 \u2013 Das Erdm\u00e4nnchen: Subtyp-Profil"},
         {route:"beruehmte-herbert-groenemeyer", label:"Portr\u00e4t: Herbert Gr\u00f6nemeyer (SO6w7)"},
+        {route:"beruehmte-jonah-hill", label:"Portr\u00e4t: Jonah Hill (SO6w7)"},
       ])}
     </div>
   `);
