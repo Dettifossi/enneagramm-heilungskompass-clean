@@ -1950,3 +1950,69 @@ export function neilHarbissonPortraitPage() {
     </div>
   `);
 }
+
+export function aliceMillerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alice-miller-portrait.jpg" alt="Alice Miller – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alice Miller</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">1923&ndash;2010 &ndash; Psychoanalytikerin, Autorin von ›Das Drama des begabten Kindes‹ &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier, das seine tiefste Wunde nie zeigte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier – ein Wesen, das sich der Welt zuwendet und zugleich einen harten Panzer um das eigene Innerste trägt. Alicja Englard wurde 1923 als Tochter einer wohlhabenden orthodox-jüdischen Familie im polnischen Lwów geboren. Während des Zweiten Weltkriegs entkam sie dem Ghetto von Piotrków Trybunalski, indem sie eine nichtjüdische Identität annahm und ihre Mutter und Schwester in einem Warschauer Kloster versteckte. Um nicht enttarnt zu werden, heiratete sie Andrzej Miller, einen sogenannten Szmalcownik – einen Erpresser, der versteckte Juden an die Gestapo verriet.</p>
+          <p class="vb-intro">Dieses Geheimnis behielt sie ihr ganzes Leben lang für sich. Das Gürteltier rollt sich ein, wenn die Gefahr am größten ist – und öffnet sich selbst dann nicht mehr vollständig, wenn die Gefahr längst vorüber ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Eine persönliche Wahrheit wird zur öffentlichen Anklage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> sucht ihre Bedeutung nicht im Verborgenen, sondern in einer bewusst nach außen getragenen, unangepassten Position gegenüber einer Gesellschaft, die aus ihrer Sicht eine zentrale Wahrheit verdrängt. 1946 zog Miller mit ihrem Mann in die Schweiz, promovierte 1953 in Philosophie, Psychologie und Soziologie und ließ sich anschließend zur Psychoanalytikerin ausbilden – zwei Jahrzehnte praktizierte sie in Zürich innerhalb der Freudschen Tradition.</p>
+          <p class="vb-intro">1987 brach sie öffentlich und kompromisslos mit genau dieser Tradition. Sie warf der Psychoanalyse vor, die elterliche Autorität zu schützen statt das leidende Kind wirklich zu sehen, und prägte den Begriff ›Giftpädagogik‹ für gesellschaftlich akzeptierte Formen der Kindererziehung, die sie als Missbrauch entlarvte. Keine sachliche Fachkritik, sondern eine moralische Anklage gegen die eigene frühere Zunft – die typische SO4-Bewegung: sich bewusst von der Gemeinschaft absetzen, der man einst angehörte, um eine als tiefer empfundene Wahrheit zu vertreten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Theorie statt Bekenntnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sozialen Vier eine zurückgezogene, analytisch-theoriebildende Seite. Miller verarbeitete ihre eigene, zutiefst persönliche Geschichte nicht als Bekenntnis, sondern verwandelte sie in ein umfassendes psychologisches Modell: Ihr Buch ›Das Drama des begabten Kindes‹ (1979) beschreibt, wie ein Kind sein wahres Selbst opfert, um die Liebe der Eltern zu gewinnen, und stattdessen eine glänzende, aber falsche Fassade aufbaut – eine Theorie, die sich lesen lässt wie die verschlüsselte Übersetzung ihrer eigenen, nie offen erzählten Geschichte.</p>
+          <p class="vb-intro">Auch privat blieb sie extrem verschlossen: In ihren Büchern schuf sie sich eine fiktionalisierte Erzählerfigur, um die eigene Biografie zu verschleiern. Ihr Holocaust-Überleben, die erzwungene Heirat, die wahren Umstände ihrer Flucht – all das kam erst nach ihrem Tod ans Licht. Ein Fünferflügel, der Nähe zur eigenen Wahrheit nur über den Umweg der Theorie zulässt, nie über das direkte, ungeschützte Bekenntnis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Neid als schmerzhafter Blick auf das nie Erlebte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Vier heißt <strong>Neid</strong> – bei der SO4 nicht als kleinliche Missgunst, sondern als ständiger, schmerzhafter Vergleich mit dem, was anderen mühelos zusteht: eine unbeschwerte Kindheit, ungebrochene elterliche Liebe, ein Leben ohne die Notwendigkeit, sich selbst zu verleugnen, um zu überleben. ›Die Erfahrung hat uns gelehrt, dass wir im Kampf gegen die seelische Krankheit nur eine dauerhafte Waffe besitzen: die emotionale Entdeckung und emotionale Akzeptanz der Wahrheit‹, schrieb sie – ein Satz, der zugleich ihr Lebensprogramm und ihre eigene, nie ganz eingelöste Aufgabe war.</p>
+          <p class="vb-intro">Denn genau hier liegt die bitterste Ironie ihres Lebens: Laut der 2013 erschienenen Biografie ihres Sohnes Martin Miller schützte sie ihn nicht vor den gewalttätigen und übergriffigen Handlungen seines Vaters. Die Frau, die zur weltweiten moralischen Instanz gegen Kindesmisshandlung wurde, konnte die eigene unverarbeitete Kriegstraumatisierung offenbar nicht in ihrer eigenen Familie anwenden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 zeigt sich in der weltweiten Wirkung ihres Werks: ›Das Drama des begabten Kindes‹ wurde zum internationalen Bestseller und veränderte, wie eine ganze Generation von Therapeutinnen und Therapeuten über kindliche Bedürfnisse und elterliche Macht dachte. 2001 erhielt sie den Oskar-Pfister-Preis, 2009 den Internationalen Sigmund-Freud-Preis für Psychotherapie – Anerkennung, aber nach den eigenen, unangepassten Bedingungen einer Frau, die eine ganze Disziplin öffentlich infrage stellte.</p>
+          <p class="vb-intro">Der Schatten liegt in genau der Kluft zwischen öffentlicher Botschaft und privater Realität, die ihr Sohn nach ihrem Tod offenlegte. Aus Enneagramm-Perspektive lässt sich das als Extremform der SO4-Gefahr lesen: Die eigene, dramatische Wundgeschichte kann so viel Raum einnehmen, dass sie die konkrete, alltägliche Fürsorge für die Menschen verdrängt, die am nächsten stehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Eine Wahrheit, die erst nach dem Tod ganz sichtbar wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Alice Miller starb 2010 im südfranzösischen Saint-Rémy-de-Provence durch begleiteten Suizid, nachdem bei ihr Bauchspeicheldrüsenkrebs diagnostiziert worden war – eine letzte, selbstbestimmte Entscheidung, passend zu einem Leben, das stets die eigenen Bedingungen über äußere Erwartungen stellte.</p>
+          <p class="vb-intro">Erst drei Jahre nach ihrem Tod öffnete ihr Sohn den Panzer, den sie sich selbst zeitlebens nicht zu öffnen erlaubte – und machte sichtbar, was das Gürteltier bis zuletzt für sich behielt: dass die Suche nach der Wahrheit über verletzte Kindheit für Alice Miller eine öffentliche Mission war, die private Wahrheit aber bis zum Schluss ihr am besten gehütetes Geheimnis blieb.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-michael-stipe", label:"Porträt: Michael Stipe (SO4w5)"},
+        {route:"beruehmte-marcel-proust", label:"Porträt: Marcel Proust (SO4w5)"},
+        {route:"beruehmte-edvard-munch", label:"Porträt: Edvard Munch (SO4w5)"},
+      ])}
+    </div>
+  `);
+}

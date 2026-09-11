@@ -1733,6 +1733,7 @@ export function edvardMunchPortraitPage() {
         {route:"beruehmte-gustav-mahler", label:"Portr\xe4t: Gustav Mahler (SO4w5)"},
         {route:"beruehmte-leonard-cohen", label:"Portr\xe4t: Leonard Cohen (SO4w5)"},
         {route:"beruehmte-michael-stipe", label:"Portr\xe4t: Michael Stipe (SO4w5)"},
+        {route:"beruehmte-alice-miller", label:"Portr\xe4t: Alice Miller (SO4w5)"},
       ])}
     </div>
   `);

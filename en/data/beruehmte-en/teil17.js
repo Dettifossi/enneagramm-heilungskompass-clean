@@ -1950,3 +1950,69 @@ export function neilHarbissonPortraitPage() {
     </div>
   `);
 }
+
+export function aliceMillerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alice-miller-portrait.jpg" alt="Alice Miller – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alice Miller</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with a Five Wing</p>
+        <p class="krim-portrait-subtitle">1923–2010 – Psychoanalyst, author of "The Drama of the Gifted Child" – Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo That Never Showed Its Deepest Wound</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four – a creature that turns toward the world while carrying a hard shell around its innermost self. Alicja Englard was born in 1923 to a wealthy Orthodox Jewish family in the Polish city of Lwów. During World War II she escaped the Piotrków Trybunalski ghetto by assuming a non-Jewish identity and hiding her mother and sister in a Warsaw convent. To avoid being exposed, she married Andrzej Miller, a so-called szmalcownik – a blackmailer who informed on hidden Jews to the Gestapo.</p>
+          <p class="vb-intro">She kept this secret for the rest of her life. The armadillo curls up when danger is at its greatest – and doesn't fully unroll again even long after the danger has passed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: A Personal Truth Becomes a Public Indictment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Four (SO4)</strong> doesn't seek its meaning in hiding but in a deliberately outward-facing, unadapted position against a society that, in its view, suppresses a central truth. In 1946, Miller moved to Switzerland with her husband, earned her doctorate in philosophy, psychology, and sociology in 1953, and then trained as a psychoanalyst – she practiced within the Freudian tradition in Zurich for two decades.</p>
+          <p class="vb-intro">In 1987 she broke publicly and uncompromisingly with that very tradition. She accused psychoanalysis of protecting parental authority instead of truly seeing the suffering child, and coined the term "poisonous pedagogy" for socially accepted forms of child-rearing that she exposed as abuse. Not sober professional critique, but a moral indictment of her own former profession – the typical SO4 move: deliberately setting oneself apart from the very community one once belonged to, in order to represent a truth felt to run deeper.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five Wing: Theory Instead of Confession</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five wing (w5)</strong> gives the social Four a withdrawn, analytically theory-building side. Miller didn't process her own deeply personal history as confession, but transformed it into a comprehensive psychological model: her book "The Drama of the Gifted Child" (1979) describes how a child sacrifices its true self to win its parents' love, building a brilliant but false façade instead – a theory that reads like the encoded translation of her own story, one she never told openly.</p>
+          <p class="vb-intro">In her private life, too, she remained extremely closed off: in her books she created a fictionalized narrator to disguise her own biography. Her Holocaust survival, the forced marriage, the true circumstances of her escape – all of it only came to light after her death. A Five wing that allows closeness to one's own truth only by the detour of theory, never through direct, unguarded confession.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Envy as a Painful Gaze at What Was Never Lived</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Four is called <strong>envy</strong> – for the SO4 not as petty resentment, but as a constant, painful comparison with what others seem to be granted effortlessly: a carefree childhood, unbroken parental love, a life without the necessity of denying oneself in order to survive. "Experience has taught us that we have only one enduring weapon in our struggle against mental illness: the emotional discovery and emotional acceptance of the truth," she wrote – a sentence that was both her life's program and her own, never fully redeemed task.</p>
+          <p class="vb-intro">Because this is exactly where the bitterest irony of her life lies: according to the 2013 biography written by her son Martin Miller, she failed to protect him from his father's violent and abusive behavior. The woman who became a worldwide moral authority against child abuse was apparently unable to apply her own unprocessed wartime trauma within her own family.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4w5 shows in the worldwide impact of her work: "The Drama of the Gifted Child" became an international bestseller and changed how an entire generation of therapists thought about children's needs and parental power. In 2001 she received the Oskar Pfister Award, and in 2009 the International Sigmund Freud Award for Psychotherapy – recognition, but on the unadapted terms of a woman who publicly challenged an entire discipline.</p>
+          <p class="vb-intro">The shadow lies precisely in the gap between public message and private reality that her son exposed after her death. From an Enneagram perspective, this can be read as an extreme form of the SO4 danger: one's own dramatic wound narrative can take up so much space that it crowds out the concrete, everyday care owed to the people standing closest.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: A Truth That Only Became Fully Visible After Death</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Alice Miller died in 2010 in Saint-Rémy-de-Provence in southern France by assisted suicide, after being diagnosed with pancreatic cancer – one last, self-determined decision, fitting for a life that always placed its own terms above outside expectations.</p>
+          <p class="vb-intro">Only three years after her death did her son open the shell she herself never allowed to open during her lifetime – making visible what the armadillo kept to itself to the very end: that the search for the truth about a wounded childhood was, for Alice Miller, a public mission, while the private truth remained, right up to the end, her most carefully guarded secret.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-michael-stipe", label:"Portrait: Michael Stipe (SO4w5)"},
+        {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5)"},
+        {route:"beruehmte-edvard-munch", label:"Portrait: Edvard Munch (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
