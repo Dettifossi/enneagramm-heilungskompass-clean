@@ -1953,3 +1953,69 @@ export function sebastianUrzendowskyPortraitPage() {
     </div>
   `);
 }
+
+export function fabianKahlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-fabian-kahl-portrait.jpg" alt="Fabian Kahl – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fabian Kahl</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Sozialer Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Kunst- und Antiquitätenhändler, TV-Bekanntheit (›Bares für Rares‹), geb. 1991 &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier auf dem Schloss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier: Es trägt seine Besonderheit offen zur Schau, während es sich im Innersten zugleich schützt. Fabian Kahl wurde 1991 in Pößneck geboren, seine Liebe zu alten Dingen weckte sein Vater, ein leidenschaftlicher Münz- und Antiquitätenhändler. Schon mit fünf Jahren zog er mit ihm über Flohmärkte. Mit neun erwarb die Familie das Schloss Brandenstein in Thüringen – ein Ort, der bis heute sein Zuhause und sein Geschäft zugleich ist.</p>
+          <p class="vb-intro">Mit siebzehn brach er sein Design-Diplom ab und eröffnete kurzzeitig ein eigenes Antiquitätengeschäft am Berliner Kurfürstendamm. Das Gürteltier sucht früh seinen eigenen, unverwechselbaren Weg – nicht den vorgezeichneten der Ausbildung, sondern den, der seiner eigenen Herkunftsgeschichte entspricht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Herkunft als öffentlich getragenes Erbe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> sucht ihre Bedeutung nicht im Verborgenen, sondern in einer bewusst nach außen getragenen, unverwechselbaren Position innerhalb der Gemeinschaft, der sie sich zugehörig fühlt. Kahls gesamte öffentliche Identität ist eng mit dem Erbe seines Vaters und dem Schloss Brandenstein verwoben – ein Familienschatz, den er nicht privat verwaltet, sondern seit 2013 als Händler in der ZDF-Sendung ›Bares für Rares‹ einem Millionenpublikum vermittelt.</p>
+          <p class="vb-intro">2012 leitete er zusätzlich das Galerieprojekt SansvoiX in Leipzig, das moderne Kunst zeigte und sogar Original-Segmente der Berliner Mauer beherbergte – wieder dasselbe Muster: die eigene Faszination für Geschichte und Herkunft wird nicht privat gepflegt, sondern öffentlich kuratiert und vermittelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die eigene Erscheinung als sichtbares Statement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> verwandelt die innere Einzigartigkeit der Vier in ein bewusst gestaltetes, öffentlich wirksames Bild – anders als die introvertiertere, zurückgezogenere Fünferflügel-Variante. Kahl identifiziert sich seit seinem sechzehnten Lebensjahr mit der Gothic-Subkultur, bekannt für auffällige Outfits und Piercings; 2018 vollzog er nach einem Jahrzehnt langer, gefärbter Haare einen ebenso öffentlich wahrgenommenen Stilwechsel zum Kurzhaarschnitt.</p>
+          <p class="vb-intro">Im selben Jahr veröffentlichte er mit ›Der Schatzsucher‹ ein Buch, das Autobiografie und Antiquitäten-Ratgeber verbindet – die eigene, unverwechselbare Geschichte wird zum vermarktbaren, sichtbaren Produkt. Das ist die typische SO4w3-Bewegung: Einzigartigkeit nicht nur zu fühlen, sondern sie in eine erkennbare, erfolgreiche öffentliche Marke zu übersetzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Neid als Antrieb zur eigenen Unverwechselbarkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Vier heißt <strong>Neid</strong> – bei der SO4 als ständiger Vergleich mit einer Gesellschaft, deren Anerkennung man sucht, ohne sich ihr ganz anzupassen. Kahls konsequente vegetarische, teils vegane Lebensweise seit seinem fünfzehnten Lebensjahr und seine unverkennbare Gothic-Ästhetik in einer eher konventionellen Fernsehlandschaft zeigen genau diese Doppelbewegung: Teil der breiten Öffentlichkeit sein wollen, aber auf den eigenen, unangepassten Bedingungen.</p>
+          <p class="vb-intro">Neben dem Antiquitätenhandel spielt er Klavier und malt – stille, introspektivere Ausdrucksformen, die im Kontrast zur lauten Fernsehpräsenz stehen und zeigen, dass auch bei der SO4w3 der innere Kern der Vier, die Suche nach echtem, tief empfundenem Ausdruck, unter der glänzenden öffentlichen Fassade weiterlebt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w3 zeigt sich darin, wie Kahl aus einer sehr persönlichen, familiär geprägten Leidenschaft ein öffentlich erfolgreiches Format gemacht hat: Als Händler bei ›Bares für Rares‹ seit der ersten Staffel 2013 bringt er einem breiten Publikum Geschichte, Handwerk und Wertschätzung für alte Objekte nahe, ohne die eigene, unverwechselbare Erscheinung dafür aufzugeben.</p>
+          <p class="vb-intro">Der Schatten liegt in der Gefahr, dass die sorgfältig kuratierte öffentliche Erscheinung – Stil, Image, die eigene Geschichte als Marke – irgendwann wichtiger wird als das leise, private Selbst dahinter. Bei einer SO4w3 bleibt es eine ständige Aufgabe, zwischen beidem eine echte Verbindung zu halten, statt das eine für das andere zu opfern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Ein Schloss als sichtbares Zuhause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Fabian Kahl lebt bis heute auf Schloss Brandenstein und führt dort seinen Antiquitätenhandel weiter – ein seltener Fall, in dem Herkunft, Beruf und öffentliches Bild vollständig zusammenfallen, statt getrennte Lebensbereiche zu bleiben.</p>
+          <p class="vb-intro">Vom Fünfjährigen auf dem Flohmarkt seines Vaters bis zum bundesweit bekannten Gesicht des deutschen Antiquitätenhandels: Das Gürteltier hat seinen Panzer nie versteckt, sondern ihn zu seinem unverwechselbaren Markenzeichen gemacht – Besonderheit, die von Anfang an sichtbar sein wollte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3)"},
+        {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3)"},
+        {route:"beruehmte-heinrich-heine", label:"Porträt: Heinrich Heine (SO4w3)"},
+      ])}
+    </div>
+  `);
+}

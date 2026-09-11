@@ -1104,6 +1104,7 @@ export function michaelJacksonPortraitPage() {
           {route:"beruehmte-cat-stevens", label:"Portrait: Cat Stevens / Yusuf Islam (SO4w3)"},
           {route:"beruehmte-hans-christian-andersen", label:"Portrait: Hans Christian Andersen (SO4w3)"},
           {route:"beruehmte-heinrich-heine", label:"Portrait: Heinrich Heine (SO4w3)"},
+          {route:"beruehmte-fabian-kahl", label:"Portrait: Fabian Kahl (SO4w3)"},
         ])}
       </div>
     </div>

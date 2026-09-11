@@ -655,6 +655,7 @@ export function heinrichHeinePortraitPage() {
         {route:"beruehmte-reinhard-mey", label:"Porträt: Reinhard Mey (SO4w3)"},
         {route:"beruehmte-alan-watts", label:"Porträt: Alan Watts (SO4w3)"},
         {route:"krankheitsportraets-heinrich-heine", label:"Krankheitsporträt: Heinrich Heine (SO4w3) – die Matratzengruft"},
+        {route:"beruehmte-fabian-kahl", label:"Porträt: Fabian Kahl (SO4w3)"},
       ])}
     </div>
   `);

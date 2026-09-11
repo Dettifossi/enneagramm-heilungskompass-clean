@@ -1955,3 +1955,69 @@ export function sebastianUrzendowskyPortraitPage() {
     </div>
   `);
 }
+
+export function fabianKahlPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-fabian-kahl-portrait.jpg" alt="Fabian Kahl – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fabian Kahl</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with a Three Wing</p>
+        <p class="krim-portrait-subtitle">Art and antiques dealer, TV personality ("Bares für Rares"), born 1991 – Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo at the Castle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four: it carries its distinctiveness openly on display while protecting its innermost self at the same time. Fabian Kahl was born in 1991 in Pößneck; his love of old objects was instilled by his father, a passionate coin and antiques dealer. By age five he was already visiting flea markets with him. At nine, the family acquired Brandenstein Castle in Thuringia – a place that remains both his home and his business to this day.</p>
+          <p class="vb-intro">At seventeen he abandoned his design diploma and briefly opened his own antiques shop on Berlin's Kurfürstendamm. The armadillo finds its own, unmistakable path early – not the prescribed route of formal training, but the one that matches its own family history.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: Heritage as a Publicly Carried Legacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Four (SO4)</strong> doesn't seek its meaning in hiding but in a deliberately outward-facing, unmistakable position within the community it feels it belongs to. Kahl's entire public identity is closely woven together with his father's legacy and Brandenstein Castle – a family treasure he doesn't manage privately, but has been sharing with a mass audience as a dealer on the ZDF show "Bares für Rares" since 2013.</p>
+          <p class="vb-intro">In 2012 he additionally headed the SansvoiX gallery project in Leipzig, which showed modern art and even housed original segments of the Berlin Wall – the same pattern again: his own fascination with history and heritage isn't tended privately, but curated and shared publicly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three Wing: Personal Appearance as a Visible Statement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three wing (w3)</strong> turns the Four's inner uniqueness into a deliberately crafted, publicly effective image – unlike the more introverted, withdrawn Five-wing variant. Kahl has identified with the Gothic subculture since age sixteen, known for striking outfits and piercings; in 2018, after a decade of long, dyed hair, he made an equally publicly noticed style change to a short haircut.</p>
+          <p class="vb-intro">That same year he published "Der Schatzsucher," a book combining autobiography with an antiques guide – his own, unmistakable story turned into a marketable, visible product. This is the typical SO4w3 movement: not just feeling one's uniqueness, but translating it into a recognizable, successful public brand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Envy as a Drive Toward One's Own Distinctiveness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Four is called <strong>envy</strong> – for the SO4 a constant comparison with a society whose recognition one seeks without ever fully conforming to it. Kahl's consistent vegetarian, at times vegan lifestyle since age fifteen, and his unmistakable Gothic aesthetic within a rather conventional television landscape, show exactly this double movement: wanting to be part of the mainstream public while remaining on one's own, unadapted terms.</p>
+          <p class="vb-intro">Alongside the antiques trade, he plays piano and paints – quieter, more introspective forms of expression that stand in contrast to his loud television presence, and that show how, even in the SO4w3, the Four's inner core – the search for genuine, deeply felt expression – lives on beneath the polished public façade.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4w3 shows in how Kahl turned a very personal, family-rooted passion into a publicly successful format: as a dealer on "Bares für Rares" since its first season in 2013, he brings history, craft, and appreciation for old objects to a wide audience without ever giving up his own, unmistakable appearance to do it.</p>
+          <p class="vb-intro">The shadow lies in the risk that the carefully curated public appearance – style, image, one's own story as a brand – eventually becomes more important than the quiet, private self behind it. For an SO4w3, holding a genuine connection between the two, rather than sacrificing one for the other, remains a constant task.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: A Castle as a Visible Home</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Fabian Kahl still lives at Brandenstein Castle today and continues his antiques trade there – a rare case where heritage, profession, and public image fully coincide, rather than remaining separate spheres of life.</p>
+          <p class="vb-intro">From the five-year-old at his father's flea market to the nationally recognized face of German antiques dealing: the armadillo never hid its shell, but made it its unmistakable trademark – distinctiveness that wanted to be visible from the very start.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+        {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
+        {route:"beruehmte-heinrich-heine", label:"Portrait: Heinrich Heine (SO4w3)"},
+      ])}
+    </div>
+  `);
+}
