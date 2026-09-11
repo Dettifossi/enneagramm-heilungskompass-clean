@@ -1076,6 +1076,7 @@ export function marcelProustPortraitPage() {
         {route:"krankheitsportraets-marcel-proust", label:"Illness Portrait: Marcel Proust (SO4w5) – lifelong asthma"},
         {route:"beruehmte-michael-stipe", label:"Portrait: Michael Stipe (SO4w5)"},
         {route:"beruehmte-alice-miller", label:"Portrait: Alice Miller (SO4w5)"},
+        {route:"beruehmte-ole-nymoen", label:"Portrait: Ole Nymoen (SO4w5)"},
       ])}
     </div>
   `);

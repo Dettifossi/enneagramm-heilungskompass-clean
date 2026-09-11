@@ -2011,6 +2011,7 @@ export function michaelStipePortraitPage() {
         {route:"beruehmte-marcel-proust", label:"Porträt: Marcel Proust (SO4w5)"},
         {route:"beruehmte-gustav-mahler", label:"Porträt: Gustav Mahler (SO4w5)"},
         {route:"beruehmte-alice-miller", label:"Porträt: Alice Miller (SO4w5)"},
+        {route:"beruehmte-ole-nymoen", label:"Porträt: Ole Nymoen (SO4w5)"},
       ])}
     </div>
   `);

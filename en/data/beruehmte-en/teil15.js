@@ -1952,3 +1952,69 @@ export function maraWilsonPortraitPage() {
     </div>
   `);
 }
+
+export function oleNymoenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ole-nymoen-portrait.jpg" alt="Ole Nymoen – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ole Nymoen</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with a Five Wing</p>
+        <p class="krim-portrait-subtitle">Publicist, podcaster ("Wohlstand für Alle"), born 1998 – Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo That Analyzed Against the Current</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four: it doesn't seek its meaning in hiding but in a deliberately unadapted position within the community it feels it belongs to. Ole Nymoen was born in 1998 in Berlin, first completing training as a media designer at Rundfunk Berlin-Brandenburg before studying economics and sociology at Friedrich Schiller University Jena.</p>
+          <p class="vb-intro">Instead of aligning himself with one of the established schools of economics, he oriented himself toward the Marxist theoretical framework of the journal "GegenStandpunkt" – a deliberately marginal, intellectually uncompromising position within his own field.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: A Marginal Position Becomes a Public Voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Four (SO4)</strong> seeks its meaning in a visible, unmistakable position against a society whose consensus it simultaneously challenges. Since 2019, Nymoen has co-hosted the podcast "Wohlstand für Alle" ("Prosperity for All") with Wolfgang M. Schmitt, discussing economic history and political economy – their stated motivation: creating a counterweight to the "paranoid prophets" who achieve high click rates with simple explanations, while economic topics themselves remained underrepresented on the left.</p>
+          <p class="vb-intro">In 2025 he published the book "Warum ich niemals für mein Land kämpfen würde" ("Why I Would Never Fight for My Country"), which took a position against the prevailing societal tone in the middle of the debate on conscription and military readiness, sparking fierce controversy. Not adaptation to the zeitgeist, but a deliberate, publicly defended counter-position – the typical SO4 movement.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five Wing: Analysis Instead of Performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five wing (w5)</strong> gives the social Four an analytically theory-building, more withdrawn side – unlike the image- and stage-oriented Three-wing variant. Nymoen's public presence is almost exclusively that of the analyst: a podcast on economic history, columns for "Jacobin," contributions to "Der Freitag" and "Wirtschaftswoche" – formats where the argument takes center stage, not the person.</p>
+          <p class="vb-intro">His book "Influencer: Die Ideologie der Werbekörper" (2021, with Schmitt) dissects exactly the phenomenon of self-staging that he himself consistently avoids – a typically SO4w5 distance from his own visibility, even as he becomes very publicly visible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Envy as Resistance Against Comfortable Consensus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Four is called <strong>envy</strong> – for the SO4 a constant, painful comparison with a society that settles for simpler explanations while one's own, deeper truth remains uncomfortable. Nymoen's recurring theme – whether in influencer culture, economic history, or the question of war and national defense – is the refusal to fall in line with the obvious, majority-friendly narrative.</p>
+          <p class="vb-intro">Since February 2026, he has additionally streamed under the name "HeissaPapa" together with activist Simon David Dreßler on Twitch, analyzing political videos from the left-liberal spectrum – another new platform for the same underlying stance: publicly defending one's own, unadapted position again and again, rather than diluting it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4w5 shows in how a marginal theoretical position grew into a widely heard podcast and several bestsellers: "Influencer" reached the Spiegel bestseller list without ever giving up its own analytical distance.</p>
+          <p class="vb-intro">The shadow lies in the risk that deliberately distancing oneself from majority opinion becomes an identity marker in itself – the risk of seeking contradiction for its own sake, rather than continually testing one's own position against reality. For an SO4w5, telling genuine intellectual honesty apart from mere opposition remains a constant task.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: A Young Voice Against Comfortable Consensus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ole Nymoen ranks among the youngest and, at the same time, most consistent public voices of his generation in German-language economic policy discourse – someone who didn't abandon his academic marginal position but built it into his own brand without smoothing it out for broader appeal.</p>
+          <p class="vb-intro">From media-design apprentice to widely heard economics podcaster and book author: the armadillo didn't hide its shell but turned it into the instrument with which it keeps breaking open the comfortable certainties of its time.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-alice-miller", label:"Portrait: Alice Miller (SO4w5)"},
+        {route:"beruehmte-michael-stipe", label:"Portrait: Michael Stipe (SO4w5)"},
+        {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5)"},
+      ])}
+    </div>
+  `);
+}

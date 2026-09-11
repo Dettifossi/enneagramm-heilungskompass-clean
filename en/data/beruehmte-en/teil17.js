@@ -2012,6 +2012,7 @@ export function aliceMillerPortraitPage() {
         {route:"beruehmte-michael-stipe", label:"Portrait: Michael Stipe (SO4w5)"},
         {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5)"},
         {route:"beruehmte-edvard-munch", label:"Portrait: Edvard Munch (SO4w5)"},
+        {route:"beruehmte-ole-nymoen", label:"Portrait: Ole Nymoen (SO4w5)"},
       ])}
     </div>
   `);

@@ -1077,6 +1077,7 @@ export function marcelProustPortraitPage() {
         {route:"krankheitsportraets-marcel-proust", label:"Krankheitsportr\u00e4t: Marcel Proust (SO4w5) \u2013 lebenslanges Asthma"},
         {route:"beruehmte-michael-stipe", label:"Portr\u00e4t: Michael Stipe (SO4w5)"},
         {route:"beruehmte-alice-miller", label:"Portr\u00e4t: Alice Miller (SO4w5)"},
+        {route:"beruehmte-ole-nymoen", label:"Portr\u00e4t: Ole Nymoen (SO4w5)"},
       ])}
     </div>
   `);

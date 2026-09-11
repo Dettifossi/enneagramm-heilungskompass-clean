@@ -1954,3 +1954,69 @@ export function maraWilsonPortraitPage() {
     </div>
   `);
 }
+
+export function oleNymoenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ole-nymoen-portrait.jpg" alt="Ole Nymoen – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ole Nymoen</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Publizist, Podcaster (›Wohlstand für Alle‹), geb. 1998 &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier, das gegen den Strom analysierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier: Es sucht seine Bedeutung nicht im Verborgenen, sondern in einer bewusst unangepassten Position innerhalb der Gemeinschaft, der es sich zugehörig fühlt. Ole Nymoen wurde 1998 in Berlin geboren, absolvierte zunächst eine Ausbildung zum Mediengestalter beim Rundfunk Berlin-Brandenburg, bevor er Wirtschaftswissenschaften und Soziologie an der Friedrich-Schiller-Universität Jena studierte.</p>
+          <p class="vb-intro">Statt sich einer der etablierten wirtschaftswissenschaftlichen Schulen anzuschließen, orientierte er sich am marxistischen Theorierahmen der Zeitschrift ›GegenStandpunkt‹ – eine bewusst randständige, intellektuell kompromisslose Position innerhalb seines eigenen Fachgebiets.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Eine Randposition wird zur öffentlichen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> sucht ihre Bedeutung in einer sichtbaren, unverwechselbaren Position gegenüber einer Gesellschaft, deren Konsens sie zugleich infrage stellt. Seit 2019 spricht Nymoen gemeinsam mit Wolfgang M. Schmitt im Podcast ›Wohlstand für Alle‹ über Wirtschaftsgeschichte und politische Ökonomie – ihre erklärte Motivation: ein Gegengewicht zu den ›paranoiden Propheten‹ zu schaffen, die mit einfachen Erklärungen hohe Klickzahlen erzielen, während wirtschaftliche Themen im linken Spektrum selbst unterrepräsentiert blieben.</p>
+          <p class="vb-intro">2025 veröffentlichte er das Buch ›Warum ich niemals für mein Land kämpfen würde‹, das sich mitten in der Debatte um Wehrpflicht und Kriegstüchtigkeit gegen den gesellschaftlichen Grundtenor stellte und heftige Kontroversen auslöste. Keine Anpassung an den Zeitgeist, sondern eine bewusste, öffentlich vertretene Gegenposition – die typische SO4-Bewegung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Analyse statt Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sozialen Vier eine analytisch-theoriebildende, eher zurückgezogene Seite – anders als die bild- und bühnenorientierte Dreierflügel-Variante. Nymoens öffentliches Auftreten ist fast ausschließlich das des Analysierenden: ein Podcast über Wirtschaftsgeschichte, Kolumnen für ›Jacobin‹, Beiträge für ›Der Freitag‹ und die ›Wirtschaftswoche‹ – Formate, in denen die Argumentation im Vordergrund steht, nicht die Person.</p>
+          <p class="vb-intro">Auch sein Buch ›Influencer: Die Ideologie der Werbekörper‹ (2021, mit Schmitt) seziert genau jenes Phänomen der Selbstinszenierung, dem er sich selbst konsequent entzieht – eine SO4w5-typische Distanz zur eigenen Sichtbarkeit, selbst während er öffentlich sehr sichtbar wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Neid als Widerspruch gegen den bequemen Konsens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Vier heißt <strong>Neid</strong> – bei der SO4 als ständiger, schmerzhafter Vergleich mit einer Gesellschaft, die sich mit einfacheren Erklärungen zufriedengibt, während die eigene, tiefere Wahrheit unbequem bleibt. Nymoens durchgängiges Thema – ob bei Influencer-Kultur, Wirtschaftsgeschichte oder der Frage nach Krieg und Landesverteidigung – ist die Weigerung, sich dem naheliegenden, mehrheitsfähigen Narrativ anzuschließen.</p>
+          <p class="vb-intro">Seit Februar 2026 streamt er zusätzlich unter dem Namen ›HeissaPapa‹ gemeinsam mit dem Aktivisten Simon David Dreßler auf Twitch und analysiert politische Videos aus dem links-liberalen Spektrum – eine weitere, neue Plattform für dieselbe Grundhaltung: die eigene, unangepasste Position stets aufs Neue öffentlich zu vertreten, statt sie zu verwässern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 zeigt sich darin, wie aus einer randständigen theoretischen Position ein weithin gehörter Podcast und mehrere Bestseller wurden: ›Influencer‹ erreichte die Spiegel-Bestsellerliste, ohne die eigene analytische Distanz aufzugeben.</p>
+          <p class="vb-intro">Der Schatten liegt in der Gefahr, dass die bewusste Abgrenzung von der Mehrheitsmeinung selbst zum Identitätsmerkmal wird – die Gefahr, Widerspruch um des Widerspruchs willen zu suchen, statt die eigene Position immer wieder neu an der Realität zu prüfen. Bei einer SO4w5 bleibt es eine ständige Aufgabe, echte intellektuelle Redlichkeit von reiner Gegenposition zu unterscheiden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Eine junge Stimme gegen den bequemen Konsens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ole Nymoen zählt zu den jüngsten und zugleich konsequentesten öffentlichen Stimmen seiner Generation im deutschsprachigen wirtschaftspolitischen Diskurs – jemand, der seine akademische Randposition nicht aufgab, sondern zur eigenen Marke ausbaute, ohne sie für breitere Anschlussfähigkeit zu glätten.</p>
+          <p class="vb-intro">Vom Mediengestalter-Lehrling zum vielgehörten Wirtschaftspodcaster und Buchautor: Das Gürteltier hat seinen Panzer nicht versteckt, sondern zum Instrument gemacht, mit dem es die bequemen Gewissheiten seiner Zeit immer wieder aufbricht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-alice-miller", label:"Porträt: Alice Miller (SO4w5)"},
+        {route:"beruehmte-michael-stipe", label:"Porträt: Michael Stipe (SO4w5)"},
+        {route:"beruehmte-marcel-proust", label:"Porträt: Marcel Proust (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
