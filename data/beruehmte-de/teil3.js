@@ -1989,7 +1989,7 @@ export function fabianKahlPortraitPage() {
 
         <h2 class="vb-section">4. Die Leidenschaft: Neid als Antrieb zur eigenen Unverwechselbarkeit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Vier heißt <strong>Neid</strong> – bei der SO4 als ständiger Vergleich mit einer Gesellschaft, deren Anerkennung man sucht, ohne sich ihr ganz anzupassen. Kahls konsequente vegetarische, teils vegane Lebensweise seit seinem fünfzehnten Lebensjahr und seine unverkennbare Gothic-Ästhetik in einer eher konventionellen Fernsehlandschaft zeigen genau diese Doppelbewegung: Teil der breiten Öffentlichkeit sein wollen, aber auf den eigenen, unangepassten Bedingungen.</p>
+          <p class="vb-intro">Die Leidenschaft der Vier heißt <strong>Neid</strong> – bei der SO4 als ständiger Vergleich mit einer Gesellschaft, deren Anerkennung man sucht, ohne sich ihr ganz anzupassen. Kahls konsequente vegetarische, teils vegane Lebensweise seit seinem fünfzehnten Lebensjahr und seine unverkennbare Gothic-Ästhetik in einer eher konventionellen Fernsehlandschaft zeigen genau diese Doppelbewegung: Teil der breiten Öffentlichkeit sein wollen, aber zu den eigenen, unangepassten Bedingungen.</p>
           <p class="vb-intro">Neben dem Antiquitätenhandel spielt er Klavier und malt – stille, introspektivere Ausdrucksformen, die im Kontrast zur lauten Fernsehpräsenz stehen und zeigen, dass auch bei der SO4w3 der innere Kern der Vier, die Suche nach echtem, tief empfundenem Ausdruck, unter der glänzenden öffentlichen Fassade weiterlebt.</p>
         </blockquote>
 
