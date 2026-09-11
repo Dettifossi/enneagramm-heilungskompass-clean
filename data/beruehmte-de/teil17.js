@@ -1993,7 +1993,7 @@ export function aliceMillerPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten der sozialen Vier</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SO4w5 zeigt sich in der weltweiten Wirkung ihres Werks: ›Das Drama des begabten Kindes‹ wurde zum internationalen Bestseller und veränderte, wie eine ganze Generation von Therapeutinnen und Therapeuten über kindliche Bedürfnisse und elterliche Macht dachte. 2001 erhielt sie den Oskar-Pfister-Preis, 2009 den Internationalen Sigmund-Freud-Preis für Psychotherapie – Anerkennung, aber nach den eigenen, unangepassten Bedingungen einer Frau, die eine ganze Disziplin öffentlich infrage stellte.</p>
-          <p class="vb-intro">Der Schatten liegt in genau der Kluft zwischen öffentlicher Botschaft und privater Realität, die ihr Sohn nach ihrem Tod offenlegte. Aus Enneagramm-Perspektive lässt sich das als Extremform der SO4-Gefahr lesen: Die eigene, dramatische Wundgeschichte kann so viel Raum einnehmen, dass sie die konkrete, alltägliche Fürsorge für die Menschen verdrängt, die am nächsten stehen.</p>
+          <p class="vb-intro">Der Schatten liegt in genau der Kluft zwischen öffentlicher Botschaft und privater Realität, die ihr Sohn nach ihrem Tod offenlegte. Aus Enneagramm-Perspektive lässt sich das als Extremform der SO4-Gefahr lesen: Die eigene, dramatische Wundengeschichte kann so viel Raum einnehmen, dass sie die konkrete, alltägliche Fürsorge für die Menschen verdrängt, die am nächsten stehen.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Vermächtnis: Eine Wahrheit, die erst nach dem Tod ganz sichtbar wurde</h2>
