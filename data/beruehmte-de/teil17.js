@@ -2014,6 +2014,7 @@ export function aliceMillerPortraitPage() {
         {route:"beruehmte-marcel-proust", label:"Porträt: Marcel Proust (SO4w5)"},
         {route:"beruehmte-edvard-munch", label:"Porträt: Edvard Munch (SO4w5)"},
         {route:"beruehmte-ole-nymoen", label:"Porträt: Ole Nymoen (SO4w5)"},
+        {route:"beruehmte-joachim-loew", label:"Porträt: Joachim Löw (SO4w5)"},
       ])}
     </div>
   `);

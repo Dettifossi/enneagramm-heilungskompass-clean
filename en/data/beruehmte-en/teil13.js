@@ -1954,3 +1954,69 @@ export function galarrwuyYunupinguPortraitPage() {
     </div>
   `);
 }
+
+export function joachimLoewPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joachim-loew-portrait.jpg" alt="Joachim Löw – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Joachim Löw</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with a Five Wing</p>
+        <p class="krim-portrait-subtitle">German national football coach 2006–2021, born 1960 – Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo That Sought Its Own Aesthetic for Football</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four: it doesn't seek its meaning by conforming to the usual, but in a deliberately distinctive, unmistakable form of its own. Joachim Löw was born in 1960 in Schönau im Schwarzwald, the eldest of four sons, finished his Abitur in 1977 and began a commercial apprenticeship before devoting himself entirely to football. His playing career took him from 1978 to SC Freiburg, later to VfB Stuttgart, Eintracht Frankfurt, and Karlsruher SC, with a total of 52 Bundesliga appearances.</p>
+          <p class="vb-intro">Via stints as assistant coach under Rolf Fringer, head coach at VfB Stuttgart, Fenerbahçe Istanbul, FC Tirol Innsbruck, and finally as Jürgen Klinsmann's assistant, he found his true calling in 2006: the position of national team head coach. The armadillo needs time to find its own path – but once it has found it, it pursues it with great persistence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: Football as One's Own, Unmistakable Vision</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Four (SO4)</strong> doesn't seek its meaning in hiding, but in a deliberately independent position within a community it simultaneously wants to modernize. From 2006 to 2021, Löw shaped the German national team across 198 international matches, 124 wins, and the 2014 World Cup title – record figures for the position. In 2016 the German Football Association honored him not just for results, but explicitly for "how he modernized and improved the national team."</p>
+          <p class="vb-intro">This modernization wasn't a mere tactical adjustment, but a personal, aesthetic conviction: modern, combination-heavy offensive football rather than pure result-oriented play. Under him, the team became, as it was often said, an ambassador for an open-minded, likable Germany – a public impact reaching far beyond sporting success, and precisely matching the SO4 movement: carrying one's own vision into society, rather than merely adapting to it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five Wing: Retreat Into the Private, Persistence in Silence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five wing (w5)</strong> gives the social Four a withdrawn, introspective side – unlike the more stage-oriented Three-wing variant. Löw himself described suffering from the loss of privacy and wishing for a more normal life, while realistically assessing that this was probably no longer possible. At nineteen, he had already turned down an offer from FC Bayern because Munich felt too far from the Black Forest – the same attachment to his own, familiar surroundings ran through his entire life.</p>
+          <p class="vb-intro">After the historic group-stage exit at the 2018 World Cup as reigning champions – the low point of his coaching career – he refused to be swayed from his path and extended his contract multiple times, rather than reacting publicly or radically changing his own approach. Quiet persistence instead of loud justification – typical of the Five wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Envy as Longing for an Unreachable Normal Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Four is called <strong>envy</strong> – for the SO4, a constant, often painful comparison with a life that comes effortlessly to others. Löw's own statement of suffering from a lack of privacy and longing for a normalcy he could no longer reach is exactly this pattern: the feeling of being structurally excluded from something fundamental – an unremarkable life of one's own.</p>
+          <p class="vb-intro">In 2016, after nearly forty years together, Löw separated from his longtime partner Daniela, whom he had married in 1986 – a private turning point that, true to his Five wing, he never spread publicly, even as his professional life was at its peak at the very same time.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4w5 shows in the extraordinary impact of his work: the 2014 World Cup title, the 2017 Confederations Cup win, FIFA World Coach of the Year, two Silver Laurel Leaves – a personal footballing vision that actually endured and earned international recognition.</p>
+          <p class="vb-intro">The shadow showed in the growing gap between a carefully maintained public image and unfiltered human moments – such as when an unguarded, close-up-broadcast gesture at Euro 2020/2021 went viral for days and turned into a caricature. For an SO4w5, who deliberately curates their public appearance, such an uncontrolled moment can be especially painful.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: A Vision of His Own, Defended for Fifteen Years</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After the round-of-16 defeat to England at Euro 2020/2021, having already announced his resignation beforehand, Löw ended his tenure after fifteen years – the longest term of any national team coach in German football history. To this day, he remains engaged with Plan International and the Stiftung Jugendfußball, which he has supported since 2000.</p>
+          <p class="vb-intro">From a Black Forest commercial apprentice to a World Cup-winning coach: the armadillo never abandoned its own, unmistakable vision – neither in the triumph of 2014 nor in the historic low of 2018 – remaining consistently true to itself across one of the longest tenures in German football.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-eddie-redmayne", label:"Portrait: Eddie Redmayne (SO4w3)"},
+        {route:"beruehmte-alice-miller", label:"Portrait: Alice Miller (SO4w5)"},
+        {route:"beruehmte-michael-stipe", label:"Portrait: Michael Stipe (SO4w5)"},
+      ])}
+    </div>
+  `);
+}

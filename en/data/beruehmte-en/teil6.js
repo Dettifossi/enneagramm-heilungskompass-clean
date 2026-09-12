@@ -2030,6 +2030,7 @@ export function eddieRedmaynePortraitPage() {
         {route:"beruehmte-fabian-kahl", label:"Portrait: Fabian Kahl (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
         {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
+        {route:"beruehmte-joachim-loew", label:"Portrait: Joachim Löw (SO4w5)"},
       ])}
     </div>
   `);

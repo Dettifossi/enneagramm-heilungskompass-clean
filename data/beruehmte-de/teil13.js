@@ -1970,3 +1970,69 @@ export function galarrwuyYunupinguPortraitPage() {
     </div>
   `);
 }
+
+export function joachimLoewPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joachim-loew-portrait.jpg" alt="Joachim Löw – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Joachim Löw</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Fußball-Bundestrainer 2006&ndash;2021, geb. 1960 &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier, das für seinen Fußball die eigene Ästhetik suchte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier: Es sucht seine Bedeutung nicht in der Anpassung an das Übliche, sondern in einer bewusst eigenen, unverwechselbaren Form. Joachim Löw wurde 1960 in Schönau im Schwarzwald als ältester von vier Söhnen geboren, machte 1977 sein Abitur und begann eine kaufmännische Ausbildung, bevor er sich ganz dem Fußball widmete. Seine Spielerkarriere führte ihn ab 1978 zum SC Freiburg, später zu VfB Stuttgart, Eintracht Frankfurt und Karlsruher SC, mit insgesamt 52 Bundesliga-Einsätzen.</p>
+          <p class="vb-intro">Über Stationen als Co-Trainer bei Rolf Fringer, als Cheftrainer beim VfB Stuttgart, bei Fenerbahçe Istanbul, dem FC Tirol Innsbruck und schließlich als Assistent von Jürgen Klinsmann fand er 2006 zu seiner eigentlichen Berufung: dem Amt des Bundestrainers. Das Gürteltier braucht seine Zeit, um den eigenen Weg zu finden – aber wenn es ihn gefunden hat, verfolgt es ihn mit großer Beharrlichkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Fußball als eigene, unverwechselbare Vision</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> sucht ihre Bedeutung nicht im Verborgenen, sondern in einer bewusst eigenständigen Position innerhalb einer Gemeinschaft, die sie zugleich modernisieren will. Von 2006 bis 2021 formte Löw die deutsche Nationalmannschaft mit 198 Länderspielen, 124 Siegen und dem WM-Titel 2014 – Rekordwerte für das Amt. Der DFB würdigte ihn 2016 nicht nur für Erfolge, sondern ausdrücklich dafür, ›wie er die Nationalmannschaft modernisiert und verbessert hat‹.</p>
+          <p class="vb-intro">Diese Modernisierung war keine bloße taktische Umstellung, sondern ein eigener, ästhetischer Anspruch: moderner, kombinationsstarker Offensivfußball statt reinem Ergebnisfußball. Die Mannschaft wurde unter ihm, wie es hieß, zum Botschafter eines weltoffenen, sympathischen Deutschlands – eine öffentliche Wirkung, die weit über den reinen Sporterfolg hinausging und genau der SO4-Bewegung entspricht: die eigene Vision in die Gesellschaft hineintragen, statt sich ihr bloß anzupassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Rückzug ins Private, Beharrlichkeit im Stillen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sozialen Vier eine zurückgezogene, introspektive Seite – anders als die bühnenwirksamere Dreierflügel-Variante. Löw beschrieb selbst, unter dem Verlust der Privatsphäre zu leiden und sich ein normaleres Leben zu wünschen, konnte aber realistisch einschätzen, dass dies wohl nicht mehr möglich sein würde. Mit neunzehn hatte er bereits ein Angebot des FC Bayern abgelehnt, weil ihm München zu weit vom Schwarzwald entfernt war – dieselbe Bindung an das eigene, vertraute Umfeld zog sich durch sein ganzes Leben.</p>
+          <p class="vb-intro">Nach dem historischen Vorrundenaus bei der WM 2018 als amtierender Weltmeister – dem Tiefpunkt seiner Trainerkarriere – ließ er sich nicht von seinem Weg abbringen und verlängerte seinen Vertrag mehrfach, statt öffentlich zu reagieren oder die eigene Linie radikal zu ändern. Stille Beharrlichkeit statt lauter Rechtfertigung – typisch für den Fünferflügel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Neid als Sehnsucht nach einem unerreichbaren Normalzustand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Vier heißt <strong>Neid</strong> – bei der SO4 als ständiger, oft schmerzhafter Vergleich mit einem Leben, das anderen mühelos zusteht. Löws eigene Aussage, unter fehlender Privatsphäre zu leiden und sich nach Normalität zu sehnen, ohne sie noch erreichen zu können, ist genau dieses Muster: das Gefühl, von etwas Grundlegendem – einem unauffälligen, eigenen Leben – strukturell ausgeschlossen zu sein.</p>
+          <p class="vb-intro">2016 trennte sich Löw nach fast vierzig gemeinsamen Jahren von seiner langjährigen Partnerin Daniela, mit der er seit 1986 verheiratet war – eine private Zäsur, die er, seinem Fünferflügel entsprechend, nie öffentlich ausbreitete, während sein berufliches Leben zur selben Zeit auf dem Höhepunkt stand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 zeigt sich in der außergewöhnlichen Wirkung seiner Arbeit: WM-Titel 2014, Confed-Cup-Sieg 2017, FIFA-Welttrainer des Jahres, zweifaches Silbernes Lorbeerblatt – eine eigene fußballerische Vision, die tatsächlich Bestand hatte und international anerkannt wurde.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in der zunehmenden Kluft zwischen sorgfältig gepflegtem öffentlichem Bild und ungefilterten menschlichen Momenten – etwa als eine unbedachte, in Großaufnahme übertragene Geste bei der EM 2021 tagelang viral ging und zur Karikatur wurde. Für eine SO4w5, die ihre öffentliche Erscheinung bewusst kuratiert, kann ein solcher unkontrollierter Moment besonders schmerzhaft sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Eine eigene Vision, fünfzehn Jahre lang verteidigt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach der Achtelfinal-Niederlage gegen England bei der EM 2021, deren Rücktritt er bereits im Vorfeld angekündigt hatte, beendete Löw sein Amt nach fünfzehn Jahren – die längste Amtszeit eines Bundestrainers in der DFB-Geschichte. Bis heute engagiert er sich für Plan International und die von ihm seit 2000 unterstützte Stiftung Jugendfußball.</p>
+          <p class="vb-intro">Vom Schwarzwälder Kaufmannslehrling zum Weltmeistertrainer: Das Gürteltier verließ seine eigene, unverwechselbare Vision nie – weder im Triumph 2014 noch im historischen Tiefpunkt 2018, und blieb sich damit über eine der längsten Amtszeiten des deutschen Fußballs hinweg konsequent selbst treu.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-eddie-redmayne", label:"Porträt: Eddie Redmayne (SO4w3)"},
+        {route:"beruehmte-alice-miller", label:"Porträt: Alice Miller (SO4w5)"},
+        {route:"beruehmte-michael-stipe", label:"Porträt: Michael Stipe (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
