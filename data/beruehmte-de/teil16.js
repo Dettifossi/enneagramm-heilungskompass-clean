@@ -1989,7 +1989,7 @@ export function susanLinkPortraitPage() {
 
         <h2 class="vb-section">3. Der Zweierflügel: Nähe zum Publikum als Erfolgsformel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der selbsterhaltenden Drei eine warme, zugewandte Note – anders als die kühlere, rein sachorientierte Fünferflügel-Variante. Seit Juli 2017 moderiert Link gemeinsam mit Micky Beisenherz den ›Kölner Treff‹, ein Gesprächsformat, das von persönlicher Nähe zu den Gästen lebt, nicht von Konfrontation. Mit ihrem Ehemann produziert sie zudem den Podcast ›Gintonicundeierlikoer‹ – ein sehr persönliches, geselliges Format abseits der großen Bühne.</p>
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der selbsterhaltenden Drei eine warme, zugewandte Note – anders als die kühlere, rein sachorientierte Viererflügel-Variante. Seit Juli 2017 moderiert Link gemeinsam mit <a href="#beruehmte-micky-beisenherz">Micky Beisenherz (SO2w1)</a> den ›Kölner Treff‹, ein Gesprächsformat, das von persönlicher Nähe zu den Gästen lebt, nicht von Konfrontation. Mit ihrem Ehemann produziert sie zudem den Podcast ›Gintonicundeierlikoer‹ – ein sehr persönliches, geselliges Format abseits der großen Bühne.</p>
           <p class="vb-intro">Als Frank Plasberg krankheitsbedingt ausfiel, sprang Link als Vertretung bei ›Hart aber fair‹ ein – die SE3w2 in Reinform: verlässlich einspringen, wenn sie gebraucht wird, mit persönlicher Wärme, aber ohne die Rolle für sich zu beanspruchen.</p>
         </blockquote>
 

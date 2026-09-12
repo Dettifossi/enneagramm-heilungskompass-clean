@@ -1994,7 +1994,7 @@ export function susanLinkPortraitPage() {
 
         <h2 class="vb-section">3. The Two Wing: Closeness to the Audience as a Formula for Success</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the self-preservation Three a warm, personable quality – unlike the cooler, purely task-focused Five-wing variant. Since July 2017, Link has co-hosted "Kölner Treff" with Micky Beisenherz, a conversation format that thrives on personal closeness with its guests rather than confrontation. With her husband, she also produces the podcast "Gintonicundeierlikoer" – a very personal, sociable format away from the main stage.</p>
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the self-preservation Three a warm, personable quality – unlike the cooler, purely task-focused Four-wing variant. Since July 2017, Link has co-hosted "Kölner Treff" with <a href="#beruehmte-micky-beisenherz">Micky Beisenherz (SO2w1)</a>, a conversation format that thrives on personal closeness with its guests rather than confrontation. With her husband, she also produces the podcast "Gintonicundeierlikoer" – a very personal, sociable format away from the main stage.</p>
           <p class="vb-intro">When Frank Plasberg was unable to appear due to illness, Link stepped in as his substitute on "Hart aber fair" – the SE3w2 in its purest form: reliably filling in when needed, with personal warmth, but without claiming the role for herself.</p>
         </blockquote>
 
