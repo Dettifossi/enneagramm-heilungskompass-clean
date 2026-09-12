@@ -2013,7 +2013,7 @@ export function joachimLoewPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten der sozialen Vier</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SO4w5 zeigt sich in der außergewöhnlichen Wirkung seiner Arbeit: WM-Titel 2014, Confed-Cup-Sieg 2017, FIFA-Welttrainer des Jahres, zweifaches Silbernes Lorbeerblatt – eine eigene fußballerische Vision, die tatsächlich Bestand hatte und international anerkannt wurde.</p>
-          <p class="vb-intro">Der Schatten zeigte sich in der zunehmenden Kluft zwischen sorgfältig gepflegtem öffentlichem Bild und ungefilterten menschlichen Momenten – etwa als eine unbedachte, in Großaufnahme übertragene Geste bei der EM 2021 tagelang viral ging und zur Karikatur wurde. Für eine SO4w5, die ihre öffentliche Erscheinung bewusst kuratiert, kann ein solcher unkontrollierter Moment besonders schmerzhaft sein.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in der zunehmenden Kluft zwischen sorgfältig gepflegtem öffentlichem Bild und ungefilterten menschlichen Momenten: Beim EM-Achtelfinale gegen England am 29. Juni 2021 fing die TV-Kamera Löw in der 89. Minute dabei ein, wie er sich in der Nase bohrte und anschließend an derselben Hand leckte – in Großaufnahme live übertragen. Der kurze Clip verbreitete sich binnen Stunden in sozialen Netzwerken und wurde tagelang zur Spott- und Meme-Vorlage. Für eine SO4w5, die ihre öffentliche Erscheinung bewusst kuratiert, kann ein solcher unkontrollierter, banaler Moment besonders schmerzhaft sein.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Das Vermächtnis: Eine eigene Vision, fünfzehn Jahre lang verteidigt</h2>

@@ -1997,7 +1997,7 @@ export function joachimLoewPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow of the Social Four</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SO4w5 shows in the extraordinary impact of his work: the 2014 World Cup title, the 2017 Confederations Cup win, FIFA World Coach of the Year, two Silver Laurel Leaves – a personal footballing vision that actually endured and earned international recognition.</p>
-          <p class="vb-intro">The shadow showed in the growing gap between a carefully maintained public image and unfiltered human moments – such as when an unguarded, close-up-broadcast gesture at Euro 2020/2021 went viral for days and turned into a caricature. For an SO4w5, who deliberately curates their public appearance, such an uncontrolled moment can be especially painful.</p>
+          <p class="vb-intro">The shadow showed in the growing gap between a carefully maintained public image and unfiltered human moments: during the Euro 2020/2021 round-of-16 match against England on June 29, 2021, the TV camera caught Löw in the 89th minute picking his nose and then licking the same hand – broadcast live in close-up. The short clip spread across social media within hours and became fodder for mockery and memes for days. For an SO4w5, who deliberately curates their public appearance, such an uncontrolled, mundane moment can be especially painful.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Legacy: A Vision of His Own, Defended for Fifteen Years</h2>
