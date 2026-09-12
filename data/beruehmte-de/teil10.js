@@ -1989,3 +1989,69 @@ export function bobbyFischerPortraitPage() {
     </div>
   `);
 }
+
+export function timCookPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-tim-cook-portrait.jpg" alt="Tim Cook – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tim Cook</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">CEO von Apple, geb. 1960 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der die Fabrik selbst um drei Uhr morgens anrief</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins: kein Blick auf die Bühne, sondern auf den Posten selbst. Tim Cook, geboren 1960 in Mobile, Alabama, kam 1998 als Leiter der weltweiten Logistik zu Apple – zu einer Zeit, in der das Unternehmen an einer chaotischen, teuren Lieferkette fast zugrunde ging. Kollegen erzählen bis heute die Geschichte, dass Cook mitten in einer Krisensitzung mit den Worten ›Das ist ein ernstes Problem, jemand sollte nach China gehen‹ endete – und, nachdem alle nickten, selbst aufstand, zum Flughafen fuhr und erst zurückkam, als das Problem gelöst war.</p>
+          <p class="vb-intro">Der Adler delegiert nicht, was er selbst verantworten kann. Innerhalb weniger Jahre baute Cook Apples Lieferkette so radikal um, dass sie zur effizientesten der Technologiebranche wurde – nicht durch spektakuläre Ankündigungen, sondern durch akribische, oft unsichtbare Detailarbeit an Lagerbeständen, Lieferverträgen und Fertigungsprozessen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Verantwortung als stille Disziplin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> trägt ihren Perfektionsanspruch nicht nach außen, sondern nach innen. Naranjo nannte diesen Subtyp <em>Worry</em> – Besorgnis: die ständige innere Frage, ob man der Aufgabe wirklich gerecht wird. Cook ist bekannt dafür, täglich um 3:45 Uhr aufzustehen, noch vor Sonnenaufgang E-Mails zu beantworten und regelmäßig als Erster im Büro und als Letzter zu gehen – eine Routine, die er seit Jahrzehnten praktisch unverändert durchhält.</p>
+          <p class="vb-intro">Als er 2011 die Nachfolge von Steve Jobs antrat, übernahm er damit eine der größten öffentlichen Verantwortungen der Wirtschaftsgeschichte – nicht mit dem Ehrgeiz, Jobs zu übertreffen, sondern mit der stillen Überzeugung, dem Unternehmen und seinen Mitarbeitenden gerecht werden zu müssen. In Interviews wiederholt er bis heute nüchtern, er denke nicht in Vermächtnissen, sondern in der nächsten Aufgabe, die vor ihm liegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Ausgleich statt Konfrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der selbsterhaltenden Eins etwas, das bei schwach ausgeprägtem Neunerflügel kaum von selbst da ist: eine grundlegende Zurückhaltung, die Konflikte vermeidet und die eigene Person hinter der Sache zurücktreten lässt. Cook gilt als ausgesprochen introvertiert und meidet, anders als sein Vorgänger, öffentliche Konfrontationen oder Bühnenshows um der Show willen – seine Keynote-Auftritte sind sachlich, ruhig, fast unterspielt.</p>
+          <p class="vb-intro">2014 machte er öffentlich, homosexuell zu sein – nicht als lautstarkes Statement, sondern in einem ruhigen, sachlichen Essay, in dem er schrieb, er habe seine Sexualität nie als Geheimnis behandelt, wolle aber Menschen helfen, die sich allein fühlten. Derselbe Flügel zeigt sich darin, wie er interne Konflikte zwischen Führungskräften traditionell moderiert, statt sie zu eskalieren – Ausgleich als bevorzugtes Werkzeug, nicht Konfrontation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Zorn als innere Rechenschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> – bei der SE1w9 wendet er sich nicht nach außen, sondern nach innen: als unerbittlicher Maßstab an die eigene Sorgfalt. Cook gilt intern als Zahlenmensch, der jedes Detail einer Lieferkette oder eines Quartalsberichts persönlich durchdringt, bevor er eine Entscheidung trifft – Fehler in der eigenen Vorbereitung erträgt er selbst schlechter als Kritik von außen.</p>
+          <p class="vb-intro">Öffentlich zeigt sich dieser nach innen gerichtete Zorn als moralische Konsequenz statt als Lautstärke: 2016 verweigerte Apple unter seiner Führung dem FBI die Entschlüsselung eines iPhones, obwohl massiver politischer Druck folgte – eine Position, die Cook in einem offenen Brief an die Kunden ruhig, aber unnachgiebig begründete, ohne den Konflikt öffentlich zu eskalieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Krise als Spiegel: Ein Unternehmen ohne seinen Gründer weiterführen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die SE1w9 hat eine Schwachstelle: Sie kann in Momenten, die charismatische Vision fordern, nüchtern und blass wirken. Als Cook 2011 offiziell CEO wurde, wenige Wochen vor Steve Jobs' Tod, sagten viele Analysten voraus, Apple werde ohne seinen visionären Gründer stagnieren. Cook reagierte nicht mit lauter Selbstinszenierung, sondern mit stiller Kontinuität: Er hielt an Apples bestehenden Grundprinzipien fest und baute parallel neue Geschäftsfelder – Dienstleistungen, Wearables, eigene Chips – mit derselben methodischen Geduld auf, mit der er zuvor die Lieferkette saniert hatte.</p>
+          <p class="vb-intro">Aus Enneagramm-Perspektive ist das keine Schwäche, sondern die Konsequenz des Musters: Wo Jobs mit Vision führte, führt Cook mit Verlässlichkeit. Unter seiner Führung wurde Apple 2018 das erste Billionen-Dollar-Unternehmen der Geschichte – ein Ergebnis, das nicht auf einem einzigen visionären Wurf beruhte, sondern auf Jahren akribischer operativer Disziplin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Führung ohne die Notwendigkeit, im Mittelpunkt zu stehen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tim Cook bleibt der CEO, der bewies, dass ein Weltkonzern nicht zwingend von einer charismatischen Einzelfigur getragen werden muss, um zu wachsen. Sein Vermächtnis liegt nicht in einem einzelnen revolutionären Produkt, sondern in der stillen, jahrzehntelangen operativen Exzellenz, die Apple zum wertvollsten Unternehmen der Welt machte.</p>
+          <p class="vb-intro">Das ist die selbsterhaltende Eins mit Neunerflügel in ihrer reinsten Form: kein Bedürfnis, im Mittelpunkt zu stehen, sondern die stille, tägliche Frage, ob man der eigenen Aufgabe gerecht geworden ist – und die Bereitschaft, sich dieser Aufgabe jeden Morgen um 3:45 Uhr wieder zu stellen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-phil-collins", label:"Porträt: Phil Collins (SE1w9)"},
+        {route:"beruehmte-harald-v", label:"Porträt: König Harald V. (SE1w9)"},
+      ])}
+    </div>
+  `);
+}

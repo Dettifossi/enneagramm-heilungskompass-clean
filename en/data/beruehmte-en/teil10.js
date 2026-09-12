@@ -1988,3 +1988,69 @@ export function bobbyFischerPortraitPage() {
     </div>
   `);
 }
+
+export function timCookPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-tim-cook-portrait.jpg" alt="Tim Cook – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tim Cook</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine-Wing</p>
+        <p class="krim-portrait-subtitle">CEO of Apple, born 1960 – Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle Who Called the Factory Himself at Three in the Morning</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is the animal of the Self-Preservation One: no eye on the stage, but on the post itself. Tim Cook, born in 1960 in Mobile, Alabama, joined Apple in 1998 as head of worldwide operations – at a time when the company was nearly collapsing under a chaotic, expensive supply chain. Colleagues still tell the story that Cook ended a crisis meeting with the words "This is a serious problem, someone should go to China" – and, after everyone nodded, stood up himself, drove to the airport, and did not come back until the problem was solved.</p>
+          <p class="vb-intro">The eagle does not delegate what it can be responsible for itself. Within a few years, Cook rebuilt Apple's supply chain so radically that it became the most efficient in the technology industry – not through spectacular announcements, but through meticulous, often invisible detail work on inventory levels, supplier contracts, and manufacturing processes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Responsibility as Quiet Discipline</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation One (SE1)</strong> carries its perfectionism not outward, but inward. Naranjo called this subtype <em>Worry</em>: the constant inner question of whether one truly lives up to the task. Cook is known for rising daily at 3:45 a.m., answering emails before sunrise, and routinely being the first in the office and the last to leave – a routine he has kept practically unchanged for decades.</p>
+          <p class="vb-intro">When he took over from Steve Jobs in 2011, he assumed one of the largest public responsibilities in business history – not out of ambition to outdo Jobs, but with the quiet conviction that he had to live up to what the company and its employees deserved. In interviews he still repeats, matter-of-factly, that he does not think in terms of legacy but in terms of the next task in front of him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Balance Instead of Confrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> gives the Self-Preservation One something that is hardly there on its own when the Nine-wing is weakly expressed: a basic reserve that avoids conflict and lets one's own person step back behind the matter at hand. Cook is known as strikingly introverted and, unlike his predecessor, avoids public confrontation or showmanship for its own sake – his keynote appearances are matter-of-fact, calm, almost understated.</p>
+          <p class="vb-intro">In 2014 he came out as gay publicly – not as a loud statement, but in a calm, matter-of-fact essay in which he wrote that he had never treated his sexuality as a secret, but wanted to help people who felt alone. The same wing shows in how he has traditionally mediated internal conflicts between executives rather than letting them escalate – balance as his preferred tool, not confrontation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Anger as Inward Accounting</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the One is called <strong>anger</strong> – in the SE1w9 it turns not outward, but inward: as an unrelenting standard applied to one's own thoroughness. Cook is known internally as a numbers person who personally works through every detail of a supply chain or a quarterly report before making a decision – he tolerates errors in his own preparation far less than criticism from outside.</p>
+          <p class="vb-intro">Publicly, this inward-turned anger shows as moral consequence rather than volume: in 2016, under his leadership, Apple refused the FBI's request to unlock an iPhone despite massive political pressure – a position Cook justified calmly but unyieldingly in an open letter to customers, without escalating the conflict publicly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Crisis as a Mirror: Leading a Company Without Its Founder</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The SE1w9 has a weak spot: it can seem sober and pale in moments that call for charismatic vision. When Cook officially became CEO in 2011, weeks before Steve Jobs' death, many analysts predicted Apple would stagnate without its visionary founder. Cook responded not with loud self-promotion, but with quiet continuity: he held to Apple's existing core principles while simultaneously building new business areas – services, wearables, in-house chips – with the same methodical patience he had earlier applied to fixing the supply chain.</p>
+          <p class="vb-intro">From an Enneagram perspective, this is not a weakness but the pattern's logic at work: where Jobs led with vision, Cook leads with reliability. Under his leadership, Apple became the first trillion-dollar company in history in 2018 – a result built not on a single visionary leap, but on years of meticulous operational discipline.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Leadership Without the Need to Stand at the Center</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tim Cook remains the CEO who proved that a global corporation need not be carried by a single charismatic figure to keep growing. His legacy lies not in one revolutionary product, but in the quiet, decades-long operational excellence that made Apple the world's most valuable company.</p>
+          <p class="vb-intro">This is the Self-Preservation One with a Nine-wing at its purest: no need to stand at the center, but the quiet, daily question of whether one has lived up to one's own task – and the willingness to face that task again every morning at 3:45 a.m.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
+        {route:"beruehmte-phil-collins", label:"Portrait: Phil Collins (SE1w9)"},
+        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
