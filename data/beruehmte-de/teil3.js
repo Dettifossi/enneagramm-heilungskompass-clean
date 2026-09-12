@@ -2017,6 +2017,7 @@ export function fabianKahlPortraitPage() {
         {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3)"},
         {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3)"},
         {route:"beruehmte-heinrich-heine", label:"Porträt: Heinrich Heine (SO4w3)"},
+        {route:"beruehmte-eddie-redmayne", label:"Porträt: Eddie Redmayne (SO4w3)"},
       ])}
     </div>
   `);

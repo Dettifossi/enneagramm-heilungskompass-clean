@@ -1968,3 +1968,69 @@ export function ellenMoonsPortraitPage() {
     </div>
   `);
 }
+
+export function eddieRedmaynePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-eddie-redmayne-portrait.jpg" alt="Eddie Redmayne – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Eddie Redmayne</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with a Three Wing</p>
+        <p class="krim-portrait-subtitle">Actor, Academy Award winner, born 1982 – Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo That Turned Its Reading Difficulty Into a Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four: it carries its distinctiveness visibly outward while protecting an inner core not accessible to everyone. Eddie Redmayne was born in 1982 in London, attended Eton College – in the same class as Prince William – and then studied History of Art at Trinity College, Cambridge. As a child, at his parents' encouragement, he took acting lessons and appeared as early as 1994 with the National Youth Music Theatre in a Sam Mendes-directed production of "Oliver!" at the London Palladium.</p>
+          <p class="vb-intro">Throughout his life he lived with dyslexia, which he spoke about openly and later became an ambassador for the organization Dyslexia Action. The armadillo doesn't hide its vulnerability – it makes it the starting point of its own, unmistakable path.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: One's Own Difference as a Public Message</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Four (SO4)</strong> doesn't seek its meaning in hiding but in a deliberately outward-facing, unmistakable position within a society whose recognition it simultaneously demands on its own terms. Redmayne consistently chose roles that made society's marginal experiences visible: physicist Stephen Hawking, suffering from motor neurone disease, in "The Theory of Everything" (2014), transgender pioneer Lili Elbe in "The Danish Girl" (2015).</p>
+          <p class="vb-intro">For "The Theory of Everything" he won the Academy Award for Best Actor; Hawking himself later said that at times he thought he was watching himself on screen. When his casting as a transgender character in "The Danish Girl" sparked public criticism, Redmayne publicly took a position himself – emphasizing the importance of casting transgender roles with transgender actors. Not an evasive move, but a deliberate, public moral stance – typical of the social Four.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three Wing: Precise Transformation as Visible Achievement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three wing (w3)</strong> turns the Four's introspective depth into measurable, publicly recognized success. For his portrayal of Hawking, Redmayne spent months researching the progression of ALS, so precisely that a specialist neurologist praised his performance as "utterly remarkable." His Broadway stage debut as the Emcee in "Cabaret" was described as a "chilling metamorphosis."</p>
+          <p class="vb-intro">The same deliberate shaping of self-presentation shows off-stage too: Elton John and David Furnish described his style as combining Cary Grant's elegance with Fred Astaire's lightness, and he repeatedly ranked among Britain's best-dressed men. In the SO4w3, the Four's depth isn't hidden, but shaped into a visible, curated form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Envy as a Drive to Make the Unusual Visible</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Four is called <strong>envy</strong> – for the SO4 a constant comparison with a society that often overlooks or excludes what is different. Redmayne's consistent choice of roles – a terminally ill genius physicist, a woman in a man's body, a lone contract killer in "The Day of the Jackal" – consistently targets characters standing at the edge of the social norm.</p>
+          <p class="vb-intro">Through his engagement with the Motor Neurone Disease Association and Dyslexia Action, he translated his own early experience of not belonging into public, visible advocacy for others affected – his own wound isn't kept private, but turned into a public message.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4w3 shows in the extraordinary impact of his work: caregivers and people affected by ALS described his Hawking portrayal as movingly precise, and in 2015 he was appointed Officer of the Order of the British Empire for services to drama.</p>
+          <p class="vb-intro">The shadow showed in the "The Danish Girl" controversy: the decision to cast a cisgender actor as a transgender character was criticized by the transgender community. Redmayne's public self-reflection on this criticism shows a trait typical of the social Four: repeatedly examining one's own position in public, rather than defending it unquestioningly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Difference as Craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eddie Redmayne lives with his wife Hannah Bagshawe and their children – a private anchor alongside a career consistently devoted to the margins of human experience rather than the safe middle ground.</p>
+          <p class="vb-intro">From a dyslexic child with early stage experience to an Academy Award-winning portrayer of society's outsiders: the armadillo never hid its own vulnerability, but turned it into the most precise tool of its craft.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-fabian-kahl", label:"Portrait: Fabian Kahl (SO4w3)"},
+        {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+        {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
+      ])}
+    </div>
+  `);
+}

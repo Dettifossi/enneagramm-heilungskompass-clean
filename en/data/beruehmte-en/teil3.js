@@ -2019,6 +2019,7 @@ export function fabianKahlPortraitPage() {
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
         {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
         {route:"beruehmte-heinrich-heine", label:"Portrait: Heinrich Heine (SO4w3)"},
+        {route:"beruehmte-eddie-redmayne", label:"Portrait: Eddie Redmayne (SO4w3)"},
       ])}
     </div>
   `);

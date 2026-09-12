@@ -1968,3 +1968,69 @@ export function ellenMoonsPortraitPage() {
     </div>
   `);
 }
+
+export function eddieRedmaynePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-eddie-redmayne-portrait.jpg" alt="Eddie Redmayne – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Eddie Redmayne</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Sozialer Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Oscar-Preisträger, geb. 1982 &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier, das seine Lese-Unsicherheit zur Bühne machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier: Es trägt seine Andersartigkeit sichtbar nach außen, während es zugleich einen inneren Kern schützt, der nicht jedem zugänglich ist. Eddie Redmayne wurde 1982 in London geboren, besuchte das Eton College – in derselben Klasse wie Prinz William – und studierte anschließend Kunstgeschichte am Trinity College in Cambridge. Schon als Kind erhielt er auf Wunsch seiner Eltern Schauspielunterricht und trat bereits 1994 im National Youth Music Theatre in einer von Sam Mendes inszenierten Produktion von ›Oliver!‹ am London Palladium auf.</p>
+          <p class="vb-intro">Zeit seines Lebens lebte er mit einer Lese-Rechtschreib-Schwäche, über die er offen sprach und der er sich später als Botschafter der Organisation Dyslexia Action widmete. Das Gürteltier verbirgt seine Verwundbarkeit nicht – es macht sie zum Ausgangspunkt einer eigenen, unverwechselbaren Bahn.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Die eigene Andersartigkeit als öffentliche Botschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> sucht ihre Bedeutung nicht im Verborgenen, sondern in einer bewusst nach außen getragenen, unverwechselbaren Position innerhalb der Gesellschaft, deren Anerkennung sie zugleich nach den eigenen Maßstäben einfordert. Redmayne wählte konsequent Rollen, die gesellschaftliche Randerfahrungen sichtbar machten: den an motorischer Nervenerkrankung leidenden Physiker Stephen Hawking in ›The Theory of Everything‹ (2014), die transgeschlechtliche Pionierin Lili Elbe in ›The Danish Girl‹ (2015).</p>
+          <p class="vb-intro">Für ›The Theory of Everything‹ erhielt er den Oscar als bester Hauptdarsteller; Hawking selbst sagte anschließend, phasenweise habe er geglaubt, sich selbst auf der Leinwand zu sehen. Als seine Besetzung als transgeschlechtliche Figur in ›The Danish Girl‹ öffentliche Kritik auslöste, positionierte sich Redmayne selbst öffentlich – er betonte die Wichtigkeit, transgeschlechtliche Rollen mit transgeschlechtlichen Schauspielerinnen und Schauspielern zu besetzen. Keine Ausweichbewegung, sondern eine bewusste, öffentliche moralische Stellungnahme – typisch für die soziale Vier.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Präzise Verwandlung als sichtbare Auszeichnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> verwandelt die introspektive Tiefe der Vier in messbaren, öffentlich anerkannten Erfolg. Für seine Darstellung Hawkings betrieb Redmayne monatelange Recherche zum Krankheitsverlauf der ALS, so präzise, dass ein spezialisierter Neurologe seine Darstellung als ›absolut bemerkenswert‹ lobte. Sein Bühnendebüt als Emcee in ›Cabaret‹ am Broadway wurde als ›erschreckende Metamorphose‹ beschrieben.</p>
+          <p class="vb-intro">Auch abseits der Bühne zeigt sich dieselbe bewusste Gestaltung des eigenen Auftretens: Elton John und David Furnish beschrieben seinen Stil als Verbindung aus Cary Grants Eleganz und Fred Astaires Leichtigkeit, wiederholt zählte er zu Großbritanniens bestangezogenen Männern. Die Vierer-Tiefe wird bei der SO4w3 nicht versteckt, sondern in eine sichtbare, kuratierte Form gebracht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Neid als Antrieb, das Ungewöhnliche sichtbar zu machen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Vier heißt <strong>Neid</strong> – bei der SO4 als ständiger Vergleich mit einer Gesellschaft, die das Andersartige oft übersieht oder ausblendet. Redmaynes durchgängige Rollenwahl – ein sterbenskranker Genie-Physiker, eine Frau in einem Männerkörper, ein einsamer Auftragsmörder in ›The Day of the Jackal‹ – zielt konsequent auf Figuren, die am Rand der gesellschaftlichen Norm stehen.</p>
+          <p class="vb-intro">Über sein Engagement für die Motor Neurone Disease Association und Dyslexia Action übersetzte er seine eigene, früh erlebte Erfahrung des Nicht-dazu-Gehörens in eine öffentliche, sichtbare Fürsprache für andere Betroffene – die eigene Wunde wird nicht privat gehalten, sondern zur gesellschaftlichen Botschaft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w3 zeigt sich in der außergewöhnlichen Wirkung seiner Arbeit: Pflegende und Betroffene von ALS beschrieben seine Hawking-Darstellung als bewegend präzise, und 2015 wurde er für seine Verdienste um die Schauspielkunst zum Officer of the Order of the British Empire ernannt.</p>
+          <p class="vb-intro">Der Schatten zeigte sich in der ›The Danish Girl‹-Kontroverse: Die Entscheidung, eine transgeschlechtliche Figur mit einem cisgeschlechtlichen Schauspieler zu besetzen, wurde von der Transgender-Community kritisiert. Redmaynes öffentliche Selbstreflexion über diese Kritik zeigt eine Eigenschaft, die für die soziale Vier typisch ist: die eigene Position immer wieder öffentlich zu überprüfen, statt sie unhinterfragt zu verteidigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Andersartigkeit als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eddie Redmayne lebt mit seiner Frau Hannah Bagshawe und den gemeinsamen Kindern – ein privater Anker neben einer Karriere, die sich durchgehend den Rändern menschlicher Erfahrung widmet, statt der sicheren Mitte.</p>
+          <p class="vb-intro">Vom lese-unsicheren Kind mit früher Bühnenerfahrung zum Oscar-prämierten Darsteller gesellschaftlicher Außenseiterfiguren: Das Gürteltier hat seine eigene Verwundbarkeit nie versteckt, sondern zum präzisesten Werkzeug seines Handwerks gemacht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-fabian-kahl", label:"Porträt: Fabian Kahl (SO4w3)"},
+        {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3)"},
+        {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3)"},
+      ])}
+    </div>
+  `);
+}

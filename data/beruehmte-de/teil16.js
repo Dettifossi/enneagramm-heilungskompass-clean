@@ -1285,6 +1285,7 @@ export function romySchneiderPortraitPage() {
         {route:"krankheitsportraets-romy-schneider", label:"Krankheitsportr\u00e4t: Romy Schneider (SO4w3)"},
         {route:"beruehmte-heinrich-heine", label:"Portr\u00e4t: Heinrich Heine (SO4w3)"},
         {route:"beruehmte-fabian-kahl", label:"Portr\u00e4t: Fabian Kahl (SO4w3)"},
+        {route:"beruehmte-eddie-redmayne", label:"Portr\u00e4t: Eddie Redmayne (SO4w3)"},
       ])}
     </div>
   `);

@@ -1288,6 +1288,7 @@ export function romySchneiderPortraitPage() {
         {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3)"},
         {route:"beruehmte-heinrich-heine", label:"Portrait: Heinrich Heine (SO4w3)"},
         {route:"beruehmte-fabian-kahl", label:"Portrait: Fabian Kahl (SO4w3)"},
+        {route:"beruehmte-eddie-redmayne", label:"Portrait: Eddie Redmayne (SO4w3)"},
       ])}
     </div>
   `);
