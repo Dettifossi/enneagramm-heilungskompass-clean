@@ -1974,3 +1974,69 @@ export function usainBoltPortraitPage() {
     </div>
   `);
 }
+
+export function davidGarrettPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-david-garrett-portrait.jpg" alt="David Garrett – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Garrett</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Geiger, geboren 1980 &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua, der sich einen eigenen Namen gab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier: klein, aber von einer Intensität, die in keinem Verhältnis zur eigenen Größe steht. David Garrett wurde 1980 in Aachen als David Bongartz geboren, Sohn eines deutschen Juristen und einer amerikanischen Ballerina. Mit vier Jahren griff er erstmals zur Geige seiner Schwester, mit zehn debütierte er bereits professionell mit der Hamburger Philharmonie unter Zubin Mehta.</p>
+          <p class="vb-intro">Sein Vater übernahm früh die vollständige Kontrolle über seine Karriere und seine Finanzen – ein enges, kompromissloses Regiment, dem sich der junge Garrett Jahre lang fügte. Mit 17 nahm er den Mädchennamen seiner Mutter als Künstlernamen an: ein erster, kleiner, aber unmissverständlicher Akt der Abgrenzung von der Identität, die sein Vater für ihn entworfen hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Der Bruch als Ursprung der eigenen Wahrheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> sucht keine gedämpfte Anpassung an fremde Erwartungen, sondern die volle, ungebremste Übernahme der eigenen, unverwechselbaren Wahrheit – Naranjo nannte diesen Subtyp den ›Konkurrenz‹-Typus der Vier. Mit 18 brach Garrett endgültig mit seinem Vater, zog nach New York und finanzierte sein Studium an der Juilliard School bei Itzhak Perlman zunächst über Modeljobs, statt sich weiter von der väterlichen Kontrolle abhängig zu machen.</p>
+          <p class="vb-intro">Er selbst beschrieb diesen Schritt später als die eigentliche Geburtsstunde seiner künstlerischen Identität: Erst als er dem fremden Entwurf seines Vaters entkam, konnte er beginnen, eine Musik zu spielen, die tatsächlich seine eigene war. Kein Kompromiss, keine halbe Lösung – der Chihuahua kennt kein gedämpftes Aufbegehren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Rohe Intensität, massenwirksam übersetzt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sexuellen Vier eine zielgerichtete, öffentlich wirksame Note – anders als die introvertiertere, stärker zurückgezogene Fünferflügel-Variante. Garrett verband als einer der Ersten klassische Virtuosität mit Rock- und Popelementen: Er coverte Metallica, Nirvana und Michael Jackson auf der Geige und brachte mit Alben wie ›Rock Symphonies‹ ein Millionenpublikum in klassische Konzertsäle, das dort zuvor selten saß.</p>
+          <p class="vb-intro">2008 und erneut 2011 stellte er den Guinness-Weltrekord für das schnellste Geigenspiel auf – ›Flug der Hummel‹ in gut einer Minute. Lederhose statt Frack, lange Haare statt Zopf: eine bewusst inszenierte Rockstar-Ästhetik, die seine rohe Vierer-Intensität in ein für ein Massenpublikum lesbares Bild übersetzte, ohne die klassische Substanz dahinter preiszugeben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Neid als Anspruch auf ein eigenes, unverwechselbares Genre</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Vier heißt <strong>Neid</strong> – bei der SX4 nicht als leiser Vergleich, sondern als unmittelbarer, konkurrierender Antrieb: Das eigene Ausdrucksfeld muss das eigenste, unwiederholbarste sein. Garrett wollte nicht der talentierteste unter vielen klassischen Geigern sein, sondern etwas schaffen, das strukturell zwischen den bestehenden Kategorien lag – weder reine Klassik noch reiner Rock, sondern eine dritte, selbst erfundene Sprache.</p>
+          <p class="vb-intro">Genau in dieser Weigerung, sich in ein bestehendes Fach einordnen zu lassen, zeigt sich der Kern der SX4: Anerkennung, die nach den Regeln eines fremden Genres erworben wird, zählt weniger als die Schaffung eines eigenen, unverwechselbaren Raums, in dem die eigene Intensität ungeteilt zur Geltung kommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX4w3 zeigt sich darin, wie Garrett aus einer fremdbestimmten, kontrollierten Kindheit heraus eine vollkommen eigenständige künstlerische Existenz aufbaute – und mit ihr ein junges Publikum für ein Instrument gewann, das viele zuvor als verstaubt abgeschrieben hatten. Die Trennung vom Vater war kein Verlust, sondern die Voraussetzung für alles, was danach kam.</p>
+          <p class="vb-intro">Der Schatten liegt in der Kehrseite derselben Kompromisslosigkeit: Die öffentliche, oft polarisierende Debatte unter klassischen Puristen, ob seine Crossover-Version der Geige die Kunstform verrate oder rette, begleitet ihn bis heute – ein Streit, den die sexuelle Vier nicht scheut, weil er ihre eigene Unverwechselbarkeit erst sichtbar macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Eine Geige, die keine Schublade akzeptierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">David Garrett bleibt der Geiger, der sich weigerte, zwischen Konzertsaal und Rockbühne zu wählen – und der genau damit einer ganzen Generation zeigte, dass ein klassisches Instrument keine geschlossene Welt sein muss. Sein Weg von der väterlichen Kontrolle zur selbstgewählten Bühnenidentität bleibt sein prägendstes Motiv.</p>
+          <p class="vb-intro">Der Chihuahua kennt keine halben Wege – und genau diese Kompromisslosigkeit, mit der Garrett sich einen eigenen Namen und ein eigenes Genre erschuf, ist bis heute der Kern seiner Wirkung.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-chester-bennington", label:"Porträt: Chester Bennington (SX4w3)"},
+        {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-voltaire", label:"Porträt: Voltaire (SX4w3)"},
+      ])}
+    </div>
+  `);
+}

@@ -1976,3 +1976,69 @@ export function usainBoltPortraitPage() {
     </div>
   `);
 }
+
+export function davidGarrettPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-david-garrett-portrait.jpg" alt="David Garrett – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Garrett</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with a Three-Wing</p>
+        <p class="krim-portrait-subtitle">Violinist, born 1980 – Animal correspondence: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua Who Gave Himself His Own Name</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> is the animal of the Sexual Four: small, yet carrying an intensity utterly disproportionate to its size. David Garrett was born in 1980 in Aachen, Germany, as David Bongartz, son of a German lawyer and an American ballerina. He first picked up his sister's violin at age four, and by ten he had already made his professional debut with the Hamburg Philharmonic under Zubin Mehta.</p>
+          <p class="vb-intro">His father took complete control of his career and finances early on – a tight, uncompromising regime the young Garrett submitted to for years. At 17 he adopted his mother's maiden name as his stage name: a first, small but unmistakable act of separation from the identity his father had designed for him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Four: The Break as the Origin of One's Own Truth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Four (SX4)</strong> seeks no muted accommodation to others' expectations, but the full, unbraked ownership of its own, unmistakable truth – Naranjo called this subtype the "Competitiveness" type of the Four. At 18, Garrett broke completely with his father, moved to New York, and initially financed his studies at Juilliard under Itzhak Perlman through modeling jobs rather than remaining dependent on his father's control.</p>
+          <p class="vb-intro">He later described that step as the true birth of his artistic identity: only once he had escaped his father's foreign design for him could he begin playing music that was genuinely his own. No compromise, no half-measure – the Chihuahua knows no muted rebellion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Raw Intensity, Translated for Mass Appeal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing</strong> gives the Sexual Four a goal-directed, publicly effective note – unlike the more introverted, more withdrawn Five-wing variant. Garrett was among the first to combine classical virtuosity with rock and pop elements: he covered Metallica, Nirvana, and Michael Jackson on the violin, and with albums like "Rock Symphonies" brought a mass audience into classical concert halls that had rarely sat there before.</p>
+          <p class="vb-intro">In 2008, and again in 2011, he set the Guinness World Record for the fastest violin playing – "Flight of the Bumblebee" in just over a minute. Leather trousers instead of tails, long hair instead of a neat part: a deliberately staged rockstar aesthetic that translated his raw Four intensity into an image a mass audience could read, without giving up the classical substance behind it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Envy as a Claim to a Genre of One's Own</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Four is called <strong>envy</strong> – in the SX4 not as a quiet comparison, but as an immediate, competitive drive: one's own field of expression must be the most singular, the most unrepeatable. Garrett did not want to be the most talented among many classical violinists, but to create something that sat structurally between the existing categories – neither pure classical nor pure rock, but a third, self-invented language.</p>
+          <p class="vb-intro">Precisely in this refusal to be filed under an existing category, the core of the SX4 shows itself: recognition earned by the rules of someone else's genre counts for less than the creation of one's own, unmistakable space in which one's own intensity comes through undivided.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX4w3 shows in how Garrett built a fully self-determined artistic existence out of a controlled, other-directed childhood – and with it won a young audience for an instrument many had previously written off as dusty. The break from his father was not a loss, but the precondition for everything that followed.</p>
+          <p class="vb-intro">The shadow lies in the flip side of that same uncompromising stance: the public, often polarizing debate among classical purists over whether his crossover version of the violin betrays or rescues the art form still follows him today – a dispute the Sexual Four does not shy away from, because it is exactly what makes its own singularity visible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: A Violin That Accepted No Category</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">David Garrett remains the violinist who refused to choose between the concert hall and the rock stage – and who, precisely by doing so, showed an entire generation that a classical instrument need not be a closed world. His path from a father's control to a self-chosen stage identity remains his defining theme.</p>
+          <p class="vb-intro">The Chihuahua knows no half-measures – and it is exactly that uncompromising drive, with which Garrett created a name and a genre entirely his own, that remains the core of his impact today.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"beruehmte-chester-bennington", label:"Portrait: Chester Bennington (SX4w3)"},
+        {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
