@@ -1960,3 +1960,69 @@ export function borisGrundlPortraitPage() {
     </div>
   `);
 }
+
+export function chesterBenningtonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-chester-bennington-portrait.jpg" alt="Chester Bennington – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Chester Bennington</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Sänger von Linkin Park, 1976&ndash;2017 &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua, der seinen Schmerz nie verbarg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier: klein, aber von einer Intensität, die in keinem Verhältnis zur eigenen Größe steht – ganz oder gar nicht, niemals gedämpft. Chester Bennington wurde 1976 in Phoenix, Arizona, geboren. Zwischen seinem siebten und dreizehnten Lebensjahr wurde er von einem Bekannten der Familie sexuell missbraucht – ein Trauma, das er jahrelang verschwieg, aus Angst, verurteilt zu werden, statt Verständnis zu finden.</p>
+          <p class="vb-intro">Als Teenager entwickelte er eine schwere Methamphetamin- und Kokainabhängigkeit, mit der er versuchte, den Schmerz und die Einsamkeit zu betäuben. Der Chihuahua kennt kein gedämpftes Leiden – wenn der Schmerz da ist, ist er vollständig da, ungefiltert, bis er sich irgendwo entladen muss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Der eigene Schmerz als Ursprung, nicht als Zufall</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> sucht keine gedämpfte, private Verarbeitung des eigenen Leids, sondern die volle, ungebremste Intensität – Naranjo nannte diesen Subtyp den ›Konkurrenz‹-Typus der Vier: Das eigene Leiden wird nicht verglichen und relativiert, sondern als zutiefst eigener, fast schicksalhafter Teil der eigenen Existenz angenommen und nach außen entladen. Bennington schrieb fast durchgehend autobiografische Songtexte über Depression, Angst und Selbsthass.</p>
+          <p class="vb-intro">Gegenüber dem Rolling Stone beschrieb er seinen Songwriting-Ansatz mit den Worten: ›Ich bin der Grund, warum ich mich so fühle.‹ Keine Opferhaltung, sondern die volle Übernahme des eigenen Schmerzes als eigene, unteilbare Wahrheit – eine Haltung, die typisch ist für die Vier, aber bei der sexuellen Variante besonders schonungslos direkt formuliert wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Rohe Intensität, massenwirksam übersetzt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sexuellen Vier eine zielgerichtete, öffentlich wirksame Note – anders als die introvertiertere, stärker zurückgezogene Fünferflügel-Variante. Benningtons Stimme konnte, wie Weggefährten beschrieben, ›auf Knopfdruck‹ zwischen zerbrechlicher Verletzlichkeit und roher, entfesselter Wut wechseln – eine körperliche, unmittelbare Entladung, die live auf der Bühne stattfand, nicht hinter verschlossenen Türen.</p>
+          <p class="vb-intro">Genau diese Intensität wurde mit Linkin Park zu einem der kommerziell erfolgreichsten Rock-Acts der 2000er-Jahre – ›Crawling‹, ›In the End‹ wurden zu Hymnen für Millionen junger Menschen, die sich ausgeschlossen fühlten. Fred Durst beschrieb ihn so: Er habe jedem, mit dem er sprach, das Gefühl gegeben, gehört, verstanden und bedeutsam zu sein – die rohe Vierer-Intensität, übersetzt in breitenwirksame, verbindende Wirkung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Neid als kompromisslose Konkurrenz mit dem eigenen Leid</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Vier heißt <strong>Neid</strong> – bei der SX4 nicht als leiser Vergleich, sondern als unmittelbarer, oft konkurrierender Antrieb: die eigene Intensität muss die größtmögliche sein, das eigene Gefühl das echteste. Diese Haltung erklärt auch die außergewöhnliche Bindung zu Chris Cornell, mit dem ihn eine tiefe, alles überstrahlende Freundschaft verband – Bennington war Pate von Cornells Sohn.</p>
+          <p class="vb-intro">Als Cornell sich im Mai 2017 das Leben nahm, schrieb Bennington in einem offenen Brief, er könne sich ›keine Welt ohne Cornell‹ vorstellen, und sang bei dessen Beerdigung ›Hallelujah‹. Am 20. Juli 2017 – dem Geburtstag seines verstorbenen Freundes – nahm sich Chester Bennington im Alter von einundvierzig Jahren selbst das Leben. Die eine, alles bestimmende Verschmelzung wurde hier bis in den eigenen Tod hinein nachvollzogen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX4w3 zeigt sich darin, wie Bennington seine rohe, oft überwältigende Intensität in eine Kunst verwandelte, die Millionen Menschen half, sich mit ihrem eigenen Schmerz weniger allein zu fühlen. Seine Witwe Talinda gründete nach seinem Tod die Initiative ›320 Changes Direction‹, um die Stigmatisierung psychischer Erkrankungen abzubauen – eine direkte Fortführung seiner eigenen, ungewöhnlich offenen öffentlichen Auseinandersetzung mit Depression und Sucht.</p>
+          <p class="vb-intro">Der Schatten liegt in der Kehrseite derselben Intensität: Bennington kämpfte zeitlebens mit wiederkehrenden Rückfällen (2007, 2008, 2015–2016), und die Kluft zwischen seiner öffentlich ermutigenden, warmherzigen Persona und seiner privaten, oft überwältigenden Dunkelheit blieb bis zuletzt bestehen. Die sexuelle Vier lebt für die volle Intensität – aber genau diese Vollständigkeit kann, ohne ausreichende Stabilisierung, auch zur größten Gefahr werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Eine Stimme, die den Schmerz nie versteckte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Chester Bennington war einer der ehrlichsten Sänger seiner Generation, wenn es um psychische Gesundheit ging – er verbarg seine Kämpfe nie hinter einer makellosen Fassade, sondern machte sie zum Zentrum seiner Musik. Diese Offenheit gab Millionen von Hörerinnen und Hörern das Gefühl, mit ihrem eigenen Leid nicht allein zu sein.</p>
+          <p class="vb-intro">Der Chihuahua kennt keine halben Gefühle – und genau diese Kompromisslosigkeit, die Linkin Park zu einer der prägendsten Bands ihrer Zeit machte, war zugleich die Kraft, die Bennington bis zum letzten Tag seines Lebens forderte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-francisco-de-goya", label:"Porträt: Francisco de Goya (SX4w3)"},
+        {route:"beruehmte-voltaire", label:"Porträt: Voltaire (SX4w3)"},
+      ])}
+    </div>
+  `);
+}

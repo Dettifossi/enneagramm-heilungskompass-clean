@@ -1541,6 +1541,7 @@ export function voltairePortraitPage() {
         {route:"beruehmte-francisco-de-goya", label:"Portr\u00e4t: Francisco de Goya (SX4w3)"},
         {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
         {route:"krankheitsportraets-voltaire", label:"Krankheitsportr\u00e4t: Voltaire (SX4w3) \u2013 chronische Verdauungs- und Blasenleiden"},
+        {route:"beruehmte-chester-bennington", label:"Portr\u00e4t: Chester Bennington (SX4w3)"},
       ])}
     </div>
   `);

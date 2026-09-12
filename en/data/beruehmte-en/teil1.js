@@ -1540,6 +1540,7 @@ export function voltairePortraitPage() {
         {route:"beruehmte-arthur-rimbaud", label:"Portrait: Arthur Rimbaud (SX4w3)"},
         {route:"beruehmte-francisco-de-goya", label:"Portrait: Francisco de Goya (SX4w3)"},
         {route:"krankheitsportraets-voltaire", label:"Illness Portrait: Voltaire (SX4w3) – chronic digestive and bladder ailments"},
+        {route:"beruehmte-chester-bennington", label:"Portrait: Chester Bennington (SX4w3)"},
       ])}
     </div>
   `);

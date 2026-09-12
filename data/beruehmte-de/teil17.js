@@ -1619,6 +1619,7 @@ export function franciscoDeGoyaPortraitPage() {
         {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3)"},
         {route:"beruehmte-arthur-rimbaud", label:"Porträt: Arthur Rimbaud (SX4w3)"},
         {route:"krankheitsportraets-francisco-de-goya", label:"Krankheitsporträt: Francisco de Goya (SX4w3) – Ertaubung und letzte Krise"},
+        {route:"beruehmte-chester-bennington", label:"Porträt: Chester Bennington (SX4w3)"},
       ])}
     </div>
   `);

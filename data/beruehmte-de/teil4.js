@@ -572,6 +572,7 @@ export function freddieMercuryPortraitPage() {
         {route:"krankheitsportraets-freddie-mercury", label:"Krankheitsportr\u00e4t: Freddie Mercury (SX4w3)"},
         {route:"beruehmte-john-lennon", label:"Portr\u00e4t: John Lennon (SO4w5)"},
         {route:"beruehmte-voltaire", label:"Portr\u00e4t: Voltaire (SX4w3)"},
+        {route:"beruehmte-chester-bennington", label:"Portr\u00e4t: Chester Bennington (SX4w3)"},
       ])}
     </div>
   `);

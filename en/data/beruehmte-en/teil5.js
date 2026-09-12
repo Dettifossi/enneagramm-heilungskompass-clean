@@ -1960,3 +1960,69 @@ export function borisGrundlPortraitPage() {
     </div>
   `);
 }
+
+export function chesterBenningtonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-chester-bennington-portrait.jpg" alt="Chester Bennington – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Chester Bennington</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with a Three Wing</p>
+        <p class="krim-portrait-subtitle">Singer of Linkin Park, 1976–2017 – Animal correspondence: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua That Never Hid Its Pain</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chihuahua</strong> is the animal of the sexual Four: small, but with an intensity utterly disproportionate to its size – all or nothing, never dampened. Chester Bennington was born in 1976 in Phoenix, Arizona. Between the ages of seven and thirteen, he was sexually abused by a family acquaintance – a trauma he kept secret for years, afraid of being judged rather than understood.</p>
+          <p class="vb-intro">As a teenager he developed a severe methamphetamine and cocaine addiction, trying to numb his pain and loneliness. The chihuahua doesn't know muted suffering – when the pain is there, it's fully there, unfiltered, until it has to discharge somewhere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Four: One's Own Pain as Origin, Not Coincidence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Four (SX4)</strong> doesn't seek a muted, private processing of its own suffering, but full, unrestrained intensity – Naranjo called this subtype the "competitive" variant of the Four: one's own suffering isn't compared or relativized, but accepted as a deeply personal, almost fated part of one's own existence and discharged outward. Bennington wrote almost exclusively autobiographical lyrics about depression, fear, and self-loathing.</p>
+          <p class="vb-intro">He described his songwriting approach to Rolling Stone this way: "I'm the reason that I feel this way." Not a victim's stance, but the full ownership of one's own pain as one's own, indivisible truth – an attitude typical of the Four, but formulated with especially unsparing directness in the sexual variant.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three Wing: Raw Intensity, Translated for Mass Appeal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three wing (w3)</strong> gives the sexual Four a directed, publicly effective quality – unlike the more introverted, withdrawn Five-wing variant. Bennington's voice, as those around him described it, could switch "at the turn of a dime" between fragile vulnerability and raw, unleashed fury – a physical, immediate discharge that happened live on stage, not behind closed doors.</p>
+          <p class="vb-intro">This exact intensity, with Linkin Park, became one of the most commercially successful rock acts of the 2000s – "Crawling" and "In the End" became anthems for millions of young people who felt excluded. Fred Durst described him as someone who "had a way of making anyone he spoke to feel heard, understood and significant" – raw Four intensity, translated into broad, connective impact.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Envy as Uncompromising Competition With One's Own Suffering</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Four is called <strong>envy</strong> – for the SX4 not as quiet comparison, but as an immediate, often competitive drive: one's own intensity must be the greatest possible, one's own feeling the most genuine. This attitude also explains the extraordinary bond with Chris Cornell, with whom he shared a deep, all-eclipsing friendship – Bennington was godfather to Cornell's son.</p>
+          <p class="vb-intro">When Cornell took his own life in May 2017, Bennington wrote in an open letter that he "could not imagine a world without Cornell," and sang "Hallelujah" at his funeral. On July 20, 2017 – his late friend's birthday – Chester Bennington took his own life at the age of forty-one. The one, all-defining fusion was here carried through even into his own death.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX4w3 shows in how Bennington turned his raw, often overwhelming intensity into art that helped millions of people feel less alone with their own pain. His widow Talinda founded the initiative "320 Changes Direction" after his death to reduce the stigma around mental illness – a direct continuation of his own unusually open public engagement with depression and addiction.</p>
+          <p class="vb-intro">The shadow lies in the flip side of that same intensity: Bennington struggled throughout his life with recurring relapses (2007, 2008, 2015–2016), and the gap between his publicly encouraging, warm persona and his private, often overwhelming darkness remained until the end. The sexual Four lives for full intensity – but that very completeness, without sufficient stabilization, can also become its greatest danger.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: A Voice That Never Hid the Pain</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Chester Bennington was one of the most honest singers of his generation when it came to mental health – he never hid his struggles behind a flawless facade, but made them the center of his music. That openness gave millions of listeners the sense that they weren't alone with their own suffering.</p>
+          <p class="vb-intro">The chihuahua knows no half feelings – and that very refusal to compromise, which made Linkin Park one of the defining bands of its era, was also the force that demanded everything of Bennington to his final day.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-francisco-de-goya", label:"Portrait: Francisco de Goya (SX4w3)"},
+        {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
