@@ -1985,3 +1985,69 @@ export function haraldVPortraitPage() {
     </div>
   `);
 }
+
+export function ninaDobrevPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-nina-dobrev-portrait.jpg" alt="Nina Dobrev – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nina Dobrev</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with a Three-Wing</p>
+        <p class="krim-portrait-subtitle">Actress, born 1989 – Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever Who Held an Entire Set Together</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the Social Two: warm, irresistibly driven to win over an entire environment. Nina Dobrev was born in 1989 in Sofia, Bulgaria, and emigrated to Canada with her family at age two, growing up in Toronto. Her breakthrough came in 2009 as Elena Gilbert – and in a dual role as Katherine Pierce – in "The Vampire Diaries."</p>
+          <p class="vb-intro">Already during her six years on set, she was publicly described as one of the most approachable, warmest figures of her generation in Hollywood – someone who felt deeply connected to fans and colleagues alike. The Golden Retriever does not seek the one exclusive bond, but the warmth of an entire circle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Indispensable to the Group, Not to One Person</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Two (SO2)</strong> seeks significance not in a single, exclusive relationship, but in its indispensability to a larger collective. Naranjo called this subtype <em>Ambition</em>: the drive to make oneself irreplaceable through service to an entire group. When her real-life relationship with co-star Ian Somerhalder ended during ongoing production, Dobrev managed to continue the professional collaboration and on-screen chemistry without visible fallout – a loyalty to the entire ensemble and production placed above the private disappointment.</p>
+          <p class="vb-intro">Her public image is also marked by a strikingly large, tightly connected circle of friends from the film industry, with whom she regularly shares publicly visible outings. The Social Two feels strongest where it is noticeably important to an entire community – not in quiet togetherness with one person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Visible Success as Confirmation of One's Own Significance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing</strong> gives the Social Two a goal-directed, achievement-oriented note. Dobrev deliberately left "The Vampire Diaries" in 2015 after the sixth season at the show's peak to pursue new projects and a film career, rather than settling for an already established role. Beyond acting, she invested in several companies, including the fashion brand Represent, building a second, entrepreneurial foothold for herself.</p>
+          <p class="vb-intro">This combination of care for the group and visible, measurable success is typical of the SO2w3: significance arises not only through emotional closeness, but also through outwardly recognizable achievement that further underpins one's own indispensability.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Pride as the Need to Matter to Everyone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Two is called <strong>pride</strong> – the conviction of being indispensable to the success of the whole. In Dobrev this shows in her intense, publicly visible engagement with her fan base: she is regarded as one of the most accessible celebrities on social media, regularly interacting directly with followers rather than maintaining distance.</p>
+          <p class="vb-intro">This pride does not show as arrogance, but as a deeply rooted need to be noticeably present and important to as many people as possible at once – a drive that generates warmth, but also allows little pause from constant availability to others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Crisis as a Mirror: Vulnerability Shared Publicly</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2022, Dobrev suffered fractures to her spine in a dirt-biking accident. Rather than withdrawing to recover privately, she openly documented her healing process on social media – with photos from the hospital, honest accounts of setbacks, and a consistently positive, grateful tone toward her community.</p>
+          <p class="vb-intro">From an Enneagram perspective, this is not mere openness, but the pattern's logic at work: for the Social Two, even one's own vulnerability remains an occasion to deepen the connection to the group rather than withdraw from it – even in a hospital bed, the community remains the point of reference.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Warmth That Carried an Entire Fan Base</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nina Dobrev remains one of the actresses whose greatest strength lies not in acting craft alone, but in the ability to emotionally carry an entire ensemble, a fan base, and a professional network all at once. From "The Vampire Diaries" to her entrepreneurial projects, the same pattern recurs: success always understood as a shared achievement of a community.</p>
+          <p class="vb-intro">This is the Social Two with a Three-wing at its warmest: a Golden Retriever who does not seek its own significance in the one relationship, but in being noticeably indispensable to an entire environment.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-carl-weathers", label:"Portrait: Carl Weathers (SO2w3)"},
+        {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
+        {route:"beruehmte-usain-bolt", label:"Portrait: Usain Bolt (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
