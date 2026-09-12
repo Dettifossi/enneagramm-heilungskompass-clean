@@ -2030,7 +2030,7 @@ export function haraldLeschPortraitPage() {
 
         <h2 class="vb-section">4. Die Leidenschaft: Geiz als Schutz der eigenen, begrenzten Energie</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Fünf heißt <strong>Geiz</strong> – gemeint ist damit kein materieller Geiz, sondern das Zurückhalten der eigenen Energie, Zeit und Aufmerksamkeit vor allem, was diese knappe Ressource unnötig verbrauchen würde. Lesch lehnt öffentlichkeitswirksame, aber fachlich seichte Auftritte konsequent ab und investiert seine begrenzte Energie stattdessen in tief durchdachte, oft lange Erklärformate.</p>
+          <p class="vb-intro">Die Leidenschaft der Fünf heißt <strong>Geiz</strong> – gemeint ist damit nicht in erster Linie materieller Geiz, sondern das Zurückhalten der eigenen Energie, Zeit und Aufmerksamkeit vor allem, was diese knappe Ressource unnötig verbrauchen würde. Lesch lehnt öffentlichkeitswirksame, aber fachlich seichte Auftritte konsequent ab und investiert seine begrenzte Energie stattdessen in tief durchdachte, oft lange Erklärformate.</p>
           <p class="vb-intro">In viral gewordenen Fernsehmomenten wird er sichtbar emotional, wenn wissenschaftlicher Konsens durch Verschwörungstheorien oder Pseudowissenschaft infrage gestellt wird – eine der wenigen Situationen, in denen die sonst kontrollierte Eule ihre Zurückhaltung kurzzeitig aufgibt, weil ihr kostbarstes Gut, gesichertes Wissen, angegriffen wird.</p>
         </blockquote>
 

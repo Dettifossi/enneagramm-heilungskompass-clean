@@ -2032,7 +2032,7 @@ export function haraldLeschPortraitPage() {
 
         <h2 class="vb-section">4. The Passion: Avarice as Protection of One's Own Limited Energy</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of the Five is called <strong>avarice</strong> – not material stinginess, but the holding back of one's own energy, time, and attention from anything that would needlessly consume this scarce resource. Lesch consistently declines media-effective but professionally shallow appearances, investing his limited energy instead in deeply thought-out, often lengthy explanatory formats.</p>
+          <p class="vb-intro">The passion of the Five is called <strong>avarice</strong> – not primarily material stinginess, but the holding back of one's own energy, time, and attention from anything that would needlessly consume this scarce resource. Lesch consistently declines media-effective but professionally shallow appearances, investing his limited energy instead in deeply thought-out, often lengthy explanatory formats.</p>
           <p class="vb-intro">In television moments that went viral, he becomes visibly emotional when scientific consensus is challenged by conspiracy theories or pseudoscience – one of the few situations in which the otherwise controlled owl briefly abandons its restraint, because its most precious asset, secured knowledge, is under attack.</p>
         </blockquote>
 
