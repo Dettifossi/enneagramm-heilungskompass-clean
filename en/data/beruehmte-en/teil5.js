@@ -1985,7 +1985,7 @@ export function chesterBenningtonPortraitPage() {
         <h2 class="vb-section">2. The Sexual Four: One's Own Pain as Origin, Not Coincidence</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>sexual Four (SX4)</strong> doesn't seek a muted, private processing of its own suffering, but full, unrestrained intensity – Naranjo called this subtype the "competitive" variant of the Four: one's own suffering isn't compared or relativized, but accepted as a deeply personal, almost fated part of one's own existence and discharged outward. Bennington wrote almost exclusively autobiographical lyrics about depression, fear, and self-loathing.</p>
-          <p class="vb-intro">He described his songwriting approach to Rolling Stone this way: "I'm the reason that I feel this way." Not a victim's stance, but the full ownership of one's own pain as one's own, indivisible truth – an attitude typical of the Four, but formulated with especially unsparing directness in the sexual variant.</p>
+          <p class="vb-intro">He described his songwriting approach to Rolling Stone this way: "I'm the reason that I feel this way." Not a victim's stance, but the full ownership of one's own pain as one's own, indivisible truth – an attitude typical of the Four, but formulated with especially unsparing directness in the sexual variant (an expression of what's called introjection, the Four's psychological defense mechanism: the opposite of projection – guilt and responsibility aren't shifted outward, but, when in doubt, consistently sought within oneself).</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Three Wing: Raw Intensity, Translated for Mass Appeal</h2>
