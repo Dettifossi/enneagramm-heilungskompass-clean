@@ -1984,7 +1984,7 @@ export function eddieRedmaynePortraitPage() {
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Das Gürteltier, das seine Lese-Unsicherheit zur Bühne machte</h2>
+        <h2 class="vb-section">1. Das Gürteltier, das seine Leseunsicherheit zur Bühne machte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier: Es trägt seine Andersartigkeit sichtbar nach außen, während es zugleich einen inneren Kern schützt, der nicht jedem zugänglich ist. Eddie Redmayne wurde 1982 in London geboren, besuchte das Eton College – in derselben Klasse wie Prinz William – und studierte anschließend Kunstgeschichte am Trinity College in Cambridge. Schon als Kind erhielt er auf Wunsch seiner Eltern Schauspielunterricht und trat bereits 1994 im National Youth Music Theatre in einer von Sam Mendes inszenierten Produktion von ›Oliver!‹ am London Palladium auf.</p>
           <p class="vb-intro">Zeit seines Lebens lebte er mit einer Lese-Rechtschreib-Schwäche, über die er offen sprach und der er sich später als Botschafter der Organisation Dyslexia Action widmete. Das Gürteltier verbirgt seine Verwundbarkeit nicht – es macht sie zum Ausgangspunkt einer eigenen, unverwechselbaren Bahn.</p>
@@ -2017,7 +2017,7 @@ export function eddieRedmaynePortraitPage() {
         <h2 class="vb-section">6. Das Vermächtnis: Andersartigkeit als Handwerk</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Eddie Redmayne lebt mit seiner Frau Hannah Bagshawe und den gemeinsamen Kindern – ein privater Anker neben einer Karriere, die sich durchgehend den Rändern menschlicher Erfahrung widmet, statt der sicheren Mitte.</p>
-          <p class="vb-intro">Vom lese-unsicheren Kind mit früher Bühnenerfahrung zum Oscar-prämierten Darsteller gesellschaftlicher Außenseiterfiguren: Das Gürteltier hat seine eigene Verwundbarkeit nie versteckt, sondern zum präzisesten Werkzeug seines Handwerks gemacht.</p>
+          <p class="vb-intro">Vom leseunsicheren Kind mit früher Bühnenerfahrung zum Oscar-prämierten Darsteller gesellschaftlicher Außenseiterfiguren: Das Gürteltier hat seine eigene Verwundbarkeit nie versteckt, sondern zum präzisesten Werkzeug seines Handwerks gemacht.</p>
         </blockquote>
 
       </div>
