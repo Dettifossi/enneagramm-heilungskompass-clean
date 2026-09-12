@@ -1959,3 +1959,69 @@ export function michaelBerrymanPortraitPage() {
     </div>
   `);
 }
+
+export function susanLinkPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-susan-link-portrait.jpg" alt="Susan Link – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Susan Link</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Fernsehmoderatorin, geb. 1976 &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der sich in jedem Studio zurechtfand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei: anpassungsfähig, tüchtig, in ständiger, ruhiger Bewegung, ohne dabei laut aufzufallen. Susan Link wurde 1976 in Pößneck in Thüringen geboren; nach dem Mauerfall zog sie mit ihrer Mutter nach Wuppertal, wo sie später Germanistik studierte. 1998 begann ihre berufliche Laufbahn bei Radio Wuppertal – zunächst als Volontärin, dann als Moderatorin.</p>
+          <p class="vb-intro">Von 2002 bis 2011 arbeitete sie bei Radio NRW als Moderatorin und Redakteurin, bevor sie zum Fernsehen wechselte. Der Waschbär verändert sein Revier, sobald sich eine bessere Gelegenheit bietet – nicht aus Unruhe, sondern aus der stillen Gewissheit, dass er sich überall zurechtfinden wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Verlässlichkeit als Existenzgrundlage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> sucht ihren Wert nicht in großer öffentlicher Bewunderung, sondern in stetiger, praktischer Tüchtigkeit – Naranjo nannte diesen Subtyp den ›Sicherheitstyp‹: Status wird über nachweisbare Kompetenz und beständige Arbeit gesichert, nicht über Glanz. Seit 2011 gehört Susan Link zum Moderatorenteam des ARD-Morgenmagazins, zunächst als Redakteurin, seit August 2012 im wöchentlichen Wechsel als Moderatorin – eine der frühesten, unglamourösesten Sendezeiten des deutschen Fernsehens, verlässlich Jahr für Jahr bespielt.</p>
+          <p class="vb-intro">Von 2017 bis 2019 moderierte sie zusätzlich gemeinsam mit Kim Fisher die MDR-Talkshow ›Riverboat‹, ab 2023 wurde sie Teil des Moderatorenteams beim ›Presseclub‹ neben Jörg Schönenborn und Ellen Ehni. Kein einzelner großer Durchbruch, sondern eine kontinuierlich wachsende Liste verlässlich ausgefüllter Formate – die typische SE3-Karriere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Nähe zum Publikum als Erfolgsformel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der selbsterhaltenden Drei eine warme, zugewandte Note – anders als die kühlere, rein sachorientierte Fünferflügel-Variante. Seit Juli 2017 moderiert Link gemeinsam mit Micky Beisenherz den ›Kölner Treff‹, ein Gesprächsformat, das von persönlicher Nähe zu den Gästen lebt, nicht von Konfrontation. Mit ihrem Ehemann produziert sie zudem den Podcast ›Gintonicundeierlikoer‹ – ein sehr persönliches, geselliges Format abseits der großen Bühne.</p>
+          <p class="vb-intro">Als Frank Plasberg krankheitsbedingt ausfiel, sprang Link als Vertretung bei ›Hart aber fair‹ ein – die SE3w2 in Reinform: verlässlich einspringen, wenn sie gebraucht wird, mit persönlicher Wärme, aber ohne die Rolle für sich zu beanspruchen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Eitelkeit als beständige Selbstoptimierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Drei heißt <strong>Eitelkeit</strong> – bei der SE3 nicht als Geltungssucht, sondern als ständige, praktische Sorge um die eigene Funktionsfähigkeit: Bin ich vorbereitet? Funktioniere ich? Werde ich gebraucht? Links Weg von der Lokalradio-Volontärin bis zum festen Bestandteil dreier bundesweiter Formate zeigt genau dieses Muster – kontinuierliche, unauffällige Leistungssteigerung statt eines einzelnen inszenierten Höhepunkts.</p>
+          <p class="vb-intro">Der Zweierflügel lenkt diese Sorge nach außen: Nicht nur die eigene Funktionsfähigkeit zählt, sondern auch, ob sich Gäste und Publikum bei ihr wohlfühlen – eine Eitelkeit, die sich in gepflegter Beziehungsarbeit äußert, nicht in reiner Selbstdarstellung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 zeigt sich in einer über fast dreißig Jahre gewachsenen Vertrauensstellung im deutschen Fernsehen: von Lokalradio bis zum ›Presseclub‹, einem der renommiertesten politischen Diskussionsformate der ARD – erreicht ohne einen einzigen viralen Skandalmoment, sondern durch beständige, kompetente Präsenz.</p>
+          <p class="vb-intro">Der Schatten liegt in der Gefahr, die eigene Identität so vollständig an die Funktion zu binden, dass private Räume – wie der gemeinsame Podcast mit ihrem Ehemann – zur einzigen verbleibenden Nische werden, in der die Rolle einmal abgelegt werden darf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Verlässlichkeit als eigene Handschrift</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Susan Link lebt mit ihrem Mann und ihrem Sohn in Köln – ein bewusst gewählter privater Ankerpunkt neben einer Karriere, die sich über Jahrzehnte durch stetiges Funktionieren statt spektakuläre Einzelmomente auszeichnet.</p>
+          <p class="vb-intro">Vom Lokalradio in Wuppertal bis zur Vertretung bei ›Hart aber fair‹: Der Waschbär hat sich nie auf ein einziges Revier festgelegt, sondern in jedem neuen Format bewiesen, dass Anpassungsfähigkeit und Verlässlichkeit selbst zur eigenen, unverwechselbaren Marke werden können.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Porträt: Wolodymyr Selenskyj (SE3w2)"},
+        {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
+        {route:"beruehmte-klara-von-assisi", label:"Porträt: Klara von Assisi (SE3w2)"},
+      ])}
+    </div>
+  `);
+}

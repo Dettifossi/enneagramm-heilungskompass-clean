@@ -1642,6 +1642,7 @@ export function wolodymyrSelenskyjPortraitPage() {
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
         {route:"kriminalpsychologie-pablo-escobar", label:"Criminal case: Pablo Escobar (SE3w4)"},
         {route:"beruehmte-olena-zelenska", label:"Portrait: Olena Zelenska (SX6w7) – his wife"},
+        {route:"beruehmte-susan-link", label:"Portrait: Susan Link (SE3w2)"},
       ])}
     </div>
   `);

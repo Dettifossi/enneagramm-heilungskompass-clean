@@ -914,6 +914,7 @@ export function klaraVonAssisiPortraitPage() {
         {route:"beruehmte-tim-maelzer", label:"Porträt: Tim Mälzer (SE3w2)"},
         {route:"beruehmte-michael-dell", label:"Porträt: Michael Dell (SE3w2)"},
         {route:"beruehmte-franz-von-assisi", label:"Porträt: Franz von Assisi (SO7w6) – Weggefährte"},
+        {route:"beruehmte-susan-link", label:"Porträt: Susan Link (SE3w2)"},
       ])}
     </div>
   `);
@@ -1353,6 +1354,7 @@ export function sadhguruPortraitPage() {
         {route:"subtype/se3", label:"SE3 \u2013 Der Waschb\u00e4r: Subtyp-Profil"},
         {route:"beruehmte-joseph-haydn", label:"Portr\u00e4t: Joseph Haydn (SE3w2)"},
         {route:"krankheitsportraets-sadhguru", label:"Krankheitsportr\u00e4t: Sadhguru (SE3w2) \u2013 chronisches subdurales H\u00e4matom"},
+        {route:"beruehmte-susan-link", label:"Portr\u00e4t: Susan Link (SE3w2)"},
       ])}
     </div>
   `);

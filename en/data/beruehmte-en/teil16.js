@@ -1964,3 +1964,69 @@ export function michaelBerrymanPortraitPage() {
     </div>
   `);
 }
+
+export function susanLinkPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-susan-link-portrait.jpg" alt="Susan Link – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Susan Link</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Self-Preservation Type 3 with a Two Wing</p>
+        <p class="krim-portrait-subtitle">Television presenter, born 1976 – Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon Who Found Its Footing in Every Studio</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three: adaptable, capable, in constant, calm motion without ever drawing loud attention. Susan Link was born in 1976 in Pößneck, Thuringia; after the fall of the Berlin Wall she moved with her mother to Wuppertal, where she later studied German. In 1998 her professional career began at Radio Wuppertal – first as a trainee, then as a presenter.</p>
+          <p class="vb-intro">From 2002 to 2011 she worked at Radio NRW as a presenter and editor before moving into television. The raccoon changes its territory as soon as a better opportunity arises – not out of restlessness, but out of the quiet certainty that it will find its footing anywhere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Reliability as a Foundation for Existence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> seeks its worth not in great public admiration but in steady, practical competence – Naranjo called this subtype the "security type": status is secured through demonstrable skill and consistent work, not through glamour. Since 2011, Susan Link has been part of the presenter team of the ARD Morgenmagazin, initially as an editor, and since August 2012 alternating weekly as a presenter – one of German television's earliest, least glamorous time slots, reliably filled year after year.</p>
+          <p class="vb-intro">From 2017 to 2019 she additionally co-hosted the MDR talk show "Riverboat" with Kim Fisher, and from 2023 she joined the presenter team of "Presseclub" alongside Jörg Schönenborn and Ellen Ehni. Not a single big breakthrough, but a continuously growing list of reliably filled formats – the typical SE3 career.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two Wing: Closeness to the Audience as a Formula for Success</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> gives the self-preservation Three a warm, personable quality – unlike the cooler, purely task-focused Five-wing variant. Since July 2017, Link has co-hosted "Kölner Treff" with Micky Beisenherz, a conversation format that thrives on personal closeness with its guests rather than confrontation. With her husband, she also produces the podcast "Gintonicundeierlikoer" – a very personal, sociable format away from the main stage.</p>
+          <p class="vb-intro">When Frank Plasberg was unable to appear due to illness, Link stepped in as his substitute on "Hart aber fair" – the SE3w2 in its purest form: reliably filling in when needed, with personal warmth, but without claiming the role for herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Vanity as Constant Self-Improvement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Three is called <strong>vanity</strong> – for the SE3 not as a craving for attention, but as a constant, practical concern with one's own functioning: Am I prepared? Am I performing well? Am I needed? Link's path from local-radio trainee to a fixed part of three nationwide formats shows exactly this pattern – continuous, unassuming improvement rather than a single staged high point.</p>
+          <p class="vb-intro">The Two wing directs this concern outward: it's not only her own functioning that counts, but also whether guests and audience feel comfortable around her – a vanity that expresses itself through cultivated relationship work, not pure self-display.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE3w2 shows in a position of trust built up over nearly thirty years in German television: from local radio to "Presseclub," one of the ARD's most respected political discussion formats – reached without a single viral scandal moment, through steady, competent presence instead.</p>
+          <p class="vb-intro">The shadow lies in the risk of tying one's identity so completely to one's function that private spaces – like the shared podcast with her husband – become the only remaining niche where the role can be set aside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Reliability as Its Own Signature</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Susan Link lives with her husband and son in Cologne – a deliberately chosen private anchor alongside a career marked, over decades, by steady functioning rather than spectacular single moments.</p>
+          <p class="vb-intro">From local radio in Wuppertal to standing in for "Hart aber fair": the raccoon never settled on a single territory, but proved in every new format that adaptability and reliability can themselves become an unmistakable personal brand.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Volodymyr Zelenskyy (SE3w2)"},
+        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
+        {route:"beruehmte-klara-von-assisi", label:"Portrait: Clare of Assisi (SE3w2)"},
+      ])}
+    </div>
+  `);
+}

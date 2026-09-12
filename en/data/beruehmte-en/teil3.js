@@ -914,6 +914,7 @@ export function klaraVonAssisiPortraitPage() {
         {route:"beruehmte-tim-maelzer", label:"Portrait: Tim Mälzer (SE3w2)"},
         {route:"beruehmte-michael-dell", label:"Portrait: Michael Dell (SE3w2)"},
         {route:"beruehmte-franz-von-assisi", label:"Portrait: Francis of Assisi (SO7w6) – companion"},
+        {route:"beruehmte-susan-link", label:"Portrait: Susan Link (SE3w2)"},
       ])}
     </div>
   `);
@@ -1353,6 +1354,7 @@ export function sadhguruPortraitPage() {
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SE3w2)"},
         {route:"krankheitsportraets-sadhguru", label:"Illness Portrait: Sadhguru (SE3w2) – chronic subdural hematoma"},
+        {route:"beruehmte-susan-link", label:"Portrait: Susan Link (SE3w2)"},
       ])}
     </div>
   `);
