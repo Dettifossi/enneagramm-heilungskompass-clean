@@ -1994,3 +1994,69 @@ export function idaPfeifferPortraitPage() {
     </div>
   `);
 }
+
+export function alainDelonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alain-delon-portrait.jpg" alt="Alain Delon – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alain Delon</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltender Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, 1935&ndash;2024 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der sich seine eigene Disziplin auferlegte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins: kein Bedürfnis nach Beifall, nur der eigene, unerbittliche Maßstab. Alain Delon wurde 1935 in Sceaux bei Paris geboren, seine Eltern ließen sich scheiden, als er vier war; er wuchs in wechselnden Pflegefamilien und bei Verwandten auf, wurde aus mehreren Schulen geworfen und trat mit siebzehn in die französische Marine ein, wo er im Indochinakrieg diente.</p>
+          <p class="vb-intro">1957 wurde er in Cannes entdeckt, doch der eigentliche Durchbruch kam erst mit strenger, selbst auferlegter Disziplin: Delon galt als extrem anspruchsvoll gegenüber der eigenen Arbeit, wählte Rollen mit großer Sorgfalt aus und verlangte von Regisseuren wie von sich selbst dieselbe Kompromisslosigkeit. Der Adler kreiste nicht aus Zufall über den größten Rollen des französischen Kinos – er hatte seinen eigenen Kurs längst festgelegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Perfektion als eigener, unverhandelbarer Anspruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> trägt ihren Perfektionismus nicht nach außen, sondern arbeitet sich an der eigenen Vorbereitung und Integrität ab. Naranjo nannte diesen Subtyp <em>Worry</em> – Besorgnis: die ständige innere Frage, ob man dem eigenen Standard wirklich gerecht wird. Delons kontrollierte, oft eiskalt wirkende Leinwandpräsenz – am reinsten sichtbar in Jean-Pierre Melvilles ›Le Samouraï‹ (1967), in dem er einen Auftragskiller mit fast klösterlicher Selbstdisziplin spielt – war keine bloße Schauspielleistung, sondern spiegelte seine eigene, streng kontrollierte Art zu leben.</p>
+          <p class="vb-intro">Er selbst betonte in Interviews wiederholt, wie wichtig ihm Aufrichtigkeit und Ehrenkodex seien – Werte, die er von sich selbst und von anderen kompromisslos einforderte. Diese innere Strenge war nie Show: Sie war der Maßstab, an dem er sein gesamtes Leben und seine Karriere ausrichtete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme im engen Kreis statt öffentlicher Vereinnahmung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> öffnet die innerlich kontrollierte SE1-Energie nach außen – nicht als breite, öffentliche Zuwendung, sondern als tiefe Loyalität gegenüber einem sehr kleinen, ausgewählten Kreis. Bei Delon zeigte sich das am deutlichsten in seiner lebenslangen, fast bedingungslosen Bindung an seine Hunde: Über Jahrzehnte hielt er zahlreiche Tiere, sprach öffentlich von ihnen mit einer Zärtlichkeit, die er Menschen gegenüber selten zeigte, und äußerte den Wunsch, auf seinem eigenen Anwesen gemeinsam mit ihnen begraben zu werden.</p>
+          <p class="vb-intro">Auch in seinen wenigen, aber sehr engen Freundschaften – etwa zu seinem langjährigen Schauspielkollegen Jean-Paul Belmondo, mit dem er sich nach jahrzehntelanger Funkstille demonstrativ wieder versöhnte – zeigte sich dieselbe Struktur: keine breite öffentliche Wärme, sondern eine Treue, die sich auf wenige, sorgfältig gewählte Bindungen konzentrierte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Zorn als Anspruch an Aufrichtigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> – bei der SE1w2 richtet er sich vor allem gegen Unaufrichtigkeit, Verrat und Halbherzigkeit, sowohl bei sich selbst als auch bei anderen. Delon galt als jemand, der Schwäche oder Illoyalität in seinem engsten Kreis nicht duldete und öffentlich klare, oft schroffe Urteile über Menschen fällte, die diesen Kodex verletzten.</p>
+          <p class="vb-intro">1968 geriet er in den sogenannten Markovic-Skandal, benannt nach seinem ehemaligen Leibwächter, der ermordet aufgefunden wurde – Delon wurde nie angeklagt, doch der Verdacht begleitete ihn jahrzehntelang. Er reagierte darauf nicht mit öffentlicher Verteidigung oder Selbstmitleid, sondern mit stoischer Zurückhaltung – dieselbe innere Disziplin, mit der er auch seine Rollen führte, wurde hier zur einzigen sichtbaren Reaktion auf einen Verdacht, den er nie ganz loswurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Krise als Spiegel: Kontrolle bis zum Schluss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die SE1w2 hat eine Schwachstelle: Sie kann eigene Verletzlichkeit so konsequent hinter Kontrolle verbergen, dass sie selbst im Angesicht von Krankheit und Alter kaum sichtbar wird. Nach einem Schlaganfall 2019 und einer späteren Leukämie-Diagnose zog sich Delon zunehmend aus der Öffentlichkeit zurück, ohne öffentlich zu klagen – seine letzten Lebensjahre verbrachte er weitgehend zurückgezogen auf seinem Anwesen in Douchy, umgeben von seinen Hunden.</p>
+          <p class="vb-intro">Aus Enneagramm-Perspektive ist das keine bloße Zurückhaltung, sondern die Konsequenz des Musters: Für die SE1w2 zählt die eigene Würde und Kontrolle über das eigene Bild mehr als das Bedürfnis, öffentlich Mitgefühl einzufordern. Er starb am 18. August 2024 im Alter von 88 Jahren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Kontrollierte Kälte, die Wärme nur im engsten Kreis zeigte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Alain Delon bleibt eine der prägendsten Figuren des europäischen Kinos – nicht wegen einer lauten Bühnenpräsenz, sondern wegen einer kontrollierten, fast undurchdringlichen Präsenz, die Generationen von Schauspielern beeinflusste. Filme wie ›Plein Soleil‹, ›Rocco und seine Brüder‹ und ›Der Leopard‹ bleiben Referenzpunkte eines Schauspielstils, der Zurückhaltung zur eigenen Kunstform machte.</p>
+          <p class="vb-intro">Das ist die selbsterhaltende Eins mit Zweierflügel in ihrer reinsten Form: eine Fassade aus Disziplin und Kontrolle, unter der eine tiefe, aber streng bewachte Zuneigung lag – sichtbar nicht für die breite Öffentlichkeit, sondern nur für die wenigen, die dazugehören durften.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-tim-cook", label:"Porträt: Tim Cook (SE1w9)"},
+      ])}
+    </div>
+  `);
+}

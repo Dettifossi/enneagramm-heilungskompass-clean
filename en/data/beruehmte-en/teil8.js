@@ -1983,3 +1983,69 @@ export function idaPfeifferPortraitPage() {
     </div>
   `);
 }
+
+export function alainDelonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alain-delon-portrait.jpg" alt="Alain Delon – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alain Delon</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation Type 1 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">Actor, 1935&ndash;2024 – Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle Who Imposed His Own Discipline</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is the animal of the Self-Preservation One: no need for applause, only its own unrelenting standard. Alain Delon was born in 1935 in Sceaux, near Paris; his parents divorced when he was four, and he grew up in changing foster families and with relatives, was expelled from several schools, and at seventeen joined the French Navy, serving during the Indochina War.</p>
+          <p class="vb-intro">He was discovered at Cannes in 1957, but his real breakthrough came only through strict, self-imposed discipline: Delon was known as extremely demanding of his own work, chose roles with great care, and required the same uncompromising standard from directors as from himself. The eagle did not circle above French cinema's greatest roles by chance – it had long since set its own course.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Perfection as One's Own, Non-Negotiable Standard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation One (SE1)</strong> carries its perfectionism not outward, but works at its own preparation and integrity. Naranjo called this subtype <em>Worry</em>: the constant inner question of whether one truly lives up to one's own standard. Delon's controlled, often ice-cold screen presence – seen most purely in Jean-Pierre Melville's "Le Samouraï" (1967), where he plays a contract killer with an almost monastic self-discipline – was not mere acting, but reflected his own strictly controlled way of living.</p>
+          <p class="vb-intro">He himself repeatedly stressed in interviews how important honesty and a code of honor were to him – values he demanded uncompromisingly of himself and of others. This inner strictness was never a performance: it was the standard by which he measured his entire life and career.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Warmth Within a Close Circle, Not Public Embrace</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> opens the inwardly controlled SE1 energy outward – not as broad, public warmth, but as deep loyalty toward a very small, chosen circle. In Delon this showed most clearly in his lifelong, almost unconditional attachment to his dogs: for decades he kept numerous animals, spoke of them publicly with a tenderness he rarely showed toward people, and expressed the wish to be buried alongside them on his own estate.</p>
+          <p class="vb-intro">The same structure also showed in his few but very close friendships – such as with his longtime fellow actor Jean-Paul Belmondo, with whom he demonstratively reconciled after decades of silence between them: not broad public warmth, but a loyalty concentrated on a few, carefully chosen bonds.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Anger as a Demand for Honesty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the One is called <strong>anger</strong> – in the SE1w2 it is directed above all against dishonesty, betrayal, and half-heartedness, both in himself and in others. Delon was known as someone who did not tolerate weakness or disloyalty within his closest circle and publicly passed clear, often harsh judgments on people who violated this code.</p>
+          <p class="vb-intro">In 1968 he became entangled in the so-called Markovic scandal, named after his former bodyguard, who was found murdered – Delon was never charged, but suspicion followed him for decades. He responded not with public defense or self-pity, but with stoic reserve – the same inner discipline he brought to his roles became his only visible reaction to a suspicion he never fully shed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Crisis as a Mirror: Control to the End</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The SE1w2 has a weak spot: it can hide its own vulnerability behind control so consistently that it remains nearly invisible even in the face of illness and old age. After a stroke in 2019 and a later leukemia diagnosis, Delon withdrew increasingly from public life without public complaint – he spent his final years largely in seclusion on his estate in Douchy, surrounded by his dogs.</p>
+          <p class="vb-intro">From an Enneagram perspective, this is not mere reserve, but the pattern's logic at work: for the SE1w2, one's own dignity and control over one's own image matter more than the need to publicly demand compassion. He died on August 18, 2024, at the age of 88.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Controlled Coolness That Showed Warmth Only Within the Closest Circle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Alain Delon remains one of the most defining figures of European cinema – not because of a loud stage presence, but because of a controlled, almost impenetrable presence that influenced generations of actors. Films like "Purple Noon," "Rocco and His Brothers," and "The Leopard" remain reference points for an acting style that turned restraint into its own art form.</p>
+          <p class="vb-intro">This is the Self-Preservation One with a Two-wing at its purest: a facade of discipline and control, beneath which lay a deep but strictly guarded affection – visible not to the general public, but only to the few allowed to belong.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
+        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
