@@ -1994,3 +1994,67 @@ export function louiseHayPortraitPage() {
     </div>
   `);
 }
+
+export function haraldLeschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-harald-lesch-portrait.jpg" alt="Harald Lesch – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Harald Lesch</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Astrophysiker, Wissenschaftskommunikator, geb. 1960 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule, die sich weigerte, Wissenschaft zu vereinfachen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier der selbsterhaltenden Fünf: Sie hortet ihr Wissen, bis es wirklich tragfähig ist, und zeigt sich erst dann, wenn nichts mehr fehlt. Harald Lesch, geboren 1960 in Gießen, studierte Physik, Mathematik und Philosophie und ist seit 1995 Professor für theoretische Astrophysik an der Ludwig-Maximilians-Universität München – zusätzlich hält er einen Lehrstuhl für Naturphilosophie an der Hochschule für Philosophie München, einer von Jesuiten getragenen Einrichtung.</p>
+          <p class="vb-intro">Von 1998 bis 2015 moderierte er über 200 Folgen von ›alpha-Centauri‹, in denen er komplexe physikalische Fragen in aller Ausführlichkeit erklärte, statt sie auf Schlagzeilenformat zu kürzen. Die Eule zeigt sich erst, wenn die Erklärung vollständig ist – nicht früher.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Fünf: Wissen horten, bis es tragfähig ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Fünf (SE5)</strong> zieht sich zurück, um ihre begrenzten inneren Ressourcen zu schützen – sie gibt nichts preis, das nicht restlos durchdacht ist. Lesch gilt als notorisch akribisch in der Vorbereitung seiner Sendungen und Vorträge und äußert sich in Interviews wiederholt frustriert über oberflächliche, verkürzende Medienformate, die komplexe wissenschaftliche Sachverhalte auf plakative Halbwahrheiten reduzieren.</p>
+          <p class="vb-intro">Über sein Privatleben spricht er trotz jahrzehntelanger Fernsehpräsenz auffällig wenig – anders als viele Fernsehpersönlichkeiten seiner Bekanntheit hält er seine Familie konsequent aus der Öffentlichkeit heraus. Die selbsterhaltende Fünf teilt ihre kostbare innere Energie nur dort, wo sie es für unbedingt notwendig hält – im fachlichen Vortrag, nicht im privaten Bekenntnis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Wachsamkeit vor der Katastrophe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> verstärkt bei der Fünf das Bedürfnis nach Absicherung und die Wachsamkeit gegenüber Gefahren, die andere noch nicht sehen. Bei Lesch zeigt sich das in seinem jahrzehntelangen, unermüdlichen öffentlichen Engagement zu Klimawandel, Ressourcenknappheit und den Grenzen des Wirtschaftswachstums – Themen, bei denen er immer wieder eindringlich vor gesellschaftlichen und ökologischen Kipppunkten warnt, lange bevor sie im öffentlichen Bewusstsein angekommen waren.</p>
+          <p class="vb-intro">Auch sein zusätzlicher Lehrstuhl für Naturphilosophie an einer kirchlich getragenen Institution zeigt diese Sechser-Note: eine bewusst gewählte, institutionell abgesicherte Verankerung in einem traditionsreichen, verlässlichen Rahmen, statt sich ausschließlich der ungebundenen, medialen Wissenschaftskommunikation auszusetzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Geiz als Schutz der eigenen, begrenzten Energie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Fünf heißt <strong>Geiz</strong> – gemeint ist damit kein materieller Geiz, sondern das Zurückhalten der eigenen Energie, Zeit und Aufmerksamkeit vor allem, was diese knappe Ressource unnötig verbrauchen würde. Lesch lehnt öffentlichkeitswirksame, aber fachlich seichte Auftritte konsequent ab und investiert seine begrenzte Energie stattdessen in tief durchdachte, oft lange Erklärformate.</p>
+          <p class="vb-intro">In viral gewordenen Fernsehmomenten wird er sichtbar emotional, wenn wissenschaftlicher Konsens durch Verschwörungstheorien oder Pseudowissenschaft infrage gestellt wird – eine der wenigen Situationen, in denen die sonst kontrollierte Eule ihre Zurückhaltung kurzzeitig aufgibt, weil ihr kostbarstes Gut, gesichertes Wissen, angegriffen wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Krise als Spiegel: Wenn die Eule laut wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die SE5w6 hat eine Schwachstelle: Ihre sonst so kontrollierte Zurückhaltung kann in offenen Ärger umschlagen, wenn eine Bedrohung ihres Wissensfundaments unmittelbar spürbar wird. Mehrere von Leschs Fernsehauftritten, in denen er sich sichtlich erregt gegen Klimawandelleugnung oder unwissenschaftliche Behauptungen wendet, verbreiteten sich viral im Internet – ein für die sonst so gefasste Eule ungewöhnlicher Kontrollverlust.</p>
+          <p class="vb-intro">Aus Enneagramm-Perspektive ist das keine Inkonsequenz, sondern die Konsequenz des Musters: Für die SE5w6 ist verlässliches, geprüftes Wissen die eigentliche Sicherheit – wird sie durch Falschbehauptungen untergraben, reagiert selbst die zurückhaltendste Eule mit unverstellter Vehemenz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Tiefe statt Verkürzung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Harald Lesch bleibt einer der einflussreichsten Wissenschaftskommunikatoren des deutschsprachigen Raums – nicht, weil er sich dem Tempo und der Verkürzung des Fernsehformats anpasste, sondern weil er beharrlich auf Tiefe bestand. Mit ›alpha-Centauri‹, ›Leschs Kosmos‹ und zahllosen Beiträgen für ›Terra X‹ erreichte er Millionen Menschen mit einer Gründlichkeit, die im Fernsehen selten geworden ist.</p>
+          <p class="vb-intro">Das ist die selbsterhaltende Fünf mit Sechserflügel in ihrer reinsten Form: eine Eule, die ihr Wissen nicht leichtfertig preisgibt, sondern nur dann, wenn es vollständig durchdacht ist – und die genau dann laut wird, wenn dieses mühsam gesicherte Wissen selbst infrage gestellt wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"beruehmte-carl-friedrich-gauss", label:"Porträt: Carl Friedrich Gauß (SE5w6)"},
+      ])}
+    </div>
+  `);
+}

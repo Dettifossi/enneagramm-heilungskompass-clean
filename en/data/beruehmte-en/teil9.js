@@ -1996,3 +1996,67 @@ export function louiseHayPortraitPage() {
     </div>
   `);
 }
+
+export function haraldLeschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-harald-lesch-portrait.jpg" alt="Harald Lesch – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Harald Lesch</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Self-Preservation Type 5 with a Six-Wing</p>
+        <p class="krim-portrait-subtitle">Astrophysicist, science communicator, born 1960 – Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Owl Who Refused to Simplify Science</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>owl</strong> is the animal of the Self-Preservation Five: it hoards its knowledge until it is truly sound, and only shows itself once nothing more is missing. Harald Lesch, born in 1960 in Gießen, studied physics, mathematics, and philosophy, and has been professor of theoretical astrophysics at Ludwig Maximilian University of Munich since 1995 – he also holds a chair in natural philosophy at the Munich School of Philosophy, an institution run by Jesuits.</p>
+          <p class="vb-intro">From 1998 to 2015 he hosted more than 200 episodes of "alpha-Centauri," in which he explained complex physics questions in full depth rather than cutting them down to headline format. The owl shows itself only once the explanation is complete – not sooner.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Five: Hoarding Knowledge Until It Is Sound</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Five (SE5)</strong> withdraws to protect its limited inner resources – it gives up nothing that has not been thought through completely. Lesch is known as notoriously meticulous in preparing his programs and lectures, and repeatedly expresses frustration in interviews about superficial, abbreviated media formats that reduce complex scientific matters to catchy half-truths.</p>
+          <p class="vb-intro">Despite decades of television presence, he speaks strikingly little about his private life – unlike many television personalities of his fame, he consistently keeps his family out of the public eye. The Self-Preservation Five shares its precious inner energy only where it deems it absolutely necessary – in the professional lecture, not in private confession.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Vigilance Against Catastrophe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> reinforces the Five's need for security and vigilance against dangers others have not yet seen. In Lesch this shows in his decades-long, tireless public engagement on climate change, resource scarcity, and the limits of economic growth – topics on which he has repeatedly warned urgently about social and ecological tipping points, long before they entered public awareness.</p>
+          <p class="vb-intro">His additional chair in natural philosophy at a church-affiliated institution also shows this Six-note: a deliberately chosen, institutionally secured anchoring within a traditional, reliable framework, rather than exposing himself entirely to unbounded, media-driven science communication.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Avarice as Protection of One's Own Limited Energy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Five is called <strong>avarice</strong> – not material stinginess, but the holding back of one's own energy, time, and attention from anything that would needlessly consume this scarce resource. Lesch consistently declines media-effective but professionally shallow appearances, investing his limited energy instead in deeply thought-out, often lengthy explanatory formats.</p>
+          <p class="vb-intro">In television moments that went viral, he becomes visibly emotional when scientific consensus is challenged by conspiracy theories or pseudoscience – one of the few situations in which the otherwise controlled owl briefly abandons its restraint, because its most precious asset, secured knowledge, is under attack.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Crisis as a Mirror: When the Owl Gets Loud</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The SE5w6 has a weak spot: its otherwise controlled restraint can flip into open anger when a threat to its foundation of knowledge becomes immediately palpable. Several of Lesch's television appearances, in which he visibly bristles against climate change denial or unscientific claims, went viral online – an unusual loss of control for an otherwise composed owl.</p>
+          <p class="vb-intro">From an Enneagram perspective, this is not inconsistency but the pattern's logic at work: for the SE5w6, reliable, verified knowledge is its actual security – when that is undermined by false claims, even the most reserved owl reacts with unguarded vehemence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Depth Instead of Simplification</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Harald Lesch remains one of the most influential science communicators in the German-speaking world – not because he adapted to television's pace and simplification, but because he persistently insisted on depth. With "alpha-Centauri," "Leschs Kosmos," and countless contributions to "Terra X," he reached millions of people with a thoroughness that has become rare on television.</p>
+          <p class="vb-intro">This is the Self-Preservation Five with a Six-wing at its purest: an owl that does not give up its knowledge lightly, only once it has been thought through completely – and that becomes loud precisely when this laboriously secured knowledge is itself called into question.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
+        {route:"beruehmte-carl-friedrich-gauss", label:"Portrait: Carl Friedrich Gauss (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
