@@ -1974,3 +1974,69 @@ export function jerryLewisPortraitPage() {
     </div>
   `);
 }
+
+export function philCollinsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-phil-collins-portrait.jpg" alt="Phil Collins – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Phil Collins</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Musiker, Schlagzeuger, geb. 1951 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der weiterspielte, als seine Hände es nicht mehr konnten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins: Er braucht keine Bühne, keine Bewunderung – nur einen Posten, den er nicht verlässt. Phil Collins, geboren 1951 in Chiswick, London, kam 1970 als Schlagzeuger zu Genesis und übernahm 1975 nach dem Abgang von Peter Gabriel auch den Gesang – nicht aus Ehrgeiz nach der Frontfigur-Rolle, sondern weil die Band ohne ihn keinen Sänger hatte und jemand die Aufgabe übernehmen musste.</p>
+          <p class="vb-intro">Jahrzehnte später, 2007, wurde bei ihm eine Nervenschädigung an den Händen diagnostiziert, die ihn zwang, das Schlagzeugspielen aufzugeben. Nach einem schweren Sturz 2015 mit Wirbelsäulenverletzung konnte er kaum noch ohne Stütze stehen. Von 2017 bis 2019 tourte er dennoch mit der ›Not Dead Yet‹-Tournee – sitzend, während sein Sohn Nic am Schlagzeug übernahm. Der Adler verließ seinen Posten erst, als es wirklich keine andere Möglichkeit mehr gab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Perfektion als stiller Anspruch an sich selbst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> trägt ihren Perfektionsanspruch nicht nach außen, sondern nach innen. Naranjo nannte diesen Subtyp <em>Worry</em> – Besorgnis: die ständige innere Frage, ob man der Aufgabe wirklich gerecht wird. Collins' Produktionsarbeit war für diese Disziplin berühmt: Der markante, komprimierte Gated-Reverb-Schlagzeugsound auf ›In the Air Tonight‹ entstand aus monatelangem, akribischem Studioexperimentieren mit dem Produzenten Hugh Padgham, nicht aus einem spontanen Einfall.</p>
+          <p class="vb-intro">Dieselbe innere Strenge zeigte sich in seinem Umgang mit dem eigenen Versagen als Ehemann und Vater. Nach drei gescheiterten Ehen sprach Collins in seinen späteren Interviews und in seiner Autobiografie ›Not Dead Yet‹ (2016) mit ungewöhnlicher Offenheit über sein Bedauern, wegen ständiger Tourneen zu wenig Zeit mit seinen Kindern verbracht zu haben – kein Selbstmitleid, sondern dieselbe innere Rechnungsprüfung, die die SE1 an jede eigene Leistung anlegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Bescheidenheit statt Rockstar-Fassade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der selbsterhaltenden Eins etwas, das bei schwach ausgeprägtem Neunerflügel kaum von selbst da ist: eine grundlegende Zurückhaltung, die Konflikte vermeidet und die eigene Bedeutung herunterspielt. Trotz über 150 Millionen verkaufter Tonträger, weltweit als Solokünstler und mit Genesis, blieb Collins in Interviews auffällig selbstironisch – er machte sich lieber über die eigene Glatze oder seinen Ruf als ›uncooler‹ Popstar lustig, als sein Erfolg zu zelebrieren.</p>
+          <p class="vb-intro">Dieser Flügel erklärt auch, warum er trotz jahrzehntelanger, teils bitterer Kritik an seiner Musik durch die Musikpresse selten öffentlich zurückschlug. Statt Konfrontation suchte er den Ausgleich – ein Muster, das sich auch in seiner Rückkehr zu Genesis 2007 für eine Reunion-Tour zeigte, nachdem die Band-Mitglieder Jahrzehnte getrennte Wege gegangen waren, ohne dass ein offener Bruch je öffentlich ausgetragen wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Zorn als innere Rechnungsprüfung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> – bei der SE1w9 wendet er sich nicht nach außen, sondern nach innen: als unerbittlicher Maßstab an die eigene Leistung und das eigene Verhalten. Sein Solo-Debütalbum ›Face Value‹ (1981), geschrieben in der Zeit seiner ersten Scheidung, ist genau dieser nach innen gerichtete Zorn in Songform – roh, selbstkritisch, ohne die Schuld allein bei der Ex-Partnerin zu suchen.</p>
+          <p class="vb-intro">Auch beruflich zeigte sich diese Härte gegen sich selbst: Collins bezeichnete seine eigene, jahrzehntelange Abwesenheit von zu Hause später offen als seinen größten Fehler – nicht als Vorwurf an äußere Umstände, sondern als eigenes Versäumnis, das er sich selbst nie ganz verzieh.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Krise als Spiegel: Weiterspielen trotz Schmerz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die SE1w9 hat eine Schwachstelle: Sie kann eigenes Leid so lange herunterspielen, bis der Körper die Grenze selbst zieht. Nach seinem Sturz 2015 konnte Collins nicht mehr ohne Hilfe gehen und musste seine Konzerte sitzend absolvieren, mit Krücken auf die Bühne und wieder herunter begleitet. Statt die Tournee abzusagen, spielte er ›Not Dead Yet‹ bis 2019 zu Ende – ein Titel, den er selbst mit trockenem Humor gewählt hatte.</p>
+          <p class="vb-intro">Aus Enneagramm-Perspektive ist das kein bloßer Trotz, sondern die Konsequenz des Musters: Für die SE1w9 zählt die zugesagte Aufgabe mehr als der eigene Komfort. Erst als sein Zustand eine Fortsetzung objektiv unmöglich machte, zog er sich zurück – nicht früher, aus eigenem Ermessen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Verlässlichkeit statt Inszenierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Phil Collins bleibt einer der wenigen Künstler, die sowohl als Solomusiker als auch als Bandmitglied zu den erfolgreichsten ihrer Generation zählen – ausgezeichnet mit Grammy, Oscar und Golden Globe, unter anderem für den Tarzan-Song ›You'll Be in My Heart‹ (1999). Doch sein eigentliches Kennzeichen war nie die große Geste, sondern die stille Verlässlichkeit: der Schlagzeuger, der zum Sänger wurde, weil es gebraucht wurde, und der Musiker, der weiterspielte, bis der Körper selbst die Grenze setzte.</p>
+          <p class="vb-intro">Das ist die selbsterhaltende Eins mit Neunerflügel in ihrer reinsten Form: kein lautes Bekenntnis zur eigenen Größe, sondern ein Leben lang die stille Frage, ob man der eigenen Aufgabe gerecht geworden ist – und die ebenso stille Bereitschaft, dafür auch den eigenen Körper zu opfern.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-sting", label:"Porträt: Sting (SE1w9)"},
+        {route:"beruehmte-harald-v", label:"Porträt: König Harald V. (SE1w9)"},
+      ])}
+    </div>
+  `);
+}

@@ -1972,3 +1972,69 @@ export function jerryLewisPortraitPage() {
     </div>
   `);
 }
+
+export function philCollinsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-phil-collins-portrait.jpg" alt="Phil Collins – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Phil Collins</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine-Wing</p>
+        <p class="krim-portrait-subtitle">Musician, drummer, born 1951 – Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle Who Kept Playing After His Hands No Longer Could</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is the animal of the Self-Preservation One: it needs no stage, no admiration – only a post it does not leave. Phil Collins, born in 1951 in Chiswick, London, joined Genesis as drummer in 1970 and also took over vocals in 1975 after Peter Gabriel's departure – not out of ambition for the frontman role, but because the band had no singer without him and someone had to take on the task.</p>
+          <p class="vb-intro">Decades later, in 2007, he was diagnosed with nerve damage in his hands that forced him to give up drumming. After a severe fall in 2015 that injured his spine, he could barely stand without support. From 2017 to 2019 he nonetheless toured with the "Not Dead Yet" tour – performing seated, while his son Nic took over on drums. The eagle left its post only once there truly was no other option left.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Perfection as a Quiet Demand on Oneself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation One (SE1)</strong> carries its perfectionism not outward, but inward. Naranjo called this subtype <em>Worry</em>: the constant inner question of whether one truly lives up to the task. Collins' production work was famous for exactly this discipline: the distinctive, compressed gated-reverb drum sound on "In the Air Tonight" emerged from months of meticulous studio experimentation with producer Hugh Padgham, not from a spontaneous flash of inspiration.</p>
+          <p class="vb-intro">The same inner strictness showed in how he dealt with his own failures as a husband and father. After three failed marriages, Collins spoke with unusual openness in later interviews and in his autobiography "Not Dead Yet" (2016) about his regret over spending too little time with his children because of constant touring – no self-pity, but the same inner accounting the SE1 applies to every achievement of its own.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Modesty Instead of a Rockstar Facade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> gives the Self-Preservation One something that is hardly there on its own when the Nine-wing is weakly expressed: a basic reserve that avoids conflict and downplays its own significance. Despite selling over 150 million records worldwide as a solo artist and with Genesis, Collins remained noticeably self-deprecating in interviews – he preferred joking about his own baldness or his reputation as an "uncool" pop star to celebrating his success.</p>
+          <p class="vb-intro">This wing also explains why he rarely struck back publicly despite decades of at times harsh criticism of his music from the press. Instead of confrontation, he sought balance – a pattern that also showed in his 2007 return to Genesis for a reunion tour, after the band members had gone separate ways for decades without any open rupture ever being publicly aired.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Anger as Inward Accounting</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the One is called <strong>anger</strong> – in the SE1w9 it turns not outward, but inward: as an unrelenting standard applied to one's own performance and conduct. His solo debut album "Face Value" (1981), written during his first divorce, is exactly this inward-turned anger set to music – raw, self-critical, without placing the blame solely on his ex-wife.</p>
+          <p class="vb-intro">The same harshness toward himself showed professionally: Collins later openly called his own decades-long absence from home his greatest mistake – not a reproach directed at outside circumstances, but his own failing, which he himself never fully forgave.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Crisis as a Mirror: Playing On Through Pain</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The SE1w9 has a weak spot: it can downplay its own suffering until the body itself draws the line. After his 2015 fall, Collins could no longer walk without help and had to perform his concerts seated, helped on and off stage with crutches. Rather than cancel the tour, he played "Not Dead Yet" through to 2019 – a title he had chosen himself, with dry humor.</p>
+          <p class="vb-intro">From an Enneagram perspective, this is not mere stubbornness, but the pattern's logic at work: for the SE1w9, the commitment made counts for more than one's own comfort. Only once his condition made continuing objectively impossible did he withdraw – not sooner, by his own judgment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Reliability Instead of Showmanship</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Phil Collins remains one of the few artists who rank among the most successful of their generation both as a solo musician and as a band member – honored with a Grammy, an Oscar, and a Golden Globe, among others for the Tarzan song "You'll Be in My Heart" (1999). Yet his actual hallmark was never the grand gesture, but quiet reliability: the drummer who became a singer because it was needed, and the musician who kept playing until his own body set the limit.</p>
+          <p class="vb-intro">This is the Self-Preservation One with a Nine-wing at its purest: no loud claim to its own greatness, but a lifelong, quiet question of whether one has lived up to one's own task – and an equally quiet willingness to sacrifice one's own body for it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
+        {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
+        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
