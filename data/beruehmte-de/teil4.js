@@ -2004,7 +2004,7 @@ export function philCollinsPortraitPage() {
 
         <h2 class="vb-section">3. Der Neunerflügel: Bescheidenheit statt Rockstar-Fassade</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der selbsterhaltenden Eins etwas, das bei schwach ausgeprägtem Neunerflügel kaum von selbst da ist: eine grundlegende Zurückhaltung, die Konflikte vermeidet und die eigene Bedeutung herunterspielt. Trotz über 150 Millionen verkaufter Tonträger, weltweit als Solokünstler und mit Genesis, blieb Collins in Interviews auffällig selbstironisch – er machte sich lieber über die eigene Glatze oder seinen Ruf als ›uncooler‹ Popstar lustig, als sein Erfolg zu zelebrieren.</p>
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der selbsterhaltenden Eins etwas, das bei schwach ausgeprägtem Neunerflügel kaum von selbst da ist: eine grundlegende Zurückhaltung, die Konflikte vermeidet und die eigene Bedeutung herunterspielt. Trotz über 150 Millionen verkaufter Tonträger, weltweit als Solokünstler und mit Genesis, blieb Collins in Interviews auffällig selbstironisch – er machte sich lieber über die eigene Glatze oder seinen Ruf als ›uncooler‹ Popstar lustig, als seinen Erfolg zu zelebrieren.</p>
           <p class="vb-intro">Dieser Flügel erklärt auch, warum er trotz jahrzehntelanger, teils bitterer Kritik an seiner Musik durch die Musikpresse selten öffentlich zurückschlug. Statt Konfrontation suchte er den Ausgleich – ein Muster, das sich auch in seiner Rückkehr zu Genesis 2007 für eine Reunion-Tour zeigte, nachdem die Band-Mitglieder Jahrzehnte getrennte Wege gegangen waren, ohne dass ein offener Bruch je öffentlich ausgetragen wurde.</p>
         </blockquote>
 
