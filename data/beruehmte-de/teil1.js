@@ -1997,3 +1997,68 @@ export function guentherKrabbenhoeftPortraitPage() {
     </div>
   `);
 }
+
+export function natalieDormerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-natalie-dormer-portrait.jpg" alt="Natalie Dormer – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Natalie Dormer</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1982 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Wölfin, die sich ihre Rollen selbst erkämpfte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6: ein Tier, das Bedrohung nicht mit Rückzug, sondern mit Konfrontation beantwortet. Natalie Dormer, geboren 1982 in Reading, trainierte als Kind jahrelang klassisches Ballett – eine körperliche Disziplin, die früh Ausdauer und Konzentration unter Druck verlangte – bevor sie an der Webber Douglas Academy Schauspiel studierte.</p>
+          <p class="vb-intro">Ihren Durchbruch hatte sie 2007 als Anne Boleyn in ›Die Tudors‹ – eine Rolle, für die sie sich nicht auf das vorgegebene Drehbuch verließ, sondern eigenständig historische Quellen recherchierte und mehrfach Änderungen am Skript einforderte, wenn sie es für historisch ungenau hielt. Der Wolf lässt sich seine eigene Deutung nicht von außen vorschreiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Konfrontation statt Anpassung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> begegnet Unsicherheit nach Naranjo nicht mit Anpassung, sondern mit direkter, oft konfrontativer Stärke-Demonstration. Dormer ist bekannt für ihre unverblümte, direkte Art in Interviews – sie weicht kontroversen Themen selten aus und vertritt ihre Position auch dann, wenn sie damit gegen den Produktionskonsens steht.</p>
+          <p class="vb-intro">Bei ›Die Tudors‹ setzte sie sich öffentlich dafür ein, eine aus ihrer Sicht unnötig ausbeuterische Nacktszene aus dem Drehbuch zu streichen, und bestand auf mehr Kontrolle darüber, wie ihre Figur körperlich dargestellt wurde. Das ist keine leise Verhandlung, sondern die typische SX6-Bewegung: Bedrohung wird nicht stillschweigend hingenommen, sondern offen angegangen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Recherche als Rüstung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> zeigt sich bei Dormer in einer fast wissenschaftlichen Herangehensweise an ihre Rollen: Für Anne Boleyn eignete sie sich über Monate hinweg detailliertes historisches Wissen an, das über das für eine Fernsehserie übliche Maß weit hinausging, und wurde so zur informellen Instanz für historische Genauigkeit am Set.</p>
+          <p class="vb-intro">Dieselbe akribische Vorbereitung zeigte sich in ihren späteren Rollen als Margaery Tyrell in ›Game of Thrones‹ und als Cressida in den ›Hunger Games‹-Filmen, für die sie sich intensiv körperlich vorbereitete. Der Fünferflügel liefert der sexuellen Sechs das Wissen, mit dem sie ihre Konfrontationen führt – nicht aus dem Bauch heraus, sondern aus gründlicher, selbst erarbeiteter Substanz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Angst, die zur Gegenoffensive wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sechs heißt <strong>Angst</strong> – bei der sexuellen Variante wird sie nicht durch Rückzug oder Absicherung neutralisiert, sondern durch aktiven Angriff gegen die Quelle der Bedrohung selbst. Dormer positioniert sich seit Jahren öffentlich zu Themen wie Chancengleichheit und Selbstbestimmung von Frauen in der Filmindustrie – nicht zurückhaltend, sondern mit klarer, oft unbequemer Direktheit.</p>
+          <p class="vb-intro">Diese Bereitschaft, sich öffentlich anzulegen, statt Konflikten auszuweichen, zieht sich durch ihre gesamte Karriere: Wo andere Schauspielerinnen diplomatische Zurückhaltung wählen, sucht Dormer wiederholt die direkte Auseinandersetzung – die Angst wird nicht verdrängt, sondern in Gegenwehr umgewandelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Sechs mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 zeigt sich in Dormers Fähigkeit, aus akribischer Vorbereitung heraus Rollen mit historischer und emotionaler Tiefe zu formen, die über die reine Textvorlage hinausgehen – ihre Anne Boleyn gilt bis heute als eine der differenziertesten Darstellungen der Figur im modernen Fernsehen.</p>
+          <p class="vb-intro">Der Schatten liegt in der Kehrseite derselben Konfrontationsbereitschaft: Ihre unverblümten öffentlichen Positionen haben ihr wiederholt mediale Kontroversen eingebracht. Für die sexuelle Sechs mit Fünferflügel zählt die eigene, gründlich erarbeitete Überzeugung mehr als diplomatische Zurückhaltung – auch wenn das nicht immer zu ungeteiltem öffentlichen Beifall führt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Vorbereitung als Form der Selbstbehauptung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Natalie Dormer bleibt eine Schauspielerin, die sich ihre Rollen nie einfach zuweisen ließ, sondern sie sich durch eigene Recherche und klar formulierte Ansprüche aneignete. Von Anne Boleyn über Margaery Tyrell bis Cressida zieht sich dasselbe Muster: gründliche Vorbereitung als Grundlage für eine Selbstbehauptung, die sich nicht wegdiskutieren lässt.</p>
+          <p class="vb-intro">Das ist die sexuelle Sechs mit Fünferflügel in ihrer produktivsten Form: kein Rückzug vor Unsicherheit, sondern eine Wölfin, die sich durch eigenes Wissen so gründlich rüstet, dass sie jede Konfrontation mit offenem Visier führen kann.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-bobby-fischer", label:"Porträt: Bobby Fischer (SX6w5)"},
+        {route:"beruehmte-wladimir-putin", label:"Porträt: Wladimir Putin (SX6w5)"},
+      ])}
+    </div>
+  `);
+}

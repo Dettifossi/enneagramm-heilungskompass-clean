@@ -1997,3 +1997,68 @@ export function guentherKrabbenhoeftPortraitPage() {
     </div>
   `);
 }
+
+export function natalieDormerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-natalie-dormer-portrait.jpg" alt="Natalie Dormer – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Natalie Dormer</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with a Five-Wing</p>
+        <p class="krim-portrait-subtitle">Actress, born 1982 – Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The She-Wolf Who Fought for Her Own Roles</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of the Sexual Six: an animal that meets threat not with retreat, but with confrontation. Natalie Dormer, born in 1982 in Reading, trained for years in classical ballet as a child – a physical discipline that early on demanded endurance and concentration under pressure – before studying acting at the Webber Douglas Academy.</p>
+          <p class="vb-intro">Her breakthrough came in 2007 as Anne Boleyn in "The Tudors" – a role for which she did not simply rely on the given script, but independently researched historical sources and repeatedly pushed for script changes when she considered them historically inaccurate. The wolf does not let its own interpretation be dictated from outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: Confrontation Instead of Accommodation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Six (SX6)</strong> meets uncertainty, according to Naranjo, not with accommodation but with direct, often confrontational displays of strength. Dormer is known for her blunt, direct manner in interviews – she rarely avoids controversial topics and holds her position even when it goes against the production consensus.</p>
+          <p class="vb-intro">On "The Tudors," she publicly pushed to have a nude scene she considered unnecessarily exploitative removed from the script and insisted on more control over how her character was physically portrayed. This is not quiet negotiation, but the typical SX6 movement: threat is not silently accepted, but openly confronted.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Research as Armor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing</strong> shows in Dormer in an almost scholarly approach to her roles: for Anne Boleyn, she spent months acquiring detailed historical knowledge far beyond what a television series would typically require, becoming an informal authority on historical accuracy on set.</p>
+          <p class="vb-intro">The same meticulous preparation showed in her later roles as Margaery Tyrell in "Game of Thrones" and as Cressida in the "Hunger Games" films, for which she trained intensively. The Five-wing supplies the Sexual Six with the knowledge behind its confrontations – not from instinct alone, but from thoroughly self-acquired substance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Fear That Becomes a Counteroffensive</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Six is called <strong>fear</strong> – in the sexual variant it is neutralized not through withdrawal or reassurance, but through active attack against the source of the threat itself. Dormer has for years publicly taken positions on issues such as equal opportunity and women's self-determination in the film industry – not reservedly, but with clear, often uncomfortable directness.</p>
+          <p class="vb-intro">This willingness to publicly stand her ground rather than avoid conflict runs through her entire career: where other actresses choose diplomatic restraint, Dormer repeatedly seeks direct confrontation – fear is not suppressed, but converted into pushback.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Six with a Five-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w5 shows in Dormer's ability to shape roles with historical and emotional depth out of meticulous preparation, going beyond the text as written – her Anne Boleyn is still regarded as one of the most nuanced portrayals of the figure in modern television.</p>
+          <p class="vb-intro">The shadow lies in the flip side of that same readiness to confront: her blunt public positions have repeatedly brought her media controversy. For the Sexual Six with a Five-wing, one's own thoroughly worked-out conviction matters more than diplomatic restraint – even when that does not always earn undivided public applause.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Preparation as a Form of Self-Assertion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Natalie Dormer remains an actress who never simply accepted a role as assigned, but claimed it through her own research and clearly stated demands. From Anne Boleyn through Margaery Tyrell to Cressida, the same pattern recurs: thorough preparation as the basis for a self-assertion that cannot easily be argued away.</p>
+          <p class="vb-intro">This is the Sexual Six with a Five-wing at its most productive: no retreat from uncertainty, but a she-wolf who arms herself so thoroughly through her own knowledge that she can face any confrontation with her visor up.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-bobby-fischer", label:"Portrait: Bobby Fischer (SX6w5)"},
+        {route:"beruehmte-wladimir-putin", label:"Portrait: Wladimir Putin (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
