@@ -1986,3 +1986,68 @@ export function jonahHillPortraitPage() {
     </div>
   `);
 }
+
+export function avrilLavignePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-avril-lavigne-portrait.jpg" alt="Avril Lavigne – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Avril Lavigne</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with a Seven-Wing</p>
+        <p class="krim-portrait-subtitle">Musician, born 1984 – Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf Who Confronted the Pop Machine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of the Sexual Six: an animal that does not avoid threat, but meets it head-on. Avril Lavigne, born in 1984 in Belleville, Ontario, deliberately broke with the then-dominant, flawlessly staged pop-star image of a Britney Spears or Christina Aguilera on her 2002 debut album "Let Go" – a necktie over a T-shirt, skater style, unpolished attitude as a programmatic challenge to an entire industry.</p>
+          <p class="vb-intro">This positioning was no accident, but a deliberate, confrontational act of self-assertion against a pop-industry cliché she refused to submit to. The wolf does not seek the easiest terrain, but confronts directly whatever threatens its own authenticity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: Attack Instead of Accommodation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Six (SX6)</strong> meets threat, according to Naranjo, not with withdrawal but with direct pushback. When critics early on doubted whether her "punk" attitude was authentic or merely marketed image, Lavigne repeatedly responded publicly and bluntly to these accusations, rather than accepting them silently or diplomatically adjusting her image.</p>
+          <p class="vb-intro">This readiness to confront showed itself again and again over two decades: rather than subordinating herself to shifting musical tastes, she defended her own style and stance even when it went against the prevailing mood.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Self-Irony Instead of Grim Defense</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing</strong> gives the Sexual Six a playful side that would be missing with a weakly expressed Seven-wing: timing, self-irony, the ability to turn tension into lightness. Around 2017, when the absurd conspiracy theory circulated that the "real" Avril Lavigne had died and been replaced by a body double, she did not react irritably, but picked up the theory herself with humor and publicly joked about it rather than indignantly rejecting it.</p>
+          <p class="vb-intro">Where an SX6 with a weaker Seven-wing would likely have defended itself grimly, Lavigne met the absurdity with humor – the sharpness of the defense remains intact, but is delivered playfully rather than doggedly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Fear Spoken Openly Instead of Hidden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Six is called <strong>fear</strong> – in the sexual variant it is not suppressed but confronted openly. In 2015, Lavigne publicly revealed that she had been severely ill with Lyme disease for months, bedridden and at times convinced she was going to die. Instead of concealing the illness, she spoke about it in detail and bluntly, and afterward founded the Avril Lavigne Foundation to support young people with chronic illnesses and disabilities.</p>
+          <p class="vb-intro">This willingness to publicly name an existential threat rather than hide it is pure SX6 logic: fear is not minimized but stated directly – and translated into concrete action for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Six with a Seven-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w7 shows in how Lavigne, after divorcing Deryck Whibley (Sum 41), did not withdraw into isolation but maintained a close friendship and professional connection with him – for the SX6w7, security is sought not through retreat, but through deliberately holding onto reliable bonds, even after their official ending.</p>
+          <p class="vb-intro">The shadow lies in the flip side of that same readiness to confront: her publicly fought disputes with critics and the media have repeatedly brought her controversial coverage. For the Sexual Six, one's own position matters more than diplomatic restraint – even when that does not always earn undivided goodwill.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Rebellion with a Wink</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Avril Lavigne remains the artist who showed a whole generation of young women that pop music need not be flawlessly staged to succeed. From "Sk8er Boi" to publicly confronting her own illness, the same pattern recurs: direct confrontation instead of accommodation, but never without a spark of self-irony.</p>
+          <p class="vb-intro">This is the Sexual Six with a Seven-wing at its most productive: a wolf that faces threat head-on without losing the ability to laugh at itself.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-natalie-dormer", label:"Portrait: Natalie Dormer (SX6w5)"},
+        {route:"beruehmte-bobby-fischer", label:"Portrait: Bobby Fischer (SX6w5)"},
+      ])}
+    </div>
+  `);
+}

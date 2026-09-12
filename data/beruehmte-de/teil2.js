@@ -2005,3 +2005,68 @@ export function jonahHillPortraitPage() {
     </div>
   `);
 }
+
+export function avrilLavignePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-avril-lavigne-portrait.jpg" alt="Avril Lavigne – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Avril Lavigne</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Musikerin, geb. 1984 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf, der sich der Popmaschine entgegenstellte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6: ein Tier, das Bedrohung nicht meidet, sondern direkt angeht. Avril Lavigne, geboren 1984 in Belleville, Ontario, brach 2002 mit ihrem Debütalbum ›Let Go‹ bewusst mit dem damals dominierenden, makellos inszenierten Popstar-Bild einer Britney Spears oder Christina Aguilera – Krawatte über dem T-Shirt, Skater-Style, unpolierte Attitüde als programmatische Kampfansage an eine ganze Branche.</p>
+          <p class="vb-intro">Diese Positionierung war kein Zufall, sondern eine bewusste, konfrontative Selbstbehauptung gegen ein Popindustrie-Klischee, dem sie sich nicht unterwerfen wollte. Der Wolf sucht sich nicht das leichteste Terrain, sondern stellt sich direkt der Bedrohung entgegen, die die eigene Authentizität infrage stellt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Angriff statt Anpassung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> begegnet Bedrohung nach Naranjo nicht mit Rückzug, sondern mit direkter Gegenwehr. Als Kritiker früh anzweifelten, ob ihre „Punk"-Attitüde authentisch oder nur vermarktetes Image sei, reagierte Lavigne wiederholt öffentlich und unverblümt auf diese Vorwürfe, statt sie stillschweigend hinzunehmen oder ihr Bild diplomatisch anzupassen.</p>
+          <p class="vb-intro">Diese Konfrontationsbereitschaft zeigte sich über zwei Jahrzehnte hinweg immer wieder: Statt sich dem sich wandelnden Musikgeschmack unterzuordnen, verteidigte sie ihren eigenen Stil und ihre eigene Haltung auch dann, wenn das gegen den Zeitgeist stand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Selbstironie statt grimmiger Verteidigung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> gibt der sexuellen Sechs eine spielerische Seite, die bei schwach ausgeprägtem Siebenerflügel fehlen würde: Timing, Selbstironie, die Fähigkeit, aus Anspannung Leichtigkeit zu machen. Als um 2017 die absurde Verschwörungstheorie kursierte, die „echte" Avril Lavigne sei gestorben und durch eine Doppelgängerin ersetzt worden, reagierte sie nicht gereizt, sondern griff die Theorie selbst humorvoll auf und machte sich öffentlich darüber lustig, statt sie empört zurückzuweisen.</p>
+          <p class="vb-intro">Wo eine SX6 mit schwächerem Siebenerflügel eher grimmig verteidigt hätte, begegnete Lavigne der Absurdität mit Humor – die Schärfe der Verteidigung bleibt dabei erhalten, wird aber spielerisch verpackt statt verbissen vorgetragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Angst, offen ausgesprochen statt verborgen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sechs heißt <strong>Angst</strong> – bei der sexuellen Variante wird sie nicht verdrängt, sondern offen konfrontiert. 2015 machte Lavigne öffentlich, monatelang schwer an Borreliose erkrankt gewesen zu sein, bettlägerig und zeitweise überzeugt, sie werde sterben. Statt die Krankheit zu verschweigen, sprach sie detailliert und unverblümt über den Verlauf und gründete anschließend die Avril Lavigne Foundation, um junge Menschen mit chronischen Erkrankungen und Behinderungen zu unterstützen.</p>
+          <p class="vb-intro">Diese Bereitschaft, eine existenzielle Bedrohung öffentlich zu benennen statt sie zu verstecken, ist reine SX6-Logik: Die Angst wird nicht kleingeredet, sondern direkt ausgesprochen – und in konkretes Handeln für andere übersetzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Sechs mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 zeigt sich darin, wie Lavigne nach der Scheidung von Deryck Whibley (Sum 41) nicht in Isolation verharrte, sondern eine enge freundschaftliche und berufliche Verbindung zu ihm aufrechterhielt – Sicherheit wird bei der SX6w7 nicht durch Rückzug gesucht, sondern durch das bewusste Festhalten an verlässlichen Bindungen, auch nach deren offizieller Beendigung.</p>
+          <p class="vb-intro">Der Schatten liegt in der Kehrseite derselben Konfrontationsbereitschaft: Ihre öffentlich ausgetragenen Auseinandersetzungen mit Kritikern und Medien haben ihr wiederholt kontroverse Berichterstattung eingebracht. Für die sexuelle Sechs zählt die eigene Positionierung mehr als diplomatische Zurückhaltung – auch wenn das nicht immer zu ungeteiltem Wohlwollen führt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Rebellion mit einem Augenzwinkern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Avril Lavigne bleibt die Künstlerin, die eine ganze Generation junger Frauen zeigte, dass Popmusik nicht makellos inszeniert sein muss, um erfolgreich zu sein. Von ›Sk8er Boi‹ bis zur öffentlichen Auseinandersetzung mit ihrer eigenen Krankheit zieht sich dasselbe Muster: direkte Konfrontation statt Anpassung, aber nie ohne einen Funken Selbstironie.</p>
+          <p class="vb-intro">Das ist die sexuelle Sechs mit Siebenerflügel in ihrer produktivsten Form: ein Wolf, der sich der Bedrohung stellt, ohne dabei die Fähigkeit zu verlieren, über sich selbst zu lachen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-natalie-dormer", label:"Porträt: Natalie Dormer (SX6w5)"},
+        {route:"beruehmte-bobby-fischer", label:"Porträt: Bobby Fischer (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
