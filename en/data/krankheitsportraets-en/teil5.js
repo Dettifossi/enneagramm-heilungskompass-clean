@@ -3813,3 +3813,184 @@ export function edvardMunchKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function philCollinsKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-phil-collins-portrait.jpg" alt="Phil Collins" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Phil Collins</p>
+        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with Nine-Wing · born 1951</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Eagle</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Animal correspondence: Eagle" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Phil Collins</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-phil-collins">Famous
+        Personalities portrait</a>. This page delves into a chapter only touched on there:
+        nerve damage in his hands that forced him to give up drumming, followed by a severe
+        spinal injury that at times left him unable to walk.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Collins</strong> is assigned to the <strong>self-preservation Type 1 with
+        Nine-Wing</strong>. The SE1 directs its perfectionism at its own work discipline and
+        craft; the Nine-Wing gives it the ability to process physical losses without loud
+        public fuss and to adapt pragmatically. Exactly this combination – losing the central
+        tool of his craft, combined with quiet, disciplined adaptation to new circumstances
+        rather than public complaint – shaped how he dealt with his nerve and spinal
+        condition.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Early numbness in the hands:</strong>
+        As early as the early 2000s, Collins noticed growing numbness and loss of strength in
+        his hands, which intensified gradually but steadily.</p>
+        <p class="vb-intro"><strong>b) Diagnosis of nerve damage in 2007:</strong>
+        In 2007 he was diagnosed with nerve damage that increasingly made it difficult, and
+        eventually impossible, to hold drumsticks.</p>
+        <p class="vb-intro"><strong>c) Giving up drumming:</strong>
+        Collins subsequently had to largely give up drumming, the foundation of his musical
+        identity since his youth – a loss he spoke about with striking matter-of-factness in
+        interviews.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) A severe fall with a spinal injury in 2015:</strong>
+        In 2015, Collins suffered a severe fall and sustained a spinal injury that required
+        several surgeries.</p>
+        <p class="vb-intro"><strong>b) Temporary inability to walk unaided:</strong>
+        As a result, he was at times unable to walk without crutches or outside support – a
+        serious limitation for an artist whose entire career rested on stage presence.</p>
+        <p class="vb-intro"><strong>c) No complete withdrawal from the stage:</strong>
+        Despite this massive physical limitation, Collins did not withdraw entirely from
+        public musical life, but looked for ways to keep performing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) The "Not Dead Yet" tour, 2017–2019:</strong>
+        From 2017 to 2019, Collins toured under the self-deprecatingly chosen title "Not Dead
+        Yet" – performing seated, with a walking cane beside him on stage, while his son Nic
+        Collins took over on drums.</p>
+        <p class="vb-intro"><strong>b) Public openness instead of concealment:</strong>
+        Unlike some artists in comparable situations, Collins did not conceal his physical
+        limitations, but spoke openly in interviews about crutches, walking aids, and the
+        impossibility of ever drumming again.</p>
+        <p class="vb-intro"><strong>c) The 2016 autobiography "Not Dead Yet":</strong>
+        Shortly before the tour, Collins published his autobiography under the same title, in
+        which he wrote with unusual openness about health setbacks, but also about his regret
+        over time lost with his family during his career.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Sold-out concerts despite the seated performance:</strong>
+        The "Not Dead Yet" tour was internationally sold out and commercially successful,
+        despite – or perhaps because of – the unusual, seated format.</p>
+        <p class="vb-intro"><strong>b) No loss of image through visible limitation:</strong>
+        Contrary to fears, the visible physical limitation did not damage his public
+        reputation – on the contrary, many read it as an expression of particular
+        perseverance.</p>
+        <p class="vb-intro"><strong>c) Continuing the Genesis reunion, 2020–2022:</strong>
+        Despite ongoing physical limitations, Collins continued the Genesis reunion tour "The
+        Last Domino?" through 2022, again mostly performing seated.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Discipline that adapted to new circumstances:</strong>
+        The SE1's characteristic work discipline also showed in how he handled his own
+        physical limitation: Collins did not give up making music, but found a new, equally
+        disciplined way to keep going – the seated concert with his son on drums.</p>
+        <p class="vb-intro"><strong>b) The Nine-Wing and pragmatic adaptation instead of public complaint:</strong>
+        The same reserve with which Collins avoided self-dramatization throughout his life
+        showed in how he handled his own illness as a deliberate decision to state his
+        limitation matter-of-factly, rather than turn it into a drama.</p>
+        <p class="vb-intro"><strong>c) Self-irony as an outlet instead of denial:</strong>
+        That he named the tour itself "Not Dead Yet" fits the SE1w9's ability to name even
+        serious limitations of its own with a certain dry distance, rather than dramatizing or
+        concealing them.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) A drummer whose tool was his own hands:</strong>
+        Collins' entire musical identity began at the drum kit – precision, timing, and
+        physical control were his original craft. Of all things, the hands that made this
+        craft possible failed him in midlife.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        A parallel shows in
+        <a href="javascript:void(0)" data-route="krankheitsportraets-astrid-lindgren">Astrid
+        Lindgren (SE1w9)</a>: in her case too, the very organ that carried her life's work of
+        precise observation – her eyes – failed her in old age, and she too responded not with
+        public complaint but with a new, equally disciplined way of working (dictation instead
+        of writing, a seated concert instead of drumming). Both SE1w9s show the same pattern:
+        the loss of a central working tool is compensated through discipline and pragmatic
+        adaptation, rather than negotiated publicly.</p>
+        <p class="vb-intro"><strong>c) When the One under chronic stress moves toward the Four:</strong>
+        Collins' autobiography "Not Dead Yet" (2016) stands out for a tone unusual for the
+        otherwise matter-of-fact, disciplined SE1: extensive, introspective passages about
+        regret, loneliness, and the feeling of having failed as a father and husband. Someone
+        living under chronic physical strain for years increasingly moves along their stress
+        line toward their stress point – for the One, that is the Four. This unusually
+        melancholic, inward-turned self-examination in his later years recalls the
+        emotionally charged retrospection of the stress point, not the matter-of-fact sense of
+        duty of the core type – with the core type unchanged at SE1w9.</p>
+        <p class="vb-intro"><strong>d) Why the hands and the spine, of all things?</strong>
+        For a self-preservation One whose entire professional identity rested on physical
+        precision and disciplined timing at the instrument, one interpretation suggests
+        itself: of all things, the physical structures that made this precision possible –
+        the hands, and the spine as the carrier of posture and movement – became the site of
+        lost control. This interpretation is a plausible reading, not a documented clinical
+        causal link, and will be developed further in this Compass's Psychosomatics
+        Register.</p>
+        <p class="vb-intro"><strong>e) A Classification Without Determinism:</strong>
+        This does not mean that the self-preservation One's pattern inevitably leads to nerve
+        damage or spinal injury – <strong>any person can develop any illness, regardless of
+        subtype.</strong> What Collins' case shows is a pattern in how a serious physical
+        limitation is handled, one that recurs again and again in a pronounced
+        self-preservation One with a Nine-Wing – one of many possible readings, not a
+        verdict. The corresponding illness will be developed further, over time, in this
+        Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as Its Own Factor:</strong>
+        Collins did not know his own pattern as an Enneagram structure – the self-preservation
+        One with a Nine-Wing reflexively holds onto its own discipline and quiet adaptation
+        instead of openly naming physical losses for what they are, and lived out exactly this
+        pattern unchanged for decades. Anyone who does not recognize their own tendency to
+        compensate for physical limits without speaking openly about them risks letting their
+        own burden remain invisible, even where support or relief would be possible.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The self-preservation Type 1 with Nine-Wing explains much about how <strong>Phil
+        Collins</strong> handled his own nerve and spinal condition: a musician whose entire
+        craft rested on physical precision found a new, equally disciplined way to keep
+        working when that very precision itself failed him – the eagle that, even without
+        full control over his own hands, still knew where he needed to fly.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-phil-collins", label:"Portrait: Phil Collins (SE1w9) – life's work"},
+        {route:"krankheitsportraets-astrid-lindgren", label:"Illness Portrait: Astrid Lindgren (SE1w9) – same subtype"},
+        {route:"krankheitsportraets-robert-de-niro", label:"Illness Portrait: Robert De Niro (SE1w9) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se1", label:"Subtype Profile SE1"},
+      ])}
+    </div>
+  `);
+}

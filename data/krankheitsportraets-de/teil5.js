@@ -3995,3 +3995,194 @@ export function edvardMunchKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function philCollinsKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-phil-collins-portrait.jpg" alt="Phil Collins" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Phil Collins</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel · geb. 1951</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Adler</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Adler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Phil Collins</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-phil-collins">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
+        Kapitel, das dort nur gestreift wird: eine Nervenschädigung an den Händen, die ihn
+        zwang, das Schlagzeugspielen aufzugeben, gefolgt von einer schweren
+        Wirbelsäulenverletzung, die ihn zeitweise gehunfähig machte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Collins</strong> ist dem <strong>selbsterhaltenden Typ 1 mit Neunerflügel</strong>
+        zugeordnet. Die SE1 richtet ihren Perfektionismus auf die eigene Arbeitsdisziplin und
+        das eigene Handwerk; der Neunerflügel gibt ihr die Fähigkeit, körperliche Verluste
+        ohne lautes öffentliches Aufsehen zu verarbeiten und sich pragmatisch anzupassen.
+        Genau diese Kombination – der Verlust des zentralen Arbeitswerkzeugs, verbunden mit
+        der stillen, disziplinierten Anpassung an neue Umstände statt öffentlicher Klage –
+        bestimmte den Umgang mit der eigenen Nerven- und Wirbelsäulenerkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erste Taubheitsgefühle in den Händen:</strong>
+        Bereits in den frühen 2000er-Jahren bemerkte Collins zunehmende Taubheit und
+        Kraftverlust in den Händen, die sich zunächst schleichend, aber stetig verstärkten.</p>
+        <p class="vb-intro"><strong>b) Diagnose einer Nervenschädigung 2007:</strong>
+        2007 wurde bei ihm eine Nervenschädigung diagnostiziert, die das Halten von
+        Trommelstöcken zunehmend erschwerte und schließlich unmöglich machte.</p>
+        <p class="vb-intro"><strong>c) Aufgabe des Schlagzeugspielens:</strong>
+        Collins musste daraufhin das Schlagzeugspielen, das Fundament seiner musikalischen
+        Identität seit seiner Jugend, weitgehend aufgeben – ein Verlust, über den er sich in
+        Interviews auffällig sachlich äußerte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Schwerer Sturz mit Wirbelsäulenverletzung 2015:</strong>
+        2015 stürzte Collins schwer und zog sich eine Verletzung der Wirbelsäule zu, die
+        mehrere Operationen erforderlich machte.</p>
+        <p class="vb-intro"><strong>b) Zeitweise Gehunfähigkeit ohne Hilfsmittel:</strong>
+        In der Folge konnte er zeitweise nicht mehr ohne Krücken oder fremde Unterstützung
+        gehen – eine gravierende Einschränkung für einen Künstler, dessen gesamte Karriere auf
+        Bühnenpräsenz beruhte.</p>
+        <p class="vb-intro"><strong>c) Kein vollständiger Rückzug von der Bühne:</strong>
+        Trotz dieser massiven körperlichen Einschränkung zog sich Collins nicht vollständig
+        aus dem öffentlichen Musikleben zurück, sondern suchte nach Wegen, weiterhin
+        aufzutreten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die ›Not Dead Yet‹-Tournee 2017–2019:</strong>
+        Von 2017 bis 2019 tourte Collins unter dem selbstironisch gewählten Titel ›Not Dead
+        Yet‹ – sitzend, mit einem Gehstock neben sich auf der Bühne, während sein Sohn Nic
+        Collins am Schlagzeug übernahm.</p>
+        <p class="vb-intro"><strong>b) Öffentliche Offenheit statt Verschweigen:</strong>
+        Anders als manche Künstler in vergleichbarer Lage verschwieg Collins seine
+        körperlichen Einschränkungen nicht, sondern sprach in Interviews offen über
+        Krücken, Gehhilfen und die Unmöglichkeit, wieder Schlagzeug zu spielen.</p>
+        <p class="vb-intro"><strong>c) Autobiografie ›Not Dead Yet‹ 2016:</strong>
+        Kurz vor der Tournee veröffentlichte Collins seine Autobiografie unter demselben
+        Titel, in der er ungewöhnlich offen über gesundheitliche Rückschläge, aber auch über
+        sein Bedauern über verpasste Familienzeit während seiner Karriere schrieb.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ausverkaufte Konzerte trotz sitzender Performance:</strong>
+        Die ›Not Dead Yet‹-Tournee war trotz oder gerade wegen der ungewöhnlichen,
+        sitzenden Präsentationsform international ausverkauft und kommerziell erfolgreich.</p>
+        <p class="vb-intro"><strong>b) Kein Imageverlust durch sichtbare Einschränkung:</strong>
+        Anders als befürchtet schadete die sichtbare körperliche Einschränkung seinem
+        öffentlichen Ansehen nicht – im Gegenteil, sie wurde von vielen als Ausdruck
+        besonderer Beharrlichkeit gewertet.</p>
+        <p class="vb-intro"><strong>c) Fortsetzung der Genesis-Reunion 2020–2022:</strong>
+        Trotz fortbestehender körperlicher Einschränkungen setzte Collins die
+        Genesis-Reunion-Tournee ›The Last Domino?‹ bis 2022 fort, ebenfalls überwiegend
+        sitzend.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Disziplin, die sich an neue Umstände anpasste:</strong>
+        Die SE1-typische Arbeitsdisziplin zeigte sich auch im Umgang mit der eigenen
+        körperlichen Einschränkung: Collins gab das Musizieren nicht auf, sondern fand eine
+        neue, ebenso diszipliniert durchgehaltene Form – das sitzende Konzert mit seinem Sohn
+        am Schlagzeug.</p>
+        <p class="vb-intro"><strong>b) Der Neunerflügel und die pragmatische Anpassung statt öffentlicher Klage:</strong>
+        Dieselbe Zurückhaltung, mit der Collins zeitlebens vor Selbstinszenierung
+        zurückschreckte, zeigte sich im Umgang mit der eigenen Krankheit als bewusste
+        Entscheidung, die eigene Einschränkung sachlich zu benennen, statt sie zum Drama zu
+        machen.</p>
+        <p class="vb-intro"><strong>c) Selbstironie als Ventil statt Verdrängung:</strong>
+        Dass er die Tournee selbst ›Not Dead Yet‹ nannte, passt zur SE1w9-Fähigkeit, auch
+        schwerwiegende eigene Einschränkungen mit einer gewissen trockenen Distanz zu
+        benennen, statt sie zu dramatisieren oder zu verschweigen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Schlagzeuger, dessen Werkzeug die eigenen Hände waren:</strong>
+        Collins' gesamte musikalische Identität begann am Schlagzeug – Präzision, Timing und
+        körperliche Kontrolle waren sein ursprüngliches Handwerk. Ausgerechnet die Hände, die
+        dieses Handwerk ermöglichten, versagten ihm im mittleren Lebensalter.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-astrid-lindgren">Astrid
+        Lindgren (SE1w9)</a>: Auch bei ihr versagte im Alter genau jenes Organ – die Augen –,
+        das ihr gesamtes Lebenswerk der genauen Beobachtung trug, und auch sie reagierte nicht
+        mit öffentlicher Klage, sondern mit einer neuen, ebenso disziplinierten Arbeitsweise
+        (Diktat statt Schreiben, sitzendes Konzert statt Schlagzeug). Bei beiden SE1w9ern zeigt
+        sich dasselbe Muster: Der Verlust des zentralen Arbeitswerkzeugs wird durch Disziplin
+        und pragmatische Anpassung kompensiert, statt öffentlich verhandelt zu werden.</p>
+        <p class="vb-intro"><strong>c) Wenn die Eins unter chronischem Stress zur Vier wird:</strong>
+        Collins' Autobiografie ›Not Dead Yet‹ (2016) fällt durch einen für die sonst so
+        sachliche, disziplinierte SE1 ungewöhnlichen Ton auf: ausführliche, introspektive
+        Passagen über Bedauern, Einsamkeit und das Gefühl, als Vater und Ehemann versagt zu
+        haben. Wer über Jahre in chronischer körperlicher Belastung lebt, bewegt sich
+        zunehmend entlang seiner Stresslinie in Richtung seines Stresspunkts – bei der Eins
+        ist das die Vier. Diese ungewohnt melancholische, nach innen gerichtete
+        Selbstbefragung in seinen späteren Lebensjahren erinnert an die gefühlsbetonte
+        Rückschau des Stresspunkts, nicht an die sachliche Pflichterfüllung des Kerntyps – bei
+        unverändertem Kerntyp SE1w9.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet Hände und Wirbelsäule?</strong>
+        Für einen selbsterhaltenden Einser, dessen gesamte berufliche Identität auf
+        körperlicher Präzision und diszipliniertem Timing am Instrument beruhte, liegt eine
+        Deutung nahe: Ausgerechnet jene körperlichen Strukturen, die diese Präzision
+        ermöglichten – Hände und Wirbelsäule als Träger von Haltung und Bewegung –, wurden zum
+        Ort des Kontrollverlusts. Diese Deutung ist eine plausible Interpretation, kein
+        belegter klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu
+        Nervenschädigungen oder Wirbelsäulenverletzungen führt – <strong>jeder Mensch kann
+        jede Erkrankung entwickeln, unabhängig vom Subtyp.</strong> Was sich an Collins' Fall
+        zeigen lässt, ist ein Muster im Umgang mit einer schwerwiegenden körperlichen
+        Einschränkung, das bei einer ausgeprägten selbsterhaltenden Eins mit Neunerflügel
+        immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Collins kannte sein eigenes Muster nicht als Enneagramm-Struktur – die
+        selbsterhaltende Eins mit Neunerflügel hält reflexhaft an der eigenen Disziplin und
+        stillen Anpassung fest, statt körperliche Verluste offen als das zu benennen, was sie
+        sind, und lebte genau dieses Muster über Jahrzehnte hinweg unverändert aus. Wer die
+        eigene Neigung, körperliche Grenzen ohne öffentliche Aussprache zu kompensieren, nicht
+        als Muster erkennt, riskiert, dass die eigene Belastung unsichtbar bleibt, auch wenn
+        Unterstützung oder Entlastung möglich wäre.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 1 mit Neunerflügel erklärt bei <strong>Phil
+        Collins</strong> vieles am Umgang mit der eigenen Nerven- und
+        Wirbelsäulenerkrankung: ein Musiker, dessen gesamtes Handwerk auf körperlicher
+        Präzision beruhte, fand eine neue, ebenso diszipliniert durchgehaltene Form,
+        weiterzuwirken, als ihm genau diese Präzision selbst versagte – der Adler, der auch
+        ohne die volle Kontrolle über die eigenen Hände wusste, wohin er fliegen musste.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-phil-collins", label:"Porträt: Phil Collins (SE1w9) – Lebenswerk"},
+        {route:"krankheitsportraets-astrid-lindgren", label:"Krankheitsporträt: Astrid Lindgren (SE1w9) – gleicher Subtyp"},
+        {route:"krankheitsportraets-robert-de-niro", label:"Krankheitsporträt: Robert De Niro (SE1w9) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se1", label:"Subtyp-Profil SE1"},
+      ])}
+    </div>
+  `);
+}
