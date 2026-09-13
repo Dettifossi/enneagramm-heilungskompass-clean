@@ -4060,8 +4060,9 @@ export function alainDelonKrankheitsportraetPage() {
       <p class="psycho-intro">
         <strong>Alain Delon</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-alain-delon">Porträt
-        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
-        Kapitel, das dort nur gestreift wird: einen Schlaganfall 2019, eine spätere
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten – dort geht es um sein
+        Lebenswerk als Schauspieler. Diese Seite geht näher auf einen Teil seiner
+        Biografie ein, der dort nur knapp erwähnt wird: einen Schlaganfall 2019, eine spätere
         Leukämie-Diagnose und den öffentlich diskutierten Wunsch, notfalls selbstbestimmt über
         das eigene Lebensende zu entscheiden.
       </p>

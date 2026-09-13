@@ -4017,10 +4017,11 @@ export function philCollinsKrankheitsportraetPage() {
       <p class="psycho-intro">
         <strong>Phil Collins</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-phil-collins">Porträt
-        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
-        Kapitel, das dort nur gestreift wird: eine Nervenschädigung an den Händen, die ihn
-        zwang, das Schlagzeugspielen aufzugeben, gefolgt von einer schweren
-        Wirbelsäulenverletzung, die ihn zeitweise gehunfähig machte.
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten – dort geht es um sein
+        Lebenswerk als Musiker und Schlagzeuger. Diese Seite widmet sich einem Aspekt, der dort
+        nur am Rande erwähnt wird: eine Nervenschädigung an den Händen, die ihn zwang, das
+        Schlagzeugspielen aufzugeben, gefolgt von einer schweren Wirbelsäulenverletzung, die
+        ihn zeitweise gehunfähig machte.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>

@@ -3885,7 +3885,8 @@ export function alainDelonKrankheitsportraetPage() {
       <p class="psycho-intro">
         <strong>Alain Delon</strong> already appears in this Compass as a
         <a href="javascript:void(0)" data-route="beruehmte-alain-delon">Famous
-        Personalities portrait</a>. This page delves into a chapter only touched on there: a
+        Personalities portrait</a> – that page covers his life's work as an actor. This page
+        looks more closely at a part of his biography only briefly mentioned there: a
         stroke in 2019, a later leukemia diagnosis, and the publicly discussed wish to decide,
         if necessary, on his own terms about the end of his life.
       </p>

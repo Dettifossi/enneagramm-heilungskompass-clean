@@ -3835,7 +3835,8 @@ export function philCollinsKrankheitsportraetPage() {
       <p class="psycho-intro">
         <strong>Phil Collins</strong> already appears in this Compass as a
         <a href="javascript:void(0)" data-route="beruehmte-phil-collins">Famous
-        Personalities portrait</a>. This page delves into a chapter only touched on there:
+        Personalities portrait</a> – that page covers his life's work as a musician and
+        drummer. This page turns to an aspect only briefly noted there:
         nerve damage in his hands that forced him to give up drumming, followed by a severe
         spinal injury that at times left him unable to walk.
       </p>
