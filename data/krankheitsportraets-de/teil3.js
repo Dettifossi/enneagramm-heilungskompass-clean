@@ -2311,6 +2311,7 @@ export function mariahCareyKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-mariah-carey", label:"Porträt: Mariah Carey (SE7w8)"},
         {route:"krankheitsportraets-francis-bacon", label:"Krankheitsporträt: Francis Bacon (SE7w8) – dasselbe lange Verbergen"},
+        {route:"krankheitsportraets-elton-john", label:"Krankheitsporträt: Elton John (SE7w6) – gleicher Kerntyp, anderer Flügel"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se7", label:"Subtyp-Profil SE7"},
       ])}

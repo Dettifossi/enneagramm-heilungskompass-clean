@@ -4039,3 +4039,180 @@ export function alainDelonKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function eltonJohnKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-elton-john-portrait.jpg" alt="Elton John" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Elton John</p>
+        <p class="krim-portrait-typ">SE7w6 · Self-Preservation Type 7 with Six-Wing · born 1947</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Gorilla</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Animal correspondence: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE7")};left:${tierAvatarLeft("SE7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Elton John</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-elton-john">Famous
+        Personalities portrait</a> – that page covers his musical life's work and stage
+        persona. This page looks more closely at a chapter only briefly touched on there: two
+        decades of cocaine and alcohol addiction, accompanied by bulimia, up to his hospital
+        admission in 1990.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>John</strong> is assigned to the <strong>self-preservation Type 7 with
+        Six-Wing</strong>. The SE7 secures safety not through restraint but through active
+        enjoyment and self-supply; the Six-Wing gives it the ability to stabilize through a
+        fixed, loyal bond. Exactly this combination – fleeing into boundless consumption until
+        a single, deep bond tipped the scale toward recovery – shaped the entire course of
+        his addiction.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Cocaine use beginning alongside global fame:</strong>
+        With the rapid commercial success of the 1970s, John began increasingly using
+        cocaine, alongside an already existing, excessive alcohol consumption.</p>
+        <p class="vb-intro"><strong>b) An additional bulimia diagnosis:</strong>
+        Alongside the substance dependency, John developed bulimia, which went untreated for
+        years.</p>
+        <p class="vb-intro"><strong>c) Escalation over two decades:</strong>
+        The combination of cocaine, alcohol, and bulimia intensified over roughly twenty
+        years, without John seeking professional help.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) The turning point at a friend's deathbed:</strong>
+        On April 8, 1990, John sat at the deathbed of sixteen-year-old Ryan White, a teenager
+        with AIDS with whom he had built a close friendship.</p>
+        <p class="vb-intro"><strong>b) Voluntary hospital admission:</strong>
+        A few months later, on July 29, 1990, John admitted himself to Parkside Lutheran
+        Hospital in Chicago – one of the few clinics at the time able to treat bulimia
+        alongside cocaine and alcohol addiction.</p>
+        <p class="vb-intro"><strong>c) Sustained sobriety since treatment:</strong>
+        Since that 1990 hospital stay, John has remained continuously sober – a publicly
+        documented sobriety now spanning more than three decades.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) His first fully sober studio album:</strong>
+        He recorded his album "The One" (1992) fully sober for the first time – a process he
+        later described as unfamiliar and difficult.</p>
+        <p class="vb-intro"><strong>b) Founding the Elton John AIDS Foundation:</strong>
+        In 1992, John founded the Elton John AIDS Foundation, directly motivated by his
+        friendship with Ryan White and his own recovery.</p>
+        <p class="vb-intro"><strong>c) Open public retrospectives on his years of addiction:</strong>
+        In later interviews and his autobiography "Me" (2019), John repeatedly spoke about his
+        own addiction in detail, without softening it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) One of the world's largest AIDS foundations:</strong>
+        The Elton John AIDS Foundation has since raised over $600 million for HIV programs in
+        more than 55 countries.</p>
+        <p class="vb-intro"><strong>b) A public role model for addiction recovery:</strong>
+        John's openness about his own, now three-decade-long sobriety helped destigmatize
+        addiction among public figures.</p>
+        <p class="vb-intro"><strong>c) Creative continuity despite, and after, the addiction:</strong>
+        Despite the years of addiction, John's musical output remained remarkably consistent
+        across decades, with the "Farewell Yellow Brick Road" tour (2018–2023) becoming the
+        highest-grossing tour in music history.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Addiction as the most extreme form of SE7 self-supply:</strong>
+        The SE7's characteristic strategy of securing safety through active enjoyment rather
+        than restraint tipped, in John's case, over two decades into an addiction that carried
+        the very same underlying principle – always more, never enough – all the way to
+        self-destruction.</p>
+        <p class="vb-intro"><strong>b) The Six-Wing and the bond that saved him:</strong>
+        The same capacity for loyal bonding that defines the Six-Wing became the decisive
+        turning point: not abstract insight, but the concrete, personal bond with a dying
+        friend tipped the scale toward recovery.</p>
+        <p class="vb-intro"><strong>c) A structured institution instead of spontaneous enjoyment after recovery:</strong>
+        After recovering, John translated the same energy that had once flowed into boundless
+        consumption into building a lasting, reliable foundation structure – abundance that
+        now benefits others instead of consuming himself.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) A stage persona of boundless abundance that abundance itself nearly destroyed:</strong>
+        John's entire stage identity rested on demonstrative abundance – feathers, costumes,
+        glasses. Of all things, this very principle of abundance became a life-threatening
+        trap during his years of addiction.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        A parallel shows in
+        <a href="javascript:void(0)" data-route="krankheitsportraets-mariah-carey">Mariah
+        Carey (SE7w8)</a>: in her case too, a psychological illness concealed for years – a
+        bipolar disorder, in Carey's case – shaped her life behind a public facade, before she
+        publicly disclosed it years later. Both SE7s show the same pattern: outwardly
+        demonstrated abundance and joie de vivre conceal, for years, a serious private crisis,
+        until it is finally publicly acknowledged and addressed.</p>
+        <p class="vb-intro"><strong>c) When the Seven under chronic stress moves toward the One:</strong>
+        John's description of his first sober album recording – disciplined, controlled,
+        unfamiliarly difficult – and his strict, never-once-interrupted sobriety since 1990
+        show a rigidity unusual for the otherwise pleasure-oriented SE7. Someone living under
+        chronic addiction strain for years increasingly moves along their stress line toward
+        their stress point – for the Seven, that is the One. This strict, unyielding
+        self-discipline after recovery recalls the principled rigor of the stress point, not
+        the spontaneous joie de vivre of the core type – with the core type unchanged at
+        SE7w6.</p>
+        <p class="vb-intro"><strong>d) Why substances and food, of all things?</strong>
+        For a self-preservation Seven whose entire strategy rested on active enjoyment and
+        self-supply, one interpretation suggests itself: of all things, the means that most
+        immediately promised abundance and safety in the short term – substances, food –
+        became the place where that very strategy destroyed itself. This interpretation is a
+        plausible reading, not a documented clinical causal link, and will be developed
+        further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) A Classification Without Determinism:</strong>
+        This does not mean that the self-preservation Seven's pattern inevitably leads to
+        addiction – <strong>any person can develop any illness, regardless of subtype.</strong>
+        What John's case shows is a pattern in how a severe addiction is handled, one that
+        recurs again and again in a pronounced self-preservation Seven with a Six-Wing – one
+        of many possible readings, not a verdict. The corresponding illness will be developed
+        further, over time, in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as Its Own Factor:</strong>
+        John likely does not know his own pattern as an Enneagram structure – the
+        self-preservation Seven with a Six-Wing reflexively holds onto the strategy of
+        securing safety through abundance rather than restraint, until that very strategy
+        turns into its opposite. Anyone who does not recognize their own tendency to
+        immediately fill every inner emptiness with outer abundance risks that this same
+        strategy eventually turns from a resource into a life-threatening danger.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The self-preservation Type 7 with Six-Wing explains much about the course of
+        <strong>Elton John's</strong> addiction: a man whose entire stage identity rested on
+        boundless abundance fell, over two decades, into an addiction that carried the very
+        same principle all the way to self-destruction – until a single, deep bond with a
+        dying friend tipped the scale toward recovery. The gorilla that ultimately turned its
+        territory of abundance toward others instead of only itself.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-elton-john", label:"Portrait: Elton John (SE7w6) – life's work"},
+        {route:"krankheitsportraets-larry-king", label:"Illness Portrait: Larry King (SE7w6) – same subtype"},
+        {route:"krankheitsportraets-mariah-carey", label:"Illness Portrait: Mariah Carey (SE7w8) – same core type, different wing"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se7", label:"Subtype Profile SE7"},
+      ])}
+    </div>
+  `);
+}

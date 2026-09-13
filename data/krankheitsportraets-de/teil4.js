@@ -4229,3 +4229,182 @@ export function alainDelonKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function eltonJohnKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-elton-john-portrait.jpg" alt="Elton John" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Elton John</p>
+        <p class="krim-portrait-typ">SE7w6 · Selbsterhaltender Typ 7 mit Sechserflügel · geb. 1947</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gorilla</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se7.jpg" alt="Tierentsprechung: Gorilla" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE7")};left:${tierAvatarLeft("SE7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Elton John</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-elton-john">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten – dort geht es um sein
+        musikalisches Lebenswerk und seine Bühnenpersönlichkeit. Diese Seite blickt genauer auf
+        ein Kapitel, das dort nur kurz gestreift wird: zwei Jahrzehnte Kokain- und
+        Alkoholsucht, begleitet von Bulimie, bis zu seinem Klinikaufenthalt 1990.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>John</strong> ist dem <strong>selbsterhaltenden Typ 7 mit Sechserflügel</strong>
+        zugeordnet. Die SE7 sichert sich Sicherheit nicht durch Zurückhaltung, sondern durch
+        aktiven Genuss und Selbstversorgung; der Sechserflügel gibt ihr die Fähigkeit, sich
+        über eine feste, loyale Bindung zu stabilisieren. Genau diese Kombination – Flucht in
+        grenzenlosen Konsum, bis eine einzige, tiefe Bindung den Ausschlag zur Umkehr gab –
+        bestimmte den gesamten Verlauf seiner Suchterkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Beginnender Kokainkonsum im Zuge des Weltruhms:</strong>
+        Mit dem raschen kommerziellen Erfolg der 1970er-Jahre begann John zunehmend Kokain zu
+        konsumieren, parallel zu einem bereits bestehenden, exzessiven Alkoholkonsum.</p>
+        <p class="vb-intro"><strong>b) Zusätzliche Bulimie-Erkrankung:</strong>
+        Neben der Substanzabhängigkeit entwickelte John eine Bulimie-Erkrankung, die über
+        Jahre unbehandelt blieb.</p>
+        <p class="vb-intro"><strong>c) Zunehmende Eskalation über zwei Jahrzehnte:</strong>
+        Die Kombination aus Kokain, Alkohol und Bulimie verschärfte sich über rund zwanzig
+        Jahre, ohne dass John professionelle Hilfe in Anspruch nahm.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Wendepunkt am Sterbebett eines Freundes:</strong>
+        Am 8. April 1990 saß John am Sterbebett des sechzehnjährigen Ryan White, eines an AIDS
+        erkrankten Jugendlichen, mit dem er eine enge Freundschaft aufgebaut hatte.</p>
+        <p class="vb-intro"><strong>b) Freiwillige Klinikeinweisung:</strong>
+        Wenige Monate danach, am 29. Juli 1990, checkte sich John selbst in die Parkside
+        Lutheran Hospital in Chicago ein – eine der wenigen Kliniken, die damals Bulimie
+        zusammen mit Kokain- und Alkoholsucht behandeln konnten.</p>
+        <p class="vb-intro"><strong>c) Dauerhafte Abstinenz seit der Behandlung:</strong>
+        Seit diesem Klinikaufenthalt 1990 blieb John durchgehend nüchtern – eine bis heute
+        andauernde, öffentlich dokumentierte Abstinenz von über drei Jahrzehnten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Erstes vollständig nüchtern aufgenommenes Album:</strong>
+        Sein Album ›The One‹ (1992) nahm er zum ersten Mal vollständig nüchtern auf – ein
+        Prozess, den er selbst rückblickend als ungewohnt schwierig beschrieb.</p>
+        <p class="vb-intro"><strong>b) Gründung der Elton John AIDS Foundation:</strong>
+        1992 gründete John die Elton John AIDS Foundation, direkt motiviert durch die
+        Freundschaft mit Ryan White und die eigene Genesung.</p>
+        <p class="vb-intro"><strong>c) Offene öffentliche Rückblicke auf die Suchtjahre:</strong>
+        In späteren Interviews und seiner Autobiografie ›Me‹ (2019) sprach John wiederholt
+        detailliert über die eigene Sucht, ohne sie zu beschönigen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Eine der größten AIDS-Stiftungen der Welt:</strong>
+        Die Elton John AIDS Foundation hat inzwischen über 600 Millionen Dollar für
+        HIV-Programme in mehr als 55 Ländern gesammelt.</p>
+        <p class="vb-intro"><strong>b) Öffentliche Vorbildwirkung für Suchtgenesung:</strong>
+        Johns offener Umgang mit seiner eigenen, über drei Jahrzehnte andauernden Abstinenz
+        trug dazu bei, Suchterkrankung bei Prominenten öffentlich enttabuisieren zu helfen.</p>
+        <p class="vb-intro"><strong>c) Kreative Kontinuität trotz und nach der Sucht:</strong>
+        Trotz der Suchtjahre blieb Johns musikalischer Output über Jahrzehnte bemerkenswert
+        konstant, mit der ›Farewell Yellow Brick Road‹-Tournee (2018–2023) als kommerziell
+        erfolgreichster Tournee der Musikgeschichte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Sucht als extremste Form der SE7-Selbstversorgung:</strong>
+        Die SE7-typische Strategie, Sicherheit durch aktiven Genuss statt durch Verzicht zu
+        gewinnen, kippte bei John über zwei Jahrzehnte in eine Sucht, die genau dasselbe
+        Grundprinzip – immer mehr, nie genug – bis zur Selbstzerstörung weiterführte.</p>
+        <p class="vb-intro"><strong>b) Der Sechserflügel und die rettende Bindung:</strong>
+        Dieselbe Fähigkeit zur loyalen Bindung, die den Sechserflügel auszeichnet, wurde zum
+        entscheidenden Wendepunkt: Nicht abstrakte Einsicht, sondern die konkrete, persönliche
+        Bindung an einen sterbenden Freund gab den Ausschlag zur Umkehr.</p>
+        <p class="vb-intro"><strong>c) Strukturierte Institution statt spontaner Genuss nach der Genesung:</strong>
+        Nach der Genesung übersetzte John dieselbe Energie, die zuvor in grenzenlosen Konsum
+        floss, in den Aufbau einer dauerhaften, verlässlichen Stiftungsstruktur – Fülle, die
+        jetzt anderen zugutekommt, statt sich selbst zu verzehren.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Bühnenfigur grenzenloser Fülle, die an derselben Fülle fast zugrunde ging:</strong>
+        Johns gesamte Bühnenidentität beruhte auf demonstrativem Überfluss – Federn, Kostüme,
+        Brillen. Ausgerechnet dieses Grundprinzip der Fülle wurde in den Suchtjahren zur
+        lebensbedrohlichen Falle.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-mariah-carey">Mariah
+        Carey (SE7w8)</a>: Auch bei ihr bestimmte eine über Jahre verschwiegene psychische
+        Erkrankung – bei Carey eine bipolare Störung – das Leben hinter der öffentlichen
+        Fassade, bevor sie sich Jahre später öffentlich dazu bekannte. Bei beiden SE7 zeigt
+        sich dasselbe Muster: Die nach außen demonstrierte Fülle und Lebensfreude verdeckt
+        über Jahre eine ernste, private Krise, bis diese schließlich öffentlich anerkannt und
+        bearbeitet wird.</p>
+        <p class="vb-intro"><strong>c) Wenn die Sieben unter chronischem Stress zur Eins wird:</strong>
+        Johns Beschreibung der ersten nüchternen Albumaufnahme – diszipliniert, kontrolliert,
+        ungewohnt schwierig – und der strikten, bis heute nie unterbrochenen Abstinenz seit
+        1990 zeigt eine für die sonst genussorientierte SE7 ungewöhnliche Rigidität. Wer über
+        Jahre in chronischer Suchtbelastung lebt, bewegt sich zunehmend entlang seiner
+        Stresslinie in Richtung seines Stresspunkts – bei der Sieben ist das die Eins. Diese
+        strikte, unnachgiebige Selbstdisziplin nach der Genesung erinnert an die
+        Prinzipientreue des Stresspunkts, nicht an die spontane Genussfreude des Kerntyps –
+        bei unverändertem Kerntyp SE7w6.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet Substanzen und Nahrung?</strong>
+        Für eine selbsterhaltende Sieben, deren gesamte Strategie auf aktivem Genuss und
+        Selbstversorgung beruhte, liegt eine Deutung nahe: Ausgerechnet jene Mittel, die
+        kurzfristig am unmittelbarsten Fülle und Sicherheit versprachen – Substanzen, Nahrung
+        –, wurden zum Ort, an dem diese Strategie sich selbst zerstörte. Diese Deutung ist
+        eine plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und wird
+        im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Sieben zwangsläufig zu
+        Suchterkrankungen führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
+        unabhängig vom Subtyp.</strong> Was sich an Johns Fall zeigen lässt, ist ein Muster im
+        Umgang mit einer schweren Suchterkrankung, das bei einer ausgeprägten
+        selbsterhaltenden Sieben mit Sechserflügel immer wieder auffällt – eine von vielen
+        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        John kennt sein eigenes Muster vermutlich nicht als Enneagramm-Struktur – die
+        selbsterhaltende Sieben mit Sechserflügel hält reflexhaft an der Strategie fest,
+        Sicherheit durch Fülle statt durch Verzicht zu gewinnen, bis diese Strategie sich
+        selbst ins Gegenteil verkehrt. Wer die eigene Neigung, jede innere Leere sofort mit
+        äußerer Fülle zu füllen, nicht als Muster erkennt, riskiert, dass genau diese Strategie
+        irgendwann von einer Ressource zu einer lebensbedrohlichen Gefahr wird.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 7 mit Sechserflügel erklärt bei <strong>Elton John</strong>
+        vieles am Verlauf seiner Suchterkrankung: ein Mann, dessen gesamte Bühnenidentität auf
+        grenzenloser Fülle beruhte, geriet über zwei Jahrzehnte in eine Sucht, die genau
+        dasselbe Prinzip bis zur Selbstzerstörung weiterführte – bis eine einzige, tiefe
+        Bindung zu einem sterbenden Freund den Ausschlag zur Umkehr gab. Der Gorilla, der sein
+        Revier aus Überfluss schließlich für andere statt nur für sich selbst nutzte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-elton-john", label:"Porträt: Elton John (SE7w6) – Lebenswerk"},
+        {route:"krankheitsportraets-larry-king", label:"Krankheitsporträt: Larry King (SE7w6) – gleicher Subtyp"},
+        {route:"krankheitsportraets-mariah-carey", label:"Krankheitsporträt: Mariah Carey (SE7w8) – gleicher Kerntyp, anderer Flügel"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se7", label:"Subtyp-Profil SE7"},
+      ])}
+    </div>
+  `);
+}
