@@ -1866,6 +1866,7 @@ export function jonBonJoviPortraitPage() {
           {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
           {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
           {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1) – also a musician, the same focused on-stage merging"},
+          {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SX9w1) – also a singer-songwriter, utterly alone on stage"},
           {route:"beruehmte-helge-schneider", label:"Portrait: Helge Schneider (SX9w1)"},
           {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
           {route:"beruehmte-david-guetta", label:"Portrait: David Guetta (SX9w1) – also a musician with a long-running institution of his own"},

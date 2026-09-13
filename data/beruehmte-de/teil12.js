@@ -584,7 +584,6 @@ export function hansChristianAndersenPortraitPage() {
         {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
         {route:"beruehmte-heinrich-heine", label:"Porträt: Heinrich Heine (SO4w3)"},
-        {route:"beruehmte-reinhard-mey", label:"Porträt: Reinhard Mey (SO4w3)"},
         {route:"beruehmte-alan-watts", label:"Porträt: Alan Watts (SO4w3)"},
       ])}
     </div>
@@ -652,7 +651,6 @@ export function heinrichHeinePortraitPage() {
         {route:"beruehmte-hans-christian-andersen", label:"Porträt: Hans Christian Andersen (SO4w3)"},
         {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3)"},
-        {route:"beruehmte-reinhard-mey", label:"Porträt: Reinhard Mey (SO4w3)"},
         {route:"beruehmte-alan-watts", label:"Porträt: Alan Watts (SO4w3)"},
         {route:"krankheitsportraets-heinrich-heine", label:"Krankheitsporträt: Heinrich Heine (SO4w3) – die Matratzengruft"},
         {route:"beruehmte-fabian-kahl", label:"Porträt: Fabian Kahl (SO4w3)"},

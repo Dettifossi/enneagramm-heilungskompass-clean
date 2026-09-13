@@ -1871,6 +1871,7 @@ export function jonBonJoviPortraitPage() {
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
           {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
           {route:"beruehmte-ed-sheeran", label:"Porträt: Ed Sheeran (SX9w1) – ebenfalls Musiker, dieselbe konzentrierte Bühnenverschmelzung"},
+          {route:"beruehmte-reinhard-mey", label:"Porträt: Reinhard Mey (SX9w1) – ebenfalls Liedermacher, mutterseelenallein auf der Bühne"},
           {route:"beruehmte-helge-schneider", label:"Porträt: Helge Schneider (SX9w1)"},
           {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1)"},
           {route:"beruehmte-david-guetta", label:"Porträt: David Guetta (SX9w1) – ebenfalls Musiker mit langjähriger eigener Institution"},
