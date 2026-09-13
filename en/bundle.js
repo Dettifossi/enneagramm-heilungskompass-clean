@@ -23594,7 +23594,7 @@ const LEBENSMUSTERKOMPASS = {
   SX9: {
     tier: "Sloth",
     kernthema: "Merging with a single being, work, or style instead of belonging to a group",
-    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning", "Kris Marshall", "Ed Gein", "Mother Mary", "Ed Sheeran", "Eckhart Tolle", "Helge Schneider", "Jon Bon Jovi", "David Guetta", "Adam Sandler", "Jürgen Drews", "François Damiens", "Michael Berryman", "Peter Maffay"],
+    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning", "Kris Marshall", "Ed Gein", "Mother Mary", "Ed Sheeran", "Eckhart Tolle", "Helge Schneider", "Jon Bon Jovi", "David Guetta", "Adam Sandler", "Jürgen Drews", "François Damiens", "Michael Berryman", "Peter Maffay", "Dustin Hoffman"],
     fingerabdruecke: [
       {
         titel: "The one bond instead of many contacts",
