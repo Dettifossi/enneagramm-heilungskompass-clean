@@ -2432,6 +2432,7 @@ export function michaelSchumacherKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7) – life's work"},
+        {route:"krankheitsportraets-avril-lavigne", label:"Illness Portrait: Avril Lavigne (SX6w7) – same subtype, opposite coping strategy"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx6", label:"Subtype Profile SX6"},
       ])}
@@ -3859,6 +3860,187 @@ export function juergenDrewsKrankheitsportraetPage() {
         {route:"krankheitsportraets-diego-velazquez", label:"Illness Portrait: Diego Velázquez (SX9w1) – the same boundless availability, a different wing"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx9", label:"Subtype Profile SX9"},
+      ])}
+    </div>
+  `);
+}
+
+export function avrilLavigneKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-avril-lavigne-portrait.jpg" alt="Avril Lavigne" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Avril Lavigne</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexual Type 6 with Seven-Wing · born 1984</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Wolf</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Animal correspondence: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Avril Lavigne</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-avril-lavigne">Famous
+        Personalities portrait</a> – that page covers her music career and her confrontational
+        relationship with the pop-star image of her era. This page focuses on a different
+        chapter: a months-long, life-threatening Lyme disease that began in 2014.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Lavigne</strong> is assigned to the <strong>sexual Type 6 with Seven-Wing</strong>.
+        As the counter-type of the Six, the SX6 meets its own fear not with withdrawal but with
+        direct confrontation; the Seven-Wing gives it the ability to process even the most
+        severe experiences with a certain self-irony and future orientation, rather than
+        getting lost in the heaviness. Exactly this combination – naming the illness directly
+        instead of hiding it, then turning it into a forward-looking project – shaped how she
+        dealt with her own Lyme disease.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Mysterious, worsening exhaustion:</strong>
+        In 2014, Lavigne developed increasing, initially unexplained exhaustion that led to
+        complete bed rest within a few weeks.</p>
+        <p class="vb-intro"><strong>b) Months of diagnostic uncertainty:</strong>
+        Several doctors were initially unable to determine the cause, adding further strain
+        to the situation for Lavigne and those around her.</p>
+        <p class="vb-intro"><strong>c) A Lyme disease diagnosis in October 2014:</strong>
+        Only in October 2014 was she diagnosed with Lyme disease, transmitted by a tick bite –
+        an explanation that finally brought clarity after months of uncertainty.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Five months of complete bed rest:</strong>
+        Lavigne was bedridden for about five months, at times unable to speak, move, or shower
+        on her own.</p>
+        <p class="vb-intro"><strong>b) The conviction that she was going to die:</strong>
+        In a later interview on "Good Morning America" (2015), she described being convinced
+        during this time that she was going to die – an existential threat she initially
+        processed largely in private.</p>
+        <p class="vb-intro"><strong>c) No public disclosure at first:</strong>
+        For about a year, Lavigne kept the illness largely out of the public eye before
+        deciding to speak openly about it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) An open interview instead of continued concealment:</strong>
+        In 2015, Lavigne decided to make the illness public and described in detail and
+        bluntly how close she had come to death.</p>
+        <p class="vb-intro"><strong>b) Founding the Avril Lavigne Foundation:</strong>
+        Out of her own experience, she founded a foundation supporting young people with
+        chronic illnesses and disabilities – a direct translation of her own suffering into
+        concrete action for others.</p>
+        <p class="vb-intro"><strong>c) Music as processing instead of denial:</strong>
+        Her 2019 album "Head Above Water," especially the title track, processes the illness
+        directly and explicitly – lines about struggling against drowning were understood as
+        an immediate response to her near-death experience.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Wide media attention for an often-overlooked illness:</strong>
+        Lavigne's public openness helped bring Lyme disease and the often lengthy,
+        hard-to-diagnose experience of those affected to a wide audience.</p>
+        <p class="vb-intro"><strong>b) Commercial and critical success of "Head Above Water":</strong>
+        The album, which grew directly out of her illness experience, became one of her most
+        successful works in years.</p>
+        <p class="vb-intro"><strong>c) Continued public engagement:</strong>
+        Even years after the acute illness, Lavigne remained publicly connected to the topic
+        of chronic illness through her foundation, rather than closing the chapter once
+        recovered.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The wolf that eventually names the threat directly:</strong>
+        The SX6's characteristic strategy of meeting threat not through withdrawal but through
+        direct confrontation showed here too – only delayed in time: after the initial,
+        existentially induced shock, Lavigne actively turned to face the illness instead of
+        continuing to conceal it.</p>
+        <p class="vb-intro"><strong>b) The Seven-Wing and turning suffering into a future project:</strong>
+        Rather than dwelling in the illness narrative, Lavigne translated the experience into
+        two forward-looking projects – a new album and her own foundation. This fits the
+        Seven-Wing's ability to develop new, positive possibilities even out of an existential
+        crisis, rather than remaining in heaviness.</p>
+        <p class="vb-intro"><strong>c) No half-measures of openness:</strong>
+        As in her public disputes with critics, her handling of her own illness knew no
+        half-measures either: no discreet hinting, but a complete, blunt interview about the
+        near-death experience – the SX6w7 at its most direct.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) A voice that suddenly fell silent:</strong>
+        Lavigne's entire career rested on her voice and physical stage presence. Of all
+        things, it was exactly these abilities – speaking, moving – that the illness
+        temporarily took from her completely.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        A parallel shows in
+        <a href="javascript:void(0)" data-route="krankheitsportraets-michael-schumacher">Michael
+        Schumacher (SX6w7)</a>: in his case too, a sudden, existential crisis struck someone
+        whose entire professional life rested on physical control. The decisive difference
+        lies in how each handled it afterward: where Schumacher's circle controlled the threat
+        through complete concealment, Lavigne chose the opposite path within the same SX6w7
+        logic – control through complete disclosure instead of silence.</p>
+        <p class="vb-intro"><strong>c) When the Six under chronic stress moves toward the Three:</strong>
+        In the months immediately following her recovery, an unusual shift stands out for the
+        otherwise direct, confrontational SX6: an intensified focus on visible professional
+        success – a new album, a publicity-generating foundation launch – almost as if the
+        vulnerability she had survived needed to be offset by quickly visible achievement.
+        Someone living through months of existential crisis increasingly moves along their
+        stress line toward their stress point – for the Six, that is the Three. This
+        intensified focus on image and success right after recovery recalls the achievement
+        logic of the stress point, not the pure joy of confrontation of the core type – with
+        the core type unchanged at SX6w7.</p>
+        <p class="vb-intro"><strong>d) Why a tick bite, of all things – invisible and insidious?</strong>
+        For a sexual Six whose entire strategy rests on directly recognizing and confronting
+        visible threats, one interpretation suggests itself: the illness that struck her was
+        the exact opposite of a visible, confrontable danger – an invisible pathogen,
+        undiagnosable for months, that could not be directly faced down. This interpretation
+        is a plausible reading, not a documented medical causal link, and will be developed
+        further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) A Classification Without Determinism:</strong>
+        This does not mean that the sexual Six's pattern inevitably leads to Lyme disease or
+        comparable illnesses – <strong>any person can develop any illness, regardless of
+        subtype.</strong> What Lavigne's case shows is a pattern in how an existential,
+        initially invisible threat is handled, one that recurs again and again in a
+        pronounced sexual Six with a Seven-Wing – one of many possible readings, not a
+        verdict. The corresponding illness will be developed further, over time, in this
+        Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as Its Own Factor:</strong>
+        Lavigne likely does not know her own pattern as an Enneagram structure – the sexual
+        Six with a Seven-Wing reflexively holds onto direct confrontation and turning
+        suffering into visible achievement, rather than allowing herself to simply recover
+        without immediately having to make something of it. Anyone who does not recognize
+        their own tendency to immediately translate even existential crises into new projects
+        risks denying themselves the time needed for pure recovery without any goal
+        attached.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The sexual Six with Seven-Wing explains much about how <strong>Avril Lavigne</strong>
+        handled her own Lyme disease: a woman who could not at first directly grasp an
+        invisible, existential threat turned it, once it became nameable, into open
+        confrontation and then into a forward-looking body of work. The wolf that no longer
+        had to flee the threat once it could finally see it.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-avril-lavigne", label:"Portrait: Avril Lavigne (SX6w7) – life's work"},
+        {route:"krankheitsportraets-michael-schumacher", label:"Illness Portrait: Michael Schumacher (SX6w7) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx6", label:"Subtype Profile SX6"},
       ])}
     </div>
   `);

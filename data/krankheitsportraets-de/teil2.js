@@ -2559,6 +2559,7 @@ export function michaelSchumacherKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SX6w7) – Lebenswerk"},
+        {route:"krankheitsportraets-avril-lavigne", label:"Krankheitsporträt: Avril Lavigne (SX6w7) – gleicher Subtyp, entgegengesetzte Bewältigungsstrategie"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
       ])}
@@ -4046,6 +4047,197 @@ export function juergenDrewsKrankheitsportraetPage() {
         {route:"krankheitsportraets-diego-velazquez", label:"Krankheitsporträt: Diego Velázquez (SX9w1) – dieselbe grenzenlose Verfügbarkeit, anderer Flügel"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx9", label:"Subtyp-Profil SX9"},
+      ])}
+    </div>
+  `);
+}
+
+export function avrilLavigneKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-avril-lavigne-portrait.jpg" alt="Avril Lavigne" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Avril Lavigne</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerflügel · geb. 1984</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Wolf</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Tierentsprechung: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Avril Lavigne</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-avril-lavigne">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten – dort geht es um ihre
+        Musikkarriere und ihren konfrontativen Umgang mit dem Popstar-Image ihrer Zeit. Im
+        Zentrum dieser Seite steht ein anderes Kapitel: eine monatelange, lebensbedrohliche
+        Borreliose-Erkrankung, die 2014 begann.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Lavigne</strong> ist dem <strong>sexuellen Typ 6 mit Siebenerflügel</strong>
+        zugeordnet. Als Kontratyp der Sechs begegnet die SX6 der eigenen Angst nicht mit
+        Rückzug, sondern mit direkter Konfrontation; der Siebenerflügel gibt ihr die
+        Fähigkeit, selbst schwerste Erfahrungen mit einer gewissen Selbstironie und
+        Zukunftsorientierung zu verarbeiten, statt sich in der Schwere zu verlieren. Genau
+        diese Kombination – die Krankheit direkt benennen, statt sie zu verstecken, und sie
+        anschließend in ein positives, zukunftsgerichtetes Projekt verwandeln – bestimmte den
+        Umgang mit der eigenen Borreliose-Erkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Rätselhafte, sich verschlimmernde Erschöpfung:</strong>
+        2014 entwickelte Lavigne eine zunehmende, zunächst nicht erklärbare Erschöpfung, die
+        binnen weniger Wochen zu vollständiger Bettlägerigkeit führte.</p>
+        <p class="vb-intro"><strong>b) Monatelange diagnostische Unsicherheit:</strong>
+        Mehrere Ärzte konnten die Ursache zunächst nicht bestimmen, was die Situation für
+        Lavigne und ihr Umfeld zusätzlich belastete.</p>
+        <p class="vb-intro"><strong>c) Diagnose Borreliose im Oktober 2014:</strong>
+        Erst im Oktober 2014 wurde bei ihr eine durch einen Zeckenbiss übertragene Borreliose
+        diagnostiziert – eine Erklärung, die nach Monaten der Ungewissheit endlich Klarheit
+        brachte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Fünf Monate vollständige Bettlägerigkeit:</strong>
+        Lavigne war rund fünf Monate lang bettlägerig, konnte zeitweise weder sprechen noch
+        sich bewegen oder selbstständig duschen.</p>
+        <p class="vb-intro"><strong>b) Die Überzeugung, sterben zu müssen:</strong>
+        In einem späteren Interview bei ›Good Morning America‹ (2015) beschrieb sie, in
+        dieser Zeit überzeugt gewesen zu sein, sie werde sterben – eine existenzielle
+        Bedrohung, die sie zunächst weitgehend privat verarbeitete.</p>
+        <p class="vb-intro"><strong>c) Zunächst kein öffentliches Bekenntnis:</strong>
+        Rund ein Jahr lang hielt Lavigne die Erkrankung weitgehend aus der Öffentlichkeit
+        heraus, bevor sie sich entschied, offen darüber zu sprechen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Offenes Interview statt fortgesetzter Verheimlichung:</strong>
+        2015 entschied sich Lavigne, die Krankheit öffentlich zu machen, und beschrieb
+        detailliert und unverblümt, wie nah sie dem Tod gewesen war.</p>
+        <p class="vb-intro"><strong>b) Gründung der Avril Lavigne Foundation:</strong>
+        Aus der eigenen Erfahrung heraus gründete sie eine Stiftung, die junge Menschen mit
+        chronischen Erkrankungen und Behinderungen unterstützt – eine direkte Übersetzung des
+        eigenen Leidens in konkretes Handeln für andere.</p>
+        <p class="vb-intro"><strong>c) Musik als Verarbeitung statt Verdrängung:</strong>
+        Ihr 2019 erschienenes Album ›Head Above Water‹, insbesondere der gleichnamige
+        Titelsong, verarbeitet die Erkrankung direkt und explizit – Zeilen über das Ringen mit
+        dem eigenen Ertrinken wurden als unmittelbare Reaktion auf die Nahtoderfahrung
+        verstanden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Breite mediale Aufmerksamkeit für eine oft übersehene Krankheit:</strong>
+        Lavignes öffentliche Offenheit trug dazu bei, Borreliose und die oft langwierige,
+        schwer zu diagnostizierende Krankheitsgeschichte Betroffener einem großen Publikum
+        bekannt zu machen.</p>
+        <p class="vb-intro"><strong>b) Kommerzieller und kritischer Erfolg von ›Head Above Water‹:</strong>
+        Das Album, das direkt aus der Krankheitserfahrung hervorging, wurde zu einem ihrer
+        erfolgreichsten Werke seit Jahren.</p>
+        <p class="vb-intro"><strong>c) Fortgesetztes öffentliches Engagement:</strong>
+        Auch Jahre nach der akuten Erkrankung blieb Lavigne über ihre Stiftung öffentlich mit
+        dem Thema chronische Krankheit verbunden, statt das Kapitel nach der Genesung
+        abzuschließen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Wolf, der die Bedrohung schließlich direkt benennt:</strong>
+        Die SX6-typische Strategie, Bedrohung nicht durch Rückzug, sondern durch direkte
+        Konfrontation zu bewältigen, zeigte sich auch hier – nur zeitlich verschoben: Nach der
+        anfänglichen, existenziell bedingten Schockstarre wandte sich Lavigne der Krankheit
+        aktiv zu, statt sie weiter zu verschweigen.</p>
+        <p class="vb-intro"><strong>b) Der Siebenerflügel und die Verwandlung von Leid in Zukunftsprojekt:</strong>
+        Statt in der Krankheitsgeschichte zu verharren, übersetzte Lavigne die Erfahrung in
+        zwei zukunftsgerichtete Projekte – ein neues Album und eine eigene Stiftung. Das passt
+        zur Fähigkeit des Siebenerflügels, selbst aus einer existenziellen Krise heraus neue,
+        positive Möglichkeiten zu entwickeln, statt in der Schwere zu verharren.</p>
+        <p class="vb-intro"><strong>c) Keine halbe Offenheit:</strong>
+        Wie schon in ihrer öffentlichen Auseinandersetzung mit Kritikern kannte auch ihr
+        Umgang mit der eigenen Krankheit keine halben Lösungen: kein diskretes Andeuten,
+        sondern ein vollständiges, unverblümtes Interview über die Nahtoderfahrung – die
+        SX6w7 in ihrer direktesten Form.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Stimme, die plötzlich verstummte:</strong>
+        Lavignes gesamte Karriere beruhte auf ihrer Stimme und körperlichen Bühnenpräsenz.
+        Ausgerechnet diese Fähigkeiten – sprechen, sich bewegen – waren es, die ihr die
+        Krankheit zeitweise vollständig raubte.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-michael-schumacher">Michael
+        Schumacher (SX6w7)</a>: Auch bei ihm traf eine plötzliche, existenzielle Krise einen
+        Menschen, dessen gesamtes Berufsleben auf körperlicher Kontrolle beruhte. Der
+        entscheidende Unterschied liegt im Umgang danach: Wo Schumachers Umfeld die Bedrohung
+        durch vollständige Abschottung kontrollierte, wählte Lavigne den entgegengesetzten Weg
+        derselben SX6w7-Logik – Kontrolle durch vollständige Offenlegung statt durch
+        Verschweigen.</p>
+        <p class="vb-intro"><strong>c) Wenn die Sechs unter chronischem Stress zur Drei wird:</strong>
+        In den Monaten unmittelbar nach ihrer Genesung fällt eine für die sonst so direkte,
+        konfrontative SX6 ungewöhnliche Verschiebung auf: ein verstärkter Fokus auf sichtbaren
+        beruflichen Erfolg – ein neues Album, eine öffentlichkeitswirksame Stiftungsgründung –,
+        fast als müsse die überstandene Verletzlichkeit durch schnell sichtbare Leistung
+        wettgemacht werden. Wer über Monate in einer existenziellen Krise lebt, bewegt sich
+        entlang seiner Stresslinie in Richtung seines Stresspunkts – bei der Sechs ist das die
+        Drei. Dieser verstärkte Fokus auf Image und Erfolg direkt nach der Genesung erinnert
+        an die Leistungslogik des Stresspunkts, nicht an die reine Konfrontationsfreude des
+        Kerntyps – bei unverändertem Kerntyp SX6w7.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet ein Zeckenbiss, unsichtbar und schleichend?</strong>
+        Für eine sexuelle Sechs, deren gesamte Strategie auf dem direkten Erkennen und
+        Konfrontieren sichtbarer Bedrohungen beruht, liegt eine Deutung nahe: Die Krankheit,
+        die sie traf, war das genaue Gegenteil einer sichtbaren, konfrontierbaren Gefahr – ein
+        unsichtbarer, monatelang nicht diagnostizierbarer Erreger, dem man sich nicht direkt
+        entgegenstellen konnte. Diese Deutung ist eine plausible Interpretation, kein belegter
+        medizinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Sechs zwangsläufig zu Borreliose oder
+        vergleichbaren Erkrankungen führt – <strong>jeder Mensch kann jede Krankheit
+        entwickeln, unabhängig vom Subtyp.</strong> Was sich an Lavignes Fall zeigen lässt,
+        ist ein Muster im Umgang mit einer existenziellen, zunächst unsichtbaren Bedrohung,
+        das bei einer ausgeprägten sexuellen Sechs mit Siebenerflügel immer wieder auffällt –
+        eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild
+        wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Lavigne kennt ihr eigenes Muster vermutlich nicht als Enneagramm-Struktur – die
+        sexuelle Sechs mit Siebenerflügel hält reflexhaft an direkter Konfrontation und der
+        Verwandlung von Leid in sichtbare Leistung fest, statt sich auch einfach nur erholen
+        zu dürfen, ohne sofort wieder etwas daraus machen zu müssen. Wer die eigene Neigung,
+        selbst existenzielle Krisen unmittelbar in neue Projekte zu übersetzen, nicht als
+        Muster erkennt, riskiert, sich selbst die notwendige Zeit für reine Erholung ohne
+        Zielrichtung zu verweigern.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die sexuelle Sechs mit Siebenerflügel erklärt bei <strong>Avril Lavigne</strong>
+        vieles am Umgang mit der eigenen Borreliose-Erkrankung: eine Frau, die eine
+        unsichtbare, existenzielle Bedrohung zunächst nicht direkt fassen konnte, verwandelte
+        sie, sobald sie benennbar war, in offene Konfrontation und anschließend in ein
+        zukunftsgerichtetes Werk. Der Wolf, der die Bedrohung nicht mehr fliehen musste, sobald
+        er sie endlich sehen konnte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-avril-lavigne", label:"Porträt: Avril Lavigne (SX6w7) – Lebenswerk"},
+        {route:"krankheitsportraets-michael-schumacher", label:"Krankheitsporträt: Michael Schumacher (SX6w7) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
       ])}
     </div>
   `);
