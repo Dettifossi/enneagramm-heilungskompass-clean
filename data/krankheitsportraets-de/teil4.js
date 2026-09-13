@@ -4038,3 +4038,193 @@ export function michaelBerrymanKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function alainDelonKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alain-delon-portrait.jpg" alt="Alain Delon" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alain Delon</p>
+        <p class="krim-portrait-typ">SE1w2 · Selbsterhaltender Typ 1 mit Zweierflügel · 1935–2024</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Adler</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Adler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Alain Delon</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-alain-delon">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten. Diese Seite vertieft ein
+        Kapitel, das dort nur gestreift wird: einen Schlaganfall 2019, eine spätere
+        Leukämie-Diagnose und den öffentlich diskutierten Wunsch, notfalls selbstbestimmt über
+        das eigene Lebensende zu entscheiden.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Delon</strong> ist dem <strong>selbsterhaltenden Typ 1 mit Zweierflügel</strong>
+        zugeordnet. Die SE1 richtet ihren Perfektionismus auf die eigene Disziplin und
+        Kontrolle über das eigene Bild; der Zweierflügel gibt ihr die Fähigkeit zu tiefer,
+        aber streng auf einen sehr engen Kreis begrenzter Zuneigung. Genau diese Kombination –
+        Würde und Kontrolle über die eigene Erscheinung, verbunden mit Rückzug in den engsten
+        privaten Kreis statt öffentlicher Klage – bestimmte den Umgang mit Schlaganfall und
+        Leukämie in seinen letzten Lebensjahren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Schlaganfall 2019:</strong>
+        2019 erlitt Delon einen Schlaganfall, der ihn zu einem längeren Klinikaufenthalt
+        zwang und seine körperliche Mobilität dauerhaft einschränkte.</p>
+        <p class="vb-intro"><strong>b) Operation in der Schweiz:</strong>
+        Er wurde in einer Schweizer Klinik behandelt und operiert – die genauen medizinischen
+        Details hielt er, seiner lebenslangen Zurückhaltung entsprechend, weitgehend privat.</p>
+        <p class="vb-intro"><strong>c) Zunehmender Rückzug aus öffentlichen Auftritten:</strong>
+        Nach dem Schlaganfall reduzierte Delon seine öffentlichen Auftritte spürbar, ohne dies
+        ausführlich zu kommentieren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Spätere Leukämie-Diagnose:</strong>
+        In den folgenden Jahren kam eine Leukämie-Erkrankung hinzu, die sein gesundheitlicher
+        Zustand zusätzlich belastete.</p>
+        <p class="vb-intro"><strong>b) Rückzug auf das eigene Anwesen in Douchy:</strong>
+        Delon verbrachte seine letzten Lebensjahre weitgehend zurückgezogen auf seinem
+        Landgut in Douchy, umgeben von seinen Hunden, statt in der Öffentlichkeit oder in
+        einer Klinik.</p>
+        <p class="vb-intro"><strong>c) Öffentlich diskutierter Wunsch nach Sterbehilfe:</strong>
+        Sein Sohn Anthony Delon bestätigte 2023 öffentlich, dass sein Vater für den Fall
+        unerträglichen Leidens über eine begleitete Sterbehilfe in der Schweiz nachgedacht
+        hatte – eine Aussage, die international für Aufsehen sorgte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Keine öffentliche Selbstinszenierung als Kranker:</strong>
+        Anders als manche Prominente in vergleichbarer Lage machte Delon seine Krankheit nie
+        zu einem öffentlichen Thema oder einer Kampagne – sie blieb ein privater Umstand.</p>
+        <p class="vb-intro"><strong>b) Familiäre Streitigkeiten um seine Pflege:</strong>
+        In seinen letzten Lebensjahren kam es zu öffentlich bekannt gewordenen Spannungen
+        zwischen seinen Kindern über die Frage, wer sich in welcher Form um seine Pflege
+        kümmern sollte – ein seltener Bruch in der ansonsten kontrollierten öffentlichen
+        Fassade.</p>
+        <p class="vb-intro"><strong>c) Tod am 18. August 2024:</strong>
+        Delon starb im Alter von 88 Jahren auf seinem Anwesen in Douchy, umgeben von seiner
+        Familie.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Weltweite Trauer und Würdigung:</strong>
+        Sein Tod löste weltweite Nachrufe aus, die ihn als eine der prägendsten Figuren des
+        europäischen Kinos würdigten – die gesundheitliche Vorgeschichte blieb dabei
+        weitgehend im Hintergrund.</p>
+        <p class="vb-intro"><strong>b) Kein öffentliches Bild eines leidenden alten Mannes:</strong>
+        Das öffentliche Bild Delons blieb bis zuletzt von Kontrolle und Würde geprägt, nicht
+        von sichtbarem Leiden.</p>
+        <p class="vb-intro"><strong>c) Nachträgliche Debatte über Sterbehilfe:</strong>
+        Die Enthüllung seines Sterbehilfe-Wunsches durch seinen Sohn löste in Frankreich eine
+        breitere öffentliche Debatte über selbstbestimmtes Sterben aus, die über seinen
+        eigenen Fall hinausreichte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kontrolle bis zum letzten möglichen Moment:</strong>
+        Die SE1-typische Disziplin zeigte sich auch im Umgang mit der eigenen Sterblichkeit:
+        Delon wollte selbst dann noch die Kontrolle über sein eigenes Ende behalten, wenn der
+        Körper diese Kontrolle sonst verweigert hätte.</p>
+        <p class="vb-intro"><strong>b) Der Zweierflügel und der Rückzug in den engsten Kreis:</strong>
+        Dieselbe Struktur, mit der Delon zeitlebens seine tiefste Zuneigung auf einen sehr
+        kleinen Kreis – seine Hunde, wenige enge Freunde – konzentrierte, bestimmte auch, wie
+        er seine letzten Lebensjahre verbrachte: nicht in der Öffentlichkeit, sondern auf dem
+        eigenen Anwesen, umgeben von genau diesem engsten Kreis.</p>
+        <p class="vb-intro"><strong>c) Zorn gegen Kontrollverlust statt gegen die Krankheit selbst:</strong>
+        Der öffentlich gewordene Wunsch nach Sterbehilfe passt zur SE1w2-Logik: Nicht das
+        Leiden selbst war die größte Bedrohung, sondern die Vorstellung, die Kontrolle über
+        das eigene Bild und die eigene Würde zu verlieren.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Mann kontrollierter Präsenz, dem der eigene Körper die Kontrolle entzog:</strong>
+        Delons gesamte Schauspielkunst beruhte auf körperlicher Beherrschung und einer fast
+        undurchdringlichen äußeren Kontrolle. Ausgerechnet Schlaganfall und Leukämie griffen
+        genau diese körperliche Selbstbeherrschung an, die sein ganzes öffentliches Bild
+        trug.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Kerntyp, anderem Flügel:</strong>
+        Ein eigentlicher SE1w2-Parallelfall liegt in diesem Kompass noch nicht vor. Eine
+        Parallele im gleichen Kerntyp zeigt sich jedoch bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-phil-collins">Phil
+        Collins (SE1w9)</a>: Auch bei ihm reagierte eine schwerwiegende körperliche
+        Einschränkung nicht mit öffentlicher Klage, sondern mit disziplinierter, stiller
+        Anpassung. Der Unterschied liegt im Flügel: Wo Collins’ Neunerflügel eine pragmatische,
+        fast unauffällige Weiterarbeit ermöglichte, zeigte sich bei Delons Zweierflügel der
+        Rückzug in den engsten privaten Kreis – dieselbe SE1-Kontrolle, aber mit
+        unterschiedlicher Zielrichtung.</p>
+        <p class="vb-intro"><strong>c) Wenn die Eins unter chronischem Stress zur Vier wird:</strong>
+        In seinen letzten Lebensjahren zeigte Delon in seltenen, sehr zurückhaltenden
+        öffentlichen Äußerungen einen ungewöhnlich introspektiven, fast melancholischen Ton
+        über Einsamkeit, Alter und die eigene Endlichkeit – ein Ton, der von seiner sonst so
+        kontrollierten, sachlichen Fassade abwich. Wer über Jahre in chronischer
+        gesundheitlicher Belastung lebt, bewegt sich zunehmend entlang seiner Stresslinie in
+        Richtung seines Stresspunkts – bei der Eins ist das die Vier. Diese
+        gefühlsbetonte, nach innen gerichtete Rückschau in seinen letzten Lebensjahren erinnert
+        an die melancholische Introspektion des Stresspunkts, nicht an die sachliche
+        Pflichterfüllung des Kerntyps – bei unverändertem Kerntyp SE1w2.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet Gehirn und Blut?</strong>
+        Für einen selbsterhaltenden Einser, dessen gesamte öffentliche Wirkung auf
+        körperlicher Beherrschung und kontrollierter Präsenz beruhte, liegt eine Deutung nahe:
+        Ausgerechnet jene Systeme, die diese Kontrolle im Kern trugen – das Gehirn als Sitz
+        der Beherrschung, das Blut als Grundlage der körperlichen Vitalität –, wurden zum Ort
+        des Kontrollverlusts. Diese Deutung ist eine plausible Interpretation, kein belegter
+        klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu
+        Schlaganfall oder Leukämie führt – <strong>jeder Mensch kann jede Erkrankung
+        entwickeln, unabhängig vom Subtyp.</strong> Was sich an Delons Fall zeigen lässt, ist
+        ein Muster im Umgang mit fortschreitender, lebensbedrohlicher Krankheit, das bei einer
+        ausgeprägten selbsterhaltenden Eins mit Zweierflügel immer wieder auffällt – eine von
+        vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Delon kannte sein eigenes Muster vermutlich nicht als Enneagramm-Struktur – die
+        selbsterhaltende Eins mit Zweierflügel hält reflexhaft an Kontrolle über das eigene
+        Bild und Rückzug in den engsten Kreis fest, statt Leiden öffentlich zu benennen, und
+        lebte genau dieses Muster bis zu seinem Tod unverändert aus. Wer die eigene Neigung,
+        Verletzlichkeit ausschließlich hinter Kontrolle zu verbergen, nicht als Muster
+        erkennt, riskiert, dass die eigene Belastung selbst im engsten Kreis unsichtbar
+        bleibt, auch wenn offener Austausch Entlastung bringen könnte.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 1 mit Zweierflügel erklärt bei <strong>Alain
+        Delon</strong> vieles am Umgang mit Schlaganfall und Leukämie: ein Mann, dessen
+        gesamtes öffentliches Bild auf körperlicher Kontrolle beruhte, verteidigte diese
+        Kontrolle bis zuletzt – notfalls sogar über den eigenen Todeszeitpunkt selbst – und
+        zog sich, statt öffentlich zu leiden, in den engsten Kreis derer zurück, die er
+        wirklich an sich heranließ. Der Adler, der sein Revier bis zum letzten Tag selbst
+        bestimmte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-alain-delon", label:"Porträt: Alain Delon (SE1w2) – Lebenswerk"},
+        {route:"krankheitsportraets-phil-collins", label:"Krankheitsporträt: Phil Collins (SE1w9) – gleicher Kerntyp, anderer Flügel"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se1", label:"Subtyp-Profil SE1"},
+      ])}
+    </div>
+  `);
+}

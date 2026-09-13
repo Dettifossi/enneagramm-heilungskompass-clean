@@ -3863,3 +3863,178 @@ export function michaelBerrymanKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function alainDelonKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alain-delon-portrait.jpg" alt="Alain Delon" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alain Delon</p>
+        <p class="krim-portrait-typ">SE1w2 · Self-Preservation Type 1 with Two-Wing · 1935–2024</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Eagle</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Animal correspondence: Eagle" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Alain Delon</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-alain-delon">Famous
+        Personalities portrait</a>. This page delves into a chapter only touched on there: a
+        stroke in 2019, a later leukemia diagnosis, and the publicly discussed wish to decide,
+        if necessary, on his own terms about the end of his life.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Delon</strong> is assigned to the <strong>self-preservation Type 1 with
+        Two-Wing</strong>. The SE1 directs its perfectionism at its own discipline and control
+        over its own image; the Two-Wing gives it the capacity for deep affection strictly
+        limited to a very small circle. Exactly this combination – dignity and control over
+        one's own appearance, combined with retreat into the innermost private circle rather
+        than public complaint – shaped how he dealt with stroke and leukemia in his final
+        years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A stroke in 2019:</strong>
+        In 2019, Delon suffered a stroke that required an extended hospital stay and
+        permanently limited his physical mobility.</p>
+        <p class="vb-intro"><strong>b) Surgery in Switzerland:</strong>
+        He was treated and operated on at a Swiss clinic – true to his lifelong reserve, he
+        kept the exact medical details largely private.</p>
+        <p class="vb-intro"><strong>c) A growing withdrawal from public appearances:</strong>
+        After the stroke, Delon noticeably reduced his public appearances, without commenting
+        on it at length.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) A later leukemia diagnosis:</strong>
+        In the following years, a leukemia diagnosis added to his declining health.</p>
+        <p class="vb-intro"><strong>b) Withdrawal to his estate in Douchy:</strong>
+        Delon spent his final years largely withdrawn on his estate in Douchy, surrounded by
+        his dogs, rather than in public or in a clinic.</p>
+        <p class="vb-intro"><strong>c) A publicly discussed wish for assisted dying:</strong>
+        His son Anthony Delon publicly confirmed in 2023 that his father had considered
+        assisted dying in Switzerland in case of unbearable suffering – a statement that drew
+        international attention.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) No public self-dramatization as a sick man:</strong>
+        Unlike some celebrities in comparable situations, Delon never turned his illness into
+        a public cause or campaign – it remained a private matter.</p>
+        <p class="vb-intro"><strong>b) Family disputes over his care:</strong>
+        In his final years, tensions among his children over who should care for him and how
+        became publicly known – a rare crack in an otherwise controlled public facade.</p>
+        <p class="vb-intro"><strong>c) Death on August 18, 2024:</strong>
+        Delon died at age 88 on his estate in Douchy, surrounded by his family.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Worldwide mourning and tributes:</strong>
+        His death triggered obituaries worldwide honoring him as one of the defining figures
+        of European cinema – his medical history remained largely in the background.</p>
+        <p class="vb-intro"><strong>b) No public image of a suffering old man:</strong>
+        Delon's public image remained shaped by control and dignity until the end, not by
+        visible suffering.</p>
+        <p class="vb-intro"><strong>c) A subsequent debate on assisted dying:</strong>
+        His son's disclosure of his wish for assisted dying triggered a broader public debate
+        in France about self-determined death that reached far beyond his own case.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Control up to the last possible moment:</strong>
+        The SE1's characteristic discipline also showed in how he handled his own mortality:
+        Delon wanted to retain control over his own end even where the body would otherwise
+        have denied him that control.</p>
+        <p class="vb-intro"><strong>b) The Two-Wing and retreat into the innermost circle:</strong>
+        The same structure with which Delon concentrated his deepest affection throughout his
+        life on a very small circle – his dogs, a few close friends – also determined how he
+        spent his final years: not in public, but on his own estate, surrounded by exactly
+        that innermost circle.</p>
+        <p class="vb-intro"><strong>c) Anger at losing control, not at the illness itself:</strong>
+        The publicly disclosed wish for assisted dying fits the SE1w2 logic: the suffering
+        itself was not the greatest threat, but the prospect of losing control over his own
+        image and dignity.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) A man of controlled presence whose own body took away that control:</strong>
+        Delon's entire acting craft rested on physical mastery and an almost impenetrable
+        outward control. Of all things, stroke and leukemia attacked exactly this physical
+        self-mastery that had carried his entire public image.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same core type, a different wing:</strong>
+        An actual SE1w2 parallel case does not yet exist in this Compass. A parallel within
+        the same core type shows, however, in
+        <a href="javascript:void(0)" data-route="krankheitsportraets-phil-collins">Phil
+        Collins (SE1w9)</a>: in his case too, a serious physical limitation was met not with
+        public complaint, but with disciplined, quiet adaptation. The difference lies in the
+        wing: where Collins' Nine-Wing enabled a pragmatic, almost unassuming continuation of
+        work, Delon's Two-Wing showed itself as withdrawal into the innermost private circle –
+        the same SE1 control, but pointed in a different direction.</p>
+        <p class="vb-intro"><strong>c) When the One under chronic stress moves toward the Four:</strong>
+        In his final years, Delon showed, in rare, very reserved public statements, an
+        unusually introspective, almost melancholic tone about loneliness, age, and his own
+        mortality – a tone that departed from his otherwise controlled, matter-of-fact facade.
+        Someone living under chronic health strain for years increasingly moves along their
+        stress line toward their stress point – for the One, that is the Four. This
+        emotionally charged, inward-turned retrospection in his final years recalls the
+        melancholic introspection of the stress point, not the matter-of-fact sense of duty of
+        the core type – with the core type unchanged at SE1w2.</p>
+        <p class="vb-intro"><strong>d) Why the brain and the blood, of all things?</strong>
+        For a self-preservation One whose entire public impact rested on physical mastery and
+        controlled presence, one interpretation suggests itself: of all things, the systems
+        that carried this control at its core – the brain as the seat of mastery, the blood as
+        the foundation of physical vitality – became the site of lost control. This
+        interpretation is a plausible reading, not a documented clinical causal link, and will
+        be developed further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) A Classification Without Determinism:</strong>
+        This does not mean that the self-preservation One's pattern inevitably leads to stroke
+        or leukemia – <strong>any person can develop any illness, regardless of subtype.</strong>
+        What Delon's case shows is a pattern in how a progressive, life-threatening illness is
+        handled, one that recurs again and again in a pronounced self-preservation One with a
+        Two-Wing – one of many possible readings, not a verdict. The corresponding illness
+        will be developed further, over time, in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as Its Own Factor:</strong>
+        Delon likely did not know his own pattern as an Enneagram structure – the
+        self-preservation One with a Two-Wing reflexively holds onto control over its own
+        image and retreat into the innermost circle, instead of openly naming suffering, and
+        lived out exactly this pattern unchanged until his death. Anyone who does not
+        recognize their own tendency to hide vulnerability exclusively behind control risks
+        letting their own burden remain invisible even within their innermost circle, even
+        where open exchange could bring relief.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The self-preservation Type 1 with Two-Wing explains much about how <strong>Alain
+        Delon</strong> handled stroke and leukemia: a man whose entire public image rested on
+        physical control defended that control to the very end – if necessary, even over the
+        timing of his own death – and, rather than suffering publicly, withdrew into the
+        innermost circle of those he truly let close. The eagle that determined its own
+        territory until the very last day.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SE1w2) – life's work"},
+        {route:"krankheitsportraets-phil-collins", label:"Illness Portrait: Phil Collins (SE1w9) – same core type, different wing"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se1", label:"Subtype Profile SE1"},
+      ])}
+    </div>
+  `);
+}
