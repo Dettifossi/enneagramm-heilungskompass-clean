@@ -1026,6 +1026,7 @@ export function marioBarthPortraitPage() {
           {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
           {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
           {route:"beruehmte-heike-makatsch", label:"Portrait: Heike Makatsch (SX9w8)"},
+          {route:"beruehmte-juergen-von-der-lippe", label:"Portrait: Jürgen von der Lippe (SX9w8) – also crude humor as audience closeness"},
           {route:"beruehmte-dakota-johnson", label:"Portrait: Dakota Johnson (SX9w8)"},
           {route:"beruehmte-lucy-cooke", label:"Portrait: Lucy Cooke (SX9w8)"},
           {route:"beruehmte-elizabeth-barrett-browning", label:"Portrait: Elizabeth Barrett Browning (SX9w8)"},

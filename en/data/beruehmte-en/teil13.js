@@ -1835,44 +1835,46 @@ export function juergenVonDerLippePortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-juergen-von-der-lippe-portrait.jpg" alt="Jürgen von der Lippe – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jürgen von der Lippe</p>
-        <p class="krim-portrait-typ">SO9w8 &middot; Social Type 9 with Eight-wing</p>
-        <p class="krim-portrait-subtitle">Entertainer, born 1948 &ndash; Animal correspondence: Buffalo</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexual Type 9 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Entertainer, born 1948 &ndash; Animal correspondence: Sloth</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Buffalo That Grew Old in the Same Network Herd</h2>
+        <h2 class="vb-section">1. The Sloth With the Cheeky Remark</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>buffalo</strong> doesn't live as a lone animal, but as part of a herd that moves together. Jürgen von der Lippe, born Hans-Jürgen Dohrenkamp in 1948 in Bad Salzuflen, had his breakthrough in 1980 with the 'WWF-Club' on WDR – and stayed loyal to German public television and its audience for more than four decades afterward, from 'Geld oder Liebe' (1989–2001) to countless other formats well into old age.</p>
-          <p class="vb-intro">In his private life, too, he has lived with his wife Anne Dohrenkamp for over 40 years – though in separate apartments, as he openly explains. A bond measured not by outward convention, but simply by the fact that it holds.</p>
+          <p class="vb-intro">The <strong>sloth</strong> doesn't seek the big herd, but the one intense connection it can fall completely into. Jürgen von der Lippe, born Hans-Jürgen Dohrenkamp in 1948 in Bad Salzuflen, had his breakthrough in 1980 with the 'WWF-Club' on WDR – but his real element was never the television apparatus itself, but the immediate, physically felt contact with the audience right in front of him.</p>
+          <p class="vb-intro">Telling detail: on his live tours he deliberately chooses venues seating 500 to 2,000 people, because larger halls make him uncomfortable – and after every single show, he holds an autograph session. Not a fleeting, distant relationship with his audience, but one he actively seeks out anew every single evening.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Social Nine: Belonging to the Network, Not a Solo Star</h2>
+        <h2 class="vb-section">2. The Sexual Nine: Merging With the Audience, Not the Network</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Social Nine (SO9)</strong>, per Naranjo, gains her identity not as a standout individual, but by dissolving into a cause or institution she feels she belongs to. In von der Lippe this shows in his decades-long connection to German public broadcasting: he never took a big private-network deal, but stayed loyal to the familiar programming environment he grew up in – show after show, decade after decade, with no ambition to elevate himself as a solo brand above the medium.</p>
-          <p class="vb-intro">The same unhurried reliability runs through his stage life: even past 75, he keeps touring, without farewell gestures or grand staging of his own withdrawal – simply because the stage and the audience are part of his life, not because he needs to prove anything.</p>
+          <p class="vb-intro">The <strong>sexual Nine (SX9)</strong>, per Naranjo, seeks not belonging to a large group but complete merging in the immediate moment with the person or people in front of her. In von der Lippe this shows in how he reworks his program for each specific audience every single evening rather than running through a fixed set – the connection is built in the room, not on paper. He has refused editorial control over his stage material throughout his career, precisely because that would limit this live, unfiltered response to the audience before him.</p>
+          <p class="vb-intro">His more than 40-year bond with Anne Dohrenkamp also carries SX9 traits: he married her in 1983, divorced her, hastily married Margarethe Schreinemakers in 1986 – "because we found each other utterly amazing," as she later put it – split from her too in 1988, and afterward found his way back to Dohrenkamp, with whom he still lives today, in separate apartments. Not a clean picture of lifelong institutional loyalty, but the SX9's characteristic intense circling around the one bond that is found again in the end.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Eight-wing: The Cheeky Remark That's Never Far Off</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing</strong> gives the social Nine a directness that's rarely diplomatically wrapped. Von der Lippe is known for "always having a cheeky remark ready" – his humor has been called "at times crude" for decades, never tame or well-behaved. Rather than adapting to agreeable mainstream television, he grows sharper with age: "Big TV shows, mainstream, that's not my thing anymore, and no broadcaster wants it either – it takes young people who are compatible with grandmothers" – a jab that dresses nothing up.</p>
-          <p class="vb-intro">The Eight-wing's directness shows even more clearly in his open criticism of the TV industry: "There's less and less money for programming, but more and more people who want a say, mainly by raising concerns." No vague dissatisfaction, but a clear, blunt naming of what bothers him – from a man who otherwise never stages himself as a loud fighter.</p>
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the sexual Nine a directness that's rarely diplomatically wrapped. Von der Lippe is known for "always having a cheeky remark ready"; one of his own stage programs is even titled 'Sex und Humor,' and his early radio job ended because the responsible editor disliked his frequent sexual jokes. Tellingly, this crude humor is deployed not to shock, but to create exactly the direct, physically felt closeness to the audience that matters to the SX9.</p>
+          <p class="vb-intro">The same Eight-wing directness shows in his open criticism of the TV industry: "There's less and less money for programming, but more and more people who want a say, mainly by raising concerns." No vague dissatisfaction, but a clear, blunt naming of what bothers him – from a man who otherwise never stages himself as a loud fighter.</p>
+          <p class="vb-intro"><strong>Distinguishing from the Social Nine:</strong> The social Nine would also be a natural first guess: loyal to the same public broadcaster for over four decades, never switching to a big private-network deal. The decisive difference lies in where the actual merging happens. The Social Nine would dissolve into the institution itself, into the large collective of the network and its mass audience. Von der Lippe, by contrast, explicitly seeks the opposite of the big, anonymous stage – small venues instead of arenas, individual autograph sessions instead of distance, nightly reworking of material instead of a fixed program. His network loyalty is better read as the outer frame within which this one, concrete audience closeness can keep being built, not as the actual goal itself.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Work: From Signals Officer to Entertainment Institution</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">After officer training in the German army and an unfinished teaching degree, von der Lippe co-founded the cabaret group "Gebrüder Blattschuss" with Hans Werner Olm in 1976. Record hits like 'Kreuzberger Nächte' and 'Guten Morgen, liebe Sorgen' followed, along with numerous stage characters he embodied himself across decades.</p>
-          <p class="vb-intro">Shows like 'Geld oder Liebe,' 'Donnerlippchen,' and 'Lippes Leselust' made him one of the most consistent figures in German television – not through one big career leap, but through steady presence across generations of viewers.</p>
+          <p class="vb-intro">Shows like 'Geld oder Liebe,' 'Donnerlippchen,' and 'Lippes Leselust' made him one of the most consistent figures in German television – not through one big career leap, but through steady presence across generations of viewers. His stage repertoire still includes uncannily precise impressions of other musicians, among them Peter Maffay (SX9w1) – a feat that itself requires a sharp sense for someone else's stage presence.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow of the Social Nine with Eight-wing</h2>
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Nine with Eight-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SO9w8 shows in von der Lippe in a rare combination: decades of unhurried reliability toward his audience and network, paired with the courage to state uncomfortable truths about his own industry plainly, rather than currying favor.</p>
-          <p class="vb-intro">The shadow of the Nine shows in how his own profile long remained barely visible as a standalone brand behind the institution of television – only the sharper, later statements revealed how much critical observation had accumulated behind the friendly entertainer facade over all those years.</p>
+          <p class="vb-intro">The light of the SX9w8 shows in von der Lippe in a rare combination: the ability to fully engage with one specific audience anew every single evening, paired with the courage to state uncomfortable truths plainly, rather than currying favor.</p>
+          <p class="vb-intro">The shadow of the Nine shows in his relationship history: two divorces before the one bond that mattered in the end was found again – a pattern in which merging is first sought with the wrong person before the right one prevails. Behind the crude, audience-facing facade, too, little was visible for a long time of a man who articulates his own, independent needs off stage.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Entertainer Who Never Changed Networks</h2>
+        <h2 class="vb-section">6. The Sloth Who Chose the Small Stage Over the Big One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jürgen von der Lippe's path shows the social Nine with Eight-wing in a down-to-earth, decades-held form: the same network, the same audience, the same partner – paired with a growing willingness, in old age, to speak more plainly rather than more quietly. The buffalo stays in its herd, even as it occasionally tells that herd exactly what it thinks.</p>
+          <p class="vb-intro">Jürgen von der Lippe's path shows the sexual Nine with Eight-wing in an unvarnished, decades-held form: the small, felt room over the big, anonymous hall; the one woman he found his way back to after detours, rather than a clean, straight relationship line. The sloth doesn't choose its bond by size, but by whether it feels real.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-mario-barth">Mario Barth</a> (SX9w8) &ndash; in him, the same combination of Nine-merging with a stage persona and Eight-wing directness shows up in crude humor. More in the <a href="javascript:void(0)" data-route="beruehmte-mario-barth">portrait of Mario Barth</a>.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -1880,10 +1882,10 @@ export function juergenVonDerLippePortraitPage() {
 
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
-          {route:"beruehmte-ronald-reagan", label:"Portrait: Ronald Reagan (SO9w8)"},
-          {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
-          {route:"beruehmte-wilma-mankiller", label:"Portrait: Wilma Mankiller (SO9w8)"},
+          {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+          {route:"beruehmte-mario-barth", label:"Portrait: Mario Barth (SX9w8)"},
+          {route:"beruehmte-juergen-drews", label:"Portrait: Jürgen Drews (SX9w8)"},
+          {route:"beruehmte-francois-damiens", label:"Portrait: François Damiens (SX9w8)"},
         ])}
       </div>
     </div>

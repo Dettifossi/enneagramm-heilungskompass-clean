@@ -1026,6 +1026,7 @@ export function marioBarthPortraitPage() {
           {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
           {route:"subtype/sx9", label:"SX9 \u2013 Das Faultier: Subtyp-Profil"},
           {route:"beruehmte-heike-makatsch", label:"Portr\u00e4t: Heike Makatsch (SX9w8)"},
+          {route:"beruehmte-juergen-von-der-lippe", label:"Portr\u00e4t: J\u00fcrgen von der Lippe (SX9w8) \u2013 ebenfalls derber Humor als Publikumsn\u00e4he"},
           {route:"beruehmte-dakota-johnson", label:"Portr\u00e4t: Dakota Johnson (SX9w8)"},
           {route:"beruehmte-lucy-cooke", label:"Portr\u00e4t: Lucy Cooke (SX9w8)"},
           {route:"beruehmte-elizabeth-barrett-browning", label:"Portr\u00e4t: Elizabeth Barrett Browning (SX9w8)"},

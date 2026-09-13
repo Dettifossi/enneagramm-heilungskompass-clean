@@ -1903,7 +1903,6 @@ export function carloAncelottiPortraitPage() {
           {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
           {route:"beruehmte-ronald-reagan", label:"Portrait: Ronald Reagan (SO9w8)"},
           {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8) – also delayed, then clear directness"},
-          {route:"beruehmte-juergen-von-der-lippe", label:"Portrait: Jürgen von der Lippe (SO9w8)"},
           {route:"beruehmte-sergio-bambaren", label:"Portrait: Sergio Bambarén (SO9w8)"},
         ])}
       </div>

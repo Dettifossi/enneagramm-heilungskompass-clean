@@ -1562,7 +1562,6 @@ export function willyBrandtPortraitPage() {
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
         {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
         {route:"krankheitsportraets-willy-brandt", label:"Illness Portrait: Willy Brandt (SO9w8) – recurring depression, colon cancer"},
-        {route:"beruehmte-juergen-von-der-lippe", label:"Portrait: Jürgen von der Lippe (SO9w8)"},
         {route:"beruehmte-carlo-ancelotti", label:"Portrait: Carlo Ancelotti (SO9w8) – also delayed, then clear directness"},
       ])}
     </div>

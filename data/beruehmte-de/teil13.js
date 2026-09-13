@@ -1851,44 +1851,46 @@ export function juergenVonDerLippePortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-juergen-von-der-lippe-portrait.jpg" alt="Jürgen von der Lippe – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jürgen von der Lippe</p>
-        <p class="krim-portrait-typ">SO9w8 &middot; Sozialer Typ 9 mit Achterflügel</p>
-        <p class="krim-portrait-subtitle">Entertainer, geb. 1948 &ndash; Tierentsprechung: Büffel</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Entertainer, geb. 1948 &ndash; Tierentsprechung: Faultier</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Der Büffel, der im selben Sender-Rudel alt wurde</h2>
+        <h2 class="vb-section">1. Das Faultier mit dem frechen Spruch</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Büffel</strong> lebt nicht als Einzeltier, sondern als Teil einer Herde, die sich gemeinsam bewegt. Jürgen von der Lippe, eigentlich Hans-Jürgen Dohrenkamp, geboren 1948 in Bad Salzuflen, fand seinen Durchbruch 1980 mit dem ›WWF-Club‹ im WDR – und blieb dem öffentlich-rechtlichen Fernsehen und seinem Publikum danach über vier Jahrzehnte treu, von ›Geld oder Liebe‹ (1989–2001) bis zu zahllosen weiteren Formaten bis ins hohe Alter.</p>
-          <p class="vb-intro">Auch privat lebt er seit über 40 Jahren mit seiner Frau Anne Dohrenkamp zusammen – allerdings in getrennten Wohnungen, wie er selbst offen erzählt. Eine Bindung, die sich nicht an äußeren Konventionen misst, sondern daran, dass sie einfach hält.</p>
+          <p class="vb-intro">Das <strong>Faultier</strong> sucht nicht die große Herde, sondern die eine, intensive Verbindung, in die es sich fallen lassen kann. Jürgen von der Lippe, eigentlich Hans-Jürgen Dohrenkamp, geboren 1948 in Bad Salzuflen, fand seinen Durchbruch 1980 mit dem ›WWF-Club‹ im WDR – doch sein eigentliches Element wurde nie der große Fernsehapparat, sondern der unmittelbare, körperlich spürbare Kontakt mit dem Publikum vor ihm.</p>
+          <p class="vb-intro">Bezeichnend dafür: Bei seinen Live-Tourneen wählt er bewusst Säle mit 500 bis 2000 Plätzen, weil ihm größere Hallen unangenehm sind – und nach jedem einzelnen Auftritt gibt er eine Autogrammstunde. Keine flüchtige Publikumsbeziehung aus der Distanz, sondern eine, die er jeden Abend aufs Neue sucht.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die soziale Neun: Zugehörigkeit zum Sender statt Solo-Star</h2>
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit dem Publikum, nicht mit dem Sender</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> gewinnt ihre Identität nach Naranjo nicht als herausgehobene Einzelperson, sondern durch das Aufgehen in einer Sache oder Institution, der sie sich zugehörig fühlt. Bei von der Lippe zeigt sich das in seiner jahrzehntelangen Verbundenheit mit dem öffentlich-rechtlichen Fernsehen: Er wechselte nie zu einem großen Privatsender-Deal, sondern blieb dem vertrauten Programmumfeld treu, in dem er groß wurde – Show für Show, Jahrzehnt für Jahrzehnt, ohne den Anspruch, sich als Solo-Marke über das Medium zu erheben.</p>
-          <p class="vb-intro">Dieselbe unaufgeregte Verlässlichkeit zieht sich durch sein Bühnenleben: Auch mit über 75 Jahren tourt er weiter, ohne Abschiedsgesten oder große Inszenierung des eigenen Rückzugs – einfach, weil die Bühne und das Publikum zu seinem Leben gehören, nicht weil er es nötig hätte, sich zu beweisen.</p>
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht nach Naranjo nicht Zugehörigkeit zu einer großen Gruppe, sondern die vollständige Verschmelzung im unmittelbaren Moment mit dem Gegenüber. Bei von der Lippe zeigt sich das darin, dass er sein Programm jeden Abend neu auf das jeweilige Publikum zuschneidet, statt ein starres Set abzuspulen – die Verbindung entsteht im Raum, nicht auf dem Papier. Redaktionelle Kontrolle über sein Bühnenmaterial hat er sich zeitlebens verbeten, weil das genau diese lebendige, ungefilterte Reaktion auf das Publikum vor ihm einschränken würde.</p>
+          <p class="vb-intro">Auch seine über 40-jährige Verbindung zu Anne Dohrenkamp trägt SX9-Züge: 1983 heiratete er sie, ließ sich scheiden, heiratete 1986 überstürzt Margarethe Schreinemakers – „weil wir uns unheimlich toll fanden", wie diese es später beschrieb –, trennte sich 1988 auch von ihr und fand danach wieder zu Dohrenkamp zurück, mit der er bis heute, in getrennten Wohnungen, zusammenlebt. Kein glattes Bild lebenslanger Institutionstreue, sondern das SX9-typische intensive Kreisen um die eine Bindung, die am Ende doch wieder gefunden wird.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Achterflügel: Der freche Spruch, der nicht ausbleibt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der sozialen Neun eine Direktheit, die selten diplomatisch verpackt wird. Von der Lippe ist bekannt dafür, „immer einen frechen Spruch parat" zu haben – sein Humor gilt seit Jahrzehnten als „mitunter derb", nie als angepasst-brav. Statt sich dem gefälligen Mainstream-Fernsehen anzupassen, wird er im Alter eher schärfer: „Große Fernsehshows, also Mainstream, ist nicht mehr mein Ding, das will auch kein Sender, da braucht es schwiegermutterkompatible junge Menschen" – ein Seitenhieb, der nichts beschönigt.</p>
-          <p class="vb-intro">Noch deutlicher wird die Achter-Direktheit in seiner offenen Fernsehkritik: „Es ist immer weniger Geld fürs Programm da, dafür gibt es immer mehr Menschen, die mitreden wollen, dabei aber hauptsächlich Bedenken tragen." Keine vage Unzufriedenheit, sondern eine klare, unverblümte Benennung dessen, was ihn stört – bei einem Mann, der sich ansonsten nie als lautstarker Kämpfer inszeniert.</p>
+          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der sexuellen Neun eine Direktheit, die selten diplomatisch verpackt wird. Von der Lippe ist bekannt dafür, „immer einen frechen Spruch parat" zu haben; ein eigenes Bühnenprogramm trägt sogar den Titel ›Sex und Humor‹, und schon sein früher Rundfunk-Job endete, weil dem zuständigen Redakteur seine häufigen sexuellen Witze missfielen. Bezeichnend ist, wie dieser derbe Humor eingesetzt wird: nicht um zu schockieren, sondern um genau jene direkte, körperlich spürbare Nähe zum Publikum herzustellen, die für die SX9 zählt.</p>
+          <p class="vb-intro">Dieselbe Achter-Direktheit zeigt sich in seiner offenen Fernsehkritik: „Es ist immer weniger Geld fürs Programm da, dafür gibt es immer mehr Menschen, die mitreden wollen, dabei aber hauptsächlich Bedenken tragen." Keine vage Unzufriedenheit, sondern eine klare, unverblümte Benennung dessen, was ihn stört – bei einem Mann, der sich ansonsten nie als lautstarker Kämpfer inszeniert.</p>
+          <p class="vb-intro"><strong>Abgrenzung zur sozialen Neun:</strong> Naheliegend wäre auch die soziale Neun: über vier Jahrzehnte demselben öffentlich-rechtlichen Sender treu, nie zu einem großen Privatsender-Deal gewechselt. Der entscheidende Unterschied liegt jedoch darin, wo die eigentliche Verschmelzung stattfindet. Die SO9 ginge in der Institution selbst auf, im großen Kollektiv des Senders und seines Millionenpublikums. Von der Lippe sucht dagegen ausdrücklich das Gegenteil der großen, anonymen Bühne – kleine Säle statt Stadien, individuelle Autogrammstunden statt Distanz, nächtliche Materialanpassung statt festem Programm. Die Sender-Treue ist bei ihm eher der äußere Rahmen, in dem sich diese eine, konkrete Publikumsnähe immer wieder herstellen lässt, nicht das eigentliche Ziel.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Das Werk: Vom Fernmeldeoffizier zum Entertainer-Urgestein</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Nach einer Offiziersausbildung bei der Bundeswehr und einem abgebrochenen Lehramtsstudium gründete von der Lippe 1976 mit Hans Werner Olm die Kabarettgruppe „Gebrüder Blattschuss". Es folgten Plattenhits wie ›Kreuzberger Nächte‹ und ›Guten Morgen, liebe Sorgen‹ sowie zahlreiche eigene Kunstfiguren, die er über Jahrzehnte auf der Bühne selbst verkörperte.</p>
-          <p class="vb-intro">Shows wie ›Geld oder Liebe‹, ›Donnerlippchen‹ oder ›Lippes Leselust‹ machten ihn zu einer der konstantesten Figuren des deutschen Fernsehens – nicht durch einen einzelnen großen Karrieresprung, sondern durch beständige Präsenz über Generationen von Zuschauern hinweg.</p>
+          <p class="vb-intro">Shows wie ›Geld oder Liebe‹, ›Donnerlippchen‹ oder ›Lippes Leselust‹ machten ihn zu einer der konstantesten Figuren des deutschen Fernsehens – nicht durch einen einzelnen großen Karrieresprung, sondern durch beständige Präsenz über Generationen von Zuschauern hinweg. Zu seinem Bühnenrepertoire gehören bis heute auch täuschend echte Imitationen anderer Musiker, darunter Peter Maffay (SX9w1) – ein Kunststück, das selbst ein präzises Gespür für fremde Bühnenpräsenz verlangt.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Licht und Schatten der sozialen Neun mit Achterflügel</h2>
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Achterflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO9w8 zeigt sich bei von der Lippe in einer seltenen Kombination: jahrzehntelange, unaufgeregte Verlässlichkeit gegenüber seinem Publikum und seinem Sender, gepaart mit dem Mut, unbequeme Wahrheiten über die eigene Branche unumwunden auszusprechen, statt sich anzubiedern.</p>
-          <p class="vb-intro">Der Schatten der Neun zeigt sich darin, dass sein eigenes Profil hinter der Institution Fernsehen lange kaum als eigenständige Marke sichtbar wurde – erst die schärferen, späteren Äußerungen ließen erkennen, wie viel kritische Beobachtung sich hinter der freundlichen Entertainer-Fassade all die Jahre angesammelt hatte.</p>
+          <p class="vb-intro">Das Licht der SX9w8 zeigt sich bei von der Lippe in einer seltenen Kombination: die Fähigkeit, sich jeden Abend aufs Neue vollständig auf ein konkretes Publikum einzulassen, gepaart mit dem Mut, unbequeme Wahrheiten unumwunden auszusprechen, statt sich anzubiedern.</p>
+          <p class="vb-intro">Der Schatten der Neun zeigt sich in seiner Beziehungsgeschichte: zwei Scheidungen, bevor die eine Bindung, die am Ende zählte, wieder gefunden wurde – ein Muster, in dem die Verschmelzung zunächst mit der falschen Person gesucht wird, bevor sich die richtige durchsetzt. Auch hinter der derben, publikumszugewandten Fassade blieb lange wenig von einem Mann sichtbar, der abseits der Bühne eigene, unabhängige Bedürfnisse formuliert.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Der Entertainer, der nie den Sender wechselte</h2>
+        <h2 class="vb-section">6. Das Faultier, das die kleine Bühne der großen vorzog</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jürgen von der Lippes Weg zeigt die soziale Neun mit Achterflügel in einer bodenständigen, jahrzehntelang gehaltenen Form: derselbe Sender, dasselbe Publikum, dieselbe Partnerin – bei gleichzeitiger Bereitschaft, im Alter deutlicher zu werden, statt leiser. Der Büffel bleibt in seiner Herde, auch wenn er ihr gelegentlich unverblümt die Meinung sagt.</p>
+          <p class="vb-intro">Jürgen von der Lippes Weg zeigt die sexuelle Neun mit Achterflügel in einer unverstellten, jahrzehntelang gehaltenen Form: lieber der kleine, spürbare Saal als die große, anonyme Halle; lieber die eine Frau, zu der er nach Umwegen zurückfand, als eine glatte, gerade Beziehungslinie. Das Faultier sucht sich seine Verbindung nicht nach Größe aus, sondern danach, ob sie sich echt anfühlt.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-mario-barth">Mario Barth</a> (SX9w8) &ndash; bei ihm zeigt sich dieselbe Kombination aus Neuner-Verschmelzung mit einer Bühnenfigur und Achterflügel-Direktheit im derben Humor. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-mario-barth">Porträt zu Mario Barth</a>.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -1896,10 +1898,10 @@ export function juergenVonDerLippePortraitPage() {
 
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
-          {route:"beruehmte-ronald-reagan", label:"Porträt: Ronald Reagan (SO9w8)"},
-          {route:"beruehmte-willy-brandt", label:"Porträt: Willy Brandt (SO9w8)"},
-          {route:"beruehmte-wilma-mankiller", label:"Porträt: Wilma Mankiller (SO9w8)"},
+          {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+          {route:"beruehmte-mario-barth", label:"Porträt: Mario Barth (SX9w8)"},
+          {route:"beruehmte-juergen-drews", label:"Porträt: Jürgen Drews (SX9w8)"},
+          {route:"beruehmte-francois-damiens", label:"Porträt: François Damiens (SX9w8)"},
         ])}
       </div>
     </div>

@@ -1882,6 +1882,7 @@ export function francoisDamiensPortraitPage() {
           {route:"subtype/sx9", label:"SX9 \u2013 The Sloth: Subtype Profile"},
           {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w8) \u2013 also provocation as the Eight-wing's weapon"},
           {route:"beruehmte-juergen-drews", label:"Portrait: J\u00fcrgen Drews (SX9w8)"},
+          {route:"beruehmte-juergen-von-der-lippe", label:"Portrait: J\u00fcrgen von der Lippe (SX9w8) \u2013 also crude humor as audience closeness"},
           {route:"beruehmte-michael-berryman", label:"Portrait: Michael Berryman (SX9w8) \u2013 also turned an unusual appearance into a career"},
         ])}
       </div>

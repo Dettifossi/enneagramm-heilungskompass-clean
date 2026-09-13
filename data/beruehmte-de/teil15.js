@@ -1884,6 +1884,7 @@ export function francoisDamiensPortraitPage() {
           {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
           {route:"beruehmte-hundertwasser", label:"Porträt: Friedensreich Hundertwasser (SX9w8) – ebenfalls Provokation als Waffe des Achterflügels"},
           {route:"beruehmte-juergen-drews", label:"Porträt: Jürgen Drews (SX9w8)"},
+          {route:"beruehmte-juergen-von-der-lippe", label:"Porträt: Jürgen von der Lippe (SX9w8) – ebenfalls derber Humor als Publikumsnähe"},
           {route:"beruehmte-michael-berryman", label:"Porträt: Michael Berryman (SX9w8) – ebenfalls ungewöhnliches Äußeres zum Beruf gemacht"},
         ])}
       </div>
