@@ -4164,7 +4164,7 @@ export function connieChiuKrankheitsportraetPage() {
         The self-preservation Type 4 with Five-Wing explains much about how <strong>Connie
         Chiu</strong> handled her own albinism: a woman whose physical difference made others
         stare turned that difference not into a loud accusation, but into the quiet foundation
-        of two independent artistic careers. The dove that stayed calmest in the brightest
+        of two independent artistic careers. The dove that stays calmest in the brightest
         light.</p>
       </div>
 

@@ -4364,7 +4364,7 @@ export function connieChiuKrankheitsportraetPage() {
         vieles am Umgang mit dem eigenen Albinismus: eine Frau, deren körperliche Besonderheit
         andere zum Anstarren brachte, verwandelte diese Besonderheit nicht in eine laute
         Anklage, sondern in die ruhige Grundlage zweier eigenständiger künstlerischer
-        Karrieren. Die Taube, die im hellsten Licht am ruhigsten blieb.</p>
+        Karrieren. Die Taube, die im hellsten Licht am ruhigsten bleibt.</p>
       </div>
 
       ${relatedLinks([
