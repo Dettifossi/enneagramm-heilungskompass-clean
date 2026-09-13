@@ -4189,3 +4189,192 @@ export function philCollinsKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function connieChiuKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-connie-chiu-portrait.jpg" alt="Connie Chiu" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Connie Chiu</p>
+        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel · geb. 1969</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Taube</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Tierentsprechung: Taube" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Connie Chiu</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-connie-chiu">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten – dort geht es um ihre
+        Doppelkarriere als Model und Jazzsängerin. Diese Seite blickt genauer auf die
+        körperliche Grundlage dieser Geschichte: einen angeborenen Albinismus, verbunden mit
+        lebenslanger Lichtempfindlichkeit, erhöhtem Hautkrebsrisiko und eingeschränkter
+        Sehkraft.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Chiu</strong> ist dem <strong>selbsterhaltenden Typ 4 mit Fünferflügel</strong>
+        zugeordnet. Die SE4 ist nach Naranjo der Kontratyp der Vier: Statt das eigene
+        Anderssein zur Schau zu stellen, wird es beharrlich heruntergespielt und praktisch
+        bewältigt; der Fünferflügel gibt ihr eine strukturierte, beobachtende Distanz zum
+        eigenen Erleben. Genau diese Kombination – die körperliche Besonderheit sachlich
+        benennen, statt sie zu dramatisieren, und sie in zwei parallel aufgebaute Karrieren zu
+        übersetzen – bestimmte den Umgang mit dem eigenen Albinismus.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Angeboren, als einziges von vier Kindern:</strong>
+        Chiu wurde 1969 in Hongkong als einziges von vier Kindern ihrer chinesischen Familie
+        mit Albinismus geboren – einer genetisch bedingten, angeborenen Störung der
+        Melaninbildung.</p>
+        <p class="vb-intro"><strong>b) Extreme Lichtempfindlichkeit in Hongkongs Klima:</strong>
+        Die intensive Sonneneinstrahlung Hongkongs stellte für Chiu aufgrund der mit
+        Albinismus verbundenen Licht- und UV-Empfindlichkeit von Haut und Augen eine
+        erhebliche gesundheitliche Belastung dar.</p>
+        <p class="vb-intro"><strong>c) Umzug nach Schweden als gesundheitliche Schutzmaßnahme:</strong>
+        Mit sieben Jahren zog die Familie nach Schweden – eine bewusste, unspektakuläre
+        Entscheidung, um sie vor der intensiven Sonne Hongkongs zu schützen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Lebenslanger Sonnenschutz als tägliche Notwendigkeit:</strong>
+        Menschen mit Albinismus tragen ein deutlich erhöhtes Hautkrebsrisiko und sind auf
+        konsequenten Sonnenschutz angewiesen – eine Einschränkung, die Chius gesamten Alltag
+        und ihre berufliche Tätigkeit vor der Kamera und auf der Bühne mitprägte.</p>
+        <p class="vb-intro"><strong>b) Eingeschränkte Sehkraft trotz Modelkarriere:</strong>
+        Albinismus geht häufig mit verminderter Sehschärfe und Nystagmus einher – eine
+        Einschränkung, die in auffälligem Kontrast zu einem Beruf steht, der visuelle
+        Präsenz und räumliche Orientierung auf dem Laufsteg verlangt.</p>
+        <p class="vb-intro"><strong>c) Wiederholte Provokationen wegen des äußeren Erscheinungsbilds:</strong>
+        Chiu berichtete, wiederholt provoziert und unter anderem nach einem
+        Horrorfilm-Charakter „Weißhaarige Teufelsfrau" gerufen worden zu sein.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Relativierung statt Anklage in der öffentlichen Sprache:</strong>
+        Chiu beschrieb die Provokationen auffallend nüchtern: „Ich wurde in der Schule nicht
+        gemobbt, aber hin und wieder versuchen Leute, mich zu provozieren oder aufzuregen" –
+        eine Formulierung, die relativiert statt anklagt.</p>
+        <p class="vb-intro"><strong>b) Keine öffentliche Reduktion auf die Diagnose:</strong>
+        Chiu ließ sich in Interviews nie auf die Rolle „das erste Albino-Model" reduzieren,
+        sondern verwies stattdessen konsequent auf ihre doppelte künstlerische Laufbahn als
+        Model und Jazzsängerin.</p>
+        <p class="vb-intro"><strong>c) Analytische statt emotionale Reflexion über Vorurteile:</strong>
+        Ihre öffentlichen Aussagen über Reaktionen auf ihr Äußeres bleiben auffallend
+        analytisch: „Es liegt in der menschlichen Natur, Vorurteile zu haben ... Ich habe es
+        immer bevorzugt, dort zu sein, wo sich viele verschiedene Menschen mischen."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Pionierrolle in der Modebranche:</strong>
+        Chius Debüt bei Jean Paul Gaultier mit 24 Jahren machte sie zum ersten bekannten Model
+        mit Albinismus in der internationalen Modebranche – eine Sichtbarkeit, die weit über
+        ihre eigene Karriere hinaus wirkte.</p>
+        <p class="vb-intro"><strong>b) Vorbildfunktion für andere Betroffene:</strong>
+        Auf die Frage, was sie einem Kind mit Albinismus raten würde, antwortete sie schlicht:
+        „Glaub an dich selbst" – ein Satz, der seither in Berichten über Albinismus wiederholt
+        zitiert wird.</p>
+        <p class="vb-intro"><strong>c) Anhaltende zweite Karriere als Jazzsängerin:</strong>
+        Parallel zur Modelkarriere etablierte sich Chiu mit Auftritten bei großen
+        Veranstaltungen und in Jazzclubs als eigenständige Sängerin – eine zweite,
+        gleichrangige künstlerische Identität, nicht nur ein Zusatz zur ersten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Herunterspielen statt Dramatisieren:</strong>
+        Die SE4-typische Kontratyp-Bewegung – das eigene Anderssein nicht zur Schau zu
+        stellen, sondern beharrlich zu relativieren – zeigt sich bei Chiu direkt in ihrer
+        auffallend sachlichen Sprache über Provokationen und die eigene körperliche
+        Besonderheit.</p>
+        <p class="vb-intro"><strong>b) Der Fünferflügel und die zwei durchdachten Karrieren:</strong>
+        Dieselbe strukturierte, beobachtende Distanz, die Chius analytische Reflexion über
+        Vorurteile prägt, zeigt sich auch im systematischen Aufbau zweier paralleler,
+        handwerklich anspruchsvoller Karrieren statt einer einzigen, lauten
+        Selbstinszenierung.</p>
+        <p class="vb-intro"><strong>c) Stille Feststellung statt Anspruch auf Mitleid:</strong>
+        „Ich glaube, ich wusste immer, dass ich anders bin, aber ich fühle mich genau wie
+        jeder andere" – eine Formulierung, die weder die Krankheit verleugnet noch sie zum
+        Zentrum der eigenen Identität macht, sondern beides gleichzeitig hält.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Beruf des Sichtbarwerdens, aufgebaut auf eingeschränkter Sicht:</strong>
+        Chius gesamte erste Karriere beruhte darauf, gesehen zu werden – auf dem Laufsteg,
+        vor der Kamera. Ausgerechnet die eigene Sehkraft, durch den Albinismus vermindert,
+        stand dabei in ständigem Kontrast zu dieser beruflichen Anforderung.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="beruehmte-neil-harbisson">Neil Harbisson
+        (SE4w5)</a>, der mit angeborener Achromatopsie (vollständiger Farbenblindheit) eine
+        ebenfalls angeborene, sichtbare Sinnesbesonderheit nicht verbarg, sondern zur
+        Grundlage einer eigenständigen technologischen und künstlerischen Karriere machte.
+        Bei beiden SE4w5 zeigt sich dasselbe Muster: eine angeborene körperliche Besonderheit
+        wird weder versteckt noch zur alleinigen Identität, sondern durch beharrliche,
+        strukturierte Arbeit in eine eigenständige berufliche Laufbahn übersetzt.</p>
+        <p class="vb-intro"><strong>c) Keine Stresspunkt-Verschiebung, da keine chronisch fortschreitende Krise:</strong>
+        Anders als bei Krankheitsverläufen mit zunehmender Verschlechterung ist Chius
+        Albinismus eine von Geburt an konstante, nicht fortschreitende Eigenschaft. Eine
+        Verschiebung entlang der Stresslinie in Richtung des Stresspunkts der Vier – der Zwei
+        – lässt sich an ihrem öffentlich dokumentierten Leben nicht ablesen; ihr Umgang mit
+        der eigenen Besonderheit blieb über Jahrzehnte bemerkenswert konstant.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Augen und die Haut?</strong>
+        Für eine selbsterhaltende Vier, deren erste Karriere auf visueller Präsenz vor der
+        Kamera beruhte, liegt eine Deutung nahe: Ausgerechnet jene Organe, die für diesen
+        Beruf zentral sind – die Augen für die Sehkraft, die Haut als sichtbarste Fläche des
+        Körpers –, waren von der angeborenen Besonderheit betroffen. Diese Deutung ist eine
+        plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Vier zwangsläufig mit
+        Albinismus oder vergleichbaren angeborenen Besonderheiten zusammenhängt –
+        <strong>jeder Mensch kann mit jeder angeborenen Eigenschaft geboren werden,
+        unabhängig vom Subtyp.</strong> Was sich an Chius Fall zeigen lässt, ist ein Muster im
+        Umgang mit einer angeborenen, sichtbaren körperlichen Besonderheit, das bei einer
+        ausgeprägten selbsterhaltenden Vier mit Fünferflügel immer wieder auffällt – eine von
+        vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Chiu kennt ihr eigenes Muster vermutlich nicht als Enneagramm-Struktur – die
+        selbsterhaltende Vier mit Fünferflügel hält reflexhaft an Herunterspielen und
+        analytischer Distanz zur eigenen Besonderheit fest, statt Provokationen offen als
+        das zu benennen, was sie sind. Wer die eigene Neigung, verletzende Reaktionen anderer
+        stets zu relativieren, statt sie auch einmal direkt zu benennen, nicht als Muster
+        erkennt, riskiert, dass die eigene Verletzlichkeit dauerhaft unsichtbar bleibt, selbst
+        wenn eine klarere Grenzziehung möglich und angemessen wäre.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 4 mit Fünferflügel erklärt bei <strong>Connie Chiu</strong>
+        vieles am Umgang mit dem eigenen Albinismus: eine Frau, deren körperliche Besonderheit
+        andere zum Anstarren brachte, verwandelte diese Besonderheit nicht in eine laute
+        Anklage, sondern in die ruhige Grundlage zweier eigenständiger künstlerischer
+        Karrieren. Die Taube, die im hellsten Licht am ruhigsten blieb.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-connie-chiu", label:"Porträt: Connie Chiu (SE4w5) – Lebenswerk"},
+        {route:"beruehmte-neil-harbisson", label:"Porträt: Neil Harbisson (SE4w5) – gleicher Subtyp, ebenfalls angeborene Sinnesbesonderheit"},
+        {route:"krankheitsportraets-virginia-woolf", label:"Krankheitsporträt: Virginia Woolf (SE4w5) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se4", label:"Subtyp-Profil SE4"},
+      ])}
+    </div>
+  `);
+}

@@ -4365,6 +4365,7 @@ export function virginiaWoolfKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-virginia-woolf", label:"Porträt: Virginia Woolf (SE4w5) – Lebenswerk"},
         {route:"krankheitsportraets-vincent-van-gogh", label:"Krankheitsporträt: Vincent van Gogh (SE4w5) – gleicher Subtyp"},
+        {route:"krankheitsportraets-connie-chiu", label:"Krankheitsporträt: Connie Chiu (SE4w5) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}

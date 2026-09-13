@@ -3998,3 +3998,184 @@ export function philCollinsKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function connieChiuKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-connie-chiu-portrait.jpg" alt="Connie Chiu" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Connie Chiu</p>
+        <p class="krim-portrait-typ">SE4w5 · Self-Preservation Type 4 with Five-Wing · born 1969</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Dove</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Connie Chiu</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-connie-chiu">Famous
+        Personalities portrait</a> – that page covers her dual career as a model and jazz
+        singer. This page looks more closely at the physical foundation of that story:
+        congenital albinism, combined with lifelong light sensitivity, an increased risk of
+        skin cancer, and impaired vision.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Chiu</strong> is assigned to the <strong>self-preservation Type 4 with
+        Five-Wing</strong>. Naranjo called the SE4 the counter-type of the Four: rather than
+        putting its own otherness on display, it is persistently downplayed and handled
+        practically; the Five-Wing gives it a structured, observing distance from its own
+        experience. Exactly this combination – naming the physical difference matter-of-factly
+        rather than dramatizing it, and translating it into two parallel careers – shaped how
+        she dealt with her own albinism.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Congenital, the only one of four children:</strong>
+        Chiu was born in 1969 in Hong Kong as the only one of four children in her Chinese
+        family with albinism – a genetically caused, congenital disorder of melanin
+        production.</p>
+        <p class="vb-intro"><strong>b) Extreme light sensitivity in Hong Kong's climate:</strong>
+        Hong Kong's intense sunlight posed a significant health burden for Chiu because of the
+        light and UV sensitivity of skin and eyes associated with albinism.</p>
+        <p class="vb-intro"><strong>c) A move to Sweden as a protective health measure:</strong>
+        At age seven, the family moved to Sweden – a deliberate, unspectacular decision to
+        protect her from Hong Kong's intense sun.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Lifelong sun protection as a daily necessity:</strong>
+        People with albinism carry a significantly elevated risk of skin cancer and depend on
+        consistent sun protection – a limitation that shaped Chiu's entire daily life and her
+        professional work in front of the camera and on stage.</p>
+        <p class="vb-intro"><strong>b) Impaired vision despite a modeling career:</strong>
+        Albinism is often accompanied by reduced visual acuity and nystagmus – a limitation
+        that stands in striking contrast to a profession that demands visual presence and
+        spatial orientation on the runway.</p>
+        <p class="vb-intro"><strong>c) Repeated provocation over her appearance:</strong>
+        Chiu reported being repeatedly provoked, among other things being called a "white-
+        haired devil woman" after a horror-film character.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) Minimizing rather than accusing in public statements:</strong>
+        Chiu described the provocations with striking matter-of-factness: "I was not bullied
+        in school, but every now and then, people try to provoke or upset me" – a statement
+        that minimizes rather than accuses.</p>
+        <p class="vb-intro"><strong>b) No public reduction to the diagnosis:</strong>
+        Chiu never allowed herself to be reduced in interviews to the role of "the first
+        albino model," instead consistently pointing to her dual artistic career as a model
+        and jazz singer.</p>
+        <p class="vb-intro"><strong>c) Analytical rather than emotional reflection on prejudice:</strong>
+        Her public statements about reactions to her appearance remain notably analytical:
+        "It's in human nature to have prejudice ... I've always preferred to be where many
+        different kinds of people mix."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A pioneering role in the fashion industry:</strong>
+        Chiu's debut for Jean Paul Gaultier at age 24 made her the first known model with
+        albinism in the international fashion industry – a visibility that reached far beyond
+        her own career.</p>
+        <p class="vb-intro"><strong>b) A role-model function for others affected:</strong>
+        Asked what she would advise a child with albinism, she answered simply: "Believe in
+        yourself" – a line since repeatedly quoted in coverage of albinism.</p>
+        <p class="vb-intro"><strong>c) A lasting second career as a jazz singer:</strong>
+        Alongside her modeling career, Chiu established herself as an independent singer with
+        appearances at major events and in jazz clubs – a second, equally ranked artistic
+        identity, not merely an addition to the first.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Minimizing instead of dramatizing:</strong>
+        The SE4's characteristic counter-type move – not putting one's own otherness on
+        display, but persistently downplaying it – shows directly in Chiu's notably
+        matter-of-fact language about provocations and her own physical difference.</p>
+        <p class="vb-intro"><strong>b) The Five-Wing and the two deliberately built careers:</strong>
+        The same structured, observing distance that shapes Chiu's analytical reflection on
+        prejudice also shows in the systematic building of two parallel, seriously pursued
+        careers rather than one loud act of self-presentation.</p>
+        <p class="vb-intro"><strong>c) Quiet acknowledgment instead of a claim to pity:</strong>
+        "I think I always knew I was different, but I feel just like everyone else" – a
+        statement that neither denies the condition nor makes it the center of her own
+        identity, but holds both at once.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) A profession of being seen, built on limited sight:</strong>
+        Chiu's entire first career rested on being seen – on the runway, in front of the
+        camera. Of all things, her own eyesight, reduced by albinism, stood in constant
+        contrast to that professional demand.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        A parallel shows in
+        <a href="javascript:void(0)" data-route="beruehmte-neil-harbisson">Neil Harbisson
+        (SE4w5)</a>, who did not hide his own congenital, visible sensory difference –
+        complete achromatopsia (total color blindness) – but made it the foundation of an
+        independent technological and artistic career. Both SE4w5s show the same pattern: a
+        congenital physical difference is neither hidden nor allowed to become the sole
+        identity, but translated through persistent, structured work into an independent
+        professional path.</p>
+        <p class="vb-intro"><strong>c) No stress-point shift, since there is no chronic, progressive crisis:</strong>
+        Unlike illness courses marked by worsening decline, Chiu's albinism is a constant,
+        non-progressive trait present from birth. A shift along the stress line toward the
+        Four's stress point – the Two – cannot be read from her publicly documented life; her
+        handling of her own difference has remained remarkably constant across decades.</p>
+        <p class="vb-intro"><strong>d) Why the eyes and the skin, of all things?</strong>
+        For a self-preservation Four whose first career rested on visual presence in front of
+        the camera, one interpretation suggests itself: of all things, the organs central to
+        that profession – the eyes for vision, the skin as the body's most visible surface –
+        were affected by the congenital condition. This interpretation is a plausible reading,
+        not a documented clinical causal link, and will be developed further in this
+        Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) A Classification Without Determinism:</strong>
+        This does not mean that the self-preservation Four's pattern is linked to albinism or
+        comparable congenital conditions – <strong>any person can be born with any congenital
+        trait, regardless of subtype.</strong> What Chiu's case shows is a pattern in how a
+        congenital, visible physical difference is handled, one that recurs again and again in
+        a pronounced self-preservation Four with a Five-Wing – one of many possible readings,
+        not a verdict. The corresponding condition will be developed further, over time, in
+        this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as Its Own Factor:</strong>
+        Chiu likely does not know her own pattern as an Enneagram structure – the
+        self-preservation Four with a Five-Wing reflexively holds onto minimizing and
+        analytical distance from its own difference, rather than naming provocations openly
+        for what they are. Anyone who does not recognize their own tendency to always minimize
+        others' hurtful reactions instead of sometimes naming them directly risks letting
+        their own vulnerability remain permanently invisible, even where a clearer boundary
+        would be possible and appropriate.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The self-preservation Type 4 with Five-Wing explains much about how <strong>Connie
+        Chiu</strong> handled her own albinism: a woman whose physical difference made others
+        stare turned that difference not into a loud accusation, but into the quiet foundation
+        of two independent artistic careers. The dove that stayed calmest in the brightest
+        light.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-connie-chiu", label:"Portrait: Connie Chiu (SE4w5) – life's work"},
+        {route:"beruehmte-neil-harbisson", label:"Portrait: Neil Harbisson (SE4w5) – same subtype, also a congenital sensory difference"},
+        {route:"krankheitsportraets-virginia-woolf", label:"Illness Portrait: Virginia Woolf (SE4w5) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se4", label:"Subtype Profile SE4"},
+      ])}
+    </div>
+  `);
+}
