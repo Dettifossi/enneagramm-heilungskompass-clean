@@ -4136,3 +4136,199 @@ export function josephHaydnKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function fionaAppleKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-fiona-apple-portrait.jpg" alt="Fiona Apple" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fiona Apple</p>
+        <p class="krim-portrait-typ">SO4w5 · Sozialer Typ 4 mit Fünferflügel · geb. 1977</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gürteltier</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Tierentsprechung: Gürteltier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Fiona Apple</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-fiona-apple">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten – dort geht es um ihr
+        musikalisches Werk und ihre radikale Verweigerung, sich dem Musikbetrieb anzupassen.
+        Diese Seite blickt genauer auf ein Kapitel, das dort nur angedeutet wird: eine
+        Magersucht als Teenagerin, eine seit der Kindheit bestehende Zwangsstörung und
+        wiederkehrende, teils isolierende Angstzustände.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Apple</strong> ist dem <strong>sozialen Typ 4 mit Fünferflügel</strong>
+        zugeordnet. Die SO4 trägt den Schmerz der Vier als Scham vor der Gemeinschaft; der
+        Fünferflügel gibt ihr die Fähigkeit, sich aus dem Feld der Bewertung in stille,
+        intensive Innenschau zurückzuziehen. Genau diese Kombination – die eigene Scham nicht
+        verstecken, sondern schonungslos in Worte fassen, dies aber erst nach langem, sehr
+        privatem Rückzug – bestimmte den Umgang mit Essstörung, Zwangsstörung und Angst.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Beginnende Essstörung als Teenagerin:</strong>
+        Apple entwickelte als Teenagerin eine Magersucht, die sie später selbst mit der
+        Vergewaltigung im Alter von zwölf Jahren in Verbindung brachte – ein Versuch, über
+        den eigenen Körper zumindest die Kontrolle zurückzugewinnen, die ihr durch das
+        Trauma genommen worden war.</p>
+        <p class="vb-intro"><strong>b) Frühe zwanghafte Rituale:</strong>
+        Bereits in der Kindheit entwickelte Apple wiederkehrende Zwangshandlungen – unter
+        anderem Zähl- und Kontrollrituale –, die sie erst deutlich später öffentlich als
+        Ausdruck einer Zwangsstörung (OCD) benannte.</p>
+        <p class="vb-intro"><strong>c) Wiederkehrende Angstzustände:</strong>
+        Parallel dazu berichtete Apple von Phasen ausgeprägter Angst, die sich in
+        zunehmender sozialer Isolation und dem Rückzug aus öffentlichen Verpflichtungen
+        äußerten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Jahrelange Phasen völligen öffentlichen Rückzugs:</strong>
+        Zwischen ihren Alben liegen oft sechs bis acht Jahre Stille – Phasen, die von starker
+        Zurückgezogenheit und, nach eigenen Angaben, von Angst geprägt waren.</p>
+        <p class="vb-intro"><strong>b) Offener Umgang mit der eigenen Zwangsstörung in Interviews:</strong>
+        In späteren Interviews, insbesondere rund um die Veröffentlichung von ›Fetch the Bolt
+        Cutters‹ 2020, sprach Apple detailliert über ihre lebenslangen Zwangsrituale, ohne sie
+        zu beschönigen oder zu verharmlosen.</p>
+        <p class="vb-intro"><strong>c) Enge, fast symbiotische Bindung an ihre Hunde:</strong>
+        Apple sagte 2012 mitten in einer laufenden Südamerika-Tournee Konzerte ab, um bei
+        ihrer sterbenden Hündin Janet zu bleiben – eine Entscheidung, die sie öffentlich mit
+        der Notwendigkeit begründete, in diesem Moment für das Tier da zu sein, das ihr über
+        Jahre hinweg emotionalen Halt gegeben hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Musik als direkte Verarbeitung von Essstörung und Trauma:</strong>
+        Apples Songtexte verarbeiten die eigene Essstörung, die Vergewaltigung und die
+        Zwangsstörung wiederholt direkt und unverblümt, statt sie zu verschlüsseln oder zu
+        umschreiben.</p>
+        <p class="vb-intro"><strong>b) Kein therapeutisches Schweigen, sondern öffentliche Sprache:</strong>
+        Statt die eigenen psychischen Kämpfe ausschließlich in Therapie zu verarbeiten, machte
+        Apple sie wiederholt zum Gegenstand ihrer künstlerischen Arbeit und ihrer
+        öffentlichen Aussagen.</p>
+        <p class="vb-intro"><strong>c) Extreme Detailarbeit als möglicher Ausdruck der Zwangsstruktur:</strong>
+        Ihre aufwendige, oft jahrelange Studioarbeit mit ungewöhnlichen Klangquellen – von
+        Küchengeräten bis zu Percussion aus den Knochen ihres verstorbenen Hundes – zeigt eine
+        Detailversessenheit, die Beobachter wiederholt mit ihrer beschriebenen
+        Zwangsstruktur in Verbindung brachten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Kritischer Erfolg trotz oder wegen der Offenheit:</strong>
+        ›Fetch the Bolt Cutters‹ wurde 2020 zu einem der höchstbewerteten Alben der
+        Musikkritik-Geschichte – gerade jene Offenheit über Scham, Zwang und Angst, die Apple
+        zuvor isoliert hatte, wurde zum Kern ihrer künstlerischen Wirkung.</p>
+        <p class="vb-intro"><strong>b) Enthemmende Wirkung auf andere Betroffene:</strong>
+        Apples unverblümte Sprache über Essstörung und Zwangsstörung trug dazu bei, diese
+        Themen einem breiten Publikum zugänglicher zu machen, jenseits klinischer oder
+        beschönigender Darstellungen.</p>
+        <p class="vb-intro"><strong>c) Anhaltendes öffentliches Interesse an ihrem Rückzug selbst:</strong>
+        Auch ihre Phasen der Stille und Isolation wurden Teil der öffentlichen Wahrnehmung
+        ihrer Person – nicht als Abwesenheit, sondern als eigener, bedeutungsvoller Teil ihres
+        Werks.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Scham, die zur Sprache statt zum Schweigen wird:</strong>
+        Die SO4-typische Bewegung – die eigene Scham nicht zu verstecken, sondern ihr
+        zuvorzukommen, indem man sie selbst ausspricht – zeigt sich bei Apple direkt in der
+        Verarbeitung von Essstörung und Zwangsstörung als Songmaterial statt als verschwiegenes
+        Privatleiden.</p>
+        <p class="vb-intro"><strong>b) Der Fünferflügel und der Rückzug als notwendige Werkstatt:</strong>
+        Dieselbe Struktur, die Apple zwischen ihren Alben jahrelang schweigen lässt, bestimmte
+        auch den Umgang mit ihren psychischen Krisen: Rückzug nicht als Flucht, sondern als
+        Raum, in dem die eigene Wahrheit erst reifen kann, bevor sie geteilt wird.</p>
+        <p class="vb-intro"><strong>c) Zwang als äußerste Form der Detailkontrolle:</strong>
+        Die Zwangsstörung lässt sich als extreme Zuspitzung derselben Kontrollbedürftigkeit
+        lesen, die auch Apples akribische Studioarbeit prägt – bei der SO4w5 äußert sich der
+        Wunsch nach Ordnung nicht nach außen als Forderung an andere, sondern nach innen als
+        Ritual.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Stimme radikaler Ehrlichkeit, deren eigener Körper und Geist zum Kampfplatz wurden:</strong>
+        Apples gesamtes künstlerisches Selbstverständnis beruht auf schonungsloser
+        Selbstoffenbarung. Ausgerechnet der eigene Körper (Essstörung) und die eigenen
+        Gedanken (Zwangsstörung) wurden zu den Orten, an denen diese Offenheit am schwersten
+        zu erreichen war.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-leonard-cohen">Leonard
+        Cohen (SO4w5)</a>: Auch bei ihm bestimmte eine lebenslange psychische Erkrankung – bei
+        Cohen schwere Depression – das gesamte Werk, und auch er verarbeitete sie nicht im
+        Verborgenen, sondern direkt in seiner Kunst. Bei beiden SO4w5 zeigt sich dasselbe
+        Muster: chronisches psychisches Leiden wird nicht therapeutisch stillschweigend
+        verwaltet, sondern zum offen geteilten Kern des eigenen Werks.</p>
+        <p class="vb-intro"><strong>c) Wenn die Vier unter chronischem Stress zur Zwei wird:</strong>
+        Apples Entscheidung 2012, eine laufende Tournee für ihre sterbende Hündin
+        abzubrechen, fällt durch eine für die sonst introvertierte, auf die eigene Innenschau
+        konzentrierte SO4w5 ungewöhnliche Intensität der Fürsorge für ein anderes Wesen auf.
+        Wer über Jahre in chronischer psychischer Belastung lebt, bewegt sich zunehmend
+        entlang seiner Stresslinie in Richtung seines Stresspunkts – bei der Vier ist das die
+        Zwei. Diese außergewöhnlich intensive, fast aufopfernde Fürsorge in einem
+        Krisenmoment erinnert an die Hingabe-Logik des Stresspunkts, nicht an die sonst
+        stärker nach innen gerichtete Introspektion des Kerntyps – bei unverändertem
+        Kerntyp SO4w5.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet Körper und Denken selbst?</strong>
+        Für eine soziale Vier, deren gesamtes künstlerisches Werk auf radikaler
+        Selbstoffenbarung beruht, liegt eine Deutung nahe: Ausgerechnet jene Bereiche, die am
+        unmittelbarsten mit dem eigenen Selbst verbunden sind – der eigene Körper bei der
+        Essstörung, die eigenen Gedanken bei der Zwangsstörung –, wurden zum Ort, an dem
+        Kontrolle am schwersten zu behalten war. Diese Deutung ist eine plausible
+        Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Vier zwangsläufig zu Essstörungen oder
+        Zwangsstörungen führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
+        unabhängig vom Subtyp.</strong> Was sich an Apples Fall zeigen lässt, ist ein Muster
+        im Umgang mit chronischem psychischem Leiden, das bei einer ausgeprägten sozialen
+        Vier mit Fünferflügel immer wieder auffällt – eine von vielen möglichen Deutungen,
+        kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Apple kennt ihr eigenes Muster vermutlich nicht als Enneagramm-Struktur – die soziale
+        Vier mit Fünferflügel hält reflexhaft an radikaler Selbstoffenbarung nach langem,
+        privatem Rückzug fest, statt psychisches Leiden auch einmal ohne den Umweg über
+        künstlerische Verarbeitung einfach behandeln zu lassen. Wer die eigene Neigung, jede
+        innere Krise erst in Isolation zu durchleben und dann restlos offenzulegen, nicht als
+        Muster erkennt, riskiert, sich selbst frühere, direktere Unterstützung vorzuenthalten.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Vier mit Fünferflügel erklärt bei <strong>Fiona Apple</strong> vieles am
+        Umgang mit Essstörung, Zwangsstörung und Angst: eine Künstlerin, deren gesamtes Werk
+        auf dem Prinzip beruht, die eigene Scham nicht zu verstecken, sondern ihr durch
+        radikale Offenheit zuvorzukommen – und die genau dieses Prinzip auch auf die
+        dunkelsten, privatesten Kapitel ihres eigenen Körpers und Denkens anwandte. Das
+        Gürteltier, das sich einrollt, um dann mit umso schärferer Klarheit wieder
+        hervorzutreten.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-fiona-apple", label:"Porträt: Fiona Apple (SO4w5) – Lebenswerk"},
+        {route:"krankheitsportraets-leonard-cohen", label:"Krankheitsporträt: Leonard Cohen (SO4w5) – gleicher Subtyp"},
+        {route:"krankheitsportraets-edvard-munch", label:"Krankheitsporträt: Edvard Munch (SO4w5) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so4", label:"Subtyp-Profil SO4"},
+      ])}
+    </div>
+  `);
+}

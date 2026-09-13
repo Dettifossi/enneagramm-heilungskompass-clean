@@ -5513,6 +5513,7 @@ export function leonardCohenKrankheitsportraetPage() {
         {route:"beruehmte-leonard-cohen", label:"Porträt: Leonard Cohen (SO4w5) – Lebenswerk"},
         {route:"krankheitsportraets-gustav-mahler", label:"Krankheitsporträt: Gustav Mahler (SO4w5)"},
         {route:"krankheitsportraets-edgar-allan-poe", label:"Krankheitsporträt: Edgar Allan Poe (SO4w5)"},
+        {route:"krankheitsportraets-fiona-apple", label:"Krankheitsporträt: Fiona Apple (SO4w5)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so4", label:"Subtyp-Profil SO4"},
       ])}

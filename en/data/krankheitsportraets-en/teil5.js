@@ -3807,6 +3807,7 @@ export function edvardMunchKrankheitsportraetPage() {
         {route:"beruehmte-edvard-munch", label:"Portrait: Edvard Munch (SO4w5) – life's work"},
         {route:"krankheitsportraets-heinrich-heine", label:"Illness Portrait: Heinrich Heine (SO4w3) – the same coping strategy, a different wing"},
         {route:"krankheitsportraets-marcel-proust", label:"Illness Portrait: Marcel Proust (SO4w5) – lifelong asthma"},
+        {route:"krankheitsportraets-fiona-apple", label:"Illness Portrait: Fiona Apple (SO4w5) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so4", label:"Subtype Profile SO4"},
       ])}

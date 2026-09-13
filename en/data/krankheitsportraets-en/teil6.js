@@ -3955,3 +3955,183 @@ export function josephHaydnKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function fionaAppleKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-fiona-apple-portrait.jpg" alt="Fiona Apple" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fiona Apple</p>
+        <p class="krim-portrait-typ">SO4w5 · Social Type 4 with Five-Wing · born 1977</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Armadillo</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Animal correspondence: Armadillo" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Fiona Apple</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-fiona-apple">Famous
+        Personalities portrait</a> – that page covers her musical work and her radical refusal
+        to conform to the music industry. This page looks more closely at a chapter only
+        hinted at there: an eating disorder as a teenager, an obsessive-compulsive disorder
+        present since childhood, and recurring, at times isolating anxiety.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Apple</strong> is assigned to the <strong>social Type 4 with Five-Wing</strong>.
+        The SO4 carries the Four's pain as shame before the community; the Five-Wing gives it
+        the capacity to withdraw from the field of judgment into quiet, intense introspection.
+        Exactly this combination – not hiding one's own shame but putting it into unsparing
+        words, only after a long, very private withdrawal – shaped how she dealt with her
+        eating disorder, OCD, and anxiety.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) An eating disorder emerging as a teenager:</strong>
+        Apple developed anorexia as a teenager, which she later linked herself to the rape she
+        experienced at age twelve – an attempt to regain at least control over her own body,
+        control the trauma had taken from her.</p>
+        <p class="vb-intro"><strong>b) Early compulsive rituals:</strong>
+        Already in childhood, Apple developed recurring compulsive behaviors – including
+        counting and checking rituals – which she only much later publicly named as an
+        expression of obsessive-compulsive disorder (OCD).</p>
+        <p class="vb-intro"><strong>c) Recurring anxiety:</strong>
+        Alongside this, Apple reported periods of pronounced anxiety that showed themselves in
+        growing social isolation and withdrawal from public obligations.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Years-long stretches of complete public withdrawal:</strong>
+        Six to eight years of silence often lie between her albums – periods marked, by her
+        own account, by strong withdrawal and anxiety.</p>
+        <p class="vb-intro"><strong>b) Openly discussing her OCD in interviews:</strong>
+        In later interviews, especially around the release of "Fetch the Bolt Cutters" in
+        2020, Apple spoke in detail about her lifelong compulsive rituals, without softening
+        or minimizing them.</p>
+        <p class="vb-intro"><strong>c) A close, nearly symbiotic bond with her dogs:</strong>
+        In 2012, Apple canceled concerts in the middle of an ongoing South American tour to
+        stay with her dying dog Janet – a decision she publicly justified by the need to be
+        there for the animal that had given her emotional grounding for years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) Music as direct processing of eating disorder and trauma:</strong>
+        Apple's lyrics repeatedly process her eating disorder, the rape, and her OCD directly
+        and bluntly, rather than encoding or euphemizing them.</p>
+        <p class="vb-intro"><strong>b) No therapeutic silence, but public language:</strong>
+        Rather than processing her psychological struggles exclusively in therapy, Apple
+        repeatedly made them the subject of her artistic work and her public statements.</p>
+        <p class="vb-intro"><strong>c) Extreme attention to detail as a possible expression of her compulsive structure:</strong>
+        Her elaborate, often years-long studio work with unusual sound sources – from kitchen
+        utensils to percussion made from her deceased dog's bones – shows an obsession with
+        detail that observers have repeatedly linked to her described compulsive structure.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Critical success despite, or because of, the openness:</strong>
+        "Fetch the Bolt Cutters" became one of the highest-rated albums in music-criticism
+        history in 2020 – precisely the openness about shame, compulsion, and anxiety that had
+        once isolated Apple became the core of her artistic impact.</p>
+        <p class="vb-intro"><strong>b) A disinhibiting effect on others affected:</strong>
+        Apple's blunt language about eating disorders and OCD helped make these topics more
+        accessible to a wide audience, beyond clinical or euphemistic depictions.</p>
+        <p class="vb-intro"><strong>c) Lasting public interest in her withdrawal itself:</strong>
+        Even her periods of silence and isolation became part of the public perception of her
+        as a person – not as absence, but as a meaningful part of her body of work in its own
+        right.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Shame turned into language instead of silence:</strong>
+        The SO4's characteristic move – not hiding one's own shame, but preempting it by
+        naming it oneself – shows directly in Apple in how she processed her eating disorder
+        and OCD as song material rather than as concealed private suffering.</p>
+        <p class="vb-intro"><strong>b) The Five-Wing and withdrawal as a necessary workshop:</strong>
+        The same structure that keeps Apple silent for years between albums also shaped how
+        she handled her psychological crises: withdrawal not as flight, but as a space in
+        which her own truth could ripen before being shared.</p>
+        <p class="vb-intro"><strong>c) Compulsion as the most extreme form of control over detail:</strong>
+        Her OCD can be read as an extreme intensification of the same need for control that
+        also shapes Apple's meticulous studio work – in the SO4w5, the wish for order does not
+        express itself outward as a demand on others, but inward as ritual.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) A voice of radical honesty whose own body and mind became the battleground:</strong>
+        Apple's entire artistic self-understanding rests on unsparing self-disclosure. Of all
+        things, her own body (eating disorder) and her own thoughts (OCD) became the places
+        where that openness was hardest to reach.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        A parallel shows in
+        <a href="javascript:void(0)" data-route="krankheitsportraets-leonard-cohen">Leonard
+        Cohen (SO4w5)</a>: in his case too, a lifelong psychological illness – severe
+        depression, in Cohen's case – shaped his entire body of work, and he too processed it
+        not in secret but directly in his art. Both SO4w5s show the same pattern: chronic
+        psychological suffering is not managed silently in therapy, but becomes the openly
+        shared core of the work itself.</p>
+        <p class="vb-intro"><strong>c) When the Four under chronic stress moves toward the Two:</strong>
+        Apple's 2012 decision to cut short an ongoing tour for her dying dog stands out for an
+        intensity of care for another being unusual for the otherwise introverted, inward-
+        focused SO4w5. Someone living under chronic psychological strain for years
+        increasingly moves along their stress line toward their stress point – for the Four,
+        that is the Two. This unusually intense, almost self-sacrificing care in a moment of
+        crisis recalls the devotion logic of the stress point, not the otherwise more inward-
+        directed introspection of the core type – with the core type unchanged at SO4w5.</p>
+        <p class="vb-intro"><strong>d) Why the body and the mind themselves, of all things?</strong>
+        For a social Four whose entire artistic work rests on radical self-disclosure, one
+        interpretation suggests itself: of all things, the areas most directly bound to the
+        self – the body in the eating disorder, the mind in the OCD – became the place where
+        control was hardest to keep. This interpretation is a plausible reading, not a
+        documented clinical causal link, and will be developed further in this Compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) A Classification Without Determinism:</strong>
+        This does not mean that the social Four's pattern inevitably leads to eating disorders
+        or OCD – <strong>any person can develop any illness, regardless of subtype.</strong>
+        What Apple's case shows is a pattern in how chronic psychological suffering is
+        handled, one that recurs again and again in a pronounced social Four with a Five-Wing
+        – one of many possible readings, not a verdict. The corresponding illness will be
+        developed further, over time, in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as Its Own Factor:</strong>
+        Apple likely does not know her own pattern as an Enneagram structure – the social Four
+        with a Five-Wing reflexively holds onto radical self-disclosure after a long, private
+        withdrawal, rather than simply allowing psychological suffering to be treated without
+        the detour through artistic processing. Anyone who does not recognize their own
+        tendency to live through every inner crisis in isolation first and only then disclose
+        it completely risks denying themselves earlier, more direct support.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Four with Five-Wing explains much about how <strong>Fiona Apple</strong>
+        handled her eating disorder, OCD, and anxiety: an artist whose entire body of work
+        rests on the principle of not hiding her own shame but preempting it through radical
+        openness – and who applied exactly this principle to the darkest, most private
+        chapters of her own body and mind. The armadillo that curls up, only to emerge again
+        with all the sharper clarity.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-fiona-apple", label:"Portrait: Fiona Apple (SO4w5) – life's work"},
+        {route:"krankheitsportraets-leonard-cohen", label:"Illness Portrait: Leonard Cohen (SO4w5) – same subtype"},
+        {route:"krankheitsportraets-edvard-munch", label:"Illness Portrait: Edvard Munch (SO4w5) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so4", label:"Subtype Profile SO4"},
+      ])}
+    </div>
+  `);
+}

@@ -5257,6 +5257,7 @@ export function leonardCohenKrankheitsportraetPage() {
         {route:"beruehmte-leonard-cohen", label:"Portrait: Leonard Cohen (SO4w5) – life's work"},
         {route:"krankheitsportraets-gustav-mahler", label:"Illness Portrait: Gustav Mahler (SO4w5)"},
         {route:"krankheitsportraets-edgar-allan-poe", label:"Illness Portrait: Edgar Allan Poe (SO4w5)"},
+        {route:"krankheitsportraets-fiona-apple", label:"Illness Portrait: Fiona Apple (SO4w5)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so4", label:"Subtype Profile SO4"},
       ])}
