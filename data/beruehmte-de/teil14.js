@@ -2006,3 +2006,69 @@ export function eltonJohnPortraitPage() {
     </div>
   `);
 }
+
+export function peterMaffayPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-peter-maffay-portrait.jpg" alt="Peter Maffay – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Peter Maffay</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexuelle Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Musiker, geb. 1949 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier hinter dem Rockstar</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun – ein Tier, das nicht drängt, sondern vollkommen präsent in seinem eigenen Tempo lebt. Peter Maffay wurde 1949 in Kronstadt (Rumänien) als Angehöriger der deutschen Minderheit der Siebenbürger Sachsen geboren und wanderte 1963 mit seiner Familie nach Westdeutschland aus. Trotz über fünfzig Jahren als einer der erfolgreichsten deutschen Rockmusiker – mehr als 40 Millionen verkaufte Tonträger – blieb er in Interviews auffällig zurückhaltend und undramatisch, fast das Gegenteil des klassischen Rockstar-Overstatements.</p>
+          <p class="vb-intro">Statt sich über viele Bühnenauftritte und mediale Selbstinszenierung zu definieren, zog sich Maffay immer wieder auf seine Finca auf Mallorca zurück – ein Rückzugsort, an dem er sein Privatleben weitgehend aus der Öffentlichkeit heraushielt. Das Faultier sucht nicht die Bühne um ihrer selbst willen, sondern die eine Sache, in der es ganz aufgehen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit einem einzigen Lebenswerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> ist nach Naranjo die Variante der Trägheits-Leidenschaft, die sich in vollständiger Verschmelzung mit einem einzigen, alles überragenden Werk oder Gegenüber ausdrückt – das eigene Selbst tritt zurück, um vollständig darin aufzugehen. Bei Maffay ist dieses eine Werk der kleine Drache Tabaluga: 1983 als Konzeptalbum entstanden, entwickelte sich die Figur über vier Jahrzehnte zu Musical, Zeichentrickserie und schließlich zum Namensgeber seiner eigenen Stiftung.</p>
+          <p class="vb-intro">Anders als viele Musiker seiner Generation, die ihre kreative Energie auf wechselnde Projekte, Bands oder Genres verteilten, blieb Maffay über sein gesamtes späteres Berufsleben bei dieser einen Figur – nicht als Nebenprojekt neben der Musikkarriere, sondern zunehmend als deren eigentliches Zentrum. Genau das ist die SX9 in ihrer produktivsten Form: keine Verteilung auf viele Bindungen, sondern das vollständige Aufgehen in der einen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Disziplinierte Struktur statt diffuser Wohltätigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SX9 mit schwächer ausgeprägtem Einserflügel hätte ihr Engagement für Tabaluga vermutlich bei Musik und Merchandising belassen. Bei Maffay trat stattdessen 1999 eine strenge, prinzipiengeleitete Konsequenz hervor: Er gründete die Peter-Maffay-Stiftung und baute mit den Tabaluga-Kinderdörfern ein pädagogisch klar strukturiertes System therapeutischer Wohngruppen für traumatisierte und vernachlässigte Kinder auf – zunächst auf Mallorca, später an mehreren Standorten in Deutschland.</p>
+          <p class="vb-intro">Diese Kinderdörfer folgen einem festen, über Jahre entwickelten pädagogischen Konzept, keiner spontanen oder diffusen Wohltätigkeit. Der Einserflügel zeigt sich in genau dieser Verbindung aus Hingabe und Ordnung: nicht lautes Spendensammeln, sondern der geduldige, disziplinierte Aufbau einer Institution, die auch nach Jahrzehnten noch nach denselben klaren Prinzipien arbeitet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Trägheit als Rückzug vom eigenen Ruhm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> – gemeint ist damit keine körperliche Faulheit, sondern ein Vergessen der eigenen Bedeutung zugunsten dessen, womit man verschmilzt. Bei Maffay zeigt sich das in seiner konsequenten Weigerung, sein Privatleben – mehrere Ehen, persönliche Beziehungen – öffentlich auszubreiten, obwohl sein Beruf ihn seit Jahrzehnten ins Zentrum medialer Aufmerksamkeit stellte.</p>
+          <p class="vb-intro">Auch seine ausgedehnten, oft wochenlangen Motorradreisen – unter anderem durch die Mongolei, die sein Album ›Nomade‹ inspirierten – folgen demselben Muster: kein touristisches Abhaken von Sehenswürdigkeiten, sondern ein langsames, kontemplatives Verschmelzen mit Landschaft und Weite, fernab jeder öffentlichen Bühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 zeigt sich darin, wie Maffay aus einer eigenen Kindheitserfahrung als Angehöriger einer Minderheit zwischen zwei Ländern eine lebenslange, strukturierte Fürsorge für Kinder entwickelte, die selbst zwischen den Fronten von Vernachlässigung und Trauma stehen – eine Empathie, die sich nicht in Worten erschöpft, sondern in einer über Jahrzehnte tragfähigen Institution.</p>
+          <p class="vb-intro">Der Schatten liegt in der Kehrseite derselben Zurückhaltung: Seine konsequente mediale Distanz wurde von Journalisten wiederholt als Verschlossenheit oder Kontrollbedürfnis gedeutet. Für die sexuelle Neun zählt jedoch nicht die öffentliche Selbstoffenbarung, sondern die stille, ungeteilte Hingabe an das eine Werk, das wirklich zählt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Ein Drache, der zum Lebenswerk wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Peter Maffay bleibt der Musiker, dessen größtes Werk nicht ein einzelnes Album, sondern eine über vierzig Jahre gewachsene Figur ist – vom Konzeptalbum zum Musical, von der Zeichentrickserie zur Stiftung, die heute traumatisierten Kindern ein neues Zuhause gibt. Von den ersten Tabaluga-Liedern bis zu den Kinderdörfern zieht sich dasselbe Muster: vollständige, disziplinierte Verschmelzung mit der einen Sache, die trägt.</p>
+          <p class="vb-intro">Das ist die sexuelle Neun mit Einserflügel in ihrer wirkungsvollsten Form: ein Faultier, das nicht laut wird, sondern aus stiller, jahrzehntelanger Hingabe heraus ein Lebenswerk baut, das über die eigene Musikkarriere weit hinausreicht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-jane-goodall", label:"Porträt: Dr. Jane Goodall (SX9w1)"},
+        {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1)"},
+        {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1)"},
+      ])}
+    </div>
+  `);
+}

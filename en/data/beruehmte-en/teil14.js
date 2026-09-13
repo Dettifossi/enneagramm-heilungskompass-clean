@@ -2005,3 +2005,69 @@ export function eltonJohnPortraitPage() {
     </div>
   `);
 }
+
+export function peterMaffayPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-peter-maffay-portrait.jpg" alt="Peter Maffay – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Peter Maffay</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with a One-Wing</p>
+        <p class="krim-portrait-subtitle">Musician, born 1949 – Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth Behind the Rock Star</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> is the animal of the Sexual Nine – an animal that does not push, but lives fully present at its own pace. Peter Maffay was born in 1949 in Kronstadt (Romania) as a member of the German-speaking Transylvanian Saxon minority and emigrated with his family to West Germany in 1963. Despite more than fifty years as one of Germany's most successful rock musicians – over 40 million records sold – he remained noticeably reserved and undramatic in interviews, almost the opposite of the classic rock-star overstatement.</p>
+          <p class="vb-intro">Rather than defining himself through countless stage appearances and media self-promotion, Maffay repeatedly withdrew to his finca on Mallorca – a retreat where he kept his private life largely out of public view. The sloth does not seek the stage for its own sake, but the one thing it can fully merge with.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Nine: Merging With a Single Life's Work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Nine (SX9)</strong> is, according to Naranjo, the variant of the passion of sloth that expresses itself through complete merging with a single, all-encompassing work or counterpart – the self steps back to fully dissolve into it. For Maffay, that one work is the little dragon Tabaluga: created in 1983 as a concept album, the figure grew over four decades into a musical, an animated series, and eventually the namesake of his own foundation.</p>
+          <p class="vb-intro">Unlike many musicians of his generation who spread their creative energy across shifting projects, bands, or genres, Maffay stayed with this one figure throughout his later career – not as a side project alongside his music career, but increasingly as its actual center. This is the SX9 at its most productive: not spread across many bonds, but fully merged into the one.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Disciplined Structure Instead of Diffuse Charity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SX9 with a weaker One-wing would likely have left its commitment to Tabaluga at music and merchandising. In Maffay, a strict, principle-driven rigor emerged instead in 1999: he founded the Peter Maffay Foundation and built the Tabaluga children's villages into a pedagogically clearly structured system of therapeutic residential groups for traumatized and neglected children – first on Mallorca, later at several locations in Germany.</p>
+          <p class="vb-intro">These children's villages follow a fixed pedagogical concept developed over years, not spontaneous or diffuse charity. The One-wing shows itself in exactly this combination of devotion and order: not loud fundraising, but the patient, disciplined construction of an institution that, even decades later, still operates by the same clear principles.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Sloth as Withdrawal From One's Own Fame</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Nine is called <strong>sloth</strong> – not physical laziness, but a forgetting of one's own significance in favor of whatever one merges with. In Maffay this shows in his consistent refusal to spread his private life – several marriages, personal relationships – across the public sphere, even though his profession has placed him at the center of media attention for decades.</p>
+          <p class="vb-intro">His extended, often weeks-long motorcycle journeys – including through Mongolia, which inspired his album "Nomade" – follow the same pattern: not a tourist's checklist of sights, but a slow, contemplative merging with landscape and expanse, far from any public stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Nine with a One-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX9w1 shows in how Maffay turned his own childhood experience as a member of a minority caught between two countries into a lifelong, structured care for children who themselves stand between the front lines of neglect and trauma – an empathy that does not exhaust itself in words, but in an institution built to last for decades.</p>
+          <p class="vb-intro">The shadow lies in the flip side of that same reserve: his consistent media distance has repeatedly been read by journalists as guardedness or a need for control. But for the Sexual Nine, what counts is not public self-disclosure, but the quiet, undivided devotion to the one work that truly matters.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: A Dragon That Became a Life's Work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Peter Maffay remains the musician whose greatest work is not a single album, but a figure grown over forty years – from concept album to musical, from animated series to a foundation that today gives traumatized children a new home. From the first Tabaluga songs to the children's villages, the same pattern recurs: complete, disciplined merging with the one thing that carries.</p>
+          <p class="vb-intro">This is the Sexual Nine with a One-wing at its most effective: a sloth that never grows loud, but builds, out of quiet, decades-long devotion, a life's work reaching far beyond its own music career.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"beruehmte-jane-goodall", label:"Portrait: Dr. Jane Goodall (SX9w1)"},
+        {route:"beruehmte-craig-foster", label:"Portrait: Craig Foster (SX9w1)"},
+        {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
+      ])}
+    </div>
+  `);
+}
