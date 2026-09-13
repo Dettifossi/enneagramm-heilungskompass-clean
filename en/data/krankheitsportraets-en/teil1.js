@@ -3303,6 +3303,7 @@ export function vincentVanGoghKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5) – life's work"},
+        {route:"krankheitsportraets-virginia-woolf", label:"Illness Portrait: Virginia Woolf (SE4w5) – same subtype"},
         {route:"psychosomatik/epilepsie", label:"Psychosomatics Register: Epilepsy"},
         {route:"subtype/se4", label:"Subtype Profile SE4"},
       ])}
@@ -3989,6 +3990,188 @@ export function galarrwuyYunupinguKrankheitsportraetPage() {
         {route:"krankheitsportraets-helmut-kohl", label:"Illness Portrait: Helmut Kohl (SE8w9) – the same pattern, control despite physical decline"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se8", label:"Subtype Profile SE8"},
+      ])}
+    </div>
+  `);
+}
+
+export function virginiaWoolfKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-virginia-woolf-portrait.jpg" alt="Virginia Woolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Virginia Woolf</p>
+        <p class="krim-portrait-typ">SE4w5 · Self-Preservation Type 4 with Five-Wing · 1882–1941</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Dove</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Virginia Woolf</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-virginia-woolf">Famous
+        Personalities portrait</a> – that page covers her literary work and her
+        stream-of-consciousness technique. This page looks more closely at a chapter only
+        briefly outlined there: decades of recurring severe depressive episodes that ended in
+        her suicide in 1941.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Woolf</strong> is assigned to the <strong>self-preservation Type 4 with
+        Five-Wing</strong>. The SE4 endures its suffering stoically, without putting it on
+        public display; the Five-Wing gives it the ability to analytically penetrate its own
+        pain and translate it into a well-thought-out system. Exactly this combination –
+        silently enduring the illness, working with clockwork discipline between crises, and
+        preparing even the final step in clear, deliberate prose – shaped the entire course of
+        her psychological illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A first breakdown after her mother's death:</strong>
+        At thirteen, Woolf suffered her first severe psychological breakdown after the death
+        of her mother, Julia, in 1895.</p>
+        <p class="vb-intro"><strong>b) A second breakdown after her father's death:</strong>
+        In 1904, at twenty-two, a second, even more severe breakdown followed the death of her
+        father, Leslie Stephen, and included a first suicide attempt.</p>
+        <p class="vb-intro"><strong>c) Childhood trauma as a possible trigger:</strong>
+        In letters, Woolf later suggested that sexual abuse by her two half-brothers in
+        childhood was among the deeper causes of her psychological illness – a trauma she
+        only processed late and only fragmentarily in her writing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Recurring severe depressive episodes across decades:</strong>
+        Woolf's entire adult life was accompanied by recurring, at times months-long
+        depressive episodes that temporarily made any writing impossible.</p>
+        <p class="vb-intro"><strong>b) Disciplined work between crises:</strong>
+        In the periods in between, Woolf wrote with almost businesslike reliability every
+        morning at a specially built standing desk in her garden cottage at Monk's House.</p>
+        <p class="vb-intro"><strong>c) Close medical and family oversight:</strong>
+        Her husband, Leonard Woolf, organized close monitoring over the years, regulating rest
+        periods, diet, and working hours in an effort to prevent further breakdowns.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) Two carefully composed farewell letters:</strong>
+        On March 28, 1941, following a rapidly worsening depressive episode during the German
+        air raids on Britain, Woolf wrote two farewell letters – one to her husband Leonard,
+        one to her sister Vanessa Bell.</p>
+        <p class="vb-intro"><strong>b) Clear, matter-of-fact language rather than impulsiveness:</strong>
+        Both letters are written in calm, almost matter-of-fact prose, in which she explained
+        that she felt the illness taking hold of her again and that this time she would not
+        recover.</p>
+        <p class="vb-intro"><strong>c) Death in the River Ouse:</strong>
+        She filled her coat pockets with stones and walked into the River Ouse near her home
+        in Sussex – a deliberate, prepared act, not an impulsive outburst.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A literary body of work despite the illness, not thanks to romanticizing it:</strong>
+        Woolf's most significant novels emerged during periods of relative stability between
+        crises, not during the acute depressive episodes themselves.</p>
+        <p class="vb-intro"><strong>b) Later public awareness of mental illness:</strong>
+        Her death and her posthumously published diaries contributed significantly to
+        establishing severe depression as a serious illness rather than a mere character flaw
+        in public perception.</p>
+        <p class="vb-intro"><strong>c) A later debate over a possible bipolar disorder:</strong>
+        Later psychiatric readings of her biography discuss whether Woolf's illness –
+        alternating phases of extreme productivity and deep exhaustion – showed features of a
+        bipolar disorder, though no such diagnosis was made during her lifetime.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Quiet endurance instead of public complaint:</strong>
+        The SE4's characteristic stance – enduring one's own suffering stoically without
+        putting it on public display – showed in Woolf in that she processed her illness
+        almost exclusively in diaries and private letters, not in direct public disclosures.</p>
+        <p class="vb-intro"><strong>b) The Five-Wing and the systematizing of her own suffering:</strong>
+        The same analytical distance that produced Woolf's stream-of-consciousness technique
+        also showed in how she handled her own illness: a deliberate, almost
+        scientifically observant self-description in diaries rather than spontaneous
+        emotional discharge.</p>
+        <p class="vb-intro"><strong>c) Deliberate form to the very last act:</strong>
+        Even her suicide bore the hallmark of the SE4w5: not an impulsive outburst, but a
+        deliberately chosen decision prepared in clear prose.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
+        <p class="vb-intro"><strong>a) A mind of ordered clarity that its own illness made erratic:</strong>
+        Woolf's entire literary work rested on precise, deliberate control over language and
+        form. Of all things, her own mind – the instrument of that control – repeatedly became
+        the place where that order collapsed.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        A parallel shows in
+        <a href="javascript:void(0)" data-route="krankheitsportraets-vincent-van-gogh">Vincent
+        van Gogh (SE4w5)</a>: in his case too, recurring severe psychological crises shaped his
+        late work, and his life also ended through a self-inflicted injury. Both SE4w5s show
+        the same pattern: between crises, great suffering gives rise to an extraordinarily
+        deliberate artistic system, until in the end the illness overwhelms the
+        self-imposed discipline.</p>
+        <p class="vb-intro"><strong>c) When the Four under chronic stress moves toward the Two:</strong>
+        Her final letter to Leonard is notably shaped less by her own distress than by concern
+        for his well-being: she wrote that she could not go on burdening his life, that
+        without her he could work, and that she owed all the happiness of her life to him.
+        Someone living under chronic psychological strain for years increasingly moves along
+        their stress line toward their stress point – for the Four, that is the Two. This
+        outward-, rather than inward-, directed care in her final, most existential hour
+        recalls the self-sacrifice of the stress point, not the otherwise strongly
+        inward-directed introspection of the core type – with the core type unchanged at
+        SE4w5.</p>
+        <p class="vb-intro"><strong>d) Why her own mind, of all things?</strong>
+        For a self-preservation Four whose entire body of work rested on precise control over
+        her own perception and language, one interpretation suggests itself: of all things,
+        the very organ that enabled this control – her own mind – repeatedly became the place
+        where control was lost most completely. This interpretation is a plausible reading,
+        not a documented clinical causal link, and will be developed further in this
+        Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) A Classification Without Determinism:</strong>
+        This does not mean that the self-preservation Four's pattern inevitably leads to
+        severe depressive illness – <strong>any person can develop any illness, regardless of
+        subtype.</strong> What Woolf's case shows is a pattern in how chronic psychological
+        illness is handled, one that recurs again and again in a pronounced self-preservation
+        Four with a Five-Wing – one of many possible readings, not a verdict. The
+        corresponding illness will be developed further, over time, in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as Its Own Factor:</strong>
+        Woolf did not know her own pattern as an Enneagram structure – the self-preservation
+        Four with a Five-Wing reflexively holds onto silent endurance and analytical
+        processing of its own suffering instead of seeking more direct help earlier, and lived
+        out exactly this pattern unchanged until her death. Anyone who does not recognize
+        their own tendency to manage psychological suffering solely through disciplined work
+        and quiet introspection risks letting their own illness escalate untreated, because it
+        remains barely visible from outside.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The self-preservation Type 4 with Five-Wing explains much about the course of
+        <strong>Virginia Woolf's</strong> psychological illness: a writer whose entire body of
+        work rested on translating suffering into deliberate literary form endured her illness
+        quietly and with discipline for decades, until she prepared even her final step once
+        more with the same clear, deliberate prose with which she had written her whole life.
+        The dove that, to the very end, gave its suffering a deliberately chosen, precise
+        form.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-virginia-woolf", label:"Portrait: Virginia Woolf (SE4w5) – life's work"},
+        {route:"krankheitsportraets-vincent-van-gogh", label:"Illness Portrait: Vincent van Gogh (SE4w5) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se4", label:"Subtype Profile SE4"},
       ])}
     </div>
   `);

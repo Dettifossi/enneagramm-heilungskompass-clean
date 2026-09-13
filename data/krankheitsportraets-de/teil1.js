@@ -3461,6 +3461,7 @@ export function vincentVanGoghKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5) – Lebenswerk"},
+        {route:"krankheitsportraets-virginia-woolf", label:"Krankheitsporträt: Virginia Woolf (SE4w5) – gleicher Subtyp"},
         {route:"psychosomatik/epilepsie", label:"Psychosomatik-Register: Epilepsie"},
         {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}
@@ -4176,6 +4177,196 @@ export function galarrwuyYunupinguKrankheitsportraetPage() {
         {route:"krankheitsportraets-helmut-kohl", label:"Krankheitsporträt: Helmut Kohl (SE8w9) – dasselbe Muster, Kontrolle trotz körperlichen Verfalls"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se8", label:"Subtyp-Profil SE8"},
+      ])}
+    </div>
+  `);
+}
+
+export function virginiaWoolfKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-virginia-woolf-portrait.jpg" alt="Virginia Woolf" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Virginia Woolf</p>
+        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel · 1882–1941</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Taube</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Tierentsprechung: Taube" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Virginia Woolf</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-virginia-woolf">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten – dort geht es um ihr
+        literarisches Werk und ihre Bewusstseinsstrom-Technik. Diese Seite geht näher auf ein
+        Kapitel ein, das dort nur knapp umrissen wird: jahrzehntelange, wiederkehrende schwere
+        depressive Episoden, die 1941 in ihrem Suizid endeten.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Woolf</strong> ist dem <strong>selbsterhaltenden Typ 4 mit Fünferflügel</strong>
+        zugeordnet. Die SE4 erträgt ihr Leiden stoisch, ohne es öffentlich zur Schau zu
+        stellen; der Fünferflügel gibt ihr die Fähigkeit, den eigenen Schmerz analytisch zu
+        durchdringen und in ein durchdachtes System zu übersetzen. Genau diese Kombination –
+        die Krankheit stumm ertragen, zwischen den Krisen mit uhrwerkgleicher Disziplin
+        arbeiten und selbst den letzten Schritt in klarer, durchdachter Prosa vorbereiten –
+        bestimmte den gesamten Verlauf ihrer psychischen Erkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Erster Zusammenbruch nach dem Tod der Mutter:</strong>
+        Mit dreizehn Jahren erlitt Woolf nach dem Tod ihrer Mutter Julia 1895 ihren ersten
+        schweren psychischen Zusammenbruch.</p>
+        <p class="vb-intro"><strong>b) Zweiter Zusammenbruch nach dem Tod des Vaters:</strong>
+        1904, mit zweiundzwanzig Jahren, folgte nach dem Tod ihres Vaters Leslie Stephen ein
+        zweiter, noch schwererer Zusammenbruch, der einen ersten Suizidversuch einschloss.</p>
+        <p class="vb-intro"><strong>c) Kindheitstrauma als möglicher Auslöser:</strong>
+        In Briefen deutete Woolf später an, dass sexuelle Übergriffe ihrer beiden Halbbrüder
+        in der Kindheit zu den tieferen Ursachen ihrer psychischen Erkrankung zählten – ein
+        Trauma, das sie erst spät und nur fragmentarisch literarisch verarbeitete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Wiederkehrende schwere depressive Episoden über Jahrzehnte:</strong>
+        Woolfs gesamtes Erwachsenenleben war von wiederkehrenden, teils monatelangen
+        depressiven Episoden begleitet, die jede schriftstellerische Arbeit zeitweise
+        unmöglich machten.</p>
+        <p class="vb-intro"><strong>b) Disziplinierte Arbeit zwischen den Krisen:</strong>
+        In den Phasen dazwischen schrieb Woolf mit fast geschäftsmännischer Verlässlichkeit
+        jeden Vormittag an einem eigens gebauten Stehpult in ihrem Gartenhäuschen in Monk's
+        House.</p>
+        <p class="vb-intro"><strong>c) Enge ärztliche und familiäre Überwachung:</strong>
+        Ihr Ehemann Leonard Woolf organisierte über Jahre eine engmaschige Betreuung, die
+        Ruhephasen, Ernährung und Arbeitszeiten regulierte, um erneute Zusammenbrüche
+        möglichst zu verhindern.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Zwei sorgfältig formulierte Abschiedsbriefe:</strong>
+        Am 28. März 1941 schrieb Woolf, nach einer sich rapide verschlechternden depressiven
+        Episode während der deutschen Luftangriffe auf Großbritannien, zwei Abschiedsbriefe –
+        einen an ihren Mann Leonard, einen an ihre Schwester Vanessa Bell.</p>
+        <p class="vb-intro"><strong>b) Klare, sachliche statt impulsive Sprache:</strong>
+        Beide Briefe sind in ruhiger, fast sachlicher Prosa verfasst, in der sie erklärte,
+        dass sie spüre, wie die Krankheit sich erneut ihrer bemächtige und sie diesmal nicht
+        mehr genesen werde.</p>
+        <p class="vb-intro"><strong>c) Der Tod im Fluss Ouse:</strong>
+        Sie füllte ihre Manteltaschen mit Steinen und ging in den Fluss Ouse nahe ihrem
+        Zuhause in Sussex – eine durchdachte, vorbereitete Handlung, kein impulsiver
+        Ausbruch.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein literarisches Werk trotz der Krankheit, nicht dank ihrer Verklärung:</strong>
+        Woolfs bedeutendste Romane entstanden in den Phasen relativer Stabilität zwischen den
+        Krisen, nicht während der akuten depressiven Episoden selbst.</p>
+        <p class="vb-intro"><strong>b) Späteres öffentliches Bewusstsein für psychische Erkrankung:</strong>
+        Ihr Tod und die posthum veröffentlichten Tagebücher trugen wesentlich dazu bei, schwere
+        Depression als ernstzunehmende Krankheit statt als bloße Charakterschwäche in der
+        öffentlichen Wahrnehmung zu verankern.</p>
+        <p class="vb-intro"><strong>c) Nachträgliche Debatte über eine mögliche bipolare Störung:</strong>
+        Spätere psychiatrische Einordnungen ihrer Biografie diskutieren, ob Woolfs
+        Krankheitsverlauf – abwechselnde Phasen extremer Produktivität und tiefer
+        Erschöpfung – Merkmale einer bipolaren Störung zeigte, ohne dass eine solche Diagnose
+        zu Lebzeiten gestellt wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Stilles Ertragen statt öffentlicher Klage:</strong>
+        Die SE4-typische Haltung – das eigene Leiden stoisch zu ertragen, ohne es öffentlich
+        vorzuführen – zeigte sich bei Woolf darin, dass sie ihre Krankheit fast ausschließlich
+        in Tagebüchern und privaten Briefen verarbeitete, nicht in direkten öffentlichen
+        Bekenntnissen.</p>
+        <p class="vb-intro"><strong>b) Der Fünferflügel und die Systematisierung des eigenen Leidens:</strong>
+        Dieselbe analytische Distanz, die Woolfs Bewusstseinsstrom-Technik hervorbrachte,
+        zeigte sich auch im Umgang mit der eigenen Krankheit: eine durchdachte, fast
+        wissenschaftlich beobachtende Selbstbeschreibung in Tagebüchern statt spontaner
+        emotionaler Entladung.</p>
+        <p class="vb-intro"><strong>c) Durchdachte Form bis in den letzten Akt:</strong>
+        Selbst ihr Suizid trug die Handschrift der SE4w5: kein impulsiver Ausbruch, sondern
+        eine in klarer Prosa vorbereitete, bewusst gewählte Entscheidung.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Geist geordneter Klarheit, den die eigene Krankheit unregelmäßig machte:</strong>
+        Woolfs gesamtes literarisches Werk beruhte auf präziser, durchdachter Kontrolle über
+        Sprache und Form. Ausgerechnet ihr eigener Geist – das Werkzeug dieser Kontrolle –
+        wurde wiederholt zum Ort, an dem diese Ordnung zusammenbrach.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-vincent-van-gogh">Vincent
+        van Gogh (SE4w5)</a>: Auch bei ihm bestimmten wiederkehrende schwere psychische
+        Krisen das späte Werk, und auch sein Leben endete durch eine selbst herbeigeführte
+        Verletzung. Bei beiden SE4w5 zeigt sich dasselbe Muster: Zwischen den Krisen entsteht
+        aus großem Leiden ein außergewöhnlich durchdachtes künstlerisches System, bis die
+        Krankheit am Ende die selbst auferlegte Disziplin überwältigt.</p>
+        <p class="vb-intro"><strong>c) Wenn die Vier unter chronischem Stress zur Zwei wird:</strong>
+        Ihr letzter Brief an Leonard ist bemerkenswert weniger von der eigenen Not als von
+        Sorge um sein Wohlergehen geprägt: Sie schrieb, sie könne sein Leben nicht länger
+        belasten, ohne sie könne er arbeiten, und sie verdanke ihm alles Glück ihres Lebens.
+        Wer über Jahre in chronischer psychischer Belastung lebt, bewegt sich zunehmend
+        entlang seiner Stresslinie in Richtung seines Stresspunkts – bei der Vier ist das die
+        Zwei. Diese in ihrer letzten, existenziellsten Stunde nach außen statt nach innen
+        gerichtete Fürsorge erinnert an die Selbstaufopferung des Stresspunkts, nicht an die
+        sonst stark nach innen gerichtete Introspektion des Kerntyps – bei unverändertem
+        Kerntyp SE4w5.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet der eigene Geist?</strong>
+        Für eine selbsterhaltende Vier, deren gesamtes Werk auf der präzisen Kontrolle über
+        die eigene Wahrnehmung und Sprache beruhte, liegt eine Deutung nahe: Ausgerechnet
+        jenes Organ, das diese Kontrolle ermöglichte – der eigene Geist –, wurde wiederholt
+        zum Ort, an dem die Kontrolle am vollständigsten verloren ging. Diese Deutung ist eine
+        plausible Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Vier zwangsläufig zu schweren
+        depressiven Erkrankungen führt – <strong>jeder Mensch kann jede Erkrankung
+        entwickeln, unabhängig vom Subtyp.</strong> Was sich an Woolfs Fall zeigen lässt, ist
+        ein Muster im Umgang mit chronischer psychischer Krankheit, das bei einer ausgeprägten
+        selbsterhaltenden Vier mit Fünferflügel immer wieder auffällt – eine von vielen
+        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Woolf kannte ihr eigenes Muster nicht als Enneagramm-Struktur – die selbsterhaltende
+        Vier mit Fünferflügel hält reflexhaft an stillem Ertragen und analytischer
+        Verarbeitung des eigenen Leidens fest, statt frühzeitig direktere Hilfe zu suchen, und
+        lebte genau dieses Muster bis zu ihrem Tod unverändert aus. Wer die eigene Neigung,
+        psychisches Leiden allein durch disziplinierte Arbeit und stille Introspektion zu
+        bewältigen, nicht als Muster erkennt, riskiert, dass die eigene Krankheit unbehandelt
+        eskaliert, weil sie nach außen kaum sichtbar wird.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 4 mit Fünferflügel erklärt bei <strong>Virginia
+        Woolf</strong> vieles am Verlauf ihrer psychischen Erkrankung: eine Schriftstellerin,
+        deren gesamtes Werk auf der Übersetzung von Leiden in durchdachte literarische Form
+        beruhte, ertrug ihre Krankheit über Jahrzehnte still und diszipliniert, bis sie
+        selbst ihren letzten Schritt noch einmal mit derselben klaren, durchdachten Prosa
+        vorbereitete, mit der sie ihr ganzes Leben lang geschrieben hatte. Die Taube, die ihr
+        Leiden bis zuletzt in eine bewusst gewählte, präzise Form brachte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-virginia-woolf", label:"Porträt: Virginia Woolf (SE4w5) – Lebenswerk"},
+        {route:"krankheitsportraets-vincent-van-gogh", label:"Krankheitsporträt: Vincent van Gogh (SE4w5) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}
     </div>
   `);
