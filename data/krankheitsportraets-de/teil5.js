@@ -4155,10 +4155,10 @@ export function philCollinsKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
         ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Collins kannte sein eigenes Muster nicht als Enneagramm-Struktur – die
+        Collins kennt sein eigenes Muster vermutlich nicht als Enneagramm-Struktur – die
         selbsterhaltende Eins mit Neunerflügel hält reflexhaft an der eigenen Disziplin und
         stillen Anpassung fest, statt körperliche Verluste offen als das zu benennen, was sie
-        sind, und lebte genau dieses Muster über Jahrzehnte hinweg unverändert aus. Wer die
+        sind, und lebt genau dieses Muster seit Jahrzehnten unverändert aus. Wer die
         eigene Neigung, körperliche Grenzen ohne öffentliche Aussprache zu kompensieren, nicht
         als Muster erkennt, riskiert, dass die eigene Belastung unsichtbar bleibt, auch wenn
         Unterstützung oder Entlastung möglich wäre.</p>

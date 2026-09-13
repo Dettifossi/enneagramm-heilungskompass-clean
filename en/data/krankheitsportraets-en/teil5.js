@@ -3965,10 +3965,11 @@ export function philCollinsKrankheitsportraetPage() {
         Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as Its Own Factor:</strong>
-        Collins did not know his own pattern as an Enneagram structure – the self-preservation
-        One with a Nine-Wing reflexively holds onto its own discipline and quiet adaptation
-        instead of openly naming physical losses for what they are, and lived out exactly this
-        pattern unchanged for decades. Anyone who does not recognize their own tendency to
+        Collins likely does not know his own pattern as an Enneagram structure – the
+        self-preservation One with a Nine-Wing reflexively holds onto its own discipline and
+        quiet adaptation instead of openly naming physical losses for what they are, and has
+        lived out exactly this pattern unchanged for decades. Anyone who does not recognize
+        their own tendency to
         compensate for physical limits without speaking openly about them risks letting their
         own burden remain invisible, even where support or relief would be possible.</p>
       </div>
