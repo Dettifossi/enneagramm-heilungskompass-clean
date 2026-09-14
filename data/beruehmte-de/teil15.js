@@ -1885,7 +1885,6 @@ export function francoisDamiensPortraitPage() {
           {route:"beruehmte-hundertwasser", label:"Porträt: Friedensreich Hundertwasser (SX9w8) – ebenfalls Provokation als Waffe des Achterflügels"},
           {route:"beruehmte-juergen-drews", label:"Porträt: Jürgen Drews (SX9w8)"},
           {route:"beruehmte-juergen-von-der-lippe", label:"Porträt: Jürgen von der Lippe (SX9w8) – ebenfalls derber Humor als Publikumsnähe"},
-          {route:"beruehmte-stefan-homburg", label:"Porträt: Stefan Homburg (SX9w8) – ebenfalls Konfrontation als Waffe des Achterflügels"},
           {route:"beruehmte-michael-berryman", label:"Porträt: Michael Berryman (SX9w8) – ebenfalls ungewöhnliches Äußeres zum Beruf gemacht"},
         ])}
       </div>
@@ -2023,69 +2022,3 @@ export function oleNymoenPortraitPage() {
   `);
 }
 
-export function stefanHomburgPortraitPage() {
-  return shell(`
-    <div class="page-container">
-      ${pageHeader("Berühmte Persönlichkeiten")}
-      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
-      <div class="krim-portrait-wrap">
-        <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-stefan-homburg-portrait.jpg" alt="Stefan Homburg" class="krim-portrait-img" loading="lazy" />
-        </div>
-        <p class="krim-portrait-name">Prof. Dr. Stefan Homburg</p>
-        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel</p>
-        <p class="krim-portrait-subtitle">Finanzwissenschaftler, geb. 1961 &ndash; Tierentsprechung: Faultier</p>
-      </div>
-      <div class="page-content">
-
-        <h2 class="vb-section">1. Das Faultier, das plötzlich laut wurde</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> spart seine Energie über lange Zeit, bis es sich vollständig mit einer Sache oder einer Überzeugung verbindet – und dann geht es ganz darin auf. Stefan Homburg, geboren 1961, war über zwei Jahrzehnte ein unauffälliger, in Fachkreisen anerkannter Finanzwissenschaftler: Professor für Öffentliche Finanzen in Hannover, Dekan, Berater mehrerer Bundesregierungen, Autor von Lehrbüchern. Kaum jemand außerhalb der Fachwelt kannte seinen Namen.</p>
-          <p class="vb-intro">2020 änderte sich das abrupt. Mit seiner Kritik an den Corona-Maßnahmen wurde er einem Millionenpublikum bekannt, gewann über 140.000 Follower auf X und verarbeitete seine eigenen Tweets später zu einem Buch. Aus dem zurückgezogenen Wissenschaftler wurde über Nacht eine der lautesten Stimmen der öffentlichen Debatte – ein Faultier, das sich, einmal vollständig mit seiner Überzeugung verschmolzen, nicht mehr zurückzog.</p>
-        </blockquote>
-
-        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit der einen Überzeugung, der einen Ehe</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht nach Naranjo nicht die Zugehörigkeit zu einer breiten Gemeinschaft, sondern die vollständige Verschmelzung mit der einen Sache oder der einen Bindung, die wirklich zählt. Bei Homburg zeigt sich das in seiner über anderthalb Jahrzehnte gemeinsam mit seiner Frau Jasminka geführten Steuerberatungsgesellschaft: Von 2008 bis 2021 war er zur Hälfte daran beteiligt, während sie die Geschäfte führte – kein bloßes Nebenprojekt, sondern eine vollständig verwobene Lebens- und Arbeitspartnerschaft.</p>
-          <p class="vb-intro">Dieselbe Verschmelzungslogik gilt für seine Überzeugungen: Schon 1997 lehnte er den Euro vehement ab, wurde 2012 Unterzeichner des „Protestaufrufs der Ökonomen" und Gründungsmitglied der AfD-Vorläuferorganisation. Einmal von einer Position überzeugt, hält er über Jahrzehnte unbeirrt daran fest – nicht aus Sturheit im Sinne einer Acht, sondern weil er mit der einen Überzeugung vollständig verschmolzen ist, ähnlich wie eine SX9 sich mit der einen Beziehung verschmilzt, die alles andere überdauert.</p>
-        </blockquote>
-
-        <h2 class="vb-section">3. Der Achterflügel: Der Genuss an der Auseinandersetzung</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der sexuellen Neun eine Direktheit, die selten diplomatisch verpackt wird. Wegbegleiter beschreiben Homburg als jemanden, der Konfrontation regelrecht genießt – die „vielen kleinen Raufereien" öffentlicher Debatten, in denen er sich daran erfreut, auf Anfeindungen gekonnt zu reagieren. Bewusst setzt er zugespitzte Formulierungen ein, um Debatten anzustoßen, statt sich zurückzuhalten.</p>
-          <p class="vb-intro">Diese Direktheit hatte auch ernste Konsequenzen: 2020 distanzierte sich die Leibniz Universität Hannover öffentlich von ihm, nachdem er Vergleiche zu 1933 gezogen hatte, und später wurde er wegen der Verwendung von NS-Parolen verurteilt. Kein Zurückweichen vor der eigenen Zuspitzung, auch nicht bei erheblichem institutionellem und rechtlichem Gegenwind – typische Achterflügel-Härte, die der neunertypischen Konfliktvermeidung im Ernstfall eine schonungslose Kante gibt.</p>
-          <p class="vb-intro">Trotzdem bleibt der Grundton auffallend unaufgeregt: Interviews mit ihm werden als „ruhig, sachlich, mit einem Schuss Humor" beschrieben – kein zorniger Kämpfer, sondern jemand, der selbst seine schärfsten Aussagen mit spürbarer Gelassenheit vorträgt. Genau diese Kombination aus Neuner-Ruhe und Achter-Schärfe macht ihn schwer einzuordnen: kein lauter Wüterich, aber auch kein konfliktscheuer Vermittler.</p>
-        </blockquote>
-
-        <h2 class="vb-section">4. Das Werk: Vom Lehrbuchautor zum Corona-Rebellen</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bereits als Student schrieb Homburg gemeinsam mit seinem späteren Doktorvater ein Lehrbuch zur Makroökonomik, das bis 2005 neun Auflagen und sechs Fremdsprachen erreichte. Es folgten Professuren in Bonn, Magdeburg und schließlich 24 Jahre in Hannover, dazu Beratungstätigkeit für mehrere Bundesregierungen unter Waigel, Wulff und Schröder – ein Leben, das lange ganz im akademischen Establishment verlief.</p>
-          <p class="vb-intro">2025 berief ihn die AfD als Sachverständigen für die Enquetekommission zur Aufarbeitung der Coronapandemie in den Bundestag – eine erneute öffentliche Rolle, Jahrzehnte nach seinem ersten Auftritt vor demselben Gremium als unabhängiger Wissenschaftler.</p>
-        </blockquote>
-
-        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Achterflügel</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX9w8 zeigt sich bei Homburg in der Fähigkeit, aus vollständiger Überzeugungstreue heraus über Jahrzehnte fachlich fundierte Positionen zu vertreten, auch gegen den Mainstream – eine seltene Standhaftigkeit, die viele seiner akademischen Kollegen anerkennen, selbst wenn sie seine konkreten Schlüsse ablehnen.</p>
-          <p class="vb-intro">Der Schatten der Neun-Acht-Kombination zeigt sich darin, dass dieselbe Verschmelzung mit einer Überzeugung auch dann nicht gelockert wird, wenn Fakten und Kontext dagegensprechen – die Zuspitzung, die Debatten anstößt, kann in Vereinfachung, Grenzüberschreitung und im Fall der NS-Parolen-Verurteilung in nachweisbarem Fehlverhalten münden.</p>
-        </blockquote>
-
-        <h2 class="vb-section">6. Das Faultier, das nicht mehr schweigen wollte</h2>
-        <blockquote class="vb-blockquote">
-          <p class="vb-intro">Stefan Homburgs Weg zeigt die sexuelle Neun mit Achterflügel in einer besonders öffentlichen, konfliktreichen Form: zwei Jahrzehnte stille fachliche Verschmelzung mit der eigenen Wissenschaft und der eigenen Ehe, dann ein abruptes, ungebremstes Eintreten für die eine Überzeugung, sobald sie einmal gefasst war – ohne Rückzug, ohne Kompromiss, mit einer Härte, die selbst institutionellen und rechtlichen Widerstand nicht scheute.</p>
-          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-francois-damiens">François Damiens</a> (SX9w8) &ndash; auch bei ihm zeigt sich dieselbe Bereitschaft, für die eigene, einmal gewählte Sache auch unbequeme Konfrontation nicht zu scheuen. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-francois-damiens">Porträt zu François Damiens</a>.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-        </blockquote>
-
-      </div>
-      ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
-        {route:"beruehmte-francois-damiens", label:"Porträt: François Damiens (SX9w8)"},
-        {route:"beruehmte-juergen-von-der-lippe", label:"Porträt: Jürgen von der Lippe (SX9w8)"},
-        {route:"beruehmte-mario-barth", label:"Porträt: Mario Barth (SX9w8)"},
-      ])}
-    </div>
-  `);
-}
