@@ -1884,6 +1884,7 @@ export function francoisDamiensPortraitPage() {
           {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w8) \u2013 also provocation as the Eight-wing's weapon"},
           {route:"beruehmte-juergen-drews", label:"Portrait: J\u00fcrgen Drews (SX9w8)"},
           {route:"beruehmte-juergen-von-der-lippe", label:"Portrait: J\u00fcrgen von der Lippe (SX9w8) \u2013 also crude humor as audience closeness"},
+          {route:"beruehmte-stefan-homburg", label:"Portrait: Stefan Homburg (SX9w8) \u2013 also confrontation as the Eight-wing's weapon"},
           {route:"beruehmte-michael-berryman", label:"Portrait: Michael Berryman (SX9w8) \u2013 also turned an unusual appearance into a career"},
         ])}
       </div>
@@ -2085,3 +2086,70 @@ export function philTaylorPortraitPage() {
   `);
 }
 
+
+export function stefanHomburgPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-stefan-homburg-portrait.jpg" alt="Stefan Homburg" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Stefan Homburg</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexual Type 9 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Economist, born 1961 &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth That Suddenly Got Loud</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> saves its energy for a long time, until it fully merges with a cause or a conviction – and then dissolves entirely into it. Stefan Homburg, born in 1961, spent over two decades as an unremarkable, well-regarded economist: professor of public finance in Hanover, dean, advisor to several German federal governments, author of textbooks. Hardly anyone outside academic circles knew his name.</p>
+          <p class="vb-intro">That changed abruptly in 2020. His criticism of Germany's COVID measures brought him to a mass audience, won him over 140,000 followers on X, and he later turned his own tweets into a book. Overnight, the withdrawn academic became one of the loudest voices in public debate – a sloth that, once fully merged with its conviction, no longer withdrew.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Nine: Merging With the One Conviction, the One Marriage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Nine (SX9)</strong>, per Naranjo, seeks not belonging to a broad community but complete merging with the one cause or the one bond that truly matters. In Homburg this shows in the tax consulting firm he ran together with his wife Jasminka for over a decade and a half: from 2008 to 2021 he held a fifty-percent stake while she ran its operations – not a side project, but a fully interwoven life and work partnership.</p>
+          <p class="vb-intro">The same merging logic applies to his convictions: as early as 1997 he vehemently rejected the euro, in 2012 signed the "Economists' Protest Appeal," and became a founding member of the AfD's precursor organization. Once convinced of a position, he holds to it unwaveringly for decades – not out of Eight-style stubbornness, but because he has fully merged with the one conviction, much as an SX9 merges with the one relationship that outlasts everything else.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-Wing: Relishing the Fight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the sexual Nine a directness that's rarely diplomatically wrapped. Observers describe Homburg as someone who genuinely relishes confrontation – the "many small skirmishes" of public debate, in which he enjoys responding skillfully to hostility. He deliberately deploys sharpened formulations to spark debate, rather than holding back.</p>
+          <p class="vb-intro">This directness also had serious consequences: in 2020, Leibniz University Hannover publicly distanced itself from him after he drew parallels to 1933, and he was later convicted for using Nazi-era (SA) slogans. No retreat from his own sharpened rhetoric, even in the face of significant institutional and legal pushback – typical Eight-wing hardness giving the Nine's usual conflict-avoidance a ruthless edge when it matters.</p>
+          <p class="vb-intro">Yet the underlying tone remains strikingly unagitated: interviews with him are described as "calm, factual, with a touch of humor" – not an angry fighter, but someone who delivers even his sharpest statements with noticeable composure. It's exactly this combination of Nine-calm and Eight-sharpness that makes him hard to place: no loud rager, but no conflict-avoiding mediator either.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From Textbook Author to Corona Rebel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Already as a student, Homburg co-wrote a macroeconomics textbook with his future doctoral advisor that reached nine editions and six foreign-language translations by 2005. Professorships in Bonn, Magdeburg, and finally 24 years in Hanover followed, alongside advisory work for several German federal governments under Waigel, Wulff, and Schröder – a life spent, for a long time, squarely within the academic establishment.</p>
+          <p class="vb-intro">In 2025, the AfD appointed him as an expert to the Bundestag's committee of inquiry into the handling of the Corona pandemic – a renewed public role, decades after his first appearance before the same body as an independent scholar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Nine with Eight-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX9w8 shows in Homburg's ability to hold, out of complete conviction, professionally grounded positions across decades, even against the mainstream – a rare steadfastness many academic colleagues respect, even when they reject his specific conclusions.</p>
+          <p class="vb-intro">The shadow of the Nine-Eight combination shows in how the same merging with a conviction does not loosen even when facts and context speak against it – the sharpening that sparks debate can tip into oversimplification, overreach, and, in the case of the SA-slogan conviction, into demonstrable misconduct.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Sloth That Wouldn't Stay Silent Any Longer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Stefan Homburg's path shows the sexual Nine with Eight-wing in a particularly public, conflict-laden form: two decades of quiet, professional merging with his own scholarship and his own marriage, then an abrupt, unbraked advocacy for the one conviction once it had formed – without retreat, without compromise, with a hardness that didn't shy away even from institutional and legal pushback.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-francois-damiens">François Damiens</a> (SX9w8) &ndash; in him, too, the same willingness shows up to face uncomfortable confrontation for a once-chosen cause. More in the <a href="javascript:void(0)" data-route="beruehmte-francois-damiens">portrait of François Damiens</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"beruehmte-francois-damiens", label:"Portrait: François Damiens (SX9w8)"},
+        {route:"beruehmte-juergen-von-der-lippe", label:"Portrait: Jürgen von der Lippe (SX9w8)"},
+        {route:"beruehmte-mario-barth", label:"Portrait: Mario Barth (SX9w8)"},
+      ])}
+    </div>
+  `);
+}
