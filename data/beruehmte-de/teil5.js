@@ -1631,6 +1631,7 @@ export function hannahArendtPortraitPage() {
         {route:"beruehmte-simone-de-beauvoir", label:"Portr\u00e4t: Simone de Beauvoir (SO5w6) \u2013 Zeitgenossin mit anderem Fl\u00fcgel"},
         {route:"beruehmte-jean-paul-sartre", label:"Portr\u00e4t: Jean-Paul Sartre (SX4w5)"},
         {route:"beruehmte-albert-einstein", label:"Portr\u00e4t: Albert Einstein (SO5w4) \u2013 auffallend \u00e4hnliche Blickqualit\u00e4t und Gesichtsz\u00fcge"},
+        {route:"beruehmte-lise-meitner", label:"Portr\u00e4t: Lise Meitner (SO5w4) \u2013 Physikerin, Flucht aus Nazi-Deutschland"},
         {route:"krankheitsportraets-hannah-arendt", label:"Krankheitsportr\u00e4t: Hannah Arendt (SO5w4) \u2013 Rauchen und Herzinfarkte"},
       ])}
     </div>

@@ -2031,3 +2031,69 @@ export function susanLinkPortraitPage() {
     </div>
   `);
 }
+
+export function liseMeitnerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lise-meitner-portrait.jpg" alt="Lise Meitner – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lise Meitner</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with a Four-Wing</p>
+        <p class="krim-portrait-subtitle">Physicist, 1878&ndash;1968, born in Vienna &ndash; Animal correspondence: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The octopus who slipped out of Berlin at the last possible moment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social type 5 – highly intelligent, thinking in several directions at once, preferring to work in the background rather than stand in the spotlight. Lise Meitner was born in Vienna in 1878, at a time when women were initially barred from regular university study in Austria, yet earned her doctorate in physics at the University of Vienna in 1905 as only the second woman ever to do so. In 1907 she moved to Berlin, where she was at first allowed to work only as an unpaid guest in Emil Fischer's laboratory – women were officially barred from his institute, and she was assigned a former carpenter's workshop in the basement.</p>
+          <p class="vb-intro">In 1938, after the "Anschluss" annexed Austria to Nazi Germany, Meitner – considered Jewish under Nazi law – lost the protection of her Austrian citizenship overnight. With colleagues' help she fled across the Dutch border to Sweden that July, nearly penniless, on an expired passport, at the very last moment, after thirty years of work at the Kaiser Wilhelm Institute in Berlin. The octopus does not escape through strength, but through the ability to find the narrowest remaining opening at the decisive moment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social five: a discovery she did not withhold from the world</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social five (SO5)</strong> does not seek knowledge for its own sake, but wants to grasp it deeply enough that it benefits the community – Naranjo's "totem". Exactly that happened in December 1938: from Swedish exile, Meitner received a letter from her longtime colleague Otto Hahn describing a puzzling experimental result from Berlin. Together with her nephew, the physicist Otto Robert Frisch, she worked out the physical explanation during a walk through snow-covered Kungälv: the atomic nucleus had been split. They coined the term "nuclear fission" for it.</p>
+          <p class="vb-intro">Meitner and Frisch published their interpretation promptly in the journal "Nature" – despite the danger that publishing under her name, known to be Jewish, carried. When she was invited in 1943 to join the Manhattan Project to develop the American atomic bomb, she categorically refused: "I will have nothing to do with a bomb." The octopus shares its knowledge with the world – but it decides for itself what that knowledge may be used for.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The four-wing: the wound of a Nobel Prize passed over</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>four-wing (w4)</strong> gives the social five an additional layer: the deep, personally felt injury when one's own identity and achievement go unrecognized. In 1944 Otto Hahn alone received the Nobel Prize in Chemistry for the discovery of nuclear fission – without Meitner, even though she had provided the physical explanation and Hahn himself had asked her for advice by letter as late as 1938. Later analyses of the nominating committee's records suggest that a combination of gender, Jewish origin, and her forced emigration contributed to her being passed over at the time.</p>
+          <p class="vb-intro">Meitner herself commented on the decision with public restraint, though far more visibly hurt in letters to close friends. When Hahn repeatedly tried after the war to resume their earlier relationship as if nothing had changed, a palpable distance remained between them that was never fully resolved – no open break, but no return to the old ease either. This is not cool fivish distance, but a deeply personal hurt she could not talk through for decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Thirty years of collaboration with Otto Hahn</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Meitner and Hahn worked together at the Kaiser Wilhelm Institute from 1907 until their flight in 1938 – one of the longest and most productive scientific partnerships of their time, which produced, among other things, the 1918 discovery of the element protactinium. The four-wing shows itself precisely in the fact that this decades-long, personally carried bond meant more to her than any formal recognition by a committee – which is why Hahn's later silence about her share in the discovery of fission struck so much deeper than a purely professional collaboration could have.</p>
+          <p class="vb-intro">Even after the war she stayed in close correspondence with a small circle of trusted colleagues, while showing conspicuous reserve toward institutional honors. In 1966 she was awarded the Enrico Fermi Award jointly with Hahn and Fritz Strassmann – recognition that arrived only once the original injury could no longer be undone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the social five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO5w4 shows in Meitner's steadfastness in thinking through and publishing her scientific insight despite persecution, flight, and destitution – and in her clear moral stance in consistently refusing the military use of that insight, while other physicists of her generation did exactly that.</p>
+          <p class="vb-intro">The shadow of the five is <strong>avarice</strong> – in Meitner's case it showed not as withholding knowledge, but as a decades-long inward-turned restraint: she rarely spoke publicly about the injustice she had suffered, processing the hurt almost entirely within her private circle and her own inner world, rather than openly demanding acknowledgment or making it public.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The octopus whose name returned to the Nobel Prize discourse only after her death</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the five leads from the question <em>Do I have enough to show myself?</em> to the realization <em>Knowledge does not shrink when I share it.</em> Meitner lived this path by publishing her physical interpretation immediately in 1938, even though she stood there as an exiled Jewish woman without institutional backing – and by refusing, unlike many colleagues, to put her knowledge to use against her own moral convictions afterward.</p>
+          <p class="vb-intro">Lise Meitner died on October 27, 1968, in Cambridge, England, just days before her 90th birthday. Her gravestone, composed by her nephew Otto Robert Frisch, reads: "Lise Meitner: A physicist who never lost her humanity." In 1997 chemical element 109 was named "Meitnerium" in her honor – one of very few such honors given to a woman. The octopus who fled across a border in 1938 on an expired passport left behind a discovery whose full recognition was denied her in her lifetime – and which only found its rightful place decades later.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
+        {route:"lebensmusterkompass/so5", label:"Life Pattern Compass: SO5 – Octopus"},
+        {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4)"},
+        {route:"beruehmte-hannah-arendt", label:"Portrait: Hannah Arendt (SO5w4)"},
+      ])}
+    </div>
+  `);
+}

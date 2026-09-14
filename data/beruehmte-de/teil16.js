@@ -2026,3 +2026,69 @@ export function susanLinkPortraitPage() {
     </div>
   `);
 }
+
+export function liseMeitnerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lise-meitner-portrait.jpg" alt="Lise Meitner – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lise Meitner</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Sozialer Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Physikerin, 1878&ndash;1968, geboren in Wien &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus, der im letzten Moment aus Berlin entkam</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 – hochintelligent, in mehreren Richtungen gleichzeitig denkend, dabei lieber im Hintergrund arbeitend als im Rampenlicht stehend. Lise Meitner wurde 1878 in Wien geboren, als Frau zu ihrer Zeit vom regulären Universitätsstudium in Österreich zunächst ausgeschlossen, und promovierte 1905 dennoch als erst zweite Frau überhaupt in Physik an der Universität Wien. 1907 ging sie nach Berlin, wo sie zunächst nur als unbezahlte Gästin im Labor von Emil Fischer arbeiten durfte – Frauen war der Zutritt zu dessen Institut offiziell untersagt, und ihr wurde ein ehemaliger Tischlerraum im Keller zugewiesen.</p>
+          <p class="vb-intro">1938, nach dem "Anschluss" Österreichs an Nazi-Deutschland, verlor die als jüdisch geltende Meitner über Nacht den Schutz ihrer österreichischen Staatsbürgerschaft. Mit Hilfe von Kollegen floh sie im Juli desselben Jahres nahezu mittellos über die niederländische Grenze nach Schweden – mit einem abgelaufenen Reisepass, in letzter Minute, nachdem sie dreißig Jahre lang am Kaiser-Wilhelm-Institut in Berlin gearbeitet hatte. Der Oktopus entkommt nicht durch Kraft, sondern durch die Fähigkeit, im entscheidenden Moment die schmalste verbliebene Öffnung zu finden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Fünf: Eine Entdeckung, die sie der Welt nicht vorenthielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Fünf (SO5)</strong> sucht nicht Wissen um seiner selbst willen, sondern will Erkenntnis so weit durchdringen, dass sie der Gemeinschaft zugutekommt – Naranjos "Totem". Genau das geschah im Dezember 1938: Aus dem schwedischen Exil erhielt Meitner einen Brief ihres langjährigen Kollegen Otto Hahn, der von einem rätselhaften Experimentergebnis in Berlin berichtete. Gemeinsam mit ihrem Neffen, dem Physiker Otto Robert Frisch, entwickelte sie während eines Spaziergangs im verschneiten Kungälv die physikalische Erklärung dafür: Der Atomkern war gespalten worden. Sie prägten dafür den Begriff "Kernspaltung" (nuclear fission).</p>
+          <p class="vb-intro">Meitner und Frisch veröffentlichten ihre Deutung umgehend in der Fachzeitschrift "Nature" – trotz der Gefahr, die eine Veröffentlichung unter ihrem als Jüdin bekannten Namen mit sich brachte. Als sie 1943 eingeladen wurde, sich dem Manhattan-Projekt zur Entwicklung der amerikanischen Atombombe anzuschließen, lehnte sie kategorisch ab: "Ich werde mit einer Bombe nichts zu tun haben." Der Oktopus teilt sein Wissen mit der Welt – aber er entscheidet selbst, wofür es verwendet werden darf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Wunde eines übergangenen Nobelpreises</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sozialen Fünf eine zusätzliche Ebene: die tiefe, persönlich empfundene Verletzung, wenn die eigene Identität und Leistung nicht angemessen anerkannt wird. 1944 erhielt Otto Hahn allein den Chemie-Nobelpreis für die Entdeckung der Kernspaltung – ohne Meitner, obwohl sie die physikalische Erklärung geliefert und Hahn selbst noch 1938 in Briefen um ihren Rat gebeten hatte. Spätere Analysen des Nominierungskomitees legen nahe, dass ein Zusammenspiel aus Geschlecht, jüdischer Herkunft und ihrer erzwungenen Emigration zu diesem Zeitpunkt zu ihrer Übergehung beitrug.</p>
+          <p class="vb-intro">Meitner selbst kommentierte die Entscheidung öffentlich zurückhaltend, in Briefen an enge Freunde jedoch deutlich verletzter. Als Hahn nach dem Krieg wiederholt versuchte, das gemeinsame frühere Verhältnis unbeschwert fortzusetzen, blieb zwischen den beiden eine spürbare, nie ganz aufgelöste Distanz – kein offener Bruch, aber auch keine Rückkehr zur alten Unbefangenheit. Das ist keine kühle Fünfer-Distanz, sondern eine zutiefst persönliche Kränkung, die sie sich über Jahrzehnte nicht von der Seele reden konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Dreißig Jahre Zusammenarbeit mit Otto Hahn</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Meitner und Hahn arbeiteten von 1907 bis zu ihrer Flucht 1938 gemeinsam am Kaiser-Wilhelm-Institut – eine der längsten und produktivsten wissenschaftlichen Partnerschaften ihrer Zeit, aus der unter anderem 1918 die Entdeckung des Elements Protactinium hervorging. Der Viererflügel zeigt sich gerade darin, dass diese jahrzehntelange, persönlich getragene Verbindung ihr mehr bedeutete als jede formale Anerkennung durch ein Komitee – weshalb das spätere Schweigen Hahns über ihren Anteil an der Kernspaltung sie so viel tiefer traf, als eine rein sachliche Zusammenarbeit es hätte tun können.</p>
+          <p class="vb-intro">Auch nach dem Krieg blieb sie in engem brieflichem Kontakt mit einem kleinen Kreis vertrauter Kollegen, während sie sich gegenüber institutionellen Ehrungen auffallend zurückhaltend zeigte. 1966 wurde ihr gemeinsam mit Hahn und Fritz Straßmann der Enrico-Fermi-Preis verliehen – eine Anerkennung, die erst kam, als die eigentliche Kränkung längst nicht mehr rückgängig zu machen war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO5w4 zeigt sich in Meitners Standhaftigkeit, ihre wissenschaftliche Erkenntnis trotz Verfolgung, Flucht und Mittellosigkeit zu Ende zu denken und zu veröffentlichen – und in ihrer klaren moralischen Haltung, sich der militärischen Nutzung dieser Erkenntnis konsequent zu verweigern, während andere Physiker ihrer Generation genau das taten.</p>
+          <p class="vb-intro">Der Schatten der Fünf ist der <strong>Geiz</strong> – bei Meitner zeigte er sich nicht als Zurückhalten von Wissen, sondern als eine über Jahrzehnte nach innen gerichtete Zurückhaltung: Sie sprach öffentlich kaum über die erlittene Ungerechtigkeit, verarbeitete die Kränkung fast ausschließlich im privaten Kreis und in ihrer eigenen inneren Welt, statt sie offen einzufordern oder öffentlich zu machen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Oktopus, dessen Name erst nach seinem Tod in den Nobelpreis-Diskurs zurückkehrte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von der Frage <em>Habe ich genug, um mich zu zeigen?</em> zur Erkenntnis <em>Das Wissen wird nicht weniger, wenn ich es teile.</em> Meitner lebte diesen Weg, indem sie ihre physikalische Deutung 1938 sofort veröffentlichte, obwohl sie als vertriebene Jüdin ohne institutionelle Absicherung dastand – und indem sie sich, anders als viele Kollegen, weigerte, ihr Wissen anschließend gegen ihre eigenen moralischen Überzeugungen einzusetzen.</p>
+          <p class="vb-intro">Lise Meitner starb am 27. Oktober 1968 in Cambridge, England, wenige Tage vor ihrem 90. Geburtstag. Auf ihrem von ihrem Neffen Otto Robert Frisch verfassten Grabstein steht: "Lise Meitner: A physicist who never lost her humanity." 1997 wurde das chemische Element 109 zu ihren Ehren "Meitnerium" benannt – eine der wenigen Ehrungen dieser Art für eine Frau. Der Oktopus, der 1938 mit einem abgelaufenen Pass über eine Grenze floh, hinterließ eine Entdeckung, deren volle Anerkennung ihr zu Lebzeiten verwehrt blieb – und die erst Jahrzehnte später an den Platz zurückfand, an dem sie immer schon hingehörte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so5", label:"Lebensmusterkompass: SO5 – Oktopus"},
+        {route:"beruehmte-albert-einstein", label:"Porträt: Albert Einstein (SO5w4)"},
+        {route:"beruehmte-hannah-arendt", label:"Porträt: Hannah Arendt (SO5w4)"},
+      ])}
+    </div>
+  `);
+}

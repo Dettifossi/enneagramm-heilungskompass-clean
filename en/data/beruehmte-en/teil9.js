@@ -67,6 +67,7 @@ export function albertEinsteinPortraitPage() {
         {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
         {route:"beruehmte-stephen-hawking", label:"Portrait: Stephen Hawking (SO5w6)"},
         {route:"beruehmte-hannah-arendt", label:"Portrait: Hannah Arendt (SO5w4) – strikingly similar gaze quality and facial features despite different gender"},
+        {route:"beruehmte-lise-meitner", label:"Portrait: Lise Meitner (SO5w4) – physicist, fled Nazi Germany"},
         {route:"beruehmte-buddha", label:"Portrait: Siddhartha Gautama (Buddha) (SO5w4)"},
       ])}
     </div>
