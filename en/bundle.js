@@ -19106,7 +19106,7 @@ function _memoryIntroScreen(level) {
           <p style="margin:0;">${meta.rule}</p>
         </div>
         <div style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-left:4px solid var(--copper);border-radius:12px;padding:1rem 1.2rem;margin:0 0 1.6rem;font-size:.9rem;">
-          The cards are drawn from all 600+ portraits in the compass &ndash; famous personalities, criminal psychology, and illness portraits mixed together. As more portraits are added, the card pool grows automatically.
+          The cards are drawn from all 800+ portraits in the compass &ndash; famous personalities, criminal psychology, and illness portraits mixed together. As more portraits are added, the card pool grows automatically.
         </div>
         ${best > 0 ? `<p style="text-align:center;color:var(--muted);font-size:0.9rem;margin-bottom:1.2rem;">Your best score at this level: <strong style="color:var(--ink);">${best}/${MEMORY_TOTAL_ROUNDS}</strong></p>` : ""}
         <div style="text-align:center;">
@@ -48147,7 +48147,7 @@ function freischaltPage() {
 
         <ul style="text-align:left;font-size:0.9rem;color:var(--muted);line-height:1.8;margin:0 0 1.4rem;padding-left:1.3rem;">
           <li><strong style="color:var(--ink);">All 27 subtype portraits</strong> – depth-psychological profiles with animal, healing path & natural medicine</li>
-          <li><strong style="color:var(--ink);">600+ portraits</strong> – famous personalities, criminal cases & illness portraits</li>
+          <li><strong style="color:var(--ink);">800+ portraits</strong> – famous personalities, criminal cases & illness portraits</li>
           <li><strong style="color:var(--ink);">Hundreds of charts</strong> – Enneagram, spirituality, philosophy, music & more</li>
           <li><strong style="color:var(--ink);">All 3 type tests</strong> – diagnosis, structure & motivation test with personal evaluation</li>
           <li><strong style="color:var(--ink);">Interactive learning games</strong> – Enneagram Memory, Flashcards, Compatibility Check & Growth Journal</li>

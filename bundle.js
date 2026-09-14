@@ -44181,7 +44181,7 @@ function _memoryIntroScreen(level) {
           <p style="margin:0;">${meta.rule}</p>
         </div>
         <div style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-left:4px solid var(--copper);border-radius:12px;padding:1rem 1.2rem;margin:0 0 1.6rem;font-size:.9rem;">
-          Die Karten stammen aus allen über 600 Porträts des Kompasses &ndash; Berühmte Persönlichkeiten, Kriminalpsychologie und Krankheitsporträts gemischt. Je mehr Porträts hinzukommen, desto größer wird der Kartenpool automatisch.
+          Die Karten stammen aus allen über 800 Porträts des Kompasses &ndash; Berühmte Persönlichkeiten, Kriminalpsychologie und Krankheitsporträts gemischt. Je mehr Porträts hinzukommen, desto größer wird der Kartenpool automatisch.
         </div>
         ${best > 0 ? `<p style="text-align:center;color:var(--muted);font-size:0.9rem;margin-bottom:1.2rem;">Ihre Bestleistung in dieser Stufe: <strong style="color:var(--ink);">${best}/${MEMORY_TOTAL_ROUNDS}</strong></p>` : ""}
         <div style="text-align:center;">
