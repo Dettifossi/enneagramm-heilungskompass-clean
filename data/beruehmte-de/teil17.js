@@ -2020,3 +2020,69 @@ export function aliceMillerPortraitPage() {
     </div>
   `);
 }
+
+export function ringoStarrPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ringo-starr-portrait.jpg" alt="Ringo Starr" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ringo Starr</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Musiker, geb. 1940 &ndash; Schlagzeuger der Beatles &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier hinter dem Schlagzeug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> drängt sich nicht in den Vordergrund, sondern trägt das Ganze von hinten, verschmolzen mit dem, was um es herum geschieht. Richard Starkey, 1940 in Liverpool geboren, wurde als Schlagzeuger der Beatles genau zu diesem Träger: kein Songwriter im Zentrum wie Lennon und McCartney, sondern der Puls, auf dem die anderen aufbauten &ndash; unauffällig, tragend, unersetzlich.</p>
+          <p class="vb-intro">Sein Spielstil wurde von Kritikern und Musikerkollegen über Jahrzehnte als "Feel statt Technik" beschrieben: kein Virtuose, der sich selbst ausstellt, sondern jemand, der sich dem Song vollständig unterordnet, damit dieser funktioniert. Genau das ist die Grundbewegung der sexuellen Neun &ndash; nicht die eigene Fertigkeit zeigen, sondern eins werden mit der Sache.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit der Band, der Ehe, dem einen Moment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht nach Naranjo die vollständige Verschmelzung im unmittelbaren Moment &ndash; mit einem Menschen, einer Gruppe, einer Sache. Starr war innerhalb der Beatles bekannt als derjenige, der Konflikte moderierte statt sie zu befeuern, der sich anpasste, statt die eigene Position durchzusetzen. Als 1968 während der Aufnahmen zum "weißen Album" die Spannungen eskalierten, verließ er kurzzeitig die Band &ndash; kehrte aber zurück, sobald die anderen ihn ausdrücklich zurückholten, statt selbst auf einer Lösung zu bestehen.</p>
+          <p class="vb-intro">Seit 1981 ist er mit Barbara Bach verheiratet, mit der er 1988 gemeinsam eine Entzugsklinik in Arizona durchlief, nachdem sein Alkohol- und Drogenkonsum sie beide an den Rand des Zusammenbruchs gebracht hatte. Seither sind beide nüchtern &ndash; eine Ehe, die nicht durch Krise auseinanderbrach, sondern sich gerade in der gemeinsam durchlittenen Krise noch enger verband. Seit 2008 veranstaltet Starr an jedem seiner Geburtstage die "Peace & Love"-Zeremonie: An seinem Wohnort und mittlerweile an Dutzenden Orten weltweit versammeln sich Fans, um exakt um zwölf Uhr mittags Ortszeit gemeinsam "Peace and Love" zu rufen &ndash; ein persönlicher, fast intimer Gruß, der zufällig gleichzeitig um den ganzen Planeten läuft, statt als große, unpersönliche Massenveranstaltung gedacht zu sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Über 35 Jahre lückenlose Nüchternheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine Neun mit schwach ausgeprägtem Einserflügel könnte nach überstandener Krise leicht wieder ins alte Muster zurückfallen; der <strong>Einserflügel</strong> gibt Starr stattdessen eine Disziplin, die seit 1988 ohne Rückfall anhält &ndash; über 35 Jahre lückenlose Nüchternheit, öffentlich immer wieder bestätigt, nie relativiert. Keine gelegentliche Zurückhaltung, sondern ein absolutes, nie wieder infrage gestelltes Prinzip.</p>
+          <p class="vb-intro">Dieselbe Konsequenz zeigt sich in der jährlichen "Peace & Love"-Botschaft: Seit 2008 ohne Unterbrechung, jedes Jahr aufs Neue, mit derselben schlichten Formel wiederholt &ndash; keine wechselnden Kampagnen, sondern ein einziges, unverändert festgehaltenes Ritual. Der Einserflügel bringt hier keine konfrontative Strenge, sondern die stille Beharrlichkeit, ein einmal gefundenes Prinzip ohne Abweichung durchzuhalten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Puls der Beatles zur All-Starr Band</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von 1962 bis zur Auflösung 1970 war Starr der Schlagzeuger der Beatles und sang gelegentlich eigene Titel wie "Yellow Submarine" und "With a Little Help from My Friends" &ndash; stets mit derselben unprätentiösen, selbstironischen Leichtigkeit, die ihn von den drei anderen musikalisch dominanteren Bandmitgliedern unterschied.</p>
+          <p class="vb-intro">Seit 1989 tourt er mit wechselnder Besetzung als "Ringo Starr and His All-Starr Band" &ndash; ein Format, das ihn nie als alleinigen Star in den Mittelpunkt stellt, sondern als einen von mehreren gleichberechtigten Musikern präsentiert, die gemeinsam ein Programm bestreiten. Auch hier: Verschmelzung mit dem Kollektiv, nicht Solo-Rampenlicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 zeigt sich in Starrs Fähigkeit, aus vollständiger Anpassung an das Ganze &ndash; die Band, die Ehe, das Publikum &ndash; eine über sechzig Jahre tragende künstlerische und persönliche Konstanz zu schaffen, ohne dabei je um die eigene Profilierung zu kämpfen.</p>
+          <p class="vb-intro">Der Schatten der Neun zeigte sich in den 1970er- und 1980er-Jahren, als dieselbe Fähigkeit zur Verschmelzung sich in exzessivem Alkohol- und Drogenkonsum ausdrückte &ndash; ein Sich-Auflösen im Rausch statt in einer bewussten Verbindung, bis der gemeinsame Zusammenbruch mit Barbara Bach 1988 den Wendepunkt erzwang.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Faultier, das lieber trug als glänzte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Neun führt von der Selbstvergessenheit <em>Ich zähle nicht, solange ich mich anpasse</em> zur Erkenntnis <em>Ich bin bereits da, mit eigenem Gewicht, auch wenn ich niemanden verdränge.</em> Vom tragenden, nie aufdringlichen Puls der Beatles bis zur jährlich wiederholten, schlichten Botschaft "Peace and Love" &ndash; das ist das bleibende Bild dieser sexuellen Neun mit Einserflügel: Wirkung durch Verschmelzung, nicht durch Vordrängen.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-jon-bon-jovi">Jon Bon Jovi</a> (SX9w1) &ndash; auch bei ihm zeigt sich dieselbe Verschmelzungsfähigkeit sowohl in einer jahrzehntelangen Ehe als auch in der Treue zu derselben Band. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-jon-bon-jovi">Porträt zu Jon Bon Jovi</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-jon-bon-jovi", label:"Porträt: Jon Bon Jovi (SX9w1) – dieselbe Verschmelzung mit Ehe und Band"},
+        {route:"beruehmte-reinhard-mey", label:"Porträt: Reinhard Mey (SX9w1)"},
+        {route:"beruehmte-david-guetta", label:"Porträt: David Guetta (SX9w1)"},
+      ])}
+    </div>
+  `);
+}

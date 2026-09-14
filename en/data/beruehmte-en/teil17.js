@@ -2020,3 +2020,69 @@ export function aliceMillerPortraitPage() {
     </div>
   `);
 }
+
+export function ringoStarrPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ringo-starr-portrait.jpg" alt="Ringo Starr" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ringo Starr</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Musician, born 1940 &ndash; drummer for the Beatles &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth Behind the Drum Kit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> doesn't push itself into the foreground; it carries the whole from behind, merged with whatever is happening around it. Richard Starkey, born in Liverpool in 1940, became exactly that carrier as the Beatles' drummer: not a songwriter at the center like Lennon and McCartney, but the pulse the others built on &ndash; unobtrusive, load-bearing, irreplaceable.</p>
+          <p class="vb-intro">Critics and fellow musicians have described his playing for decades as "feel over technique" &ndash; not a virtuoso putting himself on display, but someone who subordinates himself completely to the song so it works. That is exactly the core movement of the sexual Nine: not showing your own skill, but becoming one with the thing itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Nine: Merging With the Band, the Marriage, the One Moment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Nine (SX9)</strong>, per Naranjo, seeks complete merging in the immediate moment &ndash; with a person, a group, a cause. Within the Beatles, Starr was known as the one who mediated conflicts rather than fueling them, who adapted rather than pushing his own position. When tensions escalated during the recording of the "White Album" in 1968, he briefly left the band &ndash; but returned as soon as the others explicitly asked him back, rather than insisting on a solution himself.</p>
+          <p class="vb-intro">He has been married to Barbara Bach since 1981; together they went through rehab in Arizona in 1988 after his alcohol and drug use had pushed them both to the brink of collapse. They have both been sober ever since &ndash; a marriage that didn't break apart under crisis but grew closer precisely through surviving it together. Since 2008, Starr has held his "Peace & Love" ceremony on every one of his birthdays: at his home and, by now, at dozens of locations worldwide, fans gather to call out "Peace and Love" together at exactly noon local time &ndash; a personal, almost intimate greeting that happens to circle the entire planet simultaneously, rather than being conceived as a large, impersonal mass event.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Over 35 Years of Unbroken Sobriety</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A Nine with a weak One-wing might easily slide back into old patterns after surviving a crisis; the <strong>One-wing</strong> instead gives Starr a discipline that has held without relapse since 1988 &ndash; over 35 years of unbroken sobriety, repeatedly confirmed publicly, never downplayed. Not occasional restraint, but an absolute principle never again called into question.</p>
+          <p class="vb-intro">The same consistency shows in the annual "Peace & Love" message: uninterrupted since 2008, repeated anew every year with the same simple formula &ndash; not shifting campaigns, but a single, unchanged ritual held to without deviation. Here the One-wing brings no confrontational rigor, but the quiet persistence of holding to a once-found principle without wavering.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From the Beatles' Pulse to the All-Starr Band</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From 1962 until the band's breakup in 1970, Starr was the Beatles' drummer and occasionally sang his own tracks like "Yellow Submarine" and "With a Little Help from My Friends" &ndash; always with the same unpretentious, self-deprecating lightness that set him apart from the three musically more dominant band members.</p>
+          <p class="vb-intro">Since 1989 he has toured with a rotating lineup as "Ringo Starr and His All-Starr Band" &ndash; a format that never places him alone at the center, but presents him as one of several equal musicians sharing a program. Here too: merging with the collective, not solo spotlight.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Nine with One-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX9w1 shows in Starr's ability to build, out of complete adaptation to the whole &ndash; the band, the marriage, the audience &ndash; an artistic and personal constancy that has held for over sixty years, without ever fighting for his own profile.</p>
+          <p class="vb-intro">The shadow of the Nine showed in the 1970s and 1980s, when the same capacity for merging expressed itself as excessive alcohol and drug use &ndash; dissolving into intoxication instead of conscious connection, until the shared collapse with Barbara Bach in 1988 forced the turning point.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Sloth Who Preferred Carrying to Shining</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Nine leads from the self-forgetting <em>I don't count, as long as I adapt</em> to the insight <em>I am already here, with my own weight, even without displacing anyone.</em> From the load-bearing, never intrusive pulse of the Beatles to the simple message "Peace and Love," repeated every year &ndash; that is the lasting image of this sexual Nine with the One-wing: impact through merging, not through pushing to the front.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-jon-bon-jovi">Jon Bon Jovi</a> (SX9w1) &ndash; in him, too, the same capacity for merging shows up both in a decades-long marriage and in loyalty to the same band. More in the <a href="javascript:void(0)" data-route="beruehmte-jon-bon-jovi">portrait of Jon Bon Jovi</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"beruehmte-jon-bon-jovi", label:"Portrait: Jon Bon Jovi (SX9w1) – the same merging with marriage and band"},
+        {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SX9w1)"},
+        {route:"beruehmte-david-guetta", label:"Portrait: David Guetta (SX9w1)"},
+      ])}
+    </div>
+  `);
+}
