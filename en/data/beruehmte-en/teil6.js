@@ -2035,3 +2035,69 @@ export function eddieRedmaynePortraitPage() {
     </div>
   `);
 }
+
+export function arnoldSchwarzeneggerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-arnold-schwarzenegger-portrait.jpg" alt="Arnold Schwarzenegger – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Arnold Schwarzenegger</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation Type 1 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">Bodybuilder, actor & politician, born 1947 in Thal, Austria &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The eagle who built his own body</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation one: no need for applause, only its own, unrelenting standard. Arnold Schwarzenegger was born in 1947 in Thal, Austria, the son of a strict, violence-prone police chief who enforced discipline and achievement as the only acceptable standards in the household. Already as a teenager, Schwarzenegger began a self-imposed, almost military bodybuilding regimen – not out of enjoyment of movement, but out of a need to perfect his own body like a project.</p>
+          <p class="vb-intro">At twenty, in 1967, he won the title "Mr. Universe" – younger than any winner before him. The eagle did not circle above the summit of bodybuilding by chance; it had long since set its own course with iron self-control.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation one: perfection as one's own, non-negotiable standard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation one (SE1)</strong> does not direct its perfectionism outward, but works at its own preparation and integrity. Naranjo called this subtype <em>Worry</em>: the constant inner question of whether one is truly living up to one's own standard. Schwarzenegger's entire career follows this pattern with almost textbook consistency: a seven-time Mr. Olympia champion through the strictest training discipline, alongside a business degree earned by correspondence course and an early-built real estate portfolio – while other bodybuilders worked only on their bodies, he systematically controlled every area of his life.</p>
+          <p class="vb-intro">His best-known line, "There are no shortcuts," is not a marketing phrase but the essence of his inner standard: any shortcut would be a betrayal of his own integrity. He carried this same rigor unchanged into his acting career – a painstakingly trained English accent, years of targeted role preparation – and later into his political office as Governor of California (2003–2011).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The two-wing: mentorship and targeted support</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>two-wing (w2)</strong> opens the inwardly controlled SE1 energy outward – not as broad, public warmth, but as targeted support for a chosen circle. In Schwarzenegger's case, this shows in his close, decades-long friendship with his training partner Franco Columbu, whom he supported from the very start of his career and kept as his closest confidant until Columbu's death in 2019.</p>
+          <p class="vb-intro">In 2002 he founded the After-School All-Stars, a support program for children from low-income families that remains active at hundreds of schools today – not diffuse goodwill, but a structured, long-term institution modeled on his own template of discipline and advancement through hard work. The eagle who deliberately passes on its own formula for success to others, rather than keeping it only for itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The passion: anger as a demand on one's own integrity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the one is <strong>anger</strong> – in the SE1w2, it is directed above all at one's own inadequacy and at any form of half-heartedness. In 2011 it became public that Schwarzenegger had concealed a child from an extramarital relationship with a member of his household staff for over a decade – a secret that caused his carefully controlled public facade of integrity, maintained for decades, to collapse in on itself.</p>
+          <p class="vb-intro">Characteristic of the SE1w2 was his response: no public self-pity, but a terse, factual confirmation and an immediate withdrawal from public life for a time – the same inner standard with which he controlled himself now turned with full force against his own transgression.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The crisis as mirror: discipline down to the heartbeat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The SE1w2 has a vulnerability: it can let its own control become so absolute that it barely yields even to existential warning signs. Schwarzenegger had known since 1997 about a congenital heart valve defect and repeatedly chose, against medical advice, minimally invasive procedures over the open-heart surgery that was actually indicated – until an emergency operation became unavoidable in 2018, after a planned valve repair led to internal bleeding.</p>
+          <p class="vb-intro">From an Enneagram perspective, this is not mere stubbornness but the consequence of the pattern: for the SE1w2, treating one's own body like a perfectly controlled project also means refusing to submit one's own vulnerability to conditions set by others – until the body itself takes over control.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The legacy: controlled discipline that became its own brand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Arnold Schwarzenegger remains one of the few people to have taken three completely different careers – elite sport, Hollywood, politics – each to the very top. That is not the coincidence of three separate talents, but a single, consistent principle: the self-preservation one, subjecting every new field to the same iron self-discipline it once used to shape its own body.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-alain-delon">Alain Delon</a> (SE1w2) – he too shows the same controlled, almost relentless facade, behind which warmth was reserved only for a tightly chosen circle. More in the <a href="javascript:void(0)" data-route="beruehmte-alain-delon">portrait of Alain Delon</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SE1w2)"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SE1w9)"},
+      ])}
+    </div>
+  `);
+}

@@ -2035,3 +2035,69 @@ export function eddieRedmaynePortraitPage() {
     </div>
   `);
 }
+
+export function arnoldSchwarzeneggerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-arnold-schwarzenegger-portrait.jpg" alt="Arnold Schwarzenegger – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Arnold Schwarzenegger</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltender Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Bodybuilder, Schauspieler &amp; Politiker, geb. 1947 in Thal, Österreich &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der sich seinen Körper selbst erschuf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins: kein Bedürfnis nach Beifall, nur der eigene, unerbittliche Maßstab. Arnold Schwarzenegger wurde 1947 im österreichischen Thal geboren, Sohn eines strengen, gewaltbereiten Gendarmerie-Kommandanten, der Disziplin und Leistung als einzig akzeptable Maßstäbe im Haus durchsetzte. Schon als Teenager begann Schwarzenegger ein selbst auferlegtes, fast militärisches Trainingsregime im Bodybuilding – nicht aus Spaß an der Bewegung, sondern aus dem Bedürfnis, den eigenen Körper wie ein Projekt zu perfektionieren.</p>
+          <p class="vb-intro">Mit zwanzig Jahren gewann er 1967 den Titel „Mister Universe" – jünger als jeder Gewinner vor ihm. Der Adler kreiste nicht aus Zufall über dem Gipfel des Bodybuildings; er hatte seinen eigenen Kurs längst mit eiserner Selbstkontrolle festgelegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Perfektion als eigener, unverhandelbarer Anspruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> trägt ihren Perfektionismus nicht nach außen, sondern arbeitet sich an der eigenen Vorbereitung und Integrität ab. Naranjo nannte diesen Subtyp <em>Worry</em> – Besorgnis: die ständige innere Frage, ob man dem eigenen Standard wirklich gerecht wird. Schwarzeneggers gesamte Karriere folgt diesem Muster in geradezu lehrbuchhafter Konsequenz: siebenmaliger Mister-Olympia-Sieger durch strengste Trainingsdisziplin, parallel dazu ein per Fernstudium erworbener Wirtschaftsabschluss und ein früh aufgebautes Immobilienvermögen – während andere Bodybuilder nur an ihrem Körper arbeiteten, kontrollierte er systematisch jeden Bereich seines Lebens.</p>
+          <p class="vb-intro">Sein bekanntester Ausspruch „There are no shortcuts" ist keine Marketing-Phrase, sondern die Essenz seines inneren Maßstabs: Jede Abkürzung wäre ein Verrat an der eigenen Integrität. Diese Strenge trug er unverändert in seine Schauspielkarriere – penibel einstudierter englischer Akzent, jahrelanges gezieltes Rollentraining – und später in sein politisches Amt als Gouverneur von Kalifornien (2003–2011).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Mentorschaft und gezielte Förderung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> öffnet die innerlich kontrollierte SE1-Energie nach außen – nicht als breite, öffentliche Zuwendung, sondern als gezielte Förderung eines ausgewählten Kreises. Bei Schwarzenegger zeigt sich das in seiner engen, jahrzehntelangen Freundschaft mit seinem Trainingspartner Franco Columbu, den er von Anfang seiner Karriere an förderte und bis zu dessen Tod 2019 als engsten Vertrauten behielt.</p>
+          <p class="vb-intro">2002 gründete er die After-School All-Stars, ein Förderprogramm für Kinder aus einkommensschwachen Familien, das bis heute an Hunderten Schulen aktiv ist – kein diffuses Wohlwollen, sondern eine strukturierte, langfristig angelegte Institution nach seinem eigenen Vorbild von Disziplin und Aufstieg durch harte Arbeit. Der Adler, der seine eigene Erfolgsformel gezielt an andere weitergibt, statt sie nur für sich zu behalten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Zorn als Anspruch an die eigene Integrität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> – bei der SE1w2 richtet er sich vor allem gegen die eigene Unzulänglichkeit und gegen jede Form von Halbherzigkeit. 2011 wurde öffentlich, dass Schwarzenegger über ein Jahrzehnt lang ein Kind aus einer außerehelichen Beziehung mit einer Angestellten seines Haushalts verheimlicht hatte – ein Geheimnis, das seine über Jahrzehnte sorgfältig kontrollierte öffentliche Fassade der Integrität in sich zusammenbrechen ließ.</p>
+          <p class="vb-intro">Bezeichnend für die SE1w2 war seine Reaktion: kein öffentliches Selbstmitleid, sondern eine knappe, faktische Bestätigung und der sofortige Rückzug aus dem öffentlichen Leben für eine Zeit – derselbe innere Maßstab, mit dem er sich selbst kontrollierte, richtete sich nun mit voller Härte gegen die eigene Verfehlung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Krise als Spiegel: Disziplin bis zum Herzschlag</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die SE1w2 hat eine Schwachstelle: Sie kann die eigene Kontrolle so absolut werden lassen, dass sie selbst gegenüber existenziellen Warnsignalen kaum nachgibt. Schwarzenegger wusste seit 1997 von einem angeborenen Herzklappenfehler und entschied sich, entgegen ärztlichem Rat, mehrfach für minimalinvasive statt für die eigentlich gebotene offene Herzoperation – bis eine Notoperation 2018 unumgänglich wurde, nachdem eine geplante Herzklappen-Reparatur zu inneren Blutungen führte.</p>
+          <p class="vb-intro">Aus Enneagramm-Perspektive ist das keine bloße Sturheit, sondern die Konsequenz des Musters: Für die SE1w2 bedeutet, den eigenen Körper wie ein perfekt kontrolliertes Projekt zu behandeln, auch die Weigerung, sich der eigenen Verletzlichkeit auf fremde Bedingungen hin zu unterwerfen – bis der Körper selbst die Kontrolle übernimmt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Kontrollierte Disziplin, die zur eigenen Marke wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Arnold Schwarzenegger bleibt einer der wenigen Menschen, die drei völlig unterschiedliche Karrieren – Spitzensport, Hollywood, Politik – jeweils bis an die Spitze führten. Das ist kein Zufall dreier getrennter Talente, sondern ein einziges, durchgängiges Prinzip: die selbsterhaltende Eins, die jeden neuen Bereich mit derselben eisernen Selbstdisziplin unterwarf, mit der sie einst ihren eigenen Körper formte.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-alain-delon">Alain Delon</a> (SE1w2) – auch bei ihm zeigt sich dieselbe kontrollierte, fast unerbittliche Fassade, hinter der Wärme nur einem eng ausgewählten Kreis galt. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-alain-delon">Porträt zu Alain Delon</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-alain-delon", label:"Porträt: Alain Delon (SE1w2)"},
+        {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-tim-cook", label:"Porträt: Tim Cook (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
