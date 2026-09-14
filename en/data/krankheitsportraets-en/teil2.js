@@ -4045,3 +4045,186 @@ export function avrilLavigneKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function steveJobsKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-steve-jobs-portrait.jpg" alt="Steve Jobs" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Steve Jobs</p>
+        <p class="krim-portrait-typ">SO1w2 · Social Type 1 with a Two-Wing · 1955–2011</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Goose</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Animal correspondence: Goose" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Steve Jobs</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-steve-jobs">portrait under Famous Personalities</a>
+        in this compass – that page covers his life's work at Apple, NeXT, and Pixar. This
+        page focuses on a chapter only touched on there: the 2003 diagnosis of a rare,
+        fundamentally treatable neuroendocrine tumor of the pancreas – and the nine months
+        during which Jobs delayed the recommended surgery in favor of his own alternative
+        approaches, before the cancer spread to his liver in 2009 and eventually led to his
+        death in 2011.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Jobs</strong> is assigned to the <strong>social one with a two-wing</strong>.
+        Naranjo described the social one as the subtype that directs its perfectionism not
+        primarily inward, but at systems and the larger picture of how things should be.
+        Exactly this conviction – that there is a right way and a wrong way – applied for
+        Jobs even to his own illness: he initially refused the medically recommended surgery
+        in favor of a strict, self-assembled regimen of vegan diet, acupuncture, herbal
+        remedies, and spiritual practices.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) An incidental finding during a routine scan:</strong>
+        In October 2003, a CT scan of his kidneys incidentally revealed a tumor on his
+        pancreas – a neuroendocrine tumor, a rare and, compared to the far more aggressive
+        pancreatic adenocarcinoma, considerably more treatable form of cancer.</p>
+        <p class="vb-intro"><strong>b) The medical recommendation: immediate surgery:</strong>
+        Jobs' doctors advised the immediate surgical removal of the tumor – for this tumor
+        type, a treatment with good chances of a cure if performed early.</p>
+        <p class="vb-intro"><strong>c) The decision against it:</strong>
+        Instead of agreeing to surgery, Jobs opted for nine months for his own, strictly
+        followed regimen of a vegan diet, acupuncture, herbal supplements, and consultations
+        with spiritual healers – a decision he made according to his own, clearly set
+        principles, not out of denial or fear of confronting the issue itself.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Surgery follows nine months later:</strong>
+        Only in July 2004, after imaging showed the tumor had grown, did Jobs agree to a
+        Whipple procedure (partial removal of the pancreas, duodenum, and gallbladder).</p>
+        <p class="vb-intro"><strong>b) A return to the Apple routine despite the diagnosis:</strong>
+        Just weeks after the surgery, Jobs returned to his leadership role at Apple and drove
+        the development of the iPhone and iPad with the same uncompromising quality standards
+        as before.</p>
+        <p class="vb-intro"><strong>c) A liver transplant in 2009:</strong>
+        When the cancer spread to his liver, Jobs underwent a liver transplant in Memphis,
+        Tennessee, in April 2009 – an operation he initially communicated publicly only
+        vaguely as a "hormonal imbalance," before the actual cause became known.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Ordering his own health by his own standards:</strong>
+        Jobs treated the decision about his cancer treatment not as a medical question to
+        delegate to specialists, but as one he wanted to control himself according to
+        self-set principles – the same stance with which he determined every last detail of
+        every Apple product himself.</p>
+        <p class="vb-intro"><strong>b) Public communication only in controlled doses:</strong>
+        For years, Jobs released only minimal, carefully worded information about his health
+        – for instance during a 2008 Apple event, when he appeared visibly emaciated while
+        the company publicly attributed it to a "common cold."</p>
+        <p class="vb-intro"><strong>c) Working to the limit of his physical capacity:</strong>
+        Even after the liver transplant and several health-related leaves of absence (2009,
+        2011), Jobs remained substantively involved in product decisions until shortly before
+        his death, before resigning as CEO in August 2011.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A later, self-acknowledged regret:</strong>
+        Jobs himself later called the nine months of delayed surgery a mistake in
+        conversations with his biographer Walter Isaacson – a rare admission from a man who
+        otherwise seldom questioned his own decisions in public.</p>
+        <p class="vb-intro"><strong>b) Eight years between diagnosis and death:</strong>
+        From the initial diagnosis in 2003 to his death on October 5, 2011, at age 56, eight
+        years passed during which Jobs, alongside his progressing illness, brought some of the
+        most influential products of recent technology history to market.</p>
+        <p class="vb-intro"><strong>c) A resignation only once control could no longer be maintained:</strong>
+        Only once his physical condition made active leadership definitively impossible did
+        Jobs hand the CEO position to Tim Cook – until then he held on to his own control over
+        the company for as long as it was possible at all.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) His own standard as a compass, even in crisis:</strong>
+        The nine months of alternative treatment were not a refusal born of fear, but an
+        expression of the same conviction with which Jobs also led Apple: that there is a
+        right way, one he must find and take responsibility for himself rather than simply
+        adopting someone else's.</p>
+        <p class="vb-intro"><strong>b) The two-wing as concern for control over his own image:</strong>
+        The measured, restrained public communication about his illness shows the two-wing:
+        it was not concealment out of shame, but the deliberate steering of what image of
+        himself and of Apple would emerge publicly.</p>
+        <p class="vb-intro"><strong>c) Work as a continuation of his own principle to the end:</strong>
+        That Jobs remained involved in central product decisions even after the transplant and
+        several leaves of absence shows the same social one who did not subordinate his
+        standard for quality and control to his own illness, but upheld it to the physical
+        limit.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Throughline</h3>
+        <p class="vb-intro"><strong>a) The same perfectionist standard, applied to his own health:</strong>
+        Where Jobs tolerated no compromise on quality at Apple, he applied the same principle
+        to his cancer treatment – what mattered to him was not the fastest or safest path, but
+        the path he himself had recognized as the right one.</p>
+        <p class="vb-intro"><strong>b) A striking parallel: David Bowie, also SO1w2</strong> –
+        his <a href="javascript:void(0)" data-route="krankheitsportraets-david-bowie">illness portrait in this compass</a>
+        shows the same underlying trait: rather than leaving his own cancer diagnosis to an
+        outside authority or to the public to interpret, Bowie turned it into his own
+        deliberately composed final album, "Blackstar" – for both SO1w2 men, their own
+        mortality became a process they shaped themselves rather than simply endured.</p>
+        <p class="vb-intro"><strong>c) Why a delayed treatment specifically?</strong>
+        For a social one with a two-wing, whose self-understanding depends on recognizing and
+        walking the right path himself, the nine-month delay can be read as an intensification
+        of his own life pattern: even his own diagnosis was initially treated like another
+        problem for which he had to find his own, better solution, rather than adopting the
+        standard medical recommendation unquestioned. This interpretation is developed further
+        in this compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) A framing without determinism:</strong>
+        This does not mean that the pattern of the social one with a two-wing inevitably leads
+        to delayed treatment decisions – <strong>anyone can get any illness, regardless of
+        subtype.</strong> Neuroendocrine pancreatic tumors occur independent of personality
+        structure, and Jobs' own later recognition that the delay was a mistake shows that he
+        himself saw this connection. What his case shows is a pattern in how a pronounced
+        social one with a two-wing tends to handle their own diagnosis – one of many possible
+        interpretations, not a verdict. The corresponding illness pattern is being developed
+        gradually in this compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Like most people, Jobs did not consciously know his own Enneagram pattern. Without
+        that knowledge, he lived out his conviction that he had to recognize and determine the
+        right path himself unchecked, even applying it to his own cancer diagnosis, instead of
+        following medical advice and pulling the emergency brake in time – a trait that drove
+        him to extraordinary professional achievements, but may have cost him valuable time
+        with his own health. Someone who recognizes their own pattern can consciously
+        counteract it; someone who does not know it repeats it until the body sets the limit
+        the person did not set themselves.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social one with a two-wing confirms itself once more in <strong>Steve Jobs</strong>
+        through the consistency with which he shaped his own cancer treatment according to his
+        own principles rather than medical advice. The goose that never yielded on its
+        convictions defended, even in the face of its own mortality, its claim to determine
+        the right path itself – until an illness came along where that very claim cost it nine
+        decisive months.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-steve-jobs", label:"Portrait: Steve Jobs (SO1w2) – life's work"},
+        {route:"krankheitsportraets-david-bowie", label:"Illness Portrait: David Bowie (SO1w2)"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so1", label:"Subtype Profile SO1"},
+      ])}
+    </div>
+  `);
+}

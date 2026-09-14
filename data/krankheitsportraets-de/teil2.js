@@ -4242,3 +4242,193 @@ export function avrilLavigneKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function steveJobsKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-steve-jobs-portrait.jpg" alt="Steve Jobs" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Steve Jobs</p>
+        <p class="krim-portrait-typ">SO1w2 · Sozialer Typ 1 mit Zweierflügel · 1955–2011</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gans</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Tierentsprechung: Gans" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Steve Jobs</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-steve-jobs">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk bei Apple, NeXT und Pixar.
+        Im Vordergrund dieser Seite steht ein Kapitel, das dort nur gestreift wird: die 2003
+        gestellte Diagnose eines seltenen, grundsätzlich gut behandelbaren neuroendokrinen
+        Tumors der Bauchspeicheldrüse – und die neun Monate, in denen Jobs die empfohlene
+        Operation zugunsten eigener, alternativer Ansätze hinauszögerte, bevor der Krebs 2009
+        auf die Leber übergriff und schließlich 2011 zu seinem Tod führte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Jobs</strong> ist der <strong>sozialen Eins mit Zweierflügel</strong>
+        zugeordnet. Naranjo beschrieb die soziale Eins als den Subtyp, der seinen
+        Vollkommenheitsanspruch nicht primär nach innen, sondern an Systeme und das große Bild
+        dessen richtet, wie etwas sein sollte. Genau dieser Anspruch – es gibt einen richtigen
+        und einen falschen Weg – galt bei Jobs auch für die eigene Krankheit: Er entschied sich
+        zunächst gegen die schulmedizinisch empfohlene Operation und für einen strengen,
+        selbst zusammengestellten Ansatz aus veganer Diät, Akupunktur, Kräutermitteln und
+        spirituellen Praktiken.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Zufallsbefund bei einer Routineuntersuchung:</strong>
+        Im Oktober 2003 wurde bei einer CT-Untersuchung der Nieren zufällig ein Tumor an der
+        Bauchspeicheldrüse entdeckt – ein neuroendokriner Tumor, eine seltene und im Vergleich
+        zum weit aggressiveren Pankreas-Adenokarzinom deutlich besser behandelbare Krebsform.</p>
+        <p class="vb-intro"><strong>b) Die ärztliche Empfehlung: sofortige Operation:</strong>
+        Jobs' Ärzte rieten zur umgehenden chirurgischen Entfernung des Tumors – bei dieser
+        Tumorart eine Behandlung mit guten Heilungschancen, wenn sie frühzeitig erfolgt.</p>
+        <p class="vb-intro"><strong>c) Die Entscheidung dagegen:</strong>
+        Statt der Operation zuzustimmen, entschied sich Jobs für neun Monate für einen eigenen,
+        streng befolgten Ansatz aus veganer Ernährung, Akupunktur, pflanzlichen Nahrungsergänzungsmitteln
+        und Beratungen bei spirituellen Heilern – eine Entscheidung, die er nach eigenen, klar
+        gesetzten Prinzipien traf, nicht aus Verdrängung oder Angst vor dem Thema selbst.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Die Operation folgt neun Monate später:</strong>
+        Erst im Juli 2004, nachdem bildgebende Verfahren ein Wachstum des Tumors zeigten,
+        stimmte Jobs einer Whipple-Operation (partielle Entfernung von Bauchspeicheldrüse,
+        Zwölffingerdarm und Gallenblase) zu.</p>
+        <p class="vb-intro"><strong>b) Rückkehr in den Apple-Alltag trotz der Diagnose:</strong>
+        Bereits wenige Wochen nach der Operation kehrte Jobs in seine Führungsrolle bei Apple
+        zurück und trieb die Entwicklung von iPhone und iPad mit demselben kompromisslosen
+        Qualitätsanspruch voran wie zuvor.</p>
+        <p class="vb-intro"><strong>c) Eine Lebertransplantation 2009:</strong>
+        Als der Krebs auf die Leber übergriff, unterzog sich Jobs im April 2009 in Memphis,
+        Tennessee, einer Lebertransplantation – ein Eingriff, den er zunächst öffentlich nur
+        vage als „Hormonungleichgewicht" kommunizierte, bevor die tatsächliche Ursache bekannt
+        wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die eigene Gesundheit nach eigenen Maßstäben ordnen:</strong>
+        Jobs behandelte die Entscheidung über seine Krebstherapie nicht als medizinische
+        Frage, die er an Fachleute delegierte, sondern als eine, die er nach eigens gesetzten
+        Prinzipien selbst kontrollieren wollte – dieselbe Haltung, mit der er jedes
+        Apple-Produkt bis ins letzte Detail selbst bestimmte.</p>
+        <p class="vb-intro"><strong>b) Öffentliche Kommunikation nur in kontrollierten Dosen:</strong>
+        Über Jahre hinweg gab Jobs nur minimale, sorgfältig formulierte Informationen über
+        seinen Gesundheitszustand heraus – etwa während eines Apple-Events 2008, als er
+        sichtbar abgemagert erschien, während das Unternehmen dies öffentlich auf eine
+        „häufige Erkältung" zurückführte.</p>
+        <p class="vb-intro"><strong>c) Arbeit bis an die Grenze der körperlichen Möglichkeiten:</strong>
+        Auch nach der Lebertransplantation und mehreren krankheitsbedingten Auszeiten (2009,
+        2011) blieb Jobs bis kurz vor seinem Tod inhaltlich in Produktentscheidungen
+        eingebunden, bevor er im August 2011 als CEO zurücktrat.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Eine spätere, selbst eingeräumte Reue:</strong>
+        Jobs bezeichnete die neun Monate der verzögerten Operation gegenüber seinem Biografen
+        Walter Isaacson später selbst als Fehler – ein seltenes Eingeständnis bei einem Mann,
+        der eigene Entscheidungen sonst kaum öffentlich infrage stellte.</p>
+        <p class="vb-intro"><strong>b) Acht Jahre zwischen Diagnose und Tod:</strong>
+        Von der ersten Diagnose 2003 bis zu seinem Tod am 5. Oktober 2011 im Alter von 56
+        Jahren lagen acht Jahre, in denen Jobs parallel zur fortschreitenden Erkrankung einige
+        der einflussreichsten Produkte der jüngeren Technikgeschichte auf den Markt brachte.</p>
+        <p class="vb-intro"><strong>c) Ein Rücktritt erst, als die Kontrolle nicht mehr zu halten war:</strong>
+        Erst als seine körperliche Verfassung eine aktive Führung endgültig unmöglich machte,
+        übergab Jobs die Position des CEO an Tim Cook – bis dahin hielt er an der eigenen
+        Kontrolle über das Unternehmen fest, so lange es irgend ging.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der eigene Maßstab als Kompass, auch in der Krise:</strong>
+        Die neun Monate alternativer Behandlung waren keine Verweigerung aus Angst, sondern
+        Ausdruck derselben Überzeugung, mit der Jobs auch Apple führte: dass es einen
+        richtigen Weg gibt, den er selbst finden und verantworten muss, statt ihn einfach zu
+        übernehmen.</p>
+        <p class="vb-intro"><strong>b) Der Zweierflügel als Sorge um Kontrolle über die eigene Wirkung:</strong>
+        Die dosierte, zurückhaltende öffentliche Kommunikation über seine Krankheit zeigt den
+        Zweierflügel: Es ging nicht um Verheimlichung aus Scham, sondern um die bewusste
+        Steuerung dessen, welches Bild von ihm und Apple nach außen entstehen sollte.</p>
+        <p class="vb-intro"><strong>c) Arbeit als Fortsetzung des eigenen Prinzips bis zuletzt:</strong>
+        Dass Jobs auch nach der Transplantation und mehreren Auszeiten in zentrale
+        Produktentscheidungen eingebunden blieb, zeigt dieselbe soziale Eins, die ihren
+        Anspruch an Qualität und Kontrolle nicht der eigenen Krankheit unterordnete, sondern
+        bis zur physischen Grenze aufrechterhielt.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Derselbe Perfektionsanspruch, auf die eigene Gesundheit übertragen:</strong>
+        Wo Jobs bei Apple keine Kompromisse bei Qualität duldete, wandte er dasselbe Prinzip
+        auf seine Krebstherapie an – nicht der schnellste oder sicherste Weg zählte für ihn,
+        sondern der Weg, den er selbst als den richtigen erkannt hatte.</p>
+        <p class="vb-intro"><strong>b) Eine auffällige Parallele: David Bowie, ebenfalls SO1w2</strong> –
+        auch dessen <a href="javascript:void(0)" data-route="krankheitsportraets-david-bowie">Krankheitsporträt in diesem Kompass</a>
+        zeigt denselben Grundzug: Statt die eigene Krebsdiagnose einer äußeren Autorität oder
+        der Öffentlichkeit zur Deutung zu überlassen, verwandelte Bowie sie in sein bewusst
+        komponiertes letztes Album ›Blackstar‹ – bei beiden SO1w2-Männern wurde die eigene
+        Sterblichkeit zu einem Vorgang, den sie selbst gestalten, statt ihn nur zu erleiden.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet eine verzögerte Behandlung?</strong>
+        Für eine soziale Eins mit Zweierflügel, deren Selbstverständnis daran hängt, den
+        richtigen Weg selbst zu erkennen und zu gehen, lässt sich in der neunmonatigen
+        Verzögerung eine Zuspitzung des eigenen Lebensmusters lesen: Auch die eigene Diagnose
+        wurde zunächst wie ein weiteres Problem behandelt, für das eine eigene, bessere Lösung
+        gefunden werden musste, statt die medizinische Standardempfehlung ungeprüft zu
+        übernehmen. Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Eins mit Zweierflügel zwangsläufig zu
+        verzögerten Behandlungsentscheidungen führt – <strong>jeder Mensch kann jede Krankheit
+        bekommen, unabhängig vom Subtyp.</strong> Neuroendokrine Pankreastumoren treten
+        unabhängig von Persönlichkeitsstruktur auf, und Jobs' spätere Erkenntnis, die
+        Verzögerung sei ein Fehler gewesen, zeigt, dass er selbst diesen Zusammenhang erkannte.
+        Was sich an seinem Fall zeigen lässt, ist ein Muster im Umgang mit der eigenen
+        Diagnose, das bei einer ausgeprägten sozialen Eins mit Zweierflügel immer wieder
+        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
+        Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Jobs kannte, wie die meisten Menschen, sein Enneagramm-Muster nicht bewusst. Ohne
+        dieses Wissen lebte er seine Überzeugung, den richtigen Weg selbst erkennen und
+        bestimmen zu müssen, ungebremst auch auf die eigene Krebsdiagnose aus, statt der
+        ärztlichen Empfehlung zu folgen und rechtzeitig die Notbremse zu ziehen – ein Zug, der
+        ihn beruflich zu außergewöhnlichen Leistungen trieb, ihm bei der eigenen Gesundheit
+        aber möglicherweise wertvolle Zeit kostete. Wer das eigene Muster erkennt, kann bewusst
+        gegensteuern; wer es nicht kennt, wiederholt es, bis der Körper die Grenze setzt, die
+        der Mensch selbst nicht zog.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Eins mit Zweierflügel bestätigt sich bei <strong>Steve Jobs</strong> noch
+        einmal in der Konsequenz, mit der er selbst die eigene Krebstherapie nach eigenen
+        Prinzipien statt nach ärztlicher Empfehlung gestaltete. Die Gans, die für ihre
+        Überzeugung nie auswich, verteidigte auch im Angesicht der eigenen Sterblichkeit ihren
+        Anspruch, den richtigen Weg selbst zu bestimmen – bis eine Krankheit kam, bei der genau
+        dieser Anspruch sie neun entscheidende Monate kostete.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-steve-jobs", label:"Porträt: Steve Jobs (SO1w2) – Lebenswerk"},
+        {route:"krankheitsportraets-david-bowie", label:"Krankheitsporträt: David Bowie (SO1w2)"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so1", label:"Subtyp-Profil SO1"},
+      ])}
+    </div>
+  `);
+}

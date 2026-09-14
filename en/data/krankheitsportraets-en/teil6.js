@@ -465,6 +465,7 @@ export function davidBowieKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-david-bowie", label:"Portrait: David Bowie (SO1w2) – life's work"},
+        {route:"krankheitsportraets-steve-jobs", label:"Illness Portrait: Steve Jobs (SO1w2) – same pattern: control over one's own illness"},
         {route:"krankheitsportraets-ronald-reagan", label:"Illness Portrait: Ronald Reagan (SO9w8) – counter-model: direct rather than encoded disclosure"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so1", label:"Subtype Profile SO1"},
