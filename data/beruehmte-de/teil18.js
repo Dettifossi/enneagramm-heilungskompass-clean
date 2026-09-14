@@ -1349,6 +1349,7 @@ export function steffiGrafPortraitPage() {
         {route:"beruehmte-andre-agassi", label:"Portr\u00e4t: Andre Agassi (SE3w2) \u2013 ihr Ehemann"},
         {route:"subtype/so9", label:"SO9 \u2013 Der B\u00fcffel: Subtyp-Profil"},
         {route:"beruehmte-baerbel-bas", label:"Portr\u00e4t: B\u00e4rbel Bas (SE9w1)"},
+        {route:"beruehmte-dalai-lama", label:"Portr\u00e4t: Dalai Lama XIV. (SO9w1) \u2013 dieselbe stille Selbstverst\u00e4ndlichkeit"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portr\u00e4t: Hans-Dietrich Genscher (SE9w8)"},
       ])}
     </div>
@@ -2013,6 +2014,73 @@ export function michaelStipePortraitPage() {
         {route:"beruehmte-alice-miller", label:"Porträt: Alice Miller (SO4w5)"},
         {route:"beruehmte-ole-nymoen", label:"Porträt: Ole Nymoen (SO4w5)"},
         {route:"beruehmte-joachim-loew", label:"Porträt: Joachim Löw (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+export function dalaiLamaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dalai-lama-portrait.jpg" alt="Dalai Lama XIV." class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dalai Lama XIV.</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Geistliches und ehemals politisches Oberhaupt Tibets, geb. 1935 &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel im Exil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> führt nicht durch Kraft oder Auftritt, sondern durch schiere, unaufgeregte Präsenz. Tenzin Gyatso, geboren 1935 als Lhamo Thondup im tibetischen Dorf Taktser, wurde mit zwei Jahren als Reinkarnation des 13. Dalai Lama anerkannt und 1940 inthronisiert &ndash; ein Kind, das über Nacht zum geistlichen und politischen Oberhaupt eines ganzen Volkes wurde, ohne dass er selbst je danach gesucht hätte.</p>
+          <p class="vb-intro">1959 floh er während des Volksaufstands von Lhasa zu Fuß über den Himalaya nach Indien und gründete in Dharamshala die tibetische Exilregierung. Seither lebt er im Exil, ohne dass sein Volk je wieder ein eigenes Staatsgebiet zurückerhalten hätte &ndash; und ohne dass er selbst je aufgehört hätte, für dessen Fortbestand zu wirken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Auflösung im Dienst an allen fühlenden Wesen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> gewinnt ihre Identität nach Naranjo nicht als herausgehobene Einzelperson, sondern durch das Aufgehen in einer Sache, die größer ist als sie selbst. Beim Dalai Lama ist das denkbar wörtlich zu nehmen: Sein zentrales Lehrthema ist Mitgefühl "für alle fühlenden Wesen" &ndash; keine Zuwendung zu Einzelnen, sondern eine universelle, entpersonalisierte Fürsorge, die genau die SO9-Bewegung ins Extrem trägt.</p>
+          <p class="vb-intro">Seine Selbstbeschreibung "Ich bin nur ein einfacher buddhistischer Mönch" ist trotz globaler Bedeutung keine Koketterie, sondern echte Neuner-Selbstverkleinerung. Politisch zeigt sich dieselbe Bewegung im "Middle Way Approach" gegenüber China seit 1988: kein Unabhängigkeitskampf, sondern das Werben um Ausgleich und echte Autonomie innerhalb bestehender Grenzen &ndash; Vermittlung statt Eskalation, selbst gegenüber einer Besatzungsmacht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Meditation um drei Uhr morgens, unverhandelbare Prinzipien</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine Neun mit schwach ausgeprägtem Einserflügel würde sich eher treiben lassen; der <strong>Einserflügel</strong> bringt beim Dalai Lama einen bis heute unveränderten, strengen Tagesablauf mit: Aufstehen gegen drei Uhr, mehrere Stunden Meditation, feste Zeiten für Studium und Gebet, Bettruhe am frühen Abend &ndash; eine Disziplin, die seit Jahrzehnten nicht der persönlichen Bequemlichkeit dient, sondern als Grundlage für seine öffentliche Mission aufrechterhalten wird.</p>
+          <p class="vb-intro">Noch deutlicher wird der Einserflügel in seinem einzigen wirklich unverhandelbaren Prinzip: Gewaltlosigkeit. Dafür erhielt er 1989 den Friedensnobelpreis, und daran hält er fest, obwohl ein Teil der jüngeren tibetischen Exilgemeinschaft seit Jahrzehnten offen für einen härteren Kurs plädiert. Keine taktische Zurückhaltung, sondern ein absoluter moralischer Maßstab, von dem er sich auch unter Erfolgsdruck nie abbringen lässt.</p>
+          <p class="vb-intro"><strong>Abgrenzung zur selbsterhaltenden Acht mit Neunerflügel:</strong> Naheliegend könnte auch eine SE8w9 erscheinen &ndash; sechzig Jahre ungebrochener Widerstand gegen massiven Druck aus China, dazu ein bis heute unveränderter, fast asketischer Tagesablauf. Der entscheidende Unterschied liegt jedoch darin, wie er selbst seine eigene Position beschreibt: wiederholt und explizit als machtlos ("Ich habe keine Macht, nur moralischen Einfluss"), nie als Kraft oder Kontrolle über sein Umfeld. Die Acht würde sich bei Bedrohung des eigenen Reviers direkt und notfalls konfrontativ zur Wehr setzen; der Dalai Lama zeigt öffentlich nie Zorn, sondern reagiert auf sechzig Jahre Verlust mit Lachen und Gelassenheit. Sein disziplinierter Tagesablauf dient zudem nicht der eigenen Sicherheit oder Bequemlichkeit, sondern ausschließlich der nach außen gerichteten, universellen Mission &ndash; und 2011 übergab er die gesamte politische Führung freiwillig an eine demokratisch gewählte Exilregierung und behielt nur die geistliche Rolle. Eine Acht hätte die eigene Kontrolle kaum kampflos abgegeben; die Neun löst sich bereitwillig in eine größere, überdauernde Struktur auf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Kind-Oberhaupt zur globalen Stimme des Mitgefühls</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach der Flucht 1959 baute der Dalai Lama in Dharamshala nicht nur eine Exilregierung auf, sondern auch tibetische Schulen, Klöster und kulturelle Institutionen, die das Überleben der tibetischen Identität außerhalb Tibets sichern sollten. Parallel dazu suchte er seit den 1980er-Jahren aktiv den Dialog mit der westlichen Wissenschaft: Das von ihm mitbegründete Mind and Life Institute bringt seit Jahrzehnten Neurowissenschaftler und buddhistische Meditationslehrer zusammen, um die Wirkung von Meditation empirisch zu untersuchen.</p>
+          <p class="vb-intro">2011 vollzog er den vielleicht deutlichsten Ausdruck seiner Neuner-Haltung: Er übertrug die gesamte politische Verantwortung der tibetischen Exilgemeinschaft an eine demokratisch gewählte Führung und beschränkte sich seither auf seine geistliche Rolle &ndash; eine freiwillige Abgabe von Macht, die in der Geschichte politischer und religiöser Führer ausgesprochen selten ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w1 zeigt sich darin, wie er persönliches Charisma, Humor und Wärme mit einer nie erlahmenden moralischen Konsequenz verbindet &ndash; eine Kombination, die ihm Vertrauen weit über die eigene Religion und Kultur hinaus einbrachte, ohne dass er dafür je laut oder fordernd hätte auftreten müssen.</p>
+          <p class="vb-intro">Der Schatten der Neun zeigt sich in der ungelösten politischen Lage Tibets selbst: Sechzig Jahre Geduld, Vermittlungsbereitschaft und Prinzipientreue haben die zentrale, größte Sache seines Lebens &ndash; die Rückkehr zu einem selbstbestimmten Tibet &ndash; nicht herbeigeführt. Die Neuner-Tugend, nie zu eskalieren, hat ihren Preis, wenn die Gegenseite selbst kein Interesse an einer Lösung zeigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Büffel, der sich selbst nie in den Mittelpunkt stellte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Neun führt von der Selbstvergessenheit <em>Ich zähle nicht, solange die Gemeinschaft harmonisch bleibt</em> zur Erkenntnis <em>Meine eigene Gegenwart hat Gewicht, gerade weil ich sie nicht einfordere.</em> Ein Kind-Oberhaupt, das zum Flüchtling wurde und zur weltweiten Stimme des Mitgefühls, ohne dabei je die eigene Bescheidenheit aufzugeben oder Macht über das eigene Maß hinaus zu behalten &ndash; das ist das bleibende Bild dieser sozialen Neun mit Einserflügel.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-steffi-graf">Steffi Graf</a> (SO9w1) &ndash; auch bei ihr gilt: „Sie macht kein Drama. Sie braucht kein Publikum, um zu wissen, dass sie da ist … Der Büffel beweist nichts. Er ist einfach da – und er gewinnt." Beim Dalai Lama zeigt sich dieselbe stille Selbstverständlichkeit auf einer globalen, geistlichen statt sportlichen Bühne. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-steffi-graf">Porträt zu Steffi Graf</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"beruehmte-steffi-graf", label:"Porträt: Steffi Graf (SO9w1) – dieselbe stille Selbstverständlichkeit"},
+        {route:"beruehmte-peter-falk", label:"Porträt: Peter Falk (SO9w1)"},
+        {route:"beruehmte-tom-hanks", label:"Porträt: Tom Hanks (SO9w1)"},
       ])}
     </div>
   `);

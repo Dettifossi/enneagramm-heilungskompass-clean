@@ -1349,6 +1349,7 @@ export function steffiGrafPortraitPage() {
         {route:"beruehmte-andre-agassi", label:"Portrait: Andre Agassi (SP3w2) – her husband"},
         {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
         {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SP9w1)"},
+        {route:"beruehmte-dalai-lama", label:"Portrait: Dalai Lama XIV. (SO9w1) – the same quiet self-evidence"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
       ])}
     </div>
@@ -2013,6 +2014,73 @@ export function michaelStipePortraitPage() {
         {route:"beruehmte-alice-miller", label:"Portrait: Alice Miller (SO4w5)"},
         {route:"beruehmte-ole-nymoen", label:"Portrait: Ole Nymoen (SO4w5)"},
         {route:"beruehmte-joachim-loew", label:"Portrait: Joachim Löw (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+export function dalaiLamaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dalai-lama-portrait.jpg" alt="Dalai Lama XIV." class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dalai Lama XIV.</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">Spiritual and former political leader of Tibet, b. 1935 &ndash; Animal correspondence: Buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Buffalo in Exile</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>buffalo</strong> leads not through force or display, but through sheer, unhurried presence. Tenzin Gyatso, born Lhamo Thondup in 1935 in the Tibetan village of Taktser, was recognized at age two as the reincarnation of the 13th Dalai Lama and enthroned in 1940 &ndash; a child who overnight became the spiritual and political head of an entire people, without ever having sought it himself.</p>
+          <p class="vb-intro">In 1959, during the Lhasa Uprising, he fled on foot across the Himalayas to India and founded the Tibetan government-in-exile in Dharamshala. He has lived in exile ever since, his people never having regained their own territory &ndash; and he himself never having stopped working for its survival.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Nine: Dissolving Into Service for All Sentient Beings</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Nine (SO9)</strong>, per Naranjo, gains her identity not as a standout individual, but by dissolving into a cause larger than herself. In the Dalai Lama this can be taken quite literally: his central teaching is compassion "for all sentient beings" &ndash; not attention to individuals, but a universal, depersonalized care that carries the SO9 movement to its extreme.</p>
+          <p class="vb-intro">His self-description "I am just a simple Buddhist monk" is, despite his global stature, no false modesty but genuine Nine self-diminishment. Politically, the same movement shows in his "Middle Way Approach" toward China since 1988: not a struggle for independence, but an appeal for balance and genuine autonomy within existing borders &ndash; mediation rather than escalation, even toward an occupying power.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Meditating at Three in the Morning, Non-Negotiable Principles</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A Nine with a weak One-wing would tend to drift; the <strong>One-wing</strong> gives the Dalai Lama a strict, decades-unchanged daily routine: rising around three in the morning, several hours of meditation, fixed times for study and prayer, early bedtime &ndash; a discipline that for decades has served not personal comfort but has been maintained as the foundation of his public mission.</p>
+          <p class="vb-intro">The One-wing shows even more clearly in his single, truly non-negotiable principle: nonviolence. For it he received the Nobel Peace Prize in 1989, and he holds to it even though part of the younger Tibetan exile community has openly argued for decades for a harder line. Not tactical restraint, but an absolute moral standard he never abandons, even under pressure to show results.</p>
+          <p class="vb-intro"><strong>Distinguishing from the Self-Preservation Eight with Nine-wing:</strong> An SP8w9 might seem plausible at first glance &ndash; sixty years of unbroken resistance against enormous pressure from China, plus a still-unchanged, almost ascetic daily routine. The decisive difference, however, lies in how he himself describes his own position: repeatedly and explicitly as powerless ("I have no power, only moral influence"), never as strength or control over his surroundings. An Eight would defend her own territory directly, and if necessary confrontationally, when threatened; the Dalai Lama never shows public anger, responding to sixty years of loss with laughter and equanimity instead. His disciplined routine also serves not his own security or comfort, but exclusively an outward-facing, universal mission &ndash; and in 2011 he voluntarily transferred all political leadership to a democratically elected exile government, retaining only the spiritual role. An Eight would hardly have surrendered control without a fight; the Nine willingly dissolves into a larger, more enduring structure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From Child Ruler to Global Voice of Compassion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After the 1959 flight, the Dalai Lama built in Dharamshala not just a government-in-exile, but Tibetan schools, monasteries, and cultural institutions meant to secure the survival of Tibetan identity outside Tibet. In parallel, since the 1980s he has actively sought dialogue with Western science: the Mind and Life Institute, which he co-founded, has for decades brought neuroscientists and Buddhist meditation teachers together to study the effects of meditation empirically.</p>
+          <p class="vb-intro">In 2011 he carried out perhaps the clearest expression of his Nine stance: he transferred all political responsibility for the Tibetan exile community to a democratically elected leadership and has since limited himself to his spiritual role &ndash; a voluntary relinquishing of power that is exceedingly rare in the history of political and religious leaders.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Nine with One-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO9w1 shows in how he combines personal charisma, humor, and warmth with an never-flagging moral consistency &ndash; a combination that has earned him trust far beyond his own religion and culture, without his ever having to appear loud or demanding.</p>
+          <p class="vb-intro">The shadow of the Nine shows in the still-unresolved political situation of Tibet itself: sixty years of patience, willingness to mediate, and adherence to principle have not brought about the central, greatest cause of his life &ndash; a return to a self-determined Tibet. The Nine's virtue of never escalating has its cost when the other side shows no interest in a solution at all.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Buffalo Who Never Placed Himself at the Center</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Nine leads from the self-forgetting <em>I don't count, as long as the community stays harmonious</em> to the insight <em>My own presence carries weight, precisely because I don't demand it.</em> A child ruler who became a refugee and then a global voice of compassion, without ever abandoning his own modesty or holding on to power beyond his measure &ndash; that is the lasting image of this social Nine with the One-wing.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-steffi-graf">Steffi Graf</a> (SO9w1) &ndash; the same holds true for her: "She makes no drama. She needs no audience to know she is there ... The buffalo proves nothing. It's simply there – and it wins." In the Dalai Lama, the same quiet self-evidence shows up on a global, spiritual stage rather than a sporting one. More in the <a href="javascript:void(0)" data-route="beruehmte-steffi-graf">portrait of Steffi Graf</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
+        {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1) – the same quiet self-evidence"},
+        {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1)"},
+        {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1)"},
       ])}
     </div>
   `);
