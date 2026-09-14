@@ -2027,3 +2027,69 @@ export function chesterBenningtonPortraitPage() {
     </div>
   `);
 }
+
+export function wolfgangJoopPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wolfgang-joop-portrait.jpg" alt="Wolfgang Joop – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Joop</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Modedesigner, geb. 1944 in Potsdam &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau, der die deutsche Mode neu erfand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei – ein Tier, dessen Wirkung nicht aus Berechnung entsteht, sondern aus reiner, unmittelbarer Präsenz. Kaum eine Figur der deutschen Öffentlichkeit verkörpert das so wörtlich wie Wolfgang Joop: aufwendige Ketten, theatralische Gesten, eine Stimme, die auch banale Sätze wie eine Verkündigung klingen lässt. Geboren 1944 in Potsdam, wuchs er nach dem frühen Unfalltod seiner Eltern bei den Großeltern auf – ein Junge, der schon als Kind mehr in Bildern und Stoffen dachte als in Worten.</p>
+          <p class="vb-intro">1978 gründete er sein erstes eigenes Modelabel, das binnen weniger Jahre zu JOOP! wuchs – einer der wenigen deutschen Marken, die international als Synonym für Luxus wahrgenommen wurden. Der Pfau, der nicht auf die Bühne wartete, sondern sie sich selbst baute.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Ästhetik als Lebensthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> macht persönliche Anziehungskraft zur Lebensaufgabe – nicht Erfolg vor der breiten Öffentlichkeit wie die soziale Drei, sondern die unmittelbare, körperliche Resonanz mit dem Gegenüber. Claudio Naranjo nannte diesen Subtyp <em>Masculinity/Femininity</em>: die Verkörperung von Attraktivität in ihrer reinsten, intimsten Form. Bei Joop verschmilzt diese Anziehungskraft vollständig mit seinem Beruf – er entwirft nicht einfach Kleidung, er inszeniert Körper, Oberflächen, Wirkung.</p>
+          <p class="vb-intro">Sein öffentliches Auftreten ist seit Jahrzehnten ununterscheidbar von seiner Kunst: aphoristische Sätze über Schönheit und Vergänglichkeit, eine bewusst überzeichnete Bühnenpersönlichkeit, ein Gespür dafür, im richtigen Moment die richtige Zeile zu liefern. Wo andere Modeschöpfer sich hinter ihren Kollektionen verstecken, trat Joop selbst zur Marke – das Gesicht, die Stimme, das Gesamtkunstwerk.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Förderer junger Talente</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sexuellen Drei eine Dimension, die über reinen Magnetismus hinausgeht: das echte Bedürfnis, sich für andere einzusetzen, ihnen eine Bühne zu geben, statt sie nur für sich selbst zu beanspruchen. Bei Joop zeigt sich das in seinem Nachwuchsförderpreis „Designer for Tomorrow", mit dem er über Jahre jungen Modeschöpfern Sichtbarkeit und Ressourcen verschaffte, die sie allein nie bekommen hätten.</p>
+          <p class="vb-intro">Auch als Jury-Mitglied bei „Germany's Next Topmodel" an der Seite von Heidi Klum (SX3w4) trat er weniger als strenger Kritiker auf denn als jemand, der jungen Frauen half, ihre eigene Wirkung erst zu entdecken – mit spürbarer Freude daran, ein Talent aufblühen zu sehen, das er selbst mit angestoßen hatte. Der Pfau, der seine Bühne mit anderen teilt, statt sie für sich allein zu behalten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von JOOP! zu Wunderkind</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2001 verkaufte Joop seine verbliebenen Anteile an der eigenen Marke JOOP! und verlor damit die kreative Kontrolle über sein Lebenswerk – ein Einschnitt, der für die meisten Designer das Ende bedeutet hätte. Stattdessen gründete er 2003 mit „Wunderkind" ein neues Label und bewies, dass seine Anziehungskraft nicht an den alten Firmennamen gebunden war, sondern an seine Person selbst.</p>
+          <p class="vb-intro">Parallel zur Mode blieb Joop zeitlebens Maler und Zeichner – seine Illustrationen und Gemälde sind eigenständige künstlerische Arbeit, nicht bloßes Beiwerk zur Modekarriere. Die Verschmelzung von bildender Kunst und Mode ist bei ihm keine Marketingstrategie, sondern durchgängiges Selbstverständnis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3w2 ist die Fähigkeit, durch reine ästhetische Präsenz zu wirken – und diese Wirkung zu nutzen, um anderen eine Plattform zu verschaffen. Joops jahrzehntelanges Engagement für junge Designerinnen und Designer zeigt genau diese Reifung: vom bewunderten Aushängeschild zum aktiven Förderer eines ganzen Berufsfelds.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Täuschung</strong> – das Verwechseln der eigenen Identität mit der eigenen Wirkung. Bei Joop zeigte sich das lange in der Spannung zwischen öffentlicher Inszenierung und privatem Leben: Er war mit der Modedesignerin Karin Assmann verheiratet und Vater zweier Kinder, bevor er sich öffentlich zu seiner Homosexualität bekannte – zu einer Zeit, in der ein solches Bekenntnis in der deutschen Öffentlichkeit alles andere als selbstverständlich war. Die Fassade musste erst abgelegt werden, bevor die eigentliche Anziehungskraft ungebremst wirken konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Pfau, der seine eigene Wahrheit trug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Wirke ich?</em> zur Erkenntnis <em>Ich bin – auch ohne diese Wirkung.</em> Joops offener Umgang mit seiner Homosexualität und seine langjährige, 2016 schließlich standesamtlich besiegelte Partnerschaft mit Edwin Lemberg zeigen genau diesen Weg: von der makellosen öffentlichen Fassade zur gelebten, öffentlich sichtbaren Wahrheit.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-brad-pitt">Brad Pitt</a> (SX3w2) – auch bei ihm zeigt sich, wie sich jahrzehntelange öffentliche Anziehungskraft erst in reife Substanz verwandelt, wenn die eigene Wirkung nicht mehr verteidigt, sondern für andere eingesetzt wird. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-brad-pitt">Porträt zu Brad Pitt</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-brad-pitt", label:"Porträt: Brad Pitt (SX3w2)"},
+        {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SX3w2)"},
+        {route:"beruehmte-heidi-klum", label:"Porträt: Heidi Klum (SX3w4)"},
+      ])}
+    </div>
+  `);
+}

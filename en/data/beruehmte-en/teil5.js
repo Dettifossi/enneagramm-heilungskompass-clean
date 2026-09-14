@@ -2027,3 +2027,69 @@ export function chesterBenningtonPortraitPage() {
     </div>
   `);
 }
+
+export function wolfgangJoopPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wolfgang-joop-portrait.jpg" alt="Wolfgang Joop – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Joop</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">Fashion designer, born 1944 in Potsdam &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The peacock who reinvented German fashion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>peacock</strong> is the animal of the sexual three – an animal whose effect arises not from calculation, but from pure, immediate presence. Few figures in German public life embody that as literally as Wolfgang Joop: elaborate necklaces, theatrical gestures, a voice that can make even banal sentences sound like a proclamation. Born in Potsdam in 1944, he grew up with his grandparents after his parents died young in an accident – a boy who from childhood thought more in images and fabrics than in words.</p>
+          <p class="vb-intro">In 1978 he founded his first own fashion label, which within a few years grew into JOOP! – one of the few German brands ever internationally perceived as synonymous with luxury. The peacock who did not wait for the stage, but built it himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual three: aesthetics as a life theme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual three (SX3)</strong> makes personal attraction its life's task – not success before the broad public as with the social three, but immediate, physical resonance with the person in front of it. Claudio Naranjo called this subtype <em>Masculinity/Femininity</em>: the embodiment of attractiveness in its purest, most intimate form. In Joop's case, this attraction has fully merged with his profession – he doesn't simply design clothing, he stages bodies, surfaces, effect.</p>
+          <p class="vb-intro">His public persona has for decades been indistinguishable from his art: aphoristic statements about beauty and transience, a deliberately exaggerated stage personality, an instinct for delivering the right line at the right moment. Where other fashion designers hide behind their collections, Joop himself became the brand – the face, the voice, the total work of art.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The two-wing: champion of young talent</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>two-wing (w2)</strong> gives the sexual three a dimension that goes beyond pure magnetism: the genuine need to advocate for others, to give them a stage, rather than claiming it only for oneself. In Joop's case, this shows in his young-talent award "Designer for Tomorrow," through which he gave emerging fashion designers visibility and resources over many years that they would never have gotten on their own.</p>
+          <p class="vb-intro">As a jury member on "Germany's Next Topmodel" alongside Heidi Klum (SX3w4), too, he appeared less as a strict critic than as someone who helped young women discover their own presence for the first time – with palpable joy in watching a talent bloom that he himself had helped set in motion. The peacock who shares his stage with others rather than keeping it for himself alone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The work: from JOOP! to Wunderkind</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2001, Joop sold his remaining stake in his own brand JOOP!, losing creative control over his life's work – a break that for most designers would have meant the end. Instead, in 2003 he founded a new label, "Wunderkind," and proved that his attraction was not tied to the old company name, but to his own person.</p>
+          <p class="vb-intro">Alongside fashion, Joop remained a painter and illustrator throughout his life – his illustrations and paintings are independent artistic work, not mere accessories to his fashion career. The merging of fine art and fashion is, for him, not a marketing strategy but a consistent self-understanding.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the sexual three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX3w2 is the ability to have an effect through pure aesthetic presence – and to use that effect to provide others with a platform. Joop's decades-long commitment to young designers shows exactly this maturation: from admired figurehead to active champion of an entire profession.</p>
+          <p class="vb-intro">The fatal flaw of the three is <strong>deceit</strong> – confusing one's own identity with one's own effect. For Joop, this showed for a long time in the tension between public staging and private life: he was married to fashion designer Karin Assmann and father to two children before publicly acknowledging his homosexuality – at a time when such an admission was anything but self-evident in German public life. The facade had to be set aside first, before the real attraction could take full, unrestrained effect.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The peacock who carried his own truth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the three leads from the question <em>Do I have an effect?</em> to the realization <em>I am – even without that effect.</em> Joop's open handling of his homosexuality and his long-term partnership with Edwin Lemberg, finally formalized in a civil marriage in 2016, show exactly this path: from the flawless public facade to a lived, publicly visible truth.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-brad-pitt">Brad Pitt</a> (SX3w2) – he too shows how decades of public attraction only turn into mature substance once one's own effect is no longer defended, but put to use for others. More in the <a href="javascript:void(0)" data-route="beruehmte-brad-pitt">portrait of Brad Pitt</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"beruehmte-brad-pitt", label:"Portrait: Brad Pitt (SX3w2)"},
+        {route:"beruehmte-helene-fischer", label:"Portrait: Helene Fischer (SX3w2)"},
+        {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4)"},
+      ])}
+    </div>
+  `);
+}

@@ -191,6 +191,7 @@ export function bradPittPortraitPage() {
         {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4)"},
         {route:"beruehmte-brigitte-macron", label:"Portrait: Brigitte Macron (SX3w2)"},
         {route:"beruehmte-lenny-kravitz", label:"Portrait: Lenny Kravitz (SX3w2)"},
+        {route:"beruehmte-wolfgang-joop", label:"Portrait: Wolfgang Joop (SX3w2)"},
       ])}
     </div>
   `);
