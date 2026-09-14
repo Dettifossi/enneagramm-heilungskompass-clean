@@ -1690,6 +1690,7 @@ export function rosaParksPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
         {route:"beruehmte-johnny-cash", label:"Porträt: Johnny Cash (SE3w4)"},
+        {route:"beruehmte-phil-taylor", label:"Porträt: Phil Taylor (SE3w4) – dieselbe stille Kompetenz"},
         {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4)"},
         {route:"beruehmte-tony-shalhoub", label:"Porträt: Tony Shalhoub (SE3w4)"},
       ])}
@@ -2017,6 +2018,70 @@ export function oleNymoenPortraitPage() {
         {route:"beruehmte-alice-miller", label:"Porträt: Alice Miller (SO4w5)"},
         {route:"beruehmte-michael-stipe", label:"Porträt: Michael Stipe (SO4w5)"},
         {route:"beruehmte-marcel-proust", label:"Porträt: Marcel Proust (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+export function philTaylorPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-phil-taylor-portrait.jpg" alt="Phil Taylor" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Phil Taylor</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel &middot; Kontratyp der Drei</p>
+        <p class="krim-portrait-subtitle">Dartsprofi, geb. 1960 &ndash; 16-facher Weltmeister &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär aus der Keramikfabrik</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist unauffällig, anpassungsfähig, überall zuhause, wo er gerade gebraucht wird – und doch steckt in seiner scheinbaren Bescheidenheit enorme Kontrolle. Phil Taylor, 1960 in Burslem, Stoke-on-Trent geboren, verließ die Schule mit sechzehn und stellte für 52 Pfund die Woche keramische Toilettenpapierhalter her, bevor er mit einem Dartset, das ihm seine Frau geschenkt hatte, in Eric Bristows Pub in Burslem hineinstolperte.</p>
+          <p class="vb-intro">Bristow, damals einer der größten Namen des Sports, förderte und finanzierte ihn in den frühen Jahren – Reisen nach Rhyl, Kanada, Las Vegas, die sich Taylor selbst nie hätte leisten können. Aus dem Fabrikarbeiter wurde binnen weniger Jahre der erfolgreichste Dartsspieler der Geschichte: 16 Weltmeistertitel, acht davon in Folge zwischen 1995 und 2002, über 214 gewonnene Profititel insgesamt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: „Was kann ich wirklich?" statt „Wie werde ich gesehen?"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – der Subtyp, der Leistung nicht nach außen zur Schau stellt, sondern nach innen richtet: auf Sicherheit, Kompetenz, handwerkliche Meisterschaft. Taylors Dominanz entstand nicht durch Inszenierung, sondern durch schlichte, überwältigende Überlegenheit: konstant hohe Scores, präzise Finish-Kombinationen, Abend für Abend über drei Jahrzehnte hinweg wiederholt.</p>
+          <p class="vb-intro">Seine eigene Erklärung für den Erfolg bleibt bezeichnend nüchtern: „Eric war wie ein Bruder für mich – ich habe ihn geliebt. Ich verdanke ihm schlicht alles … ich hätte mir Rhyl nicht leisten können, geschweige denn Kanada oder Las Vegas." Kein Bericht über die eigene Genialität, sondern eine dankbare, fast geschäftsmäßige Beschreibung dessen, was praktisch nötig war, um besser zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Der Spitzname als eigenes, unverwechselbares Ich</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der selbsterhaltenden Drei eine Frage, die reine Kompetenz übersteigt: <em>Was bedeutet mein Weg, jenseits dessen, was von mir erwartet wird?</em> 1995 gab ihm ein Sky-Sports-Produktionsleiter den Spitznamen „The Power" – ein Name, der bei Taylor keine aufgesetzte Marketingfigur wurde, sondern mit der Zeit tatsächlich zu einem Teil seiner Identität verschmolz, bis Spieler und Spitzname kaum noch zu trennen waren.</p>
+          <p class="vb-intro">Auch sein Abschied 2018 zeigte diese emotionale Tiefe unter der nüchternen Oberfläche: Nach der Finalniederlage gegen Rob Cross sprach er von „Tränen der Freude" statt der Trauer, die viele erwartet hatten – eine unerwartete, sehr persönliche Deutung des eigenen großen Moments, die zeigt, dass unter der praktischen SE3-Fassade eine Vier ihre eigene, unverwechselbare Geschichte erzählt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Sechzehn Weltmeistertitel und ein geteiltes Vermächtnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zwischen seinem ersten WM-Titel 1990 gegen Eric Bristow und seinem letzten 2013 gegen Michael van Gerwen prägte Taylor den Sport so nachhaltig, dass er bis heute als bester Dartsspieler aller Zeiten gilt – 16 Weltmeistertitel, 16 World-Matchplay-Titel, 11 World-Grand-Prix-Titel, sechs Premier-League-Siege.</p>
+          <p class="vb-intro">2016 endete seine Ehe mit Yvonne, die er 1977 als Siebzehnjähriger kennengelernt hatte, vor Gericht mit einer Zahlung von 830.000 Pfund – ein nüchtern-praktisches, öffentlich verhandeltes Ende einer fast vier Jahrzehnte langen Beziehung, das die private Seite seines Lebens ebenso wenig romantisch verklärte wie seine berufliche.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei mit Viererflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 zeigt sich in Taylors Fähigkeit, aus reiner, nachweisbarer Kompetenz heraus über Jahrzehnte die Spitze zu halten, ohne sich auf Show oder Selbstinszenierung verlassen zu müssen – der Erfolg trug sich durch sich selbst, Abend für Abend, Titel für Titel.</p>
+          <p class="vb-intro">Der Schatten der Kontratyp-Drei zeigt sich darin, wie sehr das eigene Selbstbild an die messbare Leistung gebunden bleibt: Sein Comeback-Versuch auf der Seniors Tour nach der Rente und das erst 2025 endgültige Karriereende, offiziell wegen anhaltender Hüftprobleme, zeigen, wie schwer sich jemand von einer Identität löst, die so vollständig über nachweisbare Kompetenz definiert wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Waschbär, der aus der Fabrik zur Legende wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Phil Taylors Weg zeigt die selbsterhaltende Drei mit Viererflügel in ihrer erfolgreichsten Form: kompromisslose, unaufgeregte Kompetenz über drei Jahrzehnte, getragen von einer tiefen, fast familiären Dankbarkeit gegenüber dem Menschen, der ihm den ersten Schritt ermöglichte – und einer eigenen, unverwechselbaren Identität, die weit über die reine Statistik hinausreichte. Der Waschbär, der in der Dunkelheit der Fabrikhalle begann und am Ende der hellste Name seines Sports wurde.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-rosa-parks">Rosa Parks</a> (SE3w4) &ndash; auch bei ihr entstand historische Wirkung nicht durch Inszenierung, sondern durch stille, konsequente Kompetenz und Standhaftigkeit. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-rosa-parks">Porträt zu Rosa Parks</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-rosa-parks", label:"Porträt: Rosa Parks (SE3w4)"},
       ])}
     </div>
   `);

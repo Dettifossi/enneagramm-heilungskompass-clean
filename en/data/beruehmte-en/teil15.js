@@ -1688,6 +1688,7 @@ export function rosaParksPortraitPage() {
         {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
         {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SE3 – Raccoon"},
         {route:"beruehmte-johnny-cash", label:"Portrait: Johnny Cash (SP3w4)"},
+        {route:"beruehmte-phil-taylor", label:"Portrait: Phil Taylor (SE3w4) – the same quiet competence"},
         {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SP3w4)"},
         {route:"beruehmte-tony-shalhoub", label:"Portrait: Tony Shalhoub (SP3w4)"},
       ])}
@@ -2015,6 +2016,70 @@ export function oleNymoenPortraitPage() {
         {route:"beruehmte-alice-miller", label:"Portrait: Alice Miller (SO4w5)"},
         {route:"beruehmte-michael-stipe", label:"Portrait: Michael Stipe (SO4w5)"},
         {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+export function philTaylorPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-phil-taylor-portrait.jpg" alt="Phil Taylor" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Phil Taylor</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with Four-wing &middot; Countertype of the Three</p>
+        <p class="krim-portrait-subtitle">Darts professional, born 1960 &ndash; 16-time World Champion &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon From the Ceramics Factory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is unobtrusive, adaptable, at home wherever it's needed – yet enormous control hides behind its apparent modesty. Phil Taylor, born in 1960 in Burslem, Stoke-on-Trent, left school at sixteen and earned £52 a week making ceramic toilet-roll holders before wandering into Eric Bristow's Burslem pub with a dart set his wife had given him.</p>
+          <p class="vb-intro">Bristow, then one of the sport's biggest names, sponsored and mentored him in the early years – trips to Rhyl, Canada, Las Vegas that Taylor could never have afforded himself. Within a few years, the factory worker became the most successful darts player in history: 16 World Championship titles, eight of them consecutive between 1995 and 2002, over 214 professional titles in total.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: "What Can I Actually Do?" Instead of "How Am I Seen?"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> is the countertype of the Three – the subtype that directs achievement not outward for display, but inward toward security, competence, and craft mastery. Taylor's dominance grew not from showmanship but from plain, overwhelming superiority: consistently high scores, precise checkout combinations, repeated night after night across three decades.</p>
+          <p class="vb-intro">His own explanation for the success stays tellingly matter-of-fact: "Eric was like a brother to me – I loved him. Quite simply I owe him everything … I couldn't afford to go to Rhyl let alone Canada or Las Vegas to play darts." Not an account of his own genius, but a grateful, almost businesslike description of what was practically necessary to get better.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: The Nickname That Became His Own Unmistakable Self</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing</strong> gives the self-preservation Three a question that goes beyond pure competence: <em>What does my path mean, beyond what's expected of me?</em> In 1995, a Sky Sports production manager gave him the nickname "The Power" – a name that never became a put-on marketing persona for Taylor, but over time genuinely fused with his identity, until player and nickname were barely distinguishable.</p>
+          <p class="vb-intro">His 2018 farewell showed this emotional depth beneath the matter-of-fact surface too: after his final defeat to Rob Cross, he spoke of "tears of joy" rather than the sadness many had expected – an unexpected, deeply personal reading of his own big moment, showing that beneath the practical SE3 facade, a Four was telling its own unmistakable story.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: Sixteen World Titles and a Shared Legacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Between his first World Championship title in 1990 against Eric Bristow and his last in 2013 against Michael van Gerwen, Taylor shaped the sport so lastingly that he's still regarded as the greatest darts player of all time – 16 World Championship titles, 16 World Matchplay titles, 11 World Grand Prix titles, six Premier League wins.</p>
+          <p class="vb-intro">In 2016, his marriage to Yvonne, whom he had met in 1977 at seventeen, ended in court with a payment of £830,000 – a matter-of-fact, publicly negotiated end to a nearly four-decade relationship that romanticized the private side of his life no more than the professional one.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three with Four-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE3w4 shows in Taylor's ability to hold the top of his sport for decades through pure, demonstrable competence, without relying on showmanship or self-promotion – success carried itself, night after night, title after title.</p>
+          <p class="vb-intro">The shadow of the Three countertype shows in how tightly self-image stays bound to measurable achievement: his comeback attempt on the Seniors Tour after retirement, and his career only truly ending in 2025, officially due to ongoing hip problems, show how hard it is to let go of an identity defined so completely by demonstrable competence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Raccoon Who Became a Legend From the Factory Floor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Phil Taylor's path shows the self-preservation Three with Four-wing at its most successful: uncompromising, unshowy competence across three decades, carried by a deep, almost familial gratitude toward the person who made the first step possible – and a distinctive, unmistakable identity that reached far beyond the raw statistics. The raccoon who began in the darkness of the factory floor and ended up the brightest name in his sport.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-rosa-parks">Rosa Parks</a> (SE3w4) &ndash; in her too, historic impact grew not from staging, but from quiet, consistent competence and steadfastness. More in the <a href="javascript:void(0)" data-route="beruehmte-rosa-parks">portrait of Rosa Parks</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-rosa-parks", label:"Portrait: Rosa Parks (SE3w4)"},
       ])}
     </div>
   `);
