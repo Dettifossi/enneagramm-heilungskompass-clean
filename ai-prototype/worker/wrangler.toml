@@ -41,6 +41,14 @@ id = "933c79ebfa264d928b07c1c56a5706e6"
 binding = "AUTH_TOKENS"
 id = "1fc1fdf4ff8841b693c830f5c143a7de"
 
+# Bewertungen (ersetzt jsonbin.io, dessen kostenloses Anfragekontingent im
+# September 2026 aufgebraucht war). Zwei Keys: "wartend" und "freigegeben",
+# je ein JSON-Array. Admin-Schreibzugriffe (freigeben/löschen) verlangen den
+# ADMIN_CODE-Secret im Header X-Admin-Code.
+[[kv_namespaces]]
+binding = "REVIEWS"
+id = "66e4f67e14ce4eec9c14284c185c7ca8"
+
 # Secrets (gesetzt per npx wrangler secret put <NAME>, nie im Repo):
 #   STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET, RESEND_API_KEY
 # Fehlt eines davon, liefern /auth/*, /stripe/webhook und /billing/portal

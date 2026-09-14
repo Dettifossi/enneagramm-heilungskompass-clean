@@ -349,6 +349,108 @@ async function handleAuthVerify(request, env) {
   return jsonResponse(request, { sessionToken, email });
 }
 
+// ---------------------------------------------------------------------------
+// Bewertungen (ersetzt jsonbin.io, siehe wrangler.toml). Zwei KV-Keys unter
+// dem REVIEWS-Binding: "wartend" und "freigegeben", je ein JSON-Array.
+// Öffentlich: GET freigegeben, POST submit. Admin-geschützt (X-Admin-Code
+// Header gegen den ADMIN_CODE-Secret): GET wartend, POST freigeben/loeschen.
+
+async function reviewsGet(env, key) {
+  const raw = await env.REVIEWS.get(key);
+  if (!raw) return [];
+  try {
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+async function reviewsPut(env, key, list) {
+  await env.REVIEWS.put(key, JSON.stringify(list));
+}
+
+function requireAdmin(request, env) {
+  const code = request.headers.get("X-Admin-Code");
+  return !!env.ADMIN_CODE && code === env.ADMIN_CODE;
+}
+
+async function handleReviewsGetFreigegeben(request, env) {
+  return jsonResponse(request, { reviews: await reviewsGet(env, "freigegeben") });
+}
+
+async function handleReviewsGetWartend(request, env) {
+  if (!requireAdmin(request, env)) return jsonResponse(request, { error: "Nicht autorisiert." }, 401);
+  return jsonResponse(request, { reviews: await reviewsGet(env, "wartend") });
+}
+
+async function handleReviewsSubmit(request, env) {
+  const body = await request.json();
+  const sterne = Number(body.sterne);
+  if (!sterne || sterne < 1 || sterne > 5) {
+    return jsonResponse(request, { error: "Feld 'sterne' fehlt oder ungültig." }, 400);
+  }
+  const review = {
+    sterne,
+    text: typeof body.text === "string" ? body.text.slice(0, 2000) : "",
+    name: typeof body.name === "string" && body.name ? body.name.slice(0, 120) : null,
+    land: typeof body.land === "string" ? body.land : null,
+    countryCode: typeof body.countryCode === "string" ? body.countryCode : null,
+    datum: new Date().toISOString(),
+  };
+  const wartend = await reviewsGet(env, "wartend");
+  wartend.push(review);
+  await reviewsPut(env, "wartend", wartend);
+  return jsonResponse(request, { ok: true });
+}
+
+// Übersetzt Text via MyMemory (dieselbe kostenlose API wie zuvor im Client) -
+// serverseitig, damit der Freigabe-Vorgang ein einziger Endpunkt bleibt.
+async function translateText(text, langpair) {
+  if (!text) return null;
+  try {
+    const r = await fetch(
+      "https://api.mymemory.translated.net/get?q=" + encodeURIComponent(text.slice(0, 500)) +
+      "&langpair=" + langpair
+    );
+    const d = await r.json();
+    return (d.responseData && d.responseData.translatedText) || null;
+  } catch {
+    return null;
+  }
+}
+
+async function handleReviewsFreigeben(request, env) {
+  if (!requireAdmin(request, env)) return jsonResponse(request, { error: "Nicht autorisiert." }, 401);
+  const { index } = await request.json();
+  const wartend = await reviewsGet(env, "wartend");
+  const review = wartend[index];
+  if (!review) return jsonResponse(request, { error: "Bewertung nicht gefunden." }, 404);
+
+  wartend.splice(index, 1);
+  const isEnglishSource = !!review.text_en;
+  const translated = await translateText(review.text || "", isEnglishSource ? "en|de" : "de|en");
+  if (translated && isEnglishSource) review.text_de = translated;
+  if (translated && !isEnglishSource) review.text_en = translated;
+
+  const freigegeben = await reviewsGet(env, "freigegeben");
+  freigegeben.push(review);
+
+  await Promise.all([reviewsPut(env, "wartend", wartend), reviewsPut(env, "freigegeben", freigegeben)]);
+  return jsonResponse(request, { ok: true });
+}
+
+async function handleReviewsLoeschen(request, env) {
+  if (!requireAdmin(request, env)) return jsonResponse(request, { error: "Nicht autorisiert." }, 401);
+  const { index, from } = await request.json();
+  const key = from === "freigegeben" ? "freigegeben" : "wartend";
+  const liste = await reviewsGet(env, key);
+  if (index < 0 || index >= liste.length) return jsonResponse(request, { error: "Bewertung nicht gefunden." }, 404);
+  liste.splice(index, 1);
+  await reviewsPut(env, key, liste);
+  return jsonResponse(request, { ok: true });
+}
+
 // Erzeugt einen Stripe-Kundenportal-Link für den eingeloggten Nutzer (Abo
 // verwalten/kündigen/Rechnungen einsehen). Funktioniert unabhängig vom
 // aktuellen Abo-Status (auch für gekündigte Konten, z.B. um erneut zu
@@ -493,7 +595,7 @@ function corsHeaders(request) {
   return {
     "Access-Control-Allow-Origin": allowOrigin,
     "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
-    "Access-Control-Allow-Headers": "Content-Type, X-Session-Token",
+    "Access-Control-Allow-Headers": "Content-Type, X-Session-Token, X-Admin-Code",
     Vary: "Origin",
   };
 }
@@ -696,6 +798,21 @@ export default {
       }
       if (url.pathname === "/billing/portal" && request.method === "GET") {
         return await handleBillingPortal(request, env);
+      }
+      if (url.pathname === "/reviews/freigegeben" && request.method === "GET") {
+        return await handleReviewsGetFreigegeben(request, env);
+      }
+      if (url.pathname === "/reviews/wartend" && request.method === "GET") {
+        return await handleReviewsGetWartend(request, env);
+      }
+      if (url.pathname === "/reviews/submit" && request.method === "POST") {
+        return await handleReviewsSubmit(request, env);
+      }
+      if (url.pathname === "/reviews/freigeben" && request.method === "POST") {
+        return await handleReviewsFreigeben(request, env);
+      }
+      if (url.pathname === "/reviews/loeschen" && request.method === "POST") {
+        return await handleReviewsLoeschen(request, env);
       }
 
       if (request.method !== "POST") {

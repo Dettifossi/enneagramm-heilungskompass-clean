@@ -4933,9 +4933,7 @@ document.addEventListener("click", (e) => {
 });
 
 
-const JSONBIN_KEY = '$2a$10$LNlgIJOGbl6mnMlsX.luWuOkm/0og9HUbwLyoqdb9hHh9Uk9hbt6O';
-const JSONBIN_WARTEND = '6a573182f5f4af5e299123ac';
-const JSONBIN_FREIGEGEBEN = '6a573185da38895dfe5f9c4b';
+const REVIEWS_API = 'https://kompass-assistent.9rathmer.workers.dev/reviews';
 const ADMIN_CODE = 'rathmer9';
 
 
@@ -4960,11 +4958,11 @@ function adminPage() {
 }
 
 function _adminLoading() {
-  fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND + '/latest', { cache: 'no-store',
-    headers: { 'X-Master-Key': JSONBIN_KEY } })
+  fetch(REVIEWS_API + '/wartend', { cache: 'no-store',
+    headers: { 'X-Admin-Code': ADMIN_CODE } })
     .then(function(r){ return r.json(); })
     .then(function(data) {
-      const liste = (data.record && data.record.reviews) ? data.record.reviews : [];
+      const liste = data.reviews || [];
       const el = document.getElementById('admin-liste');
       if (!el) return;
       if (!liste.length) { el.innerHTML = '<p style="color:var(--muted);">Keine wartenden Bewertungen.</p>'; return; }
@@ -4998,59 +4996,21 @@ window._adminLogin = function() {
 };
 
 window._adminFreigeben = function(index) {
-  fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND + '/latest', { cache: 'no-store',
-    headers: { 'X-Master-Key': JSONBIN_KEY } })
-    .then(function(r){ return r.json(); })
-    .then(function(data) {
-      const wartend = (data.record && data.record.reviews) ? data.record.reviews : [];
-      const review = wartend[index];
-      if (!review) return;
-      wartend.splice(index, 1);
-      // Auto-translate text to English via MyMemory (free, no key needed)
-      const textToTranslate = review.text || '';
-      const isEnglishSource = !!(review.text_en);
-      const langpair = isEnglishSource ? 'en|de' : 'de|en';
-      const translatePromise = textToTranslate
-        ? fetch('https://api.mymemory.translated.net/get?q=' + encodeURIComponent(textToTranslate.slice(0,500)) + '&langpair=' + langpair)
-            .then(function(r){ return r.json(); })
-            .then(function(t){ return (t.responseData && t.responseData.translatedText) || null; })
-            .catch(function(){ return null; })
-        : Promise.resolve(null);
-      return translatePromise.then(function(translated) {
-        if (translated && isEnglishSource) review.text_de = translated;
-        if (translated && !isEnglishSource) review.text_en = translated;
-        return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN + '/latest', { cache: 'no-store',
-          headers: { 'X-Master-Key': JSONBIN_KEY } })
-          .then(function(r){ return r.json(); })
-          .then(function(fd) {
-            const freigegeben = (fd.record && fd.record.reviews) ? fd.record.reviews : [];
-            freigegeben.push(review);
-            return Promise.all([
-              fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, {
-                method: 'PUT', headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
-                body: JSON.stringify({ reviews: wartend }) }),
-              fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN, {
-                method: 'PUT', headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
-                body: JSON.stringify({ reviews: freigegeben }) })
-            ]);
-          });
-      });
-    })
+  fetch(REVIEWS_API + '/freigeben', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'X-Admin-Code': ADMIN_CODE },
+    body: JSON.stringify({ index: index })
+  })
     .then(function() { _adminLoading(); })
     .catch(function() { alert('Error beim Freigeben.'); });
 };
 
 window._adminLoeschen = function(index) {
-  fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND + '/latest', { cache: 'no-store',
-    headers: { 'X-Master-Key': JSONBIN_KEY } })
-    .then(function(r){ return r.json(); })
-    .then(function(data) {
-      const liste = (data.record && data.record.reviews) ? data.record.reviews : [];
-      liste.splice(index, 1);
-      return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, {
-        method: 'PUT', headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
-        body: JSON.stringify({ reviews: liste }) });
-    })
+  fetch(REVIEWS_API + '/loeschen', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'X-Admin-Code': ADMIN_CODE },
+    body: JSON.stringify({ index: index, from: 'wartend' })
+  })
     .then(function() { _adminLoading(); })
     .catch(function() { alert('Error deleting.'); });
 };
@@ -5101,11 +5061,10 @@ window.translateReview = function(btn) {
 
 function _bewertungSterneInit() {
   // Freigegebene Bewertungen laden
-  fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_FREIGEGEBEN + '/latest', { cache: 'no-store',
-    headers: { 'X-Master-Key': JSONBIN_KEY } })
+  fetch(REVIEWS_API + '/freigegeben', { cache: 'no-store' })
     .then(function(r){ return r.json(); })
     .then(function(data) {
-      const liste = (data.record && data.record.reviews) ? data.record.reviews : [];
+      const liste = data.reviews || [];
       if (!liste.length) return;
       const section = document.getElementById('community-bewertungen');
       const container = document.getElementById('community-liste');
@@ -5168,21 +5127,13 @@ function _bewertungSenden() {
         text: reviewText,
         name: nameVal || null,
         land: geo.country_name || null,
-        countryCode: geo.country_code || null,
-        datum: new Date().toISOString()
+        countryCode: geo.country_code || null
       };
-      return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, { cache: 'no-store',
-        headers: { 'X-Master-Key': JSONBIN_KEY } })
-        .then(function(r){ return r.json(); })
-        .then(function(data) {
-          const liste = (data.record && data.record.reviews) ? data.record.reviews : [];
-          liste.push(review);
-          return fetch('https://api.jsonbin.io/v3/b/' + JSONBIN_WARTEND, {
-            method: 'PUT',
-            headers: { 'Content-Type': 'application/json', 'X-Master-Key': JSONBIN_KEY },
-            body: JSON.stringify({ reviews: liste })
-          });
-        });
+      return fetch(REVIEWS_API + '/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(review)
+      });
     })
     .catch(function() {});
 }
