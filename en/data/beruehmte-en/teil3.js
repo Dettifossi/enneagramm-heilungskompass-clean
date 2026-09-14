@@ -2025,3 +2025,67 @@ export function fabianKahlPortraitPage() {
     </div>
   `);
 }
+
+export function steveJobsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-steve-jobs-portrait.jpg" alt="Steve Jobs" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Steve Jobs</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Entrepreneur, 1955&ndash;2011 &ndash; co-founder of Apple &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose Who Wanted to Rebuild the World</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> doesn't back down once it's convinced of something – it warns, it protects, it flies in formation, but never only for itself. Steve Jobs, born in 1955 and given up for adoption as a baby, articulated his drive early and unmistakably: "We're here to put a dent in the universe. Otherwise why else even be here?" Not a statement about personal success, but an almost moral obligation to leave the world in a particular, better state.</p>
+          <p class="vb-intro">He didn't carry this conviction quietly – he made it the goal of every single Apple employee. A trip to India in his youth reinforced his belief that his life's purpose lay exactly there: leaving visible marks through innovation, following the example of his great role model, Thomas Edison.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Perfection as an Obligation to the World</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> directs her perfectionism not inward or into direct personal contact, but outward – toward systems, standards, the big picture of how things ought to be. Jobs' notorious outbursts over "shit" work were never mere impatience, but the expression of a firm conviction: there is a right way and a wrong way to build a product, and the world deserves only the right one.</p>
+          <p class="vb-intro">This attitude reached into details no user would ever see – such as insisting that even the inside of circuit boards be arranged cleanly and aesthetically, though no one would ever open them. For the SO1, that isn't excessive perfectionism, but the consistent application of a moral standard to every detail of one's own work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: High Expectations as a Sign of Trust</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> turns the One's fidelity to principle into a form of care that expresses itself through high expectations rather than open warmth. His biographer Walter Isaacson quotes him: "I've learned over the years that when you have really good people, you don't have to baby them. By expecting them to do great things, you can get them to do great things." Not gentle encouragement, but a trust that becomes a driving force in itself.</p>
+          <p class="vb-intro">Guy Kawasaki, Apple's former "Chief Evangelist" and a close collaborator, described one of the most important lessons he learned from Jobs: that changing your mind radically in light of new insight is itself a sign of intelligence. This mix of demanding rigor and personal investment in individual people's growth is typical of the Two-wing on the social One: care, wrapped in expectation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: Apple, NeXT, Pixar, and the Return</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1976, Jobs co-founded Apple with Steve Wozniak in a garage; after his forced departure in 1985, he founded NeXT and acquired what would become Pixar Animation Studios, before Apple bought NeXT in 1997 and brought him back. With the iMac, iPod, iPhone, and iPad, he then reshaped not just one company but several entire technology industries.</p>
+          <p class="vb-intro">He processed his illness by his own strict standard too: after his 2003 diagnosis of a pancreatic tumor, he initially delayed surgery in favor of alternative approaches, before agreeing to operate nine months later – a decision he later regretted himself, but typical of someone who tried to order even his own health by self-set principles.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social One with Two-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO1w2 shows in Jobs' ability to create products that genuinely reshaped industries out of a strict, consistently pursued standard of quality – not through compromise, but through the unwavering application of his own high bar to every detail.</p>
+          <p class="vb-intro">The shadow shows in the often-cited black-and-white judgment of people and work – a project or a person was either "brilliant" or "shit" to him, rarely anything in between. This uncompromising fidelity to principle, which drove Apple to extraordinary achievements, also left deep wounds among many who worked alongside him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Goose That Never Stopped Flying for Its Conviction</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Steve Jobs' path shows the social One with Two-wing at its most impactful: an almost missionary conviction about how technology ought to be, combined with the ability to move others to extraordinary achievement through sheer force of expectation. Until his death in 2011, he remained convinced that the dent he wanted to leave was worth being uncompromising for.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-angelina-jolie">Angelina Jolie</a> (SO1w2) &ndash; in her too, a firm moral conviction becomes a life's drive, held publicly and unwaveringly. More in the <a href="javascript:void(0)" data-route="beruehmte-angelina-jolie">portrait of Angelina Jolie</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2)"},
+      ])}
+    </div>
+  `);
+}

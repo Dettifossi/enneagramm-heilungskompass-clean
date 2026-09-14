@@ -125,6 +125,7 @@ export function angelinaJoliePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so1", label:"SO1 \u2013 Die Gans: Subtyp-Profil"},
         {route:"beruehmte-christoph-waltz", label:"Portr\u00e4t: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-steve-jobs", label:"Portr\u00e4t: Steve Jobs (SO1w2) \u2013 dieselbe unbeirrte moralische \u00dcberzeugung"},
         {route:"beruehmte-brad-pitt", label:"Portr\u00e4t: Brad Pitt (SX3w2) \u2013 langj\u00e4hriger Partner, sechs gemeinsame Kinder"},
         {route:"krankheitsportraets-angelina-jolie", label:"Krankheitsportr\u00e4t: Angelina Jolie (SO1w2) \u2013 BRCA1-Genmutation"},
       ])}

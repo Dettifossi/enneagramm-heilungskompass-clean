@@ -125,6 +125,7 @@ export function angelinaJoliePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SP1w2)"},
+        {route:"beruehmte-steve-jobs", label:"Portrait: Steve Jobs (SO1w2) – the same unwavering moral conviction"},
         {route:"beruehmte-brad-pitt", label:"Portrait: Brad Pitt (SX3w2) – longtime partner, six children together"},
         {route:"krankheitsportraets-angelina-jolie", label:"Illness Portrait: Angelina Jolie (SO1w2) – BRCA1 gene mutation"},
       ])}

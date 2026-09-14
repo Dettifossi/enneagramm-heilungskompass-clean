@@ -2023,3 +2023,67 @@ export function fabianKahlPortraitPage() {
     </div>
   `);
 }
+
+export function steveJobsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-steve-jobs-portrait.jpg" alt="Steve Jobs" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Steve Jobs</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Unternehmer, 1955&ndash;2011 &ndash; Mitgründer von Apple &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die die Welt neu bauen wollte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> weicht nicht, wenn sie von etwas überzeugt ist – sie warnt, sie schützt, sie fliegt in Formation, aber nie nur für sich selbst. Steve Jobs, 1955 geboren und als Baby zur Adoption freigegeben, formulierte seinen Antrieb früh und unmissverständlich: „Wir sind hier, um eine Delle im Universum zu hinterlassen. Warum sonst wären wir überhaupt hier?" Kein Statement über persönlichen Erfolg, sondern eine fast moralische Verpflichtung, die Welt in einem bestimmten, besseren Zustand zu verlassen.</p>
+          <p class="vb-intro">Diese Überzeugung trug er nicht leise vor sich her, sondern machte sie zum Ziel jedes einzelnen Mitarbeiters bei Apple. Eine Reise nach Indien in jungen Jahren bestärkte ihn darin, dass sein Lebenszweck genau darin bestehe – durch Innovation, wie sein großes Vorbild Thomas Edison, sichtbare Spuren zu hinterlassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Perfektion als Verpflichtung gegenüber der Welt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> richtet ihren Perfektionismus nicht nach innen oder in den direkten persönlichen Kontakt, sondern nach außen – auf Systeme, auf Standards, auf das große Bild dessen, wie etwas sein sollte. Jobs' berüchtigte Wutausbrüche über „Scheiß"-Arbeit waren nie bloße Ungeduld, sondern Ausdruck einer festen Überzeugung: Es gibt einen richtigen und einen falschen Weg, ein Produkt zu bauen, und die Welt verdient nur den richtigen.</p>
+          <p class="vb-intro">Diese Haltung zeigte sich bis in Details, die kein Nutzer je zu Gesicht bekam – etwa die Forderung, auch die Innenseite von Platinen sauber und ästhetisch anzuordnen, obwohl niemand sie je öffnen würde. Für die SO1 ist das kein übertriebener Perfektionismus, sondern die konsequente Anwendung eines moralischen Maßstabs auf jedes Detail der eigenen Arbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Hohe Erwartungen als Vertrauensbeweis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verwandelt die Prinzipientreue der Eins in eine Form von Zuwendung, die sich in hohen Erwartungen ausdrückt statt in offener Wärme. Sein Biograf Walter Isaacson zitiert ihn: „Ich habe über die Jahre gelernt, dass man wirklich gute Leute nicht bemuttern muss. Wenn man von ihnen erwartet, Großes zu leisten, bringt man sie dazu, Großes zu leisten." Keine sanfte Ermutigung, sondern das Zutrauen, das selbst zur Antriebskraft wird.</p>
+          <p class="vb-intro">Guy Kawasaki, Apples früherer „Chief Evangelist" und enger Mitarbeiter, beschrieb eine der wichtigsten Lektionen, die er von Jobs lernte: dass es ein Zeichen von Intelligenz sei, die eigene Meinung radikal zu ändern, wenn neue Erkenntnisse dazu Anlass geben. Diese Mischung aus fordernder Strenge und persönlicher Investition in die Entwicklung einzelner Menschen ist typisch für den Zweierflügel bei der sozialen Eins: Zuwendung, verpackt in Anspruch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Apple, NeXT, Pixar und die Rückkehr</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1976 gründete Jobs gemeinsam mit Steve Wozniak Apple in einer Garage; nach seinem erzwungenen Weggang 1985 gründete er NeXT und erwarb die spätere Pixar Animation Studios, bevor Apple 1997 NeXT aufkaufte und ihn zurückholte. Mit iMac, iPod, iPhone und iPad prägte er anschließend nicht nur ein Unternehmen, sondern mehrere ganze Technologiebranchen neu.</p>
+          <p class="vb-intro">Auch seine Krankheit verarbeitete er nach seinem eigenen, strengen Maßstab: Nach der Diagnose eines Bauchspeicheldrüsentumors 2003 verzögerte er zunächst die Operation zugunsten alternativer Ansätze, bevor er sich neun Monate später doch operieren ließ – eine Entscheidung, die er selbst später bereute, aber typisch für jemanden, der auch die eigene Gesundheit nach eigens gesetzten Prinzipien zu ordnen versuchte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Eins mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w2 zeigt sich in Jobs' Fähigkeit, aus einem strengen, konsequent verfolgten Qualitätsanspruch heraus Produkte zu schaffen, die tatsächlich Branchen veränderten – nicht durch Kompromiss, sondern durch die unbeirrte Anwendung eines eigenen, hohen Maßstabs auf jedes Detail.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der oft zitierten Schwarz-Weiß-Bewertung von Menschen und Arbeit – ein Projekt oder eine Person war für ihn entweder „genial" oder „Müll", selten etwas dazwischen. Diese kompromisslose Prinzipientreue, die Apple zu Höchstleistungen trieb, hinterließ bei vielen Wegbegleitern auch tiefe Verletzungen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Gans, die nie aufhörte, für ihre Überzeugung zu fliegen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Steve Jobs' Weg zeigt die soziale Eins mit Zweierflügel in ihrer wirkmächtigsten Form: eine fast missionarische Überzeugung davon, wie Technologie sein sollte, verbunden mit der Fähigkeit, andere Menschen durch schiere Erwartungshöhe zu außergewöhnlichen Leistungen zu bewegen. Bis zu seinem Tod 2011 blieb er überzeugt, dass die Delle, die er hinterlassen wollte, es wert war, dafür kompromisslos zu sein.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-angelina-jolie">Angelina Jolie</a> (SO1w2) &ndash; auch bei ihr wird eine feste moralische Überzeugung zum Lebensantrieb, öffentlich und unbeirrt vertreten. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-angelina-jolie">Porträt zu Angelina Jolie</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2)"},
+      ])}
+    </div>
+  `);
+}
