@@ -42497,7 +42497,7 @@ const SPIRITUELL_TRACKS = {
         Sie auch einzeln auf der jeweiligen Subtyp-Seite (Feld \u201eSong 5\u201c im Heilmittelkompass-Bereich) sowie \u2013 mit der
         ganzen dazugeh\u00f6rigen Geschichte der biblischen Figur \u2013 in der Rubrik
         <a href="javascript:void(0)" data-route="enneagramm-bibel" style="color:var(--copper);">Enneagramm im Spiegel des Neuen Testaments</a>.
-        Hier sind sie erstmals alle 27 an einem Ort gesammelt.
+        Hier erstmals alle 27 an einem Ort gesammelt.
       </p>
       ${grid([
         { id: "dKofTwCmedc", label: "SE1 \u00b7 Der Reformer" },
