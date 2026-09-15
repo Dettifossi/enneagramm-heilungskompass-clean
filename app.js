@@ -43350,16 +43350,17 @@ function lookalikeTypenPage() {
     ${pageHeader("lookalike-typen")}
     <section class="narrow">
       <p class="eyebrow">Schaubilder \u00b7 Lookalike-Typen</p>
-      <h1>Lookalike-Typen im Enneagramm</h1>
-      <p class="lead-small">Manche Enneagrammtypen sehen sich zum Verwechseln \u00e4hnlich \u2014 obwohl sie nicht \u00fcber Fl\u00fcgel oder Verbindungslinien miteinander verbunden sind. Diese \u00dcbersicht zeigt die wichtigsten sog. Lookalike-Typen und hilft bei der Differenzierung.</p>
+      <h1>Lookalike-Typen im Enneagramm: die nicht-verbundenen Typen</h1>
+      <p class="lead-small">Manche Enneagrammtypen sehen sich zum Verwechseln \u00e4hnlich \u2014 obwohl sie im Enneagramm-Symbol weder \u00fcber den Fl\u00fcgel noch \u00fcber eine Verbindungslinie (Stress- oder Entspannungspunkt) miteinander in Beziehung stehen. Genau diese sog. nicht-verbundenen Typen sind es, die im Alltag am h\u00e4ufigsten verwechselt werden. Diese \u00dcbersicht zeigt die wichtigsten Lookalike-Paarungen und hilft bei der Differenzierung.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="./assets/schaubilder/lookalike-typen/lookalike-typen.jpg"
-             alt="Lookalike-Typen im Enneagramm"
+             alt="Lookalike-Typen im Enneagramm: die nicht-verbundenen Typen"
              class="psycho-img" />
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
-        <p class="vb-intro">Interessanterweise sind es gerade die Typen <em>ohne</em> direkte Fl\u00fcgel- oder Verbindungslinie im Enneagramm-Symbol, die im Alltag am leichtesten verwechselt werden \u2014 weil sie sich in bestimmten Verhaltensmerkmalen \u00e4hneln, obwohl ihre inneren Motivationen v\u00f6llig verschieden sind.</p>
+        <p class="vb-intro">Interessanterweise sind es gerade die Typen <em>ohne</em> direkte Fl\u00fcgel- oder Verbindungslinie im Enneagramm-Symbol, die im Alltag am leichtesten verwechselt werden \u2014 weil sie sich in bestimmten Verhaltensmerkmalen \u00e4hneln, obwohl ihre inneren Motivationen v\u00f6llig verschieden sind. Der Fl\u00fcgel verbindet einen Typ mit seinem direkten Nachbarn auf dem Kreis, die innere Verbindungslinie mit seinem Stress- und seinem Entspannungspunkt \u2014 bei den Lookalike-Paarungen fehlt beides. Die \u00c4hnlichkeit entsteht also nicht durch eine im Symbol angelegte Verwandtschaft, sondern rein durch eine oberfl\u00e4chliche \u00dcbereinstimmung im \u00e4u\u00dferen Auftreten.</p>
+        <p class="vb-intro">Bemerkenswert ist, dass genau diese nicht-verbundenen Lookalike-Typen in der Praxis auff\u00e4llig h\u00e4ufig als Liebespartner zueinanderfinden \u2014 und die Beziehung dabei durchaus gut funktioniert, obwohl keine der im Enneagramm-Symbol vorgesehenen Verbindungen (Fl\u00fcgel, Stresspunkt, Entspannungspunkt) zwischen ihnen besteht. Die Anziehung entsteht hier \u00fcber eine \u00c4hnlichkeit im Wesensausdruck, die das Symbol selbst nicht vorzeichnet \u2014 ein Hinweis darauf, dass Verwandtschaft zwischen Typen nicht ausschlie\u00dflich \u00fcber die geometrischen Linien des Enneagramms erkl\u00e4rt werden kann, sondern auch \u00fcber gemeinsame Verhaltensmuster, die quer zu diesen Linien liegen.</p>
         <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
           <div><span style="font-weight:700;color:#5f5f5f;">Typ 1 (Der Perfektionist)</span> wird oft verwechselt mit Typ 3 (Der Dynamiker), Typ 6 (Der loyale Skeptiker) und Typ 8 (Der Herausforderer) \u2014 alle wirken nach au\u00dfen bestimmt und kontrolliert, aus sehr unterschiedlichen inneren Gr\u00fcnden.</div>
           <div><span style="font-weight:700;color:#7a2fa8;">Typ 2 (Der Helfer)</span> wird oft verwechselt mit Typ 7 (Der Optimist) und Typ 9 (Der Friedliche) \u2014 alle wirken warmherzig und zugewandt, doch mit unterschiedlichen Beweggr\u00fcnden.</div>

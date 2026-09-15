@@ -18264,16 +18264,17 @@ function lookalikeTypenPage() {
     ${pageHeader("lookalike-typen")}
     <section class="narrow">
       <p class="eyebrow">Charts · Lookalike Types</p>
-      <h1>Lookalike Types in the Enneagram</h1>
-      <p class="lead-small">Some Enneagram types look strikingly similar — even though they are not connected by wings or integration lines. This overview shows the most important so-called lookalike types and aids differentiation.</p>
+      <h1>Lookalike Types in the Enneagram: the Unconnected Types</h1>
+      <p class="lead-small">Some Enneagram types look strikingly similar — even though, in the Enneagram symbol itself, they are related neither by wing nor by an inner connecting line (stress point or security point). It is precisely these so-called unconnected types that are most often confused in everyday life. This overview shows the most important lookalike pairings and aids differentiation.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/lookalike-typen/lookalike-typen.jpg"
-             alt="Lookalike-Typen im Enneagramm"
+             alt="Lookalike types in the Enneagram: the unconnected types"
              class="psycho-img" />
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
-        <p class="vb-intro">Interestingly, it is precisely the types <em>without</em> a direct wing or connecting line in the Enneagram symbol that are most easily confused in everyday life — because they resemble each other in certain behavioral traits, even though their inner motivations are completely different.</p>
+        <p class="vb-intro">Interestingly, it is precisely the types <em>without</em> a direct wing or connecting line in the Enneagram symbol that are most easily confused in everyday life — because they resemble each other in certain behavioral traits, even though their inner motivations are completely different. The wing connects a type to its direct neighbor on the circle, and the inner connecting line to its stress point and its security point — in the lookalike pairings, both are absent. The resemblance, then, arises not from a kinship laid out in the symbol, but purely from a surface similarity in outward behavior.</p>
+        <p class="vb-intro">It's notable that precisely these unconnected lookalike types strikingly often become romantic partners in practice — and the relationship works well despite none of the connections foreseen by the Enneagram symbol (wing, stress point, security point) existing between them. The attraction here arises from a resemblance in character expression that the symbol itself doesn't chart — a hint that kinship between types cannot be explained solely through the Enneagram's geometric lines, but also through shared behavioral patterns that run across those lines.</p>
         <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
           <div><span style="font-weight:700;color:#5f5f5f;">Type 1 (The Perfectionist)</span> is often confused with Type 3 (The Achiever), Type 6 (The Loyal Skeptic), and Type 8 (The Challenger) — all appear determined and controlled outwardly, for very different inner reasons.</div>
           <div><span style="font-weight:700;color:#7a2fa8;">Type 2 (The Helper)</span> is often confused with Type 7 (The Optimist) and Type 9 (The Peaceful One) — all appear warm and engaging, but with different motives.</div>
