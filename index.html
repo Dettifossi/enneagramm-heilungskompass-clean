@@ -135,12 +135,27 @@
       if ("serviceWorker" in navigator) {
         // Nur neu laden wenn vorher schon ein SW aktiv war (nicht beim ersten Start nach Cache-Leerung)
         const hadController = !!navigator.serviceWorker.controller;
+        // Ein erzwungener Reload mitten im Ansehen eines eingebetteten YouTube-Videos
+        // (Musikseite, Bibel-/Subtyp-Porträts) wirft den Nutzer unvermittelt aus der
+        // aktuellen Ansicht. Statt sofort neu zu laden, wird der Reload zurückgestellt,
+        // solange ein Video-Player sichtbar eingebettet ist, und beim nächsten
+        // Routenwechsel (hashchange) nachgeholt – an einem Punkt, an dem ohnehin neu
+        // gerendert wird und nichts unterbrochen werden kann.
+        let swReloadPending = false;
+        function reloadOrDefer() {
+          const videoAktiv = document.querySelector('iframe[src*="youtube.com/embed"]');
+          if (videoAktiv) { swReloadPending = true; return; }
+          window.location.reload();
+        }
         navigator.serviceWorker.addEventListener('message', e => {
-          if (e.data && e.data.type === 'SW_UPDATED' && hadController) window.location.reload();
+          if (e.data && e.data.type === 'SW_UPDATED' && hadController) reloadOrDefer();
         });
         // Fallback: controllerchange (Chrome/Android)
         navigator.serviceWorker.addEventListener('controllerchange', () => {
-          if (hadController) window.location.reload();
+          if (hadController) reloadOrDefer();
+        });
+        window.addEventListener('hashchange', () => {
+          if (swReloadPending) window.location.reload();
         });
         // SW registrieren und sofort auf Update prüfen
         navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' })

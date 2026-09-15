@@ -103,11 +103,23 @@
     <script>
       if ("serviceWorker" in navigator) {
         const hadController = !!navigator.serviceWorker.controller;
+        // Defer a forced reload while an embedded YouTube video is visible, so the
+        // user isn't unexpectedly kicked out of what they're watching. The reload
+        // happens on the next route change instead, where a re-render happens anyway.
+        let swReloadPending = false;
+        function reloadOrDefer() {
+          const videoAktiv = document.querySelector('iframe[src*="youtube.com/embed"]');
+          if (videoAktiv) { swReloadPending = true; return; }
+          window.location.reload();
+        }
         navigator.serviceWorker.addEventListener('message', e => {
-          if (e.data && e.data.type === 'SW_UPDATED' && hadController) window.location.reload();
+          if (e.data && e.data.type === 'SW_UPDATED' && hadController) reloadOrDefer();
         });
         navigator.serviceWorker.addEventListener('controllerchange', () => {
-          if (hadController) window.location.reload();
+          if (hadController) reloadOrDefer();
+        });
+        window.addEventListener('hashchange', () => {
+          if (swReloadPending) window.location.reload();
         });
         navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' })
           .then(reg => reg.update());
