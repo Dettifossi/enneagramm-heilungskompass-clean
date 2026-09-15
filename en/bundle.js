@@ -3825,6 +3825,7 @@ text.nav = [
     { route: "detlef-rathmer-jazz|dr-enn-alben", label: "Enneagram Albums" },
     { route: "detlef-rathmer-jazz|dr-enn-songs", label: "Enneagram Songs" },
     { route: "detlef-rathmer-jazz|dr-spirituell", label: "Spiritual Songs" },
+    { route: "detlef-rathmer-jazz|dr-biblisch", label: "Biblical Subtype Songs" },
     { route: "detlef-rathmer-jazz|dr-liebe", label: "Love Songs" },
   ]},
 ];

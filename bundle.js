@@ -16120,6 +16120,7 @@ const uiText = {
       { route: "detlef-rathmer-jazz|dr-enn-alben", label: "Enneagramm-Alben" },
       { route: "detlef-rathmer-jazz|dr-enn-songs", label: "Enneagramm-Songs" },
       { route: "detlef-rathmer-jazz|dr-spirituell", label: "Spirituelle Songs" },
+      { route: "detlef-rathmer-jazz|dr-biblisch", label: "Biblische Subtyp-Songs" },
       { route: "detlef-rathmer-jazz|dr-liebe", label: "Liebeslieder" },
     ]},
   ],
