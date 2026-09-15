@@ -2402,7 +2402,7 @@ export function michaelJacksonKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Jackson</strong> ist der <strong>sozialen Vier mit Dreierflügel</strong>
-        zugeordnet. Naranjo beschrieb die SO4 als Verstärkungstyp der Vier: Die Leidenschaft des
+        zugeordnet. Die SO4 gilt als Verstärkungstyp der Vier: Die Leidenschaft des
         Neids wird nach innen gewendet und zu Scham – einem tiefen Mangelbewusstsein, das sich am
         eigenen äußeren Bild festmacht. Der Dreierflügel liefert Bühnenpräsenz und Perfektionismus,
         der keinen sichtbaren Makel duldet – ein Muster, das sich bis in seinen Umgang mit

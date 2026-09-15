@@ -4234,7 +4234,7 @@ export function wadeWilsonPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\u00e4nzende Tiefenblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SO3 \u2013 der Verst\u00e4rkungstyp:</strong>
+        <p class="vb-intro"><strong>a) SO3 \u2013 der Verst\u00e4rkungstyp:</strong>
         Claudio Naranjo beschrieb die soziale Drei
         als den Verst\u00e4rkungstyp \u2013 den Subtyp,
         der die Leidenschaft der Eitelkeit am reinsten

@@ -2285,7 +2285,7 @@ export function michaelJacksonKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
         <strong>Jackson</strong> is classified as the <strong>Social Four with Three-wing</strong>.
-        Naranjo described SO4 as the Four's reinforcement type: envy is turned inward and
+        SO4 is considered the reinforcement type: envy is turned inward and
         becomes shame – a deep sense of lacking, anchored in one's own outward image. The
         Three-wing supplies stage presence and a perfectionism that tolerates no visible flaw – a
         pattern that can be traced right into his handling of chronic pain and sleeplessness.</p>

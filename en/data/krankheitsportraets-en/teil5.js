@@ -2947,7 +2947,7 @@ export function teresaVonAvilaKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
         <strong>Teresa</strong> is classified as the <strong>Social Three with
-        Four-wing</strong>. Naranjo described the social Three as the amplifier type of the
+        Four-wing</strong>. The social Three is considered the amplifier type of the
         Three line: ambition and achievement drive are directed most plainly at a work
         recognized by a larger community – for Teresa not personal fame, but the visible
         reform of an entire religious order. The Four-wing gives this achievement drive an

@@ -4364,7 +4364,7 @@ export function williamJamesKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>James</strong> ist der <strong>sozialen Drei mit Viererflügel</strong>
-        zugeordnet. Naranjo nannte die soziale Drei den <em>Verstärkungstyp</em> – Bedeutung
+        zugeordnet. Die soziale Drei wird als <em>Verstärkungstyp</em> bezeichnet – Bedeutung
         entsteht über sichtbare Wirkung und Leistung im sozialen Raum, nicht über stille
         Zurückgezogenheit. Der Viererflügel bringt zusätzlich eine existenzielle Tiefe und
         Empfindsamkeit mit, die dazu neigt, Krisen nicht auszusitzen, sondern sie – wie bei

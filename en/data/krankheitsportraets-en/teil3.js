@@ -1728,7 +1728,7 @@ export function karlLagerfeldKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
         <strong>Lagerfeld</strong> is classified as the <strong>Social Three with
-        Four-wing</strong>. Naranjo called the Social Three the <em>Reinforcement Type</em> –
+        Four-wing</strong>. The Social Three is called the <em>Reinforcement Type</em> –
         she is not simply successful, she <em>is</em> the success she embodies, and the image
         she presents to the world must remain seamlessly intact. The Four-wing adds a fine
         sense for aesthetics and staging, but also a deep shame over anything that could

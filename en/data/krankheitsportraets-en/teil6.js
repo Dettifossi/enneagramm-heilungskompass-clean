@@ -4166,7 +4166,7 @@ export function williamJamesKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
         <strong>James</strong> is classified as the <strong>Social Three with Four-wing</strong>.
-        Naranjo called the Social Three the <em>Reinforcement Type</em> – significance arises
+        The Social Three is called the <em>Reinforcement Type</em> – significance arises
         through visible impact and achievement in the social sphere, not through quiet
         withdrawal. The Four-wing adds an existential depth and sensitivity that tends not to
         sit out a crisis but, as documented in James's own biography, to live it out to the

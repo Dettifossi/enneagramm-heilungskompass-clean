@@ -3092,7 +3092,7 @@ export function teresaVonAvilaKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Teresa</strong> ist der <strong>sozialen Drei mit Viererflügel</strong>
-        zugeordnet. Naranjo beschrieb die soziale Drei als den Verstärkungstyp der Dreier-Reihe:
+        zugeordnet. Die soziale Drei gilt als der Verstärkungstyp der Dreier-Reihe:
         Ehrgeiz und Leistungsstreben richten sich hier am unverstelltesten auf ein Werk, das
         von einer größeren Gemeinschaft anerkannt wird – bei Teresa nicht persönlicher Ruhm,
         sondern die sichtbare Reform eines ganzen Ordens. Der Viererflügel gibt dieser

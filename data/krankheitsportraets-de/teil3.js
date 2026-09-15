@@ -1823,7 +1823,7 @@ export function karlLagerfeldKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
         <strong>Lagerfeld</strong> ist der <strong>sozialen Drei mit Viererflügel</strong>
-        zugeordnet. Naranjo nannte die soziale Drei den <em>Verstärkungstyp</em> – sie ist nicht
+        zugeordnet. Die soziale Drei wird als <em>Verstärkungstyp</em> bezeichnet – sie ist nicht
         einfach erfolgreich, sie <em>ist</em> der Erfolg, den sie verkörpert, und das Bild, das
         sie von sich zeigt, muss lückenlos intakt bleiben. Der Viererflügel bringt ein feines
         Gespür für Ästhetik und Inszenierung hinzu, aber auch eine tiefe Scham vor allem, was

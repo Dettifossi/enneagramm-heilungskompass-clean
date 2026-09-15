@@ -1409,7 +1409,7 @@ export function sahraWagenknechtPortraitPage() {
 
         <h2 class="vb-section">2. The Social Three: Success as Identity, Recognition as Fuel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Social subtype of Type Three, which Claudio Naranjo termed the "prestige type," lives for prestige, status, and public impact. It does not merely want to be successful—it wants everyone to witness it. The stage is not a means to an end, but home. Sahra Wagenknecht has cultivated this energy to a high degree: books that turn into bestsellers, speeches that go viral, and a political party bearing her name.</p>
+          <p class="vb-intro">The Social subtype of Type Three, commonly termed the "prestige type," lives for prestige, status, and public impact. It does not merely want to be successful—it wants everyone to witness it. The stage is not a means to an end, but home. Sahra Wagenknecht has cultivated this energy to a high degree: books that turn into bestsellers, speeches that go viral, and a political party bearing her name.</p>
           <p class="vb-intro">The BSW—Bündnis Sahra Wagenknecht, founded in 2024—is an extraordinary phenomenon both politically and typologically: a party named after an individual that immediately entered three state parliaments. The Social Three builds systems that make her visible. Wagenknecht carried this out with a consistency that astounded even political opponents.</p>
           <p class="vb-intro">Yet she is no populist in the classic sense—she is an analyst of the popular. She understands what moves people and articulates it in a way that lands. That is the gift of the Social Three: not just to perform, but to understand why certain messages resonate.</p>
         </blockquote>
