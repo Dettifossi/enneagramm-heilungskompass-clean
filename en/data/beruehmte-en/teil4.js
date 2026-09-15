@@ -1183,6 +1183,7 @@ export function martaManserPortraitPage() {
         {route:"lebensmusterkompass/so6", label:"Life Pattern Compass: SO6 – Meerkat"},
         {route:"beruehmte-tim-clutton-brock", label:"Portrait: Prof. Tim Clutton-Brock (SO6w5)"},
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
+        {route:"beruehmte-grit-strassenberger", label:"Portrait: Prof. Dr. Grit Straßenberger (SO6w5)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-marta-manser")}
     </div>
@@ -2034,6 +2035,66 @@ export function philCollinsPortraitPage() {
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
         {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
         {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+export function gritStrassenbergerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-grit-strassenberger-portrait.jpg" alt="Prof. Dr. Grit Straßenberger" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Grit Straßenberger</p>
+        <p class="krim-portrait-typ">SO6w5 &middot; Social Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Political scientist, born 1970 &ndash; Animal correspondence: Meerkat</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Meerkat Whose Life Theme Is the Question of Trustworthy Authority</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>meerkat</strong> is the animal of the social Six – a watchful, intelligent animal that seeks security not alone, but through a reliable system of mutual warning and clear roles. In this Compass, the meerkat's gaze is described as "cool, watchful, skeptical, cerebral, critically appraising" – a description that strikingly matches what shows in photos of Grit Straßenberger: an outward-facing composure behind which lies a probing, skeptical gaze.</p>
+          <p class="vb-intro">Straßenberger, born in 1970 in Berlin, is Professor of Political Theory and the History of Ideas at the University of Bonn. Her scholarly life theme, which she has pursued for decades, can be summed up in a single question: when is authority legitimate and worth protecting – and when does it become a danger? Few questions could lie closer to the core of the social Six.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Six: An Entire Scholarly Life Devoted to the Question of Trustworthy Authority</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Six (SO6)</strong> seeks security not through distrust of all authority, but through carefully distinguishing which authority can be trusted and which cannot – doubt is not acted out, but converted into certainty once the examination is complete. Straßenberger's 2013 habilitation thesis bears the programmatic title <em>"Political Leadership: On a Dilemma of Modern Democratic Theory"</em> – the central dilemma of how much leadership a democracy needs without endangering itself is not a side theme but the load-bearing qualification work of her entire academic career.</p>
+          <p class="vb-intro">Her scholarly essay <em>"Authority in Democracy: On the Republican Reception of the Roman Concept of Auctoritas in Hannah Arendt"</em> deepens exactly the same question. And in her own reading of the critical Arendt complete edition she co-edits, she explicitly emphasizes that for Arendt "authority and freedom were no contradiction" and that Arendt did not believe in "unlimited co-determination" in democracies – a pointed position showing that, for the SO6, freedom needs a reliable, legitimized structure, or it tips into chaos or into false, dangerous authority.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Systematizing Rather Than Creating Anew</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the social Six a sober, analytical baseline – security arises through precise, factual insight, not through warmth or charismatic presence. Unlike Hannah Arendt herself, who is listed in this Compass as SO5w4 and whose work often coined bold, original new concepts, Straßenberger works more as a commentator, an organizer, a systematizer within an already established canon – as co-editor of the critical Arendt complete edition, as author of an Arendt biography, as a member of several scientific advisory boards (the Bonn Academy, the Bonn Center for Reconciliation Research).</p>
+          <p class="vb-intro">This institutional anchoring runs through her entire career: doctoral fellow of the Heinrich Böll Foundation, doctorate in 2004 under Herfried Münkler, habilitation in 2013 at Humboldt University, a professorship in Bonn ever since – a career that unfolds consistently within recognized, established institutions, never as a free intellectual operating outside the system.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social Six with Five-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO6w5 shows in the ability to work through one of the hardest questions in democratic theory – how much leadership is necessary and how much is dangerous – with scholarly precision and institutional reliability, rather than simplifying it ideologically. This very differentiation is what makes her research valuable, especially at a time when trust in authority and institutions is being publicly renegotiated.</p>
+          <p class="vb-intro">The shadow of the social Six with Five-wing lies in the risk of cultivating skepticism for so long that it hardens into certainty before an genuinely open examination has taken place – the meerkat's cool, critically appraising gaze quality, behind which cautious scrutiny hides rather than open curiosity. As with many SO6w5s, public personal visibility also remains low: security is sought through the institution and the established body of work, not through personal presence in the spotlight.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Meerkat Standing Guard Over Authority Itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Straßenberger gives the academic public is a precise, institutionally grounded answer to a question no democracy can ever finally resolve: whom can we trust, and how do we protect legitimate authority from its own erosion? This is exactly the principle a social Six knows from the inside, because she lives by it herself.</p>
+          <p class="vb-intro">In the end, an image remains that could hardly fit this Compass better: a scholar whose archetypal animal is the watchful meerkat, who has devoted her entire scholarly life to standing guard over the question of which authority a community can bear – and which endangers it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
+        {route:"beruehmte-marta-manser", label:"Portrait: Prof. Dr. Marta Manser (SO6w5)"},
+        {route:"beruehmte-hannah-arendt", label:"Portrait: Hannah Arendt (SO5w4)"},
+        {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
       ])}
     </div>
   `);

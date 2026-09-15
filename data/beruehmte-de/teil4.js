@@ -1185,6 +1185,7 @@ export function martaManserPortraitPage() {
         {route:"lebensmusterkompass/so6", label:"Lebensmusterkompass: SO6 – Erdmännchen"},
         {route:"beruehmte-tim-clutton-brock", label:"Porträt: Prof. Tim Clutton-Brock (SO6w5)"},
         {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
+        {route:"beruehmte-grit-strassenberger", label:"Porträt: Prof. Dr. Grit Straßenberger (SO6w5)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-marta-manser")}
     </div>
@@ -2036,6 +2037,66 @@ export function philCollinsPortraitPage() {
         {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-sting", label:"Porträt: Sting (SE1w9)"},
         {route:"beruehmte-harald-v", label:"Porträt: König Harald V. (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+export function gritStrassenbergerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-grit-strassenberger-portrait.jpg" alt="Prof. Dr. Grit Straßenberger" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Grit Straßenberger</p>
+        <p class="krim-portrait-typ">SO6w5 &middot; Sozialer Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Politikwissenschaftlerin, geb. 1970 &ndash; Tierentsprechung: Erdmännchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdmännchen, dessen Lebensthema die Frage nach vertrauenswürdiger Autorität ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdmännchen</strong> ist das Tier der sozialen Sechs – ein wachsames, kluges Tier, das Sicherheit nicht im Alleingang sucht, sondern in einem verlässlichen System aus gegenseitiger Warnung und klaren Rollen. Der Blick des Erdmännchens gilt in diesem Kompass als "kühl, wachsam, skeptisch, verkopft, kritisch beäugend" – eine Beschreibung, die sich auffällig deckt mit dem, was sich in Fotos von Grit Straßenberger zeigt: eine nach außen gerichtete Bestimmtheit, hinter der ein prüfender, skeptischer Blick liegt.</p>
+          <p class="vb-intro">Straßenberger, geboren 1970 in Berlin, ist Professorin für Politische Theorie und Ideengeschichte an der Universität Bonn. Ihr wissenschaftliches Lebensthema, dem sie sich über Jahrzehnte widmet, lässt sich in einem einzigen Satz zusammenfassen: Wann ist Autorität legitim und schützenswert – und wann wird sie zur Gefahr? Kaum eine Frage könnte näher am Kern der sozialen Sechs liegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sechs: Ein ganzes Forscherleben der Frage nach vertrauenswürdiger Autorität gewidmet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sechs (SO6)</strong> sucht Sicherheit nicht durch Misstrauen gegenüber jeder Autorität, sondern durch die genaue Unterscheidung, welcher Autorität man vertrauen kann und welcher nicht – Zweifel wird nicht ausgelebt, sondern in Gewissheit umgewandelt, sobald die Prüfung abgeschlossen ist. Straßenbergers Habilitationsschrift von 2013 trägt den programmatischen Titel <em>"Politische Führung. Zu einem Dilemma der modernen Demokratietheorie"</em> – das zentrale Dilemma, wie viel Führung eine Demokratie braucht, ohne sich selbst zu gefährden, ist nicht Nebenthema, sondern die tragende Qualifikationsschrift ihrer gesamten akademischen Laufbahn.</p>
+          <p class="vb-intro">Ihr Fachaufsatz <em>"Autorität in der Demokratie. Zur republikanischen Rezeption des römischen auctoritas-Konzepts bei Hannah Arendt"</em> vertieft genau dieselbe Frage. Und in ihrer eigenen Lesart der von ihr herausgegebenen Arendt-Gesamtausgabe betont sie ausdrücklich, dass für Arendt "Autorität und Freiheit kein Widerspruch" gewesen seien und dass Arendt nicht an "unbegrenzte Mitbestimmung" in Demokratien glaubte – eine pointierte Position, die zeigt: Freiheit braucht für die SO6 eine verlässliche, legitimierte Struktur, sonst kippt sie ins Chaos oder in falsche, gefährliche Autorität.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Systematisierung statt eigener Neuschöpfung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sozialen Sechs eine nüchterne, analytische Grundhaltung – Sicherheit entsteht über präzise, sachliche Erkenntnis, nicht über Wärme oder charismatische Ausstrahlung im Auftritt. Anders als Hannah Arendt selbst, die im Kompass als SO5w4 geführt wird und deren Werk oft explorativ-originell neue Begriffe erfand, arbeitet Straßenberger stärker kommentierend, einordnend und systematisierend innerhalb eines bereits etablierten Kanons – als Mitherausgeberin der kritischen Arendt-Gesamtausgabe, als Autorin einer Arendt-Biografie, als Mitglied mehrerer wissenschaftlicher Beiräte (Bonner Akademie, Bonn Center for Reconciliation Research).</p>
+          <p class="vb-intro">Diese institutionelle Verankerung zieht sich durch die gesamte Laufbahn: Promotionsstipendiatin der Heinrich-Böll-Stiftung, Promotion 2004 bei Herfried Münkler, Habilitation 2013 an der Humboldt-Universität, seither Professur in Bonn – eine Karriere, die durchgehend in anerkannten, etablierten Institutionen verläuft, nie als freie Intellektuelle außerhalb des Systems.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Sechs mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO6w5 zeigt sich in der Fähigkeit, eine der schwierigsten Fragen der Demokratietheorie – wie viel Führung nötig und wie viel gefährlich ist – mit wissenschaftlicher Präzision und institutioneller Verlässlichkeit zu bearbeiten, statt sie ideologisch zu vereinfachen. Genau diese Differenziertheit macht ihre Forschung wertvoll, gerade in Zeiten, in denen Vertrauen in Autorität und Institutionen öffentlich neu verhandelt wird.</p>
+          <p class="vb-intro">Der Schatten der sozialen Sechs mit Fünferflügel liegt in der Gefahr, Skepsis so lange zu kultivieren, dass sie selbst zur Gewissheit erstarrt, bevor eine wirklich offene Prüfung stattgefunden hat – die kühle, kritisch beäugende Blickqualität des Erdmännchens, hinter der sich eher vorsichtiges Prüfen als offene Neugier verbirgt. Wie bei vielen SO6w5 bleibt zudem die öffentliche, persönliche Sichtbarkeit gering: Sicherheit wird über die Institution und das etablierte Werk gesucht, nicht über die eigene Person im Rampenlicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Erdmännchen, das die Wache über die Autorität selbst hält</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Straßenberger der akademischen Öffentlichkeit gibt, ist eine präzise, institutionell abgesicherte Antwort auf eine Frage, die keine Demokratie endgültig lösen kann: Wem darf man vertrauen, und wie schützt man legitime Autorität vor ihrer eigenen Erosion? Genau dieses Prinzip kennt eine soziale Sechs von innen heraus, weil sie selbst danach lebt.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: eine Forscherin, deren archetypisches Tier das wachsame Erdmännchen ist, die ihr gesamtes wissenschaftliches Leben der Wache über die Frage widmet, welche Autorität eine Gemeinschaft tragen darf – und welche sie gefährdet.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
+        {route:"beruehmte-marta-manser", label:"Porträt: Prof. Dr. Marta Manser (SO6w5)"},
+        {route:"beruehmte-hannah-arendt", label:"Porträt: Hannah Arendt (SO5w4)"},
+        {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
       ])}
     </div>
   `);
