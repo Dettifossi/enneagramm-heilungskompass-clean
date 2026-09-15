@@ -42229,25 +42229,32 @@ function detlefRathmerJazzPage() {
   ];
   const enneagrammAlben = [...enneagrammAlbenGenres, ...enneagrammAlbenHeilungTyp, ...enneagrammAlbenWeitere];
 
-  const deutschsprachigeSongs = [
+  const deSongsHymnen = [
     { id: "UIs80tsNcmE", label: "Enneagramm-Hymne \u2013 Loblied auf die 9 Typen" },
     { id: "0wuNFvrDWgs", label: "27 Pfade \u2013 Song \u00fcber die 27 Pers\u00f6nlichkeiten" },
-    { id: "UiiJxzKg_8k", label: "Neun Wege \u2013 Jazz-Version" },
     { id: "nVoATnACLyg", label: "Enneagramm-Haiku-Song" },
-    { id: "1OPgSJAh5OE", label: "Blei zu Gold \u2013 Die innere Transformation der 9 Typen" },
-    { id: "Pg7AIif63lE", label: "Zwei Stimmen, ein Lied \u2013 Seelische Bed\u00fcrfnisse des Menschseins" },
-    { id: "ZKzxDWLHj8M", label: "Die Zeit in meinen H\u00e4nden \u2013 Zeitempfinden der 9 Typen" },
     { id: "F-o0e7y8ElY", label: "Das Rad der Neun \u2013 Die Wege der 9 Typen" },
-    { id: "LttxUqLQ-I4", label: "Neun Wege, neun Herzen \u2013 Die Tugenden der 9 Typen" },
     { id: "i6cx6rq-kRk", label: "Neun Typen, neun Wege \u2013 Die Vielf\u00e4ltigkeit der 9 Typen" },
     { id: "zrcTbu-gzKk", label: "Neun Blicke, neun Welten \u2013 Die Blickqualit\u00e4t der 9 Typen" },
     { id: "cjXKYMQctmw", label: "Neun Wege, ein Licht \u2013 Die Heiligen Ideen der 9 Typen" },
     { id: "QjIdQUILK3Y", label: "Neun T\u00f6ne, ein Lied \u2013 Die Essenz des menschlichen Strebens" },
-    { id: "qEduDzF1D2k", label: "9 Typen im Urlaub" },
-    { id: "9_5r279IsVM", label: "9 Typen beim Doktor" },
     { id: "57eIsbdEBgc", label: "Enneagramm-Ballade" },
+  ];
+  const deSongsInnere = [
+    { id: "1OPgSJAh5OE", label: "Blei zu Gold \u2013 Die innere Transformation der 9 Typen" },
+    { id: "Pg7AIif63lE", label: "Zwei Stimmen, ein Lied \u2013 Seelische Bed\u00fcrfnisse des Menschseins" },
+    { id: "ZKzxDWLHj8M", label: "Die Zeit in meinen H\u00e4nden \u2013 Zeitempfinden der 9 Typen" },
+    { id: "LttxUqLQ-I4", label: "Neun Wege, neun Herzen \u2013 Die Tugenden der 9 Typen" },
     { id: "RNp2Jlu5qUo", label: "Enneagramm-Blues \u2013 Kindheitsdefizite & Verletzungen" },
     { id: "TUO91KK7Ypc", label: "Neun Melodien \u2013 Fixierungen und L\u00f6sungswege" },
+  ];
+  const deSongsHumor = [
+    { id: "qEduDzF1D2k", label: "9 Typen im Urlaub" },
+    { id: "9_5r279IsVM", label: "9 Typen beim Doktor" },
+    { id: "ycCGpZqmzeY", label: "Neun Typen, neun Welten, wie sie Weihnachten seh'n" },
+  ];
+  const deSongsVarianten = [
+    { id: "UiiJxzKg_8k", label: "Neun Wege \u2013 Jazz-Version" },
     { id: "sSkjQXl2O4c", label: "Neun Wege der Seele (Irish-Celtic-Stil)" },
     { id: "O5235kzxzWE", label: "Neun Wege (Rap-Version)" },
     { id: "UM3WGb8tBMc", label: "Neun Wege (Pop-Version)" },
@@ -42259,21 +42266,24 @@ function detlefRathmerJazzPage() {
     { id: "WsfKzMoc3ss", label: "Neun Wege (World-Music-Version)" },
     { id: "mGgl_ELpgaQ", label: "Neun Wege (Bossa-Nova-Version)" },
     { id: "HTCLOI-Qtzw", label: "Neun Wege (R'n'B/Soul-Version)" },
-    { id: "ycCGpZqmzeY", label: "Neun Typen, neun Welten, wie sie Weihnachten seh'n" },
   ];
+  const deutschsprachigeSongs = [...deSongsHymnen, ...deSongsInnere, ...deSongsHumor, ...deSongsVarianten];
 
-  const englischsprachigeSongs = [
+  const enSongsHymnen = [
     { id: "2li9BrwEdGo", label: "Enneagram Anthem \u2013 Hymn of Praise" },
     { id: "gKt5ewn7MY4", label: "27 Paths \u2013 Song About the 27 Personalities" },
     { id: "c4NAtdSJc7U", label: "Enneagram Haiku Song" },
     { id: "w2iFAGFT5Iw", label: "Nine Gazes, Nine Worlds \u2013 The Gaze Qualities of the Nine Types" },
     { id: "Hjww24C4v_o", label: "Enneagram Ballad" },
+  ];
+  const enSongsWeitere = [
     { id: "ldFzU1hRIVU", label: "Nine Paths, Nine Hearts (Irish Folk Style)" },
     { id: "Vbb0nSQp-6s", label: "Through Your Eyes \u2013 Inner Abundance & Self-Awareness" },
     { id: "hpTRcrA0kTg", label: "Nine Types at the Doctor's" },
     { id: "C03WAWfyfk0", label: "Enneagram on Holiday" },
     { id: "eIyXdMkS4Dk", label: "Nine Types, Nine Worlds, Their Christmas in View \ud83c\udf84" },
   ];
+  const englischsprachigeSongs = [...enSongsHymnen, ...enSongsWeitere];
 
   const flammenDesLebensSongs = [
     { id: "zQV3lWHeOWk", label: "Flammen des Lebens \u2013 Die Leidenschaften der 9 Typen (Deutsch)" },
@@ -42413,11 +42423,37 @@ const SPIRITUELL_TRACKS = {
       </p>
 
       <h3 id="dr-de-songs" style="margin-top:1.5rem;margin-bottom:0.3rem;">Deutschsprachige Enneagramm-Songs</h3>
-      ${grid(deutschsprachigeSongs)}
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:1.3rem;">
+        <button class="chip-nav-btn" onclick="document.getElementById('dr-de-hymnen').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.35rem 0.8rem;border-radius:20px;background:var(--ivory);color:var(--ink);font-size:0.8rem;border:1px solid var(--border);font-family:inherit;">\ud83c\udfb6 Hymnen & \u00dcbersicht</button>
+        <button class="chip-nav-btn" onclick="document.getElementById('dr-de-innere').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.35rem 0.8rem;border-radius:20px;background:var(--ivory);color:var(--ink);font-size:0.8rem;border:1px solid var(--border);font-family:inherit;">\ud83d\udcab Innere Prozesse</button>
+        <button class="chip-nav-btn" onclick="document.getElementById('dr-de-humor').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.35rem 0.8rem;border-radius:20px;background:var(--ivory);color:var(--ink);font-size:0.8rem;border:1px solid var(--border);font-family:inherit;">\ud83d\ude04 Humor & Alltag</button>
+        <button class="chip-nav-btn" onclick="document.getElementById('dr-de-varianten').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.35rem 0.8rem;border-radius:20px;background:var(--ivory);color:var(--ink);font-size:0.8rem;border:1px solid var(--border);font-family:inherit;">\ud83c\udfb8 \u00bbNeun Wege\u00ab in 12 Stilen</button>
+      </div>
+
+      <h4 id="dr-de-hymnen" style="margin-top:0;margin-bottom:0.3rem;font-size:0.98rem;color:var(--ink-muted);">Hymnen & \u00dcbersicht</h4>
+      ${grid(deSongsHymnen)}
+
+      <h4 id="dr-de-innere" style="margin-top:1.8rem;margin-bottom:0.3rem;font-size:0.98rem;color:var(--ink-muted);">Innere Prozesse</h4>
+      ${grid(deSongsInnere)}
+
+      <h4 id="dr-de-humor" style="margin-top:1.8rem;margin-bottom:0.3rem;font-size:0.98rem;color:var(--ink-muted);">Humor & Alltag</h4>
+      ${grid(deSongsHumor)}
+
+      <h4 id="dr-de-varianten" style="margin-top:1.8rem;margin-bottom:0.3rem;font-size:0.98rem;color:var(--ink-muted);">\u00bbNeun Wege\u00ab in 12 Musikstilen</h4>
+      ${grid(deSongsVarianten)}
       <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">\u2191 Nach oben</button></p>
 
       <h3 id="dr-en-songs" style="margin-top:2.5rem;margin-bottom:0.3rem;">Englischsprachige Enneagramm-Songs</h3>
-      ${grid(englischsprachigeSongs)}
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:1.3rem;">
+        <button class="chip-nav-btn" onclick="document.getElementById('dr-en-hymnen').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.35rem 0.8rem;border-radius:20px;background:var(--ivory);color:var(--ink);font-size:0.8rem;border:1px solid var(--border);font-family:inherit;">\ud83c\udfb6 Anthems & Overview</button>
+        <button class="chip-nav-btn" onclick="document.getElementById('dr-en-weitere').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.35rem 0.8rem;border-radius:20px;background:var(--ivory);color:var(--ink);font-size:0.8rem;border:1px solid var(--border);font-family:inherit;">\u2726 Themes, Style & Everyday</button>
+      </div>
+
+      <h4 id="dr-en-hymnen" style="margin-top:0;margin-bottom:0.3rem;font-size:0.98rem;color:var(--ink-muted);">Anthems & Overview</h4>
+      ${grid(enSongsHymnen)}
+
+      <h4 id="dr-en-weitere" style="margin-top:1.8rem;margin-bottom:0.3rem;font-size:0.98rem;color:var(--ink-muted);">Themes, Style & Everyday</h4>
+      ${grid(enSongsWeitere)}
       <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">\u2191 Nach oben</button></p>
 
       ${grid([
