@@ -43347,14 +43347,47 @@ function energetischeBewegungPage() {
 }
 
 function lookalikeTypenPage() {
+  const llwEdgeOrder = [9,1,2,3,4,5,6,7,8,9];
+  const llwEdges = [];
+  for (let i = 0; i < llwEdgeOrder.length - 1; i++) llwEdges.push([llwEdgeOrder[i], llwEdgeOrder[i+1]]);
+  const llwLines = llwEdges.map(([a,b]) => {
+    const [x1,y1] = RAD_POS[a], [x2,y2] = RAD_POS[b];
+    return `<line id="llw-edge-${Math.min(a,b)}-${Math.max(a,b)}" class="llw-line" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="var(--copper)" stroke-width="2.5" opacity="0.5" />`;
+  }).join("");
+  const llwPoints = [1,2,3,4,5,6,7,8,9].map(n => {
+    const [x, y] = RAD_POS[n];
+    const col = typeColor(n);
+    return `<button class="llw-point" data-typ="${n}" onclick="llWingFocus(${n})" onmouseenter="llWingFocus(${n})" onfocus="llWingFocus(${n})"
+      style="position:absolute;left:${(x/400*100).toFixed(2)}%;top:${(y/400*100).toFixed(2)}%;transform:translate(-50%,-50%);width:13%;aspect-ratio:1;min-width:38px;border-radius:50%;background:${col};color:#fff;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.25);font-weight:700;font-size:1.1rem;cursor:pointer;display:flex;align-items:center;justify-content:center;text-shadow:0 1px 2px rgba(0,0,0,0.35);"
+      title="Typ ${n} – ${TYPNAMEN[n]}">${n}</button>`;
+  }).join("");
+  const llfLines = Object.entries(RAD_STRESS).map(([a, b]) => {
+    a = parseInt(a, 10);
+    const [x1, y1] = RAD_POS[a], [x2, y2] = RAD_POS[b];
+    return `<line id="llf-line-${Math.min(a,b)}-${Math.max(a,b)}" class="llf-line" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="var(--muted)" stroke-width="2" opacity="0.55" />`;
+  }).join("");
+  const llfPoints = [1,2,3,4,5,6,7,8,9].map(n => {
+    const [x, y] = RAD_POS[n];
+    const col = typeColor(n);
+    return `<button class="llf-point" data-typ="${n}" onclick="llFluchtFocus(${n})" onmouseenter="llFluchtFocus(${n})" onfocus="llFluchtFocus(${n})"
+      style="position:absolute;left:${(x/400*100).toFixed(2)}%;top:${(y/400*100).toFixed(2)}%;transform:translate(-50%,-50%);width:13%;aspect-ratio:1;min-width:38px;border-radius:50%;background:${col};color:#fff;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.25);font-weight:700;font-size:1.1rem;cursor:pointer;display:flex;align-items:center;justify-content:center;text-shadow:0 1px 2px rgba(0,0,0,0.35);"
+      title="Typ ${n} – ${TYPNAMEN[n]}">${n}</button>`;
+  }).join("");
   return shell(`
     ${pageHeader("lookalike-typen")}
     <section class="narrow">
       <p class="eyebrow">Schaubilder · Lookalike-Typen</p>
       <h1>Lookalike-Typen im Enneagramm</h1>
-      <p class="lead-small">Manche Enneagrammtypen sehen sich im Verhalten zum Verwechseln ähnlich, obwohl ihre inneren Motivationen völlig verschieden sind. Diese Übersicht zeigt die beiden im Enneagramm-Symbol selbst angelegten Ursachen dafür: einen starken Flügel oder eine Bewegung zum Fluchtpunkt (Stresspunkt bzw. Entspannungspunkt).</p>
+      <p class="lead-small">Manche Enneagrammtypen sehen sich im Verhalten zum Verwechseln ähnlich, obwohl ihre inneren Motivationen völlig verschieden sind. Diese Übersicht zeigt die beiden im Enneagramm-Symbol selbst angelegten Ursachen dafür: einen starken Flügel oder eine Bewegung zum Fluchtpunkt (Stresspunkt bzw. Entspannungspunkt). Tippen Sie auf einen Punkt in den Rädern, um die jeweilige Verbindung sichtbar zu machen.</p>
 
       <h2 style="font-size:1.05rem;font-weight:700;margin:2rem 0 1rem;color:var(--ink);">1. Flügel-Lookalikes</h2>
+      <div class="rad-layout">
+        <div style="position:relative;width:100%;aspect-ratio:1;">
+          <svg viewBox="0 0 400 400" style="position:absolute;inset:0;width:100%;height:100%;">${llwLines}</svg>
+          ${llwPoints}
+        </div>
+        <div id="llw-info" style="background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:1.1rem;min-height:140px;">${llWingInfoHtml(0)}</div>
+      </div>
       <div class="vb-section" style="max-width:100%;">
         <p class="vb-intro">Ein stark ausgeprägter Flügel kann einen Typ so stark einfärben, dass er im äußeren Auftreten fast wie sein Flügel-Nachbar wirkt. Ein bekanntes Beispiel: Eine soziale Zwei mit starkem Dreierflügel (SO2w3) kann im Auftreten einer selbsterhaltenden Drei (SE3) täuschend ähnlich sehen – zielstrebig, leistungsorientiert, auf Wirkung bedacht – obwohl die Zwei aus Stolz und Beziehungsbedürfnis handelt und die Drei aus Eitelkeit und Leistungsstreben. Ebenso kann eine Drei mit starkem Viererflügel im Ausdruck stimmungsvoll und introspektiv wie eine Vier wirken, obwohl ihr eigentlicher Antrieb Erfolg und Anerkennung bleibt.</p>
         <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
@@ -43371,6 +43404,16 @@ function lookalikeTypenPage() {
       </div>
 
       <h2 style="font-size:1.05rem;font-weight:700;margin:2.5rem 0 1rem;color:var(--ink);">2. Fluchtpunkt-Lookalikes</h2>
+      <div class="rad-layout">
+        <div style="position:relative;width:100%;aspect-ratio:1;">
+          <svg viewBox="0 0 400 400" style="position:absolute;inset:0;width:100%;height:100%;">
+            <circle cx="200" cy="200" r="160" fill="none" stroke="var(--line)" stroke-width="1.5" />
+            ${llfLines}
+          </svg>
+          ${llfPoints}
+        </div>
+        <div id="llf-info" style="background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:1.1rem;min-height:140px;">${llFluchtInfoHtml(0)}</div>
+      </div>
       <div class="vb-section" style="max-width:100%;">
         <p class="vb-intro">Unter Stress bewegt sich ein Typ zu seinem Stresspunkt, in entspannter Verfassung zu seinem Entspannungspunkt – beides zusammen die sog. Fluchtpunkte. Am jeweiligen Fluchtpunkt übernimmt der Typ vorübergehend Verhaltenszüge des dort liegenden Typs. Beispiel: Eine soziale Sechs in ihrem Neuner-Entspannungspunkt kann verhaltensmäßig wie eine soziale Neun wirken – ruhig, vermittelnd, zurückgenommen. Dieselbe soziale Sechs unter Stress, in ihrem Dreier-Stresspunkt, kann dagegen wie eine soziale Drei wirken – auf Leistung und Außenwirkung fokussiert. In beiden Fällen bleibt der Kerntyp die Sechs, nur der sichtbare Ausdruck wechselt.</p>
         <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
@@ -47295,6 +47338,83 @@ function radBlur() {
 }
 window.radFocus = radFocus;
 window.radBlur = radBlur;
+
+function llWingInfoHtml(n) {
+  if (!n) {
+    return `<p style="margin:0;font-size:0.87rem;color:var(--muted);line-height:1.6;">Tippen Sie auf einen Punkt, um zu sehen, mit welchen Flügel-Nachbarn dieser Typ bei starker Flügelausprägung verwechselt werden kann.</p>`;
+  }
+  const col = typeColor(n);
+  const wings = RAD_WINGS[n];
+  return `
+    <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.6rem;">
+      <span style="display:inline-flex;align-items:center;justify-content:center;width:2rem;height:2rem;border-radius:50%;background:${col};color:#fff;font-weight:700;flex-shrink:0;">${n}</span>
+      <strong style="color:${col};font-size:1.02rem;">${TYPNAMEN[n]}</strong>
+    </div>
+    <p style="margin:0;font-size:0.87rem;line-height:1.6;">Mit starkem Flügel zu <strong>Typ ${wings[0]}</strong> (${TYPNAMEN[wings[0]]}) oder <strong>Typ ${wings[1]}</strong> (${TYPNAMEN[wings[1]]}) kann Typ ${n} im äußeren Auftreten täuschend ähnlich wie der jeweilige Flügel-Nachbar wirken – obwohl die innere Motivation die des Typs ${n} bleibt.</p>
+  `;
+}
+function llWingFocus(n) {
+  document.querySelectorAll(".llw-line").forEach(l => { l.style.opacity = "0.15"; l.style.strokeWidth = "2.5"; });
+  document.querySelectorAll(".llw-point").forEach(p => { p.style.opacity = (p.dataset.typ == n) ? "1" : "0.35"; p.style.outline = "none"; });
+  RAD_WINGS[n].forEach(w => {
+    const lo = Math.min(n, w), hi = Math.max(n, w);
+    const el = document.getElementById("llw-edge-" + lo + "-" + hi);
+    if (el) { el.style.opacity = "1"; el.style.strokeWidth = "4"; }
+    const pt = document.querySelector('.llw-point[data-typ="' + w + '"]');
+    if (pt) { pt.style.opacity = "0.9"; pt.style.outline = "3px solid " + typeColor(n); }
+  });
+  const info = document.getElementById("llw-info");
+  if (info) info.innerHTML = llWingInfoHtml(n);
+}
+function llWingBlur() {
+  document.querySelectorAll(".llw-line").forEach(l => { l.style.opacity = "0.5"; l.style.strokeWidth = "2.5"; });
+  document.querySelectorAll(".llw-point").forEach(p => { p.style.opacity = "1"; p.style.outline = "none"; });
+  const info = document.getElementById("llw-info");
+  if (info) info.innerHTML = llWingInfoHtml(0);
+}
+window.llWingFocus = llWingFocus;
+window.llWingBlur = llWingBlur;
+
+function llFluchtInfoHtml(n) {
+  if (!n) {
+    return `<p style="margin:0;font-size:0.87rem;color:var(--muted);line-height:1.6;">Tippen Sie auf einen Punkt, um zu sehen, wie dieser Typ an seinem Stresspunkt bzw. Entspannungspunkt (zusammen: Fluchtpunkte) verhaltensmäßig einem anderen Typ ähneln kann.</p>`;
+  }
+  const col = typeColor(n);
+  const stressTo = RAD_STRESS[n], growthTo = RAD_GROWTH[n];
+  return `
+    <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.6rem;">
+      <span style="display:inline-flex;align-items:center;justify-content:center;width:2rem;height:2rem;border-radius:50%;background:${col};color:#fff;font-weight:700;flex-shrink:0;">${n}</span>
+      <strong style="color:${col};font-size:1.02rem;">${TYPNAMEN[n]}</strong>
+    </div>
+    <div style="display:grid;gap:0.5rem;font-size:0.87rem;line-height:1.6;">
+      <div><span style="font-weight:700;color:#e0201b;">Gestresst wie Typ ${stressTo}:</span> ${TYPNAMEN[stressTo]}</div>
+      <div><span style="font-weight:700;color:#1e5631;">Entspannt wie Typ ${growthTo}:</span> ${TYPNAMEN[growthTo]}</div>
+    </div>
+    <p style="margin:0.7rem 0 0;font-size:0.82rem;color:var(--muted);">Der Kerntyp bleibt in beiden Fällen Typ ${n} – nur der sichtbare Ausdruck wechselt zum jeweiligen Fluchtpunkt.</p>
+  `;
+}
+function llFluchtFocus(n) {
+  document.querySelectorAll(".llf-line").forEach(l => { l.style.opacity = "0.15"; l.style.strokeWidth = "2"; });
+  document.querySelectorAll(".llf-point").forEach(p => { p.style.opacity = (p.dataset.typ == n) ? "1" : "0.35"; p.style.outline = "none"; });
+  const a = RAD_STRESS[n], b = RAD_GROWTH[n];
+  [a, b].forEach(t => {
+    const lo = Math.min(n, t), hi = Math.max(n, t);
+    const el = document.getElementById("llf-line-" + lo + "-" + hi);
+    if (el) { el.style.opacity = "1"; el.style.strokeWidth = "3.5"; }
+    const pt = document.querySelector('.llf-point[data-typ="' + t + '"]');
+    if (pt) pt.style.opacity = "0.9";
+  });
+  const info = document.getElementById("llf-info");
+  if (info) info.innerHTML = llFluchtInfoHtml(n);
+}
+function llFluchtBlur() {
+  document.querySelectorAll(".llf-line").forEach(l => { l.style.opacity = "0.55"; l.style.strokeWidth = "2"; });
+  document.querySelectorAll(".llf-point").forEach(p => { p.style.opacity = "1"; p.style.outline = "none"; });
+  const info = document.getElementById("llf-info");
+  if (info) info.innerHTML = llFluchtInfoHtml(0);
+}
+window.llFluchtFocus = llFluchtFocus;
+window.llFluchtBlur = llFluchtBlur;
 
 function enneagrammRadPage() {
   const lines = Object.entries(RAD_STRESS).map(([a, b]) => {
