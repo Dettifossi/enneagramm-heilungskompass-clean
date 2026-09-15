@@ -46404,6 +46404,11 @@ const KRANKHEITSMUSTERKOMPASS = {
         titel: "Festhalten an der eigenen Gewohnheit trotz erkennbarer Gefahr",
         beschreibung: "Mit bislang zwei Fällen lässt sich vorsichtig ein Muster erkennen, in dem eine als sicherheitsstiftend erlebte Gewohnheit auch nach der Diagnose nicht aufgegeben wird.",
         beleg: "Sigmund Freud, der trotz seiner Diagnose von Mundhöhlen- und Kieferkrebs sein Zigarrenrauchen kaum einschränkte; Immanuel Kant mit einer chronischen Hypochondrie und Atembeklemmung, die sein streng geregeltes Tagesritual bis ins hohe Alter kaum veränderte."
+      },
+      {
+        titel: "Die Krankheit trifft das Organ der verbalen Gewissheit (Einzelfall, symbolisch besonders sprechend)",
+        beschreibung: "Die soziale Sechs überspielt ihre innere Unsicherheit häufig nicht durch offen sichtbare Angst, sondern durch eine kontrollierte, argumentativ souveräne Sprache – Gewissheit wird gerade im Sprechen selbst hergestellt. Bei einem bislang dokumentierten Fall erkrankte ausgerechnet das Organ, das diese Bestimmtheit produziert.",
+        beleg: "Sigmund Freud, dessen Mundhöhlen- und Kieferkrebs genau die Sprechwerkzeuge traf, mit denen er über Jahrzehnte Vorträge hielt, Patienten analysierte und seine Theorien mit unbeirrbarer intellektueller Autorität vertrat – über 30 Operationen und einen zunehmend behinderten Sprechapparat hinweg hielt er an öffentlichen Auftritten und Schreiben fest, bis kurz vor seinem Tod. Wichtig: Dies ist bislang ein einzelner Fall, kein belastbares Muster – aber ein symbolisch besonders sprechendes Bild für die SO6-Dynamik, bei der Gewissheit gerade im gesprochenen Wort gegen die eigene Unsicherheit erzeugt wird."
       }
     ]
   },

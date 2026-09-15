@@ -24347,6 +24347,11 @@ const KRANKHEITSMUSTERKOMPASS = {
         titel: "Clinging to one's own habit despite recognizable danger",
         beschreibung: "With only two cases so far, a cautious pattern can be discerned in which a habit experienced as security-giving is not given up even after diagnosis.",
         beleg: "Sigmund Freud, who barely curtailed his cigar smoking despite his diagnosis of mouth and jaw cancer; Immanuel Kant with chronic hypochondria and shortness of breath that barely changed his strictly regulated daily ritual into old age."
+      },
+      {
+        titel: "The illness strikes the organ of verbal certainty (single case, especially symbolically telling)",
+        beschreibung: "The social Six often masks inner uncertainty not through openly visible fear but through controlled, argumentatively confident speech – certainty is produced precisely in the act of speaking itself. In one documented case so far, the illness struck exactly the organ that produces this confidence.",
+        beleg: "Sigmund Freud, whose cancer of the mouth and jaw struck exactly the speech apparatus with which he had, for decades, delivered lectures, analyzed patients, and defended his theories with unshaken intellectual authority – through more than 30 surgeries and an increasingly impaired ability to speak, he kept giving public talks and writing almost until his death. Important: this is a single case so far, not a robust pattern – but a symbolically especially telling image for the SO6 dynamic, in which certainty is produced in the spoken word itself, against one's own inner uncertainty."
       }
     ]
   },
