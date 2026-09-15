@@ -18344,6 +18344,8 @@ function lookalikeTypenPage() {
         <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">A third, especially interesting group are lookalike types with <em>neither</em> a wing nor an escape-point connection at all – the so-called unconnected types. More in the dedicated chart <a href="javascript:void(0)" data-route="nicht-verbundene-typen" style="color:var(--copper);">Unconnected Types</a>.</p>
       </div>
       ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Step-by-step type identification &ndash; incl. lookalike differentiation for all 9 types.", "Die Praxis der Typbestimmung")}
+      <div style="margin-top:.8rem;">${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Detailed character profiles of all 27 subtypes &ndash; uniqueness down to the finest detail, including how to tell similar-looking types apart.", "Die 27 Persönlichkeiten des Enneagramms")}</div>
+      <div style="margin-top:.8rem;">${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "Die verborgene Dynamik der 27 Subtypen")}</div>
       ${relatedLinks([
         {route:"nicht-verbundene-typen", label:"Unconnected Types (Chart)"},
         {route:"differenzierung", label:"Differentiation"},
@@ -18404,6 +18406,8 @@ function nichtVerbundeneTypenPage() {
       })()}
       <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">"For a resemblance of character is the strongest bond of friendship." (Pliny the Younger, c. 61 – c. 113 AD, Roman politician and writer, Epistulae, Book IV, Letter 15)</p>
       ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Step-by-step type identification &ndash; incl. lookalike differentiation for all 9 types.", "Die Praxis der Typbestimmung")}
+      <div style="margin-top:.8rem;">${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Detailed character profiles of all 27 subtypes &ndash; uniqueness down to the finest detail, including how to tell similar-looking types apart.", "Die 27 Persönlichkeiten des Enneagramms")}</div>
+      <div style="margin-top:.8rem;">${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "Die verborgene Dynamik der 27 Subtypen")}</div>
       ${relatedLinks([
         {route:"lookalike-typen", label:"Lookalike Types (Wing & Escape Point)"},
         {route:"differenzierung", label:"Differentiation"},

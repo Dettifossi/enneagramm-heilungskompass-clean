@@ -43430,6 +43430,8 @@ function lookalikeTypenPage() {
         <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">Eine dritte, besonders interessante Gruppe sind Lookalike-Typen ganz <em>ohne</em> Flügel- oder Fluchtpunkt-Verbindung – die sog. nicht-verbundenen Typen. Mehr dazu im eigenen Schaubild <a href="javascript:void(0)" data-route="nicht-verbundene-typen" style="color:var(--copper);">Nicht-verbundene Typen</a>.</p>
       </div>
       ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Typbestimmung Schritt für Schritt – inkl. Lookalike-Differenzierung für alle 9 Typen.", "Die Praxis der Typbestimmung")}
+      <div style="margin-top:.8rem;">${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Ausführliche Charakterprofile aller 27 Subtypen – Einzigartigkeit bis ins Detail, auch zur Abgrenzung ähnlich wirkender Typen.", "Die 27 Persönlichkeiten des Enneagramms")}</div>
+      <div style="margin-top:.8rem;">${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}</div>
       ${relatedLinks([
         {route:"nicht-verbundene-typen", label:"Nicht-verbundene Typen (Schaubild)"},
         {route:"differenzierung", label:"Differenzierung"},
@@ -43490,6 +43492,8 @@ function nichtVerbundeneTypenPage() {
       })()}
       <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">„Denn eine Ähnlichkeit der Charaktere ist das stärkste Band der Freundschaft.“ (Plinius der Jüngere, um 61 – um 113 n. Chr., römischer Politiker und Schriftsteller, Epistulae, Buch IV, Brief 15)</p>
       ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Typbestimmung Schritt für Schritt – inkl. Lookalike-Differenzierung für alle 9 Typen.", "Die Praxis der Typbestimmung")}
+      <div style="margin-top:.8rem;">${bookTip("die-27-persoenlichkeiten-des-enneagramms", "Ausführliche Charakterprofile aller 27 Subtypen – Einzigartigkeit bis ins Detail, auch zur Abgrenzung ähnlich wirkender Typen.", "Die 27 Persönlichkeiten des Enneagramms")}</div>
+      <div style="margin-top:.8rem;">${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}</div>
       ${relatedLinks([
         {route:"lookalike-typen", label:"Lookalike-Typen (Flügel & Fluchtpunkt)"},
         {route:"differenzierung", label:"Differenzierung"},
