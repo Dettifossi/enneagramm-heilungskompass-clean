@@ -43457,19 +43457,38 @@ function nichtVerbundeneTypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
         <p class="vb-intro">Interessanterweise sind es gerade die Typen <em>ohne</em> direkte Flügel- oder Fluchtpunkt-Verbindung im Enneagramm-Symbol, die im Alltag am leichtesten verwechselt werden — weil sie sich in bestimmten Verhaltensmerkmalen ähneln, obwohl ihre inneren Motivationen völlig verschieden sind. Der Flügel verbindet einen Typ mit seinem direkten Nachbarn auf dem Kreis, der Fluchtpunkt mit dem Typ am anderen Ende seiner inneren Verbindungslinie — bei den Lookalike-Paarungen dieser Gruppe fehlt beides.</p>
         <p class="vb-intro">Bemerkenswert ist, dass genau diese nicht-verbundenen Lookalike-Typen in der Praxis auffällig häufig als Liebespartner zueinanderfinden — und die Beziehung dabei durchaus gut funktioniert, obwohl keine der im Enneagramm-Symbol vorgesehenen Verbindungen (Flügel oder Fluchtpunkt) zwischen ihnen besteht. Die Anziehung entsteht hier über eine Ähnlichkeit im Wesensausdruck, die das Symbol selbst nicht vorzeichnet — ein Hinweis darauf, dass Verwandtschaft zwischen Typen nicht ausschließlich über die geometrischen Linien des Enneagramms erklärt werden kann, sondern auch über gemeinsame Verhaltensmuster, die quer zu diesen Linien liegen.</p>
-        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
-          <div><span style="font-weight:700;color:#5f5f5f;">Typ 1 (Der Perfektionist)</span> wird oft verwechselt mit Typ 3 (Der Dynamiker), Typ 6 (Der loyale Skeptiker) und Typ 8 (Der Herausforderer) — alle wirken nach außen bestimmt und kontrolliert, aus sehr unterschiedlichen inneren Gründen.</div>
-          <div><span style="font-weight:700;color:#7a2fa8;">Typ 2 (Der Helfer)</span> wird oft verwechselt mit Typ 7 (Der Optimist) und Typ 9 (Der Friedliche) — alle wirken warmherzig und zugewandt, doch mit unterschiedlichen Beweggründen.</div>
-          <div><span style="font-weight:700;color:#1fa688;">Typ 3 (Der Dynamiker)</span> wird oft verwechselt mit Typ 1 (Der Perfektionist), Typ 7 (Der Optimist) und Typ 8 (Der Herausforderer) — alle wirken tatkräftig und zielorientiert.</div>
-          <div><span style="font-weight:700;color:#3cbf1f;">Typ 4 (Der Individualist)</span> wird oft verwechselt mit Typ 6 (Der loyale Skeptiker), Typ 7 (Der Optimist) und Typ 9 (Der Friedliche) — alle können nach innen gerichtet und stimmungsvoll wirken.</div>
-          <div><span style="font-weight:700;color:#124fcc;">Typ 5 (Der Denker)</span> wird oft verwechselt mit Typ 1 (Der Perfektionist) und Typ 9 (Der Friedliche) — alle wirken zurückhaltend und sachlich-distanziert.</div>
-          <div><span style="font-weight:700;color:#8a5222;">Typ 6 (Der loyale Skeptiker)</span> wird oft verwechselt mit Typ 4 (Der Individualist) und Typ 8 (Der Herausforderer) — alle können wachsam, kritisch oder konfrontativ auftreten.</div>
-          <div><span style="font-weight:700;color:#d4a800;">Typ 7 (Der Optimist)</span> wird oft verwechselt mit Typ 2 (Der Helfer), Typ 3 (Der Dynamiker) und Typ 9 (Der Friedliche) — alle wirken freundlich, leicht und angenehm im Umgang.</div>
-          <div><span style="font-weight:700;color:#a00802;">Typ 8 (Der Herausforderer)</span> wird oft verwechselt mit Typ 1 (Der Perfektionist), Typ 4 (Der Individualist) und Typ 6 (Der loyale Skeptiker) — alle können intensiv, direkt oder konfrontativ wirken.</div>
-          <div><span style="font-weight:700;color:#cc6e00;">Typ 9 (Der Friedliche)</span> wird oft verwechselt mit Typ 2 (Der Helfer), Typ 4 (Der Individualist) und Typ 7 (Der Optimist) — alle können sanft, zugewandt oder verträumt wirken.</div>
-        </div>
-        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">„Denn eine Ähnlichkeit der Charaktere ist das stärkste Band der Freundschaft.“ (Plinius der Jüngere, um 61 – um 113 n. Chr., römischer Politiker und Schriftsteller, Epistulae, Buch IV, Brief 15)</p>
       </div>
+      ${(() => {
+        const llupairs = new Set();
+        Object.entries(NICHT_VERBUNDEN).forEach(([a, list]) => {
+          a = parseInt(a, 10);
+          list.forEach(b => llupairs.add(Math.min(a,b) + "-" + Math.max(a,b)));
+        });
+        const lluLines = [...llupairs].map(pair => {
+          const [a, b] = pair.split("-").map(Number);
+          const [x1, y1] = RAD_POS[a], [x2, y2] = RAD_POS[b];
+          return `<line id="llu-line-${a}-${b}" class="llu-line" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="var(--copper)" stroke-width="2" stroke-dasharray="5 4" opacity="0.4" />`;
+        }).join("");
+        const lluPoints = [1,2,3,4,5,6,7,8,9].map(n => {
+          const [x, y] = RAD_POS[n];
+          const col = typeColor(n);
+          return `<button class="llu-point" data-typ="${n}" onclick="llUnvFocus(${n})" onmouseenter="llUnvFocus(${n})" onfocus="llUnvFocus(${n})"
+            style="position:absolute;left:${(x/400*100).toFixed(2)}%;top:${(y/400*100).toFixed(2)}%;transform:translate(-50%,-50%);width:13%;aspect-ratio:1;min-width:38px;border-radius:50%;background:${col};color:#fff;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.25);font-weight:700;font-size:1.1rem;cursor:pointer;display:flex;align-items:center;justify-content:center;text-shadow:0 1px 2px rgba(0,0,0,0.35);"
+            title="Typ ${n} – ${TYPNAMEN[n]}">${n}</button>`;
+        }).join("");
+        return `
+      <div class="rad-layout">
+        <div style="position:relative;width:100%;aspect-ratio:1;">
+          <svg viewBox="0 0 400 400" style="position:absolute;inset:0;width:100%;height:100%;">
+            <circle cx="200" cy="200" r="160" fill="none" stroke="var(--line)" stroke-width="1.5" />
+            ${lluLines}
+          </svg>
+          ${lluPoints}
+        </div>
+        <div id="llu-info" style="background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:1.1rem;min-height:140px;">${llUnvInfoHtml(0)}</div>
+      </div>`;
+      })()}
+      <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">„Denn eine Ähnlichkeit der Charaktere ist das stärkste Band der Freundschaft.“ (Plinius der Jüngere, um 61 – um 113 n. Chr., römischer Politiker und Schriftsteller, Epistulae, Buch IV, Brief 15)</p>
       ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Typbestimmung Schritt für Schritt – inkl. Lookalike-Differenzierung für alle 9 Typen.", "Die Praxis der Typbestimmung")}
       ${relatedLinks([
         {route:"lookalike-typen", label:"Lookalike-Typen (Flügel & Fluchtpunkt)"},
@@ -47415,6 +47434,44 @@ function llFluchtBlur() {
 }
 window.llFluchtFocus = llFluchtFocus;
 window.llFluchtBlur = llFluchtBlur;
+
+const NICHT_VERBUNDEN = {1:[3,6,8], 2:[7,9], 3:[1,7,8], 4:[6,7,9], 5:[1,9], 6:[4,8], 7:[2,3,9], 8:[1,4,6], 9:[2,4,7]};
+function llUnvInfoHtml(n) {
+  if (!n) {
+    return `<p style="margin:0;font-size:0.87rem;color:var(--muted);line-height:1.6;">Tippen Sie auf einen Punkt, um zu sehen, mit welchen Typen dieser Typ oft verwechselt wird – ganz ohne Flügel- oder Fluchtpunkt-Verbindung zwischen ihnen.</p>`;
+  }
+  const col = typeColor(n);
+  const others = NICHT_VERBUNDEN[n];
+  const list = others.map(o => `Typ ${o} (${TYPNAMEN[o]})`).join(", ");
+  return `
+    <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.6rem;">
+      <span style="display:inline-flex;align-items:center;justify-content:center;width:2rem;height:2rem;border-radius:50%;background:${col};color:#fff;font-weight:700;flex-shrink:0;">${n}</span>
+      <strong style="color:${col};font-size:1.02rem;">${TYPNAMEN[n]}</strong>
+    </div>
+    <p style="margin:0;font-size:0.87rem;line-height:1.6;">Wird oft verwechselt mit ${list} – obwohl im Enneagramm-Symbol weder ein Flügel noch ein Fluchtpunkt (Stress-/Entspannungspunkt) zwischen Typ ${n} und diesen Typen besteht. Die Ähnlichkeit beruht rein auf gemeinsamen Verhaltensmerkmalen.</p>
+  `;
+}
+function llUnvFocus(n) {
+  document.querySelectorAll(".llu-line").forEach(l => { l.style.opacity = "0.12"; l.style.strokeWidth = "2"; });
+  document.querySelectorAll(".llu-point").forEach(p => { p.style.opacity = (p.dataset.typ == n) ? "1" : "0.35"; p.style.outline = "none"; });
+  NICHT_VERBUNDEN[n].forEach(o => {
+    const lo = Math.min(n, o), hi = Math.max(n, o);
+    const el = document.getElementById("llu-line-" + lo + "-" + hi);
+    if (el) { el.style.opacity = "1"; el.style.strokeWidth = "3"; }
+    const pt = document.querySelector('.llu-point[data-typ="' + o + '"]');
+    if (pt) { pt.style.opacity = "0.9"; pt.style.outline = "3px solid " + typeColor(n); }
+  });
+  const info = document.getElementById("llu-info");
+  if (info) info.innerHTML = llUnvInfoHtml(n);
+}
+function llUnvBlur() {
+  document.querySelectorAll(".llu-line").forEach(l => { l.style.opacity = "0.4"; l.style.strokeWidth = "2"; });
+  document.querySelectorAll(".llu-point").forEach(p => { p.style.opacity = "1"; p.style.outline = "none"; });
+  const info = document.getElementById("llu-info");
+  if (info) info.innerHTML = llUnvInfoHtml(0);
+}
+window.llUnvFocus = llUnvFocus;
+window.llUnvBlur = llUnvBlur;
 
 function enneagrammRadPage() {
   const lines = Object.entries(RAD_STRESS).map(([a, b]) => {

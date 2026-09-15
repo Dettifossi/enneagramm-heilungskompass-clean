@@ -18371,19 +18371,38 @@ function nichtVerbundeneTypenPage() {
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
         <p class="vb-intro">Interestingly, it is precisely the types <em>without</em> a direct wing or escape-point connection in the Enneagram symbol that are most easily confused in everyday life — because they resemble each other in certain behavioral traits, even though their inner motivations are completely different. The wing connects a type to its direct neighbor on the circle, the escape point to the type at the other end of its inner connecting line — in this group's lookalike pairings, both are absent.</p>
         <p class="vb-intro">It's notable that precisely these unconnected lookalike types strikingly often become romantic partners in practice — and the relationship works well despite none of the connections foreseen by the Enneagram symbol (wing or escape point) existing between them. The attraction here arises from a resemblance in character expression that the symbol itself doesn't chart — a hint that kinship between types cannot be explained solely through the Enneagram's geometric lines, but also through shared behavioral patterns that run across those lines.</p>
-        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
-          <div><span style="font-weight:700;color:#5f5f5f;">Type 1 (The Perfectionist)</span> is often confused with Type 3 (The Achiever), Type 6 (The Loyal Skeptic), and Type 8 (The Challenger) — all appear determined and controlled outwardly, for very different inner reasons.</div>
-          <div><span style="font-weight:700;color:#7a2fa8;">Type 2 (The Helper)</span> is often confused with Type 7 (The Optimist) and Type 9 (The Peaceful One) — all appear warm and engaging, but with different motives.</div>
-          <div><span style="font-weight:700;color:#1fa688;">Type 3 (The Achiever)</span> is often confused with Type 1 (The Perfectionist), Type 7 (The Optimist), and Type 8 (The Challenger) — all appear energetic and goal-oriented.</div>
-          <div><span style="font-weight:700;color:#3cbf1f;">Type 4 (The Individualist)</span> is often confused with Type 6 (The Loyal Skeptic), Type 7 (The Optimist), and Type 9 (The Peaceful One) — all can appear inward-turned and moody.</div>
-          <div><span style="font-weight:700;color:#124fcc;">Type 5 (The Investigator)</span> is often confused with Type 1 (The Perfectionist) and Type 9 (The Peaceful One) — all appear reserved and matter-of-fact.</div>
-          <div><span style="font-weight:700;color:#8a5222;">Type 6 (The Loyal Skeptic)</span> is often confused with Type 4 (The Individualist) and Type 8 (The Challenger) — all can appear watchful, critical, or confrontational.</div>
-          <div><span style="font-weight:700;color:#d4a800;">Type 7 (The Optimist)</span> is often confused with Type 2 (The Helper), Type 3 (The Achiever), and Type 9 (The Peaceful One) — all appear friendly, light, and pleasant to be around.</div>
-          <div><span style="font-weight:700;color:#a00802;">Type 8 (The Challenger)</span> is often confused with Type 1 (The Perfectionist), Type 4 (The Individualist), and Type 6 (The Loyal Skeptic) — all can appear intense, direct, or confrontational.</div>
-          <div><span style="font-weight:700;color:#cc6e00;">Type 9 (The Peaceful One)</span> is often confused with Type 2 (The Helper), Type 4 (The Individualist), and Type 7 (The Optimist) — all can appear gentle, engaging, or dreamy.</div>
-        </div>
-        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">"For a resemblance of character is the strongest bond of friendship." (Pliny the Younger, c. 61 – c. 113 AD, Roman politician and writer, Epistulae, Book IV, Letter 15)</p>
       </div>
+      ${(() => {
+        const llupairs = new Set();
+        Object.entries(NICHT_VERBUNDEN).forEach(([a, list]) => {
+          a = parseInt(a, 10);
+          list.forEach(b => llupairs.add(Math.min(a,b) + "-" + Math.max(a,b)));
+        });
+        const lluLines = [...llupairs].map(pair => {
+          const [a, b] = pair.split("-").map(Number);
+          const [x1, y1] = RAD_POS[a], [x2, y2] = RAD_POS[b];
+          return `<line id="llu-line-${a}-${b}" class="llu-line" x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="var(--copper)" stroke-width="2" stroke-dasharray="5 4" opacity="0.4" />`;
+        }).join("");
+        const lluPoints = [1,2,3,4,5,6,7,8,9].map(n => {
+          const [x, y] = RAD_POS[n];
+          const col = typeColor(n);
+          return `<button class="llu-point" data-typ="${n}" onclick="llUnvFocus(${n})" onmouseenter="llUnvFocus(${n})" onfocus="llUnvFocus(${n})"
+            style="position:absolute;left:${(x/400*100).toFixed(2)}%;top:${(y/400*100).toFixed(2)}%;transform:translate(-50%,-50%);width:13%;aspect-ratio:1;min-width:38px;border-radius:50%;background:${col};color:#fff;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,0.25);font-weight:700;font-size:1.1rem;cursor:pointer;display:flex;align-items:center;justify-content:center;text-shadow:0 1px 2px rgba(0,0,0,0.35);"
+            title="Type ${n} – ${TYPNAMEN[n]}">${n}</button>`;
+        }).join("");
+        return `
+      <div class="rad-layout">
+        <div style="position:relative;width:100%;aspect-ratio:1;">
+          <svg viewBox="0 0 400 400" style="position:absolute;inset:0;width:100%;height:100%;">
+            <circle cx="200" cy="200" r="160" fill="none" stroke="var(--line)" stroke-width="1.5" />
+            ${lluLines}
+          </svg>
+          ${lluPoints}
+        </div>
+        <div id="llu-info" style="background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:1.1rem;min-height:140px;">${llUnvInfoHtml(0)}</div>
+      </div>`;
+      })()}
+      <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">"For a resemblance of character is the strongest bond of friendship." (Pliny the Younger, c. 61 – c. 113 AD, Roman politician and writer, Epistulae, Book IV, Letter 15)</p>
       ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Step-by-step type identification &ndash; incl. lookalike differentiation for all 9 types.", "Die Praxis der Typbestimmung")}
       ${relatedLinks([
         {route:"lookalike-typen", label:"Lookalike Types (Wing & Escape Point)"},
@@ -24573,6 +24592,44 @@ function llFluchtBlur() {
 }
 window.llFluchtFocus = llFluchtFocus;
 window.llFluchtBlur = llFluchtBlur;
+
+const NICHT_VERBUNDEN = {1:[3,6,8], 2:[7,9], 3:[1,7,8], 4:[6,7,9], 5:[1,9], 6:[4,8], 7:[2,3,9], 8:[1,4,6], 9:[2,4,7]};
+function llUnvInfoHtml(n) {
+  if (!n) {
+    return `<p style="margin:0;font-size:0.87rem;color:var(--muted);line-height:1.6;">Tap a point to see which types this type is often confused with – with no wing or escape-point connection between them at all.</p>`;
+  }
+  const col = typeColor(n);
+  const others = NICHT_VERBUNDEN[n];
+  const list = others.map(o => `Type ${o} (${TYPNAMEN[o]})`).join(", ");
+  return `
+    <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.6rem;">
+      <span style="display:inline-flex;align-items:center;justify-content:center;width:2rem;height:2rem;border-radius:50%;background:${col};color:#fff;font-weight:700;flex-shrink:0;">${n}</span>
+      <strong style="color:${col};font-size:1.02rem;">${TYPNAMEN[n]}</strong>
+    </div>
+    <p style="margin:0;font-size:0.87rem;line-height:1.6;">Often confused with ${list} – even though the Enneagram symbol has neither a wing nor an escape point (stress/security point) between Type ${n} and these types. The resemblance rests purely on shared behavioral traits.</p>
+  `;
+}
+function llUnvFocus(n) {
+  document.querySelectorAll(".llu-line").forEach(l => { l.style.opacity = "0.12"; l.style.strokeWidth = "2"; });
+  document.querySelectorAll(".llu-point").forEach(p => { p.style.opacity = (p.dataset.typ == n) ? "1" : "0.35"; p.style.outline = "none"; });
+  NICHT_VERBUNDEN[n].forEach(o => {
+    const lo = Math.min(n, o), hi = Math.max(n, o);
+    const el = document.getElementById("llu-line-" + lo + "-" + hi);
+    if (el) { el.style.opacity = "1"; el.style.strokeWidth = "3"; }
+    const pt = document.querySelector('.llu-point[data-typ="' + o + '"]');
+    if (pt) { pt.style.opacity = "0.9"; pt.style.outline = "3px solid " + typeColor(n); }
+  });
+  const info = document.getElementById("llu-info");
+  if (info) info.innerHTML = llUnvInfoHtml(n);
+}
+function llUnvBlur() {
+  document.querySelectorAll(".llu-line").forEach(l => { l.style.opacity = "0.4"; l.style.strokeWidth = "2"; });
+  document.querySelectorAll(".llu-point").forEach(p => { p.style.opacity = "1"; p.style.outline = "none"; });
+  const info = document.getElementById("llu-info");
+  if (info) info.innerHTML = llUnvInfoHtml(0);
+}
+window.llUnvFocus = llUnvFocus;
+window.llUnvBlur = llUnvBlur;
 
 function enneagrammRadPage() {
   const lines = Object.entries(RAD_STRESS).map(([a, b]) => {
