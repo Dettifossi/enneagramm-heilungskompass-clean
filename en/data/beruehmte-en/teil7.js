@@ -2069,7 +2069,7 @@ export function benBerndtPortraitPage() {
 
         <h2 class="vb-section">1. The Eagle That Decrees Its Own Incorruptibility</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Ben Berndt, born in 1984 in Berlin, completed a dual business degree with Lufthansa and later an MBA at EBS – before building "ungeskriptet" into one of the most-listened-to German-language interview podcasts: multi-hour, largely uncut conversations with guests from politics, media, business, and society's margins. His own standard for the format reads like a self-imposed law: "raw, uncut, and uncensored – exactly as people really are."</p>
+          <p class="vb-intro">Ben Berndt, born in 1984 in Berlin, completed a dual degree in business administration with the airline Lufthansa and later a Master of Business Administration – a postgraduate, practice-oriented business degree – at EBS University of Business and Law – before building "ungeskriptet" into one of the most-listened-to German-language interview podcasts: multi-hour, largely uncut conversations with guests from politics, media, business, and society's margins. His own standard for the format reads like a self-imposed law: "raw, uncut, and uncensored – exactly as people really are."</p>
           <p class="vb-intro">This uncompromising stance – no coordination with guests beforehand, no editing afterward – is no accident but a self-set rule he holds himself to without exception. This is precisely the signature of the eagle of the Self-Preservation One: not demanding correctness from others, but imposing a principle on oneself and following it without compromise.</p>
         </blockquote>
 
@@ -2081,7 +2081,7 @@ export function benBerndtPortraitPage() {
 
         <h2 class="vb-section">3. The Two-Wing: The Friendly Host, Not the Detached Interviewer</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing (w2)</strong> shows in exactly this self-description as a "friendly host" rather than a detached questioner. A Self-Preservation One with a weakly developed two-wing would more likely insist on strict factual correctness; the two-wing opens Berndt's format toward the personal, often hours-long closeness to the guest that sets "ungeskriptet" apart from classical interview journalism.</p>
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> shows in exactly this self-description as a "friendly host" rather than a detached questioner. A Self-Preservation One with a weakly developed two-wing – or even a Self-Preservation One with a nine-wing – would more likely insist on strict factual correctness and hold back more; the two-wing opens Berndt's format toward the personal, often hours-long closeness to the guest that sets "ungeskriptet" apart from classical interview journalism.</p>
           <p class="vb-intro">The same wing coloring – discipline and strict principle turned inward, warmth and personal closeness turned outward – appears in Anne Will (SE1w2): here too a self-imposed code of honor, combined with a motto of "asking personally" rather than merely reporting factually.</p>
         </blockquote>
 
