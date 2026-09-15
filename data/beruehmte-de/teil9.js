@@ -2059,3 +2059,69 @@ export function haraldLeschPortraitPage() {
     </div>
   `);
 }
+
+export function herfriedMuenklerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-herfried-muenkler-portrait.jpg" alt="Herfried Münkler" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Herfried Münkler</p>
+        <p class="krim-portrait-typ">SO6w7 &middot; Sozialer Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Politikwissenschaftler, geb. 1951 &ndash; Tierentsprechung: Erdmännchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdmännchen, das nicht auf dem Stein bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Herfried Münkler, 1951 in Friedberg (Hessen) geboren, hatte von 1992 bis 2018 den Lehrstuhl für Ideengeschichte und Theorie der Politik an der Berliner Humboldt-Universität inne. Wer sein Werk überblickt – vom "Großen Krieg" über "Imperien" bis zu "Die Deutschen und ihre Mythen" – sieht sofort: Hier hält ein Erdmännchen Wache, das nicht auf dem einen hohen Stein verharrt, sondern zwischen den Themen springt, sobald sich irgendwo im Feld eine neue Gefahr oder ein neues Deutungsproblem zeigt.</p>
+          <p class="vb-intro">Münkler ist gefragter Talkshow-Gast, ständiger Gesprächspartner großer Zeitungen, Mitglied im Beirat der Bundesakademie für Sicherheitspolitik – ein Netzwerk aus Medien, Politik und Wissenschaft, das er mit sichtbarem Tempo bespielt. Genau diese Mischung aus Wachsamkeit und öffentlicher Reichweite ist die Handschrift der sozialen Sechs mit Siebenerflügel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Pflicht: Sicherheit durch das Deuten der Gefahr, nicht durch Rückzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 6 die <strong>Pflicht</strong> – Sicherheit entsteht durch Dienst an der Gemeinschaft, durch das Bereitstellen von Orientierung in unübersichtlichen Zeiten. Münklers Lebensthema ist genau das: Er prägte den Begriff der "asymmetrischen Kriege" und analysierte in "Die neuen Kriege", wie sich Gewalt jenseits klassischer Staatenkonflikte organisiert – Wissen, das er nicht in der Fachliteratur vergraben ließ, sondern in Talkshows, Essays und Bestsellern in die öffentliche Debatte trug.</p>
+          <p class="vb-intro">Wo eine SO6w5 wie seine langjährige Schülerin Grit Straßenberger Sicherheit durch die stille, systematisierende Vertiefung in einen akademischen Kanon sucht, sucht die SO6w7 Sicherheit durch das laute Einordnen der Gefahr für ein möglichst breites Publikum – nicht zurückgezogen, sondern mitten im Geschehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Tempo, Themenvielfalt, Streitlust</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> zeigt sich bei Münkler in der schieren Breite und Geschwindigkeit seines Werks: Kriegstheorie, Imperiengeschichte, deutsche Mythen, Elitenforschung, Machiavelli – Themen, die eine SO6 mit stark ausgeprägtem Fünferflügel eher nacheinander in großer Tiefe bearbeiten würde, verarbeitet Münkler nahezu parallel, in schneller Folge neuer Bücher und öffentlicher Wortmeldungen.</p>
+          <p class="vb-intro">Auch seine Bereitschaft, öffentlich anzuecken – etwa in der kontrovers geführten Debatte um den "Münkler-Watch"-Blog seiner eigenen Studierenden 2015 – passt zu diesem Flügel: kein Rückzug ins Stille, sondern eine Auseinandersetzung mitten in der Öffentlichkeit. Wo der Fünferflügel die Energie nach innen in Systematisierung lenkt, richtet der Siebenerflügel sie nach außen: in Reichweite, Debatte, das nächste dringende Thema.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Lehrer und Schülerin: Zwei Erdmännchen, zwei Wachformen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2004 promovierte Grit Straßenberger bei Münkler an der Humboldt-Universität mit einer Arbeit über Hannah Arendt, Michael Walzer und Martha Nussbaum – magna cum laude. Die Verbindung ist mehr als biografische Fußnote: Beide teilen dasselbe Kernthema, die Frage nach legitimer und gefährlicher Autorität, doch sie leben es in entgegengesetzter Flügelfärbung. Der Lehrer trägt seine Wachsamkeit mit Tempo und öffentlichem Auftritt hinaus, die Schülerin vertieft sie still im akademischen Kanon.</p>
+          <p class="vb-intro">Genau diese Ergänzung – der eine warnt öffentlich und schnell, die andere prüft langsam und gründlich – lässt sich als Muster einer akademischen Übertragung lesen, bei der die charakterliche Grundausrichtung (soziale Sechs) erhalten bleibt, während sich die Ausdrucksform über die Generation hinweg zur anderen Flügelseite verschiebt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Sechs mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO6w7 zeigt sich in Münklers Fähigkeit, komplexe historische und sicherheitspolitische Zusammenhänge so zugänglich zu formulieren, dass sie weit über die Fachwelt hinaus gehört werden – ein Wächter, der die Gemeinschaft tatsächlich erreicht.</p>
+          <p class="vb-intro">Der Schatten liegt in der Gefahr, dass die eigene Deutungsfreude zur ständigen öffentlichen Positionierung wird, die gelegentlich mehr Widerspruch erzeugt, als sie befriedet – wie sich in der "Münkler-Watch"-Kontroverse zeigte. Wo eine SO6w5 zu lange im Stillen prüft, kann die SO6w7 riskieren, mit zu vielen gleichzeitigen Wortmeldungen an Tiefenschärfe zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Erdmännchen, das seine Schülerin auf den Stein stellte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zwei Erdmännchen, dieselbe Kernfrage nach legitimer und gefährlicher Autorität – zwei völlig verschiedene Wege, sie zu leben: Herfried Münkler (SO6w7) hält Wache, indem er mit Tempo und Reichweite hinausträgt, was er sieht. Grit Straßenberger (SO6w5), seine Schülerin, hält Wache, indem sie sich tief in den akademischen Kanon eingräbt und von dort aus prüft.</p>
+          <p class="vb-intro">Am Ende bleibt das Bild einer Übertragung, die selten so klar zu beobachten ist: ein Lehrer, der lautstark warnt, und eine Schülerin, die genau dieselbe Wache still fortsetzt – zwei Antworten auf dieselbe Frage, wie eine Gemeinschaft ihre Freiheit bewahrt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
+        {route:"beruehmte-grit-strassenberger", label:"Porträt: Prof. Dr. Grit Straßenberger (SO6w5)"},
+        {route:"beruehmte-anne-applebaum", label:"Porträt: Anne Applebaum (SO6w7)"},
+        {route:"beruehmte-donata-hopfen", label:"Porträt: Donata Hopfen (SO6w7)"},
+      ])}
+    </div>
+  `);
+}

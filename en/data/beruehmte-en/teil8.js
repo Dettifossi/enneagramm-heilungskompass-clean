@@ -2050,3 +2050,69 @@ export function alainDelonPortraitPage() {
     </div>
   `);
 }
+
+export function herfriedMuenklerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-herfried-muenkler-portrait.jpg" alt="Herfried Münkler" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Herfried Münkler</p>
+        <p class="krim-portrait-typ">SO6w7 &middot; Social Type 6 with a Seven-Wing</p>
+        <p class="krim-portrait-subtitle">Political Scientist, born 1951 &ndash; Animal correspondence: Meerkat</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Meerkat That Does Not Stay on One Rock</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Herfried Münkler, born in 1951 in Friedberg (Hesse), held the chair for the History of Ideas and Theory of Politics at Berlin's Humboldt University from 1992 to 2018. A glance at his body of work – from <em>The Great War</em> to <em>Empires</em> to <em>The Germans and Their Myths</em> – shows immediately: here stands a meerkat that does not stay on a single high rock, but leaps between subjects the moment a new danger or a new interpretive problem appears anywhere in the field.</p>
+          <p class="vb-intro">Münkler is a sought-after talk-show guest, a steady interview partner for major newspapers, and a member of the advisory board of the Federal Academy for Security Policy – a network of media, politics, and scholarship that he engages with visible speed. This exact mix of vigilance and public reach is the signature of the social Six with a seven-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Duty: Security Through Interpreting the Danger, Not Through Retreat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the social Type 6 <strong>Duty</strong> – security arises through service to the community, through providing orientation in confusing times. This is precisely Münkler's life theme: he coined the term "asymmetric warfare" and, in <em>The New Wars</em>, analyzed how violence organizes itself beyond classical interstate conflict – knowledge he did not leave buried in scholarly literature but carried into talk shows, essays, and bestsellers, straight into public debate.</p>
+          <p class="vb-intro">Where an SO6w5 like his longtime student Grit Straßenberger seeks security through quiet, systematizing immersion in an academic canon, the SO6w7 seeks security through loudly interpreting the danger for as broad a public as possible – not withdrawn, but in the middle of events.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Tempo, Range of Subjects, Appetite for Debate</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>seven-wing (w7)</strong> shows in Münkler through the sheer breadth and speed of his work: war theory, the history of empires, German myths, elite research, Machiavelli – topics an SO6 with a strongly developed five-wing would more likely work through one at a time, in great depth, but Münkler processes almost in parallel, in a rapid succession of new books and public statements.</p>
+          <p class="vb-intro">His willingness to court controversy publicly – as in the fiercely debated "Münkler-Watch" blog run by his own students in 2015 – also fits this wing: not a retreat into silence, but engagement squarely in public view. Where the five-wing channels energy inward into systematization, the seven-wing directs it outward: into reach, debate, the next urgent subject.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Teacher and Student: Two Meerkats, Two Forms of Watch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2004, Grit Straßenberger earned her doctorate under Münkler at Humboldt University with a dissertation on Hannah Arendt, Michael Walzer, and Martha Nussbaum – magna cum laude. The connection is more than a biographical footnote: both share the same core theme, the question of legitimate versus dangerous authority, yet they live it out in opposite wing colorings. The teacher carries his vigilance outward with tempo and public presence; the student deepens hers quietly within the academic canon.</p>
+          <p class="vb-intro">This exact complementarity – one warns publicly and fast, the other examines slowly and thoroughly – reads as a pattern of academic transmission in which the underlying character type (social Six) is preserved, while the mode of expression shifts to the opposite wing across the generation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Six with a Seven-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO6w7 shows in Münkler's ability to state complex historical and security-political connections so accessibly that they are heard far beyond specialist circles – a sentinel who actually reaches the community.</p>
+          <p class="vb-intro">The shadow lies in the risk that his own appetite for interpretation turns into constant public positioning, which occasionally provokes more contradiction than it resolves – as the "Münkler-Watch" controversy showed. Where an SO6w5 may deliberate too long in silence, the SO6w7 risks losing depth of focus by speaking out on too many fronts at once.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Meerkat That Placed His Student on the Rock</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Two meerkats, the same core question of legitimate versus dangerous authority – two entirely different ways of living it: Herfried Münkler (SO6w7) keeps watch by carrying what he sees outward with tempo and reach. Grit Straßenberger (SO6w5), his student, keeps watch by digging deep into the academic canon and examining from within it.</p>
+          <p class="vb-intro">What remains is a pattern of transmission rarely seen this clearly: a teacher who warns loudly, and a student who continues the very same watch quietly – two answers to the same question of how a community preserves its freedom.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
+        {route:"beruehmte-grit-strassenberger", label:"Portrait: Prof. Dr. Grit Straßenberger (SO6w5)"},
+        {route:"beruehmte-anne-applebaum", label:"Portrait: Anne Applebaum (SO6w7)"},
+        {route:"beruehmte-donata-hopfen", label:"Portrait: Donata Hopfen (SO6w7)"},
+      ])}
+    </div>
+  `);
+}

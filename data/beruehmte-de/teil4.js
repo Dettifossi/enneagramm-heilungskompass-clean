@@ -2098,6 +2098,7 @@ export function gritStrassenbergerPortraitPage() {
         {route:"beruehmte-hannah-arendt", label:"Porträt: Hannah Arendt (SO5w4)"},
         {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
         {route:"beruehmte-anne-applebaum", label:"Porträt: Anne Applebaum (SO6w7)"},
+        {route:"beruehmte-herfried-muenkler", label:"Porträt: Herfried Münkler (SO6w7) – ihr Doktorvater"},
       ])}
     </div>
   `);
