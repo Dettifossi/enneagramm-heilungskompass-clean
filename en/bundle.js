@@ -51131,6 +51131,13 @@ function _musikInit() {
   // merely CSS-hidden YouTube iframes caused memory pressure and freezing, especially
   // on iOS Safari.
   document.querySelectorAll(".musik-card").forEach(card => {
+    // Guard against double-binding: render() can run more than once per
+    // navigation, which would call _musikInit multiple times on the same
+    // cards – two click listeners on one card cancel each other out on
+    // click (open immediately followed by close), so the player never
+    // becomes visible. Bind only once per card.
+    if (card.dataset.musikBound) return;
+    card.dataset.musikBound = "1";
     card.addEventListener("click", () => {
       const player = card.querySelector(".musik-player");
       const thumb  = card.querySelector(".musik-thumb");

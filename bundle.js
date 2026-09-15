@@ -75693,6 +75693,13 @@ function _musikInit() {
   // f\u00fchrten gleichzeitig geladene, nur per CSS verborgene YouTube-Iframes vor allem
   // auf iOS Safari zu Speicherdruck bis hin zum Einfrieren der Seite.
   document.querySelectorAll(".musik-card").forEach(card => {
+    // Schutz gegen Mehrfachbindung: render() kann pro Navigation mehrfach
+    // laufen, wodurch _musikInit mehrfach auf denselben Karten aufgerufen
+    // würde – zwei Klick-Listener auf derselben Karte heben sich beim Klick
+    // gegenseitig auf (öffnen + sofort wieder schließen), sodass der Player
+    // nie sichtbar wird. Daher nur einmal pro Karte binden.
+    if (card.dataset.musikBound) return;
+    card.dataset.musikBound = "1";
     card.addEventListener("click", () => {
       const player = card.querySelector(".musik-player");
       const thumb  = card.querySelector(".musik-thumb");
