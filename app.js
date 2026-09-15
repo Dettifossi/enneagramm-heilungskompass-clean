@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=114";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=115";
 
 import { adeleKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15974,6 +15974,7 @@ const uiText = {
       { route: "frieden-schliessen", label: "Frieden schlie\u00dfen" },
       { route: "frustrationen", label: "Frustrationen" },
       { route: "fuehrungsstile", label: "F\u00fchrungsstile" },
+      { route: "gedankliche-emotionale-muster", label: "Gedankliche & Emotionale Muster" },
       { route: "gesichtsausdruecke", label: "Gesichtsausdr\u00fccke der 9 Typen" },
       { route: "gaslighting-enneagramm", label: "Gaslighting & Enneagramm" },
       { route: "gifte-des-geistes", label: "Gifte des Geistes" },
@@ -33363,7 +33364,7 @@ const SCHAUBILDER_NEU = {
   "hoellenkreise-dante": "2026-08-14",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -43339,6 +43340,68 @@ function dreiZentrenPage() {
         {route:"koerperregulation", label:"K\u00f6rperregulation"},
         {route:"energetische-bewegungen", label:"Energetische Bewegungen"},
         {route:"enneagramm-akupunktur", label:"Enneagramm meets Akupunktur"},
+      ])}
+    </section>
+  `);
+}
+
+function gedanklicheEmotionaleMusterPage() {
+  const rows = [
+    { typ:1, triade:"Bauch-Triade · Handlungstriade · Zorn-Triade", fixierung:"Groll", gedanklich:"Typ 1 erkennt brennglasartig, wie alles in der äußeren Welt fehlerhaft und korrekturbedürftig ist.", leidenschaft:"Zorn", emotional:"Mehr oder weniger versteckter chronischer Zorn und tiefe Unzufriedenheit über den schlechten Zustand der Dinge.", vermeidung:"Fehlende Richtigkeit", falle:"Perfektion", abwehr:"Reaktionsbildung" },
+    { typ:2, triade:"Herz-Triade · Gefühls-Triade · Scham-Triade", fixierung:"Schmeichelei / Verführung", gedanklich:"Typ 2 gewinnt persönliche Anerkennung und Akzeptanz durch Komplimente oder andere Formen der Aufmerksamkeit gegenüber seinen Mitmenschen.", leidenschaft:"Stolz", emotional:"Über- oder Unterlegenheitsgefühle, die auf dem Tun für andere Menschen und den nachfolgenden positiven oder negativen Reaktionen anderer basieren.", vermeidung:"Eigene Bedürfnisse", falle:"Freier Wille", abwehr:"Verdrängung" },
+    { typ:3, triade:"Herz-Triade · Gefühls-Triade · Scham-Triade", fixierung:"Eitelkeit", gedanklich:"Typ 3 entwickelt gedanklich Strategien, wie er ein idealisiertes Image erstellen kann, das darauf basiert, erfolgreich zu sein oder zumindest erfolgreich zu erscheinen.", leidenschaft:"Täuschung", emotional:"Alles dafür tun, um nach außen selbstbewusst und erfolgreich zu wirken, und dabei Teile von sich verstecken, die nicht diesem Image entsprechen.", vermeidung:"Versagen", falle:"Effizienz", abwehr:"Identifikation" },
+    { typ:4, triade:"Herz-Triade · Gefühls-Triade · Scham-Triade", fixierung:"Schwermut / Wehmut", gedanklich:"Typ 4 denkt kontinuierlich darüber nach, was (ihm) fehlt, begleitet von dem Gedanken, von anderen getrennt zu sein.", leidenschaft:"Neid", emotional:"Bewusst oder unbewusst sich selbst mit anderen vergleichen, mit einem begleitenden Gefühl von Mangel, Überlegenheit oder beidem.", vermeidung:"Schlichte Traurigkeit", falle:"Authentizität", abwehr:"Introjektion" },
+    { typ:5, triade:"Kopf-Triade · Denktriade · Angst-Triade", fixierung:"Geiz", gedanklich:"Typ 5 besitzt eine Struktur von Knappheit, von Mangel, die zu unstillbarem Wissensdurst, einer Zurückhaltung beim Geben und zur Kontrolle der eigenen Umwelt führt.", leidenschaft:"Habsucht / Habgier", emotional:"Ein intensives Verlangen, alles in Bezug auf die eigene Person zu vermehren, kombiniert mit einer Loslösung von Gefühlen.", vermeidung:"Leerheit", falle:"Beobachtung", abwehr:"Isolation" },
+    { typ:6, triade:"Kopf-Triade · Denktriade · Angst-Triade", fixierung:"Feigheit", gedanklich:"Typ 6 hegt aus Mangel an Mut vermehrt gedankliche Zweifel und Sorgen, die zur Schaffung vorweggenommener oder noch schlimmerer Gedankenszenarien führt.", leidenschaft:"Angst / Furcht", emotional:"Gefühle der Angst, tiefer Besorgnis und Panik, dass das Schlimmste eintreten wird, mit großem Mangel an Selbstvertrauen.", vermeidung:"Sicherheit", falle:"Devianz (abweichendes Verhalten)", abwehr:"Projektion" },
+    { typ:7, triade:"Kopf-Triade · Denktriade · Angst-Triade", fixierung:"Planen", gedanklich:"Typ 7 entwickelt mental einen ›hyperaktiven Geist‹ (sog. ›monkey mind‹), indem er sich gedanklich schnell hintereinander von einer zur nächsten Sache bewegt.", leidenschaft:"Völlerei", emotional:"Der unstillbare, unerbittliche Durst nach neuen Anregungen aller Art: Essen, Menschen, Ideen, Dingen, Erfahrungen, Aufregungen, Reisen, Stimulanzien etc.", vermeidung:"Schmerz", falle:"Idealismus", abwehr:"Rationalisierung" },
+    { typ:8, triade:"Bauch-Triade · Handlungstriade · Zorn-Triade", fixierung:"Rache", gedanklich:"Typ 8 agiert verstandesmäßig, indem er Unrecht gedanklich über Wut, Schuld und Einschüchterung auszugleichen versucht.", leidenschaft:"Wollust", emotional:"Ein Übermaß, eine übermäßige Intensität in einer Vielzahl von Formen, um Gefühle der Verletzlichkeit und Schwäche zu vermeiden.", vermeidung:"Schwäche", falle:"Gerechtigkeit", abwehr:"Verleugnung" },
+    { typ:9, triade:"Bauch-Triade · Handlungstriade · Zorn-Triade", fixierung:"Trägheit", gedanklich:"Typ 9 zerstreut seine Aufmerksamkeit mental, um zu vergessen, was wichtig ist, und äußert keine Meinungen und Positionen, wodurch Spannungen und Konflikte mit anderen minimiert werden.", leidenschaft:"Selbstvergessenheit / Bequemlichkeit", emotional:"Eine Lethargie, nicht die eigenen Gedanken, Gefühle und Bedürfnisse zu beachten.", vermeidung:"Konflikt", falle:"Suche", abwehr:"Selbstbetäubung" },
+  ];
+  return shell(`
+    ${pageHeader("gedankliche-emotionale-muster")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Gedankliche & Emotionale Muster</p>
+      <h1>Gedankliche & emotionale Muster der 9 Enneagrammtypen</h1>
+      <p class="lead-small">Jeder Enneagrammtyp trägt ein charakteristisches Denkmuster (die Fixierung) und ein charakteristisches Gefühlsmuster (die Leidenschaft), die eng miteinander verwoben sind. Dazu kommen eine typische Vermeidung, eine „Falle" – ein Trugbild, dem der Typ besonders leicht erliegt – sowie ein bevorzugter Abwehrmechanismus. Dieses Schaubild zeigt alle sechs Ebenen für jeden der 9 Typen im Zusammenhang, gegliedert nach den drei Enneagramm-Triaden.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="./assets/schaubilder/gedankliche-emotionale-muster/gedankliche-emotionale-muster.jpg"
+             alt="Gedankliche und emotionale Muster der 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Die neun Typen gliedern sich in drei Triaden, die jeweils doppelt benannt werden: Die <strong>Bauch-Triade</strong> (Typen 8, 9, 1) ist zugleich die <strong>Handlungstriade</strong> und die <strong>Zorn-Triade</strong> – hier dominiert die Grundemotion Zorn, mal nach außen (8), mal unterdrückt (9), mal moralisch gefiltert (1). Die <strong>Herz-Triade</strong> (Typen 2, 3, 4) ist zugleich die <strong>Gefühls-Triade</strong> und die <strong>Scham-Triade</strong> – hier dominiert das Ringen um Image und Anerkennung. Die <strong>Kopf-Triade</strong> (Typen 5, 6, 7) ist zugleich die <strong>Denktriade</strong> und die <strong>Angst-Triade</strong> – hier dominiert der gedankliche Umgang mit Unsicherheit.</p>
+        <div style="display:grid;gap:1.1rem;">
+          ${rows.map(r => `
+            <div style="border-left:3px solid ${typeColor(r.typ)};padding:1rem 1.2rem;background:color-mix(in srgb, ${typeColor(r.typ)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;">
+              <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.3rem;">
+                <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(r.typ)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">${r.typ}</span>
+                <strong style="color:${typeColor(r.typ)};">${TYPNAMEN[r.typ]}</strong>
+              </div>
+              <div style="font-size:0.78rem;color:var(--muted);margin-bottom:0.6rem;">${r.triade}</div>
+              <div style="font-size:0.88rem;line-height:1.6;display:grid;gap:0.4rem;">
+                <div><span style="font-weight:700;color:var(--muted);">Gedankliches Muster / Fixierung – ${r.fixierung}:</span> ${r.gedanklich}</div>
+                <div><span style="font-weight:700;color:var(--muted);">Emotionales Muster / Leidenschaft – ${r.leidenschaft}:</span> ${r.emotional}</div>
+                <div style="display:flex;flex-wrap:wrap;gap:0.4rem;margin-top:0.2rem;">
+                  <span style="background:color-mix(in srgb, ${typeColor(r.typ)} 15%, var(--paper));padding:0.2rem 0.6rem;border-radius:999px;font-size:0.78rem;">Vermeidung: ${r.vermeidung}</span>
+                  <span style="background:color-mix(in srgb, ${typeColor(r.typ)} 15%, var(--paper));padding:0.2rem 0.6rem;border-radius:999px;font-size:0.78rem;">Falle: ${r.falle}</span>
+                  <span style="background:color-mix(in srgb, ${typeColor(r.typ)} 15%, var(--paper));padding:0.2rem 0.6rem;border-radius:999px;font-size:0.78rem;">Abwehrmechanismus: ${r.abwehr}</span>
+                </div>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      </div>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "Fixierung, Leidenschaft, Vermeidung und Abwehrmechanismus jedes Typs im Detail erklärt.", "Wer du wirklich bist – Band 1")}
+      ${relatedLinks([
+        {route:"psychologisches-abwehrverhalten-der-9-typen", label:"Psychologisches Abwehrverhalten"},
+        {route:"drei-zentren", label:"Drei Zentren"},
+        {route:"horney-triaden", label:"Horney-Triaden"},
+        {route:"angst-essenz", label:"Angst → Essenz"},
+        {route:"formen-der-angst", label:"Formen der Angst"},
+        {route:"gifte-des-geistes", label:"Gifte des Geistes"},
       ])}
     </section>
   `);
@@ -76563,6 +76626,7 @@ const ROUTES = {
     "bewaeltigungsstrategie": bewaeltigungsstrategiePage,
     "bedrohungsszenarien": bedrohungsszenarienPage,
     "formen-der-angst": formenDerAngstPage,
+    "gedankliche-emotionale-muster": gedanklicheEmotionaleMusterPage,
     "beziehungen": beziehungenPage,
     "kompatibilitaets-check": kompatibilitaetsCheckPage,
     "wachstumstagebuch": wachstumstagebuchPage,
