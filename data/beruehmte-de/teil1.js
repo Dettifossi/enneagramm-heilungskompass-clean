@@ -2062,3 +2062,69 @@ export function natalieDormerPortraitPage() {
     </div>
   `);
 }
+
+export function benBerndtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ben-berndt-portrait.jpg" alt="Ben Berndt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ben Berndt</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltende Eins mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Podcaster &amp; Unternehmer, geb. 1984 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der sich das Recht auf Unbestechlichkeit selbst verordnet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ben Berndt, 1984 in Berlin geboren, absolvierte ein duales BWL-Studium bei der Lufthansa und später einen MBA an der EBS – bevor er mit "ungeskriptet" einen der meistgehörten deutschsprachigen Interview-Podcasts aufbaute: mehrstündige, größtenteils ungeschnittene Gespräche mit Gästen aus Politik, Medien, Wirtschaft und gesellschaftlichen Randgruppen. Sein eigener Anspruch an das Format ist ein selbst auferlegtes Gesetz: "roh, ungeschnitten und unzensiert – so wie Menschen wirklich sind".</p>
+          <p class="vb-intro">Diese kompromisslose Haltung – keine Absprachen mit Gästen im Vorfeld, kein nachträglicher Schnitt – ist kein Zufallsprodukt, sondern eine selbst gesetzte Regel, an der er sich unnachgiebig misst. Genau das ist die Handschrift des Adlers der selbsterhaltenden Eins: nicht andere zur Korrektheit anhalten, sondern sich selbst ein Prinzip auferlegen und es kompromisslos einhalten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Sorge: Der eigene Ehrenkodex als Maßstab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die selbsterhaltende Eins die <strong>Sorge</strong> – ein innerer Kritiker, der sich zuerst gegen die eigene Unaufrichtigkeit richtet. Berndts eigene Positionierung – er sei "kein Journalist, sondern ein freundlicher Gastgeber" – klingt bescheiden, markiert aber zugleich einen strengen Anspruch: Er will keine der beiden Rollen missbrauchen, weder journalistische Neutralität vortäuschen noch als Gastgeber die Wahrheit glätten.</p>
+          <p class="vb-intro">Seine offen ausgesprochene Kritik, viele Journalisten hielten sich für neutraler, als sie tatsächlich seien, liest sich wie eine Eins-typische Forderung nach Redlichkeit – gerichtet weniger gegen andere als gegen den eigenen Anspruch, genau diese Falle selbst nicht zu begehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Der freundliche Gastgeber statt der distanzierte Interviewer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> zeigt sich in genau dieser Selbstbeschreibung als "freundlicher Gastgeber" statt als distanzierter Frager. Eine selbsterhaltende Eins mit schwach ausgeprägtem Zweierflügel würde eher auf sachliche Korrektheit pochen; der Zweierflügel öffnet Berndts Format für die persönliche, oft stundenlange Nähe zum Gast, die "ungeskriptet" von klassischem Interview-Journalismus unterscheidet.</p>
+          <p class="vb-intro">Dieselbe Flügelfärbung – Disziplin und strenger Prinzipienanspruch nach innen, Wärme und persönliche Nähe nach außen – findet sich bei Anne Will (SE1w2): auch dort ein selbst auferlegter Ehrenkodex, kombiniert mit dem Motto, "persönlich zu fragen" statt nur sachlich zu berichten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Vom Kampfring zur Ruhe: Die Sorge, die sich nicht mehr nach außen richtet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Vor seiner Zeit als Podcaster war Berndt nach eigenen Angaben in einem "illegalen Untergrund-Fightclub" aktiv und wurde in einem Kampf ausgeknockt – ein Erlebnis, das ihn eigenen Worten zufolge "ruhiger" machte und dazu brachte, aufzuhören, es allen recht machen zu wollen. Das liest sich wie der typische Reifungsweg der selbsterhaltenden Eins: von der Sorge, äußeren Erwartungen zu genügen, hin zu einem selbst gesetzten, innerlich gefestigten Maßstab.</p>
+          <p class="vb-intro">Mehrere Länder, ein mehrfacher Unternehmensaufbau (u. a. die Babytrage-Marke Rookie), mehrere abgeschlossene Studiengänge, der Ring – dieselbe unnachgiebige Disziplin zeigt sich in ganz unterschiedlichen Lebensfeldern, nie als lockeres Ausprobieren, sondern als wiederholtes, ernsthaftes Sich-Beweisen gegenüber dem eigenen Anspruch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w2 zeigt sich in Berndts Fähigkeit, Gästen einen Raum zu bieten, in dem sie sich stundenlang ungefiltert öffnen können – eine seltene Kombination aus strenger formaler Disziplin (kein Schnitt, keine Absprache) und echter persönlicher Zugewandtheit.</p>
+          <p class="vb-intro">Der Schatten liegt in der Gefahr, dass das eigene Prinzip der Ungeschnittenheit zum Selbstzweck wird – sichtbar in der Kritik an seinem mehrstündigen, weitgehend unkritischen Gespräch mit dem AfD-Politiker Björn Höcke 2026: Wo die eigene Regel ("nicht eingreifen, nicht schneiden") absolut gesetzt wird, kann sie zur blinden Stelle werden, an der genau die journalistische Einordnung fehlt, die Berndt selbst anderen vorwirft zu vermissen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Adler, der sein eigenes Format zum Ehrenkodex machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am Ende bleibt das Bild eines Mannes, der sich selbst ein strenges Format-Gesetz auferlegte – unzensiert, ungeschnitten, unabgesprochen – und es seit Jahren kompromisslos durchhält, komplett gegen den Trend redaktionell kuratierter Medienformate.</p>
+          <p class="vb-intro">Vom Fightclub zum meistgehörten Interview-Podcast Deutschlands: dieselbe innere Disziplin, nur ohne die Fäuste – die selbsterhaltende Eins mit Zweierflügel, die lieber am eigenen, selbst gewählten Maßstab scheitert, als ihn aufzuweichen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-anne-will", label:"Porträt: Anne Will (SE1w2)"},
+        {route:"beruehmte-alain-delon", label:"Porträt: Alain Delon (SE1w2)"},
+        {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
+      ])}
+    </div>
+  `);
+}

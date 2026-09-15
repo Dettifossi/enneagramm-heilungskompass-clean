@@ -2051,3 +2051,69 @@ export function ninaDobrevPortraitPage() {
     </div>
   `);
 }
+
+export function benBerndtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ben-berndt-portrait.jpg" alt="Ben Berndt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ben Berndt</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation One with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">Podcaster &amp; Entrepreneur, born 1984 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle That Decrees Its Own Incorruptibility</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ben Berndt, born in 1984 in Berlin, completed a dual business degree with Lufthansa and later an MBA at EBS – before building "ungeskriptet" into one of the most-listened-to German-language interview podcasts: multi-hour, largely uncut conversations with guests from politics, media, business, and society's margins. His own standard for the format reads like a self-imposed law: "raw, uncut, and uncensored – exactly as people really are."</p>
+          <p class="vb-intro">This uncompromising stance – no coordination with guests beforehand, no editing afterward – is no accident but a self-set rule he holds himself to without exception. This is precisely the signature of the eagle of the Self-Preservation One: not demanding correctness from others, but imposing a principle on oneself and following it without compromise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Worry: One's Own Code of Honor as the Standard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the Self-Preservation One <strong>Worry</strong> – an inner critic directed first at one's own lack of integrity. Berndt's own positioning – that he is "not a journalist, but a friendly host" – sounds modest, yet it marks a strict demand: he refuses to abuse either role, neither faking journalistic neutrality nor smoothing over the truth as a host.</p>
+          <p class="vb-intro">His openly stated criticism, that many journalists consider themselves more neutral than they really are, reads like a One's typical demand for integrity – directed less at others than at his own commitment not to fall into that exact trap himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: The Friendly Host, Not the Detached Interviewer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> shows in exactly this self-description as a "friendly host" rather than a detached questioner. A Self-Preservation One with a weakly developed two-wing would more likely insist on strict factual correctness; the two-wing opens Berndt's format toward the personal, often hours-long closeness to the guest that sets "ungeskriptet" apart from classical interview journalism.</p>
+          <p class="vb-intro">The same wing coloring – discipline and strict principle turned inward, warmth and personal closeness turned outward – appears in Anne Will (SE1w2): here too a self-imposed code of honor, combined with a motto of "asking personally" rather than merely reporting factually.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. From the Fight Ring to Calm: Worry No Longer Directed Outward</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Before his time as a podcaster, Berndt reportedly took part in an "illegal underground fight club" and was once knocked out in a fight – an experience that, in his own words, made him "calmer" and led him to stop trying to please everyone. This reads like the typical maturation path of the Self-Preservation One: from worrying about meeting outward expectations, toward a self-set, inwardly grounded standard.</p>
+          <p class="vb-intro">Multiple countries, multiple ventures built (including the baby-carrier brand Rookie), several completed degrees, the fight ring – the same relentless discipline appears across entirely different areas of life, never as casual experimentation, but as repeated, serious proving of oneself against one's own standard.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One with a Two-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE1w2 shows in Berndt's ability to offer guests a space in which they can open up for hours without filters – a rare combination of strict formal discipline (no editing, no coordination) and genuine personal warmth.</p>
+          <p class="vb-intro">The shadow lies in the risk that the principle of leaving things uncut becomes an end in itself – visible in the criticism of his multi-hour, largely uncritical 2026 conversation with the AfD politician Björn Höcke: where one's own rule ("do not intervene, do not cut") is applied absolutely, it can become the very blind spot lacking exactly the journalistic framing Berndt himself accuses others of missing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Eagle That Turned His Own Format Into a Code of Honor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What remains is the image of a man who imposed a strict format law on himself – uncensored, uncut, uncoordinated – and has upheld it without compromise for years, entirely against the trend of editorially curated media formats.</p>
+          <p class="vb-intro">From the fight club to Germany's most-listened-to interview podcast: the same inner discipline, minus the fists – the Self-Preservation One with a two-wing, who would rather fail by his own chosen standard than soften it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SE1w2)"},
+        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SE1w2)"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
+      ])}
+    </div>
+  `);
+}

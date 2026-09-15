@@ -2112,6 +2112,7 @@ export function anneWillPortraitPage() {
         {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
         {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SE1w2)"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-ben-berndt", label:"Portrait: Ben Berndt (SE1w2)"},
         {route:"beruehmte-herfried-muenkler", label:"Portrait: Herfried Münkler (SO6w7)"},
       ])}
     </div>
