@@ -18083,6 +18083,47 @@ function dreiFingerRegelPage() {
         <p class="vb-intro">The <strong>thumb</strong> stands for the <strong>countertype</strong>: it actively denies or hides the passion, outwardly living what seems to be its opposite – which is why it is most often mistyped. The thumb stands opposed to all the other fingers, just as the countertype seems to work against its own passion.</p>
         <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">Practice tip: precisely because the countertype does not show its actual passion outwardly, it is the hardest to recognize when typing someone live. Anyone who has internalized the three-finger rule automatically also asks about the hidden countertype possibility, instead of settling too quickly for the most obvious picture.</p>
       </div>
+
+      <h2 style="font-size:1.05rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">All 27 Subtypes at a Glance</h2>
+      <p class="vb-intro" style="margin-bottom:1rem;">Which instinctual variant is the normal type, reinforcement type, or countertype differs from type to type – there is no fixed assignment of SE/SO/SX to one category. That's exactly what makes this overview a practical reference for teaching.</p>
+      <div style="overflow-x:auto;border:1px solid var(--line,var(--border));border-radius:12px;">
+        <table style="border-collapse:collapse;width:100%;min-width:480px;font-size:0.88rem;">
+          <thead>
+            <tr style="background:var(--ivory,var(--paper));">
+              <th style="text-align:left;padding:.6rem .8rem;border-bottom:1px solid var(--line,var(--border));">Type &amp; Passion</th>
+              <th style="text-align:left;padding:.6rem .8rem;border-bottom:1px solid var(--line,var(--border));">Self-Preservation</th>
+              <th style="text-align:left;padding:.6rem .8rem;border-bottom:1px solid var(--line,var(--border));">Social</th>
+              <th style="text-align:left;padding:.6rem .8rem;border-bottom:1px solid var(--line,var(--border));">Sexual</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${[
+              { typ:1, passion:"Resentment / Anger", se:"normal", so:"verst", sx:"kontra" },
+              { typ:2, passion:"Pride", se:"kontra", so:"verst", sx:"normal" },
+              { typ:3, passion:"Vanity", se:"kontra", so:"verst", sx:"normal" },
+              { typ:4, passion:"Envy", se:"kontra", so:"verst", sx:"normal" },
+              { typ:5, passion:"Avarice", se:"verst", so:"normal", sx:"kontra" },
+              { typ:6, passion:"Fear", se:"verst", so:"normal", sx:"kontra" },
+              { typ:7, passion:"Gluttony", se:"normal", so:"kontra", sx:"verst" },
+              { typ:8, passion:"Lust", se:"normal", so:"kontra", sx:"verst" },
+              { typ:9, passion:"Sloth", se:"normal", so:"kontra", sx:"verst" },
+            ].map((row, i) => {
+              const tc = typeColor(row.typ);
+              const KAT = { normal:["Normal Type","#4f6b6e","#e7eeed"], verst:["Reinforcement Type","#b0551c","#f6e6d7"], kontra:["Countertype","#8a3355","#f3e2ea"] };
+              const chip = cat => { const [label,fg,bg] = KAT[cat]; return `<span style="display:inline-block;padding:.2rem .55rem;border-radius:999px;font-size:.78rem;font-weight:600;color:${fg};background:${bg};">${label}</span>`; };
+              return `
+                <tr style="background:${i % 2 ? "rgba(0,0,0,0.015)" : "transparent"};">
+                  <td style="padding:.55rem .8rem;border-bottom:1px solid var(--line,var(--border));font-weight:700;color:${tc};">Type ${row.typ}<span style="display:block;font-weight:400;font-size:.76rem;color:var(--muted);margin-top:.1rem;">${row.passion}</span></td>
+                  <td style="padding:.55rem .8rem;border-bottom:1px solid var(--line,var(--border));">${chip(row.se)}</td>
+                  <td style="padding:.55rem .8rem;border-bottom:1px solid var(--line,var(--border));">${chip(row.so)}</td>
+                  <td style="padding:.55rem .8rem;border-bottom:1px solid var(--line,var(--border));">${chip(row.sx)}</td>
+                </tr>
+              `;
+            }).join("")}
+          </tbody>
+        </table>
+      </div>
+
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${relatedLinks([
         {route:"subtypen-schaubilder", label:"Subtype Charts (all 27)"},

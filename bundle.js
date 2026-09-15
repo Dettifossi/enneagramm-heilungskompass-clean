@@ -41792,6 +41792,47 @@ function dreiFingerRegelPage() {
         <p class="vb-intro">Der <strong>Daumen</strong> steht für den <strong>Kontratyp</strong>: Er verneint oder verbirgt die Leidenschaft aktiv und lebt nach außen scheinbar das Gegenteil davon – weshalb er am häufigsten falsch typisiert wird. Der Daumen steht allen anderen Fingern entgegen, genau wie der Kontratyp seiner eigenen Leidenschaft entgegenzuwirken scheint.</p>
         <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">Praxistipp: Gerade weil der Kontratyp seine eigentliche Leidenschaft nach außen nicht zeigt, ist er in der Live-Typisierung am schwersten zu erkennen. Wer die Drei-Finger-Regel verinnerlicht hat, fragt automatisch auch nach der versteckten Kontratyp-Möglichkeit, statt vorschnell beim offensichtlichsten Bild stehen zu bleiben.</p>
       </div>
+
+      <h2 style="font-size:1.05rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Alle 27 Subtypen im Überblick</h2>
+      <p class="vb-intro" style="margin-bottom:1rem;">Welche Instinktvariante bei welchem Typ Normaltyp, Verstärkungstyp oder Kontratyp ist, unterscheidet sich von Typ zu Typ – es gibt keine feste Zuordnung von SE/SO/SX zu einer Kategorie. Genau das macht diese Übersicht zum praktischen Nachschlagewerk im Unterricht.</p>
+      <div style="overflow-x:auto;border:1px solid var(--line,var(--border));border-radius:12px;">
+        <table style="border-collapse:collapse;width:100%;min-width:480px;font-size:0.88rem;">
+          <thead>
+            <tr style="background:var(--ivory,var(--paper));">
+              <th style="text-align:left;padding:.6rem .8rem;border-bottom:1px solid var(--line,var(--border));">Typ &amp; Leidenschaft</th>
+              <th style="text-align:left;padding:.6rem .8rem;border-bottom:1px solid var(--line,var(--border));">Selbsterhaltung</th>
+              <th style="text-align:left;padding:.6rem .8rem;border-bottom:1px solid var(--line,var(--border));">Sozial</th>
+              <th style="text-align:left;padding:.6rem .8rem;border-bottom:1px solid var(--line,var(--border));">Sexuell</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${[
+              { typ:1, passion:"Groll / Zorn", se:"normal", so:"verst", sx:"kontra" },
+              { typ:2, passion:"Stolz", se:"kontra", so:"verst", sx:"normal" },
+              { typ:3, passion:"Eitelkeit", se:"kontra", so:"verst", sx:"normal" },
+              { typ:4, passion:"Neid", se:"kontra", so:"verst", sx:"normal" },
+              { typ:5, passion:"Geiz", se:"verst", so:"normal", sx:"kontra" },
+              { typ:6, passion:"Angst", se:"verst", so:"normal", sx:"kontra" },
+              { typ:7, passion:"Völlerei", se:"normal", so:"kontra", sx:"verst" },
+              { typ:8, passion:"Wollust", se:"normal", so:"kontra", sx:"verst" },
+              { typ:9, passion:"Trägheit", se:"normal", so:"kontra", sx:"verst" },
+            ].map((row, i) => {
+              const tc = typeColor(row.typ);
+              const KAT = { normal:["Normaltyp","#4f6b6e","#e7eeed"], verst:["Verstärkungstyp","#b0551c","#f6e6d7"], kontra:["Kontratyp","#8a3355","#f3e2ea"] };
+              const chip = cat => { const [label,fg,bg] = KAT[cat]; return `<span style="display:inline-block;padding:.2rem .55rem;border-radius:999px;font-size:.78rem;font-weight:600;color:${fg};background:${bg};">${label}</span>`; };
+              return `
+                <tr style="background:${i % 2 ? "rgba(0,0,0,0.015)" : "transparent"};">
+                  <td style="padding:.55rem .8rem;border-bottom:1px solid var(--line,var(--border));font-weight:700;color:${tc};">Typ ${row.typ}<span style="display:block;font-weight:400;font-size:.76rem;color:var(--muted);margin-top:.1rem;">${row.passion}</span></td>
+                  <td style="padding:.55rem .8rem;border-bottom:1px solid var(--line,var(--border));">${chip(row.se)}</td>
+                  <td style="padding:.55rem .8rem;border-bottom:1px solid var(--line,var(--border));">${chip(row.so)}</td>
+                  <td style="padding:.55rem .8rem;border-bottom:1px solid var(--line,var(--border));">${chip(row.sx)}</td>
+                </tr>
+              `;
+            }).join("")}
+          </tbody>
+        </table>
+      </div>
+
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
       ${relatedLinks([
         {route:"subtypen-schaubilder", label:"Subtypen-Schaubilder (alle 27)"},
