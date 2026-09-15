@@ -18069,7 +18069,7 @@ function dreiFingerRegelPage() {
     <section class="narrow">
       <p class="eyebrow">Charts · The 27 Subtypes</p>
       <h1>Three-Finger Rule for the Subtype Variants</h1>
-      <p class="lead-small">Within each of the nine Enneagram types, the three instinctual variants – self-preservation, social, sexual – live out the same passion in three quite different ways. This simple hand mnemonic helps recall the three variants in seconds when teaching.</p>
+      <p class="lead-small">Within each of the nine Enneagram types, the three instinctual variants – self-preservation, social, sexual – live out the same passion in three quite different ways. This simple hand mnemonic helps recall the three variants in seconds.</p>
 
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/drei-finger-regel/drei-finger-regel.jpg"
@@ -18085,7 +18085,7 @@ function dreiFingerRegelPage() {
       </div>
 
       <h2 style="font-size:1.05rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">All 27 Subtypes at a Glance</h2>
-      <p class="vb-intro" style="margin-bottom:1rem;">Which instinctual variant is the normal type, reinforcement type, or countertype differs from type to type – there is no fixed assignment of SE/SO/SX to one category. That's exactly what makes this overview a practical reference for teaching.</p>
+      <p class="vb-intro" style="margin-bottom:1rem;">Which instinctual variant is the normal type, reinforcement type, or countertype differs from type to type – there is no fixed assignment of SE/SO/SX to one category. That's exactly what makes this overview a practical reference.</p>
       <div style="overflow-x:auto;border:1px solid var(--line,var(--border));border-radius:12px;">
         <table style="border-collapse:collapse;width:100%;min-width:480px;font-size:0.88rem;">
           <thead>

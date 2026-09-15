@@ -41778,7 +41778,7 @@ function dreiFingerRegelPage() {
     <section class="narrow">
       <p class="eyebrow">Schaubilder · Die 27 Subtypen</p>
       <h1>Drei-Finger-Regel bei den Subtypenvarianten</h1>
-      <p class="lead-small">Innerhalb jedes der neun Enneagrammtypen leben die drei Instinktvarianten – Selbsterhaltung, Sozial, Sexuell – dieselbe Leidenschaft auf drei ganz unterschiedliche Weisen. Diese einfache Merkregel mit der Hand hilft, sich die drei Varianten im Unterricht in Sekunden zu vergegenwärtigen.</p>
+      <p class="lead-small">Innerhalb jedes der neun Enneagrammtypen leben die drei Instinktvarianten – Selbsterhaltung, Sozial, Sexuell – dieselbe Leidenschaft auf drei ganz unterschiedliche Weisen. Diese einfache Merkregel mit der Hand hilft, sich die drei Varianten in Sekunden zu vergegenwärtigen.</p>
 
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="./assets/schaubilder/drei-finger-regel/drei-finger-regel.jpg"
@@ -41794,7 +41794,7 @@ function dreiFingerRegelPage() {
       </div>
 
       <h2 style="font-size:1.05rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Alle 27 Subtypen im Überblick</h2>
-      <p class="vb-intro" style="margin-bottom:1rem;">Welche Instinktvariante bei welchem Typ Normaltyp, Verstärkungstyp oder Kontratyp ist, unterscheidet sich von Typ zu Typ – es gibt keine feste Zuordnung von SE/SO/SX zu einer Kategorie. Genau das macht diese Übersicht zum praktischen Nachschlagewerk im Unterricht.</p>
+      <p class="vb-intro" style="margin-bottom:1rem;">Welche Instinktvariante bei welchem Typ Normaltyp, Verstärkungstyp oder Kontratyp ist, unterscheidet sich von Typ zu Typ – es gibt keine feste Zuordnung von SE/SO/SX zu einer Kategorie. Genau das macht diese Übersicht zum praktischen Nachschlagewerk.</p>
       <div style="overflow-x:auto;border:1px solid var(--line,var(--border));border-radius:12px;">
         <table style="border-collapse:collapse;width:100%;min-width:480px;font-size:0.88rem;">
           <thead>
