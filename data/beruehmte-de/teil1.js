@@ -2105,7 +2105,7 @@ export function benBerndtPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins mit Zweierflügel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SE1w2 zeigt sich in Berndts Fähigkeit, Gästen einen Raum zu bieten, in dem sie sich stundenlang ungefiltert öffnen können – eine seltene Kombination aus strenger formaler Disziplin (kein Schnitt, keine Absprache) und echter persönlicher Zugewandtheit.</p>
-          <p class="vb-intro">Der Schatten liegt in der Gefahr, dass das eigene Prinzip der Ungeschnittenheit zum Selbstzweck wird – sichtbar in der Kritik an seinem mehrstündigen, weitgehend unkritischen Gespräch mit dem AfD-Politiker Björn Höcke 2026: Wo die eigene Regel ("nicht eingreifen, nicht schneiden") absolut gesetzt wird, kann sie zur blinden Stelle werden, an der genau die journalistische Einordnung fehlt, die Berndt selbst anderen vorwirft zu vermissen.</p>
+          <p class="vb-intro">Der Schatten liegt in der Gefahr, dass das eigene Prinzip der Ungeschnittenheit zum Selbstzweck wird – sichtbar in der Kritik an seinem mehrstündigen, weitgehend unkritischen Gespräch mit dem AfD-Politiker Björn Höcke 2026: Wo die eigene Regel ("nicht eingreifen, nicht schneiden") absolut gesetzt wird, kann sie zur blinden Stelle werden: Genau die kritische Einordnung, die Berndt selbst von Journalisten fordert, verhindert er in solchen Momenten durch sein eigenes Prinzip der Nichteinmischung.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Adler, der sein eigenes Format zum Ehrenkodex machte</h2>
