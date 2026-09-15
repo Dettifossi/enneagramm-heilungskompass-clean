@@ -2096,6 +2096,8 @@ export function williamJamesPortraitPage() {
           <p class="vb-intro">The cheetah that does not only sprint but occasionally pauses to sense what it is running for – that is the energy that had been waiting all along behind William James's alert, engaged gaze.</p>
         </blockquote>
 
+        <p class="vb-intro">The existential crisis of his twenties and the heart condition that progressed over twelve years and led to his death in 1910 are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-william-james">Illness Portrait of William James</a>.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
@@ -2103,6 +2105,7 @@ export function williamJamesPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"krankheitsportraets-william-james", label:"Illness Portrait: William James (SO3w4)"},
         {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
         {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Portrait: Gottfried Wilhelm Leibniz (SO3w4)"},
         {route:"beruehmte-teresa-von-avila", label:"Portrait: Teresa of Ávila (SO3w4)"},

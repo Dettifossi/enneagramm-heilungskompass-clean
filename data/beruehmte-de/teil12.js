@@ -2094,6 +2094,8 @@ export function williamJamesPortraitPage() {
           <p class="vb-intro">Der Gepard, der nicht nur sprintet, sondern gelegentlich innehält, um zu spüren, wofür er eigentlich läuft – das ist die Energie, die hinter dem wachen, zugewandten Blick William James' die ganze Zeit gewartet hat.</p>
         </blockquote>
 
+        <p class="vb-intro">Die existenzielle Krise seiner Zwanzigerjahre und das über zwölf Jahre fortschreitende Herzleiden, das 1910 zu seinem Tod führte, werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-william-james">Krankheitsporträt zu William James</a> gedeutet.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -2101,6 +2103,7 @@ export function williamJamesPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"krankheitsportraets-william-james", label:"Krankheitsporträt: William James (SO3w4)"},
         {route:"beruehmte-karl-lagerfeld", label:"Porträt: Karl Lagerfeld (SO3w4)"},
         {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Porträt: Gottfried Wilhelm Leibniz (SO3w4)"},
         {route:"beruehmte-teresa-von-avila", label:"Porträt: Teresa von Ávila (SO3w4)"},
