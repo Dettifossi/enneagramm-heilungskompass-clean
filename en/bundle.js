@@ -17236,6 +17236,7 @@ const SPIRITUELL_TRACKS = {
         <button class="chip-nav-btn" onclick="document.getElementById('dr-en-songs').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">English Songs</button>
         <button class="chip-nav-btn" onclick="document.getElementById('dr-flammen').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Flames of Life</button>
         <button class="chip-nav-btn" onclick="document.getElementById('dr-spirituell').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Spiritual Songs</button>
+        <button class="chip-nav-btn" onclick="document.getElementById('dr-biblisch').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Biblical Subtype Songs</button>
         <button class="chip-nav-btn" onclick="document.getElementById('dr-liebe').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.4rem 0.9rem;border-radius:20px;background:var(--paper-deep,#ede8dc);color:var(--copper);font-size:0.85rem;font-weight:600;border:none;font-family:inherit;">Liebeslieder</button>
       </nav>
 
@@ -17308,6 +17309,43 @@ const SPIRITUELL_TRACKS = {
       ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz Albums"},{route:"detlef-rathmer-jazz|dr-enn-alben",label:"Enneagram Albums"},{route:"stille",label:"9 Minutes of Silence"},{route:"musik",label:"Relaxation and Healing Music"}])}
       <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Back to top</button></p>
 
+      <h2 id="dr-biblisch" style="margin-top:3rem;margin-bottom:0.3rem;">Biblical Subtype Songs</h2>
+      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
+        A specially composed, archetypal-biblical song for each of the 27 subtypes (sung in German) – the same 27
+        songs you can also find individually on each subtype page under "Song 5," gathered here in one place for the first time.
+      </p>
+      ${grid([
+        { id: "dKofTwCmedc", label: "SE1 · The Reformer" },
+        { id: "XOKO4asfeI8", label: "SO1 · The Reformer" },
+        { id: "mSDVJQpCVF8", label: "SX1 · The Reformer" },
+        { id: "QrKeNWPeBiU", label: "SE2 · The Helper" },
+        { id: "3NwdYJLeKN0", label: "SO2 · The Helper" },
+        { id: "bw3-nPmE3OA", label: "SX2 · The Helper" },
+        { id: "2gklX1qArXw", label: "SE3 · The Achiever" },
+        { id: "0I-4rThOvQ0", label: "SO3 · The Achiever" },
+        { id: "SK724DhEJns", label: "SX3 · The Achiever" },
+        { id: "yI-zk3aHGBQ", label: "SE4 · The Individualist" },
+        { id: "1WerclI4m18", label: "SO4 · The Individualist" },
+        { id: "12JIwPNwZN4", label: "SX4 · The Individualist" },
+        { id: "T65cXVpkx9Y", label: "SE5 · The Investigator" },
+        { id: "MaAgqDEujDI", label: "SO5 · The Investigator" },
+        { id: "gAlYihN7QCE", label: "SX5 · The Investigator" },
+        { id: "z7BZ4KXOAsg", label: "SE6 · The Loyalist" },
+        { id: "bm3SEsot92E", label: "SO6 · The Loyalist" },
+        { id: "QqRezX3O6VA", label: "SX6 · The Loyalist" },
+        { id: "kKxF8Dx-Sc8", label: "SE7 · The Enthusiast" },
+        { id: "k3ffDHKpbFE", label: "SO7 · The Enthusiast" },
+        { id: "kv4pxB6-GAQ", label: "SX7 · The Enthusiast" },
+        { id: "44TD-meNBt4", label: "SE8 · The Challenger" },
+        { id: "mCXz3BLUgeo", label: "SO8 · The Challenger" },
+        { id: "mEc9zE0a-Ow", label: "SX8 · The Challenger" },
+        { id: "_l-CH4kXIiQ", label: "SE9 · The Peacemaker" },
+        { id: "Hz6P8Sr1iBk", label: "SO9 · The Peacemaker" },
+        { id: "gJc3U025VpA", label: "SX9 · The Peacemaker" },
+      ])}
+      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spiritual Songs"},{route:"detlef-rathmer-jazz|dr-enn-songs",label:"Enneagram Songs"},{route:"musik",label:"Relaxation and Healing Music"}])}
+      <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Back to top</button></p>
+
       <h2 id="dr-liebe" style="margin-top:3rem;margin-bottom:0.3rem;">Love Songs by Detlef</h2>
       <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
         9 Love Songs &ndash; also available on Spotify.
@@ -17318,6 +17356,7 @@ const SPIRITUELL_TRACKS = {
       ${relatedLinks([
         { route: "detlef-rathmer-jazz|dr-jazz", label: "Jazz-Alben" },
         { route: "detlef-rathmer-jazz|dr-spirituell", label: "Spirituelle Songs" },
+        { route: "detlef-rathmer-jazz|dr-biblisch", label: "Biblical Subtype Songs" },
         { route: "stille", label: "9 Minuten Stille" },
         { route: "musik", label: "Entspannungs- und Heilungsmusik" },
         { route: "homoeopathie-songs", label: "Homeopathy and Enneagram-Homeopathy Songs" },
