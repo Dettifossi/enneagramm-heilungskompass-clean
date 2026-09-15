@@ -4136,3 +4136,186 @@ export function fionaAppleKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function williamJamesKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-william-james-portrait.jpg" alt="William James" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">William James</p>
+        <p class="krim-portrait-typ">SO3w4 · Social Type 3 with Four-wing · 1842–1910</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Cheetah</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Animal correspondence: Cheetah" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>William James</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-william-james">portrait under Famous Personalities</a>
+        in this Compass – that page covers his life's work as the founder of American
+        psychology and co-founder of pragmatism. This page covers two health chapters only
+        touched on there: an existential psychosomatic crisis in his twenties and a heart
+        condition that progressed over twelve years and led to his death in 1910.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>James</strong> is classified as the <strong>Social Three with Four-wing</strong>.
+        Naranjo called the Social Three the <em>Reinforcement Type</em> – significance arises
+        through visible impact and achievement in the social sphere, not through quiet
+        withdrawal. The Four-wing adds an existential depth and sensitivity that tends not to
+        sit out a crisis but, as documented in James's own biography, to live it out to the
+        very edge of what is bearable before a turn is sought.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A body answering an unresolved question of vocation:</strong>
+        After abandoning his studies in painting and switching to medicine at Harvard Medical
+        School, James in the late 1860s developed early back pain, eye trouble, and digestive
+        complaints – at a point when his professional path was still entirely open.</p>
+        <p class="vb-intro"><strong>b) Insomnia as a constant companion:</strong>
+        Alongside the physical complaints, a persistent insomnia developed, which James himself
+        repeatedly recorded in letters to friends and in his diary.</p>
+        <p class="vb-intro"><strong>c) A trip to Germany without recovery:</strong>
+        In 1867/68 James traveled to Germany for a cure and to study – an attempt to outrun the
+        suffering by distance, which brought no lasting improvement.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) A depression bordering on suicide:</strong>
+        In his diary entries from this period James described states of deepest despair; later
+        biographers, and James himself in a heavily coded, autobiographically read passage of
+        <em>The Varieties of Religious Experience</em>, suggest that he at times contemplated
+        suicide during these years.</p>
+        <p class="vb-intro"><strong>b) No clear physical diagnosis:</strong>
+        The physicians of his time found no single organic cause for the combination of back
+        pain, eye trouble, digestive disorders, and exhaustion – a picture that is today
+        largely read as psychosomatic.</p>
+        <p class="vb-intro"><strong>c) A family pattern of similar suffering:</strong>
+        James's sister Alice James was marked throughout her life by severe, never clearly
+        diagnosed illness, and his father Henry James Sr. had himself lived through an
+        existential crisis – a family pattern that further framed his own crisis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) The turning point through a philosophical text, not medicine:</strong>
+        On April 30, 1870, James noted in his diary that reading the French philosopher Charles
+        Renouvier on free will had shown him that he could himself decide to believe in his own
+        capacity to act – not a medical remedy but a mental resolution brought the decisive
+        turn.</p>
+        <p class="vb-intro"><strong>b) A second, late-arriving affliction of the heart:</strong>
+        During a strenuous hike in the Adirondack Mountains in the summer of 1898, James, by
+        his own and his physicians' assessment, sustained a lasting strain on his heart from
+        which he never fully recovered.</p>
+        <p class="vb-intro"><strong>c) Work as the answer to the warning:</strong>
+        Rather than fundamentally slowing his pace, James kept up an intense schedule of
+        teaching, lecture tours, and book projects for the following twelve years, including
+        the Gifford Lectures in Edinburgh (1901/02) and several further major works.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Two decades between two crises:</strong>
+        Between the existential crisis of his twenties and the heart condition from 1898
+        onward lies almost an entire productive career – James's most fruitful, most publicly
+        influential creative phase falls exactly in this interval.</p>
+        <p class="vb-intro"><strong>b) Travels to Europe in search of relief:</strong>
+        In his final years James traveled to Europe several times, including a cure at Bad
+        Nauheim, then a renowned center for cardiac treatment – an attempt to bring the
+        progressing illness under control without fully giving up his academic and public
+        activity.</p>
+        <p class="vb-intro"><strong>c) A return home as the final path:</strong>
+        In the summer of 1910, increasingly weakened, James returned from a final trip to
+        Europe to his summer home in Chocorua, New Hampshire.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) The early crisis as fuel for later creative power:</strong>
+        The overcome existential crisis of his twenties seems to have fed a particularly
+        intense, broadly diversified later creative energy in James – as if the free will once
+        won had to be continually proven anew.</p>
+        <p class="vb-intro"><strong>b) No visible withdrawal despite diagnosis:</strong>
+        Unlike Karl Lagerfeld (SO3w4), who almost entirely hid his illness, James's heart
+        condition was fairly well known within his closer academic circle – yet he barely
+        visibly reduced his public and scholarly engagement over years, before the final months
+        brought a marked decline.</p>
+        <p class="vb-intro"><strong>c) The pace holds almost to the end:</strong>
+        Even in his final months James worked on manuscripts and correspondence – a pattern
+        typical of the Social Three, maintaining one's own effectiveness for as long as
+        possible.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Throughline</h3>
+        <p class="vb-intro"><strong>a) The first crisis: the body as a stand-in for an unresolved life question:</strong>
+        The combination of back pain, eye trouble, digestive disorders, and insomnia in James's
+        twenties occurred exactly during the phase when his professional direction – painting,
+        medicine, natural science, philosophy – was still entirely unresolved. For a Social
+        Three, whose self-worth is closely tied to visible, recognized effectiveness, such a
+        phase of professional disorientation can feel especially threatening – the body
+        reacted before a mental solution had been found.</p>
+        <p class="vb-intro"><strong>b) The turning point: a thought instead of a medicine:</strong>
+        It is telling that the decisive turn came not through medical treatment but through a
+        philosophical insight – the conscious decision to believe in one's own free will. For
+        the Four-wing, which seeks meaning in depth and authenticity, the solution was
+        accordingly not a superficial treatment of symptoms but a fundamental inner
+        reorientation.</p>
+        <p class="vb-intro"><strong>c) The second crisis: the heart as the price of uninterrupted achievement:</strong>
+        The heart strain of 1898 struck James in the middle of his most productive creative
+        phase – precisely the organ that, figuratively, stands for drive and readiness to act
+        gave way, without James lastingly slowing his pace in response.</p>
+        <p class="vb-intro"><strong>d) Why exactly twelve more years of continued work?</strong>
+        For a Social Three with a Four-wing, whose self-worth and sense of purpose are closely
+        bound to visible, effective work, one reading suggests itself: pausing after the first
+        warning would have meant calling into question one's own effectiveness – and with it a
+        central part of one's own identity. Instead, the work continued until the body finally
+        allowed no continuation at all. This reading is developed in more depth in this
+        Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) Classification without determinism:</strong>
+        This does not mean the Social Three's pattern inevitably leads to heart disease –
+        <strong>anyone can develop any illness, regardless of subtype.</strong> What James's
+        case can illustrate is a pattern that repeatedly stands out in practice around the
+        drive to maintain productive effectiveness even against clear warning signs from one's
+        own body – one possible explanation among many, not a verdict. The corresponding
+        illness pattern is being developed gradually in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        William James did not know his own Enneagram pattern – the Social Three measures
+        self-worth by visible effectiveness, and exactly that led him, after the heart strain
+        of 1898, to keep working at nearly undiminished pace for twelve more years instead of
+        fundamentally slowing down in time. Not recognizing one's own need to remain
+        uninterruptedly effective as a pattern risks overburdening the very organ that carries
+        one's own creative power in the first place.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>James's</strong> Social Three with Four-wing shows itself in two opposing yet
+        related crises: an existential crisis of youth that he overcame through a conscious
+        thought – not through medicine – and a physical heart condition in old age that, despite
+        an early warning, he answered for twelve years with undiminished work pace rather than
+        seriously slowing down. The cheetah that survives an injury by holding its pace – until
+        the pace itself can no longer be held.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-william-james", label:"Portrait: William James (SO3w4) – life's work"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4) – same subtype"},
+        {route:"krankheitsportraets-sean-connery", label:"Illness Portrait: Sean Connery (SO3w4) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so3", label:"Subtype Profile SO3"},
+      ])}
+    </div>
+  `);
+}

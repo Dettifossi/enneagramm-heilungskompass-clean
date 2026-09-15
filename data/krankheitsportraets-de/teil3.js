@@ -1968,6 +1968,7 @@ export function karlLagerfeldKrankheitsportraetPage() {
         {route:"beruehmte-karl-lagerfeld", label:"Porträt: Karl Lagerfeld (SO3w4) – Lebenswerk"},
         {route:"beruehmte-teresa-von-avila", label:"Porträt: Teresa von Ávila (SO3w4) – ebenfalls Weiterarbeit trotz schwerer Krankheit"},
         {route:"krankheitsportraets-sean-connery", label:"Krankheitsporträt: Sean Connery (SO3w4) – gleicher Subtyp"},
+        {route:"krankheitsportraets-william-james", label:"Krankheitsporträt: William James (SO3w4) – gleicher Subtyp"},
         {route:"krankheitsportraets-david-bowie", label:"Krankheitsporträt: David Bowie (SO1w2) – ebenfalls Geheimhaltung, aber künstlerisch verschlüsselt statt dementiert"},
         {route:"krankheitsportraets-ronald-reagan", label:"Krankheitsporträt: Ronald Reagan (SO9w8) – Gegenmodell: direkte Offenlegung statt Dementi"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},

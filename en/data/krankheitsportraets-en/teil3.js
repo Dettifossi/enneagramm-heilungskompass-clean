@@ -1868,6 +1868,7 @@ export function karlLagerfeldKrankheitsportraetPage() {
         {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4) – life's work"},
         {route:"beruehmte-teresa-von-avila", label:"Portrait: Teresa von Ávila (SO3w4) – also kept working through severe illness"},
         {route:"krankheitsportraets-sean-connery", label:"Illness Portrait: Sean Connery (SO3w4) – same subtype"},
+        {route:"krankheitsportraets-william-james", label:"Illness Portrait: William James (SO3w4) – same subtype"},
         {route:"krankheitsportraets-david-bowie", label:"Illness Portrait: David Bowie (SO1w2) – also secrecy, but artistically encoded rather than denied"},
         {route:"krankheitsportraets-ronald-reagan", label:"Illness Portrait: Ronald Reagan (SO9w8) – counter-model: direct disclosure rather than denial"},
         {route:"psychosomatik", label:"Psychosomatics Register"},

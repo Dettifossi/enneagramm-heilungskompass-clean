@@ -4333,3 +4333,196 @@ export function fionaAppleKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function williamJamesKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-william-james-portrait.jpg" alt="William James" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">William James</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel · 1842–1910</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gepard</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Tierentsprechung: Gepard" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>William James</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-william-james">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Begründer der
+        amerikanischen Psychologie und Mitbegründer des Pragmatismus. Hier geht es um zwei
+        gesundheitliche Kapitel, die dort nur gestreift werden: eine existenzielle
+        psychosomatische Krise in seinen Zwanzigerjahren und ein über zwölf Jahre
+        fortschreitendes Herzleiden, das 1910 zu seinem Tod führte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>James</strong> ist der <strong>sozialen Drei mit Viererflügel</strong>
+        zugeordnet. Naranjo nannte die soziale Drei den <em>Verstärkungstyp</em> – Bedeutung
+        entsteht über sichtbare Wirkung und Leistung im sozialen Raum, nicht über stille
+        Zurückgezogenheit. Der Viererflügel bringt zusätzlich eine existenzielle Tiefe und
+        Empfindsamkeit mit, die dazu neigt, Krisen nicht auszusitzen, sondern sie – wie bei
+        James biografisch belegt – bis an den Rand des Erträglichen auszuleben, bevor eine
+        Wende gesucht wird.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, der auf eine ungeklärte Berufsfrage antwortet:</strong>
+        Nach einem abgebrochenen Malereistudium und dem Wechsel zur Medizin an der Harvard
+        Medical School zeigten sich bei James Ende der 1860er-Jahre erste Rückenschmerzen,
+        Augenprobleme und Verdauungsbeschwerden – zu einem Zeitpunkt, an dem sein beruflicher
+        Weg noch völlig offen war.</p>
+        <p class="vb-intro"><strong>b) Schlaflosigkeit als ständiger Begleiter:</strong>
+        Parallel zu den körperlichen Beschwerden entwickelte sich eine anhaltende
+        Schlaflosigkeit, die James selbst in Briefen an Freunde und in seinem Tagebuch
+        wiederholt festhielt.</p>
+        <p class="vb-intro"><strong>c) Eine Reise nach Deutschland ohne Genesung:</strong>
+        1867/68 reiste James zur Kur und zum Studium nach Deutschland – ein Versuch, dem
+        Leiden räumlich zu entkommen, der jedoch keine dauerhafte Besserung brachte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine Depression bis an den Rand des Suizids:</strong>
+        In seinen Tagebucheinträgen aus dieser Zeit beschrieb James Zustände tiefster
+        Verzweiflung; spätere Biografen und teils James selbst (in stark verschlüsselter,
+        autobiografisch gelesener Form in ›The Varieties of Religious Experience‹) legen nahe,
+        dass er in diesen Jahren zeitweise an Suizid dachte.</p>
+        <p class="vb-intro"><strong>b) Keine eindeutige körperliche Diagnose:</strong>
+        Die Ärzte seiner Zeit fanden keine einzelne organische Ursache für die Kombination aus
+        Rückenschmerzen, Augenproblemen, Verdauungsstörungen und Erschöpfung – ein Bild, das
+        aus heutiger Sicht stark psychosomatisch gedeutet wird.</p>
+        <p class="vb-intro"><strong>c) Familiäre Häufung ähnlicher Leiden:</strong>
+        James' Schwester Alice James war zeitlebens von schwerer, nie eindeutig diagnostizierter
+        Krankheit gezeichnet, sein Vater Henry James Sr. hatte selbst eine existenzielle Krise
+        durchlebt – ein familiäres Muster, das die eigene Krise zusätzlich rahmte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die Wende durch eine philosophische Lektüre, nicht durch Medizin:</strong>
+        Am 30. April 1870 notierte James in sein Tagebuch, die Lektüre des französischen
+        Philosophen Charles Renouvier über den freien Willen habe ihm gezeigt, dass er selbst
+        entscheiden könne, an die eigene Handlungsfähigkeit zu glauben – nicht ein
+        medizinisches Mittel, sondern ein gedanklicher Entschluss brachte die entscheidende
+        Wende.</p>
+        <p class="vb-intro"><strong>b) Ein zweites, spät auftretendes Leiden am Herzen:</strong>
+        Bei einer anstrengenden Bergwanderung in den Adirondack Mountains im Sommer 1898 zog
+        sich James nach eigener und ärztlicher Einschätzung eine dauerhafte Überlastung des
+        Herzens zu, von der er sich nie mehr vollständig erholte.</p>
+        <p class="vb-intro"><strong>c) Arbeit als Antwort auf die Warnung:</strong>
+        Statt sein Arbeitstempo grundlegend zu drosseln, hielt James in den folgenden zwölf
+        Jahren an einem intensiven Pensum aus Lehre, Vortragsreisen und Buchprojekten fest,
+        darunter die Gifford Lectures in Edinburgh (1901/02) und mehrere weitere große Werke.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Zwei Jahrzehnte zwischen zwei Krisen:</strong>
+        Zwischen der existenziellen Krise der Zwanzigerjahre und dem Herzleiden ab 1898 liegt
+        fast ein ganzes produktives Berufsleben – James' fruchtbarste, öffentlich wirksamste
+        Schaffensphase fällt in genau diese Zwischenzeit.</p>
+        <p class="vb-intro"><strong>b) Reisen nach Europa auf der Suche nach Linderung:</strong>
+        In seinen letzten Lebensjahren reiste James mehrfach nach Europa, unter anderem zu
+        einer Kur nach Bad Nauheim, einem damals renommierten Zentrum der Herzbehandlung – ein
+        Versuch, die fortschreitende Erkrankung in den Griff zu bekommen, ohne die eigene
+        akademische und öffentliche Tätigkeit vollständig aufzugeben.</p>
+        <p class="vb-intro"><strong>c) Rückkehr in die Heimat als letzter Weg:</strong>
+        Im Sommer 1910 kehrte James, gesundheitlich zunehmend geschwächt, von einer letzten
+        Europareise in sein Sommerhaus in Chocorua, New Hampshire, zurück.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Die frühe Krise als Motor der späteren Schaffenskraft:</strong>
+        Gerade die überwundene existenzielle Krise der Zwanzigerjahre scheint bei James zu
+        einer besonders intensiven, breit gefächerten späteren Schaffensenergie geführt zu
+        haben – als müsse die einst gewonnene Handlungsfähigkeit fortlaufend unter Beweis
+        gestellt werden.</p>
+        <p class="vb-intro"><strong>b) Kein sichtbarer Rückzug trotz Diagnose:</strong>
+        Anders als bei Karl Lagerfeld (SO3w4), der seine Erkrankung fast vollständig verbarg,
+        war James' Herzleiden im engeren akademischen Umfeld durchaus bekannt – dennoch
+        reduzierte er sein öffentliches und wissenschaftliches Engagement über Jahre kaum
+        sichtbar, bevor die letzten Monate eine deutliche Verschlechterung zeigten.</p>
+        <p class="vb-intro"><strong>c) Das Tempo hält bis kurz vor dem Ende:</strong>
+        Noch in den letzten Lebensmonaten arbeitete James an Manuskripten und Korrespondenz –
+        ein für die soziale Drei typisches Muster, die eigene Wirksamkeit so lange wie möglich
+        aufrechtzuerhalten.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Die erste Krise: Körper als Stellvertreter einer ungelösten Lebensfrage:</strong>
+        Die Kombination aus Rückenschmerzen, Augenproblemen, Verdauungsstörungen und
+        Schlaflosigkeit in James' Zwanzigerjahren trat exakt in der Phase auf, in der seine
+        berufliche Richtung – Malerei, Medizin, Naturwissenschaft, Philosophie – noch völlig
+        ungeklärt war. Für eine soziale Drei, deren Selbstwert eng mit sichtbarer, anerkannter
+        Wirksamkeit verknüpft ist, kann eine solche Phase beruflicher Orientierungslosigkeit
+        besonders bedrohlich wirken – der Körper reagierte, bevor eine gedankliche Lösung
+        gefunden war.</p>
+        <p class="vb-intro"><strong>b) Die Wende: ein Gedanke statt ein Medikament:</strong>
+        Bezeichnend ist, dass die entscheidende Wende nicht durch eine medizinische Behandlung,
+        sondern durch eine philosophische Einsicht kam – den bewussten Entschluss, an den
+        eigenen freien Willen zu glauben. Für den Viererflügel, der Bedeutung in Tiefe und
+        Echtheit sucht, war die Lösung folgerichtig keine oberflächliche Symptombehandlung,
+        sondern eine grundsätzliche innere Neuausrichtung.</p>
+        <p class="vb-intro"><strong>c) Die zweite Krise: das Herz als Preis für ununterbrochene Leistung:</strong>
+        Die Überlastung des Herzens 1898 traf James mitten in seiner produktivsten
+        Schaffensphase – ausgerechnet das Organ, das im übertragenen Sinn für Antrieb und
+        Einsatzbereitschaft steht, gab nach, ohne dass James sein Tempo daraufhin dauerhaft
+        drosselte.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet zwölf weitere Jahre Weiterarbeit?</strong>
+        Für eine soziale Drei mit Viererflügel, deren Selbstwert und Lebenssinn eng an
+        sichtbare, wirksame Arbeit gebunden sind, liegt eine Deutung nahe: ein Innehalten nach
+        der ersten Warnung hätte bedeutet, die eigene Wirksamkeit – und damit einen zentralen
+        Teil der eigenen Identität – infrage zu stellen. Stattdessen wurde die Arbeit
+        fortgesetzt, bis der Körper endgültig keine Fortsetzung mehr zuließ. Diese Deutung wird
+        im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Drei zwangsläufig zu Herzerkrankungen
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an James' Fall zeigen lässt, ist ein Muster, das bei dem
+        Drang, produktive Wirksamkeit auch gegen eindeutige Warnzeichen des eigenen Körpers
+        aufrechtzuerhalten, in der Praxis immer wieder auffällt – eine von vielen möglichen
+        Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach
+        und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        William James kannte sein eigenes Enneagramm-Muster nicht – die soziale Drei bemisst
+        Selbstwert an sichtbarer Wirksamkeit, und genau das ließ ihn nach der Herzüberlastung
+        von 1898 zwölf weitere Jahre in nahezu unvermindertem Tempo weiterarbeiten, statt
+        rechtzeitig grundlegend kürzerzutreten. Wer das eigene Bedürfnis, ununterbrochen
+        wirksam zu bleiben, nicht als Muster erkennt, riskiert, genau jenes Organ zu
+        überlasten, das die eigene Schaffenskraft überhaupt erst trägt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>James'</strong> soziale Drei mit Viererflügel zeigt sich in zwei
+        gegensätzlichen, aber verwandten Krisen: einer existenziellen Krise der Jugend, die er
+        durch einen bewussten Gedanken – nicht durch Medizin – überwand, und einem
+        körperlichen Herzleiden im Alter, das er trotz früher Warnung zwölf Jahre lang durch
+        unvermindertes Arbeitstempo beantwortete, statt es ernsthaft zu drosseln. Der Gepard,
+        der eine Verletzung übersteht, indem er sein Tempo hält – bis das Tempo selbst nicht
+        mehr zu halten ist.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-william-james", label:"Porträt: William James (SO3w4) – Lebenswerk"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – gleicher Subtyp"},
+        {route:"krankheitsportraets-sean-connery", label:"Krankheitsporträt: Sean Connery (SO3w4) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so3", label:"Subtyp-Profil SO3"},
+      ])}
+    </div>
+  `);
+}
