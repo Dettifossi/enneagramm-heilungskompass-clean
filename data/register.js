@@ -224,7 +224,8 @@ export const registerEntries = [
   { term: "Humor der 9 Typen",      route: "humor-der-9-typen",        description: "Die Humor-Stile der 9 Enneagrammtypen — vom satirischen Typ-1-Witz bis zum selbstironischen Schmunzeln des Typ 9." },
   { term: "Solfeggio-Frequenzen", route: "solfeggio-frequenzen", description: "Die 9 Solfeggio-Frequenzen und ihre heilenden Wirkungen auf K\xf6rper, Geist und Seele im Enneagramm-Kontext." },
   { term: "Zehn Anwendungen f\xfcr das Enneagramm", route: "zehn-anwendungen-fuer-das-enneagramm", description: "10 Lebensbereiche, in denen das Enneagramm wirkt — von pers\xf6nlichem Wachstum \xfcber F\xfchrung bis zu Elternschaft." },
-  { term: "Lookalike-Typen",         route: "lookalike-typen",          description: "Schaubild: häufig verwechselte Typen im Vergleich" },
+  { term: "Lookalike-Typen",         route: "lookalike-typen",          description: "Schaubild: Flügel- und Fluchtpunkt-Lookalikes im Vergleich" },
+  { term: "Nicht-verbundene Typen",  route: "nicht-verbundene-typen",   description: "Schaubild: Lookalike-Typen ohne Flügel- oder Fluchtpunkt-Verbindung" },
   { term: "Löwe",                    route: "tierlexikon/so8",              description: "Tierarchetyp des SO8 · Typ 8 · Bauchzentrum" },
 
   // M
@@ -2135,7 +2136,8 @@ export const registerEntriesEN = [
   { term: "Humor of the 9 Types", route: "humor-der-9-typen", description: "The humor styles of the 9 Enneagram types — from the satirical Type 1 joke to the self-deprecating smile of Type 9." },
   { term: "Solfeggio Frequencies", route: "solfeggio-frequenzen", description: "The 9 Solfeggio frequencies and their healing effects on body, mind, and soul in the Enneagram context." },
   { term: "Ten Applications for the Enneagram", route: "zehn-anwendungen-fuer-das-enneagramm", description: "10 areas of life where the Enneagram works — from personal growth to leadership to parenting." },
-  { term: "Lookalike Types", route: "lookalike-typen", description: "Diagram: frequently confused types in comparison" },
+  { term: "Lookalike Types", route: "lookalike-typen", description: "Diagram: wing and escape-point lookalikes compared" },
+  { term: "Unconnected Types", route: "nicht-verbundene-typen", description: "Diagram: lookalike types with no wing or escape-point connection" },
   { term: "Lion", route: "tierlexikon/so8", description: "Animal archetype of SO8 · Typ 8 · Belly center" },
   { term: "Power Behavior of the 9 Types", route: "machtverhalten", description: "Diagram: how each type exercises power and gains influence" },
   { term: "Feelings of Lack", route: "mangelgefuehle", description: "Diagram: the typical inner experience of lack" },

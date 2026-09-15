@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=110";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=111";
 
 import { adeleKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15999,6 +15999,7 @@ const uiText = {
       { route: "solfeggio-frequenzen", label: "Die 9 Solfeggio-Frequenzen" },
       { route: "zehn-anwendungen-fuer-das-enneagramm", label: "Zehn Anwendungen f\xfcr das Enneagramm" },
       { route: "lookalike-typen", label: "Lookalike-Typen" },
+      { route: "nicht-verbundene-typen", label: "Nicht-verbundene Typen" },
       { route: "machtverhalten", label: "Machtverhalten der 9 Typen" },
       { route: "mangelgefuehle", label: "Mangelgef\xfchle" },
       { route: "maennliche-weibliche-seite", label: "M\xe4nnliche & weibliche Seite" },
@@ -33356,7 +33357,7 @@ const SCHAUBILDER_NEU = {
   "hoellenkreise-dante": "2026-08-14",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -43349,33 +43350,86 @@ function lookalikeTypenPage() {
   return shell(`
     ${pageHeader("lookalike-typen")}
     <section class="narrow">
-      <p class="eyebrow">Schaubilder \u00b7 Lookalike-Typen</p>
-      <h1>Lookalike-Typen im Enneagramm: die nicht-verbundenen Typen</h1>
-      <p class="lead-small">Manche Enneagrammtypen sehen sich zum Verwechseln \u00e4hnlich \u2014 obwohl sie im Enneagramm-Symbol weder \u00fcber den Fl\u00fcgel noch \u00fcber einen sog. Fluchtpunkt (Stresspunkt bzw. Entspannungspunkt) miteinander in Beziehung stehen. Genau diese sog. nicht-verbundenen Typen sind es, die im Alltag am h\u00e4ufigsten verwechselt werden. Diese \u00dcbersicht zeigt die wichtigsten Lookalike-Paarungen und hilft bei der Differenzierung.</p>
+      <p class="eyebrow">Schaubilder · Lookalike-Typen</p>
+      <h1>Lookalike-Typen im Enneagramm</h1>
+      <p class="lead-small">Manche Enneagrammtypen sehen sich im Verhalten zum Verwechseln ähnlich, obwohl ihre inneren Motivationen völlig verschieden sind. Diese Übersicht zeigt die beiden im Enneagramm-Symbol selbst angelegten Ursachen dafür: einen starken Flügel oder eine Bewegung zum Fluchtpunkt (Stresspunkt bzw. Entspannungspunkt).</p>
+
+      <h2 style="font-size:1.05rem;font-weight:700;margin:2rem 0 1rem;color:var(--ink);">1. Flügel-Lookalikes</h2>
+      <div class="vb-section" style="max-width:100%;">
+        <p class="vb-intro">Ein stark ausgeprägter Flügel kann einen Typ so stark einfärben, dass er im äußeren Auftreten fast wie sein Flügel-Nachbar wirkt. Ein bekanntes Beispiel: Eine soziale Zwei mit starkem Dreierflügel (SO2w3) kann im Auftreten einer selbsterhaltenden Drei (SE3) täuschend ähnlich sehen – zielstrebig, leistungsorientiert, auf Wirkung bedacht – obwohl die Zwei aus Stolz und Beziehungsbedürfnis handelt und die Drei aus Eitelkeit und Leistungsstreben. Ebenso kann eine Drei mit starkem Viererflügel im Ausdruck stimmungsvoll und introspektiv wie eine Vier wirken, obwohl ihr eigentlicher Antrieb Erfolg und Anerkennung bleibt.</p>
+        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:#5f5f5f;">Typ 1</span> mit starkem 9er- oder 2er-Flügel kann wie Typ 9 bzw. Typ 2 wirken.</div>
+          <div><span style="font-weight:700;color:#7a2fa8;">Typ 2</span> mit starkem 1er- oder 3er-Flügel kann wie Typ 1 bzw. Typ 3 wirken.</div>
+          <div><span style="font-weight:700;color:#1fa688;">Typ 3</span> mit starkem 2er- oder 4er-Flügel kann wie Typ 2 bzw. Typ 4 wirken.</div>
+          <div><span style="font-weight:700;color:#3cbf1f;">Typ 4</span> mit starkem 3er- oder 5er-Flügel kann wie Typ 3 bzw. Typ 5 wirken.</div>
+          <div><span style="font-weight:700;color:#124fcc;">Typ 5</span> mit starkem 4er- oder 6er-Flügel kann wie Typ 4 bzw. Typ 6 wirken.</div>
+          <div><span style="font-weight:700;color:#8a5222;">Typ 6</span> mit starkem 5er- oder 7er-Flügel kann wie Typ 5 bzw. Typ 7 wirken.</div>
+          <div><span style="font-weight:700;color:#d4a800;">Typ 7</span> mit starkem 6er- oder 8er-Flügel kann wie Typ 6 bzw. Typ 8 wirken.</div>
+          <div><span style="font-weight:700;color:#a00802;">Typ 8</span> mit starkem 7er- oder 9er-Flügel kann wie Typ 7 bzw. Typ 9 wirken.</div>
+          <div><span style="font-weight:700;color:#cc6e00;">Typ 9</span> mit starkem 8er- oder 1er-Flügel kann wie Typ 8 bzw. Typ 1 wirken.</div>
+        </div>
+      </div>
+
+      <h2 style="font-size:1.05rem;font-weight:700;margin:2.5rem 0 1rem;color:var(--ink);">2. Fluchtpunkt-Lookalikes</h2>
+      <div class="vb-section" style="max-width:100%;">
+        <p class="vb-intro">Unter Stress bewegt sich ein Typ zu seinem Stresspunkt, in entspannter Verfassung zu seinem Entspannungspunkt – beides zusammen die sog. Fluchtpunkte. Am jeweiligen Fluchtpunkt übernimmt der Typ vorübergehend Verhaltenszüge des dort liegenden Typs. Beispiel: Eine soziale Sechs in ihrem Neuner-Entspannungspunkt kann verhaltensmäßig wie eine soziale Neun wirken – ruhig, vermittelnd, zurückgenommen. Dieselbe soziale Sechs unter Stress, in ihrem Dreier-Stresspunkt, kann dagegen wie eine soziale Drei wirken – auf Leistung und Außenwirkung fokussiert. In beiden Fällen bleibt der Kerntyp die Sechs, nur der sichtbare Ausdruck wechselt.</p>
+        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:#5f5f5f;">Typ 1</span> kann gestresst wie Typ 4, entspannt wie Typ 7 wirken.</div>
+          <div><span style="font-weight:700;color:#7a2fa8;">Typ 2</span> kann gestresst wie Typ 8, entspannt wie Typ 4 wirken.</div>
+          <div><span style="font-weight:700;color:#1fa688;">Typ 3</span> kann gestresst wie Typ 9, entspannt wie Typ 6 wirken.</div>
+          <div><span style="font-weight:700;color:#3cbf1f;">Typ 4</span> kann gestresst wie Typ 2, entspannt wie Typ 1 wirken.</div>
+          <div><span style="font-weight:700;color:#124fcc;">Typ 5</span> kann gestresst wie Typ 7, entspannt wie Typ 8 wirken.</div>
+          <div><span style="font-weight:700;color:#8a5222;">Typ 6</span> kann gestresst wie Typ 3, entspannt wie Typ 9 wirken.</div>
+          <div><span style="font-weight:700;color:#d4a800;">Typ 7</span> kann gestresst wie Typ 1, entspannt wie Typ 5 wirken.</div>
+          <div><span style="font-weight:700;color:#a00802;">Typ 8</span> kann gestresst wie Typ 5, entspannt wie Typ 2 wirken.</div>
+          <div><span style="font-weight:700;color:#cc6e00;">Typ 9</span> kann gestresst wie Typ 6, entspannt wie Typ 3 wirken.</div>
+        </div>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">Eine dritte, besonders interessante Gruppe sind Lookalike-Typen ganz <em>ohne</em> Flügel- oder Fluchtpunkt-Verbindung – die sog. nicht-verbundenen Typen. Mehr dazu im eigenen Schaubild <a href="javascript:void(0)" data-route="nicht-verbundene-typen" style="color:var(--copper);">Nicht-verbundene Typen</a>.</p>
+      </div>
+      ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Typbestimmung Schritt für Schritt – inkl. Lookalike-Differenzierung für alle 9 Typen.", "Die Praxis der Typbestimmung")}
+      ${relatedLinks([
+        {route:"nicht-verbundene-typen", label:"Nicht-verbundene Typen (Schaubild)"},
+        {route:"differenzierung", label:"Differenzierung"},
+        {route:"verwechslungen", label:"Verwechslungen"},
+        {route:"subtypen-checklisten", label:"Subtypen-Checklisten"},
+        {route:"fluegelbeschreibungen", label:"Flügelbeschreibungen der 9 Typen"},
+      ])}
+    </section>
+  `);
+}
+
+function nichtVerbundeneTypenPage() {
+  return shell(`
+    ${pageHeader("nicht-verbundene-typen")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Lookalike-Typen</p>
+      <h1>Nicht-verbundene Typen</h1>
+      <p class="lead-small">Die interessanteste Gruppe der Lookalike-Typen: Typen, die sich im Verhalten ähneln, obwohl zwischen ihnen im Enneagramm-Symbol <em>weder</em> ein Flügel <em>noch</em> ein Fluchtpunkt (Stresspunkt bzw. Entspannungspunkt) besteht. Hier lässt sich die Ähnlichkeit nicht auf eine im Symbol angelegte Verwandtschaft zurückführen, sondern beruht rein auf einer oberflächlichen Übereinstimmung im äußeren Verhalten.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="./assets/schaubilder/lookalike-typen/lookalike-typen.jpg"
-             alt="Lookalike-Typen im Enneagramm: die nicht-verbundenen Typen"
+             alt="Nicht-verbundene Lookalike-Typen im Enneagramm"
              class="psycho-img" />
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
-        <p class="vb-intro">Interessanterweise sind es gerade die Typen <em>ohne</em> direkte Fl\u00fcgel- oder Fluchtpunkt-Verbindung im Enneagramm-Symbol, die im Alltag am leichtesten verwechselt werden \u2014 weil sie sich in bestimmten Verhaltensmerkmalen \u00e4hneln, obwohl ihre inneren Motivationen v\u00f6llig verschieden sind. Der Fl\u00fcgel verbindet einen Typ mit seinem direkten Nachbarn auf dem Kreis, der Fluchtpunkt (Stresspunkt bzw. Entspannungspunkt) mit dem Typ am anderen Ende seiner inneren Verbindungslinie \u2014 bei den Lookalike-Paarungen fehlt beides. Die \u00c4hnlichkeit entsteht also nicht durch eine im Symbol angelegte Verwandtschaft, sondern rein durch eine oberfl\u00e4chliche \u00dcbereinstimmung im \u00e4u\u00dferen Auftreten.</p>
-        <p class="vb-intro">Bemerkenswert ist, dass genau diese nicht-verbundenen Lookalike-Typen in der Praxis auff\u00e4llig h\u00e4ufig als Liebespartner zueinanderfinden \u2014 und die Beziehung dabei durchaus gut funktioniert, obwohl keine der im Enneagramm-Symbol vorgesehenen Verbindungen (Fl\u00fcgel oder Fluchtpunkt, also Stresspunkt bzw. Entspannungspunkt) zwischen ihnen besteht. Die Anziehung entsteht hier \u00fcber eine \u00c4hnlichkeit im Wesensausdruck, die das Symbol selbst nicht vorzeichnet \u2014 ein Hinweis darauf, dass Verwandtschaft zwischen Typen nicht ausschlie\u00dflich \u00fcber die geometrischen Linien des Enneagramms erkl\u00e4rt werden kann, sondern auch \u00fcber gemeinsame Verhaltensmuster, die quer zu diesen Linien liegen.</p>
+        <p class="vb-intro">Interessanterweise sind es gerade die Typen <em>ohne</em> direkte Flügel- oder Fluchtpunkt-Verbindung im Enneagramm-Symbol, die im Alltag am leichtesten verwechselt werden — weil sie sich in bestimmten Verhaltensmerkmalen ähneln, obwohl ihre inneren Motivationen völlig verschieden sind. Der Flügel verbindet einen Typ mit seinem direkten Nachbarn auf dem Kreis, der Fluchtpunkt mit dem Typ am anderen Ende seiner inneren Verbindungslinie — bei den Lookalike-Paarungen dieser Gruppe fehlt beides.</p>
+        <p class="vb-intro">Bemerkenswert ist, dass genau diese nicht-verbundenen Lookalike-Typen in der Praxis auffällig häufig als Liebespartner zueinanderfinden — und die Beziehung dabei durchaus gut funktioniert, obwohl keine der im Enneagramm-Symbol vorgesehenen Verbindungen (Flügel oder Fluchtpunkt) zwischen ihnen besteht. Die Anziehung entsteht hier über eine Ähnlichkeit im Wesensausdruck, die das Symbol selbst nicht vorzeichnet — ein Hinweis darauf, dass Verwandtschaft zwischen Typen nicht ausschließlich über die geometrischen Linien des Enneagramms erklärt werden kann, sondern auch über gemeinsame Verhaltensmuster, die quer zu diesen Linien liegen.</p>
         <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
-          <div><span style="font-weight:700;color:#5f5f5f;">Typ 1 (Der Perfektionist)</span> wird oft verwechselt mit Typ 3 (Der Dynamiker), Typ 6 (Der loyale Skeptiker) und Typ 8 (Der Herausforderer) \u2014 alle wirken nach au\u00dfen bestimmt und kontrolliert, aus sehr unterschiedlichen inneren Gr\u00fcnden.</div>
-          <div><span style="font-weight:700;color:#7a2fa8;">Typ 2 (Der Helfer)</span> wird oft verwechselt mit Typ 7 (Der Optimist) und Typ 9 (Der Friedliche) \u2014 alle wirken warmherzig und zugewandt, doch mit unterschiedlichen Beweggr\u00fcnden.</div>
-          <div><span style="font-weight:700;color:#1fa688;">Typ 3 (Der Dynamiker)</span> wird oft verwechselt mit Typ 1 (Der Perfektionist), Typ 7 (Der Optimist) und Typ 8 (Der Herausforderer) \u2014 alle wirken tatkr\u00e4ftig und zielorientiert.</div>
-          <div><span style="font-weight:700;color:#3cbf1f;">Typ 4 (Der Individualist)</span> wird oft verwechselt mit Typ 6 (Der loyale Skeptiker), Typ 7 (Der Optimist) und Typ 9 (Der Friedliche) \u2014 alle k\u00f6nnen nach innen gerichtet und stimmungsvoll wirken.</div>
-          <div><span style="font-weight:700;color:#124fcc;">Typ 5 (Der Denker)</span> wird oft verwechselt mit Typ 1 (Der Perfektionist) und Typ 9 (Der Friedliche) \u2014 alle wirken zur\u00fcckhaltend und sachlich-distanziert.</div>
-          <div><span style="font-weight:700;color:#8a5222;">Typ 6 (Der loyale Skeptiker)</span> wird oft verwechselt mit Typ 4 (Der Individualist) und Typ 8 (Der Herausforderer) \u2014 alle k\u00f6nnen wachsam, kritisch oder konfrontativ auftreten.</div>
-          <div><span style="font-weight:700;color:#d4a800;">Typ 7 (Der Optimist)</span> wird oft verwechselt mit Typ 2 (Der Helfer), Typ 3 (Der Dynamiker) und Typ 9 (Der Friedliche) \u2014 alle wirken freundlich, leicht und angenehm im Umgang.</div>
-          <div><span style="font-weight:700;color:#a00802;">Typ 8 (Der Herausforderer)</span> wird oft verwechselt mit Typ 1 (Der Perfektionist), Typ 4 (Der Individualist) und Typ 6 (Der loyale Skeptiker) \u2014 alle k\u00f6nnen intensiv, direkt oder konfrontativ wirken.</div>
-          <div><span style="font-weight:700;color:#cc6e00;">Typ 9 (Der Friedliche)</span> wird oft verwechselt mit Typ 2 (Der Helfer), Typ 4 (Der Individualist) und Typ 7 (Der Optimist) \u2014 alle k\u00f6nnen sanft, zugewandt oder vertr\u00e4umt wirken.</div>
+          <div><span style="font-weight:700;color:#5f5f5f;">Typ 1 (Der Perfektionist)</span> wird oft verwechselt mit Typ 3 (Der Dynamiker), Typ 6 (Der loyale Skeptiker) und Typ 8 (Der Herausforderer) — alle wirken nach außen bestimmt und kontrolliert, aus sehr unterschiedlichen inneren Gründen.</div>
+          <div><span style="font-weight:700;color:#7a2fa8;">Typ 2 (Der Helfer)</span> wird oft verwechselt mit Typ 7 (Der Optimist) und Typ 9 (Der Friedliche) — alle wirken warmherzig und zugewandt, doch mit unterschiedlichen Beweggründen.</div>
+          <div><span style="font-weight:700;color:#1fa688;">Typ 3 (Der Dynamiker)</span> wird oft verwechselt mit Typ 1 (Der Perfektionist), Typ 7 (Der Optimist) und Typ 8 (Der Herausforderer) — alle wirken tatkräftig und zielorientiert.</div>
+          <div><span style="font-weight:700;color:#3cbf1f;">Typ 4 (Der Individualist)</span> wird oft verwechselt mit Typ 6 (Der loyale Skeptiker), Typ 7 (Der Optimist) und Typ 9 (Der Friedliche) — alle können nach innen gerichtet und stimmungsvoll wirken.</div>
+          <div><span style="font-weight:700;color:#124fcc;">Typ 5 (Der Denker)</span> wird oft verwechselt mit Typ 1 (Der Perfektionist) und Typ 9 (Der Friedliche) — alle wirken zurückhaltend und sachlich-distanziert.</div>
+          <div><span style="font-weight:700;color:#8a5222;">Typ 6 (Der loyale Skeptiker)</span> wird oft verwechselt mit Typ 4 (Der Individualist) und Typ 8 (Der Herausforderer) — alle können wachsam, kritisch oder konfrontativ auftreten.</div>
+          <div><span style="font-weight:700;color:#d4a800;">Typ 7 (Der Optimist)</span> wird oft verwechselt mit Typ 2 (Der Helfer), Typ 3 (Der Dynamiker) und Typ 9 (Der Friedliche) — alle wirken freundlich, leicht und angenehm im Umgang.</div>
+          <div><span style="font-weight:700;color:#a00802;">Typ 8 (Der Herausforderer)</span> wird oft verwechselt mit Typ 1 (Der Perfektionist), Typ 4 (Der Individualist) und Typ 6 (Der loyale Skeptiker) — alle können intensiv, direkt oder konfrontativ wirken.</div>
+          <div><span style="font-weight:700;color:#cc6e00;">Typ 9 (Der Friedliche)</span> wird oft verwechselt mit Typ 2 (Der Helfer), Typ 4 (Der Individualist) und Typ 7 (Der Optimist) — alle können sanft, zugewandt oder verträumt wirken.</div>
         </div>
-        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">\u201eDenn eine \u00c4hnlichkeit der Charaktere ist das st\u00e4rkste Band der Freundschaft.\u201c (Plinius der J\u00fcngere, um 61 &ndash; um 113 n. Chr., r\u00f6mischer Politiker und Schriftsteller, Epistulae, Buch IV, Brief 15)</p>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">„Denn eine Ähnlichkeit der Charaktere ist das stärkste Band der Freundschaft.“ (Plinius der Jüngere, um 61 – um 113 n. Chr., römischer Politiker und Schriftsteller, Epistulae, Buch IV, Brief 15)</p>
       </div>
-      ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Typbestimmung Schritt f\u00fcr Schritt &ndash; inkl. Lookalike-Differenzierung f\u00fcr alle 9 Typen.", "Die Praxis der Typbestimmung")}
+      ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Typbestimmung Schritt für Schritt – inkl. Lookalike-Differenzierung für alle 9 Typen.", "Die Praxis der Typbestimmung")}
       ${relatedLinks([
+        {route:"lookalike-typen", label:"Lookalike-Typen (Flügel & Fluchtpunkt)"},
         {route:"differenzierung", label:"Differenzierung"},
         {route:"verwechslungen", label:"Verwechslungen"},
         {route:"subtypen-checklisten", label:"Subtypen-Checklisten"},
@@ -76256,6 +76310,7 @@ const ROUTES = {
     "zentren-weltwahrnehmung": zentrenWeltwahrnehmungPage,
     "energetische-bewegungen": energetischeBewegungPage,
     "lookalike-typen": lookalikeTypenPage,
+    "nicht-verbundene-typen": nichtVerbundeneTypenPage,
     "bewaeltigungsstrategie": bewaeltigungsstrategiePage,
     "bedrohungsszenarien": bedrohungsszenarienPage,
     "beziehungen": beziehungenPage,

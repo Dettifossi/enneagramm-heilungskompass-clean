@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=110";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=111";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -3463,7 +3463,7 @@ const SCHAUBILDER_NEU = {
   "enneagramm-intellekt": "2026-08-08",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -3771,6 +3771,7 @@ text.nav = [
     { route: "kindliche-temperamente", label: "Childhood Temperaments" },
     { route: "kussverhalten-der-9-typen", label: "Kissing Behavior of the 9 Types" },
     { route: "lookalike-typen", label: "Lookalike Types" },
+    { route: "nicht-verbundene-typen", label: "Unconnected Types" },
     { route: "luxusautos-der-9-typen", label: "Luxury Cars of the 9 Types" },
     { route: "luxusuhren-der-9-typen", label: "Luxury Watches of the 9 Types" },
     { route: "maennliche-weibliche-seite", label: "Masculine & Feminine Side of the Enneagram" },
@@ -18264,32 +18265,85 @@ function lookalikeTypenPage() {
     ${pageHeader("lookalike-typen")}
     <section class="narrow">
       <p class="eyebrow">Charts · Lookalike Types</p>
-      <h1>Lookalike Types in the Enneagram: the Unconnected Types</h1>
-      <p class="lead-small">Some Enneagram types look strikingly similar — even though, in the Enneagram symbol itself, they are related neither by wing nor by a so-called escape point (stress point or security point). It is precisely these so-called unconnected types that are most often confused in everyday life. This overview shows the most important lookalike pairings and aids differentiation.</p>
+      <h1>Lookalike Types in the Enneagram</h1>
+      <p class="lead-small">Some Enneagram types look strikingly similar in behavior, even though their inner motivations are completely different. This overview shows the two causes laid out in the Enneagram symbol itself: a strong wing, or a movement to an escape point (stress point or security point).</p>
+
+      <h2 style="font-size:1.05rem;font-weight:700;margin:2rem 0 1rem;color:var(--ink);">1. Wing Lookalikes</h2>
+      <div class="vb-section" style="max-width:100%;">
+        <p class="vb-intro">A strongly pronounced wing can color a type so much that it appears almost like its wing neighbor in outward behavior. A well-known example: a social Two with a strong Three-wing (SO2w3) can look deceptively similar in behavior to a self-preservation Three (SE3) – driven, achievement-oriented, focused on impact – even though the Two acts out of pride and the need for relationship, while the Three acts out of vanity and the drive to achieve. Likewise, a Three with a strong Four-wing can appear moody and introspective like a Four, even though its actual drive remains success and recognition.</p>
+        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:#5f5f5f;">Type 1</span> with a strong 9-wing or 2-wing can resemble Type 9 or Type 2.</div>
+          <div><span style="font-weight:700;color:#7a2fa8;">Type 2</span> with a strong 1-wing or 3-wing can resemble Type 1 or Type 3.</div>
+          <div><span style="font-weight:700;color:#1fa688;">Type 3</span> with a strong 2-wing or 4-wing can resemble Type 2 or Type 4.</div>
+          <div><span style="font-weight:700;color:#3cbf1f;">Type 4</span> with a strong 3-wing or 5-wing can resemble Type 3 or Type 5.</div>
+          <div><span style="font-weight:700;color:#124fcc;">Type 5</span> with a strong 4-wing or 6-wing can resemble Type 4 or Type 6.</div>
+          <div><span style="font-weight:700;color:#8a5222;">Type 6</span> with a strong 5-wing or 7-wing can resemble Type 5 or Type 7.</div>
+          <div><span style="font-weight:700;color:#d4a800;">Type 7</span> with a strong 6-wing or 8-wing can resemble Type 6 or Type 8.</div>
+          <div><span style="font-weight:700;color:#a00802;">Type 8</span> with a strong 7-wing or 9-wing can resemble Type 7 or Type 9.</div>
+          <div><span style="font-weight:700;color:#cc6e00;">Type 9</span> with a strong 8-wing or 1-wing can resemble Type 8 or Type 1.</div>
+        </div>
+      </div>
+
+      <h2 style="font-size:1.05rem;font-weight:700;margin:2.5rem 0 1rem;color:var(--ink);">2. Escape-Point Lookalikes</h2>
+      <div class="vb-section" style="max-width:100%;">
+        <p class="vb-intro">Under stress, a type moves to its stress point; in a relaxed state, to its security point – together these are the so-called escape points. At each escape point, the type temporarily takes on behavioral traits of the type located there. Example: a social Six at its Nine security point can behave like a social Nine – calm, mediating, understated. That same social Six under stress, at its Three stress point, can instead behave like a social Three – focused on achievement and outward impact. In both cases the core type remains the Six; only the visible expression shifts.</p>
+        <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
+          <div><span style="font-weight:700;color:#5f5f5f;">Type 1</span> can appear like Type 4 under stress, like Type 7 when relaxed.</div>
+          <div><span style="font-weight:700;color:#7a2fa8;">Type 2</span> can appear like Type 8 under stress, like Type 4 when relaxed.</div>
+          <div><span style="font-weight:700;color:#1fa688;">Type 3</span> can appear like Type 9 under stress, like Type 6 when relaxed.</div>
+          <div><span style="font-weight:700;color:#3cbf1f;">Type 4</span> can appear like Type 2 under stress, like Type 1 when relaxed.</div>
+          <div><span style="font-weight:700;color:#124fcc;">Type 5</span> can appear like Type 7 under stress, like Type 8 when relaxed.</div>
+          <div><span style="font-weight:700;color:#8a5222;">Type 6</span> can appear like Type 3 under stress, like Type 9 when relaxed.</div>
+          <div><span style="font-weight:700;color:#d4a800;">Type 7</span> can appear like Type 1 under stress, like Type 5 when relaxed.</div>
+          <div><span style="font-weight:700;color:#a00802;">Type 8</span> can appear like Type 5 under stress, like Type 2 when relaxed.</div>
+          <div><span style="font-weight:700;color:#cc6e00;">Type 9</span> can appear like Type 6 under stress, like Type 3 when relaxed.</div>
+        </div>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">A third, especially interesting group are lookalike types with <em>neither</em> a wing nor an escape-point connection at all – the so-called unconnected types. More in the dedicated chart <a href="javascript:void(0)" data-route="nicht-verbundene-typen" style="color:var(--copper);">Unconnected Types</a>.</p>
+      </div>
+      ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Step-by-step type identification &ndash; incl. lookalike differentiation for all 9 types.", "Die Praxis der Typbestimmung")}
+      ${relatedLinks([
+        {route:"nicht-verbundene-typen", label:"Unconnected Types (Chart)"},
+        {route:"differenzierung", label:"Differentiation"},
+        {route:"verwechslungen", label:"Common Mix-ups"},
+        {route:"subtypen-checklisten", label:"Subtype Checklists"},
+        {route:"fluegelbeschreibungen", label:"Wing Descriptions of the 9 Types"},
+      ])}
+    </section>
+  `);
+}
+
+function nichtVerbundeneTypenPage() {
+  return shell(`
+    ${pageHeader("nicht-verbundene-typen")}
+    <section class="narrow">
+      <p class="eyebrow">Charts · Lookalike Types</p>
+      <h1>Unconnected Types</h1>
+      <p class="lead-small">The most interesting group of lookalike types: types that resemble each other in behavior even though, in the Enneagram symbol, <em>neither</em> a wing <em>nor</em> an escape point (stress point or security point) connects them. Here the resemblance cannot be traced back to a kinship laid out in the symbol at all, but rests purely on a surface similarity in outward behavior.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
         <img src="../assets/schaubilder/lookalike-typen/lookalike-typen.jpg"
-             alt="Lookalike types in the Enneagram: the unconnected types"
+             alt="Unconnected lookalike types in the Enneagram"
              class="psycho-img" />
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
-        <p class="vb-intro">Interestingly, it is precisely the types <em>without</em> a direct wing or escape-point connection in the Enneagram symbol that are most easily confused in everyday life — because they resemble each other in certain behavioral traits, even though their inner motivations are completely different. The wing connects a type to its direct neighbor on the circle, and the escape point (stress point or security point) to the type at the other end of its inner connecting line — in the lookalike pairings, both are absent. The resemblance, then, arises not from a kinship laid out in the symbol, but purely from a surface similarity in outward behavior.</p>
-        <p class="vb-intro">It's notable that precisely these unconnected lookalike types strikingly often become romantic partners in practice — and the relationship works well despite none of the connections foreseen by the Enneagram symbol (wing, or escape point, i.e. stress point or security point) existing between them. The attraction here arises from a resemblance in character expression that the symbol itself doesn't chart — a hint that kinship between types cannot be explained solely through the Enneagram's geometric lines, but also through shared behavioral patterns that run across those lines.</p>
+        <p class="vb-intro">Interestingly, it is precisely the types <em>without</em> a direct wing or escape-point connection in the Enneagram symbol that are most easily confused in everyday life — because they resemble each other in certain behavioral traits, even though their inner motivations are completely different. The wing connects a type to its direct neighbor on the circle, the escape point to the type at the other end of its inner connecting line — in this group's lookalike pairings, both are absent.</p>
+        <p class="vb-intro">It's notable that precisely these unconnected lookalike types strikingly often become romantic partners in practice — and the relationship works well despite none of the connections foreseen by the Enneagram symbol (wing or escape point) existing between them. The attraction here arises from a resemblance in character expression that the symbol itself doesn't chart — a hint that kinship between types cannot be explained solely through the Enneagram's geometric lines, but also through shared behavioral patterns that run across those lines.</p>
         <div style="display:grid;gap:.5rem;font-size:.9rem;line-height:1.7;">
           <div><span style="font-weight:700;color:#5f5f5f;">Type 1 (The Perfectionist)</span> is often confused with Type 3 (The Achiever), Type 6 (The Loyal Skeptic), and Type 8 (The Challenger) — all appear determined and controlled outwardly, for very different inner reasons.</div>
           <div><span style="font-weight:700;color:#7a2fa8;">Type 2 (The Helper)</span> is often confused with Type 7 (The Optimist) and Type 9 (The Peaceful One) — all appear warm and engaging, but with different motives.</div>
           <div><span style="font-weight:700;color:#1fa688;">Type 3 (The Achiever)</span> is often confused with Type 1 (The Perfectionist), Type 7 (The Optimist), and Type 8 (The Challenger) — all appear energetic and goal-oriented.</div>
           <div><span style="font-weight:700;color:#3cbf1f;">Type 4 (The Individualist)</span> is often confused with Type 6 (The Loyal Skeptic), Type 7 (The Optimist), and Type 9 (The Peaceful One) — all can appear inward-turned and moody.</div>
-          <div><span style="font-weight:700;color:#124fcc;">Type 5 (The Thinker)</span> is often confused with Type 1 (The Perfectionist) and Type 9 (The Peaceful One) — all appear reserved and matter-of-factly detached.</div>
-          <div><span style="font-weight:700;color:#8a5222;">Type 6 (The Loyal Skeptic)</span> is often confused with Type 4 (The Individualist) and Type 8 (The Challenger) — all can appear vigilant, critical, or confrontational.</div>
+          <div><span style="font-weight:700;color:#124fcc;">Type 5 (The Investigator)</span> is often confused with Type 1 (The Perfectionist) and Type 9 (The Peaceful One) — all appear reserved and matter-of-fact.</div>
+          <div><span style="font-weight:700;color:#8a5222;">Type 6 (The Loyal Skeptic)</span> is often confused with Type 4 (The Individualist) and Type 8 (The Challenger) — all can appear watchful, critical, or confrontational.</div>
           <div><span style="font-weight:700;color:#d4a800;">Type 7 (The Optimist)</span> is often confused with Type 2 (The Helper), Type 3 (The Achiever), and Type 9 (The Peaceful One) — all appear friendly, light, and pleasant to be around.</div>
           <div><span style="font-weight:700;color:#a00802;">Type 8 (The Challenger)</span> is often confused with Type 1 (The Perfectionist), Type 4 (The Individualist), and Type 6 (The Loyal Skeptic) — all can appear intense, direct, or confrontational.</div>
-          <div><span style="font-weight:700;color:#cc6e00;">Type 9 (The Peaceful One)</span> is often confused with Type 2 (The Helper), Type 4 (The Individualist), and Type 7 (The Optimist) — all can appear gentle, warm, or dreamy.</div>
+          <div><span style="font-weight:700;color:#cc6e00;">Type 9 (The Peaceful One)</span> is often confused with Type 2 (The Helper), Type 4 (The Individualist), and Type 7 (The Optimist) — all can appear gentle, engaging, or dreamy.</div>
         </div>
-        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">"For a likeness of character is the strongest bond of friendship." (Pliny the Younger, c. 61 &ndash; c. 113 AD, Roman statesman and writer, Epistulae, Book IV, Letter 15)</p>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">"For a resemblance of character is the strongest bond of friendship." (Pliny the Younger, c. 61 – c. 113 AD, Roman politician and writer, Epistulae, Book IV, Letter 15)</p>
       </div>
       ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Step-by-step type identification &ndash; incl. lookalike differentiation for all 9 types.", "Die Praxis der Typbestimmung")}
       ${relatedLinks([
+        {route:"lookalike-typen", label:"Lookalike Types (Wing & Escape Point)"},
         {route:"differenzierung", label:"Differentiation"},
         {route:"verwechslungen", label:"Common Mix-ups"},
         {route:"subtypen-checklisten", label:"Subtype Checklists"},
@@ -52005,6 +52059,7 @@ function subtypeSchaubilderPage() {
     "zentren-weltwahrnehmung": zentrenWeltwahrnehmungPage,
     "energetische-bewegungen": energetischeBewegungPage,
     "lookalike-typen": lookalikeTypenPage,
+    "nicht-verbundene-typen": nichtVerbundeneTypenPage,
     "bewaeltigungsstrategie": bewaeltigungsstrategiePage,
     "bedrohungsszenarien": bedrohungsszenarienPage,
     "beziehungen": beziehungenPage,
