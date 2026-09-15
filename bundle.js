@@ -62223,7 +62223,7 @@ function angstEssenzPage() {
 
         <div style="border-left:3px solid var(--gold);padding:.9rem 1.1rem;margin:2rem 0;background:var(--paper);border-radius:0 8px 8px 0;">
           <p style="margin:0 0 .5rem;font-size:.92rem;color:var(--ink);line-height:1.7;"><em>Das Enneagramm zeigt uns nicht, wer wir sind. Es zeigt uns, wovor wir Angst haben oder bislang hatten.</em></p>
-          <p style="margin:0;font-size:.92rem;color:var(--ink);line-height:1.7;"><em>Und dort, wo Angst bewusst gehalten werden kann, entsteht eine Freiheit, die nichts mehr kompensieren muss. Nicht Dramatisches. Nichts Spektakul\xe4res. Nur Gegenw\xe4rtigkeit &ndash; und aus ihr heraus Handlung als Ausdruck, nicht als Abwehr.</em></p>
+          <p style="margin:0;font-size:.92rem;color:var(--ink);line-height:1.7;"><em>Und dort, wo Angst bewusst gehalten werden kann, entsteht eine Freiheit, die nichts mehr kompensieren muss. Nichts Dramatisches. Nichts Spektakul\xe4res. Nur Gegenw\xe4rtigkeit &ndash; und aus ihr heraus Handlung als Ausdruck, nicht als Abwehr.</em></p>
         </div>
 
         ${relatedLinks([
