@@ -924,7 +924,8 @@ export function karlLagerfeldPortraitPage() {
         {route:"beruehmte-sahra-wagenknecht", label:"Portrait: Sahra Wagenknecht (SO3w2)"},
         {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SE3w4)"},
-        {route:"bibel-pontius-pilatus", label:"Bible Portrait: Pontius Pilate (SO3w4)"}
+        {route:"bibel-pontius-pilatus", label:"Bible Portrait: Pontius Pilate (SO3w4)"},
+        {route:"beruehmte-william-james", label:"Portrait: William James (SO3w4)"}
       ])}
     </div>
   `);
@@ -2035,6 +2036,76 @@ export function davidGarrettPortraitPage() {
         {route:"beruehmte-chester-bennington", label:"Portrait: Chester Bennington (SX4w3)"},
         {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
         {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+export function williamJamesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-william-james-portrait.jpg" alt="William James" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">William James</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Social Type 3 with Four-Wing &middot; Reinforcement type of the Three</p>
+        <p class="krim-portrait-subtitle">Philosopher &amp; psychologist, 1842–1910 – founder of American psychology and pragmatism – Animal equivalent: Cheetah</p>
+      </div>
+
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Quality of the Gaze: the observer's testing eye, wanting to be observed in turn</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In his best-known portrait photographs, William James looks straight into the camera – alert, focused, with a hint of self-irony around the eyes that his formidable white beard only emphasizes further. It is not a withdrawn, introverted gaze but one that makes contact and holds it. That is precisely the gaze quality of the social Three: visibility is not avoided but sought – the gaze is oriented toward impact in the room, not retreat from it.</p>
+          <p class="vb-intro">And yet something in this gaze goes beyond mere self-presentation: an alertness that seems to look inward even as it faces outward. Contemporaries described James as someone who, in conversation, was entirely present with the person before him – engaged, curious, never merely representative. That is the note the <strong>Four-wing (w4)</strong> brings to this gaze: an emotional depth that keeps the social impact from becoming mere facade.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Three: Founding a Discipline, Winning an Audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The social subtype of the Three, described by Claudio Naranjo as the <strong>reinforcement type</strong>, seeks significance not in quiet, private achievement but in visible impact within the social and public sphere. William James translated this drive into an entire scientific discipline: in 1875 he set up one of the first psychology laboratories in the United States at Harvard University, positioning himself as a founding figure of American psychology at a time when the field barely existed academically.</p>
+          <p class="vb-intro">His major work <em>The Principles of Psychology</em> (1890) became not only the academic standard text but was also widely read outside the field – a book that didn't merely describe a new discipline but publicly established it. James never wrote only for a specialist audience: lecture series such as <em>Talks to Teachers on Psychology</em> (1899) were deliberately aimed at a broad, non-academic public. This is the social Three at its clearest: success is measured not by inner conviction alone but by reach and recognition in the social field.</p>
+          <p class="vb-intro">It is also telling that James achieved a second major public impact alongside psychology: together with Charles Sanders Peirce, he is considered a co-founder of <strong>pragmatism</strong>, the genuinely American philosophy that measures truth by its practical consequences. Co-founding two disciplines and being recognized as a leading voice in both – that is the double ambition of the social Three, who does not settle for a single field of success.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: Religious Experience as a Borderland</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> shows itself in James in that public, measurable success alone was never enough for him – he sought at the same time the unique, the deep, the existentially significant. His late work <em>The Varieties of Religious Experience</em> (1902), grown out of the prestigious Gifford Lectures in Edinburgh, examines religious and mystical experience not theologically but as individual, often borderline states of consciousness – a highly original subject that no other psychologist of his time approached in this form.</p>
+          <p class="vb-intro">This inclination toward the extraordinary, the non-standard, was no mere intellectual pose for James. In his twenties he went through a deep existential crisis – accompanied by back pain, eye trouble, digestive problems, insomnia, and a depression that at times brought him to contemplate suicide. It was only reading the French philosopher Charles Renouvier on free will that brought the turning point: James resolved, as he noted in his diary, that his first act of free will would be to believe in free will itself. A sentence that became programmatic for his entire later work – and that reveals the melancholic depth the Four-wing carries beneath the social success facade.</p>
+          <p class="vb-intro">James's family, too, lived at this borderland between visible success and inner turmoil: his brother Henry James became one of the most significant novelists of his era, while his sister Alice James, marked by severe illness throughout her life, left behind a literarily distinctive body of work in her posthumously published diaries. In this highly gifted yet fragile family, intellectual depth was as much a given as public recognition – exactly the combination that marks the SO3w4.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Overall Impact: A Body of Work That Shaped Several Disciplines at Once</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes William James from many other scientists of his time is the breadth of his simultaneous impact: psychology, philosophy, religious studies, and even literary theory – his concept of the <em>"stream of consciousness"</em> significantly influenced literary modernism, including his own brother Henry and, later, James Joyce and Virginia Woolf. A single concept that reached across disciplinary boundaries – exactly the public, cross-field renown the social Three strives for.</p>
+          <p class="vb-intro">At the same time, as a Harvard professor James was a legendary, charismatic teacher whose lectures drew audiences far beyond the narrow circle of psychology and philosophy students. He had a gift for making complex ideas pointed, often witty, and accessible to a broad public – a gift that distinguishes many social Threes: giving the abstract a form that lands in the room and stays in memory.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Cheetah: Speed of Thought, Sharpness of Formulation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The cheetah is not an animal of long preparation but of the razor-sharp, fast strike – and exactly this quality showed in James's style of thinking. His prose is still considered unusually clear, vivid, and pointed for a philosopher of his time; he himself once quipped that his brother Henry wrote fiction like psychology, while he himself wrote psychology like fiction – a line that both displays and comments on his own rhetorical sharpness.</p>
+          <p class="vb-intro">This cheetah energy also showed in his enormous productivity across several fields within a few decades: medical studies, building a psychology laboratory, a two-volume standard work, the Gifford Lectures, co-founding pragmatism – a pace that allowed few pauses. The shadow side of this energy showed in his failing health: heart trouble accompanied him in his final years, until he died of heart failure in 1910 at the age of 68 – a cheetah that kept its pace to the very end.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path to Healing: From the Compulsion for Self-Confirmation to a Free Act</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's path to healing leads from identification with achievement and outward recognition to the discovery of a self that no longer needs to be proven through success. For William James, this path can be read almost literally in his own biography: the existential crisis of his twenties – body and mind resisting a still-unclear life direction – was a deep disruption of precisely that self-assurance with which the social Three otherwise pushes forward.</p>
+          <p class="vb-intro">The turning point came not through another external success but through an inner decision: to set belief in one's own free will as a conscious, self-chosen act before any proof of it existed. This is the mature side of the SO3w4: no longer needing impact as confirmation from outside, but living it as the expression of an inner conviction that holds true for oneself first. His later work – above all the empathetic, undogmatic engagement with religious experience in the <em>Varieties</em> – reads as a continuation of this turn: the recognition that there are realities beyond proof and public confirmation that still matter.</p>
+          <p class="vb-intro">The cheetah that does not only sprint but occasionally pauses to sense what it is running for – that is the energy that had been waiting all along behind William James's alert, engaged gaze.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
+        {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Portrait: Gottfried Wilhelm Leibniz (SO3w4)"},
+        {route:"beruehmte-teresa-von-avila", label:"Portrait: Teresa of Ávila (SO3w4)"},
       ])}
     </div>
   `);

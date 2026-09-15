@@ -924,7 +924,8 @@ export function karlLagerfeldPortraitPage() {
         {route:"beruehmte-sahra-wagenknecht", label:"Portr\u00e4t: Sahra Wagenknecht (SO3w2)"},
         {route:"beruehmte-cristiano-ronaldo", label:"Portr\u00e4t: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-david-l-rathmer", label:"Portr\u00e4t: David L. Rathmer (SE3w4)"},
-        {route:"bibel-pontius-pilatus", label:"Bibel-Portr\u00e4t: Pontius Pilatus (SO3w4)"}
+        {route:"bibel-pontius-pilatus", label:"Bibel-Portr\u00e4t: Pontius Pilatus (SO3w4)"},
+        {route:"beruehmte-william-james", label:"Portr\u00e4t: William James (SO3w4)"}
       ])}
     </div>
   `);
@@ -2033,6 +2034,76 @@ export function davidGarrettPortraitPage() {
         {route:"beruehmte-chester-bennington", label:"Porträt: Chester Bennington (SX4w3)"},
         {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3)"},
         {route:"beruehmte-voltaire", label:"Porträt: Voltaire (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+export function williamJamesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-william-james-portrait.jpg" alt="William James" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">William James</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel · Verstärkungstyp der Drei</p>
+        <p class="krim-portrait-subtitle">Philosoph &amp; Psychologe, 1842–1910 – Begründer der amerikanischen Psychologie und des Pragmatismus – Tierentsprechung: Gepard</p>
+      </div>
+
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Blickqualität: der prüfende Blick des Beobachters, der beobachtet werden will</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">William James blickt auf den bekannten Porträtfotos direkt in die Kamera – hellwach, konzentriert, mit einem Hauch von Selbstironie um die Augen, die der mächtige weiße Bart nur noch mehr betont. Es ist kein zurückgezogener, introvertierter Blick, sondern einer, der Kontakt aufnimmt und ihn hält. Genau das ist die Blickqualität der sozialen Drei: Sichtbarkeit wird nicht gemieden, sondern gesucht – der Blick ist auf Wirkung im Raum ausgerichtet, nicht auf Rückzug aus ihm.</p>
+          <p class="vb-intro">Und doch liegt in diesem Blick etwas, das über bloße Selbstinszenierung hinausgeht: eine Wachheit, die selbst nach innen zu schauen scheint, während sie nach außen gerichtet ist. Zeitgenossen beschrieben James als jemanden, der im Gespräch ganz beim Gegenüber war – zugewandt, neugierig, nie nur repräsentativ. Das ist die Note, die der <strong>Viererflügel (w4)</strong> in diesen Blick einträgt: eine emotionale Tiefe, die verhindert, dass die soziale Wirkung zur bloßen Fassade wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: eine Disziplin gründen, ein Publikum gewinnen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der soziale Subtyp der Drei, von Claudio Naranjo als <strong>Verstärkungstyp</strong> beschrieben, sucht Bedeutung nicht in stiller, privater Leistung, sondern in sichtbarer Wirkung im sozialen und gesellschaftlichen Raum. William James hat diesen Antrieb in eine ganze wissenschaftliche Disziplin übersetzt: 1875 richtete er an der Harvard University eines der ersten psychologischen Laboratorien der Vereinigten Staaten ein und positionierte sich damit als Gründungsfigur der amerikanischen Psychologie – zu einem Zeitpunkt, als dieses Feld akademisch kaum existierte.</p>
+          <p class="vb-intro">Sein Hauptwerk <em>The Principles of Psychology</em> (1890) wurde nicht nur zum akademischen Standardwerk, sondern auch außerhalb der Fachwelt breit rezipiert – ein Buch, das ein neues Feld nicht nur beschrieb, sondern öffentlich etablierte. James hat nie allein für ein Fachpublikum geschrieben: Vorlesungsreihen wie <em>Talks to Teachers on Psychology</em> (1899) richteten sich bewusst an ein breites, nicht-akademisches Publikum. Das ist die soziale Drei in ihrer klarsten Form: Erfolg bemisst sich nicht an der inneren Überzeugung allein, sondern an der Reichweite und Anerkennung im sozialen Feld.</p>
+          <p class="vb-intro">Bezeichnend ist auch, dass James parallel zur Psychologie eine zweite große öffentliche Wirkung erzielte: Gemeinsam mit Charles Sanders Peirce gilt er als Mitbegründer des <strong>Pragmatismus</strong>, jener genuin amerikanischen Philosophie, die Wahrheit an ihrer praktischen Konsequenz misst. Zwei Disziplinen mitzubegründen und in beiden als führende Stimme wahrgenommen zu werden – das ist der doppelte Ehrgeiz der sozialen Drei, die sich nicht mit einem Erfolgsfeld begnügt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: die religiöse Erfahrung als Grenzgebiet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> zeigt sich bei James darin, dass ihm der öffentliche, messbare Erfolg allein nicht genügte – er suchte zugleich das Einzigartige, Tiefe, existenziell Bedeutsame. Sein Spätwerk <em>The Varieties of Religious Experience</em> (1902), hervorgegangen aus den renommierten Gifford Lectures in Edinburgh, untersucht religiöse und mystische Erfahrungen nicht theologisch, sondern als individuelle, oft grenzwertige Bewusstseinszustände – ein hochoriginäres Thema, das kein anderer Psychologe seiner Zeit in dieser Form bearbeitete.</p>
+          <p class="vb-intro">Diese Neigung zum Außergewöhnlichen, Nicht-Standardisierten war bei James keine bloße intellektuelle Pose. In seinen Zwanzigerjahren durchlebte er eine tiefe existenzielle Krise – begleitet von Rückenschmerzen, Augenproblemen, Verdauungsstörungen, Schlaflosigkeit und einer Depression, die ihn zeitweise an Suizid denken ließ. Erst die Lektüre des französischen Philosophen Charles Renouvier über den freien Willen brachte die Wende: James beschloss, so notierte er in sein Tagebuch, dass sein erster Akt freien Willens der Glaube an den freien Willen selbst sein solle. Ein Satz, der programmatisch für sein gesamtes späteres Werk wurde – und der die melancholische Tiefe zeigt, die der Viererflügel unter der sozialen Erfolgsfassade birgt.</p>
+          <p class="vb-intro">Auch familiär war James von dieser Grenzgängerschaft zwischen sichtbarem Erfolg und innerer Zerrissenheit umgeben: Sein Bruder Henry James wurde einer der bedeutendsten Romanciers seiner Zeit, seine Schwester Alice James, die zeitlebens von schwerer Krankheit gezeichnet war, hinterließ mit ihren postum veröffentlichten Tagebüchern ein literarisch eigenständiges Werk. In dieser hochbegabten, zugleich fragilen Familie war intellektuelle Tiefe so selbstverständlich wie öffentliche Anerkennung – genau die Kombination, die den SO3w4 auszeichnet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Gesamtwirkung: ein Werk, das mehrere Disziplinen zugleich prägte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was William James von vielen anderen Wissenschaftlern seiner Zeit unterscheidet, ist die Breite seiner gleichzeitigen Wirkung: Psychologie, Philosophie, Religionswissenschaft und sogar die Literaturtheorie – sein Begriff des <em>„stream of consciousness"</em> (Bewusstseinsstrom) beeinflusste maßgeblich die literarische Moderne, unter anderem seinen eigenen Bruder Henry und später James Joyce oder Virginia Woolf. Ein einzelner Begriff, der über Fachgrenzen hinweg wirkte – genau das öffentliche, feldübergreifende Renommee, das die soziale Drei anstrebt.</p>
+          <p class="vb-intro">Zugleich war James als Harvard-Professor ein legendärer, charismatischer Lehrer, dessen Vorlesungen weit über den engen Kreis der Psychologie- und Philosophiestudenten hinaus Zulauf hatten. Er verstand es, komplexe Gedanken pointiert, oft mit Witz, einem breiten Publikum zugänglich zu machen – eine Gabe, die viele soziale Dreier auszeichnet: das Abstrakte in eine Form zu bringen, die im Raum wirkt und im Gedächtnis bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Gepard: Tempo im Denken, Schärfe in der Formulierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Gepard ist kein Tier der langen Vorbereitung, sondern des messerscharfen, schnellen Zugriffs – und genau diese Qualität zeigte sich in James' Denkstil. Seine Prosa gilt bis heute als ungewöhnlich klar, bildhaft und pointiert für einen Philosophen seiner Zeit; er selbst formulierte einmal süffisant, sein Bruder Henry schreibe Belletristik wie Psychologie und er selbst Psychologie wie Belletristik – ein Satz, der die eigene rhetorische Schärfe zugleich vorführt und kommentiert.</p>
+          <p class="vb-intro">Diese Gepard-Energie zeigte sich auch in seiner enormen Produktivität über mehrere Felder hinweg binnen weniger Jahrzehnte: Medizinstudium, Aufbau eines psychologischen Labors, ein zweibändiges Standardwerk, die Gifford Lectures, die Mitbegründung des Pragmatismus – ein Tempo, das kaum Verschnaufpausen kannte. Die Schattenseite dieser Energie zeigte sich in seiner angegriffenen Gesundheit: Herzbeschwerden begleiteten ihn in den letzten Lebensjahren, bis er 1910 im Alter von 68 Jahren an Herzversagen starb – ein Gepard, der bis zum Ende sein Tempo hielt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: vom Zwang zur Selbstbestätigung zum freien Akt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Identifikation mit Leistung und äußerer Anerkennung zur Entdeckung eines Selbst, das nicht erst durch Erfolg bewiesen werden muss. Für William James lässt sich dieser Weg fast wörtlich in seiner eigenen Biografie nachlesen: Die existenzielle Krise seiner Zwanzigerjahre – Körper und Psyche im Widerstand gegen einen noch unklaren Lebensentwurf – war eine tiefe Erschütterung genau jener Selbstverständlichkeit, mit der die soziale Drei sonst nach vorne drängt.</p>
+          <p class="vb-intro">Die Wende kam nicht durch einen weiteren äußeren Erfolg, sondern durch eine innere Entscheidung: den Glauben an den eigenen freien Willen als bewussten, selbstgewählten Akt zu setzen, bevor irgendein Beweis dafür vorlag. Das ist die reife Seite des SO3w4: Wirkung nicht länger als Bestätigung von außen zu brauchen, sondern als Ausdruck einer inneren Überzeugung zu leben, die zuerst für sich selbst gilt. Sein späteres Werk – vor allem die einfühlsame, undogmatische Auseinandersetzung mit religiöser Erfahrung in den <em>Varieties</em> – liest sich als Fortsetzung dieser Wende: die Anerkennung, dass es Wirklichkeiten jenseits von Beweis und öffentlicher Bestätigung gibt, die dennoch zählen.</p>
+          <p class="vb-intro">Der Gepard, der nicht nur sprintet, sondern gelegentlich innehält, um zu spüren, wofür er eigentlich läuft – das ist die Energie, die hinter dem wachen, zugewandten Blick William James' die ganze Zeit gewartet hat.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-karl-lagerfeld", label:"Porträt: Karl Lagerfeld (SO3w4)"},
+        {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Porträt: Gottfried Wilhelm Leibniz (SO3w4)"},
+        {route:"beruehmte-teresa-von-avila", label:"Porträt: Teresa von Ávila (SO3w4)"},
       ])}
     </div>
   `);
