@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=109";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=110";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -3463,7 +3463,7 @@ const SCHAUBILDER_NEU = {
   "enneagramm-intellekt": "2026-08-08",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -3657,6 +3657,7 @@ text.nav = [
     { route: "bewaeltigungsstrategie", label: "Coping Strategies" },
     { route: "blickqualitaet", label: "Gaze Quality" },
     { route: "dialektische-struktur", label: "Dialectical Structure" },
+    { route: "drei-finger-regel", label: "Three-Finger Rule (Subtype Variants)" },
     { route: "drei-lebenskraefte", label: "Three Life Forces" },
     { route: "drei-zentren", label: "Three Centers" },
     { route: "zentren-weltwahrnehmung", label: "Three Centers: World Perception" },
@@ -18057,6 +18058,38 @@ function egoPersoenlichkeitPage() {
         {route:"grundformel", label:"Core Formula"},
         {route:"kerneberzeugungen", label:"Core Beliefs"},
         {route:"antriebskraefte", label:"Driving Forces"},
+      ])}
+    </section>
+  `);
+}
+
+function dreiFingerRegelPage() {
+  return shell(`
+    ${pageHeader("drei-finger-regel")}
+    <section class="narrow">
+      <p class="eyebrow">Charts · The 27 Subtypes</p>
+      <h1>Three-Finger Rule for the Subtype Variants</h1>
+      <p class="lead-small">Within each of the nine Enneagram types, the three instinctual variants – self-preservation, social, sexual – live out the same passion in three quite different ways. This simple hand mnemonic helps recall the three variants in seconds when teaching.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="../assets/schaubilder/drei-finger-regel/drei-finger-regel.jpg"
+             alt="Three-Finger Rule: index finger – normal type, middle finger – reinforcement type, thumb – countertype"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">The <strong>index finger</strong> stands for the <strong>normal type</strong>: it lives out the type-specific passion in an average, expected way – matching the classic picture of the type as described in most Enneagram books. The index finger points straight ahead, at the obvious.</p>
+        <p class="vb-intro">The <strong>middle finger</strong> stands for the <strong>reinforcement type</strong>: it lives out the same passion in a reinforced, more intense form – the pattern is clearly more pronounced and usually easy for others to recognize. The middle finger is the longest: everything becomes louder, bigger, more visible.</p>
+        <p class="vb-intro">The <strong>thumb</strong> stands for the <strong>countertype</strong>: it actively denies or hides the passion, outwardly living what seems to be its opposite – which is why it is most often mistyped. The thumb stands opposed to all the other fingers, just as the countertype seems to work against its own passion.</p>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">Practice tip: precisely because the countertype does not show its actual passion outwardly, it is the hardest to recognize when typing someone live. Anyone who has internalized the three-finger rule automatically also asks about the hidden countertype possibility, instead of settling too quickly for the most obvious picture.</p>
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"subtypen-schaubilder", label:"Subtype Charts (all 27)"},
+        {route:"subtypen-checklisten", label:"Subtype Checklists"},
+        {route:"bedeutung-27-subtypen", label:"Meaning of the 27 Subtypes"},
+        {route:"horney-triaden", label:"Horneyan Triads"},
+        {route:"tischdialoge", label:"Table Dialogues of the 27 Subtypes"},
       ])}
     </section>
   `);
@@ -51868,6 +51901,7 @@ function subtypeSchaubilderPage() {
         {route:"subtypen-checklisten", label:"Subtype Checklists"},
         {route:"bedeutung-27-subtypen", label:"Meaning of the 27 Subtypes"},
         {route:"horney-triaden", label:"Horney Triads"},
+        {route:"drei-finger-regel", label:"Three-Finger Rule (Subtype Variants)"},
       ])}
     </section>
   `);
@@ -51923,6 +51957,7 @@ function subtypeSchaubilderPage() {
     "befreiende-fragen": befreiendeFragenPage,
     "fuehrungsstile": fuehrungsstilePage,
     "gifte-des-geistes": gifteDesGeistesPage,
+    "drei-finger-regel": dreiFingerRegelPage,
     "drei-zentren": dreiZentrenPage,
     "ego-persoenlichkeit": egoPersoenlichkeitPage,
     "zentren-weltwahrnehmung": zentrenWeltwahrnehmungPage,

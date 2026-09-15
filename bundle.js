@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=109";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=110";
 
 import { adeleKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15959,6 +15959,7 @@ const uiText = {
       { route: "blickqualitaet", label: "Blickqualit\u00e4t" },
       { route: "bundeslaender", label: "Deutsche Bundesl\u00e4nder" },
       { route: "dialektische-struktur", label: "Dialektische Struktur" },
+      { route: "drei-finger-regel", label: "Drei-Finger-Regel (Subtypenvarianten)" },
       { route: "drei-lebenskraefte", label: "Drei Lebenskr\u00e4fte" },
       { route: "drei-zentren", label: "Drei Zentren" },
       { route: "zentren-weltwahrnehmung", label: "Drei Zentren: Weltwahrnehmung" },
@@ -33355,7 +33356,7 @@ const SCHAUBILDER_NEU = {
   "hoellenkreise-dante": "2026-08-14",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -41767,6 +41768,38 @@ function schaubilderUebersichtPage() {
           )
           .join("")}
       </div>
+    </section>
+  `);
+}
+
+function dreiFingerRegelPage() {
+  return shell(`
+    ${pageHeader("drei-finger-regel")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Die 27 Subtypen</p>
+      <h1>Drei-Finger-Regel bei den Subtypenvarianten</h1>
+      <p class="lead-small">Innerhalb jedes der neun Enneagrammtypen leben die drei Instinktvarianten – Selbsterhaltung, Sozial, Sexuell – dieselbe Leidenschaft auf drei ganz unterschiedliche Weisen. Diese einfache Merkregel mit der Hand hilft, sich die drei Varianten im Unterricht in Sekunden zu vergegenwärtigen.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="./assets/schaubilder/drei-finger-regel/drei-finger-regel.jpg"
+             alt="Drei-Finger-Regel: Zeigefinger – Normaltyp, Mittelfinger – Verstärkungstyp, Daumen – Kontratyp"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Der <strong>Zeigefinger</strong> steht für den <strong>Normaltyp</strong>: Er lebt die typspezifische Leidenschaft auf eine durchschnittliche, erwartbare Weise – deckungsgleich mit dem klassischen Bild des Typs, wie es in den meisten Enneagramm-Büchern beschrieben wird. Der Zeigefinger zeigt geradeaus, auf das Naheliegende.</p>
+        <p class="vb-intro">Der <strong>Mittelfinger</strong> steht für den <strong>Verstärkungstyp</strong>: Er lebt dieselbe Leidenschaft verstärkt und intensiver aus – das Muster ist deutlich ausgeprägter und für andere meist gut erkennbar. Der Mittelfinger ist der längste: Alles wird lauter, größer, sichtbarer.</p>
+        <p class="vb-intro">Der <strong>Daumen</strong> steht für den <strong>Kontratyp</strong>: Er verneint oder verbirgt die Leidenschaft aktiv und lebt nach außen scheinbar das Gegenteil davon – weshalb er am häufigsten falsch typisiert wird. Der Daumen steht allen anderen Fingern entgegen, genau wie der Kontratyp seiner eigenen Leidenschaft entgegenzuwirken scheint.</p>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">Praxistipp: Gerade weil der Kontratyp seine eigentliche Leidenschaft nach außen nicht zeigt, ist er in der Live-Typisierung am schwersten zu erkennen. Wer die Drei-Finger-Regel verinnerlicht hat, fragt automatisch auch nach der versteckten Kontratyp-Möglichkeit, statt vorschnell beim offensichtlichsten Bild stehen zu bleiben.</p>
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${relatedLinks([
+        {route:"subtypen-schaubilder", label:"Subtypen-Schaubilder (alle 27)"},
+        {route:"subtypen-checklisten", label:"Subtypen-Checklisten"},
+        {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypen"},
+        {route:"horney-triaden", label:"Horney-Triaden & Subtypen"},
+        {route:"tischdialoge", label:"Tischdialoge der 27 Subtypen"},
+      ])}
     </section>
   `);
 }
@@ -62233,6 +62266,7 @@ function subtypeSchaubilderPage() {
         {route:"subtypen-checklisten", label:"Subtypen-Checklisten"},
         {route:"bedeutung-27-subtypen", label:"Bedeutung der 27 Subtypen"},
         {route:"horney-triaden", label:"Horney-Triaden"},
+        {route:"drei-finger-regel", label:"Drei-Finger-Regel (Subtypenvarianten)"},
       ])}
     </section>
   `);
@@ -76174,6 +76208,7 @@ const ROUTES = {
     "befreiende-fragen": befreiendeFragenPage,
     "fuehrungsstile": fuehrungsstilePage,
     "gifte-des-geistes": gifteDesGeistesPage,
+    "drei-finger-regel": dreiFingerRegelPage,
     "drei-zentren": dreiZentrenPage,
     "ego-persoenlichkeit": egoPersoenlichkeitPage,
     "zentren-weltwahrnehmung": zentrenWeltwahrnehmungPage,
