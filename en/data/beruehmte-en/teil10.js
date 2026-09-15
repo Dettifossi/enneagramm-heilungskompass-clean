@@ -2054,3 +2054,69 @@ export function timCookPortraitPage() {
     </div>
   `);
 }
+
+export function anneApplebaumPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-anne-applebaum-portrait.jpg" alt="Anne Applebaum" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anne Applebaum</p>
+        <p class="krim-portrait-typ">SO6w7 &middot; Social Type 6 with a Seven-Wing</p>
+        <p class="krim-portrait-subtitle">Historian &amp; Journalist, born 1964 &ndash; Animal correspondence: Meerkat</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Meerkat That Does Not Wait for the Danger to Become Visible</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>meerkat</strong> keeps watch for the group. But not every meerkat watches the same way: some climb quietly onto the highest rock and methodically scan the horizon – that is the five-wing. Others are already running, sounding the alarm loudly, mobilizing before the threat is even visible to everyone else – that is the seven-wing. Anne Applebaum, born in 1964 in Washington, D.C., unmistakably belongs to the second kind.</p>
+          <p class="vb-intro">As a Pulitzer Prize winner, author of numerous books on Soviet repression and democratic decline, and a staff writer for The Atlantic, she moves within a dense network of media, think tanks, and international political circles – from the Wall Street Journal to European security conferences. Her manner is described as "direct, unambiguous, with a sense of moral urgency" – precisely the mix of vigilance and tempo that defines the SO6w7.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Duty: Security Through Warning, Not Through Retreat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the social Type 6 <strong>Duty</strong> – security arises through service to the community, through fulfilling a task larger than oneself. Applebaum's entire life's work is precisely this duty in book form: <em>Gulag: A History</em> (2004 Pulitzer Prize), <em>Iron Curtain</em>, <em>Red Famine</em> on Stalin's man-made famine in Ukraine, <em>Twilight of Democracy</em> (2020) on the collapse of democratic friend-circles into authoritarian sympathies, and most recently <em>Autocracy, Inc.</em> (2024) on the global network of modern dictatorships.</p>
+          <p class="vb-intro">Where an SO6w5 like Grit Straßenberger seeks security through quiet, systematizing immersion in an academic canon, the SO6w7 seeks security through loudly, publicly naming the danger before it engulfs everyone. Applebaum serves the democratic community not by retreating into scholarly literature, but through the sheer tempo of the warning itself – books, columns, lectures, a steady stream of public intervention.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Warning as Movement, Not as Retreat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>seven-wing (w7)</strong> gives the social Six something an SO6 with a weakly developed seven-wing would scarcely develop: reach, tempo, and the conviction that acting and informing are better than quiet persistence. Applebaum's own career is a textbook example: Yale, a Marshall Scholarship at LSE and Oxford, then working as a correspondent in the middle of Eastern Europe's upheaval – she was physically present as communism collapsed, not a detached archival researcher afterward.</p>
+          <p class="vb-intro">Her private life shows the same outward opening: she is married to the Polish politician Radosław Sikorski, former Polish foreign and defense minister – her life is literally woven into the political center of Europe, not sealed off from it. Where the five-wing channels energy inward into analysis and systematization, the seven-wing directs it outward: networking, publicity, the next urgent case, the next warning.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From the Gulag to Global Autocracy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><em>Twilight of Democracy</em> tellingly opens with a private New Year's Eve party in Poland in 1999 – and the observation of how many of the guests that night, close friends and political allies, turned toward authoritarian, nationalist movements over the following two decades. This is the SO6 core wound in its purest form: the real trauma is not the external enemy, but the breaking of trust within one's own community, once believed safe.</p>
+          <p class="vb-intro">With <em>Autocracy, Inc.</em>, she extends this observation to the global scale: modern autocracies, she argues, already cooperate across borders like a corporate network – a threat that only becomes visible to someone who keeps watch outward, permanently, rather than retreating into national or academic boundaries.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Six with a Seven-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO6w7 shows in Applebaum's ability to state complex historical and geopolitical connections so clearly and urgently that she is heard far beyond specialist circles – a sentinel who actually reaches the community, rather than only warning for herself.</p>
+          <p class="vb-intro">The shadow of the SO6w7 lies in the risk that one's own vigilance itself turns into a permanent state of alarm that rarely settles – every new book another warning signal, every new twist in world politics another occasion to raise the alarm. Where an SO6w5 may deliberate too long before judging, the SO6w7 risks repeating its own urgency so often that it loses impact before the actual danger even arrives.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Meerkat That Turns the Watch Itself Into Public Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Two meerkats, the same core question of legitimate versus dangerous authority – two entirely different ways of living it: Grit Straßenberger (SO6w5) keeps watch by digging deep into the academic canon and examining from within it. Anne Applebaum (SO6w7) keeps watch by carrying what she sees outward with tempo and reach, before the danger reaches the whole community.</p>
+          <p class="vb-intro">What remains is an image that could hardly fit this compass more precisely: a historian whose entire body of work is devoted to a single question – how communities lose their freedom – and who does not sit still herself as long as that question remains unanswered.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
+        {route:"beruehmte-grit-strassenberger", label:"Portrait: Prof. Dr. Grit Straßenberger (SO6w5)"},
+        {route:"beruehmte-donata-hopfen", label:"Portrait: Donata Hopfen (SO6w7)"},
+        {route:"beruehmte-herbert-groenemeyer", label:"Portrait: Herbert Grönemeyer (SO6w7)"},
+      ])}
+    </div>
+  `);
+}

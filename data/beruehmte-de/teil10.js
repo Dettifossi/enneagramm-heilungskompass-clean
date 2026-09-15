@@ -2055,3 +2055,69 @@ export function timCookPortraitPage() {
     </div>
   `);
 }
+
+export function anneApplebaumPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-anne-applebaum-portrait.jpg" alt="Anne Applebaum" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anne Applebaum</p>
+        <p class="krim-portrait-typ">SO6w7 &middot; Sozialer Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Historikerin &amp; Journalistin, geb. 1964 &ndash; Tierentsprechung: Erdmännchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdmännchen, das nicht wartet, bis die Gefahr sichtbar wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdmännchen</strong> hält Wache für die Gruppe. Doch nicht jedes Erdmännchen wacht auf dieselbe Weise: Manche klettern still auf den höchsten Stein und scannen methodisch den Horizont – das ist der Fünferflügel. Andere rennen bereits los, warnen laut, mobilisieren, bevor die Bedrohung für alle anderen überhaupt sichtbar ist – das ist der Siebenerflügel. Anne Applebaum, 1964 in Washington, D.C. geboren, gehört unübersehbar zur zweiten Sorte.</p>
+          <p class="vb-intro">Als Pulitzer-Preisträgerin, Autorin zahlreicher Bücher über sowjetische Repression und demokratischen Verfall sowie als Staff Writer des Atlantic bewegt sie sich in einem dichten Netz aus Medien, Think Tanks und internationalen Politikkreisen – von der Wall Street Journal bis zu europäischen Sicherheitskonferenzen. Ihr Auftreten wird als "direkt, unmissverständlich, mit einem Gespür für moralische Dringlichkeit" beschrieben – genau die Mischung aus Wachsamkeit und Tempo, die die SO6w7 auszeichnet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Pflicht: Sicherheit durch Warnung, nicht durch Rückzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 6 die <strong>Pflicht</strong> – Sicherheit entsteht durch Dienst an der Gemeinschaft, durch das Erfüllen einer Aufgabe, die größer ist als man selbst. Applebaums gesamtes Lebenswerk ist genau diese Pflicht in Buchform: <em>Gulag: A History</em> (Pulitzer-Preis 2004), <em>Iron Curtain</em>, <em>Red Famine</em> über Stalins Hungerkatastrophe in der Ukraine, <em>Twilight of Democracy</em> (2020) über den Zerfall demokratischer Freundeskreise in autoritäre Sympathien, zuletzt <em>Autocracy, Inc.</em> (2024) über das globale Netzwerk moderner Diktaturen.</p>
+          <p class="vb-intro">Wo eine SO6w5 wie Grit Straßenberger Sicherheit durch die stille, systematisierende Vertiefung in einen akademischen Kanon sucht, sucht die SO6w7 Sicherheit durch das laute, öffentliche Aussprechen der Gefahr, bevor sie alle erfasst. Applebaum dient der demokratischen Gemeinschaft nicht durch Rückzug in die Fachliteratur, sondern durch das Tempo der Warnung selbst – Bücher, Kolumnen, Vorträge, ein beständiger Strom öffentlicher Intervention.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Warnung als Bewegung, nicht als Rückzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der sozialen Sechs etwas, das eine SO6 mit schwach ausgeprägtem Siebenerflügel kaum entwickeln würde: Reichweite, Tempo und die Überzeugung, dass Handeln und Aufklären besser sind als stilles Verharren. Applebaums Karriere selbst ist ein Musterbeispiel: Yale, Marshall-Stipendiatin an der LSE und in Oxford, dann als Korrespondentin mitten im Umbruch Osteuropas – sie war physisch vor Ort, als der Kommunismus zusammenbrach, nicht als distanzierte Archivforscherin danach.</p>
+          <p class="vb-intro">Auch privat zeigt sich dieselbe Öffnung nach außen: Sie ist mit dem polnischen Politiker Radosław Sikorski verheiratet, ehemaliger Außen- und Verteidigungsminister Polens – ihr Leben ist buchstäblich in die politische Mitte Europas eingewoben, nicht davon abgeschottet. Wo der Fünferflügel die Energie nach innen in Analyse und Systematisierung lenkt, richtet der Siebenerflügel sie nach außen: Vernetzung, Öffentlichkeit, der nächste dringende Fall, die nächste Warnung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Gulag zur globalen Autokratie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><em>Twilight of Democracy</em> beginnt bezeichnenderweise mit einer privaten Silvesterparty im Polen des Jahres 1999 – und der Beobachtung, wie viele der damaligen Gäste, enge Freunde und politische Weggefährten, sich in den folgenden zwei Jahrzehnten autoritären, nationalistischen Bewegungen zuwandten. Das ist die SO6-Kernwunde in ihrer reinsten Form: nicht der externe Feind ist das eigentliche Trauma, sondern das Zerbrechen des Vertrauens innerhalb der eigenen, einst sicher geglaubten Gemeinschaft.</p>
+          <p class="vb-intro">Mit <em>Autocracy, Inc.</em> erweitert sie diese Beobachtung ins Globale: Moderne Autokratien, so ihre These, kooperieren längst über Grenzen hinweg wie ein Firmennetzwerk – eine Bedrohung, die nur erkennt, wer permanent wachsam nach außen blickt, nicht wer sich in nationale oder akademische Grenzen zurückzieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Sechs mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO6w7 zeigt sich in Applebaums Fähigkeit, komplexe historische und geopolitische Zusammenhänge so klar und dringlich zu formulieren, dass sie weit über Fachkreise hinaus gehört wird – eine Wächterin, die die Gemeinschaft tatsächlich erreicht, statt nur für sich selbst zu warnen.</p>
+          <p class="vb-intro">Der Schatten der SO6w7 liegt in der Gefahr, dass die eigene Wachsamkeit selbst zur permanenten Alarmbereitschaft wird, die kaum noch zur Ruhe kommt – jedes neue Buch ein neues Alarmsignal, jede neue Volte in der Weltpolitik ein neuer Anlass zur Warnung. Wo eine SO6w5 zu lange prüft, bevor sie urteilt, kann die SO6w7 riskieren, die eigene Dringlichkeit so oft zu wiederholen, dass sie an Wirkung verliert, bevor die eigentliche Gefahr überhaupt eintritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Erdmännchen, das die Wache selbst zur Öffentlichkeit macht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zwei Erdmännchen, dieselbe Kernfrage nach legitimer und gefährlicher Autorität – zwei völlig verschiedene Wege, sie zu leben: Grit Straßenberger (SO6w5) hält Wache, indem sie sich tief in den akademischen Kanon eingräbt und von dort aus prüft. Anne Applebaum (SO6w7) hält Wache, indem sie mit Tempo und Reichweite hinausträgt, was sie sieht, bevor die Gefahr die ganze Gemeinschaft erreicht.</p>
+          <p class="vb-intro">Am Ende bleibt ein Bild, das für diesen Kompass kaum treffender sein könnte: eine Historikerin, deren gesamtes Werk der einen Frage gewidmet ist, wie Gemeinschaften ihre Freiheit verlieren – und die selbst nicht stillhält, solange diese Frage noch nicht beantwortet ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
+        {route:"beruehmte-grit-strassenberger", label:"Porträt: Prof. Dr. Grit Straßenberger (SO6w5)"},
+        {route:"beruehmte-donata-hopfen", label:"Porträt: Donata Hopfen (SO6w7)"},
+        {route:"beruehmte-herbert-groenemeyer", label:"Porträt: Herbert Grönemeyer (SO6w7)"},
+      ])}
+    </div>
+  `);
+}
