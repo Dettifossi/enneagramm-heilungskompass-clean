@@ -2051,3 +2051,69 @@ export function avrilLavignePortraitPage() {
     </div>
   `);
 }
+
+export function anneWillPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-anne-will-portrait.jpg" alt="Anne Will" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anne Will</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation One with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">Journalist &amp; Talk Show Host, born 1966 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle That Corrects Its Own Flight Path Before Anyone Else Can</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> does not fly wildly or without a plan, but in a controlled, straight line, with a constant eye on its own trajectory. Anne Will, born in 1966 in Cologne, has embodied this straightness for decades: from the "Tagesthemen" news broadcast to "Sportschau" to her own political talk show "Anne Will" (2007–2023, 553 episodes), her path ran remarkably consistently – a rise built on discipline and preparation, not spectacular breaks.</p>
+          <p class="vb-intro">Telling is how she describes her own moderating style: reserved, not centered on herself but on the topic. This is no coincidence but method – the eagle of the Self-Preservation One directs its energy not toward its own stage presence, but toward the flawless execution of its own task.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Worry: One's Own Correctness as the Standard, Not Others'</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the Self-Preservation One <strong>Worry</strong> – the inner critic is directed first and foremost against one's own imperfection, not primarily outward. A moment from a ZDF "Til Tonight" interview captures this precisely: Will delivered sharp self-criticism, describing her own on-air language as "overstated, extra correct, super announced" – and called that herself "highly unsympathetic."</p>
+          <p class="vb-intro">This is the Self-Preservation One at its purest: not reprimanding others for a lack of correctness (that would be more the Social One), but recognizing and naming one's own overcorrectness as the flaw. Her own self-description – "I'm a calm type anyway," "calm, composure, journalistic competence, and good preparation" – reads like a commitment to living up to her own work, not a demand placed on others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Asking Personal Questions, Not Only Thinking Politically</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> shows in the motto of her own show: "Thinking politically, asking personally." A Self-Preservation One with a weakly developed two-wing would stay purely factual; the two-wing opens the interviewing style toward the personal, relational dimension – not only what position a guest holds, but who the person behind the position is.</p>
+          <p class="vb-intro">The same wing coloring appears in Alain Delon (SE1w2): a controlled, disciplined facade beneath which lies genuine but carefully measured attentiveness to others – in Will's case visible in journalistic curiosity about the person behind the office, not in public emotionality.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Stage She Never Wanted</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">"I felt completely uncomfortable in front of the camera," Will said, looking back on her early years. This is not a contradiction to her public career but typical for the Self-Preservation One: the stage is not sought because it promises attention, but accepted because the task – correct, serious political information – demands it. The discipline serves the cause, not one's own appearance.</p>
+          <p class="vb-intro">This exact tension – having to be publicly visible even though one's own inclination pulls toward reserve – reads as the typical friction of the Self-Preservation One in a public-facing profession: one's own insecurity is compensated through even more preparation, even more control, not through withdrawal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One with a Two-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE1w2 shows in Will's journalistic reliability across more than two decades – a host trusted to be thoroughly prepared and fair on any topic, precisely because she took her own fallibility seriously instead of suppressing it.</p>
+          <p class="vb-intro">The shadow lies in exactly the self-criticism she herself exposed: the risk that one's own correctness hardens into a facade perceived as unsympathetic or distant – a strictness toward oneself that reads colder from the outside than it is meant.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Eagle That Would Rather Be Too Correct Than Too Casual</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What remains is the image of a journalist who recognized and openly voiced her own overcorrectness – a rare moment in which the Self-Preservation One quotes her own inner critic publicly, instead of letting it work only in silence.</p>
+          <p class="vb-intro">A straight-line rise, meticulous preparation, public reserve despite decades of visibility – this is the Self-Preservation One with a two-wing, who would rather be remembered as too correct than as too casual.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-alain-delon", label:"Portrait: Alain Delon (SE1w2)"},
+        {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-herfried-muenkler", label:"Portrait: Herfried Münkler (SO6w7)"},
+      ])}
+    </div>
+  `);
+}

@@ -2044,6 +2044,7 @@ export function alainDelonPortraitPage() {
         {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
         {route:"beruehmte-arnold-schwarzenegger", label:"Portrait: Arnold Schwarzenegger (SE1w2)"},
+        {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SE1w2)"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
         {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SE1w9)"},
       ])}

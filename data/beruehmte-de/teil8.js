@@ -2055,8 +2055,75 @@ export function alainDelonPortraitPage() {
         {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
         {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
         {route:"beruehmte-arnold-schwarzenegger", label:"Porträt: Arnold Schwarzenegger (SE1w2)"},
+        {route:"beruehmte-anne-will", label:"Porträt: Anne Will (SE1w2)"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-tim-cook", label:"Porträt: Tim Cook (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+export function anneWillPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-anne-will-portrait.jpg" alt="Anne Will" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anne Will</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltende Eins mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Journalistin &amp; Moderatorin, geb. 1966 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der die eigene Flugbahn korrigiert, bevor jemand anderes es tut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> fliegt nicht wild und ungeplant, sondern kontrolliert, geradlinig, mit ständigem Blick auf die eigene Flugbahn. Anne Will, 1966 in Köln geboren, verkörpert diese Geradlinigkeit seit Jahrzehnten: von den "Tagesthemen" über die "Sportschau" bis zur eigenen politischen Talkshow "Anne Will" (2007–2023, 553 Folgen) verlief ihr Weg bemerkenswert konsequent – ein Aufstieg durch Disziplin und Vorbereitung, nicht durch spektakuläre Brüche.</p>
+          <p class="vb-intro">Bezeichnend ist, wie sie ihren eigenen Moderationsstil beschreibt: zurückhaltend, nicht auf sich selbst, sondern auf die Sache konzentriert. Das ist kein Zufall, sondern Methode – der Adler der selbsterhaltenden Eins lenkt seine Energie nicht auf die eigene Bühnenpräsenz, sondern auf die makellose Ausführung der eigenen Aufgabe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Sorge: Die eigene Korrektheit als Maßstab, nicht die der anderen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die selbsterhaltende Eins die <strong>Sorge</strong> – der innere Kritiker richtet sich nicht primär nach außen, sondern zuerst gegen die eigene Unvollkommenheit. Ein Interview-Moment bei ZDF "Til Tonight" bringt das auf den Punkt: Will übte scharfe Selbstkritik und beschrieb ihre eigene Sprache als "übersteigert, extra korrekt, superangesagt" – und nannte das selbst "hochunsympathisch".</p>
+          <p class="vb-intro">Das ist die selbsterhaltende Eins in Reinform: nicht andere für mangelnde Korrektheit rügen (das wäre eher die soziale Eins), sondern die eigene Überkorrektheit selbst als Fehler erkennen und benennen. Ihre eigene Beschreibung – "ich bin sowieso ein ruhiger Typ", "Ruhe, Souveränität, journalistische Kompetenz und gute Vorbereitung" – liest sich wie eine Selbstverpflichtung, der eigenen Arbeit gerecht zu werden, nicht wie ein Anspruch an andere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Persönlich fragen, nicht nur politisch denken</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> zeigt sich im Motto ihrer eigenen Sendung: "Politisch denken, persönlich fragen". Eine selbsterhaltende Eins mit schwach ausgeprägtem Zweierflügel würde beim rein Sachlichen bleiben; der Zweierflügel öffnet die Interviewführung für die persönliche, beziehungsorientierte Dimension – nicht nur, welche Position ein Gast vertritt, sondern wer die Person hinter der Position ist.</p>
+          <p class="vb-intro">Dieselbe Flügelfärbung findet sich bei Alain Delon (SE1w2): eine kontrollierte, disziplinierte Fassade, unter der eine echte, aber sorgfältig dosierte Zuwendung zu anderen liegt – bei Will sichtbar in der journalistischen Neugier auf den Menschen hinter dem Amt, nicht in öffentlicher Emotionalität.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Bühne, die sie nicht wollte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">"Ich habe mich vor der Kamera total unwohl gefühlt", sagte Will rückblickend über ihre frühen Jahre. Das ist kein Widerspruch zur öffentlichen Karriere, sondern typisch für die selbsterhaltende Eins: Die Bühne wird nicht gesucht, weil sie Aufmerksamkeit verspricht, sondern in Kauf genommen, weil die Aufgabe – korrekte, seriöse politische Information – es verlangt. Die Disziplin gilt der Sache, nicht dem eigenen Auftritt.</p>
+          <p class="vb-intro">Genau diese Spannung – öffentlich sichtbar sein müssen, obwohl die eigene Neigung zur Zurückhaltung drängt – lässt sich als die typische Reibung der selbsterhaltenden Eins in einem sozialen Beruf lesen: die eigene Unsicherheit wird durch noch mehr Vorbereitung, noch mehr Kontrolle kompensiert, nicht durch Rückzug.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w2 zeigt sich in Wills journalistischer Verlässlichkeit über mehr als zwei Jahrzehnte hinweg – eine Moderatorin, der man zutraute, bei jedem Thema gründlich vorbereitet und fair zu sein, gerade weil sie die eigene Fehlbarkeit ernst nahm, statt sie zu verdrängen.</p>
+          <p class="vb-intro">Der Schatten liegt in genau der Selbstkritik, die sie selbst offenlegte: die Gefahr, dass die eigene Korrektheit zur Fassade gerinnt, die als unsympathisch oder unnahbar wahrgenommen wird – eine Strenge gegen sich selbst, die nach außen kälter wirkt, als sie gemeint ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Adler, der lieber zu korrekt als zu lässig sein wollte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am Ende bleibt das Bild einer Journalistin, die ihre eigene Überkorrektheit selbst erkannt und offen ausgesprochen hat – ein seltener Moment, in dem die selbsterhaltende Eins ihren eigenen inneren Kritiker öffentlich zitiert, statt ihn nur im Stillen wirken zu lassen.</p>
+          <p class="vb-intro">Geradliniger Aufstieg, akribische Vorbereitung, öffentliche Zurückhaltung trotz jahrzehntelanger Sichtbarkeit – das ist die selbsterhaltende Eins mit Zweierflügel, die lieber als zu korrekt denn als zu lässig in Erinnerung bleiben wollte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-alain-delon", label:"Porträt: Alain Delon (SE1w2)"},
+        {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
+        {route:"beruehmte-herfried-muenkler", label:"Porträt: Herfried Münkler (SO6w7)"},
       ])}
     </div>
   `);
