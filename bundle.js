@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=116";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=117";
 
 import { adeleKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -16081,6 +16081,7 @@ const uiText = {
       { route: "schopenhauer-zitat", label: "Schopenhauer-Zitat" },
       { route: "symmetrie-des-enneagramms", label: "Symmetrie des Enneagramms" },
       { route: "schaubilder-als-spiegel", label: "Schaubilder als Spiegel" },
+      { route: "schatten-projektionen-miasmen", label: "Schatten, Projektionen & Miasmen" },
       { route: "schmerzschutz", label: "Schmerzschutz" },
       { route: "neun-logismoi", label: "9 Logismoi (Evagrius)" },
       { route: "spirituelle-uebungen", label: "Spirituelle \xdcbungen" },
@@ -33364,7 +33365,7 @@ const SCHAUBILDER_NEU = {
   "hoellenkreise-dante": "2026-08-14",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -62150,6 +62151,84 @@ function gifteDesGeistesPage() {
   `);
 }
 
+function schattenProjektionenMiasmenPage() {
+  const rows = [
+    { typ:9, energie:"Bauchenergie blockiert (verdrängt)", schatten:"Ich bin unwichtig, ich bin nicht liebenswert.", projektion:"Andere sind wichtiger und liebenswerter als ich.", miasma:"Psora", label:"Trägheit & Harmonie" },
+    { typ:1, energie:"Bauchenergie umfunktioniert (umgewandelt)", schatten:"Mit mir stimmt etwas nicht.", projektion:"Mit der Welt stimmt etwas nicht.", miasma:"Syphilis", label:"Perfektionismus" },
+    { typ:2, energie:"Herzenergie überentwickelt", schatten:"Ich bin nicht liebenswert. Ich bin bedeutungslos.", projektion:"Ich brauche die Liebe und Anerkennung anderer.", miasma:"Sykose", label:"Manipulation" },
+    { typ:3, energie:"Herzenergie blockiert (verdrängt)", schatten:"Ich bin leer und substanzlos.", projektion:"Andere können mich nur für meine Leistung anerkennen.", miasma:"Psora", label:"Image" },
+    { typ:4, energie:"Herzenergie umfunktioniert (umgewandelt)", schatten:"Ich bin verlassen worden. Ich bin abgetrennt von allem.", projektion:"Ich bin vom Verlust gekennzeichnet und deshalb einzigartig.", miasma:"Syphilis", label:"Romantik & Tragik" },
+    { typ:5, energie:"Kopfenergie überentwickelt", schatten:"Ich bin innerlich leer. Ich bin isoliert.", projektion:"Ich weiß alles. Ich stehe über den Dingen.", miasma:"Sykose", label:"Wissen & Beobachten" },
+    { typ:6, energie:"Kopfenergie blockiert (verdrängt)", schatten:"Ich bin schwach und unfähig. Die Welt ist feindlich.", projektion:"Ich bin loyal. Ich diene einer größeren Sache.", miasma:"Psora", label:"Angst & Zweifel" },
+    { typ:7, energie:"Kopfenergie umfunktioniert (umgewandelt)", schatten:"Ich bin von der Quelle abgeschnitten.", projektion:"Ich plane, ich bin o.k.", miasma:"Syphilis", label:"Planen & Optimismus" },
+    { typ:8, energie:"Bauchenergie überentwickelt", schatten:"Ich bin schwach. Ich bin schlecht.", projektion:"Das Leben hat mich ungerecht behandelt.", miasma:"Sykose", label:"Rache" },
+  ];
+  const miasmaColor = { Psora:"#2980b9", Sykose:"#27ae60", Syphilis:"#c0392b" };
+  return shell(`
+    ${pageHeader("schatten-projektionen-miasmen")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Schatten, Projektionen & Miasmen</p>
+      <h1>Die Schatten & Projektionen der 9 Enneagrammtypen und die drei homöopathischen Miasmen Hahnemanns</h1>
+      <p class="lead-small">Jeder Enneagrammtyp trägt einen verborgenen „Schatten" – einen inneren Glaubenssatz über sich selbst, den das Ego nicht ertragen kann – und wehrt ihn ab, indem er ihn als „Projektion" nach außen auf die Welt oder auf andere Menschen richtet. Dieses Schaubild ordnet Schatten und Projektion aller 9 Typen zusätzlich einem der drei klassischen homöopathischen Miasmen nach Samuel Hahnemann zu: Psora, Sykose und Syphilis.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="./assets/schaubilder/schatten-projektionen-miasmen/schatten-projektionen-miasmen.jpg"
+             alt="Die Schatten und Projektionen der 9 Enneagrammtypen und die drei homöopathischen Miasmen Hahnemanns"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Was ist ein „Schatten" und eine „Projektion"?</h2>
+        <p class="vb-intro">Der Begriff <strong>Schatten</strong> stammt aus der Tiefenpsychologie C. G. Jungs: Es ist der Teil des eigenen Selbst, den das Ego nicht wahrhaben will, weil er dem eigenen Selbstbild widerspricht – oft ein tief sitzender, meist unbewusster negativer Glaubenssatz über die eigene Person („Ich bin nicht liebenswert", „Mit mir stimmt etwas nicht"). Weil dieser Glaubenssatz für das Ego unerträglich ist, wird er nicht als eigenes Gefühl anerkannt, sondern nach außen verlagert – zur <strong>Projektion</strong>: Die eigene, unbewusste Furcht wird stattdessen als Eigenschaft der Welt oder anderer Menschen wahrgenommen und erlebt. Wer unbewusst fürchtet, nicht liebenswert zu sein, erlebt zum Beispiel nicht den eigenen Zweifel, sondern die Überzeugung, dass alle anderen mehr Liebe und Anerkennung verdienen als man selbst.</p>
+        <p class="vb-intro">Jeder der 9 Enneagrammtypen entwickelt seinen Schatten und seine Projektion aus derselben Grundquelle: der spezifischen Fehlfunktion der Energie seines Zentrums. Die drei Zentren – <strong>Bauch</strong> (Handeln, Typen 8 · 9 · 1), <strong>Herz</strong> (Fühlen, Typen 2 · 3 · 4) und <strong>Kopf</strong> (Denken, Typen 5 · 6 · 7) – können auf drei Weisen aus dem Gleichgewicht geraten: Die Energie des Zentrums wird <strong>blockiert</strong> (verdrängt, zu wenig), <strong>überentwickelt</strong> (zu viel, überschießend) oder <strong>umfunktioniert</strong> (in eine destruktive, dem eigentlichen Zweck entgegengesetzte Form verwandelt).</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:2rem 0 1rem;color:var(--ink);">Die drei homöopathischen Miasmen nach Hahnemann</h2>
+        <p class="vb-intro">Samuel Hahnemann (1755–1843), Begründer der Homöopathie, entwickelte in seinem Spätwerk die Miasmenlehre: die Theorie, dass chronischen Erkrankungen jeweils eine von drei tieferliegenden „Grundschwingungen" zugrunde liegt, die sich in der Familiengeschichte vererben und den Charakter der jeweiligen Beschwerden prägen. Übertragen auf die psychische Ebene lassen sich die drei Miasmen erstaunlich treffend auf die drei Arten beschreiben, wie die Energie eines Enneagramm-Zentrums aus dem Gleichgewicht geraten kann:</p>
+        <div style="display:grid;gap:1rem;margin-top:1rem;">
+          <div style="border-left:3px solid ${miasmaColor.Psora};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${miasmaColor.Psora} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;">
+            <strong style="color:${miasmaColor.Psora};">Psora (Typen 3 · 6 · 9)</strong> – mangelhaft, minderwertig, zu wenig: das Grundmiasma des Mangels. In Hahnemanns Lehre die Wurzel der meisten chronischen Erkrankungen, gekennzeichnet durch Unterfunktion und Erschöpfung. Auf der psychischen Ebene entspricht das der <strong>blockierten, verdrängten</strong> Zentrumsenergie: Der Typ 9 blockiert seine Bauchenergie (Handeln), der Typ 3 seine Herzenergie (Fühlen), der Typ 6 seine Kopfenergie (Denken) – bei allen dreien fehlt die volle, freie Kraft des jeweiligen Zentrums.</div>
+          <div style="border-left:3px solid ${miasmaColor.Sykose};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${miasmaColor.Sykose} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;">
+            <strong style="color:${miasmaColor.Sykose};">Sykose (Typen 2 · 5 · 8)</strong> – überschießend, vermehrt, zu viel: das Grundmiasma des Übermaßes. In Hahnemanns Lehre gekennzeichnet durch Wucherung, Überproduktion und Ausdehnung über das gesunde Maß hinaus. Auf der psychischen Ebene entspricht das der <strong>überentwickelten</strong> Zentrumsenergie: Der Typ 8 überentwickelt seine Bauchenergie, der Typ 2 seine Herzenergie, der Typ 5 seine Kopfenergie – bei allen dreien wird die Kraft des jeweiligen Zentrums übersteigert, bis sie zur Last wird.</p>
+          </div>
+          <div style="border-left:3px solid ${miasmaColor.Syphilis};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${miasmaColor.Syphilis} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;">
+            <strong style="color:${miasmaColor.Syphilis};">Syphilis (Typen 1 · 4 · 7)</strong> – destruktiv, zerstörerisch, defekt: das Grundmiasma der Entartung. In Hahnemanns Lehre gekennzeichnet durch Zerstörung, Degeneration und Funktionsverlust von Gewebe und Struktur. Auf der psychischen Ebene entspricht das der <strong>umfunktionierten</strong> Zentrumsenergie: Der Typ 1 wandelt seine Bauchenergie in eine gegen sich selbst gerichtete Form um, der Typ 4 seine Herzenergie, der Typ 7 seine Kopfenergie – bei allen dreien wird die eigentliche Funktion des Zentrums in ihr Gegenteil verkehrt.</p>
+          </div>
+        </div>
+        <p class="vb-anmerkung" style="margin-top:1rem;font-style:italic;">Wichtig für das Verständnis: Diese Zuordnung ist eine symbolisch-strukturelle Analogie zwischen zwei unabhängig voneinander entstandenen Systemen – der Enneagramm-Psychologie und Hahnemanns über 150 Jahre älterer Miasmenlehre –, keine medizinische Diagnose und kein Nachweis, dass ein Enneagrammtyp tatsächlich das entsprechende homöopathische Miasma in sich trägt. Sie dient als anschauliches Ordnungsprinzip, das zeigt, wie ähnlich sich Mangel, Übermaß und Zerstörung als Grundmuster über verschiedene Betrachtungsebenen hinweg wiederholen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Schatten, Projektion und Miasma aller 9 Typen im Überblick</h2>
+        <div style="display:grid;gap:1rem;">
+          ${rows.map(r => `
+            <div style="border-left:3px solid ${typeColor(r.typ)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(r.typ)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;">
+              <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.3rem;flex-wrap:wrap;">
+                <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(r.typ)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">${r.typ}</span>
+                <strong style="color:${typeColor(r.typ)};">${TYPNAMEN[r.typ]}</strong>
+                <span style="background:color-mix(in srgb, ${miasmaColor[r.miasma]} 15%, var(--paper));color:${miasmaColor[r.miasma]};padding:0.15rem 0.6rem;border-radius:999px;font-size:0.78rem;font-weight:700;">${r.miasma}</span>
+              </div>
+              <div style="font-size:0.78rem;color:var(--muted);margin-bottom:0.6rem;">${r.energie}</div>
+              <div style="font-size:0.88rem;line-height:1.6;display:grid;gap:0.4rem;">
+                <div><span style="font-weight:700;color:var(--muted);">Schatten:</span> <em>${r.schatten}</em></div>
+                <div><span style="font-weight:700;color:var(--muted);">Projektion:</span> <em>${r.projektion}</em></div>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      </div>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${relatedLinks([
+        {route:"gifte-des-geistes", label:"Gifte des Geistes"},
+        {route:"homoeopathie", label:"Homöopathische Mittel"},
+        {route:"drei-zentren", label:"Drei Zentren"},
+        {route:"empfindliche-punkte", label:"Empfindliche Punkte"},
+        {route:"angst-essenz", label:"Angst → Essenz"},
+      ])}
+    </section>
+  `);
+}
+
 function empfindlichePunktePage() {
   return shell(`
     ${pageHeader("empfindliche-punkte")}
@@ -76613,6 +76692,7 @@ const ROUTES = {
     "mikroimpressionen": mikroimpresionenPage,
     "aufmerksamkeitsfokus": aufmerksamkeitsfokusPage,
     "empfindliche-punkte": empfindlichePunktePage,
+    "schatten-projektionen-miasmen": schattenProjektionenMiasmenPage,
     "befreiende-fragen": befreiendeFragenPage,
     "fuehrungsstile": fuehrungsstilePage,
     "gifte-des-geistes": gifteDesGeistesPage,
