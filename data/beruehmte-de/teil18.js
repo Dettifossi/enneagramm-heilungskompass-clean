@@ -1725,7 +1725,7 @@ export function giorgiaMeloniPortraitPage() {
 
         <h2 class="vb-section">4. Zwei Elternbilder, eine unversöhnte Spaltung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bemerkenswert an Melonis famili\xe4rem Hintergrund ist die politische Zerrissenheit der Eltern: Die Mutter Anh\xe4ngerin einer neofaschistischen Bewegung, der Vater nach Melonis eigenen Worten „bekennender Kommunist". Dass sie sich so fr\xfch und so eindeutig auf die Seite der pr\xe4senten Mutter und deren \xdcberzeugungen stellte, w\xe4hrend der abwesende Vater nur Gleichg\xfcltigkeit hervorrief, zeigt die Einser-typische Notwendigkeit klarer moralischer Zuordnung: Es gibt die richtige Seite (die Mutter, die blieb und sorgte) und die falsche/irrelevante Seite (der Vater, der ging).</p>
+          <p class="vb-intro">Bemerkenswert an Melonis famili\xe4rem Hintergrund ist die politische Zerrissenheit der Eltern: Die Mutter Anh\xe4ngerin einer neofaschistischen Bewegung, der Vater nach Melonis eigenen Worten „bekennender Kommunist". Dass sie sich so fr\xfch und so eindeutig auf die Seite der pr\xe4senten Mutter und deren \xdcberzeugungen stellte, w\xe4hrend der abwesende Vater nur Gleichg\xfcltigkeit hervorrief, zeigt die einsertypische Notwendigkeit klarer moralischer Zuordnung: Es gibt die richtige Seite (die Mutter, die blieb und sorgte) und die falsche/irrelevante Seite (der Vater, der ging).</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten</h2>

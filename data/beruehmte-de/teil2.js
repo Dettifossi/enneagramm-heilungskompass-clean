@@ -1905,7 +1905,7 @@ export function michaelDavidRosenbergPortraitPage() {
         <h2 class="vb-section">3. Der Dreierfl\u00fcgel: Vom Stra\u00dfenmusiker zum Weltstar</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Dreierfl\u00fcgel</strong> verleiht der Selbsterhaltungs-Vier einen zielgerichteten Ehrgeiz, der \u00fcber reines Durchhalten hinausgeht. Rosenbergs jahrelange Beharrlichkeit war nie blo\u00dfes Aushalten \u2013 sie war zugleich zielstrebige Arbeit an der eigenen Karriere: hunderte Auftritte, st\u00e4ndiges Songwriting, das bewusste Ausprobieren verschiedener L\u00e4nder und B\u00fchnen, bis der richtige Moment kam.</p>
-          <p class="vb-intro">Als der Erfolg schlie\u00dflich eintrat, verwandelte er ihn konsequent in eine internationale Karriere mit Chartplatzierungen in aller Welt \u2013 die Dreier-F\u00e4higkeit, eine Gelegenheit zu erkennen und sie zu nutzen, verbunden mit der Vier-typischen Tiefe seiner Songtexte \u00fcber Verlust, Einsamkeit und Sehnsucht.</p>
+          <p class="vb-intro">Als der Erfolg schlie\u00dflich eintrat, verwandelte er ihn konsequent in eine internationale Karriere mit Chartplatzierungen in aller Welt \u2013 die Dreier-F\u00e4higkeit, eine Gelegenheit zu erkennen und sie zu nutzen, verbunden mit der vierertypischen Tiefe seiner Songtexte \u00fcber Verlust, Einsamkeit und Sehnsucht.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Das Werk: Von leeren Pubs zu vier Milliarden Klicks</h2>
