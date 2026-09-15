@@ -2024,3 +2024,67 @@ export function joachimLoewPortraitPage() {
     </div>
   `);
 }
+
+export function madonnaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-madonna-portrait.jpg" alt="Madonna" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Madonna</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexual Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Singer, born 1958 &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Peacock That Kept Recoloring Its Feathers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>peacock</strong> is the animal of the sexual Three – an animal whose splendor is no calculation, but expression. Unlike most peacocks, though, Madonna's plumage changes color every few years. Madonna Louise Ciccone, born in 1958 in Bay City, Michigan, has radically reinvented herself again and again over more than four decades – from the brash street fashion of the early "Like a Virgin" era through the religious provocation of "Like a Prayer" (1989) to the electronic-spiritual reorientation of "Ray of Light" (1998).</p>
+          <p class="vb-intro">Each of these turns was no accident and no burnout of an old image, but a deliberate, strategically timed renewal at exactly the right moment – before the audience tired of one image, Madonna already presented the next. That is exactly the peacock whose plumage doesn't unfold once, but keeps unfolding anew, every time it needs to be seen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Three: Magnetism as a Strategic Instrument</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Three (SX3)</strong> makes personal magnetism a life theme – not success before a broad mass audience, as with the social Three, but immediate, physical resonance with the person in front of her, deliberately deployed to win and to impact. Madonna's career is one of the most consistent demonstrations of this pattern in recent pop culture: from the provocative stage shows of the 1980s through the scandal book "Sex" (1992) to the controlled provocations of her later tours, she never used erotic impact accidentally, always as a deliberately calculated tool toward an end.</p>
+          <p class="vb-intro">The wound of losing her mother early – Madonna's mother died of breast cancer when she was five – laid the groundwork early for a drive she has repeatedly named publicly herself: "I wanted to be somebody." Where the social Three seeks status before an audience, the sexual Three seeks immediate confirmation in eye contact, in being desired itself – in Madonna's case translated into a career built from the start on presence, not distance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: The Search for Meaning Behind the Image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the sexual Three a hunger that pure magnetism cannot satisfy: the need for genuine artistic depth, for a self beyond the image others form of her. Madonna has made this hunger visible decade after decade – through her study of Kabbalah since the late 1990s, through personal, often painfully open song lyrics (such as "Live to Tell" or "Oh Father"), and through the recurring attempt to be taken seriously as an artist, not only as a provocateur.</p>
+          <p class="vb-intro">Her forays into directing – with films like "Filth and Wisdom" (2008) and "W.E." (2011) – read as the same Four-wing drive: not content with the role of a mere object of viewing, but searching for her own, unmistakable artistic voice. The SX3w4 doesn't just want to be desired – she wants to be recognized as unique, as deeper than the image she herself created.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Comparison to Marilyn Monroe: Same Formula, Two Different Outcomes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Madonna has repeatedly and publicly referenced <a href="javascript:void(0)" data-route="beruehmte-marilyn-monroe">Marilyn Monroe</a> herself – most visibly in the "Material Girl" video (1985), which deliberately recreates Monroe's appearance in "Gentlemen Prefer Blondes." That's more than homage: both women are cases of the same SX3w4 formula – the deliberate construction of a publicly effective persona (Norma Jeane → Marilyn; Madonna Louise Ciccone → "Madonna") out of an early wound, combined with the Four-wing's wish to be taken seriously behind the image.</p>
+          <p class="vb-intro">The decisive difference lies in how each coped: where Monroe was ground down between Norma Jeane and Marilyn, unable to ever resolve the rift between the two figures, Madonna turned control over her own transformation itself into the artwork – she actively stages the break with the previous image, rather than breaking under it. The peacock in Monroe burned in its own glow; the peacock in Madonna learned to change its plumage itself, before it could fade.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Three with Four-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX3w4 shows in Madonna's unmatched ability to remain culturally relevant across more than four decades without ever repeating herself – a career length that has few equals in pop music, carried by genuine artistic curiosity, not just by market calculation.</p>
+          <p class="vb-intro">The fateful pattern of the Three is <strong>deceit</strong> – mistaking one's own identity for one's own impact. In Madonna this shows in that hardly anyone – perhaps not even she herself – can say exactly where the calculated persona ends and the private person begins. The Four-wing sharpens this: the more she searches for genuine depth, the more that search itself becomes part of the public performance again.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path to Healing: From Reinvention to Steadiness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's path to healing leads from the question <em>Am I desired?</em> to the recognition <em>I am – even without the next image.</em> For the SX3w4, that means no longer needing one's own impact as the sole proof of one's own existence, but finding a depth that holds even without the next transformation.</p>
+          <p class="vb-intro">Unlike Monroe, whose story ended at 36, before it could show where the search for a self beyond the image might have led, it cannot yet be said with Madonna – who keeps performing, creating, showing herself – whether the many moltings will eventually settle into one last, lasting form. The peacock that, to this day, hasn't stopped recoloring its plumage – perhaps because that, by now, has become its truest, most unmistakable form.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4)"},
+      ])}
+    </div>
+  `);
+}

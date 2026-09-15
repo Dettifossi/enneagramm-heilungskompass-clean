@@ -2040,3 +2040,67 @@ export function joachimLoewPortraitPage() {
     </div>
   `);
 }
+
+export function madonnaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-madonna-portrait.jpg" alt="Madonna" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Madonna</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexueller Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin, geb. 1958 &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau, der sein Gefieder immer wieder neu färbte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei – ein Tier, dessen Pracht keine Berechnung ist, sondern Ausdruck. Doch anders als bei den meisten Pfauen wechselt Madonnas Gefieder alle paar Jahre die Farbe. Madonna Louise Ciccone, 1958 in Bay City, Michigan geboren, hat sich über mehr als vier Jahrzehnte immer wieder radikal neu erfunden – von der frechen Straßenmode der frühen "Like a Virgin"-Ära über die religiöse Provokation von "Like a Prayer" (1989) bis zur elektronisch-spirituellen Neuausrichtung mit "Ray of Light" (1998).</p>
+          <p class="vb-intro">Jede dieser Wenden war kein Zufall und kein Ausbrennen eines alten Images, sondern eine bewusste, strategisch gesetzte Erneuerung im exakt richtigen Moment – bevor das Publikum eines Bildes müde wurde, präsentierte Madonna bereits das nächste. Genau das ist der Pfau, dessen Gefieder sich nicht einmal, sondern immer wieder neu entfaltet, sobald es gesehen werden soll.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Magnetismus als strategisches Instrument</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> macht persönliche Anziehungskraft zum Lebensthema – nicht Erfolg vor der breiten Masse wie die soziale Drei, sondern unmittelbare, körperliche Resonanz beim Gegenüber, die gezielt eingesetzt wird, um zu wirken und zu gewinnen. Madonnas Karriere ist eine der konsequentesten Demonstrationen dieses Musters in der jüngeren Popkultur: Von den provokanten Bühnenshows der 1980er über das Skandalbuch "Sex" (1992) bis zu den kontrollierten Reizen ihrer späteren Tourneen setzte sie erotische Wirkung nie zufällig, sondern immer als bewusst kalkuliertes Mittel zum Zweck ein.</p>
+          <p class="vb-intro">Die Wunde der Mutterlosigkeit – Madonnas Mutter starb an Brustkrebs, als sie fünf Jahre alt war – legte früh den Grund für einen Antrieb, den sie selbst wiederholt öffentlich benannt hat: "Ich wollte jemand sein." Wo die soziale Drei Status vor einem Publikum sucht, sucht die sexuelle Drei die unmittelbare Bestätigung im Blickkontakt, im Begehrtwerden selbst – bei Madonna übersetzt in eine Karriere, die von Anfang an auf Präsenz, nicht auf Distanz gebaut war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Suche nach Bedeutung hinter dem Bild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sexuellen Drei einen Hunger, den reiner Magnetismus nicht stillen kann: das Bedürfnis nach echter künstlerischer Tiefe, nach einem Selbst jenseits der reinen Wirkung. Madonna hat diesen Hunger Jahrzehnt für Jahrzehnt sichtbar gemacht – mit dem Studium der Kabbala seit den späten 1990er-Jahren, mit persönlichen, oft schmerzhaft offenen Songtexten (etwa "Live to Tell" oder "Oh Father") und mit dem wiederkehrenden Versuch, als ernstzunehmende Künstlerin und nicht nur als Provokateurin wahrgenommen zu werden.</p>
+          <p class="vb-intro">Auch ihr Ausflug in die Regie – mit Filmen wie "Filth and Wisdom" (2008) und "W.E." (2011) – liest sich als derselbe Viererflügel-Antrieb: nicht zufrieden mit der Rolle als bloßes Objekt der Betrachtung, sondern auf der Suche nach der eigenen, unverwechselbaren künstlerischen Stimme. Die SX3w4 will nicht nur begehrt werden – sie will auch als einzigartig, als tiefer als das Bild, das sie selbst erschaffen hat, erkannt werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Vergleich zu Marilyn Monroe: dieselbe Formel, zwei Ausgänge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Madonna hat sich selbst wiederholt öffentlich auf <a href="javascript:void(0)" data-route="beruehmte-marilyn-monroe">Marilyn Monroe</a> bezogen – am deutlichsten im "Material Girl"-Video (1985), das bewusst Monroes Auftritt in "Blondinen bevorzugt" nachstellt. Das ist mehr als Hommage: Beide Frauen sind Fälle derselben SX3w4-Formel – der bewussten Konstruktion einer öffentlichkeitswirksamen Kunstfigur (Norma Jeane → Marilyn; Madonna Louise Ciccone → "Madonna") aus einer frühen Wunde heraus, verbunden mit dem Viererflügel-Wunsch, hinter dem Bild auch ernst genommen zu werden.</p>
+          <p class="vb-intro">Der entscheidende Unterschied liegt in der Bewältigung: Wo Monroe zwischen Norma Jeane und Marilyn zerrieben wurde, weil sie den Riss zwischen beiden Figuren nie auflösen konnte, hat Madonna die Kontrolle über die eigene Verwandlung selbst zum Kunstwerk gemacht – sie inszeniert den Bruch mit dem vorherigen Bild aktiv, statt an ihm zu zerbrechen. Der Pfau bei Monroe verbrannte im eigenen Leuchten; der Pfau bei Madonna lernte, das Gefieder selbst zu wechseln, bevor es verblassen konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Drei mit Viererflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3w4 zeigt sich in Madonnas beispielloser Fähigkeit, über mehr als vier Jahrzehnte kulturell relevant zu bleiben, ohne sich je zu wiederholen – eine Karriere-Länge, die in der Popmusik ihresgleichen sucht, getragen von echter künstlerischer Neugier, nicht nur von Marktkalkül.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Täuschung</strong> – das Verwechseln der eigenen Identität mit der eigenen Wirkung. Bei Madonna zeigt sich das darin, dass kaum jemand – vielleicht nicht einmal sie selbst – genau sagen kann, wo die kalkulierte Kunstfigur endet und die private Person beginnt. Der Viererflügel verschärft das: Je mehr sie nach echter Tiefe sucht, desto mehr wird auch diese Suche selbst wieder Teil der öffentlichen Inszenierung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Neuerfindung zur Beständigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Werde ich begehrt?</em> zur Erkenntnis <em>Ich bin – auch ohne das nächste Bild.</em> Für die SX3w4 bedeutet das, die eigene Wirkung nicht länger als einzigen Beweis der eigenen Existenz zu brauchen, sondern eine Tiefe zu finden, die auch ohne die nächste Verwandlung trägt.</p>
+          <p class="vb-intro">Anders als bei Monroe, deren Geschichte mit 36 Jahren endete, bevor sich zeigen konnte, wohin die Suche nach dem Selbst jenseits des Bildes geführt hätte, lässt sich bei Madonna – die weiterhin auftritt, schafft, sich zeigt – noch nicht abschließend sagen, ob die vielen Häutungen irgendwann in eine letzte, bleibende Gestalt münden. Der Pfau, der bis heute nicht aufgehört hat, sein Gefieder neu zu färben – vielleicht, weil genau darin inzwischen seine eigentlichste, unverwechselbarste Form liegt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-marilyn-monroe", label:"Porträt: Marilyn Monroe (SX3w4)"},
+      ])}
+    </div>
+  `);
+}

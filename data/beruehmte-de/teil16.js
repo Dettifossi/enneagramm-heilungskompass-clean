@@ -1025,6 +1025,7 @@ export function marilynMonroePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"krankheitsportraets-marilyn-monroe", label:"Krankheitsportr\u00e4t: Marilyn Monroe (SX3w4)"},
         {route:"subtype/sx3", label:"SX3 \u2013 Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-madonna", label:"Portr\u00e4t: Madonna (SX3w4)"},
         {route:"beruehmte-meg-ryan", label:"Portr\u00e4t: Meg Ryan (SX3w4)"},
         {route:"beruehmte-dieter-bohlen", label:"Portr\u00e4t: Dieter Bohlen (SX3w4)"},
       ])}

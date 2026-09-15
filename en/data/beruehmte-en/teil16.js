@@ -1027,6 +1027,7 @@ export function marilynMonroePortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"krankheitsportraets-marilyn-monroe", label:"Illness Portrait: Marilyn Monroe (SX3w4)"},
+        {route:"beruehmte-madonna", label:"Portrait: Madonna (SX3w4)"},
         {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
         {route:"beruehmte-meg-ryan", label:"Portrait: Meg Ryan (SX3w4)"},
         {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
