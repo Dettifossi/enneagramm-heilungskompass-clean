@@ -1884,7 +1884,6 @@ export function francoisDamiensPortraitPage() {
           {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w8) \u2013 also provocation as the Eight-wing's weapon"},
           {route:"beruehmte-juergen-drews", label:"Portrait: J\u00fcrgen Drews (SX9w8)"},
           {route:"beruehmte-juergen-von-der-lippe", label:"Portrait: J\u00fcrgen von der Lippe (SX9w8) \u2013 also crude humor as audience closeness"},
-          {route:"beruehmte-stefan-homburg", label:"Portrait: Stefan Homburg (SX9w8) \u2013 also confrontation as the Eight-wing's weapon"},
           {route:"beruehmte-michael-berryman", label:"Portrait: Michael Berryman (SX9w8) \u2013 also turned an unusual appearance into a career"},
         ])}
       </div>
@@ -2097,46 +2096,43 @@ export function stefanHomburgPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-stefan-homburg-portrait.jpg" alt="Stefan Homburg" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Prof. Dr. Stefan Homburg</p>
-        <p class="krim-portrait-typ">SX9w8 &middot; Sexual Type 9 with Eight-wing</p>
-        <p class="krim-portrait-subtitle">Economist, born 1961 &ndash; Animal correspondence: Sloth</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Economist, born 1961 &ndash; Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Sloth That Suddenly Got Loud</h2>
+        <h2 class="vb-section">1. The Eagle That Stepped Out of the Academic World</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>sloth</strong> saves its energy for a long time, until it fully merges with a cause or a conviction – and then dissolves entirely into it. Stefan Homburg, born in 1961, spent over two decades as an unremarkable, well-regarded economist: professor of public finance in Hanover, dean, advisor to several German federal governments, author of textbooks. Hardly anyone outside academic circles knew his name.</p>
-          <p class="vb-intro">That changed abruptly in 2020. His criticism of Germany's COVID measures brought him to a mass audience, won him over 140,000 followers on X, and he later turned his own tweets into a book. Overnight, the withdrawn academic became one of the loudest voices in public debate – a sloth that, once fully merged with its conviction, no longer withdrew.</p>
+          <p class="vb-intro">The <strong>eagle</strong> watches for a long time before acting – and when it acts, it does so with a precision and persistence that needs no repetition. Stefan Homburg, born in 1961, spent over two decades as an unremarkable, well-regarded economist: professor of public finance in Hanover, dean, advisor to several German federal governments, author of textbooks. Hardly anyone outside academic circles knew his name.</p>
+          <p class="vb-intro">That changed abruptly in 2020. His criticism of Germany's COVID measures brought him to a mass audience, won him over 140,000 followers on X, and he later turned his own tweets into a book. Overnight, the withdrawn academic became one of the loudest voices in public debate – an eagle that left its quiet perch once it was convinced of the professional correctness of its position.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Sexual Nine: Merging With the One Conviction, the One Marriage</h2>
+        <h2 class="vb-section">2. The Self-Preservation One: One's Own Professional Correctness as the Standard</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>sexual Nine (SX9)</strong>, per Naranjo, seeks not belonging to a broad community but complete merging with the one cause or the one bond that truly matters. In Homburg this shows in the tax consulting firm he ran together with his wife Jasminka for over a decade and a half: from 2008 to 2021 he held a fifty-percent stake while she ran its operations – not a side project, but a fully interwoven life and work partnership.</p>
-          <p class="vb-intro">The same merging logic applies to his convictions: as early as 1997 he vehemently rejected the euro, in 2012 signed the "Economists' Protest Appeal," and became a founding member of the AfD's precursor organization. Once convinced of a position, he holds to it unwaveringly for decades – not out of Eight-style stubbornness, but because he has fully merged with the one conviction, much as an SX9 merges with the one relationship that outlasts everything else.</p>
+          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> directs its perfectionism not primarily at correcting others but inward: at one's own craft, one's own preparation, one's own professional integrity. Naranjo called this subtype <em>Worry</em>: a constant, mostly quiet inner check on whether one truly lives up to one's own standard. In Homburg this shows in decades of sustained scholarly rigor – a textbook author already as a student, professorships in Bonn, Magdeburg, and finally 24 years in Hanover, advisory work for several German federal governments under Waigel, Wulff, and Schröder.</p>
+          <p class="vb-intro">This worry about one's own professional correctness translates, in the One, into an unwavering adherence to positions once recognized as correct: as early as 1997 Homburg vehemently rejected the euro, in 2012 signed the "Economists' Protest Appeal," and became a founding member of the AfD's precursor organization. Once convinced of a professional position, he holds to it for decades – not out of merging with a bond, but out of the One's characteristic certainty that things must be right, even against the public reading.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Eight-Wing: Relishing the Fight</h2>
+        <h2 class="vb-section">3. The Nine-Wing: Calm as Form, Not as Withdrawal</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing</strong> gives the sexual Nine a directness that's rarely diplomatically wrapped. Observers describe Homburg as someone who genuinely relishes confrontation – the "many small skirmishes" of public debate, in which he enjoys responding skillfully to hostility. He deliberately deploys sharpened formulations to spark debate, rather than holding back.</p>
-          <p class="vb-intro">Once this directness combines with the Nine's typical merging into a once-formed conviction, it can shoot past the purely factual and turn personal. In the 2025 Bundestag committee of inquiry into the handling of the Corona pandemic, Homburg clashed sharply with Federal Labor Minister Hubertus Heil – not only over substance, but in a tone that was noticeably personal toward Heil. In 2020, Leibniz University Hannover also publicly distanced itself from him after he drew a comparison to 1933, over whose wording he was later taken to court. In all these cases, it was the sharpness of the form that escalated, not his underlying economic argument – no retreat from his own tone, even in the face of significant institutional pushback, typical Eight-wing hardness giving the Nine's usual conflict-avoidance a ruthless edge when it matters.</p>
-          <p class="vb-intro">Yet the underlying tone remains strikingly unagitated: interviews with him are described as "calm, factual, with a touch of humor" – not an angry fighter, but someone who delivers even his sharpest statements with noticeable composure. It's exactly this combination of Nine-calm and Eight-sharpness that makes him hard to place: no loud rager, but no conflict-avoiding mediator either – and professionally, even critics of his tone concede, he remains a serious economist, not a fringe provocateur without substance.</p>
+          <p class="vb-intro">A strongly developed <strong>Nine-wing (w9)</strong> softens the sharpness of the pure One into a more deliberate, more patient stance – loyalty to principle is not loudly proclaimed but calmly and persistently upheld. Interviews with Homburg are described as "calm, factual, with a touch of humor" – not an angry fighter, but someone who delivers even his sharpest statements with noticeable composure. It's exactly this combination of One's unwavering conviction and Nine's composure that makes him hard to place: no loud rager, but no conflict-avoiding mediator either.</p>
+          <p class="vb-intro">Yet the calm surface doesn't mean giving ground on substance. The moment his professional correctness is called into question, the otherwise controlled anger of the One breaks through – filtered, but unmistakable. In the 2025 Bundestag committee of inquiry into the handling of the Corona pandemic, Homburg clashed sharply with Federal Labor Minister Hubertus Heil – not only over substance, but in a tone that was noticeably personal toward Heil. In 2020, Leibniz University Hannover also publicly distanced itself from him after he drew a comparison to 1933, over whose wording he was later taken to court. In all these cases, it was the sharpness of the form that escalated, not his underlying economic argument – no retreat from his own tone, even in the face of significant institutional pushback: typical One's anger, held under control for a long time but, once triggered, morally charged and hard to rein in.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Work: From Textbook Author to Corona Rebel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Already as a student, Homburg co-wrote a macroeconomics textbook with his future doctoral advisor that reached nine editions and six foreign-language translations by 2005. Professorships in Bonn, Magdeburg, and finally 24 years in Hanover followed, alongside advisory work for several German federal governments under Waigel, Wulff, and Schröder – a life spent, for a long time, squarely within the academic establishment.</p>
-          <p class="vb-intro">In 2025, the AfD appointed him as an expert to the Bundestag's committee of inquiry into the handling of the Corona pandemic – a renewed public role, decades after his first appearance before the same body as an independent scholar.</p>
+          <p class="vb-intro">Already as a student, Homburg co-wrote a macroeconomics textbook with his future doctoral advisor that reached nine editions and six foreign-language translations by 2005 – the same meticulous rigor with which the self-preservation One tends its craft over decades. In 2025, the AfD appointed him as an expert to the Bundestag's committee of inquiry into the handling of the Corona pandemic – a renewed public role, decades after his first appearance before the same body as an independent scholar.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow of the Sexual Nine with Eight-Wing</h2>
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One with Nine-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX9w8 shows in Homburg's ability to hold, out of complete conviction, professionally grounded positions across decades, even against the mainstream – a rare steadfastness many academic colleagues respect, even when they reject his specific conclusions. That the Bundestag's own committee of inquiry appointed him as an expert in 2025 is itself evidence that his professional standing is taken seriously, not dismissed as a fringe opinion without substance.</p>
-          <p class="vb-intro">The shadow of the Nine-Eight combination lies less in the substance of his position itself than in the form it is sometimes delivered in: the merging with a once-formed conviction can become so complete that criticism or counterarguments stop being answered as a matter of substance and start being met as a personal attack – as in the sharp, at times personally pointed clash with Hubertus Heil in the committee of inquiry. This over-sharpness of tone should be distinguished from the substance of his core arguments; but it shows how quickly the Eight's hardness in the SX9w8 can tip from defending a position into personal confrontation with the other person.</p>
+          <p class="vb-intro">The light of the SE1w9 shows in Homburg's ability to hold, out of professional conviction, well-grounded positions across decades, even against the mainstream – a rare steadfastness many academic colleagues respect, even when they reject his specific conclusions. That the Bundestag's own committee of inquiry appointed him as an expert in 2025 is itself evidence that his professional standing is taken seriously, not dismissed as a fringe opinion without substance.</p>
+          <p class="vb-intro">The shadow of the One-Nine combination lies less in the substance of his position itself than in the form it is sometimes delivered in: the certainty of being professionally right can become so complete that criticism or counterarguments stop being answered as a matter of substance and start being met as a personal attack on his own integrity – as in the sharp, at times personally pointed clash with Hubertus Heil in the committee of inquiry. This over-sharpness of tone should be distinguished from the substance of his core arguments; but it shows how quickly the otherwise controlled anger of the SE1w9 can tip from defending a position into personal confrontation with the other person.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Sloth That Wouldn't Stay Silent Any Longer</h2>
+        <h2 class="vb-section">6. The Eagle That Wouldn't Stay Silent Any Longer</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Stefan Homburg's path shows the sexual Nine with Eight-wing in a particularly public, conflict-laden form: two decades of quiet, professional merging with his own scholarship and his own marriage, then an abrupt, unbraked advocacy for the one conviction once it had formed – professionally steadfast enough to still be sought as an expert witness today, but at times sharpened in tone to the point of turning a factual dispute into a personal confrontation.</p>
-          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-francois-damiens">François Damiens</a> (SX9w8) &ndash; in him, too, the same willingness shows up to face uncomfortable confrontation for a once-chosen cause. More in the <a href="javascript:void(0)" data-route="beruehmte-francois-damiens">portrait of François Damiens</a>.</p>
+          <p class="vb-intro">Stefan Homburg's path shows the self-preservation One with Nine-wing in a particularly public, conflict-laden form: two decades of quiet, meticulous scholarship within the academic establishment, then an abrupt, unbraked advocacy for the one conviction once recognized as correct – professionally steadfast enough to still be sought as an expert witness today, but at times sharpened in tone to the point of turning a factual dispute into a personal confrontation.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
@@ -2145,10 +2141,10 @@ export function stefanHomburgPortraitPage() {
       </div>
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
-        {route:"beruehmte-francois-damiens", label:"Portrait: François Damiens (SX9w8)"},
-        {route:"beruehmte-juergen-von-der-lippe", label:"Portrait: Jürgen von der Lippe (SX9w8)"},
-        {route:"beruehmte-mario-barth", label:"Portrait: Mario Barth (SX9w8)"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SE1w9)"},
+        {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SE1w9)"},
+        {route:"beruehmte-astrid-lindgren", label:"Portrait: Astrid Lindgren (SE1w9)"},
       ])}
     </div>
   `);

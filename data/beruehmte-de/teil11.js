@@ -2023,45 +2023,45 @@ export function dustinHoffmanPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dustin-hoffman-portrait.jpg" alt="Dustin Hoffman – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dustin Hoffman</p>
-        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel</p>
-        <p class="krim-portrait-subtitle">Schauspieler, geb. 1937 &ndash; Tierentsprechung: Faultier</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1937 &ndash; Tierentsprechung: Adler</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Das Faultier, das für seine Verschmelzung kämpfte</h2>
+        <h2 class="vb-section">1. Der Adler, der sein Handwerk bis zur Erschöpfung perfektionierte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 – ein Tier, das nicht kämpft, sondern verschmilzt. Doch wer glaubt, das Faultier sei wehrlos, irrt: Berührt man es an der falschen Stelle, reagiert es mit überraschender Wucht. Dustin Hoffman, 1937 in Los Angeles geboren, wurde für seine Rollenvorbereitung berühmt, die weit über normales Schauspielhandwerk hinausging: Für ›Marathon Man‹ (1976) hielt er sich tagelang wach und hungerte, um die Erschöpfung seiner Figur wirklich zu spüren, statt sie nur zu spielen.</p>
-          <p class="vb-intro">Für ›Rain Man‹ (1988) verbrachte er Wochen mit autistischen Menschen, um sich vollständig in ihre Wahrnehmungswelt hineinzuversetzen. Diese Bereitschaft, sich restlos in ein Gegenüber hineinzuverlieren, ist reine Neuner-Verschmelzung – doch die Vehemenz, mit der Hoffman diese Verschmelzung gegen jeden Widerstand verteidigte, verweist bereits auf den Achterflügel.</p>
+          <p class="vb-intro">Der <strong>Adler</strong> beobachtet lange, bevor er handelt – und wenn er zuschlägt, dann mit einer Genauigkeit, die keine Wiederholung braucht. Dustin Hoffman, 1937 in Los Angeles geboren, wurde für eine Rollenvorbereitung berühmt, die weit über normales Schauspielhandwerk hinausging: Für ›Marathon Man‹ (1976) hielt er sich tagelang wach und hungerte, um die Erschöpfung seiner Figur wirklich zu spüren, statt sie nur zu spielen.</p>
+          <p class="vb-intro">Für ›Rain Man‹ (1988) verbrachte er Wochen mit autistischen Menschen, um sich möglichst genau in ihre Wahrnehmungswelt hineinzuversetzen. Das ist keine Verschmelzung um der Nähe willen, sondern der Einser-Anspruch, eine Rolle nicht ungefähr, sondern exakt richtig darzustellen – eine Sorgfalt, die keine Abkürzung duldet.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung als schauspielerisches Prinzip</h2>
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Das eigene Handwerk als Prüfstein</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> nannte Naranjo <em>Union</em>: das Verlangen nach vollständiger Verschmelzung mit dem anderen Menschen, der anderen Figur, der anderen Welt. Anders als die selbsterhaltende oder die soziale Neun lebt die SX9 dieses Verschmelzungsbedürfnis mit maximaler Intensität – nicht verteilt auf viele Beziehungen, sondern in eine einzige, vollständige Fusion.</p>
-          <p class="vb-intro">Bei Hoffman zeigt sich das in einer schier grenzenlosen Wandlungsfähigkeit: Ratso Rizzo in ›Midnight Cowboy‹, Benjamin Braddock in ›Die Reifeprüfung‹, die alleinerziehende Vaterfigur in ›Kramer gegen Kramer‹, die Frau Dorothy Michaels in ›Tootsie‹ – jedes Mal löst sich das eigene Ich vollständig in der Figur auf, bis von Dustin Hoffman selbst kaum noch etwas übrig zu sein scheint.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Perfektionismus nicht auf die Korrektur anderer, sondern nach innen: auf die eigene Vorbereitung, das eigene Handwerk, die eigene Integrität. Bei Hoffman zeigt sich das in einer schier grenzenlosen Wandlungsfähigkeit: Ratso Rizzo in ›Midnight Cowboy‹, Benjamin Braddock in ›Die Reifeprüfung‹, die alleinerziehende Vaterfigur in ›Kramer gegen Kramer‹, die Frau Dorothy Michaels in ›Tootsie‹ – jedes Mal wird die eigene Person dem selbstgesetzten Anspruch an Genauigkeit vollständig untergeordnet, bis von Dustin Hoffman selbst auf der Leinwand kaum noch etwas übrig zu sein scheint.</p>
+          <p class="vb-intro">Diese Wandlungen sind nicht Selbstverlust um eines Gegenübers willen, sondern die konsequenteste Form der Einser-Frage: Habe ich diese Rolle wirklich verdient dargestellt, oder nur behauptet? Für Hoffman genügte eine plausible, gut gespielte Annäherung nicht – nur die exakte, selbst erarbeitete Wahrheit der Figur zählte.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Achterflügel: Konfrontation zum Schutz der Verschmelzung</h2>
+        <h2 class="vb-section">3. Der Neunerflügel: Gelassenheit, die bei Bedarf hart wird</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der sexuellen Neun eine Konfrontationsbereitschaft, die bei einer schwächer ausgeprägten Neun fehlen würde. Hoffmans Zusammenarbeit mit Sydney Pollack bei ›Tootsie‹ war von andauernden, offen ausgetragenen Konflikten geprägt – Hoffman bestand auf seiner eigenen, monatelang entwickelten Vorbereitung, auch gegen den Widerstand des Regisseurs.</p>
-          <p class="vb-intro">Bei ›Marathon Man‹ soll der von Laurence Olivier stammende, inzwischen legendäre Kommentar – Hoffman solle es doch einfach mal mit Schauspielern statt mit echter Erschöpfung versuchen – Hoffmans method-Ansatz offen infrage gestellt haben. Diese Konflikte entstanden nicht aus Geltungsbedürfnis, sondern aus derselben Logik wie bei François Damiens (SX9w8): Wo eine schwächer ausgeprägte Neun sich zurückzieht, sucht die SX9w8 aktiv die Reibung, sobald die eigene Verschmelzung mit der Rolle bedroht scheint.</p>
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Eins eine entspannte, unaufgeregte Außenwirkung – Hoffman wirkt in Interviews oft leichtfüßig, humorvoll, nicht wie ein strenger Perfektionist. Doch sobald die Richtigkeit seiner Vorbereitung infrage gestellt wird, bricht der sonst gut kontrollierte Einser-Zorn ungefiltert durch. Hoffmans Zusammenarbeit mit Sydney Pollack bei ›Tootsie‹ war von andauernden, offen ausgetragenen Konflikten geprägt – Hoffman bestand auf seiner eigenen, monatelang entwickelten Vorbereitung, auch gegen den Widerstand des Regisseurs.</p>
+          <p class="vb-intro">Bei ›Marathon Man‹ soll der von Laurence Olivier stammende, inzwischen legendäre Kommentar – Hoffman solle es doch einfach mal mit Schauspielern statt mit echter Erschöpfung versuchen – Hoffmans Methode offen infrage gestellt haben. Diese Konflikte entstanden nicht aus Geltungsbedürfnis, sondern aus der Einser-typischen Gewissheit, den fachlich richtigeren Weg gewählt zu haben: Wo eine schwächer ausgeprägte Eins nachgeben würde, verteidigt die SE1w9 ihre Methode, sobald die eigene handwerkliche Korrektheit bedroht scheint.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Die Leidenschaft: Trägheit als restlose Hingabe an die Rolle</h2>
+        <h2 class="vb-section">4. Die Leidenschaft: Zorn als Anspruch an die eigene Genauigkeit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> – bei der sexuellen Variante erscheint sie nicht als Passivität, sondern als vollständige Hingabe an das eine Gegenüber. Bei Hoffman ist dieses Gegenüber fast immer die Figur selbst, nicht das Publikum oder eine Gruppe von Kollegen: Die Verschmelzung findet in der monatelangen, oft einsamen Vorbereitung statt, nicht in der Zusammenarbeit mit anderen.</p>
-          <p class="vb-intro">Genau wie bei Mario Barth (SX9w8) zeigt sich hier die Kombination aus Neuner-Verschmelzung und Achterflügel-Tatkraft: eine entspannte, fast unauffällige Grundhaltung im Alltag, verbunden mit der Fähigkeit, für die eine Sache, die wirklich zählt, mit vollem Einsatz zu kämpfen.</p>
+          <p class="vb-intro">Die Leidenschaft der Eins heißt <strong>Zorn</strong> – bei der selbsterhaltenden Variante richtet er sich in erster Linie gegen die eigene Nachlässigkeit, nicht gegen andere. Bei Hoffman ist dieser Zorn kaum je gegen ein Publikum oder eine Gruppe von Kollegen gerichtet, sondern gegen die Vorstellung, eine Rolle könnte weniger als vollständig richtig dargestellt werden: Die monatelange, oft einsame Vorbereitung findet in der stillen Auseinandersetzung mit dem eigenen Anspruch statt, nicht in der Zusammenarbeit mit anderen.</p>
+          <p class="vb-intro">Genau wie bei Konrad Adenauer oder Anthony Hopkins (beide SE1w9) zeigt sich hier die Kombination aus Einser-Beharrlichkeit und Neuner-Gelassenheit: eine entspannte, fast unauffällige Grundhaltung im Alltag, verbunden mit der Fähigkeit, für die eigene, als richtig erkannte Methode mit vollem Einsatz einzustehen.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Achterflügel</h2>
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins mit Neunerflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX9w8 zeigt sich in Hoffmans Fähigkeit, Figuren zu erschaffen, die bis heute als schauspielerische Maßstäbe gelten – zwei Oscars, sieben Nominierungen, eine über sechzig Jahre andauernde Karriere, die nie durch Wiederholung, sondern durch immer neue vollständige Verwandlung getragen wurde.</p>
-          <p class="vb-intro">Der Schatten liegt in der Kehrseite derselben Konfrontationsbereitschaft: 2017 erhoben mehrere Frauen Vorwürfe unangemessenen Verhaltens gegen Hoffman, die teils Jahrzehnte zurücklagen. Hoffmans öffentliche Reaktionen blieben auffällig knapp und ausweichend – ein Muster, das für die Neun typisch ist, wenn direkte Konfrontation mit der eigenen Verantwortung droht, das sorgsam aufgebaute Selbstbild zu erschüttern.</p>
+          <p class="vb-intro">Das Licht der SE1w9 zeigt sich in Hoffmans Fähigkeit, Figuren zu erschaffen, die bis heute als schauspielerische Maßstäbe gelten – zwei Oscars, sieben Nominierungen, eine über sechzig Jahre andauernde Karriere, die nie durch Wiederholung, sondern durch immer neue, akribisch erarbeitete Verwandlung getragen wurde.</p>
+          <p class="vb-intro">Der Schatten liegt in der Kehrseite derselben Kompromisslosigkeit: 2017 erhoben mehrere Frauen Vorwürfe unangemessenen Verhaltens gegen Hoffman, die teils Jahrzehnte zurücklagen. Hoffmans öffentliche Reaktionen blieben auffällig knapp und ausweichend – ein Muster, das für die Eins typisch ist, wenn direkte Konfrontation mit eigenem Fehlverhalten droht, das sorgsam aufgebaute Selbstbild der Integrität zu erschüttern.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Das Vermächtnis: Ein Faultier, das nie zweimal dasselbe Tier war</h2>
+        <h2 class="vb-section">6. Das Vermächtnis: Ein Adler, der nie zweimal dieselbe Beute wählte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dustin Hoffman bleibt einer der wandlungsfähigsten Schauspieler seiner Generation – nicht trotz, sondern wegen seiner Fähigkeit, sich restlos in jede neue Figur hineinzuverlieren, koste es, was es wolle. Von Ratso Rizzo bis Rain Man zieht sich dasselbe Muster: vollständige Verschmelzung, verteidigt mit einer Härte, die die eigentlich konfliktscheue Neun kaum vermuten lässt.</p>
-          <p class="vb-intro">Das ist die sexuelle Neun mit Achterflügel in ihrer kompromisslosesten Form: ein Faultier, das sich nicht zurückzieht, wenn seine Verschmelzung bedroht wird, sondern kämpft – für die eine Rolle, die in diesem Moment sein ganzes Selbst geworden ist.</p>
+          <p class="vb-intro">Dustin Hoffman bleibt einer der wandlungsfähigsten Schauspieler seiner Generation – nicht trotz, sondern wegen seiner Unfähigkeit, sich mit einer ungefähren, bloß plausiblen Annäherung an eine Rolle zufriedenzugeben. Von Ratso Rizzo bis Rain Man zieht sich dasselbe Muster: kompromisslose handwerkliche Genauigkeit, verteidigt mit einer Härte, die die ruhige, humorvolle Oberfläche der Neun kaum vermuten lässt.</p>
+          <p class="vb-intro">Das ist die selbsterhaltende Eins mit Neunerflügel in ihrer konsequentesten Form: ein Adler, der nicht nachgibt, wenn die Richtigkeit seiner Arbeit bedroht wird, sondern beharrt – für den einen Anspruch, dem eigenen Handwerk nichts schuldig zu bleiben.</p>
         </blockquote>
 
       </div>
@@ -2070,11 +2070,10 @@ export function dustinHoffmanPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
-        {route:"beruehmte-francois-damiens", label:"Porträt: François Damiens (SX9w8)"},
-        {route:"beruehmte-mario-barth", label:"Porträt: Mario Barth (SX9w8)"},
-        {route:"beruehmte-heike-makatsch", label:"Porträt: Heike Makatsch (SX9w8)"},
-        {route:"beruehmte-dakota-johnson", label:"Porträt: Dakota Johnson (SX9w8)"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-konrad-adenauer", label:"Porträt: Konrad Adenauer (SE1w9)"},
+        {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
+        {route:"beruehmte-stefan-homburg", label:"Porträt: Stefan Homburg (SE1w9)"},
       ])}
     </div>
   `);

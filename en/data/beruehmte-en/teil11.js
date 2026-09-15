@@ -2018,45 +2018,45 @@ export function dustinHoffmanPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dustin-hoffman-portrait.jpg" alt="Dustin Hoffman – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Dustin Hoffman</p>
-        <p class="krim-portrait-typ">SX9w8 &middot; Sexual Type 9 with an Eight-Wing</p>
-        <p class="krim-portrait-subtitle">Actor, born 1937 – Animal correspondence: Sloth</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine-Wing</p>
+        <p class="krim-portrait-subtitle">Actor, born 1937 – Animal correspondence: Eagle</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Sloth That Fought for Its Own Fusion</h2>
+        <h2 class="vb-section">1. The Eagle That Perfected His Craft to the Point of Exhaustion</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>sloth</strong> is the animal of the Sexual Nine – an animal that does not fight, but merges. Yet whoever thinks the sloth is defenseless is mistaken: touch it in the wrong spot, and it reacts with surprising force. Dustin Hoffman, born in 1937 in Los Angeles, became famous for a style of role preparation that went far beyond ordinary craft: for "Marathon Man" (1976), he stayed awake and starved himself for days to actually feel his character's exhaustion rather than merely act it.</p>
-          <p class="vb-intro">For "Rain Man" (1988), he spent weeks with autistic people to fully immerse himself in their way of perceiving the world. This readiness to lose himself completely in another being is pure Nine merging – but the vehemence with which Hoffman defended that merging against any resistance already points to the Eight-wing.</p>
+          <p class="vb-intro">The <strong>eagle</strong> watches for a long time before acting – and when it strikes, it does so with an accuracy that needs no repetition. Dustin Hoffman, born in 1937 in Los Angeles, became famous for a style of role preparation that went far beyond ordinary craft: for "Marathon Man" (1976), he stayed awake and starved himself for days to actually feel his character's exhaustion rather than merely act it.</p>
+          <p class="vb-intro">For "Rain Man" (1988), he spent weeks with autistic people to immerse himself as precisely as possible in their way of perceiving the world. This is not merging for the sake of closeness, but the One's standard of portraying a role not approximately, but exactly right – a rigor that tolerates no shortcut.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Sexual Nine: Merging as an Acting Principle</h2>
+        <h2 class="vb-section">2. The Self-Preservation One: One's Own Craft as the Test</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Naranjo called the <strong>Sexual Nine (SX9)</strong> <em>Union</em>: the longing for complete merging with another person, another character, another world. Unlike the self-preservation or social Nine, the SX9 lives this need for fusion with maximum intensity – not spread across many relationships, but concentrated into a single, complete fusion.</p>
-          <p class="vb-intro">In Hoffman this shows in a nearly limitless capacity for transformation: Ratso Rizzo in "Midnight Cowboy," Benjamin Braddock in "The Graduate," the single father in "Kramer vs. Kramer," Dorothy Michaels in "Tootsie" – each time the self dissolves completely into the character, until almost nothing of Dustin Hoffman himself seems to remain.</p>
+          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> directs its perfectionism not at correcting others, but inward: at one's own preparation, one's own craft, one's own integrity. In Hoffman this shows in a nearly limitless capacity for transformation: Ratso Rizzo in "Midnight Cowboy," Benjamin Braddock in "The Graduate," the single father in "Kramer vs. Kramer," Dorothy Michaels in "Tootsie" – each time the self is completely subordinated to a self-imposed standard of accuracy, until almost nothing of Dustin Hoffman himself seems to remain on screen.</p>
+          <p class="vb-intro">These transformations are not self-loss for the sake of another, but the most consistent form of the One's question: did I truly earn this portrayal, or merely claim it? For Hoffman, a plausible, well-acted approximation was never enough – only the exact, self-earned truth of the character counted.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Eight-Wing: Confrontation to Protect the Merging</h2>
+        <h2 class="vb-section">3. The Nine-Wing: A Composure That Turns Hard When Needed</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Sexual Nine a readiness for confrontation that a weaker-winged Nine would lack. Hoffman's collaboration with Sydney Pollack on "Tootsie" was marked by ongoing, openly fought conflicts – Hoffman insisted on his own preparation, developed over months, even against the director's resistance.</p>
-          <p class="vb-intro">On "Marathon Man," Laurence Olivier's now-legendary remark – that Hoffman might simply try acting instead of pursuing real exhaustion – reportedly challenged Hoffman's method approach directly. These conflicts arose not from a need for recognition, but from the same logic as with François Damiens (SX9w8): where a weaker-winged Nine withdraws, the SX9w8 actively seeks friction the moment its own merging with the role seems threatened.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the One a relaxed, unassuming surface – Hoffman often comes across in interviews as light-footed and humorous, not like a strict perfectionist. But the moment the correctness of his preparation is called into question, the otherwise well-controlled anger of the One breaks through unfiltered. Hoffman's collaboration with Sydney Pollack on "Tootsie" was marked by ongoing, openly fought conflicts – Hoffman insisted on his own preparation, developed over months, even against the director's resistance.</p>
+          <p class="vb-intro">On "Marathon Man," Laurence Olivier's now-legendary remark – that Hoffman might simply try acting instead of pursuing real exhaustion – reportedly challenged Hoffman's method directly. These conflicts arose not from a need for recognition, but from the One's characteristic certainty of having chosen the professionally more correct path: where a weaker One would give ground, the SE1w9 defends its method the moment its own technical correctness seems threatened.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The Passion: Sloth as Total Devotion to the Role</h2>
+        <h2 class="vb-section">4. The Passion: Anger as a Demand on One's Own Accuracy</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The passion of the Nine is called <strong>sloth</strong> – in the sexual variant it appears not as passivity, but as complete devotion to the one counterpart. In Hoffman, this counterpart is almost always the character itself, not the audience or a group of colleagues: the merging happens in months of often solitary preparation, not in collaboration with others.</p>
-          <p class="vb-intro">Just as with Mario Barth (SX9w8), the combination of Nine merging and Eight-wing drive shows itself here: a relaxed, almost unassuming everyday manner, combined with the ability to fight with full force for the one thing that truly matters.</p>
+          <p class="vb-intro">The passion of the One is called <strong>anger</strong> – in the self-preservation variant it is directed primarily at one's own carelessness, not at others. In Hoffman this anger is rarely aimed at an audience or a group of colleagues, but at the very idea that a role could be portrayed as less than completely right: the months of often solitary preparation take place in quiet reckoning with his own standard, not in collaboration with others.</p>
+          <p class="vb-intro">Just as with Konrad Adenauer or Anthony Hopkins (both SE1w9), the combination of the One's persistence and the Nine's composure shows itself here: a relaxed, almost unassuming everyday manner, combined with the ability to stand fully behind one's own, correctly chosen method.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow of the Sexual Nine with an Eight-Wing</h2>
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One with a Nine-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX9w8 shows in Hoffman's ability to create characters still regarded as acting benchmarks today – two Oscars, seven nominations, a career spanning over sixty years, carried not by repetition but by ever-new, complete transformation.</p>
-          <p class="vb-intro">The shadow lies in the flip side of that same readiness for confrontation: in 2017, several women raised allegations of inappropriate behavior against Hoffman, some dating back decades. Hoffman's public responses remained noticeably terse and evasive – a pattern typical of the Nine when direct confrontation with one's own responsibility threatens to shake a carefully built self-image.</p>
+          <p class="vb-intro">The light of the SE1w9 shows in Hoffman's ability to create characters still regarded as acting benchmarks today – two Oscars, seven nominations, a career spanning over sixty years, carried not by repetition but by ever-new, meticulously earned transformation.</p>
+          <p class="vb-intro">The shadow lies in the flip side of that same uncompromising rigor: in 2017, several women raised allegations of inappropriate behavior against Hoffman, some dating back decades. Hoffman's public responses remained noticeably terse and evasive – a pattern typical of the One when direct confrontation with one's own misconduct threatens to shake a carefully built self-image of integrity.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Legacy: A Sloth That Was Never the Same Animal Twice</h2>
+        <h2 class="vb-section">6. The Legacy: An Eagle That Never Chose the Same Prey Twice</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Dustin Hoffman remains one of the most versatile actors of his generation – not despite, but because of his ability to lose himself completely in every new character, whatever it takes. From Ratso Rizzo to Rain Man, the same pattern recurs: complete merging, defended with a toughness one would hardly expect from the otherwise conflict-averse Nine.</p>
-          <p class="vb-intro">This is the Sexual Nine with an Eight-wing at its most uncompromising: a sloth that does not withdraw when its merging is threatened, but fights – for the one role that has, in that moment, become its entire self.</p>
+          <p class="vb-intro">Dustin Hoffman remains one of the most versatile actors of his generation – not despite, but because of his inability to settle for an approximate, merely plausible take on a role. From Ratso Rizzo to Rain Man, the same pattern recurs: uncompromising technical accuracy, defended with a toughness one would hardly expect from the calm, humorous surface of the Nine.</p>
+          <p class="vb-intro">This is the self-preservation One with a Nine-wing at its most consistent: an eagle that doesn't yield when the correctness of its work is threatened, but holds its ground – for the one demand of owing nothing less than everything to its own craft.</p>
         </blockquote>
 
       </div>
@@ -2065,11 +2065,10 @@ export function dustinHoffmanPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
-        {route:"beruehmte-francois-damiens", label:"Portrait: François Damiens (SX9w8)"},
-        {route:"beruehmte-mario-barth", label:"Portrait: Mario Barth (SX9w8)"},
-        {route:"beruehmte-heike-makatsch", label:"Portrait: Heike Makatsch (SX9w8)"},
-        {route:"beruehmte-dakota-johnson", label:"Portrait: Dakota Johnson (SX9w8)"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SE1w9)"},
+        {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SE1w9)"},
+        {route:"beruehmte-stefan-homburg", label:"Portrait: Stefan Homburg (SE1w9)"},
       ])}
     </div>
   `);
