@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=113";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=114";
 
 import { adeleKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15970,6 +15970,7 @@ const uiText = {
       { route: "empfindliche-punkte", label: "Empfindliche Punkte" },
       { route: "energetische-bewegungen", label: "Energetische Bewegungen" },
       { route: "erfolgsverhalten", label: "Erfolgsverhalten der 9 Typen" },
+      { route: "formen-der-angst", label: "Formen der Angst" },
       { route: "frieden-schliessen", label: "Frieden schlie\u00dfen" },
       { route: "frustrationen", label: "Frustrationen" },
       { route: "fuehrungsstile", label: "F\u00fchrungsstile" },
@@ -33362,7 +33363,7 @@ const SCHAUBILDER_NEU = {
   "hoellenkreise-dante": "2026-08-14",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -43014,6 +43015,62 @@ function bedrohungsszenarienPage() {
         {route:"empfindliche-punkte", label:"Empfindliche Punkte"},
         {route:"angst-essenz", label:"Angst-Essenz"},
         {route:"gaslighting-enneagramm", label:"Gaslighting & Enneagramm"},
+      ])}
+    </section>
+  `);
+}
+
+function formenDerAngstPage() {
+  const rows = [
+    { typ:1, grund:"davor, verurteilt zu werden", angst:"Angst, dass etwas grundlegend falsch an uns ist oder dass wir so, wie wir sind, nicht gut genug sind.", umgang:"Ich bringe am besten alles in Ordnung." },
+    { typ:2, grund:"davor, ungeliebt zu sein", angst:"Angst davor, bedürftig zu sein und nicht geliebt zu werden.", umgang:"Ich bringe andere dazu, mich zu lieben, abhängig zu sein." },
+    { typ:3, grund:"vor persönlicher Ablehnung", angst:"Angst, einen Misserfolg zu erleiden oder erfolglos zu bleiben.", umgang:"Ich baue mein Image als erfolgreicher Mensch auf." },
+    { typ:4, grund:"vor (eigener) Unzulänglichkeit", angst:"Angst, verlassen zu werden, vor unserer Traurigkeit und dem Gefühl von Verlorenheit.", umgang:"Ich freunde mich mit der Dunkelheit/meinem eigenen Schmerz an." },
+    { typ:5, grund:"vor Unbegreiflichkeit und davor, überwältigt zu werden", angst:"Angst vor Verstrickungen und davor, das, was wir besitzen, zu verlieren.", umgang:"Ich versuche, die Komplexität der Welt zu erfassen." },
+    { typ:6, grund:"vor Verrat und davor, preisgegeben zu werden", angst:"Angst vor allem und jedem, auf eine namen- und gesichtslose Art und Weise, die die treibende Kraft in unserer Psyche ist.", umgang:"Ich bin auf der Hut und suche nach vertrauensvollen Verbündeten." },
+    { typ:7, grund:"vor Langeweile & Deprivation", angst:"Angst vor Langeweile, vor anstrengender Arbeit und davor, als Scharlatan bloßgestellt zu werden.", umgang:"Ich besiege die Angst durch Spaß und Vergnügen." },
+    { typ:8, grund:"vor dem Unterliegen und davor, verletzt zu werden", angst:"Angst davor, schwach zu sein, nicht die Führung zu haben und nicht an der Spitze zu stehen.", umgang:"Ich beherrsche andere – Einschüchtern gibt Sicherheit." },
+    { typ:9, grund:"vor Trennung", angst:"Angst, einen Konflikt heraufzubeschwören, indem wir uns oder unsere Bedürfnisse zu sehr in den Mittelpunkt rücken.", umgang:"Ich halte mir alle Strategien offen – sicher ist sicher." },
+  ];
+  return shell(`
+    ${pageHeader("formen-der-angst")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Formen der Angst</p>
+      <h1>Formen der Angst, Grundängste und Umgang mit Angst</h1>
+      <p class="lead-small">Angst ist im Enneagramm kein Randthema, sondern der gemeinsame Nenner aller neun Typen – jeder Typ trägt eine eigene Grundangst in sich, erlebt sie in einer typspezifischen Form und hat eine ganz eigene, meist unbewusste Strategie entwickelt, mit ihr umzugehen. Dieses Schaubild zeigt alle drei Ebenen für jeden der 9 Typen auf einen Blick: die Grundangst (außen), die konkrete Form, in der sie erlebt wird (Mitte), und die typische Bewältigungsstrategie im Umgang mit ihr (innen).</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="./assets/schaubilder/formen-der-angst/formen-der-angst.jpg"
+             alt="Formen der Angst, Grundängste und Umgang mit Angst der 9 Enneagrammtypen"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Wichtig für das Verständnis des Schaubilds: Die <strong>Grundangst</strong> (mit * markiert) ist die tiefste, meist unbewusste existenzielle Furcht des Typs – sie liegt der typspezifischen Leidenschaft zugrunde und ist selten direkt spürbar. Die <strong>Angst</strong> in der mittleren Ebene ist die konkretere, im Alltag eher greifbare Ausprägung dieser Grundangst. Der <strong>Umgang mit Angst</strong> (mit ** markiert) schließlich ist die aktive, oft kompensatorische Strategie, mit der jeder Typ versucht, diese Angst gar nicht erst spüren zu müssen – meist genau die Strategie, die von außen als das typische Verhalten des jeweiligen Typs erkennbar ist.</p>
+        <div style="display:grid;gap:1rem;">
+          ${rows.map(r => `
+            <div style="border-left:3px solid ${typeColor(r.typ)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(r.typ)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;">
+              <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.5rem;">
+                <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(r.typ)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">${r.typ}</span>
+                <strong style="color:${typeColor(r.typ)};">${TYPNAMEN[r.typ]}</strong>
+              </div>
+              <div style="font-size:0.88rem;line-height:1.6;display:grid;gap:0.35rem;">
+                <div><span style="font-weight:700;color:var(--muted);">Grundangst*:</span> ${r.grund}</div>
+                <div><span style="font-weight:700;color:var(--muted);">Angst:</span> ${r.angst}</div>
+                <div><span style="font-weight:700;color:var(--muted);">Umgang mit Angst**:</span> ${r.umgang}</div>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      </div>
+
+      ${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms – tiefgreifende Analyse der Urwunde und Grundangst hinter jeder Leidenschaft, mit konkreten Heilungswegen für alle 9 Typen.", "Hinter der Leidenschaft")}
+      ${relatedLinks([
+        {route:"angst-essenz", label:"Angst → Essenz"},
+        {route:"bedrohungsszenarien", label:"Bedrohungsszenarien"},
+        {route:"bewaeltigungsstrategie", label:"Bewältigungsstrategien"},
+        {route:"empfindliche-punkte", label:"Empfindliche Punkte"},
+        {route:"gifte-des-geistes", label:"Gifte des Geistes"},
       ])}
     </section>
   `);
@@ -76505,6 +76562,7 @@ const ROUTES = {
     "nicht-verbundene-typen": nichtVerbundeneTypenPage,
     "bewaeltigungsstrategie": bewaeltigungsstrategiePage,
     "bedrohungsszenarien": bedrohungsszenarienPage,
+    "formen-der-angst": formenDerAngstPage,
     "beziehungen": beziehungenPage,
     "kompatibilitaets-check": kompatibilitaetsCheckPage,
     "wachstumstagebuch": wachstumstagebuchPage,

@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=113";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=114";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -3468,7 +3468,7 @@ const SCHAUBILDER_NEU = {
   "enneagramm-intellekt": "2026-08-08",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -3673,6 +3673,7 @@ text.nav = [
     { route: "empfindliche-punkte", label: "Sensitive Points" },
     { route: "energetische-bewegungen", label: "Energetic Movements" },
     { route: "erfolgsverhalten", label: "Success Behavior of the 9 Types" },
+    { route: "formen-der-angst", label: "Forms of Fear" },
     { route: "frieden-schliessen", label: "Making Peace" },
     { route: "frustrationen", label: "Frustrations" },
     { route: "fuehrungsstile", label: "Leadership Styles" },
@@ -17820,6 +17821,62 @@ function bedrohungsszenarienPage() {
         {route:"empfindliche-punkte", label:"Sensitive Points"},
         {route:"angst-essenz", label:"Fear & Essence"},
         {route:"gaslighting-enneagramm", label:"Gaslighting & Enneagram"},
+      ])}
+    </section>
+  `);
+}
+
+function formenDerAngstPage() {
+  const rows = [
+    { typ:1, grund:"of being condemned", angst:"Fear that something is fundamentally wrong with us, or that we, as we are, are not good enough.", umgang:"I put everything in order." },
+    { typ:2, grund:"of being unloved", angst:"Fear of being needy and not being loved.", umgang:"I make others love me, become dependent on me." },
+    { typ:3, grund:"of personal rejection", angst:"Fear of suffering failure or remaining unsuccessful.", umgang:"I build my image as a successful person." },
+    { typ:4, grund:"of (one's own) inadequacy", angst:"Fear of being abandoned, of our own sadness, and of the feeling of being lost.", umgang:"I make friends with the darkness/my own pain." },
+    { typ:5, grund:"of incomprehensibility and of being overwhelmed", angst:"Fear of entanglements and of losing what we possess.", umgang:"I try to grasp the complexity of the world." },
+    { typ:6, grund:"of betrayal and of being abandoned", angst:"Fear of everything and everyone, in a nameless, faceless way that is the driving force in our psyche.", umgang:"I stay on guard and look for trustworthy allies." },
+    { typ:7, grund:"of boredom & deprivation", angst:"Fear of boredom, of exhausting work, and of being exposed as a fraud.", umgang:"I defeat fear through fun and enjoyment." },
+    { typ:8, grund:"of being overpowered and of being hurt", angst:"Fear of being weak, of not being in charge, and of not being at the top.", umgang:"I dominate others – intimidation provides security." },
+    { typ:9, grund:"of separation", angst:"Fear of provoking conflict by putting ourselves or our needs too much at the center.", umgang:"I keep all my strategies open – better safe than sorry." },
+  ];
+  return shell(`
+    ${pageHeader("formen-der-angst")}
+    <section class="narrow">
+      <p class="eyebrow">Charts &middot; Forms of Fear</p>
+      <h1>Forms of Fear, Core Fears, and Coping with Fear</h1>
+      <p class="lead-small">Fear is not a marginal topic in the Enneagram – it is the common denominator of all nine types. Each type carries its own core fear, experiences it in a type-specific form, and has developed its own, mostly unconscious strategy for dealing with it. This chart shows all three levels for each of the 9 types at a glance: the core fear (outer), the concrete form in which it is experienced (middle), and the typical coping strategy for dealing with it (inner).</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="../assets/schaubilder/formen-der-angst/formen-der-angst.jpg"
+             alt="Forms of fear, core fears, and coping with fear of the 9 Enneagram types"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Important for understanding the chart: the <strong>core fear</strong> (marked with *) is the deepest, mostly unconscious existential dread of the type – it underlies the type-specific passion and is rarely directly felt. The <strong>fear</strong> in the middle level is the more concrete, everyday-tangible expression of this core fear. Finally, <strong>coping with fear</strong> (marked with **) is the active, often compensatory strategy each type uses to avoid ever having to feel this fear at all – usually exactly the strategy that is recognizable from the outside as that type's typical behavior.</p>
+        <div style="display:grid;gap:1rem;">
+          ${rows.map(r => `
+            <div style="border-left:3px solid ${typeColor(r.typ)};padding:0.9rem 1.1rem;background:color-mix(in srgb, ${typeColor(r.typ)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;">
+              <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.5rem;">
+                <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(r.typ)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">${r.typ}</span>
+                <strong style="color:${typeColor(r.typ)};">${TYPNAMEN[r.typ]}</strong>
+              </div>
+              <div style="font-size:0.88rem;line-height:1.6;display:grid;gap:0.35rem;">
+                <div><span style="font-weight:700;color:var(--muted);">Core Fear*:</span> ${r.grund}</div>
+                <div><span style="font-weight:700;color:var(--muted);">Fear:</span> ${r.angst}</div>
+                <div><span style="font-weight:700;color:var(--muted);">Coping with Fear**:</span> ${r.umgang}</div>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      </div>
+
+      ${bookTip("hinter-der-leidenschaft", "The nine wounds of the Enneagram &ndash; an in-depth analysis of the core wound and core fear behind each passion, with concrete healing paths for all 9 types.", "Hinter der Leidenschaft")}
+      ${relatedLinks([
+        {route:"angst-essenz", label:"Fear & Essence"},
+        {route:"bedrohungsszenarien", label:"Threat Scenarios"},
+        {route:"bewaeltigungsstrategie", label:"Coping Strategies"},
+        {route:"empfindliche-punkte", label:"Sensitive Points"},
+        {route:"gifte-des-geistes", label:"Poisons of the Mind"},
       ])}
     </section>
   `);
@@ -52254,6 +52311,7 @@ function subtypeSchaubilderPage() {
     "nicht-verbundene-typen": nichtVerbundeneTypenPage,
     "bewaeltigungsstrategie": bewaeltigungsstrategiePage,
     "bedrohungsszenarien": bedrohungsszenarienPage,
+    "formen-der-angst": formenDerAngstPage,
     "beziehungen": beziehungenPage,
     "kompatibilitaets-check": kompatibilitaetsCheckPage,
     "wachstumstagebuch": wachstumstagebuchPage,
