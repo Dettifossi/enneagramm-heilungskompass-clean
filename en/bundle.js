@@ -17072,7 +17072,7 @@ function detlefRathmerJazzPage() {
     { id: "4firu1KRKIk", label: "Album 102 – Breath of the Unseen (Nordic Jazz)", desc: "Nordischer Jazz mit Atem und Weite – Musik für das Unsichtbare zwischen den Tönen." },
   ];
 
-  const enneagrammAlben = [
+  const enneagrammAlbenGenres = [
     { id: "J0Vq9I81i-Q", num: "14", label: "Album 14 – Irish Folk & Enneagram (English)" },
     { id: "OUQ5-VXvK7M", num: "15", label: "Album 15 – Bossa Nova & Enneagramm (Português)" },
     { id: "59S6PAWebZ8", num: "16", label: "Album 16 – Bossa Nova & Enneagram (English)" },
@@ -17083,6 +17083,8 @@ function detlefRathmerJazzPage() {
     { id: "nwXeqwPDTr0", num: "21", label: "Album 21 – Reggae Meets Enneagram" },
     { id: "7HFR5e_mS-E", num: "22", label: "Album 22 – Charming German Hits Meets Enneagram" },
     { id: "QWeHHcDySkk", label: "Album 23 – Rap Meets Enneagram" },
+  ];
+  const enneagrammAlbenHeilungTyp = [
     { id: "mumR1QESNzQ", label: "Album 24 – Healing Music for Enneagram Type 1" },
     { id: "6nCg7G-91Lc", label: "Album 25 – Healing Music for Enneagram Type 2" },
     { id: "8SmbE-4Za_k", label: "Album 26 – Healing Music for Enneagram Type 3" },
@@ -17092,9 +17094,12 @@ function detlefRathmerJazzPage() {
     { id: "BVYOCZ6xMlA", label: "Album 30 – Healing Music for Enneagram Type 7" },
     { id: "afuljgIKAOU", label: "Album 31 – Healing Music for Enneagram Type 8" },
     { id: "prWKIp0Voq8", label: "Album 32 – Healing Music for Enneagram Type 9" },
+  ];
+  const enneagrammAlbenWeitere = [
     { id: "HRAp3ECem00", label: "Album 46 – Healing Music for Soziale Vierer (SO4)" },
     { id: "QogJd6km5W8", label: "Album 61 – Healing Music for Self-Preservatione Neuner (SP9)" },
   ];
+  const enneagrammAlben = [...enneagrammAlbenGenres, ...enneagrammAlbenHeilungTyp, ...enneagrammAlbenWeitere];
 
   const germanSongs = [
     { id: "UIs80tsNcmE", label: "Enneagram Anthem – Song of Praise for the 9 Types (German)" },
@@ -17251,10 +17256,23 @@ const SPIRITUELL_TRACKS = {
       <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Back to top</button></p>
 
       <h2 id="dr-enn-alben" style="margin-top:3rem;margin-bottom:0.3rem;">Enneagramm-Alben</h2>
-      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
+      <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.8rem;">
         Relaxation and Healing Music for all 9 Enneagram types as well as thematic albums.
       </p>
-      ${grid(enneagrammAlben, ENNEA_TRACKS)}
+      <div style="display:flex;flex-wrap:wrap;gap:0.5rem;margin-bottom:1.5rem;">
+        <button class="chip-nav-btn" onclick="document.getElementById('dr-enn-alben-genres').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.35rem 0.8rem;border-radius:20px;background:var(--ivory);color:var(--ink);font-size:0.8rem;border:1px solid var(--border);font-family:inherit;">🎵 Genres & Enneagram</button>
+        <button class="chip-nav-btn" onclick="document.getElementById('dr-enn-alben-typ').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.35rem 0.8rem;border-radius:20px;background:var(--ivory);color:var(--ink);font-size:0.8rem;border:1px solid var(--border);font-family:inherit;">💫 Healing Music by Type (1–9)</button>
+        <button class="chip-nav-btn" onclick="document.getElementById('dr-enn-alben-weitere').scrollIntoView({behavior:'smooth',block:'start'})" style="cursor:pointer;padding:0.35rem 0.8rem;border-radius:20px;background:var(--ivory);color:var(--ink);font-size:0.8rem;border:1px solid var(--border);font-family:inherit;">✦ Further Subtype Albums</button>
+      </div>
+
+      <h3 id="dr-enn-alben-genres" style="margin-top:0;margin-bottom:0.3rem;font-size:1.05rem;">Genres & Enneagram</h3>
+      ${grid(enneagrammAlbenGenres, ENNEA_TRACKS)}
+
+      <h3 id="dr-enn-alben-typ" style="margin-top:2.2rem;margin-bottom:0.3rem;font-size:1.05rem;">Healing Music by Type (1–9)</h3>
+      ${grid(enneagrammAlbenHeilungTyp, ENNEA_TRACKS)}
+
+      <h3 id="dr-enn-alben-weitere" style="margin-top:2.2rem;margin-bottom:0.3rem;font-size:1.05rem;">Further Subtype Albums</h3>
+      ${grid(enneagrammAlbenWeitere, ENNEA_TRACKS)}
       ${relatedLinks([{route:"detlef-rathmer-jazz|dr-jazz",label:"Jazz Albums"},{route:"detlef-rathmer-jazz|dr-enn-songs",label:"Enneagram Songs"},{route:"stille",label:"9 Minutes of Silence"},{route:"musik",label:"Relaxation and Healing Music"}])}
       <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Back to top</button></p>
 
@@ -17311,8 +17329,11 @@ const SPIRITUELL_TRACKS = {
 
       <h2 id="dr-biblisch" style="margin-top:3rem;margin-bottom:0.3rem;">Biblical Subtype Songs</h2>
       <p style="color:var(--ink-muted);font-size:0.93rem;margin-bottom:0.5rem;">
-        A specially composed, archetypal-biblical song for each of the 27 subtypes (sung in German) – the same 27
-        songs you can also find individually on each subtype page under "Song 5," gathered here in one place for the first time.
+        A specially composed, archetypal-biblical song for each of the 27 subtypes (sung in German). You can also
+        find these same 27 songs individually on each subtype page (the "Song 5" field in the Healing Wisdom
+        section) and, together with the full story of the biblical figure, in the section
+        <a href="javascript:void(0)" data-route="enneagramm-bibel" style="color:var(--copper);">Enneagram in the Mirror of the New Testament</a>.
+        Here they are gathered in one place for the first time.
       </p>
       ${grid([
         { id: "dKofTwCmedc", label: "SE1 · The Reformer" },
@@ -17343,7 +17364,7 @@ const SPIRITUELL_TRACKS = {
         { id: "Hz6P8Sr1iBk", label: "SO9 · The Peacemaker" },
         { id: "gJc3U025VpA", label: "SX9 · The Peacemaker" },
       ])}
-      ${relatedLinks([{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spiritual Songs"},{route:"detlef-rathmer-jazz|dr-enn-songs",label:"Enneagram Songs"},{route:"musik",label:"Relaxation and Healing Music"}])}
+      ${relatedLinks([{route:"enneagramm-bibel",label:"Enneagram in the Mirror of the New Testament"},{route:"detlef-rathmer-jazz|dr-spirituell",label:"Spiritual Songs"},{route:"detlef-rathmer-jazz|dr-enn-songs",label:"Enneagram Songs"},{route:"musik",label:"Relaxation and Healing Music"}])}
       <p style="text-align:right;margin-top:0.8rem;"><button class="top-link-btn" onclick="document.getElementById('dr-top').scrollIntoView({behavior:'smooth',block:'start'})" style="font-size:0.85rem;color:var(--copper);background:none;border:none;cursor:pointer;font-family:inherit;">↑ Back to top</button></p>
 
       <h2 id="dr-liebe" style="margin-top:3rem;margin-bottom:0.3rem;">Love Songs by Detlef</h2>
