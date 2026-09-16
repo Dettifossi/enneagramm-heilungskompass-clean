@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage, gescheGottfriedPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=129";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=130";
 
 import { adeleKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15922,6 +15922,7 @@ const uiText = {
       { route: "enneagramm-wohnraumarchitektur", label: "Enneagramm meets Wohnraumarchitektur" },
       { route: "enneagramm-zimmerpflanzen", label: "Enneagramm meets Zimmerpflanzen" },
       { route: "enneagramm-kunst", label: "Enneagramm-Kunstgalerie" },
+      { route: "subtyp-comicfiguren", label: "Die 27 Subtypen als Comicfiguren" },
       { route: "enneagramm-filme", label: "Enneagramm-Filmempfehlungen" },
       { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagramm vs. andere Persönlichkeitsmodelle" },
       { route: "laenderzuordnungen", label: "Länderzuordnungen" },
@@ -32826,6 +32827,73 @@ function enneagrammKunstTypPage(n) {
   `);
 }
 
+// ───── Subtyp-Comicfiguren ─────────────────────────────────────────────
+const SUBTYP_COMIC = [
+  { code:"SE1", label:"Selbsterhaltender Typ 1", text:"Engagierte Personen, die ihre Werte und Prinzipien für das eigene Wohl nutzen und auf Integrität achten." },
+  { code:"SO1", label:"Sozialer Typ 1", text:"Prinzipientreue Personen, die das Wohl der Gemeinschaft fördern und für Gerechtigkeit kämpfen." },
+  { code:"SX1", label:"Sexueller Typ 1", text:"Intensive und leidenschaftliche Personen, die hohe Ansprüche an sich und nahe Beziehungen stellen." },
+  { code:"SE2", label:"Selbsterhaltender Typ 2", text:"Fürsorgliche Personen, die darauf achten, sich selbst & ihren Nächsten mit Liebe zu begegnen." },
+  { code:"SO2", label:"Sozialer Typ 2", text:"Hilfsbereite und beliebte Personen, die in Gruppen nach Anerkennung streben." },
+  { code:"SX2", label:"Sexueller Typ 2", text:"Leidenschaftliche und empathische Personen, die starke, persönliche Bindungen pflegen." },
+  { code:"SE3", label:"Selbsterhaltender Typ 3", text:"Effiziente und erfolgsorientierte Personen, die auf persönliche Sicherheit und Autonomie achten." },
+  { code:"SO3", label:"Sozialer Typ 3", text:"Dynamische und einflussreiche Personen, die sich in Gruppen Anerkennung verschaffen." },
+  { code:"SX3", label:"Sexueller Typ 3", text:"Charismatische Personen, die ihre Leidenschaft in persönlichen Beziehungen entfalten." },
+  { code:"SE4", label:"Selbsterhaltender Typ 4", text:"Ausdrucksstarke und kreative Personen, die ihre innere Wahrheit im Alltag leben." },
+  { code:"SO4", label:"Sozialer Typ 4", text:"Zurückhaltende und reflektierte Personen, die sich in Gruppen zum Ausdruck bringen." },
+  { code:"SX4", label:"Sexueller Typ 4", text:"Intensive und gefühlvolle Personen, die nach tiefen und einzigartigen Verbindungen streben." },
+  { code:"SE5", label:"Selbsterhaltender Typ 5", text:"Unabhängige und zurückgezogene Personen, die Wissen und Ressourcen bewahren." },
+  { code:"SO5", label:"Sozialer Typ 5", text:"Analytische und engagierte Personen, die ihr Wissen in der Gesellschaft einbringen." },
+  { code:"SX5", label:"Sexueller Typ 5", text:"Beobachtende Personen, die selektiv sind und in Beziehungen nach Nähe streben." },
+  { code:"SE6", label:"Selbsterhaltender Typ 6", text:"Verlässliche und sicherheitsbewusste Personen, die Stabilität im Alltag suchen." },
+  { code:"SO6", label:"Sozialer Typ 6", text:"Loyale und gemeinschaftsorientierte Personen, die Gruppenstrukturen stärken." },
+  { code:"SX6", label:"Sexueller Typ 6", text:"Mutige und hingebungsvolle Personen, die Sicherheit in engen Beziehungen geben." },
+  { code:"SE7", label:"Selbsterhaltender Typ 7", text:"Genussfreudige und optimistische Personen, die Komfort und Sicherheit genießen." },
+  { code:"SO7", label:"Sozialer Typ 7", text:"Visionäre und gesellige Personen, die in Gruppen Freude & Inspiration verbreiten." },
+  { code:"SX7", label:"Sexueller Typ 7", text:"Begeisterte und abenteuerlustige Personen, die das Leben intensiv erleben." },
+  { code:"SE8", label:"Selbsterhaltender Typ 8", text:"Entschlossene und widerstandsfähige Personen, die auf Selbstschutz und Stärke achten." },
+  { code:"SO8", label:"Sozialer Typ 8", text:"Führungsstarke und entschlossene Personen, die ihre Kraft für die Gruppe einsetzen." },
+  { code:"SX8", label:"Sexueller Typ 8", text:"Intensive und leidenschaftliche Personen, die Kontrolle in engen Bindungen leben." },
+  { code:"SE9", label:"Selbsterhaltender Typ 9", text:"Gelassene und friedvolle Personen, die Harmonie und Gemütlichkeit schätzen." },
+  { code:"SO9", label:"Sozialer Typ 9", text:"Verbindende und gemeinschaftsorientierte Personen, die Frieden in Gruppen fördern." },
+  { code:"SX9", label:"Sexueller Typ 9", text:"Innige und idealistische Personen, die Balance und Ruhe in Beziehungen finden." },
+];
+
+function subtypComicsPage() {
+  const card = s => {
+    const n = parseInt(s.code.slice(2), 10);
+    const col = TYPE_COLORS[n] || "var(--copper)";
+    const route = "subtype/" + s.code.toLowerCase();
+    return `<div class="kf-card" data-route="${route}" onclick="go('${route}')"
+      style="cursor:pointer;padding:0;overflow:hidden;border-radius:12px;border:1.5px solid var(--border);background:var(--ivory);"
+      onmouseover="this.style.borderColor='${col}';this.style.boxShadow='0 2px 12px rgba(0,0,0,.12)'"
+      onmouseout="this.style.borderColor='var(--border)';this.style.boxShadow='none'">
+      <div style="aspect-ratio:3/4;overflow:hidden;background:#eee;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/subtyp-comic/${s.code.toLowerCase()}.jpg" alt="${s.label} (${s.code})" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;" />
+      </div>
+      <div style="padding:0.8rem 1rem;">
+        <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:${col};margin-bottom:0.2rem;">${s.code}</div>
+        <div style="font-weight:700;font-size:0.95rem;color:var(--ink);margin-bottom:0.3rem;">${s.label}</div>
+        <p class="vb-intro" style="margin:0;font-size:0.85rem;">${s.text}</p>
+      </div>
+    </div>`;
+  };
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('Subtyp-Comicfiguren')}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">Die 27 Subtypen als Comicfiguren</h1>
+      <p class="psycho-intro">Eine spielerische, karikaturhafte Interpretation aller 27 Enneagramm-Subtypen – jede Figur fängt in Haltung, Kleidung und Ausdruck die Stimmung ihres Musters ein. Zum Anklicken, um direkt zum jeweiligen Subtyp-Profil zu gelangen.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;max-width:100%;margin-bottom:2rem;">
+        ${SUBTYP_COMIC.map(card).join('')}
+      </div>
+      ${relatedLinks([
+        {route:"subtypen-schaubilder", label:"Alle Subtypen-Schaubilder"},
+        {route:"enneagramm-kunst", label:"Enneagramm-Kunstgalerie"},
+        {route:"schaubilder", label:"Alle Schaubilder"},
+      ])}
+    </div>
+  `);
+}
+
 const ENNEAGRAMM_FILME = {
   "SE1": {
     typ: 1, instinkt: "SE", animal: "Adler",
@@ -33400,7 +33468,7 @@ const SCHAUBILDER_NEU = {
   "hoellenkreise-dante": "2026-08-14",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -76885,6 +76953,7 @@ const ROUTES = {
       "enneagramm-akupunktur": enneagrammAkupunkturPage,
       "enneagramm-zahnpsychosomatik": enneagrammZahnpsychosomatikPage,
       "enneagramm-kunst": enneagrammKunstUebersichtPage,
+      "subtyp-comicfiguren": subtypComicsPage,
       ...Object.fromEntries([1,2,3,4,5,6,7,8,9].map(n => ["enneagramm-kunst-typ-"+n, () => enneagrammKunstTypPage(n)])),
       "enneagramm-filme": enneagrammFilmeUebersichtPage,
       ...Object.fromEntries([1,2,3,4,5,6,7,8,9].map(n => ["enneagramm-filme-typ-"+n, () => enneagrammFilmeTypPage(n)])),

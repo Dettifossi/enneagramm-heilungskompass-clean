@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=129";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=130";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -2974,6 +2974,73 @@ function enneagrammKunstTypPage(n) {
 }
 
 // ─── Enneagram Movie Recommendations ───────────────────────────────────────
+// ───── Subtype Comic Characters ─────────────────────────────────────────
+const SUBTYP_COMIC = [
+  { code:"SE1", label:"Self-Preservation Type 1", text:"Committed people who use their values and principles for their own well-being and pay attention to integrity." },
+  { code:"SO1", label:"Social Type 1", text:"Principled people who promote the well-being of the community and fight for justice." },
+  { code:"SX1", label:"Sexual Type 1", text:"Intense and passionate people who hold high standards for themselves and their close relationships." },
+  { code:"SE2", label:"Self-Preservation Type 2", text:"Caring people who make sure to meet themselves and their loved ones with love." },
+  { code:"SO2", label:"Social Type 2", text:"Helpful and well-liked people who strive for recognition within groups." },
+  { code:"SX2", label:"Sexual Type 2", text:"Passionate and empathetic people who nurture strong, personal bonds." },
+  { code:"SE3", label:"Self-Preservation Type 3", text:"Efficient and success-oriented people who value personal security and autonomy." },
+  { code:"SO3", label:"Social Type 3", text:"Dynamic and influential people who earn recognition within groups." },
+  { code:"SX3", label:"Sexual Type 3", text:"Charismatic people who unfold their passion within personal relationships." },
+  { code:"SE4", label:"Self-Preservation Type 4", text:"Expressive and creative people who live their inner truth in everyday life." },
+  { code:"SO4", label:"Social Type 4", text:"Reserved and reflective people who express themselves within groups." },
+  { code:"SX4", label:"Sexual Type 4", text:"Intense and emotional people who seek deep and unique connections." },
+  { code:"SE5", label:"Self-Preservation Type 5", text:"Independent and withdrawn people who conserve knowledge and resources." },
+  { code:"SO5", label:"Social Type 5", text:"Analytical and engaged people who contribute their knowledge to society." },
+  { code:"SX5", label:"Sexual Type 5", text:"Observant people who are selective and seek closeness within relationships." },
+  { code:"SE6", label:"Self-Preservation Type 6", text:"Reliable and security-conscious people who seek stability in everyday life." },
+  { code:"SO6", label:"Social Type 6", text:"Loyal and community-oriented people who strengthen group structures." },
+  { code:"SX6", label:"Sexual Type 6", text:"Courageous and devoted people who provide security within close relationships." },
+  { code:"SE7", label:"Self-Preservation Type 7", text:"Pleasure-loving and optimistic people who enjoy comfort and security." },
+  { code:"SO7", label:"Social Type 7", text:"Visionary and sociable people who spread joy and inspiration within groups." },
+  { code:"SX7", label:"Sexual Type 7", text:"Enthusiastic and adventurous people who experience life intensely." },
+  { code:"SE8", label:"Self-Preservation Type 8", text:"Determined and resilient people who focus on self-protection and strength." },
+  { code:"SO8", label:"Social Type 8", text:"Strong-leading, determined people who put their strength in service of the group." },
+  { code:"SX8", label:"Sexual Type 8", text:"Intense and passionate people who live control within close bonds." },
+  { code:"SE9", label:"Self-Preservation Type 9", text:"Calm and peaceful people who value harmony and coziness." },
+  { code:"SO9", label:"Social Type 9", text:"Connecting and community-oriented people who foster peace within groups." },
+  { code:"SX9", label:"Sexual Type 9", text:"Intimate and idealistic people who find balance and calm within relationships." },
+];
+
+function subtypComicsPage() {
+  const card = s => {
+    const n = parseInt(s.code.slice(2), 10);
+    const col = TYPE_COLORS[n] || "var(--copper)";
+    const route = "subtype/" + s.code.toLowerCase();
+    return `<div class="kf-card" data-route="${route}" onclick="go('${route}')"
+      style="cursor:pointer;padding:0;overflow:hidden;border-radius:12px;border:1.5px solid var(--border);background:var(--ivory);"
+      onmouseover="this.style.borderColor='${col}';this.style.boxShadow='0 2px 12px rgba(0,0,0,.12)'"
+      onmouseout="this.style.borderColor='var(--border)';this.style.boxShadow='none'">
+      <div style="aspect-ratio:3/4;overflow:hidden;background:#eee;">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/subtyp-comic/${s.code.toLowerCase()}.jpg" alt="${s.label} (${s.code})" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;" />
+      </div>
+      <div style="padding:0.8rem 1rem;">
+        <div style="font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:${col};margin-bottom:0.2rem;">${s.code}</div>
+        <div style="font-weight:700;font-size:0.95rem;color:var(--ink);margin-bottom:0.3rem;">${s.label}</div>
+        <p class="vb-intro" style="margin:0;font-size:0.85rem;">${s.text}</p>
+      </div>
+    </div>`;
+  };
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('Subtype Comic Characters')}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">The 27 Subtypes as Comic Characters</h1>
+      <p class="psycho-intro">A playful, cartoon-style interpretation of all 27 Enneagram subtypes – each character captures the mood of its pattern through posture, clothing, and expression. Click through to jump straight to the corresponding subtype profile.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;max-width:100%;margin-bottom:2rem;">
+        ${SUBTYP_COMIC.map(card).join('')}
+      </div>
+      ${relatedLinks([
+        {route:"subtypen-schaubilder", label:"All Subtype Diagrams"},
+        {route:"enneagramm-kunst", label:"Enneagram Art Gallery"},
+        {route:"schaubilder", label:"All Diagrams"},
+      ])}
+    </div>
+  `);
+}
+
 const ENNEAGRAMM_FILME = {
   "SE1": {
     typ: 1, instinkt: "SE", animal: "Eagle",
@@ -3502,7 +3569,7 @@ const SCHAUBILDER_NEU = {
   "enneagramm-intellekt": "2026-08-08",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -3663,6 +3730,7 @@ text.nav = [
     { route: "enneagramm-wohnraumarchitektur", label: "Enneagram Meets Interior Architecture" },
     { route: "enneagramm-zimmerpflanzen", label: "Enneagram Meets Houseplants" },
     { route: "enneagramm-kunst", label: "Enneagram Art" },
+    { route: "subtyp-comicfiguren", label: "The 27 Subtypes as Comic Characters" },
     { route: "enneagramm-filme", label: "Enneagram Movie Recommendations" },
     { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagram vs. Other Personality Models" },
     { route: "laenderzuordnungen", label: "Country Assignments" },
@@ -52633,6 +52701,7 @@ function subtypeSchaubilderPage() {
       "enneagramm-akupunktur": enneagrammAkupunkturPage,
       "enneagramm-zahnpsychosomatik": enneagrammZahnpsychosomatikPage,
       "enneagramm-kunst": enneagrammKunstUebersichtPage,
+      "subtyp-comicfiguren": subtypComicsPage,
       ...Object.fromEntries([1,2,3,4,5,6,7,8,9].map(n => ["enneagramm-kunst-typ-"+n, () => enneagrammKunstTypPage(n)])),
       "enneagramm-filme": enneagrammFilmeUebersichtPage,
       ...Object.fromEntries(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => ["enneagramm-filme-typ-"+code, () => enneagrammFilmeTypPage(code)])),
