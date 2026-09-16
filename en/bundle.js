@@ -3029,9 +3029,14 @@ function subtypComicsPage() {
       ${pageHeader('Subtype Comic Characters')}
       <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">The 27 Subtypes as Comic Characters</h1>
       <p class="psycho-intro">A playful, cartoon-style interpretation of all 27 Enneagram subtypes – each character captures the mood of its pattern through posture, clothing, and expression. Click through to jump straight to the corresponding subtype profile.</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;max-width:100%;margin-bottom:2rem;">
+      <style>
+        .subtyp-comic-grid{display:grid;grid-template-columns:1fr;gap:1rem;max-width:100%;margin-bottom:1rem;}
+        @media (min-width:600px){.subtyp-comic-grid{grid-template-columns:repeat(3,1fr);}}
+      </style>
+      <div class="subtyp-comic-grid">
         ${SUBTYP_COMIC.map(card).join('')}
       </div>
+      <p style="font-size:0.8rem;color:var(--muted);margin:0 0 2rem;">Illustrations: Tessa Fabritz</p>
       ${relatedLinks([
         {route:"subtypen-schaubilder", label:"All Subtype Diagrams"},
         {route:"enneagramm-kunst", label:"Enneagram Art Gallery"},
@@ -12580,6 +12585,7 @@ function subtypCaricatureSection(code, entry, tc) {
            alt="${s.label} (${s.code}) as a caricature" loading="lazy"
            style="max-width:260px;width:100%;display:block;margin:0 auto 0.8rem;border-radius:10px;" />
       <p class="vb-intro" style="max-width:420px;margin:0 auto;">${s.text}</p>
+      <p style="font-size:0.75rem;color:var(--muted);margin:0.6rem 0 0;">Illustration: Tessa Fabritz</p>
     </section>
   `;
 }
