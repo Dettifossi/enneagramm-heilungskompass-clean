@@ -1731,6 +1731,7 @@ export function heinrichPommerenkePortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-rudolf-pleil", label:"Kriminalpsychologie: Rudolf Pleil"},
         {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
+        {route:"kriminalpsychologie-gesche-gottfried", label:"Kriminalpsychologie: Gesche Gottfried (SO1w2)"},
         {route:"blickqualitaet", label:"Blickqualit\u00e4t der 9 Typen"},
       ])}
     </div>

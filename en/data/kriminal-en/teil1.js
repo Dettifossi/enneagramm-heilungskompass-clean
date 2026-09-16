@@ -944,6 +944,7 @@ export function heinrichPommerenkePortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-rudolf-pleil", label:"Criminal Psychology: Rudolf Pleil"},
         {route:"kriminalpsychologie-anders-breivik", label:"Criminal Psychology: Anders Breivik"},
+        {route:"kriminalpsychologie-gesche-gottfried", label:"Criminal Psychology: Gesche Gottfried (SO1w2)"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>
@@ -2430,6 +2431,119 @@ export function wadeWilsonPortraitPage() {
         {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar (SP3)"},
         {route:"kriminalpsychologie-alex-murdaugh", label:"Criminal Psychology: Alex Murdaugh (SX1w2)"},
         {route:"kriminalpsychologie-werner-gladow", label:"Criminal Psychology: Werner Gladow (SO3w4) – same subtype, courtroom as stage"},
+      ])}
+    </div>
+  `);
+}
+
+export function gescheGottfriedPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Gesche Gottfried – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/gesche-gottfried-portrait.jpg" alt="Gesche Gottfried – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gesche Gottfried</p>
+        <p class="krim-portrait-typ">SO1w2 · Social Type 1 with a Two-Wing</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">The "Angel of Bremen" · Germany 1813–1827 · Animal correspondence: Goose</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Gesche Margarethe Gottfried</strong>, born in 1785 in Bremen as Margarethe Timm, poisoned at least
+        15 people from her closest circle between 1813 and 1827 – her parents, two of her daughters, her son, her
+        brother, two husbands, and a fiancé. Her method was "mouse butter," an arsenic-laced lard mixture she had
+        first received from her own mother. While slowly poisoning her victims over weeks and months, she nursed
+        them devotedly at the same time – which earned her the nickname "Angel of Bremen" throughout the city. On
+        April 21, 1831, she was publicly beheaded on Bremen Cathedral Square, the city's last public execution.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Gesche Gottfried</strong> is assigned to the <strong>Social Type 1 with a Two-wing</strong> in the
+        Enneagram. The social One carries its demand for perfection as a public, socially visible concern – it
+        wants to be seen as morally beyond reproach, not merely to act correctly in private. The two-wing lends it
+        caring warmth and the ability to stage itself as indispensable to others. In Gottfried's case, both forces
+        fused into a deadly facade: the publicly celebrated, devoted caregiver who, in secret, killed exactly the
+        people she was caring for.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: The Goose</h3>
+        <p class="vb-intro">
+        The <strong>goose</strong> is the animal correspondence of the social One – an animal that watches vigilantly
+        over its group while appearing outwardly orderly, well-groomed, and harmless. Gottfried's public reputation
+        as the "Angel of Bremen" is the goose in its most civil form: care that wants to be seen and recognized by
+        the community. Yet the same goose that keeps watch can strike unexpectedly hard when its own inner order is
+        violated – in Gottfried's case, in its most destructive form, that hardness turned against her own family.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Social One: Public Care as Facade</h3>
+        <p class="vb-intro"><strong>a) The inner logic:</strong>
+        The social One measures its own worth by how its correctness is perceived from outside. Gottfried's
+        reputation as a selfless caregiver for the sick and dying extended beyond Bremen's city limits – a public
+        image she maintained for twelve years, while secretly killing at least 15 people.</p>
+        <p class="vb-intro"><strong>b) The two-wing: care as access and camouflage:</strong>
+        The two-wing gave Gottfried exactly the warmth and attentiveness that granted her access to her victims –
+        husbands, children, parents, her own family entrusted her with their most intimate care. Care did not
+        contradict the act here; it became its tool.</p>
+        <p class="vb-intro"><strong>c) The unresolved motive:</strong>
+        To this day it remains unclear what actually drove Gottfried – during interrogations she gave no precise
+        statements that would allow a clear motive to be established. This gap fits the destructive One: no loud,
+        declared motive, but an inner order that was self-sufficient and never needed outward justification.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crime: Twelve Years, One Method, the Same Closeness</h3>
+        <p class="vb-intro">
+        Over twelve years, Gottfried used the same poison – "mouse butter," an arsenic-laced lard mixture actually
+        intended for pest control, which she had first received from her own mother. She did not poison her victims
+        abruptly, but over weeks and months, while nursing them at the same time – the same person administering
+        the poison also sat at the sickbed. Her victims included both her parents, two husbands, a fiancé, several
+        of her own children, and her brother – almost exclusively people from her closest family circle, to whom her
+        public caregiving role granted the most immediate access.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. What the Enneagram Reveals</h3>
+        <p class="vb-intro">
+        Gesche Gottfried shows the social One with a two-wing in its most destructive form: a woman whose publicly
+        recognized moral integrity was not the opposite of her crimes but their precondition. The care that
+        established her social standing was simultaneously the means by which she could murder undetected for over
+        a decade. Important for this analysis: the overwhelming majority of social Ones in this compass show
+        exactly the opposite – an incorruptible, often confrontational sense of right and wrong directed at
+        perceived injustice, not at their own family. Gottfried's case is a rare, tragic exception, not a typical
+        expression.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Classification</h3>
+        <p class="vb-intro">
+        <strong>Subtype:</strong> SO1w2 – Social One with a two-wing.<br>
+        <strong>Passion:</strong> Anger – here directed at maintaining a public image of moral irreproachability.<br>
+        <strong>Animal correspondence:</strong> Goose – vigilant, outwardly orderly and well-groomed, unexpectedly harsh when inwardly wounded.<br>
+        <strong>Teaching value:</strong> Gottfried shows how a publicly recognized caregiving role can, for the social One with a two-wing, become not protection from but cover for the gravest crimes – undetected for over a decade, precisely because no one suspected an offender behind the "angel" facade.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Social One in comparison: how anger expresses itself differently in SE1, SO1, and SX1 – and why a public caregiving role can become the most dangerous camouflage.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 1 portrayed in depth – anger, perfectionism, and the healing path through genuine serenity.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Gesche Gottfried was publicly beheaded on Bremen Cathedral Square on April 21, 1831 – the city's last public execution. The Enneagram explains; it does not justify.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-heinrich-pommerenke", label:"Criminal Psychology: Heinrich Pommerenke (SO1w9)"},
+        {route:"kriminalpsychologie-dorothea-puente", label:"Criminal Psychology: Dorothea Puente (SE1w9) – also care as camouflage"},
+        {route:"kriminalpsychologie-jeanne-weber", label:"Criminal Psychology: Jeanne Weber (SE2w1) – also caregiving role as a tool"},
       ])}
     </div>
   `);

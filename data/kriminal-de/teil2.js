@@ -4403,3 +4403,115 @@ export function susanWrightPortraitPage() {
     </div>
   `);
 }
+
+export function gescheGottfriedPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Gesche Gottfried – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/gesche-gottfried-portrait.jpg" alt="Gesche Gottfried – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gesche Gottfried</p>
+        <p class="krim-portrait-typ">SO1w2 · Sozialer Typ 1 mit Zweierflügel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Die "Engel von Bremen" · Deutschland 1813–1827 · Tierentsprechung: Gans</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Gesche Margarethe Gottfried</strong>, geboren 1785 in Bremen als Margarethe Timm, vergiftete zwischen 1813 und 1827 mindestens 15 Menschen aus ihrem engsten Umfeld – ihre Eltern, zwei ihrer Töchter, ihren Sohn, ihren Bruder, zwei Ehemänner und einen Verlobten. Ihr Mittel war "Mäusebutter", eine arsenhaltige Schmalzmischung gegen Mäuse, die sie erstmals von der eigenen Mutter erhalten hatte. Während sie ihre Opfer über Wochen und Monate langsam vergiftete, pflegte sie sie zugleich aufopferungsvoll – wofür sie in Bremen als "Engel von Bremen" galt. Am 21. April 1831 wurde sie auf dem Bremer Domshof öffentlich enthauptet, die letzte öffentliche Hinrichtung der Stadt.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Gesche Gottfried</strong> wird dem <strong>Sozialen Typ 1 mit Zweierflügel</strong> im Enneagramm zugeordnet.
+        Die soziale Eins trägt ihren Vollkommenheitsanspruch als öffentliches, gesellschaftlich sichtbares Anliegen –
+        sie will als moralisch untadelig gelten, nicht nur privat korrekt handeln. Der Zweierflügel verleiht ihr
+        Fürsorglichkeit, Wärme und die Fähigkeit, sich als unentbehrlich für andere zu inszenieren. In Gottfrieds
+        Fall verschmolzen beide Kräfte zu einer tödlichen Fassade: die öffentlich gefeierte, aufopferungsvolle
+        Krankenpflegerin, die im Verborgenen genau jene Menschen tötete, für die sie sorgte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Die Gans</h3>
+        <p class="vb-intro">
+        Die <strong>Gans</strong> ist die Tierentsprechung der sozialen Eins – ein Tier, das wachsam über seine
+        Gruppe wacht und dabei nach außen als ordentlich, gepflegt und harmlos erscheint. Gottfrieds öffentliches
+        Ansehen als "Engel von Bremen" ist die Gans in ihrer zivilsten Form: Fürsorge, die von der Gemeinschaft
+        gesehen und anerkannt werden will. Doch dieselbe Gans, die wacht, kann bei Verletzung ihrer eigenen inneren
+        Ordnung unerwartet hart zuschlagen – bei Gottfried richtete sich diese Härte, in ihrer destruktivsten Form,
+        gegen die eigene Familie.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Eins: Öffentliche Fürsorge als Fassade</h3>
+        <p class="vb-intro"><strong>a) Die innere Logik:</strong>
+        Die soziale Eins misst ihren eigenen Wert daran, wie ihre Korrektheit von außen wahrgenommen wird. Gottfrieds
+        Ruf als selbstlose Pflegerin Kranker und Sterbender reichte über die Stadtgrenzen Bremens hinaus – ein
+        öffentliches Bild, das sie über zwölf Jahre hinweg aufrechterhielt, während sie im Verborgenen mindestens
+        15 Menschen tötete.</p>
+        <p class="vb-intro"><strong>b) Der Zweierflügel: Fürsorge als Zugang und Tarnung:</strong>
+        Der Zweierflügel gab Gottfried genau jene Wärme und Zugewandtheit, die ihr den Zugang zu ihren Opfern
+        verschaffte – Ehemänner, Kinder, Eltern, die eigene Familie vertraute ihr die intimste Pflege an. Fürsorge
+        wurde hier nicht zum Widerspruch zur Tat, sondern zu deren Werkzeug.</p>
+        <p class="vb-intro"><strong>c) Das ungeklärte Motiv:</strong>
+        Bis heute bleibt unklar, was Gottfried tatsächlich antrieb – sie machte bei ihren Verhören keine präzisen
+        Angaben, die auf ein klares Motiv schließen ließen. Diese Leerstelle passt zur destruktiven Eins: kein
+        lautes, erklärtes Motiv, sondern eine innere Ordnung, die sich selbst genügte und nach außen nie
+        gerechtfertigt werden musste.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: Zwölf Jahre, ein Mittel, dieselbe Nähe</h3>
+        <p class="vb-intro">
+        Gottfried nutzte über zwölf Jahre hinweg dasselbe Gift – "Mäusebutter", eine arsenhaltige Schmalzmischung,
+        die eigentlich der Schädlingsbekämpfung diente und die sie erstmals von ihrer eigenen Mutter erhalten hatte.
+        Sie vergiftete ihre Opfer nicht abrupt, sondern über Wochen und Monate, während sie sie gleichzeitig
+        pflegte – dieselbe Person, die das Gift verabreichte, saß auch am Krankenbett. Unter ihren Opfern waren
+        beide Elternteile, zwei Ehemänner, ein Verlobter, mehrere eigene Kinder und ihr Bruder – fast ausschließlich
+        Menschen aus dem engsten familiären Kreis, denen ihre öffentliche Fürsorgerolle den unmittelbarsten Zugang
+        verschaffte.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro">
+        Gesche Gottfried zeigt die soziale Eins mit Zweierflügel in ihrer zerstörerischsten Form: eine Frau, deren
+        öffentlich anerkannte moralische Integrität nicht Gegensatz, sondern Voraussetzung ihrer Taten war. Die
+        Fürsorge, die ihr gesellschaftliches Ansehen begründete, war zugleich das Mittel, mit dem sie unbemerkt
+        über ein Jahrzehnt hinweg morden konnte. Wichtig für die Einordnung: Die überwiegende Mehrheit der SO1 in
+        diesem Kompass zeigt genau das Gegenteil – einen unbestechlichen, oft konfrontativen Sinn für Recht und
+        Unrecht, der sich gegen wahrgenommenes Unrecht richtet, nicht gegen die eigene Familie. Gottfrieds Fall ist
+        eine seltene, tragische Ausnahmeform, keine typische Ausprägung.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Einordnung</h3>
+        <p class="vb-intro">
+        <strong>Subtyp:</strong> SO1w2 – Soziale Eins mit Zweierflügel.<br>
+        <strong>Leidenschaft:</strong> Zorn – hier gerichtet auf die Aufrechterhaltung eines öffentlichen Bildes moralischer Untadeligkeit.<br>
+        <strong>Tierentsprechung:</strong> Gans – wachsam, nach außen ordentlich und gepflegt, bei innerer Verletzung unerwartet hart.<br>
+        <strong>Lehrwert:</strong> Gottfried zeigt, wie eine öffentlich anerkannte Fürsorgerolle bei der sozialen Eins mit Zweierflügel nicht Schutz vor, sondern Deckmantel für schwerste Verbrechen sein kann – über ein Jahrzehnt hinweg unentdeckt, gerade weil niemand hinter der "Engel"-Fassade eine Täterin vermutete.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Eins im Vergleich: Wie sich Zorn bei SE1, SO1 und SX1 unterschiedlich ausdrückt – und warum eine öffentliche Fürsorgerolle zur gefährlichsten Tarnung werden kann.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Gesche Gottfried wurde am 21. April 1831 auf dem Bremer Domshof öffentlich enthauptet – die letzte öffentliche Hinrichtung in Bremen. Das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-heinrich-pommerenke", label:"Kriminalpsychologie: Heinrich Pommerenke (SO1w9)"},
+        {route:"kriminalpsychologie-dorothea-puente", label:"Kriminalpsychologie: Dorothea Puente (SE1w9) – ebenfalls Fürsorge als Tarnung"},
+        {route:"kriminalpsychologie-jeanne-weber", label:"Kriminalpsychologie: Jeanne Weber (SE2w1) – ebenfalls Fürsorgerolle als Werkzeug"},
+      ])}
+    </div>
+  `);
+}
