@@ -46382,6 +46382,11 @@ const KRANKHEITSMUSTERKOMPASS = {
         titel: "Die eigene Forschungs- oder Handwerksleidenschaft als direkte Krankheitsursache",
         beschreibung: "Bei der selbsterhaltenden Fünf finden sich mehrfach Fälle, in denen die Krankheit nicht zufällig, sondern als direkte Folge jahrelanger, ungeschützter Vertiefung in die eigene Materie entsteht – die Leidenschaft selbst wird zur Belastung des eigenen Körpers.",
         beleg: "Marie Curie, deren aplastische Anämie durch chronische Strahlenbelastung aus der eigenen Forschung entstand; Baruch de Spinoza, dessen chronische Lungenerkrankung auf jahrelanges Einatmen von Glasstaub beim Linsenschleifen zurückgeht – seinem selbst gewählten Handwerk zur finanziellen Unabhängigkeit."
+      },
+      {
+        titel: "Chronisches Leiden über Jahrzehnte ertragen, ohne die eigene Arbeit zu unterbrechen",
+        beschreibung: "In mehreren weiteren Fällen begleitet ein chronisches, oft nie eindeutig diagnostiziertes Leiden die selbsterhaltende Fünf über Jahrzehnte – die eigene Forschungs- oder Schaffensarbeit wird davon bemerkenswert wenig gebremst.",
+        beleg: "Charles Darwin, der nach seiner Weltreise auf der HMS Beagle fast vierzig Jahre lang unter chronischer Übelkeit, Herzklopfen und quälender Erschöpfung litt, ohne dass die Symptome zu Lebzeiten je eindeutig diagnostiziert wurden; Franz Kafka, bei dem die ab 1917 bestehende Tuberkulose in seinen letzten Lebensmonaten auf den Kehlkopf übergriff und ihn zwang, nur noch über handschriftliche Zettel zu kommunizieren; Hermann Hesse mit lebenslanger, schwerer Migräne, chronischen Augenleiden und wiederkehrenden depressiven Krisen von der Jugend bis ins hohe Alter; Warren Buffett, der seine 2012 diagnostizierte Prostatakrebserkrankung im Frühstadium öffentlich in einem Aktionärsbrief bekanntgab, sich behandeln ließ und sein Unternehmen währenddessen unverändert weiterführte."
       }
     ]
   },
@@ -46393,7 +46398,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Ungebremstes Weiterarbeiten trotz fortschreitender, bekannter Erkrankung",
         beschreibung: "Bei praktisch allen bisherigen SO5-Fällen setzt sich die geistige oder schöpferische Arbeit trotz erheblicher körperlicher Einschränkung nahezu unvermindert fort – Wissen und Werk werden bis zur physischen Grenze weitergetragen.",
-        beleg: "Stephen Hawking, der trotz vollständiger Lähmung 55 Jahre lang an offenen Fragen der Physik weiterarbeitete; Albert Einstein, der eine bekannte, unbehandelte Aneurysma-Bedrohung sechseinhalb Jahre lang in Kauf nahm und bis in die letzte Nacht an Gleichungen arbeitete; Leonardo da Vinci, der nach einem Schlaganfall mit Lähmung der rechten Hand auf die linke Hand umstellte und weiter an der Mona Lisa arbeitete."
+        beleg: "Stephen Hawking, der trotz vollständiger Lähmung 55 Jahre lang an offenen Fragen der Physik weiterarbeitete; Albert Einstein, der eine bekannte, unbehandelte Aneurysma-Bedrohung sechseinhalb Jahre lang in Kauf nahm und bis in die letzte Nacht an Gleichungen arbeitete; Leonardo da Vinci, der nach einem Schlaganfall mit Lähmung der rechten Hand auf die linke Hand umstellte und weiter an der Mona Lisa arbeitete; Claudio Naranjo, der noch bei seinem letzten öffentlichen Auftritt auf der World Ayahuasca Conference 2019 mit sichtbarem Parkinson-Zittern und Sprechschwierigkeiten vortrug, nur wenige Wochen vor seinem Tod; Isaac Newton, dessen schwerer Nervenzusammenbruch 1693 vermutlich durch jahrzehntelange, ungeschützte alchemistische Experimente mit Quecksilber ausgelöst wurde, ohne dass er diese Experimente vorher unterbrach."
       },
       {
         titel: "Eine bekannte Warnung wird zur Kenntnis genommen, aber nicht befolgt",
@@ -46410,7 +46415,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Neurologische oder psychische Beschwerden mit Auswirkung auf Wahrnehmung und Geist",
         beschreibung: "Mehrere Fälle zeigen eine Kombination aus körperlichem oder von außen auferlegtem Leiden und geistiger beziehungsweise sensorischer Beeinträchtigung, oft begleitet von verstärktem Rückzug.",
-        beleg: "Friedrich Nietzsche mit chronischer Migräne, Sehschwäche und schließlich geistigem Zusammenbruch; Frédéric Chopin, dessen Tuberkulose sein gesamtes späteres Schaffen und seine körperliche Kraft zunehmend einschränkte; Alan Turing, dessen erzwungene Hormonbehandlung nach seiner Verurteilung 1952 ihn körperlich und seelisch zeichnete, worauf er sich fast vollständig in stilles Schweigen zurückzog; Jean-Jacques Rousseau, dessen chronisches Harnleiden über Jahrzehnte von einem zunehmenden Verfolgungswahn begleitet wurde, den er in den ›Bekenntnissen‹ radikal offenlegte, statt ihn zu verbergen."
+        beleg: "Friedrich Nietzsche mit chronischer Migräne, Sehschwäche und schließlich geistigem Zusammenbruch; Frédéric Chopin, dessen Tuberkulose sein gesamtes späteres Schaffen und seine körperliche Kraft zunehmend einschränkte; Alan Turing, dessen erzwungene Hormonbehandlung nach seiner Verurteilung 1952 ihn körperlich und seelisch zeichnete, worauf er sich fast vollständig in stilles Schweigen zurückzog; Jean-Jacques Rousseau, dessen chronisches Harnleiden über Jahrzehnte von einem zunehmenden Verfolgungswahn begleitet wurde, den er in den ›Bekenntnissen‹ radikal offenlegte, statt ihn zu verbergen; Blaise Pascal mit einer praktisch lebenslangen, nie eindeutig diagnostizierten Krankheit, die sich in seinen letzten Lebensjahren mit radikaler religiöser Selbstkasteiung verband und ihn mit nur 39 Jahren tötete."
       }
     ]
   },
@@ -46422,7 +46427,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Zwischen Verschweigen und ständiger gesundheitlicher Wachsamkeit",
         beschreibung: "Bei der selbsterhaltenden Sechs zeigt sich ein auffälliger Kontrast: Manche Fälle verbergen eine ernste Krankheit lange, während andere die eigene Gesundheit zu einem dauerhaften, öffentlich bekannten Sorgenthema machen.",
-        beleg: "Franz Schubert, dessen Syphilis-Erkrankung über sechs Jahre verlief, offiziell aber als Typhus deklariert wurde; Woody Allen mit seiner lebenslangen, öffentlich dokumentierten Hypochondrie (›Alarmismus‹); Neil Armstrong, der über zwei Jahrzehnte hinweg eine koronare Herzkrankheit mit sich trug, bevor er nach einer Bypass-Operation starb."
+        beleg: "Franz Schubert, dessen Syphilis-Erkrankung über sechs Jahre verlief, offiziell aber als Typhus deklariert wurde; Woody Allen mit seiner lebenslangen, öffentlich dokumentierten Hypochondrie (›Alarmismus‹); Neil Armstrong, der über zwei Jahrzehnte hinweg eine koronare Herzkrankheit mit sich trug, bevor er nach einer Bypass-Operation starb; Fjodor Dostojewski, der seine lebenslange Epilepsie nicht verschwieg, sondern direkt in mehrere seiner bedeutendsten literarischen Figuren einschrieb, allen voran Fürst Myschkin in ›Der Idiot‹."
       }
     ]
   },
@@ -46451,7 +46456,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Radikaler Rückzug nach Krankheit oder Trauma statt langsamer Anpassung",
         beschreibung: "Bei der sexuellen Sechs zeigt sich mehrfach ein abrupter, fast vollständiger Rückzug aus dem gewohnten sozialen oder öffentlichen Leben, nachdem eine schwere Erkrankung oder ein Trauma eintrat – nicht das langsame Sich-Einrichten, sondern der klare Bruch.",
-        beleg: "Michael Schumacher, der nach seinem schweren Skiunfall 2013 vollständig medial abgeschottet wurde; Byron Katie, deren zehn Jahre andauernde schwere Depression und Agoraphobie 1986 abrupt in einen radikalen Wendepunkt mündete; Ludwig van Beethovens fortschreitende Taubheit, die ihn zunehmend aus dem geselligen Musikleben seiner Zeit heraustrieb."
+        beleg: "Michael Schumacher, der nach seinem schweren Skiunfall 2013 vollständig medial abgeschottet wurde; Byron Katie, deren zehn Jahre andauernde schwere Depression und Agoraphobie 1986 abrupt in einen radikalen Wendepunkt mündete; Ludwig van Beethovens fortschreitende Taubheit, die ihn zunehmend aus dem geselligen Musikleben seiner Zeit heraustrieb; Friedrich Schiller, der vierzehn Jahre gegen einen bereits 1791 lebensbedrohlich zusammengebrochenen, tuberkulosekranken Körper anarbeitete; Otto von Bismarck, der die Behandlung einer Gangrän am Fuß verweigerte, was zu seinen letzten Lebenswochen 1898 führte; Charles Manson, dessen Darmkrebserkrankung erst in seinem letzten Haftjahr diagnostiziert wurde – in völliger Isolation, an deren Folgen er 2017 im Gefängniskrankenhaus starb."
       },
       {
         titel: "Konfrontation statt Verschweigen: die Krankheit offenlegen und produktiv wenden",
@@ -46468,7 +46473,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Aktivität bis zum buchstäblich letzten Moment, ungeachtet der Diagnose",
         beschreibung: "Die selbsterhaltende Sieben zeigt in mehreren Fällen die Tendenz, die eigene gewohnte Tätigkeit bis zum Lebensende fortzusetzen, statt sich der Krankheit unterzuordnen.",
-        beleg: "Junko Tabei, die trotz Bauchfellkrebs weiterhin Berge bestieg, praktisch bis zu ihrem Tod; Larry King, der über Jahrzehnte eine ganze Kette von Herzerkrankungen, Krebs und einem Schlaganfall überstand und immer wieder ins Studio zurückkehrte, bevor er letztlich an COVID-19-Sepsis starb; Christoph Kolumbus, der trotz acht Jahre andauernder, fortschreitender Gelenkentzündung 1502 noch eine vierte Atlantiküberquerung antrat und bis zu seinem Tod unnachgiebig um seine Titel kämpfte."
+        beleg: "Junko Tabei, die trotz Bauchfellkrebs weiterhin Berge bestieg, praktisch bis zu ihrem Tod; Larry King, der über Jahrzehnte eine ganze Kette von Herzerkrankungen, Krebs und einem Schlaganfall überstand und immer wieder ins Studio zurückkehrte, bevor er letztlich an COVID-19-Sepsis starb; Christoph Kolumbus, der trotz acht Jahre andauernder, fortschreitender Gelenkentzündung 1502 noch eine vierte Atlantiküberquerung antrat und bis zu seinem Tod unnachgiebig um seine Titel kämpfte; Francis Bacon, dessen jahrzehntelange chronische Gicht, Nierensteine und Verdauungsbeschwerden ihn nie von neuen Experimenten abhielten – sein Tod liest sich wie die letzte, tödliche Konsequenz seines eigenen Forscherdrangs."
       },
       {
         titel: "Demonstrative Fülle nach außen verdeckt jahrelang eine ernste private Krise",
@@ -46485,7 +46490,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Flucht nach vorn statt Innehalten bei den ersten Warnzeichen",
         beschreibung: "Die soziale Sieben zeigt in mehreren Fällen ein Muster, bei dem frühe gesundheitliche Warnsignale zugunsten weiterer Aktivität und neuer Projekte konsequent überspielt werden, bis ein abrupter Zusammenbruch die Fortsetzung erzwingt.",
-        beleg: "George Gershwin, der trotz monatelanger Kopfschmerzen und Geruchshalluzinationen bis zum Kollaps an neuen Filmmusik-Projekten weiterarbeitete; Molière, der noch während einer Aufführung mit seiner chronischen Lungenerkrankung auf der Bühne stand; Nikola Tesla, dessen fortschreitende Zwangsstörung über Jahrzehnte hinweg nie behandelt, sondern in immer neue Erfindungsprojekte kanalisiert wurde."
+        beleg: "George Gershwin, der trotz monatelanger Kopfschmerzen und Geruchshalluzinationen bis zum Kollaps an neuen Filmmusik-Projekten weiterarbeitete; Molière, der noch während einer Aufführung mit seiner chronischen Lungenerkrankung auf der Bühne stand; Nikola Tesla, dessen fortschreitende Zwangsstörung über Jahrzehnte hinweg nie behandelt, sondern in immer neue Erfindungsprojekte kanalisiert wurde; Jules Verne, der nach einem Attentat seines Neffen 1886 mit einer dauerhaft im Bein steckenden Kugel und später zusätzlicher Diabetes-Erkrankung fortan hinkte, ohne sein rastloses literarisches Schaffen zu unterbrechen; Drew Barrymore, deren bereits im Kindesalter beginnende Suchterkrankung erst 1988, im Alter von 13 Jahren, mit einer Klinikeinweisung einen erzwungenen Halt fand; Elon Musk, der sein Asperger-Syndrom erst 2021 live im Fernsehen öffentlich bekanntgab, nachdem es sein gesamtes bisheriges Arbeitsleben unbenannt mitgeprägt hatte."
       },
       {
         titel: "Fortsetzung der eigenen Mission oder Gemeinschaftsbindung bis zum letzten Atemzug",
@@ -46502,7 +46507,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Fortgesetzte Intensität trotz fortschreitender körperlicher Einschränkung",
         beschreibung: "Bei der sexuellen Sieben hält die schöpferische oder berufliche Intensität auch unter zunehmender körperlicher Belastung ungewöhnlich lange an – die Erkrankung wird eher in die bestehende Leidenschaft integriert als dass sie zum Rückzug führt.",
-        beleg: "Frans de Waal, der trotz Magenkrebs bis wenige Monate vor seinem Tod weiterarbeitete; Morgan Freeman, der trotz seit 2008 bestehender Fibromyalgie mit chronischen Nervenschmerzen im linken Arm weiter Filme drehte; Franz Liszt, der trotz Herzschwäche, Wassersucht und fortschreitender Erblindung bis zuletzt konzertierte."
+        beleg: "Frans de Waal, der trotz Magenkrebs bis wenige Monate vor seinem Tod weiterarbeitete; Morgan Freeman, der trotz seit 2008 bestehender Fibromyalgie mit chronischen Nervenschmerzen im linken Arm weiter Filme drehte; Franz Liszt, der trotz Herzschwäche, Wassersucht und fortschreitender Erblindung bis zuletzt konzertierte; Robert Schumann, dessen psychische Erkrankung sich über sein gesamtes Erwachsenenleben zog, ihn 1854 in den Rhein und in eine Heilanstalt führte, in der er 1856 starb; Leonard Bernstein, dessen jahrzehntelanger, nahezu grenzenloser Raubbau am eigenen Körper 1990 in einer fortgeschrittenen Lungenerkrankung und einem abrupten Tod gipfelte – wenige Tage, nachdem er sich öffentlich vom Dirigieren zurückgezogen hatte."
       }
     ]
   },
