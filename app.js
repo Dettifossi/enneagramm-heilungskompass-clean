@@ -38776,7 +38776,23 @@ function subtypePage(code) {
       </details>
     </section>
     ${beratungsCTA()}
+    ${subtypCaricatureSection(code, entry, tc)}
   `);
+}
+
+function subtypCaricatureSection(code, entry, tc) {
+  const s = SUBTYP_COMIC.find(x => x.code === entry.code);
+  if (!s) return "";
+  return `
+    <section class="narrow centered" style="padding-top:1.5rem;padding-bottom:2.5rem;">
+      <p class="eyebrow" style="color:${tc}">Zum Schluss</p>
+      <h3 style="font-family:'EB Garamond',serif;font-size:1.3rem;color:var(--ink);margin:0.2rem 0 0.8rem;">Die ${entry.code} als Karikatur</h3>
+      <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/subtyp-comic/${code.toLowerCase()}.jpg"
+           alt="${s.label} (${s.code}) als Karikatur" loading="lazy"
+           style="max-width:260px;width:100%;display:block;margin:0 auto 0.8rem;border-radius:10px;" />
+      <p class="vb-intro" style="max-width:420px;margin:0 auto;">${s.text}</p>
+    </section>
+  `;
 }
 
 function heilwissenLock(title = "Heilmittel, TCM & Kindheitspr\u00e4gung") {
