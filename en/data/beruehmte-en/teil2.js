@@ -2177,6 +2177,7 @@ export function bennySafdiePortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-josh-safdie", label:"Portrait: Josh Safdie (SO7w6) – the brother Benny co-directed with for over a decade"},
         {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5)"},
         {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
         {route:"beruehmte-leonard-cohen", label:"Portrait: Leonard Cohen (SO4w5)"},

@@ -2129,6 +2129,7 @@ export function bennySafdiePortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-josh-safdie", label:"Porträt: Josh Safdie (SO7w6) – der Bruder, mit dem Benny über ein Jahrzehnt gemeinsam Regie führte"},
         {route:"beruehmte-marcel-proust", label:"Porträt: Marcel Proust (SO4w5)"},
         {route:"beruehmte-gustav-mahler", label:"Porträt: Gustav Mahler (SO4w5)"},
         {route:"beruehmte-leonard-cohen", label:"Porträt: Leonard Cohen (SO4w5)"},

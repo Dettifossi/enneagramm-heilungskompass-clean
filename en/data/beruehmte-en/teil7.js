@@ -2119,3 +2119,68 @@ export function benBerndtPortraitPage() {
     </div>
   `);
 }
+
+export function joshSafdiePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-josh-safdie-portrait.jpg" alt="Josh Safdie" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Josh Safdie</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-Wing</p>
+        <p class="krim-portrait-subtitle">American director, writer, and producer, b. 1984 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver Who Maps Entire Worlds</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> is the animal of the social Seven: restless, systematic, always busy creating something larger that everyone is meant to benefit from in the end. Josh Safdie, born in 1984 in New York, became known together with his younger brother Benny as one half of the "Safdie Brothers" &ndash; with films like ›Good Time‹ (2017) and ›Uncut Gems‹ (2019) that show New York as a feverish, almost unbearably dense nervous-system landscape. Where <a href="javascript:void(0)" data-route="beruehmte-benny-safdie">his brother Benny</a> (SO4w5) withdraws into quiet, precise detail work, Josh pushes outward: into new milieus, new communities, new obsessions he wants to fully penetrate before filming them.</p>
+          <p class="vb-intro">Together with Benny, he spent more than a decade researching New York's Diamond District before making ›Uncut Gems‹ &ndash; not out of academic interest, but because his father had worked there himself, and Josh wanted to know that world from the inside, complete with its own rules, its own language, its own logic.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Giving One's Own Fascination Back to the Community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo describes the social Seven through the theme of <em>sacrifice</em>: instead of living out the desire for ever-new experience purely privately, it is put in the service of a larger cause or community &ndash; an idealistic head type who translates their thirst for knowledge into a project for others. That is exactly what Safdie's own explanation of his fascination with subcultures describes: they interested him because they were "usually indicative of a grander culture in some way in their rejection or in the rejection of their culture." That's not mere curiosity, but the attempt to immediately place the individual phenomenon within a larger societal context.</p>
+          <p class="vb-intro">This translation of personal fascination into a project for a wider audience shows up consistently: the real street-drug scene around Arielle Holmes in ›Heaven Knows What‹, the bail-bondsman milieu in ›Good Time‹, now the table-tennis hustler world in ›Marty Supreme‹. Safdie even cast the Diamond District jewelers as themselves in the film &ndash; not to exploit their world, but to give it a stage with the greatest possible accuracy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Two Decades of Loyalty Instead of Constant New Alliances</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> shows up in Safdie not as reserve, but as the constancy of his closest bonds. With Ronald Bronstein, whom he met at SXSW in 2007, he still shares one of the central creative partnerships of his life &ndash; together they founded the production company Central Pictures, together they wrote and edited ›Good Time‹, ›Uncut Gems‹, and ›Marty Supreme‹. Actress Eleonore Hendricks, cinematographer Sean Price Williams, and actor Buddy Duress keep returning across multiple films &ndash; a kind of found family that has barely changed over almost two decades.</p>
+          <p class="vb-intro">Where a socially oriented Seven with an Eight-wing would rather conquer and dominate new alliances, Safdie seeks the reliable, deeply rooted bond with a fixed circle of trusted people &ndash; security through continuity, not through constantly changing new relationships.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: The Hustle That Starts to Own You</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Seven is called <strong>gluttony</strong> &ndash; the restless grasping for ever more experience, ever new possibilities, out of fear of missing out. About his 2025 film ›Marty Supreme‹, Safdie himself said: "It's about a kid who thinks he's in control of the hustle &ndash; until he realizes the hustle owns him." That's a rare, open self-reflection about one's own trap: the restless expenditure that was supposed to serve one's own expansion at some point tips over into a compulsion that takes on a life of its own.</p>
+          <p class="vb-intro">On the set of ›Marty Supreme‹, Safdie is said to have confiscated a crew member's phone because they were live-posting during a scene &ndash; his instruction: "Get in the scene. Stop documenting your life and start living it." That, too, is typical Seven logic: the permanent mental distance created by documentation, planning, and looking ahead is meant to be overcome in favor of fully, unrestrainedly immersing oneself in the moment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Seven with a Six-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w6 shows in how Safdie doesn't keep his fascination with overlooked American subcultures to himself, but invests years of relationship-building to bring them to the screen with dignity &ndash; the jewelers of the Diamond District became friends, not just research subjects, and remained so after filming wrapped.</p>
+          <p class="vb-intro">The shadow lies in the flip side of that same intensity: the willingness to go to real limits for the larger truth of a scene has repeatedly led to controversial incidents on set &ndash; former collaborators have criticized that the pursuit of authenticity came "at too high a cost." In its shadow side, the social Seven easily confuses its own mission with the right to demand too much of others in service of that mission.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Two Brothers, Two Paths Through the Same City</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">For over a decade, Josh Safdie was publicly inseparable from his brother Benny. In 2024 the two split professionally &ndash; by their own account amicably, as "a natural progression of what we each want to explore." With ›Marty Supreme‹ (2025), Josh directed alone for the first time since ›The Pleasure of Being Robbed‹ (2008), earning four Academy Award nominations &ndash; almost simultaneously with Benny's own solo outing, ›The Smashing Machine‹, which won him the Silver Lion in Venice.</p>
+          <p class="vb-intro">Two brothers, who came from the same New York, the same shared childhood split between Queens and Manhattan, and who made films together for over a decade &ndash; and who, in the end, fanned out into two very different Enneagram patterns: Benny's quiet, withdrawn obsession with detail as a social Four, against Josh's outward-facing, community-building restlessness as a social Seven. Both truly found their own voice only once they stopped searching for it together.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"beruehmte-benny-safdie", label:"Portrait: Benny Safdie (SO4w5) – the brother Josh co-directed with for over a decade"},
+        {route:"kriminalpsychologie-frank-abagnale-jr", label:"Criminal psychology portrait: Frank Abagnale Jr. (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
