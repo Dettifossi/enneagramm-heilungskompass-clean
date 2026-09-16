@@ -25197,12 +25197,12 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Control and violence within one's own family or closest community",
         beschreibung: "In the sexual One, several cases show the crime unfolding not in public but within the offender's own family or a closed community they created, often undetected for years under the pretense of care or legitimate authority.",
-        beleg: "Josef Fritzl held his own daughter captive in a self-built basement dungeon for 24 years; Mary Ann Cotton poisoned several of her own family members over years; Alex Murdaugh used his position within his own family law firm for large-scale fraud for decades."
+        beleg: "Josef Fritzl held his own daughter captive in a self-built basement dungeon for 24 years; Mary Ann Cotton poisoned several of her own family members over years; Alex Murdaugh used his position within his own family law firm for large-scale fraud for decades; Otto Mühl built the Friedrichshof commune into his own closed community and, as its leader, abused that authority for years to sexually abuse minors; Fritz Haarmann used his role as an active police informant as institutional cover while being known in his neighborhood as a good-natured neighbor; Gennady Mikhasevich spent years taking part in the official manhunt for the very perpetrator he himself was – authority as camouflage in its most consistent form."
       },
       {
-        titel: "Rejection as trigger, academic distance as camouflage",
-        beschreibung: "In one of the portrayed cases, the violence targets strangers rather than the offender's own family – triggered by a rejection experienced as loss of control, planned with the same methodical precision the subtype otherwise uses for order and control.",
-        beleg: "Bryan Kohberger, a criminology PhD student, killed four students after, according to a forensic psychiatrist's assessment, being driven by anger and resentment toward women who rejected him or from whom he expected rejection – the same meticulous control he used professionally to analyze violent crime, he used to plan his own act."
+        titel: "Control against strangers outside the family",
+        beschreibung: "In several cases the violence targets strangers rather than the offender's own family – often initiated through a charm facade with the two-wing, more from unremarkable distance with the nine-wing, but always with the same methodical precision the subtype otherwise uses for order and control.",
+        beleg: "Gary Ridgway killed prostitutes he perceived as impure over more than two decades, while outwardly presenting as a churchgoing family man; Paul Bernardo deliberately used charm to approach strangers before overpowering them; Bryan Kohberger, a criminology PhD student, killed four students after, according to a forensic psychiatrist's assessment, being driven by anger and resentment toward women who rejected him or from whom he expected rejection – the same meticulous control he used professionally to analyze violent crime, he used to plan his own act."
       }
     ]
   },
