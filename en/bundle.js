@@ -24135,19 +24135,19 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Loss of control at a point willpower cannot reach",
         beschreibung: "The self-preservation One maintains a high level of self-discipline throughout life – illness often strikes exactly where that control is objectively impossible: eyesight, cell growth, addiction.",
-        beleg: "Astrid Lindgren, who went nearly completely blind in old age – a gradual loss no discipline could halt; Anthony Hopkins, who only got his alcoholism under control through a radical, never-since-interrupted retreat into total abstinence starting in 1975; Ludwig Wittgenstein, whose prostate cancer with spinal metastases was diagnosed as incurable in 1949, after which he worked on his final philosophical notes until the end.; Phil Collins, whose nerve damage in the hands ended his drumming in 2007, and whose 2015 spinal injury left him temporarily unable to walk – of all things, the physical tools of his disciplined precision failed him.; Alain Delon, whose 2019 stroke and later leukemia diagnosis attacked exactly the physical mastery his entire public image rested on – he responded by withdrawing to his estate rather than complaining publicly."
+        beleg: "Astrid Lindgren, who went nearly completely blind in old age – a gradual loss no discipline could halt; Anthony Hopkins, who only got his alcoholism under control through a radical, never-since-interrupted retreat into total abstinence starting in 1975; Ludwig Wittgenstein, whose prostate cancer with spinal metastases was diagnosed as incurable in 1949, after which he worked on his final philosophical notes until the end.; Phil Collins, whose nerve damage in the hands ended his drumming in 2007, and whose 2015 spinal injury left him temporarily unable to walk – of all things, the physical tools of his disciplined precision failed him.; Alain Delon, whose 2019 stroke and later leukemia diagnosis attacked exactly the physical mastery his entire public image rested on – he responded by withdrawing to his estate rather than complaining publicly; Konrad Adenauer, whose face a severe 1917 car accident permanently changed, and who, even at 91 in spring 1967, suffered two heart attacks without ever publicly questioning his office beforehand; Robert De Niro, who had his 2003 prostate cancer diagnosis – the same diagnosis as his fellow SE1w9 Ludwig Wittgenstein – treated largely privately and only briefly commented on it publicly."
       }
     ]
   },
   SO1: {
     tier: "Goose",
     kernthema: "Small sample so far – the first discernible line: a very deliberate, often preventive decision in how one handles one's own health.",
-    beispiele: ["David Bowie", "Dr. Jordan Peterson", "Angelina Jolie", "Adam Smith"],
+    beispiele: ["David Bowie", "Dr. Jordan Peterson", "Angelina Jolie", "Adam Smith", "Steve Jobs"],
     fingerabdruecke: [
       {
         titel: "Principled decisions even in the face of one's own illness",
         beschreibung: "With few cases so far but a strikingly consistent pattern, the social One shows a very deliberate, almost principled stance toward its own health – decisions are not left to chance but made by clear standards of its own.",
-        beleg: "Angelina Jolie, who, after testing positive for the BRCA1 gene mutation, chose preventive double mastectomy and removal of her ovaries and fallopian tubes before any disease was present; David Bowie, who turned his liver cancer diagnosis into the deliberate basis for a final, consciously composed work (\"Blackstar\") rather than concealing or dramatizing it; Adam Smith, who shortly before his death had almost all his unpublished manuscripts burned, fearing they would not meet his own high standard – an equally principled and final decision in the face of his own mortality."
+        beleg: "Angelina Jolie, who, after testing positive for the BRCA1 gene mutation, chose preventive double mastectomy and removal of her ovaries and fallopian tubes before any disease was present; David Bowie, who turned his liver cancer diagnosis into the deliberate basis for a final, consciously composed work (\"Blackstar\") rather than concealing or dramatizing it; Adam Smith, who shortly before his death had almost all his unpublished manuscripts burned, fearing they would not meet his own high standard – an equally principled and final decision in the face of his own mortality; Steve Jobs, who for nine months after his 2003 cancer diagnosis chose a self-assembled alternative treatment approach over the medically recommended surgery – a decision he later called a mistake himself, but reached by the same personal principles with which he shaped every Apple product; Jordan Peterson, whose severe benzodiazepine dependency culminated in an artificially induced withdrawal coma in Russia in 2019/2020, after Western clinics could no longer help him."
       }
     ]
   },
@@ -24159,7 +24159,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Inner pressure that discharges psychologically rather than physically",
         beschreibung: "In four of five SX1 cases portrayed so far, what dominates is not a purely physical illness but a psychological crisis – depression, addiction, or a psychiatric emergency – often as the flip side of an outwardly very controlled, intense way of living.",
-        beleg: "Martin Luther, who suffered recurring severe depression throughout his life, which he himself called \"Anfechtungen\" (spiritual trials); Robbie Williams with decades of depression and addiction; Jamie Lee Curtis, who concealed a 22-year opiate dependency that began after a cosmetic procedure; Klaus Kinski, whose lifelong outbursts of rage culminated in a 1950 psychiatric committal with a provisional diagnosis of schizophrenia."
+        beleg: "Martin Luther, who suffered recurring severe depression throughout his life, which he himself called \"Anfechtungen\" (spiritual trials); Robbie Williams with decades of depression and addiction; Jamie Lee Curtis, who concealed a 22-year opiate dependency that began after a cosmetic procedure; Klaus Kinski, whose lifelong outbursts of rage culminated in a 1950 psychiatric committal with a provisional diagnosis of schizophrenia. Johann Sebastian Bach forms the counterpoint: a progressive blindness over years, two failed eye surgeries, and a quiet, undramatic persistence he met it with – he rarely complained and kept working into his final, nearly blind months."
       }
     ]
   },
@@ -24171,7 +24171,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Visible marks of violence, accident, or early trauma on the body itself",
         beschreibung: "The self-preservation Two strikingly often shows a direct physical or traumatic injury – through accident, violence, or early abuse – that becomes a permanent part of the life story rather than staying hidden.",
-        beleg: "Frida Kahlo, who endured roughly 30 operations and eventually a leg amputation after a bus accident; Ai Weiwei, who suffered a brain hemorrhage after a police assault in 2009 and has had chronic headaches ever since; Oprah Winfrey, who has spoken publicly about childhood sexual abuse and a teenage pregnancy at 14; Natascha Kampusch, who suffered a severe psychological breakdown twenty years after her release; Greta Thunberg with severe depression, an eating disorder, and selective mutism in childhood."
+        beleg: "Frida Kahlo, who endured roughly 30 operations and eventually a leg amputation after a bus accident; Ai Weiwei, who suffered a brain hemorrhage after a police assault in 2009 and has had chronic headaches ever since; Oprah Winfrey, who has spoken publicly about childhood sexual abuse and a teenage pregnancy at 14; Natascha Kampusch, who suffered a severe psychological breakdown twenty years after her release; Greta Thunberg with severe depression, an eating disorder, and selective mutism in childhood; Wolfgang Amadeus Mozart with a chain of feverish illnesses recurring since childhood, up to his sudden death in 1791; Nusrat Fateh Ali Khan, whose years-long, long-concealed diabetes ended with his sudden death in 1997 at only 48; Mr. T, diagnosed at the height of his fame in 1995 with a rare T-cell lymphoma – instead of withdrawing, he has since regularly visited cancer-stricken children in hospitals; Yayoi Kusama, who has suffered visual and auditory hallucinations since early childhood and voluntarily admitted herself to a psychiatric hospital in 1977, where she lived and kept working nearly daily until her death in 2026."
       }
     ]
   },
@@ -24183,12 +24183,12 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Forgoing treatment or rest in favor of the larger cause",
         beschreibung: "In the social Two, the illness itself is strikingly often not the center of the story – the refusal to interrupt one's role for others because of it is, up to and including consciously declining necessary treatment.",
-        beleg: "Bob Marley, who declined a medically recommended amputation on religious grounds and died as the cancer spread; Muhammad Ali, whose Parkinson's syndrome was likely partly caused by years of continuing to box despite repeated head trauma; Julius Caesar and Alexander the Great, who never publicly paused despite recurring seizures or a years-long, boundless campaign of conquest, respectively."
+        beleg: "Bob Marley, who declined a medically recommended amputation on religious grounds and died as the cancer spread; Muhammad Ali, whose Parkinson's syndrome was likely partly caused by years of continuing to box despite repeated head trauma; Julius Caesar and Alexander the Great, who never publicly paused despite recurring seizures or a years-long, boundless campaign of conquest, respectively; Napoleon Bonaparte, whose decades-recurring stomach complaints only escalated in exile on St. Helena and led to his 1821 death from stomach cancer – a suffering he never allowed to become public during his active years."
       },
       {
         titel: "Addiction as a response to the loss of central belonging",
         beschreibung: "A second pattern emerges when the social Two loses the community that carries its own significance – physical decline then sets in not through self-sacrifice for others, but as a response to an abrupt rupture of its own belonging.",
-        beleg: "Truman Capote, whose chronic alcohol and drug abuse dramatically worsened after he lost his closest society friends in 1975/76 through the literary exposure of intimate details – losing the community that formed a central part of his identity."
+        beleg: "Truman Capote, whose chronic alcohol and drug abuse dramatically worsened after he lost his closest society friends in 1975/76 through the literary exposure of intimate details – losing the community that formed a central part of his identity; Ashton Kutcher, who concealed a rare autoimmune disease that temporarily cost him his sight, hearing, and ability to walk for years, before making it public only in 2023 – vulnerability admitted only once the acute danger had long passed."
       }
     ]
   },
@@ -24222,7 +24222,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Function and responsibility remain fully intact despite chronic illness",
         beschreibung: "A second pattern shows the opposite of a broken façade: the leadership function is maintained without visible interruption despite years of serious chronic illness.",
-        beleg: "Clare of Assisi, who led her order until two days before her death despite roughly 27 to 29 years of being largely bedridden, without ever putting her own illness at the center of public attention."
+        beleg: "Clare of Assisi, who led her order until two days before her death despite roughly 27 to 29 years of being largely bedridden, without ever putting her own illness at the center of public attention; Joseph Haydn, who even in the physical decline of his final years found a touching last gesture of care for his household staff, rather than withdrawing entirely into his own weakness."
       }
     ]
   },
@@ -24234,7 +24234,12 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Concealment of one's own illness until shortly before death",
         beschreibung: "The social Three often keeps its public image immaculate right up to its final months – its own illness is hidden even from close circles and frequently becomes known, or is confirmed, only after death.",
-        beleg: "Sean Connery's dementia, confirmed publicly only after his death; Karl Lagerfeld's cancer, whose exact cause of death was never officially confirmed; Christiaan Barnard, who reconciled rheumatoid arthritis in his hands with his surgical career for decades, until it forced him to end that career in 1983."
+        beleg: "Sean Connery's dementia, confirmed publicly only after his death; Karl Lagerfeld's cancer, whose exact cause of death was never officially confirmed; Christiaan Barnard, who reconciled rheumatoid arthritis in his hands with his surgical career for decades, until it forced him to end that career in 1983; Louis XIV, whose decades of chronic gout and a 1686 operation for an anal fistula, performed under the strictest secrecy, were never publicly acknowledged; O.J. Simpson, whose 2023 prostate cancer diagnosis remained largely hidden from the public at first."
+      },
+      {
+        titel: "A severe physical crisis as the origin of an entirely new life path",
+        beschreibung: "In at least one case, a life-threatening physical crisis produces not withdrawal but the beginning of an entirely new, publicly visible body of work.",
+        beleg: "Teresa of Ávila, who in 1539 was believed dead for four days after a failed lay treatment and remained largely paralyzed for nearly three years afterward – it was precisely out of that period that her first deep mystical experiences developed, the origin of her later work as a mystic and monastic reformer."
       },
       {
         titel: "Continuing work at nearly undiminished pace despite early, clear warning signs",
@@ -24251,7 +24256,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "A polished stage presence concealing the actual crisis for a long time",
         beschreibung: "In several cases, a pattern emerges in which the actual health or psychological crisis stays hidden for a long time behind a flawless public presence, before it escalates abruptly.",
-        beleg: "Marilyn Monroe, whose fatal drug combination occurred despite the glamorous public image she maintained to the end; Dolly Parton, who rarely publicly addressed the endometriosis she has had since the early 1980s, while maintaining her radiant stage image; Brigitte Bardot, whose husband confirmed a cancer diagnosis after her death without ever publicly naming the exact condition – she personally denied circulating death rumors right up until the end."
+        beleg: "Marilyn Monroe, whose fatal drug combination occurred despite the glamorous public image she maintained to the end; Dolly Parton, who rarely publicly addressed the endometriosis she has had since the early 1980s, while maintaining her radiant stage image; Brigitte Bardot, whose husband confirmed a cancer diagnosis after her death without ever publicly naming the exact condition – she personally denied circulating death rumors right up until the end; Richard Ramírez, whose B-cell lymphoma diagnosis and years-long illness on death row remained largely hidden behind his deliberate self-mythologizing as the \"Night Stalker,\" until he died in 2013 before his death sentence could be carried out."
       }
     ]
   },
@@ -24263,7 +24268,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Years of concealed emotional suffering behind one's own sensitivity",
         beschreibung: "In nearly every case so far, the self-preservation Four shows a years-long concealed emotional suffering – an eating disorder, depression, post-traumatic stress – that only became known late, or posthumously.",
-        beleg: "Lady Diana, whose bulimia was concealed for years and accompanied by self-harm and postnatal depression; Adele, who kept a severe postnatal depression with panic attacks to herself for nearly a decade; T. E. Lawrence, whose thirteen years of ongoing depression after the trauma of Deraa in 1917 discharged into a self-organized ritual of punishment.; Virginia Woolf, whose decades of severe depressive episodes were processed almost exclusively in diaries and private letters, becoming known to a wider public only through the posthumous publication of her diaries."
+        beleg: "Lady Diana, whose bulimia was concealed for years and accompanied by self-harm and postnatal depression; Adele, who kept a severe postnatal depression with panic attacks to herself for nearly a decade; T. E. Lawrence, whose thirteen years of ongoing depression after the trauma of Deraa in 1917 discharged into a self-organized ritual of punishment.; Virginia Woolf, whose decades of severe depressive episodes were processed almost exclusively in diaries and private letters, becoming known to a wider public only through the posthumous publication of her diaries; Vincent van Gogh with recurring psychotic and likely epileptic crises in his final two years, the ear-cutting incident in 1888, and a probably self-inflicted fatal gunshot wound in 1890; Honoré de Balzac, whose decades of bodily self-destruction through workaholism, caffeine excess, and sleep deprivation ended in heart failure with fatal gangrene, only five months after his wedding."
       },
       {
         titel: "A visible, congenital difference is minimized rather than hidden",
@@ -24280,7 +24285,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Shamefully hidden or downplayed suffering despite noticeable impairment",
         beschreibung: "The social Four shows a tendency either to dramatize its own suffering heavily (hypochondria) or, conversely, to hide it out of shame – both as ways of handling a vulnerability experienced as shameful.",
-        beleg: "Michael Jackson, who concealed his vitiligo for years while his pain and sleep medication dependency deepened unnoticed; Hans Christian Andersen with lifelong hypochondria alongside neglected, genuinely existing dental problems; Romy Schneider, whose escalating alcohol and pill use after a kidney operation largely went unnoticed; Edgar Allan Poe, whose alcoholism was rarely addressed openly in public despite a body of work obsessively engaged with death and decay, and whose final days remain unresolved to this day."
+        beleg: "Michael Jackson, who concealed his vitiligo for years while his pain and sleep medication dependency deepened unnoticed; Hans Christian Andersen with lifelong hypochondria alongside neglected, genuinely existing dental problems; Romy Schneider, whose escalating alcohol and pill use after a kidney operation largely went unnoticed; Edgar Allan Poe, whose alcoholism was rarely addressed openly in public despite a body of work obsessively engaged with death and decay, and whose final days remain unresolved to this day; Gustav Mahler, diagnosed in 1907 – the same year he also lost his daughter and his position at the Vienna Court Opera – with a severe heart valve disease that shaped his last four years, rarely discussed publicly; Marcel Proust, whose lifelong severe asthma increasingly confined him to his legendary cork-lined room, until he died at only 51, working on his life's work literally to his last breath."
       },
       {
         titel: "The counter-case: the suffering is made a public artistic subject instead of being hidden",
@@ -24297,7 +24302,12 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Concealed until the last minute – illness as a radically private secret",
         beschreibung: "The sexual Four repeatedly shows an especially consistent, often years-long concealment of its own diagnosis – right up to the limit of what remains publicly tenable.",
-        beleg: "Freddie Mercury, who kept his AIDS diagnosis strictly secret for nearly five years and confirmed it publicly only one day before his death; Billie Eilish, who concealed her Tourette syndrome for years before disclosing it herself."
+        beleg: "Freddie Mercury, who kept his AIDS diagnosis strictly secret for nearly five years and confirmed it publicly only one day before his death; Billie Eilish, who concealed her Tourette syndrome for years before disclosing it herself; Claude Debussy, whose colon cancer, diagnosed in 1909, was rarely discussed publicly during a nearly nine-year, increasingly painful course, until he died amid the German shelling of Paris."
+      },
+      {
+        titel: "Chronic suffering documented rather than concealed, without ever slowing one's own productivity",
+        beschreibung: "A second pattern shows the opposite of radical secrecy: the chronic suffering is meticulously recorded in one's own correspondence or notes, without ever becoming a public topic or a brake on one's own creative output.",
+        beleg: "Voltaire, who documented his decades of chronic digestive and bladder ailments obsessively in his extensive correspondence, without them ever slowing his extraordinary productivity."
       },
       {
         titel: "No concealment, but unsparing openness about one's own suffering",
