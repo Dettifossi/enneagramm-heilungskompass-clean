@@ -4321,3 +4321,154 @@ export function wadeWilsonPortraitPage() {
     </div>
   `);
 }
+
+export function bryanKohbergerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Bryan Kohberger – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bryan-kohberger-portrait.jpg" alt="Bryan Kohberger – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bryan Kohberger</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexueller Typ 1 mit Neunerflügel</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Bryan Christopher Kohberger</strong>, geboren 1994, war zur Tatzeit Doktorand der Kriminologie
+        an der Washington State University – nur wenige Kilometer von Moscow, Idaho entfernt, wo er in der Nacht
+        zum 13. November 2022 vier Studierende der University of Idaho erstach: Kaylee Goncalves, Madison Mogen,
+        Xana Kernodle und Ethan Chapin. Er hinterließ am Tatort eine Messerscheide mit DNA-Spuren, wurde über
+        Handy- und Fahrzeugdaten zurückverfolgt und am 30. Dezember 2022 in Pennsylvania festgenommen. Im Juli 2025
+        bekannte er sich in allen vier Fällen des Mordes ersten Grades schuldig und wurde am 23. Juli 2025 zu vier
+        lebenslangen Haftstrafen ohne Bewährung verurteilt – ohne sich vor Gericht selbst zu äußern. Ein offizielles
+        Motiv wurde nie festgestellt; im August 2026 beantragte Kohberger, sein Geständnis zurückzunehmen, das
+        Verfahren dazu läuft zum Zeitpunkt dieses Porträts noch.
+      </p>
+      <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Bryan Kohberger</strong> wird dem <strong>Sexuellen Typ 1 mit Neunerflügel</strong> im Enneagramm zugeordnet.
+        Die sexuelle Eins strebt nach vollständiger Kontrolle und Reinheit in der intimsten Sphäre; ihr Zorn richtet
+        sich gegen alles, was diese Ordnung verletzt oder ihr verweigert wird. Der Neunerflügel überzieht diese Intensität
+        mit einer nach außen unauffälligen, sozial zurückgenommenen Fassade – kein Charme wie beim Zweierflügel,
+        sondern Rückzug und Verschmelzen in den Hintergrund. Der Stresspunkt der Eins liegt bei der <strong>Vier</strong>:
+        rigides, sich selbst quälendes Grübeln, aus dem in Kohbergers Fall keine Selbstkorrektur, sondern eine methodisch
+        geplante Gewalttat hervorging.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Die Schwarze Mamba</h3>
+        <p class="vb-intro">
+        Die <strong>Schwarze Mamba</strong> greift nicht aus Dominanzwillen an, sondern wenn ihre Sphäre verletzt wird –
+        und sie ist, bis zum Zuschlagen, kaum wahrnehmbar. Klassenkameraden und ehemalige Dozierende beschrieben
+        Kohberger übereinstimmend als "awkward", unauffällig, sozial isoliert, mit wenigen engen Beziehungen. Diese
+        beinahe unsichtbare Alltagspräsenz ist der Neunerflügel der SX1 in Reinform: keine warme, charmante Fassade
+        wie beim Zweierflügel, sondern ein Verschwinden im Hintergrund, das erst im Rückblick als Tarnung erkennbar wird.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die sexuelle Eins: Zurückweisung als Reinheitsverletzung</h3>
+        <p class="vb-intro"><strong>a) Die innere Logik:</strong>
+        Mehrere Quellen, darunter eine forensische Psychiaterin, beschreiben Kohberger als von Wut und Groll gegen
+        Frauen getrieben, die ihn zurückwiesen oder von denen er eine Zurückweisung erwartete. Das ist die SX1 in
+        ihrer destruktivsten Form: Die intimste Beziehung soll rein, kontrolliert, vollständig sein – jede Zurückweisung
+        wird nicht als Enttäuschung, sondern als Verletzung einer als absolut empfundenen Ordnung erlebt, die eine
+        Antwort verlangt.</p>
+        <p class="vb-intro"><strong>b) Kontrolle statt Charme:</strong>
+        Ehemalige Kommilitoninnen berichteten, Kohberger habe ihnen als Lehrassistent gegenüber "mansplaining"
+        betrieben, sei Frauen ins Wort gefallen und habe abfällige, diskriminierende Bemerkungen gemacht; Dozierende
+        führten intern Buch darüber, wie oft er weibliche Lehrkräfte unterbrach. Wo der Zweierflügel bei anderen
+        SX1-Fällen Charme als Zugangsmittel nutzt, zeigt der Neunerflügel hier eine andere Strategie: nicht Anpassung
+        an das Gegenüber, sondern dessen Abwertung aus sicherer, unauffälliger Distanz.</p>
+        <p class="vb-intro"><strong>c) Die Fassade des Fachmanns:</strong>
+        Kohberger forschte selbst zur Kriminologie von Gewaltverbrechen und studierte nach Aussage von Kommilitonen
+        gezielt den Amokläufer Elliot Rodger – Täter des Isla-Vista-Massakers 2014, in dieser App bereits als
+        soziale Vier mit Fünferflügel (SO4w5) porträtiert. Zwei völlig unterschiedliche Subtypen, zwei unterschiedliche
+        Kernwunden – Rodgers Neid auf eine ihm verweigerte Zugehörigkeit, Kohbergers Zorn über eine als Kontrollverlust
+        erlebte Zurückweisung –, doch dieselbe fatale Endstrecke: eine akademisch verbrämte Faszination für Gewalt,
+        die zur Vorlage für die eigene Tat wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: Methode statt Impuls</h3>
+        <p class="vb-intro">
+        Ermittler betonten die akribische Vorplanung der Tat: Kohbergers Handy war in den Stunden der Tat
+        auffällig ausgeschaltet, sein Fahrzeug wurde später gründlich gereinigt. Zugleich hinterließ er am Tatort
+        eine Messerscheide mit DNA-Spuren – ein Fehler, der ihn überführte. Diese Mischung aus akribischer Kontrolle
+        und einer entscheidenden Lücke ist typisch für die SX1 unter extremem Stress: Die Eins plant bis ins Detail,
+        doch die zugrunde liegende Wut durchbricht selbst die sorgfältigste Fassade an einer einzigen, folgenschweren Stelle.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Der Viererstress: Rigides Grübeln statt Selbstkorrektur</h3>
+        <p class="vb-intro">
+        Eine gerichtlich vorgelegte psychologische Begutachtung attestierte Kohberger "extrem rigides Denken",
+        ein Verharren auf einzelnen Themen sowie kaum Einsicht in eigenes Verhalten und eigene Gefühle – seine
+        eigene Familie bestätigte "starres Denken und Verhalten" sowie Schwierigkeiten, mit Veränderungen der
+        Routine umzugehen. Das ist der Vierer-Stresspunkt der Eins in seiner unfruchtbarsten Form: kein Weg zur
+        echten Selbstprüfung, sondern ein geschlossener, sich selbst bestätigender Gedankenkreis, aus dem heraus
+        die eigene Wut nie infrage gestellt, sondern zunehmend gerechtfertigt wurde.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Nach der Tat: Kontrolle bis in den Gerichtssaal</h3>
+        <p class="vb-intro">
+        Kohberger äußerte sich bei seiner Verurteilung im Juli 2025 nicht vor Gericht – kein Geständnis in eigenen
+        Worten, keine Erklärung, kein sichtbares Bedauern. Auch das passt zum Muster: Wo eine SX1 mit Zweierflügel
+        nach der Tat oft kooperativ und mitteilsam wird (wie im Fall Gary Ridgway), zieht sich die SX1 mit
+        Neunerflügel weiter zurück – Schweigen als letzte Form der Kontrolle über das eigene Bild. Sein Antrag von
+        2026, das Geständnis zurückzuziehen, fügt sich in dasselbe Muster: kein Eingeständnis endgültiger
+        Kontrolllosigkeit, sondern ein erneuter Versuch, den Ausgang der eigenen Geschichte zu bestimmen.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro">
+        Bryan Kohberger zeigt die sexuelle Eins mit Neunerflügel in ihrer zerstörerischsten Form: eine Person, die
+        Zurückweisung nicht ertragen, sondern nur als Angriff auf die eigene Ordnung verarbeiten konnte – und die
+        genau jene akademische Distanz, mit der sie Gewaltverbrechen professionell untersuchte, nutzte, um die
+        eigene Tat zu planen. Wichtig für die Einordnung: Weder ein Kriminologiestudium noch soziale Zurückweisung
+        noch eine Autismus-Diagnose erklären für sich genommen eine solche Tat – die überwiegende Mehrheit der
+        Menschen mit einem oder mehreren dieser Merkmale wird nie gewalttätig. Das Enneagramm beschreibt hier ein
+        mögliches psychologisches Muster hinter der Fassade, nicht eine Erklärung, die die Tat vorhersehbar oder
+        unausweichlich macht.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro">
+        <strong>Subtyp:</strong> SX1w9 – Sexuelle Eins mit Neunerflügel.<br>
+        <strong>Leidenschaft:</strong> Zorn – hier gegen eine als Zurückweisung erlebte Verletzung der eigenen inneren Ordnung.<br>
+        <strong>Stresspunkt:</strong> Vier – rigides, geschlossenes Grübeln ohne echte Selbstprüfung.<br>
+        <strong>Tierentsprechung:</strong> Schwarze Mamba – unauffällig bis zum letzten Moment, präzise und tödlich im Zuschlagen.<br>
+        <strong>Lehrwert:</strong> Kohberger zeigt, wie akademische Distanz zu Gewalt selbst zur Tarnung werden kann,
+        und wie der Neunerflügel der Eins Rückzug statt Charme als Fassade nutzt – zwei Muster, die sich von den
+        bereits porträtierten SX1w2-Fällen (Ridgway, Bernardo, Murdaugh) deutlich unterscheiden.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Eins im Vergleich: Wie sich Zorn bei SE1, SO1 und SX1 unterschiedlich ausdrückt – und warum Zurückweisung in der Desintegration gefährlich wird.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Bryan Kohberger bekannte sich im Juli 2025 in vier Fällen des Mordes ersten Grades schuldig und wurde zu lebenslanger Haft ohne Bewährung verurteilt; ein Antrag auf Rücknahme des Geständnisses war zum Zeitpunkt dieses Porträts noch nicht entschieden. Das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-fritz-haarmann", label:"Kriminalpsychologie: Fritz Haarmann (SX1w9) – derselbe Subtyp"},
+        {route:"kriminalpsychologie-gary-ridgway", label:"Kriminalpsychologie: Gary Ridgway (SX1w2)"},
+        {route:"kriminalpsychologie-alex-murdaugh", label:"Kriminalpsychologie: Alex Murdaugh (SX1w2)"},
+        {route:"kriminalpsychologie-elliot-rodger", label:"Kriminalpsychologie: Elliot Rodger (SO4w5) – sein erklärtes Vorbild"},
+      ])}
+    </div>
+  `);
+}

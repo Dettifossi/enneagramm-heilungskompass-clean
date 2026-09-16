@@ -1733,6 +1733,7 @@ export function fritzHaarmannPortraitPage() {
         {route:"kriminalpsychologie-josef-fritzl", label:"Kriminalpsychologie: Josef Fritzl (SX1w9)"},
         {route:"kriminalpsychologie-alex-murdaugh", label:"Kriminalpsychologie: Alex Murdaugh (SX1w2)"},
         {route:"kriminalpsychologie-dennis-rader", label:"Kriminalpsychologie: Dennis Rader (SE1w9)"},
+        {route:"kriminalpsychologie-bryan-kohberger", label:"Kriminalpsychologie: Bryan Kohberger (SX1w9) – derselbe Subtyp"},
       ])}
     </div>
   `);

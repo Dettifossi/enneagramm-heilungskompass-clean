@@ -736,6 +736,7 @@ export function elliotRodgerPortraitPage() {
           {route:"kriminalpsychologie-david-berkowitz", label:"Criminal Psychology: David Berkowitz (SP4w3)"},
           {route:"kriminalpsychologie-adolf-hitler", label:"Criminal Psychology: Adolf Hitler (SX4w3)"},
           {route:"kriminalpsychologie-ted-kaczynski", label:"Criminal Psychology: Ted Kaczynski (SO5w4)"},
+          {route:"kriminalpsychologie-bryan-kohberger", label:"Criminal Psychology: Bryan Kohberger (SX1w9) – studied Rodger as a role model"},
         ])}
       </div>
     </div>
@@ -2308,6 +2309,155 @@ export function vincenzoPeruggiaPortraitPage() {
           {route:"kriminalpsychologie-oj-simpson", label:"Criminal Psychology: O.J. Simpson (SO3w4)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+export function bryanKohbergerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Bryan Kohberger – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bryan-kohberger-portrait.jpg" alt="Bryan Kohberger – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bryan Kohberger</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexual Type 1 with a Nine-Wing</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Bryan Christopher Kohberger</strong>, born 1994, was a criminology PhD student at Washington
+        State University at the time of the crime – just a few miles from Moscow, Idaho, where on the night of
+        November 13, 2022, he stabbed four University of Idaho students to death: Kaylee Goncalves, Madison
+        Mogen, Xana Kernodle, and Ethan Chapin. He left a knife sheath with DNA traces at the scene, was tracked
+        through phone and vehicle data, and was arrested in Pennsylvania on December 30, 2022. In July 2025 he
+        pleaded guilty to all four counts of first-degree murder and was sentenced on July 23, 2025 to four
+        consecutive life terms without parole – without addressing the court himself. No official motive was
+        ever established; in August 2026, Kohberger petitioned to withdraw his guilty plea, a proceeding still
+        ongoing at the time of this portrait.
+      </p>
+      <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Bryan Kohberger</strong> is assigned to the <strong>Sexual Type 1 with a Nine-wing</strong> in the
+        Enneagram. The sexual One strives for total control and purity in the most intimate sphere; its anger
+        turns against anything that violates or denies this order. The nine-wing wraps this intensity in an
+        outwardly unremarkable, socially withdrawn facade – not charm, as with the two-wing, but retreat and
+        blending into the background. The One's stress point is the <strong>Four</strong>: rigid, self-tormenting
+        rumination, which in Kohberger's case produced not self-correction but a methodically planned act of
+        violence.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: The Black Mamba</h3>
+        <p class="vb-intro">
+        The <strong>black mamba</strong> does not attack out of a will to dominate, but when its sphere is
+        violated – and until it strikes, it is barely noticeable. Classmates and former instructors consistently
+        described Kohberger as "awkward," unremarkable, socially isolated, with few close relationships. This
+        near-invisible everyday presence is the SX1's nine-wing in its purest form: not a warm, charming facade
+        as with the two-wing, but a disappearing into the background that only in hindsight is recognizable as camouflage.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Sexual One: Rejection as a Violation of Purity</h3>
+        <p class="vb-intro"><strong>a) The inner logic:</strong>
+        Several sources, including a forensic psychiatrist, describe Kohberger as driven by anger and resentment
+        toward women who rejected him or from whom he expected rejection. This is the SX1 at its most destructive:
+        the most intimate relationship is supposed to be pure, controlled, complete – every rejection is
+        experienced not as disappointment but as a violation of a felt-to-be-absolute order that demands a response.</p>
+        <p class="vb-intro"><strong>b) Control instead of charm:</strong>
+        Former classmates reported that as a teaching assistant, Kohberger "mansplained" to them, cut women off
+        while speaking, and made derogatory, discriminatory remarks; instructors reportedly kept an internal
+        tally of how often he interrupted female instructors. Where the two-wing in other SX1 cases uses charm
+        as a means of access, the nine-wing here shows a different strategy: not adapting to the other person,
+        but devaluing them from a safe, unremarkable distance.</p>
+        <p class="vb-intro"><strong>c) The expert's facade:</strong>
+        Kohberger himself researched the criminology of violent crime and, according to classmates, specifically
+        studied the mass shooter Elliot Rodger – perpetrator of the 2014 Isla Vista massacre, already portrayed
+        in this app as a Social Four with a five-wing (SO4w5). Two entirely different subtypes, two different
+        core wounds – Rodger's envy of a belonging denied to him, Kohberger's rage over a rejection experienced
+        as loss of control – yet the same fatal endpoint: an academically dressed-up fascination with violence
+        that became the template for his own act.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crime: Method Over Impulse</h3>
+        <p class="vb-intro">
+        Investigators emphasized the meticulous pre-planning of the crime: Kohberger's phone was conspicuously
+        turned off during the hours of the murders, and his vehicle was later thoroughly cleaned. At the same
+        time, he left a knife sheath with DNA traces at the scene – the mistake that identified him. This mixture
+        of meticulous control and one decisive gap is typical of the SX1 under extreme stress: the One plans
+        down to the smallest detail, yet the underlying rage breaks through even the most careful facade at a
+        single, consequential point.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The Four-Stress: Rigid Rumination Instead of Self-Correction</h3>
+        <p class="vb-intro">
+        A court-submitted psychological evaluation found Kohberger to display "extremely rigid thinking," a
+        tendency to perseverate on specific topics, and little insight into his own behavior and emotions – his
+        own family confirmed "rigid thinking and behavior" and difficulty coping with changes in routine. This is
+        the One's Four-stress point at its most barren: not a path to genuine self-examination, but a closed,
+        self-confirming loop of thought from which his own rage was never questioned, only increasingly justified.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. After the Crime: Control Down to the Courtroom</h3>
+        <p class="vb-intro">
+        Kohberger did not address the court at his sentencing in July 2025 – no confession in his own words, no
+        explanation, no visible remorse. This too fits the pattern: where an SX1 with a two-wing often becomes
+        cooperative and forthcoming after the crime (as in the case of Gary Ridgway), the SX1 with a nine-wing
+        withdraws further – silence as a last form of control over one's own image. His 2026 petition to withdraw
+        his guilty plea fits the same pattern: not an admission of final loss of control, but a renewed attempt
+        to determine the outcome of his own story.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram Reveals</h3>
+        <p class="vb-intro">
+        Bryan Kohberger shows the sexual One with a nine-wing in its most destructive form: a person who could
+        not tolerate rejection except as an attack on his own order – and who used the very academic distance
+        with which he professionally studied violent crime to plan his own act. Important for this analysis:
+        neither a criminology degree, nor social rejection, nor an autism diagnosis explains such an act on its
+        own – the overwhelming majority of people with one or more of these traits never become violent. The
+        Enneagram here describes a possible psychological pattern behind the facade, not an explanation that
+        makes the act predictable or inevitable.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
+        <p class="vb-intro">
+        <strong>Subtype:</strong> SX1w9 – Sexual One with a nine-wing.<br>
+        <strong>Passion:</strong> Anger – here directed at a violation of one's own inner order experienced as rejection.<br>
+        <strong>Stress point:</strong> Four – rigid, closed rumination without genuine self-examination.<br>
+        <strong>Animal correspondence:</strong> Black mamba – unremarkable until the last moment, precise and lethal when it strikes.<br>
+        <strong>Teaching value:</strong> Kohberger shows how academic distance from violence can itself become camouflage,
+        and how the One's nine-wing uses withdrawal rather than charm as its facade – two patterns markedly
+        different from the already-portrayed SX1w2 cases (Ridgway, Bernardo, Murdaugh).
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Sexual One in comparison: how anger expresses itself differently in SE1, SO1, and SX1 – and why rejection becomes dangerous in disintegration.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 1 portrayed in depth – anger, perfectionism, and the healing path through genuine serenity.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Bryan Kohberger pleaded guilty in July 2025 to four counts of first-degree murder and was sentenced to life without parole; a petition to withdraw the plea was still unresolved at the time of this portrait. The Enneagram explains; it does not justify.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-fritz-haarmann", label:"Criminal Psychology: Fritz Haarmann (SX1w9) – the same subtype"},
+        {route:"kriminalpsychologie-gary-ridgway", label:"Criminal Psychology: Gary Ridgway (SX1w2)"},
+        {route:"kriminalpsychologie-alex-murdaugh", label:"Criminal Psychology: Alex Murdaugh (SX1w2)"},
+        {route:"kriminalpsychologie-elliot-rodger", label:"Criminal Psychology: Elliot Rodger (SO4w5) – his declared role model"},
+      ])}
     </div>
   `);
 }

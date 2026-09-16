@@ -1373,6 +1373,7 @@ export function elliotRodgerPortraitPage() {
           {route:"kriminalpsychologie-david-berkowitz", label:"Kriminalpsychologie: David Berkowitz (SE4w3)"},
           {route:"kriminalpsychologie-adolf-hitler", label:"Kriminalpsychologie: Adolf Hitler (SX4w3)"},
           {route:"kriminalpsychologie-ted-kaczynski", label:"Kriminalpsychologie: Ted Kaczynski (SO5w4)"},
+          {route:"kriminalpsychologie-bryan-kohberger", label:"Kriminalpsychologie: Bryan Kohberger (SX1w9) – studierte Rodger als Vorbild"},
         ])}
       </div>
     </div>
