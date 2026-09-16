@@ -46047,7 +46047,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Untadelige öffentliche Fassade, hinter der sich – in der Schattenform – präzise, unangekündigte Vergeltung verbirgt",
         beschreibung: "In der destruktiven Ausprägung wird derselbe unbestechliche Ordnungssinn zur Rechtfertigung für kalkulierte Gewalt: eine als gerecht empfundene Schuld wird eingetrieben, methodisch und ohne Vorwarnung, während nach außen weiterhin das Bild des Musterbürgers gewahrt bleibt.",
-        beleg: "Ted Bundy: ›Nach außen: Student, Freiwilliger, Parteiaktivist, ein Mann, der anderen half. Innen: ein Mensch, dessen innere Ordnung durch eine Zurückweisung zerstört worden war – und der sich das Recht nahm, diese Schuld einzutreiben. Still, methodisch, präzise‹; Heinrich Pommerenke, dessen fast 48-jährige Haft die längste Einzelhaft in der Geschichte der Bundesrepublik war. Wichtig: Die überwiegende Mehrheit der SO1 in diesem Kompass (von der Leyen, Merz, Klopp, Bowie, Hahnemann, Konfuzius u. a.) zeigt dieses Muster nicht – es handelt sich um eine seltene Extremform, keine typische Ausprägung."
+        beleg: "Ted Bundy: ›Nach außen: Student, Freiwilliger, Parteiaktivist, ein Mann, der anderen half. Innen: ein Mensch, dessen innere Ordnung durch eine Zurückweisung zerstört worden war – und der sich das Recht nahm, diese Schuld einzutreiben. Still, methodisch, präzise‹; Heinrich Pommerenke, dessen fast 48-jährige Haft die längste Einzelhaft in der Geschichte der Bundesrepublik war. Wichtig: Die überwiegende Mehrheit der SO1er in diesem Kompass (von der Leyen, Merz, Klopp, Bowie, Hahnemann, Konfuzius u. a.) zeigt dieses Muster nicht – es handelt sich um eine seltene Extremform, keine typische Ausprägung."
       }
     ]
   },
