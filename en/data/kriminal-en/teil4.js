@@ -2382,14 +2382,29 @@ export function bryanKohbergerPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crime: Method Over Impulse</h3>
-        <p class="vb-intro">
-        Investigators emphasized the meticulous pre-planning of the crime: Kohberger's phone was conspicuously
-        turned off during the hours of the murders, and his vehicle was later thoroughly cleaned. At the same
-        time, he left a knife sheath with DNA traces at the scene – the mistake that identified him. This mixture
-        of meticulous control and one decisive gap is typical of the SX1 under extreme stress: the One plans
-        down to the smallest detail, yet the underlying rage breaks through even the most careful facade at a
-        single, consequential point.
-        </p>
+        <p class="vb-intro"><strong>a) Months of preparation:</strong>
+        Kohberger had already ordered a Ka-Bar combat knife with a matching sheath and a sharpener online in
+        March 2022 – eight months before the murders. Investigators cited this as evidence of long-term, coolly
+        planned preparation rather than a spur-of-the-moment act.</p>
+        <p class="vb-intro"><strong>b) The sequence that night:</strong>
+        Surveillance cameras showed his vehicle near the house on King Road in Moscow, Idaho at 4:07 a.m.; he
+        drove away again at 4:20 a.m. – the entire crime took roughly thirteen minutes. He entered the house
+        through a sliding door on the lower level, went first to the top floor, and killed Kaylee Goncalves and
+        Madison Mogen there, who were sleeping together. Xana Kernodle, who was still awake at that point,
+        encountered him either on his way down or as he was leaving; he killed her as well, then Ethan Chapin,
+        who was asleep in her room.</p>
+        <p class="vb-intro"><strong>c) The surviving witness:</strong>
+        One of the two roommates who remained in the house, Dylan Mortensen, opened her bedroom door several
+        times during the attack and briefly saw a masked male figure dressed entirely in black, roughly six feet
+        tall, slim – she described him as looking like a basketball player, not muscular but lean and toned.
+        According to her account, she heard a male voice say, "It's okay, I'm here to help you." Mortensen and a
+        second roommate were unharmed.</p>
+        <p class="vb-intro"><strong>d) Meticulous control with one decisive gap:</strong>
+        Kohberger's phone was conspicuously turned off during the hours of the murders, and his vehicle was later
+        thoroughly cleaned. At the same time, he left the knife sheath with his own DNA traces at the scene – the
+        mistake that ultimately identified him. This mixture of months of meticulous control and one decisive gap
+        is typical of the SX1 under extreme stress: the One plans down to the smallest detail, yet the underlying
+        rage breaks through even the most careful facade at a single, consequential point.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">

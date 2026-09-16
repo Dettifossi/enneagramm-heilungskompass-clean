@@ -4393,13 +4393,29 @@ export function bryanKohbergerPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Das Tatgeschehen: Methode statt Impuls</h3>
-        <p class="vb-intro">
-        Ermittler betonten die akribische Vorplanung der Tat: Kohbergers Handy war in den Stunden der Tat
-        auffällig ausgeschaltet, sein Fahrzeug wurde später gründlich gereinigt. Zugleich hinterließ er am Tatort
-        eine Messerscheide mit DNA-Spuren – ein Fehler, der ihn überführte. Diese Mischung aus akribischer Kontrolle
-        und einer entscheidenden Lücke ist typisch für die SX1 unter extremem Stress: Die Eins plant bis ins Detail,
-        doch die zugrunde liegende Wut durchbricht selbst die sorgfältigste Fassade an einer einzigen, folgenschweren Stelle.
-        </p>
+        <p class="vb-intro"><strong>a) Vorbereitung über Monate:</strong>
+        Kohberger hatte bereits im März 2022 – acht Monate vor der Tat – online ein Ka-Bar-Kampfmesser mit
+        passender Scheide und Schärfgerät bestellt. Ermittler werteten dies als Beleg langfristiger, kühl
+        geplanter Vorbereitung, nicht als Kurzschlussreaktion.</p>
+        <p class="vb-intro"><strong>b) Ablauf in der Tatnacht:</strong>
+        Überwachungskameras zeigten sein Fahrzeug um 4:07 Uhr in der Nähe des Hauses am King Road in Moscow,
+        Idaho, um 4:20 Uhr fuhr er wieder davon – die gesamte Tat dauerte demnach rund dreizehn Minuten. Er betrat
+        das Haus über eine Terrassentür im unteren Stockwerk, ging zunächst ins oberste Stockwerk und tötete dort
+        Kaylee Goncalves und Madison Mogen, die gemeinsam schliefen. Xana Kernodle, die zu diesem Zeitpunkt noch
+        wach war, begegnete ihm auf dem Weg nach unten oder beim Verlassen des Hauses; er tötete auch sie und
+        anschließend Ethan Chapin, der in ihrem Zimmer schlief.</p>
+        <p class="vb-intro"><strong>c) Die überlebende Zeugin:</strong>
+        Eine der beiden im Haus verbliebenen Mitbewohnerinnen, Dylan Mortensen, öffnete während der Tat mehrfach
+        ihre Zimmertür und sah kurz eine maskierte, ganz in Schwarz gekleidete männliche Gestalt, etwa 1,80 Meter
+        groß, schlank – sie beschrieb ihn als jemanden, der wie ein Basketballspieler wirkte, nicht muskulös,
+        sondern durchtrainiert schlank. Nach ihrer Aussage hörte sie eine männliche Stimme sagen: "Es ist okay,
+        ich bin hier, um zu helfen." Mortensen und eine zweite Mitbewohnerin blieben unversehrt.</p>
+        <p class="vb-intro"><strong>d) Akribie mit einer entscheidenden Lücke:</strong>
+        Kohbergers Handy war in den Stunden der Tat auffällig ausgeschaltet, sein Fahrzeug wurde später gründlich
+        gereinigt. Zugleich hinterließ er am Tatort die Messerscheide mit eigenen DNA-Spuren – ein Fehler, der ihn
+        letztlich überführte. Diese Mischung aus monatelanger, akribischer Kontrolle und einer entscheidenden
+        Lücke ist typisch für die SX1 unter extremem Stress: Die Eins plant bis ins Detail, doch die zugrunde
+        liegende Wut durchbricht selbst die sorgfältigste Fassade an einer einzigen, folgenschweren Stelle.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
