@@ -4415,7 +4415,7 @@ export function gescheGottfriedPortraitPage() {
         </div>
         <p class="krim-portrait-name">Gesche Gottfried</p>
         <p class="krim-portrait-typ">SO1w2 · Sozialer Typ 1 mit Zweierflügel</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Die "Engel von Bremen" · Deutschland 1813–1827 · Tierentsprechung: Gans</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Der "Engel von Bremen" · Deutschland 1813–1827 · Tierentsprechung: Gans</p>
       </div>
       <p class="psycho-intro">
         <strong>Gesche Margarethe Gottfried</strong>, geboren 1785 in Bremen als Margarethe Timm, vergiftete zwischen 1813 und 1827 mindestens 15 Menschen aus ihrem engsten Umfeld – ihre Eltern, zwei ihrer Töchter, ihren Sohn, ihren Bruder, zwei Ehemänner und einen Verlobten. Ihr Mittel war "Mäusebutter", eine arsenhaltige Schmalzmischung gegen Mäuse, die sie erstmals von der eigenen Mutter erhalten hatte. Während sie ihre Opfer über Wochen und Monate langsam vergiftete, pflegte sie sie zugleich aufopferungsvoll – wofür sie in Bremen als "Engel von Bremen" galt. Am 21. April 1831 wurde sie auf dem Bremer Domshof öffentlich enthauptet, die letzte öffentliche Hinrichtung der Stadt.
