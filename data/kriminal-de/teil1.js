@@ -4376,8 +4376,9 @@ export function bryanKohbergerPortraitPage() {
         wird nicht als Enttäuschung, sondern als Verletzung einer als absolut empfundenen Ordnung erlebt, die eine
         Antwort verlangt.</p>
         <p class="vb-intro"><strong>b) Kontrolle statt Charme:</strong>
-        Ehemalige Kommilitoninnen berichteten, Kohberger habe ihnen als Lehrassistent gegenüber "mansplaining"
-        betrieben, sei Frauen ins Wort gefallen und habe abfällige, diskriminierende Bemerkungen gemacht; Dozierende
+        Ehemalige Kommilitoninnen berichteten, Kohberger habe ihnen als Lehrassistent Dinge erklärt, die sie als
+        Fachfrauen längst wussten – herablassend, ohne ihre Kompetenz anzuerkennen ("Mansplaining") –, sei Frauen
+        ins Wort gefallen und habe abfällige, diskriminierende Bemerkungen gemacht; Dozierende
         führten intern Buch darüber, wie oft er weibliche Lehrkräfte unterbrach. Wo der Zweierflügel bei anderen
         SX1-Fällen Charme als Zugangsmittel nutzt, zeigt der Neunerflügel hier eine andere Strategie: nicht Anpassung
         an das Gegenüber, sondern dessen Abwertung aus sicherer, unauffälliger Distanz.</p>
