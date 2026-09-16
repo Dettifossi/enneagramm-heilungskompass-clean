@@ -25168,7 +25168,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Methodical precision and years of self-control as camouflage",
         beschreibung: "Several of the portrayed cases show a strikingly methodical, detail-obsessed approach combined with an outwardly unremarkable, controlled life for years – the same self-discipline the One otherwise applies constructively, here perverted into meticulous concealment.",
-        beleg: "Dennis Rader (BTK) led an inconspicuous double life for decades as a church council president and local official while meticulously planning his crimes; Arno Funke (\"Dagobert\") planned his extortion scheme with extraordinary technical care over years."
+        beleg: "Dennis Rader (BTK) led an inconspicuous double life for decades as a church council president and local official while meticulously planning his crimes; Arno Funke (\"Dagobert\") planned his extortion scheme with extraordinary technical care over years; Mikhail Popkov was an active police officer throughout his killing spree and was seen as an unremarkable, dutiful citizen; Andrei Chikatilo was seen as a teacher, party member, and unremarkable citizen; Dorothea Puente cultivated an impeccable public image as a friendly landlady and benefactress of the community; Dennis Nilsen killed not out of hatred or the will to control but so as not to be alone – behind an unremarkable, orderly civic existence; Paul Ogorzow, by day the model neighbor, used his insider knowledge as a railway switchman with precise routine to commit his crimes."
       }
     ]
   },
@@ -25185,7 +25185,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Self-righteousness instead of remorse once exposed",
         beschreibung: "Once the crime comes to light, this subtype notably often shows no genuine remorse, but rather a moral self-justification – the act is retrospectively reframed as a narrative of justice or of having been wronged.",
-        beleg: "Dieter Zlof portrayed himself in his late confessional book as a \"victim of society,\" betrayed by the justice system, the authorities, and those around him, and stated that he did not regret taking money from \"an immensely wealthy person.\""
+        beleg: "Dieter Zlof portrayed himself in his late confessional book as a \"victim of society,\" betrayed by the justice system, the authorities, and those around him, and stated that he did not regret taking money from \"an immensely wealthy person\"; Heinrich Pommerenke saw in his crimes a self-attributed divine mandate to punish \"immoral\" women – a moral framing that let his own violence appear as the fulfillment of a higher order rather than as wrongdoing he had to acknowledge."
       }
     ]
   },
@@ -25208,13 +25208,18 @@ const KRIMINALMUSTERKOMPASS = {
   },
   SE2: {
     tier: "Hippopotamus",
-    kernthema: "A strikingly high number of the portrayed cases used a role disguised as care, closeness, or community to gain and exploit trust.",
+    kernthema: "A strikingly high number of the portrayed cases used a role disguised as care, closeness, or community to gain and exploit trust – a second group instead has status or belonging shield them from consequences or become the drive behind the act itself.",
     beispiele: ["Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
     fingerabdruecke: [
       {
         titel: "A role of care or closeness as a tool for breach of trust",
         beschreibung: "In the self-preservation Two, several cases feature a person who first presented as helpful, approachable, or community-building – as a mentor, neighbor, family member, or benefactor – and exploited exactly that trust for the actual crime.",
-        beleg: "Harvey Weinstein systematically exploited his role as a powerful, supposedly supportive mentor in the film industry; John Wayne Gacy was known in his neighborhood as a sociable, community-engaged \"clown\" while murdering in parallel; Jeanne Weber, a nurse, killed several children entrusted to her care."
+        beleg: "Harvey Weinstein systematically exploited his role as a powerful, supposedly supportive mentor in the film industry; John Wayne Gacy was known in his neighborhood as a sociable, community-engaged \"clown\" while murdering in parallel; Jeanne Weber, a nurse, killed several children entrusted to her care; Jonathan Meijer presented himself as a generous sperm donor while deceiving clinics about the true number of his donations; Peter Sutcliffe was seen as a friendly, quiet neighbor; Tommy Lynn Sells, posing as an itinerant laborer, gained the trust of strangers' families before killing where no one expected it; Sebastian Greenwood, chief recruiter of one of the largest fraud schemes in history, built his success on hard-won personal trust; Ulrike Meinhof made public care for the oppressed and exploited the core of her identity for years, before translating that same uncompromising stance into armed violence."
+      },
+      {
+        titel: "Status or belonging as a shield or a drive",
+        beschreibung: "In a second group of cases, it is not care but the offender's own belonging to a particular world – a wealthy family, an invented upper-class identity, their own reputation – that shields them from consequences or itself becomes the drive behind the act.",
+        beleg: "Buster Murdaugh grew up in a legal dynasty that controlled the prosecutor's office of its own region across three generations – his case shows how the Two's privilege survives in a family context as the belief that one's own belonging protects against consequences; Anna Delvey invented a complete identity as a generous German heiress to gain access to New York high society; Rudolf Pleil confessed readily after his arrest and even deliberately inflated the number of his victims in his statements to be seen as the \"record holder\" – recognition as a drive even within the confession itself; Ángel Reséndez surrendered voluntarily in 1999, mediated by his sister – even in the moment of giving up, the family bond remained the decisive point of reference."
       }
     ]
   },
@@ -25226,7 +25231,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Charismatic leadership that drives an entire group into destruction",
         beschreibung: "The social Two repeatedly shows, in the portrayed cases, a person whose social pull and leadership ability was used not to build up but to destroy a community entrusted to them.",
-        beleg: "Jim Jones led his entire cult community into total dependency over years before driving them into the collective deaths of Jonestown; Jack Unterweger used his public reputation as a celebrated, reformed author to keep killing undetected."
+        beleg: "Jim Jones led his entire cult community into total dependency over years before driving them into the collective deaths of Jonestown; Jack Unterweger used his public reputation as a celebrated, reformed author to keep killing undetected; Osama bin Laden built al-Qaeda as a charismatic, religiously legitimized leader and drove thousands of followers into terror and self-sacrifice. Cedric Maake forms the other side of the same pattern: not leading a community, but a friendly, unremarkable everyday facade as cover for a year-long killing spree – the same social approachability, here used not as outward charisma but as inward camouflage."
       }
     ]
   },
@@ -25250,7 +25255,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Demonstrated competence and visible success as a façade for fraud",
         beschreibung: "Among the portrayed self-preservation Three cases, financial and investment fraudsters strikingly dominate, whose outwardly credible display of professional competence and track record served for years as a façade for systematic fraud.",
-        beleg: "Bernie Madoff built a seemingly reputable investment empire over decades that turned out to be one of history's largest Ponzi schemes; Samuel Bankman-Fried presented himself as the respectable face of the crypto world while billions in customer funds were diverted behind the scenes; Ruja Ignatova sold a fictitious cryptocurrency as a revolutionary investment."
+        beleg: "Bernie Madoff built a seemingly reputable investment empire over decades that turned out to be one of history's largest Ponzi schemes; Samuel Bankman-Fried presented himself as the respectable face of the crypto world while billions in customer funds were diverted behind the scenes; Ruja Ignatova sold a fictitious cryptocurrency as a revolutionary investment; Michael Franzese, the youngest capo since Al Capone, earned up to five million dollars a week through an elaborate gasoline tax fraud scheme; Pablo Escobar staged himself as a folk hero and benefactor alongside his criminal empire; Tom Keating disguised his more than 2,000 art forgeries as a protest against the art market and deliberately built in errors as later \"time bombs\"; Belle Gunness and Henri Désiré Landru lured wealthy widows and widowers, respectively, through lonely-hearts ads with an image of domestic care, only to appropriate their fortunes; Karla Homolka concealed her complicity in three murders behind the publicly admired \"Ken and Barbie\" facade of groomed, seemingly flawless normalcy."
       }
     ]
   },
@@ -25262,7 +25267,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Status, visibility, or a public stage as a recognizable motive",
         beschreibung: "The social Three shows, in several cases, a connection to fame, status, or public attention – either as a direct motive or as the stage on which the crime unfolded.",
-        beleg: "O.J. Simpson's case itself became a public stage as the \"trial of the century\"; Andrew Cunanan sought closeness to prestige and recognition throughout his life before murdering across the United States; Vincenzo Peruggia stole the Mona Lisa out of patriotic self-dramatization; Werner Gladow, founder of his own gang at seventeen, stated his own goal as wanting to be \"rich and feared\" – fear as a publicly witnessed currency, not a private gain."
+        beleg: "O.J. Simpson's case itself became a public stage as the \"trial of the century\"; Andrew Cunanan sought closeness to prestige and recognition throughout his life before murdering across the United States; Vincenzo Peruggia stole the Mona Lisa out of patriotic self-dramatization; Werner Gladow, founder of his own gang at seventeen, stated his own goal as wanting to be \"rich and feared\" – fear as a publicly witnessed currency, not a private gain; Pedro Alonso López confessed, after his arrest, to the highest victim count ever attributed to a single offender (350) – a grim claim to a record rather than a mere confession; Wade Wilson visibly laughed and smirked for the cameras throughout his entire trial instead of showing fear or remorse – the courtroom itself became a stage."
       }
     ]
   },
@@ -25279,7 +25284,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "The calculated victim role as a shield after the act",
         beschreibung: "Instead of seeking attention, a new, carefully chosen role is taken on immediately after the crime, one meant to generate sympathy rather than suspicion – the stage serves not self-display, but one's own exoneration.",
-        beleg: "Susan Wright filed a domestic violence report against her already-dead husband the day after the crime and presented herself in court as a vulnerable woman in need of protection – a prosecutor described her tears on the witness stand as a calculated performance."
+        beleg: "Susan Wright filed a domestic violence report against her already-dead husband the day after the crime and presented herself in court as a vulnerable woman in need of protection – a prosecutor described her tears on the witness stand as a calculated performance; Diane Downs shot her three children and then drove herself to the hospital with a self-inflicted gunshot wound to tell doctors a fabricated story of a stranger attack – the victim role as an instantly deployed second performance."
       }
     ]
   },
@@ -25315,7 +25320,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Fusion of one's own identity with an intense bond or narrative",
         beschreibung: "A deep fusion of one's own identity emerges, either with a single intense relationship or with a self-created, all-consuming ideological narrative.",
-        beleg: "Bonnie Parker defined her entire later identity through the romanticized shared outlaw career with Clyde Barrow."
+        beleg: "Bonnie Parker defined her entire later identity through the romanticized shared outlaw career with Clyde Barrow; Adolf Hitler fused his own identity completely with a self-created, all-consuming nationalist narrative, to which he subordinated every other bond and every contradiction."
       },
       {
         titel: "Hurt people hurt people – one's own wound discharges onto others",
@@ -25361,7 +25366,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Extreme private isolation as the breeding ground for an unchecked fixation",
         beschreibung: "In the two cases so far, the crimes developed in a state of near-total social isolation, in which an obsessive inner fixation remained entirely unchecked by any outside correction.",
-        beleg: "Jeffrey Dahmer lived alone and largely withdrawn, while his crimes unfolded over years within his own apartment, unnoticed by those around him."
+        beleg: "Jeffrey Dahmer lived alone and largely withdrawn, while his crimes unfolded over years within his own apartment, unnoticed by those around him; Joel Rifkin, socially isolated and without close ties, killed 17 women over four years without his unremarkable everyday life ever raising suspicion."
       }
     ]
   },
@@ -25397,7 +25402,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Intense ideological or group-related bond as a precursor to the crime",
         beschreibung: "The sexual Six shows, in the portrayed cases, an especially intense, often radicalized attachment to an ideology, a group, or a single fixed idea that directly preceded the actual crime.",
-        beleg: "Charles Manson bound his \"family\" to himself through absolute ideological fusion; Anders Breivik radicalized himself over years within a self-constructed ideological worldview before carrying out his attack."
+        beleg: "Charles Manson bound his \"family\" to himself through absolute ideological fusion; Anders Breivik radicalized himself over years within a self-constructed ideological worldview before carrying out his attack; Armin Meiwes nursed a fixed idea for years, publishing it as an online ad, before acting on it in 2001 with a voluntary contact – a fixed idea held and never corrected for decades as the direct precursor to the crime."
       }
     ]
   },
@@ -25409,7 +25414,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Thrill or the feeling of being indispensable as a driving force",
         beschreibung: "In the two cases so far, a search for intense moments or the feeling of being needed at a decisive moment shows up as a recognizable driver.",
-        beleg: "Niels Högel repeatedly manipulated patients in order to then shine as a supposed life-saver during resuscitation – a later study found over 300 possible victims."
+        beleg: "Niels Högel repeatedly manipulated patients in order to then shine as a supposed life-saver during resuscitation – a later study found over 300 possible victims; Andreas Baader, according to consistent eyewitness accounts, cared markedly less about political theory than his fellow activists – fast cars, action, and the feeling of absolute independence were his real language, long before that became armed struggle."
       }
     ]
   },
@@ -25433,7 +25438,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "An intense search for excitement, boundary-crossing, or radical freedom",
         beschreibung: "The sexual Seven shows, in several cases, a lifestyle deliberately oriented toward intensity, pace, and crossing boundaries – often with a certain theatrical, almost euphoric note.",
-        beleg: "Clyde Barrow and Bonnie Parker lived their shared outlaw career in a restless, media-savvy flight across the United States; Victor Lustig notoriously and charmingly sold the Eiffel Tower twice, at high speed, to unsuspecting buyers.; Ronnie Biggs, who took part in the Great Train Robbery of 1963, staged a spectacular prison break in 1965, and lived decades unbothered in public view in Rio de Janeiro – legend-building rather than remorse; Boris Becker, whose fame as a three-time Wimbledon champion became the foundation of a self-image that denied his own financial limits, until a 2022 conviction for insolvency offenses caught up with that facade; Sean 'P. Diddy' Combs, in whom decades of power in the music industry became cover for a system of sexual violence that only became publicly visible with his 2025 conviction – an extreme case in which the same boundlessness that took creative or adventurous forms in other cases of this subtype turned against other people."
+        beleg: "Clyde Barrow and Bonnie Parker lived their shared outlaw career in a restless, media-savvy flight across the United States; Victor Lustig notoriously and charmingly sold the Eiffel Tower twice, at high speed, to unsuspecting buyers.; Ronnie Biggs, who took part in the Great Train Robbery of 1963, staged a spectacular prison break in 1965, and lived decades unbothered in public view in Rio de Janeiro – legend-building rather than remorse; Boris Becker, whose fame as a three-time Wimbledon champion became the foundation of a self-image that denied his own financial limits, until a 2022 conviction for insolvency offenses caught up with that facade; Sean 'P. Diddy' Combs, in whom decades of power in the music industry became cover for a system of sexual violence that only became publicly visible with his 2025 conviction – an extreme case in which the same boundlessness that took creative or adventurous forms in other cases of this subtype turned against other people; Gudrun Ensslin, a pastor's daughter and brilliant student, abandoned her entire previous life within a few months – partner, son, academic career – to fuse completely with Andreas Baader and the armed struggle; Aileen Wuornos placed the intensity of her one relationship with Tyria Moore above her own life and lived the radical freedom of an existence as a hitchhiker, before that same freedom turned deadly."
       }
     ]
   },
@@ -25469,7 +25474,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Wealth and personal dominance as a means of controlling others",
         beschreibung: "In the two cases so far, financial power and personal assertiveness were used to control and exploit others within very close, unequal power relationships.",
-        beleg: "Jeffrey Epstein systematically used his wealth and social connections over years to exploit minors."
+        beleg: "Jeffrey Epstein systematically used his wealth and social connections over years to exploit minors; John McAfee lived on his estate in Belize, which he himself called \"his kingdom,\" surrounded by armed bodyguards – wealth he translated directly into personal dominance over those around him."
       }
     ]
   },
@@ -25481,7 +25486,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Long avoidance or passive denial before the actual escalation",
         beschreibung: "In the two cases so far, a long phase of looking away or passively denying an actually recognizable problem shows up before the situation escalated.",
-        beleg: "Alfons Schuhbeck avoided actively confronting the tax irregularities of his business empire for years, until they became impossible to overlook."
+        beleg: "Alfons Schuhbeck avoided actively confronting the tax irregularities of his business empire for years, until they became impossible to overlook; John Hinckley Jr. pursued a fixed idea for years in a delusional but outwardly unremarkable withdrawal, before it discharged within seconds into one of the most consequential acts of political violence in recent US history."
       }
     ]
   },
@@ -25505,7 +25510,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Deep fusion of one's own identity with another person or foreign style",
         beschreibung: "In the two cases so far, an unusually deep fusion of one's own identity with a foreign template emerges – to the point of near-total dissolution of the self within it.",
-        beleg: "Wolfgang Beltracchi forged the works of well-known artists for decades with a stylistic fusion so thorough it fooled even experts."
+        beleg: "Wolfgang Beltracchi forged the works of well-known artists for decades with a stylistic fusion so thorough it fooled even experts; Ed Gein, after the death of his extremely dominant mother, spent years opening the graves of older women to literally \"slip into\" their identity through their remains – the same fusion logic as Beltracchi's, here not with the style of dead masters but with the body of his dead mother, derailed into fatal psychosis."
       }
     ]
   }
