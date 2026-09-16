@@ -2080,7 +2080,6 @@ export function ringoStarrPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
         {route:"beruehmte-jon-bon-jovi", label:"Porträt: Jon Bon Jovi (SX9w1) – dieselbe Verschmelzung mit Ehe und Band"},
-        {route:"beruehmte-reinhard-mey", label:"Porträt: Reinhard Mey (SX9w1)"},
         {route:"beruehmte-david-guetta", label:"Porträt: David Guetta (SX9w1)"},
       ])}
     </div>
