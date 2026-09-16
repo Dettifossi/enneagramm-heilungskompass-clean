@@ -24325,6 +24325,11 @@ const KRANKHEITSMUSTERKOMPASS = {
         titel: "One's own research or craft passion as a direct cause of illness",
         beschreibung: "The self-preservation Five shows several cases in which the illness is not incidental but a direct consequence of years of unprotected immersion in one's own subject matter – the passion itself becomes a burden on the body.",
         beleg: "Marie Curie, whose aplastic anemia arose from chronic radiation exposure in her own research; Baruch de Spinoza, whose chronic lung disease traced back to years of inhaling glass dust while lens-grinding – the craft he chose himself for financial independence."
+      },
+      {
+        titel: "Chronic suffering endured for decades without ever interrupting one's own work",
+        beschreibung: "In several further cases, a chronic, often never clearly diagnosed affliction accompanies the self-preservation Five for decades – their own research or creative work is remarkably little slowed by it.",
+        beleg: "Charles Darwin, who after his voyage on HMS Beagle suffered nearly forty years of chronic nausea, heart palpitations, and exhausting fatigue, without the symptoms ever being clearly diagnosed in his lifetime; Franz Kafka, whose tuberculosis, present from 1917, spread to his larynx in his final months and forced him to communicate only through handwritten notes; Hermann Hesse with lifelong, severe migraines, chronic eye ailments, and recurring depressive crises from youth into old age; Warren Buffett, who publicly announced his early-stage prostate cancer diagnosis in a 2012 shareholder letter, underwent treatment, and kept running his company unchanged throughout."
       }
     ]
   },
@@ -24336,7 +24341,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Unabated continued work despite progressive, known illness",
         beschreibung: "In practically every SO5 case so far, intellectual or creative work continues nearly undiminished despite substantial physical limitation – knowledge and work are carried forward to the physical limit.",
-        beleg: "Stephen Hawking, who worked on open questions in physics for 55 years despite total paralysis; Albert Einstein, who lived with a known, untreated aneurysm threat for six and a half years and worked on equations until his last night; Leonardo da Vinci, who switched to his left hand after a stroke paralyzed his right and kept working on the Mona Lisa."
+        beleg: "Stephen Hawking, who worked on open questions in physics for 55 years despite total paralysis; Albert Einstein, who lived with a known, untreated aneurysm threat for six and a half years and worked on equations until his last night; Leonardo da Vinci, who switched to his left hand after a stroke paralyzed his right and kept working on the Mona Lisa; Claudio Naranjo, who spoke at his final public appearance at the 2019 World Ayahuasca Conference with visible Parkinson's tremor and difficulty speaking, only weeks before his death; Isaac Newton, whose severe nervous breakdown in 1693 was likely triggered by decades of unprotected alchemical experiments with mercury, which he never interrupted beforehand."
       },
       {
         titel: "A known warning is acknowledged but not followed",
@@ -24353,7 +24358,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Neurological or psychological complaints affecting perception and mind",
         beschreibung: "Several cases show a combination of physical or externally imposed suffering and mental or sensory impairment, often accompanied by intensified withdrawal.",
-        beleg: "Friedrich Nietzsche with chronic migraines, failing eyesight, and eventual mental collapse; Frédéric Chopin, whose tuberculosis increasingly constrained his later work and physical strength; Alan Turing, whose forced hormone treatment after his 1952 conviction marked him physically and mentally, after which he withdrew into near-total silence; Jean-Jacques Rousseau, whose chronic urinary condition over decades was accompanied by a growing persecution complex that he disclosed radically in the ›Confessions‹ rather than concealing it."
+        beleg: "Friedrich Nietzsche with chronic migraines, failing eyesight, and eventual mental collapse; Frédéric Chopin, whose tuberculosis increasingly constrained his later work and physical strength; Alan Turing, whose forced hormone treatment after his 1952 conviction marked him physically and mentally, after which he withdrew into near-total silence; Jean-Jacques Rousseau, whose chronic urinary condition over decades was accompanied by a growing persecution complex that he disclosed radically in the ›Confessions‹ rather than concealing it; Blaise Pascal with a practically lifelong, never clearly diagnosed illness that in his final years merged with radical religious self-mortification and killed him at only 39."
       }
     ]
   },
@@ -24365,7 +24370,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Between concealment and constant health vigilance",
         beschreibung: "The self-preservation Six shows a striking contrast: some cases hide a serious illness for a long time, while others turn their own health into a permanent, publicly known concern.",
-        beleg: "Franz Schubert, whose syphilis progressed over six years but was officially declared typhoid; Woody Allen with his lifelong, publicly documented hypochondria (\"alarmism\"); Neil Armstrong, who carried coronary heart disease for over two decades before dying after a bypass operation."
+        beleg: "Franz Schubert, whose syphilis progressed over six years but was officially declared typhoid; Woody Allen with his lifelong, publicly documented hypochondria (\"alarmism\"); Neil Armstrong, who carried coronary heart disease for over two decades before dying after a bypass operation; Fyodor Dostoevsky, who never concealed his lifelong epilepsy but wrote it directly into several of his most significant literary characters, above all Prince Myshkin in 'The Idiot.'"
       }
     ]
   },
@@ -24394,7 +24399,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Radical withdrawal after illness or trauma rather than gradual adjustment",
         beschreibung: "The sexual Six repeatedly shows an abrupt, nearly complete withdrawal from familiar social or public life after a severe illness or trauma occurs – not a slow settling-in, but a clean break.",
-        beleg: "Michael Schumacher, who was completely shielded from the media after his severe skiing accident in 2013; Byron Katie, whose ten years of severe depression and agoraphobia abruptly turned into a radical turning point in 1986; Ludwig van Beethoven's progressive deafness, which increasingly drove him out of the social musical life of his time."
+        beleg: "Michael Schumacher, who was completely shielded from the media after his severe skiing accident in 2013; Byron Katie, whose ten years of severe depression and agoraphobia abruptly turned into a radical turning point in 1986; Ludwig van Beethoven's progressive deafness, which increasingly drove him out of the social musical life of his time; Friedrich Schiller, who fought for fourteen years against a body that had already collapsed dangerously with tuberculosis in 1791; Otto von Bismarck, who refused treatment for gangrene in his foot, leading to his final weeks in 1898; Charles Manson, whose colon cancer was diagnosed only in his final year of imprisonment – in complete isolation, from which he died in 2017 in the prison hospital."
       },
       {
         titel: "Confrontation instead of concealment: disclosing the illness and turning it into productive action",
@@ -24411,7 +24416,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Activity to the literal last moment, regardless of diagnosis",
         beschreibung: "The self-preservation Seven shows, in several cases, a tendency to continue its accustomed activity until the end of life rather than submit to the illness.",
-        beleg: "Junko Tabei, who kept climbing mountains despite peritoneal cancer, almost until her death; Larry King, who survived an entire chain of heart disease, cancer, and a stroke over decades and kept returning to the studio, before ultimately dying of COVID-19 sepsis; Christopher Columbus, who despite eight years of progressive joint inflammation still undertook a fourth Atlantic crossing in 1502 and fought relentlessly for his titles until his death."
+        beleg: "Junko Tabei, who kept climbing mountains despite peritoneal cancer, almost until her death; Larry King, who survived an entire chain of heart disease, cancer, and a stroke over decades and kept returning to the studio, before ultimately dying of COVID-19 sepsis; Christopher Columbus, who despite eight years of progressive joint inflammation still undertook a fourth Atlantic crossing in 1502 and fought relentlessly for his titles until his death; Francis Bacon, whose decades of chronic gout, kidney stones, and digestive complaints never kept him from new experiments – his death reads like the final, fatal consequence of his own drive to research."
       },
       {
         titel: "Demonstrative abundance on the outside conceals a serious private crisis for years",
@@ -24428,7 +24433,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Forward flight instead of pausing at the first warning signs",
         beschreibung: "In several cases, the social Seven shows a pattern in which early health warning signs are consistently overridden in favor of continued activity and new projects, until an abrupt collapse forces a halt.",
-        beleg: "George Gershwin, who kept working on new film-scoring projects despite months of headaches and olfactory hallucinations, until he collapsed; Molière, who stood on stage with his chronic lung disease during a performance itself; Nikola Tesla, whose progressive obsessive-compulsive disorder was never treated over decades but was instead channeled into ever-new invention projects."
+        beleg: "George Gershwin, who kept working on new film-scoring projects despite months of headaches and olfactory hallucinations, until he collapsed; Molière, who stood on stage with his chronic lung disease during a performance itself; Nikola Tesla, whose progressive obsessive-compulsive disorder was never treated over decades but was instead channeled into ever-new invention projects; Jules Verne, who after an assassination attempt by his mentally disturbed nephew in 1886 permanently carried a bullet lodged in his leg and limped for the rest of his life, later also developing diabetes, without ever interrupting his restless literary world-building; Drew Barrymore, whose addiction, beginning already in childhood, only found a forced halt in 1988 with a clinic admission at age 13; Elon Musk, who only publicly disclosed his Asperger's diagnosis live on US television in 2021, after it had shaped his entire working life unnamed."
       },
       {
         titel: "Continuing one's mission or communal bond to the last breath",
@@ -24445,7 +24450,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Continued intensity despite progressive physical limitation",
         beschreibung: "In the sexual Seven, creative or professional intensity continues unusually long even under increasing physical strain – illness tends to be integrated into the existing passion rather than triggering withdrawal.",
-        beleg: "Frans de Waal, who kept working despite stomach cancer until a few months before his death; Morgan Freeman, who kept making films despite fibromyalgia with chronic nerve pain in his left arm since 2008; Franz Liszt, who kept performing until the end despite heart failure, dropsy, and progressive blindness."
+        beleg: "Frans de Waal, who kept working despite stomach cancer until a few months before his death; Morgan Freeman, who kept making films despite fibromyalgia with chronic nerve pain in his left arm since 2008; Franz Liszt, who kept performing until the end despite heart failure, dropsy, and progressive blindness; Robert Schumann, whose psychiatric illness spanned his entire adult life, led him into the Rhine and into an asylum in 1854, where he died in 1856; Leonard Bernstein, whose decades of nearly boundless bodily self-destruction culminated in 1990 in advanced lung disease and an abrupt death – just days after he had publicly withdrawn from conducting."
       }
     ]
   },
