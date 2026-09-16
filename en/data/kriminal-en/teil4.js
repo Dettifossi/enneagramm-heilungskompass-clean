@@ -2406,12 +2406,13 @@ export function bryanKohbergerPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. After the Crime: Control Down to the Courtroom</h3>
         <p class="vb-intro">
-        Kohberger did not address the court at his sentencing in July 2025 – no confession in his own words, no
-        explanation, no visible remorse. This too fits the pattern: where an SX1 with a two-wing often becomes
-        cooperative and forthcoming after the crime (as in the case of Gary Ridgway), the SX1 with a nine-wing
-        withdraws further – silence as a last form of control over one's own image. His 2026 petition to withdraw
-        his guilty plea fits the same pattern: not an admission of final loss of control, but a renewed attempt
-        to determine the outcome of his own story.
+        Kohberger's guilty plea in July 2025 was a purely formal, legal act before the court – not a confession in
+        his own words. At the sentencing itself, he exercised his right not to speak: no explanation, no visible
+        remorse, no account of events in his own voice. This too fits the pattern: where an SX1 with a two-wing
+        often becomes cooperative and forthcoming after the crime (as in the case of Gary Ridgway), the SX1 with a
+        nine-wing withdraws further – silence as a last form of control over one's own image. His 2026 petition to
+        withdraw the legal guilty plea fits the same pattern: not an admission of final loss of control, but a
+        renewed attempt to determine the outcome of his own story after all.
         </p>
       </div>
 

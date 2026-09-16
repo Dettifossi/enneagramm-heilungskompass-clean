@@ -4417,12 +4417,14 @@ export function bryanKohbergerPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Nach der Tat: Kontrolle bis in den Gerichtssaal</h3>
         <p class="vb-intro">
-        Kohberger äußerte sich bei seiner Verurteilung im Juli 2025 nicht vor Gericht – kein Geständnis in eigenen
-        Worten, keine Erklärung, kein sichtbares Bedauern. Auch das passt zum Muster: Wo eine SX1 mit Zweierflügel
-        nach der Tat oft kooperativ und mitteilsam wird (wie im Fall Gary Ridgway), zieht sich die SX1 mit
-        Neunerflügel weiter zurück – Schweigen als letzte Form der Kontrolle über das eigene Bild. Sein Antrag von
-        2026, das Geständnis zurückzuziehen, fügt sich in dasselbe Muster: kein Eingeständnis endgültiger
-        Kontrolllosigkeit, sondern ein erneuter Versuch, den Ausgang der eigenen Geschichte zu bestimmen.
+Kohbergers Schuldbekenntnis im Juli 2025 war ein rein formaler, juristischer Akt vor Gericht ("guilty") – kein
+        Geständnis in eigenen Worten. Bei der Urteilsverkündung selbst nutzte er sein Recht, sich nicht zu äußern:
+        keine Erklärung, kein sichtbares Bedauern, keine eigene Version der Ereignisse. Auch das passt zum Muster:
+        Wo eine SX1 mit Zweierflügel nach der Tat oft kooperativ und mitteilsam wird (wie im Fall Gary Ridgway),
+        zieht sich die SX1 mit Neunerflügel weiter zurück – Schweigen als letzte Form der Kontrolle über das
+        eigene Bild. Sein Antrag von 2026, das juristische Schuldbekenntnis nachträglich zurückzunehmen, fügt sich
+        in dasselbe Muster: kein Eingeständnis endgültiger Kontrolllosigkeit, sondern ein erneuter Versuch, den
+        Ausgang der eigenen Geschichte doch noch selbst zu bestimmen.
         </p>
       </div>
 
