@@ -2492,6 +2492,13 @@ export function gescheGottfriedPortraitPage() {
         To this day it remains unclear what actually drove Gottfried – during interrogations she gave no precise
         statements that would allow a clear motive to be established. This gap fits the destructive One: no loud,
         declared motive, but an inner order that was self-sufficient and never needed outward justification.</p>
+        <p class="vb-intro"><strong>d) Control over her public image, to the very end:</strong>
+        Even as the net closed in around her, Gottfried held on to a calm, disciplined facade – exactly the kind of
+        self-control considered a hallmark of the social One. Even in prison and before the scaffold, she paid
+        meticulous attention to bourgeois posture and etiquette, down to selecting stockings that matched her
+        penitent's shirt shortly before her execution. She remained composed through the execution ritual itself as
+        well: she calmly sipped her last glass of wine and then shook the hand of each of the judges present – control
+        over her own outward appearance as a final, unshakeable principle, even in the face of her own death.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">

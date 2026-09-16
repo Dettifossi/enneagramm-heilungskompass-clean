@@ -4458,6 +4458,13 @@ export function gescheGottfriedPortraitPage() {
         Angaben, die auf ein klares Motiv schließen ließen. Diese Leerstelle passt zur destruktiven Eins: kein
         lautes, erklärtes Motiv, sondern eine innere Ordnung, die sich selbst genügte und nach außen nie
         gerechtfertigt werden musste.</p>
+        <p class="vb-intro"><strong>d) Kontrolle über das Bild nach außen, bis zuletzt:</strong>
+        Selbst als sich das Netz um sie zusammenzog, hielt Gottfried an einer ruhigen, disziplinierten Fassade fest –
+        genau jene Selbstbeherrschung, die als Markenzeichen der sozialen Eins gilt. Noch im Gefängnis und vor dem
+        Schafott achtete sie peinlich genau auf bürgerliche Haltung und Etikette, bis hin zur Wahl passender Strümpfe
+        zum Büßerhemd kurz vor der Hinrichtung. Auch beim Hinrichtungsritual selbst blieb sie gefasst: Sie trank ihr
+        letztes Glas Wein in Ruhe und schüttelte anschließend jedem der anwesenden Richter die Hand – Kontrolle über
+        die eigene äußere Erscheinung als letztes, unerschütterliches Prinzip, selbst angesichts des eigenen Todes.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
