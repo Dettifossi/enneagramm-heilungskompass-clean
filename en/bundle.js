@@ -24467,7 +24467,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Carrying on in one's own role even once the illness can no longer be concealed",
         beschreibung: "Where an illness can no longer be kept secret, the self-preservation Eight shows a related variant of the same pattern: rather than withdrawing, its own task is carried on as unchanged as possible, even once the body has long since set clear limits.",
-        beleg: "Galarrwuy Yunupingu, who after a kidney transplant and a leg amputation in 2017 did not step back from his role as a land rights leader, but remained politically engaged well into his final years, while his own illness was publicly known."
+        beleg: "Galarrwuy Yunupingu, who after a kidney transplant and a leg amputation in 2017 did not step back from his role as a land rights leader, but remained politically engaged well into his final years, while his own illness was publicly known; Salvatore Riina, whose years of physical decline in maximum-security detention never brought him to remorse or public weakness – repeatedly denied applications for medical release, a death in 2017 in the prison hospital wing of Parma."
       }
     ]
   },
@@ -24479,7 +24479,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Chronic physical suffering that rarely leads to relinquishing responsibility",
         beschreibung: "The social Eight repeatedly shows prolonged, physically burdensome chronic complaints that nevertheless rarely lead to prematurely giving up the respective leadership role or public function.",
-        beleg: "Karl Marx, who for years endured severe boils and carbuncles alongside bronchitis, liver trouble, and rheumatism without giving up his work on \"Capital\"; Fritz Perls with years of heart trouble and chain-smoking until his pancreatic cancer diagnosis."
+        beleg: "Karl Marx, who for years endured severe boils and carbuncles alongside bronchitis, liver trouble, and rheumatism without giving up his work on \"Capital\"; Fritz Perls with years of heart trouble and chain-smoking until his pancreatic cancer diagnosis; John Gotti, who fought his 1998 laryngeal cancer diagnosis in isolation detention without any public admission of weakness, until he died in 2002 in federal custody."
       }
     ]
   },
@@ -24491,12 +24491,12 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Office or position not relinquished despite serious, repeated illness",
         beschreibung: "The sexual Eight shows, in several cases, a remarkable refusal to vacate its position because of an illness – even when it recurs multiple times.",
-        beleg: "Ruth Bader Ginsburg, who lived through four cancer diagnoses across three very different organs over two decades while remaining continuously on the bench as a US Supreme Court justice; John Wayne, who had lung cancer in 1964 and finally fatal stomach cancer in 1979, continuing to make films between the two diagnoses."
+        beleg: "Ruth Bader Ginsburg, who lived through four cancer diagnoses across three very different organs over two decades while remaining continuously on the bench as a US Supreme Court justice; John Wayne, who had lung cancer in 1964 and finally fatal stomach cancer in 1979, continuing to make films between the two diagnoses; Giacomo Puccini, diagnosed with laryngeal cancer in 1924 while working on his final opera, 'Turandot,' who underwent radical radium treatment rather than let the work rest – he died from a complication of the treatment, the piece left unfinished."
       },
       {
         titel: "Self-destructive flight forward instead of self-care",
         beschreibung: "A second pattern shows not a refusal to give up an office, but a fundamental refusal to submit to one's own illness through retreat or medical care – autonomy is instead defended through ever-further flight forward.",
-        beleg: "Paul Gauguin, who despite progressive syphilis and open leg wounds moved to the even more remote Marquesas Islands rather than seeking medical treatment in Europe, and completed one of his most significant works shortly after a suicide attempt."
+        beleg: "Paul Gauguin, who despite progressive syphilis and open leg wounds moved to the even more remote Marquesas Islands rather than seeking medical treatment in Europe, and completed one of his most significant works shortly after a suicide attempt; Genesis P-Orridge, who lived for years with leukemia and remained artistically active until shortly before death in March 2020, rather than withdrawing."
       }
     ]
   },
@@ -24508,7 +24508,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Slowly progressing afflictions barely addressed publicly for a long time",
         beschreibung: "In the self-preservation Nine, the illness frequently progresses very slowly over years and remains remarkably in the background of public life for a long time before it becomes unmistakable.",
-        beleg: "James Levine, whose Parkinson's disease developed progressively over decades, accompanied by severe back injuries; David Hume with a chronic bowel disease that steadily progressed over a good four years without a clear diagnosis ever being made; Johannes Brahms, who died of the same liver cancer that had already killed his father; Margaret Rutherford, whose lifelong severe depression stayed almost entirely hidden behind her warm stage persona before a progressive dementia set in during her final decade."
+        beleg: "James Levine, whose Parkinson's disease developed progressively over decades, accompanied by severe back injuries; David Hume with a chronic bowel disease that steadily progressed over a good four years without a clear diagnosis ever being made; Johannes Brahms, who died of the same liver cancer that had already killed his father; Margaret Rutherford, whose lifelong severe depression stayed almost entirely hidden behind her warm stage persona before a progressive dementia set in during her final decade; Hans-Dietrich Genscher with a years-long, publicly barely addressed heart condition, from which he died in 2016."
       }
     ]
   },
@@ -24520,7 +24520,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Illnesses that affect memory and identity itself",
         beschreibung: "The social Nine shows a remarkable clustering of illnesses that directly attack memory or identity – a striking echo of this subtype's core theme, its own tendency to set itself aside in favor of the community.",
-        beleg: "Ronald Reagan and Peter Falk, both of whom developed Alzheimer's – Falk's accompanied by a public custody dispute over his care; Julian Assange, whose seven years of isolation caused documented physical and psychological effects; Willy Brandt with recurring severe depressive episodes."
+        beleg: "Ronald Reagan and Peter Falk, both of whom developed Alzheimer's – Falk's accompanied by a public custody dispute over his care; Julian Assange, whose seven years of isolation caused documented physical and psychological effects; Willy Brandt with recurring severe depressive episodes; Wilma Mankiller, who lived for three decades with polycystic kidney disease, survived two kidney transplants, a lymphoma, and breast cancer, before dying in 2010 of stage IV pancreatic cancer – a body repeatedly set aside across decades."
       }
     ]
   },
