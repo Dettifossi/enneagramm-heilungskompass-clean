@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=126";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=127";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -3494,7 +3494,7 @@ const SCHAUBILDER_NEU = {
   "enneagramm-intellekt": "2026-08-08",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -3673,6 +3673,7 @@ text.nav = [
     { route: "aetherische-oele", label: "Essential Oils" },
     { route: "angst-essenz", label: "Fear → Essence" },
     { route: "antriebskraefte", label: "Driving Forces of Humanity" },
+    { route: "dynamik-der-fluegelenergien", label: "The Dynamics of Wing Energies" },
     { route: "aufmerksamkeitsfokus", label: "Attention Focus & Blind Spots" },
     { route: "basisemotionen", label: "Basic Emotions" },
     { route: "beruhmte-komponisten", label: "Famous Composers" },
@@ -34915,6 +34916,52 @@ function prinzipienPage() {
   `);
 }
 
+function dynamikDerFluegelenergienPage() {
+  return shell(`
+    ${pageHeader("dynamik-der-fluegelenergien")}
+    <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
+      <p class="eyebrow">Charts · Wings & Driving Forces</p>
+      <h1 class="section-title">The Dynamics of Wing Energies</h1>
+      <p class="psycho-intro">How the inner drive of an Enneagram type arises from the encounter of its two neighboring types – and why no type can truly be understood without its wings.</p>
+      <img
+        src="../assets/dynamik-der-fluegelenergien.jpg"
+        alt="The Dynamics of Wing Energies in Relation to the Intrinsic Motivations of the 9 Enneagram Types"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
+      />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">No Type Without Its Wings</h2>
+        <p class="vb-intro">In the classic Enneagram model, each of the nine types is complemented by its two direct neighbors in the circle – the so-called <strong>wings</strong>. A Six, for instance, carries elements of both the Five and the Seven within them; a Three carries elements of both the Two and the Four. Usually, this wing relationship is described as a kind of coloring: the base type remains, and the wings give it a particular nuance.</p>
+        <p class="vb-intro">The diagram goes a step further and makes visible what is actually happening behind this: each of the nine types has its own <strong>inner drive</strong> – an intrinsic desire that moves them from within (perfection for the One, love for the Two, success for the Three, individuality for the Four, knowledge for the Five, security for the Six, fun for the Seven, power for the Eight, harmony for the Nine). These nine drives do not stand isolated side by side but exist in a living, circular dynamic: the drive of each type essentially arises from the <strong>encounter of the two drives of its neighboring types</strong> – the way a color emerges from mixing two other colors, without the original colors disappearing in the process.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">The Circle of Nine Drives</h2>
+        <p class="vb-intro">The diagram lets you trace this dynamic all the way around the circle. The dynamic between the Eight's inner drive of <strong>power</strong> and the One's inner drive of <strong>perfection</strong> produces the Nine's inner drive of <strong>harmony</strong> – the Nine mediates between the Eight's assertiveness and the One's search for order by merging both into a peaceful whole. The dynamic between the Nine's harmony and the Two's love in turn produces the One's perfection: whoever wants harmony and also wants to feel lovingly connected develops from that the drive to do things right and well.</p>
+        <p class="vb-intro">The circle continues in the same way: perfection (1) and success (3) produce the Two's love – whoever wants to be perfect and also successful seeks the attention and recognition of others through it. Love (2) and individuality (4) produce the Three's success – whoever wants to be loved and also wants to be unique seeks that confirmation through visible achievement. Success (3) and knowledge (5) produce the Four's individuality – whoever wants to be successful and also wants to understand deeply seeks their own, unmistakable form of expression. Individuality (4) and security (6) produce the Five's knowledge – whoever wants to be unique and also seeks security withdraws into understanding and comprehension in order to achieve both.</p>
+        <p class="vb-intro">Knowledge (5) and fun (7) produce the Six's security – whoever wants to think everything through and also wants to enjoy life seeks reliable security as a compromise between the two. Power (8) and security (6) produce the Seven's fun – whoever wants control over their life and also wants to feel secure turns that tension into a light, pleasurable mobility. And harmony (9) and fun (7) finally produce the Eight's power – whoever wants peace and also wants zest for life develops from that the strength to resolutely protect themselves and others.</p>
+        <p class="vb-intro">What matters here is that none of these nine drives exists on its own. Each is the result of a tension between two neighboring forces – and that is exactly why two people of the same main type with a different wing emphasis often behave surprisingly differently in everyday life, even though their core drive is identical.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">The Same Dynamic on the Level of the Passions</h2>
+        <p class="vb-intro">In the inner ring of the diagram, directly around the portrait of Detlef Rathmer, the same logic is shown once more on a deeper level: in the nine <strong>passions</strong> (sloth, anger, pride, vanity, envy, avarice, fear, gluttony, lust) which, according to Naranjo, form the actual root of the intrinsic motivations. These passions stand in exactly the same living, wing-based dynamic as the drives themselves: the Three's vanity, for instance, arises from the dynamic between pride (the Two's passion) and envy (the Four's passion) – whoever is proud of their own helpfulness and at the same time envies what seems special about others develops from that the need to present themselves as successful and flawless. The passion is thus the deeper cause; the drive is its visible, action-guiding translation into everyday life.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">What This Perspective Means for Self-Knowledge</h2>
+        <p class="vb-intro">For practical self-knowledge, this diagram means above all one thing: your own wing is not a mere footnote to your main type, but an active component of your own inner drive. Whoever knows their wing understands not only which additional color they carry, but also out of which tension their own core drive actually arose. This makes wing dynamics a valuable tool: it shows that growth does not mean distancing yourself from your neighboring types, but consciously integrating their respective qualities instead of unconsciously acting out the tension between them.</p>
+
+        <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">No type stands alone – every drive is the fruit of an encounter between two neighbors. &ndash; Detlef Rathmer</blockquote>
+
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 subtypes in detail &ndash; normal, reinforcing, and countertype of each Enneagram type explained in depth.", "Die verborgene Dynamik der 27 Subtypes")}
+        ${bookTip("hinter-der-leidenschaft", "The nine driving forces and their roots – where the passions come from and how they can be dissolved.", "Hinter der Leidenschaft &ndash; Die neun Wunden des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+        ${relatedLinks([
+          {route:"antriebskraefte", label:"Driving Forces of Humanity"},
+          {route:"dynamik-der-typen", label:"The Inner Dynamics of the Enneagram Types"},
+          {route:"bedeutung-27-subtypen", label:"Meaning of the 27 Subtypes"},
+          {route:"leidenschaft-und-wunde", label:"Passion & Wound"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function antriebskraeftePage() {
   return shell(`
     ${pageHeader("antriebskraefte")}
@@ -53492,6 +53539,7 @@ function subtypeSchaubilderPage() {
     "ego-fixierungen": egoFixierungenPage,
     "enneagramm-profiling": enneagrammProfilingPage,
     "antriebskraefte": antriebskraeftePage,
+    "dynamik-der-fluegelenergien": dynamikDerFluegelenergienPage,
     "bewusstseinsuebungen": bewusstseinsuebungenPage,
     "schopenhauer-zitat": schopenhauerZitatPage,
     "koerperregulation": koerperregulationPage,
