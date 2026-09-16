@@ -46827,7 +46827,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Methodische Präzision und jahrelange Selbstkontrolle als Tarnung",
         beschreibung: "In mehreren der porträtierten Fälle wird eine ausgeprägt methodische, detailversessene Vorgehensweise sichtbar, verbunden mit einer nach außen jahrelang unauffälligen, kontrollierten Lebensführung – dieselbe Selbstdisziplin, die die Eins sonst konstruktiv einsetzt, hier pervertiert in akribische Verschleierung.",
-        beleg: "Dennis Rader (BTK) führte über Jahrzehnte ein unauffälliges Doppelleben als Kirchenvorsteher und Behördenmitarbeiter bei gleichzeitig minutiös geplanten Taten; Arno Funke (›Dagobert‹) plante seine Erpressungen mit außergewöhnlicher technischer Sorgfalt über Jahre hinweg."
+        beleg: "Dennis Rader (BTK) führte über Jahrzehnte ein unauffälliges Doppelleben als Kirchenvorsteher und Behördenmitarbeiter bei gleichzeitig minutiös geplanten Taten; Arno Funke (›Dagobert‹) plante seine Erpressungen mit außergewöhnlicher technischer Sorgfalt über Jahre hinweg; Michail Popkow war während seiner gesamten Mordserie aktiver Polizeibeamter und galt als unauffälliger, pflichtbewusster Bürger; Andrei Tschikatilo galt als Lehrer, Parteimitglied und unauffälliger Staatsbürger; Dorothea Puente pflegte ein tadelloses öffentliches Bild als freundliche Vermieterin und Wohltäterin der Gemeinde; Dennis Nilsen tötete nicht aus Hass oder Kontrollwillen, sondern um nicht allein zu sein – hinter einer unauffälligen, geordneten bürgerlichen Existenz; Paul Ogorzow, tagsüber der mustergültige Nachbar, nutzte sein Insiderwissen als Reichsbahn-Weichenwärter mit präziser Routine für seine Taten."
       }
     ]
   },
@@ -46844,7 +46844,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Selbstgerechtigkeit statt Reue nach der Aufdeckung",
         beschreibung: "Wird die Tat aufgedeckt, zeigt sich bei diesem Subtyp auffällig oft keine echte Reue, sondern eine moralische Selbstrechtfertigung – das eigene Handeln wird nachträglich in ein Narrativ von Gerechtigkeit oder erlittenem Unrecht umgedeutet.",
-        beleg: "Dieter Zlof stellte sich in seinem späten Geständnisbuch als ›Opfer der Gesellschaft‹ dar, betrogen von Justiz, Behörden und dem eigenen Umfeld, und erklärte, es tue ihm nicht leid, einem ›enorm reichen Menschen‹ Geld weggenommen zu haben."
+        beleg: "Dieter Zlof stellte sich in seinem späten Geständnisbuch als ›Opfer der Gesellschaft‹ dar, betrogen von Justiz, Behörden und dem eigenen Umfeld, und erklärte, es tue ihm nicht leid, einem ›enorm reichen Menschen‹ Geld weggenommen zu haben; Heinrich Pommerenke sah in seinen Taten einen selbst zugeschriebenen göttlichen Auftrag, ›unmoralische‹ Frauen zu bestrafen – eine moralische Rahmung, die noch die eigene Gewalt als Erfüllung einer höheren Ordnung erscheinen ließ, statt sie als Unrecht anzuerkennen."
       }
     ]
   },
@@ -46867,13 +46867,18 @@ const KRIMINALMUSTERKOMPASS = {
   },
   SE2: {
     tier: "Flusspferd",
-    kernthema: "Eine auffällig hohe Zahl der porträtierten Fälle nutzte eine als Fürsorge, Nähe oder Gemeinschaft getarnte Rolle, um Vertrauen zu gewinnen und auszunutzen.",
+    kernthema: "Eine auffällig hohe Zahl der porträtierten Fälle nutzte eine als Fürsorge, Nähe oder Gemeinschaft getarnte Rolle, um Vertrauen zu gewinnen und auszunutzen – in einer zweiten Gruppe sichert stattdessen Status oder Zugehörigkeit Schutz vor Konsequenzen oder wird selbst zum Antrieb.",
     beispiele: ["Harvey Weinstein", "Jonathan Meijer", "Ángel Reséndez", "Tommy Lynn Sells", "Jeanne Weber", "Peter Sutcliffe", "Anna Delvey", "Buster Murdaugh", "John Wayne Gacy", "Sebastian Greenwood", "Rudolf Pleil", "Ulrike Meinhof"],
     fingerabdruecke: [
       {
         titel: "Eine Rolle der Fürsorge oder Nähe als Werkzeug für Vertrauensmissbrauch",
         beschreibung: "Bei der selbsterhaltenden Zwei tritt in mehreren Fällen eine Person auf, die sich zunächst als hilfreich, nahbar oder gemeinschaftsstiftend präsentierte – als Mentor, Nachbar, Familienmitglied oder Wohltäter – und genau dieses Vertrauen für die eigentliche Tat missbrauchte.",
-        beleg: "Harvey Weinstein nutzte seine Rolle als mächtiger, vermeintlich fördernder Mentor in der Filmbranche systematisch aus; John Wayne Gacy war in seiner Nachbarschaft als geselliger, gemeinschaftsengagierter ›Clown‹ bekannt, während er parallel mordete; Jeanne Weber, eine Amme, tötete mehrere ihr anvertraute Kinder."
+        beleg: "Harvey Weinstein nutzte seine Rolle als mächtiger, vermeintlich fördernder Mentor in der Filmbranche systematisch aus; John Wayne Gacy war in seiner Nachbarschaft als geselliger, gemeinschaftsengagierter ›Clown‹ bekannt, während er parallel mordete; Jeanne Weber, eine Amme, tötete mehrere ihr anvertraute Kinder; Jonathan Meijer präsentierte sich als großzügiger Samenspender, während er Kliniken über die wahre Zahl seiner Spenden täuschte; Peter Sutcliffe galt als freundlicher, ruhiger Nachbar; Tommy Lynn Sells erschlich sich als Wanderarbeiter das Vertrauen fremder Familien, bevor er dort tötete, wo man ihn nicht erwartete; Sebastian Greenwood, Chefrekrutierer eines der größten Betrugssysteme der Geschichte, dessen Erfolg auf gewonnenem persönlichen Vertrauen beruhte; Ulrike Meinhof machte die öffentliche Fürsorge für Unterdrückte und Ausgebeutete über Jahre zum Kern ihrer Identität, bevor sie dieselbe Kompromisslosigkeit in bewaffnete Gewalt übersetzte."
+      },
+      {
+        titel: "Status oder Zugehörigkeit als Schutzschild oder Antrieb",
+        beschreibung: "In einer zweiten Gruppe von Fällen sichert nicht Fürsorge, sondern die eigene Zugehörigkeit zu einer bestimmten Welt – einer wohlhabenden Familie, einer erfundenen Oberschicht-Identität, dem eigenen Ruf – Schutz vor Konsequenzen oder wird selbst zum Antrieb der Tat.",
+        beleg: "Buster Murdaugh wuchs in einer Juristendynastie auf, die über drei Generationen die Staatsanwaltschaft der eigenen Region kontrollierte – sein Fall zeigt, wie das Zweier-Privileg im Familienkontext als Glaube überlebt, die eigene Zugehörigkeit schütze vor Konsequenzen; Anna Delvey erfand eine vollständige Identität als großzügige deutsche Erbin, um sich Zugang zur New Yorker Hochgesellschaft zu erschleichen; Rudolf Pleil gestand seine Taten nach der Verhaftung bereitwillig und trieb die Zahl seiner Opfer in Aussagen sogar bewusst nach oben, um als ›Rekordhalter‹ zu gelten – Anerkennung als Antrieb noch im Geständnis; Ángel Reséndez stellte sich 1999 freiwillig, vermittelt durch seine Schwester – selbst im Moment der Aufgabe blieb die familiäre Bindung der entscheidende Bezugspunkt."
       }
     ]
   },
@@ -46885,7 +46890,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Charismatische Führung, die eine ganze Gruppe in Zerstörung führt",
         beschreibung: "Bei der sozialen Zwei zeigt sich in den porträtierten Fällen wiederholt eine Person, deren soziale Anziehungskraft und Führungsfähigkeit nicht für den Aufbau, sondern für die Zerstörung einer ihr anvertrauten Gemeinschaft eingesetzt wurde.",
-        beleg: "Jim Jones führte seine gesamte Sektengemeinschaft über Jahre in völlige Abhängigkeit, bevor er sie in den kollektiven Tod von Jonestown trieb; Jack Unterweger nutzte seinen öffentlichen Ruf als resozialisierter, gefeierter Autor, um weiter unentdeckt zu morden."
+        beleg: "Jim Jones führte seine gesamte Sektengemeinschaft über Jahre in völlige Abhängigkeit, bevor er sie in den kollektiven Tod von Jonestown trieb; Jack Unterweger nutzte seinen öffentlichen Ruf als resozialisierter, gefeierter Autor, um weiter unentdeckt zu morden; Osama bin Laden baute al-Qaida als charismatischer, religiös legitimierter Anführer auf und trieb Tausende Anhänger in Terror und Selbstopferung. Cedric Maake bildet die andere Seite desselben Musters: keine Führung einer Gemeinschaft, sondern eine freundliche, unauffällige Alltagsfassade als Deckmantel für eine über ein Jahr andauernde Mordserie – dieselbe soziale Zugänglichkeit, hier nicht als Charisma nach außen, sondern als Tarnung nach innen genutzt."
       }
     ]
   },
@@ -46909,7 +46914,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Demonstrierte Kompetenz und sichtbarer Erfolg als Fassade für Betrug",
         beschreibung: "Bei der selbsterhaltenden Drei dominieren unter den porträtierten Fällen auffällig Wirtschafts- und Anlagebetrüger, deren nach außen glaubwürdig demonstrierte fachliche Kompetenz und Erfolgsbilanz über Jahre als Fassade für systematischen Betrug diente.",
-        beleg: "Bernie Madoff baute über Jahrzehnte ein scheinbar seriöses Anlageimperium auf, das sich als eines der größten Schneeballsysteme der Geschichte entpuppte; Samuel Bankman-Fried präsentierte sich als seriöses Gesicht der Kryptowelt, während im Hintergrund Kundengelder in Milliardenhöhe umgeleitet wurden; Ruja Ignatova verkaufte eine fiktive Kryptowährung als revolutionäre Wertanlage."
+        beleg: "Bernie Madoff baute über Jahrzehnte ein scheinbar seriöses Anlageimperium auf, das sich als eines der größten Schneeballsysteme der Geschichte entpuppte; Samuel Bankman-Fried präsentierte sich als seriöses Gesicht der Kryptowelt, während im Hintergrund Kundengelder in Milliardenhöhe umgeleitet wurden; Ruja Ignatova verkaufte eine fiktive Kryptowährung als revolutionäre Wertanlage; Michael Franzese erwirtschaftete als jüngster Capo seit Al Capone über einen raffinierten Benzinsteuer-Betrug bis zu fünf Millionen Dollar pro Woche; Pablo Escobar inszenierte sich parallel zu seinem kriminellen Imperium als Volksheld und Wohltäter; Tom Keating tarnte seine über 2.000 Kunstfälschungen als Protest gegen den Kunstmarkt und baute bewusst Fehler als spätere ›Zeitbomben‹ ein; Belle Gunness und Henri Désiré Landru lockten über Kontaktanzeigen wohlhabende Witwen bzw. Witwer mit dem Bild häuslicher Fürsorge an, um sich anschließend deren Vermögen anzueignen; Karla Homolka verbarg ihre Mittäterschaft an drei Morden hinter der öffentlich als ›Ken und Barbie‹ bewunderten Fassade gepflegter, scheinbar makelloser Normalität."
       }
     ]
   },
@@ -46921,7 +46926,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Status, Sichtbarkeit oder öffentliche Bühne als erkennbares Motiv",
         beschreibung: "Bei der sozialen Drei zeigt sich in mehreren Fällen ein Bezug zu Ruhm, Status oder öffentlicher Aufmerksamkeit – entweder als direktes Motiv oder als Bühne, auf der sich die Tat abspielte.",
-        beleg: "O.J. Simpsons Fall wurde als ›Prozess des Jahrhunderts‹ selbst zur öffentlichen Bühne; Andrew Cunanan suchte zeitlebens Nähe zu Prestige und Anerkennung, bevor er quer durch die USA mordete; Vincenzo Peruggia stahl die Mona Lisa aus patriotischer Selbstinszenierung; Werner Gladow, mit siebzehn Gründer einer eigenen Bande, formulierte sein Ziel selbst als ›reich und gefürchtet‹ zu sein – Furcht als öffentlich bezeugte Währung, nicht als privater Gewinn."
+        beleg: "O.J. Simpsons Fall wurde als ›Prozess des Jahrhunderts‹ selbst zur öffentlichen Bühne; Andrew Cunanan suchte zeitlebens Nähe zu Prestige und Anerkennung, bevor er quer durch die USA mordete; Vincenzo Peruggia stahl die Mona Lisa aus patriotischer Selbstinszenierung; Werner Gladow, mit siebzehn Gründer einer eigenen Bande, formulierte sein Ziel selbst als ›reich und gefürchtet‹ zu sein – Furcht als öffentlich bezeugte Währung, nicht als privater Gewinn; Pedro Alonso López gestand nach seiner Verhaftung die höchste je einem Einzeltäter zugeschriebene Opferzahl (350) – ein grimmiger Rekordanspruch statt bloßen Geständnisses; Wade Wilson lachte und grimassierte während seines gesamten Prozesses sichtlich genüsslich vor Publikum, statt Angst oder Reue zu zeigen – der Gerichtssaal selbst wurde zur Bühne."
       }
     ]
   },
@@ -46938,7 +46943,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Die kalkulierte Opfer-Rolle als Schutzschild nach der Tat",
         beschreibung: "Statt Aufmerksamkeit zu suchen, wird hier unmittelbar nach der Tat eine neue, sorgfältig gewählte Rolle übernommen, die Sympathie statt Verdacht erzeugen soll – die Bühne dient nicht der Selbstdarstellung, sondern der eigenen Entlastung.",
-        beleg: "Susan Wright stellte einen Tag nach der Tat eine Anzeige wegen häuslicher Gewalt gegen ihren bereits toten Ehemann und trat vor Gericht als verletzliche, schutzbedürftige Frau auf – eine Staatsanwältin beschrieb ihre Tränen im Zeugenstand als kalkulierte Vorstellung."
+        beleg: "Susan Wright stellte einen Tag nach der Tat eine Anzeige wegen häuslicher Gewalt gegen ihren bereits toten Ehemann und trat vor Gericht als verletzliche, schutzbedürftige Frau auf – eine Staatsanwältin beschrieb ihre Tränen im Zeugenstand als kalkulierte Vorstellung; Diane Downs erschoss ihre drei Kinder und fuhr anschließend mit einer selbst beigebrachten Schusswunde ins Krankenhaus, um dort die erfundene Geschichte eines fremden Angreifers zu erzählen – die Opferrolle als sofort einsatzbereite zweite Inszenierung."
       }
     ]
   },
@@ -46974,7 +46979,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Verschmelzung der eigenen Identität mit einer intensiven Bindung oder Erzählung",
         beschreibung: "Es zeigt sich eine tiefe Verschmelzung der eigenen Identität entweder mit einer einzelnen intensiven Beziehung oder mit einer selbst erschaffenen, alles bestimmenden ideologischen Erzählung.",
-        beleg: "Bonnie Parker definierte ihre gesamte spätere Identität über die romantisierte gemeinsame Verbrecherlaufbahn mit Clyde Barrow."
+        beleg: "Bonnie Parker definierte ihre gesamte spätere Identität über die romantisierte gemeinsame Verbrecherlaufbahn mit Clyde Barrow; Adolf Hitler verschmolz seine eigene Identität vollständig mit einer selbst erschaffenen, alles bestimmenden nationalistischen Erzählung, der er jede andere Bindung und jeden Widerspruch unterordnete."
       },
       {
         titel: "Verletzte Menschen verletzen Menschen – die eigene Wunde entlädt sich an anderen",
@@ -47020,7 +47025,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Extreme private Isolation als Nährboden einer ungebremsten Fixierung",
         beschreibung: "Bei bislang zwei Fällen entwickelte sich die Tat in einem Zustand fast vollständiger sozialer Isolation, in dem eine obsessive innere Fixierung ohne jede äußere Korrektur ungebremst blieb.",
-        beleg: "Jeffrey Dahmer lebte allein und weitgehend zurückgezogen, während sich seine Taten über Jahre in seiner eigenen Wohnung abspielten, ohne dass sein Umfeld eingriff."
+        beleg: "Jeffrey Dahmer lebte allein und weitgehend zurückgezogen, während sich seine Taten über Jahre in seiner eigenen Wohnung abspielten, ohne dass sein Umfeld eingriff; Joel Rifkin, sozial isoliert und ohne enge Bindungen, tötete über vier Jahre hinweg 17 Frauen, ohne dass sein unauffälliges Alltagsleben je Verdacht erregte."
       }
     ]
   },
@@ -47056,7 +47061,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Intensive ideologische oder gruppenbezogene Bindung als Vorstufe der Tat",
         beschreibung: "Bei der sexuellen Sechs zeigt sich in den porträtierten Fällen eine besonders intensive, oft radikalisierte Bindung an eine Ideologie, eine Gruppe oder eine einzelne fixe Idee, die der eigentlichen Tat unmittelbar voranging.",
-        beleg: "Charles Manson band seine ›Familie‹ durch absolute ideologische Verschmelzung an sich; Anders Breivik radikalisierte sich über Jahre in einer selbst konstruierten ideologischen Weltsicht, bevor er seinen Anschlag verübte."
+        beleg: "Charles Manson band seine ›Familie‹ durch absolute ideologische Verschmelzung an sich; Anders Breivik radikalisierte sich über Jahre in einer selbst konstruierten ideologischen Weltsicht, bevor er seinen Anschlag verübte; Armin Meiwes pflegte über Jahre eine fixe Idee, die er als Online-Anzeige veröffentlichte, bevor er sie 2001 mit einem freiwilligen Kontakt umsetzte – eine über Jahrzehnte gehegte, nie korrigierte fixe Idee als unmittelbare Vorstufe der Tat."
       }
     ]
   },
@@ -47068,7 +47073,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Nervenkitzel oder das Gefühl, unentbehrlich zu sein, als treibende Kraft",
         beschreibung: "Bei bislang zwei Fällen zeigt sich eine Suche nach intensiven Momenten oder dem Gefühl, im entscheidenden Augenblick gebraucht zu werden, als erkennbarer Antrieb.",
-        beleg: "Niels Högel manipulierte wiederholt Patienten, um anschließend als vermeintlicher Lebensretter bei der Reanimation zu glänzen – eine Studie fand später über 300 mögliche Opfer."
+        beleg: "Niels Högel manipulierte wiederholt Patienten, um anschließend als vermeintlicher Lebensretter bei der Reanimation zu glänzen – eine Studie fand später über 300 mögliche Opfer; Andreas Baader interessierte sich nach übereinstimmenden Zeitzeugenberichten deutlich weniger für politische Theorie als seine Mitstreiterinnen – schnelle Autos, Handeln und das Gefühl absoluter Unabhängigkeit waren seine eigentliche Sprache, lange bevor daraus bewaffneter Kampf wurde."
       }
     ]
   },
@@ -47092,7 +47097,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Intensive Suche nach Aufregung, Grenzüberschreitung oder radikaler Freiheit",
         beschreibung: "Bei der sexuellen Sieben zeigt sich in mehreren Fällen eine Lebensweise, die bewusst auf Intensität, Tempo und das Überschreiten von Grenzen ausgerichtet war – oft mit einer gewissen theatralischen, fast euphorischen Note.",
-        beleg: "Clyde Barrow und Bonnie Parker lebten ihre gemeinsame Verbrecherlaufbahn in einer rastlosen, medienwirksamen Flucht quer durch die USA; Victor Lustig verkaufte notorisch charmant und mit hohem Tempo den Eiffelturm gleich zweimal an ahnungslose Käufer.; Ronnie Biggs, der am Großen Postraub 1963 beteiligt war, 1965 spektakulär aus dem Gefängnis ausbrach und jahrzehntelang öffentlich unbehelligt in Rio de Janeiro lebte – Legendenbildung statt Reue; Boris Becker, dessen Ruhm als dreifacher Wimbledon-Sieger zum Fundament eines Selbstbildes wurde, das eigene finanzielle Grenzen verleugnete, bis eine Verurteilung wegen Insolvenzvergehen 2022 diese Fassade einholte; Sean ›P. Diddy‹ Combs, bei dem jahrzehntelange Macht in der Musikindustrie zum Deckmantel für ein System sexueller Gewalt wurde, das erst 2025 mit seiner Verurteilung öffentlich sichtbar wurde – ein Extremfall, in dem dieselbe Grenzenlosigkeit, die bei anderen Fällen dieses Subtyps kreative oder abenteuerliche Formen annahm, sich gegen andere Menschen richtete."
+        beleg: "Clyde Barrow und Bonnie Parker lebten ihre gemeinsame Verbrecherlaufbahn in einer rastlosen, medienwirksamen Flucht quer durch die USA; Victor Lustig verkaufte notorisch charmant und mit hohem Tempo den Eiffelturm gleich zweimal an ahnungslose Käufer.; Ronnie Biggs, der am Großen Postraub 1963 beteiligt war, 1965 spektakulär aus dem Gefängnis ausbrach und jahrzehntelang öffentlich unbehelligt in Rio de Janeiro lebte – Legendenbildung statt Reue; Boris Becker, dessen Ruhm als dreifacher Wimbledon-Sieger zum Fundament eines Selbstbildes wurde, das eigene finanzielle Grenzen verleugnete, bis eine Verurteilung wegen Insolvenzvergehen 2022 diese Fassade einholte; Sean ›P. Diddy‹ Combs, bei dem jahrzehntelange Macht in der Musikindustrie zum Deckmantel für ein System sexueller Gewalt wurde, das erst 2025 mit seiner Verurteilung öffentlich sichtbar wurde – ein Extremfall, in dem dieselbe Grenzenlosigkeit, die bei anderen Fällen dieses Subtyps kreative oder abenteuerliche Formen annahm, sich gegen andere Menschen richtete; Gudrun Ensslin, Pfarrerstochter und glänzende Studentin, warf innerhalb weniger Monate ihr gesamtes bisheriges Leben – Partner, Sohn, akademische Laufbahn – ab, um sich vollständig mit Andreas Baader und dem bewaffneten Kampf zu verschmelzen; Aileen Wuornos stellte die Intensität ihrer einzigen Beziehung zu Tyria Moore über ihr eigenes Leben und lebte die radikale Freiheit eines Daseins als Anhalterin, bevor genau diese Freiheit tödlich wurde."
       }
     ]
   },
@@ -47128,7 +47133,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Reichtum und persönliche Dominanz als Mittel der Kontrolle über andere",
         beschreibung: "Bei bislang zwei Fällen wird sichtbar, wie finanzielle Macht und persönliche Durchsetzungskraft eingesetzt wurden, um in sehr engen, ungleichen Machtverhältnissen andere Menschen zu kontrollieren und auszubeuten.",
-        beleg: "Jeffrey Epstein nutzte seinen Reichtum und seine gesellschaftlichen Verbindungen über Jahre systematisch zur Ausbeutung Minderjähriger."
+        beleg: "Jeffrey Epstein nutzte seinen Reichtum und seine gesellschaftlichen Verbindungen über Jahre systematisch zur Ausbeutung Minderjähriger; John McAfee lebte auf seinem Anwesen in Belize, das er selbst ›sein Königreich‹ nannte, umgeben von bewaffneten Leibwächtern – Reichtum, den er unmittelbar in persönliche Dominanz über sein Umfeld übersetzte."
       }
     ]
   },
@@ -47140,7 +47145,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Langes Vermeiden oder passives Verdrängen vor der eigentlichen Zuspitzung",
         beschreibung: "Bei bislang zwei Fällen zeigt sich eine lange Phase des Wegschauens oder passiven Verdrängens eines eigentlich erkennbaren Problems, bevor sich die Situation zuspitzte.",
-        beleg: "Alfons Schuhbeck vermied über Jahre die aktive Auseinandersetzung mit den steuerlichen Unregelmäßigkeiten seines Firmenimperiums, bis diese unübersehbar wurden."
+        beleg: "Alfons Schuhbeck vermied über Jahre die aktive Auseinandersetzung mit den steuerlichen Unregelmäßigkeiten seines Firmenimperiums, bis diese unübersehbar wurden; John Hinckley Jr. verfolgte über Jahre in wahnhaftem, aber nach außen unauffälligem Rückzug eine fixe Idee, bevor sich diese binnen weniger Sekunden in einen der folgenreichsten politischen Gewaltausbrüche der jüngeren US-Geschichte entlud."
       }
     ]
   },
@@ -47164,7 +47169,7 @@ const KRIMINALMUSTERKOMPASS = {
       {
         titel: "Tiefe Verschmelzung der eigenen Identität mit einer anderen Person oder einem fremden Stil",
         beschreibung: "Bei bislang zwei Fällen zeigt sich eine außergewöhnlich tiefe Verschmelzung der eigenen Identität mit einer fremden Vorlage – bis zur fast völligen Auflösung der eigenen Person darin.",
-        beleg: "Wolfgang Beltracchi fälschte über Jahrzehnte Werke bekannter Künstler mit einer stilistischen Verschmelzung, die selbst Experten täuschte."
+        beleg: "Wolfgang Beltracchi fälschte über Jahrzehnte Werke bekannter Künstler mit einer stilistischen Verschmelzung, die selbst Experten täuschte; Ed Gein öffnete nach dem Tod seiner extrem dominanten Mutter über Jahre Gräber älterer Frauen, um aus ihren Überresten buchstäblich in deren Identität ›hineinzuschlüpfen‹ – dieselbe Verschmelzungslogik wie bei Beltracchi, hier nicht mit dem Stil toter Meister, sondern mit dem Körper der toten Mutter, bis zur tödlichen Psychose entgleist."
       }
     ]
   }
