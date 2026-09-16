@@ -46524,7 +46524,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Weiterarbeiten in der eigenen Verantwortung, auch wenn die Erkrankung nicht mehr verborgen werden kann",
         beschreibung: "Wo sich eine Erkrankung nicht mehr geheim halten lässt, zeigt die selbsterhaltende Acht eine verwandte Variante desselben Musters: Statt sich zurückzuziehen, wird die eigene Aufgabe möglichst unverändert fortgeführt, auch wenn der Körper längst deutliche Grenzen setzt.",
-        beleg: "Galarrwuy Yunupingu, der nach einer Nierentransplantation und einer Beinamputation 2017 nicht aus seiner Rolle als Landrechte-Führer zurücktrat, sondern bis in seine letzten Lebensjahre politisch eingebunden blieb, während die eigene Krankheit öffentlich bekannt war."
+        beleg: "Galarrwuy Yunupingu, der nach einer Nierentransplantation und einer Beinamputation 2017 nicht aus seiner Rolle als Landrechte-Führer zurücktrat, sondern bis in seine letzten Lebensjahre politisch eingebunden blieb, während die eigene Krankheit öffentlich bekannt war; Salvatore Riina, dessen mehrjähriger gesundheitlicher Verfall in Hochsicherheitshaft ihn nicht zu Reue oder öffentlicher Schwäche brachte – wiederholt abgelehnte Anträge auf Haftverschonung, ein Tod 2017 im Krankenhausflügel des Gefängnisses."
       }
     ]
   },
@@ -46536,7 +46536,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Chronische körperliche Leiden, die selten zum Rückzug aus der Verantwortung führen",
         beschreibung: "Bei der sozialen Acht treten mehrfach langwierige, körperlich belastende chronische Beschwerden auf, die jedoch selten dazu führen, dass die jeweilige Führungsrolle oder öffentliche Funktion vorzeitig aufgegeben wird.",
-        beleg: "Karl Marx, der über Jahre chronische, schwere Furunkel und Karbunkel neben Bronchitis, Leberbeschwerden und Rheuma ertrug, ohne seine Arbeit am ›Kapital‹ aufzugeben; Fritz Perls mit jahrelangem Herzleiden und Kettenrauchen bis zur Bauchspeicheldrüsenkrebs-Diagnose."
+        beleg: "Karl Marx, der über Jahre chronische, schwere Furunkel und Karbunkel neben Bronchitis, Leberbeschwerden und Rheuma ertrug, ohne seine Arbeit am ›Kapital‹ aufzugeben; Fritz Perls mit jahrelangem Herzleiden und Kettenrauchen bis zur Bauchspeicheldrüsenkrebs-Diagnose; John Gotti, der seine 1998 in Isolationshaft diagnostizierte Kehlkopfkrebs-Erkrankung ohne jedes öffentliche Eingeständnis von Schwäche bekämpfte, bis er 2002 in Bundeshaft starb."
       }
     ]
   },
@@ -46548,12 +46548,12 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Amt oder Position werden trotz schwerer, wiederholter Erkrankung nicht aufgegeben",
         beschreibung: "Die sexuelle Acht zeigt bei mehreren Fällen eine bemerkenswerte Weigerung, die eigene Position wegen einer Krankheit – selbst bei mehrfachem Wiederauftreten – vorzeitig zu räumen.",
-        beleg: "Ruth Bader Ginsburg, die über zwei Jahrzehnte hinweg vier Krebserkrankungen an drei unterschiedlichen Organen durchlebte und dabei durchgehend als Richterin am US-Supreme-Court im Amt blieb; John Wayne, der 1964 Lungenkrebs und 1979 schließlich tödlichen Magenkrebs erlitt, zwischen beiden Diagnosen aber weiter Filme drehte."
+        beleg: "Ruth Bader Ginsburg, die über zwei Jahrzehnte hinweg vier Krebserkrankungen an drei unterschiedlichen Organen durchlebte und dabei durchgehend als Richterin am US-Supreme-Court im Amt blieb; John Wayne, der 1964 Lungenkrebs und 1979 schließlich tödlichen Magenkrebs erlitt, zwischen beiden Diagnosen aber weiter Filme drehte; Giacomo Puccini, der mitten in der Arbeit an seiner letzten Oper ›Turandot‹ 1924 mit Kehlkopfkrebs diagnostiziert wurde und sich einer radikalen Radiumbehandlung unterzog, statt die Arbeit ruhen zu lassen – er starb an einer Komplikation der Behandlung, das Werk blieb unvollendet."
       },
       {
         titel: "Selbstzerstörerische Flucht nach vorn statt Schonung",
         beschreibung: "Ein zweites Muster zeigt keine Weigerung, ein Amt aufzugeben, sondern eine grundsätzliche Weigerung, sich der eigenen Krankheit durch Rückzug oder ärztliche Fürsorge zu beugen – stattdessen wird die eigene Autonomie durch immer weitere Flucht nach vorn verteidigt.",
-        beleg: "Paul Gauguin, der trotz fortschreitender Syphilis und offener Beinwunden auf die noch entlegeneren Marquesas-Inseln zog, statt sich in Europa medizinisch behandeln zu lassen, und kurz nach einem Suizidversuch eines seiner bedeutendsten Werke vollendete."
+        beleg: "Paul Gauguin, der trotz fortschreitender Syphilis und offener Beinwunden auf die noch entlegeneren Marquesas-Inseln zog, statt sich in Europa medizinisch behandeln zu lassen, und kurz nach einem Suizidversuch eines seiner bedeutendsten Werke vollendete; Genesis P-Orridge, der über Jahre mit einer Leukämie-Erkrankung lebte und bis kurz vor dem Tod im März 2020 künstlerisch aktiv blieb, statt sich zurückzuziehen."
       }
     ]
   },
@@ -46565,7 +46565,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Langsam fortschreitende Leiden, die lange kaum öffentlich thematisiert werden",
         beschreibung: "Bei der selbsterhaltenden Neun verläuft die Erkrankung häufig sehr langsam über Jahre und bleibt dabei erstaunlich lange im Hintergrund des öffentlichen Lebens, bevor sie unübersehbar wird.",
-        beleg: "James Levine, dessen Parkinson-Erkrankung sich über Jahrzehnte hinweg fortschreitend entwickelte, begleitet von schweren Rückenverletzungen; David Hume mit einer chronischen Darmerkrankung, die stetig über gut vier Jahre fortschritt, ohne dass eine eindeutige Diagnose je gestellt wurde; Johannes Brahms, der an derselben Leberkrebserkrankung starb wie zuvor bereits sein Vater; Margaret Rutherford, deren lebenslange schwere Depression fast vollständig hinter ihrer warmherzigen Bühnenpersona verborgen blieb, bevor eine fortschreitende Demenz in ihrem letzten Lebensjahrzehnt hinzutrat."
+        beleg: "James Levine, dessen Parkinson-Erkrankung sich über Jahrzehnte hinweg fortschreitend entwickelte, begleitet von schweren Rückenverletzungen; David Hume mit einer chronischen Darmerkrankung, die stetig über gut vier Jahre fortschritt, ohne dass eine eindeutige Diagnose je gestellt wurde; Johannes Brahms, der an derselben Leberkrebserkrankung starb wie zuvor bereits sein Vater; Margaret Rutherford, deren lebenslange schwere Depression fast vollständig hinter ihrer warmherzigen Bühnenpersona verborgen blieb, bevor eine fortschreitende Demenz in ihrem letzten Lebensjahrzehnt hinzutrat; Hans-Dietrich Genscher mit einem über Jahre bestehenden, öffentlich kaum thematisierten Herzleiden, an dessen Folgen er 2016 starb."
       }
     ]
   },
@@ -46577,7 +46577,7 @@ const KRANKHEITSMUSTERKOMPASS = {
       {
         titel: "Erkrankungen, die Gedächtnis und Identität selbst betreffen",
         beschreibung: "Bei der sozialen Neun fällt eine bemerkenswerte Häufung von Erkrankungen auf, die direkt Gedächtnis oder Identität angreifen – ein auffälliges Echo des Grundthemas dieses Subtyps, der eigenen Neigung, sich selbst zugunsten der Gemeinschaft zurückzustellen.",
-        beleg: "Ronald Reagan und Peter Falk, die beide an Alzheimer erkrankten – bei Falk begleitet von einem öffentlichen Sorgerechtsstreit um seine Pflege; Julian Assange, bei dem über sieben Jahre Isolation dokumentierte körperliche und psychische Folgen nach sich zogen; Willy Brandt mit wiederkehrenden schweren depressiven Episoden."
+        beleg: "Ronald Reagan und Peter Falk, die beide an Alzheimer erkrankten – bei Falk begleitet von einem öffentlichen Sorgerechtsstreit um seine Pflege; Julian Assange, bei dem über sieben Jahre Isolation dokumentierte körperliche und psychische Folgen nach sich zogen; Willy Brandt mit wiederkehrenden schweren depressiven Episoden; Wilma Mankiller, die über drei Jahrzehnte mit einer polyzystischen Nierenerkrankung lebte, zwei Nierentransplantationen, ein Lymphom und Brustkrebs überstand, bevor sie 2010 an Bauchspeicheldrüsenkrebs starb – ein Körper, der über Jahrzehnte hinweg immer wieder zurückgestellt wurde."
       }
     ]
   },
