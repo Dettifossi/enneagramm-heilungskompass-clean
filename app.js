@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage, gescheGottfriedPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=130";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=131";
 
 import { adeleKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15908,6 +15908,7 @@ const uiText = {
       { route: "blickqualitaeten-atlas", label: "Blickqualitäten-Atlas (27 Subtypen)" },
       { route: "enneagramm-memory", label: "Enneagramm-Memory (Merkspiel, 3 Stufen)" },
       { route: "enneagramm-flashcards", label: "Enneagramm-Flashcards (Typ & Subtyp erraten)" },
+      { route: "subtyp-comicquiz", label: "Comicfiguren-Quiz (27 Subtypen erraten)" },
       { route: "tierlexikon", label: "Tierlexikon" },
       { route: "tierforscher-uebereinstimmung", label: "Tierforscher-Übereinstimmung" },
       { route: "bewusstseinsgrad-normalverteilung", label: "Bewusstseinsgrad & Gaußsche Normalverteilungskurve" },
@@ -45131,6 +45132,225 @@ function enneagrammFlashcardsPage() {
   if (_flashState.phase === "loading") return _flashLoadingScreen();
   if (_flashState.phase === "gameOver") return _flashGameOverScreen();
   return _flashQuestionScreen();
+}
+
+// ---------------------------------------------------------------------------
+// Comicfiguren-Quiz: Multiple-Choice-Ratespiel mit den 27 Subtyp-Karikaturen
+// (Illustrationen: Tessa Fabritz). Zwei Stufen: Grundtyp (1–9) oder voller
+// Subtyp (SE1…SX9). Wiederverwendet die visuelle Sprache der Flashcards.
+// ---------------------------------------------------------------------------
+
+const CQUIZ_TOTAL_ROUNDS = 10;
+const CQUIZ_LEVEL_META = {
+  1: { label: "Comicfiguren-Quiz I", sub: "Anfänger · nur der Grundtyp zählt",
+       rule: "Sie sehen eine Subtyp-Karikatur und vier Antwortmöglichkeiten, jede ein <strong>Grundtyp (1&ndash;9)</strong>. Gefragt ist nur der Grundtyp &ndash; die Instinktvariante (SE/SO/SX) spielt keine Rolle." },
+  2: { label: "Comicfiguren-Quiz II", sub: "Experten · voller Subtyp (Instinkt+Typ)",
+       rule: "Sie sehen eine Subtyp-Karikatur und vier Antwortmöglichkeiten, jede ein <strong>voller Subtyp</strong> (z. B. SO4). Gefragt ist die exakte Kombination aus Instinktvariante und Typ." },
+};
+
+let _cquizState = null;
+let _cquizLastLevel = 1;
+
+function _cquizBestKey(level) { return "kompass:cquizBest:" + level; }
+function _cquizSaveBest(level, score) {
+  try {
+    const prev = parseInt(localStorage.getItem(_cquizBestKey(level)) || "0", 10);
+    if (score > prev) localStorage.setItem(_cquizBestKey(level), String(score));
+  } catch (e) {}
+}
+function _cquizGetBest(level) {
+  try { return parseInt(localStorage.getItem(_cquizBestKey(level)) || "0", 10); } catch (e) { return 0; }
+}
+function _cquizRerender() {
+  if (location.hash === "#subtyp-comicquiz") { render(); } else { location.hash = "subtyp-comicquiz"; }
+}
+function _cquizShuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+
+function _cquizPickQuestion(level, usedCodes) {
+  const pool = SUBTYP_COMIC.filter(s => !usedCodes.has(s.code));
+  const source = pool.length ? pool : SUBTYP_COMIC;
+  const item = _cquizShuffle(source)[0];
+  const correctKey = level === 1 ? item.code.slice(2) : item.code;
+  let distractPool;
+  if (level === 1) {
+    distractPool = ["1","2","3","4","5","6","7","8","9"].filter(n => n !== correctKey);
+  } else {
+    distractPool = SUBTYP_COMIC.map(s => s.code).filter(c => c !== correctKey);
+  }
+  const distractors = _cquizShuffle(distractPool).slice(0, 3);
+  const options = _cquizShuffle([correctKey, ...distractors]);
+  return { item, correctKey, options };
+}
+
+function _cquizNextRound() {
+  const st = _cquizState;
+  if (!st) return;
+  st.round += 1;
+  if (st.round > CQUIZ_TOTAL_ROUNDS) {
+    st.phase = "gameOver";
+    _cquizSaveBest(st.level, st.score);
+    _cquizRerender();
+    return;
+  }
+  const q = _cquizPickQuestion(st.level, st.usedCodes);
+  st.usedCodes.add(q.item.code);
+  st.question = q;
+  st.answered = false;
+  st.selectedKey = null;
+  st.phase = "question";
+  _cquizRerender();
+}
+
+window._cquizStart = function (level) {
+  const lvl = CQUIZ_LEVEL_META[level] ? level : 1;
+  _cquizLastLevel = lvl;
+  _cquizState = { level: lvl, phase: "question", round: 0, score: 0, question: null, answered: false, selectedKey: null, usedCodes: new Set() };
+  _cquizNextRound();
+};
+window._cquizSwitchLevel = function (level) {
+  const lvl = CQUIZ_LEVEL_META[level] ? level : 1;
+  _cquizLastLevel = lvl;
+  _cquizState = null;
+  _cquizRerender();
+};
+window._cquizAnswer = function (key) {
+  const st = _cquizState;
+  if (!st || st.phase !== "question" || st.answered) return;
+  st.answered = true;
+  st.selectedKey = key;
+  if (key === st.question.correctKey) st.score += 1;
+  _cquizRerender();
+};
+window._cquizNextRound = function () { _cquizNextRound(); };
+window._cquizRestart = function () {
+  const lvl = _cquizState ? _cquizState.level : 1;
+  window._cquizStart(lvl);
+};
+
+function _cquizLevelSwitcher(currentLevel) {
+  const items = [1,2].map(l => {
+    const active = l === currentLevel;
+    return active
+      ? `<span class="mem-level-pill mem-level-pill--active">${l===1?"I":"II"}</span>`
+      : `<a href="javascript:void(0)" class="mem-level-pill" onclick="window._cquizSwitchLevel(${l})">${l===1?"I":"II"}</a>`;
+  }).join("");
+  return `<div class="mem-level-switcher"><span class="mem-level-switcher-label">Stufe:</span>${items}</div>`;
+}
+
+function _cquizKeyLabel(key, level) {
+  return level === 1 ? "Typ " + key : key;
+}
+
+function _cquizIntroScreen(level) {
+  const meta = CQUIZ_LEVEL_META[level];
+  const best = _cquizGetBest(level);
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; ${meta.label}</p>
+        <h1 class="section-title">${meta.label}</h1>
+        ${_cquizLevelSwitcher(level)}
+        <p class="psycho-intro">Eine Subtyp-Karikatur, vier Antwortmöglichkeiten &ndash; sofortiges Feedback, 10 Fragen pro Runde. Illustrationen: Tessa Fabritz.</p>
+        <div class="flash-rule-box">
+          <p class="flash-rule-box-label">Wonach wird in dieser Stufe gefragt?</p>
+          <p style="margin:0;">${meta.rule}</p>
+        </div>
+        ${best > 0 ? `<p style="text-align:center;color:var(--muted);font-size:0.9rem;margin-bottom:1.2rem;">Ihre Bestleistung in dieser Stufe: <strong style="color:var(--ink);">${best}/${CQUIZ_TOTAL_ROUNDS}</strong></p>` : ""}
+        <div style="text-align:center;">
+          <button class="flash-btn" onclick="window._cquizStart(${level})">Quiz starten &rarr;</button>
+        </div>
+      </div>
+      ${_flashStyles()}
+    </div>
+  `);
+}
+
+function _cquizQuestionScreen() {
+  const st = _cquizState;
+  const meta = CQUIZ_LEVEL_META[st.level];
+  const q = st.question;
+  const optionsHtml = q.options.map(key => {
+    const display = _cquizKeyLabel(key, st.level);
+    let cls = "flash-opt";
+    let disabled = st.answered ? "disabled" : "";
+    if (st.answered) {
+      if (key === q.correctKey) cls += " flash-opt--correct";
+      else if (key === st.selectedKey) cls += " flash-opt--wrong";
+    }
+    const onclick = st.answered ? "" : ` onclick="window._cquizAnswer('${key}')"`;
+    return `<button class="${cls}" ${disabled}${onclick}>${display}</button>`;
+  }).join("");
+
+  let feedback = "";
+  if (st.answered) {
+    const correct = st.selectedKey === q.correctKey;
+    const isLast = st.round >= CQUIZ_TOTAL_ROUNDS;
+    feedback = `
+      <div class="flash-feedback">
+        <p><strong>${correct ? "Richtig!" : "Leider falsch."}</strong></p>
+        <div class="flash-name-reveal">${q.item.label} (${q.item.code})<br><span style="color:var(--muted);font-size:0.85rem;">${q.item.text}</span></div>
+        <button class="flash-btn" onclick="window._cquizNextRound()">${isLast ? "Endergebnis &rarr;" : "Nächste Frage &rarr;"}</button>
+      </div>
+    `;
+  }
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; ${meta.label}</p>
+        <h1 class="section-title">${meta.label}</h1>
+        ${_cquizLevelSwitcher(st.level)}
+        <div class="flash-hud">
+          <span>Frage <strong>${st.round}</strong> / ${CQUIZ_TOTAL_ROUNDS}</span>
+          <span>Punkte: <strong>${st.score}</strong></span>
+        </div>
+        <div class="flash-photo-wrap" style="aspect-ratio:3/4;"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/subtyp-comic/${q.item.code.toLowerCase()}.jpg" alt="" /></div>
+        <p style="text-align:center;color:var(--muted);font-size:0.85rem;">${st.level === 1 ? "Welcher Grundtyp ist das?" : "Welcher Subtyp ist das?"}</p>
+        <div class="flash-options">${optionsHtml}</div>
+        ${feedback}
+      </div>
+      ${_flashStyles()}
+    </div>
+  `);
+}
+
+function _cquizGameOverScreen() {
+  const st = _cquizState;
+  const meta = CQUIZ_LEVEL_META[st.level];
+  const best = _cquizGetBest(st.level);
+  const pct = Math.round((st.score / CQUIZ_TOTAL_ROUNDS) * 100);
+  let msg;
+  if (pct >= 90) msg = "Außergewöhnlich &ndash; Sie erkennen die 27 Subtypen auf einen Blick!";
+  else if (pct >= 70) msg = "Sehr gut! Die Karikaturen prägen sich bei Ihnen schon deutlich ein.";
+  else if (pct >= 40) msg = "Solide Runde &ndash; mit mehr Übung wird der Blick noch sicherer.";
+  else msg = "Ein Anfang &ndash; das Zuordnen braucht Übung. Nochmal versuchen?";
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content" style="text-align:center;">
+        <p class="eyebrow">Wissen &middot; ${meta.label}</p>
+        <h1 class="section-title">${st.score} von ${CQUIZ_TOTAL_ROUNDS} richtig</h1>
+        ${_cquizLevelSwitcher(st.level)}
+        <p style="color:var(--muted);margin:0 0 0.8rem;">${pct}&thinsp;%</p>
+        <p style="max-width:420px;margin:0 auto 1rem;">${msg}</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin-bottom:2rem;">Bestleistung in dieser Stufe: <strong style="color:var(--ink);">${best}/${CQUIZ_TOTAL_ROUNDS}</strong></p>
+        <button class="flash-btn" onclick="window._cquizRestart()">Neue Runde &rarr;</button>
+      </div>
+      ${_flashStyles()}
+    </div>
+  `);
+}
+
+function subtypComicQuizPage() {
+  if (!_cquizState) return _cquizIntroScreen(_cquizLastLevel);
+  if (_cquizState.phase === "gameOver") return _cquizGameOverScreen();
+  return _cquizQuestionScreen();
 }
 
 function blickqualitaetenAtlasPage() {
@@ -76917,6 +77137,7 @@ const ROUTES = {
     "enneagramm-memory-2": enneagrammMemoryPage,
     "enneagramm-memory-3": enneagrammMemoryPage,
     "enneagramm-flashcards": enneagrammFlashcardsPage,
+    "subtyp-comicquiz": subtypComicQuizPage,
     "enneagramm-memory": enneagrammMemoryPage,
     "tierlexikon": tierlexikonPage,
     "lebensmusterkompass": lebensmusterkompassPage,

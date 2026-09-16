@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2323", date: "2026-09-16", text: "Neues Lernspiel: Comicfiguren-Quiz – Grundtyp oder vollen Subtyp anhand der Karikatur erraten, 2 Schwierigkeitsstufen.", text_en: "New learning game: Comic Character Quiz – guess the base type or full subtype from the caricature, 2 difficulty levels.", route: "subtyp-comicquiz" },
     { version: "v2322", date: "2026-09-16", text: "Subtyp-Detailseiten: Jede der 27 Seiten endet jetzt mit einer Karikatur des jeweiligen Subtyps.", text_en: "Subtype detail pages: each of the 27 pages now ends with a caricature of that subtype.", route: "subtype/se1" },
     { version: "v2321", date: "2026-09-16", text: "Neues Schaubild: Die 27 Subtypen als Comicfiguren – karikaturhafte Illustrationen aller Enneagramm-Subtypen zum Anklicken.", text_en: "New diagram: The 27 Subtypes as Comic Characters – cartoon-style illustrations of all Enneagram subtypes, click through to explore.", route: "subtyp-comicfiguren" },
     { version: "v2320", date: "2026-09-16", text: "Neues Porträt: Josh Safdie (SO7w6) – Regisseur, Autor und Produzent (Good Time, Uncut Gems, Marty Supreme), Bruder von Benny Safdie.", text_en: "New portrait: Josh Safdie (SO7w6) – director, writer, and producer (Good Time, Uncut Gems, Marty Supreme), brother of Benny Safdie.", route: "beruehmte-josh-safdie" },
