@@ -2118,3 +2118,69 @@ export function anneWillPortraitPage() {
     </div>
   `);
 }
+
+export function bennySafdiePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-benny-safdie-portrait.jpg" alt="Benny Safdie" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Benny Safdie</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-Wing</p>
+        <p class="krim-portrait-subtitle">American director, writer, and actor, b. 1986 &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Armadillo Behind the Camera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four: a hard, reserved shell on the outside, covering an unusually fine sensitivity to what others overlook. Benny Safdie, born in 1986 in New York, became known together with his older brother Josh as one half of the "Safdie Brothers" &ndash; with films such as ›Good Time‹ (2017) and ›Uncut Gems‹ (2019), famous for their restless, almost unbearably dense nervous energy. Behind that sensory overload, however, stands a director who never pushes himself into the foreground, and whose real talent lies in the quiet, almost scientific precision with which he observes detail.</p>
+          <p class="vb-intro">Safdie originally intended to become a physicist before turning to film &ndash; an early inclination toward analytically penetrating the world that still shows in how he works today.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: Radical Empathy for the Overlooked</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo describes the social Four through the theme of <em>shame</em>: a deep sense of being fundamentally different, paired with a sharpened eye for everyone who falls outside society's mainstream. Safdie himself names exactly this theme as the core of his work: "Winning is a fleeting thing, but loss is where humanity is." His films &ndash; from Lenny Cooke to MMA fighter Mark Kerr in ›The Smashing Machine‹ (2025) &ndash; almost consistently deal with people who narrowly missed a historical moment that could have changed their lives.</p>
+          <p class="vb-intro">About Kerr, who after his career worked unrecognized at a car dealership, Safdie said: "That could be anyone." He himself calls this stance "an exercise in radical empathy" &ndash; the social Four doesn't seek confirmation for itself in the spotlight, but recognizes itself in those who have fallen out of it, and makes their story visible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Technical Precision Instead of the Grand Gesture</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing</strong> shows up in Safdie as an almost scientific obsession with detail that is never put on display for its own sake. For ›The Smashing Machine‹, he insisted on a very specific eyebrow shape for Dwayne Johnson's makeup and sent makeup designer Kazu Hiro photos of his own eyebrows as reference &ndash; his reasoning: "I didn't want him to be hidden. I wanted it to be a conversation with Mark." An eight-and-a-half-minute argument scene he broke down into individual sections, structuring it much like a fight choreography &ndash; for him, emotional truth arises from the accumulation of small, precisely placed details, not from one grand dramatic gesture.</p>
+          <p class="vb-intro">The choice of 16mm film and the intensive work on sound design, which he himself describes as creating a kind of "virtual reality," follows the same logic: what matters is not the conspicuous assertion of his own artistic signature, but the withdrawn, almost invisible precision work that lets the audience experience a time and a person directly, without the director inserting himself in between.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Stepping Out of the Shared Shadow: Asserting an Identity of His Own</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">For over a decade, Benny Safdie was publicly inseparable from his brother Josh &ndash; shared directing, shared editing, a shared name. With ›The Smashing Machine‹ he directed alone for the first time in 2025, without Josh. Asked whether the change had been difficult, he answered that it "wasn't really an adjustment," since acting on his own had already given him "a level of independence." He described the split as "a natural progression of what we each want to explore": "I will direct on my own, and I will explore things that I want to explore. I want that freedom right now in my life."</p>
+          <p class="vb-intro">This is the social Four in its most constructive form: not a loud break, but the quiet, yet firm assertion of an independent artistic identity that had until then been hidden under a shared name &ndash; confirmed by the Silver Lion for Best Direction he received in Venice for this first solo outing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Four with a Five-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4w5 shows in Safdie's ability to recognize real inner depth behind seemingly invulnerable facades &ndash; about Dwayne Johnson, he said people "assume that he doesn't have an interior life," overlooking his difficult upbringing and emotional complexity. This ability to see vulnerability where no one expects it defines his work equally as director and as actor.</p>
+          <p class="vb-intro">The shadow lies in the flip side of that same obsession with detail: where the Five-wing places technical precision above all else, one's own emotional accessibility can disappear behind the work itself &ndash; Safdie remains conspicuously guarded in public about his private life, with almost only the finished work visible, hardly ever the person behind it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Precision as a Form of Empathy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Four leads from the shame <em>I am fundamentally different and flawed</em> to the insight <em>I am entirely normal, even in my distinctiveness.</em> Benny Safdie's work shows this path in a particular form: he doesn't make himself the center of his own otherness, but directs that same precise, compassionate attention toward others who likewise feel different and overlooked &ndash; and it is precisely there, after years in a shared shadow with his brother, that he finds his own, unmistakable voice.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-marcel-proust">Marcel Proust</a> (SO4w5) &ndash; in him, the same combination of withdrawn obsession with detail and the translation of the most precise observation into a work of great emotional depth shows up. More in the <a href="javascript:void(0)" data-route="beruehmte-marcel-proust">portrait of Marcel Proust</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5)"},
+        {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
+        {route:"beruehmte-leonard-cohen", label:"Portrait: Leonard Cohen (SO4w5)"},
+      ])}
+    </div>
+  `);
+}

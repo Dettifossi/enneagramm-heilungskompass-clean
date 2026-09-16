@@ -2070,3 +2070,69 @@ export function avrilLavignePortraitPage() {
     </div>
   `);
 }
+
+export function bennySafdiePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-benny-safdie-portrait.jpg" alt="Benny Safdie" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Benny Safdie</p>
+        <p class="krim-portrait-typ">SO4w5 · Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Regisseur, Autor und Schauspieler, geb. 1986 – Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Gürteltier hinter der Kamera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier: ein harter, zurückhaltender Panzer nach außen, darunter eine außergewöhnlich feine Empfindsamkeit für das, was andere übersehen. Benny Safdie, geboren 1986 in New York, wurde gemeinsam mit seinem älteren Bruder Josh als eine Hälfte der „Safdie Brothers" bekannt – mit Filmen wie ›Good Time‹ (2017) und ›Uncut Gems‹ (2019), die für ihre rastlose, fast unerträglich dichte Nervosität berühmt wurden. Hinter dieser Reizüberflutung steht jedoch ein Regisseur, der sich selbst nie in den Vordergrund drängt und dessen eigentliches Talent in der stillen, fast wissenschaftlichen Genauigkeit liegt, mit der er Details beobachtet.</p>
+          <p class="vb-intro">Ursprünglich wollte Safdie Physiker werden, bevor er sich dem Film zuwandte – eine frühe Neigung zur analytischen Durchdringung der Welt, die sich bis heute in seiner Arbeitsweise zeigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Radikale Empathie für die Übersehenen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo beschreibt die soziale Vier über das Thema <em>Scham</em>: das tiefe Gefühl, grundlegend anders zu sein, gepaart mit einem geschärften Blick für alle, die aus der gesellschaftlichen Mitte herausfallen. Safdie selbst benennt genau dieses Thema als Kern seiner Arbeit: „Gewinnen ist etwas Flüchtiges, aber im Verlieren liegt die Menschlichkeit." Seine Filme – von Lenny Cooke bis zu MMA-Kämpfer Mark Kerr in ›The Smashing Machine‹ (2025) – handeln fast durchgängig von Menschen, die einen historischen Moment knapp verpasst haben, der ihr Leben hätte verändern können.</p>
+          <p class="vb-intro">Über Kerr, der nach seiner Karriere unerkannt in einem Autohaus arbeitete, sagte Safdie: „Das könnte jeder sein." Diese Haltung nennt er selbst „eine Übung in radikaler Empathie" – die soziale Vier sucht nicht die eigene Bestätigung im Rampenlicht, sondern erkennt sich in denen wieder, die daraus herausgefallen sind, und macht ihre Geschichte sichtbar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Technische Präzision statt große Geste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> zeigt sich bei Safdie in einer fast wissenschaftlichen Detailbesessenheit, die nie um ihrer selbst willen zur Schau gestellt wird. Für ›The Smashing Machine‹ bestand er auf einer ganz bestimmten Augenbrauenform für Dwayne Johnsons Maske und schickte dem Maskenbildner Kazu Hiro dafür Fotos seiner eigenen Augenbrauen als Referenz – seine Begründung: „Ich wollte nicht, dass er versteckt wird. Ich wollte, dass es ein Gespräch mit Mark ist." Eine achteinhalbminütige Streitszene zerlegte er in einzelne Abschnitte, die er ähnlich strukturierte wie eine Kampfchoreografie – emotionale Wahrheit entsteht bei ihm aus der Anhäufung kleiner, exakt gesetzter Details, nicht aus einer großen dramatischen Geste.</p>
+          <p class="vb-intro">Auch die Wahl von 16-mm-Film und die intensive Arbeit am Sounddesign, die er selbst als Erzeugung einer „virtuellen Realität" beschreibt, folgt dieser Logik: Nicht die auffällige Behauptung der eigenen künstlerischen Handschrift steht im Vordergrund, sondern die zurückgezogene, fast unsichtbare Präzisionsarbeit, die es dem Publikum erlaubt, eine Zeit und einen Menschen unmittelbar zu erleben, ohne dass sich der Regisseur selbst dazwischenschiebt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Schritt aus dem gemeinsamen Schatten: eine eigene Identität behaupten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Über ein Jahrzehnt lang war Benny Safdie öffentlich untrennbar mit seinem Bruder Josh verbunden – gemeinsame Regie, gemeinsamer Schnitt, ein gemeinsamer Name. Mit ›The Smashing Machine‹ inszenierte er 2025 zum ersten Mal allein, ohne Josh. Auf die Frage, ob ihm die Umstellung schwergefallen sei, antwortete er, es sei „eigentlich keine große Umstellung" gewesen, da er durch seine Schauspielarbeit bereits eine „gewisse Unabhängigkeit" entwickelt habe. Die Trennung beschrieb er als „eine natürliche Weiterentwicklung dessen, was wir beide erkunden wollen": „Ich werde allein Regie führen und die Dinge erkunden, die ich erkunden möchte. Ich will diese Freiheit gerade jetzt in meinem Leben."</p>
+          <p class="vb-intro">Das ist die soziale Vier in ihrer konstruktivsten Form: nicht der laute Bruch, sondern die ruhige, aber bestimmte Behauptung einer eigenständigen künstlerischen Identität, die bislang unter einem gemeinsamen Namen verborgen war – bestätigt durch den Silbernen Löwen für die beste Regie in Venedig, den er für diesen ersten Alleingang erhielt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Vier mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4w5 zeigt sich in Safdies Fähigkeit, hinter vermeintlich unverletzlichen Fassaden echte innere Tiefe zu erkennen – über Dwayne Johnson sagte er, die Leute würden annehmen, „er habe kein Innenleben", und übersähen dabei dessen schwierige Kindheit und emotionale Komplexität. Diese Fähigkeit, Verletzlichkeit dort zu sehen, wo sie niemand vermutet, macht seine Arbeit als Regisseur wie als Schauspieler gleichermaßen aus.</p>
+          <p class="vb-intro">Der Schatten liegt in der Kehrseite derselben Detailversessenheit: Wo der Fünferflügel technische Präzision über alles stellt, kann die eigene emotionale Zugänglichkeit hinter der Arbeit selbst verschwinden – Safdie bleibt öffentlich auffällig zurückhaltend über sein Privatleben, sichtbar wird fast ausschließlich das fertige Werk, kaum die Person dahinter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Präzision als Form der Empathie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Scham <em>Ich bin fundamental anders und mangelhaft</em> zur Erkenntnis <em>Ich bin ganz normal, auch in meiner Besonderheit.</em> Benny Safdies Werk zeigt diesen Weg in einer besonderen Form: Er macht nicht sich selbst zum Zentrum der eigenen Andersartigkeit, sondern richtet dieselbe genaue, mitfühlende Aufmerksamkeit auf andere, die sich ebenfalls anders und übersehen fühlen – und findet gerade darin, nach Jahren im gemeinsamen Schatten mit seinem Bruder, zu seiner eigenen, unverwechselbaren Stimme.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-marcel-proust">Marcel Proust</a> (SO4w5) &ndash; bei ihm zeigt sich dieselbe Kombination aus zurückgezogener Detailversessenheit und der Übersetzung genauester Beobachtung in ein Werk von großer emotionaler Tiefe. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-marcel-proust">Porträt zu Marcel Proust</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-marcel-proust", label:"Porträt: Marcel Proust (SO4w5)"},
+        {route:"beruehmte-gustav-mahler", label:"Porträt: Gustav Mahler (SO4w5)"},
+        {route:"beruehmte-leonard-cohen", label:"Porträt: Leonard Cohen (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
