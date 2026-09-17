@@ -2093,3 +2093,62 @@ export function liseMeitnerPortraitPage() {
     </div>
   `);
 }
+
+export function audreyTautouPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-audrey-tautou-portrait.jpg" alt="Audrey Tautou – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Audrey Tautou</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1976 &ndash; ›Die fabelhafte Welt der Amélie‹ &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der den Weltruhm in Jeans erlebte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das nicht auf Sichtbarkeit angewiesen ist, um seine Fähigkeiten zu beweisen, sondern sein Können lieber im eigenen, geschützten Territorium einsetzt. Audrey Tautou, 1976 im mittelfranzösischen Beaumont geboren und in Montluçon aufgewachsen, kam eher zufällig zum Schauspiel: Nach dem Abitur besuchte sie einen Sommerkurs an der Pariser Schauspielschule Cours Florent, mehr aus Neugier als aus ernsthaftem Ehrgeiz, und studierte parallel Literaturwissenschaft an der Sorbonne.</p>
+          <p class="vb-intro">Bereits ihr erster Spielfilm, ›Venus Beauty Institute‹ (1999), brachte ihr den César als vielversprechendste Nachwuchsschauspielerin ein. Doch der eigentliche Ruhm kam 2001 mit ›Die fabelhafte Welt der Amélie‹ &ndash; über Nacht wurde sie zum international bekannten Gesicht des französischen Kinos. Was folgte, war jedoch kein Griff nach der großen Hollywood-Karriere, sondern das genaue Gegenteil.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Erfolg, der sich nicht in Ruhm übersetzen soll</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo beschrieb die selbsterhaltende Drei über das Thema <em>Sicherheit durch die eigene Tüchtigkeit</em>: Wert entsteht durch die konkrete, überprüfbare Leistung selbst, nicht durch das Ausmaß der öffentlichen Aufmerksamkeit, die sie erzeugt. Tautou selbst brachte das auf den Punkt: Sie sei niemand, der berühmt oder populär sein wolle, und deshalb habe sie sich nach ›Amélie‹ nie in Hollywood geworfen. Prominenz fühle sich für sie manchmal wie ein Gefängnis an &ndash; sie habe nie außerhalb der realen Welt mit echten Menschen leben wollen.</p>
+          <p class="vb-intro">Genau diese Haltung ist typisch für die SE3: Statt den Erfolg als Startpunkt für noch mehr Sichtbarkeit zu nutzen, kehrte Tautou nach den Dreharbeiten immer wieder zu Freunden und Familie in Frankreich zurück, mit der eigenen Begründung, Karriere sei nicht alles. In Interviews erscheint sie ungeschminkt, in Jeans und T-Shirt, mit entspanntem, unprätentiösem Ton &ndash; das genaue Gegenteil der Sternchen-Inszenierung, die ihr Ruhm eigentlich ermöglicht hätte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Rollen, die anderen Frauen etwas geben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> gibt der selbsterhaltenden Drei eine Qualität, die über reine Kompetenzsicherung hinausgeht: den Wunsch, mit der eigenen Arbeit tatsächlich für andere da zu sein, statt nur die eigene Position zu festigen. Bei Tautou zeigt sich das in ihrer bewussten Rollenwahl: Sie interessierten sich nicht für Figuren, die lediglich der männlichen Hauptfigur dienen, sondern für Frauen mit starkem eigenem Profil &ndash; ihre eigene Begründung, warum sie in klassischen Hollywood-Produktionen seltener zu sehen war, als es nach ›Amélie‹ zu erwarten gewesen wäre.</p>
+          <p class="vb-intro">Auch als Gesicht von Chanel No. 5 nutzte sie die große Bühne nicht, um die eigene Prominenz auszubauen, sondern blieb in der Rollenauswahl selektiv &ndash; lieber ein kleineres, aber bedeutungsvolleres Werk als die große, austauschbare Karriere. Der Zweierflügel zeigt sich hier als Fürsorge für die Qualität dessen, was sie in die Welt gibt, statt für die eigene Sichtbarkeit darin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 zeigt sich in Tautous Fähigkeit, einen der explosivsten Ruhmesmomente des europäischen Kinos zu erleben, ohne sich davon in eine ihr fremde Rolle drängen zu lassen. Statt das Momentum von ›Amélie‹ auszuschlachten, blieb sie ihrem eigenen Maßstab treu &ndash; ein seltenes Beispiel dafür, dass Erfolg und Bodenständigkeit sich nicht zwangsläufig ausschließen.</p>
+          <p class="vb-intro">Der Schatten der selbsterhaltenden Drei zeigt sich in der konsequenten Trennung zwischen öffentlicher Arbeit und privatem Schaffen: Tautou reist, fotografiert, schreibt und zeichnet, doch diese persönlichen Projekte hält sie bewusst zurück &ndash; sie fühle sich noch nicht in der Lage, sie anderen zu zeigen. Erst 2024, mit dem Buch ›Superfacial‹, einer künstlerischen Auseinandersetzung mit dem eigenen öffentlichen Bild, öffnete sie diesen geschützten Raum ein Stück weit. Das ist die Kehrseite der stillen Kompetenz: Was nicht öffentlich bewiesen werden muss, bleibt oft jahrelang unsichtbar, selbst wenn es längst existiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Waschbär, der sein eigenes Bild erst spät zeigte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Überzeugung <em>Ich bin nur wert, was ich sichtbar leiste</em> zur Erkenntnis <em>Ich bin wertvoll, auch wenn niemand zusieht.</em> Tautous eigener Weg zeigt eine reife Form dieses Musters: Sie musste ihre Kompetenz nicht ständig neu beweisen, sondern konnte sich nach dem Welterfolg von ›Amélie‹ erlauben, selektiv zu bleiben &ndash; und erst nach Jahrzehnten des Zurückhaltens einen Teil ihres privaten kreativen Schaffens mit der Öffentlichkeit zu teilen.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-penelope-cruz">Penélope Cruz</a> (SE3w2): Auch bei ihr zeigt sich dieselbe Kombination aus internationalem Erfolg und einer bewussten, fürsorglichen Zurückhaltung bei der eigenen öffentlichen Inszenierung. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-penelope-cruz">Porträt zu Penélope Cruz</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-penelope-cruz", label:"Porträt: Penélope Cruz (SE3w2)"},
+        {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+      ])}
+    </div>
+  `);
+}

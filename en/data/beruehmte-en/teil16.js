@@ -2098,3 +2098,62 @@ export function liseMeitnerPortraitPage() {
     </div>
   `);
 }
+
+export function audreyTautouPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-audrey-tautou-portrait.jpg" alt="Audrey Tautou" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Audrey Tautou</p>
+        <p class="krim-portrait-typ">SP3w2 · Self-Preservation Type 3 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">Actress, b. 1976 &ndash; "Amélie" &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon Who Met World Fame in Jeans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that doesn't depend on visibility to prove its abilities, but prefers to put its competence to use in its own, protected territory. Audrey Tautou, born in 1976 in Beaumont in central France and raised in Montluçon, came to acting almost by chance: after finishing school, she took a summer course at the Cours Florent acting school in Paris, more out of curiosity than serious ambition, while studying literature at the Sorbonne in parallel.</p>
+          <p class="vb-intro">Her very first feature film, "Venus Beauty Institute" (1999), already earned her the César for Most Promising Actress. But real fame came in 2001 with "Amélie" &ndash; overnight she became an internationally known face of French cinema. What followed, however, was not a reach for a major Hollywood career, but the exact opposite.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Success That Isn't Meant to Translate into Fame</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo described the self-preservation Three through the theme of <em>security through one's own competence</em>: worth arises from the concrete, verifiable achievement itself, not from the scale of public attention it generates. Tautou put it directly herself: she is not someone who wants to be famous or popular, which is why she never threw herself into Hollywood after "Amélie." Celebrity, she has said, sometimes feels like a prison &ndash; she never wanted to live outside the real world with real people.</p>
+          <p class="vb-intro">This is exactly the typical SE3 stance: instead of using her success as a launching pad for even more visibility, Tautou kept returning to friends and family in France, with her own reasoning that career is not everything. In interviews she appears without makeup, in jeans and a t-shirt, with a relaxed, unpretentious tone &ndash; the exact opposite of the starlet self-presentation her fame would have made possible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Roles That Give Other Women Something</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> gives the self-preservation Three a quality that goes beyond pure competence-securing: the wish to actually be there for others through her own work, rather than merely cementing her own position. In Tautou this shows in her deliberate choice of roles: she was not interested in characters who merely served the male lead, but in women with a strong profile of their own &ndash; her own explanation for why she appeared less often in classic Hollywood productions than might have been expected after "Amélie."</p>
+          <p class="vb-intro">Even as the face of Chanel No. 5, she didn't use the big stage to expand her own fame, but stayed selective in her choice of roles &ndash; preferring a smaller, more meaningful work over a large, interchangeable career. The Two-wing shows here as care for the quality of what she puts into the world, rather than for her own visibility within it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Three with a Two-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3w2 shows in Tautou's ability to live through one of the most explosive moments of fame in European cinema without letting it push her into a role foreign to her. Instead of exploiting the momentum of "Amélie," she stayed true to her own standard &ndash; a rare example of success and groundedness not necessarily excluding each other.</p>
+          <p class="vb-intro">The shadow of the self-preservation Three shows in the consistent separation between public work and private creation: Tautou travels, photographs, writes, and draws, but she deliberately holds these personal projects back &ndash; she has said she doesn't yet feel able to show them to others. Only in 2024, with the book "Superfacial," an artistic engagement with her own public image, did she open that protected space a little. That is the flip side of quiet competence: what doesn't have to be proven publicly often stays invisible for years, even when it has long existed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Raccoon Who Only Showed Its Own Image Late</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's healing path leads from the conviction <em>I am only worth what I visibly accomplish</em> to the insight <em>I am valuable, even when no one is watching.</em> Tautou's own path shows a mature form of this pattern: she didn't have to keep proving her competence over and over, but could allow herself to stay selective after the worldwide success of "Amélie" &ndash; and only after decades of holding back did she share part of her private creative work with the public.</p>
+          <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-penelope-cruz">Penélope Cruz</a> (SP3w2): she too shows the same combination of international success and a deliberate, caring restraint in her own public self-presentation. More in the <a href="javascript:void(0)" data-route="beruehmte-penelope-cruz">portrait of Penélope Cruz</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-penelope-cruz", label:"Portrait: Penélope Cruz (SP3w2)"},
+        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
+      ])}
+    </div>
+  `);
+}

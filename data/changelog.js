@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2334", date: "2026-09-17", text: "Neues Porträt: Audrey Tautou (SE3w2) – Schauspielerin, Weltruhm durch ›Die fabelhafte Welt der Amélie‹.", text_en: "New portrait: Audrey Tautou (SE3w2) – actress, worldwide fame through \"Amélie.\"", route: "beruehmte-audrey-tautou" },
     { version: "v2333", date: "2026-09-17", text: "Neues Porträt: Horst Lichter (SX7w6) – Koch und Moderator von ›Bares für Rares‹.", text_en: "New portrait: Horst Lichter (SX7w6) – chef and host of \"Bares für Rares.\"", route: "beruehmte-horst-lichter" },
     { version: "v2332", date: "2026-09-17", text: "Neues Porträt: Indira Gandhi (SE3w4) – erste und bislang einzige Premierministerin Indiens, 1917–1984.", text_en: "New portrait: Indira Gandhi (SP3w4) – India's first and, to date, only female Prime Minister, 1917–1984.", route: "beruehmte-indira-gandhi" },
     { version: "v2331", date: "2026-09-17", text: "Neues Porträt: Kim Eng (SE3w2) – spirituelle Lehrerin, Begründerin von ›Presence Through Movement‹, Lebens- und Arbeitspartnerin von Eckhart Tolle.", text_en: "New portrait: Kim Eng (SE3w2) – spiritual teacher, founder of \"Presence Through Movement,\" Eckhart Tolle's life and work partner.", route: "beruehmte-kim-eng" },
