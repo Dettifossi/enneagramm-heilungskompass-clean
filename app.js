@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage, gescheGottfriedPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=134";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=135";
 
 import { adeleKrankheitsportraetPage, arnoldSchwarzeneggerKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15944,6 +15944,7 @@ const uiText = {
       { route: "antriebskraefte", label: "Antriebskr\xe4fte der Menschheit" },
       { route: "dynamik-der-fluegelenergien", label: "Die Dynamik der Fl\xfcgelenergien" },
       { route: "hilfreiche-hinweise-9-typen", label: "Hilfreiche Hinweise f\xfcr die 9 Typen" },
+      { route: "montagmorgen-gedanken-9-typen", label: "„Montagmorgen-Gedanken“ der 9 Typen" },
       { route: "aufmerksamkeitsfokus", label: "Aufmerksamkeitsfokus & Blindheit" },
       { route: "basisemotionen", label: "Basisemotionen" },
       { route: "enneagramm-emotionalitaet", label: "Enneagramm und Emotionalit\u00e4t" },
@@ -33480,9 +33481,10 @@ const SCHAUBILDER_NEU = {
   "enneagramm-intellekt": "2026-08-08",
   "hoellenkreise-dante": "2026-08-14",
   "hilfreiche-hinweise-9-typen": "2026-09-17",
+  "montagmorgen-gedanken-9-typen": "2026-09-17",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -59751,6 +59753,49 @@ function dynamikDerFluegelenergienPage() {
   `);
 }
 
+function montagmorgenGedanken9TypenPage() {
+  return shell(`
+    ${pageHeader("montagmorgen-gedanken-9-typen")}
+    <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
+      <p class="eyebrow">Schaubilder · Innerer Monolog</p>
+      <h1 class="section-title">„Montagmorgen-Gedanken" der 9 Enneagrammtypen</h1>
+      <p class="psycho-intro">Derselbe Wochenanfang, neun vollkommen unterschiedliche innere Stimmen – ein Schaubild über den typspezifischen Kopfkino-Beginn in die neue Woche.</p>
+      <img
+        src="./assets/schaubilder/montagmorgen-gedanken-9-typen/montagmorgen-gedanken-9-typen.jpg"
+        alt="Montagmorgen-Gedanken der 9 Enneagrammtypen – innerer Monolog jedes Typs beim Aufwachen am Wochenanfang"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
+      />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Derselbe Moment, neun verschiedene Welten</h2>
+        <p class="vb-intro">Es gibt kaum einen Moment im Alltag, der so universell geteilt wird wie das Aufwachen am Montagmorgen – und kaum einen, an dem sich die neun Enneagrammtypen so unmittelbar unterscheiden lassen. Noch bevor der erste Kaffee getrunken, das erste Wort gesprochen ist, läuft bei jedem Typ bereits ein ganz eigener innerer Monolog ab. Das Schaubild macht genau diesen unsichtbaren Moment sichtbar: den ersten Gedankenstrom, der einen Menschen aus dem Schlaf in den Tag hinein begleitet.</p>
+        <p class="vb-intro">Der Reiz liegt darin, dass die äußere Situation für alle neun identisch ist – derselbe Wochentag, dieselbe Uhrzeit, derselbe Übergang vom Wochenende in den Alltag. Was sich unterscheidet, ist ausschließlich die innere Verarbeitung: die Fragen, die sich jeder Typ zuerst stellt, die Sorgen, die zuerst auftauchen, oder die Leichtigkeit, mit der manche Typen den Tag begrüßen.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die neun inneren Monologe im Überblick</h2>
+        <p class="vb-intro">Der <strong>Einser</strong> beginnt den Tag bereits mit einer Kette von Pflichten: „Zuerst muss ich …, dann muss ich sicherstellen, dass …, dann muss ich dafür sorgen, dass …" – der Kopf ist schon voll organisiert, bevor der Körper überhaupt aufgestanden ist. Der <strong>Zweier</strong> denkt zuerst an andere Menschen und daran, ob er ihnen gerecht wird: „Es ist so lange her, dass ich … angerufen habe, bin ich deshalb ein schlechter Mensch?" Der <strong>Dreier</strong> fragt sich sofort nach dem Tagesziel und der effizientesten Route dorthin: „Was muss ich heute tun, um zu sein, wer ich sein möchte?" Der <strong>Vierer</strong> sucht zuerst die passende Stimmung für den Tag: „Welche Musik bringt mich heute morgen in die richtige Stimmung?"</p>
+        <p class="vb-intro">Der <strong>Fünfer</strong> rechnet bereits im Halbschlaf mit der eigenen Zeit und Energie: „Wenn ich das Haus rechtzeitig verlasse, habe ich vielleicht noch 20 Minuten Ruhe für mich, bevor alle anderen ins Büro strömen." Der <strong>Sechser</strong> denkt vorausschauend an das, was schiefgehen könnte: „Ich muss sicherstellen, dass ich 15 Minuten früher losfahre, nur für den Fall, dass unterwegs etwas schiefgeht." Der <strong>Siebener</strong> begrüßt den neuen Tag mit spürbarer Vorfreude: „Ein neuer Tag! Eine neue Woche! Ein frischer Start! Neue Möglichkeiten!" Der <strong>Achter</strong> denkt zuerst an die eigene Verantwortung und Kontrolle über das, was zu erledigen ist: „Ich möchte sicher gehen, dass ich … fertigstelle! Wenn ich mich nicht um ALLES kümmere!" Und der <strong>Neuner</strong> verhandelt zunächst mit sich selbst über den Übergang vom Schlaf in den Tag: „Nur 15 Minuten noch schlafen, … ich brauche nur noch 15 Minuten! In der Ruhe liegt die Kraft!"</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die drei Triaden im Aufwachmoment</h2>
+        <p class="vb-intro">Auch hier lassen sich die drei klassischen Triaden im Bild wiederfinden. In der <strong>Bauch-Triade</strong> (8, 9, 1) dreht sich der erste Gedanke um Kontrolle und Erledigung: Der Achter will die Dinge fertigstellen, der Neuner verhandelt um jede weitere Minute Ruhe, der Einser hat die Pflichtenliste bereits im Kopf sortiert. In der <strong>Herz-Triade</strong> (2, 3, 4) dreht sich der erste Gedanke um Beziehung und Selbstbild: Der Zweier fragt sich, ob er anderen gerecht wird, der Dreier fragt sich, wer er heute sein will, der Vierer sucht zuerst die passende innere Stimmung. In der <strong>Kopf-Triade</strong> (5, 6, 7) dreht sich der erste Gedanke um die eigene Sicherheit und den Umgang mit der Zukunft: Der Fünfer kalkuliert seine Ruhezeit, der Sechser plant vorsorglich einen Zeitpuffer ein, der Siebener freut sich unbeschwert auf das Neue.</p>
+        <p class="vb-intro">Diese Triaden-Logik zeigt sich im Aufwachmoment besonders deutlich, weil hier noch keine bewusste Selbstkontrolle eingesetzt hat – die ersten Gedanken laufen roh und ungefiltert ab, bevor der Tag beginnt, sie zu glätten.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Warum gerade dieser Moment so aufschlussreich ist</h2>
+        <p class="vb-intro">Der Wert dieses Schaubilds liegt darin, dass es einen Moment beleuchtet, in dem sich niemand verstellt. Im Laufe des Tages überlagern sich viele bewusste und erlernte Verhaltensweisen – im Aufwachmoment ist davon noch wenig vorhanden. Wer sich in einem dieser neun inneren Monologe klar wiedererkennt, bekommt damit einen sehr direkten, kaum zu verfälschenden Hinweis auf den eigenen Typ – näher an der reinen Struktur der Leidenschaft als die meisten bewussten Selbstbeschreibungen.</p>
+
+        <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Bevor der Tag beginnt, uns zu formen, verrät der erste Gedanke bereits, wer wir sind. &ndash; Detlef Rathmer</blockquote>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen mit ihren typischen Denkmustern, Fixierungen und Entwicklungswegen im Detail.", "Wer du wirklich bist &ndash; Band 1")}
+        ${relatedLinks([
+          {route:"hilfreiche-hinweise-9-typen", label:"Hilfreiche Hinweise für die 9 Typen"},
+          {route:"gedankliche-emotionale-muster", label:"Gedankliche & emotionale Muster"},
+          {route:"aufmerksamkeitsfokus", label:"Aufmerksamkeitsfokus & Blindheit"},
+          {route:"drei-zentren", label:"Die drei Zentren"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function hilfreicheHinweise9TypenPage() {
   return shell(`
     ${pageHeader("hilfreiche-hinweise-9-typen")}
@@ -78255,6 +78300,7 @@ const ROUTES = {
     "antriebskraefte": antriebskraeftePage,
     "dynamik-der-fluegelenergien": dynamikDerFluegelenergienPage,
     "hilfreiche-hinweise-9-typen": hilfreicheHinweise9TypenPage,
+    "montagmorgen-gedanken-9-typen": montagmorgenGedanken9TypenPage,
     "bewusstseinsuebungen": bewusstseinsuebungenPage,
     "schopenhauer-zitat": schopenhauerZitatPage,
     "koerperregulation": koerperregulationPage,

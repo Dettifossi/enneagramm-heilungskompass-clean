@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=134";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=135";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -3578,9 +3578,10 @@ const SCHAUBILDER_NEU = {
   "enneagramm-instinkt": "2026-08-08",
   "enneagramm-intellekt": "2026-08-08",
   "hilfreiche-hinweise-9-typen": "2026-09-17",
+  "montagmorgen-gedanken-9-typen": "2026-09-17",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -3764,6 +3765,7 @@ text.nav = [
     { route: "antriebskraefte", label: "Driving Forces of Humanity" },
     { route: "dynamik-der-fluegelenergien", label: "The Dynamics of Wing Energies" },
     { route: "hilfreiche-hinweise-9-typen", label: "Helpful Pointers for the 9 Types" },
+    { route: "montagmorgen-gedanken-9-typen", label: "“Monday Morning Thoughts” of the 9 Types" },
     { route: "aufmerksamkeitsfokus", label: "Attention Focus & Blind Spots" },
     { route: "basisemotionen", label: "Basic Emotions" },
     { route: "beruhmte-komponisten", label: "Famous Composers" },
@@ -35306,6 +35308,49 @@ function dynamikDerFluegelenergienPage() {
   `);
 }
 
+function montagmorgenGedanken9TypenPage() {
+  return shell(`
+    ${pageHeader("montagmorgen-gedanken-9-typen")}
+    <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
+      <p class="eyebrow">Diagrams · Inner Monologue</p>
+      <h1 class="section-title">"Monday Morning Thoughts" of the 9 Enneagram Types</h1>
+      <p class="psycho-intro">The same start to the week, nine completely different inner voices – a diagram of the type-specific inner monologue at the beginning of a new week.</p>
+      <img
+        src="../assets/schaubilder/montagmorgen-gedanken-9-typen/montagmorgen-gedanken-9-typen.jpg"
+        alt="Monday Morning Thoughts of the 9 Enneagram Types – each type's inner monologue upon waking at the start of the week"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
+      />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">The Same Moment, Nine Different Worlds</h2>
+        <p class="vb-intro">There is hardly a moment in everyday life shared as universally as waking up on a Monday morning – and hardly one where the nine Enneagram types can be told apart so immediately. Before the first coffee is drunk, before the first word is spoken, each type is already running its own distinct inner monologue. The diagram makes exactly this invisible moment visible: the first stream of thought that carries a person from sleep into the day.</p>
+        <p class="vb-intro">The appeal lies in the fact that the outer situation is identical for all nine – the same day of the week, the same time, the same transition from the weekend into everyday life. What differs is purely the inner processing: the questions each type asks itself first, the worries that surface first, or the ease with which some types greet the day.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">The Nine Inner Monologues at a Glance</h2>
+        <p class="vb-intro">The <strong>One</strong> starts the day already with a chain of obligations: "First I need to …, then I need to make sure that …, then I need to take care of …" – the mind is already fully organized before the body has even gotten up. The <strong>Two</strong> thinks first of other people and whether they are doing right by them: "It's been so long since I … called, does that make me a bad person?" The <strong>Three</strong> immediately asks about the day's goal and the most efficient route there: "What do I need to do today to be who I want to be?" The <strong>Four</strong> first searches for the right mood for the day: "What music will put me in the right mood this morning?"</p>
+        <p class="vb-intro">The <strong>Five</strong> is already calculating their own time and energy while half-asleep: "If I leave the house on time, I might still have 20 minutes of peace for myself before everyone else floods into the office." The <strong>Six</strong> thinks ahead to what could go wrong: "I need to make sure I leave 15 minutes earlier, just in case something goes wrong on the way." The <strong>Seven</strong> greets the new day with noticeable anticipation: "A new day! A new week! A fresh start! New possibilities!" The <strong>Eight</strong> thinks first of their own responsibility and control over what needs to get done: "I want to make sure I … finish it! If I don't take care of EVERYTHING myself!" And the <strong>Nine</strong> first negotiates with themselves over the transition from sleep into the day: "Just 15 more minutes of sleep, … I just need 15 more minutes! There is strength in rest!"</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">The Three Triads in the Waking Moment</h2>
+        <p class="vb-intro">Here too, the three classic triads can be found in the image. In the <strong>Gut Triad</strong> (8, 9, 1), the first thought revolves around control and getting things done: the Eight wants to finish what needs finishing, the Nine negotiates for every additional minute of rest, the One already has their list of obligations sorted in their head. In the <strong>Heart Triad</strong> (2, 3, 4), the first thought revolves around relationship and self-image: the Two wonders whether they are doing right by others, the Three wonders who they want to be today, the Four first searches for the right inner mood. In the <strong>Head Triad</strong> (5, 6, 7), the first thought revolves around their own security and how to handle the future: the Five calculates their quiet time, the Six proactively plans a time buffer, the Seven looks forward to the new day without a worry.</p>
+        <p class="vb-intro">This triad logic shows up especially clearly in the waking moment, because no conscious self-control has kicked in yet – the first thoughts run raw and unfiltered, before the day begins to smooth them over.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Why This Particular Moment Is So Revealing</h2>
+        <p class="vb-intro">The value of this diagram lies in illuminating a moment in which no one is putting on a front. Over the course of the day, many conscious and learned behaviors layer on top of each other – in the waking moment, little of that is yet present. Whoever clearly recognizes themselves in one of these nine inner monologues gets a very direct, hard-to-fake indication of their own type – closer to the raw structure of the passion than most conscious self-descriptions.</p>
+
+        <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Before the day begins to shape us, the first thought already reveals who we are. &ndash; Detlef Rathmer</blockquote>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types with their typical thought patterns, fixations, and paths of development in detail.", "Who You Really Are &ndash; Volume 1")}
+        ${relatedLinks([
+          {route:"hilfreiche-hinweise-9-typen", label:"Helpful Pointers for the 9 Types"},
+          {route:"gedankliche-emotionale-muster", label:"Thought & Emotional Patterns"},
+          {route:"aufmerksamkeitsfokus", label:"Attention Focus & Blind Spots"},
+          {route:"drei-zentren", label:"The Three Centers"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function hilfreicheHinweise9TypenPage() {
   return shell(`
     ${pageHeader("hilfreiche-hinweise-9-typen")}
@@ -54004,6 +54049,7 @@ function subtypeSchaubilderPage() {
     "antriebskraefte": antriebskraeftePage,
     "dynamik-der-fluegelenergien": dynamikDerFluegelenergienPage,
     "hilfreiche-hinweise-9-typen": hilfreicheHinweise9TypenPage,
+    "montagmorgen-gedanken-9-typen": montagmorgenGedanken9TypenPage,
     "bewusstseinsuebungen": bewusstseinsuebungenPage,
     "schopenhauer-zitat": schopenhauerZitatPage,
     "koerperregulation": koerperregulationPage,
