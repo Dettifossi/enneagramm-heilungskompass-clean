@@ -30,7 +30,7 @@ const SITE = "https://kompass.verlagshausrathmer.com";
 function sanitizeRoute(route) {
   // Nur a-z0-9-/ erlauben, keine .. o.ä. - Register-Routen sind alle sauber,
   // aber sicherheitshalber verifizieren statt blind vertrauen.
-  if (!/^[a-z0-9/-]+$/.test(route)) {
+  if (!/^[a-z0-9/_-]+$/.test(route)) {
     throw new Error(`Unsichere Route übersprungen: ${route}`);
   }
   return route;
