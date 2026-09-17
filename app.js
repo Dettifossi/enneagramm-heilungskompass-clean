@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage, gescheGottfriedPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=133";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=134";
 
 import { adeleKrankheitsportraetPage, arnoldSchwarzeneggerKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15943,6 +15943,7 @@ const uiText = {
       { route: "angst-essenz", label: "Angst \u2192 Essenz" },
       { route: "antriebskraefte", label: "Antriebskr\xe4fte der Menschheit" },
       { route: "dynamik-der-fluegelenergien", label: "Die Dynamik der Fl\xfcgelenergien" },
+      { route: "hilfreiche-hinweise-9-typen", label: "Hilfreiche Hinweise f\xfcr die 9 Typen" },
       { route: "aufmerksamkeitsfokus", label: "Aufmerksamkeitsfokus & Blindheit" },
       { route: "basisemotionen", label: "Basisemotionen" },
       { route: "enneagramm-emotionalitaet", label: "Enneagramm und Emotionalit\u00e4t" },
@@ -33478,9 +33479,10 @@ const SCHAUBILDER_NEU = {
   "enneagramm-instinkt": "2026-08-08",
   "enneagramm-intellekt": "2026-08-08",
   "hoellenkreise-dante": "2026-08-14",
+  "hilfreiche-hinweise-9-typen": "2026-09-17",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -59749,6 +59751,52 @@ function dynamikDerFluegelenergienPage() {
   `);
 }
 
+function hilfreicheHinweise9TypenPage() {
+  return shell(`
+    ${pageHeader("hilfreiche-hinweise-9-typen")}
+    <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
+      <p class="eyebrow">Schaubilder · Praxis & Alltag</p>
+      <h1 class="section-title">Hilfreiche Hinweise für die 9 Enneagrammtypen</h1>
+      <p class="psycho-intro">Neun kurze, gezielte Impulse – für jeden Typ genau die Bewegung, die seinem eigenen Muster am meisten entgegenwirkt.</p>
+      <img
+        src="./assets/schaubilder/hilfreiche-hinweise-9-typen/hilfreiche-hinweise-9-typen.jpg"
+        alt="Hilfreiche Hinweise für die 9 Enneagrammtypen – ein praktischer Kompass mit je einem Impuls pro Typ, geordnet nach Bauch-, Herz- und Kopf-Triade"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
+      />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Ein praktischer Kompass, kein Persönlichkeitstest</h2>
+        <p class="vb-intro">Die meisten Enneagramm-Schaubilder beschreiben, <em>wie</em> ein Typ ist. Dieses Schaubild dreht die Perspektive um und fragt: Was würde diesem Typ konkret helfen? Statt einer weiteren Beschreibung von Leidenschaft, Fixierung oder Angstmuster liefert es für jeden der neun Typen einen einzigen, knappen Handlungsimpuls – so kompakt, dass er sich in einem einzigen Satz merken lässt, und so gezielt, dass er nicht beliebig auf jeden anderen Typ passen würde.</p>
+        <p class="vb-intro">Das macht das Schaubild zu einem Werkzeug für den Alltag, nicht nur zur Selbsterkenntnis: Wer seinen Typ kennt, kann direkt bei dem einen Hinweis ansetzen, der für ihn gedacht ist – ohne erst durch lange Theorie zu müssen.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die neun Hinweise im Überblick</h2>
+        <p class="vb-intro">Für den <strong>Einser</strong> lautet der Hinweis: <strong>Habe mehr Spaß!</strong> – ein Gegengewicht zur ständigen inneren Prüfinstanz, die alles korrekt und vollständig haben will. Für den <strong>Zweier</strong>: <strong>Errichte gesunde Grenzen!</strong> – als Korrektiv zur Neigung, sich in der Fürsorge für andere selbst zu verlieren. Der <strong>Dreier</strong> erhält den Hinweis <strong>Fördere deine Mitmenschen!</strong> – eine Umlenkung vom eigenen Erfolg hin zur Leistung anderer. Der <strong>Vierer</strong> bekommt <strong>Erschaffe tägliche Strukturen!</strong> – ein Anker gegen die Sogkraft wechselnder Stimmungen.</p>
+        <p class="vb-intro">Der <strong>Fünfer</strong> soll <strong>mehr handeln</strong> – als Gegenpol zum reinen Beobachten und Zurückziehen ins eigene Denken. Der <strong>Sechser</strong> soll <strong>nach innen gehen und meditieren</strong> – eine Beruhigung des unablässig nach außen gerichteten Sicherheits-Scannens. Der <strong>Siebener</strong> soll sich <strong>nur auf eine Sache einlassen</strong> – ein Fokus gegen das ständige Ausweichen auf die nächste Option. Der <strong>Achter</strong> soll die <strong>Dinge freiwilliger geschehen lassen</strong> – ein Loslassen der reflexhaften Kontrolle. Und der <strong>Neuner</strong> soll sich <strong>entscheiden, was er sein möchte</strong> – ein Anstoß gegen die Tendenz, die eigene Position aufzulösen, um keinen Konflikt zu riskieren.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die drei Triaden als Ordnungsprinzip</h2>
+        <p class="vb-intro">Das Schaubild ordnet die neun Typen zusätzlich nach den drei klassischen Triaden, die im Bild als konzentrische Ringe um das Porträt von Detlef Rathmer angeordnet sind. Die <strong>Bauch-Triade</strong> (auch Handlungstriade oder Zorn-Triade genannt) umfasst die Typen 8, 9 und 1 – ihr gemeinsames Thema ist der Umgang mit der eigenen Kraft und dem eigenen Widerstand gegen die Welt. Die <strong>Herz-Triade</strong> (Gefühlstriade, Scham-Triade) umfasst die Typen 2, 3 und 4 – ihr Thema ist das Bild, das ein Mensch von sich selbst im Spiegel anderer hat. Die <strong>Kopf-Triade</strong> (Denktriade, Angst-Triade) umfasst die Typen 5, 6 und 7 – ihr Thema ist der Umgang mit Unsicherheit und der Suche nach innerer Orientierung.</p>
+        <p class="vb-intro">Diese Zuordnung ist mehr als eine Systematik: Sie zeigt, dass die Hinweise für benachbarte Typen einer Triade oft in dieselbe Richtung wirken. Die Bauch-Triade wird überwiegend zu mehr Leichtigkeit und Loslassen ermutigt (Spaß, Freiwilligkeit, eine klare Entscheidung statt Vermeidung), während die Kopf-Triade eher zu mehr Bodenhaftung und Handlung angehalten wird (Handeln statt Denken, innere Ruhe statt äußeres Scannen, Fokus statt Zerstreuung).</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die ewige Suche hinter jedem Hinweis</h2>
+        <p class="vb-intro">Am äußeren Rand des Schaubilds steht zu jedem Typ zusätzlich seine <strong>ewige Suche</strong> – jenes Grundverlangen, das den Typ von innen antreibt: die Suche nach Perfektion beim Einser, nach Liebe beim Zweier, nach Erfolg und Wertschätzung beim Dreier, nach Individualität beim Vierer, nach Wissen beim Fünfer, nach Sicherheit beim Sechser, nach Lebensfreude beim Siebener, nach Macht beim Achter und nach Harmonie beim Neuner. Der jeweilige Hinweis lässt sich erst vor diesem Hintergrund wirklich verstehen: Er ist kein zufälliger guter Rat, sondern die gezielte Antwort auf genau diese Suche – ein Weg, das eigentliche Bedürfnis so zu erfüllen, dass es nicht länger in der immer gleichen, oft erschöpfenden Schleife der Fixierung gesucht werden muss.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Warum die Hinweise oft das Gegenteil des Gewohnten verlangen</h2>
+        <p class="vb-intro">Auffällig ist, dass kein Hinweis einfach verstärkt, was der jeweilige Typ ohnehin schon tut. Der Einser, der sich meist selbst unter Druck setzt, korrekt zu handeln, bekommt nicht den Rat, noch gewissenhafter zu sein, sondern mehr Leichtigkeit zuzulassen. Der Fünfer, der sich am liebsten zurückzieht und alles erst zu Ende durchdenkt, bekommt nicht den Rat, noch mehr zu recherchieren, sondern tatsächlich zu handeln. Genau darin liegt die eigentliche Funktion des Schaubilds: Jeder Hinweis markiert die Stelle, an der das gewohnte Verhalten an seine Grenze stößt – und öffnet einen kleinen, konkreten Schritt in Richtung der eigenen blinden Seite, statt das ohnehin schon gut ausgebildete Muster weiter zu trainieren.</p>
+
+        <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Der hilfreichste Hinweis ist selten der, der das eigene Muster bestätigt – meist ist es der, der ihm sanft widerspricht. &ndash; Detlef Rathmer</blockquote>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen mit ihren Mustern, Fixierungen und Entwicklungswegen im Detail.", "Wer du wirklich bist &ndash; Band 1")}
+        ${relatedLinks([
+          {route:"antriebskraefte", label:"Antriebskräfte der Menschheit"},
+          {route:"drei-zentren", label:"Die drei Zentren"},
+          {route:"heilungsweg", label:"Der Heilungsweg"},
+          {route:"befreiende-fragen", label:"Befreiende Fragen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function antriebskraeftePage() {
   return shell(`
     ${pageHeader("antriebskraefte")}
@@ -78206,6 +78254,7 @@ const ROUTES = {
     "enneagramm-profiling": enneagrammProfilingPage,
     "antriebskraefte": antriebskraeftePage,
     "dynamik-der-fluegelenergien": dynamikDerFluegelenergienPage,
+    "hilfreiche-hinweise-9-typen": hilfreicheHinweise9TypenPage,
     "bewusstseinsuebungen": bewusstseinsuebungenPage,
     "schopenhauer-zitat": schopenhauerZitatPage,
     "koerperregulation": koerperregulationPage,

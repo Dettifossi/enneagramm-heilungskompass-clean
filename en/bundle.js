@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=133";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=134";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -3577,9 +3577,10 @@ const SCHAUBILDER_NEU = {
   "enneagramm-emotionalitaet": "2026-08-08",
   "enneagramm-instinkt": "2026-08-08",
   "enneagramm-intellekt": "2026-08-08",
+  "hilfreiche-hinweise-9-typen": "2026-09-17",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -3762,6 +3763,7 @@ text.nav = [
     { route: "angst-essenz", label: "Fear → Essence" },
     { route: "antriebskraefte", label: "Driving Forces of Humanity" },
     { route: "dynamik-der-fluegelenergien", label: "The Dynamics of Wing Energies" },
+    { route: "hilfreiche-hinweise-9-typen", label: "Helpful Pointers for the 9 Types" },
     { route: "aufmerksamkeitsfokus", label: "Attention Focus & Blind Spots" },
     { route: "basisemotionen", label: "Basic Emotions" },
     { route: "beruhmte-komponisten", label: "Famous Composers" },
@@ -35304,6 +35306,52 @@ function dynamikDerFluegelenergienPage() {
   `);
 }
 
+function hilfreicheHinweise9TypenPage() {
+  return shell(`
+    ${pageHeader("hilfreiche-hinweise-9-typen")}
+    <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
+      <p class="eyebrow">Diagrams · Practice & Everyday Life</p>
+      <h1 class="section-title">Helpful Pointers for the 9 Enneagram Types</h1>
+      <p class="psycho-intro">Nine short, targeted impulses – for each type exactly the move that counters its own pattern the most.</p>
+      <img
+        src="../assets/schaubilder/hilfreiche-hinweise-9-typen/hilfreiche-hinweise-9-typen.jpg"
+        alt="Helpful Pointers for the 9 Enneagram Types – a practical compass with one impulse per type, arranged by Gut, Heart, and Head triad"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
+      />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">A Practical Compass, Not Another Personality Test</h2>
+        <p class="vb-intro">Most Enneagram diagrams describe <em>what</em> a type is like. This one turns the perspective around and asks: what would actually help this type? Instead of another description of passion, fixation, or fear pattern, it offers each of the nine types a single, concise call to action – short enough to remember in one sentence, and specific enough that it would not simply fit any other type as well.</p>
+        <p class="vb-intro">That makes the diagram a tool for everyday life, not only for self-knowledge: whoever knows their type can start directly with the one pointer meant for them – without first working through a long theory.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">The Nine Pointers at a Glance</h2>
+        <p class="vb-intro">For the <strong>One</strong>, the pointer reads: <strong>Have more fun!</strong> – a counterweight to the constant inner inspector demanding everything be correct and complete. For the <strong>Two</strong>: <strong>Set healthy boundaries!</strong> – a corrective to the tendency to lose oneself in caring for others. The <strong>Three</strong> receives the pointer <strong>Promote your fellow human beings!</strong> – a redirection from one's own success toward the achievements of others. The <strong>Four</strong> gets <strong>Create daily structures!</strong> – an anchor against the pull of shifting moods.</p>
+        <p class="vb-intro">The <strong>Five</strong> is asked to <strong>act more</strong> – as a counterpoint to pure observing and withdrawing into their own thinking. The <strong>Six</strong> is asked to <strong>go inward and meditate</strong> – a calming of the relentless outward scanning for safety. The <strong>Seven</strong> is asked to <strong>commit to just one thing</strong> – a focus against the constant drift toward the next option. The <strong>Eight</strong> is asked to <strong>let things happen more voluntarily</strong> – a release of reflexive control. And the <strong>Nine</strong> is asked to <strong>decide what they want to be</strong> – a nudge against the tendency to dissolve their own position in order to avoid any conflict.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">The Three Triads as an Ordering Principle</h2>
+        <p class="vb-intro">The diagram additionally arranges the nine types by the three classic triads, shown in the image as concentric rings around the portrait of Detlef Rathmer. The <strong>Gut Triad</strong> (also called the Action Triad or Anger Triad) comprises types 8, 9, and 1 – their shared theme is how they handle their own power and their own resistance to the world. The <strong>Heart Triad</strong> (Feeling Triad, Shame Triad) comprises types 2, 3, and 4 – their theme is the image a person has of themselves as reflected by others. The <strong>Head Triad</strong> (Thinking Triad, Fear Triad) comprises types 5, 6, and 7 – their theme is how they deal with uncertainty and their search for inner orientation.</p>
+        <p class="vb-intro">This arrangement is more than a system of classification: it shows that the pointers for neighboring types within one triad often pull in the same direction. The Gut Triad is mostly encouraged toward more lightness and letting go (fun, voluntariness, a clear decision instead of avoidance), while the Head Triad is encouraged more toward grounding and action (acting instead of thinking, inner calm instead of outward scanning, focus instead of scattering).</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">The Eternal Search Behind Each Pointer</h2>
+        <p class="vb-intro">Around the outer edge of the diagram, each type is also assigned its <strong>eternal search</strong> – the underlying longing that drives the type from within: the search for perfection for the One, for love for the Two, for success and recognition for the Three, for individuality for the Four, for knowledge for the Five, for security for the Six, for zest for life for the Seven, for power for the Eight, and for harmony for the Nine. The respective pointer can only really be understood against this background: it is not a random piece of good advice, but a targeted answer to precisely this search – a way of meeting the actual underlying need so that it no longer has to be sought through the same exhausting loop of fixation.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Why the Pointers Often Ask for the Opposite of What Is Habitual</h2>
+        <p class="vb-intro">Notably, none of the pointers simply reinforces what the respective type already tends to do. The One, who usually already puts themselves under pressure to act correctly, is not advised to be even more conscientious, but to allow more lightness. The Five, who prefers to withdraw and think everything through to the end, is not advised to research even more, but to actually act. This is exactly the function of the diagram: each pointer marks the point where habitual behavior reaches its limit – and opens a small, concrete step toward one's own blind side, instead of further training the pattern that is already well developed.</p>
+
+        <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">The most helpful pointer is rarely the one that confirms your own pattern – usually it's the one that gently contradicts it. &ndash; Detlef Rathmer</blockquote>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types with their patterns, fixations, and paths of development in detail.", "Who You Really Are &ndash; Volume 1")}
+        ${relatedLinks([
+          {route:"antriebskraefte", label:"Driving Forces of Humanity"},
+          {route:"drei-zentren", label:"The Three Centers"},
+          {route:"heilungsweg", label:"The Path of Healing"},
+          {route:"befreiende-fragen", label:"Liberating Questions"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function antriebskraeftePage() {
   return shell(`
     ${pageHeader("antriebskraefte")}
@@ -53955,6 +54003,7 @@ function subtypeSchaubilderPage() {
     "enneagramm-profiling": enneagrammProfilingPage,
     "antriebskraefte": antriebskraeftePage,
     "dynamik-der-fluegelenergien": dynamikDerFluegelenergienPage,
+    "hilfreiche-hinweise-9-typen": hilfreicheHinweise9TypenPage,
     "bewusstseinsuebungen": bewusstseinsuebungenPage,
     "schopenhauer-zitat": schopenhauerZitatPage,
     "koerperregulation": koerperregulationPage,
