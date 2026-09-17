@@ -187,6 +187,7 @@ export function beatriceChebetPortraitPage() {
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SP6w5)"},
         {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7)"},
+        {route:"beruehmte-katie-couric", label:"Portrait: Katie Couric (SP6w7)"},
       ])}
     </div>
   `);

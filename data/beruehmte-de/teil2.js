@@ -187,6 +187,7 @@ export function beatriceChebetPortraitPage() {
         {route:"subtype/se6", label:"SE6 \u2013 Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-herbert-kickl", label:"Portr\u00e4t: Herbert Kickl (SE6w5)"},
         {route:"beruehmte-woody-allen", label:"Portr\u00e4t: Woody Allen (SE6w7)"},
+        {route:"beruehmte-katie-couric", label:"Portr\u00e4t: Katie Couric (SE6w7)"},
       ])}
     </div>
   `);

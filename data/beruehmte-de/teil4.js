@@ -2104,3 +2104,62 @@ export function gritStrassenbergerPortraitPage() {
     </div>
   `);
 }
+
+export function katieCouricPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-katie-couric-portrait.jpg" alt="Katie Couric – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Katie Couric</p>
+        <p class="krim-portrait-typ">SE6w7 &middot; Selbsterhaltender Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Journalistin & Moderatorin, geb. 1957 &ndash; ›Today Show‹, ›CBS Evening News‹ &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen, das seine eigene Darmspiegelung live sendete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier der selbsterhaltenden Sechs &ndash; ein Tier, das Sicherheit nicht durch Konfrontation, sondern durch konkrete, vorausschauende Vorsicht in der eigenen unmittelbaren Umgebung sucht. Katie Couric, 1957 geboren, war 15 Jahre lang Co-Moderatorin der ›Today Show‹, bevor sie 2006 als erste Frau überhaupt eine amerikanische Abendnachrichtensendung solo moderierte &ndash; die ›CBS Evening News‹.</p>
+          <p class="vb-intro">1998 starb ihr Ehemann Jay Monahan im Alter von nur 42 Jahren an Darmkrebs, erst diagnostiziert, als die Krankheit bereits weit fortgeschritten war &ndash; neun Monate nach der Diagnose war er tot. Couric verwandelte diesen konkreten, existenziellen Schock nicht in Rückzug, sondern in eine der bekanntesten Präventionsaktionen der amerikanischen Fernsehgeschichte: Am 7. März 2000 ließ sie sich live in der ›Today Show‹ vor laufenden Kameras eine Darmspiegelung durchführen. Die Vorsorge-Raten in den USA stiegen danach um über 20 Prozent &ndash; ein Phänomen, das als ›Katie-Couric-Effekt‹ bekannt wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Sicherheit durch konkrete Vorsorge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo beschrieb die selbsterhaltende Sechs über das Thema <em>Sicherheit durch konkrete, praktische Vorsorge</em>: Angst wird nicht abstrakt verarbeitet, sondern in handfeste Schutzmaßnahmen übersetzt &ndash; im eigenen Körper, im eigenen Haushalt, im eigenen unmittelbaren Umfeld. Bei Couric zeigt sich das in Reinform: Aus der privaten, tödlichen Erfahrung mit Darmkrebs entstand nicht nur die eigene Vorsorgeuntersuchung, sondern die Mitgründung der ›National Colorectal Cancer Research Alliance‹ im März 2000 &ndash; eine dauerhafte, institutionelle Struktur zur Krebsvorsorge, nicht nur ein einmaliger öffentlicher Auftritt.</p>
+          <p class="vb-intro">Auch 2022, nach ihrer eigenen Brustkrebsdiagnose, reagierte sie mit derselben Bewegung: aktive öffentliche Aufklärungsarbeit für Früherkennung, statt privater Verarbeitung im Verborgenen. Sicherheit entsteht bei der SE6 nicht durch Vermeiden der Gefahr, sondern durch das genaue Verstehen und aktive Vorbeugen gegen sie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Angst als Einladung zum Wagnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> gibt der selbsterhaltenden Sechs eine Qualität, die über reine Vorsicht hinausgeht: die Fähigkeit, die eigene Angst nicht als Hindernis, sondern als Wegweiser zu lesen. Couric selbst formulierte das so: ›Angst ist ein Blick auf die eigene Kühnheit.‹ Ihr eigener Ratschlag für Erfolg lautet schlicht: ›Sei furchtlos. Habe den Mut, Risiken einzugehen. Geh dorthin, wo es keine Garantien gibt.‹</p>
+          <p class="vb-intro">Genau diese Kombination erklärt, wie aus einer öffentlich sichtbaren Darmspiegelung kein Tabubruch, sondern ein warmherziger, fast unterhaltsamer Fernsehmoment wurde: Beobachter beschreiben sie als ›intelligent und ernsthaft, aber mit einem grinsenden, mädchenhaften Nachbarschafts-Charme‹. Die Vorsicht der Sechs bekommt durch den Siebenerflügel eine zugängliche, leichte Oberfläche, ohne die zugrunde liegende Ernsthaftigkeit zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Sechs mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE6w7 zeigt sich in Courics Fähigkeit, aus einem der tiefsten persönlichen Verluste eine strukturelle, jahrzehntelang wirksame Präventionsbewegung zu formen, die messbar Menschenleben rettete &ndash; nicht als abstrakte Botschaft, sondern als konkrete, selbst vorgelebte Handlung vor laufender Kamera.</p>
+          <p class="vb-intro">Der Schatten der SE6 zeigt sich in der Beschreibung ihrer eigenen Entwicklung: Sie selbst sagt, sie habe sich ›von einer Journalistin mit Persönlichkeit zu einer TV-Persönlichkeit‹ entwickelt &ndash; eine Selbstkritik, die auf die Gefahr hindeutet, dass die warme, siebenerhafte Zugänglichkeit irgendwann die ernsthafte journalistische Substanz der Sechs überdecken könnte, statt sie zu tragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Kaninchen, das seine Angst zur Vorsorge für andere machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Kann ich der Welt vertrauen?</em> zur Erkenntnis <em>Ich trage die Sicherheit bereits in mir.</em> Courics eigene Umdeutung der Angst &ndash; nicht als Warnsignal vor Gefahr, sondern als Hinweis auf eine lohnende, mutige Handlung &ndash; zeigt genau diesen Weg: Die tiefste Angst (der eigene Tod durch dieselbe Krankheit, an der ihr Mann starb) wurde nicht verdrängt, sondern in eine öffentliche, lebensrettende Handlung übersetzt.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-beatrice-chebet">Beatrice Chebet</a> (SE6w7): Auch bei ihr zeigt sich dieselbe Kombination aus konkreter, körperlicher Vorsorge und einer warmen, zugänglichen öffentlichen Ausstrahlung. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-beatrice-chebet">Porträt zu Beatrice Chebet</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-beatrice-chebet", label:"Porträt: Beatrice Chebet (SE6w7)"},
+        {route:"krankheitsportraets-woody-allen", label:"Krankheitsporträt: Woody Allen (SE6w7)"},
+      ])}
+    </div>
+  `);
+}

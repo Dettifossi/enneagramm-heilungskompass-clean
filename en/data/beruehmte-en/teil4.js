@@ -2103,3 +2103,62 @@ export function gritStrassenbergerPortraitPage() {
     </div>
   `);
 }
+
+export function katieCouricPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-katie-couric-portrait.jpg" alt="Katie Couric" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Katie Couric</p>
+        <p class="krim-portrait-typ">SP6w7 · Self-Preservation Type 6 with a Seven-Wing</p>
+        <p class="krim-portrait-subtitle">Journalist & TV Host, b. 1957 &ndash; "Today Show," "CBS Evening News" &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit Who Broadcast Her Own Colonoscopy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> is the animal of the self-preservation Six &ndash; an animal that seeks security not through confrontation, but through concrete, forward-looking caution in its own immediate surroundings. Katie Couric, born in 1957, spent 15 years as co-host of the "Today Show" before becoming, in 2006, the first woman ever to solo-anchor an American evening news broadcast &ndash; "CBS Evening News."</p>
+          <p class="vb-intro">In 1998, her husband Jay Monahan died of colon cancer at just 42, diagnosed only after the disease had already advanced &ndash; nine months after diagnosis, he was gone. Couric turned that concrete, existential shock not into withdrawal, but into one of the most famous prevention campaigns in American television history: on March 7, 2000, she had a colonoscopy performed live on "Today," on camera. Screening rates in the US rose by more than 20 percent afterward &ndash; a phenomenon that became known as the "Katie Couric effect."</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Six: Security Through Concrete Prevention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo described the self-preservation Six through the theme of <em>security through concrete, practical precaution</em>: fear isn't processed abstractly, but translated into tangible protective measures &ndash; in one's own body, one's own household, one's own immediate environment. This shows in pure form in Couric: out of the private, fatal experience with colon cancer came not just her own screening, but the co-founding of the National Colorectal Cancer Research Alliance in March 2000 &ndash; a lasting, institutional structure for cancer prevention, not just a one-time public appearance.</p>
+          <p class="vb-intro">In 2022, after her own breast cancer diagnosis, she reacted with the same movement: active public education for early detection, rather than private processing behind closed doors. For the SE6, security doesn't come from avoiding danger, but from precisely understanding it and actively guarding against it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Fear as an Invitation to Take the Risk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing</strong> gives the self-preservation Six a quality that goes beyond pure caution: the ability to read one's own fear not as an obstacle, but as a signpost. Couric herself put it this way: "Anxiety is a glimpse of your own daring." Her own advice for success is simply: "Be fearless. Have the courage to take risks. Go where there are no guarantees."</p>
+          <p class="vb-intro">This exact combination explains how a publicly broadcast colonoscopy became, not a taboo-breaking shock, but a warm, almost entertaining television moment: observers describe her as "intelligent and serious, but with a grinning, girl-next-door quality." The Six's caution, through the Seven-wing, gains an accessible, light surface without losing the underlying seriousness beneath it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Six with a Seven-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP6w7 shows in Couric's ability to turn one of the deepest personal losses into a structural, decades-effective prevention movement that measurably saved lives &ndash; not as an abstract message, but as a concrete, self-modeled act on live camera.</p>
+          <p class="vb-intro">The shadow of the SE6 shows in how she describes her own development: she herself says she evolved "from a journalist with a personality to a TV personality" &ndash; a self-criticism that points to the risk that the Seven-wing's warm accessibility could eventually cover over the Six's serious journalistic substance instead of carrying it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Rabbit Who Turned Its Own Fear into Prevention for Others</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six's healing path leads from the question <em>Can I trust the world?</em> to the insight <em>I already carry security within myself.</em> Couric's own reframing of fear &ndash; not as a warning of danger, but as a sign of a worthwhile, courageous action &ndash; shows exactly this path: her deepest fear (dying of the same disease that killed her husband) was not repressed, but translated into a public, life-saving act.</p>
+          <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-beatrice-chebet">Beatrice Chebet</a> (SP6w7): she too shows the same combination of concrete, physical precaution and a warm, accessible public presence. More in the <a href="javascript:void(0)" data-route="beruehmte-beatrice-chebet">portrait of Beatrice Chebet</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"beruehmte-beatrice-chebet", label:"Portrait: Beatrice Chebet (SP6w7)"},
+        {route:"krankheitsportraets-woody-allen", label:"Illness Portrait: Woody Allen (SP6w7)"},
+      ])}
+    </div>
+  `);
+}

@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2337", date: "2026-09-17", text: "Neues Porträt: Katie Couric (SE6w7) – Journalistin, ›Today Show‹, ›Katie-Couric-Effekt‹ in der Krebsvorsorge.", text_en: "New portrait: Katie Couric (SE6w7) – journalist, \"Today Show,\" the \"Katie Couric effect\" in cancer screening.", route: "beruehmte-katie-couric" },
     { version: "v2336", date: "2026-09-17", text: "Neues Porträt: Alec Baldwin (SX6w7) – Schauspieler, ›30 Rock‹, ›Jagd auf Roter Oktober‹, meistgebuchter SNL-Gastgeber der Geschichte.", text_en: "New portrait: Alec Baldwin (SX6w7) – actor, \"30 Rock,\" \"The Hunt for Red October,\" the most-booked SNL host in history.", route: "beruehmte-alec-baldwin" },
     { version: "v2335", date: "2026-09-17", text: "Neues Porträt: Halle Berry (SE3w2) – Schauspielerin, erste schwarze Oscar-Preisträgerin als beste Hauptdarstellerin.", text_en: "New portrait: Halle Berry (SE3w2) – actress, first Black woman to win the Best Actress Oscar.", route: "beruehmte-halle-berry" },
     { version: "v2334", date: "2026-09-17", text: "Neues Porträt: Audrey Tautou (SE3w2) – Schauspielerin, Weltruhm durch ›Die fabelhafte Welt der Amélie‹.", text_en: "New portrait: Audrey Tautou (SE3w2) – actress, worldwide fame through \"Amélie.\"", route: "beruehmte-audrey-tautou" },
