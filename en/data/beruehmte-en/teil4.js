@@ -2158,6 +2158,7 @@ export function katieCouricPortraitPage() {
         {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-beatrice-chebet", label:"Portrait: Beatrice Chebet (SP6w7)"},
         {route:"krankheitsportraets-woody-allen", label:"Illness Portrait: Woody Allen (SP6w7)"},
+        {route:"beruehmte-ellen-degeneres", label:"Portrait: Ellen DeGeneres (SP6w5) – same core type, different wing"},
       ])}
     </div>
   `);

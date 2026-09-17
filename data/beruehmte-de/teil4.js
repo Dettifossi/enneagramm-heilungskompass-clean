@@ -2159,6 +2159,7 @@ export function katieCouricPortraitPage() {
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-beatrice-chebet", label:"Porträt: Beatrice Chebet (SE6w7)"},
         {route:"krankheitsportraets-woody-allen", label:"Krankheitsporträt: Woody Allen (SE6w7)"},
+        {route:"beruehmte-ellen-degeneres", label:"Porträt: Ellen DeGeneres (SE6w5) – gleicher Kerntyp, anderer Flügel"},
       ])}
     </div>
   `);

@@ -2090,3 +2090,62 @@ export function madonnaPortraitPage() {
     </div>
   `);
 }
+
+export function ellenDegeneresPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ellen-degeneres-portrait.jpg" alt="Ellen DeGeneres" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ellen DeGeneres</p>
+        <p class="krim-portrait-typ">SP6w5 · Self-Preservation Type 6 with a Five-Wing</p>
+        <p class="krim-portrait-subtitle">Comedian & Talk Show Host, b. 1958 &ndash; "The Ellen DeGeneres Show" &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit Behind the Dancing Stage Persona</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> is the animal of the self-preservation Six &ndash; an animal that doesn't seek safety out in the open, but inside its own, precisely controlled burrow. Ellen DeGeneres, born in 1958, hosted one of the most successful talk shows in the US for nearly two decades &ndash; dancing, joking, with a lightness that became her trademark. In 1997 she risked one of the biggest career ruptures in American television history with her public coming out, at a time when this was effectively without precedent for a lead role on US television.</p>
+          <p class="vb-intro">Her childhood was marked by early instability: her parents' divorce when she was thirteen, and the later sexual abuse by her stepfather, whom her mother initially didn't believe and stayed married to for eighteen more years &ndash; an early, deep breach of trust in exactly the environment that should have provided security.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Six: Caution Hidden Behind Lightness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo described the self-preservation Six through the theme of <em>security through concrete caution</em>: fear is not shown openly, but translated into constant, often invisible vigilance. DeGeneres describes herself as someone who doesn't rush to trust her own emotional impulses, but first holds back to gain distance and perspective before committing &ndash; a basic stance that seems to contradict the spontaneous, warm stage persona millions know from her show.</p>
+          <p class="vb-intro">Her own admission that she puts "an enormous amount of pressure" on herself, and her use of daily meditation to manage chronic anxiety, also show the SE6-typical translation of insecurity into controlled, repeated routine &ndash; not into open confrontation, but into quiet, private self-regulation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Withdrawal Instead of New Stimulation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing</strong> gives the self-preservation Six a quality clearly distinct from a Seven-like search for ever-new stimulation: retreat to a minimum of contact and stimulus the moment security feels threatened. After her show ended in 2022, accompanied by public reports of an allegedly toxic workplace behind the scenes, DeGeneres did not withdraw into new projects or new public exposure, but into a markedly reduced life.</p>
+          <p class="vb-intro">In 2024, after the US presidential election, she deepened this withdrawal once more: she and her wife Portia de Rossi moved to the Cotswolds in England, to a remote farm with animals, with barely any public appearances, offering only occasional private glimpses into a quiet country life. This is exactly the Five-wing movement: not seeking new contacts or new stages when things get difficult, but reducing one's own life to a manageable, controlled minimum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Six with a Five-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP6w5 shows in DeGeneres's ability to develop, despite early, deep insecurity, a public stage persona that genuinely gave millions of viewers a sense of lightness over the years &ndash; and in her courage to take an enormous professional risk in 1997, even though risk-taking actually runs counter to the Six's need for security.</p>
+          <p class="vb-intro">The shadow shows in the discrepancy former staff described: cold, distant, demanding behind the camera &ndash; the exact opposite of the warm, spontaneous person from the show. This is a typical tension of the SP6w5: the Five-wing's distance protects one's own security, but when it stays unconscious, it can produce a coldness that contradicts the message one publicly stands for &ndash; in DeGeneres's case, her own, repeated show motto was simply: "Be kind to one another."</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Rabbit That Withdrew Into Silence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six's healing path leads from the question <em>Can I trust the world?</em> to the insight <em>I already carry security within myself.</em> DeGeneres's path from constant public performance to nearly complete seclusion on an English farm shows a possible, if incomplete, form of this path: letting go of the need to generate security through constant achievement and public approval, in favor of a quieter, more self-sufficient life.</p>
+          <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-stan-laurel">Stan Laurel</a> (SP6w5): he too shows the same withdrawal from public life after the end of a defining professional bond &ndash; not a search for a fresh start, but a deliberate reduction to what still feels safe. More in the <a href="javascript:void(0)" data-route="beruehmte-stan-laurel">portrait of Stan Laurel</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"beruehmte-stan-laurel", label:"Portrait: Stan Laurel (SP6w5)"},
+        {route:"beruehmte-katie-couric", label:"Portrait: Katie Couric (SP6w7) – same core type, different wing"},
+      ])}
+    </div>
+  `);
+}

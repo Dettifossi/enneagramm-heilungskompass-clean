@@ -2106,3 +2106,62 @@ export function madonnaPortraitPage() {
     </div>
   `);
 }
+
+export function ellenDegeneresPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ellen-degeneres-portrait.jpg" alt="Ellen DeGeneres – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ellen DeGeneres</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Komikerin & Talkshow-Moderatorin, geb. 1958 &ndash; ›The Ellen DeGeneres Show‹ &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen hinter der tanzenden Bühnenfigur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier der selbsterhaltenden Sechs &ndash; ein Tier, das Sicherheit nicht auf der offenen Fläche sucht, sondern im eigenen, genau kontrollierten Bau. Ellen DeGeneres, 1958 geboren, moderierte fast zwei Jahrzehnte lang eine der erfolgreichsten Talkshows der USA &ndash; tanzend, scherzend, mit einer Leichtigkeit, die zu ihrem Markenzeichen wurde. 1997 riskierte sie mit ihrem öffentlichen Coming-out einen der größten beruflichen Einschnitte der amerikanischen Fernsehgeschichte, zu einer Zeit, in der das für eine Hauptrolle im US-Fernsehen faktisch ohne Präzedenzfall war.</p>
+          <p class="vb-intro">Ihre Kindheit war von früher Unsicherheit geprägt: Die Scheidung ihrer Eltern, als sie dreizehn war, und der spätere sexuelle Missbrauch durch ihren Stiefvater, dem ihre Mutter zunächst keinen Glauben schenkte und bei dem sie noch achtzehn weitere Jahre blieb &ndash; ein früher, tiefgreifender Vertrauensbruch genau in dem Umfeld, das eigentlich Sicherheit hätte bieten sollen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Vorsicht, die sich hinter Leichtigkeit verbirgt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo beschrieb die selbsterhaltende Sechs über das Thema <em>Sicherheit durch konkrete Vorsicht</em>: Angst wird nicht offen gezeigt, sondern in ständige, oft unsichtbare Wachsamkeit übersetzt. DeGeneres selbst beschreibt sich als jemanden, der eigenen emotionalen Impulsen nicht vorschnell traut, sondern sich zunächst zurückhält, um Abstand und Übersicht zu gewinnen, bevor sie sich festlegt &ndash; eine Grundhaltung, die im Widerspruch zur spontanen, warmen Bühnenfigur zu stehen scheint, die Millionen aus ihrer Sendung kennen.</p>
+          <p class="vb-intro">Auch ihr eigenes Eingeständnis, sie setze sich selbst ›einen enormen Druck‹ auf, und ihr Umgang mit chronischer Angst über tägliche Meditation zeigen die SE6-typische Übersetzung von Unsicherheit in kontrollierte, wiederholte Routine &ndash; nicht in offene Konfrontation, sondern in stille, private Selbstregulierung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Rückzug statt neuer Reize</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> gibt der selbsterhaltenden Sechs eine Qualität, die sich deutlich von einer siebenerhaften Suche nach immer neuer Anregung unterscheidet: den Rückzug auf ein Minimum an Kontakt und Reiz, sobald Sicherheit gefährdet erscheint. Nach dem Ende ihrer Show 2022, begleitet von öffentlichen Berichten über ein angeblich toxisches Arbeitsklima hinter den Kulissen, zog sich DeGeneres nicht in neue Projekte oder neue Öffentlichkeit zurück, sondern in ein deutlich reduzierteres Leben.</p>
+          <p class="vb-intro">2024, nach der US-Präsidentschaftswahl, verstärkte sie diesen Rückzug noch einmal: Sie und ihre Frau Portia de Rossi zogen in die Cotswolds nach England, auf eine abgelegene Farm mit Tieren, kaum öffentliche Auftritte, vereinzelte private Einblicke in ein ruhiges Landleben. Genau das ist die Fünferflügel-Bewegung: nicht neue Kontakte oder neue Bühnen suchen, wenn es schwierig wird, sondern das eigene Leben auf ein überschaubares, kontrolliertes Minimum reduzieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Sechs mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE6w5 zeigt sich in DeGeneres' Fähigkeit, trotz früher, tiefer Verunsicherung eine öffentliche Bühnenfigur zu entwickeln, die Millionen Zuschauern über Jahre hinweg tatsächlich Leichtigkeit vermittelte &ndash; und in ihrem Mut, 1997 ein enormes berufliches Risiko einzugehen, obwohl Risiko dem Sicherheitsbedürfnis der Sechs eigentlich zuwiderläuft.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Diskrepanz, die frühere Mitarbeiter beschrieben: hinter der Kamera kühl, distanziert, fordernd &ndash; das genaue Gegenteil der warmen, spontanen Person aus der Sendung. Das ist eine typische Spannung der SE6w5: Die Fünferflügel-Distanz schützt die eigene Sicherheit, kann aber, wenn sie unbewusst bleibt, zu einer Kälte führen, die im Widerspruch zur öffentlich vertretenen Botschaft steht &ndash; bei DeGeneres war das eigene, jahrelang wiederholte Sendungsmotto schlicht: ›Be kind to one another.‹</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Kaninchen, das sich in die Stille zurückzog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Kann ich der Welt vertrauen?</em> zur Erkenntnis <em>Ich trage die Sicherheit bereits in mir.</em> DeGeneres' Weg von der ständigen öffentlichen Performance zur fast vollständigen Zurückgezogenheit auf einer englischen Farm zeigt eine mögliche, wenn auch unvollständige Form dieses Weges: das Loslassen der Notwendigkeit, Sicherheit über ständige Leistung und öffentliche Zustimmung zu erzeugen, zugunsten eines stilleren, selbstgenügsameren Lebens.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-stan-laurel">Stan Laurel</a> (SE6w5): Auch bei ihm zeigt sich derselbe Rückzug aus der Öffentlichkeit nach dem Ende einer prägenden beruflichen Bindung &ndash; keine Suche nach einem Neuanfang, sondern die bewusste Reduktion auf das, was noch als sicher empfunden wird. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-stan-laurel">Porträt zu Stan Laurel</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-stan-laurel", label:"Porträt: Stan Laurel (SE6w5)"},
+        {route:"beruehmte-katie-couric", label:"Porträt: Katie Couric (SE6w7) – gleicher Kerntyp, anderer Flügel"},
+      ])}
+    </div>
+  `);
+}

@@ -1844,6 +1844,7 @@ export function stanLaurelPortraitPage() {
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-stringer-davis", label:"Portrait: Stringer Davis (SP6w5)"},
         {route:"beruehmte-klaus-j-behrendt", label:"Portrait: Klaus J. Behrendt (SP6w5)"},
+        {route:"beruehmte-ellen-degeneres", label:"Portrait: Ellen DeGeneres (SP6w5)"},
         {route:"beruehmte-anne-mcbride", label:"Portrait: Dr. Anne McBride (SP6w5)"},
       ])}
     </div>
