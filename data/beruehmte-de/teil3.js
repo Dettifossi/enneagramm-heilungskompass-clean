@@ -2087,3 +2087,62 @@ export function steveJobsPortraitPage() {
     </div>
   `);
 }
+
+export function horstLichterPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-horst-lichter-portrait.jpg" alt="Horst Lichter – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Horst Lichter</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Koch, Moderator & Buchautor, geb. 1962 &ndash; ›Bares für Rares‹ &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse mit dem Zwirbelbart</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben &ndash; kein Tier, das aus der Distanz beobachtet, sondern eines, das sofort mitten hineinspringt, Funken schlägt und alle Blicke auf sich zieht. Horst Lichter, geboren 1962 in Nettesheim bei Köln, begann mit vierzehn eine Kochlehre, verlor danach die Lust am Kochen und arbeitete zeitweise als Bergmann in einer Braunkohlefabrik &ndash; ein früher Bruch, der zeigt, wie wenig ihn ein einmal eingeschlagener Weg dauerhaft binden konnte, solange die Begeisterung fehlte.</p>
+          <p class="vb-intro">Sein markantes Erkennungszeichen, der gezwirbelte Bart, ist dabei mehr als eine Äußerlichkeit: Er macht ihn auf einen Blick unverwechselbar &ndash; passend zu einer Persönlichkeit, die sich nie hinter Zurückhaltung versteckt, sondern sofort, unübersehbar und mit ganzer Präsenz auftritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Sofortige Begeisterung als Lebensprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nannte den Subtyp der sexuellen Sieben <em>Suggestibilität</em> &ndash; die Fähigkeit und Neigung, sich für einen Menschen oder eine Idee sofort und uneingeschränkt zu begeistern, ohne lange zu prüfen. Lichter formuliert genau dieses Muster über sich selbst: Er mag fast jeden Menschen, dem er begegnet, auf Anhieb &ndash; kaum jemand, der ihm nicht sofort sympathisch wäre. Das ist keine oberflächliche Freundlichkeit, sondern die charakteristische Grundhaltung der SX7: Jede neue Begegnung wird zunächst als mögliche Quelle von Freude und Verbindung gelesen, nicht als Risiko.</p>
+          <p class="vb-intro">Bei ›Bares für Rares‹ zeigt sich das in hunderten Episoden auf dieselbe Weise: Statt professioneller Distanz zu den Verkäufern entsteht binnen Sekunden echte, oft berührende Nähe &ndash; Umarmungen, gemeinsames Lachen, gelegentlich auch gemeinsame Tränen. ›Herzlich willkommen in unserer Familie!‹, sagte er einmal zu einer Expertin, beiden standen die Tränen in den Augen. Genau diese unmittelbare, intensive Ein-zu-eins-Begegnung &ndash; nicht das gemeinsame Projekt einer ganzen Gruppe wie bei der sozialen Sieben &ndash; ist der Kern der SX7.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Treue als Gegengewicht zur Rastlosigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> gibt der sexuellen Sieben einen Anker, den die reine Begeisterungsfähigkeit allein nicht liefert: das Bedürfnis nach Verlässlichkeit, Loyalität und einem sicheren Zuhause, zu dem man immer wieder zurückkehren kann. Lichter führte 15 Jahre lang sein eigenes Restaurant, die ›Oldiethek‹ in Rommerskirchen &ndash; kein rastloses Wandern von Projekt zu Projekt, sondern ein fester, über Jahre gepflegter Ort, an dem er seine Gäste persönlich empfing.</p>
+          <p class="vb-intro">Noch deutlicher zeigt sich der Sechserflügel in seiner Ehe: Seine Frau Nada lernte er in den frühen 1990er-Jahren kennen, als sie nach der Flucht vor dem Jugoslawienkrieg in seinem Restaurant arbeitete &ndash; er kümmerte sich um die junge Witwe, während er selbst mit gesundheitlichen und finanziellen Krisen kämpfte. Aus dieser Fürsorge wurde eine bis heute andauernde Beziehung von inzwischen fast dreißig Jahren. Sein eigenes Beziehungsrezept &ndash; bewusste Distanz im Wechsel mit Nähe, damit die Vorfreude nie erlischt &ndash; verbindet die sexuelle Intensität der Sieben mit dem Sicherheitsbedürfnis des Sechserflügels: Bindung soll halten, aber die Spannung soll nie ganz verschwinden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX7w6 zeigt sich in Lichters Fähigkeit, aus echter, sofortiger Zuneigung heraus mit fast jedem Menschen eine persönliche Verbindung herzustellen &ndash; eine seltene Gabe, die ›Bares für Rares‹ 2019 den Deutschen Fernsehpreis als bestes Factual Entertainment einbrachte und ihn zu einem der beliebtesten Gesichter des deutschen Fernsehens machte.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in den gesundheitlichen Warnsignalen, die er über Jahre überging: Mit 26 erlitt er einen Schlaganfall, mit 28 einen Herzinfarkt &ndash; Ereignisse, die typischerweise erst dann ernst genommen werden, wenn der Körper keine andere Wahl mehr lässt. Erst danach erfüllte er sich mit der ›Oldiethek‹ den lange aufgeschobenen Traum vom eigenen Restaurant. Sein 2016 erschienenes Buch ›Keine Zeit für Arschlöcher‹ trägt denselben Unterton: eine Dringlichkeit, die eigene begrenzte Zeit nicht mit den falschen Menschen oder der falschen Zurückhaltung zu verschwenden &ndash; eine Lektion, die er sich selbst erst über zwei überstandene Beinahe-Katastrophen erarbeiten musste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Schimpanse, der Ehrlichkeit über Perfektion stellt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sieben führt von der Flucht in ständig neue Begeisterung zur Erkenntnis <em>Auch im gegenwärtigen Moment, ohne Ablenkung, liegt genug Fülle.</em> Lichter selbst beschreibt seinen Anspruch schlicht: Er wolle geben, was er selbst gern empfangen würde, und dass die Menschen ihn als ehrlich in Erinnerung behalten &ndash; kein Schauspieler, der eine Rolle spielt, sondern privat derselbe wie vor der Kamera, wie langjährige Freunde bestätigen.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-thomas-gottschalk">Thomas Gottschalk</a> (SX7w6): Auch bei ihm entsteht die Wirkung aus sofortiger, unmittelbarer persönlicher Wärme im direkten Kontakt, getragen von jahrzehntelanger Verlässlichkeit im eigenen Format. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-thomas-gottschalk">Porträt zu Thomas Gottschalk</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
+      ])}
+    </div>
+  `);
+}

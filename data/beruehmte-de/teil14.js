@@ -1416,6 +1416,7 @@ export function thomasGottschalkPortraitPage() {
         {route:"subtype/sx7", label:"SX7 \u2013 Der Schimpanse: Subtyp-Profil"},
         {route:"beruehmte-hazel-brugger", label:"Portr\u00e4t: Hazel Brugger (SO7w8)"},
         {route:"beruehmte-jerry-lewis", label:"Portr\u00e4t: Jerry Lewis (SX7w6)"},
+        {route:"beruehmte-horst-lichter", label:"Portr\u00e4t: Horst Lichter (SX7w6)"},
       ])}
     </div>
   `);

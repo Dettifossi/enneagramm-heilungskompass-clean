@@ -2089,3 +2089,62 @@ export function steveJobsPortraitPage() {
     </div>
   `);
 }
+
+export function horstLichterPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-horst-lichter-portrait.jpg" alt="Horst Lichter" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Horst Lichter</p>
+        <p class="krim-portrait-typ">SX7w6 · Sexual Type 7 with a Six-Wing</p>
+        <p class="krim-portrait-subtitle">Chef, TV Host & Author, b. 1962 &ndash; "Bares für Rares" &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee with the Twirled Mustache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the sexual Seven &ndash; not an animal that observes from a distance, but one that jumps right into the middle of things, throws sparks, and draws every eye toward it. Horst Lichter, born in 1962 in Nettesheim near Cologne, began a cooking apprenticeship at fourteen, then lost his enthusiasm for cooking and worked for a time as a miner in a lignite plant &ndash; an early break that shows how little a once-chosen path could bind him permanently once the enthusiasm was gone.</p>
+          <p class="vb-intro">His signature look, the twirled mustache, is more than a surface detail: it makes him instantly recognizable &ndash; fitting for a personality that never hides behind reserve, but always shows up immediately, unmistakably, and with full presence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Seven: Instant Enthusiasm as a Life Principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the sexual Seven's subtype <em>suggestibility</em> &ndash; the ability and tendency to become immediately and unreservedly enthusiastic about a person or an idea, without checking it over first. Lichter formulates this exact pattern about himself: he likes almost everyone he meets right away &ndash; hardly anyone he doesn't warm to instantly. This is not superficial friendliness, but the characteristic core stance of the SX7: every new encounter is first read as a possible source of joy and connection, not as a risk.</p>
+          <p class="vb-intro">On "Bares für Rares," this shows up the same way across hundreds of episodes: instead of professional distance from the sellers, genuine, often touching closeness forms within seconds &ndash; hugs, shared laughter, occasionally shared tears. "Welcome to our family!" he once said to an expert, both of them with tears in their eyes. This exact immediate, intense one-on-one encounter &ndash; not a whole group's shared project, as with the social Seven &ndash; is the core of the SX7.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Loyalty as a Counterweight to Restlessness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> gives the sexual Seven an anchor that pure capacity for enthusiasm alone cannot provide: the need for reliability, loyalty, and a safe home to return to again and again. Lichter ran his own restaurant, the "Oldiethek" in Rommerskirchen, for 15 years &ndash; not a restless wandering from project to project, but a fixed place, tended for years, where he personally welcomed his guests.</p>
+          <p class="vb-intro">The Six-wing shows even more clearly in his marriage: he met his wife Nada in the early 1990s, when she was working at his restaurant after fleeing the Yugoslav Wars &ndash; he cared for the young widow while he himself was battling health and financial crises. Out of that care grew a relationship that has now lasted almost thirty years. His own relationship recipe &ndash; deliberate distance alternating with closeness, so anticipation never fades &ndash; combines the sexual Seven's intensity with the Six-wing's need for security: bonds should hold, but the tension should never fully disappear.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Sexual Seven with a Six-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX7w6 shows in Lichter's ability to form a personal connection with almost anyone, out of genuine, instant affection &ndash; a rare gift that earned "Bares für Rares" the German Television Award for best factual entertainment in 2019 and made him one of the most beloved faces on German television.</p>
+          <p class="vb-intro">The shadow shows in the health warning signs he overrode for years: at 26 he suffered a stroke, at 28 a heart attack &ndash; events typically taken seriously only once the body leaves no other choice. Only afterward did he fulfill his long-postponed dream of his own restaurant with the "Oldiethek." His 2016 book "Keine Zeit für Arschlöcher" ("No Time for Assholes") carries the same undertone: an urgency not to waste one's own limited time on the wrong people or the wrong restraint &ndash; a lesson he had to earn himself through two survived near-catastrophes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Chimpanzee Who Puts Honesty Above Perfection</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven's healing path leads from fleeing into ever-new enthusiasm to the insight <em>Even in the present moment, without distraction, there is enough fullness.</em> Lichter himself describes his own standard simply: he wants to give what he himself would like to receive, and for people to remember him as honest &ndash; not an actor playing a role, but privately the same as on camera, as longtime friends confirm.</p>
+          <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-thomas-gottschalk">Thomas Gottschalk</a> (SX7w6): his impact, too, arises from instant, immediate personal warmth in direct contact, carried by decades of reliability within his own format. More in the <a href="javascript:void(0)" data-route="beruehmte-thomas-gottschalk">portrait of Thomas Gottschalk</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-jerry-lewis", label:"Portrait: Jerry Lewis (SX7w6)"},
+      ])}
+    </div>
+  `);
+}
