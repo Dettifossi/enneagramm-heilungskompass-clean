@@ -2072,3 +2072,68 @@ export function peterMaffayPortraitPage() {
     </div>
   `);
 }
+
+export function heinzRuehmannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-heinz-ruehmann-portrait.jpg" alt="Heinz Rühmann" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heinz Rühmann</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Schauspieler, 1902–1994 – Tierentsprechung: Weißkopfseeadler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler in der Rolle des harmlosen Nachbarn</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Weißkopfseeadler</strong> ist das Tier der selbsterhaltenden Eins: ein wachsamer, in sich gekehrter Blick, der die eigene kleine Welt in Ordnung hält, ohne sich lautstark in Szene zu setzen. Heinz Rühmann, über nahezu siebzig Jahre einer der erfolgreichsten deutschen Filmschauspieler, baute seine gesamte Karriere auf genau diesem Prinzip auf: Er spielte fast durchgängig den ehrlichen, schüchternen, humorvollen Normalbürger, der sich mit den kleinen Widrigkeiten des Alltags herumschlägt – nie den Helden, nie den Mächtigen.</p>
+          <p class="vb-intro">Zeitgenossen beschrieben ihn abseits der Kamera als auffällig schweigsamen, zurückhaltenden Mann – ein Kontrast zur komödiantischen Leinwandfigur, der genau die Selbsterhaltungs-Eins-Logik offenlegt: Öffentlichkeit wird über eine sorgfältig kontrollierte Rolle hergestellt, das eigentliche Selbst bleibt im Hintergrund geschützt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Perfektion im eigenen, überschaubaren Bereich</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins</strong> sucht Vollkommenheit nicht auf der großen gesellschaftlichen Bühne, sondern im eigenen, klar begrenzten Wirkungskreis – im eigenen Handwerk, der eigenen Disziplin, der eigenen kleinen Ordnung. Rühmann erwarb sich bereits 1932, kurz nach seinem Durchbruch mit ›Die Drei von der Tankstelle‹, aus dem eigenen Gagen-Ersparten den Flugschein – eine höchst anspruchsvolle technische Fertigkeit, die er sich selbst, außerhalb der Öffentlichkeit, akribisch aneignete und über Jahrzehnte pflegte, bis er in Fliegerkreisen als ernstzunehmender Sportpilot galt.</p>
+          <p class="vb-intro">Diese Präzision übertrug sich auf sein Handwerk: Sein komödiantisches Timing, die genaue Kontrolle über Tonfall und Pause, wurde von Zeitgenossen als so durchdacht beschrieben, dass aus der scheinbar leichten Rolle des tollpatschigen Normalbürgers eine hochpräzise schauspielerische Konstruktion wurde – Perfektion, die sich als Mühelosigkeit tarnt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Verschmelzung mit der harmlosen Rolle statt offener Konfrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> zeigt sich bei Rühmann in der beständigen Tendenz, Konflikten und moralischen Zuspitzungen auszuweichen, indem er ganz in seiner harmlos-komischen Bühnenfigur aufging. Vor dem Entnazifizierungsausschuss 1946 begründete er die nahtlose Fortsetzung seiner Karriere mit dem schlichten Satz: „Ich bin doch nur Schauspieler und spiele eben gern" – eine Selbstverkleinerung, die jede politische oder moralische Auseinandersetzung mit der eigenen Rolle im NS-System von vornherein abwehrt, indem sie die Frage selbst für unpassend erklärt.</p>
+          <p class="vb-intro">Diese Ausweichbewegung war lebenslang wirksam: Statt sich öffentlich mit der Ambivalenz seiner Haltung während des Nationalsozialismus auseinanderzusetzen, blieb er nach 1945 in der bereits etablierten, unpolitischen Rolle des sympathischen Publikumslieblings – ein Rückzug ins Vertraute, der Konfrontation dauerhaft vermied, statt sie zu suchen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Scheidung von 1938: Stille Fürsorge unter äußerem Zwang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zehn Tage nach den Novemberpogromen 1938 traf sich Rühmann, vermittelt durch Gustav Gründgens, mit Hermann Göring, um die Verfolgung seiner als jüdisch geltenden Ehefrau Maria Bernheim abzuwenden. Göring machte klar, dass eine Scheidung unumgänglich sei – eine Anordnung, die alle prominenten Künstler in „gemischten" Ehen betraf. Rühmann fügte sich dieser Forderung, statt öffentlichen Widerstand zu riskieren; Historiker sind sich bis heute uneins, ob dabei Karrieredruck oder nackte Existenzangst überwog.</p>
+          <p class="vb-intro">Bemerkenswert ist, was danach geschah: Maria Bernheim gelang über eine neue Ehe mit einem schwedischen Schauspieler die Ausreise, und Rühmann unterstützte sie auch nach der Emigration finanziell weiter. Genau das ist die Doppelbewegung von Neunerflügel und Einser-Kern: Nach außen die konfliktvermeidende Anpassung an die übermächtige Autorität, im Verborgenen aber die stille Fortsetzung dessen, was die eigene innere Ordnung als richtig empfand – Verantwortung, die nicht öffentlich verhandelt, sondern leise weitergetragen wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 zeigt sich in der Verlässlichkeit, mit der Rühmann fast siebzig Jahre lang ein hohes handwerkliches Niveau hielt, ohne je auf Skandal oder Selbstinszenierung angewiesen zu sein – über 100 Filme, getragen von stiller Disziplin statt lauter Selbstdarstellung.</p>
+          <p class="vb-intro">Der Schatten liegt in genau der Ausweichbewegung, die ihn zeitlebens begleitete: Die moralische Ambivalenz seiner Haltung im Nationalsozialismus wurde nie öffentlich aufgearbeitet, sondern hinter derselben freundlich-harmlosen Rollenfigur verborgen, die ihm zuvor die Karriere gesichert hatte. Für die selbsterhaltende Eins mit Neunerflügel kann die eigene Konfliktscheu so zur bequemen Ausrede werden, sich der eigenen Verantwortung nicht stellen zu müssen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Adler, der im Verborgenen kreiste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1995 wurde Heinz Rühmann posthum mit der Goldenen Kamera als „größter deutscher Schauspieler des Jahrhunderts" geehrt – eine Anerkennung, die genau jenes Paradox seines Lebens fortschreibt: öffentlich der bescheidene, zugängliche Publikumsliebling, im Kern ein Mensch, der Konfrontation mied und stattdessen sein eigenes, überschaubares Handwerk zur höchstmöglichen Perfektion trieb.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="krankheitsportraets-anthony-hopkins">Anthony Hopkins</a> (SE1w9) &ndash; auch bei ihm zeigt sich dieselbe Kombination aus jahrzehntelanger, präzise disziplinierter Schauspielkunst und einer zurückgezogenen, öffentlich kaum ausgestellten Privatperson dahinter. Mehr dazu im <a href="javascript:void(0)" data-route="krankheitsportraets-anthony-hopkins">Krankheitsporträt zu Anthony Hopkins</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Weißkopfseeadler: Subtyp-Profil"},
+        {route:"krankheitsportraets-anthony-hopkins", label:"Krankheitsporträt: Anthony Hopkins (SE1w9)"},
+        {route:"krankheitsportraets-konrad-adenauer", label:"Krankheitsporträt: Konrad Adenauer (SE1w9)"},
+      ])}
+    </div>
+  `);
+}

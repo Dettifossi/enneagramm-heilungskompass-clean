@@ -155,6 +155,7 @@ export function anthonyHopkinsKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
         {route:"krankheitsportraets-konrad-adenauer", label:"Krankheitsporträt: Konrad Adenauer (SE1w9) – dieselbe stille Prinzipientreue"},
+        {route:"beruehmte-heinz-ruehmann", label:"Porträt: Heinz Rühmann (SE1w9) – ebenfalls Schauspieler, dieselbe stille Disziplin"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se1", label:"Subtyp-Profil SE1"},
       ])}

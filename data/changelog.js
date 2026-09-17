@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2325", date: "2026-09-17", text: "Neues Porträt: Heinz Rühmann (SE1w9) – deutscher Schauspieler, über 100 Filme, Sportpilot seit 1932.", text_en: "New portrait: Heinz Rühmann (SE1w9) – German actor, over 100 films, sport pilot since 1932.", route: "beruehmte-heinz-ruehmann" },
     { version: "v2324", date: "2026-09-17", text: "Neu: Tagesimpulse lassen sich jetzt dauerhaft merken – über ›Den Impuls merken‹ im täglichen Popup, abrufbar unter ›Meine gemerkten Impulse‹.", text_en: "New: daily impulses can now be saved permanently – via \"Save This Impulse\" on the daily popup, accessible under \"My Saved Impulses\".", route: "gemerkte-impulse" },
     { version: "v2323", date: "2026-09-16", text: "Neues Lernspiel: Comicfiguren-Quiz – Grundtyp oder vollen Subtyp anhand der Karikatur erraten, 2 Schwierigkeitsstufen.", text_en: "New learning game: Comic Character Quiz – guess the base type or full subtype from the caricature, 2 difficulty levels.", route: "subtyp-comicquiz" },
     { version: "v2322", date: "2026-09-16", text: "Subtyp-Detailseiten: Jede der 27 Seiten endet jetzt mit einer Karikatur des jeweiligen Subtyps.", text_en: "Subtype detail pages: each of the 27 pages now ends with a caricature of that subtype.", route: "subtype/se1" },

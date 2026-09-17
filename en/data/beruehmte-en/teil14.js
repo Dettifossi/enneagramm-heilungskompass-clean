@@ -2071,3 +2071,68 @@ export function peterMaffayPortraitPage() {
     </div>
   `);
 }
+
+export function heinzRuehmannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-heinz-ruehmann-portrait.jpg" alt="Heinz Rühmann" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Heinz Rühmann</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-Wing</p>
+        <p class="krim-portrait-subtitle">German actor, 1902–1994 &ndash; Animal correspondence: Bald Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle Playing the Harmless Neighbor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>bald eagle</strong> is the animal of the self-preservation One: a watchful, inward-turned gaze that keeps its own small world in order without putting itself loudly on display. Heinz Rühmann, one of the most successful German film actors for nearly seventy years, built his entire career on exactly this principle: he almost always played the honest, shy, humorous ordinary man struggling with the small adversities of everyday life – never the hero, never the powerful.</p>
+          <p class="vb-intro">Contemporaries described him off-camera as a strikingly quiet, reserved man – a contrast to his comedic screen persona that lays bare exactly the self-preservation One's logic: public presence is generated through a carefully controlled role, while the actual self stays protected in the background.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: Perfection Within One's Own, Manageable Domain</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One</strong> seeks perfection not on the grand social stage, but within its own, clearly bounded sphere – its own craft, its own discipline, its own small order. Right after his breakthrough with ›Die Drei von der Tankstelle‹, Rühmann used his own savings to earn his pilot's license in 1932 – a highly demanding technical skill he taught himself, meticulously and away from the public eye, and maintained for decades, until he was regarded as a serious sport pilot within aviation circles.</p>
+          <p class="vb-intro">This precision carried over into his craft: his comedic timing, the exact control of tone and pause, was described by contemporaries as so deliberate that the seemingly effortless role of the bumbling everyman became a highly precise acting construction – perfection disguised as ease.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Merging Into the Harmless Role Instead of Open Confrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> shows up in Rühmann as a persistent tendency to sidestep conflict and moral confrontation by fully dissolving into his harmless, comedic stage persona. Before the denazification committee in 1946, he explained the seamless continuation of his career with the simple sentence: "I am after all an actor and I like to play" – a self-minimization that preemptively deflects any political or moral reckoning with his own role under the Nazi system by declaring the question itself out of place.</p>
+          <p class="vb-intro">This evasive move remained effective for life: rather than publicly confronting the ambivalence of his stance during National Socialism, he stayed after 1945 in the already-established, apolitical role of the likeable audience favorite – a retreat into the familiar that permanently avoided confrontation instead of seeking it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The 1938 Divorce: Quiet Care Under Outside Pressure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ten days after the November pogroms of 1938, Rühmann met with Hermann Göring, arranged through Gustav Gründgens, to try to avert the persecution of his wife Maria Bernheim, who was classified as Jewish. Göring made clear that divorce was unavoidable – a directive that applied to all prominent artists in "mixed" marriages. Rühmann complied with this demand rather than risk public resistance; historians still disagree today on whether career pressure or sheer existential fear predominated.</p>
+          <p class="vb-intro">What happened afterward is notable: Maria Bernheim managed to emigrate through a new marriage to a Swedish actor, and Rühmann continued to support her financially even after her emigration. That is exactly the double movement of the Nine-wing and the One's core: outwardly, conflict-avoidant compliance with an overwhelming authority, but privately, the quiet continuation of what his own inner order held to be right – responsibility that is not negotiated publicly, but carried forward silently.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One with a Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE1w9 shows in the reliability with which Rühmann maintained a high craft standard for nearly seventy years, without ever needing scandal or self-promotion – over 100 films, carried by quiet discipline rather than loud self-display.</p>
+          <p class="vb-intro">The shadow lies in exactly the evasive move that accompanied him throughout his life: the moral ambivalence of his stance under National Socialism was never publicly worked through, but hidden behind the same friendly, harmless character that had secured his career in the first place. For the self-preservation One with a Nine-wing, one's own conflict avoidance can become a convenient excuse not to face one's own responsibility.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Eagle That Circled Unseen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1995, Heinz Rühmann was posthumously honored with the Golden Camera as "the greatest German actor of the century" – a recognition that continues exactly the paradox of his life: publicly the modest, approachable audience favorite, at his core a man who avoided confrontation and instead drove his own, manageable craft to the highest possible perfection.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="krankheitsportraets-anthony-hopkins">Anthony Hopkins</a> (SP1w9) &ndash; in him too, the same combination of decades of precisely disciplined acting craft and a withdrawn private person barely put on public display shows up. More in the <a href="javascript:void(0)" data-route="krankheitsportraets-anthony-hopkins">illness portrait of Anthony Hopkins</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SE1 – The Bald Eagle: Subtype Profile"},
+        {route:"krankheitsportraets-anthony-hopkins", label:"Illness Portrait: Anthony Hopkins (SP1w9)"},
+        {route:"krankheitsportraets-konrad-adenauer", label:"Illness Portrait: Konrad Adenauer (SP1w9)"},
+      ])}
+    </div>
+  `);
+}
