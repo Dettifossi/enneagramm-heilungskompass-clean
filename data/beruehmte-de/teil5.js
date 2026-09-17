@@ -2094,3 +2094,62 @@ export function wolfgangJoopPortraitPage() {
     </div>
   `);
 }
+
+export function halleBerryPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-halle-berry-portrait.jpg" alt="Halle Berry – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Halle Berry</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1966 &ndash; erste Schwarze Oscar-Preisträgerin als Beste Hauptdarstellerin &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der sich sein Territorium hart erarbeitete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das sein Können nicht auf der großen Bühne beweist, sondern in beharrlicher, oft unsichtbarer Arbeit am eigenen Territorium. Halle Berry, 1966 in Cleveland, Ohio, als Tochter eines afroamerikanischen Vaters und einer britischen Mutter geboren, wuchs mit einem gewalttätigen, alkoholkranken Vater auf, der die Familie verließ, als sie vier war. Ihre Mutter, eine psychiatrische Krankenschwester, zog sie allein groß und schickte sie zur Verarbeitung dieser frühen Erfahrungen in Therapie.</p>
+          <p class="vb-intro">An einer fast ausschließlich weißen Schule früh mit Rassismus konfrontiert, entwickelte Berry schon als Teenager den Ehrgeiz, in möglichst vielem zu überzeugen: Cheerleaderin, Schülersprecherin, Redakteurin der Schülerzeitung, Ehrenschülerin &ndash; ›Miss Alles‹, wie sie es selbst später nannte. Kein müheloses Talent, sondern hart erarbeitete Kompetenz auf jedem einzelnen Feld, das sie sich vornahm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Der Körper als bewiesene Disziplin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo beschrieb die selbsterhaltende Drei über das Thema <em>Sicherheit durch die eigene Tüchtigkeit</em>: Wert entsteht aus der konkreten, überprüfbaren Leistung, nicht aus der öffentlichen Zurschaustellung. Bei Berry zeigt sich das besonders eindrücklich im Umgang mit ihrer Diabetes-Erkrankung Typ 1, die 1989 diagnostiziert wurde, nachdem sie während der Dreharbeiten zu einer Fernsehserie ins diabetische Koma gefallen war. Statt die Krankheit die Karriere bestimmen zu lassen, unterwarf sie sich einer strikten Selbstkontrolle aus Ernährung, Blutzuckermessung und täglichem Insulin &ndash; Management durch reine Disziplin, nicht durch Rückzug.</p>
+          <p class="vb-intro">Dieselbe Haltung zeigt sich in ihrem bis heute fast täglichen Fitnessprogramm: Fünf bis sechs Trainingseinheiten pro Woche, oft über anderthalb Stunden, noch weit jenseits der sechzig. Ihr langjähriger Trainer nannte sie ›die am härtesten arbeitende Schauspielerin‹, die er je erlebt habe. Für die SE3 ist der eigene Körper kein Schauobjekt, sondern der Beweis der eigenen Tüchtigkeit &ndash; nicht Talent, sondern tägliche, überprüfbare Arbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Sichtbarkeit im Dienst anderer Frauen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> gibt der selbsterhaltenden Drei eine Qualität, die über reine Selbstwirksamkeit hinausgeht: den Wunsch, die eigene Position und Sichtbarkeit für andere einzusetzen. Nach ihrem historischen Oscar-Gewinn 2002 &ndash; als erste Schwarze Hauptdarstellerin überhaupt &ndash; nutzte Berry ihre neue Plattform wiederholt, um öffentlich über häusliche Gewalt zu sprechen, aus eigener Erfahrung in früheren Beziehungen, und unterstützt seither Organisationen wie das Jenesse Center, das Frauen bei häuslicher Gewalt hilft.</p>
+          <p class="vb-intro">Auch ihr offener Umgang mit der eigenen Diabetes-Diagnose diente nicht nur der eigenen Krankheitsbewältigung, sondern machte sie zu einer der bekanntesten öffentlichen Fürsprecherinnen für Typ-1-Diabetes-Aufklärung. Der Zweierflügel zeigt sich hier als Übersetzung der eigenen, hart erkämpften Kompetenz in konkrete Fürsorge für andere, die Ähnliches durchleben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 zeigt sich in Berrys Fähigkeit, aus einer von Missbrauch und Diskriminierung geprägten Kindheit heraus eine der historisch bedeutsamsten Karrieren des amerikanischen Kinos zu formen &ndash; getragen nicht von mühelosem Glanz, sondern von nachweisbarer, täglich erneuerter Disziplin.</p>
+          <p class="vb-intro">Der Schatten zeigt sich darin, wie sehr Wert und Sicherheit an sichtbare Leistung gebunden bleiben: Berry sprach offen darüber, sich in der Öffentlichkeit oft beweisen zu müssen, und die Medien hätten Schwierigkeiten gehabt, sie nach ihrem Domestic-Violence-Engagement noch als ›empowerte Frau‹ statt als Opfer wahrzunehmen &ndash; ein Ringen darum, dass die eigene Stärke nicht ständig neu bewiesen werden muss, um anerkannt zu bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Waschbär, der die eigene Verwundbarkeit zur Stärke anderer machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Überzeugung <em>Ich bin nur wert, was ich beweise</em> zur Erkenntnis <em>Ich bin wertvoll, auch wenn ich nichts mehr beweisen muss.</em> Berrys Weg vom stillen Überleben einer gewalttätigen Kindheit zur öffentlichen Fürsprecherin für andere Betroffene zeigt genau diesen Übergang: Aus dem, was einst verborgen werden musste, wurde eine Quelle konkreter Hilfe für andere.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-penelope-cruz">Penélope Cruz</a> (SE3w2): Auch bei ihr zeigt sich dieselbe Kombination aus hart erarbeitetem schauspielerischem Können und einer fürsorglichen, nie aufdringlichen Nutzung der eigenen Bekanntheit. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-penelope-cruz">Porträt zu Penélope Cruz</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-penelope-cruz", label:"Porträt: Penélope Cruz (SE3w2)"},
+        {route:"beruehmte-audrey-tautou", label:"Porträt: Audrey Tautou (SE3w2)"},
+      ])}
+    </div>
+  `);
+}

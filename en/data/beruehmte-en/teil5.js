@@ -2094,3 +2094,62 @@ export function wolfgangJoopPortraitPage() {
     </div>
   `);
 }
+
+export function halleBerryPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-halle-berry-portrait.jpg" alt="Halle Berry" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Halle Berry</p>
+        <p class="krim-portrait-typ">SP3w2 · Self-Preservation Type 3 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">Actress, b. 1966 &ndash; first Black woman to win the Best Actress Oscar &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon Who Earned Its Territory the Hard Way</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that doesn't prove its ability on the big stage, but through persistent, often invisible work on its own territory. Halle Berry, born in 1966 in Cleveland, Ohio, to an African American father and a British mother, grew up with a violent, alcoholic father who left the family when she was four. Her mother, a psychiatric nurse, raised her alone and sent her to therapy to help process these early experiences.</p>
+          <p class="vb-intro">Confronted with racism early on at a nearly all-white school, Berry developed the ambition as a teenager to excel at almost everything: cheerleader, student senator, newspaper editor, honor roll student &ndash; "Miss Everything," as she herself later called it. Not effortless talent, but hard-earned competence in every single field she took on.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: The Body as Proven Discipline</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo described the self-preservation Three through the theme of <em>security through one's own competence</em>: worth arises from the concrete, verifiable achievement itself, not from public display. This shows especially vividly in how Berry handles her type 1 diabetes, diagnosed in 1989 after she fell into a diabetic coma while shooting a television series. Instead of letting the illness dictate her career, she submitted herself to strict self-control through diet, blood sugar monitoring, and daily insulin &ndash; management through pure discipline, not withdrawal.</p>
+          <p class="vb-intro">The same stance shows in her still nearly daily fitness routine: five to six training sessions a week, often over ninety minutes, well past her sixtieth year. Her longtime trainer called her "the hardest working actress" he had ever encountered. For the SE3, the body is not a display object, but proof of one's own competence &ndash; not talent, but daily, verifiable work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Visibility in Service of Other Women</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> gives the self-preservation Three a quality that goes beyond pure self-efficacy: the wish to put one's own position and visibility to use for others. After her historic Oscar win in 2002 &ndash; the first Black woman to win Best Actress &ndash; Berry repeatedly used her new platform to speak publicly about domestic violence, drawing on her own experience in earlier relationships, and has since supported organizations like the Jenesse Center, which helps women affected by domestic violence.</p>
+          <p class="vb-intro">Her openness about her own diabetes diagnosis, too, served not only her own coping with the illness, but made her one of the best-known public advocates for type 1 diabetes awareness. The Two-wing shows here as the translation of her own, hard-won competence into concrete care for others going through something similar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Three with a Two-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3w2 shows in Berry's ability to build, out of a childhood marked by abuse and discrimination, one of the most historically significant careers in American cinema &ndash; carried not by effortless shine, but by demonstrable, daily-renewed discipline.</p>
+          <p class="vb-intro">The shadow shows in how closely worth and security remain tied to visible achievement: Berry has spoken openly about often having to prove herself in public, and that the media struggled to see her as an "empowered woman" rather than a victim after her domestic-violence advocacy &ndash; a struggle for her own strength not to have to be constantly re-proven in order to stay recognized.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Raccoon Who Turned Its Own Vulnerability into Strength for Others</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's healing path leads from the conviction <em>I am only worth what I prove</em> to the insight <em>I am valuable, even when I no longer have to prove anything.</em> Berry's path from the quiet survival of a violent childhood to a public advocate for other survivors shows exactly this transition: what once had to be hidden became a source of concrete help for others.</p>
+          <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-penelope-cruz">Penélope Cruz</a> (SP3w2): she too shows the same combination of hard-earned acting skill and a caring, never intrusive use of her own fame. More in the <a href="javascript:void(0)" data-route="beruehmte-penelope-cruz">portrait of Penélope Cruz</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-penelope-cruz", label:"Portrait: Penélope Cruz (SP3w2)"},
+        {route:"beruehmte-audrey-tautou", label:"Portrait: Audrey Tautou (SP3w2)"},
+      ])}
+    </div>
+  `);
+}

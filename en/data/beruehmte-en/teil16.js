@@ -2152,6 +2152,7 @@ export function audreyTautouPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-penelope-cruz", label:"Portrait: Penélope Cruz (SP3w2)"},
+        {route:"beruehmte-halle-berry", label:"Portrait: Halle Berry (SP3w2)"},
         {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
       ])}
     </div>

@@ -1223,6 +1223,7 @@ export function penelopeCruzPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-audrey-tautou", label:"Portrait: Audrey Tautou (SP3w2)"},
+        {route:"beruehmte-halle-berry", label:"Portrait: Halle Berry (SP3w2)"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
         {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4)"},
       ])}
