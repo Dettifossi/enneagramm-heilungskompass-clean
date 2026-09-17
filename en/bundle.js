@@ -3703,6 +3703,7 @@ text.nav = [
     { route: "beziehungen", label: "Relationship Compass" },
     { route: "kompatibilitaets-check", label: "Compatibility Check (compare two subtypes)" },
     { route: "wachstumstagebuch", label: "Growth Journal (daily ritual with streak tracking)" },
+    { route: "gemerkte-impulse", label: "My Saved Impulses" },
     { route: "kommunikationsguide", label: "Communication Guide" },
     { route: "situationskompass", label: "Situation Compass" },
     { route: "krisenkompass", label: "Crisis Compass" },
@@ -14702,6 +14703,24 @@ function bindEvents() {
   // Favorites – Listeneinträge
   document.querySelectorAll('.fav-item').forEach(el => {
     el.addEventListener('click', () => go(el.dataset.route));
+  });
+  // Saved impulses – clear all
+  const _giClearBtn = document.getElementById('gi-clear-btn');
+  if (_giClearBtn) {
+    _giClearBtn.addEventListener('click', () => {
+      if (confirm('Delete all saved impulses?')) { _setGemerkteImpulse([]); render(); }
+    });
+  }
+  // Saved impulses – delete single entry
+  document.querySelectorAll('.gi-item-del').forEach(el => {
+    el.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const idx = parseInt(el.dataset.idx, 10);
+      const a = _getGemerkteImpulse();
+      a.splice(idx, 1);
+      _setGemerkteImpulse(a);
+      render();
+    });
   });
   // Kriminalporträt-Filter – Karten-Klick + Initialisierung
   if (document.getElementById('kf-list')) {
@@ -49322,6 +49341,18 @@ function datenschutzPage() {
   `);
 }
 
+function _getGemerkteImpulse() {
+  try { return JSON.parse(localStorage.getItem("kompass-gemerkte-impulse") || "[]"); } catch (e) { return []; }
+}
+function _setGemerkteImpulse(a) { localStorage.setItem("kompass-gemerkte-impulse", JSON.stringify(a)); }
+function _saveImpuls(impuls, dateStr) {
+  const a = _getGemerkteImpulse();
+  if (a.some(x => x.date === dateStr)) return false;
+  a.unshift({ date: dateStr, titel: impuls.titel, text: impuls.text, impuls: impuls.impuls });
+  _setGemerkteImpulse(a);
+  return true;
+}
+
 function showTagesimpuls() {
   const IMPULS_KEY = "enneagramm-kompass:tagesimpuls";
   const today = new Date().toISOString().slice(0, 10);
@@ -49344,7 +49375,7 @@ function showTagesimpuls() {
       <p class="tagesimpuls-card__impuls"><em>${impuls.impuls}</em></p>
       <p class="tagesimpuls-card__autor">— Detlef Rathmer</p>
       <div class="tagesimpuls-card__actions">
-        <button class="tagesimpuls-card__btn">Take the Impulse With You ✦</button>
+        <button class="tagesimpuls-card__btn">Save This Impulse ✦</button>
         <button class="tagesimpuls-card__share">↗ Share</button>
       </div>
     </div>
@@ -49357,7 +49388,13 @@ function showTagesimpuls() {
     setTimeout(() => card.remove(), 350);
   };
   card.querySelector(".tagesimpuls-card__close").addEventListener("click", close);
-  card.querySelector(".tagesimpuls-card__btn").addEventListener("click", close);
+  card.querySelector(".tagesimpuls-card__btn").addEventListener("click", (e) => {
+    _saveImpuls(impuls, today);
+    const btn = e.currentTarget;
+    btn.textContent = "Saved ✓";
+    btn.disabled = true;
+    setTimeout(close, 700);
+  });
   card.querySelector(".tagesimpuls-card__share").addEventListener("click", () => {
     const shareText = `„${impuls.impuls}“ \u2014 Detlef Rathmer\nhttps://dettifossi.github.io/enneagramm-heilungskompass/`;
     if (navigator.share) { navigator.share({ text: shareText }); }
@@ -52418,6 +52455,50 @@ function favoritenPage() {
   );
 }
 
+function gemerkteImpulsePage() {
+  const items = _getGemerkteImpulse();
+  const emptyMsg = '<p class="vb-intro" style="color:var(--muted);padding:1rem 0;">'
+    + 'No impulses saved yet.<br>'
+    + 'Tap "Save This Impulse" on the daily impulse popup to keep it here permanently.'
+    + '</p>';
+  const fmtDate = d => { try { return new Date(d).toLocaleDateString("en-US", { day: "2-digit", month: "2-digit", year: "numeric" }); } catch(e) { return d; } };
+  const list = items.map((it, i) => `
+    <div class="gi-item" data-idx="${i}">
+      <div class="gi-item-head">
+        <span class="gi-item-date">${fmtDate(it.date)}</span>
+        <button class="gi-item-del" data-idx="${i}" aria-label="Delete" title="Delete">✕</button>
+      </div>
+      <h3 class="gi-item-titel">${it.titel}</h3>
+      <p class="gi-item-impuls"><em>${it.impuls}</em></p>
+    </div>
+  `).join('');
+  const clearBtn = items.length > 0
+    ? '<button id="gi-clear-btn" class="fav-clear-btn">Clear All</button>'
+    : '';
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("gemerkte-impulse")}
+      <div class="page-content">
+        <p class="eyebrow">Practice &middot; My Saved Impulses</p>
+        <h1 class="section-title">My Saved Impulses</h1>
+        <p class="psycho-intro">All daily impulses you've saved via "Save This Impulse" on the daily popup, in one place.</p>
+        ${items.length === 0 ? emptyMsg : `<div class="gi-list">${list}</div>`}
+        ${clearBtn}
+      </div>
+    </div>
+    <style>
+      .gi-list { display:flex; flex-direction:column; gap:0.9rem; max-width:560px; margin:0 auto 1.5rem; }
+      .gi-item { border:1px solid var(--line,var(--border)); border-radius:12px; padding:1rem 1.1rem; background:var(--card,var(--paper)); }
+      .gi-item-head { display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem; }
+      .gi-item-date { font-size:0.78rem; color:var(--muted); text-transform:uppercase; letter-spacing:0.04em; }
+      .gi-item-del { background:none; border:none; color:var(--muted); cursor:pointer; font-size:0.95rem; padding:0.1rem 0.3rem; }
+      .gi-item-del:hover { color:#c0392b; }
+      .gi-item-titel { font-family:'EB Garamond',serif; font-size:1.1rem; margin:0 0 0.4rem; color:var(--ink); }
+      .gi-item-impuls { margin:0; font-size:0.92rem; color:var(--ink); }
+    </style>
+  `);
+}
+
 
 // ── Foto-Crop-Dialog ────────────────────────────────────────────────────────
 function openCropDialog(src, onConfirm) {
@@ -53739,6 +53820,7 @@ function subtypeSchaubilderPage() {
       "kriminalpsychologie-paul-ogorzow": paulOgorzowPortraitPage,
       "kriminalpsychologie-frank-abagnale-jr": frankAbagnalePortraitPage,
     "favoriten": favoritenPage,
+    "gemerkte-impulse": gemerkteImpulsePage,
       "kriminalpsychologie-heinrich-pommerenke": heinrichPommerenkePortraitPage,
       "kriminalpsychologie-gesche-gottfried": gescheGottfriedPortraitPage,
       "kriminalpsychologie-rudolf-pleil": rudolfPleilPortraitPage,
