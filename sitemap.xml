@@ -487,6 +487,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kompass.verlagshausrathmer.com/sprachstile-9-typen/</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kompass.verlagshausrathmer.com/subtyp-comicfiguren/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -11372,6 +11378,12 @@
   </url>
   <url>
     <loc>https://kompass.verlagshausrathmer.com/en/montagmorgen-gedanken-9-typen/</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kompass.verlagshausrathmer.com/en/sprachstile-9-typen/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
