@@ -2091,7 +2091,7 @@ export function heinzRuehmannPortraitPage() {
         <h2 class="vb-section">1. Der Adler in der Rolle des harmlosen Nachbarn</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Weißkopfseeadler</strong> ist das Tier der selbsterhaltenden Eins: ein wachsamer, in sich gekehrter Blick, der die eigene kleine Welt in Ordnung hält, ohne sich lautstark in Szene zu setzen. Heinz Rühmann, über nahezu siebzig Jahre einer der erfolgreichsten deutschen Filmschauspieler, baute seine gesamte Karriere auf genau diesem Prinzip auf: Er spielte fast durchgängig den ehrlichen, schüchternen, humorvollen Normalbürger, der sich mit den kleinen Widrigkeiten des Alltags herumschlägt – nie den Helden, nie den Mächtigen.</p>
-          <p class="vb-intro">Zeitgenossen beschrieben ihn abseits der Kamera als auffällig schweigsamen, zurückhaltenden Mann – ein Kontrast zur komödiantischen Leinwandfigur, der genau die Selbsterhaltungs-Eins-Logik offenlegt: Öffentlichkeit wird über eine sorgfältig kontrollierte Rolle hergestellt, das eigentliche Selbst bleibt im Hintergrund geschützt.</p>
+          <p class="vb-intro">Zeitgenossen beschrieben ihn abseits der Kamera als auffällig schweigsamen, zurückhaltenden Mann – ein Kontrast zur komödiantischen Leinwandfigur, der genau die Selbsterhaltungs-Einser-Logik offenlegt: Öffentlichkeit wird über eine sorgfältig kontrollierte Rolle hergestellt, das eigentliche Selbst bleibt im Hintergrund geschützt.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Eins: Perfektion im eigenen, überschaubaren Bereich</h2>
