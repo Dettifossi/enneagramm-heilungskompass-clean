@@ -1841,6 +1841,7 @@ export function margaretRutherfordPortraitPage() {
         {route:"beruehmte-kevin-james", label:"Porträt: Kevin James (SE9w8)"},
         {route:"krankheitsportraets-margaret-rutherford", label:"Krankheitsporträt: Margaret Rutherford (SE9w8) – Depression und Demenz"},
         {route:"beruehmte-stringer-davis", label:"Porträt: Stringer Davis (SE6w5) – ihr Ehemann"},
+        {route:"beruehmte-charles-laughton", label:"Porträt: Charles Laughton (SE9w8)"},
       ])}
     </div>
   `);

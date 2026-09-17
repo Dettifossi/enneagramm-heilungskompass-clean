@@ -2061,3 +2061,69 @@ export function haraldLeschPortraitPage() {
     </div>
   `);
 }
+
+export function charlesLaughtonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-charles-laughton-portrait.jpg" alt="Charles Laughton" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Charles Laughton</p>
+        <p class="krim-portrait-typ">SP9w8 · Self-Preservation Type 9 with an Eight-Wing</p>
+        <p class="krim-portrait-subtitle">Actor, 1899&ndash;1962 &ndash; "The Hunchback of Notre Dame," "Mutiny on the Bounty" &ndash; Animal correspondence: Elephant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. "I Have a Face Like the Back End of an Elephant"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Few Enneagram comparisons are as literally documented as this one: Charles Laughton described his own appearance in almost exactly these words &ndash; self-mocking, but with a real, lifelong shame beneath it that he never fully shed. The <strong>elephant</strong> is the animal of Type 9: heavy, unhurried, a presence that fills a room without conquering it. Laughton, born in Yorkshire in 1899 to a family of hoteliers, brought exactly this weight to the screen &ndash; as the tyrannical Captain Bligh in "Mutiny on the Bounty" (1935), as the disfigured bell-ringer Quasimodo (1939), and as Henry VIII, for which he won the Oscar in 1933.</p>
+          <p class="vb-intro">Contemporaries described him as a man who feared mirrors and believed his ugliness made love impossible for him &ndash; a self-perception that stood in stark contrast to his enormous critical acclaim.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Nine: Appetite as Refuge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo aptly called the <strong>self-preservation Nine (SP9)</strong> <em>appetite</em>: security through the comfort of sensory, concrete pleasures, through settling into what feels pleasant, covering over a deeper inner emptiness. Laughton was a passionate gourmet and cook, an enthusiastic art collector with a notable collection of modern paintings, and someone who loved to lose himself for hours in poetry and Shakespeare readings &ndash; pleasures he cultivated while avoiding any real reckoning with his own body throughout his life.</p>
+          <p class="vb-intro">His homosexuality, which he kept secret his entire life because it was both socially condemned and criminalized in his time, reinforced this refuge into comfort even further: instead of an open confrontation with his own identity, he settled into a carefully maintained, outwardly flawless bourgeois façade.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. A Marriage of Convenience That Still Held</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1929 he married the actress Elsa Lanchester &ndash; a union that by today's understanding was one of convenience, yet it served him as a reliable, unspectacular framework until his death in 1962. Lanchester knew of his homosexuality and stayed at his side regardless, in a partnership built more on mutual respect and a shared artistic life than on romantic passion &ndash; exactly the kind of habitual, load-bearing structure that gives the SP9 stability where a more honest but riskier openness seemed unbearable.</p>
+          <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-margaret-rutherford">Margaret Rutherford</a> (SP9w8): she too found in a late, unspectacular but reliable marriage (to Stringer Davis) exactly the kind of quiet routine that carried a far more painful inner reality without ever showing it publicly. More in the <a href="javascript:void(0)" data-route="beruehmte-margaret-rutherford">portrait of Margaret Rutherford</a>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Eight-Wing: Playing Tyrants, Not Being One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the self-preservation Nine a hidden intensity that is barely visible at rest but breaks through when it matters. Laughton, described privately as gentle, generous, and a patient, attentive teacher to younger actors, could summon a devastating, uncompromising harshness on screen &ndash; his Captain Bligh remains one of the most searing tyrant performances in film history.</p>
+          <p class="vb-intro">This Eight-wing force also showed in his work discipline: he prepared for roles with an almost obsessive thoroughness, studied source material for weeks, and demanded perfection of himself &ndash; a quiet, relentless determination behind the easygoing, comfortable façade.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The One Film He Ever Directed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1955 Laughton directed for the only time in his career: "The Night of the Hunter," a film now regarded as one of the most influential and idiosyncratic works in American cinema. On release, however, it flopped at the box office and was savaged by critics &ndash; a rejection that struck Laughton so deeply that he never directed again, retreating for the rest of his life into the more familiar, safer role of actor.</p>
+          <p class="vb-intro">This is the Nine's inertia in its purest form: rather than facing the painful disappointment again, he returned to the familiar, where he felt safe &ndash; even though it cost him a second artistic career that, as the film's posthumous rediscovery showed, might well have been worth pursuing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Gift: Weight That Carries Without Crushing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Charles Laughton gave to cinema was a rare ability: to fill characters with genuine weight, whether tyrannical or tragic, without ever letting them become caricatures. He translated his own deep shame about his appearance and his hidden identity into an acting presence that made visible exactly the humanity behind façades that he himself had to conceal his whole life.</p>
+          <p class="vb-intro">The elephant with an Eight-wing carries its burden with quiet strength &ndash; and Laughton's burden was twofold: that of a man who believed himself ugly, and that of a man who had to hide his true self his entire life. That some of the most searing screen performances of the twentieth century emerged from this is the quietest, greatest irony of his life.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se9", label:"SE9 – The Elephant: Subtype Profile"},
+        {route:"beruehmte-margaret-rutherford", label:"Portrait: Margaret Rutherford (SP9w8)"},
+        {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SP9w8)"},
+        {route:"beruehmte-abida-parveen", label:"Portrait: Abida Parveen (SP9w8)"},
+      ])}
+    </div>
+  `);
+}

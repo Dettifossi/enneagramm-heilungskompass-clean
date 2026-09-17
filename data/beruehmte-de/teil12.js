@@ -2111,3 +2111,69 @@ export function williamJamesPortraitPage() {
     </div>
   `);
 }
+
+export function charlesLaughtonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-charles-laughton-portrait.jpg" alt="Charles Laughton – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Charles Laughton</p>
+        <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltender Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, 1899&ndash;1962 &ndash; ›Der Glöckner von Notre Dame‹, ›Meuterei auf der Bounty‹ &ndash; Tierentsprechung: Elefant</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. „Ich habe das Gesicht eines Elefantenhinterteils"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kaum ein Enneagramm-Vergleich ist so wörtlich belegt wie dieser: Charles Laughton beschrieb sein eigenes Äußeres in genau diesen Worten &ndash; selbstironisch, aber mit einer echten, lebenslangen Scham darunter, die er nie ganz ablegte. Der <strong>Elefant</strong> ist das Tier des Typs 9: schwer, unaufgeregt, mit einer Präsenz, die einen Raum füllt, ohne ihn zu erobern. Laughton, 1899 in Yorkshire als Sohn von Hoteliers geboren, brachte genau dieses Gewicht auf die Leinwand &ndash; als tyrannischer Captain Bligh in ›Meuterei auf der Bounty‹ (1935), als entstellter Glöckner Quasimodo (1939) und als Heinrich VIII., für den er 1933 den Oscar erhielt.</p>
+          <p class="vb-intro">Zeitgenossen beschrieben ihn als einen Mann, der sich vor Spiegeln fürchtete und der glaubte, seine Hässlichkeit mache Liebe für ihn unmöglich &ndash; eine Selbstwahrnehmung, die in scharfem Kontrast zu seiner enormen schauspielerischen Anerkennung stand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Neun: Appetit als Zuflucht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nannte die <strong>selbsterhaltende Neun (SE9)</strong> treffend <em>Appetit</em>: Sicherheit durch das Behagen sinnlicher, konkreter Genüsse, durch ein Sich-Einrichten im Angenehmen, das eine tiefer liegende innere Leere überdeckt. Laughton war ein leidenschaftlicher Feinschmecker und Koch, ein begeisterter Kunstsammler mit einer bemerkenswerten Sammlung moderner Gemälde, und jemand, der sich mit Vorliebe stundenlang in Lyrik und Shakespeare-Lesungen vertiefte &ndash; Genüsse, die er kultivierte, während er sein eigenes Verhältnis zu seinem Körper zeitlebens mied.</p>
+          <p class="vb-intro">Seine Homosexualität, die er zeitlebens geheim hielt, weil sie in seiner Zeit sowohl gesellschaftlich geächtet als auch strafbar war, verstärkte diese Zuflucht ins Behagliche zusätzlich: Statt einer offenen Auseinandersetzung mit der eigenen Identität richtete er sich in einer sorgfältig gepflegten, äußerlich makellosen bürgerlichen Fassade ein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die Scheinehe als Routine, die trotzdem trug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1929 heiratete er die Schauspielerin Elsa Lanchester &ndash; eine Verbindung, die nach heutigem Verständnis eine Zweckehe war, ihm jedoch bis zu seinem Tod 1962 als verlässlicher, unspektakulärer Rahmen diente. Lanchester wusste um seine Homosexualität und blieb dennoch an seiner Seite, in einer Partnerschaft, die eher auf gegenseitigem Respekt und geteiltem künstlerischem Leben beruhte als auf romantischer Leidenschaft &ndash; genau die Art von gewohnheitsmäßiger, tragender Struktur, die der SE9 Halt gibt, wo eine ehrlichere, aber riskantere Offenheit unerträglich erschien.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-margaret-rutherford">Margaret Rutherford</a> (SE9w8): Auch sie fand in einer späten, unspektakulären, aber verlässlichen Ehe (mit Stringer Davis) genau jene ruhige Routine, die eine viel schmerzhaftere innere Wirklichkeit trug, ohne sie je öffentlich zu zeigen. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-margaret-rutherford">Porträt zu Margaret Rutherford</a>.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Achterflügel: Tyrannen spielen, kein Tyrann sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel</strong> gibt der selbsterhaltenden Neun eine verborgene Intensität, die im Ruhezustand kaum sichtbar ist, aber in der Sache selbst hervorbricht. Laughton, privat als sanftmütig, großzügig und ein aufmerksamer, geduldiger Lehrer für jüngere Schauspieler beschrieben, konnte auf der Leinwand zu einer erschütternden, kompromisslosen Härte finden &ndash; sein Captain Bligh gilt bis heute als eine der eindringlichsten Tyrannen-Darstellungen der Filmgeschichte.</p>
+          <p class="vb-intro">Diese Achterflügel-Kraft zeigte sich auch in seiner Arbeitsdisziplin: Er bereitete sich mit einer geradezu besessenen Sorgfalt auf Rollen vor, studierte Quellen wochenlang, verlangte von sich selbst Perfektion &ndash; eine stille, unerbittliche Entschlossenheit hinter der behäbigen, gemütlichen Fassade.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der einzige Film, den er drehte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1955 führte Laughton zum einzigen Mal in seiner Karriere Regie: bei ›Die Nacht des Jägers‹, einem Film, der heute als einer der einflussreichsten und eigenwilligsten des amerikanischen Kinos gilt. Beim Erscheinen jedoch floppte er an den Kassen und wurde von der Kritik verrissen &ndash; eine Ablehnung, die Laughton so tief traf, dass er nie wieder Regie führte und sich für den Rest seines Lebens in die vertrautere, sicherere Rolle des Schauspielers zurückzog.</p>
+          <p class="vb-intro">Genau das ist die Trägheit der Neun in Reinform: statt der schmerzhaften Enttäuschung erneut die Stirn zu bieten, kehrte er in das Gewohnte zurück, in dem er sich sicher fühlte &ndash; auch wenn ihm damit eine zweite künstlerische Laufbahn verschlossen blieb, die sich, wie die posthume Wiederentdeckung des Films zeigte, durchaus hätte lohnen können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Geschenk: Gewicht, das trägt, ohne zu erdrücken</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Charles Laughton dem Kino gab, war eine seltene Fähigkeit: Figuren mit echtem Gewicht zu füllen, ob tyrannisch oder tragisch, ohne sie je zu Karikaturen werden zu lassen. Seine eigene tiefe Scham über sein Äußeres und seine verborgene Identität übersetzte er in eine schauspielerische Präsenz, die genau jene Menschlichkeit hinter Fassaden sichtbar machte, die er selbst zeitlebens verbergen musste.</p>
+          <p class="vb-intro">Der Elefant mit Achterflügel trägt seine Last mit stiller Kraft &ndash; und Laughtons Last war eine doppelte: die eines Mannes, der sich für hässlich hielt, und die eines Mannes, der sein wahres Selbst sein Leben lang verstecken musste. Dass daraus einige der eindringlichsten Filmfiguren des 20. Jahrhunderts wurden, ist die stillste, größte Ironie seines Lebens.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se9", label:"SE9 – Der Elefant: Subtyp-Profil"},
+        {route:"beruehmte-margaret-rutherford", label:"Porträt: Margaret Rutherford (SE9w8)"},
+        {route:"beruehmte-angela-merkel", label:"Porträt: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-abida-parveen", label:"Porträt: Abida Parveen (SE9w8)"},
+      ])}
+    </div>
+  `);
+}
