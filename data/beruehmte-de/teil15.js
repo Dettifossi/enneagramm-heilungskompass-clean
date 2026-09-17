@@ -1485,6 +1485,7 @@ export function uweOchsenknechtPortraitPage() {
         {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4) – Tochter"},
         {route:"beruehmte-katja-riemann", label:"Portrait: Katja Riemann (SX6w7)"},
         {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
+        {route:"beruehmte-alec-baldwin", label:"Portrait: Alec Baldwin (SX6w7)"},
       ])}
     </div>
   `);

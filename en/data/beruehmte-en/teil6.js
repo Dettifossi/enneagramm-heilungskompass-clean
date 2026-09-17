@@ -2101,3 +2101,62 @@ export function arnoldSchwarzeneggerPortraitPage() {
     </div>
   `);
 }
+
+export function alecBaldwinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alec-baldwin-portrait.jpg" alt="Alec Baldwin" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alec Baldwin</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexual Type 6 with a Seven-Wing</p>
+        <p class="krim-portrait-subtitle">Actor, b. 1958 &ndash; "30 Rock," "The Hunt for Red October" &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf Who Traded Political Science for the Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Six &ndash; an animal that doesn't cope with fear through withdrawal, but through open, sometimes intimidating confrontation. Alec Baldwin, born in 1958 as Alexander Rae Baldwin III in Massapequa, Long Island, grew up with five siblings, three of whom (younger brothers) also became actors. He began studying political science at George Washington University before transferring to New York University and the Lee Strasberg Institute to study acting &ndash; an early break that shows how little an already-chosen, safe path could hold him once a more intense option came into view.</p>
+          <p class="vb-intro">Since the early 1980s, starting on Broadway and in the series "The Doctors," Baldwin has stayed in the business for nearly four decades &ndash; not only because of his range as an actor, but, as observers put it, because of his real, publicly visible personality: outspokenly liberal, occasionally hot-tempered, talk-show guest, podcast host, game-show host, and the most-booked host in the history of "Saturday Night Live."</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: Fear That Turns into Attack</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the sexual Six's subtype <em>strength/beauty</em> &ndash; the countertype among Sixes, who doesn't cope with the fear characteristic of Type 6 through caution and reassurance, but through the opposite: confrontation and the demonstrative proof that fear holds no power over them. Baldwin's most famous moments follow exactly this pattern. In 2007 he left his then eleven-year-old daughter Ireland a voicemail that later became public: "You have humiliated me for the last time with this phone." The word "humiliated" is the key &ndash; not anger over a small missed call, but a deep vulnerability that instantly translates into attack the moment it shows itself.</p>
+          <p class="vb-intro">The same pattern shows in his repeated confrontations with paparazzi: "Get away from my wife and baby with the camera!" he shouted at a photographer before running toward him. Not avoidance, but the immediate, physical defense of the boundary around his innermost circle &ndash; the sexual Six protects not through distance, but through direct, sometimes overreaching confrontation of whatever matters most to it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Versatility as an Outlet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing</strong> gives the sexual Six a quality that goes beyond pure readiness to confront: the ability to live out the same intensity playfully, humorously, and across constantly changing formats. Baldwin's career shows a breadth unusual for a serious character actor &ndash; from the thriller "The Hunt for Red October" to the sitcom lead in "30 Rock" (earning multiple Emmy and Golden Globe awards) to game-show host and podcast host, with a record number of guest appearances on "Saturday Night Live."</p>
+          <p class="vb-intro">His political engagement, too &ndash; including as a co-founder of the coalition "No Rifle Association" against the influence of the American gun lobby &ndash; shows this wing combination: a deeply felt, almost combative conviction (SX6), expressed across a wide range of public channels and formats (w7), rather than in only one quiet, consistent form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Sexual Six with a Seven-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w7 shows in Baldwin's ability to build, out of deep, often invisible vulnerability, a remarkably versatile, decades-long career &ndash; and in his willingness to speak out publicly for convictions, even at personal cost.</p>
+          <p class="vb-intro">The shadow shows in the repetition: ABC News's compilation of his "most memorable rants and altercations" is long enough to fill its own category. On October 21, 2021, a prop gun held by Baldwin killed cinematographer Halyna Hutchins on the set of "Rust" &ndash; a tragic incident in which Baldwin denies pulling the trigger or knowing the gun contained live ammunition. The subsequent trial was dismissed in 2024 over withheld evidence. Baldwin himself described a 2025 documentary about the case as showing "me at my worst" &ndash; a rare, public acknowledgment of his own countertype sharpness when fear and pressure become too great.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Wolf Who Admitted to Showing His Worst Face</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six's healing path leads from the question <em>Can I trust the world without defending myself?</em> to the insight <em>I don't have to attack in order to be safe.</em> Baldwin's own, open description of the Rust documentary as showing "me at my worst" is a rare moment of self-awareness for a countertype: the admission that his own hardness wasn't always strength, but sometimes exactly the fear it was meant to hide.</p>
+          <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-uwe-ochsenknecht">Uwe Ochsenknecht</a> (SX6w7): he too shows the same combination of impulsive, publicly visible readiness to confront and decades of acting versatility. More in the <a href="javascript:void(0)" data-route="beruehmte-uwe-ochsenknecht">portrait of Uwe Ochsenknecht</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7)"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
+      ])}
+    </div>
+  `);
+}

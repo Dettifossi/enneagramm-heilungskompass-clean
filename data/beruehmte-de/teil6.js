@@ -2101,3 +2101,62 @@ export function arnoldSchwarzeneggerPortraitPage() {
     </div>
   `);
 }
+
+export function alecBaldwinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alec-baldwin-portrait.jpg" alt="Alec Baldwin – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Alec Baldwin</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1958 &ndash; ›30 Rock‹, ›Jagd auf Roter Oktober‹ &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf, der die Politikwissenschaft gegen die Bühne tauschte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier der sexuellen Sechs &ndash; ein Tier, das Angst nicht durch Rückzug bewältigt, sondern durch offene, manchmal einschüchternde Konfrontation. Alec Baldwin, 1958 als Alexander Rae Baldwin III. in Massapequa, Long Island, geboren, wuchs mit fünf Geschwistern auf, von denen drei jüngere Brüder ebenfalls Schauspieler wurden. Er begann sein Studium an der George Washington University mit Politikwissenschaft, bevor er zur New York University und ans Lee-Strasberg-Institut wechselte, um Schauspiel zu lernen &ndash; ein früher Bruch, der zeigt, wie sehr ihn ein bereits eingeschlagener, sicherer Weg nicht binden konnte, sobald eine intensivere Option sichtbar wurde.</p>
+          <p class="vb-intro">Seit den frühen 1980er-Jahren, beginnend am Broadway und in der Serie ›The Doctors‹, ist Baldwin nahezu vier Jahrzehnte im Geschäft geblieben &ndash; nicht nur wegen seiner schauspielerischen Bandbreite, sondern, wie es Beobachter formulieren, wegen seiner realen, öffentlich sichtbaren Persönlichkeit: ausgesprochen liberal, gelegentlich hitzköpfig, Talkshow-Gast, Podcast-Host, Gameshow-Moderator und der meistgebuchte Gastgeber in der Geschichte von ›Saturday Night Live‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Angst, die sich in Angriff verwandelt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nannte den Subtyp der sexuellen Sechs ›Stärke/Schönheit‹ &ndash; den Kontratyp unter den Sechsern, der die für Typ 6 charakteristische Angst nicht durch Vorsicht und Rückversicherung bewältigt, sondern durch das Gegenteil: durch Konfrontation und den demonstrativen Beweis, dass die Angst keine Macht über einen hat. Baldwins berühmteste Momente folgen genau diesem Muster. 2007 hinterließ er seiner damals elfjährigen Tochter Ireland eine Voicemail, die später öffentlich wurde: ›Du hast mich zum letzten Mal mit diesem Telefon gedemütigt.‹ Das Wort ›gedemütigt‹ ist der Schlüssel &ndash; nicht Wut über eine verpasste Kleinigkeit, sondern eine tiefe Verletzlichkeit, die sich sofort in Angriff übersetzt, sobald sie sich zeigt.</p>
+          <p class="vb-intro">Dasselbe Muster zeigt sich in seinen wiederholten Konfrontationen mit Paparazzi: ›Get away from my wife and baby with the camera!‹, rief er einem Fotografen entgegen, bevor er auf ihn zulief. Keine Vermeidung, sondern die sofortige, körperliche Grenzverteidigung des eigenen engsten Kreises &ndash; die sexuelle Sechs schützt nicht durch Distanz, sondern durch direkte, manchmal überschießende Konfrontation dessen, was ihr am wichtigsten ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Vielseitigkeit als Ventil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> gibt der sexuellen Sechs eine Qualität, die über reine Konfrontationsbereitschaft hinausgeht: die Fähigkeit, dieselbe Intensität auch spielerisch, humorvoll und in ständig wechselnden Formaten auszuleben. Baldwins Karriere zeigt eine für einen ernsthaften Charakterdarsteller ungewöhnliche Breite &ndash; vom Thriller (›Jagd auf Roter Oktober‹) über die Sitcom-Hauptrolle in ›30 Rock‹ (mit mehreren Emmy- und Golden-Globe-Auszeichnungen) bis zum Gameshow-Moderator und Podcast-Host, mit Rekord-Gastauftritten bei ›Saturday Night Live‹.</p>
+          <p class="vb-intro">Auch sein politisches Engagement &ndash; unter anderem als Mitbegründer der Koalition ›No Rifle Association‹ gegen den Einfluss der amerikanischen Waffenlobby &ndash; zeigt diese Flügel-Kombination: eine tief empfundene, fast kämpferische Überzeugung (SX6), ausgedrückt über eine Vielzahl öffentlicher Kanäle und Formate (w7), statt in nur einer stillen, konsequenten Form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Sechs mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 zeigt sich in Baldwins Fähigkeit, aus tiefer, oft unsichtbarer Verletzlichkeit eine bemerkenswert vielseitige, jahrzehntelange Karriere zu formen &ndash; und in seiner Bereitschaft, sich öffentlich für Überzeugungen einzusetzen, auch wenn das persönliche Kosten mit sich bringt.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Wiederholung: Die ABC-News-Zusammenstellung seiner ›denkwürdigsten Wutausbrüche und Auseinandersetzungen‹ ist lang genug, um eine eigene Rubrik zu füllen. Am 21. Oktober 2021 erschoss eine von Baldwin gehaltene Requisitenwaffe am Set von ›Rust‹ die Kamerafrau Halyna Hutchins &ndash; ein tragischer Vorfall, bei dem Baldwin bestreitet, den Abzug betätigt oder gewusst zu haben, dass die Waffe scharfe Munition enthielt. Das anschließende Gerichtsverfahren wurde 2024 wegen zurückgehaltener Beweismittel eingestellt. Baldwin selbst beschrieb eine 2025 erschienene Dokumentation über den Fall als ›mich in meiner schlechtesten Verfassung zeigend‹ &ndash; eine seltene, öffentliche Anerkennung der eigenen Kontratyp-Schärfe, wenn Angst und Druck zu groß werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Wolf, der zugab, sein schlechtestes Gesicht gezeigt zu haben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Kann ich der Welt vertrauen, ohne mich selbst zu verteidigen?</em> zur Erkenntnis <em>Ich muss nicht angreifen, um sicher zu sein.</em> Baldwins eigene, offene Beschreibung der Rust-Dokumentation als ›mich bei meiner schlechtesten Verfassung‹ zeigende ist ein seltener Moment von Selbsterkenntnis für einen Kontratyp: das Eingeständnis, dass die eigene Härte nicht immer Stärke war, sondern manchmal genau die Angst, die sie eigentlich verdecken sollte.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-uwe-ochsenknecht">Uwe Ochsenknecht</a> (SX6w7): Auch bei ihm zeigt sich dieselbe Kombination aus impulsiver, öffentlich sichtbarer Konfrontationsbereitschaft und schauspielerischer Vielseitigkeit über Jahrzehnte. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-uwe-ochsenknecht">Porträt zu Uwe Ochsenknecht</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Porträt: Uwe Ochsenknecht (SX6w7)"},
+        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
