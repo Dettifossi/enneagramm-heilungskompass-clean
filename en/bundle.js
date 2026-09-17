@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=135";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=136";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -3579,9 +3579,10 @@ const SCHAUBILDER_NEU = {
   "enneagramm-intellekt": "2026-08-08",
   "hilfreiche-hinweise-9-typen": "2026-09-17",
   "montagmorgen-gedanken-9-typen": "2026-09-17",
+  "sprachstile-9-typen": "2026-09-17",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -3766,6 +3767,7 @@ text.nav = [
     { route: "dynamik-der-fluegelenergien", label: "The Dynamics of Wing Energies" },
     { route: "hilfreiche-hinweise-9-typen", label: "Helpful Pointers for the 9 Types" },
     { route: "montagmorgen-gedanken-9-typen", label: "“Monday Morning Thoughts” of the 9 Types" },
+    { route: "sprachstile-9-typen", label: "Speech Styles of the 9 Types" },
     { route: "aufmerksamkeitsfokus", label: "Attention Focus & Blind Spots" },
     { route: "basisemotionen", label: "Basic Emotions" },
     { route: "beruhmte-komponisten", label: "Famous Composers" },
@@ -35308,6 +35310,51 @@ function dynamikDerFluegelenergienPage() {
   `);
 }
 
+function sprachstile9TypenPage() {
+  return shell(`
+    ${pageHeader("sprachstile-9-typen")}
+    <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
+      <p class="eyebrow">Diagrams · Language & Communication</p>
+      <h1 class="section-title">Speech Styles of the 9 Enneagram Types</h1>
+      <p class="psycho-intro">How each type speaks when they speak: the characteristic rhetoric, the typical vocabulary, and the quiet inner-dialogue sentence running in the background.</p>
+      <img
+        src="../assets/schaubilder/sprachstile-9-typen/sprachstile-9-typen.jpg"
+        alt="Speech Styles of the 9 Enneagram Types – each type's characteristic speech style, typical phrasing, and inner monologue"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
+      />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Language as a Fingerprint of the Passion</h2>
+        <p class="vb-intro">Even before the content of a sentence is evaluated, the form in which a person speaks already reveals a great deal about their inner pattern. Each of the nine Enneagram types has a recognizable <strong>speech style</strong> – a literary genre, so to speak, in which they prefer to present their thoughts – as well as a typical <strong>vocabulary</strong> and a quiet <strong>inner-dialogue sentence</strong> that runs like a motto in the background, regardless of what is actually being discussed.</p>
+        <p class="vb-intro">The diagram makes these three layers – genre, word choice, inner motto – visible for each type, offering a practical tool for live typing: a type often gives itself away faster through <em>how</em> it says something than through <em>what</em> it says.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">The Nine Speech Styles at a Glance</h2>
+        <p class="vb-intro">The <strong>One</strong> speaks in the style of a <strong>sermon</strong>: teaching, admonishing, finding fault, correcting, overly critical, reminding of obligations, knowing better. Their inner motto: "That's not right!" The <strong>Two</strong> speaks in the style of <strong>advice and sympathy</strong>: supporting, comforting, giving friendly advice, getting involved, meeting needs, getting personal. Their motto: "You need me!" The <strong>Three</strong> speaks in the style of <strong>promotion and sales pitch</strong>: promoting, advocating, performing, proclaiming, motivating, telling success stories. Their motto: "Look how I shine!" The <strong>Four</strong> speaks in the style of a <strong>lament</strong>: regretting, yearning, wailing, praising, sighing, poetic turns of phrase, markedly emotional, extravagant. Their motto: "I feel …"</p>
+        <p class="vb-intro">The <strong>Five</strong> speaks in the style of a <strong>treatise or lecture</strong>: detailed, explaining, informative, descriptive, defining knowledge, facts, precise instructions, logical, rational, profound. Their motto: "I think …" The <strong>Six</strong> speaks in the style of <strong>caution and the subjunctive</strong>: questioning, warning, contemplative, cautious, playing out worst-case scenarios, defending, testing, doubting, critical, setting boundaries. Their motto: "But what if …" The <strong>Seven</strong> speaks in the style of <strong>anecdotes and stories</strong>: joking, laughing, entertaining, trying things out, imagining, telling stories, imaginative, changeable, associative. Their motto: "The easy way!" The <strong>Eight</strong> speaks in the style of <strong>directive and command</strong>: arguing, debating, resisting, acting dominant, keeping their distance, using military metaphors. Their motto: "Do as I do!" The <strong>Nine</strong> speaks in the style of a <strong>novel or chronicle</strong>: telling stories in epic breadth, generalizing, daydreaming out loud, expressing vague ideas, asking themselves questions. Their motto: "Nice & simple!"</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">The Three Triads in Speech Style</h2>
+        <p class="vb-intro">The order of the three triads shows up in speech style as well. In the <strong>Gut Triad</strong> (8, 9, 1), language mainly has a controlling function – commanding, preaching, embellishing: the Eight asserts, the One corrects, the Nine weaves everything into one large, soft narrative. In the <strong>Heart Triad</strong> (2, 3, 4), language serves relationship-building and self-presentation – caring, promoting, expressing: the Two comforts, the Three sells themselves, the Four expresses feeling. In the <strong>Head Triad</strong> (5, 6, 7), language serves orientation and safeguarding – explaining, weighing, entertaining: the Five lectures, the Six checks things over, the Seven tells stories for distraction and enjoyment.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">The Inner-Dialogue Sentence as a Key</h2>
+        <p class="vb-intro">Especially revealing is the bottom line for each type in the diagram: the short, usually unconscious <strong>inner-dialogue sentence</strong> that runs like an inner refrain no matter what is actually being discussed. It is often more direct and honest than the actual speech style, because it is not formulated for an audience but reflects the pure inner stance. "That's not right!" for the One, "You need me!" for the Two, "I think …" for the Five, "But what if …" for the Six – these sentences can often be picked out after just a few minutes of conversation, once you listen for them deliberately.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Recognizing Language Without Reducing the Person to It</h2>
+        <p class="vb-intro">As with every typing feature, the same applies here: the speech style is an indicator, not proof. A single rhetorical trait – a warning phrase or a poetic expression, for instance – can appear situationally in anyone. Only the <strong>consistent pattern</strong> across many conversational situations, combined with the characteristic vocabulary and the recurring inner motto, turns speech style into a reliable building block for typing.</p>
+
+        <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">You don't only hear what someone says – you hear which genre they say it in. &ndash; Detlef Rathmer</blockquote>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types with their typical communication patterns, fixations, and paths of development in detail.", "Who You Really Are &ndash; Volume 1")}
+        ${relatedLinks([
+          {route:"montagmorgen-gedanken-9-typen", label:"Monday Morning Thoughts of the 9 Types"},
+          {route:"nonverbale-signale", label:"Nonverbal Signals"},
+          {route:"verbale-signale", label:"Verbal Signals"},
+          {route:"gedankliche-emotionale-muster", label:"Thought & Emotional Patterns"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function montagmorgenGedanken9TypenPage() {
   return shell(`
     ${pageHeader("montagmorgen-gedanken-9-typen")}
@@ -54050,6 +54097,7 @@ function subtypeSchaubilderPage() {
     "dynamik-der-fluegelenergien": dynamikDerFluegelenergienPage,
     "hilfreiche-hinweise-9-typen": hilfreicheHinweise9TypenPage,
     "montagmorgen-gedanken-9-typen": montagmorgenGedanken9TypenPage,
+    "sprachstile-9-typen": sprachstile9TypenPage,
     "bewusstseinsuebungen": bewusstseinsuebungenPage,
     "schopenhauer-zitat": schopenhauerZitatPage,
     "koerperregulation": koerperregulationPage,

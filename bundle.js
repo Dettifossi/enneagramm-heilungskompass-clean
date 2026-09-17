@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage, gescheGottfriedPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=135";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=136";
 
 import { adeleKrankheitsportraetPage, arnoldSchwarzeneggerKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15945,6 +15945,7 @@ const uiText = {
       { route: "dynamik-der-fluegelenergien", label: "Die Dynamik der Fl\xfcgelenergien" },
       { route: "hilfreiche-hinweise-9-typen", label: "Hilfreiche Hinweise f\xfcr die 9 Typen" },
       { route: "montagmorgen-gedanken-9-typen", label: "„Montagmorgen-Gedanken“ der 9 Typen" },
+      { route: "sprachstile-9-typen", label: "Sprachstile der 9 Typen" },
       { route: "aufmerksamkeitsfokus", label: "Aufmerksamkeitsfokus & Blindheit" },
       { route: "basisemotionen", label: "Basisemotionen" },
       { route: "enneagramm-emotionalitaet", label: "Enneagramm und Emotionalit\u00e4t" },
@@ -33482,9 +33483,10 @@ const SCHAUBILDER_NEU = {
   "hoellenkreise-dante": "2026-08-14",
   "hilfreiche-hinweise-9-typen": "2026-09-17",
   "montagmorgen-gedanken-9-typen": "2026-09-17",
+  "sprachstile-9-typen": "2026-09-17",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -59753,6 +59755,51 @@ function dynamikDerFluegelenergienPage() {
   `);
 }
 
+function sprachstile9TypenPage() {
+  return shell(`
+    ${pageHeader("sprachstile-9-typen")}
+    <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
+      <p class="eyebrow">Schaubilder · Sprache & Kommunikation</p>
+      <h1 class="section-title">Sprachstile (Redestile) der 9 Enneagrammtypen</h1>
+      <p class="psycho-intro">Wie jeder Typ redet, wenn er redet: die charakteristische Rhetorik, das typische Vokabular und der stille Selbstgespräch-Satz, der im Hintergrund mitläuft.</p>
+      <img
+        src="./assets/schaubilder/sprachstile-9-typen/sprachstile-9-typen.jpg"
+        alt="Sprachstile (Redestile) der 9 Enneagrammtypen – charakteristischer Redestil, typische Formulierungen und Selbstgespräch jedes Typs"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
+      />
+      <div class="vb-section" style="max-width:100%;">
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Sprache als Fingerabdruck der Leidenschaft</h2>
+        <p class="vb-intro">Noch bevor der Inhalt eines Satzes ausgewertet wird, verrät bereits die Form, wie ein Mensch spricht, viel über sein inneres Muster. Jeder der neun Enneagrammtypen hat einen erkennbaren <strong>Redestil</strong> – eine literarische Gattung sozusagen, in der er seine Gedanken bevorzugt vorträgt – sowie ein typisches <strong>Vokabular</strong> und einen stillen <strong>Selbstgesprächs-Satz</strong>, der wie ein Motto im Hintergrund mitläuft, unabhängig davon, worüber gerade konkret gesprochen wird.</p>
+        <p class="vb-intro">Das Schaubild macht diese drei Ebenen – Gattung, Wortwahl, inneres Motto – für jeden Typ sichtbar und liefert damit ein praktisches Werkzeug für die Live-Typisierung: Oft verrät sich ein Typ schneller über <em>wie</em> er etwas sagt als über <em>was</em> er sagt.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die neun Redestile im Überblick</h2>
+        <p class="vb-intro">Der <strong>Einser</strong> spricht im Stil der <strong>Predigt</strong>: (be)lehren, ermahnen, Fehler finden, korrigieren, überkritisch, an Verpflichtungen erinnern, es besser wissen. Sein inneres Motto lautet: „Das ist nicht richtig!" Der <strong>Zweier</strong> spricht im Stil von <strong>Ratschlägen und Mitgefühl</strong>: unterstützen, trösten, freundliche Ratschläge geben, sich einschalten, Bedürfnisse erfüllen, persönlich werden. Sein Motto: „Du brauchst mich!" Der <strong>Dreier</strong> spricht im Stil von <strong>Propaganda und Verkaufstaktik</strong>: werben, fördern, aufführen, ausrufen, motivieren, Erfolgsgeschichten erzählen. Sein Motto: „Schau wie ich glänze!" Der <strong>Vierer</strong> spricht im Stil des <strong>Klageliedes</strong>: bedauern, sehnen, wehklagen, loben, seufzen, poetische Wendungen, betont emotional, extravagant. Sein Motto: „Ich fühle mich …"</p>
+        <p class="vb-intro">Der <strong>Fünfer</strong> spricht im Stil der <strong>Abhandlung oder des Vortrags</strong>: detailliert, erklärend, informativ, darstellend, Wissen definieren, Fakten, präzise Anweisungen, logisch, rational, tiefgründig. Sein Motto: „Ich denke …" Der <strong>Sechser</strong> spricht im Stil von <strong>Vorsicht und Konjunktiv</strong>: fragend, warnend, nachdenklich, vorsorglich, Worst-Case-Szenarien durchspielen, verteidigend, testend, zweifelnd, kritisch, Grenzen setzend. Sein Motto: „Aber was, wenn …" Der <strong>Siebener</strong> spricht im Stil von <strong>Anekdoten und Geschichten</strong>: scherzen, lachen, unterhalten, ausprobieren, sich Dinge ausmalen, Geschichten erzählen, phantasievoll, wechselhaft, assoziativ. Sein Motto: „Auf die leichte Art!" Der <strong>Achter</strong> spricht im Stil von <strong>Bevormundung und Befehl</strong>: streiten, debattieren, sich widersetzen, dominant auftreten, sich distanzieren, Metaphern aus dem Militärbereich verwenden. Sein Motto: „Mache es mir nach!" Der <strong>Neuner</strong> spricht im Stil von <strong>Roman und Chronik</strong>: Geschichten in epischer Weite erzählen, verallgemeinern, laut tagträumen, vage Vorstellungen äußern, sich selbst fragend. Sein Motto: „Schön & einfach!"</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die drei Triaden im Redestil</h2>
+        <p class="vb-intro">Auch bei den Redestilen zeigt sich die Ordnung der drei Triaden. In der <strong>Bauch-Triade</strong> (8, 9, 1) hat Sprache vor allem eine steuernde Funktion – befehlen, predigen, ausschmücken: Der Achter setzt durch, der Einser korrigiert, der Neuner verwebt alles zu einer großen, weichen Erzählung. In der <strong>Herz-Triade</strong> (2, 3, 4) dient Sprache dem Beziehungsaufbau und der Selbstdarstellung – umsorgen, bewerben, ausdrücken: Der Zweier tröstet, der Dreier verkauft sich, der Vierer drückt Gefühl aus. In der <strong>Kopf-Triade</strong> (5, 6, 7) dient Sprache der Orientierung und Absicherung – erklären, abwägen, unterhalten: Der Fünfer doziert, der Sechser prüft ab, der Siebener erzählt zur Ablenkung und zum Vergnügen.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Der Selbstgesprächs-Satz als Schlüssel</h2>
+        <p class="vb-intro">Besonders aufschlussreich ist die unterste Zeile bei jedem Typ im Schaubild: der kurze, meist unbewusste <strong>Selbstgesprächs-Satz</strong>, der wie ein innerer Refrain mitläuft, egal worüber gerade gesprochen wird. Er ist oft direkter und ehrlicher als der eigentliche Redestil, weil er nicht für ein Gegenüber formuliert ist, sondern die pure innere Haltung wiedergibt. „Das ist nicht richtig!" beim Einser, „Du brauchst mich!" beim Zweier, „Ich denke …" beim Fünfer, „Aber was, wenn …" beim Sechser – diese Sätze lassen sich oft schon nach wenigen Minuten eines Gesprächs heraushören, sobald man gezielt danach horcht.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Sprache erkennen, ohne den Menschen darauf zu reduzieren</h2>
+        <p class="vb-intro">Wie bei jedem Typisierungsmerkmal gilt auch hier: Der Redestil ist ein Hinweis, kein Beweis. Ein einzelnes rhetorisches Merkmal – etwa eine warnende Formulierung oder ein poetischer Ausdruck – kann situativ bei jedem Menschen auftauchen. Erst das <strong>durchgängige Muster</strong> über viele Gesprächssituationen hinweg, kombiniert mit dem charakteristischen Vokabular und dem wiederkehrenden inneren Motto, macht den Redestil zu einem verlässlichen Baustein der Typisierung.</p>
+
+        <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Man hört nicht nur, was jemand sagt – man hört, in welcher Gattung er es sagt. &ndash; Detlef Rathmer</blockquote>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen mit ihren typischen Kommunikationsmustern, Fixierungen und Entwicklungswegen im Detail.", "Wer du wirklich bist &ndash; Band 1")}
+        ${relatedLinks([
+          {route:"montagmorgen-gedanken-9-typen", label:"Montagmorgen-Gedanken der 9 Typen"},
+          {route:"nonverbale-signale", label:"Nonverbale Signale"},
+          {route:"verbale-signale", label:"Verbale Signale"},
+          {route:"gedankliche-emotionale-muster", label:"Gedankliche & emotionale Muster"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function montagmorgenGedanken9TypenPage() {
   return shell(`
     ${pageHeader("montagmorgen-gedanken-9-typen")}
@@ -78301,6 +78348,7 @@ const ROUTES = {
     "dynamik-der-fluegelenergien": dynamikDerFluegelenergienPage,
     "hilfreiche-hinweise-9-typen": hilfreicheHinweise9TypenPage,
     "montagmorgen-gedanken-9-typen": montagmorgenGedanken9TypenPage,
+    "sprachstile-9-typen": sprachstile9TypenPage,
     "bewusstseinsuebungen": bewusstseinsuebungenPage,
     "schopenhauer-zitat": schopenhauerZitatPage,
     "koerperregulation": koerperregulationPage,
