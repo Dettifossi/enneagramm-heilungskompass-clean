@@ -1893,6 +1893,7 @@ export function eckhartTollePortraitPage() {
         {route:"beruehmte-carl-rogers", label:"Portrait: Dr. Carl Rogers (SX9w1)"},
         {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
         {route:"bibel-mutter-maria", label:"Bible Portrait: Mother Mary (SX9w1)"},
+        {route:"beruehmte-kim-eng", label:"Portrait: Kim Eng (SE3w2) – his life and work partner"},
       ])}
     </div>
   `);

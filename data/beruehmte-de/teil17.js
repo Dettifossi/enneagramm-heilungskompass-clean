@@ -2085,3 +2085,62 @@ export function ringoStarrPortraitPage() {
     </div>
   `);
 }
+
+export function kimEngPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-kim-eng-portrait.jpg" alt="Kim Eng – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Kim Eng</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Spirituelle Lehrerin & Begründerin von ›Presence Through Movement‹, geb. Vancouver &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der den Körper als Werkzeug entdeckte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das mit den eigenen Pfoten arbeitet, ertastet, wäscht, ordnet: Kompetenz zeigt sich hier nicht in der großen Geste, sondern im geschickten, konkreten Umgang mit dem, was direkt vor einem liegt. Kim Eng, in Vancouver geboren, begann ihre spirituelle Suche bereits in den frühen 1980er-Jahren. 1998 begegnete sie Eckhart Tolle und durchlief kurz darauf während eines seiner Retreats eine tiefgreifende spirituelle Erfahrung, der sieben Jahre intensiven inneren Trainings folgten, bevor sie selbst begann, andere zu begleiten.</p>
+          <p class="vb-intro">Seither ist sie nicht nur seine Lebenspartnerin, sondern eine eigenständige Lehrerin mit einem eigenen Werk: ›Presence Through Movement‹ (PTM), eine Praxis, die Bewusstsein über die konkrete, körperliche Bewegung zugänglich macht &ndash; genau die selbsterhaltende Kompetenz des Waschbären, der Erkenntnis nicht abstrakt verkündet, sondern handfest, über den eigenen Körper, erarbeitet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Der Körper als Ort der Wahrheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo beschrieb die selbsterhaltende Drei über das Thema <em>Sicherheit durch eigene Tüchtigkeit</em>: Wert wird nicht über Außendarstellung erzeugt, sondern über die konkrete, verlässliche Fähigkeit, etwas tatsächlich zu können und zu leisten &ndash; still, ohne die große Bühne der sozialen oder sexuellen Drei zu brauchen. Bei Kim Eng zeigt sich das in der bewussten Entscheidung, ihre Lehre nicht über Vorträge oder Bücher allein zu vermitteln, sondern über eine körperlich erfahrbare Methode, die Menschen selbst üben und beherrschen können.</p>
+          <p class="vb-intro">Ihre eigene Formulierung macht diese Haltung deutlich: ›Durch Bewegung und durch unseren Körper können wir zu reiner Präsenz und Einheit zurückfinden und sie erwecken &ndash; zu dem, was wir jenseits des denkenden Geistes und des egoischen Selbstgefühls sind, und damit Zugang zu unendlicher Kraft und Kreativität erlangen.‹ Kein Ruf nach Glauben oder Vertrauen, sondern die Einladung zu einer Praxis, die sich durch eigenes Tun überprüfen lässt &ndash; die charakteristische SE3-Haltung, dass Gewissheit aus eigener, wiederholbarer Kompetenz entsteht, nicht aus Zuspruch von außen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Eine Methode, die für andere gebaut ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> gibt der selbsterhaltenden Drei eine Qualität, die über reine Selbstwirksamkeit hinausgeht: den Wunsch, das eigene Können unmittelbar in den Dienst anderer zu stellen. Kim Eng entwickelte PTM nicht als privates Übungssystem, sondern von Beginn an als etwas, das weitergegeben, unterrichtet und in Workshops, DVDs und Audioprogrammen zugänglich gemacht werden sollte &ndash; unter anderem mit den beiden Bestseller-Anleitungen ›Presence Through Movement: Yin Yoga‹ und ›Presence Through Movement: Qi Flow Yoga‹.</p>
+          <p class="vb-intro">Auch ihre eigene Formulierung der Wirkung zielt konsequent auf andere: ›Wenn wir mit der Quelle verbunden sind und Körper, Geist und Seele im Einklang stehen &ndash; wenn wir erkennen, wer wir im Kern unseres Seins sind &ndash; entfalten wir uns zu unserem Lebenszweck.‹ Das ist die Zweierflügel-Note der selbsterhaltenden Drei: Kompetenz wird nicht gehortet, sondern in eine Praxis verwandelt, mit der sich andere konkret, Schritt für Schritt, helfen können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 zeigt sich bei Kim Eng darin, wie sie eine zutiefst persönliche Erfahrung &ndash; ihre eigene spirituelle Transformation nach 1998 &ndash; in eine lehrbare, körperlich fundierte Methode verwandelt hat, die unabhängig von ihrer Rolle als Tolles Partnerin Bestand hat. Ihr eigener Hinweis, PTM sei ›im tiefsten Sinne keine Form‹, sondern das Körperliche lediglich ›ein Fahrzeug, ein Portal zur Stille‹, zeigt eine Reife, die über bloße Selbstoptimierung hinausgeht.</p>
+          <p class="vb-intro">Der Schatten liegt in einer Gefahr, die selbsterhaltende Dreien mit starkem Zweierflügel häufig teilen: die eigene Identität so eng an die geleistete Arbeit und die Fürsorge für andere zu knüpfen, dass die eigene, von der Rolle unabhängige Person in der öffentlichen Wahrnehmung schwer zu fassen bleibt &ndash; in Kim Engs Fall verstärkt durch ihre öffentliche Position als ›Eckhart Tolles Partnerin‹, aus deren Schatten ihr eigenständiges Werk sich erst über Jahre herausschälen musste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Waschbär neben dem Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Überzeugung <em>Ich bin nur wert, was ich leiste</em> zur Erkenntnis <em>Ich bin wertvoll, unabhängig von meiner Leistung.</em> Kim Engs eigener Satz beschreibt genau diesen Weg von der reinen Machbarkeit zur Präsenz: ›Es geht nicht um die Form. Der Körper ist lediglich ein Fahrzeug, ein Portal zur Stille und zum Wesenskern.‹ Eine Drei, die gelernt hat, dass die eigentliche Handlung nicht im Erreichen liegt, sondern im bewussten Da-Sein während des Tuns.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist ihr Lebens- und Arbeitspartner <a href="javascript:void(0)" data-route="beruehmte-eckhart-tolle">Eckhart Tolle</a> (SX9w1): Während seine sexuelle Neun sich in vollständiger, fast mühelos wirkender Verschmelzung mit dem gegenwärtigen Moment ausdrückt, übersetzt Kim Engs selbsterhaltende Drei mit Zweierflügel dieselbe Präsenz-Lehre in eine konkrete, körperlich erlernbare Praxis, die andere selbst ausführen können. Zwei völlig unterschiedliche Enneagramm-Strukturen, die sich in derselben spirituellen Botschaft treffen &ndash; jede über den eigenen, typspezifischen Weg. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-eckhart-tolle">Porträt zu Eckhart Tolle</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-eckhart-tolle", label:"Porträt: Eckhart Tolle (SX9w1) – ihr Lebens- und Arbeitspartner"},
+        {route:"krankheitsportraets-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
+      ])}
+    </div>
+  `);
+}

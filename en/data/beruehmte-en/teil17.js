@@ -2085,3 +2085,62 @@ export function ringoStarrPortraitPage() {
     </div>
   `);
 }
+
+export function kimEngPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-kim-eng-portrait.jpg" alt="Kim Eng" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Kim Eng</p>
+        <p class="krim-portrait-typ">SE3w2 · Self-Preservation Type 3 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">Spiritual teacher & founder of "Presence Through Movement," born in Vancouver – Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon Who Discovered the Body as a Tool</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three – an animal that works with its own paws, feels, washes, sorts: competence shows here not in a grand gesture, but in the skillful, concrete handling of whatever lies directly in front of it. Kim Eng, born in Vancouver, began her spiritual search as early as the early 1980s. In 1998 she met Eckhart Tolle and, shortly after, underwent a profound spiritual experience during one of his retreats, followed by seven years of intensive inner training before she herself began guiding others.</p>
+          <p class="vb-intro">Since then she has been not only his life partner but a teacher with her own body of work: "Presence Through Movement" (PTM), a practice that makes consciousness accessible through concrete, physical movement – exactly the self-preservation competence of the raccoon, which does not proclaim insight abstractly but works it out hands-on, through the body itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: The Body as a Site of Truth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo described the self-preservation Three through the theme of <em>security through one's own competence</em>: worth is not generated through outward presentation but through the concrete, reliable ability to actually do and accomplish something – quietly, without needing the big stage of the social or sexual Three. In Kim Eng this shows up in the deliberate decision to convey her teaching not through lectures or books alone, but through a physically experienced method that people can practice and master themselves.</p>
+          <p class="vb-intro">Her own words make this stance clear: "Through movement and through our bodies, we can return to and awaken pure presence and oneness – to who we are beyond the thinking mind and egoic sense of self – accessing infinite power and creativity." No call for belief or trust, but an invitation to a practice that can be verified through one's own doing – the characteristic SE3 stance that certainty arises from one's own, repeatable competence, not from outside affirmation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: A Method Built for Others</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> gives the self-preservation Three a quality that goes beyond pure self-efficacy: the wish to put one's own ability directly at the service of others. Kim Eng did not develop PTM as a private practice system, but from the start as something meant to be passed on, taught, and made accessible through workshops, DVDs, and audio programs – including the two bestselling instructional releases "Presence Through Movement: Yin Yoga" and "Presence Through Movement: Qi Flow Yoga."</p>
+          <p class="vb-intro">Her own phrasing of its effect is likewise consistently aimed at others: "When we are connected to Source, and body-mind-spirit are aligned – when we realize who we are at the core of our being – we blossom into our life purpose." That is the Two-wing note in the self-preservation Three: competence is not hoarded, but turned into a practice others can use, concretely, step by step, to help themselves.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Three with a Two-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE3w2 shows in Kim Eng in how she turned a deeply personal experience – her own spiritual transformation after 1998 – into a teachable, physically grounded method that stands on its own, independent of her role as Tolle's partner. Her own remark that PTM is "not about form" at its deepest level, but that the physical is merely "a vehicle, a portal to stillness," shows a maturity that goes beyond mere self-optimization.</p>
+          <p class="vb-intro">The shadow lies in a danger self-preservation Threes with a strong Two-wing often share: tying one's own identity so closely to the work performed and the care given to others that the person independent of the role remains hard to make out in public perception – in Kim Eng's case reinforced by her public position as "Eckhart Tolle's partner," out of whose shadow her own, independent body of work only emerged over years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Raccoon Beside the Sloth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's healing path leads from the conviction <em>I am only worth what I accomplish</em> to the insight <em>I am valuable, regardless of my achievement.</em> Kim Eng's own sentence describes exactly this path from pure doability to presence: "It's not about the form. The physical is simply a vehicle, a portal to stillness and to essence." A Three who has learned that the real action lies not in achieving, but in being consciously present while doing.</p>
+          <p class="vb-intro">A revealing comparison is her life and work partner <a href="javascript:void(0)" data-route="beruehmte-eckhart-tolle">Eckhart Tolle</a> (SX9w1): while his sexual Nine expresses itself through complete, almost effortless-seeming merging with the present moment, Kim Eng's self-preservation Three with a Two-wing translates the same teaching of presence into a concrete, physically learnable practice others can carry out themselves. Two completely different Enneagram structures that meet in the same spiritual message – each by its own, type-specific path. More in the <a href="javascript:void(0)" data-route="beruehmte-eckhart-tolle">portrait of Eckhart Tolle</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-eckhart-tolle", label:"Portrait: Eckhart Tolle (SX9w1) – her life and work partner"},
+        {route:"krankheitsportraets-joseph-haydn", label:"Portrait: Joseph Haydn (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
