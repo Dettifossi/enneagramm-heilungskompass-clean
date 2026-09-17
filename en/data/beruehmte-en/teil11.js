@@ -2072,3 +2072,63 @@ export function dustinHoffmanPortraitPage() {
     </div>
   `);
 }
+
+export function tobiasBeckPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-tobias-beck-portrait.jpg" alt="Tobias Beck" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tobias Beck</p>
+        <p class="krim-portrait-typ">SX2w1 · Sexual Type 2 with a One-Wing</p>
+        <p class="krim-portrait-subtitle">Speaker, Trainer & Entrepreneur, b. 1977 – Animal correspondence: Camel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. From Expulsion to a Sold-Out Arena</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tobias Beck, born in 1977 in Wuppertal, was expelled from kindergarten, from primary school, and from several secondary schools before finally earning his Abitur in 1997. He studied psychology in Frankfurt and communication science in Duisburg-Essen, worked as a flight attendant, and built a direct-sales business with over 1,900 partners across eight countries on the side. In 2001 he founded his own academy and has since trained hundreds of thousands of people live on stage – today with honors such as the audience-voted "Speaker of the Year" award (2018, 2019) and clients including Volkswagen, Ernst & Young, and Bugatti.</p>
+          <p class="vb-intro">The <strong>camel</strong>, animal of the sexual Two, doesn't carry because it has to, but because carrying is its way of forming connection – and it stores its energy so it can give it all at once, in a single complete burst. That same movement describes Beck's own path: a young man once considered too difficult for one institution after another turns that very experience, decades later, into a stage format that moves thousands of people at once.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Two: A Whole Room, Yet Everyone Feels Personally Meant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the sexual Two's subtype <em>aggression</em> – not in a hostile sense, but as the active, forward-moving reach toward the other that tolerates no distance between self and counterpart. The SX2 doesn't wait to be approached. It moves toward you, looks at you, and turns the encounter into an event. Beck himself frames his life motto in exactly this logic: "Earning always comes from serving." His aim is not to entertain an audience but to reach every single person in it so directly that they feel personally addressed.</p>
+          <p class="vb-intro">This ability to turn a hall full of strangers into thousands of individual personal encounters is considered one of the core skills of successful stage speakers – and with hardly anyone in the German-speaking world is it as immediately visible as with Beck: direct eye contact, direct address, no distance between stage and front row. He states his goal this way: "To bring people onto the stage so they can touch others with their message." As a trainer, too, he passes this principle on rather than keeping it for himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: The Duty to Do It Better</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SX2 with a weakly developed One-wing might get lost in the sheer intensity of contact, without a clear moral compass. A strongly developed One-wing instead brings a second element: the conviction that being liked is not enough – what matters is whether what is being conveyed is actually right and holds up. In Beck this shows up as a consistently confrontational streak in his work: he does not flatter his audience, but holds up uncomfortable truths, paired with the clear expectation that every single person can and should make more of themselves.</p>
+          <p class="vb-intro">His own path carries this same structure: a young man with learning difficulties and several school expulsions became not just any motivational speaker, but one who insists, with an almost missionary seriousness, that personal development demands discipline and hard work – not merely good feelings. The One-wing thus supplies the substance behind the stage presence: seduction alone might sweep up an audience briefly, but it's the moral standard behind it that turns a single evening into an obligation the audience is meant to measure itself against.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Sexual Two with a One-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of this combination is the rare ability to reach large crowds immediately and personally without becoming generic – the One-wing ensures that behind the closeness stands a standard worth following. That is likely part of the success itself: Beck conveys not only the feeling of being seen, but also a clear direction that attention is meant to lead toward.</p>
+          <p class="vb-intro">The Two's fateful pattern is <strong>pride</strong> – the deep conviction of having to be indispensable to others, and the difficulty of admitting one's own neediness as long as one keeps giving. Combined with the One-wing, this can produce an especially intense form of exhaustion: whoever wants not only to connect but also to be morally right carries a double burden. Beck has spoken publicly about crises and setbacks, including in his book "Das kleine Buch der Krisen" (The Little Book of Crises) – a sign that even the camel, which stores and then gives everything at once, eventually reaches the limit of its own capacity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Path of Healing: From Proving to Trusting</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Two's path of healing leads from the question <em>Am I needed?</em> to the realization <em>I am lovable, even without making myself indispensable.</em> For the SX2 with a One-wing, that means a double step: not only allowing one's own neediness to become visible, but also letting go of the demand that every message be morally airtight and every encounter a full success.</p>
+          <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-monika-gruber">Monika Gruber</a> (SX2w1) – her impact, too, arises from the same combination of immediate, personal address and a clear, often confrontational moral stance. More on this in the <a href="javascript:void(0)" data-route="beruehmte-monika-gruber">portrait of Monika Gruber</a>. Beck's own podcast, in which he speaks openly about his own family history, including together with his father Horst Beck, shows a step in exactly this direction: the camel that doesn't only carry, but also, once in a while, shows itself.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
+        {route:"beruehmte-monika-gruber", label:"Portrait: Monika Gruber (SX2w1)"},
+        {route:"beruehmte-matthias-schweighoefer", label:"Portrait: Matthias Schweighöfer (SX2w1)"},
+        {route:"beruehmte-clueso", label:"Portrait: Clueso (SX2w1)"},
+      ])}
+    </div>
+  `);
+}

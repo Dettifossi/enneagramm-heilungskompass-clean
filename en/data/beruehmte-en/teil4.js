@@ -1251,6 +1251,7 @@ export function monikaGruberPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx2", label:"SX2 – The Camel: Subtype Profile"},
         {route:"beruehmte-matthias-schweighoefer", label:"Portrait: Matthias Schweighöfer (SX2w1)"},
+        {route:"beruehmte-tobias-beck", label:"Portrait: Tobias Beck (SX2w1)"},
         {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
         {route:"bibel-maria-magdalena", label:"Bible Portrait: Mary Magdalene (SX2w1)"},
       ])}

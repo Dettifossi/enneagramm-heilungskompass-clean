@@ -2077,3 +2077,63 @@ export function dustinHoffmanPortraitPage() {
     </div>
   `);
 }
+
+export function tobiasBeckPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-tobias-beck-portrait.jpg" alt="Tobias Beck" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tobias Beck</p>
+        <p class="krim-portrait-typ">SX2w1 · Sexueller Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Speaker, Trainer & Unternehmer, geb. 1977 – Tierentsprechung: Kamel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Vom Schulverweis zur ausverkauften Halle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tobias Beck, geboren 1977 in Wuppertal, flog aus dem Kindergarten, aus der Grundschule und aus mehreren weiterführenden Schulen, bevor er 1997 doch noch sein Abitur machte. Er studierte Psychologie in Frankfurt und Kommunikationswissenschaft in Duisburg-Essen, arbeitete als Flugbegleiter und baute nebenbei ein Direktvertriebsgeschäft mit über 1.900 Vertriebspartnern in acht Ländern auf. 2001 gründete er seine eigene Akademie und trainierte seither hunderttausende Menschen live auf der Bühne – heute mit Auszeichnungen wie dem Publikumspreis ›Speaker of the Year‹ (2018, 2019) und Kunden wie Volkswagen, Ernst & Young und Bugatti.</p>
+          <p class="vb-intro">Das <strong>Kamel</strong>, Tier der sexuellen Zwei, trägt nicht, weil es muss, sondern weil Tragen für dieses Tier eine Form ist, Verbindung herzustellen – und es speichert seine Energie, um sie dann in einem einzigen, vollständigen Ausbruch zu geben. Genau diese Bewegung beschreibt Becks eigenen Weg: Ein junger Mann, der in etlichen Institutionen als schwer vermittelbar galt, verwandelt genau diese Erfahrung Jahrzehnte später in ein Bühnenformat, das tausende Menschen gleichzeitig in Bewegung bringt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Zwei: Ein ganzer Saal, aber jeder fühlt sich persönlich gemeint</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nannte den Subtyp der sexuellen Zwei <em>Aggressivität</em> – nicht im feindseligen Sinn, sondern als das aktive, vorwärtsdrängende Zugehen auf den anderen, das keine Distanz zwischen sich und dem Gegenüber duldet. Die SX2 wartet nicht, bis sie angesprochen wird. Sie geht auf dich zu, sieht dich an, und macht aus der Begegnung ein Ereignis. Beck selbst formuliert sein Lebensmotto in genau dieser Logik: ›Verdienen kommt immer von Dienen.‹ Sein Anspruch ist nicht, ein Publikum zu unterhalten, sondern jeden Einzelnen darin so zu erreichen, dass er sich unmittelbar angesprochen fühlt.</p>
+          <p class="vb-intro">Diese Fähigkeit, aus einer Halle voller Fremder tausende einzelne persönliche Begegnungen zu machen, gilt als eine der Kernkompetenzen erfolgreicher Bühnenredner überhaupt – und bei kaum jemandem im deutschsprachigen Raum wird sie so unmittelbar sichtbar wie bei Beck: direkter Blickkontakt, direkte Anrede, keine Distanz zwischen Bühne und erster Reihe. Sein erklärtes Ziel formuliert er so: ›Menschen auf die Bühne zu bringen, damit sie mit ihrer Botschaft andere berühren können.‹ Auch als Trainer gibt er dieses Prinzip weiter, statt es für sich zu behalten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Die Pflicht, es besser zu machen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SX2 mit schwach ausgeprägtem Einserflügel könnte in der reinen Intensität des Kontakts aufgehen, ohne einen klaren moralischen Kompass. Ein stark ausgeprägter Einserflügel bringt stattdessen ein zweites Element mit: den Anspruch, dass es nicht reicht, gemocht zu werden – es kommt darauf an, ob das, was vermittelt wird, auch stimmt und trägt. Bei Beck zeigt sich das in einem durchgängig konfrontativen Zug seiner Arbeit: Er umschmeichelt sein Publikum nicht, sondern hält ihm unbequeme Wahrheiten vor Augen, verbunden mit der klaren Erwartung, dass jeder Einzelne mehr aus sich machen kann und soll.</p>
+          <p class="vb-intro">Auch sein eigener Werdegang trägt diese Struktur: Aus einem jungen Mann mit Lernschwierigkeiten und mehreren Schulverweisen wurde nicht irgendein Motivationsredner, sondern einer, der mit fast schon missionarischem Ernst darauf besteht, dass persönliche Weiterentwicklung Disziplin und harte Arbeit verlangt – nicht bloß gute Gefühle. Der Einserflügel liefert damit die Substanz hinter der Bühnenpräsenz: Verführung allein würde ein Publikum vielleicht kurzfristig mitreißen, aber der moralische Anspruch dahinter ist es, der aus einem einzelnen Abend eine Verpflichtung macht, an der sich die Zuschauer messen lassen sollen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Zwei mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht dieser Kombination ist die seltene Fähigkeit, große Menschenmengen unmittelbar und persönlich zu erreichen, ohne dabei beliebig zu werden – der Einserflügel sorgt dafür, dass hinter der Nähe auch ein Anspruch steht, dem man folgen kann. Genau darin liegt vermutlich auch ein Teil des Erfolgs: Beck vermittelt nicht nur das Gefühl, gesehen zu werden, sondern auch eine klare Richtung, in die diese Aufmerksamkeit führen soll.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> – die tiefe Überzeugung, für andere unentbehrlich sein zu müssen, und die Schwierigkeit, die eigene Bedürftigkeit zuzugeben, solange man selbst gibt. In Kombination mit dem Einserflügel kann daraus eine besonders intensive Form der Erschöpfung entstehen: Wer nicht nur verbinden, sondern auch moralisch recht behalten will, trägt eine doppelte Last. Beck hat öffentlich über Krisen und Rückschläge gesprochen, unter anderem in seinem Buch ›Das kleine Buch der Krisen‹ – ein Hinweis darauf, dass auch das Kamel, das speichert und dann alles auf einmal gibt, irgendwann selbst an die Grenze seiner Kapazität stößt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Beweisen zum Vertrauen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Zwei führt von der Frage <em>Werde ich gebraucht?</em> zur Erkenntnis <em>Ich bin liebenswert, auch ohne mich unentbehrlich zu machen.</em> Für die SX2 mit Einserflügel bedeutet das einen doppelten Schritt: nicht nur zuzulassen, dass die eigene Bedürftigkeit sichtbar wird, sondern auch loszulassen, dass jede Botschaft moralisch wasserdicht und jede Begegnung ein voller Erfolg sein muss.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-monika-gruber">Monika Gruber</a> (SX2w1) – auch bei ihr entsteht Wirkung aus derselben Kombination von unmittelbarer, persönlicher Ansprache und einem klaren, oft konfrontativen moralischen Standpunkt. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-monika-gruber">Porträt zu Monika Gruber</a>. Becks eigener Podcast, in dem er unter anderem gemeinsam mit seinem Vater Horst Beck offen über die eigene Familiengeschichte spricht, zeigt einen Schritt in genau diese Richtung: das Kamel, das nicht nur trägt, sondern sich auch einmal selbst zeigt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx2", label:"SX2 – Das Kamel: Subtyp-Profil"},
+        {route:"beruehmte-monika-gruber", label:"Porträt: Monika Gruber (SX2w1)"},
+        {route:"beruehmte-matthias-schweighoefer", label:"Porträt: Matthias Schweighöfer (SX2w1)"},
+        {route:"beruehmte-clueso", label:"Porträt: Clueso (SX2w1)"},
+      ])}
+    </div>
+  `);
+}

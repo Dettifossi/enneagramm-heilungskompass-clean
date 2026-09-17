@@ -1252,6 +1252,7 @@ export function monikaGruberPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx2", label:"SX2 &ndash; Das Kamel: Subtyp-Profil"},
         {route:"beruehmte-matthias-schweighoefer", label:"Portr\u00e4t: Matthias Schweigh\u00f6fer (SX2w1)"},
+        {route:"beruehmte-tobias-beck", label:"Portr\u00e4t: Tobias Beck (SX2w1)"},
         {route:"beruehmte-will-smith", label:"Portr\u00e4t: Will Smith (SO2w3)"},
         {route:"bibel-maria-magdalena", label:"Bibel-Portr\u00e4t: Maria Magdalena (SX2w1)"},
       ])}
