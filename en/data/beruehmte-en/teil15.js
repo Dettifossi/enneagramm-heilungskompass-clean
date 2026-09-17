@@ -1687,6 +1687,7 @@ export function rosaParksPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
         {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SE3 – Raccoon"},
+        {route:"beruehmte-indira-gandhi", label:"Portrait: Indira Gandhi (SP3w4) – the same quiet competence before the turning point"},
         {route:"beruehmte-johnny-cash", label:"Portrait: Johnny Cash (SP3w4)"},
         {route:"beruehmte-phil-taylor", label:"Portrait: Phil Taylor (SE3w4) – the same quiet competence"},
         {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SP3w4)"},

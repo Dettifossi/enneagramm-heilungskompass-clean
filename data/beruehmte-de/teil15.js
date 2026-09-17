@@ -1689,6 +1689,7 @@ export function rosaParksPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
+        {route:"beruehmte-indira-gandhi", label:"Porträt: Indira Gandhi (SE3w4) – dieselbe stille Kompetenzarbeit vor dem Wendepunkt"},
         {route:"beruehmte-johnny-cash", label:"Porträt: Johnny Cash (SE3w4)"},
         {route:"beruehmte-phil-taylor", label:"Porträt: Phil Taylor (SE3w4) – dieselbe stille Kompetenz"},
         {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4)"},

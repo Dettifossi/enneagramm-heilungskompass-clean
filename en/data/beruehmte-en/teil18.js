@@ -2086,3 +2086,62 @@ export function dalaiLamaPortraitPage() {
     </div>
   `);
 }
+
+export function indiraGandhiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-indira-gandhi-portrait.jpg" alt="Indira Gandhi" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Indira Gandhi</p>
+        <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with a Four-Wing</p>
+        <p class="krim-portrait-subtitle">India's first and, to date, only female Prime Minister, 1917&ndash;1984 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon in Her Father's Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that doesn't want to shine on stage, but moves inconspicuously, yet extremely skillfully, through its own territory: watching, feeling its way, before it acts. Indira Gandhi, born in 1917 as the only child of Jawaharlal Nehru, grew up in a childhood she herself later described as one of deprivation, though outwardly privileged: her father was repeatedly imprisoned, her mother Kamala died young of tuberculosis. "I felt rather deprived of everything," she said in retrospect about a childhood others perceived as pampered.</p>
+          <p class="vb-intro">In 1966, two years after Nehru's death, she surprisingly became Prime Minister &ndash; initially underestimated by the old Congress party guard as a pliable, easily led "Gungi Gudiya" (dumb doll). This already shows the self-preservation Three at the very start of her career: she was not chosen for loud self-promotion, but because she initially seemed harmless, manageable, and quietly competent in the background &ndash; until she took the wheel completely.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Security Through Proven Competence, Not Through the Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo described the self-preservation Three through the theme of <em>security through one's own competence</em>: worth arises not through outward presentation, as with the social or sexual Three, but through the concrete, verifiable ability to actually accomplish something. Gandhi was consistently described as "shy and reserved" &ndash; without the classic charisma of an orator, but with a political determination that repeatedly surprised those around her. This exact discrepancy between an unassuming manner and real assertiveness is the core of the SE3.</p>
+          <p class="vb-intro">Her own quote is telling: "I may be Prime Minister, yes, but ... I am not ambitious." A genuine Eight would have openly claimed her drive for power; the self-preservation Three, by contrast, consistently denies her own ambition and translates it instead into fulfilling her duty and effective governing &ndash; bank nationalization in 1969, the decisive 1971 war that led to the founding of Bangladesh, the 1974 nuclear tests. Competence instead of self-staging, but with an effect that far outlasted any loud self-presentation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: The Loneliness Behind the Control</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing</strong> gives the self-preservation Three a depth that goes beyond mere functional competence: an alert sense of her own loneliness and difference, which is not suppressed but privately tended. Gandhi repeatedly spoke openly about her loneliness and imagined alternative lives as an interior decorator or a dancer &ndash; an artistic, identity-forming longing that lived on alongside the political facade, without ever taking over her capacity to act.</p>
+          <p class="vb-intro">A Time profile summed up this combination in a single title: "Sad, Lonely, but Never Afraid" &ndash; sad and lonely as a deeply felt inner truth, and fearless at the same time as an outward maxim of action. That is exactly the signature of the Four-wing on a Three core: the emotional depth remains real and is not denied, but it does not brake the capacity to act &ndash; unlike a genuine Four, where mood and action are often closely tied together.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Three with a Four-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3w4 shows in Gandhi's ability to build, out of a childhood marked by loss, one of the most effective political careers of the 20th century &ndash; without fully denying her own emotional depth, as a purer Three without wing influence might have done.</p>
+          <p class="vb-intro">The shadow shows in the Emergency of 1975 to 1977: when a court ruling threatened to disqualify her for electoral fraud and mass protests demanded her resignation, she responded not with withdrawal or image repair, but with the complete crushing of the opposing power &ndash; press censorship, mass arrests, forced sterilizations under her son Sanjay. She later justified it as "bitter medicine." This is the darkest expression of the SE3: when proven competence itself is called into question, the result can be not adaptation but total seizure of control &ndash; a reaction whose harshness borders almost on the Eight, but which springs from the Three's logic of securing existence through functioning, not from an open claim to power.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Raccoon Who Lost the Election in 1977 and Returned in 1980</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's healing path leads from the conviction <em>I am only worth what I accomplish and what functions</em> to the insight <em>I am valuable, regardless of my achievement.</em> Gandhi's own path shows a typical Three adaptability that a genuine Eight would hardly have shown in this form: after her 1977 election defeat, she did not withdraw defiantly, but organized her political comeback through skillful image work &ndash; in 1980 she became Prime Minister again. Not a stubborn fight to the bitter end, but a renewed adaptation to changed circumstances in order to restore her own effectiveness.</p>
+          <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-rosa-parks">Rosa Parks</a> (SP3w4): she too shows the same combination of decades of unassuming, competent work in the background and a sudden, historic turning point, without ever having sought the role of a loud icon. In Gandhi, the same underlying structure played out on the stage of world politics rather than the civil rights movement. More in the <a href="javascript:void(0)" data-route="beruehmte-rosa-parks">portrait of Rosa Parks</a>. In 1984, Indira Gandhi was shot by two of her own Sikh bodyguards &ndash; retaliation for her having ordered the storming of the Golden Temple in Amritsar months earlier. To the very end, she remained in office, functioning, in control &ndash; the raccoon that never left its territory until its last day.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-rosa-parks", label:"Portrait: Rosa Parks (SP3w4) – the same quiet competence before the turning point"},
+        {route:"beruehmte-caren-miosga", label:"Portrait: Caren Miosga (SP3w4)"},
+      ])}
+    </div>
+  `);
+}

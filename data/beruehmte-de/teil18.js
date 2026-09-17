@@ -2086,3 +2086,62 @@ export function dalaiLamaPortraitPage() {
     </div>
   `);
 }
+
+export function indiraGandhiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-indira-gandhi-portrait.jpg" alt="Indira Gandhi – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Indira Gandhi</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Erste und bislang einzige Premierministerin Indiens, 1917&ndash;1984 &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär im Schatten des Vaters</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das nicht auf der Bühne glänzen will, sondern sich im eigenen Territorium unauffällig, aber äußerst geschickt bewegt: beobachtend, abtastend, bevor es zugreift. Indira Gandhi, geboren 1917 als einziges Kind von Jawaharlal Nehru, wuchs in einer Kindheit auf, die sie selbst später als Entbehrung beschrieb, obwohl sie äußerlich privilegiert war: Ihr Vater saß wiederholt im Gefängnis, ihre Mutter Kamala starb früh an Tuberkulose. ›Ich fühlte mich eher um alles beraubt‹, sagte sie rückblickend über eine Kindheit, die andere als verwöhnt wahrnahmen.</p>
+          <p class="vb-intro">1966, zwei Jahre nach Nehrus Tod, wurde sie überraschend Premierministerin &ndash; von der alten Kongresspartei-Garde zunächst als formbare, leicht zu lenkende ›Gungi Gudiya‹ (stumme Puppe) unterschätzt. Genau darin zeigt sich die selbsterhaltende Drei bereits am Anfang ihrer Karriere: Sie wurde nicht wegen lauter Selbstinszenierung gewählt, sondern weil sie zunächst harmlos, führbar und im Hintergrund kompetent wirkte &ndash; bis sie das Ruder vollständig übernahm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch bewiesene Tüchtigkeit, nicht durch Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo beschrieb die selbsterhaltende Drei über das Thema <em>Sicherheit durch die eigene Tüchtigkeit</em>: Wert entsteht nicht über Außendarstellung wie bei der sozialen oder sexuellen Drei, sondern über die konkrete, überprüfbare Fähigkeit, etwas tatsächlich zu leisten. Gandhi wurde durchgehend als ›shy and reserved‹ beschrieben &ndash; ohne das klassische Charisma eines Redners, aber mit einer politischen Entschlossenheit, die ihre Umgebung immer wieder überraschte. Genau diese Diskrepanz zwischen unauffälligem Auftreten und tatsächlicher Durchsetzungskraft ist der Kern der SE3.</p>
+          <p class="vb-intro">Bezeichnend ist ihr eigenes Zitat: ›Ich mag Premierministerin sein, ja, aber ... ich bin nicht ehrgeizig.‹ Eine echte Acht hätte ihren Machtanspruch offen vertreten; die selbsterhaltende Drei dagegen verleugnet den eigenen Ehrgeiz konsequent und übersetzt ihn stattdessen in Pflichterfüllung und funktionierendes Regieren &ndash; Bankenverstaatlichung 1969, die entschlossene Kriegsführung 1971, die zur Gründung Bangladeschs führte, die Atomtests 1974. Kompetenz statt Inszenierung, aber mit einer Wirkung, die weit über jede laute Selbstdarstellung hinausging.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Einsamkeit hinter der Kontrolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel</strong> gibt der selbsterhaltenden Drei eine Tiefe, die über reine Funktionstüchtigkeit hinausgeht: ein waches Gespür für die eigene Einsamkeit und Andersartigkeit, das nicht verdrängt, sondern privat gepflegt wird. Gandhi sprach wiederholt offen über ihre Einsamkeit und stellte sich Alternativleben als Innenarchitektin oder Tänzerin vor &ndash; eine künstlerische, identitätsstiftende Sehnsucht, die neben der politischen Fassade weiterlebte, ohne je die Handlungsfähigkeit zu übernehmen.</p>
+          <p class="vb-intro">Ein Time-Porträt fasste diese Kombination in einem einzigen Titel zusammen: ›Sad, Lonely, but Never Afraid‹ &ndash; traurig und einsam als tief empfundene innere Wahrheit, und gleichzeitig furchtlos als äußere Handlungsmaxime. Genau das ist die Signatur des Viererflügels auf einem Dreier-Kern: Die emotionale Tiefe bleibt real und wird nicht geleugnet, aber sie bremst die Handlungsfähigkeit nicht &ndash; anders als bei einer echten Vier, bei der Stimmung und Handeln oft eng verknüpft sind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der selbsterhaltenden Drei mit Viererflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 zeigt sich in Gandhis Fähigkeit, aus einer von Verlust geprägten Kindheit heraus eine der wirkungsvollsten politischen Karrieren des 20. Jahrhunderts zu formen &ndash; ohne dabei die eigene emotionale Tiefe vollständig zu verleugnen, wie es eine reinere Drei ohne Flügeleinfluss vielleicht getan hätte.</p>
+          <p class="vb-intro">Der Schatten zeigt sich im Ausnahmezustand von 1975 bis 1977: Als ein Gerichtsurteil sie wegen Wahlbetrugs zu disqualifizieren drohte und Massenproteste ihren Rücktritt forderten, reagierte sie nicht mit Rückzug oder Image-Reparatur, sondern mit der vollständigen Zerschlagung der Gegenmacht &ndash; Pressezensur, Massenverhaftungen, Zwangssterilisierungen unter ihrem Sohn Sanjay. Sie rechtfertigte das später als ›bittere Medizin‹. Das ist die dunkelste Ausprägung der SE3: Wenn die bewiesene Kompetenz selbst infrage gestellt wird, kann daraus nicht Anpassung, sondern totale Kontrollübernahme werden &ndash; eine Reaktion, die in ihrer Härte fast achterhafte Züge trägt, aber aus der Dreier-Logik der Existenzsicherung durch Funktionieren entspringt, nicht aus offenem Machtanspruch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Waschbär, der 1977 die Wahl verlor und 1980 zurückkehrte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Überzeugung <em>Ich bin nur wert, was ich leiste und was funktioniert</em> zur Erkenntnis <em>Ich bin wertvoll, unabhängig von meiner Leistung.</em> Gandhis eigener Weg zeigt dabei eine typische Dreier-Anpassungsfähigkeit, die eine echte Acht in dieser Form kaum gezeigt hätte: Nach der Wahlniederlage 1977 zog sie sich nicht trotzig zurück, sondern organisierte über geschickte Image-Arbeit ihr politisches Comeback &ndash; 1980 wurde sie erneut Premierministerin. Kein sturer Kampf bis zum bitteren Ende, sondern eine erneute Anpassung an veränderte Umstände, um die eigene Wirksamkeit wiederherzustellen.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-rosa-parks">Rosa Parks</a> (SE3w4): Auch bei ihr zeigt sich dieselbe Kombination aus jahrzehntelanger, unauffälliger Kompetenzarbeit im Hintergrund und einem plötzlichen, historischen Wendepunkt, ohne dass je die Rolle der lauten Ikone gesucht worden wäre. Bei Gandhi vollzog sich dieselbe Grundstruktur auf der Bühne der Weltpolitik statt der Bürgerrechtsbewegung. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-rosa-parks">Porträt zu Rosa Parks</a>. 1984 wurde Indira Gandhi von zwei ihrer eigenen Sikh-Leibwächter erschossen &ndash; eine Vergeltung für die von ihr angeordnete Erstürmung des Goldenen Tempels in Amritsar wenige Monate zuvor. Bis zuletzt blieb sie im Amt, funktionsfähig, kontrolliert &ndash; der Waschbär, der sein Territorium bis zum letzten Tag nicht verließ.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-rosa-parks", label:"Porträt: Rosa Parks (SE3w4) – dieselbe stille Kompetenzarbeit vor dem Wendepunkt"},
+        {route:"beruehmte-caren-miosga", label:"Porträt: Caren Miosga (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
