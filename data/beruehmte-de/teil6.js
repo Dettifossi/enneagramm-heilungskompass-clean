@@ -2143,7 +2143,7 @@ export function alecBaldwinPortraitPage() {
 
         <h2 class="vb-section">5. Der Wolf, der zugab, sein schlechtestes Gesicht gezeigt zu haben</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Kann ich der Welt vertrauen, ohne mich selbst zu verteidigen?</em> zur Erkenntnis <em>Ich muss nicht angreifen, um sicher zu sein.</em> Baldwins eigene, offene Beschreibung der Rust-Dokumentation als ›mich bei meiner schlechtesten Verfassung‹ zeigende ist ein seltener Moment von Selbsterkenntnis für einen Kontratyp: das Eingeständnis, dass die eigene Härte nicht immer Stärke war, sondern manchmal genau die Angst, die sie eigentlich verdecken sollte.</p>
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Kann ich der Welt vertrauen, ohne mich selbst zu verteidigen?</em> zur Erkenntnis <em>Ich muss nicht angreifen, um sicher zu sein.</em> Baldwins eigene, offene Beschreibung der Rust-Dokumentation als ›mich bei meiner schlechtesten Verfassung‹ zeigend ist ein seltener Moment von Selbsterkenntnis für einen Kontratyp: das Eingeständnis, dass die eigene Härte nicht immer Stärke war, sondern manchmal genau die Angst, die sie eigentlich verdecken sollte.</p>
           <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-uwe-ochsenknecht">Uwe Ochsenknecht</a> (SX6w7): Auch bei ihm zeigt sich dieselbe Kombination aus impulsiver, öffentlich sichtbarer Konfrontationsbereitschaft und schauspielerischer Vielseitigkeit über Jahrzehnte. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-uwe-ochsenknecht">Porträt zu Uwe Ochsenknecht</a>.</p>
         </blockquote>
 
