@@ -31113,7 +31113,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Frankreich", tags:["Schauspiel"] , gender:"f"},
   { route:"beruehmte-halle-berry", name:"Halle Berry", added:"2026-09-17", subtyp:"SE3w2",
     heading:"Halle Berry \u2013 Selbsterhaltender Typ 3",
-    teaser:"SE3w2 \u00b7 geb. 1966. Schauspielerin, erste Schwarze Oscar-Preistr\u00e4gerin als Beste Hauptdarstellerin. Diabetes Typ 1 seit 1989 durch eiserne Disziplin gemanagt, fast t\u00e4gliches Training bis heute. Der Waschb\u00e4r, der sein Territorium hart erarbeitete. Tierentsprechung: Waschb\u00e4r.",
+    teaser:"SE3w2 \u00b7 geb. 1966. Schauspielerin, erste schwarze Oscar-Preistr\u00e4gerin als beste Hauptdarstellerin. Diabetes Typ 1 seit 1989 durch eiserne Disziplin gemanagt, fast t\u00e4gliches Training bis heute. Der Waschb\u00e4r, der sein Territorium hart erarbeitete. Tierentsprechung: Waschb\u00e4r.",
     land:"USA", tags:["Schauspiel"] , gender:"f"},
   { route:"beruehmte-norah-jones", name:"Norah Jones", added:"2026-08-30", subtyp:"SE3w4",
     heading:"Norah Jones – Selbsterhaltender Typ 3",

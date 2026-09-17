@@ -680,7 +680,7 @@ export function jamieleecurtisPortraitPage() {
 
         <h2 class="vb-section">5. Der Oscar und das Geschenk der sp\u00e4ten Bl\u00fcte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">2023 gewann Jamie Lee Curtis den Oscar als Beste Nebendarstellerin f\u00fcr <em>Everything Everywhere All at Once</em> &ndash; im Alter von 64 Jahren, nach fast f\u00fcnfzig Jahren Karriere. Es war ihr erster Oscar. Ihre Dankesrede war so, wie man es von einer SX1w2 erwartet: direkt, emotional, vollst\u00e4ndig pr\u00e4sent. Sie weinte. Sie lachte. Sie sprach \u00fcber ihre Eltern, ihre N\u00fcchternheit, ihre Familie.</p>
+          <p class="vb-intro">2023 gewann Jamie Lee Curtis den Oscar als beste Nebendarstellerin f\u00fcr <em>Everything Everywhere All at Once</em> &ndash; im Alter von 64 Jahren, nach fast f\u00fcnfzig Jahren Karriere. Es war ihr erster Oscar. Ihre Dankesrede war so, wie man es von einer SX1w2 erwartet: direkt, emotional, vollst\u00e4ndig pr\u00e4sent. Sie weinte. Sie lachte. Sie sprach \u00fcber ihre Eltern, ihre N\u00fcchternheit, ihre Familie.</p>
           <p class="vb-intro">Dieser Moment ist das Symbol ihres Lebensweges: nicht fr\u00fch und gl\u00e4nzend, sondern gereift, echt und vollst\u00e4ndig. Die Schwarze Mamba braucht keine B\u00fchne, um sich zu beweisen &ndash; aber wenn die B\u00fchne kommt, ist sie bereit. Und wenn sie spricht, meint sie es.</p>
         </blockquote>
 
@@ -806,7 +806,7 @@ export function kamalaHarrisPortraitPage() {
         <h2 class="vb-section">3. Der Dreierfl\u00fcgel: Wirksamkeit als Beweis</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Dreierfl\u00fcgel (w3)</strong> gibt der sozialen Zwei etwas Entscheidendes: den Antrieb zur sichtbaren Leistung, zum messbaren Erfolg, zum Beweis, dass die eigene Arbeit wirkt. Eine SO2 mit schwach ausgeprägtem Dreierflügel könnte sich im Dienst an anderen verlieren. Ein stark ausgeprägter Dreierflügel setzt Ziele, verlangt Ergebnisse, will ankommen und nicht nur unterwegs sein.</p>
-          <p class="vb-intro">Bei Kamala Harris zeigt sich das in einer Reihe historischer Premieren: erste Frau, erste Schwarze und erste Person s\u00fcdasiatischer Abstammung als Attorney General von Kalifornien, als US-Senatorin aus Kalifornien in dieser Kombination, als Vizepr\u00e4sidentin der Vereinigten Staaten. Der Dreierfl\u00fcgel l\u00e4sst sich nicht mit dem zweiten Platz zufriedengeben &ndash; er fragt: Wie weit kann das noch gehen? Wer kann davon noch profitieren?</p>
+          <p class="vb-intro">Bei Kamala Harris zeigt sich das in einer Reihe historischer Premieren: erste Frau, erste schwarze und erste Person s\u00fcdasiatischer Abstammung als Attorney General von Kalifornien, als US-Senatorin aus Kalifornien in dieser Kombination, als Vizepr\u00e4sidentin der Vereinigten Staaten. Der Dreierfl\u00fcgel l\u00e4sst sich nicht mit dem zweiten Platz zufriedengeben &ndash; er fragt: Wie weit kann das noch gehen? Wer kann davon noch profitieren?</p>
           <p class="vb-intro">Dieser Fl\u00fcgel hat auch seinen Preis. Kritiker warfen Harris w\u00e4hrend ihrer Zeit als Staatsanw\u00e4ltin vor, zu sehr auf harte Bilanzen gesetzt zu haben &ndash; Verurteilungsquoten, H\u00e4rte gegen\u00fcber Bew\u00e4hrungsverst\u00f6\u00dfen &ndash; Themen, die sie sp\u00e4ter selbst kritisch reflektierte. Der Dreierfl\u00fcgel der SO2 kann Erfolg mit Wirksamkeit verwechseln, auch dort, wo F\u00fcrsorge eigentlich mehr Nachsicht verlangt h\u00e4tte.</p>
         </blockquote>
 

@@ -1245,7 +1245,7 @@ export const registerEntries = [
   { term: "Leo Tolstoi",                    route: "beruehmte-leo-tolstoi",                 description: "Portrait: SE4w5 · Selbsterhaltender Typ 4 · Schriftsteller, Krieg und Frieden" },
   { term: "Penélope Cruz",                 route: "beruehmte-penelope-cruz",               description: "Portrait: SE3w2 · Selbsterhaltender Typ 3 · Schauspielerin, Verwandlungskunst" },
   { term: "Audrey Tautou",                 route: "beruehmte-audrey-tautou",               description: "Portrait: SE3w2 · Selbsterhaltender Typ 3 · Schauspielerin, ›Amélie‹" },
-  { term: "Halle Berry",                 route: "beruehmte-halle-berry",               description: "Portrait: SE3w2 · Selbsterhaltender Typ 3 · Schauspielerin, erste Schwarze Oscar-Preisträgerin" },
+  { term: "Halle Berry",                 route: "beruehmte-halle-berry",               description: "Portrait: SE3w2 · Selbsterhaltender Typ 3 · Schauspielerin, erste schwarze Oscar-Preisträgerin" },
   { term: "Norah Jones",                   route: "beruehmte-norah-jones",                 description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Sängerin, Songwriterin" },
   { term: "Peter Lustig",                  route: "beruehmte-peter-lustig",                description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · TV-Kinderfigur, Basteln & Natur" },
   { term: "Pharrell Williams",             route: "beruehmte-pharrell-williams",           description: "Portrait: SO3w2 · Sozialer Typ 3 · Musikproduzent, Musiker, Modedesigner" },

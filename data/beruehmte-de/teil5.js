@@ -2106,7 +2106,7 @@ export function halleBerryPortraitPage() {
         </div>
         <p class="krim-portrait-name">Halle Berry</p>
         <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
-        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1966 &ndash; erste Schwarze Oscar-Preisträgerin als Beste Hauptdarstellerin &ndash; Tierentsprechung: Waschbär</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1966 &ndash; erste schwarze Oscar-Preisträgerin als beste Hauptdarstellerin &ndash; Tierentsprechung: Waschbär</p>
       </div>
       <div class="page-content">
 
@@ -2124,7 +2124,7 @@ export function halleBerryPortraitPage() {
 
         <h2 class="vb-section">3. Der Zweierflügel: Sichtbarkeit im Dienst anderer Frauen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel</strong> gibt der selbsterhaltenden Drei eine Qualität, die über reine Selbstwirksamkeit hinausgeht: den Wunsch, die eigene Position und Sichtbarkeit für andere einzusetzen. Nach ihrem historischen Oscar-Gewinn 2002 &ndash; als erste Schwarze Hauptdarstellerin überhaupt &ndash; nutzte Berry ihre neue Plattform wiederholt, um öffentlich über häusliche Gewalt zu sprechen, aus eigener Erfahrung in früheren Beziehungen, und unterstützt seither Organisationen wie das Jenesse Center, das Frauen bei häuslicher Gewalt hilft.</p>
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> gibt der selbsterhaltenden Drei eine Qualität, die über reine Selbstwirksamkeit hinausgeht: den Wunsch, die eigene Position und Sichtbarkeit für andere einzusetzen. Nach ihrem historischen Oscar-Gewinn 2002 &ndash; als erste schwarze Hauptdarstellerin überhaupt &ndash; nutzte Berry ihre neue Plattform wiederholt, um öffentlich über häusliche Gewalt zu sprechen, aus eigener Erfahrung in früheren Beziehungen, und unterstützt seither Organisationen wie das Jenesse Center, das Frauen bei häuslicher Gewalt hilft.</p>
           <p class="vb-intro">Auch ihr offener Umgang mit der eigenen Diabetes-Diagnose diente nicht nur der eigenen Krankheitsbewältigung, sondern machte sie zu einer der bekanntesten öffentlichen Fürsprecherinnen für Typ-1-Diabetes-Aufklärung. Der Zweierflügel zeigt sich hier als Übersetzung der eigenen, hart erkämpften Kompetenz in konkrete Fürsorge für andere, die Ähnliches durchleben.</p>
         </blockquote>
 
