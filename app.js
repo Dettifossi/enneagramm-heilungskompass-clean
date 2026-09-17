@@ -32557,7 +32557,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Deutschland/Kanada", tags:["Spiritualität"], gender:"m"},
   { route:"beruehmte-kim-eng", name:"Kim Eng", added:"2026-09-17", subtyp:"SE3w2",
     heading:"Kim Eng – Selbsterhaltender Typ 3",
-    teaser:"SE3w2 · geb. in Vancouver. Spirituelle Lehrerin, Begründerin von ›Presence Through Movement‹, Lebens- und Arbeitspartnerin von Eckhart Tolle. Vermittelt Präsenz nicht abstrakt, sondern über eine konkrete, körperlich erlernbare Methode. Tierentsprechung: Waschbär.",
+    teaser:"SE3w2 · geb. in Vancouver, Geburtsjahr nicht öffentlich bestätigt. Spirituelle Lehrerin, Begründerin von ›Presence Through Movement‹, Lebens- und Arbeitspartnerin von Eckhart Tolle. Vermittelt Präsenz nicht abstrakt, sondern über eine konkrete, körperlich erlernbare Methode. Tierentsprechung: Waschbär.",
     land:"Kanada", tags:["Spiritualität"], gender:"f"},
   { route:"beruehmte-hundertwasser", name:"Friedensreich Hundertwasser", added:"2026-07-31", subtyp:"SX9w8",
     heading:"Friedensreich Hundertwasser \u2013 Sexueller Typ 9",

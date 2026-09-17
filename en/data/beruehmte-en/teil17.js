@@ -2097,13 +2097,13 @@ export function kimEngPortraitPage() {
         </div>
         <p class="krim-portrait-name">Kim Eng</p>
         <p class="krim-portrait-typ">SE3w2 · Self-Preservation Type 3 with a Two-Wing</p>
-        <p class="krim-portrait-subtitle">Spiritual teacher & founder of "Presence Through Movement," born in Vancouver – Animal correspondence: Raccoon</p>
+        <p class="krim-portrait-subtitle">Spiritual teacher & founder of "Presence Through Movement," born in Vancouver, birth year not publicly confirmed (likely late 1940s/early 1950s) – Animal correspondence: Raccoon</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. The Raccoon Who Discovered the Body as a Tool</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three – an animal that works with its own paws, feels, washes, sorts: competence shows here not in a grand gesture, but in the skillful, concrete handling of whatever lies directly in front of it. Kim Eng, born in Vancouver, began her spiritual search as early as the early 1980s. In 1998 she met Eckhart Tolle and, shortly after, underwent a profound spiritual experience during one of his retreats, followed by seven years of intensive inner training before she herself began guiding others.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three – an animal that works with its own paws, feels, washes, sorts: competence shows here not in a grand gesture, but in the skillful, concrete handling of whatever lies directly in front of it. Kim Eng, born in Vancouver (her exact birth year is not publicly confirmed), began her spiritual search as early as the early 1980s. In 1998 she met Eckhart Tolle and, shortly after, underwent a profound spiritual experience during one of his retreats, followed by seven years of intensive inner training before she herself began guiding others.</p>
           <p class="vb-intro">Since then she has been not only his life partner but a teacher with her own body of work: "Presence Through Movement" (PTM), a practice that makes consciousness accessible through concrete, physical movement – exactly the self-preservation competence of the raccoon, which does not proclaim insight abstractly but works it out hands-on, through the body itself.</p>
         </blockquote>
 

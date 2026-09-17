@@ -2752,7 +2752,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Germany/Canada", tags:["Spiritualität"], gender:"m"},
 { route:"beruehmte-kim-eng", name:"Kim Eng", added:"2026-09-17", subtyp:"SE3w2",
     heading:"Kim Eng – Self-Preservation Type 3",
-    teaser:"SE3w2 · born in Vancouver. Spiritual teacher, founder of 'Presence Through Movement,' Eckhart Tolle's life and work partner. Conveys presence not abstractly, but through a concrete, physically learnable method. Animal correspondence: Raccoon.",
+    teaser:"SE3w2 · born in Vancouver, birth year not publicly confirmed. Spiritual teacher, founder of 'Presence Through Movement,' Eckhart Tolle's life and work partner. Conveys presence not abstractly, but through a concrete, physically learnable method. Animal correspondence: Raccoon.",
     land:"Canada", tags:["Spiritualität"], gender:"f"},
 { route:"beruehmte-dakota-johnson", name:"Dakota Johnson", added:"2026-07-22", subtyp:"SX9w8",
     heading:"Dakota Johnson – Sexual Type 9",

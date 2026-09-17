@@ -2097,13 +2097,13 @@ export function kimEngPortraitPage() {
         </div>
         <p class="krim-portrait-name">Kim Eng</p>
         <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
-        <p class="krim-portrait-subtitle">Spirituelle Lehrerin & Begründerin von ›Presence Through Movement‹, geb. Vancouver &ndash; Tierentsprechung: Waschbär</p>
+        <p class="krim-portrait-subtitle">Spirituelle Lehrerin & Begründerin von ›Presence Through Movement‹, geb. in Vancouver, Geburtsjahr nicht öffentlich bestätigt (vermutlich Ende der 1940er/Anfang der 1950er) &ndash; Tierentsprechung: Waschbär</p>
       </div>
       <div class="page-content">
 
         <h2 class="vb-section">1. Der Waschbär, der den Körper als Werkzeug entdeckte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das mit den eigenen Pfoten arbeitet, ertastet, wäscht, ordnet: Kompetenz zeigt sich hier nicht in der großen Geste, sondern im geschickten, konkreten Umgang mit dem, was direkt vor einem liegt. Kim Eng, in Vancouver geboren, begann ihre spirituelle Suche bereits in den frühen 1980er-Jahren. 1998 begegnete sie Eckhart Tolle und durchlief kurz darauf während eines seiner Retreats eine tiefgreifende spirituelle Erfahrung, der sieben Jahre intensiven inneren Trainings folgten, bevor sie selbst begann, andere zu begleiten.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das mit den eigenen Pfoten arbeitet, ertastet, wäscht, ordnet: Kompetenz zeigt sich hier nicht in der großen Geste, sondern im geschickten, konkreten Umgang mit dem, was direkt vor einem liegt. Kim Eng, in Vancouver geboren (ihr genaues Geburtsjahr ist nicht öffentlich bestätigt), begann ihre spirituelle Suche bereits in den frühen 1980er-Jahren. 1998 begegnete sie Eckhart Tolle und durchlief kurz darauf während eines seiner Retreats eine tiefgreifende spirituelle Erfahrung, der sieben Jahre intensiven inneren Trainings folgten, bevor sie selbst begann, andere zu begleiten.</p>
           <p class="vb-intro">Seither ist sie nicht nur seine Lebenspartnerin, sondern eine eigenständige Lehrerin mit einem eigenen Werk: ›Presence Through Movement‹ (PTM), eine Praxis, die Bewusstsein über die konkrete, körperliche Bewegung zugänglich macht &ndash; genau die selbsterhaltende Kompetenz des Waschbären, der Erkenntnis nicht abstrakt verkündet, sondern handfest, über den eigenen Körper, erarbeitet.</p>
         </blockquote>
 
