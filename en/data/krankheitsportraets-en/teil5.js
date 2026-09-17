@@ -3992,6 +3992,7 @@ export function philCollinsKrankheitsportraetPage() {
         {route:"krankheitsportraets-astrid-lindgren", label:"Illness Portrait: Astrid Lindgren (SE1w9) – same subtype"},
         {route:"krankheitsportraets-robert-de-niro", label:"Illness Portrait: Robert De Niro (SE1w9) – same subtype"},
         {route:"krankheitsportraets-alain-delon", label:"Illness Portrait: Alain Delon (SE1w2) – same core type, different wing"},
+        {route:"krankheitsportraets-arnold-schwarzenegger", label:"Illness Portrait: Arnold Schwarzenegger (SP1w2) – same core type, different wing"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se1", label:"Subtype Profile SE1"},
       ])}

@@ -4372,3 +4372,201 @@ export function virginiaWoolfKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function arnoldSchwarzeneggerKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-arnold-schwarzenegger-portrait.jpg" alt="Arnold Schwarzenegger" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Arnold Schwarzenegger</p>
+        <p class="krim-portrait-typ">SE1w2 · Selbsterhaltender Typ 1 mit Zweierflügel · geb. 1947</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Adler</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Adler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Arnold Schwarzenegger</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-arnold-schwarzenegger">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten – dort geht es um sein
+        Lebenswerk als Bodybuilder, Schauspieler und Politiker. Diese Seite widmet sich einem
+        Aspekt, der dort nur kurz erwähnt wird: ein angeborener Herzklappenfehler, der ihn seit
+        1997 begleitet und bislang drei offene Herzoperationen sowie 2024 einen Herzschrittmacher
+        erforderlich machte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Schwarzenegger</strong> ist dem <strong>selbsterhaltenden Typ 1 mit
+        Zweierflügel</strong> zugeordnet. Die SE1 richtet ihren Perfektionismus auf die eigene
+        körperliche Disziplin und Kontrolle; der Zweierflügel gibt ihr die Fähigkeit, diese
+        Kontrolle mit einer nach außen gerichteten, ermutigenden Fürsorge zu verbinden. Genau
+        diese Kombination – der eigene Körper als perfekt zu steuerndes Projekt, verbunden mit
+        dem späteren Bedürfnis, andere aus der eigenen Erfahrung heraus zu ermutigen – bestimmte
+        den jahrzehntelangen Umgang mit der eigenen Herzerkrankung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Diagnose eines angeborenen Herzklappenfehlers:</strong>
+        Schwarzenegger wurde mit einer bikuspiden Aortenklappe geboren – einem angeborenen
+        Herzfehler, bei dem die Aortenklappe statt der üblichen drei nur zwei Segel besitzt und
+        dadurch im Lauf des Lebens zunehmend undicht oder verengt werden kann.</p>
+        <p class="vb-intro"><strong>b) Jahrzehntelanges Training trotz zugrunde liegender Erkrankung:</strong>
+        Über all die Jahre seiner Bodybuilding-Karriere, in denen er seinen Körper mit
+        extremster Disziplin zu physischer Perfektion formte, trug er bereits einen strukturellen
+        Defekt genau jenes Organs in sich, das diese Leistung erst ermöglichte.</p>
+        <p class="vb-intro"><strong>c) Erste Operation 1997:</strong>
+        Am 16. April 1997 unterzog er sich einer geplanten Operation zum Ersatz der defekten
+        Aortenklappe – eine von den Studios im Vorfeld von ›Batman & Robin‹ aus
+        Versicherungsgründen verlangte Voraussetzung, die er vor Drehbeginn absolvierte, statt
+        sie hinauszuzögern.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Bewusste Wahl der Gewebeklappe statt einer mechanischen:</strong>
+        Bei der Operation 1997 entschied sich Schwarzenegger gegen eine langlebigere mechanische
+        Herzklappe und für eine biologische Gewebeklappe – mit der ausdrücklichen Begründung, eine
+        mechanische Klappe könnte seine körperliche Belastbarkeit und sein Training einschränken.</p>
+        <p class="vb-intro"><strong>b) Zwölf Chirurgen statt der üblichen vier:</strong>
+        Über die Operation selbst berichtete er später: „Normalerweise haben sie vier
+        Herzchirurgen im OP. Ich hatte zwölf" – eine Aussage, die weniger von Angst als von
+        einer fast stolzen Genauigkeit im Umgang mit dem eigenen Körper zeugt.</p>
+        <p class="vb-intro"><strong>c) Notoperation 2018 nach gescheitertem minimalinvasivem Eingriff:</strong>
+        2018 war zunächst ein schonenderer Katheter-Eingriff zum Ersatz der Pulmonalklappe
+        geplant – der ursprüngliche Klappenersatz von 1997 hatte seine Lebensdauer überschritten.
+        Als es dabei zu Komplikationen kam, wurde eine offene Notoperation unumgänglich.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Dritte Operation 2020 in der Cleveland Clinic:</strong>
+        2020 folgte ein erneuter Ersatz der Aortenklappe. Schwarzenegger kommentierte den
+        Eingriff öffentlich knapp und sachlich: „Dank des Teams der Cleveland Clinic habe ich
+        jetzt eine neue Aortenklappe, passend zu meiner neuen Pulmonalklappe."</p>
+        <p class="vb-intro"><strong>b) Herzschrittmacher 2024 wegen Narbengewebe:</strong>
+        2024 musste ihm wegen eines unregelmäßigen Herzschlags, verursacht durch Narbengewebe
+        aus den drei vorangegangenen Operationen, ein Herzschrittmacher eingesetzt werden.</p>
+        <p class="vb-intro"><strong>c) „Ein bisschen mehr Maschine":</strong>
+        Seinen eigenen Kommentar zum Schrittmacher formulierte er in einem Satz, der seine
+        jahrzehntelange öffentliche Identität als „Terminator" direkt aufgreift: „Ich hatte eine
+        Operation für einen Herzschrittmacher und wurde ein bisschen mehr zur Maschine."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Keine der drei Operationen verhinderte die Rückkehr ins öffentliche Leben:</strong>
+        Nach jeder der drei Operationen – 1997, 2018, 2020 – kehrte Schwarzenegger innerhalb
+        kurzer Zeit in sein gewohntes öffentliches und berufliches Leben zurück, ohne sich
+        längerfristig zurückzuziehen.</p>
+        <p class="vb-intro"><strong>b) Offene Kommunikation statt Verschweigen:</strong>
+        Anders als viele Prominente in vergleichbarer Lage verschwieg er die einzelnen Eingriffe
+        nicht, sondern kommentierte jeden davon öffentlich, meist kurz nach dem jeweiligen
+        Krankenhausaufenthalt.</p>
+        <p class="vb-intro"><strong>c) Öffentlicher Appell 2024 statt reiner Krankheitsmeldung:</strong>
+        Die Ankündigung des Herzschrittmachers verband er direkt mit einem Appell an sein
+        Publikum: „Wenn du etwas aus Angst aufschiebst, hoffe ich, dass ich dich dazu inspiriere,
+        auf deine Ärzte zu hören und auf dich selbst aufzupassen."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kontrolle bis in die Wahl des Klappenmaterials hinein:</strong>
+        Die SE1-typische Sorge um die eigene Integrität zeigte sich nicht erst im Umgang mit der
+        Diagnose, sondern bereits in der Detailentscheidung von 1997: selbst bei einer
+        lebenswichtigen Operation stand die eigene körperliche Leistungsfähigkeit im Zentrum der
+        Abwägung, nicht die längere Haltbarkeit der Klappe.</p>
+        <p class="vb-intro"><strong>b) Vom eigenen Kontrollbedürfnis zur Fürsorge für andere (Zweierflügel):</strong>
+        Der Zweierflügel zeigt sich darin, wie Schwarzenegger seine eigene, jahrzehntelange
+        Erfahrung mit der Krankheit 2024 nicht für sich behielt, sondern gezielt in eine
+        öffentliche Ermutigung für andere übersetzte, die aus Angst eine Behandlung aufschieben.</p>
+        <p class="vb-intro"><strong>c) Selbstironie statt Verdrängung:</strong>
+        Der Satz „ein bisschen mehr zur Maschine" verarbeitet die eigene Verletzlichkeit mit
+        genau jener trockenen, kontrollierten Selbstironie, die für eine SE1 typisch ist, die
+        Schwäche nicht verdrängt, sondern in eine selbst gewählte, disziplinierte Sprache
+        übersetzt.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, der zum Lebenswerk wurde – mit einem strukturellen Defekt im Zentrum:</strong>
+        Schwarzeneggers gesamte öffentliche Identität beruhte auf der Vorstellung eines
+        perfekt kontrollierbaren Körpers. Ausgerechnet das Organ, das diese Kontrolle im
+        buchstäblichsten Sinn am Leben hielt – das Herz –, trug von Geburt an einen Defekt in
+        sich, den kein Training beheben konnte.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-alain-delon">Alain Delon
+        (SE1w2)</a>: Auch bei ihm stand am Ende die Frage nach Kontrolle über den eigenen Körper
+        im Zentrum – bei Delon nach einem Schlaganfall und einer Leukämie-Diagnose die
+        öffentlich diskutierte Forderung nach einem selbstbestimmten Lebensende. Bei beiden
+        SE1w2ern zeigt sich dasselbe Grundmuster: Kontrolle über den eigenen Körper wird nicht
+        an das Schicksal oder an andere abgegeben, sondern bis zuletzt aktiv beansprucht – bei
+        Schwarzenegger durch die Wahl von Operationsmethode und Klappenmaterial, bei Delon durch
+        die Forderung nach der eigenen letzten Entscheidung.</p>
+        <p class="vb-intro"><strong>c) Dreißig Jahre lang immer der am wenigsten einschränkende Weg:</strong>
+        Über drei Jahrzehnte hinweg zieht sich ein durchgängiges Muster: 1997 die Gewebeklappe
+        statt der mechanischen, um die eigene Belastbarkeit zu erhalten; 2018 zunächst der
+        schonendere Katheter-Eingriff statt der offenen Operation. Erst wenn die weniger
+        eingreifende Option an ihre Grenze stieß, akzeptierte er den größeren Eingriff – nie
+        umgekehrt.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet das Herz?</strong>
+        Für einen selbsterhaltenden Einser, dessen gesamtes Lebenswerk auf der körperlichen
+        Beherrschbarkeit des eigenen Körpers beruhte, liegt eine Deutung nahe: Ausgerechnet
+        jenes Organ, das über die eigene körperliche Leistungsfähigkeit entscheidet und sich
+        keinem Training unterordnet, wurde zum Ort, an dem sich zeigte, dass nicht jede
+        körperliche Grenze durch Disziplin verschiebbar ist. Diese Deutung ist eine plausible
+        Interpretation, kein belegter klinischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu
+        Herzklappenfehlern führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
+        unabhängig vom Subtyp.</strong> Die bikuspide Aortenklappe ist zudem ein angeborener,
+        rein anatomischer Befund ohne psychosomatischen Ursprung. Was sich an Schwarzeneggers
+        Fall zeigen lässt, ist ein Muster im <em>Umgang</em> mit einer schwerwiegenden
+        körperlichen Diagnose, das bei einer ausgeprägten selbsterhaltenden Eins mit
+        Zweierflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
+        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Schwarzenegger kennt sein eigenes Muster vermutlich nicht als Enneagramm-Struktur – die
+        selbsterhaltende Eins hält reflexhaft an der eigenen Kontrolle über Verfahren und
+        Entscheidung fest, auch wenn eine frühere, umfassendere Behandlung denkbar gewesen wäre,
+        und lebt genau dieses Muster über Jahrzehnte unverändert aus. Wer die eigene Neigung,
+        selbst existenzielle medizinische Entscheidungen ausschließlich nach dem Maßstab der
+        eigenen Kontrolle und Leistungsfähigkeit zu treffen, nicht als Muster erkennt, riskiert,
+        dass genau diese Neigung wiederholt an ihre eigenen Grenzen stößt, wie es bei ihm 2018
+        in Form der Notoperation geschah.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 1 mit Zweierflügel erklärt bei <strong>Arnold
+        Schwarzenegger</strong> vieles am Umgang mit der eigenen, jahrzehntelangen
+        Herzerkrankung: ein Mann, dessen gesamtes Lebenswerk auf der Beherrschung des eigenen
+        Körpers beruhte, traf bei jeder der drei Operationen konsequent die Entscheidung, die
+        größtmögliche eigene Kontrolle zu bewahren – und übersetzte diese Erfahrung am Ende
+        selbst in eine öffentliche Ermutigung an andere, sich nicht aus Angst der eigenen
+        Behandlung zu verweigern. Der Adler, der auch mit einer Maschine im eigenen Herzen
+        genau wusste, wie er das Fliegen fortsetzen wollte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-arnold-schwarzenegger", label:"Porträt: Arnold Schwarzenegger (SE1w2) – Lebenswerk"},
+        {route:"krankheitsportraets-alain-delon", label:"Krankheitsporträt: Alain Delon (SE1w2) – gleicher Subtyp"},
+        {route:"krankheitsportraets-phil-collins", label:"Krankheitsporträt: Phil Collins (SE1w9) – gleicher Kerntyp, anderer Flügel"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se1", label:"Subtyp-Profil SE1"},
+      ])}
+    </div>
+  `);
+}

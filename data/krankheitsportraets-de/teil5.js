@@ -4183,6 +4183,7 @@ export function philCollinsKrankheitsportraetPage() {
         {route:"krankheitsportraets-astrid-lindgren", label:"Krankheitsporträt: Astrid Lindgren (SE1w9) – gleicher Subtyp"},
         {route:"krankheitsportraets-robert-de-niro", label:"Krankheitsporträt: Robert De Niro (SE1w9) – gleicher Subtyp"},
         {route:"krankheitsportraets-alain-delon", label:"Krankheitsporträt: Alain Delon (SE1w2) – gleicher Kerntyp, anderer Flügel"},
+        {route:"krankheitsportraets-arnold-schwarzenegger", label:"Krankheitsporträt: Arnold Schwarzenegger (SE1w2) – gleicher Kerntyp, anderer Flügel"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se1", label:"Subtyp-Profil SE1"},
       ])}

@@ -4222,6 +4222,7 @@ export function alainDelonKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-alain-delon", label:"Porträt: Alain Delon (SE1w2) – Lebenswerk"},
+        {route:"krankheitsportraets-arnold-schwarzenegger", label:"Krankheitsporträt: Arnold Schwarzenegger (SE1w2) – gleicher Subtyp"},
         {route:"krankheitsportraets-phil-collins", label:"Krankheitsporträt: Phil Collins (SE1w9) – gleicher Kerntyp, anderer Flügel"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se1", label:"Subtyp-Profil SE1"},

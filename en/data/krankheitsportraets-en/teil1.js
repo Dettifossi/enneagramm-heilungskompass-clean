@@ -4177,3 +4177,192 @@ export function virginiaWoolfKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function arnoldSchwarzeneggerKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-arnold-schwarzenegger-portrait.jpg" alt="Arnold Schwarzenegger" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Arnold Schwarzenegger</p>
+        <p class="krim-portrait-typ">SP1w2 &middot; Self-Preservation Type 1 with Two-Wing &middot; b. 1947</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Eagle</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Animal correspondence: Eagle" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Arnold Schwarzenegger</strong> is already featured as a
+        <a href="javascript:void(0)" data-route="beruehmte-arnold-schwarzenegger">Famous
+        Personalities portrait</a> in this compass – that page covers his life's work as a
+        bodybuilder, actor, and politician. This page focuses on an aspect only briefly
+        mentioned there: a congenital heart valve defect that has accompanied him since 1997
+        and has so far required three open-heart surgeries (1997, 2018, 2020) and a pacemaker
+        in 2024.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Schwarzenegger</strong> is assigned to the <strong>self-preservation Type 1
+        with a Two-wing</strong>. The SP1 directs its perfectionism at its own physical
+        discipline and control; the Two-wing gives it the ability to combine this control with
+        an outward-facing, encouraging care for others. Exactly this combination – the own body
+        as a perfectly controllable project, combined with a later drive to encourage others
+        from one's own experience – shaped the decades-long handling of his heart condition.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Diagnosis of a congenital heart valve defect:</strong>
+        Schwarzenegger was born with a bicuspid aortic valve – a congenital heart defect in
+        which the aortic valve has only two flaps instead of the usual three, which can become
+        increasingly leaky or narrowed over the course of a lifetime.</p>
+        <p class="vb-intro"><strong>b) Decades of training despite the underlying condition:</strong>
+        Throughout all the years of his bodybuilding career, in which he shaped his body to
+        physical perfection with extreme discipline, he already carried a structural defect in
+        exactly the organ that made this performance possible in the first place.</p>
+        <p class="vb-intro"><strong>c) First surgery in 1997:</strong>
+        On April 16, 1997, he underwent a planned operation to replace the defective aortic
+        valve – a condition the studios required for insurance reasons ahead of ›Batman &
+        Robin‹, which he completed before filming began rather than delaying it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Deliberate choice of a tissue valve over a mechanical one:</strong>
+        During the 1997 surgery, Schwarzenegger opted against a more durable mechanical heart
+        valve in favor of a biological tissue valve – with the explicit reasoning that a
+        mechanical valve might limit his physical capacity and training.</p>
+        <p class="vb-intro"><strong>b) Twelve surgeons instead of the usual four:</strong>
+        He later said of the operation itself: "Normally they have four heart surgeons in
+        surgery. I had twelve" – a statement that speaks less of fear than of an almost proud
+        precision in dealing with his own body.</p>
+        <p class="vb-intro"><strong>c) Emergency surgery in 2018 after a failed minimally invasive procedure:</strong>
+        In 2018, a gentler catheter procedure to replace the pulmonary valve was initially
+        planned – the original 1997 valve replacement had outlived its expected lifespan. When
+        complications arose, open emergency surgery became unavoidable.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Third surgery in 2020 at Cleveland Clinic:</strong>
+        In 2020, another aortic valve replacement followed. Schwarzenegger commented on the
+        procedure publicly, briefly and matter-of-factly: "Thanks to the team at Cleveland
+        Clinic, I have a new aortic valve to go along with my new pulmonary valve."</p>
+        <p class="vb-intro"><strong>b) Pacemaker in 2024 due to scar tissue:</strong>
+        In 2024, he needed a pacemaker fitted because of an irregular heartbeat caused by scar
+        tissue from the three previous surgeries.</p>
+        <p class="vb-intro"><strong>c) "A little more of a machine":</strong>
+        He put his own comment on the pacemaker in a sentence that directly picks up on his
+        decades-long public identity as the "Terminator": "I had surgery for a pacemaker and
+        became a little bit more of a machine."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) None of the three surgeries prevented his return to public life:</strong>
+        After each of the three surgeries – 1997, 2018, 2020 – Schwarzenegger returned to his
+        usual public and professional life within a short time, without withdrawing for any
+        extended period.</p>
+        <p class="vb-intro"><strong>b) Open communication instead of silence:</strong>
+        Unlike many celebrities in comparable situations, he did not keep the individual
+        procedures secret, but commented on each of them publicly, usually shortly after the
+        respective hospital stay.</p>
+        <p class="vb-intro"><strong>c) A public appeal in 2024 rather than a mere health announcement:</strong>
+        He directly linked the announcement of his pacemaker to an appeal to his audience: "If
+        you're putting something off out of fear, I hope I inspire you to listen to your
+        doctors and take care of yourself."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Control down to the choice of valve material:</strong>
+        The SP1-typical concern for one's own integrity showed up not only in how he handled
+        the diagnosis, but already in the detail-level decision of 1997: even in a
+        life-critical operation, his own physical performance capacity was the center of the
+        consideration, not the longer durability of the valve.</p>
+        <p class="vb-intro"><strong>b) From one's own need for control to caring for others (Two-wing):</strong>
+        The Two-wing shows up in how Schwarzenegger did not keep his own decades-long
+        experience with the illness to himself in 2024, but deliberately translated it into a
+        public encouragement for others who delay treatment out of fear.</p>
+        <p class="vb-intro"><strong>c) Self-irony instead of denial:</strong>
+        The line "a little more of a machine" processes his own vulnerability with exactly
+        that dry, controlled self-irony typical of an SP1 who does not repress weakness, but
+        translates it into a self-chosen, disciplined language.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A body that became a life's work – with a structural defect at its center:</strong>
+        Schwarzenegger's entire public identity rested on the idea of a perfectly
+        controllable body. Of all things, the organ that kept this control alive in the most
+        literal sense – the heart – carried a defect from birth that no training could fix.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        A parallel shows up in
+        <a href="javascript:void(0)" data-route="krankheitsportraets-alain-delon">Alain Delon
+        (SP1w2)</a>: in him too, the question of control over one's own body stood at the
+        center in the end – in Delon's case after a stroke and a leukemia diagnosis, the
+        publicly discussed demand for a self-determined end of life. In both SP1w2s the same
+        underlying pattern shows up: control over one's own body is never handed over to fate
+        or to others, but claimed actively to the very end – in Schwarzenegger's case through
+        the choice of surgical method and valve material, in Delon's case through the demand
+        for his own final decision.</p>
+        <p class="vb-intro"><strong>c) Thirty years of always choosing the least restrictive path:</strong>
+        A consistent pattern runs through three decades: in 1997, the tissue valve instead of
+        the mechanical one, to preserve his own physical capacity; in 2018, initially the
+        gentler catheter procedure instead of open surgery. Only when the less invasive option
+        reached its limit did he accept the larger intervention – never the other way around.</p>
+        <p class="vb-intro"><strong>d) Why the heart, of all organs?</strong>
+        For a self-preservation One whose entire life's work rested on the physical
+        controllability of his own body, one interpretation suggests itself: of all things, the
+        organ that determines physical performance capacity and submits to no training became
+        the place where it became clear that not every physical limit can be shifted through
+        discipline. This interpretation is a plausible reading, not a proven clinical causal
+        link, and will be developed further in this compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>e) Classification without determinism:</strong>
+        This does not mean that the self-preservation One's pattern inevitably leads to heart
+        valve defects – <strong>anyone can develop any illness, regardless of subtype.</strong>
+        The bicuspid aortic valve is, moreover, a congenital, purely anatomical finding with no
+        psychosomatic origin. What Schwarzenegger's case can show is a pattern in how a serious
+        physical diagnosis is <em>handled</em>, one that keeps recurring in a pronounced
+        self-preservation One with a Two-wing – one of many possible readings, not a verdict.
+        The corresponding illness pattern is being developed step by step in this compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as a factor of its own:</strong>
+        Schwarzenegger probably does not know his own pattern as an Enneagram structure – the
+        self-preservation One reflexively holds on to its own control over procedure and
+        decision, even where an earlier, more comprehensive treatment might have been
+        conceivable, and lives out exactly this pattern unchanged for decades. Anyone who does
+        not recognize their own tendency to make even existential medical decisions solely by
+        the standard of their own control and performance capacity risks that tendency
+        repeatedly hitting its own limits, as happened to him in 2018 in the form of emergency
+        surgery.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The self-preservation Type 1 with a Two-wing explains much about how <strong>Arnold
+        Schwarzenegger</strong> handled his own decades-long heart condition: a man whose
+        entire life's work rested on mastery of his own body consistently chose, at every one
+        of the three surgeries, to preserve the greatest possible control for himself – and in
+        the end translated that experience into a public encouragement for others not to refuse
+        their own treatment out of fear. The eagle who, even with a machine in his own heart,
+        knew exactly how he wanted to keep flying.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-arnold-schwarzenegger", label:"Portrait: Arnold Schwarzenegger (SP1w2) – life's work"},
+        {route:"krankheitsportraets-alain-delon", label:"Illness Portrait: Alain Delon (SP1w2) – same subtype"},
+        {route:"krankheitsportraets-phil-collins", label:"Illness Portrait: Phil Collins (SP1w9) – same core type, different wing"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se1", label:"Subtype Profile SP1"},
+      ])}
+    </div>
+  `);
+}
