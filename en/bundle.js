@@ -49378,6 +49378,7 @@ function showTagesimpuls() {
         <button class="tagesimpuls-card__btn">Save This Impulse ✦</button>
         <button class="tagesimpuls-card__share">↗ Share</button>
       </div>
+      <p class="tagesimpuls-card__saved-hint" style="display:none;">Saved ✓ &ndash; find it under <a href="javascript:void(0)" data-route="gemerkte-impulse" style="color:inherit;text-decoration:underline;">My Saved Impulses</a> in the menu.</p>
     </div>
   `;
   document.body.appendChild(card);
@@ -49391,9 +49392,12 @@ function showTagesimpuls() {
   card.querySelector(".tagesimpuls-card__btn").addEventListener("click", (e) => {
     _saveImpuls(impuls, today);
     const btn = e.currentTarget;
-    btn.textContent = "Saved ✓";
-    btn.disabled = true;
-    setTimeout(close, 700);
+    btn.style.display = "none";
+    card.querySelector(".tagesimpuls-card__share").style.display = "none";
+    const hint = card.querySelector(".tagesimpuls-card__saved-hint");
+    hint.style.display = "block";
+    hint.querySelector("a").addEventListener("click", () => { close(); go("gemerkte-impulse"); });
+    localStorage.setItem(IMPULS_KEY, today);
   });
   card.querySelector(".tagesimpuls-card__share").addEventListener("click", () => {
     const shareText = `„${impuls.impuls}“ \u2014 Detlef Rathmer\nhttps://dettifossi.github.io/enneagramm-heilungskompass/`;

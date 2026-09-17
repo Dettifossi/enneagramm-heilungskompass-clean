@@ -73681,6 +73681,7 @@ function showTagesimpuls() {
         <button class="tagesimpuls-card__btn">Den Impuls merken \u2726</button>
         <button class="tagesimpuls-card__share">\u2197 Teilen</button>
       </div>
+      <p class="tagesimpuls-card__saved-hint" style="display:none;">Gemerkt \u2713 &ndash; zu finden unter <a href="javascript:void(0)" data-route="gemerkte-impulse" style="color:inherit;text-decoration:underline;">Meine gemerkten Impulse</a> im Men\u00fc.</p>
     </div>
   `;
   document.body.appendChild(card);
@@ -73694,9 +73695,12 @@ function showTagesimpuls() {
   card.querySelector(".tagesimpuls-card__btn").addEventListener("click", (e) => {
     _saveImpuls(impuls, today);
     const btn = e.currentTarget;
-    btn.textContent = "Gemerkt \u2713";
-    btn.disabled = true;
-    setTimeout(close, 700);
+    btn.style.display = "none";
+    card.querySelector(".tagesimpuls-card__share").style.display = "none";
+    const hint = card.querySelector(".tagesimpuls-card__saved-hint");
+    hint.style.display = "block";
+    hint.querySelector("a").addEventListener("click", () => { close(); go("gemerkte-impulse"); });
+    localStorage.setItem(IMPULS_KEY, today);
   });
   card.querySelector(".tagesimpuls-card__share").addEventListener("click", () => {
     const shareText = `\u201e${impuls.impuls}\u201c \u2014 Detlef Rathmer\nhttps://dettifossi.github.io/enneagramm-heilungskompass/`;
