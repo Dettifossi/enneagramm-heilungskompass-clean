@@ -3984,6 +3984,7 @@ export function margaretRutherfordKrankheitsportraetPage() {
         {route:"krankheitsportraets-david-hume", label:"Krankheitsporträt: David Hume (SE9w8) – gleicher Subtyp"},
         {route:"krankheitsportraets-johannes-brahms", label:"Krankheitsporträt: Johannes Brahms (SE9w8) – gleicher Subtyp"},
         {route:"krankheitsportraets-hans-dietrich-genscher", label:"Krankheitsporträt: Hans-Dietrich Genscher (SE9w8) – gleicher Subtyp"},
+        {route:"krankheitsportraets-charles-laughton", label:"Krankheitsporträt: Charles Laughton (SE9w8) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
       ])}
     </div>

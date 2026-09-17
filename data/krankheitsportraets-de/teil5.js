@@ -4379,3 +4379,182 @@ export function connieChiuKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function charlesLaughtonKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-charles-laughton-portrait.jpg" alt="Charles Laughton" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Charles Laughton</p>
+        <p class="krim-portrait-typ">SE9w8 · Selbsterhaltender Typ 9 mit Achterflügel · 1899–1962</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Elefant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Tierentsprechung: Elefant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Charles Laughton</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-charles-laughton">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seine Schauspielkarriere, seine verheimlichte
+        Homosexualität und seine lebenslange Scham über sein Äußeres. Hier steht ausschließlich das im
+        Mittelpunkt, was dort nur gestreift wird: ein metastasierender Nieren- und Blasenkrebs, dessen
+        Vorboten er über Jahre kaum wahrnehmbar in den Alltag einbaute, bevor die Erkrankung 1962
+        binnen weniger Monate tödlich verlief.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Laughton</strong> ist der <strong>selbsterhaltenden Neun mit Achterflügel</strong>
+        zugeordnet. Naranjo nannte die selbsterhaltende Neun <em>Appetit</em>: Sicherheit durch
+        Gewohnheit und körperlichen Komfort als Puffer gegen eine tiefer liegende innere Leere. Der
+        Achterflügel gibt dieser Neun eine verborgene Substanz, die im Ruhezustand kaum sichtbar
+        ist. Genau diese Kombination aus Verdrängung durch Gewohnheit und stiller körperlicher
+        Widerstandskraft prägte, wie Laughton mit seinem eigenen körperlichen Verfall umging.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, den er zeitlebens mied:</strong>
+        Laughton hatte schon Jahrzehnte vor seiner Krebsdiagnose ein zutiefst gestörtes Verhältnis
+        zu seinem eigenen Körper, den er als hässlich empfand und den er nach eigener Aussage kaum
+        im Spiegel betrachten konnte – eine Grundhaltung, die es ihm erschwerte, körperliche
+        Warnsignale ernst zu nehmen, statt sie zu verdrängen.</p>
+        <p class="vb-intro"><strong>b) Sichtbar nachlassende Gesundheit bereits Ende der 1950er-Jahre:</strong>
+        Bei seinem Auftritt als König Lear 1959 am Shakespeare Memorial Theatre in Stratford-upon-Avon
+        wirkte Laughton bereits deutlich geschwächt und erschöpft – er absolvierte die körperlich
+        fordernde Rolle dennoch bis zum Ende, statt die Warnzeichen seines Körpers zum Anlass für
+        eine gründliche Untersuchung zu nehmen.</p>
+        <p class="vb-intro"><strong>c) Ein vermeintlicher Bandscheibenvorfall im Juli 1962:</strong>
+        Erst als er im Juli 1962 wegen starker Rückenschmerzen ins Cedars of Lebanon Hospital
+        eingeliefert wurde, ursprünglich mit der Verdachtsdiagnose eines Bandscheibenvorfalls,
+        stellte sich heraus, dass der Wirbeleinbruch tatsächlich durch Knochenmetastasen eines
+        bereits weit fortgeschrittenen Nieren- und Blasenkrebses verursacht war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine Erkrankung, die erst durch einen anderen Befund entdeckt wurde:</strong>
+        Nicht der Krebs selbst, sondern die vermeintlich harmlosere Rückenproblematik brachte
+        Laughton überhaupt erst ins Krankenhaus – ohne die akuten Schmerzen wäre die zugrunde
+        liegende Krebserkrankung wohl noch länger unentdeckt geblieben.</p>
+        <p class="vb-intro"><strong>b) Ein monatelanger Krankenhausaufenthalt bis November 1962:</strong>
+        Laughton blieb nach der Diagnose bis November 1962 stationär, bevor er nach Hause entlassen
+        wurde – ein langer, öffentlich kaum kommentierter Rückzug aus dem Leben, das er zuvor als
+        Schauspieler und Gesellschaftsfigur geführt hatte.</p>
+        <p class="vb-intro"><strong>c) Ein Sterben ohne volle Kenntnis der eigenen Diagnose:</strong>
+        Nach Berichten aus seinem Umfeld wusste Laughton bis kurz vor seinem Tod nicht mit letzter
+        Klarheit, wie ernst seine Erkrankung tatsächlich war – eine damals verbreitete Praxis, todkranken
+        Patienten die volle Wahrheit vorzuenthalten, die bei Laughton auf eine Persönlichkeit traf, die
+        ohnehin selten aktiv nach unbequemen Wahrheiten über sich selbst fragte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Elsa Lanchester als stabilisierender Anker bis zuletzt:</strong>
+        Seine Frau Elsa Lanchester, mit der er seit 1929 in einer auf gegenseitigem Respekt statt
+        auf romantischer Leidenschaft beruhenden Ehe verbunden war, blieb bis zu seinem Tod an
+        seiner Seite und organisierte die Pflege in seinen letzten Monaten.</p>
+        <p class="vb-intro"><strong>b) Weiterarbeiten trotz sichtbarer körperlicher Erschöpfung:</strong>
+        Statt frühzeitig kürzerzutreten, nahm Laughton auch in den Jahren erkennbar nachlassender
+        Gesundheit noch anspruchsvolle Rollen an – eine Fortsetzung derselben Routine, die ihm
+        zeitlebens Halt gegeben hatte, auch als der Körper längst andere Signale sendete.</p>
+        <p class="vb-intro"><strong>c) Ein Koma vor dem Tod, kein bewusster Abschied:</strong>
+        In seinen letzten Tagen fiel Laughton in ein Koma, aus dem er nicht mehr erwachte – ein
+        Ende, das ihm die aktive Auseinandersetzung mit dem eigenen Sterben, der er zeitlebens aus
+        dem Weg gegangen war, in gewisser Weise auch am Schluss ersparte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein plötzliches Ende nach jahrelang unterschwelligem Verfall:</strong>
+        Was von außen wie ein relativ plötzlicher gesundheitlicher Einbruch im Sommer 1962 wirkte,
+        war in Wirklichkeit das Ergebnis einer Krankheit, die sich vermutlich über Jahre unbemerkt
+        entwickelt hatte, während Laughton seinen gewohnten Alltag so lange wie möglich fortsetzte.</p>
+        <p class="vb-intro"><strong>b) Tod am 15. Dezember 1962 in Hollywood:</strong>
+        Charles Laughton starb im Alter von 63 Jahren in seinem Haus in Hollywood – seine Asche
+        wurde im Forest Lawn Memorial Park beigesetzt.</p>
+        <p class="vb-intro"><strong>c) Keine öffentliche Auseinandersetzung mit der eigenen Sterblichkeit:</strong>
+        Anders als manch anderes Krankheitsporträt dieses Kompasses hinterließ Laughton keine
+        Zeugnisse eines bewussten Ringens mit dem eigenen Tod – die Krankheit blieb, wie schon seine
+        Homosexualität, größtenteils unausgesprochen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Achterflügel, der körperlichen Schmerz lange kompensierte:</strong>
+        Dieselbe verborgene Substanz, die Laughton erlaubte, seine anspruchsvollsten Rollen noch mit
+        sichtbar nachlassenden Kräften durchzustehen, verzögerte vermutlich auch die Konfrontation mit
+        der eigenen ernsten Erkrankung – Kraft, die genutzt wurde, um weiterzumachen, nicht um genauer
+        hinzusehen.</p>
+        <p class="vb-intro"><strong>b) Appetit, der sich in Gewohnheit statt in Sorge um den Körper flüchtete:</strong>
+        Die selbsterhaltende Neun sucht Frieden im Vertrauten – bei Laughton bedeutete das, an
+        Kochkunst, Kunstsammlung und gewohnten Arbeitsroutinen festzuhalten, während der eigene Körper
+        längst ernsthaft erkrankt war.</p>
+        <p class="vb-intro"><strong>c) Ein Sterben, das ihm die aktive Konfrontation weitgehend ersparte:</strong>
+        Dass Laughton bis zuletzt nicht die volle Wahrheit über seine Diagnose kannte und schließlich
+        im Koma starb, passt zu einem Lebensmuster, das eine direkte, bewusste Auseinandersetzung mit
+        unangenehmen Wahrheiten über sich selbst konsequent vermied.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, der über Jahre ignoriert wurde:</strong>
+        Laughtons sichtbar nachlassende Gesundheit bereits 1959 bei seinem Lear in Stratford und die
+        erst 1962 gestellte, da bereits weit fortgeschrittene Diagnose zeigen dieselbe Grundstrategie:
+        Warnsignale des eigenen Körpers so lange wie möglich in den gewohnten Alltag einbauen, statt
+        sie aktiv zu untersuchen.</p>
+        <p class="vb-intro"><strong>b) Die Parallele zu Laughtons eigenem Lebensmusterkompass-Fingerabdruck:</strong>
+        Genau dieses Muster – Trägheit als Selbstvergessenheit statt als aktives Ankämpfen – findet
+        sich bereits in seinem Porträt unter Berühmte Persönlichkeiten beschrieben: ein Sich-Einrichten
+        im gewohnten Komfort, das sich hier bis in den Umgang mit der eigenen tödlichen Erkrankung
+        fortsetzte.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet eine lange unentdeckte Krebserkrankung?</strong>
+        Für eine selbsterhaltende Neun mit Achterflügel, deren tiefstes Bedürfnis darin besteht, im
+        Vertrauten Frieden zu finden und unangenehme innere wie äußere Signale zu dämpfen, liegt eine
+        Deutung nahe: Ausgerechnet eine Krankheit, die sich lange ohne eindeutige Warnsignale entwickelt
+        und sich hinter einem vermeintlich harmloseren Befund verbarg, traf bei Laughton auf einen Mann,
+        der sein Leben lang lieber im Vertrauten blieb, als genauer hinzusehen. Diese Deutung wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Neun zwangsläufig zu Krebs führt –
+        <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an
+        Laughtons Fall zeigen lässt, ist ein Muster, das bei tiefer, gewohnheitsbasierter Verdrängung in
+        der Praxis immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Laughton kannte sein eigenes Enneagramm-Muster nicht – und lebte seine Neuner-Trägheit gerade
+        deshalb so ungebremst aus: Statt frühzeitig eine ernsthafte ärztliche Abklärung seiner
+        körperlichen Erschöpfung zu suchen, hielt er an seinen gewohnten Rollen, seinem gewohnten Alltag
+        fest, bis der Körper selbst die Entscheidung traf. Nicht aus Schuld, sondern aus Unwissenheit
+        über das eigene Muster – und genau das erklärt, warum sich bei ihm eine schwere Krebserkrankung
+        über Jahre unbehelligt entfalten konnte, statt rechtzeitig erkannt und behandelt zu werden.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Charles Laughtons</strong> Krankheitsgeschichte lässt sich die selbsterhaltende Neun
+        mit Achterflügel in ihrer verletzlichsten Form ablesen: ein Mann, der seinen eigenen Körper
+        zeitlebens mied, dessen Warnsignale über Jahre in den gewohnten Alltag einbaute und schließlich
+        an einer Krankheit starb, deren volles Ausmaß er nach Berichten seines Umfelds bis zuletzt nicht
+        kannte. Der Elefant, der auch die eigene Sterblichkeit lieber nicht genau ansah.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-charles-laughton", label:"Porträt: Charles Laughton (SE9w8) – Lebenswerk"},
+        {route:"krankheitsportraets-margaret-rutherford", label:"Krankheitsporträt: Margaret Rutherford (SE9w8) – gleicher Subtyp"},
+        {route:"krankheitsportraets-david-hume", label:"Krankheitsporträt: David Hume (SE9w8) – gleicher Subtyp"},
+        {route:"krankheitsportraets-hans-dietrich-genscher", label:"Krankheitsporträt: Hans-Dietrich Genscher (SE9w8) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+      ])}
+    </div>
+  `);
+}

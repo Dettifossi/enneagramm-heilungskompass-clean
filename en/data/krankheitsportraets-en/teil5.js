@@ -4180,3 +4180,179 @@ export function connieChiuKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function charlesLaughtonKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-charles-laughton-portrait.jpg" alt="Charles Laughton" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Charles Laughton</p>
+        <p class="krim-portrait-typ">SP9w8 · Self-Preservation Type 9 with an Eight-Wing · 1899–1962</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Elephant</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se9.jpg" alt="Animal correspondence: Elephant" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE9")};left:${tierAvatarLeft("SE9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Charles Laughton</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-charles-laughton">portrait under Famous Personalities</a>
+        in this compass – there the focus is on his acting career, his hidden homosexuality, and
+        his lifelong shame about his appearance. Here the focus is exclusively on what is only
+        touched on there: a metastatic kidney and bladder cancer, whose warning signs he folded
+        into his daily routine almost imperceptibly for years before the disease turned fatal
+        within a few months in 1962.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Laughton</strong> is assigned to the <strong>self-preservation Nine with an
+        Eight-wing</strong>. Naranjo called the self-preservation Nine <em>appetite</em>: security
+        through habit and physical comfort as a buffer against a deeper inner emptiness. The
+        Eight-wing gives this Nine a hidden substance that is barely visible at rest. This exact
+        combination of denial through habit and quiet physical resilience shaped how Laughton
+        dealt with his own bodily decline.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A body he avoided his whole life:</strong>
+        Decades before his cancer diagnosis, Laughton already had a deeply troubled relationship
+        with his own body, which he considered ugly and, by his own account, could barely look at
+        in a mirror – a basic stance that made it harder for him to take physical warning signs
+        seriously instead of pushing them aside.</p>
+        <p class="vb-intro"><strong>b) Visibly declining health as early as the late 1950s:</strong>
+        In his 1959 performance as King Lear at the Shakespeare Memorial Theatre in
+        Stratford-upon-Avon, Laughton already appeared markedly weakened and exhausted – he still
+        saw the physically demanding role through to the end, rather than taking his body's
+        warning signs as reason for a thorough examination.</p>
+        <p class="vb-intro"><strong>c) A presumed slipped disc in July 1962:</strong>
+        Only when he was admitted to Cedars of Lebanon Hospital in July 1962 for severe back pain,
+        originally suspected to be a slipped disc, did it emerge that the vertebral collapse was
+        actually caused by bone metastases from an already far-advanced kidney and bladder
+        cancer.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) A disease discovered only through another finding:</strong>
+        It wasn't the cancer itself but the presumably more harmless back problem that got
+        Laughton to the hospital at all – without the acute pain, the underlying cancer would
+        likely have gone undetected for even longer.</p>
+        <p class="vb-intro"><strong>b) A months-long hospital stay through November 1962:</strong>
+        After his diagnosis, Laughton remained hospitalized until November 1962, when he was
+        discharged home – a long, publicly barely commented withdrawal from the life he had
+        previously led as an actor and public figure.</p>
+        <p class="vb-intro"><strong>c) Dying without full knowledge of his own diagnosis:</strong>
+        By accounts from those around him, Laughton did not know with full clarity how serious his
+        illness actually was until shortly before his death – a then-common practice of
+        withholding the full truth from terminally ill patients, which in Laughton's case met a
+        personality that rarely sought out uncomfortable truths about himself in the first place.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) Elsa Lanchester as a stabilizing anchor to the end:</strong>
+        His wife Elsa Lanchester, to whom he had been connected since 1929 in a marriage built on
+        mutual respect rather than romantic passion, stayed at his side until his death and
+        organized his care in his final months.</p>
+        <p class="vb-intro"><strong>b) Continuing to work despite visible physical exhaustion:</strong>
+        Rather than stepping back early, Laughton still took on demanding roles even in the years
+        of visibly declining health – a continuation of the same routine that had given him
+        stability his whole life, even as his body had long been sending different signals.</p>
+        <p class="vb-intro"><strong>c) A coma before death, no conscious farewell:</strong>
+        In his final days Laughton fell into a coma from which he never woke – an ending that, in
+        a way, also spared him at the last moment the active confrontation with his own dying that
+        he had avoided his whole life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A sudden end after years of underlying decline:</strong>
+        What looked from the outside like a relatively sudden collapse in health in the summer of
+        1962 was in reality the result of a disease that had probably developed unnoticed for
+        years, while Laughton kept up his usual daily life for as long as possible.</p>
+        <p class="vb-intro"><strong>b) Death on December 15, 1962, in Hollywood:</strong>
+        Charles Laughton died at age 63 at his home in Hollywood – his ashes were interred at
+        Forest Lawn Memorial Park.</p>
+        <p class="vb-intro"><strong>c) No public reckoning with his own mortality:</strong>
+        Unlike some other illness portraits in this compass, Laughton left no record of a
+        conscious struggle with his own death – the illness remained, like his homosexuality,
+        largely unspoken.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The Eight-wing that long compensated for physical pain:</strong>
+        The same hidden substance that let Laughton carry his most demanding roles through with
+        visibly failing strength probably also delayed his confrontation with his own serious
+        illness – strength used to keep going, not to look more closely.</p>
+        <p class="vb-intro"><strong>b) Appetite that took refuge in habit rather than concern for the body:</strong>
+        The self-preservation Nine seeks peace in the familiar – for Laughton, that meant holding
+        onto cooking, art collecting, and his usual work routines while his own body was already
+        seriously ill.</p>
+        <p class="vb-intro"><strong>c) A death that largely spared him active confrontation:</strong>
+        That Laughton did not know the full truth of his diagnosis until the end, and finally died
+        in a coma, fits a life pattern that consistently avoided a direct, conscious reckoning
+        with uncomfortable truths about himself.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Throughline</h3>
+        <p class="vb-intro"><strong>a) A body ignored for years:</strong>
+        Laughton's visibly declining health as early as 1959 during his Lear in Stratford, and the
+        diagnosis only reached in 1962, by which point it was already far advanced, show the same
+        underlying strategy: folding the body's warning signs into the familiar routine for as
+        long as possible instead of actively investigating them.</p>
+        <p class="vb-intro"><strong>b) The parallel to Laughton's own Life Pattern Compass fingerprint:</strong>
+        This exact pattern – inertia as self-forgetting rather than active resistance – already
+        appears in his portrait under Famous Personalities: a settling into familiar comfort that
+        here extended even into how he handled his own fatal illness.</p>
+        <p class="vb-intro"><strong>c) Why exactly a cancer that went undetected for so long?</strong>
+        For a self-preservation Nine with an Eight-wing, whose deepest need is to find peace in
+        the familiar and to dampen uncomfortable signals both inner and outer, one interpretation
+        suggests itself: a disease that develops for a long time without clear warning signs and
+        hides behind an apparently more harmless finding met, in Laughton, a man who preferred to
+        stay in the familiar rather than look more closely his whole life. This interpretation is
+        developed further in this compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Framing without determinism:</strong>
+        This does not mean that the self-preservation Nine's pattern inevitably leads to cancer –
+        <strong>anyone can get any illness, regardless of subtype.</strong> What Laughton's case
+        illustrates is a pattern that repeatedly stands out in practice with deep, habit-based
+        denial – one of many possible explanations, not a judgment. The corresponding illness
+        profile is being developed step by step in this compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Laughton did not know his own Enneagram pattern – and lived out his Nine's inertia so
+        unchecked precisely because of that: instead of seeking a serious medical workup for his
+        physical exhaustion early on, he held onto his familiar roles and his familiar daily life
+        until his body itself made the decision. Not out of guilt, but out of ignorance about his
+        own pattern – and that is exactly why a serious cancer was able to develop unhindered in
+        him for years, instead of being caught and treated in time.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Charles Laughton's</strong> illness story shows the self-preservation Nine with an
+        Eight-wing at its most vulnerable: a man who avoided his own body his whole life, folded
+        its warning signs into his familiar routine for years, and finally died of a disease
+        whose full extent, by accounts from those around him, he never fully knew. The elephant
+        who preferred not to look too closely at his own mortality either.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-charles-laughton", label:"Portrait: Charles Laughton (SP9w8) – life's work"},
+        {route:"krankheitsportraets-margaret-rutherford", label:"Illness Portrait: Margaret Rutherford (SP9w8) – same subtype"},
+        {route:"krankheitsportraets-david-hume", label:"Illness Portrait: David Hume (SP9w8) – same subtype"},
+        {route:"krankheitsportraets-hans-dietrich-genscher", label:"Illness Portrait: Hans-Dietrich Genscher (SP9w8) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+      ])}
+    </div>
+  `);
+}
