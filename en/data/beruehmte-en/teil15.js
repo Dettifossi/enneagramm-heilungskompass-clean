@@ -326,6 +326,7 @@ export function davidLRathmerPortraitPage() {
         {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Volodymyr Zelenskyy (SE3w2)"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
         {route:"bibel-salome", label:"Bible Portrait: Salome (SE3w4)"},
+        {route:"astrologie-david-l-rathmer", label:"Enneagram Meets Astrology: David L. Rathmer (SE3w4)"},
       ])}
     </div>
   `);

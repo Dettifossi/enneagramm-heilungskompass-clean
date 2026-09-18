@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=150";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=151";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -23423,6 +23423,7 @@ const ASTROLOGIE_PORTRAITS = [
   { route:"astrologie-gerhard-schroeder", name:"Gerhard Schröder",  subtyp:"SX8w7",  heading:"Gerhard Schröder – Sexual Type 8",              teaser:"SX8w7 · b. 1944. Chancellor 1998–2005. Sun Aries in the 10th house, AC Cancer, Mercury Taurus in the 10th house, Venus Pisces in the 10th house, MC Pisces – the instinctive politician of power." },
   { route:"astrologie-angela-merkel",     name:"Angela Merkel",     subtyp:"SE9w8",  heading:"Angela Merkel – Self-Preservation Type 9",      teaser:"SP9w8 · b. 1954. Chancellor 2005–2021. Sun Cancer in the 10th house, AC Libra, Moon Aquarius in the 4th house, Mars Sagittarius in the 3rd house – the immovable mediator of power." },
   { route:"astrologie-enrico-caruso",     name:"Enrico Caruso",     subtyp:"SE3w2",  heading:"Enrico Caruso – Self-Preservation Type 3",      teaser:"SP3w2 · 1873–1921. Opera singer, the most famous tenor of his era. Sun Pisces near the MC (10th house), Moon and Saturn Capricorn in the 8th house, AC Cancer, Venus and Neptune Aries near the MC – the disciplined voice of the century.", beruehmteRoute:"beruehmte-enrico-caruso", gender:"m" },
+  { route:"astrologie-david-l-rathmer",   name:"David L. Rathmer",  subtyp:"SE3w4",  heading:"David L. Rathmer – Self-Preservation Type 3",   teaser:"SP3w4 · b. 2003 in Münster. Enneagram profiler, founder of the Ennea Scholars Academy. Sun Aries in the 4th house, Moon in Scorpio conjunct the MC, AC Capricorn, Mars Capricorn in the 1st house – the raccoon who turns his own depth into a method.", beruehmteRoute:"beruehmte-david-l-rathmer", gender:"m" },
 ];
 
 function _astrologiePage(p, analysisHtml) {
@@ -23677,6 +23678,34 @@ function astrologieEnricoCarusoPage() {
       {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2) – life's work"},
       {route:"krankheitsportraets-enrico-caruso", label:"Illness Portrait: Enrico Caruso (SP3w2)"},
       {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2) – same subtype"},
+    ])}`
+  );
+}
+
+function astrologieDavidLRathmerPage() {
+  return _astrologiePage(
+    { slug:"david-l-rathmer", name:"David L. Rathmer", subtyp:"SE3w4",
+      subtypLabel:"Selbsterhaltender Typ 3 mit Viererflügel",
+      subtitle:"Enneagram Profiler, b. 2003 in Münster – Founder of the Ennea Scholars Academy",
+      beruehmteRoute:"beruehmte-david-l-rathmer", gender:"m" },
+    `<h2 class="vb-section">SP3w4 – The Raccoon Who Turns His Own Depth Into a Method</h2>
+    <blockquote class="vb-blockquote">
+      <p class="vb-intro">David L. Rathmer embodies the classic profile of the <strong>self-preservation Three with Four wing (SP3w4)</strong> – security through demonstrated competence rather than self-promotion, combined with a Four-wing that adds depth, individuality, and a fine sensitivity for other people's inner lives. The horoscope shows a rare combination of early, energetic pioneering spirit and an emotional depth that becomes a method in exactly the field he chose: the psychological interpretation of the human being itself.</p>
+    </blockquote>
+    <h2 class="vb-section">The Natal Horoscope in Dialogue with the Enneagram</h2>
+    <div class="vb-section" style="max-width:100%;">
+      <p class="vb-intro"><strong>Sun in Aries, in the 4th House:</strong> Aries is the sign of departure, of immediate initiative, of the pioneering spirit – in the 4th house, the house of one's own roots and inner foundation, this drive turns not outward toward someone else's stage, but toward building a foundation of one's own. That shows up biographically: founding one's own academy and holding office as the youngest economic senator of his economic senate at a young age – early pioneering achievement, but on ground he built himself rather than on someone else's career ladder.</p>
+      <p class="vb-intro"><strong>Moon conjunct the Midheaven in Scorpio (10th House):</strong> This is where the horoscope's true signature lies. The Moon on the MC turns his own emotional depth directly into a public life purpose – and Scorpio is the sign of penetrating beneath the surface rather than staying on it. For an Enneagram profiler whose profession consists precisely of looking behind other people's outer façade, this is a remarkably direct correspondence: his own inner intensity becomes the professional tool with which he decodes the intensity of others.</p>
+      <p class="vb-intro"><strong>Capricorn Ascendant, Mars in Capricorn in the 1st House:</strong> The Capricorn ascendant gives a serious, structured, authority-conscious public appearance – exactly the competence-over-shine façade of the self-preservation Three. Mars right on the ascendant reinforces this: ambition that doesn't discharge impulsively but is applied in a disciplined, strategic, goal-directed way – no loud charging ahead, but controlled, persistent drive.</p>
+      <p class="vb-intro"><strong>Saturn in Cancer, in the 5th House:</strong> The 5th house stands for self-expression, creativity, the playful visibility of one's own self – and it is exactly here that disciplining, sobering Saturn sits, in emotionally sensitive Cancer besides. This is a typical Four-wing tension: his own vulnerable inner world is not shown outward unfiltered, but is first brought into a structured, professionally viable form – depth that expresses itself as method and teaching system, not as raw personal display.</p>
+    </div>
+    <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+      <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Conclusion:</strong> The Aries Sun in the 4th house supplies the early, self-determined founding impulse, while the Scorpio Moon on the MC gives that departure its actual depth: the need not just to function, but to understand what lies beneath the surface – in himself as much as in others. Capricorn ascendant and Mars secure the disciplined, competent outward presence of the self-preservation Three, while Saturn in Cancer in the 5th house ensures that this depth never stays unfiltered, but becomes a teachable, transferable method. That is exactly the astrological signature of the SP3w4: competence that draws on genuine inner depth, rather than replacing it.</p>
+    </div>
+    ${relatedLinks([
+      {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SP3w4) – life's work"},
+      {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2) – same core type, different wing"},
+      {route:"beruehmte-caren-miosga", label:"Portrait: Caren Miosga (SP3w4) – same subtype"},
     ])}`
   );
 }
@@ -53274,6 +53303,7 @@ function subtypeSchaubilderPage() {
       "astrologie-gerhard-schroeder": astrologieGerhardSchroederPage,
       "astrologie-angela-merkel": astrologieAngelaMerkelPage,
       "astrologie-enrico-caruso": astrologieEnricoCarusoPage,
+      "astrologie-david-l-rathmer": astrologieDavidLRathmerPage,
       "beruehmte-persoenlichkeiten": beruehmtePersoenlichkeitenPage,
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-ludwig-wittgenstein": ludwigWittgensteinPortraitPage,

@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage, gescheGottfriedPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=150";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=151";
 
 import { adeleKrankheitsportraetPage, arnoldSchwarzeneggerKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -32696,6 +32696,7 @@ const ASTROLOGIE_PORTRAITS = [
   { route:"astrologie-gerhard-schroeder", name:"Gerhard Schr\u00f6der",  subtyp:"SX8w7",  heading:"Gerhard Schr\u00f6der \u2013 Sexueller Typ 8",           teaser:"SX8w7 \u00b7 geb. 1944. Bundeskanzler 1998\u20132005. Sonne Widder im 10. Haus, AC Krebs, Merkur Stier im 10. Haus, Venus Fische im 10. Haus, MC Fische \u2013 der Instinktpolitiker der Macht." },
   { route:"astrologie-angela-merkel",     name:"Angela Merkel",     subtyp:"SE9w8",  heading:"Angela Merkel \u2013 Selbsterhaltende Typ 9",       teaser:"SE9w8 \u00b7 geb. 1954. Bundeskanzlerin 2005\u20132021. Sonne Krebs im 10. Haus, AC Waage, Mond Wassermann im 4. Haus, Mars Sch\u00fctze im 3. Haus \u2013 die unbewegliche Vermittlerin der Macht." },
   { route:"astrologie-enrico-caruso",     name:"Enrico Caruso",     subtyp:"SE3w2",  heading:"Enrico Caruso \u2013 Selbsterhaltender Typ 3",      teaser:"SE3w2 \u00b7 1873\u20131921. Operns\u00e4nger, ber\u00fchmtester Tenor seiner Zeit. Sonne Fische nahe MC (10. Haus), Mond und Saturn Steinbock im 8. Haus, AC Krebs, Venus und Neptun Widder nahe MC \u2013 die disziplinierte Stimme des Jahrhunderts.", beruehmteRoute:"beruehmte-enrico-caruso", gender:"m" },
+  { route:"astrologie-david-l-rathmer",   name:"David L. Rathmer",  subtyp:"SE3w4",  heading:"David L. Rathmer \u2013 Selbsterhaltender Typ 3",  teaser:"SE3w4 \u00b7 geb. 2003 in M\u00fcnster. Enneagramm-Profiler, Gr\u00fcnder der Ennea Scholars Academy. Sonne Widder im 4. Haus, Mond Skorpion konjunkt MC, AC Steinbock, Mars Steinbock im 1. Haus \u2013 der Waschb\u00e4r, der die eigene Tiefe zur Methode macht.", beruehmteRoute:"beruehmte-david-l-rathmer", gender:"m" },
 ];
 
 const ENNEAGRAMM_KUNST = {
@@ -50896,6 +50897,34 @@ function astrologieEnricoCarusoPage() {
       {route:"beruehmte-enrico-caruso", label:"Portr\xe4t: Enrico Caruso (SE3w2) – Lebenswerk"},
       {route:"krankheitsportraets-enrico-caruso", label:"Krankheitsportr\xe4t: Enrico Caruso (SE3w2)"},
       {route:"beruehmte-joseph-haydn", label:"Portr\xe4t: Joseph Haydn (SE3w2) – gleicher Subtyp"},
+    ])}`
+  );
+}
+
+function astrologieDavidLRathmerPage() {
+  return _astrologiePage(
+    { slug:"david-l-rathmer", name:"David L. Rathmer", subtyp:"SE3w4",
+      subtypLabel:"Selbsterhaltender Typ 3 mit Viererflügel",
+      subtitle:"Enneagramm-Profiler, geb. 2003 in Münster – Gründer der Ennea Scholars Academy",
+      beruehmteRoute:"beruehmte-david-l-rathmer", gender:"m" },
+    `<h2 class="vb-section">SE3w4 – Der Waschbär, der die eigene Tiefe zur Methode macht</h2>
+    <blockquote class="vb-blockquote">
+      <p class="vb-intro">David L. Rathmer verkörpert das klassische Profil der <strong>selbsterhaltenden Drei mit Viererflügel (SE3w4)</strong> – Sicherheit durch demonstrierte Kompetenz statt durch Selbstinszenierung, verbunden mit einem Viererflügel, der Tiefe, Individualität und ein feines Gespür für das Innenleben anderer Menschen hinzufügt. Das Horoskop zeigt eine seltene Kombination aus frühem, energischem Pioniergeist und einer emotionalen Tiefe, die genau in dem Fachgebiet zur Methode wird, das er sich gewählt hat: die psychologische Deutung des Menschen selbst.</p>
+    </blockquote>
+    <h2 class="vb-section">Das Radix-Horoskop im Dialog mit dem Enneagramm</h2>
+    <div class="vb-section" style="max-width:100%;">
+      <p class="vb-intro"><strong>Sonne im Widder, im 4. Haus:</strong> Der Widder ist das Zeichen des Aufbruchs, der unmittelbaren Initiative, des Pionierhaften – im 4. Haus, dem Haus der eigenen Wurzeln und der inneren Basis, richtet sich dieser Antrieb nicht nach außen auf fremde Bühnen, sondern auf den Aufbau eines eigenen Fundaments. Genau das zeigt sich biografisch: die Gründung einer eigenen Akademie und ein Amt als jüngster Wirtschaftssenator seines Wirtschaftssenats in jungen Jahren – frühe Pionierleistung, aber auf dem eigenen, selbst geschaffenen Grund statt auf einer fremden Karriereleiter.</p>
+      <p class="vb-intro"><strong>Mond in Konjunktion mit dem Medium Coeli im Skorpion (10. Haus):</strong> Hier liegt die eigentliche Signatur des Horoskops. Der Mond auf dem MC macht die eigene emotionale Tiefe unmittelbar zum öffentlichen Lebensziel – und Skorpion ist das Zeichen des Durchdringens, des Nicht-an-der-Oberfläche-Bleibens. Bei einem Enneagramm-Profiler, dessen Beruf genau darin besteht, hinter die äußere Fassade von Menschen zu blicken, ist das eine bemerkenswert direkte Entsprechung: die eigene innere Intensität wird zum professionellen Werkzeug, mit dem er die Intensität anderer entschlüsselt.</p>
+      <p class="vb-intro"><strong>Aszendent Steinbock, Mars im Steinbock im 1. Haus:</strong> Der Steinbock-Aszendent gibt eine ernste, strukturierte, autoritätsbewusste öffentliche Erscheinung – genau die Kompetenz-statt-Glanz-Fassade der selbsterhaltenden Drei. Mars direkt am Aszendenten verstärkt das: Ehrgeiz, der sich nicht impulsiv entlädt, sondern diszipliniert, strategisch und zielgerichtet eingesetzt wird – kein lautes Draufgehen, sondern kontrollierter, beharrlicher Antrieb.</p>
+      <p class="vb-intro"><strong>Saturn im Krebs, im 5. Haus:</strong> Das 5. Haus steht für Selbstausdruck, Kreativität, das spielerisch Sichtbar-Werden des eigenen Ichs – ausgerechnet hier sitzt der disziplinierende, ernst machende Saturn, dazu im emotional empfindsamen Krebs. Das ist eine typische Viererflügel-Spannung: Die eigene, verletzliche Innenwelt wird nicht ungefiltert nach außen gezeigt, sondern erst in eine strukturierte, professionell tragfähige Form gebracht – Tiefe, die sich als Methode und Lehrsystem äußert, nicht als roher persönlicher Ausdruck.</p>
+    </div>
+    <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+      <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Fazit:</strong> Die Widder-Sonne im 4. Haus liefert den frühen, selbstbestimmten Gründungsimpuls, während der Skorpion-Mond auf dem MC diesem Aufbruch seine eigentliche Tiefe gibt: das Bedürfnis, nicht nur zu funktionieren, sondern zu verstehen, was unter der Oberfläche liegt – bei sich selbst wie bei anderen. Steinbock-Aszendent und Mars sichern die diszipliniert-kompetente Außenwirkung der selbsterhaltenden Drei, während Saturn im Krebs im 5. Haus dafür sorgt, dass diese Tiefe nie ungefiltert bleibt, sondern zu einer lehrbaren, weitergebbaren Methode wird. Genau darin liegt die astrologische Signatur der SE3w4: Kompetenz, die aus echter innerer Tiefe schöpft, statt sie zu ersetzen.</p>
+    </div>
+    ${relatedLinks([
+      {route:"beruehmte-david-l-rathmer", label:"Portr\xe4t: David L. Rathmer (SE3w4) – Lebenswerk"},
+      {route:"beruehmte-enrico-caruso", label:"Portr\xe4t: Enrico Caruso (SE3w2) – gleicher Kerntyp, anderer Fl\xfcgel"},
+      {route:"beruehmte-caren-miosga", label:"Portr\xe4t: Caren Miosga (SE3w4) – gleicher Subtyp"},
     ])}`
   );
 }
@@ -77516,6 +77545,7 @@ const ROUTES = {
       "astrologie-gerhard-schroeder": astrologieGerhardSchroederPage,
       "astrologie-angela-merkel": astrologieAngelaMerkelPage,
       "astrologie-enrico-caruso": astrologieEnricoCarusoPage,
+      "astrologie-david-l-rathmer": astrologieDavidLRathmerPage,
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-ludwig-wittgenstein": ludwigWittgensteinPortraitPage,
       "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
