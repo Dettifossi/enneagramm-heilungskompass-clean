@@ -4555,9 +4555,10 @@ export function enricoCarusoKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
         ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Caruso kannte sein eigenes Enneagramm-Muster nicht – und lebte seine Dreier-Verlässlichkeit
-        gerade deshalb so ungebremst aus: Statt nach dem ersten Blutsturz die Bühne zu verlassen,
-        hielt er an seinen Verpflichtungen fest, bis der Körper selbst keine Wahl mehr ließ. Nicht
+        Caruso kannte sein eigenes Enneagramm-Muster nicht und hatte deshalb auch keinen Grund,
+        seiner Dreier-Verlässlichkeit je bewusst Grenzen zu setzen: Statt nach dem ersten Blutsturz
+        die Bühne zu verlassen, hielt er an seinen Verpflichtungen fest, bis der Körper selbst keine
+        Wahl mehr ließ. Nicht
         aus Schuld, sondern aus Unwissenheit über das eigene Muster – und genau das erklärt, warum
         eine zunächst behandelbare Erkrankung über Wochen eskalieren konnte, statt frühzeitig
         ernst genommen und konsequent auskuriert zu werden.</p>

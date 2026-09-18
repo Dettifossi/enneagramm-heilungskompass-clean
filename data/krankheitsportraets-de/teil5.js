@@ -4529,8 +4529,8 @@ export function charlesLaughtonKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
         ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Laughton kannte sein eigenes Enneagramm-Muster nicht – und lebte seine Neuner-Trägheit gerade
-        deshalb so ungebremst aus: Statt frühzeitig eine ernsthafte ärztliche Abklärung seiner
+        Laughton kannte sein eigenes Enneagramm-Muster nicht, und so blieb seine Neuner-Trägheit
+        völlig ungebremst wirksam: Statt frühzeitig eine ernsthafte ärztliche Abklärung seiner
         körperlichen Erschöpfung zu suchen, hielt er an seinen gewohnten Rollen, seinem gewohnten Alltag
         fest, bis der Körper selbst die Entscheidung traf. Nicht aus Schuld, sondern aus Unwissenheit
         über das eigene Muster – und genau das erklärt, warum sich bei ihm eine schwere Krebserkrankung

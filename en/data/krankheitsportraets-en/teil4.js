@@ -4354,8 +4354,8 @@ export function enricoCarusoKrankheitsportraetPage() {
         corresponding illness profile is being developed step by step in this compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
-        Caruso did not know his own Enneagram pattern – and lived out his Three's reliability so
-        unchecked precisely because of that: instead of leaving the stage after the first
+        Caruso did not know his own Enneagram pattern, so nothing ever prompted him to set limits
+        on his Three's reliability: instead of leaving the stage after the first
         hemorrhage, he held onto his commitments until his body itself left no choice. Not out of
         guilt, but out of ignorance about his own pattern – and that is exactly why an initially
         treatable illness was able to escalate over weeks, instead of being taken seriously early

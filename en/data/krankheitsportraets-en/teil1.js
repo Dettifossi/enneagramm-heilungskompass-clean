@@ -3784,9 +3784,9 @@ export function margaretRutherfordKrankheitsportraetPage() {
         Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
-        Rutherford did not know her own Enneagram pattern – and precisely because of that,
-        lived out her Nine's inertia so unchecked: instead of course-correcting in time, she
-        immersed herself ever further into the same roles, the same routine, the same silence.
+        Rutherford did not know her own Enneagram pattern. Without that awareness, she had no
+        reason to consciously counter her own Nine's inertia – instead she immersed herself ever
+        further into the same roles, the same routine, the same silence.
         Not out of guilt, but out of not knowing her own pattern – and that is exactly what
         explains why two different, awareness-clouding illnesses could unfold unhindered across
         an entire life, instead of being recognized and treated in time.</p>

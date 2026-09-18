@@ -3959,9 +3959,9 @@ export function margaretRutherfordKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
         ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Rutherford kannte ihr eigenes Enneagramm-Muster nicht – und lebte ihre Neuner-Trägheit
-        gerade deshalb so ungebremst aus: Statt rechtzeitig gegenzusteuern, vertiefte sie sich
-        immer weiter in dieselben Rollen, dieselbe Routine, dasselbe Schweigen. Nicht aus
+        Rutherford kannte ihr eigenes Enneagramm-Muster nicht. Ohne dieses Wissen fehlte ihr jeder
+        Anlass, der eigenen Neuner-Trägheit bewusst entgegenzusteuern – stattdessen vertiefte sie
+        sich immer weiter in dieselben Rollen, dieselbe Routine, dasselbe Schweigen. Nicht aus
         Schuld, sondern aus Unwissenheit über das eigene Muster – und genau das erklärt, warum
         sich bei ihr zwei verschiedene, das Bewusstsein trübende Erkrankungen über ein ganzes
         Leben hinweg unbehelligt entfalten konnten, statt rechtzeitig erkannt und behandelt zu

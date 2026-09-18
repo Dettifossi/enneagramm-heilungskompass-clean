@@ -4327,8 +4327,8 @@ export function charlesLaughtonKrankheitsportraetPage() {
         profile is being developed step by step in this compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
-        Laughton did not know his own Enneagram pattern – and lived out his Nine's inertia so
-        unchecked precisely because of that: instead of seeking a serious medical workup for his
+        Laughton did not know his own Enneagram pattern, and so his Nine's inertia went entirely
+        unchecked: instead of seeking a serious medical workup for his
         physical exhaustion early on, he held onto his familiar roles and his familiar daily life
         until his body itself made the decision. Not out of guilt, but out of ignorance about his
         own pattern – and that is exactly why a serious cancer was able to develop unhindered in
