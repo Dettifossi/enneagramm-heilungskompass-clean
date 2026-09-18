@@ -983,7 +983,7 @@ export function marieCuriePortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-marie-curie-portrait.jpg" alt="Marie Curie – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Marie Curie</p>
+        <p class="krim-portrait-name">Prof. Dr. Marie Curie</p>
         <p class="krim-portrait-typ">SP5w6 &middot; Self-Preservation Type 5 with Six-wing</p>
         <p class="krim-portrait-subtitle">Physicist and chemist, 1867–1934 – the only person with Nobel Prizes in two different sciences – Animal correspondence: Owl</p>
       </div>

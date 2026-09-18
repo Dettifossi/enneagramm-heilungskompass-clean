@@ -988,7 +988,7 @@ export function marieCuriePortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-marie-curie-portrait.jpg" alt="Marie Curie – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Marie Curie</p>
+        <p class="krim-portrait-name">Prof. Dr. Marie Curie</p>
         <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltende Typ 5 mit Sechserfl\xfcgel</p>
         <p class="krim-portrait-subtitle">Physikerin und Chemikerin, 1867&ndash;1934 &ndash; einzige Person mit Nobelpreisen in zwei verschiedenen Naturwissenschaften &ndash; Tierentsprechung: Eule</p>
       </div>

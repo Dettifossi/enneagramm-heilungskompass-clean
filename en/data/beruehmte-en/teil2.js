@@ -337,7 +337,7 @@ export function dianFosseyPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dian-fossey-portrait.jpg" alt="Dian Fossey – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Dian Fossey</p>
+        <p class="krim-portrait-name">Dr. Dian Fossey</p>
         <p class="krim-portrait-typ">SP7w8 &middot; Self-Preservation Type 7 with Eight-wing</p>
         <p class="krim-portrait-subtitle">Primatologist, 1932–1985 (murdered) – gorilla researcher and conservationist – Animal correspondence: Gorilla</p>
       </div>

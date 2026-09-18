@@ -1616,7 +1616,7 @@ export function karlLauterbachPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-karl-lauterbach-portrait.jpg" alt="Karl Lauterbach – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Karl Lauterbach</p>
+        <p class="krim-portrait-name">Prof. Dr. Karl Lauterbach</p>
         <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit F\xfcnferfl\xfcgel</p>
         <p class="krim-portrait-subtitle">Deutscher Gesundheits\xf6konom &amp; Politiker, geb. 1963 &ndash; Bundesgesundheitsminister 2021&ndash;2025</p>
       </div>

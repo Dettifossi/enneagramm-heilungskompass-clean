@@ -1363,7 +1363,7 @@ export function stephenHawkingPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-stephen-hawking-portrait.jpg" alt="Stephen Hawking" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Stephen Hawking</p>
+        <p class="krim-portrait-name">Prof. Dr. Stephen Hawking</p>
         <p class="krim-portrait-typ">SO5w6 &middot; Sozialer Typ 5 mit Sechserflügel</p>
         <p class="krim-portrait-subtitle">1942&ndash;2018 &ndash; theoretischer Physiker, ›Eine kurze Geschichte der Zeit‹ &ndash; Tierentsprechung: Oktopus</p>
       </div>

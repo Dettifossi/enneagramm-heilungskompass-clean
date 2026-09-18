@@ -472,7 +472,7 @@ export function fritzPerlsPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-fritz-perls-portrait.jpg" alt="Fritz Perls" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Fritz Perls</p>
+        <p class="krim-portrait-name">Dr. Fritz Perls</p>
         <p class="krim-portrait-typ">SO8w7 &middot; Social Type 8 with Seven-wing</p>
         <p class="krim-portrait-subtitle">Psychiatrist, co-founder of Gestalt therapy, 1893&ndash;1970 &ndash; Animal correspondence: Lion</p>
       </div>
@@ -868,7 +868,7 @@ export function konradLorenzPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-konrad-lorenz-portrait.jpg" alt="Konrad Lorenz – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Konrad Lorenz</p>
+        <p class="krim-portrait-name">Prof. Dr. Konrad Lorenz</p>
         <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
         <p class="krim-portrait-subtitle">Ethologist, 1903&ndash;1989 &ndash; founder of ethology, Nobel Prize 1973 &ndash; Animal correspondence: Goose</p>
       </div>

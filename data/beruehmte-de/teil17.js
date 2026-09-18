@@ -1962,7 +1962,7 @@ export function aliceMillerPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alice-miller-portrait.jpg" alt="Alice Miller – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Alice Miller</p>
+        <p class="krim-portrait-name">Dr. Alice Miller</p>
         <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
         <p class="krim-portrait-subtitle">1923&ndash;2010 &ndash; Psychoanalytikerin, Autorin von ›Das Drama des begabten Kindes‹ &ndash; Tierentsprechung: Gürteltier</p>
       </div>

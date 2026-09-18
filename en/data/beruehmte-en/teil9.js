@@ -2007,7 +2007,7 @@ export function haraldLeschPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-harald-lesch-portrait.jpg" alt="Harald Lesch – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Harald Lesch</p>
+        <p class="krim-portrait-name">Prof. Dr. Harald Lesch</p>
         <p class="krim-portrait-typ">SE5w6 &middot; Self-Preservation Type 5 with a Six-Wing</p>
         <p class="krim-portrait-subtitle">Astrophysicist, science communicator, born 1960 – Animal correspondence: Owl</p>
       </div>

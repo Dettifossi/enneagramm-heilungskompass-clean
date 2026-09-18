@@ -1605,7 +1605,7 @@ export function karlLauterbachPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-karl-lauterbach-portrait.jpg" alt="Karl Lauterbach – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Karl Lauterbach</p>
+        <p class="krim-portrait-name">Prof. Dr. Karl Lauterbach</p>
         <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
         <p class="krim-portrait-subtitle">German health economist &amp; politician, born 1963 &ndash; Federal Minister of Health 2021&ndash;2025</p>
       </div>
@@ -2061,7 +2061,7 @@ export function herfriedMuenklerPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-herfried-muenkler-portrait.jpg" alt="Herfried Münkler" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Herfried Münkler</p>
+        <p class="krim-portrait-name">Prof. Dr. Herfried Münkler</p>
         <p class="krim-portrait-typ">SO6w7 &middot; Social Type 6 with a Seven-Wing</p>
         <p class="krim-portrait-subtitle">Political Scientist, born 1951 &ndash; Animal correspondence: Meerkat</p>
       </div>

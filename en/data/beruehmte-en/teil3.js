@@ -739,7 +739,7 @@ export function jenniferMatherPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jennifer-mather-portrait.jpg" alt="Jennifer Mather – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Jennifer Mather</p>
+        <p class="krim-portrait-name">Prof. Dr. Jennifer Mather</p>
         <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with Six-wing</p>
         <p class="krim-portrait-subtitle">Behavioral scientist, born 1943 &ndash; pioneer of octopus cognition research &ndash; Animal correspondence: Octopus</p>
       </div>

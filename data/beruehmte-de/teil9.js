@@ -2005,7 +2005,7 @@ export function haraldLeschPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-harald-lesch-portrait.jpg" alt="Harald Lesch – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Harald Lesch</p>
+        <p class="krim-portrait-name">Prof. Dr. Harald Lesch</p>
         <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserflügel</p>
         <p class="krim-portrait-subtitle">Astrophysiker, Wissenschaftskommunikator, geb. 1960 &ndash; Tierentsprechung: Eule</p>
       </div>
@@ -2069,7 +2069,7 @@ export function herfriedMuenklerPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-herfried-muenkler-portrait.jpg" alt="Herfried Münkler" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Herfried Münkler</p>
+        <p class="krim-portrait-name">Prof. Dr. Herfried Münkler</p>
         <p class="krim-portrait-typ">SO6w7 &middot; Sozialer Typ 6 mit Siebenerflügel</p>
         <p class="krim-portrait-subtitle">Politikwissenschaftler, geb. 1951 &ndash; Tierentsprechung: Erdmännchen</p>
       </div>

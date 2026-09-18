@@ -1778,7 +1778,7 @@ export function robertOppenheimerPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-robert-oppenheimer-portrait.jpg" alt="J. Robert Oppenheimer – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">J. Robert Oppenheimer</p>
+        <p class="krim-portrait-name">Prof. Dr. J. Robert Oppenheimer</p>
         <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltender Typ 1 mit Zweierflügel</p>
         <p class="krim-portrait-subtitle">Physiker, 1904&ndash;1967 &ndash; Tierentsprechung: Adler</p>
       </div>

@@ -337,7 +337,7 @@ export function dianFosseyPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dian-fossey-portrait.jpg" alt="Dian Fossey – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Dian Fossey</p>
+        <p class="krim-portrait-name">Dr. Dian Fossey</p>
         <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltende Typ 7 mit Achterfl\xfcgel</p>
         <p class="krim-portrait-subtitle">Primatologin, 1932&ndash;1985 (ermordet) &ndash; Gorillaforscherin und Artenschützerin &ndash; Tierentsprechung: Gorilla</p>
       </div>
