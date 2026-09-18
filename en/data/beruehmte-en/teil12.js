@@ -2123,7 +2123,7 @@ export function antonZeilingerPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-anton-zeilinger-portrait.jpg" alt="Anton Zeilinger – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Anton Zeilinger</p>
+        <p class="krim-portrait-name">Prof. Dr. Anton Zeilinger</p>
         <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with six wing</p>
         <p class="krim-portrait-subtitle">Quantum physicist, b. 1945 – 2022 Nobel Prize in Physics – Animal equivalent: Octopus</p>
       </div>
