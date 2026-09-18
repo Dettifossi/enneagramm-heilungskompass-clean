@@ -3554,7 +3554,7 @@ export function blaisePascalKrankheitsportraetPage() {
         Pascal kannte sein eigenes Enneagramm-Muster nicht – die sexuelle Fünf mit
         Sechserflügel sucht Sicherheit fast reflexhaft in radikaler, kompromissloser
         Verschmelzung mit einer einzigen Sache, statt einen maßvolleren Mittelweg
-        zuzulassen. Genau das lebte er bis zuletzt ungebremst aus: erst restlos in
+        zuzulassen. Genau dieses Muster bestimmte sein Leben bis zuletzt: erst restlos in
         der Wissenschaft, dann restlos im Glauben, nie in einer Balance dazwischen.
         Wer die eigene Neigung zur radikalen Verschmelzung nicht als Muster erkennt,
         verwechselt sie leicht mit reiner Tugend, selbst wenn der eigene Körper
@@ -3739,7 +3739,7 @@ export function diegoVelazquezKrankheitsportraetPage() {
         Velázquez kannte sein eigenes Enneagramm-Muster nicht – die sexuelle Neun mit
         Einserflügel verschmilzt fast reflexhaft mit einer übernommenen Aufgabe, bis
         die eigenen Grenzen darin völlig verschwinden, statt rechtzeitig innezuhalten.
-        Genau das lebte er bis zuletzt ungebremst aus: eine letzte, perfekt ausgeführte
+        Genau dieses Muster trug ihn bis zuletzt: eine letzte, perfekt ausgeführte
         Pflicht, die keinen Raum mehr für die eigene Erschöpfung ließ. Wer die eigene
         Neigung zur grenzenlosen Verschmelzung nicht als Muster erkennt, verwechselt
         sie leicht mit reiner Pflichttreue, selbst wenn der eigene Körper längst an
@@ -3924,7 +3924,7 @@ export function adamSmithKrankheitsportraetPage() {
         Smith kannte sein eigenes Enneagramm-Muster nicht – die soziale Eins mit
         Neunerflügel prüft fast reflexhaft das eigene Handeln und Denken an einem
         hohen, oft unerreichbaren Maßstab, statt sich selbst auch Unvollkommenes
-        zuzugestehen. Genau das lebte er bis zuletzt ungebremst aus: lieber die
+        zuzugestehen. Genau dieses Muster bestimmte ihn bis zuletzt unkorrigiert: lieber die
         vollständige Vernichtung des eigenen unfertigen Werks als dessen mögliche
         Unzulänglichkeit der Nachwelt zu offenbaren. Wer die eigene Neigung zur
         permanenten Selbstprüfung nicht als Muster erkennt, verwechselt sie leicht
@@ -4109,7 +4109,7 @@ export function josephHaydnKrankheitsportraetPage() {
         Haydn kannte sein eigenes Enneagramm-Muster nicht – die selbsterhaltende
         Drei mit Zweierflügel sichert den eigenen Wert fast reflexhaft über
         beständige, nachweisbare Leistung, statt sich rechtzeitig Ruhephasen
-        zuzugestehen. Genau das lebte er bis zuletzt ungebremst aus: noch im
+        zuzugestehen. Genau dieses Muster hielt sich bis zuletzt unverändert: noch im
         eigenen Sterben griff er zur vertrauten musikalischen Leistung, um für
         andere da zu sein, statt selbst umsorgt zu werden. Wer die eigene Neigung
         zur ständigen Leistungserbringung nicht als Muster erkennt, verwechselt sie

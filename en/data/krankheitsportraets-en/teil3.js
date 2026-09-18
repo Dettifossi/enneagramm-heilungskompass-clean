@@ -1167,7 +1167,7 @@ export function georgeGershwinKrankheitsportraetPage() {
         Gershwin did not know his own Enneagram pattern – the social Seven with a Six-wing
         flees almost reflexively from any sign of stagnation or threat into new projects
         and social activity, rather than pausing and taking its own warning signs
-        seriously. That is exactly what he lived out unchecked to the end: more
+        seriously. That pattern carried him unrestrained to the end: more
         engagements rather than fewer, more company rather than withdrawal, more new music
         rather than the one urgently needed medical workup. Someone who does not recognize
         their own forward flight as a pattern easily mistakes it for sheer drive, even once
@@ -2021,7 +2021,7 @@ export function leonardBernsteinKrankheitsportraetPage() {
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
         Bernstein lived at a time when the Enneagram, as a modern personality model, was only
         just emerging in California – nothing suggests he ever consciously knew his own
-        pattern. He lived out the Seven's excess entirely unchecked: smoking, drinking, and a
+        pattern. The Seven's excess ran entirely uncorrected through his life: smoking, drinking, and a
         boundless workload were never recognized as a recurring pattern, simply treated as
         obstacles to be pushed past. Someone who does not know their own restlessness as a
         pattern cannot correct course in time, even when their own body has long been sending
@@ -3052,7 +3052,7 @@ export function stephenHawkingKrankheitsportraetPage() {
         Hawking did not know his own Enneagram pattern – the social Five with a Six-wing
         seeks security almost reflexively by building tested, reliable systems and by
         sharing knowledge with a larger community, rather than facing physical threat
-        through open emotional processing. That is exactly what he lived out unchecked: an
+        through open emotional processing. That pattern shaped his life without correction: an
         ever more refined technical system, an ever larger audience – not out of
         calculation, but out of a pattern he himself never recognized as such.</p>
       </div>

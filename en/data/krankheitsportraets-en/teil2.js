@@ -674,8 +674,8 @@ export function dollyPartonKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
         Nothing suggests that Parton ever consciously knew her own Enneagram pattern – like
-        most people, she likely didn't know the system at all. She lived out the Three's
-        passion, deceit through relentless self-presentation, unchecked for decades: pain,
+        most people, she likely didn't know the system at all. The Three's
+        passion, deceit through relentless self-presentation, governed her unopposed for decades: pain,
         surgeries, and later exhaustion were hidden behind humor and a flawlessly maintained
         stage persona, rather than recognized as a recurring pattern and taken seriously in
         time. Only her husband's death in 2025 brought her to publicly admit that she had
@@ -2060,7 +2060,7 @@ export function larryKingKrankheitsportraetPage() {
         reading among many, not a verdict. The corresponding condition will be developed
         step by step in this Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) The Unconscious Fixation as a Further Factor:</strong>
-        King, like most people, was not consciously aware of his own Enneagram pattern. Without that awareness he lived out his passion and motivation unchecked instead of applying the emergency brake in time – a trait that made him a giant of his profession, while also repeatedly driving him past the limits of his own health. Someone who recognizes their own pattern can consciously counter it; someone who does not repeats it until the body sets the limit the person never set themselves.</p>
+        King, like most people, was not consciously aware of his own Enneagram pattern. Without that awareness, nothing kept his passion and motivation in check, instead of applying the emergency brake in time – a trait that made him a giant of his profession, while also repeatedly driving him past the limits of his own health. Someone who recognizes their own pattern can consciously counter it; someone who does not repeats it until the body sets the limit the person never set themselves.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -2951,8 +2951,8 @@ export function romySchneiderKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
         Nothing suggests that Schneider ever consciously knew her own Enneagram pattern – the
-        system was barely known during her lifetime. She lived out the Four's shame and envy
-        unchecked for decades: instead of acknowledging her own pain early and seeking help,
+        system was barely known during her lifetime. The Four's shame and envy
+        went unopposed for decades: instead of acknowledging her own pain early and seeking help,
         she held on to the public façade and numbed what lay behind it. Whoever does not
         recognize their own wound as a recurring pattern also cannot meet it in time, when two
         existential losses – her son's father in 1979, her son himself in 1981 – arrive in
@@ -3835,7 +3835,7 @@ export function juergenDrewsKrankheitsportraetPage() {
         Drews most likely does not know his own Enneagram pattern – there is naturally no way to know this for certain. The sexual Nine with
         Eight-wing merges almost reflexively with audience and work and, in doing
         so, easily overrides her own bodily warning signs instead of pausing in
-        time. He lived exactly that out unchecked for decades: a full stage
+        time. Exactly that ran his life uncorrected for decades: a full stage
         schedule with no visible breaks, until the body itself set the limit.
         Anyone who doesn't recognize their own tendency toward boundless merging
         as a pattern easily mistakes it for simple love of one's profession, even

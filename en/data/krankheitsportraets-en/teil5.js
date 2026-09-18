@@ -1855,8 +1855,8 @@ export function klausKinskiKrankheitsportraetPage() {
         by step in this Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
         Nothing suggests that Kinski ever consciously knew his own Enneagram pattern – the
-        system was barely known during his lifetime. He lived out the Sexual One's zeal and
-        rage entirely unchecked, from the 1950 psychiatric crisis to the outbursts on set
+        system was barely known during his lifetime. The Sexual One's zeal and
+        rage governed him entirely uncorrected, from the 1950 psychiatric crisis to the outbursts on set
         decades later, without the pattern ever fundamentally changing. Whoever does not
         recognize their own moral intensity as a recurring pattern cannot meet it in time
         either – with consequences that reached far beyond himself and, as his daughter's
@@ -3785,7 +3785,7 @@ export function edvardMunchKrankheitsportraetPage() {
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
         Munch did not know his own Enneagram pattern — the social Four with Five-wing
         processes existential threat through analytical observation and public depiction
-        rather than through quiet withdrawal. He lived out exactly this pattern unconsciously
+        rather than through quiet withdrawal. Exactly this pattern governed him unconsciously
         and without restraint: every new crisis became new artistic material, instead of his
         ever learning to withdraw fully and rest in time. Whoever does not recognize their own
         longing for analytical distance as a pattern easily mistakes it for pure artistic

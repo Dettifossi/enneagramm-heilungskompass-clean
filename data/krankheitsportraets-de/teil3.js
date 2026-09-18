@@ -2130,7 +2130,7 @@ export function leonardBernsteinKrankheitsportraetPage() {
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Bernstein lebte zu einer Zeit, als das Enneagramm als modernes Persönlichkeitsmodell in
         Kalifornien gerade erst entstand – nichts deutet darauf hin, dass er sein eigenes
-        Muster je bewusst kannte. Er lebte die Maßlosigkeit der Sieben völlig ungebremst aus:
+        Muster je bewusst kannte. Die Maßlosigkeit der Sieben bestimmte sein Leben völlig unkorrigiert:
         Rauchen, Trinken, ein Arbeitspensum ohne Grenzen wurden nicht als wiederkehrendes
         Muster erkannt, sondern einfach als Hindernisse behandelt, die es zu überspielen galt.
         Wer die eigene Rastlosigkeit nicht als Muster kennt, kann rechtzeitig auch nicht
@@ -4096,7 +4096,7 @@ export function franzVonAssisiKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Franz von Assisi kannte, wie fast alle Menschen seiner Zeit, kein Enneagramm-Modell. Ohne dieses Wissen
-        lebte er seine Hingabe an die eigene Mission ungebremst aus, statt der fortschreitenden Erblindung
+        fand seine Hingabe an die eigene Mission keine Grenze, statt der fortschreitenden Erblindung
         rechtzeitig Rechnung zu tragen – ein Zug, der sein geistliches Werk unsterblich machte, ihn selbst aber
         weit vor seiner Zeit verzehrte. Wer das eigene Muster erkennt, kann bewusst gegensteuern; wer es nicht
         kennt, wiederholt es, bis der Körper die Grenze setzt, die der Mensch selbst nicht zog.</p>
@@ -4393,8 +4393,8 @@ export function klaraVonAssisiKrankheitsportraetPage() {
         diesem Kompass nach und nach im
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Klara kannte, wie fast alle Menschen ihrer Zeit, kein Enneagramm-Modell. Ohne dieses Wissen lebte sie ihr
-        Muster – Funktionieren und Fürsorge selbst unter extremer körperlicher Belastung – ungebremst aus, statt
+        Klara kannte, wie fast alle Menschen ihrer Zeit, kein Enneagramm-Modell. Ohne dieses Wissen setzte sich ihr
+        Muster – Funktionieren und Fürsorge selbst unter extremer körperlicher Belastung – unwidersprochen durch, statt
         sich selbst frühzeitig Schonung zuzugestehen. Wer das eigene Muster erkennt, kann bewusst gegensteuern;
         wer es nicht kennt, funktioniert weiter, bis der Körper keine andere Wahl mehr lässt.</p>
       </div>
@@ -4547,8 +4547,8 @@ export function jeanJacquesRousseauKrankheitsportraetPage() {
         Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Rousseau kannte, wie alle Menschen seiner Zeit, kein Enneagramm-Modell. Ohne dieses Wissen lebte er sein
-        Muster aus Rückzug und tiefem Misstrauen ungebremst aus, statt es als wiederkehrendes eigenes Verhalten
+        Rousseau kannte, wie alle Menschen seiner Zeit, kein Enneagramm-Modell. Ohne dieses Wissen bestimmte sein
+        Muster aus Rückzug und tiefem Misstrauen ungehindert sein Leben, statt es als wiederkehrendes eigenes Verhalten
         zu erkennen und ihm bewusst gegenzusteuern – ein Zug, der ihm literarisch beispiellose Offenheit
         ermöglichte, ihn persönlich aber zunehmend isolierte. Wer das eigene Muster erkennt, kann bewusst
         gegensteuern; wer es nicht kennt, wiederholt es, bis kaum noch jemand übrig bleibt, dem vertraut wird.</p>
@@ -4700,8 +4700,8 @@ export function arthurRimbaudKrankheitsportraetPage() {
         Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Rimbaud kannte, wie die meisten Menschen seiner Zeit, kein Enneagramm-Modell. Ohne dieses Wissen lebte er
-        seine Kompromisslosigkeit auch im eigenen Sterben ungebremst aus, statt sich selbst Schonung oder Trost
+        Rimbaud kannte, wie die meisten Menschen seiner Zeit, kein Enneagramm-Modell. Ohne dieses Wissen brach sich
+        seine Kompromisslosigkeit auch im eigenen Sterben ungehindert Bahn, statt sich selbst Schonung oder Trost
         in Beschönigung zuzugestehen – ein Zug, der seiner Dichtung und seinem späteren Leben dieselbe radikale
         Wucht verlieh, ihm aber auch in seiner letzten Lebensphase keine mildernde Distanz erlaubte. Wer das
         eigene Muster erkennt, kann bewusst gegensteuern; wer es nicht kennt, lebt es bis zum letzten Brief
@@ -4858,8 +4858,8 @@ export function paulGauguinKrankheitsportraetPage() {
         diesem Kompass nach und nach im
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Gauguin kannte, wie die meisten Menschen seiner Zeit, kein Enneagramm-Modell. Ohne dieses Wissen lebte
-        er seine kompromisslose Autonomie und seinen Rastlosigkeitsdrang ungebremst aus, statt sich rechtzeitig
+        Gauguin kannte, wie die meisten Menschen seiner Zeit, kein Enneagramm-Modell. Ohne dieses Wissen trieben
+        ihn seine kompromisslose Autonomie und sein Rastlosigkeitsdrang ungezügelt voran, statt sich rechtzeitig
         medizinische Hilfe oder Ruhe zu gönnen – ein Zug, der seinem Werk eine einzigartige Radikalität verlieh,
         ihn selbst aber weit vor seiner Zeit verzehrte. Wer das eigene Muster erkennt, kann bewusst
         gegensteuern; wer es nicht kennt, flieht weiter, bis der Körper keine Flucht mehr zulässt.</p>
@@ -5334,8 +5334,8 @@ export function jeanPaulSartreKrankheitsportraetPage() {
         wird in diesem Kompass nach und nach im
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Sartre kannte, wie die meisten Menschen seiner Zeit, kein Enneagramm-Modell. Ohne dieses Wissen lebte er
-        seine kompromisslose intellektuelle Intensität ungebremst aus, statt den eigenen Substanzkonsum
+        Sartre kannte, wie die meisten Menschen seiner Zeit, kein Enneagramm-Modell. Ohne dieses Wissen bestimmte
+        seine kompromisslose intellektuelle Intensität ungehindert sein Handeln, statt den eigenen Substanzkonsum
         rechtzeitig zu begrenzen – ein Zug, der ihm eines der umfangreichsten philosophischen Werke des
         Jahrhunderts ermöglichte, ihn selbst aber Augenlicht und Gesundheit kostete. Wer das eigene Muster
         erkennt, kann bewusst gegensteuern; wer es nicht kennt, verlängert die eigene Intensität so lange, bis

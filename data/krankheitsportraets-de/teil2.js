@@ -705,9 +705,9 @@ export function dollyPartonKrankheitsportraetPage() {
         ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
         Nichts deutet darauf hin, dass Parton ihr eigenes Enneagramm-Muster je bewusst kannte –
-        wie die meisten Menschen kannte sie das System vermutlich gar nicht. Sie lebte die
-        Leidenschaft der Drei, die Täuschung durch permanente Selbstinszenierung, über
-        Jahrzehnte ungebremst aus: Schmerzen, Operationen und spätere Erschöpfung wurden hinter
+        wie die meisten Menschen kannte sie das System vermutlich gar nicht. Die
+        Leidenschaft der Drei, die Täuschung durch permanente Selbstinszenierung, bestimmte über
+        Jahrzehnte unwidersprochen ihr Handeln: Schmerzen, Operationen und spätere Erschöpfung wurden hinter
         Humor und einer makellos gepflegten Bühnenfigur verborgen, statt als wiederkehrendes
         Muster erkannt und rechtzeitig ernst genommen zu werden. Erst der Tod ihres Mannes 2025
         brachte sie dazu, öffentlich einzuräumen, die eigene Gesundheit über Jahre
@@ -2163,7 +2163,7 @@ export function larryKingKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
         ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
-        King kannte, wie die meisten Menschen, sein Enneagramm-Muster nicht bewusst. Ohne dieses Wissen lebte er seine Leidenschaft und Motivation ungebremst aus, statt rechtzeitig die Notbremse zu ziehen – ein Zug, der ihn beruflich groß machte, ihn zugleich aber immer wieder über die Grenze seiner Gesundheit trieb. Wer das eigene Muster erkennt, kann bewusst gegensteuern; wer es nicht kennt, wiederholt es, bis der Körper die Grenze setzt, die der Mensch selbst nicht zog.</p>
+        King kannte, wie die meisten Menschen, sein Enneagramm-Muster nicht bewusst. Ohne dieses Wissen fand seine Leidenschaft und Motivation keinerlei Widerstand, statt dass rechtzeitig die Notbremse gezogen wurde – ein Zug, der ihn beruflich groß machte, ihn zugleich aber immer wieder über die Grenze seiner Gesundheit trieb. Wer das eigene Muster erkennt, kann bewusst gegensteuern; wer es nicht kennt, wiederholt es, bis der Körper die Grenze setzt, die der Mensch selbst nicht zog.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
@@ -3100,8 +3100,8 @@ export function romySchneiderKrankheitsportraetPage() {
         ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
         Nichts deutet darauf hin, dass Schneider ihr eigenes Enneagramm-Muster je bewusst kannte
-        – das System war zu ihren Lebzeiten noch kaum verbreitet. Sie lebte die Scham und den
-        Neid der Vier über Jahrzehnte ungebremst aus: Statt den eigenen Schmerz früh
+        – das System war zu ihren Lebzeiten noch kaum verbreitet. Die Scham und der
+        Neid der Vier bestimmten über Jahrzehnte ungehindert ihr Verhalten: Statt den eigenen Schmerz früh
         anzuerkennen und sich Hilfe zu holen, hielt sie an der öffentlichen Fassade fest und
         betäubte das, was dahinter lag. Wer die eigene Wunde nicht als wiederkehrendes Muster
         erkennt, kann ihr auch nicht rechtzeitig begegnen, wenn gleich zwei existenzielle
@@ -4022,7 +4022,7 @@ export function juergenDrewsKrankheitsportraetPage() {
         Drews kennt sein eigenes Enneagramm-Muster mit großer Wahrscheinlichkeit nicht – Genaues lässt sich darüber naturgemäß nicht wissen. Die sexuelle Neun mit
         Achterflügel verschmilzt fast reflexhaft mit Publikum und Werk und übergeht
         dabei leicht die eigenen körperlichen Warnsignale, statt rechtzeitig
-        innezuhalten. Genau das lebte er über Jahrzehnte ungebremst aus: ein volles
+        innezuhalten. Genau das bestimmte über Jahrzehnte unkorrigiert seinen Alltag: ein volles
         Bühnenprogramm ohne erkennbare Pausen, bis der Körper selbst die Grenze setzte.
         Wer die eigene Neigung zur grenzenlosen Verschmelzung nicht als Muster erkennt,
         verwechselt sie leicht mit reiner Liebe zum Beruf, selbst wenn der eigene Körper

@@ -3379,7 +3379,7 @@ export function blaisePascalKrankheitsportraetPage() {
         Pascal did not know his own Enneagram pattern – the sexual Five with a
         Six-wing seeks security almost reflexively in radical, uncompromising
         fusion with a single cause, rather than allowing a more measured middle
-        path. That is exactly what he lived out unchecked until the end: first
+        path. That exact pattern governed him right to the end: first
         completely in science, then completely in faith, never in a balance
         between the two. Someone who does not recognize their own pull toward
         radical fusion as a pattern easily mistakes it for pure virtue, even once
@@ -3561,8 +3561,8 @@ export function diegoVelazquezKrankheitsportraetPage() {
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) The Unconscious Fixation as a Further Factor:</strong>
         Velázquez did not know his own Enneagram pattern – the sexual Nine with a
         One-wing merges almost reflexively with an assigned task until her own
-        boundaries vanish inside it, rather than pausing in time. That is exactly
-        what he lived out unchecked until the end: one final, flawlessly executed
+        boundaries vanish inside it, rather than pausing in time. That pattern carried
+        him unopposed to the very end: one final, flawlessly executed
         duty that left no room for his own exhaustion. Someone who does not
         recognize their own pull toward boundless fusion as a pattern easily
         mistakes it for pure devotion to duty, even once their own body has
@@ -3746,7 +3746,7 @@ export function adamSmithKrankheitsportraetPage() {
         Smith did not know his own Enneagram pattern – the social One with a
         Nine-wing checks her own actions and thoughts almost reflexively against
         a high, often unreachable standard, rather than allowing herself
-        imperfection too. That is exactly what he lived out unchecked until the
+        imperfection too. That is precisely what governed him unopposed until the
         end: complete destruction of his own unfinished work, sooner than let
         posterity glimpse its possible shortcomings. Someone who does not
         recognize their own pull toward permanent self-scrutiny as a pattern
@@ -3927,7 +3927,7 @@ export function josephHaydnKrankheitsportraetPage() {
         Haydn did not know his own Enneagram pattern – the self-preservation
         Three with a Two-wing secures her own worth almost reflexively through
         steady, demonstrable achievement, rather than allowing herself rest in
-        time. That is exactly what he lived out unchecked until the end: even in
+        time. That same pattern stayed with him unaltered until the end: even in
         his own dying, he reached for familiar musical competence to be there
         for others rather than let himself be cared for. Someone who does not
         recognize their own pull toward constant achievement as a pattern easily

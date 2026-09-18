@@ -1951,8 +1951,8 @@ export function klausKinskiKrankheitsportraetPage() {
         ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
         Nichts deutet darauf hin, dass Kinski sein eigenes Enneagramm-Muster je bewusst kannte
-        – das System war zu seinen Lebzeiten kaum verbreitet. Er lebte die Inbrunst und den
-        Zorn der sexuellen Eins völlig ungebremst aus, von der psychiatrischen Krise 1950 bis
+        – das System war zu seinen Lebzeiten kaum verbreitet. Die Inbrunst und der
+        Zorn der sexuellen Eins bestimmten sein Leben völlig unkorrigiert, von der psychiatrischen Krise 1950 bis
         zu den Ausbrüchen am Set Jahrzehnte später, ohne dass sich das Muster je grundlegend
         veränderte. Wer die eigene moralische Intensität nicht als wiederkehrendes Muster
         erkennt, kann ihr auch nicht rechtzeitig begegnen – mit Folgen, die weit über ihn
@@ -3966,7 +3966,7 @@ export function edvardMunchKrankheitsportraetPage() {
         Munch kannte sein eigenes Enneagramm-Muster nicht – die soziale Vier mit
         Fünferflügel verarbeitet existenzielle Bedrohung durch analytische Beobachtung und
         öffentliche Darstellung, statt durch stille Zurückgezogenheit. Genau dieses Muster
-        lebte er unbewusst und ungebremst aus: Jede neue Krise wurde zu neuem künstlerischem
+        bestimmte unbewusst und unwidersprochen sein Leben: Jede neue Krise wurde zu neuem künstlerischem
         Material, statt dass er rechtzeitig lernte, sich auch einmal ganz zurückzuziehen und
         auszuruhen. Wer die eigene Sehnsucht nach analytischer Distanz nicht als Muster
         erkennt, verwechselt sie leicht mit reiner künstlerischer Neugier, obwohl auch die
