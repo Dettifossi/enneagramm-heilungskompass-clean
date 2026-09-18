@@ -908,6 +908,7 @@ export function franzKafkaKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-franz-kafka", label:"Porträt: Franz Kafka (SE5w4) – Lebenswerk"},
+        {route:"astrologie-franz-kafka", label:"Enneagramm meets Astrologie: Franz Kafka (SE5w4)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se5", label:"Subtyp-Profil SE5"},
       ])}

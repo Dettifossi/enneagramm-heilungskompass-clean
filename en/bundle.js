@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=152";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=153";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -23424,6 +23424,7 @@ const ASTROLOGIE_PORTRAITS = [
   { route:"astrologie-angela-merkel",     name:"Angela Merkel",     subtyp:"SE9w8",  heading:"Angela Merkel – Self-Preservation Type 9",      teaser:"SP9w8 · b. 1954. Chancellor 2005–2021. Sun Cancer in the 10th house, AC Libra, Moon Aquarius in the 4th house, Mars Sagittarius in the 3rd house – the immovable mediator of power." },
   { route:"astrologie-enrico-caruso",     name:"Enrico Caruso",     subtyp:"SE3w2",  heading:"Enrico Caruso – Self-Preservation Type 3",      teaser:"SP3w2 · 1873–1921. Opera singer, the most famous tenor of his era. Sun Pisces near the MC (10th house), Moon and Saturn Capricorn in the 8th house, AC Cancer, Venus and Neptune Aries near the MC – the disciplined voice of the century.", beruehmteRoute:"beruehmte-enrico-caruso", gender:"m" },
   { route:"astrologie-david-l-rathmer",   name:"David L. Rathmer",  subtyp:"SE3w4",  heading:"David L. Rathmer – Self-Preservation Type 3",   teaser:"SP3w4 · b. 2003 in Münster. Enneagram profiler, founder of the Ennea Scholars Academy. Sun Aries in the 4th house, Moon in Scorpio conjunct the MC, AC Capricorn, Mars Capricorn in the 1st house – the raccoon who turns his own depth into a method.", beruehmteRoute:"beruehmte-david-l-rathmer", gender:"m" },
+  { route:"astrologie-franz-kafka",       name:"Franz Kafka",       subtyp:"SE5w4",  heading:"Franz Kafka – Self-Preservation Type 5",        teaser:"SP5w4 · 1883–1924. Writer. Sun Cancer in the 11th house, AC Leo, Taurus stellium (Mars, Saturn, Pluto, Neptune) in the 9th house, Moon/Mercury/Venus Gemini in the 10th house – the owl whose crushing weight of stone finally discharged in his own throat.", beruehmteRoute:"beruehmte-franz-kafka", gender:"m" },
 ];
 
 function _astrologiePage(p, analysisHtml) {
@@ -23706,6 +23707,34 @@ function astrologieDavidLRathmerPage() {
       {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SP3w4) – life's work"},
       {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2) – same core type, different wing"},
       {route:"beruehmte-caren-miosga", label:"Portrait: Caren Miosga (SP3w4) – same subtype"},
+    ])}`
+  );
+}
+
+function astrologieFranzKafkaPage() {
+  return _astrologiePage(
+    { slug:"franz-kafka", name:"Franz Kafka", subtyp:"SE5w4",
+      subtypLabel:"Selbsterhaltender Typ 5 mit Viererflügel",
+      subtitle:"Writer, 1883–1924 – \"The Trial,\" \"The Castle,\" \"The Metamorphosis\"",
+      beruehmteRoute:"beruehmte-franz-kafka", gender:"m" },
+    `<h2 class="vb-section">SP5w4 – The Owl Beneath a Crushing Weight of Stone</h2>
+    <blockquote class="vb-blockquote">
+      <p class="vb-intro">Franz Kafka embodies the classic profile of the <strong>self-preservation Five with Four wing (SP5w4)</strong> – withdrawal into observing and understanding as protection from a world experienced as intrusive, combined with a Four-wing that charges this withdrawal with melancholy, introspection, and existential weight. The horoscope shows a remarkable configuration: an immense, immovable burden that barely shifted over decades – until it literally discharged in his own body.</p>
+    </blockquote>
+    <h2 class="vb-section">The Natal Horoscope in Dialogue with the Enneagram</h2>
+    <div class="vb-section" style="max-width:100%;">
+      <p class="vb-intro"><strong>A fourfold stellium in Taurus (Mars, Saturn, Pluto, Neptune), in the 9th House:</strong> This is where the horoscope's true signature lies. Taurus is the sign of inertia, endurance, of not moving – four heavy planets packed into this sign create a burden of almost geological weight that shifts only at an extremely slow pace. The 9th house stands for the great, universal system of meaning, for philosophy and published work – exactly the field Kafka spent his life in, without ever publishing most of his texts. Notably: in medical astrology, Taurus classically rules the throat and larynx – precisely the region where his fatal tuberculosis finally settled, making speech impossible by 1924. A burden that could not be resolved until it discharged in his own body.</p>
+      <p class="vb-intro"><strong>Sun in Cancer, in the 11th House:</strong> Cancer is the sign of sensitivity, of withdrawing into a protected inner space – in the 11th house, the house of friendships, hopes, and visions of the future, this creates a peculiar tension: a deeply vulnerable self that places its few genuine connections (above all Max Brod) and its hopes for the future exactly where they would become visible – and yet withholds them: Kafka's instruction to burn his entire unpublished body of work is a radical refusal of exactly this 11th-house hope.</p>
+      <p class="vb-intro"><strong>Leo Ascendant:</strong> A Leo ascendant promises public presence, self-assurance, visible bearing – a stark contrast to the withdrawn, self-doubting Kafka his diaries reveal. This tension between outward appearance and inner reality fits a man who by day appeared as a correct, even respected insurance official, while at night an entirely different writing, driven by existential dread, took shape.</p>
+      <p class="vb-intro"><strong>Moon, Mercury, and Venus in Gemini, in the 10th House:</strong> Gemini is the sign of doubling, of being split, of being one thing and another at once – in the 10th house, the house of public identity and vocation, this condenses into Kafka's best-known biographical trait: the strictly separated double life of daily office work at the Workers' Accident Insurance Institute and a nocturnal literary existence. Moon, Mercury, and Venus together in this sign and house show how deeply this split shaped feeling, thought, and personal affection all at once.</p>
+    </div>
+    <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+      <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Conclusion:</strong> The fourfold Taurus stellium in the 9th house describes a burden of near-immovable weight – the same crushing, endless delay that runs through Kafka's literary world of bureaucracy and unreachable authorities ("The Trial," "The Castle"). The Cancer Sun in the 11th house and the Gemini Moon in the 10th house show a man who strictly separated sensitivity and hope, feeling and vocation, rather than integrating them. That it is precisely Taurus – the sign of throat and larynx – carrying the heaviest planetary load reads in hindsight like an omen: the burden that would not move for a lifetime finally discharged, literally, in his voice.</p>
+    </div>
+    ${relatedLinks([
+      {route:"beruehmte-franz-kafka", label:"Portrait: Franz Kafka (SP5w4) – life's work"},
+      {route:"krankheitsportraets-franz-kafka", label:"Illness Portrait: Franz Kafka (SP5w4)"},
+      {route:"beruehmte-robert-crumb", label:"Portrait: Robert Crumb (SP5w4) – same subtype"},
     ])}`
   );
 }
@@ -53304,6 +53333,7 @@ function subtypeSchaubilderPage() {
       "astrologie-angela-merkel": astrologieAngelaMerkelPage,
       "astrologie-enrico-caruso": astrologieEnricoCarusoPage,
       "astrologie-david-l-rathmer": astrologieDavidLRathmerPage,
+      "astrologie-franz-kafka": astrologieFranzKafkaPage,
       "beruehmte-persoenlichkeiten": beruehmtePersoenlichkeitenPage,
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-ludwig-wittgenstein": ludwigWittgensteinPortraitPage,

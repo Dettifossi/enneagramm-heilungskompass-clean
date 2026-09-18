@@ -433,6 +433,7 @@ export function franzKafkaPortraitPage() {
         {route:"beruehmte-christian-raetsch", label:"Porträt: Christian Rätsch (SE5w4)"},
         {route:"beruehmte-robert-crumb", label:"Porträt: Robert Crumb (SE5w4)"},
         {route:"krankheitsportraets-franz-kafka", label:"Krankheitsporträt: Franz Kafka (SE5w4)"},
+        {route:"astrologie-franz-kafka", label:"Enneagramm meets Astrologie: Franz Kafka (SE5w4)"},
       ])}
     </div>
   `);

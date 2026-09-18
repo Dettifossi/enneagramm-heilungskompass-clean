@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2345", date: "2026-09-18", text: "Neue Analyse in ›Enneagramm meets Astrologie‹: Franz Kafka (SE5w4) – Krebs-Sonne, Stier-Häufung im 9. Haus.", text_en: "New analysis in \"Enneagram Meets Astrology\": Franz Kafka (SP5w4) – Cancer Sun, Taurus stellium in the 9th house.", route: "astrologie-franz-kafka" },
     { version: "v2344", date: "2026-09-18", text: "Neue Analyse in ›Enneagramm meets Astrologie‹: David L. Rathmer (SE3w4) – Widder-Sonne, Skorpion-Mond.", text_en: "New analysis in \"Enneagram Meets Astrology\": David L. Rathmer (SP3w4) – Aries Sun, Scorpio Moon.", route: "astrologie-david-l-rathmer" },
     { version: "v2343", date: "2026-09-18", text: "Neue Analyse in ›Enneagramm meets Astrologie‹: Enrico Caruso (SE3w2) – Fische-Sonne, Steinbock-Mond.", text_en: "New analysis in \"Enneagram Meets Astrology\": Enrico Caruso (SP3w2) – Pisces Sun, Capricorn Moon.", route: "astrologie-enrico-caruso" },
     { version: "v2342", date: "2026-09-18", text: "Neues Krankheitsporträt: Enrico Caruso (SE3w2) – Rippenfellentzündung, sieben Operationen.", text_en: "New illness portrait: Enrico Caruso (SP3w2) – pleurisy, seven surgeries.", route: "krankheitsportraets-enrico-caruso" },
