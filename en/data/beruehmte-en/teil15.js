@@ -289,7 +289,7 @@ export function davidLRathmerPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The self-preservation Three (SE3) is the countertype of the Three: the subtype that hides its ambition behind modesty not as a deception, but because security is more important to it than shine. The SE3 does not seek a big stage. It seeks efficiency. It seeks what is right, what is functional, what is substantial and finds its value not in applause, but in results.</p>
           <p class="vb-intro">In David, this manifests as a striking calmness for his age. He does not perform to impress. He shows what he can do and that is enough for him. In advisory talks, in training sessions, in working with executives and companies that utilize his expertise in HR and personnel management: everywhere he appears grounded, focused, clear. No need for recognition. No staging. Just the craft.</p>
-          <p class="vb-intro">At twenty years old, he was appointed the youngest economic senator in the history of the European Economic Senate not because he had applied, but because his work convinced them. That is the SE3 in its conscious form: success as a consequence, not as a goal.</p>
+          <p class="vb-intro">At twenty years old, he was appointed the youngest economic senator in the history of the European Economic Senate – a body of several hundred economic senators – not because he had applied, but because his work convinced them. He holds the title "economic senator" lawfully and officially. That is the SE3 in its conscious form: success as a consequence, not as a goal.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Four Wing: Depth Behind Efficiency</h2>
