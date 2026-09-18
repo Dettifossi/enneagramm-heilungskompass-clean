@@ -31023,7 +31023,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Deutschland", tags:["Musik","Geschichte"], gender:"m"},
   { route:"beruehmte-enrico-caruso", name:"Enrico Caruso", added:"2026-09-18", subtyp:"SE3w2",
     heading:"Enrico Caruso \u2013 Selbsterhaltender Typ 3",
-    teaser:"SE3w2 \u00b7 1873\u20131921. Italienischer Operns\u00e4nger, ber\u00fchmtester Tenor seiner Zeit, Pionier der Schallplattenaufnahme. Aus \u00e4rmlichsten Verh\u00e4ltnissen in Neapel zum Weltstar durch reine Arbeit und Disziplin. Legend\u00e4re Gro\u00dfz\u00fcgigkeit, nie abgelehnte Bittgesuche. Sang trotz Blutsturz weiter, bis eine unbehandelte Rippenfellentz\u00fcndung ihn mit 48 Jahren t\u00f6tete. Der Waschb\u00e4r, der sich eine Stimme erarbeitete. Tierentsprechung: Waschb\u00e4r.",
+    teaser:"SE3w2 \u00b7 1873\u20131921. Italienischer Operns\u00e4nger, ber\u00fchmtester Tenor seiner Zeit, mit einer seltenen Bariton-Tenor-Hybridstimme und legend\u00e4rer Atemtechnik \u2013 Vorbild f\u00fcr Pavarotti, Domingo und Carreras. Aus \u00e4rmlichsten Verh\u00e4ltnissen in Neapel zum Weltstar; seine 1904 aufgenommene \u203aVesti la giubba\u2039 wurde zur ersten Schallplatte der Geschichte mit einer Million verkaufter Exemplare. Legend\u00e4re Gro\u00dfz\u00fcgigkeit, nie abgelehnte Bittgesuche. Sang trotz Blutsturz weiter, bis eine unbehandelte Rippenfellentz\u00fcndung ihn mit 48 Jahren t\u00f6tete. Der Waschb\u00e4r, der sich eine Stimme erarbeitete. Tierentsprechung: Waschb\u00e4r.",
     land:"Italien", tags:["Musik"], gender:"m"},
   { route:"beruehmte-serdar-somuncu", name:"Serdar Somuncu", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Serdar Somuncu – Selbsterhaltender Typ 3",

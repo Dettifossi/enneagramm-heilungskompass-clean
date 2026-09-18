@@ -1202,7 +1202,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Austria", tags:["Music","History"], gender:"m"},
 { route:"beruehmte-enrico-caruso", name:"Enrico Caruso", added:"2026-09-18", subtyp:"SE3w2",
     heading:"Enrico Caruso – Self-Preservation Type 3",
-    teaser:"SP3w2 · 1873–1921. Italian opera singer, the most famous tenor of his era, a pioneer of recorded sound. Rose from the poorest circumstances in Naples to world stardom through pure work and discipline. Legendary generosity, never turned down a request for help. Kept singing through a throat hemorrhage until an untreated pleurisy killed him at 48. The raccoon who worked for his voice. Animal correspondence: Raccoon.",
+    teaser:"SP3w2 · 1873–1921. Italian opera singer, the most famous tenor of his era, with a rare baritone-tenor hybrid voice and legendary breath control – a model for Pavarotti, Domingo, and Carreras. Rose from the poorest circumstances in Naples to world stardom; his 1904 recording of \"Vesti la giubba\" became the first record in history to sell a million copies. Legendary generosity, never turned down a request for help. Kept singing through a throat hemorrhage until an untreated pleurisy killed him at 48. The raccoon who worked for his voice. Animal correspondence: Raccoon.",
     land:"Italy", tags:["Music"], gender:"m"},
 { route:"beruehmte-serdar-somuncu", name:"Serdar Somuncu", added:"2026-08-29", subtyp:"SE3w2",
     heading:"Serdar Somuncu – Self-Preservation Type 3",
