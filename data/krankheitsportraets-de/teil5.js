@@ -4402,8 +4402,8 @@ export function charlesLaughtonKrankheitsportraetPage() {
         <strong>Charles Laughton</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-charles-laughton">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um seine Schauspielkarriere, seine verheimlichte
-        Homosexualität und seine lebenslange Scham über sein Äußeres. Hier steht ausschließlich das im
-        Mittelpunkt, was dort nur gestreift wird: ein metastasierender Nieren- und Blasenkrebs, dessen
+        Homosexualität und seine lebenslange Scham über sein Äußeres. Diese Seite blendet all das aus
+        und richtet den Blick allein auf einen metastasierenden Nieren- und Blasenkrebs, dessen
         Vorboten er über Jahre kaum wahrnehmbar in den Alltag einbaute, bevor die Erkrankung 1962
         binnen weniger Monate tödlich verlief.
       </p>

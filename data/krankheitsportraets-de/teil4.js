@@ -4432,8 +4432,8 @@ export function enricoCarusoKrankheitsportraetPage() {
         <strong>Enrico Caruso</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-enrico-caruso">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um seinen Aufstieg vom Gießereiarbeiter zum
-        Weltstar und seine legendäre Großzügigkeit. Hier steht ausschließlich das im Mittelpunkt,
-        was dort nur gestreift wird: eine eitrige Rippenfellentzündung, die er über Wochen
+        Weltstar und seine legendäre Großzügigkeit. Diese Seite widmet sich einem ganz anderen
+        Kapitel seines Lebens: einer eitrigen Rippenfellentzündung, die er über Wochen
         weitersingend ignorierte, bis sieben Operationen und ein letzter, fataler Rückschlag in
         Neapel ihn mit 48 Jahren das Leben kosteten.
       </p>
@@ -4458,7 +4458,7 @@ export function enricoCarusoKrankheitsportraetPage() {
         erklärte ihn trotz anhaltender Schmerzen, die bereits seine Stimmführung und Bewegungen
         beeinträchtigten, für bühnentauglich.</p>
         <p class="vb-intro"><strong>c) Ein Blutsturz auf offener Bühne am 11. Dezember 1920:</strong>
-        Während einer Vorstellung von ›L'elisir d'amore‹ an der Brooklyn Academy of Music erlitt
+        Während einer Vorstellung von ›L'elisir d'amore‹ (›Der Liebestrank‹) an der Brooklyn Academy of Music erlitt
         Caruso einen Blutsturz, die Vorstellung wurde nach dem ersten Akt abgebrochen.</p>
       </div>
 
@@ -4467,7 +4467,7 @@ export function enricoCarusoKrankheitsportraetPage() {
         <p class="vb-intro"><strong>a) Drei weitere Vorstellungen trotz sichtbarer Erkrankung:</strong>
         Statt sich nach dem Blutsturz zurückzuziehen, gab ein sichtlich kranker Caruso noch drei
         weitere Vorstellungen an der Met, die letzte am 24. Dezember 1920 als Eléazar in Halévys
-        ›La Juive‹.</p>
+        ›La Juive‹ (›Die Jüdin‹).</p>
         <p class="vb-intro"><strong>b) Die korrekte Diagnose erst nach unerträglichen Schmerzen:</strong>
         Am Weihnachtstag wurden die Schmerzen in seiner Seite so unerträglich, dass er schrie.
         Erst dann erhielt Caruso die korrekte Diagnose: eine eitrige Rippenfellentzündung mit
@@ -4536,7 +4536,8 @@ export function enricoCarusoKrankheitsportraetPage() {
         Genau dieses Muster – Sicherheit durch Verlässlichkeit und Funktionieren statt durch
         Rücksicht auf sich selbst – findet sich bereits in seinem Porträt unter Berühmte
         Persönlichkeiten beschrieben: Quellen benennen ausdrücklich seine ›obsession with honoring
-        his commitments and fear of disappointing his fans‹ als wahrscheinliche Todesursache.</p>
+        his commitments and fear of disappointing his fans‹ &ndash; seine Besessenheit, Verpflichtungen
+        einzuhalten, und seine Angst, seine Fans zu enttäuschen &ndash; als wahrscheinliche Todesursache.</p>
         <p class="vb-intro"><strong>c) Warum ausgerechnet eine über Wochen ignorierte Rippenfellentzündung?</strong>
         Für eine selbsterhaltende Drei mit Zweierflügel, deren tiefstes Bedürfnis darin besteht,
         durch Kompetenz und Verlässlichkeit Sicherheit zu erzeugen, liegt eine Deutung nahe:

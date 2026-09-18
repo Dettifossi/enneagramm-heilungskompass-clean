@@ -4240,7 +4240,7 @@ export function enricoCarusoKrankheitsportraetPage() {
         <strong>Enrico Caruso</strong> already appears as a
         <a href="javascript:void(0)" data-route="beruehmte-enrico-caruso">portrait under Famous Personalities</a>
         in this compass – there the focus is on his rise from foundry worker to world star and his
-        legendary generosity. Here the focus is exclusively on what is only touched on there: a
+        legendary generosity. This page turns to an entirely different chapter of his life: a
         purulent pleurisy that he sang through for weeks, until seven surgeries and one final,
         fatal setback in Naples cost him his life at age 48.
       </p>
@@ -4264,7 +4264,7 @@ export function enricoCarusoKrankheitsportraetPage() {
         His doctor diagnosed harmless intercostal neuralgia and declared him fit to perform,
         despite ongoing pain that was already affecting his voice production and movement.</p>
         <p class="vb-intro"><strong>c) A throat hemorrhage on stage on December 11, 1920:</strong>
-        During a performance of "L'elisir d'amore" at the Brooklyn Academy of Music, Caruso
+        During a performance of "L'elisir d'amore" ("The Elixir of Love") at the Brooklyn Academy of Music, Caruso
         suffered a hemorrhage; the performance was canceled after the first act.</p>
       </div>
 
@@ -4272,7 +4272,7 @@ export function enricoCarusoKrankheitsportraetPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
         <p class="vb-intro"><strong>a) Three more performances despite visible illness:</strong>
         Rather than withdrawing after the hemorrhage, a clearly unwell Caruso gave three more
-        performances at the Met, the last on December 24, 1920, as Eléazar in Halévy's "La Juive."</p>
+        performances at the Met, the last on December 24, 1920, as Eléazar in Halévy's "La Juive" ("The Jewess").</p>
         <p class="vb-intro"><strong>b) The correct diagnosis only after unbearable pain:</strong>
         On Christmas Day the pain in his side became so unbearable that he was screaming. Only
         then did Caruso receive the correct diagnosis: purulent pleurisy with empyema (pus

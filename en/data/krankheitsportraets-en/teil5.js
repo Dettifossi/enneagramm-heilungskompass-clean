@@ -4203,8 +4203,8 @@ export function charlesLaughtonKrankheitsportraetPage() {
         <strong>Charles Laughton</strong> already appears as a
         <a href="javascript:void(0)" data-route="beruehmte-charles-laughton">portrait under Famous Personalities</a>
         in this compass – there the focus is on his acting career, his hidden homosexuality, and
-        his lifelong shame about his appearance. Here the focus is exclusively on what is only
-        touched on there: a metastatic kidney and bladder cancer, whose warning signs he folded
+        his lifelong shame about his appearance. This page sets all of that aside and looks solely
+        at a metastatic kidney and bladder cancer, whose warning signs he folded
         into his daily routine almost imperceptibly for years before the disease turned fatal
         within a few months in 1962.
       </p>
