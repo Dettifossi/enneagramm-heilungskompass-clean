@@ -50905,7 +50905,7 @@ function astrologieDavidLRathmerPage() {
   return _astrologiePage(
     { slug:"david-l-rathmer", name:"David L. Rathmer", subtyp:"SE3w4",
       subtypLabel:"Selbsterhaltender Typ 3 mit Viererflügel",
-      subtitle:"Enneagramm-Profiler, geb. 2003 in Münster – Gründer der Ennea Scholars Academy",
+      subtitle:"Enneagramm-Profiler, Gründer der Ennea Scholars Academy, Wirtschaftssenator des Europäischen Wirtschaftssenats, geb. 2003 in Münster",
       beruehmteRoute:"beruehmte-david-l-rathmer", gender:"m" },
     `<h2 class="vb-section">SE3w4 – Der Waschbär, der die eigene Tiefe zur Methode macht</h2>
     <blockquote class="vb-blockquote">

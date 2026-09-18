@@ -23686,7 +23686,7 @@ function astrologieDavidLRathmerPage() {
   return _astrologiePage(
     { slug:"david-l-rathmer", name:"David L. Rathmer", subtyp:"SE3w4",
       subtypLabel:"Selbsterhaltender Typ 3 mit Viererflügel",
-      subtitle:"Enneagram Profiler, b. 2003 in Münster – Founder of the Ennea Scholars Academy",
+      subtitle:"Enneagram Profiler, Founder of the Ennea Scholars Academy, Economic Senator of the European Economic Senate, b. 2003 in Münster",
       beruehmteRoute:"beruehmte-david-l-rathmer", gender:"m" },
     `<h2 class="vb-section">SP3w4 – The Raccoon Who Turns His Own Depth Into a Method</h2>
     <blockquote class="vb-blockquote">

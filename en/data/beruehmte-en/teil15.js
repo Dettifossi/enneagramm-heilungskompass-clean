@@ -273,7 +273,7 @@ export function davidLRathmerPortraitPage() {
         </div>
         <p class="krim-portrait-name">David L. Rathmer</p>
         <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with Four-Wing &middot; Contratype of the three</p>
-        <p class="krim-portrait-subtitle">Enneagram profiler, founder of the Ennea Scholars Academy, b. 2003 in Münster – son of Detlef Rathmer – Animal equivalent: Raccoon</p>
+        <p class="krim-portrait-subtitle">Enneagram profiler, founder of the Ennea Scholars Academy, economic senator of the European Economic Senate, b. 2003 in Münster – son of Detlef Rathmer – Animal equivalent: Raccoon</p>
       </div>
       <div class="page-content">
 

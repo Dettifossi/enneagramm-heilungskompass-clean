@@ -273,7 +273,7 @@ export function davidLRathmerPortraitPage() {
         </div>
         <p class="krim-portrait-name">David L. Rathmer</p>
         <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererfl\u00fcgel &middot; Kontratyp der Drei</p>
-        <p class="krim-portrait-subtitle">Enneagramm-Profiler, Gr\u00fcnder der Ennea Scholars Academy, geb. 2003 in M\u00fcnster &ndash; Sohn von Detlef Rathmer &ndash; Tierentsprechung: Waschb\u00e4r</p>
+        <p class="krim-portrait-subtitle">Enneagramm-Profiler, Gr\u00fcnder der Ennea Scholars Academy, Wirtschaftssenator des Europ\u00e4ischen Wirtschaftssenats, geb. 2003 in M\u00fcnster &ndash; Sohn von Detlef Rathmer &ndash; Tierentsprechung: Waschb\u00e4r</p>
       </div>
       <div class="page-content">
 
