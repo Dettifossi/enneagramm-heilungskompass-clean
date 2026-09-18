@@ -2125,3 +2125,69 @@ export function herfriedMuenklerPortraitPage() {
     </div>
   `);
 }
+
+export function antonZeilingerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-anton-zeilinger-portrait.jpg" alt="Anton Zeilinger – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anton Zeilinger</p>
+        <p class="krim-portrait-typ">SO5w6 · Sozialer Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Quantenphysiker, geb. 1945 – Nobelpreis für Physik 2022 – Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus, der mit acht Armen nach der Verschränkung tastete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier der sozialen Fünf – ein Wesen, das mit mehreren Armen gleichzeitig tastet, prüft und verbindet, bevor es zupackt. Bei Anton Zeilinger zeigt sich dieses Bild direkt im Gegenstand seiner Forschung: Verschränkte Photonen, die – einmal miteinander verbunden – ihren Zustand über beliebige Entfernungen aufeinander abgestimmt halten, ganz gleich, wie weit die Arme auseinandergezogen werden. Ein Forscherleben, das genau dieser Verbindung nachgeht: nicht dem einzelnen Teilchen, sondern dem, was zwei Teilchen über jede Distanz hinweg miteinander verknüpft.</p>
+          <p class="vb-intro">Zeilinger wurde 1945 in Ried im Innkreis geboren, studierte Physik und Mathematik in Wien und promovierte am Atominstitut bei Helmut Rauch. Von 1999 bis 2013 war er Professor für Experimentalphysik an der Universität Wien, von 2004 bis 2013 Direktor des Instituts für Quantenoptik und Quanteninformation (IQOQI) und von 2013 bis 2022 Präsident der Österreichischen Akademie der Wissenschaften. Ein Weg, der sich über Jahrzehnte von der einzelnen Messung zur institutionellen Verantwortung für ein ganzes Wissenschaftssystem ausdehnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Das Totem: Wissen, das eine ganze Akademie trug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 5 das <strong>Totem</strong> – die Verknüpfung von Wissen mit Zugehörigkeit und Ansehen. Die SO5 hält ihr Wissen nicht zurück wie die introvertierte SE5, sondern trägt es in die Gemeinschaft, wird dadurch zur Instanz. Zeilinger lebte dieses Muster in zwei Richtungen zugleich: Als jahrelanger, unermüdlicher Fürsprecher für die Förderung der Grundlagenforschung trug er Wissen über die eigene Disziplin hinaus in Politik und Öffentlichkeit – und als Präsident der Akademie der Wissenschaften übernahm er die Verantwortung für das ganze System, das dieses Wissen trägt und weitergibt.</p>
+          <p class="vb-intro">Auch als Wissenschaftskommunikator zeigt sich das Totem-Muster: In seinen Vorträgen bemüht sich Zeilinger erkennbar, komplexe Quantenphysik für Laien verständlich zu machen, statt sie im Fachzirkel zu belassen. Wissen, das der ganzen Gesellschaft zur Verfügung gestellt wird, nicht nur der eigenen Zunft – das Totem in seiner offenen, mitteilenden Form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Das Team als tragfähiges System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt der sozialen Fünf ein tiefes Bedürfnis nach Verlässlichkeit und einem tragfähigen System, dem man vertrauen kann. Genau das beschreibt Zeilinger selbst als Grundlage seiner Forschung: Seine Arbeit funktioniere „nur als Team" – eine Idee, oft aus der Gruppe oder von ihm selbst, werde gemeinsam diskutiert und dadurch „unglaublich geschärft". Jede Idee werde in seiner Gruppe zunächst grundsätzlich positiv aufgenommen, bevor sie geprüft wird.</p>
+          <p class="vb-intro">Das ist Sechserflügel-Wissenschaft im besten Sinn: kein einsamer Durchbruch eines Einzelnen, sondern ein verlässliches, über Jahre aufgebautes Vertrauenssystem innerhalb der Forschungsgruppe, das schwierige, oft gegenintuitive Quantenexperimente erst möglich macht. Sicherheit entsteht nicht durch Kontrolle von außen, sondern durch ein tragfähiges Miteinander nach innen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Verschränkung, Teleportation, Nobelpreis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zeilinger gilt als Pionier der Übertragung von Quanteninformation zwischen Photonen. 1998 gelang seinem Team erstmals die Quantenteleportation: die Übertragung eines Quantenzustands von einem Teilchen auf ein anderes, entferntes Teilchen – nicht durch physischen Transport, sondern durch die Eigenschaften der Verschränkung selbst. Im Oktober 2022 erhielt er gemeinsam mit Alain Aspect und John F. Clauser den Nobelpreis für Physik für bahnbrechende Experimente mit verschränkten Photonen, die grundlegende Fragen der Quantenmechanik experimentell entschieden. Er ist der vierte österreichische Physik-Nobelpreisträger nach Erwin Schrödinger, Victor Franz Hess und Wolfgang Pauli.</p>
+          <p class="vb-intro">Diese Leistung liegt jenseits jeder Enneagramm-Deutung – sie ist reine physikalische Präzisionsarbeit, über Jahrzehnte gegen erhebliche experimentelle Widerstände erarbeitet. Was der Fünfer-Rahmen zusätzlich sichtbar macht, ist die Art, wie dieses Wissen anschließend behandelt wurde: nicht als Herrschaftswissen, sondern als etwas, das über Institut, Akademie und Öffentlichkeit hinweg geteilt und weitergetragen wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Zeilinger die SO5w6 als jemand, der Kompetenz systematisch in tragfähige Strukturen überführt: ein Forschungsteam, ein Institut, eine ganze Akademie. Wissen wird nicht gehortet, sondern in ein System eingebaut, das über die eigene Person hinaus Bestand hat – die reife Form des Totems.</p>
+          <p class="vb-intro">Der Schatten der Fünf ist <strong>Geiz</strong> – das Zurückhalten, nicht von Wissen, sondern von sich selbst als Person. Bei einer öffentlich derart sichtbaren Figur wie Zeilinger zeigt sich das eher subtil: Im Vordergrund stehen durchweg die Sache, das Experiment, das Institut – seltener die eigene Person jenseits der fachlichen Rolle. Ein Muster, das der Fünf hilft, in einem jahrzehntelangen, öffentlichkeitswirksamen Forscherleben nicht auszubrennen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Horten zum Teilen aus Fülle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von der Frage <em>Reicht mein Wissen, meine Energie, meine Zeit überhaupt?</em> zur Erkenntnis <em>Ich habe genug, um zu geben, ohne mich zu verlieren.</em> Zeilingers Weg von der einzelnen Messung im Labor zur Verantwortung für eine ganze Akademie liest sich wie eine gelungene Annäherung an diese Erkenntnis: Wissen, das nicht mehr geschützt werden muss, sondern in Institutionen, Teams und öffentliche Vorträge fließen darf.</p>
+          <p class="vb-intro">Dass er sein Engagement für die Grundlagenforschung auch nach dem Karrierehöhepunkt Nobelpreis unvermindert fortsetzte, zeigt eine Fünf, die gelernt hat, aus Fülle zu geben statt aus Mangel zu horten – der Oktopus, dessen Arme sich nicht mehr zurückziehen müssen, sobald sie einmal ausgestreckt sind.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-guenther-jauch", label:"Porträt: Günther Jauch (SO5w6)"},
+        {route:"beruehmte-eckhard-freise", label:"Porträt: Eckhard Freise (SO5w6)"},
+        {route:"beruehmte-dirk-rossmann", label:"Porträt: Dirk Rossmann (SO5w6)"},
+      ])}
+    </div>
+  `);
+}

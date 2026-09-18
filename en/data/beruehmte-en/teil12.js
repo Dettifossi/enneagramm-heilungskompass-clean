@@ -2113,3 +2113,69 @@ export function williamJamesPortraitPage() {
     </div>
   `);
 }
+
+export function antonZeilingerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-anton-zeilinger-portrait.jpg" alt="Anton Zeilinger – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anton Zeilinger</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with six wing</p>
+        <p class="krim-portrait-subtitle">Quantum physicist, b. 1945 – 2022 Nobel Prize in Physics – Animal equivalent: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The octopus reaching for entanglement with eight arms</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five – a creature that reaches with several arms at once, feeling, testing, connecting before it commits. In Anton Zeilinger's case, this image shows up directly in the subject of his research: entangled photons which, once linked, keep their states coordinated across any distance, no matter how far the arms are stretched apart. A research life devoted to exactly that connection – not the single particle, but what binds two particles across every distance.</p>
+          <p class="vb-intro">Zeilinger was born in 1945 in Ried im Innkreis, studied physics and mathematics in Vienna, and earned his doctorate at the Atominstitut under Helmut Rauch. From 1999 to 2013 he was professor of experimental physics at the University of Vienna, from 2004 to 2013 director of the Institute for Quantum Optics and Quantum Information (IQOQI), and from 2013 to 2022 president of the Austrian Academy of Sciences. A path that expanded over decades from the single measurement to institutional responsibility for an entire scientific system.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Totem: knowledge that carried an entire academy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the social Type 5 the <strong>Totem</strong> – the link between knowledge and belonging, knowledge and standing. The SO5 does not withhold its knowledge like the introverted SE5, but carries it into the community, becoming an authority through that act. Zeilinger lived this pattern in two directions at once: as a tireless advocate for basic-research funding for years, carrying knowledge beyond his own field into politics and the public; and as president of the Academy of Sciences, taking on responsibility for the entire system that carries and passes on that knowledge.</p>
+          <p class="vb-intro">The Totem pattern also shows in his role as a science communicator: in his lectures, Zeilinger visibly works to make complex quantum physics understandable to a lay audience instead of keeping it within the specialist circle. Knowledge made available to the whole of society, not just to his own guild – the Totem in its open, sharing form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The six wing: the team as a load-bearing system</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>six wing (w6)</strong> gives the social Five a deep need for reliability and a system it can trust. That is exactly what Zeilinger himself describes as the basis of his research: his work only functions "as a team" – an idea, often from the group or from himself, gets discussed together and thereby "incredibly sharpened." Every idea in his group is fundamentally received positively at first, before it is examined.</p>
+          <p class="vb-intro">This is six-wing science at its best: not the lone breakthrough of an individual, but a reliable, years-long trust system within the research group that makes difficult, often counterintuitive quantum experiments possible in the first place. Security arises not through outside control, but through a load-bearing togetherness on the inside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual achievement: entanglement, teleportation, the Nobel Prize</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zeilinger is considered a pioneer of transmitting quantum information between photons. In 1998, his team achieved quantum teleportation for the first time: transferring a quantum state from one particle to another, distant particle – not through physical transport, but through the properties of entanglement itself. In October 2022 he received the Nobel Prize in Physics jointly with Alain Aspect and John F. Clauser for groundbreaking experiments with entangled photons that experimentally settled fundamental questions of quantum mechanics. He is the fourth Austrian Nobel laureate in physics after Erwin Schrödinger, Victor Franz Hess, and Wolfgang Pauli.</p>
+          <p class="vb-intro">This achievement lies beyond any Enneagram interpretation – it is pure physical precision work, built up over decades against considerable experimental resistance. What the Five framework additionally reveals is how this knowledge was then handled: not as knowledge held for power, but as something shared and carried forward through institute, academy, and public alike.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the social Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In its light, the SO5w6 shows up in Zeilinger as someone who systematically turns competence into load-bearing structures: a research team, an institute, an entire academy. Knowledge is not hoarded but built into a system that outlasts the individual person – the mature form of the Totem.</p>
+          <p class="vb-intro">The shadow of the Five is <strong>avarice</strong> – withholding, not of knowledge, but of oneself as a person. In a figure as publicly visible as Zeilinger, this shows up subtly: the matter at hand, the experiment, the institute consistently stay in the foreground – the person behind the professional role less so. A pattern that helps the Five avoid burning out over a decades-long, publicly visible research career.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: from hoarding to sharing from abundance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Five's path to healing leads from the question <em>Is my knowledge, my energy, my time even enough?</em> to the realization <em>I have enough to give without losing myself.</em> Zeilinger's path from the single laboratory measurement to responsibility for an entire academy reads like a successful approach to that realization: knowledge that no longer needs protecting, but is allowed to flow into institutions, teams, and public lectures.</p>
+          <p class="vb-intro">That he kept up his commitment to basic research undiminished even after the career high point of the Nobel Prize shows a Five who has learned to give from abundance rather than hoard from scarcity – the octopus whose arms no longer need to retract once they have reached out.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: subtype profile"},
+        {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
+        {route:"beruehmte-eckhard-freise", label:"Portrait: Eckhard Freise (SO5w6)"},
+        {route:"beruehmte-dirk-rossmann", label:"Portrait: Dirk Rossmann (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
