@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage, gescheGottfriedPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=149";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=150";
 
 import { adeleKrankheitsportraetPage, arnoldSchwarzeneggerKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -32695,6 +32695,7 @@ const ASTROLOGIE_PORTRAITS = [
   { route:"astrologie-boris-becker",      name:"Boris Becker",      subtyp:"SX7w8",  heading:"Boris Becker \u2013 Sexueller Typ 7",               teaser:"SX7w8 \u00b7 geb. 1967. Tennisprofi, dreifacher Wimbledon-Sieger. Sonne Skorpion im 8. Haus, AC Sch\u00fctze, Venus und MC Waage im 10. Haus, Mars Steinbock \u2013 Leichtigkeit und Tiefe im ewigen Tanz.", beruehmteRoute:"beruehmte-boris-becker", kriminalRoute:"kriminalpsychologie-boris-becker" , gender:"m"},
   { route:"astrologie-gerhard-schroeder", name:"Gerhard Schr\u00f6der",  subtyp:"SX8w7",  heading:"Gerhard Schr\u00f6der \u2013 Sexueller Typ 8",           teaser:"SX8w7 \u00b7 geb. 1944. Bundeskanzler 1998\u20132005. Sonne Widder im 10. Haus, AC Krebs, Merkur Stier im 10. Haus, Venus Fische im 10. Haus, MC Fische \u2013 der Instinktpolitiker der Macht." },
   { route:"astrologie-angela-merkel",     name:"Angela Merkel",     subtyp:"SE9w8",  heading:"Angela Merkel \u2013 Selbsterhaltende Typ 9",       teaser:"SE9w8 \u00b7 geb. 1954. Bundeskanzlerin 2005\u20132021. Sonne Krebs im 10. Haus, AC Waage, Mond Wassermann im 4. Haus, Mars Sch\u00fctze im 3. Haus \u2013 die unbewegliche Vermittlerin der Macht." },
+  { route:"astrologie-enrico-caruso",     name:"Enrico Caruso",     subtyp:"SE3w2",  heading:"Enrico Caruso \u2013 Selbsterhaltender Typ 3",      teaser:"SE3w2 \u00b7 1873\u20131921. Opers\u00e4nger, ber\u00fchmtester Tenor seiner Zeit. Sonne Fische nahe MC (10. Haus), Mond und Saturn Steinbock im 8. Haus, AC Krebs, Venus und Neptun Widder nahe MC \u2013 die disziplinierte Stimme des Jahrhunderts.", beruehmteRoute:"beruehmte-enrico-caruso", gender:"m" },
 ];
 
 const ENNEAGRAMM_KUNST = {
@@ -50867,6 +50868,34 @@ function astrologieAngelaMerkelPage() {
     ${relatedLinks([
       {route:"beruehmte-angela-merkel", label:"Pers\xf6nlichkeitsportr\xe4t: Angela Merkel (SE9w8)"},
       {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
+    ])}`
+  );
+}
+
+function astrologieEnricoCarusoPage() {
+  return _astrologiePage(
+    { slug:"enrico-caruso", name:"Enrico Caruso", subtyp:"SE3w2",
+      subtypLabel:"Selbsterhaltender Typ 3 mit Zweierflügel",
+      subtitle:"Opernsänger, 1873–1921 – der berühmteste Tenor seiner Zeit",
+      beruehmteRoute:"beruehmte-enrico-caruso", gender:"m" },
+    `<h2 class="vb-section">SE3w2 – Die disziplinierte Stimme</h2>
+    <blockquote class="vb-blockquote">
+      <p class="vb-intro">Enrico Caruso verkörpert das klassische Profil der <strong>selbsterhaltenden Drei mit Zweierflügel (SE3w2)</strong> – Sicherheit durch demonstrierte Kompetenz statt durch Selbstinszenierung, verbunden mit einer warmen, gebenden Zuwendung zu anderen. Das Horoskop zeigt, wie sich eine geradezu grenzenlose künstlerische Begabung erst durch eiserne Disziplin in Weltruhm verwandelte.</p>
+    </blockquote>
+    <h2 class="vb-section">Das Radix-Horoskop im Dialog mit dem Enneagramm</h2>
+    <div class="vb-section" style="max-width:100%;">
+      <p class="vb-intro"><strong>Sonne in den Fischen, nahe dem Medium Coeli (10. Haus):</strong> Fische ist das Zeichen der Auflösung der Grenzen, der Hingabe an etwas Größeres als das eigene Ich – exakt die Qualität, die eine Stimme braucht, um sich in reiner Musik aufzulösen. Dass diese Sonne fast genau auf dem MC steht, macht aus dieser Begabung unmittelbar eine öffentliche Berufung: Carusos Identität und sein Lebensziel fallen mit seiner Gabe als Sänger zusammen.</p>
+      <p class="vb-intro"><strong>Mond und Saturn im Steinbock, im 8. Haus:</strong> Hier liegt die eigentliche SE3-Handschrift des Horoskops. Während die Fische-Sonne von grenzenloser Hingabe erzählt, verankern Mond und Saturn im disziplinierten, pflichtbewussten Steinbock genau jene Struktur, die diese Begabung überhaupt erst arbeitsfähig macht. Emotionale Sicherheit entsteht bei diesem Mond nicht durch freien Ausdruck, sondern durch Funktionieren, durch Verlässlichkeit – Carusos eigenes Erfolgsrezept (›neunzig Prozent Gedächtnis, zehn Prozent Intelligenz, viel harte Arbeit‹) liest sich fast wörtlich wie eine Beschreibung dieser Konstellation. Das 8. Haus, Haus der Krisen und Grenzerfahrungen, weist zugleich auf den fatalen Endpunkt dieses Musters voraus: Funktionieren bis zur physischen Grenze.</p>
+      <p class="vb-intro"><strong>Aszendent Krebs:</strong> Die warme, fürsorgliche, beschützende Ausstrahlung, mit der Caruso auf sein Publikum und seine Kollegen wirkte – Krebs als Aszendent zeigt genau jene mütterliche, generose Präsenz, die zu seinem Zweierflügel passt: die Sorge um andere als erste, spontane Reaktion.</p>
+      <p class="vb-intro"><strong>Venus und Neptun im Widder, nahe dem MC (9./10. Haus):</strong> Der Widder gibt der Venus eine direkte, mutige, unmittelbare Qualität – Liebe und Zuwendung nicht zögerlich, sondern impulsiv gegeben, exakt die Großzügigkeit, für die Caruso sprichwörtlich wurde. Neptun in Konjunktion dazu, ebenfalls nahe dem MC, verstärkt die Fische-Sonne noch einmal: Illusion, Verklärung, die mythische Aura des ›größten Tenors seiner Zeit‹ – eine öffentliche Legende, halb Mensch, halb Klang.</p>
+    </div>
+    <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+      <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Fazit:</strong> Die Fische-Sonne am MC beschreibt eine Stimme, die sich grenzenlos in Musik auflösen konnte – doch erst Mond und Saturn im Steinbock, im 8. Haus, machten aus dieser Begabung eine funktionierende, disziplinierte Karriere von Weltrang. Genau in dieser Spannung zwischen entgrenzter Hingabe (Fische) und eiserner Pflichterfüllung (Steinbock) liegt die astrologische Signatur der selbsterhaltenden Drei: Talent, das sich nur durch Arbeit rechtfertigt. Dass ausgerechnet das 8. Haus, das Haus der Krisen, diese Struktur trägt, liest sich im Rückblick wie ein Vorzeichen: Caruso funktionierte bis zur physischen Grenze – und darüber hinaus.</p>
+    </div>
+    ${relatedLinks([
+      {route:"beruehmte-enrico-caruso", label:"Portr\xe4t: Enrico Caruso (SE3w2) – Lebenswerk"},
+      {route:"krankheitsportraets-enrico-caruso", label:"Krankheitsportr\xe4t: Enrico Caruso (SE3w2)"},
+      {route:"beruehmte-joseph-haydn", label:"Portr\xe4t: Joseph Haydn (SE3w2) – gleicher Subtyp"},
     ])}`
   );
 }
@@ -77486,6 +77515,7 @@ const ROUTES = {
       "astrologie-boris-becker": astrologieBorisBeckerPage,
       "astrologie-gerhard-schroeder": astrologieGerhardSchroederPage,
       "astrologie-angela-merkel": astrologieAngelaMerkelPage,
+      "astrologie-enrico-caruso": astrologieEnricoCarusoPage,
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-ludwig-wittgenstein": ludwigWittgensteinPortraitPage,
       "beruehmte-robert-de-niro": robertDeNiroPortraitPage,

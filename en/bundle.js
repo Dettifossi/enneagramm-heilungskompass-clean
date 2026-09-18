@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=149";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=150";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -23413,6 +23413,18 @@ function persoenlichkeitsmodelleVergleichPage() {
   `);
 }
 
+const ASTROLOGIE_PORTRAITS = [
+  { route:"astrologie-reinhold-messner",  name:"Reinhold Messner",  subtyp:"SE1w9",  heading:"Reinhold Messner – Self-Preservation Type 1",  teaser:"SP1w9 · b. 1944. Mountaineer, adventurer, author. First person to climb all 14 eight-thousanders without supplemental oxygen. Sun Virgo in the 9th house, Moon Virgo, AC Cancer, MC Aries – perfectionism as a survival strategy." },
+  { route:"astrologie-marilyn-monroe",    name:"Marilyn Monroe",    subtyp:"SX3w4",  heading:"Marilyn Monroe – Sexual Type 3",                teaser:"SX3w4 · 1926–1962. Actress, icon. Sun Gemini, Moon Aquarius in the 7th house, AC Leo, MC Taurus – glamour and tragedy as two sides of one soul." },
+  { route:"astrologie-romy-schneider",    name:"Romy Schneider",    subtyp:"SO4w3",  heading:"Romy Schneider – Social Type 4",                teaser:"SO4w3 · 1938–1982. Actress. Sun and Moon Libra in the 4th house, AC Gemini, MC Aquarius, Venus Scorpio in the 5th house – the torn empress of the screen.", beruehmteRoute:"beruehmte-romy-schneider", gender:"f" },
+  { route:"astrologie-john-lennon",       name:"John Lennon",       subtyp:"SO4w5",  heading:"John Lennon – Social Type 4",                   teaser:"SO4w5 · 1940–1980. Musician, peace activist. Sun Libra in the 7th house, Moon Aquarius in the 11th house, AC Pisces, MC Sagittarius – the searching poet of a better world.", beruehmteRoute:"beruehmte-john-lennon", gender:"m" },
+  { route:"astrologie-albert-einstein",   name:"Albert Einstein",   subtyp:"SO5w6",  heading:"Albert Einstein – Social Type 5",               teaser:"SO5w6 · 1879–1955. Physicist, Nobel laureate. Sun Pisces in the 10th house, Moon Sagittarius in the 6th house, AC Cancer, MC Pisces – the cosmic formula of genius." },
+  { route:"astrologie-boris-becker",      name:"Boris Becker",      subtyp:"SX7w8",  heading:"Boris Becker – Sexual Type 7",                  teaser:"SX7w8 · b. 1967. Professional tennis player, three-time Wimbledon champion. Sun Scorpio in the 8th house, AC Sagittarius, Venus and MC Libra in the 10th house, Mars Capricorn – lightness and depth in an eternal dance.", beruehmteRoute:"beruehmte-boris-becker", kriminalRoute:"kriminalpsychologie-boris-becker", gender:"m" },
+  { route:"astrologie-gerhard-schroeder", name:"Gerhard Schröder",  subtyp:"SX8w7",  heading:"Gerhard Schröder – Sexual Type 8",              teaser:"SX8w7 · b. 1944. Chancellor 1998–2005. Sun Aries in the 10th house, AC Cancer, Mercury Taurus in the 10th house, Venus Pisces in the 10th house, MC Pisces – the instinctive politician of power." },
+  { route:"astrologie-angela-merkel",     name:"Angela Merkel",     subtyp:"SE9w8",  heading:"Angela Merkel – Self-Preservation Type 9",      teaser:"SP9w8 · b. 1954. Chancellor 2005–2021. Sun Cancer in the 10th house, AC Libra, Moon Aquarius in the 4th house, Mars Sagittarius in the 3rd house – the immovable mediator of power." },
+  { route:"astrologie-enrico-caruso",     name:"Enrico Caruso",     subtyp:"SE3w2",  heading:"Enrico Caruso – Self-Preservation Type 3",      teaser:"SP3w2 · 1873–1921. Opera singer, the most famous tenor of his era. Sun Pisces near the MC (10th house), Moon and Saturn Capricorn in the 8th house, AC Cancer, Venus and Neptune Aries near the MC – the disciplined voice of the century.", beruehmteRoute:"beruehmte-enrico-caruso", gender:"m" },
+];
+
 function _astrologiePage(p, analysisHtml) {
   return shell(`
     <div class="page-container">
@@ -23637,6 +23649,34 @@ function astrologieAngelaMerkelPage() {
     ${relatedLinks([
       {route:"beruehmte-angela-merkel", label:"Personality Portrait: Angela Merkel (SE9w8)"},
       {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
+    ])}`
+  );
+}
+
+function astrologieEnricoCarusoPage() {
+  return _astrologiePage(
+    { slug:"enrico-caruso", name:"Enrico Caruso", subtyp:"SE3w2",
+      subtypLabel:"Selbsterhaltender Typ 3 mit Zweierflügel",
+      subtitle:"Opera Singer, 1873–1921 – the most famous tenor of his era",
+      beruehmteRoute:"beruehmte-enrico-caruso", gender:"m" },
+    `<h2 class="vb-section">SP3w2 – The Disciplined Voice</h2>
+    <blockquote class="vb-blockquote">
+      <p class="vb-intro">Enrico Caruso embodies the classic profile of the <strong>self-preservation Three with Two wing (SP3w2)</strong> – security through demonstrated competence rather than self-promotion, combined with a warm, giving devotion to others. The horoscope shows how an almost boundless artistic gift was transformed into world fame only through iron discipline.</p>
+    </blockquote>
+    <h2 class="vb-section">The Natal Horoscope in Dialogue with the Enneagram</h2>
+    <div class="vb-section" style="max-width:100%;">
+      <p class="vb-intro"><strong>Sun in Pisces, near the Midheaven (10th House):</strong> Pisces is the sign of dissolving boundaries, of surrender to something greater than the self – exactly the quality a voice needs to dissolve into pure music. That this Sun sits almost exactly on the MC turns this gift immediately into a public calling: Caruso's identity and life purpose coincide with his gift as a singer.</p>
+      <p class="vb-intro"><strong>Moon and Saturn in Capricorn, in the 8th House:</strong> This is where the horoscope's true SP3 signature lies. While the Pisces Sun speaks of boundless surrender, Moon and Saturn in disciplined, duty-bound Capricorn anchor exactly the structure that makes this gift workable in the first place. With this Moon, emotional security comes not from free expression but from functioning, from reliability – Caruso's own recipe for success ("ninety percent memory, ten percent intelligence, lots of hard work") reads almost like a literal description of this configuration. The 8th house, house of crisis and extremity, also points ahead to the fatal endpoint of this pattern: functioning to the physical limit.</p>
+      <p class="vb-intro"><strong>Cancer Ascendant:</strong> The warm, caring, protective aura with which Caruso came across to his audience and colleagues – Cancer as ascendant shows exactly the maternal, generous presence that fits his Two-wing: concern for others as a first, spontaneous reaction.</p>
+      <p class="vb-intro"><strong>Venus and Neptune in Aries, near the MC (9th/10th House):</strong> Aries gives Venus a direct, bold, immediate quality – love and devotion given not hesitantly but impulsively, exactly the generosity for which Caruso became proverbial. Neptune in conjunction, also near the MC, reinforces the Pisces Sun once more: illusion, idealization, the mythic aura of "the greatest tenor of his era" – a public legend, half man, half sound.</p>
+    </div>
+    <div class="vb-section" style="background:rgba(31,166,136,0.07);border-left:3px solid #1fa688;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+      <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Conclusion:</strong> The Pisces Sun at the MC describes a voice that could dissolve boundlessly into music – but only Moon and Saturn in Capricorn, in the 8th house, turned this gift into a functioning, disciplined career of world renown. Exactly in this tension between boundless surrender (Pisces) and iron duty (Capricorn) lies the astrological signature of the self-preservation Three: talent that justifies itself only through work. That it is precisely the 8th house, the house of crisis, that carries this structure reads in hindsight like an omen: Caruso kept functioning to the physical limit – and beyond.</p>
+    </div>
+    ${relatedLinks([
+      {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2) – life's work"},
+      {route:"krankheitsportraets-enrico-caruso", label:"Illness Portrait: Enrico Caruso (SP3w2)"},
+      {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2) – same subtype"},
     ])}`
   );
 }
@@ -53233,6 +53273,7 @@ function subtypeSchaubilderPage() {
       "astrologie-boris-becker": astrologieBorisBeckerPage,
       "astrologie-gerhard-schroeder": astrologieGerhardSchroederPage,
       "astrologie-angela-merkel": astrologieAngelaMerkelPage,
+      "astrologie-enrico-caruso": astrologieEnricoCarusoPage,
       "beruehmte-persoenlichkeiten": beruehmtePersoenlichkeitenPage,
       "beruehmte-sting": stingPortraitPage,
       "beruehmte-ludwig-wittgenstein": ludwigWittgensteinPortraitPage,

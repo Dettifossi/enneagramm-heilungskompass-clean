@@ -2178,6 +2178,7 @@ export function enricoCarusoPortraitPage() {
         {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
         {route:"beruehmte-andre-agassi", label:"Porträt: Andre Agassi (SE3w2)"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
+        {route:"astrologie-enrico-caruso", label:"Enneagramm meets Astrologie: Enrico Caruso (SE3w2)"},
       ])}
     </div>
   `);

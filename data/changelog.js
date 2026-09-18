@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2343", date: "2026-09-18", text: "Neue Analyse in ›Enneagramm meets Astrologie‹: Enrico Caruso (SE3w2) – Fische-Sonne, Steinbock-Mond.", text_en: "New analysis in \"Enneagram Meets Astrology\": Enrico Caruso (SP3w2) – Pisces Sun, Capricorn Moon.", route: "astrologie-enrico-caruso" },
     { version: "v2342", date: "2026-09-18", text: "Neues Krankheitsporträt: Enrico Caruso (SE3w2) – Rippenfellentzündung, sieben Operationen.", text_en: "New illness portrait: Enrico Caruso (SP3w2) – pleurisy, seven surgeries.", route: "krankheitsportraets-enrico-caruso" },
     { version: "v2341", date: "2026-09-18", text: "Neues Porträt: Enrico Caruso (SE3w2) – Opernsänger, berühmtester Tenor seiner Zeit, Pionier der Schallplatte.", text_en: "New portrait: Enrico Caruso (SP3w2) – opera singer, the most famous tenor of his era, a pioneer of recorded sound.", route: "beruehmte-enrico-caruso" },
     { version: "v2340", date: "2026-09-17", text: "Neues Krankheitsporträt: Charles Laughton (SE9w8) – Nieren- und Blasenkrebs, über Jahre verdrängt.", text_en: "New illness portrait: Charles Laughton (SP9w8) – kidney and bladder cancer, denied for years.", route: "krankheitsportraets-charles-laughton" },
