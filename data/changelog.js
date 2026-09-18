@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2341", date: "2026-09-18", text: "Neues Porträt: Enrico Caruso (SE3w2) – Opernsänger, berühmtester Tenor seiner Zeit, Pionier der Schallplatte.", text_en: "New portrait: Enrico Caruso (SP3w2) – opera singer, the most famous tenor of his era, a pioneer of recorded sound.", route: "beruehmte-enrico-caruso" },
     { version: "v2340", date: "2026-09-17", text: "Neues Krankheitsporträt: Charles Laughton (SE9w8) – Nieren- und Blasenkrebs, über Jahre verdrängt.", text_en: "New illness portrait: Charles Laughton (SP9w8) – kidney and bladder cancer, denied for years.", route: "krankheitsportraets-charles-laughton" },
     { version: "v2339", date: "2026-09-17", text: "Neues Porträt: Charles Laughton (SE9w8) – Schauspieler, ›Der Glöckner von Notre Dame‹, ›Meuterei auf der Bounty‹.", text_en: "New portrait: Charles Laughton (SP9w8) – actor, \"The Hunchback of Notre Dame,\" \"Mutiny on the Bounty.\"", route: "beruehmte-charles-laughton" },
     { version: "v2338", date: "2026-09-17", text: "Neues Porträt: Ellen DeGeneres (SE6w5) – Komikerin, jahrzehntelange Talkshow-Moderatorin, Rückzug auf eine englische Farm.", text_en: "New portrait: Ellen DeGeneres (SP6w5) – comedian, decades as a talk show host, retreat to an English farm.", route: "beruehmte-ellen-degeneres" },

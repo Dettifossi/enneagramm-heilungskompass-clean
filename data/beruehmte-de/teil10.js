@@ -2122,3 +2122,63 @@ export function anneApplebaumPortraitPage() {
     </div>
   `);
 }
+
+export function enricoCarusoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-enrico-caruso-portrait.jpg" alt="Enrico Caruso – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Enrico Caruso</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Opernsänger, 1873&ndash;1921 &ndash; der berühmteste Tenor seiner Zeit &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der sich eine Stimme erarbeitete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Pragmatiker, der sich nicht auf Talent verlässt, sondern auf erprobte, jahrelang eingeübte Lösungswege. Enrico Caruso, 1873 in Neapel als Sohn eines Metallarbeiters und einer Putzfrau geboren, arbeitete ab seinem zehnten Lebensjahr in der Gießerei seines Vaters, bevor er mit achtzehn Jahren die erste ernsthafte Gesangsausbildung erhielt. Nur drei Jahre später debütierte er auf der Opernbühne &ndash; kein Wunderkind, sondern das Ergebnis harter, systematischer Arbeit.</p>
+          <p class="vb-intro">Sein eigenes Erfolgsrezept, das er selbst formulierte, liest sich fast wie ein Manifest dieses Subtyps: ›Eine große Brust, ein großer Mund, neunzig Prozent Gedächtnis, zehn Prozent Intelligenz, viel harte Arbeit und etwas im Herzen.‹ Kein Wort über Talent oder Begabung &ndash; nur über Arbeit, Technik und Disziplin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nannte die <strong>selbsterhaltende Drei</strong> den <em>Kontratyp der Drei</em>: Anders als die sozialen und sexuellen Dreier sucht dieser Subtyp keine Bühne um ihrer selbst willen &ndash; Sicherheit entsteht über demonstrierte Kompetenz, nicht über Selbstinszenierung. So widersprüchlich es bei einem Weltstar klingt: Caruso mied Partys und gesellschaftliche Auftritte, wo es ging &ndash; wurde er dennoch hineingezogen, wurde er unweigerlich zum Mittelpunkt, aber gesucht hatte er das nie aktiv.</p>
+          <p class="vb-intro">Er galt zudem als ›stickler for order‹ &ndash; akribisch, selbstkritisch, pedantisch in der Vorbereitung. Diese Verlässlichkeit und dieser Perfektionismus wurden für ihn buchstäblich zur Identität: Sicherheit entstand nicht daraus, gemocht zu werden, sondern daraus, unfehlbar zu funktionieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Großzügigkeit als zweite Natur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> gibt der selbsterhaltenden Drei eine warme, beziehungsorientierte Note, die sich bei Caruso in einer fast schon sprichwörtlichen Großzügigkeit zeigte: Er erhielt fast täglich Bittgesuche um Geld &ndash; und lehnte, so die Überlieferung, nie eines ab. Er schickte regelmäßig Geld an arme Familien in seiner Heimatstadt Neapel und unterstützte diverse wohltätige Zwecke, bis hin zu der Kuriosität, dass er sogar seinem eigenen Diener einen Diener anstellte.</p>
+          <p class="vb-intro">Er galt als völlig frei von beruflicher Eifersucht &ndash; selbst Rivalen erlagen seiner Persönlichkeit, ein Kollege sagte, er habe ›keinen anderen Mann je so geliebt wie Caruso‹. Seine humorvollen, nie boshaften Karikaturen von Kollegen, die er als Ventil gegen den Berufsstress zeichnete und verschenkte, waren eine nach außen gerichtete, verbindende Geste &ndash; kein grüblerischer Rückzug, sondern gelebte Zuwendung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Verlässlichkeit bis zur Selbstaufgabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Drei heißt <strong>Selbsttäuschung</strong> &ndash; das Verwechseln der eigenen Leistung mit dem eigenen Wert. Bei der selbsterhaltenden Drei zeigt sich das nicht als Geltungssucht, sondern als zwanghafte Verlässlichkeit: Verpflichtungen einzuhalten wird zur obersten Priorität, wichtiger als die eigene Gesundheit.</p>
+          <p class="vb-intro">Im Dezember 1920 traf ihn während einer Vorstellung eine herabfallende Bühnensäule im Rücken, kurz darauf entwickelte er Husten und Schmerzen &ndash; sein Arzt diagnostizierte eine harmlose Nervenentzündung und erklärte ihn für bühnentauglich. Am 11. Dezember erlitt er während einer Vorstellung von ›L'elisir d'amore‹ einen Blutsturz auf offener Bühne. Statt sich zurückzuziehen, gab er danach noch drei weitere Vorstellungen, die letzte am 24. Dezember als Eléazar in ›La Juive‹. Erst als die Schmerzen am Weihnachtstag unerträglich wurden, kam die korrekte Diagnose: eine eitrige Rippenfellentzündung. Quellen benennen ausdrücklich seine ›obsession with honoring his commitments and fear of disappointing his fans‹ als wahrscheinliche Ursache seines vorzeitigen Todes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Geschenk: Eine Stimme, die nie enttäuschte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Enrico Caruso der Welt gab, war eine beispiellose Verbindung aus handwerklicher Perfektion und echter menschlicher Wärme &ndash; eine Stimme, die durch Arbeit, nicht durch Zufall entstand, getragen von einer Großzügigkeit, die weit über die Bühne hinausreichte. Er war zugleich Pionier der Schallplattenaufnahme und machte damit Oper einem Massenpublikum zugänglich, das sie nie live erlebt hätte.</p>
+          <p class="vb-intro">Der Waschbär mit Zweierflügel findet Sicherheit darin, unentbehrlich zu sein &ndash; verlässlich, kompetent, großzügig zugewandt. Carusos Tragik liegt darin, dass genau diese Verlässlichkeit ihm am Ende keinen Raum ließ, auf den eigenen Körper zu hören, bis es zu spät war. Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-joseph-haydn">Joseph Haydn</a> (SE3w2): Auch er spielte, schwer krank und kurz vor seinem Tod, noch dreimal seine eigene Kaiserhymne, um sein Hauspersonal zu beruhigen &ndash; dieselbe Unfähigkeit, im entscheidenden Moment die eigene Verlässlichkeit hintanzustellen. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-joseph-haydn">Porträt zu Joseph Haydn</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
+        {route:"beruehmte-andre-agassi", label:"Porträt: Andre Agassi (SE3w2)"},
+        {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
+      ])}
+    </div>
+  `);
+}

@@ -841,6 +841,7 @@ export function josephHaydnPortraitPage() {
         {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
         {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SE3w2)"},
+        {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},
         {route:"krankheitsportraets-joseph-haydn", label:"Illness Portrait: Joseph Haydn (SE3w2)"},
       ])}
     </div>

@@ -2062,3 +2062,63 @@ export function natalieDormerPortraitPage() {
     </div>
   `);
 }
+
+export function enricoCarusoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-enrico-caruso-portrait.jpg" alt="Enrico Caruso" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Enrico Caruso</p>
+        <p class="krim-portrait-typ">SP3w2 · Self-Preservation Type 3 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">Opera Singer, 1873&ndash;1921 &ndash; the most famous tenor of his era &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon Who Worked for His Voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; a pragmatist who doesn't rely on talent, but on tested, painstakingly practiced solutions. Enrico Caruso, born in Naples in 1873 to a metalworker father and a mother who worked as a cleaner, began working in his father's foundry at age ten, before receiving his first serious vocal training at eighteen. Only three years later he made his operatic debut &ndash; no prodigy, but the result of hard, systematic work.</p>
+          <p class="vb-intro">His own recipe for success, which he formulated himself, reads almost like a manifesto of this subtype: "A big chest, a big mouth, ninety percent memory, ten percent intelligence, lots of hard work, and something in the heart." Not a word about talent or gift &ndash; only about work, technique, and discipline.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Competence Over Shine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Three</strong> the <em>countertype of the Three</em>: unlike the social and sexual Threes, this subtype does not seek the stage for its own sake &ndash; security comes from demonstrated competence, not self-promotion. As contradictory as it sounds for a world-famous star: Caruso avoided parties and social occasions wherever he could &ndash; if he was drawn in regardless, he inevitably became the center of attention, but he never actively sought it out.</p>
+          <p class="vb-intro">He was also known as a "stickler for order" &ndash; meticulous, self-critical, exacting in his preparation. This reliability and perfectionism became literally his identity: security did not come from being liked, but from functioning flawlessly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Generosity as Second Nature</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> gives the self-preservation Three a warm, relationship-oriented quality that showed in Caruso in an almost legendary generosity: he received requests for money almost daily &ndash; and, by all accounts, never turned one down. He regularly sent money to poor families in his hometown of Naples and supported various charitable causes, down to the curiosity of hiring a valet for his own valet.</p>
+          <p class="vb-intro">He was considered entirely free of professional jealousy &ndash; even rivals fell for his personality, one colleague saying he had "never loved any other man so much as Caruso." His humorous, never malicious caricatures of colleagues, which he drew and gave away as an outlet against the stress of his profession, were an outward-facing, connecting gesture &ndash; not a brooding withdrawal, but lived-out generosity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Reliability to the Point of Self-Sacrifice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's passion is called <strong>self-deceit</strong> &ndash; confusing one's own achievement with one's own worth. In the self-preservation Three, this shows not as a hunger for validation, but as compulsive reliability: keeping commitments becomes the top priority, more important than one's own health.</p>
+          <p class="vb-intro">In December 1920, a falling stage pillar struck him in the back during a performance; shortly after he developed a cough and pain &ndash; his doctor diagnosed harmless intercostal neuralgia and declared him fit for the stage. On December 11 he suffered a throat hemorrhage on stage during a performance of "L'elisir d'amore." Instead of withdrawing, he gave three more performances afterward, the last on December 24 as Eléazar in "La Juive." Only when the pain became unbearable on Christmas Day did the correct diagnosis come: purulent pleurisy. Sources explicitly name his "obsession with honoring his commitments and fear of disappointing his fans" as the probable cause of his premature death.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Gift: A Voice That Never Disappointed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Enrico Caruso gave the world was an unparalleled combination of craftsman's perfection and genuine human warmth &ndash; a voice built through work, not chance, carried by a generosity that reached far beyond the stage. He was also a pioneer of recorded sound, making opera accessible to a mass audience that would never have heard it live.</p>
+          <p class="vb-intro">The raccoon with a Two-wing finds security in being indispensable &ndash; reliable, competent, generously attentive. Caruso's tragedy lies in the fact that this very reliability left him no room, in the end, to listen to his own body until it was too late. A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-joseph-haydn">Joseph Haydn</a> (SP3w2): he too, gravely ill and shortly before his death, played his own imperial anthem three more times to reassure his household staff &ndash; the same inability, at the decisive moment, to set aside his own reliability. More in the <a href="javascript:void(0)" data-route="beruehmte-joseph-haydn">portrait of Joseph Haydn</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2)"},
+        {route:"beruehmte-andre-agassi", label:"Portrait: Andre Agassi (SP3w2)"},
+        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
+      ])}
+    </div>
+  `);
+}
