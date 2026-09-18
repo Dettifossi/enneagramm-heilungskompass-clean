@@ -133,7 +133,7 @@ export function angelaMerkelPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-angela-merkel-portrait.jpg" alt="Angela Merkel – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Angela Merkel</p>
+        <p class="krim-portrait-name">Dr. Angela Merkel</p>
         <p class="krim-portrait-typ">SE9w8 &middot; Selbsterhaltende Typ 9 mit Achterfl\xfcgel</p>
         <p class="krim-portrait-subtitle">Bundeskanzlerin 2005&ndash;2021, geb. 1954 &ndash; Tierentsprechung: Elefant</p>
       </div>
@@ -1397,7 +1397,7 @@ export function sahraWagenknechtPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sahra-wagenknecht-portrait.jpg" alt="Sahra Wagenknecht" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Sahra Wagenknecht</p>
+        <p class="krim-portrait-name">Dr. Sahra Wagenknecht</p>
         <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierfl\u00fcgel &middot; Verst\u00e4rkungstyp der Drei</p>
         <p class="krim-portrait-subtitle">Politikerin, Buchautorin, Parteigr\u00fcnderin, geb. 1969 &ndash; Tierentsprechung: Gepard</p>
       </div>

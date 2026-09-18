@@ -603,7 +603,7 @@ export function helmutKohlPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-helmut-kohl-portrait.jpg" alt="Helmut Kohl – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Helmut Kohl</p>
+        <p class="krim-portrait-name">Dr. Helmut Kohl</p>
         <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with a Nine Wing</p>
         <p class="krim-portrait-subtitle">German Chancellor, 1930&ndash;2017 &ndash; Animal correspondence: Orangutan</p>
       </div>

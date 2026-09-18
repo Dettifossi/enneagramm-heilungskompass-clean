@@ -133,7 +133,7 @@ export function angelaMerkelPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-angela-merkel-portrait.jpg" alt="Angela Merkel – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Angela Merkel</p>
+        <p class="krim-portrait-name">Dr. Angela Merkel</p>
         <p class="krim-portrait-typ">SE9w8 &middot; Self-Preservation Type 9 with aft wing</p>
         <p class="krim-portrait-subtitle">Federal Chancellor 2005–2021, b. 1954 – Animal equivalent: Elephant</p>
       </div>
@@ -1396,7 +1396,7 @@ export function sahraWagenknechtPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sahra-wagenknecht-portrait.jpg" alt="Sahra Wagenknecht" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Sahra Wagenknecht</p>
+        <p class="krim-portrait-name">Dr. Sahra Wagenknecht</p>
         <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with Two-Wing &middot; Reinforcement type of the three</p>
         <p class="krim-portrait-subtitle">Politician, author, party founder, b. 1969 – Animal equivalent: Cheetah</p>
       </div>

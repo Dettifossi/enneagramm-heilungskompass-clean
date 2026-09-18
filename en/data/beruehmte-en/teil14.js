@@ -1757,7 +1757,7 @@ export function alexanderGerstPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alexander-gerst-portrait.jpg" alt="Alexander Gerst – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Alexander Gerst</p>
+        <p class="krim-portrait-name">Dr. Alexander Gerst</p>
         <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with a One-Wing</p>
         <p class="krim-portrait-subtitle">Astronaut, b. 1976 &ndash; Animal correspondence: Golden Retriever</p>
       </div>

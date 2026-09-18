@@ -2048,7 +2048,7 @@ export function williamJamesPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-william-james-portrait.jpg" alt="William James" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">William James</p>
+        <p class="krim-portrait-name">Prof. Dr. William James</p>
         <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel · Verstärkungstyp der Drei</p>
         <p class="krim-portrait-subtitle">Philosoph &amp; Psychologe, 1842–1910 – Begründer der amerikanischen Psychologie und des Pragmatismus – Tierentsprechung: Gepard</p>
       </div>

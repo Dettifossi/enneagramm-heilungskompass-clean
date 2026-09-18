@@ -1661,7 +1661,7 @@ export function richardDavidPrechtPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-richard-david-precht-portrait.jpg" alt="Richard David Precht – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Richard David Precht</p>
+        <p class="krim-portrait-name">Prof. Dr. Richard David Precht</p>
         <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
         <p class="krim-portrait-subtitle">Philosoph und Publizist, geb. 1964 &ndash; Tierentsprechung: Gans</p>
       </div>

@@ -1672,7 +1672,7 @@ export function kurtGeorgKiesingerPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kurt-georg-kiesinger-portrait.jpg" alt="Kurt Georg Kiesinger – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Kurt Georg Kiesinger</p>
+        <p class="krim-portrait-name">Dr. Kurt Georg Kiesinger</p>
         <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
         <p class="krim-portrait-subtitle">German Federal Chancellor, 1904&ndash;1988 &ndash; Animal correspondence: Goose</p>
       </div>

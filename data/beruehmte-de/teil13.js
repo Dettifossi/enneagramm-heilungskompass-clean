@@ -343,7 +343,7 @@ export function douglasRushkoffPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-douglas-rushkoff-portrait.jpg" alt="Douglas Rushkoff – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Douglas Rushkoff</p>
+        <p class="krim-portrait-name">Prof. Dr. Douglas Rushkoff</p>
         <p class="krim-portrait-typ">SO2w1 &middot; Sozialer Typ 2 mit Einserflügel</p>
         <p class="krim-portrait-subtitle">US-amerikanischer Medientheoretiker &amp; Autor, geb. 1961 &ndash; Tierentsprechung: Golden Retriever</p>
       </div>
@@ -790,7 +790,7 @@ export function karlMarxPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-karl-marx-portrait.jpg" alt="Karl Marx – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Karl Marx</p>
+        <p class="krim-portrait-name">Dr. Karl Marx</p>
         <p class="krim-portrait-typ">SO8w9 &middot; Sozialer Typ 8 mit Neunerfl\u00fcgel</p>
         <p class="krim-portrait-subtitle">Philosoph, \u00d6konom, Begr\u00fcnder des Marxismus, 1818&ndash;1883 &ndash; Tierentsprechung: L\u00f6we</p>
       </div>

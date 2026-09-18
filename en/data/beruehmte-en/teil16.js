@@ -1046,7 +1046,7 @@ export function miguelDeUnamunoPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-miguel-de-unamuno-portrait.jpg" alt="Miguel de Unamuno" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Miguel de Unamuno</p>
+        <p class="krim-portrait-name">Prof. Dr. Miguel de Unamuno</p>
         <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
         <p class="krim-portrait-subtitle">Spanish philosopher and writer, 1864&ndash;1936 &ndash; Animal correspondence: Dove</p>
       </div>
@@ -2042,7 +2042,7 @@ export function liseMeitnerPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lise-meitner-portrait.jpg" alt="Lise Meitner – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Lise Meitner</p>
+        <p class="krim-portrait-name">Dr. Lise Meitner</p>
         <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with a Four-Wing</p>
         <p class="krim-portrait-subtitle">Physicist, 1878&ndash;1968, born in Vienna &ndash; Animal correspondence: Octopus</p>
       </div>

@@ -1682,7 +1682,7 @@ export function kurtGeorgKiesingerPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kurt-georg-kiesinger-portrait.jpg" alt="Kurt Georg Kiesinger – Portr\xe4t" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Kurt Georg Kiesinger</p>
+        <p class="krim-portrait-name">Dr. Kurt Georg Kiesinger</p>
         <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerfl\xfcgel</p>
         <p class="krim-portrait-subtitle">Deutscher Bundeskanzler, 1904–1988 – Tierentsprechung: Gans</p>
       </div>

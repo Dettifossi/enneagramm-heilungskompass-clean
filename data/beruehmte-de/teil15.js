@@ -917,7 +917,7 @@ export function ludwigErhardPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ludwig-erhard-portrait.jpg" alt="Ludwig Erhard – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Ludwig Erhard</p>
+        <p class="krim-portrait-name">Dr. Ludwig Erhard</p>
         <p class="krim-portrait-typ">SE9w1 &middot; Selbsterhaltender Typ 9 mit Einserfl\u00fcgel</p>
         <p class="krim-portrait-subtitle">Bundeswirtschaftsminister 1949&ndash;1963, Bundeskanzler 1963&ndash;1966, 1897&ndash;1977 &ndash; Tierentsprechung: Elefant</p>
       </div>

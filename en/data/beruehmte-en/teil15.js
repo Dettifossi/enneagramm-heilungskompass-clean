@@ -917,7 +917,7 @@ export function ludwigErhardPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ludwig-erhard-portrait.jpg" alt="Ludwig Erhard – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Ludwig Erhard</p>
+        <p class="krim-portrait-name">Dr. Ludwig Erhard</p>
         <p class="krim-portrait-typ">SP9w1 &middot; Self-Preservation Type 9 with One-wing</p>
         <p class="krim-portrait-subtitle">Federal Minister of Economics 1949&ndash;1963, Chancellor 1963&ndash;1966, 1897&ndash;1977 &ndash; Animal correspondence: Elephant</p>
       </div>
