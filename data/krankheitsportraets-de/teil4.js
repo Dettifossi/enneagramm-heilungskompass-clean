@@ -4409,3 +4409,178 @@ export function eltonJohnKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function enricoCarusoKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-enrico-caruso-portrait.jpg" alt="Enrico Caruso" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Enrico Caruso</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel · 1873–1921</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Waschbär</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Tierentsprechung: Waschbär" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Enrico Caruso</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-enrico-caruso">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seinen Aufstieg vom Gießereiarbeiter zum
+        Weltstar und seine legendäre Großzügigkeit. Hier steht ausschließlich das im Mittelpunkt,
+        was dort nur gestreift wird: eine eitrige Rippenfellentzündung, die er über Wochen
+        weitersingend ignorierte, bis sieben Operationen und ein letzter, fataler Rückschlag in
+        Neapel ihn mit 48 Jahren das Leben kosteten.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Caruso</strong> ist der <strong>selbsterhaltenden Drei mit Zweierflügel</strong>
+        zugeordnet. Naranjo nannte die selbsterhaltende Drei den <em>Kontratyp der Drei</em>:
+        Sicherheit entsteht über demonstrierte Kompetenz und Verlässlichkeit, nicht über
+        Selbstinszenierung. Der Zweierflügel gibt dieser Drei eine warme, beziehungsorientierte
+        Note. Genau diese Kombination aus zwanghafter Verlässlichkeit und dem Bedürfnis, niemanden
+        zu enttäuschen, prägte, wie Caruso mit seiner eigenen tödlichen Erkrankung umging.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Schlag mit der Bühnensäule, der zunächst folgenlos schien:</strong>
+        Im Dezember 1920 traf ihn während einer Vorstellung von ›Samson und Dalila‹ eine
+        herabfallende Bühnensäule im Rücken, über der linken Niere. Wenige Tage später entwickelte
+        er einen hartnäckigen Husten und einen dumpfen Schmerz in der Seite.</p>
+        <p class="vb-intro"><strong>b) Eine Fehldiagnose, die ihn bühnentauglich erklärte:</strong>
+        Sein Arzt diagnostizierte eine harmlose Nervenentzündung (›intercostal neuralgia‹) und
+        erklärte ihn trotz anhaltender Schmerzen, die bereits seine Stimmführung und Bewegungen
+        beeinträchtigten, für bühnentauglich.</p>
+        <p class="vb-intro"><strong>c) Ein Blutsturz auf offener Bühne am 11. Dezember 1920:</strong>
+        Während einer Vorstellung von ›L'elisir d'amore‹ an der Brooklyn Academy of Music erlitt
+        Caruso einen Blutsturz, die Vorstellung wurde nach dem ersten Akt abgebrochen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Drei weitere Vorstellungen trotz sichtbarer Erkrankung:</strong>
+        Statt sich nach dem Blutsturz zurückzuziehen, gab ein sichtlich kranker Caruso noch drei
+        weitere Vorstellungen an der Met, die letzte am 24. Dezember 1920 als Eléazar in Halévys
+        ›La Juive‹.</p>
+        <p class="vb-intro"><strong>b) Die korrekte Diagnose erst nach unerträglichen Schmerzen:</strong>
+        Am Weihnachtstag wurden die Schmerzen in seiner Seite so unerträglich, dass er schrie.
+        Erst dann erhielt Caruso die korrekte Diagnose: eine eitrige Rippenfellentzündung mit
+        Empyem (Eiteransammlung im Brustraum).</p>
+        <p class="vb-intro"><strong>c) Sieben Operationen, eine davon mit Rippenentfernung:</strong>
+        Es folgten sieben chirurgische Eingriffe, um Flüssigkeit aus Brustkorb und Lunge
+        abzulassen – bei der schwersten Operation wurde ihm ein Teil einer Rippe entfernt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Rückkehr nach Neapel zur Genesung:</strong>
+        Nach der schwersten Operation kehrte Caruso zur Erholung in seine Heimatstadt Neapel
+        zurück – ein Rückzug an den Ort, an dem seine Karriere begonnen hatte, nun um sein Leben
+        zu retten statt um es aufzubauen.</p>
+        <p class="vb-intro"><strong>b) Eine scheinbare Genesung, die täuschte:</strong>
+        Laut seiner Frau Dorothy Caruso schien er sich zunächst zu erholen. Er ließ sich jedoch
+        von einem örtlichen Arzt unter unhygienischen Bedingungen untersuchen, woraufhin sich sein
+        Zustand dramatisch verschlechterte.</p>
+        <p class="vb-intro"><strong>c) Morphium im Hotel Vesuvio:</strong>
+        In seiner letzten Nacht im Hotel Vesuvio in Neapel verschlechterte sich sein Zustand
+        alarmierend; man verabreichte ihm Morphium, damit er schlafen konnte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 2. August 1921 in Neapel:</strong>
+        Nach einer Reihe erfolgloser Operationen starb Enrico Caruso im Alter von 48 Jahren in
+        Neapel – die genaue Todesursache bleibt bis heute umstritten, mit Theorien von einem
+        Empyem bis zu einer Bauchfellentzündung durch einen geplatzten subphrenischen Abszess.</p>
+        <p class="vb-intro"><strong>b) Acht Monate zwischen erstem Warnsignal und Tod:</strong>
+        Von der herabfallenden Bühnensäule im Dezember 1920 bis zu seinem Tod im August 1921
+        vergingen acht Monate – eine Zeitspanne, in der er zunächst weiterarbeitete, dann sieben
+        Operationen über sich ergehen ließ, ohne dass die Erkrankung je vollständig unter
+        Kontrolle gebracht werden konnte.</p>
+        <p class="vb-intro"><strong>c) Ein Karriereende, das nie als solches geplant war:</strong>
+        Anders als bei vielen anderen Künstlern gab es keinen bewussten Abschied von der Bühne –
+        die letzte Vorstellung am 24. Dezember 1920 war als eine von vielen weiteren gedacht, nicht
+        als Schlusspunkt einer Karriere.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Zweierflügel, der Verpflichtungen wichtiger nahm als den eigenen Körper:</strong>
+        Dieselbe warme, verlässliche Zuwendung zu anderen, die Caruso zu einem der großzügigsten
+        Stars seiner Zeit machte, verlangte von ihm auch, sein Publikum nicht zu enttäuschen –
+        selbst als sein Körper längst deutliche Warnsignale sendete.</p>
+        <p class="vb-intro"><strong>b) Kompetenz, die keinen Raum für Schwäche ließ:</strong>
+        Die selbsterhaltende Drei findet Sicherheit darin, zu funktionieren. Ein Arzt, der ihn für
+        bühnentauglich erklärte, traf bei Caruso auf eine Persönlichkeit, die ohnehin nicht danach
+        fragte, ob sie aufhören durfte, sondern nur, ob sie weitermachen konnte.</p>
+        <p class="vb-intro"><strong>c) Ein letzter Rückzug ins Vertraute, der nicht mehr half:</strong>
+        Dass Caruso zur Genesung ausgerechnet nach Neapel zurückkehrte, in die Stadt seiner
+        Herkunft und seines Aufstiegs, passt zu einer Persönlichkeit, die Sicherheit im Vertrauten
+        sucht – diesmal jedoch vergeblich, da eine unhygienische Behandlung vor Ort seinen Zustand
+        weiter verschlechterte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Arbeit bis zum Zusammenbruch, kein bewusstes Aufhören:</strong>
+        Carusos Weg von der herabfallenden Bühnensäule über den Blutsturz auf offener Bühne bis
+        zu drei weiteren Vorstellungen trotz sichtbarer Krankheit zeigt dieselbe Grundstrategie:
+        Verpflichtungen erfüllen, bis der eigene Körper keine Wahl mehr lässt.</p>
+        <p class="vb-intro"><strong>b) Die Parallele zu Carusos eigenem Lebensmusterkompass-Fingerabdruck:</strong>
+        Genau dieses Muster – Sicherheit durch Verlässlichkeit und Funktionieren statt durch
+        Rücksicht auf sich selbst – findet sich bereits in seinem Porträt unter Berühmte
+        Persönlichkeiten beschrieben: Quellen benennen ausdrücklich seine ›obsession with honoring
+        his commitments and fear of disappointing his fans‹ als wahrscheinliche Todesursache.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet eine über Wochen ignorierte Rippenfellentzündung?</strong>
+        Für eine selbsterhaltende Drei mit Zweierflügel, deren tiefstes Bedürfnis darin besteht,
+        durch Kompetenz und Verlässlichkeit Sicherheit zu erzeugen, liegt eine Deutung nahe:
+        Ausgerechnet eine Krankheit, die zunächst als harmlos fehldiagnostiziert wurde und sich
+        durch bloßes Weitermachen verschleiern ließ, traf bei Caruso auf einen Mann, dessen
+        gesamte Identität am reibungslosen Funktionieren hing. Diese Deutung wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Drei zwangsläufig zu tödlichen
+        Krankheitsverläufen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
+        vom Subtyp.</strong> Was sich an Carusos Fall zeigen lässt, ist ein Muster, das bei
+        zwanghafter Verlässlichkeit in der Praxis immer wieder auffällt – eine von vielen
+        möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Caruso kannte sein eigenes Enneagramm-Muster nicht – und lebte seine Dreier-Verlässlichkeit
+        gerade deshalb so ungebremst aus: Statt nach dem ersten Blutsturz die Bühne zu verlassen,
+        hielt er an seinen Verpflichtungen fest, bis der Körper selbst keine Wahl mehr ließ. Nicht
+        aus Schuld, sondern aus Unwissenheit über das eigene Muster – und genau das erklärt, warum
+        eine zunächst behandelbare Erkrankung über Wochen eskalieren konnte, statt frühzeitig
+        ernst genommen und konsequent auskuriert zu werden.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Enrico Carusos</strong> Krankheitsgeschichte lässt sich die selbsterhaltende
+        Drei mit Zweierflügel in ihrer verletzlichsten Form ablesen: ein Mann, der einen Blutsturz
+        auf offener Bühne mit drei weiteren Vorstellungen beantwortete, sieben Operationen über
+        sich ergehen ließ und schließlich in der Stadt seiner Herkunft starb, ohne dass sein
+        letzter Auftritt je als Abschied gedacht war. Der Waschbär, der bis zuletzt funktionierte
+        – bis der eigene Körper die letzte Entscheidung traf.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-enrico-caruso", label:"Porträt: Enrico Caruso (SE3w2) – Lebenswerk"},
+        {route:"krankheitsportraets-joseph-haydn", label:"Krankheitsporträt: Joseph Haydn (SE3w2) – gleicher Subtyp"},
+        {route:"krankheitsportraets-sadhguru", label:"Krankheitsporträt: Sadhguru (SE3w2) – gleicher Subtyp"},
+        {route:"krankheitsportraets-klara-von-assisi", label:"Krankheitsporträt: Klara von Assisi (SE3w2) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+      ])}
+    </div>
+  `);
+}

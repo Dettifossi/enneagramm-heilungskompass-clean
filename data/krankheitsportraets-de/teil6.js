@@ -4132,6 +4132,7 @@ export function josephHaydnKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2) – Lebenswerk"},
         {route:"krankheitsportraets-sadhguru", label:"Krankheitsporträt: Sadhguru (SE3w2) – gleicher Subtyp"},
+        {route:"krankheitsportraets-enrico-caruso", label:"Krankheitsporträt: Enrico Caruso (SE3w2) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se3", label:"Subtyp-Profil SE3"},
       ])}

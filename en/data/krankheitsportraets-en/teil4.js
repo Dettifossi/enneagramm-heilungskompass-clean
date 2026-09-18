@@ -4217,3 +4217,168 @@ export function eltonJohnKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function enricoCarusoKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-enrico-caruso-portrait.jpg" alt="Enrico Caruso" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Enrico Caruso</p>
+        <p class="krim-portrait-typ">SP3w2 · Self-Preservation Type 3 with a Two-Wing · 1873–1921</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Raccoon</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal correspondence: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Enrico Caruso</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-enrico-caruso">portrait under Famous Personalities</a>
+        in this compass – there the focus is on his rise from foundry worker to world star and his
+        legendary generosity. Here the focus is exclusively on what is only touched on there: a
+        purulent pleurisy that he sang through for weeks, until seven surgeries and one final,
+        fatal setback in Naples cost him his life at age 48.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Caruso</strong> is assigned to the <strong>self-preservation Three with a
+        Two-wing</strong>. Naranjo called the self-preservation Three the <em>countertype of the
+        Three</em>: security comes from demonstrated competence and reliability, not
+        self-promotion. The Two-wing gives this Three a warm, relationship-oriented quality. This
+        exact combination of compulsive reliability and the need not to disappoint anyone shaped
+        how Caruso dealt with his own fatal illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A blow from a stage pillar that seemed to have no lasting effect:</strong>
+        In December 1920, a falling stage pillar struck him in the back, over the left kidney,
+        during a performance of "Samson and Delilah." A few days later he developed a persistent
+        cough and a dull pain in his side.</p>
+        <p class="vb-intro"><strong>b) A misdiagnosis that declared him fit for the stage:</strong>
+        His doctor diagnosed harmless intercostal neuralgia and declared him fit to perform,
+        despite ongoing pain that was already affecting his voice production and movement.</p>
+        <p class="vb-intro"><strong>c) A throat hemorrhage on stage on December 11, 1920:</strong>
+        During a performance of "L'elisir d'amore" at the Brooklyn Academy of Music, Caruso
+        suffered a hemorrhage; the performance was canceled after the first act.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Three more performances despite visible illness:</strong>
+        Rather than withdrawing after the hemorrhage, a clearly unwell Caruso gave three more
+        performances at the Met, the last on December 24, 1920, as Eléazar in Halévy's "La Juive."</p>
+        <p class="vb-intro"><strong>b) The correct diagnosis only after unbearable pain:</strong>
+        On Christmas Day the pain in his side became so unbearable that he was screaming. Only
+        then did Caruso receive the correct diagnosis: purulent pleurisy with empyema (pus
+        accumulation in the chest cavity).</p>
+        <p class="vb-intro"><strong>c) Seven surgeries, one including rib removal:</strong>
+        Seven surgical procedures followed to drain fluid from his chest and lungs – during the
+        most serious operation, part of a rib was removed.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <p class="vb-intro"><strong>a) Returning to Naples to recover:</strong>
+        After his most serious operation, Caruso returned to his hometown of Naples to recuperate
+        – a retreat to the place where his career had begun, now to save his life rather than
+        build it.</p>
+        <p class="vb-intro"><strong>b) An apparent recovery that deceived:</strong>
+        According to his wife Dorothy Caruso, he initially seemed to be recovering. He allowed
+        himself to be examined by a local doctor under unhygienic conditions, after which his
+        condition worsened dramatically.</p>
+        <p class="vb-intro"><strong>c) Morphine at the Vesuvio Hotel:</strong>
+        On his final night at the Vesuvio Hotel in Naples, his condition took an alarming turn for
+        the worse; he was given morphine to help him sleep.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Death on August 2, 1921, in Naples:</strong>
+        After a series of unsuccessful surgeries, Enrico Caruso died at age 48 in Naples – the
+        exact cause of death remains debated to this day, with theories ranging from empyema to
+        peritonitis from a burst subphrenic abscess.</p>
+        <p class="vb-intro"><strong>b) Eight months between the first warning sign and death:</strong>
+        From the falling stage pillar in December 1920 to his death in August 1921, eight months
+        passed – a period in which he first kept working, then endured seven surgeries, without
+        the illness ever being fully brought under control.</p>
+        <p class="vb-intro"><strong>c) A career ending that was never planned as such:</strong>
+        Unlike many other artists, there was no conscious farewell to the stage – the final
+        performance on December 24, 1920, was meant to be one of many more, not the closing point
+        of a career.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The Two-wing that put commitments above his own body:</strong>
+        The same warm, reliable devotion to others that made Caruso one of the most generous stars
+        of his era also demanded of him that he not disappoint his audience – even as his body was
+        already sending clear warning signs.</p>
+        <p class="vb-intro"><strong>b) Competence that left no room for weakness:</strong>
+        The self-preservation Three finds security in functioning. A doctor who declared him fit
+        for the stage met, in Caruso, a personality that in any case wasn't asking whether it was
+        allowed to stop, only whether it could keep going.</p>
+        <p class="vb-intro"><strong>c) A final retreat into the familiar that no longer helped:</strong>
+        That Caruso returned to recover to Naples of all places, the city of his origin and his
+        rise, fits a personality that seeks security in the familiar – this time in vain, since an
+        unhygienic local treatment further worsened his condition.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Throughline</h3>
+        <p class="vb-intro"><strong>a) Working until collapse, no conscious stopping:</strong>
+        Caruso's path from the falling stage pillar through the on-stage hemorrhage to three more
+        performances despite visible illness shows the same underlying strategy: fulfilling
+        commitments until the body itself leaves no choice.</p>
+        <p class="vb-intro"><strong>b) The parallel to Caruso's own Life Pattern Compass fingerprint:</strong>
+        This exact pattern – security through reliability and functioning rather than
+        self-consideration – already appears in his portrait under Famous Personalities: sources
+        explicitly name his "obsession with honoring his commitments and fear of disappointing his
+        fans" as the probable cause of death.</p>
+        <p class="vb-intro"><strong>c) Why exactly a pleurisy ignored for weeks?</strong>
+        For a self-preservation Three with a Two-wing, whose deepest need is to generate security
+        through competence and reliability, one interpretation suggests itself: an illness
+        initially misdiagnosed as harmless, one that could be concealed simply by continuing to
+        work, met, in Caruso, a man whose entire identity hinged on functioning smoothly. This
+        interpretation is developed further in this compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Framing without determinism:</strong>
+        This does not mean that the self-preservation Three's pattern inevitably leads to fatal
+        illness courses – <strong>anyone can get any illness, regardless of subtype.</strong> What
+        Caruso's case illustrates is a pattern that repeatedly stands out in practice with
+        compulsive reliability – one of many possible explanations, not a judgment. The
+        corresponding illness profile is being developed step by step in this compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Caruso did not know his own Enneagram pattern – and lived out his Three's reliability so
+        unchecked precisely because of that: instead of leaving the stage after the first
+        hemorrhage, he held onto his commitments until his body itself left no choice. Not out of
+        guilt, but out of ignorance about his own pattern – and that is exactly why an initially
+        treatable illness was able to escalate over weeks, instead of being taken seriously early
+        and consistently treated.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Enrico Caruso's</strong> illness story shows the self-preservation Three with a
+        Two-wing at its most vulnerable: a man who answered an on-stage hemorrhage with three more
+        performances, endured seven surgeries, and finally died in the city of his origin without
+        his last appearance ever being meant as a farewell. The raccoon who kept functioning to
+        the end – until his own body made the final decision.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2) – life's work"},
+        {route:"krankheitsportraets-joseph-haydn", label:"Illness Portrait: Joseph Haydn (SP3w2) – same subtype"},
+        {route:"krankheitsportraets-sadhguru", label:"Illness Portrait: Sadhguru (SP3w2) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+      ])}
+    </div>
+  `);
+}
