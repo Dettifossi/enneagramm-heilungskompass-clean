@@ -1297,7 +1297,7 @@ export function helmutKohlKrankheitsportraetPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-helmut-kohl-portrait.jpg" alt="Helmut Kohl" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Helmut Kohl</p>
+        <p class="krim-portrait-name">Dr. Helmut Kohl</p>
         <p class="krim-portrait-typ">SE8w9 · Selbsterhaltender Typ 8 mit Neunerflügel · 1930–2017</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Tierentsprechung: Orang-Utan</span>
@@ -1820,7 +1820,7 @@ export function karlMarxKrankheitsportraetPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-karl-marx-portrait.jpg" alt="Karl Marx" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Karl Marx</p>
+        <p class="krim-portrait-name">Dr. Karl Marx</p>
         <p class="krim-portrait-typ">SO8w9 · Sozialer Typ 8 mit Neunerflügel · 1818–1883</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Tierentsprechung: Löwe</span>
@@ -2176,7 +2176,7 @@ export function marieCurieKrankheitsportraetPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-marie-curie-portrait.jpg" alt="Marie Curie – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Marie Curie</p>
+        <p class="krim-portrait-name">Prof. Dr. Marie Curie</p>
         <p class="krim-portrait-typ">SE5w6 · Selbsterhaltender Typ 5 mit Sechserflügel · 1867–1934</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Tierentsprechung: Eule</span>

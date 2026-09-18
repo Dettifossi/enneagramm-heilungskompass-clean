@@ -4148,7 +4148,7 @@ export function williamJamesKrankheitsportraetPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-william-james-portrait.jpg" alt="William James" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">William James</p>
+        <p class="krim-portrait-name">Prof. Dr. William James</p>
         <p class="krim-portrait-typ">SO3w4 · Social Type 3 with Four-wing · 1842–1910</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Cheetah</span>

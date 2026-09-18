@@ -9,7 +9,7 @@ export function albertEinsteinKrankheitsportraetPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-albert-einstein-portrait.jpg" alt="Albert Einstein" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Albert Einstein</p>
+        <p class="krim-portrait-name">Dr. Albert Einstein</p>
         <p class="krim-portrait-typ">SO5w4 · Social Type 5 with Four-wing · 1879–1955</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Octopus</span>
@@ -2900,7 +2900,7 @@ export function stephenHawkingKrankheitsportraetPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-stephen-hawking-portrait.jpg" alt="Stephen Hawking" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Stephen Hawking</p>
+        <p class="krim-portrait-name">Prof. Dr. Stephen Hawking</p>
         <p class="krim-portrait-typ">SO5w6 · Social Type 5 with Six-wing · 1942–2018</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
           <span>Animal correspondence: Octopus</span>
