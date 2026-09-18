@@ -2117,3 +2117,67 @@ export function herfriedMuenklerPortraitPage() {
     </div>
   `);
 }
+
+export function mariaCallasPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-maria-callas-portrait.jpg" alt="Maria Callas – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Maria Callas</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with two wing</p>
+        <p class="krim-portrait-subtitle">Soprano, 1923–1977 – pioneer of the bel canto revival – Animal equivalent: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The raccoon who rebuilt her own voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three – a creature that builds a working system out of little with skillful hands, quietly and persistently, without waiting for favorable starting conditions. Maria Callas was born in 1923 in New York to Greek immigrant parents, raised by a demanding mother who recognized early on that her daughter's voice was something special – and from then on left no doubt that something had to come of it. At thirteen the family moved to Athens, where Callas began training at the conservatory under Elvira de Hidalgo, the foundation of everything she later mastered.</p>
+          <p class="vb-intro">As with Enrico Caruso (SP3w2, see <a href="javascript:void(0)" data-route="beruehmte-enrico-caruso">portrait</a>) – also a self-preservation Three with a two wing – there was no question of effortless talent: what later looked like natural greatness was the result of years of often painful technical work on a voice that only became what revolutionized the music world through discipline.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Countertype: competence over glamour – a figure who rebuilt herself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the self-preservation Three the <strong>countertype</strong> of the Three: instead of self-promotion, it shows grounded, often painfully honest work on its own substance. In Callas this pattern shows in one of opera history's best-known self-transformations: between 1953 and 1954 she lost roughly 36 kilograms through disciplined, radical persistence – not as a marketing move, but out of an inner demand to master her stage presence as completely as her technique.</p>
+          <p class="vb-intro">Her own understanding of success was unmistakably craft-based: she studied the libretto of a role as thoroughly as the score, working out every dramatic detail instead of relying on pure vocal beauty. That is the mature countertype Three: not owning the most brilliant natural voice of her era, but becoming the defining singer of the century through work on technique and interpretation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The two wing: devotion to teacher, role, and audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>two wing (w2)</strong> gives the self-preservation Three a deep need for personal connection – not public admiration, but real closeness to a few central people and to the role itself. Callas's bond with her teacher Elvira de Hidalgo remained formative throughout her life; the bel canto technique she learned there carried her through her entire career. Her later, publicly scrutinized relationship with Aristotle Onassis shows the same pattern: the Three's need for genuine, exclusive attention rather than the diffuse admiration of a crowd.</p>
+          <p class="vb-intro">This devotion also showed in her work itself: colleagues and directors described how completely she gave herself to every part, until singer and role were barely distinguishable – an almost personal relationship to the characters she embodied, not mere technical interpretation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual achievement: the bel canto revival</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Callas is considered the most influential soprano of the 20th century because she revived a singing tradition that had been neglected for roughly 75 years: early Romantic bel canto. Works by Bellini (<em>Norma</em>, <em>La sonnambula</em>), Donizetti (<em>Anna Bolena</em>, <em>Lucia di Lammermoor</em>), and Rossini, nearly vanished from the standard repertoire, she brought back to the world's great stages through a combination of technical agility, enormous vocal range, and dramatic intensity – permanently changing what was expected of an opera diva: no longer beautiful sound alone, but the full fusion of singing and dramatic truthfulness.</p>
+          <p class="vb-intro">This achievement lies beyond any Enneagram interpretation – pure musical and dramatic pioneering work. What the subtype framework additionally reveals is how much this achievement grew out of persistent technical work rather than effortless talent, as the public myth often suggested.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the self-preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In its light, the SP3w2 shows up in Callas as an artist who placed real substance over mere shine – developing her own voice, her own body, her own interpretation year after year with discipline, rather than relying on natural gift.</p>
+          <p class="vb-intro">The shadow of the Three is <strong>vanity</strong> – not self-infatuation, but confusing one's own worth with the performance delivered. The media's exaggeration into the untouchable "diva" – the rivalry with Renata Tebaldi, publicly fought conflicts – often stood in sharp contrast to a woman who was privately under enormous pressure to maintain her own technical perfection. The radical weight loss that initially boosted her career later, in the assessment of many voice experts, weakened the physical basis of her voice – control over the outward image, bought with the very substance she meant to protect.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: from proving to genuine worth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's path to healing leads from the question <em>Am I only worthwhile when I brilliantly succeed?</em> to the realization <em>My worth does not lie in the performance, but in myself.</em> Callas's career reads as an impressive, but also tragic, approach to that question: an artist who brought back an entire operatic tradition through sheer work, whose voice began to suffer at exactly the point where outward control became more important than inner substance.</p>
+          <p class="vb-intro">That she held on to her own perfection to the end, even when her voice no longer fully carried her, shows the unresolved side of this pattern. Her lasting legacy – an entire generation of singers who rediscovered bel canto because of her – is at the same time proof that the raccoon's hard, disciplined work ultimately holds, even when the path there exhausted her.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: subtype profile"},
+        {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},
+      ])}
+    </div>
+  `);
+}

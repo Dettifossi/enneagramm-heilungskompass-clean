@@ -2191,3 +2191,67 @@ export function antonZeilingerPortraitPage() {
     </div>
   `);
 }
+
+export function mariaCallasPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-maria-callas-portrait.jpg" alt="Maria Callas – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Maria Callas</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Sopranistin, 1923–1977 – Wegbereiterin der Bel-canto-Renaissance – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der sich eine Stimme neu erarbeitete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – ein Tier, das aus wenig geschickten Händen ein funktionierendes System baut, still und beharrlich, ohne auf günstige Startbedingungen zu warten. Maria Callas wurde 1923 in New York als Kind griechischer Einwanderer geboren, wuchs unter einer fordernden Mutter auf, die früh erkannte, dass die Stimme der Tochter etwas Besonderes war – und ab da keinen Zweifel daran ließ, dass daraus etwas werden musste. Mit dreizehn zog die Familie nach Athen, wo Callas am Konservatorium bei Elvira de Hidalgo eine Ausbildung begann, die zur Grundlage ihres gesamten späteren Könnens wurde.</p>
+          <p class="vb-intro">Wie Enrico Caruso (SE3w2, siehe <a href="javascript:void(0)" data-route="beruehmte-enrico-caruso">Porträt</a>) – ebenfalls ein selbsterhaltender Dreier mit Zweierflügel – war auch bei Callas keine Rede von müheloser Begabung: Was später wie natürliche Größe wirkte, war das Ergebnis jahrelanger, oft schmerzhafter technischer Arbeit an einer Stimme, die erst durch Disziplin zu dem wurde, was die Musikwelt revolutionierte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Kontratyp: Können statt Glänzen – eine Figur, die sich selbst neu baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nannte die selbsterhaltende Drei den <strong>Kontratyp</strong> der Drei: Statt auf Selbstinszenierung zu setzen, zeigt sich bei ihr bodenständige, oft schmerzhaft ehrliche Arbeit an der eigenen Substanz. Bei Callas zeigt sich dieses Muster in einer der bekanntesten Selbsttransformationen der Operngeschichte: Zwischen 1953 und 1954 verlor sie durch diszipliniertes, radikales Durchhalten etwa 36 Kilogramm – nicht als Marketingmaßnahme, sondern aus dem inneren Anspruch, ihre Bühnenfigur so vollständig zu beherrschen wie ihre Technik.</p>
+          <p class="vb-intro">Ihr eigenes Verständnis von Erfolg war unmissverständlich handwerklich: Sie studierte das Libretto so gründlich wie die Partitur, arbeitete Rollen bis in kleinste dramatische Details aus, statt sich auf reine Stimmschönheit zu verlassen. Genau das ist die reife Kontratyp-Drei: nicht die glänzendste Naturstimme ihrer Zeit besitzen, sondern durch Arbeit an Technik und Interpretation zur prägendsten Sängerin des Jahrhunderts werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Hingabe an Lehrerin, Rolle und Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt der selbsterhaltenden Drei ein tiefes Bedürfnis nach persönlicher Verbindung – nicht nach öffentlicher Bewunderung, sondern nach echter Nähe zu wenigen zentralen Menschen und zur Rolle selbst. Callas' Bindung an ihre Lehrerin Elvira de Hidalgo blieb zeitlebens prägend; die dort erlernte Bel-canto-Technik trug sie durch ihre gesamte Karriere. Auch ihre spätere, öffentlich vielbeachtete Beziehung zu Aristoteles Onassis zeigt dasselbe Muster: das Bedürfnis der Drei nach echter, exklusiver Zuwendung, nicht nach diffuser Bewunderung einer Masse.</p>
+          <p class="vb-intro">Diese Hingabe zeigte sich auch in ihrer Arbeit selbst: Kolleginnen und Regisseure beschrieben, wie vollständig sie sich in jede Partie hineingab, bis Sängerin und Rolle kaum mehr zu trennen waren – eine fast persönliche Beziehung zu den Figuren, die sie verkörperte, nicht bloße technische Interpretation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Die Bel-canto-Renaissance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Callas gilt als die einflussreichste Sopranistin des 20. Jahrhunderts, weil sie eine seit rund 75 Jahren vernachlässigte Gesangstradition wiederbelebte: den Bel canto der Frühromantik. Werke von Bellini (<em>Norma</em>, <em>La sonnambula</em>), Donizetti (<em>Anna Bolena</em>, <em>Lucia di Lammermoor</em>) und Rossini, die aus dem gängigen Repertoire fast verschwunden waren, brachte sie mit einer Kombination aus technischer Beweglichkeit, enormem Stimmumfang und schauspielerischer Intensität zurück auf die großen Bühnen der Welt – und veränderte damit dauerhaft, was von einer Operndiva erwartet wurde: nicht mehr allein schöner Klang, sondern die vollständige Verschmelzung von Gesang und dramatischer Wahrhaftigkeit.</p>
+          <p class="vb-intro">Diese Leistung liegt jenseits jeder Enneagramm-Deutung – reine musikalische und darstellerische Pionierarbeit. Was der Subtyp-Rahmen zusätzlich sichtbar macht, ist, wie sehr diese Leistung aus beharrlicher technischer Arbeit entstand und nicht aus müheloser Begabung, wie es der öffentliche Mythos oft nahelegte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Callas die SE3w2 als eine Künstlerin, die reale Substanz über bloßen Glanz stellte – die eigene Stimme, den eigenen Körper, die eigene Interpretation Jahr für Jahr diszipliniert weiterentwickelte, statt sich auf natürliche Begabung zu verlassen.</p>
+          <p class="vb-intro">Der Schatten der Drei ist <strong>Eitelkeit</strong> – nicht Selbstverliebtheit, sondern das Verwechseln des eigenen Werts mit der geleisteten Vorstellung. Die mediale Zuspitzung zur unnahbaren ›Diva‹ – Rivalität mit Renata Tebaldi, öffentlich ausgetragene Konflikte – stand oft im scharfen Gegensatz zu einer Frau, die privat unter enormem Druck stand, die eigene technische Perfektion aufrechtzuerhalten. Der radikale Gewichtsverlust, der ihrer Karriere zunächst Auftrieb gab, schwächte nach Einschätzung vieler Stimmexperten später die körperliche Basis ihrer Stimme – Kontrolle über das äußere Bild, erkauft mit der Substanz, die sie eigentlich schützen wollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Beweisen zum echten Wert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Bin ich nur wertvoll, wenn ich glänzend bestehe?</em> zur Erkenntnis <em>Mein Wert liegt nicht in der Vorstellung, sondern in mir selbst.</em> Callas' Karriere liest sich als eindrucksvolle, aber auch tragische Annäherung an diese Frage: eine Künstlerin, die durch reine Arbeit eine ganze Operntradition zurückholte, deren Stimme aber genau an dem Punkt zu leiden begann, an dem äußere Kontrolle wichtiger wurde als innere Substanz.</p>
+          <p class="vb-intro">Dass sie bis zuletzt an der eigenen Perfektion festhielt, selbst als die Stimme sie nicht mehr vollständig trug, zeigt die ungelöste Seite dieses Musters. Ihr bleibendes Vermächtnis – eine ganze Generation von Sängerinnen und Sängern, die den Bel canto ihretwegen wiederentdeckten – ist zugleich der Beweis, dass die harte, disziplinierte Arbeit des Waschbären am Ende trägt, auch wenn der Weg dorthin sie selbst erschöpfte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-enrico-caruso", label:"Porträt: Enrico Caruso (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
