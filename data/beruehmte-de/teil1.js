@@ -2149,7 +2149,7 @@ export function gunterGabrielPortraitPage() {
         <h2 class="vb-section">1. Der Löwe</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier des sozialen Typs 8 – ein Tier, das nicht brüllen muss, um zu wirken, dessen bloße Anwesenheit aber jeden Raum verändert. Bei Gunter Gabriel war diese Präsenz von Anfang an körperlich spürbar: eine tiefe, raue Stimme, eine Statur, die niemand übersah, und eine Direktheit, die viele als unangenehm empfanden – und die trotzdem, oder gerade deshalb, Millionen Menschen erreichte.</p>
-          <p class="vb-intro">Geboren 1942 in Bünde als Günter Caspelherr, verlor er mit vier Jahren seine Mutter, wuchs bei einem gewalttätigen Vater auf, verließ die Schule früh, um zu arbeiten, und schlug sich mit harten körperlichen Jobs durch halb Europa. Kein geschützter Weg in die Musik, sondern einer, der sich der Löwe selbst freikämpfen musste.</p>
+          <p class="vb-intro">Geboren 1942 in Bünde als Günter Caspelherr, verlor er mit vier Jahren seine Mutter, wuchs bei einem gewalttätigen Vater auf, verließ die Schule früh, um zu arbeiten, und schlug sich mit harten körperlichen Jobs durch halb Europa. Kein geschützter Weg in die Musik, sondern einer, den sich der Löwe selbst freikämpfen musste.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Acht: Solidarität mit den Arbeitern</h2>
