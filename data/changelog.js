@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2348", date: "2026-09-19", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: David Hockney (SO5w4) – Wegbereiter der iPad-Kunst.", text_en: "New portrait under \"Famous Personalities\": David Hockney (SO5w4) – pioneer of iPad art.", route: "beruehmte-david-hockney" },
     { version: "v2347", date: "2026-09-18", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Maria Callas (SE3w2) – Wegbereiterin der Bel-canto-Renaissance.", text_en: "New portrait under \"Famous Personalities\": Maria Callas (SP3w2) – pioneer of the bel canto revival.", route: "beruehmte-maria-callas" },
     { version: "v2346", date: "2026-09-18", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Anton Zeilinger (SO5w6) – Physik-Nobelpreisträger 2022.", text_en: "New portrait under \"Famous Personalities\": Anton Zeilinger (SO5w6) – 2022 Nobel laureate in Physics.", route: "beruehmte-anton-zeilinger" },
     { version: "v2345", date: "2026-09-18", text: "Neue Analyse in ›Enneagramm meets Astrologie‹: Franz Kafka (SE5w4) – Krebs-Sonne, Stier-Häufung im 9. Haus.", text_en: "New analysis in \"Enneagram Meets Astrology\": Franz Kafka (SP5w4) – Cancer Sun, Taurus stellium in the 9th house.", route: "astrologie-franz-kafka" },
