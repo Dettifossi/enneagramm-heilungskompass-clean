@@ -2129,3 +2129,68 @@ export function anneWillPortraitPage() {
     </div>
   `);
 }
+
+export function davidHockneyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-david-hockney-portrait.jpg" alt="David Hockney – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Hockney</p>
+        <p class="krim-portrait-typ">SO5w4 · Sozialer Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Maler, Grafiker, Bühnenbildner, 1937–2026 – Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus, der mit acht Armen nach dem Sehen selbst griff</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier der sozialen Fünf – ein Wesen, das mit mehreren Armen gleichzeitig tastet und aus verschiedenen Blickwinkeln zugleich erfasst. Bei David Hockney zeigt sich dieses Bild fast wörtlich in seinem Lebenswerk: Über sechs Jahrzehnte hinweg stellte er sich immer wieder dieselbe Frage – „Wie stellt man die Welt aus drei und vier Dimensionen, mit Gefühl und Empfindung, auf einer zweidimensionalen Fläche dar?" – und beantwortete sie mit Ölmalerei, Fotografie, Bühnenbild und schließlich dem iPad, nie zufrieden mit nur einem Medium.</p>
+          <p class="vb-intro">Hockney wurde 1937 in Bradford geboren, studierte an der Bradford School of Art und am Royal College of Art in London und starb 2026 in London. Ein Leben, das sich nicht auf einen einzigen Stil oder ein einziges Werkzeug festlegen ließ, sondern immer wieder neue Zugänge zur selben Grundfrage suchte: Wie sieht der Mensch eigentlich wirklich?</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Das Totem: Eine Seh-Theorie, die er der ganzen Kunstwelt zumutete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 5 das <strong>Totem</strong> – die Verknüpfung von Wissen mit Zugehörigkeit und Wirkung. Die SO5 hält ihre Erkenntnisse nicht zurück, sondern trägt sie mutig in die Öffentlichkeit, auch wenn das Widerspruch provoziert. Genau das tat Hockney mit seiner umstrittenen These in „Secret Knowledge": Alte Meister hätten optische Hilfsmittel wie Camera obscura oder Linsen benutzt, um ihre verblüffende Präzision zu erreichen. Diese These stellte er nicht diskret zur Diskussion, sondern veröffentlichte sie als vielbeachtetes Buch, das die Kunstgeschichte herausforderte – Wissen, das kompromisslos in die Fachwelt getragen wurde, ungeachtet des Widerstands, den es auslöste.</p>
+          <p class="vb-intro">Auch seine späten iPad-Zeichnungen – ein visuelles Tagebuch dessen, was er morgens von seinem Bett aus sah, veröffentlicht als Buch „My Window" – zeigen dasselbe Muster: eine private Übung im Sehen wird bewusst mit einem Millionenpublikum geteilt, nicht aus Eitelkeit, sondern weil das Sehen selbst sein Lebensthema war und geteilt werden wollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die eigene, unverwechselbare Bildsprache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> bringt der sozialen Fünf ein starkes Bedürfnis, eine ganz eigene, unverwechselbare Ausdrucksform zu finden – Wissen soll nicht nur korrekt sein, sondern auch etwas Persönliches, Originelles ausdrücken. Bei Hockney zeigt sich das in seiner sofort erkennbaren Farbpalette und den kalifornischen Schwimmbecken-Bildern der 1960er-Jahre, die offen seine eigene Erfahrung als schwuler Mann im sonnigen Los Angeles einer Zeit spiegelten, in der das keineswegs selbstverständlich war.</p>
+          <p class="vb-intro">Anders als der reine, oft distanziertere Sechserflügel-Fünfer sucht der Viererflügel-Fünfer nicht in erster Linie ein verlässliches System, sondern eine Bildsprache, die zutiefst seine eigene ist. Hockneys immer wiederkehrende Frage nach der Darstellung von „Gefühl und Empfindung" auf der Leinwand – nicht nur nach korrekter Perspektive – ist genau diese Vierer-Note innerhalb der forschenden Fünfer-Struktur.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Sechs Jahrzehnte neu erfundenes Sehen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hockney gilt als einer der einflussreichsten britischen Künstler des 20. und 21. Jahrhunderts. Seine Experimente mit Farbe, Perspektive, Raum und Zeit veränderten die Nachkriegskunst nachhaltig: Bildkompositionen, die traditionelle Zentralperspektive bewusst unterliefen, Multi-Perspektiv-Fotomontagen aus hunderten Einzelfotos, und schließlich – mit 72 Jahren begonnen – digitale Zeichnungen auf iPhone und iPad, die er mit derselben Ernsthaftigkeit behandelte wie ein Ölgemälde. Große Retrospektiven der Tate Britain, des Centre Pompidou und des Metropolitan Museum of Art würdigten 2017 sein sechs Jahrzehnte umspannendes Werk.</p>
+          <p class="vb-intro">Diese Leistung liegt jenseits jeder Enneagramm-Deutung – reine bildnerische Pionierarbeit über eine ungewöhnlich lange Schaffenszeit hinweg. Was der Subtyp-Rahmen zusätzlich sichtbar macht, ist die Konsequenz, mit der ein und dieselbe Grundfrage – wie Menschen tatsächlich sehen – durch immer neue Medien hindurch verfolgt wurde, ohne sich je auf eine einzige Antwort festzulegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Hockney die SO5w4 als jemand, der eine tiefe, oft jahrzehntelange Beschäftigung mit einer einzigen Frage – wie wir sehen – in eine öffentlich wirksame, unverwechselbare Bildsprache übersetzt, ohne dabei je stehen zu bleiben oder sich zu wiederholen.</p>
+          <p class="vb-intro">Der Schatten der Fünf ist <strong>Geiz</strong> – hier weniger als Zurückhalten von Wissen, sondern als ständiges Ausweichen vor der endgültigen, abschließenden Antwort: Immer ein neues Medium, eine neue Technik, eine neue Perspektive, bevor die vorherige Frage ganz zu Ende gedacht wurde. Die Viererflügel-Note kann sich zudem als Sorge zeigen, in der immer gleichen Bildsprache erstarrt und dadurch beliebig zu werden – ein Antrieb, der Hockney bis ins hohe Alter zu neuen Medien trieb, statt sich auf dem Erreichten auszuruhen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Horten zum Teilen aus Fülle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von der Frage <em>Reicht mein Wissen, meine Energie, meine Zeit überhaupt?</em> zur Erkenntnis <em>Ich habe genug, um zu geben, ohne mich zu verlieren.</em> Hockneys Weg vom jungen Kunststudenten in Bradford zum digitalen Zeichner im hohen Alter liest sich als eine gelungene Annäherung an diese Erkenntnis: Mit 72 Jahren ein völlig neues Medium anzunehmen, statt sich auf dem etablierten Ruf auszuruhen, zeigt eine Fünf, die aus Neugier gibt, nicht aus Erschöpfung zurückzieht.</p>
+          <p class="vb-intro">Dass seine letzten großen Werke – die iPad-Zeichnungen aus dem eigenen Schlafzimmer – so unmittelbar und ungeschützt geteilt wurden, zeigt eine Fünf, die gelernt hat, auch das Alltäglichste, Persönlichste ohne Angst vor Erschöpfung mitzuteilen – der Oktopus, der bis zuletzt neue Arme ausstreckte, um die Welt neu zu sehen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-albert-einstein", label:"Porträt: Dr. Albert Einstein (SO5w4)"},
+        {route:"beruehmte-claudio-naranjo", label:"Porträt: Dr. Claudio Naranjo (SO5w4)"},
+      ])}
+    </div>
+  `);
+}

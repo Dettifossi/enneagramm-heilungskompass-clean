@@ -2121,3 +2121,68 @@ export function anneApplebaumPortraitPage() {
     </div>
   `);
 }
+
+export function davidHockneyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-david-hockney-portrait.jpg" alt="David Hockney – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Hockney</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Painter, printmaker, stage designer, 1937–2026 – Animal equivalent: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The octopus that reached for sight itself with eight arms</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five – a creature that reaches with several arms at once and grasps things from many angles simultaneously. In David Hockney's case, this image shows up almost literally in his life's work: across six decades he kept asking himself the same question – "How do you, as an artist, represent the world of three and four dimensions, feeling and emotion, on a two-dimensional surface?" – and answered it through oil painting, photography, stage design, and finally the iPad, never satisfied with just one medium.</p>
+          <p class="vb-intro">Hockney was born in 1937 in Bradford, studied at Bradford School of Art and the Royal College of Art in London, and died in 2026 in London. A life that never settled on a single style or tool, but kept searching for new approaches to the same underlying question: how do people actually see?</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Totem: a theory of seeing he handed to the entire art world</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the social Type 5 the <strong>Totem</strong> – the link between knowledge and belonging, knowledge and impact. The SO5 does not withhold its insights but carries them boldly into public view, even when that provokes controversy. That is exactly what Hockney did with his controversial thesis in "Secret Knowledge": that the Old Masters had used optical aids such as the camera obscura or lenses to achieve their startling precision. He did not raise this thesis discreetly – he published it as a widely discussed book that challenged art history itself, knowledge carried uncompromisingly into the field regardless of the resistance it provoked.</p>
+          <p class="vb-intro">His late iPad drawings – a visual diary of what he saw each morning from his bed, published as the book "My Window" – show the same pattern: a private exercise in seeing deliberately shared with a mass audience, not out of vanity, but because seeing itself was his life's subject and wanted to be shared.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The four wing: a visual language entirely his own</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>four wing (w4)</strong> gives the social Five a strong need to find a wholly personal, unmistakable form of expression – knowledge should not only be correct, but also express something individual, original. In Hockney this shows in his instantly recognizable palette and the California swimming-pool paintings of the 1960s, which openly reflected his own experience as a gay man in sunny Los Angeles at a time when that was by no means taken for granted.</p>
+          <p class="vb-intro">Unlike the more detached six-wing Five, the four-wing Five is not primarily looking for a reliable system but for a visual language that is deeply his own. Hockney's recurring question about representing "feeling and emotion" on canvas – not merely correct perspective – is exactly this Four-note within the Five's investigative structure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual achievement: six decades of reinvented seeing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hockney is considered one of the most influential British artists of the 20th and 21st centuries. His experiments with color, perspective, space, and time reshaped postwar art: compositions that deliberately undermined traditional central perspective, multi-viewpoint photo collages built from hundreds of individual photographs, and finally – begun at age 72 – digital drawings on iPhone and iPad, treated with the same seriousness as an oil painting. Major retrospectives at Tate Britain, the Centre Pompidou, and the Metropolitan Museum of Art honored his six-decade body of work in 2017.</p>
+          <p class="vb-intro">This achievement lies beyond any Enneagram interpretation – pure pioneering work in the visual arts over an unusually long career. What the subtype framework additionally reveals is the consistency with which one and the same underlying question – how people actually see – was pursued through ever-new media, without ever settling for a single answer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the social Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In its light, the SO5w4 shows up in Hockney as someone who translates a deep, often decades-long engagement with a single question – how we see – into a publicly effective, unmistakable visual language, without ever standing still or repeating himself.</p>
+          <p class="vb-intro">The shadow of the Five is <strong>avarice</strong> – here less a withholding of knowledge than a constant sidestepping of the final, conclusive answer: always a new medium, a new technique, a new perspective, before the previous question was fully thought through. The four-wing note can also show up as a worry about becoming frozen in the same visual language and thereby arbitrary – a drive that pushed Hockney toward new media well into old age, rather than resting on what he had achieved.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: from hoarding to sharing from abundance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Five's path to healing leads from the question <em>Is my knowledge, my energy, my time even enough?</em> to the realization <em>I have enough to give without losing myself.</em> Hockney's path from young art student in Bradford to digital draughtsman in old age reads as a successful approach to that realization: taking up an entirely new medium at 72, instead of resting on an established reputation, shows a Five who gives out of curiosity rather than withdrawing out of exhaustion.</p>
+          <p class="vb-intro">That his last major works – the iPad drawings from his own bedroom – were shared so immediately and unguardedly shows a Five who has learned to share even the most everyday, personal material without fear of depletion – the octopus that kept reaching out new arms to see the world afresh, right to the end.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: subtype profile"},
+        {route:"beruehmte-albert-einstein", label:"Portrait: Dr. Albert Einstein (SO5w4)"},
+        {route:"beruehmte-claudio-naranjo", label:"Portrait: Dr. Claudio Naranjo (SO5w4)"},
+      ])}
+    </div>
+  `);
+}
