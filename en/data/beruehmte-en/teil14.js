@@ -761,6 +761,7 @@ export function johnnyCashPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Three's healing path leads from the question <em>What have I built?</em> to the realization <em>I am – even without the image I maintain.</em> For the SP3w4, this means no longer using depth merely as material for songs, but allowing one's own vulnerability to show unadorned.</p>
           <p class="vb-intro">That is exactly what happened in his final years: starting in 1994, Cash recorded the "American Recordings" series with producer Rick Rubin – usually just his voice and an acoustic guitar, without the usual studio staging. His 2002 cover of Nine Inch Nails' "Hurt," recorded shortly before his death, shows a visibly marked, aged man no longer playing a role. The raccoon that spent a lifetime building systems ended with the gesture of showing himself entirely without facade – Johnny Cash died on September 12, 2003, four months after the death of his wife June.</p>
+          <p class="vb-intro">This reach extended beyond the US all the way to Germany: singer Gunter Gabriel (SO8w9) translated several of Cash's songs into German and maintained a close personal friendship with him for years – a bond between the structure-minded raccoon and the lion of the social Eight, built on mutual respect between two very different kinds of musicians.</p>
         </blockquote>
 
       </div>
@@ -774,6 +775,7 @@ export function johnnyCashPortraitPage() {
         {route:"beruehmte-osho", label:"Portrait: Osho (SP3w4)"},
         {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SP3w4)"},
         {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4)"},
+        {route:"beruehmte-gunter-gabriel", label:"Portrait: Gunter Gabriel (SO8w9)"},
       ])}
     </div>
   `);

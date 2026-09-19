@@ -759,6 +759,7 @@ export function johnnyCashPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich aufgebaut?</em> zur Erkenntnis <em>Ich bin – auch ohne das Bild, das ich pflege.</em> Für die SE3w4 bedeutet das, Tiefe nicht länger nur als Songmaterial zu nutzen, sondern die eigene Verletzlichkeit ungeschminkt zuzulassen.</p>
           <p class="vb-intro">Genau das geschah in seinen letzten Lebensjahren: Ab 1994 nahm Cash gemeinsam mit Produzent Rick Rubin die Reihe „American Recordings" auf – meist nur seine Stimme und eine akustische Gitarre, ohne die gewohnte Studio-Inszenierung. Seine 2002 veröffentlichte Coverversion von „Hurt" (Nine Inch Nails), aufgenommen kurz vor seinem Tod, zeigt einen sichtlich gezeichneten, gealterten Mann, der keine Rolle mehr spielt. Der Waschbär, der ein Leben lang Systeme baute, endete mit der Geste, sich selbst ganz ohne Fassade zu zeigen – vier Monate nach dem Tod seiner Frau June starb Johnny Cash am 12. September 2003.</p>
+          <p class="vb-intro">Über die USA hinaus reichte diese Wirkung bis nach Deutschland: Der Sänger Gunter Gabriel (SO8w9) übersetzte mehrere von Cashs Liedern ins Deutsche und pflegte über Jahre eine enge persönliche Freundschaft mit ihm – eine Verbindung zwischen dem strukturbewussten Waschbären und dem Löwen der sozialen Acht, die auf gegenseitigem Respekt zwischen zwei sehr unterschiedlichen Musikertypen beruhte.</p>
         </blockquote>
 
       </div>
@@ -772,6 +773,7 @@ export function johnnyCashPortraitPage() {
         {route:"beruehmte-osho", label:"Porträt: Osho (SE3w4)"},
         {route:"beruehmte-david-l-rathmer", label:"Porträt: David L. Rathmer (SE3w4)"},
         {route:"beruehmte-norah-jones", label:"Porträt: Norah Jones (SE3w4)"},
+        {route:"beruehmte-gunter-gabriel", label:"Porträt: Gunter Gabriel (SO8w9)"},
       ])}
     </div>
   `);

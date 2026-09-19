@@ -2179,7 +2179,7 @@ export function gunterGabrielPortraitPage() {
         <h2 class="vb-section">6. Der Heilungsweg: Von der Härte zur echten Stärke</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Acht führt von der Frage <em>Muss ich hart sein, um nicht verletzt zu werden?</em> zur Erkenntnis <em>Wahre Stärke zeigt sich gerade darin, verletzlich sein zu können.</em> Gabriels Leben – von der frühen, traumatischen Kindheit über die harte Kompromisslosigkeit seiner Erfolgsjahre bis zu den persönlichen Rückschlägen der 1980er – liest sich wie ein langer, oft schmerzhafter Weg zu genau dieser Erkenntnis.</p>
-          <p class="vb-intro">Dass ausgerechnet seine Freundschaft mit Johnny Cash – einem Mann, der selbst tief durch eigene Kämpfe gegangen war – zu den konstantesten Verbindungen seines Lebens zählte, zeigt die reife Neunerflügel-Seite: ein Löwe, der außerhalb des Kampfes echte Nähe zulassen konnte, statt sich ihr durch Härte zu entziehen.</p>
+          <p class="vb-intro">Dass ausgerechnet seine Freundschaft mit Johnny Cash (SE3w4) – einem Mann, der selbst tief durch eigene Kämpfe gegangen war – zu den konstantesten Verbindungen seines Lebens zählte, zeigt die reife Neunerflügel-Seite: ein Löwe, der außerhalb des Kampfes echte Nähe zulassen konnte, statt sich ihr durch Härte zu entziehen.</p>
         </blockquote>
 
       </div>
@@ -2191,6 +2191,7 @@ export function gunterGabrielPortraitPage() {
         {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
         {route:"beruehmte-bud-spencer", label:"Porträt: Bud Spencer (SO8w9)"},
         {route:"beruehmte-karl-marx", label:"Porträt: Karl Marx (SO8w9)"},
+        {route:"beruehmte-johnny-cash", label:"Porträt: Johnny Cash (SE3w4)"},
       ])}
     </div>
   `);

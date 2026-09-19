@@ -2173,7 +2173,7 @@ export function gunterGabrielPortraitPage() {
         <h2 class="vb-section">6. The path to healing: from hardness to true strength</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Eight's path to healing leads from the question <em>Do I have to be hard so I won't get hurt?</em> to the realization <em>True strength shows precisely in being able to be vulnerable.</em> Gabriel's life – from his early, traumatic childhood through the uncompromising hardness of his successful years to the personal setbacks of the 1980s – reads like a long, often painful path to exactly this realization.</p>
-          <p class="vb-intro">That his friendship with Johnny Cash – a man who had himself gone through deep struggles of his own – counted among the most constant bonds of his life shows the mature nine-wing side: a lion who could allow real closeness outside the fight, instead of avoiding it through hardness.</p>
+          <p class="vb-intro">That his friendship with Johnny Cash (SE3w4) – a man who had himself gone through deep struggles of his own – counted among the most constant bonds of his life shows the mature nine-wing side: a lion who could allow real closeness outside the fight, instead of avoiding it through hardness.</p>
         </blockquote>
 
       </div>
@@ -2185,6 +2185,7 @@ export function gunterGabrielPortraitPage() {
         {route:"subtype/so8", label:"SO8 – The Lion: subtype profile"},
         {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
         {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9)"},
+        {route:"beruehmte-johnny-cash", label:"Portrait: Johnny Cash (SE3w4)"},
       ])}
     </div>
   `);
