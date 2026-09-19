@@ -1737,6 +1737,7 @@ export function helmutSchmidtPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"krankheitsportraets-helmut-schmidt", label:"Krankheitsporträt: Helmut Schmidt (SO1w9) – jahrzehntelanges Rauchen"},
         {route:"beruehmte-roald-amundsen", label:"Portr\xe4t: Roald Amundsen (SO1w9)"},
         {route:"beruehmte-markus-lanz", label:"Portr\xe4t: Markus Lanz (SO1w9)"},
         {route:"beruehmte-ursula-von-der-leyen", label:"Portr\xe4t: Ursula von der Leyen (SO1w9)"},

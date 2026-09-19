@@ -3769,6 +3769,7 @@ export function adamSmithKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-adam-smith", label:"Portrait: Adam Smith (SO1w9) – life's work"},
         {route:"krankheitsportraets-jordan-peterson", label:"Illness Portrait: Dr. Jordan Peterson (SO1w9) – same subtype"},
+        {route:"krankheitsportraets-helmut-schmidt", label:"Illness Portrait: Helmut Schmidt (SO1w9) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so1", label:"Subtype Profile SO1"},
       ])}
@@ -4317,6 +4318,196 @@ export function williamJamesKrankheitsportraetPage() {
         {route:"krankheitsportraets-sean-connery", label:"Illness Portrait: Sean Connery (SO3w4) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so3", label:"Subtype Profile SO3"},
+      ])}
+    </div>
+  `);
+}
+
+export function helmutSchmidtKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/helmut-schmidt-portrait.jpg" alt="Helmut Schmidt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Helmut Schmidt</p>
+        <p class="krim-portrait-typ">SO1w9 · Social Type 1 with Nine-wing · 1918–2015</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Goose</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Animal correspondence: Goose" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Helmut Schmidt</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-helmut-schmidt">portrait under Famous Personalities</a>
+        in this Compass – that page covers his chancellorship and crisis
+        management. This page deepens a chapter only briefly mentioned there:
+        decades of publicly displayed nicotine dependence, continued almost to
+        the end of his life despite peripheral artery disease ("smoker's leg"),
+        toe amputations, and a pacemaker.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Schmidt</strong> is classified as the <strong>Social One with
+        Nine-wing</strong>. The SO1 lives from the conviction of knowing best
+        what is right, and carries that conviction outward as a
+        moral-intellectual authority. The Nine-wing adds an unruffled, almost
+        phlegmatic steadiness that is unmoved by either criticism or medical
+        advice. This exact combination of stubbornness and outward calm also
+        shaped Schmidt's decades-long relationship with his own cigarette
+        consumption.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A cigarette habit that became a trademark:</strong>
+        Schmidt was already smoking regularly as a young man and never made a
+        secret of it – menthol cigarettes accompanied him throughout his entire
+        political career, visibly so even in television interviews and
+        parliamentary debates.</p>
+        <p class="vb-intro"><strong>b) A first serious warning shot in 1981:</strong>
+        In October 1981, in the middle of his chancellorship, his heart stopped
+        for around 30 seconds before starting again on its own – an episode
+        that shortly afterward led to a pacemaker being fitted.</p>
+        <p class="vb-intro"><strong>c) Smoking on regardless, pacemaker or not:</strong>
+        Rather than taking this episode as a reason to quit, Schmidt continued
+        his cigarette consumption almost unchanged after the procedure.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) Smoking as an expression of his own will:</strong>
+        A remark widely attributed to him – roughly, "You need willpower, and
+        cigarettes" – captures how much Schmidt understood his habit as part of
+        his own strength of will, not as a weakness.</p>
+        <p class="vb-intro"><strong>b) Public imperviousness to criticism:</strong>
+        He met medical warnings and public criticism of his smoking over
+        decades with the same cool, unmoved directness that also characterized
+        his political decisions.</p>
+        <p class="vb-intro"><strong>c) The habit continued into old age:</strong>
+        Even as a sought-after elder statesman and co-publisher of the weekly
+        "Die Zeit," Schmidt kept smoking in public, including in situations
+        where it had long since been legally prohibited.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Diagnosis of peripheral artery disease:</strong>
+        In his final years, Schmidt was diagnosed with what doctors call
+        "smoker's leg" – a vessel in his right leg narrowed by arterial
+        calcification, whose primary risk factor is smoking.</p>
+        <p class="vb-intro"><strong>b) Toe amputations as a consequence of the circulatory disorder:</strong>
+        The progressive vascular disease made several toe amputations
+        necessary over time.</p>
+        <p class="vb-intro"><strong>c) A vascular operation in the year of his death:</strong>
+        In early 2015, Schmidt underwent another vascular operation on his leg
+        – from whose effects, by consistent accounts, he never fully
+        recovered.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Death on November 10, 2015:</strong>
+        Helmut Schmidt died at age 96 in Hamburg of multiple organ failure,
+        after his condition deteriorated dramatically following the operation
+        and a subsequent infection.</p>
+        <p class="vb-intro"><strong>b) A smoking stop only in his final weeks:</strong>
+        Only in hospital, in roughly the last ten days of his life, did Schmidt
+        stop smoking after decades of consumption – not by his own free
+        choice, but because his condition no longer allowed it.</p>
+        <p class="vb-intro"><strong>c) A political legacy largely untouched by the health question:</strong>
+        His reputation as the composed crisis manager of the 1962 storm flood
+        and the 1977 "German Autumn" remained largely unaffected by his
+        well-known smoking – for many contemporaries, the cigarette was
+        inseparable from the image of the unshakeable statesman.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Control through holding on rather than letting go:</strong>
+        For the Social One, control primarily means holding to one's own,
+        self-determined correct course – in Schmidt's case, that was also
+        applied to a habit whose harm was demonstrably known to him.</p>
+        <p class="vb-intro"><strong>b) The Nine-wing as a source of outward composure:</strong>
+        The steadiness typical of the Nine-wing allowed Schmidt to meet
+        criticism of his smoking with the same phlegmatic calm he used to
+        parry political attacks – confrontation was neither sought nor
+        avoided when it became unavoidable.</p>
+        <p class="vb-intro"><strong>c) Public consistency as self-affirmation:</strong>
+        By never hiding his smoking but continuing it openly, Schmidt
+        confirmed to himself the One's characteristic conviction that his own
+        decision was the right one – regardless of what others said about
+        it.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A publicly known habit without public self-criticism:</strong>
+        Unlike many public figures with addictions, Schmidt never framed his
+        smoking as a problem he wanted to overcome, but as a deliberate,
+        sovereign decision – to the end.</p>
+        <p class="vb-intro"><strong>b) Commenting on politics and smoking as a shared constant:</strong>
+        Political commentary and cigarette consumption remained equally
+        constant over decades – both expressions of the same unshakeable basic
+        stance, dependent neither on success nor on criticism.</p>
+        <p class="vb-intro"><strong>c) A control pattern that turned against his own body:</strong>
+        The same consistency with which Schmidt managed political crises he
+        also applied to his own habit – except here that consistency did not
+        serve his own well-being but worked against it.</p>
+        <p class="vb-intro"><strong>d) Why the blood vessels, of all things?</strong>
+        For a Social One with Nine-wing, whose self-image is closely tied to
+        steadiness and being right, one reading suggests itself: the blood
+        vessels – the pathways that supply the body with oxygen and nutrients
+        – became, quite literally, the site of a conflict between conscious
+        will and actual physical limits in Schmidt's case. This reading is a
+        plausible interpretation, not a proven historical causal link, and
+        will be developed further in this Compass's Psychosomatics
+        Register.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean the Social One's pattern inevitably leads to
+        vascular disease – <strong>anyone can get any illness, regardless of
+        subtype.</strong> What Schmidt's case can show is a pattern that keeps
+        turning up in practice around uncompromising adherence to one's own,
+        self-judged correct course – one of many possible explanations, not a
+        verdict. The corresponding illness pattern is being developed further,
+        piece by piece, in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics
+        Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        Schmidt did not know his own Enneagram pattern – the Social One with
+        Nine-wing easily mistakes uncompromising consistency for strength of
+        character, even where it works against one's own body. This exact
+        pattern determined him, uncorrected, to the end: only when his body
+        itself left no more choice did the decades-long habit end – not
+        through his own insight, but through physical exhaustion. Anyone who
+        does not recognize their own tendency toward self-affirming
+        inflexibility as a pattern easily mistakes it for sheer strength of
+        will, even as their own body has long been sending unmistakable
+        signals.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Helmut Schmidt's</strong> decades-long cigarette consumption
+        offers a study of the Social One with Nine-wing in one of its most
+        stubborn forms: a publicly displayed, never-questioned habit, an
+        immunity to criticism drawn from the same source as his political
+        crisis management, and a body that finally set a limit only where his
+        own will never did. The goose that did not leave formation until its
+        own collapse.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9) – Chancellorship"},
+        {route:"krankheitsportraets-adam-smith", label:"Illness Portrait: Adam Smith (SO1w9) – same subtype"},
+        {route:"krankheitsportraets-jordan-peterson", label:"Illness Portrait: Dr. Jordan Peterson (SO1w9) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so1", label:"Subtype Profile SO1"},
       ])}
     </div>
   `);

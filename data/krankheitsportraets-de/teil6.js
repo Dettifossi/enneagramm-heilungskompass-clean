@@ -3946,6 +3946,7 @@ export function adamSmithKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-adam-smith", label:"Porträt: Adam Smith (SO1w9) – Lebenswerk"},
         {route:"krankheitsportraets-jordan-peterson", label:"Krankheitsporträt: Dr. Jordan Peterson (SO1w9) – gleicher Subtyp"},
+        {route:"krankheitsportraets-helmut-schmidt", label:"Krankheitsporträt: Helmut Schmidt (SO1w9) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so1", label:"Subtyp-Profil SO1"},
       ])}
@@ -4524,6 +4525,192 @@ export function williamJamesKrankheitsportraetPage() {
         {route:"krankheitsportraets-sean-connery", label:"Krankheitsporträt: Sean Connery (SO3w4) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so3", label:"Subtyp-Profil SO3"},
+      ])}
+    </div>
+  `);
+}
+
+export function helmutSchmidtKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/helmut-schmidt-portrait.jpg" alt="Helmut Schmidt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Helmut Schmidt</p>
+        <p class="krim-portrait-typ">SO1w9 · Sozialer Typ 1 mit Neunerflügel · 1918–2015</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gans</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Tierentsprechung: Gans" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Helmut Schmidt</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-helmut-schmidt">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seine Kanzlerschaft und sein
+        Krisenmanagement. Im Zentrum dieser Seite steht, was dort nur am Rande erwähnt
+        wird: eine jahrzehntelange, öffentlich zur Schau gestellte Nikotinabhängigkeit,
+        die trotz peripherer arterieller Verschlusskrankheit („Raucherbein"),
+        Zehenamputationen und Herzschrittmacher bis fast an sein Lebensende fortgesetzt wurde.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Schmidt</strong> ist dem <strong>sozialen Typ 1 mit Neunerflügel</strong>
+        zugeordnet. Die SO1 lebt aus der Überzeugung, selbst am besten zu wissen, was
+        richtig ist, und trägt diesen Anspruch nach außen als moralisch-intellektuelle
+        Instanz. Der Neunerflügel bringt eine unaufgeregte, fast phlegmatische
+        Unerschütterlichkeit hinzu, die sich weder von Kritik noch von ärztlichem Rat
+        beeindrucken lässt. Genau diese Kombination aus Rechthaberei und äußerer Ruhe
+        prägte auch Schmidts jahrzehntelangen Umgang mit dem eigenen Zigarettenkonsum.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Zigarettenkonsum, der zum Markenzeichen wurde:</strong>
+        Schmidt rauchte bereits als junger Mann regelmäßig und machte daraus nie ein
+        Geheimnis – Mentholzigaretten begleiteten ihn durch seine gesamte politische
+        Laufbahn, sichtbar auch in Fernsehinterviews und Bundestagsdebatten.</p>
+        <p class="vb-intro"><strong>b) Ein erster ernster Warnschuss 1981:</strong>
+        Im Oktober 1981, mitten in seiner Kanzlerschaft, setzte sein Herz für rund
+        30 Sekunden aus, bevor es von selbst wieder zu schlagen begann – ein Ereignis,
+        das ihm wenig später einen Herzschrittmacher einbrachte.</p>
+        <p class="vb-intro"><strong>c) Weiterrauchen trotz Schrittmacher:</strong>
+        Statt diesen Vorfall zum Anlass für einen Rauchstopp zu nehmen, führte Schmidt
+        seinen Zigarettenkonsum nach dem Eingriff nahezu unverändert fort.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Rauchen als Ausdruck des eigenen Willens:</strong>
+        Ein ihm zugeschriebener, sinngemäßer Ausspruch – „Willen braucht man und
+        Zigaretten" – bringt auf den Punkt, wie sehr Schmidt seinen Konsum als
+        Bestandteil der eigenen Willensstärke verstand, nicht als Schwäche.</p>
+        <p class="vb-intro"><strong>b) Öffentliche Uneinsichtigkeit gegenüber Kritik:</strong>
+        Ärztliche Warnungen und öffentliche Kritik an seinem Rauchen quittierte er
+        über Jahrzehnte mit derselben kühlen, unbeeindruckten Direktheit, die auch
+        seine politischen Entscheidungen kennzeichnete.</p>
+        <p class="vb-intro"><strong>c) Fortsetzung der Gewohnheit bis ins hohe Alter:</strong>
+        Auch als gefragter Elder Statesman und Mitherausgeber der „Zeit" rauchte
+        Schmidt öffentlich weiter, selbst in Situationen, in denen es gesetzlich
+        längst untersagt war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Diagnose einer peripheren arteriellen Verschlusskrankheit:</strong>
+        In seinen letzten Lebensjahren wurde bei Schmidt ein sogenanntes „Raucherbein"
+        festgestellt – ein durch Arterienverkalkung verengtes Gefäß im rechten Bein,
+        dessen Hauptrisikofaktor Rauchen ist.</p>
+        <p class="vb-intro"><strong>b) Zehenamputationen als Folge der Durchblutungsstörung:</strong>
+        Die fortschreitende Verschlusskrankheit machte im Lauf der Zeit mehrere
+        Zehenamputationen erforderlich.</p>
+        <p class="vb-intro"><strong>c) Eine Gefäßoperation im Jahr seines Todes:</strong>
+        Anfang 2015 unterzog sich Schmidt einer weiteren Gefäßoperation am Bein –
+        von deren Folgen er sich nach übereinstimmenden Berichten nie mehr vollständig
+        erholte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 10. November 2015:</strong>
+        Helmut Schmidt starb im Alter von 96 Jahren in Hamburg an multiplem
+        Organversagen, nachdem sich sein Zustand nach der Operation und einer
+        anschließenden Infektion dramatisch verschlechtert hatte.</p>
+        <p class="vb-intro"><strong>b) Ein Rauchstopp erst in den letzten Lebenswochen:</strong>
+        Erst im Krankenhaus, in den letzten rund zehn Tagen seines Lebens, rauchte
+        Schmidt nach jahrzehntelangem Konsum nicht mehr – nicht aus freier
+        Entscheidung, sondern weil sein Zustand es nicht mehr zuließ.</p>
+        <p class="vb-intro"><strong>c) Ein politisches Vermächtnis, das von der Gesundheitsfrage unberührt blieb:</strong>
+        Sein Ansehen als besonnener Krisenmanager der Sturmflut 1962 und des
+        Deutschen Herbstes 1977 blieb von seinem öffentlich bekannten Rauchen
+        weitgehend unberührt – für viele Zeitgenossen gehörte die Zigarette
+        untrennbar zum Bild des unbeirrbaren Staatsmanns.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kontrolle durch Festhalten statt durch Aufgeben:</strong>
+        Für die soziale Eins bedeutet Kontrolle in erster Linie, an der eigenen,
+        als richtig erkannten Linie festzuhalten – bei Schmidt richtete sich das
+        auch auf eine Gewohnheit, deren Schädlichkeit ihm nachweislich bekannt war.</p>
+        <p class="vb-intro"><strong>b) Der Neunerflügel als Quelle der äußeren Gelassenheit:</strong>
+        Die für den Neunerflügel typische Unerschütterlichkeit erlaubte es Schmidt,
+        Kritik an seinem Rauchen mit derselben phlegmatischen Ruhe zu begegnen, mit
+        der er auch politische Angriffe parierte – Konfrontation wurde nicht gesucht,
+        aber auch nicht gescheut, wenn sie unausweichlich war.</p>
+        <p class="vb-intro"><strong>c) Öffentliche Konsequenz als Selbstbestätigung:</strong>
+        Indem er sein Rauchen nie versteckte, sondern offen weiterführte, bestätigte
+        Schmidt sich selbst in der einsertypischen Überzeugung, die eigene
+        Entscheidung sei die richtige – unabhängig davon, was andere dazu sagten.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine öffentlich bekannte Sucht ohne öffentliche Selbstkritik:</strong>
+        Anders als viele Prominente mit Suchterkrankungen sprach Schmidt sein
+        Rauchen nie als Problem an, das er überwinden wollte, sondern als
+        bewusste, souveräne Entscheidung – bis zuletzt.</p>
+        <p class="vb-intro"><strong>b) Weiterarbeiten und Weiterrauchen als Doppelkonstante:</strong>
+        Politisches Kommentieren und Zigarettenkonsum blieben über Jahrzehnte
+        gleichermaßen konstant – beides Ausdruck derselben unbeirrbaren
+        Grundhaltung, die weder von Erfolg noch von Kritik abhängig war.</p>
+        <p class="vb-intro"><strong>c) Ein Kontrollmuster, das sich gegen den eigenen Körper richtete:</strong>
+        Die gleiche Konsequenz, mit der Schmidt politische Krisen bewältigte, wandte
+        er auch auf die eigene Gewohnheit an – nur dass die Konsequenz hier nicht dem
+        eigenen Wohlergehen diente, sondern ihm zuwiderlief.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Gefäße?</strong>
+        Für eine soziale Eins mit Neunerflügel, deren Selbstbild eng an
+        Unerschütterlichkeit und Rechthaben geknüpft ist, liegt eine Deutung nahe:
+        Die Gefäße – die Bahnen, über die der Körper mit Sauerstoff und Nährstoffen
+        versorgt wird – gerieten bei Schmidt buchstäblich zum Austragungsort eines
+        Konflikts zwischen bewusstem Willen und tatsächlicher körperlicher Grenze.
+        Diese Deutung ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Eins zwangsläufig zu
+        Gefäßerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Was sich an Schmidts Fall zeigen lässt, ist ein
+        Muster, das beim kompromisslosen Festhalten an der eigenen, für richtig
+        befundenen Linie in der Praxis immer wieder auffällt – eine von vielen
+        möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird
+        in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Schmidt kannte sein eigenes Enneagramm-Muster nicht – die soziale Eins mit
+        Neunerflügel verwechselt kompromisslose Konsequenz leicht mit Charakterstärke,
+        auch dort, wo sie sich gegen den eigenen Körper richtet. Genau dieses Muster
+        bestimmte ihn bis zuletzt unkorrigiert: Erst als der Körper selbst keine Wahl
+        mehr ließ, endete der jahrzehntelange Konsum – nicht durch eigene Einsicht,
+        sondern durch physische Erschöpfung. Wer die eigene Neigung zur
+        selbstbestätigenden Kompromisslosigkeit nicht als Muster erkennt, verwechselt
+        sie leicht mit reiner Willensstärke, selbst wenn der eigene Körper längst
+        unübersehbare Zeichen setzt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Helmut Schmidts</strong> jahrzehntelangem Zigarettenkonsum lässt
+        sich die soziale Eins mit Neunerflügel in einer ihrer hartnäckigsten Formen
+        studieren: eine öffentlich zur Schau gestellte, nie infrage gestellte
+        Gewohnheit, eine Kritik-Immunität, die aus derselben Quelle wie sein
+        politisches Krisenmanagement schöpfte, und ein Körper, der erst dort eine
+        Grenze setzte, wo der eigene Wille es nie tat. Die Gans, die die Formation
+        bis zum eigenen Zusammenbruch nicht verließ.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9) – Kanzlerschaft"},
+        {route:"krankheitsportraets-adam-smith", label:"Krankheitsporträt: Adam Smith (SO1w9) – gleicher Subtyp"},
+        {route:"krankheitsportraets-jordan-peterson", label:"Krankheitsporträt: Dr. Jordan Peterson (SO1w9) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so1", label:"Subtyp-Profil SO1"},
       ])}
     </div>
   `);
