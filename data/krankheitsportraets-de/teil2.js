@@ -4432,3 +4432,189 @@ export function steveJobsKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function davidHockneyKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-david-hockney-portrait.jpg" alt="David Hockney" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Hockney</p>
+        <p class="krim-portrait-typ">SO5w4 · Sozialer Typ 5 mit Viererflügel · 1937–2026</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Oktopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Tierentsprechung: Oktopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>David Hockney</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-david-hockney">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: ein seit
+        den 1970er-Jahren fortschreitender Hörverlust und ein Schlaganfall 2012, den er zuerst
+        daran bemerkte, dass er Sätze nicht mehr zu Ende bringen konnte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Hockney</strong> ist dem <strong>sozialen Typ 5 mit Viererflügel</strong>
+        zugeordnet. Die SO5 sucht Sicherheit über Wissen und ein eigenständiges Verständnis der
+        Welt, das sie der Gemeinschaft zur Verfügung stellt. Der Viererflügel bringt eine
+        melancholische, individualistische Note hinzu – das Bedürfnis, die eigene Wahrnehmung
+        in eine unverwechselbare, persönliche Form zu bringen. Genau dieses Verhältnis von
+        Wahrnehmung und Ausdruck prägt auch Hockneys Umgang mit dem eigenen Hörverlust und dem
+        Schlaganfall.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein schleichender Verlust seit den 1970er-Jahren:</strong>
+        Hockneys Hörvermögen verschlechterte sich über Jahrzehnte hinweg allmählich, ohne ein
+        einzelnes dramatisches Ereignis – ein Verlust, der sich eher einschlich, als dass er
+        hereinbrach.</p>
+        <p class="vb-intro"><strong>b) Spätere Hörgeräte als sichtbares Zeichen:</strong>
+        Erst deutlich später griff Hockney zu Hörgeräten – ein äußerlich sichtbares Eingeständnis
+        einer Einschränkung, die er lange Zeit vor allem mit sich selbst ausmachte.</p>
+        <p class="vb-intro"><strong>c) Ein plötzliches zweites Ereignis 2012:</strong>
+        Jahrzehnte nach den ersten Anzeichen des Hörverlusts kam 2012 ein Schlaganfall hinzu –
+        bemerkt zunächst nicht über ein körperliches Symptom, sondern darüber, dass er
+        angefangene Sätze nicht mehr zu Ende bringen konnte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Zwei verschiedene Sinne, zwei verschiedene Zeiträume:</strong>
+        Der Hörverlust zog sich über Jahrzehnte, der Schlaganfall traf ihn dagegen abrupt – zwei
+        völlig unterschiedliche Verlaufsformen körperlicher Einschränkung in ein und demselben
+        Leben.</p>
+        <p class="vb-intro"><strong>b) Sprache betroffen, nicht die Hand:</strong>
+        Anders als bei manchen anderen Schlaganfallfällen blieb bei Hockney offenbar die
+        Fähigkeit zu zeichnen und zu malen erhalten – betroffen war der sprachliche Ausdruck,
+        nicht der bildnerische.</p>
+        <p class="vb-intro"><strong>c) Erholung statt dauerhafter Lähmung:</strong>
+        Hockney erholte sich vom Schlaganfall so weit, dass er sein künstlerisches Schaffen
+        fortsetzen konnte – anders als etwa bei Leonardo da Vinci, dessen Schlaganfall eine
+        dauerhafte Lähmung der rechten Hand hinterließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Das Sehen bleibt, das Hören schwindet:</strong>
+        Für einen Künstler, dessen gesamtes Lebenswerk der Frage galt, wie Menschen wirklich
+        sehen, blieb ausgerechnet der visuelle Sinn intakt, während der auditive sich
+        zurückzog – eine Verschiebung, die seine ohnehin stark visuelle, nach innen gerichtete
+        Konzentration eher verstärkt als gestört haben dürfte.</p>
+        <p class="vb-intro"><strong>b) Ein neues Medium kurz vor und nach der Krise:</strong>
+        Hockney begann bereits mit 72 Jahren, also kurz vor dem Schlaganfall, mit dem iPad als
+        Kunstmedium zu arbeiten, und führte diese Arbeit danach unvermindert fort – eine
+        Fortsetzung der eigenen Bildsprache über die gesundheitliche Zäsur hinweg, statt eines
+        Bruchs.</p>
+        <p class="vb-intro"><strong>c) Kein öffentliches Drama um die eigene Einschränkung:</strong>
+        Weder der Hörverlust noch der Schlaganfall wurden von Hockney zu einem zentralen
+        öffentlichen Thema seines Schaffens gemacht – er arbeitete weiter, ohne die eigene
+        Krankheitsgeschichte in den Vordergrund zu stellen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein langes Weiterarbeiten bis ins hohe Alter:</strong>
+        Hockney blieb bis in seine Achtzigerjahre künstlerisch aktiv, mit Ausstellungen und
+        neuen Werken, die weit über den Zeitpunkt seiner gesundheitlichen Einschränkungen
+        hinausreichten.</p>
+        <p class="vb-intro"><strong>b) Tod 2026 im Alter von 88 Jahren:</strong>
+        Hockney starb 2026 im Alter von 88 Jahren „friedlich zu Hause", wie sein Sprecher
+        mitteilte. Eine offizielle, konkrete Todesursache wurde nicht bestätigt.</p>
+        <p class="vb-intro"><strong>c) Spekulationen ohne belegte Grundlage:</strong>
+        In Medienberichten kursierten Vermutungen über einen möglichen Zusammenhang mit
+        langjährigem Tabakkonsum, seinem Alter oder früheren gesundheitlichen Problemen – all
+        das blieb jedoch unbestätigte Spekulation, keine offiziell festgestellte Todesursache.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Rückzug ins Visuelle statt ins Soziale:</strong>
+        Ein fortschreitender Hörverlust erschwert typischerweise gerade das beiläufige,
+        soziale Gespräch – für eine soziale Fünf, die ohnehin über Beobachtung und Wissen
+        Sicherheit sucht, kann das die eigene Konzentration auf das visuelle, innere Erleben
+        noch verstärken, statt sie zu unterbrechen.</p>
+        <p class="vb-intro"><strong>b) Der Schlaganfall trifft die Sprache, nicht das Bild:</strong>
+        Dass ausgerechnet die verbale Ausdrucksfähigkeit betroffen war, während die bildnerische
+        erhalten blieb, passt zu einer Persönlichkeit, deren eigentliche, unverwechselbare
+        Sprache ohnehin nie in erster Linie das gesprochene Wort war, sondern das Bild.</p>
+        <p class="vb-intro"><strong>c) Weiterarbeiten als Form der Selbstvergewisserung:</strong>
+        Die rasche Rückkehr zur künstlerischen Arbeit nach dem Schlaganfall lässt sich als
+        typische Fünfer-Reaktion lesen: Sicherheit nicht durch emotionale Verarbeitung des
+        Schreckens, sondern durch die Rückkehr in die vertraute, kompetente Tätigkeit.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Künstler des Sehens verliert das Hören:</strong>
+        Über Jahrzehnte war Hockneys gesamtes Werk der Frage gewidmet, wie Menschen wirklich
+        sehen. Dass ausgerechnet ein anderer Sinn – das Gehör – nachließ, während das Sehen bis
+        zuletzt sein zentrales Werkzeug blieb, ist eine auffällige, wenn auch nicht kausal
+        beweisbare Fügung.</p>
+        <p class="vb-intro"><strong>b) Zwei Einschränkungen, eine durchgehende Antwort:</strong>
+        Sowohl auf den schleichenden Hörverlust als auch auf den plötzlichen Schlaganfall
+        reagierte Hockney erkennbar auf dieselbe Weise: Rückkehr zur Arbeit, kein öffentliches
+        Drama, keine sichtbare Zäsur im Werk.</p>
+        <p class="vb-intro"><strong>c) Ein neues Medium als Fortsetzung, nicht als Bruch:</strong>
+        Dass die iPad-Zeichnungen zeitlich unmittelbar um den Schlaganfall herum entstanden,
+        liest sich weniger als Reaktion auf die Krankheit denn als deren konsequente
+        Fortsetzung – dieselbe Neugier auf neue Werkzeuge des Sehens, die sein ganzes Leben
+        bestimmt hatte.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet Gehör und Sprache?</strong>
+        Für eine soziale Fünf mit Viererflügel, deren Sicherheit über eine eigene, unverwechselbare
+        Wahrnehmung und deren Ausdruck über das Bild statt über das gesprochene Wort entsteht,
+        liegt eine Deutung nahe: Ausgerechnet jene Kanäle, die den unmittelbaren, sozialen
+        Austausch tragen – Hören und Sprechen –, schwächten sich ab, während der eigentliche,
+        introvertiert-visuelle Zugang zur Welt intakt blieb und sogar bis ins hohe Alter neue
+        Ausdrucksformen fand. Diese Deutung ist eine plausible Interpretation, kein belegter
+        historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Fünf zwangsläufig zu Hörverlust oder
+        Schlaganfall führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was sich an Hockneys Fall zeigen lässt, ist ein Muster, das bei dem
+        Bedürfnis, Sicherheit über die eigene visuelle Wahrnehmung statt über sozialen Austausch
+        zu gewinnen, in der Praxis immer wieder auffällt – eine von vielen möglichen
+        Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach
+        und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Hockney kannte sein eigenes Enneagramm-Muster nicht – die soziale Fünf mit Viererflügel
+        sucht Sicherheit lieber über die eigene, unverwechselbare Wahrnehmung als über direkten
+        sozialen Austausch, und genau dahin verschob sich sein Leben mit fortschreitendem
+        Hörverlust ganz von selbst, ohne dass er dagegen ansteuerte. Wer die eigene
+        Rückzugstendenz nicht als Muster erkennt, verwechselt sie leicht mit bloßem
+        Älterwerden, obwohl auch die eigene Fixierung mitentscheidet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Hockneys</strong> letzten Lebensjahrzehnten lässt sich die soziale Fünf mit
+        Viererflügel noch einmal klar ablesen: ein schleichender Verlust des Gehörs, der die
+        ohnehin starke visuelle Konzentration eher vertiefte als störte, ein Schlaganfall, der
+        ausgerechnet die Sprache traf und die Bildsprache verschonte, und ein unvermindertes
+        Weiterarbeiten bis ins neunte Lebensjahrzehnt. Der Oktopus, der einen Arm verlor und mit
+        den übrigen einfach weiterzeichnete.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-david-hockney", label:"Porträt: David Hockney (SO5w4) – Lebenswerk"},
+        {route:"krankheitsportraets-leonardo-da-vinci", label:"Krankheitsporträt: Leonardo da Vinci (SO5w4) – Schlaganfall, weiter gearbeitet"},
+        {route:"krankheitsportraets-albert-einstein", label:"Krankheitsporträt: Dr. Albert Einstein (SO5w4) – dasselbe Muster ungebremsten Schaffens"},
+        {route:"krankheitsportraets-hannah-arendt", label:"Krankheitsporträt: Hannah Arendt (SO5w4) – Warnung zur Kenntnis genommen, nicht befolgt"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so5", label:"Subtyp-Profil SO5"},
+      ])}
+    </div>
+  `);
+}

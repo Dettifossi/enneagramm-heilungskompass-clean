@@ -4228,3 +4228,177 @@ export function steveJobsKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function davidHockneyKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-david-hockney-portrait.jpg" alt="David Hockney" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">David Hockney</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with Four-wing &middot; 1937–2026</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Octopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Animal correspondence: Octopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>David Hockney</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-david-hockney">portrait under Famous Personalities</a>
+        in this compass – that page covers his life's work and general type structure. This
+        portrait focuses on a chapter barely mentioned there: a progressive hearing loss since
+        the 1970s and a 2012 stroke, which he first noticed because he could no longer finish
+        his sentences.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Hockney</strong> is assigned to the <strong>social Type 5 with Four-wing</strong>.
+        The SO5 seeks security through knowledge and an independent understanding of the world
+        that it makes available to the community. The Four-wing adds a melancholic,
+        individualistic note – the need to bring one's own perception into an unmistakable,
+        personal form. This same relationship between perception and expression also shapes
+        Hockney's handling of his hearing loss and the stroke.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First signs</h3>
+        <p class="vb-intro"><strong>a) A gradual loss since the 1970s:</strong>
+        Hockney's hearing deteriorated gradually over decades, without a single dramatic event
+        – a loss that crept in rather than struck.</p>
+        <p class="vb-intro"><strong>b) Hearing aids as a later, visible sign:</strong>
+        Only much later did Hockney turn to hearing aids – an outwardly visible admission of a
+        limitation he had long dealt with mostly on his own.</p>
+        <p class="vb-intro"><strong>c) A sudden second event in 2012:</strong>
+        Decades after the first signs of hearing loss, a stroke was added in 2012 – noticed
+        first not through a physical symptom, but through the fact that he could no longer
+        finish sentences he had started.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General characteristics</h3>
+        <p class="vb-intro"><strong>a) Two different senses, two different timeframes:</strong>
+        The hearing loss unfolded over decades, while the stroke struck abruptly – two entirely
+        different patterns of physical limitation within the same life.</p>
+        <p class="vb-intro"><strong>b) Speech affected, not the hand:</strong>
+        Unlike some other stroke cases, Hockney's ability to draw and paint apparently remained
+        intact – what was affected was verbal expression, not visual expression.</p>
+        <p class="vb-intro"><strong>c) Recovery rather than lasting paralysis:</strong>
+        Hockney recovered from the stroke well enough to continue his artistic work – unlike
+        Leonardo da Vinci, whose stroke left a lasting paralysis of his right hand.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential features</h3>
+        <p class="vb-intro"><strong>a) Sight remains, hearing recedes:</strong>
+        For an artist whose entire life's work was devoted to the question of how people
+        actually see, it was precisely the visual sense that stayed intact while the auditory
+        sense withdrew – a shift that likely deepened rather than disrupted his already strongly
+        visual, inward-facing focus.</p>
+        <p class="vb-intro"><strong>b) A new medium shortly before and after the crisis:</strong>
+        Hockney began working with the iPad as an art medium at age 72, shortly before the
+        stroke, and continued this work afterward without interruption – a continuation of his
+        own visual language across the health crisis, rather than a break.</p>
+        <p class="vb-intro"><strong>c) No public drama around his own limitation:</strong>
+        Neither the hearing loss nor the stroke became a central public theme of Hockney's work
+        – he kept working without putting his own medical history in the foreground.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall effect</h3>
+        <p class="vb-intro"><strong>a) A long working life into old age:</strong>
+        Hockney remained artistically active into his eighties, with exhibitions and new works
+        that reached far beyond the point of his health limitations.</p>
+        <p class="vb-intro"><strong>b) Death in 2026 at age 88:</strong>
+        Hockney died in 2026 at the age of 88 "peacefully at home," according to his publicist.
+        No official, specific cause of death was confirmed.</p>
+        <p class="vb-intro"><strong>c) Speculation without a confirmed basis:</strong>
+        Media reports speculated about a possible connection to long-term tobacco use, his age,
+        or previous health problems – all of this remained unconfirmed speculation, not an
+        officially established cause of death.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic effect</h3>
+        <p class="vb-intro"><strong>a) Retreat into the visual rather than the social:</strong>
+        Progressive hearing loss typically makes casual, social conversation particularly
+        difficult – for a social Five, who already seeks security through observation and
+        knowledge, this can deepen the focus on visual, inner experience rather than interrupt
+        it.</p>
+        <p class="vb-intro"><strong>b) The stroke hits speech, not the image:</strong>
+        That it was specifically verbal expression that was affected, while visual expression
+        remained intact, fits a personality whose true, unmistakable language was never
+        primarily the spoken word, but the image.</p>
+        <p class="vb-intro"><strong>c) Returning to work as self-reassurance:</strong>
+        The swift return to artistic work after the stroke can be read as a typical Five
+        response: security not through emotionally processing the shock, but through returning
+        to the familiar, competent activity.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The illness as a common thread</h3>
+        <p class="vb-intro"><strong>a) An artist of seeing loses his hearing:</strong>
+        For decades, Hockney's entire body of work was devoted to the question of how people
+        actually see. That it was a different sense – hearing – that faded, while seeing
+        remained his central tool to the end, is a striking, if not causally provable,
+        coincidence.</p>
+        <p class="vb-intro"><strong>b) Two limitations, one consistent response:</strong>
+        Hockney responded to both the gradual hearing loss and the sudden stroke in the same
+        recognizable way: a return to work, no public drama, no visible break in the body of
+        work.</p>
+        <p class="vb-intro"><strong>c) A new medium as continuation, not rupture:</strong>
+        That the iPad drawings emerged right around the time of the stroke reads less as a
+        reaction to the illness than as its consistent continuation – the same curiosity about
+        new tools of seeing that had defined his entire life.</p>
+        <p class="vb-intro"><strong>d) Why hearing and speech specifically?</strong>
+        For a social Five with a four wing, whose security arises from an independent,
+        unmistakable perception and whose expression runs through the image rather than the
+        spoken word, one interpretation suggests itself: precisely the channels that carry
+        immediate, social exchange – hearing and speaking – weakened, while the actual,
+        introverted-visual access to the world remained intact and even found new forms of
+        expression into old age. This interpretation is a plausible reading, not a proven
+        historical causal link, and will be developed further in this compass's psychosomatics
+        register.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean that the social Five's pattern inevitably leads to hearing loss or
+        stroke – <strong>anyone can develop any illness, regardless of subtype.</strong> What
+        Hockney's case shows is a pattern that repeatedly stands out in practice around the need
+        to gain security through one's own visual perception rather than through social
+        exchange – one of many possible explanations, not a judgment. The corresponding illness
+        pattern is gradually being developed in this compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        Hockney did not know his own Enneagram pattern – the social Five with a four wing
+        prefers to find security through its own, unmistakable perception rather than through
+        direct social exchange, and that is exactly where his life shifted on its own as his
+        hearing loss progressed, without him steering against it. Anyone who does not recognize
+        their own withdrawal tendency as a pattern easily mistakes it for simply growing older,
+        even though their own fixation plays a role too.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Hockney's final decades once again clearly show the social Five with a four wing: a
+        gradual loss of hearing that deepened rather than disrupted his already strong visual
+        focus, a stroke that struck speech specifically and spared his visual language, and
+        unabated work continuing into his ninth decade of life. The octopus that lost one arm
+        and simply kept drawing with the rest.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-david-hockney", label:"Portrait: David Hockney (SO5w4) – life's work"},
+        {route:"krankheitsportraets-leonardo-da-vinci", label:"Illness Portrait: Leonardo da Vinci (SO5w4) – stroke, kept working"},
+        {route:"krankheitsportraets-albert-einstein", label:"Illness Portrait: Dr. Albert Einstein (SO5w4) – same pattern of unabated work"},
+        {route:"krankheitsportraets-hannah-arendt", label:"Illness Portrait: Hannah Arendt (SO5w4) – warning noted, not heeded"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so5", label:"Subtype profile SO5"},
+      ])}
+    </div>
+  `);
+}
