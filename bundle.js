@@ -43661,27 +43661,17 @@ function energiestatusTriadenenergienPage() {
         <p class="vb-intro">Die Begriffe im Schaubild lassen sich so lesen: <strong>„Umgewandelt“</strong> bezeichnet die eigentliche Heimatenergie des Typs, die er zwar ständig nutzt, dabei aber so stark umformt, dass sie ein anderes Zentrum unbewusst verleugnet. <strong>„Überschießend“</strong> meint ein Zentrum, das der Typ im Übermaß einsetzt – ebenfalls auf Kosten eines verleugneten Zentrums. <strong>„Fehleinsatz“</strong> beschreibt ein Zentrum, das zwar prinzipiell funktionsfähig ist, aber nicht in seiner eigentlichen Rolle verwendet wird (z. B. „fühlen“ durch die Kopfenergie statt durch die Herzenergie). Eine <strong>Flügel-Energie</strong> beschreibt ein Zentrum, das über die Verbindung zum benachbarten Flügeltyp ausreichend, aber eben nur „ausreichend“ gespeist wird. Und <strong>„Gestört“</strong> bzw. <strong>„Verleugnung“</strong> markieren das am wenigsten entwickelte, teils aktiv verdrängte Zentrum – den Bereich mit dem größten Entwicklungspotenzial, dessen Richtung meist auf einen der Verbindungspunkte im Enneagramm verweist.</p>
       </div>
 
-      <div style="overflow-x:auto;margin-top:1.5rem;border:1px solid var(--line,var(--border));border-radius:12px;">
-        <table style="border-collapse:collapse;width:100%;min-width:720px;font-size:.85rem;">
-          <thead>
-            <tr style="background:#1f5f8b;color:#fff;">
-              <th style="text-align:left;padding:.7rem .9rem;">Typ</th>
-              <th style="text-align:left;padding:.7rem .9rem;">Bauchenergie (Handlungsenergie)</th>
-              <th style="text-align:left;padding:.7rem .9rem;">Herzenergie (Gefühlsenergie)</th>
-              <th style="text-align:left;padding:.7rem .9rem;">Kopfenergie (Denkenergie)</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${rows.map(r => `
-              <tr>
-                <td style="padding:.65rem .9rem;border-bottom:1px solid var(--line,var(--border));font-weight:700;background:#1f5f8b;color:#fff;">${r.typ}</td>
-                <td style="padding:.65rem .9rem;border-bottom:1px solid var(--line,var(--border));${r.bauch[1]}">${r.bauch[0]}</td>
-                <td style="padding:.65rem .9rem;border-bottom:1px solid var(--line,var(--border));${r.herz[1]}">${r.herz[0]}</td>
-                <td style="padding:.65rem .9rem;border-bottom:1px solid var(--line,var(--border));${r.kopf[1]}">${r.kopf[0]}</td>
-              </tr>
-            `).join("")}
-          </tbody>
-        </table>
+      <div style="display:grid;gap:1.1rem;margin-top:1.5rem;">
+        ${rows.map(r => `
+          <div style="border:1px solid var(--line,var(--border));border-radius:12px;overflow:hidden;">
+            <div style="background:#1f5f8b;color:#fff;font-weight:700;padding:.55rem .9rem;">Typ ${r.typ}</div>
+            <div style="display:grid;gap:1px;background:var(--line,var(--border));">
+              <div style="padding:.6rem .9rem;${r.bauch[1]}"><span style="display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;opacity:.85;margin-bottom:.2rem;">Bauchenergie (Handlungsenergie)</span>${r.bauch[0]}</div>
+              <div style="padding:.6rem .9rem;${r.herz[1]}"><span style="display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;opacity:.85;margin-bottom:.2rem;">Herzenergie (Gefühlsenergie)</span>${r.herz[0]}</div>
+              <div style="padding:.6rem .9rem;${r.kopf[1]}"><span style="display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;opacity:.85;margin-bottom:.2rem;">Kopfenergie (Denkenergie)</span>${r.kopf[0]}</div>
+            </div>
+          </div>
+        `).join("")}
       </div>
       <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">Zu unterscheiden von den <a href="#triadendefizite" data-route="triadendefizite" style="color:var(--copper);">Triadendefiziten</a>: Dort geht es um das Grunddefizit (Schutz, Liebe, Vertrauen), das die drei Triaden übergreifend antreibt. Hier geht es um den konkreten Energiestatus je Zentrum und Typ – also darum, welches Zentrum bei welchem Typ bereits gut, ausreichend oder noch kaum entwickelt ist.</p>
 

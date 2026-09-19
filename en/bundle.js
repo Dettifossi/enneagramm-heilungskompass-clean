@@ -18556,27 +18556,17 @@ function energiestatusTriadenenergienPage() {
         <p class="vb-intro">The terms in the diagram can be read as follows: <strong>"Converted"</strong> names the type's actual home energy, which they use constantly yet reshape so strongly that it unconsciously denies another center. <strong>"Excessive"</strong> means a center the type deploys in surplus – again at the expense of a denied center. <strong>"Misapplied"</strong> describes a center that is basically functional but is not used in its proper role (e.g. "feeling" through head energy instead of heart energy). A <strong>wing energy</strong> describes a center that is fed adequately – but only adequately – through the connection to the neighboring wing type. And <strong>"disturbed"</strong> or <strong>"denial"</strong> mark the least developed, sometimes actively repressed center – the area with the greatest growth potential, whose direction usually points toward one of the connecting points in the Enneagram.</p>
       </div>
 
-      <div style="overflow-x:auto;margin-top:1.5rem;border:1px solid var(--line,var(--border));border-radius:12px;">
-        <table style="border-collapse:collapse;width:100%;min-width:720px;font-size:.85rem;">
-          <thead>
-            <tr style="background:#1f5f8b;color:#fff;">
-              <th style="text-align:left;padding:.7rem .9rem;">Type</th>
-              <th style="text-align:left;padding:.7rem .9rem;">Gut Energy (Action Energy)</th>
-              <th style="text-align:left;padding:.7rem .9rem;">Heart Energy (Feeling Energy)</th>
-              <th style="text-align:left;padding:.7rem .9rem;">Head Energy (Thinking Energy)</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${rows.map(r => `
-              <tr>
-                <td style="padding:.65rem .9rem;border-bottom:1px solid var(--line,var(--border));font-weight:700;background:#1f5f8b;color:#fff;">${r.typ}</td>
-                <td style="padding:.65rem .9rem;border-bottom:1px solid var(--line,var(--border));${r.bauch[1]}">${r.bauch[0]}</td>
-                <td style="padding:.65rem .9rem;border-bottom:1px solid var(--line,var(--border));${r.herz[1]}">${r.herz[0]}</td>
-                <td style="padding:.65rem .9rem;border-bottom:1px solid var(--line,var(--border));${r.kopf[1]}">${r.kopf[0]}</td>
-              </tr>
-            `).join("")}
-          </tbody>
-        </table>
+      <div style="display:grid;gap:1.1rem;margin-top:1.5rem;">
+        ${rows.map(r => `
+          <div style="border:1px solid var(--line,var(--border));border-radius:12px;overflow:hidden;">
+            <div style="background:#1f5f8b;color:#fff;font-weight:700;padding:.55rem .9rem;">Type ${r.typ}</div>
+            <div style="display:grid;gap:1px;background:var(--line,var(--border));">
+              <div style="padding:.6rem .9rem;${r.bauch[1]}"><span style="display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;opacity:.85;margin-bottom:.2rem;">Gut Energy (Action Energy)</span>${r.bauch[0]}</div>
+              <div style="padding:.6rem .9rem;${r.herz[1]}"><span style="display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;opacity:.85;margin-bottom:.2rem;">Heart Energy (Feeling Energy)</span>${r.herz[0]}</div>
+              <div style="padding:.6rem .9rem;${r.kopf[1]}"><span style="display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;opacity:.85;margin-bottom:.2rem;">Head Energy (Thinking Energy)</span>${r.kopf[0]}</div>
+            </div>
+          </div>
+        `).join("")}
       </div>
       <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">To distinguish from the <a href="#triadendefizite" data-route="triadendefizite" style="color:var(--copper);">Triad Deficits</a>: that page covers the underlying deficit (protection, love, trust) driving each triad as a whole. This page covers the concrete energy status per center and type – which center is already well developed, sufficient, or still barely developed for each type.</p>
 
