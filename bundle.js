@@ -15969,6 +15969,7 @@ const uiText = {
       { route: "drei-finger-regel", label: "Drei-Finger-Regel (Subtypenvarianten)" },
       { route: "drei-lebenskraefte", label: "Drei Lebenskr\u00e4fte" },
       { route: "drei-zentren", label: "Drei Zentren" },
+      { route: "energiestatus-triadenenergien", label: "Energiestatus der Triadenenergien" },
       { route: "zentren-weltwahrnehmung", label: "Drei Zentren: Weltwahrnehmung" },
       { route: "edelsteine", label: "Edelsteine" },
       { route: "ego-fixierungen", label: "Ego-Fixierungen nach Oscar Ichazo" },
@@ -33553,7 +33554,7 @@ const SCHAUBILDER_NEU = {
   "sprachstile-9-typen": "2026-09-17",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -43608,10 +43609,94 @@ function dreiZentrenPage() {
         </a>
       </p>
       ${relatedLinks([
+        {route:"energiestatus-triadenenergien", label:"Energiestatus der Triadenenergien"},
         {route:"zentren-weltwahrnehmung", label:"Zentren & Weltwahrnehmung"},
         {route:"koerperregulation", label:"K\u00f6rperregulation"},
         {route:"energetische-bewegungen", label:"Energetische Bewegungen"},
         {route:"enneagramm-akupunktur", label:"Enneagramm meets Akupunktur"},
+      ])}
+    </section>
+  `);
+}
+
+function energiestatusTriadenenergienPage() {
+  const ROT = "background:#c0392b;color:#fff;";
+  const GELB = "background:#e8b400;color:#3a2d00;";
+  const rows = [
+    { typ:1, bauch:["Umgewandelt, Verleugnung der Kopfenergie, „denken“ durch ihre Bauchenergie", GELB],
+              herz:["2er-Flügel-Energie zur Herztriade = ausreichend, aber verbesserungsfähig", GELB],
+              kopf:["Gestört, daher am meisten entwicklungsbedürftig (Richtung Punkt 7)", ROT] },
+    { typ:2, bauch:["1er-Flügel-Energie zur Bauchtriade = ausreichend, aber verbesserungsfähig", GELB],
+              herz:["Überschießend, Verleugnung der Kopfenergie, „denken“ durch ihre Herzenergie", GELB],
+              kopf:["Gestört, daher am meisten entwicklungsbedürftig", ROT] },
+    { typ:3, bauch:["Fehleinsatz der Bauchenergie, „handeln“ durch ihre Herzenergie = ausreichend, aber verbesserungsfähig", GELB],
+              herz:["Verleugnung der Herzenergie, „fühlen“ durch Bauch- und Kopfenergie = entwicklungsbedürftig (Richtung Punkt 6 + 9)", ROT],
+              kopf:["Fehleinsatz der Kopfenergie, „denken“ durch Herzenergie = ausreichend, aber verbesserungsfähig", GELB] },
+    { typ:4, bauch:["Gestört, daher am meisten entwicklungsbedürftig (Richtung Punkt 1)", ROT],
+              herz:["Umgewandelt, Verleugnung der Bauchenergie, „handeln“ durch ihre Herzenergie", GELB],
+              kopf:["5er-Flügel-Energie zur Kopftriade = ausreichend, aber verbesserungsfähig", GELB] },
+    { typ:5, bauch:["Gestört, daher am meisten entwicklungsbedürftig (Richtung Punkt 8)", ROT],
+              herz:["4er-Flügel-Energie zur Herztriade = ausreichend, aber verbesserungsfähig", GELB],
+              kopf:["Überschießend, Verleugnung der Bauchenergie, „handeln“ durch ihre Kopfenergie", GELB] },
+    { typ:6, bauch:["Fehleinsatz der Bauchenergie, „handeln“ durch ihre Kopfenergie = ausreichend, aber verbesserungsfähig", GELB],
+              herz:["Fehleinsatz der Herzenergie, „fühlen“ durch ihre Kopfenergie = ausreichend, aber verbesserungsfähig", GELB],
+              kopf:["Verleugnung der Kopfenergie, „denken“ durch Bauch- und Herzenergie = entwicklungsbedürftig (Richtung Punkt 9 + 3)", ROT] },
+    { typ:7, bauch:["8er-Flügel-Energie zur Bauchtriade = ausreichend, aber verbesserungsfähig", GELB],
+              herz:["Gestört, daher am meisten entwicklungsbedürftig", ROT],
+              kopf:["Umgewandelt, Verleugnung der Herzenergie, „fühlen“ durch ihre Kopfenergie", GELB] },
+    { typ:8, bauch:["Überschießend, Verleugnung der Herzenergie, „fühlen“ durch ihre Bauchenergie", GELB],
+              herz:["Gestört, daher am meisten entwicklungsbedürftig (Richtung Punkt 2)", ROT],
+              kopf:["7er-Flügel-Energie zur Kopftriade = ausreichend, aber verbesserungsfähig", GELB] },
+    { typ:9, bauch:["Verleugnung der Bauchenergie, „handeln“ durch Herz- und Kopfenergie = entwicklungsbedürftig (Richtung Punkt 3 + 6)", ROT],
+              herz:["Fehleinsatz der Herzenergie, „fühlen“ durch ihre Bauchenergie = ausreichend, aber verbesserungsfähig", GELB],
+              kopf:["Fehleinsatz der Kopfenergie, „denken“ durch ihre Bauchenergie = ausreichend, aber verbesserungsfähig", GELB] },
+  ];
+  return shell(`
+    ${pageHeader("energiestatus-triadenenergien")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Drei Zentren</p>
+      <h1>Energiestatus der 9 Enneagrammtypen nach ihren Triadenenergien</h1>
+      <p class="lead-small">Jeder Enneagrammtyp verfügt über alle drei Zentren – Bauch-, Herz- und Kopfenergie –, nutzt sie aber keineswegs gleichmäßig. Ein Zentrum ist die eigene, oft unbewusst umgewandelte Heimatenergie, ein zweites wird geliehen – meist über die Flügelverbindung – und reicht aus, ist aber verbesserungsfähig, und ein drittes bleibt gestört oder wird nur behelfsmäßig eingesetzt. Genau in diesem dritten, am stärksten entwicklungsbedürftigen Bereich liegt der eigentliche Wachstumsauftrag jedes Typs – sichtbar an der jeweils angegebenen Entwicklungsrichtung zu einem der Verbindungspunkte im Enneagramm-Symbol.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="./assets/schaubilder/energiestatus-triadenenergien/energiestatus-triadenenergien.jpg"
+             alt="Energiestatus der 9 Enneagrammtypen entsprechend ihrer Triadenenergien und Entwicklungsmöglichkeiten"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Die Begriffe im Schaubild lassen sich so lesen: <strong>„Umgewandelt“</strong> bezeichnet die eigentliche Heimatenergie des Typs, die er zwar ständig nutzt, dabei aber so stark umformt, dass sie ein anderes Zentrum unbewusst verleugnet. <strong>„Überschießend“</strong> meint ein Zentrum, das der Typ im Übermaß einsetzt – ebenfalls auf Kosten eines verleugneten Zentrums. <strong>„Fehleinsatz“</strong> beschreibt ein Zentrum, das zwar prinzipiell funktionsfähig ist, aber nicht in seiner eigentlichen Rolle verwendet wird (z. B. „fühlen“ durch die Kopfenergie statt durch die Herzenergie). Eine <strong>Flügel-Energie</strong> beschreibt ein Zentrum, das über die Verbindung zum benachbarten Flügeltyp ausreichend, aber eben nur „ausreichend“ gespeist wird. Und <strong>„Gestört“</strong> bzw. <strong>„Verleugnung“</strong> markieren das am wenigsten entwickelte, teils aktiv verdrängte Zentrum – den Bereich mit dem größten Entwicklungspotenzial, dessen Richtung meist auf einen der Verbindungspunkte im Enneagramm verweist.</p>
+      </div>
+
+      <div style="overflow-x:auto;margin-top:1.5rem;border:1px solid var(--line,var(--border));border-radius:12px;">
+        <table style="border-collapse:collapse;width:100%;min-width:720px;font-size:.85rem;">
+          <thead>
+            <tr style="background:#1f5f8b;color:#fff;">
+              <th style="text-align:left;padding:.7rem .9rem;">Typ</th>
+              <th style="text-align:left;padding:.7rem .9rem;">Bauchenergie (Handlungsenergie)</th>
+              <th style="text-align:left;padding:.7rem .9rem;">Herzenergie (Gefühlsenergie)</th>
+              <th style="text-align:left;padding:.7rem .9rem;">Kopfenergie (Denkenergie)</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows.map(r => `
+              <tr>
+                <td style="padding:.65rem .9rem;border-bottom:1px solid var(--line,var(--border));font-weight:700;background:#1f5f8b;color:#fff;">${r.typ}</td>
+                <td style="padding:.65rem .9rem;border-bottom:1px solid var(--line,var(--border));${r.bauch[1]}">${r.bauch[0]}</td>
+                <td style="padding:.65rem .9rem;border-bottom:1px solid var(--line,var(--border));${r.herz[1]}">${r.herz[0]}</td>
+                <td style="padding:.65rem .9rem;border-bottom:1px solid var(--line,var(--border));${r.kopf[1]}">${r.kopf[0]}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+      <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">Zu unterscheiden von den <a href="#triadendefizite" data-route="triadendefizite" style="color:var(--copper);">Triadendefiziten</a>: Dort geht es um das Grunddefizit (Schutz, Liebe, Vertrauen), das die drei Triaden übergreifend antreibt. Hier geht es um den konkreten Energiestatus je Zentrum und Typ – also darum, welches Zentrum bei welchem Typ bereits gut, ausreichend oder noch kaum entwickelt ist.</p>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "Das Enneagramm mit Kopf, Herz und Bauch – die drei Zentren und ihre Bedeutung für deine Persönlichkeit.", "Wer du wirklich bist – Band 1")}
+      ${relatedLinks([
+        {route:"drei-zentren", label:"Die drei Intelligenzzentren"},
+        {route:"triadendefizite", label:"Triadendefizite"},
+        {route:"zentren-weltwahrnehmung", label:"Zentren & Weltwahrnehmung"},
+        {route:"energetische-bewegungen", label:"Energetische Bewegungen"},
       ])}
     </section>
   `);
@@ -73589,6 +73674,7 @@ function triadendefizitePage() {
           {route:"schutzdefizite", label:"Schutzdefizite"},
           {route:"grundformel", label:"Grundformel des Rathmer-Enneagramms"},
           {route:"drei-zentren", label:"Drei Zentren"},
+          {route:"energiestatus-triadenenergien", label:"Energiestatus der Triadenenergien"},
         ])}
       </div>
     </div>
@@ -77548,6 +77634,7 @@ const ROUTES = {
     "gifte-des-geistes": gifteDesGeistesPage,
     "drei-finger-regel": dreiFingerRegelPage,
     "drei-zentren": dreiZentrenPage,
+    "energiestatus-triadenenergien": energiestatusTriadenenergienPage,
     "ego-persoenlichkeit": egoPersoenlichkeitPage,
     "zentren-weltwahrnehmung": zentrenWeltwahrnehmungPage,
     "energetische-bewegungen": energetischeBewegungPage,

@@ -3645,7 +3645,7 @@ const SCHAUBILDER_NEU = {
   "sprachstile-9-typen": "2026-09-17",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -3849,6 +3849,7 @@ text.nav = [
     { route: "drei-finger-regel", label: "Three-Finger Rule (Subtype Variants)" },
     { route: "drei-lebenskraefte", label: "Three Life Forces" },
     { route: "drei-zentren", label: "Three Centers" },
+    { route: "energiestatus-triadenenergien", label: "Energy Status of the Triad Energies" },
     { route: "zentren-weltwahrnehmung", label: "Three Centers: World Perception" },
     { route: "edelsteine", label: "Gemstones" },
     { route: "ego-fixierungen", label: "Ego Fixations (Oscar Ichazo)" },
@@ -18503,10 +18504,94 @@ function dreiZentrenPage() {
         Next: World Perception in the Three Centers &rarr;
       </p>
       ${relatedLinks([
+        {route:"energiestatus-triadenenergien", label:"Energy Status of the Triad Energies"},
         {route:"zentren-weltwahrnehmung", label:"Centers & Perception of the World"},
         {route:"koerperregulation", label:"Body Regulation"},
         {route:"energetische-bewegungen", label:"Energetic Movements"},
         {route:"enneagramm-akupunktur", label:"Enneagram Meets Acupuncture"},
+      ])}
+    </section>
+  `);
+}
+
+function energiestatusTriadenenergienPage() {
+  const ROT = "background:#c0392b;color:#fff;";
+  const GELB = "background:#e8b400;color:#3a2d00;";
+  const rows = [
+    { typ:1, bauch:["Converted, denial of head energy, “thinking” through their gut energy", GELB],
+              herz:["Type-2-wing energy toward the heart triad = sufficient, but has room to grow", GELB],
+              kopf:["Disturbed, therefore the area most in need of development (toward point 7)", ROT] },
+    { typ:2, bauch:["Type-1-wing energy toward the gut triad = sufficient, but has room to grow", GELB],
+              herz:["Excessive, denial of head energy, “thinking” through their heart energy", GELB],
+              kopf:["Disturbed, therefore the area most in need of development", ROT] },
+    { typ:3, bauch:["Misapplied gut energy, “acting” through their heart energy = sufficient, but has room to grow", GELB],
+              herz:["Denial of heart energy, “feeling” through gut and head energy = in need of development (toward points 6 + 9)", ROT],
+              kopf:["Misapplied head energy, “thinking” through heart energy = sufficient, but has room to grow", GELB] },
+    { typ:4, bauch:["Disturbed, therefore the area most in need of development (toward point 1)", ROT],
+              herz:["Converted, denial of gut energy, “acting” through their heart energy", GELB],
+              kopf:["Type-5-wing energy toward the head triad = sufficient, but has room to grow", GELB] },
+    { typ:5, bauch:["Disturbed, therefore the area most in need of development (toward point 8)", ROT],
+              herz:["Type-4-wing energy toward the heart triad = sufficient, but has room to grow", GELB],
+              kopf:["Excessive, denial of gut energy, “acting” through their head energy", GELB] },
+    { typ:6, bauch:["Misapplied gut energy, “acting” through their head energy = sufficient, but has room to grow", GELB],
+              herz:["Misapplied heart energy, “feeling” through their head energy = sufficient, but has room to grow", GELB],
+              kopf:["Denial of head energy, “thinking” through gut and heart energy = in need of development (toward points 9 + 3)", ROT] },
+    { typ:7, bauch:["Type-8-wing energy toward the gut triad = sufficient, but has room to grow", GELB],
+              herz:["Disturbed, therefore the area most in need of development", ROT],
+              kopf:["Converted, denial of heart energy, “feeling” through their head energy", GELB] },
+    { typ:8, bauch:["Excessive, denial of heart energy, “feeling” through their gut energy", GELB],
+              herz:["Disturbed, therefore the area most in need of development (toward point 2)", ROT],
+              kopf:["Type-7-wing energy toward the head triad = sufficient, but has room to grow", GELB] },
+    { typ:9, bauch:["Denial of gut energy, “acting” through heart and head energy = in need of development (toward points 3 + 6)", ROT],
+              herz:["Misapplied heart energy, “feeling” through their gut energy = sufficient, but has room to grow", GELB],
+              kopf:["Misapplied head energy, “thinking” through their gut energy = sufficient, but has room to grow", GELB] },
+  ];
+  return shell(`
+    ${pageHeader("energiestatus-triadenenergien")}
+    <section class="narrow">
+      <p class="eyebrow">Charts &middot; Three Centers</p>
+      <h1>Energy Status of the 9 Enneagram Types by Their Triad Energies</h1>
+      <p class="lead-small">Every Enneagram type has access to all three centers – gut, heart, and head energy – but never uses them evenly. One center is the type's own, often unconsciously converted home energy; a second is borrowed – usually through the wing connection – and is sufficient, though it still has room to grow; and a third remains disturbed or is only used as a makeshift substitute. That third, most underdeveloped area is exactly where each type's real growth task lies – visible in the development direction given toward one of the connecting points in the Enneagram symbol.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="../assets/schaubilder/energiestatus-triadenenergien/energiestatus-triadenenergien.jpg"
+             alt="Energy status of the 9 Enneagram types according to their triad energies and development possibilities"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">The terms in the diagram can be read as follows: <strong>"Converted"</strong> names the type's actual home energy, which they use constantly yet reshape so strongly that it unconsciously denies another center. <strong>"Excessive"</strong> means a center the type deploys in surplus – again at the expense of a denied center. <strong>"Misapplied"</strong> describes a center that is basically functional but is not used in its proper role (e.g. "feeling" through head energy instead of heart energy). A <strong>wing energy</strong> describes a center that is fed adequately – but only adequately – through the connection to the neighboring wing type. And <strong>"disturbed"</strong> or <strong>"denial"</strong> mark the least developed, sometimes actively repressed center – the area with the greatest growth potential, whose direction usually points toward one of the connecting points in the Enneagram.</p>
+      </div>
+
+      <div style="overflow-x:auto;margin-top:1.5rem;border:1px solid var(--line,var(--border));border-radius:12px;">
+        <table style="border-collapse:collapse;width:100%;min-width:720px;font-size:.85rem;">
+          <thead>
+            <tr style="background:#1f5f8b;color:#fff;">
+              <th style="text-align:left;padding:.7rem .9rem;">Type</th>
+              <th style="text-align:left;padding:.7rem .9rem;">Gut Energy (Action Energy)</th>
+              <th style="text-align:left;padding:.7rem .9rem;">Heart Energy (Feeling Energy)</th>
+              <th style="text-align:left;padding:.7rem .9rem;">Head Energy (Thinking Energy)</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows.map(r => `
+              <tr>
+                <td style="padding:.65rem .9rem;border-bottom:1px solid var(--line,var(--border));font-weight:700;background:#1f5f8b;color:#fff;">${r.typ}</td>
+                <td style="padding:.65rem .9rem;border-bottom:1px solid var(--line,var(--border));${r.bauch[1]}">${r.bauch[0]}</td>
+                <td style="padding:.65rem .9rem;border-bottom:1px solid var(--line,var(--border));${r.herz[1]}">${r.herz[0]}</td>
+                <td style="padding:.65rem .9rem;border-bottom:1px solid var(--line,var(--border));${r.kopf[1]}">${r.kopf[0]}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+      <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">To distinguish from the <a href="#triadendefizite" data-route="triadendefizite" style="color:var(--copper);">Triad Deficits</a>: that page covers the underlying deficit (protection, love, trust) driving each triad as a whole. This page covers the concrete energy status per center and type – which center is already well developed, sufficient, or still barely developed for each type.</p>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "The Enneagram with head, heart, and gut – the three centers and their significance for your personality.", "Wer du wirklich bist – Band 1")}
+      ${relatedLinks([
+        {route:"drei-zentren", label:"The Three Intelligence Centers"},
+        {route:"triadendefizite", label:"Triad Deficits"},
+        {route:"zentren-weltwahrnehmung", label:"Centers & Perception of the World"},
+        {route:"energetische-bewegungen", label:"Energetic Movements"},
       ])}
     </section>
   `);
@@ -49302,6 +49387,7 @@ function triadendefizitePage() {
           {route:"schutzdefizite", label:"Protection Deficits"},
           {route:"grundformel", label:"Core Formula of the Rathmer Enneagram"},
           {route:"drei-zentren", label:"Three Centers"},
+          {route:"energiestatus-triadenenergien", label:"Energy Status of the Triad Energies"},
         ])}
       </div>
     </div>
@@ -53308,6 +53394,7 @@ function subtypeSchaubilderPage() {
     "gifte-des-geistes": gifteDesGeistesPage,
     "drei-finger-regel": dreiFingerRegelPage,
     "drei-zentren": dreiZentrenPage,
+    "energiestatus-triadenenergien": energiestatusTriadenenergienPage,
     "ego-persoenlichkeit": egoPersoenlichkeitPage,
     "zentren-weltwahrnehmung": zentrenWeltwahrnehmungPage,
     "energetische-bewegungen": energetischeBewegungPage,

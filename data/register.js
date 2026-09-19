@@ -139,6 +139,7 @@ export const registerEntries = [
   { term: "Höllenkreise nach Dantes Inferno", route: "hoellenkreise-dante", description: "Schaubild: Die 9 Kreise der Hölle aus Dantes Göttlicher Komödie, zugeordnet zu den 9 Enneagrammtypen" },
   { term: "Differenzierung",         route: "differenzierung",          description: "Lookalikes & Abgrenzung zwischen ähnlichen Typen" },
   { term: "Drei Zentren",            route: "drei-zentren",             description: "Schaubild: Kopf-, Herz- und Bauchzentrum" },
+  { term: "Energiestatus der Triadenenergien", route: "energiestatus-triadenenergien", description: "Schaubild: Bauch-, Herz- und Kopfenergie je Typ – ausreichend, gestört oder umgewandelt" },
   { term: "Drei-Finger-Regel",       route: "drei-finger-regel",        description: "Schaubild: Normaltyp, Verstärkungstyp, Kontratyp als Handgeste" },
 
   // E
@@ -2133,6 +2134,7 @@ export const registerEntriesEN = [
   { term: "Circles of Hell According to Dante's Inferno", route: "hoellenkreise-dante", description: "Chart: the 9 circles of Hell from Dante's Divine Comedy, matched to the 9 Enneagram types" },
   { term: "Differentiation", route: "differenzierung", description: "Lookalikes & distinction between similar types" },
   { term: "Three Centers", route: "drei-zentren", description: "Diagram: head, heart, and belly center" },
+  { term: "Energy Status of the Triad Energies", route: "energiestatus-triadenenergien", description: "Diagram: gut, heart, and head energy per type – sufficient, disturbed, or converted" },
   { term: "Three-Finger Rule", route: "drei-finger-regel", description: "Diagram: normal type, reinforcement type, countertype as a hand gesture" },
   { term: "Gemstones", route: "edelsteine", description: "Diagram: gemstone assignments for all types" },
   { term: "Ego Fixations according to Oscar Ichazo", route: "ego-fixierungen", description: "Diagram: The 9 fixigations as a map of alienation from the essence – origin of the Enneagram" },
