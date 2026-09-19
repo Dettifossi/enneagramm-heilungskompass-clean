@@ -18552,12 +18552,6 @@ function energiestatusTriadenenergienPage() {
       <p class="eyebrow">Charts &middot; Three Centers</p>
       <h1>Energy Status of the 9 Enneagram Types by Their Triad Energies</h1>
       <p class="lead-small">Every Enneagram type has access to all three centers – gut, heart, and head energy – but never uses them evenly. One center is the type's own, often unconsciously converted home energy; a second is borrowed – usually through the wing connection – and is sufficient, though it still has room to grow; and a third remains disturbed or is only used as a makeshift substitute. That third, most underdeveloped area is exactly where each type's real growth task lies – visible in the development direction given toward one of the connecting points in the Enneagram symbol.</p>
-      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="../assets/schaubilder/energiestatus-triadenenergien/energiestatus-triadenenergien.jpg"
-             alt="Energy status of the 9 Enneagram types according to their triad energies and development possibilities"
-             class="psycho-img" />
-      </div>
-
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
         <p class="vb-intro">The terms in the diagram can be read as follows: <strong>"Converted"</strong> names the type's actual home energy, which they use constantly yet reshape so strongly that it unconsciously denies another center. <strong>"Excessive"</strong> means a center the type deploys in surplus – again at the expense of a denied center. <strong>"Misapplied"</strong> describes a center that is basically functional but is not used in its proper role (e.g. "feeling" through head energy instead of heart energy). A <strong>wing energy</strong> describes a center that is fed adequately – but only adequately – through the connection to the neighboring wing type. And <strong>"disturbed"</strong> or <strong>"denial"</strong> mark the least developed, sometimes actively repressed center – the area with the greatest growth potential, whose direction usually points toward one of the connecting points in the Enneagram.</p>
       </div>
