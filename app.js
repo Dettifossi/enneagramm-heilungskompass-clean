@@ -43657,12 +43657,6 @@ function energiestatusTriadenenergienPage() {
       <p class="eyebrow">Schaubilder · Drei Zentren</p>
       <h1>Energiestatus der 9 Enneagrammtypen nach ihren Triadenenergien</h1>
       <p class="lead-small">Jeder Enneagrammtyp verfügt über alle drei Zentren – Bauch-, Herz- und Kopfenergie –, nutzt sie aber keineswegs gleichmäßig. Ein Zentrum ist die eigene, oft unbewusst umgewandelte Heimatenergie, ein zweites wird geliehen – meist über die Flügelverbindung – und reicht aus, ist aber verbesserungsfähig, und ein drittes bleibt gestört oder wird nur behelfsmäßig eingesetzt. Genau in diesem dritten, am stärksten entwicklungsbedürftigen Bereich liegt der eigentliche Wachstumsauftrag jedes Typs – sichtbar an der jeweils angegebenen Entwicklungsrichtung zu einem der Verbindungspunkte im Enneagramm-Symbol.</p>
-      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="./assets/schaubilder/energiestatus-triadenenergien/energiestatus-triadenenergien.jpg"
-             alt="Energiestatus der 9 Enneagrammtypen entsprechend ihrer Triadenenergien und Entwicklungsmöglichkeiten"
-             class="psycho-img" />
-      </div>
-
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
         <p class="vb-intro">Die Begriffe im Schaubild lassen sich so lesen: <strong>„Umgewandelt“</strong> bezeichnet die eigentliche Heimatenergie des Typs, die er zwar ständig nutzt, dabei aber so stark umformt, dass sie ein anderes Zentrum unbewusst verleugnet. <strong>„Überschießend“</strong> meint ein Zentrum, das der Typ im Übermaß einsetzt – ebenfalls auf Kosten eines verleugneten Zentrums. <strong>„Fehleinsatz“</strong> beschreibt ein Zentrum, das zwar prinzipiell funktionsfähig ist, aber nicht in seiner eigentlichen Rolle verwendet wird (z. B. „fühlen“ durch die Kopfenergie statt durch die Herzenergie). Eine <strong>Flügel-Energie</strong> beschreibt ein Zentrum, das über die Verbindung zum benachbarten Flügeltyp ausreichend, aber eben nur „ausreichend“ gespeist wird. Und <strong>„Gestört“</strong> bzw. <strong>„Verleugnung“</strong> markieren das am wenigsten entwickelte, teils aktiv verdrängte Zentrum – den Bereich mit dem größten Entwicklungspotenzial, dessen Richtung meist auf einen der Verbindungspunkte im Enneagramm verweist.</p>
       </div>
