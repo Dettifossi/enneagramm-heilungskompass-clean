@@ -2124,3 +2124,68 @@ export function enricoCarusoPortraitPage() {
     </div>
   `);
 }
+
+export function gunterGabrielPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gunter-gabriel-portrait.jpg" alt="Gunter Gabriel – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gunter Gabriel</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Social Type 8 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Singer, pioneer of German country music, 1942–2017 – Animal equivalent: Lion</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Lion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>lion</strong> is the animal of the social Type 8 – an animal that does not need to roar to have an effect, whose mere presence changes every room it enters. In Gunter Gabriel this presence was physically tangible from the start: a deep, gravelly voice, a build no one overlooked, and a directness many found abrasive – and which nonetheless, or precisely because of it, reached millions of people.</p>
+          <p class="vb-intro">Born in 1942 in Bünde as Günter Caspelherr, he lost his mother at age four, grew up with a violent father, left school early to work, and made his way through half of Europe with hard physical jobs. Not a sheltered path into music, but one the lion had to fight his own way through.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Eight: solidarity with the workers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The social Eight does not fight for itself alone, but puts its strength in service of a group it identifies with – for Bud Spencer that was his own family, for Karl Marx the exploited, for Gunter Gabriel the German truck drivers and workers. His first major hit in 1974, "Er ist ein Kerl (der 30-Tonner Diesel)" ("He's a Real Man, the 30-Ton Diesel"), gave an entire working-class group its own, unmistakable voice in German Schlager for the first time.</p>
+          <p class="vb-intro">Gabriel deliberately positioned himself as one of them, not as someone singing about them from a distance. This identification with the working population was no pose, but drawn from his own hard biography – a lion who knew his pride from lived experience, not from the distance of the stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The nine wing: the hard shell with the soft core</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>nine wing (w9)</strong> gives the social Eight a calm and a steadfastness that lies beneath the rough surface. Companions and journalists repeatedly described Gabriel in exactly this image: a star with a hard shell and a soft core. Anyone who judged him only by his direct, often abrasive manner easily missed what lay underneath.</p>
+          <p class="vb-intro">His deep friendship with Johnny Cash – whom he also emulated musically, translating his songs into German – shows this nine-wing side: a loyal, long-standing bond with a kindred spirit, beyond the loud stage persona. The lion who could grow calm outside the pride.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual achievement: pioneer of German country music</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gunter Gabriel is considered one of the most important pioneers of country music in the German-speaking world. With the trucker song "Er ist ein Kerl" and the Golden Europa award for it, he established an independent German-language country-Schlager style that had not existed before. Through his personal friendship with Johnny Cash, he brought American country music to a German audience that had barely known it, and covered his songs in German.</p>
+          <p class="vb-intro">This achievement lies beyond any Enneagram interpretation – independent musical pioneering work that established a new genre within German Schlager. What the subtype framework additionally reveals is how much this music grew out of genuine, lived identification with its subject, rather than a calculated market gap.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the social Eight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In its light, the SO8w9 shows up in Gabriel as someone who puts his strength and directness in service of a group that otherwise had barely any voice of its own in Schlager – authentic to the point of being uncompromising.</p>
+          <p class="vb-intro">The shadow of the Eight shows up in exactly this uncompromising quality: Gabriel repeatedly clashed with the music industry and in his private life because of his abrasive manner. Financial missteps in real estate deals and several failed marriages marked the 1980s – a lion who was as hard on himself as on others, and who at times foundered on exactly that.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: from hardness to true strength</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Eight's path to healing leads from the question <em>Do I have to be hard so I won't get hurt?</em> to the realization <em>True strength shows precisely in being able to be vulnerable.</em> Gabriel's life – from his early, traumatic childhood through the uncompromising hardness of his successful years to the personal setbacks of the 1980s – reads like a long, often painful path to exactly this realization.</p>
+          <p class="vb-intro">That his friendship with Johnny Cash – a man who had himself gone through deep struggles of his own – counted among the most constant bonds of his life shows the mature nine-wing side: a lion who could allow real closeness outside the fight, instead of avoiding it through hardness.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so8", label:"SO8 – The Lion: subtype profile"},
+        {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
+        {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9)"},
+      ])}
+    </div>
+  `);
+}

@@ -2130,3 +2130,68 @@ export function benBerndtPortraitPage() {
     </div>
   `);
 }
+
+export function gunterGabrielPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gunter-gabriel-portrait.jpg" alt="Gunter Gabriel – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gunter Gabriel</p>
+        <p class="krim-portrait-typ">SO8w9 · Sozialer Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Sänger, Wegbereiter des deutschen Country, 1942–2017 – Tierentsprechung: Löwe</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Löwe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier des sozialen Typs 8 – ein Tier, das nicht brüllen muss, um zu wirken, dessen bloße Anwesenheit aber jeden Raum verändert. Bei Gunter Gabriel war diese Präsenz von Anfang an körperlich spürbar: eine tiefe, raue Stimme, eine Statur, die niemand übersah, und eine Direktheit, die viele als unangenehm empfanden – und die trotzdem, oder gerade deshalb, Millionen Menschen erreichte.</p>
+          <p class="vb-intro">Geboren 1942 in Bünde als Günter Caspelherr, verlor er mit vier Jahren seine Mutter, wuchs bei einem gewalttätigen Vater auf, verließ die Schule früh, um zu arbeiten, und schlug sich mit harten körperlichen Jobs durch halb Europa. Kein geschützter Weg in die Musik, sondern einer, der sich der Löwe selbst freikämpfen musste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Solidarität mit den Arbeitern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die soziale Acht kämpft nicht für sich allein, sondern stellt ihre Kraft in den Dienst einer Gruppe, mit der sie sich identifiziert – bei Bud Spencer war das die eigene Familie, bei Karl Marx die Ausgebeuteten, bei Gunter Gabriel die deutschen Fernfahrer und Arbeiter. Sein erster großer Hit 1974, ›Er ist ein Kerl (der 30-Tonner Diesel)‹, gab einer ganzen Berufsgruppe zum ersten Mal eine eigene, unverwechselbare Stimme im deutschen Schlager.</p>
+          <p class="vb-intro">Gabriel positionierte sich bewusst als einer von ihnen, nicht als jemand, der über sie sang. Diese Identifikation mit der arbeitenden Bevölkerung war keine Pose, sondern gespeist aus der eigenen, harten Biografie – ein Löwe, der sein Rudel aus eigener Erfahrung kannte, nicht aus der Distanz der Bühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die harte Schale mit dem weichen Kern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> bringt der sozialen Acht eine Ruhe und eine Verbindlichkeit, die unter der rauen Oberfläche liegt. Wegbegleiter und Journalisten beschrieben Gabriel wiederholt genau in diesem Bild: ein Star mit harter Schale und weichem Kern. Wer ihn nur nach seiner direkten, oft schroffen Art beurteilte, übersah leicht, was darunter lag.</p>
+          <p class="vb-intro">Seine tiefe Freundschaft mit Johnny Cash – dem er auch musikalisch nacheiferte, dessen Lieder er ins Deutsche übertrug – zeigt diese Neunerflügel-Seite: eine loyale, langjährige Verbindung zu einem Gleichgesinnten, jenseits der lauten Bühnenpersona. Der Löwe, der außerhalb des Rudels ruhig werden kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Wegbereiter des deutschen Country</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gunter Gabriel gilt als einer der wichtigsten Wegbereiter der Countrymusik im deutschsprachigen Raum. Mit dem Trucker-Song ›Er ist ein Kerl‹ und der Goldenen Europa dafür etablierte er einen eigenständigen deutschsprachigen Country-Schlager-Stil, der zuvor so nicht existierte. Über seine persönliche Freundschaft mit Johnny Cash brachte er amerikanische Countrymusik einem deutschen Publikum nahe, das sie zuvor kaum kannte, und coverte dessen Lieder in deutscher Sprache.</p>
+          <p class="vb-intro">Diese Leistung liegt jenseits jeder Enneagramm-Deutung – eine eigenständige musikalische Pionierarbeit, die ein neues Genre im deutschen Schlager etablierte. Was der Subtyp-Rahmen zusätzlich sichtbar macht, ist, wie sehr diese Musik aus echter, gelebter Identifikation mit ihrem Thema entstand, nicht aus kalkulierter Marktlücke.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Acht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Gabriel die SO8w9 als jemand, der seine Kraft und Direktheit in den Dienst einer Gruppe stellt, die sonst kaum eine eigene Stimme im Schlager hatte – authentisch bis zur Kompromisslosigkeit.</p>
+          <p class="vb-intro">Der Schatten der Acht zeigt sich in genau dieser Kompromisslosigkeit: Gabriel eckte häufig an, seine schroffe Art brachte ihn wiederholt in Konflikt mit dem Musikbetrieb und in seinem Privatleben. Finanzielle Fehlentscheidungen bei Immobiliengeschäften und mehrere gescheiterte Ehen prägten die 1980er-Jahre – ein Löwe, der ebenso hart mit sich selbst umging wie mit anderen, und der genau daran zeitweise scheiterte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Härte zur echten Stärke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Acht führt von der Frage <em>Muss ich hart sein, um nicht verletzt zu werden?</em> zur Erkenntnis <em>Wahre Stärke zeigt sich gerade darin, verletzlich sein zu können.</em> Gabriels Leben – von der frühen, traumatischen Kindheit über die harte Kompromisslosigkeit seiner Erfolgsjahre bis zu den persönlichen Rückschlägen der 1980er – liest sich wie ein langer, oft schmerzhafter Weg zu genau dieser Erkenntnis.</p>
+          <p class="vb-intro">Dass ausgerechnet seine Freundschaft mit Johnny Cash – einem Mann, der selbst tief durch eigene Kämpfe gegangen war – zu den konstantesten Verbindungen seines Lebens zählte, zeigt die reife Neunerflügel-Seite: ein Löwe, der außerhalb des Kampfes echte Nähe zulassen konnte, statt sich ihr durch Härte zu entziehen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"beruehmte-bud-spencer", label:"Porträt: Bud Spencer (SO8w9)"},
+        {route:"beruehmte-karl-marx", label:"Porträt: Karl Marx (SO8w9)"},
+      ])}
+    </div>
+  `);
+}
