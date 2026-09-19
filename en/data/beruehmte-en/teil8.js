@@ -857,6 +857,7 @@ export function juneCarterCashPortraitPage() {
         {route:"beruehmte-honore-de-balzac", label:"Portrait: Honoré de Balzac (SP4w3)"},
         {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3)"},
         {route:"beruehmte-t-e-lawrence", label:"Portrait: T. E. Lawrence (SP4w3)"},
+        {route:"beruehmte-johnny-cash", label:"Portrait: Johnny Cash (SP3w4)"},
       ])}
     </div>
   `);
