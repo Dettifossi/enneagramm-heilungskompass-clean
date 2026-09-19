@@ -3645,7 +3645,7 @@ const SCHAUBILDER_NEU = {
   "sprachstile-9-typen": "2026-09-17",
 };
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -3993,6 +3993,7 @@ text.nav = [
     { route: "wahre-freiheit", label: "True Freedom" },
     { route: "wahrnehmungsstile", label: "Perception Styles" },
     { route: "walarten-der-9-typen", label: "Whale Species of the 9 Types" },
+    { route: "geschenkideen", label: "Gift Ideas for the 9 Types" },
     { route: "weihnachtsgeschenke", label: "Christmas Gifts of the 9 Types" },
     { route: "weinsorten", label: "Wine Varieties of the 9 Types" },
     { route: "wer-wir-sind", label: "Who We Are" },
@@ -17927,6 +17928,53 @@ function portraitsCompanionsPage() {
   `);
 }
 
+function geschenkideenPage() {
+  const rows = [
+    { typ:1, farbe:"#5f5f5f", geschenk:"A daily planner", begruendung:"The One lives for structure and improvement – a well-made tool that brings order into life isn't received as a lecture, but as a genuine gesture of appreciation for what matters most to them." },
+    { typ:2, farbe:"#7a2fa8", geschenk:"A wellness day", begruendung:"The Two gives to others without pause – self-care is almost never on their own list. A gift that puts them, explicitly, at the center hits exactly the sore spot they rarely bring up themselves." },
+    { typ:3, farbe:"#1fa688", geschenk:"Something valuable / high-quality", begruendung:"The Three often reads appreciation through visible signs. A genuinely high-quality, presentable gift confirms, in their own language, that their effort and achievement are seen and honored." },
+    { typ:4, farbe:"#3cbf1f", geschenk:"Something with sentimental value", begruendung:"The Four looks for depth and meaning, not the arbitrary. A gift carrying a personal story or emotional connection matters to them far more than its plain market value." },
+    { typ:5, farbe:"#124fcc", geschenk:"A genuinely interesting book", begruendung:"The Five draws security from knowledge and inner retreat. A book that truly opens new ideas isn't a pastime for them – it's a welcome expansion of their inner world." },
+    { typ:6, farbe:"#8a5222", geschenk:"A shared experience", begruendung:"Trust doesn't build for the Six through words, but through shared time and reliable closeness. A joint experience strengthens exactly the bond that gives them more security than any material gift." },
+    { typ:7, farbe:"#d4a800", geschenk:"A lively gift with real experiential value", begruendung:"The Seven fears nothing more than confinement and routine. A gift that opens up new possibilities, variety, or a genuine experience speaks directly to their appetite for life." },
+    { typ:8, farbe:"#a00802", geschenk:"A cash gift", begruendung:"The Eight values clarity and control over their own decisions more than someone else's taste being imposed on them. A cash gift respects exactly that: they decide for themselves, directly and without detours, what actually serves them." },
+    { typ:9, farbe:"#cc6e00", geschenk:"Something they mentioned earlier", begruendung:"The Nine rarely puts their own wishes front and center – often, in the rush of everyday life, they barely remember what they last wished for themselves. Whoever remembers a casually dropped wish and follows through on it gives them, above all, one thing: the feeling of truly having been heard." },
+  ];
+  return shell(`
+    ${pageHeader("geschenkideen")}
+    <section class="narrow">
+      <p class="eyebrow">Charts &middot; Gifts</p>
+      <h1>Gift Ideas for the 9 Enneagram Types</h1>
+      <p class="lead-small">A good gift is rarely a matter of price – it's a matter of attention. Whoever knows where a person draws their deepest sense of security and recognition can land squarely in someone's heart with the very same gesture that would only earn a polite smile from another type. This overview shows, for each of the 9 Enneagram types, a gift category that typically lands especially well – not as a rigid rule, but as a starting point that sharpens further with a bit of personal knowledge about the person you're giving to.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="../assets/schaubilder/geschenkideen/geschenkideen.jpg"
+             alt="Gift Ideas for the 9 Enneagram Types"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <div style="display:grid;gap:1rem;">
+          ${rows.map(r => `
+            <div style="padding:.9rem 1rem;border-radius:12px;background:var(--ivory,var(--paper));border:1px solid var(--line,var(--border));">
+              <div style="font-weight:700;color:${r.farbe};margin-bottom:.35rem;">Type ${r.typ} – ${r.geschenk}</div>
+              <div style="font-size:.9rem;line-height:1.7;color:var(--ink);">${r.begruendung}</div>
+            </div>
+          `).join("")}
+        </div>
+        <p class="vb-anmerkung" style="margin-top:1.2rem;font-style:italic;">Important for all nine categories: they describe a typical tendency, not a guarantee. The fastest route to a truly fitting gift stays the same as with any person – listening carefully to what someone actually needs, rather than relying on a type label alone.</p>
+      </div>
+
+      ${bookTip("die-sprache-unserer-beziehungen", "Each type has its own language of appreciation – discover how closeness truly lands with every type.", "The Language of Our Relationships")}
+      ${relatedLinks([
+        {route:"weihnachtsgeschenke", label:"The 9 Gifts of the Types to the World"},
+        {route:"naehe", label:"Closeness"},
+        {route:"verantwortung", label:"Responsibility"},
+        {route:"wer-wir-sind", label:"Who We Are"},
+      ])}
+    </section>
+  `);
+}
+
 function weihnachtsgeschenkePage() {
   return shell(`
     ${pageHeader("weihnachtsgeschenke")}
@@ -17979,6 +18027,7 @@ function weihnachtsgeschenkePage() {
       </div>
       ${bookTip("die-sprache-unserer-beziehungen", "Every type has a unique gift for relationships &ndash; discover the language of intimacy.", "Die Sprache unserer Beziehungen")}
       ${relatedLinks([
+        {route:"geschenkideen", label:"Gift Ideas for the 9 Types"},
         {route:"tierentsprechungen", label:"Animal Correspondences"},
         {route:"obstsorten", label:"Fruit Varieties"},
         {route:"gemuesesorten", label:"Vegetable Varieties of the Types"},
@@ -53303,6 +53352,7 @@ function subtypeSchaubilderPage() {
     "60-sekunden-scan": sechzigSekundenScanPage,
     "wahrnehmungsstile": wahrnehmungsstilePage,
     "das-event": dasEventPage,
+    "geschenkideen": geschenkideenPage,
     "weihnachtsgeschenke": weihnachtsgeschenkePage,
     "obstsorten": obstsortPage,
     "gemuesesorten": gemuesesortenPage,

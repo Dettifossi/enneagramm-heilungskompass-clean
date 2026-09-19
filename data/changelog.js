@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2351", date: "2026-09-19", text: "Neues Schaubild: Geschenkideen für die 9 Enneagrammtypen.", text_en: "New diagram: gift ideas for the 9 Enneagram types.", route: "geschenkideen" },
     { version: "v2350", date: "2026-09-19", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Gunter Gabriel (SO8w9) – Wegbereiter des deutschen Country.", text_en: "New portrait under \"Famous Personalities\": Gunter Gabriel (SO8w9) – pioneer of German country music.", route: "beruehmte-gunter-gabriel" },
     { version: "v2349", date: "2026-09-19", text: "Neues Krankheitsporträt: David Hockney (SO5w4) – fortschreitender Hörverlust und Schlaganfall 2012.", text_en: "New illness portrait: David Hockney (SO5w4) – progressive hearing loss and 2012 stroke.", route: "krankheitsportraets-david-hockney" },
     { version: "v2348", date: "2026-09-19", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: David Hockney (SO5w4) – Wegbereiter der iPad-Kunst.", text_en: "New portrait under \"Famous Personalities\": David Hockney (SO5w4) – pioneer of iPad art.", route: "beruehmte-david-hockney" },

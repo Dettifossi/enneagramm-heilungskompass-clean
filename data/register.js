@@ -169,6 +169,7 @@ export const registerEntries = [
 
   // G
   { term: "Gans",                    route: "tierlexikon/so1",              description: "Tierarchetyp des SO1 · Typ 1 · Bauchzentrum" },
+  { term: "Geschenkideen für die 9 Typen", route: "geschenkideen",        description: "Schaubild: passende Geschenkkategorie für jeden der 9 Enneagrammtypen" },
   { term: "Geiz",                    route: "subtype/se5",              description: "Leidenschaft Typ 5 → SE5, SO5, SX5" },
   { term: "Gepard",                  route: "tierlexikon/so3",              description: "Tierarchetyp des SO3 · Typ 3 · Herzzentrum" },
   { term: "Gifte des Geistes",       route: "gifte-des-geistes",        description: "Schaubild: die 9 Hauptleidenschaften im \xdcberblick" },
@@ -2155,6 +2156,7 @@ export const registerEntriesEN = [
   { term: "Hippopotamus", route: "tierlexikon/se2", description: "Animal archetype of SE2 · Typ 2 · Heart center" },
   { term: "Facial Expressions of the 9 Types", route: "gesichtsausdruecke", description: "Diagram: typical facial expressions & emotional states per Enneagram type" },
   { term: "Goose", route: "tierlexikon/so1", description: "Animal archetype of SO1 · Typ 1 · Belly center" },
+  { term: "Gift Ideas for the 9 Types", route: "geschenkideen", description: "Diagram: a fitting gift category for each of the 9 Enneagram types" },
   { term: "Avarice", route: "subtype/se5", description: "Passion Typ 5 → SE5, SO5, SX5" },
   { term: "Cheetah", route: "tierlexikon/so3", description: "Animal archetype of SO3 · Typ 3 · Heart center" },
   { term: "Poisons of the Mind", route: "gifte-des-geistes", description: "Diagram: overview of the 9 main passions" },
