@@ -2833,6 +2833,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kompass.verlagshausrathmer.com/krankheitsportraets-david-hockney/</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kompass.verlagshausrathmer.com/krankheitsportraets-hannah-arendt/</loc>
     <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -13898,6 +13904,12 @@
   </url>
   <url>
     <loc>https://kompass.verlagshausrathmer.com/en/krankheitsportraets-albert-einstein/</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kompass.verlagshausrathmer.com/en/krankheitsportraets-david-hockney/</loc>
     <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
