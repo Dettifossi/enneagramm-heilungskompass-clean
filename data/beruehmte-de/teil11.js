@@ -2138,3 +2138,69 @@ export function tobiasBeckPortraitPage() {
     </div>
   `);
 }
+
+export function corneliaFunkePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-cornelia-funke-portrait.jpg" alt="Cornelia Funke – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Cornelia Funke</p>
+        <p class="krim-portrait-typ">SO1w9 · Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Schriftstellerin, geb. 1958 – Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die erst diente, bevor sie erzählte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – diszipliniert, verlässlich, mit einem klaren Gespür dafür, was in der eigenen Formation und der größeren Gemeinschaft gebraucht wird. Cornelia Funke, 1958 in Dorsten geboren, begann ihren beruflichen Weg nicht als Schriftstellerin, sondern als ausgebildete Diplompädagogin: Nach dem Studium arbeitete sie als Sozialarbeiterin auf dem Bauspielplatz Tegelsbarg in Hamburg, mit Kindern, die es im Leben oft nicht leicht hatten.</p>
+          <p class="vb-intro">Erst nebenberuflich, während sie parallel Buchillustration studierte, begann sie fremde Kindergeschichten zu illustrieren – und entdeckte dabei, dass ihr die Geschichten anderer Autoren zu den eigenen Bildern nicht gefielen. Mit 28 Jahren wurde sie freischaffende Autorin und Illustratorin zugleich; 1988 erschien ihr erstes selbst illustriertes Kinderbuch, ›Die große Drachensuche‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Talente im Dienst einer Aufgabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> misst sich an einem hohen, oft moralisch aufgeladenen Maßstab und sucht Bedeutung nicht in persönlicher Bühnenpräsenz, sondern im korrekten, verantwortungsvollen Einsatz der eigenen Fähigkeiten für ein größeres Ganzes. Funke selbst beschrieb ihre Zeit auf dem Bauspielplatz als prägende Erkenntnis: Man müsse mit den Talenten, die man mitbekommen hat, auch tatsächlich etwas anfangen, um glücklich zu sein – eine fast pflichtethische Haltung gegenüber der eigenen Begabung, lange bevor diese Begabung zu Weltruhm führte.</p>
+          <p class="vb-intro">Dieselbe Grundhaltung zeigt sich bis heute in ihrem Engagement für Organisationen wie ›Bärenherz‹ (ein Kinderhospiz), ›Smile Train‹, die ›African Millennium Foundation‹ und ›exilio‹, einen Verein, der sich für Migranten, Geflüchtete und Folterüberlebende einsetzt. Die Eins nutzt Erfolg nicht als Selbstzweck, sondern als Hebel, um sich für das einzusetzen, was ihr richtig erscheint.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Sechs Jahre an einer Welt, ohne sich zu verzetteln</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> bringt der sozialen Eins eine stille Ausdauer, die sich nicht in lautem Ehrgeiz erschöpft, sondern in geduldigem, gleichmäßigem Weiterarbeiten über lange Zeiträume. Die Tintenwelt-Trilogie, an der Funke von 2001 bis 2007 arbeitete, ist dafür das deutlichste Beispiel: sechs Jahre an einer einzigen, detailreich ausgearbeiteten Fantasiewelt, ohne dass die öffentliche Erwartung nach dem Welterfolg von ›Herr der Diebe‹ sie zu einer überstürzten Fortsetzung drängte.</p>
+          <p class="vb-intro">Diese Neunerflügel-Gelassenheit zeigt sich auch darin, wie wenig Funke öffentlich um die eigene Person inszeniert – trotz über 60 veröffentlichter Bücher, Übersetzungen in mehr als 50 Sprachen und einem Platz unter den 100 einflussreichsten Persönlichkeiten des Jahres 2005 laut TIME Magazine blieb ihr öffentliches Auftreten vergleichsweise zurückhaltend, das Werk sprach lauter als die Autorin selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Weltliteratur aus deutscher Kinderbuchtradition</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Funke tatsächlich auszeichnet, ist die seltene Fähigkeit, komplexe, mehrbändige Fantasiewelten mit einer inneren stofflichen Konsequenz zu bauen, die auch nach Millionen verkauften Exemplaren stimmig bleibt: In der Tintenwelt-Trilogie funktioniert die zentrale Idee – Figuren, die beim Vorlesen aus Büchern in die reale Welt treten und umgekehrt Menschen in die Bücher hineingezogen werden – als durchdachtes Regelsystem, nicht als beliebiger Fantasy-Kniff. ›Herr der Diebe‹ stand 2002 zwanzig Wochen lang auf der Bestsellerliste der New York Times und verkaufte sich allein im englischsprachigen Raum eine Million Mal – für eine deutschsprachige Kinderbuchautorin ein damals seltener internationaler Durchbruch.</p>
+          <p class="vb-intro">Über 30 Millionen verkaufte Bücher weltweit entstehen nicht durch Marketing allein, sondern durch erzählerisches Handwerk: dichte, sinnlich konkrete Weltenbeschreibungen, glaubwürdige junge Hauptfiguren und ein Gespür dafür, Kindern und Jugendlichen anspruchsvolle Themen – Verlust, Identität, moralische Grauzonen – zuzutrauen, ohne sie zu überfordern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Funke die SO1w9 als jemand, der außergewöhnliches Talent konsequent in geduldige, jahrelange Detailarbeit übersetzt und den daraus entstehenden Erfolg wieder in gesellschaftliches Engagement zurückfließen lässt – Pflichtgefühl, das nicht erstarrt, sondern trägt.</p>
+          <p class="vb-intro">Der Schatten der Eins zeigt sich in der eigenen hohen Messlatte: Funke äußerte sich wiederholt selbstkritisch über frühe eigene Werke und überarbeitete auch bereits veröffentlichte Bücher für Neuauflagen – ein Perfektionismus, der bei der ungesunden Eins leicht in nie enden wollende Selbstkorrektur kippen kann, statt ein Werk irgendwann als fertig anzuerkennen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt von der Frage <em>Genügt das, was ich geschaffen habe, meinem eigenen Anspruch?</em> zur Erkenntnis <em>Es ist bereits gut, so wie es ist.</em> Funkes Weg vom Bauspielplatz zur Weltautorin liest sich als Weg, bei dem der pflichtbewusste Einsatz der eigenen Talente nie aufgehört hat – nur ihr Wirkungsradius wuchs von einzelnen Kindern auf einem Hamburger Spielplatz zu Millionen Lesern weltweit.</p>
+          <p class="vb-intro">Dass sie einen erheblichen Teil dieses Erfolgs wieder in Kinderhospize, Bildung für Geflüchtete und den Schutz von Folterüberlebenden investiert, zeigt die reife Neunerflügel-Seite: Erfolg wird nicht gehortet oder zur Schau gestellt, sondern ruhig und beständig weitergegeben – die Gans, die nie vergaß, warum sie einst auf dem Bauspielplatz anfing.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9)"},
+        {route:"beruehmte-roald-amundsen", label:"Porträt: Roald Amundsen (SO1w9)"},
+        {route:"krankheitsportraets-adam-smith", label:"Krankheitsporträt: Adam Smith (SO1w9)"},
+      ])}
+    </div>
+  `);
+}

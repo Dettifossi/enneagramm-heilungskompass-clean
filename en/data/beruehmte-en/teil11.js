@@ -2133,3 +2133,69 @@ export function tobiasBeckPortraitPage() {
     </div>
   `);
 }
+
+export function corneliaFunkePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-cornelia-funke-portrait.jpg" alt="Cornelia Funke – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Cornelia Funke</p>
+        <p class="krim-portrait-typ">SO1w9 · Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">German author, b. 1958 – Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose Who Served Before She Told Stories</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Goose</strong> is the animal of the social One – disciplined, reliable, with a clear sense of what its own formation and the wider community need. Cornelia Funke, born 1958 in Dorsten, did not begin her professional path as a writer, but as a trained social education worker: after her studies, she worked as a social worker at the Tegelsbarg adventure playground in Hamburg, with children who often had it hard in life.</p>
+          <p class="vb-intro">Only as a side project, while studying book illustration in parallel, did she begin illustrating other authors' children's stories – and discovered along the way that she didn't much like the stories that went with her own pictures. At 28, she became a freelance author and illustrator in one; her first self-illustrated children's book, "The Great Dragon Search," appeared in 1988.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Talents in Service of a Task</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> measures herself against a high, often morally charged standard, and looks for meaning not in personal spotlight, but in the correct, responsible use of her own abilities for something larger. Funke herself described her time at the adventure playground as a formative realization: whatever talents you were given, you actually have to do something with them in order to be happy – an almost duty-driven stance toward her own gift, long before that gift led to worldwide fame.</p>
+          <p class="vb-intro">The same underlying stance shows in her ongoing commitment to organizations like Bärenherz (a children's hospice), Smile Train, the African Millennium Foundation, and exilio, an association supporting migrants, refugees, and survivors of torture. The One does not treat success as an end in itself, but as leverage for standing up for what she believes is right.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: Six Years on One World, Without Losing Focus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the social One a quiet stamina that doesn't exhaust itself in loud ambition, but in patient, steady work sustained over long stretches of time. The Inkworld trilogy, on which Funke worked from 2001 to 2007, is the clearest example: six years on a single, richly detailed fantasy world, without letting the public expectations created by the worldwide success of "The Thief Lord" push her into a rushed sequel.</p>
+          <p class="vb-intro">This Nine-wing composure also shows in how little Funke stages herself publicly – despite more than 60 published books, translations into over 50 languages, and a place among TIME magazine's 100 most influential people of 2005, her public presence stayed comparatively restrained; the work spoke louder than the author herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Actual Achievement: World Literature from a German Children's Book Tradition</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What actually distinguishes Funke is the rare ability to build complex, multi-volume fantasy worlds with an internal material consistency that still holds up after millions of copies sold: in the Inkworld trilogy, the central premise – characters stepping out of books into the real world when read aloud, and people being pulled into the books in return – functions as a thought-through rule system, not an arbitrary fantasy device. "The Thief Lord" spent twenty weeks on the New York Times bestseller list in 2002 and sold a million copies in the English-speaking world alone – a rare international breakthrough at the time for a German-language children's author.</p>
+          <p class="vb-intro">Over 30 million books sold worldwide don't come from marketing alone, but from narrative craft: dense, sensorially concrete world-building, believable young protagonists, and an instinct for trusting children and young readers with demanding themes – loss, identity, moral gray areas – without overwhelming them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the light, Funke's SO1w9 shows someone who consistently translates extraordinary talent into patient, years-long detail work, and then channels the resulting success back into social commitment – a sense of duty that carries rather than freezes.</p>
+          <p class="vb-intro">The shadow of the One shows in her own high bar: Funke has repeatedly spoken self-critically about her own early works and has revised already-published books for new editions – a perfectionism that, in the unhealthy One, can easily tip into never-ending self-correction instead of ever recognizing a work as finished.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One's healing path leads from the question <em>Does what I have created meet my own standard?</em> to the realization <em>It is already good, just as it is.</em> Funke's path from the adventure playground to world-renowned author reads as a path where the dutiful use of her own talents never stopped – only her radius of impact grew, from individual children on a Hamburg playground to millions of readers worldwide.</p>
+          <p class="vb-intro">That she reinvests a substantial share of that success into children's hospices, education for refugees, and protection for survivors of torture shows the mature Nine-wing side: success is not hoarded or put on display, but passed on quietly and steadily – the goose who never forgot why she started on that playground in the first place.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: subtype profile"},
+        {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
+        {route:"beruehmte-roald-amundsen", label:"Portrait: Roald Amundsen (SO1w9)"},
+        {route:"krankheitsportraets-adam-smith", label:"Illness Portrait: Adam Smith (SO1w9)"},
+      ])}
+    </div>
+  `);
+}

@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2355", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Cornelia Funke (SO1w9) – Autorin der Tintenherz-Trilogie.", text_en: "New portrait under \"Famous Personalities\": Cornelia Funke (SO1w9) – author of the Inkheart trilogy.", route: "beruehmte-cornelia-funke" },
     { version: "v2354", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Gabi Garcia (SO8w7) – 9-fache Jiu-Jitsu-Weltmeisterin.", text_en: "New portrait under \"Famous Personalities\": Gabi Garcia (SO8w7) – 9-time Jiu-Jitsu world champion.", route: "beruehmte-gabi-garcia" },
     { version: "v2353", date: "2026-09-19", text: "Neues Krankheitsporträt: Helmut Schmidt (SO1w9) – jahrzehntelanges Rauchen trotz Herzschrittmacher und Raucherbein.", text_en: "New illness portrait: Helmut Schmidt (SO1w9) – decades of smoking despite a pacemaker and smoker's leg.", route: "krankheitsportraets-helmut-schmidt" },
     { version: "v2352", date: "2026-09-19", text: "Neues Schaubild: Energiestatus der 9 Enneagrammtypen nach ihren Triadenenergien.", text_en: "New diagram: energy status of the 9 Enneagram types by their triad energies.", route: "energiestatus-triadenenergien" },
