@@ -2152,3 +2152,69 @@ export function stefanHomburgPortraitPage() {
     </div>
   `);
 }
+
+export function oliverPocherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-oliver-pocher-portrait.jpg" alt="Oliver Pocher – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Oliver Pocher</p>
+        <p class="krim-portrait-typ">SO1w9 · Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">German comedian and entertainer, b. 1978 – Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose With the Punchline Instead of the Sermon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Goose</strong> is the animal of the social One – disciplined, watchful, with an unerring sense for when something is wrong, and ready to say so publicly. Oliver Pocher, born 1978 in Hanover, first trained as an insurance salesman before discovering his passion for comedy during an internship at the radio station "Energy." His breakthrough came in 1999 as a sidekick on Stefan Raab's "TV total" – from the start in the role of the one who says out loud what others only think.</p>
+          <p class="vb-intro">From 2003 to 2006 he hosted "Rent a Pocher" and simultaneously began his career as a stand-up comedian; in 2005 he won a Comet award in the "Live Comedy" category. The goose doesn't wait for someone else to name a problem – it speaks up the moment it spots one.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: The Self-Appointed Exposer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> carries her inner standard of right and wrong demonstratively outward and claims the role of corrective for an entire public. Over the years, Pocher developed a recurring role as a public critic of Michael Wendler and his circle – in his own format, he bluntly accused Wendler and his wife Laura Müller: "For 10,000 euros, you'll do any old crap!"</p>
+          <p class="vb-intro">In 2025, he landed one of Laura Müller's most personal appearances in years by interviewing her himself on his YouTube format "Hey Olli" – the longtime critic became the platform on which the person he'd criticized finally explained herself. The One is not primarily seeking a spotlight for herself, but a stage on which inconsistencies become visible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: The Punchline Instead of the Loud Accusation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the social One a noticeably unruffled, almost casual way of phrasing her criticism – not as a loud outburst of anger, but wrapped in punchlines, irony, and offhand remarks. This Nine-wing composure also showed in his private life: his 2022 separation from Amira Pocher was communicated publicly in a comparatively calm way, without an openly fought-out conflict.</p>
+          <p class="vb-intro">This combination of moral conviction (the One) and relaxed, humorous packaging (the Nine) explains why Pocher is perceived simultaneously as entertaining and as uncomfortably direct – the accusation lands, but is rarely delivered in a raised, finger-wagging tone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Actual Achievement: From Sidekick to His Own Format</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What actually distinguishes Pocher is the ability to keep repositioning himself over more than two decades without disappearing from public awareness: from sidekick under Stefan Raab, through his own hosting formats, stand-up comedy, and stage shows, to the independent YouTube interview format "Hey Olli," which gives him a direct, editorially independent platform for his conversations and commentary.</p>
+          <p class="vb-intro">That substance shows in how his format has itself become the sought-after address for interview partners like Laura Müller – a shift from pure punchline to serious conversation format, without abandoning his original, provocative baseline tone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the light, Pocher's SO1w9 shows someone who names public inconsistencies without becoming a humorless accuser – criticism stays entertaining rather than merely preachy.</p>
+          <p class="vb-intro">The shadow of the One shows in recurring public criticism of his methods: when he insulted Mariah Carey and accidentally spat water on her at the ZDF show "Gottschalk & Friends" in 2005, it became clear how quickly the line between a sharpened punchline and an actual overstep can blur with this pattern – and even the 2025 interview with Laura Müller drew accusations that he was using her "for his own purposes" rather than reporting neutrally.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One's healing path leads from the question <em>Do I have to publicly correct every inconsistency?</em> to the realization <em>Not every truth has to be spoken by me.</em> That Pocher, after years of public criticism, finally gave Laura Müller space for her own, uncommented perspective on his format, rather than continuing to make her only a target, points to a more mature side of the same pattern.</p>
+          <p class="vb-intro">The goose that no longer just loudly flags every disturbance, but occasionally also just listens – without entirely losing its watchful eye for inconsistencies.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: subtype profile"},
+        {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
+        {route:"beruehmte-cornelia-funke", label:"Portrait: Cornelia Funke (SO1w9)"},
+        {route:"beruehmte-markus-lanz", label:"Portrait: Markus Lanz (SO1w9)"},
+      ])}
+    </div>
+  `);
+}

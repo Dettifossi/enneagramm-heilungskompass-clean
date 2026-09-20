@@ -2153,3 +2153,69 @@ export function audreyTautouPortraitPage() {
     </div>
   `);
 }
+
+export function oliverPocherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-oliver-pocher-portrait.jpg" alt="Oliver Pocher – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Oliver Pocher</p>
+        <p class="krim-portrait-typ">SO1w9 · Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Comedian und Entertainer, geb. 1978 – Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans mit der Pointe statt der Moralpredigt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – diszipliniert, wachsam, mit einem untrüglichen Gespür dafür, wo etwas nicht stimmt, und bereit, das öffentlich anzusprechen. Oliver Pocher, 1978 in Hannover geboren, absolvierte zunächst eine Ausbildung zum Versicherungskaufmann, bevor er bei einem Praktikum beim Radiosender ›Energy‹ seine Leidenschaft für Comedy entdeckte. Den Durchbruch schaffte er 1999 als Sidekick in Stefan Raabs ›TV total‹ – von Anfang an in der Rolle desjenigen, der öffentlich ausspricht, was andere nur denken.</p>
+          <p class="vb-intro">Von 2003 bis 2006 moderierte er ›Rent a Pocher‹ und begann parallel seine Karriere als Stand-up-Comedian; 2005 gewann er einen Comet in der Kategorie ›Live-Comedy‹. Die Gans wartet nicht ab, bis jemand anderes eine Unstimmigkeit benennt – sie meldet sich, sobald sie eine sieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Der selbsternannte Aufdecker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> trägt ihren inneren Maßstab von Richtig und Falsch demonstrativ nach außen und beansprucht die Rolle des Korrektivs für eine ganze Öffentlichkeit. Pocher entwickelte über Jahre eine wiederkehrende Rolle als öffentlicher Kritiker von Michael Wendler und dessen Umfeld – in seinem eigenen Format warf er Wendler und dessen Frau Laura Müller unverblümt vor: ›Für 10.000 Euro macht ihr jeden Scheiß!‹</p>
+          <p class="vb-intro">2025 gelang ihm mit einem Interview genau dieser Laura Müller in seinem YouTube-Format ›Hey Olli‹ einer ihrer persönlichsten Auftritte seit Jahren – der langjährige Kritiker wurde zur Plattform, auf der die Kritisierte sich schließlich selbst erklärte. Die Eins sucht nicht in erster Linie Rampenlicht für sich selbst, sondern eine Bühne, auf der Unstimmigkeiten sichtbar gemacht werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die Pointe statt der lauten Anklage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der sozialen Eins eine auffällig unaufgeregte, fast beiläufige Art, ihre Kritik zu formulieren – nicht als lauter Wutausbruch, sondern verpackt in Pointen, Ironie und beiläufig hingeworfene Bemerkungen. Auch in seinem eigenen Privatleben zeigte sich diese Neunerflügel-Gelassenheit: Die Trennung von Amira Pocher 2022 wurde öffentlich vergleichsweise ruhig und ohne offen ausgetragenen Streit kommuniziert.</p>
+          <p class="vb-intro">Diese Kombination aus moralischem Anspruch (die Eins) und entspannter, humorvoller Verpackung (die Neun) erklärt, warum Pocher gleichzeitig als unterhaltsam und als unangenehm direkt wahrgenommen wird – der Vorwurf sitzt, wird aber selten in erhobenem Zeigefinger-Ton vorgetragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Vom Sidekick zum eigenständigen Format</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Pocher tatsächlich auszeichnet, ist die Fähigkeit, sich über mehr als zwei Jahrzehnte immer wieder neu zu positionieren, ohne aus dem öffentlichen Bewusstsein zu verschwinden: vom Sidekick bei Stefan Raab über eigene Moderationsformate, Stand-up-Comedy und Bühnenshows bis zum eigenständigen YouTube-Interviewformat ›Hey Olli‹, das ihm eine direkte, redaktionell unabhängige Plattform für seine Gespräche und Kommentare verschafft.</p>
+          <p class="vb-intro">Diese Substanz zeigt sich darin, dass sein Format inzwischen selbst zur gesuchten Adresse für Interviewpartner wie Laura Müller wurde – eine Verschiebung von der reinen Pointe zum ernsthaften Gesprächsformat, ohne dass er seinen ursprünglichen, provokanten Grundton dabei aufgab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Pocher die SO1w9 als jemand, der öffentliche Unstimmigkeiten anspricht, ohne dabei zum humorlosen Ankläger zu werden – Kritik bleibt unterhaltsam, statt nur belehrend zu wirken.</p>
+          <p class="vb-intro">Der Schatten der Eins zeigt sich in wiederkehrender öffentlicher Kritik an seiner Methode: Als er 2005 in der ZDF-Show ›Gottschalk & Friends‹ Mariah Carey beleidigte und versehentlich mit Wasser bespuckte, wurde deutlich, wie schnell die Grenze zwischen zugespitzter Pointe und tatsächlicher Grenzüberschreitung bei diesem Muster verschwimmen kann – auch beim 2025er-Interview mit Laura Müller wurde ihm vorgeworfen, sie ›für eigene Zwecke‹ zu benutzen, statt neutral zu berichten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt von der Frage <em>Muss ich jede Unstimmigkeit öffentlich korrigieren?</em> zur Erkenntnis <em>Nicht jede Wahrheit muss von mir ausgesprochen werden.</em> Dass Pocher Laura Müller nach Jahren öffentlicher Kritik schließlich Raum für ihre eigene, unkommentierte Sichtweise in seinem Format gab, statt sie weiter nur zur Zielscheibe zu machen, deutet auf eine reifere Seite desselben Musters hin.</p>
+          <p class="vb-intro">Die Gans, die nicht mehr nur laut auf jede Störung hinweist, sondern gelegentlich auch einfach zuhört – ohne dabei ihren wachen Blick für Unstimmigkeiten ganz zu verlieren.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9)"},
+        {route:"beruehmte-cornelia-funke", label:"Porträt: Cornelia Funke (SO1w9)"},
+        {route:"beruehmte-markus-lanz", label:"Porträt: Markus Lanz (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
