@@ -4459,6 +4459,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kompass.verlagshausrathmer.com/beruehmte-cornelia-funke/</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kompass.verlagshausrathmer.com/beruehmte-francis-bacon/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
@@ -8498,6 +8504,12 @@
   </url>
   <url>
     <loc>https://kompass.verlagshausrathmer.com/en/beruehmte-christoph-kolumbus/</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kompass.verlagshausrathmer.com/en/beruehmte-cornelia-funke/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
