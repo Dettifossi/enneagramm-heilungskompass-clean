@@ -2136,3 +2136,69 @@ export function joshSafdiePortraitPage() {
     </div>
   `);
 }
+
+export function gabiGarciaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gabi-garcia-portrait.jpg" alt="Gabi Garcia – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gabi Garcia</p>
+        <p class="krim-portrait-typ">SO8w7 · Sozialer Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Brasilianische Kampfsportlerin, geb. 1985 – Tierentsprechung: Löwe</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Löwe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier der sozialen Acht – ein Tier, dessen bloße körperliche Präsenz schon Respekt erzwingt, bevor überhaupt ein Kampf beginnt. Bei Gabrielle „Gabi" Garcia, geboren 1985 in Porto Alegre, ist dieses Bild fast wörtlich zu nehmen: Mit 1,87 Meter und muskulösen 95 Kilogramm überragt sie fast jede Gegnerin im Frauen-Kampfsport körperlich – eine Statur, die im Sport, in dem Gewichtsklassen sonst alles regeln, zur eigenen Kategorie wurde.</p>
+          <p class="vb-intro">Als Jugendliche spielte sie zunächst Volleyball, Handball und Feldhockey, bevor ihr Onkel sie mit etwa 13 Jahren, kurz nach dem Umzug der Familie nach São Paulo, ans Brazilian Jiu-Jitsu heranführte. Sie stand bereits kurz vor dem Abschluss eines Werbungs-Studiums, als sie sich entschied, ganz auf den Kampfsport zu setzen – eine Entscheidung, die sie zur dominantesten Wettkämpferin in der Geschichte des weiblichen Jiu-Jitsu machen sollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Stärke im Dienst der Frauen im Kampfsport</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die soziale Acht setzt ihre Kraft nicht für sich allein ein, sondern stellt sie in den Dienst einer Gruppe, mit der sie sich verbunden fühlt. Bei Gabi Garcia ist das der gesamte Frauen-Kampfsport: Das Guinness-Buch der Rekorde würdigt sie nicht nur als Wettkämpferin, sondern ausdrücklich als Pionierin, Mentorin und Verfechterin der Stärkung von Frauen im Kampfsport – eine Rolle, die sie über Jahre aktiv ausfüllte, in einer Sportart, die lange fast ausschließlich von Männern dominiert wurde.</p>
+          <p class="vb-intro">Neun Weltmeistertitel im Brazilian Jiu-Jitsu, drei ADCC-Weltmeisterschaften in der Gewichtsklasse über 60 Kilogramm und die Aufnahme in die IBJJF Hall of Fame – diese Bilanz entstand nicht im luftleeren Raum, sondern als sichtbarer Beweis dafür, was Frauen im Kampfsport erreichen können, wenn ihnen der Raum dafür gegeben wird. Die Acht kämpft, aber sie kämpft, um Türen offen zu halten, die andere danach durchschreiten können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Die Bühne der großen Show</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> bringt der sozialen Acht eine Lust an Auftritt, Show und Grenzüberschreitung, die reine Kampfsport-Disziplin allein nicht erklärt. Garcias Wechsel 2015 vom eher sachlichen Turnier-Jiu-Jitsu ins japanische MMA-Promotion RIZIN – bekannt für seine spektakuläre, fast theatralische Inszenierung von Kämpfen – passt genau zu dieser Flügel-Note: keine stille Zurückhaltung, sondern die große, glanzvolle Bühne.</p>
+          <p class="vb-intro">Mit einer makellosen MMA-Bilanz von 6 Siegen bei nur einem Unentschieden (No Contest) unter RIZIN zeigte sie, dass sich Ernsthaftigkeit und Inszenierung nicht ausschließen müssen. Die Sieben liebt das Neue, das Aufregende, das nicht Alltägliche – und genau das fand Garcia, als sie ihre bereits etablierte Dominanz im Jiu-Jitsu noch einmal in eine völlig neue, publikumswirksamere Arena trug.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Dominanz über zwei Kampfsportarten hinweg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Garcia tatsächlich auszeichnet, ist nicht allein ihre physische Größe, sondern die technische Beherrschung des Bodenkampfs, die sie sich unter Fabio Gurgel im renommierten Alliance-Jiu-Jitsu-Team in São Paulo erarbeitete: präzise Hebel- und Würgetechniken, ein Ringkampf-Fundament, das ihre Gegnerinnen selten kontern konnten, und eine über ein Jahrzehnt praktisch ungebrochene Serie internationaler Titel. Neun Weltmeistertitel entstehen nicht durch Körpergröße allein, sondern durch jahrelange, hochspezialisierte Detailarbeit an Übergängen, Stellungswechseln und Kontrolle am Boden.</p>
+          <p class="vb-intro">Diese Substanz zeigte sich auch beim Übergang ins MMA: Statt sich allein auf ihre Grösse zu verlassen, übertrug sie ihre Bodenkampf-Präzision erfolgreich in ein Format, das zusätzlich Schlagtechnik und Stand-up-Fähigkeiten verlangt – eine Anpassungsleistung, die reine physische Dominanz allein nicht erklärt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Garcia die SO8w7 als jemand, der die eigene außergewöhnliche Kraft konsequent für ein größeres Anliegen einsetzt – die Sichtbarkeit und Ernstnahme von Frauen im Kampfsport – statt sie nur zur eigenen Profilierung zu nutzen.</p>
+          <p class="vb-intro">Der Schatten der Acht zeigt sich in der Kehrseite ihrer physischen Überlegenheit: Kritiker warfen ihr wiederholt vor, im MMA gegen Gegnerinnen mit deutlich weniger Erfahrung oder ungünstigeren physischen Voraussetzungen anzutreten – ein Vorwurf, der die Grenze zwischen fairer sportlicher Dominanz und erdrückender Übermacht berührt. Eine Acht, deren Stärke so groß ist, dass sie selbst zur Streitfrage wird, läuft Gefahr, dass der ursprüngliche Dienst an der Sache – Frauen im Kampfsport sichtbar zu machen – hinter der Debatte um die eigene Unbesiegbarkeit zurücktritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Acht führt von der Frage <em>Muss ich stärker sein als alle anderen, um zu zählen?</em> zur Erkenntnis <em>Wahre Stärke zeigt sich darin, anderen Raum zu geben, statt ihn vollständig auszufüllen.</em> Garcias erklärte Rolle als Mentorin – nicht nur als unbesiegte Wettkämpferin – deutet genau in diese Richtung: Stärke, die sich auch daran misst, wie viel Raum sie für andere öffnet.</p>
+          <p class="vb-intro">Ihr Rückzug vom aktiven Wettkampf, angekündigt bei der IBJJF-Weltmeisterschaft 2021, markiert einen bewussten Übergang – vom Kämpfen für die eigene Bilanz hin zum Weiterwirken als Vorbild einer ganzen Generation von Kampfsportlerinnen. Der Löwe, der nicht mehr jeden Kampf selbst bestreiten muss, um sein Rudel zu schützen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"beruehmte-carsten-stahl", label:"Porträt: Carsten Stahl (SO8w7)"},
+        {route:"beruehmte-jon-hamm", label:"Porträt: Jon Hamm (SO8w7)"},
+        {route:"beruehmte-sokrates", label:"Porträt: Sokrates (SO8w7)"},
+      ])}
+    </div>
+  `);
+}

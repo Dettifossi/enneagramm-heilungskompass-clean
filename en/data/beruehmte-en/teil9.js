@@ -2127,3 +2127,69 @@ export function charlesLaughtonPortraitPage() {
     </div>
   `);
 }
+
+export function gabiGarciaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gabi-garcia-portrait.jpg" alt="Gabi Garcia – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gabi Garcia</p>
+        <p class="krim-portrait-typ">SO8w7 · Social Type 8 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Brazilian martial artist, b. 1985 – Animal correspondence: Lion</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Lion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Lion</strong> is the animal of the social Eight – an animal whose sheer physical presence commands respect before any fight even begins. In Gabrielle "Gabi" Garcia, born 1985 in Porto Alegre, that image is almost literal: at 1.87 meters and a muscular 95 kilograms, she physically towers over nearly every opponent in women's combat sports – a stature that, in a sport where weight classes usually settle everything, became a category of its own.</p>
+          <p class="vb-intro">As a teenager she first played volleyball, team handball, and field hockey, before her uncle introduced her to Brazilian Jiu-Jitsu around age 13, shortly after her family moved to São Paulo. She was close to finishing a degree in advertising when she decided to commit fully to combat sports – a decision that would make her the most dominant competitor in the history of women's Jiu-Jitsu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Eight: Strength in Service of Women in Combat Sports</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The social Eight does not deploy her strength for herself alone, but places it in service of a group she feels connected to. For Gabi Garcia, that group is women's combat sports as a whole: the Guinness Book of World Records recognizes her not only as a competitor but explicitly as a pioneer, mentor, and defender of the empowerment of women in martial arts – a role she actively filled for years, in a sport long dominated almost exclusively by men.</p>
+          <p class="vb-intro">Nine Brazilian Jiu-Jitsu world titles, three ADCC World Championships in the 60+kg division, and induction into the IBJJF Hall of Fame – this record did not emerge in a vacuum, but as visible proof of what women can achieve in combat sports when given the space to do so. The Eight fights, but she fights to keep doors open that others can walk through afterward.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: The Stage of the Big Show</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the social Eight an appetite for performance, spectacle, and pushing boundaries that pure competitive discipline alone doesn't explain. Garcia's 2015 move from the relatively sober world of tournament Jiu-Jitsu into the Japanese MMA promotion RIZIN – known for its spectacular, almost theatrical staging of fights – fits exactly this wing note: not quiet restraint, but the big, glamorous stage.</p>
+          <p class="vb-intro">With a flawless MMA record of 6 wins against a single no-contest under RIZIN, she showed that seriousness and showmanship don't have to be mutually exclusive. The Seven loves the new, the exciting, the un-ordinary – and that is exactly what Garcia found when she carried her already-established Jiu-Jitsu dominance into a completely new, far more publicity-driven arena.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Actual Achievement: Dominance Across Two Combat Sports</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What actually distinguishes Garcia is not just her physical size, but the technical mastery of ground fighting she built under Fabio Gurgel at the renowned Alliance Jiu-Jitsu team in São Paulo: precise submission and control techniques, a wrestling foundation her opponents rarely managed to counter, and a practically unbroken streak of international titles spanning over a decade. Nine world championships don't come from size alone, but from years of highly specialized, detailed work on transitions, positional changes, and ground control.</p>
+          <p class="vb-intro">That substance also showed in her transition to MMA: rather than relying on size alone, she successfully carried her ground-fighting precision into a format that additionally demands striking and stand-up skills – an adaptation that pure physical dominance alone doesn't explain.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the light, Garcia's SO8w7 shows someone who consistently deploys her extraordinary strength for a larger cause – the visibility and serious recognition of women in combat sports – rather than using it purely for self-promotion.</p>
+          <p class="vb-intro">The shadow of the Eight shows in the flip side of her physical superiority: critics repeatedly accused her of facing opponents with markedly less experience or less favorable physical attributes in MMA – a charge that touches the line between fair competitive dominance and crushing overmatch. An Eight whose strength is so great that it becomes a controversy in itself risks having the original service to the cause – making women in combat sports visible – recede behind the debate over her own invincibility.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Eight's healing path leads from the question <em>Do I have to be stronger than everyone else to matter?</em> to the realization <em>True strength shows in giving others room, rather than filling it entirely yourself.</em> Garcia's declared role as a mentor – not just as an undefeated competitor – points exactly in that direction: strength also measured by how much room it opens for others.</p>
+          <p class="vb-intro">Her retirement from active competition, announced at the 2021 IBJJF World Championship, marks a deliberate transition – from fighting for her own record to continuing to matter as a role model for an entire generation of female combat athletes. The lion who no longer has to fight every battle herself to protect her pride.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so8", label:"SO8 – The Lion: subtype profile"},
+        {route:"beruehmte-carsten-stahl", label:"Portrait: Carsten Stahl (SO8w7)"},
+        {route:"beruehmte-jon-hamm", label:"Portrait: Jon Hamm (SO8w7)"},
+        {route:"beruehmte-sokrates", label:"Portrait: Socrates (SO8w7)"},
+      ])}
+    </div>
+  `);
+}
