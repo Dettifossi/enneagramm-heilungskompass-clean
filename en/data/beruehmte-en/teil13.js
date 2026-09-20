@@ -2149,3 +2149,68 @@ export function ellenDegeneresPortraitPage() {
     </div>
   `);
 }
+
+export function leonGoretzkaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-leon-goretzka-portrait.jpg" alt="Leon Goretzka – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leon Goretzka</p>
+        <p class="krim-portrait-typ">SO3w4 · Social Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">German professional footballer, b. 1995 – Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Cheetah from the Ruhr</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Cheetah</strong> is the animal of the social Three – fast, striking, built for the one decisive moment. Leon Goretzka, born 1995 in Bochum, began his football career at Werner SV Bochum, moved to the youth academy of VfL Bochum in 2001, and made the jump to the first team there in 2012. Just a year later, Schalke 04 signed him, and he quickly established himself as a regular starter – a steep, publicly visible rise from the start.</p>
+          <p class="vb-intro">In 2018 he moved to FC Bayern Munich, and has since won numerous German championships, the DFB Cup, and the UEFA Champions League. The cheetah doesn't wait around – it uses every opportunity that arises to move up to the next level.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Three: Success With Social Responsibility</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Three (SO3)</strong> looks for recognition not just in her own achievement, but in how that achievement serves the larger collective. At the start of the COVID-19 pandemic, Goretzka co-founded the initiative "We Kick Corona" together with his national-team teammate Joshua Kimmich, and jointly donated one million euros – by early 2024, over 6.5 million euros had been raised from around 4,300 donors, including funds for the Auschwitz memorial site.</p>
+          <p class="vb-intro">This is the Three in her social orientation: her own public status as a top athlete is deliberately used to achieve a broad social impact, communicated visibly and publicly, not quietly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: A Heart for the Hungarian Fans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the social Three a depth of personal expression that goes beyond a pure display of achievement. At Euro 2020 (played in 2021), Goretzka scored the 2:2 equalizer against Hungary just before the final whistle – in a match overshadowed by a rainbow controversy, after UEFA had refused to let the Allianz Arena be lit in rainbow colors. Instead of a routine goal celebration, he ran toward the Hungarian fan section and formed a heart with his hands.</p>
+          <p class="vb-intro">A few minutes later he wrote "Spread love" on Instagram, alongside a rainbow flag. A moment that fused peak performance at the decisive instant (the Three) with a deeply personal, symbolically charged gesture (the Four) – achievement and individual conviction collapsed here into a single motion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Actual Achievement: Versatility in Midfield</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What actually distinguishes Goretzka is a rare versatility in midfield: he can screen in front of the defense, cover huge distances as a box-to-box player, and still remain a genuine goal threat in the opposition's penalty area – a combination of physical presence, tactical discipline, and finishing quality that makes him one of the few German midfielders capable of deciding games both defensively and offensively.</p>
+          <p class="vb-intro">That substance showed exemplarily in his goal against Hungary: a late substitute who, under maximum pressure in stoppage time, scored the decisive goal that saved Germany from group-stage elimination.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the light, Goretzka's SO3w4 shows someone who consistently combines athletic success with social engagement and personal conviction – achievement that never becomes an end in itself.</p>
+          <p class="vb-intro">The shadow of the Three shows in a career repeatedly interrupted by injuries – including patellar tendon problems that sidelined him for months at a time. For a Three whose self-worth is closely tied to visible performance, forced inactivity can be especially hard to bear – the temptation to return too early, before the body is truly ready, comes easily with this pattern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's healing path leads from the question <em>Am I only valuable when I perform?</em> to the realization <em>I am valuable, even beyond the pitch.</em> That Goretzka pursued a business studies degree alongside his professional football career, instead of defining himself exclusively through athletic success, suggests an awareness of this balance.</p>
+          <p class="vb-intro">The heart gesture toward the Hungarian fan section remains the most striking image: the cheetah who, in the moment of his greatest sporting triumph, did not celebrate himself, but sent a message that reached beyond the game.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: subtype profile"},
+        {route:"beruehmte-pedro-alonso", label:"Portrait: Pedro Alonso (SO3w4)"},
+        {route:"beruehmte-virgil-van-dijk", label:"Portrait: Virgil van Dijk (SO3w2)"},
+      ])}
+    </div>
+  `);
+}

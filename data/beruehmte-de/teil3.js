@@ -2146,3 +2146,68 @@ export function horstLichterPortraitPage() {
     </div>
   `);
 }
+
+export function leonGoretzkaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-leon-goretzka-portrait.jpg" alt="Leon Goretzka – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Leon Goretzka</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Fußballprofi, geb. 1995 – Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard aus dem Ruhrgebiet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – schnell, auffällig, gebaut für den einen entscheidenden Moment. Leon Goretzka, 1995 in Bochum geboren, begann seine fußballerische Laufbahn beim Werner SV Bochum, wechselte 2001 in die Jugendabteilung des VfL Bochum und schaffte dort 2012 den Sprung in den Profikader. Schon ein Jahr später holte ihn Schalke 04, wo er sich rasch als Stammspieler etablierte – ein steiler, öffentlich sichtbarer Aufstieg von Beginn an.</p>
+          <p class="vb-intro">2018 wechselte er zum FC Bayern München und gewann seither zahlreiche deutsche Meisterschaften, den DFB-Pokal und die UEFA Champions League. Der Gepard wartet nicht ab – er nutzt jede sich bietende Gelegenheit, um in die nächsthöhere Liga aufzusteigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Erfolg mit gesellschaftlicher Verantwortung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> sucht Anerkennung nicht nur in der eigenen Leistung, sondern darin, wie diese Leistung dem größeren Kollektiv dient. Zu Beginn der Corona-Pandemie gründete Goretzka gemeinsam mit seinem Nationalmannschaftskollegen Joshua Kimmich die Initiative ›We Kick Corona‹ und spendete mit ihm gemeinsam eine Million Euro – bis Anfang 2024 kamen über 6,5 Millionen Euro von rund 4.300 Spendern zusammen, unter anderem für die KZ-Gedenkstätte Auschwitz.</p>
+          <p class="vb-intro">Das ist die Drei in ihrer sozialen Ausrichtung: Der eigene öffentliche Status als Spitzensportler wird bewusst genutzt, um eine breite gesellschaftliche Wirkung zu erzielen, sichtbar und öffentlichkeitswirksam kommuniziert, nicht im Stillen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Das Herz für die Ungarn-Fans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sozialen Drei eine Tiefe des persönlichen Ausdrucks, die über reine Leistungsdemonstration hinausgeht. Bei der EM 2021 erzielte Goretzka kurz vor Schluss den 2:2-Ausgleich gegen Ungarn – in einem Spiel, das im Schatten einer Regenbogen-Debatte stand, nachdem die UEFA eine Regenbogenbeleuchtung der Allianz Arena untersagt hatte. Statt eines gewöhnlichen Torjubels lief er zum ungarischen Fanblock und formte mit den Händen ein Herz.</p>
+          <p class="vb-intro">Wenige Minuten später schrieb er auf Instagram ›Verbreitet Liebe‹ mit einer Regenbogenfahne. Ein Moment, der Höchstleistung im entscheidenden Augenblick (die Drei) mit einer sehr persönlichen, symbolisch aufgeladenen Geste (die Vier) verband – Erfolg und individuelle Überzeugung fielen hier in einer einzigen Bewegung zusammen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Vielseitigkeit im Mittelfeld</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Goretzka tatsächlich auszeichnet, ist eine fußballerische Vielseitigkeit im Mittelfeld, die selten ist: Er kann tief vor der Abwehr absichern, als box-to-box-Spieler große Laufwege zurücklegen und trotzdem in gegnerischen Strafräumen torgefährlich bleiben – eine Kombination aus physischer Präsenz, taktischer Disziplin und Abschlussqualität, die ihn zu einem der wenigen deutschen Mittelfeldspieler macht, die sowohl defensiv als auch offensiv Spiele entscheiden können.</p>
+          <p class="vb-intro">Diese Substanz zeigte sich exemplarisch bei seinem Treffer gegen Ungarn: ein spät eingewechselter Einwechselspieler, der in der Nachspielzeit unter maximalem Druck das entscheidende Tor erzielte, das Deutschland vor dem Vorrunden-Aus bewahrte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Goretzka die SO3w4 als jemand, der sportlichen Erfolg konsequent mit gesellschaftlichem Engagement und persönlicher Haltung verbindet – Leistung, die nie zum reinen Selbstzweck wird.</p>
+          <p class="vb-intro">Der Schatten der Drei zeigt sich in einer Karriere, die immer wieder von Verletzungen unterbrochen wurde – unter anderem Probleme an der Patellasehne, die ihn zeitweise monatelang außer Gefecht setzten. Für eine Drei, deren Selbstwert eng an sichtbare Leistung geknüpft ist, kann erzwungene Untätigkeit besonders schwer zu ertragen sein – die Versuchung, sich zu früh zurückzumelden, bevor der Körper wirklich bereit ist, ist bei diesem Muster naheliegend.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Bin ich nur wertvoll, wenn ich leiste?</em> zur Erkenntnis <em>Ich bin wertvoll, auch jenseits des Spielfelds.</em> Dass Goretzka neben dem Profifußball ein Studium der Wirtschaftswissenschaften verfolgte, statt sich ausschließlich über sportliche Erfolge zu definieren, deutet auf ein Bewusstsein für diese Balance hin.</p>
+          <p class="vb-intro">Die Herz-Geste gegenüber dem ungarischen Fanblock bleibt dabei das prägnanteste Bild: der Gepard, der im Moment seines größten sportlichen Triumphs nicht sich selbst feierte, sondern eine Botschaft sendete, die über das Spiel hinausreichte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-pedro-alonso", label:"Porträt: Pedro Alonso (SO3w4)"},
+        {route:"beruehmte-virgil-van-dijk", label:"Porträt: Virgil van Dijk (SO3w2)"},
+      ])}
+    </div>
+  `);
+}

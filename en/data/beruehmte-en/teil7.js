@@ -1914,6 +1914,7 @@ export function virgilVanDijkPortraitPage() {
           {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2) – also a world-class footballer, same subtype"},
           {route:"beruehmte-christiaan-barnard", label:"Portrait: Dr. Christiaan Barnard (SO3w2)"},
           {route:"beruehmte-will-yun-lee", label:"Portrait: Will Yun Lee (SO3w2)"},
+          {route:"beruehmte-leon-goretzka", label:"Portrait: Leon Goretzka (SO3w4) – also a professional footballer"},
         ])}
       </div>
     </div>

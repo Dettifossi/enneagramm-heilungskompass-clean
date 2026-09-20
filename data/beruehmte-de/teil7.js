@@ -1934,6 +1934,7 @@ export function virgilVanDijkPortraitPage() {
           {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2) – ebenfalls Weltklasse-Fußballer, derselbe Subtyp"},
           {route:"beruehmte-christiaan-barnard", label:"Porträt: Dr. Christiaan Barnard (SO3w2)"},
           {route:"beruehmte-will-yun-lee", label:"Porträt: Will Yun Lee (SO3w2)"},
+          {route:"beruehmte-leon-goretzka", label:"Porträt: Leon Goretzka (SO3w4) – ebenfalls Fußballprofi"},
         ])}
       </div>
     </div>
