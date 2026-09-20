@@ -2249,6 +2249,7 @@ export function ludwigXIVKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-ludwig-xiv", label:"Portrait: Louis XIV (SP3w2) – the Sun King"},
+        {route:"krankheitsportraets-dmitri-hvorostovsky", label:"Illness Portrait: Dmitri Hvorostovsky (SO3w2) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so3", label:"Subtype Profile SP3"},
       ])}

@@ -4356,3 +4356,184 @@ export function charlesLaughtonKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function dmitriHvorostovskyKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dmitri-hvorostovsky-portrait.jpg" alt="Dmitri Hvorostovsky" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dmitri Hvorostovsky</p>
+        <p class="krim-portrait-typ">SO3w2 · Social Type 3 with Two-wing · 1962–2017</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Cheetah</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Animal correspondence: Cheetah" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Dmitri Hvorostovsky</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-dmitri-hvorostovsky">portrait under Famous Personalities</a>
+        in this Compass – that page covers his international opera career. This page
+        deepens what's only briefly mentioned there: the final two and a half years
+        of his life following a glioblastoma diagnosis, an especially aggressive
+        brain tumor, and the consistency with which he maintained his public image
+        almost to the very end.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Hvorostovsky</strong> is classified as the <strong>Social Three with
+        Two-wing</strong>. The SO3 measures her worth by publicly visible recognition;
+        the Two-wing adds a warmth toward the audience that goes beyond pure ambition.
+        This exact combination shaped how he handled his illness: not through
+        withdrawal, but through a publicly visible presence maintained almost to the
+        end.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) No documented warning signs before 2015:</strong>
+        Unlike many other illness portraits in this Compass, there are no recorded
+        health issues in the decades before Hvorostovsky's diagnosis – his voice and
+        stage presence were considered flawless right up until shortly before.</p>
+        <p class="vb-intro"><strong>b) Diagnosis in June 2015:</strong>
+        In June 2015 he was diagnosed with a glioblastoma, a particularly aggressive,
+        fast-growing brain tumor. He canceled all performances through August as a
+        result.</p>
+        <p class="vb-intro"><strong>c) An immediate but clearly bounded public retreat:</strong>
+        His first reaction was a clearly limited withdrawal – not an indefinite pause,
+        but a cancellation with a fixed end date by which he intended to return to
+        the stage.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) A return to the Met that same year:</strong>
+        Already by September 2015 – just three months after the diagnosis – he
+        returned to the Metropolitan Opera to sing three performances as Count di
+        Luna in "Il trovatore" opposite Anna Netrebko.</p>
+        <p class="vb-intro"><strong>b) Publicly confident language:</strong>
+        In a widely quoted interview, he reported that his doctors had told him:
+        "You won't die." This statement shaped his public communication about his
+        illness for months.</p>
+        <p class="vb-intro"><strong>c) A continued, active concert schedule in 2016:</strong>
+        Despite ongoing treatment, he kept up a reduced but still international
+        concert schedule, rather than withdrawing from public life entirely.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Cancellation of all staged appearances in December 2016:</strong>
+        Treatment-related balance problems forced him to cancel all fully staged
+        opera performances – a first, clearly visible shift from the big stage to
+        smaller, concert-style formats.</p>
+        <p class="vb-intro"><strong>b) The unannounced return in May 2017:</strong>
+        Despite this limitation, he stepped unannounced onto the Met stage on May 7,
+        2017, at the company's 50th-anniversary gala, singing the aria "Cortigiani,
+        vil razza dannata" from Verdi's "Rigoletto" before 4,000 spectators.</p>
+        <p class="vb-intro"><strong>c) No public farewell to his active career:</strong>
+        There was no formal, announced retirement – the performances simply ended
+        once his body no longer allowed them, rather than through a deliberate,
+        communicated decision.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Death on November 22, 2017:</strong>
+        Hvorostovsky died at age 55 in London, two and a half years after his
+        diagnosis.</p>
+        <p class="vb-intro"><strong>b) A career that stayed publicly visible almost to the end:</strong>
+        Between diagnosis and death, international performances, concert recordings,
+        and media presence continued – the illness never became the sole public
+        subject of his final years.</p>
+        <p class="vb-intro"><strong>c) Tributes from the international opera world:</strong>
+        His death prompted obituaries worldwide that honored not only his vocal
+        achievement, but explicitly also the way he had publicly handled his
+        illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Control over one's own image as a coping strategy:</strong>
+        For the social Three, illness above all threatens the public image – his
+        consistent return to the stage, whenever it was at all possible, can be read
+        as an attempt to actively steer that image rather than leave it to the
+        course of the disease.</p>
+        <p class="vb-intro"><strong>b) The Two-wing as motivation for the audience, not just for himself:</strong>
+        His return to the Met never came across as pure defiance, but as a
+        deliberate gesture toward an audience he still wanted to give something to –
+        warmth and connection remained the stated priority even in the face of
+        illness.</p>
+        <p class="vb-intro"><strong>c) Confident language as a publicly maintained narrative:</strong>
+        The repeatedly quoted "you won't die" also served as a framing story that
+        gave audience and colleagues an image of control and confidence, regardless
+        of the actual medical course.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) An illness that never became the sole public image:</strong>
+        Unlike some other figures whose final years became entirely dominated by
+        illness, Hvorostovsky's stage presence remained the publicly dominant image
+        almost to the very end.</p>
+        <p class="vb-intro"><strong>b) Performances as a constant despite the progressing illness:</strong>
+        From September 2015 to May 2017, public appearances remained a fixed
+        constant – reduced in scope, but never fully given up.</p>
+        <p class="vb-intro"><strong>c) One last, deliberately chosen big moment instead of a quiet farewell:</strong>
+        The May 2017 Met gala can be read as a final, self-chosen opportunity to
+        appear once more in full stage light – not a coincidence, but a carefully
+        placed public moment.</p>
+        <p class="vb-intro"><strong>d) Why the brain, of all things?</strong>
+        For a Social Three with Two-wing, whose entire self-understanding is tied
+        to control over her own public image and to immediate connection with the
+        audience, one reading suggests itself: a tumor that specifically impairs
+        balance and motor control strikes at the very ability to move with poise
+        and precision on stage – exactly the instrument through which the Three
+        controls her image. This reading is a plausible interpretation, not a
+        proven historical causal link, and will be developed further in this
+        Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) Framing without determinism:</strong>
+        This does not mean the Social Three's pattern inevitably leads to brain
+        tumors – <strong>anyone can get any illness, regardless of subtype.</strong>
+        Glioblastomas arise independently of personality patterns; the reading
+        described here concerns only how the illness was handled, not its cause.
+        The corresponding illness pattern is being developed further, piece by
+        piece, in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics
+        Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        Hvorostovsky did not know his own Enneagram pattern – the Social Three with
+        Two-wing easily mistakes the consistent maintenance of her own image for
+        pure love of the art or a sense of duty toward the audience, without
+        sufficiently acknowledging her own exhaustion in the process. This exact
+        pattern determined him, uncorrected, to the end: a formal farewell to the
+        stage that openly named his own vulnerability never took place – instead,
+        the career ended the way it began, with the image of the flawless
+        performance.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Dmitri Hvorostovsky's</strong> final two and a half years offer a
+        study of the Social Three with Two-wing in one of its most striking forms:
+        a fatal diagnosis that never became the sole public image, a return to the
+        big stage just three months after diagnosis, and one final, self-chosen
+        appearance in full stage light. The cheetah who devoted its last sprint not
+        to the sickbed, but once more to the stage.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-dmitri-hvorostovsky", label:"Portrait: Dmitri Hvorostovsky (SO3w2) – opera career"},
+        {route:"krankheitsportraets-ludwig-xiv", label:"Illness Portrait: Louis XIV (SO3w2) – same subtype"},
+        {route:"krankheitsportraets-christiaan-barnard", label:"Illness Portrait: Christiaan Barnard (SO3w2) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so3", label:"Subtype Profile SO3"},
+      ])}
+    </div>
+  `);
+}

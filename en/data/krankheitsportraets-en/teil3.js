@@ -503,6 +503,7 @@ export function christiaanBarnardKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-christiaan-barnard", label:"Portrait: Christiaan Barnard (SO3w2)"},
         {route:"krankheitsportraets-ludwig-xiv", label:"Illness Portrait: Louis XIV (SO3w2) – the same continued public role"},
+        {route:"krankheitsportraets-dmitri-hvorostovsky", label:"Illness Portrait: Dmitri Hvorostovsky (SO3w2) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so3", label:"Subtype Profile SO3"},
       ])}

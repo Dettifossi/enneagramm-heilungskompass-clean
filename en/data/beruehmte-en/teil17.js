@@ -2205,6 +2205,7 @@ export function dmitriHvorostovskyPortraitPage() {
         {route:"subtype/so3", label:"SO3 – The Cheetah: subtype profile"},
         {route:"beruehmte-ludwig-xiv", label:"Portrait: Louis XIV (SO3w2)"},
         {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SE3w2)"},
+        {route:"krankheitsportraets-dmitri-hvorostovsky", label:"Illness Portrait: Dmitri Hvorostovsky (SO3w2) – glioblastoma"},
       ])}
     </div>
   `);

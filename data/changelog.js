@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2360", date: "2026-09-20", text: "Neues Krankheitsporträt: Dmitri Hvorostovsky (SO3w2) – Glioblastom, Bühnenrückkehr bis kurz vor dem Tod.", text_en: "New illness portrait: Dmitri Hvorostovsky (SO3w2) – glioblastoma, stage return until shortly before death.", route: "krankheitsportraets-dmitri-hvorostovsky" },
     { version: "v2359", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Leon Goretzka (SO3w4) – Fußballprofi, FC Bayern München.", text_en: "New portrait under \"Famous Personalities\": Leon Goretzka (SO3w4) – professional footballer, FC Bayern Munich.", route: "beruehmte-leon-goretzka" },
     { version: "v2358", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Pedro Alonso (SO3w4) – ›Berlín‹ aus Haus des Geldes.", text_en: "New portrait under \"Famous Personalities\": Pedro Alonso (SO3w4) – \"Berlin\" from Money Heist.", route: "beruehmte-pedro-alonso" },
     { version: "v2357", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Dmitri Hvorostovsky (SO3w2) – der ›Elvis der Oper‹.", text_en: "New portrait under \"Famous Personalities\": Dmitri Hvorostovsky (SO3w2) – the \"Elvis of Opera.\"", route: "beruehmte-dmitri-hvorostovsky" },

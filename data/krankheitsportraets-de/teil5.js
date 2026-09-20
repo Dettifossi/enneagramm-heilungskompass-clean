@@ -4558,3 +4558,187 @@ export function charlesLaughtonKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function dmitriHvorostovskyKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dmitri-hvorostovsky-portrait.jpg" alt="Dmitri Hvorostovsky" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dmitri Hvorostovsky</p>
+        <p class="krim-portrait-typ">SO3w2 · Sozialer Typ 3 mit Zweierflügel · 1962–2017</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gepard</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so3.jpg" alt="Tierentsprechung: Gepard" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO3")};left:${tierAvatarLeft("SO3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Dmitri Hvorostovsky</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-dmitri-hvorostovsky">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seine internationale Opernkarriere.
+        Im Zentrum dieser Seite steht, was dort nur am Rande erwähnt wird: die letzten
+        zweieinhalb Jahre seines Lebens nach der Diagnose eines Glioblastoms, eines
+        besonders aggressiven Hirntumors, und die Konsequenz, mit der er sein öffentliches
+        Bild bis fast zum Schluss aufrechterhielt.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Hvorostovsky</strong> ist dem <strong>sozialen Typ 3 mit Zweierflügel</strong>
+        zugeordnet. Die SO3 misst ihren Wert an öffentlich sichtbarer Anerkennung; der
+        Zweierflügel bringt eine warme Zuwendung zum Publikum hinzu, die reinen Ehrgeiz
+        übersteigt. Genau diese Kombination bestimmte, wie er mit seiner Erkrankung
+        umging: nicht durch Rückzug, sondern durch einen bis zuletzt fortgesetzten,
+        öffentlich sichtbaren Auftritt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Keine dokumentierten Warnzeichen vor 2015:</strong>
+        Anders als bei vielen anderen Krankheitsporträts dieses Kompasses gibt es bei
+        Hvorostovsky keine belegten gesundheitlichen Auffälligkeiten in den Jahrzehnten
+        vor der Diagnose – seine Stimme und sein Auftreten galten bis kurz zuvor als
+        makellos.</p>
+        <p class="vb-intro"><strong>b) Diagnose im Juni 2015:</strong>
+        Im Juni 2015 wurde bei ihm ein Glioblastom festgestellt, ein besonders
+        aggressiver und schnell wachsender Hirntumor. Er sagte daraufhin alle
+        Auftritte bis August ab.</p>
+        <p class="vb-intro"><strong>c) Sofortige, aber befristete öffentliche Zurücknahme:</strong>
+        Die erste Reaktion war ein klar begrenzter Rückzug – keine unbestimmte Pause,
+        sondern eine Absage mit festem Enddatum, an dem er die Bühne wieder
+        einzunehmen gedachte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Rückkehr zur Met noch im selben Jahr:</strong>
+        Bereits im September 2015 – nur drei Monate nach der Diagnose – kehrte er an
+        die Metropolitan Opera zurück, um als Graf di Luna in ›Il trovatore‹ drei
+        Vorstellungen an der Seite Anna Netrebkos zu singen.</p>
+        <p class="vb-intro"><strong>b) Öffentlich zuversichtliche Sprache:</strong>
+        In einem vielzitierten Interview berichtete er, seine Ärzte hätten ihm gesagt:
+        ›Sie werden nicht sterben.‹ Diese Aussage prägte über Monate seine öffentliche
+        Kommunikation über die eigene Erkrankung.</p>
+        <p class="vb-intro"><strong>c) Weiterhin aktives Konzertprogramm 2016:</strong>
+        Trotz laufender Behandlung setzte er ein reduziertes, aber weiterhin
+        internationales Konzertprogramm fort, statt sich vollständig aus der
+        Öffentlichkeit zurückzuziehen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Absage aller szenischen Auftritte im Dezember 2016:</strong>
+        Behandlungsbedingte Gleichgewichtsstörungen zwangen ihn, alle vollständig
+        inszenierten Opernauftritte abzusagen – eine erste, deutlich sichtbare
+        Verschiebung von der großen Bühne zu kleineren, konzertanten Formaten.</p>
+        <p class="vb-intro"><strong>b) Die unangekündigte Rückkehr im Mai 2017:</strong>
+        Trotz dieser Einschränkung stand er am 7. Mai 2017 überraschend bei der
+        50-Jahre-Gala der Met auf der Bühne und sang die Arie ›Cortigiani, vil
+        razza dannata‹ aus Verdis ›Rigoletto‹ vor 4.000 Zuschauern.</p>
+        <p class="vb-intro"><strong>c) Kein öffentlicher Abschied von der aktiven Karriere:</strong>
+        Es gab keinen formellen, angekündigten Rücktritt – die Auftritte endeten
+        schlicht, als der Körper es nicht mehr zuließ, nicht durch eine bewusste,
+        kommunizierte Entscheidung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 22. November 2017:</strong>
+        Hvorostovsky starb im Alter von 55 Jahren in London, zweieinhalb Jahre nach
+        der Diagnose.</p>
+        <p class="vb-intro"><strong>b) Eine Karriere, die bis fast zum Schluss öffentlich sichtbar blieb:</strong>
+        Zwischen Diagnose und Tod lagen weiterhin internationale Auftritte,
+        Konzertmitschnitte und Medienpräsenz – die Erkrankung wurde nie zum alleinigen
+        öffentlichen Thema seiner letzten Lebensjahre.</p>
+        <p class="vb-intro"><strong>c) Würdigung durch die internationale Opernwelt:</strong>
+        Sein Tod löste weltweite Nachrufe aus, die nicht nur seine stimmliche
+        Leistung, sondern ausdrücklich auch die Art würdigten, wie er mit der
+        Erkrankung öffentlich umgegangen war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kontrolle über das eigene Bild als Bewältigungsstrategie:</strong>
+        Für die soziale Drei bedeutet Krankheit vor allem eine Bedrohung des
+        öffentlichen Bildes – die konsequente Rückkehr auf die Bühne, so oft es
+        irgend möglich war, lässt sich als Versuch lesen, dieses Bild aktiv zu
+        steuern, statt es dem Krankheitsverlauf zu überlassen.</p>
+        <p class="vb-intro"><strong>b) Der Zweierflügel als Motivation für das Publikum, nicht nur für sich selbst:</strong>
+        Die Rückkehr zur Met wirkte nie wie reine Trotzreaktion, sondern wie eine
+        bewusste Geste an ein Publikum, dem er noch etwas geben wollte – Wärme und
+        Verbindung blieben auch im Angesicht der Krankheit die erklärte Priorität.</p>
+        <p class="vb-intro"><strong>c) Die zuversichtliche Sprache als öffentlich gepflegtes Narrativ:</strong>
+        Das wiederholt zitierte ›Sie werden nicht sterben‹ diente auch als
+        Rahmenerzählung, die Publikum und Kollegen ein Bild von Kontrolle und
+        Zuversicht vermittelte, unabhängig vom tatsächlichen medizinischen Verlauf.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Erkrankung, die nie zum alleinigen öffentlichen Bild wurde:</strong>
+        Anders als bei manch anderer Persönlichkeit, deren letzte Lebensjahre
+        vollständig von der Krankheit dominiert wurden, blieb bei Hvorostovsky die
+        Bühnenpräsenz bis fast zuletzt das öffentlich vorherrschende Bild.</p>
+        <p class="vb-intro"><strong>b) Auftritte als Konstante trotz fortschreitender Erkrankung:</strong>
+        Vom September 2015 bis zum Mai 2017 blieben öffentliche Auftritte eine feste
+        Größe – reduziert im Umfang, aber nie vollständig aufgegeben.</p>
+        <p class="vb-intro"><strong>c) Ein letzter, bewusst gewählter großer Moment statt eines stillen Abschieds:</strong>
+        Die Met-Gala im Mai 2017 lässt sich als letzte, selbst gewählte Gelegenheit
+        lesen, sich noch einmal im vollen Bühnenlicht zu zeigen – kein zufälliger,
+        sondern ein sorgfältig platzierter öffentlicher Moment.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet das Gehirn?</strong>
+        Für eine soziale Drei mit Zweierflügel, deren gesamtes Selbstverständnis an
+        Kontrolle über das eigene öffentliche Bild und an unmittelbare Verbindung
+        mit dem Publikum geknüpft ist, liegt eine Deutung nahe: Ein Tumor, der
+        ausgerechnet Gleichgewicht und motorische Kontrolle beeinträchtigt, trifft
+        die Fähigkeit, sich souverän und makellos auf der Bühne zu bewegen – also
+        exakt jenes Instrument, über das die Drei ihr Bild steuert. Diese Deutung
+        ist eine plausible Interpretation, kein belegter historischer
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Drei zwangsläufig zu
+        Hirntumoren führt – <strong>jeder Mensch kann jede Krankheit bekommen,
+        unabhängig vom Subtyp.</strong> Glioblastome entstehen unabhängig von
+        Persönlichkeitsmustern; die hier beschriebene Deutung betrifft
+        ausschließlich den Umgang mit der Erkrankung, nicht ihre Ursache. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Hvorostovsky kannte sein eigenes Enneagramm-Muster nicht – die soziale Drei
+        mit Zweierflügel verwechselt die konsequente Aufrechterhaltung des eigenen
+        Bildes leicht mit reiner Kunstliebe oder Pflichtgefühl gegenüber dem
+        Publikum, ohne die eigene Erschöpfung dabei ausreichend anzuerkennen. Genau
+        dieses Muster bestimmte ihn bis zuletzt unkorrigiert: Ein formeller Abschied
+        von der Bühne, der die eigene Verletzlichkeit offen benannt hätte, fand nie
+        statt – stattdessen endete die Karriere so, wie sie begonnen hatte, mit dem
+        Bild des makellosen Auftritts.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Dmitri Hvorostovskys</strong> letzten zweieinhalb Lebensjahren lässt
+        sich die soziale Drei mit Zweierflügel in einer ihrer eindrücklichsten Formen
+        studieren: eine tödliche Diagnose, die nie zum alleinigen öffentlichen Bild
+        wurde, eine Rückkehr auf die große Bühne noch drei Monate nach der Diagnose
+        und ein letzter, selbst gewählter Auftritt im vollen Scheinwerferlicht. Der
+        Gepard, der seinen letzten Sprint nicht dem Krankenbett, sondern noch einmal
+        der Bühne widmete.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-dmitri-hvorostovsky", label:"Porträt: Dmitri Hvorostovsky (SO3w2) – Opernkarriere"},
+        {route:"krankheitsportraets-ludwig-xiv", label:"Krankheitsporträt: Ludwig XIV. (SO3w2) – gleicher Subtyp"},
+        {route:"krankheitsportraets-christiaan-barnard", label:"Krankheitsporträt: Christiaan Barnard (SO3w2) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so3", label:"Subtyp-Profil SO3"},
+      ])}
+    </div>
+  `);
+}
