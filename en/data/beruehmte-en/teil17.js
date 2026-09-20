@@ -2187,7 +2187,7 @@ export function dmitriHvorostovskyPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In the light, Hvorostovsky's SO3w2 shows someone who combined public success with genuine warmth toward audience and colleagues – a stage presence that generated admiration without coming across as cold or distant.</p>
-          <p class="vb-intro">The shadow of the Three shows in the consistency with which he held on to the public stage even in the face of his own fatal diagnosis: after his September 2015 return to the Met, further appearances followed almost up to his death, including a widely noted surprise appearance at the 2017 Met Gala – a pattern in which it's hard to say where love of the art ends and the need to maintain the public image to the very end begins.</p>
+          <p class="vb-intro">The shadow of the Three shows in the consistency with which he held on to the public stage even in the face of his own fatal diagnosis: after his September 2015 return to the Met, further appearances followed almost up to his death: having had to cancel all staged opera performances in December 2016 due to illness-related balance problems, he stepped onto the Met stage unannounced on May 7, 2017, at the gala marking the company's 50th anniversary at Lincoln Center, and sang the aria "Cortigiani, vil razza dannata" from Verdi's "Rigoletto" – the 4,000-strong audience rose for a minutes-long standing ovation. A pattern in which it's hard to say where love of the art ends and the need to maintain the public image to the very end begins.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Healing Path</h2>
