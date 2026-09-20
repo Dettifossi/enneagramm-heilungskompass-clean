@@ -2139,3 +2139,69 @@ export function heinzRuehmannPortraitPage() {
     </div>
   `);
 }
+
+export function leaMichelePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lea-michele-portrait.jpg" alt="Lea Michele – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lea Michele</p>
+        <p class="krim-portrait-typ">SO2w3 · Social Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">American singer and actress, b. 1986 – Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever on Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two – devoted, irresistibly drawn to being needed and loved, with a devotion that likes to express itself in big, visible gestures. Lea Michele Sarfati, born 1986 in the Bronx, was already on Broadway at age eight – her first engagement in "Les Misérables," long before she was even a teenager. After an acclaimed lead role in "Spring Awakening," she left the production in 2008 to turn toward a new, even bigger stage.</p>
+          <p class="vb-intro">In 2009 she was cast as Rachel Berry in the musical series "Glee" – the ambitious, recognition-hungry leader of a high school glee club. The role fit the young actress playing her almost eerily well: a character whose entire self-worth hinged on being seen, needed, and ultimately loved.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Love That Wants to Be Seen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> looks for belonging not in quiet devotion to individuals, but in the big, public proof of her own indispensability to a group. Michele campaigned publicly for more than a decade for the role of Fanny Brice in "Funny Girl" – the legendary Broadway role shaped by Barbra Streisand – and made no secret of that wish, turning it instead into a years-long, almost affectionate public campaign.</p>
+          <p class="vb-intro">Her relationship with her "Glee" co-star Cory Monteith, public from 2012 on, showed the same underlying stance: closeness that wasn't kept hidden, but lived openly. After his death in 2013 from an overdose, she had his last words to her tattooed on her skin – affection expressed in a lasting, visible mark, not only in private grief.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: A Decade-Long Dream as a Career Goal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the social Two a sharp sense for image, success, and the right stage at the right time. When Beanie Feldstein left the "Funny Girl" revival early in 2022, Michele took over the role starting September 6, 2022 – the culmination of a publicly celebrated, years-long campaign for exactly this one role, at exactly this moment.</p>
+          <p class="vb-intro">Her work beyond "Glee" carries the same signature: four studio albums, two New York Times bestselling books, a consistently maintained public image as a Broadway prodigy. The Three makes sure devotion isn't just felt, but also translated visibly into success.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Actual Achievement: Vocal Precision Since Childhood</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What actually distinguishes Michele is a technically exceptionally clean singing voice, trained since childhood, with substantial belt power in the upper register – a Broadway craft that develops not through talent alone, but through decades of disciplined stage practice. This technique carried "Glee," a show that demanded live-sung, camera-ready vocal performances week after week – a load under which many classically trained singers would have struggled.</p>
+          <p class="vb-intro">That very substance is what allowed her, in 2022, to take on one of the most demanding female lead roles in American musical theater: Fanny Brice requires comedic timing, dramatic depth, and a vocal range measured against Streisand's own recording. That Michele not only landed the role but held her own in it was not pure PR – it was earned craft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the light, Michele's SO2w3 shows itself as total devotion to her own craft and to the people she loves – public, visible, without false restraint.</p>
+          <p class="vb-intro">The shadow of the Two showed clearly in 2020: her former "Glee" co-star Samantha Marie Ware publicly accused her of creating a toxic environment on set and subjecting her to "traumatic microaggressions." Michele apologized publicly, while also stating she did not remember the specific incidents – a response many criticized as insufficient. This is exactly where the flip side of the SO2 with Three-wing shows: the same intensity with which affection and recognition are sought can turn into control and harshness toward those who stand in the way or don't give enough back – behind the publicly maintained facade of the lovable star.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Two's healing path leads from the question <em>Am I loved if I don't constantly prove how needed I am?</em> to the realization <em>I am lovable, even without the grand gesture.</em> Michele herself responded to the 2020 criticism with a public apology – a first, if incomplete, step away from pure self-presentation as the flawlessly lovable one, toward actually taking responsibility.</p>
+          <p class="vb-intro">Her 2022 Broadway comeback, after more than a decade of openly campaigning for this one role, shows the mature side of the same pattern at the same time: a dream that wasn't secretly nursed, but openly pursued and finally redeemed through her own achievement. The golden retriever who finally found the stage where devotion and skill no longer stood in contradiction.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: subtype profile"},
+        {route:"beruehmte-eva-peron", label:"Portrait: Eva Perón (SO2w3)"},
+        {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
+        {route:"beruehmte-zoe-saldana", label:"Portrait: Zoe Saldaña (SO2w3)"},
+      ])}
+    </div>
+  `);
+}

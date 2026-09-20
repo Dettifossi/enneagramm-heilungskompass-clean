@@ -436,6 +436,7 @@ export function evaPeronPortraitPage() {
         {route:"beruehmte-kamala-harris", label:"Porträt: Kamala Harris (SO2w3)"},
         {route:"beruehmte-truman-capote", label:"Porträt: Truman Capote (SO2w3)"},
         {route:"beruehmte-benjamin-disraeli", label:"Porträt: Benjamin Disraeli (SO2w3)"},
+        {route:"beruehmte-lea-michele", label:"Porträt: Lea Michele (SO2w3)"},
         {route:"beruehmte-mira-murati", label:"Porträt: Mira Murati (SO2w3)"},
         {route:"beruehmte-mata-hari", label:"Porträt: Mata Hari (SX2w3)"},
       ])}

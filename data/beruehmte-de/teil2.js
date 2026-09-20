@@ -2139,3 +2139,69 @@ export function bennySafdiePortraitPage() {
     </div>
   `);
 }
+
+export function leaMichelePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lea-michele-portrait.jpg" alt="Lea Michele – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lea Michele</p>
+        <p class="krim-portrait-typ">SO2w3 · Sozialer Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanische Sängerin und Schauspielerin, geb. 1986 – Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever auf der Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei – zugewandt, unwiderstehlich darauf aus, gebraucht und geliebt zu werden, mit einer Hingabe, die sich am liebsten in großen, sichtbaren Gesten zeigt. Lea Michele Sarfati, 1986 in der Bronx geboren, stand bereits mit acht Jahren am Broadway – ihr erstes Engagement in ›Les Misérables‹, lange bevor sie ein Teenager war. Nach einer gefeierten Hauptrolle in ›Spring Awakening‹ verließ sie die Produktion 2008, um sich einer neuen, noch größeren Bühne zuzuwenden.</p>
+          <p class="vb-intro">2009 wurde sie als Rachel Berry in der Musical-Serie ›Glee‹ besetzt – die ehrgeizige, nach Anerkennung hungernde Anführerin eines Schul-Glee-Clubs. Die Rolle passte fast unheimlich genau zu der jungen Darstellerin, die sie spielte: eine Figur, deren gesamtes Selbstwertgefühl daran hing, gesehen, gebraucht und schließlich geliebt zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Liebe, die sichtbar sein will</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> sucht Zugehörigkeit nicht in der stillen Zuwendung zu Einzelnen, sondern im großen, öffentlichen Beweis der eigenen Unentbehrlichkeit für eine Gruppe. Michele kämpfte mehr als ein Jahrzehnt öffentlich um die Rolle der Fanny Brice in ›Funny Girl‹ – jener legendären, von Barbra Streisand geprägten Broadway-Figur – und machte aus diesem Wunsch kein Geheimnis, sondern eine über Jahre sichtbare, fast liebevolle Kampagne in der Öffentlichkeit.</p>
+          <p class="vb-intro">Ihre Beziehung zu ihrem ›Glee‹-Co-Star Cory Monteith, öffentlich ab 2012, zeigte dieselbe Grundhaltung: Nähe, die nicht im Verborgenen blieb, sondern offen gelebt wurde. Nach seinem Tod 2013 an einer Überdosis trug sie sich seine letzten Worte an sie als Tätowierung auf die Haut – Zuneigung, die sich in einem bleibenden, sichtbaren Zeichen ausdrückte, nicht nur in stiller Trauer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Der jahrzehntelange Traum als Karriereziel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sozialen Zwei ein scharfes Gespür für Image, Erfolg und die richtige Bühne zur richtigen Zeit. Als 2022 Beanie Feldstein die ›Funny Girl‹-Neuauflage vorzeitig verließ, übernahm Michele die Rolle ab dem 6. September 2022 – der Abschluss einer öffentlich zelebrierten, jahrelangen Kampagne für genau diese eine Rolle, in genau diesem Moment.</p>
+          <p class="vb-intro">Auch ihr Werk jenseits von ›Glee‹ trägt diese Handschrift: vier Studioalben, zwei New-York-Times-Bestseller-Bücher, ein durchgehend gepflegtes öffentliches Bild als Broadway-Wunderkind. Die Drei sorgt dafür, dass Hingabe nicht nur gefühlt, sondern auch sichtbar in Erfolg übersetzt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Stimmliche Präzision seit Kindestagen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Michele tatsächlich auszeichnet, ist eine seit dem Kindesalter geschulte, technisch außergewöhnlich saubere Gesangsstimme mit großer Belt-Kraft im oberen Register – ein Broadway-Handwerk, das sich nicht durch Talent allein, sondern durch Jahrzehnte disziplinierter Bühnenpraxis entwickelt. Diese Technik trug ›Glee‹ maßgeblich, eine Serie, die live gesungene, kamerataugliche Vokalleistungen wöchentlich verlangte – eine Belastung, an der viele klassisch ausgebildete Sänger gescheitert wären.</p>
+          <p class="vb-intro">Genau diese Substanz erlaubte ihr 2022 den Sprung in eine der anspruchsvollsten weiblichen Hauptrollen des amerikanischen Musiktheaters: Fanny Brice verlangt komödiantisches Timing, dramatische Tiefe und eine stimmliche Bandbreite, die Streisands eigene Aufnahme zum Maßstab macht. Dass Michele diese Rolle nicht nur bekam, sondern in ihr bestand, war keine reine PR-Leistung, sondern erarbeitetes Handwerk.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Michele die SO2w3 als restlose Hingabe an das eigene Handwerk und an die Menschen, die sie liebt – öffentlich, sichtbar, ohne falsche Zurückhaltung.</p>
+          <p class="vb-intro">Der Schatten der Zwei zeigte sich 2020 deutlich: Ihre frühere ›Glee‹-Kollegin Samantha Marie Ware warf ihr öffentlich vor, am Set ein toxisches Arbeitsklima geschaffen und sie ›traumatischen Mikroaggressionen‹ ausgesetzt zu haben. Michele entschuldigte sich öffentlich, erklärte aber zugleich, sich an die konkreten Vorfälle nicht zu erinnern – eine Reaktion, die von vielen als unzureichend kritisiert wurde. Genau hier zeigt sich die Kehrseite der SO2 mit Dreierflügel: Die gleiche Intensität, mit der Zuneigung und Anerkennung gesucht werden, kann sich gegenüber denen, die dabei im Weg stehen oder nicht genug zurückgeben, in Kontrolle und Härte verkehren – hinter der öffentlich gepflegten Fassade der liebenswürdigen Rampensau.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Zwei führt von der Frage <em>Werde ich geliebt, wenn ich nicht ständig beweise, wie sehr ich gebraucht werde?</em> zur Erkenntnis <em>Ich bin liebenswert, auch ohne die große Geste.</em> Michele selbst reagierte auf die Kritik 2020 mit einer öffentlichen Entschuldigung – ein erster, wenn auch unvollständiger Schritt weg von der reinen Selbstdarstellung als die makellos Liebenswerte, hin zu tatsächlicher Verantwortungsübernahme.</p>
+          <p class="vb-intro">Ihr Broadway-Comeback 2022, nach über einem Jahrzehnt öffentlichen Werbens um genau diese eine Rolle, zeigt zugleich die reife Seite desselben Musters: ein Traum, der nicht heimlich gehegt, sondern offen verfolgt und schließlich durch eigene Leistung eingelöst wurde. Der Golden Retriever, der endlich die Bühne fand, auf der Hingabe und Können keinen Widerspruch mehr bildeten.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-eva-peron", label:"Porträt: Eva Perón (SO2w3)"},
+        {route:"beruehmte-will-smith", label:"Porträt: Will Smith (SO2w3)"},
+        {route:"beruehmte-zoe-saldana", label:"Porträt: Zoe Saldaña (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
