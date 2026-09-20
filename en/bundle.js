@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=157";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=158";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -3841,6 +3841,7 @@ text.nav = [
     { route: "enneagramm-memory", label: "Enneagram Memory (matching game, 3 levels)" },
     { route: "enneagramm-flashcards", label: "Enneagram Flashcards (guess type & subtype)" },
     { route: "subtyp-comicquiz", label: "Comic Character Quiz (guess the 27 subtypes)" },
+    { route: "subtyp-motivationsquiz", label: "Subtype Motivation Quiz (guess motivation-driven behavior)" },
     { route: "tierlexikon", label: "Animal Lexicon" },
     { route: "tierforscher-uebereinstimmung", label: "Animal-Researcher Correspondence" },
     { route: "bewusstseinsgrad-normalverteilung", label: "Levels of Consciousness & the Gaussian Normal Distribution" },
@@ -5036,12 +5037,17 @@ function leseprobePage() {
 
       <!-- 4: Interactive Learning Games -->
       <h2 style="font-family:'EB Garamond',serif;font-size:1.35rem;color:var(--ink);margin:0 0 .4rem;">Learn interactively – not just read</h2>
-      <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Four tools to deepen your knowledge playfully – drawing on all ${BERUEHMT_PORTRAITS.length + KRIMINAL_PORTRAITS.length + KRANKHEITS_PORTRAITS.length} portraits in the Compass.</p>
+      <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Tools to deepen your knowledge playfully – drawing on all ${BERUEHMT_PORTRAITS.length + KRIMINAL_PORTRAITS.length + KRANKHEITS_PORTRAITS.length} portraits in the Compass.</p>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-bottom:1.8rem;">
         <div data-route="blickqualitaeten-atlas" style="cursor:pointer;background:linear-gradient(135deg,#f0e4d0,#dfc49a);border-radius:10px;padding:.85rem .8rem;">
           <div style="font-size:1.4rem;margin-bottom:.25rem;">&#128065;</div>
           <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Gaze Quality Atlas</div>
           <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">All 27 subtypes: animal, gaze, wing & portraits</div>
+        </div>
+        <div data-route="subtyp-motivationsquiz" style="cursor:pointer;background:linear-gradient(135deg,#ece4f5,#d4c2ea);border-radius:10px;padding:.85rem .8rem;">
+          <div style="font-size:1.4rem;margin-bottom:.25rem;">&#127919;</div>
+          <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Subtype Motivation Quiz</div>
+          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Motivation-driven behavior only – 2 difficulty levels</div>
         </div>
         <div data-route="enneagramm-memory" style="cursor:pointer;background:linear-gradient(135deg,#f5e8cc,#f0d9a8);border-radius:10px;padding:.85rem .8rem;">
           <div style="font-size:1.4rem;margin-bottom:.25rem;">&#129504;</div>
@@ -20534,6 +20540,256 @@ function subtypComicQuizPage() {
   if (!_cquizState) return _cquizIntroScreen(_cquizLastLevel);
   if (_cquizState.phase === "gameOver") return _cquizGameOverScreen();
   return _cquizQuestionScreen();
+}
+
+// ───── Subtype Motivation Quiz ─────────────────────────────────────────────
+// Multiple-choice guessing game: instead of a photo, the prompt describes only
+// motivation-driven behavior (the passion/fixation of that exact subtype in a concrete
+// everyday scene) – deliberately worded without naming the instinct or type, so the task
+// stays challenging even for readers who know the subtypes well.
+const SUBTYP_MOTIVATION = [
+  { code:"SE1", text:"When something breaks at home, he prefers to fix it himself, right away, rather than ask anyone – disorder in his own immediate surroundings weighs on his conscience. She rarely shows anger openly, only in a tense, controlled tone of voice, while quietly keeping track of who hasn't kept an agreement." },
+  { code:"SO1", text:"At a club meeting, he speaks up the moment a decision drifts from the actual bylaws – not out of a need for attention, but from a felt co-responsibility for the group's correct order. She names other people's mistakes matter-of-factly but without giving ground, with a quiet claim to being above reproach herself." },
+  { code:"SX1", text:"When a partner fails to keep a promise, she doesn't respond with an open accusation but with intense, barely concealed disappointment that lingers for days. He aims, in his closest relationship, to build together with the other person the one, perfect connection that leaves nothing left to correct." },
+  { code:"SE2", text:"Instead of offering help, he tends to wait until someone asks how he's doing – she secretly hopes the care shown to her will one day match what she constantly gives to others. Small, concrete gestures of attention mean more to her than big words." },
+  { code:"SO2", text:"In a group, he naturally takes on the role without which nothing would really work, and measures his own worth by how indispensable he currently seems to the community. If she isn't needed for once, she quickly feels rejected, even when objectively nothing has happened." },
+  { code:"SX2", text:"She directs her entire attention to a single person in the room and reflects back exactly what the other seems to need – not out of calculation, but because exclusive closeness is her actual meaning in life. If that intensity goes unreturned, the initial devotion quickly tips into jealousy or a deep sense of rejection." },
+  { code:"SE3", text:"Asked about his own success, he tends to answer modestly and points to what was concretely accomplished rather than a bigger goal or image. Inwardly, she secures her self-worth not through applause but through the quiet feeling of functioning reliably and being needed." },
+  { code:"SO3", text:"Upon entering a room, he scans within seconds who holds influence there, and unconsciously adjusts his demeanor and tone to exactly match that expectation. Her real drive is the deep conviction that visible success is the only reliable proof of her own worth." },
+  { code:"SX3", text:"In a one-on-one conversation, he subtly but deliberately signals attractiveness and competence at once, almost reflexively, the moment he senses someone is truly noticing him. What she is really after, deep down, is not fame before many but the confirmation of being irresistible in the eyes of one important person." },
+  { code:"SE4", text:"Even when a lot is happening inside her, she tends to keep functioning with remarkable discipline through a crisis, while the real longing for a more authentic life barely shows on the outside. His suffering shows up less in words than in a tenacious, almost inconspicuous steadfastness." },
+  { code:"SO4", text:"In a group, she often feels like the only one who truly understands how complicated her own inner world is, and involuntarily compares herself to others without ever arriving at real belonging. Visibly displayed suffering is, for him, almost the only proof of being truly special and unique." },
+  { code:"SX4", text:"If she doesn't get the intensity she hoped for back in a relationship, she rarely responds with resignation, but with a direct, almost confrontational demand for more real closeness. He unconsciously competes with anyone who might threaten his special connection, rather than withdrawing into quiet longing." },
+  { code:"SE5", text:"Before committing to a conversation or an appointment, he inwardly makes sure enough retreat space and time for himself stays secured, if necessary through fixed, almost ritual routines. Her greatest worry isn't loneliness, but that her own limited energy might be claimed from outside." },
+  { code:"SO5", text:"In a professional discussion, he readily contributes his knowledge once he senses it's actually needed – intellectual contribution is, for him, the real way of belonging to a group. She often unknowingly replaces direct emotional exchange with sharing concepts and ideas." },
+  { code:"SX5", text:"Outwardly she seems reserved and hard to reach, yet once real trust builds toward a single person, he opens up surprisingly intensely and personally. Her actual goal isn't distance, but the one deep, exclusive connection in which she can fully show herself." },
+  { code:"SE6", text:"She deliberately seeks out a small, reliable network of people she trusts, and sticks with it even when objectively better options exist. For him, security comes above all from belonging to something warm and dependable, not from his own strength." },
+  { code:"SO6", text:"When making important decisions, he prefers to orient himself by a recognized rule, an institution, or a clear authority rather than relying solely on his own judgment. Her loyalty belongs less to individual people than to the system or idea she serves – doubts about it feel more threatening to her than personal criticism." },
+  { code:"SX6", text:"Where others shrink from confrontation, he tends to actively seek it out – not from recklessness, but to prove to himself that his own fear doesn't control him. She often unconsciously tests relationships for how much strain they can bear before she feels safe enough to let trust in." },
+  { code:"SE7", text:"Before a trip or a bigger undertaking, he reliably makes sure practically nothing is missing – supplies, contacts, a backup plan – and enjoys this abundance visibly and concretely. His fear of scarcity shows up less in words than in an almost automatic need to always feel well provided for." },
+  { code:"SO7", text:"Rather than openly living out personal enjoyment, she prefers to put her enthusiasm in service of a shared project or a vision others can join. His enthusiasm thereby comes across as more idealistic and less self-centered, as if his own joy first had to be justified by a higher purpose." },
+  { code:"SX7", text:"He quickly and genuinely gets swept up by a new idea, a person, or an experience – almost idealizing it – and visibly transmits that fascination to others nearby. Once the thing loses its appeal, she turns to the next undertaking with the same intensity, without looking back for long." },
+  { code:"SE8", text:"Before relying on others, he makes sure himself that his basic needs are met, if necessary on his own and without asking around much. She dislikes having authorities dictate to her, especially when it would limit her own hands-on independence." },
+  { code:"SO8", text:"If someone in his group comes under pressure, he steps in front of them protectively without being asked – his strength shows less in personal advantage than in standing up for others he feels loyally connected to. She often takes control quite naturally, without being fully aware of it herself." },
+  { code:"SX8", text:"In a close relationship, she claims the other person with an intensity that can quickly look like possessiveness, even though what she really wants is complete, undivided devotion. A compromise in the middle often feels harder for him to bear than an open, directly fought-out conflict." },
+  { code:"SE9", text:"After a stressful day, he tends to reach for a familiar habit rather than actively engage with what's really on his mind. Her inner calm comes less from real clarification than from consciously keeping away anything that might disturb that calm." },
+  { code:"SO9", text:"In a group, she readily takes on tasks that would otherwise be left undone, and often unknowingly puts her own opinion aside for the sake of communal peace. What he himself actually wants recedes so far into the background that he can barely name it later." },
+  { code:"SX9", text:"In a close relationship, she noticeably often adopts the partner's preferences, interests, and even daily rhythm, until the line between her own wishes and the shared ones is barely perceptible. For him, complete merging with a loved person feels more like fulfillment than a loss of his own identity." },
+];
+
+const SQUIZ_TOTAL_ROUNDS = 10;
+const SQUIZ_LEVEL_META = {
+  1: { label: "Subtype Motivation Quiz I", sub: "Beginner · only the core type counts",
+       rule: "You read a short behavior scene that shows only the <strong>motivation</strong> behind the action (not wing, stress-point, or general behavior). Four answer options, each a <strong>core type (1&ndash;9)</strong> – the instinctual variant doesn't matter." },
+  2: { label: "Subtype Motivation Quiz II", sub: "Expert · full subtype (instinct+type)",
+       rule: "You read the same scenes as in level I, but the four answer options now each show the <strong>full subtype</strong> (e.g. SO4). The exact combination of instinctual variant and type is asked for – noticeably harder." },
+};
+
+let _squizState = null;
+let _squizLastLevel = 1;
+
+function _squizBestKey(level) { return "kompass:squizBest:" + level; }
+function _squizSaveBest(level, score) {
+  try {
+    const prev = parseInt(localStorage.getItem(_squizBestKey(level)) || "0", 10);
+    if (score > prev) localStorage.setItem(_squizBestKey(level), String(score));
+  } catch (e) {}
+}
+function _squizGetBest(level) {
+  try { return parseInt(localStorage.getItem(_squizBestKey(level)) || "0", 10); } catch (e) { return 0; }
+}
+function _squizRerender() {
+  if (location.hash === "#subtyp-motivationsquiz") { render(); } else { location.hash = "subtyp-motivationsquiz"; }
+}
+function _squizShuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+
+function _squizPickQuestion(level, usedCodes) {
+  const pool = SUBTYP_MOTIVATION.filter(s => !usedCodes.has(s.code));
+  const source = pool.length ? pool : SUBTYP_MOTIVATION;
+  const item = _squizShuffle(source)[0];
+  const correctKey = level === 1 ? item.code.slice(2) : item.code;
+  let distractPool;
+  if (level === 1) {
+    distractPool = ["1","2","3","4","5","6","7","8","9"].filter(n => n !== correctKey);
+  } else {
+    distractPool = SUBTYP_MOTIVATION.map(s => s.code).filter(c => c !== correctKey);
+  }
+  const distractors = _squizShuffle(distractPool).slice(0, 3);
+  const options = _squizShuffle([correctKey, ...distractors]);
+  return { item, correctKey, options };
+}
+
+function _squizNextRound() {
+  const st = _squizState;
+  if (!st) return;
+  st.round += 1;
+  if (st.round > SQUIZ_TOTAL_ROUNDS) {
+    st.phase = "gameOver";
+    _squizSaveBest(st.level, st.score);
+    _squizRerender();
+    return;
+  }
+  const q = _squizPickQuestion(st.level, st.usedCodes);
+  st.usedCodes.add(q.item.code);
+  st.question = q;
+  st.answered = false;
+  st.selectedKey = null;
+  st.phase = "question";
+  _squizRerender();
+}
+
+window._squizStart = function (level) {
+  const lvl = SQUIZ_LEVEL_META[level] ? level : 1;
+  _squizLastLevel = lvl;
+  _squizState = { level: lvl, phase: "question", round: 0, score: 0, question: null, answered: false, selectedKey: null, usedCodes: new Set() };
+  _squizNextRound();
+};
+window._squizSwitchLevel = function (level) {
+  const lvl = SQUIZ_LEVEL_META[level] ? level : 1;
+  _squizLastLevel = lvl;
+  _squizState = null;
+  _squizRerender();
+};
+window._squizAnswer = function (key) {
+  const st = _squizState;
+  if (!st || st.phase !== "question" || st.answered) return;
+  st.answered = true;
+  st.selectedKey = key;
+  if (key === st.question.correctKey) st.score += 1;
+  _squizRerender();
+};
+window._squizNextRound = function () { _squizNextRound(); };
+window._squizRestart = function () {
+  const lvl = _squizState ? _squizState.level : 1;
+  window._squizStart(lvl);
+};
+
+function _squizLevelSwitcher(currentLevel) {
+  const items = [1,2].map(l => {
+    const active = l === currentLevel;
+    return active
+      ? `<span class="mem-level-pill mem-level-pill--active">${l===1?"I":"II"}</span>`
+      : `<a href="javascript:void(0)" class="mem-level-pill" onclick="window._squizSwitchLevel(${l})">${l===1?"I":"II"}</a>`;
+  }).join("");
+  return `<div class="mem-level-switcher"><span class="mem-level-switcher-label">Level:</span>${items}</div>`;
+}
+
+function _squizKeyLabel(key, level) {
+  return level === 1 ? "Type " + key : key;
+}
+
+function _squizIntroScreen(level) {
+  const meta = SQUIZ_LEVEL_META[level];
+  const best = _squizGetBest(level);
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; ${meta.label}</p>
+        <h1 class="section-title">${meta.label}</h1>
+        ${_squizLevelSwitcher(level)}
+        <p class="psycho-intro">A short everyday scene that shows only <strong>motivation-driven behavior</strong> – not wing, stress-point, or general behavior – four answer options, instant feedback, 10 questions per round.</p>
+        <div class="flash-rule-box">
+          <p class="flash-rule-box-label">What is asked in this level?</p>
+          <p style="margin:0;">${meta.rule}</p>
+        </div>
+        ${best > 0 ? `<p style="text-align:center;color:var(--muted);font-size:0.9rem;margin-bottom:1.2rem;">Your best score in this level: <strong style="color:var(--ink);">${best}/${SQUIZ_TOTAL_ROUNDS}</strong></p>` : ""}
+        <div style="text-align:center;">
+          <button class="flash-btn" onclick="window._squizStart(${level})">Start quiz &rarr;</button>
+        </div>
+      </div>
+      ${_flashStyles()}
+    </div>
+  `);
+}
+
+function _squizQuestionScreen() {
+  const st = _squizState;
+  const meta = SQUIZ_LEVEL_META[st.level];
+  const q = st.question;
+  const optionsHtml = q.options.map(key => {
+    const display = _squizKeyLabel(key, st.level);
+    let cls = "flash-opt";
+    let disabled = st.answered ? "disabled" : "";
+    if (st.answered) {
+      if (key === q.correctKey) cls += " flash-opt--correct";
+      else if (key === st.selectedKey) cls += " flash-opt--wrong";
+    }
+    const onclick = st.answered ? "" : ` onclick="window._squizAnswer('${key}')"`;
+    return `<button class="${cls}" ${disabled}${onclick}>${display}</button>`;
+  }).join("");
+
+  let feedback = "";
+  if (st.answered) {
+    const correct = st.selectedKey === q.correctKey;
+    const isLast = st.round >= SQUIZ_TOTAL_ROUNDS;
+    feedback = `
+      <div class="flash-feedback">
+        <p><strong>${correct ? "Correct!" : "Not quite."}</strong></p>
+        <div class="flash-name-reveal">${_squizKeyLabel(q.correctKey, st.level)} (${q.item.code})</div>
+        <button class="flash-btn" onclick="window._squizNextRound()">${isLast ? "Final result &rarr;" : "Next question &rarr;"}</button>
+      </div>
+    `;
+  }
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; ${meta.label}</p>
+        <h1 class="section-title">${meta.label}</h1>
+        ${_squizLevelSwitcher(st.level)}
+        <div class="flash-hud">
+          <span>Question <strong>${st.round}</strong> / ${SQUIZ_TOTAL_ROUNDS}</span>
+          <span>Score: <strong>${st.score}</strong></span>
+        </div>
+        <div style="background:linear-gradient(135deg,#2c2c2c,#1e1e1e);border-radius:14px;padding:1.6rem 1.4rem;margin:1rem 0 1.2rem;">
+          <p style="color:#f5e9d0;font-family:'EB Garamond',Georgia,serif;font-size:1.05rem;line-height:1.6;margin:0;">${q.item.text}</p>
+        </div>
+        <p style="text-align:center;color:var(--muted);font-size:0.85rem;">${st.level === 1 ? "Which core type is acting out of its motivation here?" : "Which full subtype is acting out of its motivation here?"}</p>
+        <div class="flash-options">${optionsHtml}</div>
+        ${feedback}
+      </div>
+      ${_flashStyles()}
+    </div>
+  `);
+}
+
+function _squizGameOverScreen() {
+  const st = _squizState;
+  const meta = SQUIZ_LEVEL_META[st.level];
+  const best = _squizGetBest(st.level);
+  const pct = Math.round((st.score / SQUIZ_TOTAL_ROUNDS) * 100);
+  let msg;
+  if (pct >= 90) msg = "Exceptional &ndash; you recognize the motivation behind the behavior with confidence!";
+  else if (pct >= 70) msg = "Very good! You're already clearly distinguishing motivation from general behavior.";
+  else if (pct >= 40) msg = "Solid round &ndash; telling motivation apart from general behavior takes practice.";
+  else msg = "A start &ndash; separating motivation-driven behavior from wing or stress-point behavior is demanding. Try again?";
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content" style="text-align:center;">
+        <p class="eyebrow">Knowledge &middot; ${meta.label}</p>
+        <h1 class="section-title">${st.score} out of ${SQUIZ_TOTAL_ROUNDS} correct</h1>
+        ${_squizLevelSwitcher(st.level)}
+        <p style="color:var(--muted);margin:0 0 0.8rem;">${pct}&thinsp;%</p>
+        <p style="max-width:420px;margin:0 auto 1rem;">${msg}</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin-bottom:2rem;">Best score in this level: <strong style="color:var(--ink);">${best}/${SQUIZ_TOTAL_ROUNDS}</strong></p>
+        <button class="flash-btn" onclick="window._squizRestart()">New round &rarr;</button>
+      </div>
+      ${_flashStyles()}
+    </div>
+  `);
+}
+
+function subtypMotivationsQuizPage() {
+  if (!_squizState) return _squizIntroScreen(_squizLastLevel);
+  if (_squizState.phase === "gameOver") return _squizGameOverScreen();
+  return _squizQuestionScreen();
 }
 
 function blickqualitaetenAtlasPage() {
@@ -53873,6 +54129,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-norah-jones": norahJonesPortraitPage,
       "beruehmte-anna-netrebko": annaNetrebkoPortraitPage,
       "beruehmte-barbara-bleisch": barbaraBleischPortraitPage,
+      "subtyp-motivationsquiz": subtypMotivationsQuizPage,
       "beruehmte-caren-miosga": carenMiosgaPortraitPage,
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
       "beruehmte-madame-tussaud": madameTussaudPortraitPage,
