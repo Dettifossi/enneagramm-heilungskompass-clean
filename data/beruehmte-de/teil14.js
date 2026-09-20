@@ -2140,3 +2140,68 @@ export function heinzRuehmannPortraitPage() {
     </div>
   `);
 }
+
+export function dmitriHvorostovskyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dmitri-hvorostovsky-portrait.jpg" alt="Dmitri Hvorostovsky – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dmitri Hvorostovsky</p>
+        <p class="krim-portrait-typ">SO3w2 · Sozialer Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Russischer Opernbariton, 1962–2017 – Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard aus Sibirien</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – schnell, auffällig, gebaut für den einen entscheidenden Moment, in dem alle Blicke auf ihn gerichtet sind. Dmitri Hvorostovsky, 1962 im sibirischen Krasnojarsk geboren, brauchte genau zwei internationale Wettbewerbe, um von der Provinz auf die Weltbühne zu springen: 1987 gewann er den ersten Preis der Glinka-Competition, 1989 dann den BBC Cardiff Singer of the World – und schlug dabei im Finale den walisischen Bassbariton Bryn Terfel, der zuvor als Favorit gehandelt worden war.</p>
+          <p class="vb-intro">Danach folgten binnen weniger Jahre Auftritte an praktisch jedem großen Opernhaus der Welt. Der Gepard wartet nicht lange auf seine Chance – er ergreift sie, sobald sie sich zeigt, und verwandelt einen einzigen gewonnenen Wettbewerb in eine jahrzehntelange internationale Karriere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Der ›Elvis der Oper‹</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> sucht Erfolg nicht im stillen Kämmerlein, sondern auf der großen, öffentlich sichtbaren Bühne – Anerkennung durch ein möglichst breites Publikum ist ihr eigentliches Ziel. Kaum ein Spitzname bringt das so treffend auf den Punkt wie jener, der Hvorostovsky international anhaftete: der ›Elvis der Oper‹ – ein Bild, das weit über die klassische Musikwelt hinaus Wiedererkennung schuf.</p>
+          <p class="vb-intro">Sein markantestes äußeres Merkmal, eine bereits vor dem 35. Lebensjahr silbern gewordene, später schneeweiße Haarmähne, wurde bewusst zum Markenzeichen – ein Bild, das ihn auf jedem Plakat und jeder Konzertankündigung sofort erkennbar machte. Die Drei weiß, dass Wiedererkennbarkeit selbst Teil der Leistung ist, nicht nur Zugabe zu ihr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Großzügigkeit gegenüber dem Publikum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sozialen Drei eine warme, zugewandte Note, die reinen Erfolgsehrgeiz übersteigt. Wegbegleiter und Kritiker beschrieben Hvorostovsky übereinstimmend nicht nur als technisch herausragenden Sänger, sondern als jemanden mit echter, spürbarer Großzügigkeit gegenüber seinem Publikum und seinen Kollegen auf der Bühne – eine elektrisierende Bühnenpräsenz, die auf Verbindung zielte, nicht nur auf Bewunderung.</p>
+          <p class="vb-intro">Diese Kombination aus Drei und Zwei zeigte sich auch darin, wie er mit Kolleginnen wie Anna Netrebko auf der Bühne interagierte: als Partner, der das gemeinsame Bild trug, nicht als Solist, der andere überstrahlen wollte. Erfolg wurde geteilt, nicht gehortet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Eine unverwechselbare Stimmfarbe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Hvorostovsky tatsächlich auszeichnete, war eine außergewöhnlich dunkle, warme Baritonfarbe – von Kritikern oft als ›burgunderrot‹ beschrieben –, gepaart mit einer Atemkontrolle, die selbst in langen, expressiven Legato-Linien nie an Substanz verlor. Diese Stimme verband russische Melancholie mit einer italienisch geprägten, gesanglichen Geschmeidigkeit – eine seltene Kombination, die ihn besonders in den Verdi-Partien seiner späteren Karriere zur ersten Wahl großer Opernhäuser machte.</p>
+          <p class="vb-intro">Diese technische Substanz war kein Zufall der Stimmbänder allein, sondern das Ergebnis jahrelanger Disziplin – hörbar auch dann noch, als er 2015 nach der Diagnose eines Hirntumors im September desselben Jahres an die Metropolitan Opera zurückkehrte, um als Graf di Luna in ›Il trovatore‹ drei Vorstellungen an der Seite Anna Netrebkos zu singen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Hvorostovsky die SO3w2 als jemand, der öffentlichen Erfolg mit echter Wärme gegenüber Publikum und Kollegen verband – eine Bühnenpräsenz, die Bewunderung erzeugte, ohne kalt oder distanziert zu wirken.</p>
+          <p class="vb-intro">Der Schatten der Drei zeigt sich in der Konsequenz, mit der er auch angesichts der eigenen tödlichen Diagnose an der öffentlichen Bühne festhielt: Der Rückkehr an die Met im September 2015 folgten weitere Auftritte bis kurz vor seinem Tod, darunter eine viel beachtete Überraschung bei der Met-Gala 2017 – ein Muster, in dem sich schwer entscheiden lässt, wo die Liebe zur Kunst endet und wo die Notwendigkeit beginnt, das öffentliche Bild bis zuletzt aufrechtzuerhalten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Bin ich nur wertvoll, wenn ich glänze?</em> zur Erkenntnis <em>Ich bin wertvoll, auch jenseits der Bühne.</em> Dass Hvorostovsky in seinen letzten Lebensjahren nicht nur weiter auftrat, sondern die Verletzlichkeit der eigenen Erkrankung öffentlich nicht verbarg, zeigt eine reifere Seite desselben Musters: Stärke, die sich nicht mehr ausschließlich über Makellosigkeit definiert.</p>
+          <p class="vb-intro">Er starb am 22. November 2017 in London, 55-jährig, nach über zwei Jahren Kampf gegen den Hirntumor. Der Gepard, dessen letzter Sprint nicht mehr dem nächsten Wettbewerb galt, sondern dem einfachen Wunsch, so lange wie möglich auf der Bühne zu bleiben, die er liebte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-ludwig-xiv", label:"Porträt: Ludwig XIV. (SO3w2)"},
+        {route:"beruehmte-enrico-caruso", label:"Porträt: Enrico Caruso (SE3w2)"},
+      ])}
+    </div>
+  `);
+}

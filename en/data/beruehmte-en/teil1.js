@@ -1028,6 +1028,7 @@ export function ludwigXIVPortraitPage() {
         {route:"beruehmte-christiaan-barnard", label:"Portrait: Christiaan Barnard (SO3w2)"},
         {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-klemens-von-metternich", label:"Portrait: Klemens von Metternich (SO3w2)"},
+        {route:"beruehmte-dmitri-hvorostovsky", label:"Portrait: Dmitri Hvorostovsky (SO3w2)"},
       ])}
     </div>
   `);

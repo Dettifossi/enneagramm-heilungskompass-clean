@@ -1027,6 +1027,7 @@ export function ludwigXIVPortraitPage() {
         {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
         {route:"beruehmte-christiaan-barnard", label:"Porträt: Christiaan Barnard (SO3w2)"},
         {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
+        {route:"beruehmte-dmitri-hvorostovsky", label:"Porträt: Dmitri Hvorostovsky (SO3w2)"},
         {route:"beruehmte-klemens-von-metternich", label:"Porträt: Klemens von Metternich (SO3w2)"},
       ])}
     </div>

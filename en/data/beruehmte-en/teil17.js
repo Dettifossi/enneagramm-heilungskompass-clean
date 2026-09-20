@@ -2144,3 +2144,68 @@ export function kimEngPortraitPage() {
     </div>
   `);
 }
+
+export function dmitriHvorostovskyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dmitri-hvorostovsky-portrait.jpg" alt="Dmitri Hvorostovsky – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dmitri Hvorostovsky</p>
+        <p class="krim-portrait-typ">SO3w2 · Social Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Russian operatic baritone, 1962–2017 – Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Cheetah from Siberia</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Cheetah</strong> is the animal of the social Three – fast, striking, built for the one decisive moment when every eye is on it. Dmitri Hvorostovsky, born 1962 in Siberian Krasnoyarsk, needed exactly two international competitions to leap from the provinces to the world stage: in 1987 he won first prize at the Glinka Competition, then in 1989 the BBC Cardiff Singer of the World – beating the Welsh bass-baritone Bryn Terfel, who had been the favorite going into the final.</p>
+          <p class="vb-intro">Within a few years, appearances followed at practically every major opera house in the world. The cheetah doesn't wait long for its chance – it seizes it the moment it appears, turning a single won competition into a decades-long international career.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Three: The "Elvis of Opera"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Three (SO3)</strong> looks for success not in the quiet study, but on the big, publicly visible stage – recognition by as broad an audience as possible is her actual goal. Few nicknames capture that as precisely as the one that stuck to Hvorostovsky internationally: the "Elvis of Opera" – an image that created recognition far beyond the world of classical music.</p>
+          <p class="vb-intro">His most striking physical trait, a mane of hair that turned silver before he was 35 and later polar-bear white, became a deliberate trademark – an image that made him instantly recognizable on every poster and concert announcement. The Three knows that recognizability is itself part of the achievement, not just an add-on to it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: Generosity Toward the Audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the social Three a warm, engaged quality that goes beyond pure ambition. Colleagues and critics consistently described Hvorostovsky not only as a technically outstanding singer, but as someone with a genuine, palpable generosity toward his audience and his fellow performers on stage – an electrifying stage presence aimed at connection, not just admiration.</p>
+          <p class="vb-intro">This combination of Three and Two also showed in how he interacted with colleagues like Anna Netrebko on stage: as a partner who carried the shared picture, not a soloist out to outshine others. Success was shared, not hoarded.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Actual Achievement: An Unmistakable Vocal Color</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What actually distinguished Hvorostovsky was an exceptionally dark, warm baritone color – often described by critics as "burgundy" – paired with breath control that never lost substance even across long, expressive legato lines. This voice combined Russian melancholy with an Italianate vocal suppleness – a rare combination that made him, especially in the Verdi roles of his later career, a first choice for major opera houses.</p>
+          <p class="vb-intro">This technical substance was no accident of the vocal cords alone, but the result of years of discipline – still audible even after he returned to the Metropolitan Opera in September 2015, following his brain tumor diagnosis that June, to sing three performances as Count di Luna in "Il trovatore" opposite Anna Netrebko.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the light, Hvorostovsky's SO3w2 shows someone who combined public success with genuine warmth toward audience and colleagues – a stage presence that generated admiration without coming across as cold or distant.</p>
+          <p class="vb-intro">The shadow of the Three shows in the consistency with which he held on to the public stage even in the face of his own fatal diagnosis: after his September 2015 return to the Met, further appearances followed almost up to his death, including a widely noted surprise appearance at the 2017 Met Gala – a pattern in which it's hard to say where love of the art ends and the need to maintain the public image to the very end begins.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's healing path leads from the question <em>Am I only valuable when I shine?</em> to the realization <em>I am valuable, even beyond the stage.</em> That Hvorostovsky, in his final years, not only kept performing but also did not hide the vulnerability of his own illness from the public shows a more mature side of the same pattern: strength no longer defined exclusively through flawlessness.</p>
+          <p class="vb-intro">He died on November 22, 2017, in London, at 55, after more than two years fighting the brain tumor. The cheetah whose final sprint was no longer aimed at the next competition, but at the simple wish to stay on the stage he loved for as long as possible.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: subtype profile"},
+        {route:"beruehmte-ludwig-xiv", label:"Portrait: Louis XIV (SO3w2)"},
+        {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SE3w2)"},
+      ])}
+    </div>
+  `);
+}

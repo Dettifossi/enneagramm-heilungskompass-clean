@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2357", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Dmitri Hvorostovsky (SO3w2) – der ›Elvis der Oper‹.", text_en: "New portrait under \"Famous Personalities\": Dmitri Hvorostovsky (SO3w2) – the \"Elvis of Opera.\"", route: "beruehmte-dmitri-hvorostovsky" },
     { version: "v2356", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Lea Michele (SO2w3) – Glee-Star und Broadway-Sängerin.", text_en: "New portrait under \"Famous Personalities\": Lea Michele (SO2w3) – Glee star and Broadway singer.", route: "beruehmte-lea-michele" },
     { version: "v2355", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Cornelia Funke (SO1w9) – Autorin der Tintenherz-Trilogie.", text_en: "New portrait under \"Famous Personalities\": Cornelia Funke (SO1w9) – author of the Inkheart trilogy.", route: "beruehmte-cornelia-funke" },
     { version: "v2354", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Gabi Garcia (SO8w7) – 9-fache Jiu-Jitsu-Weltmeisterin.", text_en: "New portrait under \"Famous Personalities\": Gabi Garcia (SO8w7) – 9-time Jiu-Jitsu world champion.", route: "beruehmte-gabi-garcia" },
