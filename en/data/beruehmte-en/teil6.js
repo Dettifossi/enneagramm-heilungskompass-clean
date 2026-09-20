@@ -2179,7 +2179,7 @@ export function volkerGerhardtPortraitPage() {
         <h2 class="vb-section">1. The Goose Who Guards Two Works for Decades</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Volker Gerhardt was born in 1944 in Guben and grew up in Hagen, Westphalia. He studied philosophy, psychology, law, and sociology in Frankfurt and Münster, earned his doctorate in 1974, and completed his habilitation in 1984. After a professorship in Münster (from 1985) and a guest professorship in Zurich (1986), he taught philosophy at Humboldt University Berlin from 1992 to 2012, where he continues to serve as senior professor today.</p>
-          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; watchful, principled, responsible for the order of a whole rather than for its own stage. Hardly anyone shows this pattern as concretely as Gerhardt: from 2001 to 2023 he chaired the Nietzsche Commission of the Berlin-Brandenburg Academy of Sciences, overseeing the critical complete edition of Nietzsche's work for over two decades. In parallel, in 2001 he initiated a new academy edition of Kant's works &ndash; an editorial project planned through 2026, whose chairmanship and project leadership also fell to him.</p>
+          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; watchful, principled, responsible for the order of a whole rather than for its own stage. Hardly anyone shows this pattern as concretely as Gerhardt: from 2001 to 2023 he chaired the Nietzsche Commission of the Berlin-Brandenburg Academy of Sciences, overseeing the critical complete edition of the work of <a href="javascript:void(0)" data-route="beruehmte-friedrich-nietzsche">Friedrich Nietzsche</a> (SX5w4) for over two decades. In parallel, in 2001 he initiated a new academy edition of Kant's works &ndash; an editorial project planned through 2026, whose chairmanship and project leadership also fell to him.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Social One: Correctness as a Life's Task, Not a Performance</h2>
@@ -2220,6 +2220,7 @@ export function volkerGerhardtPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-friedrich-nietzsche", label:"Portrait: Friedrich Nietzsche (SX5w4) – whose work he edited as commission chairman"},
         {route:"beruehmte-richard-david-precht", label:"Portrait: Richard David Precht (SO1w9)"},
         {route:"beruehmte-markus-lanz", label:"Portrait: Markus Lanz (SO1w9)"},
       ])}

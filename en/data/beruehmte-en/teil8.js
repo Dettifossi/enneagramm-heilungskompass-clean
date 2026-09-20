@@ -504,6 +504,7 @@ export function friedrichNietzschePortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The healing path of the Five leads from the fear of being consumed by the world to the insight that fullness does not arise from withdrawal alone, but from the one real connection one dares to risk. Nietzsche rarely dared it in life &ndash; with Lou Salomé, with Wagner, in a handful of friendships &ndash; and each time it broke. What remained was the work that took its place.</p>
           <p class="vb-intro">He died in 1900 in Weimar, never living to see how his thought would shape twentieth-century philosophy. The hedgehog from Röcken never fully showed himself to another person &ndash; but he showed himself page by page in his brilliant body of work, which turned his quills into thoughts that still sting today.</p>
+          <p class="vb-intro">That this fragmentary body of work, barely ordered in his lifetime, exists today in a reliable, critically verified form at all is owed not least to the decades of editorial work by <a href="javascript:void(0)" data-route="beruehmte-volker-gerhardt">Prof. Dr. Volker Gerhardt</a> (SO1w9), who chaired the Nietzsche Commission of the Berlin-Brandenburg Academy of Sciences from 2001 to 2023 &ndash; a revealing contrast between the hedgehog, who wrote his work out of radical isolation, and the goose, who guarded it institutionally generations later. More in the <a href="javascript:void(0)" data-route="beruehmte-volker-gerhardt">portrait of Volker Gerhardt</a>.</p>
         </blockquote>
 
       </div>
@@ -517,6 +518,7 @@ export function friedrichNietzschePortraitPage() {
         {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
         {route:"beruehmte-greta-garbo", label:"Portrait: Greta Garbo (SX5w4)"},
         {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5) – whose duty-based ethics he sharply criticized"},
+        {route:"beruehmte-volker-gerhardt", label:"Portrait: Prof. Dr. Volker Gerhardt (SO1w9) – chairman of the Nietzsche Commission 2001-2023"},
         {route:"krankheitsportraets-friedrich-nietzsche", label:"Illness Portrait: Friedrich Nietzsche (SX5w4)"},
         {route:"bibel-der-mann-von-gerasa", label:"Bible Portrait: The Man of Gerasa (SX5w4)"},
       ])}

@@ -504,6 +504,7 @@ export function friedrichNietzschePortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der F\u00fcnf f\u00fchrt von der Angst, von der Welt aufgezehrt zu werden, zur Erkenntnis, dass F\u00fclle nicht durch R\u00fcckzug allein entsteht, sondern durch die eine, wirkliche Verbindung, die man wagt. Nietzsche wagte sie selten im Leben &ndash; mit Lou Salom\u00e9, mit Wagner, in wenigen Freundschaften &ndash; und jedes Mal brach sie. Was blieb, war das Werk, das an ihre Stelle trat.</p>
           <p class="vb-intro">Er starb 1900 in Weimar, ohne je zu erleben, wie sein Denken die Philosophie des zwanzigsten Jahrhunderts pr\u00e4gen w\u00fcrde. Der Igel aus R\u00f6cken zeigte sich nie wirklich einem Menschen vollst\u00e4ndig &ndash; aber er zeigte sich Seite f\u00fcr Seite in seinen genialen Werken, die seine Stacheln in Gedanken verwandelten, die bis auf den heutigen Tag stechen.</p>
+          <p class="vb-intro">Dass dieses fragmentarische, zu Lebzeiten kaum geordnete Werk heute überhaupt in verlässlicher, kritisch gesicherter Form vorliegt, ist nicht zuletzt der jahrzehntelangen editorischen Arbeit von <a href="javascript:void(0)" data-route="beruehmte-volker-gerhardt">Prof. Dr. Volker Gerhardt</a> (SO1w9) zu verdanken, der von 2001 bis 2023 die Nietzsche-Kommission der Berlin-Brandenburgischen Akademie der Wissenschaften leitete – ein aufschlussreicher Gegensatz zwischen dem Igel, der sein Werk aus radikaler Vereinzelung heraus schrieb, und der Gans, die es Generationen später institutionell hütete. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-volker-gerhardt">Porträt zu Volker Gerhardt</a>.</p>
         </blockquote>
 
       </div>
@@ -517,6 +518,7 @@ export function friedrichNietzschePortraitPage() {
         {route:"beruehmte-frederic-chopin", label:"Portr\xe4t: Fr\xe9d\xe9ric Chopin (SX5w4)"},
         {route:"beruehmte-greta-garbo", label:"Portr\xe4t: Greta Garbo (SX5w4)"},
         {route:"beruehmte-immanuel-kant", label:"Portr\xe4t: Immanuel Kant (SO6w5) – dessen Pflichtethik er scharf kritisierte"},
+        {route:"beruehmte-volker-gerhardt", label:"Porträt: Prof. Dr. Volker Gerhardt (SO1w9) – Vorsitzender der Nietzsche-Kommission 2001–2023"},
         {route:"krankheitsportraets-friedrich-nietzsche", label:"Krankheitsporträt: Friedrich Nietzsche (SX5w4)"},
         {route:"bibel-der-mann-von-gerasa", label:"Bibel-Porträt: Der Mann von Gerasa (SX5w4)"},
       ])}

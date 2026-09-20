@@ -2179,7 +2179,7 @@ export function volkerGerhardtPortraitPage() {
         <h2 class="vb-section">1. Die Gans, die zwei Werke über Jahrzehnte hütet</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Volker Gerhardt wurde 1944 in Guben geboren und wuchs in Hagen/Westfalen auf. Er studierte Philosophie, Psychologie, Rechtswissenschaft und Soziologie in Frankfurt und Münster, promovierte 1974 und habilitierte sich 1984. Nach einer Professur in Münster (ab 1985) und einer Gastprofessur in Zürich (1986) lehrte er von 1992 bis 2012 Philosophie an der Humboldt-Universität zu Berlin, wo er bis heute als Seniorprofessor tätig ist.</p>
-          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – wachsam, prinzipientreu, in Verantwortung für die Ordnung eines Ganzen, nicht für die eigene Bühne. Bei kaum jemandem zeigt sich dieses Muster so konkret wie bei Gerhardt: Von 2001 bis 2023 leitete er die Nietzsche-Kommission der Berlin-Brandenburgischen Akademie der Wissenschaften und verantwortete damit über zwei Jahrzehnte die kritische Gesamtausgabe von Nietzsches Werk. Parallel dazu initiierte er 2001 eine Neuausgabe der Akademie-Ausgabe von Kants Werken – ein auf 2026 angelegtes Editionsprojekt, dessen Vorsitz und Projektleitung ebenfalls bei ihm lag.</p>
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – wachsam, prinzipientreu, in Verantwortung für die Ordnung eines Ganzen, nicht für die eigene Bühne. Bei kaum jemandem zeigt sich dieses Muster so konkret wie bei Gerhardt: Von 2001 bis 2023 leitete er die Nietzsche-Kommission der Berlin-Brandenburgischen Akademie der Wissenschaften und verantwortete damit über zwei Jahrzehnte die kritische Gesamtausgabe des Werks von <a href="javascript:void(0)" data-route="beruehmte-friedrich-nietzsche">Friedrich Nietzsche</a> (SX5w4). Parallel dazu initiierte er 2001 eine Neuausgabe der Akademie-Ausgabe von Kants Werken – ein auf 2026 angelegtes Editionsprojekt, dessen Vorsitz und Projektleitung ebenfalls bei ihm lag.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Eins: Korrektheit als Lebensaufgabe, nicht als Auftritt</h2>
@@ -2220,6 +2220,7 @@ export function volkerGerhardtPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
         {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-friedrich-nietzsche", label:"Porträt: Friedrich Nietzsche (SX5w4) – dessen Werk er als Kommissionsvorsitzender edierte"},
         {route:"beruehmte-richard-david-precht", label:"Porträt: Richard David Precht (SO1w9)"},
         {route:"beruehmte-markus-lanz", label:"Porträt: Markus Lanz (SO1w9)"},
       ])}
