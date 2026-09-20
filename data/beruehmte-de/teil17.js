@@ -2144,3 +2144,67 @@ export function kimEngPortraitPage() {
     </div>
   `);
 }
+
+export function pedroAlonsoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-pedro-alonso-portrait.jpg" alt="Pedro Alonso – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Pedro Alonso</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Spanischer Schauspieler, geb. 1971 – Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard, der sich fast fünfzig Jahre Zeit ließ</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – schnell, auffällig, gebaut für den einen entscheidenden Moment. Bei Pedro González Alonso, 1971 im galicischen Vigo geboren, kam dieser Moment erst spät: Nach einem Abschluss an der Königlichen Hochschule für Schauspielkunst (RESAD) und Jahren als geschätzter, aber regional begrenzter Fernsehschauspieler in Galicien und Spanien – unter anderem in ›Rías Baixas‹, ›Padre Casares‹ und als Diego Murquía in ›Grand Hotel‹ – wurde er erst mit 46 Jahren durch seine Rolle als Andrés ›Berlín‹ de Fonollosa in ›Haus des Geldes‹ (2017) weltberühmt.</p>
+          <p class="vb-intro">Der Gepard wartet nicht ungeduldig auf den Sprint – er bereitet sich vor, so lange es nötig ist, und ergreift den entscheidenden Moment erst, wenn er wirklich da ist. Fast zwei Jahrzehnte solides Handwerk gingen dem einen Rollen-Durchbruch voraus, der ihn über Nacht zur international erkennbaren Figur machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Erfolg als weltweit sichtbares Bild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> sucht Anerkennung nicht im kleinen Kreis, sondern auf der größtmöglichen öffentlichen Bühne. Dass ›Haus des Geldes‹ zur meistgesehenen nicht-englischsprachigen Netflix-Serie ihrer Zeit wurde und Alonsos Figur Berlín zur international ikonischen Gestalt avancierte, verschaffte ihm 2018 den Preis der spanischen Schauspielergewerkschaft als bester Nebendarsteller – ein öffentlich messbarer Beweis dafür, dass sich die jahrzehntelange Vorbereitung ausgezahlt hatte.</p>
+          <p class="vb-intro">Der Erfolg blieb nicht auf die eine Rolle beschränkt: Der eigene Spin-off ›Berlin‹ (2023) baute die Nebenfigur zur eigenständigen Hauptfigur mit eigener Serie aus – die Drei nutzt einen einmal errungenen öffentlichen Erfolg konsequent als Sprungbrett für den nächsten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Ein Gangster als Romantiker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sozialen Drei eine Tiefe und Ausdruckskraft, die reines Erfolgsstreben übersteigt. Alonso selbst beschrieb seine Figur Berlín als ›einen emotionalen Terroristen, einen Soziopathen, einen Lügner, ein böses Tier – aber auch einen Romantiker‹ – ein Widerspruch, den er bewusst nicht auflöste, sondern als Kern der Figur stehen ließ.</p>
+          <p class="vb-intro">Dieselbe Viererflügel-Tiefe zeigt sich in seinem Leben abseits der Kamera: Alonso schreibt und malt, veröffentlichte mit ›Libro de Filipo‹ ein Buch aus eigenen Zeichnungen, Essays und philosophischen Betrachtungen, entstanden in Zusammenarbeit mit seiner Partnerin Tixie Ugalde. Bei der Vorbereitung auf Berlín warnte er die Produzenten offen, er wisse nicht, ob er eine Figur tragen könne, ›die ihre Stärke aus Gefahr, aus dem Unvorhersehbaren, dem Unerwarteten zieht‹ – eine Offenheit für die eigene Unsicherheit, die für die reine, ungebrochene Drei untypisch wäre.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Eine Figur zwischen Theatralik und Zerbrechlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Alonso tatsächlich auszeichnet, ist die schauspielerische Fähigkeit, eine hochtheatralische, fast opernhafte Figur zu tragen, ohne dass sie ins Lächerliche kippt: Berlín zitiert Gedichte, inszeniert seinen eigenen möglichen Tod mit derselben Sorgfalt wie einen Raubüberfall und bleibt dabei innerhalb der Serienlogik glaubwürdig – eine Gratwanderung, die auf jahrzehntelanger Bühnen- und Fernsehroutine aufbaut, nicht auf reinem Charisma.</p>
+          <p class="vb-intro">Diese Substanz zeigte sich auch darin, dass Alonso die Nebenfigur eines Ensemble-Heist-Dramas erfolgreich zur tragenden Figur einer eigenen, mehrteiligen Serie ausbauen konnte – ein Kunststück, das reines Aussehen oder Bekanntheit allein nicht erklärt, sondern eine über Jahre erarbeitete darstellerische Bandbreite verlangt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Alonso die SO3w4 als jemand, der öffentlichen Erfolg mit echter künstlerischer Tiefe verbindet – Schauspiel, Malerei und Schreiben als gleichwertige Ausdrucksformen derselben inneren Suche, nicht als bloße Imagepflege.</p>
+          <p class="vb-intro">Der Schatten der Drei zeigt sich in der langen Wartezeit selbst: Fast fünfzig Jahre lang blieb sein Talent auf regionale spanische Bildschirme begrenzt, bevor die eine, öffentlich sichtbare Rolle kam – eine Erfahrung, die für die Drei besonders schmerzhaft sein kann, wenn der eigene Wert lange an äußerer Anerkennung gemessen wird, die ausbleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Bin ich nur wertvoll, wenn ich glänze?</em> zur Erkenntnis <em>Ich bin wertvoll, auch jenseits der Bühne.</em> Dass Alonso den späten, gewaltigen Erfolg nicht nutzte, um sich auf einer einzigen erfolgreichen Rolle auszuruhen, sondern ihn als Ermöglichung für ›viele andere Leben‹ beschrieb – als Maler, Schriftsteller, Romanautor –, zeigt die reife Seite desselben Musters.</p>
+          <p class="vb-intro">Der Gepard, der fast fünf Jahrzehnte auf seinen einen entscheidenden Sprint wartete – und der, als er kam, nicht nur rannte, sondern ihn nutzte, um endlich all das zu zeigen, was während der langen Wartezeit in ihm gewachsen war.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-dmitri-hvorostovsky", label:"Porträt: Dmitri Hvorostovsky (SO3w2)"},
+      ])}
+    </div>
+  `);
+}

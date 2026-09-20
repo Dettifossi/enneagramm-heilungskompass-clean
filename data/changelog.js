@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2358", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Pedro Alonso (SO3w4) – ›Berlín‹ aus Haus des Geldes.", text_en: "New portrait under \"Famous Personalities\": Pedro Alonso (SO3w4) – \"Berlin\" from Money Heist.", route: "beruehmte-pedro-alonso" },
     { version: "v2357", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Dmitri Hvorostovsky (SO3w2) – der ›Elvis der Oper‹.", text_en: "New portrait under \"Famous Personalities\": Dmitri Hvorostovsky (SO3w2) – the \"Elvis of Opera.\"", route: "beruehmte-dmitri-hvorostovsky" },
     { version: "v2356", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Lea Michele (SO2w3) – Glee-Star und Broadway-Sängerin.", text_en: "New portrait under \"Famous Personalities\": Lea Michele (SO2w3) – Glee star and Broadway singer.", route: "beruehmte-lea-michele" },
     { version: "v2355", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Cornelia Funke (SO1w9) – Autorin der Tintenherz-Trilogie.", text_en: "New portrait under \"Famous Personalities\": Cornelia Funke (SO1w9) – author of the Inkheart trilogy.", route: "beruehmte-cornelia-funke" },

@@ -2148,3 +2148,67 @@ export function horstLichterPortraitPage() {
     </div>
   `);
 }
+
+export function pedroAlonsoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-pedro-alonso-portrait.jpg" alt="Pedro Alonso – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Pedro Alonso</p>
+        <p class="krim-portrait-typ">SO3w4 · Social Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Spanish actor, b. 1971 – Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Cheetah Who Took Almost Fifty Years</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Cheetah</strong> is the animal of the social Three – fast, striking, built for the one decisive moment. For Pedro González Alonso, born 1971 in Vigo, Galicia, that moment came late: after graduating from the Royal Higher School of Dramatic Art (RESAD) and years as a well-regarded but regionally confined television actor in Galicia and Spain – including roles in "Rías Baixas," "Padre Casares," and as Diego Murquía in "Grand Hotel" – he only became world-famous at 46, through his role as Andrés "Berlin" de Fonollosa in "Money Heist" (2017).</p>
+          <p class="vb-intro">The cheetah doesn't sprint impatiently before its time – it prepares for as long as necessary and seizes the decisive moment only once it genuinely arrives. Nearly two decades of solid craft preceded the one role that made him internationally recognizable overnight.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Three: Success as a Globally Visible Image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Three (SO3)</strong> looks for recognition not in a small circle, but on the largest possible public stage. That "Money Heist" became the most-watched non-English-language Netflix series of its time, and that Alonso's character Berlin became an internationally iconic figure, earned him the Spanish Actors' Union Award for Best Supporting Actor in 2018 – a publicly measurable proof that decades of preparation had paid off.</p>
+          <p class="vb-intro">The success didn't stay confined to the one role: the dedicated spin-off "Berlin" (2023) expanded the supporting character into the lead of his own series – the Three consistently uses one public success as a springboard to the next.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: A Gangster as Romantic</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the social Three a depth and expressiveness that pure ambition doesn't explain. Alonso himself described his character Berlin as "an emotional terrorist, a sociopath, a liar, an evil beast – but also a romantic" – a contradiction he deliberately left unresolved, letting it stand as the core of the character.</p>
+          <p class="vb-intro">The same Four-wing depth shows in his life off camera: Alonso writes and paints, and published "Libro de Filipo," a book of his own drawings, essays, and philosophical reflections, created together with his partner Tixie Ugalde. While preparing for Berlin, he openly warned the producers that he didn't know if he could carry a character "who draws his strength from danger, from the unpredictable, the unexpected" – an openness about his own uncertainty that would be atypical for a pure, unmixed Three.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Actual Achievement: A Character Between Theatricality and Fragility</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What actually distinguishes Alonso is the acting ability to carry a highly theatrical, almost operatic character without it tipping into the ridiculous: Berlin quotes poetry, stages his own possible death with the same care as a heist, and remains believable within the show's internal logic – a balancing act built on decades of stage and television routine, not pure charisma.</p>
+          <p class="vb-intro">That substance also showed in how Alonso successfully expanded a supporting role in an ensemble heist drama into the lead of his own multi-part series – a feat that looks or fame alone don't explain, but that demands a performing range built up over years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the light, Alonso's SO3w4 shows someone who combines public success with genuine artistic depth – acting, painting, and writing as equally valid forms of expression for the same inner search, not mere image maintenance.</p>
+          <p class="vb-intro">The shadow of the Three shows in the long wait itself: for nearly fifty years, his talent stayed confined to regional Spanish screens before the one publicly visible role came along – an experience that can be especially painful for the Three, when one's own worth is measured for a long time against outside recognition that fails to arrive.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's healing path leads from the question <em>Am I only valuable when I shine?</em> to the realization <em>I am valuable, even beyond the stage.</em> That Alonso did not use his late, massive success to rest on a single successful role, but instead described it as enabling "many other lives" – as painter, writer, novelist – shows the mature side of the same pattern.</p>
+          <p class="vb-intro">The cheetah who waited nearly five decades for its one decisive sprint – and who, once it came, didn't just run, but used it to finally show everything that had grown in him during the long wait.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: subtype profile"},
+        {route:"beruehmte-dmitri-hvorostovsky", label:"Portrait: Dmitri Hvorostovsky (SO3w2)"},
+      ])}
+    </div>
+  `);
+}
