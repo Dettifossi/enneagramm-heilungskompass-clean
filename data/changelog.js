@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2364", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Dr. Barbara Bleisch (SE3w2) – Philosophin, Moderatorin.", text_en: "New portrait under \"Famous Personalities\": Dr. Barbara Bleisch (SE3w2) – philosopher, TV host.", route: "beruehmte-barbara-bleisch" },
     { version: "v2363", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Anna Netrebko (SE3w4) – Opernsängerin, Sopran.", text_en: "New portrait under \"Famous Personalities\": Anna Netrebko (SE3w4) – opera singer, soprano.", route: "beruehmte-anna-netrebko" },
     { version: "v2362", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: George Vithoulkas (SO3w4) – Homöopath, Right-Livelihood-Preisträger.", text_en: "New portrait under \"Famous Personalities\": George Vithoulkas (SO3w4) – homeopath, Right Livelihood Award laureate.", route: "beruehmte-george-vithoulkas" },
     { version: "v2361", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Oliver Pocher (SO1w9) – Comedian und Entertainer.", text_en: "New portrait under \"Famous Personalities\": Oliver Pocher (SO1w9) – comedian and entertainer.", route: "beruehmte-oliver-pocher" },

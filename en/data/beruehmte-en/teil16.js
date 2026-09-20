@@ -2158,3 +2158,69 @@ export function audreyTautouPortraitPage() {
     </div>
   `);
 }
+
+export function barbaraBleischPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-barbara-bleisch-portrait.jpg" alt="Dr. Barbara Bleisch" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Barbara Bleisch</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Swiss philosopher &amp; TV host, b. 1973 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon Who Builds Trust Through Substance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Barbara Bleisch was born in 1973 in Basel, the third child of Arnold Bleisch and Monique Bernoulli. She spent her first three years in Roma, Lesotho, where her father worked as a doctor for the organization Solidarmed &ndash; after returning, he opened a practice in Niedergösgen, in the Swiss canton of Aargau. From 1994 to 2001 she studied philosophy, German studies, and religious studies in Zurich, Basel, and Tübingen, and in 2007 earned her doctorate at the Ethics Center of the University of Zurich under Peter Schaber, with the thesis ›Duties at a Distance: World Poverty and Individual Responsibility‹.</p>
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three &ndash; resourceful, adaptable, focused on competence rather than effect. This exact pattern already shows in the starting point of her academic career: instead of an abstract, attention-grabbing topic, Bleisch chose a dissertation on the very concrete question of what people in wealthy countries actually owe distant strangers &ndash; care and responsibility as philosophical craft, not mere assertion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Trust Through Substance, Not Performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is considered the Three's countertype: security comes not from self-promotion, but from demonstrable, verifiable competence. In Bleisch, this shows throughout her entire public presence since 2010 as host of ›Sternstunde Philosophie‹ on Swiss television: a calm voice, precise language, no manufactured conflict, no sharpened talk-show dramaturgy &ndash; instead she lets her guests finish their thoughts and actually develop their positions rather than playing them off against each other.</p>
+          <p class="vb-intro">Her public recognition also grew step by step rather than overnight: in 2017 and 2018, she placed only second in the "Journalist of the Year" ranking in the Culture category, before finally being named Journalist of the Year in the Society category in 2020. Not a meteoric rise, but earned reputation built over years &ndash; the SP3 in its purest form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Care as the Actual Driving Force</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A self-preservation Three with a pronounced Four-wing would turn its competence inward, with introspective, melancholic depth. In Bleisch, the <strong>Two-wing</strong> shows up instead: care and attentiveness are not a side note but the actual content of her work. Her dissertation already revolved around what people owe each other in terms of care &ndash; her later books ›Warum wir unseren Eltern nichts schulden‹ (›Why We Owe Our Parents Nothing‹, 2018) and ›Kinder wollen. Über Autonomie und Verantwortung‹ (›Wanting Children: On Autonomy and Responsibility‹, 2020) continue this theme in very personal, family contexts.</p>
+          <p class="vb-intro">Her own stance on parenting sums it up: "Eighty percent of good parenting is being present." In a Christmas interview, she said she wished for "more courage to give" &ndash; care not as duty fulfilled, but as deliberately chosen generosity. This same Two-wing also explains why her guests open up to her: her critical stance stays "always warm-hearted," as observers of her hosting style note &ndash; genuine listening rather than mere conversation management.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Actual Achievement: Rigorous Philosophy Made Accessible Without Losing Depth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes Bleisch professionally is not just her academic training, but the rare ability to translate highly demanding ethical argument into generally understandable language without diluting it. ›Warum wir unseren Eltern nichts schulden‹ became a Spiegel bestseller &ndash; a nonfiction book that applies the same philosophical rigor as her scholarly work to a question that touches virtually every family directly.</p>
+          <p class="vb-intro">Her role as a host is also a methodical, not merely performative, achievement: her deliberate refusal of the sharpened conflict dramaturgy of the usual talk-show format is an editorial choice that allows guests to actually carry complex thoughts through to their conclusion &ndash; a conversational form that itself becomes a philosophical statement: insight arises more from patient exchange than from loud confrontation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three with Two-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3w2 shows in the fact that Bleisch makes rigorous philosophical reflection accessible to a broad audience without resorting to simplification at any cost &ndash; care and intellectual rigor reinforce each other in her, rather than excluding one another.</p>
+          <p class="vb-intro">The Three's fatal flaw is <strong>vanity / deceit</strong> &ndash; subtler in the self-preservation Three, but not absent: the Two-wing can turn care and attentiveness into yet another arena in which to prove competence &ndash; "I am the one who can really listen" as a new, equally performance-based self-definition, rather than genuine, unguarded vulnerability on camera.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: Worth Beyond the Next Question</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's healing path leads from the conviction <em>I am only worth what I prove</em> to the insight <em>I am valuable, even without having to prove anything.</em> With her 2024 book ›Mitte des Lebens. Eine Philosophie der besten Jahre‹ (›Midlife: A Philosophy of the Best Years‹), Bleisch turns explicitly to this question: a life stage in which one's own worth can no longer be defined solely through new achievements and the next career step.</p>
+          <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-penelope-cruz">Penélope Cruz</a> (SP3w2): she too shows the same combination of hard-earned professional substance and a caring, never intrusive use of her own fame. More in the <a href="javascript:void(0)" data-route="beruehmte-penelope-cruz">portrait of Penélope Cruz</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-penelope-cruz", label:"Portrait: Penélope Cruz (SP3w2)"},
+        {route:"beruehmte-halle-berry", label:"Portrait: Halle Berry (SP3w2)"},
+        {route:"beruehmte-anna-netrebko", label:"Portrait: Anna Netrebko (SP3w4)"},
+      ])}
+    </div>
+  `);
+}

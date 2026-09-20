@@ -2154,3 +2154,69 @@ export function stefanHomburgPortraitPage() {
     </div>
   `);
 }
+
+export function barbaraBleischPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-barbara-bleisch-portrait.jpg" alt="Dr. Barbara Bleisch" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Barbara Bleisch</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schweizer Philosophin &amp; Moderatorin, geb. 1973 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der aus Substanz Vertrauen baut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Barbara Bleisch wurde 1973 in Basel als drittes Kind von Arnold Bleisch und Monique Bernoulli geboren. Ihre ersten drei Lebensjahre verbrachte sie im lesothischen Roma, wo ihr Vater als Arzt für die Organisation Solidarmed arbeitete – nach der Rückkehr eröffnete er eine Praxis im aargauischen Niedergösgen. Von 1994 bis 2001 studierte sie Philosophie, Germanistik und Religionswissenschaft in Zürich, Basel und Tübingen, 2007 promovierte sie am Ethikzentrum der Universität Zürich bei Peter Schaber mit der Arbeit ›Pflichten auf Distanz: Weltarmut und individuelle Verantwortung‹.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – geschickt, anpassungsfähig, kompetent statt auf Wirkung bedacht. Genau dieses Muster zeigt sich bereits im Ausgangspunkt ihrer akademischen Laufbahn: Statt eines abstrakten, spektakulären Themas wählte Bleisch eine Dissertation über die ganz konkrete Frage, was Menschen in reichen Ländern anderen, weit entfernten Menschen tatsächlich schulden – Fürsorge und Verantwortung als philosophisches Handwerk, nicht als bloße Behauptung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Vertrauen durch Substanz statt Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Sicherheit entsteht nicht über Selbstinszenierung, sondern über nachweisbare, überprüfbare Kompetenz. Bei Bleisch zeigt sich das in ihrem gesamten öffentlichen Auftreten seit 2010 als Moderatorin der ›Sternstunde Philosophie‹ im Schweizer Fernsehen: ruhige Stimme, präzise Sprache, kein Zoff, keine zugespitzte Talkshow-Dramaturgie – stattdessen lässt sie ihre Gäste ausreden und Positionen tatsächlich entwickeln, statt sie gegeneinander auszuspielen.</p>
+          <p class="vb-intro">Auch ihre öffentliche Anerkennung wuchs schrittweise statt schlagartig: 2017 und 2018 erreichte sie beim Ranking ›Journalist des Jahres‹ jeweils nur den zweiten Platz in der Kategorie Kultur, bevor sie 2020 in der Kategorie Gesellschaft schließlich zur Journalistin des Jahres gekürt wurde. Kein Senkrechtstart, sondern verdiente, über Jahre aufgebaute Reputation – die SE3 in Reinform.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Fürsorge als eigentlicher Antrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine selbsterhaltende Drei mit ausgeprägtem Viererflügel würde ihre Kompetenz eher introspektiv, mit melancholischer Tiefe nach innen wenden. Bei Bleisch zeigt sich stattdessen der <strong>Zweierflügel</strong>: Fürsorge und Zugewandtheit sind kein Beiwerk, sondern der eigentliche Inhalt ihrer Arbeit. Schon ihre Dissertation kreiste um die Frage, was Menschen einander an Fürsorge schulden – ihre späteren Bücher ›Warum wir unseren Eltern nichts schulden‹ (2018) und ›Kinder wollen. Über Autonomie und Verantwortung‹ (2020) setzen dieses Thema in ganz persönlichen, familiären Zusammenhängen fort.</p>
+          <p class="vb-intro">Ihre eigene Haltung zur Elternschaft bringt sie auf den Punkt: „Achtzig Prozent von guter Elternschaft ist dabei sein." In einem Interview zu Weihnachten wünschte sie sich „mehr Mut zum Schenken" – Fürsorge nicht als Pflichterfüllung, sondern als bewusst gewählte Großzügigkeit. Genau dieser Zweierflügel erklärt auch, warum ihre Gäste sich bei ihr öffnen: Ihre kritische Grundhaltung bleibt „immer warmherzig", wie Beobachter ihres Moderationsstils festhalten – echtes Zuhören statt bloßer Gesprächsführung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: strenge Philosophie ohne Verlust an Tiefe zugänglich machen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Bleisch fachlich auszeichnet, ist nicht nur ihre akademische Ausbildung, sondern die seltene Fähigkeit, hochgradig anspruchsvolle ethische Argumentation in eine allgemein verständliche Sprache zu übersetzen, ohne sie zu verwässern. ›Warum wir unseren Eltern nichts schulden‹ wurde zum Spiegel-Bestseller – ein Sachbuch, das dieselbe philosophische Sorgfalt wie ihre wissenschaftlichen Arbeiten auf eine Frage anwendet, die praktisch jede Familie unmittelbar betrifft.</p>
+          <p class="vb-intro">Auch ihre Rolle als Moderatorin ist eine methodische, keine rein darstellerische Leistung: Ihr bewusster Verzicht auf die zugespitzte Konfliktdramaturgie des üblichen Talkshow-Formats ist eine redaktionelle Entscheidung, die es Gästen erlaubt, komplexe Gedanken tatsächlich zu Ende zu führen – eine Gesprächsform, die selbst zum philosophischen Statement wird: Erkenntnis entsteht eher im geduldigen Austausch als im lauten Schlagabtausch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 zeigt sich darin, dass Bleisch strenge philosophische Reflexion einem breiten Publikum zugänglich macht, ohne dabei auf Vereinfachung um jeden Preis zu setzen – Fürsorge und intellektuelle Rigorosität verstärken sich bei ihr gegenseitig, statt sich auszuschließen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist <strong>Eitelkeit / Täuschung</strong> – bei der selbsterhaltenden Drei subtiler, aber nicht abwesend: Der Zweierflügel kann dazu führen, dass Fürsorge und Zuwendung selbst zu einem weiteren Feld werden, auf dem sich Kompetenz beweisen lässt – „ich bin die, die gut zuhören kann" als neue, ebenso leistungsbezogene Selbstdefinition, statt echter, ungeschützter Verletzlichkeit vor der Kamera.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Wert jenseits der nächsten Frage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Überzeugung <em>Ich bin nur wert, was ich beweise</em> zur Erkenntnis <em>Ich bin wertvoll, auch ohne etwas beweisen zu müssen.</em> Mit ihrem 2024 erschienenen Buch ›Mitte des Lebens. Eine Philosophie der besten Jahre‹ wendet sich Bleisch explizit dieser Frage zu: einem Lebensabschnitt, in dem sich der eigene Wert nicht mehr allein über neue Leistungen und nächste Karriereschritte definieren lässt.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-penelope-cruz">Penélope Cruz</a> (SE3w2): Auch bei ihr zeigt sich dieselbe Kombination aus hart erarbeiteter fachlicher Substanz und einer fürsorglichen, nie aufdringlichen Nutzung der eigenen Bekanntheit. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-penelope-cruz">Porträt zu Penélope Cruz</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-penelope-cruz", label:"Porträt: Penélope Cruz (SE3w2)"},
+        {route:"beruehmte-halle-berry", label:"Porträt: Halle Berry (SE3w2)"},
+        {route:"beruehmte-anna-netrebko", label:"Porträt: Anna Netrebko (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
