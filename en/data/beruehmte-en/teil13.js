@@ -2210,6 +2210,7 @@ export function leonGoretzkaPortraitPage() {
         {route:"subtype/so3", label:"SO3 – The Cheetah: subtype profile"},
         {route:"beruehmte-pedro-alonso", label:"Portrait: Pedro Alonso (SO3w4)"},
         {route:"beruehmte-virgil-van-dijk", label:"Portrait: Virgil van Dijk (SO3w2)"},
+        {route:"beruehmte-george-vithoulkas", label:"Portrait: George Vithoulkas (SO3w4)"},
       ])}
     </div>
   `);

@@ -2153,3 +2153,69 @@ export function indiraGandhiPortraitPage() {
     </div>
   `);
 }
+
+export function georgeVithoulkasPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-george-vithoulkas-portrait.jpg" alt="George Vithoulkas – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">George Vithoulkas</p>
+        <p class="krim-portrait-typ">SO3w4 · Social Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Greek homeopath, b. 1932 – Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Cheetah Who Re-founded an Entire Discipline</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Cheetah</strong> is the animal of the social Three – fast, striking, built for the one decisive moment that carries an entire career. George Vithoulkas, born 1932 in Athens, studied homeopathy in South Africa and received his diploma from the Indian Institute of Homeopathy in 1966. Back in Greece, he began teaching a small group of doctors classical homeopathy – the therapeutic success of these first doctors quickly attracted further attention.</p>
+          <p class="vb-intro">In 1970, this grew into the Athenian School of Homeopathic Medicine, and in 1994 he founded the International Academy for Classical Homeopathy on the Greek island of Alonissos for the postgraduate training of practitioners from around the world. The cheetah used the one moment when his knowledge proved effective to build an international institution out of it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Three: Worldwide Recognition for a Marginal Discipline</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Three (SO3)</strong> looks for success not in a protected niche, but in the broadest, most publicly visible recognition possible – even when her own field is socially contested. In 1996, Vithoulkas was honored in Stockholm with the Right Livelihood Award, often called the "alternative Nobel Prize," for his outstanding contribution to the revival of homeopathic knowledge and to the education of homeopaths at the highest level.</p>
+          <p class="vb-intro">His books were translated into twenty languages and significantly shaped the worldwide practice of homeopathy – not as a regional footnote, but as an internationally recognized life's work, deliberately built for global visibility.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: Consciousness Development Instead of Pure Symptom Doctrine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the social Three a depth that goes beyond professional competence. Vithoulkas explicitly linked humanity's spiritual evolution to its state of health, holding that without this connection, physicians could not achieve truly radical, lasting cure – a vision in which consciousness and body are inseparably bound together.</p>
+          <p class="vb-intro">His conversations with the philosopher Jiddu Krishnamurti and his own theory of "Levels of Health" – a twelve-stage system for classifying a patient's state of health, developed over 57 years – show the same Four-wing depth: a highly individual, decades-refined intellectual construction that reaches far beyond craft-level symptom doctrine. That he deliberately located his academy on a remote island rather than bringing it to a major city for mass-market reach fits this search for depth over sheer scale.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Actual Achievement: A Systematic Body of Theory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What actually distinguishes Vithoulkas is the systematization of a field that had previously been strongly experience-based and inconsistent: his main work "The Science of Homeopathy" (1977) and the later, fully developed theory of "Levels of Health" provide written, traceable criteria for classifying a patient's state of health and assessing the prognosis of homeopathic treatment – an attempt to give a field rules and predictability that had barely been systematically described before.</p>
+          <p class="vb-intro">This substance explains why his books are regarded worldwide as reference works: not merely a personal philosophy, but a set of tools other practitioners can use to work with and classify their own cases.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the light, Vithoulkas's SO3w4 shows someone who did not seek public recognition at the expense of professional depth, but consistently combined the two for decades – international visibility for a body of work that remained highly personal and individually shaped at the same time.</p>
+          <p class="vb-intro">The shadow of the Three shows in the fact that a life's work so strongly centered on one's own theory and person also carries the risk of making it harder to admit criticism or alternative views within one's own discipline – a pattern not uncommon among founders of their own comprehensive theoretical framework, when their own interpretive authority becomes a central part of the public image.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's healing path leads from the question <em>Am I only valuable through what I achieve and how it is perceived?</em> to the realization <em>I am valuable, even beyond public recognition.</em> That Vithoulkas explicitly linked his teaching to "laws of spiritual growth," rather than cultivating pure professional authority, points to a mature side of the same pattern: success becomes a means toward a deeper question that reaches beyond himself.</p>
+          <p class="vb-intro">The cheetah who used its speed not only to shine itself, but to put an entire discipline on a new, systematic foundation – and who never stopped asking about the depth behind the pure symptomatology.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: subtype profile"},
+        {route:"beruehmte-pedro-alonso", label:"Portrait: Pedro Alonso (SO3w4)"},
+        {route:"beruehmte-leon-goretzka", label:"Portrait: Leon Goretzka (SO3w4)"},
+        {route:"beruehmte-samuel-hahnemann", label:"Portrait: Dr. Samuel Hahnemann (SO1w9) – founder of homeopathy"},
+      ])}
+    </div>
+  `);
+}

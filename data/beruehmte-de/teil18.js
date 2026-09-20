@@ -2153,3 +2153,69 @@ export function indiraGandhiPortraitPage() {
     </div>
   `);
 }
+
+export function georgeVithoulkasPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-george-vithoulkas-portrait.jpg" alt="George Vithoulkas – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">George Vithoulkas</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Griechischer Homöopath, geb. 1932 – Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard, der eine ganze Disziplin neu begründete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – schnell, auffällig, gebaut für den einen entscheidenden Moment, der eine ganze Karriere trägt. George Vithoulkas, 1932 in Athen geboren, studierte Homöopathie in Südafrika und erhielt 1966 sein Diplom am Indian Institute of Homeopathy. Zurück in Griechenland begann er, eine kleine Gruppe von Ärzten in klassischer Homöopathie zu unterrichten – der therapeutische Erfolg dieser ersten Ärzte zog rasch weitere Aufmerksamkeit an sich.</p>
+          <p class="vb-intro">1970 entstand daraus die Athener Schule für Homöopathische Medizin, 1994 gründete er auf der griechischen Insel Alonissos die International Academy for Classical Homeopathy für die postgraduale Ausbildung von Heilpraktikern aus aller Welt. Der Gepard nutzte den einen Moment, in dem sich sein Wissen als wirksam erwies, um daraus eine internationale Institution zu bauen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Weltweite Anerkennung für eine Randdisziplin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> sucht Erfolg nicht in einer geschützten Nische, sondern in möglichst breiter, öffentlich sichtbarer Anerkennung – selbst dann, wenn das eigene Fachgebiet gesellschaftlich umstritten ist. 1996 wurde Vithoulkas in Stockholm mit dem Right Livelihood Award geehrt, oft als ›alternativer Nobelpreis‹ bezeichnet, für seinen außergewöhnlichen Beitrag zur Wiederbelebung homöopathischen Wissens und zur Ausbildung von Homöopathen auf höchstem Niveau.</p>
+          <p class="vb-intro">Seine Bücher wurden in zwanzig Sprachen übersetzt und prägten die weltweite Praxis der Homöopathie maßgeblich – nicht als regionale Fußnote, sondern als international anerkanntes Lebenswerk, das gezielt auf globale Sichtbarkeit angelegt war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Bewusstseinsentwicklung statt reiner Symptomlehre</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sozialen Drei eine Tiefe, die über fachliche Kompetenz hinausreicht. Vithoulkas verknüpfte die geistige Evolution des Menschen ausdrücklich mit dessen Gesundheitszustand und vertrat die Überzeugung, ohne diese Verbindung könnten Ärzte keine wirklich radikale, dauerhafte Heilung bewirken – eine Vision, in der Bewusstsein und Körper untrennbar zusammengehören.</p>
+          <p class="vb-intro">Seine Gespräche mit dem Philosophen Jiddu Krishnamurti und seine eigene, über 57 Jahre entwickelte Theorie der ›Gesundheitsstufen‹ – ein zwölfstufiges System zur Einordnung des Gesundheitszustands eines Patienten – zeigen dieselbe Vierertiefe: eine höchst individuelle, jahrzehntelang verfeinerte geistige Konstruktion, die weit über handwerkliche Symptomlehre hinausgeht. Dass er seine Akademie bewusst auf einer abgelegenen Insel ansiedelte, statt sie in einer Großstadt zu massentauglicher Breitenwirkung zu bringen, passt zu dieser Suche nach Tiefe statt bloßer Reichweite.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Ein systematisches Theoriewerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Vithoulkas tatsächlich auszeichnet, ist die Systematisierung eines bis dahin stark erfahrungsbasierten, uneinheitlichen Feldes: Sein Hauptwerk ›The Science of Homeopathy‹ (1977) und die später ausgearbeitete Theorie der ›Levels of Health‹ liefern niedergelegte, nachvollziehbare Kriterien dafür, wie sich der Gesundheitszustand eines Patienten einordnen und eine homöopathische Behandlung prognostisch einschätzen lässt – ein Versuch, ein Feld mit Regeln und Vorhersagbarkeit zu versehen, die zuvor kaum systematisch beschrieben waren.</p>
+          <p class="vb-intro">Diese Substanz erklärt, warum seine Bücher weltweit als Referenzwerke gelten: nicht bloß eine persönliche Philosophie, sondern ein Instrumentarium, mit dem andere Praktizierende arbeiten und ihre eigenen Fälle einordnen können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Vithoulkas die SO3w4 als jemand, der öffentliche Anerkennung nicht auf Kosten fachlicher Tiefe suchte, sondern beides über Jahrzehnte konsequent miteinander verband – internationale Sichtbarkeit für ein Werk, das gleichzeitig hochgradig persönlich und individuell durchdrungen blieb.</p>
+          <p class="vb-intro">Der Schatten der Drei zeigt sich darin, dass ein derart stark auf die eigene Theorie und Person zentriertes Lebenswerk auch das Risiko birgt, Kritik oder alternative Sichtweisen innerhalb der eigenen Disziplin schwerer zuzulassen – ein Muster, das bei Begründern eines eigenen, umfassenden Theoriegebäudes nicht selten auftritt, wenn die eigene Deutungshoheit zum zentralen Teil des öffentlichen Bildes wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Bin ich nur wertvoll durch das, was ich leiste und wie es wahrgenommen wird?</em> zur Erkenntnis <em>Ich bin wertvoll, auch jenseits der öffentlichen Anerkennung.</em> Dass Vithoulkas seine Lehrtätigkeit ausdrücklich mit ›Gesetzen des geistigen Wachstums‹ verband, statt reine fachliche Autorität zu kultivieren, deutet auf eine reife Seite desselben Musters hin: Erfolg wird zum Mittel für eine tiefere, über die eigene Person hinausreichende Frage.</p>
+          <p class="vb-intro">Der Gepard, der seine Geschwindigkeit nicht nur nutzte, um selbst zu glänzen, sondern um eine ganze Disziplin auf ein neues, systematisches Fundament zu stellen – und der dabei nie aufhörte, nach der Tiefe hinter der reinen Symptomatik zu fragen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-pedro-alonso", label:"Porträt: Pedro Alonso (SO3w4)"},
+        {route:"beruehmte-leon-goretzka", label:"Porträt: Leon Goretzka (SO3w4)"},
+        {route:"beruehmte-samuel-hahnemann", label:"Porträt: Dr. Samuel Hahnemann (SO1w9) – Begründer der Homöopathie"},
+      ])}
+    </div>
+  `);
+}
