@@ -2208,6 +2208,7 @@ export function barbaraBleischPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Three's healing path leads from the conviction <em>I am only worth what I prove</em> to the insight <em>I am valuable, even without having to prove anything.</em> With her 2024 book ›Mitte des Lebens. Eine Philosophie der besten Jahre‹ (›Midlife: A Philosophy of the Best Years‹), Bleisch turns explicitly to this question: a life stage in which one's own worth can no longer be defined solely through new achievements and the next career step.</p>
           <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-penelope-cruz">Penélope Cruz</a> (SP3w2): she too shows the same combination of hard-earned professional substance and a caring, never intrusive use of her own fame. More in the <a href="javascript:void(0)" data-route="beruehmte-penelope-cruz">portrait of Penélope Cruz</a>.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-susan-link">Susan Link</a> (SP3w2) shares with Bleisch not only the subtype but the very profession: she too has hosted reliably for decades without relying on scandal or self-promotion. And in her facial features, a striking resemblance emerges to <a href="javascript:void(0)" data-route="beruehmte-audrey-tautou">Audrey Tautou</a> (also SP3w2) – an example of how a subtype's facial signature can recur across very different careers and languages.</p>
         </blockquote>
 
       </div>
@@ -2219,6 +2220,8 @@ export function barbaraBleischPortraitPage() {
         {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-penelope-cruz", label:"Portrait: Penélope Cruz (SP3w2)"},
         {route:"beruehmte-halle-berry", label:"Portrait: Halle Berry (SP3w2)"},
+        {route:"beruehmte-susan-link", label:"Portrait: Susan Link (SP3w2)"},
+        {route:"beruehmte-audrey-tautou", label:"Portrait: Audrey Tautou (SP3w2)"},
         {route:"beruehmte-anna-netrebko", label:"Portrait: Anna Netrebko (SP3w4)"},
       ])}
     </div>

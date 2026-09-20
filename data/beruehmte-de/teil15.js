@@ -2204,6 +2204,7 @@ export function barbaraBleischPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Drei führt von der Überzeugung <em>Ich bin nur wert, was ich beweise</em> zur Erkenntnis <em>Ich bin wertvoll, auch ohne etwas beweisen zu müssen.</em> Mit ihrem 2024 erschienenen Buch ›Mitte des Lebens. Eine Philosophie der besten Jahre‹ wendet sich Bleisch explizit dieser Frage zu: einem Lebensabschnitt, in dem sich der eigene Wert nicht mehr allein über neue Leistungen und nächste Karriereschritte definieren lässt.</p>
           <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-penelope-cruz">Penélope Cruz</a> (SE3w2): Auch bei ihr zeigt sich dieselbe Kombination aus hart erarbeiteter fachlicher Substanz und einer fürsorglichen, nie aufdringlichen Nutzung der eigenen Bekanntheit. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-penelope-cruz">Porträt zu Penélope Cruz</a>.</p>
+          <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-susan-link">Susan Link</a> (SE3w2) teilt mit Bleisch nicht nur den Subtyp, sondern denselben Beruf: Auch sie moderiert seit Jahrzehnten verlässlich, ohne auf Skandal oder Selbstinszenierung zu setzen. Und in den Gesichtszügen zeigt sich eine auffällige Ähnlichkeit zu <a href="javascript:void(0)" data-route="beruehmte-audrey-tautou">Audrey Tautou</a> (ebenfalls SE3w2) – ein Beispiel dafür, dass sich die Blickqualitäten eines Subtyps mitunter über sehr unterschiedliche Lebenswege und Sprachen hinweg wiederholen.</p>
         </blockquote>
 
       </div>
@@ -2215,6 +2216,8 @@ export function barbaraBleischPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-penelope-cruz", label:"Porträt: Penélope Cruz (SE3w2)"},
         {route:"beruehmte-halle-berry", label:"Porträt: Halle Berry (SE3w2)"},
+        {route:"beruehmte-susan-link", label:"Porträt: Susan Link (SE3w2)"},
+        {route:"beruehmte-audrey-tautou", label:"Porträt: Audrey Tautou (SE3w2)"},
         {route:"beruehmte-anna-netrebko", label:"Porträt: Anna Netrebko (SE3w4)"},
       ])}
     </div>
