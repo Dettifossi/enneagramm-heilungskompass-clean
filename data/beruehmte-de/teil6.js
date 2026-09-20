@@ -2160,3 +2160,69 @@ export function alecBaldwinPortraitPage() {
     </div>
   `);
 }
+
+export function volkerGerhardtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-volker-gerhardt-portrait.jpg" alt="Prof. Dr. Volker Gerhardt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Volker Gerhardt</p>
+        <p class="krim-portrait-typ">SO1w9 · Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Philosoph, geb. 1944 – Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die zwei Werke über Jahrzehnte hütet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Volker Gerhardt wurde 1944 in Guben geboren und wuchs in Hagen/Westfalen auf. Er studierte Philosophie, Psychologie, Rechtswissenschaft und Soziologie in Frankfurt und Münster, promovierte 1974 und habilitierte sich 1984. Nach einer Professur in Münster (ab 1985) und einer Gastprofessur in Zürich (1986) lehrte er von 1992 bis 2012 Philosophie an der Humboldt-Universität zu Berlin, wo er bis heute als Seniorprofessor tätig ist.</p>
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – wachsam, prinzipientreu, in Verantwortung für die Ordnung eines Ganzen, nicht für die eigene Bühne. Bei kaum jemandem zeigt sich dieses Muster so konkret wie bei Gerhardt: Von 2001 bis 2023 leitete er die Nietzsche-Kommission der Berlin-Brandenburgischen Akademie der Wissenschaften und verantwortete damit über zwei Jahrzehnte die kritische Gesamtausgabe von Nietzsches Werk. Parallel dazu initiierte er 2001 eine Neuausgabe der Akademie-Ausgabe von Kants Werken – ein auf 2026 angelegtes Editionsprojekt, dessen Vorsitz und Projektleitung ebenfalls bei ihm lag.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Korrektheit als Lebensaufgabe, nicht als Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> übernimmt wachsame Verantwortung für die Ordnung eines Kollektivs – nicht aus Geltungsbedürfnis, sondern aus der unbestechlichen Überzeugung, dass Dinge richtig gemacht werden müssen. Bei Gerhardt zeigt sich das nicht als einzelne reformerische Kampagne, sondern als durchgehendes Lebensmuster institutioneller Sorgfalt: Seit 1998 leitete er zusätzlich die Bioethik-Kommission der Deutschen Forschungsgemeinschaft und vertrat die philosophische Ethik im vom Bundeskanzleramt einberufenen Nationalen Ethikrat.</p>
+          <p class="vb-intro">Auch sein philosophisches Programm ist explizit normativ ausgerichtet: Für Gerhardt kristallisiert sich die Aufgabe aller Philosophie in der Frage ›Wie soll man leben?‹ – Philosophie wird für ihn erst philosophisch, wenn sie sich dem konkreten menschlichen Leben und seinen Problemen zuwendet, statt in reiner Theorie zu verharren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Überzeugung ohne Konfrontationslust</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der sozialen Eins eine gedämpfte, undramatische Note – die Überzeugung bleibt unerschütterlich, wird aber selten zugespitzt nach außen getragen. In seinem Buch ›Öffentlichkeit. Die politische Form des Bewusstseins‹ (2012) positioniert sich Gerhardt explizit gegen Jürgen Habermas, für den ›kritische Öffentlichkeit‹ nur als Ergebnis eines an Regeln und Gründen gebundenen Diskurses entstehen kann. Gerhardt erklärt stattdessen Partizipation selbst zum Grundprinzip der Politik – ein fundamentaler konzeptioneller Widerspruch zu einem der einflussreichsten deutschen Philosophen der Gegenwart, ausgetragen in sachlicher Buchform, nicht als öffentlicher Schlagabtausch.</p>
+          <p class="vb-intro">Dieselbe undramatische Beharrlichkeit zeigt sich in seiner editorischen Arbeit: Zwei jahrzehntelange, höchst anspruchsvolle Editionsprojekte gleichzeitig zu verantworten, ohne dass sein Name je mit einem öffentlichen Streit um eine dieser Ausgaben verbunden gewesen wäre, verrät dieselbe stille, unspektakuläre Ordnungshüter-Haltung, die auch bei anderen SO1w9 dieses Kompasses auftaucht – etwa bei <a href="javascript:void(0)" data-route="beruehmte-richard-david-precht">Richard David Precht</a> (SO1w9), der seine Reformüberzeugungen ebenfalls in ruhiger, erzählerischer statt konfrontativer Form vorträgt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Hüter zweier kritischer Werkausgaben zugleich</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Gerhardt fachlich auszeichnet, ist eine seltene doppelte Verantwortung: Kaum ein anderer Philosoph seiner Generation leitete gleichzeitig die kritischen Gesamtausgaben zweier derart einflussreicher, editorisch höchst diffiziler Denker – Nietzsche, dessen Nachlass durch spätere Falschinterpretationen und Manipulationen notorisch komplex ist, und Kant, dessen Akademie-Ausgabe seit über hundert Jahren als Referenzwerk der internationalen Kant-Forschung gilt. Beide Projekte verlangen nicht nur philosophische Kompetenz, sondern jahrzehntelange, akribische Sorgfalt im Umgang mit Textvarianten, Nachlassfragmenten und editorischen Entscheidungen, die die Forschung noch Generationen später prägen.</p>
+          <p class="vb-intro">Sein Buch ›Immanuel Kant. Vernunft und Leben‹ (2002) verortet diese editorische Sorgfalt auch inhaltlich: Gerhardt argumentiert, dass aller philosophischen Erkenntnis ein ›persönlicher Kern‹ zugrunde liegt, der sich nicht wegabstrahieren lässt – eine Lesart, die Kant nicht als reinen Theoretiker, sondern als Denker liest, dessen System letztlich auf die gelebte menschliche Existenz zurückverweist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w9 zeigt sich darin, dass Gerhardt über Jahrzehnte hinweg die Korrektheit zentraler philosophischer Werkausgaben sicherte, ohne dabei je die eigene Person in den Vordergrund zu stellen – ein stiller Dienst an der Zunft, dessen Wirkung erst an der Verlässlichkeit der Editionen selbst sichtbar wird, nicht an medialer Präsenz.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Eins ist <strong>Zorn</strong> – beim Neunerflügel besonders unterdrückt und nach innen gerichtet. Der eigene Anspruch, dass Editionen, Kommissionsentscheidungen und Konzepte korrekt sein müssen, kann bei der SO1w9 zu einer stillen, kaum je ausgesprochenen Ungeduld mit allem führen, was diesem Anspruch nicht genügt – die Fassade bleibt ruhig, aber die Messlatte an sich selbst und andere sinkt nie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Ordnung sichern, ohne sich selbst darin aufzulösen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt von der Überzeugung <em>Nur das vollständig Richtige ist gut genug</em> zur Erkenntnis <em>Ich darf unvollkommen sein und bin trotzdem gut.</em> Dass Gerhardt auch nach seiner Emeritierung 2012 als Seniorprofessor weiterlehrt und seine Kommissionsarbeit bis weit in sein neuntes Lebensjahrzehnt fortsetzte, zeigt, wie stark die Ordnungsverantwortung Teil seiner Identität geblieben ist.</p>
+          <p class="vb-intro">Zugleich deutet seine für einen Kant-Interpreten ungewöhnliche These vom ›persönlichen Kern‹ aller Erkenntnis auf eine reifere Seite desselben Musters hin: Erkenntnis und Ordnung werden nicht als abstrakte, unpersönliche Systeme verstanden, sondern als etwas, das immer auf ein gelebtes, unvollkommenes menschliches Leben zurückverweist – eine Philosophie, die die eigene Strenge selbst relativiert, ohne sie aufzugeben.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-richard-david-precht", label:"Porträt: Richard David Precht (SO1w9)"},
+        {route:"beruehmte-markus-lanz", label:"Porträt: Markus Lanz (SO1w9)"},
+      ])}
+    </div>
+  `);
+}

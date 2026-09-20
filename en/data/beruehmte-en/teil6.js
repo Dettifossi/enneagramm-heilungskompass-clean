@@ -2160,3 +2160,69 @@ export function alecBaldwinPortraitPage() {
     </div>
   `);
 }
+
+export function volkerGerhardtPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-volker-gerhardt-portrait.jpg" alt="Prof. Dr. Volker Gerhardt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Prof. Dr. Volker Gerhardt</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">German philosopher, b. 1944 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose Who Guards Two Works for Decades</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Volker Gerhardt was born in 1944 in Guben and grew up in Hagen, Westphalia. He studied philosophy, psychology, law, and sociology in Frankfurt and Münster, earned his doctorate in 1974, and completed his habilitation in 1984. After a professorship in Münster (from 1985) and a guest professorship in Zurich (1986), he taught philosophy at Humboldt University Berlin from 1992 to 2012, where he continues to serve as senior professor today.</p>
+          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; watchful, principled, responsible for the order of a whole rather than for its own stage. Hardly anyone shows this pattern as concretely as Gerhardt: from 2001 to 2023 he chaired the Nietzsche Commission of the Berlin-Brandenburg Academy of Sciences, overseeing the critical complete edition of Nietzsche's work for over two decades. In parallel, in 2001 he initiated a new academy edition of Kant's works &ndash; an editorial project planned through 2026, whose chairmanship and project leadership also fell to him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Correctness as a Life's Task, Not a Performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> takes on watchful responsibility for the order of a collective &ndash; not out of a need for recognition, but from the uncorruptible conviction that things must be done correctly. In Gerhardt this shows not as a single reform campaign, but as a sustained life pattern of institutional stewardship: since 1998 he also chaired the Bioethics Commission of the German Research Foundation (DFG) and represented philosophical ethics on the National Ethics Council convened by the Federal Chancellery.</p>
+          <p class="vb-intro">His philosophical program, too, is explicitly normative: for Gerhardt, the task of all philosophy crystallizes in the question "How should one live?" &ndash; philosophy only becomes philosophical, in his view, when it turns to concrete human life and the problems that arise from it, rather than remaining in pure theory.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Conviction Without a Taste for Confrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the social One a muted, undramatic quality &ndash; the conviction stays unshakeable, but is rarely carried outward in sharpened form. In his book ›Öffentlichkeit. Die politische Form des Bewusstseins‹ (›Publicness: The Political Form of Consciousness‹, 2012), Gerhardt positions himself explicitly against Jürgen Habermas, for whom "critical publicness" can only arise as the result of discourse bound to rules and reasons. Gerhardt instead declares participation itself to be the fundamental principle of politics &ndash; a fundamental conceptual disagreement with one of the most influential German philosophers of the present, argued out in a sober book, not as a public shouting match.</p>
+          <p class="vb-intro">The same undramatic persistence shows in his editorial work: overseeing two decades-long, highly demanding editorial projects at once, without his name ever being tied to a public dispute over either edition, reveals the same quiet, unspectacular guardian stance found in other SO1w9 figures in this compass &ndash; such as <a href="javascript:void(0)" data-route="beruehmte-richard-david-precht">Richard David Precht</a> (SO1w9), who also carries his reform convictions in a calm, narrative rather than confrontational form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Actual Achievement: Guardian of Two Critical Editions at Once</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes Gerhardt professionally is a rare double responsibility: hardly any other philosopher of his generation simultaneously chaired the critical complete editions of two such influential, editorially demanding thinkers &ndash; Nietzsche, whose literary estate is notoriously complex due to later misinterpretations and manipulations, and Kant, whose academy edition has served as the reference work of international Kant scholarship for over a hundred years. Both projects demand not only philosophical competence but decades of meticulous care in handling textual variants, unpublished fragments, and editorial decisions that will shape scholarship for generations to come.</p>
+          <p class="vb-intro">His book ›Immanuel Kant. Vernunft und Leben‹ (›Immanuel Kant: Reason and Life‹, 2002) grounds this editorial rigor in substance as well: Gerhardt argues that all philosophical knowledge rests on a "personal core" that cannot be abstracted away &ndash; a reading that treats Kant not as a purely theoretical thinker, but as one whose system ultimately points back to lived human existence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social One with Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO1w9 shows in the fact that Gerhardt secured the correctness of central philosophical editions across decades without ever placing himself in the foreground &ndash; a quiet service to the discipline whose impact becomes visible only through the reliability of the editions themselves, not through media presence.</p>
+          <p class="vb-intro">The One's fatal flaw is <strong>anger</strong> &ndash; particularly suppressed and turned inward in the Nine-wing. The own standard that editions, commission decisions, and concepts must be correct can lead the SO1w9 into a quiet, almost never voiced impatience with anything that fails to meet that standard &ndash; the facade stays calm, but the bar set for oneself and others never drops.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: Securing Order Without Dissolving Into It</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One's healing path leads from the conviction <em>Only what is completely correct is good enough</em> to the insight <em>I am allowed to be imperfect and am still good.</em> That Gerhardt continues to teach as senior professor even after his 2012 emeritus status, and continued his commission work well into his ninth decade, shows how deeply the responsibility for order has remained part of his identity.</p>
+          <p class="vb-intro">At the same time, his unusual thesis, for a Kant interpreter, of a "personal core" underlying all knowledge points to a more mature side of the same pattern: knowledge and order are not understood as abstract, impersonal systems, but as something that always points back to a lived, imperfect human life &ndash; a philosophy that relativizes its own rigor without abandoning it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-richard-david-precht", label:"Portrait: Richard David Precht (SO1w9)"},
+        {route:"beruehmte-markus-lanz", label:"Portrait: Markus Lanz (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
