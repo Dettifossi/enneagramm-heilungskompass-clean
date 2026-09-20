@@ -2153,3 +2153,69 @@ export function halleBerryPortraitPage() {
     </div>
   `);
 }
+
+export function annaNetrebkoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-anna-netrebko-portrait.jpg" alt="Anna Netrebko" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anna Netrebko</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Russisch-österreichische Sopranistin, geb. 1971 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der putzte, um zuzuhören</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anna Netrebko wurde 1971 in Krasnodar geboren, als Tochter eines Geologen und einer Bauingenieurin, und begann früh eine Gesangsausbildung am Konservatorium von St. Petersburg. Um sich während des Studiums etwas Geld dazuzuverdienen, nahm sie eine Stelle als Reinigungskraft am Mariinski-Theater an – auf den ersten Blick eine reine Notlösung.</p>
+          <p class="vb-intro">Tatsächlich war es eine strategische Entscheidung, ganz im Sinne des <strong>Waschbären</strong>, des Tiers der selbsterhaltenden Drei: geschickt, anpassungsfähig, unauffällig kompetent statt auf Wirkung bedacht. Während sie die Bühne wischte, verfolgte sie stundenlang die Proben des Ensembles – kostenloser Unterricht, getarnt als Hausmeisterarbeit. Als sie Jahre später vorsang, erkannte Dirigent Waleri Gergijew die Frau wieder, die er zuvor beim Putzen gesehen hatte, und engagierte sie. 1993 gewann die 22-Jährige den international renommierten Glinka-Gesangswettbewerb in Moskau, obwohl sie technisch einigen Mitbewerbern unterlegen war – ihre ungewöhnlich dunkle, runde Klangfarbe für eine Koloratursopranistin gab am Ende den Ausschlag.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch nachweisbare Kompetenz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Statt über Selbstinszenierung sucht sie Sicherheit über konkret nachweisbare, handfeste Fähigkeiten. Bei Netrebko zeigt sich das nicht als Rückzug aus der Öffentlichkeit – dafür ist ihr Weg zu glanzvoll –, sondern als beharrliches Vertrauen darauf, dass die eigene Stimme, nicht das Image, das eigentliche Kapital ist. Ihren internationalen Durchbruch erzielte sie 1995 als Ljudmila in Glinkas ›Ruslan und Ljudmila‹ an der San Francisco Opera, ihren endgültigen Weltruhm 2002 bei den Salzburger Festspielen – beide Male über nachweisbare stimmliche Leistung, nicht über mediale Selbstvermarktung.</p>
+          <p class="vb-intro">Auch ihr öffentliches Auftreten – aufwendige Roben, aufsehenerregende Fotoshootings, eine bewusst gepflegte Diva-Ästhetik – bleibt strikt in ihrer eigenen Kontrolle: Sie betont in Interviews, ihre Mode und ihre Social-Media-Beiträge grundsätzlich selbst zu gestalten, statt diese Aufgabe an ein Management abzugeben. Das ist der entscheidende Unterschied zur sozialen oder sexuellen Drei: Glanz wird nicht verweigert, aber er bleibt eine selbst hergestellte, selbst kontrollierte Leistung – nicht die Bühne eines fremden PR-Apparats. Ihr Privatleben mit ihrem Ehemann, dem Tenor Yusif Eyvazov, und dem gemeinsamen Sohn Tiago hält sie dabei konsequent aus dem Rampenlicht heraus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: kontrollierte Intensität statt Anpassung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine selbsterhaltende Drei mit ausgeprägtem Zweierflügel würde vor allem durch Wärme und Fürsorge Sicherheit herstellen. Bei Netrebko zeigt sich stattdessen der <strong>Viererflügel</strong>: eine spürbare emotionale Intensität, die sich selbst nicht verleugnet, sondern kontrolliert nach außen trägt. Sie beschreibt sich selbst als jemanden mit „gewaltigen Gefühlen und immenser Energie", die beim Hören bestimmter Musik oder beim Sehen bestimmter Filme ausbricht und irgendwohin kanalisiert werden muss – und nennt sich selbst „crazy" in ihrem Wesen. Ein österreichisches Kunstmagazin brachte diese Kombination auf den Punkt: „kontrolliert crazy".</p>
+          <p class="vb-intro">Diese Beschreibung ist reine SE3w4-Logik: Die emotionale Rohheit des Viererflügels ist da und wird nicht versteckt, aber sie wird nie zur unkontrollierten Selbstentblößung. Auch bei ihren eigenen Social-Media-Beiträgen betont Netrebko, nichts wirklich Privates preiszugeben und selten zu schreiben, was sie tatsächlich denkt – sie hält lediglich Momentaufnahmen fest. Individualität und emotionale Tiefe werden gezeigt, aber immer als bewusst kuratierter Ausschnitt, nie als schutzlose Offenlegung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: eine Stimme, die sich selbst neu erfand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Netrebkos Stimme war von Beginn an ungewöhnlich: die Geschmeidigkeit und Beweglichkeit einer lyrischen Koloratursopranistin, kombiniert mit einer Klangfülle und Dunkelheit, die für dieses Fach untypisch ist – genau diese Kombination hatte schon die Jury des Glinka-Wettbewerbs überzeugt. Doch die eigentliche fachliche Leistung liegt in dem, was danach geschah: Nach der Geburt ihres Sohnes 2008 begann sich ihre Stimme natürlicherweise weiter zu verdunkeln. Statt diese Entwicklung als Bedrohung für ihr etabliertes lyrisches Repertoire zu behandeln, baute Netrebko sie über Jahre bewusst technisch aus – mit Rollendebüts, die die meisten Koloratursopranistinnen ihres ursprünglichen Fachs nie wagen: Lady Macbeth (Verdi), Turandot (Puccini), Elsa in ›Lohengrin‹ (Wagner), Leonora im ›Troubadour‹ und 2018 schließlich Tosca.</p>
+          <p class="vb-intro">Ihr langjähriger Mentor Waleri Gergijew hob genau diese „unglaubliche Fähigkeit zur Verwandlung" hervor. Der Wechsel vom lyrischen zum dramatischen, sogenannten Spinto-Fach ist stimmtechnisch riskant und für viele Sängerinnen der Beginn eines Karriereendes, wenn er misslingt – bei Netrebko wurde er zum Fundament einer zweiten, jahrzehntelangen Karrierephase auf höchstem Niveau. Drei Grammy-Nominierungen und eine der meistgefragten Sopranistinnen ihrer Generation zu bleiben, obwohl sich das eigene Instrument fundamental verändert hatte, ist keine glückliche Fügung, sondern das Ergebnis gezielter, jahrelanger technischer Arbeit an der eigenen Stimme.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei mit Viererflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 zeigt sich in genau dieser Fähigkeit: eine reale, biologisch bedingte Veränderung des eigenen Instruments nicht zu verdrängen, sondern zur Grundlage einer neuen, ebenso substanziellen Schaffensphase zu machen – Sicherheit, die sich immer wieder neu erarbeitet, statt sich auf einem einmal erreichten Status auszuruhen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist <strong>Eitelkeit / Täuschung</strong> – bei der selbsterhaltenden Drei subtiler, aber nicht abwesend: das Festhalten am eigenen, mühsam gesicherten Fundament, selbst wenn die Umstände eine andere Reaktion nahelegen würden. 2022 verlangte die Metropolitan Opera New York von Netrebko, sich öffentlich von Wladimir Putin zu distanzieren, um weiterhin dort auftreten zu können. Netrebko erfüllte diese konkrete Bedingung des Hauses nicht und verlor daraufhin ihre Engagements dort, darunter ›Turandot‹ und Verdis ›Don Carlos‹. Statt die eigene internationale Reputation über die bestehenden Bindungen zu ihrem Heimatland zu stellen – eine Reaktion, die man eher bei einer sozial orientierten Drei erwarten würde, deren Sicherheit stärker von öffentlichem Ansehen abhängt –, hielt die selbsterhaltende Drei an der eigenen, seit Jahrzehnten gewachsenen Basis fest, auch um den Preis der prestigeträchtigsten Bühne ihrer Karriere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: das Instrument, das sich nie ausruht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Überzeugung <em>Ich bin nur wert, was ich beweise</em> zur Erkenntnis <em>Ich bin wertvoll, auch ohne etwas beweisen zu müssen.</em> Bei Netrebko zeigt sich eine Zwischenstufe dieses Wegs sehr konkret: Sie musste ihren Wert nie über ein Image erfinden, weil er sich immer wieder in echter, überprüfbarer Leistung erneuert hat.</p>
+          <p class="vb-intro">Nach dem internationalen Karriereeinbruch 2022 kehrte sie bereits im Mai desselben Jahres auf die Pariser Bühne zurück und setzte ihre internationale Karriere in Wien, Berlin und an zahlreichen anderen Häusern fort – kein Rückzug, sondern die stille Gewissheit des Waschbären, dass die eigene Kompetenz auch nach einem Verlust an Boden trägt. Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-dmitri-hvorostovsky">Dmitri Hvorostovsky</a> (SO3w2): Auch bei ihm stand die russische Herkunft im Zentrum der öffentlichen Wahrnehmung, doch als sozial orientierte Drei suchte er seine Sicherheit stärker über internationale Anerkennung und Sichtbarkeit als über das eigene, unabhängige Fundament. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-dmitri-hvorostovsky">Porträt zu Dmitri Hvorostovsky</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-norah-jones", label:"Porträt: Norah Jones (SE3w4)"},
+        {route:"beruehmte-enrico-caruso", label:"Porträt: Enrico Caruso (SE3w2)"},
+        {route:"beruehmte-dmitri-hvorostovsky", label:"Porträt: Dmitri Hvorostovsky (SO3w2)"},
+      ])}
+    </div>
+  `);
+}

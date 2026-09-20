@@ -2153,3 +2153,69 @@ export function halleBerryPortraitPage() {
     </div>
   `);
 }
+
+export function annaNetrebkoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-anna-netrebko-portrait.jpg" alt="Anna Netrebko" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Anna Netrebko</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Russian-Austrian soprano, b. 1971 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon Who Cleaned in Order to Listen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anna Netrebko was born in 1971 in Krasnodar, the daughter of a geologist and a civil engineer, and began vocal training early at the St. Petersburg Conservatory. To earn extra money during her studies, she took a job as a cleaner at the Mariinsky Theatre &ndash; at first glance, a pure stopgap.</p>
+          <p class="vb-intro">In fact it was a strategic choice, entirely in the spirit of the <strong>raccoon</strong>, the animal of the self-preservation Three: resourceful, adaptable, quietly competent rather than focused on effect. While mopping the stage, she watched the ensemble's rehearsals for hours &ndash; free tuition disguised as janitorial work. When she auditioned years later, conductor Valery Gergiev recognized the woman he had previously seen cleaning, and engaged her. In 1993, at age 22, she won the internationally renowned Glinka Vocal Competition in Moscow, even though she was technically inferior to some competitors &ndash; her unusually dark, round timbre for a coloratura soprano ultimately tipped the balance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Security Through Demonstrable Competence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is considered the Three's countertype: instead of self-promotion, it seeks security through concrete, demonstrable ability. In Netrebko this does not show up as withdrawal from public life &ndash; her career is far too glamorous for that &ndash; but as a persistent trust that her voice, not her image, is her actual capital. Her international breakthrough came in 1995 as Lyudmila in Glinka's ›Ruslan and Lyudmila‹ at San Francisco Opera, her definitive world fame in 2002 at the Salzburg Festival &ndash; both times through demonstrable vocal achievement, not media self-promotion.</p>
+          <p class="vb-intro">Even her public image &ndash; elaborate gowns, striking photo shoots, a deliberately cultivated diva aesthetic &ndash; stays strictly under her own control: in interviews she emphasizes that she designs her own fashion and writes her own social-media posts herself, rather than handing that task to a management team. This is the decisive difference from the social or sexual Three: glamour is not refused, but it remains a self-produced, self-controlled achievement &ndash; not the stage of an outside PR apparatus. Her private life with her husband, tenor Yusif Eyvazov, and their son Tiago, she consistently keeps out of the spotlight.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: Controlled Intensity Rather Than Accommodation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A self-preservation Three with a pronounced Two-wing would establish security mainly through warmth and caretaking. In Netrebko, the <strong>Four-wing</strong> shows up instead: a palpable emotional intensity that is not denied, but carried outward under control. She describes herself as having "tremendous feelings and immense energy" that erupt when she hears certain music or watches certain films and need to be channeled somewhere &ndash; and calls her own nature "crazy." An Austrian arts magazine put this combination in a single phrase: "controlled crazy."</p>
+          <p class="vb-intro">That description is pure SP3w4 logic: the Four-wing's emotional rawness is present and not hidden, but it never tips into unguarded self-exposure. In her own social-media posts, too, Netrebko emphasizes that she doesn't reveal anything truly personal and rarely writes what she actually thinks &ndash; she simply captures moments. Individuality and emotional depth are shown, but always as a deliberately curated fragment, never as unprotected disclosure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Actual Achievement: A Voice That Reinvented Itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Netrebko's voice was unusual from the start: the flexibility and agility of a lyric coloratura soprano, combined with a fullness and darkness atypical for that fach &ndash; that exact combination is what had already convinced the Glinka Competition jury. But the real professional achievement lies in what happened afterward: after the birth of her son in 2008, her voice naturally began to darken further. Instead of treating this development as a threat to her established lyric repertoire, Netrebko deliberately built on it technically over years &ndash; with role debuts that most coloratura sopranos of her original fach never risk: Lady Macbeth (Verdi), Turandot (Puccini), Elsa in ›Lohengrin‹ (Wagner), Leonora in ›Il Trovatore‹, and finally Tosca in 2018.</p>
+          <p class="vb-intro">Her longtime mentor Valery Gergiev singled out exactly this "incredible ability to transform." The shift from the lyric to the dramatic, so-called spinto fach is technically risky and, for many singers, the beginning of the end of a career when it fails &ndash; for Netrebko it became the foundation of a second, decades-long career phase at the highest level. Remaining one of the most sought-after sopranos of her generation, with three Grammy nominations, despite her own instrument having fundamentally changed, is not a lucky break but the result of deliberate, years-long technical work on her own voice.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three with Four-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3w4 shows in exactly this ability: not to repress a real, biologically driven change in one's own instrument, but to make it the foundation of a new, equally substantial creative phase &ndash; security that is earned again and again, instead of resting on a status already achieved.</p>
+          <p class="vb-intro">The Three's fatal flaw is <strong>vanity / deceit</strong> &ndash; subtler in the self-preservation Three, but not absent: holding on to one's own, painstakingly secured foundation, even when circumstances would suggest a different response. In 2022, the Metropolitan Opera in New York demanded that Netrebko publicly distance herself from Vladimir Putin in order to keep performing there. Netrebko did not meet this specific condition of the house and consequently lost her engagements there, including ›Turandot‹ and Verdi's ›Don Carlos‹. Rather than placing her international reputation above her existing ties to her home country &ndash; a reaction one might expect more readily from a socially oriented Three, whose security depends more heavily on public standing &ndash; the self-preservation Three held on to her own, decades-grown base, even at the cost of the most prestigious stage of her career.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: The Instrument That Never Rests</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's healing path leads from the conviction <em>I am only worth what I prove</em> to the insight <em>I am valuable, even without having to prove anything.</em> In Netrebko, one intermediate stage of this path shows up very concretely: she never had to invent her worth through an image, because it kept renewing itself through real, verifiable achievement.</p>
+          <p class="vb-intro">After the international career setback of 2022, she was already back on the Paris stage by that same May, continuing her international career in Vienna, Berlin, and numerous other houses &ndash; not a retreat, but the raccoon's quiet certainty that its own competence carries even after a loss of ground. A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-dmitri-hvorostovsky">Dmitri Hvorostovsky</a> (SO3w2): with him, too, Russian origin stood at the center of public perception, but as a socially oriented Three he sought his security more through international recognition and visibility than through his own, independent foundation. More in the <a href="javascript:void(0)" data-route="beruehmte-dmitri-hvorostovsky">portrait of Dmitri Hvorostovsky</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4)"},
+        {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},
+        {route:"beruehmte-dmitri-hvorostovsky", label:"Portrait: Dmitri Hvorostovsky (SO3w2)"},
+      ])}
+    </div>
+  `);
+}
