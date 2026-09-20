@@ -2169,7 +2169,7 @@ export function corneliaFunkePortraitPage() {
         <h2 class="vb-section">3. Der Neunerflügel: Sechs Jahre an einer Welt, ohne sich zu verzetteln</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> bringt der sozialen Eins eine stille Ausdauer, die sich nicht in lautem Ehrgeiz erschöpft, sondern in geduldigem, gleichmäßigem Weiterarbeiten über lange Zeiträume. Die Tintenwelt-Trilogie, an der Funke von 2001 bis 2007 arbeitete, ist dafür das deutlichste Beispiel: sechs Jahre an einer einzigen, detailreich ausgearbeiteten Fantasiewelt, ohne dass die öffentliche Erwartung nach dem Welterfolg von ›Herr der Diebe‹ sie zu einer überstürzten Fortsetzung drängte.</p>
-          <p class="vb-intro">Diese Neunerflügel-Gelassenheit zeigt sich auch darin, wie wenig Funke öffentlich um die eigene Person inszeniert – trotz über 60 veröffentlichter Bücher, Übersetzungen in mehr als 50 Sprachen und einem Platz unter den 100 einflussreichsten Persönlichkeiten des Jahres 2005 laut TIME Magazine blieb ihr öffentliches Auftreten vergleichsweise zurückhaltend, das Werk sprach lauter als die Autorin selbst.</p>
+          <p class="vb-intro">Diese Neunerflügel-Gelassenheit zeigt sich auch darin, wie wenig Funke öffentlich um die eigene Person inszeniert – trotz über 60 veröffentlichter Bücher, Übersetzungen in mehr als 50 Sprachen und einem Platz unter den 100 einflussreichsten Persönlichkeiten des Jahres 2005 laut TIME Magazine bleibt ihr öffentliches Auftreten vergleichsweise zurückhaltend, das Werk von Cornelia Funke spricht lauter als die Autorin selbst.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die tatsächliche Leistung: Weltliteratur aus deutscher Kinderbuchtradition</h2>

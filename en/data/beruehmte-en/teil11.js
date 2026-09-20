@@ -2164,7 +2164,7 @@ export function corneliaFunkePortraitPage() {
         <h2 class="vb-section">3. The Nine-wing: Six Years on One World, Without Losing Focus</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the social One a quiet stamina that doesn't exhaust itself in loud ambition, but in patient, steady work sustained over long stretches of time. The Inkworld trilogy, on which Funke worked from 2001 to 2007, is the clearest example: six years on a single, richly detailed fantasy world, without letting the public expectations created by the worldwide success of "The Thief Lord" push her into a rushed sequel.</p>
-          <p class="vb-intro">This Nine-wing composure also shows in how little Funke stages herself publicly – despite more than 60 published books, translations into over 50 languages, and a place among TIME magazine's 100 most influential people of 2005, her public presence stayed comparatively restrained; the work spoke louder than the author herself.</p>
+          <p class="vb-intro">This Nine-wing composure also shows in how little Funke stages herself publicly – despite more than 60 published books, translations into over 50 languages, and a place among TIME magazine's 100 most influential people of 2005, her public presence stays comparatively restrained; the work speaks louder than the author herself.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Actual Achievement: World Literature from a German Children's Book Tradition</h2>
