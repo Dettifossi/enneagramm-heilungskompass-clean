@@ -2155,7 +2155,7 @@ export function gabiGarciaPortraitPage() {
         <h2 class="vb-section">1. Der Löwe</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier der sozialen Acht – ein Tier, dessen bloße körperliche Präsenz schon Respekt erzwingt, bevor überhaupt ein Kampf beginnt. Bei Gabrielle „Gabi" Garcia, geboren 1985 in Porto Alegre, ist dieses Bild fast wörtlich zu nehmen: Mit 1,87 Meter und muskulösen 95 Kilogramm überragt sie fast jede Gegnerin im Frauen-Kampfsport körperlich – eine Statur, die im Sport, in dem Gewichtsklassen sonst alles regeln, zur eigenen Kategorie wurde.</p>
-          <p class="vb-intro">Als Jugendliche spielte sie zunächst Volleyball, Handball und Feldhockey, bevor ihr Onkel sie mit etwa 13 Jahren, kurz nach dem Umzug der Familie nach São Paulo, ans Brazilian Jiu-Jitsu heranführte. Sie stand bereits kurz vor dem Abschluss eines Werbungs-Studiums, als sie sich entschied, ganz auf den Kampfsport zu setzen – eine Entscheidung, die sie zur dominantesten Wettkämpferin in der Geschichte des weiblichen Jiu-Jitsu machen sollte.</p>
+          <p class="vb-intro">Als Jugendliche spielte sie zunächst Volleyball, Handball und Feldhockey, bevor ihr Onkel sie mit etwa 13 Jahren, kurz nach dem Umzug der Familie nach São Paulo, ans Brazilian Jiu-Jitsu heranführte. Sie stand bereits kurz vor dem Abschluss eines Studiums im Bereich Werbung und Marketing, als sie sich entschied, ganz auf den Kampfsport zu setzen – eine Entscheidung, die sie zur dominantesten Wettkämpferin in der Geschichte des weiblichen Jiu-Jitsu machen sollte.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Acht: Stärke im Dienst der Frauen im Kampfsport</h2>
