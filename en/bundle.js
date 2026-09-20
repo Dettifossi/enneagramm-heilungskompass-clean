@@ -8378,7 +8378,8 @@ function wegweiserPremiumPage() {
     <section class="narrow centered" style="padding:2rem 1rem 1rem;">
       <p class="eyebrow">Wegweiser Premium</p>
       <h1 style="font-size:2rem;margin-bottom:.5rem;">More than 40 books, right in the conversation</h1>
-      <p class="lead-small" style="margin-bottom:2rem;">The Guide is the AI assistant built into the Enneagram Healing Compass. Normally it only searches the app's content – with Premium, it also draws on Detlef Rathmer's entire published body of work.</p>
+      <p class="lead-small" style="margin-bottom:.8rem;">The Guide is the AI assistant built into the Enneagram Healing Compass. Normally it only searches the app's content – with Premium, it also draws on Detlef Rathmer's entire published body of work.</p>
+      <p style="font-size:.85rem;color:var(--muted,#886);background:var(--cream,#f9f6f0);border-radius:10px;padding:.7rem 1rem;margin-bottom:2rem;">ℹ️ This is an optional add-on subscription for the Guide's book expansion – your one-time app purchase ($89) is unaffected and stays valid for life, with or without Premium.</p>
     </section>
     <section class="narrow" style="padding:0 1rem 1.5rem;">
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;margin-bottom:1.5rem;font-size:.97rem;line-height:1.7;">
