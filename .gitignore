@@ -17,3 +17,8 @@ ai-prototype/enzyklopaedie-private/
 # Eintrag verhindert nur, dass künftige neue Dateien versehentlich
 # hinzugefügt werden.
 assets/portraits/*-portrait.jpg
+
+# Archiv für Original-Uploadbilder, die von keiner Porträtseite mehr
+# referenziert werden (Live-Version liegt bereits auf R2) – lokales Backup,
+# nicht Teil des Repos.
+assets/portraits-archiv/
