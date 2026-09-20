@@ -1474,7 +1474,7 @@ export function samuelHahnemannPortraitPage() {
         {route:"enneagramm-homoeopathie", label:"Enneagramm meets Hom\u00f6opathie \u2013 9 Praxisf\u00e4lle"},
         {route:"beruehmte-adam-smith", label:"Portr\u00e4t: Adam Smith (SO1w9)"},
         {route:"beruehmte-friedrich-merz", label:"Portr\u00e4t: Friedrich Merz (SO1w9)"},
-        {route:"beruehmte-george-vithoulkas", label:"Portr\u00e4t: George Vithoulkas (SO3w4) \u2013 bedeutender Hom\u00f6opath des 20. Jahrhunderts"},
+        {route:"beruehmte-george-vithoulkas", label:"Portr\u00e4t: Prof. George Vithoulkas (SO3w4) \u2013 bedeutender Hom\u00f6opath des 20. Jahrhunderts"},
       ])}
     </div>
   `);

@@ -2161,9 +2161,9 @@ export function georgeVithoulkasPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-george-vithoulkas-portrait.jpg" alt="George Vithoulkas – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-george-vithoulkas-portrait.jpg" alt="Prof. George Vithoulkas – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">George Vithoulkas</p>
+        <p class="krim-portrait-name">Prof. George Vithoulkas</p>
         <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Viererflügel</p>
         <p class="krim-portrait-subtitle">Griechischer Homöopath, geb. 1932 – Tierentsprechung: Gepard</p>
       </div>
@@ -2171,7 +2171,7 @@ export function georgeVithoulkasPortraitPage() {
 
         <h2 class="vb-section">1. Der Gepard, der eine ganze Disziplin neu begründete</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – schnell, auffällig, gebaut für den einen entscheidenden Moment, der eine ganze Karriere trägt. George Vithoulkas, 1932 in Athen geboren, studierte Homöopathie in Südafrika und erhielt 1966 sein Diplom am Indian Institute of Homeopathy. Zurück in Griechenland begann er, eine kleine Gruppe von Ärzten in klassischer Homöopathie zu unterrichten – der therapeutische Erfolg dieser ersten Ärzte zog rasch weitere Aufmerksamkeit an sich.</p>
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei – schnell, auffällig, gebaut für den einen entscheidenden Moment, der eine ganze Karriere trägt. George Vithoulkas, 1932 in Athen geboren, studierte Homöopathie in Südafrika und erhielt 1966 sein Diplom am Indian Institute of Homeopathy. Zurück in Griechenland begann er, eine kleine Gruppe von Ärzten in klassischer Homöopathie zu unterrichten – der therapeutische Erfolg dieser ersten Ärzte zog rasch weitere Aufmerksamkeit an sich. Für sein Lebenswerk wurde er 2011 von der griechischen Universität der Ägäis zum Ehrenprofessor ernannt, hinzu kommen mehrere Ehrendoktorwürden, etwa der medizinischen Akademien in Kiew und Moskau – seither wird er durchgehend als Professor Vithoulkas geführt.</p>
           <p class="vb-intro">1970 entstand daraus die Athener Schule für Homöopathische Medizin, 1994 gründete er auf der griechischen Insel Alonissos die International Academy for Classical Homeopathy für die postgraduale Ausbildung von Ärzten, Heilpraktikern und weiteren Interessierten aus aller Welt – mit deutlichem Schwerpunkt auf Ärzten, da es weltweit weit mehr Mediziner als Heilpraktiker gibt (der Heilpraktiker-Beruf in dieser Form ist vor allem eine deutsche Besonderheit). Zahlreiche amerikanische Homöopathen reisten eigens auf die abgelegene Insel, um dort direkt bei ihm die als ›Vithoulkas-Methode‹ bekannte Herangehensweise zu erlernen. Der Gepard nutzte den einen Moment, in dem sich sein Wissen als wirksam erwies, um daraus eine internationale Institution zu bauen.</p>
         </blockquote>
 

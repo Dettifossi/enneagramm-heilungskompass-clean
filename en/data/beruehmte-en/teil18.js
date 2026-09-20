@@ -2161,9 +2161,9 @@ export function georgeVithoulkasPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-george-vithoulkas-portrait.jpg" alt="George Vithoulkas – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-george-vithoulkas-portrait.jpg" alt="Prof. George Vithoulkas – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">George Vithoulkas</p>
+        <p class="krim-portrait-name">Prof. George Vithoulkas</p>
         <p class="krim-portrait-typ">SO3w4 · Social Type 3 with Four-wing</p>
         <p class="krim-portrait-subtitle">Greek homeopath, b. 1932 – Animal correspondence: Cheetah</p>
       </div>
@@ -2171,7 +2171,7 @@ export function georgeVithoulkasPortraitPage() {
 
         <h2 class="vb-section">1. The Cheetah Who Re-founded an Entire Discipline</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Cheetah</strong> is the animal of the social Three – fast, striking, built for the one decisive moment that carries an entire career. George Vithoulkas, born 1932 in Athens, studied homeopathy in South Africa and received his diploma from the Indian Institute of Homeopathy in 1966. Back in Greece, he began teaching a small group of doctors classical homeopathy – the therapeutic success of these first doctors quickly attracted further attention.</p>
+          <p class="vb-intro">The <strong>Cheetah</strong> is the animal of the social Three – fast, striking, built for the one decisive moment that carries an entire career. George Vithoulkas, born 1932 in Athens, studied homeopathy in South Africa and received his diploma from the Indian Institute of Homeopathy in 1966. Back in Greece, he began teaching a small group of doctors classical homeopathy – the therapeutic success of these first doctors quickly attracted further attention. In recognition of his life's work, the Greek University of the Aegean appointed him Honorary Professor in 2011, and he also holds several honorary doctorates, including from the medical academies of Kyiv and Moscow – since then he has consistently been referred to as Professor Vithoulkas.</p>
           <p class="vb-intro">In 1970, this grew into the Athenian School of Homeopathic Medicine, and in 1994 he founded the International Academy for Classical Homeopathy on the Greek island of Alonissos for the postgraduate training of physicians, homeopathic practitioners, and other interested professionals from around the world – with a clear emphasis on physicians, since there are far more medical doctors than dedicated homeopathic practitioners worldwide (that specific profession, in the German sense of "Heilpraktiker," is largely a German peculiarity). Numerous American homeopaths traveled specifically to the remote island to learn what became known as the "Vithoulkas method" directly from him. The cheetah used the one moment when his knowledge proved effective to build an international institution out of it.</p>
         </blockquote>
 

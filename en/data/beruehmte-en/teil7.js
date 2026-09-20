@@ -1454,7 +1454,7 @@ export function samuelHahnemannPortraitPage() {
         {route:"enneagramm-homoeopathie", label:"Enneagram meets Homeopathy – 9 case studies"},
         {route:"beruehmte-adam-smith", label:"Portrait: Adam Smith (SO1w9)"},
         {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
-        {route:"beruehmte-george-vithoulkas", label:"Portrait: George Vithoulkas (SO3w4) – major 20th-century homeopath"},
+        {route:"beruehmte-george-vithoulkas", label:"Portrait: Prof. George Vithoulkas (SO3w4) – major 20th-century homeopath"},
       ])}
     </div>
   `);
