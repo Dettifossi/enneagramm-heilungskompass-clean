@@ -8940,6 +8940,7 @@ const BQA_TIERE_ZUSATZ = {
   SX9: ["Ferret", "Goldfish", "Tadpole"],
 };
 const BQA_KONTRATYPEN = ["SX1", "SE2", "SE3", "SE4", "SX5", "SX6", "SO7", "SO8", "SO9"];
+const BQA_VERSTAERKUNGSTYPEN = ["SO1", "SO2", "SO3", "SO4", "SE5", "SE6", "SX7", "SX8", "SX9"];
 const BQA_WING_MAP = { "1": ["9", "2"], "2": ["1", "3"], "3": ["2", "4"], "4": ["3", "5"], "5": ["4", "6"], "6": ["5", "7"], "7": ["6", "8"], "8": ["7", "9"], "9": ["8", "1"] };
 function _bqaSeite(typDigit) {
   if (typDigit === "9") return "Neutral";
@@ -20591,6 +20592,10 @@ function blickqualitaetenAtlasPage() {
       const pfx = k.code.slice(0, 2), digit = k.code.slice(2);
       const extras = BQA_TIERE_ZUSATZ[k.code] || [];
       const isKontra = BQA_KONTRATYPEN.includes(k.code);
+      const isVerstaerkung = BQA_VERSTAERKUNGSTYPEN.includes(k.code);
+      const bqaVariantLabel = isKontra ? "Countertype" : (isVerstaerkung ? "Reinforcement Type" : "Standard Type");
+      const bqaVariantColor = isKontra ? "#c9a24a" : (isVerstaerkung ? "#7a8b6f" : "var(--line,var(--border))");
+      const bqaVariantTextColor = isKontra ? "#fff" : (isVerstaerkung ? "#fff" : "var(--ink)");
       const wings = BQA_WING_MAP[digit] || [];
       const people = _bqaPortraitsForCode(k.code);
       const peopleTiles = people.map(p => `<div data-route="${p.route}" data-bqa-wing="${(p.subtyp.match(/w(\d)$/) || [,""])[1]}" style="cursor:pointer;aspect-ratio:1;border-radius:8px;overflow:hidden;position:relative;box-shadow:0 1px 3px rgba(0,0,0,.15);background:${tcol};">
@@ -20609,7 +20614,7 @@ function blickqualitaetenAtlasPage() {
               </div>
             </div>
             <span style="display:flex;align-items:center;gap:.4rem;">
-              <span style="font-size:.65rem;padding:.15rem .5rem;border-radius:10px;background:${isKontra ? "#c9a24a" : "var(--line,var(--border))"};color:${isKontra ? "#fff" : "var(--ink)"};">${isKontra ? "Countertype" : "Standard Type"}</span>
+              <span style="font-size:.65rem;padding:.15rem .5rem;border-radius:10px;background:${bqaVariantColor};color:${bqaVariantTextColor};">${bqaVariantLabel}</span>
               <span style="color:var(--muted);font-size:.8rem;">▸</span>
             </span>
           </summary>
