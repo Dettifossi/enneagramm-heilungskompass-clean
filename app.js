@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage, gescheGottfriedPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=157";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=158";
 
 import { adeleKrankheitsportraetPage, arnoldSchwarzeneggerKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage, davidHockneyKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15911,6 +15911,7 @@ const uiText = {
       { route: "enneagramm-memory", label: "Enneagramm-Memory (Merkspiel, 3 Stufen)" },
       { route: "enneagramm-flashcards", label: "Enneagramm-Flashcards (Typ & Subtyp erraten)" },
       { route: "subtyp-comicquiz", label: "Comicfiguren-Quiz (27 Subtypen erraten)" },
+      { route: "subtyp-motivationsquiz", label: "Subtyp-Motivationsquiz (motivationsbedingtes Verhalten erraten)" },
       { route: "tierlexikon", label: "Tierlexikon" },
       { route: "tierforscher-uebereinstimmung", label: "Tierforscher-Übereinstimmung" },
       { route: "bewusstseinsgrad-normalverteilung", label: "Bewusstseinsgrad & Gaußsche Normalverteilungskurve" },
@@ -34421,12 +34422,17 @@ function leseprobePage() {
 
       <!-- 4: Interaktive Lernspiele -->
       <h2 style="font-family:'EB Garamond',serif;font-size:1.35rem;color:var(--ink);margin:0 0 .4rem;">Interaktiv lernen – nicht nur lesen</h2>
-      <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Vier Werkzeuge, um das Wissen spielerisch zu vertiefen – gespeist aus allen ${BERUEHMT_PORTRAITS.length + KRIMINAL_PORTRAITS.length + KRANKHEITS_PORTRAITS.length} Porträts des Kompasses.</p>
+      <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Werkzeuge, um das Wissen spielerisch zu vertiefen – gespeist aus allen ${BERUEHMT_PORTRAITS.length + KRIMINAL_PORTRAITS.length + KRANKHEITS_PORTRAITS.length} Porträts des Kompasses.</p>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-bottom:1.8rem;">
         <div data-route="blickqualitaeten-atlas" style="cursor:pointer;background:linear-gradient(135deg,#f0e4d0,#dfc49a);border-radius:10px;padding:.85rem .8rem;">
           <div style="font-size:1.4rem;margin-bottom:.25rem;">&#128065;</div>
           <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Blickqualitäten-Atlas</div>
           <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Alle 27 Subtypen: Tier, Blick, Flügel & Porträts</div>
+        </div>
+        <div data-route="subtyp-motivationsquiz" style="cursor:pointer;background:linear-gradient(135deg,#ece4f5,#d4c2ea);border-radius:10px;padding:.85rem .8rem;">
+          <div style="font-size:1.4rem;margin-bottom:.25rem;">&#127919;</div>
+          <div style="font-size:0.78rem;font-weight:700;color:var(--ink);">Subtyp-Motivationsquiz</div>
+          <div style="font-size:0.71rem;color:var(--muted);margin-top:.15rem;">Nur motivationsbedingtes Verhalten – 2 Schwierigkeitsstufen</div>
         </div>
         <div data-route="enneagramm-memory" style="cursor:pointer;background:linear-gradient(135deg,#f5e8cc,#f0d9a8);border-radius:10px;padding:.85rem .8rem;">
           <div style="font-size:1.4rem;margin-bottom:.25rem;">&#129504;</div>
@@ -45615,6 +45621,256 @@ function subtypComicQuizPage() {
   if (!_cquizState) return _cquizIntroScreen(_cquizLastLevel);
   if (_cquizState.phase === "gameOver") return _cquizGameOverScreen();
   return _cquizQuestionScreen();
+}
+
+// ───── Subtyp-Motivationsquiz ──────────────────────────────────────────────
+// Multiple-Choice-Ratespiel: Statt eines Fotos wird ausschließlich motivationsbedingtes
+// Verhalten beschrieben (die Leidenschaft/Fixierung des jeweiligen Subtyps in einer
+// konkreten Alltagsszene) – bewusst subtil formuliert, ohne Instinkt- oder Typkennung im
+// Text, damit die Aufgabe auch für subtypkundige Leser:innen fordernd bleibt.
+const SUBTYP_MOTIVATION = [
+  { code:"SE1", text:"Wenn im Haushalt etwas kaputtgeht, repariert er es am liebsten selbst und sofort, statt jemanden zu bitten – eigene Unordnung im direkten Lebensumfeld bereitet ihm ein schlechtes Gewissen. Ärger über andere zeigt sie selten offen, sondern in einem angespannten, kontrollierten Tonfall, während sie insgeheim genau registriert, wer sich nicht an Absprachen hält." },
+  { code:"SO1", text:"Bei einer Vereinssitzung meldet er sich zu Wort, sobald ein Beschluss von der eigentlichen Satzung abweicht – nicht aus Profilierungssucht, sondern aus Mitverantwortung für die korrekte Ordnung der Gemeinschaft. Fehler anderer benennt sie sachlich, aber unnachgiebig, mit dem stillen Anspruch, selbst über jeden Vorwurf erhaben zu sein." },
+  { code:"SX1", text:"Wenn der Partner eine Zusage nicht einhält, reagiert sie nicht mit offenem Vorwurf, sondern mit intensiver, kaum verhohlener Enttäuschung, die noch tagelang nachwirkt. Er strebt danach, in der engsten Beziehung gemeinsam mit dem anderen die eine, vollkommene Verbindung zu verwirklichen, an der es nichts mehr zu korrigieren gibt." },
+  { code:"SE2", text:"Statt Hilfe anzubieten, wartet er eher ab, bis jemand von sich aus fragt, wie es ihm geht – insgeheim hofft sie, dass die Fürsorge für sie selbst irgendwann genauso groß ausfällt wie die, die sie ständig für andere bereithält. Kleine, konkrete Gesten der Zuwendung bedeuten ihr mehr als große Worte." },
+  { code:"SO2", text:"In einer Gruppe übernimmt er wie selbstverständlich die Rolle, ohne die nichts richtig laufen würde, und misst seinen eigenen Wert genau daran, wie unentbehrlich er der Gemeinschaft gerade erscheint. Wird sie einmal nicht gebraucht, empfindet sie das rasch als Zurückweisung, auch wenn objektiv nichts geschehen ist." },
+  { code:"SX2", text:"Sie richtet ihre ganze Aufmerksamkeit auf eine einzige Person im Raum und spiegelt genau das zurück, was der andere gerade zu brauchen scheint – nicht aus Berechnung, sondern weil exklusive Nähe für sie der eigentliche Lebenssinn ist. Bleibt diese Intensität unerwidert, kippt die anfängliche Hingabe rasch in Eifersucht oder ein Gefühl tiefer Zurückweisung." },
+  { code:"SE3", text:"Auf die Frage nach dem eigenen Erfolg reagiert er eher zurückhaltend und verweist lieber auf das, was konkret erledigt wurde, als auf ein größeres Ziel oder Image. Innerlich sichert sie ihren Selbstwert nicht über Applaus, sondern über das stille Gefühl, verlässlich zu funktionieren und gebraucht zu werden." },
+  { code:"SO3", text:"Beim Betreten eines Raums scannt er in Sekundenbruchteilen, wer dort Einfluss hat, und passt Auftreten und Tonfall unbewusst genau an diese Erwartung an. Ihr eigentlicher Antrieb ist die tiefe Überzeugung, dass sichtbarer Erfolg der einzige verlässliche Beweis für den eigenen Wert ist." },
+  { code:"SX3", text:"In einem Gespräch zu zweit setzt er unauffällig, aber gezielt Signale von Attraktivität und Kompetenz zugleich ein, sobald er merkt, dass jemand ihn wirklich wahrnimmt. Worum es ihr tief innen geht, ist nicht Ruhm vor vielen, sondern die Bestätigung, im Blick einer einzigen wichtigen Person unwiderstehlich zu sein." },
+  { code:"SE4", text:"Auch wenn innerlich viel in ihr vorgeht, funktioniert sie in Krisen meist bemerkenswert diszipliniert weiter, während die eigentliche Sehnsucht nach einem authentischeren Leben nach außen kaum sichtbar wird. Sein Leiden zeigt sich seltener in Worten als in einer zähen, fast unauffälligen Standhaftigkeit." },
+  { code:"SO4", text:"In einer Gruppe fühlt sie sich oft wie die Einzige, die wirklich versteht, wie kompliziert die eigene innere Welt ist, und vergleicht sich unwillkürlich mit anderen, ohne dass daraus je echte Zugehörigkeit entsteht. Sichtbar gezeigtes Leiden ist für ihn fast der einzige Beweis, wirklich besonders und einzigartig zu sein." },
+  { code:"SX4", text:"Bekommt sie in einer Beziehung nicht die erhoffte Intensität zurück, reagiert sie selten resigniert, sondern mit einer direkten, fast konfrontativen Forderung nach mehr echter Nähe. Er konkurriert unbewusst mit jedem, der ihm die besondere Verbindung streitig machen könnte, statt sich in stille Sehnsucht zurückzuziehen." },
+  { code:"SE5", text:"Bevor er sich auf ein Gespräch oder einen Termin einlässt, sorgt er innerlich dafür, dass genug Rückzugsraum und Zeit für sich selbst gesichert bleibt, notfalls durch feste, fast rituelle Routinen. Ihre größte Sorge ist nicht Einsamkeit, sondern dass die eigenen, begrenzten Kräfte von außen beansprucht werden könnten." },
+  { code:"SO5", text:"In einer Fachdiskussion bringt er sein Wissen bereitwillig ein, sobald er merkt, dass es tatsächlich gebraucht wird – intellektueller Beitrag ist für ihn die eigentliche Form, zu einer Gruppe dazuzugehören. Direkten emotionalen Austausch ersetzt sie dabei oft unbemerkt durch das Teilen von Konzepten und Ideen." },
+  { code:"SX5", text:"Nach außen wirkt sie zurückhaltend und schwer zugänglich, doch sobald sich echtes Vertrauen zu einer einzigen Person aufbaut, öffnet er sich überraschend intensiv und persönlich. Ihr eigentliches Ziel ist nicht Distanz, sondern die eine tiefe, exklusive Verbindung, in der sie sich ganz zeigen kann." },
+  { code:"SE6", text:"Sie sucht sich gezielt ein kleines, verlässliches Netzwerk aus Menschen, denen sie vertraut, und hält daran auch dann fest, wenn objektiv bessere Optionen vorhanden wären. Sicherheit entsteht für ihn vor allem durch Zugehörigkeit zu etwas Warmem und Verlässlichem, nicht durch eigene Stärke." },
+  { code:"SO6", text:"Bei wichtigen Entscheidungen orientiert er sich lieber an einer anerkannten Regel, einer Institution oder einer klaren Autorität, als sich allein auf das eigene Urteil zu verlassen. Ihre Loyalität gilt weniger einzelnen Personen als dem System oder der Idee, der sie dient – Zweifel daran fühlen sich bedrohlicher an als persönliche Kritik." },
+  { code:"SX6", text:"Wo andere vor einer Konfrontation zurückschrecken, sucht er sie eher aktiv – nicht aus Tollkühnheit, sondern um sich selbst zu beweisen, dass die eigene Angst ihn nicht beherrscht. Beziehungen testet sie unbewusst häufig auf Belastbarkeit, bevor sie sich wirklich sicher genug fühlt, um Vertrauen zuzulassen." },
+  { code:"SE7", text:"Vor einer Reise oder einem größeren Vorhaben sorgt er zuverlässig dafür, dass praktisch nichts fehlt – Vorräte, Kontakte, ein Plan B –, und genießt diese Fülle sichtbar und konkret. Seine Angst vor Mangel zeigt sich weniger in Worten als in einem beinahe automatischen Bedürfnis, sich immer gut abgesichert zu fühlen." },
+  { code:"SO7", text:"Statt persönlichen Genuss offen auszuleben, stellt sie ihre Begeisterung lieber in den Dienst eines gemeinsamen Projekts oder einer Vision, der andere sich anschließen können. Sein Enthusiasmus wirkt dadurch idealistischer und weniger selbstbezogen, als müsste die eigene Freude erst durch einen höheren Zweck gerechtfertigt werden." },
+  { code:"SX7", text:"Er lässt sich schnell und aufrichtig von einer neuen Idee, einem Menschen oder einem Erlebnis begeistern – fast idealisierend – und überträgt diese Faszination spürbar auf andere in seiner Nähe. Verliert die Sache ihren Reiz, wendet sie sich mit derselben Intensität dem nächsten Vorhaben zu, ohne lange zurückzublicken." },
+  { code:"SE8", text:"Bevor er sich auf andere verlässt, sorgt er selbst dafür, dass die eigenen Grundbedürfnisse gedeckt sind, notfalls im Alleingang und ohne lange zu fragen. Von Autoritäten lässt sie sich ungern etwas vorschreiben, besonders wenn es die eigene handfeste Unabhängigkeit einschränken würde." },
+  { code:"SO8", text:"Gerät jemand in seiner Gruppe unter Druck, stellt er sich unaufgefordert schützend davor – seine Stärke zeigt sich weniger im eigenen Vorteil als im Einstehen für andere, denen er sich loyal verbunden fühlt. Kontrolle übernimmt sie dabei oft ganz selbstverständlich, ohne dass ihr das selbst bewusst wäre." },
+  { code:"SX8", text:"In einer engen Beziehung beansprucht sie den anderen mit einer Intensität, die schnell wie ein Besitzanspruch wirkt, auch wenn es ihr eigentlich um vollständige, ungeteilte Hingabe geht. Ein Kompromiss in der Mitte fühlt sich für ihn oft schwerer aushaltbar an als ein offener, direkt ausgetragener Konflikt." },
+  { code:"SE9", text:"Nach einem anstrengenden Tag greift er eher zu einer vertrauten Gewohnheit, als sich aktiv mit dem auseinanderzusetzen, was ihn eigentlich beschäftigt. Ihre innere Ruhe entsteht weniger durch echte Klärung als durch das bewusste Fernhalten von allem, was diese Ruhe stören könnte." },
+  { code:"SO9", text:"In einer Gruppe übernimmt sie bereitwillig Aufgaben, die sonst liegen bleiben würden, und stellt die eigene Meinung dabei oft unbemerkt zugunsten des Gemeinschaftsfriedens zurück. Was er selbst eigentlich will, tritt so weit in den Hintergrund, dass er es später kaum noch benennen kann." },
+  { code:"SX9", text:"In einer engen Beziehung übernimmt sie auffällig oft die Vorlieben, Interessen und sogar den Tagesrhythmus des Partners, bis die Grenze zwischen eigenen und geteilten Wünschen kaum noch spürbar ist. Für ihn fühlt sich vollständige Verschmelzung mit einer geliebten Person eher wie Erfüllung an als wie ein Verlust der eigenen Identität." },
+];
+
+const SQUIZ_TOTAL_ROUNDS = 10;
+const SQUIZ_LEVEL_META = {
+  1: { label: "Subtyp-Motivationsquiz I", sub: "Anfänger · nur der Grundtyp zählt",
+       rule: "Sie lesen eine kurze Verhaltensszene, die ausschließlich die <strong>Motivation</strong> hinter dem Handeln zeigt (nicht Flügel-, Stresspunkt- oder allgemeines Verhalten). Vier Antwortmöglichkeiten, jede ein <strong>Grundtyp (1&ndash;9)</strong> – die Instinktvariante spielt keine Rolle." },
+  2: { label: "Subtyp-Motivationsquiz II", sub: "Experten · voller Subtyp (Instinkt+Typ)",
+       rule: "Sie lesen dieselben Szenen wie in Stufe I, doch die vier Antwortmöglichkeiten zeigen nun jeweils den <strong>vollen Subtyp</strong> (z. B. SO4). Gefragt ist die exakte Kombination aus Instinktvariante und Typ – deutlich anspruchsvoller." },
+};
+
+let _squizState = null;
+let _squizLastLevel = 1;
+
+function _squizBestKey(level) { return "kompass:squizBest:" + level; }
+function _squizSaveBest(level, score) {
+  try {
+    const prev = parseInt(localStorage.getItem(_squizBestKey(level)) || "0", 10);
+    if (score > prev) localStorage.setItem(_squizBestKey(level), String(score));
+  } catch (e) {}
+}
+function _squizGetBest(level) {
+  try { return parseInt(localStorage.getItem(_squizBestKey(level)) || "0", 10); } catch (e) { return 0; }
+}
+function _squizRerender() {
+  if (location.hash === "#subtyp-motivationsquiz") { render(); } else { location.hash = "subtyp-motivationsquiz"; }
+}
+function _squizShuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+
+function _squizPickQuestion(level, usedCodes) {
+  const pool = SUBTYP_MOTIVATION.filter(s => !usedCodes.has(s.code));
+  const source = pool.length ? pool : SUBTYP_MOTIVATION;
+  const item = _squizShuffle(source)[0];
+  const correctKey = level === 1 ? item.code.slice(2) : item.code;
+  let distractPool;
+  if (level === 1) {
+    distractPool = ["1","2","3","4","5","6","7","8","9"].filter(n => n !== correctKey);
+  } else {
+    distractPool = SUBTYP_MOTIVATION.map(s => s.code).filter(c => c !== correctKey);
+  }
+  const distractors = _squizShuffle(distractPool).slice(0, 3);
+  const options = _squizShuffle([correctKey, ...distractors]);
+  return { item, correctKey, options };
+}
+
+function _squizNextRound() {
+  const st = _squizState;
+  if (!st) return;
+  st.round += 1;
+  if (st.round > SQUIZ_TOTAL_ROUNDS) {
+    st.phase = "gameOver";
+    _squizSaveBest(st.level, st.score);
+    _squizRerender();
+    return;
+  }
+  const q = _squizPickQuestion(st.level, st.usedCodes);
+  st.usedCodes.add(q.item.code);
+  st.question = q;
+  st.answered = false;
+  st.selectedKey = null;
+  st.phase = "question";
+  _squizRerender();
+}
+
+window._squizStart = function (level) {
+  const lvl = SQUIZ_LEVEL_META[level] ? level : 1;
+  _squizLastLevel = lvl;
+  _squizState = { level: lvl, phase: "question", round: 0, score: 0, question: null, answered: false, selectedKey: null, usedCodes: new Set() };
+  _squizNextRound();
+};
+window._squizSwitchLevel = function (level) {
+  const lvl = SQUIZ_LEVEL_META[level] ? level : 1;
+  _squizLastLevel = lvl;
+  _squizState = null;
+  _squizRerender();
+};
+window._squizAnswer = function (key) {
+  const st = _squizState;
+  if (!st || st.phase !== "question" || st.answered) return;
+  st.answered = true;
+  st.selectedKey = key;
+  if (key === st.question.correctKey) st.score += 1;
+  _squizRerender();
+};
+window._squizNextRound = function () { _squizNextRound(); };
+window._squizRestart = function () {
+  const lvl = _squizState ? _squizState.level : 1;
+  window._squizStart(lvl);
+};
+
+function _squizLevelSwitcher(currentLevel) {
+  const items = [1,2].map(l => {
+    const active = l === currentLevel;
+    return active
+      ? `<span class="mem-level-pill mem-level-pill--active">${l===1?"I":"II"}</span>`
+      : `<a href="javascript:void(0)" class="mem-level-pill" onclick="window._squizSwitchLevel(${l})">${l===1?"I":"II"}</a>`;
+  }).join("");
+  return `<div class="mem-level-switcher"><span class="mem-level-switcher-label">Stufe:</span>${items}</div>`;
+}
+
+function _squizKeyLabel(key, level) {
+  return level === 1 ? "Typ " + key : key;
+}
+
+function _squizIntroScreen(level) {
+  const meta = SQUIZ_LEVEL_META[level];
+  const best = _squizGetBest(level);
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; ${meta.label}</p>
+        <h1 class="section-title">${meta.label}</h1>
+        ${_squizLevelSwitcher(level)}
+        <p class="psycho-intro">Eine kurze Alltagsszene, die ausschließlich <strong>motivationsbedingtes Verhalten</strong> zeigt – nicht Flügel-, Stresspunkt- oder allgemeines Verhalten – vier Antwortmöglichkeiten, sofortiges Feedback, 10 Fragen pro Runde.</p>
+        <div class="flash-rule-box">
+          <p class="flash-rule-box-label">Wonach wird in dieser Stufe gefragt?</p>
+          <p style="margin:0;">${meta.rule}</p>
+        </div>
+        ${best > 0 ? `<p style="text-align:center;color:var(--muted);font-size:0.9rem;margin-bottom:1.2rem;">Ihre Bestleistung in dieser Stufe: <strong style="color:var(--ink);">${best}/${SQUIZ_TOTAL_ROUNDS}</strong></p>` : ""}
+        <div style="text-align:center;">
+          <button class="flash-btn" onclick="window._squizStart(${level})">Quiz starten &rarr;</button>
+        </div>
+      </div>
+      ${_flashStyles()}
+    </div>
+  `);
+}
+
+function _squizQuestionScreen() {
+  const st = _squizState;
+  const meta = SQUIZ_LEVEL_META[st.level];
+  const q = st.question;
+  const optionsHtml = q.options.map(key => {
+    const display = _squizKeyLabel(key, st.level);
+    let cls = "flash-opt";
+    let disabled = st.answered ? "disabled" : "";
+    if (st.answered) {
+      if (key === q.correctKey) cls += " flash-opt--correct";
+      else if (key === st.selectedKey) cls += " flash-opt--wrong";
+    }
+    const onclick = st.answered ? "" : ` onclick="window._squizAnswer('${key}')"`;
+    return `<button class="${cls}" ${disabled}${onclick}>${display}</button>`;
+  }).join("");
+
+  let feedback = "";
+  if (st.answered) {
+    const correct = st.selectedKey === q.correctKey;
+    const isLast = st.round >= SQUIZ_TOTAL_ROUNDS;
+    feedback = `
+      <div class="flash-feedback">
+        <p><strong>${correct ? "Richtig!" : "Leider falsch."}</strong></p>
+        <div class="flash-name-reveal">${_squizKeyLabel(q.correctKey, st.level)} (${q.item.code})</div>
+        <button class="flash-btn" onclick="window._squizNextRound()">${isLast ? "Endergebnis &rarr;" : "Nächste Frage &rarr;"}</button>
+      </div>
+    `;
+  }
+
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; ${meta.label}</p>
+        <h1 class="section-title">${meta.label}</h1>
+        ${_squizLevelSwitcher(st.level)}
+        <div class="flash-hud">
+          <span>Frage <strong>${st.round}</strong> / ${SQUIZ_TOTAL_ROUNDS}</span>
+          <span>Punkte: <strong>${st.score}</strong></span>
+        </div>
+        <div style="background:linear-gradient(135deg,#2c2c2c,#1e1e1e);border-radius:14px;padding:1.6rem 1.4rem;margin:1rem 0 1.2rem;">
+          <p style="color:#f5e9d0;font-family:'EB Garamond',Georgia,serif;font-size:1.05rem;line-height:1.6;margin:0;">${q.item.text}</p>
+        </div>
+        <p style="text-align:center;color:var(--muted);font-size:0.85rem;">${st.level === 1 ? "Welcher Grundtyp handelt hier aus seiner Motivation heraus?" : "Welcher volle Subtyp handelt hier aus seiner Motivation heraus?"}</p>
+        <div class="flash-options">${optionsHtml}</div>
+        ${feedback}
+      </div>
+      ${_flashStyles()}
+    </div>
+  `);
+}
+
+function _squizGameOverScreen() {
+  const st = _squizState;
+  const meta = SQUIZ_LEVEL_META[st.level];
+  const best = _squizGetBest(st.level);
+  const pct = Math.round((st.score / SQUIZ_TOTAL_ROUNDS) * 100);
+  let msg;
+  if (pct >= 90) msg = "Außergewöhnlich &ndash; Sie erkennen die Motivation hinter dem Verhalten sicher!";
+  else if (pct >= 70) msg = "Sehr gut! Sie unterscheiden Motivation bereits klar von allgemeinem Verhalten.";
+  else if (pct >= 40) msg = "Solide Runde &ndash; die Unterscheidung von Motivation und allgemeinem Verhalten braucht Übung.";
+  else msg = "Ein Anfang &ndash; motivationsbedingtes Verhalten von Flügel- oder Stresspunktverhalten zu trennen, ist anspruchsvoll. Nochmal versuchen?";
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("wissen")}
+      <div class="page-content" style="text-align:center;">
+        <p class="eyebrow">Wissen &middot; ${meta.label}</p>
+        <h1 class="section-title">${st.score} von ${SQUIZ_TOTAL_ROUNDS} richtig</h1>
+        ${_squizLevelSwitcher(st.level)}
+        <p style="color:var(--muted);margin:0 0 0.8rem;">${pct}&thinsp;%</p>
+        <p style="max-width:420px;margin:0 auto 1rem;">${msg}</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin-bottom:2rem;">Bestleistung in dieser Stufe: <strong style="color:var(--ink);">${best}/${SQUIZ_TOTAL_ROUNDS}</strong></p>
+        <button class="flash-btn" onclick="window._squizRestart()">Neue Runde &rarr;</button>
+      </div>
+      ${_flashStyles()}
+    </div>
+  `);
+}
+
+function subtypMotivationsQuizPage() {
+  if (!_squizState) return _squizIntroScreen(_squizLastLevel);
+  if (_squizState.phase === "gameOver") return _squizGameOverScreen();
+  return _squizQuestionScreen();
 }
 
 function blickqualitaetenAtlasPage() {
@@ -78358,6 +78614,7 @@ const ROUTES = {
       "beruehmte-norah-jones": norahJonesPortraitPage,
       "beruehmte-anna-netrebko": annaNetrebkoPortraitPage,
       "beruehmte-barbara-bleisch": barbaraBleischPortraitPage,
+      "subtyp-motivationsquiz": subtypMotivationsQuizPage,
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
       "beruehmte-caren-miosga": carenMiosgaPortraitPage,
       "beruehmte-madame-tussaud": madameTussaudPortraitPage,
