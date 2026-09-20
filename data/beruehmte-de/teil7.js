@@ -2178,7 +2178,7 @@ export function gabiGarciaPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Im Licht zeigt sich bei Garcia die SO8w7 als jemand, der die eigene außergewöhnliche Kraft konsequent für ein größeres Anliegen einsetzt – die Sichtbarkeit und Ernstnahme von Frauen im Kampfsport – statt sie nur zur eigenen Profilierung zu nutzen.</p>
+          <p class="vb-intro">Im Licht zeigt sich bei Garcia die SO8w7 als jemand, der die eigene außergewöhnliche Kraft konsequent für ein größeres Anliegen einsetzt – die Sichtbarkeit und Akzeptanz von Frauen im Kampfsport – statt sie nur zur eigenen Profilierung zu nutzen.</p>
           <p class="vb-intro">Der Schatten der Acht zeigt sich in der Kehrseite ihrer physischen Überlegenheit: Kritiker warfen ihr wiederholt vor, im MMA gegen Gegnerinnen mit deutlich weniger Erfahrung oder ungünstigeren physischen Voraussetzungen anzutreten – ein Vorwurf, der die Grenze zwischen fairer sportlicher Dominanz und erdrückender Übermacht berührt. Eine Acht, deren Stärke so groß ist, dass sie selbst zur Streitfrage wird, läuft Gefahr, dass der ursprüngliche Dienst an der Sache – Frauen im Kampfsport sichtbar zu machen – hinter der Debatte um die eigene Unbesiegbarkeit zurücktritt.</p>
         </blockquote>
 
