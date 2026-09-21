@@ -1,5 +1,180 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft } from "../../bundle.js";
 
+export function cgJungKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-cg-jung-portrait.jpg" alt="Carl Gustav Jung" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carl Gustav Jung</p>
+        <p class="krim-portrait-typ">SO5w6 · Social Type 5 with a Six-Wing · 1875–1961</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Octopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Animal correspondence: Octopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Carl Gustav Jung</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-cg-jung">portrait under Famous Personalities</a>
+        in this compass – that page covers his scientific body of work and analytical
+        psychology. This page focuses on what is only touched there: the severe 1944 heart
+        attack with its extensively documented near-death experience, which shaped his entire
+        late work.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Jung</strong> is assigned to the <strong>social Type 5 with a six-wing</strong>.
+        The SO5 typically processes existential experiences by immediately translating them
+        into a communicable, teachable system – in Jung this showed exactly that way: a
+        life-threatening embolism and heart attack did not remain a private crisis alone but,
+        within a few years, became the conceptual foundation of his entire late work, which he
+        in turn passed on to his students through lectures and writings.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Early signs</h3>
+        <p class="vb-intro"><strong>a) A fall on ice in February 1944:</strong>
+        On February 11, 1944, the 68-year-old Jung slipped on ice and broke his fibula – an
+        initially harmless-seeming accident that confined him to a hospital bed.</p>
+        <p class="vb-intro"><strong>b) An embolism from the immobilized leg:</strong>
+        About ten days later, still in the hospital, immobilization of the broken leg
+        dislodged a blood clot that triggered an embolism and, subsequently, a severe heart
+        attack.</p>
+        <p class="vb-intro"><strong>c) A state near death:</strong>
+        Jung entered a critical, life-threatening condition from which, by his own later
+        account, he returned only through the determined intervention of his treating
+        physician.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General characteristics</h3>
+        <p class="vb-intro"><strong>a) An extensively documented vision:</strong>
+        During the critical state Jung experienced a series of intense visions, later recorded
+        by him in meticulous detail – among them the sensation of floating a thousand miles
+        above the earth and seeing oceans, continents, and the Himalayas in bluish light.</p>
+        <p class="vb-intro"><strong>b) A stone temple as threshold:</strong>
+        In the vision Jung approached a stone temple on a meteorite, where he was to learn the
+        actual meaning of his life – until the spirit of his treating physician called him back
+        to earthly life.</p>
+        <p class="vb-intro"><strong>c) Reluctance to return:</strong>
+        Jung explicitly described a reluctance to return to life – and a deep shock at the
+        thought, as he interpreted it, that his doctor had sacrificed his own life for Jung's
+        rescue.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential traits</h3>
+        <p class="vb-intro"><strong>a) Immediate written processing during recovery:</strong>
+        Still during his months-long convalescence, Jung began systematically recording his
+        experiences in letters and notes – not silent private processing, but the beginning of
+        a communicable interpretation.</p>
+        <p class="vb-intro"><strong>b) An explicit reassessment of his own destiny:</strong>
+        Jung later wrote that only after this illness did he understand how important it is to
+        understand one's own destiny – a statement that placed the experience directly into his
+        theory of individuation.</p>
+        <p class="vb-intro"><strong>c) Seventeen more scientifically intense years:</strong>
+        Jung did not die until 1961, seventeen years after the heart attack, and used that time
+        for some of his most extensive late works, including <em>Mysterium Coniunctionis</em> –
+        not a period of withdrawal, but one of intensified systematic work.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall impact</h3>
+        <p class="vb-intro"><strong>a) The near-death experience as a widely cited reference case:</strong>
+        Jung's account remains one of the most detailed early descriptions of a near-death
+        experience from a scientific background and is regularly cited in the relevant
+        literature to this day.</p>
+        <p class="vb-intro"><strong>b) Stronger influence of mysticism and alchemy in his late work:</strong>
+        After 1944 the focus of his work shifted visibly further toward alchemy, the history of
+        religion, and the question of what outlasts death – a thematic break that can be traced
+        directly to the crisis.</p>
+        <p class="vb-intro"><strong>c) A still-disputed question of interpretation:</strong>
+        Whether Jung's visions should be understood as a neurological phenomenon of a severely
+        compromised brain or as a genuine transcendent experience remains disputed among
+        physicians, neuroscientists, and Jungians to this day.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic effect</h3>
+        <p class="vb-intro"><strong>a) The six-wing as a search for a reliable interpretation:</strong>
+        Rather than leaving the experience as an open mystery, Jung quickly fit it into a fixed
+        interpretive system – typical of the six-wing, which seeks to banish uncertainty
+        through structure and explanation.</p>
+        <p class="vb-intro"><strong>b) The octopus that shares even its own brush with mortality:</strong>
+        Jung did not keep his visions secret but described them extensively in letters and
+        later publicly in his autobiography – knowledge of his own brush with mortality became,
+        like his expertise before it, a contribution to a larger community.</p>
+        <p class="vb-intro"><strong>c) A return to intensified, not reduced, system-building:</strong>
+        Rather than withdrawing after the crisis, Jung deepened his already encyclopedic work
+        even further – the social Five seeks security by expanding its own knowledge system,
+        especially after an existential shock.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The illness as a common thread</h3>
+        <p class="vb-intro"><strong>a) A single, sharply datable event with decades of aftereffects:</strong>
+        Unlike many other illness portraits in this compass, Jung's case is not a suffering
+        concealed for years but a single, precisely datable event whose intellectual processing
+        extended across his remaining seventeen years of life.</p>
+        <p class="vb-intro"><strong>b) From physical near-death to theoretical system-building:</strong>
+        As with his word association test decades earlier, Jung turned an initially purely
+        physical, uncontrollable experience into an ordered, transmissible interpretive system
+        – the same underlying pattern, only this time triggered by his own mortality instead of
+        a laboratory experiment.</p>
+        <p class="vb-intro"><strong>c) Why, of all things, a near-death experience of this magnitude?</strong>
+        For a social Five with a six-wing, whose security rests on a reliable, well-thought-out
+        system, an experience that radically challenges every prior system can be read as a
+        particularly existential challenge: Jung met it not with withdrawal but with the SO5's
+        typical reflex of turning the most incomprehensible experience into a new, communicable
+        body of knowledge. This reading is developed further in this compass's psychosomatics
+        register.</p>
+        <p class="vb-intro"><strong>d) A pattern, not a determinism:</strong>
+        This does not mean the social Five with a six-wing pattern inevitably leads to an
+        embolism or a heart attack – <strong>anyone can get any illness, regardless of
+        subtype.</strong> Jung's heart attack is closely tied to a classic, purely physical risk
+        factor – immobilization after a bone fracture – not purely psychosomatic causes. What
+        his case can show is a pattern in how a pronounced social Five with a six-wing deals
+        with an existential crisis – one of many possible readings, not a verdict. The
+        corresponding illness pattern is being developed further, case by case, in this
+        compass's <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics
+        register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Unlike most people of his time, Jung actually possessed a psychological model of his
+        own behavior – but the Enneagram itself was unknown to him. Without that specific
+        knowledge, he had no way of seeing that his immediate need to translate the near-death
+        experience into a fixed system was itself a type-bound pattern, not merely a neutral
+        scientific reaction. Those who recognize their own pattern can consciously choose when
+        interpretation helps and when it is premature; those who don't interpret automatically,
+        the way Jung did.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The social Five with a six-wing shows itself in <strong>Carl Gustav Jung</strong> in
+        one last, great turn: an experience that nearly cost him his life and pushed every prior
+        knowledge system to its limits became, not the occasion for withdrawal, but the
+        foundation of his most productive creative period. The octopus who turned even his own
+        near-death into knowledge he shared with others.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-cg-jung", label:"Portrait: Carl Gustav Jung (SO5w6) – life's work"},
+        {route:"krankheitsportraets-stephen-hawking", label:"Illness Portrait: Stephen Hawking (SO5w6) – same subtype"},
+        {route:"krankheitsportraets-isaac-newton", label:"Illness Portrait: Isaac Newton (SO5w6) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so5", label:"Subtype Profile SO5"},
+      ])}
+    </div>
+  `);
+}
+
 export function alexanderDerGrosseKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">

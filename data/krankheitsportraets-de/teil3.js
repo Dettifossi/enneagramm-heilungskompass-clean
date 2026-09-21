@@ -1611,6 +1611,7 @@ export function isaacNewtonKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6) – Physiker und Mathematiker"},
         {route:"krankheitsportraets-stephen-hawking", label:"Krankheitsporträt: Stephen Hawking (SO5w6) – gleicher Subtyp, gleicher Lehrstuhl"},
+        {route:"krankheitsportraets-cg-jung", label:"Krankheitsporträt: Carl Gustav Jung (SO5w6) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so5", label:"Subtyp-Profil SO5"},
       ])}
@@ -3238,6 +3239,7 @@ export function stephenHawkingKrankheitsportraetPage() {
         {route:"beruehmte-stephen-hawking", label:"Porträt: Stephen Hawking (SO5w6) – Lebenswerk"},
         {route:"krankheitsportraets-isaac-newton", label:"Krankheitsporträt: Isaac Newton (SO5w6) – gleicher Subtyp, gleicher Lehrstuhl"},
         {route:"krankheitsportraets-albert-einstein", label:"Krankheitsporträt: Albert Einstein (SO5w4) – dasselbe Muster ungebremster Arbeit bis zuletzt"},
+        {route:"krankheitsportraets-cg-jung", label:"Krankheitsporträt: Carl Gustav Jung (SO5w6) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so5", label:"Subtyp-Profil SO5"},
       ])}

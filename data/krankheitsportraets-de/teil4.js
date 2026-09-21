@@ -1,5 +1,185 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft } from "../../bundle.js";
 
+export function cgJungKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-cg-jung-portrait.jpg" alt="Carl Gustav Jung" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carl Gustav Jung</p>
+        <p class="krim-portrait-typ">SO5w6 · Sozialer Typ 5 mit Sechserflügel · 1875–1961</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Oktopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Tierentsprechung: Oktopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Carl Gustav Jung</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-cg-jung">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein wissenschaftliches Lebenswerk und
+        die Analytische Psychologie. Im Mittelpunkt steht hier, was dort nur gestreift wird:
+        der schwere Herzinfarkt von 1944 mit der ausführlich dokumentierten Nahtoderfahrung,
+        die sein gesamtes Spätwerk prägte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Jung</strong> ist dem <strong>sozialen Typ 5 mit Sechserflügel</strong>
+        zugeordnet. Die SO5 verarbeitet existenzielle Erfahrungen typischerweise, indem sie
+        sie sofort in ein mitteilbares, lehrbares System übersetzt – bei Jung zeigte sich das
+        exakt so: Aus einer lebensbedrohlichen Embolie und einem Herzinfarkt entstand keine
+        private Krise allein, sondern binnen weniger Jahre die konzeptuelle Grundlage seines
+        gesamten Spätwerks, das er wiederum in Vorträgen und Schriften an seine Schülerschaft
+        weitergab.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Sturz auf Eis im Februar 1944:</strong>
+        Am 11. Februar 1944 rutschte der 68-jährige Jung auf Eis aus und brach sich das
+        Wadenbein – ein zunächst harmlos wirkender Unfall, der ihn ans Krankenhausbett fesselte.</p>
+        <p class="vb-intro"><strong>b) Eine Embolie durch das ruhiggestellte Bein:</strong>
+        Rund zehn Tage später, noch in der Klinik, löste sich durch die Immobilisierung des
+        gebrochenen Beins ein Blutgerinnsel, das eine Embolie und in der Folge einen schweren
+        Herzinfarkt auslöste.</p>
+        <p class="vb-intro"><strong>c) Ein Zustand nahe am Tod:</strong>
+        Jung geriet in einen kritischen, lebensbedrohlichen Zustand, aus dem er nach eigener
+        späterer Schilderung nur durch das entschlossene Eingreifen seines behandelnden Arztes
+        zurückkehrte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine ausführlich dokumentierte Vision:</strong>
+        Während des kritischen Zustands erlebte Jung eine Serie intensiver, später von ihm
+        selbst minutiös aufgezeichneter Visionen – unter anderem das Gefühl, tausend Meilen
+        über der Erde zu schweben und Meere, Kontinente und den Himalaya in bläulichem Licht
+        zu erkennen.</p>
+        <p class="vb-intro"><strong>b) Ein Steintempel als Schwelle:</strong>
+        In der Vision näherte sich Jung einem Steintempel auf einem Meteoriten, in dem er den
+        eigentlichen Sinn seines Lebens hätte erfahren sollen – bis ihn der Geist seines
+        behandelnden Arztes zurück ins irdische Leben rief.</p>
+        <p class="vb-intro"><strong>c) Widerwillen gegen die Rückkehr:</strong>
+        Jung beschrieb ausdrücklich einen Widerwillen dagegen, ins Leben zurückzukehren – und
+        eine tiefe Erschütterung darüber, dass sein Arzt, wie er es deutete, das eigene Leben
+        für seine Rettung geopfert habe.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Sofortige schriftliche Verarbeitung während der Genesung:</strong>
+        Noch während der monatelangen Rekonvaleszenz begann Jung, seine Erfahrungen in Briefen
+        und Aufzeichnungen systematisch festzuhalten – keine stille private Verarbeitung,
+        sondern der Beginn einer mitteilbaren Deutung.</p>
+        <p class="vb-intro"><strong>b) Eine explizite Neubewertung des eigenen Schicksals:</strong>
+        Jung schrieb später, erst nach dieser Krankheit habe er verstanden, wie wichtig es sei,
+        das eigene Schicksal zu verstehen – eine Aussage, die die Erfahrung unmittelbar in
+        seine Theoriebildung zur Individuation einordnete.</p>
+        <p class="vb-intro"><strong>c) Siebzehn weitere, wissenschaftlich intensive Lebensjahre:</strong>
+        Jung starb erst 1961, siebzehn Jahre nach dem Infarkt, und nutzte diese Zeit für einige
+        seiner umfangreichsten Alterswerke, darunter ›Mysterium Coniunctionis‹ – keine
+        Rückzugsphase, sondern eine Phase intensivierter systematischer Arbeit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Die Nahtoderfahrung als vielzitiertes Referenzbeispiel:</strong>
+        Jungs Schilderung gilt bis heute als eine der detailliertesten frühen Beschreibungen
+        einer Nahtoderfahrung aus wissenschaftlichem Umfeld und wird in der einschlägigen
+        Literatur regelmäßig zitiert.</p>
+        <p class="vb-intro"><strong>b) Verstärkter Einfluss von Mystik und Alchemie im Spätwerk:</strong>
+        Nach 1944 verschob sich der Schwerpunkt seiner Arbeit sichtbar stärker in Richtung
+        Alchemie, Religionsgeschichte und die Frage nach dem, was den Tod überdauert – ein
+        thematischer Bruch, der sich direkt auf die Krise zurückführen lässt.</p>
+        <p class="vb-intro"><strong>c) Eine bis heute diskutierte Deutungsfrage:</strong>
+        Ob Jungs Visionen als neurologisches Phänomen eines schwer geschädigten Gehirns oder
+        als genuine transzendente Erfahrung zu verstehen sind, bleibt unter Medizinern,
+        Neurowissenschaftlern und Jung-Anhängern bis heute umstritten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Sechserflügel als Suche nach einer verlässlichen Deutung:</strong>
+        Statt die Erfahrung als offenes Rätsel stehen zu lassen, ordnete Jung sie zügig in ein
+        festes Deutungssystem ein – typisch für den Sechserflügel, der Unsicherheit durch
+        Struktur und Erklärung zu bannen sucht.</p>
+        <p class="vb-intro"><strong>b) Der Oktopus, der auch die eigene Grenzerfahrung teilt:</strong>
+        Jung hielt seine Visionen nicht geheim, sondern beschrieb sie ausführlich in Briefen
+        und später öffentlich in seiner Autobiografie – Wissen über die eigene Grenzerfahrung
+        wurde, wie schon sein Fachwissen zuvor, zum Beitrag für eine größere Gemeinschaft.</p>
+        <p class="vb-intro"><strong>c) Rückkehr in intensivierte, nicht reduzierte Systemarbeit:</strong>
+        Statt sich nach der Krise zurückzuziehen, vertiefte Jung seine ohnehin enzyklopädische
+        Arbeit noch – die soziale Fünf sucht Sicherheit im Ausbau des eigenen Wissenssystems,
+        auch und gerade nach einer existenziellen Erschütterung.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein einzelnes, scharf datierbares Ereignis mit jahrzehntelanger Nachwirkung:</strong>
+        Anders als bei vielen anderen Krankheitsporträts dieses Kompasses handelt es sich bei
+        Jung nicht um ein über Jahre verschwiegenes Leiden, sondern um ein einziges, genau
+        datierbares Ereignis, dessen intellektuelle Verarbeitung sich über die restlichen
+        siebzehn Lebensjahre erstreckte.</p>
+        <p class="vb-intro"><strong>b) Vom körperlichen Beinahe-Tod zur theoretischen Systembildung:</strong>
+        Wie schon bei seinem Wortassoziationstest Jahrzehnte zuvor verwandelte Jung eine
+        zunächst rein körperliche, unkontrollierbare Erfahrung in ein geordnetes,
+        weitervermittelbares Deutungssystem – dasselbe Grundmuster, nur diesmal ausgelöst durch
+        die eigene Sterblichkeit statt durch ein Laborexperiment.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet eine Nahtoderfahrung dieses Ausmaßes?</strong>
+        Für eine soziale Fünf mit Sechserflügel, deren Sicherheit auf einem verlässlichen,
+        durchdachten System beruht, lässt sich in einer Erfahrung, die jedes bisherige System
+        radikal infrage stellt, eine besonders existenzielle Herausforderung lesen: Jung
+        begegnete ihr nicht mit Rückzug, sondern mit dem für die SO5 typischen Reflex, gerade
+        das Unfassbarste in ein neues, mitteilbares Wissensgebäude zu verwandeln. Diese Deutung
+        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Fünf mit Sechserflügel zwangsläufig zu
+        einer Embolie oder einem Herzinfarkt führt – <strong>jeder Mensch kann jede Krankheit
+        bekommen, unabhängig vom Subtyp.</strong> Jungs Herzinfarkt ist eng mit einem
+        klassischen, rein körperlichen Risikofaktor verbunden – der Immobilisierung nach einem
+        Knochenbruch –, nicht rein psychosomatisch zu erklären. Was sich an seinem Fall zeigen
+        lässt, ist ein Muster im Umgang mit einer existenziellen Krise, das bei einer
+        ausgeprägten sozialen Fünf mit Sechserflügel immer wieder auffällt – eine von vielen
+        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Jung kannte, anders als die meisten Menschen seiner Zeit, tatsächlich ein
+        psychologisches Modell seines eigenen Verhaltens – doch das Enneagramm selbst war ihm
+        nicht bekannt. Ohne dieses spezifische Wissen blieb ihm der Blick darauf verwehrt, dass
+        sein sofortiges Bedürfnis, die Nahtoderfahrung in ein festes System zu übersetzen,
+        selbst ein typgebundenes Muster war und nicht nur eine neutrale wissenschaftliche
+        Reaktion. Wer das eigene Muster erkennt, kann bewusst wählen, wann Deutung hilft und
+        wann sie vorschnell ist; wer es nicht kennt, deutet automatisch, wie Jung es tat.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die soziale Fünf mit Sechserflügel zeigt sich bei <strong>Carl Gustav Jung</strong> in
+        einer letzten, großen Volte: Eine Erfahrung, die ihn fast das Leben kostete und jedes
+        bisherige Wissenssystem an seine Grenzen brachte, wurde nicht zum Anlass des Rückzugs,
+        sondern zur Grundlage seiner produktivsten Schaffensperiode. Der Oktopus, der schon sein
+        eigenes Sterben in ein Wissen verwandelte, das er mit anderen teilte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-cg-jung", label:"Porträt: Carl Gustav Jung (SO5w6) – Lebenswerk"},
+        {route:"krankheitsportraets-stephen-hawking", label:"Krankheitsporträt: Stephen Hawking (SO5w6) – gleicher Subtyp"},
+        {route:"krankheitsportraets-isaac-newton", label:"Krankheitsporträt: Isaac Newton (SO5w6) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so5", label:"Subtyp-Profil SO5"},
+      ])}
+    </div>
+  `);
+}
+
 export function alexanderDerGrosseKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
