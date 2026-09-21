@@ -51532,7 +51532,10 @@ function _stilleInit() {
       return;
     }
 
-    if (!audioCtx) return;
+    if (!audioCtx || audioCtx.state === "closed") {
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    if (audioCtx.state === "suspended") { try { audioCtx.resume(); } catch(e) {} }
     const ctx = audioCtx;
     const master = ctx.createGain();
     master.gain.setValueAtTime(0.18, ctx.currentTime);
