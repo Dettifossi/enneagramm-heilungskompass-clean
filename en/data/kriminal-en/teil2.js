@@ -1074,6 +1074,7 @@ export function jeffreyEpsteinPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-salvatore-riina", label:"Criminal Psychology: Salvatore Riina"},
         {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein"},
+        {route:"kriminalpsychologie-amelia-dyer", label:"Criminal Psychology: Amelia Dyer (SX8w9) – same subtype"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>

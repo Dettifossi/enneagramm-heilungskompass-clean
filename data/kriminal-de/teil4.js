@@ -1,5 +1,200 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function ameliaDyerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Amelia Dyer – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/amelia-dyer-portrait.jpg" alt="Amelia Dyer – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Amelia Dyer</p>
+        <p class="krim-portrait-typ">SX8w9 · Sexueller Typ 8 mit Neunerflügel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Britische ›Baby Farmer‹, 1837–1896 · Tierentsprechung: Krokodil</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Amelia Dyer</strong>, als ›Ogress of Reading‹ bekannt, war eine ausgebildete
+        Krankenschwester und Hebamme, die ab den 1860er-Jahren im viktorianischen England zur
+        ›Baby Farmer‹ wurde – gegen Bezahlung nahm sie unehelich geborene Kinder mittelloser
+        oder gesellschaftlich bedrängter Mütter zur Pflege und angeblichen Adoption auf. Statt
+        die Kinder aufzuziehen, ließ sie die meisten von ihnen systematisch verhungern oder
+        tötete sie direkt, um die Betreuungskosten einzusparen und weitere Zahlungen
+        entgegenzunehmen. Schätzungen gehen von 200 bis 400 toten Kindern über nahezu drei
+        Jahrzehnte aus – vor Gericht wurde ihr nur ein einziger Mord nachgewiesen. Sie wurde am
+        10. Juni 1896 gehängt. Dyers Fall zeigt, wie die sexuelle Acht Kontrolle nicht durch
+        offene Gewalt, sondern durch vollständige, als Fürsorge getarnte Verfügungsgewalt über
+        vollkommen wehrlose Schutzbefohlene ausübt.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Amelia Dyer</strong> wird der <strong>Sexuellen Acht mit Neunerflügel</strong> im
+        Enneagramm zugeordnet. Die Leidenschaft der Acht ist <em>Wollust</em> – überschießende
+        Intensität und Hunger nach Besitz und Kontrolle. Die sexuelle Acht (SX8) richtet diese
+        Energie auf das Feld der intimen, abhängigen Bindung: Sie will vollständige Verfügung
+        über den, der sich ihr anvertraut. Bei Dyer geschah das nicht durch Verführung wie bei
+        Epstein, sondern durch die vollkommenste denkbare Machtasymmetrie – wehrlose Säuglinge,
+        die ihr vollständig ausgeliefert waren. Der Neunerflügel gab ihr eine geduldige,
+        unauffällige Fassade: die freundliche, erfahrene Pflegerin, der man sein Kind
+        anvertraute, ohne Verdacht zu schöpfen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Vertrauenerweckend und mütterlich:</strong>
+        Erhaltene Fotografien zeigen eine unscheinbare, ältere Frau mit ruhigem, fast
+        gütigem Gesichtsausdruck – genau das Bild, das verzweifelte junge Mütter suchten,
+        wenn sie ihr Kind in fremde Hände geben mussten.</p>
+        <p class="vb-intro"><strong>b) Geschult und professionell:</strong>
+        Ihre Ausbildung als Krankenschwester und Hebamme verlieh ihrem Blick fachliche
+        Autorität. Der Neunerflügel macht die Acht zugänglich – Dyer wirkte kompetent und
+        beruhigend, nicht bedrohlich.</p>
+        <p class="vb-intro"><strong>c) Undurchdringlich unter der Fassade:</strong>
+        Was hinter diesem ruhigen Blick vorging, blieb den Müttern verborgen. Die sexuelle
+        Acht zeigt selten, was sie tatsächlich beabsichtigt, bis die Kontrolle bereits
+        vollständig übernommen ist.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Geschäftsmodell als Machtsystem:</strong>
+        Dyer baute kein Netzwerk aus Beziehungen wie Epstein, sondern ein Geschäftsmodell aus
+        vollständiger, einseitiger Abhängigkeit: Jedes übernommene Kind war vollständig ihrer
+        Entscheidungsgewalt über Leben und Tod ausgeliefert.</p>
+        <p class="vb-intro"><strong>b) Rechtslücke als Werkzeug der Einbindung:</strong>
+        Das Poor Law Amendment Act von 1834 entband Väter unehelicher Kinder von jeder
+        Unterhaltspflicht – eine gesellschaftliche Notlage, die Dyer systematisch ausnutzte.
+        Die sexuelle Acht erkennt und besetzt genau die Lücken, in denen andere schutzlos sind.</p>
+        <p class="vb-intro"><strong>c) Unauffälligkeit als Ziel:</strong>
+        Dyer zog wiederholt um, sobald Nachbarn oder Behörden misstrauisch wurden, und trat
+        unter wechselnden Namen auf. Das tiefste Motiv war nicht Reichtum um seiner selbst
+        willen, sondern ungestörte Kontrolle – niemand sollte ihr in die Quere kommen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Besitz durch übernommene Fürsorge:</strong>
+        Die sexuelle Acht dominiert nicht durch Distanz, sondern durch die Rolle, die
+        vollständige Nähe verlangt. Dyer übernahm formal die Mutterrolle – und dieser Status
+        wurde zum uneingeschränkten Verfügungsrecht über das Kind.</p>
+        <p class="vb-intro"><strong>b) Doppelleben als Strategie:</strong>
+        Nach außen: erfahrene, respektable Pflegerin mit fachlicher Ausbildung. Im Verborgenen:
+        ein System der systematischen Tötung zur Kostensenkung. Der Neunerflügel ermöglichte
+        dieses Doppelleben über nahezu drei Jahrzehnte.</p>
+        <p class="vb-intro"><strong>c) Gefährlichkeit ohne Sichtbarkeit:</strong>
+        Dyer war nicht laut, nicht offensichtlich bedrohlich. Sie war die Frau von nebenan, der
+        man sein Neugeborenes anvertraute. Das ist die SX8w9 in ihrer gefährlichsten Form: die
+        Acht, die man nicht als Acht erkennt, bis das Kind bereits in ihrer Obhut ist.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Über Jahrzehnte unentdeckt:</strong>
+        Von den 1860er-Jahren bis zu ihrer Verhaftung 1896 operierte Dyer nahezu unbehelligt –
+        ein Zeitraum, der in seiner Länge selbst unter historischen Serienstraftätern
+        außergewöhnlich ist.</p>
+        <p class="vb-intro"><strong>b) Entdeckung durch Zufall, nicht durch System:</strong>
+        Erst als 1896 eine in Zeitungspapier gewickelte Kinderleiche in der Themse gefunden
+        wurde, das Papier auf sie zurückverfolgt werden konnte, brach ihr System zusammen –
+        nicht durch behördliche Kontrolle, sondern durch einen einzelnen Ermittlungsfaden.</p>
+        <p class="vb-intro"><strong>c) Fassadenloser Kern:</strong>
+        Wer hinter die Fassade sah, fand eine kalte, auf Profitmaximierung ausgerichtete
+        Struktur ohne jede Rücksicht auf die ihr anvertrauten Kinder – die Acht ohne Heilung:
+        Kraft ohne Mitgefühl, Kontrolle ohne jede Grenze.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Anziehend statt abstoßend:</strong>
+        Verzweifelte Mütter suchten Dyer aktiv auf, weil sie Sicherheit und Kompetenz
+        ausstrahlte. Die Energie der sexuellen Acht zieht an, statt abzuschrecken – genau
+        das machte sie über Jahrzehnte hinweg wirksam.</p>
+        <p class="vb-intro"><strong>b) Scheinbare Wärme:</strong>
+        Der Neunerflügel erzeugte eine fühlbare, mütterliche Ruhe. Mütter, die ihr Kind
+        abgaben, berichteten von einem Gefühl der Erleichterung – nicht von Misstrauen.
+        Diese scheinbare Wärme war der Zugangskanal.</p>
+        <p class="vb-intro"><strong>c) Kalkulierte Kälte darunter:</strong>
+        Sobald das Geld übergeben und die Mutter gegangen war, verschwand jede Wärme. Die
+        Acht gibt nichts ohne Gegenleistung; sobald die Gegenleistung erbracht war, verlor
+        das Kind für Dyer jeden Wert außer dem eingesparten Aufwand.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Das Krokodil</h3>
+        <p class="vb-intro"><strong>a) Scheinbare Unbeweglichkeit:</strong>
+        Das Krokodil liegt still, halb unter der Oberfläche, ohne Bedrohungssignal. Dyers
+        äußere Erscheinung – die freundliche, erfahrene Pflegerin – hatte genau diese
+        Qualität: ruhig, geduldig, scheinbar harmlos.</p>
+        <p class="vb-intro"><strong>b) Geduldiges Zuwarten über Jahrzehnte:</strong>
+        Das Krokodil jagt nicht hektisch, sondern wartet, bis die Beute in Reichweite ist.
+        Dyers Geschäftsmodell funktionierte fast dreißig Jahre nach derselben Logik – kein
+        Improvisieren, ein eingespieltes, wiederholtes Muster.</p>
+        <p class="vb-intro"><strong>c) Zupacken ohne Vorwarnung:</strong>
+        Wenn das Krokodil zuschnappt, gibt es kein Entkommen. War das Kind einmal in Dyers
+        Obhut übergeben, gab es für die Mutter keine Möglichkeit mehr, einzugreifen – die
+        Kontrolle war bereits vollständig.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Amelia Dyer</strong> verkörpert die sexuelle Acht in ihrer stillsten und
+        zugleich tödlichsten Ausprägung. Keine offene Gewalt, keine sichtbare Bedrohung –
+        sondern ein über Jahrzehnte geduldig betriebenes System, das gesellschaftliche
+        Not gezielt ausnutzte. Der Neunerflügel gab ihr die Hülle: Kompetenz, Ruhe,
+        scheinbare Fürsorglichkeit. Der Achter-Kern war kompromissloser Besitz über Leben
+        und Tod der ihr Anvertrauten.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
+        <p class="vb-intro"><strong>a) Naranjos SX8 – Besitz durch Verschmelzung:</strong>
+        Claudio Naranjo beschrieb die sexuelle Acht als den Subtyp, der Macht über den Bereich
+        des Persönlichen und Intimen ausübt. Bei Dyer war dieser intime Bereich die
+        Mutter-Kind-Beziehung selbst, die sie sich formal aneignete, um sie danach vollständig
+        auszulöschen.</p>
+        <p class="vb-intro"><strong>b) Der Neunerflügel als Tarnung:</strong>
+        Ohne den Neunerflügel wäre Dyer vermutlich früher aufgefallen. Der Flügel gab ihr
+        genau die geduldige, unauffällige Ausstrahlung, die sie über nahezu drei Jahrzehnte
+        unbehelligt operieren ließ.</p>
+        <p class="vb-intro"><strong>c) Eine schwer belastete Kindheit als Hintergrund:</strong>
+        Dyers eigene Mutter erkrankte schwer an Typhus und entwickelte in der Folge
+        gewalttätige Wahnvorstellungen; die junge Amelia musste sie über Jahre pflegen und
+        wiederholte Misshandlungen ertragen. Das erklärt ihre Taten nicht, liefert aber einen
+        Hinweis darauf, wie früh Fürsorge und Bedrohung in ihrer eigenen Erfahrung
+        untrennbar miteinander verbunden waren.</p>
+        <p class="vb-intro"><strong>d) Entspannungspunkt Zwei – die verdrehte Fürsorglichkeit:</strong>
+        Der Entspannungspunkt der Acht ist die Zwei. In gesunder Form bedeutet das Öffnung,
+        echte Fürsorglichkeit, echte Nähe. Bei Dyer zeigte sich dieses Muster maximal
+        verzerrt: Sie trat buchstäblich als Pflegerin auf – eine Zwei-Maske über dem
+        Achter-Kern, bei der die vorgetäuschte Fürsorge zum Tatwerkzeug wurde.</p>
+        <p class="vb-intro"><strong>e) Ein Prozess, der in Minuten endete:</strong>
+        Trotz jahrzehntelanger, methodischer Vorgehensweise brauchte die Jury am Old Bailey
+        im März 1896 weniger als fünf Minuten für den Schuldspruch. Die Acht baut Systeme,
+        die lange tragen – aber sobald der Kern einmal sichtbar wird, bricht die gesamte
+        Fassade auf einen Schlag zusammen.</p>
+      </div>
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die
+        Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Amelia Dyer
+        wurde 1896 für einen Mord verurteilt und hingerichtet; die Gesamtzahl ihrer Opfer
+        basiert auf historischen Schätzungen. Das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-jeffrey-epstein", label:"Kriminalpsychologie: Jeffrey Epstein (SX8w9) – gleicher Subtyp"},
+        {route:"kriminalpsychologie-john-mcafee", label:"Kriminalpsychologie: John McAfee (SX8w9) – gleicher Subtyp"},
+        {route:"blickqualitaet", label:"Blickqualität der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
 export function alexMurdaughPortraitPage() {
   return shell(`
     <div class="page-container">

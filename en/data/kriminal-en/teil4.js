@@ -1,5 +1,190 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function ameliaDyerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Amelia Dyer – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/amelia-dyer-portrait.jpg" alt="Amelia Dyer – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Amelia Dyer</p>
+        <p class="krim-portrait-typ">SX8w9 · Sexual Type 8 with a Nine-Wing</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">British "baby farmer," 1837–1896 · Animal correspondence: Crocodile</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Amelia Dyer</strong>, known as the "Ogress of Reading," was a trained nurse and
+        midwife who, from the 1860s onward in Victorian England, became a "baby farmer" –
+        taking in illegitimate children of destitute or socially pressured mothers for payment,
+        promising care and adoption. Instead of raising the children, she systematically let
+        most of them starve or killed them directly, to cut care costs and collect further
+        payments. Estimates run from 200 to 400 dead children over nearly three decades – in
+        court, only a single murder was proven against her. She was hanged on June 10, 1896.
+        Dyer's case shows how the sexual Eight exercises control not through open violence but
+        through complete, care-disguised power over the utterly defenseless in her charge.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Amelia Dyer</strong> is assigned to the <strong>sexual Eight with a nine-wing</strong>
+        in the Enneagram. The Eight's passion is <em>lust</em> – excessive intensity and hunger
+        for possession and control. The sexual Eight (SX8) directs this energy at the field of
+        intimate, dependent bonds: it wants complete control over whoever entrusts themselves to
+        it. In Dyer this did not happen through seduction as with Epstein, but through the most
+        complete power asymmetry imaginable – helpless infants entirely at her mercy. The
+        nine-wing gave her a patient, unremarkable facade: the friendly, experienced caregiver
+        to whom one entrusted a child without a second thought.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Gaze quality</h3>
+        <p class="vb-intro"><strong>a) Trust-inspiring and maternal:</strong>
+        Surviving photographs show an unremarkable, older woman with a calm, almost kindly
+        expression – exactly the image desperate young mothers were looking for when they had
+        to hand their child to a stranger.</p>
+        <p class="vb-intro"><strong>b) Trained and professional:</strong>
+        Her training as a nurse and midwife lent her gaze professional authority. The
+        nine-wing makes the Eight approachable – Dyer came across as competent and reassuring,
+        not threatening.</p>
+        <p class="vb-intro"><strong>c) Impenetrable beneath the surface:</strong>
+        What lay behind that calm gaze stayed hidden from the mothers. The sexual Eight rarely
+        reveals what it actually intends until control has already been fully taken.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General characteristics</h3>
+        <p class="vb-intro"><strong>a) A business model as a power system:</strong>
+        Dyer did not build a network of relationships like Epstein, but a business model built
+        on complete, one-sided dependency: every child taken in was entirely subject to her
+        power over life and death.</p>
+        <p class="vb-intro"><strong>b) A legal loophole as a tool of entrapment:</strong>
+        The Poor Law Amendment Act of 1834 freed fathers of illegitimate children from any
+        obligation to support them – a social predicament Dyer systematically exploited. The
+        sexual Eight recognizes and occupies exactly the gaps where others are unprotected.</p>
+        <p class="vb-intro"><strong>c) Inconspicuousness as the goal:</strong>
+        Dyer repeatedly moved whenever neighbors or authorities grew suspicious, operating
+        under changing names. Her deepest motive was not wealth for its own sake but
+        undisturbed control – no one was to get in her way.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential traits</h3>
+        <p class="vb-intro"><strong>a) Possession through assumed care:</strong>
+        The sexual Eight dominates not through distance but through the role that demands
+        complete closeness. Dyer formally took on the mother's role – and that status became
+        unrestricted power of disposal over the child.</p>
+        <p class="vb-intro"><strong>b) A double life as strategy:</strong>
+        Outwardly: an experienced, respectable caregiver with professional training. In secret:
+        a system of systematic killing to cut costs. The nine-wing made this double life
+        possible for nearly three decades.</p>
+        <p class="vb-intro"><strong>c) Danger without visibility:</strong>
+        Dyer was not loud, not overtly threatening. She was the woman next door to whom one
+        entrusted a newborn. This is the SX8w9 in its most dangerous form: the Eight one does
+        not recognize as an Eight until the child is already in her care.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall impact</h3>
+        <p class="vb-intro"><strong>a) Undetected for decades:</strong>
+        From the 1860s until her arrest in 1896, Dyer operated almost entirely unhindered – a
+        span that is remarkable even among historical serial offenders.</p>
+        <p class="vb-intro"><strong>b) Discovered by chance, not by system:</strong>
+        Only when a child's body wrapped in newspaper was found in the Thames in 1896, and the
+        paper was traced back to her, did her system collapse – not through official oversight,
+        but through a single investigative thread.</p>
+        <p class="vb-intro"><strong>c) A facade-free core:</strong>
+        Whoever looked behind the facade found a cold structure aimed purely at maximizing
+        profit, with no regard for the children entrusted to her – the Eight without healing:
+        strength without compassion, control without any limit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic effect</h3>
+        <p class="vb-intro"><strong>a) Attracting rather than repelling:</strong>
+        Desperate mothers actively sought Dyer out because she projected safety and
+        competence. The sexual Eight's energy draws people in rather than driving them away –
+        exactly what made her effective for decades.</p>
+        <p class="vb-intro"><strong>b) Apparent warmth:</strong>
+        The nine-wing produced a palpable, maternal calm. Mothers who handed over their
+        children reported a sense of relief – not suspicion. This apparent warmth was the
+        channel of access.</p>
+        <p class="vb-intro"><strong>c) Calculated coldness beneath it:</strong>
+        Once the money had changed hands and the mother had left, all warmth vanished. The
+        Eight gives nothing without something in return; once that return had been delivered,
+        the child held no value for Dyer beyond the effort it would save her.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal analogy: the crocodile</h3>
+        <p class="vb-intro"><strong>a) Apparent stillness:</strong>
+        The crocodile lies motionless, half submerged, giving no signal of threat. Dyer's
+        outward appearance – the friendly, experienced caregiver – had exactly that quality:
+        calm, patient, seemingly harmless.</p>
+        <p class="vb-intro"><strong>b) Patient waiting across decades:</strong>
+        The crocodile does not hunt frantically but waits until prey is within reach. Dyer's
+        business model ran on the same logic for nearly thirty years – no improvisation, a
+        practiced, repeated pattern.</p>
+        <p class="vb-intro"><strong>c) Striking without warning:</strong>
+        Once the crocodile strikes, there is no escape. Once a child had been handed into
+        Dyer's care, the mother had no way left to intervene – control was already complete.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Amelia Dyer</strong> embodies the sexual Eight in its quietest and, at the same
+        time, most lethal form. No open violence, no visible threat – but a system run
+        patiently for decades that deliberately exploited social desperation. The nine-wing
+        gave her the shell: competence, calm, apparent care. The Eight's core was
+        uncompromising possession over the life and death of those entrusted to her.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Additional depth perspectives</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SX8 – possession through merging:</strong>
+        Claudio Naranjo described the sexual Eight as the subtype that exercises power over the
+        realm of the personal and intimate. For Dyer, that intimate realm was the mother-child
+        bond itself, which she formally appropriated only to erase it completely afterward.</p>
+        <p class="vb-intro"><strong>b) The nine-wing as camouflage:</strong>
+        Without the nine-wing, Dyer would likely have been noticed sooner. The wing gave her
+        exactly the patient, unremarkable presence that let her operate undisturbed for nearly
+        three decades.</p>
+        <p class="vb-intro"><strong>c) A severely burdened childhood as background:</strong>
+        Dyer's own mother fell seriously ill with typhus and subsequently developed violent
+        delusions; young Amelia had to care for her for years and endure repeated abuse. This
+        does not explain her crimes, but it does suggest how early, in her own experience,
+        care and threat became inseparably fused.</p>
+        <p class="vb-intro"><strong>d) Relaxation point Two – twisted caregiving:</strong>
+        The Eight's relaxation point is the Two. In its healthy form, that means openness,
+        genuine caregiving, real closeness. In Dyer this pattern appeared maximally distorted:
+        she literally presented herself as a caregiver – a Two-mask over the Eight's core, in
+        which feigned care became the instrument of the crime.</p>
+        <p class="vb-intro"><strong>e) A trial that ended in minutes:</strong>
+        Despite decades of methodical operation, the jury at the Old Bailey in March 1896 took
+        less than five minutes to reach a guilty verdict. The Eight builds systems that last a
+        long time – but once the core is finally exposed, the entire facade collapses at once.</p>
+      </div>
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type
+        assignment is a psychological hypothesis, not a historical judgment. Amelia Dyer was
+        convicted and executed in 1896 for one murder; the total number of victims is based on
+        historical estimates. The Enneagram explains, it does not justify.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-jeffrey-epstein", label:"Criminal Psychology: Jeffrey Epstein (SX8w9) – same subtype"},
+        {route:"kriminalpsychologie-john-mcafee", label:"Criminal Psychology: John McAfee (SX8w9) – same subtype"},
+        {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
+      ])}
+    </div>
+  `);
+}
+
 export function alexMurdaughPortraitPage() {
   return shell(`
     <div class="page-container">

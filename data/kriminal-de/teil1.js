@@ -2385,6 +2385,7 @@ export function johnMcAfeePortraitPage() {
         {route:"kriminalpsychologie-jeffrey-epstein", label:"Kriminalpsychologie: Jeffrey Epstein"},
         {route:"kriminalpsychologie-salvatore-riina", label:"Kriminalpsychologie: Salvatore Riina"},
         {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar"},
+        {route:"kriminalpsychologie-amelia-dyer", label:"Kriminalpsychologie: Amelia Dyer (SX8w9) – gleicher Subtyp"},
       ])}
     </div>
   `);

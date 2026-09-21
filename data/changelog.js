@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2377", date: "2026-09-21", text: "Neues Kriminalpsychologie-Porträt: Amelia Dyer (SX8w9) – britische ›Baby Farmer‹, bis zu 400 getötete Kinder.", text_en: "New criminal psychology portrait: Amelia Dyer (SX8w9) – British \"baby farmer,\" up to 400 children killed.", route: "kriminalpsychologie-amelia-dyer" },
     { version: "v2376", date: "2026-09-21", text: "Neues Krankheitsporträt: Carl Gustav Jung (SO5w6) – Herzinfarkt 1944 mit ausführlich dokumentierter Nahtoderfahrung.", text_en: "New illness portrait: Carl Gustav Jung (SO5w6) – 1944 heart attack with an extensively documented near-death experience.", route: "krankheitsportraets-cg-jung" },
     { version: "v2375", date: "2026-09-21", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Carl Gustav Jung (SO5w6) – Psychiater, Begründer der Analytischen Psychologie.", text_en: "New portrait under \"Famous Personalities\": Carl Gustav Jung (SO5w6) – psychiatrist, founder of analytical psychology.", route: "beruehmte-cg-jung" },
     { version: "v2374", date: "2026-09-21", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Bryan Johnson (SX5w6) – Braintree-Gründer, »Project Blueprint«.", text_en: "New portrait under \"Famous Personalities\": Bryan Johnson (SX5w6) – Braintree founder, \"Project Blueprint\".", route: "beruehmte-bryan-johnson" },
