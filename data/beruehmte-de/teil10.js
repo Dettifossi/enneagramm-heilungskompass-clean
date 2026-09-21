@@ -1502,6 +1502,7 @@ export function udoLindenbergPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Udo Lindenberg hinterl\u00e4sst, ist mehr als eine Diskografie \u2013 es ist der Beweis, dass eine einmal gefundene, kompromisslose Haltung ein ganzes K\u00fcnstlerleben tragen kann, ohne zu erstarren. "Sonderzug nach Pankow" bleibt ein Lehrst\u00fcck daf\u00fcr, wie Kunst Macht direkt und ohne Angst adressieren kann. Sein Markenzeichen aus Hut und Sonnenbrille ist zum kollektiven Bild einer ganzen Epoche deutscher Popkultur geworden.</p>
           <p class="vb-intro">Die sexuelle Eins kann inspirieren, indem sie keine R\u00fccksicht auf Anpassung nimmt \u2013 Lindenberg hat genau das getan, \u00fcber f\u00fcnfzig Jahre lang, in Musik, Malerei und politischer Stimme. Das ist das Geschenk der Schwarzen Mamba: eine Intensit\u00e4t, die sich nie verstellt hat und gerade deshalb auch heute noch tr\u00e4gt.</p>
+          <p class="vb-intro">Denselben nie abgelegten schwarzen Hut als t\u00e4gliches Erkennungszeichen tr\u00e4gt auch <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">Gunther von Hagens</a> (ebenfalls SX1w9) \u2013 bei beiden ist der Hut keine Mode, sondern eine t\u00e4gliche, \u00f6ffentlich sichtbare Behauptung der eigenen Unangepasstheit. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">Portr\u00e4t zu Gunther von Hagens</a>.</p>
         </blockquote>
 
       </div>
@@ -1512,6 +1513,7 @@ export function udoLindenbergPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx1", label:"SX1 \u2013 Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-klaus-kinski", label:"Portr\u00e4t: Klaus Kinski (SX1w9)"},
+        {route:"beruehmte-gunther-von-hagens", label:"Portr\u00e4t: Gunther von Hagens (SX1w9) \u2013 derselbe Hut, dasselbe Prinzip"},
         {route:"beruehmte-clueso", label:"Portr\u00e4t: Clueso (SX2w1) \u2013 gemeinsam mit ihm der Song \u203aCello\u2039"},
       ])}
     </div>
@@ -2205,6 +2207,7 @@ export function guntherVonHagensPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Gunther von Hagens wurde 1945 als Gunther Liebchen bei Posen geboren. 1977 erfand er während seiner Arbeit an der Universität Heidelberg die Plastination – ein Verfahren, das Körperflüssigkeiten und Fette in biologischem Gewebe durch reaktionsfähige Kunststoffe ersetzt und Präparate dadurch dauerhaft, geruchlos und formstabil konserviert. 1993 gründete er das Institut für Plastination in Heidelberg, 2006 das Plastinarium in Guben. Seine Wanderausstellung ›Körperwelten‹, erstmals 1995 in Tokio gezeigt, zog bis zu seinem Tod 2026 mehr als 58 Millionen Besucher weltweit an.</p>
           <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins – schnell, präzise, kompromisslos, wenn sie sich für eine Sache entschieden hat. Von Hagens' Markenzeichen war sein Hut, den er nach eigener und seiner Frau Angelina Whalleys Aussage nie ablegte – ein bewusstes Symbol des Andersseins, angelehnt an die hutverzierten Anatomen der Renaissance und erinnernd an Joseph Beuys. Kein Zufallsaccessoire, sondern eine tägliche, öffentlich sichtbare Kampfansage an die Konvention.</p>
+          <p class="vb-intro">Denselben unverwechselbaren schwarzen Hut als tägliches, nie abgelegtes Erkennungszeichen trägt auch <a href="javascript:void(0)" data-route="beruehmte-udo-lindenberg">Udo Lindenberg</a> (ebenfalls SX1w9) – bei beiden ist der Hut kein modisches Detail, sondern die tägliche, öffentlich sichtbare Behauptung der eigenen Unangepasstheit. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-udo-lindenberg">Porträt zu Udo Lindenberg</a>.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Eins: Inbrunst gegen das Todestabu</h2>
@@ -2247,6 +2250,7 @@ export function guntherVonHagensPortraitPage() {
         {route:"beruehmte-michel-foucault", label:"Porträt: Michel Foucault (SX1w9)"},
         {route:"beruehmte-klaus-kinski", label:"Porträt: Klaus Kinski (SX1w9)"},
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Porträt: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-udo-lindenberg", label:"Porträt: Udo Lindenberg (SX1w9) – derselbe Hut, dasselbe Prinzip"},
       ])}
     </div>
   `);

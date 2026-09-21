@@ -2206,6 +2206,7 @@ export function guntherVonHagensPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Gunther von Hagens was born in 1945 as Gunther Liebchen near Posen. In 1977, while working at the University of Heidelberg, he invented plastination – a process that replaces bodily fluids and fats in biological tissue with reactive polymers, permanently preserving specimens odorlessly and without loss of shape. In 1993 he founded the Institute for Plastination in Heidelberg, and in 2006 the Plastinarium in Guben. His touring exhibition "Body Worlds," first shown in Tokyo in 1995, drew more than 58 million visitors worldwide by the time of his death in 2026.</p>
           <p class="vb-intro">The <strong>black mamba</strong> is the animal of the sexual One – fast, precise, uncompromising once it has committed to something. Von Hagens's trademark was his hat, which, by his own account and his wife Angelina Whalley's, he never took off – a deliberate symbol of being different, modeled on the hat-wearing anatomists of the Renaissance and evoking Joseph Beuys. Not a random accessory, but a daily, publicly visible declaration of war against convention.</p>
+          <p class="vb-intro">The very same unmistakable black hat, worn daily and never taken off, is also the signature of <a href="javascript:void(0)" data-route="beruehmte-udo-lindenberg">Udo Lindenberg</a> (also SX1w9) – for both, the hat isn't a fashion detail but a daily, publicly visible assertion of their own nonconformity. More in the <a href="javascript:void(0)" data-route="beruehmte-udo-lindenberg">portrait of Udo Lindenberg</a>.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Sexual One: Zeal Against the Taboo of Death</h2>
@@ -2248,6 +2249,7 @@ export function guntherVonHagensPortraitPage() {
         {route:"beruehmte-michel-foucault", label:"Portrait: Michel Foucault (SX1w9)"},
         {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-udo-lindenberg", label:"Portrait: Udo Lindenberg (SX1w9) – the same hat, the same principle"},
       ])}
     </div>
   `);

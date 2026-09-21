@@ -1501,6 +1501,7 @@ export function udoLindenbergPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Udo Lindenberg leaves behind is more than a discography – it is proof that a once-found, uncompromising stance can carry an entire artist's life without hardening into rigidity. "Sonderzug nach Pankow" remains a lesson in how art can address power directly and without fear. His trademark of hat and sunglasses has become the collective image of an entire era of German pop culture.</p>
           <p class="vb-intro">The sexual One can inspire by refusing to conform – Lindenberg did exactly that, for more than fifty years, in music, painting, and political voice. That is the gift of the Black Mamba: an intensity that never pretended to be anything else, and precisely because of that, still carries today.</p>
+          <p class="vb-intro">The very same never-removed black hat as a daily signature is also worn by <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">Gunther von Hagens</a> (also SX1w9) – for both, the hat isn't fashion but a daily, publicly visible assertion of their own nonconformity. More in the <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">portrait of Gunther von Hagens</a>.</p>
         </blockquote>
 
       </div>
@@ -1511,6 +1512,7 @@ export function udoLindenbergPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
         {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
+        {route:"beruehmte-gunther-von-hagens", label:"Portrait: Gunther von Hagens (SX1w9) – the same hat, the same principle"},
         {route:"beruehmte-clueso", label:"Portrait: Clueso (SX2w1) – recorded \"Cello\" with him"},
       ])}
     </div>
