@@ -3410,7 +3410,7 @@ export function knutHamsunKrankheitsportraetPage() {
         <p class="vb-intro"><strong>c) Warum ausgerechnet ein Abbau der eigenen Urteilsfähigkeit?</strong>
         Für eine selbsterhaltende Vier mit Fünferflügel, deren gesamte Identität auf der eigenen,
         genau beobachtenden Wahrnehmung beruht, lässt sich in einem organischen Abbau
-        ausgerechnet dieser Fähigkeit eine besonders existenzielle Bedrohung lesen: Was Hamsun
+        ausgerechnet dieser Fähigkeit eine besonders existenzielle Bedrohung lesen: Worauf Hamsun
         zeitlebens am meisten vertraute – sein eigenes, scharfes Urteil –, war genau das, was
         ihm zuletzt zunehmend entglitt. Diese Deutung wird im Psychosomatik-Register dieses
         Kompasses noch ausführlicher entfaltet.</p>
