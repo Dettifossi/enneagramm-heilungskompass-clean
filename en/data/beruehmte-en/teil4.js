@@ -2164,3 +2164,69 @@ export function katieCouricPortraitPage() {
     </div>
   `);
 }
+
+export function michelFoucaultPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michel-foucault-portrait.jpg" alt="Michel Foucault" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michel Foucault</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with Nine-Wing &middot; Contratype of One</p>
+        <p class="krim-portrait-subtitle">French philosopher, 1926–1984 – Animal equivalent: Black Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Black Mamba Who Dissected Institutions</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Michel Foucault was born in 1926 in Poitiers, the son of a respected surgeon who expected him to study medicine as well. Foucault refused and studied philosophy and psychology at the École Normale Supérieure instead – a degree in philosophy in 1948, in psychology in 1950, a diploma in psychopathology in 1952. Teaching posts in Uppsala, Warsaw, and Hamburg followed, before he became professor of the history of systems of thought at the Collège de France, France's most prestigious institution, in 1970.</p>
+          <p class="vb-intro">The <strong>black mamba</strong> is the animal of the sexual One – fast, precise, lethal when it feels provoked, never indifferent. That's exactly what describes Foucault's intellectual method: he didn't attack in passing, but dissected with surgical precision which institutions – psychiatry, prison, medicine, sexual morality – actually exercised power under the guise of reason. Whoever fell within his analytical crosshairs rarely emerged unscathed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual One: Zeal Instead of Cool Principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual One (SX1)</strong> is the One's countertype – the subtype that looks least like controlled adherence to principle, yet lives it most intensely. Naranjo called this subtype <em>Zeal</em>: a burning urge to separate the genuine from the false, less filtered and more uncompromising than in the other One subtypes. In Foucault this showed up not as detached academic critique but as radical, often polemically sharpened confrontation with entire disciplines – psychiatry and the penal system weren't discussed in his work so much as exposed.</p>
+          <p class="vb-intro">The same zeal ran through his private life. About his 25-year relationship with Daniel Defert, he said three years before his death: "I live in a state of passion for someone … a permanent state, which has no other reason to end than itself, and to which I am completely devoted." That's not dutiful companionship, but the absolute, almost religious devotion to the one connection typical of SX1 – including the jealousy Defert himself later confirmed as part of it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Centuries Instead of a Single Case</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the sexual One a peculiar breadth: instead of fixating on a single opponent or a single injustice, the anger widens into a panoramic, centuries-spanning inquiry. Foucault's works trace shifts in discourse across 300 or 400 years – not a pointed attack, but a slow, persistent expansion of the one underlying suspicion onto ever-new historical periods and social domains.</p>
+          <p class="vb-intro">His annual lectures at the Collège de France show the same breadth – open to the public, attended by thousands of listeners year after year: not a narrow, exclusive circle of students, but a broad, almost impersonal audience to whom he laid out his research in sweeping strokes, year after year. The One supplies the fire of outrage; the Nine-wing supplies the stamina to carry it across decades and thousands of archival pages.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Actual Achievement: Power as a Productive, Not Merely Repressive Force</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Foucault's real intellectual achievement is the genealogical method he developed. Through concrete historical case studies – madness in ›Madness and Civilization‹, prison in ›Discipline and Punish‹, sexuality in ›The History of Sexuality‹ – he showed that power doesn't merely repress but is productive: it first creates what counts as "normal," "sick," or "criminal," through discourses and institutions that disguise themselves as neutral or scientific.</p>
+          <p class="vb-intro">His concept of ›panopticism‹ (internalized self-surveillance, modeled on Bentham's prison architecture) and of ›biopower‹ (power that no longer rules over death but over life itself) has fundamentally reshaped sociology, history, criminology, and gender studies to this day – a rare case of a single thinker realigning several disciplines at once.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual One with Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX1w9 shows in Foucault's ability to turn his outrage over concealed mechanisms of power into decades of methodically relentless research that actually changed things – his work with the Prisons Information Group contributed directly to concrete reforms of the French penal system.</p>
+          <p class="vb-intro">The One's fatal flaw is <strong>anger</strong> – least filtered in the sexual One. In his younger years, this intensity drove Foucault to two suicide attempts: when the uncompromising inner standard couldn't be directed outward, at institutions, it turned against himself. His fascination with limit-experiences – drugs, practiced sadomasochism, the deliberate pursuit of physical and psychological extremes – shows the same lack of compromise: where a more moderate One respects boundaries, the SX1 seeks the absolute, all-consuming experience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Pure Truth to the Care of the Self</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One's healing path leads from the conviction <em>Only what is absolutely correct counts</em> to the insight <em>I am allowed to be imperfect and still good.</em> Remarkably, this exact movement can be traced in Foucault's final years: the third volume of ›The History of Sexuality‹, ›The Care of the Self‹, turns away from relentless institutional critique toward ancient ethics of self-care and the aesthetic shaping of one's own life – no longer exposing the one pure truth, but fashioning one's own, imperfect life as a work of art.</p>
+          <p class="vb-intro">He died in 1984 from complications of AIDS, shortly after this final work appeared. A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-klaus-kinski">Klaus Kinski</a> (SX1w9): he too shows the same uncompromising, all-or-nothing zeal – lived out on screen in Kinski's case, in the archive and at the desk in Foucault's. More in the <a href="javascript:void(0)" data-route="beruehmte-klaus-kinski">portrait of Klaus Kinski</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+        {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-volker-gerhardt", label:"Portrait: Prof. Dr. Volker Gerhardt (SO1w9) – philosopher of the same core type, different instinct"},
+      ])}
+    </div>
+  `);
+}

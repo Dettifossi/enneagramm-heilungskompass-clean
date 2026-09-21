@@ -2165,3 +2165,69 @@ export function ellenDegeneresPortraitPage() {
     </div>
   `);
 }
+
+export function michelFoucaultPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michel-foucault-portrait.jpg" alt="Michel Foucault" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michel Foucault</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexueller Typ 1 mit Neunerflügel · Kontratyp der Eins</p>
+        <p class="krim-portrait-subtitle">Französischer Philosoph, 1926–1984 – Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba, die Institutionen sezierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Michel Foucault wurde 1926 in Poitiers als Sohn eines angesehenen Chirurgen geboren, der von ihm erwartete, ebenfalls Medizin zu studieren. Foucault verweigerte sich dem und studierte stattdessen Philosophie und Psychologie an der École Normale Supérieure – Lizenziat in Philosophie 1948, in Psychologie 1950, Diplom in Psychopathologie 1952. Es folgten Lehrjahre in Uppsala, Warschau und Hamburg, bevor er 1970 Professor für die Geschichte der Denksysteme am Collège de France wurde, Frankreichs renommiertester Hochschule.</p>
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins – schnell, präzise, tödlich, wenn sie sich provoziert fühlt, niemals gleichgültig. Genau das beschreibt Foucaults intellektuelle Methode: Er griff nicht beiläufig an, sondern sezierte mit chirurgischer Präzision, welche Institutionen – Psychiatrie, Gefängnis, Medizin, Sexualmoral – unter dem Deckmantel der Vernunft tatsächlich Macht ausübten. Wer einmal ins Visier seiner Analyse geriet, kam selten unbeschädigt heraus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Inbrunst statt kühler Prinzipientreue</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> ist der Kontratyp der Eins – der Subtyp, der am wenigsten nach kontrollierter Prinzipientreue aussieht, sie aber am intensivsten lebt. Naranjo nannte diesen Subtyp <em>Zeal</em> – Inbrunst: ein brennendes Verlangen, das Echte vom Falschen zu trennen, ungefilterter und kompromissloser als bei den anderen Einser-Subtypen. Bei Foucault zeigte sich das nicht als distanzierte akademische Kritik, sondern als radikale, oft polemisch zugespitzte Konfrontation mit ganzen Disziplinen – Psychiatrie und Strafvollzug wurden bei ihm nicht diskutiert, sondern regelrecht entlarvt.</p>
+          <p class="vb-intro">Dieselbe Inbrunst durchzog sein Privatleben. Über seine 25 Jahre währende Beziehung zu Daniel Defert sagte er drei Jahre vor seinem Tod: „Ich lebe in einem Zustand der Leidenschaft für jemanden … ein permanenter Zustand, der keinen anderen Grund hat zu enden als sich selbst, und dem ich mich völlig hingebe." Das ist keine pflichtbewusste Zweisamkeit, sondern die für SX1 typische absolute, fast religiöse Hingabe an die eine Verbindung – inklusive der von Defert selbst bestätigten Eifersucht, die dazugehörte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Jahrhunderte statt Einzelfall</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der sexuellen Eins eine eigentümliche Weite: Statt sich an einem einzelnen Gegner oder einer einzelnen Ungerechtigkeit festzubeißen, weitet sich der Zorn zu einer panoramaartigen, jahrhundertelangen Betrachtung aus. Foucaults Werke verfolgen Diskursverschiebungen über 300, 400 Jahre hinweg – kein punktueller Angriff, sondern eine schwerfällige, beharrliche Ausdehnung des einen Grundverdachts auf immer neue historische Epochen und gesellschaftliche Bereiche.</p>
+          <p class="vb-intro">Auch seine jährlichen Vorlesungen am Collège de France – öffentlich zugänglich, über Jahre hinweg von tausenden Zuhörern besucht – zeigen diese Weite: kein enger, exklusiver Schülerkreis, sondern ein breites, fast unpersönliches Publikum, dem er seine Forschung Jahr für Jahr in großen Bögen darlegte. Die Eins liefert das Feuer der Empörung, der Neunerflügel liefert die Ausdauer, es über Jahrzehnte und durch tausende Archivseiten hindurch zu tragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Macht als produktive, nicht nur unterdrückende Kraft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Foucaults eigentliche intellektuelle Leistung ist die von ihm entwickelte genealogische Methode. An konkreten historischen Fallstudien – Wahnsinn in ›Wahnsinn und Gesellschaft‹, Gefängnis in ›Überwachen und Strafen‹, Sexualität in ›Sexualität und Wahrheit‹ – zeigte er, dass Macht nicht bloß unterdrückt, sondern produktiv wirkt: Sie erzeugt erst, was als „normal", „krank" oder „kriminell" gilt, über Diskurse und Institutionen, die sich als neutral oder wissenschaftlich tarnen.</p>
+          <p class="vb-intro">Sein Konzept des ›Panoptismus‹ (verinnerlichte Selbstüberwachung nach dem Vorbild von Benthams Gefängnisarchitektur) und der ›Biomacht‹ (Macht, die nicht mehr über den Tod, sondern über das Leben selbst herrscht) hat Soziologie, Geschichtswissenschaft, Kriminologie und Gender Studies bis heute grundlegend verändert – ein seltener Fall, in dem ein einzelner Denker mehrere Disziplinen gleichzeitig neu ausrichtete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX1w9 zeigt sich in Foucaults Fähigkeit, seine Empörung über verschleierte Machtmechanismen in jahrzehntelange, methodisch schonungslose Forschung zu verwandeln, die tatsächlich etwas bewegte – seine Mitarbeit in der ›Groupe d'information sur les prisons‹ trug direkt zu konkreten Reformen im französischen Strafvollzug bei.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Eins ist <strong>Zorn</strong> – bei der sexuellen Eins am wenigsten gefiltert. In jungen Jahren führte diese Intensität bei Foucault zu zwei Suizidversuchen: Wenn sich der kompromisslose innere Anspruch nicht nach außen, gegen Institutionen, richten ließ, richtete er sich gegen ihn selbst. Auch seine Faszination für Grenzerfahrungen – Drogen, praktizierte Sadomasochismus-Erfahrungen, das bewusste Aufsuchen körperlicher und psychischer Extremzustände – zeigt dieselbe Kompromisslosigkeit: Wo eine gemäßigtere Eins Grenzen respektiert, sucht die SX1 die absolute, alles durchdringende Erfahrung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der reinen Wahrheit zur Sorge um sich</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt von der Überzeugung <em>Nur das absolut Richtige zählt</em> zur Erkenntnis <em>Ich darf unvollkommen sein und trotzdem gut.</em> Bemerkenswert ist, dass sich genau diese Bewegung in Foucaults letztem Lebensabschnitt nachvollziehen lässt: Der dritte Band von ›Sexualität und Wahrheit‹, ›Die Sorge um sich‹, wendet sich von der schonungslosen Institutionenkritik ab und der antiken Ethik der Selbstsorge und der ästhetischen Selbstgestaltung des eigenen Lebens zu – nicht mehr die eine reine Wahrheit entlarven, sondern das eigene, unvollkommene Leben als Kunstwerk gestalten.</p>
+          <p class="vb-intro">Er starb 1984 an den Folgen von Aids, kurz nach Erscheinen dieses letzten Werks. Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-klaus-kinski">Klaus Kinski</a> (SX1w9): Auch bei ihm zeigt sich dieselbe kompromisslose, alles oder nichts fordernde Inbrunst – bei Kinski auf der Leinwand ausgelebt, bei Foucault im Archiv und am Schreibtisch. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-klaus-kinski">Porträt zu Klaus Kinski</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-klaus-kinski", label:"Porträt: Klaus Kinski (SX1w9)"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Porträt: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-volker-gerhardt", label:"Porträt: Prof. Dr. Volker Gerhardt (SO1w9) – Philosoph desselben Kerntyps, anderer Instinkt"},
+      ])}
+    </div>
+  `);
+}

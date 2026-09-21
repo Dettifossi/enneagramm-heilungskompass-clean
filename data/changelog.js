@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2367", date: "2026-09-21", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Michel Foucault (SX1w9) – Philosoph, Macht- und Diskurstheorie.", text_en: "New portrait under \"Famous Personalities\": Michel Foucault (SX1w9) – philosopher, power and discourse theory.", route: "beruehmte-michel-foucault" },
     { version: "v2366", date: "2026-09-20", text: "Neu: Subtyp-Motivationsquiz – errät ausschließlich motivationsbedingtes Verhalten der 27 Subtypen, 2 Schwierigkeitsstufen.", text_en: "New: Subtype Motivation Quiz – guess the 27 subtypes purely from motivation-driven behavior, 2 difficulty levels.", route: "subtyp-motivationsquiz" },
     { version: "v2365", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Prof. Dr. Volker Gerhardt (SO1w9) – Philosoph, Nietzsche- und Kant-Kommission.", text_en: "New portrait under \"Famous Personalities\": Prof. Dr. Volker Gerhardt (SO1w9) – philosopher, Nietzsche and Kant commissions.", route: "beruehmte-volker-gerhardt" },
     { version: "v2364", date: "2026-09-20", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Dr. Barbara Bleisch (SE3w2) – Philosophin, Moderatorin.", text_en: "New portrait under \"Famous Personalities\": Dr. Barbara Bleisch (SE3w2) – philosopher, TV host.", route: "beruehmte-barbara-bleisch" },

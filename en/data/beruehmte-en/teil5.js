@@ -907,6 +907,7 @@ export function klausKinskiPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-michel-foucault", label:"Portrait: Michel Foucault (SX1w9)"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
         {route:"krankheitsportraets-klaus-kinski", label:"Illness Portrait: Klaus Kinski (SX1w9)"},
         {route:"bibel-johannes-der-taeufer", label:"Bible Portrait: John the Baptist (SX1w9)"},
