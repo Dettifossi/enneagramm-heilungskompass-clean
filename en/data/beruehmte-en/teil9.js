@@ -1,5 +1,71 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function cgJungPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-cg-jung-portrait.jpg" alt="Carl Gustav Jung" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carl Gustav Jung</p>
+        <p class="krim-portrait-typ">SO5w6 · Social Type 5 with a Six-Wing</p>
+        <p class="krim-portrait-subtitle">Swiss psychiatrist, 1875–1961 – founder of analytical psychology – Animal correspondence: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The octopus who mapped the unconscious</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carl Gustav Jung was born in 1875 in Kesswil on Lake Constance, the son of a Swiss Reformed pastor. Even as a child he showed a pronounced inwardness and a strong interest in dreams, myths, and religious questions that would later shape his work as a psychiatrist at the Burghölzli clinic in Zurich under Eugen Bleuler. He began his career there in 1900 and, together with Franz Riklin, developed the word association test in the following years, which gave him his first empirical evidence for unconscious psychic content.</p>
+          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five – highly intelligent, a master problem-solver that shapes its complex thinking so others can share in it. Over decades Jung built an encyclopedic system out of mythology, alchemy, the history of religion, and psychiatry – not to keep it to himself, but to make it accessible to a growing community of students and patients.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Five: knowledge as a legacy for the community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Five (SO5)</strong> seeks security not in pure withdrawal but in becoming indispensable to a larger community through knowledge. Naranjo called this subtype <em>Totem</em>: understanding is treated like an inheritance that only realizes its full value through being passed on. In Jung this shows across his entire body of work – archetypes, the collective unconscious, individuation – which he never treated as a private edifice of thought but continually passed on through lectures, seminars, and the annual Eranos conferences in Ascona to a growing circle of interested people.</p>
+          <p class="vb-intro">In 1916 he and his wife Emma founded the Psychology Club Zurich; in 1948, the C.G. Jung Institute Zurich – both deliberately built as institutions meant to carry his teaching beyond his own death. Knowledge that stayed within a narrow circle was never the goal for the SO5; the community of learners was the actual point.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The six-wing: from crown prince to his own system</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>six-wing (w6)</strong> gives the social Five a deep need for reliable structure and a pronounced loyalty-authority dynamic. In Jung this shows especially clearly in his relationship to Sigmund Freud: Jung himself wrote to Freud that he wanted to experience their friendship "not as one between equals, but one between father and son" – Freud, in turn, called him his "crown prince" and designated successor. This leaning on a protective authority is the classic Six's search for security.</p>
+          <p class="vb-intro">The break of 1913, described by historians as a "symbolic patricide," shows the other side of the same pattern: the counterphobic rebellion against exactly the authority once trusted, once it no longer proves reliable. What followed was typically Six: not a loose departure, but the systematic construction of his own, institutionally secured counter-model – with his own training, his own club, his own journal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual achievement: the word association test and the empirical proof of the unconscious</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jung's concrete scientific contribution is often less well known than his later, more speculative theories of archetypes and synchronicity: the word association test developed at the Burghölzli. Test subjects were presented with stimulus words, and Jung measured reaction times and, together with Frederick Peterson, physiological skin responses via a galvanometer. Noticeable delays or bodily reactions to particular words marked what Jung called "complexes" – autonomous, emotionally charged clusters of thought and memory operating unconsciously.</p>
+          <p class="vb-intro">In 1907 this was the first repeatable, measurable empirical confirmation that unconscious psychic content actually exists and can be objectively demonstrated – not through hypnosis or philosophical speculation, but through reproducible data. This method also supplied the technical basis on which the polygraph (lie detector) was later built, and it established Jung's reputation long before he turned to mythology and alchemy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the social Five with a six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO5w6 shows in Jung's ability to build a coherent, teachable system out of radically disparate fields of knowledge – psychiatry, mythology, alchemy, Eastern religions – that still carries training institutes around the world today. His "confrontation with the unconscious" (1913–1918), documented in the posthumously published <em>Red Book</em>, he transformed not into private suffering alone but into the conceptual foundation of his entire later work.</p>
+          <p class="vb-intro">The shadow shows in his handling of close relationships: alongside his marriage to Emma Jung, with whom he had five children, Jung maintained for decades an openly tolerated relationship with his former patient and later analyst Toni Wolff – an arrangement that apparently extended his authority as founder of his own school into his private life as well. His earlier relationship with Sabina Spielrein, initially also his patient and still debated today for its boundary violations, shows the same tendency: closeness was negotiated within the system he himself had created, not sought outside it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: from knowledge system to lived wholeness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Five's path to healing leads from the conviction <em>I don't have enough to give</em> to the insight <em>What I am is enough – even without complete understanding.</em> For the SO5w6, that means no longer treating one's own system as the sole source of security, but also exposing oneself to what cannot be fully captured in theory.</p>
+          <p class="vb-intro">Remarkably, Jung's own late work performs exactly this movement: his concept of individuation explicitly describes no finished doctrine, but a lifelong, never fully systematizable process of becoming whole. A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-stephen-hawking">Stephen Hawking</a> (SO5w6): in him too, the same combination of encyclopedic system-building and a reliable, institutionally secured framework for passing that knowledge on to a broad public appears. More in the <a href="javascript:void(0)" data-route="beruehmte-stephen-hawking">portrait of Stephen Hawking</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
+        {route:"beruehmte-stephen-hawking", label:"Portrait: Stephen Hawking (SO5w6)"},
+        {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portrait: Georg Wilhelm Friedrich Hegel (SO5w6)"},
+        {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
 export function albertEinsteinPortraitPage() {
   return shell(`
     <div class="page-container">

@@ -1,5 +1,71 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function cgJungPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-cg-jung-portrait.jpg" alt="Carl Gustav Jung" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carl Gustav Jung</p>
+        <p class="krim-portrait-typ">SO5w6 · Sozialer Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Schweizer Psychiater, 1875–1961 – Begründer der Analytischen Psychologie – Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus, der das Unbewusste kartierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carl Gustav Jung wurde 1875 in Kesswil am Bodensee als Sohn eines evangelisch-reformierten Pfarrers geboren. Bereits als Kind zeigte er eine ausgeprägte Innerlichkeit und ein starkes Interesse an Träumen, Mythen und religiösen Fragen, die seine spätere Arbeit als Psychiater am Burghölzli in Zürich unter Eugen Bleuler prägen sollten. 1900 begann er dort seine Laufbahn und entwickelte in den folgenden Jahren gemeinsam mit Franz Riklin den Wortassoziationstest, der ihm erste empirische Belege für unbewusste seelische Inhalte lieferte.</p>
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier der sozialen Fünf – hochintelligent, ein Meister der Problemlösung, der sein komplexes Denken so formt, dass andere daran teilhaben können. Jung baute über Jahrzehnte ein enzyklopädisches System aus Mythologie, Alchemie, Religionsgeschichte und Psychiatrie auf – nicht um es für sich zu behalten, sondern um es einer wachsenden Gemeinschaft von Schülern und Patienten zugänglich zu machen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Fünf: Wissen als Vermächtnis für die Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Fünf (SO5)</strong> sucht Sicherheit nicht im reinen Rückzug, sondern darin, durch Wissen für eine größere Gemeinschaft unentbehrlich zu werden. Naranjo nannte diesen Subtyp <em>Totem</em>: Das Verstehen wird wie ein Erbe behandelt, das erst durch Weitergabe seinen vollen Wert entfaltet. Bei Jung zeigt sich das in seinem gesamten Lebenswerk – Archetypen, kollektives Unbewusstes, Individuation –, das er nicht als privates Gedankengebäude behandelte, sondern in Vorträgen, Seminaren und den jährlichen Eranos-Tagungen in Ascona kontinuierlich an einen wachsenden Kreis von Interessierten weitergab.</p>
+          <p class="vb-intro">1916 gründete er gemeinsam mit seiner Frau Emma den Psychologischen Club Zürich, 1948 das C.G.-Jung-Institut Zürich – beides bewusst als Institutionen angelegt, die seine Lehre über seinen eigenen Tod hinaus tragen sollten. Wissen, das im engen Kreis bleibt, war für die SO5 nie das Ziel; die Gemeinschaft der Lernenden war der eigentliche Zweck.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Vom Kronprinzen zum eigenen System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der sozialen Fünf ein tiefes Bedürfnis nach verlässlicher Struktur und eine ausgeprägte Loyalitäts-Autoritäts-Dynamik. Bei Jung zeigt sich das in seiner Beziehung zu Sigmund Freud besonders deutlich: Jung selbst schrieb an Freud, er wolle dessen Freundschaft „nicht als eine unter Gleichen, sondern als eine zwischen Vater und Sohn" erleben – Freud wiederum bezeichnete ihn als seinen „Kronprinzen" und designierten Nachfolger. Diese Anlehnung an eine schützende Autorität ist die typische Sechser-Sicherheitssuche.</p>
+          <p class="vb-intro">Der Bruch von 1913, von Historikern als „symbolischer Vatermord" beschrieben, zeigt die andere Seite desselben Musters: die kontraphobische Rebellion gegen genau die Autorität, der zuvor vertraut wurde, sobald sich diese als nicht mehr tragfähig erweist. Was danach folgte, war typisch sechsertypisch – kein loser Ausstieg, sondern der systematische Aufbau eines eigenen, institutionell abgesicherten Gegenentwurfs mit eigener Ausbildung, eigenem Club, eigener Zeitschrift.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Der Wortassoziationstest und der empirische Beweis des Unbewussten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jungs konkreter wissenschaftlicher Beitrag ist oft weniger bekannt als seine späteren, spekulativeren Theorien zu Archetypen und Synchronizität: der am Burghölzli entwickelte Wortassoziationstest. Versuchspersonen bekamen Reizwörter vorgelegt, Jung maß Reaktionszeiten und – gemeinsam mit Frederick Peterson – über ein Galvanometer auch physiologische Reaktionen der Haut. Auffällige Verzögerungen oder körperliche Reaktionen bei bestimmten Wörtern markierten das, was Jung „Komplexe" nannte: autonome, emotional aufgeladene Gedanken- und Erinnerungscluster, die unbewusst wirken.</p>
+          <p class="vb-intro">Das war 1907 die erste wiederholbare, messbare empirische Bestätigung dafür, dass unbewusste psychische Inhalte tatsächlich existieren und sich objektiv nachweisen lassen – nicht durch Hypnose oder philosophische Spekulation, sondern durch reproduzierbare Daten. Diese Methode lieferte zugleich die technische Grundlage, auf der später der Polygraph (Lügendetektor) aufbaute, und begründete Jungs Ruf lange bevor er sich der Mythologie und Alchemie zuwandte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Fünf mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO5w6 zeigt sich in Jungs Fähigkeit, aus radikal disparaten Wissensfeldern – Psychiatrie, Mythologie, Alchemie, östliche Religionen – ein kohärentes, lehrbares System zu bauen, das bis heute Ausbildungsinstitute auf der ganzen Welt trägt. Seine „Konfrontation mit dem Unbewussten" (1913–1918), dokumentiert im postum veröffentlichten ›Roten Buch‹, verwandelte er nicht in privates Leiden allein, sondern in die konzeptuelle Grundlage seines gesamten späteren Werks.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in seinem Umgang mit engen Beziehungen: Neben seiner Ehe mit Emma Jung, mit der er fünf Kinder hatte, unterhielt Jung jahrzehntelang eine offen geduldete Beziehung zu seiner ehemaligen Patientin und späteren Analytikerin Toni Wolff – ein Arrangement, das seine Autorität als Begründer der eigenen Schule offenbar auch auf das Private ausdehnte. Auch seine frühere, in ihrer Grenzüberschreitung bis heute diskutierte Beziehung zu Sabina Spielrein, ebenfalls zunächst seine Patientin, zeigt dieselbe Tendenz: Nähe wurde innerhalb des selbst geschaffenen Systems verhandelt, nicht außerhalb davon gesucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Wissenssystem zur gelebten Ganzheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von der Überzeugung <em>Ich habe nicht genug, um zu geben</em> zur Erkenntnis <em>Was ich bin, reicht – auch ohne vollständiges Verstehen.</em> Für die SO5w6 bedeutet das, das eigene System nicht länger als einzige Quelle der Sicherheit zu behandeln, sondern sich auch dem auszusetzen, was sich nicht restlos in Theorie fassen lässt.</p>
+          <p class="vb-intro">Bemerkenswert ist, dass Jungs eigenes Spätwerk genau diese Bewegung vollzieht: Sein Konzept der Individuation beschreibt ausdrücklich keinen abgeschlossenen Lehrsatz, sondern einen lebenslangen, nie vollständig systematisierbaren Prozess der Ganzwerdung. Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-stephen-hawking">Stephen Hawking</a> (SO5w6): Auch bei ihm zeigt sich dieselbe Verbindung aus enzyklopädischem Systembau und dem verlässlichen, institutionell abgesicherten Rahmen, in dem dieses Wissen an eine breite Öffentlichkeit weitergegeben wurde. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-stephen-hawking">Porträt zu Stephen Hawking</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-stephen-hawking", label:"Porträt: Stephen Hawking (SO5w6)"},
+        {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Porträt: Georg Wilhelm Friedrich Hegel (SO5w6)"},
+        {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
 export function alexanderBommesPortraitPage() {
   return shell(`
     <div class="page-container">

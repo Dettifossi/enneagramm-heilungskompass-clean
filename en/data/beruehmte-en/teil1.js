@@ -1482,6 +1482,7 @@ export function stephenHawkingPortraitPage() {
         {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
         {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6) – same chair"},
         {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4)"},
+        {route:"beruehmte-cg-jung", label:"Portrait: Carl Gustav Jung (SO5w6)"},
       ])}
     </div>
   `);
