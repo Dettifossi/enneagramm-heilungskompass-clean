@@ -2190,7 +2190,7 @@ export function vincenzoCalifanoPortraitPage() {
         </div>
         <p class="krim-portrait-name">Vincenzo Califano</p>
         <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
-        <p class="krim-portrait-subtitle">Spiritueller Lehrer (Advaita/Direkter Weg), Zürich – Tierentsprechung: Waschbär</p>
+        <p class="krim-portrait-subtitle">Spiritueller Lehrer (Advaita/Direkter Weg), geb. unbekannt, Zürich – Tierentsprechung: Waschbär</p>
       </div>
       <div class="page-content">
 

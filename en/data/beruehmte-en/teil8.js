@@ -2196,7 +2196,7 @@ export function vincenzoCalifanoPortraitPage() {
         </div>
         <p class="krim-portrait-name">Vincenzo Califano</p>
         <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
-        <p class="krim-portrait-subtitle">Spiritual teacher (Advaita/Direct Path), Zurich &ndash; Animal correspondence: Raccoon</p>
+        <p class="krim-portrait-subtitle">Spiritual teacher (Advaita/Direct Path), b. unknown, Zurich &ndash; Animal correspondence: Raccoon</p>
       </div>
       <div class="page-content">
 
