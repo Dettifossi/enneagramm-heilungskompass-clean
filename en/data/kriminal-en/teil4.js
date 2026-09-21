@@ -59,12 +59,14 @@ export function ameliaDyerPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General characteristics</h3>
         <p class="vb-intro"><strong>a) A double possession – of money and of people:</strong>
         Depending on the mother's ability to pay or the father's involvement, Dyer charged
-        anywhere from a few pounds up to £80 – a substantial sum by the standards of the time.
-        The Eight's lust shows in her in exactly this double form of possessiveness: material
-        greed for the fee, combined with total power of disposal over the child itself, which
-        passed entirely into her possession the moment it was handed over. Dyer did not build a
-        network of relationships like Epstein, but a business model built on complete,
-        one-sided dependency.</p>
+        anywhere from a few pounds up to £80. For comparison: an average British worker earned
+        roughly £46 to £47 a year at the time, a domestic servant often only £20 to £25 –
+        meaning Dyer sometimes collected nearly two years' wages for a single child, in some
+        cases more than three years of a servant's salary. The Eight's lust shows in her in
+        exactly this double form of possessiveness: material greed for the fee, combined with
+        total power of disposal over the child itself, which passed entirely into her
+        possession the moment it was handed over. Dyer did not build a network of relationships
+        like Epstein, but a business model built on complete, one-sided dependency.</p>
         <p class="vb-intro"><strong>b) A legal loophole as a tool of entrapment:</strong>
         The Poor Law Amendment Act of 1834 freed fathers of illegitimate children from any
         obligation to support them – a social predicament Dyer systematically exploited. The
@@ -175,7 +177,15 @@ export function ameliaDyerPortraitPage() {
         genuine caregiving, real closeness. In Dyer this pattern appeared maximally distorted:
         she literally presented herself as a caregiver – a Two-mask over the Eight's core, in
         which feigned care became the instrument of the crime.</p>
-        <p class="vb-intro"><strong>e) A trial that ended in minutes:</strong>
+        <p class="vb-intro"><strong>e) Stress point Five – when possessiveness turns into avarice:</strong>
+        The Eight's stress point is the Five, whose passion is avarice – the anxious
+        withholding born of the fear of not having enough. In an unconscious, poorly integrated
+        Eight like Dyer, exactly this Five pattern surfaces under stress: instead of spending
+        the fees she collected on actual care, she cut every expense for food and provisions to
+        zero – a compulsion to economize that, in her case, turned literally lethal. The Eight's
+        lust (wanting ever more possession) and the stress-line Five's avarice (wanting to give
+        up nothing) reinforced each other in her instead of balancing out.</p>
+        <p class="vb-intro"><strong>f) A trial that ended in minutes:</strong>
         Despite decades of methodical operation, the jury at the Old Bailey in March 1896 took
         less than five minutes to reach a guilty verdict. The Eight builds systems that last a
         long time – but once the core is finally exposed, the entire facade collapses at once.</p>

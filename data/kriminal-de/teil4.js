@@ -63,12 +63,15 @@ export function ameliaDyerPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
         <p class="vb-intro"><strong>a) Doppelter Besitz – über Geld und über Menschen:</strong>
         Dyer verlangte je nach Zahlungsfähigkeit der Mutter oder Beteiligung des Vaters
-        zwischen wenigen Pfund und bis zu 80 Pfund – für damalige Verhältnisse ein erhebliches
-        Vermögen. Die Wollust der Acht zeigt sich bei ihr in genau dieser doppelten Form von
-        Besitzgier: materielle Habgier nach dem Honorar und gleichzeitig vollständige
-        Verfügungsgewalt über das Kind selbst, das mit der Übergabe restlos in ihren Besitz
-        überging. Dyer baute kein Netzwerk aus Beziehungen wie Epstein, sondern ein
-        Geschäftsmodell aus vollständiger, einseitiger Abhängigkeit.</p>
+        zwischen wenigen Pfund und bis zu 80 Pfund. Zum Vergleich: Ein durchschnittlicher
+        britischer Arbeiter verdiente in dieser Zeit etwa 46 bis 47 Pfund im Jahr, ein
+        Dienstmädchen oft nur 20 bis 25 Pfund – Dyer kassierte für ein einziges Kind also
+        teilweise fast das Doppelte eines Jahreslohns, in manchen Fällen mehr als drei
+        Jahresgehälter eines Dienstmädchens. Die Wollust der Acht zeigt sich bei ihr in genau
+        dieser doppelten Form von Besitzgier: materielle Habgier nach dem Honorar und
+        gleichzeitig vollständige Verfügungsgewalt über das Kind selbst, das mit der Übergabe
+        restlos in ihren Besitz überging. Dyer baute kein Netzwerk aus Beziehungen wie Epstein,
+        sondern ein Geschäftsmodell aus vollständiger, einseitiger Abhängigkeit.</p>
         <p class="vb-intro"><strong>b) Rechtslücke als Werkzeug der Einbindung:</strong>
         Das Poor Law Amendment Act von 1834 entband Väter unehelicher Kinder von jeder
         Unterhaltspflicht – eine gesellschaftliche Notlage, die Dyer systematisch ausnutzte.
@@ -184,7 +187,16 @@ export function ameliaDyerPortraitPage() {
         echte Fürsorglichkeit, echte Nähe. Bei Dyer zeigte sich dieses Muster maximal
         verzerrt: Sie trat buchstäblich als Pflegerin auf – eine Zwei-Maske über dem
         Achter-Kern, bei der die vorgetäuschte Fürsorge zum Tatwerkzeug wurde.</p>
-        <p class="vb-intro"><strong>e) Ein Prozess, der in Minuten endete:</strong>
+        <p class="vb-intro"><strong>e) Stresspunkt Fünf – wenn Besitzgier zu Geiz wird:</strong>
+        Der Stresspunkt der Acht ist die Fünf, deren Leidenschaft der Geiz ist – das ängstliche
+        Zurückhalten aus der Angst, nicht genug zu haben. Bei einer unbewussten, wenig
+        integrierten Acht wie Dyer zeigt sich unter Stress genau dieses Fünfer-Muster: Statt
+        die eingenommenen Honorare für tatsächliche Pflege auszugeben, kürzte sie jede Ausgabe
+        für Nahrung und Versorgung auf null – ein Sparzwang, der bei ihr buchstäblich tödlich
+        wurde. Die Wollust der Acht (immer mehr besitzen wollen) und der Geiz der
+        Stresslinien-Fünf (nichts mehr hergeben wollen) verstärkten sich bei ihr gegenseitig,
+        statt sich auszugleichen.</p>
+        <p class="vb-intro"><strong>f) Ein Prozess, der in Minuten endete:</strong>
         Trotz jahrzehntelanger, methodischer Vorgehensweise brauchte die Jury am Old Bailey
         im März 1896 weniger als fünf Minuten für den Schuldspruch. Die Acht baut Systeme,
         die lange tragen – aber sobald der Kern einmal sichtbar wird, bricht die gesamte
