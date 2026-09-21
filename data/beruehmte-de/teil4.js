@@ -2165,3 +2165,69 @@ export function katieCouricPortraitPage() {
     </div>
   `);
 }
+
+export function donMcleanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-don-mclean-portrait.jpg" alt="Don McLean" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Don McLean</p>
+        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Liedermacher, geb. 1945 – ›American Pie‹, ›Vincent‹ – Tierentsprechung: Haustaube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die ihren Schmerz in Allegorien verpackte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don McLean wurde 1945 in New Rochelle, New York, geboren. Sein Vater starb, als er fünfzehn war; schweres Asthma sorgte für lange Fehlzeiten in der Schule, während sich seine Liebe zur Musik früh entfalten konnte. 1971 veröffentlichte er mit ›American Pie‹ einen der einflussreichsten Songs der amerikanischen Musikgeschichte – eine mehrschichtige Allegorie auf den Verlust der Unschuld der frühen Rock'n'Roll-Generation, ausgelöst durch den Flugzeugabsturz, der Buddy Holly, Ritchie Valens und den ›Big Bopper‹ das Leben kostete.</p>
+          <p class="vb-intro">Die <strong>Haustaube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihre Sehnsucht nicht zur Schau, sondern verpackt sie in etwas, das sich leise mitteilt, statt zu schreien. Genau das tat McLean 1971 auch mit ›Vincent‹: Er schrieb den Song über Vincent van Gogh, während er selbst mitten in einer, wie er es später nannte, „quälenden" Ehekrise steckte – seine eigene Not floss unausgesprochen in die Zeilen über einen anderen, missverstandenen Künstler.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Funktionieren statt Vorführen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> gilt als Kontratyp der Vier: Sie zeigt das erwartete dramatische Leiden am wenigsten offen – sie funktioniert, hält durch, arbeitet weiter, während innerlich eine tiefe, oft nie eingestandene Sehnsucht mitläuft. Nach dem Welterfolg von ›American Pie‹ erlitt McLean nach eigener Aussage einen Nervenzusammenbruch durch die plötzliche, überwältigende Aufmerksamkeit. Seine Reaktion war jedoch nicht öffentliche Verarbeitung, sondern fast fünf Jahrzehnte konsequentes Schweigen über die Bedeutung seines berühmtesten Songs.</p>
+          <p class="vb-intro">„Es war zu schwer, in einem Interview die Feinheiten dessen zu erklären, was ich sagen wollte. Also sagte ich: Ich rede nicht über die Lyrics", erklärte er noch Jahrzehnte später. Erst 2015, beim Verkauf des Originalmanuskripts, gab er überhaupt seine eigenen Songwriting-Notizen preis. Das ist reine SE4-Logik: Der Schmerz und die Bedeutung werden nicht zur Schau gestellt, sondern so lange wie irgend möglich zurückgehalten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Rückzug statt Selbstoffenbarung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verstärkt bei der selbsterhaltenden Vier die Neigung, sich zurückzuziehen, statt sich zu öffnen. Noch mit 80 Jahren gilt McLean als jemand, der „nicht mehr um Relevanz kämpft" und wenig Interesse daran hat, sich selbst zu erklären – ein Leben, das sich bewusst von der Bühne weg organisiert hat: mit selbst trainierten Appaloosa-Pferden auf einer Ranch, mit fünfzig Paar maßgefertigten Westernstiefeln, in einer sehr eigenen, in sich geschlossenen Welt.</p>
+          <p class="vb-intro">Während eine selbsterhaltende Vier mit stärkerem Dreierflügel ihre Zurückhaltung eher pragmatisch-leistungsorientiert einsetzen würde, um in Ruhe weiterzuarbeiten, zieht sich McLeans w5-Variante tiefer in die eigene, private gedankliche Welt zurück – Distanz nicht als Mittel zum Zweck, sondern als eigener Lebensraum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: eine Allegorie, die fünf Jahrzehnte lang ihr Geheimnis behielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">›American Pie‹ wurde 2016 in die National Recording Registry der Library of Congress aufgenommen und von RIAA und National Endowment for the Arts auf Platz 5 der 365 bedeutendsten Songs des 20. Jahrhunderts geführt – dazu eine Aufnahme in die Grammy Hall of Fame. Songwriterisch ist der Song keine simple Nacherzählung, sondern ein komplex verschlüsseltes Gesellschaftsporträt der 1960er-Jahre, dessen Symbolik McLean jahrzehntelang bewusst nicht auflöste, um die Vieldeutigkeit nicht zu zerstören.</p>
+          <p class="vb-intro">Diese Verweigerung der Erklärung war selbst ein kompositorischer Akt: Wo andere Songwriter ihre Anspielungen in Interviews ausbreiten, ließ McLean den Song als offenes, kollektiv gedeutetes Kulturgut weiterleben. Erst mit der Versteigerung des Originalmanuskripts 2015 gab er einen Teil seiner eigenen Lesart preis – bezeichnenderweise über ein Auktionshaus, nicht über ein Interview.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Vier mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 zeigt sich darin, aus tiefem persönlichem Schmerz Kunst zu schaffen, die Millionen erreicht, ohne die eigene Verletzlichkeit öffentlich auszustellen – ›Vincent‹ und ›American Pie‹ berühren bis heute, gerade weil sie nie vollständig erklärt, sondern nur angedeutet wurden.</p>
+          <p class="vb-intro">Der Schatten ist ernst und muss benannt werden: 2016 wurde McLean nach einem Vorfall in seinem Haus in Camden, Maine, wegen häuslicher Gewalt angeklagt und plädierte auf schuldig, unter anderem in einem Anklagepunkt wegen tätlichen Angriffs; im Rahmen eines Plea-Deals wurden die schwerwiegendsten Anklagepunkte später fallengelassen, er zahlte rund 3.000 Dollar Bußgeld. Seine damalige Ehefrau Patrisha McLean beschrieb ihn öffentlich als über Jahrzehnte „zutiefst kontrollierend" und warf ihm anhaltenden emotionalen, finanziellen und körperlichen Missbrauch vor; sie gründete später eine Organisation für Betroffene häuslicher Gewalt. Psychologisch passt das zur destruktivsten Ausprägung der SE4w5: Die private Sphäre, die sonst stiller Rückzugsort ist, kann zur Kontrollzone werden, wenn die nach außen funktionierende Fassade unter dem zurückgehaltenen inneren Druck zusammenbricht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Verbergen zum eigenen, unvollkommenen Bild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Überzeugung <em>Mir fehlt etwas, das andere haben</em> zur Erkenntnis <em>Ich bin, wie ich bin, vollständig.</em> Für die SE4w5 bedeutet das insbesondere, den eigenen Schmerz nicht länger vollständig zurückhalten zu müssen, um zu funktionieren – und die eigene Unvollkommenheit nicht hinter einer makellosen, kontrollierten Fassade zu verstecken.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-paul-mccartney">Paul McCartney</a> (SE4w5): Auch bei ihm zeigt sich dieselbe Kombination aus zurückhaltendem, funktionierendem Auftreten nach außen und tief empfundener, oft erst spät oder indirekt ausgesprochener Melancholie in den eigenen Songs. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-paul-mccartney">Porträt zu Paul McCartney</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Haustaube: Subtyp-Profil"},
+        {route:"beruehmte-paul-mccartney", label:"Porträt: Paul McCartney (SE4w5)"},
+        {route:"beruehmte-sam-altman", label:"Porträt: Sam Altman (SE4w5)"},
+        {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
+      ])}
+    </div>
+  `);
+}

@@ -1316,6 +1316,7 @@ export function paulMccartneyPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se4", label:"SE4 \u2013 Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-don-mclean", label:"Portr\u00e4t: Don McLean (SE4w5)"},
         {route:"beruehmte-john-lennon", label:"Portr\u00e4t: John Lennon (SO4w5)"},
         {route:"beruehmte-karoline-herfurth", label:"Portr\u00e4t: Karoline Herfurth (SE4w5)"},
         {route:"beruehmte-clemens-arvay", label:"Portr\u00e4t: Clemens G. Arvay (SE4w5)"},

@@ -1316,6 +1316,7 @@ export function paulMccartneyPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-don-mclean", label:"Portrait: Don McLean (SP4w5)"},
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
         {route:"beruehmte-karoline-herfurth", label:"Portrait: Karoline Herfurth (SP4w5)"},
         {route:"beruehmte-clemens-arvay", label:"Portrait: Clemens G. Arvay (SP4w5)"},
@@ -2176,6 +2177,72 @@ export function antonZeilingerPortraitPage() {
         {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
         {route:"beruehmte-eckhard-freise", label:"Portrait: Eckhard Freise (SO5w6)"},
         {route:"beruehmte-dirk-rossmann", label:"Portrait: Dirk Rossmann (SO5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+export function donMcleanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-don-mclean-portrait.jpg" alt="Don McLean" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Don McLean</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">American singer-songwriter, b. 1945 &ndash; "American Pie," "Vincent" &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove Who Wrapped Its Pain in Allegory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don McLean was born in 1945 in New Rochelle, New York. His father died when he was fifteen; severe asthma kept him out of school for long stretches, while his love of music was allowed to flourish early. In 1971 he released "American Pie," one of the most influential songs in American music history – a multilayered allegory for the loss of innocence of the early rock'n'roll generation, triggered by the plane crash that killed Buddy Holly, Ritchie Valens, and the "Big Bopper."</p>
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four – it doesn't put its longing on display, but wraps it in something that communicates quietly rather than shouting. That's exactly what McLean did in 1971 with "Vincent" as well: he wrote the song about Vincent van Gogh while he himself was in the middle of what he later called a "torturing" marital crisis – his own pain flowed, unspoken, into lines about another, misunderstood artist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: Functioning Instead of Performing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> is considered the Four's countertype: it shows the expected dramatic suffering the least openly – it functions, endures, keeps working, while a deep, often never-admitted longing runs underneath. After the worldwide success of "American Pie," McLean says he suffered a nervous breakdown from the sudden, overwhelming attention. Yet his response wasn't public processing, but nearly five decades of consistent silence about what his most famous song actually meant.</p>
+          <p class="vb-intro">"It was too hard in an interview to explain the subtlety of what I was trying to say. So I would say, 'Look, I really don't talk about the lyrics,'" he explained decades later. Only in 2015, when the original manuscript was sold, did he release any of his own songwriting notes at all. That's pure SP4 logic: the pain and its meaning aren't put on display, but held back for as long as possible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Withdrawal Instead of Self-Disclosure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> strengthens the self-preservation Four's tendency to withdraw rather than open up. Even at 80, McLean is described as someone "no longer chasing relevance" with little interest in explaining himself – a life deliberately organized away from the stage: training his own Appaloosa horses on a ranch, owning fifty pairs of custom-made western boots, living in a very particular, self-contained world.</p>
+          <p class="vb-intro">While a self-preservation Four with a stronger Three-wing would use its reserve more pragmatically, to keep working undisturbed, McLean's w5 variant withdraws deeper into its own, private mental world – distance not as a means to an end, but as a living space in itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Actual Achievement: An Allegory That Kept Its Secret for Five Decades</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">"American Pie" was added to the Library of Congress's National Recording Registry in 2016 and ranked fifth on the RIAA/National Endowment for the Arts list of the 365 most significant songs of the 20th century, alongside induction into the Grammy Hall of Fame. As songwriting, the piece is no simple retelling but a densely coded portrait of 1960s society, whose symbolism McLean deliberately left unresolved for decades so as not to destroy its ambiguity.</p>
+          <p class="vb-intro">This refusal to explain was itself a compositional act: where other songwriters spell out their allusions in interviews, McLean let the song live on as an open, collectively interpreted piece of culture. Only with the 2015 auction of the original manuscript did he reveal part of his own reading – tellingly, through an auction house, not an interview.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Four with Five-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4w5 shows in the ability to turn deep personal pain into art that reaches millions without putting one's own vulnerability on public display – "Vincent" and "American Pie" still move people today precisely because they were never fully explained, only hinted at.</p>
+          <p class="vb-intro">The shadow is serious and needs to be named: in 2016, following an incident at his home in Camden, Maine, McLean was charged with domestic violence and pleaded guilty, including to one count of assault; the most serious charges were later dropped as part of a plea deal, and he paid roughly $3,000 in fines. His then-wife Patrisha McLean publicly described him as "deeply controlling" over decades and accused him of ongoing emotional, financial, and physical abuse; she later founded an organization for survivors of domestic violence. Psychologically, this fits the most destructive expression of the SP4w5: the private sphere, otherwise a quiet retreat, can turn into a zone of control when the outwardly functioning facade collapses under the pressure held back inside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Concealment to One's Own, Imperfect Picture</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Four's healing path leads from the conviction <em>I am missing something others have</em> to the insight <em>I am complete, just as I am.</em> For the SP4w5, this means in particular no longer having to hold back one's own pain entirely in order to function – and no longer hiding one's own imperfection behind a flawless, controlled facade.</p>
+          <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-paul-mccartney">Paul McCartney</a> (SP4w5): he too shows the same combination of reserved, functioning outward presence and deeply felt melancholy in his own songs, often voiced only late or indirectly. More in the <a href="javascript:void(0)" data-route="beruehmte-paul-mccartney">portrait of Paul McCartney</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
+        {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SP4w5)"},
+        {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
       ])}
     </div>
   `);
