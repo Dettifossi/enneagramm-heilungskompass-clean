@@ -30,7 +30,7 @@ export function cgJungPortraitPage() {
         <h2 class="vb-section">3. The six-wing: from crown prince to his own system</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>six-wing (w6)</strong> gives the social Five a deep need for reliable structure and a pronounced loyalty-authority dynamic. In Jung this shows especially clearly in his relationship to Sigmund Freud: Jung himself wrote to Freud that he wanted to experience their friendship "not as one between equals, but one between father and son" – Freud, in turn, called him his "crown prince" and designated successor. This leaning on a protective authority is the classic Six's search for security.</p>
-          <p class="vb-intro">The break of 1913, described by historians as a "symbolic patricide," shows the other side of the same pattern: the counterphobic rebellion against exactly the authority once trusted, once it no longer proves reliable. What followed was typically Six: not a loose departure, but the systematic construction of his own, institutionally secured counter-model – with his own training, his own club, his own journal.</p>
+          <p class="vb-intro">The break of 1913, described by historians as a "symbolic patricide," shows the other side of the same pattern: the counterphobic rebellion against exactly the authority once trusted, once it no longer proves reliable. What followed was typical of the six-wing: not a loose departure, but the systematic construction of his own, institutionally secured counter-model – with his own training, his own club, his own journal.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The actual achievement: the word association test and the empirical proof of the unconscious</h2>
