@@ -79427,6 +79427,22 @@ if (localStorage.getItem('kompass-admin-redirect')) {
 })();
 
 render();
+// Der hashchange-Listener oben deckt nur Routenwechsel INNERHALB der laufenden
+// Session ab – beim allerersten Laden einer Seite (Direktlink, Homescreen-Icon,
+// Lesezeichen) feuert kein hashchange-Event. Deshalb hier zusätzlich einmalig
+// für die initiale Route tracken, sonst fehlen exakt die Aufrufe, die am
+// häufigsten vorkommen (jemand öffnet direkt ein bestimmtes Porträt).
+(() => {
+  const raw = location.hash.replace("#", "") || "start";
+  const [initialRoute] = raw.split("|");
+  if (window.__gtag) window.__gtag('event', 'page_view', { page_path: '/#' + initialRoute, page_title: initialRoute });
+  if (location.hostname !== "localhost" && location.hostname !== "127.0.0.1") {
+    fetch("https://kompass-analytics.9rathmer.workers.dev/track", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ route: initialRoute }), keepalive: true,
+    }).catch(() => {});
+  }
+})();
 setTimeout(showTagesimpuls, 600);
 
 // "Der Wegweiser" \u2013 KI-Wissens-Assistent (Prototyp), fragt die Wissensbasis
