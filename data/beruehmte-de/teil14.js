@@ -1,5 +1,71 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function ingmarBergmanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ingmar-bergman-portrait.jpg" alt="Ingmar Bergman" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ingmar Bergman</p>
+        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Schwedischer Regisseur, 1918–2007 – ›Das siebente Siegel‹, ›Persona‹ – Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die ihr eigenes Kindheitsdrama verfilmte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ingmar Bergman wurde 1918 in Uppsala als Sohn eines strengen lutherischen Pfarrers geboren, der später Hofprediger der schwedischen Königsfamilie wurde. Der Vater bestrafte ihn mit Prügelstrafe und sperrte ihn zur Strafe in dunkle Schränke – Bergman beschrieb sich selbst später als Kind, das „in jeder Hinsicht eingesperrt" war, und stotterte über Jahre. Mit 17 schlug er seinen Vater und verließ das Elternhaus; mit den Eltern sprach er danach jahrzehntelang kaum noch. Seine Großmutter führte ihn heimlich, gegen den Willen des Vaters, ins Kino ein.</p>
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sanft, verletzlich, mit einer stillen Zähigkeit, die das eigene Leiden nicht zur Schau stellt, sondern in eine tragfähige Form verwandelt. Bergman tat genau das mit beispielloser Konsequenz: Sein Spätwerk ›Fanny und Alexander‹ (1982) verarbeitet seine eigene Kindheit direkt und explizit, und auch viele seiner mittleren Werke – Schuld, familiäre Entfremdung, die Suche nach einem schweigenden Gott – lassen sich unmittelbar auf sein eigenes Aufwachsen zurückführen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Das eigene Leiden als filmisches Material</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> verarbeitet inneres Leiden nicht durch öffentliche Zurschaustellung, sondern durch stille, oft jahrzehntelange Beharrlichkeit – die Verarbeitung geschieht in der Arbeit selbst. Bergman gab kaum Interviews und sprach nur selten öffentlich über sein Privatleben; stattdessen ließ er, wie er selbst sagte, sein Werk für sich sprechen. Seine Filme – ›Das siebente Siegel‹, ›Wilde Erdbeeren‹, die sogenannte „Trilogie des Schweigens" – kreisen fast durchgehend um Schuld, Sterblichkeit und die eigene, sehr persönliche Verzweiflung an Glauben und Familie, nicht um abstrakte, unpersönliche Themen.</p>
+          <p class="vb-intro">Auch seine Wutausbrüche am Set, von denen Zeitgenossen berichten, erkannte er selbst als Wurzel in der Beziehung zu seinem Vater – eine direkte, unverstellte Weitergabe des eigenen ungelösten Familienkonflikts in die eigene Arbeit hinein, statt einer sauber distanzierten professionellen Fassade.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Rückzug als Bedingung für die Arbeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der selbsterhaltenden Vier eine zusätzliche analytische Distanz – die Fähigkeit, das eigene emotionale Material nicht nur zu durchleben, sondern es diszipliniert zu systematisieren, bevor es nach außen tritt. Bei Bergman zeigt sich das in seinem Rückzug auf die abgelegene Ostseeinsel Fårö, wo er in bewusst gesuchter Einsamkeit arbeitete, fernab von Öffentlichkeit und gesellschaftlichem Betrieb.</p>
+          <p class="vb-intro">Derselbe Fünferflügel zeigt sich in seiner extremen Kontrolle über den eigenen Produktionsprozess und in einem über Jahrzehnte stabilen, sehr kleinen Kreis enger Mitarbeiter – Kameramann Sven Nykvist, die Schauspieler Max von Sydow, Liv Ullmann und Bibi Andersson – statt eines breiten, wechselnden Umfelds. Wissen und Vertrauen wurden bei ihm nicht großzügig verteilt, sondern über Jahre hinweg in wenige, sorgfältig ausgewählte Beziehungen investiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Die Großaufnahme als psychologisches Instrument</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bergmans konkreter filmhistorischer Beitrag liegt in seinem kompromisslosen Einsatz der Großaufnahme des menschlichen Gesichts. Gemeinsam mit den Kameramännern Gunnar Fischer und später Sven Nykvist entwickelte er eine Bildsprache, die das Gesicht – jede kleinste Regung, jedes Zögern – zum eigentlichen Schauplatz des Films machte. In ›Persona‹ (1966) erreichte diese Technik einen Höhepunkt, der die Art, wie Gesichter im Kino gefilmt werden, nachhaltig veränderte.</p>
+          <p class="vb-intro">Diese Innovation war kein bloßer Stilkniff, sondern eine konsequente technische Umsetzung seines eigentlichen Anliegens: Psychologische Wahrheit sollte nicht durch Handlung oder Dialog vermittelt werden, sondern direkt im Gesicht sichtbar gemacht werden. Regisseure wie John Cassavetes, Jean-Luc Godard, Andrei Tarkowski und Sergio Leone griffen diese Technik später auf – ein seltener Fall, in dem eine radikal persönliche künstlerische Obsession zu einer technischen Innovation wurde, die die gesamte internationale Filmsprache veränderte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Vier mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 zeigt sich in Bergmans Fähigkeit, das eigene, oft schmerzhafte Familienerbe in ein Werk von außergewöhnlicher psychologischer Genauigkeit zu verwandeln, das bis heute als eine der bedeutendsten Karrieren der Filmgeschichte gilt. Über mehr als fünfzig Jahre hinweg blieb dabei dieselbe konsequente, unbestechliche Ehrlichkeit gegenüber dem eigenen Innenleben erkennbar.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist <strong>Neid</strong> – das Gefühl, dass anderen etwas Wesentliches gegeben ist, das einem selbst fehlt. Bei Bergman zeigte sich der Schatten in wiederholten Wutausbrüchen am Set und in einer Reihe intensiver, meist zeitlich begrenzter Liebesbeziehungen zu seinen Hauptdarstellerinnen, die oft direkt mit der jeweiligen filmischen Zusammenarbeit verwoben waren – eine Intensität, die für die Beteiligten nicht immer leicht zu tragen war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der verschlossenen Tür zur geöffneten Erinnerung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Überzeugung <em>Mir fehlt etwas Wesentliches, das andere haben</em> zur Erkenntnis <em>Ich bin vollständig, so wie ich bin.</em> Bei Bergman lässt sich diese Bewegung an seinem Spätwerk ablesen: ›Fanny und Alexander‹, sein selbst erklärtes filmisches Vermächtnis, kehrt noch einmal zur eigenen Kindheit zurück – diesmal jedoch nicht als ungelöster Schmerz, sondern mit einer versöhnlicheren, wärmeren erzählerischen Haltung als in seinen früheren, düsteren Werken.</p>
+          <p class="vb-intro">Bemerkenswert ist, dass Bergman in seinen letzten Lebensjahrzehnten auch den Kontakt zu einigen seiner neun Kinder erneuerte, nachdem frühere Beziehungen von genau jener Distanz geprägt waren, die er selbst als Kind von seinem Vater erfahren hatte – eine späte, wenn auch unvollständige Durchbrechung des eigenen Familienmusters.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-virginia-woolf", label:"Porträt: Virginia Woolf (SE4w5)"},
+        {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5)"},
+        {route:"beruehmte-vanessa-goecking", label:"Porträt: Vanessa Göcking (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
+
 export function aliciaKeysPortraitPage() {
   return shell(`
     <div class="page-container">

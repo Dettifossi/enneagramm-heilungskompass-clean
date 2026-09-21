@@ -1,5 +1,71 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function ingmarBergmanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ingmar-bergman-portrait.jpg" alt="Ingmar Bergman" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ingmar Bergman</p>
+        <p class="krim-portrait-typ">SP4w5 · Self-Preservation Type 4 with a Five-Wing</p>
+        <p class="krim-portrait-subtitle">Swedish director, 1918–2007 – "The Seventh Seal," "Persona" – Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The dove who filmed her own childhood drama</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ingmar Bergman was born in 1918 in Uppsala, the son of a strict Lutheran pastor who later became chaplain to the Swedish royal family. His father punished him with caning and locked him in dark closets – Bergman later described himself as a child who was "shut in, in every way," and he stammered for years. At 17 he hit his father and left home; afterward he barely spoke to his parents for decades. His grandmother secretly introduced him to the cinema, against his father's wishes.</p>
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four – gentle, vulnerable, with a quiet tenacity that does not put its own suffering on display but transforms it into a sustainable form. Bergman did exactly that with unmatched consistency: his late work "Fanny and Alexander" (1982) directly and explicitly processes his own childhood, and many of his middle-period works – guilt, family estrangement, the search for a silent God – trace directly back to his own upbringing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Four: one's own suffering as cinematic material</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> processes inner suffering not through public display but through quiet, often decades-long persistence – the processing happens in the work itself. Bergman gave few interviews and rarely spoke publicly about his private life; instead, as he himself put it, he let his work speak for itself. His films – "The Seventh Seal," "Wild Strawberries," the so-called "Silence of God trilogy" – circle almost continuously around guilt, mortality, and his own, very personal despair over faith and family, not abstract, impersonal themes.</p>
+          <p class="vb-intro">Even the angry outbursts on set that contemporaries reported, he himself recognized as rooted in his relationship with his father – a direct, unfiltered transfer of his own unresolved family conflict into his work, rather than a cleanly distanced professional facade.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The five-wing: withdrawal as a condition for the work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>five-wing (w5)</strong> gives the self-preservation Four an added analytical distance – the ability not just to live through its own emotional material but to disciplinedly systematize it before it steps outward. In Bergman this shows in his retreat to the remote Baltic island of Fårö, where he worked in deliberately sought solitude, far from the public and the social machinery of the industry.</p>
+          <p class="vb-intro">The same five-wing shows in his extreme control over his own production process and in a very small, decades-stable circle of close collaborators – cinematographer Sven Nykvist, actors Max von Sydow, Liv Ullmann, and Bibi Andersson – rather than a broad, shifting circle. Knowledge and trust were not generously distributed with him, but invested over years in a few carefully chosen relationships.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual achievement: the close-up as a psychological instrument</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bergman's concrete contribution to film history lies in his uncompromising use of the close-up of the human face. Together with cinematographers Gunnar Fischer and later Sven Nykvist, he developed a visual language that made the face – every smallest movement, every hesitation – the actual setting of the film. In "Persona" (1966) this technique reached a peak that lastingly changed how faces are filmed in cinema.</p>
+          <p class="vb-intro">This innovation was no mere stylistic flourish, but a consistent technical realization of his actual concern: psychological truth was not to be conveyed through plot or dialogue, but made directly visible in the face. Directors such as John Cassavetes, Jean-Luc Godard, Andrei Tarkovsky, and Sergio Leone later took up this technique – a rare case in which a radically personal artistic obsession became a technical innovation that changed the entire international language of film.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the self-preservation Four with a five-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4w5 shows in Bergman's ability to turn his own, often painful family inheritance into a body of work of extraordinary psychological precision that is still considered one of the most significant careers in film history. Across more than fifty years, the same consistent, uncompromising honesty toward his own inner life remained recognizable.</p>
+          <p class="vb-intro">The Four's besetting sin is <strong>envy</strong> – the feeling that others have been given something essential that one lacks oneself. In Bergman the shadow showed in repeated angry outbursts on set and in a series of intense, usually time-limited romantic relationships with his leading actresses, often directly interwoven with the respective film collaboration – an intensity that was not always easy for those involved to bear.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: from the locked door to the opened memory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Four's path to healing leads from the conviction <em>I am missing something essential that others have</em> to the insight <em>I am complete just as I am.</em> In Bergman this movement can be traced in his late work: "Fanny and Alexander," his self-declared cinematic legacy, returns once more to his own childhood – but this time not as unresolved pain, but with a more reconciled, warmer narrative stance than in his earlier, darker works.</p>
+          <p class="vb-intro">It is notable that in his final decades Bergman also renewed contact with some of his nine children, after earlier relationships had been marked by exactly the distance he himself had experienced as a child from his father – a late, if incomplete, break with his own family pattern.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-virginia-woolf", label:"Portrait: Virginia Woolf (SP4w5)"},
+        {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
+        {route:"beruehmte-vanessa-goecking", label:"Portrait: Vanessa Göcking (SP4w5)"},
+      ])}
+    </div>
+  `);
+}
+
 export function aliciaKeysPortraitPage() {
   return shell(`
     <div class="page-container">

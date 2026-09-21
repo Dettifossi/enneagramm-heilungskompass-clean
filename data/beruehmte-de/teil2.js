@@ -61,6 +61,7 @@ export function vanessaGoeckingPortraitPage() {
         {route:"beruehmte-virginia-woolf", label:"Porträt: Virginia Woolf (SE4w5)"},
         {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5)"},
         {route:"beruehmte-knut-hamsun", label:"Porträt: Knut Hamsun (SE4w5)"},
+        {route:"beruehmte-ingmar-bergman", label:"Porträt: Ingmar Bergman (SE4w5)"},
       ])}
     </div>
   `);

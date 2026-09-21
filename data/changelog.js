@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2379", date: "2026-09-22", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Ingmar Bergman (SE4w5) – Regisseur, ›Das siebente Siegel‹, ›Persona‹.", text_en: "New portrait under \"Famous Personalities\": Ingmar Bergman (SP4w5) – director, \"The Seventh Seal,\" \"Persona.\"", route: "beruehmte-ingmar-bergman" },
     { version: "v2378", date: "2026-09-22", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Vanessa Göcking (SE4w5) – Bestsellerautorin, Gründerin des VANI Verlags.", text_en: "New portrait under \"Famous Personalities\": Vanessa Göcking (SP4w5) – bestselling author, founder of VANI Verlag.", route: "beruehmte-vanessa-goecking" },
     { version: "v2377", date: "2026-09-21", text: "Neues Kriminalpsychologie-Porträt: Amelia Dyer (SX8w9) – britische ›Baby-Farmerin‹, bis zu 400 getötete Kinder.", text_en: "New criminal psychology portrait: Amelia Dyer (SX8w9) – British \"baby farmer,\" up to 400 children killed.", route: "kriminalpsychologie-amelia-dyer" },
     { version: "v2376", date: "2026-09-21", text: "Neues Krankheitsporträt: Carl Gustav Jung (SO5w6) – Herzinfarkt 1944 mit ausführlich dokumentierter Nahtoderfahrung.", text_en: "New illness portrait: Carl Gustav Jung (SO5w6) – 1944 heart attack with an extensively documented near-death experience.", route: "krankheitsportraets-cg-jung" },
