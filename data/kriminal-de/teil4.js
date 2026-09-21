@@ -19,13 +19,16 @@ export function ameliaDyerPortraitPage() {
         Krankenschwester und Hebamme, die ab den 1860er-Jahren im viktorianischen England zur
         ›Baby-Farmerin‹ wurde – gegen Bezahlung nahm sie unehelich geborene Kinder mittelloser
         oder gesellschaftlich bedrängter Mütter zur Pflege und angeblichen Adoption auf. Statt
-        die Kinder aufzuziehen, ließ sie die meisten von ihnen systematisch verhungern oder
-        tötete sie direkt, um die Betreuungskosten einzusparen und weitere Zahlungen
-        entgegenzunehmen. Schätzungen gehen von 200 bis 400 toten Kindern über nahezu drei
-        Jahrzehnte aus – vor Gericht wurde ihr nur ein einziger Mord nachgewiesen. Sie wurde am
-        10. Juni 1896 gehängt. Dyers Fall zeigt, wie die sexuelle Acht Kontrolle nicht durch
-        offene Gewalt, sondern durch vollständige, als Fürsorge getarnte Verfügungsgewalt über
-        vollkommen wehrlose Schutzbefohlene ausübt.
+        die Kinder aufzuziehen, ließ sie viele von ihnen zunächst systematisch verhungern,
+        ging später jedoch dazu über, die Säuglinge kurz nach der Übergabe mit einem
+        Kleidungsband zu erdrosseln – sie gestand später, dabei zugesehen zu haben, wie die
+        Kinder mit dem Band um den Hals nach Luft rangen. Die Leichen wickelte sie in
+        Packpapier, beschwerte die Bündel mit Steinen und versenkte sie in der Themse.
+        Schätzungen gehen von 200 bis 400 toten Kindern über nahezu drei Jahrzehnte aus – vor
+        Gericht wurde ihr nur ein einziger Mord nachgewiesen. Sie wurde am 10. Juni 1896
+        gehängt. Dyers Fall zeigt, wie die sexuelle Acht Kontrolle nicht durch offene Gewalt,
+        sondern durch vollständige, als Fürsorge getarnte Verfügungsgewalt über vollkommen
+        wehrlose Schutzbefohlene ausübt.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
@@ -58,10 +61,14 @@ export function ameliaDyerPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
-        <p class="vb-intro"><strong>a) Geschäftsmodell als Machtsystem:</strong>
-        Dyer baute kein Netzwerk aus Beziehungen wie Epstein, sondern ein Geschäftsmodell aus
-        vollständiger, einseitiger Abhängigkeit: Jedes übernommene Kind war vollständig ihrer
-        Entscheidungsgewalt über Leben und Tod ausgeliefert.</p>
+        <p class="vb-intro"><strong>a) Doppelter Besitz – über Geld und über Menschen:</strong>
+        Dyer verlangte je nach Zahlungsfähigkeit der Mutter oder Beteiligung des Vaters
+        zwischen wenigen Pfund und bis zu 80 Pfund – für damalige Verhältnisse ein erhebliches
+        Vermögen. Die Wollust der Acht zeigt sich bei ihr in genau dieser doppelten Form von
+        Besitzgier: materielle Habgier nach dem Honorar und gleichzeitig vollständige
+        Verfügungsgewalt über das Kind selbst, das mit der Übergabe restlos in ihren Besitz
+        überging. Dyer baute kein Netzwerk aus Beziehungen wie Epstein, sondern ein
+        Geschäftsmodell aus vollständiger, einseitiger Abhängigkeit.</p>
         <p class="vb-intro"><strong>b) Rechtslücke als Werkzeug der Einbindung:</strong>
         Das Poor Law Amendment Act von 1834 entband Väter unehelicher Kinder von jeder
         Unterhaltspflicht – eine gesellschaftliche Notlage, die Dyer systematisch ausnutzte.
@@ -78,11 +85,18 @@ export function ameliaDyerPortraitPage() {
         Die sexuelle Acht dominiert nicht durch Distanz, sondern durch die Rolle, die
         vollständige Nähe verlangt. Dyer übernahm formal die Mutterrolle – und dieser Status
         wurde zum uneingeschränkten Verfügungsrecht über das Kind.</p>
-        <p class="vb-intro"><strong>b) Doppelleben als Strategie:</strong>
+        <p class="vb-intro"><strong>b) Gefälschte Beruhigungsbriefe als aktive Täuschung:</strong>
+        Wollte eine Mutter ihr Kind noch einmal sehen oder gar zurückkaufen, behauptete Dyer,
+        es sei bereits an eine neue Familie vermittelt worden, und schickte kurz nach der
+        Übergabe frei erfundene Briefe, die dem Kind angebliches Wohlergehen bescheinigten. Bei
+        ihrer Verhaftung fand die Polizei Stapel solcher Briefe, dazu Pfandscheine für
+        Kinderkleidung und Impfnachweise – der bürokratische Beleg einer über Jahrzehnte
+        durchgehaltenen, aktiven Inszenierung, nicht bloß passiven Verschweigens.</p>
+        <p class="vb-intro"><strong>c) Doppelleben als Strategie:</strong>
         Nach außen: erfahrene, respektable Pflegerin mit fachlicher Ausbildung. Im Verborgenen:
         ein System der systematischen Tötung zur Kostensenkung. Der Neunerflügel ermöglichte
         dieses Doppelleben über nahezu drei Jahrzehnte.</p>
-        <p class="vb-intro"><strong>c) Gefährlichkeit ohne Sichtbarkeit:</strong>
+        <p class="vb-intro"><strong>d) Gefährlichkeit ohne Sichtbarkeit:</strong>
         Dyer war nicht laut, nicht offensichtlich bedrohlich. Sie war die Frau von nebenan, der
         man sein Neugeborenes anvertraute. Das ist die SX8w9 in ihrer gefährlichsten Form: die
         Acht, die man nicht als Acht erkennt, bis das Kind bereits in ihrer Obhut ist.</p>

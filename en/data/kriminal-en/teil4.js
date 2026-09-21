@@ -18,12 +18,15 @@ export function ameliaDyerPortraitPage() {
         <strong>Amelia Dyer</strong>, known as the "Ogress of Reading," was a trained nurse and
         midwife who, from the 1860s onward in Victorian England, became a "baby farmer" –
         taking in illegitimate children of destitute or socially pressured mothers for payment,
-        promising care and adoption. Instead of raising the children, she systematically let
-        most of them starve or killed them directly, to cut care costs and collect further
-        payments. Estimates run from 200 to 400 dead children over nearly three decades – in
-        court, only a single murder was proven against her. She was hanged on June 10, 1896.
-        Dyer's case shows how the sexual Eight exercises control not through open violence but
-        through complete, care-disguised power over the utterly defenseless in her charge.
+        promising care and adoption. Instead of raising the children, she let many of them
+        starve at first, later switching to strangling the infants with dressmaker's tape soon
+        after they were handed over – she later confessed to watching them gasp for air with
+        the tape around their neck. She wrapped the bodies in brown paper, weighted the bundles
+        with stones, and sank them in the Thames. Estimates run from 200 to 400 dead children
+        over nearly three decades – in court, only a single murder was proven against her. She
+        was hanged on June 10, 1896. Dyer's case shows how the sexual Eight exercises control
+        not through open violence but through complete, care-disguised power over the utterly
+        defenseless in her charge.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
@@ -54,10 +57,14 @@ export function ameliaDyerPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General characteristics</h3>
-        <p class="vb-intro"><strong>a) A business model as a power system:</strong>
-        Dyer did not build a network of relationships like Epstein, but a business model built
-        on complete, one-sided dependency: every child taken in was entirely subject to her
-        power over life and death.</p>
+        <p class="vb-intro"><strong>a) A double possession – of money and of people:</strong>
+        Depending on the mother's ability to pay or the father's involvement, Dyer charged
+        anywhere from a few pounds up to £80 – a substantial sum by the standards of the time.
+        The Eight's lust shows in her in exactly this double form of possessiveness: material
+        greed for the fee, combined with total power of disposal over the child itself, which
+        passed entirely into her possession the moment it was handed over. Dyer did not build a
+        network of relationships like Epstein, but a business model built on complete,
+        one-sided dependency.</p>
         <p class="vb-intro"><strong>b) A legal loophole as a tool of entrapment:</strong>
         The Poor Law Amendment Act of 1834 freed fathers of illegitimate children from any
         obligation to support them – a social predicament Dyer systematically exploited. The
@@ -74,11 +81,18 @@ export function ameliaDyerPortraitPage() {
         The sexual Eight dominates not through distance but through the role that demands
         complete closeness. Dyer formally took on the mother's role – and that status became
         unrestricted power of disposal over the child.</p>
-        <p class="vb-intro"><strong>b) A double life as strategy:</strong>
+        <p class="vb-intro"><strong>b) Forged reassurance letters as active deception:</strong>
+        If a mother wanted to see her child again, or even buy it back, Dyer claimed it had
+        already been placed with a new family, and shortly after taking custody she sent
+        entirely invented letters attesting to the child's supposed well-being. When she was
+        arrested, police found stacks of such letters, along with pawn tickets for children's
+        clothing and vaccination certificates – bureaucratic proof of an actively maintained
+        performance sustained for decades, not merely passive concealment.</p>
+        <p class="vb-intro"><strong>c) A double life as strategy:</strong>
         Outwardly: an experienced, respectable caregiver with professional training. In secret:
         a system of systematic killing to cut costs. The nine-wing made this double life
         possible for nearly three decades.</p>
-        <p class="vb-intro"><strong>c) Danger without visibility:</strong>
+        <p class="vb-intro"><strong>d) Danger without visibility:</strong>
         Dyer was not loud, not overtly threatening. She was the woman next door to whom one
         entrusted a newborn. This is the SX8w9 in its most dangerous form: the Eight one does
         not recognize as an Eight until the child is already in her care.</p>
