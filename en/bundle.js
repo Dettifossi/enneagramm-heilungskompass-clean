@@ -55180,6 +55180,20 @@ if (localStorage.getItem('kompass-admin-redirect')) {
 })();
 
 render();
+// Der hashchange-Listener oben deckt nur Routenwechsel INNERHALB der laufenden
+// Session ab – beim allerersten Laden fehlt sonst das Tracking exakt für
+// Direktlinks/Homescreen-Icons/Lesezeichen.
+(() => {
+  const raw = location.hash.replace("#", "") || "start";
+  const [initialRoute] = raw.split("|");
+  if (window.__gtag) window.__gtag('event', 'page_view', { page_path: '/#' + initialRoute, page_title: initialRoute });
+  if (location.hostname !== "localhost" && location.hostname !== "127.0.0.1") {
+    fetch("https://kompass-analytics.9rathmer.workers.dev/track", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ route: "en/" + initialRoute }), keepalive: true,
+    }).catch(() => {});
+  }
+})();
 setTimeout(showTagesimpuls, 600);
 
 // "The Guide" – AI knowledge assistant (prototype), queries the knowledge
