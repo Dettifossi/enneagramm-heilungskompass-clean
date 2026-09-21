@@ -1480,6 +1480,7 @@ export function virginiaWoolfPortraitPage() {
         {route:"beruehmte-sally-rooney", label:"Portrait: Sally Rooney (SP4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-vanessa-goecking", label:"Portrait: Vanessa Göcking (SP4w5)"},
       ])}
     </div>
   `);

@@ -1,5 +1,71 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function vanessaGoeckingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-vanessa-goecking-portrait.jpg" alt="Vanessa Göcking" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Vanessa Göcking</p>
+        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Autorin, Verlegerin, geb. 1993 – Gründerin des VANI Verlags – Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die das eigene Leiden zum Werk machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Vanessa Göcking, geboren 1993, studierte nach dem Schulabschluss International Business Studies an der FH Aachen und der Tennessee Technological University, später International Management in Köln und an der Keio-Universität in Tokio – während des Studiums Stipendiatin der Friedrich-Ebert-Stiftung. Nach mehreren beruflichen Stationen ließ sie sich zum systemischen Coach ausbilden und machte sich selbstständig. Von April 2022 bis Juli 2024 betrieb sie den Podcast ›Glücklichsein‹, in dem sie mit Gästen über Selbstliebe und Lebenszufriedenheit sprach.</p>
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier – sanft, empfindsam, mit einem Gespür für die eigene innere Verwundbarkeit, das sie nicht verbirgt, sondern zum Ausdrucksmittel macht. Göckings erstes Buch ›Du bist das Beste, was dir je passiert ist‹ (2023) verwebt eigene persönliche Erfahrungen mit den Erkenntnissen aus ihrer Coaching-Praxis – ein direkter, unverstellter Blick auf das eigene Innenleben, der 2023 auf Anhieb Platz 5 der Spiegel-Bestsellerliste erreichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Das eigene Leiden als Material</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt ihr Leiden nicht stumm nach innen wie die anderen Vierer-Subtypen, sondern verarbeitet es aktiv – oft in einer konkreten, greifbaren Form, die anderen zugänglich gemacht wird. Bei Göcking zeigt sich das darin, dass sie ihre eigene Geschichte nicht diskret zurückhält, sondern zum zentralen Baustein ihrer Bücher macht: Rezensionen beschreiben ihr Werk wiederholt als ›Mischung aus Sachbuch und Workbook, das sich wie ein Roman liest‹ – eine Form, die persönliche Erzählung und praktische Anleitung untrennbar verbindet.</p>
+          <p class="vb-intro">Der Podcast ›Glücklichsein‹ folgte demselben Muster: Statt abstrakter Ratschläge suchte Göcking das direkte, persönliche Gespräch mit ihren Gästen über Selbstwert und innere Blockaden – ein Format, das Nähe statt Distanz zum Prinzip erhebt, typisch für die SE4, die echte Verbindung über das eigene, offen gezeigte Erleben herstellt statt über eine professionelle Fassade.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Struktur als Schutz vor der Überwältigung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der selbsterhaltenden Vier eine zusätzliche analytische Distanz – die Fähigkeit, das eigene emotionale Erleben nicht nur zu durchleben, sondern es zu systematisieren und in eine vermittelbare Methode zu übersetzen. Bei Göcking zeigt sich das in der klaren Werkzeugstruktur ihrer Bücher: konkrete Übungen, ein mehrstufiges Modell (ihr zweites Buch beschreibt ›7 kraftvolle Stationen‹ zu mehr Selbstliebe), die auf ihrer Ausbildung als systemischer Coach aufbauen.</p>
+          <p class="vb-intro">Auch der Sprung von der Autorin zur Verlegerin passt in dieses Muster: Statt sich auf das eigene Schreiben zu beschränken, baute sie mit dem VANI Verlag eine eigene, klar durchdachte Struktur auf – ein analytischer, systemaufbauender Schritt, der über das rein Persönliche hinausgeht, ohne die emotionale Kernbotschaft der Vier zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Ein Verlag gegen die Logik der Großverlage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Juni 2024 gründete Göcking den VANI Verlag mit dem erklärten Ziel, gezielt weibliche Stimmen zu fördern – bewusst in kleinem Rahmen: höchstens ein bis zwei neue Autorinnen pro Jahr, um jeder von ihnen volle Aufmerksamkeit und individuelle Begleitung zu ermöglichen. Der konkrete Anlass war eine strukturelle Kritik am etablierten Verlagswesen: Autorinnen verdienen bei Großverlagen häufig nur rund einen Euro pro verkauftem Buch. Mit schlanken, digitalen Strukturen und fairer Tantiemen-Gestaltung wollte Göcking diesem Muster etwas entgegensetzen.</p>
+          <p class="vb-intro">Der Erfolg bestätigte das Konzept schnell: Alle drei bislang erschienenen VANI-Titel – sämtlich von Göcking selbst verfasst – erreichten Platz 1 der Spiegel-Bestsellerliste, mit insgesamt über 160.000 verkauften Exemplaren. Das ist keine bloße Marketingleistung, sondern der Nachweis, dass ein bewusst klein und fair gehaltenes Verlagsmodell wirtschaftlich tragfähig sein kann – eine konkrete unternehmerische Innovation, nicht nur ein persönlicher Schreiberfolg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Vier mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 zeigt sich in Göckings Fähigkeit, das eigene, oft schmerzhafte Erleben in etwas zu verwandeln, das anderen konkret weiterhilft – ihre Bücher werden von Leserinnen wiederholt für Authentizität und klaren, gut umsetzbaren Rat gelobt, nicht für bloße Betroffenheitsprosa. Die Gründung des VANI Verlags zeigt zudem, dass aus der eigenen Verwundbarkeit heraus tragfähige, andere schützende Strukturen entstehen können.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist <strong>Neid</strong> – das Gefühl, dass anderen das gegeben ist, was einem selbst fehlt. Bei einer öffentlich sehr sichtbaren SE4w5 wie Göcking zeigt sich die Schattenseite eher in der ständigen Gefahr der Selbstüberforderung: Autorin, Coach, Podcasterin, Verlegerin in wenigen Jahren – ein Tempo, das für die selbsterhaltende Vier auch bedeuten kann, dass die eigene Erschöpfung so lange verdrängt wird, bis das nächste Projekt bereits begonnen hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom eigenen Wert zum geteilten Wert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Überzeugung <em>Mir fehlt etwas Wesentliches, das andere haben</em> zur Erkenntnis <em>Ich bin vollständig, so wie ich bin.</em> Für die SE4w5 bedeutet das, die eigene, mühsam erarbeitete Struktur nicht nur als Schutzschild zu nutzen, sondern als etwas, das tatsächlich getragen werden darf, ohne ständig neu bewiesen werden zu müssen.</p>
+          <p class="vb-intro">Bemerkenswert ist, dass der Titel ihres ersten Buches selbst genau diese Heilungsbewegung vorwegnimmt: ›Du bist das Beste, was dir je passiert ist‹ ist kein Zufallssatz, sondern die Kernaussage des Vierer-Heilungswegs in einem einzigen Satz – die Verschiebung vom Mangelgefühl zur eigenen Vollständigkeit.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-virginia-woolf", label:"Porträt: Virginia Woolf (SE4w5)"},
+        {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5)"},
+        {route:"beruehmte-knut-hamsun", label:"Porträt: Knut Hamsun (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
+
 export function abidaParveenPortraitPage() {
   return shell(`
     <div class="page-container">

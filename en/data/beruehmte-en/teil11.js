@@ -1,5 +1,71 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function vanessaGoeckingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-vanessa-goecking-portrait.jpg" alt="Vanessa Göcking" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Vanessa Göcking</p>
+        <p class="krim-portrait-typ">SP4w5 · Self-Preservation Type 4 with a Five-Wing</p>
+        <p class="krim-portrait-subtitle">Author, publisher, b. 1993 – founder of VANI Verlag – Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The dove who turned her own suffering into work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Vanessa Göcking, born in 1993, studied International Business Studies at FH Aachen and Tennessee Technological University after finishing school, later International Management in Cologne and at Keio University in Tokyo – a scholarship holder of the Friedrich Ebert Foundation during her studies. After several professional stints, she trained as a systemic coach and went self-employed. From April 2022 to July 2024 she ran the podcast "Glücklichsein" ("Being Happy"), in which she talked with guests about self-love and life satisfaction.</p>
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four – gentle, sensitive, with a feel for its own inner vulnerability that it does not hide but turns into a means of expression. Göcking's first book, "Du bist das Beste, was dir je passiert ist" ("You Are the Best Thing That Ever Happened to You," 2023), weaves personal experience together with insights from her coaching practice – a direct, unguarded look at her own inner life that immediately reached number 5 on the Spiegel bestseller list in 2023.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Four: one's own suffering as material</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> does not carry its suffering silently inward like the other Four subtypes but actively processes it – often into a concrete, tangible form made accessible to others. In Göcking this shows in how she does not discreetly withhold her own story but makes it the central building block of her books: reviews repeatedly describe her work as a "mix of nonfiction and workbook that reads like a novel" – a form that inseparably fuses personal narrative and practical guidance.</p>
+          <p class="vb-intro">Her podcast "Glücklichsein" followed the same pattern: rather than offering abstract advice, Göcking sought direct, personal conversation with her guests about self-worth and inner blocks – a format that makes closeness, not distance, its guiding principle, typical of the SP4, which builds real connection through its own openly shown experience rather than a professional facade.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The five-wing: structure as protection against being overwhelmed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>five-wing (w5)</strong> gives the self-preservation Four an added analytical distance – the ability not just to live through its own emotional experience but to systematize it and translate it into a transmissible method. In Göcking this shows in the clear toolkit structure of her books: concrete exercises, a multi-stage model (her second book describes "7 powerful stations" toward greater self-love) built on her training as a systemic coach.</p>
+          <p class="vb-intro">The leap from author to publisher fits the same pattern: rather than limiting herself to her own writing, she built a clearly thought-out structure of her own with VANI Verlag – an analytical, system-building step that goes beyond the purely personal without losing the Four's emotional core message.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual achievement: a publishing house against the logic of the big publishers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In June 2024, Göcking founded VANI Verlag with the declared goal of deliberately promoting female voices – kept deliberately small: at most one or two new authors a year, so each can receive full attention and individual support. The concrete trigger was a structural critique of the established publishing industry: at major publishing houses, authors often earn only about one euro per book sold. With lean, digital structures and fairer royalty arrangements, Göcking set out to counter that pattern.</p>
+          <p class="vb-intro">The success quickly validated the concept: all three VANI titles published so far – all written by Göcking herself – reached number 1 on the Spiegel bestseller list, with more than 160,000 copies sold in total. That is not merely a marketing achievement but proof that a deliberately small, fairly structured publishing model can be economically viable – a concrete entrepreneurial innovation, not just personal writing success.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the self-preservation Four with a five-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4w5 shows in Göcking's ability to turn her own, often painful experience into something that concretely helps others – her books are repeatedly praised by readers for authenticity and clear, actionable advice, not mere confessional prose. Founding VANI Verlag also shows how sustainable, protective structures for others can grow out of one's own vulnerability.</p>
+          <p class="vb-intro">The Four's besetting sin is <strong>envy</strong> – the feeling that others have what one lacks oneself. In a highly public SP4w5 like Göcking, the shadow side shows more in the constant risk of self-overload: author, coach, podcaster, publisher within a few years – a pace that, for the self-preservation Four, can also mean that one's own exhaustion is suppressed until the next project has already begun.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: from one's own worth to shared worth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Four's path to healing leads from the conviction <em>I am missing something essential that others have</em> to the insight <em>I am complete just as I am.</em> For the SP4w5, that means no longer using its own, hard-won structure only as a shield, but as something that may actually be carried without constantly having to be proven anew.</p>
+          <p class="vb-intro">It is striking that the title of her first book itself anticipates exactly this healing movement: "You Are the Best Thing That Ever Happened to You" is no accidental phrase but the Four's core healing message in a single sentence – the shift from a feeling of lack to one's own completeness.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-virginia-woolf", label:"Portrait: Virginia Woolf (SP4w5)"},
+        {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
+        {route:"beruehmte-knut-hamsun", label:"Portrait: Knut Hamsun (SP4w5)"},
+      ])}
+    </div>
+  `);
+}
+
 export function alexanderBommesPortraitPage() {
   return shell(`
     <div class="page-container">
