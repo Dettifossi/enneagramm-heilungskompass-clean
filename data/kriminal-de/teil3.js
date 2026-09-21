@@ -463,7 +463,7 @@ export function annaDelveyPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SE2 \u2013 das Privileg:</strong>
         Claudio Naranjo nannte die SE2 den Subtyp des Privilegs:
         Sie glaubt, durch ihre besondere Art zu geben und zu sein,
@@ -2343,7 +2343,7 @@ export function jonathanMeijerPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SE2 \u2013 das Privileg:</strong>
         Claudio Naranjo bezeichnete die selbsterhaltende Zwei
         als den Subtyp des \u201ePrivilegs": Sie glaubt, auf Grund
@@ -2560,7 +2560,7 @@ export function lukaMagnottaPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) 70\xa0+ Aliasnamen \u2013 das Selbst als reine Konstruktion:</strong>
         <strong>Magnotta</strong> wurde als Eric Clinton Kirk Newman geboren und verwendete im Laufe seines
         Lebens \xfcber siebzig verschiedene Alias-Identit\xe4ten. Das ist kein blo\xdfes Versteckspiel:
@@ -3292,7 +3292,7 @@ export function paulOgorzowPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Erg\u00e4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">9. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) SE1 vs. SO1 \u2013 der entscheidende Unterschied:</strong>
         Der direkte Vergleich mit Pommerenke (SO1w9)
         macht das Profil des <strong>Ogorzow</strong> sch\u00e4rfer:
@@ -3748,7 +3748,7 @@ export function salvatoreRiinaPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SE8 \u2013 territoriale Befriedigung:</strong>
         Claudio Naranjo nannte die selbsterhaltende Acht \u201eBefriedigung":
         Sie ist die Acht, die ihre Leidenschaft \u2013 die \xfcbersteigerte Intensit\xe4t
@@ -4237,7 +4237,7 @@ export function fritzHonkaPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SE5 – „Geiz / Avarice" trifft auf
         Sechser-Angst:</strong>
         Claudio Naranjo beschreibt die selbsterhaltende Fünf als jenen Subtyp,

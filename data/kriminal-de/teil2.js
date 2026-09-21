@@ -151,7 +151,7 @@ export function adolfHitlerPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Der Fl\xfcgel 5 \u2013 das Weltbild-Labor:</strong>
         Der F\xfcnfer-Fl\xfcgel erg\xe4nzt die Vier mit intellektueller Isolation und
         pseudo-theoretischem Weltbild-Konstruieren. <em>Mein Kampf</em> ist ein
@@ -369,7 +369,7 @@ export function andersBreivikPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos sexuelle Sechs \u2013 \u201eBeauty / Strength\u201c:</strong>
         Claudio Naranjo nannte die sexuelle Sechs \u201eBeauty/Strength\u201c: Die sexuelle Sechs
         \xfcberwindet ihre Angst nicht durch Flucht, sondern durch Verwandlung in Kraft.
@@ -1646,7 +1646,7 @@ export function fritzHaarmannPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\u00e4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SX1 \u2013 der Kontratyp:</strong>
         Claudio Naranjo beschrieb die sexuelle Eins
         als den Kontratyp \u2013 den Einser-Subtyp,
@@ -2078,7 +2078,7 @@ export function jeffreyEpsteinPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SX8 \u2013 Besitz durch Verschmelzung:</strong>
         Claudio Naranjo beschrieb die sexuelle Acht als den Subtyp,
         der Macht \xfcber den Bereich des Pers\xf6nlichen und Intimen aus\xfcbt.
@@ -2455,7 +2455,7 @@ export function johnWayneGacyPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SE2 und das Privileg:</strong>
         Naranjo beschreibt die SE2 als den Subtyp,
         der sein Geben als Anspruch versteht.
@@ -2813,7 +2813,7 @@ export function michailPopkowPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\u00e4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SE1 \u2013 \u201eWorry / Angst":</strong>
         Claudio Naranjo beschrieb die selbsterhaltende Eins als den
         Subtyp, der am st\u00e4rksten auf materielle Sicherheit und
@@ -3558,7 +3558,7 @@ export function rujaIgnatovaPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SE3 \u2013 Sicherheit durch Leistungsbild:</strong>
         Claudio Naranjo beschrieb die selbsterhaltende Drei als den Subtyp,
         der Sicherheit durch das Bild von Leistung und Erfolg anstrebt.
@@ -3964,7 +3964,7 @@ export function wolfgangBeltracchiPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SX9 \u2013 \u201eUnion / Verschmelzung":</strong>
         Claudio Naranjo nannte die sexuelle Neun \u201eUnion": Sie sucht vollst\xe4ndige Einheit
         mit dem Geliebten \u2013 ob Mensch, Idee oder k\xfcnstlerische Welt. Beltracchis

@@ -462,7 +462,7 @@ export function arnoFunkePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SE1 \u2013 \u201eAngst / Worry\u201c:</strong>
         Claudio Naranjo nannte die selbsterhaltende Eins \u201eAngst\u201c oder \u201eWorry\u201c:
         Sie ist von allen Einsen die am st\xe4rksten auf materielle Sicherheit
@@ -731,7 +731,7 @@ export function busterMurdaughPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SE2 \u2013 das Privileg als Erbschaft:</strong>
         Die selbsterhaltende Zwei glaubt, durch ihre besondere
         Zugeh\xf6rigkeit und ihre F\xfcrsorge besondere Rechte
@@ -1651,7 +1651,7 @@ export function heinrichPommerenkePortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\u00e4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SO1 \u2013 \u201eDie Unflexible":</strong>
         Claudio Naranjo beschrieb die soziale Eins
         als den Subtyp, der am st\u00e4rksten auf gesellschaftliche Korrektheit
@@ -1886,7 +1886,7 @@ export function jeffreyDahmerPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos sexuelle F\xfcnf \u2013 \u201eConfidence":</strong>
         Claudio Naranjo nannte die sexuelle F\xfcnf \u201eConfidence": Sie sucht vollst\xe4ndige Kenntnis
         und vollst\xe4ndigen Besitz des anderen \u2013 nicht f\xfcrsorgend wie die Zwei, sondern
@@ -3477,7 +3477,7 @@ export function rudolfPleilPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\u00e4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SE2 \u2013 \u201eIch zuerst":</strong>
         Claudio Naranjo bezeichnete die selbsterhaltende Zwei
         als den Subtyp mit dem st\u00e4rksten \u00dcberlebenswillen \u2013
@@ -4235,7 +4235,7 @@ export function wadeWilsonPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\u00e4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) SO3 \u2013 der Verst\u00e4rkungstyp:</strong>
         Claudio Naranjo beschrieb die soziale Drei
         als den Verst\u00e4rkungstyp \u2013 den Subtyp,

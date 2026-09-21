@@ -166,7 +166,7 @@ export function ameliaDyerPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SX8 – Besitz durch Verschmelzung:</strong>
         Claudio Naranjo beschrieb die sexuelle Acht als den Subtyp, der Macht über den Bereich
         des Persönlichen und Intimen ausübt. Bei Dyer war dieser intime Bereich die
@@ -497,7 +497,7 @@ export function alexMurdaughPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\u00e4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SX1 \u2013 \u201eEifersucht / Zeal":</strong>
         Claudio Naranjo nannte den Sexuellen Typ 1
         den Kontratyp der Eins \u2013 den Subtyp,
@@ -779,7 +779,7 @@ export function andreiTschikatiloPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SE1 \u2013 \u201eAngst / Worry\u201c:</strong>
         Claudio Naranjo nannte die selbsterhaltende Eins \u201eAngst" oder \u201eWorry":
         Sie ist die am st\xe4rksten auf materielle Sicherheit und k\xf6rperliches
@@ -1433,7 +1433,7 @@ export function dennisRaderPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\u00e4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SE1 \u2013 \u201eWorry / Angst":</strong>
         Claudio Naranjo bezeichnete die selbsterhaltende Eins als den Subtyp
         der Sorge um materielle Sicherheit und praktische Korrektheit.
@@ -1952,7 +1952,7 @@ export function harveyWeinsteinPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos selbsterhaltende Zwei \u2013 \u201ePrivilege / Me First":</strong>
         Claudio Naranjo beschrieb den Selbsterhaltenden Typ 2 mit dem Begriff <em>Privileg</em>.
         Die selbsterhaltende Zwei f\xfchlt sich aufgrund ihrer Gaben und Leistungen zu Sonderbehandlung berechtigt \u2013
@@ -2369,7 +2369,7 @@ export function joachimKrollPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\u00e4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SE5 \u2013 \u201eGeiz / Avarice":</strong>
         Claudio Naranjo beschrieb die selbsterhaltende F\u00fcnf als den Subtyp,
         der am st\u00e4rksten auf die Sicherung des eigenen \u00dcberlebens
@@ -2868,7 +2868,7 @@ export function josefFritzlPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\u00e4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SX1 \u2013 der Kontratyp:</strong>
         Claudio Naranjo beschrieb die sexuelle Eins
         als den Subtyp, der am wenigsten
@@ -3196,7 +3196,7 @@ export function nielsHoegelPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Naranjos SE7 \u2013 \u201eFamilie / Corviviality":</strong>
         Claudio Naranjo nannte die selbsterhaltende Sieben \u201eFamilie": Sie sucht Sicherheit
         durch warme Zugeh\xf6rigkeit, durch das Gef\xfchl, in ihrem n\xe4heren Lebensumfeld
@@ -3425,7 +3425,7 @@ export function pabloEscobarPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\xe4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) \u201ePlata o Plomo" \u2013 Silber oder Blei:</strong>
         Sein ber\xfchmtes Ultimatum an Beamte und Richter fasst die selbsterhaltende Drei in drei Worten:
         <em>Du nimmst die Bestechung, oder du stirbst.</em>
@@ -4205,7 +4205,7 @@ export function samuelBankmanFriedPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Erg\u00e4nzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) SE3 \u2013 der Kontratyp:</strong>
         Die selbsterhaltende Drei ist der Kontratyp \u2013
         der Einser-Subtyp der Drei, der am wenigsten
@@ -4452,7 +4452,7 @@ export function tomKeatingPortraitPage() {
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Ergänzende Tiefenblicke</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
         <p class="vb-intro"><strong>a) Die „Sexton Blakes":</strong>
         Keating nannte seine Fälschungen in Cockney-Reimslang „Sexton Blakes" (reimt auf „fakes"). Dieser
         selbstironische Spitzname zeigt, wie wenig er sein Tun als schweres Verbrechen empfand – für ihn war
