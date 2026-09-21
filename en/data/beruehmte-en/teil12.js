@@ -2200,7 +2200,8 @@ export function donMcleanPortraitPage() {
         <h2 class="vb-section">1. The Dove Who Wrapped Its Pain in Allegory</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Don McLean was born in 1945 in New Rochelle, New York. His father died when he was fifteen; severe asthma kept him out of school for long stretches, while his love of music was allowed to flourish early. In 1971 he released "American Pie," one of the most influential songs in American music history – a multilayered allegory for the loss of innocence of the early rock'n'roll generation, triggered by the plane crash that killed Buddy Holly, Ritchie Valens, and the "Big Bopper."</p>
-          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four – it doesn't put its longing on display, but wraps it in something that communicates quietly rather than shouting. That's exactly what McLean did in 1971 with "Vincent" as well: he wrote the song about Vincent van Gogh while he himself was in the middle of what he later called a "torturing" marital crisis – his own pain flowed, unspoken, into lines about another, misunderstood artist.</p>
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four – it doesn't put its longing on display, but wraps it in something that communicates quietly rather than shouting. That's exactly what McLean did in 1971 with "Vincent" as well: he wrote the song about <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">Vincent van Gogh</a> (also SP4w5) while he himself was in the middle of what he later called a "torturing" marital crisis – his own pain flowed, unspoken, into lines about another, misunderstood artist.</p>
+          <p class="vb-intro">That McLean chose van Gogh of all people as his projection screen is hardly a coincidence: out of 27 possible subtypes, he landed on another SP4w5 – the same quiet, inward-turned way of handling pain, the same gap between outward functioning and inner despair that almost no one granted van Gogh while he was alive. More in the <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">portrait of Vincent van Gogh</a>.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Four: Functioning Instead of Performing</h2>
@@ -2240,6 +2241,7 @@ export function donMcleanPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5) – the model for \"Vincent,\" same subtype"},
         {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
         {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SP4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},

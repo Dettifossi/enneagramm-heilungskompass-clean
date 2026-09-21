@@ -2184,7 +2184,8 @@ export function donMcleanPortraitPage() {
         <h2 class="vb-section">1. Die Taube, die ihren Schmerz in Allegorien verpackte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Don McLean wurde 1945 in New Rochelle, New York, geboren. Sein Vater starb, als er fünfzehn war; schweres Asthma sorgte für lange Fehlzeiten in der Schule, während sich seine Liebe zur Musik früh entfalten konnte. 1971 veröffentlichte er mit ›American Pie‹ einen der einflussreichsten Songs der amerikanischen Musikgeschichte – eine mehrschichtige Allegorie auf den Verlust der Unschuld der frühen Rock'n'Roll-Generation, ausgelöst durch den Flugzeugabsturz, der Buddy Holly, Ritchie Valens und den ›Big Bopper‹ das Leben kostete.</p>
-          <p class="vb-intro">Die <strong>Haustaube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihre Sehnsucht nicht zur Schau, sondern verpackt sie in etwas, das sich leise mitteilt, statt zu schreien. Genau das tat McLean 1971 auch mit ›Vincent‹: Er schrieb den Song über Vincent van Gogh, während er selbst mitten in einer, wie er es später nannte, „quälenden" Ehekrise steckte – seine eigene Not floss unausgesprochen in die Zeilen über einen anderen, missverstandenen Künstler.</p>
+          <p class="vb-intro">Die <strong>Haustaube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihre Sehnsucht nicht zur Schau, sondern verpackt sie in etwas, das sich leise mitteilt, statt zu schreien. Genau das tat McLean 1971 auch mit ›Vincent‹: Er schrieb den Song über <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">Vincent van Gogh</a> (ebenfalls SE4w5), während er selbst mitten in einer, wie er es später nannte, „quälenden" Ehekrise steckte – seine eigene Not floss unausgesprochen in die Zeilen über einen anderen, missverstandenen Künstler.</p>
+          <p class="vb-intro">Dass McLean sich ausgerechnet van Gogh als Projektionsfläche wählte, ist dabei kaum Zufall: Unter 27 möglichen Subtypen traf er auf einen anderen SE4w5 – denselben stillen, nach innen gerichteten Umgang mit Schmerz, dieselbe Kluft zwischen äußerem Funktionieren und innerer Verzweiflung, die van Gogh zu Lebzeiten fast niemand zugestand. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">Porträt zu Vincent van Gogh</a>.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Vier: Funktionieren statt Vorführen</h2>
@@ -2224,6 +2225,7 @@ export function donMcleanPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se4", label:"SE4 – Die Haustaube: Subtyp-Profil"},
+        {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5) – Vorbild für ›Vincent‹, gleicher Subtyp"},
         {route:"beruehmte-paul-mccartney", label:"Porträt: Paul McCartney (SE4w5)"},
         {route:"beruehmte-sam-altman", label:"Porträt: Sam Altman (SE4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
