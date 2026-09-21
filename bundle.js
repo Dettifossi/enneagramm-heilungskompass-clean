@@ -75925,6 +75925,21 @@ function _stilleInit() {
     const master = ctx.createGain();
     master.gain.setValueAtTime(0.18, ctx.currentTime);
     master.connect(ctx.destination);
+    // iOS: reine Web-Audio-Oszillatoren werden vom Stumm-Schalter des iPhones
+    // unterdrückt (Ambient-Kategorie), normale <audio>-Elemente nicht. Deshalb
+    // den Klang zusätzlich über ein <audio>-Element ausgeben, das denselben
+    // Stream über MediaStreamDestination bekommt — dann bleibt der Ton auch
+    // bei aktiviertem Stumm-Schalter hörbar, wie bei den anderen Klängen.
+    let iosAudioEl = null;
+    try {
+      if (ctx.createMediaStreamDestination) {
+        const msDest = ctx.createMediaStreamDestination();
+        master.connect(msDest);
+        iosAudioEl = new Audio();
+        iosAudioEl.srcObject = msDest.stream;
+        iosAudioEl.play().catch(() => {});
+      }
+    } catch(e) {}
     const nodes = [];
     let stopped = false;
 
@@ -77081,6 +77096,7 @@ function _stilleInit() {
       stopped = true;
       nodes.forEach(n => { try { n.disconnect(); if(n.stop) n.stop(); } catch(e){} });
       try { master.disconnect(); } catch(e) {}
+      if (iosAudioEl) { try { iosAudioEl.pause(); iosAudioEl.srcObject = null; } catch(e) {} }
     };
   }
 

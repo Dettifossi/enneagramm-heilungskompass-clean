@@ -51540,6 +51540,20 @@ function _stilleInit() {
     const master = ctx.createGain();
     master.gain.setValueAtTime(0.18, ctx.currentTime);
     master.connect(ctx.destination);
+    // iOS: raw Web Audio oscillators are silenced by the iPhone's mute switch
+    // (ambient category), regular <audio> elements are not. So also route the
+    // sound through an <audio> element fed by MediaStreamDestination, so it
+    // stays audible even with the mute switch on, like the other sounds.
+    let iosAudioEl = null;
+    try {
+      if (ctx.createMediaStreamDestination) {
+        const msDest = ctx.createMediaStreamDestination();
+        master.connect(msDest);
+        iosAudioEl = new Audio();
+        iosAudioEl.srcObject = msDest.stream;
+        iosAudioEl.play().catch(() => {});
+      }
+    } catch(e) {}
     const nodes = [];
     let stopped = false;
 
@@ -52696,6 +52710,7 @@ function _stilleInit() {
       stopped = true;
       nodes.forEach(n => { try { n.disconnect(); if(n.stop) n.stop(); } catch(e){} });
       try { master.disconnect(); } catch(e) {}
+      if (iosAudioEl) { try { iosAudioEl.pause(); iosAudioEl.srcObject = null; } catch(e) {} }
     };
   }
 
