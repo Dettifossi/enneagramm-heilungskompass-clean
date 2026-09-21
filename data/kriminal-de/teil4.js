@@ -11,13 +11,13 @@ export function ameliaDyerPortraitPage() {
         </div>
         <p class="krim-portrait-name">Amelia Dyer</p>
         <p class="krim-portrait-typ">SX8w9 · Sexueller Typ 8 mit Neunerflügel</p>
-        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Britische ›Baby Farmer‹, 1837–1896 · Tierentsprechung: Krokodil</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">Britische ›Baby-Farmerin‹, 1837–1896 · Tierentsprechung: Krokodil</p>
       </div>
 
       <p class="psycho-intro">
         <strong>Amelia Dyer</strong>, als ›Ogress of Reading‹ bekannt, war eine ausgebildete
         Krankenschwester und Hebamme, die ab den 1860er-Jahren im viktorianischen England zur
-        ›Baby Farmer‹ wurde – gegen Bezahlung nahm sie unehelich geborene Kinder mittelloser
+        ›Baby-Farmerin‹ wurde – gegen Bezahlung nahm sie unehelich geborene Kinder mittelloser
         oder gesellschaftlich bedrängter Mütter zur Pflege und angeblichen Adoption auf. Statt
         die Kinder aufzuziehen, ließ sie die meisten von ihnen systematisch verhungern oder
         tötete sie direkt, um die Betreuungskosten einzusparen und weitere Zahlungen
