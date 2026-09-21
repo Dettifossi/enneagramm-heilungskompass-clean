@@ -2187,3 +2187,69 @@ export function bennySafdiePortraitPage() {
     </div>
   `);
 }
+
+export function knutHamsunPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-knut-hamsun-portrait.jpg" alt="Knut Hamsun" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Knut Hamsun</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Norwegian writer, 1859&ndash;1952 &ndash; Nobel Prize in Literature 1920 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove Who Built a Farm Out of the Wilderness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Knut Hamsun was born in 1859, the son of a poor tailor, in Lom, and grew up partly in the household of a strict uncle who put him to work. He worked as a shop apprentice, peddler, cobbler's apprentice, itinerant teacher, traveled to America twice, and got by there as a farmhand, streetcar conductor, and fisherman before achieving his literary breakthrough in 1890 with the novel "Hunger." In 1920 he received the Nobel Prize in Literature for "Growth of the Soil."</p>
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four – it doesn't put its longing on display, but wraps it in quiet, persistent labor. That's exactly what Hamsun did after his literary fame: instead of remaining in literary society, he bought the remote farm Nørholm near Grimstad in 1918, where he lived and worked until his death in 1952 – a deliberate withdrawal from social life into a self-chosen, self-built solitude.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: Enduring Suffering Instead of Displaying It</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> is considered the Four's countertype: it shows the expected dramatic suffering the least openly – it functions, endures, keeps working, while a deep longing runs underneath that is never voiced. In "Hunger," the nameless protagonist repeatedly refuses help even though he is literally starving – the pride of carrying his own suffering alone, rather than making it visible or asking for pity, runs through the entire novel.</p>
+          <p class="vb-intro">His literary alter ego Isak in "Growth of the Soil" embodies the same logic in its purest form: a taciturn farmer who, in complete solitude, wrests a fertile piece of land from the wilderness with his own hands, tenaciously and without complaint. No performance, no audience, no outside recognition – only the quiet, years-long labor itself as the sole proof of his own existence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Retreat Into a Closed Worldview</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> strengthens the self-preservation Four's tendency toward withdrawal and the intellectual systematization of its own pain. Hamsun developed a consistent, rigid worldview: he considered the democratization of politics and society incompatible with cultural greatness, and instead advocated an aristocratic-agrarian ideal of returning to nature, far from the industrialized masses.</p>
+          <p class="vb-intro">His marriage to Marie Hamsun, who herself openly admitted that living together could be difficult, and his life on remote Nørholm show the same w5 tendency: intellectual and geographic distance from society, a strictly inward-facing system of convictions that admitted little contradiction from outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Actual Achievement: The Father of the Interior Monologue</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes Hamsun in literary history is not mere mood-painting, but a genuine narrative innovation: in "Hunger" (1890), he developed an early form of stream of consciousness and interior monologue – flashbacks, associative time jumps, interruptions of the plot through the protagonist's flights of fancy. This was highly unusual for its time and gave the novel a psychological immediacy that had scarcely existed before.</p>
+          <p class="vb-intro">This technique demonstrably paved the way for James Joyce's later stream-of-consciousness style and influenced Thomas Mann, Franz Kafka, Maxim Gorky, Stefan Zweig, Hermann Hesse, and Ernest Hemingway. Isaac Bashevis Singer called Hamsun "the father of the modern school of literature in his every aspect – his subjectivity, his fragmentariness, his use of flashbacks, his lyricism."</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Four with Five-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4w5 shows in turning radical personal isolation into a literary technique that fundamentally shaped 20th-century world literature – pain that wasn't displayed, but transformed into an entirely new form of introspection.</p>
+          <p class="vb-intro">The shadow is grave and must be named: Hamsun became an active supporter of National Socialism. As late as 1945, he wrote an uncritical obituary for Hitler, honoring the dead dictator as a "reforming personality." In 1945, he, his wife Marie, and three of their four children were placed under house arrest for their support of the occupying power; Marie was sentenced in 1947 to three years of hard labor, and Hamsun himself was acquitted in 1948 of the charge of Nazi party membership but ordered to pay damages that financially ruined him. The rigid, self-contained worldview that the Five-wing favored tipped here from literary civilization critique into a political blindness he never revised, even at the very end – the same uncompromising quality that carried his art became, here, a moral catastrophe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Quiet Endurance to Acknowledging Need</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Four's healing path leads from the conviction <em>I am missing something others have</em> to the insight <em>I am complete, just as I am.</em> For the SP4w5, this means in particular no longer having to hide one's own need for closeness and recognition behind work and withdrawal.</p>
+          <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">Vincent van Gogh</a> (SP4w5): he too shows the same stoic tenacity, translating his own distress into quiet, persistent labor rather than visible suffering – in van Gogh's case in painting, in Hamsun's case in prose. More in the <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">portrait of Vincent van Gogh</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
+        {route:"beruehmte-don-mclean", label:"Portrait: Don McLean (SP4w5)"},
+        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
+      ])}
+    </div>
+  `);
+}

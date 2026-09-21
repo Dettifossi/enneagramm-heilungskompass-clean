@@ -1495,6 +1495,7 @@ export function vincentVanGoghPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-don-mclean", label:"Portrait: Don McLean (SP4w5) – dedicated the song \"Vincent\" to him, same subtype"},
+        {route:"beruehmte-knut-hamsun", label:"Portrait: Knut Hamsun (SP4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SP4w5)"},

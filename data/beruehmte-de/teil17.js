@@ -1495,6 +1495,7 @@ export function vincentVanGoghPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-don-mclean", label:"Porträt: Don McLean (SE4w5) – widmete ihm den Song ›Vincent‹, gleicher Subtyp"},
+        {route:"beruehmte-knut-hamsun", label:"Porträt: Knut Hamsun (SE4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-sam-altman", label:"Porträt: Sam Altman (SE4w5)"},

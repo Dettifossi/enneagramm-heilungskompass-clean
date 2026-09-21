@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2371", date: "2026-09-21", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Knut Hamsun (SE4w5) – Schriftsteller, Literaturnobelpreis 1920.", text_en: "New portrait under \"Famous Personalities\": Knut Hamsun (SE4w5) – writer, Nobel Prize in Literature 1920.", route: "beruehmte-knut-hamsun" },
     { version: "v2370", date: "2026-09-21", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Gunther von Hagens (SX1w9) – Anatom, Erfinder der Plastination, »Körperwelten«.", text_en: "New portrait under \"Famous Personalities\": Gunther von Hagens (SX1w9) – anatomist, inventor of plastination, \"Body Worlds\".", route: "beruehmte-gunther-von-hagens" },
     { version: "v2369", date: "2026-09-21", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Vincenzo Califano (SE3w2) – spiritueller Lehrer, Advaita/Direkter Weg.", text_en: "New portrait under \"Famous Personalities\": Vincenzo Califano (SE3w2) – spiritual teacher, Advaita/Direct Path.", route: "beruehmte-vincenzo-califano" },
     { version: "v2368", date: "2026-09-21", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Don McLean (SE4w5) – Liedermacher, »American Pie«, »Vincent«.", text_en: "New portrait under \"Famous Personalities\": Don McLean (SE4w5) – singer-songwriter, \"American Pie,\" \"Vincent\".", route: "beruehmte-don-mclean" },

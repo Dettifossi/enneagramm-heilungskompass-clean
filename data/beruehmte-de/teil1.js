@@ -2197,3 +2197,69 @@ export function gunterGabrielPortraitPage() {
     </div>
   `);
 }
+
+export function knutHamsunPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-knut-hamsun-portrait.jpg" alt="Knut Hamsun" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Knut Hamsun</p>
+        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Norwegischer Schriftsteller, 1859–1952 – Literaturnobelpreis 1920 – Tierentsprechung: Haustaube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die sich einen Hof aus dem Ödland baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Knut Hamsun wurde 1859 als Sohn eines armen Schneiders in Lom geboren und wuchs teils im Haus eines strengen Onkels auf, der ihn zur Arbeit anhielt. Er arbeitete als Krämerlehrling, Hausierer, Schusterlehrling, Wanderlehrer, reiste zweimal nach Amerika und schlug sich dort als Landarbeiter, Straßenbahnschaffner und Fischer durch, bevor er 1890 mit dem Roman ›Hunger‹ seinen literarischen Durchbruch erzielte. 1920 erhielt er den Literaturnobelpreis für ›Segen der Erde‹.</p>
+          <p class="vb-intro">Die <strong>Haustaube</strong> ist das Tier der selbsterhaltenden Vier – sie trägt ihre Sehnsucht nicht zur Schau, sondern verpackt sie in stille, beharrliche Arbeit. Genau das tat Hamsun nach seinem literarischen Ruhm: Statt im Literaturbetrieb zu bleiben, kaufte er 1918 den abgelegenen Hof Nørholm bei Grimstad, wo er bis zu seinem Tod 1952 lebte und arbeitete – ein bewusster Rückzug vom gesellschaftlichen Leben in die selbstgewählte, selbstgebaute Einsamkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Leiden ertragen statt ausstellen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> gilt als Kontratyp der Vier: Sie zeigt das erwartete dramatische Leiden am wenigsten offen – sie funktioniert, hält durch, arbeitet weiter, während innerlich eine tiefe Sehnsucht mitläuft, die nie ausgesprochen wird. In ›Hunger‹ verweigert der namenlose Protagonist wiederholt Hilfe, obwohl er buchstäblich am Verhungern ist – der Stolz, das eigene Leid allein zu tragen, statt es sichtbar zu machen oder Mitleid zu erbitten, prägt den gesamten Roman.</p>
+          <p class="vb-intro">Sein literarisches Alter Ego Isak aus ›Segen der Erde‹ verkörpert dieselbe Logik in reinster Form: ein wortkarger Bauer, der in völliger Einsamkeit dem Ödland eigenhändig, zäh und ohne Klage ein fruchtbares Stück Land abringt. Kein Auftritt, keine Zuschauer, keine Anerkennung von außen – nur die stille, jahrelange Arbeit selbst als einziger Beweis der eigenen Existenz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Rückzug ins geschlossene Weltbild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> verstärkt bei der selbsterhaltenden Vier die Neigung zum Rückzug und zur intellektuellen Systematisierung des eigenen Schmerzes. Hamsun entwickelte ein durchgängiges, rigides Weltbild: Er hielt die Demokratisierung von Politik und Gesellschaft für unvereinbar mit kultureller Größe und vertrat stattdessen ein aristokratisch-bäuerliches Ideal der Rückkehr zur Natur, fernab der industrialisierten Masse.</p>
+          <p class="vb-intro">Auch seine Ehe mit Marie Hamsun, die selbst offen einräumte, dass das Zusammenleben schwierig sein konnte, und sein Leben auf dem entlegenen Nørholm zeigen dieselbe w5-Tendenz: intellektuelle und geografische Distanz zur Gesellschaft, ein streng nach innen gerichtetes System aus Überzeugungen, das kaum Widerspruch von außen zuließ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: der Vater des inneren Monologs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Hamsun literaturgeschichtlich auszeichnet, ist keine bloße Stimmungsmalerei, sondern eine echte erzähltechnische Innovation: In ›Hunger‹ (1890) entwickelte er eine frühe Form des Stream of Consciousness und des inneren Monologs – Rückblenden, assoziative Zeitsprünge, Unterbrechungen der Handlung durch Fantasievorstellungen des Protagonisten. Das war für seine Zeit hochgradig ungewöhnlich und verlieh dem Roman eine psychologische Unmittelbarkeit, die es zuvor kaum gab.</p>
+          <p class="vb-intro">Diese Technik ebnete nachweislich den Weg für James Joyces späteren Stream-of-Consciousness-Stil und beeinflusste Thomas Mann, Franz Kafka, Maxim Gorki, Stefan Zweig, Hermann Hesse und Ernest Hemingway. Isaac Bashevis Singer bezeichnete Hamsun als „den Vater der modernen Schule der Literatur in jedem Aspekt – ihrer Subjektivität, ihrer Fragmentarität, ihrer Verwendung von Rückblenden, ihres Lyrismus".</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Vier mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w5 zeigt sich darin, aus radikaler persönlicher Isolation eine literarische Technik zu entwickeln, die die Weltliteratur des 20. Jahrhunderts grundlegend prägte – Schmerz, der nicht ausgestellt, sondern in eine völlig neue Form der Introspektion verwandelt wurde.</p>
+          <p class="vb-intro">Der Schatten ist gravierend und muss benannt werden: Hamsun wurde ein aktiver Unterstützer des Nationalsozialismus. Noch 1945 schrieb er einen distanzlosen Nachruf auf Hitler, in dem er den toten Diktator als „reformatorische Persönlichkeit" würdigte. 1945 wurden er, seine Frau Marie und drei ihrer vier Kinder wegen ihrer Unterstützung der Besatzungsmacht unter Hausarrest gestellt; Marie wurde 1947 zu drei Jahren Zwangsarbeit verurteilt, Hamsun selbst 1948 vom Vorwurf der NS-Mitgliedschaft freigesprochen, jedoch zu einer Schadensersatzzahlung verurteilt, die ihn wirtschaftlich ruinierte. Die rigide, in sich geschlossene Weltanschauung, die der Fünferflügel begünstigte, kippte hier von literarischer Zivilisationskritik in eine politische Verblendung, die er bis zuletzt nicht revidierte – dieselbe Kompromisslosigkeit, die seine Kunst trug, wurde hier zur moralischen Katastrophe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom stillen Ertragen zur Anerkennung des Bedürfnisses</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Überzeugung <em>Mir fehlt etwas, das andere haben</em> zur Erkenntnis <em>Ich bin, wie ich bin, vollständig.</em> Für die SE4w5 bedeutet das insbesondere, das eigene Bedürfnis nach Nähe und Anerkennung nicht länger hinter Arbeit und Rückzug verbergen zu müssen.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">Vincent van Gogh</a> (SE4w5): Auch bei ihm zeigt sich dieselbe stoische Zähigkeit, die eigene Not in stille, beharrliche Arbeit statt in sichtbares Leiden zu übersetzen – bei van Gogh in der Malerei, bei Hamsun in der Prosa. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-vincent-van-gogh">Porträt zu Vincent van Gogh</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Haustaube: Subtyp-Profil"},
+        {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5)"},
+        {route:"beruehmte-don-mclean", label:"Porträt: Don McLean (SE4w5)"},
+        {route:"beruehmte-paul-mccartney", label:"Porträt: Paul McCartney (SE4w5)"},
+      ])}
+    </div>
+  `);
+}
