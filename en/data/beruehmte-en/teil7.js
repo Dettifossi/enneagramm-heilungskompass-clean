@@ -2186,3 +2186,69 @@ export function joshSafdiePortraitPage() {
     </div>
   `);
 }
+
+export function guntherVonHagensPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gunther-von-hagens-portrait.jpg" alt="Gunther von Hagens" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gunther von Hagens</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with Nine-Wing &middot; Countertype of One</p>
+        <p class="krim-portrait-subtitle">Anatomist, inventor of plastination, 1945&ndash;2026 &ndash; "Body Worlds," "Dr. Death" &ndash; Animal correspondence: Black Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Black Mamba Under the Hat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gunther von Hagens was born in 1945 as Gunther Liebchen near Posen. In 1977, while working at the University of Heidelberg, he invented plastination – a process that replaces bodily fluids and fats in biological tissue with reactive polymers, permanently preserving specimens odorlessly and without loss of shape. In 1993 he founded the Institute for Plastination in Heidelberg, and in 2006 the Plastinarium in Guben. His touring exhibition "Body Worlds," first shown in Tokyo in 1995, drew more than 58 million visitors worldwide by the time of his death in 2026.</p>
+          <p class="vb-intro">The <strong>black mamba</strong> is the animal of the sexual One – fast, precise, uncompromising once it has committed to something. Von Hagens's trademark was his hat, which, by his own account and his wife Angelina Whalley's, he never took off – a deliberate symbol of being different, modeled on the hat-wearing anatomists of the Renaissance and evoking Joseph Beuys. Not a random accessory, but a daily, publicly visible declaration of war against convention.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual One: Zeal Against the Taboo of Death</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual One (SX1)</strong> is the One's countertype – the subtype that looks least like controlled adherence to principle, yet lives it most intensely. Naranjo called this subtype <em>Zeal</em>: a burning urge to stand up for one's own truth, less filtered than in the other One subtypes. Von Hagens lived this in its purest form: "Controversies are a sign that my work touches people, makes them think, and sparks discussions – that was my goal from the beginning," he said of the resistance his work provoked.</p>
+          <p class="vb-intro">In November 2002 he performed Britain's first public autopsy in 170 years before 500 spectators and a television crew in London – despite an explicit threat of prosecution and police action from the government's anatomy overseer, Jeremy Metters. Von Hagens went ahead with the autopsy anyway. That's SX1 zeal in its purest form: one's own conviction isn't up for negotiation, even when the law and the police explicitly threaten otherwise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Decades of Building Instead of a Single Provocation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the sexual One a peculiar breadth and stamina: instead of exhausting itself in a single spectacular act, the zeal widens into decades of systematic institution-building. Von Hagens didn't stop at the one spectacular London autopsy – over nearly fifty years he built an institute, his own plastination plant in Guben, a global body-donation program with over 16,000 registered donors at the end, and an exhibition that toured the world continuously.</p>
+          <p class="vb-intro">His public handling of his own Parkinson's disease shows the same w9 breadth: instead of withdrawing, he publicly announced the diagnosis and kept working as long as he could – persistence across decades rather than a single loud gesture.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Actual Achievement: A Chemical Invention That Democratized Anatomy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes von Hagens professionally is not mere showmanship, but a genuine technical-chemical invention: plastination replaces water and fat in tissue, through a multi-stage vacuum process, with reactive silicones, epoxy resins, or polyesters that then harden. The result is odorless, indefinitely durable anatomical specimens – an innovation that changed medical education worldwide long before the first "Body Worlds" visitors ever heard of it.</p>
+          <p class="vb-intro">The real achievement lies in bringing this specialist technique out of the lecture hall and into the public exhibition space: 58 million people thereby saw real human anatomy they would otherwise never have laid eyes on – a democratization of anatomical knowledge on a scale no anatomist had ever achieved before.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual One with Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX1w9 shows in deliberately breaking a social taboo – the direct sight of the dead body – to make scientific education accessible to millions who would otherwise never have had access to it.</p>
+          <p class="vb-intro">The One's fatal flaw is <strong>anger</strong> – least filtered in the sexual One. In 2004, von Hagens had to return seven corpses to China after evidence mounted that they might have been executed prisoners; he firmly rejected broader accusations of unclear body origins, pointing to over 13,000 registered body donors, mostly from Germany and the US. The major churches spoke of undignified treatment of the deceased, and the cities of Augsburg and Cologne banned him from depicting sexual scenes with corpses. Von Hagens responded to all of this not with withdrawal or self-doubt, but with unyielding defense of his own position – the characteristic SX1 refusal to compromise, which barely treats even legitimate ethical concerns as reason for a course correction.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: One's Own Body as the Final Consequence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One's healing path leads from the conviction <em>Only what is absolutely correct counts</em> to the insight <em>I am allowed to be imperfect and still good.</em> In von Hagens, this path takes a particular turn: he publicly announced his own terminal illness and openly planned to have his own body plastinated and exhibited after his death – the final, radically consistent union of teaching and his own life.</p>
+          <p class="vb-intro">According to his wife Angelina Whalley, he wanted to enable people "to look under the skin – not for sensationalism, but from the deep conviction that knowledge about one's own body can contribute to a more conscious, healthier, and more responsible life." A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-michel-foucault">Michel Foucault</a> (SX1w9): he too shows the same uncompromising zeal in defending his own truth against established institutions – in Foucault's case in the archive, in von Hagens's case in the dissection hall. More in the <a href="javascript:void(0)" data-route="beruehmte-michel-foucault">portrait of Michel Foucault</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+        {route:"beruehmte-michel-foucault", label:"Portrait: Michel Foucault (SX1w9)"},
+        {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+      ])}
+    </div>
+  `);
+}

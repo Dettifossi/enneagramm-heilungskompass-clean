@@ -2185,3 +2185,69 @@ export function enricoCarusoPortraitPage() {
     </div>
   `);
 }
+
+export function guntherVonHagensPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gunther-von-hagens-portrait.jpg" alt="Gunther von Hagens" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gunther von Hagens</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexueller Typ 1 mit Neunerflügel · Kontratyp der Eins</p>
+        <p class="krim-portrait-subtitle">Anatom, Erfinder der Plastination, 1945–2026 – ›Körperwelten‹, ›Dr. Tod‹ – Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba unter dem Hut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gunther von Hagens wurde 1945 als Gunther Liebchen bei Posen geboren. 1977 erfand er während seiner Arbeit an der Universität Heidelberg die Plastination – ein Verfahren, das Körperflüssigkeiten und Fette in biologischem Gewebe durch reaktionsfähige Kunststoffe ersetzt und Präparate dadurch dauerhaft, geruchlos und formstabil konserviert. 1993 gründete er das Institut für Plastination in Heidelberg, 2006 das Plastinarium in Guben. Seine Wanderausstellung ›Körperwelten‹, erstmals 1995 in Tokio gezeigt, zog bis zu seinem Tod 2026 mehr als 58 Millionen Besucher weltweit an.</p>
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins – schnell, präzise, kompromisslos, wenn sie sich für eine Sache entschieden hat. Von Hagens' Markenzeichen war sein Hut, den er nach eigener und seiner Frau Angelina Whalleys Aussage nie ablegte – ein bewusstes Symbol des Andersseins, angelehnt an die hutverzierten Anatomen der Renaissance und erinnernd an Joseph Beuys. Kein Zufallsaccessoire, sondern eine tägliche, öffentlich sichtbare Kampfansage an die Konvention.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Inbrunst gegen das Todestabu</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> ist der Kontratyp der Eins – der Subtyp, der am wenigsten nach kontrollierter Prinzipientreue aussieht, sie aber am intensivsten auslebt. Naranjo nannte diesen Subtyp <em>Zeal</em> – Inbrunst: ein brennendes Verlangen, für die eigene Wahrheit einzustehen, ungefilterter als bei den anderen Einser-Subtypen. Von Hagens lebte das in Reinform: „Kontroversen sind ein Zeichen, dass meine Arbeit Menschen berührt, zum Nachdenken bringt und Diskussionen auslöst – das war von Anfang an mein Ziel", sagte er selbst über den Widerstand, den seine Arbeit hervorrief.</p>
+          <p class="vb-intro">Im November 2002 führte er in London vor 500 Zuschauern und einem Fernsehteam die erste öffentliche Autopsie Großbritanniens seit 170 Jahren durch – trotz expliziter Drohung des staatlichen Anatomie-Aufsehers Jeremy Metters mit Strafverfolgung und Polizeieinsatz. Von Hagens führte die Autopsie trotzdem durch. Das ist SX1-Inbrunst in Reinform: die eigene Überzeugung wird nicht verhandelt, auch wenn Justiz und Polizei ausdrücklich drohen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Jahrzehntelanger Aufbau statt einmaliger Provokation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der sexuellen Eins eine eigentümliche Weite und Ausdauer: Statt sich an einer einzelnen spektakulären Aktion zu erschöpfen, weitet sich die Inbrunst zu einem jahrzehntelangen, systematischen Institutionenaufbau aus. Von Hagens beließ es nicht bei der einen spektakulären Londoner Autopsie – er baute über fast fünfzig Jahre ein Institut, ein eigenes Plastinations-Werk in Guben, ein globales Körperspende-Programm mit zuletzt über 16.000 registrierten Spendern und eine Ausstellung auf, die kontinuierlich um die Welt tourte.</p>
+          <p class="vb-intro">Auch sein öffentlicher Umgang mit der eigenen Parkinson-Erkrankung zeigt diese w9-Weite: Statt sich zurückzuziehen, kündigte er die Diagnose öffentlich an und arbeitete, soweit möglich, bis zuletzt weiter – Beharrlichkeit über Jahrzehnte statt der einen lauten Geste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: eine chemische Erfindung, die Anatomie demokratisierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was von Hagens fachlich auszeichnet, ist keine bloße Showkunst, sondern eine echte technisch-chemische Erfindung: Die Plastination ersetzt in einem mehrstufigen Vakuumverfahren Wasser und Fett im Gewebe durch reaktionsfähige Silikone, Epoxidharze oder Polyester, die anschließend aushärten. Das Ergebnis sind geruchlose, unbegrenzt haltbare anatomische Präparate – eine Innovation, die medizinische Ausbildung weltweit veränderte, lange bevor die ersten ›Körperwelten‹-Besucher überhaupt davon hörten.</p>
+          <p class="vb-intro">Die eigentliche Leistung liegt darin, diese Fachtechnik aus dem Hörsaal in die öffentliche Ausstellungshalle zu holen: 58 Millionen Menschen sahen dadurch echte menschliche Anatomie, die sie sonst nie zu Gesicht bekommen hätten – eine Demokratisierung anatomischen Wissens in einem Ausmaß, das zuvor kein Anatom je erreicht hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX1w9 zeigt sich darin, ein gesellschaftliches Tabu – den direkten Blick auf den toten Körper – bewusst zu brechen, um wissenschaftliche Bildung für Millionen zugänglich zu machen, die vorher nie Zugang dazu gehabt hätten.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Eins ist <strong>Zorn</strong> – bei der sexuellen Eins am wenigsten gefiltert. 2004 musste von Hagens sieben Leichen nach China zurückschicken, nachdem sich Hinweise verdichteten, dass es sich um hingerichtete Gefangene handeln könnte – er wies breitere Vorwürfe zu unklarer Leichenherkunft entschieden zurück und verwies auf über 13.000 registrierte Körperspender, überwiegend aus Deutschland und den USA. Die großen Kirchen sprachen von unwürdigem Umgang mit Verstorbenen, die Städte Augsburg und Köln untersagten ihm die Darstellung sexueller Szenen mit Leichnamen. Von Hagens reagierte auf all das nicht mit Rückzug oder Selbstzweifel, sondern mit unnachgiebiger Verteidigung der eigenen Position – die charakteristische SX1-Kompromisslosigkeit, die selbst berechtigte ethische Bedenken kaum als Anlass zur Kurskorrektur begreift.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Der eigene Körper als letzte Konsequenz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt von der Überzeugung <em>Nur das absolut Richtige zählt</em> zur Erkenntnis <em>Ich darf unvollkommen sein und trotzdem gut.</em> Bei von Hagens zeigt sich eine besondere Volte dieses Weges: Er kündigte seine eigene, unheilbare Erkrankung öffentlich an und plante offen, seinen eigenen Körper nach seinem Tod plastinieren und ausstellen zu lassen – die letzte, radikal konsequente Vereinigung von Lehre und eigenem Leben.</p>
+          <p class="vb-intro">Laut seiner Frau Angelina Whalley wollte er Menschen ermöglichen, „unter die Haut zu schauen – nicht aus Sensationslust, sondern aus der tiefen Überzeugung, dass Wissen über den eigenen Körper zu einem bewussteren, gesünderen und verantwortungsvolleren Leben beitragen kann." Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-michel-foucault">Michel Foucault</a> (SX1w9): Auch bei ihm zeigt sich dieselbe kompromisslose Inbrunst, die eigene Wahrheit gegen etablierte Institutionen zu verteidigen – bei Foucault im Archiv, bei von Hagens im Präparationssaal. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-michel-foucault">Porträt zu Michel Foucault</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-michel-foucault", label:"Porträt: Michel Foucault (SX1w9)"},
+        {route:"beruehmte-klaus-kinski", label:"Porträt: Klaus Kinski (SX1w9)"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Porträt: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+      ])}
+    </div>
+  `);
+}

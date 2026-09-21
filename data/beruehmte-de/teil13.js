@@ -2226,6 +2226,7 @@ export function michelFoucaultPortraitPage() {
         {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-klaus-kinski", label:"Porträt: Klaus Kinski (SX1w9)"},
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Porträt: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-gunther-von-hagens", label:"Porträt: Gunther von Hagens (SX1w9)"},
         {route:"beruehmte-volker-gerhardt", label:"Porträt: Prof. Dr. Volker Gerhardt (SO1w9) – Philosoph desselben Kerntyps, anderer Instinkt"},
       ])}
     </div>
