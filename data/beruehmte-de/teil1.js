@@ -1090,6 +1090,7 @@ export function markZuckerbergPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx5", label:"SX5 \u2013 Der Igel: Subtyp-Profil"},
         {route:"beruehmte-edward-snowden", label:"Portr\u00e4t: Edward Snowden (SX5w6)"},
+        {route:"beruehmte-bryan-johnson", label:"Portr\u00e4t: Bryan Johnson (SX5w6) \u2013 kontrollierte Systeme statt offener Verbindung"},
       ])}
     </div>
   `);

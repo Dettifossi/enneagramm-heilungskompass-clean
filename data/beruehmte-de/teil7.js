@@ -1,5 +1,70 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function bryanJohnsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bryan-johnson-portrait.jpg" alt="Bryan Johnson" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bryan Johnson</p>
+        <p class="krim-portrait-typ">SX5w6 · Sexueller Typ 5 mit Sechserflügel · Kontratyp der Fünf</p>
+        <p class="krim-portrait-subtitle">Unternehmer, Biohacker, geb. 1977 – Gründer von Braintree, ›Project Blueprint‹ – Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel, der seinen eigenen Verfall vermisst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bryan Johnson wurde 1977 in Provo, Utah, geboren und wuchs im nahegelegenen Springville in einem religiös geprägten mormonischen Umfeld auf. Seine Kindheit war alles andere als geschützt: Sein Vater kämpfte über 25 Jahre mit einer Drogenabhängigkeit, sein Stiefvater zeigte früh Anzeichen einer Alzheimer-Erkrankung, die Ehe der Eltern zerbrach. Johnson selbst beschrieb später ein Jahrzehnt schwerer Depression. Nach einem Studienabschluss an der Brigham Young University und einem MBA der University of Chicago gründete er 2007 das Zahlungsdienstleistungsunternehmen Braintree, das er 2013 für 800 Millionen Dollar an PayPal verkaufte.</p>
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier des sexuellen Typs 5 – ein stilles, wachsames Wesen, das die Welt aus geschützter Distanz erkundet und sich nur bei absolutem Vertrauen öffnet. Seit 2021 betreibt Johnson unter dem Namen ›Project Blueprint‹ das wohl akribischste Selbstvermessungsprojekt eines Menschen überhaupt: tägliche Messung Dutzender Organfunktionen, über 100 Nahrungsergänzungsmittel pro Tag, strikt veganer Ernährungsplan, rigorose Trainingsroutinen und experimentelle Therapien – mit dem erklärten Ziel, biologisches Altern messbar zu verlangsamen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Fünf: Vertrauen als Fundament, Rückzug als Norm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Fünf (SX5)</strong> ist nach Naranjo der Kontratyp der Fünf: Die Leidenschaft des Geizes zeigt sich hier am wenigsten offensichtlich, weil die sexuelle Energie die Fünf aus ihrer Isolation herauszieht und nach der einen, tragenden Verbindung suchen lässt. Naranjo nannte diesen Subtyp <em>Vertrauen</em> – doch dieses Vertrauen gilt nur wenigen Auserwählten, niemals der breiten Öffentlichkeit. Bei Johnson zeigt sich das in einem auffälligen Kontrast: Er ist medial hochpräsent, dokumentiert öffentlich buchstäblich jeden Blutwert seines Körpers – und beschreibt zugleich sein eigenes soziales Leben als nahezu nicht existent, seine romantischen Beziehungen als der Datenerhebung untergeordnet.</p>
+          <p class="vb-intro">Was öffentlich wie radikale Transparenz wirkt, ist bei genauerem Hinsehen eine sehr typische SX5-Bewegung: Nicht das eigene Innenleben wird geteilt, sondern ein exakt kontrolliertes, äußeres System aus Messwerten. Die eigentliche Person dahinter – Beziehungen, Zweifel, das subjektive Erleben – bleibt so unzugänglich wie beim klassischen Fünfer-Rückzug, nur dass sich Johnson diesmal hinter einer Wand aus Daten statt hinter geschlossenen Türen verschanzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Bedrohungsanalyse als Lebensprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt der sexuellen Fünf ein tiefes Sicherheitsbedürfnis und ein systematisches Denken in Bedrohungsszenarien. Bei Johnson lässt sich das direkt an ›Project Blueprint‹ ablesen: Jedes Organ wird als potenzielle Schwachstelle behandelt, jeder Biomarker als Frühwarnsystem gegen eine Bedrohung, die alle Menschen betrifft – den eigenen körperlichen Verfall. Statt vage auf ein langes Leben zu hoffen, baut die SX5w6 ein engmaschiges Kontrollsystem, das nichts dem Zufall überlässt.</p>
+          <p class="vb-intro">Dieselbe Systematik prägte bereits seine unternehmerische Laufbahn: Mit Kernel gründete er ein Unternehmen für Gehirn-Computer-Schnittstellen, mit dem OS Fund einen Wagniskapitalfonds, der gezielt in frühe, riskante Wissenschafts- und Technologieprojekte investiert – stets mit dem Blick auf das, was die Zukunft bedrohen oder verändern könnte, und stets mit einem kleinen, engen Kreis von Vertrauten statt breiter öffentlicher Rechenschaft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Zahlungsinfrastruktur, die tatsächlich funktionierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bevor Johnson zum bekanntesten Biohacker der Welt wurde, baute er mit Braintree eine der zuverlässigsten Zahlungsinfrastrukturen ihrer Zeit auf. In einer Branche, die für träge, schwerfällige Systeme bekannt war, setzte Braintree auf entwicklerfreundliche APIs und eine Systemarchitektur, die eine Downtime für Wartungsarbeiten praktisch ausschloss – Händler mussten Zahlungen rund um die Uhr entgegennehmen können, ohne Unterbrechung. 2012 übernahm Braintree den mobilen Bezahldienst Venmo, bis 2013 verarbeitete das Unternehmen jährlich zwölf Milliarden Dollar an Zahlungen, vier Milliarden davon mobil.</p>
+          <p class="vb-intro">Diese Zuverlässigkeit war kein Zufall, sondern exakt die SX5w6-Handschrift: kompromisslose technische Sorgfalt im Verborgenen, damit das System von außen wie selbstverständlich funktioniert. Erst dieser wirtschaftliche Erfolg verschaffte Johnson die finanziellen Mittel, die sein späteres, noch radikaleres Projekt der Selbstoptimierung erst möglich machten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Fünf mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX5w6 zeigt sich in Johnsons außergewöhnlicher Fähigkeit zur Fokussierung: ›Project Blueprint‹ hat, unabhängig von der Bewertung im Einzelnen, eine öffentliche Debatte über messbare, datengestützte Gesundheitsvorsorge losgetreten, die es ohne seine Radikalität in dieser Form nicht gäbe. Die Dokumentation, dass sein biologisches Alterungstempo laut eigenen Messungen so langsam wie bei keinem bislang untersuchten Menschen verläuft, ist zumindest ein bemerkenswertes Selbstexperiment.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Fünf ist <strong>Geiz</strong> – das Zurückhalten, das Nicht-Teilen aus der Angst, durch Geben weniger zu werden. Bei Johnson zeigt sich das in einer bemerkenswerten Asymmetrie: Öffentlich teilt er beinahe jeden Messwert seines Körpers, doch sein eigentliches Innenleben – Beziehungen, Selbstzweifel, das, was das Projekt ihn emotional kostet – bleibt so gut wie unzugänglich. Kritiker bemängeln zudem die Isolation, in die das Protokoll ihn treibt: ein Leben, das fast vollständig der eigenen Optimierung untergeordnet ist, mit wenig Raum für das, wofür ein längeres Leben eigentlich gelebt werden könnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Kontrollsystem zur gelebten Verbindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von der Überzeugung <em>Ich habe nicht genug, um zu geben</em> zur Erkenntnis <em>Was ich bin, reicht – auch ohne vollständige Kontrolle über jede Variable.</em> Für die SX5w6 bedeutet das, das Vertrauen, das sie dem engsten Kreis oder dem eigenen Messsystem entgegenbringt, langsam auch auf ungeplante, unkontrollierbare menschliche Nähe auszudehnen – ohne sie vorher in Daten übersetzen zu müssen.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-mark-zuckerberg">Mark Zuckerberg</a> (SX5w6): Auch bei ihm zeigt sich dieselbe Konstruktion kontrollierter, engmaschiger Systeme als Ersatz für offene, unvorhersehbare Verbindung – bei Zuckerberg im sozialen Netzwerk, bei Johnson im eigenen Körper. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-mark-zuckerberg">Porträt zu Mark Zuckerberg</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-mark-zuckerberg", label:"Porträt: Mark Zuckerberg (SX5w6)"},
+        {route:"beruehmte-edward-snowden", label:"Porträt: Edward Snowden (SX5w6)"},
+      ])}
+    </div>
+  `);
+}
+
 export function helgeSchneiderPortraitPage() {
   return shell(`
     <div class="page-container">

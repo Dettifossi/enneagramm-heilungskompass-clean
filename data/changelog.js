@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2374", date: "2026-09-21", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Bryan Johnson (SX5w6) – Braintree-Gründer, »Project Blueprint«.", text_en: "New portrait under \"Famous Personalities\": Bryan Johnson (SX5w6) – Braintree founder, \"Project Blueprint\".", route: "beruehmte-bryan-johnson" },
     { version: "v2373", date: "2026-09-21", text: "Neues Krankheitsporträt: Knut Hamsun (SE4w5) – Arteriosklerose, Schlaganfall, Demenz und das psychiatrische Verfahren von 1945/46.", text_en: "New illness portrait: Knut Hamsun (SP4w5) – arteriosclerosis, stroke, dementia, and the 1945/46 psychiatric proceeding.", route: "krankheitsportraets-knut-hamsun" },
     { version: "v2372", date: "2026-09-21", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Joseph Beuys (SX1w9) – Aktionskünstler, erweiterter Kunstbegriff, »7000 Eichen«.", text_en: "New portrait under \"Famous Personalities\": Joseph Beuys (SX1w9) – action artist, expanded concept of art, \"7000 Oaks\".", route: "beruehmte-joseph-beuys" },
     { version: "v2371", date: "2026-09-21", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Knut Hamsun (SE4w5) – Schriftsteller, Literaturnobelpreis 1920.", text_en: "New portrait under \"Famous Personalities\": Knut Hamsun (SE4w5) – writer, Nobel Prize in Literature 1920.", route: "beruehmte-knut-hamsun" },
