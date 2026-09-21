@@ -20,6 +20,7 @@ export function josephBeuysPortraitPage() {
           <p class="vb-intro">Joseph Beuys was born in 1921 in Krefeld and grew up in Kleve on the Lower Rhine. During the Second World War he served as a Stuka radio operator and was shot down over the Crimea in 1943 – an event he later turned into the founding myth of his art: supposedly rescued by Tatars, wrapped in felt, and rubbed with fat to preserve his body heat. Whether this rescue story is historically accurate is disputed among historians – for his artistic self-understanding it was central, since felt and fat became his signature materials from then on. After the war he studied at the Düsseldorf Art Academy under Ewald Mataré, from whom he deliberately broke away around 1951 to develop his own, radically expanded concept of art.</p>
           <p class="vb-intro">The <strong>black mamba</strong> is the animal of the sexual One – fast, precise, uncompromising once it has committed to something. Beuys's trademark was his felt hat, which, by his own account and that of his wife Eva, he practically never took off, along with the fishing vest, the same unchanging appearance – a daily, publicly visible uniform of being different. Meeting him meant not encountering a casual artist figure, but a presence that left no doubt that this was someone engaged with absolute seriousness.</p>
           <p class="vb-intro">Asked again and again why he never took the hat off, Beuys openly cited its protective function himself – on special occasions he did remove it, but in everyday life it almost always stayed on. Depth-psychologically this fits the body/gut center exactly, to which the One belongs: all gut types (8, 9, 1) carry a basic deficit in felt protection, a latent sense of being unable to adequately defend against attack – the One responds by pre-empting it, building a preventive armor that establishes protection before any attack even occurs. In Beuys this was intensified by the concrete wartime experience of being shot down over the Crimea in 1943: the hat became a daily-worn, publicly visible shield against a world that had once proven life-threatening.</p>
+          <p class="vb-intro">The same unmistakable, never-removed hat as a daily marker of identity is worn by <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">Gunther von Hagens</a> and <a href="javascript:void(0)" data-route="beruehmte-udo-lindenberg">Udo Lindenberg</a> (both SX1w9) – for all three, the hat is not fashion but the same pre-emptively built armor of the gut center, worn publicly on display. More in the portraits of <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">Gunther von Hagens</a> and <a href="javascript:void(0)" data-route="beruehmte-udo-lindenberg">Udo Lindenberg</a>.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The sexual One: zeal as teacher and action artist</h2>
@@ -59,7 +60,8 @@ export function josephBeuysPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: subtype profile"},
-        {route:"beruehmte-gunther-von-hagens", label:"Portrait: Gunther von Hagens (SX1w9)"},
+        {route:"beruehmte-gunther-von-hagens", label:"Portrait: Gunther von Hagens (SX1w9) – the same hat, the same principle"},
+        {route:"beruehmte-udo-lindenberg", label:"Portrait: Udo Lindenberg (SX1w9) – the same hat, the same principle"},
         {route:"beruehmte-michel-foucault", label:"Portrait: Michel Foucault (SX1w9)"},
         {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
       ])}
@@ -1568,7 +1570,7 @@ export function udoLindenbergPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What Udo Lindenberg leaves behind is more than a discography – it is proof that a once-found, uncompromising stance can carry an entire artist's life without hardening into rigidity. "Sonderzug nach Pankow" remains a lesson in how art can address power directly and without fear. His trademark of hat and sunglasses has become the collective image of an entire era of German pop culture.</p>
           <p class="vb-intro">The sexual One can inspire by refusing to conform – Lindenberg did exactly that, for more than fifty years, in music, painting, and political voice. That is the gift of the Black Mamba: an intensity that never pretended to be anything else, and precisely because of that, still carries today.</p>
-          <p class="vb-intro">The very same never-removed black hat as a daily signature is also worn by <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">Gunther von Hagens</a> (also SX1w9) – for both, the hat isn't fashion but a daily, publicly visible assertion of their own nonconformity. More in the <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">portrait of Gunther von Hagens</a>.</p>
+          <p class="vb-intro">The very same never-removed black hat as a daily signature is also worn by <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">Gunther von Hagens</a> and <a href="javascript:void(0)" data-route="beruehmte-joseph-beuys">Joseph Beuys</a> (both also SX1w9) – for all three, the hat isn't fashion but a daily, publicly visible assertion of their own nonconformity. More in the portraits of <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">Gunther von Hagens</a> and <a href="javascript:void(0)" data-route="beruehmte-joseph-beuys">Joseph Beuys</a>.</p>
         </blockquote>
 
       </div>
@@ -1580,6 +1582,7 @@ export function udoLindenbergPortraitPage() {
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
         {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
         {route:"beruehmte-gunther-von-hagens", label:"Portrait: Gunther von Hagens (SX1w9) – the same hat, the same principle"},
+        {route:"beruehmte-joseph-beuys", label:"Portrait: Joseph Beuys (SX1w9) – the same hat, the same principle"},
         {route:"beruehmte-clueso", label:"Portrait: Clueso (SX2w1) – recorded \"Cello\" with him"},
       ])}
     </div>

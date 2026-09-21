@@ -1502,7 +1502,7 @@ export function udoLindenbergPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Udo Lindenberg hinterl\u00e4sst, ist mehr als eine Diskografie \u2013 es ist der Beweis, dass eine einmal gefundene, kompromisslose Haltung ein ganzes K\u00fcnstlerleben tragen kann, ohne zu erstarren. "Sonderzug nach Pankow" bleibt ein Lehrst\u00fcck daf\u00fcr, wie Kunst Macht direkt und ohne Angst adressieren kann. Sein Markenzeichen aus Hut und Sonnenbrille ist zum kollektiven Bild einer ganzen Epoche deutscher Popkultur geworden.</p>
           <p class="vb-intro">Die sexuelle Eins kann inspirieren, indem sie keine R\u00fccksicht auf Anpassung nimmt \u2013 Lindenberg hat genau das getan, \u00fcber f\u00fcnfzig Jahre lang, in Musik, Malerei und politischer Stimme. Das ist das Geschenk der Schwarzen Mamba: eine Intensit\u00e4t, die sich nie verstellt hat und gerade deshalb auch heute noch tr\u00e4gt.</p>
-          <p class="vb-intro">Denselben nie abgelegten schwarzen Hut als t\u00e4gliches Erkennungszeichen tr\u00e4gt auch <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">Gunther von Hagens</a> (ebenfalls SX1w9) \u2013 bei beiden ist der Hut keine Mode, sondern eine t\u00e4gliche, \u00f6ffentlich sichtbare Behauptung der eigenen Unangepasstheit. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">Portr\u00e4t zu Gunther von Hagens</a>.</p>
+          <p class="vb-intro">Denselben nie abgelegten schwarzen Hut als t\u00e4gliches Erkennungszeichen tragen auch <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">Gunther von Hagens</a> und <a href="javascript:void(0)" data-route="beruehmte-joseph-beuys">Joseph Beuys</a> (beide ebenfalls SX1w9) \u2013 bei allen dreien ist der Hut keine Mode, sondern eine t\u00e4gliche, \u00f6ffentlich sichtbare Behauptung der eigenen Unangepasstheit. Mehr dazu in den Portr\u00e4ts zu <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">Gunther von Hagens</a> und <a href="javascript:void(0)" data-route="beruehmte-joseph-beuys">Joseph Beuys</a>.</p>
         </blockquote>
 
       </div>
@@ -1514,6 +1514,7 @@ export function udoLindenbergPortraitPage() {
         {route:"subtype/sx1", label:"SX1 \u2013 Die Schwarze Mamba: Subtyp-Profil"},
         {route:"beruehmte-klaus-kinski", label:"Portr\u00e4t: Klaus Kinski (SX1w9)"},
         {route:"beruehmte-gunther-von-hagens", label:"Portr\u00e4t: Gunther von Hagens (SX1w9) \u2013 derselbe Hut, dasselbe Prinzip"},
+        {route:"beruehmte-joseph-beuys", label:"Portr\u00e4t: Joseph Beuys (SX1w9) \u2013 derselbe Hut, dasselbe Prinzip"},
         {route:"beruehmte-clueso", label:"Portr\u00e4t: Clueso (SX2w1) \u2013 gemeinsam mit ihm der Song \u203aCello\u2039"},
       ])}
     </div>
