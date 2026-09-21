@@ -1,5 +1,72 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function josephBeuysPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joseph-beuys-portrait.jpg" alt="Joseph Beuys" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Joseph Beuys</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexual Type 1 with a Nine-Wing · Countertype of the One</p>
+        <p class="krim-portrait-subtitle">German action artist, 1921–1986 – Animal correspondence: Black Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The black mamba beneath the hat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Joseph Beuys was born in 1921 in Krefeld and grew up in Kleve on the Lower Rhine. During the Second World War he served as a Stuka radio operator and was shot down over the Crimea in 1943 – an event he later turned into the founding myth of his art: supposedly rescued by Tatars, wrapped in felt, and rubbed with fat to preserve his body heat. Whether this rescue story is historically accurate is disputed among historians – for his artistic self-understanding it was central, since felt and fat became his signature materials from then on. After the war he studied at the Düsseldorf Art Academy under Ewald Mataré, from whom he deliberately broke away around 1951 to develop his own, radically expanded concept of art.</p>
+          <p class="vb-intro">The <strong>black mamba</strong> is the animal of the sexual One – fast, precise, uncompromising once it has committed to something. Beuys's trademark was his felt hat, which, by his own account and that of his wife Eva, he practically never took off, along with the fishing vest, the same unchanging appearance – a daily, publicly visible uniform of being different. Meeting him meant not encountering a casual artist figure, but a presence that left no doubt that this was someone engaged with absolute seriousness.</p>
+          <p class="vb-intro">Asked again and again why he never took the hat off, Beuys openly cited its protective function himself – on special occasions he did remove it, but in everyday life it almost always stayed on. Depth-psychologically this fits the body/gut center exactly, to which the One belongs: all gut types (8, 9, 1) carry a basic deficit in felt protection, a latent sense of being unable to adequately defend against attack – the One responds by pre-empting it, building a preventive armor that establishes protection before any attack even occurs. In Beuys this was intensified by the concrete wartime experience of being shot down over the Crimea in 1943: the hat became a daily-worn, publicly visible shield against a world that had once proven life-threatening.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual One: zeal as teacher and action artist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual One (SX1)</strong> is the countertype of the One – the subtype that looks least like controlled adherence to principle, yet lives it most intensely. Naranjo called this subtype <em>Zeal</em>: a burning desire to separate the genuine from the false, unfiltered and without compromise. In Beuys this showed as a teacher at the Düsseldorf Art Academy: his famous statement "Everyone is an artist" was no benevolent platitude but an uncompromising declaration of war against the entire academic selection system. In 1971 he simply admitted 142 applicants previously rejected by other professors into his own class – against the academy's own rules.</p>
+          <p class="vb-intro">When the state of North Rhine-Westphalia dismissed him without notice in 1972 for this, Beuys, together with the rejected students, simply occupied the academy's secretariat – no diplomatic negotiation, but the immediate, physical confrontation typical of the SX1. He sued over the dismissal and won: it was declared unlawful. The same zeal with which he fought for his students showed in his teaching style itself – contemporaries report a man who could switch without transition from gentleness to unsparing harshness whenever he considered the attitude behind a piece of work insincere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The nine-wing: a world formula instead of personal care</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>nine-wing (w9)</strong> gives the sexual One a peculiar breadth: instead of fixating on a single grievance or a single relationship, the claim widens into a universal, all-encompassing vision. Beuys's core thesis "Everyone is an artist" is not a statement about a single person or a limited circle, but a claim that includes all of humanity equally – art not as the exclusive talent of the few, but as a universal creative capacity of all.</p>
+          <p class="vb-intro">The same breadth shows in his political institution-building: the German Student Party (1967), the Organization for Direct Democracy through Referendum (1971), the Free International University (1973) – all designed for society-wide, long-term transformation, not a single campaign. His late work "7000 Oaks," begun in 1982 at documenta 7, was a multi-year, city-wide planting project that was only completed after his death – a pattern he shares with other SX1w9s in this compass: the One's anger supplies the fire, the nine-wing supplies the stamina to carry it across decades and through entire institutions, rather than discharging it at a single opponent.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual achievement: the expanded concept of art</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Beuys's actual artistic achievement lies in his "expanded concept of art" and the resulting concept of "social sculpture": for him, art does not end with the finished object in a museum, but already begins in thinking, in speaking, in social action itself. Society as a whole becomes a malleable sculpture that every person helps shape – a radically new position in the art world of the 1960s and '70s, one that deliberately let art and life, aesthetics and politics flow into one another.</p>
+          <p class="vb-intro">Concretely, this materialized in works like the "Fat Corner" (fat smeared into the corners of rooms, symbolizing warmth, transformation, and the flow of energy) or felt objects (felt as a symbol of protection, insulation, storage of warmth) – materials he derived directly from his personal wartime mythology and condensed into a distinctive, recognizable vocabulary. Actions like "How to Explain Pictures to a Dead Hare" (1965) or "I Like America and America Likes Me" (1974, three days spent with a live coyote in a New York gallery) shifted the boundaries of what could count as a work of art so lastingly that they remain among the most-cited works of performance and action art today.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the sexual One with a nine-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX1w9 shows in Beuys's ability to turn his uncompromising conviction into real social opening: admitting rejected students, decades of defending a democratized concept of art, founding institutions aimed at broad participation rather than elitist exclusion. His stance that creativity was no privilege of an artistic caste was a genuinely liberating position for its time.</p>
+          <p class="vb-intro">The One's besetting sin is <strong>anger</strong> – least filtered in the sexual One. In Beuys this showed in a teaching style that swung between fatherly care and abrupt authority: some students, like Felix Droese, Katharina Sieverding, or Jörg Immendorff, were closely mentored for years, while others experienced sudden, harsh rejections of their work – up to the physical destruction of student pieces as a demonstrative "sculptural act." His brief candidacy for documenta's organizing body and his unwavering self-staging as shaman and healer also show the shadow side of the SX1w9: where the line between genuine conviction and self-mythologizing ran remained disputed throughout his life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: from pure doctrine to shared shaping</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One's path to healing leads from the conviction <em>Only what is absolutely right counts</em> to the insight <em>I am allowed to be imperfect and still good.</em> In Beuys this movement can be traced in his late work "7000 Oaks": rather than a single message controlled solely by him, he handed over a project he himself would not live to complete to the city of Kassel and the generations that followed – a letting-go of his own control in favor of a jointly carried, long-term work. He died in 1986 in Düsseldorf, a year before the last of the 7000 oaks was planted.</p>
+          <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">Gunther von Hagens</a> (SX1w9), who explicitly named Beuys's felt hat as one of his models: both wore the same unmistakable headgear as a daily, publicly visible declaration of their own being different, and both spent decades building institutions meant to outlast their own deaths. More in the <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">portrait of Gunther von Hagens</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx1", label:"SX1 – The Black Mamba: subtype profile"},
+        {route:"beruehmte-gunther-von-hagens", label:"Portrait: Gunther von Hagens (SX1w9)"},
+        {route:"beruehmte-michel-foucault", label:"Portrait: Michel Foucault (SX1w9)"},
+        {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
+      ])}
+    </div>
+  `);
+}
+
 export function albertSchweitzerPortraitPage() {
   return shell(`
     <div class="page-container">

@@ -1,5 +1,72 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function josephBeuysPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joseph-beuys-portrait.jpg" alt="Joseph Beuys" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Joseph Beuys</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexueller Typ 1 mit Neunerflügel · Kontratyp der Eins</p>
+        <p class="krim-portrait-subtitle">Deutscher Aktionskünstler, 1921–1986 – Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba unter dem Hut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Joseph Beuys wurde 1921 in Krefeld geboren und wuchs in Kleve am Niederrhein auf. Im Zweiten Weltkrieg diente er als Stuka-Bordfunker und wurde 1943 über der Krim abgeschossen – ein Ereignis, das er später zum Gründungsmythos seiner Kunst verklärte: angeblich von Tataren geborgen, in Filz gewickelt und mit Fett eingerieben, um seine Körperwärme zu erhalten. Ob diese Rettungsgeschichte historisch exakt zutrifft, ist unter Historikern umstritten – für sein künstlerisches Selbstverständnis war sie zentral, denn Filz und Fett wurden fortan seine Signaturmaterialien. Nach dem Krieg studierte er an der Kunstakademie Düsseldorf bei Ewald Mataré, von dem er sich um 1951 bewusst löste, um einen eigenen, radikal erweiterten Kunstbegriff zu entwickeln.</p>
+          <p class="vb-intro">Die <strong>Schwarze Mamba</strong> ist das Tier der sexuellen Eins – schnell, präzise, kompromisslos, sobald sie sich für eine Sache entschieden hat. Beuys' Markenzeichen war sein Filzhut, den er nach eigener Aussage und der seiner Frau Eva praktisch nie ablegte, dazu die Anglerweste, das immer gleiche Erscheinungsbild – eine tägliche, öffentlich sichtbare Uniform des Andersseins. Wer ihn traf, begegnete keiner beiläufigen Künstlerfigur, sondern einer Präsenz, die keinen Zweifel daran ließ, dass hier jemand mit absolutem Ernst bei der Sache war.</p>
+          <p class="vb-intro">Auf die immer wiederkehrende Frage, warum er den Hut nicht ablege, antwortete Beuys selbst offen mit dessen Schutzfunktion – bei besonderen Anlässen legte er ihn durchaus ab, im Alltag blieb er jedoch fast immer auf. Tiefenpsychologisch passt das genau zum Bauchzentrum, dem die Eins zugehört: Alle Bauchtypen (8, 9, 1) tragen ein Grunddefizit an Schutz mit sich, ein latentes Gefühl, sich gegen Angriffe nicht ausreichend wehren zu können – der Einser reagiert darauf mit Vorbeugung, mit einer präventiv aufgebauten Rüstung, die Schutz herstellt, bevor überhaupt angegriffen wird. Bei Beuys verstärkte sich das durch die konkrete Kriegserfahrung des Abschusses über der Krim 1943: Der Hut wurde zum täglich getragenen, öffentlich sichtbaren Panzer gegen eine Welt, die sich einmal als lebensbedrohlich erwiesen hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Inbrunst als Lehrer und Aktionist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> ist der Kontratyp der Eins – der Subtyp, der am wenigsten nach kontrollierter Prinzipientreue aussieht, sie aber am intensivsten lebt. Naranjo nannte diesen Subtyp <em>Zeal</em> – Inbrunst: ein brennendes Verlangen, das Echte vom Falschen zu trennen, ungefiltert und ohne Kompromiss. Bei Beuys zeigte sich das als Lehrer an der Kunstakademie Düsseldorf: Sein berühmter Satz „Jeder Mensch ist ein Künstler" war keine wohlwollende Floskel, sondern eine kompromisslose Kampfansage an das gesamte akademische Selektionssystem. 1971 nahm er 142 zuvor von anderen Professoren abgelehnte Bewerber einfach in seine eigene Klasse auf – gegen die Hausordnung der Akademie.</p>
+          <p class="vb-intro">Als das Land NRW ihn dafür 1972 fristlos entließ, besetzte Beuys mit den abgewiesenen Studierenden kurzerhand das Sekretariat der Akademie – keine diplomatische Verhandlung, sondern die für die SX1 typische unmittelbare, körperliche Konfrontation. Er klagte gegen die Entlassung und bekam vor Gericht recht: Sie wurde für rechtswidrig erklärt. Dieselbe Inbrunst, mit der er sich für seine Studierenden einsetzte, zeigte sich in seinem Lehrstil selbst – Zeitzeugen berichten von einem Mann, der ohne Übergang von Sanftmut zu schonungsloser Härte wechseln konnte, wenn er die Haltung hinter einer Arbeit für unaufrichtig hielt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Weltformel statt persönlicher Fürsorge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der sexuellen Eins eine eigentümliche Weite: Statt sich an einem einzelnen Missstand oder einer einzelnen Beziehung festzubeißen, weitet sich der Anspruch zu einer universellen, alles umfassenden Vision aus. Beuys' Kernthese „Jeder Mensch ist ein Künstler" ist keine Aussage über eine einzelne Person oder einen begrenzten Kreis, sondern ein Anspruch, der die gesamte Menschheit gleichermaßen einschließt – Kunst nicht als exklusives Talent Weniger, sondern als universelles Gestaltungsvermögen aller.</p>
+          <p class="vb-intro">Dieselbe Weite zeigt sich in seinen politischen Institutionsgründungen: die Deutsche Studentenpartei (1967), die Organisation für direkte Demokratie durch Volksabstimmung (1971), die Freie Internationale Universität (1973) – allesamt auf gesellschaftsweite, langfristige Transformation angelegt, nicht auf eine einzelne Kampagne. Sein Spätwerk „7000 Eichen", 1982 auf der documenta 7 begonnen, war ein mehrjähriges, stadtweites Pflanzprojekt, das erst nach seinem Tod vollendet wurde – ein Muster, das er mit anderen SX1w9 dieses Kompasses teilt: Der Zorn der Eins liefert das Feuer, der Neunerflügel liefert die Ausdauer, es über Jahrzehnte und durch ganze Institutionen hindurchzutragen, statt es an einem einzelnen Gegenüber zu entladen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Der erweiterte Kunstbegriff</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Beuys' eigentliche künstlerische Leistung liegt in seinem „erweiterten Kunstbegriff" und dem daraus abgeleiteten Konzept der „sozialen Plastik": Kunst endet für ihn nicht beim fertigen Objekt im Museum, sondern beginnt bereits im Denken, im Sprechen, im gesellschaftlichen Handeln selbst. Gesellschaft als Ganzes wird zur formbaren Plastik, an der jeder Mensch mitarbeitet – eine radikal neue Position im Kunstbetrieb der 1960er und 70er Jahre, die Kunst und Leben, Ästhetik und Politik bewusst ineinanderfließen ließ.</p>
+          <p class="vb-intro">Konkret materialisierte sich das in Arbeiten wie der „Fettecke" (Fett in Ecken von Räumen geschmiert, als Symbol für Wärme, Wandlung und Energiefluss) oder Filzobjekten (Filz als Symbol für Schutz, Isolation, Speicherung von Wärme) – Materialien, die er direkt aus seiner persönlichen Kriegsmythologie ableitete und zu einem eigenständigen, wiedererkennbaren Vokabular verdichtete. Aktionen wie „Wie man dem toten Hasen die Bilder erklärt" (1965) oder „I Like America and America Likes Me" (1974, drei Tage mit einem lebenden Kojoten in einer New Yorker Galerie) verschoben die Grenzen dessen, was als Kunstwerk gelten konnte, so nachhaltig, dass sie bis heute zu den meistzitierten Werken der Performance- und Aktionskunst zählen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX1w9 zeigt sich in Beuys' Fähigkeit, seine kompromisslose Überzeugung in tatsächliche gesellschaftliche Öffnung zu verwandeln: die Aufnahme abgelehnter Studierender, die jahrzehntelange Verteidigung eines demokratisierten Kunstbegriffs, die Gründung von Institutionen, die auf breite Teilhabe statt auf elitäre Abgrenzung zielten. Seine Haltung, dass Kreativität kein Privileg einer Künstlerkaste sei, war zu ihrer Zeit eine genuin befreiende Position.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Eins ist <strong>Zorn</strong> – bei der sexuellen Eins am wenigsten gefiltert. Bei Beuys zeigte sich das in einem Lehrstil, der zwischen väterlicher Fürsorge und unvermittelter Autorität schwankte: Manche Schüler wie Felix Droese, Katharina Sieverding oder Jörg Immendorff wurden über Jahre eng gefördert, andere erlebten spontane, harte Zurückweisungen ihrer Arbeiten – bis hin zur physischen Zerstörung studentischer Werke als demonstrativem „skulpturalem Akt". Auch seine kurzzeitige Kandidatur für die documenta-Organisation und seine unbeirrbare Selbstinszenierung als Schamane und Heiler zeigen die Schattenseite der SX1w9: Wo die Grenze zwischen echter Überzeugung und Selbstmythologisierung verläuft, blieb zeitlebens umstritten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der reinen Lehre zur geteilten Gestaltung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt von der Überzeugung <em>Nur das absolut Richtige zählt</em> zur Erkenntnis <em>Ich darf unvollkommen sein und trotzdem gut.</em> Bei Beuys lässt sich diese Bewegung an seinem Spätwerk „7000 Eichen" ablesen: Statt einer einzelnen, von ihm allein kontrollierten Botschaft übergab er ein Projekt, das er selbst nicht mehr vollenden würde, an die Stadt Kassel und die nachfolgenden Generationen – ein Loslassen der eigenen Kontrolle zugunsten eines gemeinsam getragenen, langfristigen Werks. Er starb 1986 in Düsseldorf, ein Jahr bevor die letzte der 7000 Eichen gepflanzt wurde.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">Gunther von Hagens</a> (SX1w9), der Beuys' Filzhut-Symbolik explizit als eines seiner Vorbilder nannte: Beide trugen dieselbe unverwechselbare Kopfbedeckung als tägliches, öffentlich sichtbares Bekenntnis zum eigenen Anderssein, beide bauten über Jahrzehnte hinweg Institutionen auf, die weit über den eigenen Tod hinaus wirken sollten. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">Porträt zu Gunther von Hagens</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-gunther-von-hagens", label:"Porträt: Gunther von Hagens (SX1w9)"},
+        {route:"beruehmte-michel-foucault", label:"Porträt: Michel Foucault (SX1w9)"},
+        {route:"beruehmte-klaus-kinski", label:"Porträt: Klaus Kinski (SX1w9)"},
+      ])}
+    </div>
+  `);
+}
+
 export function alanMcelligottPortraitPage() {
   return shell(`
     <div class="page-container">
