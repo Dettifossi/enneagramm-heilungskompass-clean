@@ -15,7 +15,7 @@ export function ameliaDyerPortraitPage() {
       </div>
 
       <p class="psycho-intro">
-        <strong>Amelia Dyer</strong>, als ›Ogress of Reading‹ bekannt, war eine ausgebildete
+        <strong>Amelia Dyer</strong>, als ›Ogress of Reading‹ (›die Menschenfresserin von Reading‹) bekannt, war eine ausgebildete
         Krankenschwester und Hebamme, die ab den 1860er-Jahren im viktorianischen England zur
         ›Baby-Farmerin‹ wurde – gegen Bezahlung nahm sie unehelich geborene Kinder mittelloser
         oder gesellschaftlich bedrängter Mütter zur Pflege und angeblichen Adoption auf. Statt
