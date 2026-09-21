@@ -2061,6 +2061,7 @@ export function natalieDormerPortraitPage() {
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-bobby-fischer", label:"Porträt: Bobby Fischer (SX6w5)"},
         {route:"beruehmte-wladimir-putin", label:"Porträt: Wladimir Putin (SX6w5)"},
+        {route:"beruehmte-clara-loesel", label:"Porträt: Clara Lösel (SX6w5)"},
       ])}
     </div>
   `);

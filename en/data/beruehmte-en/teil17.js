@@ -1,5 +1,70 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function claraLoeselPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-clara-loesel-portrait.jpg" alt="Clara Lösel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Clara Lösel</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexual Type 6 with a Five-Wing</p>
+        <p class="krim-portrait-subtitle">Poet, author, b. 1999/2000 – Spiegel bestselling author of "Wehe du gibst auf" – Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The wolf who says her fear out loud</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Clara Lösel, from Gießen, found an unusual path to literary public life with a completed teaching degree and her work as a poet: through short, pointed poetry performances on Instagram and TikTok. With her project "100 Gedichte in 100 Tagen" ("100 Poems in 100 Days"), she publicly committed herself to a strict daily writing discipline – no spontaneous occasional poetry, but a self-imposed, consistently maintained system.</p>
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Six – an animal that responds to threat not with withdrawal but with confrontation. Today Lösel reaches around two million people monthly across her channels; her debut, "Wehe du gibst auf" ("Don't You Dare Give Up"), reached number 1 on the Spiegel bestseller list. About the hate comments she regularly receives, she herself says: "Hate comments sometimes scare me. But I won't let hateful people silence me."</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Six: fear spoken publicly instead of hidden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>sexual Six (SX6)</strong> meets insecurity not with adaptation or withdrawal but with direct, often uncompromising confrontation of the fear itself. Lösel's poems explicitly circle around self-doubt, the feeling of being "too much," loneliness, and hopelessness – themes she does not discreetly conceal but speaks aloud on open stages in front of an audience of millions.</p>
+          <p class="vb-intro">Her own handling of hate comments shows the same movement: the fear is named, not denied – and it is precisely from that naming that the refusal to be silenced arises. This is the classic SX6 dynamic: it is not the absence of fear that makes one strong, but the open confrontation with it, in public and without varnish.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The five-wing: discipline as the foundation of stage presence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>five-wing</strong> shows in Lösel in the almost systematic structure of her work: "100 Gedichte in 100 Tagen" is no spontaneous creative project but a self-imposed, methodically maintained set of rules – a daily discipline that goes far beyond occasional inspiration. The same structure shows in that, alongside her poetry, she also appears as a speaker and workshop leader, deliberately teaching techniques of speaking and writing rather than practicing her craft purely by intuition.</p>
+          <p class="vb-intro">The five-wing thus gives the sexual Six the scaffolding with which she carries her public appearances – not from raw stage presence alone, but from a worked-out, repeatable method that also gives structure to her handling of fear itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual achievement: a new stage for poetry</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lösel's concrete contribution lies in making poetry – a traditionally marginal literary genre – accessible to a social-media audience of millions without sacrificing substance. Her short form, born from the technical limits of Instagram and TikTok, compresses complex emotional states into a few pointed lines – a distinct craft form clearly different from classic book poetry, yet taken seriously as literature, evidenced by several literary awards and her first book reaching number 1 on the Spiegel bestseller list.</p>
+          <p class="vb-intro">This is not a matter of reach alone: she has opened a new access to poetic language for an entire generation that often does not feel addressed by classic poetry – through themes drawn directly from that generation's own everyday life and its own fears.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the sexual Six with a five-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w5 shows in Lösel's ability to develop, out of her own publicly admitted insecurity, a voice that gives others the feeling of not being alone with their fears. Her unsparing directness – about heartbreak, toxic comments, the feeling of never being enough – strikes a genuine nerve with a broad, young audience.</p>
+          <p class="vb-intro">The shadow lies in the flip side of that same willingness to confront: the constant public engagement with hate and criticism, which she consciously does not withdraw from, is an ongoing strain she openly acknowledges. For the sexual Six with a five-wing, speaking the fear aloud counts for more than self-protection through retreat – even when that demands a high personal price.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: from fear to one's own voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six's path to healing leads from the conviction <em>I cannot trust anyone, least of all myself</em> to the insight <em>I carry my own inner guidance within me.</em> For the SX6w5, that means no longer treating its own fear only as a declaration of war, but as something that may be heard and then released, instead of having to be constantly reaffirmed.</p>
+          <p class="vb-intro">The title of her debut, "Wehe du gibst auf," is itself already a movement in that direction: not a denial of fear, but a defiant, encouraging exhortation – to others as much as to herself – to keep going despite the fear, rather than being paralyzed by it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-natalie-dormer", label:"Portrait: Natalie Dormer (SX6w5)"},
+        {route:"beruehmte-bobby-fischer", label:"Portrait: Bobby Fischer (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
 export function anaSalcedaPortraitPage() {
   return shell(`
     <div class="page-container">

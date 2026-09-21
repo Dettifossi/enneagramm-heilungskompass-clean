@@ -1,5 +1,70 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function claraLoeselPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-clara-loesel-portrait.jpg" alt="Clara Lösel" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Clara Lösel</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexueller Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Lyrikerin, Autorin, geb. 1999/2000 – Spiegel-Bestsellerautorin ›Wehe du gibst auf‹ – Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Wölfin, die ihre Angst laut ausspricht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Clara Lösel, aus Gießen stammend, hat mit einem abgeschlossenen Lehramtsstudium und ihrer Arbeit als Poetin einen ungewöhnlichen Weg zur literarischen Öffentlichkeit gefunden: über kurze, pointierte Gedicht-Performances auf Instagram und TikTok. Mit dem Projekt ›100 Gedichte in 100 Tagen‹ verpflichtete sie sich öffentlich zu einer strikten täglichen Schreibdisziplin – keine spontane Gelegenheitsdichtung, sondern ein selbst auferlegtes, konsequent durchgehaltenes System.</p>
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Tier, das Bedrohung nicht mit Rückzug, sondern mit Konfrontation beantwortet. Lösel erreicht heute monatlich rund zwei Millionen Menschen über ihre Kanäle; ihr Debüt ›Wehe du gibst auf‹ erreichte Platz 1 der Spiegel-Bestsellerliste. Sie selbst sagt über Hasskommentare, die sie regelmäßig erhält: „Manchmal machen Hasskommentare mir Angst. Aber ich lasse mich von hasserfüllten Menschen nicht zum Schweigen bringen."</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Angst, öffentlich ausgesprochen statt versteckt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> begegnet Unsicherheit nach Naranjo nicht mit Anpassung oder Rückzug, sondern mit einer direkten, oft kompromisslosen Konfrontation der Angst selbst. Lösels Gedichte kreisen explizit um Selbstzweifel, das Gefühl „zu viel" zu sein, Einsamkeit und Hoffnungslosigkeit – Themen, die sie nicht diskret verbirgt, sondern in aller Öffentlichkeit auf offener Bühne und vor Millionenpublikum ausspricht.</p>
+          <p class="vb-intro">Ihr eigener Umgang mit Hasskommentaren zeigt dieselbe Bewegung: Die Angst wird benannt, nicht verleugnet – und genau daraus entsteht die Weigerung, sich zum Schweigen bringen zu lassen. Das ist die klassische SX6-Dynamik: Nicht die Abwesenheit von Furcht macht stark, sondern die offene Konfrontation mit ihr, öffentlich und ohne Beschönigung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Disziplin als Fundament der Bühnenpräsenz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> zeigt sich bei Lösel in der fast systematischen Struktur ihrer Arbeit: ›100 Gedichte in 100 Tagen‹ ist kein spontanes Kreativprojekt, sondern ein selbst gesetztes, methodisch durchgehaltenes Regelwerk – eine tägliche Disziplin, die weit über gelegentliche Inspiration hinausgeht. Dieselbe Struktur zeigt sich darin, dass sie neben der Poesie auch als Rednerin und Workshop-Leiterin auftritt und Techniken des Sprechens und Textens gezielt vermittelt, statt ihr Handwerk allein intuitiv zu betreiben.</p>
+          <p class="vb-intro">Der Fünferflügel liefert der sexuellen Sechs damit das Gerüst, mit dem sie ihre öffentlichen Auftritte bestreitet – nicht aus reiner Bühnenpräsenz heraus, sondern aus einer erarbeiteten, wiederholbaren Methode, die auch dem Umgang mit Angst selbst eine Struktur gibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Eine neue Bühne für Lyrik</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lösels konkreter Beitrag liegt darin, Lyrik – ein traditionell randständiges literarisches Genre – für ein Millionenpublikum auf Social Media zugänglich zu machen, ohne dabei auf inhaltliche Tiefe zu verzichten. Ihre Kurzform, geboren aus den technischen Grenzen von Instagram und TikTok, verdichtet komplexe emotionale Zustände in wenigen, pointierten Zeilen – eine eigenständige Handwerksform, die sich deutlich von klassischer Buchlyrik unterscheidet und dennoch literarisch ernst genommen wird, belegt durch mehrere Literaturpreise und den Sprung auf Platz 1 der Spiegel-Bestsellerliste mit ihrem ersten Buch.</p>
+          <p class="vb-intro">Das ist keine bloße Reichweitenleistung: Sie hat damit einer ganzen Generation, die sich von klassischer Lyrik oft nicht angesprochen fühlt, einen neuen Zugang zu poetischer Sprache eröffnet – über Themen, die unmittelbar aus dem eigenen Alltag und den eigenen Ängsten dieser Generation stammen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Sechs mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 zeigt sich in Lösels Fähigkeit, aus der eigenen, öffentlich eingestandenen Unsicherheit heraus eine Stimme zu entwickeln, die anderen das Gefühl gibt, mit ihren Ängsten nicht allein zu sein. Ihre schonungslose Direktheit – über Herzschmerz, toxische Kommentare, das eigene Zuwenig-Genügen – trifft bei einer breiten, jungen Zielgruppe einen echten Nerv.</p>
+          <p class="vb-intro">Der Schatten liegt in der Kehrseite derselben Konfrontationsbereitschaft: Die ständige öffentliche Auseinandersetzung mit Hass und Kritik, der sie sich bewusst nicht entzieht, ist eine dauerhafte Belastung, die sie selbst offen einräumt. Für die sexuelle Sechs mit Fünferflügel zählt das Aussprechen der Angst mehr als der Selbstschutz durch Rückzug – auch wenn das einen hohen persönlichen Preis fordert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Angst zur eigenen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Überzeugung <em>Ich kann niemandem vertrauen, am wenigsten mir selbst</em> zur Erkenntnis <em>Ich trage meine eigene innere Führung in mir.</em> Für die SX6w5 bedeutet das, die eigene Angst nicht länger nur als Kampfansage zu behandeln, sondern als etwas, das gehört und dann losgelassen werden darf, statt ständig neu bestätigt werden zu müssen.</p>
+          <p class="vb-intro">Der Titel ihres Debüts ›Wehe du gibst auf‹ ist selbst schon eine Bewegung in diese Richtung: keine Verleugnung der Angst, sondern ein trotziger, ermutigender Zuspruch – an andere ebenso wie an sich selbst –, trotz der Angst weiterzumachen, statt von ihr gelähmt zu werden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-natalie-dormer", label:"Porträt: Natalie Dormer (SX6w5)"},
+        {route:"beruehmte-bobby-fischer", label:"Porträt: Bobby Fischer (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
 export function anaSalcedaPortraitPage() {
   return shell(`
     <div class="page-container">
