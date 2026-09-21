@@ -2178,3 +2178,69 @@ export function charlesLaughtonPortraitPage() {
     </div>
   `);
 }
+
+export function vincenzoCalifanoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-vincenzo-califano-portrait.jpg" alt="Vincenzo Califano" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Vincenzo Califano</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Spiritueller Lehrer (Advaita/Direkter Weg), Zürich – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der aus einem Unternehmen eine Lehre baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Vincenzo Califano lebt und lehrt in Zürich. Nach eigener Schilderung machte er in jungen Jahren eine Erfahrung, „für die es keine Erklärung gab" – ein plötzlicher Bruch im gewohnten Erleben. Parallel dazu führte er über Jahre ein ganz normales Leben: Er arbeitete, übernahm Verantwortung, leitete ein Unternehmen. Erst nach Jahren intensiver Suche – Meditation, Studium verschiedener Methoden – kam der eigentliche Wendepunkt: kein Ereignis durch Anstrengung, sondern das plötzliche Wegfallen des Suchenden selbst.</p>
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – unscheinbar, anpassungsfähig, still geschickt. Genau das beschreibt Califanos Weg: Kein spektakulärer Auftritt als Erleuchteter, sondern jemand, der aus einer nüchternen unternehmerischen Biografie heraus eine strukturierte, funktionierende Lehrtätigkeit aufbaute – Satsangs in mehreren Städten, ein wöchentlicher YouTube-Kanal, ein eigenes Buch, feste Programme für Einzelbegleitung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Struktur statt spirituelles Schauspiel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Statt auf Bühnenwirkung zu setzen, richtet sie ihre Energie auf Kompetenz, Aufbau und funktionierende Strukturen. Bei Califano zeigt sich das darin, dass seine spirituelle Lehrtätigkeit nicht als loses, informelles Herumreisen organisiert ist, sondern als klar gegliedertes Angebot: eine „8 Wochen Begleitung 1:1", Einzelsitzungen, eine feste Mitgliedschaft („Inner Circle"), buchbare Tagesevents mit konkretem Datum und Countdown auf der eigenen Website.</p>
+          <p class="vb-intro">Das ist reine SE3-Logik, übertragen auf ein Feld, das sich traditionell eher gegen Struktur sträubt: Selbst die Lehre von der radikalen Auflösung des suchenden Selbst wird bei Califano in ein verlässliches, wiederholbares System übersetzt – Kompetenz und Verbindlichkeit als Fundament, nicht Charisma als Selbstzweck.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Begleitung als eigentlicher Antrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der selbsterhaltenden Drei den echten Impuls zur persönlichen Zuwendung. Califano beschreibt sein heutiges Wirken explizit in dieser Sprache: „Ich begleite Menschen, die an einem ähnlichen Punkt stehen… Ich öffne einen Raum." Das ist kein distanziertes Vortragen abstrakter Konzepte, sondern eine bewusst persönlich gehaltene Begleitung – verstärkt durch regelmäßige Live-Chats und Frage-Antwort-Formate, in denen er direkt auf einzelne Menschen und ihre konkreten Fragen eingeht.</p>
+          <p class="vb-intro">Dieselbe Zugewandtheit erklärt, warum er in der deutschsprachigen Szene der nichtdualistischen Lehrer neben etablierten Namen wie Gangaji, Mooji oder Byron Katie geführt wird, obwohl sein Wirkungskreis deutlich kleiner ist: Nicht die Reichweite macht den Unterschied, sondern die spürbare, direkte Zuwendung zum Einzelnen in einem eigens dafür geöffneten Raum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: eine unternehmerische Biografie in eine tragfähige Lehrpraxis übersetzt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Califano von vielen anderen Lehrern desselben Feldes unterscheidet, ist die Konsequenz, mit der er seine frühere unternehmerische Erfahrung auf die eigene Lehrtätigkeit überträgt. Seit mindestens 2021 hält er regelmäßig Satsangs (unter anderem in München und Köln), veröffentlicht wöchentlich neue Inhalte auf YouTube und ist in etablierten Verzeichnissen der deutschsprachigen Spiritualitätsszene wie Jetzt-TV gelistet – neben Lehrern, die seit Jahrzehnten im Feld etabliert sind.</p>
+          <p class="vb-intro">In seinem Buch ›Vom einfachen Finden des Glücks – Über den Sinn des Lebens‹ übersetzt er seine eigene Erfahrung in eine zugängliche, alltagstaugliche Sprache – ohne die für viele Lehrer typische esoterische Fachterminologie. Genau diese Übersetzungsarbeit vom abstrakten Erwachens-Erlebnis in ein konkretes, buchbares Format ist die eigentliche fachliche Leistung: Verständlichkeit und Struktur als bewusste Entscheidung, nicht als Kompromiss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 zeigt sich darin, dass Califano komplexe, oft unzugänglich formulierte nichtduale Lehren in ein konkretes, verlässliches Angebot verwandelt, das Menschen tatsächlich erreichen und nutzen können – Struktur im Dienst echter Zuwendung, nicht als Selbstzweck.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist <strong>Eitelkeit / Täuschung</strong> – bei der SE3 subtiler als bei den anderen Dreier-Subtypen: Die Botschaft „Es gibt nichts zu finden, niemanden, der ankommen müsste" wird selbst zu einem vermarktbaren, kostenpflichtigen Produkt – Einzelsitzungen, eine Mitgliedschaft, ticketpflichtige Tagesevents. Diese Spannung zwischen radikaler Botschaft der Nicht-Notwendigkeit und einer klar strukturierten Geschäftstätigkeit rund um genau diese Botschaft ist kein Einzelfall in dieser Szene, verdient bei Califano aber besondere Aufmerksamkeit, weil sie so unverkennbar unternehmerisch organisiert ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Aufbauen zum Sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin – jenseits aller Leistung.</em> Califano lehrt genau das als Kern seiner eigenen Botschaft: „Es geht nicht darum, ein besseres Leben zu erschaffen. Es geht darum, zu erkennen, was schon vollständig ist." Bemerkenswert ist, dass er selbst formuliert, die Identifikation mit der Suche sei das eigentliche Hindernis gewesen – eine sehr direkte, fast wörtliche Beschreibung dessen, was der Heilungsweg der Drei von der Leistungsfixierung wegführen soll.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-sadhguru">Sadhguru</a> (SE3w2): Auch bei ihm zeigt sich dieselbe Kombination aus unternehmerischem Aufbau einer spirituellen Institution und echter, persönlich gehaltener Zuwendung zu den Menschen, die ihm folgen – nur um ein Vielfaches größer skaliert. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-sadhguru">Porträt zu Sadhguru</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
+        {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2)"},
+        {route:"beruehmte-susan-link", label:"Porträt: Susan Link (SE3w2)"},
+      ])}
+    </div>
+  `);
+}

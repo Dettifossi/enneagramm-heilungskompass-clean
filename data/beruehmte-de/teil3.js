@@ -1355,6 +1355,7 @@ export function sadhguruPortraitPage() {
         {route:"beruehmte-joseph-haydn", label:"Portr\u00e4t: Joseph Haydn (SE3w2)"},
         {route:"krankheitsportraets-sadhguru", label:"Krankheitsportr\u00e4t: Sadhguru (SE3w2) \u2013 chronisches subdurales H\u00e4matom"},
         {route:"beruehmte-susan-link", label:"Portr\u00e4t: Susan Link (SE3w2)"},
+        {route:"beruehmte-vincenzo-califano", label:"Portr\u00e4t: Vincenzo Califano (SE3w2) \u2013 spiritueller Lehrer, dieselbe Kombination im kleineren Ma\u00dfstab"},
       ])}
     </div>
   `);

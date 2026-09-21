@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2369", date: "2026-09-21", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Vincenzo Califano (SE3w2) – spiritueller Lehrer, Advaita/Direkter Weg.", text_en: "New portrait under \"Famous Personalities\": Vincenzo Califano (SE3w2) – spiritual teacher, Advaita/Direct Path.", route: "beruehmte-vincenzo-califano" },
     { version: "v2368", date: "2026-09-21", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Don McLean (SE4w5) – Liedermacher, »American Pie«, »Vincent«.", text_en: "New portrait under \"Famous Personalities\": Don McLean (SE4w5) – singer-songwriter, \"American Pie,\" \"Vincent\".", route: "beruehmte-don-mclean" },
     { version: "v2367", date: "2026-09-21", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Michel Foucault (SX1w9) – Philosoph, Macht- und Diskurstheorie.", text_en: "New portrait under \"Famous Personalities\": Michel Foucault (SX1w9) – philosopher, power and discourse theory.", route: "beruehmte-michel-foucault" },
     { version: "v2366", date: "2026-09-20", text: "Neu: Subtyp-Motivationsquiz – errät ausschließlich motivationsbedingtes Verhalten der 27 Subtypen, 2 Schwierigkeitsstufen.", text_en: "New: Subtype Motivation Quiz – guess the 27 subtypes purely from motivation-driven behavior, 2 difficulty levels.", route: "subtyp-motivationsquiz" },
