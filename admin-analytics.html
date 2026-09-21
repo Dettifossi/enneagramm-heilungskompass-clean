@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kompass Admin – Seitenaufrufe</title>
+<style>
+  body { font-family: Georgia, serif; background: #faf8f4; margin: 0; padding: 2rem 1rem; color: #333; }
+  .box { max-width: 900px; margin: 0 auto 2rem; background: #fff; border: 2px solid #c9a84c; border-radius: 12px; padding: 2rem; }
+  h1 { color: #8a6a1a; font-size: 1.3rem; margin: 0 0 1.5rem; }
+  label { display: block; font-size: .9rem; color: #555; margin-bottom: .3rem; }
+  input { width: 100%; box-sizing: border-box; padding: .7rem 1rem; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; margin-bottom: 1rem; font-family: Georgia, serif; }
+  button { background: #8a6a1a; color: #fff; border: none; padding: .7rem 1.5rem; border-radius: 8px; font-size: .95rem; cursor: pointer; }
+  button:disabled { opacity: .5; cursor: default; }
+  .err { background: #fff3f3; border: 1px solid #e57373; color: #c62828; padding: .8rem 1rem; border-radius: 8px; margin-top: 1rem; display: none; }
+  table { width: 100%; border-collapse: collapse; margin-top: 1rem; font-size: .9rem; }
+  th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid #eee; }
+  th { color: #8a6a1a; font-size: .8rem; text-transform: uppercase; letter-spacing: .04em; }
+  tr.route-row { cursor: pointer; }
+  tr.route-row:hover { background: #faf5e8; }
+  .total { text-align: right; font-variant-numeric: tabular-nums; }
+  #chartBox { margin-top: 2rem; display: none; }
+  #chartTitle { font-size: .95rem; color: #555; margin-bottom: .5rem; }
+  svg { width: 100%; height: 180px; overflow: visible; }
+  .bar { fill: #c9a84c; }
+  .bar:hover { fill: #8a6a1a; }
+  .axis-label { font-size: 9px; fill: #999; font-family: Georgia, serif; }
+  .summary { display: flex; gap: 2rem; margin-bottom: 1rem; font-size: .9rem; color: #555; }
+  .summary strong { color: #8a6a1a; font-size: 1.3rem; display: block; }
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>📊 Seitenaufrufe pro Porträt</h1>
+  <p style="color:#666;font-size:.9rem;margin-bottom:1.5rem;">
+    Zeigt Aufrufzahlen seit Einführung des Trackings. Klick auf eine Zeile für den Tagesverlauf.
+  </p>
+
+  <label for="token">Admin-Token</label>
+  <input type="password" id="token" placeholder="Token eingeben">
+  <button id="loadBtn" onclick="load()">Laden</button>
+  <div class="err" id="err"></div>
+
+  <div id="content" style="display:none;">
+    <div class="summary">
+      <div><strong id="sumRoutes">–</strong>getrackte Routen</div>
+      <div><strong id="sumTotal">–</strong>Aufrufe insgesamt</div>
+    </div>
+
+    <input type="text" id="filter" placeholder="Route filtern…" oninput="renderTable()" style="margin-top:.5rem;">
+
+    <table>
+      <thead><tr><th>Route</th><th style="text-align:right;">Aufrufe gesamt</th><th style="text-align:right;">Letzte 7 Tage</th></tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+
+    <div id="chartBox">
+      <div id="chartTitle"></div>
+      <svg id="chart" viewBox="0 0 600 180" preserveAspectRatio="none"></svg>
+    </div>
+  </div>
+</div>
+
+<script>
+let STATS = null;
+
+async function load() {
+  const token = document.getElementById("token").value.trim();
+  const btn = document.getElementById("loadBtn");
+  const err = document.getElementById("err");
+  err.style.display = "none";
+  if (!token) { showErr("Bitte Token eingeben."); return; }
+
+  btn.disabled = true;
+  btn.textContent = "Lädt…";
+  try {
+    const res = await fetch("https://kompass-analytics.9rathmer.workers.dev/stats", {
+      headers: { "Authorization": "Bearer " + token }
+    });
+    if (res.status === 401) { showErr("Falsches Token."); return; }
+    if (!res.ok) { showErr("Fehler: " + res.status); return; }
+    STATS = await res.json();
+    localStorage.setItem("kompass_admin_token", token);
+    document.getElementById("content").style.display = "block";
+    renderTable();
+  } catch (e) {
+    showErr("Netzwerkfehler: " + e.message);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = "Laden";
+  }
+}
+
+function showErr(msg) {
+  const err = document.getElementById("err");
+  err.textContent = msg;
+  err.style.display = "block";
+}
+
+function last7Days(days) {
+  const cutoff = new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 10);
+  return Object.entries(days || {}).filter(([d]) => d >= cutoff).reduce((s, [, n]) => s + n, 0);
+}
+
+function renderTable() {
+  const filter = document.getElementById("filter").value.trim().toLowerCase();
+  const entries = Object.entries(STATS)
+    .filter(([route]) => route.toLowerCase().includes(filter))
+    .sort((a, b) => b[1].total - a[1].total);
+
+  document.getElementById("sumRoutes").textContent = Object.keys(STATS).length;
+  document.getElementById("sumTotal").textContent = Object.values(STATS).reduce((s, r) => s + r.total, 0);
+
+  const tbody = document.getElementById("tbody");
+  tbody.innerHTML = entries.map(([route, data]) => `
+    <tr class="route-row" onclick="showChart('${route.replace(/'/g, "\\'")}')">
+      <td>${route}</td>
+      <td class="total">${data.total}</td>
+      <td class="total">${last7Days(data.days)}</td>
+    </tr>
+  `).join("");
+}
+
+function showChart(route) {
+  const data = STATS[route];
+  if (!data) return;
+  const days = data.days || {};
+  const sortedDays = Object.keys(days).sort();
+  const last30 = sortedDays.slice(-30);
+  const values = last30.map(d => days[d]);
+  const max = Math.max(1, ...values);
+
+  document.getElementById("chartBox").style.display = "block";
+  document.getElementById("chartTitle").textContent = route + " – letzte " + last30.length + " Tage mit Aufrufen";
+
+  const svg = document.getElementById("chart");
+  const w = 600, h = 180, barGap = 2;
+  const barW = last30.length ? (w / last30.length - barGap) : 0;
+  let bars = "";
+  last30.forEach((day, i) => {
+    const val = days[day];
+    const barH = (val / max) * (h - 20);
+    const x = i * (w / last30.length);
+    const y = h - barH;
+    bars += `<rect class="bar" x="${x}" y="${y}" width="${Math.max(1, barW)}" height="${barH}"><title>${day}: ${val}</title></rect>`;
+    if (i % Math.ceil(last30.length / 8 || 1) === 0) {
+      bars += `<text class="axis-label" x="${x}" y="${h + 10}">${day.slice(5)}</text>`;
+    }
+  });
+  svg.innerHTML = bars;
+  document.getElementById("chartBox").scrollIntoView({ behavior: "smooth", block: "nearest" });
+}
+
+// Token aus vorherigem Besuch vorbefüllen (nur lokal im Browser gespeichert)
+const saved = localStorage.getItem("kompass_admin_token");
+if (saved) document.getElementById("token").value = saved;
+</script>
+</body>
+</html>

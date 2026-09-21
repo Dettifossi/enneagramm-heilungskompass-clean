@@ -4422,6 +4422,12 @@ window.addEventListener("hashchange", () => {
   if (newRoute !== "kommunikationsguide") kommGuideState = { subtypeCode: null };
   state.route = newRoute;
   if (window.__gtag) window.__gtag('event', 'page_view', { page_path: '/#' + newRoute, page_title: newRoute });
+  if (location.hostname !== "localhost" && location.hostname !== "127.0.0.1") {
+    fetch("https://kompass-analytics.9rathmer.workers.dev/track", {
+      method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ route: "en/" + newRoute }), keepalive: true,
+    }).catch(() => {});
+  }
   render();
   if (scrollAnchor) setTimeout(() => {
     if (newRoute === "laenderzuordnungen" && window._llFlushLazyRegions) window._llFlushLazyRegions();
