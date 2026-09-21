@@ -3122,6 +3122,182 @@ export function seanConneryKrankheitsportraetPage() {
   `);
 }
 
+export function knutHamsunKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-knut-hamsun-portrait.jpg" alt="Knut Hamsun" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Knut Hamsun</p>
+        <p class="krim-portrait-typ">SP4w5 · Self-Preservation Type 4 with Five-wing · 1859–1952</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Dove</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Knut Hamsun</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-knut-hamsun">portrait under Famous Personalities</a>
+        in this compass – that page covers his literary body of work and his style-defining
+        innovation. This page focuses on what is only touched there: the physical decline of
+        his last decades – arteriosclerosis, a stroke with aphasia, near-total deafness, and a
+        progressive dementia that in 1945 ended in a widely watched psychiatric proceeding
+        against him.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Hamsun</strong> is assigned to the <strong>self-preservation Type 4 with a
+        five-wing</strong>. The SP4 processes suffering not through exchange with others but
+        through withdrawal and quiet self-observation – in Hamsun this showed in his lifelong
+        pattern of retreating to his remote estate at Nørholm rather than seeking public
+        explanation. The five-wing kept an analytical distance intact even during his own
+        psychiatric proceeding: his last book observes his own case almost as if from outside.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Early signs</h3>
+        <p class="vb-intro"><strong>a) Progressive arteriosclerosis from the late 1930s:</strong>
+        Even before 1940, in his ninth decade, Hamsun showed clear signs of progressive
+        vascular calcification – a physical basis that increasingly impaired his mental
+        capacity years before the public took notice.</p>
+        <p class="vb-intro"><strong>b) A stroke with loss of speech in 1942:</strong>
+        In 1942 Hamsun suffered a first cerebral hemorrhage that caused aphasia – a temporary
+        loss of the ability to fluently understand or produce speech, right in the years when
+        he leaned furthest out politically.</p>
+        <p class="vb-intro"><strong>c) Near-total deafness in old age:</strong>
+        In parallel, his hearing deteriorated so severely that conversations increasingly had
+        to be conducted in writing – an additional, very concrete isolation from his
+        surroundings, compounding an already withdrawn way of life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General characteristics</h3>
+        <p class="vb-intro"><strong>a) The Hitler obituary in a state of advanced impairment:</strong>
+        In 1945, at age 86, Hamsun wrote a short, disturbing obituary for Adolf Hitler – an act
+        that many contemporaries read not only as a political stance but also as a symptom of
+        already severely impaired judgment.</p>
+        <p class="vb-intro"><strong>b) Four months of psychiatric observation in 1945/46:</strong>
+        In October 1945 Hamsun was admitted to a psychiatric clinic in Oslo, where he was
+        examined for four months by psychiatrists Gabriel Langfeldt and Ørnulv Ødegård – months
+        he himself later called the "most terrible" of his life.</p>
+        <p class="vb-intro"><strong>c) A verdict between acquittal and conviction:</strong>
+        The examiners declared Hamsun neither insane at the time of examination nor at the time
+        of his controversial actions, but attested to "permanently impaired mental faculties" –
+        a finding that meant neither full culpability nor full exoneration and is still debated
+        today.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential traits</h3>
+        <p class="vb-intro"><strong>a) A final book as detached self-observation:</strong>
+        In 1949, at age 90, Hamsun published <em>On Overgrown Paths</em> – a literarily
+        remarkably controlled account of his own psychiatric evaluation, written by a man who
+        had just been told his mental faculties were permanently impaired.</p>
+        <p class="vb-intro"><strong>b) Retreat to Nørholm instead of public self-justification:</strong>
+        Rather than explain himself publicly or ask for leniency, Hamsun consistently withdrew
+        to his remote estate – the same retreat movement that had shaped his entire life as a
+        writer, now under the sign of a guilty verdict.</p>
+        <p class="vb-intro"><strong>c) No retraction despite massive social pressure:</strong>
+        To the end, Hamsun never fully retracted his political statements, even though he lost
+        his public standing and part of his fortune to a heavy fine – a stubbornness that
+        remained recognizable even amid advanced cognitive decline.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall impact</h3>
+        <p class="vb-intro"><strong>a) From Nobel laureate to convicted collaborator:</strong>
+        The fall from national literary treasure (Nobel Prize in Literature, 1920) to an old man
+        convicted of collaboration and burdened with a heavy fine took place within a few years
+        and shapes Hamsun's posthumous reputation to this day more than any single one of his
+        works.</p>
+        <p class="vb-intro"><strong>b) A still-disputed overall assessment:</strong>
+        Literary scholars and historians continue to argue over how much his organic illness
+        actually explains his late political decisions – a question the surviving evidence can
+        never fully settle.</p>
+        <p class="vb-intro"><strong>c) A late work that deepened the debate rather than ending it:</strong>
+        <em>On Overgrown Paths</em> became a political matter in its own right – celebrated for
+        its literary clarity, while also read as a possible strategy to retroactively present
+        himself as mentally diminished in order to escape a harsher legal judgment.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic effect</h3>
+        <p class="vb-intro"><strong>a) The five-wing as analytical observer of its own decline:</strong>
+        Instead of repressing or emotionally processing his psychiatric proceeding, Hamsun
+        described it in literary form, almost as an outsider studying his own case – typical of
+        the five-wing, which seeks distance even in the face of its own dissolution.</p>
+        <p class="vb-intro"><strong>b) The dove caged in its own isolation:</strong>
+        Deafness, retreat to Nørholm, and effective social ostracism reinforced each other into
+        an almost total seclusion – an extreme case of the withdrawal already characteristic of
+        the self-preservation Four.</p>
+        <p class="vb-intro"><strong>c) Holding to inner truth rather than approval:</strong>
+        Hamsun sought neither public sympathy nor full rehabilitation, but held to his own view,
+        radically at odds with majority opinion – the SP4 signature of weighing one's own
+        perception more heavily than social approval.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The illness as a common thread</h3>
+        <p class="vb-intro"><strong>a) A decades-long organic decline, made public late:</strong>
+        Arteriosclerosis, stroke, aphasia, and progressive deafness accumulated over more than a
+        decade into a physical decline that only became sharply visible to the public through
+        the political events of 1945.</p>
+        <p class="vb-intro"><strong>b) Writing as the last remaining space for expression:</strong>
+        As in his healthy decades, the written word remained Hamsun's most important tool for
+        giving form to the incomprehensible, even in decline – <em>On Overgrown Paths</em> is
+        the last, most striking evidence of that.</p>
+        <p class="vb-intro"><strong>c) Why, of all things, a decline in one's own judgment?</strong>
+        For a self-preservation Four with a five-wing, whose entire identity rests on precise,
+        self-observed perception, an organic decline of exactly that faculty can be read as a
+        particularly existential threat: what Hamsun had trusted most throughout his life – his
+        own sharp judgment – was precisely what increasingly slipped away from him at the end.
+        This reading is developed further in this compass's psychosomatics register.</p>
+        <p class="vb-intro"><strong>d) A pattern, not a determinism:</strong>
+        This does not mean the self-preservation Four with a five-wing pattern inevitably leads
+        to this kind of decline – <strong>anyone can get any illness, regardless of subtype.</strong>
+        Hamsun's health decline is closely tied to purely physical, age-related vascular
+        changes, not purely psychosomatic causes. What his case can show is a pattern in how a
+        pronounced self-preservation Four with a five-wing deals with its own decline – one of
+        many possible readings, not a verdict. The corresponding illness pattern is being
+        developed further, case by case, in this compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">psychosomatics register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Like most people of his time, Hamsun did not consciously know his Enneagram pattern.
+        Without that knowledge, he also lacked access to a conscious distinction between organic
+        decline and long-held conviction – he processed his fate the only way he knew: through
+        silent withdrawal and literary form, rather than seeking outside help in time to make
+        sense of his own condition. Those who recognize their own pattern can consciously
+        counter it; those who don't remain as exposed to their decline as Hamsun was in his
+        final decades.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The self-preservation Four with a five-wing shows itself in <strong>Knut Hamsun</strong>
+        in one last, bitter turn: for a lifetime he trusted his own precise perception more than
+        any outside voice – and in the end had to watch that very perception be undermined by an
+        organic illness, without being able to reliably tell the difference himself any longer.
+        The dove kept writing to the end, even as the overgrown paths of his own mind barely
+        showed a clear way forward anymore.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All illness portraits"},
+        {route:"beruehmte-knut-hamsun", label:"Portrait: Knut Hamsun (SP4w5) – body of work"},
+        {route:"krankheitsportraets-vincent-van-gogh", label:"Illness portrait: Vincent van Gogh (SP4w5) – same subtype, processing crisis through his own art form"},
+        {route:"psychosomatik", label:"Psychosomatics register"},
+        {route:"subtype/se4", label:"Subtype profile SE4"},
+      ])}
+    </div>
+  `);
+}
+
 export function vincentVanGoghKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -3305,6 +3481,7 @@ export function vincentVanGoghKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5) – life's work"},
         {route:"krankheitsportraets-virginia-woolf", label:"Illness Portrait: Virginia Woolf (SE4w5) – same subtype"},
+        {route:"krankheitsportraets-knut-hamsun", label:"Illness portrait: Knut Hamsun (SP4w5) – same subtype, processing crisis through his own art form"},
         {route:"psychosomatik/epilepsie", label:"Psychosomatics Register: Epilepsy"},
         {route:"subtype/se4", label:"Subtype Profile SE4"},
       ])}

@@ -3274,6 +3274,189 @@ export function seanConneryKrankheitsportraetPage() {
   `);
 }
 
+export function knutHamsunKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-knut-hamsun-portrait.jpg" alt="Knut Hamsun" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Knut Hamsun</p>
+        <p class="krim-portrait-typ">SE4w5 · Selbsterhaltender Typ 4 mit Fünferflügel · 1859–1952</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Taube</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Tierentsprechung: Taube" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Knut Hamsun</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-knut-hamsun">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein literarisches Lebenswerk und seine
+        stilprägende Innovation. Im Mittelpunkt steht hier, was dort nur gestreift wird: der
+        gesundheitliche Verfall seiner letzten Lebensjahrzehnte – Arteriosklerose, ein Schlaganfall
+        mit Aphasie, fast vollständige Taubheit und eine fortschreitende Demenz, die 1945 in einem
+        vielbeachteten psychiatrischen Verfahren gegen ihn selbst endete.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Hamsun</strong> ist dem <strong>selbsterhaltenden Typ 4 mit Fünferflügel</strong>
+        zugeordnet. Die SE4 verarbeitet Leid nicht durch Austausch mit anderen, sondern durch
+        Rückzug und stille Selbstbeobachtung – bei Hamsun zeigte sich das in seinem lebenslangen
+        Muster, sich auf den abgelegenen Gutshof Nørholm zurückzuziehen, statt öffentliche
+        Erklärungen zu suchen. Der Fünferflügel hielt selbst im eigenen psychiatrischen Verfahren
+        die analytische Distanz aufrecht: Sein letztes Buch beobachtet den eigenen Fall fast wie
+        von außen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Fortschreitende Arteriosklerose ab den späten 1930er-Jahren:</strong>
+        Bereits vor 1940, im neunten Lebensjahrzehnt, zeigte Hamsun deutliche Anzeichen einer
+        fortschreitenden Gefäßverkalkung – eine körperliche Grundlage, die seine geistige
+        Leistungsfähigkeit zunehmend beeinträchtigte, Jahre bevor die Öffentlichkeit davon Notiz nahm.</p>
+        <p class="vb-intro"><strong>b) Ein Schlaganfall mit Sprachverlust 1942:</strong>
+        1942 erlitt Hamsun eine erste Gehirnblutung, die eine Aphasie zur Folge hatte –
+        einen zeitweisen Verlust der Fähigkeit, Sprache flüssig zu verstehen oder zu produzieren,
+        mitten in den Jahren, in denen er sich politisch am weitesten aus dem Fenster lehnte.</p>
+        <p class="vb-intro"><strong>c) Fast vollständige Taubheit im hohen Alter:</strong>
+        Parallel dazu verschlechterte sich sein Gehör so stark, dass Gespräche zunehmend
+        schriftlich geführt werden mussten – eine zusätzliche, sehr konkrete Isolation von seiner
+        Umgebung, die sich zu der ohnehin zurückgezogenen Lebensweise gesellte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Der Hitler-Nachruf im Zustand fortgeschrittener Beeinträchtigung:</strong>
+        1945, im Alter von 86 Jahren, verfasste Hamsun einen kurzen, verstörenden Nachruf auf
+        Adolf Hitler – eine Handlung, die viele Zeitgenossen zusätzlich zu seiner politischen
+        Haltung auch als Symptom eines bereits stark eingeschränkten Urteilsvermögens lasen.</p>
+        <p class="vb-intro"><strong>b) Vier Monate psychiatrische Beobachtung 1945/46:</strong>
+        Im Oktober 1945 wurde Hamsun in eine psychiatrische Klinik in Oslo eingewiesen und dort
+        von den Psychiatern Gabriel Langfeldt und Ørnulv Ødegård über vier Monate hinweg
+        untersucht – Monate, die er selbst später als die „schrecklichsten" seines Lebens
+        bezeichnete.</p>
+        <p class="vb-intro"><strong>c) Ein Gutachten zwischen Freispruch und Verurteilung:</strong>
+        Die Gutachter erklärten Hamsun weder zum Zeitpunkt der Untersuchung noch zur Zeit seiner
+        umstrittenen Handlungen für unzurechnungsfähig, attestierten ihm aber „dauerhaft
+        geschwächte Geisteskräfte" – ein Befund, der weder vollständige Schuldfähigkeit noch
+        völlige Entlastung bedeutete und bis heute diskutiert wird.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ein letztes Buch als distanzierte Selbstbeobachtung:</strong>
+        1949, mit 90 Jahren, veröffentlichte Hamsun ›Paa gjengrodde Stier‹ (›Auf überwachsenen
+        Pfaden‹) – eine literarisch bemerkenswert kontrollierte Schilderung seiner eigenen
+        psychiatrischen Begutachtung, verfasst von einem Mann, dem gerade attestiert worden war,
+        seine Geisteskräfte seien dauerhaft geschwächt.</p>
+        <p class="vb-intro"><strong>b) Rückzug nach Nørholm statt öffentlicher Rechtfertigung:</strong>
+        Statt sich öffentlich zu erklären oder um Nachsicht zu bitten, zog sich Hamsun konsequent
+        auf seinen abgelegenen Hof zurück – dieselbe Rückzugsbewegung, die sein gesamtes Leben
+        als Schriftsteller geprägt hatte, nun unter den Vorzeichen eines Schuldspruchs.</p>
+        <p class="vb-intro"><strong>c) Kein Widerruf trotz massivem gesellschaftlichem Druck:</strong>
+        Bis zuletzt nahm Hamsun seine politischen Äußerungen nicht vollständig zurück, obwohl
+        ihm das öffentliche Ansehen und ein Teil seines Vermögens durch eine hohe Geldstrafe
+        genommen wurden – eine Sturheit, die selbst im fortgeschrittenen kognitiven Verfall
+        erkennbar blieb.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Vom Nobelpreisträger zum verurteilten Landesverräter:</strong>
+        Der Fall vom literarischen Nationalheiligtum (Literaturnobelpreis 1920) zum wegen
+        Kollaboration verurteilten, mit einer hohen Geldstrafe belegten alten Mann vollzog sich
+        innerhalb weniger Jahre und prägt Hamsuns Nachruhm bis heute stärker als jedes einzelne
+        seiner Werke.</p>
+        <p class="vb-intro"><strong>b) Eine bis heute umstrittene Gesamteinschätzung:</strong>
+        Literaturwissenschaftler und Historiker streiten bis in die Gegenwart darüber, wie stark
+        die organische Erkrankung seine späten politischen Entscheidungen tatsächlich erklärt –
+        eine Frage, die sich angesichts der Quellenlage nie vollständig klären lässt.</p>
+        <p class="vb-intro"><strong>c) Ein Alterswerk, das die Debatte nicht beendete, sondern vertiefte:</strong>
+        ›Paa gjengrodde Stier‹ wurde selbst zum Politikum – gefeiert für seine literarische
+        Klarheit, zugleich als mögliche Strategie gelesen, sich nachträglich als geistig
+        vermindert darzustellen, um einer härteren juristischen Bewertung zu entgehen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Fünferflügel als analytischer Beobachter des eigenen Verfalls:</strong>
+        Statt sein psychiatrisches Verfahren zu verdrängen oder emotional zu verarbeiten,
+        beschrieb Hamsun es literarisch, fast wie ein Außenstehender den eigenen Fall studiert –
+        typisch für den Fünferflügel, der auch angesichts der eigenen Auflösung Distanz sucht.</p>
+        <p class="vb-intro"><strong>b) Die Taube im Käfig der eigenen Isolation:</strong>
+        Taubheit, Rückzug nach Nørholm und die faktische gesellschaftliche Ächtung verstärkten
+        sich gegenseitig zu einer nahezu vollständigen Abgeschiedenheit – ein Extremfall jener
+        Zurückgezogenheit, die für die selbsterhaltende Vier ohnehin kennzeichnend ist.</p>
+        <p class="vb-intro"><strong>c) Beharren auf der eigenen inneren Wahrheit statt auf Zustimmung:</strong>
+        Hamsun suchte weder öffentliches Mitleid noch vollständige Rehabilitierung, sondern hielt
+        an seiner eigenen, von der Mehrheitsmeinung radikal abweichenden Sicht fest – die
+        SE4-Signatur, die eigene Wahrnehmung höher zu gewichten als gesellschaftliche Zustimmung.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein jahrzehntelanger organischer Abbau, spät öffentlich sichtbar:</strong>
+        Arteriosklerose, Schlaganfall, Aphasie und fortschreitende Taubheit summierten sich über
+        mehr als ein Jahrzehnt zu einem körperlichen Verfall, der erst durch die politischen
+        Ereignisse von 1945 in aller Schärfe öffentlich wurde.</p>
+        <p class="vb-intro"><strong>b) Schreiben als letzter verbliebener Ausdrucksraum:</strong>
+        Wie schon in gesunden Jahrzehnten blieb das geschriebene Wort auch im Verfall Hamsuns
+        wichtigstes Werkzeug, um Unfassbares in Form zu bringen – ›Paa gjengrodde Stier‹ ist
+        dafür der letzte, eindringlichste Beleg.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet ein Abbau der eigenen Urteilsfähigkeit?</strong>
+        Für eine selbsterhaltende Vier mit Fünferflügel, deren gesamte Identität auf der eigenen,
+        genau beobachtenden Wahrnehmung beruht, lässt sich in einem organischen Abbau
+        ausgerechnet dieser Fähigkeit eine besonders existenzielle Bedrohung lesen: Was Hamsun
+        zeitlebens am meisten vertraute – sein eigenes, scharfes Urteil –, war genau das, was
+        ihm zuletzt zunehmend entglitt. Diese Deutung wird im Psychosomatik-Register dieses
+        Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Vier mit Fünferflügel
+        zwangsläufig zu einem solchen Verfall führt – <strong>jeder Mensch kann jede Krankheit
+        bekommen, unabhängig vom Subtyp.</strong> Hamsuns gesundheitlicher Niedergang ist eng mit
+        rein körperlichen, altersbedingten Gefäßveränderungen verbunden, nicht rein
+        psychosomatisch zu erklären. Was sich an seinem Fall zeigen lässt, ist ein Muster im
+        Umgang mit dem eigenen Verfall, das bei einer ausgeprägten selbsterhaltenden Vier mit
+        Fünferflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
+        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Hamsun kannte, wie die meisten Menschen seiner Zeit, sein Enneagramm-Muster nicht
+        bewusst. Ohne dieses Wissen blieb ihm auch der Zugang zu einer bewussten Unterscheidung
+        zwischen organischem Verfall und gewachsener Überzeugung verwehrt – er verarbeitete sein
+        Schicksal auf die einzige Weise, die er kannte: durch stillen Rückzug und literarische
+        Form, statt rechtzeitig fremde Hilfe bei der Einordnung des eigenen Zustands zu suchen.
+        Wer das eigene Muster erkennt, kann bewusst gegensteuern; wer es nicht kennt, bleibt
+        seinem Verfall so ausgeliefert, wie Hamsun es in seinen letzten Lebensjahrzehnten war.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die selbsterhaltende Vier mit Fünferflügel zeigt sich bei <strong>Knut Hamsun</strong> in
+        einer letzten, bitteren Volte: Ein Leben lang vertraute er der eigenen, genauen
+        Wahrnehmung mehr als jeder äußeren Stimme – und musste am Ende erleben, wie ausgerechnet
+        diese Wahrnehmung von einer organischen Erkrankung unterwandert wurde, ohne dass er selbst
+        den Unterschied noch zuverlässig erkennen konnte. Die Taube schrieb bis zuletzt, auch als
+        die überwachsenen Pfade des eigenen Geistes kaum noch einen klaren Weg zeigten.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-knut-hamsun", label:"Porträt: Knut Hamsun (SE4w5) – Lebenswerk"},
+        {route:"krankheitsportraets-vincent-van-gogh", label:"Krankheitsporträt: Vincent van Gogh (SE4w5) – gleicher Subtyp, Verarbeitung der Krise durch die eigene Kunstform"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se4", label:"Subtyp-Profil SE4"},
+      ])}
+    </div>
+  `);
+}
+
 export function vincentVanGoghKrankheitsportraetPage() {
   return shell(`
     <div class="page-container">
@@ -3463,6 +3646,7 @@ export function vincentVanGoghKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5) – Lebenswerk"},
         {route:"krankheitsportraets-virginia-woolf", label:"Krankheitsporträt: Virginia Woolf (SE4w5) – gleicher Subtyp"},
+        {route:"krankheitsportraets-knut-hamsun", label:"Krankheitsporträt: Knut Hamsun (SE4w5) – gleicher Subtyp, Verarbeitung der Krise durch die eigene Kunstform"},
         {route:"psychosomatik/epilepsie", label:"Psychosomatik-Register: Epilepsie"},
         {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}
