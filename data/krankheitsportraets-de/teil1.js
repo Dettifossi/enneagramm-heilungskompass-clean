@@ -3296,8 +3296,8 @@ export function knutHamsunKrankheitsportraetPage() {
         <strong>Knut Hamsun</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-knut-hamsun">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein literarisches Lebenswerk und seine
-        stilprägende Innovation. Im Mittelpunkt steht hier, was dort nur gestreift wird: der
-        gesundheitliche Verfall seiner letzten Lebensjahrzehnte – Arteriosklerose, ein Schlaganfall
+        stilprägende Innovation. Diese Seite widmet sich einer Facette, die dort weitgehend
+        ausgespart bleibt: der gesundheitliche Verfall seiner letzten Lebensjahrzehnte – Arteriosklerose, ein Schlaganfall
         mit Aphasie, fast vollständige Taubheit und eine fortschreitende Demenz, die 1945 in einem
         vielbeachteten psychiatrischen Verfahren gegen ihn selbst endete.
       </p>

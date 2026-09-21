@@ -4265,7 +4265,7 @@ export function steveJobsKrankheitsportraetPage() {
         <strong>Steve Jobs</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-steve-jobs">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein Lebenswerk bei Apple, NeXT und Pixar.
-        Im Vordergrund dieser Seite steht ein Kapitel, das dort nur gestreift wird: die 2003
+        Hier rückt ein Kapitel in den Mittelpunkt, das dort nur am Rande erwähnt wird: die 2003
         gestellte Diagnose eines seltenen, grundsätzlich gut behandelbaren neuroendokrinen
         Tumors der Bauchspeicheldrüse – und die neun Monate, in denen Jobs die empfohlene
         Operation zugunsten eigener, alternativer Ansätze hinauszögerte, bevor der Krebs 2009

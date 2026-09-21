@@ -22,7 +22,7 @@ export function cgJungKrankheitsportraetPage() {
         <strong>Carl Gustav Jung</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-cg-jung">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um sein wissenschaftliches Lebenswerk und
-        die Analytische Psychologie. Im Mittelpunkt steht hier, was dort nur gestreift wird:
+        die Analytische Psychologie. Diese Seite beleuchtet, was dort weitgehend unerwähnt bleibt:
         der schwere Herzinfarkt von 1944 mit der ausführlich dokumentierten Nahtoderfahrung,
         die sein gesamtes Spätwerk prägte.
       </p>
