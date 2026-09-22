@@ -36236,6 +36236,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"ich-illusion", titel:"Wer lenkt hier eigentlich wen? \u2013 Der sanfte Ausweg aus der Ich-Illusion", teaser:"Ein sanfter, tiefgr\u00fcndiger Blick auf das konditionierte Ich, die Enneagramm-Fixierungen und die befreiende Frage, wer hier eigentlich wen lenkt.", img:"./assets/portraits/Ich-Illusion.jpeg", kategorie:"geist" },
     { slug:"turiya-enneagramm", titel:"Der Beobachter hinter dem Muster \u2013 Enneagramm und der Turiya-Zustand nach Ramana Maharshi", teaser:"Wie sich die neun Enneagramm-Fixierungen als neun Wege verstehen lassen, aus der eigenen stillen Mitte zu fl\u00fcchten \u2013 und der Weg zur\u00fcck \u00fcber die Selbstergr\u00fcndung.", img:"./assets/schaubilder/turiya-enneagramm/turiya-enneagramm.jpg", kategorie:"geist" },
     { slug:"metaintelligenz-achtsamkeit-im-moment", titel:"Meta-Intelligenz: Achtsamkeit im Moment", teaser:"Die wichtigste F\u00e4higkeit des menschlichen Geistes in vier einfachen Schritten \u2013 den gerade auftauchenden Gedanken beobachten, statt mit ihm zu verschmelzen.", img:"./assets/schaubilder/metaintelligenz-achtsamkeit-im-moment/metaintelligenz-achtsamkeit-im-moment.jpg", kategorie:"geist" },
+    { slug:"vierter-weg-selbsterinnerung", titel:"Der Vierte Weg nach Gurdjieff: Selbsterinnerung mitten im Alltag", teaser:"Vier praktische \u00dcbungswege von G. I. Gurdjieff, um den mechanisierten Alltagsschlaf zu unterbrechen \u2013 ge\u00fcbt mitten im Trubel, nicht im stillen K\u00e4mmerlein.", img:"./assets/schaubilder/vierter-weg-selbsterinnerung/vierter-weg-selbsterinnerung.jpg", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"K\u00f6rper & Bewegung", icon:"\ud83e\udded" },
@@ -36288,6 +36289,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "metaintelligenz-achtsamkeit-im-moment") {
     return metaintelligenzAchtsamkeitPage();
+  }
+  if (param === "vierter-weg-selbsterinnerung") {
+    return vierterWegSelbsterinnerungPage();
   }
 
   return shell(`
@@ -36903,6 +36907,7 @@ function vitruvEnneagrammPage() {
         {route:"beruehmte-leonardo-da-vinci", label:"Porträt: Leonardo da Vinci (SO5w4)"},
         {route:"praxistipps-heilpraktiker/unsichtbarer-magnet", label:"Der unsichtbare Magnet"},
         {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"Das Energiefeld zwischen den Händen"},
+        {route:"praxistipps-heilpraktiker/vierter-weg-selbsterinnerung", label:"Der Vierte Weg nach Gurdjieff: Selbsterinnerung"},
         {route:"practice", label:"Werkzeuge"},
       ])}
     </section>
@@ -37111,6 +37116,68 @@ function metaintelligenzAchtsamkeitPage() {
         {route:"praxistipps-heilpraktiker/bewusstes-innehalten", label:"Die Praxis des bewussten Innehaltens"},
         {route:"praxistipps-heilpraktiker/ich-illusion", label:"Der sanfte Ausweg aus der Ich-Illusion"},
         {route:"stille", label:"9 Minuten Stille sitzen"},
+        {route:"practice", label:"Werkzeuge"},
+      ])}
+    </section>
+  `);
+}
+
+function vierterWegSelbsterinnerungPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1 class="h1--tip">Der Vierte Weg nach Gurdjieff: Selbsterinnerung mitten im Alltag</h1>
+      <p class="lead-small">Vier praktische Übungswege des Mystikers G. I. Gurdjieff, um den „mechanisierten Schlaf" des Alltagsbewusstseins zu unterbrechen – geübt nicht im stillen Kämmerlein, sondern mitten im Trubel von Arbeit, Stress und Beziehungen.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="./assets/schaubilder/vierter-weg-selbsterinnerung/vierter-weg-selbsterinnerung.jpg"
+             alt="Georges I. Gurdjieff an einem Werktisch mit Zahnrädern und einem aufgeschlagenen Buch, im Hintergrund eine hektische Stadtstraße und eine Gruppe meditierender Menschen, verbunden durch die Symbole Enneagramm, drei Zentren und Selbsterinnerung"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Georges I. Gurdjieff (ca. 1866–1949), Philosoph und Begründer des „Vierten Wegs", war auch derjenige, der das alte Symbol des Enneagramms in den Westen brachte und es mit der Lehre von den drei menschlichen Zentren verknüpfte: dem Kopfzentrum (Denken), dem Herzzentrum (Fühlen) und dem Bauchzentrum (Instinkt/Handlung). Im alltäglichen Zustand, so Gurdjieff, schläft der Mensch, weil diese drei Zentren unkoordiniert und mechanisch ablaufen und wir uns vollständig mit dem jeweils gerade auftauchenden Gedanken oder Reiz identifizieren. Ziel der Selbsterinnerung ist es, durch geteilte Aufmerksamkeit und bewusste Präsenz alle drei Zentren gleichzeitig wachzurufen, den inneren Autopiloten zu unterbrechen und aus einer tieferen Essenz heraus zu leben.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Gurdjieff betonte dabei immer wieder: Selbsterinnerung lässt sich nicht durch weltfremde Meditation im stillen Kämmerlein üben, sondern nur mitten im täglichen Leben, im Trubel von Arbeit, Stress und Beziehungen – dort, wo der Mensch normalerweise sofort wieder in seinen mechanischen „Schlaf" zurückfällt. Vier konkrete Übungswege stehen im Zentrum dieses Praxistipps.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">1. Die Stopp-Übung</h2>
+        <p class="vb-intro">In Gurdjieffs Instituten rief er unvermittelt das Wort „Stopp!" in den Raum. Alle Schüler mussten augenblicklich in ihrer exakten Position einfrieren – körperlich, aber vor allem geistig und emotional. Es ging darum, innezuhalten und im Bruchteil einer Sekunde zu bemerken: Was habe ich gerade gedacht? Wie stand ich da? Welches Gefühl lief im Hintergrund ab? Für den Alltag lässt sich das übertragen, indem man sich selbst mehrmals täglich, an bewusst gewählten Momenten, einen solchen inneren „Stopp" setzt und für einen Atemzug innehält, statt automatisch weiterzumachen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">2. Die geteilte Aufmerksamkeit</h2>
+        <p class="vb-intro">Dies ist das technische Herzstück der Übung. Normalerweise fließt die Aufmerksamkeit zu hundert Prozent nach außen, auf das, was gerade getan wird – Autofahren, Tippen, Sprechen. Gurdjieff forderte, diese Aufmerksamkeit bewusst zu teilen: Eine Hälfte bleibt beim äußeren Tun, die andere Hälfte bleibt beim inneren Beobachter – dem schlichten Bewusstsein darüber, dass man es gerade tut. Beim Gehen zum Beispiel bedeutet das, gleichzeitig die eigenen Schritte auf dem Boden zu spüren und die Tatsache wahrzunehmen, dass man geht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">3. Die bewusste Beobachtung mechanischer Reaktionen</h2>
+        <p class="vb-intro">Gurdjieff riet dazu, die eigenen automatischen Reize in ganz alltäglichen Situationen zu ertappen – etwa den Impuls, sich sofort über eine Verspätung zu ärgern, das Smartphone zu checken, sobald es vibriert, oder sich in eine unnötige Rechtfertigung zu verstricken. Selbsterinnerung findet genau in dem Moment statt, in dem dieser Reiz beobachtet wird, anstatt ihm blind zu folgen – nicht das Unterdrücken der Reaktion ist das Ziel, sondern das bloße Bemerken, dass sie gerade abläuft.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">4. Arbeit mit den drei Zentren</h2>
+        <p class="vb-intro">Gurdjieff lehrte, dass der Mensch drei Hauptzentren besitzt: das intellektuelle (Denken), das emotionale (Fühlen) und das bewegungsbezogene, physische Zentrum. Bei der Selbsterinnerung wird versucht, alle drei Zentren gleichzeitig leicht zu aktivieren – also im selben Moment klar zu denken, emotional wach zu sein und den eigenen Körper bewusst zu spüren, statt nur eines der drei Zentren automatisch laufen zu lassen, während die anderen beiden im Autopiloten verharren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Praxis-Tipp:</strong> Gurdjieffs eigener Kernratschlag lautet: nicht versuchen, stundenlang in diesem Zustand zu bleiben. Echte Selbsterinnerung ist für einen ungeübten Menschen anfangs oft nur wenige Sekunden oder Minuten am Stück möglich. Das Geheimnis liegt nicht in der Länge, sondern darin, es mehrmals am Tag kurz zu versuchen – lieber häufig für Sekunden als selten für lange Zeitspannen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">5. Warum dieses Fundament bis heute wirkt</h2>
+        <p class="vb-intro">Genau dieses Prinzip – raus aus dem unbewussten Gedankenstrom, rein in die wache Präsenz des Augenblicks – findet sich heute bei fast allen großen spirituellen Lehrern der Gegenwart wieder, ob bei Eckhart Tolle („Jetzt – Die Kraft der Gegenwart"), bei Adyashanti, bei Rupert Spira oder beim Philosophen Ken Wilber. Ihre Ansätze zur Bewusstseinsbildung und zur Harmonisierung von Geist, Körper und Emotionen bauen direkt auf diesen Ursprüngen des Vierten Wegs auf, auch wenn Gurdjieffs Name dabei nicht immer genannt wird.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Aus eigener über dreißigjähriger heilpraktischer Erfahrung mit Klienten und Patienten kann ich bestätigen, wie wirksam gerade die Kürze und Wiederholbarkeit dieser Übungen im Alltag ist: Die Stopp-Übung oder die geteilte Aufmerksamkeit lassen sich problemlos zwischen zwei Terminen, beim Gehen zum Auto oder beim Warten auf den Kaffee einstreuen – ganz ohne besonderen Rahmen. Wer regelmäßig, auch nur für Sekunden, aus dem mechanischen Ablauf des Alltags heraustritt, verändert damit oft auch den Umgang mit der eigenen Enneagramm-Fixierung, weil das reine Bemerken der eigenen automatischen Muster meist bereits regulierend wirkt, lange bevor eine bewusste Veränderung überhaupt angestrebt wird.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"praxistipps-heilpraktiker/metaintelligenz-achtsamkeit-im-moment", label:"Meta-Intelligenz: Achtsamkeit im Moment"},
+        {route:"praxistipps-heilpraktiker/bewusstes-innehalten", label:"Die Praxis des bewussten Innehaltens"},
+        {route:"praxistipps-heilpraktiker/vitruv-enneagramm", label:"Die Vitruv-Enneagramm-Bewusstseinsübung"},
+        {route:"wurzeln-des-enneagramms", label:"Die Wurzeln des Enneagramms"},
         {route:"practice", label:"Werkzeuge"},
       ])}
     </section>
