@@ -2220,3 +2220,70 @@ export function oliverPocherPortraitPage() {
     </div>
   `);
 }
+
+export function henningBaumPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-henning-baum-portrait.jpg" alt="Henning Baum – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Henning Baum</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, geb. 1972 in Essen &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der seine Kraft nicht zur Schau stellt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> trägt seine Stärke nicht wie ein Schild vor sich her – er baut sie sich still auf, lange bevor sie jemand sieht, und setzt sie nur ein, wenn es wirklich nötig ist. Henning Baum trainierte schon während seiner Schauspielausbildung an der Bochumer Schauspielschule (1994–1997) Karate, Fechten und Boxen – nicht als Show-Element, sondern als handwerkliche Grundlage für eine Karriere, die seine körperliche Präsenz zum eigentlichen darstellerischen Kapital machte.</p>
+          <p class="vb-intro">Bevor Baum überhaupt zur Schauspielerei kam, entschied er sich bewusst gegen eine mehrjährige Verpflichtung als Fallschirmjäger bei der Bundeswehr und leistete stattdessen seinen Zivildienst als Rettungssanitäter – eine praktische, dienende Tätigkeit im Hintergrund, weit weg von jeder Bühne. Dieselbe stille Zuverlässigkeit zieht sich durch sein gesamtes späteres Leben: Er trainiert bis heute eine Kombination aus Kraft, Beweglichkeit und Kampfsportelementen – nicht für einen Auftritt, sondern als tägliche, unspektakuläre Disziplin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Richtig leben statt richtig wirken</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Perfektionsanspruch nicht auf öffentliche Korrektheit, sondern auf die eigene, meist unbeobachtete Lebensführung. Naranjo nannte diesen Subtyp <em>Worry</em> – Besorgnis um das Richtige im ganz Praktischen: Wie lebt man mit möglichst wenig Verschwendung? Wie bleibt man seinem eigenen Maßstab treu, auch wenn niemand zusieht?</p>
+          <p class="vb-intro">Baum lebt genau dieses Muster demonstrativ unspektakulär: Er wäscht sich mit Seife und kaltem Wasser statt mit der wachsenden Zahl an Pflegeprodukten, fährt sein Auto bewusst so lange wie möglich, statt es regelmäßig gegen ein neueres Modell zu tauschen, und begründet seine Ernährungsumstellung hin zu fast fleischlosem Essen nüchtern mit gestiegener eigener Leistungsfähigkeit statt mit einem Trend. Sein eigener Kommentar dazu: „Man sollte seinen Verstand einsetzen und nicht jedem Trend hinterherlaufen." Das ist keine demonstrative Askese – es ist die SE1, die ihre eigenen Maßstäbe nüchtern gegen jede modische Erwartung verteidigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Robustheit statt Rechthaberei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> dämpft bei der Eins die scharfe, öffentlich korrigierende Kante und ersetzt sie durch eine ruhige, in sich gefestigte Haltung, die keine Bühne für die eigene Meinung braucht. Baum selbst formuliert das so: „Ich als Henning Baum bin eigentlich nicht von Bedeutung – man muss nicht alle Seiten von mir kennen." Ein Satz, der bei einer sozialen Eins kaum denkbar wäre, die ihre Prinzipien öffentlich vertreten würde – bei der selbsterhaltenden Eins mit Neunerflügel ist er die logische Konsequenz eines Anspruchs, der sich nach innen statt nach außen richtet.</p>
+          <p class="vb-intro">Dieselbe Zurückhaltung zeigt sich im Umgang mit seiner Familie: Vier Kinder aus zwei Beziehungen, deren Namen und Gesichter er konsequent aus der Öffentlichkeit heraushält, obwohl sein eigenes Gesicht als „Der letzte Bulle"-Kommissar Mick Brisgau bundesweit bekannt ist. In der öffentlichen Debatte um Männlichkeit vertritt er eine Position, die eher merkmalsverschmelzend als konfrontativ ist: „Jeder Mann sollte eine gesunde Robustheit haben" – nicht als Kampfansage an andere Positionen, sondern als ruhig behauptete eigene Überzeugung, die keine Zustimmung einfordert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Handwerk: Vom Rettungssanitäter zum bundesweiten Gesicht des deutschen Krimis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Baums eigentlicher Durchbruch 2002 widerlegt sein späteres Tough-Guy-Image auf bemerkenswerte Weise: Für die Krimiserie <em>Mit Herz und Handschellen</em> spielte er den offen schwulen Kommissar Leo Kraft – eine Rolle, für die er den Deutschen Fernsehpreis als „Bester Schauspieler in einer Serie" erhielt. Dass ausgerechnet der später als Macho-Ermittler bekannt gewordene Baum seine erste große Anerkennung mit einer Rolle gewann, die gängige Männlichkeitsbilder unterlief, zeigt eine darstellerische Bandbreite, die im späteren öffentlichen Bild oft übersehen wird.</p>
+          <p class="vb-intro">Seit 2010 verkörpert er in <em>Der letzte Bulle</em> den Kommissar Mick Brisgau – einen Mann mit klaren Prinzipien und einem feinen Gespür für Heuchelei, der nach Jahrzehnten im Koma in eine veränderte Gegenwart zurückkehrt und dort an seinen eigenen, unveränderten moralischen Maßstäben festhält. Die Rolle machte Baum über anderthalb Jahrzehnte hinweg zu einem der konstantesten Gesichter des deutschen Fernsehkrimis – nicht durch Neuerfindung, sondern durch die verlässliche Fortführung eines einmal gefundenen, integren Charakters.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Baum eine seltene Kombination: physische Disziplin, die nicht der Zurschaustellung dient, sondern der eigenen Verlässlichkeit – vom Rettungssanitäter über den durchtrainierten Method-Ansatz bis zum bewusst genügsamen Alltag. Sein Zitat zur Männlichkeit – „Männlichkeit hat viel damit zu tun, dass man die eigenen Interessen hinten anstellt" – bringt den Kern der SE1 auf den Punkt: Pflicht vor Selbstdarstellung, Familie und Gemeinwohl vor eigenem Vorteil.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Härte, mit der die SE1 ihre eigenen, oft unausgesprochenen Maßstäbe gegen sich selbst richtet – und in einer Zurückhaltung, die bei Baum so konsequent ist, dass selbst die eigenen Kinder öffentlich unsichtbar bleiben. Wo eine sozialere Eins ihre Prinzipien in die Gemeinschaft trägt, bleibt die selbsterhaltende Eins mit Neunerflügel oft ganz bei sich – ein Rückzug, der Integrität schützt, aber auch Nähe kostet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom stillen Anspruch zur gelassenen Selbstverständlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit – von der Frage <em>Lebe ich richtig genug?</em> zur Erkenntnis <em>Mein Anspruch an mich selbst braucht kein Publikum, um wahr zu sein.</em> Für die SE1w9 bedeutet das, die eigene Zurückgezogenheit nicht als Schutzpanzer zu brauchen, sondern als eine von mehreren möglichen Formen echter Integrität zu erleben.</p>
+          <p class="vb-intro">Dass Baum seine Werte – Sparsamkeit, körperliche Disziplin, Zurückhaltung im Reden über sich selbst – über Jahrzehnte hinweg beibehält, ohne sie öffentlich zu verkünden oder anderen aufzudrängen, liest sich als reife Form dieses Musters: nicht die laute Verteidigung der eigenen Richtigkeit, sondern das stille, beharrliche Leben nach ihr.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
+        {route:"beruehmte-reinhold-messner", label:"Porträt: Reinhold Messner (SE1w9)"},
+        {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
+      ])}
+    </div>
+  `);
+}

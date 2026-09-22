@@ -1297,6 +1297,7 @@ export function robertDeNiroPortraitPage() {
         {route:"krankheitsportraets-robert-de-niro", label:"Illness Portrait: Robert De Niro (SE1w9) – prostate cancer"},
         {route:"beruehmte-armin-mueller-stahl", label:"Portrait: Armin Mueller-Stahl (SE1w9)"},
         {route:"beruehmte-dieter-lange", label:"Portrait: Dieter Lange (SP1w9)"},
+        {route:"beruehmte-henning-baum", label:"Portrait: Henning Baum (SP1w9)"},
       ])}
     </div>
   `);
@@ -2211,6 +2212,73 @@ export function leonGoretzkaPortraitPage() {
         {route:"beruehmte-pedro-alonso", label:"Portrait: Pedro Alonso (SO3w4)"},
         {route:"beruehmte-virgil-van-dijk", label:"Portrait: Virgil van Dijk (SO3w2)"},
         {route:"beruehmte-george-vithoulkas", label:"Portrait: Prof. George Vithoulkas (SO3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+export function henningBaumPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-henning-baum-portrait.jpg" alt="Henning Baum – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Henning Baum</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine-wing</p>
+        <p class="krim-portrait-subtitle">Actor, b. 1972 in Essen, Germany &ndash; animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The eagle who doesn't put its strength on display</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> doesn't carry its strength around like a shield – it builds it quietly, long before anyone sees it, and only uses it when truly necessary. Henning Baum trained in karate, fencing, and boxing already during his acting education at the Bochum acting school (1994–1997) – not as a showpiece, but as the craft foundation for a career that would make his physical presence his actual dramatic capital.</p>
+          <p class="vb-intro">Before Baum ever turned to acting, he deliberately decided against a multi-year commitment as a paratrooper in the German army, choosing instead to complete his alternative civilian service as an emergency medical technician – a practical, serving role well away from any stage. The same quiet reliability runs through his entire later life: to this day he trains a combination of strength, flexibility, and combat-sport elements – not for a performance, but as an unspectacular daily discipline.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: living rightly rather than appearing right</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> directs its drive for perfection not at public correctness, but at its own, mostly unobserved way of living. Naranjo called this subtype <em>Worry</em> – concern with getting the practical, everyday things right: how to live with as little waste as possible, how to stay true to one's own standard even when no one is watching.</p>
+          <p class="vb-intro">Baum lives out exactly this pattern in a demonstratively unspectacular way: he washes with soap and cold water instead of the growing array of personal-care products, keeps driving his car as long as possible rather than regularly trading it in for a newer model, and explains his shift toward an almost meat-free diet soberly as improved personal performance rather than as following a trend. His own comment on it: "One should use one's own judgment and not chase after every trend." This isn't demonstrative asceticism – it's the SE1 quietly defending its own standards against fashionable expectation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: robustness instead of righteousness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> softens the One's sharp, publicly correcting edge and replaces it with a calm, self-contained stance that needs no stage for its own opinion. Baum puts it this way: "As Henning Baum, I'm not really significant – people don't need to know every side of me." A sentence that would be hard to imagine from a social One, who would tend to carry their principles into the public arena – for the self-preservation One with a Nine-wing, it is the logical consequence of a standard turned inward rather than outward.</p>
+          <p class="vb-intro">The same restraint shows in how he handles his family: four children from two relationships, whose names and faces he consistently keeps out of the public eye, even though his own face, as detective Mick Brisgau in "Der letzte Bulle," is known nationwide. In the public debate about masculinity, he takes a position that merges rather than confronts: "Every man should have a healthy robustness" – not as a declaration of war on other positions, but as a calmly stated conviction of his own that demands no agreement.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The craft: from paramedic to a nationally known face of German crime television</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Baum's actual breakthrough in 2002 remarkably contradicts his later tough-guy image: in the crime series "Mit Herz und Handschellen" ("With Heart and Handcuffs") he played the openly gay detective Leo Kraft – a role for which he received the German Television Award for "Best Actor in a Series." That the man who would later become known as a macho investigator won his first major recognition for a role that undercut conventional images of masculinity reveals a dramatic range that his later public image often obscures.</p>
+          <p class="vb-intro">Since 2010, he has played detective Mick Brisgau in "Der letzte Bulle" ("The Last Cop") – a man with clear principles and a fine instinct for hypocrisy who, after decades in a coma, returns to a changed present and holds fast to his own unchanged moral standards. The role made Baum, over a decade and a half, one of the most consistent faces of German television crime drama – not through reinvention, but through the reliable continuation of an already-found, principled character.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the self-preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In its light, Baum shows a rare combination: physical discipline that serves not self-display but his own reliability – from paramedic training, through a rigorously physical approach to acting, to a deliberately frugal everyday life. His comment on masculinity – "masculinity has a lot to do with putting your own interests last" – captures the core of the SE1: duty before self-presentation, family and the common good before personal advantage.</p>
+          <p class="vb-intro">The shadow shows in the harshness with which the SE1 turns its own, often unspoken standards against itself – and in a reticence so consistent, in Baum's case, that even his own children remain publicly invisible. Where a more social One carries its principles into the community, the self-preservation One with a Nine-wing often stays entirely to itself – a withdrawal that protects integrity, but costs closeness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The healing path: from quiet standard to relaxed self-evidence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One's healing path leads from anger to serenity – from the question <em>Am I living rightly enough?</em> to the realization <em>My own standard doesn't need an audience to be true.</em> For the SE1w9, this means no longer needing withdrawal as a protective shell, but experiencing it as one of several possible forms of genuine integrity.</p>
+          <p class="vb-intro">That Baum has kept his values – frugality, physical discipline, reticence about himself – consistent over decades, without proclaiming them publicly or pressing them on others, reads as a mature form of this pattern: not the loud defense of one's own rightness, but the quiet, persistent practice of it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: subtype profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Eagle"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SE1w9)"},
+        {route:"beruehmte-reinhold-messner", label:"Portrait: Reinhold Messner (SE1w9)"},
+        {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SE1w9)"},
       ])}
     </div>
   `);

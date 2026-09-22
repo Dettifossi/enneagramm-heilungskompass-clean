@@ -202,6 +202,7 @@ export function anthonyHopkinsPortraitPage() {
         {route:"beruehmte-herman-van-veen", label:"Portrait: Herman van Veen (SP1w9)"},
         {route:"beruehmte-jodie-foster", label:"Portrait: Jodie Foster (SX5w6) – co-star in 'The Silence of the Lambs'"},
         {route:"krankheitsportraets-anthony-hopkins", label:"Illness Portrait: Anthony Hopkins (SP1w9) – alcoholism and sobriety since 1975"},
+        {route:"beruehmte-henning-baum", label:"Portrait: Henning Baum (SP1w9)"},
       ])}
     </div>
   `);

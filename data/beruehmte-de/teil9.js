@@ -1861,6 +1861,7 @@ export function reinholdMessnerPortraitPage() {
         {route:"beruehmte-dieter-lange", label:"Porträt: Dieter Lange (SE1w9) – ähnliche Blickqualität"},
         {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
         {route:"beruehmte-herman-van-veen", label:"Porträt: Herman van Veen (SE1w9)"},
+        {route:"beruehmte-henning-baum", label:"Porträt: Henning Baum (SE1w9)"},
       ])}
     </div>
   `);

@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2382", date: "2026-09-22", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Henning Baum (SE1w9) – Schauspieler, ›Der letzte Bulle‹.", text_en: "New portrait under \"Famous Personalities\": Henning Baum (SP1w9) – actor, \"Der letzte Bulle.\"", route: "beruehmte-henning-baum" },
     { version: "v2381", date: "2026-09-22", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Archimedes (SX5w4) – griechischer Mathematiker und Physiker der Antike.", text_en: "New portrait under \"Famous Personalities\": Archimedes (SX5w4) – ancient Greek mathematician and physicist.", route: "beruehmte-archimedes" },
     { version: "v2380", date: "2026-09-22", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Clara Lösel (SX6w5) – Lyrikerin, Bestsellerautorin ›Wehe du gibst auf‹.", text_en: "New portrait under \"Famous Personalities\": Clara Lösel (SX6w5) – poet, bestselling author \"Wehe du gibst auf.\"", route: "beruehmte-clara-loesel" },
     { version: "v2379", date: "2026-09-22", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Ingmar Bergman (SE4w5) – Regisseur, ›Das siebente Siegel‹, ›Persona‹.", text_en: "New portrait under \"Famous Personalities\": Ingmar Bergman (SP4w5) – director, \"The Seventh Seal,\" \"Persona.\"", route: "beruehmte-ingmar-bergman" },

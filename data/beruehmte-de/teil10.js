@@ -133,6 +133,7 @@ export function anthonyHopkinsPortraitPage() {
         {route:"beruehmte-herman-van-veen", label:"Porträt: Herman van Veen (SE1w9)"},
         {route:"beruehmte-jodie-foster", label:"Porträt: Jodie Foster (SX5w6) – Hauptdarstellerin in ›Das Schweigen der Lämmer‹"},
         {route:"krankheitsportraets-anthony-hopkins", label:"Krankheitsporträt: Anthony Hopkins (SE1w9) – Alkoholerkrankung und Nüchternheit seit 1975"},
+        {route:"beruehmte-henning-baum", label:"Porträt: Henning Baum (SE1w9)"},
       ])}
     </div>
   `);
