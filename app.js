@@ -36902,6 +36902,17 @@ function vitruvEnneagrammPage() {
         </details>
       </div>
 
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Buchtipps von Detlef Rathmer</h2>
+        ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben praxisnahe Wege, die helfen, sich selbst näherzukommen – ohne Umwege, ohne Schönrederei, direkt und klar.", "7 Wege zu Dir selbst")}
+        <div style="margin-top:.8rem;">${bookTip("nichts-und-alles", "Ein Buch über das Wesen des Bewusstseins – zwischen Leere und Fülle, zwischen dem Nichts und dem Alles des Lebens.", "Nichts und Alles")}</div>
+        <div style="margin-top:.8rem;">${bookTip("der-raum-hinter-allem", "Eine Erkundung des Bewusstseins jenseits der Gedanken – über den stillen Raum, der hinter allem Erleben liegt.", "Der Raum hinter allem")}</div>
+        <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "Ein spirituelles Buch über die tiefste Stille in uns und die Erfahrung von Transzendenz jenseits aller Konzepte.", "Sei still und wisse – ich bin Gott!")}</div>
+        <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind – ein tiefgründiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}</div>
+        <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Wie wir lernen, unsere eigenen Gedanken zu beobachten – und damit einen neuen Grad an innerer Freiheit und Klarheit gewinnen.", "Meta-Intelligenz")}</div>
+        <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">Alle Titel und weitere spirituelle Literatur von Detlef Rathmer finden sich auch auf der Homepage des Verlagshauses Rathmer unter „Persönliche Entwicklung".</p>
+      </div>
+
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
         {route:"beruehmte-leonardo-da-vinci", label:"Porträt: Leonardo da Vinci (SO5w4)"},
@@ -37108,6 +37119,11 @@ function metaintelligenzAchtsamkeitPage() {
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Buchtipps</h2>
         ${bookTip("meta-intelligenz", "Meta-Intelligenz – die Intelligenz, die alle anderen Intelligenzen verbündet und das volle Potenzial des Bewusstseins erschließt.", "Meta-Intelligenz")}
         <div style="margin-top:.8rem;">${bookTip("meta-intelligenz-das-hoerbuch", "Meta-Intelligenz als Hörbuch – ideal für unterwegs oder zum meditativen Zuhören, mit der hier beschriebenen Übung ausführlich vertieft.", "Meta-Intelligenz (Hörbuch)")}</div>
+        <div style="margin-top:.8rem;">${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben praxisnahe Wege, die helfen, sich selbst näherzukommen – ohne Umwege, ohne Schönrederei, direkt und klar.", "7 Wege zu Dir selbst")}</div>
+        <div style="margin-top:.8rem;">${bookTip("nichts-und-alles", "Ein Buch über das Wesen des Bewusstseins – zwischen Leere und Fülle, zwischen dem Nichts und dem Alles des Lebens.", "Nichts und Alles")}</div>
+        <div style="margin-top:.8rem;">${bookTip("der-raum-hinter-allem", "Eine Erkundung des Bewusstseins jenseits der Gedanken – über den stillen Raum, der hinter allem Erleben liegt.", "Der Raum hinter allem")}</div>
+        <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "Ein spirituelles Buch über die tiefste Stille in uns und die Erfahrung von Transzendenz jenseits aller Konzepte.", "Sei still und wisse – ich bin Gott!")}</div>
+        <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind – ein tiefgründiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}</div>
         <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">Alle Titel und weitere spirituelle Literatur von Detlef Rathmer finden sich auch auf der Homepage des Verlagshauses Rathmer unter „Persönliche Entwicklung".</p>
       </div>
 
@@ -37170,6 +37186,17 @@ function vierterWegSelbsterinnerungPage() {
         <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">5. Warum dieses Fundament bis heute wirkt</h2>
         <p class="vb-intro">Genau dieses Prinzip – raus aus dem unbewussten Gedankenstrom, rein in die wache Präsenz des Augenblicks – findet sich heute bei fast allen großen spirituellen Lehrern der Gegenwart wieder, ob bei Eckhart Tolle („Jetzt – Die Kraft der Gegenwart"), bei Adyashanti, bei Rupert Spira oder beim Philosophen Ken Wilber. Ihre Ansätze zur Bewusstseinsbildung und zur Harmonisierung von Geist, Körper und Emotionen bauen direkt auf diesen Ursprüngen des Vierten Wegs auf, auch wenn Gurdjieffs Name dabei nicht immer genannt wird.</p>
         <p class="vb-intro" style="margin-top:1rem;">Aus eigener über dreißigjähriger heilpraktischer Erfahrung mit Klienten und Patienten kann ich bestätigen, wie wirksam gerade die Kürze und Wiederholbarkeit dieser Übungen im Alltag ist: Die Stopp-Übung oder die geteilte Aufmerksamkeit lassen sich problemlos zwischen zwei Terminen, beim Gehen zum Auto oder beim Warten auf den Kaffee einstreuen – ganz ohne besonderen Rahmen. Wer regelmäßig, auch nur für Sekunden, aus dem mechanischen Ablauf des Alltags heraustritt, verändert damit oft auch den Umgang mit der eigenen Enneagramm-Fixierung, weil das reine Bemerken der eigenen automatischen Muster meist bereits regulierend wirkt, lange bevor eine bewusste Veränderung überhaupt angestrebt wird.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Buchtipps</h2>
+        ${bookTip("7-wege-zu-dir-selbst-lebenskunst-fuer-den-alltag", "Sieben praxisnahe Wege, die helfen, sich selbst näherzukommen – ohne Umwege, ohne Schönrederei, direkt und klar.", "7 Wege zu Dir selbst")}
+        <div style="margin-top:.8rem;">${bookTip("nichts-und-alles", "Ein Buch über das Wesen des Bewusstseins – zwischen Leere und Fülle, zwischen dem Nichts und dem Alles des Lebens.", "Nichts und Alles")}</div>
+        <div style="margin-top:.8rem;">${bookTip("der-raum-hinter-allem", "Eine Erkundung des Bewusstseins jenseits der Gedanken – über den stillen Raum, der hinter allem Erleben liegt.", "Der Raum hinter allem")}</div>
+        <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "Ein spirituelles Buch über die tiefste Stille in uns und die Erfahrung von Transzendenz jenseits aller Konzepte.", "Sei still und wisse – ich bin Gott!")}</div>
+        <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind – ein tiefgründiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}</div>
+        <div style="margin-top:.8rem;">${bookTip("meta-intelligenz", "Wie wir lernen, unsere eigenen Gedanken zu beobachten – und damit einen neuen Grad an innerer Freiheit und Klarheit gewinnen.", "Meta-Intelligenz")}</div>
+        <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">Alle Titel und weitere spirituelle Literatur von Detlef Rathmer finden sich auch auf der Homepage des Verlagshauses Rathmer unter „Persönliche Entwicklung".</p>
       </div>
 
       ${relatedLinks([
