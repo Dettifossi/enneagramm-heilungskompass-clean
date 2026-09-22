@@ -10,45 +10,45 @@ export function peterSagePortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-peter-sage-portrait.jpg" alt="Peter Sage – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Peter Sage</p>
-        <p class="krim-portrait-typ">SO8w7 &middot; Sozialer Typ 8 mit Siebenerflügel</p>
-        <p class="krim-portrait-subtitle">Serienunternehmer, Speaker &amp; Autor, geb. 1972 in Leicester &ndash; Tierentsprechung: Löwe</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Serienunternehmer, Speaker &amp; Autor, geb. 1972 in Leicester &ndash; Tierentsprechung: Gans</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Der Löwe, der sein eigenes Rudel im Gefängnis fand</h2>
+        <h2 class="vb-section">1. Die Gans, die ein kaputtes System neu ordnete</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Löwe</strong> verteidigt sein Rudel am entschlossensten genau dort, wo es am gefährlichsten ist. Peter Sage, 1972 in Leicester geboren, brach mit 16 die Schule ab und gründete in den folgenden 15 Jahren über 27 Unternehmen – manche „grandios gescheitert", wie er selbst sagt, andere zu globalen Erfolgsgeschichten geworden, darunter die Energie Fitness Group, eine der am schnellsten wachsenden Fitnessstudio-Ketten Großbritanniens.</p>
-          <p class="vb-intro">2017 wurde Sage wegen Missachtung des Gerichts in einer Zivilsache für mehrere Monate in Pentonville inhaftiert, einem der gefährlichsten Gefängnisse Großbritanniens. Statt sich zurückzuziehen, wurde er dort zum informellen Mentor für Mitgefangene: Er half Süchtigen beim Entzug, verhinderte Suizide und entwarf ein neues Aufnahmesystem für Neuankömmlinge, das die Gewalt zwischen den Gefängnisflügeln senken sollte – ein System, das heute landesweit in britischen Gefängnissen eingesetzt wird.</p>
+          <p class="vb-intro">Die <strong>Gans</strong> fliegt in Formation und sorgt dafür, dass alle Regeln stimmen – nicht aus Lust an der Kontrolle, sondern aus einem tiefen Gespür dafür, wie etwas richtig gemacht werden müsste. Peter Sage, 1972 in Leicester geboren, brach mit 16 die Schule ab und gründete in den folgenden 15 Jahren über 27 Unternehmen – manche „grandios gescheitert", wie er selbst sagt, andere zu globalen Erfolgsgeschichten geworden, darunter die Energie Fitness Group, eine der am schnellsten wachsenden Fitnessstudio-Ketten Großbritanniens.</p>
+          <p class="vb-intro">2017 wurde Sage wegen Missachtung des Gerichts in einer Zivilsache für mehrere Monate in Pentonville inhaftiert, einem der gefährlichsten Gefängnisse Großbritanniens. Statt sich der Situation zu ergeben, störte ihn dort vor allem eines: wie offensichtlich falsch und ineffektiv das System selbst organisiert war. Er entwarf ein neues Aufnahmesystem für Neuankömmlinge, das die Gewalt zwischen den Gefängnisflügeln senken sollte – ein System, das heute landesweit in britischen Gefängnissen eingesetzt wird.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die soziale Acht: Verantwortung für das ganze System</h2>
+        <h2 class="vb-section">2. Die soziale Eins: Die Welt soll richtig funktionieren</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre Kraft in den Dienst der Gemeinschaft. Naranjo nannte diesen Subtyp <em>Solidarität</em>: Die SO8 übernimmt Verantwortung nicht nur für sich selbst, sondern für das größere Ganze, gerade dort, wo Schwächere sonst übersehen würden. Genau das zeigt sich bei Sage in Pentonville: Er organisierte nicht nur seine eigene Bewältigung der Haft, sondern reformierte ein ganzes institutionelles System zugunsten aller künftigen Insassen.</p>
-          <p class="vb-intro">Dieses Muster zieht sich durch sein gesamtes Werk: 2002 wurde er offizieller Trainer für Robbins Research International und arbeitete mit Drogenabhängigen, Obdachlosen und Traumaopfern. Er engagierte sich bei der London Basket Brigade, die tausende bedürftige Familien zu Weihnachten mit Lebensmitteln versorgt, und verbrachte mehrere Monate in Subsahara-Afrika, um dort Armut durch Bildungsarbeit zu bekämpfen – nie die eine enge Verbindung, immer das größere System im Blick.</p>
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> trägt ihre inneren Maßstäbe von Richtig und Falsch nach außen und empfindet echte Unruhe, wenn ein System – eine Institution, eine Gesellschaft, eine ganze Branche – offensichtlich falsch funktioniert. Naranjo beschrieb diesen Subtyp als geprägt von einer grundlegenden ›Nicht-Anpassungsfähigkeit‹: Man kann sich mit offensichtlichem Unrecht oder offensichtlicher Ineffizienz nicht einfach abfinden, sondern muss korrigieren. Genau das zeigt sich bei Sage in Pentonville: Es ging ihm nicht in erster Linie darum, sich selbst oder Einzelne zu schützen, sondern darum, ein fehlerhaftes System auf den richtigen Stand zu bringen.</p>
+          <p class="vb-intro">Dieses Muster zieht sich durch sein gesamtes Werk: 2002 wurde er offizieller Trainer für Robbins Research International und arbeitete mit Drogenabhängigen, Obdachlosen und Traumaopfern – stets mit dem Anspruch, ihnen den tatsächlich richtigen Weg aus ihrer Lage zu zeigen, nicht nur Trost zu spenden. Seine gesamte Redner- und Autorenkarriere ist im Kern ein Lehrauftrag: Er zeigt Menschen, wie man es richtig macht, mit der moralischen Überzeugung, dass es eine bessere, korrektere Art zu leben gibt als die, die die meisten praktizieren.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Siebenerflügel: Von 27 Firmen bis zum Weltredner auf fünf Kontinenten</h2>
+        <h2 class="vb-section">3. Der Neunerflügel: Reform ohne Rechthaberei</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenerflügel</strong> verleiht der sozialen Acht ein zusätzliches Tempo und eine kaum zu bremsende Bandbreite. Während eine SO8w9 aus der Ruhe heraus schützt, tut die <strong>SO8w7</strong> es mit Schwung: Sage sprach auf fünf Kontinenten, teilte sich die Bühne mit Richard Branson und Bill Clinton und gründete parallel zu seiner Coaching-Arbeit immer wieder neue Unternehmen in völlig unterschiedlichen Branchen, von der Anti-Aging-Firma World Wide Health Corporation bis zur Fitnessstudio-Kette.</p>
-          <p class="vb-intro">Bereits mit 25 Jahren war er finanziell unabhängig, besaß Haus und Ferrari – bis der Druck des eigenen Tempos in einem beinahe tödlichen Autounfall gipfelte, Folge eines Burnouts durch genau diese ungebremste Siebenerflügel-Energie. Statt daraus eine Bremse zu machen, verwandelte er die Erfahrung in ein neues Lehrthema: Wie man Höchstleistung erreicht, ohne sich dabei selbst zu zerstören.</p>
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> nimmt der sozialen Eins die scharfe, konfrontative Kante und ersetzt sie durch einen ruhigen, fast entspannten Vortragsstil – der moralische Ernst bleibt, wird aber nicht laut vertreten, sondern gelassen vorgelebt. Genau das beschreiben Beobachter an Sages Lehrmethode: ein gesprächsartiger, erzählerischer Stil statt direkter Belehrung, Geschichten und Beispiele statt erhobenem Zeigefinger.</p>
+          <p class="vb-intro">Seine Kernthese bringt diese Mischung aus Einser-Anspruch und Neunerflügel-Gelassenheit auf den Punkt: Nicht härteres Arbeiten löst die meisten Probleme, sondern das bewusste Akzeptieren dessen, was sich nicht ändern lässt. Das ist eine zutiefst neunertypische Botschaft – Akzeptanz statt Kampf –, verpackt in eine einsertypische, klar strukturierte Lehre mit Anspruch auf Richtigkeit. Bereits mit 25 Jahren war Sage finanziell unabhängig, besaß Haus und Ferrari – bis der Druck des eigenen unerbittlichen Leistungsanspruchs in einem beinahe tödlichen Autounfall gipfelte, Folge eines Burnouts durch genau diese Kombination aus hohem inneren Maßstab und äußerlich beherrschter Ruhe, die keine Warnsignale zuließ.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Die Substanz: Der ›Alpha State‹ statt reiner Willenskraft</h2>
+        <h2 class="vb-section">4. Die Substanz: Der ›Alpha State‹ als lehrbares Korrektiv</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Bloße Motivationsrhetorik erklärt nicht, warum Sages Arbeit seit über zwei Jahrzehnten trägt. Sein zentrales, konkret lehrbares Konzept ist der sogenannte ›Alpha State‹: eine Gehirnwellenfrequenz unter 12 Hz, die sich laut Sage durch eine gezielte Atemtechnik herstellen lässt – sechs Sekunden ein-, sechs Sekunden ausatmen, im Kreis, zehn Wiederholungen. Die physiologische Wirkung: Cortisol sinkt, das Verhältnis von CO2 und Sauerstoff im Blut reguliert sich neu, das Gehirn wechselt aus dem Kampf-oder-Flucht-Modus in einen empfänglicheren Zustand.</p>
-          <p class="vb-intro">Seine Kernthese dreht damit eine verbreitete Erfolgslogik um: Nicht härteres Arbeiten löst die meisten Probleme, sondern das bewusste Akzeptieren dessen, was sich nicht ändern lässt, kombiniert mit dem gezielten Wechsel in einen kreativeren, aufnahmefähigeren Bewusstseinszustand. Das ist die eigentliche fachliche Leistung hinter der Redner-Bühne: eine aus eigener Erfahrung – Burnout, Beinaheunfall, Gefängnis – destillierte, überprüfbare Technik, keine bloße Willensappelle.</p>
+          <p class="vb-intro">Bezeichnend ist die Form, die er dieser Erkenntnis gibt: kein loses Gefühl, sondern ein exaktes, wiederholbares Protokoll mit fester Sekundenzahl und fester Wiederholungsanzahl – die typisch einsertypische Systematisierung eines an sich weichen, neunertypischen Zustands der Hingabe und Akzeptanz. Das ist die eigentliche fachliche Leistung hinter der Redner-Bühne: eine aus eigener Erfahrung – Burnout, Beinaheunfall, Gefängnis – destillierte, überprüfbare Technik, in ein korrektes, lehrbares System gegossen.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Licht und Schatten der sozialen Acht</h2>
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Eins</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Im Licht zeigt sich bei Sage die Fähigkeit, persönliche Krisen unmittelbar in systemische Verbesserung zu übersetzen – vom Burnout-Unfall zur Alpha-State-Methode, von der eigenen Haft zur landesweiten Gefängnisreform. Die SO8w7 wartet nicht auf die perfekte Gelegenheit, sondern handelt direkt im Moment der Krise, mit der ganzen Wucht der Achter-Kraft und dem Tempo des Siebenerflügels.</p>
-          <p class="vb-intro">Das Schicksalsmuster der Acht ist die <strong>Wollust</strong> im Sinne von Übermaß und Kontrollbedürfnis – bei der SO8 gerichtet auf das Übernehmen von Verantwortung, die eigentlich geteilt werden müsste. Dass Sage mit 25 Jahren einen beinahe tödlichen Unfall aus reiner Selbstüberforderung erlitt, zeigt diese Schattenseite deutlich: Die Weigerung, die eigenen Grenzen anzuerkennen, bevor der Körper sie gewaltsam durchsetzt.</p>
+          <p class="vb-intro">Im Licht zeigt sich bei Sage die Fähigkeit, persönliche Krisen unmittelbar in systemische Verbesserung zu übersetzen – vom Burnout-Unfall zur Alpha-State-Methode, von der eigenen Haft zur landesweiten Gefängnisreform. Die SO1w9 reagiert auf ein fehlerhaftes System nicht mit lautem Protest, sondern mit der ruhigen, beharrlichen Arbeit an einer besseren, korrekten Lösung.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> – bei der SO1w9 gedämpft durch den Neunerflügel, aber nicht verschwunden: Er zeigt sich weniger als offene Wut denn als unerbittliche innere Strenge gegen sich selbst. Dass Sage mit 25 Jahren einen beinahe tödlichen Unfall aus reiner Selbstüberforderung erlitt, zeigt diese Schattenseite deutlich: Die Weigerung, die eigenen Grenzen anzuerkennen, weil der innere Anspruch an das Richtige keine Schwäche zulässt, bis der Körper sie gewaltsam durchsetzt.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Der Heilungsweg: Von der grenzenlosen Kraft zur bewussten Regulation</h2>
+        <h2 class="vb-section">6. Der Heilungsweg: Vom richtigen Weg zur gelassenen Wahrheit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Acht führt von der Frage <em>Muss ich jede Kraft sofort und vollständig einsetzen?</em> zur Erkenntnis <em>Wahre Stärke schließt Selbstregulation ein.</em> Für die SO8w7 bedeutet das, die eigene Wucht nicht länger nur im Außen zu beweisen, sondern auch nach innen zu richten – genau das, was die Alpha-State-Technik lehrt.</p>
-          <p class="vb-intro">Dass Sage seinen eigenen Beinaheunfall und später seine Gefängniszeit nicht verschwieg, sondern in lehrbare Systeme übersetzte – ein Buch aus Gefängnisbriefen, eine landesweit genutzte Reform, eine atembasierte Methode gegen Überforderung –, liest sich als genau dieser Weg: Der Löwe, der seine Kraft nicht mehr nur zum Verteidigen des Rudels einsetzt, sondern auch dazu, dem Rudel beizubringen, wie es sich selbst reguliert.</p>
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit – von der Frage <em>Muss ich das System und mich selbst so lange korrigieren, bis alles stimmt?</em> zur Erkenntnis <em>Manches darf unvollkommen bleiben, ohne dass ich versage.</em> Für die SO1w9 bedeutet das, den eigenen Reformanspruch nicht länger als ständigen inneren Kampf zu erleben, sondern als das, was er im Kern schon ist: gelebte Akzeptanz, die andere mitträgt.</p>
+          <p class="vb-intro">Dass Sage seinen eigenen Beinaheunfall und später seine Gefängniszeit nicht verschwieg, sondern in lehrbare, korrigierte Systeme übersetzte – eine landesweit genutzte Reform, eine atembasierte Methode gegen Überforderung –, liest sich als genau dieser Weg: Die Gans, die nicht mehr nur die Formation um jeden Preis korrekt hält, sondern lernt, dass auch ein ruhiger, akzeptierender Flug ans Ziel führt.</p>
         </blockquote>
 
       </div>
@@ -57,11 +57,11 @@ export function peterSagePortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
-        {route:"lebensmusterkompass/so8", label:"Lebensmusterkompass: SO8 – Löwe"},
-        {route:"beruehmte-carsten-stahl", label:"Porträt: Carsten Stahl (SO8w7)"},
-        {route:"beruehmte-jon-hamm", label:"Porträt: Jon Hamm (SO8w7)"},
-        {route:"beruehmte-michelle-obama", label:"Porträt: Michelle Obama (SO8w7)"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9)"},
+        {route:"beruehmte-markus-lanz", label:"Porträt: Markus Lanz (SO1w9)"},
+        {route:"beruehmte-jordan-peterson", label:"Porträt: Dr. Jordan Peterson (SO1w9)"},
       ])}
     </div>
   `);

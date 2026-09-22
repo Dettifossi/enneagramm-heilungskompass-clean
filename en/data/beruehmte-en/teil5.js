@@ -10,45 +10,45 @@ export function peterSagePortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-peter-sage-portrait.jpg" alt="Peter Sage – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Peter Sage</p>
-        <p class="krim-portrait-typ">SO8w7 &middot; Social Type 8 with a Seven-wing</p>
-        <p class="krim-portrait-subtitle">Serial entrepreneur, speaker &amp; author, b. 1972 in Leicester &ndash; animal correspondence: Lion</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with a Nine-wing</p>
+        <p class="krim-portrait-subtitle">Serial entrepreneur, speaker &amp; author, b. 1972 in Leicester &ndash; animal correspondence: Goose</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The lion who found his own pride inside a prison</h2>
+        <h2 class="vb-section">1. The goose who put a broken system back in order</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>lion</strong> defends its pride most decisively exactly where it is most dangerous. Peter Sage, born in 1972 in Leicester, dropped out of school at 16 and went on to found more than 27 businesses over the following 15 years – some "failed majestically," as he puts it himself, others grew into global success stories, including the Energie Fitness Group, one of the UK's fastest-growing chains of fitness centers.</p>
-          <p class="vb-intro">In 2017, Sage was held in contempt of court in a civil matter and spent several months in Pentonville, one of the UK's most dangerous prisons. Instead of withdrawing, he became an informal mentor to fellow inmates: he helped addicts get clean, prevented suicides, and designed a new intake system for new arrivals meant to reduce violence between the prison wings – a system now used across prisons nationwide in the UK.</p>
+          <p class="vb-intro">The <strong>goose</strong> flies in formation and makes sure every rule is followed correctly – not out of a love of control, but from a deep sense of how something ought to be done properly. Peter Sage, born in 1972 in Leicester, dropped out of school at 16 and went on to found more than 27 businesses over the following 15 years – some "failed majestically," as he puts it himself, others grew into global success stories, including the Energie Fitness Group, one of the UK's fastest-growing chains of fitness centers.</p>
+          <p class="vb-intro">In 2017, Sage was held in contempt of court in a civil matter and spent several months in Pentonville, one of the UK's most dangerous prisons. Rather than resigning himself to the situation, what bothered him most was how obviously wrong and ineffective the system itself was organized. He designed a new intake system for new arrivals meant to reduce violence between the prison wings – a system now used across prisons nationwide in the UK.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The social Eight: responsibility for the whole system</h2>
+        <h2 class="vb-section">2. The social One: the world ought to function correctly</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>social Eight (SO8)</strong> puts its strength in service of the community. Naranjo called this subtype <em>solidarity</em>: the SO8 takes responsibility not only for itself, but for the larger whole, especially where the weaker would otherwise be overlooked. That is exactly what shows in Sage's time at Pentonville: he didn't just manage his own way through incarceration, he reformed an entire institutional system for the benefit of all future inmates.</p>
-          <p class="vb-intro">This pattern runs through his entire body of work: in 2002 he became an official trainer for Robbins Research International, working with drug addicts, the homeless, and trauma survivors. He got involved with the London Basket Brigade, which provides food to thousands of underprivileged families at Christmas, and spent several months in sub-Saharan Africa addressing poverty through education work – never the one close bond, always the larger system in view.</p>
+          <p class="vb-intro">The <strong>social One (SO1)</strong> carries its inner standards of right and wrong outward and feels genuine unease when a system – an institution, a society, an entire industry – is obviously functioning incorrectly. Naranjo described this subtype as marked by a fundamental "non-adaptability": one cannot simply accept obvious wrongness or obvious inefficiency, but must correct it. That is exactly what shows in Sage's time at Pentonville: his primary drive was not protecting himself or individuals, but bringing a flawed system up to the correct standard.</p>
+          <p class="vb-intro">This pattern runs through his entire body of work: in 2002 he became an official trainer for Robbins Research International, working with drug addicts, the homeless, and trauma survivors – always with the claim of showing them the genuinely correct way out of their situation, not merely offering comfort. His entire speaking and writing career is, at its core, a teaching mission: he shows people how to do it right, with the moral conviction that there is a better, more correct way to live than the one most people practice.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Seven-wing: from 27 companies to a world speaker on five continents</h2>
+        <h2 class="vb-section">3. The Nine-wing: reform without self-righteousness</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing</strong> gives the social Eight an additional speed and a range that is hard to slow down. Where an SO8w9 protects from a place of calm, the <strong>SO8w7</strong> does it with momentum: Sage has spoken on five continents, shared stages with Richard Branson and Bill Clinton, and, alongside his coaching work, kept founding new companies in completely different industries, from the anti-aging company World Wide Health Corporation to the fitness center chain.</p>
-          <p class="vb-intro">By age 25 he was already financially independent, owning a house and a Ferrari – until the pressure of his own pace culminated in a near-fatal car accident, the result of burnout from precisely this unchecked Seven-wing energy. Instead of turning that into a brake, he converted the experience into a new teaching subject: how to reach peak performance without destroying yourself in the process.</p>
+          <p class="vb-intro">The <strong>Nine-wing</strong> takes the sharp, confrontational edge off the social One and replaces it with a calm, almost relaxed teaching style – the moral seriousness stays, but is not loudly asserted, only calmly lived out. That is exactly what observers describe in Sage's teaching method: a conversational, narrative style rather than direct instruction, stories and examples instead of a raised finger.</p>
+          <p class="vb-intro">His core thesis captures this blend of One-standard and Nine-wing ease precisely: it is not working harder that solves most problems, but consciously accepting what cannot be changed. That is a deeply Nine-flavored message – acceptance instead of struggle – wrapped in a One-flavored, clearly structured teaching with a claim to correctness. By age 25 he was already financially independent, owning a house and a Ferrari – until the pressure of his own relentless standard culminated in a near-fatal car accident, the result of burnout from precisely this combination of a high inner standard and an outwardly composed calm that allowed no warning signs through.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The substance: the "alpha state" instead of sheer willpower</h2>
+        <h2 class="vb-section">4. The substance: the "alpha state" as a teachable corrective</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Mere motivational rhetoric does not explain why Sage's work has held up for over two decades. His central, concretely teachable concept is the so-called "alpha state": a brainwave frequency under 12 Hz that, according to Sage, can be induced through a targeted breathing technique – six seconds in, six seconds out, in a continuous circle, ten repetitions. The physiological effect: cortisol drops, the CO2-to-oxygen ratio in the blood re-regulates, and the brain shifts out of fight-or-flight mode into a more receptive state.</p>
-          <p class="vb-intro">His core thesis thereby inverts a widespread success formula: it is not working harder that solves most problems, but consciously accepting what cannot be changed, combined with a deliberate shift into a more creative, more receptive state of consciousness. That is the actual professional substance behind the speaking stage: a verifiable technique distilled from his own experience – burnout, near-fatal accident, prison – not mere appeals to willpower.</p>
+          <p class="vb-intro">Telling is the form he gives this insight: not a loose feeling, but an exact, repeatable protocol with a fixed number of seconds and a fixed number of repetitions – the typically One-flavored systematization of an inherently soft, Nine-flavored state of surrender and acceptance. That is the actual professional substance behind the speaking stage: a verifiable technique distilled from his own experience – burnout, near-fatal accident, prison – cast into a correct, teachable system.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and shadow of the social Eight</h2>
+        <h2 class="vb-section">5. Light and shadow of the social One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In its light, Sage shows the ability to translate personal crises directly into systemic improvement – from the burnout accident to the alpha-state method, from his own incarceration to nationwide prison reform. The SO8w7 doesn't wait for the perfect opportunity; it acts directly in the moment of crisis, with the full force of the Eight's strength and the Seven-wing's pace.</p>
-          <p class="vb-intro">The Eight's besetting sin is <strong>lust</strong> in the sense of excess and a need for control – in the SO8 directed at taking on responsibility that would actually need to be shared. That Sage suffered a near-fatal accident at 25 from sheer self-overextension shows this shadow side clearly: the refusal to acknowledge one's own limits before the body enforces them by force.</p>
+          <p class="vb-intro">In its light, Sage shows the ability to translate personal crises directly into systemic improvement – from the burnout accident to the alpha-state method, from his own incarceration to nationwide prison reform. The SO1w9 responds to a flawed system not with loud protest, but with calm, persistent work toward a better, correct solution.</p>
+          <p class="vb-intro">The One's besetting sin is <strong>anger</strong> – in the SO1w9 muted by the Nine-wing, but not gone: it shows less as open rage than as relentless inner strictness toward oneself. That Sage suffered a near-fatal accident at 25 from sheer self-overextension shows this shadow side clearly: the refusal to acknowledge one's own limits, because the inner standard of correctness allows no weakness, until the body enforces them by force.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The healing path: from limitless force to conscious regulation</h2>
+        <h2 class="vb-section">6. The healing path: from the one right way to a calm truth</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Eight's healing path leads from the question <em>Do I have to deploy every ounce of strength immediately and completely?</em> to the realization <em>True strength includes self-regulation.</em> For the SO8w7, this means no longer proving one's own force only outwardly, but also directing it inward – exactly what the alpha-state technique teaches.</p>
-          <p class="vb-intro">That Sage did not conceal his own near-fatal accident or, later, his time in prison, but translated both into teachable systems – a book made of prison letters, a nationwide reform, a breath-based method against overload – reads as exactly this path: the lion who no longer uses his strength only to defend the pride, but also to teach the pride how to regulate itself.</p>
+          <p class="vb-intro">The One's healing path leads from anger to serenity – from the question <em>Do I have to keep correcting the system and myself until everything is right?</em> to the realization <em>Some things are allowed to stay imperfect without my having failed.</em> For the SO1w9, this means no longer experiencing one's own reform drive as a constant inner struggle, but as what it already is at its core: lived acceptance that carries others along with it.</p>
+          <p class="vb-intro">That Sage did not conceal his own near-fatal accident or, later, his time in prison, but translated both into teachable, corrected systems – a nationwide reform, a breath-based method against overload – reads as exactly this path: the goose that no longer holds the formation correct at any cost, but learns that a calm, accepting flight also reaches its destination.</p>
         </blockquote>
 
       </div>
@@ -57,11 +57,11 @@ export function peterSagePortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/so8", label:"SO8 – The Lion: subtype profile"},
-        {route:"lebensmusterkompass/so8", label:"Life Pattern Compass: SO8 – Lion"},
-        {route:"beruehmte-carsten-stahl", label:"Portrait: Carsten Stahl (SO8w7)"},
-        {route:"beruehmte-jon-hamm", label:"Portrait: Jon Hamm (SO8w7)"},
-        {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
+        {route:"subtype/so1", label:"SO1 – The Goose: subtype profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
+        {route:"beruehmte-markus-lanz", label:"Portrait: Markus Lanz (SO1w9)"},
+        {route:"beruehmte-jordan-peterson", label:"Portrait: Dr. Jordan Peterson (SO1w9)"},
       ])}
     </div>
   `);

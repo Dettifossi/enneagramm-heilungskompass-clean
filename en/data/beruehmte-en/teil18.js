@@ -751,6 +751,7 @@ export function jordanPetersonPortraitPage() {
         {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
         {route:"beruehmte-marcel-reich-ranicki", label:"Portrait: Marcel Reich-Ranicki (SO1w9)"},
         {route:"krankheitsportraets-jordan-peterson", label:"Illness Portrait: Dr. Jordan Peterson (SO1w9) – benzodiazepine dependency"},
+        {route:"beruehmte-peter-sage", label:"Portrait: Peter Sage (SO1w9)"},
       ])}
     </div>
   `);
@@ -1620,6 +1621,7 @@ export function benjaminDisraeliPortraitPage() {
         {route:"beruehmte-kamala-harris", label:"Portrait: Kamala Harris (SO2w3)"},
         {route:"beruehmte-truman-capote", label:"Portrait: Truman Capote (SO2w3)"},
         {route:"beruehmte-mira-murati", label:"Portrait: Mira Murati (SO2w3)"},
+        {route:"beruehmte-lewis-howes", label:"Portrait: Lewis Howes (SO2w3)"},
       ])}
     </div>
   `);

@@ -1713,6 +1713,7 @@ export function markusLanzPortraitPage() {
         {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9)"},
         {route:"beruehmte-kurt-georg-kiesinger", label:"Porträt: Kurt Georg Kiesinger (SO1w9)"},
         {route:"beruehmte-karl-lauterbach", label:"Porträt: Karl Lauterbach (SE6w5)"},
+        {route:"beruehmte-peter-sage", label:"Porträt: Peter Sage (SO1w9)"},
       ])}
     </div>
   `);

@@ -1811,6 +1811,7 @@ export function helmutSchmidtPortraitPage() {
         {route:"beruehmte-kurt-georg-kiesinger", label:"Portr\xe4t: Kurt Georg Kiesinger (SO1w9) – Vorgänger im Kanzleramt, derselbe Subtyp"},
         {route:"beruehmte-giorgia-meloni", label:"Portr\xe4t: Giorgia Meloni (SO1w9)"},
         {route:"beruehmte-emmanuel-macron", label:"Portr\xe4t: Emmanuel Macron (SO1w9)"},
+        {route:"beruehmte-peter-sage", label:"Porträt: Peter Sage (SO1w9)"},
         {route:"beruehmte-marcel-reich-ranicki", label:"Portr\xe4t: Marcel Reich-Ranicki (SO1w9)"},
       ])}
     </div>
