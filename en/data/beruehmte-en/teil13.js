@@ -2260,7 +2260,7 @@ export function henningBaumPortraitPage() {
         <h2 class="vb-section">5. Light and shadow of the self-preservation One</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In its light, Baum shows a rare combination: physical discipline that serves not self-display but his own reliability – from paramedic training, through a rigorously physical approach to acting, to a deliberately frugal everyday life. His comment on masculinity – "masculinity has a lot to do with putting your own interests last" – captures the core of the SE1: duty before self-presentation, family and the common good before personal advantage.</p>
-          <p class="vb-intro">The shadow shows in the harshness with which the SE1 turns its own, often unspoken standards against itself – and in a reticence so consistent, in Baum's case, that even his own children remain publicly invisible. Where a more social One carries its principles into the community, the self-preservation One with a Nine-wing often stays entirely to itself – a withdrawal that protects integrity, but costs closeness.</p>
+          <p class="vb-intro">The shadow shows in the harshness with which the SE1 turns its own, often unspoken standards against itself – and in a reticence so consistent, in Baum's case, that even his own children remain publicly invisible. Where a social One carries its principles into the community, the self-preservation One with a Nine-wing often stays entirely to itself – a withdrawal that protects integrity, but costs closeness.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The healing path: from quiet standard to relaxed self-evidence</h2>
