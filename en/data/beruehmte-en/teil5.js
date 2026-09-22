@@ -1,5 +1,72 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function peterSagePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-peter-sage-portrait.jpg" alt="Peter Sage – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Peter Sage</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Social Type 8 with a Seven-wing</p>
+        <p class="krim-portrait-subtitle">Serial entrepreneur, speaker &amp; author, b. 1972 in Leicester &ndash; animal correspondence: Lion</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The lion who found his own pride inside a prison</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>lion</strong> defends its pride most decisively exactly where it is most dangerous. Peter Sage, born in 1972 in Leicester, dropped out of school at 16 and went on to found more than 27 businesses over the following 15 years – some "failed majestically," as he puts it himself, others grew into global success stories, including the Energie Fitness Group, one of the UK's fastest-growing chains of fitness centers.</p>
+          <p class="vb-intro">In 2017, Sage was held in contempt of court in a civil matter and spent several months in Pentonville, one of the UK's most dangerous prisons. Instead of withdrawing, he became an informal mentor to fellow inmates: he helped addicts get clean, prevented suicides, and designed a new intake system for new arrivals meant to reduce violence between the prison wings – a system now used across prisons nationwide in the UK.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Eight: responsibility for the whole system</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Eight (SO8)</strong> puts its strength in service of the community. Naranjo called this subtype <em>solidarity</em>: the SO8 takes responsibility not only for itself, but for the larger whole, especially where the weaker would otherwise be overlooked. That is exactly what shows in Sage's time at Pentonville: he didn't just manage his own way through incarceration, he reformed an entire institutional system for the benefit of all future inmates.</p>
+          <p class="vb-intro">This pattern runs through his entire body of work: in 2002 he became an official trainer for Robbins Research International, working with drug addicts, the homeless, and trauma survivors. He got involved with the London Basket Brigade, which provides food to thousands of underprivileged families at Christmas, and spent several months in sub-Saharan Africa addressing poverty through education work – never the one close bond, always the larger system in view.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: from 27 companies to a world speaker on five continents</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing</strong> gives the social Eight an additional speed and a range that is hard to slow down. Where an SO8w9 protects from a place of calm, the <strong>SO8w7</strong> does it with momentum: Sage has spoken on five continents, shared stages with Richard Branson and Bill Clinton, and, alongside his coaching work, kept founding new companies in completely different industries, from the anti-aging company World Wide Health Corporation to the fitness center chain.</p>
+          <p class="vb-intro">By age 25 he was already financially independent, owning a house and a Ferrari – until the pressure of his own pace culminated in a near-fatal car accident, the result of burnout from precisely this unchecked Seven-wing energy. Instead of turning that into a brake, he converted the experience into a new teaching subject: how to reach peak performance without destroying yourself in the process.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the "alpha state" instead of sheer willpower</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mere motivational rhetoric does not explain why Sage's work has held up for over two decades. His central, concretely teachable concept is the so-called "alpha state": a brainwave frequency under 12 Hz that, according to Sage, can be induced through a targeted breathing technique – six seconds in, six seconds out, in a continuous circle, ten repetitions. The physiological effect: cortisol drops, the CO2-to-oxygen ratio in the blood re-regulates, and the brain shifts out of fight-or-flight mode into a more receptive state.</p>
+          <p class="vb-intro">His core thesis thereby inverts a widespread success formula: it is not working harder that solves most problems, but consciously accepting what cannot be changed, combined with a deliberate shift into a more creative, more receptive state of consciousness. That is the actual professional substance behind the speaking stage: a verifiable technique distilled from his own experience – burnout, near-fatal accident, prison – not mere appeals to willpower.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the social Eight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In its light, Sage shows the ability to translate personal crises directly into systemic improvement – from the burnout accident to the alpha-state method, from his own incarceration to nationwide prison reform. The SO8w7 doesn't wait for the perfect opportunity; it acts directly in the moment of crisis, with the full force of the Eight's strength and the Seven-wing's pace.</p>
+          <p class="vb-intro">The Eight's besetting sin is <strong>lust</strong> in the sense of excess and a need for control – in the SO8 directed at taking on responsibility that would actually need to be shared. That Sage suffered a near-fatal accident at 25 from sheer self-overextension shows this shadow side clearly: the refusal to acknowledge one's own limits before the body enforces them by force.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The healing path: from limitless force to conscious regulation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Eight's healing path leads from the question <em>Do I have to deploy every ounce of strength immediately and completely?</em> to the realization <em>True strength includes self-regulation.</em> For the SO8w7, this means no longer proving one's own force only outwardly, but also directing it inward – exactly what the alpha-state technique teaches.</p>
+          <p class="vb-intro">That Sage did not conceal his own near-fatal accident or, later, his time in prison, but translated both into teachable systems – a book made of prison letters, a nationwide reform, a breath-based method against overload – reads as exactly this path: the lion who no longer uses his strength only to defend the pride, but also to teach the pride how to regulate itself.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so8", label:"SO8 – The Lion: subtype profile"},
+        {route:"lebensmusterkompass/so8", label:"Life Pattern Compass: SO8 – Lion"},
+        {route:"beruehmte-carsten-stahl", label:"Portrait: Carsten Stahl (SO8w7)"},
+        {route:"beruehmte-jon-hamm", label:"Portrait: Jon Hamm (SO8w7)"},
+        {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
+      ])}
+    </div>
+  `);
+}
+
 export function adelePortraitPage() {
   return shell(`
     <div class="page-container">

@@ -1094,6 +1094,7 @@ export function michelleObamaPortraitPage() {
         {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
         {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SP8w9)"},
         {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7)"},
+        {route:"beruehmte-peter-sage", label:"Portrait: Peter Sage (SO8w7)"},
       ])}
     </div>
   `);

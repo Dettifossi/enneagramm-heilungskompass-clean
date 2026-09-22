@@ -1099,6 +1099,7 @@ export function michelleObamaPortraitPage() {
         {route:"subtype/so8", label:"SO8 \u2013 Der L\u00f6we: Subtyp-Profil"},
         {route:"beruehmte-toni-morrison", label:"Portr\u00e4t: Toni Morrison (SE8w9)"},
         {route:"beruehmte-natascha-ochsenknecht", label:"Porträt: Natascha Ochsenknecht (SO8w7)"},
+        {route:"beruehmte-peter-sage", label:"Porträt: Peter Sage (SO8w7)"},
       ])}
     </div>
   `);

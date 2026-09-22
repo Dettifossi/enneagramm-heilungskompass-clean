@@ -332,6 +332,7 @@ export function carstenStahlPortraitPage() {
           {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
           {route:"beruehmte-gabi-garcia", label:"Portrait: Gabi Garcia (SO8w7)"},
           {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
+          {route:"beruehmte-peter-sage", label:"Portrait: Peter Sage (SO8w7)"},
         ])}
       </div>
     </div>

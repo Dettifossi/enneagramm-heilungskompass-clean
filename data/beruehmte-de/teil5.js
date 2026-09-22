@@ -1,5 +1,72 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function peterSagePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-peter-sage-portrait.jpg" alt="Peter Sage – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Peter Sage</p>
+        <p class="krim-portrait-typ">SO8w7 &middot; Sozialer Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Serienunternehmer, Speaker &amp; Autor, geb. 1972 in Leicester &ndash; Tierentsprechung: Löwe</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Löwe, der sein eigenes Rudel im Gefängnis fand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Löwe</strong> verteidigt sein Rudel am entschlossensten genau dort, wo es am gefährlichsten ist. Peter Sage, 1972 in Leicester geboren, brach mit 16 die Schule ab und gründete in den folgenden 15 Jahren über 27 Unternehmen – manche „grandios gescheitert", wie er selbst sagt, andere zu globalen Erfolgsgeschichten geworden, darunter die Energie Fitness Group, eine der am schnellsten wachsenden Fitnessstudio-Ketten Großbritanniens.</p>
+          <p class="vb-intro">2017 wurde Sage wegen Missachtung des Gerichts in einer Zivilsache für mehrere Monate in Pentonville inhaftiert, einem der gefährlichsten Gefängnisse Großbritanniens. Statt sich zurückzuziehen, wurde er dort zum informellen Mentor für Mitgefangene: Er half Süchtigen beim Entzug, verhinderte Suizide und entwarf ein neues Aufnahmesystem für Neuankömmlinge, das die Gewalt zwischen den Gefängnisflügeln senken sollte – ein System, das heute landesweit in britischen Gefängnissen eingesetzt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Acht: Verantwortung für das ganze System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> setzt ihre Kraft in den Dienst der Gemeinschaft. Naranjo nannte diesen Subtyp <em>Solidarität</em>: Die SO8 übernimmt Verantwortung nicht nur für sich selbst, sondern für das größere Ganze, gerade dort, wo Schwächere sonst übersehen würden. Genau das zeigt sich bei Sage in Pentonville: Er organisierte nicht nur seine eigene Bewältigung der Haft, sondern reformierte ein ganzes institutionelles System zugunsten aller künftigen Insassen.</p>
+          <p class="vb-intro">Dieses Muster zieht sich durch sein gesamtes Werk: 2002 wurde er offizieller Trainer für Robbins Research International und arbeitete mit Drogenabhängigen, Obdachlosen und Traumaopfern. Er engagierte sich bei der London Basket Brigade, die tausende bedürftige Familien zu Weihnachten mit Lebensmitteln versorgt, und verbrachte mehrere Monate in Subsahara-Afrika, um dort Armut durch Bildungsarbeit zu bekämpfen – nie die eine enge Verbindung, immer das größere System im Blick.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Von 27 Firmen bis zum Weltredner auf fünf Kontinenten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> verleiht der sozialen Acht ein zusätzliches Tempo und eine kaum zu bremsende Bandbreite. Während eine SO8w9 aus der Ruhe heraus schützt, tut die <strong>SO8w7</strong> es mit Schwung: Sage sprach auf fünf Kontinenten, teilte sich die Bühne mit Richard Branson und Bill Clinton und gründete parallel zu seiner Coaching-Arbeit immer wieder neue Unternehmen in völlig unterschiedlichen Branchen, von der Anti-Aging-Firma World Wide Health Corporation bis zur Fitnessstudio-Kette.</p>
+          <p class="vb-intro">Bereits mit 25 Jahren war er finanziell unabhängig, besaß Haus und Ferrari – bis der Druck des eigenen Tempos in einem beinahe tödlichen Autounfall gipfelte, Folge eines Burnouts durch genau diese ungebremste Siebenerflügel-Energie. Statt daraus eine Bremse zu machen, verwandelte er die Erfahrung in ein neues Lehrthema: Wie man Höchstleistung erreicht, ohne sich dabei selbst zu zerstören.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Der ›Alpha State‹ statt reiner Willenskraft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bloße Motivationsrhetorik erklärt nicht, warum Sages Arbeit seit über zwei Jahrzehnten trägt. Sein zentrales, konkret lehrbares Konzept ist der sogenannte ›Alpha State‹: eine Gehirnwellenfrequenz unter 12 Hz, die sich laut Sage durch eine gezielte Atemtechnik herstellen lässt – sechs Sekunden ein-, sechs Sekunden ausatmen, im Kreis, zehn Wiederholungen. Die physiologische Wirkung: Cortisol sinkt, das Verhältnis von CO2 und Sauerstoff im Blut reguliert sich neu, das Gehirn wechselt aus dem Kampf-oder-Flucht-Modus in einen empfänglicheren Zustand.</p>
+          <p class="vb-intro">Seine Kernthese dreht damit eine verbreitete Erfolgslogik um: Nicht härteres Arbeiten löst die meisten Probleme, sondern das bewusste Akzeptieren dessen, was sich nicht ändern lässt, kombiniert mit dem gezielten Wechsel in einen kreativeren, aufnahmefähigeren Bewusstseinszustand. Das ist die eigentliche fachliche Leistung hinter der Redner-Bühne: eine aus eigener Erfahrung – Burnout, Beinaheunfall, Gefängnis – destillierte, überprüfbare Technik, keine bloße Willensappelle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Acht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Sage die Fähigkeit, persönliche Krisen unmittelbar in systemische Verbesserung zu übersetzen – vom Burnout-Unfall zur Alpha-State-Methode, von der eigenen Haft zur landesweiten Gefängnisreform. Die SO8w7 wartet nicht auf die perfekte Gelegenheit, sondern handelt direkt im Moment der Krise, mit der ganzen Wucht der Achter-Kraft und dem Tempo des Siebenerflügels.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Acht ist die <strong>Wollust</strong> im Sinne von Übermaß und Kontrollbedürfnis – bei der SO8 gerichtet auf das Übernehmen von Verantwortung, die eigentlich geteilt werden müsste. Dass Sage mit 25 Jahren einen beinahe tödlichen Unfall aus reiner Selbstüberforderung erlitt, zeigt diese Schattenseite deutlich: Die Weigerung, die eigenen Grenzen anzuerkennen, bevor der Körper sie gewaltsam durchsetzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der grenzenlosen Kraft zur bewussten Regulation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Acht führt von der Frage <em>Muss ich jede Kraft sofort und vollständig einsetzen?</em> zur Erkenntnis <em>Wahre Stärke schließt Selbstregulation ein.</em> Für die SO8w7 bedeutet das, die eigene Wucht nicht länger nur im Außen zu beweisen, sondern auch nach innen zu richten – genau das, was die Alpha-State-Technik lehrt.</p>
+          <p class="vb-intro">Dass Sage seinen eigenen Beinaheunfall und später seine Gefängniszeit nicht verschwieg, sondern in lehrbare Systeme übersetzte – ein Buch aus Gefängnisbriefen, eine landesweit genutzte Reform, eine atembasierte Methode gegen Überforderung –, liest sich als genau dieser Weg: Der Löwe, der seine Kraft nicht mehr nur zum Verteidigen des Rudels einsetzt, sondern auch dazu, dem Rudel beizubringen, wie es sich selbst reguliert.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so8", label:"Lebensmusterkompass: SO8 – Löwe"},
+        {route:"beruehmte-carsten-stahl", label:"Porträt: Carsten Stahl (SO8w7)"},
+        {route:"beruehmte-jon-hamm", label:"Porträt: Jon Hamm (SO8w7)"},
+        {route:"beruehmte-michelle-obama", label:"Porträt: Michelle Obama (SO8w7)"},
+      ])}
+    </div>
+  `);
+}
+
 export function adelePortraitPage() {
   return shell(`
     <div class="page-container">

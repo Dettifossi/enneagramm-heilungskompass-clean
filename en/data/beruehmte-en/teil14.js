@@ -1938,6 +1938,7 @@ export function jonHammPortraitPage() {
           {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
           {route:"beruehmte-fritz-perls", label:"Portrait: Fritz Perls (SO8w7) – also a teacher/mentor with strength in service of others"},
           {route:"beruehmte-sokrates", label:"Portrait: Socrates (SO8w7)"},
+          {route:"beruehmte-peter-sage", label:"Portrait: Peter Sage (SO8w7)"},
         ])}
       </div>
     </div>
