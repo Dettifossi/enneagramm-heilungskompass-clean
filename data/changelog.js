@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2384", date: "2026-09-22", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Lewis Howes (SO2w3) – Unternehmer, Podcaster (›The School of Greatness‹).", text_en: "New portrait under \"Famous Personalities\": Lewis Howes (SO2w3) – entrepreneur, podcaster (\"The School of Greatness\").", route: "beruehmte-lewis-howes" },
     { version: "v2383", date: "2026-09-22", text: "Neuer Praxistipp: Der Vierte Weg nach Gurdjieff – Selbsterinnerung mitten im Alltag üben.", text_en: "New practical tip: The Fourth Way According to Gurdjieff – practicing self-remembering in everyday life.", route: "praxistipps-heilpraktiker/vierter-weg-selbsterinnerung" },
     { version: "v2382", date: "2026-09-22", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Henning Baum (SE1w9) – Schauspieler, ›Der letzte Bulle‹.", text_en: "New portrait under \"Famous Personalities\": Henning Baum (SP1w9) – actor, \"Der letzte Bulle.\"", route: "beruehmte-henning-baum" },
     { version: "v2381", date: "2026-09-22", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Archimedes (SX5w4) – griechischer Mathematiker und Physiker der Antike.", text_en: "New portrait under \"Famous Personalities\": Archimedes (SX5w4) – ancient Greek mathematician and physicist.", route: "beruehmte-archimedes" },
