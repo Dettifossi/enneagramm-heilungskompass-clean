@@ -249,6 +249,8 @@ export function carlFriedrichGaussPortraitPage() {
         {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
         {route:"lebensmusterkompass/se5", label:"Lebensmusterkompass: SE5 – Eule"},
         {route:"bewusstseinsgrad-normalverteilung", label:"Bewusstseinsgrad & Gaußsche Normalverteilungskurve"},
+        {route:"beruehmte-archimedes", label:"Porträt: Archimedes (SX5w4)"},
+        {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6)"},
       ])}
     </div>
   `);
@@ -725,6 +727,8 @@ export function isaacNewtonPortraitPage() {
         {route:"krankheitsportraets-isaac-newton", label:"Krankheitsporträt: Isaac Newton (SO5w6) – Nervenzusammenbruch durch Quecksilbervergiftung"},
         {route:"bibel-gamaliel", label:"Bibel-Porträt: Gamaliel (SO5w6)"},
         {route:"beruehmte-stephen-hawking", label:"Porträt: Stephen Hawking (SO5w6) – gleicher Lehrstuhl"},
+        {route:"beruehmte-archimedes", label:"Porträt: Archimedes (SX5w4)"},
+        {route:"beruehmte-carl-friedrich-gauss", label:"Porträt: Carl Friedrich Gauß (SE5w6)"},
       ])}
     </div>
   `);
@@ -2240,7 +2244,7 @@ export function archimedesPortraitPage() {
           <p class="vb-intro">Naranjo beschreibt das Gegenprinzip der sexuellen Fünf als <em>Vertrauen</em> (confidence) – anders als die selbsterhaltende Fünf, die sich in eine geschützte Burg zurückzieht, oder die soziale Fünf, die ihr Wissen kontrolliert und dosiert mit einer Gemeinschaft teilt, sucht die sexuelle Fünf die totale, ungeschützte Verschmelzung mit einer einzigen Sache – und verliert dabei häufig jedes Bewusstsein für alles Übrige, einschließlich der eigenen Selbsterhaltung.</p>
           <p class="vb-intro">Genau dieses Muster zeigt die berühmteste Anekdote über ihn: Beim Baden bemerkte er, dass sein Körper Wasser verdrängte, und erkannte darin die Lösung für ein Problem König Hierons – ob eine Krone tatsächlich aus reinem Gold gefertigt war. Der Überlieferung nach sprang er nackt aus der Wanne und rannte, ohne sich anzukleiden, mit dem Ruf „Heureka!" („Ich hab's gefunden!") durch die Straßen von Syrakus. Keine Scham, keine soziale Rücksicht, kein Innehalten – die Erkenntnis selbst hatte in diesem Moment jede andere Regung vollständig verdrängt.</p>
           <p class="vb-intro">Am eindrücklichsten zeigt sich dasselbe Grundmuster in der Überlieferung seines Todes. Als die Römer unter Marcellus 212 v. Chr. nach einer jahrelangen Belagerung Syrakus einnahmen, saß Archimedes – so berichtet es Plutarch – vertieft in eine geometrische Zeichnung im Sand, als ihn ein römischer Soldat aufforderte, ihm zu folgen. Archimedes soll geantwortet haben, er solle warten, bis er sein Problem gelöst habe, oder ihn gebeten haben, seine Kreise nicht zu stören („Noli turbare circulos meos") – woraufhin der Soldat ihn erschlug. Ob im genauen Wortlaut historisch verbürgt oder nicht: Dass diese Szene über Jahrhunderte als das treffendste Bild seines Charakters weitergegeben wurde, zeigt, wie sehr seine Zeitgenossen genau dieses eine Muster an ihm erkannten – die vollständige, todesblinde Verschmelzung mit der einen Sache vor ihm.</p>
-          <p class="vb-intro">Diese Struktur teilt Archimedes mit einem anderen SX5w4er dieses Kompasses, Jean-Jacques Rousseau (SX5w4): Beide opfern im entscheidenden Moment das, was den meisten Menschen am nächsten steht – Rousseau die eigene soziale Zugehörigkeit, Archimedes die eigene körperliche Sicherheit – der einen unbedingten Hingabe an das, dem sie sich gerade zuwenden. Bei Rousseau war es die radikale Offenlegung der eigenen Wahrheit in den <em>Bekenntnissen</em>, bei Archimedes die eine geometrische Figur im Sand. In beiden Fällen existiert im Moment der Verschmelzung buchstäblich nichts anderes mehr – kein Vergleich mit der kontrollierten, auf Distanz gehaltenen Wissensweitergabe eines sozialen Fünfers wie Isaac Newton (SO5), der seine Erkenntnisse jahrzehntelang bewusst zurückhielt, und auch kein Vergleich mit dem geschützten Beobachtungsposten einer selbsterhaltenden Fünf wie Charles Darwin (SE5).</p>
+          <p class="vb-intro">Diese Struktur teilt Archimedes mit einem anderen SX5w4er dieses Kompasses, Jean-Jacques Rousseau (SX5w4): Beide opfern im entscheidenden Moment das, was den meisten Menschen am nächsten steht – Rousseau die eigene soziale Zugehörigkeit, Archimedes die eigene körperliche Sicherheit – der einen unbedingten Hingabe an das, dem sie sich gerade zuwenden. Bei Rousseau war es die radikale Offenlegung der eigenen Wahrheit in den <em>Bekenntnissen</em>, bei Archimedes die eine geometrische Figur im Sand. In beiden Fällen existiert im Moment der Verschmelzung buchstäblich nichts anderes mehr – kein Vergleich mit der kontrollierten, auf Distanz gehaltenen Wissensweitergabe eines sozialen Fünfers wie <a href="javascript:void(0)" data-route="beruehmte-isaac-newton">Isaac Newton</a> (SO5w6), der seine Erkenntnisse jahrzehntelang bewusst zurückhielt, und auch kein Vergleich mit dem geschützten Beobachtungsposten einer selbsterhaltenden Fünf wie Charles Darwin (SE5).</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Viererflügel: Die eine Lösung als Lebenswerk, nicht als Karrierestation</h2>
@@ -2251,7 +2255,7 @@ export function archimedesPortraitPage() {
 
         <h2 class="vb-section">4. Was ihn tatsächlich zum größten Mathematiker der Antike machte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Bloße Versunkenheit erklärt nicht, warum ausgerechnet Archimedes bis heute neben Newton und Gauß zu den drei bedeutendsten Mathematikern der Geschichte gezählt wird. Seine eigentliche fachliche Leistung liegt in der sogenannten Exhaustionsmethode: Er näherte krummlinig begrenzte Flächen und Volumina – etwa die eines Kreises oder einer Kugel – durch eine fortlaufende Folge einfacherer Figuren an, deren Maße er exakt berechnen konnte, und trieb diese Annäherung gedanklich bis ins Unendliche. Damit nahm er, fast zweitausend Jahre vor Newton und Leibniz, zentrale Prinzipien der Integralrechnung vorweg – mit dieser Methode berechnete er unter anderem die Kreiszahl Pi auf einen Bereich zwischen 3 10/71 und 3 1/7 genau, eine für die Antike beispiellose Präzision.</p>
+          <p class="vb-intro">Bloße Versunkenheit erklärt nicht, warum ausgerechnet Archimedes bis heute neben <a href="javascript:void(0)" data-route="beruehmte-isaac-newton">Isaac Newton</a> (SO5w6) und <a href="javascript:void(0)" data-route="beruehmte-carl-friedrich-gauss">Carl Friedrich Gauß</a> (SE5w6) zu den drei bedeutendsten Mathematikern der Geschichte gezählt wird. Seine eigentliche fachliche Leistung liegt in der sogenannten Exhaustionsmethode: Er näherte krummlinig begrenzte Flächen und Volumina – etwa die eines Kreises oder einer Kugel – durch eine fortlaufende Folge einfacherer Figuren an, deren Maße er exakt berechnen konnte, und trieb diese Annäherung gedanklich bis ins Unendliche. Damit nahm er, fast zweitausend Jahre vor Newton und Leibniz, zentrale Prinzipien der Integralrechnung vorweg – mit dieser Methode berechnete er unter anderem die Kreiszahl Pi auf einen Bereich zwischen 3 10/71 und 3 1/7 genau, eine für die Antike beispiellose Präzision.</p>
           <p class="vb-intro">Ebenso grundlegend war sein Beitrag zur Physik: Das nach ihm benannte Archimedische Prinzip (ein Körper verdrängt so viel Flüssigkeit, wie seinem eigenen Volumen entspricht, und erfährt dadurch einen Auftrieb) begründete die Hydrostatik als eigenständige Disziplin. Sein Hebelgesetz – zusammengefasst in dem berühmten Ausspruch „Gib mir einen festen Punkt, und ich werde die Welt aus den Angeln heben" – lieferte erstmals eine mathematisch exakte Beschreibung eines mechanischen Grundprinzips, das zuvor nur aus der Praxis bekannt war. Seine Erfindungen – die nach ihm benannte Wasserschnecke zur Bewässerung, hochpräzise Katapulte und die sogenannte „Krallen des Archimedes", mit der er römische Schiffe aus dem Wasser hob – übersetzten diese theoretischen Prinzipien in konkrete, jahrelang wirksame Technik. Das ist die Substanz hinter der Legende: nicht nur ein Mann, der sein Bad vergaß, sondern einer, dessen mathematische Methoden erst fast zwei Jahrtausende später von der Wissenschaft eingeholt wurden.</p>
         </blockquote>
 
@@ -2278,6 +2282,8 @@ export function archimedesPortraitPage() {
         {route:"beruehmte-jean-jacques-rousseau", label:"Porträt: Jean-Jacques Rousseau (SX5w4)"},
         {route:"beruehmte-frederic-chopin", label:"Porträt: Frédéric Chopin (SX5w4)"},
         {route:"beruehmte-blaise-pascal", label:"Porträt: Blaise Pascal (SX5w6)"},
+        {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6)"},
+        {route:"beruehmte-carl-friedrich-gauss", label:"Porträt: Carl Friedrich Gauß (SE5w6)"},
       ])}
     </div>
   `);

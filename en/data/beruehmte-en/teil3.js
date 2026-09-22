@@ -249,6 +249,8 @@ export function carlFriedrichGaussPortraitPage() {
         {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
         {route:"lebensmusterkompass/se5", label:"Life Pattern Compass: SE5 – Owl"},
         {route:"bewusstseinsgrad-normalverteilung", label:"Levels of Consciousness & the Gaussian Normal Distribution"},
+        {route:"beruehmte-archimedes", label:"Portrait: Archimedes (SX5w4)"},
+        {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
       ])}
     </div>
   `);
@@ -725,6 +727,8 @@ export function isaacNewtonPortraitPage() {
         {route:"krankheitsportraets-isaac-newton", label:"Illness Portrait: Isaac Newton (SO5w6) – nervous breakdown from mercury poisoning"},
         {route:"bibel-gamaliel", label:"Bible Portrait: Gamaliel (SO5w6)"},
         {route:"beruehmte-stephen-hawking", label:"Portrait: Stephen Hawking (SO5w6) – same chair"},
+        {route:"beruehmte-archimedes", label:"Portrait: Archimedes (SX5w4)"},
+        {route:"beruehmte-carl-friedrich-gauss", label:"Portrait: Carl Friedrich Gauss (SE5w6)"},
       ])}
     </div>
   `);
@@ -2242,7 +2246,7 @@ export function archimedesPortraitPage() {
           <p class="vb-intro">Naranjo describes the counter-principle of the sexual Five as <em>confidence</em> – unlike the self-preservation Five, who withdraws into a protected fortress, or the social Five, who shares knowledge with a community in controlled, measured doses, the sexual Five seeks total, unguarded fusion with a single object – and in doing so frequently loses all awareness of everything else, including self-preservation itself.</p>
           <p class="vb-intro">This exact pattern shows in the most famous anecdote about him: while bathing, he noticed that his body displaced water, and recognized in it the solution to a problem King Hiero had set him – whether a crown was truly made of pure gold. According to legend, he leapt naked from the tub and ran through the streets of Syracuse, unclothed, shouting "Eureka!" ("I have found it!"). No shame, no social restraint, no pause – in that moment, the insight itself had completely displaced every other impulse.</p>
           <p class="vb-intro">The same underlying pattern shows most vividly in the account of his death. When the Romans under Marcellus took Syracuse in 212 BC after a years-long siege, Archimedes – so Plutarch reports – was absorbed in a geometric drawing in the sand when a Roman soldier ordered him to follow. Archimedes is said to have replied that the soldier should wait until he had solved his problem, or asked him not to disturb his circles ("Noli turbare circulos meos") – whereupon the soldier killed him. Whether or not the exact words are historically accurate, the fact that this scene was passed down for centuries as the most fitting image of his character shows how clearly his contemporaries recognized this one pattern in him – complete, death-blind fusion with the one thing in front of him.</p>
-          <p class="vb-intro">Archimedes shares this structure with another SX5w4 of this compass, Jean-Jacques Rousseau (SX5w4): both sacrifice, at the decisive moment, what matters most to most people – Rousseau his own social belonging, Archimedes his own physical safety – to the one unconditional devotion to whatever they are turned toward at that instant. For Rousseau it was the radical exposure of his own truth in the <em>Confessions</em>; for Archimedes, it was the one geometric figure in the sand. In both cases, at the moment of fusion, literally nothing else exists – nothing like the controlled, arm's-length transmission of knowledge of a social Five such as Isaac Newton (SO5), who deliberately withheld his discoveries for decades, and nothing like the protected observation post of a self-preservation Five such as Charles Darwin (SE5).</p>
+          <p class="vb-intro">Archimedes shares this structure with another SX5w4 of this compass, Jean-Jacques Rousseau (SX5w4): both sacrifice, at the decisive moment, what matters most to most people – Rousseau his own social belonging, Archimedes his own physical safety – to the one unconditional devotion to whatever they are turned toward at that instant. For Rousseau it was the radical exposure of his own truth in the <em>Confessions</em>; for Archimedes, it was the one geometric figure in the sand. In both cases, at the moment of fusion, literally nothing else exists – nothing like the controlled, arm's-length transmission of knowledge of a social Five such as <a href="javascript:void(0)" data-route="beruehmte-isaac-newton">Isaac Newton</a> (SO5w6), who deliberately withheld his discoveries for decades, and nothing like the protected observation post of a self-preservation Five such as Charles Darwin (SE5).</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Four-wing: the one solution as life's work, not a career milestone</h2>
@@ -2253,7 +2257,7 @@ export function archimedesPortraitPage() {
 
         <h2 class="vb-section">4. What actually made him the greatest mathematician of antiquity</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Sheer absorption alone doesn't explain why Archimedes is still ranked, alongside Newton and Gauss, among the three greatest mathematicians in history. His actual technical achievement lies in what is known as the method of exhaustion: he approximated curved areas and volumes – such as those of a circle or a sphere – with an ongoing sequence of simpler figures whose measurements he could calculate exactly, pushing this approximation, in principle, toward infinity. In doing so, nearly two thousand years before Newton and Leibniz, he anticipated central principles of integral calculus – using this method, among other things, he calculated the value of pi to a range between 3 10/71 and 3 1/7, a precision unmatched in antiquity.</p>
+          <p class="vb-intro">Sheer absorption alone doesn't explain why Archimedes is still ranked, alongside <a href="javascript:void(0)" data-route="beruehmte-isaac-newton">Isaac Newton</a> (SO5w6) and <a href="javascript:void(0)" data-route="beruehmte-carl-friedrich-gauss">Carl Friedrich Gauss</a> (SE5w6), among the three greatest mathematicians in history. His actual technical achievement lies in what is known as the method of exhaustion: he approximated curved areas and volumes – such as those of a circle or a sphere – with an ongoing sequence of simpler figures whose measurements he could calculate exactly, pushing this approximation, in principle, toward infinity. In doing so, nearly two thousand years before Newton and Leibniz, he anticipated central principles of integral calculus – using this method, among other things, he calculated the value of pi to a range between 3 10/71 and 3 1/7, a precision unmatched in antiquity.</p>
           <p class="vb-intro">Equally foundational was his contribution to physics: the principle named after him (a body displaces a volume of fluid equal to its own volume, and experiences buoyancy as a result) established hydrostatics as its own discipline. His law of the lever – summed up in the famous line "Give me a place to stand, and I will move the Earth" – provided, for the first time, a mathematically exact description of a mechanical principle previously known only from practice. His inventions – the water screw named after him, used for irrigation, highly accurate catapults, and the so-called "Claw of Archimedes," with which he lifted Roman ships out of the water – translated these theoretical principles into concrete technology that remained effective for years. That is the substance behind the legend: not merely a man who forgot to bathe, but one whose mathematical methods were not matched by science again for almost two millennia.</p>
         </blockquote>
 
@@ -2280,6 +2284,8 @@ export function archimedesPortraitPage() {
         {route:"beruehmte-jean-jacques-rousseau", label:"Portrait: Jean-Jacques Rousseau (SX5w4)"},
         {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
         {route:"beruehmte-blaise-pascal", label:"Portrait: Blaise Pascal (SX5w6)"},
+        {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
+        {route:"beruehmte-carl-friedrich-gauss", label:"Portrait: Carl Friedrich Gauss (SE5w6)"},
       ])}
     </div>
   `);
