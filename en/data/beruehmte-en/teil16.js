@@ -701,6 +701,7 @@ export function jeanJacquesRousseauPortraitPage() {
         {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
         {route:"beruehmte-taylor-swift", label:"Portrait: Taylor Swift (SX5w4)"},
         {route:"beruehmte-blaise-pascal", label:"Portrait: Blaise Pascal (SX5w6)"},
+        {route:"beruehmte-archimedes", label:"Portrait: Archimedes (SX5w4)"},
       ])}
     </div>
   `);

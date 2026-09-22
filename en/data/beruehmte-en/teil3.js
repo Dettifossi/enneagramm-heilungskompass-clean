@@ -2215,3 +2215,72 @@ export function pedroAlonsoPortraitPage() {
     </div>
   `);
 }
+
+export function archimedesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-archimedes-portrait.jpg" alt="Archimedes – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Archimedes</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexual Type 5 with a Four-wing</p>
+        <p class="krim-portrait-subtitle">Greek mathematician, physicist and engineer, c. 287&ndash;212 BC &ndash; animal correspondence: Hedgehog</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The hedgehog who forgot the world the moment he tried to understand it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hedgehog</strong> rolls into a ball at the first sign of danger and only opens up to what genuinely earns its trust – an image that applies almost literally to few figures of antiquity as well as it does to Archimedes. He spent most of his life in Syracuse, Sicily, then the most important Greek city-state on the island, stood in close contact with King Hiero II, and yet, for all his fame, remained at heart a withdrawn figure wholly absorbed in his own thinking.</p>
+          <p class="vb-intro">Remarkably little is recorded about his private life, his exact origins, or any relationships – unusual for someone whose scientific work towered over the rest of antiquity. What multiple independent ancient sources (among them Plutarch and Cicero) report with striking consistency instead is one very specific behavioral pattern: the moment Archimedes turned to a mathematical problem, everything else vanished – food, hygiene, social convention, and ultimately even his own mortal danger.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Five: when trust becomes total fusion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo describes the counter-principle of the sexual Five as <em>confidence</em> – unlike the self-preservation Five, who withdraws into a protected fortress, or the social Five, who shares knowledge with a community in controlled, measured doses, the sexual Five seeks total, unguarded fusion with a single object – and in doing so frequently loses all awareness of everything else, including self-preservation itself.</p>
+          <p class="vb-intro">This exact pattern shows in the most famous anecdote about him: while bathing, he noticed that his body displaced water, and recognized in it the solution to a problem King Hiero had set him – whether a crown was truly made of pure gold. According to legend, he leapt naked from the tub and ran through the streets of Syracuse, unclothed, shouting "Eureka!" ("I have found it!"). No shame, no social restraint, no pause – in that moment, the insight itself had completely displaced every other impulse.</p>
+          <p class="vb-intro">The same underlying pattern shows most vividly in the account of his death. When the Romans under Marcellus took Syracuse in 212 BC after a years-long siege, Archimedes – so Plutarch reports – was absorbed in a geometric drawing in the sand when a Roman soldier ordered him to follow. Archimedes is said to have replied that the soldier should wait until he had solved his problem, or asked him not to disturb his circles ("Noli turbare circulos meos") – whereupon the soldier killed him. Whether or not the exact words are historically accurate, the fact that this scene was passed down for centuries as the most fitting image of his character shows how clearly his contemporaries recognized this one pattern in him – complete, death-blind fusion with the one thing in front of him.</p>
+          <p class="vb-intro">Archimedes shares this structure with another SX5w4 of this compass, Jean-Jacques Rousseau (SX5w4): both sacrifice, at the decisive moment, what matters most to most people – Rousseau his own social belonging, Archimedes his own physical safety – to the one unconditional devotion to whatever they are turned toward at that instant. For Rousseau it was the radical exposure of his own truth in the <em>Confessions</em>; for Archimedes, it was the one geometric figure in the sand. In both cases, at the moment of fusion, literally nothing else exists – nothing like the controlled, arm's-length transmission of knowledge of a social Five such as Isaac Newton (SO5), who deliberately withheld his discoveries for decades, and nothing like the protected observation post of a self-preservation Five such as Charles Darwin (SE5).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: the one solution as life's work, not a career milestone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Four-wing intensifies the Five's introspective side, its orientation toward its own inner measure – not the tested, socially verified foundation of the Six-wing, but an unconditional, almost existential standard applied to one's own insight. In Archimedes this shows in a remarkable prioritization: among all his discoveries – and there were many – he himself called the determination of the ratio between a sphere and its circumscribing cylinder (2:3 in both volume and surface area) his greatest achievement, and explicitly asked that this ratio, represented by a sphere and cylinder, be placed on his tombstone.</p>
+          <p class="vb-intro">This is a classically Four-wing gesture: not the most practically useful or publicly visible of his works – such as the war machines that defended Syracuse against Roman superiority for years – but the one, purely geometric insight that mattered most to him personally became his chosen legacy. More than two centuries later, the Roman orator Cicero actually rediscovered his weathered grave by recognizing exactly this symbol – evidence of how consistently Archimedes upheld his own, incomparable order of priorities against any outside expectation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. What actually made him the greatest mathematician of antiquity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sheer absorption alone doesn't explain why Archimedes is still ranked, alongside Newton and Gauss, among the three greatest mathematicians in history. His actual technical achievement lies in what is known as the method of exhaustion: he approximated curved areas and volumes – such as those of a circle or a sphere – with an ongoing sequence of simpler figures whose measurements he could calculate exactly, pushing this approximation, in principle, toward infinity. In doing so, nearly two thousand years before Newton and Leibniz, he anticipated central principles of integral calculus – using this method, among other things, he calculated the value of pi to a range between 3 10/71 and 3 1/7, a precision unmatched in antiquity.</p>
+          <p class="vb-intro">Equally foundational was his contribution to physics: the principle named after him (a body displaces a volume of fluid equal to its own volume, and experiences buoyancy as a result) established hydrostatics as its own discipline. His law of the lever – summed up in the famous line "Give me a place to stand, and I will move the Earth" – provided, for the first time, a mathematically exact description of a mechanical principle previously known only from practice. His inventions – the water screw named after him, used for irrigation, highly accurate catapults, and the so-called "Claw of Archimedes," with which he lifted Roman ships out of the water – translated these theoretical principles into concrete technology that remained effective for years. That is the substance behind the legend: not merely a man who forgot to bathe, but one whose mathematical methods were not matched by science again for almost two millennia.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the sexual Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In its light, exactly this capacity for total fusion with a problem enabled breakthroughs that would scarcely have been conceivable without it: no one who fails to submerge fully into a geometric question finds the patience to carry hundreds of successive approximation steps to the very edge of what is conceivable. His war machines, too, arose from the same capacity to give a concrete, existential problem – the defense of his city – his undivided attention, without being distracted by anything secondary.</p>
+          <p class="vb-intro">In its shadow, the reverse shows with fatal consequence: the same capacity to completely blank out his own self-preservation for the sake of the one thing apparently left Archimedes without a single thought of flight or submission in the face of an armed soldier. Where a self-preservation Five would reflexively shift into securing itself when facing mortal danger, Archimedes' focus stayed unbroken on the drawing in the sand – with the result that one of the greatest scientific minds of antiquity died, literally, in the middle of thinking.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The healing path: from fusion to conscious devotion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Five's healing path leads from the question <em>Is what I am and know actually enough?</em> to the realization <em>Depth and self-care are not mutually exclusive.</em> For the SX5w4, this means consciously directing the capacity for total devotion to a single thing, instead of being overwhelmed by it uncontrollably – using the intensity as a gift, without risking one's own existence in the process.</p>
+          <p class="vb-intro">A framing without determinism: not everyone with this subtype ends up in mortal danger because they cannot interrupt a problem – the vast majority of SX5s fuse with far less dangerous objects of fascination. Archimedes' death is a historical extreme case, not a pattern to expect. What remains striking, though, is how consistently his entire recorded behavior – from the bathtub to the sand outside the gates of Syracuse – fits into a single underlying pattern. Archimedes naturally had no knowledge of his own Enneagram pattern; his passion for total fusion with whatever problem he had just recognized governed him unopposed, without the language to recognize that the very intensity that made his work immortal ultimately cost him his life as well.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx5", label:"SX5 – The Hedgehog: subtype profile"},
+        {route:"lebensmusterkompass/sx5", label:"Life Pattern Compass: SX5 – Hedgehog"},
+        {route:"beruehmte-jean-jacques-rousseau", label:"Portrait: Jean-Jacques Rousseau (SX5w4)"},
+        {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
+        {route:"beruehmte-blaise-pascal", label:"Portrait: Blaise Pascal (SX5w6)"},
+      ])}
+    </div>
+  `);
+}

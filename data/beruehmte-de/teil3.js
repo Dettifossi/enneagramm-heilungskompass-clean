@@ -2213,3 +2213,72 @@ export function leonGoretzkaPortraitPage() {
     </div>
   `);
 }
+
+export function archimedesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-archimedes-portrait.jpg" alt="Archimedes – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Archimedes</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexueller Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Griechischer Mathematiker, Physiker und Ingenieur, ca. 287&ndash;212 v. Chr. &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel, der die Welt vergaß, sobald er sie verstehen wollte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> rollt sich bei Gefahr zur Kugel und öffnet sich nur dem, was wirkliches Vertrauen verdient – ein Bild, das bei kaum einer Figur der Antike so wörtlich zutrifft wie bei Archimedes. Er lebte den Großteil seines Lebens im sizilianischen Syrakus, dem damals bedeutendsten griechischen Stadtstaat auf der Insel, stand dort in enger Verbindung zu König Hieron II. und blieb doch, allem Ruhm zum Trotz, eine im Kern zurückgezogene, ganz auf die eigene Gedankenarbeit konzentrierte Gestalt.</p>
+          <p class="vb-intro">Über sein Privatleben, seine Herkunft im Detail oder etwaige Beziehungen ist erstaunlich wenig überliefert – ungewöhnlich für jemanden, dessen wissenschaftliches Werk die Antike überstrahlte. Was dagegen in mehreren voneinander unabhängigen antiken Quellen (unter anderem bei Plutarch und Cicero) auffällig übereinstimmend berichtet wird, ist ein ganz bestimmtes Verhaltensmuster: Sobald Archimedes sich einem mathematischen Problem zuwandte, verschwand alles andere – Essen, Körperpflege, soziale Konventionen, am Ende sogar die eigene Lebensgefahr.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Fünf: Wenn Vertrauen zur totalen Verschmelzung wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo beschreibt das Gegenprinzip der sexuellen Fünf als <em>Vertrauen</em> (confidence) – anders als die selbsterhaltende Fünf, die sich in eine geschützte Burg zurückzieht, oder die soziale Fünf, die ihr Wissen kontrolliert und dosiert mit einer Gemeinschaft teilt, sucht die sexuelle Fünf die totale, ungeschützte Verschmelzung mit einer einzigen Sache – und verliert dabei häufig jedes Bewusstsein für alles Übrige, einschließlich der eigenen Selbsterhaltung.</p>
+          <p class="vb-intro">Genau dieses Muster zeigt die berühmteste Anekdote über ihn: Beim Baden bemerkte er, dass sein Körper Wasser verdrängte, und erkannte darin die Lösung für ein Problem König Hierons – ob eine Krone tatsächlich aus reinem Gold gefertigt war. Der Überlieferung nach sprang er nackt aus der Wanne und rannte, ohne sich anzukleiden, mit dem Ruf „Heureka!" („Ich hab's gefunden!") durch die Straßen von Syrakus. Keine Scham, keine soziale Rücksicht, kein Innehalten – die Erkenntnis selbst hatte in diesem Moment jede andere Regung vollständig verdrängt.</p>
+          <p class="vb-intro">Am eindrücklichsten zeigt sich dasselbe Grundmuster in der Überlieferung seines Todes. Als die Römer unter Marcellus 212 v. Chr. nach einer jahrelangen Belagerung Syrakus einnahmen, saß Archimedes – so berichtet es Plutarch – vertieft in eine geometrische Zeichnung im Sand, als ihn ein römischer Soldat aufforderte, ihm zu folgen. Archimedes soll geantwortet haben, er solle warten, bis er sein Problem gelöst habe, oder ihn gebeten haben, seine Kreise nicht zu stören („Noli turbare circulos meos") – woraufhin der Soldat ihn erschlug. Ob im genauen Wortlaut historisch verbürgt oder nicht: Dass diese Szene über Jahrhunderte als das treffendste Bild seines Charakters weitergegeben wurde, zeigt, wie sehr seine Zeitgenossen genau dieses eine Muster an ihm erkannten – die vollständige, todesblinde Verschmelzung mit der einen Sache vor ihm.</p>
+          <p class="vb-intro">Diese Struktur teilt Archimedes mit einem anderen SX5w4 dieses Kompasses, Jean-Jacques Rousseau (SX5w4): Beide opfern im entscheidenden Moment das, was den meisten Menschen am nächsten steht – Rousseau die eigene soziale Zugehörigkeit, Archimedes die eigene körperliche Sicherheit – der einen unbedingten Hingabe an das, dem sie sich gerade zuwenden. Bei Rousseau war es die radikale Offenlegung der eigenen Wahrheit in den <em>Bekenntnissen</em>, bei Archimedes die eine geometrische Figur im Sand. In beiden Fällen existiert im Moment der Verschmelzung buchstäblich nichts anderes mehr – kein Vergleich mit der kontrollierten, auf Distanz gehaltenen Wissensweitergabe eines sozialen Fünfers wie Isaac Newton (SO5), der seine Erkenntnisse jahrzehntelang bewusst zurückhielt, und auch kein Vergleich mit dem geschützten Beobachtungsposten einer selbsterhaltenden Fünf wie Charles Darwin (SE5).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die eine Lösung als Lebenswerk, nicht als Karrierestation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Viererflügel verstärkt bei der Fünf die introspektive, auf das eigene innere Maß bezogene Seite – nicht das geprüfte, mit anderen abgeglichene Fundament wie beim Sechserflügel, sondern der unbedingte, fast existenzielle Anspruch an die eigene Erkenntnis. Bei Archimedes zeigt sich das in einer bemerkenswerten Priorisierung: Unter all seinen Entdeckungen – und es waren viele – bezeichnete er selbst die Bestimmung des Verhältnisses von Kugel und umschriebenem Zylinder (2:3 in Volumen wie Oberfläche) als seine größte Leistung und bat ausdrücklich darum, dieses Verhältnis mit Kugel und Zylinder als Symbol auf seinem Grabstein darzustellen.</p>
+          <p class="vb-intro">Das ist eine typisch viererflügelige Geste: Nicht die praktisch nützlichste oder öffentlich wirksamste seiner Arbeiten – etwa seine Kriegsmaschinen, die Syrakus jahrelang gegen die römische Übermacht verteidigten – wählte er als sein bleibendes Vermächtnis, sondern jene eine, rein geometrische Erkenntnis, die ihm persönlich am bedeutsamsten erschien. Über zwei Jahrhunderte später fand der römische Redner Cicero das verwitterte Grab tatsächlich anhand genau dieses Symbols wieder – ein Beleg dafür, wie konsequent Archimedes seine eigene, unvergleichliche Rangordnung gegen jede äußere Erwartung durchsetzte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Was ihn tatsächlich zum größten Mathematiker der Antike machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bloße Versunkenheit erklärt nicht, warum ausgerechnet Archimedes bis heute neben Newton und Gauß zu den drei bedeutendsten Mathematikern der Geschichte gezählt wird. Seine eigentliche fachliche Leistung liegt in der sogenannten Exhaustionsmethode: Er näherte krummlinig begrenzte Flächen und Volumina – etwa die eines Kreises oder einer Kugel – durch eine fortlaufende Folge einfacherer Figuren an, deren Maße er exakt berechnen konnte, und trieb diese Annäherung gedanklich bis ins Unendliche. Damit nahm er, fast zweitausend Jahre vor Newton und Leibniz, zentrale Prinzipien der Integralrechnung vorweg – mit dieser Methode berechnete er unter anderem die Kreiszahl Pi auf einen Bereich zwischen 3 10/71 und 3 1/7 genau, eine für die Antike beispiellose Präzision.</p>
+          <p class="vb-intro">Ebenso grundlegend war sein Beitrag zur Physik: Das nach ihm benannte Archimedische Prinzip (ein Körper verdrängt so viel Flüssigkeit, wie seinem eigenen Volumen entspricht, und erfährt dadurch einen Auftrieb) begründete die Hydrostatik als eigenständige Disziplin. Sein Hebelgesetz – zusammengefasst in dem berühmten Ausspruch „Gib mir einen festen Punkt, und ich werde die Welt aus den Angeln heben" – lieferte erstmals eine mathematisch exakte Beschreibung eines mechanischen Grundprinzips, das zuvor nur aus der Praxis bekannt war. Seine Erfindungen – die nach ihm benannte Wasserschnecke zur Bewässerung, hochpräzise Katapulte und die sogenannte „Krallen des Archimedes", mit der er römische Schiffe aus dem Wasser hob – übersetzten diese theoretischen Prinzipien in konkrete, jahrelang wirksame Technik. Das ist die Substanz hinter der Legende: nicht nur ein Mann, der sein Bad vergaß, sondern einer, dessen mathematische Methoden erst fast zwei Jahrtausende später von der Wissenschaft eingeholt wurden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht ermöglichte genau diese Fähigkeit zur totalen Verschmelzung mit einem Problem Durchbrüche, die ohne sie kaum denkbar gewesen wären: Wer sich nicht vollständig in eine geometrische Frage versenkt, findet nicht die Geduld, Hunderte gedankliche Näherungsschritte bis an die Grenze des Vorstellbaren durchzuhalten. Auch seine Kriegsmaschinen entstanden aus derselben Fähigkeit, sich einem konkreten, existenziellen Problem – der Verteidigung seiner Stadt – mit ungeteilter Aufmerksamkeit zuzuwenden, ohne durch Nebensächlichkeiten abgelenkt zu werden.</p>
+          <p class="vb-intro">Im Schatten zeigt sich die Kehrseite mit tödlicher Konsequenz: Dieselbe Fähigkeit, die eigene Selbsterhaltung zugunsten der einen Sache vollständig auszublenden, ließ ihn im Angesicht eines bewaffneten Soldaten offenbar keinen Gedanken an Flucht oder Unterwerfung verschwenden. Wo eine selbsterhaltende Fünf in Lebensgefahr reflexhaft auf Sicherung schaltet, blieb bei Archimedes der Fokus ungebrochen auf der Zeichnung im Sand – mit dem Ergebnis, dass eine der größten wissenschaftlichen Köpfe der Antike buchstäblich mitten im Denken starb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Verschmelzung zur bewussten Hingabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von der Frage <em>Reicht das, was ich bin und weiß, überhaupt aus?</em> zur Erkenntnis <em>Vertiefung und Selbstfürsorge schließen sich nicht aus.</em> Für die SX5w4 bedeutet das konkret, die Fähigkeit zur totalen Hingabe an eine Sache bewusst zu steuern, statt sich unkontrolliert von ihr überwältigen zu lassen – die Intensität als Geschenk zu nutzen, ohne die eigene Existenz dabei aufs Spiel zu setzen.</p>
+          <p class="vb-intro">Einordnung ohne Determinismus: Nicht jeder Mensch mit diesem Subtyp gerät in Lebensgefahr, weil er ein Problem nicht unterbrechen kann – die allermeisten SX5 verschmelzen mit weit ungefährlicheren Objekten ihrer Faszination. Archimedes' Tod ist ein historischer Extremfall, kein zu erwartendes Muster. Bemerkenswert bleibt dennoch, wie konsequent sich sein gesamtes überliefertes Verhalten – von der Badewanne bis zum Sand vor den Toren Syrakus' – in ein einziges Grundmuster fügt. Archimedes kannte sein eigenes Enneagramm-Muster naturgemäß nicht; seine Leidenschaft nach vollständiger Verschmelzung mit dem gerade erkannten Problem bestimmte ihn unwidersprochen, ohne die Sprache, um zu erkennen, dass genau diese Intensität, die sein Werk unsterblich machte, ihm am Ende auch das Leben kostete.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx5", label:"Lebensmusterkompass: SX5 – Igel"},
+        {route:"beruehmte-jean-jacques-rousseau", label:"Porträt: Jean-Jacques Rousseau (SX5w4)"},
+        {route:"beruehmte-frederic-chopin", label:"Porträt: Frédéric Chopin (SX5w4)"},
+        {route:"beruehmte-blaise-pascal", label:"Porträt: Blaise Pascal (SX5w6)"},
+      ])}
+    </div>
+  `);
+}
