@@ -7315,6 +7315,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"ich-illusion", titel:"Who's Really Steering Here? – The Gentle Way Out of the Illusion of Self", teaser:"A gentle, in-depth look at the conditioned self, Enneagram fixations, and the liberating question of who's really steering here.", img:"../assets/portraits/Ich-Illusion.jpeg", kategorie:"geist" },
     { slug:"turiya-enneagramm", titel:"The Observer Behind the Pattern – The Enneagram and the Turiya State According to Ramana Maharshi", teaser:"How the nine Enneagram fixations can be understood as nine ways of fleeing one's own still center – and the way back through self-inquiry.", img:"../assets/schaubilder/turiya-enneagramm/turiya-enneagramm.jpg", kategorie:"geist" },
     { slug:"metaintelligenz-achtsamkeit-im-moment", titel:"Meta-Intelligence: Mindfulness in the Moment", teaser:"The most important ability of the human mind in four simple steps – observing the thought that just arose instead of merging with it.", img:"../assets/schaubilder/metaintelligenz-achtsamkeit-im-moment/metaintelligenz-achtsamkeit-im-moment-en.jpg", kategorie:"geist" },
+    { slug:"vierter-weg-selbsterinnerung", titel:"The Fourth Way According to Gurdjieff: Self-Remembering in the Middle of Everyday Life", teaser:"Four practical exercise paths from G. I. Gurdjieff for interrupting mechanized everyday sleep – practiced in the middle of the bustle, not in quiet seclusion.", img:"../assets/schaubilder/vierter-weg-selbsterinnerung/vierter-weg-selbsterinnerung-en.jpg", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"Body & Movement", icon:"🧭" },
@@ -7364,6 +7365,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "metaintelligenz-achtsamkeit-im-moment") {
     return metaintelligenzAchtsamkeitPage();
+  }
+  if (param === "vierter-weg-selbsterinnerung") {
+    return vierterWegSelbsterinnerungPage();
   }
   if (param === "bewusstes-innehalten") {
     return bewusstesInnehaltenPage();
@@ -7980,6 +7984,7 @@ function vitruvEnneagrammPage() {
         {route:"beruehmte-leonardo-da-vinci", label:"Portrait: Leonardo da Vinci (SO5w4)"},
         {route:"praxistipps-heilpraktiker/unsichtbarer-magnet", label:"The Invisible Magnet"},
         {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"The Energy Field Between the Hands"},
+        {route:"praxistipps-heilpraktiker/vierter-weg-selbsterinnerung", label:"The Fourth Way According to Gurdjieff: Self-Remembering"},
         {route:"practice", label:"Tools"},
       ])}
     </section>
@@ -8188,6 +8193,68 @@ function metaintelligenzAchtsamkeitPage() {
         {route:"praxistipps-heilpraktiker/bewusstes-innehalten", label:"The Practice of Conscious Pausing"},
         {route:"praxistipps-heilpraktiker/ich-illusion", label:"The Gentle Way Out of the Illusion of Self"},
         {route:"stille", label:"9 Minutes of Silence"},
+        {route:"practice", label:"Tools"},
+      ])}
+    </section>
+  `);
+}
+
+function vierterWegSelbsterinnerungPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1 class="h1--tip">The Fourth Way According to Gurdjieff: Self-Remembering in the Middle of Everyday Life</h1>
+      <p class="lead-small">Four practical exercise paths from the mystic G. I. Gurdjieff for interrupting the "mechanized sleep" of everyday consciousness – practiced not in quiet seclusion, but right in the middle of work, stress, and relationships.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="../assets/schaubilder/vierter-weg-selbsterinnerung/vierter-weg-selbsterinnerung-en.jpg"
+             alt="Georges I. Gurdjieff at a workbench with gears and an open book, a hectic city street in the background and a group of meditating people, connected by the symbols of the enneagram, three centers, and self-remembering"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Georges I. Gurdjieff (c. 1866–1949), philosopher and founder of the "Fourth Way," was also the one who brought the ancient enneagram symbol to the West and linked it to the teaching of the three human centers: the head center (thinking), the heart center (feeling), and the body center (instinct/action). In the everyday state, Gurdjieff taught, human beings are asleep, because these three centers run uncoordinated and mechanically, and we identify completely with whatever thought or stimulus happens to be arising. The goal of self-remembering is to awaken all three centers simultaneously through divided attention and conscious presence, to interrupt the inner autopilot, and to live from a deeper essence.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Gurdjieff repeatedly emphasized that self-remembering cannot be practiced through otherworldly meditation in quiet seclusion, but only in the middle of daily life – in the midst of work, stress, and relationships, exactly where a person normally falls straight back into mechanical "sleep." Four concrete exercise paths are at the center of this practical tip.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">1. The Stop Exercise</h2>
+        <p class="vb-intro">In Gurdjieff's institutes, he would unexpectedly call out the word "Stop!" into the room. All students had to freeze instantly in their exact position – physically, but above all mentally and emotionally. The point was to pause and, within a fraction of a second, notice: What was I just thinking? How was I standing? What feeling was running in the background? For everyday life, this translates into setting yourself such an inner "stop" several times a day, at consciously chosen moments, and pausing for one breath instead of carrying on automatically.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">2. Divided Attention</h2>
+        <p class="vb-intro">This is the technical heart of the exercise. Normally, attention flows one hundred percent outward, onto whatever is being done – driving, typing, talking. Gurdjieff called for deliberately dividing this attention: one half stays with the outer doing, the other half stays with the inner observer – the plain awareness that one is doing it. While walking, for example, this means simultaneously feeling one's own steps on the ground and being aware of the fact that one is walking.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">3. Consciously Observing Mechanical Reactions</h2>
+        <p class="vb-intro">Gurdjieff advised catching one's own automatic impulses in perfectly ordinary situations – the urge to immediately get annoyed about being late, to check the phone the instant it buzzes, or to slip into an unnecessary justification. Self-remembering happens exactly in the moment such an impulse is observed instead of blindly followed – the goal is not to suppress the reaction, but simply to notice that it is currently happening.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">4. Working with the Three Centers</h2>
+        <p class="vb-intro">Gurdjieff taught that human beings possess three main centers: the intellectual (thinking), the emotional (feeling), and the movement-related, physical center. In self-remembering, the aim is to lightly activate all three centers at the same time – to think clearly, to be emotionally awake, and to consciously feel one's own body all in the same moment, instead of letting just one of the three centers run on autopilot while the other two idle.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Practical Tip:</strong> Gurdjieff's own core advice was: do not try to stay in this state for hours. For an untrained person, genuine self-remembering is at first often only possible for a few seconds or minutes at a stretch. The secret lies not in the length, but in trying it briefly, many times a day – better often for seconds than rarely for long stretches.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">5. Why This Foundation Still Works Today</h2>
+        <p class="vb-intro">This exact principle – out of the unconscious stream of thought, into the awake presence of the moment – shows up today in nearly every major contemporary spiritual teacher, whether in Eckhart Tolle ("The Power of Now"), Adyashanti, Rupert Spira, or the philosopher Ken Wilber. Their approaches to building awareness and harmonizing mind, body, and emotion build directly on these origins of the Fourth Way, even when Gurdjieff's name is not always mentioned.</p>
+        <p class="vb-intro" style="margin-top:1rem;">From my own more than thirty years of naturopathic experience with clients and patients, I can confirm how effective precisely the brevity and repeatability of these exercises is in everyday life: the Stop Exercise or divided attention can easily be woven in between two appointments, while walking to the car, or while waiting for coffee – without any special setting at all. Whoever regularly steps out of the mechanical flow of everyday life, even just for seconds, often also changes their relationship to their own Enneagram fixation, because simply noticing one's own automatic patterns usually already has a regulating effect, long before any conscious change is even attempted.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"praxistipps-heilpraktiker/metaintelligenz-achtsamkeit-im-moment", label:"Meta-Intelligence: Mindfulness in the Moment"},
+        {route:"praxistipps-heilpraktiker/bewusstes-innehalten", label:"The Practice of Conscious Pausing"},
+        {route:"praxistipps-heilpraktiker/vitruv-enneagramm", label:"The Vitruvian Enneagram Awareness Exercise"},
+        {route:"wurzeln-des-enneagramms", label:"The Roots of the Enneagram"},
         {route:"practice", label:"Tools"},
       ])}
     </section>
