@@ -1187,6 +1187,7 @@ export function michaelDellPortraitPage() {
         {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SP3w2)"},
         {route:"beruehmte-bastian-pastewka", label:"Portrait: Bastian Pastewka (SP3w2)"},
         {route:"beruehmte-klara-von-assisi", label:"Portrait: Clare of Assisi (SE3w2)"},
+        {route:"beruehmte-lewis-howes", label:"Portrait: Lewis Howes (SP3w2)"},
       ])}
     </div>
   `);

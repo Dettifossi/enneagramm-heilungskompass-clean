@@ -1,5 +1,72 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function lewisHowesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lewis-howes-portrait.jpg" alt="Lewis Howes – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lewis Howes</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Unternehmer, Podcaster, geb. 1980 &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der auf dem Sofa seiner Schwester neu lernte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> erwirbt seine Fertigkeiten in stiller, oft verborgener Arbeit, lange bevor jemand zusieht – und genau darin liegt sein eigentliches Kapital. Lewis Howes, geboren 1980 in Ohio, wuchs mit einer Lernschwäche, Mobbingerfahrungen und, wie er erst Jahre später öffentlich machte, sexuellem Missbrauch in der Kindheit auf. Sport wurde zu seiner ersten Fluchtroute in Sicherheit: als Zwei-Sport-All-American in Football und Zehnkampf, später in der US-amerikanischen Handball-Nationalmannschaft.</p>
+          <p class="vb-intro">2007 beendete eine Handgelenksverletzung seine Profikarriere im Arena Football abrupt. Was folgte, war kein triumphaler Übergang, sondern Monate auf dem Sofa seiner Schwester in Ohio – mittellos, orientierungslos, ohne Plan. Statt sich neu zu inszenieren, begann er, systematisch eine ganz konkrete Fertigkeit zu erlernen: das damals noch junge berufliche Netzwerk LinkedIn. Er verbrachte Monate damit, Profile zu studieren, Kontakte zu knüpfen und Muster zu verstehen – bis er sich selbst zu einem der frühesten und meistbeachteten LinkedIn-Experten des Landes gemacht hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch nachweisbare Kompetenz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> sucht ihre Sicherheit nicht im öffentlichen Image, sondern in überprüfbarer, tatsächlich funktionierender Kompetenz. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Man wird nicht bewundert, weil man sich gut verkauft, sondern weil man nachweislich liefert. Howes' Weg vom Sofa der Schwester zu einer Handvoll dokumentierter, konkreter Fähigkeiten – LinkedIn-Strategie, später Podcast-Interviewführung – statt zu einer sofort inszenierten Erfolgsstory, trägt genau diese Handschrift.</p>
+          <p class="vb-intro">2013 startete er den Podcast <em>The School of Greatness</em>, der mittlerweile über 500 Millionen Downloads verzeichnet und 2018 den Shorty Award als bester Podcast-Host einbrachte. Im Zentrum steht dabei nicht Howes' eigene Selbstdarstellung, sondern eine erlernte, immer weiter verfeinerte Interviewtechnik: erfolgreiche Menschen so zu befragen, dass sie über ihre tatsächlichen, oft mühsam erarbeiteten Wege sprechen – nicht über ihr Image. 2011 wurde er vom Weißen Haus unter Präsident Obama als einer der 100 vielversprechendsten Unternehmer unter 30 Jahren ausgezeichnet – eine Auszeichnung für unternehmerische Substanz, nicht für mediale Präsenz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Vom eigenen Erfolg zur fremden Verletzlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> verleiht der selbsterhaltenden Drei einen echten Antrieb, die eigene erarbeitete Sicherheit für andere nutzbar zu machen. Bei Howes zeigt sich das in einer bemerkenswerten inhaltlichen Wende: Nach Jahren, in denen sein Podcast vor allem Erfolgsrezepte sammelte, veröffentlichte er 2017 das Buch <em>The Mask of Masculinity</em> – und legte darin erstmals öffentlich den sexuellen Missbrauch offen, den er als Kind erlitten hatte.</p>
+          <p class="vb-intro">Seither verschob sich der Schwerpunkt seiner Arbeit spürbar von reiner Erfolgs- und Leistungslogik hin zu Beziehungsfähigkeit, emotionaler Offenheit und, mit seiner Frau Martha Higareda, konkreter Paar- und Eheberatung. Der Zweierflügel übersetzt die selbsterhaltende Drei damit von einer rein auf die eigene Sicherheit bezogenen Haltung in eine, die die eigene erarbeitete Stärke bewusst in den Dienst anderer stellt – erst nachdem die eigene Fassade tragfähig genug war, um sie ein Stück weit fallen zu lassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz hinter der Marke: Zwei Spitzensportarten, eine erlernte Interviewkunst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bloßes Selbstmarketing erklärt nicht, warum Howes' Werk seit über einem Jahrzehnt trägt. Sportlich hält er bis heute einen Rekord im Arena Football für die meisten Empfangs-Yards in einem einzelnen Spiel (418 Yards) – eine Zahl, die reine läuferische und technische Präzision voraussetzt, kein Image. Parallel dazu qualifizierte er sich für die US-Handball-Nationalmannschaft, eine in den USA nahezu unbekannte Sportart ohne jedes mediale Prestige – ein Beleg dafür, dass sein sportlicher Ehrgeiz tatsächlich der Sache selbst galt, nicht der Bühne.</p>
+          <p class="vb-intro">Als Autor veröffentlichte er drei New-York-Times-Bestseller, zuletzt <em>The Greatness Mindset</em> (2023). Die eigentliche handwerkliche Leistung liegt jedoch im Podcast-Format selbst: Über mehr als tausend Episoden hinweg entwickelte Howes eine Interviewtechnik, die Gäste – von Weltklasse-Athleten bis zu Wissenschaftlern und Unternehmern – gezielt zu konkreten, oft erstmals öffentlich erzählten Details ihres Weges führt, statt bei allgemeinen Erfolgsfloskeln stehen zu bleiben. Das ist die eigentliche, erlernte Fertigkeit hinter der Marke ›School of Greatness‹: nicht das eigene Charisma, sondern die handwerkliche Fähigkeit, anderen Menschen ihre eigene Geschichte präzise zu entlocken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Howes die Fähigkeit, aus einem völligen Nullpunkt heraus systematisch, Fertigkeit für Fertigkeit, echte Substanz aufzubauen – vom Sofa der Schwester über LinkedIn-Expertise bis zur eigenen Verlagsmarke. Bemerkenswert ist zudem, wie lange die eigentliche Verletzung – der Missbrauch in der Kindheit – verschwiegen blieb, während öffentlich längst Erfolg sichtbar war: die SE3-typische Trennung zwischen tragfähiger äußerer Fassade und ungelöster innerer Wunde.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit</strong> – bei der SE3 subtiler als bei den lauteren Dreier-Subtypen, aber ebenso wirksam: das Bedürfnis, den eigenen Wert immer wieder durch neue, überprüfbare Leistungen zu belegen, statt sich selbst genügen zu lassen. Dass Howes' Marke bis heute unter dem Titel ›Greatness‹ firmiert, selbst nachdem der inhaltliche Fokus sich auf Verletzlichkeit und Beziehung verschoben hat, zeigt, wie tief dieser Leistungsanspruch verankert bleibt, auch wenn er heute anders eingesetzt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der überprüfbaren Leistung zur geteilten Wahrheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt vom Zorn über die eigene Unzulänglichkeit zur Erkenntnis <em>Ich bin wertvoll, auch ohne den nächsten Beweis.</em> Für die SE3w2 bedeutet das konkret, die eigene, hart erarbeitete Sicherheit nicht länger als Schutzschild vor der eigenen Geschichte zu brauchen, sondern als Fundament, von dem aus genau diese Geschichte geteilt werden kann.</p>
+          <p class="vb-intro">Dass Howes seinen Missbrauch erst öffentlich machte, nachdem sein beruflicher Erfolg längst gesichert war, liest sich als genau dieser Weg: Die überprüfbare Leistung kam zuerst, die verletzliche Wahrheit folgte erst, als die Fassade sie tragen konnte, ohne einzustürzen. Der Waschbär, der seine mühsam erworbenen Fertigkeiten am Ende nicht mehr nur zum eigenen Schutz einsetzt, sondern um anderen zu zeigen, dass auch ihre eigene, unfertige Geschichte tragfähig genug ist, um erzählt zu werden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Der Waschbär"},
+        {route:"beruehmte-andre-agassi", label:"Porträt: Andre Agassi (SE3w2)"},
+        {route:"beruehmte-tim-maelzer", label:"Porträt: Tim Mälzer (SE3w2)"},
+        {route:"beruehmte-michael-dell", label:"Porträt: Michael Dell (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 export function anastasiaBarnerPortraitPage() {
   return shell(`
     <div class="page-container">

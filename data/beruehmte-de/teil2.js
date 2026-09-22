@@ -191,6 +191,7 @@ export function andreAgassiPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"beruehmte-steffi-graf", label:"Porträt: Steffi Graf (SO9w1) – seine Frau"},
         {route:"beruehmte-tim-maelzer", label:"Porträt: Tim Mälzer (SE3w2)"},
+        {route:"beruehmte-lewis-howes", label:"Porträt: Lewis Howes (SE3w2)"},
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Der Waschbär"},
       ])}
@@ -1871,6 +1872,7 @@ export function timMaelzerPortraitPage() {
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Der Waschbär"},
         {route:"beruehmte-klara-von-assisi", label:"Porträt: Klara von Assisi (SE3w2)"},
+        {route:"beruehmte-lewis-howes", label:"Porträt: Lewis Howes (SE3w2)"},
       ])}
     </div>
   `);
