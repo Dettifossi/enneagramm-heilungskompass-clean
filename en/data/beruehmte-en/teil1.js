@@ -1807,6 +1807,7 @@ export function miraMuratiPortraitPage() {
         {route:"beruehmte-kamala-harris", label:"Portrait: Kamala Harris (SO2w3)"},
         {route:"beruehmte-benjamin-disraeli", label:"Portrait: Benjamin Disraeli (SO2w3)"},
         {route:"beruehmte-eva-peron", label:"Portrait: Eva Perón (SO2w3)"},
+        {route:"beruehmte-lewis-howes", label:"Portrait: Lewis Howes (SO2w3)"},
       ])}
     </div>
   `);

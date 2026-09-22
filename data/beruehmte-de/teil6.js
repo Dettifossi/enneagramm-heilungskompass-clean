@@ -1450,6 +1450,7 @@ export function sucharitBhakdiPortraitPage() {
         {route:"subtype/so2", label:"SO2 &ndash; Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-juergen-klopp", label:"Portr\u00e4t: J\u00fcrgen Klopp (SO1w2)"},
         {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portr\u00e4t: Gloria von Thurn und Taxis (SE2w1)"},
+        {route:"beruehmte-lewis-howes", label:"Portr\u00e4t: Lewis Howes (SO2w3)"},
       ])}
     </div>
   `);

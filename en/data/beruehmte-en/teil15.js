@@ -10,45 +10,45 @@ export function lewisHowesPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lewis-howes-portrait.jpg" alt="Lewis Howes – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Lewis Howes</p>
-        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with a Two-wing</p>
-        <p class="krim-portrait-subtitle">Entrepreneur, podcaster, b. 1980 &ndash; animal correspondence: Raccoon</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with a Three-wing</p>
+        <p class="krim-portrait-subtitle">Entrepreneur, podcaster, b. 1980 &ndash; animal correspondence: Golden Retriever</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The raccoon who learned everything over again on his sister's couch</h2>
+        <h2 class="vb-section">1. The golden retriever who wanted to gather an entire community</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>raccoon</strong> acquires its skills through quiet, often hidden work, long before anyone is watching – and that is exactly where its real capital lies. Lewis Howes, born in 1980 in Ohio, grew up with a learning disability, bullying, and, as he only made public years later, childhood sexual abuse. Sports became his first route to safety: a two-sport All-American in football and decathlon, later a member of the USA Men's National Handball Team.</p>
-          <p class="vb-intro">In 2007, a wrist injury abruptly ended his professional career in arena football. What followed was not a triumphant transition, but months on his sister's couch in Ohio – broke, directionless, without a plan. Instead of reinventing his image, he began systematically learning one very concrete skill: the then-still-young professional network LinkedIn. He spent months studying profiles, building connections, and understanding patterns – until he had turned himself into one of the country's earliest and most closely watched LinkedIn experts.</p>
+          <p class="vb-intro">The <strong>golden retriever</strong> doesn't look for the one protected niche – it looks for the stage from which it can reach as many as possible, carrying its message out to the pack with infectious energy. Lewis Howes, born in 1980 in Ohio, grew up with a learning disability, bullying, and, as he only made public years later, childhood sexual abuse. Sports became his first route to recognition and belonging: a two-sport All-American in football and decathlon, later a member of the USA Men's National Handball Team.</p>
+          <p class="vb-intro">In 2007, a wrist injury abruptly ended his professional career in arena football. What followed was months on his sister's couch in Ohio – broke, directionless. But instead of withdrawing, he began systematically building connections: on the then-still-young professional network LinkedIn, profile by profile, conversation by conversation, he built a tight web of relationships with exactly the people he admired – until he himself had become a central, connecting figure of the platform.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The self-preservation Three: security through verifiable competence</h2>
+        <h2 class="vb-section">2. The social Two: significance through closeness to the significant</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> seeks its security not in public image, but in verifiable, actually functioning competence. Naranjo called this subtype <em>security</em>: one is not admired for selling oneself well, but for demonstrably delivering. Howes' path from his sister's couch to a handful of documented, concrete skills – LinkedIn strategy, later podcast interviewing – rather than to an immediately staged success story, carries exactly this signature.</p>
-          <p class="vb-intro">In 2013, he launched the podcast <em>The School of Greatness</em>, which has since surpassed 500 million downloads and earned him the 2018 Shorty Award for Best Podcast Host. At its center is not Howes' own self-presentation, but a learned, continually refined interviewing technique: questioning successful people in a way that draws out their actual, often hard-won paths – not their image. In 2011, the White House under President Obama named him one of the 100 most promising entrepreneurs under 30 – an award for entrepreneurial substance, not media presence.</p>
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> looks for its place not in the one exclusive relationship, but at the center of a large network – Naranjo called this subtype <em>privilege</em> or <em>ambition</em>: significance is secured by making oneself indispensable to many, often precisely through closeness to influential or successful people. Howes' life's work is, at its core, exactly this: in 2013 he launched the podcast <em>The School of Greatness</em>, which has since surpassed 500 million downloads – not a work of self-presentation, but across more than a thousand episodes a systematic building of personal relationships with athletes, scientists, and entrepreneurs, whose trust he earns before they tell their actual story.</p>
+          <p class="vb-intro">In 2011, the White House under President Obama named him one of the 100 most promising entrepreneurs under 30; in 2018, he received the Shorty Award for Best Podcast Host. Both honors ultimately recognize the same capital: not a single product or a single achievement, but a densely woven network of personal relationships built over years, which adds up to reach and influence – exactly the pattern this compass already describes in Caesar, Napoleon, or Disraeli as "personal closeness as a leadership instrument."</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Two-wing: from personal success to other people's vulnerability</h2>
+        <h2 class="vb-section">3. The Three-wing: the message has to be called "Greatness"</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing</strong> gives the self-preservation Three a genuine drive to put its own hard-won security to use for others. In Howes this shows in a notable shift in content: after years in which his podcast mainly collected success formulas, he published the book <em>The Mask of Masculinity</em> in 2017 – and in it, for the first time, publicly disclosed the sexual abuse he had suffered as a child.</p>
-          <p class="vb-intro">Since then, the focus of his work has visibly shifted from a purely achievement-driven logic toward relational capacity, emotional openness, and, together with his wife Martha Higareda, concrete couples and marriage coaching. The Two-wing thereby translates the self-preservation Three from a stance oriented purely toward its own security into one that consciously puts its hard-won strength in service of others – only after that facade was sturdy enough to be allowed to drop, at least in part.</p>
+          <p class="vb-intro">The <strong>Three-wing</strong> gives the social Two an additional ambition to be visibly and measurably successful – not just connected, but also admired. That Howes runs his entire brand under the name "Greatness," not "Connection" or "Community," shows exactly this wing note: the relationships he builds are meant to visibly lead somewhere big – to bestseller lists, awards, records.</p>
+          <p class="vb-intro">In 2017 he published the book <em>The Mask of Masculinity</em> and, for the first time, publicly disclosed the sexual abuse he had suffered as a child – a turning point that shifted his focus from purely achievement-driven logic toward emotional openness and, together with his wife Martha Higareda, concrete couples and marriage coaching. But even this opening became another visible chapter of his public message – the social Two with a Three-wing doesn't share vulnerability quietly, but where it will be seen and heard.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The substance behind the brand: two elite sports, one learned art of interviewing</h2>
+        <h2 class="vb-section">4. The substance behind the message: two elite sports, one learned art of interviewing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Sheer self-marketing does not explain why Howes' body of work has held up for over a decade. Athletically, he still holds an arena football record for most receiving yards in a single game (418 yards) – a number that requires pure running and technical precision, not image. In parallel, he qualified for the USA Men's National Handball Team, a sport with almost no media prestige in the United States – evidence that his athletic ambition genuinely concerned the thing itself, not the stage.</p>
-          <p class="vb-intro">As an author, he has published three New York Times bestsellers, most recently <em>The Greatness Mindset</em> (2023). The actual craft, however, lies in the podcast format itself: across more than a thousand episodes, Howes developed an interviewing technique that steers guests – from world-class athletes to scientists and entrepreneurs – toward concrete, often first-time-told details of their path, instead of stopping at general success platitudes. That is the actual, learned skill behind the "School of Greatness" brand: not his own charisma, but the craft of precisely drawing out other people's own stories.</p>
+          <p class="vb-intro">Mere networking does not explain why Howes' body of work has held up for over a decade. Athletically, he still holds an arena football record for most receiving yards in a single game (418 yards). In parallel, he qualified for the USA Men's National Handball Team, a sport with almost no media prestige in the United States – early evidence that his ambition measured itself not only by the biggest stage, but by the thing itself.</p>
+          <p class="vb-intro">As an author, he has published three New York Times bestsellers, most recently <em>The Greatness Mindset</em> (2023). The actual craft, however, lies in the podcast format itself: an interviewing technique refined across more than a thousand episodes that steers guests toward concrete, often first-time-told details of their path, instead of stopping at general success platitudes. That is the actual skill behind the "School of Greatness" brand: creating closeness sturdy enough for other people to open up their own story.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and shadow of the self-preservation Three</h2>
+        <h2 class="vb-section">5. Light and shadow of the social Two</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In its light, Howes shows the capacity to build real substance systematically, skill by skill, from an absolute zero point – from his sister's couch through LinkedIn expertise to his own media brand. Also striking is how long the actual wound – the childhood abuse – stayed concealed while success was already publicly visible: the SP3-typical split between a sturdy outer facade and an unresolved inner wound.</p>
-          <p class="vb-intro">The Three's besetting sin is <strong>vanity</strong> – subtler in the SP3 than in the louder Three subtypes, but just as effective: the need to keep proving one's own worth through ever-new, verifiable achievements instead of letting oneself be enough. That Howes' brand still operates under the name "Greatness" today, even after the content focus shifted toward vulnerability and relationship, shows how deeply this achievement drive remains anchored, even as it is now put to different use.</p>
+          <p class="vb-intro">In its light, Howes shows the capacity to build a network of historic reach out of a personal low point – not through isolation and quiet competence, but through persistent, warm investment in countless individual relationships that ultimately added up to enormous collective influence.</p>
+          <p class="vb-intro">The Two's besetting sin is <strong>pride</strong> – the conviction of having no needs of one's own, existing only for others, while one's own significance is fed precisely by being needed and admired. That Howes' own vulnerability – the childhood abuse – only became public once his network and reach were already enormous shows this pride in its typical form: one's own neediness is allowed to become visible only once it can be translated into a message for others that does not damage one's standing, but carries it further.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The healing path: from verifiable achievement to shared truth</h2>
+        <h2 class="vb-section">6. The healing path: from significance through others to one's own worth</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Three's healing path leads from anger at one's own inadequacy to the realization <em>I am valuable, even without the next proof.</em> For the SP3w2, this means no longer needing hard-won security as a shield against one's own story, but as the foundation from which that very story can be shared.</p>
-          <p class="vb-intro">That Howes only made his abuse public after his professional success was already secure reads as exactly this path: the verifiable achievement came first, the vulnerable truth followed only once the facade could bear it without collapsing. The raccoon who, in the end, no longer uses its hard-earned skills only for its own protection, but to show others that their own, unfinished story is sturdy enough to be told as well.</p>
+          <p class="vb-intro">The Two's healing path leads from pride to humility – from the question <em>Am I only valuable if I'm indispensable to others?</em> to the realization <em>I too am allowed to be needy without losing my worth.</em> For the SO2w3, this means no longer justifying one's own message only by the detour of reach and admiration, but taking one's own vulnerability seriously even when it finds no audience.</p>
+          <p class="vb-intro">That Howes only made his abuse public after his network was already firmly established reads as exactly this path: the relational capital came first, the vulnerable truth followed only once a stage stood ready to carry it. The golden retriever who, in the end, no longer carries its own story to the pack only to be needed, but to actually be seen – with everything it could never manage alone.</p>
         </blockquote>
 
       </div>
@@ -57,11 +57,11 @@ export function lewisHowesPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/se3", label:"SP3 – The Raccoon: subtype profile"},
-        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SP3 – Raccoon"},
-        {route:"beruehmte-andre-agassi", label:"Portrait: Andre Agassi (SP3w2)"},
-        {route:"beruehmte-tim-maelzer", label:"Portrait: Tim Mälzer (SP3w2)"},
-        {route:"beruehmte-michael-dell", label:"Portrait: Michael Dell (SP3w2)"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: subtype profile"},
+        {route:"lebensmusterkompass/so2", label:"Life Pattern Compass: SO2 – Golden Retriever"},
+        {route:"beruehmte-benjamin-disraeli", label:"Portrait: Benjamin Disraeli (SO2w3)"},
+        {route:"beruehmte-mira-murati", label:"Portrait: Mira Murati (SO2w3)"},
+        {route:"beruehmte-sucharit-bhakdi", label:"Portrait: Prof. Dr. Sucharit Bhakdi (SO2w1)"},
       ])}
     </div>
   `);
