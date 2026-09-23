@@ -4557,7 +4557,7 @@ export function arwedImielaPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
-        <p class="vb-intro"><strong>a) Naranjos SE7 – "Familie/Conviviality" pervertiert zur Ressourcenjagd:</strong>
+        <p class="vb-intro"><strong>a) Naranjos SE7 – "Familie/Conviviality" (›Geselligkeit‹) pervertiert zur Ressourcenjagd:</strong>
         Naranjo beschrieb die selbsterhaltende Sieben als Suche nach Sicherheit durch
         warme Zugehörigkeit. Bei Imiela zeigt sich eine düstere Umkehrung: Er täuschte
         genau diese warme, familiäre Vertrauensbeziehung vor – Berater, fast Familienmitglied
