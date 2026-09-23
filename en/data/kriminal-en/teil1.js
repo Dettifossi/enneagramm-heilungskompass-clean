@@ -2637,8 +2637,8 @@ export function peterMoorePortraitPage() {
         <p class="vb-intro"><strong>c) Charm as a Tool, Not the Facade of Another Type:</strong>
         Investigators found that Moore deliberately built trust before he struck – manipulative
         charm as a means of access to his prey, not as genuine warmth. The Seven-wing supplies the
-        sociable, entertaining surface that a self-preservation or social Eight would not need in
-        this form.</p>
+        sociable, entertaining surface that a self-preservation or social Eight would not deploy
+        to this degree.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">

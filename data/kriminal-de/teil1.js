@@ -4579,7 +4579,7 @@ export function peterMoorePortraitPage() {
         Moore baute laut Ermittlungen gezielt Vertrauen auf, bevor er zuschlug – manipulativer
         Charme als Zugangsmittel zur eigenen Beute, nicht als aufrichtige Wärme. Der
         Siebenerflügel liefert dabei die gesellige, unterhaltsame Oberfläche, die eine
-        selbsterhaltende oder soziale Acht in dieser Form nicht bräuchte.</p>
+        selbsterhaltende oder soziale Acht in diesem Ausmaß nicht einsetzen würde.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
