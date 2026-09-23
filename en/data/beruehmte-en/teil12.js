@@ -1716,6 +1716,7 @@ export function markusLanzPortraitPage() {
         {route:"beruehmte-emmanuel-macron", label:"Portrait: Emmanuel Macron (SO1w9)"},
         {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SE6w5)"},
         {route:"beruehmte-peter-sage", label:"Portrait: Peter Sage (SO1w9)"},
+        {route:"beruehmte-gert-scobel", label:"Portrait: Gert Scobel (SO1w9)"},
       ])}
     </div>
   `);

@@ -819,6 +819,7 @@ export function jordanPetersonPortraitPage() {
         {route:"beruehmte-marcel-reich-ranicki", label:"Portr\u00e4t: Marcel Reich-Ranicki (SO1w9)"},
         {route:"krankheitsportraets-jordan-peterson", label:"Krankheitsportr\u00e4t: Dr. Jordan Peterson (SO1w9) \u2013 Benzodiazepin-Abh\u00e4ngigkeit"},
         {route:"beruehmte-peter-sage", label:"Portr\u00e4t: Peter Sage (SO1w9)"},
+        {route:"beruehmte-gert-scobel", label:"Portr\u00e4t: Gert Scobel (SO1w9)"},
       ])}
     </div>
   `);

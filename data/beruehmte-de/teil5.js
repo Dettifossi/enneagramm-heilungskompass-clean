@@ -62,6 +62,7 @@ export function peterSagePortraitPage() {
         {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9)"},
         {route:"beruehmte-markus-lanz", label:"Porträt: Markus Lanz (SO1w9)"},
         {route:"beruehmte-jordan-peterson", label:"Porträt: Dr. Jordan Peterson (SO1w9)"},
+        {route:"beruehmte-gert-scobel", label:"Porträt: Gert Scobel (SO1w9)"},
       ])}
     </div>
   `);

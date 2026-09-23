@@ -1,5 +1,72 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function gertScobelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gert-scobel-portrait.jpg" alt="Gert Scobel – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gert Scobel</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Journalist, Philosoph &amp; TV-Moderator, geb. 1959 in Aachen &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die seit 40 Jahren dieselbe Stille übt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> hält Kurs, auch wenn die Formation sich über Jahrzehnte kaum verändert – nicht aus Sturheit, sondern aus der tiefen Überzeugung, dass Beständigkeit selbst schon eine Form von Richtigkeit ist. Gert Scobel, geboren 1959 in Aachen, studierte Philosophie und Theologie am Jesuitenkolleg St. Georgen in Frankfurt sowie in Berkeley, bevor er 1989 als freier Kulturjournalist begann. Von 1995 bis 2007 moderierte er die 3sat-Sendung ›Kulturzeit‹, von 2008 bis 2025 die interdisziplinäre Diskussionssendung ›scobel‹ – siebzehn Jahre lang dasselbe Format, derselbe ruhige Zugriff auf immer neue Themen.</p>
+          <p class="vb-intro">Parallel dazu meditiert Scobel seit seinem 16. Lebensjahr in der Zen-buddhistischen Tradition – über vierzig Jahre ununterbrochene Praxis, die ihn nach eigener Aussage bis heute fasziniert. Zwei scheinbar gegensätzliche Disziplinen, die bei ihm zu einer einzigen verschmelzen: das schneidend klare, ordnende Denken der Philosophie und die stille, auflösende Praxis des Zen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Die richtige Ordnung des Wissens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> empfindet echte Unruhe, wenn Wissen, Diskurs oder Gesellschaft offensichtlich falsch geordnet sind, und übernimmt die Aufgabe, das zu korrigieren. Naranjo beschrieb diesen Subtyp als geprägt von einer ›Nicht-Anpassungsfähigkeit‹ – man kann sich mit einer als falsch erkannten Ordnung nicht abfinden. Bei Scobel zeigt sich das in seiner zentralen beruflichen Mission: Geistes-, Sozial- und Naturwissenschaften, die im öffentlichen Diskurs meist getrennt verhandelt werden, in ein gemeinsames, verständliches Gesamtbild zu bringen.</p>
+          <p class="vb-intro">Sein wiederkehrendes öffentliches Thema ist die Kritik an der Kommerzialisierung von Achtsamkeit und Meditation – ein deutlich moralisch-korrigierender Impuls: Was als spirituelle Befreiung verstanden werden sollte, verkommt aus seiner Sicht zum bloßen Leistungsoptimierungs-Tool, und diesen Fehler benennt er wiederholt öffentlich. Auch sein Plädoyer für eine ›Versöhnung mit der Aufklärung‹, bei der kritisches Denken und spirituelles Erwachen zusammengehören sollen, ist ein reformerischer, auf die richtige Ordnung der Dinge gerichteter Anspruch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Reform durch Auflösung, nicht durch Attacke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> nimmt der sozialen Eins die scharfe, konfrontative Kante und übersetzt den moralischen Anspruch in eine ruhige, fast meditative Grundhaltung. Genau das beschreibt Scobels eigener Zugang zum Zen: Es gehe nicht um Leistungssteigerung, sondern um Befreiung aus Verstrickung – ein Prozess, der Fixierungen auflöst, statt sie mit neuer Energie zu bekämpfen.</p>
+          <p class="vb-intro">Diese Haltung prägt auch seinen Moderationsstil: Scobel korrigiert falsche oder vereinfachte Aussagen seiner Gäste, aber selten mit lauter Konfrontation – eher mit geduldigem Nachfragen, das die Sache selbst ins richtige Licht rückt. Die Kombination aus Einser-Anspruch und Neunerflügel-Gelassenheit zeigt sich exemplarisch in seinem Buch ›Weisheit: Über das, was uns fehlt‹ – der Titel benennt einen klaren Mangel, der Ton bleibt jedoch erklärend, nie anklagend.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Ein akademisches Lebenswerk zur Pluralismus-Frage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bloße Medienpräsenz erklärt nicht, warum Scobel seit Jahrzehnten als seriöse intellektuelle Stimme gilt. Von 2006 an promovierte er am Institut für Hermeneutik und Religionsphilosophie der Universität Zürich zum Thema Pluralismus – eine akademische Vertiefung parallel zur laufenden Fernsehkarriere, die seiner öffentlichen Vermittlungsarbeit ein fachlich geprüftes Fundament gab. Seit 2016 ist er Professor für ›Philosophie und Interdisziplinarität‹ an der Hochschule Bonn-Rhein-Sieg.</p>
+          <p class="vb-intro">Für seine Moderationsarbeit wurde er zweifach mit dem Grimme-Preis ausgezeichnet (unter anderem 2005 für ›Kulturzeit‹), 2018 mit dem Preis für Wissenschaftsjournalismus der Deutschen Gesellschaft für Psychologie und 2019 mit der Lorenz-Oken-Medaille. Das ist die eigentliche fachliche Leistung hinter der ruhigen Fernsehpräsenz: eine über Jahrzehnte parallel zur Moderation betriebene akademische Auseinandersetzung mit der Frage, wie unterschiedliche Wissensformen und Weltanschauungen in einer pluralen Gesellschaft zusammengehören können, ohne sich gegenseitig auszuschließen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Scobel die Fähigkeit, komplexe, oft künstlich getrennte Wissensgebiete in eine verständliche, korrekte Ordnung zu bringen – ohne dabei die vereinfachende Attacke zu suchen, die viele öffentliche Debatten prägt. Siebzehn Jahre derselben Sendung, vierzig Jahre derselbe Zen-Weg: Beständigkeit als eigene Form von Integrität.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> – bei der SO1w9 gedämpft durch den Neunerflügel, aber als beharrlicher innerer Antrieb spürbar: die stille, aber unerbittliche Überzeugung, dass die eigene Sicht der Dinge – Wissenschaft und Spiritualität gehören zusammen, Meditation ist kein Leistungstool – tatsächlich die richtige ist. Der Schatten zeigt sich dort, wo diese ruhige Gewissheit in eine Art sanfte Rechthaberei kippt, die Widerspruch eher auflöst als wirklich zulässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der richtigen Ordnung zur gelassenen Offenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit – von der Frage <em>Muss ich jedes falsch geordnete Wissen korrigieren?</em> zur Erkenntnis <em>Nicht jede Unordnung muss von mir aufgelöst werden.</em> Für die SO1w9 bedeutet das, den eigenen Ordnungsanspruch nicht länger als stille Pflicht zu erleben, sondern als das, was er im Kern bereits ist: ein Angebot zur gemeinsamen Klärung, kein Urteil.</p>
+          <p class="vb-intro">Dass Scobel seine eigene, vierzig Jahre alte Meditationspraxis nicht als abgeschlossene Erkenntnis, sondern als fortlaufende Übung im Auflösen von Fixierungen beschreibt, liest sich als genau dieser Weg: Die Gans, die nicht mehr nur die Formation korrekt hält, sondern gelernt hat, dass auch ihre eigene Gewissheit immer wieder neu befragt werden darf.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-richard-david-precht", label:"Porträt: Richard David Precht (SO1w9)"},
+        {route:"beruehmte-markus-lanz", label:"Porträt: Markus Lanz (SO1w9)"},
+        {route:"beruehmte-jordan-peterson", label:"Porträt: Dr. Jordan Peterson (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
+
 export function ameliaEarhartPortraitPage() {
   return shell(`
     <div class="page-container">

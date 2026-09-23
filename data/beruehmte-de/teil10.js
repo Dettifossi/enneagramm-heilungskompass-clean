@@ -1719,6 +1719,7 @@ export function richardDavidPrechtPortraitPage() {
         {route:"beruehmte-markus-lanz", label:"Porträt: Markus Lanz (SO1w9) – Podcast-Partner, derselbe Subtyp"},
         {route:"beruehmte-roald-amundsen", label:"Porträt: Roald Amundsen (SO1w9)"},
         {route:"beruehmte-ursula-von-der-leyen", label:"Porträt: Ursula von der Leyen (SO1w9)"},
+        {route:"beruehmte-gert-scobel", label:"Porträt: Gert Scobel (SO1w9)"},
       ])}
     </div>
   `);

@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2387", date: "2026-09-23", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Gert Scobel (SO1w9) – Journalist, Philosoph, TV-Moderator (›scobel‹).", text_en: "New portrait under \"Famous Personalities\": Gert Scobel (SO1w9) – journalist, philosopher, TV host (\"scobel\").", route: "beruehmte-gert-scobel" },
     { version: "v2384", date: "2026-09-22", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Lewis Howes (SO2w3) – Unternehmer, Podcaster (›The School of Greatness‹).", text_en: "New portrait under \"Famous Personalities\": Lewis Howes (SO2w3) – entrepreneur, podcaster (\"The School of Greatness\").", route: "beruehmte-lewis-howes" },
     { version: "v2383", date: "2026-09-22", text: "Neuer Praxistipp: Der Vierte Weg nach Gurdjieff – Selbsterinnerung mitten im Alltag üben.", text_en: "New practical tip: The Fourth Way According to Gurdjieff – practicing self-remembering in everyday life.", route: "praxistipps-heilpraktiker/vierter-weg-selbsterinnerung" },
     { version: "v2382", date: "2026-09-22", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Henning Baum (SE1w9) – Schauspieler, ›Der letzte Bulle‹.", text_en: "New portrait under \"Famous Personalities\": Henning Baum (SP1w9) – actor, \"Der letzte Bulle.\"", route: "beruehmte-henning-baum" },

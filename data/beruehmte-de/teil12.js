@@ -1714,6 +1714,7 @@ export function markusLanzPortraitPage() {
         {route:"beruehmte-kurt-georg-kiesinger", label:"Porträt: Kurt Georg Kiesinger (SO1w9)"},
         {route:"beruehmte-karl-lauterbach", label:"Porträt: Karl Lauterbach (SE6w5)"},
         {route:"beruehmte-peter-sage", label:"Porträt: Peter Sage (SO1w9)"},
+        {route:"beruehmte-gert-scobel", label:"Porträt: Gert Scobel (SO1w9)"},
       ])}
     </div>
   `);

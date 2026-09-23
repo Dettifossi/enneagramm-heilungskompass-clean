@@ -1,5 +1,72 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function gertScobelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gert-scobel-portrait.jpg" alt="Gert Scobel – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gert Scobel</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with a Nine-wing</p>
+        <p class="krim-portrait-subtitle">Journalist, philosopher &amp; TV host, b. 1959 in Aachen &ndash; animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The goose who has practiced the same stillness for 40 years</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> holds course even when the formation barely changes across decades – not out of stubbornness, but from the deep conviction that consistency is itself already a form of correctness. Gert Scobel, born in 1959 in Aachen, studied philosophy and theology at the Jesuit college St. Georgen in Frankfurt and at Berkeley before starting out as a freelance culture journalist in 1989. From 1995 to 2007 he hosted the 3sat program "Kulturzeit"; from 2008 to 2025 the interdisciplinary discussion show "scobel" – seventeen years of the same format, the same calm approach to an ever-changing set of topics.</p>
+          <p class="vb-intro">In parallel, Scobel has meditated in the Zen Buddhist tradition since age 16 – more than forty years of uninterrupted practice that, by his own account, still fascinates him today. Two seemingly opposite disciplines that merge into one in him: the sharply clear, ordering thought of philosophy, and the quiet, dissolving practice of Zen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social One: putting knowledge in its correct order</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> feels genuine unease when knowledge, discourse, or society is obviously ordered incorrectly, and takes on the task of correcting it. Naranjo described this subtype as marked by a "non-adaptability" – one cannot simply accept an order recognized as wrong. In Scobel this shows in his central professional mission: bringing the humanities, social sciences, and natural sciences – usually negotiated separately in public discourse – into a shared, comprehensible whole.</p>
+          <p class="vb-intro">His recurring public theme is a critique of the commercialization of mindfulness and meditation – a clearly moral, corrective impulse: what should be understood as spiritual liberation, in his view, degenerates into a mere performance-optimization tool, and he repeatedly names this error in public. His call for a "reconciliation with the Enlightenment," in which critical thinking and spiritual awakening belong together, is likewise a reformist claim aimed at the correct order of things.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: reform through dissolving, not through attack</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> takes the sharp, confrontational edge off the social One and translates its moral claim into a calm, almost meditative underlying stance. That is exactly what Scobel describes as his own approach to Zen: it is not about performance enhancement, but about liberation from entanglement – a process that dissolves fixations rather than fighting them with fresh energy.</p>
+          <p class="vb-intro">This stance also shapes his moderating style: Scobel corrects wrong or oversimplified statements from his guests, but rarely through loud confrontation – more through patient follow-up questions that put the matter itself in its correct light. The combination of One's standard and Nine-wing ease shows exemplarily in his book "Weisheit: Über das, was uns fehlt" ("Wisdom: On What We Lack") – the title names a clear deficiency, yet the tone stays explanatory, never accusatory.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: an academic life's work on the question of pluralism</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mere media presence does not explain why Scobel has counted as a serious intellectual voice for decades. Starting in 2006, he pursued a doctorate at the Institute for Hermeneutics and Philosophy of Religion at the University of Zurich on the subject of pluralism – an academic deepening running parallel to his ongoing television career that gave his public mediation work a professionally vetted foundation. Since 2016 he has been professor of "Philosophy and Interdisciplinarity" at Bonn-Rhein-Sieg University of Applied Sciences.</p>
+          <p class="vb-intro">For his moderating work he received the Grimme Award twice (among others in 2005 for "Kulturzeit"), the 2018 Science Journalism Award of the German Psychological Society, and the 2019 Lorenz Oken Medal. That is the actual professional substance behind the calm television presence: an academic engagement, pursued for decades alongside his moderating work, with the question of how different forms of knowledge and worldviews can belong together in a pluralistic society without excluding one another.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the social One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In its light, Scobel shows the ability to bring complex, often artificially separated fields of knowledge into an understandable, correct order – without resorting to the simplifying attack that shapes so many public debates. Seventeen years of the same show, forty years of the same Zen path: consistency as its own form of integrity.</p>
+          <p class="vb-intro">The One's besetting sin is <strong>anger</strong> – in the SO1w9 muted by the Nine-wing, but noticeable as a persistent inner drive: the quiet but relentless conviction that one's own view of things – science and spirituality belong together, meditation is not a performance tool – is in fact the correct one. The shadow shows where this calm certainty tips into a kind of gentle self-righteousness that dissolves disagreement rather than truly allowing it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The healing path: from the correct order to a relaxed openness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One's healing path leads from anger to serenity – from the question <em>Do I have to correct every wrongly ordered piece of knowledge?</em> to the realization <em>Not every disorder needs to be resolved by me.</em> For the SO1w9, this means no longer experiencing one's own claim to order as a silent duty, but as what it already is at its core: an offer for shared clarification, not a verdict.</p>
+          <p class="vb-intro">That Scobel describes his own forty-year-old meditation practice not as finished insight but as an ongoing exercise in dissolving fixations reads as exactly this path: the goose that no longer only holds the formation correctly, but has learned that even its own certainty may be questioned again and again.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: subtype profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-richard-david-precht", label:"Portrait: Richard David Precht (SO1w9)"},
+        {route:"beruehmte-markus-lanz", label:"Portrait: Markus Lanz (SO1w9)"},
+        {route:"beruehmte-jordan-peterson", label:"Portrait: Dr. Jordan Peterson (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
+
 export function anastasiaBarnerPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -752,6 +819,7 @@ export function jordanPetersonPortraitPage() {
         {route:"beruehmte-marcel-reich-ranicki", label:"Portrait: Marcel Reich-Ranicki (SO1w9)"},
         {route:"krankheitsportraets-jordan-peterson", label:"Illness Portrait: Dr. Jordan Peterson (SO1w9) – benzodiazepine dependency"},
         {route:"beruehmte-peter-sage", label:"Portrait: Peter Sage (SO1w9)"},
+        {route:"beruehmte-gert-scobel", label:"Portrait: Gert Scobel (SO1w9)"},
       ])}
     </div>
   `);
