@@ -1266,6 +1266,7 @@ export function johnMcAfeePortraitPage() {
         {route:"kriminalpsychologie-salvatore-riina", label:"Criminal Psychology: Salvatore Riina"},
         {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar"},
         {route:"kriminalpsychologie-amelia-dyer", label:"Criminal Psychology: Amelia Dyer (SX8w9) – same subtype"},
+        {route:"kriminalpsychologie-peter-moore", label:"Criminal Psychology: Peter Moore (SX8w7) – different wing"},
       ])}
     </div>
   `);
@@ -2552,6 +2553,165 @@ export function gescheGottfriedPortraitPage() {
         {route:"kriminalpsychologie-heinrich-pommerenke", label:"Criminal Psychology: Heinrich Pommerenke (SO1w9)"},
         {route:"kriminalpsychologie-dorothea-puente", label:"Criminal Psychology: Dorothea Puente (SE1w9) – also care as camouflage"},
         {route:"kriminalpsychologie-jeanne-weber", label:"Criminal Psychology: Jeanne Weber (SE2w1) – also caregiving role as a tool"},
+      ])}
+    </div>
+  `);
+}
+
+export function peterMoorePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Peter Moore – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-peter-moore-portrait.jpg" alt="Peter Moore – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Peter Moore</p>
+        <p class="krim-portrait-typ">SX8w7 · Sexual Type 8 with Seven-wing</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">"The Man in Black," b. 1946 · Animal correspondence: Crocodile</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Peter Howard Moore</strong>, known as "the man in black," was a Welsh cinema owner
+        who murdered four men in just sixteen weeks between September and December 1995 – John
+        Henry Roberts, Edward Carthy, Keith Randles, and Anthony Davies. The victims were approached
+        through anonymous contacts, bound, sexually assaulted, mutilated with knives, and stabbed to
+        death. At trial it emerged that Moore had allegedly attacked up to fifty further men over
+        roughly twenty years without being caught. He himself described his acts as a "campaign of
+        pure hatred." In 1996 he was sentenced to life imprisonment for quadruple murder with a
+        recommendation that he never be released.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
+        <strong>Peter Moore</strong> is assigned to the <strong>Sexual Type 8 with Seven-wing</strong>
+        in the Enneagram. The passion of the Eight is <em>Lust/Excess</em> – the boundless desire
+        for control and intensity. The sexual Eight seeks this control in the most intimate,
+        bodily sphere: total possession over another person, with no regard for their resistance.
+        The Seven-wing adds intensity-seeking and a faster pace of escalation – an impatient
+        "more, now, harder" rather than the more grounded, self-contained control of an Eight with
+        a Nine-wing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Two Faces, One Pattern:</strong>
+        Photographs of Moore show a strikingly variable face: earlier images show him fuller,
+        tired, almost soft – later, more composed images reveal a tightly clenched jaw and a
+        direct, cold, untouchable stare. This range is itself telling: the sexual Eight often
+        shows a certain approachability in relaxed moments, which in a moment of real stakes
+        immediately gives way to a reptilian, unyielding hardness – not a shift into another type,
+        but the surfacing of the actual foundation beneath the everyday facade.</p>
+        <p class="vb-intro"><strong>b) The Untouchable Stare:</strong>
+        Witnesses and trial observers described a cold detachment that did not waver even under
+        direct confrontation – no flinching, no visible discomfort, but a steady, almost
+        indifferent gaze that matches exactly the "Crocodile" description in the Quality-of-Gaze
+        Atlas: "reptilian eyes, cold, strong, fixed, a steady stare, unyielding."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro">For decades Moore ran several cinemas in North Wales (Bagillt,
+        Holyhead, Kinmel Bay, Denbigh) – a respected, unremarkable businessman who ran popular
+        children's clubs and was well regarded in his community. His trademark was black clothing
+        (shirt and tie), which he himself explained through his self-image as a "theatre man" –
+        hence the nickname "the man in black." In his younger years he collected Nazi memorabilia
+        and, in at least one assault, dressed as a Gestapo agent. At trial he invented a fictional
+        figure named "Jason" – named after the horror-film icon Jason Voorhees from "Friday the
+        13th" – whom he claimed was actually responsible for the murders.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) Control as an End in Itself:</strong>
+        According to forensic assessments, Moore showed no discernible remorse, but rather
+        satisfaction – he reportedly described his acts as a "job well done" and mutilated victims
+        post-mortem "for fun." This enjoyment of one's own exercise of power, detached from any
+        justifying narrative, is a core feature of the sexual Eight: control not as a means to a
+        higher end, but as its own reward.</p>
+        <p class="vb-intro"><strong>b) The Gestapo Costume as a Power Fantasy:</strong>
+        Deliberately taking on the role of a feared authority figure – not for moral
+        justification, but for pure intimidation – shows the SX8 dynamic in its purest form: total,
+        fear-inducing dominance as an end in itself, with no need to explain the acts to oneself
+        or to anyone else.</p>
+        <p class="vb-intro"><strong>c) Charm as a Tool, Not the Facade of Another Type:</strong>
+        Investigators found that Moore deliberately built trust before he struck – manipulative
+        charm as a means of access to his prey, not as genuine warmth. The Seven-wing supplies the
+        sociable, entertaining surface that a self-preservation or social Eight would not need in
+        this form.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro">Outwardly: an unremarkable, business-minded, even well-liked cinema
+        owner. Inwardly: a capacity for violence cultivated and accelerating over two decades that
+        erupted in 1995 in a sixteen-week outburst. This dual structure is typical of the sexual
+        Eight – control over the public facade is as complete as the control it seeks over its
+        victims.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro">The energy of the SX8w7 is not the lurking, patient presence of an
+        Eight with a Nine-wing, but an impatient, self-intensifying momentum. Four murders in
+        sixteen weeks, with escalating brutality – this pace, this "more, now," is the signature
+        of the Seven-wing: the Eight supplies the ruthless follow-through, the Seven the
+        restlessness that tolerates no pause between escalating stages.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Analogy</h3>
+        <p class="vb-intro">The crocodile lies seemingly motionless, almost harmless on the
+        surface – until the moment it strikes, which comes without warning, without a visible
+        transition, and leaves no chance of escape. Moore shows exactly this pattern: two decades
+        of apparent harmlessness as a respected businessman, then a sudden, self-accelerating
+        outburst with no discernible external warning.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin:0;">Peter Moore shows the sexual Eight in its coldest,
+        most appetitive form: control not as a means of survival, recognition, or moral reckoning,
+        but as a pure end in itself, amplified by the Seven-wing's restless hunger for escalation.
+        The two decades of undetected violence before the actual murder spree also show just how
+        complete his control over his public facade was – the same capacity that made him a
+        successful businessman also kept his second life hidden for decades.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Deeper Insights</h3>
+        <p class="vb-intro"><strong>a) SX1 or SX8 – a Deliberately Weighed Distinction:</strong>
+        When typing this case, the sexual One was also seriously considered – both subtypes carry
+        "reptilian eyes" in the Quality-of-Gaze Atlas and present as cold and focused. The
+        decisive difference: the sexual One (compare Fritz Haarmann, Josef Fritzl, Paul Bernardo
+        in this compass) acts from a distorted judge- or purity-logic – justifying itself,
+        passing judgment on something experienced as wrong. Moore showed no discernible
+        justifying narrative, only satisfaction in the exercise of power itself – appetitive
+        possession rather than moral reckoning. That was the deciding factor for the Eight over
+        the One.</p>
+        <p class="vb-intro"><strong>b) The "Jason" Invention as Self-Mythologizing:</strong>
+        That Moore hid behind a fictional figure named after a horror-movie icon at trial is more
+        than a crude defense strategy: it reveals the same appetite for self-dramatization that
+        also shaped the "man in black" persona and the Gestapo costume – the Eight with a
+        Seven-wing, who prefers to imagine itself as an overpowering, fear-inducing figure rather
+        than as what it actually was.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The sexual Eight compared: how Lust/Excess expresses itself differently across the three Eight subtypes.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP8, SO8, SX8 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 8 portrayed in depth – Lust/Excess, control, and the healing path through genuine innocence.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type assignment is a psychological hypothesis, not a historical verdict. Peter Moore was sentenced to life imprisonment in 1996 for quadruple murder, with a recommendation that he never be released. The Enneagram explains; it does not justify.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-jeffrey-epstein", label:"Criminal Psychology: Jeffrey Epstein (SX8w9) – different wing"},
+        {route:"kriminalpsychologie-john-mcafee", label:"Criminal Psychology: John McAfee (SX8w9)"},
+        {route:"kriminalpsychologie-fritz-haarmann", label:"Criminal Psychology: Fritz Haarmann (SX1w9) – considered alternative typing"},
       ])}
     </div>
   `);
