@@ -4585,6 +4585,22 @@ export function arwedImielaPortraitPage() {
         gegen die eigene Schuld lesen – ein Siebener, der sich selbst nie als das Böse
         erlaubt zu erleben, das seine Taten objektiv darstellten, sondern bis zuletzt an
         einer rationalisierten, distanzierten Version seiner selbst festhielt.</p>
+        <p class="vb-intro"><strong>f) Naranjos Blick auf die selbsterhaltende Sieben – "eine versteckte Acht":</strong>
+        Claudio Naranjo maß den Flügeln in seiner über vierzigjährigen klinischen Arbeit mit
+        Klienten wenig Bedeutung bei – aus seiner Sicht waren die 27 Subtypen bereits so
+        trennscharf definiert, dass die zusätzliche Flügel-Ebene selten nötig war, um einen
+        Menschen treffend zu beschreiben. Innerhalb dieser subtypenzentrierten Sichtweise
+        wird ihm die Beobachtung zugeschrieben, die selbsterhaltende Sieben ähnle in ihrem
+        Auftreten oft einer Acht: patriarchalisch, großzügig-beschützend gegenüber dem
+        eigenen engen Kreis, und bereit, diese Position notfalls mit harter Konsequenz zu
+        verteidigen – nicht die reizsuchende, leichte Sieben des öffentlichen Klischees,
+        sondern eine bodenständige, fast anführerhafte Erscheinung. Bei Imiela lässt sich
+        diese Beschreibung eins zu eins nachvollziehen: Er inszenierte sich gegenüber seinen
+        Opfern als warmherziger, väterlich-fürsorglicher Berater – und griff, sobald diese
+        Rolle bedroht oder ihr Zweck erfüllt war, mit der kompromisslosen Härte durch, die
+        Naranjo dieser Erscheinungsform der Sieben zuschrieb, unabhängig davon, ob man sie
+        als eigenständigen Achterflügel oder als integralen Bestandteil des SE7-Subtyps selbst
+        deutet.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
