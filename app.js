@@ -35135,6 +35135,7 @@ function startPage() {
               <li>Bewusstseins-<br>entwicklung</li>
             </ul>
             <a class="start-path__web" href="https://www.psychologische-homoeopathie.de" target="_blank" rel="noopener">Naturheilpraxis Detlef Rathmer \u2192 psychologische-homoeopathie.de</a>
+            <a class="start-path__btn" href="https://www.psychologische-homoeopathie.de/enneagramm-foto-typisierung.html" target="_blank" rel="noopener" style="display:block;margin:0.6rem 0;background:var(--gold,#c4a456);border-color:var(--gold-dark,#8a6a1a);color:var(--anthracite,#2c2c2c);font-weight:700;">\ud83d\udcf7 Foto-Typisierung online buchen \u2013 119\u00a0\u20ac</a>
             <div class="start-path__berater-actions">
               <a class="start-path__btn" href="mailto:detlefrathmer@t-online.de?subject=Typisierungsberatung%20anfragen">\u2709 E-Mail</a>
               <a class="start-path__btn start-path__btn--wa" href="https://wa.me/4915758786201?text=Ich%20m%C3%B6chte%20eine%20Typisierungsberatung%20anfragen." target="_blank" rel="noopener">WhatsApp</a>
