@@ -5703,6 +5703,7 @@ function startPage() {
               <li>Consciousness<br>Development</li>
             </ul>
             <a class="start-path__web" href="https://www.psychologische-homoeopathie.de" target="_blank" rel="noopener">Naturopathic Practice Detlef Rathmer → psychologische-homoeopathie.de</a>
+            <a class="start-path__btn" href="https://www.psychologische-homoeopathie.de/enneagramm-foto-typisierung.html" target="_blank" rel="noopener" style="display:block;margin:0.6rem 0;background:var(--gold,#c4a456);border-color:var(--gold-dark,#8a6a1a);color:var(--anthracite,#2c2c2c);font-weight:700;">📷 Book photo typing online – €119 (German page)</a>
             <div class="start-path__berater-actions">
               <a class="start-path__btn" href="mailto:detlefrathmer@t-online.de?subject=Request%20a%20Typing%20Consultation">✉ E-Mail</a>
               <a class="start-path__btn start-path__btn--wa" href="https://wa.me/4915758786201?text=I%20would%20like%20to%20request%20a%20typing%20consultation." target="_blank" rel="noopener">WhatsApp</a>
