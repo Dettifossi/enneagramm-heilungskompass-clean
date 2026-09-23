@@ -41,7 +41,7 @@ export function gertScobelPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der sozialen Eins</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Im Licht zeigt sich bei Scobel die Fähigkeit, komplexe, oft künstlich getrennte Wissensgebiete in eine verständliche, korrekte Ordnung zu bringen – ohne dabei die vereinfachende Attacke zu suchen, die viele öffentliche Debatten prägt. Siebzehn Jahre derselben Sendung, vierzig Jahre derselbe Zen-Weg: Beständigkeit als eigene Form von Integrität.</p>
+          <p class="vb-intro">Im Licht zeigt sich bei Scobel die Fähigkeit, komplexe, oft künstlich getrennte Wissensgebiete in eine verständliche, korrekte Ordnung zu bringen – ohne dabei die vereinfachende Attacke zu suchen, die viele öffentliche Debatten prägt. Siebzehn Jahre dieselbe Sendung, vierzig Jahre derselbe Zen-Weg: Beständigkeit als eigene Form von Integrität.</p>
           <p class="vb-intro">Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> – bei der SO1w9 gedämpft durch den Neunerflügel, aber als beharrlicher innerer Antrieb spürbar: die stille, aber unerbittliche Überzeugung, dass die eigene Sicht der Dinge – Wissenschaft und Spiritualität gehören zusammen, Meditation ist kein Leistungstool – tatsächlich die richtige ist. Der Schatten zeigt sich dort, wo diese ruhige Gewissheit in eine Art sanfte Rechthaberei kippt, die Widerspruch eher auflöst als wirklich zulässt.</p>
         </blockquote>
 
