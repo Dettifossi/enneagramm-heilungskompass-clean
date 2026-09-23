@@ -272,6 +272,7 @@ export function andreasBaaderPortraitPage() {
           {route:"kriminalpsychologie-gudrun-ensslin", label:"Kriminalpsychologie: Gudrun Ensslin (SX7w8) – Lebensgef\u00e4hrtin und RAF-Mitgr\u00fcnderin"},
           {route:"kriminalpsychologie-charles-manson", label:"Kriminalpsychologie: Charles Manson (SX6w7)"},
           {route:"kriminalpsychologie-adolf-eichmann", label:"Kriminalpsychologie: Adolf Eichmann (SO6w5)"},
+          {route:"kriminalpsychologie-arwed-imiela", label:"Kriminalpsychologie: Arwed Imiela (SE7w8)"},
         ])}
       </div>
     </div>
@@ -4401,6 +4402,206 @@ export function elizabethBathoryPortraitPage() {
         {route:"beruehmte-francisco-de-goya", label:"Porträt: Francisco de Goya (SX4w3) – schonungslose Konfrontation mit Grausamkeit in seinem Spätwerk"},
         {route:"beruehmte-paris-hilton", label:"Porträt: Paris Hilton (SX4w3) – dieselbe Status-/Bild-Note des Dreierflügels"},
         {route:"kriminalpsychologie-bonnie-parker", label:"Kriminalpsychologie: Bonnie Parker (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+export function arwedImielaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Arwed Imiela – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-arwed-imiela-portrait.jpg" alt="Arwed Imiela – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Arwed Imiela</p>
+        <p class="krim-portrait-typ">SE7w8 · Selbsterhaltender Typ 7 mit Achterflügel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">"Der Blaubart von Fehmarn", 1930–1982 · Tierentsprechung: Gorilla</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Arwed Imiela</strong>, bekannt als "der Blaubart von Fehmarn", war ein deutscher
+        Astrologe und selbsternannter Lebensberater, der Ende der 1960er-Jahre mindestens vier
+        Frauen ermordete – zwei Mutter-Tochter-Paare, die er zuvor als "Finanzverwalter" um ihr
+        Vertrauen und ihr Vermögen gebracht hatte. Sobald er Kontovollmacht besaß, tötete er
+        seine Opfer und zerstückelte die Leichen; Kopf und Gliedmaßen wurden nie gefunden.
+        1973 wurde er wegen vierfachen Mordes zu lebenslanger Haft verurteilt und starb 1982
+        im Gefängnis Hamburg-Fuhlsbüttel an Herzversagen.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Arwed Imiela</strong> wird der <strong>Selbsterhaltenden Sieben mit Achterflügel</strong>
+        im Enneagramm zugeordnet. Die Leidenschaft der Sieben ist <em>Maßlosigkeit</em>
+        (Gluttony) – hier nicht als Reizsuche, sondern als unstillbares Verlangen nach
+        materieller Absicherung und einem beschwerdefreien, komfortablen Leben. Die
+        selbsterhaltende Sieben sucht diese Sicherheit über warme, vertrauensvolle
+        Bindungen im nahen Umfeld; der Achterflügel ergänzt dies um einen kalten,
+        kompromisslosen Durchsetzungswillen, sobald diese Sicherheit bedroht scheint –
+        oder sobald sie endgültig gesichert werden soll.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Reserviert und höflich:</strong>
+        Zeitzeugen beschrieben Imielas Blick als zurückhaltend und weltmännisch – kein
+        aufdringliches Charisma, sondern eine kontrollierte, fast diskrete Höflichkeit,
+        die gerade bei älteren, allein lebenden Frauen Vertrauen weckte.</p>
+        <p class="vb-intro"><strong>b) Prüfend-abschätzend:</strong>
+        Hinter der reservierten Fassade lag ein abschätzender, fast buchhalterischer
+        Blick – er sah in seinen Opfern zuerst deren Vermögensverhältnisse, erst danach
+        die Person.</p>
+        <p class="vb-intro"><strong>c) Undurchdringlich in der Verhandlung:</strong>
+        Im Prozess wirkte sein Blick nach Beobachterberichten auffällig unbewegt – das
+        Gericht war überzeugt, dass er log, ohne dass sich dies in seiner Mimik zeigte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Weltmännische Fassade:</strong>
+        Imiela präsentierte sich als gebildeter, kultivierter Astrologe mit einer
+        offiziellen Zertifizierung des Deutschen Astrologenverbandes – eine Fassade
+        aus Seriosität, die seine tatsächliche berufliche Bindungslosigkeit (keine
+        abgeschlossene Ausbildung, eine frühere Verurteilung wegen Urkundenfälschung)
+        vollständig überdeckte.</p>
+        <p class="vb-intro"><strong>b) Systematische Vertrauensbildung:</strong>
+        Er erstellte serienmäßig Horoskope und positionierte sich schrittweise als
+        Berater, dann als Finanzverwalter seiner Klientinnen – eine methodische,
+        stufenweise Eroberung von Zugang und Kontrolle, nicht ein spontaner Betrug.</p>
+        <p class="vb-intro"><strong>c) Passionierter Jäger:</strong>
+        Imiela war in seiner Freizeit passionierter Jäger – ein Detail, das im Rückblick
+        eine unheimliche Parallele zu seinem Vorgehen gegenüber seinen Opfern zeichnet:
+        geduldiges Anpirschen, dann der kompromisslose, finale Zugriff.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Sicherheit durch Ressourcenkontrolle:</strong>
+        Anders als reizsuchende Ausprägungen der Sieben ging es Imiela nicht um den
+        Nervenkitzel des Betrugs selbst, sondern um das Endresultat: vollständige,
+        dauerhafte finanzielle Absicherung. Der Betrug war Mittel, nicht Selbstzweck.</p>
+        <p class="vb-intro"><strong>b) Kalte Konsequenz bei Bedrohung des Ziels:</strong>
+        Sobald die Kontovollmacht erreicht war, tötete er unmittelbar – kein Zögern, keine
+        Verhandlung, keine halben Lösungen. Diese schlagartige, unsentimentale Konsequenz
+        ist die typische Achterflügel-Signatur: Wo eine reine SE7 vielleicht zögern oder
+        nach einem Ausweg suchen würde, handelt die SE7w8 sofort und endgültig.</p>
+        <p class="vb-intro"><strong>c) Rationalisierung ohne sichtbare Reue:</strong>
+        Im Prozess bestritt Imiela die Taten bis zuletzt, ohne dass sich bei ihm
+        erkennbare Schuldgefühle zeigten – eine Distanzierung von der eigenen Tat, die
+        typisch ist für Siebener, die ihre Handlungen gedanklich so umrahmen, dass sie
+        innerlich tragbar bleiben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Seriös und unauffällig:</strong>
+        Imiela wirkte auf sein Umfeld als seriöser, hilfsbereiter Berater – die Diskrepanz
+        zwischen diesem Bild und den tatsächlichen Taten war so groß, dass die Ermittlungen
+        sich lange auf indirekte Spuren wie eine Kleiderbürste von einer Fehmarner Tankstelle
+        stützen mussten.</p>
+        <p class="vb-intro"><strong>b) Zwei-Ebenen-Wirkung:</strong>
+        Nach außen der zuvorkommende Lebensberater, nach innen ein kalt kalkulierender
+        Vermögensjäger – diese doppelte Fassade machte ihn über Monate hinweg
+        unauffällig, während er systematisch mehrere Opfer parallel bearbeitete.</p>
+        <p class="vb-intro"><strong>c) Kontrolliert bis zum Ende:</strong>
+        Selbst nach seiner Verhaftung und im gesamten Prozessverlauf blieb sein Auftreten
+        gefasst – keine Ausbrüche, keine sichtbaren Anzeichen von Panik, sondern
+        durchgehende, fast unheimliche Selbstbeherrschung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Getrieben von materieller Unsicherheit:</strong>
+        Seine schwierige Kindheit und der berufliche Werdegang ohne abgeschlossene
+        Ausbildung oder festen Halt lassen eine tief sitzende Existenzangst vermuten,
+        die sich in einem übersteigerten Drang nach finanzieller Absicherung entlud.</p>
+        <p class="vb-intro"><strong>b) Verdeckte Machtausübung:</strong>
+        Die Rolle als Astrologe und Berater verschaffte ihm eine subtile Autoritätsposition
+        gegenüber seinen Klientinnen – eine Form der Kontrolle, die nicht durch Zwang,
+        sondern durch geschickt aufgebautes Vertrauen entstand.</p>
+        <p class="vb-intro"><strong>c) Eskalation bei Zielerreichung statt bei Zielverfehlung:</strong>
+        Anders als viele Gewaltverbrecher eskalierte Imiela nicht aus Frustration, sondern
+        genau im Moment des Erfolgs – die Kontovollmacht war der Auslöser, nicht ein
+        Scheitern. Die Tat diente der Absicherung eines bereits erreichten Vorteils.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie: Der Gorilla</h3>
+        <p class="vb-intro"><strong>a) Ruhige Kraft im Verborgenen:</strong>
+        Wie der Gorilla, der meist gelassen und zurückgezogen wirkt, aber jederzeit zu
+        entschlossenem Handeln fähig ist, verbarg Imiela seine Entschlossenheit hinter
+        einer freundlich-reservierten Oberfläche.</p>
+        <p class="vb-intro"><strong>b) Territorialer Anspruch auf Ressourcen:</strong>
+        Sein systematisches Vorgehen bei der Übernahme der Finanzen seiner Opfer gleicht
+        einem Territorialverhalten – einmal beanspruchte Ressourcen wurden mit aller
+        Konsequenz verteidigt beziehungsweise final gesichert.</p>
+        <p class="vb-intro"><strong>c) Kein impulsiver, sondern kalkulierter Kraftausbruch:</strong>
+        Gorillas setzen ihre Kraft selten impulsiv ein, sondern gezielt und situativ
+        bemessen. Imielas Taten folgten demselben Muster: kein Wutausbruch, sondern eine
+        kühl kalkulierte, auf ein klares Ziel gerichtete Gewaltanwendung.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Arwed Imiela zeigt eine besonders kühle, ressourcenorientierte Ausprägung der
+        selbsterhaltenden Sieben mit Achterflügel: Nicht der Nervenkitzel des Betrugs,
+        sondern die vollständige materielle Absicherung war sein eigentliches Ziel – und
+        die Morde waren die kalte, konsequente letzte Handlung, um dieses Ziel
+        unwiderruflich zu sichern. Seine weltmännisch-reservierte Fassade und sein
+        methodisches Vorgehen zeigen die verdeckte Achter-Härte hinter der Siebener-Sicherheitssuche
+        in ihrer düstersten Form.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
+        <p class="vb-intro"><strong>a) Naranjos SE7 – "Familie/Conviviality" pervertiert zur Ressourcenjagd:</strong>
+        Naranjo beschrieb die selbsterhaltende Sieben als Suche nach Sicherheit durch
+        warme Zugehörigkeit. Bei Imiela zeigt sich eine düstere Umkehrung: Er täuschte
+        genau diese warme, familiäre Vertrauensbeziehung vor – Berater, fast Familienmitglied
+        seiner Klientinnen –, um sich die materielle Sicherheit anzueignen, die eigentlich
+        aus echter Zugehörigkeit hätte entstehen sollen.</p>
+        <p class="vb-intro"><strong>b) Der Achterflügel als Vollstreckungsinstanz:</strong>
+        Während die reine SE7-Energie nach Sicherheit sucht und Konflikte eher vermeidet,
+        liefert der Achterflügel die Fähigkeit zur kompromisslosen, gewaltsamen
+        Durchsetzung, sobald die Sicherheit final erreicht werden soll. Bei Imiela zeigt
+        sich das im exakten Timing seiner Taten: Mord erst nach vollständiger
+        Kontrollübernahme, nie davor.</p>
+        <p class="vb-intro"><strong>c) Die Astrologie als Bühne für Autorität ohne Bindung:</strong>
+        Das Berufsfeld des freien Astrologen bot Imiela genau das, was die selbsterhaltende
+        Sieben sucht: Anerkennung und Vertrauensposition ohne institutionelle Kontrolle
+        oder feste Bindung – ein selbstgewählter, unreguliert-freier Rahmen, in dem er
+        seine eigenen Regeln definierte.</p>
+        <p class="vb-intro"><strong>d) Vier Frauen, ein wiederholtes Muster:</strong>
+        Dass Imiela wiederholt Mutter-Tochter-Paare als Opfer wählte, deutet auf eine
+        gezielte Strategie hin: zwei Vermögen, zwei Vertrauenspersonen, ein einziger,
+        wiederholbarer Ablauf – die systematische, fast betriebswirtschaftliche Logik
+        eines Siebeners, der ein einmal funktionierendes Modell wiederholt, statt es
+        nach dem ersten Erfolg zu verlassen.</p>
+        <p class="vb-intro"><strong>e) Unbewegtheit als letzte Abwehr:</strong>
+        Seine auffällige Emotionslosigkeit vor Gericht lässt sich als letzte Verteidigungslinie
+        gegen die eigene Schuld lesen – ein Siebener, der sich selbst nie als das Böse
+        erlaubt zu erleben, das seine Taten objektiv darstellten, sondern bis zuletzt an
+        einer rationalisierten, distanzierten Version seiner selbst festhielt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Sieben im Vergleich: Wie sich Maßlosigkeit bei den drei Siebener-Subtypen unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE7, SO7, SX7 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 7 ausführlich porträtiert – Maßlosigkeit, Reframing und der Heilungsweg über echte Nüchternheit.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Arwed Imiela wurde 1973 wegen vierfachen Mordes zu lebenslanger Haft verurteilt und starb 1982 in Haft. Das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-niels-hoegel", label:"Kriminalpsychologie: Niels Högel (SE7w8)"},
+        {route:"kriminalpsychologie-andreas-baader", label:"Kriminalpsychologie: Andreas Baader (SE7w8)"},
+        {route:"blickqualitaet", label:"Blickqualität der 9 Typen"},
       ])}
     </div>
   `);

@@ -157,6 +157,7 @@ export function andreasBaaderPortraitPage() {
           {route:"beruehmte-moritz-bleibtreu", label:"Portrait: Moritz Bleibtreu (SP7w8) – portrayed Baader on screen"},
           {route:"kriminalpsychologie-charles-manson", label:"Criminal Psychology: Charles Manson (SX6w7)"},
           {route:"kriminalpsychologie-adolf-eichmann", label:"Criminal Psychology: Adolf Eichmann (SO6w5)"},
+          {route:"kriminalpsychologie-arwed-imiela", label:"Criminal Psychology: Arwed Imiela (SP7w8)"},
         ])}
       </div>
     </div>
@@ -2527,6 +2528,111 @@ export function elizabethBathoryPortraitPage() {
         {route:"beruehmte-francisco-de-goya", label:"Portrait: Francisco de Goya (SX4w3) – the same unflinching confrontation with cruelty in his late work"},
         {route:"beruehmte-paris-hilton", label:"Portrait: Paris Hilton (SX4w3) – the same status/image note of the Three-wing"},
         {route:"kriminalpsychologie-bonnie-parker", label:"Criminal Psychology: Bonnie Parker (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+export function arwedImielaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Arwed Imiela – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-arwed-imiela-portrait.jpg" alt="Arwed Imiela – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Arwed Imiela</p>
+        <p class="krim-portrait-typ">SP7w8 · Self-Preservation Type 7 with Eight-wing</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">"The Bluebeard of Fehmarn," 1930–1982 · Animal Correspondence: Gorilla</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Arwed Imiela</strong>, known as "the Bluebeard of Fehmarn," was a German astrologer
+        and self-styled life coach who murdered at least four women in the late 1960s – two
+        mother-daughter pairs whose trust and assets he had first secured by presenting himself
+        as their financial manager. Once he obtained account authorization, he killed his victims
+        and dismembered the bodies; the heads and limbs were never found. In 1973 he was
+        sentenced to life imprisonment for quadruple murder and died in 1982 in Hamburg-Fuhlsbüttel
+        prison of heart failure.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Classification:</strong> <strong>Arwed Imiela</strong> is assigned to the <strong>Self-Preservation Type 7 with Eight-wing</strong> in the Enneagram. The passion of Type Seven is <em>Gluttony</em> — here not expressed as thrill-seeking, but as an insatiable craving for material security and a comfortable, trouble-free life. The Self-Preservation Seven seeks this security through warm, trusted bonds in its immediate environment; the Eight-wing adds a cold, uncompromising will to act the moment that security seems threatened – or the moment it is to be finally secured for good.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Reserved and Courteous:</strong> Eyewitnesses described Imiela's gaze as reserved and worldly – not an aggressive charisma, but a controlled, almost discreet politeness that won the trust particularly of older women living alone.</p>
+        <p class="vb-intro"><strong>b) Assessing and Calculating:</strong> Behind the reserved facade lay an appraising, almost bookkeeping gaze – he saw his victims' financial standing first, the person only second.</p>
+        <p class="vb-intro"><strong>c) Impenetrable Under Interrogation:</strong> According to observer accounts, his gaze remained strikingly unmoved throughout the trial – the court was convinced he was lying, yet this never showed in his expression.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Worldly Facade:</strong> Imiela presented himself as an educated, cultivated astrologer with an official certification from the German Astrology Association – a facade of respectability that fully concealed his actual professional rootlessness (no completed vocational training, an earlier conviction for document forgery).</p>
+        <p class="vb-intro"><strong>b) Systematic Trust-Building:</strong> He mass-produced horoscopes and positioned himself step by step, first as advisor, then as financial manager of his clients – a methodical, staged conquest of access and control, not a spontaneous con.</p>
+        <p class="vb-intro"><strong>c) Passionate Hunter:</strong> In his free time, Imiela was a passionate hunter – a detail that, in hindsight, draws an unsettling parallel to his approach toward his victims: patient stalking, followed by an uncompromising, final strike.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Core Traits</h3>
+        <p class="vb-intro"><strong>a) Security Through Resource Control:</strong> Unlike thrill-seeking expressions of the Seven, Imiela was not driven by the excitement of the con itself, but by its end result: complete, permanent financial security. The deception was a means, not an end in itself.</p>
+        <p class="vb-intro"><strong>b) Cold Follow-Through Once the Goal Is Secured:</strong> Once account authorization was obtained, he killed immediately – no hesitation, no negotiation, no half-measures. This abrupt, unsentimental follow-through is the typical Eight-wing signature: where a pure SP7 might hesitate or look for a way out, the SP7w8 acts immediately and finally.</p>
+        <p class="vb-intro"><strong>c) Rationalization Without Visible Remorse:</strong> Throughout the trial, Imiela denied the acts to the end, without any recognizable guilt showing – a distancing from one's own deeds that is typical of Sevens who mentally reframe their actions so they remain bearable to live with.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Respectable and Unremarkable:</strong> Imiela came across to those around him as a respectable, helpful advisor – the gap between this image and his actual deeds was so wide that the investigation for a long time had to rely on indirect clues, such as a clothes brush from a gas station on Fehmarn.</p>
+        <p class="vb-intro"><strong>b) Two-Layered Effect:</strong> Outwardly the obliging life coach, inwardly a coldly calculating fortune hunter – this double facade kept him unremarkable for months while he systematically worked several victims in parallel.</p>
+        <p class="vb-intro"><strong>c) Controlled to the End:</strong> Even after his arrest and throughout the trial, his demeanor remained composed – no outbursts, no visible signs of panic, but a continuous, almost unsettling self-control.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Driven by Material Insecurity:</strong> His difficult childhood and a career without completed training or stable footing suggest a deep-seated existential anxiety that discharged itself as an exaggerated drive for financial security.</p>
+        <p class="vb-intro"><strong>b) Concealed Exercise of Power:</strong> His role as astrologer and advisor gave him a subtle position of authority over his clients – a form of control that arose not through coercion, but through skillfully built trust.</p>
+        <p class="vb-intro"><strong>c) Escalation at Goal Achievement, Not Goal Failure:</strong> Unlike many violent offenders, Imiela did not escalate out of frustration, but precisely at the moment of success – account authorization was the trigger, not a setback. The act served to secure an advantage already won.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Analogy: The Gorilla</h3>
+        <p class="vb-intro"><strong>a) Quiet Strength in Reserve:</strong> Like the gorilla, which usually appears calm and withdrawn yet is capable of decisive action at any moment, Imiela concealed his resolve behind a friendly, reserved surface.</p>
+        <p class="vb-intro"><strong>b) Territorial Claim on Resources:</strong> His systematic approach to taking over his victims' finances resembles territorial behavior – once resources were claimed, they were defended, or rather finally secured, with total consistency.</p>
+        <p class="vb-intro"><strong>c) Calculated Rather Than Impulsive Force:</strong> Gorillas rarely deploy their strength impulsively, but deliberately and in measured proportion to the situation. Imiela's acts followed the same pattern: not an outburst of rage, but a coolly calculated use of violence directed at a clear goal.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Arwed Imiela displays a particularly cold, resource-focused expression of the Self-Preservation Seven with an Eight-wing: not the thrill of the con, but complete material security was his actual goal – and the murders were the cold, consistent final act meant to secure that goal irrevocably. His worldly, reserved facade and methodical approach show the hidden Eight's toughness behind the Seven's search for security in its darkest form.
+        </p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Deeper Insights</h3>
+        <p class="vb-intro"><strong>a) Naranjo's SP7 – "Family/Conviviality" Perverted into a Hunt for Resources:</strong> Naranjo described the Self-Preservation Seven as seeking security through warm belonging. In Imiela this shows in a dark inversion: he faked exactly this warm, family-like relationship of trust – advisor, almost a family member to his clients – in order to appropriate the material security that should have arisen from genuine belonging.</p>
+        <p class="vb-intro"><strong>b) The Eight-Wing as Enforcement Instance:</strong> While pure SP7 energy seeks security and tends to avoid conflict, the Eight-wing supplies the capacity for uncompromising, violent follow-through the moment security is to be finally secured. In Imiela this shows in the exact timing of his acts: murder only after full control had been achieved, never before.</p>
+        <p class="vb-intro"><strong>c) Astrology as a Stage for Authority Without Attachment:</strong> The profession of freelance astrologer offered Imiela exactly what the Self-Preservation Seven seeks: recognition and a position of trust without institutional oversight or fixed attachment – a self-chosen, unregulated frame in which he defined his own rules.</p>
+        <p class="vb-intro"><strong>d) Four Women, One Repeated Pattern:</strong> That Imiela repeatedly chose mother-daughter pairs as victims points to a deliberate strategy: two fortunes, two trusted relationships, one single, repeatable sequence – the systematic, almost businesslike logic of a Seven who repeats a model that once worked, rather than abandoning it after the first success.</p>
+        <p class="vb-intro"><strong>e) Stillness as a Final Defense:</strong> His striking lack of emotion in court can be read as a final line of defense against his own guilt – a Seven who never allows himself to experience himself as the evil his acts objectively represented, holding to the end onto a rationalized, distanced version of himself.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Self-Preservation Seven compared: how Gluttony expresses itself differently across the three Seven subtypes.", "The Hidden Dynamics of the 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP7, SO7, SX7 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 7 portrayed in depth – Gluttony, reframing, and the healing path through genuine sobriety.", "Who You Really Are – Volume 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type assignment is a psychological hypothesis, not a historical verdict. Arwed Imiela was sentenced to life imprisonment in 1973 for quadruple murder and died in prison in 1982. The Enneagram explains, it does not justify.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-niels-hoegel", label:"Criminal Psychology: Niels Högel (SP7w8)"},
+        {route:"kriminalpsychologie-andreas-baader", label:"Criminal Psychology: Andreas Baader (SP7w8)"},
+        {route:"blickqualitaet", label:"Quality of Gaze of the 9 Types"},
       ])}
     </div>
   `);

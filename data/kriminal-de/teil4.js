@@ -3253,6 +3253,7 @@ export function nielsHoegelPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
         {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy"},
+        {route:"kriminalpsychologie-arwed-imiela", label:"Kriminalpsychologie: Arwed Imiela (SE7w8)"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
       ])}
     </div>
