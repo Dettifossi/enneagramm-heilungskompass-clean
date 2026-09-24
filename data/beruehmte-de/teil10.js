@@ -2258,3 +2258,70 @@ export function guntherVonHagensPortraitPage() {
     </div>
   `);
 }
+
+export function andreDuqumPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-andre-duqum-portrait.jpg" alt="André Duqum – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">André Duqum</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Podcaster, Medienunternehmer, geb. 1997 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd als Türsteher zur eigenen Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei: territorial-warm, mit einem feinen Gespür dafür, wen es in sein engeres Revier hineinlässt. André Duqum, geboren 1997 in Michigan als Sohn einer aus der Gegend von Jerusalem eingewanderten Mutter, begann seine Karriere unauffällig im Kamera- und Elektrikteam einer Dokumentarfilmproduktion, bevor er 2020 seinen eigenen YouTube-Kanal startete. Aus diesem Kanal wurde der Podcast <em>„Know Thyself"</em> (›Erkenne dich selbst‹), der inzwischen über 750.000 Abonnenten zählt.</p>
+          <p class="vb-intro">Was Duqum von einem reinen Interviewformat unterscheidet, ist die Art, wie er seine Gäste behandelt: nicht als austauschbare Programmpunkte, sondern als Menschen, denen er – nach eigener Beschreibung – eine Bühne „schenkt". Er selbst nennt Medien „Medizin für die Seele" und seine Zuhörerschaft potenzielle „Lichtwärter", die er auf ihrem eigenen Weg begleiten will.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Nähe als Format</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> sucht sich keinen anonymen Wirkungskreis, sondern einen überschaubaren, in dem ihre Fürsorge unersetzlich wird – Naranjo nannte diesen Subtyp <em>Privileg</em>. Bei Duqum zeigt sich das darin, dass er sein Unternehmen Meraki Media nicht als reine Produktionsfirma führt, sondern zusätzlich ein Mentoring-Programm für junge Creator aufgebaut hat, in dem er selbst über mehrere Wochen hinweg persönlich anleitet, statt die Ausbildung an Angestellte zu delegieren.</p>
+          <p class="vb-intro">Der Name seines Unternehmens ist Programm: „Meraki" bezeichnet im Griechischen jene Hingabe, mit der man einen Teil der eigenen Seele in eine Arbeit legt. Für die SE2 ist das keine Marketingfloskel, sondern die naheliegendste Selbstbeschreibung – Arbeit wird erst dann bedeutsam, wenn sie zu einer persönlichen Beziehung zum eigenen Publikum wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Handwerkliche Substanz: Vom Kamerakabel zum eigenen Medienhaus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Duqums eigentliche fachliche Leistung liegt im Gesprächsformat selbst: Er hat es geschafft, Gäste wie Sam Harris, Tim Ferriss, Sadhguru, Gabor Maté oder Dr. Joe Dispenza – dessen Episode allein über 1,5 Millionen Aufrufe erreichte – zu Gesprächen zu bewegen, die deutlich über das übliche Promotion-Interview hinausgehen. Diese Fähigkeit, in relativ kurzer Zeit das Vertrauen etablierter Experten aus Wissenschaft, Spiritualität und Populärkultur zu gewinnen, ist kein Zufall, sondern das Ergebnis eines konsequent aufgebauten persönlichen Netzwerks.</p>
+          <p class="vb-intro">Aus dem ursprünglichen Ein-Mann-Kanal ist mittlerweile die Agentur Meraki Media geworden, die andere Creator beim Aufbau eigener Formate berät – eine Übertragung des eigenen Erfolgsmodells auf ein tragfähiges Geschäft, das nicht mehr allein an Duqums Kamerapräsenz hängt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Dreierflügel: Die Marke „André Duqum"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> zeigt sich in der professionellen, ergebnisorientierten Vermarktung dessen, was bei einer reinen SE2 privat bliebe. Duqum baut nicht nur einen Podcast, sondern eine Marke: Abonnentenzahlen, Reichweiten und ein eigenes „Podcasting-Masterclass"-Programm gehören ebenso zu seinem Auftritt wie die spirituelle Botschaft selbst.</p>
+          <p class="vb-intro">Anders als eine reine SE2 bleibt Duqum nicht im Hintergrund eines kleinen Kreises, sondern sucht aktiv Wachstum und öffentliche Sichtbarkeit – doch anders als ein Dreier-Kerntyp bleibt sein erklärtes Ziel beziehungsorientiert: Es geht ihm nach eigener Aussage nicht um Aufmerksamkeit als Selbstzweck, sondern darum, einzelnen Zuhörern auf ihrem persönlichen Weg „das Licht zu zeigen".</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei mit Dreierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 zeigt sich darin, dass Duqum sein Format aktiv nutzt, um anderen jungen Creator zum eigenen Erfolg zu verhelfen, statt das eigene Netzwerk eifersüchtig für sich zu behalten – sein Mentoring-Programm gibt genau das weiter, was ihn selbst vorangebracht hat.</p>
+          <p class="vb-intro">Die Leidenschaft der Zwei ist <strong>Stolz</strong> – bei der SE2w3 äußert er sich als Stolz auf die eigene, ganz konkrete Wirkung auf einzelne Menschen. Die durchgehend hochtrabende, spirituell aufgeladene Selbstbeschreibung – „Medizin für die Seele", „Lichtwärter", „die Liebe zur Weisheit und die Weisheit der Liebe" – trägt aber auch einen typischen Schatten dieses Subtyps in sich: die Gefahr, die eigene Fürsorge so groß zu erzählen, dass die Bescheidenheit fehlt, die dieselbe Fürsorge glaubwürdiger machen würde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Ein Netzwerk als Lebenswerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">André Duqum zeigt eine Karriereform, die für die SE2w3 typisch ist: Aus einer persönlichen Suche nach Sinn wird ein Format, aus dem Format ein Netzwerk, und aus dem Netzwerk schließlich ein Unternehmen – jeder Schritt bleibt dabei an das ursprüngliche Bedürfnis rückgebunden, für einzelne Menschen etwas Bedeutsames zu leisten, statt anonym zu wachsen.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-madison-chock">Madison Chock</a> (SE2w3) – auch bei ihr verbindet sich ein öffentlichkeitswirksamer unternehmerischer Aufbau mit dem erklärten Anspruch, anderen Menschen konkret zu nützen. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-madison-chock">Porträt zu Madison Chock</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se2", label:"Lebensmusterkompass: SE2 – Flusspferd"},
+        {route:"beruehmte-madison-chock", label:"Porträt: Madison Chock (SE2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Porträt: Harald Glööckler (SE2w3)"},
+        {route:"beruehmte-oprah-winfrey", label:"Porträt: Oprah Winfrey (SE2w3)"},
+      ])}
+    </div>
+  `);
+}

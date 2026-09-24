@@ -2309,6 +2309,7 @@ export function madisonChockPortraitPage() {
         {route:"beruehmte-evan-bates", label:"Porträt: Evan Bates (SE4w3) – Ehemann und Eistanzpartner"},
         {route:"beruehmte-harald-gloeockler", label:"Porträt: Harald Glööckler (SE2w3)"},
         {route:"beruehmte-oprah-winfrey", label:"Porträt: Oprah Winfrey (SE2w3)"},
+        {route:"beruehmte-andre-duqum", label:"Porträt: André Duqum (SE2w3)"},
       ])}
     </div>
   `);

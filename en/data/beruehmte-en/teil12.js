@@ -305,7 +305,7 @@ export function danteAlighieriPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5)"},
-        {route:"beruehmte-augustinus-von-hippo", label:"Portrait: Augustine of Hippo (SX4w5)"},
+        {route:"beruehmte-augustinus-von-hippo", label:"Portrait: Augustine of Hippopotamus (SX4w5)"},
         {route:"beruehmte-jean-paul-sartre", label:"Portrait: Jean-Paul Sartre (SX4w5)"},
         {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3)"},
         {route:"beruehmte-thomas-von-aquin", label:"Portrait: Thomas Aquinas (SE9w8) – whose theology shaped the Divine Comedy's architecture"},
@@ -2247,6 +2247,73 @@ export function donMcleanPortraitPage() {
         {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
         {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SP4w5)"},
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+export function andreDuqumPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-andre-duqum-portrait.jpg" alt="André Duqum – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">André Duqum</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">Podcaster, media entrepreneur, b. 1997 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus as gatekeeper to its own stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two: territorially warm, with a fine sense for who gets let into its inner circle. André Duqum, born in 1997 in Michigan to a mother who had immigrated from the area near Jerusalem, began his career unglamorously on the camera and electrical crew of a documentary production before launching his own YouTube channel in 2020. Out of that channel grew the podcast <em>"Know Thyself,"</em> now with over 750,000 subscribers.</p>
+          <p class="vb-intro">What sets Duqum apart from a plain interview format is how he treats his guests: not as interchangeable segments, but as people to whom he – in his own words – "gives" a stage. He calls media "medicine for the soul" and describes his listeners as potential "lightworkers" he wants to accompany on their own path.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Two: closeness as format</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> does not seek an anonymous sphere of influence but a manageable one in which its care becomes irreplaceable – Naranjo called this subtype <em>Privilege</em>. In Duqum this shows in the fact that he does not run his company, Meraki Media, as a pure production house, but has also built a mentorship program for young creators that he personally guides over several weeks, rather than delegating the training to staff.</p>
+          <p class="vb-intro">The name of his company is itself a statement: "meraki" describes, in Greek, the devotion with which one puts a piece of one's own soul into a piece of work. For the SP2 this is not a marketing phrase but the most natural self-description available – work only becomes meaningful once it turns into a personal relationship with one's own audience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Craft substance: from camera cable to a media company of his own</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Duqum's real professional accomplishment lies in the conversation format itself: he has managed to draw guests such as Sam Harris, Tim Ferriss, Sadhguru, Gabor Maté, or Dr. Joe Dispenza – whose episode alone drew more than 1.5 million views – into conversations that go well beyond the usual promotional interview. This ability to earn the trust of established experts from science, spirituality, and popular culture within a relatively short time is no accident, but the result of a consistently built personal network.</p>
+          <p class="vb-intro">What began as a one-man channel has since grown into the agency Meraki Media, which advises other creators on building their own formats – a transfer of his own success model into a sustainable business that no longer depends solely on Duqum's own on-camera presence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Three-wing: the brand "André Duqum"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> shows in the professional, results-oriented marketing of what would stay private for a pure SP2. Duqum builds not just a podcast but a brand: subscriber counts, reach, and his own "Podcasting Masterclass" program are as much part of his public presence as the spiritual message itself.</p>
+          <p class="vb-intro">Unlike a pure SP2, Duqum does not stay in the background of a small circle but actively seeks growth and public visibility – yet unlike a Three core type, his stated goal remains relationship-oriented: by his own account, it is not attention for its own sake that drives him, but showing individual listeners "the light" on their own personal path.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the self-preservation Two with Three-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 shows in the fact that Duqum actively uses his platform to help other young creators succeed, rather than jealously guarding his own network – his mentorship program passes on exactly what advanced him in the first place.</p>
+          <p class="vb-intro">The passion of the Two is <strong>Pride</strong> – in the SP2w3 it appears as pride in one's own, very concrete impact on individual people. But the consistently lofty, spiritually charged self-description – "medicine for the soul," "lightworkers," "the love of wisdom and the wisdom of love" – also carries a typical shadow of this subtype: the risk of narrating one's own care in such grand terms that it loses the modesty that would make that same care more credible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The legacy: a network as life's work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">André Duqum shows a career shape typical of the SP2w3: a personal search for meaning turns into a format, the format into a network, and the network finally into a company – each step remaining tied back to the original need to accomplish something meaningful for individual people rather than growing anonymously.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-madison-chock">Madison Chock</a> (SP2w3) – she too combines a publicly visible entrepreneurial build-up with the stated aim of concretely helping other people. More in the <a href="javascript:void(0)" data-route="beruehmte-madison-chock">portrait of Madison Chock</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"lebensmusterkompass/se2", label:"Life Pattern Compass: SP2 – Hippopotamus"},
+        {route:"beruehmte-madison-chock", label:"Portrait: Madison Chock (SP2w3)"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
+        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SP2w3)"},
       ])}
     </div>
   `);

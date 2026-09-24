@@ -2291,6 +2291,7 @@ export function madisonChockPortraitPage() {
         {route:"beruehmte-evan-bates", label:"Portrait: Evan Bates (SP4w3) – husband and ice dance partner"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
         {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SP2w3)"},
+        {route:"beruehmte-andre-duqum", label:"Portrait: André Duqum (SP2w3)"},
       ])}
     </div>
   `);
