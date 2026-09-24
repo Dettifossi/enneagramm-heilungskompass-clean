@@ -4629,8 +4629,8 @@ export function juanaBarrazaPortraitPage() {
         <p class="vb-intro">Das Flusspferd wirkt aus der Ferne träge und harmlos – bis es sein
         Revier bedroht sieht, dann entfaltet es eine Kraft, die niemand für möglich gehalten
         hätte. Barraza inszenierte sich als warme, fürsorgliche Helferin, während sie in
-        Wirklichkeit systematisch genau jene Bevölkerungsgruppe angriff, die am wenigsten Wehr
-        leisten konnte.</p>
+        Wirklichkeit systematisch genau jene Bevölkerungsgruppe angriff, die sich am wenigsten
+        zur Wehr setzen konnte.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
