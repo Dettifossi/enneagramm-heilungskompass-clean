@@ -2228,3 +2228,70 @@ export function barbaraBleischPortraitPage() {
     </div>
   `);
 }
+
+export function madisonChockPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-madison-chock-portrait.jpg" alt="Madison Chock – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Madison Chock</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Ice dancer and costume designer, b. 1992 in Redondo Beach, California &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus Who Dresses Her Own Rivals</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hippopotamus</strong> is the animal of the self-preservation Two: warm, proud, with a keen sense for who in its immediate circle needs care. Madison Chock was born in 1992 in Redondo Beach, California — of Chinese-Hawaiian descent on her father's side, European descent on her mother's side — and began skating at age five. In 2011 she found a new partnership with Evan Bates that carried her across four Winter Olympics to three world titles, six U.S. titles, and multiple Olympic medals.</p>
+          <p class="vb-intro">In 2023, alongside her active competitive career, Chock founded her own fashion label, Madison Chock Design — and has since dressed even her direct competitors in her award-winning costumes. "I just want to bring as much confidence as I can to those people that I designed for," she says of this dual role as athlete and outfitter of her own competition.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Care That Becomes Concrete and Practical</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Two (SP2)</strong> doesn't live out its care abstractly, but through very concrete, practical gestures for a close, manageable circle — Naranjo called this subtype <em>Privilege</em>: the need to secure a special, irreplaceable place in others' lives through active care. In Chock this shows in a remarkable consistency: instead of using her craft exclusively for her own competitive advantage, she built an internationally recognized label within a few years, whose costumes have repeatedly won awards from the ISU, figure skating's world governing body — and whose clientele explicitly includes her own competition.</p>
+          <p class="vb-intro">In 2024 she married her longtime ice dance partner Evan Bates (SP4w3) — a partnership that grew from pure athletic collaboration into a deeply personal bond over 15 years. For the SP2, this is exactly the most natural form of care: not the grand, public gesture, but reliable, years-long closeness to one single, deeply trusted person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Craft Substance: From Her Own Costume to an International Label</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes Chock professionally is a rare double competence: she doesn't just design her own competition costumes, but within three years built an independent, commercially successful fashion label serving the entire international figure skating scene. Her programs with Evan Bates deliberately drew on unusual artistic references — from Salvador Dalí-inspired visuals to an astronaut-alien theme to a snake-charmer choreography — each carried visually by self-designed costumes.</p>
+          <p class="vb-intro">This combination of top athletic achievement, design talent, and entrepreneurial label-building isn't a mere side project, but a full second professional career — running parallel to her active career as one of the most successful ice dancers in U.S. history.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Three-Wing: Visibility as a Stage for Her Own Care</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> translates private SP2 care into a publicly visible, achievement-oriented form. Chock actively shares her life as an ice dancer on social media and her own podcast, appears as the visible face of her fashion label, and thereby combines entrepreneurial ambition with her core concern: giving other people — even direct competitors — confidence.</p>
+          <p class="vb-intro">Unlike a pure SP2, Chock doesn't stay within a private circle, but actively seeks the public stage for her caring actions — yet unlike a Three core type, the underlying drive remains recognizably relationship-oriented: by her own account, it isn't about her own visibility alone, but about the people she dresses feeling safer and more confident in her costumes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Two with Three-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP2w3 shows in not treating care and competition as opposites: Chock helps her own rivals perform better instead of jealously guarding an advantage — a rare stance in elite sport.</p>
+          <p class="vb-intro">The Two's passion is <strong>pride</strong> — in the SP2w3 it shows up as pride in one's own, very concrete usefulness to others. A psychology degree and her open advocacy for mental health in elite sport show how this usefulness extends beyond the purely athletic: Chock doesn't treat her own care for others as self-sacrifice, but as a deliberately maintained resource that explicitly includes therapy and emotional resilience — a counterweight to the exhaustion that arises when care for others crowds out care for oneself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Competition and Care in One Person</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Madison Chock shows that athletic ambition and genuine care for one's own competition don't have to exclude each other — a model unusual in elite sport that has earned her independent recognition as both athlete and entrepreneur, apart from her athletic partnership with Evan Bates.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-harald-gloeockler">Harald Glööckler</a> (SP2w3) — he too combines fashion design talent with a publicity-driven, warm-hearted self-presentation. More in the <a href="javascript:void(0)" data-route="beruehmte-harald-gloeockler">portrait of Harald Glööckler</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"lebensmusterkompass/se2", label:"Life Pattern Compass: SP2 – Hippopotamus"},
+        {route:"beruehmte-evan-bates", label:"Portrait: Evan Bates (SP4w3) – husband and ice dance partner"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
+        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SP2w3)"},
+      ])}
+    </div>
+  `);
+}

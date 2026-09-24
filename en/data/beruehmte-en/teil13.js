@@ -2344,6 +2344,7 @@ export function evanBatesPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se4", label:"SP4 – The Domestic Pigeon: subtype profile"},
         {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SP4 – Domestic Pigeon"},
+        {route:"beruehmte-madison-chock", label:"Portrait: Madison Chock (SP2w3) – wife and ice dance partner"},
         {route:"beruehmte-sebastian-urzendowsky", label:"Portrait: Sebastian Urzendowsky (SP4w3)"},
         {route:"beruehmte-nicolas-cage", label:"Portrait: Nicolas Cage (SP4w3)"},
         {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},

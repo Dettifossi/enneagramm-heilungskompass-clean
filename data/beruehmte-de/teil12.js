@@ -2246,3 +2246,70 @@ export function vincenzoCalifanoPortraitPage() {
     </div>
   `);
 }
+
+export function madisonChockPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-madison-chock-portrait.jpg" alt="Madison Chock – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Madison Chock</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Eistänzerin und Kostümdesignerin, geb. 1992 in Redondo Beach, Kalifornien &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd, das seine Konkurrentinnen einkleidet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei: warm, stolz, mit einem ausgeprägten Gespür dafür, wer im eigenen Umfeld Fürsorge braucht. Madison Chock wurde 1992 in Redondo Beach, Kalifornien, geboren – väterlicherseits chinesisch-hawaiianischer, mütterlicherseits europäischer Abstammung – und begann mit fünf Jahren zu eislaufen. 2011 fand sie mit Evan Bates eine neue Partnerschaft, die sie über vier Olympische Winterspiele hinweg zu drei Weltmeistertiteln, sechs US-Meistertiteln und mehreren olympischen Medaillen führte.</p>
+          <p class="vb-intro">2023 gründete Chock zusätzlich zu ihrer aktiven Wettkampfkarriere ihr eigenes Modelabel, Madison Chock Design – und stattet seither auch direkte Konkurrentinnen mit ihren preisgekrönten Kostümen aus. „Ich möchte so viel Selbstvertrauen wie möglich für die Menschen schaffen, für die ich designe", sagt sie über diese doppelte Rolle als Athletin und Ausstatterin der eigenen Konkurrenz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge, die konkret und praktisch wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> lebt ihre Fürsorge nicht abstrakt aus, sondern in ganz konkreten, praktischen Gesten für einen nahen, überschaubaren Kreis – Naranjo nannte diesen Subtyp <em>Privileg</em>: das Bedürfnis, sich durch aktive Fürsorge einen besonderen, unersetzlichen Platz im Leben anderer zu sichern. Bei Chock zeigt sich das in einer bemerkenswerten Konsequenz: Statt ihr handwerkliches Können exklusiv für den eigenen Wettbewerbsvorteil zu nutzen, entwarf sie in wenigen Jahren ein international anerkanntes Label, dessen Kostüme mehrfach mit Preisen des Eislauf-Weltverbands ISU ausgezeichnet wurden – und dessen Kundenkreis explizit die eigene Konkurrenz einschließt.</p>
+          <p class="vb-intro">2024 heiratete sie ihren langjährigen Eistanzpartner Evan Bates (SE4w3) – eine Partnerschaft, die aus reiner sportlicher Zusammenarbeit zu einer über 15 Jahre gewachsenen, tief persönlichen Verbindung wurde. Für die SE2 ist genau das die naheliegendste Form von Fürsorge: nicht die große, öffentliche Geste, sondern die verlässliche, jahrelange Nähe zu einem einzelnen, eng vertrauten Menschen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Handwerkliche Substanz: Vom eigenen Kostüm zum internationalen Label</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Chock fachlich auszeichnet, ist eine seltene doppelte Kompetenz: Sie entwirft nicht nur die eigenen Wettkampfkostüme, sondern hat daraus innerhalb von drei Jahren ein eigenständiges, wirtschaftlich erfolgreiches Modelabel für die gesamte internationale Eiskunstlauf-Szene aufgebaut. Ihre Programme mit Evan Bates griffen dabei bewusst ungewöhnliche künstlerische Referenzen auf – von Salvador-Dalí-inspirierten Bildwelten über ein Astronauten-Alien-Thema bis zu einer Schlangenbeschwörer-Choreografie –, jeweils mit selbst entworfenen Kostümen, die diese Bildsprache visuell trugen.</p>
+          <p class="vb-intro">Diese Verbindung aus sportlicher Höchstleistung, gestalterischem Talent und unternehmerischem Aufbau eines eigenen Labels ist keine bloße Nebenbeschäftigung, sondern eine vollwertige zweite fachliche Laufbahn – parallel zur aktiven Karriere als eine der erfolgreichsten Eistänzerinnen der US-Geschichte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Dreierflügel: Sichtbarkeit als Bühne für die eigene Fürsorge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> übersetzt die private SE2-Fürsorge in eine öffentlich sichtbare, leistungsorientierte Form. Chock teilt ihr Leben als Eistänzerin aktiv über soziale Medien und einen eigenen Podcast, tritt als sichtbares Gesicht ihres Modelabels auf und verbindet damit unternehmerischen Ehrgeiz mit ihrem Kernanliegen, anderen Menschen – auch direkten Konkurrentinnen – Selbstvertrauen zu verleihen.</p>
+          <p class="vb-intro">Anders als eine reine SE2 bleibt Chock nicht im privaten Kreis, sondern sucht aktiv die öffentliche Bühne für ihr fürsorgliches Handeln – doch anders als ein Dreier-Kerntyp bleibt der eigentliche Antrieb erkennbar beziehungsorientiert: Es geht ihr nach eigener Aussage nicht um die eigene Sichtbarkeit allein, sondern darum, dass die Menschen, die sie einkleidet, sich in ihren Kostümen sicherer und selbstbewusster fühlen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei mit Dreierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 zeigt sich darin, Fürsorge und Wettbewerb nicht als Gegensätze zu behandeln: Chock hilft ihrer eigenen Konkurrenz zu besserer Performance, statt einen Vorteil eifersüchtig zu hüten – eine seltene Haltung im Hochleistungssport.</p>
+          <p class="vb-intro">Die Leidenschaft der Zwei ist <strong>Stolz</strong> – bei der SE2w3 äußert er sich als Stolz auf die eigene, ganz konkrete Nützlichkeit für andere. Ein psychologischer Studienabschluss und ihr offenes Eintreten für psychische Gesundheit im Spitzensport zeigen, wie diese Nützlichkeit über das rein Sportliche hinausreicht: Chock versteht die eigene Fürsorge nicht als Selbstaufopferung, sondern als bewusst gepflegte Ressource, die Therapie und emotionale Widerstandsfähigkeit ausdrücklich einschließt – ein Gegengewicht zu jener Erschöpfung, die entsteht, wenn Fürsorge für andere die Sorge um sich selbst verdrängt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Konkurrenz und Fürsorge in einer Person</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Madison Chock zeigt, dass sportlicher Ehrgeiz und echte Fürsorge für die eigene Konkurrenz sich nicht ausschließen müssen – ein Modell, das im Hochleistungssport ungewöhnlich ist und ihr sowohl als Athletin als auch als Unternehmerin eine eigenständige Anerkennung verschafft hat, unabhängig von ihrer sportlichen Partnerschaft mit Evan Bates.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-harald-gloeockler">Harald Glööckler</a> (SE2w3) – auch bei ihm verbindet sich modisches Gestaltungstalent mit einer öffentlichkeitswirksamen, warmherzigen Selbstinszenierung. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-harald-gloeockler">Porträt zu Harald Glööckler</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se2", label:"Lebensmusterkompass: SE2 – Flusspferd"},
+        {route:"beruehmte-evan-bates", label:"Porträt: Evan Bates (SE4w3) – Ehemann und Eistanzpartner"},
+        {route:"beruehmte-harald-gloeockler", label:"Porträt: Harald Glööckler (SE2w3)"},
+        {route:"beruehmte-oprah-winfrey", label:"Porträt: Oprah Winfrey (SE2w3)"},
+      ])}
+    </div>
+  `);
+}

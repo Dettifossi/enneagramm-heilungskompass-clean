@@ -2293,6 +2293,7 @@ export function evanBatesPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se4", label:"SE4 – Die Haustaube: Subtyp-Profil"},
         {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Haustaube"},
+        {route:"beruehmte-madison-chock", label:"Porträt: Madison Chock (SE2w3) – Ehefrau und Eistanzpartnerin"},
         {route:"beruehmte-sebastian-urzendowsky", label:"Porträt: Sebastian Urzendowsky (SE4w3)"},
         {route:"beruehmte-nicolas-cage", label:"Porträt: Nicolas Cage (SE4w3)"},
         {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
