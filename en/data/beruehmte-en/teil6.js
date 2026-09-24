@@ -2246,7 +2246,7 @@ export function sigourneyWeaverPortraitPage() {
 
         <h2 class="vb-section">1. The Beaver Who Built Ripley</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>beaver</strong> is the animal of the social Seven: alert, wide-eyed, constantly in motion — but not an animal that drifts, one that builds. Sigourney Weaver, born in 1949 in New York as the daughter of NBC president Pat Weaver and actress Elizabeth Inglis, grew up with a clear lesson from her father: he called show business itself "the racket" — no place for illusions, but a field where you work seriously if you want to create something lasting.</p>
+          <p class="vb-intro">The <strong>beaver</strong> is the animal of the social Seven: alert, wide-eyed, constantly in motion — but not an animal that drifts, one that builds. A coincidence that hardly feels like one: her surname, <em>Weaver</em>, is a near-homophone of <em>Beaver</em>. Sigourney Weaver, born in 1949 in New York as the daughter of NBC president Pat Weaver and actress Elizabeth Inglis, grew up with a clear lesson from her father: he called show business itself "the racket" — no place for illusions, but a field where you work seriously if you want to create something lasting.</p>
           <p class="vb-intro">After Stanford and a directing degree from the Yale School of Drama, she started with supporting roles until, in 1979, she created Warrant Officer Ellen Ripley in Ridley Scott's "Alien" — a figure the genre hadn't had before: a woman who isn't rescued but survives on her own, built with the same sober care with which a beaver constructs a dam, not through spontaneous heroism.</p>
         </blockquote>
 
