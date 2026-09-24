@@ -2250,3 +2250,70 @@ export function vincenzoCalifanoPortraitPage() {
     </div>
   `);
 }
+
+export function henryShukmanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-henry-shukman-portrait.jpg" alt="Henry Shukman – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Henry Shukman</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Zen teacher, poet, and author, b. 1962 in Oxford &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver Who Searched Before It Built</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> is the animal of the social Seven: alert, constantly in motion — but not an animal that drifts, one that builds. Henry Shukman was born in 1962 in Oxford to two university professors, but grew up with chronic eczema, anxiety, and depression that accompanied him from childhood. At nineteen he had a spontaneous spiritual awakening — an event he himself only gradually learned to understand and integrate over decades.</p>
+          <p class="vb-intro">Before becoming a Zen teacher, Shukman worked as a trombonist, a trawlerman, and a travel writer — three completely different life paths he pursued one after another with full commitment. His first book, "Sons of the Moon" (1989), described a journey through Bolivia's most remote regions; it was followed by "Travels with My Trombone," about a year as a calypso and salsa musician in the Caribbean and Colombia, and "Savage Pilgrims," a search for traces of D. H. Lawrence in New Mexico — the very state where, decades later, Shukman would find his spiritual home.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Variety in Service of a Larger Cause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Seven (SO7)</strong> is the countertype of the Seven — unlike the self-preservation or sexual Seven, it doesn't live its gluttony as personal pleasure, but transforms it into duty and service to a greater whole. In Shukman this shows in an almost textbook transition: the restless search of his early years — music, seafaring, travel writing, novels, poems — became, over decades, a single, disciplined training within a traditional Zen lineage, culminating in 2010 with his official appointment as a teacher by Yamada Roshi.</p>
+          <p class="vb-intro">In 2012 he became guiding teacher of Mountain Cloud Zen Center in Santa Fe, building it over eleven years into an established spiritual center. In parallel, he co-founded "The Way," a meditation app that makes traditional Zen practice accessible to a global, digital audience — the same variety of expression as in his travel-writing years, but now consistently aimed at a single goal: opening a path to healing for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Craft Substance: Award-Winning Poetry Before the Spiritual Path</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Long before Shukman became known as a Zen teacher, he had already established himself as a serious writer: his poetry debut, "In Dr No's Garden" (1995), won the Jerwood Aldeburgh First Collection Prize, one of Britain's most significant awards for debut poetry collections. His fiction won an Arts Council award and was shortlisted for the prestigious O. Henry Award — not a side activity of a spiritual teacher, but an independent literary career with professional recognition.</p>
+          <p class="vb-intro">This combination of poetic precision and spiritual practice is no coincidence: Shukman's early love of Chinese Zen poetry was one of the paths that led him to meditation in the first place. His 2019 memoir, "One Blade of Grass," explicitly braids both strands together — literary craft in service of describing an inner path to healing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Six-Wing: Vigilance and Loyalty to a Transmitted Lineage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> brings an element of loyalty and caution against premature self-authorization into the enthusiastic SO7 energy. Rather than immediately declaring his spontaneous awakening at nineteen his own teaching authority, Shukman placed himself under the guidance of several recognized teachers over decades — Roshis John Gaynor, Joan Rieck, Ruben Habito, and finally Yamada Roshi, international abbot of the Sanbo Zen lineage — before being officially authorized himself in 2010.</p>
+          <p class="vb-intro">This patience — submitting to a structure passed down across generations rather than immediately proclaiming his own, immediate experience — shows the w6 vigilance in its purest form: trust is placed not in one's own intuition alone, but in a tested, reliable lineage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Seven with Six-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w6 shows in not impulsively marketing an early, overwhelming experience, but translating it over decades into a robust teaching accessible to many people — from a single personal experience to a scalable app with global reach.</p>
+          <p class="vb-intro">The Seven's passion is <strong>gluttony</strong> — in the social Seven it shows up as a restless collecting of new roles and forms of expression. Shukman's path from trombonist to trawlerman to travel writer to Zen teacher could also be read as a flight from his own childhood-acquired anxiety and depression — a restless trying-on of new identities until one of them carried deep enough to actually heal the underlying pain instead of merely covering it up.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: From Flight to Teaching</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Henry Shukman transformed a childhood full of physical and emotional hardship, along with an early, overwhelming spiritual experience, over decades into a structured, verifiable teaching — accessible both in the traditional retreat format and via a modern app reaching a digital audience of millions.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-franz-von-assisi">Francis of Assisi</a> (SO7w6) — he too transformed an early existential crisis over years into a lasting, widely effective spiritual institution. More in the <a href="javascript:void(0)" data-route="beruehmte-franz-von-assisi">portrait of Francis of Assisi</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-franz-von-assisi", label:"Portrait: Francis of Assisi (SO7w6)"},
+        {route:"beruehmte-sigourney-weaver", label:"Portrait: Sigourney Weaver (SO7w6)"},
+        {route:"beruehmte-billy-bob-thornton", label:"Portrait: Billy Bob Thornton (SO7w6)"},
+      ])}
+    </div>
+  `);
+}

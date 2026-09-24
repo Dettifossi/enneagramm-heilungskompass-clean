@@ -519,6 +519,7 @@ export function franzVonAssisiPortraitPage() {
         {route:"beruehmte-epikur", label:"Porträt: Epikur (SO7w6)"},
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-george-gershwin", label:"Porträt: George Gershwin (SO7w6)"},
+        {route:"beruehmte-henry-shukman", label:"Porträt: Henry Shukman (SO7w6) – Zen-Lehrer"},
         {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
         {route:"beruehmte-klara-von-assisi", label:"Porträt: Klara von Assisi (SE3w2) – Weggefährtin"},
       ])}

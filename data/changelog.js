@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2395", date: "2026-09-24", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Henry Shukman (SO7w6) – Zen-Lehrer, Dichter, Gründer der App ›The Way‹.", text_en: "New portrait under \"Famous Personalities\": Henry Shukman (SO7w6) – Zen teacher, poet, founder of the app \"The Way.\"", route: "beruehmte-henry-shukman" },
     { version: "v2394", date: "2026-09-24", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Madison Chock (SE2w3) – Eistänzerin und Kostümdesignerin.", text_en: "New portrait under \"Famous Personalities\": Madison Chock (SP2w3) – ice dancer and costume designer.", route: "beruehmte-madison-chock" },
     { version: "v2393", date: "2026-09-24", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Evan Bates (SE4w3) – Eistänzer, vier Olympiateilnahmen mit Madison Chock.", text_en: "New portrait under \"Famous Personalities\": Evan Bates (SP4w3) – ice dancer, four Olympic Games with Madison Chock.", route: "beruehmte-evan-bates" },
     { version: "v2392", date: "2026-09-24", text: "Neues Krankheitsporträt: Gunther von Hagens (SX1w9) – Parkinson-Erkrankung, fast zwei Jahrzehnte, Tod durch Hirnblutung.", text_en: "New illness portrait: Gunther von Hagens (SX1w9) – Parkinson's disease, nearly two decades, death by cerebral hemorrhage.", route: "krankheitsportraets-gunther-von-hagens" },

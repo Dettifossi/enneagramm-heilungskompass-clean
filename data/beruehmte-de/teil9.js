@@ -2257,3 +2257,70 @@ export function mariaCallasPortraitPage() {
     </div>
   `);
 }
+
+export function henryShukmanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-henry-shukman-portrait.jpg" alt="Henry Shukman – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Henry Shukman</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Zen-Lehrer, Dichter und Schriftsteller, geb. 1962 in Oxford &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber, der erst suchte, bevor er baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben: wach, in ständiger Bewegung – aber kein Tier, das treibt, sondern eines, das baut. Henry Shukman wurde 1962 in Oxford als Sohn zweier Universitätsprofessoren geboren, wuchs jedoch mit chronischem Ekzem, Angst und Depression auf, die ihn bereits in der Kindheit begleiteten. Mit neunzehn Jahren erlebte er ein spontanes spirituelles Erwachen – ein Ereignis, das er selbst über Jahrzehnte hinweg erst allmählich zu verstehen und zu integrieren lernte.</p>
+          <p class="vb-intro">Bevor er zum Zen-Lehrer wurde, arbeitete Shukman als Posaunist, als Fischtrawler-Matrose und als Reiseschriftsteller – drei völlig unterschiedliche Lebenswege, die er nacheinander mit vollem Einsatz verfolgte. Sein erstes Buch, ›Sons of the Moon‹ (1989), beschrieb eine Reise durch die entlegensten Regionen Boliviens; es folgten ›Travels with my Trombone‹ über ein Jahr als Calypso- und Salsa-Musiker in der Karibik und Kolumbien sowie ›Savage Pilgrims‹, eine Spurensuche nach D. H. Lawrence in New Mexico – demselben Bundesstaat, in dem Shukman Jahrzehnte später sein geistliches Zuhause finden sollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Vielfalt im Dienst einer größeren Sache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> ist der Kontratyp der Sieben – anders als die selbsterhaltende oder sexuelle Sieben lebt sie ihre Maßlosigkeit nicht als persönlichen Genuss, sondern verwandelt sie in Pflichterfüllung und Dienst an einem größeren Ganzen. Bei Shukman zeigt sich das in einem geradezu lehrbuchhaften Übergang: Aus der ruhelosen Suche der frühen Lebensjahre – Musik, Seefahrt, Reiseschriftstellerei, Romane, Gedichte – wurde über Jahrzehnte hinweg eine einzige, disziplinierte Ausbildung in einer traditionellen Zen-Linie, die 2010 in seiner offiziellen Ernennung zum Lehrer durch Yamada Roshi gipfelte.</p>
+          <p class="vb-intro">2012 übernahm er die geistliche Leitung des Mountain Cloud Zen Center in Santa Fe und baute es über elf Jahre hinweg zu einem festen spirituellen Zentrum aus. Parallel dazu gründete er ›The Way‹, eine Meditations-App, die traditionelle Zen-Praxis einem globalen, digitalen Publikum zugänglich macht – dieselbe Vielfalt an Ausdrucksformen wie in seiner Reiseschriftsteller-Zeit, nun jedoch konsequent auf ein einziges Ziel ausgerichtet: anderen Menschen einen Weg zur eigenen Heilung zu eröffnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Handwerkliche Substanz: Preisgekrönte Lyrik vor der spirituellen Laufbahn</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lange bevor Shukman als Zen-Lehrer bekannt wurde, hatte er sich bereits als ernstzunehmender Schriftsteller etabliert: Sein Lyrikdebüt ›In Dr No's Garden‹ (1995) gewann den Jerwood Aldeburgh First Collection Prize, eine der bedeutendsten britischen Auszeichnungen für lyrische Debütbände. Seine Belletristik wurde mit einem Arts-Council-Preis ausgezeichnet und für den renommierten O.-Henry-Award nominiert – keine Nebentätigkeit eines spirituellen Lehrers, sondern eine eigenständige literarische Laufbahn mit fachlicher Anerkennung.</p>
+          <p class="vb-intro">Diese Verbindung aus dichterischer Präzision und spiritueller Praxis ist kein Zufall: Shukmans frühe Liebe zur chinesischen Zen-Dichtung war einer der Wege, die ihn überhaupt erst zur Meditation führten. Sein 2019 erschienenes Memoir ›One Blade of Grass‹ verbindet beide Stränge explizit – literarisches Handwerk im Dienst der Beschreibung eines inneren Heilungswegs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Sechserflügel: Wachsamkeit und Bindung an eine überlieferte Linie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt in die begeisterte SO7-Energie ein Element von Loyalität und Vorsicht gegenüber vorschneller Selbstermächtigung. Statt sein spontanes Erwachen mit neunzehn Jahren sofort zur eigenen Lehrautorität zu erklären, unterstellte sich Shukman über Jahrzehnte der Anleitung mehrerer anerkannter Lehrer – Roshis John Gaynor, Joan Rieck, Ruben Habito und schließlich Yamada Roshi, internationaler Abt der Sanbo-Zen-Linie – bevor er selbst 2010 offiziell autorisiert wurde.</p>
+          <p class="vb-intro">Diese Geduld, sich einer über Generationen überlieferten Struktur unterzuordnen, statt die eigene, unmittelbare Erfahrung sofort zu verkünden, zeigt die w6-Wachsamkeit in Reinform: Vertrauen wird nicht der eigenen Intuition allein, sondern einer geprüften, verlässlichen Linie entgegengebracht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w6 zeigt sich darin, eine frühe, überwältigende Erfahrung nicht impulsiv zu vermarkten, sondern sie über Jahrzehnte in eine belastbare, für viele Menschen zugängliche Lehre zu übersetzen – von der Einzelerfahrung zur skalierbaren App mit globaler Reichweite.</p>
+          <p class="vb-intro">Die Leidenschaft der Sieben ist <strong>Maßlosigkeit</strong> – bei der sozialen Sieben äußert sie sich als rastloses Sammeln neuer Rollen und Ausdrucksformen. Shukmans Weg vom Posaunisten über den Fischtrawler-Matrosen und Reiseschriftsteller bis zum Zen-Lehrer ließe sich auch als eine Flucht vor der eigenen, kindlich erworbenen Angst und Depression lesen – ein rastloses Ausprobieren neuer Identitäten, bis eine davon tief genug trug, um die zugrunde liegende Not tatsächlich zu heilen, statt sie nur zu überdecken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Von der Flucht zur Lehre</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Henry Shukman verwandelte eine Kindheit voller körperlicher und seelischer Not sowie ein frühes, überwältigendes spirituelles Erlebnis über Jahrzehnte in eine strukturierte, überprüfbare Lehre – zugänglich sowohl im traditionellen Retreat-Format als auch über eine moderne App für ein digitales Millionenpublikum.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-franz-von-assisi">Franz von Assisi</a> (SO7w6) – auch bei ihm verwandelte sich eine frühe existenzielle Krise über Jahre in eine dauerhafte, weithin wirksame spirituelle Institution. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-franz-von-assisi">Porträt zu Franz von Assisi</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-franz-von-assisi", label:"Porträt: Franz von Assisi (SO7w6)"},
+        {route:"beruehmte-sigourney-weaver", label:"Porträt: Sigourney Weaver (SO7w6)"},
+        {route:"beruehmte-billy-bob-thornton", label:"Porträt: Billy Bob Thornton (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
