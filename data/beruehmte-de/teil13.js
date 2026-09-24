@@ -2269,7 +2269,7 @@ export function evanBatesPortraitPage() {
 
         <h2 class="vb-section">4. Der Dreierflügel: Das Bild als Bühne für die eigene Tiefe</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> übersetzt die introspektive SE4-Sehnsucht in eine öffentlichkeitswirksame, wettkampforientierte Form. Eistanz ist eine Sportart, die permanent bewertet und verglichen wird – Bates’ jahrzehntelange Bereitschaft, sich dieser ständigen öffentlichen Bewertung zu stellen, zeigt die Dreier-Komponente: Die eigene emotionale Tiefe wird nicht verborgen, sondern gezielt in eine Form gebracht, die Preisrichter und Publikum gleichermaßen überzeugt.</p>
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> übersetzt die introspektive SE4-Sehnsucht in eine öffentlichkeitswirksame, wettkampforientierte Form. Eistanz ist eine Sportart, in der permanent bewertet und verglichen wird – Bates’ jahrzehntelange Bereitschaft, sich dieser ständigen öffentlichen Bewertung zu stellen, zeigt die Dreier-Komponente: Die eigene emotionale Tiefe wird nicht verborgen, sondern gezielt in eine Form gebracht, die Preisrichter und Publikum gleichermaßen überzeugt.</p>
           <p class="vb-intro">Anders als eine reine SE4 sucht Bates die Bühne aktiv, statt sich ihr nur widerwillig zu stellen – doch anders als ein Dreier-Kerntyp bleibt die Tiefe der Darstellung nie bloße Oberfläche: Kritiker heben gerade die ›emotionale Verbindung‹ seiner Programme als Alleinstellungsmerkmal hervor, nicht nur die technische Perfektion.</p>
         </blockquote>
 
