@@ -4641,9 +4641,9 @@ export function guntherVonHagensKrankheitsportraetPage() {
         <strong>Gunther von Hagens</strong> ist bereits als
         <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">Porträt unter Berühmte Persönlichkeiten</a>
         in diesem Kompass vertreten – dort geht es um die Erfindung der Plastination und sein
-        Lebenswerk ›Körperwelten‹. Diese Seite widmet sich einer Facette, die dort nur gestreift
-        wird: seinem fast zwei Jahrzehnte dauernden Leben mit Parkinson, das am 24. Juli 2026 mit
-        seinem Tod durch eine Hirnblutung endete.
+        Lebenswerk ›Körperwelten‹. Im Mittelpunkt steht hier, was dort kaum Raum findet: sein
+        fast zwei Jahrzehnte dauerndes Leben mit Parkinson, das am 24. Juli 2026 mit seinem Tod
+        durch eine Hirnblutung endete.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
@@ -4795,8 +4795,8 @@ export function guntherVonHagensKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        Die sexuelle Eins mit Neunerflügel zeigt sich bei <strong>Gunther von Hagens</strong> in
-        einer letzten, konsequenten Volte: Ein Leben lang machte er den toten Körper öffentlich
+        Die sexuelle Eins mit Neunerflügel schließt sich bei <strong>Gunther von Hagens</strong>
+        zu einem einzigen, geraden Bogen: Ein Leben lang machte er den toten Körper öffentlich
         sichtbar – und beschloss, seinen eigenen dereinst genauso zu behandeln, statt die eigene
         Sterblichkeit privat und verborgen zu verarbeiten. Die Schwarze Mamba, die selbst im
         eigenen Verfall keine Distanz zum eigenen Lebenswerk zuließ, sondern beides bis zuletzt zu

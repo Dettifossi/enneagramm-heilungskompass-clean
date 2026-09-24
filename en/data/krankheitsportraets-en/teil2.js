@@ -4425,7 +4425,7 @@ export function guntherVonHagensKrankheitsportraetPage() {
         <strong>Gunther von Hagens</strong> is already featured as a
         <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">portrait under Famous Personalities</a>
         in this compass — that page covers his invention of plastination and his life's work,
-        "Body Worlds." This page addresses a facet only touched on briefly there: his nearly
+        "Body Worlds." The focus here is on what that page has little room for: his nearly
         two-decade life with Parkinson's disease, which ended with his death from a cerebral
         hemorrhage on July 24, 2026.
       </p>
@@ -4569,8 +4569,8 @@ export function guntherVonHagensKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        The sexual One with Nine-wing shows itself in <strong>Gunther von Hagens</strong> in one
-        final, consistent twist: throughout his life he made the dead body publicly visible — and
+        The sexual One with Nine-wing closes into a single, straight arc in
+        <strong>Gunther von Hagens</strong>: throughout his life he made the dead body publicly visible — and
         decided to treat his own the same way one day, rather than processing his own mortality
         privately and out of sight. The black mamba, which allowed no distance from its own
         life's work even in its own decline, instead fusing both into a single, consistent whole
