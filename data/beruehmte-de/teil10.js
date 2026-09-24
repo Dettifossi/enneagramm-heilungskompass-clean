@@ -2300,7 +2300,7 @@ export function andreDuqumPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei mit Dreierflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE2w3 zeigt sich darin, dass Duqum sein Format aktiv nutzt, um anderen jungen Creator zum eigenen Erfolg zu verhelfen, statt das eigene Netzwerk eifersüchtig für sich zu behalten – sein Mentoring-Programm gibt genau das weiter, was ihn selbst vorangebracht hat.</p>
+          <p class="vb-intro">Das Licht der SE2w3 zeigt sich darin, dass Duqum sein Format aktiv nutzt, um anderen jungen Creators zum eigenen Erfolg zu verhelfen, statt das eigene Netzwerk eifersüchtig für sich zu behalten – sein Mentoring-Programm gibt genau das weiter, was ihn selbst vorangebracht hat.</p>
           <p class="vb-intro">Die Leidenschaft der Zwei ist <strong>Stolz</strong> – bei der SE2w3 äußert er sich als Stolz auf die eigene, ganz konkrete Wirkung auf einzelne Menschen. Die durchgehend hochtrabende, spirituell aufgeladene Selbstbeschreibung – „Medizin für die Seele", „Lichtwärter", „die Liebe zur Weisheit und die Weisheit der Liebe" – trägt aber auch einen typischen Schatten dieses Subtyps in sich: die Gefahr, die eigene Fürsorge so groß zu erzählen, dass die Bescheidenheit fehlt, die dieselbe Fürsorge glaubwürdiger machen würde.</p>
         </blockquote>
 
