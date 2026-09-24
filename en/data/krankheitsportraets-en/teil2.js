@@ -4402,3 +4402,188 @@ export function davidHockneyKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function guntherVonHagensKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gunther-von-hagens-portrait.jpg" alt="Gunther von Hagens" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gunther von Hagens</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexual Type 1 with Nine-wing · 1945–2026</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Black Mamba</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx1.jpg" alt="Animal correspondence: Black Mamba" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX1")};left:${tierAvatarLeft("SX1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Gunther von Hagens</strong> is already featured as a
+        <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">portrait under Famous Personalities</a>
+        in this compass — that page covers his invention of plastination and his life's work,
+        "Body Worlds." This page addresses a facet only touched on briefly there: his nearly
+        two-decade life with Parkinson's disease, which ended with his death from a cerebral
+        hemorrhage on July 24, 2026.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
+        <strong>Von Hagens</strong> is assigned to the <strong>sexual Type 1 with Nine-wing</strong>.
+        The SX1 meets existential threat not with withdrawal, but with the same uncompromising
+        zeal it pursues its life's work with — in von Hagens this showed in that he only made
+        his diagnosis public once he himself had decided how he wanted to handle it. The
+        Nine-wing sustained the same decades-long persistence that had already characterized his
+        institution-building, even in the face of an incurable, progressive disease.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Diagnosed in 2008, kept private for two years:</strong>
+        Von Hagens received his Parkinson's diagnosis as early as 2008, but initially shared it
+        only with his family and closest circle. Not until 2010, in a lengthy address to his
+        employees at the Plastinarium in Guben, did he make the disease public — two years in
+        which he apparently first had to find his own way of handling the diagnosis before
+        disclosing it.</p>
+        <p class="vb-intro"><strong>b) A tremor that threatened precision itself:</strong>
+        The first visible symptoms were a tremor in his left hand — a particularly bitter irony
+        for a man whose entire life's work rested on extreme manual precision in handling human
+        tissue.</p>
+        <p class="vb-intro"><strong>c) The voice as bargaining chip between movement and speech:</strong>
+        A deep brain stimulation implant could suppress the tremor when its current was turned
+        up — but his speech would then deteriorate into a barely intelligible murmur. At a lower
+        setting he spoke almost normally, but had to accept tremors in his left hand: a
+        technically forced trade-off between two faculties equally indispensable to his public
+        role as teacher and speaker.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) "Seven active working years" as a self-imposed deadline:</strong>
+        At his 2010 public announcement, von Hagens said the diagnosis had thrown him into an
+        "existential bewilderment," and that he could realistically expect seven active working
+        years before becoming totally incapacitated — a sober, almost clinical self-assessment
+        of his own mortality.</p>
+        <p class="vb-intro"><strong>b) A pre-emptive retreat from operational leadership:</strong>
+        Anticipating the progressive deterioration typical of Parkinson's, he announced he would
+        scale down operations in Guben step by step, rather than clinging to control until he
+        became incapable of acting — a deliberate, planned handover instead of a forced
+        collapse.</p>
+        <p class="vb-intro"><strong>c) The family takes over while he is still alive:</strong>
+        His wife Angelina Whalley continued to head the Heidelberg Institute for Plastination and
+        curate the exhibitions, and his son Rurik von Hagens became CEO of von Hagens
+        Plastination — a succession he, by his own account, passed on to his son with pride, not
+        reluctantly.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) Working for as long as physically possible:</strong>
+        Instead of withdrawing after the diagnosis, von Hagens remained active as the public face
+        of his life's work for as long as he possibly could — the same uncompromising stance he
+        had once directed against regulatory authorities and churches now turned against his own
+        physical decline.</p>
+        <p class="vb-intro"><strong>b) No concealment, but no self-staging as victim either:</strong>
+        Von Hagens spoke openly about his illness without making it the central theme of his
+        public appearances — an openness that informed more than it solicited sympathy.</p>
+        <p class="vb-intro"><strong>c) His own mortality becomes the final exhibit:</strong>
+        Already at age 65, he told a German newspaper that his plastinated body should one day
+        "stand in a welcoming pose at the entrance of my exhibition," so that he could "welcome
+        my guests even after I am dead" — an intention he maintained to the end.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro"><strong>a) From provocateur to publicly dying teacher:</strong>
+        A man who had spent decades drawing attention through spectacular, often scandal-prone
+        appearances spent his final decade and a half in a much quieter but equally public role:
+        someone who treated his own progressive illness with the same transparency he had
+        previously applied to the anatomical bodies in his exhibitions.</p>
+        <p class="vb-intro"><strong>b) Death by cerebral hemorrhage as an abrupt ending:</strong>
+        After nearly two decades with Parkinson's, von Hagens ultimately did not die from the
+        course of Parkinson's itself, but from a cerebral hemorrhage — a sudden end after a long,
+        foreseeable process of decline that came close to his own 2010 prognosis, yet unfolded
+        differently than he had imagined for himself.</p>
+        <p class="vb-intro"><strong>c) The last wish as an open question:</strong>
+        His family has confirmed they will honor his wish for his own plastination; since fully
+        plastinating a human body takes months to years, it remains open when — and in what
+        form — this final, radically consistent wish will become publicly visible.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) The Nine-wing as decades of endurance rather than a single gesture:</strong>
+        Where a purer sexual One might have turned the diagnosis into the occasion for a single,
+        dramatic public act, von Hagens spread his handling of the illness across nearly two
+        decades — the same Nine-wing breadth that had already shaped his institution-building.</p>
+        <p class="vb-intro"><strong>b) The black mamba that doesn't retreat into hiding:</strong>
+        Even as the illness progressed, von Hagens remained present at the core of his public
+        role, rather than withdrawing entirely from public life as many in his situation do.</p>
+        <p class="vb-intro"><strong>c) Control over the narrative of his own illness:</strong>
+        Von Hagens himself determined when, how, and to what extent his illness was discussed —
+        the same SX1 zeal for defending his own truth turned here toward controlling the
+        narrative of his own physical decline.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) Nearly two decades between diagnosis and death:</strong>
+        Eighteen years passed between the 2008 diagnosis and his death in 2026, during which the
+        illness gradually expanded — from a tremor in the left hand through increasing speech
+        and movement limitations to the step-by-step handover of operational leadership to his
+        wife and son.</p>
+        <p class="vb-intro"><strong>b) His own exhibition as the last remaining outlet for expression:</strong>
+        As in his healthy decades, his own exhibition — his own body as teaching tool — remained
+        von Hagens' central means of expression even in decline; his plan for self-plastination
+        is the final, most radical evidence of this.</p>
+        <p class="vb-intro"><strong>c) Why an attack on precisely movement and speech?</strong>
+        For a sexual One whose entire public identity rested on manual precision in the
+        preparation room and rhetorical persuasiveness before audiences, Parkinson's — a disease
+        that attacks precisely these two faculties — can be read as an especially existential
+        threat: the two tools with which von Hagens had carried his zeal outward throughout his
+        life were exactly what increasingly slipped away from him at the end. This reading is
+        developed further in this compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) A Reading, Not a Determinism:</strong>
+        This does not mean the pattern of the sexual One with Nine-wing inevitably leads to
+        Parkinson's — <strong>anyone can develop any illness, regardless of subtype.</strong>
+        Von Hagens' illness is closely tied to a neurodegenerative process that occurs medically
+        independent of personality patterns, not one that can be explained purely
+        psychosomatically. What his case can show is a pattern in how such a diagnosis is
+        handled that recurs among pronounced sexual Ones with a Nine-wing — one of many possible
+        readings, not a verdict. The corresponding illness profile is gradually being developed
+        in this compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics
+        Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The Unconscious Fixation as Its Own Factor:</strong>
+        Like most people of his time, von Hagens did not consciously know his own Enneagram
+        pattern. Without this knowledge, he also had no access to a conscious distinction between
+        his lifelong zeal and the inner compulsion not to surrender control over his own
+        narrative even in the face of an incurable diagnosis — he processed his fate the only way
+        he knew: through continued work and public self-determination, rather than allowing
+        himself an early, unplanned, private relationship with his own mortality. Those who
+        recognize their own pattern can consciously counteract it; those who don't remain as
+        subject to their pattern as von Hagens was into his final years.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The sexual One with Nine-wing shows itself in <strong>Gunther von Hagens</strong> in one
+        final, consistent twist: throughout his life he made the dead body publicly visible — and
+        decided to treat his own the same way one day, rather than processing his own mortality
+        privately and out of sight. The black mamba, which allowed no distance from its own
+        life's work even in its own decline, instead fusing both into a single, consistent whole
+        until the very end.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-gunther-von-hagens", label:"Portrait: Gunther von Hagens (SX1w9) – life's work"},
+        {route:"krankheitsportraets-johann-sebastian-bach", label:"Illness Portrait: Johann Sebastian Bach (SX1w9) – same subtype, the same persistence despite an attack on his core faculty"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx1", label:"Subtype profile SX1"},
+      ])}
+    </div>
+  `);
+}

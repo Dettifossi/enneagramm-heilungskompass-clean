@@ -1736,6 +1736,7 @@ export function johannSebastianBachKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-johann-sebastian-bach", label:"Portrait: Johann Sebastian Bach (SX1w9) – life's work"},
+        {route:"krankheitsportraets-gunther-von-hagens", label:"Illness Portrait: Gunther von Hagens (SX1w9) – same subtype, the same persistence despite an attack on his core faculty"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx1", label:"Subtype Profile SX1"},
       ])}

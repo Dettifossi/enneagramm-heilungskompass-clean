@@ -1824,6 +1824,7 @@ export function johannSebastianBachKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-johann-sebastian-bach", label:"Porträt: Johann Sebastian Bach (SX1w9) – Lebenswerk"},
+        {route:"krankheitsportraets-gunther-von-hagens", label:"Krankheitsporträt: Gunther von Hagens (SX1w9) – gleicher Subtyp, dieselbe Beharrlichkeit trotz Angriff auf die eigene Kernfähigkeit"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx1", label:"Subtyp-Profil SX1"},
       ])}

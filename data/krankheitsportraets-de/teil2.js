@@ -4618,3 +4618,198 @@ export function davidHockneyKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function guntherVonHagensKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gunther-von-hagens-portrait.jpg" alt="Gunther von Hagens" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gunther von Hagens</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexueller Typ 1 mit Neunerflügel · 1945–2026</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Schwarze Mamba</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx1.jpg" alt="Tierentsprechung: Schwarze Mamba" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX1")};left:${tierAvatarLeft("SX1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Gunther von Hagens</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-gunther-von-hagens">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um die Erfindung der Plastination und sein
+        Lebenswerk ›Körperwelten‹. Diese Seite widmet sich einer Facette, die dort nur gestreift
+        wird: seinem fast zwei Jahrzehnte dauernden Leben mit Parkinson, das am 24. Juli 2026 mit
+        seinem Tod durch eine Hirnblutung endete.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Von Hagens</strong> ist dem <strong>sexuellen Typ 1 mit Neunerflügel</strong>
+        zugeordnet. Die SX1 begegnet existenzieller Bedrohung nicht mit Rückzug, sondern mit
+        derselben kompromisslosen Inbrunst, mit der sie ihr Lebenswerk verfolgt – bei von Hagens
+        zeigte sich das darin, dass er seine Diagnose erst öffentlich machte, als er selbst
+        entschieden hatte, wie er damit umgehen wollte. Der Neunerflügel hielt selbst angesichts
+        einer unheilbaren, fortschreitenden Erkrankung die jahrzehntelange Beharrlichkeit
+        aufrecht, die schon seinen Institutionenaufbau kennzeichnete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Diagnose 2008, zwei Jahre lang verschwiegen:</strong>
+        Von Hagens erhielt die Parkinson-Diagnose bereits 2008, teilte sie aber zunächst nur
+        seiner Familie und seinem engsten Umfeld mit. Erst 2010, in einer langen Ansprache an
+        seine Mitarbeiter im Plastinarium Guben, machte er die Erkrankung öffentlich – zwei Jahre
+        Zeit, in denen er offenbar selbst erst einen eigenen Umgang mit der Diagnose finden
+        musste, bevor er sie preisgab.</p>
+        <p class="vb-intro"><strong>b) Ein Tremor, der ausgerechnet die Präzision bedrohte:</strong>
+        Erste sichtbare Symptome waren Zittern in der linken Hand – eine besonders bittere
+        Ironie bei einem Mann, dessen gesamtes Lebenswerk auf äußerster manueller Präzision im
+        Umgang mit menschlichem Gewebe beruhte.</p>
+        <p class="vb-intro"><strong>c) Die Stimme als Verhandlungsmasse zwischen Bewegung und Sprache:</strong>
+        Ein bei ihm implantierter Hirnschrittmacher (Tiefe Hirnstimulation) konnte den Tremor
+        unterdrücken, wenn die Stromstärke erhöht wurde – dann verschlechterte sich jedoch seine
+        Sprache zu einem kaum verständlichen Murmeln. Bei niedrigerer Einstellung sprach er
+        nahezu normal, musste dafür aber das Zittern der linken Hand in Kauf nehmen: ein
+        technisch erzwungener Tausch zwischen zwei Fähigkeiten, die für seine öffentliche Rolle
+        als Lehrer und Redner gleichermaßen unverzichtbar waren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) „Sieben aktive Arbeitsjahre" als selbst gesetzte Frist:</strong>
+        Bei der öffentlichen Bekanntgabe 2010 sagte von Hagens, die Diagnose habe ihn in eine
+        „existenzielle Verwirrung" gestürzt, und er könne realistischerweise mit sieben aktiven
+        Arbeitsjahren rechnen, bevor er vollständig arbeitsunfähig werde – eine nüchterne,
+        fast klinische Selbsteinschätzung der eigenen Endlichkeit.</p>
+        <p class="vb-intro"><strong>b) Vorausschauender Rückzug aus der operativen Leitung:</strong>
+        In Erwartung der für Parkinson typischen fortschreitenden Verschlechterung kündigte er
+        an, den Betrieb in Guben schrittweise zu verkleinern, statt die Kontrolle bis zur
+        Handlungsunfähigkeit festzuhalten – eine bewusste, geplante Übergabe statt eines
+        erzwungenen Zusammenbruchs.</p>
+        <p class="vb-intro"><strong>c) Die Familie übernimmt, während er noch lebt:</strong>
+        Seine Frau Angelina Whalley leitete das Heidelberger Institut für Plastination und
+        kuratierte die Ausstellungen weiter, sein Sohn Rurik von Hagens wurde CEO von Von Hagens
+        Plastination – eine Nachfolge, die er nach eigener Aussage mit Stolz an ihn weitergab,
+        nicht widerwillig abgab.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Weiterarbeiten, solange es körperlich ging:</strong>
+        Statt sich mit der Diagnose zurückzuziehen, blieb von Hagens so lange wie irgend möglich
+        in seiner Rolle als öffentliches Gesicht seines Lebenswerks aktiv – dieselbe
+        Kompromisslosigkeit, mit der er zuvor gegen Aufsichtsbehörden und Kirchen angetreten war,
+        richtete sich nun gegen den eigenen körperlichen Verfall.</p>
+        <p class="vb-intro"><strong>b) Kein Verschweigen, aber auch keine Selbstinszenierung als Opfer:</strong>
+        Von Hagens sprach offen über seine Erkrankung, ohne sie zum zentralen Thema seiner
+        öffentlichen Auftritte zu machen – eine Offenheit, die eher informierte als um Mitleid
+        warb.</p>
+        <p class="vb-intro"><strong>c) Die eigene Endlichkeit wird zum letzten Ausstellungsstück:</strong>
+        Bereits mit 65 Jahren erklärte er einer deutschen Zeitung, sein plastinierter Körper
+        solle dereinst „in einladender Pose am Eingang meiner Ausstellung stehen", damit er seine
+        Gäste „auch nach meinem Tod begrüßen" könne – eine Absicht, die er bis zuletzt
+        aufrechterhielt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Vom Provokateur zum öffentlich sterbenden Lehrer:</strong>
+        Ein Mann, der Jahrzehnte lang mit spektakulären, oft skandalträchtigen Auftritten für
+        Aufsehen sorgte, verbrachte seine letzten anderthalb Jahrzehnte in einer viel leiseren,
+        aber ebenso öffentlichen Rolle: als jemand, der die eigene, fortschreitende Erkrankung so
+        transparent behandelte wie zuvor die anatomischen Körper seiner Ausstellungen.</p>
+        <p class="vb-intro"><strong>b) Der Tod durch Hirnblutung als abrupter Schlusspunkt:</strong>
+        Nach fast zwei Jahrzehnten mit Parkinson starb von Hagens letztlich nicht am
+        Parkinson-Verlauf selbst, sondern an einer Hirnblutung – ein plötzliches Ende nach einem
+        langen, absehbaren Abbauprozess, der seiner eigenen Prognose von 2010 nahekam, aber
+        anders verlief, als er es sich selbst vorgestellt hatte.</p>
+        <p class="vb-intro"><strong>c) Der letzte Wunsch als offene Frage:</strong>
+        Seine Familie hat bestätigt, seinen Wunsch nach der eigenen Plastination zu respektieren;
+        da eine vollständige Plastination eines menschlichen Körpers Monate bis Jahre dauert,
+        bleibt offen, wann – und in welcher Form – dieser letzte, radikal konsequente Wunsch
+        öffentlich sichtbar wird.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Neunerflügel als Ausdauer über Jahrzehnte statt einer Geste:</strong>
+        Wo eine reinere sexuelle Eins die Diagnose vielleicht zum Anlass eines einzelnen,
+        dramatischen öffentlichen Auftritts gemacht hätte, verteilte von Hagens seinen Umgang mit
+        der Krankheit über fast zwei Jahrzehnte – dieselbe w9-Weite, die schon seinen
+        Institutionenaufbau geprägt hatte.</p>
+        <p class="vb-intro"><strong>b) Die Schwarze Mamba, die sich nicht verkriecht:</strong>
+        Auch mit fortschreitender Erkrankung blieb von Hagens im Kern seiner öffentlichen Rolle
+        präsent, statt sich – wie es viele in seiner Situation tun – vollständig aus dem
+        öffentlichen Leben zurückzuziehen.</p>
+        <p class="vb-intro"><strong>c) Kontrolle über die Deutung der eigenen Krankheit:</strong>
+        Von Hagens bestimmte selbst, wann, wie und in welchem Umfang über seine Erkrankung
+        gesprochen wurde – dieselbe SX1-Inbrunst, die eigene Wahrheit zu verteidigen, richtete
+        sich hier auf die Deutungshoheit über den eigenen körperlichen Verfall.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Fast zwei Jahrzehnte zwischen Diagnose und Tod:</strong>
+        Von der Diagnose 2008 bis zum Tod 2026 vergingen achtzehn Jahre, in denen sich die
+        Erkrankung schrittweise ausweitete – von einem Tremor in der linken Hand über zunehmende
+        Sprach- und Bewegungseinschränkungen bis zur schrittweisen Übergabe der operativen
+        Leitung an Frau und Sohn.</p>
+        <p class="vb-intro"><strong>b) Die eigene Ausstellung als letzter verbliebener Ausdrucksraum:</strong>
+        Wie schon in gesunden Jahrzehnten blieb die eigene Ausstellung, der eigene Körper als
+        Lehrmittel, auch im Verfall von Hagens' zentrales Ausdrucksmittel – der Plan zur
+        Selbstplastination ist dafür der letzte, radikalste Beleg.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet ein Angriff auf Bewegung und Sprache?</strong>
+        Für eine sexuelle Eins, deren gesamte öffentliche Identität auf manueller Präzision im
+        Präparationssaal und auf rednerischer Überzeugungskraft vor Publikum beruhte, lässt sich
+        in Parkinson – einer Erkrankung, die genau diese beiden Fähigkeiten angreift – eine
+        besonders existenzielle Bedrohung lesen: Die beiden Werkzeuge, mit denen von Hagens
+        zeitlebens seine Inbrunst nach außen trug, waren genau das, was ihm zuletzt zunehmend
+        entglitt. Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Eins mit Neunerflügel zwangsläufig zu
+        Parkinson führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Von Hagens' Erkrankung ist eng mit einem neurodegenerativen Prozess
+        verbunden, der medizinisch unabhängig von Persönlichkeitsmustern auftritt, nicht rein
+        psychosomatisch zu erklären. Was sich an seinem Fall zeigen lässt, ist ein Muster im
+        Umgang mit einer solchen Diagnose, das bei einer ausgeprägten sexuellen Eins mit
+        Neunerflügel immer wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil.
+        Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Von Hagens kannte, wie die meisten Menschen seiner Zeit, sein Enneagramm-Muster nicht
+        bewusst. Ohne dieses Wissen blieb ihm auch der Zugang zu einer bewussten Unterscheidung
+        zwischen der eigenen, lebenslangen Inbrunst und dem inneren Zwang verwehrt, selbst
+        angesichts einer unheilbaren Diagnose keine Kontrolle über das eigene Narrativ
+        abzugeben – er verarbeitete sein Schicksal auf die einzige Weise, die er kannte: durch
+        Weiterarbeit und öffentliche Selbstbestimmung, statt sich frühzeitig auch einen privaten,
+        ungeplanten Umgang mit der eigenen Sterblichkeit zuzugestehen. Wer das eigene Muster
+        erkennt, kann bewusst gegensteuern; wer es nicht kennt, bleibt seinem Muster so
+        ausgeliefert, wie von Hagens es bis in seine letzten Lebensjahre war.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die sexuelle Eins mit Neunerflügel zeigt sich bei <strong>Gunther von Hagens</strong> in
+        einer letzten, konsequenten Volte: Ein Leben lang machte er den toten Körper öffentlich
+        sichtbar – und beschloss, seinen eigenen dereinst genauso zu behandeln, statt die eigene
+        Sterblichkeit privat und verborgen zu verarbeiten. Die Schwarze Mamba, die selbst im
+        eigenen Verfall keine Distanz zum eigenen Lebenswerk zuließ, sondern beides bis zuletzt zu
+        einem einzigen, konsequenten Ganzen verschmolz.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-gunther-von-hagens", label:"Porträt: Gunther von Hagens (SX1w9) – Lebenswerk"},
+        {route:"krankheitsportraets-johann-sebastian-bach", label:"Krankheitsporträt: Johann Sebastian Bach (SX1w9) – gleicher Subtyp, dieselbe Beharrlichkeit trotz Angriff auf die eigene Kernfähigkeit"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx1", label:"Subtyp-Profil SX1"},
+      ])}
+    </div>
+  `);
+}
