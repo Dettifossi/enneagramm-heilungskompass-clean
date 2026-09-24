@@ -2231,3 +2231,70 @@ export function michelFoucaultPortraitPage() {
     </div>
   `);
 }
+
+export function floydMayweatherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-floyd-mayweather-portrait.jpg" alt="Floyd Mayweather Jr. – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Floyd Mayweather Jr.</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Boxer, b. 1977 in Grand Rapids, Michigan &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever Who Called Himself "Money"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>golden retriever</strong> is the animal of the social Two: warm, proud, oriented toward connection — an animal that doesn't just receive affection but actively organizes it. Floyd Mayweather Jr. was born in 1977 in Grand Rapids, Michigan, into a childhood shaped by poverty and family instability: his mother struggled with drug dependency, and his father and trainer, Floyd Mayweather Sr., spent five years in prison for drug trafficking. Raised between his mother and grandmother, it was his grandmother who actively supported his early passion for boxing.</p>
+          <p class="vb-intro">With 50 wins in 50 professional fights across five weight classes, he ended his career undefeated — one of the rarest records in the history of boxing. But the name under which he became world-famous wasn't "the undefeated one" — it was "Money Mayweather," a self-chosen brand aimed from the start at relationship with the audience, not just athletic achievement.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Winning Belonging Through Active Care</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> seeks its place in the group not through quiet adaptation but through actively earned indispensability — Naranjo called this expression <em>Ambition</em>: the drive to become the central, irreplaceable figure of a social network through care and generosity. In Mayweather this shows in "The Money Team" — a massive entourage of employees, business partners, and confidants he funded, giving them annual salaries of up to $150,000 alongside bonus gifts like Rolex watches and Mercedes-Benz cars.</p>
+          <p class="vb-intro">His generosity reached far beyond his own circle: when his former trainer Genaro "Chicanito" Hernández died, Mayweather covered all funeral costs without asking questions. He repeatedly sponsored Thanksgiving turkey giveaways for people in need, rescued a Golden Gloves tournament in his home state of Michigan from a serious budget shortfall, and repeatedly handed out cash on impulse to people in need in Las Vegas. Not incidental charity, but a consistent pattern: closeness and loyalty are actively purchased and cultivated, not waited for.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Craft Substance: The Philly Shell as Its Own Art Form</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Behind the "Money Mayweather" brand lies a boxing achievement that even experts consider extraordinary. Mayweather perfected the "Philly Shell" defense he learned from his father — a guard stance with a lowered lead hand, a torso turned sideways, and the shoulder used as chin protection — and added his own footwork, angling, and reflex drills, to the point that experts classify his version as its own further development of the classic technique, not a mere copy.</p>
+          <p class="vb-intro">The result: a boxer who, over twenty professional years, carried noticeably few scars on his face because he systematically let punches miss rather than absorbing them. This defense was never meant to be purely passive — every missed punch from an opponent immediately opened a window for a precise counter. Five world titles across five different weight classes are the result of decades of technical refinement, not mere self-confidence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Three-Wing: The Brand as an Amplifier of Relationship</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> translates the relationship-oriented SO2 energy into visible, publicity-driven staging. Mayweather built himself and his circle into a brand — "The Money Team" and "TBE" (The Best Ever) became standalone lifestyle labels generating income beyond boxing purses. His biggest fight, against Manny Pacquiao in 2015, was marketed worldwide as the "Fight of the Century" — a staging that even outshone the sporting value of the bout itself.</p>
+          <p class="vb-intro">Unlike a pure SO3 self-display, the relational dimension stays central for Mayweather: the demonstrative wealth — betting winnings, cars, bundles of cash, publicly flaunted — doesn't just serve his own image cultivation, but is directly reinvested into care for his circle. The "Money" brand exists so that others can share in it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Flip Side: Loyalty as a Substitute for the Lost Family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2000, Mayweather fired his own father as his manager, and shortly after as his trainer too, replacing him with his uncle Roger Mayweather — a break that continued rather than healed the early family instability of his childhood. The SO2 often compensates for exactly this kind of loss of attachment by creating a self-made, controllable substitute network: his own, financially dependent "Money Team," in which loyalty isn't organically grown but structurally secured.</p>
+          <p class="vb-intro">The shadow side of this pattern showed in 2011, when Mayweather pleaded guilty to domestic violence against the mother of his children and was sentenced to 90 days in jail. The social Two, when its claim to control over its own relationships is threatened or questioned, can turn into exactly the kind of violence that, in its constructive form, it seeks to prevent through care.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Undefeated in the Ring, Indispensable to His Circle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Floyd Mayweather Jr. remains one of the few modern boxers to end an entire career undefeated — an athletic achievement he inseparably tied to a self-created social economy of giving and being bound to others. Hardly any other top athlete has so consistently turned his own success into a shared project of a large, financially dependent circle.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-usain-bolt">Usain Bolt</a> (SO2w3) — he too combines extraordinary athletic dominance with a deliberately cultivated, warm public presence. More in the <a href="javascript:void(0)" data-route="beruehmte-usain-bolt">portrait of Usain Bolt</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"lebensmusterkompass/so2", label:"Life Pattern Compass: SO2 – Golden Retriever"},
+        {route:"beruehmte-usain-bolt", label:"Portrait: Usain Bolt (SO2w3)"},
+        {route:"beruehmte-usher", label:"Portrait: Usher (SO2w3)"},
+        {route:"beruehmte-lewis-howes", label:"Portrait: Lewis Howes (SO2w3)"},
+      ])}
+    </div>
+  `);
+}

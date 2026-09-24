@@ -2233,3 +2233,70 @@ export function donMcleanPortraitPage() {
     </div>
   `);
 }
+
+export function floydMayweatherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-floyd-mayweather-portrait.jpg" alt="Floyd Mayweather Jr. – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Floyd Mayweather Jr.</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Sozialer Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Boxer, geb. 1977 in Grand Rapids, Michigan &ndash; Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever, der sich selbst „Money" nannte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei: warm, stolz, auf Verbindung ausgerichtet – ein Tier, das Zuneigung nicht nur empfängt, sondern aktiv organisiert. Floyd Mayweather Jr. wurde 1977 in Grand Rapids, Michigan, geboren, in eine von Armut und familiärer Instabilität geprägte Kindheit hinein: Seine Mutter kämpfte mit einer Drogenabhängigkeit, sein Vater und Trainer Floyd Mayweather Sr. saß fünf Jahre wegen Drogenhandels im Gefängnis. Aufgewachsen zwischen Mutter und Großmutter, war es die Großmutter, die seine frühe Leidenschaft fürs Boxen aktiv förderte.</p>
+          <p class="vb-intro">Mit 50 Siegen in 50 Profikämpfen über fünf Gewichtsklassen hinweg beendete er seine Karriere ungeschlagen – eine der seltensten Bilanzen im Boxsport überhaupt. Doch der Name, unter dem er weltberühmt wurde, war nicht „der Unbesiegte", sondern „Money Mayweather" – eine selbstgewählte Marke, die von Anfang an auf Beziehung zum Publikum zielte, nicht nur auf sportliche Leistung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Zugehörigkeit durch aktive Fürsorge erobern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> sucht ihren Platz in der Gruppe nicht durch stille Anpassung, sondern durch aktiv erarbeitete Unentbehrlichkeit – Naranjo nannte diese Ausprägung <em>Ambition</em>: den Ehrgeiz, durch Fürsorge und Großzügigkeit zur zentralen, unverzichtbaren Figur eines sozialen Netzwerks zu werden. Bei Mayweather zeigt sich das in seinem „The Money Team" – einem riesigen, von ihm finanzierten Gefolge aus Angestellten, Geschäftspartnern und Vertrauten, denen er neben Jahresgehältern von bis zu 150.000 Dollar auch Rolex-Uhren und Mercedes-Benz-Fahrzeuge als Bonus schenkte.</p>
+          <p class="vb-intro">Seine Großzügigkeit reichte weit über das eigene Umfeld hinaus: Als sein früherer Trainer Genaro „Chicanito" Hernández starb, übernahm Mayweather ohne Nachfrage sämtliche Beerdigungskosten. Er sponserte wiederholt Thanksgiving-Truthahn-Verteilungen für Bedürftige, rettete ein Golden-Gloves-Turnier in seiner Heimatstadt Michigan vor dem finanziellen Aus und verteilte wiederholt spontan Bargeld an Menschen in Las Vegas, die in Not waren. Nicht beiläufige Wohltätigkeit, sondern ein durchgängiges Muster: Nähe und Loyalität werden aktiv erkauft und gepflegt, nicht abgewartet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Handwerkliche Substanz: Die Philly Shell als eigene Kunstform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hinter der Marke „Money Mayweather" steht eine boxtechnische Leistung, die selbst unter Fachleuten als außergewöhnlich gilt. Mayweather perfektionierte die von seinem Vater erlernte „Philly Shell"-Verteidigung – eine Guard-Haltung mit abgesenkter Führhand, seitlich gedrehtem Oberkörper und der Schulter als Kinnschutz – und erweiterte sie um eigene Fußarbeit, Winkelspiel und Reflexdrills, sodass Fachleute seine Variante als eigenständige Weiterentwicklung der klassischen Technik einordnen, nicht als bloße Kopie.</p>
+          <p class="vb-intro">Das Ergebnis: Ein Boxer, der über zwanzig Profijahre hinweg auffällig wenige Narben im Gesicht davontrug, weil er Schläge systematisch ins Leere laufen ließ, statt sie einzustecken. Diese Verteidigung war nie rein passiv gemeint – jeder verfehlte gegnerische Schlag öffnete unmittelbar ein Zeitfenster für einen präzisen Konter. Fünf Weltmeistertitel in fünf verschiedenen Gewichtsklassen sind das Ergebnis jahrzehntelanger technischer Verfeinerung, nicht bloßen Selbstbewusstseins.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Dreierflügel: Die Marke als Verstärker der Beziehung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> übersetzt die beziehungsorientierte SO2-Energie in sichtbare, öffentlichkeitswirksame Inszenierung. Mayweather baute sich selbst und sein Umfeld zu einer Marke aus – „The Money Team" und „TBE" (The Best Ever) wurden zu eigenständigen Lifestyle-Labels, die über Boxeinnahmen hinaus Geld einbrachten. Sein größter Kampf, gegen Manny Pacquiao 2015, wurde weltweit als „Kampf des Jahrhunderts" vermarktet – eine Inszenierung, die den sportlichen Wert des Duells noch übertraf.</p>
+          <p class="vb-intro">Anders als eine reine SO3-Selbstdarstellung bleibt bei Mayweather die Beziehungsdimension zentral: Der demonstrative Reichtum – Wettgewinne, Autos, Bargeldbündel, öffentlich zur Schau gestellt – dient nicht nur der eigenen Imagepflege, sondern wird unmittelbar in Fürsorge fürs Umfeld reinvestiert. Die Marke „Money" existiert, damit andere an ihr teilhaben können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Kehrseite: Loyalität als Ersatz für die verlorene Familie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Jahr 2000 entließ Mayweather seinen eigenen Vater als Manager, kurz darauf auch als Trainer, und ersetzte ihn durch seinen Onkel Roger Mayweather – ein Bruch, der die frühe familiäre Instabilität seiner Kindheit fortsetzte, statt sie zu heilen. Die SO2 kompensiert genau diese Art von Bindungsverlust häufig durch ein selbst geschaffenes, kontrollierbares Ersatznetzwerk: das eigene, finanziell abhängige „Money Team", in dem Loyalität nicht organisch gewachsen, sondern strukturell gesichert ist.</p>
+          <p class="vb-intro">Die Schattenseite dieses Musters zeigte sich 2011, als Mayweather sich einer häuslichen Gewalt gegen die Mutter seiner Kinder schuldig bekannte und zu 90 Tagen Haft verurteilt wurde. Die soziale Zwei kann, wenn ihr Anspruch auf Kontrolle über die eigenen Beziehungen bedroht oder in Frage gestellt wird, in genau jene Gewaltsamkeit umschlagen, die sie in ihrer konstruktiven Form durch Fürsorge zu verhindern sucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Unbesiegt im Ring, unentbehrlich für sein Umfeld</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Floyd Mayweather Jr. bleibt einer von wenigen Boxern der Neuzeit, die eine gesamte Karriere ungeschlagen beendeten – eine sportliche Leistung, die er untrennbar mit einer selbst erschaffenen sozialen Ökonomie aus Geben und Gebundenwerden verband. Kaum ein anderer Spitzensportler hat den eigenen Erfolg so konsequent zum gemeinsamen Projekt eines großen, finanziell abhängigen Umfelds gemacht.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-usain-bolt">Usain Bolt</a> (SO2w3) – auch bei ihm verbindet sich außergewöhnliche sportliche Dominanz mit einer bewusst gepflegten, warmen Öffentlichkeitswirkung. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-usain-bolt">Porträt zu Usain Bolt</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so2", label:"Lebensmusterkompass: SO2 – Golden Retriever"},
+        {route:"beruehmte-usain-bolt", label:"Porträt: Usain Bolt (SO2w3)"},
+        {route:"beruehmte-usher", label:"Porträt: Usher (SO2w3)"},
+        {route:"beruehmte-lewis-howes", label:"Porträt: Lewis Howes (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
