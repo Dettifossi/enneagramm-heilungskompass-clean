@@ -2228,3 +2228,70 @@ export function volkerGerhardtPortraitPage() {
     </div>
   `);
 }
+
+export function sigourneyWeaverPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sigourney-weaver-portrait.jpg" alt="Sigourney Weaver – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sigourney Weaver</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1949 in New York City &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber, der Ripley baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben: wach, aufgerissene Augen, ständig in Bewegung – aber kein Tier, das treibt, sondern eines, das baut. Sigourney Weaver, geboren 1949 in New York als Tochter des NBC-Präsidenten Pat Weaver und der Schauspielerin Elizabeth Inglis, wuchs mit einer klaren Lektion ihres Vaters auf: Er nannte das Showgeschäft selbst „the racket" – kein Ort für Illusionen, sondern ein Feld, in dem man ernsthaft arbeitet, wenn man etwas Bleibendes schaffen will.</p>
+          <p class="vb-intro">Nach Stanford und einem Regie-Abschluss an der Yale School of Drama begann sie mit Nebenrollen, bis sie 1979 als Warrant Officer Ellen Ripley in Ridley Scotts „Alien" eine Figur erschuf, die es im Genre vorher nicht gab: eine Frau, die nicht gerettet wird, sondern selbst überlebt – gebaut mit derselben nüchternen Sorgfalt, mit der ein Biber einen Damm errichtet, nicht mit spontanem Heldenmut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Vielfalt als Verpflichtung, nicht als Vergnügen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> ist im Enneagramm ein Kontratyp: Während die selbsterhaltende und die sexuelle Sieben ihre Maßlosigkeit relativ offen ausleben, wendet die soziale Sieben dieselbe Energie nach innen um – Naranjo nannte sie die „Non-Gluttony", die Nicht-Völlerei. Nicht Genuss um seiner selbst willen treibt sie an, sondern das Gefühl, der Gruppe, dem Werk oder der Sache etwas schuldig zu sein – Idealismus, der sich in Pflichterfüllung übersetzt, oft bis zur Selbstaufopferung.</p>
+          <p class="vb-intro">Bei Weaver zeigt sich das in einer Karriere, die über fünfzig Jahre bewusst zwischen Extremen pendelt, statt sich in einem Genre zu wiederholen: Body-Horror in „Alien", Primatenforschung in „Gorillas im Nebel" (mit körperlicher Annäherung an echte Berggorillas monatelang vor Ort), scharfe Komödie in „Ghostbusters" und „Galaxy Quest", Bühnenarbeit am Broadway parallel zu Hollywood-Blockbustern. Keine Verlegenheitsentscheidung, sondern das gezielte Bespielen möglichst vieler Facetten des eigenen Handwerks – eine stimmliche und körperliche Bandbreite, die sie ebenso glaubwürdig eine außerirdische Bedrohung anschreien wie eine satirische Randfigur komödiantisch timen lässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Wachsamkeit, Loyalität, die lange Linie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt in die begeisterte SO7-Energie ein Element von Wachsamkeit und Bindungstreue – weniger das ungebundene Ausprobieren der Achterflügel-Sieben, mehr das beharrliche Festhalten an einmal eingegangenen Verpflichtungen. Weaver kehrte über vier „Alien"-Filme und mehr als achtzehn Jahre hinweg immer wieder zu derselben Figur zurück, statt nach dem ersten Erfolg zu neuen Franchises zu wechseln – dieselbe Loyalität, mit der sie seit den 1980er-Jahren, ausgelöst durch ihre Rolle als Dian Fossey, als Ehrenvorsitzende des Dian Fossey Gorilla Fund aktiv blieb, lange nachdem der Film selbst vergessen war.</p>
+          <p class="vb-intro">Diese Wachsamkeit richtet sich auch nach außen: Sie sprach vor den Vereinten Nationen zu Meeresschutz und Klimawandel – nicht als gelegentliche Prominenten-Geste, sondern als wiederkehrendes, über Jahrzehnte gepflegtes Engagement. Der Biber, der einmal gebaut hat, gibt seinen Damm nicht auf, nur weil die Flut vorübergehend zurückgeht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Maßlosigkeit als Pflichterfüllung statt Genuss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Sieben heißt <strong>Maßlosigkeit (Gluttony)</strong> – bei der sozialen Sieben äußert sie sich als Sammeln von Erfahrungen und Verantwortungen, die dem größeren Ganzen dienen sollen, nicht dem eigenen Vergnügen. Weaver erklärte rückblickend, ihr Vater habe ihr vermittelt, dass er seine Arbeit liebte, obwohl sie politisch hart war – eine Haltung, die sie selbst übernahm: nicht das Schauspiel als bequeme Karriere, sondern als Handwerk, das ernsthafte, oft unbequeme Rollen verlangt.</p>
+          <p class="vb-intro">Genau darin liegt die soziale Umkehrung der Siebener-Maßlosigkeit: Statt sich Leichtigkeit zu gönnen, verpflichtet sich die SO7 zu immer neuen, oft anstrengenden Aufgaben – von monatelangen Dreharbeiten in schwierigem Terrain für „Gorillas im Nebel" bis zu wiederkehrenden UN-Auftritten neben der eigentlichen Schauspielkarriere. Die Fülle wird nicht konsumiert, sondern geschultert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Kehrseite: Wenn die eigene Höhe zur Last wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Weaver ist mit 1,82 Metern eine der größten Hauptdarstellerinnen Hollywoods – eine Eigenschaft, über die sie in Interviews wiederholt selbstironisch sprach, weil sie ihr früh Rollen kostete oder besondere Anpassungen der Regie erforderte. Statt diese Andersartigkeit zu verstecken, machte sie sie zum Markenzeichen ihrer physisch präsenten, körperlich unerschrockenen Figuren – von Ripley bis zur imposanten Miss Lynn in „Working Girl".</p>
+          <p class="vb-intro">Die Schattenseite der sozialen Sieben liegt genau hier: Die ständige Bereitschaft, für die Gruppe, das Projekt oder die Sache mehr zu leisten, kann in Erschöpfung münden, wenn der innere Anspruch nie ein natürliches Ende findet. Dass Weaver bis ins hohe Alter körperlich fordernde Rollen wie die vierzehnjährige Kiri in „Avatar: The Way of Water" übernahm – über Motion-Capture-Technik, die ein völlig neues, physisch anstrengendes Handwerk verlangte – zeigt, wie wenig diese Sieben sich selbst eine Pause gönnt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Die Handwerkerin unter den Instinktüberlebenden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sigourney Weaver prägte mit Ellen Ripley eine Frauenfigur, die weder auf Verletzlichkeit noch auf reine Härte reduziert war – eine Handlungsträgerin, die aus nüchterner Kompetenz heraus überlebt, nicht aus Zufall oder Rettung durch andere. Diese Neudefinition wirkte weit über das Science-Fiction-Genre hinaus und öffnete Rollen für körperlich präsente, gleichzeitig komplexe weibliche Hauptfiguren, die es vorher kaum gab.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-billy-bob-thornton">Billy Bob Thornton</a> (SO7w6) – auch bei ihm zeigt sich dieselbe pflichtbewusste Genre-Vielfalt zwischen Drama und Komödie, getragen von derselben sozialen Sieben-Energie. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-billy-bob-thornton">Porträt zu Billy Bob Thornton</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-billy-bob-thornton", label:"Porträt: Billy Bob Thornton (SO7w6)"},
+        {route:"beruehmte-ali-wong", label:"Porträt: Ali Wong (SO7w6)"},
+        {route:"beruehmte-carolin-kebekus", label:"Porträt: Carolin Kebekus (SO7w6)"},
+      ])}
+    </div>
+  `);
+}

@@ -2228,3 +2228,70 @@ export function volkerGerhardtPortraitPage() {
     </div>
   `);
 }
+
+export function sigourneyWeaverPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sigourney-weaver-portrait.jpg" alt="Sigourney Weaver – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sigourney Weaver</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Actress, b. 1949 in New York City &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver Who Built Ripley</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> is the animal of the social Seven: alert, wide-eyed, constantly in motion — but not an animal that drifts, one that builds. Sigourney Weaver, born in 1949 in New York as the daughter of NBC president Pat Weaver and actress Elizabeth Inglis, grew up with a clear lesson from her father: he called show business itself "the racket" — no place for illusions, but a field where you work seriously if you want to create something lasting.</p>
+          <p class="vb-intro">After Stanford and a directing degree from the Yale School of Drama, she started with supporting roles until, in 1979, she created Warrant Officer Ellen Ripley in Ridley Scott's "Alien" — a figure the genre hadn't had before: a woman who isn't rescued but survives on her own, built with the same sober care with which a beaver constructs a dam, not through spontaneous heroism.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Variety as Obligation, Not as Pleasure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Seven (SO7)</strong> is a countertype in the Enneagram: while the self-preservation and sexual Sevens live out their gluttony fairly openly, the social Seven turns that same energy inward — Naranjo called it "Non-Gluttony." Not pleasure for its own sake drives it, but the feeling of owing something to the group, the work, or the cause — idealism translated into duty, often to the point of self-sacrifice.</p>
+          <p class="vb-intro">In Weaver this shows in a career that has deliberately swung between extremes for over fifty years instead of repeating itself in one genre: body horror in "Alien," primate research in "Gorillas in the Mist" (with months of real physical proximity to mountain gorillas on location), sharp comedy in "Ghostbusters" and "Galaxy Quest," stage work on Broadway running parallel to Hollywood blockbusters. Not an indecisive drift, but a deliberate cultivation of as many facets of her craft as possible — a vocal and physical range that lets her scream at an alien threat as convincingly as she times a satirical supporting role for comedic effect.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Vigilance, Loyalty, the Long Line</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> brings an element of vigilance and loyalty to commitments into the enthusiastic SO7 energy — less the unbound exploring of the Eight-wing Seven, more the persistent adherence to obligations once entered into. Weaver returned to the same character across four "Alien" films and more than eighteen years, rather than moving on to new franchises after the first success — the same loyalty with which, since the 1980s, sparked by her role as Dian Fossey, she has remained active as honorary chair of the Dian Fossey Gorilla Fund, long after the film itself was forgotten.</p>
+          <p class="vb-intro">This vigilance also points outward: she has spoken before the United Nations on ocean conservation and climate change — not as an occasional celebrity gesture, but as recurring engagement maintained over decades. The beaver, once it has built, doesn't abandon its dam just because the flood temporarily recedes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Excess as Duty Rather Than Pleasure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven's passion is called <strong>Gluttony</strong> — in the social Seven it shows up as the collecting of experiences and responsibilities meant to serve the greater whole, not one's own enjoyment. Weaver has recalled that her father conveyed to her that he loved his work even though it was politically hard — an attitude she took on herself: not acting as a comfortable career, but as a craft that demands serious, often uncomfortable roles.</p>
+          <p class="vb-intro">That's exactly the social reversal of the Seven's gluttony: instead of granting herself ease, the SO7 commits to ever new, often strenuous tasks — from months of filming in difficult terrain for "Gorillas in the Mist" to recurring UN appearances alongside her actual acting career. Abundance isn't consumed, it's shouldered.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Flip Side: When Your Own Height Becomes a Burden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At 5'11" (1.82m), Weaver is one of Hollywood's tallest leading actresses — a trait she has repeatedly discussed self-deprecatingly in interviews, because it cost her roles early on or required special directorial adjustments. Instead of hiding this difference, she made it the hallmark of her physically present, physically fearless characters — from Ripley to the imposing Miss Lynn in "Working Girl."</p>
+          <p class="vb-intro">The shadow side of the social Seven lies exactly here: the constant readiness to do more for the group, the project, or the cause can lead into exhaustion when the inner standard never finds a natural stopping point. That Weaver took on physically demanding roles well into old age — like the fourteen-year-old Kiri in "Avatar: The Way of Water," via motion-capture technology that demanded an entirely new, physically strenuous craft — shows how little this Seven grants herself a break.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Craftswoman Among the Self-Reliant Survivors</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With Ellen Ripley, Sigourney Weaver shaped a female character reduced to neither vulnerability nor pure toughness — a protagonist who survives out of sober competence, not by chance or rescue by others. This redefinition reached far beyond the science-fiction genre and opened roles for physically present, simultaneously complex female leads that had scarcely existed before.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-billy-bob-thornton">Billy Bob Thornton</a> (SO7w6) — he too shows the same dutiful genre range between drama and comedy, carried by the same social Seven energy. More in the <a href="javascript:void(0)" data-route="beruehmte-billy-bob-thornton">portrait of Billy Bob Thornton</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-billy-bob-thornton", label:"Portrait: Billy Bob Thornton (SO7w6)"},
+        {route:"beruehmte-ali-wong", label:"Portrait: Ali Wong (SO7w6)"},
+        {route:"beruehmte-carolin-kebekus", label:"Portrait: Carolin Kebekus (SO7w6)"},
+      ])}
+    </div>
+  `);
+}
