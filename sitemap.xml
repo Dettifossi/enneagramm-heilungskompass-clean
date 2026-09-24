@@ -2875,6 +2875,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kompass.verlagshausrathmer.com/krankheitsportraets-gunther-von-hagens/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kompass.verlagshausrathmer.com/krankheitsportraets-hannah-arendt/</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
@@ -14390,6 +14396,12 @@
   </url>
   <url>
     <loc>https://kompass.verlagshausrathmer.com/en/krankheitsportraets-david-hockney/</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kompass.verlagshausrathmer.com/en/krankheitsportraets-gunther-von-hagens/</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
