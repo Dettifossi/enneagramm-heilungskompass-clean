@@ -2251,7 +2251,7 @@ export function evanBatesPortraitPage() {
 
         <h2 class="vb-section">1. Die Haustaube, die viermal zu den Olympischen Spielen zurückkehrte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Haustaube</strong> ist das Tier der selbsterhaltenden Vier: sehnsuchtsvoll, treu, mit einem unerschrockenen Kern unter der zarten Oberfläche. Evan Bates wurde 1989 in Ann Arbor, Michigan, geboren und begann bereits mit vier Jahren zu eislaufen. Elf Jahre lang bildete er mit Emily Samuelson ein Paar, nahm mit ihr 2010 an den Olympischen Spielen in Vancouver teil – bis eine schwere Achillessehnenverletzung eine gesamte Saison kostete und die Partnerschaft 2011 endete.</p>
+          <p class="vb-intro">Die <strong>Haustaube</strong> ist das Tier der selbsterhaltenden Vier: sehnsuchtsvoll, treu, mit einem unerschrockenen Kern unter der zarten Oberfläche. Evan Bates wurde 1989 in Ann Arbor, Michigan, geboren und begann bereits mit vier Jahren, Eis zu laufen. Elf Jahre lang bildete er mit Emily Samuelson ein Paar, nahm mit ihr 2010 an den Olympischen Spielen in Vancouver teil – bis eine schwere Achillessehnenverletzung eine gesamte Saison kostete und die Partnerschaft 2011 endete.</p>
           <p class="vb-intro">Statt sich aus dem Spitzensport zurückzuziehen, fand Bates noch im selben Jahr eine neue Partnerin: Madison Chock. Mit ihr wurde er als erster US-Eiskunstläufer überhaupt Teilnehmer von vier Winterspielen in Folge – von Vancouver 2010 bis Mailand-Cortina 2026, wo das Paar als erstes Team der Geschichte zwei Mannschafts-Goldmedaillen in Folge gewann.</p>
         </blockquote>
 
