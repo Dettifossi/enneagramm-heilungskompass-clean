@@ -2284,3 +2284,70 @@ export function henningBaumPortraitPage() {
     </div>
   `);
 }
+
+export function evanBatesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-evan-bates-portrait.jpg" alt="Evan Bates – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Evan Bates</p>
+        <p class="krim-portrait-typ">SP4w3 &middot; Self-Preservation Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Ice dancer, b. 1989 in Ann Arbor, Michigan &ndash; Animal correspondence: Domestic Pigeon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Pigeon Who Returned to the Olympics Four Times</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>domestic pigeon</strong> is the animal of the self-preservation Four: yearning, loyal, with an unshakeable core beneath a delicate surface. Evan Bates was born in 1989 in Ann Arbor, Michigan, and began skating at age four. For eleven years he formed a pair with Emily Samuelson, competing with her at the 2010 Vancouver Olympics — until a severe Achilles tendon injury cost an entire season and the partnership ended in 2011.</p>
+          <p class="vb-intro">Instead of retreating from elite sport, Bates found a new partner that same year: Madison Chock. With her, he became the first U.S. figure skater ever to compete in four consecutive Winter Games — from Vancouver 2010 to Milan-Cortina 2026, where the pair became the first team in history to win two consecutive team gold medals.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: Longing Turned into Endurance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> processes its deep longing not through dramatic public gestures, but through quiet, tenacious persistence in everyday life — Naranjo described this subtype as the one most likely to keep its suffering "under control" and keep working rather than surrender to it. Bates embodies this in a career unbroken across two decades and two completely different partnerships — even a career-threatening injury and the loss of an eleven-year sporting relationship led not to withdrawal, but to a fresh start in the very same year.</p>
+          <p class="vb-intro">In 2024, Bates married his longtime ice dance partner Madison Chock — a bond that had grown out of a purely athletic partnership over 15 shared competitive seasons. The SP4's longing for genuine, deep connection found its concrete, everyday-viable form here — not as an unattainable ideal, but as a relationship actually lived and grown over years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Craft Substance: Edgework and Musical Precision</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes Bates and Chock professionally is a combination rarely achieved in ice dance: technical precision paired with emotional directness. Commentators describe their edgework as seamless, their twizzles and lifts routinely earn the highest difficulty rating (Level 4), and their programs — such as a flamenco- and paso doble-inspired free dance to "Paint It Black" from "Westworld" — combine choreographic drama with exact synchronization.</p>
+          <p class="vb-intro">This fusion of feeling and control is no contradiction but the concrete translation of the SP4 passion into craft: longing and melancholy aren't simply lived out, but poured over years of disciplined training into a reproducible, competition-ready form — seven U.S. national titles and multiple world titles are the result of this fusion, not talent alone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Three-Wing: The Image as a Stage for One's Own Depth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> translates the introspective SP4 longing into a publicity-driven, competition-oriented form. Ice dance is a sport under constant judgment and comparison — Bates' decades-long willingness to face this ongoing public evaluation shows the Three component: his own emotional depth isn't hidden, but deliberately shaped into a form that convinces judges and audience alike.</p>
+          <p class="vb-intro">Unlike a pure SP4, Bates actively seeks the stage rather than merely enduring it — yet unlike a Three core type, the depth of his performance never remains mere surface: critics single out the "emotional connection" of his programs as a defining trait, not just technical perfection.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Four with Three-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4w3 shows in a rare ability to build, out of personal loss — a shattered partnership, a serious injury — not withdrawal, but a new, sustainable form that ultimately surpasses the original goal.</p>
+          <p class="vb-intro">The Four's passion is <strong>envy</strong> — in the SP4w3 it shows up most often as a persistent comparison against one's own never-quite-reached personal best. At the 2026 Winter Olympics, Chock and Bates won silver in the individual event — described by trade media as "bittersweet," since the team had been favored for gold for years. How the SP4w3 typically handles a narrowly missed peak performance shows exactly in such moments: not in loud public regret, but in quiet, immediate focus on the next task — the team event, which they won the very next day.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Persistence as Its Own Art Form</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Evan Bates remains one of the few winter athletes whose career spans four Olympic cycles and two fundamentally different partnerships without losing intensity — evidence that deep, often painful experience and sustained athletic excellence need not exclude each other, but can carry one another.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-sebastian-urzendowsky">Sebastian Urzendowsky</a> (SP4w3) — he too combines artistic depth with a deliberately cultivated public stage presence. More in the <a href="javascript:void(0)" data-route="beruehmte-sebastian-urzendowsky">portrait of Sebastian Urzendowsky</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se4", label:"SP4 – The Domestic Pigeon: subtype profile"},
+        {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SP4 – Domestic Pigeon"},
+        {route:"beruehmte-sebastian-urzendowsky", label:"Portrait: Sebastian Urzendowsky (SP4w3)"},
+        {route:"beruehmte-nicolas-cage", label:"Portrait: Nicolas Cage (SP4w3)"},
+        {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
+      ])}
+    </div>
+  `);
+}

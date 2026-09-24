@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2393", date: "2026-09-24", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Evan Bates (SE4w3) – Eistänzer, vier Olympiateilnahmen mit Madison Chock.", text_en: "New portrait under \"Famous Personalities\": Evan Bates (SP4w3) – ice dancer, four Olympic Games with Madison Chock.", route: "beruehmte-evan-bates" },
     { version: "v2392", date: "2026-09-24", text: "Neues Krankheitsporträt: Gunther von Hagens (SX1w9) – Parkinson-Erkrankung, fast zwei Jahrzehnte, Tod durch Hirnblutung.", text_en: "New illness portrait: Gunther von Hagens (SX1w9) – Parkinson's disease, nearly two decades, death by cerebral hemorrhage.", route: "krankheitsportraets-gunther-von-hagens" },
     { version: "v2391", date: "2026-09-24", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Floyd Mayweather Jr. (SO2w3) – Boxer, ungeschlagen 50-0, ›Money Mayweather‹.", text_en: "New portrait under \"Famous Personalities\": Floyd Mayweather Jr. (SO2w3) – boxer, undefeated 50-0, \"Money Mayweather.\"", route: "beruehmte-floyd-mayweather" },
     { version: "v2390", date: "2026-09-24", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Sigourney Weaver (SO7w6) – Schauspielerin, Ellen Ripley in ›Alien‹.", text_en: "New portrait under \"Famous Personalities\": Sigourney Weaver (SO7w6) – actress, Ellen Ripley in \"Alien.\"", route: "beruehmte-sigourney-weaver" },

@@ -2233,3 +2233,70 @@ export function michelFoucaultPortraitPage() {
     </div>
   `);
 }
+
+export function evanBatesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-evan-bates-portrait.jpg" alt="Evan Bates – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Evan Bates</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Eistänzer, geb. 1989 in Ann Arbor, Michigan &ndash; Tierentsprechung: Haustaube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Haustaube, die viermal zu den Olympischen Spielen zurückkehrte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Haustaube</strong> ist das Tier der selbsterhaltenden Vier: sehnsuchtsvoll, treu, mit einem unerschrockenen Kern unter der zarten Oberfläche. Evan Bates wurde 1989 in Ann Arbor, Michigan, geboren und begann bereits mit vier Jahren zu eislaufen. Elf Jahre lang bildete er mit Emily Samuelson ein Paar, nahm mit ihr 2010 an den Olympischen Spielen in Vancouver teil – bis eine schwere Achillessehnenverletzung eine gesamte Saison kostete und die Partnerschaft 2011 endete.</p>
+          <p class="vb-intro">Statt sich aus dem Spitzensport zurückzuziehen, fand Bates noch im selben Jahr eine neue Partnerin: Madison Chock. Mit ihr wurde er als erster US-Eiskunstläufer überhaupt Teilnehmer von vier Winterspielen in Folge – von Vancouver 2010 bis Mailand-Cortina 2026, wo das Paar als erstes Team der Geschichte zwei Mannschafts-Goldmedaillen in Folge gewann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Sehnsucht, die zur Ausdauer wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> verarbeitet ihre tiefe Sehnsucht nicht durch dramatische öffentliche Gesten, sondern durch stille, zähe Beharrlichkeit im Alltag – Naranjo beschrieb diesen Subtyp als denjenigen, der das eigene Leid am ehesten „unter Kontrolle" hält und weiterarbeitet, statt sich ihm auszuliefern. Bates verkörpert das in einer Karriere, die über zwei Jahrzehnte und zwei völlig unterschiedliche Partnerschaften hinweg nie unterbrochen wurde – selbst eine karrierebedrohende Verletzung und der Verlust einer elfjährigen sportlichen Beziehung führten nicht zum Rückzug, sondern zu einem neuen Anfang im selben Jahr.</p>
+          <p class="vb-intro">2024 heiratete Bates seine langjährige Eistanzpartnerin Madison Chock – eine Verbindung, die nach 15 gemeinsamen Wettkampfsaisons aus rein sportlicher Partnerschaft gewachsen war. Die SE4-Sehnsucht nach echter, tiefer Verbindung fand hier ihre konkrete, alltagstaugliche Form: nicht als unerreichbares Ideal, sondern als über Jahre gewachsene, tatsächlich gelebte Beziehung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Handwerkliche Substanz: Kantenführung und musikalische Präzision</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Bates und Chock fachlich auszeichnet, ist eine im Eistanz selten erreichte Kombination aus technischer Präzision und emotionaler Direktheit: Fachkommentatoren beschreiben ihre Kantenführung als nahtlos, ihre Twizzles und Hebefiguren erreichen regelmäßig die höchste Schwierigkeitsstufe (Level 4), und ihre Programme – etwa ein von Flamenco und Paso Doble inspirierter Kür zu ›Paint It Black‹ aus ›Westworld‹ – verbinden choreografische Dramatik mit exakter Synchronität.</p>
+          <p class="vb-intro">Diese Verbindung aus Gefühl und Kontrolle ist kein Widerspruch, sondern die konkrete Übersetzung der SE4-Leidenschaft in Handwerk: Sehnsucht und Melancholie werden nicht ausgelebt, sondern über Jahre disziplinierten Trainings in eine reproduzierbare, wettkampftaugliche Form gegossen – sieben nationale US-Meistertitel und mehrere Weltmeistertitel sind das Ergebnis dieser Verbindung, nicht bloßen Talents allein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Dreierflügel: Das Bild als Bühne für die eigene Tiefe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> übersetzt die introspektive SE4-Sehnsucht in eine öffentlichkeitswirksame, wettkampforientierte Form. Eistanz ist eine Sportart, die permanent bewertet und verglichen wird – Bates’ jahrzehntelange Bereitschaft, sich dieser ständigen öffentlichen Bewertung zu stellen, zeigt die Dreier-Komponente: Die eigene emotionale Tiefe wird nicht verborgen, sondern gezielt in eine Form gebracht, die Preisrichter und Publikum gleichermaßen überzeugt.</p>
+          <p class="vb-intro">Anders als eine reine SE4 sucht Bates die Bühne aktiv, statt sich ihr nur widerwillig zu stellen – doch anders als ein Dreier-Kerntyp bleibt die Tiefe der Darstellung nie bloße Oberfläche: Kritiker heben gerade die ›emotionale Verbindung‹ seiner Programme als Alleinstellungsmerkmal hervor, nicht nur die technische Perfektion.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Vier mit Dreierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w3 zeigt sich in einer seltenen Fähigkeit, aus persönlichem Verlust – einer zerstörten Partnerschaft, einer schweren Verletzung – nicht Rückzug, sondern eine neue, tragfähige Form zu bauen, die am Ende sogar über das ursprüngliche Ziel hinausgeht.</p>
+          <p class="vb-intro">Die Leidenschaft der Vier ist <strong>Neid</strong> – bei der SE4w3 äußert er sich am ehesten als beständiger Vergleich mit der eigenen, nie ganz erreichten Bestleistung. Bei den Olympischen Winterspielen 2026 gewannen Chock und Bates die Silbermedaille im Einzelwettbewerb – von Fachmedien als „bittersüß" beschrieben, weil das Team über Jahre als Favorit für Gold gegolten hatte. Wie die SE4w3 typischerweise mit knapp verfehlten Höchstleistungen umgeht, zeigt sich gerade in solchen Momenten: nicht im lauten öffentlichen Bedauern, sondern in der stillen, sofortigen Konzentration auf die nächste Aufgabe – die Teamwertung, die sie tags darauf gewannen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Beharrlichkeit als eigene Kunstform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Evan Bates bleibt einer der wenigen Wintersportler, deren Karriere sich über vier Olympiazyklen und zwei grundverschiedene Partnerschaften spannt, ohne an Intensität zu verlieren – ein Beleg dafür, dass tiefe, oft schmerzhafte Erfahrung und beständige sportliche Höchstleistung sich nicht ausschließen müssen, sondern einander tragen können.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-sebastian-urzendowsky">Sebastian Urzendowsky</a> (SE4w3) – auch bei ihm verbindet sich künstlerische Tiefe mit einer bewusst gepflegten öffentlichen Bühnenpräsenz. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-sebastian-urzendowsky">Porträt zu Sebastian Urzendowsky</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Haustaube: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Haustaube"},
+        {route:"beruehmte-sebastian-urzendowsky", label:"Porträt: Sebastian Urzendowsky (SE4w3)"},
+        {route:"beruehmte-nicolas-cage", label:"Porträt: Nicolas Cage (SE4w3)"},
+        {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
