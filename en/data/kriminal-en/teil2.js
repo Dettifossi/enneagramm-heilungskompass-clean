@@ -1289,6 +1289,7 @@ export function johnWayneGacyPortraitPage() {
         {route:"kriminalpsychologie-harvey-weinstein", label:"Criminal Psychology: Harvey Weinstein"},
         {route:"kriminalpsychologie-anna-delvey", label:"Criminal Psychology: Anna Delvey"},
         {route:"kriminalpsychologie-buster-murdaugh", label:"Criminal Psychology: Buster Murdaugh"},
+        {route:"kriminalpsychologie-juana-barraza", label:"Criminal Psychology: Juana Barraza (SP2w3) – same subtype, costume identity as cover"},
       ])}
     </div>
   `);
@@ -2568,6 +2569,156 @@ export function susanWrightPortraitPage() {
         {route:"kriminalpsychologie-diane-downs", label:"Criminal Psychology: Diane Downs (SX3w4) – also a Sexual Three, different wing"},
         {route:"kriminalpsychologie-luka-magnotta", label:"Criminal Psychology: Luka Magnotta (SX3w4)"},
         {route:"kriminalpsychologie-richard-ramirez", label:"Criminal Psychology: Richard Ramírez (SX3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+export function juanaBarrazaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Juana Barraza – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-juana-barraza-portrait.jpg" alt="Juana Barraza – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Juana Barraza</p>
+        <p class="krim-portrait-typ">SP2w3 · Self-Preservation Type 2 with Three-wing</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">"La Mataviejitas" ("the little-old-lady killer"), b. 1957 · Animal correspondence: Hippopotamus</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Juana Barraza</strong>, known in Mexico as "La Mataviejitas" ("the little-old-lady
+        killer," literally "the one who kills the little old ladies"), was a Mexican professional
+        wrestler who murdered at least 16 elderly women in Mexico City between 1998 and 2006 —
+        investigators suspect the true total may run as high as 40 to 48 victims. She posed as a
+        municipal nurse or social worker to gain access to the homes of elderly women living
+        alone, then strangled them, often with the stethoscope that was part of her disguise. In
+        2008 she was sentenced to the equivalent of 759 years in prison.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type Assignment:</strong>
+        <strong>Juana Barraza</strong> is assigned to the <strong>Self-Preservation Type 2 with
+        Three-wing</strong> in the Enneagram. The Two's passion is <em>Pride</em> — the need to
+        secure a special place for oneself through indispensability to others. The
+        self-preservation Two seeks this place in the concrete, practical helping of a close
+        circle; the Three-wing adds a deliberately constructed, image-driven role performance —
+        in Barraza's case, the carefully assembled nurse and social-worker disguise she used to
+        obtain access and trust.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Quality of Gaze</h3>
+        <p class="vb-intro"><strong>a) Robust and inconspicuous at once:</strong>
+        Barraza's muscular build from her wrestling career led investigators for years to assume
+        the perpetrator was a man, or a man disguised as a woman — a misjudgment that triggered a
+        targeted, ultimately fruitless raid on transvestite sex workers in Mexico City and delayed
+        her capture by years.</p>
+        <p class="vb-intro"><strong>b) Trust-inspiring at the decisive moment:</strong>
+        Despite her physical robustness, she repeatedly managed to present herself as a caring,
+        official authority figure — a bearing and gaze that raised no suspicion among some of the
+        most cautious, vulnerable people in society: elderly women living alone.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro">Barraza was born in 1957 in Epazoyucan, Hidalgo. Her father was a
+        police officer, her mother a sex worker; her mother left the relationship shortly after
+        Barraza's birth, and the bond between mother and daughter remained cold and loveless for
+        life. At twelve, her mother sold her for the equivalent of three beers to a man who abused
+        her for four years; two resulting pregnancies ended in miscarriage. As an adult, Barraza
+        became a professional wrestler under the ring name "La Dama del Silencio" ("the Lady of
+        Silence").</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Characteristics</h3>
+        <p class="vb-intro"><strong>a) The props of a perfect care performance:</strong>
+        Barraza started out with simple white clothing, but later acquired an actual nurse's
+        uniform along with forged social-worker ID cards and pension forms. At her arrest she was
+        carrying all of these props with her — not an improvised pretext, but a carefully
+        maintained, materially equipped second identity.</p>
+        <p class="vb-intro"><strong>b) Systematic victim selection via official lists:</strong>
+        She obtained access to lists of women enrolled in government assistance programs and used
+        them to specifically identify elderly women living alone — not random victims, but a
+        methodically built system for selecting particularly defenseless people.</p>
+        <p class="vb-intro"><strong>c) Small trophies as the closing act of every crime:</strong>
+        After each murder she took small valuables, often religious objects and silverware — not
+        mere theft born of financial need, but a recurring, symbolic element of her method.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impression</h3>
+        <p class="vb-intro">Outwardly: a robust, resolute woman whose appearance as a nurse or
+        social worker embodied exactly the kind of state care that elderly, vulnerable people
+        depend on. Behind it: a killing spree sustained for eight years, ended only by a chance
+        arrest — Barraza was caught leaving a victim's home still carrying the stethoscope,
+        pension forms, and a social-worker ID card.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro">The energy of the SP2w3 shows in Barraza as a sustained
+        self-presentation that goes far beyond what was strictly necessary: simple white clothing
+        would have sufficed, yet she deliberately invested in a complete, convincing set of props.
+        This same care in constructing her own role — the same care with which she had earlier
+        performed as a masked wrestler — is the signature of the Three-wing: identity as a
+        deliberately built and maintained image.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Analogy</h3>
+        <p class="vb-intro">From a distance, the hippopotamus seems sluggish and harmless — until
+        it perceives its territory as threatened, at which point it unleashes a force no one
+        thought possible. Barraza presented herself as a warm, caring helper, while in reality she
+        systematically targeted exactly the population group least able to defend itself.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin:0;">Juana Barraza shows the self-preservation Two with
+        Three-wing in its darkest form: care isn't lived, but fully constructed as a costume —
+        complete with a genuine uniform, forged papers, and a systematically assembled list of
+        victims. The same care with which another person would live out genuine care for others
+        is here entirely placed in service of her own rage, directed at her mother.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Deeper Insights</h3>
+        <p class="vb-intro"><strong>a) Her own mother as the real target:</strong>
+        Barraza told investigators she killed one victim out of resentment for how her own mother
+        had treated her. Her victims — consistently elderly women of her mother's generation — can
+        be read as a repeated, substitute confrontation with the very person who had sold her for
+        three beers as a child.</p>
+        <p class="vb-intro"><strong>b) A distorted belief that she was serving society:</strong>
+        By her own account, Barraza at times believed she was helping society through her acts — a
+        disturbing distortion of exactly the care-logic the self-preservation Two normally puts to
+        constructive use: instead of actually helping, she justified destruction as a form of
+        service.</p>
+        <p class="vb-intro"><strong>c) A comparison with John Wayne Gacy:</strong>
+        A striking parallel exists to <a href="javascript:void(0)" data-route="kriminalpsychologie-john-wayne-gacy">John Wayne
+        Gacy</a> (SP2w3) — the same core subtype and wing. In his case too, a carefully maintained,
+        publicly respected costume and role identity served as both the means of access and the
+        cover for violence. Both cases show how the Two's Three-wing can build a complete,
+        materially equipped second identity that withstands even intense scrutiny.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The self-preservation Two compared: how Pride expresses itself differently across SP2, SO2, and SX2.", "The Hidden Dynamics of the 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SP2, SO2, SX2 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 2 portrayed in depth – pride, care, and the healing path through genuine humility.", "Who You Really Are – Volume 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type attribution is a psychological hypothesis, not a historical judgment. Juana Barraza was sentenced in 2008 to the equivalent of 759 years in prison for sixteen counts of murder. The Enneagram explains, it does not justify.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-john-wayne-gacy", label:"Criminal Psychology: John Wayne Gacy (SP2w3) – costume identity as cover"},
+        {route:"kriminalpsychologie-jeanne-weber", label:"Criminal Psychology: Jeanne Weber (SE2w1) – care as cover, different wing"},
+        {route:"kriminalpsychologie-peter-sutcliffe", label:"Criminal Psychology: Peter Sutcliffe (SE2w1)"},
       ])}
     </div>
   `);

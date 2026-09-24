@@ -2512,6 +2512,7 @@ export function johnWayneGacyPortraitPage() {
         {route:"kriminalpsychologie-harvey-weinstein", label:"Kriminalpsychologie: Harvey Weinstein"},
         {route:"kriminalpsychologie-anna-delvey", label:"Kriminalpsychologie: Anna Delvey"},
         {route:"kriminalpsychologie-buster-murdaugh", label:"Kriminalpsychologie: Buster Murdaugh"},
+        {route:"kriminalpsychologie-juana-barraza", label:"Kriminalpsychologie: Juana Barraza (SE2w3) – gleicher Subtyp, Kostüm-Identität als Tarnung"},
       ])}
     </div>
   `);
@@ -4521,6 +4522,163 @@ export function gescheGottfriedPortraitPage() {
         {route:"kriminalpsychologie-heinrich-pommerenke", label:"Kriminalpsychologie: Heinrich Pommerenke (SO1w9)"},
         {route:"kriminalpsychologie-dorothea-puente", label:"Kriminalpsychologie: Dorothea Puente (SE1w9) – ebenfalls Fürsorge als Tarnung"},
         {route:"kriminalpsychologie-jeanne-weber", label:"Kriminalpsychologie: Jeanne Weber (SE2w1) – ebenfalls Fürsorgerolle als Werkzeug"},
+      ])}
+    </div>
+  `);
+}
+
+export function juanaBarrazaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Juana Barraza – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-juana-barraza-portrait.jpg" alt="Juana Barraza – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Juana Barraza</p>
+        <p class="krim-portrait-typ">SE2w3 · Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">"La Mataviejitas" (›die Altweibermörderin‹), geb. 1957 · Tierentsprechung: Flusspferd</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Juana Barraza</strong>, in Mexiko als "La Mataviejitas" (›die Altweibermörderin‹,
+        wörtlich ›die die alten Frauchen tötet‹) bekannt, war eine mexikanische Profi-Wrestlerin,
+        die zwischen 1998 und 2006 mindestens 16 ältere Frauen in Mexiko-Stadt ermordete –
+        Ermittler vermuten insgesamt bis zu 40 bis 48 Opfer. Sie gab sich als städtische
+        Krankenschwester oder Sozialarbeiterin aus, verschaffte sich so Zugang zu den Wohnungen
+        allein lebender älterer Frauen und erwürgte sie anschließend, häufig mit dem Stethoskop,
+        das Teil ihrer Verkleidung war. 2008 wurde sie zu umgerechnet 759 Jahren Haft verurteilt.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Juana Barraza</strong> wird der <strong>Selbsterhaltenden Zwei mit Dreierflügel</strong>
+        im Enneagramm zugeordnet. Die Leidenschaft der Zwei ist <em>Stolz</em> – das Bedürfnis,
+        sich über die eigene Unentbehrlichkeit für andere einen besonderen Platz zu sichern. Die
+        selbsterhaltende Zwei sucht diesen Platz im konkreten, praktischen Helfen eines nahen
+        Umfelds; der Dreierflügel ergänzt dies um eine bewusst konstruierte, bildhafte
+        Rolleninszenierung – bei Barraza die sorgfältig zusammengestellte Krankenschwester- und
+        Sozialarbeiter-Verkleidung, mit der sie sich Zugang und Vertrauen erschlich.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Robust und unauffällig zugleich:</strong>
+        Barrazas kräftige, muskulöse Statur aus ihrer Wrestling-Karriere ließ Ermittler jahrelang
+        annehmen, der gesuchte Täter sei ein Mann oder eine als Frau verkleidete Person – eine
+        Fehleinschätzung, die eine gezielte, erfolglose Razzia gegen Transvestiten-Prostituierte
+        in Mexiko-Stadt auslöste und ihre Ergreifung um Jahre verzögerte.</p>
+        <p class="vb-intro"><strong>b) Vertrauenserweckend im entscheidenden Moment:</strong>
+        Trotz ihrer physischen Robustheit gelang es ihr wiederholt, sich als fürsorgliche,
+        offizielle Autoritätsperson auszugeben – ein Blick und Auftreten, das bei den
+        misstrauischsten, verletzlichsten Menschen einer Gesellschaft, alleinlebenden älteren
+        Frauen, keinen Argwohn weckte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro">Barraza wurde 1957 in Epazoyucan, Hidalgo, geboren. Ihr Vater war
+        Polizist, ihre Mutter Prostituierte; die Mutter verließ die Beziehung kurz nach Barrazas
+        Geburt, die Beziehung zwischen beiden blieb zeitlebens kalt und lieblos. Mit zwölf Jahren
+        verkaufte die Mutter sie für umgerechnet drei Bier an einen Mann, der sie vier Jahre lang
+        missbrauchte; zwei daraus entstandene Schwangerschaften endeten in Fehlgeburten. Als
+        Erwachsene wurde Barraza professionelle Wrestlerin unter dem Ringnamen "La Dama del
+        Silencio" (›die Dame des Schweigens‹).</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die Requisiten einer perfekten Fürsorge-Inszenierung:</strong>
+        Barraza begann mit einfacher weißer Kleidung, beschaffte sich später jedoch eine echte
+        Krankenschwester-Uniform sowie gefälschte Sozialarbeiter-Ausweise und Rentenformulare.
+        Bei ihrer Festnahme führte sie all diese Requisiten mit sich – kein improvisierter
+        Vorwand, sondern eine sorgfältig gepflegte, materiell ausgestattete zweite Identität.</p>
+        <p class="vb-intro"><strong>b) Systematische Opferauswahl über offizielle Listen:</strong>
+        Sie verschaffte sich Zugang zu Listen von Frauen, die staatliche Unterstützungsprogramme
+        bezogen, und identifizierte darüber gezielt ältere, allein lebende Frauen – keine
+        Zufallsopfer, sondern ein methodisch aufgebautes System zur Auswahl besonders
+        schutzloser Menschen.</p>
+        <p class="vb-intro"><strong>c) Kleine Trophäen als Abschluss jeder Tat:</strong>
+        Nach jedem Mord nahm sie kleine Wertgegenstände mit, häufig religiöse Objekte und
+        Silberwaren – kein reiner Diebstahl aus finanzieller Not, sondern ein wiederkehrendes,
+        symbolisches Element ihres Vorgehens.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro">Nach außen: eine kräftige, resolute Frau, deren Auftreten als
+        Krankenschwester oder Sozialarbeiterin genau die staatliche Fürsorge verkörperte, auf die
+        ältere, verletzliche Menschen angewiesen sind. Dahinter: eine über acht Jahre
+        durchgehaltene Mordserie, die erst durch einen Zufallsfund beendet wurde – Barraza wurde
+        gefasst, als sie das Haus eines Opfers verließ und noch das Stethoskop, Rentenformulare
+        und einen Sozialarbeiter-Ausweis bei sich trug.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro">Die Energie der SE2w3 zeigt sich bei Barraza als beständige
+        Selbstinszenierung, die weit über das notwendige Minimum hinausgeht: Sie hätte mit
+        einfacher weißer Kleidung ausgekommen wäre, doch sie investierte gezielt in eine
+        vollständige, glaubwürdige Requisiten-Ausstattung. Diese Sorgfalt bei der eigenen
+        Rolleninszenierung – dieselbe, mit der sie zuvor als maskierte Wrestlerin auftrat – ist
+        die Handschrift des Dreierflügels: Identität als bewusst konstruiertes, gepflegtes Bild.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie</h3>
+        <p class="vb-intro">Das Flusspferd wirkt aus der Ferne träge und harmlos – bis es sein
+        Revier bedroht sieht, dann entfaltet es eine Kraft, die niemand für möglich gehalten
+        hätte. Barraza inszenierte sich als warme, fürsorgliche Helferin, während sie in
+        Wirklichkeit systematisch genau jene Bevölkerungsgruppe angriff, die am wenigsten Wehr
+        leisten konnte.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin:0;">Juana Barraza zeigt die selbsterhaltende Zwei mit
+        Dreierflügel in ihrer düstersten Ausprägung: Fürsorge wird nicht gelebt, sondern
+        vollständig als Kostüm konstruiert – mit echter Uniform, gefälschten Papieren und
+        systematisch beschafften Opferlisten. Die Sorgfalt, mit der sie diese Rolle ausstattete,
+        ist dieselbe Sorgfalt, mit der ein anderer Mensch echte Fürsorge leben würde – hier
+        jedoch vollständig in den Dienst der eigenen, gegen die eigene Mutter gerichteten Wut
+        gestellt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
+        <p class="vb-intro"><strong>a) Die eigene Mutter als eigentliches Ziel:</strong>
+        Barraza gab gegenüber den Ermittlern an, eines ihrer Opfer aus Groll über die Behandlung
+        durch die eigene Mutter getötet zu haben. Ihre Opfer – durchweg ältere Frauen im
+        Mutteralter – lassen sich als wiederholte, stellvertretende Konfrontation mit derselben
+        Person lesen, die sie als Kind für drei Bier verkauft hatte.</p>
+        <p class="vb-intro"><strong>b) Eine verzerrte Überzeugung, der Gesellschaft zu dienen:</strong>
+        Nach eigener Aussage glaubte Barraza zeitweise, der Gesellschaft durch ihre Taten zu
+        helfen – eine erschreckende Verzerrung genau jener Fürsorge-Logik, die die selbsterhaltende
+        Zwei eigentlich konstruktiv nutzt: Statt tatsächlich zu helfen, rechtfertigte sie
+        Vernichtung als eine Form von Dienst.</p>
+        <p class="vb-intro"><strong>c) Vergleich mit John Wayne Gacy:</strong>
+        Auffällig ist die Parallele zu <a href="javascript:void(0)" data-route="kriminalpsychologie-john-wayne-gacy">John Wayne Gacy</a>
+        (SE2w3) – auch bei ihm diente eine sorgfältig gepflegte, öffentlich respektierte Kostüm-
+        und Rollenidentität als Zugangsmittel und Tarnung für Gewalt. Beide zeigen, wie der
+        Dreierflügel der Zwei eine vollständige, materiell ausgestattete zweite Identität
+        erschaffen kann, die selbst intensivster Beobachtung standhält.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Zwei im Vergleich: Wie sich Stolz bei SE2, SO2 und SX2 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE2, SO2, SX2 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 2 ausführlich porträtiert – Stolz, Fürsorge und der Heilungsweg über echte Demut.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Juana Barraza wurde 2008 wegen 16-fachen Mordes zu umgerechnet 759 Jahren Haft verurteilt. Das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-john-wayne-gacy", label:"Kriminalpsychologie: John Wayne Gacy (SE2w3) – Kostüm-Identität als Tarnung"},
+        {route:"kriminalpsychologie-jeanne-weber", label:"Kriminalpsychologie: Jeanne Weber (SE2w1) – Fürsorge als Tarnung, anderer Flügel"},
+        {route:"kriminalpsychologie-peter-sutcliffe", label:"Kriminalpsychologie: Peter Sutcliffe (SE2w1)"},
       ])}
     </div>
   `);
