@@ -4543,7 +4543,7 @@ export function juanaBarrazaPortraitPage() {
 
       <p class="psycho-intro">
         <strong>Juana Barraza</strong>, in Mexiko als "La Mataviejitas" (›die Altweibermörderin‹,
-        wörtlich ›die die alten Frauchen tötet‹) bekannt, war eine mexikanische Profi-Wrestlerin,
+        wörtlich ›die die alten Frauen tötet‹) bekannt, war eine mexikanische Profi-Wrestlerin,
         die zwischen 1998 und 2006 mindestens 16 ältere Frauen in Mexiko-Stadt ermordete –
         Ermittler vermuten insgesamt bis zu 40 bis 48 Opfer. Sie gab sich als städtische
         Krankenschwester oder Sozialarbeiterin aus, verschaffte sich so Zugang zu den Wohnungen
