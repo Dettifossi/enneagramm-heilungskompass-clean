@@ -807,6 +807,7 @@ During interrogation and at trial, Haarmann displayed a peculiar willingness to 
         {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SP1w9)"},
         {route:"kriminalpsychologie-bryan-kohberger", label:"Criminal Psychology: Bryan Kohberger (SX1w9) – the same subtype"},
         {route:"kriminalpsychologie-peter-moore", label:"Criminal Psychology: Peter Moore (SX8w7) – considered alternative typing"},
+        {route:"kriminalpsychologie-james-dusty-rhodes", label:"Criminal Psychology: James ›Dusty‹ Rhodes (SX1w9) – the same subtype"},
       ])}
     </div>
   `);

@@ -2716,3 +2716,178 @@ export function peterMoorePortraitPage() {
     </div>
   `);
 }
+
+export function jamesDustyRhodesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("James ›Dusty‹ Rhodes – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-james-dusty-rhodes-portrait.jpg" alt="James Dusty Rhodes – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Lamar "Dusty" Rhodes</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexual Type 1 with Nine-Wing</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">USA, b. 1963 · Crimes 1982–1984 · Animal correspondence: Black Mamba</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>James Lamar "Dusty" Rhodes</strong> murdered young Cynthia McLuhan in a
+        cemetery in Colorado Springs in December 1982. Shortly after, he moved with his wife
+        and infant child to St. Petersburg, Florida, where in the summer of 1984 he took part
+        in several rapes of strangers, including the fatal rape of a 17-year-old girl whose
+        body was found on railroad tracks. He was caught after a detective found the murder
+        weapon in his own wife's purse. Sentenced in 1984 to six life terms, he later
+        confessed to three additional attacks and received an additional 420 years in
+        prison. He remains incarcerated in Colorado today.
+      </p>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>James Rhodes</strong> is classified as the <strong>Sexual Type 1 with
+        Nine-wing (SX1w9)</strong>. The One's passion is <em>anger</em> – in the sexual One,
+        this pent-up resentment does not target institutions or the world at large, but
+        discharges with extreme intensity in immediate, physical contact. The SX1 is
+        considered the One's countertype: instead of visible strictness, it presents warmth
+        and social embeddedness to the outside world – in Rhodes, an unremarkable family life
+        that his surroundings never questioned. The Nine-wing muted any visible edge
+        completely and enabled a dissociation between daily life and crime that went
+        undetected across years and two states.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Gaze Quality</h3>
+        <p class="vb-intro"><strong>a) The unremarkable husband and father:</strong>
+        At the time of the crimes, Rhodes lived with his wife and infant child and took on
+        everyday, caring tasks such as driving his wife to work daily. Nothing about this
+        outward image pointed to the completely compartmentalized capacity for violence
+        running alongside it.</p>
+        <p class="vb-intro"><strong>b) Controlled until the break:</strong>
+        Former FBI profiler Mary Ellen O'Toole, after a personal prison interview, described
+        pronounced impulsivity and grandiosity alongside a complete absence of guilt and
+        remorse – a finding consistent with someone whose self-control appears flawless from
+        the outside until it breaks without visible warning.</p>
+        <p class="vb-intro"><strong>c) One final, self-staged gesture:</strong>
+        At sentencing, Rhodes told the judge he was pleading guilty to spare the victim's
+        family further suffering – an outwardly noble-sounding justification that stands in
+        sharp contrast to O'Toole's finding of an absence of genuine remorse.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro">Rhodes lived with his family in Colorado Springs before killing
+        Cynthia McLuhan in December 1982, then moved shortly after with his wife and child to
+        St. Petersburg, Florida – a fresh start meant to make the earlier crime invisible. In
+        Florida, the pattern repeated within months: several attacks on strangers in the
+        summer of 1984, before a detective found the decisive piece of evidence at his
+        arrest.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) The crime born from routine:</strong>
+        The murder of Cynthia McLuhan did not arise from days of stalking, but from an
+        everyday, recurring situation: Rhodes regularly drove his wife to the very shopping
+        center where his later victim worked. Opportunity itself, not an elaborate plan,
+        became the trigger.</p>
+        <p class="vb-intro"><strong>b) Geographic flight instead of inner change:</strong>
+        Rather than holding back after the first crime, Rhodes relocated entirely – and
+        continued the pattern in his new surroundings as soon as a comparable opportunity
+        arose. The flight was from discovery, not from his own behavior.</p>
+        <p class="vb-intro"><strong>c) His wife as an unwitting bystander:</strong>
+        The decisive piece of evidence that led to his arrest was found, of all places, in
+        his own wife's purse – a detail showing how deeply the dual structure of controlled
+        family life and uncontrolled violence reached into his closest private circle,
+        without his wife herself being complicit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro">On the outside: a family man driving his wife to work and
+        starting over with his child in another state. Behind it: a spree of violence spread
+        across two years and two states, ended only by a single chance discovery – a knife in
+        the wrong purse.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro">The energy of the SX1w9 shows in Rhodes as a dual structure with
+        no visible transitions: flawless everyday functioning on one side, sudden, extreme
+        violence on the other – without the gradual loss of control observable in other
+        offender types. O'Toole's finding of grandiosity alongside a total absence of remorse
+        fits a One whose pent-up anger allows no moral self-doubt once it discharges.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Correspondence: The Black Mamba</h3>
+        <p class="vb-intro">The black mamba lives inconspicuously in its surroundings,
+        drawing no attention – until it strikes, with a precision and suddenness that allows
+        no warning. Rhodes's everyday life as a husband and father was exactly this
+        camouflage: no sign of danger until the attack itself had already begun. Just as the
+        mamba moves on unaffected after striking, Rhodes returned seemingly untouched to his
+        family life after his crimes.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">A parallel within the same subtype: Fritz Haarmann (SX1w9)</h3>
+        <p class="vb-intro">Fritz Haarmann is also classified as SX1w9 in this Compass, and
+        both cases share the decisive structure: an outward warmth and social
+        inconspicuousness that allows no inference about the violence behind it. The
+        difference lies in the framework: Haarmann used an official cover as a police
+        informant and remained undetected in the same city for decades; Rhodes had no
+        institutional cover, relying instead on geographic distance – a complete fresh
+        start – to escape the same kind of discovery.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">7. Conclusion</h3>
+        <p style="margin:0;font-size:0.95rem;line-height:1.7;color:var(--ink);">
+        James Rhodes shows the sexual One with Nine-wing in its most destructive form: a
+        family life controlled for years and outwardly entirely unremarkable, behind which
+        lay a pent-up anger that discharged not gradually, but all at once. He was not caught
+        through any visible sign of his inner life, but through a single chance discovery in
+        the purse of the woman who, all those years, took him for an entirely ordinary
+        husband.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Deeper Insights</h3>
+        <p class="vb-intro"><strong>a) Why not the Eight:</strong>
+        An initial typing hypothesis considered the sexual Eight – impulsivity, grandiosity,
+        and a need for control would fit there too. The decisive difference: the Eight lives
+        out dominance mostly continuously and visibly; people would perceive it in daily life
+        as controlling or intimidating. In Rhodes, no one reports conspicuous dominant
+        behavior in ordinary life – his outward control was flawless until it broke abruptly.
+        That is the characteristic logic of the One: strict self-discipline that eventually
+        breaks, not a continuously lived claim to power.</p>
+        <p class="vb-intro"><strong>b) The Nine-wing as unintentional camouflage:</strong>
+        As with Haarmann, the outward inconspicuousness in Rhodes was likely not a calculated
+        performance but structurally genuine social adaptation – which is precisely what made
+        the camouflage so effective.</p>
+        <p class="vb-intro"><strong>c) Comparison with Gary Ridgway (SX1w2):</strong>
+        <a href="javascript:void(0)" data-route="kriminalpsychologie-gary-ridgway">Gary
+        Ridgway</a> also killed for years under the cover of an unremarkable family life. The
+        wing difference shows clearly, though: Ridgway's Two-wing expressed itself in a
+        religiously tinged self-justification toward his victims; in Rhodes, this moralizing
+        element is absent – the Nine instead produced a pure, almost affectless separation
+        between inner life and action.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The sexual One compared: how anger disguises itself as countertype warmth.", "The Hidden Dynamics of the 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 1 portrayed in depth – anger, control, and the healing path through genuine serenity.", "Who You Really Are – Volume 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type assignment is a psychological hypothesis, not a historical verdict. James Lamar Rhodes was convicted of murder, attempted murder, kidnapping, and sexual battery, and sentenced to multiple life terms plus an additional 420 years. The Enneagram explains; it does not justify.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-fritz-haarmann", label:"Criminal Psychology: Fritz Haarmann (SX1w9) – same subtype"},
+        {route:"kriminalpsychologie-gary-ridgway", label:"Criminal Psychology: Gary Ridgway (SX1w2) – different wing"},
+      ])}
+    </div>
+  `);
+}

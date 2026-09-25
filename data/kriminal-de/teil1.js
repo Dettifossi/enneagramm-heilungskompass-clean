@@ -4658,3 +4658,188 @@ export function peterMoorePortraitPage() {
     </div>
   `);
 }
+
+export function jamesDustyRhodesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("James ›Dusty‹ Rhodes – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-james-dusty-rhodes-portrait.jpg" alt="James Dusty Rhodes – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Lamar „Dusty" Rhodes</p>
+        <p class="krim-portrait-typ">SX1w9 · Sexueller Typ 1 mit Neunerflügel</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">USA, geb. 1963 · Verbrechen 1982–1984 · Tierentsprechung: Schwarze Mamba</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>James Lamar „Dusty" Rhodes</strong> ermordete im Dezember 1982 auf einem
+        Friedhof in Colorado Springs die junge Cynthia McLuhan. Kurz darauf zog er mit
+        Ehefrau und Kleinkind nach St. Petersburg, Florida, wo er sich im Sommer 1984 an
+        mehreren Vergewaltigungen fremder Frauen beteiligte, darunter die tödliche
+        Vergewaltigung einer 17-Jährigen, deren Leiche auf Bahngleisen gefunden wurde.
+        Er wurde gefasst, nachdem eine Ermittlerin das Tatmesser in der Handtasche seiner
+        eigenen Frau entdeckte. 1984 zu sechs lebenslangen Haftstrafen verurteilt, gestand
+        er später drei weitere Überfälle und erhielt zusätzlich 420 Jahre Haft. Er sitzt bis
+        heute in Colorado ein.
+      </p>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>James Rhodes</strong> wird dem <strong>Sexuellen Typ 1 mit Neunerflügel
+        (SX1w9)</strong> zugeordnet. Die Leidenschaft der Eins ist <em>Zorn</em> – bei der
+        sexuellen Eins richtet sich dieser aufgestaute Groll nicht gegen Institutionen oder
+        die Welt im Allgemeinen, sondern entlädt sich mit äußerster Intensität im
+        unmittelbaren, körperlichen Kontakt. Der SX1er gilt als Kontratyp der Eins: Statt
+        sichtbarer Strenge zeigt er nach außen Wärme und soziale Eingebundenheit – bei
+        Rhodes ein unauffälliges Familienleben, das seine Umgebung nie in Frage stellte. Der
+        Neunerflügel dämpfte jede sichtbare Schärfe vollständig und ermöglichte eine
+        Dissoziation zwischen Alltag und Verbrechen, die über Jahre und zwei Bundesstaaten
+        hinweg unentdeckt blieb.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Der unauffällige Ehemann und Vater:</strong>
+        Rhodes lebte zum Tatzeitpunkt mit Ehefrau und Kleinkind zusammen und übernahm
+        alltägliche, fürsorgliche Aufgaben wie das tägliche Fahren seiner Frau zur Arbeit.
+        Nichts an diesem äußeren Bild deutete auf die parallel bestehende, völlig
+        abgeschottete Gewaltbereitschaft hin.</p>
+        <p class="vb-intro"><strong>b) Kontrolliert bis zum Bruch:</strong>
+        Die ehemalige FBI-Profilerin Mary Ellen O'Toole beschrieb nach einem persönlichen
+        Gefängnisinterview ausgeprägte Impulsivität und Grandiosität bei völligem Fehlen
+        von Schuldgefühl und Reue – ein Befund, der zu einer Person passt, deren
+        Selbstkontrolle nach außen makellos wirkt, bis sie ohne sichtbare Vorwarnung
+        bricht.</p>
+        <p class="vb-intro"><strong>c) Eine letzte, selbstinszenierte Geste:</strong>
+        Bei der Verurteilung ließ Rhodes den Richter wissen, er bekenne sich schuldig, um
+        der Familie des Opfers weiteres Leid zu ersparen – eine nach außen edel klingende
+        Begründung, die in scharfem Kontrast zu O'Tooles Befund fehlender echter Reue
+        steht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro">Rhodes lebte mit seiner Familie in Colorado Springs, bevor er im
+        Dezember 1982 Cynthia McLuhan tötete, und zog kurz darauf mit Frau und Kind nach St.
+        Petersburg, Florida – ein neuer Anfang, der die vorangegangene Tat unsichtbar machen
+        sollte. In Florida wiederholte sich das Muster innerhalb weniger Monate: mehrere
+        Überfälle auf fremde Frauen im Sommer 1984, bevor eine Ermittlerin bei seiner
+        Festnahme das entscheidende Beweisstück fand.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die Tat aus dem Alltag heraus:</strong>
+        Der Mord an Cynthia McLuhan entstand nicht aus tagelanger Verfolgung, sondern aus
+        einer alltäglichen, wiederkehrenden Situation: Rhodes fuhr regelmäßig seine Frau zu
+        genau dem Einkaufszentrum, in dem auch das spätere Opfer arbeitete. Die Gelegenheit
+        selbst, nicht ein ausgeklügelter Plan, wurde zum Auslöser.</p>
+        <p class="vb-intro"><strong>b) Geografische Flucht statt innerer Umkehr:</strong>
+        Statt sich nach der ersten Tat zurückzuhalten, verlegte Rhodes seinen Wohnort
+        komplett – und setzte das Muster in der neuen Umgebung fort, sobald sich eine
+        vergleichbare Gelegenheit bot. Die Flucht galt der Entdeckung, nicht dem eigenen
+        Verhalten.</p>
+        <p class="vb-intro"><strong>c) Die Ehefrau als unwissende Mitwisserin:</strong>
+        Das entscheidende Beweisstück, das zu seiner Festnahme führte, wurde ausgerechnet in
+        der Handtasche seiner eigenen Frau gefunden – ein Detail, das zeigt, wie tief die
+        Doppelstruktur aus kontrolliertem Familienleben und unkontrollierter Gewalt in sein
+        engstes privates Umfeld hineinreichte, ohne dass seine Frau selbst eingeweiht war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro">Nach außen: ein Familienvater, der seine Frau zur Arbeit fährt
+        und mit seinem Kind einen Neuanfang in einem anderen Bundesstaat wagt. Dahinter:
+        eine über zwei Jahre und zwei Bundesstaaten verteilte Gewaltserie, die erst durch
+        einen einzigen, zufälligen Fund – ein Messer in der falschen Handtasche – beendet
+        wurde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro">Die Energie der SX1w9 zeigt sich bei Rhodes als eine
+        Doppelstruktur, die keine sichtbaren Übergänge kennt: makellose Alltagsfunktion auf
+        der einen Seite, plötzliche, extreme Gewalt auf der anderen – ohne den schleichenden
+        Kontrollverlust, den man bei anderen Tätertypen beobachten kann. O'Tooles Befund von
+        Grandiosität bei völlig fehlender Reue passt zu einer Eins, deren aufgestauter Zorn
+        keinen moralischen Selbstzweifel zulässt, sobald er sich entlädt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tierentsprechung: Die Schwarze Mamba</h3>
+        <p class="vb-intro">Die Schwarze Mamba lebt unauffällig in ihrer Umgebung, ohne
+        Aufsehen zu erregen – bis sie zuschlägt, mit einer Präzision und Plötzlichkeit, die
+        keine Vorwarnung kennt. Rhodes' Alltag als Ehemann und Vater war genau diese
+        Tarnung: kein Zeichen von Gefahr, bis der Angriff selbst längst begonnen hatte. Wie
+        die Mamba nach dem Biss unbeeindruckt weiterzieht, kehrte auch Rhodes nach seinen
+        Taten scheinbar unberührt in sein Familienleben zurück.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Parallele im selben Subtyp: Fritz Haarmann (SX1w9)</h3>
+        <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="kriminalpsychologie-fritz-haarmann">Fritz
+        Haarmann</a> ist in diesem Kompass als SX1w9 typisiert, und beide Fälle teilen die
+        entscheidende Struktur: eine Wärme und soziale Unauffälligkeit nach außen, die keine
+        Rückschlüsse auf die dahinterliegende Gewalt zulässt. Der Unterschied liegt im
+        Rahmen: Haarmann nutzte eine offizielle Tarnung als Polizeispitzel und blieb
+        Jahrzehnte in derselben Stadt unentdeckt; Rhodes hatte keine institutionelle
+        Deckung, sondern verließ sich auf geografische Distanz – einen kompletten
+        Neuanfang –, um derselben Entdeckung zu entgehen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">7. Fazit</h3>
+        <p style="margin:0;font-size:0.95rem;line-height:1.7;color:var(--ink);">
+        James Rhodes zeigt die sexuelle Eins mit Neunerflügel in ihrer zerstörerischsten
+        Form: ein über Jahre kontrolliertes, nach außen völlig unauffälliges Familienleben,
+        hinter dem sich ein aufgestauter Zorn verbarg, der sich nicht schleichend, sondern
+        schlagartig entlud. Entdeckt wurde er nicht durch ein sichtbares Zeichen seines
+        Innenlebens, sondern durch einen einzigen Zufallsfund in der Handtasche der Frau,
+        die ihn all die Jahre für einen ganz gewöhnlichen Ehemann hielt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
+        <p class="vb-intro"><strong>a) Warum nicht die Acht:</strong>
+        Eine erste Typisierungsvermutung fiel auf die sexuelle Acht – Impulsivität,
+        Grandiosität und Kontrollbedürfnis wären auch dort denkbar. Der entscheidende
+        Unterschied: Die Acht lebt Dominanz meist durchgehend und sichtbar aus, man würde
+        sie im Alltag als kontrollierend oder einschüchternd wahrnehmen. Bei Rhodes berichtet
+        niemand von auffälligem Dominanzverhalten im normalen Leben – die Kontrolle nach
+        außen war tadellos, bis sie abrupt kippte. Das ist die charakteristische Logik der
+        Eins: strenge Selbstbeherrschung, die irgendwann bricht, nicht dauerhaft gelebter
+        Machtanspruch.</p>
+        <p class="vb-intro"><strong>b) Der Neunerflügel als Tarnung ohne Absicht:</strong>
+        Wie bei Haarmann war auch bei Rhodes die nach außen gezeigte Unauffälligkeit
+        vermutlich keine berechnete Inszenierung, sondern strukturell echte soziale
+        Anpassung – was die Tarnung gerade dadurch so wirksam machte.</p>
+        <p class="vb-intro"><strong>c) Vergleich mit Gary Ridgway (SX1w2):</strong>
+        Auch <a href="javascript:void(0)" data-route="kriminalpsychologie-gary-ridgway">Gary
+        Ridgway</a> tötete über Jahre unter dem Deckmantel eines unauffälligen
+        Familienlebens. Der Flügelunterschied zeigt sich jedoch deutlich: Ridgways
+        Zweierflügel äußerte sich in einer religiös verbrämten Selbstrechtfertigung
+        gegenüber seinen Opfern; bei Rhodes fehlt dieses moralisierende Element – die
+        Neun sorgte stattdessen für eine reine, fast gefühllose Abschottung zwischen
+        Innenleben und Handeln.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Eins im Vergleich: Wie sich Zorn als Kontratyp-Wärme tarnt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Kontrolle und der Heilungsweg über echte Gelassenheit.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. James Lamar Rhodes wurde wegen Mordes, versuchten Mordes, Entführung und sexueller Nötigung zu mehreren lebenslangen Haftstrafen sowie zusätzlich 420 Jahren Haft verurteilt. Das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-fritz-haarmann", label:"Kriminalpsychologie: Fritz Haarmann (SX1w9) – gleicher Subtyp"},
+        {route:"kriminalpsychologie-gary-ridgway", label:"Kriminalpsychologie: Gary Ridgway (SX1w2) – anderer Flügel"},
+      ])}
+    </div>
+  `);
+}
