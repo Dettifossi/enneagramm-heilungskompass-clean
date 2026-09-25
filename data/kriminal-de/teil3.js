@@ -1245,7 +1245,7 @@ export function bernardEugeneGilesPortraitPage() {
         <p class="vb-intro"><strong>c) Fünf Opfer in zwölf Wochen:</strong>
         Zwischen September und November 1973 tötete Giles fünf junge Frauen und Mädchen –
         Nancy Gerry, Paula Hamric, Carolyn Bennett, Sharon Wilmer und Krista Melton. Gefasst
-        wurde er, nachdem zwei weiteren, versuchten Entführungen ihre Opfer entkommen konnten
+        wurde er, nachdem bei zwei weiteren versuchten Entführungen die Opfer entkommen konnten
         und ihn identifizierten.</p>
       </div>
 
