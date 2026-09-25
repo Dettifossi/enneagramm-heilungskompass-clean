@@ -2267,3 +2267,69 @@ export function knutHamsunPortraitPage() {
     </div>
   `);
 }
+
+export function joeDispenzaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joe-dispenza-portrait.jpg" alt="Joe Dispenza – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Joe Dispenza</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Chiropraktiker, Autor und Workshop-Veranstalter, geb. 1962 &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel, der eine Bewegung um sich versammelt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> läuft nicht allein – seine Kraft entfaltet sich in der Herde. Joe Dispenza, geboren 1962, studierte Biochemie in Rutgers und schloss sein Studium 1986 als Chiropraktiker an der Life University in Atlanta ab – ein anerkannter, aber medizinisch begrenzter Doktortitel (D.C., Doctor of Chiropractic), kein Mediziner- oder Neurowissenschafts-Abschluss. Seine eigene Ursprungsgeschichte: 1986 bei einem Triathlon von einem Auto angefahren, mehrere Wirbel kompressionsgebrochen, Ärzte rieten zu einer Wirbelsäulenversteifung – er lehnte ab und will sich stattdessen allein durch Visualisierung innerhalb weniger Wochen wieder aufgerichtet haben. Diese Geschichte ist bis heute das Gründungsnarrativ seiner gesamten öffentlichen Marke.</p>
+          <p class="vb-intro">Weniger bekannt ist eine andere Station seines Werdegangs: Über Jahre war Dispenza als „berufener Lehrer" bei Ramtha's School of Enlightenment tätig, einer von der Southern Poverty Law Center als sektenartig eingestuften New-Age-Gruppe in Yelm, Washington. Erst von dort aus baute er seine heutigen „Progressive"- und „Advanced"-Workshops sowie mehrtägige Retreats auf, die er als „Wissenschaft der Veränderung" vermarktet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Auflösung in einer Bewegung, die größer ist als man selbst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> gewinnt ihre Identität nach Naranjo nicht als Einzelperson, sondern durch das Aufgehen in etwas, das über die eigene Person hinausweist. Bei Dispenza zeigt sich das in der Konsequenz, mit der er seine gesamte öffentliche Existenz einer einzigen, alles erklärenden Botschaft unterordnet: dass Gedanken, Meditation und „das Quantenfeld" praktisch jede Krankheit heilen können. Die soziale Neun gilt als Kontratyp der Neun – statt Trägheit zeigt sie oft einen auffälligen Fleiß, weil Zugehörigkeit über aktiven Einsatz für die Gemeinschaft erarbeitet werden muss. Retreats mit 1.200 bis 1.800 Teilnehmenden, die innerhalb von Minuten ausverkauft sind, sind genau dieser Fleiß – nur in unternehmerischer statt spiritueller Form.</p>
+          <p class="vb-intro">Auffällig ist dabei, wie sich Dispenza öffentlich nie direkt mit seinen wissenschaftlichen Kritikern auseinandersetzt. Der britische Mediziner und bekannte Pseudowissenschafts-Kritiker Edzard Ernst bezeichnete ihn als einen „Chiropraktiker, der sich in pseudowissenschaftlichem Unsinn hervortut" – eine harte, aber nicht vereinzelte Einschätzung. Statt Gegenargumente direkt zu entkräften, verweist Dispenza gewöhnlich auf die eigene Community und auf noch kommende, unabhängige Forschung – Konfliktvermeidung durch Verlagerung statt durch Auseinandersetzung, typisch für die harmoniesuchende Neun.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Die „richtige Methode" als vermeintlich objektive Wissenschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> zeigt sich bei Dispenza nicht in Zorn oder offener Kritik an anderen, sondern in der Art, wie er seine Lehre präsentiert: nicht als persönliche Überzeugung oder Glaubenssystem, sondern als feste, schrittweise „Formel" mit dem Anspruch objektiver, wissenschaftlicher Korrektheit. Bei seinen Retreats werden EEG- und Herzkohärenz-Messungen durchgeführt, die reale physiologische Effekte von Meditation – etwa Stressreduktion – dokumentieren. Kritiker bemängeln jedoch, dass aus diesen tatsächlich messbaren, bekannten Effekten regelmäßig weitreichende Behauptungen über Zirbeldrüsen-Aktivierung, Quantenfeld-Manifestation und direkte Heilung schwerer Erkrankungen werden – eine Vermischung, die als „Science-Washing" bezeichnet wird: reale Wissenschaft als Fassade für unbelegte Zusatzbehauptungen.</p>
+          <p class="vb-intro">Auch sein Titel selbst zeigt dieses Muster: An der nicht akkreditierten „Quantum University" wird Dispenza als Fakultätsmitglied mit dem Titel „PhD" geführt – Recherchen (u. a. der Daily Beast) fanden jedoch keinen Beleg für eine tatsächlich erworbene Promotion in diesem Sinne. Der reguläre Doktortitel (D.C.) bleibt damit sein einziger nachweisbarer akademischer Abschluss, während die öffentliche Selbstdarstellung als führender Wissenschaftler weit darüber hinausgeht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Handwerkliche Substanz und ihre Grenzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Dispenza fachlich auszeichnet, ist zunächst unbestreitbar: eine seltene Fähigkeit, komplexe Meditationsanleitungen in verständliche, praktisch nachvollziehbare Schritte zu übersetzen und damit ein Millionenpublikum zu erreichen, das mit klassischer buddhistischer oder wissenschaftlicher Fachsprache nie in Berührung gekommen wäre. Seine Bücher und Apps haben bei vielen Menschen nachweislich zu mehr Meditationspraxis und subjektiv erlebter Stressreduktion geführt – reale, nicht zu leugnende Effekte.</p>
+          <p class="vb-intro">Die fachliche Substanz endet jedoch dort, wo aus dieser Vermittlungsleistung ein umfassender Heilsanspruch wird. Mit nur rund drei in anerkannten medizinischen Datenbanken gelisteten Publikationen steht Dispenza in einem auffälligen Missverhältnis zu seiner öffentlichen Rolle als führender „Wissenschaftler des Wandels". Die kommerzielle Größenordnung – Wochen-Retreats für umgerechnet weit über 2.500 Euro zuzüglich Reise- und Unterkunftskosten, mehrfach im Jahr weltweit ausverkauft – steht in einem Spannungsverhältnis zur Botschaft von Heilung und spiritueller Erneuerung, das selten offen thematisiert wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w1 zeigt sich darin, dass Dispenza vielen Menschen einen niedrigschwelligen, disziplinierten Einstieg in Meditation ermöglicht hat, verbunden mit echter Hoffnung und einem Gefühl von Gemeinschaft, das gerade in einer zunehmend vereinzelten Gesellschaft einen realen Wert besitzt.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in genau der Dynamik, die bei öffentlichkeitswirksamen Ein-Methoden-Heilsversprechen immer wieder auftritt: Wer glaubt, mit einer einzigen Methode nahezu jedes menschliche Leiden erklären und lösen zu können, lebt – oft unbewusster als es die eigene Selbstdarstellung als „bewusster Vordenker" suggeriert – die eigene Fixierung genauso aus wie jeder andere Mensch mit einer Leidenschaft, nur mit größerer Bühne und größerem Publikum. Rezensionen von Retreat-Teilnehmenden beschreiben wiederholt eine fast kultische Verehrung, „toxische Positivität" und teils hohe finanzielle Belastung für Inhalte, die sich mit bereits erworbenem Online-Material stark überschneiden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Eine Bewegung zwischen echtem Nutzen und ungeprüftem Nimbus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Joe Dispenza zeigt, wie sich eine reale, hilfreiche Vermittlungsleistung – Meditation zugänglich machen – mit einer Selbstinszenierung als wissenschaftliche Autorität verbinden kann, die einer genaueren Prüfung nicht standhält. Die soziale Neun mit Einserflügel löst sich dabei nicht in einer bestehenden Institution auf, wie es etwa beim <a href="javascript:void(0)" data-route="beruehmte-dalai-lama">Dalai Lama</a> (SO9w1) der Fall ist, sondern baut eine eigene, um die eigene Person zentrierte Bewegung auf – ein aufschlussreicher Unterschied innerhalb desselben Subtyps: Verschmelzung mit dem Dienst an einer größeren Sache kann sich still und macht-abgebend äußern, oder eben in einer wachsenden, kommerziell erfolgreichen Bewegung um die eigene Lehre.</p>
+          <p class="vb-intro">Wer mit einer einzigen Methode die gesamte Menschheit „retten" will, verdient dieselbe kritische Distanz wie jede andere Person mit Sendungsbewusstsein – unabhängig davon, wie viel echter Nutzen daneben tatsächlich vorhanden ist.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"beruehmte-dalai-lama", label:"Porträt: Dalai Lama XIV. (SO9w1)"},
+        {route:"beruehmte-peter-falk", label:"Porträt: Peter Falk (SO9w1)"},
+        {route:"beruehmte-tom-hanks", label:"Porträt: Tom Hanks (SO9w1)"},
+      ])}
+    </div>
+  `);
+}

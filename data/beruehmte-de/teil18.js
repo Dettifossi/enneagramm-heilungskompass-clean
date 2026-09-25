@@ -2154,6 +2154,7 @@ export function dalaiLamaPortraitPage() {
         {route:"beruehmte-steffi-graf", label:"Porträt: Steffi Graf (SO9w1) – dieselbe stille Selbstverständlichkeit"},
         {route:"beruehmte-peter-falk", label:"Porträt: Peter Falk (SO9w1)"},
         {route:"beruehmte-tom-hanks", label:"Porträt: Tom Hanks (SO9w1)"},
+        {route:"beruehmte-joe-dispenza", label:"Porträt: Joe Dispenza (SO9w1)"},
       ])}
     </div>
   `);

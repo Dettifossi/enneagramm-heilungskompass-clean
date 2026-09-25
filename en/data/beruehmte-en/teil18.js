@@ -2154,6 +2154,7 @@ export function dalaiLamaPortraitPage() {
         {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1) – the same quiet self-evidence"},
         {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1)"},
         {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1)"},
+        {route:"beruehmte-joe-dispenza", label:"Portrait: Joe Dispenza (SO9w1)"},
       ])}
     </div>
   `);

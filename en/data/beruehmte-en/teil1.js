@@ -2260,3 +2260,69 @@ export function gunterGabrielPortraitPage() {
     </div>
   `);
 }
+
+export function joeDispenzaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joe-dispenza-portrait.jpg" alt="Joe Dispenza – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Joe Dispenza</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with One-Wing</p>
+        <p class="krim-portrait-subtitle">Chiropractor, author, and workshop leader, b. 1962 &ndash; Animal correspondence: Buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Buffalo who gathers a movement around himself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Buffalo</strong> doesn't move alone – its strength unfolds within the herd. Joe Dispenza, born in 1962, studied biochemistry at Rutgers and graduated in 1986 as a chiropractor from Life University in Atlanta – a recognized but medically limited doctoral title (D.C., Doctor of Chiropractic), not a medical or neuroscience degree. His own origin story: struck by a car during a triathlon in 1986, several compressed vertebral fractures, doctors recommending spinal fusion – he declined and claims to have realigned his spine within weeks through visualization alone. This story remains the founding narrative of his entire public brand to this day.</p>
+          <p class="vb-intro">Less well known is another chapter of his career: for years, Dispenza served as an "appointed teacher" at Ramtha's School of Enlightenment, a New Age group in Yelm, Washington, that the Southern Poverty Law Center classifies as cult-like. Only from there did he go on to build his current "Progressive" and "Advanced" workshops and multi-day retreats, which he markets as the "science of change."</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Nine: dissolving into a movement larger than oneself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>Social Nine (SO9)</strong> does not draw identity as an individual but through merging into something that points beyond the self. In Dispenza, this shows in the consistency with which he subordinates his entire public existence to a single, all-explaining message: that thought, meditation, and "the quantum field" can practically heal any illness. The Social Nine is considered the Nine's countertype – instead of sloth, it often shows a striking diligence, because belonging has to be earned through active engagement for the community. Retreats with 1,200 to 1,800 attendees, sold out within minutes, are exactly this diligence – only in entrepreneurial rather than spiritual form.</p>
+          <p class="vb-intro">Notably, Dispenza never engages directly and publicly with his scientific critics. British physician and well-known pseudoscience critic Edzard Ernst called him a "chiropractor [who] excels in pseudoscientific bullshit" – a harsh but far from isolated assessment. Rather than directly countering objections, Dispenza typically points to his own community and to forthcoming, independent research – conflict avoidance through deflection rather than engagement, typical of the harmony-seeking Nine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: the "correct method" presented as objective science</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing</strong> shows in Dispenza not as anger or open criticism of others, but in how he presents his teaching: not as personal conviction or belief system, but as a fixed, step-by-step "formula" claiming objective, scientific correctness. His retreats feature EEG and heart-coherence measurements that document real physiological effects of meditation, such as stress reduction. Critics note, however, that these genuinely measurable, well-documented effects regularly get expanded into sweeping claims about pineal gland activation, quantum field manifestation, and the direct healing of serious illness – a pattern known as "science-washing": real science as a facade for unsubstantiated additional claims.</p>
+          <p class="vb-intro">His title itself shows the same pattern: at the unaccredited "Quantum University," Dispenza is listed as faculty with the title "PhD" – investigations (including the Daily Beast) found no evidence he ever actually earned a doctorate in that sense. His regular doctoral title (D.C.) thus remains his only verifiable academic credential, while his public self-presentation as a leading scientist extends far beyond it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Professional substance and its limits</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes Dispenza professionally is, at first, undeniable: a rare ability to translate complex meditation instructions into understandable, practically applicable steps, reaching a mass audience that would otherwise never have encountered classical Buddhist or scientific terminology. His books and apps have demonstrably led many people to meditate more and to experience subjectively reduced stress – real, undeniable effects.</p>
+          <p class="vb-intro">The professional substance ends, however, where this skill at translation turns into a sweeping claim of healing. With only about three publications listed in recognized medical databases, Dispenza stands in striking disproportion to his public role as a leading "scientist of transformation." The commercial scale – week-long retreats costing well over the equivalent of 2,500 euros plus travel and lodging, selling out multiple times a year worldwide – sits in tension with a message of healing and spiritual renewal that is rarely addressed openly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the Social Nine with One-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO9w1 shows in the fact that Dispenza has given many people a low-barrier, disciplined entry point into meditation, paired with genuine hope and a sense of community that carries real value, especially in an increasingly isolated society.</p>
+          <p class="vb-intro">The shadow shows in exactly the dynamic that recurs around high-visibility, single-method salvation narratives: someone who believes a single method can explain and resolve nearly all human suffering is living out their own fixation just as much as anyone else with a passion – often less consciously than their own self-presentation as an "enlightened thought leader" would suggest, only with a bigger stage and a bigger audience. Reviews from retreat attendees repeatedly describe near-cultish devotion, "toxic positivity," and at times significant financial cost for content that overlaps heavily with material already available online.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The legacy: a movement between real benefit and unexamined mystique</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Joe Dispenza shows how a genuinely helpful skill – making meditation accessible – can combine with a self-presentation as scientific authority that does not hold up under closer scrutiny. The Social Nine with One-wing does not dissolve into an existing institution here, as with the <a href="javascript:void(0)" data-route="beruehmte-dalai-lama">Dalai Lama</a> (SO9w1), but instead builds its own movement centered on the self – a revealing contrast within the same subtype: merging through service to something larger can express itself quietly, giving up power, or in a growing, commercially successful movement built around one's own teaching.</p>
+          <p class="vb-intro">Anyone who claims a single method can "save" all of humanity deserves the same critical distance as anyone else with a messianic sense of mission – regardless of how much real benefit exists alongside it.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: subtype profile"},
+        {route:"beruehmte-dalai-lama", label:"Portrait: Dalai Lama XIV. (SO9w1)"},
+        {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1)"},
+        {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1)"},
+      ])}
+    </div>
+  `);
+}
