@@ -1862,6 +1862,7 @@ export function reinholdMessnerPortraitPage() {
         {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
         {route:"beruehmte-herman-van-veen", label:"Porträt: Herman van Veen (SE1w9)"},
         {route:"beruehmte-henning-baum", label:"Porträt: Henning Baum (SE1w9)"},
+        {route:"beruehmte-viktor-frankl", label:"Porträt: Viktor Frankl (SE1w9)"},
       ])}
     </div>
   `);

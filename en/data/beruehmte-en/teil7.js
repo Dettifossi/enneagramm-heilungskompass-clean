@@ -2254,3 +2254,70 @@ export function guntherVonHagensPortraitPage() {
     </div>
   `);
 }
+
+export function viktorFranklPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-viktor-frankl-portrait.jpg" alt="Viktor Frankl – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Viktor Frankl</p>
+        <p class="krim-portrait-typ">SP1w9 &middot; Self-Preservation Type 1 with Nine-Wing</p>
+        <p class="krim-portrait-subtitle">Psychiatrist, neurologist, and founder of logotherapy, 1905&ndash;1997 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle who climbed to its height in silence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eagle</strong> flies alone and holds itself to high standards – standards aimed at itself, not at others. Viktor Frankl, born in Vienna in 1905, was already running free youth counseling centers by 1928–1930 that drove Vienna's teen suicide rate during report-card season down to zero. From 1933 to 1937 he ran the women's suicide-prevention pavilion at Vienna's Am Steinhof psychiatric hospital, treating roughly 3,000 patients a year – a quiet, concrete practice long before his name became known worldwide.</p>
+          <p class="vb-intro">After the 1938 Anschluss, he took over neurology at Vienna's Rothschild Hospital, the last institution still permitted to treat Jewish patients – and, at mortal risk, falsified diagnoses there to protect patients from Nazi "euthanasia." No public resistance, no gesture meant for an audience: a private, dangerous act of consequence that needed no witness to matter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: finding meaning instead of proclaiming it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SP1)</strong> directs its perfectionism not at public correctness but at its own, mostly unwitnessed way of living. Naranjo called this subtype <em>worry</em> – concern with doing the right thing in very practical terms. In Frankl, this shows in how his core conviction – that people find meaning rather than invent it – never stayed abstract philosophy but was translated into concrete clinical technique: paradoxical intention and dereflection, both still used in behavioral therapy today.</p>
+          <p class="vb-intro">In 1944 he was deported to Auschwitz; the 250-page manuscript of his logotherapy theory, which his wife Tilly had sewn into the lining of his coat, was confiscated on arrival. Rather than mourning the loss, Frankl reconstructed the theory from memory – first on stolen scraps of paper in the camp, then, after liberation, as a complete book. Nine months after his liberation, he dictated "Man's Search for Meaning" in just nine days.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: conviction without a pulpit tone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> softens the One's sharp, publicly corrective edge and replaces it with a calm, humor-tempered composure. Frankl explicitly understood humor as a tool of inner distancing, not a stage performance – a skill he cultivated even in the camps, so as not to be entirely at the mercy of his own suffering. Colleagues and students consistently described him as a serious, warm clinician and teacher, not as a dramatic public performer.</p>
+          <p class="vb-intro">This same restraint showed in his private life in the mountains: his second wife Eleonore recalled that while climbing he was "just Viktor" – a genuine friend among equals, not an exceptional figure who needed to demonstrate his own importance. At 67 he still earned his pilot's license; past 80 he kept climbing mountains – quiet, physical discipline that had nothing to prove to anyone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Professional substance: the Third Viennese School of psychotherapy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Frankl's real professional achievement lies in the methodological rigor with which he distinguished logotherapy from mere self-help philosophy. As the "Third Viennese School" after Freud's will to pleasure and Adler's will to power, he posited the will to meaning as the primary human drive – while insisting, with clinical precision, that meaning has to be found, in work, love, or unavoidable suffering, not invented at will. This distinction sharply separated his approach from a purely relativist existentialism.</p>
+          <p class="vb-intro">His work was no single achievement of his middle years: he kept teaching into old age at universities from Vienna to Harvard and Stanford, continuously publishing new books and lectures across decades – a disciplined, sustained professional practice, not a one-time stroke of genius.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the self-preservation One with Nine-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP1w9 shows in Frankl's ability not to preach an existential conviction but to live it out in his own, verifiable practice – from falsifying diagnoses at Rothschild Hospital to decades of daily clinical work. His second marriage to the practicing Catholic Eleonore, in which synagogue and church, Christmas and Chanukah stood side by side as equals, shows the same undogmatic, unshowy consistency in his private life.</p>
+          <p class="vb-intro">The One's shadow shows in the quiet severity with which one's own standards had to be upheld even under the most extreme pressure – Frankl lost his first wife Tilly, his parents, and his brother in the Holocaust, while surviving four different camps himself. That he developed an entire school of therapy out of exactly this experience, rather than being broken by it, expresses the pattern just as much as its risk: the compulsion to keep finding meaning even in the greatest suffering.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The healing path: from quiet standard to settled certainty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One's healing path leads from anger to serenity – from the question <em>Am I living rightly enough?</em> to the insight <em>My standard for myself needs no audience to be true.</em> Frankl lived out this maturity into old age: he died in 1997 at 92, having held to the same practical conviction his entire life without ever turning it into a loud mission.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-reinhold-messner">Reinhold Messner</a> (SP1w9) – he too combines physical discipline into old age with a public restraint that never turns his own standard into a show. More in the <a href="javascript:void(0)" data-route="beruehmte-reinhold-messner">portrait of Reinhold Messner</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SP1 – Eagle"},
+        {route:"beruehmte-reinhold-messner", label:"Portrait: Reinhold Messner (SP1w9)"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
+        {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
+      ])}
+    </div>
+  `);
+}

@@ -1930,6 +1930,7 @@ export function reinholdMessnerPortraitPage() {
         {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
         {route:"beruehmte-herman-van-veen", label:"Portrait: Herman van Veen (SP1w9)"},
         {route:"beruehmte-henning-baum", label:"Portrait: Henning Baum (SP1w9)"},
+        {route:"beruehmte-viktor-frankl", label:"Portrait: Viktor Frankl (SP1w9)"},
       ])}
     </div>
   `);

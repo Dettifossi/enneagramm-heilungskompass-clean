@@ -2269,3 +2269,70 @@ export function gabiGarciaPortraitPage() {
     </div>
   `);
 }
+
+export function viktorFranklPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-viktor-frankl-portrait.jpg" alt="Viktor Frankl – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Viktor Frankl</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Psychiater, Neurologe und Begründer der Logotherapie, 1905&ndash;1997 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der seine Höhe im Stillen erklomm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> fliegt allein und hält hohe Standards – an sich selbst, nicht an andere. Viktor Frankl, 1905 in Wien geboren, leitete bereits 1928 bis 1930 kostenlose Jugendberatungsstellen, die in Wien die Zahl der Schülerselbstmorde zur Zeugniszeit auf null senkten. Von 1933 bis 1937 verantwortete er den Frauen-Suizidpräventions-Pavillon der Wiener Heil- und Pflegeanstalt Am Steinhof mit rund 3.000 behandelten Patientinnen jährlich – eine stille, konkrete Praxis, lange bevor sein Name weltweit bekannt wurde.</p>
+          <p class="vb-intro">Nach dem „Anschluss" 1938 übernahm er die Neurologie des Wiener Rothschild-Spitals, des letzten Hauses, das noch jüdische Patienten behandeln durfte – und fälschte dort unter Lebensgefahr Diagnosen, um Patienten vor der NS-„Euthanasie" zu schützen. Kein öffentlicher Widerstand, keine Geste für ein Publikum: eine private, riskante Konsequenz, die niemand sehen musste, damit sie zählte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Sinn finden statt Sinn verkünden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Perfektionsanspruch nicht auf öffentliche Korrektheit, sondern auf die eigene, meist unbeobachtete Lebensführung. Naranjo nannte diesen Subtyp <em>Worry</em> – Sorge um das Richtige im ganz Praktischen. Bei Frankl zeigt sich das darin, dass seine Kernüberzeugung – der Mensch finde Sinn, statt ihn zu erfinden – keine abstrakte Philosophie blieb, sondern in konkrete klinische Technik übersetzt wurde: die paradoxe Intention und die Dereflexion, beide bis heute in der Verhaltenstherapie im Einsatz.</p>
+          <p class="vb-intro">1944 wurde er nach Auschwitz deportiert; das 250 Seiten starke Manuskript seiner Logotherapie-Theorie, das seine Frau Tilly ihm in das Futter seines Mantels eingenäht hatte, wurde bei der Ankunft beschlagnahmt. Statt den Verlust zu beklagen, rekonstruierte Frankl die Theorie aus dem Gedächtnis – zunächst auf gestohlenen Zetteln im Lager, nach der Befreiung als vollständiges Buch. Neun Monate nach seiner Befreiung diktierte er „…trotzdem Ja zum Leben sagen" in nur neun Tagen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Überzeugung ohne Kanzelton</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> dämpft bei der Eins die scharfe, öffentlich korrigierende Kante und ersetzt sie durch eine ruhige, humorvoll gebrochene Gelassenheit. Frankl verstand Humor ausdrücklich als Werkzeug der inneren Distanzierung, nicht als Bühnennummer – eine Fähigkeit, die er selbst noch im Lager kultivierte, um dem eigenen Leiden nicht vollständig ausgeliefert zu sein. Kollegen und Schüler beschrieben ihn durchweg als ernsthaften, warmherzigen Kliniker und Lehrer, nicht als dramatischen Auftrittsmenschen.</p>
+          <p class="vb-intro">Diese Zurückhaltung zeigte sich noch in seinem Privatleben in den Bergen: Seine zweite Frau Eleonore erinnerte sich, dass er beim Klettern „einfach nur Viktor" gewesen sei – ein echter Freund unter Gleichen, kein Ausnahmemensch, der seine Bedeutung demonstrieren musste. Mit 67 Jahren erwarb er noch den Flugschein, mit über 80 stieg er weiterhin in die Berge – stille, körperliche Disziplin, die niemandem etwas beweisen musste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Handwerkliche Substanz: Die dritte Wiener Schule der Psychotherapie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Frankls eigentliche fachliche Leistung liegt in der methodischen Schärfe, mit der er die Logotherapie von bloßer Lebenshilfe-Philosophie abgrenzte. Als „Dritte Wiener Schule" nach Freuds Willen zur Lust und Adlers Willen zur Macht postulierte er den Willen zum Sinn als primäre menschliche Antriebskraft – dabei betonte er klinisch präzise, dass Sinn gefunden werden müsse, in Arbeit, Liebe oder unausweichlichem Leiden, nicht beliebig erfunden werden könne. Dieser Unterschied trennte seinen Ansatz scharf von einem rein relativistischen Existenzialismus.</p>
+          <p class="vb-intro">Sein Werk blieb dabei kein abgeschlossenes Lebenswerk der mittleren Jahre: Er lehrte bis ins hohe Alter an Universitäten von Wien bis Harvard und Stanford, veröffentlichte über Jahrzehnte hinweg kontinuierlich neue Bücher und Vorträge – eine diszipliniert fortgesetzte fachliche Praxis, kein einmaliger Geniestreich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 zeigt sich in Frankls Fähigkeit, eine existenzielle Grundüberzeugung nicht zu predigen, sondern in eigener, überprüfbarer Praxis vorzuleben – von der Diagnosefälschung im Rothschild-Spital bis zur täglichen klinischen Arbeit über Jahrzehnte. Seine zweite Ehe mit der praktizierenden Katholikin Eleonore, in der Synagoge und Kirche, Weihnachten und Chanukka gleichberechtigt nebeneinander standen, zeigt dieselbe undogmatische, unaufgeregte Konsequenz im Privaten.</p>
+          <p class="vb-intro">Der Schatten der Eins zeigt sich in der stillen Härte, mit der eigene Maßstäbe auch unter extremstem Druck aufrechterhalten werden mussten – Frankl verlor im Holocaust seine erste Frau Tilly, seine Eltern und seinen Bruder, während er selbst vier verschiedene Lager überlebte. Dass er aus genau dieser Erfahrung heraus eine ganze Therapieschule entwickelte, statt an ihr zu zerbrechen, ist ebenso Ausdruck des Musters wie seine Gefahr: der Zwang, selbst im größten Leid noch Sinn finden zu müssen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom stillen Anspruch zur gelassenen Gewissheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit – von der Frage <em>Lebe ich richtig genug?</em> zur Erkenntnis <em>Mein Anspruch an mich selbst braucht kein Publikum, um wahr zu sein.</em> Frankl lebte diese Reife bis ins hohe Alter: Er starb 1997 im Alter von 92 Jahren, nachdem er sein Leben lang an derselben praktischen Überzeugung festgehalten hatte, ohne sie je zur lauten Mission zu machen.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-reinhold-messner">Reinhold Messner</a> (SE1w9) – auch bei ihm verbindet sich körperliche Disziplin bis ins hohe Alter mit einer öffentlichen Zurückhaltung, die den eigenen Anspruch nie zur Show macht. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-reinhold-messner">Porträt zu Reinhold Messner</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-reinhold-messner", label:"Porträt: Reinhold Messner (SE1w9)"},
+        {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
+        {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
