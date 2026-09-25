@@ -2253,3 +2253,69 @@ export function knutHamsunPortraitPage() {
     </div>
   `);
 }
+
+export function wimThoelkePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wim-thoelke-portrait.jpg" alt="Wim Thoelke – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wim Thoelke</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-Wing</p>
+        <p class="krim-portrait-subtitle">German TV host, 1927&ndash;1995 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon behind the briefcase</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wim Thoelke, born in 1927, earned a law doctorate on television and copyright law before starting his career as managing director of the German Handball Federation and a freelance sports reporter. In 1962 he moved to ZDF, headed its sports desk, and hosted over 100 episodes of "Das aktuelle Sportstudio" &ndash; a solid, matter-of-fact career path built entirely on demonstrable professional competence rather than media self-promotion.</p>
+          <p class="vb-intro">That is exactly the signature of the <strong>Raccoon</strong>, the animal of the self-preservation Three: skillful, adaptable, quietly competent rather than focused on effect. From 1970 he hosted freelance, first "Drei mal Neun," then from 1974 to 1992, across 220 episodes, "Der Große Preis" &ndash; to this day German television's most successful charity show, raising roughly 1.7 billion Deutschmarks for the children's charity Aktion Sorgenkind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Three: security through the serious anchor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is considered the Three's countertype: instead of seeking security through glamour and self-presentation, it seeks security through concretely demonstrable, reliable performance. On "Der Große Preis" this showed in an unusual division of roles: the actual comic relief, the talking dog puppet "Wum" created by Loriot with his catchphrase "Thöööölke!", needed a serious counterweight to carry the show &ndash; and it was exactly that calm, credible anchor that Thoelke supplied, while the punchlines came from the hand puppet.</p>
+          <p class="vb-intro">His own stated aim for the show was explicitly not entertainment for its own sake: "No one should feel they wasted eighty minutes pointlessly." That almost dutiful tone, focused on real, demonstrable benefit &ndash; charity as a concretely measurable donation total, not a mere gesture &ndash; is pure SP3 logic: security comes from something that can be proven, not from the mere appearance of generosity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: the hidden life behind the serious facade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A self-preservation Three with a strong Two-wing would establish security mainly through warmth and sociability. In Thoelke, the <strong>Four-wing</strong> shows instead: a private, barely publicly known abundance of individual, often unusual projects that at first glance hardly fit his serious TV image. He earned his pilot's license in 1975 and had a stake in an airline running Boeing 707 intercontinental flights, developed a sports car project, patented an elastic trouser waistband, traded haute couture fashion in Paris, and in 1979 even recorded his own album as a recorder player.</p>
+          <p class="vb-intro">None of these projects became part of his public image as the sober quiz-show host &ndash; they stayed a separate, deeply personal space of expression he preserved alongside his camera work. This is exactly where the SP3w4 logic shows: the Four-wing's individual, norm-defying depth is not put on public display, but lived out in its own protected space, while the stage remains reserved for the competent, reliable appearance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The real accomplishment: trust as a broadcast format</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thoelke's real accomplishment as a host did not lie in wit or charisma in the classic sense, but in a rare combination of legal precision, the journalistic discipline he brought from sports reporting, and the ability to hold a mass audience's trust credibly across decades. "Der Große Preis" only worked because viewers trusted Thoelke as a person behind the show &ndash; trust he had already earned through his earlier career as a serious sports journalist, long before he ever appeared as a game-show host.</p>
+          <p class="vb-intro">This professional substance also shows in the fact that across very different formats &ndash; from sports reporting through the quiz show to the later talk show "Talk Thoelke" &ndash; he always appeared as the same, recognizable character, rather than adapting himself to each genre. The format did not shape the person; the person carried the format.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the self-preservation Three with Four-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3w4 shows in the fact that Thoelke never mistook his own effect for showmanship: across two decades he remained, at his core, the same unruffled, competent presence &ndash; a constancy that gave a mass audience orientation across generations.</p>
+          <p class="vb-intro">The Three's passion is <strong>Vanity / Deceit</strong> &ndash; subtler in the self-preservation Three, but not absent: the compulsion to stay productive, versatile, and commercially successful even in areas where his actual competence did not lie. His entrepreneurial side ventures repeatedly failed, sometimes painfully &ndash; most bitterly with a Mitsubishi dealership in Frankfurt, where a business partner defrauded him and plunged him into a severe financial crisis. The raccoon, always looking for something useful to find, here overestimated its own reach beyond the camera.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The healing path: the show that spoke for itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's healing path leads from the conviction <em>I am only worth what I prove</em> to the insight <em>I am valuable, even without having to prove anything.</em> In Thoelke, one intermediate stage of this path shows up very concretely: "Der Große Preis" never had to carry itself on his person alone &ndash; the measurable donation total of 1.7 billion Deutschmarks was proof that stood independent of his personal image.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-anna-netrebko">Anna Netrebko</a> (SP3w4) &ndash; in her too, an outwardly serious, controlled public role stands opposite a privately lived, considerably more intense emotional depth that never breaks through unfiltered. More in the <a href="javascript:void(0)" data-route="beruehmte-anna-netrebko">portrait of Anna Netrebko</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-anna-netrebko", label:"Portrait: Anna Netrebko (SP3w4)"},
+        {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4)"},
+        {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},
+      ])}
+    </div>
+  `);
+}

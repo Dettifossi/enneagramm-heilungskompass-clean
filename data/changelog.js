@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2398", date: "2026-09-25", text: "Neues Porträt: Wim Thoelke (SE3w4) – Fernsehmoderator von ›Der Große Preis‹.", text_en: "New portrait: Wim Thoelke (SP3w4) – TV host of \"Der Große Preis.\"", route: "beruehmte-wim-thoelke" },
     { version: "v2397", date: "2026-09-24", text: "Neues Porträt: André Duqum (SE2w3) – Podcaster und Medienunternehmer.", text_en: "New portrait: André Duqum (SP2w3) – podcaster and media entrepreneur.", route: "beruehmte-andre-duqum" },
     { version: "v2396", date: "2026-09-24", text: "Neues Kriminalpsychologie-Porträt: Juana Barraza (SE2w3) – ›La Mataviejitas‹, mexikanische Wrestlerin.", text_en: "New criminal psychology portrait: Juana Barraza (SP2w3) – \"La Mataviejitas,\" Mexican wrestler.", route: "kriminalpsychologie-juana-barraza" },
     { version: "v2395", date: "2026-09-24", text: "Neues Porträt bei ›Berühmte Persönlichkeiten‹: Henry Shukman (SO7w6) – Zen-Lehrer, Dichter, Gründer der App ›The Way‹.", text_en: "New portrait under \"Famous Personalities\": Henry Shukman (SO7w6) – Zen teacher, poet, founder of the app \"The Way.\"", route: "beruehmte-henry-shukman" },

@@ -2266,3 +2266,69 @@ export function davidHockneyPortraitPage() {
     </div>
   `);
 }
+
+export function wimThoelkePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wim-thoelke-portrait.jpg" alt="Wim Thoelke – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wim Thoelke</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Fernsehmoderator, 1927&ndash;1995 &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär hinter dem Aktenkoffer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wim Thoelke, geboren 1927, promovierte als Jurist über Fernseh- und Urheberrecht, bevor er als Geschäftsführer des Deutschen Handballbundes und freier Sportreporter ins Berufsleben startete. 1962 wechselte er zum ZDF, leitete dort die Sportredaktion und moderierte über 100 Ausgaben von „Das aktuelle Sportstudio" – ein solider, sachlicher Karriereweg, der ganz auf nachweisbare fachliche Kompetenz statt auf mediale Selbstinszenierung setzte.</p>
+          <p class="vb-intro">Genau das ist die Handschrift des <strong>Waschbären</strong>, des Tiers der selbsterhaltenden Drei: geschickt, anpassungsfähig, unauffällig kompetent statt auf Wirkung bedacht. Ab 1970 moderierte Thoelke frei, zunächst „Drei mal Neun", dann von 1974 bis 1992 in 220 Ausgaben „Der Große Preis" – die bis heute erfolgreichste Spendenshow des deutschen Fernsehens, die für Aktion Sorgenkind rund 1,7 Milliarden D-Mark einspielte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch den seriösen Anker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Statt über Glanz und Selbstinszenierung sucht sie Sicherheit über konkret nachweisbare, verlässliche Leistung. Bei „Der Große Preis" zeigte sich das in einer ungewöhnlichen Rollenverteilung: Die eigentliche Showeinlage, der von Loriot erdachte Sprechhund „Wum" mit seinem Ruf „Thöööölke!", brauchte einen seriösen Gegenpol, der die Sendung trug – und genau diesen ruhigen, glaubwürdigen Anker lieferte Thoelke, während die Pointen von der Handpuppe kamen.</p>
+          <p class="vb-intro">Sein eigener Anspruch an die Sendung war ausdrücklich nicht Unterhaltung um ihrer selbst willen: „Keiner sollte das Gefühl haben, achtzig Minuten sinnlos vertan zu haben." Dieser fast pflichtbewusste, auf echten Nutzen bedachte Ton – Wohltätigkeit als konkret messbares Spendenergebnis, nicht als bloße Geste – ist reine SE3-Logik: Sicherheit entsteht aus etwas, das sich beweisen lässt, nicht aus dem bloßen Schein der Großzügigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: das verborgene Leben hinter der seriösen Fassade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine selbsterhaltende Drei mit ausgeprägtem Zweierflügel würde vor allem durch Fürsorge und Geselligkeit Sicherheit herstellen. Bei Thoelke zeigt sich stattdessen der <strong>Viererflügel</strong>: eine private, kaum öffentlich bekannte Fülle an individuellen, oft ungewöhnlichen Projekten, die mit seinem seriösen TV-Image auf den ersten Blick kaum zusammenpassen. Er erwarb 1975 den Pilotenschein und war an einer Fluggesellschaft mit Boeing-707-Interkontinentalflügen beteiligt, entwickelte ein Sportwagenprojekt, patentierte einen elastischen Hosenbund, handelte mit Haute-Couture-Mode in Paris und nahm 1979 sogar ein eigenes Album als Blockflötenspieler auf.</p>
+          <p class="vb-intro">Keines dieser Projekte wurde Teil seines öffentlichen Bildes als nüchterner Quizmaster – sie blieben ein separater, sehr persönlicher Ausdrucksraum, den er sich neben der Kameraarbeit bewahrte. Genau darin zeigt sich die SE3w4-Logik: Die individuelle, gegen die Norm laufende Tiefe des Viererflügels wird nicht öffentlich ausgestellt, sondern in einem eigenen, geschützten Bereich gelebt, während die Bühne dem kompetenten, verlässlichen Auftritt vorbehalten bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Vertrauen als Sendeformat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Thoelkes eigentliche moderatorische Leistung lag nicht in Witz oder Charisma im klassischen Sinn, sondern in einer seltenen Kombination aus juristischer Präzision, journalistischer Disziplin aus dem Sport und der Fähigkeit, ein Millionenpublikum über Jahrzehnte hinweg glaubwürdig zu binden. „Der Große Preis" funktionierte nur, weil die Zuschauer Thoelke als Person hinter der Sendung vertrauten – ein Vertrauen, das er sich durch seine frühere Laufbahn als seriöser Sportjournalist bereits erarbeitet hatte, bevor er überhaupt als Showmoderator auftrat.</p>
+          <p class="vb-intro">Diese fachliche Substanz zeigt sich auch darin, dass er über verschiedene Formate hinweg – von der Sportberichterstattung über die Quizshow bis zur späteren Talkshow „Talk Thoelke" – stets als derselbe, wiedererkennbare Charakter auftrat, statt sich dem jeweiligen Genre anzupassen. Nicht das Format prägte die Person, sondern die Person trug das Format.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei mit Viererflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 zeigt sich darin, dass Thoelke die eigene Wirkung nie mit Effekthascherei verwechselte: Über zwei Jahrzehnte blieb er im Kern derselbe unaufgeregte, kompetente Ansprechpartner – eine Konstanz, die einem Millionenpublikum über Generationen hinweg Orientierung bot.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist <strong>Eitelkeit / Täuschung</strong> – bei der selbsterhaltenden Drei subtiler, aber nicht abwesend: der Zwang, produktiv, vielseitig und geschäftlich erfolgreich zu bleiben, selbst dort, wo die eigene Kompetenz gar nicht lag. Seine unternehmerischen Nebenprojekte scheiterten wiederholt und teils schmerzhaft – am bittersten bei einer Frankfurter Mitsubishi-Vertretung, bei der ihn ein Geschäftspartner betrog und die ihn in eine schwere finanzielle Krise stürzte. Der Waschbär, der überall etwas Nützliches finden will, überschätzte hier die eigene Reichweite jenseits der Kamera.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: die Sendung, die für sich selbst sprach</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Überzeugung <em>Ich bin nur wert, was ich beweise</em> zur Erkenntnis <em>Ich bin wertvoll, auch ohne etwas beweisen zu müssen.</em> Bei Thoelke zeigt sich eine Zwischenstufe dieses Wegs konkret: „Der Große Preis" musste sich nicht über seine Person allein tragen – die messbare Spendensumme von 1,7 Milliarden D-Mark war ein Beweis, der unabhängig von seinem persönlichen Image bestand.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-anna-netrebko">Anna Netrebko</a> (SE3w4) – auch bei ihr steht eine nach außen seriöse, kontrollierte öffentliche Rolle einer privat gelebten, deutlich intensiveren emotionalen Tiefe gegenüber, die nie ungefiltert nach außen dringt. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-anna-netrebko">Porträt zu Anna Netrebko</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-anna-netrebko", label:"Porträt: Anna Netrebko (SE3w4)"},
+        {route:"beruehmte-norah-jones", label:"Porträt: Norah Jones (SE3w4)"},
+        {route:"beruehmte-enrico-caruso", label:"Porträt: Enrico Caruso (SE3w2)"},
+      ])}
+    </div>
+  `);
+}

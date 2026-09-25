@@ -2285,6 +2285,7 @@ export function annaNetrebkoPortraitPage() {
         {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4)"},
         {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},
         {route:"beruehmte-dmitri-hvorostovsky", label:"Portrait: Dmitri Hvorostovsky (SO3w2)"},
+        {route:"beruehmte-wim-thoelke", label:"Portrait: Wim Thoelke (SP3w4)"},
       ])}
     </div>
   `);
