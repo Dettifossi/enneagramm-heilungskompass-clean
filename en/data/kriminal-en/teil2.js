@@ -121,6 +121,7 @@ In the tension between disintegration (Two: manipulation, emotional control) and
       ${relatedLinks([
         {route:"kriminalpsychologie-ted-bundy", label:"Criminal Psychology: Ted Bundy"},
         {route:"kriminalpsychologie-pablo-escobar", label:"Criminal Psychology: Pablo Escobar"},
+        {route:"kriminalpsychologie-charles-starkweather", label:"Criminal Psychology: Charles Starkweather (SX4w3) – same subtype"},
         {route:"blickqualitaet", label:"Gaze Quality of the 9 Types"},
       ])}
     </div>

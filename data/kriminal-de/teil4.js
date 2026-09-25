@@ -1130,8 +1130,162 @@ export function bonnieParkerPortraitPage() {
         ${relatedLinks([
           {route:"kriminalpsychologie-clyde-barrow", label:"Kriminalpsychologie: Clyde Barrow (SX7w8) – ihr Partner"},
           {route:"kriminalpsychologie-adolf-hitler", label:"Kriminalpsychologie: Adolf Hitler (SX4w3)"},
+          {route:"kriminalpsychologie-charles-starkweather", label:"Kriminalpsychologie: Charles Starkweather (SX4w3)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+export function charlesStarkweatherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Charles Starkweather – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-charles-starkweather-portrait.jpg" alt="Charles Starkweather – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Charles Starkweather</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexueller Typ 4 mit Dreierflügel</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">geb. 1938, 1959 hingerichtet · Tierentsprechung: Chihuahua</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Charles Starkweather</strong> war ein amerikanischer Serienmörder, der zwischen
+        Dezember 1957 und Januar 1958 gemeinsam mit seiner vierzehnjährigen Freundin Caril Ann
+        Fugate auf einer Mordserie durch Nebraska und Wyoming elf Menschen tötete – darunter
+        Fugates eigene Familie. Die Taten begannen mit einem geplanten Raubmord an einem
+        Tankstellenwart und eskalierten zunehmend wahllos, bis das Paar nach einer Verfolgungsjagd
+        bei Douglas, Wyoming, gefasst wurde. Starkweather wurde 1959 im Alter von 21 Jahren auf
+        dem elektrischen Stuhl hingerichtet.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Charles Starkweather</strong> wird der <strong>Sexuellen Vier mit Dreierflügel</strong>
+        im Enneagramm zugeordnet. Naranjo nannte diesen Subtyp den des <em>Konkurrenzneids</em> –
+        eine Intensität, die sich unmittelbar und aggressiv gegen die als überlegen empfundene
+        Umwelt richtet, statt den eigenen Schmerz nach innen zu tragen. Der Dreierflügel zeigt
+        sich bei Starkweather in der bewussten Selbstinszenierung als James-Dean-Rebell und in
+        dem Wunsch, seine Taten als eine Art großen, bedeutsamen Abgang zu gestalten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Blickqualität</h3>
+        <p class="vb-intro"><strong>a) Eine Erscheinung, die er selbst nie akzeptierte:</strong>
+        Starkweather hatte O-Beine, einen Sprachfehler und eine starke Kurzsichtigkeit – Merkmale,
+        wegen derer er über Jahre in der Schule gehänselt wurde und die sein Selbstbild als
+        „von Natur aus benachteiligt" prägten.</p>
+        <p class="vb-intro"><strong>b) Ein Image, das über die eigene Erscheinung gelegt wurde:</strong>
+        Nach dem Kinobesuch von „…denn sie wissen nicht, was sie tun" mit James Dean kopierte er
+        dessen Frisur, Kleidung und lässig-provokante Körperhaltung so konsequent, dass sein
+        selbst gewähltes Erscheinungsbild zur zweiten, bewusst kontrollierten Identität wurde –
+        ein Gegenentwurf zu dem Jungen, über den man sich in der Schule lustig gemacht hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro">Starkweather wurde 1938 in Lincoln, Nebraska, in eine arme,
+        kinderreiche Arbeiterfamilie geboren. Er brach die Schule nach der neunten Klasse ab und
+        arbeitete danach in einfachen Jobs als Müllfahrer und Lagerarbeiter. Sein Elternhaus lag
+        am armen Rand Lincolns, unweit des wohlhabenden Country-Club-Viertels, durch das sein
+        täglicher Weg ihn regelmäßig führte – eine ständig wiederholte Konfrontation mit einem
+        Wohlstand, den er selbst nie erreichen würde.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ein Groll, der sich in Worten wie Säure niederschlug:</strong>
+        In seinen Gefängnisaufzeichnungen beschrieb Starkweather, wie sich sein Herz vor Wut
+        „schwarz gefärbt" habe, und formulierte offen: „Je mehr ich mir die Leute ansah, desto
+        mehr hasste ich sie." Zeitweise gab er an, phasenweise sogar daran gedacht zu haben,
+        „gleich die ganze menschliche Rasse" zu töten – kein Groll gegen Einzelne, sondern gegen
+        eine ganze, als überlegen empfundene Gesellschaftsschicht.</p>
+        <p class="vb-intro"><strong>b) Der erste Mord als kalkulierter Racheakt:</strong>
+        Der erste Mord am 1. Dezember 1957 galt einem Tankstellenwart, der Starkweather zuvor
+        einen Kredit für ein Geschenk an Caril Fugate verweigert hatte – die Tat war geplant,
+        motiviert durch konkrete Demütigung und Geldnot für die gemeinsame Fluchtkasse.</p>
+        <p class="vb-intro"><strong>c) Die Eskalation ins Wahllose:</strong>
+        Nach der Ermordung von Fugates Mutter, Stiefvater und ihrer zweijährigen Halbschwester am
+        21. Januar 1958 verwischte sich jede erkennbare Systematik – ein siebzigjähriger Farmer,
+        ein junges Paar, ein wohlhabendes Ehepaar samt Hausangestellter und ein reisender
+        Handelsvertreter wurden zu Opfern einer Gewalt, die zunehmend keinen erkennbaren Anlass
+        mehr brauchte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro">Nach außen: ein neunzehnjähriger Junge im James-Dean-Look, der sich
+        selbst als verkannten Rebellen inszenierte. Dahinter: eine binnen weniger Wochen
+        eskalierende Mordserie, bei der Starkweather und Fugate nach der Tötung von Fugates
+        Familie tagelang im selben Haus blieben, bevor sie überhaupt flohen – eine kalte,
+        fast beiläufige Weiterführung des Alltags über den eigenen Taten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro">Die Energie der SX4w3 zeigt sich bei Starkweather als eine
+        Gewalt, die immer auch für ein Publikum bestimmt war: für Caril Fugate an seiner Seite,
+        aber auch für die Öffentlichkeit, die seine Taten nach der Verhaftung gebannt verfolgte.
+        Sein eigener, oft zitierter Satz nach der Festnahme – „Ich wollte immer ein Krimineller
+        sein, aber kein so großer" – zeigt, wie sehr die eigene Rolle als Ausbrecher, nicht nur
+        die Taten selbst, seinem Handeln zugrunde lag.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Tieranalogie</h3>
+        <p class="vb-intro">Der Chihuahua ist winzig, doch seine Reaktionen kennen keine halben
+        Maßstäbe – ein Tier, das sich Hunden doppelter Größe entgegenstellt, weil es sein
+        eigenes kleines Territorium für ebenso schützenswert hält wie jedes andere. Starkweather,
+        körperlich klein und durch Spott gezeichnet, entwickelte genau diese kompromisslose,
+        maßlose Reaktion auf eine Welt, die ihn seiner Wahrnehmung nach nie ernst genommen hatte.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin:0;">Charles Starkweather zeigt die sexuelle Vier mit
+        Dreierflügel in ihrer zerstörerischsten Form: ein über Jahre genährter Neid auf eine
+        Gesellschaft, die ihn gedemütigt zu haben schien, verschmolz mit dem Bedürfnis, als
+        besondere, unübersehbare Figur wahrgenommen zu werden – bis beides gemeinsam in einer
+        Mordserie mündete, die er selbst als Beweis der eigenen Bedeutung inszenierte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Vertiefende Einblicke</h3>
+        <p class="vb-intro"><strong>a) Der Tod als radikaler Gleichmacher:</strong>
+        Starkweather äußerte die Überzeugung: „Dead people are all on the same level" (›Tote
+        Menschen sind alle auf derselben Stufe‹) – für den sozialen Vergleich, der sein ganzes
+        Leben bestimmte, schien der Tod das einzige Mittel zu sein, um die Unterschiede zwischen
+        sich und den „Bessergestellten" endgültig aufzuheben.</p>
+        <p class="vb-intro"><strong>b) Überforderung mit der eigenen Rolle:</strong>
+        Sein Satz „Ich wollte immer ein Krimineller sein, aber kein so großer" zeigt eine
+        Diskrepanz, die für die SX4w3 aufschlussreich ist: Die selbst inszenierte Rebellenrolle
+        war gewollt – ihr tatsächliches Ausmaß überstieg jedoch selbst die eigene Vorstellung
+        davon, wie weit diese Inszenierung gehen sollte.</p>
+        <p class="vb-intro"><strong>c) Vergleich mit Bonnie Parker:</strong>
+        Auffällig ist die Parallele zu <a href="javascript:void(0)" data-route="kriminalpsychologie-bonnie-parker">Bonnie
+        Parker</a> (SX4w3) – auch bei ihr verschmolz die eigene Identität mit einer intensiven
+        Zweierbeziehung und einer bewusst mitgestalteten öffentlichen Legende. Anders als bei
+        Parker, deren Gewalt an der Seite eines dominanteren Partners entstand, ging bei
+        Starkweather die treibende Kraft erkennbar von ihm selbst aus – Fugates tatsächliche
+        Rolle blieb bis zuletzt umstritten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Vier im Vergleich: Wie Konkurrenzneid sich in Nähe wie in Zerstörung ausdrücken kann.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE4, SO4, SX4 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 4 ausführlich porträtiert – Neid, Identität und der Heilungsweg über echte Gleichwertigkeit.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Charles Starkweather wurde für die Ermordung von elf Menschen verurteilt und 1959 hingerichtet. Das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-bonnie-parker", label:"Kriminalpsychologie: Bonnie Parker (SX4w3) – gleicher Subtyp"},
+        {route:"kriminalpsychologie-adolf-hitler", label:"Kriminalpsychologie: Adolf Hitler (SX4w3) – gleicher Subtyp"},
+      ])}
     </div>
   `);
 }

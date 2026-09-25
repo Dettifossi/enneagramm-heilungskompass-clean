@@ -217,6 +217,7 @@ export function adolfHitlerPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy"},
         {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar"},
+        {route:"kriminalpsychologie-charles-starkweather", label:"Kriminalpsychologie: Charles Starkweather (SX4w3) – gleicher Subtyp"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
       ])}
     </div>

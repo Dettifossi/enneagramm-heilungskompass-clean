@@ -631,8 +631,155 @@ export function bonnieParkerPortraitPage() {
         ${relatedLinks([
           {route:"kriminalpsychologie-clyde-barrow", label:"Criminal Psychology: Clyde Barrow (SX7w8) – her partner"},
           {route:"kriminalpsychologie-adolf-hitler", label:"Criminal Psychology: Adolf Hitler (SX4w3)"},
+          {route:"kriminalpsychologie-charles-starkweather", label:"Criminal Psychology: Charles Starkweather (SX4w3)"},
         ])}
       </div>
+    </div>
+  `);
+}
+
+export function charlesStarkweatherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Charles Starkweather – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-charles-starkweather-portrait.jpg" alt="Charles Starkweather – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Charles Starkweather</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexual Type 4 with Three-wing</p>
+        <p style="color:var(--muted);font-size:0.9rem;margin:0;">b. 1938, executed 1959 · Animal correspondence: Chihuahua</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Charles Starkweather</strong> was an American spree killer who, together with his
+        fourteen-year-old girlfriend Caril Ann Fugate, killed eleven people across Nebraska and
+        Wyoming between December 1957 and January 1958 – including Fugate's own family. The
+        killings began with a planned robbery-murder of a gas station attendant and escalated
+        into increasingly random violence, until the couple was caught after a car chase near
+        Douglas, Wyoming. Starkweather was executed in the electric chair in 1959 at age 21.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Charles Starkweather</strong> is classified as the <strong>Sexual Four with
+        Three-wing</strong> in the Enneagram. Naranjo called this subtype <em>competitive
+        envy</em> – an intensity that turns immediately and aggressively against a world
+        perceived as superior, rather than carrying its own pain inward. The Three-wing shows in
+        Starkweather's deliberate self-styling as a James Dean-style rebel and in his desire to
+        shape his crimes into a kind of grand, significant exit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Gaze Quality</h3>
+        <p class="vb-intro"><strong>a) An appearance he himself never accepted:</strong>
+        Starkweather had bowed legs, a speech impediment, and severe myopia – traits that got him
+        mocked for years in school and shaped a self-image of being "naturally disadvantaged."</p>
+        <p class="vb-intro"><strong>b) An image laid over his own appearance:</strong>
+        After seeing James Dean in "Rebel Without a Cause," he copied his hairstyle, clothing, and
+        cool, provocative posture so consistently that this self-chosen look became a second,
+        deliberately controlled identity – a counter-design to the boy who had been ridiculed at
+        school.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro">Starkweather was born in 1938 in Lincoln, Nebraska, into a poor,
+        large working-class family. He left school after ninth grade and worked simple jobs as a
+        garbage collector and warehouse worker. His family home sat on the poor edge of Lincoln,
+        not far from the wealthy Country Club district his daily route regularly took him
+        through – a constantly repeated confrontation with a prosperity he himself would never
+        reach.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) A grudge that settled like acid into his words:</strong>
+        In his prison writings, Starkweather described how his heart had "turned black" with
+        rage, and stated openly: "The more I looked at people, the more I hated them." At times
+        he claimed to have thought about killing "the whole human race" – not resentment against
+        individuals, but against an entire social class he perceived as superior.</p>
+        <p class="vb-intro"><strong>b) The first murder as a calculated act of revenge:</strong>
+        The first killing, on December 1, 1957, targeted a gas station attendant who had earlier
+        refused Starkweather credit for a gift for Caril Fugate – a planned act, driven by
+        concrete humiliation and the need for money for their shared escape fund.</p>
+        <p class="vb-intro"><strong>c) The escalation into randomness:</strong>
+        After the murder of Fugate's mother, stepfather, and two-year-old half-sister on January
+        21, 1958, any recognizable system blurred – a seventy-year-old farmer, a young couple, a
+        wealthy couple and their maid, and a traveling salesman became victims of a violence that
+        increasingly needed no recognizable reason at all.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro">On the outside: a nineteen-year-old boy in a James Dean look, styling
+        himself as a misunderstood rebel. Behind it: a murder spree escalating within weeks, in
+        which Starkweather and Fugate stayed in the same house for days after killing Fugate's
+        family, before fleeing at all – a cold, almost casual continuation of everyday life on
+        top of their own crimes.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro">The energy of the SX4w3 shows in Starkweather as a
+        violence that was always also meant for an audience: for Caril Fugate at his side, but
+        also for the public that followed his crimes with fascination after his arrest. His own,
+        often-quoted statement after his capture – "I always wanted to be a criminal, but not
+        this big a one" – shows how much the role of the outlaw itself, not only the acts
+        themselves, drove his behavior.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Animal Analogy</h3>
+        <p class="vb-intro">The Chihuahua is tiny, yet its reactions know no half-measures – an
+        animal that will stand up to dogs twice its size because it holds its own small territory
+        to be just as worth defending as any other. Starkweather, physically small and marked by
+        ridicule, developed exactly this uncompromising, boundless reaction to a world that, in
+        his perception, had never taken him seriously.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin:0;">Charles Starkweather shows the sexual Four with
+        Three-wing in its most destructive form: an envy nurtured for years against a society
+        that seemed to have humiliated him fused with the need to be seen as a special,
+        unmissable figure – until both combined into a murder spree he himself staged as proof
+        of his own significance.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">8. Deeper Insights</h3>
+        <p class="vb-intro"><strong>a) Death as a radical equalizer:</strong>
+        Starkweather expressed the conviction: "Dead people are all on the same level" – for the
+        social comparison that governed his entire life, death seemed to be the only means of
+        finally erasing the differences between himself and the "better-off."</p>
+        <p class="vb-intro"><strong>b) Overwhelmed by his own role:</strong>
+        His statement "I always wanted to be a criminal, but not this big a one" reveals a
+        discrepancy telling for the SX4w3: the self-styled rebel role was wanted – but its actual
+        scale exceeded even his own idea of how far this performance was meant to go.</p>
+        <p class="vb-intro"><strong>c) Comparison with Bonnie Parker:</strong>
+        A striking parallel exists with <a href="javascript:void(0)" data-route="kriminalpsychologie-bonnie-parker">Bonnie
+        Parker</a> (SX4w3) – in her too, personal identity fused with an intense two-person
+        relationship and a consciously co-authored public legend. Unlike Parker, whose violence
+        unfolded at the side of a more dominant partner, in Starkweather's case the driving force
+        clearly came from himself – Fugate's actual role remained disputed to the end.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The sexual Four compared: how competitive envy can express itself in closeness as well as in destruction.", "The Hidden Dynamics of the 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE4, SO4, SX4 – 27 character profiles compared.", "The 27 Personalities of the Enneagram")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 4 portrayed in depth – envy, identity, and the healing path through genuine equal worth.", "Who You Really Are – Volume 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type assignment is a psychological hypothesis, not a historical verdict. Charles Starkweather was convicted of murdering eleven people and executed in 1959. The Enneagram explains, it does not justify.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-bonnie-parker", label:"Criminal Psychology: Bonnie Parker (SX4w3) – same subtype"},
+        {route:"kriminalpsychologie-adolf-hitler", label:"Criminal Psychology: Adolf Hitler (SX4w3) – same subtype"},
+      ])}
     </div>
   `);
 }
