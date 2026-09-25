@@ -344,6 +344,7 @@ export function bernieMadoffKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"kriminalpsychologie-bernie-madoff", label:"Criminal Psychology: Bernie Madoff (SP3w4) – largest investment fraud in history"},
         {route:"krankheitsportraets-osho", label:"Illness Portrait: Osho (SP3w4) – the same discretion over his own body"},
+        {route:"krankheitsportraets-wim-thoelke", label:"Illness Portrait: Wim Thoelke (SP3w4) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se3", label:"Subtype Profile SP3"},
       ])}

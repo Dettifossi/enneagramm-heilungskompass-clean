@@ -4512,3 +4512,196 @@ export function helmutSchmidtKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function wimThoelkeKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wim-thoelke-portrait.jpg" alt="Wim Thoelke" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wim Thoelke</p>
+        <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with Four-wing · 1927–1995</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Raccoon</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal correspondence: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Wim Thoelke</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-wim-thoelke">portrait in the Famous Personalities section</a>
+        of this Compass – that page covers his role as host of "Der Große Preis" and his
+        hidden double life of a pilot's license, entrepreneurship, and a recorder album. This
+        page delves into a chapter only briefly mentioned there: years of progressive heart
+        disease, a bypass operation from which he never fully recovered, and a death in 1995
+        at his home near Wiesbaden.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Thoelke</strong> is classified as the <strong>Self-Preservation Type 3 with
+        Four-wing</strong> – the countertype of the Three, who seeks security not through
+        glamour but through demonstrable, reliable performance. His Four-wing shows as a
+        private inner life, never made public, full of unusual projects. That same split
+        between a competent public facade and a hidden inner life carried through into how he
+        handled his own heart disease.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A career under mounting physical strain:</strong>
+        For decades Thoelke simultaneously carried the lead role on one of German television's
+        biggest shows, numerous entrepreneurial side ventures, and an active life as a pilot –
+        a workload that already amounted to considerable ongoing strain on his heart and
+        circulation long before any diagnosis.</p>
+        <p class="vb-intro"><strong>b) Diagnosis of advanced coronary heart disease:</strong>
+        In March 1991 Thoelke underwent triple bypass surgery – a clear sign that his coronary
+        arteries had already narrowed significantly, long before the public knew anything about
+        it.</p>
+        <p class="vb-intro"><strong>c) A return to the stage despite visible weakness:</strong>
+        He was already back hosting the 200th episode of "Der Große Preis" in April 1991 – now
+        seated rather than standing, a small but unmistakable concession to a body that was no
+        longer the one it had been before the operation.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Working almost without a break, even after surgery:</strong>
+        Across 18 years and 220 episodes of "Der Große Preis," Thoelke reportedly missed only a
+        single one – even the months following his bypass operation formed no real exception.</p>
+        <p class="vb-intro"><strong>b) A visibly thinning appearance:</strong>
+        In the years after 1991, Thoelke increasingly appeared emaciated on screen – a physical
+        sign that a mass audience noticed, even though the show itself never openly discussed
+        his health.</p>
+        <p class="vb-intro"><strong>c) Last on-camera appearance in December 1992:</strong>
+        On 10 December 1992, Thoelke stood in front of the camera for the last time before
+        entering a specialized clinic – initially for a planned treatment of at least eight
+        weeks.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) A departure without any major public statement:</strong>
+        The shift from active hosting to clinical treatment happened without a dramatic press
+        conference or extensive public explanation – Thoelke left the stage as quietly as he
+        had occupied it for decades.</p>
+        <p class="vb-intro"><strong>b) A dispute over his own succession:</strong>
+        Alongside his withdrawal from active hosting came disagreements with ZDF's management
+        over the show's future direction, before hosting duties eventually passed to
+        Hans-Joachim Kulenkampff.</p>
+        <p class="vb-intro"><strong>c) Death on 26 November 1995 at home near Wiesbaden:</strong>
+        Wim Thoelke died at age 68 following a sudden bout of weakness at his home – roughly
+        three years after his last television appearance.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #b48a3a 10%, var(--paper));border:1.5px solid #b48a3a;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:#7a5a1e;">A parallel within the same subtype: Bernie Madoff</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <a href="javascript:void(0)" data-route="krankheitsportraets-bernie-madoff">Bernie
+        Madoff</a> (SP3w4), too, the same underlying stance shaped how he handled his own
+        mortality: he held onto outward composure to the last, even as his body was no longer
+        controllable. In Thoelke, a closely related but distinct expression of the same pattern
+        appears: not discretion for its own sake, but the persistent will to keep his function –
+        here, the broadcast slot, the reliability owed to the audience – running for as long as
+        possible, even against the visible resistance of his own body.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A public image that showed almost no cracks:</strong>
+        To viewers, Thoelke remained, essentially until his final appearance, the reliable,
+        competent host – only in hindsight do the individual signs assemble into a clear
+        illness trajectory.</p>
+        <p class="vb-intro"><strong>b) A career's end that coincided with a conflict:</strong>
+        The fact that his withdrawal from active hosting coincided in time with disputes over
+        the show's future lent his departure an added bitterness that went beyond mere medical
+        necessity.</p>
+        <p class="vb-intro"><strong>c) A death in familiar surroundings rather than in public:</strong>
+        Unlike his decades-long professional life, aimed entirely at a mass audience, his life
+        ended quietly, at his own home, far from any camera.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Functioning as self-proof, right up to the limit:</strong>
+        Near-unbroken presence across 220 broadcasts, even after triple bypass surgery, shows
+        an energy that still defined itself through demonstrable performance even in illness,
+        rather than allowing itself any rest.</p>
+        <p class="vb-intro"><strong>b) A body that drew the line where his will would not:</strong>
+        It was ultimately his own visibly weakened body that forced, in 1992, what Thoelke
+        himself evidently never considered on his own: an end to active hosting.</p>
+        <p class="vb-intro"><strong>c) No public admission of exhaustion:</strong>
+        Unlike some other illness accounts in this Compass, there are no recorded statements in
+        which Thoelke himself spoke openly about fear, exhaustion, or doubt in connection with
+        his illness.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Common Thread</h3>
+        <p class="vb-intro"><strong>a) A career built on reliability – a heart that broke down over exactly that:</strong>
+        Thoelke's entire career rested on the idea of being a steady, reliable anchor a mass
+        audience could count on at any time – of all organs, the one that, figuratively, stands
+        for steadiness and load-bearing capacity was the first to give way under decades of
+        sustained strain.</p>
+        <p class="vb-intro"><strong>b) Two separate lives to the very end:</strong>
+        Just as Thoelke never made his private inner life of piloting, entrepreneurship, and
+        music public, his heart disease also remained a private matter for years, showing
+        itself to a mass audience only in small, barely commented-on signs – a seated rather
+        than standing broadcast, a face grown thinner.</p>
+        <p class="vb-intro"><strong>c) Why the heart, of all things?</strong>
+        For a self-preservation Three with a Four-wing, whose deeper emotional intensity stayed
+        hidden behind a matter-of-fact, competent facade throughout his life, one interpretation
+        suggests itself: of all organs, the one that figuratively stands for feeling and
+        connection became the site of decline – in a man whose real emotional depth never
+        received public space throughout his life. This interpretation is a plausible reading,
+        not a documented historical causal link, and is elaborated further in this Compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Placing this without determinism:</strong>
+        This does not mean the self-preservation Three's pattern inevitably leads to heart
+        disease – <strong>anyone can develop any illness, regardless of subtype.</strong> What
+        Thoelke's case can show is a pattern in how a pronounced self-preservation Three with a
+        Four-wing handles their own physical limits, a pattern that recurs across this
+        Compass – one of many possible readings, not a verdict. The corresponding illness
+        picture is being developed step by step in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Thoelke did not know his own pattern – the self-preservation Three with a Four-wing
+        reflexively proves its worth through demonstrable, uninterrupted performance, even once
+        the body itself is sending clear warning signs, and he lived out exactly this pattern
+        unchanged into his final active years, without ever publicly developing another way of
+        handling his own exhaustion. Someone who does not recognize their own need to prove
+        themselves through function as a pattern cannot let go of it even when their own body
+        is already demanding something else.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Wim Thoelke's illness reads like the flip side of his television career: the same
+        raccoon who carried an entire show for two decades as a calm, reliable anchor held
+        quietly onto that role until his own body allowed no other choice. A man who gave
+        millions of viewers a sense of security found, in the end, only a quiet return to his
+        own home for his own weakening heart.</p>
+      </div>
+
+      <div style="margin-top:1.5rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type
+        assignment is a psychological hypothesis, not a medical diagnosis.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-wim-thoelke", label:"Portrait: Wim Thoelke (SP3w4) – Der Große Preis"},
+        {route:"krankheitsportraets-bernie-madoff", label:"Illness Portrait: Bernie Madoff (SP3w4) – same subtype"},
+        {route:"krankheitsportraets-osho", label:"Illness Portrait: Osho (SP3w4) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se3", label:"Subtype Profile SP3"},
+      ])}
+    </div>
+  `);
+}

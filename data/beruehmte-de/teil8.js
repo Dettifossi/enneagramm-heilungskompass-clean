@@ -2328,6 +2328,7 @@ export function wimThoelkePortraitPage() {
         {route:"beruehmte-anna-netrebko", label:"Porträt: Anna Netrebko (SE3w4)"},
         {route:"beruehmte-norah-jones", label:"Porträt: Norah Jones (SE3w4)"},
         {route:"beruehmte-enrico-caruso", label:"Porträt: Enrico Caruso (SE3w2)"},
+        {route:"krankheitsportraets-wim-thoelke", label:"Krankheitsporträt: Wim Thoelke – die Herzerkrankung hinter der Sendung"},
       ])}
     </div>
   `);

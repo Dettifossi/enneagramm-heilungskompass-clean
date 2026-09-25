@@ -4715,3 +4715,202 @@ export function helmutSchmidtKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function wimThoelkeKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wim-thoelke-portrait.jpg" alt="Wim Thoelke" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wim Thoelke</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel · 1927–1995</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Waschbär</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Tierentsprechung: Waschbär" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Wim Thoelke</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-wim-thoelke">Porträt in der Rubrik Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um seine Rolle als Moderator von
+        „Der Große Preis" und um sein verborgenes Doppelleben aus Pilotenschein,
+        Unternehmertum und Blockflötenalbum. Diese Seite vertieft ein Kapitel, das dort nur
+        am Rande erwähnt wird: eine über Jahre fortschreitende Herzerkrankung, eine
+        Bypass-Operation, die ihn nie mehr vollständig erholen ließ, und ein Tod 1995 zu
+        Hause bei Wiesbaden.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Thoelke</strong> ist dem <strong>selbsterhaltenden Typ 3 mit Viererflügel</strong>
+        zugeordnet – dem Kontratyp der Drei, der Sicherheit nicht über Glanz, sondern über
+        nachweisbare, verlässliche Leistung sucht. Der Viererflügel zeigt sich bei ihm als ein
+        privates, nie öffentlich gemachtes Innenleben voller ungewöhnlicher Projekte. Genau
+        diese Trennung zwischen kompetenter öffentlicher Fassade und verborgenem Innenleben
+        setzte sich bis in den Umgang mit der eigenen Herzkrankheit fort.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine Karriere unter wachsender körperlicher Belastung:</strong>
+        Über Jahrzehnte trug Thoelke gleichzeitig die Hauptmoderation einer der größten
+        deutschen Fernsehshows, zahlreiche unternehmerische Nebenprojekte und ein aktives
+        Pilotenleben – ein Arbeitspensum, das schon vor jeder Diagnose eine erhebliche
+        Dauerbelastung für Herz und Kreislauf bedeutete.</p>
+        <p class="vb-intro"><strong>b) Diagnose einer fortgeschrittenen koronaren Herzerkrankung:</strong>
+        Im März 1991 unterzog sich Thoelke einer Dreifach-Bypass-Operation – ein deutliches
+        Zeichen dafür, dass sich seine Herzgefäße bereits erheblich verengt hatten, lange bevor
+        die Öffentlichkeit davon erfuhr.</p>
+        <p class="vb-intro"><strong>c) Rückkehr auf die Bühne trotz sichtbarer Schwäche:</strong>
+        Schon bei der 200. Ausgabe von „Der Große Preis" im April 1991 moderierte er wieder –
+        nun sitzend statt stehend, ein kleines, aber unübersehbares Zugeständnis an einen
+        Körper, der nicht mehr derselbe war wie vor der Operation.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Fast lückenloses Durcharbeiten trotz Operation:</strong>
+        In 18 Jahren und 220 Ausgaben von „Der Große Preis" fehlte Thoelke nach eigenen
+        Angaben nur ein einziges Mal – auch die Monate nach seiner Bypass-Operation bildeten
+        dabei keine echte Ausnahme.</p>
+        <p class="vb-intro"><strong>b) Sichtbar schmaler werdende Erscheinung:</strong>
+        In den Jahren nach 1991 wirkte Thoelke im Fernsehen zunehmend abgemagert – ein
+        körperliches Zeichen, das dem Millionenpublikum auffiel, ohne dass die Sendung selbst
+        je offen über seinen Gesundheitszustand sprach.</p>
+        <p class="vb-intro"><strong>c) Letzter Auftritt vor der Kamera im Dezember 1992:</strong>
+        Am 10. Dezember 1992 stand Thoelke ein letztes Mal vor der Kamera, bevor er sich in
+        eine Spezialklinik begab – zunächst für eine geplante Behandlung von mindestens acht
+        Wochen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ein Abschied ohne große öffentliche Erklärung:</strong>
+        Der Wechsel von der aktiven Moderation in die Klinikbehandlung verlief ohne
+        dramatische Pressekonferenz oder ausführliche öffentliche Erklärung – Thoelke verließ
+        die Bühne so unauffällig, wie er sie Jahrzehnte lang bespielt hatte.</p>
+        <p class="vb-intro"><strong>b) Streit um die eigene Nachfolge:</strong>
+        Parallel zum Rückzug aus der aktiven Moderation kam es zu Auseinandersetzungen mit der
+        ZDF-Leitung über die künftige Ausrichtung der Sendung, bevor die Moderation schließlich
+        an Hans-Joachim Kulenkampff überging.</p>
+        <p class="vb-intro"><strong>c) Tod am 26. November 1995 zu Hause bei Wiesbaden:</strong>
+        Wim Thoelke starb im Alter von 68 Jahren nach einem Schwächeanfall in seinem
+        Wohnhaus – rund drei Jahre nach seinem letzten Fernsehauftritt.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #b48a3a 10%, var(--paper));border:1.5px solid #b48a3a;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:#7a5a1e;">Eine Parallele im gleichen Subtyp: Bernie Madoff</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Auch bei <a href="javascript:void(0)" data-route="krankheitsportraets-bernie-madoff">Bernie
+        Madoff</a> (SE3w4) betraf dieselbe Grundhaltung den Umgang mit der eigenen
+        Sterblichkeit: Er hielt bis zuletzt an äußerer Beherrschtheit fest, während sein Körper
+        längst nicht mehr kontrollierbar war. Bei Thoelke zeigt sich eine eng verwandte, aber
+        eigene Ausprägung desselben Musters: nicht Diskretion um ihrer selbst willen, sondern
+        der beharrliche Wille, die eigene Funktion – hier: den Sendeplatz, die Verlässlichkeit
+        gegenüber dem Publikum – so lange wie irgend möglich aufrechtzuerhalten, selbst gegen
+        den erkennbaren Widerstand des eigenen Körpers.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein öffentliches Bild, das kaum Risse zeigte:</strong>
+        Für das Publikum blieb Thoelke bis zu seinem letzten Auftritt im Wesentlichen der
+        verlässliche, kompetente Moderator – erst im Rückblick fügen sich die einzelnen
+        Anzeichen zu einem klaren Krankheitsverlauf zusammen.</p>
+        <p class="vb-intro"><strong>b) Ein Karriereende, das mit einem Konflikt zusammenfiel:</strong>
+        Dass sein Rückzug aus der aktiven Moderation zeitlich mit Differenzen über die
+        Zukunft der Sendung zusammenfiel, verlieh seinem Abschied zusätzlich eine gewisse
+        Bitterkeit, die über die reine gesundheitliche Notwendigkeit hinausging.</p>
+        <p class="vb-intro"><strong>c) Ein Tod im vertrauten Umfeld statt in der Öffentlichkeit:</strong>
+        Anders als sein jahrzehntelanges Berufsleben, das ganz auf ein Millionenpublikum
+        ausgerichtet war, endete sein Leben still, im eigenen Zuhause, fernab jeder Kamera.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Funktionieren als Selbstbeweis bis an die Grenze:</strong>
+        Die fast lückenlose Präsenz über 220 Sendungen hinweg, selbst nach einer
+        Dreifach-Bypass-Operation, zeigt eine Energie, die sich noch im Krankheitsfall über
+        nachweisbare Leistung definierte, statt sich Schonung zuzugestehen.</p>
+        <p class="vb-intro"><strong>b) Ein Körper, der die Grenze zog, wo der Wille es nicht tat:</strong>
+        Erst der eigene, sichtbar geschwächte Körper erzwang 1992 das, was Thoelke selbst
+        offenbar nicht von sich aus in Erwägung zog: ein Ende der aktiven Moderation.</p>
+        <p class="vb-intro"><strong>c) Kein öffentliches Eingeständnis von Erschöpfung:</strong>
+        Anders als bei manch anderem Krankheitsverlauf dieses Kompasses gibt es keine
+        überlieferten Aussagen, in denen Thoelke selbst offen über Angst, Erschöpfung oder
+        Zweifel im Zusammenhang mit seiner Erkrankung sprach.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Beruf, der auf Verlässlichkeit gebaut war – ein Herz, das genau daran zerbrach:</strong>
+        Thoelkes gesamte Karriere beruhte auf der Vorstellung, ein ruhender, verlässlicher Pol
+        zu sein, auf den sich ein Millionenpublikum jederzeit verlassen konnte – ausgerechnet
+        das Organ, das im übertragenen Sinn für Beständigkeit und Tragfähigkeit steht, gab
+        unter dieser jahrzehntelangen Dauerbelastung als erstes nach.</p>
+        <p class="vb-intro"><strong>b) Zwei getrennte Leben bis zum Schluss:</strong>
+        So wie Thoelke sein privates Innenleben aus Pilotenschein, Unternehmertum und Musik nie
+        öffentlich machte, blieb auch seine Herzkrankheit über Jahre eine private
+        Angelegenheit, die sich dem Millionenpublikum nur in kleinen, kaum kommentierten
+        Zeichen zeigte – eine sitzende statt stehende Moderation, ein schmaler gewordenes
+        Gesicht.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet das Herz?</strong>
+        Für eine selbsterhaltende Drei mit Viererflügel, deren tiefere emotionale Intensität
+        zeitlebens hinter einer sachlichen, kompetenten Fassade verborgen blieb, liegt eine
+        Deutung nahe: Ausgerechnet jenes Organ, das im übertragenen Sinn für Gefühl und
+        Verbundenheit steht, wurde zum Schauplatz des Verfalls – bei einem Mann, dessen
+        eigentliche emotionale Tiefe zeitlebens keinen öffentlichen Raum erhielt. Diese Deutung
+        ist eine plausible Interpretation, kein belegter historischer Kausalzusammenhang, und
+        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Drei zwangsläufig zu
+        Herzerkrankungen führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig
+        vom Subtyp.</strong> Was sich an Thoelkes Fall zeigen lässt, ist ein Muster im Umgang
+        mit der eigenen körperlichen Belastungsgrenze, das bei einer ausgeprägten
+        selbsterhaltenden Drei mit Viererflügel immer wieder auffällt – eine von vielen
+        möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Thoelke kannte sein eigenes Muster nicht – die selbsterhaltende Drei mit Viererflügel
+        beweist ihren Wert reflexhaft über nachweisbare, ununterbrochene Leistung, auch wenn der
+        eigene Körper längst deutliche Warnzeichen sendet, und genau dieses Muster lebte er bis
+        in seine letzten aktiven Jahre unverändert aus, ohne öffentlich eine andere Form des
+        Umgangs mit der eigenen Erschöpfung zu entwickeln. Wer das eigene Bedürfnis, sich über
+        Funktion zu beweisen, nicht als Muster erkennt, kann davon auch dann nicht ablassen,
+        wenn der eigene Körper längst etwas anderes verlangt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Wim Thoelkes Krankheitsverlauf liest sich wie die Kehrseite seiner Fernsehkarriere:
+        derselbe Waschbär, der zwei Jahrzehnte lang als ruhiger, verlässlicher Anker eine ganze
+        Sendung trug, hielt still an dieser Rolle fest, bis der eigene Körper keine andere Wahl
+        mehr zuließ. Ein Mann, der Millionen Zuschauern Sicherheit gab, fand für sein eigenes,
+        schwächer werdendes Herz zuletzt nur noch die stille Rückkehr ins eigene Zuhause.</p>
+      </div>
+
+      <div style="margin-top:1.5rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Porträt dient der tiefenpsychologischen Analyse. Die
+        Typzuordnung ist eine psychologische Hypothese, keine medizinische Diagnose.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-wim-thoelke", label:"Porträt: Wim Thoelke (SE3w4) – Der Große Preis"},
+        {route:"krankheitsportraets-bernie-madoff", label:"Krankheitsporträt: Bernie Madoff (SE3w4) – gleicher Subtyp"},
+        {route:"krankheitsportraets-osho", label:"Krankheitsporträt: Osho (SE3w4) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se3", label:"Subtyp-Profil SE3"},
+      ])}
+    </div>
+  `);
+}
