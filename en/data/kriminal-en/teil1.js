@@ -2793,7 +2793,8 @@ export function jamesDustyRhodesPortraitPage() {
         <p class="vb-intro"><strong>b) Geographic flight instead of inner change:</strong>
         Rather than holding back after the first crime, Rhodes relocated entirely – and
         continued the pattern in his new surroundings as soon as a comparable opportunity
-        arose. The flight was from discovery, not from his own behavior.</p>
+        arose. The flight served only to escape discovery – not to change his own
+        behavior.</p>
         <p class="vb-intro"><strong>c) His wife as an unwitting bystander:</strong>
         The decisive piece of evidence that led to his arrest was found, of all places, in
         his own wife's purse – a detail showing how deeply the dual structure of controlled

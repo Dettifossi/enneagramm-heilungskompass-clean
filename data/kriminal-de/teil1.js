@@ -4739,8 +4739,8 @@ export function jamesDustyRhodesPortraitPage() {
         <p class="vb-intro"><strong>b) Geografische Flucht statt innerer Umkehr:</strong>
         Statt sich nach der ersten Tat zurückzuhalten, verlegte Rhodes seinen Wohnort
         komplett – und setzte das Muster in der neuen Umgebung fort, sobald sich eine
-        vergleichbare Gelegenheit bot. Die Flucht galt der Entdeckung, nicht dem eigenen
-        Verhalten.</p>
+        vergleichbare Gelegenheit bot. Die Flucht diente allein dazu, einer Entdeckung zu
+        entgehen – nicht dazu, das eigene Verhalten zu ändern.</p>
         <p class="vb-intro"><strong>c) Die Ehefrau als unwissende Mitwisserin:</strong>
         Das entscheidende Beweisstück, das zu seiner Festnahme führte, wurde ausgerechnet in
         der Handtasche seiner eigenen Frau gefunden – ein Detail, das zeigt, wie tief die
