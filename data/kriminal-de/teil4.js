@@ -1167,8 +1167,8 @@ export function charlesStarkweatherPortraitPage() {
         eine Intensität, die sich unmittelbar und aggressiv gegen die als überlegen empfundene
         Umwelt richtet, statt den eigenen Schmerz nach innen zu tragen. Der Dreierflügel zeigt
         sich bei Starkweather in der bewussten Selbstinszenierung als James-Dean-Rebell und in
-        dem Wunsch, seine Taten als eine Art großen, bedeutsamen Abgang zu gestalten. Wie die
-        sexuelle Zwei und die sexuelle Drei ist auch die sexuelle Vier ein Bild-Typ: Die
+        dem Wunsch, seine Taten als eine Art großen, bedeutsamen Abgang zu gestalten. Wie alle
+        Typen des Herz-Zentrums (Zwei, Drei und Vier) gilt auch die Vier als Image-Typ: Die
         eigentliche Herzensverletzung wird nicht offen gezeigt, sondern in ein Image übersetzt,
         das nach außen wirken soll – bei der Vier als besondere, dramatisch inszenierte
         Einzigartigkeit. Selbst in einer brutalen Mordserie blieb Starkweather dieses Bedürfnis

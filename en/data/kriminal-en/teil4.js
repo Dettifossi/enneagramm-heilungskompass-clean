@@ -667,8 +667,9 @@ export function charlesStarkweatherPortraitPage() {
         envy</em> – an intensity that turns immediately and aggressively against a world
         perceived as superior, rather than carrying its own pain inward. The Three-wing shows in
         Starkweather's deliberate self-styling as a James Dean-style rebel and in his desire to
-        shape his crimes into a kind of grand, significant exit. Like the sexual Two and the
-        sexual Three, the sexual Four is also an image type: the actual wound to the heart is
+        shape his crimes into a kind of grand, significant exit. Like all heart-center types
+        (Two, Three, and Four), the Four is also considered an image type: the actual wound to
+        the heart is
         not shown openly but translated into an image meant to work on others – for the Four,
         that image is a dramatically staged, special uniqueness. Even in the middle of a brutal
         murder spree, this need to present a certain image – to Fugate, to the press, to
