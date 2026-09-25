@@ -1241,7 +1241,7 @@ export function bernardEugeneGilesPortraitPage() {
         Giles wählte seine Opfer nicht im Voraus aus, sondern durchstreifte wiederholt dieselben
         Straßen, bis sich zufällig eine Anhalterin zeigte. Statt eines aktiv verfolgten,
         bestimmten Ziels ließ er sich vom Zufallsangebot der Straße treiben – ein Vorgehen, das
-        eher einem Sich-treiben-lassen als einer entschlossenen Jagd glich.</p>
+        eher einem Treibenlassen als einer entschlossenen Jagd glich.</p>
         <p class="vb-intro"><strong>c) Fünf Opfer in zwölf Wochen:</strong>
         Zwischen September und November 1973 tötete Giles fünf junge Frauen und Mädchen –
         Nancy Gerry, Paula Hamric, Carolyn Bennett, Sharon Wilmer und Krista Melton. Gefasst
