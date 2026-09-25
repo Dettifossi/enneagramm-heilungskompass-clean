@@ -1149,6 +1149,189 @@ export function edGeinPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Kriminalpsychologie: Wolfgang Beltracchi (SX9w1) – Kunstfälscher"},
         {route:"kriminalpsychologie-alfons-schuhbeck", label:"Kriminalpsychologie: Alfons Schuhbeck (SE9w1)"},
+        {route:"kriminalpsychologie-bernard-eugene-giles", label:"Kriminalpsychologie: Bernard Eugene Giles (SX9w1) – gleicher Subtyp"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+      ])}
+      <div style="margin-top:1.5rem;max-width:100%;">
+        <button class="ghost-link" data-route="kriminalpsychologie">← Zurück zur Kriminalpsychologie-Übersicht</button>
+      </div>
+    </div>
+  `);
+}
+
+export function bernardEugeneGilesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Bernard Eugene Giles – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-bernard-eugene-giles-portrait.jpg" alt="Bernard Eugene Giles – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bernard Eugene Giles</p>
+        <p class="krim-portrait-typ">SX9w1 · Sexueller Typ 9 mit Einserflügel</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">USA, geb. 1953 · Fünf Morde 1973 · Tierentsprechung: Faultier</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Bernard Eugene Giles</strong> tötete zwischen September und November 1973 in
+        Brevard County, Florida, innerhalb von zwölf Wochen fünf junge Frauen und Mädchen im
+        Alter von 14 bis 22 Jahren. Er suchte sie gezielt als Anhalterinnen entlang der
+        Landstraßen aus, vergewaltigte, erwürgte und erschoss sie; die Leichen wurden in
+        Orangenhainen bei Titusville gefunden. Zum Zeitpunkt der ersten Tat war Giles zwanzig
+        Jahre alt, verheiratet und Vater einer erst wenige Wochen zuvor geborenen Tochter.
+        Nach seiner Festnahme gestand er alle fünf Morde und wurde 1977 zu fünf lebenslangen
+        Haftstrafen nacheinander verurteilt.
+      </p>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Bernard Eugene Giles</strong> wird dem <strong>Sexuellen Typ 9 mit Einserflügel
+        (SX9w1)</strong> zugeordnet. Die sexuelle Neun sucht keine gewöhnliche Nähe, sondern
+        eine totale Verschmelzung, bei der das eigene Ich beinahe verschwindet. Der Einserflügel
+        bringt eine stille, methodische Konsequenz hinzu – kein impulsiver Ausbruch, sondern
+        ein über Wochen mit derselben ruhigen Systematik wiederholtes Vorgehen. Giles selbst
+        führte den Ursprung seines Verhaltens auf ein prägendes Erlebnis im Alter von sechs
+        Jahren zurück – ein früh entstandenes, über Jahrzehnte komplett privat gehaltenes
+        inneres Muster, ganz im Sinne der verschmelzungssuchenden, in sich zurückgezogenen Neun.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Äußere Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein gefährlich leerer Blick:</strong>
+        In einem späteren Interview aus der Haft sitzt Giles fast bewegungslos, mit einem
+        ausdruckslosen, ins Leere gerichteten Blick – keine Anspannung, keine Abwehr, einfach
+        nichts. Genau diese Leere, die Beobachter als beunruhigender empfinden als jede sichtbare
+        Erregung, ist die äußere Form der Neuner-Selbstvergessenheit: ein Bewusstsein, das sich
+        von der eigenen Tat und ihrer Bedeutung vollständig abgekoppelt hat.</p>
+        <p class="vb-intro"><strong>b) Unauffällig im Alltag, beobachtend im Verborgenen:</strong>
+        Nachbarn im Wohnwagenpark erinnerten sich an Giles als jemanden, der oft stundenlang
+        allein im Waschraum saß, ohne selbst Wäsche zu waschen – er beobachtete lediglich das
+        Kommen und Gehen der anderen. Kein aktives Eingreifen, kein Gespräch, nur ein passives
+        Registrieren der Umgebung von der Seitenlinie aus.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine unauffällige, stabile Herkunft:</strong>
+        Giles wuchs in einem nach außen geordneten, liebevollen Elternhaus auf, als eines von
+        vier Kindern – seine Geschwister führten spätere, völlig unauffällige Leben. Es gibt
+        keine dokumentierte Geschichte von Misshandlung oder familiärem Chaos, die sein
+        Verhalten naheliegend erklären würde.</p>
+        <p class="vb-intro"><strong>b) Früher Ehemann und Vater:</strong>
+        Mit zwanzig Jahren lebte Giles bereits mit seiner achtzehnjährigen Frau und der
+        gemeinsamen, erst kurz zuvor geborenen Tochter in einem Wohnwagenpark in Florida – nach
+        außen ein junges, gewöhnliches Familienleben, das mit dem parallel bestehenden,
+        vollständig abgeschotteten inneren Zwang nichts zu tun zu haben schien.</p>
+        <p class="vb-intro"><strong>c) Ein Muster, benannt bis in die Kindheit zurück:</strong>
+        Giles selbst datierte den Ursprung seiner Gewaltfantasien auf ein Erlebnis im Alter von
+        sechs Jahren, das er als eine Art „Grundprägung" beschrieb, in der sich Gewalt und
+        sexuelle Erregung erstmals verbanden – ein Innenleben, das über vierzehn Jahre hinweg
+        vollständig unbemerkt neben einem äußerlich normalen Leben herlief.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Tatgeschehen</h3>
+        <p class="vb-intro"><strong>a) Der Auslöser: ein bis zwei Monate nach der Geburt:</strong>
+        Nach eigener Aussage traf Giles etwa sechs bis acht Wochen nach der Geburt seiner
+        Tochter die „bewusste Entscheidung", mit dem Auto gezielt auf die Landstraße zu fahren,
+        um Opfer zu finden – ein neues Elternschafts- und Verantwortungsgewicht fiel zeitlich
+        exakt mit dem Ausbruch eines zuvor jahrelang eingedämmten Musters zusammen.</p>
+        <p class="vb-intro"><strong>b) Passives Umherfahren statt gezielter Verfolgung:</strong>
+        Giles wählte seine Opfer nicht im Voraus aus, sondern durchstreifte wiederholt dieselben
+        Straßen, bis sich zufällig eine Anhalterin zeigte. Statt eines aktiv verfolgten,
+        bestimmten Ziels ließ er sich vom Zufallsangebot der Straße treiben – ein Vorgehen, das
+        eher einem Sich-treiben-lassen als einer entschlossenen Jagd glich.</p>
+        <p class="vb-intro"><strong>c) Fünf Opfer in zwölf Wochen:</strong>
+        Zwischen September und November 1973 tötete Giles fünf junge Frauen und Mädchen –
+        Nancy Gerry, Paula Hamric, Carolyn Bennett, Sharon Wilmer und Krista Melton. Gefasst
+        wurde er, nachdem zwei weiteren, versuchten Entführungen ihre Opfer entkommen konnten
+        und ihn identifizierten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die Neun in der Selbstvergessenheit</h3>
+        <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> – gemeint
+        ist keine körperliche Faulheit, sondern eine psychische Selbstvergessenheit: das
+        allmähliche Verblassen des eigenen inneren Erlebens zugunsten eines Aufgehens im Äußeren.
+        Bei Giles zeigte sich diese Betäubung in einer Weise, die selbst erfahrene Ermittler
+        irritierte: Er nannte das Morden schlicht seine „Lebens-Passion" und beschrieb sein
+        Motiv nüchtern als rein sexuell – ohne den geringsten Anflug von Wut, Rachegefühl oder
+        Machtgier, die man bei den meisten anderen Serientätern findet.</p>
+        <p class="vb-intro">Als er Jahrzehnte später im Gefängnis gefragt wurde, ob er sich bei
+        den Hinterbliebenen entschuldigen wolle, reagierte er mit aufrichtiger Verwunderung über
+        die Frage selbst: Das bringe ihm doch nichts. Diese Antwort ist keine trotzige
+        Verweigerung, sondern echte Selbstvergessenheit, die so weit reicht, dass selbst der
+        Gedanke an das Leid der anderen keinen inneren Widerhall mehr findet.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Verschmelzung mit dem Unbekannten</h3>
+        <p class="vb-intro">Giles gab an, Frauen, die er persönlich kannte, nicht hätte töten
+        können – ausschließlich Fremde kamen infrage. Das ist ein aufschlussreicher Unterschied
+        zu vielen anderen Serientätern, deren Gewalt sich gerade an einer bestimmten,
+        individuellen Person entlädt. Bei der sexuellen Neun verschmilzt das eigene Ich nicht
+        mit einem realen, eigenständigen Gegenüber, sondern mit einem austauschbaren, idealisiert
+        gedachten Bild – eine bekannte Person hätte mit ihrer eigenen, unbequemen Wirklichkeit
+        diese Verschmelzungsfantasie sofort zerstört.</p>
+        <p class="vb-intro">Genau darin liegt auch die Erklärung für seine passive Jagdmethode:
+        Nicht die kontrollierte Verfolgung eines bestimmten Menschen, sondern das Aufgehen im
+        Zufallsstrom der Straße selbst – eine Umgebung, die sich anbietet, statt aktiv
+        unterworfen zu werden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Das Tier: Das Faultier</h3>
+        <p class="vb-intro">Das Faultier bewegt sich so selten, dass Algen auf seinem Fell
+        wachsen – von außen betrachtet fast reglos, im Inneren jedoch von einem eigenen,
+        kaum sichtbaren Rhythmus gesteuert. Giles' Interview-Auftreten Jahrzehnte nach den Taten
+        zeigt genau dieses Bild in Reinform: kaum eine Regung, ein Blick, der ins Leere geht,
+        ein Körper, der einfach nur dasitzt, während im Inneren ein völlig eigenes, von außen
+        kaum zugängliches System abläuft.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">Parallele im selben Subtyp: Ed Gein (SX9w1)</h3>
+        <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="kriminalpsychologie-ed-gein">Ed
+        Gein</a> ist in diesem Kompass als SX9w1 typisiert, und beide Fälle teilen dieselbe
+        emotionale Stumpfheit gegenüber der eigenen Tat. Der entscheidende Unterschied liegt im
+        Verschmelzungsobjekt: Gein verschmolz mit einer ganz bestimmten, verlorenen Person –
+        seiner toten Mutter –, während Giles' Verschmelzung sich an keine reale, individuelle
+        Person band, sondern an ein austauschbares, anonymes Bild. Bei Gein war die Wahl der
+        Opfer hoch spezifisch; bei Giles war die einzige Bedingung, dass die Frau ihm zuvor
+        völlig unbekannt war.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">7. Zusammenfassung</h3>
+        <p style="margin:0 0 0.8rem;font-size:0.95rem;line-height:1.7;color:var(--ink);">
+        Bernard Eugene Giles zeigt eine seltene, extreme Form der sexuellen Neun mit
+        Einserflügel: eine über Jahrzehnte im Verborgenen gewachsene Verschmelzungssehnsucht,
+        die sich nicht an eine bestimmte Person, sondern an das anonyme Zufallsangebot der
+        Straße richtete – ausgelöst in dem Moment, in dem eine neue familiäre Bindung das
+        bisherige innere Gleichgewicht am stärksten forderte.</p>
+        <p style="margin:0;font-size:0.95rem;line-height:1.7;color:var(--ink);">
+        Die auffällige emotionale Leere, mit der er Jahrzehnte später über seine Taten sprach,
+        ist keine nachträgliche Kälte, sondern derselbe Mechanismus, der die Taten selbst
+        ermöglichte: eine Selbstvergessenheit, die so tief reicht, dass weder die Tat noch ihre
+        Folgen jemals wirklich als eigene Realität ankamen.</p>
+      </div>
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die
+        Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Bernard Eugene
+        Giles wurde 1977 wegen fünffachen Mordes zu fünf lebenslangen Haftstrafen verurteilt.
+        Das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"kriminalpsychologie-ed-gein", label:"Kriminalpsychologie: Ed Gein (SX9w1) – gleicher Subtyp"},
+        {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Kriminalpsychologie: Wolfgang Beltracchi (SX9w1) – gleicher Subtyp"},
         {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
       ])}
       <div style="margin-top:1.5rem;max-width:100%;">

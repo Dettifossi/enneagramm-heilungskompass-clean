@@ -80,6 +80,7 @@ export const registerEntries = [
   // Kriminalpsychologie – fehlende Portraits
   { term: "John Hinckley Jr.", route: "kriminalpsychologie-john-hinckley-jr", description: "Kriminalpsychologisches Portrait: SE9w8 – Attentat auf Reagan 1981, Fixierung auf Jodie Foster, Vulkan-Effekt der 9w8" },
   { term: "Ed Gein", route: "kriminalpsychologie-ed-gein", description: "Kriminalpsychologisches Portrait: SX9w1 – Grabschändungen, zwei Morde, wahnhafte Verschmelzung mit der toten Mutter" },
+  { term: "Bernard Eugene Giles", route: "kriminalpsychologie-bernard-eugene-giles", description: "Kriminalpsychologisches Portrait: SX9w1 – fünf Morde 1973, Florida, Verschmelzung mit anonymen Fremden" },
   { term: "Alfons Schuhbeck",               route: "kriminalpsychologie-alfons-schuhbeck", description: "Kriminalpsychologisches Portrait: Starkoch, Steuerhinterziehung, öffentliche Fassade & Kontrollverlust" },
   { term: "Boris Becker (Kriminalpsychologie)", route: "kriminalpsychologie-boris-becker", description: "Kriminalpsychologisches Portrait: Tennislegende, Insolvenz, SX7w8-Analyse" },
   { term: "Frank Abagnale Jr.",             route: "kriminalpsychologie-frank-abagnale-jr", description: "Kriminalpsychologisches Portrait: Meisterfälscher & Betrüger, Catch Me If You Can" },
@@ -2927,6 +2928,7 @@ export const registerEntriesEN = [
   { term: "Alfons Schuhbeck", route: "kriminalpsychologie-alfons-schuhbeck", description: "Criminal psychological portrait: celebrity chef, tax evasion, public facade & loss of control" },
   { term: "John Hinckley Jr.", route: "kriminalpsychologie-john-hinckley-jr", description: "Criminal psychological portrait: SE9w8 – 1981 assassination attempt on Reagan, fixation on Jodie Foster, volcano effect of the 9w8" },
   { term: "Ed Gein", route: "kriminalpsychologie-ed-gein", description: "Criminal psychological portrait: SX9w1 – grave robberies, two murders, delusional merging with his dead mother" },
+  { term: "Bernard Eugene Giles", route: "kriminalpsychologie-bernard-eugene-giles", description: "Criminal psychological portrait: SX9w1 – five murders in 1973, Florida, merging with anonymous strangers" },
   { term: "Boris Becker (Criminal Psychology)", route: "kriminalpsychologie-boris-becker", description: "Criminal psychological portrait: tennis legend, insolvency, SX7w8 analysis" },
   { term: "Frank Abagnale Jr.", route: "kriminalpsychologie-frank-abagnale-jr", description: "Criminal psychological portrait: master forger & con artist, Catch Me If You Can" },
   { term: "Victor Lustig", route: "kriminalpsychologie-victor-lustig", description: "Criminal psychological portrait: SX7w8 – sold the Eiffel Tower twice, conned Al Capone" },

@@ -804,6 +804,181 @@ export function edGeinPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Psychology: Wolfgang Beltracchi (SX9w1) – Art Forger"},
         {route:"kriminalpsychologie-alfons-schuhbeck", label:"Criminal Psychology: Alfons Schuhbeck (SE9w1)"},
+        {route:"kriminalpsychologie-bernard-eugene-giles", label:"Criminal Psychology: Bernard Eugene Giles (SX9w1) – same subtype"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+      ])}
+      <div style="margin-top:1.5rem;max-width:100%;">
+        <button class="ghost-link" data-route="kriminalpsychologie">← Back to Criminal Psychology Overview</button>
+      </div>
+    </div>
+  `);
+}
+
+export function bernardEugeneGilesPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Bernard Eugene Giles – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-bernard-eugene-giles-portrait.jpg" alt="Bernard Eugene Giles – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bernard Eugene Giles</p>
+        <p class="krim-portrait-typ">SX9w1 · Sexual Type 9 with One-wing</p>
+        <p style="font-size:0.85rem;color:var(--muted);margin:0.2rem 0 0;">USA, b. 1953 · Five murders in 1973 · Animal correspondence: Sloth</p>
+      </div>
+
+      <p class="psycho-intro">
+        <strong>Bernard Eugene Giles</strong> killed five young women and girls, aged 14 to 22,
+        in Brevard County, Florida, between September and November 1973, within a twelve-week
+        span. He specifically targeted them as hitchhikers along the highways, raped, strangled,
+        and shot them; the bodies were found in orange groves near Titusville. At the time of
+        the first murder, Giles was twenty years old, married, and the father of a daughter born
+        only weeks earlier. After his arrest he confessed to all five murders and in 1977 was
+        sentenced to five consecutive life terms.
+      </p>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Bernard Eugene Giles</strong> is classified as the <strong>Sexual Type 9 with
+        One-wing (SX9w1)</strong>. The sexual Nine seeks not ordinary closeness, but total
+        merging, in which the self nearly disappears. The One-wing adds a quiet, methodical
+        consistency – not an impulsive outburst, but the same calm system repeated over weeks.
+        Giles himself traced the origin of his behavior to a formative experience at age six –
+        an inner pattern that formed early and stayed completely private for decades, very much
+        in the manner of the merging-seeking, withdrawn Nine.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Physical Characteristics</h3>
+        <p class="vb-intro"><strong>a) A dangerously empty gaze:</strong>
+        In a later prison interview, Giles sits almost motionless, with a blank, faraway stare –
+        no tension, no defensiveness, simply nothing. This emptiness, which observers find more
+        unsettling than any visible agitation, is the outward form of Nine's self-forgetting: a
+        consciousness that has fully disconnected from its own act and its meaning.</p>
+        <p class="vb-intro"><strong>b) Unremarkable in daily life, watching from the sidelines:</strong>
+        Neighbors in the trailer park remembered Giles as someone who often sat alone in the
+        laundry room for hours without doing any laundry himself – he simply watched people come
+        and go. No active engagement, no conversation, just a passive registering of his
+        surroundings from the sidelines.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) An unremarkable, stable background:</strong>
+        Giles grew up in an outwardly orderly, loving household, one of four children – his
+        siblings went on to lead entirely unremarkable lives. There is no documented history of
+        abuse or family chaos that would obviously explain his behavior.</p>
+        <p class="vb-intro"><strong>b) An early husband and father:</strong>
+        By age twenty, Giles was already living with his eighteen-year-old wife and their
+        newborn daughter in a Florida trailer park – outwardly a young, ordinary family life
+        that appeared to have nothing to do with the fully compartmentalized inner compulsion
+        running alongside it.</p>
+        <p class="vb-intro"><strong>c) A pattern traced back to childhood:</strong>
+        Giles himself dated the origin of his violent fantasies to an experience at age six,
+        which he described as a kind of "foundational imprint" in which violence and sexual
+        arousal first fused – an inner life that ran completely unnoticed alongside an
+        outwardly normal life for fourteen years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Crimes</h3>
+        <p class="vb-intro"><strong>a) The trigger: one to two months after the birth:</strong>
+        By his own account, roughly six to eight weeks after his daughter's birth, Giles made a
+        "deliberate decision" to drive out onto the highway specifically to find victims – a new
+        weight of parenthood and responsibility coincided exactly with the outbreak of a pattern
+        that had been contained for years.</p>
+        <p class="vb-intro"><strong>b) Passive roaming instead of targeted pursuit:</strong>
+        Giles did not select his victims in advance; he repeatedly drove the same roads until a
+        hitchhiker happened to appear. Rather than actively pursuing a specific, chosen target,
+        he let himself drift along with whatever the road happened to offer – a pattern closer
+        to drifting than to a determined hunt.</p>
+        <p class="vb-intro"><strong>c) Five victims in twelve weeks:</strong>
+        Between September and November 1973, Giles killed five young women and girls – Nancy
+        Gerry, Paula Hamric, Carolyn Bennett, Sharon Wilmer, and Krista Melton. He was caught
+        after two further attempted abductions failed when the intended victims escaped and
+        identified him.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The Nine in Self-Forgetting</h3>
+        <p class="vb-intro">The Nine's passion is called <strong>sloth</strong> – not physical
+        laziness, but a psychological self-forgetting: the gradual fading of one's own inner
+        experience in favor of dissolving into the external world. In Giles, this numbing showed
+        itself in a way that unsettled even experienced investigators: he simply called killing
+        his "life's passion" and described his motive matter-of-factly as purely sexual –
+        without the slightest trace of the rage, revenge, or lust for power found in most other
+        serial offenders.</p>
+        <p class="vb-intro">When he was asked decades later, in prison, whether he wanted to
+        apologize to the victims' families, he responded with genuine puzzlement at the question
+        itself: it wouldn't get him anything. This is not defiant refusal but genuine
+        self-forgetting, reaching so far that even the thought of others' suffering finds no
+        inner echo at all.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Merging with the Unknown</h3>
+        <p class="vb-intro">Giles stated that he could not have killed women he knew
+        personally – only strangers were ever a possibility. This is a telling contrast to many
+        other serial offenders, whose violence discharges precisely onto one particular,
+        individual person. In the sexual Nine, the self does not merge with a real, independent
+        other, but with an interchangeable, idealized image – a person he knew would have
+        immediately shattered this merging fantasy with her own, inconvenient reality.</p>
+        <p class="vb-intro">This also explains his passive hunting method: not the controlled
+        pursuit of one specific person, but dissolving into the random flow of the road itself –
+        an environment that offers itself up, rather than being actively subdued.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. The Animal: The Sloth</h3>
+        <p class="vb-intro">The sloth moves so rarely that algae grows on its fur – seen from
+        outside, nearly motionless, yet governed inside by its own, barely visible rhythm.
+        Giles's demeanor in an interview decades after the murders shows exactly this image in
+        its purest form: hardly a flicker of movement, a gaze fixed on nothing, a body simply
+        sitting there while, inside, an entirely separate system runs on, barely accessible from
+        the outside.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">A parallel within the same subtype: Ed Gein (SX9w1)</h3>
+        <p class="vb-intro">Ed Gein is also classified as SX9w1 in this Compass, and both cases
+        share the same emotional numbness toward their own actions. The key difference lies in
+        the object of merging: Gein merged with one very specific, lost person – his dead
+        mother – while Giles's merging attached to no real, individual person at all, but to an
+        interchangeable, anonymous image. For Gein, victim selection was highly specific; for
+        Giles, the only condition was that the woman be a complete stranger to him.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">7. Summary</h3>
+        <p style="margin:0 0 0.8rem;font-size:0.95rem;line-height:1.7;color:var(--ink);">
+        Bernard Eugene Giles shows a rare, extreme form of the sexual Nine with One-wing: a
+        longing for merging that had grown in secret for decades and that attached not to a
+        specific person but to the anonymous, random offerings of the road – triggered at the
+        exact moment a new family bond placed the greatest demand yet on his existing inner
+        balance.</p>
+        <p style="margin:0;font-size:0.95rem;line-height:1.7;color:var(--ink);">
+        The striking emotional emptiness with which he spoke about his crimes decades later is
+        not a later-acquired coldness, but the very same mechanism that made the crimes possible
+        in the first place: a self-forgetting so deep that neither the act nor its consequences
+        ever truly registered as his own reality.</p>
+      </div>
+
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The type
+        assignment is a psychological hypothesis, not a historical verdict. Bernard Eugene Giles
+        was convicted in 1977 of five counts of murder and sentenced to five consecutive life
+        terms. The Enneagram explains, it does not justify.
+        </p>
+      </div>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"kriminalpsychologie-ed-gein", label:"Criminal Psychology: Ed Gein (SX9w1) – same subtype"},
+        {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Criminal Psychology: Wolfgang Beltracchi (SX9w1) – same subtype"},
         {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
       ])}
       <div style="margin-top:1.5rem;max-width:100%;">
