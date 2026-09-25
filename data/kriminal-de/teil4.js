@@ -1167,7 +1167,13 @@ export function charlesStarkweatherPortraitPage() {
         eine Intensität, die sich unmittelbar und aggressiv gegen die als überlegen empfundene
         Umwelt richtet, statt den eigenen Schmerz nach innen zu tragen. Der Dreierflügel zeigt
         sich bei Starkweather in der bewussten Selbstinszenierung als James-Dean-Rebell und in
-        dem Wunsch, seine Taten als eine Art großen, bedeutsamen Abgang zu gestalten.</p>
+        dem Wunsch, seine Taten als eine Art großen, bedeutsamen Abgang zu gestalten. Wie die
+        sexuelle Zwei und die sexuelle Drei ist auch die sexuelle Vier ein Bild-Typ: Die
+        eigentliche Herzensverletzung wird nicht offen gezeigt, sondern in ein Image übersetzt,
+        das nach außen wirken soll – bei der Vier als besondere, dramatisch inszenierte
+        Einzigartigkeit. Selbst in einer brutalen Mordserie blieb Starkweather dieses Bedürfnis
+        erhalten, vor anderen – vor Fugate, vor der Presse, vor sich selbst – ein bestimmtes
+        Bild abzugeben, statt einfach nur zu handeln.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -1181,6 +1187,12 @@ export function charlesStarkweatherPortraitPage() {
         dessen Frisur, Kleidung und lässig-provokante Körperhaltung so konsequent, dass sein
         selbst gewähltes Erscheinungsbild zur zweiten, bewusst kontrollierten Identität wurde –
         ein Gegenentwurf zu dem Jungen, über den man sich in der Schule lustig gemacht hatte.</p>
+        <p class="vb-intro"><strong>c) Der Chihuahua, lange bevor er ein Mörder wurde:</strong>
+        Berichten aus seiner Schulzeit zufolge legte sich Starkweather bereits als Junge mit
+        deutlich älteren und größeren Mitschülern an, sobald ihn jemand hänselte oder ihm zu nahe
+        kam – mit einer Wucht und Unerbittlichkeit, die selbst die körperlich überlegenen
+        Angreifer zurückweichen ließ. Dasselbe Muster, das später die Mordserie prägte, war also
+        lange vor der ersten Tat bereits als Verhaltensmuster angelegt.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -1205,21 +1217,28 @@ export function charlesStarkweatherPortraitPage() {
         Der erste Mord am 1. Dezember 1957 galt einem Tankstellenwart, der Starkweather zuvor
         einen Kredit für ein Geschenk an Caril Fugate verweigert hatte – die Tat war geplant,
         motiviert durch konkrete Demütigung und Geldnot für die gemeinsame Fluchtkasse.</p>
-        <p class="vb-intro"><strong>c) Die Eskalation ins Wahllose:</strong>
-        Nach der Ermordung von Fugates Mutter, Stiefvater und ihrer zweijährigen Halbschwester am
-        21. Januar 1958 verwischte sich jede erkennbare Systematik – ein siebzigjähriger Farmer,
-        ein junges Paar, ein wohlhabendes Ehepaar samt Hausangestellter und ein reisender
-        Handelsvertreter wurden zu Opfern einer Gewalt, die zunehmend keinen erkennbaren Anlass
-        mehr brauchte.</p>
+        <p class="vb-intro"><strong>c) Der Wendepunkt: die Familie der eigenen Freundin:</strong>
+        Fugates Mutter Velda und ihr Stiefvater Marion Bartlett lehnten die Beziehung zu dem
+        fünf Jahre älteren Starkweather offen ab und hielten ihn für „Ärger" – am 21. Januar 1958
+        eskalierte ein Streit um genau diese Ablehnung, in dessen Verlauf Starkweather beide
+        erschoss und anschließend die zweijährige Halbschwester Betty Jean tötete. Die drei
+        Leichen wurden im Außenklo und im Hühnerstall versteckt, während das Paar noch tagelang
+        im selben Haus blieb.</p>
+        <p class="vb-intro"><strong>d) Die Eskalation ins Wahllose:</strong>
+        Nach diesem Dreifachmord verwischte sich jede erkennbare Systematik – ein
+        siebzigjähriger Farmer, ein junges Paar, ein wohlhabendes Ehepaar samt Hausangestellter
+        und ein reisender Handelsvertreter wurden zu Opfern einer Gewalt, die zunehmend keinen
+        erkennbaren Anlass mehr brauchte.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
         <p class="vb-intro">Nach außen: ein neunzehnjähriger Junge im James-Dean-Look, der sich
         selbst als verkannten Rebellen inszenierte. Dahinter: eine binnen weniger Wochen
-        eskalierende Mordserie, bei der Starkweather und Fugate nach der Tötung von Fugates
-        Familie tagelang im selben Haus blieben, bevor sie überhaupt flohen – eine kalte,
-        fast beiläufige Weiterführung des Alltags über den eigenen Taten.</p>
+        eskalierende Mordserie, bei der Starkweather und Fugate noch tagelang im Haus der
+        Getöteten blieben, Besucher an der Tür abwiesen und den Alltag scheinbar unbeeindruckt
+        fortsetzten – eine kalte, fast beiläufige Weiterführung des Alltags über die eigenen
+        Taten hinaus.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -1269,6 +1288,15 @@ export function charlesStarkweatherPortraitPage() {
         Parker, deren Gewalt an der Seite eines dominanteren Partners entstand, ging bei
         Starkweather die treibende Kraft erkennbar von ihm selbst aus – Fugates tatsächliche
         Rolle blieb bis zuletzt umstritten.</p>
+        <p class="vb-intro"><strong>d) Was aus Caril Ann Fugate wurde:</strong>
+        Fugate gab an, von Starkweather als Geisel festgehalten worden zu sein und nichts vom
+        Tod ihrer eigenen Familie gewusst zu haben; die Geschworenen glaubten ihr nicht und
+        verurteilten sie wegen Mordes ersten Grades zu lebenslanger Haft. 1973 wurde die Strafe
+        auf 30 bis 50 Jahre reduziert, 1976 kam sie nach 18 Jahren Haft auf Bewährung frei.
+        Obwohl sie im Gefängnis zur Krankenschwester ausgebildet worden war, durfte sie diesen
+        Beruf wegen ihrer Vorstrafe nie ausüben und arbeitete rund drei Jahrzehnte lang als
+        Reinigungskraft in einem Krankenhaus in Michigan. Sie heiratete 2007 erneut und beteuert
+        bis heute ihre Unschuld.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">

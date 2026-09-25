@@ -667,7 +667,13 @@ export function charlesStarkweatherPortraitPage() {
         envy</em> – an intensity that turns immediately and aggressively against a world
         perceived as superior, rather than carrying its own pain inward. The Three-wing shows in
         Starkweather's deliberate self-styling as a James Dean-style rebel and in his desire to
-        shape his crimes into a kind of grand, significant exit.</p>
+        shape his crimes into a kind of grand, significant exit. Like the sexual Two and the
+        sexual Three, the sexual Four is also an image type: the actual wound to the heart is
+        not shown openly but translated into an image meant to work on others – for the Four,
+        that image is a dramatically staged, special uniqueness. Even in the middle of a brutal
+        murder spree, this need to present a certain image – to Fugate, to the press, to
+        himself – stayed with Starkweather, rather than simply acting without an audience in
+        mind.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -680,6 +686,12 @@ export function charlesStarkweatherPortraitPage() {
         cool, provocative posture so consistently that this self-chosen look became a second,
         deliberately controlled identity – a counter-design to the boy who had been ridiculed at
         school.</p>
+        <p class="vb-intro"><strong>c) The Chihuahua, long before he became a killer:</strong>
+        According to accounts from his school years, Starkweather already took on classmates
+        considerably older and bigger than himself as a boy whenever someone teased him or got
+        too close – with a force and relentlessness that made even his physically superior
+        attackers back off. The same pattern that later marked the murder spree was, in other
+        words, already in place as a behavioral pattern long before the first killing.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -703,20 +715,26 @@ export function charlesStarkweatherPortraitPage() {
         The first killing, on December 1, 1957, targeted a gas station attendant who had earlier
         refused Starkweather credit for a gift for Caril Fugate – a planned act, driven by
         concrete humiliation and the need for money for their shared escape fund.</p>
-        <p class="vb-intro"><strong>c) The escalation into randomness:</strong>
-        After the murder of Fugate's mother, stepfather, and two-year-old half-sister on January
-        21, 1958, any recognizable system blurred – a seventy-year-old farmer, a young couple, a
-        wealthy couple and their maid, and a traveling salesman became victims of a violence that
-        increasingly needed no recognizable reason at all.</p>
+        <p class="vb-intro"><strong>c) The turning point: his girlfriend's own family:</strong>
+        Fugate's mother Velda and her stepfather Marion Bartlett openly disapproved of her
+        relationship with the five-years-older Starkweather and considered him "trouble" – on
+        January 21, 1958, an argument over exactly this disapproval escalated, and Starkweather
+        shot both of them before killing two-year-old half-sister Betty Jean as well. The three
+        bodies were hidden in the outhouse and the chicken coop while the couple stayed in the
+        same house for days.</p>
+        <p class="vb-intro"><strong>d) The escalation into randomness:</strong>
+        After this triple murder, any recognizable system blurred – a seventy-year-old farmer, a
+        young couple, a wealthy couple and their maid, and a traveling salesman became victims of
+        a violence that increasingly needed no recognizable reason at all.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
         <p class="vb-intro">On the outside: a nineteen-year-old boy in a James Dean look, styling
         himself as a misunderstood rebel. Behind it: a murder spree escalating within weeks, in
-        which Starkweather and Fugate stayed in the same house for days after killing Fugate's
-        family, before fleeing at all – a cold, almost casual continuation of everyday life on
-        top of their own crimes.</p>
+        which Starkweather and Fugate stayed in the house of the dead for days, turned visitors
+        away at the door, and seemingly carried on with everyday life unaffected – a cold, almost
+        casual continuation of everyday life on top of their own crimes.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -763,6 +781,14 @@ export function charlesStarkweatherPortraitPage() {
         relationship and a consciously co-authored public legend. Unlike Parker, whose violence
         unfolded at the side of a more dominant partner, in Starkweather's case the driving force
         clearly came from himself – Fugate's actual role remained disputed to the end.</p>
+        <p class="vb-intro"><strong>d) What became of Caril Ann Fugate:</strong>
+        Fugate claimed Starkweather had held her hostage and that she had not known her own
+        family was dead; the jury did not believe her and convicted her of first-degree murder,
+        sentencing her to life in prison. Her sentence was reduced to 30 to 50 years in 1973, and
+        she was paroled in 1976 after 18 years behind bars. Although she had trained as a nurse
+        in prison, her criminal record barred her from that profession, and she worked roughly
+        three decades as a janitor at a hospital in Michigan. She remarried in 2007 and still
+        maintains her innocence today.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">
