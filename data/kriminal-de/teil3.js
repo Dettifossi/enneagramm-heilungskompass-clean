@@ -1260,7 +1260,7 @@ export function bernardEugeneGilesPortraitPage() {
         Machtgier, die man bei den meisten anderen Serientätern findet.</p>
         <p class="vb-intro">Als er Jahrzehnte später im Gefängnis gefragt wurde, ob er sich bei
         den Hinterbliebenen entschuldigen wolle, reagierte er mit aufrichtiger Verwunderung über
-        die Frage selbst: Das bringe ihm doch nichts. Diese Antwort ist keine trotzige
+        die Frage selbst: Das bringe den Hinterbliebenen doch nichts. Diese Antwort ist keine trotzige
         Verweigerung, sondern echte Selbstvergessenheit, die so weit reicht, dass selbst der
         Gedanke an das Leid der anderen keinen inneren Widerhall mehr findet.</p>
       </div>

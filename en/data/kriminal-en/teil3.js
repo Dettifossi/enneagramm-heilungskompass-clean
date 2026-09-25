@@ -911,7 +911,7 @@ export function bernardEugeneGilesPortraitPage() {
         serial offenders.</p>
         <p class="vb-intro">When he was asked decades later, in prison, whether he wanted to
         apologize to the victims' families, he responded with genuine puzzlement at the question
-        itself: it wouldn't get him anything. This is not defiant refusal but genuine
+        itself: it wouldn't get the families anything. This is not defiant refusal but genuine
         self-forgetting, reaching so far that even the thought of others' suffering finds no
         inner echo at all.</p>
       </div>
