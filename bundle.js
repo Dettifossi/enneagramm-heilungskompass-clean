@@ -32141,7 +32141,7 @@ const BERUEHMT_PORTRAITS = [
     land:"Frankreich", tags:["Musik","Geschichte"], gender:"m"},
   { route:"beruehmte-bella-hadid", name:"Bella Hadid", added:"2026-09-26", subtyp:"SX6w5",
     heading:"Bella Hadid \u2013 Sexueller Typ 6",
-    teaser:"SX6w5 \u00b7 geb. 1996. US-Model. Lyme-Borreliose mit 16, Pal\u00e4stina-Aktivismus trotz Karriererisiko, Gegenangst als Prinzip \u2013 die St\u00e4rke, die die eigene Verletzlichkeit \u00fcberdeckt.",
+    teaser:"SX6w5 \u00b7 geb. 1996. US-Model. Lyme-Borreliose mit 16, Pal\u00e4stina-Aktivismus trotz Karriererisiko, Kontra-Angst als Prinzip \u2013 die St\u00e4rke, die die eigene Verletzlichkeit \u00fcberdeckt.",
     land:"USA", tags:["Mode","Gesellschaft"], gender:"w"},
   { route:"beruehmte-alice-schwarzer", name:"Alice Schwarzer", subtyp:"SX6w5",
     heading:"Alice Schwarzer \u2013 Sexueller Typ 6",
@@ -46656,7 +46656,7 @@ const LEBENSMUSTERKOMPASS = {
   },
   SX6: {
     tier: "Wolf",
-    kernthema: "Angst wird nicht vermieden, sondern frontal angegriffen – Stärke als Gegenangst (Naranjo: Kontratyp der Sechs)",
+    kernthema: "Angst wird nicht vermieden, sondern frontal angegriffen – Stärke als Kontra-Angst (Naranjo: Kontratyp der Sechs)",
     beispiele: ["Wladimir Putin", "Platon", "Ludwig van Beethoven", "Alice Schwarzer", "Kollegah", "Moses", "Michael Schumacher", "Anke Engelke", "Katja Riemann", "Byron Katie", "Jennifer Aniston", "Scarlett Johansson", "Anders Breivik", "Armin Meiwes", "Charles Manson", "Dr. L. David Mech", "Dr. Douglas W. Smith", "Friedrich Schiller", "Uwe Ochsenknecht", "Otto von Bismarck", "Petrus", "Skylar Grey", "Eva Mendes", "Heather Thomas", "Olena Zelenska", "Bobby Fischer", "Louise Hay", "Natalie Dormer", "Avril Lavigne", "Alec Baldwin", "Clara Lösel", "Bella Hadid"],
     fingerabdruecke: [
       {
@@ -46675,7 +46675,7 @@ const LEBENSMUSTERKOMPASS = {
         beleg: "Anke Engelke: ›Ihre Stärke kommt nicht aus Isolation, sondern aus Verbindung‹; Jennifer Aniston: ›Die Fähigkeit, sich immer wieder ins Rudel zu stellen … und dort standzuhalten, wenn es unbequem wird‹; Alice Schwarzer: ›Der Wolf lebt im Rudel, kämpft für das Rudel – und zeigt die Zähne, wenn das Rudel bedroht wird.‹"
       },
       {
-        titel: "Wenn die Angst-Gegenangst-Dynamik zu fanatischer Ideologie oder Gewalt kippt (Schattenform)",
+        titel: "Wenn die Angst-Kontra-Angst-Dynamik zu fanatischer Ideologie oder Gewalt kippt (Schattenform)",
         beschreibung: "In der destruktiven Ausprägung wird aus der frontalen Konfrontation der eigenen Angst eine gewaltsame, oft ideologisch aufgeladene Kontrolle über andere – oder ein Rudel wird durch Angst und Faszination missbraucht statt geschützt.",
         beleg: "Charles Manson: ›Der Wolf braucht das Rudel, er erschafft es, er führt es durch Angst und Faszination zugleich … ein Rudelchef, der nie selbst zur Waffe griff – und doch der gefährlichste im Rudel war‹; Anders Breivik, dessen Ideologie sich ›über Jahre hinweg entwickelte und in einer mörderischen Manifestation von Hass und Entfremdung kulminierte‹; Armin Meiwes, der eine über Jahrzehnte gepflegte Fantasie schließlich umsetzte. Wichtig: Diese drei Fälle sind seltene, extreme Ausnahmen unter den SX6-Porträts dieses Kompasses, keine typische Ausprägung."
       }
