@@ -1,5 +1,69 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function bellaHadidPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bella-hadid-portrait.jpg" alt="Bella Hadid – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bella Hadid</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexual Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">American model, born 1996 – Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The wolf behind the camera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Six – a pack animal that hides its vulnerability behind demonstrative strength and, the moment its territory feels threatened, doesn't retreat but bares its teeth. Bella Hadid, born in 1996 to Palestinian-American real estate developer Mohamed Hadid and Dutch former model Yolanda Hadid, grew up alongside her older sister Gigi and younger brother Anwar in a world where images and public attention were part of everyday life from early on – her parents separated when she was young, and Bella spent part of her childhood immersed in Malibu's equestrian culture, pursuing genuinely serious ambitions as a competitive show jumper.</p>
+          <p class="vb-intro">At 16, a Lyme disease diagnosis abruptly ended that path – an illness that struck her mother Yolanda and brother Anwar at the same time, turning it into a shared, years-long family health crisis. Hadid herself has said the illness "took her teenage years." Out of this early experience – that her own body could turn into a threat at any moment, without warning – grew a pattern that runs through her entire later life: an alert, tense vigilance toward danger that reads to the outside world as cool unapproachability.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Six: strength as counterphobia</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>sexual Six (SX6)</strong> is the <strong>countertype</strong> of the Six – the one Six subtype in which the core fear isn't directly visible because it has been turned into its opposite. Naranjo called this subtype <em>strength</em>: someone who makes themselves unassailable can no longer be caught by their own fear. Compared with her more openly warm sister Gigi, Hadid repeatedly comes across as more reserved, more guarded, terser and more careful in interviews – a reticence that can read as coldness but functions more as self-protection.</p>
+          <p class="vb-intro">This counterphobia shows most clearly in her advocacy for Palestinian rights, which she has voiced publicly for years, intensified since October 2023, at visible personal cost – keffiyeh imagery, march attendance, fundraising, and open statements. Hadid has said publicly that she has already lost jobs and friendships over it, and has explicitly justified the stance: "I'm not on this earth to be a model… the downfall is what? That I lose my job?" This isn't an impulsive provocation but counterphobia in the strict sense – a deliberate confrontation with danger rather than avoidance of it, precisely because the danger is real and costly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: retreat into the written word</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> tempers the sexual Six's raw readiness for confrontation with an added layer of distance and analysis – the SX6w5 shows strength not impulsively and loudly like an SX6w7, but in a more controlled, deliberate way, often processed in private retreat before anything reaches the outside at all. In Hadid this shows in how she handles her own psychological and physical crises: instead of spontaneous public outbursts, she posts long, carefully worded Instagram essays about anxiety and depression, often timed deliberately to occasions like World Mental Health Day – describing anxiety as feeling "like you're already living in it when you wake up," or depression as "all-consuming, paralyzing, and invisible."</p>
+          <p class="vb-intro">She also rarely comments directly on her relationships – the on-and-off connection with The Weeknd, or her later engagement to rodeo rider Adan Banuelos – letting public sightings speak for themselves instead. This choice to disclose her inner life in writing, in a controlled way and with some time-delay, rather than spontaneously in an interview, is exactly the analytical processing the Five-wing lends the sexual Six: vulnerability isn't suppressed, but it also isn't shown unfiltered – it's shaped into a communicable form first.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual achievement: breaking the girl-next-door mold</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">After her competitive riding career ended, Hadid entered modeling and within a few years became one of fashion's most sought-after faces – campaigns for Dior, Versace and Givenchy, countless magazine covers, runways for the biggest fashion houses. Professionally, she stands apart from her sister Gigi, whose image leans closer to the classic, commercial girl-next-door ideal: Hadid became known for a sharper, more editorial, slightly androgynous aesthetic that deliberately broke with the softer, more approachable features the industry had previously favored – a look repeatedly credited with helping drive the '90s/Y2K revival in fashion and styling.</p>
+          <p class="vb-intro">This isn't simply a matter of looks; it's a concrete stylistic shift that photographers, stylists and fashion houses deliberately embraced because it carried a new image of glamour – cooler, sharper-edged, less invitingly smiling. That Hadid sustained this role consistently for years despite chronic illness – beyond Lyme disease, she later disclosed ADHD, endometriosis, PMDD and PCOS, with periods in which, by her own account, she pushed through fourteen-hour shoots despite severe pain – is a professional achievement in its own right, one that goes beyond appearance alone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the sexual Six with Five-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w5 shows in Hadid's willingness to actually risk something for a conviction rather than dilute her position for career calculation – a stance she explains at length and with reflection, for instance in a long podcast conversation with Noor Tagouri, rather than staging it as a spontaneous outburst. The close family bond around her mother and siblings, reinforced by shared years of illness, also shows the Six's security-seeking side in its healthy form: attachment as a load-bearing foundation, not as dependency.</p>
+          <p class="vb-intro">The Six's fatal flaw is <strong>fear</strong> – the constant search for solid ground in a world experienced as fundamentally unreliable. In a highly visible public SX6w5 like Hadid, the shadow side shows in the very vigilance described above, which in her own words feels like fear that's "already living in your body when you wake up" – a tension no external success can permanently dissolve, because it originates not from circumstances but from her own underlying pattern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: from vigilance to trust</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six's path to healing runs from the belief <em>I must constantly secure myself against an unsafe world</em> to the realization <em>I already carry guidance within me and can fundamentally trust the world.</em> For the SX6w5, this means, in particular, using analytical distance not only as a shield against vulnerability, but also allowing closeness and openness themselves to become a source of safety, rather than vigilance alone.</p>
+          <p class="vb-intro">Much like Ludwig van Beethoven (SX6w5) – who turned his defiance toward the nobility and the public into a second nature so he would never again appear vulnerable – Hadid's public activism follows the same characteristic Six movement: strength is displayed precisely because the vulnerability underneath is real. The actual step toward healing lies in eventually no longer needing to prove that strength, but acting instead from an inner ground that is no longer driven by fear.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype profile"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
 export function abidaParveenPortraitPage() {
   return shell(`
     <div class="page-container">

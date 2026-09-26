@@ -67,6 +67,70 @@ export function vanessaGoeckingPortraitPage() {
   `);
 }
 
+export function bellaHadidPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bella-hadid-portrait.jpg" alt="Bella Hadid – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bella Hadid</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexueller Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanisches Model, geb. 1996 – Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf hinter der Kamera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Rudeltier, das seine Verletzlichkeit hinter demonstrativer Stärke verbirgt und sich, sobald das eigene Territorium bedroht wird, nicht zurückzieht, sondern die Zähne zeigt. Bella Hadid, geboren 1996 als Tochter des palästinensisch-amerikanischen Immobilienunternehmers Mohamed Hadid und der niederländischen Ex-Model Yolanda Hadid, wuchs mit ihrer älteren Schwester Gigi und ihrem jüngeren Bruder Anwar in einer Welt auf, in der Bilder und öffentliche Aufmerksamkeit von klein auf zum Alltag gehörten – die Eltern trennten sich früh, und Bella verbrachte einen Teil ihrer Kindheit im Reitsport in Malibu, wo sie als Springreiterin durchaus ernsthafte Ambitionen verfolgte.</p>
+          <p class="vb-intro">Mit 16 Jahren beendete eine Lyme-Borreliose-Diagnose diesen Weg abrupt – eine Erkrankung, die zeitgleich auch ihre Mutter Yolanda und ihren Bruder Anwar traf und die Familie zu einer gemeinsamen, jahrelangen gesundheitlichen Krise machte. Hadid selbst hat gesagt, die Krankheit habe ihr „die Teenagerjahre genommen". Aus dieser frühen Erfahrung, dass der eigene Körper jederzeit ohne Vorwarnung zur Bedrohung werden kann, entstand ein Grundmuster, das sich durch ihr gesamtes späteres Leben zieht: eine wache, angespannte Wachsamkeit gegenüber Gefahr, die sich nach außen als kühle Unnahbarkeit zeigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Stärke als Gegenangst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs – der einzige Sechser-Subtyp, in dem die Grundangst nicht direkt sichtbar wird, sondern in ihr Gegenteil verkehrt wird. Naranjo nannte diesen Subtyp <em>Stärke</em>: Wer sich unangreifbar zeigt, kann von der eigenen Angst nicht mehr eingeholt werden. Nach außen wirkt Hadid im Vergleich zu ihrer offeneren, wärmeren Schwester Gigi wiederholt reservierter, distanzierter, in Interviews knapper und vorsichtiger – eine Zurückhaltung, die wie Kälte wirken kann, aber eher Selbstschutz ist.</p>
+          <p class="vb-intro">Diese Gegenangst zeigt sich am deutlichsten in ihrem Engagement für die Rechte der Palästinenser, das sie seit Jahren, verstärkt seit Oktober 2023, öffentlich und mit sichtbarem eigenem Risiko vertritt – mit Kufiya-Motiven, Demonstrationsteilnahmen, Spendenaktionen und offenen Aussagen. Hadid hat öffentlich gesagt, sie habe deswegen bereits Jobs und Freundschaften verloren, und diese Haltung explizit begründet: „Ich bin nicht auf dieser Erde, um ein Model zu sein … was ist schon der Untergang? Dass ich meinen Job verliere?" Das ist keine impulsive Provokation, sondern eine kontraphobische Haltung im eigentlichen Wortsinn – eine bewusste Konfrontation mit der Gefahr, statt ihr auszuweichen, gerade weil sie real und teuer ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Rückzug ins Geschriebene</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> mildert bei der sexuellen Sechs die reine Konfrontationsbereitschaft durch eine zusätzliche Schicht Distanz und Analyse – die SX6w5 zeigt Stärke nicht impulsiv-laut wie eine SX6w7, sondern kontrollierter, durchdachter, oft im Rückzug ins Private verarbeitet, bevor überhaupt etwas nach außen dringt. Bei Hadid zeigt sich das in ihrem Umgang mit den eigenen psychischen und körperlichen Krisen: Statt spontaner, öffentlicher Ausbrüche postet sie lange, sorgfältig formulierte Instagram-Texte über Angstzustände und Depressionen, oft gezielt zu Anlässen wie dem Welttag der seelischen Gesundheit – etwa die Beschreibung, Angst fühle sich an, „als würde man schon beim Aufwachen darin leben", oder Depression sei „allumfassend, lähmend und unsichtbar".</p>
+          <p class="vb-intro">Auch ihre Beziehungen – etwa die wechselvolle Verbindung zu The Weeknd oder die spätere Verlobung mit dem Rodeoreiter Adan Banuelos – kommentiert sie kaum direkt, sondern lässt öffentliche Sichtungen für sich sprechen. Diese Wahl, das eigene Innenleben lieber schriftlich, kontrolliert und mit zeitlichem Abstand offenzulegen als spontan im Interview, ist genau die analytische Verarbeitung, die der Fünferflügel der sexuellen Sechs mitgibt: Verletzlichkeit wird nicht unterdrückt, aber auch nicht ungefiltert gezeigt, sondern erst in eine mitteilbare Form gebracht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Der Bruch mit dem Girl-next-door-Ideal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach dem Ende ihrer Reitkarriere stieg Hadid ins Modeln ein und wurde binnen weniger Jahre zu einem der gefragtesten Gesichter der Branche – Kampagnen für Dior, Versace und Givenchy, unzählige Magazin-Cover, Laufstege der großen Modehäuser. Fachlich unterscheidet sie sich dabei deutlich von ihrer Schwester Gigi, deren Bild eher dem klassisch-kommerziellen Girl-next-door-Ideal entspricht: Hadid wurde für eine schärfere, editorialere, leicht androgyne Ästhetik bekannt, die bewusst mit den runden, zugänglichen Gesichtszügen bricht, die die Branche zuvor bevorzugte – ein Stil, der wiederholt als prägend für die Rückkehr des Neunziger-/Y2K-Looks in Mode und Styling genannt wird.</p>
+          <p class="vb-intro">Das ist keine bloße Frage des Aussehens, sondern eine konkrete stilistische Verschiebung, die Fotografen, Stylisten und Modemarken bewusst aufgriffen, weil sie ein neues Bild von Glamour transportierte: kühler, kantiger, weniger lächelnd-einladend. Dass Hadid diese Rolle trotz ihrer chronischen Erkrankungen – neben der Lyme-Borreliose diagnostizierte sie später auch ADHS, Endometriose, PMDS und PCO-Syndrom, mit Phasen, in denen sie eigenen Angaben zufolge trotz starker Schmerzen vierzehnstündige Shootings durchgestanden hat – über Jahre konstant ausfüllte, ist eine eigenständige berufliche Leistung, die über reines Aussehen hinausgeht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Sechs mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 zeigt sich in Hadids Bereitschaft, für eine Überzeugung tatsächlich etwas aufs Spiel zu setzen, statt die eigene Position aus Karrierekalkül zu verwässern – eine Haltung, die sie ausführlich und reflektiert begründet, etwa in einem langen Podcast-Gespräch mit Noor Tagouri, statt sie als spontanen Aufschrei zu inszenieren. Auch der enge familiäre Zusammenhalt um Mutter und Geschwister, verstärkt durch die gemeinsam durchlittene Krankheitsgeschichte, zeigt die sicherheitssuchende Seite der Sechs in ihrer gesunden Form: Bindung als tragender Grund, nicht als Abhängigkeit.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist <strong>Angst</strong> – die ständige Suche nach einem sicheren Grund in einer Welt, die als grundsätzlich unzuverlässig erlebt wird. Bei einer öffentlich sehr sichtbaren SX6w5 wie Hadid zeigt sich die Schattenseite in der beschriebenen ständigen Wachsamkeit selbst, die sich in ihren eigenen Worten als Angst zeigt, „die schon beim Aufwachen im Körper wohnt" – eine Anspannung, die kein äußerer Erfolg dauerhaft auflösen kann, weil sie nicht von den Umständen, sondern vom eigenen Grundmuster ausgeht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Wachsamkeit zum Vertrauen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Überzeugung <em>Ich muss mich ständig gegen eine unsichere Welt absichern</em> zur Erkenntnis <em>Ich trage die Führung bereits in mir und kann der Welt grundsätzlich vertrauen.</em> Für die SX6w5 bedeutet das insbesondere, die eigene analytische Distanz nicht nur als Schutzwall vor Verletzlichkeit zu nutzen, sondern auch zuzulassen, dass Nähe und Offenheit selbst zur Sicherheit werden können, statt nur die eigene Wachsamkeit.</p>
+          <p class="vb-intro">Ähnlich wie Ludwig van Beethoven (SX6w5) – der seine Unbeugsamkeit gegenüber Adel und Öffentlichkeit zur zweiten Natur machte, um nie wieder verletzlich erscheinen zu müssen – zeigt auch Hadids öffentliches Engagement diese typische Sechser-Bewegung: Stärke wird gezeigt, gerade weil die Verletzlichkeit real ist. Der eigentliche Heilungsschritt liegt darin, diese Stärke irgendwann nicht mehr beweisen zu müssen, sondern aus einem inneren, nicht mehr angstgetriebenen Grund heraus zu handeln.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-ludwig-van-beethoven", label:"Porträt: Ludwig van Beethoven (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
+
 export function abidaParveenPortraitPage() {
   return shell(`
     <div class="page-container">

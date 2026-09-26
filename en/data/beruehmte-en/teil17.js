@@ -1028,6 +1028,7 @@ export function ludwigVanBeethovenPortraitPage() {
         {route:"beruehmte-wladimir-putin", label:"Portrait: Vladimir Putin (SX6w5)"},
         {route:"beruehmte-alice-schwarzer", label:"Portrait: Alice Schwarzer (SX6w5)"},
         {route:"beruehmte-napoleon-bonaparte", label:"Portrait: Napoleon Bonaparte (SO2w3)"},
+        {route:"beruehmte-bella-hadid", label:"Portrait: Bella Hadid (SX6w5)"},
       ])}
     </div>
   `);

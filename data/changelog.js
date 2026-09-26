@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2405", date: "2026-09-26", text: "Neues Porträt: Bella Hadid (SX6w5) – US-amerikanisches Model und Aktivistin.", text_en: "New portrait: Bella Hadid (SX6w5) – American model and activist.", route: "beruehmte-bella-hadid" },
     { version: "v2404", date: "2026-09-25", text: "Neues Porträt: Viktor Frankl (SE1w9) – Psychiater, Holocaust-Überlebender und Begründer der Logotherapie.", text_en: "New portrait: Viktor Frankl (SP1w9) – psychiatrist, Holocaust survivor, and founder of logotherapy.", route: "beruehmte-viktor-frankl" },
     { version: "v2403", date: "2026-09-25", text: "Neues Kriminalpsychologie-Porträt: James ›Dusty‹ Rhodes (SX1w9) – US-amerikanischer Mörder und Vergewaltiger, 1982–1984 in Colorado und Florida.", text_en: "New criminal psychology portrait: James ›Dusty‹ Rhodes (SX1w9) – American murderer and rapist, 1982–1984 in Colorado and Florida.", route: "kriminalpsychologie-james-dusty-rhodes" },
     { version: "v2402", date: "2026-09-25", text: "Neues Porträt: Joe Dispenza (SO9w1) – Chiropraktiker und Workshop-Veranstalter, kritisch beleuchtet.", text_en: "New portrait: Joe Dispenza (SO9w1) – chiropractor and workshop leader, examined critically.", route: "beruehmte-joe-dispenza" },
