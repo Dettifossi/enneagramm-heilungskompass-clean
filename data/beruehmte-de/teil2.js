@@ -67,6 +67,75 @@ export function vanessaGoeckingPortraitPage() {
   `);
 }
 
+export function genRabtenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gen-rabten-portrait.jpg" alt="Gen Kelsang Rabten – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gen Kelsang Rabten</p>
+        <p class="krim-portrait-typ">SO2w1 · Sozialer Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Buddhistischer Mönch, Lehrer der New Kadampa Tradition – Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever im Dienst der Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier des sozialen Typs 2 – ein Tier, das seine tiefste Erfüllung nicht in Einzelgängertum findet, sondern darin, für eine Gruppe unentbehrlich zu sein, gebraucht zu werden, dazuzugehören und Anerkennung durch Dienst zu verdienen. Gen Kelsang Rabten ist ordinierter Mönch der New Kadampa Tradition (NKT), die 1991 von Geshe Kelsang Gyatso gegründet wurde, und trägt heute den Titel des ›National Spiritual Director‹ für Australien, Neuseeland und Südostasien sowie die Rolle des Residierenden Lehrers an mehreren Kadampa-Zentren.</p>
+          <p class="vb-intro">Zu seiner Biografie vor dem Mönchsleben – Herkunft, Geburtsjahr, familiärer Hintergrund – ist öffentlich praktisch nichts dokumentiert; selbst die Kadampa-eigenen Zentrums-Texte begnügen sich mit knappen, fast formelhaften Angaben wie ›mehr als zwanzig Jahre‹ oder ›dreißig Jahre‹ Ausbildung bei Geshe Kelsang Gyatso – die Zahlen widersprechen sich sogar zwischen verschiedenen Quellen. Diese auffällige Leerstelle selbst gehört zum Bild: Wo bei anderen Persönlichkeiten dieses Kompasses eine individuelle Lebensgeschichte im Vordergrund steht, tritt hier fast ausschließlich die institutionelle Funktion hervor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Unentbehrlichkeit als Ausweis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> sucht nach Naranjo nicht die exklusive Zuwendung Einzelner, sondern <em>Ehrgeiz</em> im Dienst der Gemeinschaft – Ansehen und Zugehörigkeit werden dadurch verdient, dass man sich in einer Gruppe, Organisation oder Bewegung unverzichtbar macht. Rabtens Karriere innerhalb der NKT liest sich wie ein Lehrbuchbeispiel dieses Musters: vom Mönch zum Residierenden Lehrer mehrerer Zentren bis zum regionalen ›National Spiritual Director‹ über drei Länder/Regionen hinweg – ein kontinuierlicher Aufstieg innerhalb einer sozialen Struktur, nicht als Einzelkämpfer, sondern als jemand, der sich durch Funktion und Fürsorge für die Gemeinschaft eine Position erarbeitet.</p>
+          <p class="vb-intro">Diese soziale Ausrichtung zeigt sich auch darin, dass Rabten – nach Berichten kritischer Quellen – als Sprecher der ›International Shugden Community‹ (ISC) auftrat, jener Organisation, die öffentlichkeitswirksame Proteste gegen den Dalai Lama im Streit um die Gottheit Dorje Shugden organisierte: Er soll bei Kundgebungen Sprechchöre mit dem Megafon angeführt und eigene, ISC-markenkonforme YouTube-Nachrichtensendungen produziert haben – dabei nicht in Mönchsrobe, sondern in ziviler Kleidung. Genau das ist die soziale Zwei in ihrer öffentlichkeitsorientierten Ausprägung: Die eigene Stimme wird zum Sprachrohr einer größeren Sache, die Zugehörigkeit zur Gruppe wird durch sichtbaren, öffentlichen Einsatz für sie bewiesen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Überzeugung ohne Selbstzweifel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Zwei eine zusätzliche moralische Festigkeit – die eigene Fürsorge für die Gruppe wird nicht als Geschmackssache verstanden, sondern als Frage von richtig und falsch, verbunden mit einer Prinzipientreue, die selten Kompromisse eingeht. Eine ehemalige Schülerin, die Rabten in einem offenen Brief (2014) persönlich als warmherzig und freundlich als Lehrer beschreibt, kontrastiert das ausdrücklich mit seinem öffentlichen Auftreten als Aktivist: Dort habe sie eine Unfähigkeit erlebt, auch nur die Möglichkeit eines eigenen Irrtums einzuräumen.</p>
+          <p class="vb-intro">Genau dieser Kontrast – privat zugewandt, öffentlich unnachgiebig in der Sache – ist die typische Handschrift der SO2w1: Die Fürsorge der Zwei bleibt echt, aber der Flügel verwandelt die eigene Position in der Öffentlichkeit in eine, die keinen Zweifel mehr zulässt, weil sie sich als moralisch im Recht erlebt. Kritikern zufolge sollen ihm zudem konkrete Fehldarstellungen unterlaufen sein – etwa fragwürdige statistische Angaben gegenüber australischen Zeitungen zur Zahl der Shugden-Praktizierenden –, was aus Sicht der Kritiker exakt diese Unbeirrbarkeit widerspiegelt: Einmal als richtig erkannt, wird eine Position auch gegen Widerspruch verteidigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Rolle: Organisator und Sprachrohr, nicht Lehrautor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anders als der NKT-Gründer Geshe Kelsang Gyatso, der zahlreiche Dharma-Bücher verfasste, die bis heute das Lehrfundament der Tradition bilden, ist von Rabten selbst kein eigenes veröffentlichtes Lehrwerk bekannt. Seine dokumentierte Substanz liegt nicht im doktrinären Beitrag, sondern in der organisatorischen und öffentlichkeitswirksamen Funktion: als regionaler Verantwortlicher für ein Netz von Zentren über mehrere Länder hinweg und als einer der sichtbarsten Sprecher der ISC in deren Auseinandersetzung mit dem Dalai Lama und dem tibetischen Mainstream-Buddhismus.</p>
+          <p class="vb-intro">Diese Rolle ist deshalb bemerkenswert, weil die ISC selbst später wegen einer Reuters-Recherche zu mutmaßlicher chinesischer Unterstützung in die Kritik geriet und ihre Protestaktivitäten daraufhin einstellte. Ob und inwieweit Rabten persönlich von dieser Verbindung wusste, ist öffentlich nicht dokumentiert – festzuhalten ist lediglich, dass seine sichtbarste öffentliche Leistung eine politisch-organisatorische war, eingebettet in einen Konflikt, dessen Hintergründe bis heute umstritten sind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Zwei mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2w1 zeigt sich in der von der ehemaligen Schülerin bezeugten persönlichen Wärme und in der jahrzehntelangen, kontinuierlichen Bereitschaft, sich in den Dienst einer Gemeinschaft zu stellen, ohne dabei ins Rampenlicht der eigenen Person zu drängen – anders als bei vielen anderen SO2-Porträts dieses Kompasses bleibt der Name Rabten öffentlich fast unsichtbar, während die Institution im Vordergrund steht.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist <strong>Stolz</strong> – die Überzeugung, selbst keine Bedürfnisse zu haben, sondern nur für andere da zu sein, was das eigene Handeln über jeden Zweifel erhebt. Verbunden mit dem Einserflügel wird daraus, den kritischen Berichten zufolge, eine besonders schwer zu erschütternde Gewissheit: Wer im Dienst einer als gerecht erlebten Sache handelt, kann die eigene Darstellung kaum noch als fehlerhaft infrage stellen – ein Muster, das in der öffentlichen Auseinandersetzung um die Shugden-Kontroverse von mehreren unabhängigen kritischen Quellen ähnlich beschrieben wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Unentbehrlichkeit zur echten Demut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Zwei führt von der Überzeugung <em>Ich muss mich unentbehrlich machen, um geliebt zu werden</em> zur Erkenntnis <em>Ich bin wertvoll, auch ohne mich für andere aufzuopfern.</em> Für die SO2w1 bedeutet das insbesondere, die eigene moralische Gewissheit nicht mit der eigenen Person zu verwechseln – zuzulassen, dass eine gute Absicht trotzdem zu einer fehlerhaften Handlung oder Aussage führen kann, ohne dass das den eigenen Wert infrage stellt.</p>
+          <p class="vb-intro">Die von einer ehemaligen Schülerin bezeugte private Warmherzigkeit zeigt, dass dieses Potenzial vorhanden ist – der eigentliche Heilungsschritt läge darin, dieselbe Offenheit auch in der öffentlichen Rolle zuzulassen: Fürsorge für eine Gemeinschaft muss nicht bedeuten, jede öffentliche Aussage über die eigene Sache bis zuletzt zu verteidigen.</p>
+        </blockquote>
+
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Die öffentlich verfügbaren Quellen zu dieser noch lebenden Person sind ungewöhnlich dünn und größtenteils parteiisch – Kadampa-eigene Texte einerseits, Kritiker der New Kadampa Tradition und der Shugden-Kontroverse andererseits. Konkrete biografische Basisfakten (Geburtsjahr, Herkunft, bürgerlicher Name) sind öffentlich nicht verlässlich dokumentiert und wurden hier bewusst ausgespart. Die Typzuordnung ist eine psychologische Hypothese auf schmaler Quellenbasis, kein gesichertes Urteil über die Person.
+        </p>
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-albert-schweitzer", label:"Porträt: Albert Schweitzer (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 export function bellaHadidPortraitPage() {
   return shell(`
     <div class="page-container">

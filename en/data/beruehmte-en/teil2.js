@@ -1,5 +1,74 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function genRabtenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gen-rabten-portrait.jpg" alt="Gen Kelsang Rabten – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gen Kelsang Rabten</p>
+        <p class="krim-portrait-typ">SO2w1 · Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Buddhist monk, teacher of the New Kadampa Tradition – Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever in service of community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two – an animal that finds its deepest fulfillment not in solitude but in being indispensable to a group, being needed, belonging, and earning recognition through service. Gen Kelsang Rabten is an ordained monk of the New Kadampa Tradition (NKT), founded in 1991 by Geshe Kelsang Gyatso, and currently holds the title of National Spiritual Director for Australia, New Zealand and South East Asia, as well as the role of Resident Teacher at several Kadampa centers.</p>
+          <p class="vb-intro">Almost nothing is publicly documented about his life before monastic ordination – background, birth year, family history; even Kadampa's own center texts settle for brief, near-formulaic phrases such as "more than twenty years" or "thirty years" of training under Geshe Kelsang Gyatso – the figures even contradict each other across sources. This conspicuous gap is itself part of the picture: where other personalities in this Compass are presented through an individual life story, here it is almost exclusively the institutional function that comes to the fore.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Two: indispensability as credential</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>social Two (SO2)</strong> seeks not the exclusive attention of individuals but <em>ambition</em> in service of the community – status and belonging are earned by making oneself indispensable within a group, organization, or movement. Rabten's career within the NKT reads like a textbook example of this pattern: from monk to Resident Teacher at multiple centers to regional National Spiritual Director across three countries/regions – a continuous rise within a social structure, not as a lone actor but as someone who builds a position through function and care for the community.</p>
+          <p class="vb-intro">This social orientation also shows in reports from critical sources that Rabten served as a spokesperson for the "International Shugden Community" (ISC), the organization behind highly public protests against the Dalai Lama in the dispute over the deity Dorje Shugden: he is reported to have led megaphone chants at rallies and produced his own branded ISC "news broadcasts" on YouTube – appearing not in monastic robes but in lay clothing. This is precisely the social Two in its publicly oriented expression: one's own voice becomes the mouthpiece of a larger cause, and belonging to the group is proven through visible, public commitment to it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: conviction without self-doubt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an added moral firmness – care for the group is understood not as a matter of taste but as a question of right and wrong, paired with a fidelity to principle that rarely compromises. A former student, who in a 2014 open letter describes Rabten personally as warm and kind as a teacher, explicitly contrasts this with his public conduct as an activist: there, she says, she experienced an inability to acknowledge even the possibility of his own error.</p>
+          <p class="vb-intro">This exact contrast – privately warm, publicly unyielding on the matter at hand – is the characteristic signature of the SO2w1: the Two's care remains genuine, but the wing turns the public position into one that no longer admits doubt, because it experiences itself as morally in the right. Critics also allege that he has made specific misrepresentations – for instance, disputed statistical claims to Australian newspapers about the number of Shugden practitioners – which, in the critics' view, reflects exactly this unshakeable certainty: once a position is deemed correct, it is defended even against contradiction.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual role: organizer and mouthpiece, not doctrinal author</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unlike NKT founder Geshe Kelsang Gyatso, who authored numerous Dharma books that still form the tradition's teaching foundation today, no published teaching work of Rabten's own is known. His documented substance lies not in doctrinal contribution but in an organizational and publicly visible function: as regional head of a network of centers spanning several countries, and as one of the most visible spokespeople for the ISC in its dispute with the Dalai Lama and mainstream Tibetan Buddhism.</p>
+          <p class="vb-intro">This role is notable because the ISC itself later came under scrutiny following a Reuters investigation into alleged Chinese support, after which it ceased its protest activities. Whether and to what extent Rabten personally knew of this connection is not publicly documented – what can be established is only that his most visible public achievement was a political-organizational one, embedded in a conflict whose background remains disputed to this day.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the social Two with One-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w1 shows in the personal warmth attested by the former student, and in decades of continuous willingness to place himself in service of a community without pushing himself into the spotlight – unlike many other SO2 portraits in this Compass, Rabten's name remains almost invisible publicly, while the institution stays in the foreground.</p>
+          <p class="vb-intro">The Two's fatal flaw is <strong>pride</strong> – the conviction of having no needs of one's own, existing only for others, which places one's own actions beyond question. Combined with the One-wing, critical reports suggest this becomes a particularly hard-to-shake certainty: someone acting in service of a cause experienced as just can barely question their own account as flawed – a pattern several independent critical sources describe similarly in the public dispute over the Shugden controversy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: from indispensability to genuine humility</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Two's path to healing runs from the belief <em>I must make myself indispensable to be loved</em> to the realization <em>I am valuable even without sacrificing myself for others.</em> For the SO2w1, this means in particular not confusing one's own moral certainty with one's own worth – allowing that a good intention can still lead to a flawed action or statement, without that calling one's own value into question.</p>
+          <p class="vb-intro">The private warmth attested by a former student shows that this potential exists – the actual step toward healing would lie in allowing that same openness into the public role as well: caring for a community need not mean defending every public statement about one's cause to the very end.</p>
+        </blockquote>
+
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> Publicly available sources on this still-living person are unusually thin and largely partisan – Kadampa's own materials on one side, critics of the New Kadampa Tradition and the Shugden controversy on the other. Concrete basic biographical facts (birth year, background, birth name) are not reliably documented publicly and have been deliberately omitted here. The type assignment is a psychological hypothesis on a narrow evidence base, not a settled judgment about the person.
+        </p>
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype profile"},
+        {route:"beruehmte-albert-schweitzer", label:"Portrait: Albert Schweitzer (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 export function bellaHadidPortraitPage() {
   return shell(`
     <div class="page-container">
