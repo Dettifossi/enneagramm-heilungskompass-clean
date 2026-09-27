@@ -261,6 +261,70 @@ export function owenWilsonPortraitPage() {
   `);
 }
 
+export function oliverKahnPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-oliver-kahn-portrait.jpg" alt="Oliver Kahn – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Oliver Kahn</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexual Type 6 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">German football goalkeeper, born 1969 – Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The wolf they called "the Titan"</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Six – a pack animal that hides its vulnerability behind demonstrative strength and answers threat not with retreat but with teeth. Oliver Kahn, born 1969 in Karlsruhe, started at Karlsruher SC as a field player before switching to goalkeeper – in 1994 he moved to Bayern Munich, where he stayed until his retirement in 2008: 429 Bundesliga matches, eight championship titles, six DFB-Pokal wins, one Champions League title in 2001. At the 2002 World Cup he became the only goalkeeper in history to win the Golden Ball as the tournament's best player – despite a costly personal error in the final against Brazil.</p>
+          <p class="vb-intro">The German press nicknamed him "the Titan," fans called him "Vul-Kahn" – a play on "volcano," reflecting his explosive temperament. Documented aggression incidents shaped his image: he kicked Bayern teammate Michael Bodden in the stomach after an accidental collision, grabbed teammate Thomas Brdaric by the throat, and jabbed national teammate Miroslav Klose in the face. Most striking – and literally wolf-like – was the so-called "bite attack" of April 3, 1999, against Borussia Dortmund: after a provocation by BVB striker Heiko Herrlich, Kahn lost his temper in the penalty area, chased him down, and literally set his teeth to Herrlich's neck – a scene that entered Bundesliga history as the "nibble incident," which Herrlich later shrugged off as "a threat display from the animal kingdom." Together with Jens Lehmann, Kahn shaped the German image of the goalkeeper as an ice-cold, seemingly invulnerable lone warrior who never shows weakness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Six: fear as fuel instead of threat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>sexual Six (SX6)</strong> is the countertype of the Six – instead of avoiding its own fear, it confronts it head-on, until strength itself becomes the counter-reaction to a deep-seated insecurity. Kahn put this principle into words himself: "Fears are actually the foundation for top performance. Fear sharpens concentration, adrenaline rises..." – a deliberate reframing of his own fear into a tool, rather than something to be avoided.</p>
+          <p class="vb-intro">His physical confrontations with teammates show the same pattern in extreme form: threat – real or perceived – was never endured or suppressed, but answered immediately and physically. His years-long, increasingly personal rivalry with Jens Lehmann over the national team's starting goalkeeper spot also read less like a purely sporting contest and more like a bitter fight over security and trust in his own central role.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: the affair as a breakout from tension</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the sexual Six an additional energy and hunger for stimulation – confronting the threat isn't just endured, but converted into motion, speed, and new stimulation. In 2003, shortly after the 2002 World Cup success, Kahn began an affair with Verena Kerth, thirteen years his junior, while his then-wife Simone was pregnant with their son – an abrupt, publicly visible break with an existing family structure, timed alongside the loss of his starting spot to Jens Lehmann.</p>
+          <p class="vb-intro">His later career as a sharp, blunt TV pundit and his move into Bayern's boardroom in 2021 show the same restlessness: no sooner is one role filled than he seeks the next, more intense stage. His Bayern tenure ended abruptly in 2023, announced at an unfavorably public moment – shortly before the championship-deciding match – following internal conflicts he later described as feeling like being "in a madhouse." This is exactly the SX6w7 formula: strength that doesn't exhaust itself in retreat, but keeps seeking new, more intense confrontations.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual achievement: perfectionism that became a new form</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Behind the sheer toughness stood an exceptionally disciplined personal training regimen, described by teammates and coaches as extreme even by professional standards – Kahn is still widely regarded as a goalkeeper who redefined the position technically: reflex-fast saves, physical presence in the box, psychological dominance over strikers who were unsettled by his gaze alone. This combination of technical precision and demonstrative unshakeability set the standard for an entire generation of goalkeepers.</p>
+          <p class="vb-intro">In his book "Ich. Erfolg kommt von innen" ("I. Success Comes from Within," 2008), he openly describes the emptiness and disorientation after sporting success – he had desperately searched for a book describing someone in exactly his situation and found none. A rare, direct glimpse behind the Titan facade, showing that the demonstrated invulnerability was never a complete answer even for himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the sexual Six with Seven-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w7 shows in how raw fear actually became top performance – a deliberate, functioning conversion of threat into concentration and presence that carried an entire career. The Six's fatal flaw is <strong>fear</strong> – the constant search for solid ground in a world experienced as fundamentally unreliable.</p>
+          <p class="vb-intro">In Kahn the shadow side shows in how the line between controlled confrontation and uncontrolled aggression was repeatedly crossed – toward teammates as much as in his own private life, where tension gave rise to abrupt breaks painful for others. The Seven-wing intensifies the tendency to numb restlessness through new stimulation rather than genuine inner clarification.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: from confrontation to genuine trust</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six's path to healing runs from the belief <em>I must constantly secure myself against an unsafe world</em> to the realization <em>I already carry guidance within me and can fundamentally trust the world.</em> For the SX6w7, this means in particular not constantly translating one's own fear into new confrontation or new stimulation, but also being able to sit with it without immediately reacting or breaking away.</p>
+          <p class="vb-intro">Much like Michael Schumacher (SX6w7) – whose uncompromising intensity on the racetrack was as legendary as his ability to put rivals under pressure – Kahn shows the same underlying tension of the SX6w7: top performance through deliberately sought confrontation with one's own fear. The actual step toward healing would lie, as hinted at in his own book, in no longer treating his own vulnerability as a weakness to be covered up, but as part of the story that is also allowed to be told.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype profile"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
 export function motherTeresaPortraitPage() {
   return shell(`
     <div class="page-container">

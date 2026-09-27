@@ -1185,6 +1185,7 @@ export function michaelSchumacherPortraitPage() {
         {route:"beruehmte-anke-engelke", label:"Portr\xe4t: Anke Engelke (SX6w7)"},
         {route:"krankheitsportraets-michael-schumacher", label:"Krankheitsporträt: Michael Schumacher (SX6w7)"},
         {route:"bibel-petrus", label:"Bibel-Porträt: Petrus (SX6w7)"},
+        {route:"beruehmte-oliver-kahn", label:"Porträt: Oliver Kahn (SX6w7)"},
       ])}
     </div>
   `);

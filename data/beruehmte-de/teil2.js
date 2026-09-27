@@ -328,6 +328,70 @@ export function owenWilsonPortraitPage() {
   `);
 }
 
+export function oliverKahnPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-oliver-kahn-portrait.jpg" alt="Oliver Kahn – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Oliver Kahn</p>
+        <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Fußballtorwart, geb. 1969 – Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf, der ›Titan‹ genannt wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier des sexuellen Typs 6 – ein Rudeltier, das seine Verletzlichkeit hinter demonstrativer Stärke verbirgt und Bedrohung nicht mit Rückzug, sondern mit Zähnen beantwortet. Oliver Kahn, geboren 1969 in Karlsruhe, begann beim Karlsruher SC als Feldspieler, bevor er zum Torwart wechselte – 1994 folgte der Wechsel zum FC Bayern München, wo er bis zu seinem Karriereende 2008 blieb: 429 Bundesligaspiele, acht Meistertitel, sechs DFB-Pokal-Siege, ein Champions-League-Titel 2001. Bei der WM 2002 wurde er als bisher einziger Torwart der Geschichte mit dem Goldenen Ball als bester Spieler des Turniers ausgezeichnet – trotz eines folgenschweren eigenen Fehlers im Finale gegen Brasilien.</p>
+          <p class="vb-intro">Die deutsche Presse nannte ihn ›Der Titan‹, Fans nannten ihn ›Vul-Kahn‹ – eine Anspielung auf sein explosives Temperament. Dokumentierte Aggressionsvorfälle prägten sein Bild: Er trat Bayern-Mitspieler Michael Bodden nach einer versehentlichen Kollision in den Bauch, packte Mitspieler Thomas Brdaric am Hals, stieß Nationalmannschaftskollege Miroslav Klose ins Gesicht. Am eindrücklichsten – und im wörtlichen Sinne wölfisch – war die sogenannte ›Biss-Attacke‹ vom 3. April 1999 gegen Borussia Dortmund: Nach einer Provokation von BVB-Stürmer Heiko Herrlich verlor Kahn im Strafraum die Nerven, lief ihm hinterher und setzte im Nacken- und Halsbereich buchstäblich die Zähne an – eine Szene, die als ›Knabber-Aktion‹ in die Bundesliga-Geschichte einging und die Herrlich später gelassen als ›Drohgebärde aus dem Tierreich‹ kommentierte. Gemeinsam mit Jens Lehmann prägte Kahn das deutsche Torwart-Bild des eiskalten, unverwundbar wirkenden Einzelkämpfers, der nie Schwäche zeigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Angst als Treibstoff statt als Bedrohung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der Kontratyp der Sechs – statt die eigene Angst zu vermeiden, wird ihr frontal begegnet, bis Stärke selbst zur Gegenreaktion auf tief sitzende Unsicherheit wird. Kahn hat dieses Prinzip selbst in Worte gefasst: ›Ängste sind eigentlich die Grundlage für Höchstleistungen. Angst schärft die Konzentration, der Adrenalinspiegel steigt…‹ – eine bewusste Umdeutung der eigenen Angst zum Werkzeug, statt sie zu meiden.</p>
+          <p class="vb-intro">Seine physischen Auseinandersetzungen mit Mitspielern zeigen dasselbe Muster in extremer Form: Bedrohung – ob real oder empfunden – wurde nicht ertragen oder verdrängt, sondern sofort und körperlich beantwortet. Auch seine jahrelange, zunehmend persönliche Rivalität mit Jens Lehmann um den Platz im Tor der Nationalmannschaft las sich weniger wie ein rein sportlicher Wettkampf als wie ein erbitterter Kampf um Sicherheit und Vertrauen in der eigenen zentralen Rolle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Die Affäre als Ausbruch aus der Anspannung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der sexuellen Sechs eine zusätzliche Energie und Reizsuche – die Konfrontation mit der Bedrohung wird nicht nur ertragen, sondern in Bewegung, Tempo und neue Stimulation verwandelt. 2003, kurz nach dem WM-Erfolg 2002, begann Kahn eine Affäre mit der 13 Jahre jüngeren Verena Kerth, während seine damalige Frau Simone mit dem gemeinsamen Sohn schwanger war – ein abrupter, öffentlich sichtbarer Bruch mit der bestehenden familiären Struktur, zeitlich verwoben mit dem Verlust seines Stammplatzes an Jens Lehmann.</p>
+          <p class="vb-intro">Auch seine spätere Karriere als bissig-direkter TV-Experte und sein Wechsel in die Bayern-Vorstandsetage 2021 zeigen dieselbe Rastlosigkeit: kaum ist eine Rolle ausgefüllt, sucht er die nächste, intensivere Bühne. Sein Bayern-Engagement endete 2023 abrupt und öffentlichkeitswirksam ungünstig terminiert – kurz vor dem Meisterschaftsspiel bekanntgegeben –, nach internen Konflikten, die er später als Zustände ›wie im Irrenhaus‹ beschrieb. Genau das ist die SX6w7-Formel: Stärke, die sich nicht in Rückzug erschöpft, sondern immer neue, intensivere Auseinandersetzungen sucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Perfektionismus, der zur Formsprache wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hinter der reinen Härte stand ein außergewöhnlich diszipliniertes, von Mitspielern und Trainern als extrem beschriebenes persönliches Trainingspensum – Kahn gilt bis heute vielen als Torwart, der die Position fachlich neu definierte: reflexschnelle Paraden, physische Präsenz im Strafraum, psychologische Dominanz gegenüber Stürmern, die allein durch seinen Blick verunsichert wurden. Diese Kombination aus technischer Präzision und demonstrativer Unerschütterlichkeit setzte für eine ganze Torwartgeneration den Maßstab.</p>
+          <p class="vb-intro">In seinem Buch ›Ich. Erfolg kommt von innen‹ (2008) beschreibt er offen die Leere und Orientierungslosigkeit nach dem sportlichen Erfolg – er habe verzweifelt nach einem Buch gesucht, das jemanden in genau seiner Situation beschreibt, und keines gefunden. Ein seltener, direkter Blick hinter die Titan-Fassade, der zeigt, dass die demonstrierte Unverwundbarkeit auch für ihn selbst keine vollständige Antwort war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Sechs mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 zeigt sich darin, dass aus roher Angst tatsächlich Höchstleistung wurde – eine bewusste, funktionierende Umwandlung von Bedrohungsgefühl in Konzentration und Präsenz, die eine ganze Karriere trug. Das Schicksalsmuster der Sechs ist <strong>Angst</strong> – die ständige Suche nach einem sicheren Grund in einer als grundsätzlich unzuverlässig erlebten Welt.</p>
+          <p class="vb-intro">Bei Kahn zeigt sich die Schattenseite darin, dass die Grenze zwischen kontrollierter Konfrontation und unkontrollierter Aggression wiederholt überschritten wurde – gegenüber Mitspielern ebenso wie im eigenen Privatleben, wo aus Anspannung heraus abrupte, für andere schmerzhafte Brüche entstanden. Der Siebenerflügel verstärkt dabei die Tendenz, Unruhe eher durch neue Reize zu betäuben als durch echte innere Klärung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Konfrontation zum echten Vertrauen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Überzeugung <em>Ich muss mich ständig gegen eine unsichere Welt absichern</em> zur Erkenntnis <em>Ich trage die Führung bereits in mir und kann der Welt grundsätzlich vertrauen.</em> Für die SX6w7 bedeutet das insbesondere, die eigene Angst nicht immer wieder in neue Konfrontation oder neue Reize zu übersetzen, sondern auch auszuhalten, ohne sofort zu reagieren oder auszubrechen.</p>
+          <p class="vb-intro">Ähnlich wie Michael Schumacher (SX6w7) – dessen kompromisslose Intensität auf der Rennstrecke ebenso legendär war wie seine Fähigkeit, Rivalen unter Druck zu setzen – zeigt auch Kahn dieselbe Grundspannung der SX6w7: Höchstleistung durch bewusst gesuchte Konfrontation mit der eigenen Angst. Der eigentliche Heilungsschritt läge darin, wie in seinem eigenen Buch angedeutet, die eigene Verletzlichkeit nicht länger als Schwäche zu behandeln, die überdeckt werden muss, sondern als Teil der Geschichte, die auch erzählt werden darf.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
 export function mutterTeresaPortraitPage() {
   return shell(`
     <div class="page-container">
