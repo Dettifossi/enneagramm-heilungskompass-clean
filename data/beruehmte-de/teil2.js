@@ -392,6 +392,70 @@ export function oliverKahnPortraitPage() {
   `);
 }
 
+export function serenaWilliamsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-serena-williams-portrait.jpg" alt="Serena Williams – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Serena Williams</p>
+        <p class="krim-portrait-typ">SX7w8 · Sexueller Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanische Tennisspielerin, geb. 1981 – Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse, dessen Plan vor der Geburt geschrieben wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier des sexuellen Typs 7 – ein Tier von enormer Intelligenz, Energie und sozialer Dominanz, das seine Umgebung nicht erträgt, sondern aktiv gestaltet und erobert. Serena Williams, geboren 1981, wuchs mit ihrer Schwester Venus in Compton, Kalifornien auf, wo ihr Vater Richard Williams – ohne selbst je professionell Tennis gespielt zu haben – bereits vor ihrer Geburt einen rund 80-seitigen Plan für die Karrieren seiner künftigen Töchter verfasst hatte, nachdem er die rumänische Spielerin Virginia Ruzici im Fernsehen gesehen hatte. Ab etwa viereinhalb Jahren trainierte er beide Schwestern auf den rissigen öffentlichen Plätzen Comptons – eine bewusst gewählte, harte Umgebung, die Nervenstärke unter Druck einüben sollte.</p>
+          <p class="vb-intro">Aus diesem ungewöhnlichen Startpunkt heraus wurde Williams zu einer der dominantesten Sportlerinnen der Geschichte: 23 Grand-Slam-Einzeltitel in der Open Era, nur einer weniger als Margaret Courts Allzeitrekord. Im Januar 2017 wurde sie im Alter von 35 Jahren – bereits schwanger – zur ältesten Weltranglistenersten der Tennisgeschichte. Nach ihrer Babypause 2018 kämpfte sie mehrfach in Grand-Slam-Finals (Wimbledon 2018, US Open 2018 und 2019, Wimbledon 2019) um den historischen 24. Titel, ohne ihn am Ende zu erreichen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Intensität statt bloßer Vielfalt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> sucht nach Naranjo nicht die diffuse Vielfalt der selbsterhaltenden oder sozialen Sieben, sondern ›Suggestibilität‹ – eine intensive, fast idealisierende Hingabe an den einen entscheidenden Moment oder die eine bedeutsame Verbindung. Bei Williams zeigt sich das exakt an den Stellen, an denen ihre berühmtesten Konfrontationen mit Schiedsrichtern stattfanden: nicht verteilt über die gesamte Karriere, sondern konzentriert auf die höchsten Einsätze – ein Matchball im US-Open-Halbfinale 2009, ein Finale auf der Jagd nach dem historischen Rekordtitel 2018.</p>
+          <p class="vb-intro">Neben dem Tennis baute sie parallel ein breites Spektrum an Unternehmungen auf: Serena Ventures, eine Risikokapitalgesellschaft, die gezielt in Gründerinnen und Gründer of Color investiert (rund 53 Prozent frauengeführte, 47 Prozent von Schwarzen Unternehmer:innen geführte Portfoliounternehmen), eine eigene Modelinie, eine Beauty-Marke, Produktionsarbeit am Film ›King Richard‹ über ihren Vater. Diese Fülle an gleichzeitig verfolgten Projekten neben dem sportlichen Wettkampf ist typisch für die Sieben – Energie, die sich nicht auf ein einziges Feld beschränken lässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Wenn Ungerechtigkeit nicht hingenommen wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der sexuellen Sieben eine zusätzliche konfrontative, grenzensetzende Härte – wahrgenommenes Unrecht wird nicht charmant überspielt, sondern direkt angegangen. Beim US-Open-Halbfinale 2009 gegen Kim Clijsters, im Rückstand nach einem Fußfehler-Pfiff, drohte sie der Linienrichterin unverblümt körperliche Gewalt an – ein Vorfall, der eine Rekordstrafe von 82.500 Dollar und die Androhung eines Grand-Slam-Ausschlusses nach sich zog.</p>
+          <p class="vb-intro">Im US-Open-Finale 2018 gegen Naomi Osaka eskalierte ein Streit mit Schiedsrichter Carlos Ramos über drei Verwarnungen bis zu einer Spielstrafe, nachdem sie ihn als ›Dieb‹ bezeichnet hatte – im Anschluss warf sie ihm öffentlich Sexismus vor: ›Er hat noch nie einem Mann ein Spiel abgezogen, weil er ›Dieb‹ gesagt hat.‹ Bezeichnend ist dabei, dass ihre eigene Rechtfertigung im Nachhinein nie bei der eigenen Reaktion ansetzte, sondern bei der wahrgenommenen Ungerechtigkeit selbst – ein Muster, das sich auch 2017 nach der Geburt ihrer Tochter wiederholte: Als medizinisches Personal ihre eigene Einschätzung einer Lungenembolie zunächst nicht ernst nahm, setzte sie sich so lange durch, bis ein CT-Scan tatsächlich mehrere Embolien fand – seither engagiert sie sich öffentlich für die Gesundheitsversorgung Schwarzer Mütter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Technische Wucht, die eine ganze Ära definierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Williams veränderte den Frauentennis fachlich nachhaltig: Ihr Aufschlag zählt zu den härtesten und konstantesten der Turniergeschichte, ihre Fähigkeit, aus der Defensive heraus binnen weniger Schläge ins Angriffsspiel zu wechseln, zwang Gegnerinnen zu einem athletischeren, kraftvolleren Spielstil, der bis heute die Damentour prägt. Ihre über zwei Jahrzehnte anhaltende Dominanz in einer körperlich extrem fordernden Sportart – bis weit in die späten Dreißiger hinein konkurrenzfähig – ist fachlich kaum vergleichbar.</p>
+          <p class="vb-intro">Ihr Ehemann Alexis Ohanian, Mitgründer von Reddit, trat 2020 während der Black-Lives-Matter-Proteste öffentlichkeitswirksam von seinem eigenen Reddit-Vorstandssitz zurück und bat darum, ihn durch eine Schwarze Person zu ersetzen – mit dem Hinweis, er wolle seiner Tochter später erklären können, was er in diesem Moment getan habe. Diese öffentliche, wertegetriebene Geste zeigt, wie sehr Aktivismus und persönliches Leben bei Williams und ihrer Familie ineinandergreifen, ohne dass der Alltag ihrer Ehe selbst öffentlich ausgebreitet wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Sieben mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX7w8 zeigt sich in der Fähigkeit, eine als ungerecht erlebte Behandlung nicht stillschweigend hinzunehmen – sei es gegenüber einem Schiedsrichter oder gegenüber medizinischem Personal, das ihre eigene, lebensbedrohliche Einschätzung zunächst ignorierte. Diese Unbeugsamkeit rettete ihr nachweislich das Leben und wurde später zu einer öffentlichen Stimme für strukturelle Ungleichheit in der Mutterschaftsversorgung.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sieben ist die <strong>Völlerei</strong> – der Griff nach immer mehr Intensität, Erfahrung und Optionen, um innere Leere oder Schmerz nicht spüren zu müssen. Verbunden mit dem Achterflügel kippt das bei Williams in Momenten höchster Anspannung in offene Konfrontation, die über das situativ Angemessene hinausschießt – die Bedrohung einer Linienrichterin 2009 ist dafür das deutlichste Beispiel, ein Ausmaß an Eskalation, das selbst für den Hochleistungssport ungewöhnlich blieb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Konfrontation zur inneren Ruhe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sieben führt von der Überzeugung <em>Ich muss immer mehr Intensität suchen, um nicht mit dem Schmerz konfrontiert zu sein</em> zur Erkenntnis <em>Ich kann auch im gegenwärtigen Moment vollständig da sein, ohne ihn zu übersteigern.</em> Für die SX7w8 bedeutet das insbesondere, wahrgenommenes Unrecht anzusprechen, ohne sofort in die maximale Konfrontation zu eskalieren – Grenzen setzen, ohne die eigene Wirkung zu überschießen.</p>
+          <p class="vb-intro">Ähnlich wie Boris Becker (SX7w8) – bei dem sich dieselbe grenzenlose Intensität sowohl im sportlichen Ausnahmetalent als auch in einem lebenslangen Ringen um das eigene öffentliche Bild zeigte – verkörpert auch Williams die Grundspannung der SX7w8: außergewöhnliche Leistungsfähigkeit, erkauft mit einer Intensität, die sich in Extremmomenten nur schwer zügeln lässt. Der eigentliche Heilungsschritt läge darin, dieselbe Entschlossenheit, mit der sie sich gegen Unrecht wehrt, auch auf die eigene innere Balance im Moment der größten Anspannung anzuwenden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-boris-becker", label:"Porträt: Boris Becker (SX7w8)"},
+      ])}
+    </div>
+  `);
+}
+
 export function mutterTeresaPortraitPage() {
   return shell(`
     <div class="page-container">

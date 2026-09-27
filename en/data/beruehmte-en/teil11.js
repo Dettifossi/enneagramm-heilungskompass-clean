@@ -251,6 +251,7 @@ export function borisBeckerPortraitPage() {
         {route:"astrologie-boris-becker", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"kriminalpsychologie-boris-becker", label:"Kriminalfall: Boris Becker (SX7w8)"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"beruehmte-serena-williams", label:"Portrait: Serena Williams (SX7w8)"},
       ])}
     </div>
   `);

@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2413", date: "2026-09-27", text: "Neues Porträt: Serena Williams (SX7w8) – US-amerikanische Tennisspielerin.", text_en: "New portrait: Serena Williams (SX7w8) – American tennis player.", route: "beruehmte-serena-williams" },
     { version: "v2412", date: "2026-09-27", text: "Neues Porträt: Oliver Kahn (SX6w7) – deutscher Fußballtorwart.", text_en: "New portrait: Oliver Kahn (SX6w7) – German football goalkeeper.", route: "beruehmte-oliver-kahn" },
     { version: "v2411", date: "2026-09-27", text: "Neues Porträt: Owen Wilson (SX9w1) – US-amerikanischer Schauspieler und Drehbuchautor.", text_en: "New portrait: Owen Wilson (SX9w1) – American actor and screenwriter.", route: "beruehmte-owen-wilson" },
     { version: "v2410", date: "2026-09-27", text: "Neues Porträt: Aylin Tezel (SE3w2) – deutsche Schauspielerin, Autorin und Regisseurin.", text_en: "New portrait: Aylin Tezel (SE3w2) – German actress, writer and director.", route: "beruehmte-aylin-tezel" },

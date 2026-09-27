@@ -325,6 +325,70 @@ export function oliverKahnPortraitPage() {
   `);
 }
 
+export function serenaWilliamsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-serena-williams-portrait.jpg" alt="Serena Williams – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Serena Williams</p>
+        <p class="krim-portrait-typ">SX7w8 · Sexual Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">American tennis player, born 1981 – Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The chimpanzee whose plan was written before birth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the sexual Seven – an animal of enormous intelligence, energy, and social dominance that doesn't endure its environment but actively shapes and conquers it. Serena Williams, born in 1981, grew up with her sister Venus in Compton, California, where her father Richard Williams – having never played professional tennis himself – had already written an approximately 80-page plan for his future daughters' careers before they were born, after seeing Romanian player Virginia Ruzici on television. From about age four and a half, he trained both sisters on Compton's cracked public courts – a deliberately chosen, tough environment meant to build resilience under pressure.</p>
+          <p class="vb-intro">From this unusual starting point, Williams became one of the most dominant athletes in history: 23 Grand Slam singles titles in the Open era, one shy of Margaret Court's all-time record. In January 2017, at age 35 and already pregnant, she became the oldest world No. 1 in tennis history. After her maternity break, she fought through multiple Grand Slam finals (2018 Wimbledon, 2018 and 2019 US Open, 2019 Wimbledon) chasing the historic 24th title, without ever reaching it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: intensity rather than mere variety</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>sexual Seven (SX7)</strong> doesn't seek the diffuse variety of the self-preservation or social Seven, but "suggestibility" – an intense, almost idealizing devotion to the one decisive moment or one significant bond. In Williams this shows exactly at the points where her most famous confrontations with umpires took place: not spread across her entire career, but concentrated on the highest stakes – a match point in the 2009 US Open semifinal, a final chasing the historic record title in 2018.</p>
+          <p class="vb-intro">Alongside tennis she simultaneously built a broad range of ventures: Serena Ventures, a venture capital firm specifically investing in founders of color (roughly 53 percent women-founded, 47 percent Black-founded portfolio companies), her own fashion line, a beauty brand, and producing work on the film "King Richard" about her father. This abundance of simultaneously pursued projects alongside athletic competition is typical of the Seven – energy that refuses to be confined to a single field.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: when injustice isn't accepted</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the sexual Seven an additional confrontational, boundary-asserting toughness – perceived injustice isn't charmingly deflected, but addressed head-on. At the 2009 US Open semifinal against Kim Clijsters, trailing after a foot-fault call, she bluntly threatened the line judge with physical violence – an incident that led to a record $82,500 fine and the threat of a Grand Slam ban.</p>
+          <p class="vb-intro">In the 2018 US Open final against Naomi Osaka, a dispute with umpire Carlos Ramos escalated through three code violations to a game penalty after she called him a "thief" – afterward she publicly accused him of sexism: "He's never taken a game from a man because they said 'thief.'" Tellingly, her own justification afterward never centered on her own reaction, but on the perceived injustice itself – a pattern that repeated in 2017 after giving birth to her daughter: when medical staff initially didn't take her own assessment of a pulmonary embolism seriously, she pushed until a CT scan actually found multiple emboli – she has since publicly advocated for Black maternal healthcare.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual achievement: technical power that defined an era</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Williams changed women's tennis technically and lastingly: her serve ranks among the hardest and most consistent in tournament history, and her ability to shift from defense to attack within a few strokes forced opponents into a more athletic, powerful style of play that still shapes the women's tour today. Her more than two-decade dominance in a physically extremely demanding sport – remaining competitive well into her late thirties – is hardly comparable in technical terms.</p>
+          <p class="vb-intro">Her husband Alexis Ohanian, co-founder of Reddit, publicly resigned from his own Reddit board seat in 2020 during the Black Lives Matter protests, asking to be replaced by a Black person – explaining he wanted to be able to tell his daughter later what he had done in that moment. This public, values-driven gesture shows how much activism and personal life intertwine for Williams and her family, without the everyday life of their marriage itself being publicly laid bare.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the sexual Seven with Eight-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX7w8 shows in the ability not to silently accept treatment experienced as unjust – whether from an umpire or from medical staff who initially dismissed her own life-threatening assessment. This unbendingness demonstrably saved her life and later became a public voice for structural inequality in maternal healthcare.</p>
+          <p class="vb-intro">The Seven's fatal flaw is <strong>gluttony</strong> – reaching for ever more intensity, experience, and options to avoid feeling inner emptiness or pain. Combined with the Eight-wing, in Williams this tips, in moments of highest tension, into open confrontation that overshoots what the situation calls for – the threat against a line judge in 2009 is the clearest example, a degree of escalation unusual even by elite sports standards.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: from confrontation to inner calm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven's path to healing runs from the belief <em>I must keep seeking more intensity so I don't have to face the pain</em> to the realization <em>I can be fully present in this moment without needing to intensify it.</em> For the SX7w8, this means in particular addressing perceived injustice without immediately escalating to maximum confrontation – setting boundaries without overshooting one's own impact.</p>
+          <p class="vb-intro">Much like Boris Becker (SX7w8) – in whom the same boundless intensity showed both in exceptional athletic talent and in a lifelong struggle over his own public image – Williams likewise embodies the underlying tension of the SX7w8: extraordinary performance, purchased with an intensity that becomes hard to rein in at extreme moments. The actual step toward healing would lie in applying the same determination with which she fights injustice to her own inner balance at the moment of greatest tension.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype profile"},
+        {route:"beruehmte-boris-becker", label:"Portrait: Boris Becker (SX7w8)"},
+      ])}
+    </div>
+  `);
+}
+
 export function motherTeresaPortraitPage() {
   return shell(`
     <div class="page-container">
