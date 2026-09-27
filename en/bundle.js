@@ -23066,7 +23066,7 @@ function linienDynamikBeziehungenPage() {
         </blockquote>
 
         <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
-          <img src="./assets/wissen/linien-dynamik-spiegel-en.jpg" alt="The Mirror of Resonance – Enneagram connecting-line dynamics in relationships" style="width:100%;display:block;" loading="lazy" />
+          <img src="../assets/wissen/linien-dynamik-spiegel-en.jpg" alt="The Mirror of Resonance – Enneagram connecting-line dynamics in relationships" style="width:100%;display:block;" loading="lazy" />
           <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">The unconscious drama (fixation shadow) and the conscious quantum leap (integration) compared</p>
         </div>
 
