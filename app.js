@@ -50314,6 +50314,12 @@ function linienDynamikBeziehungenPage() {
           <p class="vb-intro">Besonders spannend – und h\xe4ufig missverstanden – ist die Frage, wie sich Partnerschaften auf den inneren Verbindungsachsen auswirken: dem Dreieck 3–6–9 und dem Sechseck 1–4–2–8–5–7. Bedeutet das Gesetz von Stress- und Entspannungspunkten automatisch, dass ein Partner der „Ausl\xf6ser“ ist und der andere lediglich „profitiert“? Eine genauere Betrachtung zeigt ein deutlich vielschichtigeres Bild.</p>
         </blockquote>
 
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/wissen/linien-dynamik-spiegel-de.jpg" alt="Der Spiegel der Resonanz – Enneagramm-Linien-Dynamik in Beziehungen" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">Das unbewusste Drama (Fixierungs-Schatten) und der bewusste Quantensprung (Integration) im Vergleich</p>
+        </div>
+
+
         <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">1. Die wichtigste Klarstellung zuerst: zwei verschiedene Trigger, keine Symmetrie</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Jeder Typ hat auf seiner Linie einen <strong>festen, gerichteten</strong> Stresspunkt und einen ebenso festen, gerichteten Entspannungspunkt (auch Sicherheits- oder Integrationspunkt genannt) – und diese beiden Richtungen sind niemals identisch. Bei der Drei-Sechs-Verbindung etwa ist die Drei der Stresspunkt der Sechs, aber umgekehrt ist die Sechs <em>nicht</em> der Stresspunkt der Drei – die Sechs ist der Entspannungspunkt der Drei. Der eigentliche Stresspunkt der Drei liegt bei der Neun.</p>
@@ -50340,11 +50346,6 @@ function linienDynamikBeziehungenPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Ob eine solche Linien-Beziehung gelingt oder in einen Teufelskreis f\xfchrt, h\xe4ngt fast ausschlie\xdflich davon ab, auf welcher Bewusstseinsebene beide Partner agieren – nicht davon, welche beiden Typen aufeinandertreffen. Stecken beide in ihren automatischen Mustern fest, verst\xe4rken sie sich gegenseitig in genau den Schatten, vor denen sie selbst am meisten Angst haben. Beginnt einer oder beginnen beide, die eigene Fixierung zu erkennen und Verantwortung f\xfcr das eigene Innenleben zu \xfcbernehmen, wird aus dem gef\xfcrchteten Stresspunkt der pr\xe4ziseste Spiegel, den man sich w\xfcnschen kann, um die eigenen blinden Flecken zu erkennen.</p>
         </blockquote>
-
-        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
-          <img src="./assets/wissen/linien-dynamik-spiegel-de.jpg" alt="Der Spiegel der Resonanz – Enneagramm-Linien-Dynamik in Beziehungen" style="width:100%;display:block;" loading="lazy" />
-          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">Das unbewusste Drama (Fixierungs-Schatten) und der bewusste Quantensprung (Integration) im Vergleich</p>
-        </div>
 
         ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
