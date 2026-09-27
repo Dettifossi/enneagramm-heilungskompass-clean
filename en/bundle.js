@@ -3980,6 +3980,7 @@ text.nav = [
     { route: "krankheitsmusterkompass", label: "Illness Pattern Compass (Patterns in the Illness Portraits)" },
     { route: "kriminalmusterkompass", label: "Crime Pattern Compass (Patterns in the Criminal Psychology Portraits)" },
     { route: "musterradar", label: "Pattern Radar (Wings & Instincts Across All Types)" },
+    { route: "linien-dynamik-beziehungen", label: "Connecting-Line Dynamics in Relationships (Stress & Security Points)" },
     { route: "enneagramm-rad", label: "Enneagram Wheel (interactive symbol)" },
     { route: "blickqualitaeten-atlas", label: "Gaze Quality Atlas (27 Subtypes)" },
     { route: "quiz", label: "Quiz" },
@@ -23050,6 +23051,63 @@ const HOMOEOPATHIE_FAELLE = [
   { route:"homoeopathie-fall-8", typ:8, subtyp:"SE8", titel:"Patient vom Typ 8", krankheit:"Manische Depression", heilmittel:"Veratrum album", teaser:"Man, 44 years old. Landscape gardener. Bipolar disorder with manic phases (felt himself to be the successor of Jesus Christ) and suicidal depressions. Several psychiatric hospital stays. The overdeveloped gut energy of the Eight finds no natural channel. Veratrum album, white hellebore, brings gradual stability." },
   { route:"homoeopathie-fall-9", typ:9, subtyp:"SE9", titel:"Patient vom Typ 9", krankheit:"Rezidivierende H\xe4morrhoidalblutungen", heilmittel:"Cannabis indica", teaser:"Man, 53 years old. 96 kg, BMI 31, Grade I obesity. Recurrent hemorrhoidal bleeding, fatty liver, sedentary job, fast-food diet, 9–10 hours of sleep daily. Sloth as the core passion of the Nine locks up the life force. Cannabis indica, Indian hemp, resolves the deeply rooted physical stagnation." },
 ];
+
+function linienDynamikBeziehungenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('linien-dynamik-beziehungen')}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; Enneagram Theory</p>
+        <h1 class="section-title">The Mirror of Resonance: Connecting-Line Dynamics in Relationships</h1>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Relationships in the Enneagram are often viewed through a static lens: determine both partners' types, place them side by side, and see which traits supposedly harmonize or collide. But anyone who looks deeper into the Enneagram's structure – especially the movement lines shaped by Ichazo, Gurdjieff, and Claudio Naranjo – quickly realizes that relationships aren't fixed states, but living, shifting force fields.</p>
+          <p class="vb-intro">Particularly interesting – and often misunderstood – is how partnerships play out along the inner connecting axes: the triangle 3–6–9 and the hexagon 1–4–2–8–5–7. Does the law of stress and security points automatically mean one partner is the "trigger" while the other merely "benefits"? A closer look reveals a far more layered picture.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">1. The key clarification first: two different triggers, not a symmetry</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Every type has, along its line, a <strong>fixed, directional</strong> stress point and an equally fixed, directional security point (also called the growth or integration point) – and these two directions are never the same. In the Three-Six connection, for instance, the Three is the Six's stress point, but the reverse isn't true: the Six is <em>not</em> the Three's stress point – the Six is the Three's security point. The Three's actual stress point lies at the Nine.</p>
+          <p class="vb-intro">Still, in a Six-Three partnership where both partners operate unconsciously, both can genuinely trigger each other – just through two different mechanisms. The Six is activated via its real stress point whenever the Three shows Three-typical behavior (performance pressure, image focus, impatience with doubt). The Three, by contrast, isn't triggered via a stress point at all, but via the <strong>shadow side of its security point</strong>: by today's understanding, a person doesn't only integrate the healthy qualities of their security point – it's also possible, more rarely but documented, to slip into its negative traits instead. Six-typical behavior (control, skepticism, alarmism) can genuinely irritate the Three, just not through the same channel as with the Six.</p>
+          <p class="vb-intro">This distinction holds for all six line pairings below: each pair has exactly <strong>one</strong> genuine stress-point direction – the opposite direction is the security point, whose shadow can also, though less often, become a trigger. The underlying tendency remains: under real pressure, most people move toward their stress point far more readily than toward the shadow side of their security point.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">2. The triangle: the 3 – 6 – 9 axis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">This triad is considered the foundation of human adaptation to the world – the formation of identity, security, and inner peace. The stress direction runs in a circle, 9 → 6 → 3 → 9; the security direction runs exactly opposite.</p>
+          <p class="vb-intro"><strong>Three and Six:</strong> The Six's real stress point is the Three – the achievement-oriented, image-focused Three, who hides vulnerability behind perfection, drives the controlling, anxious Six into high alert. The Three, in turn, has the Six as its security point; unconsciously, the Six's constant questioning can still feel irritating through the shadow side of that point. Once conscious, the Three learns honesty and the admission of doubt from the Six, and the Six learns drive and how to leave endless rumination loops from the Three.</p>
+          <p class="vb-intro"><strong>Six and Nine:</strong> The Nine's real stress point is the Six – under pressure, the otherwise peace-loving Nine takes on anxious, mistrustful traits. The Six has the Nine as its security point, whose shadow side can irritate as passivity or avoidance. <strong>Nine and Three:</strong> The Three's real stress point is the Nine – under pressure, the otherwise driven Three falls into Nine-typical withdrawal and self-forgetting. The Nine has the Three as its security point, where under favorable conditions it develops more drive.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">3. The hexagon: the axes 1–4–2–8–5–7–1</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The stress direction runs in a circle, 1 → 4 → 2 → 8 → 5 → 7 → 1; the security direction runs exactly opposite.</p>
+          <p class="vb-intro"><strong>One and Seven:</strong> The Seven's real stress point is the One – under pressure, the otherwise light-footed Seven suddenly becomes rigid, critical, and self-critical. The One has the Seven as its security point; its shadow side can be experienced as lack of discipline, even though a consciously integrated Seven gives the One lightness and joy of life.</p>
+          <p class="vb-intro"><strong>Eight and Five:</strong> The Eight's real stress point is the Five – under pressure, the otherwise expansive Eight surprisingly withdraws and closes off. The Five has the Eight as its security point, where under favorable conditions it develops presence and assertiveness – but unconsciously, the Eight's readiness for confrontation can overwhelm the Five through the shadow side of that point.</p>
+          <p class="vb-intro"><strong>Two and Four:</strong> The Four's real stress point is the Two – under pressure, the otherwise introspective Four becomes clingy and demandingly needy. The Two has the Four as its security point; its shadow side can feel irritating as dramatic, self-focused suffering, even though a consciously integrated Four gives the Two depth and genuine emotional expression beyond pure helping.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">4. The decisive factor: level of consciousness, not the label</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Whether such a connecting-line relationship succeeds or spirals into a vicious cycle depends almost entirely on the level of consciousness both partners operate from – not on which two types happen to meet. If both are stuck in their automatic patterns, they reinforce each other in exactly the shadows they each fear most. Once one or both begin to recognize their own fixation and take responsibility for their inner life, the dreaded stress point becomes the most precise mirror one could wish for to illuminate one's own blind spots.</p>
+        </blockquote>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/wissen/linien-dynamik-spiegel-en.jpg" alt="The Mirror of Resonance – Enneagram connecting-line dynamics in relationships" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">The unconscious drama (fixation shadow) and the conscious quantum leap (integration) compared</p>
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+        ${relatedLinks([
+          {route:"knowledge", label:"Back to the knowledge base"},
+          {route:"kompatibilitaets-check", label:"Compatibility Check (compare two subtypes)"},
+          {route:"tierforscher-uebereinstimmung", label:"Animal Researcher Match"},
+        ])}
+      </div>
+    </div>
+  `);
+}
 
 function enneagrammHomoeopathiePage() {
   function card(f) {
@@ -54029,6 +54087,7 @@ function subtypeSchaubilderPage() {
     "flugzeugmodelle-der-9-typen": flugzeugmodelleDer9TypenPage,
     "hauptfokus-des-bewusstseins-der-9-typen": hauptfokusBewusstseinsDer9TypenPage,
     "dynamik-des-bewusstseinszustandes": dynamikBewusstseinszustandesPage,
+      "linien-dynamik-beziehungen": linienDynamikBeziehungenPage,
       "enneagramm-homoeopathie": enneagrammHomoeopathiePage,
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,

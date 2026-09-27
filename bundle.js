@@ -15905,6 +15905,7 @@ const uiText = {
       { route: "krankheitsmusterkompass", label: "Krankheitsmusterkompass (Muster in den Krankheitsporträts)" },
       { route: "kriminalmusterkompass", label: "Kriminalmusterkompass (Muster in den Kriminalpsychologie-Porträts)" },
       { route: "musterradar", label: "Musterradar (Flügel & Instinkte im Querschnitt)" },
+      { route: "linien-dynamik-beziehungen", label: "Linien-Dynamik in Beziehungen (Stress- & Entspannungspunkte)" },
       { route: "enneagramm-rad", label: "Enneagramm-Rad (interaktives Symbol)" },
       { route: "blickqualitaeten-atlas", label: "Blickqualitäten-Atlas (27 Subtypen)" },
       { route: "quiz", label: "Quiz" },
@@ -50300,6 +50301,63 @@ const HOMOEOPATHIE_FAELLE = [
   { route:"homoeopathie-fall-9", typ:9, subtyp:"SE9", titel:"Patient vom Typ 9", krankheit:"Rezidivierende H\xe4morrhoidalblutungen", heilmittel:"Cannabis indica", teaser:"Mann, 53 Jahre. 96 kg, BMI 31, Adipositas Grad I. Rezidivierende H\xe4morrhoidalblutungen, Fettleber, sitzende T\xe4tigkeit, Fast-Food-Ern\xe4hrung, 9\u201310 Stunden Schlaf t\xe4glich. Die Tr\xe4gheit als Grundleidenschaft des Neuners sperrt die Lebenskraft. Cannabis indica, der Indische Hanf, l\xf6st die tief verwurzelte k\xf6rperliche Stagnation." },
 ];
 
+function linienDynamikBeziehungenPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('linien-dynamik-beziehungen')}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Enneagramm-Theorie</p>
+        <h1 class="section-title">Das Netz der Resonanz: Linien-Dynamik in Beziehungen</h1>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Beziehungen im Enneagramm werden oft durch eine statische Brille betrachtet: Man bestimmt die Typen beider Partner, legt sie nebeneinander und schaut, welche Charakterz\xfcge vermeintlich harmonieren oder kollidieren. Wer jedoch tiefer in die Struktur des Enneagramms eintaucht – insbesondere in die von Ichazo, Gurdjieff und Claudio Naranjo gepr\xe4gten Bewegungslinien –, erkennt schnell: Beziehungen sind keine starren Zust\xe4nde, sondern lebendige, ver\xe4nderliche Kraftfelder.</p>
+          <p class="vb-intro">Besonders spannend – und h\xe4ufig missverstanden – ist die Frage, wie sich Partnerschaften auf den inneren Verbindungsachsen auswirken: dem Dreieck 3–6–9 und dem Sechseck 1–4–2–8–5–7. Bedeutet das Gesetz von Stress- und Entspannungspunkten automatisch, dass ein Partner der „Ausl\xf6ser“ ist und der andere lediglich „profitiert“? Eine genauere Betrachtung zeigt ein deutlich vielschichtigeres Bild.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">1. Die wichtigste Klarstellung zuerst: zwei verschiedene Trigger, keine Symmetrie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jeder Typ hat auf seiner Linie einen <strong>festen, gerichteten</strong> Stresspunkt und einen ebenso festen, gerichteten Entspannungspunkt (auch Sicherheits- oder Integrationspunkt genannt) – und diese beiden Richtungen sind niemals identisch. Bei der Drei-Sechs-Verbindung etwa ist die Drei der Stresspunkt der Sechs, aber umgekehrt ist die Sechs <em>nicht</em> der Stresspunkt der Drei – die Sechs ist der Entspannungspunkt der Drei. Der eigentliche Stresspunkt der Drei liegt bei der Neun.</p>
+          <p class="vb-intro">Trotzdem k\xf6nnen sich in einer Sechs-Drei-Partnerschaft, in der beide unbewusst agieren, tats\xe4chlich beide gegenseitig triggern – nur \xfcber zwei verschiedene Mechanismen: Die Sechs wird \xfcber ihren echten Stresspunkt aktiviert, sobald die Drei dreiertypisches Verhalten (Leistungsdruck, Image-Fokus, Ungeduld mit Zweifeln) zeigt. Die Drei dagegen wird nicht \xfcber einen Stresspunkt getriggert, sondern \xfcber die <strong>Schattenseite ihres Entspannungspunkts</strong>: Nach heutigem Verst\xe4ndnis kann man am Entspannungspunkt nicht nur dessen gesunde Qualit\xe4ten integrieren, sondern – seltener, aber dokumentiert – auch in dessen negative Z\xfcge abrutschen. Sechsertypisches Verhalten (Kontrolle, Skepsis, Alarmismus) kann die Drei also durchaus reizen, nur eben nicht \xfcber denselben Kanal wie bei der Sechs.</p>
+          <p class="vb-intro">Diese Unterscheidung gilt f\xfcr jede der sechs Linien-Paarungen unten: Es gibt pro Paar immer nur <strong>eine</strong> echte Stresspunkt-Richtung – die Gegenrichtung ist der Entspannungspunkt, dessen Schatten ebenfalls, aber seltener, zum Triggerpunkt werden kann. Die Grundtendenz bleibt: Unter echtem Druck bewegt sich die Mehrheit der Menschen eher in Richtung ihres Stresspunkts als in Richtung der Schattenseite ihres Entspannungspunkts.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">2. Das Dreieck: Die Achse 3 – 6 – 9</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Diese Triade gilt als Fundament der menschlichen Anpassung an die Welt – Bildung von Identit\xe4t, Sicherheit und innerer Ruhe. Die Stressrichtung verl\xe4uft im Kreis 9 → 6 → 3 → 9; die Entspannungsrichtung genau entgegengesetzt.</p>
+          <p class="vb-intro"><strong>Drei und Sechs:</strong> Die Sechs hat ihren echten Stresspunkt bei der Drei – der leistungsorientierte, image-fokussierte Dreier, der Verletzlichkeit hinter Perfektion versteckt, treibt den kontrollierend-\xe4ngstlichen Sechser in Alarmbereitschaft. Die Drei wiederum hat die Sechs als Entspannungspunkt; unbewusst kann das st\xe4ndige Hinterfragen der Sechs dennoch \xfcber die Schattenseite dieses Punkts reizend wirken. Bewusst geworden, lernt die Drei von der Sechs Ehrlichkeit und das Eingestehen von Zweifeln, die Sechs von der Drei Tatkraft und das Verlassen endloser Gr\xfcbelschleifen.</p>
+          <p class="vb-intro"><strong>Sechs und Neun:</strong> Die Neun hat ihren echten Stresspunkt bei der Sechs – unter Druck \xfcbernimmt die sonst friedliebende Neun \xe4ngstlich-misstrauische Z\xfcge. Die Sechs hat die Neun als Entspannungspunkt, dessen Schattenseite als Passivit\xe4t oder Vermeidung reizen kann. <strong>Neun und Drei:</strong> Die Drei hat ihren echten Stresspunkt bei der Neun – unter Druck verf\xe4llt die sonst zielstrebige Drei in Neuner-typischen R\xfcckzug und Selbstvergessenheit. Die Neun hat die Drei als Entspannungspunkt, an dem sie sich unter g\xfcnstigen Bedingungen zu mehr Tatkraft entwickelt.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">3. Das Sechseck: Die Achsen 1–4–2–8–5–7–1</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Stressrichtung verl\xe4uft im Kreis 1 → 4 → 2 → 8 → 5 → 7 → 1; die Entspannungsrichtung genau entgegengesetzt.</p>
+          <p class="vb-intro"><strong>Eins und Sieben:</strong> Die Sieben hat ihren echten Stresspunkt bei der Eins – unter Druck wird die sonst leichtf\xfc\xdfige Sieben pl\xf6tzlich starr, kritisch und selbstkritisch. Die Eins hat die Sieben als Entspannungspunkt; deren Schattenseite kann als Disziplinlosigkeit erlebt werden, obwohl bewusst integriert die Sieben der Eins Leichtigkeit und Lebensfreude schenkt.</p>
+          <p class="vb-intro"><strong>Acht und F\xfcnf:</strong> Die Acht hat ihren echten Stresspunkt bei der F\xfcnf – unter Druck zieht sich die sonst raumnehmende Acht \xfcberraschend zur\xfcck und wird verschlossen. Die F\xfcnf hat die Acht als Entspannungspunkt, an dem sie unter g\xfcnstigen Bedingungen Pr\xe4senz und Durchsetzungskraft entwickelt – unbewusst kann die Konfrontationsbereitschaft der Acht die F\xfcnf aber \xfcber die Schattenseite dieses Punkts \xfcberw\xe4ltigen.</p>
+          <p class="vb-intro"><strong>Zwei und Vier:</strong> Die Vier hat ihren echten Stresspunkt bei der Zwei – unter Druck wird die sonst introspektive Vier klammernd und aufdringlich fordernd. Die Zwei hat die Vier als Entspannungspunkt; deren Schattenseite kann als dramatisches, selbstbezogenes Leiden irritierend wirken, obwohl bewusst integriert die Vier der Zwei Tiefe und echten emotionalen Ausdruck jenseits des reinen Helfens schenkt.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">4. Der entscheidende Faktor: Bewusstseinsgrad statt Etikett</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ob eine solche Linien-Beziehung gelingt oder in einen Teufelskreis f\xfchrt, h\xe4ngt fast ausschlie\xdflich davon ab, auf welcher Bewusstseinsebene beide Partner agieren – nicht davon, welche beiden Typen aufeinandertreffen. Stecken beide in ihren automatischen Mustern fest, verst\xe4rken sie sich gegenseitig in genau den Schatten, vor denen sie selbst am meisten Angst haben. Beginnt einer oder beginnen beide, die eigene Fixierung zu erkennen und Verantwortung f\xfcr das eigene Innenleben zu \xfcbernehmen, wird aus dem gef\xfcrchteten Stresspunkt der pr\xe4ziseste Spiegel, den man sich w\xfcnschen kann, um die eigenen blinden Flecken zu erkennen.</p>
+        </blockquote>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/wissen/linien-dynamik-spiegel-de.jpg" alt="Der Spiegel der Resonanz – Enneagramm-Linien-Dynamik in Beziehungen" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">Das unbewusste Drama (Fixierungs-Schatten) und der bewusste Quantensprung (Integration) im Vergleich</p>
+        </div>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"knowledge", label:"Zur\xfcck zur Wissensbasis"},
+          {route:"kompatibilitaets-check", label:"Kompatibilit\xe4ts-Check (zwei Subtypen vergleichen)"},
+          {route:"tierforscher-uebereinstimmung", label:"Tierforscher-\xdcbereinstimmung"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function enneagrammHomoeopathiePage() {
   function card(f) {
     const col = (typeof TYPE_COLORS !== 'undefined' ? TYPE_COLORS[f.typ] : null) || 'var(--copper)';
@@ -78274,6 +78332,7 @@ const ROUTES = {
     "hauptfokus-des-bewusstseins-der-9-typen": hauptfokusBewusstseinsDer9TypenPage,
     "dynamik-des-bewusstseinszustandes": dynamikBewusstseinszustandesPage,
       "beruehmte-persoenlichkeiten": beruehmtePersoenlichkeitenPage,
+      "linien-dynamik-beziehungen": linienDynamikBeziehungenPage,
       "enneagramm-homoeopathie": enneagrammHomoeopathiePage,
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,

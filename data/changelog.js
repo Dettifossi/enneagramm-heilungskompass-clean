@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2414", date: "2026-09-27", text: "Neuer Wissensartikel: Linien-Dynamik in Beziehungen – wie Stress- und Entspannungspunkte Partnerschaften prägen.", text_en: "New knowledge article: Connecting-Line Dynamics in Relationships – how stress and security points shape partnerships.", route: "linien-dynamik-beziehungen" },
     { version: "v2413", date: "2026-09-27", text: "Neues Porträt: Serena Williams (SX7w8) – US-amerikanische Tennisspielerin.", text_en: "New portrait: Serena Williams (SX7w8) – American tennis player.", route: "beruehmte-serena-williams" },
     { version: "v2412", date: "2026-09-27", text: "Neues Porträt: Oliver Kahn (SX6w7) – deutscher Fußballtorwart.", text_en: "New portrait: Oliver Kahn (SX6w7) – German football goalkeeper.", route: "beruehmte-oliver-kahn" },
     { version: "v2411", date: "2026-09-27", text: "Neues Porträt: Owen Wilson (SX9w1) – US-amerikanischer Schauspieler und Drehbuchautor.", text_en: "New portrait: Owen Wilson (SX9w1) – American actor and screenwriter.", route: "beruehmte-owen-wilson" },
