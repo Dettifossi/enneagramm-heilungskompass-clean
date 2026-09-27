@@ -101,7 +101,7 @@ export function cocoChanelPortraitPage() {
 
         <h2 class="vb-section">4. Controversy: collaboration and an Aryanization attempt in occupied Paris</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">During the German occupation of Paris, Chanel lived at the Hôtel Ritz, a hub for German officers, and maintained a years-long relationship with Hans Günther von Dincklage, an officer of German military intelligence. In 1943 she became involved in "Operation Modellhut" – an intelligence effort to use her personal acquaintance with Churchill to relay a separate-peace overture from SS officers to Britain, which collapsed when an associate denounced her.</p>
+          <p class="vb-intro">During the German occupation of Paris, Chanel lived at the Hôtel Ritz, a hub for German officers, and maintained a years-long relationship with Hans Günther von Dincklage, an officer of German military intelligence. In 1943 she became involved in "Operation Modellhut" – an intelligence effort to use her personal acquaintance with <a href="javascript:void(0)" data-route="beruehmte-winston-churchill">Winston Churchill</a> (SE8w9) to relay a separate-peace overture from SS officers to Britain, which collapsed when an associate denounced her.</p>
           <p class="vb-intro">In 1941 she also attempted to use Nazi Aryanization laws to strip her Jewish business partners, the Wertheimer brothers, of full control over Parfums Chanel and thus over her own perfume No. 5 – she failed only because the Wertheimers had pre-emptively transferred their stake to a Christian associate. After the war she went into exile in Switzerland for roughly a decade, likely escaping formal prosecution partly thanks to Churchill's intervention, before relaunching her fashion house in 1954.</p>
         </blockquote>
 
@@ -125,6 +125,7 @@ export function cocoChanelPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype profile"},
         {route:"beruehmte-madame-tussaud", label:"Portrait: Madame Tussaud (SP3w4)"},
+        {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SE8w9)"},
       ])}
     </div>
   `);

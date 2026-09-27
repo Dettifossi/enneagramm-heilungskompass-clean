@@ -168,7 +168,7 @@ export function cocoChanelPortraitPage() {
 
         <h2 class="vb-section">4. Kontroverse: Kollaboration und Arisierungsversuch im besetzten Paris</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Während der deutschen Besatzung von Paris wohnte Chanel im Hôtel Ritz, einem Knotenpunkt deutscher Offiziere, und unterhielt eine jahrelange Beziehung zu Hans Günther von Dincklage, einem Offizier des deutschen militärischen Geheimdienstes. 1943 war sie in ›Operation Modellhut‹ verwickelt – einen nachrichtendienstlichen Versuch, über ihre persönliche Bekanntschaft mit Churchill ein Separatfriedensangebot von SS-Offizieren an Großbritannien zu übermitteln, das scheiterte, als eine Mitwisserin sie denunzierte.</p>
+          <p class="vb-intro">Während der deutschen Besatzung von Paris wohnte Chanel im Hôtel Ritz, einem Knotenpunkt deutscher Offiziere, und unterhielt eine jahrelange Beziehung zu Hans Günther von Dincklage, einem Offizier des deutschen militärischen Geheimdienstes. 1943 war sie in ›Operation Modellhut‹ verwickelt – einen nachrichtendienstlichen Versuch, über ihre persönliche Bekanntschaft mit <a href="javascript:void(0)" data-route="beruehmte-winston-churchill">Winston Churchill</a> (SE8w9) ein Separatfriedensangebot von SS-Offizieren an Großbritannien zu übermitteln, das scheiterte, als eine Mitwisserin sie denunzierte.</p>
           <p class="vb-intro">1941 versuchte sie zudem, die deutschen Arisierungsgesetze zu nutzen, um ihren jüdischen Geschäftspartnern, den Brüdern Wertheimer, die Kontrolle über Parfums Chanel und damit über ihr eigenes Parfum No. 5 vollständig zu entreißen – sie scheiterte nur, weil die Wertheimers ihre Anteile vorausschauend auf einen christlichen Strohmann übertragen hatten. Nach Kriegsende ging sie für rund ein Jahrzehnt ins Schweizer Exil, wohl auch dank Churchills Fürsprache einer formellen Anklage entgangen, bevor sie 1954 ihr Modehaus neu eröffnete.</p>
         </blockquote>
 
@@ -192,6 +192,7 @@ export function cocoChanelPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-madame-tussaud", label:"Porträt: Madame Tussaud (SE3w4)"},
+        {route:"beruehmte-winston-churchill", label:"Porträt: Winston Churchill (SE8w9)"},
       ])}
     </div>
   `);
