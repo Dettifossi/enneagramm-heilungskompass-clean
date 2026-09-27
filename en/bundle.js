@@ -5684,7 +5684,7 @@ function startPage() {
 
   return shell(`
     ${onboardingOverlay()}
-    <div style="position:fixed;top:0.6rem;right:0.75rem;z-index:999;"><a href="/" class="lang-switcher" title="Zur deutschen Version" aria-label="Zur deutschen Version" onclick="_switchLangVoice(event, this.href, 'sounds/lang/switch_to_de.mp3')">🇩🇪 DE</a></div>
+    <div style="position:fixed;top:0.6rem;right:0.75rem;z-index:10000;"><a href="/" class="lang-switcher" title="Zur deutschen Version" aria-label="Zur deutschen Version" onclick="_switchLangVoice(event, this.href, 'sounds/lang/switch_to_de.mp3')">🇩🇪 DE</a></div>
     <section class="hero">
       <div class="hero__symbol">${compassMark()}</div>
       <p class="eyebrow">${text.meta.modelLine}</p>

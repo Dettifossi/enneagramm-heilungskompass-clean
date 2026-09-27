@@ -5246,6 +5246,11 @@ button.primary:hover::after {
   text-decoration: none;
   opacity: 0.75;
   transition: opacity 0.15s;
+  /* Muss über dem Onboarding-Overlay (z-index:9999) erreichbar bleiben,
+     damit englischsprachige Erstbesucher die App sofort umschalten können,
+     bevor sie den deutschen Einführungstext lesen/schließen müssen. */
+  position: relative;
+  z-index: 10000;
 }
 .lang-switcher:hover { opacity: 1; }
 
