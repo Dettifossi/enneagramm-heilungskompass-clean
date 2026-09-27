@@ -23144,7 +23144,7 @@ function enneagrammHomoeopathiePage() {
         </blockquote>
 
         <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
-          <img src="./assets/schaubilder/heilungsweg-des-menschen.jpg" alt="The Human Path of Healing &ndash; Overview of the 4 Healing Levels" style="width:100%;display:block;" loading="lazy" />
+          <img src="../assets/schaubilder/heilungsweg-des-menschen.jpg" alt="The Human Path of Healing &ndash; Overview of the 4 Healing Levels" style="width:100%;display:block;" loading="lazy" />
           <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">The Four Levels of Homeopathic Healing – From the Physical to the Essence Level</p>
         </div>
 
@@ -24187,7 +24187,7 @@ function _astrologiePage(p, analysisHtml) {
       <div id="js-back-target" data-route="enneagramm-astrologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/astrologie-${p.slug}-foto.jpg" alt="${p.name}" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/astrologie-${p.slug}-foto.jpg" alt="${p.name}" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">${p.name}</p>
         <p class="krim-portrait-typ">${p.subtyp} &middot; ${p.subtypLabel}</p>
@@ -24195,7 +24195,7 @@ function _astrologiePage(p, analysisHtml) {
       </div>
       <div class="page-content">
         <div style="margin:1.2rem 0 1.8rem;border-radius:10px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,0.15);">
-          <img src="./assets/portraits/astrologie-${p.slug}-horoskop.jpg" alt="Radix-Horoskop ${p.name}" style="width:100%;display:block;" loading="lazy" />
+          <img src="../assets/portraits/astrologie-${p.slug}-horoskop.jpg" alt="Radix-Horoskop ${p.name}" style="width:100%;display:block;" loading="lazy" />
           <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0.4rem 0 0;padding:0 0.5rem 0.6rem;">Radix-Horoskop &middot; ${p.name}</p>
         </div>
         ${analysisHtml}
@@ -27138,7 +27138,7 @@ function tritypenPage() {
         </blockquote>
 
         <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
-          <img src="./assets/schaubilder/tritypen-des-enneagramms.jpg" alt="The 27 Tritypes of the Enneagram – Overview" style="width:100%;display:block;" loading="lazy" />
+          <img src="../assets/schaubilder/tritypen-des-enneagramms.jpg" alt="The 27 Tritypes of the Enneagram – Overview" style="width:100%;display:block;" loading="lazy" />
           <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">The 27 Tritypes of the Enneagram – Overview</p>
         </div>
 
@@ -27165,7 +27165,7 @@ function borisBeckerKriminalPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="./assets/portraits/astrologie-boris-becker-foto.jpg" alt="Boris Becker – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/portraits/astrologie-boris-becker-foto.jpg" alt="Boris Becker – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Boris Becker</p>
         <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with Eight Wing</p>
