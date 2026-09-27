@@ -8747,7 +8747,7 @@ function libraryPage() {
 const TEXTUMFANG_STAND = { datum: "Sep 9, 2026", woerterMio: "1.5", normseiten: "5,850", buecher: "20" };
 // PRAXISTIPPS_ANZAHL is maintained manually (the TIPPS array is local to praxistippsHeilpraktikerPage) –
 // count it up whenever a new practice tip is added.
-const PRAXISTIPPS_ANZAHL = 15;
+const PRAXISTIPPS_ANZAHL = 16;
 
 function zahlenFaktenPage() {
   const beruehmt = BERUEHMT_PORTRAITS.length;

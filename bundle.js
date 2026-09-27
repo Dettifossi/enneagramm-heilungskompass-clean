@@ -37602,7 +37602,7 @@ function libraryPage() {
 const TEXTUMFANG_STAND = { datum: "09.09.2026", woerterMio: "1,5", normseiten: "5.850", buecher: "20" };
 // PRAXISTIPPS_ANZAHL manuell pflegen (TIPPS-Array ist lokal in praxistippsHeilpraktikerPage gekapselt) \u2013
 // bei jedem neuen Praxistipp hier mitz\u00e4hlen.
-const PRAXISTIPPS_ANZAHL = 15;
+const PRAXISTIPPS_ANZAHL = 16;
 
 function zahlenFaktenPage() {
   const beruehmt = BERUEHMT_PORTRAITS.length;
