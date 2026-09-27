@@ -56,7 +56,12 @@ button {
   width: min(1120px, calc(100% - 32px));
   min-height: 100vh;
   margin: 0 auto;
-  padding: 24px 0 56px;
+  /* padding-top/bottom berücksichtigen env(safe-area-inset-*), da die App per
+     manifest.json im "standalone"-Modus (Homescreen-PWA) läuft und der Viewport
+     seit viewport-fit=cover unter die iOS-Statusleiste/Notch reichen kann –
+     ohne diesen Ausgleich würde der Kopfbereich (inkl. Sprachumschalter) dort
+     unsichtbar/unantippbar landen. */
+  padding: calc(24px + env(safe-area-inset-top)) 0 calc(56px + env(safe-area-inset-bottom));
 }
 
 /* Zentriert Seiteninhalte auf breiten Screens (iPad/Desktop) statt sie
