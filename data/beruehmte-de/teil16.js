@@ -1029,6 +1029,7 @@ export function marilynMonroePortraitPage() {
         {route:"beruehmte-madonna", label:"Portr\u00e4t: Madonna (SX3w4)"},
         {route:"beruehmte-meg-ryan", label:"Portr\u00e4t: Meg Ryan (SX3w4)"},
         {route:"beruehmte-dieter-bohlen", label:"Portr\u00e4t: Dieter Bohlen (SX3w4)"},
+        {route:"beruehmte-lana-del-rey", label:"Portr\u00e4t: Lana Del Rey (SX3w4) \u2013 beruft sich selbst auf Monroes Bild"},
       ])}
     </div>
   `);

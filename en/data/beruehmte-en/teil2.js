@@ -1,5 +1,70 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function lanaDelReyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lana-del-rey-portrait.jpg" alt="Lana Del Rey – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lana Del Rey</p>
+        <p class="krim-portrait-typ">SX3w4 · Sexual Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">American singer-songwriter, born 1985 – Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The peacock that reinvented itself four names deep</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>peacock</strong> is the animal of the sexual Three – an animal that doesn't wear its appearance casually but stages it deliberately for the one decisive glance. Elizabeth Woolridge Grant, born in 1985 in the small town of Lake Placid, New York, developed a serious drinking problem as a teenager and was sent at 15 to Kent School, a boarding school in Connecticut, which she left sober again around age 18. Years of trial and error followed in New York: she first performed as "May Jailer," then as "Sparkle Jump Rope Queen," finally as "Lizzy Grant," before a 2010 debut album titled "Lana Del Ray a.k.a. Lizzy Grant" was released – and pulled from the market again before the actual breakthrough.</p>
+          <p class="vb-intro">Only with "Video Games" (2011) and the album "Born to Die" (2012) did she find her final name and final stage persona – four tried-out identities before one landed. The breakthrough immediately brought a fierce backlash: critics accused her of being a pure marketing invention, pointing to her wealthy father, the name change, the withdrawn first album, and alleged lip fillers. Her live performance on "Saturday Night Live" in January 2012, widely perceived as stiff and off-key, triggered a media wave even an NBC news anchor publicly commented on.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Three: the image made for one gaze</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>sexual Three (SX3)</strong> doesn't seek the general recognition of an audience the way the social Three does, but "attractiveness" in the literal sense – one's own image is shaped to appear irresistible, first to one particular person or one particular idea of what's desirable. Del Rey's aesthetic, cultivated over years – Old Hollywood glamour, references to Elvis, Marilyn Monroe, James Dean, the Kennedys – is exactly this deliberate building of an image: in the "National Anthem" video she plays both Jackie Kennedy and Marilyn Monroe singing "Happy Birthday" to JFK – a deliberate staging of an entire myth, not a casual costume.</p>
+          <p class="vb-intro">The contradiction in her own statements about it is telling: on one hand she has repeatedly denied any persona-construction ("Never had a persona. Never needed one. Never will."), while on the other critics and cultural scholars have described her entire career as a deliberate, knowing blurring of the line between performance and "real" identity. This exact contradiction – claiming complete authenticity while carefully building an image for years at the same time – is the characteristic signature of the sexual Three: the image is not meant to be recognized as an image, but as herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: the beauty of doomed love</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the sexual Three a melancholic, tragedy-loving depth that a purely success-oriented SX3w2 lacks – the image being built is not flawlessly radiant but morbidly beautiful, threaded through with loss and self-destruction. Del Rey's songs circle almost consistently around obsessive, often doomed love – her own relationships, including with Italian photographer Francesco Carrozzini (publicly escalating to a loud argument at LAX airport) or a repeatedly described preference for significantly older partners, feed directly into this lyrical material.</p>
+          <p class="vb-intro">Her self-chosen nickname "gangster Nancy Sinatra" shows this wing coloring particularly clearly: critics noted that her actual demeanor came across as reserved and docile rather than tough – the "gangster" part was less real toughness than a deliberately chosen, dramatically charged narrative about herself. This is exactly the SX3w4 formula: the image is optimized not for perfection, but for a fascinating, tragic story.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual achievement: from "fake" suspicion to critically celebrated songwriter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Despite the initial "fake" accusation, over more than a decade of her career real songwriting substance emerged: with "Norman Fucking Rockwell!" (2019) she made a widely acknowledged shift – away from the large-scale "sad girl" staging of her early albums toward a more stripped-down songwriting register directly compared to Joni Mitchell and Fiona Apple. The album is still regarded today as one of the most critically acclaimed pop albums of the 2010s and durably refuted the original accusation of pure image construction.</p>
+          <p class="vb-intro">In 2020 she came under fire again after an Instagram post titled "Question for the Culture," in which she demanded more room in feminism for artists writing about "delicate" or "submissive" themes – naming almost exclusively artists of color such as Beyoncé, Nicki Minaj, and Cardi B as counterexamples, which drew sharp accusations of insensitivity. Rather than apologizing, she continued to defend her position – behavior that fits the SX3's public-facing self-staging: even a controversy is not avoided if it confirms the image of an independent, unshakeable voice.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the sexual Three with Four-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX3w4 shows in how pure image construction turned into genuine artistic depth over the years – a path from pure staging to acknowledged songwriter that not every early heavily criticized career takes. In interviews away from the camera she is repeatedly described as notably relaxed, dressed down, and approachable – a clear contrast to the glamorous public appearance, showing that the image is deployed deliberately rather than maintained permanently.</p>
+          <p class="vb-intro">The Three's fatal flaw is <strong>vanity / deceit</strong> – the conviction of having value only through the successful image, while simultaneously losing contact with one's own, unadorned self. In Del Rey this shows in the recurring contradiction between claiming complete authenticity and, at the same time, carefully cultivating a mythology for years – a deceit that seems to be sincere rather than cynical: she seems to believe in the image most of all herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: from the image to one's own, unfiltered voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's path to healing runs from the belief <em>I am only valuable through the image that lands</em> to the realization <em>I am valuable as I truly am.</em> For the SX3w4, this means in particular no longer needing one's own tragic, morbidly beautiful narrative as a necessary frame for love and recognition – allowing that a less dramatically staged version of one's own life also holds value.</p>
+          <p class="vb-intro">Much like Marilyn Monroe (SX3w4) – whose own meticulously built image increasingly imprisoned her the more successful it became – Del Rey, who explicitly references this very role model, shows the same underlying tension of the SX3w4: the image meant to secure love and recognition can at the same time become a distance from one's own, real experience. The actual step toward healing lies in gradually making the image more permeable to the real self, as begun with "Norman Fucking Rockwell!," rather than polishing it ever more perfectly.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype profile"},
+        {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4) – her own role model"},
+        {route:"beruehmte-madonna", label:"Portrait: Madonna (SX3w4)"},
+      ])}
+    </div>
+  `);
+}
+
 export function willieNelsonPortraitPage() {
   return shell(`
     <div class="page-container">

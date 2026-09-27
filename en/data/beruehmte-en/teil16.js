@@ -1032,6 +1032,7 @@ export function marilynMonroePortraitPage() {
         {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
         {route:"beruehmte-meg-ryan", label:"Portrait: Meg Ryan (SX3w4)"},
         {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
+        {route:"beruehmte-lana-del-rey", label:"Portrait: Lana Del Rey (SX3w4) – explicitly references Monroe's image"},
         {route:"beruehmte-dolly-parton", label:"Portrait: Dolly Parton (SX3w4)"},
       ])}
     </div>

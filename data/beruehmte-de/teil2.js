@@ -67,6 +67,71 @@ export function vanessaGoeckingPortraitPage() {
   `);
 }
 
+export function lanaDelReyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lana-del-rey-portrait.jpg" alt="Lana Del Rey – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lana Del Rey</p>
+        <p class="krim-portrait-typ">SX3w4 · Sexueller Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanische Sängerin und Songwriterin, geb. 1985 – Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau, der sich vier Namen lang neu erfand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier des sexuellen Typs 3 – ein Tier, das seine Erscheinung nicht beiläufig trägt, sondern gezielt für den einen entscheidenden Blick inszeniert. Elizabeth Woolridge Grant, geboren 1985 im Örtchen Lake Placid im US-Bundesstaat New York, entwickelte als Teenagerin ein ernsthaftes Alkoholproblem und wurde mit 15 Jahren auf die Kent School geschickt, ein Internat in Connecticut, das sie mit rund 18 Jahren nüchtern wieder verließ. In New York folgten Jahre des Ausprobierens: Sie trat zunächst als ›May Jailer‹, dann als ›Sparkle Jump Rope Queen‹, schließlich als ›Lizzy Grant‹ auf, bevor 2010 ihr Debütalbum unter dem Titel ›Lana Del Ray a.k.a. Lizzy Grant‹ erschien – und noch vor dem eigentlichen Durchbruch wieder vom Markt genommen wurde.</p>
+          <p class="vb-intro">Erst mit ›Video Games‹ (2011) und dem Album ›Born to Die‹ (2012) fand sie den endgültigen Namen und die endgültige Bühnenfigur – vier durchprobierte Identitäten, bis eine davon traf. Der Durchbruch brachte sofort eine heftige Gegenreaktion mit sich: Kritiker warfen ihr vor, eine reine Marketingerfindung zu sein, verwiesen auf den wohlhabenden Vater, den Namenswechsel, das zurückgezogene erste Album und mutmaßliche Lippenunterspritzungen. Ihr live wirkungsloser, als hölzern wahrgenommener Auftritt bei ›Saturday Night Live‹ im Januar 2012 löste eine mediale Welle aus, die selbst ein NBC-Nachrichtensprecher öffentlich kommentierte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Das Bild, das für einen Blick gemacht ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> sucht nach Naranjo nicht die allgemeine Anerkennung eines Publikums wie die soziale Drei, sondern ›Attraktivität‹ im eigentlichen Wortsinn – das eigene Bild wird so geformt, dass es unwiderstehlich wirkt, zunächst für eine bestimmte Person oder eine bestimmte Vorstellung von Begehrenswertem. Del Reys über Jahre kultivierte Ästhetik – Old-Hollywood-Glamour, Anspielungen auf Elvis, Marilyn Monroe, James Dean, das Ehepaar Kennedy – ist genau dieses gezielte Bauen eines Bildes: Im Video zu ›National Anthem‹ spielt sie sowohl Jackie Kennedy als auch Marilyn Monroe, die JFK ›Happy Birthday‹ singt – eine bewusste Inszenierung eines ganzen Mythos, nicht ein beiläufiges Kostüm.</p>
+          <p class="vb-intro">Bezeichnend ist der Widerspruch in ihren eigenen Aussagen dazu: Einerseits hat sie wiederholt jede Persona-Konstruktion bestritten (›Hatte nie eine Persona. Brauchte nie eine. Werde nie eine brauchen‹), andererseits beschrieben Kritiker und Kulturwissenschaftler ihre gesamte Karriere als bewusstes, wissendes Verwischen der Grenze zwischen Performance und ›echter‹ Identität. Genau dieser Widerspruch – die Behauptung völliger Authentizität bei gleichzeitig jahrelang sorgfältig gebautem Bild – ist die typische Handschrift der sexuellen Drei: Das Bild soll nicht als Bild erkannt werden, sondern als sie selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die Schönheit der untergehenden Liebe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sexuellen Drei eine melancholische, tragödienverliebte Tiefe, die der reinen Erfolgsorientierung einer SX3w2 fehlt – das Bild, das gebaut wird, ist nicht makellos-strahlend, sondern morbide-schön, durchzogen von Verlust und Selbstzerstörung. Del Reys Songs kreisen fast durchgängig um besessene, oft zum Scheitern verurteilte Liebe – ihre eigenen Beziehungen, darunter mit dem italienischen Fotografen Francesco Carrozzini (öffentlich eskalierend bis zu einem lautstarken Streit am Flughafen LAX) oder eine wiederkehrend beschriebene Vorliebe für deutlich ältere Partner, fließen direkt in dieses lyrische Material ein.</p>
+          <p class="vb-intro">Ihr selbst gewählter Beiname ›Gangster Nancy Sinatra‹ zeigt diese Flügel-Färbung besonders deutlich: Kritiker bemerkten, dass ihr tatsächliches Auftreten eher zurückhaltend und fügsam wirkte als hart – der ›Gangster‹-Anteil war weniger reale Härte als eine bewusst gewählte, dramatisch aufgeladene Erzählung über sich selbst. Genau das ist die SX3w4-Formel: Das eigene Bild wird nicht auf Perfektion, sondern auf eine faszinierende, tragische Geschichte hin optimiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Vom Kitsch-Verdacht zur kritisch gefeierten Songwriterin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Trotz des anfänglichen ›Fake‹-Vorwurfs zeigte sich über ein Jahrzehnt Karriere hinweg eine reale songwriterische Substanz: Mit ›Norman Fucking Rockwell!‹ (2019) vollzog sie einen von der Kritik breit anerkannten Wandel – weg von der großformatigen ›Sad Girl‹-Inszenierung der frühen Alben, hin zu einem reduzierteren, direkt mit Joni Mitchell und Fiona Apple verglichenen Songwriting-Register. Das Album gilt bis heute als einer der von der Kritik am höchsten bewerteten Popalben der 2010er-Jahre und widerlegte den ursprünglichen Vorwurf der reinen Bildkonstruktion nachhaltig.</p>
+          <p class="vb-intro">2020 geriet sie erneut in die Kritik, als sie in einem Instagram-Post namens ›Question for the Culture‹ mehr Raum im Feminismus für Künstlerinnen forderte, die über ›zarte‹ oder ›unterwürfige‹ Themen schreiben – und dabei fast ausschließlich Künstlerinnen of Color wie Beyoncé, Nicki Minaj oder Cardi B als Gegenbeispiele nannte, was ihr scharfe Vorwürfe mangelnder Sensibilität einbrachte. Statt sich zu entschuldigen, verteidigte sie ihre Position weiter – ein Verhalten, das zur öffentlichkeitsorientierten Selbstinszenierung der SX3 passt: Auch eine Kontroverse wird nicht vermieden, wenn sie das eigene Bild als eigenständige, unbeirrbare Stimme bestätigt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Drei mit Viererflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3w4 zeigt sich darin, dass aus reiner Bildkonstruktion über die Jahre echte künstlerische Tiefe wurde – ein Weg von der reinen Inszenierung zur anerkannten Songwriterin, den nicht jede zu Beginn stark kritisierte Karriere nimmt. In Interviews abseits der Kamera wird sie wiederholt als auffällig entspannt, unaufwendig gekleidet und zugänglich beschrieben – ein deutlicher Kontrast zur glamourösen öffentlichen Erscheinung, der zeigt, dass das Bild gezielt eingesetzt wird, nicht permanent aufrechterhalten werden muss.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist der <strong>Selbstbetrug</strong> – die Überzeugung, nur über das erfolgreiche Bild überhaupt einen Wert zu haben, bei gleichzeitigem Verlust des Kontakts zum eigenen, ungeschminkten Selbst. Bei Del Rey zeigt sich das im wiederkehrenden Widerspruch zwischen der Behauptung völliger Authentizität und der gleichzeitig jahrelang bewusst gepflegten Mythologie – ein Selbstbetrug, der nicht zynisch, sondern aufrichtig gemeint zu sein scheint: Sie glaubt an das Bild selbst am meisten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Bild zur eigenen, ungefilterten Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Überzeugung <em>Ich bin nur wertvoll durch das Bild, das ankommt</em> zur Erkenntnis <em>Ich bin wertvoll, so wie ich wirklich bin.</em> Für die SX3w4 bedeutet das insbesondere, die eigene tragische, morbid-schöne Erzählung nicht länger als notwendigen Rahmen für Liebe und Anerkennung zu brauchen – zuzulassen, dass auch eine weniger dramatisch inszenierte Version des eigenen Lebens Wert besitzt.</p>
+          <p class="vb-intro">Ähnlich wie Marilyn Monroe (SX3w4) – deren eigenes, minutiös gebautes Bild sie selbst zunehmend gefangen hielt, je erfolgreicher es wurde – zeigt sich auch bei Del Rey, die sich ausgerechnet auf dieses Vorbild bezieht, dieselbe Grundspannung der SX3w4: Das Bild, das Liebe und Anerkennung sichern soll, kann zugleich zur Distanz zum eigenen, echten Erleben werden. Der eigentliche Heilungsschritt liegt darin, wie mit ›Norman Fucking Rockwell!‹ begonnen, das Bild schrittweise durchlässiger für das wirkliche Selbst zu machen, statt es immer perfekter zu polieren.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-marilyn-monroe", label:"Porträt: Marilyn Monroe (SX3w4) – ihr eigenes Vorbild"},
+        {route:"beruehmte-madonna", label:"Porträt: Madonna (SX3w4)"},
+      ])}
+    </div>
+  `);
+}
+
 export function willieNelsonPortraitPage() {
   return shell(`
     <div class="page-container">
