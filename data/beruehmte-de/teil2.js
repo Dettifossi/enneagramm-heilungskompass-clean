@@ -198,6 +198,71 @@ export function cocoChanelPortraitPage() {
   `);
 }
 
+export function aylinTezelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-aylin-tezel-portrait.jpg" alt="Aylin Tezel – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Aylin Tezel</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Schauspielerin, Autorin und Regisseurin, geb. 1983 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der sich in jede Rolle hineinarbeitet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier des selbsterhaltenden Typs 3 – ein Tier, das sich geschickt und unauffällig durch jede Umgebung bewegt und sich aus dem, was greifbar ist, genau das erarbeitet, was gebraucht wird. Aylin Tezel, geboren 1983 in Bünde, aufgewachsen in Bielefeld als eine von drei Kindern eines Vaters mit türkischen Wurzeln und einer deutschen Mutter, tanzte schon ab dem sechsten Lebensjahr und wurde mit 14 von ihrer Tanzlehrerin zur Schauspielerei ermutigt. Von 2004 bis 2006 studierte sie an der Schauspielschule Ernst Busch in Berlin, brach das Studium mit 22 jedoch ab – die Schulumgebung empfand sie als zu engstirnig, und sie entwickelte sich lieber eigenständig weiter.</p>
+          <p class="vb-intro">Der Durchbruch gelang 2011 mit ›Almanya – Willkommen in Deutschland‹ (Berlinale-Premiere), 2012 gewann sie mit ›Am Himmel der Tag‹ den Preis als beste Schauspielerin beim Turin Film Festival, 2013 und 2015 folgten zwei Deutsche Schauspielpreise. Seit 2012 spielt sie im Dortmunder ›Tatort‹ die Kommissarin Nora Dalay – eine kontinuierliche, unspektakuläre Konstante neben den einzelnen Filmprojekten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist nach Naranjo der Kontratyp der Drei – statt Selbstinszenierung zeigt sich handwerkliche Kompetenz, Bodenständigkeit, ein bewusstes Meiden des Rampenlichts. Bei Tezel zeigt sich das in einer geradezu buchstäblichen Vorbereitungsbesessenheit: Für ihre Tatort-Rolle absolvierte sie ein echtes Polizeipraktikum, für ein Friseursalon-Projekt eine Friseurlehre, für die Serie ›Unbroken‹ trainierte sie Kickboxen, um ihre Stunts selbst ausführen zu können. Sie beschreibt ihre Arbeitsweise selbst als ›durch den Körper statt durch den Kopf‹ – körperliche, instinktive Vorbereitung statt reiner Kopfarbeit.</p>
+          <p class="vb-intro">Auch ihr Umgang mit Öffentlichkeit passt ins Bild: Sie meidet aktiv Boulevard-Aufmerksamkeit, hält ihre Partnerschaft konsequent aus der Öffentlichkeit heraus und wirkt in Interviews zurückhaltend statt bildbewusst. Ein DWDL-Interview trägt bezeichnenderweise den Titel ›Meine Herkunft ist nur ein winziger Teil von mir‹ – selbst ein Thema, das medial leicht zur Schublade werden könnte, wird von ihr aktiv kleingehalten, statt zur öffentlichen Identität gemacht zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Anerkennung für das Team statt für sich selbst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der selbsterhaltenden Drei eine relationale Wärme, die sich weniger in großen Gesten als in beständiger, unaufgeforderter Anerkennung anderer zeigt. Bei ihrem Regiedebüt ›Falling Into Place‹ (2023), das nach einer spontanen Schreibübung mit einer Freundin in einem Londoner Park entstand und in nur vier Wochen in Schottland zu Papier gebracht wurde, betont Tezel in Interviews immer wieder die Beiträge ihrer Kamerafrau, Szenenbildnerin, Komponistin und Casting-Regie – eine kollaborative, nicht selbstbezogene Rahmung des eigenen Erfolgs.</p>
+          <p class="vb-intro">Auch als Regisseurin gab sie Schauspielerinnen und Schauspielern bewusst Mitgestaltungsraum, fragte etwa nach eigenen Ideen zu Szenen, statt starr am Drehbuch festzuhalten – ›welche der Dinge im Skript findet ihr komisch? Habt ihr andere Ideen?‹ Verbunden mit ihrer Überzeugung, Menschen ›verdienen Chancen‹, zeigt sich hier die typische SE3w2-Mischung: praktische, unaufdringliche Kompetenz, die sich zugleich in echter, konkreter Fürsorge für die Menschen im eigenen Umfeld ausdrückt statt in reiner Selbstbezogenheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Von der Darstellerin zur Autorenfilmerin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tezels Vielseitigkeit reicht vom Arthouse-Festivalfilm über die langjährige Krimireihe bis zum internationalen Thriller (›7500‹) und zur englischsprachigen Serie ›Unbroken‹ – eine Bandbreite, die selten aus reinem Zufall entsteht. Der Schritt zur Regie mit ›Falling Into Place‹ war dabei kein Griff nach einer größeren Bühne, sondern folgerichtige handwerkliche Erweiterung: Sie wollte die eigene Vision der Hauptfigur Kira selbst umsetzen und schätzt an der Regiearbeit vor allem die kreative Eigenständigkeit, die ihr das reine Schauspiel nicht bot.</p>
+          <p class="vb-intro">Der Film selbst behandelt Unsicherheit, Selbstzweifel und eine ›innere Einsamkeit, die unabhängig von den äußeren Umständen bestehen bleibt‹ – Tezel wollte bewusst auch die dunkleren, scheiternden Seiten von Figuren zeigen, ohne Hoffnung, Liebe und Vertrauen als Möglichkeit aufzugeben. Das Ergebnis wurde beim Filmfest Hamburg 2023 uraufgeführt, gewann den FIPRESCI-Preis in Tallinn und lief unter anderem beim Glasgow Film Festival und bei der Berlinale 2024 – substanzielle künstlerische Anerkennung für ein selbst geschriebenes, inszeniertes und gespieltes Debüt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 zeigt sich in der Verbindung aus echter handwerklicher Substanz und einer Anerkennung, die konsequent geteilt statt für sich behalten wird – Erfolg, der sich über die eigene Vorbereitung und über die Menschen im Team definiert, nicht über öffentliche Inszenierung. Das Schicksalsmuster der Drei ist der <strong>Selbstbetrug</strong> – die Überzeugung, der eigene Wert bemesse sich am sichtbaren Erfolg.</p>
+          <p class="vb-intro">Bei der SE3w2 zeigt sich das subtiler als bei den anderen Dreier-Subtypen: nicht als lautes Werben um Anerkennung, sondern als beständiges Bedürfnis, durch Kompetenz und Fürsorge für andere unentbehrlich zu bleiben – ein Muster, das leicht übersehen wird, weil es sich hinter echter Bescheidenheit verbirgt, aber dennoch dieselbe Grundfrage stellt: Bin ich auch dann etwas wert, wenn ich nicht ständig beweise, dass ich gebraucht werde?</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Vorbereitung zur inneren Sicherheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Überzeugung <em>Ich bin nur wertvoll durch sichtbare Kompetenz</em> zur Erkenntnis <em>Ich bin wertvoll, so wie ich bin.</em> Für die SE3w2 bedeutet das insbesondere, die eigene Fürsorge für andere nicht länger als notwendigen Umweg zur eigenen Wertbestätigung zu brauchen, sondern beides – echte Kompetenz und echte Zuwendung – als eigenständig wertvoll zu erleben.</p>
+          <p class="vb-intro">Ähnlich wie Audrey Tautou (SE3w2), die nach dem Welterfolg von ›Amélie‹ bewusst nicht nach Hollywood griff und Prominenz als ›Gefängnis‹ empfand, zeigt auch Tezel dieselbe Grundbewegung der SE3w2: Substanz und Zurückhaltung werden höher gewichtet als Sichtbarkeit. Der eigentliche Heilungsschritt läge darin, den eigenen Wert auch dann als gesichert zu erleben, wenn gerade keine neue Vorbereitung, keine neue Rolle und kein neues Projekt ihn beweisen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-audrey-tautou", label:"Porträt: Audrey Tautou (SE3w2)"},
+        {route:"beruehmte-penelope-cruz", label:"Porträt: Penélope Cruz (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 export function mutterTeresaPortraitPage() {
   return shell(`
     <div class="page-container">

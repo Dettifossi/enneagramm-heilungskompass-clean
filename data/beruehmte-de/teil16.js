@@ -2151,6 +2151,7 @@ export function audreyTautouPortraitPage() {
         {route:"beruehmte-penelope-cruz", label:"Porträt: Penélope Cruz (SE3w2)"},
         {route:"beruehmte-halle-berry", label:"Porträt: Halle Berry (SE3w2)"},
         {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+        {route:"beruehmte-aylin-tezel", label:"Porträt: Aylin Tezel (SE3w2)"},
       ])}
     </div>
   `);

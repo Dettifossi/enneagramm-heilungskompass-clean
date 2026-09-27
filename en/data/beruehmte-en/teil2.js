@@ -131,6 +131,71 @@ export function cocoChanelPortraitPage() {
   `);
 }
 
+export function aylinTezelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-aylin-tezel-portrait.jpg" alt="Aylin Tezel – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Aylin Tezel</p>
+        <p class="krim-portrait-typ">SP3w2 · Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">German actress, writer and director, born 1983 – Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The raccoon that works its way into every role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three – an animal that moves skillfully and unobtrusively through any environment, crafting exactly what's needed out of whatever's at hand. Aylin Tezel, born in 1983 in Bünde, raised in Bielefeld as one of three children to a father with Turkish roots and a German mother, danced from age six and was encouraged into acting at 14 by her dance teacher. From 2004 to 2006 she studied at the Ernst Busch drama school in Berlin, but left at 22 – she found the school environment too narrow-minded and preferred to develop on her own terms.</p>
+          <p class="vb-intro">Her breakthrough came in 2011 with "Almanya – Welcome to Germany" (a Berlinale premiere), and in 2012 she won Best Actress at the Torino Film Festival for "Am Himmel der Tag." Two German Film Awards followed in 2013 and 2015. Since 2012 she has played detective Nora Dalay in the Dortmund "Tatort" – a continuous, unspectacular constant alongside her individual film projects.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Three: competence over shine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>self-preservation Three (SP3)</strong> is the countertype of the Three – instead of self-staging, it shows craft-based competence, groundedness, a deliberate avoidance of the spotlight. In Tezel this shows in an almost literal obsession with preparation: for her Tatort role she completed an actual police internship, for a hairdressing-salon project a hairdressing apprenticeship, and for the series "Unbroken" she trained in kickboxing so she could do her own stunts. She describes her own working method as "through the body rather than the head" – physical, instinctive preparation rather than pure intellectual work.</p>
+          <p class="vb-intro">Her relationship to publicity fits the same picture: she actively avoids tabloid attention, keeps her relationship consistently out of the public eye, and comes across in interviews as reserved rather than image-conscious. Tellingly, a DWDL interview is titled "My origin is only a tiny part of me" – even a theme the media could easily turn into a box to fit her into is actively kept small by her rather than made into a public identity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: recognition for the team instead of for herself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the self-preservation Three a relational warmth that shows less in grand gestures than in consistent, unprompted appreciation of others. For her directorial debut "Falling Into Place" (2023), which grew out of a spontaneous writing exercise with a friend in a London park and was scripted in just four weeks in Scotland, Tezel repeatedly emphasizes the contributions of her cinematographer, production designer, composer, and casting director in interviews – a collaborative, not self-centered framing of her own success.</p>
+          <p class="vb-intro">As a director, too, she deliberately gave actors room to co-create, asking about their own ideas for scenes rather than rigidly sticking to the script – "which of the things in the script do you find funny? Do you have other ideas?" Combined with her belief that people "deserve chances," this shows the characteristic SP3w2 mix: practical, unobtrusive competence that at the same time expresses itself as genuine, concrete care for the people around her rather than pure self-focus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual achievement: from actress to auteur filmmaker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tezel's versatility spans arthouse festival drama, a long-running crime series, an international thriller ("7500"), and the English-language series "Unbroken" – a range that rarely emerges from sheer coincidence. The step into directing with "Falling Into Place" was not a reach for a bigger stage, but a logical craft expansion: she wanted to realize her own vision of the lead character, Kira, and values above all the creative autonomy that directing gave her, which acting alone did not.</p>
+          <p class="vb-intro">The film itself deals with insecurity, self-doubt, and an "inner loneliness that persists regardless of external circumstances" – Tezel deliberately wanted to show characters' darker, failing sides too, without giving up on hope, love, and trust as possibilities. The result premiered at Filmfest Hamburg 2023, won the FIPRESCI Prize in Tallinn, and screened at the Glasgow Film Festival and the 2024 Berlinale, among others – substantial artistic recognition for a self-written, self-directed, and self-performed debut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the self-preservation Three with Two-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3w2 shows in the combination of genuine craft substance and a recognition consistently shared rather than kept for oneself – success defined through one's own preparation and through the people on the team, not through public staging. The Three's fatal flaw is <strong>vanity / deceit</strong> – the conviction that one's own worth is measured by visible success.</p>
+          <p class="vb-intro">In the SP3w2 this shows more subtly than in the other Three subtypes: not as loud courting of recognition, but as a persistent need to remain indispensable through competence and care for others – a pattern easily overlooked because it hides behind genuine modesty, yet still asks the same underlying question: am I worth something even when I'm not constantly proving that I'm needed?</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: from preparation to inner security</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's path to healing runs from the belief <em>I am only valuable through visible competence</em> to the realization <em>I am valuable as I am.</em> For the SP3w2, this means in particular no longer needing one's own care for others as a necessary detour to self-worth, but experiencing both genuine competence and genuine warmth as valuable in their own right.</p>
+          <p class="vb-intro">Much like Audrey Tautou (SP3w2), who deliberately did not reach for Hollywood after the worldwide success of "Amélie" and experienced fame as a "prison," Tezel shows the same underlying movement of the SP3w2: substance and restraint are weighted more heavily than visibility. The actual step toward healing would lie in experiencing one's own worth as secure even when no new preparation, no new role, and no new project is currently proving it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype profile"},
+        {route:"beruehmte-audrey-tautou", label:"Portrait: Audrey Tautou (SP3w2)"},
+        {route:"beruehmte-penelope-cruz", label:"Portrait: Penélope Cruz (SP3w2)"},
+      ])}
+    </div>
+  `);
+}
+
 export function motherTeresaPortraitPage() {
   return shell(`
     <div class="page-container">
