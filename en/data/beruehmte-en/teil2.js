@@ -35,7 +35,7 @@ export function lanaDelReyPortraitPage() {
 
         <h2 class="vb-section">4. The actual achievement: from "fake" suspicion to critically celebrated songwriter</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Despite the initial "fake" accusation, over more than a decade of her career real songwriting substance emerged: with "Norman Fucking Rockwell!" (2019) she made a widely acknowledged shift – away from the large-scale "sad girl" staging of her early albums toward a more stripped-down songwriting register directly compared to Joni Mitchell and Fiona Apple. The album is still regarded today as one of the most critically acclaimed pop albums of the 2010s and durably refuted the original accusation of pure image construction.</p>
+          <p class="vb-intro">Despite the initial "fake" accusation, over more than a decade of her career real songwriting substance emerged: with "Norman Fucking Rockwell!" (2019) she made a widely acknowledged shift – away from the large-scale "sad girl" staging of her early albums toward a more stripped-down songwriting register directly compared to Joni Mitchell and <a href="javascript:void(0)" data-route="beruehmte-fiona-apple">Fiona Apple</a> (SO4w5). The album is still regarded today as one of the most critically acclaimed pop albums of the 2010s and durably refuted the original accusation of pure image construction.</p>
           <p class="vb-intro">In 2020 she came under fire again after an Instagram post titled "Question for the Culture," in which she demanded more room in feminism for artists writing about "delicate" or "submissive" themes – naming almost exclusively artists of color such as Beyoncé, Nicki Minaj, and Cardi B as counterexamples, which drew sharp accusations of insensitivity. Rather than apologizing, she continued to defend her position – behavior that fits the SX3's public-facing self-staging: even a controversy is not avoided if it confirms the image of an independent, unshakeable voice.</p>
         </blockquote>
 
@@ -60,6 +60,7 @@ export function lanaDelReyPortraitPage() {
         {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype profile"},
         {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4) – her own role model"},
         {route:"beruehmte-madonna", label:"Portrait: Madonna (SX3w4)"},
+        {route:"beruehmte-fiona-apple", label:"Portrait: Fiona Apple (SO4w5)"},
       ])}
     </div>
   `);

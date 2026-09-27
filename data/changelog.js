@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2407", date: "2026-09-27", text: "Neues Porträt: Lana Del Rey (SX3w4) – US-amerikanische Sängerin und Songwriterin.", text_en: "New portrait: Lana Del Rey (SX3w4) – American singer-songwriter.", route: "beruehmte-lana-del-rey" },
     { version: "v2406", date: "2026-09-27", text: "Neues Porträt: Willie Nelson (SX9w1) – US-amerikanischer Country-Musiker.", text_en: "New portrait: Willie Nelson (SX9w1) – American country musician.", route: "beruehmte-willie-nelson" },
     { version: "v2405", date: "2026-09-26", text: "Neues Porträt: Bella Hadid (SX6w5) – US-amerikanisches Model und Aktivistin.", text_en: "New portrait: Bella Hadid (SX6w5) – American model and activist.", route: "beruehmte-bella-hadid" },
     { version: "v2404", date: "2026-09-25", text: "Neues Porträt: Viktor Frankl (SE1w9) – Psychiater, Holocaust-Überlebender und Begründer der Logotherapie.", text_en: "New portrait: Viktor Frankl (SP1w9) – psychiatrist, Holocaust survivor, and founder of logotherapy.", route: "beruehmte-viktor-frankl" },

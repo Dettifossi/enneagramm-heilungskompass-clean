@@ -102,7 +102,7 @@ export function lanaDelReyPortraitPage() {
 
         <h2 class="vb-section">4. Die tatsächliche Leistung: Vom Kitsch-Verdacht zur kritisch gefeierten Songwriterin</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Trotz des anfänglichen ›Fake‹-Vorwurfs zeigte sich über ein Jahrzehnt Karriere hinweg eine reale songwriterische Substanz: Mit ›Norman Fucking Rockwell!‹ (2019) vollzog sie einen von der Kritik breit anerkannten Wandel – weg von der großformatigen ›Sad Girl‹-Inszenierung der frühen Alben, hin zu einem reduzierteren, direkt mit Joni Mitchell und Fiona Apple verglichenen Songwriting-Register. Das Album gilt bis heute als einer der von der Kritik am höchsten bewerteten Popalben der 2010er-Jahre und widerlegte den ursprünglichen Vorwurf der reinen Bildkonstruktion nachhaltig.</p>
+          <p class="vb-intro">Trotz des anfänglichen ›Fake‹-Vorwurfs zeigte sich über ein Jahrzehnt Karriere hinweg eine reale songwriterische Substanz: Mit ›Norman Fucking Rockwell!‹ (2019) vollzog sie einen von der Kritik breit anerkannten Wandel – weg von der großformatigen ›Sad Girl‹-Inszenierung der frühen Alben, hin zu einem reduzierteren, direkt mit Joni Mitchell und <a href="javascript:void(0)" data-route="beruehmte-fiona-apple">Fiona Apple</a> (SO4w5) verglichenen Songwriting-Register. Das Album gilt bis heute als einer der von der Kritik am höchsten bewerteten Popalben der 2010er-Jahre und widerlegte den ursprünglichen Vorwurf der reinen Bildkonstruktion nachhaltig.</p>
           <p class="vb-intro">2020 geriet sie erneut in die Kritik, als sie in einem Instagram-Post namens ›Question for the Culture‹ mehr Raum im Feminismus für Künstlerinnen forderte, die über ›zarte‹ oder ›unterwürfige‹ Themen schreiben – und dabei fast ausschließlich Künstlerinnen of Color wie Beyoncé, Nicki Minaj oder Cardi B als Gegenbeispiele nannte, was ihr scharfe Vorwürfe mangelnder Sensibilität einbrachte. Statt sich zu entschuldigen, verteidigte sie ihre Position weiter – ein Verhalten, das zur öffentlichkeitsorientierten Selbstinszenierung der SX3 passt: Auch eine Kontroverse wird nicht vermieden, wenn sie das eigene Bild als eigenständige, unbeirrbare Stimme bestätigt.</p>
         </blockquote>
 
@@ -127,6 +127,7 @@ export function lanaDelReyPortraitPage() {
         {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
         {route:"beruehmte-marilyn-monroe", label:"Porträt: Marilyn Monroe (SX3w4) – ihr eigenes Vorbild"},
         {route:"beruehmte-madonna", label:"Porträt: Madonna (SX3w4)"},
+        {route:"beruehmte-fiona-apple", label:"Porträt: Fiona Apple (SO4w5)"},
       ])}
     </div>
   `);
