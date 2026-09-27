@@ -263,6 +263,71 @@ export function aylinTezelPortraitPage() {
   `);
 }
 
+export function owenWilsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-owen-wilson-portrait.jpg" alt="Owen Wilson – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Owen Wilson</p>
+        <p class="krim-portrait-typ">SX9w1 · Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Schauspieler und Drehbuchautor, geb. 1968 – Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier hinter dem gebrochenen Nasenrücken</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 – ein Tier, das sich von keinem äußeren Tempo aus der Ruhe bringen lässt und dessen scheinbare Trägheit eine eigene, unerschütterliche Konsequenz verbirgt. Owen Cunningham Wilson, geboren 1968 in Dallas, wuchs mit seinen Brüdern Andrew und Luke in einem Haushalt ohne Fernseher auf – die Brüder erfanden ihre eigenen Theaterstücke und Wettbewerbe, statt sich berieseln zu lassen. Am St. Mark's School wurde er in der zehnten Klasse beim Abschreiben erwischt und von der Schule verwiesen, weil er sich weigerte, den Mitschüler zu verraten, der ebenfalls beteiligt war – kein lautes Aufbegehren, sondern ein stilles Festhalten an der eigenen Loyalität, selbst um den Preis der eigenen Zukunft.</p>
+          <p class="vb-intro">An der University of Texas in Austin lernte er 1989 Wes Anderson in einem Dramaturgie-Seminar kennen; die beiden wurden Mitbewohner und begannen gemeinsam zu schreiben. Aus dem gemeinsamen Kurzfilm ›Bottle Rocket‹ (1994) wurde 1996 ein abendfüllender Spielfilm, den Martin Scorsese zu einem der besten Filme des Jahrzehnts zählte – gefolgt von ›Rushmore‹ (1998) und ›The Royal Tenenbaums‹ (2001), beide gemeinsam mit Anderson geschrieben. Seine gebrochene Nase – zweimal, einmal bei einer Schulhofschlägerei, einmal beim Football – kommentiert er bis heute selbstironisch: Sie wäre wohl ohnehin nie besonders schön gewesen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit dem einen kreativen Partner</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht nach Naranjo nicht die allgemeine Harmonie der sozialen oder selbsterhaltenden Neun, sondern ›Verschmelzung‹ mit einer einzelnen, besonders bedeutsamen Bindung. Wilsons über dreißig Jahre andauernde Schreibpartnerschaft mit Wes Anderson ist genau das: Kein anderer Koautor kommt dieser einen, seit der Studienzeit gepflegten kreativen Verbindung nahe. Anderson selbst sagte über ihn: ›Ich habe nie einen Film ohne ihn gemacht, und ich hoffe, ich muss es nie tun.‹</p>
+          <p class="vb-intro">Diese eine zentrale Verschmelzung steht in auffälligem Kontrast zu seinem übrigen Beziehungsleben: Wilson hat drei Kinder mit drei verschiedenen Frauen, war nie verheiratet, und eine seiner Töchter hat er laut deren Mutter ›nie getroffen, nie‹. Statt aktiv Nähe herzustellen oder sich bewusst zu distanzieren, scheint hier ein Sich-treiben-lassen am Werk zu sein – typisch für die Neun, die schwierige Realitäten eher umschifft als sie direkt anzugehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Der Rückzug nach der Krise</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sexuellen Neun eine stille, aber beharrliche Prinzipientreue – bei Wilson zeigte sie sich schon früh in der Weigerung, einen Freund zu verpfeifen. Nach seinem Suizidversuch im August 2007, der zeitlich mit dem Ende seiner Beziehung zu Kate Hudson und einer länger zurückreichenden Drogenproblematik zusammenfiel, zog sein Bruder Andrew bei ihm ein und strukturierte seinen Alltag mit festen Zeitplänen – nicht Wilson selbst schuf sich diese Ordnung, sondern ließ sie sich von außen geben.</p>
+          <p class="vb-intro">Seither meidet er weitgehend Interviews, ist in keinem sozialen Netzwerk aktiv und hält sein Privatleben konsequent aus der Öffentlichkeit heraus. In einem Esquire-Interview 2021 beschrieb er eine seit seinem elften Lebensjahr bestehende Todesangst und eine Grundhaltung des ›Die-Welle-Reitens‹ – man nehme das Auf und Ab des Lebens hin, statt aktiv dagegen anzukämpfen. Genau diese passive Grundhaltung, verbunden mit einer stillen, unveränderlichen moralischen Linie, ist die typische SX9w1-Formel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Zwei völlig getrennte Karrierespuren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wilsons Werk zerfällt in zwei kaum verwandte Linien: Auf der einen Seite die literarisch-präzise, melancholisch-skurrile Zusammenarbeit mit Wes Anderson als Ko-Autor; auf der anderen Seite große Studio-Komödien wie ›Zoolander‹, ›Meet the Parents‹ oder ›Hochzeitscrasher‹, die fast ausschließlich auf seiner lockeren, schleppenden Bühnenpräsenz als Darsteller beruhen, ohne eigenen Autorenanteil. Beide Linien erfordern völlig unterschiedliche Fähigkeiten – strukturierte, disziplinierte Textarbeit auf der einen, reine Verkörperung einer Figur auf der anderen Seite.</p>
+          <p class="vb-intro">In späteren Jahren kamen ernstere, autoritätsnähere Rollen hinzu: der nostalgische Schriftsteller in Woody Allens ›Midnight in Paris‹, der kontrollierte, väterliche Mobius in der Disney-Serie ›Loki‹. Diese Verschiebung von der reinen Slacker-Figur zur Mentorenrolle lässt sich als vorsichtiges Ausweiten der eigenen schauspielerischen Substanz lesen, jenseits des ›entspannter Typ‹-Images, mit dem er über Jahrzehnte identifiziert wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 zeigt sich in der jahrzehntelangen, verlässlichen kreativen Partnerschaft mit Wes Anderson – eine Bindung, die trotz aller Turbulenzen im übrigen Leben Bestand hatte und mehrere der einflussreichsten unabhängigen Filme ihrer Generation hervorbrachte. Ein Journalist, der Wilson persönlich traf, beschrieb eine seltsame Diskrepanz: Stimme und Mimik seien zwar vorhanden, wirkten aber ›ein wenig unbelebt‹ – als läge zwischen der Leinwandfigur und der Person im Raum eine spürbare Distanz.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Neun ist die <strong>Selbstvergessenheit (Trägheit)</strong> – die Neigung, das eigene Wollen nicht in den Vordergrund zu stellen, sondern sich selbst zu vergessen. Bei Wilson zeigt sich das am deutlichsten darin, dass er sich nach der eigenen Krise nicht selbst neu organisierte, sondern die Struktur seines Bruders annahm – und darin, dass eine Tochter bis heute ungetroffen bleibt, nicht aus Ablehnung, sondern aus einem Sich-nicht-Kümmern, das die Neun von echter Konfrontation fernhält.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Fremdstruktur zur eigenen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Neun führt von der Überzeugung <em>Meine eigenen Bedürfnisse zählen weniger als der Frieden</em> zur Erkenntnis <em>Ich bin es wert, gehört zu werden, ohne dafür kämpfen zu müssen.</em> Für die SX9w1 bedeutet das insbesondere, die eigene stille Prinzipientreue nicht nur in einer einzigen, geschützten Bindung auszuleben, sondern auch dort aktiv zu werden, wo es unbequem ist – etwa in Beziehungen, die bislang eher vermieden als gestaltet wurden.</p>
+          <p class="vb-intro">Ähnlich wie Willie Nelson (SX9w1) – dessen zentrale lebenslange Bindung an seine Schwester Bobbie alle turbulenteren romantischen Beziehungen überdauerte, während er über Jahre in belastenden ehelichen Konstellationen verharrte, statt aktiv gegenzusteuern – zeigt auch Wilson dieselbe Grundspannung der SX9w1: eine Insel wirklicher, verlässlicher Verschmelzung neben einem übrigen Leben, das eher geschieht, als dass es aktiv gestaltet wird. Der eigentliche Heilungsschritt läge darin, dieselbe Verlässlichkeit, die die eine kreative Partnerschaft trägt, auch dort einzusetzen, wo es um die eigene Familie und die eigene Stimme geht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-willie-nelson", label:"Porträt: Willie Nelson (SX9w1)"},
+        {route:"beruehmte-ringo-starr", label:"Porträt: Ringo Starr (SX9w1)"},
+      ])}
+    </div>
+  `);
+}
+
 export function mutterTeresaPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -389,6 +454,7 @@ export function willieNelsonPortraitPage() {
         {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
         {route:"beruehmte-ringo-starr", label:"Porträt: Ringo Starr (SX9w1)"},
         {route:"beruehmte-ed-sheeran", label:"Porträt: Ed Sheeran (SX9w1)"},
+        {route:"beruehmte-owen-wilson", label:"Porträt: Owen Wilson (SX9w1)"},
       ])}
     </div>
   `);

@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2411", date: "2026-09-27", text: "Neues Porträt: Owen Wilson (SX9w1) – US-amerikanischer Schauspieler und Drehbuchautor.", text_en: "New portrait: Owen Wilson (SX9w1) – American actor and screenwriter.", route: "beruehmte-owen-wilson" },
     { version: "v2410", date: "2026-09-27", text: "Neues Porträt: Aylin Tezel (SE3w2) – deutsche Schauspielerin, Autorin und Regisseurin.", text_en: "New portrait: Aylin Tezel (SE3w2) – German actress, writer and director.", route: "beruehmte-aylin-tezel" },
     { version: "v2409", date: "2026-09-27", text: "Neues Porträt: Coco Chanel (SE3w4) – französische Modeschöpferin.", text_en: "New portrait: Coco Chanel (SE3w4) – French fashion designer.", route: "beruehmte-coco-chanel" },
     { version: "v2408", date: "2026-09-27", text: "Neues Porträt: Mutter Teresa (SO2w1) – Ordensgründerin, Friedensnobelpreisträgerin.", text_en: "New portrait: Mother Teresa (SO2w1) – founder of a religious order, Nobel Peace Prize laureate.", route: "beruehmte-mutter-teresa" },

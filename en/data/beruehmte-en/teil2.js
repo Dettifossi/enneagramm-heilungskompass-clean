@@ -196,6 +196,71 @@ export function aylinTezelPortraitPage() {
   `);
 }
 
+export function owenWilsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-owen-wilson-portrait.jpg" alt="Owen Wilson – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Owen Wilson</p>
+        <p class="krim-portrait-typ">SX9w1 · Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">American actor and screenwriter, born 1968 – Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The sloth behind the broken nose bridge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> is the animal of the sexual Nine – an animal that no outside pace can rattle, and whose apparent sluggishness hides its own unshakeable steadiness. Owen Cunningham Wilson, born in 1968 in Dallas, grew up with his brothers Andrew and Luke in a household with no television – the brothers invented their own plays and competitions instead of being entertained passively. At St. Mark's School he was caught cheating in tenth grade and expelled after refusing to name the classmate also involved – not loud rebellion, but a quiet holding to his own loyalty, even at the cost of his own future.</p>
+          <p class="vb-intro">At the University of Texas at Austin in 1989 he met Wes Anderson in a playwriting seminar; the two became roommates and began writing together. Their short film "Bottle Rocket" (1994) grew into a feature in 1996 that Martin Scorsese counted among the decade's best films, followed by "Rushmore" (1998) and "The Royal Tenenbaums" (2001), both co-written with Anderson. His broken nose – twice, once in a schoolyard fight, once playing football – he still jokes about self-deprecatingly today: it probably was never going to be that great anyway.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Nine: merging with the one creative partner</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>sexual Nine (SX9)</strong> doesn't seek the general harmony of the social or self-preservation Nine, but "merging" with one single, especially significant bond. Wilson's more than thirty-year writing partnership with Wes Anderson is exactly that: no other co-writer comes close to this one creative connection nurtured since their college years. Anderson himself said of him: "I've never made a movie without him, and I hope I never have to."</p>
+          <p class="vb-intro">This one central merging stands in striking contrast to the rest of his relationship life: Wilson has three children with three different women, was never married, and one of his daughters, according to her mother, he has "never met. Never." Rather than actively creating closeness or consciously distancing himself, what seems to be at work here is a kind of drifting along – typical of the Nine, which tends to sidestep difficult realities rather than confront them directly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: retreat after the crisis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the sexual Nine a quiet but persistent fidelity to principle – in Wilson it showed early on in his refusal to name a friend. After his suicide attempt in August 2007, which coincided with the end of his relationship with Kate Hudson and a longer-standing struggle with drugs, his brother Andrew moved in with him and structured his days with fixed schedules – Wilson himself didn't create this order, but had it given to him from the outside.</p>
+          <p class="vb-intro">Since then he has largely avoided interviews, isn't active on any social network, and consistently keeps his private life out of the public eye. In a 2021 Esquire interview he described a fear of death that has persisted since age eleven, and a basic stance of "riding the wave" – accepting life's ups and downs rather than actively fighting them. This exact passive stance, combined with a quiet, unchanging moral line, is the characteristic SX9w1 formula.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual achievement: two completely separate career tracks</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wilson's body of work splits into two barely related lines: on one side, the literarily precise, melancholic-whimsical collaboration with Wes Anderson as co-writer; on the other, big studio comedies like "Zoolander," "Meet the Parents," or "Wedding Crashers," which rest almost entirely on his loose, drawling screen presence as a performer, with no writing credit of his own. Both lines demand completely different skills – structured, disciplined text work on one side, pure embodiment of a character on the other.</p>
+          <p class="vb-intro">In later years, more serious, authority-adjacent roles were added: the nostalgic writer in Woody Allen's "Midnight in Paris," the controlled, paternal Mobius in the Disney series "Loki." This shift from the pure slacker figure to the mentor role can be read as a cautious expansion of his own acting substance, beyond the "easygoing guy" image he was identified with for decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the sexual Nine with One-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX9w1 shows in the decades-long, reliable creative partnership with Wes Anderson – a bond that held despite all the turbulence in the rest of his life and produced several of the most influential independent films of their generation. One journalist who met Wilson in person described a strange discrepancy: voice and expressions were there, but seemed "a little unanimated" – as if a noticeable distance lay between the screen figure and the person in the room.</p>
+          <p class="vb-intro">The Nine's fateful pattern is <strong>self-forgetting (sloth/inertia)</strong> – the tendency not to put one's own will in the foreground, but to forget oneself. In Wilson this shows most clearly in how, after his own crisis, he didn't reorganize his life himself but accepted his brother's structure instead – and in how a daughter remains unmet to this day, not out of rejection, but out of a not-attending-to-it that keeps the Nine away from genuine confrontation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: from outside structure to one's own voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Nine's path to healing runs from the belief <em>My own needs matter less than keeping the peace</em> to the realization <em>I am worth being heard without having to fight for it.</em> For the SX9w1, this means in particular not living out one's quiet fidelity to principle only within a single, protected bond, but also becoming active where it's uncomfortable – for instance in relationships that have so far been avoided rather than shaped.</p>
+          <p class="vb-intro">Much like Willie Nelson (SX9w1) – whose central lifelong bond with his sister Bobbie outlasted every more turbulent romantic relationship, while he stayed in taxing marital situations for years rather than actively steering against them – Wilson shows the same underlying tension of the SX9w1: an island of real, reliable merging next to a rest of life that happens more than it is actively shaped. The actual step toward healing would lie in applying the same reliability that carries the one creative partnership to his own family and his own voice as well.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype profile"},
+        {route:"beruehmte-willie-nelson", label:"Portrait: Willie Nelson (SX9w1)"},
+        {route:"beruehmte-ringo-starr", label:"Portrait: Ringo Starr (SX9w1)"},
+      ])}
+    </div>
+  `);
+}
+
 export function motherTeresaPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -322,6 +387,7 @@ export function willieNelsonPortraitPage() {
         {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype profile"},
         {route:"beruehmte-ringo-starr", label:"Portrait: Ringo Starr (SX9w1)"},
         {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1)"},
+        {route:"beruehmte-owen-wilson", label:"Portrait: Owen Wilson (SX9w1)"},
       ])}
     </div>
   `);

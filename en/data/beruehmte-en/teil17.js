@@ -2150,6 +2150,7 @@ export function ringoStarrPortraitPage() {
         {route:"beruehmte-jon-bon-jovi", label:"Portrait: Jon Bon Jovi (SX9w1) – the same merging with marriage and band"},
         {route:"beruehmte-david-guetta", label:"Portrait: David Guetta (SX9w1)"},
         {route:"beruehmte-willie-nelson", label:"Portrait: Willie Nelson (SX9w1)"},
+        {route:"beruehmte-owen-wilson", label:"Portrait: Owen Wilson (SX9w1)"},
       ])}
     </div>
   `);
