@@ -38,6 +38,16 @@ Nach jeder Änderung `node --input-type=module --check < bundle.js` sowie für j
 
 `en/bundle.js` ist von dieser Aufteilung **nicht** betroffen — es bleibt weiterhin eine einzelne, große ES-Modul-Datei (12,3 MB) mit `import`-Statements nur für Rohdaten aus `data/*.js`, nicht für Seitenfunktionen. Sollte die englische Version ebenfalls Safari-Speicherprobleme zeigen, wäre eine analoge Aufteilung (`data/beruehmte-en/`, `data/kriminal-en/`, `data/krankheitsportraets-en/`) das naheliegende nächste Projekt.
 
+## 1b. z-index-Konvention — Pflichtprüfung bei jedem neuen Overlay/Modal
+
+**Kritisch, bereits einmal real aufgetreten (27.09.2026):** Der fixierte EN/DE-Sprachumschalter oben rechts auf der Startseite hatte `z-index:999`. Das Onboarding-Willkommens-Overlay, das jedem Erstbesucher gezeigt wird, hatte `z-index:9999`. Dadurch lag der Umschalter unsichtbar *unter* dem Overlay — Klicks landeten auf dem Overlay-Hintergrund statt auf dem Link, der Sprachwechsel funktionierte für Erstbesucher schlicht nicht, ohne dass ein JS-Fehler sichtbar wurde (stiller UI-Bug, nur per `document.elementFromPoint()` diagnostizierbar).
+
+**Feste Regel ab jetzt:**
+- Der Sprachumschalter (beide Instanzen: die fixierte Start-Seiten-Badge `position:fixed;top:0.6rem;right:0.75rem` in `bundle.js`/`en/bundle.js` **und** die `.lang-switcher`-Klasse in `styles.css`) reserviert `z-index:10000` als **absolute Obergrenze der gesamten App**. Kein anderes Element darf diesen Wert erreichen oder überschreiten.
+- Alle Overlays, Modals, Popups und Onboarding-Screens bleiben bei `z-index:9999` oder niedriger.
+- **Vor jedem Hinzufügen eines neuen Vollbild-Overlays** (`position:fixed;inset:0` o. ä. mit hohem z-index) prüfen: `grep -oE "z-index:\s*[0-9]+" bundle.js styles.css en/bundle.js | sed -E 's/.*z-index:\s*//' | sort -n | uniq -c` — der neue Wert muss unter 10000 bleiben, und wenn ein bestehendes Overlay near 9999 erweitert wird, zur Sicherheit erneut mit `document.elementFromPoint()` auf den Sprachumschalter-Koordinaten testen (Beispiel im Commit vom 27.09.2026), nicht nur den Code lesen.
+- Dieser Test lässt sich schnell reproduzieren: `localStorage.clear(); location.reload();` in der Konsole erzwingt das Onboarding-Overlay für einen frischen Erstbesucher-Zustand.
+
 ## 2. Antwortverhalten
 
 - Knapp und konkret. Keine Wiederholungen, keine ausführlichen Zusammenfassungen, außer ausdrücklich gewünscht.
