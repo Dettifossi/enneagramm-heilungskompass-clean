@@ -23065,6 +23065,12 @@ function linienDynamikBeziehungenPage() {
           <p class="vb-intro">Particularly interesting – and often misunderstood – is how partnerships play out along the inner connecting axes: the triangle 3–6–9 and the hexagon 1–4–2–8–5–7. Does the law of stress and security points automatically mean one partner is the "trigger" while the other merely "benefits"? A closer look reveals a far more layered picture.</p>
         </blockquote>
 
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/wissen/linien-dynamik-spiegel-en.jpg" alt="The Mirror of Resonance – Enneagram connecting-line dynamics in relationships" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">The unconscious drama (fixation shadow) and the conscious quantum leap (integration) compared</p>
+        </div>
+
+
         <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">1. The key clarification first: two different triggers, not a symmetry</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Every type has, along its line, a <strong>fixed, directional</strong> stress point and an equally fixed, directional security point (also called the growth or integration point) – and these two directions are never the same. In the Three-Six connection, for instance, the Three is the Six's stress point, but the reverse isn't true: the Six is <em>not</em> the Three's stress point – the Six is the Three's security point. The Three's actual stress point lies at the Nine.</p>
@@ -23091,11 +23097,6 @@ function linienDynamikBeziehungenPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Whether such a connecting-line relationship succeeds or spirals into a vicious cycle depends almost entirely on the level of consciousness both partners operate from – not on which two types happen to meet. If both are stuck in their automatic patterns, they reinforce each other in exactly the shadows they each fear most. Once one or both begin to recognize their own fixation and take responsibility for their inner life, the dreaded stress point becomes the most precise mirror one could wish for to illuminate one's own blind spots.</p>
         </blockquote>
-
-        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
-          <img src="./assets/wissen/linien-dynamik-spiegel-en.jpg" alt="The Mirror of Resonance – Enneagram connecting-line dynamics in relationships" style="width:100%;display:block;" loading="lazy" />
-          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">The unconscious drama (fixation shadow) and the conscious quantum leap (integration) compared</p>
-        </div>
 
         ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
