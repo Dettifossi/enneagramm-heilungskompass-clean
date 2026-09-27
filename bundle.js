@@ -50347,12 +50347,20 @@ function linienDynamikBeziehungenPage() {
           <p class="vb-intro">Ob eine solche Linien-Beziehung gelingt oder in einen Teufelskreis f\xfchrt, h\xe4ngt fast ausschlie\xdflich davon ab, auf welcher Bewusstseinsebene beide Partner agieren – nicht davon, welche beiden Typen aufeinandertreffen. Stecken beide in ihren automatischen Mustern fest, verst\xe4rken sie sich gegenseitig in genau den Schatten, vor denen sie selbst am meisten Angst haben. Beginnt einer oder beginnen beide, die eigene Fixierung zu erkennen und Verantwortung f\xfcr das eigene Innenleben zu \xfcbernehmen, wird aus dem gef\xfcrchteten Stresspunkt der pr\xe4ziseste Spiegel, den man sich w\xfcnschen kann, um die eigenen blinden Flecken zu erkennen.</p>
         </blockquote>
 
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">5. Und die anderen Beziehungskonstellationen?</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das hier beschriebene Prinzip beschr\xe4nkt sich nicht auf die inneren Linien. Auch bei <strong>Fl\xfcgelpartnern</strong> – etwa einer Drei und einer Vier, oder einer Sieben und einer Acht – gilt sinngem\xe4\xdf dasselbe: Jeder der beiden hat seine eigene, individuelle Schattenseite, die durch typisches Verhalten des Fl\xfcgelnachbarn aktiviert werden kann, und in unbewussten Beziehungen kann es dadurch genauso zu wechselseitigen Reibungen kommen wie bei einer echten Linien-Verbindung – nur eben \xfcber den N\xe4he-Mechanismus des Fl\xfcgels statt \xfcber Stress- oder Entspannungspunkt.</p>
+          <p class="vb-intro">Selbst bei Typenpaaren <strong>ohne</strong> jede symbolische Verbindung im Enneagramm – weder Linie noch Fl\xfcgel, die sogenannten nicht-verbundenen Typen – sind unbewusste Beziehungsprobleme keineswegs ausgeschlossen. Auch hier bringt jeder Partner seine eigene, unabh\xe4ngige Fixierung mit, die in der N\xe4he des anderen sichtbar werden kann, ganz ohne dass das Enneagramm-Symbol selbst eine Verwandtschaft zwischen beiden vorzeichnet. Mehr zu dieser Gruppe im eigenen Schaubild <a href="javascript:void(0)" data-route="nicht-verbundene-typen" style="color:var(--copper);">Nicht-verbundene Typen</a>.</p>
+          <p class="vb-intro">Kurz gesagt: Die Qualit\xe4t einer Beziehung entscheidet sich nie allein an der geometrischen Verbindung zweier Typen im Symbol, sondern immer daran, wie bewusst beide Partner mit der eigenen Fixierung umgehen – unabh\xe4ngig davon, ob sie \xfcber eine Linie, einen Fl\xfcgel oder gar keine symbolische Verbindung miteinander verkn\xfcpft sind.</p>
+        </blockquote>
+
         ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
         ${relatedLinks([
           {route:"knowledge", label:"Zur\xfcck zur Wissensbasis"},
           {route:"kompatibilitaets-check", label:"Kompatibilit\xe4ts-Check (zwei Subtypen vergleichen)"},
           {route:"tierforscher-uebereinstimmung", label:"Tierforscher-\xdcbereinstimmung"},
+          {route:"nicht-verbundene-typen", label:"Nicht-verbundene Typen (Schaubild)"},
         ])}
       </div>
     </div>

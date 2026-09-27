@@ -23098,12 +23098,20 @@ function linienDynamikBeziehungenPage() {
           <p class="vb-intro">Whether such a connecting-line relationship succeeds or spirals into a vicious cycle depends almost entirely on the level of consciousness both partners operate from – not on which two types happen to meet. If both are stuck in their automatic patterns, they reinforce each other in exactly the shadows they each fear most. Once one or both begin to recognize their own fixation and take responsibility for their inner life, the dreaded stress point becomes the most precise mirror one could wish for to illuminate one's own blind spots.</p>
         </blockquote>
 
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">5. What about the other relationship constellations?</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The principle described here isn't limited to the inner connecting lines. The same logic applies, analogously, to <strong>wing partners</strong> – say, a Three and a Four, or a Seven and an Eight: each carries their own individual shadow, which can be activated by their wing neighbor's typical behavior, and in unconscious relationships this can produce the same kind of mutual friction as a genuine connecting-line relationship – just through the closeness mechanism of the wing rather than a stress or security point.</p>
+          <p class="vb-intro">Even type pairs with <strong>no</strong> symbolic connection at all in the Enneagram – neither a line nor a wing, the so-called unconnected types – are by no means immune to unconscious relationship trouble. Here too, each partner brings their own, independent fixation, which can surface in the other's presence, even though the Enneagram symbol itself doesn't chart any kinship between them. More on this group in the dedicated chart <a href="javascript:void(0)" data-route="nicht-verbundene-typen" style="color:var(--copper);">Unconnected Types</a>.</p>
+          <p class="vb-intro">In short: the quality of a relationship is never decided solely by the geometric connection between two types in the symbol, but always by how consciously both partners handle their own fixation – regardless of whether they're linked by a line, a wing, or no symbolic connection at all.</p>
+        </blockquote>
+
         ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
         ${relatedLinks([
           {route:"knowledge", label:"Back to the knowledge base"},
           {route:"kompatibilitaets-check", label:"Compatibility Check (compare two subtypes)"},
           {route:"tierforscher-uebereinstimmung", label:"Animal Researcher Match"},
+          {route:"nicht-verbundene-typen", label:"Unconnected Types (Chart)"},
         ])}
       </div>
     </div>
