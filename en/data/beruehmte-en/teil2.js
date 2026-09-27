@@ -43,7 +43,7 @@ export function willieNelsonPortraitPage() {
         <h2 class="vb-section">5. Light and shadow of the sexual Nine with One-wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SX9w1 shows in Nelson's handling of the existential tax crisis of 1990: rather than declaring bankruptcy or publicly exploiting his own plight, he produced "The IRS Tapes: Who'll Buy My Memories" (1992), a sparse album recorded with just voice and guitar, whose proceeds went directly toward repaying the $16.7 million tax debt – a quiet, self-contained answer to an existential crisis, no loud confrontation, and yet ultimately unbending on the matter itself.</p>
-          <p class="vb-intro">The Nine's fatal flaw is <strong>sloth</strong> – not physical laziness, but a sluggishness toward one's own importance, a self-forgetting in favor of connection and harmony. In Nelson this shows in how he stayed in damaging marital situations for years rather than actively asserting his own needs – a pattern that only visibly shifted with his fourth marriage to Annie D'Angelo starting in 1991.</p>
+          <p class="vb-intro">The Nine's fateful pattern is <strong>self-forgetting (sloth/inertia)</strong> – not physical laziness, but a sluggishness toward one's own importance, a self-forgetting in favor of connection and harmony. In Nelson this shows in how he stayed in damaging marital situations for years rather than actively asserting his own needs – a pattern that only visibly shifted with his fourth marriage to Annie D'Angelo starting in 1991.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The path to healing: from self-forgetting to one's own voice</h2>
