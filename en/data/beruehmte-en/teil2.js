@@ -1,5 +1,70 @@
 import { shell, pageHeader, relatedLinks, bookTip, tierAvatarTop, tierAvatarLeft, animalResearcherMatchBlock } from "../../bundle.js";
 
+export function willieNelsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-willie-nelson-portrait.jpg" alt="Willie Nelson – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Willie Nelson</p>
+        <p class="krim-portrait-typ">SX9w1 · Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">American country musician, born 1933 – Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The sloth that never let itself be rushed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> is the animal of the sexual Nine – an animal that no outside pace can rattle, and whose apparent sluggishness hides its own unshakeable steadiness. Willie Nelson, born in 1933 in Abbott, Texas, was raised alongside his older sister Bobbie by their paternal grandparents after both biological parents left the family in short succession – strict, church-going but music-loving grandparents who put instruments in the children's hands early. At six he got his first guitar from his grandfather; at seven he wrote his first song.</p>
+          <p class="vb-intro">Around 1960 he moved to Nashville broke and initially wrote songs for others – including "Crazy," which became a worldwide hit for Patsy Cline, though she reportedly didn't even like the demo at first. Only in the 1970s did he himself become the face of "outlaw country": long hair, jeans instead of Nashville rhinestones, a deliberately sparser production that ran against label wishes – not loud rebellion, but a quiet, persistent insistence on his own path.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Nine: merging with what truly matters</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>sexual Nine (SX9)</strong> doesn't seek the general harmony of the social or self-preservation Nine, but "merging" with one single, especially significant bond – where it feels truly connected, it gives itself over with an intensity one wouldn't expect given its outward calm. For Nelson, this one central bond isn't primarily any of his four marriages, but his lifelong musical partnership with his sister Bobbie: from singing gospel together in the church of his childhood to decades of joint touring and recording, until her death in 2022 – a constant that outlasted every upheaval in his life.</p>
+          <p class="vb-intro">His turbulent marital history, by contrast, shows the shadow side of merging: in his first marriage to Martha Matthews, there was mutual physical violence – she reportedly once tied him up and beat him with a broomstick – and in his third marriage to Connie Koepke he admitted to repeated infidelity while touring. Rather than drawing consequences early, he stayed in taxing situations for years – typical of the Nine, who would rather absorb conflict internally than actively end it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: gentle on the outside, unbending at the core</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the sexual Nine a quiet but persistent fidelity to principle – Nelson himself once named this exact contrast: "I'm not easy to live with... I've been used to doing things my own way for so long that I'm not interested in any suggestions." That's the characteristic SX9w1 formula: easygoing and agreeable on the outside, a position at the core that has barely shifted in decades.</p>
+          <p class="vb-intro">This shows most clearly in his cannabis use: publicly known since the early 1970s, arrested multiple times – including in Dallas in 1974, in the Bahamas with a subsequent ban from the country, and in Louisiana in 2006 together with his sister Bobbie on his tour bus – he held to the same position for over fifty years and served for years on the board of NORML, publicly advocating for legalization long before it was socially safe to do so. No loud provocation, but a quiet, unshakeable adherence to his own position.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual achievement: phrasing like a jazz singer, guitar like a horn player</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Before Nelson became a star himself, he had already made a name purely as a songwriter: "Crazy," "Hello Walls," "Night Life," and "Funny How Time Slips Away" became standards long before he sang them himself in public – a songwriting craft that preceded his later "outlaw" image and stands independent of it. Musically, what sets him apart above all is his unmistakable vocal phrasing: he systematically sings "behind the beat," deliberately letting lines lag before catching them up again – a loose, conversational phrasing closer to jazz singers than classic country vocalists.</p>
+          <p class="vb-intro">Add to that his guitar playing on "Trigger," a nylon-string guitar he specifically acquired to get closer to the sound of his greatest influence, Django Reinhardt: instead of strumming chords, he plays melodic single-note lines across the strings that weave with his vocal line like a second, horn-like voice. This combination of songwriting substance, unmistakable phrasing, and jazz-influenced guitar playing is the actual professional achievement behind the image of the cozy "outlaw" uncle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the sexual Nine with One-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX9w1 shows in Nelson's handling of the existential tax crisis of 1990: rather than declaring bankruptcy or publicly exploiting his own plight, he produced "The IRS Tapes: Who'll Buy My Memories" (1992), a sparse album recorded with just voice and guitar, whose proceeds went directly toward repaying the $16.7 million tax debt – a quiet, self-contained answer to an existential crisis, no loud confrontation, and yet ultimately unbending on the matter itself.</p>
+          <p class="vb-intro">The Nine's fatal flaw is <strong>sloth</strong> – not physical laziness, but a sluggishness toward one's own importance, a self-forgetting in favor of connection and harmony. In Nelson this shows in how he stayed in damaging marital situations for years rather than actively asserting his own needs – a pattern that only visibly shifted with his fourth marriage to Annie D'Angelo starting in 1991.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: from self-forgetting to one's own voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Nine's path to healing runs from the belief <em>My own needs matter less than keeping the peace</em> to the realization <em>I am worth being heard without having to fight for it.</em> For the SX9w1, this means in particular not confining one's quiet unbendingness to niches like a single preference or a single bond, but actively and promptly applying it where one's own well-being is at stake too.</p>
+          <p class="vb-intro">Much like Ringo Starr (SX9w1) – whose understated presence behind the drums carried an entire band without ever loudly asserting his own importance – Nelson's decades of unassuming continuation into old age shows this same Nine pattern: making an impact not through volume, but through sheer, unshakeable continuity. The actual step toward healing lies in not letting that continuity be forced only by an existential crisis like a tax debt, but taking one's own voice seriously from the start.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype profile"},
+        {route:"beruehmte-ringo-starr", label:"Portrait: Ringo Starr (SX9w1)"},
+        {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1)"},
+      ])}
+    </div>
+  `);
+}
+
 export function genRabtenPortraitPage() {
   return shell(`
     <div class="page-container">

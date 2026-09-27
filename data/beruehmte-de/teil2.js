@@ -67,6 +67,71 @@ export function vanessaGoeckingPortraitPage() {
   `);
 }
 
+export function willieNelsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-willie-nelson-portrait.jpg" alt="Willie Nelson – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Willie Nelson</p>
+        <p class="krim-portrait-typ">SX9w1 · Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Country-Musiker, geb. 1933 – Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier, das sich nie hetzen ließ</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 – ein Tier, das sich von keinem äußeren Tempo aus der Ruhe bringen lässt und dessen scheinbare Trägheit eine eigene, unerschütterliche Konsequenz verbirgt. Willie Nelson, geboren 1933 im texanischen Abbott, wurde zusammen mit seiner älteren Schwester Bobbie von den Großeltern väterlicherseits aufgezogen, nachdem beide leiblichen Elternteile die Familie kurz nacheinander verlassen hatten – strenge, kirchentreue, aber musikbegeisterte Großeltern, die den Kindern schon früh Instrumente in die Hand drückten. Mit sechs Jahren bekam er seine erste Gitarre vom Großvater, mit sieben schrieb er sein erstes eigenes Lied.</p>
+          <p class="vb-intro">Um 1960 zog er mittellos nach Nashville und schrieb zunächst Songs für andere – darunter ›Crazy‹, das zum Welthit für Patsy Cline wurde, obwohl diese die Demo-Aufnahme zunächst gar nicht mochte. Erst in den 1970er-Jahren wurde er selbst zum Gesicht des ›Outlaw Country‹: langes Haar, Jeans statt Nashville-Glitzer, eine bewusst kargere Produktion, die dem Label-Willen widersprach – kein lautes Aufbegehren, sondern ein stilles, beharrliches Beharren auf dem eigenen Weg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit dem, was wirklich zählt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht nach Naranjo nicht die allgemeine Harmonie der sozialen oder selbsterhaltenden Neun, sondern ›Verschmelzung‹ mit einer einzelnen, besonders bedeutsamen Bindung – dort, wo sie sich wirklich verbunden fühlt, gibt sie sich mit einer Intensität hin, die man ihr angesichts der äußeren Gelassenheit kaum zutrauen würde. Bei Nelson ist diese eine zentrale Bindung nicht in erster Linie eine seiner vier Ehen, sondern die lebenslange musikalische Partnerschaft mit seiner Schwester Bobbie: vom gemeinsamen Gospelgesang in der Kirche der Kindheit bis zu Jahrzehnten gemeinsamer Tourneen und Aufnahmen, bis zu ihrem Tod 2022 – eine Konstante, die alle Umbrüche seines Lebens überdauerte.</p>
+          <p class="vb-intro">Seine turbulente Ehegeschichte zeigt dagegen die Schattenseite der Verschmelzung: In seiner ersten Ehe mit Martha Matthews kam es zu gegenseitigen Handgreiflichkeiten – sie soll ihn einmal sogar gefesselt und mit einem Besenstiel geschlagen haben –, in seiner dritten Ehe mit Connie Koepke gestand er wiederholte Untreue während der Tourneen ein. Statt früh Konsequenzen zu ziehen, blieb er über Jahre in belastenden Konstellationen – typisch für die Neun, die Konflikt lieber erträgt und in sich hineinfrisst, als ihn aktiv zu beenden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Sanft nach außen, unbeugsam im Kern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sexuellen Neun eine stille, aber beharrliche Prinzipientreue – Nelson selbst hat diesen Kontrast einmal selbst so benannt: ›Ich bin nicht leicht zu ertragen … ich habe es mir zu lange auf meine eigene Art gemacht, um an Vorschlägen interessiert zu sein.‹ Das ist die typische SX9w1-Formel: nach außen der gelassene, umgängliche ›Laid-back‹-Charakter, im Kern eine Position, die sich über Jahrzehnte praktisch nicht verschiebt.</p>
+          <p class="vb-intro">Am deutlichsten zeigt sich das an seinem Cannabiskonsum: Seit den frühen 1970er-Jahren öffentlich bekannt, mehrfach verhaftet – unter anderem 1974 in Dallas, auf den Bahamas mit anschließendem Landesverweis, 2006 in Louisiana zusammen mit seiner Schwester Bobbie im Tourbus –, blieb er über fünfzig Jahre hinweg unverändert bei seiner Haltung und engagierte sich als langjähriges Vorstandsmitglied von NORML öffentlich für die Legalisierung, lange bevor das gesellschaftlich unbedenklich war. Keine laute Provokation, sondern ein ruhiges, durch nichts zu erschütterndes Festhalten an der eigenen Position.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Phrasierung wie ein Jazzsänger, Gitarre wie ein Bläser</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bevor Nelson selbst zum Star wurde, hatte er sich bereits rein als Songschreiber einen Namen gemacht: ›Crazy‹, ›Hello Walls‹, ›Night Life‹ und ›Funny How Time Slips Away‹ wurden zu Standards, lange bevor er sie selbst öffentlichkeitswirksam sang – ein songwriterisches Handwerk, das seinem späteren ›Outlaw‹-Image vorausging und unabhängig davon besteht. Musikalisch unterscheidet ihn vor allem seine unverwechselbare Gesangsphrasierung: Er singt systematisch ›hinter dem Beat‹, lässt Zeilen bewusst nachhinken und holt sie dann wieder ein – eine freie, gesprächsartige Phrasierung, die eher an Jazzsänger als an klassische Country-Interpreten erinnert.</p>
+          <p class="vb-intro">Dazu kommt sein Gitarrenspiel auf ›Trigger‹, einer Nylonsaiten-Gitarre, die er sich gezielt zulegte, um dem Klang seines größten Vorbilds Django Reinhardt nahezukommen: Statt Akkorde zu schrammeln, spielt er melodische Einzelton-Linien quer über die Saiten, die sich mit der Gesangsstimme verweben wie eine zweite, blechbläserartige Stimme. Diese Kombination aus songwriterischer Substanz, unverwechselbarer Phrasierung und jazzbeeinflusstem Gitarrenspiel ist die eigentliche fachliche Leistung hinter dem Bild des gemütlichen ›Outlaw‹-Onkels.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 zeigt sich in Nelsons Umgang mit der existenzbedrohenden Steuerkrise 1990: Statt Insolvenz anzumelden oder die eigene Notlage öffentlich auszuschlachten, produzierte er mit ›The IRS Tapes: Who'll Buy My Memories‹ (1992) ein karges, nur mit Stimme und Gitarre eingespieltes Album, dessen Erlöse direkt in die Rückzahlung der 16,7 Millionen Dollar Steuerschuld flossen – eine leise, in sich ruhende Antwort auf eine existenzielle Krise, keine laute Konfrontation, und dennoch am Ende unbeugsam in der Sache.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Neun ist <strong>Faulheit</strong> – nicht körperliche Trägheit, sondern die Trägheit gegenüber der eigenen Bedeutung, das Sich-selbst-Vergessen zugunsten von Bindung und Harmonie. Bei Nelson zeigt sich das darin, dass er über Jahre in schädlichen ehelichen Konstellationen verharrte, statt die eigenen Bedürfnisse aktiv geltend zu machen – ein Muster, das sich erst mit seiner vierten Ehe mit Annie D'Angelo ab 1991 spürbar änderte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Selbstvergessenheit zur eigenen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Neun führt von der Überzeugung <em>Meine eigenen Bedürfnisse zählen weniger als der Frieden</em> zur Erkenntnis <em>Ich bin es wert, gehört zu werden, ohne dafür kämpfen zu müssen.</em> Für die SX9w1 bedeutet das insbesondere, die eigene stille Unbeugsamkeit nicht nur in Nischen wie einer einzelnen Vorliebe oder einer einzelnen Bindung auszuleben, sondern sie aktiv und rechtzeitig auch dort einzusetzen, wo es um das eigene Wohlergehen geht.</p>
+          <p class="vb-intro">Ähnlich wie Ringo Starr (SX9w1) – dessen zurückhaltende Präsenz hinter dem Schlagzeug eine ganze Band trug, ohne je die eigene Bedeutung lautstark einzufordern – zeigt auch Nelsons jahrzehntelanges, unaufgeregtes Weitermachen bis ins hohe Alter dieses Muster der Neun: nicht durch Lautstärke, sondern durch schiere, unerschütterliche Kontinuität wirken. Der eigentliche Heilungsschritt liegt darin, diese Kontinuität nicht erst durch eine existenzielle Krise wie die Steuerschuld erzwingen zu lassen, sondern die eigene Stimme von Anfang an ernst zu nehmen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-ringo-starr", label:"Porträt: Ringo Starr (SX9w1)"},
+        {route:"beruehmte-ed-sheeran", label:"Porträt: Ed Sheeran (SX9w1)"},
+      ])}
+    </div>
+  `);
+}
+
 export function genRabtenPortraitPage() {
   return shell(`
     <div class="page-container">
