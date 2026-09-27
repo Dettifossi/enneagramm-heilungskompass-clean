@@ -133,6 +133,7 @@ export function albertSchweitzerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+        {route:"beruehmte-mutter-teresa", label:"Portrait: Mother Teresa (SO2w1)"},
       ])}
     </div>
   `);

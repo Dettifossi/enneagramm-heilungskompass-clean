@@ -133,6 +133,71 @@ export function lanaDelReyPortraitPage() {
   `);
 }
 
+export function mutterTeresaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mutter-teresa-portrait.jpg" alt="Mutter Teresa – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mutter Teresa</p>
+        <p class="krim-portrait-typ">SO2w1 · Sozialer Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Ordensgründerin, 1910–1997 – Friedensnobelpreisträgerin 1979 – Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever im Dienst der Ärmsten der Armen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier des sozialen Typs 2 – ein Tier, das seine tiefste Erfüllung nicht in Einzelgängertum findet, sondern darin, für eine Gemeinschaft unentbehrlich zu sein und Anerkennung durch Dienst zu verdienen. Geboren 1910 als Anjezë Gonxhe Bojaxhiu im damals osmanischen Skopje, verlor sie mit acht Jahren ihren Vater unter bis heute ungeklärten Umständen – vermutlich vergiftet wegen seines albanisch-nationalistischen Engagements. Ihre tief katholische Mutter hielt die Familie danach finanziell über Wasser und lebte ihr die Fürsorge für Arme bereits vor, bevor Anjezë mit zwölf Jahren eine erste religiöse Berufung verspürte.</p>
+          <p class="vb-intro">Mit 18 trat sie den irischen Loreto-Schwestern bei und ging nach Kalkutta, wo sie rund fünfzehn Jahre lang Geografie an einer Klosterschule unterrichtete, zuletzt als Schulleiterin. Am 10. September 1946, auf einer Zugfahrt nach Darjeeling, erlebte sie das, was sie später ihren ›Ruf im Ruf‹ nannte: die innere Gewissheit, das gesicherte Klosterleben zu verlassen, um direkt unter den Ärmsten der Armen zu arbeiten. Es dauerte zwei Jahre, bis der Vatikan ihr die nötige Erlaubnis erteilte – 1948 zog sie erstmals im schlichten weiß-blauen Sari durch die Slums Kalkuttas.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Von zwölf Schwestern zu 610 Niederlassungen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> sucht nach Naranjo nicht die exklusive Zuwendung Einzelner, sondern Ehrgeiz im Dienst der gesamten Gemeinschaft – Bedeutung wird dadurch verdient, dass man sich für ein möglichst großes Kollektiv unverzichtbar macht. 1950 gründete Mutter Teresa die Missionarinnen der Nächstenliebe mit zwölf Schwestern in Kalkutta; bis zu ihrem Tod 1997 war daraus ein Orden mit rund 610 Niederlassungen in 123 Ländern und mehreren Tausend Schwestern geworden – eine der außergewöhnlichsten institutionellen Skalierungen einer ursprünglich einzelnen Straßenmission.</p>
+          <p class="vb-intro">Die Führung blieb dabei eng auf ihre eigene Person zentriert: Neben den drei klassischen Ordensgelübden legten die Schwestern ein viertes, von ihr geprägtes Gelübde ab – den Ärmsten der Armen aus freiem Herzen und ohne Bezahlung zu dienen –, und sie wählten ihre Einsatzorte nicht selbst, sondern folgten der Maxime ›Tu, was Er dir sagt‹, in der Praxis vermittelt durch Mutter Teresas eigene Anweisungen. Genau dieses Muster – die eigene Unentbehrlichkeit auf ein ganzes, wachsendes Kollektiv ausgedehnt statt auf eine einzelne Beziehung – ist die typische Handschrift der sozialen Zwei.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Direktheit ohne Kompromisse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Zwei eine zusätzliche moralische Festigkeit – die eigene Fürsorge wird zur Frage von richtig und falsch, verbunden mit einer Prinzipientreue, die selten Kompromisse eingeht. Am deutlichsten zeigte sich das beim Nationalen Gebetsfrühstück 1994 in Washington: Wenige Meter von Präsident und First Lady Clinton entfernt bezeichnete sie Abtreibung ungeschminkt als ›den größten Zerstörer des Friedens‹ und ›Mord durch die Mutter selbst‹ – ein Großteil des Saals erhob sich zu stehendem Applaus, während die Clintons sichtlich reglos sitzen blieben. Im Anschluss drängte sie Hillary Clinton sogar direkt, ein Waisenhaus als praktische Alternative zur Abtreibung mitzufinanzieren.</p>
+          <p class="vb-intro">Dieselbe Unbeugsamkeit zeigte sich im Umgang mit Kritik: Als ein Staatsanwalt sie bat, rund 1,25 Millionen Dollar Spenden des später wegen Anlagebetrugs verurteilten Charles Keating zurückzuerstatten, reagierte sie darauf nicht – stattdessen schrieb sie dem Richter einen Gnadenappell für Keating. Auch Kritik an der medizinischen Versorgung in ihren Sterbehäusern (siehe Abschnitt 4) beantwortete sie nicht mit öffentlicher Kurskorrektur, sondern mit unverändertem Festhalten an den bestehenden Ordensregeln – keine Waschmaschinen, keine staatlichen Fördermittel, kaum moderne medizinische Ausstattung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Kritik und Kontroverse: Zwischen Heiligenverehrung und Sterbehaus-Debatte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Publizist Christopher Hitchens warf ihr in ›The Missionary Position‹ (1995) vor, ihre Sterbehäuser lägen weit unter Hospiz-Standard: mehrfach verwendete, nur abgespülte statt sterilisierte Nadeln, kaum Schmerzlinderung – eine ehemalige Freiwillige berichtete von Krebspatienten, denen kaum mehr als Aspirin verabreicht wurde. Hitchens führte das auf eine Theologie zurück, die Leiden als Weg zu Christus verklärte, statt es aktiv zu lindern. Ebenfalls umstritten: die Praxis, Sterbende auch anderer Religionen nach einer ›Eintrittskarte in den Himmel‹ zu fragen und bei Zustimmung diskret zu taufen – Kritiker bezweifeln, dass schwerkranke, oft kaum ansprechbare Menschen diese religiöse Tragweite wirklich verstehen konnten.</p>
+          <p class="vb-intro">Wer mit ihr arbeitete, beschreibt eine Mischung aus persönlicher Wärme gegenüber Novizinnen und zugleich strengen, kaum verhandelbaren Standards mit wenig Toleranz für Regelabweichungen. Bezeichnend ist, dass sie selbst nie delegierte, was sie predigte: Sie pflegte, wusch und fütterte Sterbende eigenhändig, statt den Orden nur aus der Distanz zu verwalten – ihr berühmtester Satz, Christus ›in seiner bedrückenden Verkleidung‹ unter den Ärmsten zu dienen, war für sie kein Bild, sondern tägliche körperliche Praxis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Zwei mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2w1 zeigt sich in der außergewöhnlichen Konsequenz, mit der aus einer einzelnen inneren Gewissheit auf einem Zugabteil eine der größten karitativen Bewegungen der Neuzeit wurde – 1979 mit dem Friedensnobelpreis gewürdigt. Das Schicksalsmuster der Zwei ist <strong>Stolz</strong> – die Überzeugung, selbst keine Bedürfnisse zu haben, sondern nur für andere da zu sein, was das eigene Handeln über jeden Zweifel erhebt.</p>
+          <p class="vb-intro">Die 2007 posthum veröffentlichten Briefe (›Come Be My Light‹) offenbarten die vielleicht eindrücklichste Schattenseite: fast fünfzig Jahre lang, von kurz nach ihrem Klosteraustritt 1948 fast bis zu ihrem Tod, litt sie unter einer tiefen spirituellen Krise – dem Gefühl völliger Gottverlassenheit, das sie selbst ›die Dunkelheit‹ nannte. Nach außen zeigte sie in all diesen Jahrzehnten unverändert die gelassene Gewissheit einer Heiligen und baute die Mission unbeirrt weiter aus – ein Ausmaß an Selbstverleugnung der eigenen inneren Not zugunsten der äußeren Rolle, das kaum eindrücklicher zur Zwei mit ihrem Bedürfnis, keine eigenen Bedürfnisse zu zeigen, passen könnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der verborgenen Not zur geteilten Verletzlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Zwei führt von der Überzeugung <em>Ich muss mich unentbehrlich machen, um geliebt zu werden</em> zur Erkenntnis <em>Ich bin wertvoll, auch ohne mich vollständig für andere aufzuopfern.</em> Für die SO2w1 bedeutet das insbesondere, die eigene moralische Gewissheit nicht mit völliger persönlicher Bedürfnislosigkeit zu verwechseln – und eigene Zweifel oder Not nicht fünf Jahrzehnte lang hinter einer makellosen öffentlichen Fassade zu verbergen.</p>
+          <p class="vb-intro">Ähnlich wie Gen Kelsang Rabten (SO2w1) – bei dem eine ehemalige Schülerin denselben Kontrast zwischen privater Wärme und öffentlich unerschütterlicher Gewissheit beschrieb – und wie Albert Schweitzer (SO2w1), der auf dem Höhepunkt seines akademischen Erfolgs alles zurückließ, um dorthin zu gehen, wo Not war, zeigt sich auch bei Mutter Teresa dieselbe Grundbewegung der SO2w1: Dienst an einer großen Sache, gepaart mit einer Unbeugsamkeit, die kaum Raum für die eigene Verletzlichkeit lässt. Der eigentliche Heilungsschritt läge darin, das Eingeständnis eigener Zweifel nicht als Schwäche, sondern als Teil derselben Aufrichtigkeit zu verstehen, die auch das Dienen am Nächsten trägt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-albert-schweitzer", label:"Porträt: Albert Schweitzer (SO2w1)"},
+        {route:"beruehmte-gen-rabten", label:"Porträt: Gen Kelsang Rabten (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 export function willieNelsonPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -263,6 +328,7 @@ export function genRabtenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-albert-schweitzer", label:"Porträt: Albert Schweitzer (SO2w1)"},
+        {route:"beruehmte-mutter-teresa", label:"Porträt: Mutter Teresa (SO2w1)"},
       ])}
     </div>
   `);

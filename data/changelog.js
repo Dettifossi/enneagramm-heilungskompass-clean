@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2408", date: "2026-09-27", text: "Neues Porträt: Mutter Teresa (SO2w1) – Ordensgründerin, Friedensnobelpreisträgerin.", text_en: "New portrait: Mother Teresa (SO2w1) – founder of a religious order, Nobel Peace Prize laureate.", route: "beruehmte-mutter-teresa" },
     { version: "v2407", date: "2026-09-27", text: "Neues Porträt: Lana Del Rey (SX3w4) – US-amerikanische Sängerin und Songwriterin.", text_en: "New portrait: Lana Del Rey (SX3w4) – American singer-songwriter.", route: "beruehmte-lana-del-rey" },
     { version: "v2406", date: "2026-09-27", text: "Neues Porträt: Willie Nelson (SX9w1) – US-amerikanischer Country-Musiker.", text_en: "New portrait: Willie Nelson (SX9w1) – American country musician.", route: "beruehmte-willie-nelson" },
     { version: "v2405", date: "2026-09-26", text: "Neues Porträt: Bella Hadid (SX6w5) – US-amerikanisches Model und Aktivistin.", text_en: "New portrait: Bella Hadid (SX6w5) – American model and activist.", route: "beruehmte-bella-hadid" },

@@ -66,6 +66,71 @@ export function lanaDelReyPortraitPage() {
   `);
 }
 
+export function motherTeresaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mutter-teresa-portrait.jpg" alt="Mother Teresa – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mother Teresa</p>
+        <p class="krim-portrait-typ">SO2w1 · Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Founder of a religious order, 1910–1997 – Nobel Peace Prize laureate 1979 – Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever in service of the poorest of the poor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two – an animal that finds its deepest fulfillment not in solitude but in being indispensable to a community, earning recognition through service. Born in 1910 as Anjezë Gonxhe Bojaxhiu in what was then Ottoman Skopje, she lost her father at age eight under circumstances still unclear today – likely poisoned over his Albanian-nationalist activities. Her devoutly Catholic mother kept the family afloat financially afterward and modeled charity toward the poor even before Anjezë felt a first religious calling at twelve.</p>
+          <p class="vb-intro">At 18 she joined the Irish Sisters of Loreto and went to Calcutta, where she taught geography at a convent school for about fifteen years, eventually as headmistress. On September 10, 1946, on a train to Darjeeling, she experienced what she later called her "call within a call": the inner conviction to leave the security of convent life and work directly among the poorest of the poor. It took two years for the Vatican to grant the necessary permission – in 1948 she first walked through Calcutta's slums in the plain white-and-blue sari.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Two: from twelve sisters to 610 foundations</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>social Two (SO2)</strong> doesn't seek the exclusive attention of individuals but ambition in service of the entire community – significance is earned by making oneself indispensable to as large a collective as possible. In 1950, Mother Teresa founded the Missionaries of Charity with twelve sisters in Calcutta; by her death in 1997 it had grown into an order with roughly 610 foundations in 123 countries and several thousand sisters – one of the most extraordinary institutional scale-ups from an originally single-person street ministry.</p>
+          <p class="vb-intro">Leadership remained tightly centered on her own person: alongside the three standard vows, the sisters took a fourth vow she herself shaped – to give wholehearted, unpaid service to the poorest of the poor – and they did not choose their own assignments but followed the maxim "Do whatever He tells you," administered in practice through her own directives. This exact pattern – one's own indispensability extended to an entire, growing collective rather than a single relationship – is the characteristic signature of the social Two.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: directness without compromise</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two an added moral firmness – care for others becomes a matter of right and wrong, paired with a fidelity to principle that rarely compromises. This showed most clearly at the 1994 National Prayer Breakfast in Washington: just feet away from President and First Lady Clinton, she called abortion bluntly "the greatest destroyer of peace" and "murder by the mother herself" – most of the room rose in a standing ovation while the Clintons remained visibly still. Afterward she even pressed Hillary Clinton directly to help fund an orphanage as a practical alternative to abortion.</p>
+          <p class="vb-intro">The same unbendingness showed in how she handled criticism: when a prosecutor asked her to return roughly $1.25 million in donations from Charles Keating, later convicted of investment fraud, she did not respond to the request – instead writing the sentencing judge a clemency appeal for Keating. Criticism of the medical care in her homes for the dying (see section 4) was likewise met not with public course-correction but with unchanged adherence to the order's existing rules – no washing machines, no government funding, barely any modern medical equipment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Criticism and controversy: between sainthood and the debate over the dying homes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Writer Christopher Hitchens accused her in "The Missionary Position" (1995) of running homes for the dying far below hospice standards: needles reused after only rinsing rather than sterilizing, minimal pain relief – a former volunteer reported cancer patients given little more than aspirin. Hitchens traced this to a theology that idealized suffering as a path to Christ rather than something to actively relieve. Also controversial: the practice of asking dying patients of other faiths whether they wanted a "ticket to heaven" and then quietly baptizing those who assented – critics question whether severely ill, often barely responsive patients could truly grasp the religious significance of that consent.</p>
+          <p class="vb-intro">Those who worked with her describe a mix of personal warmth toward novices alongside strict, barely negotiable standards with little tolerance for deviation from the order's rule. Tellingly, she never delegated what she preached: she personally washed, fed, and cared for the dying rather than administering the order only from a distance – her most famous line, serving Christ "in his distressing disguise" among the poorest, was for her not a metaphor but daily physical practice.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the social Two with One-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w1 shows in the extraordinary consistency with which a single inner conviction on a train carriage grew into one of the great charitable movements of the modern era – recognized with the Nobel Peace Prize in 1979. The Two's fatal flaw is <strong>pride</strong> – the conviction of having no needs of one's own, existing only for others, which places one's own actions beyond question.</p>
+          <p class="vb-intro">The letters published posthumously in 2007 ("Come Be My Light") revealed perhaps the most striking shadow side: for nearly fifty years, from shortly after leaving the convent in 1948 almost to her death, she suffered a profound spiritual crisis – a feeling of total abandonment by God she herself called "the darkness." Throughout these decades she outwardly showed the unchanged, serene certainty of a saint and kept expanding the mission undeterred – a degree of self-denial of her own inner distress in favor of the outer role that could hardly fit the Two's need to show no needs of her own more precisely.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path to healing: from hidden distress to shared vulnerability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Two's path to healing runs from the belief <em>I must make myself indispensable to be loved</em> to the realization <em>I am valuable even without sacrificing myself completely for others.</em> For the SO2w1, this means in particular not confusing one's own moral certainty with complete personal neediness-suppression – and not hiding one's own doubts or distress behind a flawless public facade for five decades.</p>
+          <p class="vb-intro">Much like Gen Kelsang Rabten (SO2w1) – where a former student described the same contrast between private warmth and unshakeable public certainty – and like Albert Schweitzer (SO2w1), who left everything behind at the height of his academic success to go where need was greatest, Mother Teresa shows the same underlying movement of the SO2w1: service to a great cause, paired with an unbendingness that leaves little room for one's own vulnerability. The actual step toward healing would lie in understanding the admission of one's own doubts not as weakness, but as part of the same sincerity that also carries the service to others.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype profile"},
+        {route:"beruehmte-albert-schweitzer", label:"Portrait: Albert Schweitzer (SO2w1)"},
+        {route:"beruehmte-gen-rabten", label:"Portrait: Gen Kelsang Rabten (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
 export function willieNelsonPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -196,6 +261,7 @@ export function genRabtenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype profile"},
         {route:"beruehmte-albert-schweitzer", label:"Portrait: Albert Schweitzer (SO2w1)"},
+        {route:"beruehmte-mutter-teresa", label:"Portrait: Mother Teresa (SO2w1)"},
       ])}
     </div>
   `);
