@@ -6601,6 +6601,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kompass.verlagshausrathmer.com/beruehmte-owen-wilson/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kompass.verlagshausrathmer.com/beruehmte-david-guetta/</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -10940,6 +10946,12 @@
   </url>
   <url>
     <loc>https://kompass.verlagshausrathmer.com/en/beruehmte-willie-nelson/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kompass.verlagshausrathmer.com/en/beruehmte-owen-wilson/</loc>
     <lastmod>2026-09-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
