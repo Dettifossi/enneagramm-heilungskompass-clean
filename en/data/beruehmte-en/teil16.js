@@ -635,6 +635,7 @@ export function immanuelKantPortraitPage() {
         {route:"krankheitsportraets-sigmund-freud", label:"Illness Portrait: Sigmund Freud (SO6w5) – jaw cancer despite warnings"},
         {route:"krankheitsportraets-immanuel-kant", label:"Illness Portrait: Immanuel Kant (SO6w5) – hypochondria and breathing distress"},
         {route:"bibel-philippus", label:"Bible Portrait: Philip (SO6w5)"},
+        {route:"beruehmte-ulrich-ott", label:"Portrait: Dr. Ulrich Ott (SO6w5)"},
       ])}
     </div>
   `);

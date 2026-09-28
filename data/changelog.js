@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2421", date: "2026-09-29", text: "Neues Porträt: Dr. Ulrich Ott (SO6w5) – deutscher Neurowissenschaftler und Meditationsforscher.", text_en: "New portrait: Dr. Ulrich Ott (SO6w5) – German neuroscientist and meditation researcher.", route: "beruehmte-ulrich-ott" },
     { version: "v2420", date: "2026-09-28", text: "Neues Porträt: Adriano Celentano (SX7w8) – italienischer Sänger, Schauspieler und Regisseur.", text_en: "New portrait: Adriano Celentano (SX7w8) – Italian singer, actor and director.", route: "beruehmte-adriano-celentano" },
     { version: "v2419", date: "2026-09-28", text: "Neues Porträt: Steffen Henssler (SO7w6) – deutscher TV-Koch.", text_en: "New portrait: Steffen Henssler (SO7w6) – German celebrity chef.", route: "beruehmte-steffen-henssler" },
     { version: "v2418", date: "2026-09-28", text: "Neues Porträt: Johann Lafer (SE7w8) – österreichisch-deutscher Sternekoch.", text_en: "New portrait: Johann Lafer (SP7w8) – Austrian-German celebrity chef.", route: "beruehmte-johann-lafer" },

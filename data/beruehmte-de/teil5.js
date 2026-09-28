@@ -2290,3 +2290,69 @@ export function annaNetrebkoPortraitPage() {
     </div>
   `);
 }
+
+export function ulrichOttPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ulrich-ott-portrait.jpg" alt="Dr. Ulrich Ott" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Ulrich Ott</p>
+        <p class="krim-portrait-typ">SO6w5 · Sozialer Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Neurowissenschaftler und Meditationsforscher, geb. 1965 – Tierentsprechung: Erdmännchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdmännchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdmännchen</strong> ist das Tier der sozialen Sechs – wachsam, kooperativ, ständig darauf bedacht, dass die Gruppe auf sicherem Boden steht, bevor irgendetwas als gesichert gilt. Ulrich Ott studierte Psychologie an der Goethe-Universität Frankfurt (Diplom 1996) und promovierte dort 2000 mit einer Dissertation über 40-Hz-Aktivität im EEG in Ruhe, bei Kopfrechnen und bei Meditation – eine frühe, methodisch strenge Annäherung an ein Thema, das damals außerhalb etablierter akademischer Pfade lag.</p>
+          <p class="vb-intro">Von 1998 bis 2005 arbeitete er am Institut für Psychobiologie und Verhaltensmedizin der Universität Gießen, seit 2005 ist er fest am Institut für Grenzgebiete der Psychologie und Psychohygiene (IGPP) in Freiburg angestellt und leitet zugleich die Arbeitsgruppe ›Veränderte Bewusstseinszustände‹ am Bender Institute of Neuroimaging (BION) der Universität Gießen. Über zwei Jahrzehnte an denselben, klar verorteten Institutionen statt wechselnder Zugehörigkeiten – ein erstes Signal für die soziale Sechs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sechs: Sicherheit durch geprüfte Autorität statt freier Behauptung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sechs (SO6)</strong> sucht Sicherheit nicht in der eigenen, unbelegten Überzeugung, sondern in der Rückbindung an ein verlässliches, geprüftes System – eine Institution, eine Methode, eine anerkannte Autorität, der man vertrauen kann, weil sie sich bewährt hat. Otts gesamte öffentliche Methode folgt genau diesem Muster: Statt spirituelle oder meditative Erfahrungen freischwebend zu vermitteln, bindet er sie konsequent an die Autorität der Neurowissenschaft zurück – fMRT-Daten, EEG-Messwerte, peer-geprüfte Forschung am eigenen Universitätsinstitut –, bevor er sie einem breiteren Publikum zugänglich macht.</p>
+          <p class="vb-intro">Sein bekanntestes Buch trägt genau diesen Titel als Programm: ›Meditation für Skeptiker – Ein Neurowissenschaftler erklärt den Weg zum Selbst‹ (2010), laut Verlag das erfolgreichste Meditationsbuch auf wissenschaftlicher Basis. Weitere Titel wie ›Yoga für Skeptiker‹ und ›Spiritualität für Skeptiker‹ setzen dieselbe Absicherungslogik fort: Erst die geprüfte, institutionell abgesicherte Erkenntnis, dann die Weitergabe an die Gemeinschaft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die fachliche Substanz: fMRT-Meditationsforschung über ein Vierteljahrhundert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Otts Forschungsschwerpunkt liegt in den neuronalen Effekten von Meditation und Yoga auf Gehirnfunktion und -struktur, untersucht mittels funktioneller Magnetresonanztomografie. Er beschäftigt sich mit der Induktion veränderter Bewusstseinszustände, den neuronalen Korrelaten von Versunkenheit und Absorption sowie mit den Wirkungen kontemplativer Praxis auf Aufmerksamkeit, Emotionsregulation und Selbstwahrnehmung – über 25 Jahre Forschungstätigkeit an derselben Fragestellung.</p>
+          <p class="vb-intro">Diese methodische Beharrlichkeit, ein einziges, komplexes Forschungsfeld über Jahrzehnte mit denselben strengen bildgebenden Verfahren zu bearbeiten, statt zwischen wechselnden Trendthemen zu springen, ist selbst schon Ausdruck seines Grundmusters: Vertrauenswürdigkeit entsteht durch konsequente methodische Kontinuität, nicht durch schnelle, unbelegte Behauptungen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Fünferflügel: Rückzug ins Labor statt Bühnenpräsenz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> zeigt sich bei Ott in der ausgeprägten Bevorzugung von Messwert und Theorie gegenüber reinem Erfahrungsbericht. Statt subjektive spirituelle Erlebnisse als solche stehen zu lassen, übersetzt er sie konsequent in überprüfbare Daten – EEG-Kurven, Hirnaktivierungsmuster, statistische Effekte. Schon der Buchtitel ›für Skeptiker‹ richtet sich explizit an den distanzierten, prüfenden Blick, nicht an den emotionalen, unmittelbaren Zugang.</p>
+          <p class="vb-intro">Auch seine eigene, regelmäßige Meditationspraxis bettet er nie in ein bekenntnishaftes spirituelles Narrativ ein, sondern behält den analytischen Doppelblick bei: Erfahrung und gleichzeitige wissenschaftliche Beobachtung dieser Erfahrung. Genau diese introvertierte, wissensorientierte Distanz zur eigenen Praxis unterscheidet die SO6w5 von einer wärmeren, stärker gemeinschaftsbetonten SO6w7.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO6w5 ist die Fähigkeit, <strong>ein tabuisiertes, oft belächeltes Feld schrittweise wissenschaftlich zu legitimieren</strong> und damit einer breiteren Öffentlichkeit zugänglich zu machen, ohne die eigene Glaubwürdigkeit zu riskieren – Meditationsforschung, die vor Jahrzehnten außerhalb des akademischen Mainstreams lag, ist durch Arbeiten wie seine heute ein etabliertes Forschungsfeld mit eigenem Institut.</p>
+          <p class="vb-intro">Der Schatten der Sechs liegt in der Gefahr, so lange nach zusätzlicher Absicherung zu suchen, dass Erkenntnisse spät oder nur stark gefiltert an die Öffentlichkeit gelangen – wer jede spirituelle Aussage erst durch die neurowissenschaftliche Nadel fädeln muss, riskiert, dass die eigentliche, unmittelbare Erfahrung hinter der Methode verschwindet. Otts konsequenter Doppelanspruch – wissenschaftlich abgesichert und trotzdem für ein breites Publikum zugänglich – ist zugleich seine größte Leistung und seine anspruchsvollste Gratwanderung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Das Erdmännchen, das die Meditation wissenschaftlich absicherte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ulrich Ott steht für eine seltene Vermittlerposition: nicht der Mystiker, der Wissenschaft misstraut, und nicht der Wissenschaftler, der Spiritualität pauschal abtut, sondern jemand, der beide Welten konsequent zusammenhält – Meditation, geprüft mit denselben Methoden, die auch in der Krebsforschung oder Neurologie gelten.</p>
+          <p class="vb-intro">Vom EEG-Doktoranden zum meistgelesenen deutschsprachigen Meditationsautor auf wissenschaftlicher Basis: Das ist die soziale Sechs mit Fünferflügel in ihrer produktivsten Form – Wachsamkeit, die sich nicht in Misstrauen erschöpft, sondern zur Brücke zwischen zwei Welten wird, die einander sonst kaum vertrauen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
+        {route:"beruehmte-marta-manser", label:"Porträt: Prof. Dr. Marta Manser (SO6w5)"},
+        {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
+        {route:"beruehmte-anne-applebaum", label:"Porträt: Anne Applebaum (SO6w7)"},
+      ])}
+    </div>
+  `);
+}

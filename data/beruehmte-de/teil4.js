@@ -1187,6 +1187,7 @@ export function martaManserPortraitPage() {
         {route:"beruehmte-tim-clutton-brock", label:"Porträt: Prof. Tim Clutton-Brock (SO6w5)"},
         {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
         {route:"beruehmte-grit-strassenberger", label:"Porträt: Prof. Dr. Grit Straßenberger (SO6w5)"},
+        {route:"beruehmte-ulrich-ott", label:"Porträt: Dr. Ulrich Ott (SO6w5)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-marta-manser")}
     </div>

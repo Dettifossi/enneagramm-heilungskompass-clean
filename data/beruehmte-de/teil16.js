@@ -633,6 +633,7 @@ export function immanuelKantPortraitPage() {
         {route:"krankheitsportraets-sigmund-freud", label:"Krankheitsporträt: Sigmund Freud (SO6w5) – Kieferkrebs trotz Warnungen"},
         {route:"krankheitsportraets-immanuel-kant", label:"Krankheitsporträt: Immanuel Kant (SO6w5) – Hypochondrie und Atembeklemmung"},
         {route:"bibel-philippus", label:"Bibel-Porträt: Philippus (SO6w5)"},
+        {route:"beruehmte-ulrich-ott", label:"Porträt: Dr. Ulrich Ott (SO6w5)"},
       ])}
     </div>
   `);

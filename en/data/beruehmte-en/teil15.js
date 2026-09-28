@@ -2285,3 +2285,69 @@ export function oliverPocherPortraitPage() {
     </div>
   `);
 }
+
+export function ulrichOttPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ulrich-ott-portrait.jpg" alt="Dr. Ulrich Ott" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Ulrich Ott</p>
+        <p class="krim-portrait-typ">SO6w5 · Social Type 6 with Five Wing</p>
+        <p class="krim-portrait-subtitle">Neuroscientist and meditation researcher, born 1965 – animal correspondence: Meerkat</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Meerkat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>meerkat</strong> is the animal of the social Six – vigilant, cooperative, constantly making sure the group stands on solid ground before anything is treated as established fact. Ulrich Ott studied psychology at Goethe University Frankfurt (diploma 1996) and earned his doctorate there in 2000 with a dissertation on 40 Hz EEG activity at rest, during mental arithmetic, and during meditation – an early, methodologically rigorous approach to a topic that lay outside established academic paths at the time.</p>
+          <p class="vb-intro">From 1998 to 2005 he worked at the Institute of Psychobiology and Behavioral Medicine at the University of Giessen; since 2005 he has held a permanent position at the Institute for Frontier Areas of Psychology and Mental Health (IGPP) in Freiburg, while also leading the "Altered States of Consciousness" working group at the Bender Institute of Neuroimaging (BION) at the University of Giessen. Over two decades at the same, clearly located institutions rather than shifting affiliations – a first signal of the social Six.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Six: Security Through Vetted Authority, Not Free Assertion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Six (SO6)</strong> seeks security not in its own unverified conviction, but in the anchoring to a reliable, vetted system – an institution, a method, a recognized authority that can be trusted because it has proven itself. Ott's entire public method follows exactly this pattern: rather than presenting spiritual or meditative experience free-floating, he consistently anchors it back to the authority of neuroscience – fMRI data, EEG measurements, peer-reviewed research at his own university institute – before making it accessible to a wider audience.</p>
+          <p class="vb-intro">His best-known book carries exactly this idea as its title: "Meditation für Skeptiker" ("Meditation for Skeptics") – "A Neuroscientist Explains the Path to the Self" (2010), which the publisher describes as the most successful meditation book grounded in scientific evidence. Further titles like "Yoga für Skeptiker" and "Spiritualität für Skeptiker" continue the same securing logic: first the vetted, institutionally grounded insight, then its transmission to the community.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Professional Substance: A Quarter-Century of fMRI Meditation Research</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ott's research focus lies in the neural effects of meditation and yoga on brain function and structure, examined using functional magnetic resonance imaging. He works on the induction of altered states of consciousness, the neural correlates of absorption, and the effects of contemplative practice on attention, emotion regulation, and self-perception – over 25 years of research on the same core question.</p>
+          <p class="vb-intro">This methodical persistence – working a single, complex research field for decades with the same rigorous imaging methods rather than jumping between changing trend topics – is itself already an expression of his core pattern: trustworthiness arises through consistent methodological continuity, not through quick, unverified claims.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Five Wing: Retreat Into the Lab Rather Than the Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five wing (w5)</strong> shows in Ott as a pronounced preference for measurement and theory over pure experiential report. Rather than letting subjective spiritual experience stand for itself, he consistently translates it into verifiable data – EEG curves, brain activation patterns, statistical effects. The book title "für Skeptiker" itself explicitly addresses the detached, examining gaze, not the emotional, immediate approach.</p>
+          <p class="vb-intro">Even his own regular meditation practice, he never embeds in a confessional spiritual narrative, but maintains the analytical double perspective: experience and simultaneous scientific observation of that experience. This introverted, knowledge-oriented distance toward his own practice is exactly what distinguishes the SO6w5 from a warmer, more community-focused SO6w7.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Six</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO6w5 is the ability to <strong>gradually legitimize a stigmatized, often dismissed field scientifically</strong> and thereby make it accessible to a wider public without risking one's own credibility – meditation research, which decades ago sat outside the academic mainstream, is today an established research field with its own institute, thanks in part to work like his.</p>
+          <p class="vb-intro">The Six's shadow lies in the danger of searching for additional securing for so long that insights reach the public late or only heavily filtered – anyone who must first thread every spiritual claim through the neuroscientific needle risks losing the immediate experience behind the method. Ott's consistent double demand – scientifically grounded and still accessible to a broad audience – is at once his greatest achievement and his most demanding balancing act.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Meerkat Who Gave Meditation Scientific Grounding</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ulrich Ott represents a rare mediating position: neither the mystic who distrusts science, nor the scientist who dismisses spirituality wholesale, but someone who consistently holds both worlds together – meditation, examined with the same methods that also apply in cancer research or neurology.</p>
+          <p class="vb-intro">From EEG doctoral candidate to the most-read German-language meditation author on a scientific footing: this is the social Six with a Five wing at its most productive – vigilance that doesn't exhaust itself in mistrust, but becomes a bridge between two worlds that otherwise barely trust each other.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so6", label:"SO6 – The Meerkat: subtype profile"},
+        {route:"beruehmte-marta-manser", label:"Portrait: Prof. Dr. Marta Manser (SO6w5)"},
+        {route:"beruehmte-immanuel-kant", label:"Portrait: Immanuel Kant (SO6w5)"},
+        {route:"beruehmte-anne-applebaum", label:"Portrait: Anne Applebaum (SO6w7)"},
+      ])}
+    </div>
+  `);
+}
