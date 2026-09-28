@@ -2272,3 +2272,70 @@ export function dmitriHvorostovskyPortraitPage() {
     </div>
   `);
 }
+
+export function michaelMinaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-mina-portrait.jpg" alt="Michael Mina" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Mina</p>
+        <p class="krim-portrait-typ">SE3w2 · Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Sternekoch und Restaurateur, geb. 1969 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – pragmatisch, anpassungsfähig, mit einem untrüglichen Gespür dafür, was tatsächlich funktioniert. Michael Mina wurde 1969 in Kairo geboren und wuchs im ländlichen Ellensburg, Washington, auf – als Kind ägyptischer Einwanderer in einer Kleinstadt, die mit Spitzenküche wenig zu tun hatte. Mit 16 Jahren führte er, als sein Arbeitgeber einen Herzinfarkt erlitt, für Wochen eigenständig ein Restaurant – eine frühe Konfrontation mit Verantwortung, lange bevor daraus ein Beruf wurde.</p>
+          <p class="vb-intro">Diese Mischung aus unauffälliger Herkunft und früh bewiesener praktischer Tüchtigkeit ist reine SE3-Handschrift: kein Senkrechtstart durch Talent-Show oder Familienname, sondern der geduldige Beweis, dass man anpacken kann, wenn es darauf ankommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Sicherheit durch ein Imperium aus Substanz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> sucht Sicherheit nicht über Bühnenpräsenz oder mediale Selbstinszenierung, sondern über nachweisbare, wiederholbare Leistung. Nach der Ausbildung am Culinary Institute of America arbeitete Mina zunächst wochenendweise unbezahlt bei Charlie Palmer im New Yorker ›Aureole‹, bevor er bei George Morrone im Hotel Bel-Air Fuß fasste. Gemeinsam entwickelten beide 1991 das Konzept für das Restaurant ›Aqua‹ in San Francisco, wo Mina von 1993 bis 2002 als Executive Chef arbeitete und zweimal von der James Beard Foundation ausgezeichnet wurde (Rising Star Chef of the Year 1997, Best California Chef 2002).</p>
+          <p class="vb-intro">Aus dieser handwerklichen Basis baute er ab 2002 die Mina Group auf – heute über 40 Restaurants, von eigenen Namensrestaurants mit je einem Michelin-Stern (San Francisco, Las Vegas) über das Steakhouse-Konzept Bourbon Steak bis zum BBQ-Format International Smoke. Kein Ein-Mann-Startum, sondern ein System aus wiederholbarer Qualität über Dutzende Standorte hinweg – genau die Art von skalierter, belastbarer Sicherheit, die die SE3 sucht, statt sich auf eine einzelne, glamouröse TV-Karriere zu verlassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die fachliche Substanz: Tableside als Markenzeichen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Mina kulinarisch auszeichnet, ist kein einzelnes Signature-Gericht, sondern ein Serviceprinzip: Sein Ahi-Tuna-Tatar – sashimitauglicher Thunfisch, tableside direkt am Tisch des Gastes mit Chili, Minze, Knoblauch, gerösteten Pinienkernen, koreanischer Birne und Habanero-Sesamöl angerichtet – steht seit der Aqua-Zeit fast dreißig Jahre nahezu unverändert auf seinen Speisekarten. Die Zubereitung vor den Augen des Gastes, statt unsichtbar in der Küche, macht aus einem einzelnen Gericht ein wiederholbares, choreografiertes Serviceerlebnis, das sich über sämtliche Restaurants der Gruppe hinweg reproduzieren lässt.</p>
+          <p class="vb-intro">Genau darin liegt seine eigentliche fachliche Leistung: nicht die Erfindung immer neuer, einzigartiger Kreationen, sondern die Fähigkeit, ein Serviceritual so präzise zu standardisieren, dass es an vierzig verschiedenen Orten mit gleichbleibender Qualität funktioniert – Handwerk, das sich skalieren lässt, ohne an Substanz zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Zweierflügel: Gastfreundschaft als Prinzip, nicht als Pose</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> zeigt sich bei Mina weniger in Gefühlsbetontheit als in einer durchgehenden Fürsorge-Haltung gegenüber Gästen und Mitarbeitern. Seine öffentlich formulierte Küchenphilosophie kreist immer wieder um ›thoughtful service‹, ›care and attention‹ und ›balance and harmony‹ – das Wohlergehen des Gegenübers steht im Mittelpunkt, nicht die individualistisch-künstlerische Selbstverwirklichung, wie sie ein Vierer-geflügelter Koch eher in den Vordergrund stellen würde.</p>
+          <p class="vb-intro">Diese Fürsorge-Orientierung zeigt sich auch strukturell: Statt sein Imperium als Ein-Mann-Show zu führen, hat Mina über Jahrzehnte zahlreiche Küchenchefs innerhalb der Mina Group ausgebildet und in Führungsrollen gebracht – Skalierung über Menschen und Mentorschaft, nicht über eine unverwechselbare Einzelvision. Das tableside zubereitete Gericht selbst ist im Kern ein Beziehungsmoment mit dem Gast, kein introspektiv-künstlerisches Statement.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 ist die Fähigkeit, <strong>harte, unglamouröse Arbeit über Jahrzehnte in verlässliche, warmherzig vermittelte Qualität</strong> zu verwandeln. Mina selbst beschreibt sein Verhältnis zur Arbeit unumwunden: ›I work hard, and I play hard with my family‹ – Leistung als Fundament, Familie als Rückzugsraum, nicht als weitere Bühne.</p>
+          <p class="vb-intro">Der Schatten der selbsterhaltenden Drei liegt in der Gefahr, den eigenen Wert ausschließlich über nachweisbare Leistung zu definieren – über vierzig Restaurants zu führen bedeutet auch, dass Stillstand oder ein einzelner Misserfolg schnell als persönliches Versagen erlebt werden kann. Die Kehrseite eines Lebens, das sich fast vollständig über Arbeit und Ergebnisse organisiert, ist die Frage, wer man ist, wenn gerade nichts zu leisten ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der ein Ritual zum System machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Michael Mina steht für eine bestimmte Art kulinarischen Erfolgs: kein Ein-Gericht-Wunder und keine Fernsehpersönlichkeit, sondern ein handwerklich fundiertes System, das sich über vierzig Standorte hinweg verlässlich reproduzieren lässt – getragen von einem einzigen, fast dreißig Jahre alten Tischritual, das er nie ersetzt, nur perfektioniert hat.</p>
+          <p class="vb-intro">Vom Kleinstadtjungen mit ägyptischen Wurzeln, der mit sechzehn ein Restaurant am Laufen hielt, zum Kopf eines internationalen Restaurant-Imperiums: Das ist die selbsterhaltende Drei mit Zweierflügel in ihrer produktivsten Form – Sicherheit durch bewiesene, wiederholbare Substanz, getragen von echter Fürsorge für die, die am Tisch sitzen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-horst-tappert", label:"Porträt: Horst Tappert (SE3w2)"},
+        {route:"beruehmte-bastian-pastewka", label:"Porträt: Bastian Pastewka (SE3w2)"},
+        {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+        {route:"beruehmte-enrico-caruso", label:"Porträt: Enrico Caruso (SE3w2)"},
+      ])}
+    </div>
+  `);
+}

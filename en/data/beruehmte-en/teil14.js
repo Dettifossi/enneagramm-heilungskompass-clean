@@ -2271,3 +2271,70 @@ export function leaMichelePortraitPage() {
     </div>
   `);
 }
+
+export function michaelMinaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-mina-portrait.jpg" alt="Michael Mina" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michael Mina</p>
+        <p class="krim-portrait-typ">SP3w2 · Self-Preservation Type 3 with Two Wing</p>
+        <p class="krim-portrait-subtitle">Celebrity chef and restaurateur, born 1969 – animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three – pragmatic, adaptable, with an unerring instinct for what actually works. Michael Mina was born in 1969 in Cairo and grew up in rural Ellensburg, Washington – the child of Egyptian immigrants in a small town that had little to do with fine dining. At sixteen, when his employer suffered a heart attack, he single-handedly ran the restaurant for weeks – an early confrontation with responsibility, long before it became a career.</p>
+          <p class="vb-intro">This mix of unremarkable origins and early proven practical competence is pure SE3 handwriting: no overnight breakout through a talent show or a famous name, but the patient proof that one can step up when it counts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Security Through an Empire of Substance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> seeks security not through stage presence or media self-promotion, but through demonstrable, repeatable performance. After training at the Culinary Institute of America, Mina first worked unpaid weekend shifts under Charlie Palmer at New York's Aureole, before gaining a foothold with George Morrone at the Hotel Bel-Air. Together they developed the concept for the restaurant Aqua in San Francisco in 1991, where Mina served as executive chef from 1993 to 2002 and won two James Beard Foundation awards (Rising Star Chef of the Year 1997, Best California Chef 2002).</p>
+          <p class="vb-intro">From this craft-based foundation, he built the Mina Group starting in 2002 – today more than 40 restaurants, from his own namesake restaurants each holding a Michelin star (San Francisco, Las Vegas) to the steakhouse concept Bourbon Steak and the barbecue format International Smoke. Not a one-man show, but a system of repeatable quality across dozens of locations – exactly the kind of scaled, resilient security the SE3 seeks, rather than relying on a single, glamorous TV career.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Professional Substance: Tableside as Signature</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes Mina culinarily isn't a single signature dish, but a service principle: his ahi tuna tartare – sashimi-grade tuna, mixed tableside right in front of the guest with chili, mint, garlic, toasted pine nuts, Korean pear, and habanero sesame oil – has remained on his menus almost unchanged for nearly thirty years, since the Aqua days. Preparing the dish in front of the guest, rather than invisibly in the kitchen, turns a single dish into a repeatable, choreographed service experience that can be reproduced consistently across every restaurant in the group.</p>
+          <p class="vb-intro">This is exactly where his real professional achievement lies: not inventing ever-new, singular creations, but standardizing a service ritual precisely enough that it works, with consistent quality, at forty different locations – craft that scales without losing substance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Two Wing: Hospitality as Principle, Not Pose</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> shows up in Mina less as emotional expressiveness than as a consistent caring stance toward guests and staff. His publicly stated culinary philosophy repeatedly circles around "thoughtful service," "care and attention," and "balance and harmony" – the guest's well-being takes center stage, not individualistic artistic self-expression, as a Four-winged chef would more likely emphasize.</p>
+          <p class="vb-intro">This caring orientation also shows structurally: instead of running his empire as a one-man show, Mina has trained and promoted numerous chefs within the Mina Group over the decades – scaling through people and mentorship, not through an unmistakable singular vision. The tableside-prepared dish itself is, at its core, a relational moment with the guest, not an introspective artistic statement.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE3w2 is the ability to <strong>turn hard, unglamorous work over decades into reliable, warmly delivered quality</strong>. Mina himself describes his relationship to work plainly: "I work hard, and I play hard with my family" – performance as foundation, family as retreat, not another stage.</p>
+          <p class="vb-intro">The shadow of the self-preservation Three lies in the danger of defining one's own worth exclusively through demonstrable performance – running more than forty restaurants also means that a plateau or a single failure can quickly feel like personal failure. The flip side of a life organized almost entirely around work and results is the question of who one is when there's nothing to accomplish right now.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Raccoon Who Turned a Ritual Into a System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Michael Mina represents a particular kind of culinary success: not a one-dish wonder or a television personality, but a craft-based system that reliably reproduces itself across forty locations – carried by a single, nearly thirty-year-old tableside ritual that he never replaced, only perfected.</p>
+          <p class="vb-intro">From a small-town boy with Egyptian roots who kept a restaurant running at sixteen, to the head of an international restaurant empire: this is the self-preservation Three with a Two wing at its most productive – security through proven, repeatable substance, carried by genuine care for the people sitting at the table.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: subtype profile"},
+        {route:"beruehmte-horst-tappert", label:"Portrait: Horst Tappert (SP3w2)"},
+        {route:"beruehmte-bastian-pastewka", label:"Portrait: Bastian Pastewka (SP3w2)"},
+        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
+        {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},
+      ])}
+    </div>
+  `);
+}

@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2415", date: "2026-09-28", text: "Neues Porträt: Michael Mina (SE3w2) – US-amerikanischer Sternekoch und Restaurateur.", text_en: "New portrait: Michael Mina (SP3w2) – American celebrity chef and restaurateur.", route: "beruehmte-michael-mina" },
     { version: "v2414", date: "2026-09-27", text: "Neuer Wissensartikel: Linien-Dynamik in Beziehungen – wie Stress- und Entspannungspunkte Partnerschaften prägen.", text_en: "New knowledge article: Connecting-Line Dynamics in Relationships – how stress and security points shape partnerships.", route: "linien-dynamik-beziehungen" },
     { version: "v2413", date: "2026-09-27", text: "Neues Porträt: Serena Williams (SX7w8) – US-amerikanische Tennisspielerin.", text_en: "New portrait: Serena Williams (SX7w8) – American tennis player.", route: "beruehmte-serena-williams" },
     { version: "v2412", date: "2026-09-27", text: "Neues Porträt: Oliver Kahn (SX6w7) – deutscher Fußballtorwart.", text_en: "New portrait: Oliver Kahn (SX6w7) – German football goalkeeper.", route: "beruehmte-oliver-kahn" },
