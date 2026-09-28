@@ -440,6 +440,7 @@ export function dieterBohlenPortraitPage() {
         {route:"bibel-judas-iskariot", label:"Bibel-Portr\u00e4t: Judas Iskariot (SX3w4)"},
         {route:"beruehmte-frank-schaetzing", label:"Portr\u00e4t: Frank Sch\u00e4tzing (SX3w4) \u2013 ebenfalls SX3w4"},
         {route:"beruehmte-matthew-mcconaughey", label:"Portr\u00e4t: Matthew McConaughey (SX3w4)"},
+        {route:"beruehmte-gordon-ramsay", label:"Portr\u00e4t: Gordon Ramsay (SX3w4)"},
       ])}
     </div>
   `);

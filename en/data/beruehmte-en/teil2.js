@@ -91,7 +91,7 @@ export function gordonRamsayPortraitPage() {
         <h2 class="vb-section">2. The Sexual Three: Performance as an Intense, Public Spectacle</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>sexual Three (SX3)</strong> seeks validation not through quiet, repeatable reliability like the SE3, but through intense, often dramatically heightened attention and direct comparison – being the best, felt unmistakably, in the immediate encounter. After training under Marco Pierre White and Albert Roux in London, then under Guy Savoy and Joël Robuchon in France, Ramsay took over the kitchen at London's Aubergine restaurant in 1993, earning it two Michelin stars within a few years. In 1998 he opened his own restaurant, which received its third star within three years.</p>
-          <p class="vb-intro">From this professional foundation, he became the face of formats like "Hell's Kitchen" and "Kitchen Nightmares" – shows whose core isn't detached evaluation, but direct, loud, personal confrontation with individual chefs and owners on camera. That is pure SX3 handwriting: performance isn't delivered quietly, but played out in the immediate, often heated encounter.</p>
+          <p class="vb-intro">From this professional foundation, he became the face of formats like "Hell's Kitchen" and "Kitchen Nightmares" – shows whose core isn't detached evaluation, but direct, loud, personal confrontation with individual chefs and owners on camera. That is pure SX3 handwriting: performance isn't delivered quietly, but played out in the immediate, often heated encounter. A striking parallel appears in <a href="javascript:void(0)" data-route="beruehmte-dieter-bohlen">Dieter Bohlen (SX3w4)</a>: he built his own public role as an unsparing judge on the German talent show DSDS on exactly the same principle – evaluation not as detached verdict, but as loud, direct confrontation on camera.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Professional Substance: Classical Technique as the Foundation of the Show</h2>
@@ -128,6 +128,7 @@ export function gordonRamsayPortraitPage() {
         {route:"beruehmte-lana-del-rey", label:"Portrait: Lana Del Rey (SX3w4)"},
         {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4)"},
         {route:"beruehmte-madonna", label:"Portrait: Madonna (SX3w4)"},
+        {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
         {route:"beruehmte-michael-mina", label:"Portrait: Michael Mina (SP3w2)"},
       ])}
     </div>

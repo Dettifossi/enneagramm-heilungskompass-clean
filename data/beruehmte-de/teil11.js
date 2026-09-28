@@ -2298,7 +2298,7 @@ export function gordonRamsayPortraitPage() {
         <h2 class="vb-section">2. Die sexuelle Drei: Leistung als intensives, öffentliches Spektakel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> sucht Bestätigung nicht über stille, wiederholbare Verlässlichkeit wie die SE3, sondern über intensive, oft dramatisch zugespitzte Zuwendung und direkten Vergleich – der Beste zu sein, spürbar und unübersehbar, im unmittelbaren Gegenüber. Nach der Kochausbildung bei Marco Pierre White und Albert Roux in London sowie bei Guy Savoy und Joël Robuchon in Frankreich übernahm Ramsay 1993 die Küche des Londoner Restaurants Aubergine, das er innerhalb weniger Jahre auf zwei Michelin-Sterne brachte. 1998 eröffnete er sein eigenes Restaurant, das binnen drei Jahren den dritten Stern erhielt.</p>
-          <p class="vb-intro">Aus dieser fachlichen Basis heraus wurde er zum Gesicht von Formaten wie ›Hell's Kitchen‹ und ›Kitchen Nightmares‹ – Sendungen, die ihren Kern nicht aus distanzierter Bewertung ziehen, sondern aus direkter, lauter, persönlicher Konfrontation mit einzelnen Köchen und Betreibern vor laufender Kamera. Genau das ist reine SX3-Handschrift: Leistung wird nicht leise abgeliefert, sondern im unmittelbaren, oft hitzigen Gegenüber ausgetragen.</p>
+          <p class="vb-intro">Aus dieser fachlichen Basis heraus wurde er zum Gesicht von Formaten wie ›Hell's Kitchen‹ und ›Kitchen Nightmares‹ – Sendungen, die ihren Kern nicht aus distanzierter Bewertung ziehen, sondern aus direkter, lauter, persönlicher Konfrontation mit einzelnen Köchen und Betreibern vor laufender Kamera. Genau das ist reine SX3-Handschrift: Leistung wird nicht leise abgeliefert, sondern im unmittelbaren, oft hitzigen Gegenüber ausgetragen. Eine auffällige Parallele findet sich bei <a href="javascript:void(0)" data-route="beruehmte-dieter-bohlen">Dieter Bohlen (SX3w4)</a>: Auch er baute seine öffentliche Rolle als schonungsloser Jury-Kommentator bei DSDS auf exakt demselben Prinzip auf – Bewertung nicht als distanziertes Urteil, sondern als lautes, direktes Gegenüber vor laufender Kamera.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Die fachliche Substanz: Klassische Technik als Fundament der Show</h2>
@@ -2335,6 +2335,7 @@ export function gordonRamsayPortraitPage() {
         {route:"beruehmte-lana-del-rey", label:"Porträt: Lana Del Rey (SX3w4)"},
         {route:"beruehmte-marilyn-monroe", label:"Porträt: Marilyn Monroe (SX3w4)"},
         {route:"beruehmte-madonna", label:"Porträt: Madonna (SX3w4)"},
+        {route:"beruehmte-dieter-bohlen", label:"Porträt: Dieter Bohlen (SX3w4)"},
         {route:"beruehmte-michael-mina", label:"Porträt: Michael Mina (SE3w2)"},
       ])}
     </div>
