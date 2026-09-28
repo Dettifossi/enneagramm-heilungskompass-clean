@@ -2321,7 +2321,7 @@ export function johannLaferPortraitPage() {
         <h2 class="vb-section">3. Die fachliche Substanz: Klassisch-französische Präzision statt Alltagsküche</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Anders als volkstümlich-lockere TV-Köche steht Lafer fachlich für die klassische Sternehaus-Linie: technisch präzise, an der Patisserie-Schule Witzigmanns geschulte Haute Cuisine, mit hohem Anspruch an Etikette und französische Technik statt bewusst einfacher Alltagsküche. Diese Linie hielt er über Jahrzehnte konsequent durch, mit 18 Gault-Millau-Punkten und der Auszeichnung ›Koch des Jahres‹.</p>
-          <p class="vb-intro">Nach der Schließung des ›Val d'Or‹ 2019 baute er auf der Stromburg mit ›Johanns‹ ein neues Konzept auf, dem er über 25 Jahre treu blieb, bevor er sich 2025/26 von diesem Ort verabschiedete – wieder derselbe Rhythmus: langes, geduldiges Festhalten an einem Projekt statt schnellem Wechsel.</p>
+          <p class="vb-intro">Bereits um die Jahrtausendwende baute er auf der Stromburg mit ›Johanns‹ ein zweites Standbein auf – zunächst parallel zum ›Val d'Or‹, dann, nach dessen Schließung 2019, als sein alleiniger Küchenmittelpunkt. Über 25 Jahre blieb er der Stromburg treu, bevor er sich 2025/26 von diesem Ort verabschiedete – wieder derselbe Rhythmus: langes, geduldiges Festhalten an einem Projekt statt schnellem Wechsel.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Der Achterflügel: Bestimmtheit statt ängstlicher Vorsicht</h2>

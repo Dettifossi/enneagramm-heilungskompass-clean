@@ -2293,7 +2293,7 @@ export function johannLaferPortraitPage() {
         <h2 class="vb-section">3. The Professional Substance: Classical French Precision, Not Everyday Cooking</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Unlike folksy, casual TV chefs, Lafer professionally represents the classical fine-dining line: technically precise haute cuisine trained in Witzigmann's patisserie school, with high standards for etiquette and French technique rather than deliberately simple everyday cooking. He maintained this line consistently for decades, earning 18 Gault-Millau points and the title "Chef of the Year."</p>
-          <p class="vb-intro">After "Val d'Or" closed in 2019, he built a new concept at the Stromburg estate with "Johanns," staying loyal to it for over 25 years before taking his leave of that location in 2025/26 – again the same rhythm: long, patient loyalty to one project rather than rapid change.</p>
+          <p class="vb-intro">As early as around the turn of the millennium, he built a second base at the Stromburg estate with "Johanns" – first running it alongside "Val d'Or," then, after that restaurant closed in 2019, as his sole kitchen. He remained loyal to the Stromburg for over 25 years before taking his leave of it in 2025/26 – again the same rhythm: long, patient loyalty to one project rather than rapid change.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Eight Wing: Assertiveness, Not Anxious Caution</h2>
