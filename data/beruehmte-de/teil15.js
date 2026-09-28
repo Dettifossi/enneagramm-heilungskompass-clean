@@ -2290,3 +2290,70 @@ export function barbaraBleischPortraitPage() {
     </div>
   `);
 }
+
+export function steffenHensslerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-steffen-henssler-portrait.jpg" alt="Steffen Henssler" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Steffen Henssler</p>
+        <p class="krim-portrait-typ">SO7w6 · Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">TV-Koch, geb. 1972 – Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben – pragmatisch, ideenreich, mit dem Bedürfnis, die eigene Begeisterung nicht für sich zu behalten, sondern in die Welt zu tragen, damit möglichst viele davon profitieren. Steffen Henssler wurde 1972 in Neuenbürg im Schwarzwald geboren, wuchs in Pinneberg auf und zog nach dem frühen Tod seiner Mutter, als er neun Jahre alt war, zu seinem Vater, einem Gastronomen, nach Hamburg. Nach der Kochausbildung bei einem Sternekoch finanzierte er sich 1999 mit einem Lottogewinn den Besuch der California Sushi Academy in Los Angeles – und schloss als erster Deutscher mit Bestnote als ›Professional Sushi Chef‹ ab.</p>
+          <p class="vb-intro">2001 eröffnete er gemeinsam mit seinem Vater das Restaurant ›Henssler Henssler‹ in Hamburg – ein Familienprojekt, das über zwei Jahrzehnte Bestand hatte, bevor er 2025 aus dem Betrieb ausstieg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Begeisterung, live an eine Gruppe vermittelt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> sucht Zugehörigkeit nicht durch privaten Genuss im engsten Kreis wie die SE7, sondern dadurch, andere aktiv an der eigenen Begeisterung teilhaben zu lassen – als Vermittler, Gastgeber, Ideengeber für eine ganze Gruppe. Hensslers TV-Karriere ist dafür ein Lehrbuchbeispiel: Mit ›Grill den Henssler‹ (seit 2013) moderiert er ein wöchentliches Wettkampfformat mit prominenten Gästen vor Publikum – Kochkunst wird nicht still zelebriert, sondern live, laut und unterhaltsam an möglichst viele Zuschauer weitergegeben.</p>
+          <p class="vb-intro">Auch ›Schlag den Henssler‹ und seine Duelle mit <a href="javascript:void(0)" data-route="beruehmte-tim-maelzer">Tim Mälzer (SE3w2)</a> bei ›Kitchen Impossible‹ folgen demselben Muster: öffentlich ausgetragene, publikumswirksame Wettkämpfe statt zurückgezogener Spitzenküche. 2018 stellte er vor 6.512 Zuschauern einen Guinness-Weltrekord für die größte Live-Kochshow auf – Begeisterung, die explizit als Massenereignis inszeniert wird, nicht als intimes Erlebnis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die fachliche Substanz: Formale Sushi-Ausbildung statt reiner Show-Geschwindigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Henssler von reinen Entertainment-Köchen unterscheidet, ist die belegte fachliche Basis: Statt sich das Sushi-Handwerk autodidaktisch anzueignen, absolvierte er eine formale Ausbildung an der California Sushi Academy – Messerführung, Rohfisch-Verarbeitung, klassische japanische Technik, kombiniert mit einer europäisch-hamburgischen Basis zu einem eigenen Fusion-Stil.</p>
+          <p class="vb-intro">Seine Guinness-Rekorde – etwa die meisten gehackten Chilis in 30 Sekunden – sind dabei selbst Ausdruck seines Grundmusters: Tempo und Wettbewerb werden nicht als Nebensache behandelt, sondern bewusst zum öffentlichen Ereignis gemacht, mit echtem handwerklichem Können als Grundlage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Sechserflügel: Loyalität zum festen Partner statt beliebiger Rivalität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> zeigt sich bei Henssler in einer auffälligen Treue zu einem festen, wiederkehrenden Gegenüber statt ständig wechselnder Kontrahenten. Seine ›Kitchen Impossible‹-Duelle mit Tim Mälzer sind über Jahre eine feste, öffentlich verfolgte Partnerschaft – ergänzt durch das gemeinsame unternehmerische Projekt ›Mälzer und Henssler liefern ab!‹. Diese Konstanz eines vertrauten Sparringspartners passt eher zur sicherheitsorientierten 7w6 als zur selbstbewusst-expansiven 7w8, die eher wechselnde, beliebige Konkurrenz sucht.</p>
+          <p class="vb-intro">Auch sein geschäftliches Verhalten der letzten Jahre – der Verkauf der Fast-Casual-Kette ›Ahoi‹ Ende 2024, der Ausstieg aus ›Henssler Henssler‹ 2025, die Insolvenz einzelner ›GO‹-Filialen – liest sich weniger als reiner Rückzug denn als vorsichtiges Absichern und Verkleinern eines zu groß gewordenen Portfolios: typische 7w6-Reaktion auf erkanntes Risiko, statt trotzig weiterzuexpandieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Sieben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w6 ist die Fähigkeit, <strong>Begeisterung für viele erlebbar zu machen</strong>, statt sie exklusiv zu halten – ›Grill den Henssler‹ läuft seit über einem Jahrzehnt und macht Kochkunst wöchentlich zum gemeinsamen Publikumserlebnis, nicht zur abgeschotteten Sterneküche.</p>
+          <p class="vb-intro">Der Schatten der Sieben liegt in der Gefahr, durch ständige Vervielfachung von Projekten und Formaten die Substanz zu verwässern – das zuletzt deutlich verkleinerte Restaurantportfolio zeigt, dass nicht jede Expansion trägt, wenn Tempo und Reichweite wichtiger werden als sorgfältiger Aufbau. Die w6-Vorsicht, die hier rechtzeitig zum Rückzug führte, ist zugleich Schutz vor dem typischeren Siebener-Muster, sich zu verzetteln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Biber, der Kochkunst zum Publikumsereignis machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Steffen Henssler steht für eine Küche, die nie im stillen Sternerestaurant verharrte, sondern konsequent zum lauten, geteilten Gruppenerlebnis wurde – vom Sushi-Handwerk aus Los Angeles bis zum wöchentlichen TV-Wettkampf vor Millionenpublikum.</p>
+          <p class="vb-intro">Vom Jungen, der nach dem Verlust der Mutter im gastronomischen Familienbetrieb seines Vaters aufwuchs, zum bundesweit bekannten Gesicht kulinarischer Unterhaltungsformate: Das ist die soziale Sieben mit Sechserflügel in ihrer öffentlichsten Form – Begeisterung, geteilt mit möglichst vielen, getragen von der Loyalität zu einem festen, vertrauten Sparringspartner.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"beruehmte-tim-maelzer", label:"Porträt: Tim Mälzer (SE3w2) – Kitchen-Impossible-Partner"},
+        {route:"beruehmte-guenther-krabbenhoeft", label:"Porträt: Günther Krabbenhöft (SO7w6)"},
+        {route:"beruehmte-johann-lafer", label:"Porträt: Johann Lafer (SE7w8)"},
+        {route:"beruehmte-gordon-ramsay", label:"Porträt: Gordon Ramsay (SX3w4)"},
+      ])}
+    </div>
+  `);
+}

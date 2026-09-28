@@ -2269,3 +2269,70 @@ export function corneliaFunkePortraitPage() {
     </div>
   `);
 }
+
+export function steffenHensslerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-steffen-henssler-portrait.jpg" alt="Steffen Henssler" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Steffen Henssler</p>
+        <p class="krim-portrait-typ">SO7w6 · Social Type 7 with Six Wing</p>
+        <p class="krim-portrait-subtitle">German celebrity chef, born 1972 – animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> is the animal of the social Seven – pragmatic, full of ideas, with the need not to keep its own enthusiasm to itself but to carry it out into the world so as many others as possible can benefit. Steffen Henssler was born in 1972 in Neuenbürg in the Black Forest, grew up in Pinneberg, and after his mother's early death, when he was nine, moved to Hamburg to live with his father, a restaurateur. After training as a chef under a Michelin-starred cook, he funded a trip to the California Sushi Academy in Los Angeles in 1999 with a lottery win – graduating as the first German with top marks as a "Professional Sushi Chef."</p>
+          <p class="vb-intro">In 2001 he opened the restaurant "Henssler Henssler" in Hamburg together with his father – a family project that lasted over two decades before he exited the business in 2025.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Enthusiasm, Delivered Live to a Group</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Seven (SO7)</strong> seeks belonging not through private enjoyment within the closest circle like the SE7, but by actively letting others share in its own enthusiasm – as mediator, host, idea-generator for an entire group. Henssler's TV career is a textbook example: with "Grill den Henssler" (since 2013) he hosts a weekly competition format with celebrity guests in front of a live audience – culinary skill isn't quietly celebrated, but passed on loudly and entertainingly to as many viewers as possible.</p>
+          <p class="vb-intro">"Schlag den Henssler" and his duels with <a href="javascript:void(0)" data-route="beruehmte-tim-maelzer">Tim Mälzer (SP3w2)</a> on "Kitchen Impossible" follow the same pattern: publicly staged, audience-facing competitions rather than secluded fine dining. In 2018 he set a Guinness World Record for the largest live cooking show in front of 6,512 spectators – enthusiasm explicitly staged as a mass event, not an intimate experience.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Professional Substance: Formal Sushi Training, Not Just Show Speed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Henssler apart from pure entertainment chefs is his documented professional foundation: rather than teaching himself sushi craft, he completed formal training at the California Sushi Academy – knife work, raw fish handling, classical Japanese technique, combined with a European-Hamburg base into his own fusion style.</p>
+          <p class="vb-intro">His Guinness records – such as most chilies chopped in 30 seconds – are themselves an expression of his core pattern: speed and competition aren't treated as a side note, but deliberately turned into a public event, with genuine craft skill as its foundation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Six Wing: Loyalty to a Fixed Partner Rather Than Random Rivalry</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six wing (w6)</strong> shows in Henssler as a striking loyalty to one fixed, recurring counterpart rather than constantly changing opponents. His "Kitchen Impossible" duels with Tim Mälzer form a stable, publicly followed partnership over years – complemented by the joint business venture "Mälzer und Henssler liefern ab!" This constancy of a trusted sparring partner fits the security-oriented 7w6 better than the more self-assured, expansive 7w8, which tends to seek changing, arbitrary competition instead.</p>
+          <p class="vb-intro">His business behavior in recent years – selling the fast-casual chain "Ahoi" at the end of 2024, exiting "Henssler Henssler" in 2025, the insolvency of individual "GO" locations – reads less as a pure retreat than as a cautious securing and downsizing of a portfolio that had grown too large: a typical 7w6 response to recognized risk, rather than defiantly continuing to expand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Seven</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w6 is the ability to <strong>make enthusiasm experienceable for many</strong>, rather than keeping it exclusive – "Grill den Henssler" has run for over a decade, turning culinary skill into a weekly shared audience experience rather than sealed-off fine dining.</p>
+          <p class="vb-intro">The Seven's shadow lies in the danger of diluting substance through constant multiplication of projects and formats – the recently significantly shrunk restaurant portfolio shows that not every expansion holds up once speed and reach matter more than careful building. The w6 caution that led to a timely retreat here is at the same time protection against the more typical Seven pattern of spreading too thin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Beaver Who Turned Cooking Into a Shared Event</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Steffen Henssler represents a kitchen that never stayed confined to a quiet fine-dining restaurant, but consistently became a loud, shared group experience – from sushi craft learned in Los Angeles to a weekly TV competition in front of millions.</p>
+          <p class="vb-intro">From a boy who grew up in his father's family restaurant business after losing his mother, to the nationally known face of culinary entertainment formats: this is the social Seven with a Six wing at its most public – enthusiasm, shared with as many as possible, carried by loyalty to one fixed, trusted sparring partner.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: subtype profile"},
+        {route:"beruehmte-tim-maelzer", label:"Portrait: Tim Mälzer (SP3w2) – Kitchen Impossible partner"},
+        {route:"beruehmte-guenther-krabbenhoeft", label:"Portrait: Günther Krabbenhöft (SO7w6)"},
+        {route:"beruehmte-johann-lafer", label:"Portrait: Johann Lafer (SP7w8)"},
+        {route:"beruehmte-gordon-ramsay", label:"Portrait: Gordon Ramsay (SX3w4)"},
+      ])}
+    </div>
+  `);
+}
