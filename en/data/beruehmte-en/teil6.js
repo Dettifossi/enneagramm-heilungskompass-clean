@@ -1188,6 +1188,7 @@ export function moritzBleibtreuPortraitPage() {
         {route:"kriminalpsychologie-andreas-baader", label:"Criminal Psychology: Andreas Baader (SP7w8) – portrayed by Bleibtreu"},
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SP7w8)"},
         {route:"beruehmte-oliver-hardy", label:"Portrait: Oliver Hardy (SP7w8)"},
+        {route:"beruehmte-johann-lafer", label:"Portrait: Johann Lafer (SP7w8)"},
         {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
       ])}
     </div>

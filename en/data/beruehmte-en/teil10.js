@@ -2262,3 +2262,71 @@ export function davidHockneyPortraitPage() {
     </div>
   `);
 }
+
+export function johannLaferPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-johann-lafer-portrait.jpg" alt="Johann Lafer" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johann Lafer</p>
+        <p class="krim-portrait-typ">SP7w8 · Self-Preservation Type 7 with Eight Wing</p>
+        <p class="krim-portrait-subtitle">Austrian-German celebrity chef, born 1957 – animal correspondence: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>gorilla</strong> is the animal of the self-preservation Seven – powerful, assertive, with a deep need to secure its own territory and its own family with resolve. Johann Lafer was born in 1957 on a farm in Styria, Austria, into modest circumstances. After training as a chef in Graz, his path led through Berlin and Hamburg to Eckart Witzigmann's Munich fine-dining restaurant "Aubergine" – a formative mentorship that later produced shared book projects.</p>
+          <p class="vb-intro">In 1983 he took over the kitchen at "Le Val d'Or" in Guldental on the Nahe river and earned two Michelin stars there by 1987, which he held for decades. Not a restless jump between projects, but the patient building of a fixed place of his own – typical of the self-preservation expression of the Seven.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Seven: Enjoyment as a Foundation of Existence, Not an Add-On</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the self-preservation Seven the "Family" type – because this subtype doesn't seek security and joy in the wider world, but in the closest, most trusted circle. Food, conversation, and sensory pleasure aren't luxuries for the SE7, they're existential needs. In almost no other profession does that apply as directly as in cooking: Lafer's entire working life circles around exactly what his type's core passion is about – enjoyment, variety, sensory pleasure at the table.</p>
+          <p class="vb-intro">Married to Silvia Buchholz-Lafer since 1990, with two children, he remained loyal to a fixed life model for decades rather than jumping between changing relationships or locations – the same constancy that shows in his decades-long loyalty to a single fine-dining restaurant. For the SE7, security doesn't come from renouncing pleasure, but from its reliable, recurring availability within the closest circle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Professional Substance: Classical French Precision, Not Everyday Cooking</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unlike folksy, casual TV chefs, Lafer professionally represents the classical fine-dining line: technically precise haute cuisine trained in Witzigmann's patisserie school, with high standards for etiquette and French technique rather than deliberately simple everyday cooking. He maintained this line consistently for decades, earning 18 Gault-Millau points and the title "Chef of the Year."</p>
+          <p class="vb-intro">After "Val d'Or" closed in 2019, he built a new concept at the Stromburg estate with "Johanns," staying loyal to it for over 25 years before taking his leave of that location in 2025/26 – again the same rhythm: long, patient loyalty to one project rather than rapid change.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Eight Wing: Assertiveness, Not Anxious Caution</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight wing (w8)</strong> shows in Lafer as controlled, assertive public conduct rather than the warmer, more anxious quality of a 7w6. His longtime co-host <a href="javascript:void(0)" data-route="beruehmte-horst-lichter">Horst Lichter (SX7w6)</a> explicitly described him as "very image-conscious" and the two of them as "as different as day and night" – Lafer the refined, controlled fine-dining side, Lichter the improvised down-to-earthness. That exact contrast carried their joint format "Lafer! Lichter! Lecker!" for eleven years (2006–2017).</p>
+          <p class="vb-intro">This assertiveness isn't hardness for its own sake, but the Eight-typical securing of one's own space for enjoyment: whoever defends their territory – kitchen, reputation, family – with resolve can enjoy what's inside it all the more undisturbed. That distinguishes him from a 7w6, who seeks security more through charm and adaptation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Seven</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE7w8 is the ability to <strong>turn enjoyment into a reliable, load-bearing foundation for life</strong>, rather than merely consuming it fleetingly – for over four decades, Lafer remained loyal to his profession, his family, and each of his respective kitchen locations.</p>
+          <p class="vb-intro">In 2024 he was diagnosed with lymphatic cancer, and he has lived with chemotherapy since. His public response – that the illness made him "slower, more awake, more humble," that he no longer takes "anything for granted" – shows a more mature side of the same pattern: the Seven's otherwise outward-directed search for pleasure is forced inward by the illness, and abundance that had become self-evident is once again consciously recognized as precious, rather than taken for granted.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Gorilla Who Made Enjoyment a Profession</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Johann Lafer represents a career that turned his own type's core passion directly into a profession: enjoyment not as a side effect, but as the content of life itself, anchored in the same classical French discipline that kept him in one place for decades.</p>
+          <p class="vb-intro">From a farm child in Styria to a two-star chef and TV face of an entire generation: this is the self-preservation Seven with an Eight wing at its most assertive – enjoyment, defended with resolve, carried by decades of loyalty to a fixed circle of family, kitchen, and reputation.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se7", label:"SE7 – The Gorilla: subtype profile"},
+        {route:"beruehmte-moritz-bleibtreu", label:"Portrait: Moritz Bleibtreu (SP7w8)"},
+        {route:"beruehmte-horst-lichter", label:"Portrait: Horst Lichter (SX7w6) – TV partner on \"Lafer! Lichter! Lecker!\""},
+        {route:"beruehmte-tim-maelzer", label:"Portrait: Tim Mälzer (SP3w2)"},
+        {route:"beruehmte-paul-bocuse", label:"Portrait: Paul Bocuse (SP3w4)"},
+        {route:"beruehmte-gordon-ramsay", label:"Portrait: Gordon Ramsay (SX3w4)"},
+      ])}
+    </div>
+  `);
+}

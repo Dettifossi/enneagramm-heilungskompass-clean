@@ -2148,6 +2148,7 @@ export function horstLichterPortraitPage() {
         {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
         {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
         {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
+        {route:"beruehmte-johann-lafer", label:"Porträt: Johann Lafer (SE7w8) – TV-Partner bei ›Lafer! Lichter! Lecker!‹"},
       ])}
     </div>
   `);
@@ -2285,6 +2286,74 @@ export function archimedesPortraitPage() {
         {route:"beruehmte-blaise-pascal", label:"Porträt: Blaise Pascal (SX5w6)"},
         {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6)"},
         {route:"beruehmte-carl-friedrich-gauss", label:"Porträt: Carl Friedrich Gauß (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+export function johannLaferPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-johann-lafer-portrait.jpg" alt="Johann Lafer" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johann Lafer</p>
+        <p class="krim-portrait-typ">SE7w8 · Selbsterhaltender Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Österreichisch-deutscher Sternekoch, geb. 1957 – Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier der selbsterhaltenden Sieben – kraftvoll, bestimmt, mit einem tiefen Bedürfnis, das eigene Territorium und die eigene Familie mit Nachdruck zu sichern. Johann Lafer wurde 1957 auf einem Bauernhof in der Steiermark geboren, in einfachen Verhältnissen. Nach einer Kochlehre in Graz führte ihn sein Weg über Berlin und Hamburg schließlich zu Eckart Witzigmann ins Münchner Spitzenrestaurant ›Aubergine‹ – ein prägendes Lehrverhältnis, aus dem später gemeinsame Buchprojekte entstanden.</p>
+          <p class="vb-intro">1983 übernahm er die Küchenleitung im ›Le Val d'Or‹ in Guldental an der Nahe und erkochte sich dort bis 1987 zwei Michelin-Sterne, die er über Jahrzehnte hielt. Kein rastloser Wechsel zwischen Projekten, sondern der geduldige Aufbau eines eigenen, festen Ortes – typisch für die selbsterhaltende Ausprägung der Sieben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Genuss als Existenzgrundlage, nicht als Zusatz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Typ 7 die ›Familie‹ – weil dieser Subtyp Sicherheit und Freude nicht in der großen, weiten Welt sucht, sondern im engsten, vertrauten Kreis. Essen, Gespräch, sinnliches Vergnügen sind für die SE7 keine Luxusgüter, sondern existenzielle Bedürfnisse. Bei kaum einem Beruf trifft das so direkt zu wie bei einem Koch: Lafers gesamtes Berufsleben kreist um genau das, was die Leidenschaft seines Typs ausmacht – Genuss, Vielfalt, sinnliches Vergnügen am Tisch.</p>
+          <p class="vb-intro">Seit 1990 mit Silvia Buchholz-Lafer verheiratet, mit zwei gemeinsamen Kindern, blieb er über Jahrzehnte einem festen Lebensmodell treu, statt zwischen wechselnden Beziehungen oder Wohnorten zu springen – dieselbe Konstanz, die sich auch in der jahrzehntelangen Bindung an ein einziges Sternerestaurant zeigt. Sicherheit entsteht bei der SE7 nicht durch Verzicht auf Genuss, sondern durch dessen verlässliche, wiederkehrende Verfügbarkeit im engsten Kreis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die fachliche Substanz: Klassisch-französische Präzision statt Alltagsküche</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anders als volkstümlich-lockere TV-Köche steht Lafer fachlich für die klassische Sternehaus-Linie: technisch präzise, an der Patisserie-Schule Witzigmanns geschulte Haute Cuisine, mit hohem Anspruch an Etikette und französische Technik statt bewusst einfacher Alltagsküche. Diese Linie hielt er über Jahrzehnte konsequent durch, mit 18 Gault-Millau-Punkten und der Auszeichnung ›Koch des Jahres‹.</p>
+          <p class="vb-intro">Nach der Schließung des ›Val d'Or‹ 2019 baute er auf der Stromburg mit ›Johanns‹ ein neues Konzept auf, dem er über 25 Jahre treu blieb, bevor er sich 2025/26 von diesem Ort verabschiedete – wieder derselbe Rhythmus: langes, geduldiges Festhalten an einem Projekt statt schnellem Wechsel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Achterflügel: Bestimmtheit statt ängstlicher Vorsicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> zeigt sich bei Lafer in einem kontrollierten, bestimmten öffentlichen Auftreten statt der wärmer-unsicheren Ausstrahlung einer 7w6. Sein langjähriger Ko-Moderator <a href="javascript:void(0)" data-route="beruehmte-horst-lichter">Horst Lichter (SX7w6)</a> beschrieb ihn explizit als ›sehr auf sein Image bedacht‹ und die beiden als ›unterschiedlich wie Tag und Nacht‹ – Lafer die verfeinerte, kontrollierte Sterneküche, Lichter die improvisierte Bodenständigkeit. Genau dieser Kontrast trug über elf Jahre (2006–2017) das gemeinsame Format ›Lafer! Lichter! Lecker!‹.</p>
+          <p class="vb-intro">Diese Bestimmtheit ist keine Härte um ihrer selbst willen, sondern die achtertypische Absicherung des eigenen Genussraums: Wer sein Territorium – Küche, Ruf, Familie – mit Nachdruck schützt, kann sich den Genuss darin umso ungestörter leisten. Das unterscheidet ihn von einer 7w6, die eher durch Charme und Anpassung Sicherheit sucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Sieben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE7w8 ist die Fähigkeit, <strong>Genuss zu einem verlässlichen, tragenden Lebensfundament</strong> zu machen, statt ihn nur flüchtig zu konsumieren – über vier Jahrzehnte hinweg blieb Lafer seinem Beruf, seiner Familie und seinem jeweiligen Küchenstandort treu.</p>
+          <p class="vb-intro">2024 wurde bei ihm eine Lymphdrüsenkrebserkrankung diagnostiziert, seither lebt er mit Chemotherapie. Seine öffentliche Reaktion – die Krankheit habe ihn ›langsamer, wacher, demütiger‹ gemacht, er nehme ›nichts mehr als selbstverständlich‹ – zeigt eine reifere Seite desselben Musters: Die sonst nach außen gerichtete Genusssuche der Sieben wird durch die Krankheit gezwungen, sich nach innen zu wenden, und die selbstverständlich gewordene Fülle wird noch einmal bewusst als kostbar erkannt, statt als gegeben hingenommen zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Gorilla, der Genuss zum Beruf machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Johann Lafer steht für eine Karriere, die die Grundleidenschaft seines eigenen Typs direkt zum Beruf machte: Genuss nicht als Nebeneffekt, sondern als Lebensinhalt, verankert in derselben klassisch-französischen Disziplin, mit der er über Jahrzehnte an einem Ort blieb.</p>
+          <p class="vb-intro">Vom Bauernhofkind aus der Steiermark zum zweifachen Sternekoch und TV-Gesicht einer ganzen Generation: Das ist die selbsterhaltende Sieben mit Achterflügel in ihrer bestimmtesten Form – Genuss, verteidigt mit Nachdruck, getragen von jahrzehntelanger Treue zu einem festen Kreis aus Familie, Küche und Ruf.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
+        {route:"beruehmte-moritz-bleibtreu", label:"Porträt: Moritz Bleibtreu (SE7w8)"},
+        {route:"beruehmte-horst-lichter", label:"Porträt: Horst Lichter (SX7w6) – TV-Partner bei ›Lafer! Lichter! Lecker!‹"},
+        {route:"beruehmte-tim-maelzer", label:"Porträt: Tim Mälzer (SE3w2)"},
+        {route:"beruehmte-paul-bocuse", label:"Porträt: Paul Bocuse (SE3w4)"},
+        {route:"beruehmte-gordon-ramsay", label:"Porträt: Gordon Ramsay (SX3w4)"},
       ])}
     </div>
   `);

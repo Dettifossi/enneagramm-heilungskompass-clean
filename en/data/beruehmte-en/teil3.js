@@ -2150,6 +2150,7 @@ export function horstLichterPortraitPage() {
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
         {route:"beruehmte-jerry-lewis", label:"Portrait: Jerry Lewis (SX7w6)"},
+        {route:"beruehmte-johann-lafer", label:"Portrait: Johann Lafer (SP7w8) – TV partner on \"Lafer! Lichter! Lecker!\""},
       ])}
     </div>
   `);
