@@ -127,6 +127,7 @@ export function lanaDelReyPortraitPage() {
         {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
         {route:"beruehmte-marilyn-monroe", label:"Porträt: Marilyn Monroe (SX3w4) – ihr eigenes Vorbild"},
         {route:"beruehmte-madonna", label:"Porträt: Madonna (SX3w4)"},
+        {route:"beruehmte-gordon-ramsay", label:"Porträt: Gordon Ramsay (SX3w4)"},
         {route:"beruehmte-fiona-apple", label:"Porträt: Fiona Apple (SO4w5)"},
       ])}
     </div>

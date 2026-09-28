@@ -60,7 +60,75 @@ export function lanaDelReyPortraitPage() {
         {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype profile"},
         {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4) – her own role model"},
         {route:"beruehmte-madonna", label:"Portrait: Madonna (SX3w4)"},
+        {route:"beruehmte-gordon-ramsay", label:"Portrait: Gordon Ramsay (SX3w4)"},
         {route:"beruehmte-fiona-apple", label:"Portrait: Fiona Apple (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+export function gordonRamsayPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gordon-ramsay-portrait.jpg" alt="Gordon Ramsay" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gordon Ramsay</p>
+        <p class="krim-portrait-typ">SX3w4 · Sexual Type 3 with Four Wing</p>
+        <p class="krim-portrait-subtitle">Celebrity chef, born 1966 – animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Peacock</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>peacock</strong> is the animal of the sexual Three – charismatic, intense, with an unerring instinct for how it comes across, and the need to deploy that effect deliberately and loudly. Gordon Ramsay was born in 1966 in Johnstone, Scotland, and grew up amid frequent moves and an alcoholic, at times violent father. He escaped into football, playing for Glasgow Rangers' youth setup until a severe knee injury ended that path as a teenager.</p>
+          <p class="vb-intro">This early, publicly acknowledged vulnerability – a shattered first dream, a childhood he later spoke about extensively in memoirs and documentaries rather than concealing it – is already a first signal of the emotional depth lying beneath the loud facade.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Three: Performance as an Intense, Public Spectacle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Three (SX3)</strong> seeks validation not through quiet, repeatable reliability like the SE3, but through intense, often dramatically heightened attention and direct comparison – being the best, felt unmistakably, in the immediate encounter. After training under Marco Pierre White and Albert Roux in London, then under Guy Savoy and Joël Robuchon in France, Ramsay took over the kitchen at London's Aubergine restaurant in 1993, earning it two Michelin stars within a few years. In 1998 he opened his own restaurant, which received its third star within three years.</p>
+          <p class="vb-intro">From this professional foundation, he became the face of formats like "Hell's Kitchen" and "Kitchen Nightmares" – shows whose core isn't detached evaluation, but direct, loud, personal confrontation with individual chefs and owners on camera. That is pure SX3 handwriting: performance isn't delivered quietly, but played out in the immediate, often heated encounter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Professional Substance: Classical Technique as the Foundation of the Show</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What separates Ramsay's TV confrontations from pure staging is the underlying professional rigor: classical French training in sauces, braising, and reductions, combined with a precise, ingredient-focused plate aesthetic that deliberately avoids clutter. Across his career, his restaurants have collectively earned more than twenty Michelin stars; he currently holds eight across multiple locations.</p>
+          <p class="vb-intro">The harsh tone in his kitchens stems from a strict mise-en-place culture and near-zero tolerance for error in execution – his on-screen anger is rarely pure show, but the visible tip of a genuinely very high technical standard he holds himself to first.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Four Wing: Vulnerability Behind the Loud Facade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four wing (w4)</strong> shows in Ramsay as a willingness toward emotional introspection that's surprising given his public image. Rather than suppressing the violence and instability of his childhood, he processed it publicly in his autobiography "Humble Pie" and in numerous interviews – explicitly stating he uses "that terrible relationship" with his own father as a deliberate drive to be a better father himself. That's not a pure performance narrative, but a consciously drawn emotional consequence.</p>
+          <p class="vb-intro">He also explicitly tied his 2001 marathon debut to his father's early death – an emotional, not purely athletic, motivation. Over the years, that single race grew into an intense Ironman triathlon practice he now pursues together with wife Tana and daughter Tilly as the "Iron Family": performance becomes a shared, emotionally charged relational spectacle rather than a purely solo career achievement – typical SX3 dynamics, deepened by the Four wing's tendency to give the whole thing a personal, biographically rooted meaning rather than a mere status display.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX3w4 is the ability to <strong>turn intensity and perfectionism into infectious energy</strong> – a 2025 Ironman comeback after a serious 2024 cycling accident, with an emotional finish line alongside his family, shows this combination of hardness and genuine emotional investment at its most positive.</p>
+          <p class="vb-intro">The shadow shows in recurring conflicts: multiple restaurant closures, lawsuits from employees over labor violations, a ten-million-dollar dispute with a business partner, and an accusation from a "Kitchen Nightmares" restaurant owner that her portrayal was staged and exaggerated. These patterns – conflicts over control, contract interpretation, and a very harsh tone toward staff – are the flip side of the same intensity that delights on stage: what looks like a drive toward peak performance can quickly tip into uncompromising harshness toward others in everyday life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Peacock Who Turned His Wound Into a Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gordon Ramsay represents a rare combination: professionally grounded fine dining that became familiar to a mass audience through media volume, without losing its underlying substance. Unlike many TV chefs whose training takes a back seat to camera presence, Ramsay's classical craft remains visible at every turn – the confrontation is an expression of genuine standards, not a substitute for them.</p>
+          <p class="vb-intro">From a boy with a shattered football dream and a violence-marked childhood to the loud face of international fine dining: this is the sexual Three with a Four wing at its most public – intensity that never stops carrying its own wound along, rather than hiding it behind a polished facade.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype profile"},
+        {route:"beruehmte-lana-del-rey", label:"Portrait: Lana Del Rey (SX3w4)"},
+        {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4)"},
+        {route:"beruehmte-madonna", label:"Portrait: Madonna (SX3w4)"},
+        {route:"beruehmte-michael-mina", label:"Portrait: Michael Mina (SP3w2)"},
       ])}
     </div>
   `);

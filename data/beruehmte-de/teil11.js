@@ -2273,3 +2273,70 @@ export function corneliaFunkePortraitPage() {
     </div>
   `);
 }
+
+export function gordonRamsayPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gordon-ramsay-portrait.jpg" alt="Gordon Ramsay" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gordon Ramsay</p>
+        <p class="krim-portrait-typ">SX3w4 · Sexueller Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Sternekoch, geb. 1966 – Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei – charismatisch, intensiv, mit einem untrüglichen Gespür dafür, wie er wirkt, und dem Bedürfnis, dieses Wirken bewusst und laut einzusetzen. Gordon Ramsay wurde 1966 im schottischen Johnstone geboren und wuchs in einer von häufigen Umzügen und einem alkoholkranken, phasenweise gewalttätigen Vater geprägten Kindheit auf. Er flüchtete sich in den Fußball und spielte in der Jugend bei den Glasgow Rangers, bis eine schwere Knieverletzung diesen Weg als Teenager beendete.</p>
+          <p class="vb-intro">Diese frühe, öffentlich gemachte Verwundbarkeit – ein zerbrochener erster Lebenstraum, eine Kindheit, über die er später ausführlich in Memoiren und Dokumentationen sprach, statt sie zu verschweigen – ist bereits ein erstes Signal für die emotionale Tiefe, die unter der lautstarken Fassade liegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Leistung als intensives, öffentliches Spektakel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> sucht Bestätigung nicht über stille, wiederholbare Verlässlichkeit wie die SE3, sondern über intensive, oft dramatisch zugespitzte Zuwendung und direkten Vergleich – der Beste zu sein, spürbar und unübersehbar, im unmittelbaren Gegenüber. Nach der Kochausbildung bei Marco Pierre White und Albert Roux in London sowie bei Guy Savoy und Joël Robuchon in Frankreich übernahm Ramsay 1993 die Küche des Londoner Restaurants Aubergine, das er innerhalb weniger Jahre auf zwei Michelin-Sterne brachte. 1998 eröffnete er sein eigenes Restaurant, das binnen drei Jahren den dritten Stern erhielt.</p>
+          <p class="vb-intro">Aus dieser fachlichen Basis heraus wurde er zum Gesicht von Formaten wie ›Hell's Kitchen‹ und ›Kitchen Nightmares‹ – Sendungen, die ihren Kern nicht aus distanzierter Bewertung ziehen, sondern aus direkter, lauter, persönlicher Konfrontation mit einzelnen Köchen und Betreibern vor laufender Kamera. Genau das ist reine SX3-Handschrift: Leistung wird nicht leise abgeliefert, sondern im unmittelbaren, oft hitzigen Gegenüber ausgetragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die fachliche Substanz: Klassische Technik als Fundament der Show</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Ramsays TV-Konfrontationen von reiner Inszenierung unterscheidet, ist die zugrundeliegende fachliche Strenge: eine klassisch-französische Ausbildung in Saucenlehre, Schmortechniken und Reduktionen, kombiniert mit einer präzisen, ingredienzfokussierten Teller-Ästhetik, die bewusst auf Überladung verzichtet. Über seine Karriere hinweg erwarben seine Restaurants kumuliert mehr als zwanzig Michelin-Sterne, aktuell hält er acht Sterne über mehrere Standorte.</p>
+          <p class="vb-intro">Der harte Ton in seinen Küchen speist sich aus einer strikten Mise-en-place-Kultur und praktisch null Fehlertoleranz in der Ausführung – seine Wut auf Fernsehsendungen ist selten reine Show, sondern die sichtbare Spitze eines tatsächlich sehr hohen technischen Anspruchs, den er zuerst an sich selbst stellt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Viererflügel: Verwundbarkeit hinter der lauten Fassade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> zeigt sich bei Ramsay in einer für sein öffentliches Image überraschenden Bereitschaft zur emotionalen Introspektion. Statt die Gewalt und Instabilität seiner Kindheit zu verdrängen, verarbeitete er sie öffentlich in seiner Autobiografie ›Humble Pie‹ und in zahlreichen Interviews – mit der expliziten Aussage, er nutze ›diese furchtbare Beziehung‹ zum eigenen Vater bewusst als Antrieb, selbst ein besserer Vater zu sein. Das ist keine reine Leistungserzählung, sondern eine bewusst gezogene emotionale Konsequenz.</p>
+          <p class="vb-intro">Auch sein Marathon-Debüt 2001 begründete er ausdrücklich mit dem frühen Tod seines Vaters – eine emotionale, nicht rein sportliche Motivation. Aus diesem einen Lauf wurde über die Jahre eine intensive Ironman-Triathlon-Praxis, die er inzwischen gemeinsam mit Ehefrau Tana und Tochter Tilly als ›Iron Family‹ betreibt: Leistung wird so zu einem gemeinsam durchlebten, emotional aufgeladenen Beziehungsspektakel statt zu einer reinen Solo-Karriereleistung – typische SX3-Dynamik, verstärkt durch die Vierer-Tiefe, die dem Ganzen eine persönliche, biografisch verwurzelte Bedeutung gibt statt bloßer Status-Demonstration.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3w4 ist die Fähigkeit, <strong>Intensität und Perfektionsanspruch in ansteckende Energie</strong> zu verwandeln – ein 2025er Ironman-Comeback nach einem schweren Fahrradunfall 2024, mit emotionalem Zieleinlauf an der Seite seiner Familie, zeigt diese Verbindung aus Härte und echter Gefühlsbeteiligung in ihrer positivsten Form.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in wiederkehrenden Konflikten: mehrere Restaurantschließungen, Klagen von Mitarbeitern wegen Arbeitsrechtsverstößen, ein Rechtsstreit mit einem Geschäftspartner über zehn Millionen Dollar sowie der Vorwurf einer ›Kitchen Nightmares‹-Betreiberin, ihre Darstellung sei inszeniert und übertrieben worden. Diese Muster – Konflikte um Kontrolle, Vertragsauslegung und einen sehr harten Umgangston mit Personal – sind die Kehrseite derselben Intensität, die auf der Bühne begeistert: Was als Antrieb zu Höchstleistung wirkt, kann im Alltag schnell zu kompromissloser Härte gegenüber anderen kippen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Pfau, der seine Wunde zur Bühne machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gordon Ramsay steht für eine seltene Kombination: fachlich fundierte Spitzenküche, die durch mediale Lautstärke einem Millionenpublikum vertraut wurde, ohne dass die Substanz dahinter verlorenging. Anders als viele TV-Köche, deren Ausbildung hinter der Kamerapräsenz zurücktritt, bleibt bei Ramsay das klassische Handwerk jederzeit sichtbar – die Konfrontation ist Ausdruck echten Anspruchs, nicht dessen Ersatz.</p>
+          <p class="vb-intro">Vom Jungen mit zerbrochenem Fußballtraum und gewaltgeprägter Kindheit zum lautstarken Gesicht der internationalen Spitzengastronomie: Das ist die sexuelle Drei mit Viererflügel in ihrer öffentlichsten Form – Intensität, die nie aufhört, auch die eigene Wunde mitzutragen, statt sie hinter einer glatten Fassade zu verstecken.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-lana-del-rey", label:"Porträt: Lana Del Rey (SX3w4)"},
+        {route:"beruehmte-marilyn-monroe", label:"Porträt: Marilyn Monroe (SX3w4)"},
+        {route:"beruehmte-madonna", label:"Porträt: Madonna (SX3w4)"},
+        {route:"beruehmte-michael-mina", label:"Porträt: Michael Mina (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
