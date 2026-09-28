@@ -2310,7 +2310,7 @@ export function adrianoCelentanoPortraitPage() {
 
         <h2 class="vb-section">3. The Artistic Substance: Rock'n'Roll Pioneer with an Unmistakable Dance Style</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Celentano is considered the musician who brought rock'n'roll to Italy – heavily influenced by Elvis Presley and the American rock'n'roll scene of the 1950s, as well as by Jerry Lewis's physical stage comedy. His nickname "il Molleggiato" ("the Springy One") comes from an unmistakable, angular-elastic dance style and eccentric stage improvisations that remain his trademark to this day.</p>
+          <p class="vb-intro">Celentano is considered the musician who brought rock'n'roll to Italy – heavily influenced by Elvis Presley and the American rock'n'roll scene of the 1950s, as well as by the physical stage comedy of <a href="javascript:void(0)" data-route="beruehmte-jerry-lewis">Jerry Lewis (SX7w6)</a>. His nickname "il Molleggiato" ("the Springy One") comes from an unmistakable, angular-elastic dance style and eccentric stage improvisations that remain his trademark to this day.</p>
           <p class="vb-intro">This professional substance also shows in his acting career: 39 films, mostly comedies, in which his physical, body-driven performance takes center stage – not a mere singing career with the occasional film appearance, but an independent, decades-long second artistic discipline.</p>
         </blockquote>
 

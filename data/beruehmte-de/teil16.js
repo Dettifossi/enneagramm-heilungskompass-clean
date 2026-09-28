@@ -2320,7 +2320,7 @@ export function adrianoCelentanoPortraitPage() {
 
         <h2 class="vb-section">3. Die künstlerische Substanz: Rock'n'Roll-Pionier mit unverwechselbarem Tanzstil</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Celentano gilt als der Musiker, der den Rock'n'Roll nach Italien brachte – stark geprägt von Elvis Presley und der US-Rock'n'Roll-Szene der 1950er-Jahre, ebenso von Jerry Lewis' physischer Bühnenkomik. Seinen Spitznamen ›il Molleggiato‹ (›der Gefederte‹) verdankt er einem unverwechselbaren, eckig-elastischen Tanzstil und exzentrischen Bühnenimprovisationen, die bis heute als sein Markenzeichen gelten.</p>
+          <p class="vb-intro">Celentano gilt als der Musiker, der den Rock'n'Roll nach Italien brachte – stark geprägt von Elvis Presley und der US-Rock'n'Roll-Szene der 1950er-Jahre, ebenso von der physischen Bühnenkomik <a href="javascript:void(0)" data-route="beruehmte-jerry-lewis">Jerry Lewis' (SX7w6)</a>. Seinen Spitznamen ›il Molleggiato‹ (›der Gefederte‹) verdankt er einem unverwechselbaren, eckig-elastischen Tanzstil und exzentrischen Bühnenimprovisationen, die bis heute als sein Markenzeichen gelten.</p>
           <p class="vb-intro">Diese fachliche Substanz zeigt sich auch in seiner schauspielerischen Karriere: 39 Filme, überwiegend Komödien, in denen sein physisches, körperbetontes Spiel im Zentrum steht – keine reine Gesangskarriere mit gelegentlichen Filmauftritten, sondern eine eigenständige, jahrzehntelang gepflegte zweite künstlerische Disziplin.</p>
         </blockquote>
 
