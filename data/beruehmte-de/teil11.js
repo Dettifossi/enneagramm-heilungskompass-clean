@@ -2337,6 +2337,7 @@ export function gordonRamsayPortraitPage() {
         {route:"beruehmte-madonna", label:"Porträt: Madonna (SX3w4)"},
         {route:"beruehmte-dieter-bohlen", label:"Porträt: Dieter Bohlen (SX3w4)"},
         {route:"beruehmte-michael-mina", label:"Porträt: Michael Mina (SE3w2)"},
+        {route:"beruehmte-paul-bocuse", label:"Porträt: Paul Bocuse (SE3w4)"},
       ])}
     </div>
   `);

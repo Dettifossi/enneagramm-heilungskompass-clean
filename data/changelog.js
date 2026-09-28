@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2417", date: "2026-09-28", text: "Neues Porträt: Paul Bocuse (SE3w4) – französischer Sternekoch, ›Koch des Jahrhunderts‹.", text_en: "New portrait: Paul Bocuse (SP3w4) – French celebrity chef, \"Chef of the Century.\"", route: "beruehmte-paul-bocuse" },
     { version: "v2416", date: "2026-09-28", text: "Neues Porträt: Gordon Ramsay (SX3w4) – schottischer Sternekoch.", text_en: "New portrait: Gordon Ramsay (SP3w4) – Scottish celebrity chef.", route: "beruehmte-gordon-ramsay" },
     { version: "v2415", date: "2026-09-28", text: "Neues Porträt: Michael Mina (SE3w2) – US-amerikanischer Sternekoch und Restaurateur.", text_en: "New portrait: Michael Mina (SP3w2) – American celebrity chef and restaurateur.", route: "beruehmte-michael-mina" },
     { version: "v2414", date: "2026-09-27", text: "Neuer Wissensartikel: Linien-Dynamik in Beziehungen – wie Stress- und Entspannungspunkte Partnerschaften prägen.", text_en: "New knowledge article: Connecting-Line Dynamics in Relationships – how stress and security points shape partnerships.", route: "linien-dynamik-beziehungen" },

@@ -2280,3 +2280,72 @@ export function pedroAlonsoPortraitPage() {
     </div>
   `);
 }
+
+export function paulBocusePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-paul-bocuse-portrait.jpg" alt="Paul Bocuse" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Paul Bocuse</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Französischer Sternekoch, 1926–2018 – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – pragmatisch, bodenständig, mit einem untrüglichen Gespür dafür, was über Jahrzehnte trägt, statt nur kurzfristig zu glänzen. Paul Bocuse wurde 1926 in Collonges-au-Mont-d'Or bei Lyon geboren, als einziger Sohn einer Gastronomenfamilie, die dort seit dem 18. Jahrhundert Gäste bewirtete. Mit 16 Jahren, mitten im Zweiten Weltkrieg, zog er die erste Kochjacke an und lernte anschließend bei zwei prägenden Lehrmeistern der französischen Küche: Eugénie Brazier und Fernand Point.</p>
+          <p class="vb-intro">1959 übernahm er den angeschlagenen Familiengasthof – kein glanzvoller Neustart in der Fremde, sondern die geduldige Rückkehr zu den eigenen Wurzeln, um dort etwas Bleibendes aufzubauen. Über fünfzig Jahre lang blieb er demselben Haus treu, bis zu seinem Tod 2018.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Ein Rekord aus reiner Substanz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> sucht Sicherheit nicht über wechselnde Bühnen oder mediale Selbstinszenierung, sondern über nachweisbare, über Jahrzehnte wiederholbare Leistung an einem Ort. Bocuse erhielt 1958 seinen ersten, 1962 den zweiten und 1965 den dritten Michelin-Stern – und hielt diesen dritten Stern bis zu seinem Tod 2018 und sogar darüber hinaus bis 2020, fast 55 Jahre ununterbrochen. Das ist ein Rekord, der auf keiner einzelnen spektakulären Leistung beruht, sondern auf gleichbleibender Qualität über ein halbes Jahrhundert.</p>
+          <p class="vb-intro">Geschäftlich blieb er dabei keineswegs untätig: Neben dem Stammhaus in Collonges baute er mehrere Lyoner Brasserien und mit dem Institut Paul Bocuse eine eigene Kochschule auf. Doch selbst dieses Wachstum blieb an konkreter, überprüfbarer Ausbildungsleistung verankert – ein System, das Substanz vermittelt, nicht eine Marke, die vor allem sich selbst verkauft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die fachliche Substanz: Vom Nouvelle-Cuisine-Gesicht zum eigenständigen Kritiker der Bewegung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bocuse gilt als eine der zentralen Figuren der Nouvelle Cuisine – jener Bewegung, die schwere Saucen und lange Garzeiten durch leichtere, klarere Zubereitung ersetzte. Bezeichnend für seinen Charakter: Er distanzierte sich später kritisch von genau dieser Bewegung, mit dem Satz, die Nouvelle Cuisine sei ›nichts auf dem Teller, alles auf der Rechnung‹ gewesen – Substanzanspruch, der sich nicht einmal vor der eigenen, historisch bedeutsamen Rolle scheute.</p>
+          <p class="vb-intro">Sein bekanntestes Gericht, die ›Soupe aux truffes V.G.E.‹ (Trüffelsuppe unter Blätterteighaube), kreierte er 1975 für einen Empfang zu Ehren von Präsident Valéry Giscard d'Estaing im Élysée-Palast – bis heute sein Signature-Gericht, über vier Jahrzehnte im Programm. 1987 gründete er zudem den ›Bocuse d'Or‹, einen bis heute alle zwei Jahre ausgetragenen Kochwettbewerb, der als inoffizielle Weltmeisterschaft der Spitzenküche gilt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Viererflügel: Ein streng getrenntes Innenleben statt offener Fürsorge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> zeigt sich bei Bocuse weniger in offener emotionaler Mitteilsamkeit als in einer auffällig kompartimentierten, introspektiven Innerlichkeit. Über Jahrzehnte führte er drei parallele Beziehungen – mit Raymonde seit 1946, mit Raymone ab Ende der 1960er (mit gemeinsamem Sohn Jérôme) und mit Patricia ab 1971 –, streng voneinander getrennt und bis zu seiner Beerdigung öffentlich kaum bekannt. Sein eigener, fast distanziert-ironischer Kommentar dazu: ›Ich habe drei Sterne. Ich hatte drei Bypässe. Und ich habe immer drei Frauen.‹</p>
+          <p class="vb-intro">Dieses Muster passt eher zu introspektiver, in sich abgeschlossener Vierer-Kompartimentierung als zu offener, warmherziger Zweier-Fürsorge: Statt ein einziges, nach außen sichtbares Beziehungsnetz zu pflegen, hielt er mehrere emotionale Welten bewusst getrennt und weitgehend für sich. Gleichzeitig war er zweifellos auch Mentor für eine ganze Generation von Köchen, die durch seine Küche gingen – doch selbst diese Förderung wirkte eher wie strenge, substanzorientierte Ausbildung als wie unmittelbare emotionale Wärme.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 ist die Fähigkeit, <strong>über ein halbes Jahrhundert an einem Ort Substanz aufzubauen</strong>, die weit über die eigene Lebenszeit hinausreicht – der ›Bocuse d'Or‹ und das Institut Paul Bocuse tragen seinen Namen und seinen Anspruch bis heute weiter, lange nach seinem Tod.</p>
+          <p class="vb-intro">Der Schatten liegt in genau der Kompartimentierung, die auch seine Stärke war: Drei parallele, streng getrennte Leben über Jahrzehnte zu führen, bedeutet auch, keiner der beteiligten Personen die volle, ungeteilte Wahrheit zuzumuten. Als sein Sohn Jérôme nach seinem Tod 2018 einen ›hommage national‹ ablehnte, weil der Vater ›einfach bleiben wollte‹, zeigt das dieselbe Zurückhaltung – öffentliche Bescheidenheit, hinter der ein deutlich komplexeres Innenleben verborgen blieb, als das glatte Bild des ›bodenständigen Patrons‹ vermuten ließ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Waschbär, der seinen Stern nie verlor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Paul Bocuse steht für eine seltene Konstanz in einer Branche, die von schnellem Wandel lebt: fast 55 Jahre ununterbrochen mit drei Michelin-Sternen an ein und demselben Ort, ein Rekord, den erst sein Tod und der anschließende Stern-Verlust 2020 sichtbar machte. 1989 kürte ihn das Gault-Millau-Magazin zum ›Koch des Jahrhunderts‹ – ein Titel, der weniger einen einzelnen Höhepunkt feierte als eine über Jahrzehnte gleichbleibend hohe Qualität.</p>
+          <p class="vb-intro">Vom Sohn einer Gastronomenfamilie, der mit 16 die erste Kochjacke anzog, zum Namensgeber der weltweit bekanntesten Koch-Weltmeisterschaft: Das ist die selbsterhaltende Drei mit Viererflügel in ihrer bleibendsten Form – Substanz, die über die eigene Lebenszeit hinaus trägt, erkauft mit einem Innenleben, das nie ganz zur Ruhe kam.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-johnny-cash", label:"Porträt: Johnny Cash (SE3w4)"},
+        {route:"beruehmte-norah-jones", label:"Porträt: Norah Jones (SE3w4)"},
+        {route:"beruehmte-tony-shalhoub", label:"Porträt: Tony Shalhoub (SE3w4)"},
+        {route:"beruehmte-anna-netrebko", label:"Porträt: Anna Netrebko (SE3w4)"},
+        {route:"beruehmte-michael-mina", label:"Porträt: Michael Mina (SE3w2)"},
+        {route:"beruehmte-gordon-ramsay", label:"Porträt: Gordon Ramsay (SX3w4)"},
+      ])}
+    </div>
+  `);
+}

@@ -2261,3 +2261,72 @@ export function gabiGarciaPortraitPage() {
     </div>
   `);
 }
+
+export function paulBocusePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-paul-bocuse-portrait.jpg" alt="Paul Bocuse" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Paul Bocuse</p>
+        <p class="krim-portrait-typ">SP3w4 · Self-Preservation Type 3 with Four Wing</p>
+        <p class="krim-portrait-subtitle">French celebrity chef, 1926–2018 – animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three – pragmatic, grounded, with an unerring instinct for what holds up over decades, rather than merely shining briefly. Paul Bocuse was born in 1926 in Collonges-au-Mont-d'Or near Lyon, the only son of a family of restaurateurs who had hosted guests there since the eighteenth century. At sixteen, in the middle of the Second World War, he put on his first chef's jacket and later trained under two formative masters of French cuisine, Eugénie Brazier and Fernand Point.</p>
+          <p class="vb-intro">In 1959 he took over his family's struggling inn – not a glamorous fresh start elsewhere, but a patient return to his own roots to build something lasting there. For more than fifty years he remained loyal to the same house, until his death in 2018.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: A Record Built on Pure Substance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> seeks security not through changing stages or media self-promotion, but through demonstrable performance, repeatable over decades in one place. Bocuse received his first Michelin star in 1958, his second in 1962, and his third in 1965 – and held that third star until his death in 2018, and even beyond, until 2020, for nearly 55 uninterrupted years. That's a record built on no single spectacular achievement, but on consistent quality across half a century.</p>
+          <p class="vb-intro">Commercially, he was by no means idle: alongside the flagship house in Collonges, he built several Lyon brasseries and, with the Institut Paul Bocuse, his own culinary school. Yet even this growth stayed anchored to concrete, verifiable training achievement – a system that conveys substance, not a brand that primarily sells itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Professional Substance: From the Face of Nouvelle Cuisine to Its Own Critic</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bocuse is considered one of the central figures of Nouvelle Cuisine – the movement that replaced heavy sauces and long cooking times with lighter, clearer preparation. Tellingly, he later distanced himself critically from that very movement, remarking that Nouvelle Cuisine had been "nothing on the plate, everything on the bill" – a substance standard he applied even to his own, historically significant role.</p>
+          <p class="vb-intro">His best-known dish, the "Soupe aux truffes V.G.E." (truffle soup under a puff pastry dome), he created in 1975 for a reception honoring President Valéry Giscard d'Estaing at the Élysée Palace – to this day his signature dish, on the menu for over four decades. In 1987 he also founded the "Bocuse d'Or," a cooking competition held every two years since, regarded as the unofficial world championship of fine dining.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Four Wing: A Strictly Compartmentalized Inner Life Rather Than Open Care</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four wing (w4)</strong> shows in Bocuse less as open emotional expressiveness than as a strikingly compartmentalized, introspective inner life. For decades he maintained three parallel relationships – with Raymonde since 1946, with Raymone from the late 1960s (with a shared son, Jérôme), and with Patricia from 1971 – kept strictly separate from one another and barely publicly known until his funeral. His own, almost detached and ironic comment on it: "I have three stars. I had three bypasses. And I've always had three women."</p>
+          <p class="vb-intro">This pattern fits introspective, self-contained Four-wing compartmentalization better than open, warm Two-wing care: rather than maintaining a single, visible relational network, he kept several emotional worlds deliberately separate and largely to himself. At the same time, he was undoubtedly a mentor to an entire generation of chefs who passed through his kitchen – but even this mentorship felt more like strict, substance-oriented training than immediate emotional warmth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE3w4 is the ability to <strong>build substance in one place over half a century</strong> that reaches far beyond one's own lifespan – the "Bocuse d'Or" and the Institut Paul Bocuse carry his name and his standards forward to this day, long after his death.</p>
+          <p class="vb-intro">The shadow lies in exactly the same compartmentalization that was also his strength: leading three parallel, strictly separated lives for decades also means never granting any one of the people involved the full, undivided truth. When his son Jérôme declined a "hommage national" after his death in 2018, because his father "just wanted to remain himself," that shows the same restraint – public modesty behind which a considerably more complex inner life remained hidden than the smooth image of the "down-to-earth patron" suggested.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Raccoon Who Never Lost His Star</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Paul Bocuse represents a rare constancy in an industry that lives on rapid change: nearly 55 uninterrupted years with three Michelin stars at the very same location, a record that only became fully visible once his death and the subsequent loss of the star in 2020 made it so. In 1989, the Gault-Millau guide crowned him "Chef of the Century" – a title that celebrated not a single peak, but decades of consistently high quality.</p>
+          <p class="vb-intro">From the son of a family of restaurateurs who put on his first chef's jacket at sixteen, to the namesake of the world's best-known culinary world championship: this is the self-preservation Three with a Four wing at its most enduring – substance that outlasts one's own lifetime, bought at the price of an inner life that never fully settled.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: subtype profile"},
+        {route:"beruehmte-johnny-cash", label:"Portrait: Johnny Cash (SP3w4)"},
+        {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4)"},
+        {route:"beruehmte-tony-shalhoub", label:"Portrait: Tony Shalhoub (SP3w4)"},
+        {route:"beruehmte-anna-netrebko", label:"Portrait: Anna Netrebko (SP3w4)"},
+        {route:"beruehmte-michael-mina", label:"Portrait: Michael Mina (SP3w2)"},
+        {route:"beruehmte-gordon-ramsay", label:"Portrait: Gordon Ramsay (SP3w4)"},
+      ])}
+    </div>
+  `);
+}

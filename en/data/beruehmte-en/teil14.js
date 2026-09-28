@@ -841,6 +841,7 @@ export function johnnyCashPortraitPage() {
         {route:"beruehmte-osho", label:"Portrait: Osho (SP3w4)"},
         {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SP3w4)"},
         {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4)"},
+        {route:"beruehmte-paul-bocuse", label:"Portrait: Paul Bocuse (SP3w4)"},
         {route:"beruehmte-gunter-gabriel", label:"Portrait: Gunter Gabriel (SO8w9)"},
       ])}
     </div>
@@ -2334,6 +2335,8 @@ export function michaelMinaPortraitPage() {
         {route:"beruehmte-bastian-pastewka", label:"Portrait: Bastian Pastewka (SP3w2)"},
         {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
         {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2)"},
+        {route:"beruehmte-paul-bocuse", label:"Portrait: Paul Bocuse (SP3w4)"},
+        {route:"beruehmte-gordon-ramsay", label:"Portrait: Gordon Ramsay (SX3w4)"},
       ])}
     </div>
   `);
