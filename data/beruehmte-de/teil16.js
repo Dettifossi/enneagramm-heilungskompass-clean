@@ -2290,3 +2290,70 @@ export function henningBaumPortraitPage() {
     </div>
   `);
 }
+
+export function adrianoCelentanoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-adriano-celentano-portrait.jpg" alt="Adriano Celentano" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Adriano Celentano</p>
+        <p class="krim-portrait-typ">SX7w8 · Sexueller Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Italienischer Sänger, Schauspieler und Regisseur, geb. 1938 – Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben – hochintelligent, anpassungsfähig, voller impulsiver Lebensfreude, mit einer Vitalität, die sich rasend schnell neue Ausdrucksformen erschließt. Adriano Celentano wurde 1938 in einfachen Verhältnissen in Mailand geboren, in der Via Cristoforo Gluck – jener Straße, die er später mit seinem Hit ›Il ragazzo della via Gluck‹ verewigte. Als Jugendlicher gründete er die Band ›Rock Boys‹ und wurde vom Talentscout Ezio Leoni entdeckt.</p>
+          <p class="vb-intro">Von dieser einfachen Mailänder Herkunft aus entwickelte er sich zu einem der meistverkauften italienischen Künstler aller Zeiten – über 150 Millionen verkaufte Tonträger, eine Karriere als Sänger, Schauspieler in 39 Filmen, Regisseur und TV-Moderator, die sich über sieben Jahrzehnte erstreckte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Faszination statt bloßer Vielfalt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> unterscheidet sich von den anderen Sieben-Subtypen darin, dass ihre Begeisterung sich nicht in ständig wechselnder Vielfalt verliert, sondern sich intensiv, fast idealistisch, auf einzelne Menschen, Projekte oder Überzeugungen konzentriert – Faszination statt Zerstreuung. Celentanos Ehe mit der Sängerin und Schauspielerin Claudia Mori, 1964 heimlich geschlossen, hält bis heute (Stand 2026) über sechzig Jahre – eine für die Unterhaltungsbranche außergewöhnliche Beständigkeit, die genau diese SX7-typische Fokussierung auf eine einzige, tief bedeutsame Verbindung zeigt, statt auf wechselnde Bekanntschaften.</p>
+          <p class="vb-intro">Dieselbe intensive Fokussierung zeigt sich in seinem musikalischen Werk: Mit ›Prisencolinensinainciusol‹ (1972) schuf er einen Song in reinem Fantasie-Englisch, der rhythmisch und phonetisch wie amerikanisches Englisch klingt, ohne tatsächliche Bedeutung zu tragen – ein Experiment, das er mit voller Hingabe bis zur Perfektion durchzog, statt es als bloße Spielerei zu behandeln, und das Jahrzehnte später als früher Vorläufer heutiger Auseinandersetzung mit Sprachrhythmus und Flow gewürdigt wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die künstlerische Substanz: Rock'n'Roll-Pionier mit unverwechselbarem Tanzstil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Celentano gilt als der Musiker, der den Rock'n'Roll nach Italien brachte – stark geprägt von Elvis Presley und der US-Rock'n'Roll-Szene der 1950er-Jahre, ebenso von Jerry Lewis' physischer Bühnenkomik. Seinen Spitznamen ›il Molleggiato‹ (›der Gefederte‹) verdankt er einem unverwechselbaren, eckig-elastischen Tanzstil und exzentrischen Bühnenimprovisationen, die bis heute als sein Markenzeichen gelten.</p>
+          <p class="vb-intro">Diese fachliche Substanz zeigt sich auch in seiner schauspielerischen Karriere: 39 Filme, überwiegend Komödien, in denen sein physisches, körperbetontes Spiel im Zentrum steht – keine reine Gesangskarriere mit gelegentlichen Filmauftritten, sondern eine eigenständige, jahrzehntelang gepflegte zweite künstlerische Disziplin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Achterflügel: Unangepasster Konfrontationskurs statt leiser Anpassung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> zeigt sich bei Celentano in einem ausgeprägten, öffentlich ausgetragenen Nonkonformismus. Seine TV-Formate, allen voran ›Rock Politik‹ (seit 2005), nutzte er wiederholt für scharfe, live im Fernsehen vorgetragene gesellschaftskritische Positionen – gegen Umweltzerstörung, Atomkraft und kirchliche Machtstrukturen, konsequent vegetarisch lebend und mit ausgeprägtem Umweltengagement. Seine Haltungen zur katholischen Kirche wandelten sich dabei über die Jahrzehnte deutlich, blieben aber stets konfrontativ direkt formuliert, nie diplomatisch verklausuliert.</p>
+          <p class="vb-intro">Diese Bereitschaft, sich mit Autoritäten und öffentlicher Meinung offen anzulegen, statt sich der erwarteten Rolle eines braven Unterhaltungskünstlers zu fügen, ist reine Achterflügel-Energie: Die sexuelle Sieben mit w8 sucht nicht nur intensive Faszination, sondern verteidigt diese auch mit Nachdruck gegen jeden Widerstand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Bingo Bongo: Der Schimpanse als würdevolles Sinnbild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine besonders passende Parallele zu seiner eigenen Tierentsprechung lieferte Celentano selbst 1982 mit dem Film ›Bingo Bongo‹: Er spielt einen Mann, der als Baby einen Flugzeugabsturz im afrikanischen Dschungel überlebt und von Schimpansen aufgezogen wird. Als Erwachsener wird er eingefangen und in ein Mailänder Forschungsinstitut gebracht – dort erweist er sich als außergewöhnlich stark, wahrnehmungsfähig und intelligent, lernt rasend schnell menschliches Verhalten und wird am Ende selbst Professor.</p>
+          <p class="vb-intro">Der Film macht dabei nie das Tierische lächerlich, sondern zeigt umgekehrt eine rohe, ungebändigte Vitalität, die sich in kürzester Zeit selbst kultiviert – exakt jenes Bild von Intelligenz, Anpassungsfähigkeit und Lernfähigkeit, das die Schimpansen-Entsprechung der sexuellen Sieben im Kern ausmacht. Kein Zufall, dass ausgerechnet Celentano sich diese Rolle selbst schrieb: Sie trifft sein eigenes Naturell so genau, dass sie fast wie eine bewusste Selbstbeschreibung wirkt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Schimpanse, der Italien tanzen lehrte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Adriano Celentano steht für eine Karriere, die konsequent zwischen intensiver künstlerischer Hingabe und lautstarkem gesellschaftlichem Nonkonformismus pendelte – nie bloß unterhaltend, sondern immer auch mit eigener, unbequem formulierter Haltung.</p>
+          <p class="vb-intro">Vom Jungen aus der Via Gluck zum meistverkauften Künstler Italiens, mit einer über sechzig Jahre währenden Ehe im Zentrum und einem selbstgeschriebenen Filmschimpansen als unbewusstem Selbstporträt: Das ist die sexuelle Sieben mit Achterflügel in ihrer vitalsten Form – Faszination, mit vollem körperlichem und politischem Einsatz gelebt, nie zurückgenommen, nie angepasst.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-franz-liszt", label:"Porträt: Franz Liszt (SX7w8)"},
+        {route:"beruehmte-robert-schumann", label:"Porträt: Robert Schumann (SX7w8)"},
+        {route:"beruehmte-serena-williams", label:"Porträt: Serena Williams (SX7w8)"},
+        {route:"beruehmte-johann-lafer", label:"Porträt: Johann Lafer (SE7w8)"},
+      ])}
+    </div>
+  `);
+}

@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2420", date: "2026-09-28", text: "Neues Porträt: Adriano Celentano (SX7w8) – italienischer Sänger, Schauspieler und Regisseur.", text_en: "New portrait: Adriano Celentano (SX7w8) – Italian singer, actor and director.", route: "beruehmte-adriano-celentano" },
     { version: "v2419", date: "2026-09-28", text: "Neues Porträt: Steffen Henssler (SO7w6) – deutscher TV-Koch.", text_en: "New portrait: Steffen Henssler (SO7w6) – German celebrity chef.", route: "beruehmte-steffen-henssler" },
     { version: "v2418", date: "2026-09-28", text: "Neues Porträt: Johann Lafer (SE7w8) – österreichisch-deutscher Sternekoch.", text_en: "New portrait: Johann Lafer (SP7w8) – Austrian-German celebrity chef.", route: "beruehmte-johann-lafer" },
     { version: "v2417", date: "2026-09-28", text: "Neues Porträt: Paul Bocuse (SE3w4) – französischer Sternekoch, ›Koch des Jahrhunderts‹.", text_en: "New portrait: Paul Bocuse (SP3w4) – French celebrity chef, \"Chef of the Century.\"", route: "beruehmte-paul-bocuse" },

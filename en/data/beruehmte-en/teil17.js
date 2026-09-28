@@ -2280,3 +2280,70 @@ export function dmitriHvorostovskyPortraitPage() {
     </div>
   `);
 }
+
+export function adrianoCelentanoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-adriano-celentano-portrait.jpg" alt="Adriano Celentano" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Adriano Celentano</p>
+        <p class="krim-portrait-typ">SX7w8 · Sexual Type 7 with Eight Wing</p>
+        <p class="krim-portrait-subtitle">Italian singer, actor and director, born 1938 – animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the sexual Seven – highly intelligent, adaptable, full of impulsive zest for life, with a vitality that opens up new forms of expression at breathtaking speed. Adriano Celentano was born in 1938 into modest circumstances in Milan, on Via Cristoforo Gluck – the street he later immortalized in his hit "Il ragazzo della via Gluck." As a teenager he founded the band "Rock Boys" and was discovered by talent scout Ezio Leoni.</p>
+          <p class="vb-intro">From these humble Milanese beginnings, he grew into one of the best-selling Italian artists of all time – more than 150 million records sold, a career as a singer, actor in 39 films, director, and TV host that spanned seven decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Seven: Fascination, Not Mere Variety</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Seven (SX7)</strong> differs from the other Seven subtypes in that its enthusiasm doesn't dissipate into constantly changing variety, but concentrates intensely, almost idealistically, on individual people, projects, or convictions – fascination rather than dispersion. Celentano's marriage to singer and actress Claudia Mori, secretly wed in 1964, has lasted over sixty years to this day (as of 2026) – an unusual constancy for the entertainment industry that shows exactly this SX7-typical focus on a single, deeply meaningful connection rather than changing acquaintances.</p>
+          <p class="vb-intro">The same intense focus shows in his musical work: with "Prisencolinensinainciusol" (1972) he created a song in pure gibberish English, rhythmically and phonetically resembling American English without carrying any actual meaning – an experiment he pursued to perfection with full dedication rather than treating it as a mere gimmick, and which decades later is celebrated as an early precursor of today's engagement with language rhythm and flow.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Artistic Substance: Rock'n'Roll Pioneer with an Unmistakable Dance Style</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Celentano is considered the musician who brought rock'n'roll to Italy – heavily influenced by Elvis Presley and the American rock'n'roll scene of the 1950s, as well as by Jerry Lewis's physical stage comedy. His nickname "il Molleggiato" ("the Springy One") comes from an unmistakable, angular-elastic dance style and eccentric stage improvisations that remain his trademark to this day.</p>
+          <p class="vb-intro">This professional substance also shows in his acting career: 39 films, mostly comedies, in which his physical, body-driven performance takes center stage – not a mere singing career with the occasional film appearance, but an independent, decades-long second artistic discipline.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Eight Wing: Unaccommodating Confrontation Instead of Quiet Adaptation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight wing (w8)</strong> shows in Celentano as a pronounced, publicly waged nonconformism. He repeatedly used his TV formats, above all "Rock Politik" (since 2005), for sharp, live-broadcast social critique – against environmental destruction, nuclear power, and church power structures, living strictly vegetarian and with pronounced environmental engagement. His positions on the Catholic Church shifted notably over the decades, but always remained confrontationally direct rather than diplomatically hedged.</p>
+          <p class="vb-intro">This willingness to openly take on authorities and public opinion, rather than settle into the expected role of a well-behaved entertainer, is pure Eight-wing energy: the sexual Seven with a w8 doesn't just seek intense fascination, it also defends it forcefully against any resistance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Bingo Bongo: The Chimpanzee as a Dignified Emblem</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A particularly fitting parallel to his own animal correspondence came from Celentano himself in 1982 with the film "Bingo Bongo": he plays a man who survives a plane crash in the African jungle as a baby and is raised by chimpanzees. As an adult he's captured and brought to a Milan research institute – there he proves exceptionally strong, perceptive, and intelligent, learns human behavior at breathtaking speed, and ultimately becomes a professor himself.</p>
+          <p class="vb-intro">The film never makes the animal side of the story a joke; instead, it shows a raw, untamed vitality that cultivates itself in the shortest possible time – exactly the image of intelligence, adaptability, and learning capacity that the chimpanzee correspondence of the sexual Seven captures at its core. It's no coincidence that Celentano wrote this role for himself: it matches his own nature so precisely that it almost reads as a conscious self-portrait.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Chimpanzee Who Taught Italy to Dance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Adriano Celentano represents a career that consistently oscillated between intense artistic devotion and loud social nonconformism – never merely entertaining, but always carrying his own, uncomfortably stated stance.</p>
+          <p class="vb-intro">From the boy on Via Gluck to Italy's best-selling artist, with a marriage lasting over sixty years at its center and a self-written movie chimpanzee as an unconscious self-portrait: this is the sexual Seven with an Eight wing at its most vital – fascination, lived with full physical and political commitment, never held back, never accommodated.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: subtype profile"},
+        {route:"beruehmte-franz-liszt", label:"Portrait: Franz Liszt (SX7w8)"},
+        {route:"beruehmte-robert-schumann", label:"Portrait: Robert Schumann (SX7w8)"},
+        {route:"beruehmte-serena-williams", label:"Portrait: Serena Williams (SX7w8)"},
+        {route:"beruehmte-johann-lafer", label:"Portrait: Johann Lafer (SP7w8)"},
+      ])}
+    </div>
+  `);
+}
