@@ -2308,7 +2308,7 @@ export function michaelMinaPortraitPage() {
 
         <h2 class="vb-section">4. Der Zweierflügel: Gastfreundschaft als Prinzip, nicht als Pose</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> zeigt sich bei Mina weniger in Gefühlsbetontheit als in einer durchgehenden Fürsorge-Haltung gegenüber Gästen und Mitarbeitern. Seine öffentlich formulierte Küchenphilosophie kreist immer wieder um ›thoughtful service‹, ›care and attention‹ und ›balance and harmony‹ – das Wohlergehen des Gegenübers steht im Mittelpunkt, nicht die individualistisch-künstlerische Selbstverwirklichung, wie sie ein Vierer-geflügelter Koch eher in den Vordergrund stellen würde.</p>
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> zeigt sich bei Mina weniger in Gefühlsbetontheit als in einer durchgehenden Fürsorge-Haltung gegenüber Gästen und Mitarbeitern. Seine öffentlich formulierte Küchenphilosophie kreist immer wieder um ›thoughtful service‹, ›care and attention‹ und ›balance and harmony‹ – das Wohlergehen des Gegenübers steht im Mittelpunkt, nicht die individualistisch-künstlerische Selbstverwirklichung, wie sie ein Koch mit Vierer-Flügel eher in den Vordergrund stellen würde.</p>
           <p class="vb-intro">Diese Fürsorge-Orientierung zeigt sich auch strukturell: Statt sein Imperium als Ein-Mann-Show zu führen, hat Mina über Jahrzehnte zahlreiche Küchenchefs innerhalb der Mina Group ausgebildet und in Führungsrollen gebracht – Skalierung über Menschen und Mentorschaft, nicht über eine unverwechselbare Einzelvision. Das tableside zubereitete Gericht selbst ist im Kern ein Beziehungsmoment mit dem Gast, kein introspektiv-künstlerisches Statement.</p>
         </blockquote>
 
