@@ -2303,3 +2303,70 @@ export function floydMayweatherPortraitPage() {
     </div>
   `);
 }
+
+export function andyWarholPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-andy-warhol-portrait.jpg" alt="Andy Warhol" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Andy Warhol</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexueller Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Künstler, 1928–1987 – Begründer der Pop Art, Filmemacher, Verleger – Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kaum ein Künstler des 20. Jahrhunderts war so allgegenwärtig und gleichzeitig so unergründlich wie Andy Warhol. Die silberne Perücke, die getönte Brille, das flache, fast monotone Sprechen – hinter dieser sorgfältig konstruierten Oberfläche verschanzte sich ein Mann, der von sich selbst sagte, er sei „a deeply superficial person" (ein zutiefst oberflächlicher Mensch), und der selbst engsten Mitarbeitern kaum je einen echten Blick in sein Inneres gewährte. Genau das ist die Signatur des <strong>Igels</strong>: eine stachelige, glänzende Außenhülle, die exakt so viel preisgibt, wie der Igel selbst kontrollieren kann – und nicht mehr.</p>
+          <p class="vb-intro">Geboren 1928 als Andrew Warhola in Pittsburgh, Sohn ruthenisch-slowakischer Einwanderer, verbrachte er als Kind mehrere Monate ans Bett gefesselt, gezeichnet von der Sydenham-Chorea, einer neurologischen Erkrankung mit unkontrollierbaren Zuckungen. In dieser Isolation entwickelte er, umgeben von Filmzeitschriften, Comics und den Bildern von Hollywoodstars an der Wand über seinem Bett, jene fast besessene Beziehung zu Prominenz und Bild, die sein gesamtes späteres Werk durchziehen sollte – nicht aus Nachahmung, sondern als früh erlernte Strategie, sich der überwältigenden Welt über kontrollierte Bilder statt über direkten Kontakt zu nähern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die eigentliche Leistung: Siebdruck als Methode, nicht als Trick</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Es greift zu kurz, Warhol nur als geschickten Selbstvermarkter zu beschreiben, der zur richtigen Zeit am richtigen Ort war. Bevor er 1961/62 zur Malerei überging, war er bereits einer der bestbezahlten und gefragtesten Werbeillustratoren New Yorks – unter anderem für die Schuhmarke I. Miller –, ausgezeichnet für seine präzise, elegante Linienführung. Diese kommerzielle Meisterschaft war die Grundlage für den eigentlichen Durchbruch: Ab 1962 übertrug er die fotografische Siebdrucktechnik, ein Reproduktionsverfahren aus der Werbeindustrie, konsequent auf die bildende Kunst – bei den „Campbell's Soup Cans", der „Marilyn Diptych" und später bei „Mao" oder den „Brillo Boxes".</p>
+          <p class="vb-intro">Das war kein technischer Kniff, sondern eine radikale konzeptuelle These: Warhol erkannte, dass in einer Welt aus Massenware, Zeitungsfotos und Fernsehbildern der Unterschied zwischen „hoher Kunst" und industrieller Reproduktion bereits kollabiert war – und dass Berühmtheit selbst wie ein massenproduziertes Konsumgut funktionierte, austauschbar, wiederholbar, entwertbar durch Übersättigung. Sein Studio nannte er bewusst „The Factory" (die Fabrik) und ließ Assistenten am Fließband mitproduzieren, während er selbst den Entwurf und die Auswahl kontrollierte – „I want to be a machine" (Ich will eine Maschine sein), sagte er, und meinte damit die bewusste Tilgung der sichtbaren Künstlerhandschrift zugunsten einer kühlen, seriellen Wiederholung, die den Bildern gerade dadurch ihre hypnotische Wucht gab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die sexuelle Fünf: exklusive Intensität statt kühler Distanz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Fünf (SX5)</strong> unterscheidet sich von der selbsterhaltenden Fünf durch ihre fast vulkanische, nach außen kaum sichtbare Sehnsucht nach der einen, restlosen Verbindung. Bei Warhol zeigte sich das nicht in großer Geste, sondern in wenigen, ungewöhnlich engen und langjährigen Bindungen inmitten eines scheinbar endlosen Bekanntenkreises: Zwölf Jahre lang, von 1968 bis 1980, lebte er mit dem Filmemacher Jed Johnson zusammen – eine der stabilsten, privatesten Beziehungen seines Lebens, über die er öffentlich fast nichts preisgab, während er gleichzeitig Hunderte von Prominenten, Sammlern und „Superstars" der Factory oberflächlich und distanziert behandelte.</p>
+          <p class="vb-intro">Dasselbe Muster zeigte sich in seiner Arbeitsweise: Wenn Warhol sich einem einzelnen Motiv zuwandte – einem Gesicht, einer Dose, einem Dollarzeichen –, tat er das mit einer Konsequenz, die keine halben Sachen kannte, oft in Dutzenden Variationen derselben Vorlage. Diese Fähigkeit, sich in einem einzigen, eng begrenzten Gegenstand vollständig zu verausgaben, statt sich auf viele Themen zu verteilen, ist typisch sexuelle Fünf – die Intensität wird nicht durch Breite erzeugt, sondern durch die radikale Konzentration auf das eine, ausgewählte Objekt der Aufmerksamkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Viererflügel: das geheime Archiv einer Identität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> zeigte sich bei Warhol nicht in dramatischer Zurschaustellung, sondern in einer fast zwanghaften, ästhetisch durchformten Selbstdokumentation. Über Jahrzehnte füllte er sogenannte „Time Capsules" – am Ende 610 versiegelte Kartons – mit Alltagsgegenständen, Briefen, Zeitungsausschnitten und Nichtigkeiten seines Lebens, ohne sie je selbst wieder zu öffnen. Parallel dazu diktierte er von 1976 bis zu seinem Tod fast täglich sein Leben in ein Tagebuch, das erst posthum veröffentlicht wurde. Beides sind keine Marotten, sondern das Bedürfnis der Vier, die eigene, flüchtige Identität in einer beständigen, kuratierten Form festzuhalten – nur dass die Fünf diese Sammlung sorgsam vor jedem fremden Blick verschloss.</p>
+          <p class="vb-intro">Auch seine tiefe, streng katholische Religiosität – er besuchte fast täglich die Messe und half über Jahre anonym in einer New Yorker Suppenküche aus – wurde erst nach seinem Tod bekannt. Diese Kombination aus intensiver innerer Welt (Viererflügel) und der Entscheidung, sie vollständig unsichtbar zu halten (Fünfer-Kern), erklärt, warum viele Zeitgenossen Warhol fälschlich für seelenlos oder rein kalkulierend hielten, obwohl unter der glänzenden Oberfläche ein außergewöhnlich intensives, fast asketisches Innenleben lag.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Rückzug mitten in der Menge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Factory war rund um die Uhr voller Menschen – Schauspieler, Musiker, Sammler, Außenseiter –, und dennoch war Warhol selbst oft der am wenigsten anwesende Mensch im Raum: Er beobachtete hinter der Sonnenbrille, sprach wenig, und trug häufig ein Tonbandgerät bei sich, das er scherzhaft „meine Frau" nannte – Aufzeichnung statt direkter Teilnahme, Beobachtung statt Preisgabe. Das ist der klassische Igel-Mechanismus: mitten im Trubel präsent sein, ohne die eigenen Stacheln je abzulegen.</p>
+          <p class="vb-intro">1968 schoss die Factory-Besucherin Valerie Solanas auf Warhol und verletzte ihn lebensgefährlich – er überlebte nur knapp und musste für den Rest seines Lebens ein Stützkorsett tragen. Danach schloss er die Factory für Laufkundschaft weitgehend, ließ kaum noch jemanden ungeprüft an sich heran und vermied es bis zu seinem Tod, sich vor irgendjemandem – selbst vor engen Partnern – ohne Hemd zu zeigen, aus Scham über die Narben. Ein Angriff auf die verwundbare, weiche Innenseite bewirkte exakt das, was beim Igel zu erwarten ist: noch schärfere, noch dichter geschlossene Stacheln nach außen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX5w4 zeigt sich bei Warhol in seiner Fähigkeit, jedem einzelnen Motiv – ob Marilyn Monroe, eine Suppendose oder ein unbekannter Auftraggeber, der sich ein Porträt leisten konnte – dieselbe konzentrierte, fast andächtige Aufmerksamkeit zu schenken und es dadurch zur Ikone zu erheben. Sein berühmter Satz, in Zukunft werde „jeder für fünfzehn Minuten weltberühmt" sein, war weniger Zynismus als die demokratisierende Konsequenz dieser Grundhaltung: Wenn Aufmerksamkeit die eigentliche Währung ist, verdient im Prinzip jedes Gesicht denselben intensiven Blick.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Kälte, mit der er reale Nähe auf Distanz hielt, sobald sie ihn zu sehr forderte: Mehrere Factory-Weggefährtinnen, allen voran das Model und Schauspielerin Edie Sedgwick, rutschten inmitten des von Drogen und ständiger Beobachtung geprägten Umfelds in Sucht und frühen Tod ab, während Warhol selbst emotional auf Abstand blieb und sich später kaum verantwortlich zeigte. Die gleiche Fähigkeit, Menschen wie Bildmotive zu behandeln – faszinierend anzusehen, aber nie wirklich zu berühren –, die seine Kunst so kraftvoll machte, konnte im Zwischenmenschlichen zur schmerzhaften Distanzierung werden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx5", label:"Lebensmusterkompass: SX5 – Igel"},
+        {route:"beruehmte-greta-garbo", label:"Porträt: Greta Garbo (SX5w4)"},
+        {route:"beruehmte-frederic-chopin", label:"Porträt: Frédéric Chopin (SX5w4)"},
+        {route:"beruehmte-tilda-swinton", label:"Porträt: Tilda Swinton (SX5w4)"},
+      ])}
+    </div>
+  `);
+}

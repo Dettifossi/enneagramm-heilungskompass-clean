@@ -589,6 +589,7 @@ export function fredericChopinPortraitPage() {
         {route:"beruehmte-tilda-swinton", label:"Portr\xe4t: Tilda Swinton (SX5w4)"},
         {route:"krankheitsportraets-friedrich-nietzsche", label:"Krankheitsporträt: Friedrich Nietzsche (SX5w4)"},
         {route:"beruehmte-jean-jacques-rousseau", label:"Portr\xe4t: Jean-Jacques Rousseau (SX5w4)"},
+        {route:"beruehmte-andy-warhol", label:"Portr\xe4t: Andy Warhol (SX5w4)"},
       ])}
     </div>
   `);

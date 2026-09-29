@@ -2293,3 +2293,70 @@ export function georgeVithoulkasPortraitPage() {
     </div>
   `);
 }
+
+export function andyWarholPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-andy-warhol-portrait.jpg" alt="Andy Warhol" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Andy Warhol</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexual Type 5 with a Four Wing</p>
+        <p class="krim-portrait-subtitle">Artist, 1928–1987 – founder of Pop Art, filmmaker, publisher – Animal correspondence: Hedgehog</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hedgehog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Few artists of the 20th century were as omnipresent and simultaneously as unknowable as Andy Warhol. The silver wig, the tinted glasses, the flat, almost monotone way of speaking – behind this carefully constructed surface hid a man who described himself as "a deeply superficial person" and who let almost no one, not even his closest collaborators, see a genuine glimpse of his inner life. That is exactly the signature of the <strong>hedgehog</strong>: a spiny, glossy outer shell that reveals precisely as much as the hedgehog itself can control – and nothing more.</p>
+          <p class="vb-intro">Born Andrew Warhola in Pittsburgh in 1928, the son of Rusyn-Slovak immigrants, he spent several months confined to bed as a child, marked by Sydenham's chorea, a neurological disorder causing uncontrollable movements. In that isolation, surrounded by movie magazines, comic books, and pictures of Hollywood stars on the wall above his bed, he developed the almost obsessive relationship to celebrity and image that would run through his entire later work – not out of imitation, but as an early-learned strategy for approaching an overwhelming world through controlled images rather than direct contact.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The actual achievement: silkscreen as method, not gimmick</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It falls short to describe Warhol merely as a skilled self-promoter who happened to be in the right place at the right time. Before turning to painting in 1961/62, he was already one of New York's best-paid and most sought-after commercial illustrators – working for clients such as the shoe brand I. Miller – celebrated for his precise, elegant line work. That commercial mastery was the foundation for his actual breakthrough: from 1962 on, he consistently applied photographic silkscreen printing, a reproduction technique borrowed from the advertising industry, to fine art – in the "Campbell's Soup Cans," the "Marilyn Diptych," and later "Mao" or the "Brillo Boxes."</p>
+          <p class="vb-intro">This was not a technical trick but a radical conceptual thesis: Warhol recognized that in a world of mass-produced goods, newspaper photographs, and television images, the distinction between "high art" and industrial reproduction had already collapsed – and that fame itself functioned like a mass-produced commodity, interchangeable, repeatable, devalued through oversaturation. He deliberately named his studio "The Factory" and had assistants help produce works on an assembly-line basis while he himself controlled the design and selection – "I want to be a machine," he said, meaning the deliberate erasure of visible artistic handwriting in favor of a cool, serial repetition that was precisely what gave the images their hypnotic force.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The sexual Five: exclusive intensity instead of cool distance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Five (SX5)</strong> differs from the self-preservation Five through its almost volcanic, outwardly barely visible longing for the one, total connection. In Warhol this showed not through grand gesture but through a few unusually close, long-term bonds within an apparently endless circle of acquaintances: for twelve years, from 1968 to 1980, he lived together with filmmaker Jed Johnson – one of the most stable, most private relationships of his life, about which he revealed almost nothing publicly, while treating hundreds of celebrities, collectors, and Factory "superstars" with surface-level distance.</p>
+          <p class="vb-intro">The same pattern showed in his working method: when Warhol turned to a single motif – a face, a can, a dollar sign – he did so with a thoroughness that knew no half-measures, often in dozens of variations on the same source image. This ability to expend himself completely on a single, tightly bounded subject rather than spreading himself across many themes is typically sexual Five – intensity is generated not through breadth, but through radical concentration on the one, chosen object of attention.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Four wing: the secret archive of an identity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four wing (w4)</strong> showed in Warhol not through dramatic display but through an almost compulsive, aesthetically shaped self-documentation. Over decades he filled so-called "Time Capsules" – 610 sealed boxes by the end – with everyday objects, letters, newspaper clippings, and trivia of his life, never opening them again himself. In parallel, from 1976 until his death he dictated his life into a diary almost daily, published only after his death. Neither is a quirk; both express the Four's need to capture a fleeting identity in a lasting, curated form – except that the Five carefully sealed this collection off from any outside eye.</p>
+          <p class="vb-intro">His deep, strictly Catholic religiosity – he attended Mass almost daily and helped anonymously at a New York soup kitchen for years – likewise became known only after his death. This combination of an intense inner world (Four wing) and the decision to keep it entirely invisible (Five core) explains why many contemporaries mistook Warhol for soulless or purely calculating, even though an unusually intense, almost ascetic inner life lay beneath the glossy surface.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Withdrawal in the middle of a crowd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Factory was full of people around the clock – actors, musicians, collectors, outsiders – and yet Warhol himself was often the least present person in the room: he observed from behind sunglasses, spoke little, and frequently carried a tape recorder he jokingly called "my wife" – recording instead of direct participation, observation instead of disclosure. That is the classic hedgehog mechanism: being present in the middle of the commotion without ever laying down one's own quills.</p>
+          <p class="vb-intro">In 1968, Factory visitor Valerie Solanas shot Warhol and wounded him critically – he barely survived and had to wear a surgical corset for the rest of his life. Afterward he largely closed the Factory to walk-in visitors, let almost no one near him unvetted, and until his death avoided appearing without a shirt in front of anyone – even close partners – out of shame over the scars. An attack on the vulnerable, soft interior produced exactly what one would expect of the hedgehog: quills drawn even sharper and tighter than before.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX5w4 shows in Warhol's ability to give every single motif – whether Marilyn Monroe, a soup can, or an unknown patron who could afford a commissioned portrait – the same concentrated, almost devotional attention, thereby elevating it into an icon. His famous line that in the future "everyone will be world-famous for fifteen minutes" was less cynicism than the democratizing consequence of this basic stance: if attention is the real currency, in principle every face deserves the same intense gaze.</p>
+          <p class="vb-intro">The shadow shows in the coldness with which he kept real closeness at a distance the moment it demanded too much of him: several Factory companions, above all model and actress Edie Sedgwick, slid into addiction and early death within an environment shaped by drugs and constant observation, while Warhol himself stayed emotionally detached and later showed little sense of responsibility. The same capacity to treat people like image subjects – fascinating to look at, but never truly touched – that made his art so powerful could, in his personal relationships, turn into painful distancing.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx5", label:"SX5 – The Hedgehog: subtype profile"},
+        {route:"lebensmusterkompass/sx5", label:"Life Pattern Compass: SX5 – Hedgehog"},
+        {route:"beruehmte-greta-garbo", label:"Portrait: Greta Garbo (SX5w4)"},
+        {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
+        {route:"beruehmte-tilda-swinton", label:"Portrait: Tilda Swinton (SX5w4)"},
+      ])}
+    </div>
+  `);
+}

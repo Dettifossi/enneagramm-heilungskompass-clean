@@ -1430,6 +1430,7 @@ export function tildaSwintonPortraitPage() {
         {route:"subtype/sx5", label:"SX5 \u2013 Der Igel: Subtyp-Profil"},
         {route:"beruehmte-taylor-swift", label:"Portr\xe4t: Taylor Swift (SX5w4)"},
         {route:"beruehmte-frederic-chopin", label:"Portr\xe4t: Fr\xe9d\xe9ric Chopin (SX5w4)"},
+        {route:"beruehmte-andy-warhol", label:"Portr\xe4t: Andy Warhol (SX5w4)"},
       ])}
     </div>
   `);

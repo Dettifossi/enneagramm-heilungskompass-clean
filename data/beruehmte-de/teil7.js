@@ -690,6 +690,7 @@ export function gretaGarboPortraitPage() {
         {route:"subtype/sx5", label:"SX5 \u2013 Der Igel: Subtyp-Profil"},
         {route:"beruehmte-frederic-chopin", label:"Portr\u00e4t: Fr\u00e9d\u00e9ric Chopin (SX5w4)"},
         {route:"beruehmte-tilda-swinton", label:"Portr\u00e4t: Tilda Swinton (SX5w4)"},
+        {route:"beruehmte-andy-warhol", label:"Portr\u00e4t: Andy Warhol (SX5w4)"},
       ])}
     </div>
   `);

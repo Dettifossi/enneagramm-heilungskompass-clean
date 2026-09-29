@@ -1428,6 +1428,7 @@ export function tildaSwintonPortraitPage() {
         {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
         {route:"beruehmte-taylor-swift", label:"Portrait: Taylor Swift (SX5w4)"},
         {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
+        {route:"beruehmte-andy-warhol", label:"Portrait: Andy Warhol (SX5w4)"},
       ])}
     </div>
   `);
