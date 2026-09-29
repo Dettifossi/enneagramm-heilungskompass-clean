@@ -19986,7 +19986,7 @@ Diese Gewinne entstehen nicht durch Willenskraft allein. Sie entstehen durch Bew
 
 Das Enneagramm hilft, von der Oberfl\u00e4che des Verhaltens in die Tiefe des Bed\u00fcrfnisses zu gehen.
 
-Nicht: Warum tue ich das? \u2013 sondern: Was will ich damit wirklich erreichen? Was bin ich dadurch sicher?
+Nicht: Warum tue ich das? \u2013 sondern: Was will ich damit wirklich erreichen? Wie werde ich dadurch sicher?
 
 Diese Frage \u2013 ehrlich beantwortet \u2013 kann alles ver\u00e4ndern.`,
     impuls: `Was treibt dich heute an \u2013 was du dir auch selbst nicht immer eingestehst? Und was steckt dahinter: Was willst du damit wirklich?`,
