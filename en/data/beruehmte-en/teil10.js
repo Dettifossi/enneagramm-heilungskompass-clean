@@ -2260,6 +2260,7 @@ export function davidHockneyPortraitPage() {
         {route:"subtype/so5", label:"SO5 – The Octopus: subtype profile"},
         {route:"beruehmte-albert-einstein", label:"Portrait: Dr. Albert Einstein (SO5w4)"},
         {route:"beruehmte-claudio-naranjo", label:"Portrait: Dr. Claudio Naranjo (SO5w4)"},
+        {route:"beruehmte-abdul-hayy-holdijk", label:"Portrait: Dr. Abdul Hayy Holdijk (SO5w4)"},
       ])}
     </div>
   `);

@@ -2292,3 +2292,68 @@ export function archimedesPortraitPage() {
     </div>
   `);
 }
+
+export function abdulHayyHoldijkPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-abdul-hayy-holdijk-portrait.jpg" alt="Dr. Abdul Hayy Holdijk" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Abdul Hayy Holdijk</p>
+        <p class="krim-portrait-typ">SO5w4 · Social Type 5 with Four Wing</p>
+        <p class="krim-portrait-subtitle">Dutch Sufi sheikh, homeopath, and Enneagram teacher – animal correspondence: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Octopus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five – the most intelligent invertebrate on earth, thinking in systems, quietly networking, and acting with astonishing precision. Abdul Hayy Holdijk was born in the Netherlands and grew up partly in Germany before studying at universities in the United States and London. As a young man, travels took him to Sri Lanka, Beirut, and Damascus – in a mosque in Damascus, he found what he himself calls his "spiritual home" with an English-speaking Sufi sheikh.</p>
+          <p class="vb-intro">He has now followed this Sufi path for around forty years and has become a sheikh himself – an authority grown over decades and embedded in a concrete spiritual tradition, not a spontaneous stage persona.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Five: Knowledge Made Available to the Community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Five (SO5)</strong> differs from the other Five subtypes in that its knowledge isn't hoarded in pure withdrawal, but actively passed on to a community or tradition – the role of the knowledge-keeper who teaches, rather than closing off. Holdijk taught for several years at the American University of Beirut and afterward for 35 years at the American University in Cairo – decades of consistent institutional teaching rather than a freelance, solitary career.</p>
+          <p class="vb-intro">At the same time, he co-founded the Egyptian Society of Homeopathy and was one of the first to systematically organize homeopathic training in Egypt – with a three-year training program run in cooperation with the UK's Lakeland College of Homeopathy, which he later extended to Lebanon, Jordan, and Saudi Arabia. Knowledge here isn't kept to himself, but consistently translated into durable, repeatable educational structures for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Professional Substance: From Homeopathy to Teaching the Enneagram</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Holdijk earned diplomas under Robin Murphy and at the London International College of Homeopathy, and in 2011 published "A Brief History of Homeopathy in Egypt" – a professional account of the history of his own field in the region. With H2RC2 (the Holistic and Homeopathic Resource Consulting Center), which he runs, he created a lasting institutional home rather than a mere solo practice.</p>
+          <p class="vb-intro">Beyond homeopathy, he now teaches the Enneagram, shadow work, Voice Dialogue, and dream interpretation, and leads spiritual retreats in Lebanon, Egypt, and Oman. In 2026 he appeared as a speaker at the IEA Egypt Conference of the International Enneagram Association – a field in which he is both taught and teaches, rather than remaining a mere consumer of others' knowledge.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Four Wing: Mystical Depth Rather Than Pure Systematics</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four wing (w4)</strong> shows in Holdijk as a pronounced introspective, emotionally mystical note that goes beyond pure expertise. His decades of Sufi practice, his engagement with dream interpretation and shadow work, and his own publicly told journey to a "spiritual home" all reveal a deep, personally lived engagement with his inner world – not merely detached systems thinking.</p>
+          <p class="vb-intro">In a podcast interview, he put it aptly himself: "Religion is like a shell, like a walnut. It's rigid, it's inflexible, but it protects what's inside." This image combines the SO5-typical appreciation for a sturdy outer system with the Four-typical conviction that something deeply personal and vulnerable must be protected within it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO5w4 is the ability to <strong>weave decades of grounded knowledge across several disciplines into a coherent teaching authority</strong> – homeopathy, Sufism, and the Enneagram aren't pursued separately by Holdijk, but brought together in a single, lived-through teaching figure.</p>
+          <p class="vb-intro">Another of his statements points to the shadow of his own pattern – the necessity of not solving blind spots through more knowledge alone, but through genuine outside guidance: "You can't see how you are stuck ... it needs someone who has less ego than you." That's a rare, Five-typical insight: simply accumulating knowledge doesn't automatically protect against one's own entanglement – that requires relationship, not just more theory.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Octopus Who Networked Traditions of Knowledge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Abdul Hayy Holdijk represents a rare combination: a Western seeker who found his home in a foreign spiritual tradition, and who didn't keep this found knowledge to himself afterward, but institutionally passed it on across several countries and several disciplines at once, for decades.</p>
+          <p class="vb-intro">From the young Dutch traveler who found his sheikh in a Damascus mosque, to co-founder of a national homeopathic professional society and longtime university lecturer: this is the social Five with a Four wing at its most connective – knowledge drawn from genuine inner depth and consistently passed on to a growing community.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: subtype profile"},
+        {route:"beruehmte-david-hockney", label:"Portrait: David Hockney (SO5w4)"},
+        {route:"beruehmte-hannah-arendt", label:"Portrait: Hannah Arendt (SO5w4)"},
+      ])}
+    </div>
+  `);
+}

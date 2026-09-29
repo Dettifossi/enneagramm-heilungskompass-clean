@@ -2298,3 +2298,68 @@ export function sigourneyWeaverPortraitPage() {
     </div>
   `);
 }
+
+export function abdulHayyHoldijkPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-abdul-hayy-holdijk-portrait.jpg" alt="Dr. Abdul Hayy Holdijk" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Abdul Hayy Holdijk</p>
+        <p class="krim-portrait-typ">SO5w4 · Sozialer Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Niederländischer Sufi-Scheich, Homöopath und Enneagramm-Lehrer – Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier der sozialen Fünf – das intelligenteste wirbellose Tier der Erde, das in Systemen denkt, still vernetzt und mit erstaunlicher Präzision agiert. Abdul Hayy Holdijk wurde in den Niederlanden geboren und wuchs teils in Deutschland auf, bevor er an Universitäten in den USA und in London studierte. Als junger Mann führten ihn Reisen nach Sri Lanka, Beirut und Damaskus – in einer Moschee in Damaskus fand er bei einem englischsprachigen Sufi-Scheich das, was er selbst als seine ›spirituelle Heimat‹ bezeichnet.</p>
+          <p class="vb-intro">Seit rund vierzig Jahren folgt er nun bereits diesem Sufi-Pfad und ist selbst zum Scheich geworden – eine über Jahrzehnte gewachsene, in eine konkrete spirituelle Tradition eingebettete Autorität, kein spontanes Bühnenauftreten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Fünf: Wissen, das der Gemeinschaft zur Verfügung gestellt wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Fünf (SO5)</strong> unterscheidet sich von den anderen Fünfer-Subtypen darin, dass ihr Wissen nicht im reinen Rückzug gehortet, sondern aktiv an eine Gemeinschaft oder Tradition weitergegeben wird – die Rolle des Wissens-Hüters, der lehrt, statt sich zu verschließen. Holdijk lehrte mehrere Jahre an der American University in Beirut und danach 35 Jahre an der American University in Cairo – eine über Jahrzehnte konstante institutionelle Lehrtätigkeit statt freischaffender Einzelgängerkarriere.</p>
+          <p class="vb-intro">Parallel dazu war er Mitbegründer der Egyptian Society of Homeopathy und einer der Ersten, die homöopathische Ausbildung in Ägypten systematisch organisierten – mit einem dreijährigen Ausbildungsprogramm in Kooperation mit dem britischen Lakeland College of Homeopathy, das er später auf Libanon, Jordanien und Saudi-Arabien ausweitete. Wissen wird hier nicht für sich behalten, sondern konsequent in tragfähige, wiederholbare Bildungsstrukturen für andere übersetzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die fachliche Substanz: Von der Homöopathie bis zur Enneagramm-Lehre</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Holdijk erwarb Diplome bei Robin Murphy und am London International College of Homeopathy und veröffentlichte 2011 mit ›A Brief History of Homeopathy in Egypt‹ eine fachliche Aufarbeitung der Geschichte seines eigenen Feldes in der Region. Mit dem von ihm betriebenen H2RC2 (Holistic and Homeopathic Resource Consulting Center) schuf er eine dauerhafte institutionelle Anlaufstelle statt einer bloßen Einzelpraxis.</p>
+          <p class="vb-intro">Über die Homöopathie hinaus lehrt er heute Enneagramm, Shadow Work, Voice Dialogue und Traumdeutung und leitet spirituelle Retreats in Libanon, Ägypten und Oman. 2026 trat er als Referent bei der IEA Egypt Conference der International Enneagram Association auf – ein Feld, in dem er selbst gelehrt wird und lehrt, statt nur Konsument fremden Wissens zu bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Viererflügel: Mystische Tiefe statt reiner Systematik</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> zeigt sich bei Holdijk in einer ausgeprägt introspektiven, emotional-mystischen Note, die über reines Fachwissen hinausgeht. Seine jahrzehntelange Sufi-Praxis, seine Beschäftigung mit Traumdeutung und Shadow Work sowie sein eigener, öffentlich erzählter Weg zur ›spirituellen Heimat‹ zeigen eine tiefe, persönlich durchlebte Auseinandersetzung mit der eigenen Innenwelt – nicht nur distanziertes Systemdenken.</p>
+          <p class="vb-intro">In einem Podcast-Interview formulierte er es selbst treffend: ›Religion is like a shell, like a Walnut. It's rigid, it's inflexible, but it protects what's inside‹ – zu Deutsch: ›Religion ist wie eine Schale, wie eine Walnuss. Sie ist starr, sie ist unflexibel, aber sie beschützt das, was innen liegt.‹ Dieses Bild verbindet die SO5-typische Wertschätzung für ein tragfähiges, äußeres System mit der Vierer-typischen Überzeugung, dass darin etwas zutiefst Persönliches, Verletzliches geschützt werden muss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO5w4 ist die Fähigkeit, <strong>über Jahrzehnte hinweg fundiertes Wissen aus mehreren Disziplinen zu einer kohärenten Lehrautorität zu verbinden</strong> – Homöopathie, Sufismus und Enneagramm werden bei Holdijk nicht getrennt nebeneinander betrieben, sondern in einer einzigen, durchlebten Lehrperson zusammengeführt.</p>
+          <p class="vb-intro">Ein weiteres Zitat von ihm verweist auf den Schatten seines eigenen Musters – die Notwendigkeit, blinde Flecken nicht allein durch noch mehr Wissen zu lösen, sondern durch echte äußere Anleitung: ›You can't see how you are stuck … it needs someone who has less ego than you‹ – zu Deutsch: ›Man kann nicht selbst sehen, wo man feststeckt … dafür braucht es jemanden mit weniger Ego als man selbst hat.‹ Das ist eine seltene, für die Fünf typische Erkenntnis: Reines Ansammeln von Wissen schützt nicht automatisch vor der eigenen Verstrickung – dafür braucht es Beziehung, nicht nur weitere Theorie.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Der Oktopus, der Wissenstraditionen miteinander vernetzte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Abdul Hayy Holdijk steht für eine seltene Kombination: ein westlicher Sucher, der in einer fremden spirituellen Tradition seine Heimat fand, und der dieses gefundene Wissen anschließend nicht für sich behielt, sondern über Jahrzehnte in mehreren Ländern und mehreren Disziplinen gleichzeitig institutionell weitergab.</p>
+          <p class="vb-intro">Vom jungen niederländischen Reisenden, der in einer Damaszener Moschee seinen Scheich fand, zum Mitbegründer einer nationalen homöopathischen Fachgesellschaft und langjährigen Universitätsdozenten: Das ist die soziale Fünf mit Viererflügel in ihrer verbindendsten Form – Wissen, das aus echter innerer Tiefe geschöpft und konsequent an eine wachsende Gemeinschaft weitergegeben wird.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-david-hockney", label:"Porträt: David Hockney (SO5w4)"},
+        {route:"beruehmte-hannah-arendt", label:"Porträt: Hannah Arendt (SO5w4)"},
+      ])}
+    </div>
+  `);
+}

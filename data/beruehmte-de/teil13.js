@@ -1069,7 +1069,7 @@ export function michelleObamaPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Acht: Solidarit\u00e4t</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> ist der Subtyp, den Naranjo <em>Solidarit\u00e4t</em> nannte. Die SO8 setzt ihre Kraft in den Dienst der Gruppe &ndash; der Familie, der Gemeinschaft, des Volkes. Sie kann \u00e4u\u00dferlich sanfter wirken als die anderen Acht-Subtypen, aber untersch\u00e4tzen sollte man sie nicht: Wer ihr Rudel angreift, bekommt die volle Kraft der Acht zu sp\u00fcren.</p>
+          <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> ist der Subtyp, den Naranjo <em>Solidarit\u00e4t</em> nannte. Die SO8 setzt ihre Kraft in den Dienst der Gruppe &ndash; der Familie, der Gemeinschaft, des Volkes. Sie kann \u00e4u\u00dferlich sanfter wirken als die anderen Achter-Subtypen, aber untersch\u00e4tzen sollte man sie nicht: Wer ihr Rudel angreift, bekommt die volle Kraft der Acht zu sp\u00fcren.</p>
           <p class="vb-intro">Michelle Obama wuchs auf der South Side von Chicago auf, in einer Arbeiterfamilie. Ihr Vater Fraser Robinson arbeitete trotz multipler Sklerose jahrzehntelang im Schichtdienst und verpasste keinen einzigen Arbeitstag. Diese Loyalit\u00e4t pr\u00e4gte sie: Man k\u00e4mpft f\u00fcr die, die man liebt. Man l\u00e4sst niemanden zur\u00fcck. Sie studierte in Princeton und Harvard, aber sie verleugnete nie, woher sie kam &ndash; und diese Verwurzelung ist typisch f\u00fcr die SO8. Die St\u00e4rke kommt aus dem Wir, nicht trotz ihm.</p>
         </blockquote>
 
