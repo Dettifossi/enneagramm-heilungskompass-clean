@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2424", date: "2026-09-29", text: "Neues Porträt: Lorne Greene (SE3w2) – Ben Cartwright in ›Bonanza‹, Commander Adama in ›Kampfstern Galactica‹.", text_en: "New portrait: Lorne Greene (SE3w2) – Ben Cartwright in 'Bonanza,' Commander Adama in 'Battlestar Galactica.'", route: "beruehmte-lorne-greene" },
     { version: "v2423", date: "2026-09-29", text: "Neues Porträt: Andy Warhol (SX5w4) – Begründer der Pop Art, Siebdruck-Pionier.", text_en: "New portrait: Andy Warhol (SX5w4) – founder of Pop Art, silkscreen pioneer.", route: "beruehmte-andy-warhol" },
     { version: "v2422", date: "2026-09-29", text: "Neues Porträt: Markus Söder (SX8w9) – bayerischer Ministerpräsident und CSU-Vorsitzender.", text_en: "New portrait: Markus Söder (SX8w9) – Bavarian State Premier and CSU chairman.", route: "beruehmte-markus-soeder" },
     { version: "v2421", date: "2026-09-29", text: "Neues Porträt: Dr. Ulrich Ott (SO6w5) – deutscher Neurowissenschaftler und Meditationsforscher.", text_en: "New portrait: Dr. Ulrich Ott (SO6w5) – German neuroscientist and meditation researcher.", route: "beruehmte-ulrich-ott" },

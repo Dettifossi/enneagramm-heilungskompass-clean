@@ -914,6 +914,7 @@ export function langLangPortraitPage() {
         {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4)"},
         {route:"beruehmte-halle-berry", label:"Portrait: Halle Berry (SE3w2)"},
         {route:"beruehmte-audrey-tautou", label:"Portrait: Audrey Tautou (SE3w2)"},
+        {route:"beruehmte-lorne-greene", label:"Portrait: Lorne Greene (SE3w2)"},
       ])}
     </div>
   `);

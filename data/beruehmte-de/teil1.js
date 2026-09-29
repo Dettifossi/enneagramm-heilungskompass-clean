@@ -192,6 +192,7 @@ export function bastianPastewkaPortraitPage() {
         {route:"beruehmte-anke-engelke", label:"Porträt: Anke Engelke (SX6w7)"},
         {route:"beruehmte-horst-tappert", label:"Porträt: Horst Tappert (SE3w2)"},
         {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
+        {route:"beruehmte-lorne-greene", label:"Porträt: Lorne Greene (SE3w2)"},
       ])}
     </div>
   `);

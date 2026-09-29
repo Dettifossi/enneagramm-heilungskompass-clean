@@ -733,6 +733,7 @@ export function horstTappertPortraitPage() {
         {route:"beruehmte-fritz-wepper", label:"Portrait: Fritz Wepper (SP1w9) – Derrick partner"},
         {route:"beruehmte-bastian-pastewka", label:"Portrait: Bastian Pastewka (SP3w2)"},
         {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SP3w2)"},
+        {route:"beruehmte-lorne-greene", label:"Portrait: Lorne Greene (SE3w2)"},
       ])}
     </div>
   `);

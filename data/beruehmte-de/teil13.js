@@ -916,6 +916,7 @@ export function langLangPortraitPage() {
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
         {route:"beruehmte-cheyenne-ochsenknecht", label:"Porträt: Cheyenne Ochsenknecht (SE3w4)"},
         {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SE3w2)"},
+        {route:"beruehmte-lorne-greene", label:"Porträt: Lorne Greene (SE3w2)"},
       ])}
     </div>
   `);
@@ -2301,6 +2302,66 @@ export function evanBatesPortraitPage() {
         {route:"beruehmte-sebastian-urzendowsky", label:"Porträt: Sebastian Urzendowsky (SE4w3)"},
         {route:"beruehmte-nicolas-cage", label:"Porträt: Nicolas Cage (SE4w3)"},
         {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+export function lorneGreenePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lorne-greene-portrait.jpg" alt="Lorne Greene" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lorne Greene</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler und Nachrichtensprecher, 1915–1987 – Ben Cartwright in „Bonanza", Commander Adama in „Kampfstern Galactica" – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei – unermüdlich, methodisch, und mit einer Sicherheit ausgestattet, die aus nachweisbarem Können wächst statt aus lauter Selbstdarstellung. Lorne Greene, geboren 1915 als Lyon Himan Green in Ottawa, Sohn russisch-jüdischer Einwanderer, begann seine Karriere nicht als Schauspieler, sondern als Chemiestudent, der nebenbei fürs Universitätsradio sprach. Aus diesem Nebenjob wurde eine der prägendsten Stimmen Kanadas.</p>
+          <p class="vb-intro">Während des Zweiten Weltkriegs verlas er als Chefsprecher der CBC die nationalen Nachrichten – oft die schwersten Kriegsmeldungen des Tages –, mit einer so ruhigen, tiefen und unerschütterlichen Autorität, dass ihm die Öffentlichkeit den Beinamen „The Voice of Doom" (die Stimme des Schicksals) gab. Keine Show, kein früher Senkrechtstart als Schauspieler, sondern der geduldige Aufbau von Vertrauenswürdigkeit über Jahre am Mikrofon – der klassische Waschbär-Weg zur Sicherheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die eigentliche Leistung: ein Instrument, diszipliniert bis zur Perfektion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Es würde zu kurz greifen, Greenes Erfolg allein auf eine „gute Stimme" zurückzuführen. Sein charakteristischer, außergewöhnlich voller Bass-Bariton war eine natürliche Gabe – aber was daraus ein jahrzehntelang tragfähiges Instrument machte, war die Präzision, mit der er ihn einsetzte: makellose Diktion, ein kontrolliertes, nie hektisches Sprechtempo und eine Fähigkeit, selbst dramatische Inhalte mit einer Ruhe zu vermitteln, die beim Publikum sofortiges Vertrauen erzeugte. Genau dieser Stil wurde zum Referenzpunkt für seriösen Rundfunkjournalismus in Kanada und prägte eine ganze Generation von Sprechern.</p>
+          <p class="vb-intro">Als er später zur Schauspielerei wechselte, übertrug er dieselbe disziplinierte Handwerklichkeit auf ganz unterschiedliche Rollen: den patriarchalischen Ranchbesitzer Ben Cartwright im Western „Bonanza" (1959–1973, 431 Folgen) ebenso glaubwürdig wie den kriegsmüden Flottenkommandanten Adama in der Science-Fiction-Serie „Kampfstern Galactica" (1978/79). Zwei völlig verschiedene Genres, zwei völlig verschiedene Weltentwürfe – aber dieselbe Fähigkeit, Autorität nicht zu spielen, sondern glaubhaft zu verkörpern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die selbsterhaltende Drei: Sicherheit durch beweisbare Kontinuität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist der Kontratyp der Drei – Sicherheit entsteht hier nicht durch wechselndes Image, sondern durch über Jahre bewiesene Verlässlichkeit. Naranjo nannte diesen Subtyp <em>Sicherheit</em>: Man verdient sich Vertrauen nicht durch Neuerfindung, sondern indem man dieselbe Qualität wieder und wieder liefert. Vierzehn Staffeln lang, von 1959 bis 1973, war Greene als Ben Cartwright das ruhige, tragende Zentrum von „Bonanza" – eine der am längsten laufenden Westernserien der US-Fernsehgeschichte.</p>
+          <p class="vb-intro">Bezeichnend ist auch, wie Greene sein bereits etabliertes Standing pragmatisch in neue Bereiche übertrug: 1964 nahm er mit „Ringo" eine gesprochene Ballade auf, ohne je professioneller Sänger gewesen zu sein – und die Single erreichte Platz eins der US-Billboard-Charts. Kein künstlerisches Wagnis um seiner selbst willen, sondern die nüchterne Nutzung einer bereits vorhandenen, glaubwürdigen Stimme für ein neues Format – typisch SE3.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Zweierflügel: Fürsorge als Lebensthema, auf der Leinwand und daneben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> zeigt sich bei Greene in einer durchgängigen Neigung, Verlässlichkeit mit echter Fürsorge zu verbinden. Als Ben Cartwright war er nicht nur der Chef der Ponderosa-Ranch, sondern eine warme, beschützende Vaterfigur für seine drei sehr unterschiedlichen Söhne – eine Rolle, die er über Jahre so glaubwürdig ausfüllte, dass Millionen Zuschauer ihn tatsächlich wie einen eigenen Vater wahrnahmen. Als Commander Adama trug er später fast wortgleich dieselbe Funktion: der besonnene Anführer, der eine ganze geflüchtete Zivilisation sicher durch die Galaxis führt.</p>
+          <p class="vb-intro">Diese Fürsorge blieb nicht auf die Leinwand beschränkt. 1953 gründete Greene die Academy of Radio Arts in Toronto, um jungen Sprecherinnen und Sprechern jene disziplinierte Rundfunkausbildung weiterzugeben, die seine eigene Karriere getragen hatte. Und mit der Naturdokumentation „Lorne Greene's New Wilderness" in den 1980er-Jahren übertrug er dasselbe Fürsorge-Muster auf gefährdete Tierarten – eine über Jahrzehnte konsequente Linie, in der Wissen, Sicherheit und Sorge um andere untrennbar zusammengehören.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w2 zeigt sich bei Greene in der seltenen Fähigkeit, über Jahrzehnte hinweg als verlässlicher Anker wahrgenommen zu werden – ob als Kriegszeit-Nachrichtensprecher, als Fernsehvater oder als Retter einer fiktiven Menschheit –, ohne dass diese Konstanz je hohl oder aufgesetzt wirkte. Seine Autorität wurde nicht behauptet, sondern über tausende Sendestunden und Drehtage Stück für Stück verdient.</p>
+          <p class="vb-intro">Der Schatten der selbsterhaltenden Drei liegt in der Gefahr, die eigene Identität so eng an die verlässliche, kompetente Fassade zu binden, dass für alles andere kaum Raum bleibt. Greene selbst wurde von Kollegen als beruflich äußerst diszipliniert, aber privat eher zurückhaltend beschrieben – jemand, der die eigene Person konsequent hinter die professionelle Rolle stellte, was zwar Sicherheit und Vertrauen erzeugte, aber auch eine gewisse Distanz zu sich selbst mit sich brachte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-horst-tappert", label:"Porträt: Horst Tappert (SE3w2)"},
+        {route:"beruehmte-bastian-pastewka", label:"Porträt: Bastian Pastewka (SE3w2)"},
+        {route:"beruehmte-lang-lang", label:"Porträt: Lang Lang (SE3w2)"},
       ])}
     </div>
   `);

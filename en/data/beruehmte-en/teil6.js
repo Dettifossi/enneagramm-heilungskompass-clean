@@ -2298,3 +2298,63 @@ export function sigourneyWeaverPortraitPage() {
     </div>
   `);
 }
+
+export function lorneGreenePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lorne-greene-portrait.jpg" alt="Lorne Greene" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lorne Greene</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Self-Preservation Type 3 with a Two Wing</p>
+        <p class="krim-portrait-subtitle">Actor and newscaster, 1915–1987 – Ben Cartwright in "Bonanza," Commander Adama in "Battlestar Galactica" – Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three – tireless, methodical, and equipped with a security that grows from demonstrable competence rather than loud self-presentation. Lorne Greene, born Lyon Himan Green in Ottawa in 1915, the son of Russian-Jewish immigrants, began his career not as an actor but as a chemistry student who spoke on the side for university radio. That side job grew into one of the most defining voices in Canada.</p>
+          <p class="vb-intro">During the Second World War, he read the national news as CBC's chief announcer – often the heaviest war reports of the day – with a calm, deep, unshakeable authority that earned him the nickname "The Voice of Doom" from the public. No showmanship, no early meteoric rise as an actor, but the patient building of trustworthiness over years at the microphone – the classic raccoon's path to security.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The actual achievement: an instrument disciplined to perfection</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It would fall short to attribute Greene's success solely to a "good voice." His distinctive, unusually full bass-baritone was a natural gift – but what turned it into an instrument that carried a decades-long career was the precision with which he used it: immaculate diction, a controlled, never hurried pace of speech, and an ability to convey even dramatic content with a calm that produced immediate trust in audiences. That exact style became the reference point for serious broadcast journalism in Canada and shaped an entire generation of announcers.</p>
+          <p class="vb-intro">When he later moved into acting, he carried the same disciplined craft into very different roles: the patriarchal ranch owner Ben Cartwright in the western "Bonanza" (1959–1973, 431 episodes) as convincingly as the war-weary fleet commander Adama in the science-fiction series "Battlestar Galactica" (1978/79). Two entirely different genres, two entirely different worlds – but the same ability to embody authority rather than merely perform it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The self-preservation Three: security through provable continuity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SE3)</strong> is the countertype of the Three – security here arises not through a shifting image but through reliability proven over years. Naranjo called this subtype <em>Security</em>: trust is earned not through reinvention, but by delivering the same quality again and again. For fourteen seasons, from 1959 to 1973, Greene was, as Ben Cartwright, the calm, load-bearing center of "Bonanza" – one of the longest-running western series in US television history.</p>
+          <p class="vb-intro">It is telling how pragmatically Greene carried his already-established standing into new territory: in 1964 he recorded "Ringo," a spoken-word ballad, without ever having been a professional singer – and the single reached number one on the US Billboard charts. Not an artistic risk taken for its own sake, but the sober use of an already established, trusted voice for a new format – typically SE3.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Two wing: care as a life theme, on screen and off</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two wing (w2)</strong> shows in Greene through a consistent tendency to pair reliability with genuine care. As Ben Cartwright he was not only the head of the Ponderosa Ranch but a warm, protective father figure for his three very different sons – a role he inhabited so convincingly over the years that millions of viewers genuinely experienced him as a father of their own. As Commander Adama he later carried almost the identical function: the level-headed leader who guides an entire displaced civilization safely through the galaxy.</p>
+          <p class="vb-intro">This care did not stay confined to the screen. In 1953 Greene founded the Academy of Radio Arts in Toronto to pass on to young announcers the disciplined broadcast training that had carried his own career. And with the nature documentary series "Lorne Greene's New Wilderness" in the 1980s, he carried the same caretaking pattern over to endangered species – a consistent thread across decades, in which knowledge, security, and concern for others are inseparably linked.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the self-preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE3w2 shows in Greene's rare ability to be perceived as a reliable anchor across decades – whether as a wartime newscaster, a television father, or the savior of a fictional humanity – without that constancy ever feeling hollow or put on. His authority was never claimed; it was earned, piece by piece, over thousands of broadcast hours and shooting days.</p>
+          <p class="vb-intro">The shadow of the self-preservation Three lies in the risk of binding one's own identity so tightly to the reliable, competent facade that little room remains for anything else. Colleagues described Greene as extremely disciplined professionally but rather reserved in private – someone who consistently put the professional role ahead of the person, which produced security and trust but also carried a certain distance from himself.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype profile"},
+        {route:"beruehmte-horst-tappert", label:"Portrait: Horst Tappert (SE3w2)"},
+        {route:"beruehmte-bastian-pastewka", label:"Portrait: Bastian Pastewka (SE3w2)"},
+        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
