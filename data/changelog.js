@@ -2,7 +2,6 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
-    { version: "v2423", date: "2026-09-29", text: "Neues Porträt: Dr. Abdul Hayy Holdijk (SO5w4) – niederländischer Sufi-Scheich, Homöopath und Enneagramm-Lehrer.", text_en: "New portrait: Dr. Abdul Hayy Holdijk (SO5w4) – Dutch Sufi sheikh, homeopath and Enneagram teacher.", route: "beruehmte-abdul-hayy-holdijk" },
     { version: "v2422", date: "2026-09-29", text: "Neues Porträt: Markus Söder (SX8w9) – bayerischer Ministerpräsident und CSU-Vorsitzender.", text_en: "New portrait: Markus Söder (SX8w9) – Bavarian State Premier and CSU chairman.", route: "beruehmte-markus-soeder" },
     { version: "v2421", date: "2026-09-29", text: "Neues Porträt: Dr. Ulrich Ott (SO6w5) – deutscher Neurowissenschaftler und Meditationsforscher.", text_en: "New portrait: Dr. Ulrich Ott (SO6w5) – German neuroscientist and meditation researcher.", route: "beruehmte-ulrich-ott" },
     { version: "v2420", date: "2026-09-28", text: "Neues Porträt: Adriano Celentano (SX7w8) – italienischer Sänger, Schauspieler und Regisseur.", text_en: "New portrait: Adriano Celentano (SX7w8) – Italian singer, actor and director.", route: "beruehmte-adriano-celentano" },

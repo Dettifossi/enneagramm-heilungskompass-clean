@@ -1702,7 +1702,6 @@ export function hannahArendtPortraitPage() {
         {route:"beruehmte-albert-einstein", label:"Portr\u00e4t: Albert Einstein (SO5w4) \u2013 auffallend \u00e4hnliche Blickqualit\u00e4t und Gesichtsz\u00fcge"},
         {route:"beruehmte-lise-meitner", label:"Portr\u00e4t: Lise Meitner (SO5w4) \u2013 Physikerin, Flucht aus Nazi-Deutschland"},
         {route:"krankheitsportraets-hannah-arendt", label:"Krankheitsportr\u00e4t: Hannah Arendt (SO5w4) \u2013 Rauchen und Herzinfarkte"},
-        {route:"beruehmte-abdul-hayy-holdijk", label:"Portr\u00e4t: Dr. Abdul Hayy Holdijk (SO5w4)"},
       ])}
     </div>
   `);

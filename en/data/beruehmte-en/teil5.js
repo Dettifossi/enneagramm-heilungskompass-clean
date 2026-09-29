@@ -1702,7 +1702,6 @@ export function hannahArendtPortraitPage() {
         {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4) – strikingly similar gaze quality and facial features"},
         {route:"beruehmte-lise-meitner", label:"Portrait: Lise Meitner (SO5w4) – physicist, fled Nazi Germany"},
         {route:"krankheitsportraets-hannah-arendt", label:"Illness Portrait: Hannah Arendt (SO5w4) – smoking and heart attacks"},
-        {route:"beruehmte-abdul-hayy-holdijk", label:"Portrait: Dr. Abdul Hayy Holdijk (SO5w4)"},
       ])}
     </div>
   `);
