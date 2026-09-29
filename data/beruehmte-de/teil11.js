@@ -436,6 +436,7 @@ export function donaldTrumpPortraitPage() {
         {route:"subtype/sx8", label:"SX8 \u2013 Das Krokodil: Subtyp-Profil"},
         {route:"beruehmte-bud-spencer", label:"Portr\u00e4t: Bud Spencer (SO8w9)"},
         {route:"beruehmte-michelle-obama", label:"Portr\u00e4t: Michelle Obama (SO8w7)"},
+        {route:"beruehmte-markus-soeder", label:"Portr\u00e4t: Markus S\u00f6der (SX8w9) \u2013 dieselbe Grundintensit\u00e4t, ausgleichenderer Fl\u00fcgel"},
       ])}
     </div>
   `);

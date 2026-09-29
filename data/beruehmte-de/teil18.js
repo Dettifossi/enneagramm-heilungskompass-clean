@@ -2292,3 +2292,67 @@ export function georgeVithoulkasPortraitPage() {
     </div>
   `);
 }
+
+export function markusSoederPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-markus-soeder-portrait.jpg" alt="Markus Söder" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Markus Söder</p>
+        <p class="krim-portrait-typ">SX8w9 · Sexueller Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Bayerischer Ministerpräsident, geb. 1967 – Tierentsprechung: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Krokodil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier der sexuellen Acht – still, bis es handelt, dann mit voller Kraft, intensiv in der Verbindung, unerbittlich in der Verfolgung seiner Ziele. Markus Söder wurde 1967 in Nürnberg als Sohn eines Maurermeisters geboren, trat bereits mit 16 Jahren in die Junge Union ein und promovierte nach seinem Jurastudium in Erlangen. Von 1995 bis 2003 führte er als Landesvorsitzender die bayerische Junge Union, danach als CSU-Generalsekretär die Parteizentrale.</p>
+          <p class="vb-intro">Über verschiedene Ministerämter – Europaangelegenheiten, Umwelt, Gesundheit, zuletzt über sieben Jahre Finanzen – arbeitete er sich systematisch zur Staatsspitze vor: Seit März 2018 ist er bayerischer Ministerpräsident, seit Januar 2019 zusätzlich CSU-Bundesvorsitzender. Kein Zufallsaufstieg, sondern eine über Jahrzehnte konsequent verfolgte Machtlaufbahn.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Acht: Machtspiel als Werben um die eine große Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Acht (SX8)</strong> unterscheidet sich von den anderen Acht-Subtypen darin, dass ihre Kraft sich nicht auf ein ganzes System oder eine ganze Gruppe richtet, sondern sich intensiv auf die eine entscheidende Konfrontation, die eine große Bühne oder den einen zentralen Gegner konzentriert – Macht als Werben um Aufmerksamkeit und Anerkennung, nicht als leises Verwalten. Söders offener Machtkampf mit Armin Laschet um die Unions-Kanzlerkandidatur im April 2021 zeigt dieses Muster in Reinform: ein öffentlich ausgetragenes Ringen um die eine Position, bei dem er zwar selbst nicht Kandidat wurde, aber maßgeblich Laschets Stellung schwächte – Medien nannten ihn danach den ›Kanzlerkandidatenschreck‹.</p>
+          <p class="vb-intro">Auch seine mediale Selbstinszenierung folgt demselben Muster: Er gilt in politischen Kommunikationsanalysen explizit als eine Art König der bewussten Selbstinszenierung, mit einer durchgestylten Instagram-Präsenz aus kuratierten Fotostrecken und Stadion-Auftritten. Nicht stille Verwaltung im Hintergrund, sondern die eigene Person als zentrale, unübersehbare Figur der Bühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die politische Substanz: Konsequente Ämterlaufbahn mit taktischen Kurswechseln</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Finanzminister von 2011 bis 2018 konsolidierte Söder den bayerischen Haushalt – eine fachlich reale, überprüfbare Leistung jenseits reiner Bühnenpräsenz. Zugleich ist er für markante, öffentlich diskutierte Positionswechsel bekannt: als Umweltminister ursprünglich vehementer Verfechter des Atomausstiegs (mit angedrohtem Rücktritt, falls Bayern nicht rechtzeitig aussteige), als Ministerpräsident später Vorstoß für eine Rückkehr zu Mini-Atomkraftwerken, den er wieder fallenließ, als er politisch nicht tragfähig war. Ähnliche Kehrtwenden gab es beim Nichtraucherschutz und bei Studiengebühren.</p>
+          <p class="vb-intro">Ab 2019 positionierte er sich zudem auffällig klimapolitisch, erklärte Klimaschutz zur ›Chefsache‹ – was ihm sowohl Anerkennung als auch den Vorwurf des Ökopopulismus einbrachte. Kommentatoren prägten dafür den Begriff des ›Wendehalses‹, der Positionen wechsle ›wie Unterhosen‹. Aus SX8-Perspektive lässt sich das als taktisches Machtspiel lesen: Positionen werden nicht aus starrem Prinzip verteidigt, sondern dort eingenommen, wo sich im jeweiligen Moment die größte Wirkung erzielen lässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Neunerflügel: Geordnetes Weiterregieren statt anhaltender Eskalation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> zeigt sich bei Söder weniger in offener Härte als in der Art, wie er mit einer echten Niederlage umging. Nach der gescheiterten Kanzlerkandidatur 2021 und der anschließenden Wahlniederlage der Union im September 2021 wird ihm eine Phase des Rückzugs zugeschrieben – kein fortgesetztes offenes Eskalieren gegen Laschet oder später Merz, sondern ein stilles Zurücktreten von der Bundesbühne und ein geordnetes Weiterführen seines Amtes als bayerischer Ministerpräsident.</p>
+          <p class="vb-intro">Diese Fähigkeit, nach einer verlorenen großen Konfrontation nicht in Dauerfehde zu verharren, sondern zur ausgleichenden, amtsführenden Normalität zurückzukehren, unterscheidet eine 8w9 von einer konfrontativeren 8w7, die eher weiter Reibung suchen würde. Die Intensität der SX8 bleibt dabei erhalten – sie richtet sich nur wieder auf die konkrete, verwaltbare bayerische Bühne statt auf einen offenen Dauerkonflikt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Acht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX8w9 ist die Fähigkeit, <strong>echte politische Substanz mit intensiver, aufmerksamkeitsstarker Präsenz</strong> zu verbinden – ein solide konsolidierter Landeshaushalt und eine durchgehend hohe öffentliche Sichtbarkeit müssen sich nicht ausschließen, wenn beides von derselben Person getragen wird.</p>
+          <p class="vb-intro">Der Schatten liegt in der Gefahr, dass taktische Positionswechsel den Eindruck erwecken, es gehe primär um die eigene Bühne und weniger um eine konsistente Überzeugung – der Wendehals-Vorwurf trifft genau diesen wunden Punkt. Was als Stärke beginnt (Flexibilität, Reaktionsschnelligkeit auf veränderte politische Lagen), kann als Prinzipienlosigkeit gelesen werden, wenn die Kurswechsel zu häufig oder zu offensichtlich opportunistisch wirken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Das Krokodil, das nach der Niederlage weiterregierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Markus Söder steht für eine seltene Kombination aus jahrzehntelang konsequent verfolgter Machtlaufbahn, intensiver medialer Selbstinszenierung und der Fähigkeit, nach einer öffentlich verlorenen Kraftprobe nicht in Dauerkonflikt zu verharren, sondern in geordnetes Regierungshandeln zurückzufinden.</p>
+          <p class="vb-intro">Vom Maurersohn aus Nürnberg, der mit 16 in die Junge Union eintrat, zum bayerischen Ministerpräsidenten und CSU-Bundesvorsitzenden, der auch nach der verlorenen Kanzlerkandidatur weiterregiert: Das ist die sexuelle Acht mit Neunerflügel in ihrer politisch wirksamsten Form – Intensität, die sich nach einer verlorenen Schlacht nicht auflöst, sondern in die nächste verwaltbare Bühne umlenkt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
+        {route:"beruehmte-donald-trump", label:"Porträt: Donald Trump (SX8w7) – dieselbe Grundintensität, konfrontativerer Flügel"},
+      ])}
+    </div>
+  `);
+}

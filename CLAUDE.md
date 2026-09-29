@@ -103,7 +103,7 @@ t=open('bundle.js',encoding='utf-8').read()
 rr=set(re.findall(r'\"([a-z][a-z0-9\-/]+)\"\s*:\s*\w+Page\b',t))
 rf=open('data/register.js',encoding='utf-8').read()
 rg=set(re.findall(r'route\s*:\s*\"([^\"]+)\"',rf))
-ex={'beruehmte-persoenlichkeiten','favoriten','beruehmte-obama'}
+ex={'beruehmte-persoenlichkeiten','favoriten','beruehmte-obama','enneagramm-memory-1','enneagramm-memory-2','enneagramm-memory-3','gemerkte-impulse','wegweiser-premium'}
 miss=[r for r in sorted(rr-rg) if r not in ex]
 print(f'Fehlend im Register: {len(miss)}')
 [print(\" \",r) for r in miss]

@@ -2290,3 +2290,67 @@ export function annaNetrebkoPortraitPage() {
     </div>
   `);
 }
+
+export function markusSoederPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-markus-soeder-portrait.jpg" alt="Markus Söder" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Markus Söder</p>
+        <p class="krim-portrait-typ">SX8w9 · Sexual Type 8 with Nine Wing</p>
+        <p class="krim-portrait-subtitle">Bavarian State Premier, born 1967 – animal correspondence: Crocodile</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Crocodile</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>crocodile</strong> is the animal of the sexual Eight – still until it acts, then with full force, intense in connection, relentless in pursuing its goals. Markus Söder was born in 1967 in Nuremberg, the son of a master mason, joined the Young Union at just 16, and earned a doctorate after studying law in Erlangen. From 1995 to 2003 he led the Bavarian Young Union as state chairman, then served as CSU General Secretary at party headquarters.</p>
+          <p class="vb-intro">Across several ministerial posts – European affairs, environment, health, and finally seven years as finance minister – he systematically worked his way to the top of the state: he has been Bavarian State Premier since March 2018, and CSU federal chairman since January 2019. Not an accidental rise, but a power career pursued consistently for decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Eight: Power as Courting the One Great Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Eight (SX8)</strong> differs from the other Eight subtypes in that its force doesn't aim at an entire system or group, but concentrates intensely on the one decisive confrontation, the one great stage, or the one central opponent – power as courting attention and recognition, not as quiet administration. Söder's open power struggle with Armin Laschet over the Union's chancellor candidacy in April 2021 shows this pattern in its purest form: a publicly fought contest over the one position, in which he himself never became the candidate but decisively weakened Laschet's standing – media afterward called him the "chancellor-candidate wrecker."</p>
+          <p class="vb-intro">His media self-staging follows the same pattern: political communication analyses explicitly describe him as a kind of king of deliberate self-presentation, with a tightly curated Instagram presence of stylized photo series and stadium appearances. Not quiet administration in the background, but his own person as the central, impossible-to-ignore figure on the stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Political Substance: A Consistent Career Path with Tactical Reversals</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">As finance minister from 2011 to 2018, Söder consolidated Bavaria's state budget – a real, verifiable achievement beyond pure stage presence. At the same time, he's known for notable, publicly debated reversals: as environment minister, he was originally a vehement advocate of the nuclear phase-out (even threatening to resign if Bavaria didn't exit in time), while as state premier he later pushed for a return to mini nuclear plants, an idea he dropped again once it became politically untenable. Similar U-turns occurred over smoking bans and tuition fees.</p>
+          <p class="vb-intro">From 2019 he also positioned himself conspicuously on climate policy, declaring climate protection "the boss's business" – which earned him both recognition and accusations of "eco-populism." Commentators coined the term "Wendehals" (turncoat) for him, saying he changed positions "like underwear." From an SX8 perspective, this reads as tactical power play: positions aren't defended out of rigid principle, but taken wherever they yield the greatest effect in the moment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Nine Wing: Orderly Continued Governance Instead of Sustained Escalation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine wing (w9)</strong> shows in Söder less as open hardness than in how he handled a real defeat. After the failed chancellor candidacy of 2021 and the Union's subsequent election loss in September 2021, he's said to have gone through a phase of withdrawal – not continued open escalation against Laschet or later Merz, but a quiet retreat from the federal stage and an orderly continuation of his role as Bavarian State Premier.</p>
+          <p class="vb-intro">This ability to not remain locked in ongoing feud after a real, lost major confrontation, but to return to balanced, governing normalcy, distinguishes an 8w9 from a more confrontational 8w7, who would more likely keep seeking friction. The SX8's intensity remains intact – it simply redirects toward the concrete, manageable Bavarian stage instead of an open, ongoing conflict.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Eight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX8w9 is the ability to <strong>combine genuine political substance with intense, attention-commanding presence</strong> – a solidly consolidated state budget and consistently high public visibility don't have to be mutually exclusive when both are carried by the same person.</p>
+          <p class="vb-intro">The shadow lies in the danger that tactical position changes create the impression that it's primarily about one's own stage rather than a consistent conviction – the "turncoat" accusation hits exactly this sore spot. What begins as a strength (flexibility, quick response to changing political conditions) can read as opportunism without principle once the reversals seem too frequent or too transparently self-serving.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Crocodile Who Kept Governing After the Loss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Markus Söder represents a rare combination: a power career consistently pursued for decades, intense media self-presentation, and the ability, after a publicly lost power struggle, not to remain locked in ongoing conflict but to return to orderly governing.</p>
+          <p class="vb-intro">From a mason's son in Nuremberg who joined the Young Union at 16, to Bavarian State Premier and CSU federal chairman who kept governing even after losing the chancellor candidacy: this is the sexual Eight with a Nine wing at its most politically effective – intensity that doesn't dissolve after a lost battle, but redirects toward the next manageable stage.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx8", label:"SX8 – The Crocodile: subtype profile"},
+        {route:"beruehmte-donald-trump", label:"Portrait: Donald Trump (SX8w7) – same core intensity, more confrontational wing"},
+      ])}
+    </div>
+  `);
+}
