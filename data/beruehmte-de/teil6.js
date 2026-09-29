@@ -267,8 +267,8 @@ export function carlTanzlerPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-rene-descartes", label:"Portr\xe4t: Ren\xe9 Descartes (SE5w6)"},
-          {route:"beruehmte-anna-anderson", label:"Portr\xe4t: Anna Anderson (SE3w4)"},
+        {route:"beruehmte-rene-descartes", label:"Portr\xe4t: Ren\xe9 Descartes (SE5w6)"},
+        {route:"beruehmte-anna-anderson", label:"Portr\xe4t: Anna Anderson (SE3w4)"},
         ])}
       </div>
     </div>
@@ -330,8 +330,8 @@ export function craigFosterPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-jane-goodall", label:"Portr\xe4t: Jane Goodall (SX9w1)"},
-          {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
+        {route:"beruehmte-jane-goodall", label:"Portr\xe4t: Jane Goodall (SX9w1)"},
+        {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
         ])}
       </div>
     </div>
@@ -596,8 +596,8 @@ export function grahameWebbPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
         ])}
         ${animalResearcherMatchBlock("beruehmte-grahame-webb")}
       </div>
@@ -788,6 +788,7 @@ export function jimiBlueOchsenknechtPortraitPage() {
         {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
         {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SE2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3)"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Porträt: Uwe Ochsenknecht (SX6w7) – Vater"},
         {route:"beruehmte-wilson-gonzalez-ochsenknecht", label:"Portrait: Wilson Gonzalez Ochsenknecht (SE2w3) – Bruder"},
         {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – Mutter"},
         {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4) – Schwester"},
@@ -856,6 +857,7 @@ export function julianAssangePortraitPage() {
         {route:"subtype/so9", label:"SO9 \u2013 Der B\u00fcffel: Subtyp-Profil"},
         {route:"beruehmte-steffi-graf", label:"Portr\u00e4t: Steffi Graf (SO9w1)"},
         {route:"krankheitsportraets-julian-assange", label:"Krankheitsportr\u00e4t: Julian Assange (SO9w1) \u2013 Isolation und Gesundheitsfolgen"},
+        {route:"beruehmte-alan-mcelligott", label:"Porträt: Dr. Alan McElligott (SO9w1)"},
       ])}
     </div>
   `);
@@ -1572,11 +1574,11 @@ export function wilmaMankillerPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-ronald-reagan", label:"Portr\xe4t: Ronald Reagan (SO9w8)"},
-          {route:"beruehmte-willy-brandt", label:"Portr\xe4t: Willy Brandt (SO9w8)"},
-          {route:"beruehmte-julian-assange", label:"Portr\xe4t: Julian Assange (SO9w1)"},
-          {route:"krankheitsportraets-ronald-reagan", label:"Krankheitsporträt: Ronald Reagan (SO9w8) – Parallele zu Mankillers Krankheitsgeschichte"},
-          {route:"krankheitsportraets-wilma-mankiller", label:"Krankheitsporträt: Wilma Mankiller – Nierenerkrankung & Krebs"},
+        {route:"beruehmte-ronald-reagan", label:"Portr\xe4t: Ronald Reagan (SO9w8)"},
+        {route:"beruehmte-willy-brandt", label:"Portr\xe4t: Willy Brandt (SO9w8)"},
+        {route:"beruehmte-julian-assange", label:"Portr\xe4t: Julian Assange (SO9w1)"},
+        {route:"krankheitsportraets-ronald-reagan", label:"Krankheitsporträt: Ronald Reagan (SO9w8) – Parallele zu Mankillers Krankheitsgeschichte"},
+        {route:"krankheitsportraets-wilma-mankiller", label:"Krankheitsporträt: Wilma Mankiller – Nierenerkrankung & Krebs"},
         ])}
       </div>
     </div>
@@ -1768,11 +1770,11 @@ export function gregorGysiPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
-          {route:"beruehmte-carolin-kebekus", label:"Porträt: Carolin Kebekus (SO7w6) – ebenfalls scharfer Witz mit politischer Haltung"},
-          {route:"beruehmte-alexander-bommes", label:"Porträt: Alexander Bommes (SO7w6)"},
-          {route:"beruehmte-rupert-spira", label:"Porträt: Rupert Spira (SO7w6)"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"beruehmte-carolin-kebekus", label:"Porträt: Carolin Kebekus (SO7w6) – ebenfalls scharfer Witz mit politischer Haltung"},
+        {route:"beruehmte-alexander-bommes", label:"Porträt: Alexander Bommes (SO7w6)"},
+        {route:"beruehmte-rupert-spira", label:"Porträt: Rupert Spira (SO7w6)"},
         ])}
       </div>
     </div>
@@ -1961,10 +1963,10 @@ export function ellenMoonsPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
-          {route:"beruehmte-helmut-kohl", label:"Porträt: Helmut Kohl (SE8w9) – derselbe Subtyp"},
-          {route:"beruehmte-boris-grundl", label:"Porträt: Boris Grundl (SE8w9) – ebenfalls derselbe Subtyp"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
+        {route:"beruehmte-helmut-kohl", label:"Porträt: Helmut Kohl (SE8w9) – derselbe Subtyp"},
+        {route:"beruehmte-boris-grundl", label:"Porträt: Boris Grundl (SE8w9) – ebenfalls derselbe Subtyp"},
         ])}
       </div>
     </div>

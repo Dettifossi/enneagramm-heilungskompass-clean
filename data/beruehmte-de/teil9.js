@@ -253,10 +253,10 @@ export function carolinePetersPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-thomas-gottschalk", label:"Portr\u00e4t: Thomas Gottschalk (SX7w6)"},
-          {route:"beruehmte-ina-mueller", label:"Portr\u00e4t: Ina M\u00fcller (SX7w8)"},
-          {route:"beruehmte-jasmin-paolini", label:"Portr\u00e4t: Jasmin Paolini (SE7w6)"},
-          {route:"beruehmte-ida-pfeiffer", label:"Portr\u00e4t: Ida Pfeiffer (SX7w6) \u2013 ebenfalls derselbe Subtyp"},
+        {route:"beruehmte-thomas-gottschalk", label:"Portr\u00e4t: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-ina-mueller", label:"Portr\u00e4t: Ina M\u00fcller (SX7w8)"},
+        {route:"beruehmte-jasmin-paolini", label:"Portr\u00e4t: Jasmin Paolini (SE7w6)"},
+        {route:"beruehmte-ida-pfeiffer", label:"Portr\u00e4t: Ida Pfeiffer (SX7w6) \u2013 ebenfalls derselbe Subtyp"},
         ])}
       </div>
     </div>
@@ -869,10 +869,10 @@ export function junkoTabeiPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-jeanne-calment", label:"Portr\xe4t: Jeanne Calment (SE7w6)"},
-          {route:"beruehmte-larry-king", label:"Portr\xe4t: Larry King (SE7w6)"},
-          {route:"krankheitsportraets-junko-tabei", label:"Krankheitsporträt: Junko Tabei (SE7w6) – Krebs und weitere Gipfel"},
-          {route:"beruehmte-elton-john", label:"Porträt: Elton John (SE7w6)"},
+        {route:"beruehmte-jeanne-calment", label:"Portr\xe4t: Jeanne Calment (SE7w6)"},
+        {route:"beruehmte-larry-king", label:"Portr\xe4t: Larry King (SE7w6)"},
+        {route:"krankheitsportraets-junko-tabei", label:"Krankheitsporträt: Junko Tabei (SE7w6) – Krebs und weitere Gipfel"},
+        {route:"beruehmte-elton-john", label:"Porträt: Elton John (SE7w6)"},
         ])}
       </div>
     </div>
@@ -1460,6 +1460,7 @@ export function taylorSwiftPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx5", label:"SX5 \u2013 Der Igel: Subtyp-Profil"},
         {route:"beruehmte-christian-raetsch", label:"Portr\u00e4t: Christian R\u00e4tsch (SE5w4)"},
+        {route:"beruehmte-tilda-swinton", label:"Porträt: Tilda Swinton (SX5w4)"},
       ])}
     </div>
   `);
@@ -1600,6 +1601,7 @@ export function winstonChurchillPortraitPage() {
         {route:"beruehmte-golda-meir", label:"Portr\u00e4t: Golda Meir (SE8w9)"},
         {route:"beruehmte-helmut-kohl", label:"Portr\u00e4t: Helmut Kohl (SE8w9) \u2013 ebenfalls Staatsmann, derselbe Subtyp"},
         {route:"krankheitsportraets-winston-churchill", label:"Krankheitsportr\u00e4t: Winston Churchill (SE8w9)"},
+        {route:"krankheitsportraets-golda-meir", label:"Krankheitsporträt: Golda Meir (SE8w9)"},
         {route:"bibel-der-hauptmann-unter-dem-kreuz", label:"Bibel-Porträt: Der Hauptmann unter dem Kreuz (SE8w9)"},
       ])}
     </div>
@@ -1794,11 +1796,11 @@ export function irisBerbenPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
-          {route:"beruehmte-brigitte-bardot", label:"Porträt: Brigitte Bardot (SX3w2) – ebenfalls Schauspielerin"},
-          {route:"beruehmte-brigitte-macron", label:"Porträt: Brigitte Macron (SX3w2)"},
-          {route:"beruehmte-linda-evans", label:"Porträt: Linda Evans (SX3w2)"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-brigitte-bardot", label:"Porträt: Brigitte Bardot (SX3w2) – ebenfalls Schauspielerin"},
+        {route:"beruehmte-brigitte-macron", label:"Porträt: Brigitte Macron (SX3w2)"},
+        {route:"beruehmte-linda-evans", label:"Porträt: Linda Evans (SX3w2)"},
         ])}
       </div>
     </div>
@@ -1922,11 +1924,11 @@ export function zoeKravitzPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
-          {route:"beruehmte-lenny-kravitz", label:"Porträt: Lenny Kravitz (SX3w2) – ihr Vater"},
-          {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
-          {route:"beruehmte-sahra-wagenknecht", label:"Porträt: Sahra Wagenknecht (SO3w2)"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-lenny-kravitz", label:"Porträt: Lenny Kravitz (SX3w2) – ihr Vater"},
+        {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
+        {route:"beruehmte-sahra-wagenknecht", label:"Porträt: Sahra Wagenknecht (SO3w2)"},
         ])}
       </div>
     </div>
@@ -1988,10 +1990,10 @@ export function louiseHayPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
-          {route:"beruehmte-eva-mendes", label:"Porträt: Eva Mendes (SX6w7) – ebenfalls derselbe Subtyp"},
-          {route:"beruehmte-heather-thomas", label:"Porträt: Heather Thomas (SX6w7)"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-eva-mendes", label:"Porträt: Eva Mendes (SX6w7) – ebenfalls derselbe Subtyp"},
+        {route:"beruehmte-heather-thomas", label:"Porträt: Heather Thomas (SX6w7)"},
         ])}
       </div>
     </div>

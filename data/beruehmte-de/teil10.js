@@ -260,10 +260,10 @@ export function carstenStahlPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-michelle-obama", label:"Portr\xe4t: Michelle Obama (SO8w7)"},
-          {route:"beruehmte-bud-spencer", label:"Portr\xe4t: Bud Spencer (SO8w9)"},
-          {route:"beruehmte-gabi-garcia", label:"Portr\xe4t: Gabi Garcia (SO8w7)"},
-          {route:"astrologie-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-michelle-obama", label:"Portr\xe4t: Michelle Obama (SO8w7)"},
+        {route:"beruehmte-bud-spencer", label:"Portr\xe4t: Bud Spencer (SO8w9)"},
+        {route:"beruehmte-gabi-garcia", label:"Portr\xe4t: Gabi Garcia (SO8w7)"},
+        {route:"astrologie-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
         ])}
       </div>
     </div>
@@ -325,10 +325,10 @@ export function dakotaJohnsonPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-heike-makatsch", label:"Portr\xe4t: Heike Makatsch (SX9w8)"},
-          {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
-          {route:"beruehmte-iga-swiatek", label:"Portr\xe4t: Iga \u015awi\u0105tek (SX9w1)"},
-          {route:"beruehmte-kris-marshall", label:"Portr\xe4t: Kris Marshall (SX9w1)"},
+        {route:"beruehmte-heike-makatsch", label:"Portr\xe4t: Heike Makatsch (SX9w8)"},
+        {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
+        {route:"beruehmte-iga-swiatek", label:"Portr\xe4t: Iga \u015awi\u0105tek (SX9w1)"},
+        {route:"beruehmte-kris-marshall", label:"Portr\xe4t: Kris Marshall (SX9w1)"},
         ])}
       </div>
     </div>
@@ -724,10 +724,10 @@ export function jamesLevinePortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"krankheitsportraets-james-levine", label:"Krankheitsporträt: James Levine (SE9w1)"},
-          {route:"beruehmte-baerbel-bas", label:"Portr\xe4t: B\xe4rbel Bas (SE9w1)"},
-          {route:"astrologie-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
-          {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"krankheitsportraets-james-levine", label:"Krankheitsporträt: James Levine (SE9w1)"},
+        {route:"beruehmte-baerbel-bas", label:"Portr\xe4t: B\xe4rbel Bas (SE9w1)"},
+        {route:"astrologie-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
         ])}
       </div>
     </div>
@@ -920,9 +920,9 @@ export function konradLorenzPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
-          {route:"beruehmte-friedrich-merz", label:"Porträt: Friedrich Merz (SO1w9)"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-friedrich-merz", label:"Porträt: Friedrich Merz (SO1w9)"},
         ])}
         ${animalResearcherMatchBlock("beruehmte-konrad-lorenz")}
       </div>
@@ -1048,11 +1048,11 @@ export function mariahCareyPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-jasmin-paolini", label:"Portr\u00e4t: Jasmin Paolini (SE7w6)"},
-          {route:"beruehmte-wallace-shawn", label:"Portr\u00e4t: Wallace Shawn (SE7w6)"},
-          {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
-          {route:"beruehmte-christoph-kolumbus", label:"Portr\u00e4t: Christoph Kolumbus (SE7w8)"},
-          {route:"krankheitsportraets-mariah-carey", label:"Krankheitsportr\u00e4t: Mariah Carey (SE7w8) \u2013 bipolare St\u00f6rung"},
+        {route:"beruehmte-jasmin-paolini", label:"Portr\u00e4t: Jasmin Paolini (SE7w6)"},
+        {route:"beruehmte-wallace-shawn", label:"Portr\u00e4t: Wallace Shawn (SE7w6)"},
+        {route:"beruehmte-hans-zimmer", label:"Portr\u00e4t: Hans Zimmer (SE7w8)"},
+        {route:"beruehmte-christoph-kolumbus", label:"Portr\u00e4t: Christoph Kolumbus (SE7w8)"},
+        {route:"krankheitsportraets-mariah-carey", label:"Krankheitsportr\u00e4t: Mariah Carey (SE7w8) \u2013 bipolare St\u00f6rung"},
         ])}
       </div>
     </div>
@@ -1316,6 +1316,7 @@ export function reneDescartesPortraitPage() {
         {route:"beruehmte-hermann-hesse", label:"Porträt: Hermann Hesse (SE5w6)"},
         {route:"beruehmte-isaac-newton", label:"Portr\u00e4t: Isaac Newton (SO5w6)"},
         {route:"beruhmte-philosophen", label:"Schaubild: Ber\u00fchmte Philosophen im Enneagramm"},
+        {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
       ])}
     </div>
   `);
@@ -1780,11 +1781,11 @@ export function arminMuellerStahlPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
-          {route:"beruehmte-fritz-wepper", label:"Porträt: Fritz Wepper (SE1w9) – ebenfalls deutscher Schauspieler"},
-          {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
-          {route:"beruehmte-herman-van-veen", label:"Porträt: Herman van Veen (SE1w9)"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-fritz-wepper", label:"Porträt: Fritz Wepper (SE1w9) – ebenfalls deutscher Schauspieler"},
+        {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
+        {route:"beruehmte-herman-van-veen", label:"Porträt: Herman van Veen (SE1w9)"},
         ])}
       </div>
     </div>
@@ -1913,12 +1914,12 @@ export function lennyKravitzPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
-          {route:"beruehmte-brad-pitt", label:"Porträt: Brad Pitt (SX3w2)"},
-          {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SX3w2)"},
-          {route:"beruehmte-brigitte-bardot", label:"Porträt: Brigitte Bardot (SX3w2)"},
-          {route:"beruehmte-zoe-kravitz", label:"Porträt: Zoë Kravitz (SO3w2) – seine Tochter"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-brad-pitt", label:"Porträt: Brad Pitt (SX3w2)"},
+        {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SX3w2)"},
+        {route:"beruehmte-brigitte-bardot", label:"Porträt: Brigitte Bardot (SX3w2)"},
+        {route:"beruehmte-zoe-kravitz", label:"Porträt: Zoë Kravitz (SO3w2) – seine Tochter"},
         ])}
       </div>
     </div>
@@ -1988,10 +1989,10 @@ export function bobbyFischerPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
-          {route:"beruehmte-wladimir-putin", label:"Porträt: Wladimir Putin (SX6w5) – dasselbe Muster, andere Bühne"},
-          {route:"beruehmte-otto-von-bismarck", label:"Porträt: Otto von Bismarck (SX6w5)"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-wladimir-putin", label:"Porträt: Wladimir Putin (SX6w5) – dasselbe Muster, andere Bühne"},
+        {route:"beruehmte-otto-von-bismarck", label:"Porträt: Otto von Bismarck (SX6w5)"},
         ])}
       </div>
     </div>

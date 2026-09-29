@@ -776,6 +776,7 @@ export function johnLennonPortraitPage() {
         {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
         {route:"astrologie-john-lennon", label:"Horoskop-Analyse: John Lennon"},
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
+        {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3)"},
       ])}
     </div>
   `);
@@ -1036,9 +1037,9 @@ export function marieCuriePortraitPage() {
         <p class="vb-intro">Die letzten Lebensjahre – geprägt von jahrzehntelanger, ungeschützter Arbeit mit radioaktiven Stoffen und dem Tod an aplastischer Anämie 1934 – werden ausführlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-marie-curie">Krankheitsporträt zu Curie</a> gedeutet.</p>
 
         ${relatedLinks([
-          {route:"beruehmte-rene-descartes", label:"Portr\xe4t: Ren\xe9 Descartes (SE5w6)"},
-          {route:"beruehmte-amelia-earhart", label:"Portr\xe4t: Amelia Earhart (SO9w1)"},
-          {route:"krankheitsportraets-marie-curie", label:"Krankheitsporträt: Marie Curie (SE5w6)"},
+        {route:"beruehmte-rene-descartes", label:"Portr\xe4t: Ren\xe9 Descartes (SE5w6)"},
+        {route:"beruehmte-amelia-earhart", label:"Portr\xe4t: Amelia Earhart (SO9w1)"},
+        {route:"krankheitsportraets-marie-curie", label:"Krankheitsporträt: Marie Curie (SE5w6)"},
         ])}
       </div>
     </div>
@@ -1230,6 +1231,8 @@ export function penelopeCruzPortraitPage() {
         {route:"beruehmte-sadhguru", label:"Portr\u00e4t: Sadhguru (SE3w2)"},
         {route:"beruehmte-wolodymyr-selenskyj", label:"Portr\u00e4t: Wolodymyr Selenskyj (SE3w2)"},
         {route:"beruehmte-norah-jones", label:"Porträt: Norah Jones (SE3w4)"},
+        {route:"beruehmte-halle-berry", label:"Porträt: Halle Berry (SP3w2)"},
+        {route:"beruehmte-audrey-tautou", label:"Porträt: Audrey Tautou (SP3w2)"},
       ])}
     </div>
   `);
@@ -1766,11 +1769,11 @@ export function carolinKebekusPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
-          {route:"beruehmte-ali-wong", label:"Porträt: Ali Wong (SO7w6) – ebenfalls Comedy mit gesellschaftlicher Haltung"},
-          {route:"beruehmte-alexander-bommes", label:"Porträt: Alexander Bommes (SO7w6)"},
-          {route:"beruehmte-gregor-gysi", label:"Porträt: Dr. Gregor Gysi (SO7w6) – ebenfalls scharfer Witz mit politischer Haltung"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"beruehmte-ali-wong", label:"Porträt: Ali Wong (SO7w6) – ebenfalls Comedy mit gesellschaftlicher Haltung"},
+        {route:"beruehmte-alexander-bommes", label:"Porträt: Alexander Bommes (SO7w6)"},
+        {route:"beruehmte-gregor-gysi", label:"Porträt: Dr. Gregor Gysi (SO7w6) – ebenfalls scharfer Witz mit politischer Haltung"},
         ])}
       </div>
     </div>
@@ -1902,11 +1905,11 @@ export function juergenVonDerLippePortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
-          {route:"beruehmte-mario-barth", label:"Porträt: Mario Barth (SX9w8)"},
-          {route:"beruehmte-juergen-drews", label:"Porträt: Jürgen Drews (SX9w8)"},
-          {route:"beruehmte-francois-damiens", label:"Porträt: François Damiens (SX9w8)"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-mario-barth", label:"Porträt: Mario Barth (SX9w8)"},
+        {route:"beruehmte-juergen-drews", label:"Porträt: Jürgen Drews (SX9w8)"},
+        {route:"beruehmte-francois-damiens", label:"Porträt: François Damiens (SX9w8)"},
         ])}
       </div>
     </div>
@@ -1968,10 +1971,10 @@ export function galarrwuyYunupinguPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
-          {route:"beruehmte-dhapanbal-yunupingu", label:"Porträt: Dhapanbal Yunupingu (SE8w9) – dasselbe Prinzip, jüngere Generation"},
-          {route:"beruehmte-helmut-kohl", label:"Porträt: Helmut Kohl (SE8w9) – ebenfalls derselbe Subtyp"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
+        {route:"beruehmte-dhapanbal-yunupingu", label:"Porträt: Dhapanbal Yunupingu (SE8w9) – dasselbe Prinzip, jüngere Generation"},
+        {route:"beruehmte-helmut-kohl", label:"Porträt: Helmut Kohl (SE8w9) – ebenfalls derselbe Subtyp"},
         ])}
       </div>
     </div>
@@ -2103,6 +2106,7 @@ export function madonnaPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
         {route:"beruehmte-marilyn-monroe", label:"Porträt: Marilyn Monroe (SX3w4)"},
+        {route:"beruehmte-gordon-ramsay", label:"Porträt: Gordon Ramsay (SX3w4)"},
       ])}
     </div>
   `);

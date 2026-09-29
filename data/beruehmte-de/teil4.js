@@ -115,9 +115,9 @@ export function adeleNeuhauserPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-donald-trump", label:"Portr\xe4t: Donald J. Trump (SX8w7)"},
-          {route:"beruehmte-genesis-p-orridge", label:"Portr\xe4t: Genesis P-Orridge (SX8w9)"},
-          {route:"beruehmte-michelle-obama", label:"Portr\xe4t: Michelle Obama (SO8w7)"},
+        {route:"beruehmte-donald-trump", label:"Portr\xe4t: Donald J. Trump (SX8w7)"},
+        {route:"beruehmte-genesis-p-orridge", label:"Portr\xe4t: Genesis P-Orridge (SX8w9)"},
+        {route:"beruehmte-michelle-obama", label:"Portr\xe4t: Michelle Obama (SO8w7)"},
         ])}
       </div>
     </div>
@@ -181,10 +181,10 @@ export function angelaMerkelPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"astrologie-angela-merkel", label:"Enneagramm meets Astrologie: Angela Merkel (SE9w8)"},
-          {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
-          {route:"beruehmte-james-levine", label:"Portr\xe4t: James Levine (SE9w1)"},
-          {route:"beruehmte-margaret-rutherford", label:"Portr\xe4t: Margaret Rutherford (SE9w8)"},
+        {route:"astrologie-angela-merkel", label:"Enneagramm meets Astrologie: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portr\xe4t: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"beruehmte-james-levine", label:"Portr\xe4t: James Levine (SE9w1)"},
+        {route:"beruehmte-margaret-rutherford", label:"Portr\xe4t: Margaret Rutherford (SE9w8)"},
         ])}
       </div>
     </div>
@@ -635,11 +635,11 @@ export function goldaMeirPortraitPage() {
         <p class="vb-intro">Die siebzehn Jahre lang verborgen gehaltene Lymphdr\u00fcsenkrebs-Diagnose, die sie \u00fcber ihre gesamte Amtszeit als Premierministerin geheim hielt, wird ausf\u00fchrlich im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-golda-meir">Krankheitsportr\u00e4t zu Meir</a> gedeutet \u2013 mit einer Parallele zu Winston Churchill (ebenfalls SE8w9), dessen eigener verheimlichter Schlaganfall im <a href="javascript:void(0)" data-route="krankheitsportraets-winston-churchill">Krankheitsportr\u00e4t zu Churchill</a> gedeutet wird.</p>
 
         ${relatedLinks([
-          {route:"krankheitsportraets-golda-meir", label:"Krankheitsportr\u00e4t: Golda Meir (SE8w9)"},
-          {route:"beruehmte-toni-morrison", label:"Portr\xe4t: Toni Morrison (SE8w9)"},
-          {route:"beruehmte-umberto-eco", label:"Portr\xe4t: Umberto Eco (SE8w7)"},
-          {route:"astrologie-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
-          {route:"krankheitsportraets-winston-churchill", label:"Krankheitsportr\u00e4t: Winston Churchill (SE8w9)"},
+        {route:"krankheitsportraets-golda-meir", label:"Krankheitsportr\u00e4t: Golda Meir (SE8w9)"},
+        {route:"beruehmte-toni-morrison", label:"Portr\xe4t: Toni Morrison (SE8w9)"},
+        {route:"beruehmte-umberto-eco", label:"Portr\xe4t: Umberto Eco (SE8w7)"},
+        {route:"astrologie-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
+        {route:"krankheitsportraets-winston-churchill", label:"Krankheitsportr\u00e4t: Winston Churchill (SE8w9)"},
         ])}
       </div>
     </div>
@@ -1188,6 +1188,7 @@ export function martaManserPortraitPage() {
         {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
         {route:"beruehmte-grit-strassenberger", label:"Porträt: Prof. Dr. Grit Straßenberger (SO6w5)"},
         {route:"beruehmte-ulrich-ott", label:"Porträt: Dr. Ulrich Ott (SO6w5)"},
+        {route:"beruehmte-anne-applebaum", label:"Porträt: Anne Applebaum (SO6w7)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-marta-manser")}
     </div>
@@ -1773,12 +1774,12 @@ export function johnIoannidisPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
-          {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
-          {route:"beruehmte-frank-rosell", label:"Porträt: Prof. Dr. Frank Rosell (SO7w6)"},
-          {route:"beruehmte-christian-drosten", label:"Porträt: Prof. Dr. Christian Drosten (SO7w6) – der Gegenpol in derselben Krise"},
-          {route:"beruehmte-rupert-spira", label:"Porträt: Rupert Spira (SO7w6)"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-frank-rosell", label:"Porträt: Prof. Dr. Frank Rosell (SO7w6)"},
+        {route:"beruehmte-christian-drosten", label:"Porträt: Prof. Dr. Christian Drosten (SO7w6) – der Gegenpol in derselben Krise"},
+        {route:"beruehmte-rupert-spira", label:"Porträt: Rupert Spira (SO7w6)"},
         ])}
       </div>
     </div>
@@ -1903,11 +1904,11 @@ export function sergioBambarenPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
-          {route:"beruehmte-ronald-reagan", label:"Porträt: Ronald Reagan (SO9w8)"},
-          {route:"beruehmte-willy-brandt", label:"Porträt: Willy Brandt (SO9w8)"},
-          {route:"beruehmte-carlo-ancelotti", label:"Porträt: Carlo Ancelotti (SO9w8)"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"beruehmte-ronald-reagan", label:"Porträt: Ronald Reagan (SO9w8)"},
+        {route:"beruehmte-willy-brandt", label:"Porträt: Willy Brandt (SO9w8)"},
+        {route:"beruehmte-carlo-ancelotti", label:"Porträt: Carlo Ancelotti (SO9w8)"},
         ])}
       </div>
     </div>

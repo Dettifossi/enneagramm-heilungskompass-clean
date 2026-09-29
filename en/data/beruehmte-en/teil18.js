@@ -944,8 +944,8 @@ export function laurieMarkerPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
         ])}
         ${animalResearcherMatchBlock("beruehmte-laurie-marker")}
       </div>
@@ -1291,6 +1291,7 @@ export function pharrellWilliamsPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
         {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
+        {route:"beruehmte-sahra-wagenknecht", label:"Portrait: Sahra Wagenknecht (SO3w2)"},
       ])}
     </div>
   `);
@@ -1353,10 +1354,10 @@ export function rowanAtkinsonPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
-          {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
-          {route:"beruehmte-hazel-brugger", label:"Portrait: Hazel Brugger (SO7w8)"},
-          {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SE7w6)"},
+        {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
+        {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6)"},
+        {route:"beruehmte-hazel-brugger", label:"Portrait: Hazel Brugger (SO7w8)"},
+        {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SE7w6)"},
         ])}
       </div>
     </div>
@@ -1882,10 +1883,10 @@ export function cecilyBrownPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
-          {route:"beruehmte-peter-gabriel", label:"Portrait: Peter Gabriel (SP4w3) – also SP4w3"},
-          {route:"beruehmte-honore-de-balzac", label:"Portrait: Honoré de Balzac (SP4w3)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-peter-gabriel", label:"Portrait: Peter Gabriel (SP4w3) – also SP4w3"},
+        {route:"beruehmte-honore-de-balzac", label:"Portrait: Honoré de Balzac (SP4w3)"},
         ])}
       </div>
     </div>
@@ -1946,12 +1947,12 @@ export function davidGuettaPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
-          {route:"beruehmte-jon-bon-jovi", label:"Portrait: Jon Bon Jovi (SX9w1) – also a musician with a long-running institution of his own"},
-          {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1)"},
-          {route:"beruehmte-helge-schneider", label:"Portrait: Helge Schneider (SX9w1)"},
-          {route:"beruehmte-juergen-drews", label:"Portrait: Jürgen Drews (SX9w8) – also decades-long loyalty to audience and partner"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"beruehmte-jon-bon-jovi", label:"Portrait: Jon Bon Jovi (SX9w1) – also a musician with a long-running institution of his own"},
+        {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1)"},
+        {route:"beruehmte-helge-schneider", label:"Portrait: Helge Schneider (SX9w1)"},
+        {route:"beruehmte-juergen-drews", label:"Portrait: Jürgen Drews (SX9w8) – also decades-long loyalty to audience and partner"},
         ])}
       </div>
     </div>
@@ -2011,11 +2012,11 @@ export function connieChiuPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/se4", label:"SE4 &ndash; The Dove: Subtype Profile"},
-          {route:"beruehmte-neil-harbisson", label:"Portrait: Neil Harbisson (SE4w5) – also turned a physical trait into a body of independent work"},
-          {route:"beruehmte-barney-fishwick", label:"Portrait: Barney Fishwick (SE4w5)"},
-          {route:"beruehmte-charlotte-wells", label:"Portrait: Charlotte Wells (SE4w5)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SE4 &ndash; The Dove: Subtype Profile"},
+        {route:"beruehmte-neil-harbisson", label:"Portrait: Neil Harbisson (SE4w5) – also turned a physical trait into a body of independent work"},
+        {route:"beruehmte-barney-fishwick", label:"Portrait: Barney Fishwick (SE4w5)"},
+        {route:"beruehmte-charlotte-wells", label:"Portrait: Charlotte Wells (SE4w5)"},
         ])}
       </div>
     </div>

@@ -68,6 +68,7 @@ export function aiWeiweiPortraitPage() {
         {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
         {route:"beruehmte-jack-ma", label:"Portrait: Jack Ma (SP2w3)"},
         {route:"beruehmte-jimi-blue-ochsenknecht", label:"Portrait: Jimi Blue Ochsenknecht (SP2w3)"},
+        {route:"beruehmte-uwe-ochsenknecht", label:"Portrait: Uwe Ochsenknecht (SX6w7) – father"},
         {route:"krankheitsportraets-ai-weiwei", label:"Illness Portrait: Ai Weiwei (SP2w3) – violence that became a work of art"},
       ])}
     </div>
@@ -266,8 +267,8 @@ export function carlTanzlerPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6)"},
-          {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SP3w4)"},
+        {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6)"},
+        {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SP3w4)"},
         ])}
       </div>
     </div>
@@ -329,8 +330,8 @@ export function craigFosterPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-jane-goodall", label:"Portrait: Jane Goodall (SX9w1)"},
-          {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
+        {route:"beruehmte-jane-goodall", label:"Portrait: Jane Goodall (SX9w1)"},
+        {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
         ])}
       </div>
     </div>
@@ -595,8 +596,8 @@ export function grahameWebbPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
         ])}
         ${animalResearcherMatchBlock("beruehmte-grahame-webb")}
       </div>
@@ -1260,6 +1261,7 @@ export function oshoPortraitPage() {
         {route:"krankheitsportraets-osho", label:"Illness Portrait: Osho (SP3w4)"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SP3w4)"},
+        {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SE3w4)"},
       ])}
     </div>
   `);
@@ -1572,11 +1574,11 @@ export function wilmaMankillerPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-ronald-reagan", label:"Portrait: Ronald Reagan (SO9w8)"},
-          {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
-          {route:"beruehmte-julian-assange", label:"Portrait: Julian Assange (SO9w1)"},
-          {route:"krankheitsportraets-ronald-reagan", label:"Illness Portrait: Ronald Reagan (SO9w8) – parallel to Mankiller's illness history"},
-          {route:"krankheitsportraets-wilma-mankiller", label:"Illness Portrait: Wilma Mankiller – Kidney Disease & Cancer"},
+        {route:"beruehmte-ronald-reagan", label:"Portrait: Ronald Reagan (SO9w8)"},
+        {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
+        {route:"beruehmte-julian-assange", label:"Portrait: Julian Assange (SO9w1)"},
+        {route:"krankheitsportraets-ronald-reagan", label:"Illness Portrait: Ronald Reagan (SO9w8) – parallel to Mankiller's illness history"},
+        {route:"krankheitsportraets-wilma-mankiller", label:"Illness Portrait: Wilma Mankiller – Kidney Disease & Cancer"},
         ])}
       </div>
     </div>
@@ -1768,11 +1770,11 @@ export function gregorGysiPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-          {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
-          {route:"beruehmte-carolin-kebekus", label:"Portrait: Carolin Kebekus (SO7w6) – also sharp wit with political conviction"},
-          {route:"beruehmte-alexander-bommes", label:"Portrait: Alexander Bommes (SO7w6)"},
-          {route:"beruehmte-rupert-spira", label:"Portrait: Rupert Spira (SO7w6)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"beruehmte-carolin-kebekus", label:"Portrait: Carolin Kebekus (SO7w6) – also sharp wit with political conviction"},
+        {route:"beruehmte-alexander-bommes", label:"Portrait: Alexander Bommes (SO7w6)"},
+        {route:"beruehmte-rupert-spira", label:"Portrait: Rupert Spira (SO7w6)"},
         ])}
       </div>
     </div>

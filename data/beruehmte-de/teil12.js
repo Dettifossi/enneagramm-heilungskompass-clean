@@ -777,9 +777,9 @@ export function janeGoodallPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-craig-foster", label:"Portr\xe4t: Craig Foster (SX9w1)"},
-          {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
-          {route:"beruehmte-dian-fossey", label:"Portr\xe4t: Dian Fossey (SE7w8)"},
+        {route:"beruehmte-craig-foster", label:"Portr\xe4t: Craig Foster (SX9w1)"},
+        {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
+        {route:"beruehmte-dian-fossey", label:"Portr\xe4t: Dian Fossey (SE7w8)"},
         ])}
       </div>
     </div>
@@ -1246,9 +1246,9 @@ export function nataschaKampuschPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-marie-antoinette", label:"Portr\xe4t: Marie Antoinette (SE2w3)"},
-          {route:"kriminalpsychologie-ulrike-meinhof", label:"Portr\xe4t: Ulrike Meinhof (SE2w1)"},
-          {route:"krankheitsportraets-natascha-kampusch", label:"Krankheitsporträt: Natascha Kampusch (SE2w1)"},
+        {route:"beruehmte-marie-antoinette", label:"Portr\xe4t: Marie Antoinette (SE2w3)"},
+        {route:"kriminalpsychologie-ulrike-meinhof", label:"Portr\xe4t: Ulrike Meinhof (SE2w1)"},
+        {route:"krankheitsportraets-natascha-kampusch", label:"Krankheitsporträt: Natascha Kampusch (SE2w1)"},
         ])}
       </div>
     </div>
@@ -1511,9 +1511,9 @@ export function theaLitschkaKoenPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
-          {route:"beruehmte-robbie-williams", label:"Porträt: Robbie Williams (SX1w2)"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"beruehmte-robbie-williams", label:"Porträt: Robbie Williams (SX1w2)"},
         ])}
         ${animalResearcherMatchBlock("beruehmte-thea-litschka-koen")}
       </div>
@@ -1716,6 +1716,8 @@ export function markusLanzPortraitPage() {
         {route:"beruehmte-karl-lauterbach", label:"Porträt: Karl Lauterbach (SE6w5)"},
         {route:"beruehmte-peter-sage", label:"Porträt: Peter Sage (SO1w9)"},
         {route:"beruehmte-gert-scobel", label:"Porträt: Gert Scobel (SO1w9)"},
+        {route:"beruehmte-emmanuel-macron", label:"Porträt: Emmanuel Macron (SO1w9)"},
+        {route:"beruehmte-giorgia-meloni", label:"Porträt: Giorgia Meloni (SO1w9)"},
       ])}
     </div>
   `);
@@ -1776,10 +1778,10 @@ export function heleneFischerPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
-          {route:"beruehmte-lena-meyer-landrut", label:"Porträt: Lena Meyer-Landrut (SX3w2) – ebenfalls Sängerin, derselbe Subtyp"},
-          {route:"beruehmte-brad-pitt", label:"Porträt: Brad Pitt (SX3w2)"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-lena-meyer-landrut", label:"Porträt: Lena Meyer-Landrut (SX3w2) – ebenfalls Sängerin, derselbe Subtyp"},
+        {route:"beruehmte-brad-pitt", label:"Porträt: Brad Pitt (SX3w2)"},
         ])}
       </div>
     </div>
@@ -1902,11 +1904,11 @@ export function carloAncelottiPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
-          {route:"beruehmte-ronald-reagan", label:"Porträt: Ronald Reagan (SO9w8)"},
-          {route:"beruehmte-willy-brandt", label:"Porträt: Willy Brandt (SO9w8) – ebenfalls verzögerte, dann klare Direktheit"},
-          {route:"beruehmte-sergio-bambaren", label:"Porträt: Sergio Bambarén (SO9w8)"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"beruehmte-ronald-reagan", label:"Porträt: Ronald Reagan (SO9w8)"},
+        {route:"beruehmte-willy-brandt", label:"Porträt: Willy Brandt (SO9w8) – ebenfalls verzögerte, dann klare Direktheit"},
+        {route:"beruehmte-sergio-bambaren", label:"Porträt: Sergio Bambarén (SO9w8)"},
         ])}
       </div>
     </div>

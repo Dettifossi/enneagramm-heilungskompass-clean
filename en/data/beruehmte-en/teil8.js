@@ -185,8 +185,8 @@ export function biruteGaldikasPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype Profile"},
         ])}
         ${animalResearcherMatchBlock("beruehmte-birute-galdikas")}
       </div>
@@ -249,8 +249,8 @@ export function carmenGoglinPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
-          {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
         ])}
       </div>
     </div>
@@ -715,9 +715,9 @@ export function jamaicaKincaidPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SE8w9)"},
-          {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
-          {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
+        {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SE8w9)"},
+        {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
+        {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
         ])}
       </div>
     </div>
@@ -1275,10 +1275,10 @@ export function pabloPicassoPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-donald-trump", label:"Portrait: Donald J. Trump (SX8w7)"},
-          {route:"beruehmte-giacomo-puccini", label:"Portrait: Giacomo Puccini (SX8w7)"},
-          {route:"beruehmte-adele-neuhauser", label:"Portrait: Adele Neuhauser (SX8w7)"},
-          {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
+        {route:"beruehmte-donald-trump", label:"Portrait: Donald J. Trump (SX8w7)"},
+        {route:"beruehmte-giacomo-puccini", label:"Portrait: Giacomo Puccini (SX8w7)"},
+        {route:"beruehmte-adele-neuhauser", label:"Portrait: Adele Neuhauser (SX8w7)"},
+        {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
         ])}
       </div>
     </div>
@@ -1407,9 +1407,9 @@ export function sandraHuellerPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
-          {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1)"},
-          {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1)"},
+        {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
+        {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1)"},
+        {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1)"},
         ])}
       </div>
     </div>
@@ -1589,9 +1589,9 @@ export function winifredCharlesworthPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
-          {route:"beruehmte-albert-schweitzer", label:"Portrait: Dr. Albert Schweitzer (SO2w1)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-albert-schweitzer", label:"Portrait: Dr. Albert Schweitzer (SO2w1)"},
         ])}
         ${animalResearcherMatchBlock("beruehmte-winifred-charlesworth")}
       </div>
@@ -1660,7 +1660,6 @@ export function karlLauterbachPortraitPage() {
         {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fyodor Dostoevsky (SP6w5)"},
         {route:"beruehmte-huang-yong-ping", label:"Portrait: Huang Yong Ping (SP6w5)"},
         {route:"beruehmte-alberto-marini", label:"Portrait: Alberto Marini (SP6w5)"},
-        {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SP6w5)"},
       ])}
     </div>
   `);
@@ -1727,6 +1726,7 @@ export function kurtGeorgKiesingerPortraitPage() {
         {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9) – successor as Chancellor, same subtype"},
         {route:"beruehmte-roald-amundsen", label:"Portrait: Roald Amundsen (SO1w9)"},
         {route:"beruehmte-markus-lanz", label:"Portrait: Markus Lanz (SO1w9)"},
+        {route:"beruehmte-giorgia-meloni", label:"Portrait: Giorgia Meloni (SO1w9)"},
       ])}
     </div>
   `);
@@ -1786,10 +1786,10 @@ export function lindaEvansPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-          {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
-          {route:"beruehmte-brigitte-bardot", label:"Portrait: Brigitte Bardot (SX3w2) – also an actress"},
-          {route:"beruehmte-iris-berben", label:"Portrait: Iris Berben (SX3w2)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"beruehmte-brigitte-bardot", label:"Portrait: Brigitte Bardot (SX3w2) – also an actress"},
+        {route:"beruehmte-iris-berben", label:"Portrait: Iris Berben (SX3w2)"},
         ])}
       </div>
     </div>
@@ -1911,11 +1911,11 @@ export function sonoyaMizunoPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/so3", label:"SO3 &ndash; The Cheetah: Subtype Profile"},
-          {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
-          {route:"beruehmte-sean-connery", label:"Portrait: Sean Connery (SO3w4)"},
-          {route:"beruehmte-bella-thorne", label:"Portrait: Bella Thorne (SO3w4)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so3", label:"SO3 &ndash; The Cheetah: Subtype Profile"},
+        {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
+        {route:"beruehmte-sean-connery", label:"Portrait: Sean Connery (SO3w4)"},
+        {route:"beruehmte-bella-thorne", label:"Portrait: Bella Thorne (SO3w4)"},
         ])}
       </div>
     </div>
@@ -1977,10 +1977,10 @@ export function idaPfeifferPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
-          {route:"beruehmte-caroline-peters", label:"Portrait: Caroline Peters (SX7w6)"},
-          {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"beruehmte-caroline-peters", label:"Portrait: Caroline Peters (SX7w6)"},
+        {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
         ])}
       </div>
     </div>

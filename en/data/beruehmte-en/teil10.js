@@ -329,10 +329,10 @@ export function carstenStahlPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
-          {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
-          {route:"beruehmte-gabi-garcia", label:"Portrait: Gabi Garcia (SO8w7)"},
-          {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
+        {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
+        {route:"beruehmte-gabi-garcia", label:"Portrait: Gabi Garcia (SO8w7)"},
+        {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
         ])}
       </div>
     </div>
@@ -394,10 +394,11 @@ export function dakotaJohnsonPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-heike-makatsch", label:"Portrait: Heike Makatsch (SX9w8)"},
-          {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
-          {route:"beruehmte-iga-swiatek", label:"Portrait: Iga Świątek (SX9w1)"},
-        ])}
+        {route:"beruehmte-heike-makatsch", label:"Portrait: Heike Makatsch (SX9w8)"},
+        {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
+        {route:"beruehmte-iga-swiatek", label:"Portrait: Iga Świątek (SX9w1)"},
+        {route:"beruehmte-kris-marshall", label:"Portrait: Kris Marshall (SX9w1)"},
+      ])}
       </div>
     </div>
   `);
@@ -792,10 +793,10 @@ export function jamesLevinePortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"krankheitsportraets-james-levine", label:"Illness Portrait: James Levine (SE9w1)"},
-          {route:"beruehmte-baerbel-bas", label:"Portrait: B\xe4rbel Bas (SE9w1)"},
-          {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
-          {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"krankheitsportraets-james-levine", label:"Illness Portrait: James Levine (SE9w1)"},
+        {route:"beruehmte-baerbel-bas", label:"Portrait: B\xe4rbel Bas (SE9w1)"},
+        {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
         ])}
       </div>
     </div>
@@ -865,6 +866,7 @@ export function johannesBrahmsPortraitPage() {
         {route:"beruehmte-johann-sebastian-bach", label:"Portrait: Johann Sebastian Bach (SX1w9)"},
         {route:"subtype/se9", label:"SP9 – The Elephant: Subtype Profile"},
         {route:"krankheitsportraets-johannes-brahms", label:"Illness Portrait: Johannes Brahms (SE9w8) – liver cancer, eleven months after Clara Schumann"},
+        {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SE9w1)"},
       ])}
     </div>
   `);
@@ -987,9 +989,9 @@ export function konradLorenzPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
-          {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
         ])}
         ${animalResearcherMatchBlock("beruehmte-konrad-lorenz")}
       </div>
@@ -1115,11 +1117,11 @@ export function mariahCareyPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SE7w6)"},
-          {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SE7w6)"},
-          {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SE7w8)"},
-          {route:"beruehmte-christoph-kolumbus", label:"Portrait: Christopher Columbus (SE7w8)"},
-          {route:"krankheitsportraets-mariah-carey", label:"Illness Portrait: Mariah Carey (SE7w8) – bipolar disorder"},
+        {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SE7w6)"},
+        {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SE7w6)"},
+        {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SE7w8)"},
+        {route:"beruehmte-christoph-kolumbus", label:"Portrait: Christopher Columbus (SE7w8)"},
+        {route:"krankheitsportraets-mariah-carey", label:"Illness Portrait: Mariah Carey (SE7w8) – bipolar disorder"},
         ])}
       </div>
     </div>
@@ -1848,11 +1850,11 @@ export function arminMuellerStahlPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/se1", label:"SP1 – The Worrier: Subtype Profile"},
-          {route:"beruehmte-fritz-wepper", label:"Portrait: Fritz Wepper (SP1w9) – also a German actor"},
-          {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
-          {route:"beruehmte-herman-van-veen", label:"Portrait: Herman van Veen (SP1w9)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Worrier: Subtype Profile"},
+        {route:"beruehmte-fritz-wepper", label:"Portrait: Fritz Wepper (SP1w9) – also a German actor"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
+        {route:"beruehmte-herman-van-veen", label:"Portrait: Herman van Veen (SP1w9)"},
         ])}
       </div>
     </div>
@@ -1981,12 +1983,12 @@ export function lennyKravitzPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
-          {route:"beruehmte-brad-pitt", label:"Portrait: Brad Pitt (SX3w2)"},
-          {route:"beruehmte-helene-fischer", label:"Portrait: Helene Fischer (SX3w2)"},
-          {route:"beruehmte-brigitte-bardot", label:"Portrait: Brigitte Bardot (SX3w2)"},
-          {route:"beruehmte-zoe-kravitz", label:"Portrait: Zoë Kravitz (SO3w2) – his daughter"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"beruehmte-brad-pitt", label:"Portrait: Brad Pitt (SX3w2)"},
+        {route:"beruehmte-helene-fischer", label:"Portrait: Helene Fischer (SX3w2)"},
+        {route:"beruehmte-brigitte-bardot", label:"Portrait: Brigitte Bardot (SX3w2)"},
+        {route:"beruehmte-zoe-kravitz", label:"Portrait: Zoë Kravitz (SO3w2) – his daughter"},
         ])}
       </div>
     </div>
@@ -2056,10 +2058,10 @@ export function bobbyFischerPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
-          {route:"beruehmte-wladimir-putin", label:"Portrait: Wladimir Putin (SX6w5) – same pattern, different stage"},
-          {route:"beruehmte-otto-von-bismarck", label:"Portrait: Otto von Bismarck (SX6w5)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-wladimir-putin", label:"Portrait: Wladimir Putin (SX6w5) – same pattern, different stage"},
+        {route:"beruehmte-otto-von-bismarck", label:"Portrait: Otto von Bismarck (SX6w5)"},
         ])}
       </div>
     </div>

@@ -974,7 +974,7 @@ export function krisMarshallPortraitPage() {
           {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
           {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
           {route:"beruehmte-jane-goodall", label:"Portrait: Dr. Jane Goodall (SX9w1)"},
-          {route:"beruehmte-craig-foster", label:"Portrait: Craig Foster (SX9w1)"},
+          {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1)"},
           {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
           {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1) – dieselbe ruhige Ausstrahlung"},
         ])}

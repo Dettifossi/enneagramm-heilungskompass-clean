@@ -122,8 +122,8 @@ export function ameliaEarhartPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-sandra-hueller", label:"Portrait: Sandra Hüller (SO9w1)"},
-          {route:"beruehmte-julian-assange", label:"Portrait: Julian Assange (SO9w1)"},
+        {route:"beruehmte-sandra-hueller", label:"Portrait: Sandra Hüller (SO9w1)"},
+        {route:"beruehmte-julian-assange", label:"Portrait: Julian Assange (SO9w1)"},
         ])}
       </div>
     </div>
@@ -704,9 +704,9 @@ export function igaSwiatekPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
-          {route:"beruehmte-kevin-costner", label:"Portrait: Kevin Costner (SO9w1)"},
-          {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
+        {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
+        {route:"beruehmte-kevin-costner", label:"Portrait: Kevin Costner (SO9w1)"},
+        {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
         ])}
       </div>
     </div>
@@ -1353,10 +1353,10 @@ export function romulusWhitakerPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
-          {route:"beruehmte-thea-litschka-koen", label:"Portrait: Thea Litschka-Koen (SX1w2)"},
-          {route:"beruehmte-bill-haast", label:"Portrait: Bill Haast (SX1w9)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+        {route:"beruehmte-thea-litschka-koen", label:"Portrait: Thea Litschka-Koen (SX1w2)"},
+        {route:"beruehmte-bill-haast", label:"Portrait: Bill Haast (SX1w9)"},
         ])}
         ${animalResearcherMatchBlock("beruehmte-romulus-whitaker")}
       </div>
@@ -1624,6 +1624,7 @@ export function xuBingPortraitPage() {
         {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
         {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SP5w4)"},
         {route:"beruehmte-franz-kafka", label:"Portrait: Franz Kafka (SP5w4)"},
+        {route:"beruehmte-blaise-pascal", label:"Portrait: Blaise Pascal (SX5w6)"},
       ])}
     </div>
   `);
@@ -1691,6 +1692,7 @@ export function jeanPaulSartrePortraitPage() {
         {route:"beruehmte-augustinus-von-hippo", label:"Portrait: Augustine of Hippo (SX4w5)"},
         {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5)"},
         {route:"beruehmte-simone-de-beauvoir", label:"Portrait: Simone de Beauvoir (SO5w6) – lifelong companion"},
+        {route:"beruehmte-hannah-arendt", label:"Portrait: Hannah Arendt (SO5w4)"},
       ])}
     </div>
   `);
@@ -1821,10 +1823,10 @@ export function skylarGreyPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
-          {route:"beruehmte-kollegah", label:"Portrait: Kollegah (SX6w5) – also music"},
-          {route:"beruehmte-friedrich-schiller", label:"Portrait: Friedrich Schiller (SX6w5)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-kollegah", label:"Portrait: Kollegah (SX6w5) – also music"},
+        {route:"beruehmte-friedrich-schiller", label:"Portrait: Friedrich Schiller (SX6w5)"},
         ])}
       </div>
     </div>
@@ -1885,10 +1887,10 @@ export function matthewMcConaugheyPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
-          {route:"beruehmte-frank-schaetzing", label:"Portrait: Frank Schätzing (SX3w4) – also SX3w4"},
-          {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"beruehmte-frank-schaetzing", label:"Portrait: Frank Schätzing (SX3w4) – also SX3w4"},
+        {route:"beruehmte-dieter-bohlen", label:"Portrait: Dieter Bohlen (SX3w4)"},
         ])}
       </div>
     </div>
@@ -1949,12 +1951,12 @@ export function francoisDamiensPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/sx9", label:"SX9 \u2013 The Sloth: Subtype Profile"},
-          {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w8) \u2013 also provocation as the Eight-wing's weapon"},
-          {route:"beruehmte-juergen-drews", label:"Portrait: J\u00fcrgen Drews (SX9w8)"},
-          {route:"beruehmte-juergen-von-der-lippe", label:"Portrait: J\u00fcrgen von der Lippe (SX9w8) \u2013 also crude humor as audience closeness"},
-          {route:"beruehmte-michael-berryman", label:"Portrait: Michael Berryman (SX9w8) \u2013 also turned an unusual appearance into a career"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx9", label:"SX9 \u2013 The Sloth: Subtype Profile"},
+        {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w8) \u2013 also provocation as the Eight-wing's weapon"},
+        {route:"beruehmte-juergen-drews", label:"Portrait: J\u00fcrgen Drews (SX9w8)"},
+        {route:"beruehmte-juergen-von-der-lippe", label:"Portrait: J\u00fcrgen von der Lippe (SX9w8) \u2013 also crude humor as audience closeness"},
+        {route:"beruehmte-michael-berryman", label:"Portrait: Michael Berryman (SX9w8) \u2013 also turned an unusual appearance into a career"},
         ])}
       </div>
     </div>
@@ -2014,11 +2016,11 @@ export function maraWilsonPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/se4", label:"SE4 &ndash; The Dove: Subtype Profile"},
-          {route:"beruehmte-charlotte-wells", label:"Portrait: Charlotte Wells (SE4w5) – also an early loss, processed quietly through storytelling"},
-          {route:"beruehmte-sally-rooney", label:"Portrait: Sally Rooney (SE4w5)"},
-          {route:"beruehmte-connie-chiu", label:"Portrait: Connie Chiu (SE4w5)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SE4 &ndash; The Dove: Subtype Profile"},
+        {route:"beruehmte-charlotte-wells", label:"Portrait: Charlotte Wells (SE4w5) – also an early loss, processed quietly through storytelling"},
+        {route:"beruehmte-sally-rooney", label:"Portrait: Sally Rooney (SE4w5)"},
+        {route:"beruehmte-connie-chiu", label:"Portrait: Connie Chiu (SE4w5)"},
         ])}
       </div>
     </div>

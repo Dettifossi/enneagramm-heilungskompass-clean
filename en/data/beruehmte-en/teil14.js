@@ -1036,6 +1036,7 @@ export function lucyCookePortraitPage() {
         {route:"beruehmte-elizabeth-barrett-browning", label:"Portrait: Elizabeth Barrett Browning (SX9w8)"},
         {route:"beruehmte-ana-salceda", label:"Portrait: Ana Salceda (SX9w1) – also a sloth correspondence"},
         {route:"tierforscher-uebereinstimmung", label:"Animal-Researcher Correspondence: more examples"},
+        {route:"beruehmte-kris-marshall", label:"Portrait: Kris Marshall (SX9w1)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-lucy-cooke")}
     </div>
@@ -1291,6 +1292,7 @@ export function peterFalkPortraitPage() {
         {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
         {route:"krankheitsportraets-peter-falk", label:"Illness Portrait: Peter Falk – Alzheimer's disease"},
         {route:"bibel-barabbas", label:"Bible Portrait: Barabbas (SO9w1)"},
+        {route:"beruehmte-alan-mcelligott", label:"Portrait: Dr. Alan McElligott (SO9w1)"},
       ])}
     </div>
   `);
@@ -1544,6 +1546,7 @@ export function usherPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
+        {route:"beruehmte-nina-chuba", label:"Portrait: Nina Chuba (SO2w3)"},
       ])}
     </div>
   `);
@@ -1871,10 +1874,10 @@ export function alexanderGerstPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
-          {route:"beruehmte-ranga-yogeshwar", label:"Portrait: Ranga Yogeshwar (SO2w1) – also SO2w1"},
-          {route:"beruehmte-muhammad-ali", label:"Portrait: Muhammad Ali (SO2w1)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-ranga-yogeshwar", label:"Portrait: Ranga Yogeshwar (SO2w1) – also SO2w1"},
+        {route:"beruehmte-muhammad-ali", label:"Portrait: Muhammad Ali (SO2w1)"},
         ])}
       </div>
     </div>
@@ -1935,10 +1938,10 @@ export function jonHammPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-          {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
-          {route:"beruehmte-fritz-perls", label:"Portrait: Fritz Perls (SO8w7) – also a teacher/mentor with strength in service of others"},
-          {route:"beruehmte-sokrates", label:"Portrait: Socrates (SO8w7)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
+        {route:"beruehmte-fritz-perls", label:"Portrait: Fritz Perls (SO8w7) – also a teacher/mentor with strength in service of others"},
+        {route:"beruehmte-sokrates", label:"Portrait: Socrates (SO8w7)"},
         ])}
       </div>
     </div>
@@ -1998,12 +2001,12 @@ export function olenaZelenskaPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/sx6", label:"SX6 &ndash; The Wolf: Subtype Profile"},
-          {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SE3w2) – her husband"},
-          {route:"beruehmte-eva-mendes", label:"Portrait: Eva Mendes (SX6w7)"},
-          {route:"beruehmte-jennifer-aniston", label:"Portrait: Jennifer Aniston (SX6w7)"},
-          {route:"beruehmte-scarlett-johansson", label:"Portrait: Scarlett Johansson (SX6w7)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx6", label:"SX6 &ndash; The Wolf: Subtype Profile"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SE3w2) – her husband"},
+        {route:"beruehmte-eva-mendes", label:"Portrait: Eva Mendes (SX6w7)"},
+        {route:"beruehmte-jennifer-aniston", label:"Portrait: Jennifer Aniston (SX6w7)"},
+        {route:"beruehmte-scarlett-johansson", label:"Portrait: Scarlett Johansson (SX6w7)"},
         ])}
       </div>
     </div>

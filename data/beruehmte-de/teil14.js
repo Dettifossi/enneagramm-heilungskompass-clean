@@ -1544,7 +1544,7 @@ export function usherPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
-        {route:"beruehmte-nina-chuba", label:"Portrait: Nina Chuba (SO2w3)"},
+        {route:"beruehmte-nina-chuba", label:"Porträt: Nina Chuba (SO2w3)"},
       ])}
     </div>
   `);

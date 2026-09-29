@@ -844,6 +844,7 @@ export function karlMarxPortraitPage() {
         {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
         {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portrait: Georg Wilhelm Friedrich Hegel (SO5w6) – whose dialectic he turned 'right side up again'"},
         {route:"bibel-kaiphas", label:"Bible Portrait: High Priest Caiaphas (SO8w9)"},
+        {route:"beruehmte-jamaica-kincaid", label:"Portrait: Jamaica Kincaid (SO8w9)"},
       ])}
     </div>
   `);
@@ -910,6 +911,9 @@ export function langLangPortraitPage() {
         {route:"beruehmte-joseph-haydn", label:"Portrait: Joseph Haydn (SE3w2)"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SE3w2)"},
         {route:"beruehmte-helene-fischer", label:"Portrait: Helene Fischer (SE3w2)"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4)"},
+        {route:"beruehmte-halle-berry", label:"Portrait: Halle Berry (SE3w2)"},
+        {route:"beruehmte-audrey-tautou", label:"Portrait: Audrey Tautou (SE3w2)"},
       ])}
     </div>
   `);
@@ -1031,9 +1035,9 @@ export function marieCuriePortraitPage() {
         <p class="vb-intro">Her final years – marked by decades of unprotected work with radioactive materials and her death from aplastic anemia in 1934 – are explored in depth in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-marie-curie">Illness Portrait of Curie</a>.</p>
 
         ${relatedLinks([
-          {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6)"},
-          {route:"beruehmte-amelia-earhart", label:"Portrait: Amelia Earhart (SP9w1)"},
-          {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SE5w6)"},
+        {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SP5w6)"},
+        {route:"beruehmte-amelia-earhart", label:"Portrait: Amelia Earhart (SP9w1)"},
+        {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SE5w6)"},
         ])}
       </div>
     </div>
@@ -1226,6 +1230,7 @@ export function penelopeCruzPortraitPage() {
         {route:"beruehmte-halle-berry", label:"Portrait: Halle Berry (SP3w2)"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
         {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SP3w4)"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SE3w2)"},
       ])}
     </div>
   `);
@@ -1624,6 +1629,7 @@ export function simoneDeBeauvoirPortraitPage() {
         {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
         {route:"beruehmte-eckhard-freise", label:"Portrait: Eckhard Freise (SO5w6)"},
         {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portrait: Georg Wilhelm Friedrich Hegel (SO5w6)"},
+        {route:"beruehmte-hannah-arendt", label:"Portrait: Hannah Arendt (SO5w4)"},
       ])}
     </div>
   `);
@@ -1750,11 +1756,11 @@ export function carolinKebekusPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-          {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
-          {route:"beruehmte-ali-wong", label:"Portrait: Ali Wong (SO7w6) – also comedy with social conscience"},
-          {route:"beruehmte-alexander-bommes", label:"Portrait: Alexander Bommes (SO7w6)"},
-          {route:"beruehmte-gregor-gysi", label:"Portrait: Dr. Gregor Gysi (SO7w6) – also sharp wit with political conviction"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"beruehmte-ali-wong", label:"Portrait: Ali Wong (SO7w6) – also comedy with social conscience"},
+        {route:"beruehmte-alexander-bommes", label:"Portrait: Alexander Bommes (SO7w6)"},
+        {route:"beruehmte-gregor-gysi", label:"Portrait: Dr. Gregor Gysi (SO7w6) – also sharp wit with political conviction"},
         ])}
       </div>
     </div>
@@ -1886,11 +1892,11 @@ export function juergenVonDerLippePortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
-          {route:"beruehmte-mario-barth", label:"Portrait: Mario Barth (SX9w8)"},
-          {route:"beruehmte-juergen-drews", label:"Portrait: Jürgen Drews (SX9w8)"},
-          {route:"beruehmte-francois-damiens", label:"Portrait: François Damiens (SX9w8)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"beruehmte-mario-barth", label:"Portrait: Mario Barth (SX9w8)"},
+        {route:"beruehmte-juergen-drews", label:"Portrait: Jürgen Drews (SX9w8)"},
+        {route:"beruehmte-francois-damiens", label:"Portrait: François Damiens (SX9w8)"},
         ])}
       </div>
     </div>

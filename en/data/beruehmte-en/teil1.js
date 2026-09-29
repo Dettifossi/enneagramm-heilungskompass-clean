@@ -1742,7 +1742,6 @@ export function suzanLoriParksPortraitPage() {
         {route:"subtype/se7", label:"SP7 – The Gorilla: Subtype profile"},
         {route:"beruehmte-francis-bacon", label:"Portrait: Francis Bacon (SP7w8)"},
         {route:"beruehmte-takashi-murakami", label:"Portrait: Takashi Murakami (SP7w8)"},
-        {route:"beruehmte-suzan-lori-parks", label:"Portrait: Suzan-Lori Parks (SP7w8)"},
       ])}
     </div>
   `);

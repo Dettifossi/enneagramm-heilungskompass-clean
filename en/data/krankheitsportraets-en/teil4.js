@@ -1223,6 +1223,7 @@ export function fridaKahloKrankheitsportraetPage() {
         {route:"krankheitsportraets-nusrat-fateh-ali-khan", label:"Illness Portrait: Nusrat Fateh Ali Khan (SP2w3) – the same refusal to step back"},
         {route:"krankheitsportraets-wolfgang-amadeus-mozart", label:"Illness Portrait: Wolfgang Amadeus Mozart (SP2w3)"},
         {route:"krankheitsportraets-ai-weiwei", label:"Illness Portrait: Ai Weiwei (SP2w3) – the same pattern of visible suffering"},
+        {route:"krankheitsportraets-mr-t", label:"Illness Portrait: Mr. T (SP2w3) – body as visible testimony"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se2", label:"Subtype Profile SP2"},
       ])}
@@ -4554,6 +4555,7 @@ export function enricoCarusoKrankheitsportraetPage() {
         {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SP3w2) – life's work"},
         {route:"krankheitsportraets-joseph-haydn", label:"Illness Portrait: Joseph Haydn (SP3w2) – same subtype"},
         {route:"krankheitsportraets-sadhguru", label:"Illness Portrait: Sadhguru (SP3w2) – same subtype"},
+        {route:"krankheitsportraets-klara-von-assisi", label:"Illness Portrait: Clare of Assisi (SP3w2) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
       ])}
     </div>

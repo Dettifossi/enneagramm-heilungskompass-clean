@@ -115,9 +115,9 @@ export function adeleNeuhauserPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-donald-trump", label:"Portrait: Donald J. Trump (SX8w7)"},
-          {route:"beruehmte-genesis-p-orridge", label:"Portrait: Genesis P-Orridge (SX8w9)"},
-          {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
+        {route:"beruehmte-donald-trump", label:"Portrait: Donald J. Trump (SX8w7)"},
+        {route:"beruehmte-genesis-p-orridge", label:"Portrait: Genesis P-Orridge (SX8w9)"},
+        {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
         ])}
       </div>
     </div>
@@ -181,10 +181,10 @@ export function angelaMerkelPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"astrologie-angela-merkel", label:"Enneagramm meets Astrologie: Angela Merkel (SE9w8)"},
-          {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
-          {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
-          {route:"beruehmte-margaret-rutherford", label:"Portrait: Margaret Rutherford (SE9w8)"},
+        {route:"astrologie-angela-merkel", label:"Enneagramm meets Astrologie: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
+        {route:"beruehmte-margaret-rutherford", label:"Portrait: Margaret Rutherford (SE9w8)"},
         ])}
       </div>
     </div>
@@ -440,6 +440,7 @@ export function dieterBohlenPortraitPage() {
         {route:"beruehmte-frank-schaetzing", label:"Portrait: Frank Schätzing (SX3w4) – also SX3w4"},
         {route:"beruehmte-matthew-mcconaughey", label:"Portrait: Matthew McConaughey (SX3w4)"},
         {route:"beruehmte-gordon-ramsay", label:"Portrait: Gordon Ramsay (SX3w4)"},
+        {route:"beruehmte-dolly-parton", label:"Portrait: Dolly Parton (SX3w4)"},
       ])}
     </div>
   `);
@@ -504,6 +505,7 @@ export function elizabethBarrettBrowningPortraitPage() {
         {route:"beruehmte-heike-makatsch", label:"Portrait: Heike Makatsch (SX9w8)"},
         {route:"beruehmte-mario-barth", label:"Portrait: Mario Barth (SX9w8)"},
         {route:"krankheitsportraets-elizabeth-barrett-browning", label:"Illness Portrait: Elizabeth Barrett Browning (SX9w8)"},
+        {route:"beruehmte-kris-marshall", label:"Portrait: Kris Marshall (SX9w1)"},
       ])}
     </div>
   `);
@@ -633,11 +635,11 @@ export function goldaMeirPortraitPage() {
         <p class="vb-intro">The lymphoma diagnosis Meir kept secret for seventeen years, throughout her entire term as Prime Minister, is explored in full in the separate <a href="javascript:void(0)" data-route="krankheitsportraets-golda-meir">illness portrait on Meir</a> – with a parallel to Winston Churchill (also SE8w9), whose own concealed stroke is explored in the <a href="javascript:void(0)" data-route="krankheitsportraets-winston-churchill">illness portrait on Churchill</a>.</p>
 
         ${relatedLinks([
-          {route:"krankheitsportraets-golda-meir", label:"Illness Portrait: Golda Meir (SE8w9)"},
-          {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SE8w9)"},
-          {route:"beruehmte-umberto-eco", label:"Portrait: Umberto Eco (SE8w7)"},
-          {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
-          {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SE8w9)"},
+        {route:"krankheitsportraets-golda-meir", label:"Illness Portrait: Golda Meir (SE8w9)"},
+        {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SE8w9)"},
+        {route:"beruehmte-umberto-eco", label:"Portrait: Umberto Eco (SE8w7)"},
+        {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
+        {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SE8w9)"},
         ])}
       </div>
     </div>
@@ -1772,12 +1774,12 @@ export function johnIoannidisPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-          {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
-          {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
-          {route:"beruehmte-frank-rosell", label:"Portrait: Prof. Dr. Frank Rosell (SO7w6)"},
-          {route:"beruehmte-christian-drosten", label:"Portrait: Prof. Dr. Christian Drosten (SO7w6) – the counterpoint in the same crisis"},
-          {route:"beruehmte-rupert-spira", label:"Portrait: Rupert Spira (SO7w6)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
+        {route:"beruehmte-frank-rosell", label:"Portrait: Prof. Dr. Frank Rosell (SO7w6)"},
+        {route:"beruehmte-christian-drosten", label:"Portrait: Prof. Dr. Christian Drosten (SO7w6) – the counterpoint in the same crisis"},
+        {route:"beruehmte-rupert-spira", label:"Portrait: Rupert Spira (SO7w6)"},
         ])}
       </div>
     </div>
@@ -1902,11 +1904,11 @@ export function sergioBambarenPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
-          {route:"beruehmte-ronald-reagan", label:"Portrait: Ronald Reagan (SO9w8)"},
-          {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
-          {route:"beruehmte-carlo-ancelotti", label:"Portrait: Carlo Ancelotti (SO9w8)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
+        {route:"beruehmte-ronald-reagan", label:"Portrait: Ronald Reagan (SO9w8)"},
+        {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
+        {route:"beruehmte-carlo-ancelotti", label:"Portrait: Carlo Ancelotti (SO9w8)"},
         ])}
       </div>
     </div>

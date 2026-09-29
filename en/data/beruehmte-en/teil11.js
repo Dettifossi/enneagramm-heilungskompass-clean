@@ -318,6 +318,7 @@ export function catStevensPortraitPage() {
         {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3)"},
         {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+        {route:"beruehmte-alan-watts", label:"Portrait: Alan Watts (SO4w3) – also a radical spiritual reinvention"},
       ])}
     </div>
   `);
@@ -909,6 +910,7 @@ export function kamalaHarrisPortraitPage() {
         {route:"beruehmte-eva-peron", label:"Portrait: Eva Perón (SO2w3)"},
         {route:"beruehmte-mira-murati", label:"Portrait: Mira Murati (SO2w3)"},
         {route:"beruehmte-truman-capote", label:"Portrait: Truman Capote (SO2w3)"},
+        {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
       ])}
     </div>
   `);
@@ -969,12 +971,13 @@ export function krisMarshallPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
-          {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
-          {route:"beruehmte-jane-goodall", label:"Portrait: Dr. Jane Goodall (SX9w1)"},
-          {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
-          {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1) – the same quiet presence"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
+        {route:"beruehmte-jane-goodall", label:"Portrait: Dr. Jane Goodall (SX9w1)"},
+        {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
+        {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1) – the same quiet presence"},
+        {route:"beruehmte-craig-foster", label:"Portrait: Craig Foster (SX9w1)"},
         ])}
       </div>
     </div>
@@ -1165,16 +1168,16 @@ export function michaelJacksonPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"krankheitsportraets-michael-jackson", label:"Illness Portrait: Michael Jackson (SO4w3)"},
-          {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
-          {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
-          {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
-          {route:"beruehmte-cat-stevens", label:"Portrait: Cat Stevens / Yusuf Islam (SO4w3)"},
-          {route:"beruehmte-hans-christian-andersen", label:"Portrait: Hans Christian Andersen (SO4w3)"},
-          {route:"beruehmte-heinrich-heine", label:"Portrait: Heinrich Heine (SO4w3)"},
-          {route:"beruehmte-fabian-kahl", label:"Portrait: Fabian Kahl (SO4w3)"},
-          {route:"beruehmte-eddie-redmayne", label:"Portrait: Eddie Redmayne (SO4w3)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"krankheitsportraets-michael-jackson", label:"Illness Portrait: Michael Jackson (SO4w3)"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
+        {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
+        {route:"beruehmte-cat-stevens", label:"Portrait: Cat Stevens / Yusuf Islam (SO4w3)"},
+        {route:"beruehmte-hans-christian-andersen", label:"Portrait: Hans Christian Andersen (SO4w3)"},
+        {route:"beruehmte-heinrich-heine", label:"Portrait: Heinrich Heine (SO4w3)"},
+        {route:"beruehmte-fabian-kahl", label:"Portrait: Fabian Kahl (SO4w3)"},
+        {route:"beruehmte-eddie-redmayne", label:"Portrait: Eddie Redmayne (SO4w3)"},
         ])}
       </div>
     </div>
@@ -1323,10 +1326,10 @@ export function paulGauguinPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5) – the conflict in Arles"},
-          {route:"beruehmte-pablo-picasso", label:"Portrait: Pablo Picasso (SX8w7)"},
-          {route:"beruehmte-donald-trump", label:"Portrait: Donald J. Trump (SX8w7)"},
-          {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
+        {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5) – the conflict in Arles"},
+        {route:"beruehmte-pablo-picasso", label:"Portrait: Pablo Picasso (SX8w7)"},
+        {route:"beruehmte-donald-trump", label:"Portrait: Donald J. Trump (SX8w7)"},
+        {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
         ])}
       </div>
     </div>
@@ -1739,6 +1742,7 @@ export function albertoMariniPortraitPage() {
         {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype profile"},
         {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fyodor Dostoevsky (SP6w5)"},
         {route:"beruehmte-huang-yong-ping", label:"Portrait: Huang Yong Ping (SP6w5)"},
+        {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SE6w5)"},
       ])}
     </div>
   `);
@@ -1806,6 +1810,7 @@ export function helmutSchmidtPortraitPage() {
         {route:"beruehmte-roald-amundsen", label:"Portrait: Roald Amundsen (SO1w9)"},
         {route:"beruehmte-markus-lanz", label:"Portrait: Markus Lanz (SO1w9)"},
         {route:"beruehmte-ursula-von-der-leyen", label:"Portrait: Ursula von der Leyen (SO1w9)"},
+        {route:"beruehmte-kurt-georg-kiesinger", label:"Portrait: Kurt Georg Kiesinger (SO1w9) – predecessor as Chancellor, same subtype"},
         {route:"beruehmte-giorgia-meloni", label:"Portrait: Giorgia Meloni (SO1w9)"},
         {route:"beruehmte-emmanuel-macron", label:"Portrait: Emmanuel Macron (SO1w9)"},
         {route:"beruehmte-peter-sage", label:"Portrait: Peter Sage (SO1w9)"},
@@ -1869,11 +1874,11 @@ export function rupertSpiraPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
-          {route:"beruehmte-john-ioannidis", label:"Portrait: Prof. Dr. John Ioannidis (SO7w6)"},
-          {route:"beruehmte-christian-drosten", label:"Portrait: Prof. Dr. Christian Drosten (SO7w6)"},
-          {route:"beruehmte-gregor-gysi", label:"Portrait: Dr. Gregor Gysi (SO7w6)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"beruehmte-john-ioannidis", label:"Portrait: Prof. Dr. John Ioannidis (SO7w6)"},
+        {route:"beruehmte-christian-drosten", label:"Portrait: Prof. Dr. Christian Drosten (SO7w6)"},
+        {route:"beruehmte-gregor-gysi", label:"Portrait: Dr. Gregor Gysi (SO7w6)"},
         ])}
       </div>
     </div>
@@ -1934,13 +1939,13 @@ export function jonBonJoviPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
-          {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1) – also a musician, the same focused on-stage merging"},
-          {route:"beruehmte-ringo-starr", label:"Portrait: Ringo Starr (SX9w1) – the same merging with marriage and band"},
-          {route:"beruehmte-helge-schneider", label:"Portrait: Helge Schneider (SX9w1)"},
-          {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
-          {route:"beruehmte-david-guetta", label:"Portrait: David Guetta (SX9w1) – also a musician with a long-running institution of his own"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1) – also a musician, the same focused on-stage merging"},
+        {route:"beruehmte-ringo-starr", label:"Portrait: Ringo Starr (SX9w1) – the same merging with marriage and band"},
+        {route:"beruehmte-helge-schneider", label:"Portrait: Helge Schneider (SX9w1)"},
+        {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
+        {route:"beruehmte-david-guetta", label:"Portrait: David Guetta (SX9w1) – also a musician with a long-running institution of his own"},
         ])}
       </div>
     </div>
@@ -2000,12 +2005,12 @@ export function barneyFishwickPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/se4", label:"SE4 &ndash; The Dove: Subtype Profile"},
-          {route:"beruehmte-charlotte-wells", label:"Portrait: Charlotte Wells (SE4w5) – also quiet film work, same subtype"},
-          {route:"beruehmte-sally-rooney", label:"Portrait: Sally Rooney (SE4w5)"},
-          {route:"beruehmte-michael-david-rosenberg", label:"Portrait: Michael David Rosenberg / Passenger (SE4w3)"},
-          {route:"beruehmte-neil-harbisson", label:"Portrait: Neil Harbisson (SE4w5) – also years of precise technical work, same subtype"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SE4 &ndash; The Dove: Subtype Profile"},
+        {route:"beruehmte-charlotte-wells", label:"Portrait: Charlotte Wells (SE4w5) – also quiet film work, same subtype"},
+        {route:"beruehmte-sally-rooney", label:"Portrait: Sally Rooney (SE4w5)"},
+        {route:"beruehmte-michael-david-rosenberg", label:"Portrait: Michael David Rosenberg / Passenger (SE4w3)"},
+        {route:"beruehmte-neil-harbisson", label:"Portrait: Neil Harbisson (SE4w5) – also years of precise technical work, same subtype"},
         ])}
       </div>
     </div>

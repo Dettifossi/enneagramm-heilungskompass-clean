@@ -1072,6 +1072,7 @@ export function marcelProustPortraitPage() {
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
         {route:"beruehmte-gustav-mahler", label:"Portrait: Gustav Mahler (SO4w5)"},
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
+        {route:"beruehmte-edvard-munch", label:"Portrait: Edvard Munch (SO4w5) – the same withdrawal logic despite persisting belonging"},
         {route:"krankheitsportraets-gustav-mahler", label:"Illness Portrait: Gustav Mahler (SO4w5) – parallel to Proust's race against time"},
         {route:"krankheitsportraets-marcel-proust", label:"Illness Portrait: Marcel Proust (SO4w5) – lifelong asthma"},
         {route:"beruehmte-michael-stipe", label:"Portrait: Michael Stipe (SO4w5)"},

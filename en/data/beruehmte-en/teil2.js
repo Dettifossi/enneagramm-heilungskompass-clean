@@ -899,9 +899,9 @@ export function camilleFritschPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
-          {route:"beruehmte-jj-liu", label:"Portrait: J. J. Liu (SE2w1)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-jj-liu", label:"Portrait: J. J. Liu (SE2w1)"},
         ])}
         ${animalResearcherMatchBlock("beruehmte-camille-fritsch")}
       </div>
@@ -1040,8 +1040,8 @@ export function dianFosseyPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-junko-tabei", label:"Portrait: Junko Tabei (SP7w6)"},
-          {route:"kriminalpsychologie-andreas-baader", label:"Criminal Psychology: Andreas Baader (SP7w8)"},
+        {route:"beruehmte-junko-tabei", label:"Portrait: Junko Tabei (SP7w6)"},
+        {route:"kriminalpsychologie-andreas-baader", label:"Criminal Psychology: Andreas Baader (SP7w8)"},
         ])}
         ${animalResearcherMatchBlock("beruehmte-dian-fossey")}
       </div>
@@ -1175,6 +1175,7 @@ export function franzSchubertPortraitPage() {
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3) – whom Schubert revered throughout his life"},
         {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostojewski (SE6w5)"},
         {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
+        {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SO4w5) – German-language song art compared, different core pattern"},
         {route:"krankheitsportraets-fjodor-dostojewski", label:"Illness Portrait: Fjodor Dostoevsky (SE6w5)"},
         {route:"krankheitsportraets-franz-schubert", label:"Illness Portrait: Franz Schubert – Syphilis & Winterreise"},
       ])}
@@ -1237,8 +1238,8 @@ export function ginaRinehartPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
-          {route:"beruehmte-carmen-goglin", label:"Portrait: Carmen Goglin (SE9w8)"},
+        {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
+        {route:"beruehmte-carmen-goglin", label:"Portrait: Carmen Goglin (SE9w8)"},
         ])}
       </div>
     </div>
@@ -1301,6 +1302,7 @@ export function heikeMakatschPortraitPage() {
         {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
         {route:"beruehmte-elizabeth-barrett-browning", label:"Portrait: Elizabeth Barrett Browning (SX9w8)"},
+        {route:"beruehmte-kris-marshall", label:"Portrait: Kris Marshall (SX9w1)"},
       ])}
     </div>
   `);
@@ -1558,10 +1560,10 @@ export function kevinCostnerPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
-          {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1)"},
-          {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
-          {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
+        {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
+        {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1)"},
+        {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
+        {route:"beruehmte-james-levine", label:"Portrait: James Levine (SE9w1)"},
         ])}
       </div>
     </div>
@@ -2368,12 +2370,12 @@ export function sterlingNorthPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-          {route:"subtype/se3", label:"SE3 – The Raccoon: subtype profile"},
-          {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SE3 – Raccoon"},
-          {route:"tierlexikon/se3", label:"Animal Lexicon: Raccoon"},
-          {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SE3w4)"},
-          {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SE3w4)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: subtype profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SE3 – Raccoon"},
+        {route:"tierlexikon/se3", label:"Animal Lexicon: Raccoon"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SE3w4)"},
+        {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SE3w4)"},
         ])}
       </div>
     </div>
@@ -2506,9 +2508,9 @@ export function wallaceShawnPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SE7w6)"},
-          {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SE7w8)"},
-          {route:"beruehmte-boris-becker", label:"Portrait: Boris Becker (SX7w8)"},
+        {route:"beruehmte-jasmin-paolini", label:"Portrait: Jasmin Paolini (SE7w6)"},
+        {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SE7w8)"},
+        {route:"beruehmte-boris-becker", label:"Portrait: Boris Becker (SX7w8)"},
         ])}
       </div>
     </div>
@@ -2568,12 +2570,12 @@ export function michaelDavidRosenbergPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-          {route:"subtype/se4", label:"SE4 &ndash; The Dove: Subtype Profile"},
-          {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SE4w3) – also a musician, same subtype"},
-          {route:"beruehmte-adele", label:"Portrait: Adele (SE4w3)"},
-          {route:"beruehmte-nicolas-cage", label:"Portrait: Nicolas Cage (SE4w3)"},
-          {route:"beruehmte-brian-fennell", label:"Portrait: Brian Fennell (SYML) (SE4w3) – also a musician, same subtype"},
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SE4 &ndash; The Dove: Subtype Profile"},
+        {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SE4w3) – also a musician, same subtype"},
+        {route:"beruehmte-adele", label:"Portrait: Adele (SE4w3)"},
+        {route:"beruehmte-nicolas-cage", label:"Portrait: Nicolas Cage (SE4w3)"},
+        {route:"beruehmte-brian-fennell", label:"Portrait: Brian Fennell (SYML) (SE4w3) – also a musician, same subtype"},
         ])}
       </div>
     </div>

@@ -248,6 +248,7 @@ export function christiaanBarnardPortraitPage() {
         {route:"beruehmte-ludwig-xiv", label:"Porträt: Ludwig XIV. (SO3w2)"},
         {route:"krankheitsportraets-christiaan-barnard", label:"Krankheitsporträt: Christiaan Barnard (SO3w2) – Rheumatoide Arthritis in den Händen"},
         {route:"beruehmte-will-yun-lee", label:"Porträt: Will Yun Lee (SO3w2)"},
+        {route:"beruehmte-zoe-kravitz", label:"Porträt: Zoë Kravitz (SO3w2)"},
       ])}
     </div>
   `);
@@ -435,6 +436,7 @@ export function frankRosellPortraitPage() {
         {route:"beruehmte-dietland-mueller-schwarze", label:"Porträt: Prof. Dr. Dietland Müller-Schwarze (SO7w6)"},
         {route:"beruehmte-jules-verne", label:"Porträt: Jules Verne (SO7w6)"},
         {route:"beruehmte-john-ioannidis", label:"Porträt: Prof. Dr. John Ioannidis (SO7w6)"},
+        {route:"beruehmte-christian-drosten", label:"Porträt: Prof. Dr. Christian Drosten (SO7w6)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-frank-rosell")}
     </div>
@@ -826,6 +828,7 @@ export function kathrinBauerfeindPortraitPage() {
         {route:"subtype/se3", label:"SE3 \u2013 Der Waschb\u00e4r: Subtyp-Profil"},
         {route:"beruehmte-sadhguru", label:"Portr\u00e4t: Sadhguru (SE3w2)"},
         {route:"beruehmte-caren-miosga", label:"Portr\u00e4t: Caren Miosga (SE3w4) \u2013 Journalistin, derselbe Subtyp"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Porträt: Cheyenne Ochsenknecht (SP3w4)"},
       ])}
     </div>
   `);
@@ -1031,6 +1034,7 @@ export function marilynMonroePortraitPage() {
         {route:"beruehmte-meg-ryan", label:"Portr\u00e4t: Meg Ryan (SX3w4)"},
         {route:"beruehmte-dieter-bohlen", label:"Portr\u00e4t: Dieter Bohlen (SX3w4)"},
         {route:"beruehmte-lana-del-rey", label:"Portr\u00e4t: Lana Del Rey (SX3w4) \u2013 beruft sich selbst auf Monroes Bild"},
+        {route:"beruehmte-dolly-parton", label:"Porträt: Dolly Parton (SX3w4)"},
       ])}
     </div>
   `);
@@ -1290,6 +1294,7 @@ export function romySchneiderPortraitPage() {
         {route:"beruehmte-heinrich-heine", label:"Portr\u00e4t: Heinrich Heine (SO4w3)"},
         {route:"beruehmte-fabian-kahl", label:"Portr\u00e4t: Fabian Kahl (SO4w3)"},
         {route:"beruehmte-eddie-redmayne", label:"Portr\u00e4t: Eddie Redmayne (SO4w3)"},
+        {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SP4w3)"},
       ])}
     </div>
   `);
@@ -1350,10 +1355,10 @@ export function sophieMarceauPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-helge-schneider", label:"Portr\xe4t: Helge Schneider (SX9w1) \u2013 ebenfalls SX9w1"},
-          {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
-          {route:"beruehmte-diego-velazquez", label:"Portr\xe4t: Diego Vel\xe1zquez (SX9w1)"},
-          {route:"beruehmte-ed-sheeran", label:"Portr\xe4t: Ed Sheeran (SX9w1)"},
+        {route:"beruehmte-helge-schneider", label:"Portr\xe4t: Helge Schneider (SX9w1) \u2013 ebenfalls SX9w1"},
+        {route:"beruehmte-keanu-reeves", label:"Portr\xe4t: Keanu Reeves (SX9w1)"},
+        {route:"beruehmte-diego-velazquez", label:"Portr\xe4t: Diego Vel\xe1zquez (SX9w1)"},
+        {route:"beruehmte-ed-sheeran", label:"Portr\xe4t: Ed Sheeran (SX9w1)"},
         ])}
       </div>
     </div>
@@ -1700,6 +1705,8 @@ export function roaldAmundsenPortraitPage() {
         {route:"beruehmte-samuel-hahnemann", label:"Porträt: Dr. Samuel Hahnemann (SO1w9)"},
         {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9) – Standhaftigkeit ohne Dramatik"},
         {route:"beruehmte-kurt-georg-kiesinger", label:"Porträt: Kurt Georg Kiesinger (SO1w9)"},
+        {route:"beruehmte-emmanuel-macron", label:"Porträt: Emmanuel Macron (SO1w9)"},
+        {route:"beruehmte-giorgia-meloni", label:"Porträt: Giorgia Meloni (SO1w9)"},
       ])}
     </div>
   `);
@@ -1760,12 +1767,12 @@ export function edSheeranPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
-          {route:"beruehmte-keanu-reeves", label:"Porträt: Keanu Reeves (SX9w1) – dasselbe Understatement"},
-          {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1)"},
-          {route:"beruehmte-kris-marshall", label:"Porträt: Kris Marshall (SX9w1) – dieselbe ruhige Ausstrahlung"},
-          {route:"beruehmte-jon-bon-jovi", label:"Porträt: Jon Bon Jovi (SX9w1) – dieselbe jahrzehntelange Bindungstreue"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-keanu-reeves", label:"Porträt: Keanu Reeves (SX9w1) – dasselbe Understatement"},
+        {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1)"},
+        {route:"beruehmte-kris-marshall", label:"Porträt: Kris Marshall (SX9w1) – dieselbe ruhige Ausstrahlung"},
+        {route:"beruehmte-jon-bon-jovi", label:"Porträt: Jon Bon Jovi (SX9w1) – dieselbe jahrzehntelange Bindungstreue"},
         ])}
       </div>
     </div>
@@ -1826,10 +1833,10 @@ export function robertOppenheimerPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
-          {route:"beruehmte-pierce-brosnan", label:"Porträt: Pierce Brosnan (SE1w2) – ebenfalls SE1w2"},
-          {route:"beruehmte-udo-juergens", label:"Porträt: Udo Jürgens (SE1w2)"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"beruehmte-pierce-brosnan", label:"Porträt: Pierce Brosnan (SE1w2) – ebenfalls SE1w2"},
+        {route:"beruehmte-udo-juergens", label:"Porträt: Udo Jürgens (SE1w2)"},
         ])}
       </div>
     </div>
@@ -1890,10 +1897,10 @@ export function rykeGeerdHamerPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
-          {route:"beruehmte-helmut-kohl", label:"Porträt: Helmut Kohl (SE8w9) – derselbe Subtyp, unerschütterliche Standfestigkeit im politischen Rahmen"},
-          {route:"beruehmte-winston-churchill", label:"Porträt: Winston Churchill (SE8w9) – ebenfalls derselbe Subtyp"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
+        {route:"beruehmte-helmut-kohl", label:"Porträt: Helmut Kohl (SE8w9) – derselbe Subtyp, unerschütterliche Standfestigkeit im politischen Rahmen"},
+        {route:"beruehmte-winston-churchill", label:"Porträt: Winston Churchill (SE8w9) – ebenfalls derselbe Subtyp"},
         ])}
       </div>
     </div>
@@ -1954,11 +1961,11 @@ export function michaelBerrymanPortraitPage() {
         </blockquote>
 
         ${relatedLinks([
-          {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-          {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
-          {route:"beruehmte-hundertwasser", label:"Porträt: Friedensreich Hundertwasser (SX9w8)"},
-          {route:"beruehmte-francois-damiens", label:"Porträt: François Damiens (SX9w8) – ebenfalls ungewöhnliches Äußeres zum Beruf gemacht"},
-          {route:"krankheitsportraets-michael-berryman", label:"Krankheitsporträt: Michael Berryman (SX9w8) – Leben mit der ektodermalen Dysplasie"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-hundertwasser", label:"Porträt: Friedensreich Hundertwasser (SX9w8)"},
+        {route:"beruehmte-francois-damiens", label:"Porträt: François Damiens (SX9w8) – ebenfalls ungewöhnliches Äußeres zum Beruf gemacht"},
+        {route:"krankheitsportraets-michael-berryman", label:"Krankheitsporträt: Michael Berryman (SX9w8) – Leben mit der ektodermalen Dysplasie"},
         ])}
       </div>
     </div>
