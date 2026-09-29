@@ -2346,7 +2346,7 @@ export function abdulHayyHoldijkPortraitPage() {
 
         <h2 class="vb-section">6. Das Vermächtnis: Der Oktopus, der Wissenstraditionen miteinander vernetzte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Abdul Hayy Holdijk steht für eine seltene Kombination: ein westlicher Sucher, der in einer fremden spirituellen Tradition seine Heimat fand, und der dieses gefundene Wissen anschließend nicht für sich behielt, sondern über Jahrzehnte in mehreren Ländern und mehreren Disziplinen gleichzeitig institutionell weitergab.</p>
+          <p class="vb-intro">Abdul Hayy Holdijk steht für eine seltene Kombination: ein westlicher Sucher, der in einer fremden spirituellen Tradition seine Heimat fand, und der dieses gefundene Wissen nicht für sich behielt, sondern seit Jahrzehnten bis heute in mehreren Ländern und mehreren Disziplinen gleichzeitig institutionell weitergibt.</p>
           <p class="vb-intro">Vom jungen niederländischen Reisenden, der in einer Damaszener Moschee seinen Scheich fand, zum Mitbegründer einer nationalen homöopathischen Fachgesellschaft und langjährigen Universitätsdozenten: Das ist die soziale Fünf mit Viererflügel in ihrer verbindendsten Form – Wissen, das aus echter innerer Tiefe geschöpft und konsequent an eine wachsende Gemeinschaft weitergegeben wird.</p>
         </blockquote>
 

@@ -2340,7 +2340,7 @@ export function abdulHayyHoldijkPortraitPage() {
 
         <h2 class="vb-section">6. The Legacy: The Octopus Who Networked Traditions of Knowledge</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Abdul Hayy Holdijk represents a rare combination: a Western seeker who found his home in a foreign spiritual tradition, and who didn't keep this found knowledge to himself afterward, but institutionally passed it on across several countries and several disciplines at once, for decades.</p>
+          <p class="vb-intro">Abdul Hayy Holdijk represents a rare combination: a Western seeker who found his home in a foreign spiritual tradition, and who didn't keep this found knowledge to himself, but has been institutionally passing it on across several countries and several disciplines at once for decades, to this day.</p>
           <p class="vb-intro">From the young Dutch traveler who found his sheikh in a Damascus mosque, to co-founder of a national homeopathic professional society and longtime university lecturer: this is the social Five with a Four wing at its most connective – knowledge drawn from genuine inner depth and consistently passed on to a growing community.</p>
         </blockquote>
 
