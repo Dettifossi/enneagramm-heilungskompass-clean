@@ -2323,7 +2323,7 @@ export function abdulHayyHoldijkPortraitPage() {
         <h2 class="vb-section">3. The Professional Substance: From Homeopathy to Teaching the Enneagram</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Holdijk earned diplomas under Robin Murphy and at the London International College of Homeopathy, and in 2011 published "A Brief History of Homeopathy in Egypt" – a professional account of the history of his own field in the region. With H2RC2 (the Holistic and Homeopathic Resource Consulting Center), which he runs, he created a lasting institutional home rather than a mere solo practice.</p>
-          <p class="vb-intro">Beyond homeopathy, he now teaches the Enneagram, shadow work, Voice Dialogue, and dream interpretation, and leads spiritual retreats in Lebanon, Egypt, and Oman. In 2026 he appeared as a speaker at the IEA Egypt Conference of the International Enneagram Association – a field in which he is both taught and teaches, rather than remaining a mere consumer of others' knowledge.</p>
+          <p class="vb-intro">Beyond homeopathy, he now teaches the Enneagram, shadow work, Voice Dialogue, and dream interpretation, and leads spiritual retreats in Lebanon, Egypt, and Oman. In 2026 he appeared as a speaker at the IEA Egypt Conference of the International Enneagram Association – a teaching authority in this field himself, rather than remaining a mere consumer of others' knowledge.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Four Wing: Mystical Depth Rather Than Pure Systematics</h2>

@@ -2329,7 +2329,7 @@ export function abdulHayyHoldijkPortraitPage() {
         <h2 class="vb-section">3. Die fachliche Substanz: Von der Homöopathie bis zur Enneagramm-Lehre</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Holdijk erwarb Diplome bei Robin Murphy und am London International College of Homeopathy und veröffentlichte 2011 mit ›A Brief History of Homeopathy in Egypt‹ eine fachliche Aufarbeitung der Geschichte seines eigenen Feldes in der Region. Mit dem von ihm betriebenen H2RC2 (Holistic and Homeopathic Resource Consulting Center) schuf er eine dauerhafte institutionelle Anlaufstelle statt einer bloßen Einzelpraxis.</p>
-          <p class="vb-intro">Über die Homöopathie hinaus lehrt er heute Enneagramm, Shadow Work, Voice Dialogue und Traumdeutung und leitet spirituelle Retreats in Libanon, Ägypten und Oman. 2026 trat er als Referent bei der IEA Egypt Conference der International Enneagram Association auf – ein Feld, in dem er selbst gelehrt wird und lehrt, statt nur Konsument fremden Wissens zu bleiben.</p>
+          <p class="vb-intro">Über die Homöopathie hinaus lehrt er heute Enneagramm, Shadow Work, Voice Dialogue und Traumdeutung und leitet spirituelle Retreats in Libanon, Ägypten und Oman. 2026 trat er als Referent bei der IEA Egypt Conference der International Enneagram Association auf – er tritt in diesem Feld also selbst als lehrende Autorität auf, statt nur Konsument fremden Wissens zu bleiben.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Der Viererflügel: Mystische Tiefe statt reiner Systematik</h2>
