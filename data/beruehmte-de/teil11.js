@@ -1854,19 +1854,25 @@ export function rupertSpiraPortraitPage() {
           <p class="vb-intro">Diese Treue zu einer Linie, kombiniert mit rastlosem eigenem Weiterbauen, zeigt den Sechserflügel in seiner konstruktivsten Form: Sicherheit durch Verwurzelung, nicht durch Stillstand.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Vollständige innere Klarheit, bevor sie weitergegeben wird</h2>
+        <h2 class="vb-section">4. Die Lehre selbst: das „Ich bin" jenseits von Gedanken, Gefühlen und Körperempfindungen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Spiras Lehrmethode ist geprägt von einer außergewöhnlich präzisen, schrittweisen Begriffsarbeit – bevor ein Konzept an Zuhörer weitergegeben wird, hat er es erkennbar bereits vollständig innerlich durchdrungen. Diese Vorgehensweise deckt sich mit dem Muster, das der Kompass bei Dieter Nuhr (SO7w8) beschreibt: ›Der Biber, der jeden Stein genau prüft, bevor er ihn einsetzt.‹</p>
-          <p class="vb-intro">Seine öffentlichen Dialoge, in denen er geduldig auf Fragen aus dem Publikum eingeht, ohne je ungeduldig oder ausweichend zu werden, zeigen dieselbe Sorgfalt: kein improvisiertes Blenden, sondern ein bereits durchdachtes Verständnis, das sich in jeder Antwort neu, aber konsistent entfaltet.</p>
+          <p class="vb-intro">Bei aller biografischen Vielschichtigkeit bleibt der eigentliche Kern von Spiras Lehre erstaunlich einfach – und genau darin liegt ihre Tiefe. Seine zentrale Einladung lautet, die Aufmerksamkeit nicht auf ein neues Ziel zu richten, sondern nach innen zu wenden: weg von Gedanken, Gefühlen, Körperempfindungen und sonstigen wahrnehmbaren Erscheinungen, hin zu jenem schlichten, immer schon vorhandenen Gefühl von „Ich bin", das all diesen wechselnden Inhalten zugrunde liegt. Nicht irgendein neuer, exotischer Zustand, den es erst zu erreichen gilt, sondern das, was ohnehin die ganze Zeit über da war – bevor der nächste Gedanke, das nächste Gefühl, die nächste Körperempfindung sich davorschiebt.</p>
+          <p class="vb-intro">Entscheidend ist dabei der Ton, in dem Spira das vermittelt: kein Imperativ wie „Sei jetzt still" oder „Höre auf zu denken", der selbst wieder zu einer weiteren Anstrengung, einem weiteren Tun würde. Stattdessen die Einladung, einfach das zu sein, was man ohnehin immer schon war und immer sein wird – das Ich Bin selbst, nicht als Leistung, sondern als Erkennen eines bereits bestehenden Zustands. Gerade diese Schlichtheit, ganz ohne Technik-Gepäck oder spirituelles Vokabular, macht seine Vermittlung so zugänglich, obwohl der philosophische Unterbau (Kaschmir-Shaivismus, Advaita Vedanta) hochkomplex ist.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <h2 class="vb-section">5. Vollständige innere Klarheit, bevor sie weitergegeben wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Spiras Lehrmethode ist geprägt von einer außergewöhnlich präzisen, schrittweisen Begriffsarbeit – bevor ein Konzept an Zuhörer weitergegeben wird, hat er es erkennbar bereits vollständig innerlich durchdrungen. Diese Vorgehensweise deckt sich mit dem Muster, das der Kompass bei Dieter Nuhr (SO7w8) beschreibt: ›Der Biber, der jeden Stein genau prüft, bevor er ihn einsetzt.‹</p>
+          <p class="vb-intro">Seine öffentlichen Dialoge, in denen er geduldig auf Fragen aus dem Publikum eingeht, ohne je ungeduldig oder ausweichend zu werden, zeigen dieselbe Sorgfalt: kein improvisiertes Blenden, sondern ein bereits durchdachtes Verständnis, das sich in jeder Antwort neu, aber konsistent entfaltet. Bemerkenswert ist dabei die Spannung zum eigenen Subtyp: Die soziale Sieben baut normalerweise rastlos an immer neuen Konzepten weiter – Spiras eigentliche Botschaft zielt jedoch genau auf das Innehalten jenseits jeder weiteren gedanklichen Konstruktion. Das konzeptuelle Bauen dient hier nicht der Selbstdarstellung, sondern soll sich am Ende selbst überflüssig machen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SO7w6 zeigt sich in Spiras Fähigkeit, ein komplexes philosophisches Feld über Jahrzehnte hinweg konsequent und ohne erkennbare Ermüdung weiterzuentwickeln – ein Werk, das mit jedem neuen Buch, jedem neuen Retreat um eine weitere Facette wächst, ohne sich zu wiederholen.</p>
           <p class="vb-intro">Der Schatten der sozialen Sieben zeigt sich dort, wo das rastlose Weiterbauen selbst zum Zwang wird – wo ein Innehalten, ein bewusstes Nichtstun, schwerer fällt als das nächste Projekt zu beginnen, obwohl gerade die von Spira gelehrte Botschaft im Kern genau dieses Innehalten betont.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Der Handwerker, der vom Ton zum Bewusstsein wechselte</h2>
+        <h2 class="vb-section">7. Der Handwerker, der vom Ton zum Bewusstsein wechselte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Rupert Spiras Weg zeigt die soziale Sieben mit Sechserflügel in einer ihrer stillsten, aber beharrlichsten Formen: kein lauter Auftritt, sondern jahrzehntelanges, sorgfältiges Bauen an einem geistigen Werk, das einer geprüften Tradition treu bleibt und doch nie aufhört, sich weiterzuentwickeln. Der Biber tauscht das Baumaterial – vom Ton zum Wort –, aber nicht das Bauen selbst.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}

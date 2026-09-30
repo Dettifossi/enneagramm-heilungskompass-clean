@@ -1855,19 +1855,25 @@ export function rupertSpiraPortraitPage() {
           <p class="vb-intro">This loyalty to a lineage, combined with restless ongoing building of his own, shows the Six-wing at its most constructive: security through rootedness, not through standstill.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Complete inner clarity before it is passed on</h2>
+        <h2 class="vb-section">4. The teaching itself: the "I Am" beneath thought, feeling, and bodily sensation</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Spira's teaching method is marked by an unusually precise, step-by-step working through of concepts – before an idea is passed on to listeners, he has visibly already worked through it completely within himself. This approach matches the pattern the compass describes for Dieter Nuhr (SO7w8): "The beaver that examines every stone closely before placing it."</p>
-          <p class="vb-intro">His public dialogues, in which he patiently addresses audience questions without ever becoming impatient or evasive, show the same care: no improvised dazzle, but an already thought-through understanding that unfolds anew, but consistently, in every answer.</p>
+          <p class="vb-intro">For all the biographical complexity, the actual core of Spira's teaching remains strikingly simple – and that simplicity is exactly where its depth lies. His central invitation is not to direct attention toward some new goal, but to turn it inward: away from thoughts, feelings, bodily sensations, and any other perceivable appearance, toward the plain, already-present sense of "I Am" that underlies all these shifting contents. Not some new, exotic state still to be attained, but what was there the whole time anyway – before the next thought, the next feeling, the next bodily sensation moves in front of it.</p>
+          <p class="vb-intro">What matters is the tone in which Spira conveys this: no imperative like "Be still now" or "Stop thinking," which would itself become just another effort, another doing. Instead, the invitation to simply be what one already always was and always will be – the I Am itself, not as an achievement, but as the recognition of an already-existing state. It is precisely this plainness, free of technique or spiritual vocabulary, that makes his teaching so accessible, even though the philosophical foundation underneath (Kashmir Shaivism, Advaita Vedanta) is highly complex.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and shadow</h2>
+        <h2 class="vb-section">5. Complete inner clarity before it is passed on</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Spira's teaching method is marked by an unusually precise, step-by-step working through of concepts – before an idea is passed on to listeners, he has visibly already worked through it completely within himself. This approach matches the pattern the compass describes for Dieter Nuhr (SO7w8): "The beaver that examines every stone closely before placing it."</p>
+          <p class="vb-intro">His public dialogues, in which he patiently addresses audience questions without ever becoming impatient or evasive, show the same care: no improvised dazzle, but an already thought-through understanding that unfolds anew, but consistently, in every answer. There is a notable tension here with his own subtype: the social Seven normally builds restlessly toward ever-new concepts – yet Spira's actual message points precisely toward pausing beyond any further conceptual construction. The conceptual building here does not serve self-display; it aims to make itself obsolete in the end.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SO7w6 shows in Spira's ability to keep developing a complex philosophical field consistently and without apparent fatigue across decades – a body of work that grows another facet with every new book, every new retreat, without repeating itself.</p>
           <p class="vb-intro">The shadow of the social Seven shows where the restless ongoing building itself becomes a compulsion – where pausing, deliberate stillness, becomes harder than starting the next project, even though the very message Spira teaches emphasizes exactly this pausing at its core.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The craftsman who moved from clay to consciousness</h2>
+        <h2 class="vb-section">7. The craftsman who moved from clay to consciousness</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Rupert Spira's path shows the social Seven with a Six-wing in one of its quietest, yet most persistent forms: no loud appearance, but decades of careful building on a spiritual body of work that stays loyal to a tested tradition and yet never stops developing further. The beaver changes its building material – from clay to word – but never the building itself.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
