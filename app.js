@@ -49798,9 +49798,18 @@ window.bpApply = function() {
         && (s.gender==="ALL" || p.gender===s.gender)
         && (s.land==="ALL" || p.land===s.land);
     });
-    // Innerhalb desselben Subtyp-Codes nach Flügel sortieren (w2 vor w4 usw.),
-    // statt in der zufälligen Einfüge-Reihenfolge der Gesamtliste zu bleiben.
-    matches.sort(function(a, b) { return (a.subtyp||"").localeCompare(b.subtyp||""); });
+    // Dieselbe Reihenfolge wie die Gesamtliste: erst Typ-Nummer (1-9), dann
+    // Instinkt (SE/SO/SX), dann Flügel (siehe bpSortKey oben) - eine reine
+    // String-Sortierung des Subtyp-Codes würde stattdessen instinktweise
+    // gruppieren (erst alle SE1...SE9, dann erst SO1...) und z.B. SO2 weit
+    // hinter alle SE-Einträge verschieben, statt direkt bei den anderen
+    // Zweiern zu stehen.
+    matches.sort(function(a, b) {
+      const ka = bpSortKey(a.subtyp), kb = bpSortKey(b.subtyp);
+      if (ka[0] !== kb[0]) return ka[0] - kb[0];
+      if (ka[1] !== kb[1]) return ka[1] - kb[1];
+      return String(ka[2]).localeCompare(String(kb[2]));
+    });
     vis = matches.length;
     if (list) list.innerHTML = bpCardsFlatHTML(matches);
     // Original-Verhalten: Register-Box blendet sich aus, sobald über die
