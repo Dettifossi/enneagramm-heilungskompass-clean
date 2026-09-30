@@ -1845,6 +1845,67 @@ export function dieterLangePortraitPage() {
         {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
         {route:"beruehmte-herman-van-veen", label:"Porträt: Herman van Veen (SE1w9)"},
         {route:"beruehmte-reinhold-messner", label:"Porträt: Reinhold Messner (SE1w9) – ähnliche Blickqualität"},
+        {route:"beruehmte-juergen-klinsmann", label:"Porträt: Jürgen Klinsmann (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+export function juergenKlinsmannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-juergen-klinsmann-portrait.jpg" alt="Jürgen Klinsmann" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jürgen Klinsmann</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">geb. 1964 – Weltmeister 1990, Europameister 1996, Bundestrainer 2004–2006 – Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins – ein Tier, das nicht durch Lautstärke beeindruckt, sondern durch die Genauigkeit seines Blicks und die Konsequenz seines Handelns, sobald der eigene Anspruch erfüllt ist. Jürgen Klinsmann, geboren 1964 in Göppingen als Sohn eines Bäckermeisters, fiel schon als junger Stürmer bei VfB Stuttgart durch eine Disziplin auf, die in den 1980er-Jahren im deutschen Fußball noch unüblich war: gezieltes Zusatztraining, Ernährungsbewusstsein, akribische Vorbereitung auf jedes Detail seines Spiels.</p>
+          <p class="vb-intro">Diese frühe Bereitschaft, sich selbst höheren Maßstäben zu unterwerfen als das übliche Trainingspensum verlangte, zieht sich durch seine gesamte Karriere – vom Spieler bis zum Trainer, der Jahrzehnte später genau diese Haltung zur Grundlage einer kompletten Reform des deutschen Nationalteams machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die eigentliche Leistung: Technik und Systemreform statt nur Ehrgeiz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Es würde zu kurz greifen, Klinsmanns Erfolg allein auf Willenskraft zurückzuführen. Als Stürmer zeichnete ihn eine klinisch präzise Abschlusstechnik aus – beidfüßig, kopfballstark, mit einem untrüglichen Gespür für den Laufweg in die Tiefe, das ihm 1990 den Weltmeistertitel und 1996 als Kapitän den EM-Titel einbrachte, dazu Torschützenkönig-Ehren in mehreren europäischen Ligen (VfB Stuttgart, Inter Mailand, Tottenham Hotspur, AS Monaco, Bayern München). Bezeichnend für seinen Charakter: Nach jahrelangen öffentlichen Vorwürfen, er schwalbe zu oft, feierte er 1998 bei Tottenham ein Tor mit einer ironischen Schwalben-Parodie – Selbstkritik mit Humor statt Rechtfertigung.</p>
+          <p class="vb-intro">Als Bundestrainer 2004 übernahm er eine Mannschaft, der kaum jemand etwas zutraute, und setzte gegen erheblichen Widerstand des DFB-Establishments eine radikale Modernisierung durch: US-amerikanische Fitnessexperten, biomechanische Laufanalysen, Sportpsychologen, ein komplett neues Trainingskonzept – Maßnahmen, die 2004 als exzentrisch belächelt wurden und die das deutsche Nationalteam bei der Heim-WM 2006 bis auf Platz drei trugen. Viele Experten sehen in diesem strukturellen Umbau das eigentliche Fundament, auf dem die goldene Generation von 2014 aufbaute.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die selbsterhaltende Eins: Der eigene Anspruch als Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Perfektionsanspruch nicht primär auf die Korrektur der Umwelt, sondern zuerst nach innen: auf die eigene Vorbereitung, das eigene Training, die eigene Integrität. Naranjo nannte diesen Subtyp <em>Worry</em> – die ständige, produktive Sorge, dem eigenen Anspruch wirklich zu genügen. Bei Klinsmann zeigte sich das bereits als Spieler in einer für seine Generation ungewöhnlichen Ernährungs- und Trainingsdisziplin, die er sich selbst auferlegte, lange bevor Sportwissenschaft im deutschen Fußball zum Standard wurde.</p>
+          <p class="vb-intro">Als Trainer übertrug er genau diesen Maßstab auf ein ganzes System: Er verlangte nicht mehr von seinen Spielern, als er sich selbst als Aktiver abverlangt hatte – konsequente Professionalisierung als gelebte, nicht nur gepredigte Überzeugung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Neunerflügel: Gelassenheit unter massivem öffentlichen Druck</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der selbsterhaltenden Eins die Fähigkeit, unterschiedliche Systeme ruhig zusammenzuführen und unter Druck die eigene Linie zu halten, ohne in Konfrontation zu kippen. Genau das zeigte sich 2004/2005, als große Teile der deutschen Presse und des Verbands Klinsmanns Reformen als naiv und amerikanisiert verspotteten, er selbst aber weder defensiv noch aggressiv reagierte, sondern ruhig an seinem Konzept festhielt, bis die Ergebnisse es bestätigten.</p>
+          <p class="vb-intro">Dieselbe integrierende Gelassenheit zeigt sich in seinem Lebensmodell: Klinsmann lebt seit seiner aktiven Karriere in Kalifornien, verband US-amerikanische Sportwissenschaft mit deutscher Fußballtradition, statt die eine gegen die andere auszuspielen – ein Muster, das dem des ebenfalls SE1w9-typisierten Coaches Dieter Lange auffällig ähnelt, der östliche und westliche Wissenssysteme auf dieselbe integrierende Weise zusammenführte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 zeigt sich in Klinsmanns Fähigkeit, gegen etablierten Widerstand an einer selbst erprobten, höheren Professionalität festzuhalten, bis sich der Erfolg einstellte – eine Reform, die den deutschen Fußball strukturell über seine eigene Amtszeit hinaus prägte, obwohl er selbst die eingefahrene Kritik zunächst allein aushalten musste.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in mehreren späteren Stationen, in denen derselbe hohe Eigenanspruch ohne die stabilisierende Wirkung eines vollständig überzeugten Umfelds zu Konflikten führte: die Entlassung bei Bayern München 2009 nach internen Spannungen, der abrupte Rücktritt bei Hertha BSC 2020 per Facebook-Post statt im direkten Gespräch, und die heftige öffentliche Kritik an seiner Amtszeit als südkoreanischer Nationaltrainer 2023/24, während der er weiterhin von Kalifornien aus pendelte, statt vor Ort zu leben. Der Adler, der aus der Distanz klar sieht, verliert mitunter den Kontakt zum Boden, auf dem andere täglich stehen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-dieter-lange", label:"Porträt: Dieter Lange (SE1w9) – ähnliche integrierende Haltung"},
+        {route:"beruehmte-reinhold-messner", label:"Porträt: Reinhold Messner (SE1w9)"},
+        {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
       ])}
     </div>
   `);

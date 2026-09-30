@@ -1845,6 +1845,67 @@ export function dieterLangePortraitPage() {
         {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SP1w9)"},
         {route:"beruehmte-herman-van-veen", label:"Portrait: Herman van Veen (SP1w9)"},
         {route:"beruehmte-reinhold-messner", label:"Portrait: Reinhold Messner (SP1w9) – similar gaze quality"},
+        {route:"beruehmte-juergen-klinsmann", label:"Portrait: Jürgen Klinsmann (SP1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+export function juergenKlinsmannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-juergen-klinsmann-portrait.jpg" alt="Jürgen Klinsmann" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jürgen Klinsmann</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine Wing</p>
+        <p class="krim-portrait-subtitle">b. 1964 – World Cup winner 1990, European champion 1996, German national coach 2004–2006 – Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One – an animal that impresses not through volume, but through the precision of its gaze and the consistency of its action once its own standard has been met. Jürgen Klinsmann, born in 1964 in Göppingen as the son of a master baker, stood out as a young striker at VfB Stuttgart for a discipline still unusual in German football in the 1980s: targeted extra training, nutritional awareness, meticulous preparation down to every detail of his game.</p>
+          <p class="vb-intro">This early willingness to hold himself to higher standards than the usual training load demanded runs through his entire career – from player to coach, who decades later turned exactly this attitude into the foundation for a complete overhaul of the German national team.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The actual achievement: technique and systemic reform, not just ambition</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It would fall short to attribute Klinsmann's success to willpower alone. As a striker he stood out for clinically precise finishing – two-footed, strong in the air, with an unerring sense for the run into depth – which brought him the 1990 World Cup title and, as captain, the 1996 European Championship, along with top-scorer honors in several European leagues (VfB Stuttgart, Inter Milan, Tottenham Hotspur, AS Monaco, Bayern Munich). Telling for his character: after years of public accusations that he dived too often, he celebrated a goal at Tottenham in 1998 with an ironic diving parody – self-criticism through humor rather than defensiveness.</p>
+          <p class="vb-intro">As national coach in 2004 he took over a team few believed in, and pushed through a radical modernization against considerable resistance from the German federation establishment: American fitness experts, biomechanical running analysis, sports psychologists, a completely new training concept – measures mocked as eccentric in 2004 that carried the German national team to third place at the 2006 home World Cup. Many experts see this structural overhaul as the actual foundation the golden generation of 2014 was built on.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The self-preservation One: one's own standard as foundation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> directs its perfectionism not primarily at correcting the environment, but first inward: at its own preparation, its own training, its own integrity. Naranjo called this subtype <em>Worry</em> – the constant, productive concern with truly meeting one's own standard. In Klinsmann this showed even as a player, in a nutritional and training discipline unusual for his generation, self-imposed long before sports science became standard in German football.</p>
+          <p class="vb-intro">As a coach he carried exactly this standard over onto an entire system: he never demanded more of his players than he had demanded of himself as an active player – consistent professionalization as a lived, not merely preached, conviction.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Nine wing: composure under massive public pressure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine wing (w9)</strong> gives the self-preservation One the ability to calmly bring different systems together and hold its own line under pressure without tipping into confrontation. That showed exactly in 2004/2005, when large parts of the German press and federation mocked Klinsmann's reforms as naive and overly Americanized, while he himself reacted neither defensively nor aggressively, but calmly stuck to his concept until the results confirmed it.</p>
+          <p class="vb-intro">The same integrating composure shows in his life model: Klinsmann has lived in California since his playing career, combining American sports science with German football tradition rather than pitting one against the other – a pattern strikingly similar to fellow SE1w9 coach Dieter Lange, who brought together Eastern and Western knowledge systems in the same integrating way.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the self-preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE1w9 shows in Klinsmann's ability to hold onto a self-tested, higher professionalism against established resistance until success followed – a reform that shaped German football structurally well beyond his own tenure, even though he himself initially had to withstand the entrenched criticism alone.</p>
+          <p class="vb-intro">The shadow shows in several later stations, where the same high personal standard, without the stabilizing effect of a fully convinced environment, led to conflict: his dismissal at Bayern Munich in 2009 after internal tensions, his abrupt resignation from Hertha BSC in 2020 via a Facebook post rather than a direct conversation, and the fierce public criticism of his tenure as South Korea's national coach in 2023/24, during which he kept commuting from California instead of living on site. The eagle that sees clearly from a distance sometimes loses touch with the ground others stand on every day.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
+        {route:"beruehmte-dieter-lange", label:"Portrait: Dieter Lange (SP1w9) – similar integrating stance"},
+        {route:"beruehmte-reinhold-messner", label:"Portrait: Reinhold Messner (SP1w9)"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
       ])}
     </div>
   `);
