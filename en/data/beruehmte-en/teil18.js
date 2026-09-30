@@ -882,6 +882,7 @@ export function keanuReevesPortraitPage() {
         {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8)"},
         {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1)"},
         {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1) – the same understatement"},
+        {route:"beruehmte-mads-mikkelsen", label:"Portrait: Mads Mikkelsen (SX9w1)"},
       ])}
     </div>
   `);

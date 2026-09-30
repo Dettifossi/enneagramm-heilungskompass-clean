@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2426", date: "2026-09-30", text: "Neues Porträt: Mads Mikkelsen (SX9w1) – dänischer Schauspieler, Hannibal Lecter, Le Chiffre.", text_en: "New portrait: Mads Mikkelsen (SX9w1) – Danish actor, Hannibal Lecter, Le Chiffre.", route: "beruehmte-mads-mikkelsen" },
     { version: "v2425", date: "2026-09-30", text: "Neues Porträt: Riku Miura (SO2w3) – japanische Eiskunstläuferin, WM-Titel im Paarlauf 2023.", text_en: "New portrait: Riku Miura (SO2w3) – Japanese figure skater, pairs World title 2023.", route: "beruehmte-riku-miura" },
     { version: "v2424", date: "2026-09-29", text: "Neues Porträt: Lorne Greene (SE3w2) – Ben Cartwright in ›Bonanza‹, Commander Adama in ›Kampfstern Galactica‹.", text_en: "New portrait: Lorne Greene (SE3w2) – Ben Cartwright in 'Bonanza,' Commander Adama in 'Battlestar Galactica.'", route: "beruehmte-lorne-greene" },
     { version: "v2423", date: "2026-09-29", text: "Neues Porträt: Andy Warhol (SX5w4) – Begründer der Pop Art, Siebdruck-Pionier.", text_en: "New portrait: Andy Warhol (SX5w4) – founder of Pop Art, silkscreen pioneer.", route: "beruehmte-andy-warhol" },

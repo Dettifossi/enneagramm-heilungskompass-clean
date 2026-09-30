@@ -2327,3 +2327,63 @@ export function henryShukmanPortraitPage() {
     </div>
   `);
 }
+
+export function madsMikkelsenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mads-mikkelsen-portrait.jpg" alt="Mads Mikkelsen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mads Mikkelsen</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">geb. 1965 – dänischer Schauspieler, Hannibal Lecter, Le Chiffre, Cannes-Bester-Darsteller – Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9 – ein Tier, das sich mit dem einen Ast, auf dem es sitzt, vollständig verbindet, statt ständig nach einem besseren zu suchen. Mads Mikkelsen, geboren 1965 im Kopenhagener Arbeiterviertel Østerbro als Sohn eines Bankangestellten und einer Apothekenangestellten, verbrachte fast ein Jahrzehnt nicht als Schauspieler, sondern als Turner und Tänzer, bevor er überhaupt vor eine Kamera trat. Diese Jahre disziplinierter körperlicher Ausbildung prägen bis heute jede seiner Rollen.</p>
+          <p class="vb-intro">Erst über die Tanzausbildung an der dänischen Nationalen Schule für darstellende Kunst fand er zur Schauspielerei – kein früher, lauter Ruf nach der Bühne, sondern ein allmähliches Hineinwachsen in ein Medium, in dem sich seine körperliche Disziplin auf neue Weise ausdrücken konnte. Genau dieser ruhige, unspektakuläre Übergang ist typisch für das Faultier: Es wechselt den Ast nicht aus Ehrgeiz, sondern weil sich eine neue, stimmigere Verbindung ergibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die eigentliche Leistung: Minimalismus als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Mikkelsen von vielen seiner Schauspielkollegen unterscheidet, ist eine radikal ökonomische Darstellungsweise: kaum überflüssige Gesten, kaum demonstrative Mimik, dafür eine körperliche Präzision, die direkt aus seiner Tänzer- und Turnervergangenheit stammt. Als Le Chiffre in „Casino Royale" (2006) genügte ihm ein blutender Tränenkanal statt großer Wutausbrüche, um Bedrohlichkeit zu erzeugen; als Hannibal Lecter in der gleichnamigen NBC-Serie (2013–2015) baute er Grauen fast ausschließlich über Stille, Tempo und Blickführung auf, nicht über Lautstärke.</p>
+          <p class="vb-intro">Für „Die Jagd" (Jagten, 2012), in dem er einen zu Unrecht der Pädophilie verdächtigten Kindergärtner spielte, erhielt er in Cannes die Auszeichnung als bester Darsteller – eine Rolle, die fast ausschließlich über unterdrückte, nach innen gerichtete Verzweiflung funktioniert, nicht über große Ausbrüche. Diese Fähigkeit, mit minimalen äußeren Mitteln maximale innere Intensität zu vermitteln, ist keine Marotte, sondern über Jahrzehnte trainiertes Handwerk – körperliche Disziplin, die zu schauspielerischer Präzision wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die sexuelle Neun: Magnetismus statt Lautstärke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> ist nach Naranjo der Subtyp der <em>Vereinigung</em>: die Sehnsucht, sich nicht oberflächlich zu verteilen, sondern in der einen Begegnung, der einen Verbindung vollständig aufzugehen. Bei Mikkelsen zeigt sich das in einer Bildschirmpräsenz, die Kritiker immer wieder als „hypnotisch" oder „magnetisch" beschreiben, obwohl er kaum je die Stimme erhebt – eine ruhige Intensität, die das Publikum näher heranzieht, statt es mit Lautstärke zu überwältigen.</p>
+          <p class="vb-intro">Privat lebt er seit 1987 mit der Choreografin Hanne Jacobsen zusammen, mit der er zwei Kinder hat – eine seit Jahrzehnten stabile, kaum öffentlich thematisierte Verbindung, die genau dem SX9-Muster entspricht: wenige, dafür sehr tief gehende Bindungen statt eines breiten, oberflächlichen Beziehungsnetzes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Einserflügel: Disziplin als Fundament</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> zeigt sich bei Mikkelsen in der fast asketischen Disziplin, mit der er seinen Körper als Instrument behandelt – Jahre als Leistungsturner und Tänzer, bevor überhaupt eine Schauspielkarriere begann, und ein bis heute kontrollierter, präziser Bewegungsapparat, der ihm ungewöhnlich physische Rollen erlaubt, vom Wikinger-Krieger bis zum Stuntkoordinations-lastigen Actionfilm.</p>
+          <p class="vb-intro">Auch sein öffentliches Auftreten trägt diese leise, unumstößliche Ordnung: Mikkelsen gilt als auffällig zurückhaltend gegenüber dem üblichen Hollywood-Rummel, lebt weiterhin in Dänemark statt in Los Angeles und hält sein Privatleben konsequent aus der Öffentlichkeit heraus. Kein lautes Prinzip, sondern eine selbst gesetzte, ruhig durchgehaltene Grenze – genau die Einser-Note, die dem Faultier eine feste innere Struktur gibt, ohne die reine Entspannung der Neun zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 zeigt sich in Mikkelsens Fähigkeit, aus radikaler Zurückhaltung eine eigene, unverwechselbare schauspielerische Sprache zu machen – in einer Branche, die oft auf große Gesten setzt, wurde gerade seine Stille zum Markenzeichen, von Hannibal Lecter bis zum berühmten, fast tänzerischen Schlusstanz in „Der Rausch" (Druk, 2020), der seine ursprüngliche Tanzausbildung noch einmal öffentlich sichtbar machte.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Kehrseite dieser Zurückhaltung: Wer sich so konsequent aus dem öffentlichen Rummel heraushält, läuft Gefahr, echte Nähe erst dann zuzulassen, wenn die eigene, sorgfältig gehütete Ordnung dadurch nicht gefährdet wird. Die gleiche Disziplin, die seine Rollen so kraftvoll macht, kann im Privaten auch als Distanz erlebt werden – ein Preis, den das Faultier für seine vollständige Verbindung mit dem einen, ausgewählten Ast zahlt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
+        {route:"beruehmte-kris-marshall", label:"Porträt: Kris Marshall (SX9w1)"},
+        {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
+      ])}
+    </div>
+  `);
+}

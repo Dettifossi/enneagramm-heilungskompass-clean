@@ -2301,3 +2301,63 @@ export function floydMayweatherPortraitPage() {
     </div>
   `);
 }
+
+export function madsMikkelsenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mads-mikkelsen-portrait.jpg" alt="Mads Mikkelsen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mads Mikkelsen</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with a One Wing</p>
+        <p class="krim-portrait-subtitle">b. 1965 – Danish actor, Hannibal Lecter, Le Chiffre, Cannes Best Actor – Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> is the animal of the sexual Nine – an animal that fully connects with the one branch it sits on, rather than constantly searching for a better one. Mads Mikkelsen, born in 1965 in the working-class Copenhagen neighborhood of Østerbro as the son of a bank clerk and a pharmacy assistant, spent nearly a decade not as an actor but as a gymnast and dancer before he ever stepped in front of a camera. Those years of disciplined physical training still shape every one of his roles today.</p>
+          <p class="vb-intro">Only through dance training at the Danish National School of Performing Arts did he find his way to acting – not an early, loud calling to the stage, but a gradual growing-into a medium where his physical discipline could express itself in a new way. That calm, unspectacular transition is typical of the sloth: it doesn't change branches out of ambition, but because a new, more fitting connection has arisen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The actual achievement: minimalism as craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Mikkelsen apart from many of his fellow actors is a radically economical style of performance: almost no superfluous gesture, almost no demonstrative facial expression, but a physical precision that comes directly from his dancer and gymnast background. As Le Chiffre in "Casino Royale" (2006), a single bleeding tear duct was enough to convey menace, without grand outbursts of anger; as Hannibal Lecter in the NBC series of the same name (2013–2015), he built horror almost entirely through stillness, pacing, and eye direction rather than volume.</p>
+          <p class="vb-intro">For "The Hunt" (Jagten, 2012), in which he played a kindergarten teacher wrongly accused of pedophilia, he received the Best Actor award at Cannes – a role that works almost entirely through suppressed, inward-directed despair rather than big outbursts. This ability to convey maximum inner intensity with minimal outer means is not a quirk but decades of trained craft – physical discipline turned into acting precision.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The sexual Nine: magnetism instead of volume</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Nine (SX9)</strong> is, according to Naranjo, the subtype of <em>Union</em>: the longing not to spread oneself thin across the surface, but to become fully absorbed in the one encounter, the one connection. In Mikkelsen this shows in a screen presence critics repeatedly describe as "hypnotic" or "magnetic," even though he rarely raises his voice – a calm intensity that draws the audience closer instead of overwhelming them with volume.</p>
+          <p class="vb-intro">Privately, he has lived with choreographer Hanne Jacobsen since 1987, with whom he has two children – a connection stable and barely discussed publicly for decades, exactly matching the SX9 pattern: few bonds, but ones that run very deep, rather than a broad, surface-level network of relationships.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The One wing: discipline as foundation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One wing (w1)</strong> shows in Mikkelsen through the almost ascetic discipline with which he treats his body as an instrument – years as a competitive gymnast and dancer before any acting career began, and a still tightly controlled, precise physicality that allows him unusually physical roles, from Viking warrior to stunt-heavy action films.</p>
+          <p class="vb-intro">His public demeanor carries the same quiet, unshakeable order: Mikkelsen is known for being conspicuously reserved toward the usual Hollywood circus, continues to live in Denmark rather than Los Angeles, and consistently keeps his private life out of the public eye. Not a loud principle, but a self-imposed, calmly maintained boundary – exactly the One-note that gives the sloth a firm inner structure without losing the Nine's pure ease.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the sexual Nine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX9w1 shows in Mikkelsen's ability to turn radical restraint into a distinctive acting language of his own – in an industry that often rewards big gestures, his stillness itself became his signature, from Hannibal Lecter to the famous, almost dance-like closing scene in "Another Round" (Druk, 2020), which made his original dance training publicly visible once more.</p>
+          <p class="vb-intro">The shadow shows in the flip side of that restraint: someone who so consistently stays out of the public spotlight risks allowing real closeness only once it no longer threatens his own, carefully guarded order. The same discipline that makes his roles so powerful can, in private life, also be experienced as distance – a price the sloth pays for its complete connection to the one, chosen branch.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype profile"},
+        {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
+        {route:"beruehmte-kris-marshall", label:"Portrait: Kris Marshall (SX9w1)"},
+        {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
+      ])}
+    </div>
+  `);
+}

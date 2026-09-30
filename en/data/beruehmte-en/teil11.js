@@ -979,6 +979,7 @@ export function krisMarshallPortraitPage() {
         {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
         {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1) – the same quiet presence"},
         {route:"beruehmte-craig-foster", label:"Portrait: Craig Foster (SX9w1)"},
+        {route:"beruehmte-mads-mikkelsen", label:"Portrait: Mads Mikkelsen (SX9w1)"},
         ])}
       </div>
     </div>

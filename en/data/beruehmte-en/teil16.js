@@ -1357,6 +1357,7 @@ export function sophieMarceauPortraitPage() {
           {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
           {route:"beruehmte-diego-velazquez", label:"Portrait: Diego Velázquez (SX9w1)"},
           {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1)"},
+          {route:"beruehmte-mads-mikkelsen", label:"Portrait: Mads Mikkelsen (SX9w1)"},
         ])}
       </div>
     </div>
