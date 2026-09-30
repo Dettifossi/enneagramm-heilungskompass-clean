@@ -5215,6 +5215,7 @@ button.primary:hover::after {
 .kf-btn--tag[data-kf-tag="ALL"].kf-btn--active {
   background: #9a7a2a; border-color: #9a7a2a; color: #fff;
 }
+.kf-btn--subtag { font-size: 0.72rem; padding: 0.2rem 0.55rem; }
 .kf-count {
   font-size: 0.78rem; color: var(--muted);
   margin-top: 0.5rem; text-align: right;
