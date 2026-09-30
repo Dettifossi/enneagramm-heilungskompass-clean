@@ -2317,3 +2317,63 @@ export function henryShukmanPortraitPage() {
     </div>
   `);
 }
+
+export function harrisonFordPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-harrison-ford-portrait.jpg" alt="Harrison Ford" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Harrison Ford</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine Wing</p>
+        <p class="krim-portrait-subtitle">b. 1942 – Han Solo, Indiana Jones, licensed pilot with real-life rescue missions – Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One – an animal that impresses not through volume, but through the precision of its gaze and the consistency of its action once its own standard has been met. Harrison Ford, born in Chicago in 1942, spent nearly a decade as a professional carpenter after early unsuccessful years as an actor, supporting his family – a craft he practiced with the same care he would later bring to acting, rather than treating it as a mere stopgap.</p>
+          <p class="vb-intro">A carpentry job of all things became the turning point: while building office cabinets for George Lucas during the making of "American Graffiti," Ford caught the director's attention – a coincidence that could only turn into a breakthrough because Ford genuinely mastered his craft over years, rather than just playing a role while waiting for the big break.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The actual achievement: an instinct for real dialogue, real flying</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It would fall short to attribute Ford's success to charisma alone. His actual acting talent lies in an unerring sense for when written dialogue sounds unnatural – made famous by his line to George Lucas during the filming of "Star Wars": "You can type this shit, George, but you sure can't say it." This ability to reshape lines so they sound like real, spontaneous speech rather than script still defines his distinctive, laconic style as Han Solo and Indiana Jones to this day.</p>
+          <p class="vb-intro">In parallel, Ford has been a licensed private pilot since the 1990s who has flown several real rescue missions with his own helicopter and aircraft – including, in 2000, the rescue of a missing Boy Scout in the mountains of Wyoming. Not a publicity stunt, but a genuinely acquired, life-saving skill that shows his love of precise craft reaches far beyond film sets.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The self-preservation One: craft as a quiet standard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> directs its perfectionism not primarily at correcting the world, but first inward: at its own preparation, its own craft, its own integrity. Naranjo called this subtype <em>Worry</em> – the constant, productive concern with truly meeting one's own standard. In Ford this showed during his nearly decade-long carpentry years, in which he never worked to a mediocre standard, even though money was tight and his acting career had stalled.</p>
+          <p class="vb-intro">This attitude carried directly into his later behavior on set: Ford is known as an actor who insists on tangible, real stunts over green-screen tricks, breaking his own ankle at age 72 during the filming of "Star Wars: The Force Awakens" in 2015 because he wanted to perform a stunt himself – uncompromising standards for himself, not just for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Nine wing: withdrawal instead of media circus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine wing (w9)</strong> gives the self-preservation One the ability to calmly tend several life domains side by side, rather than concentrating on a single publicly staged area. Ford has been known for decades as one of Hollywood's most tight-lipped interview subjects – terse, impatient with tabloid questions, visibly uncomfortable with the usual promotional circus the job entails.</p>
+          <p class="vb-intro">Rather than using public interest for self-promotion, he quietly distributes his energy across woodworking in his own shop, flying, and decades of substantial engagement as Vice Chair of Conservation International – concrete conservation work rather than mere celebrity patronage. The same integrating composure stands out in his fellow SE1w9s Jürgen Klinsmann and Dieter Lange: tending several, often unrelated worlds side by side, without pitting one against the other.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the self-preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE1w9 shows in Ford's ability to hold onto craft integrity across decades – whether building furniture, fine-tuning dialogue, or at the controls of a rescue helicopter – without fame ever diluting that standard. The ten quiet years as a carpenter were not lost time, but the foundation everything else later stood on.</p>
+          <p class="vb-intro">The shadow shows in the flip side of that withdrawal: Ford's notorious terseness with the press is read by many as arrogance or unapproachability, even though it stems more from genuine discomfort with surface-level self-presentation than from contempt – the quiet urgency to wrap up an interview as fast as possible and get back to the actual work.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
+        {route:"beruehmte-juergen-klinsmann", label:"Portrait: Jürgen Klinsmann (SP1w9)"},
+        {route:"beruehmte-dieter-lange", label:"Portrait: Dieter Lange (SP1w9)"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
+      ])}
+    </div>
+  `);
+}

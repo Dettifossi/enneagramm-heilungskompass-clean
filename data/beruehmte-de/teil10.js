@@ -2328,3 +2328,63 @@ export function andreDuqumPortraitPage() {
     </div>
   `);
 }
+
+export function harrisonFordPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-harrison-ford-portrait.jpg" alt="Harrison Ford" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Harrison Ford</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">geb. 1942 – Han Solo, Indiana Jones, lizenzierter Pilot mit realen Rettungseinsätzen – Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins – ein Tier, das nicht durch Lautstärke beeindruckt, sondern durch die Genauigkeit seines Blicks und die Konsequenz seines Handelns, sobald der eigene Anspruch erfüllt ist. Harrison Ford, 1942 in Chicago geboren, verbrachte nach ersten erfolglosen Jahren als Schauspieler fast ein Jahrzehnt als professioneller Schreiner, um seine Familie zu ernähren – ein Handwerk, das er mit derselben Sorgfalt ausübte wie später die Schauspielerei, statt es nur als Notlösung zu betreiben.</p>
+          <p class="vb-intro">Ausgerechnet ein Schreinerauftrag wurde zum Wendepunkt: Beim Bau von Bürokabinetten für George Lucas während der Arbeit an „American Graffiti" fiel Ford dem Regisseur auf – ein Zufall, der jedoch nur deshalb zum Durchbruch werden konnte, weil Ford sein Handwerk über Jahre hinweg tatsächlich beherrschte, statt nur eine Rolle zu spielen, während er auf den großen Durchbruch wartete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die eigentliche Leistung: Instinkt für echten Dialog, echtes Fliegen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Es würde zu kurz greifen, Fords Erfolg allein auf sein Charisma zurückzuführen. Sein eigentliches schauspielerisches Talent liegt in einem untrüglichen Gespür dafür, wann geschriebener Dialog unnatürlich klingt – berühmt geworden durch seinen Satz zu George Lucas während der Dreharbeiten zu „Star Wars": „You can type this shit, George, but you sure can't say it" (Du kannst das tippen, George, aber sagen kannst du es nicht). Diese Fähigkeit, Zeilen so umzuformulieren, dass sie wie echte, spontane Sprache klingen statt wie Drehbuch, prägt bis heute seinen unverwechselbaren, lakonischen Stil als Han Solo und Indiana Jones.</p>
+          <p class="vb-intro">Parallel dazu ist Ford seit den 1990er-Jahren lizenzierter Privatpilot, der mehrere reale Rettungseinsätze mit eigenem Hubschrauber und Flugzeug flog – unter anderem 2000 die Rettung eines vermissten Pfadfinders in den Bergen Wyomings. Kein PR-Auftritt, sondern eine tatsächlich erworbene, lebensrettend eingesetzte Fähigkeit, die zeigt, dass seine Liebe zum präzisen Handwerk weit über die Filmsets hinausreicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die selbsterhaltende Eins: Handwerk als stiller Maßstab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Perfektionsanspruch nicht primär auf die Korrektur der Welt, sondern zuerst nach innen: auf die eigene Vorbereitung, das eigene Handwerk, die eigene Integrität. Naranjo nannte diesen Subtyp <em>Worry</em> – die ständige, produktive Sorge, dem eigenen Anspruch wirklich zu genügen. Bei Ford zeigte sich das in der fast zehnjährigen Schreinerzeit, in der er nie in mittelmäßiger Qualität arbeitete, obwohl das Geld knapp war und die Schauspielkarriere stockte.</p>
+          <p class="vb-intro">Diese Haltung übertrug sich direkt auf sein späteres Set-Verhalten: Ford gilt als Schauspieler, der auf handfeste, reale Stunts statt Greenscreen-Tricks besteht, sich bei den Dreharbeiten zu „Star Wars: Das Erwachen der Macht" 2015 im Alter von 72 Jahren selbst einen Knöchelbruch zuzog, weil er einen Stunt eigenhändig ausführen wollte – kompromisslose Ansprüche an sich selbst, nicht nur an andere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Neunerflügel: Zurückgezogenheit statt Medienrummel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der selbsterhaltenden Eins die Fähigkeit, unterschiedliche Lebensbereiche ruhig nebeneinander zu pflegen, statt sich auf einen einzigen öffentlich inszenierten Bereich zu konzentrieren. Ford gilt seit Jahrzehnten als einer der zugeknöpftesten Interviewpartner Hollywoods – wortkarg, ungeduldig mit Boulevardfragen, sichtlich unwohl im klassischen Promotionsrummel, den der Beruf mit sich bringt.</p>
+          <p class="vb-intro">Statt das öffentliche Interesse für Selbstinszenierung zu nutzen, verteilt er seine Energie still auf Schreinerarbeit in der eigenen Werkstatt, das Fliegen und ein jahrzehntelanges, substanzielles Engagement als stellvertretender Vorsitzender von Conservation International – konkrete Naturschutzarbeit statt bloßer Prominenten-Schirmherrschaft. Dieselbe integrierende Gelassenheit, die auch bei seinen SE1w9-Kollegen Jürgen Klinsmann und Dieter Lange auffällt: verschiedene, oft fachfremde Welten nebeneinander pflegen, ohne die eine gegen die andere auszuspielen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 zeigt sich in Fords Fähigkeit, über Jahrzehnte hinweg an handwerklicher Integrität festzuhalten – ob beim Möbelbau, beim Dialog-Feinschliff oder am Steuerknüppel eines Rettungshubschraubers –, ohne dass der Ruhm diesen Anspruch je verwässert hätte. Die zehn stillen Jahre als Schreiner waren keine verlorene Zeit, sondern das Fundament, auf dem später alles andere stand.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Kehrseite dieser Zurückgezogenheit: Fords notorische Wortkargheit gegenüber der Presse wird von vielen als Arroganz oder Unnahbarkeit gelesen, obwohl sie eher aus echtem Unbehagen mit oberflächlicher Selbstdarstellung entsteht als aus Geringschätzung – die stille Eile, ein Interview möglichst schnell wieder zu beenden, um zurück zur eigentlichen Arbeit zu kommen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Besorgte: Subtyp-Profil"},
+        {route:"beruehmte-juergen-klinsmann", label:"Porträt: Jürgen Klinsmann (SE1w9)"},
+        {route:"beruehmte-dieter-lange", label:"Porträt: Dieter Lange (SE1w9)"},
+        {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
+      ])}
+    </div>
+  `);
+}

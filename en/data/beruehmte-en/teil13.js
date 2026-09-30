@@ -1304,6 +1304,7 @@ export function robertDeNiroPortraitPage() {
         {route:"beruehmte-armin-mueller-stahl", label:"Portrait: Armin Mueller-Stahl (SE1w9)"},
         {route:"beruehmte-dieter-lange", label:"Portrait: Dieter Lange (SP1w9)"},
         {route:"beruehmte-henning-baum", label:"Portrait: Henning Baum (SP1w9)"},
+        {route:"beruehmte-harrison-ford", label:"Portrait: Harrison Ford (SP1w9)"},
       ])}
     </div>
   `);

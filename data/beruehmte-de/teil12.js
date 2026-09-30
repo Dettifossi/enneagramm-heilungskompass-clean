@@ -1846,6 +1846,7 @@ export function dieterLangePortraitPage() {
         {route:"beruehmte-herman-van-veen", label:"Porträt: Herman van Veen (SE1w9)"},
         {route:"beruehmte-reinhold-messner", label:"Porträt: Reinhold Messner (SE1w9) – ähnliche Blickqualität"},
         {route:"beruehmte-juergen-klinsmann", label:"Porträt: Jürgen Klinsmann (SE1w9)"},
+        {route:"beruehmte-harrison-ford", label:"Porträt: Harrison Ford (SE1w9)"},
       ])}
     </div>
   `);
@@ -1906,6 +1907,7 @@ export function juergenKlinsmannPortraitPage() {
         {route:"beruehmte-dieter-lange", label:"Porträt: Dieter Lange (SE1w9) – ähnliche integrierende Haltung"},
         {route:"beruehmte-reinhold-messner", label:"Porträt: Reinhold Messner (SE1w9)"},
         {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9)"},
+        {route:"beruehmte-harrison-ford", label:"Porträt: Harrison Ford (SE1w9)"},
       ])}
     </div>
   `);
