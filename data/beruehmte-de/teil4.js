@@ -2298,7 +2298,6 @@ export function floydMayweatherPortraitPage() {
         {route:"lebensmusterkompass/so2", label:"Lebensmusterkompass: SO2 – Golden Retriever"},
         {route:"beruehmte-usain-bolt", label:"Porträt: Usain Bolt (SO2w3)"},
         {route:"beruehmte-usher", label:"Porträt: Usher (SO2w3)"},
-        {route:"beruehmte-lewis-howes", label:"Porträt: Lewis Howes (SO2w3)"},
       ])}
     </div>
   `);
