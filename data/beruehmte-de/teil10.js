@@ -2346,7 +2346,7 @@ export function harrisonFordPortraitPage() {
 
         <h2 class="vb-section">1. Der Adler</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins – ein Tier, das nicht durch Lautstärke beeindruckt, sondern durch die Genauigkeit seines Blicks und die Konsequenz seines Handelns, sobald der eigene Anspruch erfüllt ist. Harrison Ford, 1942 in Chicago geboren, verbrachte nach ersten erfolglosen Jahren als Schauspieler fast ein Jahrzehnt als professioneller Schreiner, um seine Familie zu ernähren – ein Handwerk, das er mit derselben Sorgfalt ausübte wie später die Schauspielerei, statt es nur als Notlösung zu betreiben.</p>
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins – ein Tier, dessen Ansehen nicht aus Schauwerten entsteht, sondern aus der schlichten Tatsache, dass es sein Handwerk vollständig beherrscht, bevor es auf die nächste Ebene wechselt. Harrison Ford, 1942 in Chicago geboren, verbrachte nach ersten erfolglosen Jahren als Schauspieler fast ein Jahrzehnt als professioneller Schreiner, um seine Familie zu ernähren – ein Handwerk, das er mit derselben Sorgfalt ausübte wie später die Schauspielerei, statt es nur als Notlösung zu betreiben.</p>
           <p class="vb-intro">Ausgerechnet ein Schreinerauftrag wurde zum Wendepunkt: Beim Bau von Bürokabinetten für George Lucas während der Arbeit an „American Graffiti" fiel Ford dem Regisseur auf – ein Zufall, der jedoch nur deshalb zum Durchbruch werden konnte, weil Ford sein Handwerk über Jahre hinweg tatsächlich beherrschte, statt nur eine Rolle zu spielen, während er auf den großen Durchbruch wartete.</p>
         </blockquote>
 

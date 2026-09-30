@@ -2335,7 +2335,7 @@ export function harrisonFordPortraitPage() {
 
         <h2 class="vb-section">1. The Eagle</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One – an animal that impresses not through volume, but through the precision of its gaze and the consistency of its action once its own standard has been met. Harrison Ford, born in Chicago in 1942, spent nearly a decade as a professional carpenter after early unsuccessful years as an actor, supporting his family – a craft he practiced with the same care he would later bring to acting, rather than treating it as a mere stopgap.</p>
+          <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One – an animal whose standing comes not from spectacle, but from the plain fact that it has fully mastered its craft before moving on to the next level. Harrison Ford, born in Chicago in 1942, spent nearly a decade as a professional carpenter after early unsuccessful years as an actor, supporting his family – a craft he practiced with the same care he would later bring to acting, rather than treating it as a mere stopgap.</p>
           <p class="vb-intro">A carpentry job of all things became the turning point: while building office cabinets for George Lucas during the making of "American Graffiti," Ford caught the director's attention – a coincidence that could only turn into a breakthrough because Ford genuinely mastered his craft over years, rather than just playing a role while waiting for the big break.</p>
         </blockquote>
 
