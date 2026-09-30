@@ -2363,7 +2363,7 @@ export function madsMikkelsenPortraitPage() {
 
         <h2 class="vb-section">4. Der Einserflügel: Disziplin als Fundament</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> zeigt sich bei Mikkelsen in der fast asketischen Disziplin, mit der er seinen Körper als Instrument behandelt – Jahre als Leistungsturner und Tänzer, bevor überhaupt eine Schauspielkarriere begann, und ein bis heute kontrollierter, präziser Bewegungsapparat, der ihm ungewöhnlich physische Rollen erlaubt, vom Wikinger-Krieger bis zum Stuntkoordinations-lastigen Actionfilm.</p>
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> zeigt sich bei Mikkelsen in der fast asketischen Disziplin, mit der er seinen Körper als Instrument behandelt – Jahre als Leistungsturner und Tänzer, bevor überhaupt eine Schauspielkarriere begann, und ein bis heute kontrollierter, präziser Bewegungsapparat, der ihm ungewöhnlich physische Rollen erlaubt, vom Wikinger-Krieger bis zum stuntkoordinationslastigen Actionfilm.</p>
           <p class="vb-intro">Auch sein öffentliches Auftreten trägt diese leise, unumstößliche Ordnung: Mikkelsen gilt als auffällig zurückhaltend gegenüber dem üblichen Hollywood-Rummel, lebt weiterhin in Dänemark statt in Los Angeles und hält sein Privatleben konsequent aus der Öffentlichkeit heraus. Kein lautes Prinzip, sondern eine selbst gesetzte, ruhig durchgehaltene Grenze – genau die Einser-Note, die dem Faultier eine feste innere Struktur gibt, ohne die reine Entspannung der Neun zu verlieren.</p>
         </blockquote>
 
