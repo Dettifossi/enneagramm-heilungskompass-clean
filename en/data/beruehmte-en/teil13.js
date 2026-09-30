@@ -2356,6 +2356,7 @@ export function evanBatesPortraitPage() {
         {route:"beruehmte-sebastian-urzendowsky", label:"Portrait: Sebastian Urzendowsky (SP4w3)"},
         {route:"beruehmte-nicolas-cage", label:"Portrait: Nicolas Cage (SP4w3)"},
         {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
+        {route:"beruehmte-riku-miura", label:"Portrait: Riku Miura (SO2w3) – figure skater"},
       ])}
     </div>
   `);

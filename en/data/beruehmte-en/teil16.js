@@ -2296,6 +2296,67 @@ export function madisonChockPortraitPage() {
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
         {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SP2w3)"},
         {route:"beruehmte-andre-duqum", label:"Portrait: André Duqum (SP2w3)"},
+        {route:"beruehmte-riku-miura", label:"Portrait: Riku Miura (SO2w3) – figure skater"},
+      ])}
+    </div>
+  `);
+}
+
+export function rikuMiuraPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-riku-miura-portrait.jpg" alt="Riku Miura" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Riku Miura</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with a Three Wing</p>
+        <p class="krim-portrait-subtitle">b. 2001 – Japanese figure skater, with Ryuichi Kihara pairs world champion 2023 – Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever on the ice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>golden retriever</strong> is the animal of the social Two – warm, oriented toward genuine connection, happy only once success can be shared. Riku Miura, born in Yokohama in 2001, began her career as a singles skater before deciding in 2019 to form a pairs team with the seven-years-older Ryuichi Kihara – a step initially seen as a footnote in Japan, since the country had traditionally shown almost no international success in this discipline.</p>
+          <p class="vb-intro">Together with Kihara, Miura moved to train in Colorado Springs, USA, far from the familiar Japanese environment – a deliberate step to achieve the years-long physical and emotional attunement with a single partner that pairs skating requires. This willingness to make her entire career completely dependent on a shared bond, rather than remaining independent as a singles skater, is deeply golden-retriever-like.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The actual achievement: a synchrony you cannot build like a solo program</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Pairs skating differs fundamentally from singles skating: alongside individual jump technique come shared elements such as throws, lifts, and death spirals, in which the woman is literally handed over into her partner's hands – mistakes in coordination here are not just a deduction but a real injury risk for both skaters. These elements cannot be perfected alone like a solo program; they require years of joint training until timing and body tension between two people become practically identical.</p>
+          <p class="vb-intro">In 2023, Miura and Kihara achieved exactly that at the World Championships on home soil in Saitama: they became the first Japanese pair ever to win a World title in figure skating pairs – a historic title for a discipline in which Japan had never before won even a single World Championship medal. In 2024, they confirmed their world-class level with bronze at the following World Championships, adding several Four Continents titles along the way.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The social Two: a title for an entire country</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> seeks belonging not in the one relationship, but in the larger collective. Naranjo called this subtype <em>Ambition</em>: the drive to become indispensable through impact in the wider field. In Miura this showed in how immediately her personal success was charged with national meaning: the 2023 World title happened to fall in Japan itself, in front of a home crowd, and was celebrated nationwide as a breakthrough for a previously marginal discipline.</p>
+          <p class="vb-intro">After winning, both Miura and Kihara broke into tears on the ice – a moment that went around the world and expressed less personal triumph than shared, collective relief: achieved for themselves, but equally for Japanese pairs skating as a whole, suddenly taken seriously internationally because of this one title.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Three wing: measurable milestones as confirmation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three wing (w3)</strong> gives the social Two the drive toward visible, measurable achievement. In Miura this shows in how consistently her career ran along concrete, publicly countable milestones: the switch from singles to pairs in 2019, competing at the 2022 Winter Olympics in Beijing, the historic first World title for a Japanese pair in 2023, the bronze medal in 2024 – a career that can be told less through artistic expression for its own sake than through a series of measurable, historically recorded achievements.</p>
+          <p class="vb-intro">This combination of Two-style bonding and Three-style drive for achievement also explains why Miura never presents her success as an individual accomplishment: in interviews she regularly stresses how much the title belongs to Kihara just as much as to her – recognition that must be shared to count at all for the social Two.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2w3 shows in Miura's ability to shift an entire sport's perception in her home country: through her and Kihara's success, pairs skating is now seen in Japan as a serious discipline worth supporting – a collective effect that reaches far beyond her own athletic career.</p>
+          <p class="vb-intro">The shadow lies in the radical dependency this form of success brings with it: unlike a singles skater, Miura's entire career is inseparably bound to a single partnership – if that bond changes, her entire athletic existence changes instantly. The social Two invests her sense of self so completely in one load-bearing relationship that her foundation would be missing without that single connection.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype profile"},
+        {route:"beruehmte-usain-bolt", label:"Portrait: Usain Bolt (SO2w3)"},
+        {route:"beruehmte-madison-chock", label:"Portrait: Madison Chock (SP2w3) – wife and ice dance partner"},
+        {route:"beruehmte-evan-bates", label:"Portrait: Evan Bates (SP4w3) – husband and ice dance partner"},
       ])}
     </div>
   `);

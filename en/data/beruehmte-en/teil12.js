@@ -1974,6 +1974,7 @@ export function usainBoltPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
+        {route:"beruehmte-riku-miura", label:"Portrait: Riku Miura (SO2w3)"},
       ])}
     </div>
   `);

@@ -1974,6 +1974,7 @@ export function usainBoltPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-will-smith", label:"Porträt: Will Smith (SO2w3)"},
+        {route:"beruehmte-riku-miura", label:"Porträt: Riku Miura (SO2w3)"},
       ])}
     </div>
   `);
@@ -2313,6 +2314,67 @@ export function madisonChockPortraitPage() {
         {route:"beruehmte-harald-gloeockler", label:"Porträt: Harald Glööckler (SE2w3)"},
         {route:"beruehmte-oprah-winfrey", label:"Porträt: Oprah Winfrey (SE2w3)"},
         {route:"beruehmte-andre-duqum", label:"Porträt: André Duqum (SE2w3)"},
+        {route:"beruehmte-riku-miura", label:"Porträt: Riku Miura (SO2w3) – Eiskunstläuferin"},
+      ])}
+    </div>
+  `);
+}
+
+export function rikuMiuraPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-riku-miura-portrait.jpg" alt="Riku Miura" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Riku Miura</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Sozialer Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">geb. 2001 – japanische Eiskunstläuferin, mit Ryuichi Kihara Weltmeisterin im Paarlauf 2023 – Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever auf dem Eis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei – zugewandt, auf echte Verbindung aus, glücklich erst dann, wenn der Erfolg geteilt werden kann. Riku Miura, 2001 in Yokohama geboren, begann ihre Karriere als Einzelläuferin, bevor sie sich 2019 entschied, mit dem sieben Jahre älteren Ryuichi Kihara ein Paarlauf-Team zu bilden – ein Schritt, der in Japan zunächst als Randnotiz galt, da das Land in dieser Disziplin traditionell kaum internationale Erfolge vorzuweisen hatte.</p>
+          <p class="vb-intro">Gemeinsam mit Kihara zog Miura zum Training nach Colorado Springs in die USA, weit weg vom vertrauten japanischen Umfeld – ein bewusster Schritt, um die für den Paarlauf notwendige, jahrelang aufgebaute körperliche und emotionale Abstimmung mit einem einzigen Partner zu erreichen. Genau diese Bereitschaft, die eigene Karriere komplett von einer gemeinsamen Bindung abhängig zu machen, statt als Einzelläuferin unabhängig zu bleiben, ist zutiefst golden-retriever-typisch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die eigentliche Leistung: Synchronität, die man sich nicht erarbeiten kann wie eine Einzelkür</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Paarlauf unterscheidet sich fundamental vom Einzellauf: Neben individueller Sprungtechnik kommen gemeinsame Elemente wie Würfe, Hebungen und Todesspiralen hinzu, bei denen die Läuferin buchstäblich in die Hände ihres Partners übergeben wird – Fehler in der Zusammenarbeit sind hier nicht nur Punktabzug, sondern ein reales Verletzungsrisiko für beide. Diese Elemente lassen sich nicht wie eine Einzelkür allein perfektionieren, sondern erfordern jahrelanges gemeinsames Training, bis Timing und Körperspannung zwischen zwei Menschen praktisch identisch werden.</p>
+          <p class="vb-intro">2023 gelang Miura und Kihara bei der Weltmeisterschaft im heimischen Saitama genau das: Sie wurden als erstes japanisches Paar überhaupt Weltmeister im Eiskunstlauf-Paarlauf – ein historischer Titel für eine Disziplin, in der Japan zuvor nie auch nur eine WM-Medaille gewonnen hatte. 2024 bestätigten sie ihre Weltklasse mit Bronze bei der folgenden Weltmeisterschaft, dazu kamen mehrere Titel bei den Vier-Kontinente-Meisterschaften.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die soziale Zwei: ein Titel für ein ganzes Land</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> sucht Zugehörigkeit nicht in der einen Beziehung, sondern im größeren Kollektiv. Naranjo nannte diesen Subtyp <em>Ambition</em>: den Drang, durch Wirkung im größeren Feld unentbehrlich zu werden. Bei Miura zeigte sich das darin, wie unmittelbar ihr persönlicher Erfolg mit einer nationalen Bedeutung aufgeladen wurde: Der WM-Titel 2023 fiel ausgerechnet in Japan selbst, vor heimischem Publikum, und wurde landesweit als Durchbruch für eine bis dahin randständige Disziplin gefeiert.</p>
+          <p class="vb-intro">Nach dem Gewinn brachen sowohl Miura als auch Kihara auf dem Eis in Tränen aus – ein Moment, der um die Welt ging und weniger persönlichen Triumph als geteilte, kollektive Erleichterung ausdrückte: erreicht für sich selbst, aber ebenso für den japanischen Paarlauf als Ganzes, der durch diesen einen Titel plötzlich international ernst genommen wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Dreierflügel: messbare Meilensteine als Bestätigung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sozialen Zwei den Antrieb zur sichtbaren, messbaren Leistung. Bei Miura zeigt sich das darin, wie konsequent ihre Karriere entlang konkreter, öffentlich zählbarer Meilensteine verlief: der Wechsel vom Einzel- zum Paarlauf 2019, die Teilnahme an den Olympischen Winterspielen 2022 in Peking, der historische erste WM-Titel für ein japanisches Paar 2023, die Bronzemedaille 2024 – eine Karriere, die sich weniger über künstlerischen Ausdruck an sich als über eine Reihe messbarer, historisch verzeichneter Erfolge erzählen lässt.</p>
+          <p class="vb-intro">Diese Kombination aus Zweier-Bindung und Dreier-Leistungswillen erklärt auch, warum Miura ihren Erfolg nie als Einzelleistung darstellt: In Interviews betont sie regelmäßig, wie sehr der Titel Kihara ebenso gehöre wie ihr selbst – Anerkennung, die geteilt werden muss, um für die soziale Zwei überhaupt zu zählen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2w3 zeigt sich in Miuras Fähigkeit, eine ganze Sportart-Wahrnehmung in ihrem Heimatland zu verschieben: Durch ihren und Kiharas Erfolg gilt Paarlauf in Japan heute als ernstzunehmende, förderungswürdige Disziplin – ein kollektiver Effekt, der weit über die eigene sportliche Karriere hinausreicht.</p>
+          <p class="vb-intro">Der Schatten liegt in der radikalen Abhängigkeit, die diese Erfolgsform mit sich bringt: Anders als eine Einzelläuferin ist Miuras gesamte Karriere untrennbar an eine einzige Partnerschaft gebunden – verändert sich diese Bindung, verändert sich augenblicklich die gesamte sportliche Existenz. Die soziale Zwei investiert ihr Selbstverständnis so vollständig in eine tragende Beziehung, dass ihr Fundament ohne diese eine Verbindung fehlen würde.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-usain-bolt", label:"Porträt: Usain Bolt (SO2w3)"},
+        {route:"beruehmte-madison-chock", label:"Porträt: Madison Chock (SE2w3) – Ehefrau und Eistanzpartnerin"},
+        {route:"beruehmte-evan-bates", label:"Porträt: Evan Bates (SE4w3) – Ehemann und Eistanzpartner"},
       ])}
     </div>
   `);
