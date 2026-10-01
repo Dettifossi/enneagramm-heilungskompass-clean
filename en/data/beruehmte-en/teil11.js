@@ -1887,6 +1887,7 @@ export function rupertSpiraPortraitPage() {
         {route:"beruehmte-john-ioannidis", label:"Portrait: Prof. Dr. John Ioannidis (SO7w6)"},
         {route:"beruehmte-christian-drosten", label:"Portrait: Prof. Dr. Christian Drosten (SO7w6)"},
         {route:"beruehmte-gregor-gysi", label:"Portrait: Dr. Gregor Gysi (SO7w6)"},
+        {route:"praxistipps-heilpraktiker/das-ewige-ich-bin", label:"Practical Tip: The Eternal ›I Am‹ Beyond Fixation"},
         ])}
       </div>
     </div>

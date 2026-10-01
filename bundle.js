@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage, gescheGottfriedPortraitPage, juanaBarrazaPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage, arwedImielaPortraitPage, bernardEugeneGilesPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, ameliaDyerPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage, charlesStarkweatherPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=181";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=182";
 
 import { adeleKrankheitsportraetPage, arnoldSchwarzeneggerKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, knutHamsunKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage, davidHockneyKrankheitsportraetPage, guntherVonHagensKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -36287,6 +36287,10 @@ function ichIllusionPage() {
         <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">Alle Titel und weitere spirituelle Literatur von Detlef Rathmer finden sich auch auf der Homepage des Verlagshauses Rathmer unter „Persönliche Entwicklung".</p>
       </div>
 
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"praxistipps-heilpraktiker/das-ewige-ich-bin", label:"Das ewige ›Ich bin‹: Der Enneagramm-Heilungskompass jenseits der Fixierung"},
+      ])}
     </section>
   `);
 }
@@ -36385,6 +36389,7 @@ function turiyaEnneagrammPage() {
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
         {route:"praxistipps-heilpraktiker/ich-illusion", label:"Wer lenkt hier eigentlich wen? – Der sanfte Ausweg aus der Ich-Illusion"},
+        {route:"praxistipps-heilpraktiker/das-ewige-ich-bin", label:"Das ewige ›Ich bin‹: Der Enneagramm-Heilungskompass jenseits der Fixierung"},
         {route:"stille", label:"9 Minuten Stille sitzen"},
       ])}
     </section>
@@ -36409,6 +36414,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"turiya-enneagramm", titel:"Der Beobachter hinter dem Muster \u2013 Enneagramm und der Turiya-Zustand nach Ramana Maharshi", teaser:"Wie sich die neun Enneagramm-Fixierungen als neun Wege verstehen lassen, aus der eigenen stillen Mitte zu fl\u00fcchten \u2013 und der Weg zur\u00fcck \u00fcber die Selbstergr\u00fcndung.", img:"./assets/schaubilder/turiya-enneagramm/turiya-enneagramm.jpg", kategorie:"geist" },
     { slug:"metaintelligenz-achtsamkeit-im-moment", titel:"Meta-Intelligenz: Achtsamkeit im Moment", teaser:"Die wichtigste F\u00e4higkeit des menschlichen Geistes in vier einfachen Schritten \u2013 den gerade auftauchenden Gedanken beobachten, statt mit ihm zu verschmelzen.", img:"./assets/schaubilder/metaintelligenz-achtsamkeit-im-moment/metaintelligenz-achtsamkeit-im-moment.jpg", kategorie:"geist" },
     { slug:"vierter-weg-selbsterinnerung", titel:"Der Vierte Weg nach Gurdjieff: Selbsterinnerung mitten im Alltag", teaser:"Vier praktische \u00dcbungswege von G. I. Gurdjieff, um den mechanisierten Alltagsschlaf zu unterbrechen \u2013 ge\u00fcbt mitten im Trubel, nicht im stillen K\u00e4mmerlein.", img:"./assets/schaubilder/vierter-weg-selbsterinnerung/vierter-weg-selbsterinnerung.jpg", kategorie:"geist" },
+    { slug:"das-ewige-ich-bin", titel:"Das ewige \u201eIch bin\u201c: Der Enneagramm-Heilungskompass jenseits der Fixierung", teaser:"Wie Judentum, Christentum, Hinduismus, Buddhismus, Islam und Taoismus denselben stillen Seinsgrund beschreiben \u2013 und was das f\u00fcr die Enneagramm-Arbeit bedeutet.", img:"./assets/schaubilder/das-ewige-ich-bin/das-ewige-ich-bin.jpg", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"K\u00f6rper & Bewegung", icon:"\ud83e\udded" },
@@ -36464,6 +36470,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "vierter-weg-selbsterinnerung") {
     return vierterWegSelbsterinnerungPage();
+  }
+  if (param === "das-ewige-ich-bin") {
+    return dasEwigeIchBinPage();
   }
 
   return shell(`
@@ -37378,6 +37387,99 @@ function vierterWegSelbsterinnerungPage() {
         {route:"praxistipps-heilpraktiker/vitruv-enneagramm", label:"Die Vitruv-Enneagramm-Bewusstseinsübung"},
         {route:"wurzeln-des-enneagramms", label:"Die Wurzeln des Enneagramms"},
         {route:"practice", label:"Werkzeuge"},
+      ])}
+    </section>
+  `);
+}
+
+function dasEwigeIchBinPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1 class="h1--tip">Das ewige „Ich bin": Der Enneagramm-Heilungskompass jenseits der Fixierung</h1>
+      <p class="lead-small">Judentum, Christentum, Hinduismus, Buddhismus, Islam und Taoismus beschreiben, in ganz unterschiedlicher Einkleidung, denselben stillen Seinsgrund – das reine „Ich bin" jenseits von Gedanken, Gefühlen und Körperempfindungen. Was das für die tägliche Arbeit mit dem eigenen Enneagrammtyp bedeutet.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="./assets/schaubilder/das-ewige-ich-bin/das-ewige-ich-bin.jpg"
+             alt="Ein leuchtender Kreis mit der Aufschrift 'Das reine Sein – Ich bin', umgeben von den Symbolen der sechs Weltreligionen Judentum, Christentum, Hinduismus, Buddhismus, Islam und Taoismus"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">Für Heilpraktiker, Therapeuten und alle Begleiter auf dem inneren Weg ist es eine alltägliche Beobachtung: Viele körperliche, seelische und psychosomatische Beschwerden wurzeln in einer tiefen Entfremdung von der eigenen Essenz. Reizüberflutung, ständige Gedankenaktivität und nach außen gerichtete Sinne halten den modernen Menschen in einem permanenten Überlebensmodus gefangen.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Betrachtet man das durch die Linse des Enneagramms, zeigt sich der Kern des Problems sehr genau: Wir verwechseln uns fast chronisch mit unserer Ego-Struktur, unserer psychischen Fixierung. Doch hinter dem Lärm des Alltags und den starren Mustern der Persönlichkeit existiert ein unvergänglicher Anker – das tiefe „Ich bin" jenseits von Gedanken, Emotionen und körperlichen Sensationen. Als roter Faden zieht sich durch alle großen Weltreligionen und durch die moderne Enneagramm-Arbeit dieselbe Erkenntnis: Heilung liegt in der schrittweisen Ent-Identifikation von dieser Fixierung und im Erwachen zum wahren Sein.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">1. Das „Ich bin" im Spiegel der Weltreligionen</h2>
+        <p class="vb-intro">Obwohl die kulturellen Einkleidungen stark variieren, beschreiben sämtliche großen Weisheitslehren dieselbe unerschütterliche Wirklichkeit des reinen Seins:</p>
+        <ul style="margin:1rem 0 0;padding-left:1.2rem;display:flex;flex-direction:column;gap:.9rem;">
+          <li class="vb-intro"><strong style="color:var(--ink);">Judentum (Tora &amp; Kabbala):</strong> Als Mose Gott im brennenden Dornbusch nach seinem Namen fragt, lautet die Antwort in Exodus 3,14: „Ehyeh asher ehyeh" – „Ich bin, der ich bin" (Jahwe). In der jüdischen Mystik, der Kabbala, ist das kein entfernter Herrscher, sondern die Urquelle des Bewusstseins, die alles durchdringt und aus dem Nichts (Ain Soph) alles erschafft.</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Christentum (Altes &amp; Neues Testament):</strong> Das Christentum führt diesen Faden nahtlos fort. Jesus greift dieses absolute Sein direkt auf, wenn er zu den Pharisäern sagt: „Ehe Abraham war, bin ich" (Johannes 8,58). Der Fokus verschiebt sich dabei nach innen, wie es in Lukas 17,21 heißt: „Das Reich Gottes ist in euch."</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Hinduismus (Vedanta &amp; Bhagavad Gita):</strong> Hier wird die höchste Wirklichkeit als Atman (das wahre Selbst) und Brahman (das absolute Bewusstsein) erkannt. In der Bhagavad Gita (Kapitel 2, Vers 20) heißt es über dieses wahre Selbst: „Es wird nicht geboren, und es stirbt niemals … Ungeboren, ewig, dauernd und ursprünglich wird es nicht getötet, wenn der Körper getötet wird." Wer den Mut hat, den Blick nach innen zu richten, erkennt die Identität von Atman und Brahman – Tat tvam asi, „Das bist du".</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Buddhismus (Lehre von der Leere / Sunyata):</strong> Der Buddha sprach bewusst nicht von einem verdinglichten „Gott", verwies aber mit Begriffen wie Rigpa (reines Gewahrsein), Buddha-Natur oder Sunyata (Leere) auf exakt denselben Zustand. Diese „Leere" ist kein Nichts, sondern eine schöpferische Fülle – vergleichbar mit einem Raum, der bleibt, auch wenn alle Wände abgerissen werden.</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Islam (Sufismus):</strong> Im mystischen Islam sprechen Meister wie Rumi oder Al-Halladsch von der Auflösung des egoischen „Ichs" im göttlichen Sein (Fana). Durch innere Einkehr und stetiges Gedenken erfährt der Suchende, dass hinter der Maske der Form nur ein einziges, universelles Sein existiert.</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Taoismus (Tao Te King):</strong> Das Tao wird im ersten Vers direkt als das Unnennbare umschrieben: „Das Tao, das ausgesprochen werden kann, ist nicht das ewige Tao." Es ist die formlose, stille Präsenz, aus der alle zehntausend Dinge hervorgehen und in die sie zurückkehren.</li>
+        </ul>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">2. Die Enneagramm-Perspektive: Vom Gefängnis der Fixierung zur Essenz</h2>
+        <p class="vb-intro">Hier schließt sich der Kreis zum Verständnis des Enneagramms, wie es diesem Kompass zugrunde liegt. Die neun Typen sind nicht einfach nur Charaktereigenschaften – sie sind hochentwickelte Überlebensstrategien, in denen sich das Bewusstsein einst verstrickt hat. Jedes Enneagramm-Muster bildet eine starre Ich-Struktur ab, eine Ego-Fixierung, die vorgibt, wer man angeblich sein muss, um sicher zu sein, dazuzugehören oder geliebt zu werden. Man identifiziert sich mit den automatischen Reaktionsmustern des Verstandes, mit emotionalen Dramen, Glaubenssätzen und körperlichen Verspannungen – diese Ich-Struktur wirkt wie ein Filter, der die Sinne nach außen lenkt, sodass nur noch reaktiv auf Stressoren, Rollenerwartungen und alte Programmierungen reagiert wird.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Doch das Enneagramm ist in seiner tiefen Dimension genau das: ein präziser Heilungskompass. Es zeigt nicht nur die automatischen Fallen der neun Typen, sondern erinnert zugleich daran, dass hinter jeder Fixierung ein ursprünglicher, unverletzlicher Zustand der Essenz liegt – derselbe, den die Weltreligionen oben als „Ich bin" beschreiben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">3. Warum das Offensichtliche so schwer zu finden ist</h2>
+        <p class="vb-intro">Das Paradoxe an diesem tieferen „Ich bin" ist: Es war nie verborgen. Es ist der unzerstörbare Raum des Bewusstseins, in dem auch die Enneagramm-Muster überhaupt erst ablaufen. Dennoch bleibt es im Alltag so schwer zugänglich, aus zwei Gründen: Erstens vereinnahmt die Fixierung die Aufmerksamkeit – man verwechselt sich ständig mit den Inhalten der Fixierung (den typenspezifischen Ängsten, Kontrollbedürfnissen, Perfektionsansprüchen oder dem Rückzug), statt sich als den Raum zu erkennen, in dem diese Muster aufsteigen und wieder vergehen. Zweitens sind die Sinne dauerhaft nach außen gerichtet, an äußere Reize und das Drama des Ego-Spiels gekoppelt.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Eine einfache Metapher macht das greifbar: Räumt man die Möbel aus einem Zimmer – in diesem Bild die unbewussten Verhaltensmuster und Glaubenssätze des eigenen Enneagrammtyps –, bleibt der Raum selbst unverändert derselbe. Genauso bleibt das reine, formlose „Ich bin" vollkommen unberührt und unzerstörbar, selbst wenn die Fixierung gerade tobt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">4. Eine einfache Übung: Die Identifikation nach und nach auflösen</h2>
+        <p class="vb-intro">Heilung geschieht nicht dadurch, dass die eigene Ich-Struktur bekämpft oder „repariert" wird, sondern dadurch, dass sie durchschaut wird. Eine schlichte, immer wieder anwendbare Übung in drei Schritten:</p>
+        <p class="vb-intro" style="margin-top:.8rem;"><strong>Den Auslöser bemerken:</strong> Springt der typenspezifische Reflex an – Korrigieren, Aufopfern, Leisten, Dramatisieren, Rückziehen, Absichern, Ablenken, Dominieren oder Anpassen, je nach eigenem Subtyp –, genügt zunächst ein einziger bewusster Atemzug als Pause zwischen Reiz und Reaktion.</p>
+        <p class="vb-intro" style="margin-top:.8rem;"><strong>Nach innen fragen, statt nach außen zu reagieren:</strong> Die Aufmerksamkeit für einen Moment weg vom Inhalt des Gedankens lenken, hin zu dem stillen Hintergrund, vor dem der Gedanke überhaupt erst auftaucht – nicht als Grübelfrage, sondern als kurzes Innehalten im „Ich bin" selbst, jenseits von Gedanke, Gefühl und Körperempfindung.</p>
+        <p class="vb-intro" style="margin-top:.8rem;"><strong>Die Ent-Täuschung zulassen:</strong> Wird bemerkt, wie lange man sich von der Stimme der eigenen Fixierung hat leiten lassen, entsteht in aller Regel keine Enttäuschung, sondern eine spürbare Erleichterung – im wörtlichen Sinn das Ende einer Täuschung.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Aus dieser kleinen, wiederkehrenden Übung heraus verändert sich mit der Zeit die Qualität des eigenen Handelns: Es bleibt möglich, ebenso engagiert, klar und wirksam zu handeln wie zuvor – nur eben nicht mehr aus dem inneren Zwang heraus, sich damit erst die eigene Daseinsberechtigung erkaufen zu müssen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">5. Eine Beobachtung aus über dreißig Jahren therapeutischer Praxis</h2>
+        <p class="vb-intro">In der homöopathischen Praxis begegnen mir seit Jahrzehnten Menschen, deren Enneagramm-Fixierung so tief und so unbewusst gelebt wird, dass sich daraus über die Zeit chronische Beschwerdebilder entwickeln – nicht weil Bewusstheit vor Krankheit schützen würde (das tut sie nachweislich nicht, auch sehr gereifte Menschen erkranken schwer), sondern weil der ständige innere Zwang, den eigenen Wert erst beweisen zu müssen, den Organismus auf Dauer auszehrt.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Was sich dagegen fast gesetzmäßig zeigt: Sobald ein Mensch beginnt, sich für die eigene innere Psychologie zu interessieren, statt sich ausschließlich im Außen zu verlieren, verbessert sich in aller Regel auch die Heilungsprognose. Genau deshalb behandle ich in der homöopathischen Konstitutionstherapie nie nur die Leidenschaftsebene für sich, sondern immer auch die dahinterliegende Wunde – und lade jeden, der dazu bereit ist, probeweise ein, den in diesem Praxistipp beschriebenen stillen Beobachter in den eigenen Alltag einzuladen. Nicht als Ersatz für die homöopathische Behandlung, sondern als ihre stille, kostenlose Begleiterin.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Eine zeitgenössische Stimme, die genau diesen Weg auf bemerkenswert einfache Weise lehrt, ohne ihn mit einem Imperativ zu überfrachten, ist der britische Lehrer <a href="#beruehmte-rupert-spira">Rupert Spira</a>: die Aufmerksamkeit nach innen wenden, jenseits von Gedanken, Gefühlen und Körperempfindungen, zu dem schlichten, immer schon vorhandenen „Ich bin" – nicht als Leistung, sondern als Erkennen dessen, was man ohnehin immer schon war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Buchtipps</h2>
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
+            <span style="flex:1;">Vertiefende Literatur von Detlef Rathmer</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            ${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms – tiefgreifende Analyse der Urwunde hinter jeder Leidenschaft, mit konkreten Heilungswegen für alle 9 Typen.", "Hinter der Leidenschaft")}
+            <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "Ein spirituelles Buch über die tiefste Stille in uns und die Erfahrung von Transzendenz jenseits aller Konzepte.", "Sei still und wisse – ich bin Gott!")}</div>
+            <div style="margin-top:.8rem;">${bookTip("nichts-und-alles", "Ein Buch über das Wesen des Bewusstseins – zwischen Leere und Fülle, zwischen dem Nichts und dem Alles des Lebens.", "Nichts und Alles")}</div>
+            <div style="margin-top:.8rem;">${bookTip("der-raum-hinter-allem", "Eine Erkundung des Bewusstseins jenseits der Gedanken – über den stillen Raum, der hinter allem Erleben liegt.", "Der Raum hinter allem")}</div>
+            <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Heilung nicht als Reparatur, sondern als Erinnerung an das, was wir eigentlich sind – ein tiefgründiger Blick auf Gesundheit und Ganzheit.", "Heilung als Erinnerung")}</div>
+          </div>
+        </details>
+        <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">Alle Titel und weitere spirituelle Literatur von Detlef Rathmer finden sich auch auf der Homepage des Verlagshauses Rathmer unter „Persönliche Entwicklung".</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"praxistipps-heilpraktiker/turiya-enneagramm", label:"Der Beobachter hinter dem Muster – Turiya und das Enneagramm"},
+        {route:"praxistipps-heilpraktiker/ich-illusion", label:"Wer lenkt hier eigentlich wen? – Der sanfte Ausweg aus der Ich-Illusion"},
+        {route:"beruehmte-rupert-spira", label:"Porträt: Rupert Spira (SO7w6)"},
+        {route:"stille", label:"9 Minuten Stille sitzen"},
       ])}
     </section>
   `);

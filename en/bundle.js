@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=181";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=182";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -7366,6 +7366,10 @@ function ichIllusionPage() {
         <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">All titles and more of Detlef Rathmer's spiritual writing can also be found on the Verlagshaus Rathmer website under "Personal Development".</p>
       </div>
 
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"praxistipps-heilpraktiker/das-ewige-ich-bin", label:"The Eternal ›I Am‹: The Enneagram Healing Compass Beyond Fixation"},
+      ])}
     </section>
   `);
 }
@@ -7464,6 +7468,7 @@ function turiyaEnneagrammPage() {
       ${relatedLinks([
         {route:"praxistipps-heilpraktiker", label:"All Practice Tips"},
         {route:"praxistipps-heilpraktiker/ich-illusion", label:"Who's Really Steering Here? – The Gentle Way Out of the Illusion of Self"},
+        {route:"praxistipps-heilpraktiker/das-ewige-ich-bin", label:"The Eternal ›I Am‹: The Enneagram Healing Compass Beyond Fixation"},
         {route:"stille", label:"9 Minutes of Sitting in Silence"},
       ])}
     </section>
@@ -7488,6 +7493,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"turiya-enneagramm", titel:"The Observer Behind the Pattern – The Enneagram and the Turiya State According to Ramana Maharshi", teaser:"How the nine Enneagram fixations can be understood as nine ways of fleeing one's own still center – and the way back through self-inquiry.", img:"../assets/schaubilder/turiya-enneagramm/turiya-enneagramm.jpg", kategorie:"geist" },
     { slug:"metaintelligenz-achtsamkeit-im-moment", titel:"Meta-Intelligence: Mindfulness in the Moment", teaser:"The most important ability of the human mind in four simple steps – observing the thought that just arose instead of merging with it.", img:"../assets/schaubilder/metaintelligenz-achtsamkeit-im-moment/metaintelligenz-achtsamkeit-im-moment-en.jpg", kategorie:"geist" },
     { slug:"vierter-weg-selbsterinnerung", titel:"The Fourth Way According to Gurdjieff: Self-Remembering in the Middle of Everyday Life", teaser:"Four practical exercise paths from G. I. Gurdjieff for interrupting mechanized everyday sleep – practiced in the middle of the bustle, not in quiet seclusion.", img:"../assets/schaubilder/vierter-weg-selbsterinnerung/vierter-weg-selbsterinnerung-en.jpg", kategorie:"geist" },
+    { slug:"das-ewige-ich-bin", titel:"The Eternal ›I Am‹: The Enneagram Healing Compass Beyond Fixation", teaser:"How Judaism, Christianity, Hinduism, Buddhism, Islam, and Taoism describe the same silent ground of being – and what that means for Enneagram work.", img:"../assets/schaubilder/das-ewige-ich-bin/das-ewige-ich-bin-en.jpg", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"Body & Movement", icon:"🧭" },
@@ -7540,6 +7546,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "vierter-weg-selbsterinnerung") {
     return vierterWegSelbsterinnerungPage();
+  }
+  if (param === "das-ewige-ich-bin") {
+    return dasEwigeIchBinPage();
   }
   if (param === "bewusstes-innehalten") {
     return bewusstesInnehaltenPage();
@@ -8455,6 +8464,99 @@ function vierterWegSelbsterinnerungPage() {
         {route:"praxistipps-heilpraktiker/vitruv-enneagramm", label:"The Vitruvian Enneagram Awareness Exercise"},
         {route:"wurzeln-des-enneagramms", label:"The Roots of the Enneagram"},
         {route:"practice", label:"Tools"},
+      ])}
+    </section>
+  `);
+}
+
+function dasEwigeIchBinPage() {
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1 class="h1--tip">The Eternal ›I Am‹: The Enneagram Healing Compass Beyond Fixation</h1>
+      <p class="lead-small">Judaism, Christianity, Hinduism, Buddhism, Islam, and Taoism describe, in entirely different dress, the same silent ground of being – the pure "I Am" beneath thought, feeling, and bodily sensation. What that means for the daily work with your own Enneagram type.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1rem;">
+        <img src="../assets/schaubilder/das-ewige-ich-bin/das-ewige-ich-bin-en.jpg"
+             alt="A glowing circle reading 'Pure Being – I Am', surrounded by the symbols of the six world religions Judaism, Christianity, Hinduism, Buddhism, Islam, and Taoism"
+             class="psycho-img" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <p class="vb-intro">For naturopaths, therapists, and anyone accompanying others on the inner path, it is an everyday observation: many physical, emotional, and psychosomatic complaints are rooted in a deep estrangement from one's own essence. Sensory overload, constant mental activity, and senses turned outward keep modern people trapped in a permanent survival mode.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Viewed through the lens of the Enneagram, the core of the problem becomes very clear: we almost chronically mistake ourselves for our ego structure, our psychological fixation. Yet behind the noise of everyday life and the rigid patterns of personality, an imperishable anchor exists – the deep "I Am" beneath thought, emotion, and bodily sensation. As a common thread running through all the major world religions and through modern Enneagram work alike: healing lies in gradually dis-identifying from this fixation and awakening to true being.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">1. The "I Am" Mirrored in the World's Religions</h2>
+        <p class="vb-intro">Though their cultural clothing varies widely, all the great wisdom traditions describe the same unshakeable reality of pure being:</p>
+        <ul style="margin:1rem 0 0;padding-left:1.2rem;display:flex;flex-direction:column;gap:.9rem;">
+          <li class="vb-intro"><strong style="color:var(--ink);">Judaism (Torah &amp; Kabbalah):</strong> When Moses asks God's name at the burning bush, the answer in Exodus 3:14 is "Ehyeh asher ehyeh" – "I Am That I Am" (Yahweh). In Jewish mysticism, the Kabbalah, this is no distant ruler but the primal source of consciousness that pervades everything and creates everything out of nothing (Ain Soph).</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Christianity (Old &amp; New Testament):</strong> Christianity carries this thread forward seamlessly. Jesus takes up this absolute being directly when he tells the Pharisees, "Before Abraham was, I am" (John 8:58). The focus shifts inward, as emphasized in Luke 17:21: "The kingdom of God is within you."</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Hinduism (Vedanta &amp; Bhagavad Gita):</strong> Here the Supreme Reality is recognized as Atman (the true Self) and Brahman (absolute consciousness). The Bhagavad Gita (Chapter 2, Verse 20) says of this true Self: "It is not born, and it never dies … Unborn, eternal, permanent, and primeval, it is not slain when the body is slain." Whoever dares to turn their gaze inward recognizes the identity of Atman and Brahman – Tat tvam asi, "That thou art."</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Buddhism (The Teaching of Emptiness / Sunyata):</strong> The Buddha deliberately avoided speaking of a reified "God," but pointed to exactly the same state with terms like Rigpa (pure awareness), Buddha-nature, or Sunyata (emptiness). This "emptiness" is not nothingness but a creative fullness – comparable to the space that remains even when every wall is torn down.</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Islam (Sufism):</strong> In mystical Islam, masters such as Rumi or Al-Hallaj speak of the dissolution of the egoic "I" into divine Being (Fana). Through inner retreat and continual remembrance, the seeker discovers that behind the mask of form, only a single, universal Being exists.</li>
+          <li class="vb-intro"><strong style="color:var(--ink);">Taoism (Tao Te Ching):</strong> The Tao is described in the very first verse as the unnameable: "The Tao that can be spoken is not the eternal Tao." It is the formless, silent presence from which the ten thousand things arise and to which they return.</li>
+        </ul>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">2. The Enneagram Perspective: From the Prison of Fixation to Essence</h2>
+        <p class="vb-intro">This is where the circle closes with the understanding of the Enneagram underlying this compass. The nine types are not simply character traits – they are highly developed survival strategies in which consciousness once became entangled. Each Enneagram pattern represents a rigid self-structure, an ego fixation, that dictates who one supposedly has to be in order to be safe, to belong, or to be loved. One identifies with the mind's automatic reaction patterns, with emotional dramas, beliefs, and bodily tension – this self-structure acts like a filter that directs the senses outward, so that one reacts only reactively to stressors, role expectations, and old programming.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Yet in its deepest dimension, the Enneagram is exactly this: a precise healing compass. It reveals not only the nine types' automatic traps, but also reminds us that behind every fixation lies an original, inviolable state of essence – the very same one the world religions above describe as "I Am."</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">3. Why the Obvious Is So Hard to Find</h2>
+        <p class="vb-intro">The paradox of this deeper "I Am" is that it was never hidden. It is the indestructible space of consciousness in which the Enneagram patterns themselves even arise. Yet it remains so hard to access in everyday life, for two reasons: first, the fixation captures attention – one constantly mistakes oneself for the contents of the fixation (the type-specific fears, need for control, perfectionism, or withdrawal) rather than recognizing oneself as the space in which these patterns rise and pass away. Second, the senses remain permanently turned outward, locked onto external stimuli and the drama of the ego's game.</p>
+        <p class="vb-intro" style="margin-top:1rem;">A simple metaphor makes this tangible: if the furniture is removed from a room – in this image, the unconscious behavior patterns and beliefs of one's own Enneagram type – the room itself remains completely unchanged. In exactly the same way, the pure, formless "I Am" remains entirely untouched and indestructible, even while the fixation is raging.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">4. A Simple Practice: Gradually Dissolving the Identification</h2>
+        <p class="vb-intro">Healing does not happen by fighting or "fixing" one's own self-structure, but by seeing through it. A simple, repeatable practice in three steps:</p>
+        <p class="vb-intro" style="margin-top:.8rem;"><strong>Notice the trigger:</strong> When the type-specific reflex kicks in – correcting, self-sacrificing, achieving, dramatizing, withdrawing, securing, distracting, dominating, or accommodating, depending on one's own subtype – a single conscious breath is enough as a pause between stimulus and reaction.</p>
+        <p class="vb-intro" style="margin-top:.8rem;"><strong>Turn the question inward instead of reacting outward:</strong> For a moment, shift attention away from the content of the thought and toward the silent background against which the thought arises in the first place – not as a question to ruminate on, but as a brief pause within the "I Am" itself, beneath thought, feeling, and bodily sensation.</p>
+        <p class="vb-intro" style="margin-top:.8rem;"><strong>Allow the dis-illusionment:</strong> Noticing how long one has been led by the voice of one's own fixation usually brings not disappointment but a palpable relief – literally, the end of an illusion.</p>
+        <p class="vb-intro" style="margin-top:1rem;">Out of this small, recurring practice, the quality of one's own action changes over time: it remains possible to act just as engaged, clear, and effective as before – only no longer out of the inner compulsion to first earn the right to exist through it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">5. An Observation from Over Thirty Years of Therapeutic Practice</h2>
+        <p class="vb-intro">In my homeopathic practice, I have met people for decades whose Enneagram fixation is lived so deeply and so unconsciously that chronic conditions develop from it over time – not because awareness protects against illness (it demonstrably does not; even very mature people fall seriously ill), but because the constant inner compulsion to first prove one's own worth wears down the organism over the long run.</p>
+        <p class="vb-intro" style="margin-top:1rem;">What shows up almost as a rule, however: as soon as a person begins to take an interest in their own inner psychology instead of losing themselves entirely in the outer world, the prognosis for healing generally improves as well. That is exactly why, in homeopathic constitutional therapy, I never treat only the level of the passion by itself, but always the wound behind it as well – and I invite anyone who is ready to try inviting the quiet observer described in this practical tip into their own everyday life. Not as a replacement for homeopathic treatment, but as its quiet, free companion.</p>
+        <p class="vb-intro" style="margin-top:1rem;">A contemporary voice who teaches exactly this path in a remarkably simple way, without overloading it with any imperative, is the British teacher <a href="#beruehmte-rupert-spira">Rupert Spira</a>: turning attention inward, beneath thought, feeling, and bodily sensation, toward the plain, already-present "I Am" – not as an achievement, but as the recognition of what one already always was.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Book Recommendations</h2>
+        <details style="border:1px solid var(--line);border-radius:12px;overflow:hidden;">
+          <summary style="display:flex;align-items:center;gap:0.75rem;padding:1rem 1.2rem;cursor:pointer;
+                          background:var(--paper);list-style:none;user-select:none;font-weight:700;
+                          font-size:0.95rem;color:var(--ink);">
+            <span style="font-size:1.2rem;color:var(--copper);">&#9672;</span>
+            <span style="flex:1;">In-depth Literature by Detlef Rathmer</span>
+            <span style="font-size:0.75rem;color:var(--muted);">&#9660;</span>
+          </summary>
+          <div style="padding:1rem 1.2rem 1.2rem;">
+            ${bookTip("hinter-der-leidenschaft", "The nine wounds of the Enneagram – an in-depth analysis of the primal wound behind each passion, with concrete healing paths for all 9 types.", "Behind the Passion")}
+            <div style="margin-top:.8rem;">${bookTip("sei-still-und-wisse-ich-bin-gott", "A spiritual book about the deepest stillness within us and the experience of transcendence beyond all concepts.", "Be Still and Know – I Am God!")}</div>
+            <div style="margin-top:.8rem;">${bookTip("nichts-und-alles", "A book on the nature of consciousness – between emptiness and fullness, between the nothing and the everything of life.", "Nothing and Everything")}</div>
+            <div style="margin-top:.8rem;">${bookTip("der-raum-hinter-allem", "An exploration of consciousness beyond thought – on the silent space that lies behind all experience.", "The Space Behind Everything")}</div>
+            <div style="margin-top:.8rem;">${bookTip("heilung-als-erinnerung", "Healing not as repair, but as remembering what we actually are – a profound look at health and wholeness.", "Healing as Remembering")}</div>
+          </div>
+        </details>
+        <p style="font-size:.8rem;color:var(--muted);margin:.8rem 0 0;">All titles and further spiritual literature by Detlef Rathmer can also be found on the Verlagshaus Rathmer homepage under "Personal Development."</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"praxistipps-heilpraktiker/turiya-enneagramm", label:"The Observer Behind the Pattern – Turiya and the Enneagram"},
+        {route:"praxistipps-heilpraktiker/ich-illusion", label:"Who's Really Steering Here? – The Gentle Way Out of the Illusion of Self"},
+        {route:"beruehmte-rupert-spira", label:"Portrait: Rupert Spira (SO7w6)"},
+        {route:"stille", label:"9 Minutes of Sitting Stillness"},
       ])}
     </section>
   `);
