@@ -2334,3 +2334,69 @@ export function joeDispenzaPortraitPage() {
     </div>
   `);
 }
+
+export function wolfgangWodargPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wolfgang-wodarg-portrait.jpg" alt="Dr. Wolfgang Wodarg" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Wolfgang Wodarg</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">geb. 1947 – Lungenarzt, Sozialmediziner, ehem. Bundestagsabgeordneter, Vorsitzender des Gesundheitsausschusses im Europarat – Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier des sozialen Typs 1 – wachsam, formationsbewusst, mit einem untrüglichen Gespür dafür, wann etwas in der Gemeinschaft aus dem Lot gerät. Dr. Wolfgang Wodarg, 1947 geboren, verbrachte den größten Teil seines Berufslebens genau in dieser Wächterrolle: als Lungenarzt, Facharzt für Hygiene und Umweltmedizin und über Jahre als Amtsarzt in Schleswig-Holstein – ein Beruf, dessen gesamte Aufgabe darin besteht, die Gesundheit einer ganzen Bevölkerung im Blick zu behalten, nicht nur die einzelner Patienten.</p>
+          <p class="vb-intro">Von 1994 bis 2009 war er für die SPD Mitglied des Deutschen Bundestags, danach Vorsitzender des Gesundheitsausschusses der Parlamentarischen Versammlung des Europarats – eine Laufbahn, die medizinischen Sachverstand konsequent mit politischem Mandat verband, statt beides getrennt zu halten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die eigentliche Leistung: der Schweinegrippe-Untersuchungsbericht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Es würde zu kurz greifen, Wodargs Wirken allein auf spätere, umstrittene Jahre zu reduzieren. 2009/2010 initiierte er als Vorsitzender des Gesundheitsausschusses im Europarat eine Dringlichkeitsdebatte und einen Untersuchungsbericht zum Umgang der WHO mit der sogenannten Schweinegrippe (H1N1) – mit der konkreten Frage, ob die Pandemie-Definition verändert und die Bedrohungslage unter dem Einfluss der Pharmaindustrie überzeichnet worden war, um milliardenschwere Impfstoffbeschaffungen auszulösen.</p>
+          <p class="vb-intro">Die Parlamentarische Versammlung des Europarats folgte der Kritik in wesentlichen Teilen und forderte in der Folge mehr Transparenz bei Interessenkonflikten zwischen WHO-Gremien und der Pharmaindustrie. Das war keine Randnotiz, sondern eine ernstgenommene, fachlich fundierte Intervention eines Mediziners mit politischem Mandat gegen eine mächtige internationale Institution – getragen von derselben Überzeugung, die seine gesamte Laufbahn als Amtsarzt und Gesundheitspolitiker prägte: dass öffentliche Gesundheitsentscheidungen frei von verdeckten wirtschaftlichen Interessen bleiben müssen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der soziale Typ 1: Instanz für das Richtige im Gesundheitswesen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>soziale Typ 1 (SO1)</strong> richtet seinen Vollkommenheitsanspruch nicht primär auf sich selbst, sondern auf das große Ganze – wie eine Institution, ein System oder eine Gesellschaft eigentlich funktionieren sollte. Naranjo nannte diesen Subtyp <em>Nichtanpassung</em>: Die SO1 kann es nicht stillschweigend hinnehmen, wenn eine mächtige Institution von dem abweicht, was sie als richtig erkannt hat – selbst wenn das bedeutet, sich öffentlich mit ihr anzulegen.</p>
+          <p class="vb-intro">Wodargs gesamte Karriere liest sich als eine durchgehende Linie dieser Haltung: vom Amtsarzt, der die Gesundheit seines Landkreises im Blick behielt, über den Bundestagsabgeordneten bis zum Europarats-Vorsitzenden, der eine internationale Gesundheitsorganisation öffentlich zur Rechenschaft zog. Die soziale Eins stellt sich nicht gegen das System, weil sie Aufmerksamkeit sucht, sondern weil sie sich selbst als die Instanz versteht, die auf Abweichungen vom Richtigen hinweisen muss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Neunerflügel: sachlicher Ton statt Polemik</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der sozialen Eins eine zusätzliche Ruhe im Ton – das Urteil wird nicht laut herausgeschrien, sondern in einer sachlichen, ärztlich geschulten Sprache vorgetragen, die sich bewusst von reiner Empörungsrhetorik abhebt. Wodarg trat über Jahrzehnte als Mediziner auf, der mit Studien, Zahlen und epidemiologischem Fachwissen argumentierte, nicht als politischer Agitator im klassischen Sinn – eine Rolle, die seiner Ausbildung und seinem Selbstverständnis als Sozialmediziner entsprach.</p>
+          <p class="vb-intro">Diese ruhige, fachliche Grundhaltung blieb über Jahrzehnte konstant, selbst wenn der Inhalt seiner Kritik zunehmend kontrovers wurde: Es ging ihm erkennbar immer um dieselbe Frage – ob Gesundheitsentscheidungen tatsächlich dem Wohl der Bevölkerung dienen oder von anderen Interessen überlagert werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Dieselbe Überzeugung in einem sehr viel kontroverseren Umfeld</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Wodarg zu Beginn der Corona-Pandemie 2020 öffentlich die Gefährlichkeit des neuen Coronavirus infrage stellte und vor überzogenen Gegenmaßnahmen warnte, griff er erkennbar auf dasselbe Grundmuster zurück, das ihn schon 2009 bei der Schweinegrippe geleitet hatte: das Misstrauen gegenüber einer möglicherweise überzeichneten Bedrohungslage und die Sorge vor einer Einflussnahme der Pharmaindustrie auf gesundheitspolitische Entscheidungen. Anders als 2009/2010 traf er damit jedoch auf eine nahezu geschlossene Front der etablierten Wissenschaft, die seine Einschätzung der Gefährlichkeit des Virus nicht teilte.</p>
+          <p class="vb-intro">Diese Positionierung hatte konkrete institutionelle Folgen: Der Vorstand von Transparency International Deutschland, dessen Mitglied Wodarg seit Jahren war, setzte im März 2020 seine Mitgliedschaft und Funktionen vorübergehend aus; im September 2020 trat er schließlich von seinem Amt zurück, nachdem sich die Differenzen über die Bewertung der Corona-Krise nicht hatten überbrücken lassen. Dieser Kompass bewertet an dieser Stelle nicht, wer in der Sache recht hatte – festzuhalten ist lediglich, dass dieselbe Haltung, die ihm 2009/2010 breite Anerkennung einbrachte, ihn 2020 in einen offenen Konflikt mit der eigenen Organisation und einem Großteil des wissenschaftlichen Mainstreams führte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w9 zeigt sich in Wodargs Bereitschaft, mit medizinischem Fachwissen und sachlicher Beharrlichkeit auch mächtige internationale Institutionen zu hinterfragen, wenn er dort einen möglichen Interessenkonflikt vermutete – eine Haltung, die 2009/2010 von der Parlamentarischen Versammlung des Europarats in wesentlichen Punkten bestätigt wurde und die seinem gesamten Berufsleben als Amtsarzt und Gesundheitspolitiker zugrunde liegt.</p>
+          <p class="vb-intro">Der Schatten der sozialen Eins zeigt sich darin, dass dieselbe tiefe Überzeugung, selbst die Instanz für das Richtige zu sein, nicht automatisch unterscheidet zwischen Situationen, in denen diese Überzeugung von Fachwelt und Öffentlichkeit geteilt wird, und solchen, in denen sie es nicht tut – mit entsprechend unterschiedlichen Konsequenzen für die eigene öffentliche Stellung und die eigenen institutionellen Bindungen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-thomas-mann", label:"Porträt: Thomas Mann (SO1w9)"},
+        {route:"beruehmte-marcel-reich-ranicki", label:"Porträt: Marcel Reich-Ranicki (SO1w9)"},
+        {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9)"},
+      ])}
+    </div>
+  `);
+}

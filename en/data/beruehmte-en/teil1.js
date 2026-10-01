@@ -2326,3 +2326,69 @@ export function joeDispenzaPortraitPage() {
     </div>
   `);
 }
+
+export function wolfgangWodargPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wolfgang-wodarg-portrait.jpg" alt="Dr. Wolfgang Wodarg" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Wolfgang Wodarg</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with a Nine Wing</p>
+        <p class="krim-portrait-subtitle">b. 1947 – pulmonologist, public health physician, former member of the German Bundestag, chair of the Council of Europe's health committee – Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> is the animal of the social Type 1 – vigilant, formation-conscious, with an unerring sense for when something in the community has gone off course. Dr. Wolfgang Wodarg, born in 1947, spent most of his professional life exactly in this watchdog role: as a pulmonologist, a specialist in hygiene and environmental medicine, and for years as a local public health officer (Amtsarzt) in Schleswig-Holstein – a profession whose entire purpose is to keep an eye on the health of an entire population, not just individual patients.</p>
+          <p class="vb-intro">From 1994 to 2009 he was a member of the German Bundestag for the SPD, afterward chair of the health committee of the Parliamentary Assembly of the Council of Europe – a career that consistently combined medical expertise with political mandate rather than keeping the two separate.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The actual achievement: the swine flu investigation report</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It would fall short to reduce Wodarg's work to his later, more controversial years alone. In 2009/2010, as chair of the Council of Europe's health committee, he initiated an urgent debate and an investigation report into how the WHO handled the so-called swine flu (H1N1) – with the concrete question of whether the definition of a pandemic had been altered and the threat exaggerated under pharmaceutical industry influence, in order to trigger billions of dollars in vaccine procurement.</p>
+          <p class="vb-intro">The Parliamentary Assembly of the Council of Europe followed much of the criticism and subsequently called for greater transparency regarding conflicts of interest between WHO bodies and the pharmaceutical industry. This was no footnote, but a seriously received, professionally grounded intervention by a physician with a political mandate against a powerful international institution – carried by the same conviction that shaped his entire career as a public health officer and health policymaker: that public health decisions must remain free of hidden economic interests.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The social Type 1: an instance for what is right in healthcare</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Type 1 (SO1)</strong> directs its perfectionism not primarily at itself, but at the larger whole – how an institution, a system, or a society ought to function. Naranjo called this subtype <em>Non-Adaptability</em>: the SO1 cannot silently accept it when a powerful institution deviates from what it has recognized as right – even if that means publicly confronting it.</p>
+          <p class="vb-intro">Wodarg's entire career reads as a continuous line of this stance: from the public health officer who kept an eye on his district's health, through the Bundestag member, to the Council of Europe chair who publicly held an international health organization accountable. The social One does not oppose the system because it seeks attention, but because it understands itself as the instance that must point out deviations from what is right.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Nine wing: a factual tone instead of polemics</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine wing (w9)</strong> gives the social One an additional calm in tone – the judgment is not shouted out loud, but delivered in a factual, medically trained language that deliberately sets itself apart from pure outrage rhetoric. For decades, Wodarg appeared as a physician who argued with studies, figures, and epidemiological expertise, not as a political agitator in the classic sense – a role that matched his training and his self-understanding as a public health physician.</p>
+          <p class="vb-intro">This calm, factual baseline stance remained constant for decades, even as the content of his criticism grew increasingly controversial: he was recognizably always concerned with the same question – whether health decisions actually serve the wellbeing of the population or are overridden by other interests.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The same conviction in a far more controversial environment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">When Wodarg publicly questioned the danger posed by the new coronavirus at the start of the COVID-19 pandemic in 2020 and warned against excessive countermeasures, he was recognizably drawing on the same underlying pattern that had already guided him during the 2009 swine flu episode: distrust of a possibly exaggerated threat and concern about pharmaceutical industry influence on health policy decisions. Unlike in 2009/2010, however, he now ran up against a near-unanimous front of established science that did not share his assessment of the virus's danger.</p>
+          <p class="vb-intro">This stance had concrete institutional consequences: the board of Transparency International Germany, of which Wodarg had been a member for years, suspended his membership and functions in March 2020; in September 2020 he ultimately resigned from his position after the differences over how to assess the COVID crisis proved irreconcilable. This compass does not judge here who was right on the substance – it simply notes that the same stance that earned him broad recognition in 2009/2010 led him, in 2020, into open conflict with his own organization and much of the scientific mainstream.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO1w9 shows in Wodarg's willingness to question even powerful international institutions with medical expertise and factual persistence whenever he suspected a possible conflict of interest – a stance that was largely confirmed by the Parliamentary Assembly of the Council of Europe in 2009/2010 and that underlies his entire professional life as a public health officer and health policymaker.</p>
+          <p class="vb-intro">The shadow of the social One shows in the fact that the same deep conviction of being the instance for what is right does not automatically distinguish between situations where that conviction is shared by the scientific community and the public, and situations where it is not – with correspondingly different consequences for one's own public standing and institutional ties.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: subtype profile"},
+        {route:"beruehmte-thomas-mann", label:"Portrait: Thomas Mann (SO1w9)"},
+        {route:"beruehmte-marcel-reich-ranicki", label:"Portrait: Marcel Reich-Ranicki (SO1w9)"},
+        {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
