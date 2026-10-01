@@ -2333,3 +2333,62 @@ export function wimThoelkePortraitPage() {
     </div>
   `);
 }
+
+export function raulAguayoKrauthausenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-raul-aguayo-krauthausen-portrait.jpg" alt="Raúl Aguayo-Krauthausen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Raúl Aguayo-Krauthausen</p>
+        <p class="krim-portrait-typ">SE6w7 &middot; Selbsterhaltender Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">geb. 1980 – Inklusionsaktivist, Mitgründer von Wheelmap.org und Sozialhelden e.V. – Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier des selbsterhaltenden Typs 6 – wachsam bis zur Erschöpfung, ständig prüfend, ob die nähere Umgebung sicher ist, und am glücklichsten in einem vertrauten, verlässlich abgesicherten Bau. Raúl Aguayo-Krauthausen, 1980 in Lima geboren und in Berlin aufgewachsen, kennt diese Wachsamkeit von Kindheit an aus erster Hand: Er lebt mit Glasknochenkrankheit (Osteogenesis imperfecta) und hat im Lauf seines Lebens mehr als hundert Knochenbrüche erlitten – jede ungesicherte Umgebung ist für ihn buchstäblich eine potenzielle Gefahr, nicht nur ein ungutes Gefühl.</p>
+          <p class="vb-intro">Aus dieser sehr konkreten, körperlich erzwungenen Wachsamkeit entstand keine Lähmung, sondern eine der wirkungsvollsten Inklusionsbewegungen Deutschlands: 2004 gründete er gemeinsam mit anderen den Verein Sozialhelden e.V. – ein fester, verlässlicher Kreis von Mitstreitern, der bis heute das organisatorische Zuhause seiner Arbeit bildet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die eigentliche Leistung: Sicherheit als kartierte Infrastruktur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Es würde zu kurz greifen, Aguayo-Krauthausens Wirkung allein auf seine öffentliche Präsenz als Aktivist zurückzuführen. 2010 initiierte er gemeinsam mit den Sozialhelden Wheelmap.org – eine auf OpenStreetMap basierende, weltweit nutzbare Karte, auf der Nutzerinnen und Nutzer die Rollstuhlgängigkeit von Orten markieren können. Aus der sehr persönlichen Frage „Komme ich dort überhaupt hinein?" wurde damit ein konkretes, technisches Werkzeug, das heute Hunderttausende Orte international verzeichnet – Sicherheit, die nicht nur erhofft, sondern tatsächlich kartiert und damit überprüfbar gemacht wird.</p>
+          <p class="vb-intro">Parallel dazu gründete er mit Leidmedien.de ein Projekt, das Journalistinnen und Journalisten konkrete Sprachregeln für eine respektvolle, nicht-stigmatisierende Berichterstattung über Behinderung an die Hand gibt – inzwischen ein feste Referenz in deutschen Redaktionen. 2011, mit nur 31 Jahren, erhielt er für diese Arbeit das Bundesverdienstkreuz, eine der höchsten deutschen Auszeichnungen für zivilgesellschaftliches Engagement.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die selbsterhaltende Sechs: Sicherheit durch überprüfbare Strukturen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sechs (SE6)</strong> ist nach Naranjo der Subtyp, den er <em>Wärme</em> nannte – Sicherheit entsteht hier nicht durch Kontrolle über die ganze Welt, sondern durch die sorgfältige Absicherung des eigenen, unmittelbaren Umfelds. Bei Aguayo-Krauthausen erweitert sich dieses Muster jedoch folgerichtig: Die eigene körperliche Verletzlichkeit machte ihn nicht nur für die eigene Sicherheit wachsam, sondern für die aller Menschen, die auf verlässliche, überprüfte Informationen über zugängliche Orte angewiesen sind.</p>
+          <p class="vb-intro">Wheelmap ist damit die vielleicht konsequenteste denkbare SE6-Lösung: Statt sich auf vage Zusicherungen zu verlassen, wird die Sicherheit einer Umgebung von einer Gemeinschaft kollektiv geprüft, dokumentiert und damit verlässlich – jeder einzelne Kartenpunkt eine kleine, überprüfbare Gewissheit in einer Welt, die für Menschen mit Behinderung oft unberechenbar bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Siebenerflügel: Humor als Werkzeug gegen die Schwere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der selbsterhaltenden Sechs eine charakteristische Leichtigkeit: den Impuls, aus der eigenen Verletzlichkeit nicht Schwermut, sondern Tempo, Wortwitz und eine fast unermüdliche Projektvielfalt zu machen. Aguayo-Krauthausen ist bekannt für seinen pointierten, oft selbstironischen Humor im Umgang mit dem eigenen Körper und der eigenen Behinderung – eine bewusste Strategie, um Berührungsängste beim Gegenüber abzubauen, statt Mitleid einzufordern.</p>
+          <p class="vb-intro">Dieselbe Siebener-Energie zeigt sich in der schieren Zahl seiner Projekte: Bücher, ein eigener Podcast, Vorträge, Kolumnen, eine aktive Social-Media-Präsenz – kaum ein Format, in dem er nicht aktiv ist. Der Siebenerflügel treibt an, immer das nächste Thema aufzugreifen, bevor die Schwere eines einzelnen Themas sich festsetzen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE6w7 zeigt sich bei Aguayo-Krauthausen in der Fähigkeit, aus einer sehr persönlichen, körperlich erzwungenen Wachsamkeit eine Infrastruktur zu bauen, von der Hunderttausende Menschen profitieren, die er nie persönlich treffen wird. Die eigene Angst vor der unzugänglichen, gefährlichen Umgebung wurde nicht verdrängt, sondern in ein überprüfbares, kollektiv gepflegtes Werkzeug verwandelt.</p>
+          <p class="vb-intro">Der Schatten des Siebenerflügels liegt in der Gefahr, dass die ständige Bewegung zu immer neuen Projekten das eigentliche Stillstehen erschwert – dass Humor und Tempo auch als Schutzschild dienen, der echte Erschöpfung oder Schmerz leichter überspielt, als er sie zulässt. Wie viel Raum für genau diese Pause im Alltag eines derart vielseitig aktiven Menschen bleibt, ist eine Frage, die sich bei der SE6w7 immer wieder neu stellt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-woody-allen", label:"Porträt: Woody Allen (SE6w7)"},
+        {route:"beruehmte-beatrice-chebet", label:"Porträt: Beatrice Chebet (SE6w7)"},
+      ])}
+    </div>
+  `);
+}

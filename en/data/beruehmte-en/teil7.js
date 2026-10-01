@@ -2323,3 +2323,62 @@ export function viktorFranklPortraitPage() {
     </div>
   `);
 }
+
+export function raulAguayoKrauthausenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-raul-aguayo-krauthausen-portrait.jpg" alt="Raúl Aguayo-Krauthausen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Raúl Aguayo-Krauthausen</p>
+        <p class="krim-portrait-typ">SE6w7 &middot; Self-Preservation Type 6 with a Seven Wing</p>
+        <p class="krim-portrait-subtitle">b. 1980 – disability rights activist, co-founder of Wheelmap.org and Sozialhelden e.V. – Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> is the animal of the self-preservation Six – vigilant to the point of exhaustion, constantly checking whether the immediate surroundings are safe, and happiest in a familiar, reliably secured burrow. Raúl Aguayo-Krauthausen, born in Lima in 1980 and raised in Berlin, has known this vigilance firsthand since childhood: he lives with osteogenesis imperfecta (brittle bone disease) and has suffered more than a hundred bone fractures over the course of his life – any unsecured environment is, for him, literally a potential danger, not just an uneasy feeling.</p>
+          <p class="vb-intro">Out of this very concrete, physically enforced vigilance grew not paralysis but one of Germany's most effective disability-inclusion movements: in 2004 he co-founded the nonprofit Sozialhelden e.V. – a fixed, reliable circle of collaborators that remains the organizational home of his work to this day.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The actual achievement: safety as mapped infrastructure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It would fall short to attribute Aguayo-Krauthausen's impact solely to his public presence as an activist. In 2010, together with Sozialhelden, he launched Wheelmap.org – a globally usable map, built on OpenStreetMap, on which users can mark the wheelchair accessibility of places. The very personal question "Can I even get in there?" became a concrete, technical tool that today lists hundreds of thousands of locations worldwide – safety that is not merely hoped for, but actually mapped and thereby made verifiable.</p>
+          <p class="vb-intro">In parallel, he founded Leidmedien.de, a project that gives journalists concrete language guidelines for respectful, non-stigmatizing reporting on disability – by now an established reference in German newsrooms. In 2011, at just 31, he received the Order of Merit of the Federal Republic of Germany for this work, one of the country's highest honors for civic engagement.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The self-preservation Six: security through verifiable structures</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Six (SE6)</strong> is, according to Naranjo, the subtype he called <em>Warmth</em> – security here arises not through control over the whole world, but through carefully securing one's own immediate surroundings. In Aguayo-Krauthausen, however, this pattern expands logically: his own physical vulnerability made him vigilant not only for his own safety, but for that of everyone who depends on reliable, verified information about accessible places.</p>
+          <p class="vb-intro">Wheelmap is perhaps the most consistent SE6 solution imaginable: instead of relying on vague assurances, the safety of an environment is collectively checked, documented, and thereby made reliable by a community – each single map point a small, verifiable certainty in a world that often remains unpredictable for people with disabilities.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Seven wing: humor as a tool against heaviness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven wing (w7)</strong> gives the self-preservation Six a characteristic lightness: the impulse to turn one's own vulnerability not into gloom but into pace, wit, and an almost tireless variety of projects. Aguayo-Krauthausen is known for his pointed, often self-deprecating humor about his own body and his own disability – a deliberate strategy to lower the other person's apprehension rather than invite pity.</p>
+          <p class="vb-intro">The same Seven-energy shows in the sheer number of his projects: books, his own podcast, talks, columns, an active social media presence – there is hardly a format he is not active in. The Seven wing drives him to pick up the next topic before the weight of any single one can settle in.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the self-preservation Six</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE6w7 shows in Aguayo-Krauthausen's ability to build, out of a very personal, physically enforced vigilance, an infrastructure that benefits hundreds of thousands of people he will never personally meet. The fear of an inaccessible, dangerous environment was not repressed but transformed into a verifiable, collectively maintained tool.</p>
+          <p class="vb-intro">The shadow of the Seven wing lies in the risk that constant movement toward ever-new projects makes true stillness harder to reach – that humor and pace can also serve as a shield that papers over real exhaustion or pain more easily than it allows it. How much room remains for exactly that pause in the everyday life of someone this consistently active is a question that keeps resurfacing with the SE6w7.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
+        {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7)"},
+        {route:"beruehmte-beatrice-chebet", label:"Portrait: Beatrice Chebet (SP6w7)"},
+      ])}
+    </div>
+  `);
+}

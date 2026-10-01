@@ -841,6 +841,7 @@ export function beatriceChebetPortraitPage() {
         {route:"beruehmte-herbert-kickl", label:"Portr\u00e4t: Herbert Kickl (SE6w5)"},
         {route:"beruehmte-woody-allen", label:"Portr\u00e4t: Woody Allen (SE6w7)"},
         {route:"beruehmte-katie-couric", label:"Portr\u00e4t: Katie Couric (SE6w7)"},
+        {route:"beruehmte-raul-aguayo-krauthausen", label:"Porträt: Raúl Aguayo-Krauthausen (SE6w7)"},
       ])}
     </div>
   `);

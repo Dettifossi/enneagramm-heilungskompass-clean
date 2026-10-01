@@ -1577,6 +1577,7 @@ export function woodyAllenPortraitPage() {
         {route:"beruehmte-beatrice-chebet", label:"Portr\u00e4t: Beatrice Chebet (SE6w7)"},
         {route:"beruehmte-neil-armstrong", label:"Portr\u00e4t: Neil Armstrong (SE6w5)"},
         {route:"krankheitsportraets-woody-allen", label:"Krankheitsportr\u00e4t: Woody Allen (SE6w7) \u2013 lebenslange Hypochondrie"},
+        {route:"beruehmte-raul-aguayo-krauthausen", label:"Portr\u00e4t: Ra\u00fal Aguayo-Krauthausen (SE6w7)"},
       ])}
     </div>
   `);
