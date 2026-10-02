@@ -2333,3 +2333,65 @@ export function johannLaferPortraitPage() {
     </div>
   `);
 }
+
+export function michaelaBenthausPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michaela-benthaus-portrait.jpg" alt="Michaela Benthaus – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michaela Benthaus</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Aerospace engineer, first wheelchair user in space, born 1992 &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The chimpanzee who left gravity behind</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> throws itself completely into whatever grips it in the moment &ndash; a game, a conflict, a bond &ndash; with no half-measures, no holding back. Michaela Benthaus knows this totality from her own life: in September 2018 she crashed badly in a downhill mountain-biking accident and suffered a spinal cord injury that has left her paraplegic and dependent on a wheelchair ever since. She was 26, in the middle of her studies &ndash; and continued them unchanged afterward, rather than giving up the one dream she had carried since childhood: to fly into space.</p>
+          <p class="vb-intro">Benthaus, born in 1992 in Kiel, attended the Nymphenburger Schulen in Munich, then studied mechatronics at Johannes Kepler University Linz and completed a master's in aerospace engineering with a focus on space and astrophysics at the Technical University of Munich, including an internship at the German Aerospace Center (DLR) in Oberpfaffenhofen. In 2024 she became a Young Graduate Trainee at the European Space Agency (ESA).</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Seven: a dream that knows no half-measures</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>Sexual Seven (SX7)</strong> "Suggestibility": rather than scattering enthusiasm across many goals, it concentrates its entire intensity on a single point &ndash; with a force that admits no partial commitments. For Benthaus that single point had been space since childhood; the accident didn't change it, it only rerouted the path there. As early as 2022 she became an AstroAccess ambassador and completed a parabolic flight with eighteen weightless phases, during which a hip-restraint system and evacuation procedures for paraplegic passengers were tested, among other things.</p>
+          <p class="vb-intro">In 2024 she served as commander of an analog astronaut mission at the LunAres station in Poland, simulating life on a Mars base &ndash; one of the first missions worldwide to specifically examine questions of inclusion within that setting. In parallel, she contacted former SpaceX executive Hans Koenigsmann online with a single, direct question: whether someone like her could still fly to space at all. Koenigsmann later described what convinced him: "It was her drive that convinced me," and he helped organize the flight together with her &ndash; a flight he later joined himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: safety through preparation, not through renunciation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven an alert sense for risk and for the value of reliable allies &ndash; the Seven's total devotion is not risked blindly, but secured systematically. Rather than betting everything on a single, unprepared attempt, Benthaus spent years building an infrastructure of tests, partners, and trusted allies: the 2022 parabolic flight tested the technical accommodations, the 2024 analog mission tested leadership and inclusion under controlled conditions, and Koenigsmann became a personal ally who not only organized the flight but flew along himself in case help was needed.</p>
+          <p class="vb-intro">For the actual flight on December 20, 2025, Blue Origin specially equipped the New Shepard capsule NS-37 with a transfer platform and leg straps to secure Benthaus during weightlessness. The flight lasted about eleven minutes, carried six civilian passengers past the Kármán line to roughly 106 kilometers in altitude, and landed safely by parachute in the Texas desert. Every one of these accommodations was the result of years of preparation developed together with partners &ndash; the Six-wing secures what the Seven dares to dream.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX7w6 shows in translating a personal passion into concrete, verifiable technical progress: the restraint and evacuation systems tested on her flights are not symbolic gestures but documented procedures that could benefit future passengers with spinal cord injuries. "You should never give up on your dreams, even if they seem unlikely or impossible," Benthaus said after the flight &ndash; and clearly meant more than just herself.</p>
+          <p class="vb-intro">A shadow is hard to find in Benthaus's own story &ndash; she is one of the rare cases where total fusion with a goal succeeded. It becomes visible instead in the underlying pattern itself: her entire path ultimately hinged on a single question, asked online, to a single person. The Six-wing secured the preparation down to the last detail, but not the one decisive connection that everything, in the end, depended on &ndash; the same logic of total commitment that, for the Sexual Seven, makes a dream come true in the best case and leads nowhere in the less fortunate one.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The chimpanzee in a wheelchair, eleven minutes past the Kármán line</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">For eleven minutes, on December 20, 2025, Michaela Benthaus was weightless &ndash; secured by straps built specifically for her, accompanied by a man whom a single question asked online had convinced to fly along. This is the Sexual Seven with a Six-wing in its purest form: a dream that tolerates no half-measures, and a system of preparation and allies strong enough to carry it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("enneagramm-zoo", "27 Animal Portraits – each Subtype animal with character, biology and Enneagram connection.", "Enneagramm-Zoo")}
+      ${bookTip("archetypen-der-tiere-im-enneagramm", "The archetypal animals of the 9 types as an inner map – images that work instantly.", "Archetypen der Tiere im Enneagramm")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-ida-pfeiffer", label:"Portrait: Ida Pfeiffer (SX7w6) – a dream deferred for decades, then fully realized"},
+        {route:"beruehmte-jill-pruetz", label:"Portrait: Dr. Jill Pruetz (SX7w6) – chimpanzee researcher"},
+        {route:"beruehmte-frans-de-waal", label:"Portrait: Prof. Dr. Frans de Waal (SX7w6)"},
+      ])}
+    </div>
+  `);
+}

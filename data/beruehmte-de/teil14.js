@@ -2342,3 +2342,65 @@ export function michaelMinaPortraitPage() {
     </div>
   `);
 }
+
+export function michaelaBenthausPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michaela-benthaus-portrait.jpg" alt="Michaela Benthaus – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Michaela Benthaus</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Luft- und Raumfahrtingenieurin, erste Rollstuhlfahrerin im All, geb. 1992 &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse, der die Schwerkraft verließ</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> wirft sich vollständig in das, was ihn gerade ergreift – ein Spiel, ein Konflikt, eine Bindung –, ohne Zwischenstufen, ohne Vorbehalt. Michaela Benthaus kennt diese Vollständigkeit aus eigener Erfahrung: Im September 2018 stürzte sie bei einem Downhill-Mountainbike-Unfall schwer und erlitt eine Rückenmarksverletzung, die sie seither querschnittsgelähmt und auf den Rollstuhl angewiesen macht. Sie war 26 Jahre alt, mitten im Studium – und setzte es danach unverändert fort, statt den einen Traum aufzugeben, der sie seit der Kindheit trug: ins All zu fliegen.</p>
+          <p class="vb-intro">Benthaus, geboren 1992 in Kiel, besuchte die Nymphenburger Schulen in München, studierte danach Mechatronik an der Johannes Kepler Universität Linz und schloss einen Master in Luft- und Raumfahrttechnik mit Schwerpunkt Weltraum und Astrophysik an der TU München an, mit einem Praktikum beim Deutschen Zentrum für Luft- und Raumfahrt in Oberpfaffenhofen. 2024 wurde sie Young Graduate Trainee bei der europäischen Weltraumorganisation ESA.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: ein Traum, der keine halben Sachen kennt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> nennt Naranjo ›Suggestibilität‹: Statt Begeisterung über viele Ziele zu streuen, bündelt sie ihre gesamte Intensität auf einen einzigen Punkt – mit einer Kraft, die keine halben Bindungen kennt. Bei Benthaus war dieser eine Punkt von Kindheit an der Weltraum; der Unfall änderte daran nichts, er verschob nur den Weg dorthin. Schon 2022 wurde sie Botschafterin der Organisation AstroAccess und absolvierte einen Parabelflug mit achtzehn Schwerelosigkeitsphasen, bei dem unter anderem ein Hüftverankerungssystem und Evakuierungsabläufe für querschnittsgelähmte Passagiere getestet wurden.</p>
+          <p class="vb-intro">2024 übernahm sie als Commander eine analoge Astronautenmission an der LunAres-Station in Polen, die das Leben auf einer Marsbasis simulierte – eine der ersten Missionen weltweit, die gezielt Inklusionsfragen in diesem Rahmen untersuchte. Parallel dazu kontaktierte sie online den ehemaligen SpaceX-Manager Hans Koenigsmann mit einer einzigen, direkten Frage: ob jemand wie sie überhaupt noch ins All fliegen könne. Koenigsmann beschrieb später, was ihn überzeugte: ›It was her drive that convinced me‹ – ›Es war ihr Antrieb, der mich überzeugt hat‹ –, und organisierte gemeinsam mit ihr den Flug, den er später selbst mitflog.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Sicherheit durch Vorbereitung, nicht durch Verzicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben ein waches Gespür für Risiko und den Wert verlässlicher Verbündeter – die totale Hingabe der Sieben wird nicht blind riskiert, sondern systematisch abgesichert. Statt sich auf einen einzelnen, unvorbereiteten Versuch zu verlassen, baute Benthaus über Jahre eine Infrastruktur aus Tests, Partnern und Vertrauten auf: Der Parabelflug 2022 testete die technischen Vorkehrungen, die analoge Mission 2024 testete Führung und Inklusion unter kontrollierten Bedingungen, Koenigsmann wurde zum persönlichen Verbündeten, der nicht nur organisierte, sondern selbst mitflog, um im Notfall helfen zu können.</p>
+          <p class="vb-intro">Für den eigentlichen Flug am 20. Dezember 2025 rüstete Blue Origin die New-Shepard-Kapsel NS-37 eigens mit einer Transferplattform und Beingurten aus, die Benthaus' Beine während der Schwerelosigkeit sicherten. Der Flug dauerte rund elf Minuten, führte sechs zivile Passagiere über die Kármán-Linie auf etwa 106 Kilometer Höhe und landete per Fallschirm sicher in der texanischen Wüste. Jede einzelne dieser Vorkehrungen war das Ergebnis jahrelanger, gemeinsam mit Partnern entwickelter Vorbereitung – der Sechserflügel sichert ab, was die Sieben sich erträumt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX7w6 zeigt sich darin, eine persönliche Passion in konkrete, überprüfbare technische Fortschritte zu übersetzen: Die bei ihren Testflügen erprobten Verankerungs- und Evakuierungssysteme sind keine symbolischen Gesten, sondern dokumentierte Verfahren, die künftigen Passagieren mit Querschnittslähmung zugutekommen können. ›You should never give up on your dreams, even if they seem unlikely or impossible‹ – ›Man sollte seine Träume nie aufgeben, auch wenn sie unwahrscheinlich oder unmöglich erscheinen‹ –, sagte Benthaus nach dem Flug, und meinte damit erkennbar nicht nur sich selbst.</p>
+          <p class="vb-intro">Ein Schatten lässt sich an Benthaus' eigener Geschichte kaum ablesen – sie gehört zu den seltenen Fällen, in denen die totale Verschmelzung mit einem Ziel glückte. Sichtbar wird er eher im Strukturmuster selbst: Ihr gesamter Weg hing zuletzt an einer einzigen, online gestellten Frage an einen einzigen Menschen. Der Sechserflügel sicherte die Vorbereitung bis ins Detail ab, nicht aber die eine entscheidende Verbindung, von der am Ende alles abhing – dieselbe Logik totaler Bindung, die bei der sexuellen Sieben im besten Fall einen Traum wahr macht und im ungünstigeren Fall ins Leere läuft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Schimpanse im Rollstuhl, elf Minuten über der Kármán-Linie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Elf Minuten lang, am 20. Dezember 2025, war Michaela Benthaus schwerelos – gesichert durch Gurte, die eigens für sie konstruiert worden waren, begleitet von einem Mann, den eine einzige online gestellte Frage überzeugt hatte, mitzufliegen. Das ist die sexuelle Sieben mit Sechserflügel in ihrer reinsten Form: ein Traum, der keine halben Sachen duldet, und ein System aus Vorbereitung und Verbündeten, das stark genug war, ihn zu tragen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("enneagramm-zoo", "27 Tierporträts – jedes Subtyp-Tier mit Charakter, Biologie und Enneagramm-Bezug.", "Enneagramm-Zoo")}
+      ${bookTip("archetypen-der-tiere-im-enneagramm", "Die archetypischen Tiere der 9 Typen als innere Landkarte – Bilder, die sofort wirken.", "Archetypen der Tiere im Enneagramm")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-ida-pfeiffer", label:"Porträt: Ida Pfeiffer (SX7w6) – ein jahrzehntelang aufgeschobener Traum, dann vollständig verwirklicht"},
+        {route:"beruehmte-jill-pruetz", label:"Porträt: Dr. Jill Pruetz (SX7w6) – Schimpansenforscherin"},
+        {route:"beruehmte-frans-de-waal", label:"Porträt: Prof. Dr. Frans de Waal (SX7w6)"},
+      ])}
+    </div>
+  `);
+}

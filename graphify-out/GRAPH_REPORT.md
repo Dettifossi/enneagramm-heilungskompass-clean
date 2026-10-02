@@ -1,16 +1,16 @@
 # Graph Report - Enneagramm-Kompass  (2026-10-02)
 
 ## Corpus Check
-- 262 files · ~22,563,514 words
+- 262 files · ~22,568,131 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 9580 nodes · 40568 edges · 243 communities (214 shown, 29 thin omitted)
+- 9582 nodes · 40581 edges · 321 communities (278 shown, 43 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 72 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `68853c94`
+- Built from commit: `b0c8b76f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -245,16 +245,94 @@
 - [[_COMMUNITY_Community 232|Community 232]]
 - [[_COMMUNITY_Community 235|Community 235]]
 - [[_COMMUNITY_Community 236|Community 236]]
+- [[_COMMUNITY_Community 243|Community 243]]
+- [[_COMMUNITY_Community 244|Community 244]]
+- [[_COMMUNITY_Community 245|Community 245]]
+- [[_COMMUNITY_Community 246|Community 246]]
+- [[_COMMUNITY_Community 247|Community 247]]
+- [[_COMMUNITY_Community 248|Community 248]]
+- [[_COMMUNITY_Community 249|Community 249]]
+- [[_COMMUNITY_Community 250|Community 250]]
+- [[_COMMUNITY_Community 251|Community 251]]
+- [[_COMMUNITY_Community 252|Community 252]]
+- [[_COMMUNITY_Community 253|Community 253]]
+- [[_COMMUNITY_Community 254|Community 254]]
+- [[_COMMUNITY_Community 255|Community 255]]
+- [[_COMMUNITY_Community 256|Community 256]]
+- [[_COMMUNITY_Community 257|Community 257]]
+- [[_COMMUNITY_Community 258|Community 258]]
+- [[_COMMUNITY_Community 259|Community 259]]
+- [[_COMMUNITY_Community 260|Community 260]]
+- [[_COMMUNITY_Community 261|Community 261]]
+- [[_COMMUNITY_Community 262|Community 262]]
+- [[_COMMUNITY_Community 263|Community 263]]
+- [[_COMMUNITY_Community 264|Community 264]]
+- [[_COMMUNITY_Community 265|Community 265]]
+- [[_COMMUNITY_Community 266|Community 266]]
+- [[_COMMUNITY_Community 267|Community 267]]
+- [[_COMMUNITY_Community 268|Community 268]]
+- [[_COMMUNITY_Community 269|Community 269]]
+- [[_COMMUNITY_Community 270|Community 270]]
+- [[_COMMUNITY_Community 271|Community 271]]
+- [[_COMMUNITY_Community 272|Community 272]]
+- [[_COMMUNITY_Community 273|Community 273]]
+- [[_COMMUNITY_Community 274|Community 274]]
+- [[_COMMUNITY_Community 275|Community 275]]
+- [[_COMMUNITY_Community 276|Community 276]]
+- [[_COMMUNITY_Community 277|Community 277]]
+- [[_COMMUNITY_Community 278|Community 278]]
+- [[_COMMUNITY_Community 279|Community 279]]
+- [[_COMMUNITY_Community 280|Community 280]]
+- [[_COMMUNITY_Community 281|Community 281]]
+- [[_COMMUNITY_Community 282|Community 282]]
+- [[_COMMUNITY_Community 283|Community 283]]
+- [[_COMMUNITY_Community 284|Community 284]]
+- [[_COMMUNITY_Community 285|Community 285]]
+- [[_COMMUNITY_Community 286|Community 286]]
+- [[_COMMUNITY_Community 287|Community 287]]
+- [[_COMMUNITY_Community 288|Community 288]]
+- [[_COMMUNITY_Community 289|Community 289]]
+- [[_COMMUNITY_Community 290|Community 290]]
+- [[_COMMUNITY_Community 291|Community 291]]
+- [[_COMMUNITY_Community 292|Community 292]]
+- [[_COMMUNITY_Community 293|Community 293]]
+- [[_COMMUNITY_Community 294|Community 294]]
+- [[_COMMUNITY_Community 295|Community 295]]
+- [[_COMMUNITY_Community 296|Community 296]]
+- [[_COMMUNITY_Community 297|Community 297]]
+- [[_COMMUNITY_Community 298|Community 298]]
+- [[_COMMUNITY_Community 299|Community 299]]
+- [[_COMMUNITY_Community 300|Community 300]]
+- [[_COMMUNITY_Community 301|Community 301]]
+- [[_COMMUNITY_Community 302|Community 302]]
+- [[_COMMUNITY_Community 303|Community 303]]
+- [[_COMMUNITY_Community 304|Community 304]]
+- [[_COMMUNITY_Community 305|Community 305]]
+- [[_COMMUNITY_Community 306|Community 306]]
+- [[_COMMUNITY_Community 307|Community 307]]
+- [[_COMMUNITY_Community 308|Community 308]]
+- [[_COMMUNITY_Community 309|Community 309]]
+- [[_COMMUNITY_Community 310|Community 310]]
+- [[_COMMUNITY_Community 311|Community 311]]
+- [[_COMMUNITY_Community 312|Community 312]]
+- [[_COMMUNITY_Community 313|Community 313]]
+- [[_COMMUNITY_Community 314|Community 314]]
+- [[_COMMUNITY_Community 315|Community 315]]
+- [[_COMMUNITY_Community 316|Community 316]]
+- [[_COMMUNITY_Community 317|Community 317]]
+- [[_COMMUNITY_Community 318|Community 318]]
+- [[_COMMUNITY_Community 319|Community 319]]
+- [[_COMMUNITY_Community 320|Community 320]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `shell()` - 1273 edges
-2. `shell()` - 1272 edges
-3. `pageHeader()` - 1271 edges
-4. `pageHeader()` - 1270 edges
-5. `relatedLinks()` - 1216 edges
-6. `relatedLinks()` - 1215 edges
-7. `bookTip()` - 1016 edges
-8. `bookTip()` - 998 edges
+1. `shell()` - 1274 edges
+2. `shell()` - 1273 edges
+3. `pageHeader()` - 1272 edges
+4. `pageHeader()` - 1271 edges
+5. `relatedLinks()` - 1217 edges
+6. `relatedLinks()` - 1216 edges
+7. `bookTip()` - 1017 edges
+8. `bookTip()` - 999 edges
 9. `shell()` - 332 edges
 10. `pageHeader()` - 330 edges
 
@@ -273,7 +351,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (243 total, 29 thin omitted)
+## Communities (321 total, 43 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.06
@@ -285,19 +363,19 @@ Nodes (28): subtypeDetails, se1, se2, se3, se4, se5, se6, se7 (+20 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.03
-Nodes (235): abwehrverhalteDer9TypenPage(), aetherischeOelePage(), affenartenPage(), angstEssenzPage(), antriebskraeftePage(), arbeitsverhalteDer9TypenPage(), architekturRaumgestaltungDer9TypenPage(), astrologieAlbertEinsteinPage() (+227 more)
+Nodes (223): abwehrverhalteDer9TypenPage(), aetherischeOelePage(), affenartenPage(), angstEssenzPage(), antriebskraeftePage(), arbeitsverhalteDer9TypenPage(), architekturRaumgestaltungDer9TypenPage(), auffaelligeMerkmale9TypenPage() (+215 more)
 
 ### Community 3 - "Community 3"
 Cohesion: 0.04
-Nodes (61): beratungsCTA(), bundeslaenderPage(), cdnImg(), compassMark(), contentModuleSection(), datenschutzPage(), getLizenzName(), getProfile() (+53 more)
+Nodes (64): beratungsCTA(), bundeslaenderPage(), cdnImg(), compassMark(), contentModuleSection(), datenschutzPage(), _formatGermanDate(), getLizenzName() (+56 more)
 
 ### Community 4 - "Community 4"
 Cohesion: 0.01
-Nodes (261): aetherischeOele, AFFILIATE_LINKS, albumDb(), albumGet(), albumSet(), ANIMAL_RESEARCHER_MATCHES, app, architectureAreas (+253 more)
+Nodes (127): aetherischeOele, AFFILIATE_LINKS, ANIMAL_RESEARCHER_MATCHES, app, architectureAreas, ASTROLOGIE_PORTRAITS, BERUEHMT_PORTRAITS, BEZIEHUNGS_PAARUNGEN (+119 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.01
-Nodes (640): albertSchweitzerPortraitPage(), anneApplebaumPortraitPage(), anthonyHopkinsPortraitPage(), arminMuellerStahlPortraitPage(), bobbyFischerPortraitPage(), bobMarleyPortraitPage(), carstenStahlPortraitPage(), dakotaJohnsonPortraitPage() (+632 more)
+Nodes (694): albertSchweitzerPortraitPage(), anneApplebaumPortraitPage(), anthonyHopkinsPortraitPage(), arminMuellerStahlPortraitPage(), bobbyFischerPortraitPage(), bobMarleyPortraitPage(), carstenStahlPortraitPage(), dakotaJohnsonPortraitPage() (+686 more)
 
 ### Community 6 - "Community 6"
 Cohesion: 0.08
@@ -305,35 +383,35 @@ Nodes (24): For /graphify add and --watch, For /graphify query, For the commit h
 
 ### Community 7 - "Community 7"
 Cohesion: 0.01
-Nodes (288): alexanderGerstPortraitPage(), aliciaKeysPortraitPage(), ashtonKutcherPortraitPage(), brigitteBardotPortraitPage(), charlotteWellsPortraitPage(), davidHumePortraitPage(), eltonJohnPortraitPage(), francisBaconPortraitPage() (+280 more)
+Nodes (290): adeleNeuhauserPortraitPage(), angelaMerkelPortraitPage(), billGatesPortraitPage(), carlosSantanaPortraitPage(), clemensArvayPortraitPage(), dieterBohlenPortraitPage(), elizabethBarrettBrowningPortraitPage(), freddieMercuryPortraitPage() (+282 more)
 
 ### Community 8 - "Community 8"
 Cohesion: 0.17
 Nodes (11): description, devDependencies, cspell, @cspell/dict-de-de, @cspell/dict-en-gb, name, private, scripts (+3 more)
 
 ### Community 9 - "Community 9"
-Cohesion: 0.01
-Nodes (490): konradLorenzPortraitPage(), hughWarwickPortraitPage(), theaLitschkaKoenPortraitPage(), alexanderGerstPortraitPage(), aliciaKeysPortraitPage(), ashtonKutcherPortraitPage(), brigitteBardotPortraitPage(), charlotteWellsPortraitPage() (+482 more)
+Cohesion: 0.02
+Nodes (270): andreDuqumPortraitPage(), evaMendesPortraitPage(), guntherVonHagensPortraitPage(), mariahCareyPortraitPage(), gordonRamsayPortraitPage(), hughGrantPortraitPage(), serdarSomuncuPortraitPage(), barbaraBleischPortraitPage() (+262 more)
 
 ### Community 10 - "Community 10"
 Cohesion: 0.01
-Nodes (411): aetherischeOele, AFFILIATE_LINKS, affiliateBoxHtml(), albumDb(), albumGet(), albumSet(), ANIMAL_RESEARCHER_MATCHES, app (+403 more)
+Nodes (155): aetherischeOele, AFFILIATE_LINKS, ANIMAL_RESEARCHER_MATCHES, app, architectureAreas, ASTROLOGIE_PORTRAITS, BERUEHMT_PORTRAITS, beruehmtePersoenlichkeitenPage() (+147 more)
 
 ### Community 11 - "Community 11"
 Cohesion: 0.01
-Nodes (414): AFFILIATE_LINKS, albumDb(), albumGet(), albumSet(), ANIMAL_RESEARCHER_MATCHES, app, ASTROLOGIE_PORTRAITS, astrologieAlbertEinsteinPage() (+406 more)
+Nodes (398): AFFILIATE_LINKS, albumDb(), albumGet(), albumSet(), ANIMAL_RESEARCHER_MATCHES, app, ASTROLOGIE_PORTRAITS, astrologieAlbertEinsteinPage() (+390 more)
 
 ### Community 12 - "Community 12"
 Cohesion: 0.01
-Nodes (302): albertoMariniPortraitPage(), alexanderBommesPortraitPage(), aristotelesPortraitPage(), barneyFishwickPortraitPage(), borisBeckerPortraitPage(), brianFennellPortraitPage(), catStevensPortraitPage(), corneliaFunkePortraitPage() (+294 more)
+Nodes (345): molierePortraitPage(), AFFILIATE_LINKS, albumDb(), albumGet(), albumSet(), ANIMAL_RESEARCHER_MATCHES, app, ASTROLOGIE_PORTRAITS (+337 more)
 
 ### Community 13 - "Community 13"
 Cohesion: 0.01
-Nodes (275): adamSandlerPortraitPage(), aliceMillerPortraitPage(), anaSalcedaPortraitPage(), baerbelBasPortraitPage(), billyBobThorntonPortraitPage(), buddhaPortraitPage(), christianRaetschPortraitPage(), claraLoeselPortraitPage() (+267 more)
+Nodes (125): aetherischeOele, AFFILIATE_LINKS, ANIMAL_RESEARCHER_MATCHES, app, architectureAreas, ASTROLOGIE_PORTRAITS, BERUEHMT_PORTRAITS, BEZIEHUNGS_PAARUNGEN (+117 more)
 
 ### Community 14 - "Community 14"
 Cohesion: 0.01
-Nodes (247): albertoMariniPortraitPage(), alexanderBommesPortraitPage(), aristotelesPortraitPage(), barneyFishwickPortraitPage(), borisBeckerPortraitPage(), brianFennellPortraitPage(), catStevensPortraitPage(), cgJungPortraitPage() (+239 more)
+Nodes (122): aetherischeOele, AFFILIATE_LINKS, ANIMAL_RESEARCHER_MATCHES, app, architectureAreas, ASTROLOGIE_PORTRAITS, BERUEHMT_PORTRAITS, BEZIEHUNGS_PAARUNGEN (+114 more)
 
 ### Community 15 - "Community 15"
 Cohesion: 0.17
@@ -345,7 +423,7 @@ Nodes (8): graphify reference: extra exports and benchmark, Step 6b - Wiki (only
 
 ### Community 17 - "Community 17"
 Cohesion: 0.01
-Nodes (249): addMsg(), addMsgFallbackNotice(), _adminLaden(), adminPage(), aetherischeOele, AFFILIATE_LINKS, albumDb(), albumGet() (+241 more)
+Nodes (141): aetherischeOele, AFFILIATE_LINKS, albumDb(), albumGet(), albumSet(), ANIMAL_RESEARCHER_MATCHES, app, architectureAreas (+133 more)
 
 ### Community 18 - "Community 18"
 Cohesion: 0.29
@@ -357,7 +435,7 @@ Nodes (5): For /graphify explain, For /graphify path, graphify reference: query,
 
 ### Community 20 - "Community 20"
 Cohesion: 0.06
-Nodes (57): andreasPage(), barabbasPage(), bpBuildNextBatch(), bpCardHTML(), dailyPick(), dashboardPage(), derHauptmannUnterDemKreuzPage(), derMannVonGerasaPage() (+49 more)
+Nodes (60): andreasPage(), barabbasPage(), bpBuildNextBatch(), bpCardHTML(), dailyPick(), dashboardPage(), derHauptmannUnterDemKreuzPage(), derMannVonGerasaPage() (+52 more)
 
 ### Community 21 - "Community 21"
 Cohesion: 0.50
@@ -373,15 +451,15 @@ Nodes (3): For --cluster-only, For --update (incremental re-extraction), graphif
 
 ### Community 24 - "Community 24"
 Cohesion: 0.03
-Nodes (250): abwehrverhalteDer9TypenPage(), aetherischeOelePage(), affenartenPage(), affiliateBoxHtml(), angstEssenzPage(), antriebskraeftePage(), arbeitsverhalteDer9TypenPage(), architekturRaumgestaltungDer9TypenPage() (+242 more)
+Nodes (222): abwehrverhalteDer9TypenPage(), aetherischeOelePage(), affenartenPage(), angstEssenzPage(), antriebskraeftePage(), arbeitsverhalteDer9TypenPage(), architekturRaumgestaltungDer9TypenPage(), auffaelligeMerkmale9TypenPage() (+214 more)
 
 ### Community 28 - "Community 28"
 Cohesion: 0.01
-Nodes (280): aliceSchwarzerPortraitPage(), arthurRimbaudPortraitPage(), bradPittPortraitPage(), carolinKebekusPortraitPage(), charlesDarwinPortraitPage(), davidBowiePortraitPage(), douglasRushkoffPortraitPage(), ellenDegeneresPortraitPage() (+272 more)
+Nodes (306): konradLorenzPortraitPage(), alexanderGerstPortraitPage(), aliciaKeysPortraitPage(), ashtonKutcherPortraitPage(), brigitteBardotPortraitPage(), davidHumePortraitPage(), douglasSmithPortraitPage(), francisBaconPortraitPage() (+298 more)
 
 ### Community 29 - "Community 29"
 Cohesion: 0.03
-Nodes (237): abwehrverhalteDer9TypenPage(), aetherischeOelePage(), affenartenPage(), angstEssenzPage(), antriebskraeftePage(), arbeitsverhalteDer9TypenPage(), architekturRaumgestaltungDer9TypenPage(), astrologieAlbertEinsteinPage() (+229 more)
+Nodes (235): abwehrverhalteDer9TypenPage(), aetherischeOelePage(), affenartenPage(), angstEssenzPage(), antriebskraeftePage(), arbeitsverhalteDer9TypenPage(), architekturRaumgestaltungDer9TypenPage(), astrologieAlbertEinsteinPage() (+227 more)
 
 ### Community 30 - "Community 30"
 Cohesion: 0.03
@@ -389,7 +467,7 @@ Nodes (228): abwehrverhalteDer9TypenPage(), aetherischeOelePage(), affenartenPag
 
 ### Community 32 - "Community 32"
 Cohesion: 0.03
-Nodes (226): abwehrverhalteDer9TypenPage(), aetherischeOelePage(), affenartenPage(), angstEssenzPage(), antriebskraeftePage(), arbeitsverhalteDer9TypenPage(), architekturRaumgestaltungDer9TypenPage(), auffaelligeMerkmale9TypenPage() (+218 more)
+Nodes (222): abwehrverhalteDer9TypenPage(), aetherischeOelePage(), affenartenPage(), angstEssenzPage(), antriebskraeftePage(), arbeitsverhalteDer9TypenPage(), architekturRaumgestaltungDer9TypenPage(), auffaelligeMerkmale9TypenPage() (+214 more)
 
 ### Community 33 - "Community 33"
 Cohesion: 0.03
@@ -400,24 +478,24 @@ Cohesion: 0.03
 Nodes (224): abwehrverhalteDer9TypenPage(), aetherischeOelePage(), affenartenPage(), angstEssenzPage(), antriebskraeftePage(), arbeitsverhalteDer9TypenPage(), architekturRaumgestaltungDer9TypenPage(), auffaelligeMerkmale9TypenPage() (+216 more)
 
 ### Community 35 - "Community 35"
-Cohesion: 0.04
-Nodes (202): molierePortraitPage(), andreasPage(), barabbasPage(), derHauptmannUnterDemKreuzPage(), derMannVonGerasaPage(), gamalielPage(), jakobusPage(), jesusPage() (+194 more)
+Cohesion: 0.06
+Nodes (95): molierePortraitPage(), kommunikationsguidePage(), krankheitsmusterkompassDetailPage(), kriminalmusterkompassDetailPage(), lebensmusterkompassDetailPage(), psychosomatikSubtypPage(), tierAvatarLeft(), tierAvatarTop() (+87 more)
 
 ### Community 36 - "Community 36"
-Cohesion: 0.03
-Nodes (192): andreasPage(), barabbasPage(), derHauptmannUnterDemKreuzPage(), derMannVonGerasaPage(), gamalielPage(), jakobusPage(), jesusPage(), johannesDerGeliebtePage() (+184 more)
+Cohesion: 0.02
+Nodes (101): anneApplebaumPortraitPage(), arminMuellerStahlPortraitPage(), fritzPerlsPortraitPage(), gustavMahlerPortraitPage(), harrisonFordPortraitPage(), mutterMeeraPortraitPage(), barneyFishwickPortraitPage(), catStevensPortraitPage() (+93 more)
 
 ### Community 37 - "Community 37"
 Cohesion: 0.04
-Nodes (74): beratungsCTA(), bundeslaenderPage(), cdnImg(), compassMark(), contentModuleSection(), datenschutzPage(), enneagrammRadPage(), _formatGermanDate() (+66 more)
+Nodes (64): beratungsCTA(), bundeslaenderPage(), cdnImg(), compassMark(), contentModuleSection(), datenschutzPage(), _formatGermanDate(), getLizenzName() (+56 more)
 
 ### Community 38 - "Community 38"
 Cohesion: 0.04
-Nodes (70): beratungsCTA(), bundeslaenderPage(), cdnImg(), compassMark(), contentModuleSection(), datenschutzPage(), _formatGermanDate(), getLizenzName() (+62 more)
+Nodes (63): beratungsCTA(), bundeslaenderPage(), cdnImg(), compassMark(), contentModuleSection(), datenschutzPage(), _formatGermanDate(), getLizenzName() (+55 more)
 
 ### Community 39 - "Community 39"
-Cohesion: 0.04
-Nodes (67): beratungsCTA(), bundeslaenderPage(), compassMark(), datenschutzPage(), enCode(), enToolLabel(), enToolName(), enTpPoint() (+59 more)
+Cohesion: 0.03
+Nodes (76): beratungsCTA(), bundeslaenderPage(), compassMark(), dailyPick(), datenschutzPage(), enCode(), enToolLabel(), enToolName() (+68 more)
 
 ### Community 40 - "Community 40"
 Cohesion: 0.04
@@ -425,11 +503,11 @@ Nodes (63): beratungsCTA(), bundeslaenderPage(), compassMark(), datenschutzPage(
 
 ### Community 41 - "Community 41"
 Cohesion: 0.04
-Nodes (61): beratungsCTA(), bundeslaenderPage(), compassMark(), dailyPick(), enCode(), enToolLabel(), enToolName(), enTpPoint() (+53 more)
+Nodes (65): beratungsCTA(), bundeslaenderPage(), compassMark(), dailyPick(), enCode(), enToolLabel(), enToolName(), enTpPoint() (+57 more)
 
 ### Community 42 - "Community 42"
-Cohesion: 0.05
-Nodes (57): beratungsCTA(), bundeslaenderPage(), cdnImg(), compassMark(), contentModuleSection(), datenschutzPage(), _formatGermanDate(), getLizenzName() (+49 more)
+Cohesion: 0.03
+Nodes (80): beratungsCTA(), bundeslaenderPage(), cdnImg(), compassMark(), contentModuleSection(), datenschutzPage(), enneagrammRadPage(), _formatGermanDate() (+72 more)
 
 ### Community 43 - "Community 43"
 Cohesion: 0.06
@@ -448,8 +526,8 @@ Cohesion: 0.07
 Nodes (53): andreasPage(), barabbasPage(), dashboardPage(), datenschutzPage(), derHauptmannUnterDemKreuzPage(), derMannVonGerasaPage(), _formatEnglishDate(), gamalielPage() (+45 more)
 
 ### Community 47 - "Community 47"
-Cohesion: 0.07
-Nodes (50): andreasPage(), barabbasPage(), bpBuildNextBatch(), bpCardHTML(), dailyPick(), dashboardPage(), derHauptmannUnterDemKreuzPage(), derMannVonGerasaPage() (+42 more)
+Cohesion: 0.06
+Nodes (59): andreasPage(), barabbasPage(), bpBuildNextBatch(), bpCardHTML(), dashboardPage(), derHauptmannUnterDemKreuzPage(), derMannVonGerasaPage(), gamalielPage() (+51 more)
 
 ### Community 48 - "Community 48"
 Cohesion: 0.08
@@ -461,31 +539,31 @@ Nodes (44): retrieveRelevantChunks(), ALLOWED_ORIGINS, askGemini(), corsHeaders(
 
 ### Community 50 - "Community 50"
 Cohesion: 0.05
-Nodes (40): handler(), _adminLaden(), adminPage(), _bewertungSenden(), _bewertungSterneInit(), _adminLaden(), adminPage(), _bewertungSenden() (+32 more)
+Nodes (42): handler(), _adminLaden(), adminPage(), _bewertungSenden(), _bewertungSterneInit(), _adminLaden(), adminPage(), _bewertungSenden() (+34 more)
 
 ### Community 51 - "Community 51"
 Cohesion: 0.06
-Nodes (40): _cquizBestKey(), _cquizNextRound(), _cquizPickQuestion(), _cquizRerender(), _cquizSaveBest(), _cquizShuffle(), enneagrammMemory1Page(), enneagrammMemory2Page() (+32 more)
+Nodes (50): _cquizBestKey(), _cquizGameOverScreen(), _cquizGetBest(), _cquizIntroScreen(), _cquizLevelSwitcher(), _cquizNextRound(), _cquizPickQuestion(), _cquizQuestionScreen() (+42 more)
 
 ### Community 52 - "Community 52"
-Cohesion: 0.06
-Nodes (40): _cquizBestKey(), _cquizNextRound(), _cquizPickQuestion(), _cquizRerender(), _cquizSaveBest(), _cquizShuffle(), enneagrammMemory1Page(), enneagrammMemory2Page() (+32 more)
+Cohesion: 0.15
+Nodes (17): enneagrammMemory1Page(), enneagrammMemory2Page(), enneagrammMemory3Page(), _enneagrammMemoryLevelPage(), enneagrammMemoryPage(), _memoryCardHtml(), _memoryCardLabel(), _memoryGameOverScreen() (+9 more)
 
 ### Community 53 - "Community 53"
 Cohesion: 0.06
-Nodes (40): _cquizNextRound(), _cquizPickQuestion(), _cquizRerender(), _cquizSaveBest(), _cquizShuffle(), enneagrammMemory1Page(), enneagrammMemory2Page(), enneagrammMemory3Page() (+32 more)
+Nodes (39): _cquizNextRound(), _cquizPickQuestion(), _cquizRerender(), _cquizSaveBest(), _cquizShuffle(), enneagrammMemory1Page(), enneagrammMemory2Page(), enneagrammMemory3Page() (+31 more)
 
 ### Community 54 - "Community 54"
-Cohesion: 0.06
-Nodes (39): _checkTimeMilestones(), diagnosetestPage(), _flashBestKey(), _flashNextRound(), _flashPickQuestion(), _flashRerender(), _flashSaveBest(), go() (+31 more)
+Cohesion: 0.18
+Nodes (12): _checkTimeMilestones(), diagnosetestPage(), isVoiceMuted(), _milestonePlayed(), playMilestone(), _playNextVoice(), playPurchaseWelcome(), queueVoice() (+4 more)
 
 ### Community 55 - "Community 55"
 Cohesion: 0.06
 Nodes (38): _cquizNextRound(), _cquizPickQuestion(), _cquizRerender(), _cquizShuffle(), enneagrammMemory1Page(), enneagrammMemory2Page(), enneagrammMemory3Page(), _enneagrammMemoryLevelPage() (+30 more)
 
 ### Community 56 - "Community 56"
-Cohesion: 0.06
-Nodes (35): albertSchweitzerPortraitPage(), andreDuqumPortraitPage(), anneApplebaumPortraitPage(), anthonyHopkinsPortraitPage(), arminMuellerStahlPortraitPage(), bobbyFischerPortraitPage(), bobMarleyPortraitPage(), carstenStahlPortraitPage() (+27 more)
+Cohesion: 0.08
+Nodes (25): albertSchweitzerPortraitPage(), anthonyHopkinsPortraitPage(), bobbyFischerPortraitPage(), bobMarleyPortraitPage(), carstenStahlPortraitPage(), dakotaJohnsonPortraitPage(), dollyPartonPortraitPage(), enricoCarusoPortraitPage() (+17 more)
 
 ### Community 57 - "Community 57"
 Cohesion: 0.06
@@ -493,31 +571,31 @@ Nodes (35): alexanderDerGrossePortraitPage(), arminRohdePortraitPage(), bracoPor
 
 ### Community 58 - "Community 58"
 Cohesion: 0.06
-Nodes (35): albertEinsteinPortraitPage(), annikaVonMutiusPortraitPage(), blaisePascalPortraitPage(), carolinePetersPortraitPage(), cgJungPortraitPage(), charlesLaughtonPortraitPage(), dirkRossmannPortraitPage(), edvardMunchPortraitPage() (+27 more)
+Nodes (44): beratungsCTA(), cdnImg(), compassMark(), contentModuleSection(), getProfile(), go(), healingPage(), heilmittelSection() (+36 more)
 
 ### Community 59 - "Community 59"
-Cohesion: 0.07
-Nodes (34): enneagrammMemory1Page(), enneagrammMemory2Page(), enneagrammMemory3Page(), _enneagrammMemoryLevelPage(), enneagrammMemoryPage(), _flashBestKey(), _flashNextRound(), _flashPickQuestion() (+26 more)
+Cohesion: 0.15
+Nodes (17): enneagrammMemory1Page(), enneagrammMemory2Page(), enneagrammMemory3Page(), _enneagrammMemoryLevelPage(), enneagrammMemoryPage(), _memoryCardHtml(), _memoryCardLabel(), _memoryGameOverScreen() (+9 more)
 
 ### Community 60 - "Community 60"
-Cohesion: 0.11
-Nodes (29): _cquizBestKey(), _cquizGameOverScreen(), _cquizGetBest(), _cquizIntroScreen(), _cquizLevelSwitcher(), _cquizNextRound(), _cquizPickQuestion(), _cquizQuestionScreen() (+21 more)
+Cohesion: 0.05
+Nodes (52): _cquizBestKey(), _cquizGameOverScreen(), _cquizGetBest(), _cquizIntroScreen(), _cquizLevelSwitcher(), _cquizNextRound(), _cquizPickQuestion(), _cquizQuestionScreen() (+44 more)
 
 ### Community 61 - "Community 61"
-Cohesion: 0.06
-Nodes (28): astrologieAlbertEinsteinPage(), astrologieAngelaMerkelPage(), astrologieBorisBeckerPage(), astrologieDavidLRathmerPage(), astrologieEnricoCarusoPage(), astrologieFranzKafkaPage(), astrologieGerhardSchroederPage(), astrologieJohnLennonPage() (+20 more)
+Cohesion: 0.17
+Nodes (12): astrologieAlbertEinsteinPage(), astrologieAngelaMerkelPage(), astrologieBorisBeckerPage(), astrologieDavidLRathmerPage(), astrologieEnricoCarusoPage(), astrologieFranzKafkaPage(), astrologieGerhardSchroederPage(), astrologieJohnLennonPage() (+4 more)
 
 ### Community 62 - "Community 62"
 Cohesion: 0.07
-Nodes (27): adolfHitlerPortraitPage(), andersBreivikPortraitPage(), angelResendezPortraitPage(), belleGunnessPortraitPage(), cedricMaakePortraitPage(), davidBerkowitzPortraitPage(), dieterZlofPortraitPage(), dorotheaPuentePortraitPage() (+19 more)
+Nodes (26): adolfHitlerPortraitPage(), andersBreivikPortraitPage(), angelResendezPortraitPage(), belleGunnessPortraitPage(), cedricMaakePortraitPage(), davidBerkowitzPortraitPage(), dieterZlofPortraitPage(), dorotheaPuentePortraitPage() (+18 more)
 
 ### Community 63 - "Community 63"
 Cohesion: 0.09
 Nodes (27): affiliateBoxHtml(), atemritualAetherischeOelePage(), atemWasserfallPage(), bachbluetenPage(), bewegungWasserPage(), bewusstesInnehaltenPage(), dasEwigeIchBinPage(), edelsteinePage() (+19 more)
 
 ### Community 64 - "Community 64"
-Cohesion: 0.12
-Nodes (27): _cquizGameOverScreen(), _cquizGetBest(), _cquizIntroScreen(), _cquizLevelSwitcher(), _cquizQuestionScreen(), enneagrammFlashcardsPage(), _flashGameOverScreen(), _flashGetBest() (+19 more)
+Cohesion: 0.05
+Nodes (51): _cquizBestKey(), _cquizGameOverScreen(), _cquizGetBest(), _cquizIntroScreen(), _cquizLevelSwitcher(), _cquizNextRound(), _cquizPickQuestion(), _cquizQuestionScreen() (+43 more)
 
 ### Community 65 - "Community 65"
 Cohesion: 0.09
@@ -529,7 +607,7 @@ Nodes (26): affiliateBoxHtml(), atemritualAetherischeOelePage(), atemWasserfallP
 
 ### Community 67 - "Community 67"
 Cohesion: 0.08
-Nodes (25): aileenWuornosPortraitPage(), andreasBaaderPortraitPage(), annaDelveyPortraitPage(), arwedImielaPortraitPage(), bernardEugeneGilesPortraitPage(), bernieMadoffPortraitPage(), charlesMansonPortraitPage(), dennisNilsenPortraitPage() (+17 more)
+Nodes (23): aileenWuornosPortraitPage(), andreasBaaderPortraitPage(), annaDelveyPortraitPage(), bernieMadoffPortraitPage(), charlesMansonPortraitPage(), dennisNilsenPortraitPage(), edGeinPortraitPage(), elizabethBathoryPortraitPage() (+15 more)
 
 ### Community 68 - "Community 68"
 Cohesion: 0.10
@@ -548,24 +626,24 @@ Cohesion: 0.09
 Nodes (25): affiliateBoxHtml(), atemritualAetherischeOelePage(), atemWasserfallPage(), bachbluetenPage(), bewegungWasserPage(), bewusstesInnehaltenPage(), edelsteinePage(), energiefeldHaendePage() (+17 more)
 
 ### Community 72 - "Community 72"
-Cohesion: 0.08
-Nodes (23): alexMurdaughPortraitPage(), ameliaDyerPortraitPage(), andreiTschikatiloPortraitPage(), arminMeiwesPortraitPage(), bonnieParkerPortraitPage(), charlesStarkweatherPortraitPage(), chrisWattsPortraitPage(), dennisRaderPortraitPage() (+15 more)
+Cohesion: 0.09
+Nodes (22): alexMurdaughPortraitPage(), ameliaDyerPortraitPage(), andreiTschikatiloPortraitPage(), arminMeiwesPortraitPage(), bonnieParkerPortraitPage(), chrisWattsPortraitPage(), dennisRaderPortraitPage(), elliotRodgerPortraitPage() (+14 more)
 
 ### Community 73 - "Community 73"
-Cohesion: 0.15
-Nodes (23): _cquizGameOverScreen(), _cquizGetBest(), _cquizIntroScreen(), _cquizLevelSwitcher(), _cquizQuestionScreen(), enneagrammFlashcardsPage(), _flashGameOverScreen(), _flashGetBest() (+15 more)
+Cohesion: 0.05
+Nodes (36): abdAlFattahAsSisiPortraitPage(), anastasiiaMetelkinaPortraitPage(), bastianPastewkaPortraitPage(), benBerndtPortraitPage(), byronKatiePortraitPage(), christophWaltzPortraitPage(), dhapanbalYunupinguPortraitPage(), editaGruberovaPortraitPage() (+28 more)
 
 ### Community 74 - "Community 74"
-Cohesion: 0.15
-Nodes (23): _cquizBestKey(), _cquizGameOverScreen(), _cquizGetBest(), _cquizIntroScreen(), _cquizLevelSwitcher(), _cquizQuestionScreen(), _cquizSaveBest(), enneagrammFlashcardsPage() (+15 more)
+Cohesion: 0.05
+Nodes (51): _cquizBestKey(), _cquizGameOverScreen(), _cquizGetBest(), _cquizIntroScreen(), _cquizLevelSwitcher(), _cquizNextRound(), _cquizPickQuestion(), _cquizQuestionScreen() (+43 more)
 
 ### Community 75 - "Community 75"
-Cohesion: 0.15
-Nodes (23): _cquizBestKey(), _cquizGameOverScreen(), _cquizGetBest(), _cquizIntroScreen(), _cquizLevelSwitcher(), _cquizQuestionScreen(), enneagrammFlashcardsPage(), _flashGameOverScreen() (+15 more)
+Cohesion: 0.11
+Nodes (28): _cquizBestKey(), _cquizGameOverScreen(), _cquizGetBest(), _cquizIntroScreen(), _cquizLevelSwitcher(), _cquizQuestionScreen(), enneagrammFlashcardsPage(), _flashGameOverScreen() (+20 more)
 
 ### Community 76 - "Community 76"
-Cohesion: 0.15
-Nodes (20): _cquizBestKey(), _cquizGameOverScreen(), _cquizGetBest(), _cquizIntroScreen(), _cquizLevelSwitcher(), _cquizNextRound(), _cquizPickQuestion(), _cquizQuestionScreen() (+12 more)
+Cohesion: 0.07
+Nodes (39): _cquizBestKey(), _cquizGameOverScreen(), _cquizGetBest(), _cquizIntroScreen(), _cquizLevelSwitcher(), _cquizNextRound(), _cquizPickQuestion(), _cquizQuestionScreen() (+31 more)
 
 ### Community 77 - "Community 77"
 Cohesion: 0.16
@@ -608,24 +686,24 @@ Cohesion: 0.12
 Nodes (14): alreadyDone, API_KEY, apiKeyMatch, chunks, __dirname, embedOne(), embedWithRetry(), envPath (+6 more)
 
 ### Community 87 - "Community 87"
-Cohesion: 0.07
-Nodes (17): beruehmtePersoenlichkeitenPage(), bpLoadMoreButtonHTML(), gesichtsScanPage(), getJournal(), _gsContactBlockHTML(), kompatibilitaetsCheckPage(), _kompFindPaarung(), libraryPage() (+9 more)
+Cohesion: 0.08
+Nodes (16): beruehmtePersoenlichkeitenPage(), bpLoadMoreButtonHTML(), getJournal(), kompatibilitaetsCheckPage(), _kompFindPaarung(), _psychosomatikBuecherHtml(), psychosomatikDetailPage(), psychosomatikPage() (+8 more)
 
 ### Community 88 - "Community 88"
-Cohesion: 0.13
-Nodes (16): enneagrammRadPage(), llFluchtBlur(), llFluchtFocus(), llFluchtInfoHtml(), llUnvBlur(), llUnvFocus(), llUnvInfoHtml(), llWingBlur() (+8 more)
+Cohesion: 0.05
+Nodes (36): aliceSchwarzerPortraitPage(), arthurRimbaudPortraitPage(), bradPittPortraitPage(), carolinKebekusPortraitPage(), charlesDarwinPortraitPage(), davidBowiePortraitPage(), douglasRushkoffPortraitPage(), ellenDegeneresPortraitPage() (+28 more)
 
 ### Community 89 - "Community 89"
-Cohesion: 0.21
-Nodes (16): _gesichtsScanInit(), _gsBuildDots(), _gsCapturePhoto(), _gsFillContactLinks(), _gsFinishPhotoScan(), _gsHandleRecordingStopped(), _gsPickVoice(), _gsQ() (+8 more)
+Cohesion: 0.16
+Nodes (19): _gesichtsScanInit(), _gsBuildDots(), _gsCapturePhoto(), _gsFillContactLinks(), _gsFinishPhotoScan(), _gsHandleRecordingStopped(), _gsPickVideoMime(), _gsPickVoice() (+11 more)
 
 ### Community 90 - "Community 90"
 Cohesion: 0.21
 Nodes (16): _cquizBestKey(), _cquizGameOverScreen(), _cquizGetBest(), _cquizIntroScreen(), _cquizLevelSwitcher(), _cquizQuestionScreen(), _cquizSaveBest(), enneagrammFlashcardsPage() (+8 more)
 
 ### Community 91 - "Community 91"
-Cohesion: 0.08
-Nodes (16): enDailyBody(), getJournal(), kompatibilitaetsCheckPage(), _kompFindPaarung(), _psychosomatikBuecherHtml(), psychosomatikDetailPage(), psychosomatikPage(), quizIntroScreen() (+8 more)
+Cohesion: 0.09
+Nodes (13): enDailyBody(), gesichtsScanPage(), getJournal(), _gsContactBlockHTML(), kompatibilitaetsCheckPage(), _kompFindPaarung(), libraryPage(), _psychosomatikBuecherHtml() (+5 more)
 
 ### Community 92 - "Community 92"
 Cohesion: 0.17
@@ -664,20 +742,20 @@ Cohesion: 0.19
 Nodes (14): addMsg(), askQuestion(), clearSessionToken(), closeLoginForm(), getSessionToken(), openBillingPortal(), removeSuggestionChips(), renderPremiumBar() (+6 more)
 
 ### Community 101 - "Community 101"
-Cohesion: 0.10
-Nodes (13): beruehmtePersoenlichkeitenPage(), bpLoadMoreButtonHTML(), gesichtsScanPage(), getJournal(), _gsContactBlockHTML(), _psychosomatikBuecherHtml(), psychosomatikDetailPage(), psychosomatikPage() (+5 more)
+Cohesion: 0.09
+Nodes (15): beruehmtePersoenlichkeitenPage(), bpLoadMoreButtonHTML(), gesichtsScanPage(), _gsContactBlockHTML(), kompatibilitaetsCheckPage(), _kompFindPaarung(), libraryPage(), _psychosomatikBuecherHtml() (+7 more)
 
 ### Community 102 - "Community 102"
-Cohesion: 0.19
-Nodes (13): getProfile(), hasProfile(), healingPage(), loadProfile(), situationskompasPage(), wachstumstagebuchPage(), _wtAddDays(), _wtGetNote() (+5 more)
+Cohesion: 0.27
+Nodes (10): hasProfile(), loadProfile(), wachstumstagebuchPage(), _wtAddDays(), _wtGetNote(), _wtLast30Grid(), _wtLoadLog(), _wtNoteKey() (+2 more)
 
 ### Community 103 - "Community 103"
 Cohesion: 0.17
 Nodes (13): dailyPick(), getProfile(), hasProfile(), healingPage(), loadProfile(), situationskompasPage(), wachstumstagebuchPage(), _wtGetNote() (+5 more)
 
 ### Community 104 - "Community 104"
-Cohesion: 0.17
-Nodes (13): dailyPick(), getProfile(), hasProfile(), healingPage(), loadProfile(), situationskompasPage(), wachstumstagebuchPage(), _wtGetNote() (+5 more)
+Cohesion: 0.05
+Nodes (36): ajeetKaurPortraitPage(), alanWattsPortraitPage(), annaAndersonPortraitPage(), bastianSchweinsteigerPortraitPage(), billKaulitzPortraitPage(), bryanJohnsonPortraitPage(), carlWeathersPortraitPage(), cristianoRonaldoPortraitPage() (+28 more)
 
 ### Community 105 - "Community 105"
 Cohesion: 0.17
@@ -716,8 +794,8 @@ Cohesion: 0.18
 Nodes (12): _checkTimeMilestones(), diagnosetestPage(), isVoiceMuted(), _milestonePlayed(), playMilestone(), _playNextVoice(), playPurchaseWelcome(), queueVoice() (+4 more)
 
 ### Community 114 - "Community 114"
-Cohesion: 0.24
-Nodes (12): enneagrammMemory1Page(), enneagrammMemory2Page(), enneagrammMemory3Page(), _enneagrammMemoryLevelPage(), enneagrammMemoryPage(), _memoryGameOverScreen(), _memoryGameScreen(), _memoryGetBest() (+4 more)
+Cohesion: 0.15
+Nodes (17): enneagrammMemory1Page(), enneagrammMemory2Page(), enneagrammMemory3Page(), _enneagrammMemoryLevelPage(), enneagrammMemoryPage(), _memoryCardHtml(), _memoryCardLabel(), _memoryGameOverScreen() (+9 more)
 
 ### Community 115 - "Community 115"
 Cohesion: 0.18
@@ -768,8 +846,8 @@ Cohesion: 0.18
 Nodes (8): context, __dirname, env, knowledgeChunks, main(), rootDir, subtypesDir, TEST_FILES
 
 ### Community 127 - "Community 127"
-Cohesion: 0.13
-Nodes (11): enDailyBody(), libraryPage(), _psychosomatikBuecherHtml(), psychosomatikDetailPage(), psychosomatikPage(), quizIntroScreen(), quizPage(), quizQuestionScreen() (+3 more)
+Cohesion: 0.09
+Nodes (15): enDailyBody(), getJournal(), kompatibilitaetsCheckPage(), _kompFindPaarung(), libraryPage(), _psychosomatikBuecherHtml(), psychosomatikDetailPage(), psychosomatikPage() (+7 more)
 
 ### Community 128 - "Community 128"
 Cohesion: 0.27
@@ -784,8 +862,8 @@ Cohesion: 0.20
 Nodes (10): portraitTyp1Page(), portraitTyp2Page(), portraitTyp3Page(), portraitTyp4Page(), portraitTyp5Page(), portraitTyp6Page(), portraitTyp7Page(), portraitTyp8Page() (+2 more)
 
 ### Community 131 - "Community 131"
-Cohesion: 0.27
-Nodes (10): hasProfile(), loadProfile(), wachstumstagebuchPage(), _wtAddDays(), _wtGetNote(), _wtLast30Grid(), _wtLoadLog(), _wtNoteKey() (+2 more)
+Cohesion: 0.24
+Nodes (11): dailyPick(), hasProfile(), loadProfile(), wachstumstagebuchPage(), _wtAddDays(), _wtGetNote(), _wtLast30Grid(), _wtLoadLog() (+3 more)
 
 ### Community 132 - "Community 132"
 Cohesion: 0.20
@@ -813,11 +891,11 @@ Nodes (7): bundleSrc, counts, ROOT, SKIP_DIRS, total, updateFile(), walk()
 
 ### Community 138 - "Community 138"
 Cohesion: 0.14
-Nodes (9): gesichtsScanPage(), getJournal(), _gsContactBlockHTML(), libraryPage(), _psychosomatikBuecherHtml(), psychosomatikDetailPage(), psychosomatikPage(), reflectionPage() (+1 more)
+Nodes (9): beruehmtePersoenlichkeitenPage(), bpLoadMoreButtonHTML(), getJournal(), libraryPage(), _psychosomatikBuecherHtml(), psychosomatikDetailPage(), psychosomatikPage(), reflectionPage() (+1 more)
 
 ### Community 139 - "Community 139"
-Cohesion: 0.14
-Nodes (9): gesichtsScanPage(), getJournal(), _gsContactBlockHTML(), kompatibilitaetsCheckPage(), _kompFindPaarung(), reflectionPage(), suchePage(), _sucheResults() (+1 more)
+Cohesion: 0.30
+Nodes (5): gesichtsScanPage(), _gsContactBlockHTML(), suchePage(), _sucheResults(), _sucheResultsHtml()
 
 ### Community 140 - "Community 140"
 Cohesion: 0.22
@@ -864,12 +942,12 @@ Cohesion: 0.29
 Nodes (5): { de, en }, __dirname, entries, rootDir, TODAY
 
 ### Community 151 - "Community 151"
-Cohesion: 0.29
-Nodes (7): llFluchtBlur(), llFluchtFocus(), llFluchtInfoHtml(), llWingBlur(), llWingFocus(), llWingInfoHtml(), lookalikeTypenPage()
+Cohesion: 0.06
+Nodes (35): alexanderGerstPortraitPage(), aliciaKeysPortraitPage(), ashtonKutcherPortraitPage(), brigitteBardotPortraitPage(), charlotteWellsPortraitPage(), davidHumePortraitPage(), dmitriHvorostovskyPortraitPage(), eltonJohnPortraitPage() (+27 more)
 
 ### Community 152 - "Community 152"
-Cohesion: 0.19
-Nodes (7): kompatibilitaetsCheckPage(), _kompFindPaarung(), libraryPage(), suchePage(), _sucheResults(), _sucheResultsHtml(), werkSection()
+Cohesion: 0.30
+Nodes (5): getJournal(), reflectionPage(), suchePage(), _sucheResults(), _sucheResultsHtml()
 
 ### Community 153 - "Community 153"
 Cohesion: 0.29
@@ -924,8 +1002,8 @@ Cohesion: 0.40
 Nodes (5): favoritenPage(), _getFavs(), _isFav(), _setFavs(), _toggleFav()
 
 ### Community 169 - "Community 169"
-Cohesion: 0.30
-Nodes (5): gesichtsScanPage(), _gsContactBlockHTML(), _psychosomatikBuecherHtml(), psychosomatikDetailPage(), psychosomatikPage()
+Cohesion: 0.10
+Nodes (13): getJournal(), kompatibilitaetsCheckPage(), _kompFindPaarung(), libraryPage(), _psychosomatikBuecherHtml(), psychosomatikDetailPage(), psychosomatikPage(), quizIntroScreen() (+5 more)
 
 ### Community 170 - "Community 170"
 Cohesion: 0.60
@@ -972,8 +1050,8 @@ Cohesion: 0.50
 Nodes (4): gemerkteImpulsePage(), _getGemerkteImpulse(), _saveImpuls(), _setGemerkteImpulse()
 
 ### Community 184 - "Community 184"
-Cohesion: 0.50
-Nodes (4): quizIntroScreen(), quizPage(), quizQuestionScreen(), quizResultScreen()
+Cohesion: 0.07
+Nodes (22): astrologieAlbertEinsteinPage(), astrologieAngelaMerkelPage(), astrologieBorisBeckerPage(), astrologieDavidLRathmerPage(), astrologieEnricoCarusoPage(), astrologieFranzKafkaPage(), astrologieGerhardSchroederPage(), astrologieJohnLennonPage() (+14 more)
 
 ### Community 185 - "Community 185"
 Cohesion: 0.50
@@ -984,8 +1062,8 @@ Cohesion: 0.50
 Nodes (4): gemerkteImpulsePage(), _getGemerkteImpulse(), _saveImpuls(), _setGemerkteImpulse()
 
 ### Community 187 - "Community 187"
-Cohesion: 0.50
-Nodes (4): quizIntroScreen(), quizPage(), quizQuestionScreen(), quizResultScreen()
+Cohesion: 0.17
+Nodes (9): gesichtsScanPage(), _gsContactBlockHTML(), quizIntroScreen(), quizPage(), quizQuestionScreen(), quizResultScreen(), suchePage(), _sucheResults() (+1 more)
 
 ### Community 188 - "Community 188"
 Cohesion: 0.50
@@ -996,8 +1074,8 @@ Cohesion: 0.50
 Nodes (4): gemerkteImpulsePage(), _getGemerkteImpulse(), _saveImpuls(), _setGemerkteImpulse()
 
 ### Community 190 - "Community 190"
-Cohesion: 0.33
-Nodes (4): gesichtsScanPage(), _gsContactBlockHTML(), libraryPage(), werkSection()
+Cohesion: 0.06
+Nodes (35): adeleNeuhauserPortraitPage(), andyWarholPortraitPage(), angelaMerkelPortraitPage(), billGatesPortraitPage(), carlosSantanaPortraitPage(), christophKolumbusPortraitPage(), clemensArvayPortraitPage(), dieterBohlenPortraitPage() (+27 more)
 
 ### Community 191 - "Community 191"
 Cohesion: 0.50
@@ -1036,8 +1114,8 @@ Cohesion: 0.67
 Nodes (3): musterradarAllPortraits(), musterradarDetailPage(), musterradarMatches()
 
 ### Community 201 - "Community 201"
-Cohesion: 0.67
-Nodes (3): _psychosomatikBuecherHtml(), psychosomatikDetailPage(), psychosomatikPage()
+Cohesion: 0.06
+Nodes (35): albertEinsteinPortraitPage(), annikaVonMutiusPortraitPage(), antonZeilingerPortraitPage(), blaisePascalPortraitPage(), carolinePetersPortraitPage(), dirkRossmannPortraitPage(), edvardMunchPortraitPage(), epikurPortraitPage() (+27 more)
 
 ### Community 204 - "Community 204"
 Cohesion: 0.67
@@ -1048,8 +1126,8 @@ Cohesion: 0.67
 Nodes (3): musterradarAllPortraits(), musterradarDetailPage(), musterradarMatches()
 
 ### Community 206 - "Community 206"
-Cohesion: 0.67
-Nodes (3): suchePage(), _sucheResults(), _sucheResultsHtml()
+Cohesion: 0.07
+Nodes (27): adamSmithKrankheitsportraetPage(), anthonyHopkinsKrankheitsportraetPage(), blaisePascalKrankheitsportraetPage(), byronKatieKrankheitsportraetPage(), davidBowieKrankheitsportraetPage(), diegoVelazquezKrankheitsportraetPage(), elvisPresleyKrankheitsportraetPage(), fionaAppleKrankheitsportraetPage() (+19 more)
 
 ### Community 208 - "Community 208"
 Cohesion: 0.67
@@ -1079,20 +1157,276 @@ Nodes (3): musterradarAllPortraits(), musterradarDetailPage(), musterradarMatche
 Cohesion: 0.67
 Nodes (3): tierquizPage(), _tqBtn(), _tqProgress()
 
+### Community 243 - "Community 243"
+Cohesion: 0.07
+Nodes (26): albertoMariniPortraitPage(), alexanderBommesPortraitPage(), aristotelesPortraitPage(), borisBeckerPortraitPage(), brianFennellPortraitPage(), corneliaFunkePortraitPage(), danBrownPortraitPage(), donaldTrumpPortraitPage() (+18 more)
+
+### Community 244 - "Community 244"
+Cohesion: 0.07
+Nodes (26): adelePortraitPage(), angelinaJoliePortraitPage(), borisGrundlPortraitPage(), carlRogersPortraitPage(), chesterBenningtonPortraitPage(), christianDrostenPortraitPage(), cluesoPortraitPage(), eckhartTollePortraitPage() (+18 more)
+
+### Community 245 - "Community 245"
+Cohesion: 0.07
+Nodes (26): aiWeiweiPortraitPage(), alecBaldwinPortraitPage(), ankeEngelkePortraitPage(), arnoldSchwarzeneggerPortraitPage(), billieEilishPortraitPage(), carenMiosgaPortraitPage(), carlTanzlerPortraitPage(), eddieRedmaynePortraitPage() (+18 more)
+
+### Community 246 - "Community 246"
+Cohesion: 0.07
+Nodes (26): alainDelonKrankheitsportraetPage(), alexanderDerGrosseKrankheitsportraetPage(), billieEilishKrankheitsportraetPage(), brigitteBardotKrankheitsportraetPage(), cgJungKrankheitsportraetPage(), christophKolumbusKrankheitsportraetPage(), claudeDebussyKrankheitsportraetPage(), elizabethBarrettBrowningKrankheitsportraetPage() (+18 more)
+
+### Community 247 - "Community 247"
+Cohesion: 0.07
+Nodes (26): angelinaJolieKrankheitsportraetPage(), bobMarleyKrankheitsportraetPage(), charlesLaughtonKrankheitsportraetPage(), claudioNaranjoKrankheitsportraetPage(), connieChiuKrankheitsportraetPage(), dmitriHvorostovskyKrankheitsportraetPage(), edvardMunchKrankheitsportraetPage(), elonMuskKrankheitsportraetPage() (+18 more)
+
+### Community 248 - "Community 248"
+Cohesion: 0.08
+Nodes (25): ameliaEarhartPortraitPage(), astridLindgrenPortraitPage(), brunoMarsPortraitPage(), cheyenneOchsenknechtPortraitPage(), davidLRathmerPortraitPage(), francoisDamiensPortraitPage(), georgWilhelmFriedrichHegelPortraitPage(), haraldGloeocklerPortraitPage() (+17 more)
+
+### Community 249 - "Community 249"
+Cohesion: 0.08
+Nodes (25): anaDeArmasPortraitPage(), audreyTautouPortraitPage(), ayoEdebiriPortraitPage(), brynKenneyPortraitPage(), davidLureyPortraitPage(), drewBarrymorePortraitPage(), edSheeranPortraitPage(), frankRosellPortraitPage() (+17 more)
+
+### Community 250 - "Community 250"
+Cohesion: 0.08
+Nodes (25): adamSandlerPortraitPage(), aliceMillerPortraitPage(), anaSalcedaPortraitPage(), baerbelBasPortraitPage(), billyBobThorntonPortraitPage(), buddhaPortraitPage(), christianRaetschPortraitPage(), emmanuelMacronPortraitPage() (+17 more)
+
+### Community 251 - "Community 251"
+Cohesion: 0.08
+Nodes (25): anastasiaBarnerPortraitPage(), barackObamaPortraitPage(), benjaminDisraeliPortraitPage(), budSpencerPortraitPage(), connieChiuPortraitPage(), dalaiLamaPortraitPage(), edgarAllanPoePortraitPage(), franzKafkaPortraitPage() (+17 more)
+
+### Community 252 - "Community 252"
+Cohesion: 0.08
+Nodes (25): abidaParveenPortraitPage(), andreAgassiPortraitPage(), avrilLavignePortraitPage(), beatriceChebetPortraitPage(), claudeDebussyPortraitPage(), dianFosseyPortraitPage(), edwardSnowdenPortraitPage(), ginaRinehartPortraitPage() (+17 more)
+
+### Community 253 - "Community 253"
+Cohesion: 0.08
+Nodes (25): adamSmithPortraitPage(), alanTuringPortraitPage(), brigitteMacronPortraitPage(), carlFriedrichGaussPortraitPage(), cleopatraPortraitPage(), diegoVelazquezPortraitPage(), eliJaxonBearPortraitPage(), fabianKahlPortraitPage() (+17 more)
+
+### Community 254 - "Community 254"
+Cohesion: 0.08
+Nodes (25): alanMcelligottPortraitPage(), anneMcBridePortraitPage(), anneWillPortraitPage(), biruteGaldikasPortraitPage(), carmenGoglinPortraitPage(), diogenesPortraitPage(), enyaPortraitPage(), friedrichNietzschePortraitPage() (+17 more)
+
+### Community 255 - "Community 255"
+Cohesion: 0.09
+Nodes (26): affiliateBoxHtml(), atemritualAetherischeOelePage(), atemWasserfallPage(), bachbluetenPage(), bewegungWasserPage(), bewusstesInnehaltenPage(), dasEwigeIchBinPage(), edelsteinePage() (+18 more)
+
+### Community 256 - "Community 256"
+Cohesion: 0.08
+Nodes (24): arthurRimbaudPortraitPage(), carolinKebekusPortraitPage(), douglasRushkoffPortraitPage(), ellenDegeneresPortraitPage(), fjodorDostojewskiPortraitPage(), galarrwuyYunupinguPortraitPage(), hermanVanVeenPortraitPage(), hundertwasserPortraitPage() (+16 more)
+
+### Community 257 - "Community 257"
+Cohesion: 0.08
+Nodes (24): angelinaJoliePortraitPage(), annaNetrebkoPortraitPage(), borisGrundlPortraitPage(), carlRogersPortraitPage(), christianDrostenPortraitPage(), cluesoPortraitPage(), dieterNuhrPortraitPage(), eckhartTollePortraitPage() (+16 more)
+
+### Community 258 - "Community 258"
+Cohesion: 0.09
+Nodes (25): affiliateBoxHtml(), atemritualAetherischeOelePage(), atemWasserfallPage(), bachbluetenPage(), bewegungWasserPage(), bewusstesInnehaltenPage(), edelsteinePage(), energiefeldHaendePage() (+17 more)
+
+### Community 259 - "Community 259"
+Cohesion: 0.08
+Nodes (23): astridLindgrenPortraitPage(), brunoMarsPortraitPage(), cheyenneOchsenknechtPortraitPage(), davidLRathmerPortraitPage(), drDrePortraitPage(), francoisDamiensPortraitPage(), frankaPotentePortraitPage(), georgWilhelmFriedrichHegelPortraitPage() (+15 more)
+
+### Community 260 - "Community 260"
+Cohesion: 0.09
+Nodes (24): _cquizBestKey(), _cquizNextRound(), _cquizPickQuestion(), _cquizRerender(), _cquizSaveBest(), _cquizShuffle(), _flashBestKey(), _flashNextRound() (+16 more)
+
+### Community 261 - "Community 261"
+Cohesion: 0.08
+Nodes (23): adolfEichmannPortraitPage(), alfonsSchuhbeckPortraitPage(), andrewCunananPortraitPage(), arnoFunkePortraitPage(), bryanKohbergerPortraitPage(), busterMurdaughPortraitPage(), clydeBarrowPortraitPage(), dianeDownsPortraitPage() (+15 more)
+
+### Community 262 - "Community 262"
+Cohesion: 0.08
+Nodes (23): aileenWuornosPortraitPage(), andreasBaaderPortraitPage(), annaDelveyPortraitPage(), bernieMadoffPortraitPage(), charlesMansonPortraitPage(), dennisNilsenPortraitPage(), edGeinPortraitPage(), elizabethBathoryPortraitPage() (+15 more)
+
+### Community 263 - "Community 263"
+Cohesion: 0.08
+Nodes (23): alexMurdaughPortraitPage(), ameliaDyerPortraitPage(), andreiTschikatiloPortraitPage(), arminMeiwesPortraitPage(), bonnieParkerPortraitPage(), bryanKohbergerPortraitPage(), chrisWattsPortraitPage(), dennisRaderPortraitPage() (+15 more)
+
+### Community 264 - "Community 264"
+Cohesion: 0.09
+Nodes (22): konradLorenzPortraitPage(), hughWarwickPortraitPage(), theaLitschkaKoenPortraitPage(), douglasSmithPortraitPage(), lucyCookePortraitPage(), romulusWhitakerPortraitPage(), laurenceFrankPortraitPage(), davidMechPortraitPage() (+14 more)
+
+### Community 265 - "Community 265"
+Cohesion: 0.11
+Nodes (21): _checkTimeMilestones(), datenschutzPage(), _formatGermanDate(), getLizenzName(), getTier(), _gsLatestUpdateBadgeHTML(), hasBasis(), hasHeilwissen() (+13 more)
+
+### Community 266 - "Community 266"
+Cohesion: 0.17
+Nodes (21): _cquizGameOverScreen(), _cquizGetBest(), _cquizIntroScreen(), _cquizLevelSwitcher(), _cquizQuestionScreen(), enneagrammFlashcardsPage(), _flashGameOverScreen(), _flashGetBest() (+13 more)
+
+### Community 267 - "Community 267"
+Cohesion: 0.13
+Nodes (19): enneagrammMemory1Page(), enneagrammMemory2Page(), enneagrammMemory3Page(), _enneagrammMemoryLevelPage(), enneagrammMemoryPage(), _memoryBestKey(), _memoryCardHtml(), _memoryCardLabel() (+11 more)
+
+### Community 268 - "Community 268"
+Cohesion: 0.14
+Nodes (18): dailyPick(), dashboardPage(), getUserPhoto(), hasProfile(), infoCard(), isVoiceMuted(), loadProfile(), _playNextVoice() (+10 more)
+
+### Community 269 - "Community 269"
+Cohesion: 0.15
+Nodes (17): enneagrammMemory1Page(), enneagrammMemory2Page(), enneagrammMemory3Page(), _enneagrammMemoryLevelPage(), enneagrammMemoryPage(), _memoryCardHtml(), _memoryCardLabel(), _memoryGameOverScreen() (+9 more)
+
+### Community 270 - "Community 270"
+Cohesion: 0.17
+Nodes (15): addMsg(), addMsgFallbackNotice(), askQuestion(), clearSessionToken(), closeLoginForm(), getSessionToken(), openBillingPortal(), removeSuggestionChips() (+7 more)
+
+### Community 271 - "Community 271"
+Cohesion: 0.17
+Nodes (12): astrologieAlbertEinsteinPage(), astrologieAngelaMerkelPage(), astrologieBorisBeckerPage(), astrologieDavidLRathmerPage(), astrologieEnricoCarusoPage(), astrologieFranzKafkaPage(), astrologieGerhardSchroederPage(), astrologieJohnLennonPage() (+4 more)
+
+### Community 272 - "Community 272"
+Cohesion: 0.17
+Nodes (12): astrologieAlbertEinsteinPage(), astrologieAngelaMerkelPage(), astrologieBorisBeckerPage(), astrologieDavidLRathmerPage(), astrologieEnricoCarusoPage(), astrologieFranzKafkaPage(), astrologieGerhardSchroederPage(), astrologieJohnLennonPage() (+4 more)
+
+### Community 273 - "Community 273"
+Cohesion: 0.27
+Nodes (10): hasProfile(), loadProfile(), wachstumstagebuchPage(), _wtAddDays(), _wtGetNote(), _wtLast30Grid(), _wtLoadLog(), _wtNoteKey() (+2 more)
+
+### Community 274 - "Community 274"
+Cohesion: 0.13
+Nodes (10): beruehmtePersoenlichkeitenPage(), bpLoadMoreButtonHTML(), getJournal(), _psychosomatikBuecherHtml(), psychosomatikDetailPage(), psychosomatikPage(), reflectionPage(), suchePage() (+2 more)
+
+### Community 275 - "Community 275"
+Cohesion: 0.20
+Nodes (10): portraitTyp1Page(), portraitTyp2Page(), portraitTyp3Page(), portraitTyp4Page(), portraitTyp5Page(), portraitTyp6Page(), portraitTyp7Page(), portraitTyp8Page() (+2 more)
+
+### Community 276 - "Community 276"
+Cohesion: 0.20
+Nodes (10): portraitTyp1Page(), portraitTyp2Page(), portraitTyp3Page(), portraitTyp4Page(), portraitTyp5Page(), portraitTyp6Page(), portraitTyp7Page(), portraitTyp8Page() (+2 more)
+
+### Community 277 - "Community 277"
+Cohesion: 0.29
+Nodes (7): bindDiagnosetest(), bindEvents(), bindMotivtest(), bindOnboarding(), bindSchnelltest(), bindTypentest(), typalbumInit()
+
+### Community 278 - "Community 278"
+Cohesion: 0.29
+Nodes (7): bindDiagnosetest(), bindEvents(), bindMotivtest(), bindOnboarding(), bindSchnelltest(), bindTypentest(), typalbumInit()
+
+### Community 279 - "Community 279"
+Cohesion: 0.29
+Nodes (7): bindDiagnosetest(), bindEvents(), bindMotivtest(), bindOnboarding(), bindSchnelltest(), bindTypentest(), typalbumInit()
+
+### Community 280 - "Community 280"
+Cohesion: 0.29
+Nodes (7): bindDiagnosetest(), bindEvents(), bindMotivtest(), bindOnboarding(), bindSchnelltest(), bindTypentest(), typalbumInit()
+
+### Community 281 - "Community 281"
+Cohesion: 0.24
+Nodes (7): quizIntroScreen(), quizPage(), quizQuestionScreen(), quizResultScreen(), suchePage(), _sucheResults(), _sucheResultsHtml()
+
+### Community 282 - "Community 282"
+Cohesion: 0.33
+Nodes (6): _squizBestKey(), _squizNextRound(), _squizPickQuestion(), _squizRerender(), _squizSaveBest(), _squizShuffle()
+
+### Community 283 - "Community 283"
+Cohesion: 0.33
+Nodes (5): INSTINKTE, TRIADEN, TYPFRAGEN, TYPKURZ, TYPNAMEN
+
+### Community 284 - "Community 284"
+Cohesion: 0.40
+Nodes (5): favoritenPage(), _getFavs(), _isFav(), _setFavs(), _toggleFav()
+
+### Community 285 - "Community 285"
+Cohesion: 0.40
+Nodes (5): favoritenPage(), _getFavs(), _isFav(), _setFavs(), _toggleFav()
+
+### Community 286 - "Community 286"
+Cohesion: 0.33
+Nodes (4): gesichtsScanPage(), _gsContactBlockHTML(), libraryPage(), werkSection()
+
+### Community 287 - "Community 287"
+Cohesion: 0.50
+Nodes (4): davidRathmerErfolgsinterviewsPage(), davidRathmerKriminalfaellePage(), davidRathmerPersoenlichkeitenPage(), _davidVideoPage()
+
+### Community 288 - "Community 288"
+Cohesion: 0.50
+Nodes (4): davidRathmerErfolgsinterviewsPage(), davidRathmerKriminalfaellePage(), davidRathmerPersoenlichkeitenPage(), _davidVideoPage()
+
+### Community 289 - "Community 289"
+Cohesion: 0.50
+Nodes (4): gemerkteImpulsePage(), _getGemerkteImpulse(), _saveImpuls(), _setGemerkteImpulse()
+
+### Community 290 - "Community 290"
+Cohesion: 0.50
+Nodes (4): enneagrammRadPage(), radBlur(), radFocus(), radInfoHtml()
+
+### Community 291 - "Community 291"
+Cohesion: 0.50
+Nodes (4): davidRathmerErfolgsinterviewsPage(), davidRathmerKriminalfaellePage(), davidRathmerPersoenlichkeitenPage(), _davidVideoPage()
+
+### Community 292 - "Community 292"
+Cohesion: 0.50
+Nodes (4): gemerkteImpulsePage(), _getGemerkteImpulse(), _saveImpuls(), _setGemerkteImpulse()
+
+### Community 293 - "Community 293"
+Cohesion: 0.50
+Nodes (4): quizIntroScreen(), quizPage(), quizQuestionScreen(), quizResultScreen()
+
+### Community 294 - "Community 294"
+Cohesion: 0.50
+Nodes (4): davidRathmerErfolgsinterviewsPage(), davidRathmerKriminalfaellePage(), davidRathmerPersoenlichkeitenPage(), _davidVideoPage()
+
+### Community 295 - "Community 295"
+Cohesion: 0.33
+Nodes (4): enDailyBody(), gesichtsScanPage(), _gsContactBlockHTML(), toolsPage()
+
+### Community 296 - "Community 296"
+Cohesion: 0.67
+Nodes (3): albumDb(), albumGet(), albumSet()
+
+### Community 297 - "Community 297"
+Cohesion: 0.67
+Nodes (3): albumDb(), albumGet(), albumSet()
+
+### Community 298 - "Community 298"
+Cohesion: 0.67
+Nodes (3): musterradarAllPortraits(), musterradarDetailPage(), musterradarMatches()
+
+### Community 299 - "Community 299"
+Cohesion: 0.67
+Nodes (3): albumDb(), albumGet(), albumSet()
+
+### Community 300 - "Community 300"
+Cohesion: 0.67
+Nodes (3): albumDb(), albumGet(), albumSet()
+
+### Community 301 - "Community 301"
+Cohesion: 0.67
+Nodes (3): llFluchtBlur(), llFluchtFocus(), llFluchtInfoHtml()
+
+### Community 302 - "Community 302"
+Cohesion: 0.67
+Nodes (3): llUnvBlur(), llUnvFocus(), llUnvInfoHtml()
+
+### Community 303 - "Community 303"
+Cohesion: 0.67
+Nodes (3): llWingBlur(), llWingFocus(), llWingInfoHtml()
+
+### Community 304 - "Community 304"
+Cohesion: 0.67
+Nodes (3): radBlur(), radFocus(), radInfoHtml()
+
+### Community 305 - "Community 305"
+Cohesion: 0.67
+Nodes (3): suchePage(), _sucheResults(), _sucheResultsHtml()
+
+### Community 306 - "Community 306"
+Cohesion: 0.67
+Nodes (3): tierquizPage(), _tqBtn(), _tqProgress()
+
 ## Knowledge Gaps
 - **1479 isolated node(s):** `serve.sh script`, `social-media-cron.sh script`, `__dirname`, `files`, `chunks` (+1474 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **29 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **43 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `registerEntries` connect `Community 28` to `Community 4`, `Community 7`, `Community 10`, `Community 11`, `Community 12`, `Community 13`, `Community 14`, `Community 17`?**
-  _High betweenness centrality (0.157) - this node is a cross-community bridge._
-- **Why does `registerEntriesEN` connect `Community 28` to `Community 4`, `Community 7`, `Community 10`, `Community 11`, `Community 12`, `Community 13`, `Community 14`, `Community 17`?**
-  _High betweenness centrality (0.157) - this node is a cross-community bridge._
-- **Why does `fetch()` connect `Community 50` to `Community 97`, `Community 98`, `Community 99`, `Community 68`, `Community 100`, `Community 17`, `Community 146`, `Community 49`, `Community 86`, `Community 94`, `Community 92`, `Community 93`, `Community 126`, `Community 95`?**
-  _High betweenness centrality (0.020) - this node is a cross-community bridge._
+- **Why does `registerEntries` connect `Community 307` to `Community 4`, `Community 7`, `Community 10`, `Community 11`, `Community 12`, `Community 13`, `Community 14`, `Community 17`, `Community 28`?**
+  _High betweenness centrality (0.158) - this node is a cross-community bridge._
+- **Why does `registerEntriesEN` connect `Community 307` to `Community 4`, `Community 7`, `Community 10`, `Community 11`, `Community 12`, `Community 13`, `Community 14`, `Community 17`, `Community 28`?**
+  _High betweenness centrality (0.158) - this node is a cross-community bridge._
+- **Why does `fetch()` connect `Community 50` to `Community 97`, `Community 98`, `Community 99`, `Community 68`, `Community 100`, `Community 270`, `Community 49`, `Community 146`, `Community 86`, `Community 94`, `Community 92`, `Community 93`, `Community 126`, `Community 95`?**
+  _High betweenness centrality (0.017) - this node is a cross-community bridge._
 - **What connects `serve.sh script`, `social-media-cron.sh script`, `__dirname` to the rest of the system?**
   _1486 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
@@ -1100,4 +1434,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `Community 1` be split into smaller, more focused modules?**
   _Cohesion score 0.053246753246753244 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.029787234042553193 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.032319314830525595 - nodes in this community are weakly interconnected._
