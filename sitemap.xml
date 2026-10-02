@@ -5371,6 +5371,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://kompass.verlagshausrathmer.com/beruehmte-michaela-benthaus/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kompass.verlagshausrathmer.com/beruehmte-dieter-nuhr/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -9800,6 +9806,12 @@
   </url>
   <url>
     <loc>https://kompass.verlagshausrathmer.com/en/beruehmte-ida-pfeiffer/</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://kompass.verlagshausrathmer.com/en/beruehmte-michaela-benthaus/</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
