@@ -2337,3 +2337,65 @@ export function viktorFranklPortraitPage() {
     </div>
   `);
 }
+
+export function palinaRojinskiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-palina-rojinski-portrait.jpg" alt="Palina Rojinski – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Palina Rojinski</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Moderatorin, Schauspielerin und DJane, geb. 1985 &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua, der sechs Stunden täglich trainierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> trägt sein ganzes Innenleben nach außen, auch wenn sein Körper kaum Platz dafür zu bieten scheint: jede Regung sofort sichtbar, jede Empfindung in voller Lautstärke, kein Rest an Zurückhaltung. Palina Rojinski kennt dieses Verhältnis nicht erst aus der Öffentlichkeit, sondern aus einem Trainingssaal: Mit vier Jahren begann sie in Leningrad mit rhythmischer Sportgymnastik, sechs Stunden täglich, bis sie als Jugendliche zweifache Deutsche Meisterin bei den Juniorinnen wurde – ein kleiner Körper, über Jahre auf maximale Ausdruckskraft trainiert.</p>
+          <p class="vb-intro">Rojinski wurde am 21. April 1985 in Leningrad, dem heutigen Sankt Petersburg, geboren und kam im März 1991, kurz vor ihrem sechsten Geburtstag, als jüdische Kontingentflüchtlingsfamilie nach Berlin. Mit vierzehn musste sie den Sport wegen chronischer Knieprobleme aufgeben; nach einigen Übergangsjahren im Tanz machte sie in Berlin Abitur und begann ein Literatur- und Geschichtsstudium an der Humboldt-Universität – drei Semester, bevor sie 2009 als Sidekick von Joko Winterscheidt und Klaas Heufer-Umlauf bei MTV Home vor die Kamera wechselte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Intensität, die nicht leiser werden will</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> nennt Naranjo ›Konkurrenzneid‹: Sie sucht Bedeutung nicht im Rückzug, sondern in einer Intensität, die auffällt und sich im Vergleich mit anderen beweisen will. Im Rückblick auf ihre ersten Jahre vor der Kamera beschrieb Rojinski im Podcast ›Hotel Matze‹ ein überwiegend von Männern geprägtes Umfeld und sich selbst als ›so traurig am Anfang meiner Karriere‹ – eine Traurigkeit, die sie nicht lähmte, sondern antrieb: ›Es war gut, dass ich traurig war, weil sie mich dazu gebracht hat, dass ich noch viel intensiver mich damit beschäftigt hab.‹ Die sexuelle Vier verwandelt Schmerz nicht in Rückzug, sondern in verstärkten Einsatz.</p>
+          <p class="vb-intro">Dieselbe Intensität erklärt, warum Rojinski sich bis heute gegen ein bestimmtes Klischee wehrt: ›Ich werde immer noch sehr oft unterschätzt‹, sagte sie im selben Gespräch – eine Zuschreibung, die sie auf das Bild einer modisch gekleideten, attraktiven Frau zurückführt, der man Tiefe nicht ohne Weiteres zutraut. Ihre Reaktion bleibt typisch für die Vier: kein öffentliches Aufbegehren, sondern beharrliches Weiterarbeiten an der eigenen Kompetenz. Hinter der omnipräsenten Fernsehfigur steht, nach eigener Aussage, ein anderer Mensch: ›Im Rampenlicht selber nichts. Ich mag das Rampenlicht gar nicht so gerne. Ich bin eigentlich eher schüchtern.‹ Die sexuelle Vier baut die auffälligste Bühne ausgerechnet dort, wo sie sich selbst am wenigsten zu Hause fühlt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Aus einer Bühne werden fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der Vier ein strategisches Gespür dafür, wie sich Intensität in tragfähige, wiedererkennbare Formate übersetzen lässt. Nach den MTV- und VIVA-Jahren wurde Rojinski ab 2013 als feste Sidekick-Figur bei ›Circus HalliGalli‹ einem breiten Publikum bekannt und etablierte sich parallel als Schauspielerin: 2015 in der Hauptrolle neben Elyas M'Barek in ›Traumfrauen‹, 2016 in ›Willkommen bei den Hartmanns‹, seit 2024 als feste Jurorin bei ›The Masked Singer‹. Dabei wird oft übersehen, dass die körperliche Präzision, mit der sie durch Dauerproben, Slapstick-Elemente und spontane Live-Aktionen navigierte, kein Zufall ist, sondern das Erbe von zehn Jahren Hochleistungssport: ein Körpergefühl, das unter Termindruck, Kameras und improvisierter Komik ebenso diszipliniert funktioniert wie einst auf der Wettkampffläche.</p>
+          <p class="vb-intro">Noch deutlicher zeigt sich der Dreierflügel in der schieren Zahl eigenständiger Marken, die Rojinski parallel aufbaute: eine DJ-Karriere unter dem Namen ›Palina Power‹, der Podcast ›Podkinski‹ (2019–2021) mit Gästen wie Guido Maria Kretschmer und Sylvie Meis, das Astrologie-Projekt ›Astrolinski‹ mit eigener Modelinie, dazu der Bestseller ›Folge deinen Sternen‹ (2022). Keine dieser Spuren ersetzt die andere – die sexuelle Vier mit Dreierflügel vervielfältigt die Bühne, statt sich auf eine einzige festzulegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX4w3 liegt darin, eine frühe, auch schmerzhafte Fremdheit – als Kind einer russisch-jüdischen Einwandererfamilie, als junge Frau in einem männerdominierten Fernsehbetrieb – nicht zu verbergen, sondern in eine über anderthalb Jahrzehnte tragfähige, vielfach diversifizierte öffentliche Karriere zu verwandeln. 2018 kehrte Rojinski als Reporterin der Sendung ›Unser Russland‹ zur Fußball-WM ausdrücklich zu ihrer eigenen Herkunftsgeschichte zurück, statt sie unsichtbar zu lassen.</p>
+          <p class="vb-intro">Der Schatten zeigt sich darin, dass dieselbe Intensität, die beruflich trägt, privat fast vollständig abgeschirmt bleibt. Über ihre Beziehungen spricht Rojinski praktisch nie; als sie sich Anfang 2022 im Gespräch mit der ›Süddeutschen Zeitung‹ unabsichtlich zu ihrer Verlobung verplapperte, bestätigte dies erst im Nachhinein ihr Management. Die sexuelle Vier öffnet sich öffentlich in beinahe jeder Hinsicht – außer in der einen, die ihr am wichtigsten ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Chihuahua nach dem Training</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Trainingssaal, in dem eine Vierjährige lernte, ihre volle Intensität in eine kontrollierte Form zu bringen, existiert längst nicht mehr – die Bühnen, auf denen dieselbe Intensität heute sichtbar wird, haben sich seither vervielfacht: Fernsehstudio, DJ-Pult, Buchcover, Modelabel. Was bleibt, ist genau jenes Prinzip, das Naranjo der sexuellen Vier zuschreibt: ein kleiner Rahmen, der nie ganz ausreicht, um zu fassen, was darin an Energie steckt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("enneagramm-zoo", "27 Tierporträts – jedes Subtyp-Tier mit Charakter, Biologie und Enneagramm-Bezug.", "Enneagramm-Zoo")}
+      ${bookTip("archetypen-der-tiere-im-enneagramm", "Die archetypischen Tiere der 9 Typen als innere Landkarte – Bilder, die sofort wirken.", "Archetypen der Tiere im Enneagramm")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx4", label:"Lebensmusterkompass: SX4 – Chihuahua"},
+        {route:"beruehmte-paris-hilton", label:"Porträt: Paris Hilton (SX4w3) – dieselbe Tierentsprechung, dieselbe öffentliche Kunstfigur als Schutzschild"},
+        {route:"beruehmte-david-garrett", label:"Porträt: David Garrett (SX4w3)"},
+        {route:"beruehmte-billie-eilish", label:"Porträt: Billie Eilish (SX4w3)"},
+      ])}
+    </div>
+  `);
+}

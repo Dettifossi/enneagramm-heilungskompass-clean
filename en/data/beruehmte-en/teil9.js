@@ -2331,3 +2331,65 @@ export function paulBocusePortraitPage() {
     </div>
   `);
 }
+
+export function palinaRojinskiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-palina-rojinski-portrait.jpg" alt="Palina Rojinski – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Palina Rojinski</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">TV host, actress and DJ, born 1985 &ndash; Animal correspondence: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua who trained six hours a day</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> carries its entire inner life on the outside, even though its body barely seems to have room for it: every impulse instantly visible, every feeling at full volume, no reserve left over. Palina Rojinski knows this ratio not from public life first, but from a training hall: at four she began rhythmic gymnastics in Leningrad, six hours a day, until as a teenager she became two-time German junior champion &ndash; a small body, trained for years toward maximum expressive force.</p>
+          <p class="vb-intro">Rojinski was born on April 21, 1985, in Leningrad, today's Saint Petersburg, and came to Berlin in March 1991, shortly before her sixth birthday, as part of a Jewish quota-refugee family. At fourteen she had to give up the sport because of chronic knee problems; after a few transitional years in dance, she finished school in Berlin and began studying literature and history at Humboldt University &ndash; three semesters, before television called in 2009 and she became a sidekick to Joko Winterscheidt and Klaas Heufer-Umlauf on MTV Home.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Four: intensity that refuses to quiet down</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>Sexual Four (SX4)</strong> "Competition": it looks for significance not in withdrawal, but in an intensity that stands out and wants to prove itself against others. Looking back on her first years on camera, Rojinski described, on the podcast "Hotel Matze," a mostly male-dominated environment and herself as "so traurig am Anfang meiner Karriere" ("so sad at the start of my career") &ndash; a sadness that didn't paralyze her but drove her: "Es war gut, dass ich traurig war, weil sie mich dazu gebracht hat, dass ich noch viel intensiver mich damit beschäftigt hab" ("it was good that I was sad, because it made me engage with it even more intensely"). The Sexual Four turns pain not into retreat, but into redoubled effort.</p>
+          <p class="vb-intro">The same intensity explains why Rojinski still pushes back against one particular cliché: "Ich werde immer noch sehr oft unterschätzt" ("I still get underestimated very often"), she said in the same conversation &ndash; an assumption she traces to the image of a fashionably dressed, attractive woman whom people don't readily credit with depth. Her response stays true to the Four: no public outcry, just persistent work on her own competence. Behind the omnipresent television figure stands, by her own account, a different person: "Im Rampenlicht selber nichts. Ich mag das Rampenlicht gar nicht so gerne. Ich bin eigentlich eher schüchtern" ("In the spotlight itself, nothing. I don't actually like the spotlight that much. I'm actually quite shy"). The Sexual Four builds its most unmissable stage exactly where it feels least at home.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: one stage becomes five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Four a strategic sense for translating intensity into durable, recognizable formats. After her MTV and VIVA years, Rojinski became known to a wide audience as a regular sidekick on "Circus HalliGalli" starting in 2013, while building a parallel career as an actress: a lead role opposite Elyas M'Barek in "Traumfrauen" (2015), a role in "Willkommen bei den Hartmanns" (2016), and a permanent seat on the jury of "The Masked Singer" since 2024. What often goes unnoticed is that the physical precision with which she navigated endless rehearsals, slapstick bits, and spontaneous live stunts is no accident, but the direct legacy of ten years of competitive sport: a body awareness that functions just as disciplined under deadline pressure, cameras, and improvised comedy as it once did on the competition floor.</p>
+          <p class="vb-intro">The Three-wing shows even more clearly in the sheer number of independent brands Rojinski built in parallel: a DJ career under the name "Palina Power," the podcast "Podkinski" (2019&ndash;2021) with guests such as Guido Maria Kretschmer and Sylvie Meis, the astrology project "Astrolinski" with its own fashion line, and the bestselling book "Folge deinen Sternen" ("Follow Your Stars," 2022). None of these tracks replaces another &ndash; the Sexual Four with a Three-wing multiplies the stage instead of settling on a single one.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX4w3 lies in taking an early, sometimes painful sense of being different &ndash; as the child of a Russian-Jewish immigrant family, as a young woman in a male-dominated TV industry &ndash; and turning it, not into concealment, but into a public career spanning a decade and a half, carried by constant diversification. In 2018, Rojinski returned as a reporter for the show "Unser Russland" during the football World Cup explicitly to her own family history instead of leaving it unseen.</p>
+          <p class="vb-intro">The shadow shows in how the same intensity that carries her career stays almost entirely shielded in private. Rojinski all but never talks about her relationships; when she unintentionally let slip her engagement in an interview with the "Süddeutsche Zeitung" in early 2022, her management only confirmed it afterward. The Sexual Four opens itself publicly in nearly every respect &ndash; except in the one that matters to her most.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Chihuahua after training</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The training hall where a four-year-old learned to channel her full intensity into a controlled form no longer exists &ndash; the stages on which that same intensity becomes visible today have since multiplied: TV studio, DJ booth, book cover, fashion label. What remains is exactly the principle Naranjo ascribed to the Sexual Four: a small frame that never quite manages to contain the energy inside it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("enneagramm-zoo", "27 Animal Portraits – each Subtype animal with character, biology and Enneagram connection.", "Enneagramm-Zoo")}
+      ${bookTip("archetypen-der-tiere-im-enneagramm", "The archetypal animals of the 9 types as an inner map – images that work instantly.", "Archetypen der Tiere im Enneagramm")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"lebensmusterkompass/sx4", label:"Life Pattern Compass: SX4 – Chihuahua"},
+        {route:"beruehmte-paris-hilton", label:"Portrait: Paris Hilton (SX4w3) – the same animal correspondence, the same public persona as a shield"},
+        {route:"beruehmte-david-garrett", label:"Portrait: David Garrett (SX4w3)"},
+        {route:"beruehmte-billie-eilish", label:"Portrait: Billie Eilish (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
