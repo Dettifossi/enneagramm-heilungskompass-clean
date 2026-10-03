@@ -2349,3 +2349,72 @@ export function paulBocusePortraitPage() {
     </div>
   `);
 }
+
+export function fionaHarveyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-fiona-harvey-portrait.jpg" alt="Fiona Harvey – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fiona Harvey</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Britische Journalistin, geb. 1972 &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> verbringt den größten Teil seines Lebens untergetaucht in ein und demselben Fluss – kaum auffällig von der Oberfläche aus, aber genau registrierend, was sich an seinen Ufern verändert. Es wechselt sein Gewässer nicht, sobald anderswo mehr Aufmerksamkeit lockt; es bleibt, taucht tiefer, und kennt am Ende jede Strömung besser als jedes Tier, das nur zu Besuch vorbeizog.</p>
+          <p class="vb-intro">Die britische Journalistin Fiona Harvey, geboren 1972, schloss 1993 ihr Studium der englischen Literatur am Christ's College der Universität Cambridge ab. Ihren beruflichen Einstieg fand sie 1994 nicht im späteren Kernthema, sondern als Redakteurin bei der britischen IT-Fachzeitschrift PC Week – ein nüchterner, technisch-präziser Anfang, bevor sie im Jahr 2000 als IT- und Telekommunikationsreporterin zur Financial Times wechselte und von dort aus langsam ins Umweltressort hineinwuchs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Fürsorge durch Anwesenheit vor Ort</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo <em>Me First</em>: Fürsorge wird nicht abstrakt oder aus der Distanz geleistet, sondern konkret, direkt und meist mit dem eigenen Körper am Ort des Geschehens. Seit 2004 berichtet Fiona Harvey hauptberuflich über Umweltthemen – zunächst für die Financial Times, seit 2011 für den Guardian – und hat seither nahezu jede UN-Klimakonferenz der Vertragsstaaten (COP) persönlich besucht, von der Arktis bis zum Amazonas, statt die Verhandlungen aus der Londoner Redaktion heraus zu kommentieren.</p>
+          <p class="vb-intro">Diese Fürsorge zeigt sich nicht in großen Gesten, sondern im beharrlichen Kleinklein journalistischer Vor-Ort-Arbeit: Delegierte über Jahre persönlich kennen, Verhandlungstexte in Echtzeit durcharbeiten, nachts in überfüllten Konferenzzentren auf das entscheidende Komma in einer Abschlusserklärung warten. Für die SE2 ist Fürsorge für ein Millionenpublikum zuerst eine Frage der eigenen, körperlich geleisteten Präsenz – nicht der öffentlichen Geste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Reichweite durch nachgewiesene Kompetenz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Zwei den Hunger nach Wirkung und sichtbarer Anerkennung für das eigene Können – nicht durch Selbstdarstellung, sondern durch nachweisbare fachliche Autorität. Harveys Interviewpartner lesen sich wie ein Who's who der internationalen Klimapolitik: UN-Generalsekretär António Guterres und sein Vorgänger Ban Ki-moon, der frühere britische Premierminister Tony Blair, der frühere sowjetische Staatschef Michail Gorbatschow sowie der Naturforscher Sir David Attenborough.</p>
+          <p class="vb-intro">Diese Reichweite wurde mehrfach offiziell honoriert: zweimal der Preis der Foreign Press Association für die Umweltgeschichte des Jahres (2005 und 2007), die Auszeichnung als Journalistin des Jahres bei den British Environment and Media Awards (2007), der globale Preis der Society of Environmental Journalists für herausragende Ressortberichterstattung zur COP26 (2022), ein Covering-Climate-Now-Preis (2024) sowie die Aufnahme in die BBC-Woman's-Hour-Liste der 30 einflussreichsten britischen Frauen für den Planeten (2020). Für den Dreierflügel zählt dabei weniger die Bühne selbst als der Beweis, dass die eigene Arbeit etwas bewirkt hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die fachliche Substanz: Urteilskraft aus zwei Jahrzehnten derselben Verhandlung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Fiona Harvey von der wechselnden Besetzung der internationalen Presse bei jedem neuen Klimagipfel unterscheidet, ist keine bloße Fleißleistung, sondern eine sehr konkrete fachliche Fähigkeit: die Einordnung komplexer, über Jahre verhandelter Beschlüsse in ihren tatsächlichen historischen Kontext, statt sie in die Schlagzeile von einem einzigen Gipfeltag zu pressen. Vor der COP26 in Glasgow 2021 warnte sie öffentlich davor, denselben Fehler wie bei der COP15 in Kopenhagen 2009 zu wiederholen, die seinerzeit fast einhellig als Scheitern verbucht wurde – obwohl dort erstmals die USA und China gemeinsam zu Emissionsminderungen verpflichtet wurden und Entwicklungsländer erstmals eigene Zusagen zur Begrenzung ihres Emissionswachstums machten.</p>
+          <p class="vb-intro">Diese Fähigkeit, einen einzelnen Verhandlungstag gegen zwei Jahrzehnte eigener Beobachtung zu spiegeln, statt gegen die Erwartung einer Schlagzeile, ist genau das Handwerk, das 2022 mit dem SEJ-Preis für herausragende Beat-Berichterstattung ausgezeichnet wurde: nicht die einzelne Story, sondern die über Jahre aufgebaute Fähigkeit, ein und dasselbe, hochkomplexe Thema immer wieder neu, aber nie beliebig einzuordnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Leidenschaft: Stolz als stille Fachautorität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Zwei heißt <strong>Stolz</strong> – bei der SE2w3 gerichtet auf die eigene Unentbehrlichkeit und die öffentlich nachweisbare Wirkung des eigenen Handelns. Bei Fiona Harvey zeigt sich dieser Stolz nicht als Selbstinszenierung: Über ihr Privatleben ist öffentlich kaum etwas bekannt, sie tritt selten als Person in den Vordergrund, sondern lässt die Verlässlichkeit ihrer Einordnung für sich sprechen – ein typisches Muster der Selbsterhaltungsinstinkt-Variante, deren Sicherheit aus nachgewiesener, stiller Kompetenz entsteht, nicht aus öffentlicher Bühnenpräsenz.</p>
+          <p class="vb-intro">Der Stolz der SE2w3 richtet sich hier auf eine sehr spezifische Unentbehrlichkeit: die einzige Person im Presseraum zu sein, die sich noch an die genauen Zusagen von Kopenhagen 2009 erinnert, wenn in Glasgow oder Baku über angeblich ›historische‹ Durchbrüche berichtet wird. Diese Art von Stolz verlangt keine Bühne – sie verlangt, über Jahrzehnte hinweg die verlässlichste Stimme im Raum geblieben zu sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Die Konstante im wechselnden Nachrichtenzyklus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Während sich die mediale Aufmerksamkeit für Klimapolitik seit den frühen 2000er-Jahren in Wellen bewegt hat – mal verebbend, mal durch einzelne Ereignisse neu entfacht –, blieb Fiona Harveys Berichterstattung die ganze Zeit über konstant präsent, von Kyoto-Nachfolgeverhandlungen über Kopenhagen, Paris und Glasgow bis in die Gegenwart. Freie Beiträge für Scientific American, New Scientist und die Encyclopaedia Britannica erweiterten diese Konstanz zusätzlich über die Tagesaktualität hinaus in die längerfristige Wissensvermittlung.</p>
+          <p class="vb-intro">Das Flusspferd verlässt sein angestammtes Gewässer nicht, auch wenn sich die Nachrichtenlage ringsum ständig verschiebt – zwei Jahrzehnte im selben Fluss sind für Fiona Harvey kein Stillstand, sondern die Grundlage, auf der sich die Art von abwägendem, kenntnisreichem Urteil erst entwickeln kann, die ein einzelner Konferenzbesuch niemals liefern könnte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-ai-weiwei", label:"Porträt: Ai Weiwei (SE2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Porträt: Carlos Santana (SE2w3)"},
+        {route:"beruehmte-uli-hoeness", label:"Porträt: Uli Hoeneß (SE2w3)"},
+        {route:"beruehmte-nusrat-fateh-ali-khan", label:"Porträt: Nusrat Fateh Ali Khan (SE2w3)"},
+        {route:"beruehmte-caren-miosga", label:"Porträt: Caren Miosga (SE3w4) – Journalistin"},
+        {route:"beruehmte-ranga-yogeshwar", label:"Porträt: Ranga Yogeshwar (SO2w1) – Wissenschaftsjournalist"},
+      ])}
+    </div>
+  `);
+}

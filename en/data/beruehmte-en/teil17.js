@@ -2347,3 +2347,72 @@ export function adrianoCelentanoPortraitPage() {
     </div>
   `);
 }
+
+export function fionaHarveyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-fiona-harvey-portrait.jpg" alt="Fiona Harvey – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fiona Harvey</p>
+        <p class="krim-portrait-typ">SP2w3 &middot; Self-Preservation Type 2 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">British journalist, b. 1972 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hippopotamus</strong> spends most of its life submerged in the same river &ndash; barely visible from the surface, yet precisely tracking every change along its banks. It does not switch rivers when another one looks more exciting; it stays, dives deeper, and in the end knows every current better than any animal that only passed through.</p>
+          <p class="vb-intro">The British journalist Fiona Harvey, born in 1972, graduated in 1993 with a degree in English literature from Christ's College, Cambridge. Her career began in 1994 not in the field that would later define her, but as an editor at the British trade publication PC Week &ndash; a sober, fact-driven start, before she moved to the Financial Times in 2000 as an IT and telecommunications reporter and gradually grew into the environment desk from there.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Self-Preservation Two: Care Through Presence on the Ground</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation Two (SP2)</strong> <em>Me First</em>: care is not given abstractly or from a distance, but concretely, directly, usually with one's own body present at the scene. Since 2004, Fiona Harvey has covered environmental issues full time &ndash; first for the Financial Times, since 2011 for the Guardian &ndash; and has attended nearly every UN Climate Change Conference (COP) in person ever since, from the Arctic to the Amazon, rather than commenting on the negotiations from a London newsroom.</p>
+          <p class="vb-intro">This care shows itself not in grand gestures but in the persistent small work of on-the-ground journalism: knowing delegates personally over years, working through negotiating texts in real time, waiting through the night in overcrowded conference centres for the decisive comma in a final declaration. For the SP2, caring for a mass audience is first and foremost a matter of one's own, physically delivered presence &ndash; not a public gesture.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Reach Through Proven Competence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Two a hunger for impact and visible recognition for her ability &ndash; not through self-promotion, but through demonstrable professional authority. Harvey's list of interviewees reads like a who's who of international climate politics: UN Secretary-General António Guterres and his predecessor Ban Ki-moon, former British Prime Minister Tony Blair, former Soviet leader Mikhail Gorbachev, and naturalist Sir David Attenborough.</p>
+          <p class="vb-intro">This reach has been honoured repeatedly: twice the Foreign Press Association award for Environment Story of the Year (2005 and 2007), the British Environment and Media Awards Journalist of the Year (2007), the global Society of Environmental Journalists award for outstanding beat reporting on COP26 (2022), a Covering Climate Now award (2024), and a place on the BBC Woman's Hour Power List of 30 top UK women for the planet (2020). For the Three-wing, what matters is less the stage itself than the proof that one's own work has made a difference.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Professional Substance: Judgment Built from Two Decades of the Same Negotiation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Fiona Harvey apart from the rotating cast of international press at each new climate summit is not mere diligence but a very concrete professional skill: placing complex, years-in-the-making decisions into their actual historical context instead of compressing them into a single day's headline. Ahead of COP26 in Glasgow in 2021, she publicly warned against repeating the mistake of COP15 in Copenhagen in 2009, which was almost universally written up as a failure at the time &ndash; even though it produced, for the first time, joint commitments from the US and China to cut emissions and the first pledges from developing countries to curb their future emissions growth.</p>
+          <p class="vb-intro">This ability to measure a single negotiating day against two decades of her own observation, rather than against the expectation of a headline, is exactly the craft that earned her the 2022 SEJ award for outstanding beat reporting: not the single story, but the capacity, built up over years, to place one and the same, highly complex subject in a fresh light again and again without ever treating it carelessly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Passion: Pride as Quiet Expertise</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Two is called <strong>pride</strong> &ndash; in the SP2w3, directed at one's own indispensability and the publicly demonstrable impact of one's work. In Fiona Harvey's case, this pride shows itself not as self-dramatisation: little is publicly known about her private life, she rarely steps into the foreground as a person, and instead lets the reliability of her analysis speak for itself &ndash; a typical pattern of the self-preservation instinct variant, whose sense of security rests on proven, quiet competence rather than public visibility.</p>
+          <p class="vb-intro">The SP2w3's pride here attaches to a very specific kind of indispensability: being the one person in the press room who still remembers the exact pledges made in Copenhagen in 2009, when Glasgow or Baku is being reported as a supposedly "historic" breakthrough. This kind of pride needs no stage &ndash; it needs to have remained the most reliable voice in the room across decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: The Constant in a Shifting News Cycle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">While media attention to climate politics has moved in waves since the early 2000s &ndash; sometimes fading, sometimes reignited by a single event &ndash; Fiona Harvey's reporting stayed constantly present throughout, from the Kyoto follow-up negotiations through Copenhagen, Paris and Glasgow to the present. Freelance contributions to Scientific American, New Scientist, and the Encyclopaedia Britannica extended this constancy further, beyond the news cycle and into longer-term knowledge-sharing.</p>
+          <p class="vb-intro">The hippopotamus does not leave its home river, even as the news around it keeps shifting &ndash; for Fiona Harvey, two decades in the same river are not stagnation but the foundation on which the kind of measured, well-informed judgment can develop that a single conference visit could never deliver.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SP2w3)"},
+        {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
+        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SP2w3)"},
+        {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SP2w3)"},
+        {route:"beruehmte-caren-miosga", label:"Portrait: Caren Miosga (SP3w4) – journalist"},
+        {route:"beruehmte-ranga-yogeshwar", label:"Portrait: Ranga Yogeshwar (SO2w1) – science journalist"},
+      ])}
+    </div>
+  `);
+}
