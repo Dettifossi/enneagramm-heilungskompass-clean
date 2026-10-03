@@ -2344,3 +2344,72 @@ export function michaelMinaPortraitPage() {
     </div>
   `);
 }
+
+export function dmitriShostakovichPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dmitri-schostakowitsch-portrait.jpg" alt="Dmitri Shostakovich" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dmitri Shostakovich</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Soviet composer, 1906&ndash;1975 &ndash; Animal correspondence: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Octopus Inside a System's Armor</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>octopus</strong> is the animal of the social Five – a creature that grasps with eight arms at once, reacts with remarkable intelligence, and yet, the moment danger appears, withdraws into a sheltering den or vanishes behind a shift of color. Dmitri Shostakovich, born on 25 September 1906 in St. Petersburg, showed his extraordinary musical talent early: at nineteen he submitted his First Symphony as his graduation piece at the Leningrad Conservatory – a work performed internationally within a short time and one that made him famous almost overnight.</p>
+          <p class="vb-intro">But this early fame fell into an era in which an artist with a public voice could pay for that voice with his life. Shostakovich spent his entire adult life inside a political system that needed his art and distrusted it in equal measure – a tension that shaped his career as it did almost no other composer of the twentieth century.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Totem: Music in Service of a System Larger Than Himself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>social Five</strong> the <strong>Totem</strong>: knowledge and skill are not hoarded as private property but placed at the disposal of a larger system or cause – meaning comes from one's function within that system. From 1960, under considerable political pressure, Shostakovich took the chairmanship of the Union of Composers of the Russian SFSR and held the post until 1968 – a role that made him, officially, the country's highest-ranking musical representative.</p>
+          <p class="vb-intro">For him this was no ceremonial honor but a concrete administrative task within a vast state apparatus: funding applications, young composers, the official representation of Soviet music abroad. The octopus did not find its place outside the system but at its very center – as the one whose specialized knowledge kept the system running.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: The Private Truth in Code</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the social Five the need to express insight not in purely abstract terms but bound to one's own, often painful, personal truth. From his Violin Concerto (1947/48) through his final, Fifteenth Symphony (1971), Shostakovich wove a four-note monogram into his music: D-S-C-H, the German musical spelling of his own initials. In the Eighth String Quartet (1960), the motif runs through literally every single movement.</p>
+          <p class="vb-intro">A system that tolerated no open personal statement got one anyway – only encoded, audible only to those who knew the cipher. That is exactly the logic of the Four-wing: the deepest, most individual truth does not disappear, it merely shifts into a form that looks harmless on the surface.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Professional Substance: Counterpoint as a Lived Contest with Bach</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguished Shostakovich as a craftsman shows concretely in August 1950: serving on the jury of the Leipzig Bach Competition marking the 200th anniversary of Bach's death, he watched the 26-year-old Tatiana Nikolayeva play any of the 48 preludes and fugues from Bach's Well-Tempered Clavier on request, and win the gold medal for it. Struck by this living command of counterpoint, he began, already on 10 October 1950, his own cycle of 24 Preludes and Fugues, Op. 87 – one prelude and fugue for every major and minor key – completed on 23 February 1951 and premiered by Nikolayeva herself in Leningrad in December 1952.</p>
+          <p class="vb-intro">Writing a complete, technically demanding cycle at that pace, one that penetrates every single key contrapuntally, is not mere diligence – it is concrete proof of a mastery of strict fugue technique that scarcely any composer since Bach had demonstrated with this completeness. His Seventh Symphony, 'Leningrad', showed his orchestral mastery from another angle entirely: on 9 August 1942, in the midst of the months-long siege of Leningrad, the few surviving, partly starving musicians of the Leningrad Radio Orchestra – three died during rehearsals – gave the work its first performance in the city itself, reinforced by military musicians, having run through the piece in full only once.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO5w4 shows itself in exactly that Leningrad performance: music as a function within a larger struggle for survival, broadcast by loudspeaker even toward the besieging German troops – knowledge and skill placed entirely in service of a community that was fighting, quite literally, to survive.</p>
+          <p class="vb-intro">The shadow of the Five is <strong>avarice</strong> – in Shostakovich's case, it showed itself not as withholding knowledge but as a radical split between public function and private truth. After the anonymous Pravda campaign 'Muddle Instead of Music' in January 1936, ordered directly by Stalin, he reportedly slept for weeks fully dressed with a packed suitcase under his bed, according to his biographer Solomon Volkov, in constant expectation of a night-time arrest. In 1960, in order to officially take the chairmanship of the Union of Composers, he had to join the Communist Party – a decision that, according to his son Maxim, reduced him to tears and about which he told his wife he had been 'blackmailed'. The octopus hoarded its real truth so thoroughly that it only becomes fully graspable today through the code – the DSCH monogram, the symphonies' double meanings.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: Four Letters That Outlived Him</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dmitri Shostakovich died in Moscow on 9 August 1975. His music is still heard on two levels today: as official Soviet repertoire, performed by the world's greatest orchestras, and at the same time as a body of work full of encoded personal statements whose precise meaning musicologists still dispute – not least because of the posthumously published, disputedly authentic 'Testimony' (1979), which Solomon Volkov presented as Shostakovich's secret memoirs.</p>
+          <p class="vb-intro">The DSCH motif itself outlived its creator: composers such as Benjamin Britten took it up as a tribute. The octopus, who navigated an entire lifetime between official function and hidden truth, left behind, in the end, four notes that did what there had been no room for in life – to carry his name out in the open.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: Subtype Profile"},
+        {route:"beruehmte-albert-einstein", label:"Portrait: Albert Einstein (SO5w4)"},
+        {route:"beruehmte-hannah-arendt", label:"Portrait: Hannah Arendt (SO5w4)"},
+        {route:"beruehmte-lise-meitner", label:"Portrait: Lise Meitner (SO5w4)"},
+        {route:"beruehmte-david-hockney", label:"Portrait: David Hockney (SO5w4)"},
+        {route:"beruehmte-leonardo-da-vinci", label:"Portrait: Leonardo da Vinci (SO5w4)"},
+        {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SE9w8) – composer, 21 years on the 1st Symphony"},
+      ])}
+    </div>
+  `);
+}

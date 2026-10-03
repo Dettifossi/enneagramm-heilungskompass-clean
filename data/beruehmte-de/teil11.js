@@ -2351,3 +2351,72 @@ export function gordonRamsayPortraitPage() {
     </div>
   `);
 }
+
+export function dmitriSchostakowitschPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dmitri-schostakowitsch-portrait.jpg" alt="Dmitri Schostakowitsch – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dmitri Schostakowitsch</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Sozialer Typ 5 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Sowjetischer Komponist, 1906–1975 &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus im Panzer eines Systems</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 – ein Wesen, das mit acht Armen gleichzeitig greift, hochintelligent reagiert und sich doch, sobald Gefahr droht, in eine schützende Höhle zurückzieht oder hinter einer Tarnfarbe verschwindet. Dmitri Schostakowitsch, geboren am 25. September 1906 in St. Petersburg, zeigte sein außergewöhnliches musikalisches Talent früh: Mit neunzehn Jahren legte er am Leningrader Konservatorium seine Erste Symphonie als Abschlussarbeit vor – ein Werk, das binnen kurzer Zeit international aufgeführt wurde und ihn praktisch über Nacht bekannt machte.</p>
+          <p class="vb-intro">Doch dieser frühe Ruhm fiel in eine Zeit, die für einen Künstler mit öffentlicher Stimme lebensgefährlich werden konnte. Schostakowitsch verbrachte sein gesamtes Erwachsenenleben in einem politischen System, das seine Kunst zugleich brauchte und misstraute – eine Spannung, die seinen gesamten Werdegang prägte wie bei kaum einem anderen Komponisten des 20. Jahrhunderts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Das Totem: Musik im Dienst eines Systems, das größer ist als er selbst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nannte den <strong>sozialen Fünfer</strong> das <strong>Totem</strong>: Wissen und Können werden nicht als Privatbesitz gehütet, sondern einem größeren System oder einer größeren Sache zur Verfügung gestellt – Bedeutung entsteht durch die eigene Funktion innerhalb dieses Systems. Ab 1960 übernahm Schostakowitsch, unter erheblichem politischem Druck, den Vorsitz des Komponistenverbands der Russischen SFSR und blieb bis 1968 in dieser Funktion – eine Rolle, die ihn offiziell zum höchsten musikalischen Repräsentanten eines ganzen Landes machte.</p>
+          <p class="vb-intro">Diese Funktion war für ihn kein Ehrenamt im herkömmlichen Sinn, sondern eine konkrete Verwaltungsaufgabe innerhalb eines riesigen staatlichen Apparats: Förderanträge, Nachwuchskomponisten, offizielle Vertretung der sowjetischen Musik im Ausland. Der Oktopus fand seinen Platz nicht außerhalb des Systems, sondern mitten darin – als derjenige, dessen Spezialwissen das System am Laufen hielt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Die private Wahrheit im Code</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sozialen Fünf das Bedürfnis, Erkenntnis nicht rein abstrakt zu formulieren, sondern mit der eigenen, oft schmerzhaften persönlichen Wahrheit zu verbinden. Ab seinem Violinkonzert (1947/48) bis zu seiner letzten, 15. Symphonie (1971) webte Schostakowitsch ein viertöniges Monogramm in seine Musik: D-Es-C-H, nach deutscher Notenbezeichnung die Initialen seines eigenen Namens. Im 8. Streichquartett (1960) durchzieht dieses Motiv buchstäblich jeden einzelnen Satz.</p>
+          <p class="vb-intro">Ein System, das keine offene persönliche Aussage duldete, bekam auf diese Weise trotzdem eine – nur eben verschlüsselt, nur für die hörbar, die den Code kannten. Genau das ist Viererflügel-Logik: Die tiefste, individuellste Wahrheit verschwindet nicht, sie verlagert sich nur in eine Form, die vordergründig unverfänglich bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die fachliche Substanz: Kontrapunkt als gelebter Wettkampf mit Bach</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Schostakowitsch handwerklich auszeichnete, zeigt sich konkret im August 1950: Als Jurymitglied beim Leipziger Bach-Wettbewerb anlässlich von dessen 200. Todestag erlebte er, wie die 26-jährige Tatjana Nikolajewa alle 48 Präludien und Fugen aus Bachs ›Wohltemperiertem Klavier‹ auf Zuruf spielen konnte und damit die Goldmedaille gewann. Beeindruckt von dieser lebendigen kontrapunktischen Beherrschung begann er bereits am 10. Oktober 1950 mit einem eigenen Zyklus von 24 Präludien und Fugen, Op. 87 – eine Fuge und ein Präludium für jede der 24 Dur- und Molltonarten, fertiggestellt am 23. Februar 1951, uraufgeführt von Nikolajewa selbst im Dezember 1952 in Leningrad.</p>
+          <p class="vb-intro">Einen vollständigen, technisch anspruchsvollen Zyklus in diesem Tempo zu schreiben, der zugleich jede einzelne Tonart kontrapunktisch durchdringt, ist keine bloße Fleißleistung, sondern der konkrete Beweis einer Beherrschung der strengen Fugentechnik, die seit Bach kaum ein Komponist in dieser Vollständigkeit demonstriert hatte. Die 7. Symphonie ›Leningrader‹ wiederum zeigte seine orchestrale Meisterschaft von einer anderen Seite: Am 9. August 1942, mitten in der monatelangen Belagerung Leningrads, führten die wenigen überlebenden, teils stark ausgehungerten Musiker des Leningrader Rundfunkorchesters – drei starben während der Proben – das Werk zum ersten Mal in der Stadt selbst auf, verstärkt durch Militärmusiker, nur ein einziges Mal vollständig durchprobt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO5w4 zeigt sich in genau dieser Leningrader Aufführung: Musik als Funktion innerhalb eines größeren Überlebenskampfes, über Lautsprecher sogar in Richtung der belagernden deutschen Truppen übertragen – Wissen und Können vollständig in den Dienst einer Gemeinschaft gestellt, die buchstäblich ums Überleben kämpfte.</p>
+          <p class="vb-intro">Der Schatten der Fünf ist der <strong>Geiz</strong> – bei Schostakowitsch zeigte er sich nicht als Zurückhalten von Wissen, sondern als radikale Trennung zwischen öffentlicher Funktion und privater Wahrheit. Nach der anonymen Pravda-Kampagne ›Chaos statt Musik‹ im Januar 1936, direkt von Stalin veranlasst, schlief er laut seinem Biografen Solomon Volkow wochenlang angezogen mit einem gepackten Koffer unter dem Bett, in ständiger Erwartung der nächtlichen Verhaftung. 1960 musste er, um offiziell den Vorsitz des Komponistenverbands übernehmen zu können, der Kommunistischen Partei beitreten – eine Entscheidung, die ihn laut seinem Sohn Maxim zu Tränen rührte und bei der er seiner Frau gegenüber von ›Erpressung‹ sprach. Der Oktopus hortete seine eigentliche Wahrheit so gründlich, dass sie bis heute nur im Code – dem DSCH-Monogramm, den doppelbödigen Symphonien – wirklich greifbar wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Vier Buchstaben, die überlebt haben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am 9. August 1975 starb Dmitri Schostakowitsch in Moskau. Seine Musik wird bis heute auf zwei Ebenen gehört: als offizielles sowjetisches Repertoire, aufgeführt von den größten Orchestern der Welt, und zugleich als ein Werk voller verschlüsselter persönlicher Aussagen, über deren genaue Bedeutung Musikwissenschaftler bis heute streiten – nicht zuletzt wegen der posthum 1979 veröffentlichten, in ihrer Echtheit umstrittenen ›Erinnerungen‹ (im Original ›Testimony‹), die Solomon Volkow als Schostakowitschs geheime Memoiren präsentierte.</p>
+          <p class="vb-intro">Das DSCH-Motiv selbst überlebte seinen Schöpfer: Komponisten wie Benjamin Britten griffen es als Hommage auf. Der Oktopus, der sein Leben lang zwischen offizieller Funktion und verborgener Wahrheit navigierte, hinterließ am Ende vier Töne, die genau das taten, wofür im Leben kein Raum war – offen seinen Namen zu tragen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"beruehmte-albert-einstein", label:"Porträt: Albert Einstein (SO5w4)"},
+        {route:"beruehmte-hannah-arendt", label:"Porträt: Hannah Arendt (SO5w4)"},
+        {route:"beruehmte-lise-meitner", label:"Porträt: Lise Meitner (SO5w4)"},
+        {route:"beruehmte-david-hockney", label:"Porträt: David Hockney (SO5w4)"},
+        {route:"beruehmte-leonardo-da-vinci", label:"Porträt: Leonardo da Vinci (SO5w4)"},
+        {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8) – Komponist, 21 Jahre an der 1. Symphonie"},
+      ])}
+    </div>
+  `);
+}
