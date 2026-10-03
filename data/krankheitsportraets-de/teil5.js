@@ -4742,3 +4742,230 @@ export function dmitriHvorostovskyKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function dmitriSchostakowitschKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dmitri-schostakowitsch-portrait.jpg" alt="Dmitri Schostakowitsch" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dmitri Schostakowitsch</p>
+        <p class="krim-portrait-typ">SO5w4 · Sozialer Typ 5 mit Viererflügel · 1906–1975</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Oktopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Tierentsprechung: Oktopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Dmitri Schostakowitsch</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-dmitri-schostakowitsch">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk, das verschlüsselte
+        DSCH-Monogramm und das Leben zwischen öffentlicher Funktion und privater Wahrheit. Dieses
+        Porträt widmet sich dem Kapitel, das dort nur am Rand vorkommt: einem über zwei Jahrzehnte
+        fortschreitenden, nie sicher eingeordneten Nervenleiden der rechten Hand – und das bei
+        einem ausgebildeten Pianisten –, mehreren Herzinfarkten, Knochenbrüchen beider Beine und
+        dem Lungenkrebs eines lebenslangen Rauchers.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Schostakowitsch</strong> ist dem <strong>sozialen Typ 5 mit Viererflügel</strong>
+        zugeordnet. Die SO5 stellt Wissen und Können in den Dienst einer größeren Sache und findet
+        Sicherheit in der eigenen Funktion innerhalb eines Systems; der Viererflügel verlagert die
+        tiefste, persönlichste Wahrheit in eine verschlüsselte, aber unverwechselbare Form. Diese
+        Typisierung stützt sich auf die frühen und mittleren Lebensjahre (Funktionsübernahme,
+        Monogramm-Code, Rückzug in die Arbeit), nicht auf das Krankheitsbild der Spätzeit – siehe
+        dazu den Abschnitt zum Stresspunkt unten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein schleichender Beginn Mitte der 1950er-Jahre:</strong>
+        Nach den vorliegenden medizinhistorischen Darstellungen begannen die Beschwerden etwa 1954
+        mit nachlassender körperlicher Belastbarkeit und gelegentlichen Stürzen – noch ohne
+        erkennbares Krankheitsbild.</p>
+        <p class="vb-intro"><strong>b) Die rechte Hand wird unzuverlässig:</strong>
+        Bis 1958 war die rechte Hand deutlich geschwächt und von Missempfindungen
+        (Kribbeln, sogenannte Parästhesien) begleitet. Schwere Gegenstände ließen sich nicht mehr
+        heben, selbst alltägliche Handgriffe wie das Zähneputzen oder das Aufhängen des Mantels
+        an einem Haken fielen schwer.</p>
+        <p class="vb-intro"><strong>c) Wechselnde Diagnosen:</strong>
+        1965 vermutete ein sowjetischer Neurologe eine chronische Poliomyelitis (Kinderlähmung
+        beziehungsweise deren Spätfolgen). Andere Fachärzte erwogen eine Motoneuronerkrankung
+        (fortschreitender Untergang der für die Bewegung zuständigen Nervenzellen, etwa die
+        amyotrophe Lateralsklerose), eine rein motorische Neuropathie (Nervenschädigung), eine
+        Syringomyelie (Höhlenbildung im Rückenmark) oder einen Bandscheibenschaden der
+        Halswirbelsäule. Vor der Zeit von Computer- und Kernspintomographie ließ sich das kaum
+        unterscheiden; bis heute gilt sein Nervenleiden als nicht zweifelsfrei geklärt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Mehrere Baustellen zugleich:</strong>
+        Das Krankheitsbild war kein einzelnes Leiden, sondern ein Nebeneinander von Nervenerkrankung,
+        Herzerkrankung, wiederholten Knochenbrüchen und am Ende einer Krebserkrankung der Lunge.</p>
+        <p class="vb-intro"><strong>b) Herzinfarkte:</strong>
+        1966 erlitt er einen Herzinfarkt, der einen etwa zweimonatigen Klinikaufenthalt nach sich
+        zog; ein weiterer Infarkt folgte um 1970/71 (die Quellen nennen hier unterschiedliche
+        Jahre), ein weiterer in den letzten Lebensmonaten, nach manchen Darstellungen ein dritter am Todestag selbst.</p>
+        <p class="vb-intro"><strong>c) Stürze mit Knochenbrüchen:</strong>
+        Infolge der Gangunsicherheit stürzte er mehrfach und brach sich dabei beide Beine.</p>
+        <p class="vb-intro"><strong>d) Der Weg nach Kurgan:</strong>
+        Im Februar 1970 flog er nach Kurgan in Westsibirien, wo der Orthopäde Gawriil Ilisarow –
+        später weltweit bekannt durch den nach ihm benannten Ringfixateur, ein äußeres Gerüst zur
+        Knochenheilung und -verlängerung – seine Hände und Füße behandelte. Schostakowitsch
+        berichtete von täglicher Besserung. Bemerkenswert ist die Haltung dahinter: Der Körper wurde
+        wie ein defektes Instrument zur technischen Reparatur gebracht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Ein Pianist verliert die Verlässlichkeit seiner rechten Hand:</strong>
+        Schostakowitsch war ausgebildeter Konzertpianist und nahm 1927 am Internationalen
+        Chopin-Wettbewerb in Warschau teil, wo er ein Ehrendiplom erhielt. Dass ausgerechnet die
+        rechte Hand – im Klavierspiel meist die melodieführende – schwächer wurde, traf ihn an
+        der Stelle, an der sich Können unmittelbar in Klang verwandelt.</p>
+        <p class="vb-intro"><strong>b) Zigaretten und Wodka bis zuletzt:</strong>
+        Er rauchte über Jahrzehnte stark, vor allem die in der Sowjetunion verbreiteten Papirossi
+        (Zigaretten mit langem Pappmundstück), und trank regelmäßig Wodka. Trotz seiner
+        chronischen Erkrankungen gab er beides Berichten zufolge nie dauerhaft auf.</p>
+        <p class="vb-intro"><strong>c) Dauerhafte innere Anspannung:</strong>
+        Zeitgenossen beschrieben ihn häufig als außergewöhnlich nervös und angespannt. Nach der
+        Pravda-Kampagne vom Januar 1936 lebte er jahrelang in der Erwartung nächtlicher
+        Verhaftung (siehe das Lebenswerk-Porträt) – eine jahrzehntelange Grundspannung, die den
+        Körper nach heutigem Verständnis nicht unberührt lässt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Komponieren im Krankenhaus:</strong>
+        Seine 14. Symphonie für Sopran, Bass, Streichorchester und Schlagzeug entstand im Frühjahr
+        1969 während eines Klinikaufenthalts: ein Zyklus aus elf Vertonungen von Gedichten, die
+        sämtlich vom Tod handeln.</p>
+        <p class="vb-intro"><strong>b) Das Spätwerk als Bilanz:</strong>
+        Das Streichquartett Nr. 15 (1974) besteht aus sechs ineinander übergehenden langsamen Sätzen
+        (Adagios). Seine letzte Komposition, die Sonate für Bratsche und Klavier op. 147, vollendete
+        er am 5. Juli 1975 – gut einen Monat vor seinem Tod. Am Sterbebett soll er noch die
+        Korrekturfahnen gelesen haben.</p>
+        <p class="vb-intro"><strong>c) Tod am 9. August 1975 in Moskau:</strong>
+        Als Todesursache wird meist ein Lungenkrebs genannt, der auf das lebenslange Rauchen zurückgeführt
+        wird; manche Darstellungen nennen zusätzlich einen dritten Herzinfarkt am Todestag. Der
+        Zeitpunkt der Krebsdiagnose wird in den Quellen unterschiedlich angegeben – ein
+        gesichertes, einheitliches Bild gibt es hier nicht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Der Körper als nachrangiger Diener der Leistung:</strong>
+        Die soziale Fünf, das Totem, bezieht ihre Sicherheit aus der Funktion, die sie innerhalb
+        eines Systems erfüllt. Der Körper wird dabei leicht zum bloßen Träger der Arbeit, der
+        möglichst wenig Aufmerksamkeit beansprucht – so lange, bis er sie sich selbst verschafft.</p>
+        <p class="vb-intro"><strong>b) Je schwächer der Körper, desto offener die Innenwelt:</strong>
+        Im Spätwerk – 14. Symphonie, Streichquartett Nr. 15, Bratschensonate – tritt das Thema des
+        Viererflügels, Vergänglichkeit und Tod, deutlicher und weniger verschlüsselt hervor als in
+        den Jahrzehnten zuvor. Während die äußere Funktion bröckelte, wurde die private Wahrheit
+        hörbarer.</p>
+        <p class="vb-intro"><strong>c) Betäubung als Rhythmus des Alltags:</strong>
+        Zigaretten und Wodka lassen sich als Versuch lesen, die dauerhafte innere Spannung zu
+        dämpfen, ohne die Lebensführung selbst zu ändern – ein Ventil, das den Körper zusätzlich
+        belastete.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Die Hand als Werkzeug der Weitergabe:</strong>
+        Für eine soziale Fünf besteht Bedeutung darin, Können an eine Gemeinschaft weiterzugeben.
+        Die Hand ist das unmittelbarste Werkzeug dieser Weitergabe – sie spielt, schreibt, notiert.
+        Dass sich das Leiden ausgerechnet dort zuerst zeigte, ist eine auffällige, aber nicht
+        kausal beweisbare Fügung.</p>
+        <p class="vb-intro"><strong>b) Lunge und Rauch – Rückzug mit Qualm:</strong>
+        Der Rückzug in die Höhle ist das Grundmuster des Oktopus. Das Rauchen hat dem
+        Rückzug eine Art tragbare Höhle gegeben: ein selbst erzeugter Dunstschleier, der Abstand
+        zur Umgebung schafft und zugleich beruhigt. Dass am Ende ein Lungenleiden stand, ist
+        medizinisch durch das lebenslange Rauchen ausreichend erklärt; die Deutung als
+        Muster ist eine zusätzliche, ergänzende Lesart.</p>
+        <p class="vb-intro"><strong>c) Der Stresspunkt: Wenn die Fünf in Richtung Sieben rutscht:</strong>
+        Wer über Jahrzehnte unter chronischem Druck lebt, bewegt sich entlang der Stresslinie
+        zunehmend auf den Stresspunkt zu – bei der Fünf ist das die Sieben. Zeigen ließe sich das
+        an den späteren Lebensjahren: Betäubung durch Nikotin und Alkohol, nervöse Unruhe,
+        Flucht in Ablenkung statt konzentrierter Rückzug. Der Kerntyp bleibt dabei unverändert
+        SO5w4; die Siebenerzüge sind Stresszeichen, kein Typwechsel. Wer das Krankheitsbild der
+        Spätzeit allein betrachtete, könnte ihn leicht fälschlich bei der Sieben verorten.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet diese Organsysteme?</strong>
+        Eine plausible, aber nicht belegte Deutung: Bei der sozialen Fünf mit Viererflügel
+        lastet die ganze Spannung auf der Trennung von öffentlicher Funktion und verborgener
+        Wahrheit. Ein Leben unter Dauerbeobachtung, 1936 beginnend, ist ein Dauerstressor; Rauchen
+        und chronische Anspannung gelten allgemein als Risikofaktoren für Herz- und
+        Gefäßerkrankungen. Die Hand als Werkzeug und die Lunge als Organ des Rückzugs treffen dann
+        zwei Orte, an denen sich das Muster – Leistung durch Funktion, Beruhigung durch Rückzug –
+        körperlich abbildet. Das ist eine Interpretation, kein historisch belegter
+        Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses noch
+        ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Fünf zwangsläufig zu Nervenleiden, Herzinfarkt
+        oder Lungenkrebs führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom
+        Subtyp.</strong> Was Schostakowitschs Fall zeigt, ist ein wiederkehrendes Muster: Sicherheit
+        durch Funktion, Beruhigung durch Rückzug und Betäubung – eine von vielen möglichen
+        Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Schostakowitsch kannte sein Enneagramm-Muster nicht. Seine Lebensstrategie – Rückzug in
+        Funktion und Code, Beruhigung durch Rauch und Wodka – wirkte deshalb ungebremst. Die
+        Warnsignale des Körpers, die schwache Hand seit 1958, der Herzinfarkt 1966, behandelte er wie
+        technische Störungen, die sich beheben lassen (Kurgan), nicht als Aufforderung, das
+        Muster selbst zu ändern. Wer nicht weiß, dass sein Rückzug zugleich Spannungsregulation
+        ist, hält die Zigarette für eine Gewohnheit statt für ein Ventil. Das ist keine
+        Schuld, sondern Unwissenheit über das eigene Muster.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Parallelen im selben Subtyp</h3>
+        <p class="vb-intro"><strong>a) Hannah Arendt – derselbe Jahrgang, dasselbe Jahr des Todes:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-hannah-arendt">Hannah Arendt</a>
+        (SO5w4) wurde wie Schostakowitsch 1906 geboren und starb 1975 – im Dezember, vier
+        Monate nach ihm. Beide waren lebenslange Kettenraucher, beide erlitten Herzinfarkte, und bei
+        beiden blieb das Rauchen trotz schwerer Herzerkrankung bestehen. Arendt stieg nach ihrem ersten
+        Infarkt lediglich auf mildere Zigaretten um; Schostakowitsch gab Berichten zufolge Zigaretten
+        und Wodka nie dauerhaft auf. Der Unterschied: Arendt starb nach einem kurzen Verlauf, er nach
+        zwei Jahrzehnten schleichender Erkrankung.</p>
+        <p class="vb-intro"><strong>b) Leonardo da Vinci – die Hand, auf die es ankam:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-leonardo-da-vinci">Leonardo</a>
+        (SO5w4) verlor nach einem Schlaganfall die Verlässlichkeit der rechten Hand, stellte auf die
+        linke um und arbeitete weiter. Auch Schostakowitsch arbeitete trotz der geschwächten
+        rechten Hand bis in die letzten Wochen. Bei beiden wird die Hand nicht zum Ende der Arbeit,
+        sondern zur Hürde, die sich umgehen lässt.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>c) Albert Einstein – Arbeit am Sterbebett:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-albert-einstein">Einstein</a>
+        (SO5w4) arbeitete bis in die letzte Nacht an Gleichungen; Schostakowitsch korrigierte
+        am Sterbebett die Druckfahnen seiner letzten Sonate. Das Muster des ungebremsten Weiterarbeitens
+        trägt sich über alle drei Fälle hinweg.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">8. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Schostakowitschs</strong> Krankengeschichte lässt sich die soziale Fünf mit
+        Viererflügel noch einmal klar ablesen: eine Hand, die dem Pianisten und Komponisten
+        schwächer wurde, ein Körper, der wie ein defektes Instrument zur Reparatur nach Sibirien
+        geflogen wurde, Rauch und Wodka als tragbare Höhle, und ein Spätwerk, das über den Tod
+        spricht, solange die Kraft reicht. Der Oktopus, der sich in seine Höhle zurückzog und dort
+        weiterkomponierte, solange ihm eine Hand gehorchte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-dmitri-schostakowitsch", label:"Porträt: Dmitri Schostakowitsch (SO5w4) – Lebenswerk"},
+        {route:"krankheitsportraets-hannah-arendt", label:"Krankheitsporträt: Hannah Arendt (SO5w4) – gleicher Jahrgang, gleiches Sterbejahr, Rauchen"},
+        {route:"krankheitsportraets-leonardo-da-vinci", label:"Krankheitsporträt: Leonardo da Vinci (SO5w4) – rechte Hand, weitergearbeitet"},
+        {route:"krankheitsportraets-albert-einstein", label:"Krankheitsporträt: Dr. Albert Einstein (SO5w4) – Arbeit bis zuletzt"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/so5", label:"Subtyp-Profil SO5"},
+      ])}
+    </div>
+  `);
+}

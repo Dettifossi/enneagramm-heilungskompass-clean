@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2436", date: "2026-10-03", text: "Neues Krankheitsporträt: Dmitri Schostakowitsch (SO5w4) – Nervenleiden der rechten Hand, Herzinfarkte, Lungenkrebs.", text_en: "New illness portrait: Dmitri Shostakovich (SO5w4) – nerve disorder of the right hand, heart attacks, lung cancer.", route: "krankheitsportraets-dmitri-schostakowitsch" },
     { version: "v2435", date: "2026-10-03", text: "Neues Porträt: Dmitri Schostakowitsch (SO5w4) – sowjetischer Komponist, 7. Symphonie ›Leningrader‹.", text_en: "New portrait: Dmitri Shostakovich (SO5w4) – Soviet composer, Symphony No. 7 'Leningrad'.", route: "beruehmte-dmitri-schostakowitsch" },
     { version: "v2434", date: "2026-10-03", text: "Neues Porträt: Fiona Harvey (SE2w3) – britische Umwelt- und Klimajournalistin, The Guardian.", text_en: "New portrait: Fiona Harvey (SE2w3) – British environment and climate journalist, The Guardian.", route: "beruehmte-fiona-harvey" },
     { version: "v2433", date: "2026-10-02", text: "Neues Porträt: Michaela Benthaus (SX7w6) – Raumfahrtingenieurin, erste Rollstuhlfahrerin im All.", text_en: "New portrait: Michaela Benthaus (SX7w6) – aerospace engineer, first wheelchair user in space.", route: "beruehmte-michaela-benthaus" },

@@ -4537,3 +4537,213 @@ export function dmitriHvorostovskyKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function dmitriShostakovichKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dmitri-schostakowitsch-portrait.jpg" alt="Dmitri Shostakovich" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dmitri Shostakovich</p>
+        <p class="krim-portrait-typ">SO5w4 &middot; Social Type 5 with Four-wing &middot; 1906–1975</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Octopus</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so5.jpg" alt="Animal correspondence: Octopus" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO5")};left:${tierAvatarLeft("SO5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Dmitri Shostakovich</strong> already appears as a
+        <a href="javascript:void(0)" data-route="beruehmte-dmitri-schostakowitsch">portrait under Famous Personalities</a>
+        in this compass – that page covers his life's work, the encoded DSCH monogram and a life
+        spent between public function and private truth. This portrait focuses on the chapter
+        mentioned there only in passing: a nerve disorder of the right hand that progressed over
+        more than two decades and was never reliably classified – in a trained pianist –, several
+        heart attacks, fractures of both legs, and the lung cancer of a lifelong smoker.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Shostakovich</strong> is assigned to the <strong>social Type 5 with Four-wing</strong>.
+        The SO5 places knowledge and skill in the service of a larger cause and finds security in
+        its own function within a system; the Four-wing shifts the deepest, most personal truth into
+        an encoded but unmistakable form. This typing rests on his early and middle years (taking on
+        official functions, the monogram code, withdrawal into work), not on the illness picture of
+        his late years – see the section on the stress point below.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First signs</h3>
+        <p class="vb-intro"><strong>a) A gradual onset in the mid-1950s:</strong>
+        According to the medical-historical accounts, the complaints began around 1954 with
+        declining physical stamina and occasional falls – with no recognizable clinical picture yet.</p>
+        <p class="vb-intro"><strong>b) The right hand becomes unreliable:</strong>
+        By 1958 the right hand was markedly weak and accompanied by abnormal sensations (pins and
+        needles, known as paresthesias). Heavy objects could no longer be lifted, and even everyday
+        actions such as brushing his teeth or hanging his coat on a hook became difficult.</p>
+        <p class="vb-intro"><strong>c) Changing diagnoses:</strong>
+        In 1965 a Soviet neurologist suggested chronic poliomyelitis (polio or its late effects).
+        Other specialists considered a motor neuron disease (progressive loss of the nerve cells
+        responsible for movement, such as amyotrophic lateral sclerosis), a purely motor neuropathy
+        (nerve damage), syringomyelia (cavity formation in the spinal cord) or a cervical disc
+        problem. Before the era of CT and MRI scanning these were hard to tell apart; to this day
+        his nerve disorder is regarded as not conclusively diagnosed.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General characteristics</h3>
+        <p class="vb-intro"><strong>a) Several fronts at once:</strong>
+        The clinical picture was not a single ailment but a combination of nerve disease, heart
+        disease, repeated fractures and, in the end, cancer of the lung.</p>
+        <p class="vb-intro"><strong>b) Heart attacks:</strong>
+        In 1966 he suffered a heart attack that led to a hospital stay of about two months; another
+        followed around 1970/71 (sources give differing years), a further one in his last months, and
+        according to some accounts a third on the day of his death itself.</p>
+        <p class="vb-intro"><strong>c) Falls with fractures:</strong>
+        Because of his unsteady gait he fell repeatedly and broke both legs.</p>
+        <p class="vb-intro"><strong>d) The journey to Kurgan:</strong>
+        In February 1970 he flew to Kurgan in western Siberia, where the orthopedic surgeon Gavriil
+        Ilizarov – later known worldwide for the ring fixator named after him, an external frame
+        for bone healing and lengthening – treated his hands and feet. Shostakovich reported feeling
+        better day by day. The attitude behind this is notable: the body was brought in for technical
+        repair, like a defective instrument.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential traits</h3>
+        <p class="vb-intro"><strong>a) A pianist loses the reliability of his right hand:</strong>
+        Shostakovich was a trained concert pianist and took part in the 1927 International Chopin
+        Piano Competition in Warsaw, where he received a diploma of honor. That the right hand –
+        in piano playing usually the one carrying the melody – grew weak struck him at the very
+        point where skill turns directly into sound.</p>
+        <p class="vb-intro"><strong>b) Cigarettes and vodka to the end:</strong>
+        He smoked heavily for decades, above all papirosi (the long cardboard-tipped cigarettes
+        common in the Soviet Union), and drank vodka regularly. Despite his chronic illnesses he
+        reportedly never gave up either for good.</p>
+        <p class="vb-intro"><strong>c) Constant inner tension:</strong>
+        Contemporaries often described him as exceptionally nervous and tense. After the Pravda
+        campaign of January 1936 he lived for years expecting arrest in the night (see the
+        life's-work portrait) – a decades-long baseline of tension that, by modern understanding,
+        does not leave the body untouched.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall effect</h3>
+        <p class="vb-intro"><strong>a) Composing in hospital:</strong>
+        His Symphony No. 14 for soprano, bass, string orchestra and percussion was written in spring
+        1969 during a hospital stay: a cycle of eleven settings of poems that all deal with death.</p>
+        <p class="vb-intro"><strong>b) The late work as a reckoning:</strong>
+        String Quartet No. 15 (1974) consists of six linked slow movements (adagios). His last
+        composition, the Sonata for Viola and Piano, Op. 147, was completed on 5 July 1975 – a good
+        month before his death. At his deathbed he is said to have still been reading the proofs.</p>
+        <p class="vb-intro"><strong>c) Death on 9 August 1975 in Moscow:</strong>
+        The cause of death is usually given as lung cancer, attributed to lifelong smoking; some
+        accounts additionally name a third heart attack on the day of death. The timing of the cancer
+        diagnosis is stated differently across sources – there is no secure, uniform picture here.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic effect</h3>
+        <p class="vb-intro"><strong>a) The body as a subordinate servant of performance:</strong>
+        The social Five, the totem, draws security from the function it fulfils within a system.
+        The body easily becomes a mere carrier of the work, demanding as little attention as
+        possible – until it takes that attention for itself.</p>
+        <p class="vb-intro"><strong>b) The weaker the body, the more open the inner world:</strong>
+        In the late works – Symphony No. 14, String Quartet No. 15, the Viola Sonata – the Four-wing
+        theme of transience and death emerges more clearly and with less encoding than in the
+        decades before. While the outer function crumbled, the private truth became more audible.</p>
+        <p class="vb-intro"><strong>c) Numbing as the rhythm of daily life:</strong>
+        Cigarettes and vodka can be read as an attempt to dampen constant inner tension without
+        changing the way of life itself – a valve that put additional strain on the body.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The illness as a common thread</h3>
+        <p class="vb-intro"><strong>a) The hand as the tool of transmission:</strong>
+        For a social Five, significance lies in passing skill on to a community. The hand is the
+        most direct tool of that transmission – it plays, writes, notates. That the disorder first
+        showed itself exactly there is a striking, though not causally provable, coincidence.</p>
+        <p class="vb-intro"><strong>b) Lung and smoke – withdrawal with a haze:</strong>
+        Retreat into the den is the octopus's basic pattern. Smoking gave that retreat a kind of
+        portable den: a self-made veil of haze that creates distance from the surroundings and
+        soothes at the same time. That a lung disease stood at the end is medically sufficiently
+        explained by lifelong smoking; reading it as a pattern is an additional, complementary view.</p>
+        <p class="vb-intro"><strong>c) The stress point: when the Five slides toward Seven:</strong>
+        Anyone living under chronic pressure for decades moves along the stress line increasingly
+        toward the stress point – for the Five, that is the Seven. This could be seen in the later
+        years: numbing through nicotine and alcohol, nervous restlessness, flight into distraction
+        instead of focused withdrawal. The core type remains unchanged SO5w4; the Seven traits are
+        signs of stress, not a change of type. Anyone looking only at the illness picture of the
+        late years could easily misplace him at the Seven.</p>
+        <p class="vb-intro"><strong>d) Why these particular organ systems?</strong>
+        A plausible but unproven reading: in the social Five with a Four-wing, the entire tension
+        rests on the separation between public function and hidden truth. A life under constant
+        observation, beginning in 1936, is a chronic stressor; smoking and chronic tension are
+        generally regarded as risk factors for cardiovascular disease. The hand as a tool and the
+        lung as the organ of withdrawal would then be two places where the pattern – performance
+        through function, soothing through retreat – shows up physically. This is an interpretation,
+        not a historically proven causal link, and is elaborated further in this compass's
+        Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) Classification without determinism:</strong>
+        This does not mean the pattern of the social Five inevitably leads to nerve disease, heart
+        attack or lung cancer – <strong>anyone can get any illness, regardless of subtype.</strong>
+        What Shostakovich's case shows is a recurring pattern: security through function, soothing
+        through retreat and numbing – one of many possible explanations, not a verdict. The
+        corresponding clinical picture is being worked out step by step in the
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>
+        of this compass.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Unconscious fixation as a factor in its own right:</strong>
+        Shostakovich did not know his Enneagram pattern. His life strategy – withdrawal into
+        function and code, soothing through smoke and vodka – therefore ran unchecked. The body's
+        warning signals, the weak hand from 1958 and the heart attack of 1966, he treated like
+        technical faults that can be fixed (Kurgan), not as an invitation to change the pattern
+        itself. Someone who does not know that their withdrawal is also tension regulation takes the
+        cigarette for a habit rather than a valve. That is not guilt but ignorance of one's own
+        pattern.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Parallels within the same subtype</h3>
+        <p class="vb-intro"><strong>a) Hannah Arendt – same birth year, same year of death:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-hannah-arendt">Hannah Arendt</a>
+        (SO5w4) was born in 1906 like Shostakovich and died in 1975 – in December, four months after
+        him. Both were lifelong chain smokers, both suffered heart attacks, and in both smoking
+        persisted despite serious heart disease. Arendt merely switched to milder cigarettes after
+        her first heart attack; Shostakovich reportedly never gave up cigarettes and vodka for good.
+        The difference: Arendt died after a short course, he after two decades of creeping illness.</p>
+        <p class="vb-intro"><strong>b) Leonardo da Vinci – the hand that mattered:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-leonardo-da-vinci">Leonardo</a>
+        (SO5w4) lost the reliability of his right hand after a stroke, switched to the left and kept
+        working. Shostakovich, too, kept working with a weakened right hand into his last weeks. In
+        both, the hand does not mark the end of the work but becomes a hurdle that can be gone around.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>c) Albert Einstein – work at the deathbed:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-albert-einstein">Einstein</a>
+        (SO5w4) worked on equations until his last night; Shostakovich corrected the proofs of his
+        last sonata at his deathbed. The pattern of unabated continued work carries across all three cases.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">8. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Shostakovich's</strong> medical history once again shows the social Five with a
+        Four-wing clearly: a hand that grew weaker for the pianist and composer, a body flown to
+        Siberia for repair like a defective instrument, smoke and vodka as a portable den, and a
+        late work that speaks of death for as long as the strength lasts. The octopus that withdrew
+        into its den and kept composing there as long as one hand obeyed.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-dmitri-schostakowitsch", label:"Portrait: Dmitri Shostakovich (SO5w4) – life's work"},
+        {route:"krankheitsportraets-hannah-arendt", label:"Illness Portrait: Hannah Arendt (SO5w4) – same birth year, same year of death, smoking"},
+        {route:"krankheitsportraets-leonardo-da-vinci", label:"Illness Portrait: Leonardo da Vinci (SO5w4) – right hand, kept working"},
+        {route:"krankheitsportraets-albert-einstein", label:"Illness Portrait: Dr. Albert Einstein (SO5w4) – work to the end"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/so5", label:"Subtype profile SO5"},
+      ])}
+    </div>
+  `);
+}
