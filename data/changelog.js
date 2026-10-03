@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2434", date: "2026-10-03", text: "Neues Porträt: Fiona Harvey (SE2w3) – britische Umwelt- und Klimajournalistin, The Guardian.", text_en: "New portrait: Fiona Harvey (SE2w3) – British environment and climate journalist, The Guardian.", route: "beruehmte-fiona-harvey" },
     { version: "v2433", date: "2026-10-02", text: "Neues Porträt: Michaela Benthaus (SX7w6) – Raumfahrtingenieurin, erste Rollstuhlfahrerin im All.", text_en: "New portrait: Michaela Benthaus (SX7w6) – aerospace engineer, first wheelchair user in space.", route: "beruehmte-michaela-benthaus" },
     { version: "v2432", date: "2026-10-02", text: "Neues Porträt: Palina Rojinski (SX4w3) – Moderatorin, Schauspielerin, DJane.", text_en: "New portrait: Palina Rojinski (SX4w3) – TV host, actress, DJ.", route: "beruehmte-palina-rojinski" },
     { version: "v2431", date: "2026-10-01", text: "Neues Porträt: Dr. Wolfgang Wodarg (SO1w9) – Lungenarzt, ehem. Bundestagsabgeordneter, Europarats-Ausschussvorsitzender.", text_en: "New portrait: Dr. Wolfgang Wodarg (SO1w9) – pulmonologist, former MP, Council of Europe committee chair.", route: "beruehmte-wolfgang-wodarg" },
