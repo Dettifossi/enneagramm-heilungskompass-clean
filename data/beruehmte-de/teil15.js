@@ -2365,7 +2365,7 @@ export function allieSherlockPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-allie-sherlock-portrait.jpg" alt="Allie Sherlock – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-allie-sherlock-portrait.jpg" alt="Allie Sherlock – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-allie-sherlock-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Allie Sherlock</p>
         <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserflügel</p>
