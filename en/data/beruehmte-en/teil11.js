@@ -2350,3 +2350,71 @@ export function steffenHensslerPortraitPage() {
     </div>
   `);
 }
+
+export function sathyaSaiBabaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sathya-sai-baba-portrait.jpg" alt="Sathya Sai Baba – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sathya Sai Baba</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Indian spiritual teacher, 1926–2011 &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The hippopotamus of Puttaparthi</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hippopotamus</strong> is the animal of the self-preservation Two: warm, round, approachable – and at the same time a creature that holds its territory with great determination. Sathya Sai Baba was born on 23 November 1926 in the village of Puttaparthi in southern India (then Madras Province, today Andhra Pradesh) as Sathyanarayana Raju. At the age of fourteen, on 29 October 1940, he declared to his family and the villagers that he was the reincarnation of Sai Baba of Shirdi (a saint venerated in the early twentieth century) and would now begin his mission: the spiritual renewal of humanity through truth, right conduct, peace and love.</p>
+          <p class="vb-intro">From 1948 the ashram (spiritual community) <em>Prasanthi Nilayam</em> ('Abode of Supreme Peace') arose in Puttaparthi, completed in 1950. The man who later drew millions of people stayed all his life in the place where he was born – the village became a pilgrimage center, he did not become an emigrant.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Two: closeness through care</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo calls the <strong>self-preservation Two (SE2)</strong> the subtype of 'privilege': closeness and significance are not demanded but secured through care and the quiet feeling of being needed. In Sathya Sai Baba this shows in the core of his role: he was the 'Swami' (lord, master) and at the same time, for his followers, a fatherly-motherly figure. The famous motto 'Love All, Serve All; Help Ever, Hurt Never' sums up the pattern in eight words: devotion to others as a principle of life.</p>
+          <p class="vb-intro">The gifts he distributed – sacred ash (<em>Vibhuti</em>), personal encounters, the chance to be near him at the daily <em>Darshan</em> appearances (the 'sight' of the master) – correspond to the logic of the Two: whoever gives is indispensable, and whoever is indispensable is loved. That followers experienced these gifts as miracles while skeptics interpreted them as sleight of hand does not change the type structure: in both readings it is the giving that creates the connection.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: impact, reach, organization</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> lends the Two orientation toward success, stage presence and organizational talent. A village became a worldwide movement: the Sathya Sai Organization, which by its own account maintains centers in more than a hundred countries, carried by volunteer work and complemented by foundations and institutions. The appearance, too, was deliberately set: the orange robe, the distinctive curly hair, the daily public appearances before thousands – an image recognizable instantly worldwide.</p>
+          <p class="vb-intro">The Three-wing also explains why his impact did not stop at personal charisma but passed into tangible, measurable projects – a trait that sets him apart from many other spiritual teachers.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual achievement: hospitals, water, education</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The practical substance of his work lies less in the miracles than in the infrastructure that arose from it. In 1954 he founded a small free general hospital in Puttaparthi. On 22 November 1991, the day before his 65th birthday, the then Indian Prime Minister P. V. Narasimha Rao inaugurated the Sri Sathya Sai Institute of Higher Medical Sciences – a 220-bed specialty hospital built in ten months, in which treatment including surgery is free of charge.</p>
+          <p class="vb-intro">Added to this was a drinking-water project in the drought-prone Rayalaseema region in Anantapur district, which according to available figures supplied clean water to around 1.2 million people, and a later water project for the city of Chennai (2004). There was also an educational program called 'Education in Human Values', which teaches five values: truth, right conduct, peace, love and non-violence. Notable here is the combination of spiritual aspiration and concrete provision for living: the Two gives not only comfort but medicine, water and schooling.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light, shadow and open questions</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE2w3 shows in the institutions mentioned, which continue to operate beyond his death, and in the way he offered people of the most varied backgrounds a home. The shadow of the Two is pride – the danger of becoming unassailable oneself through the role of the indispensable giver. Honesty is needed here as well: Sathya Sai Baba was a controversial figure.</p>
+          <p class="vb-intro">Skeptics and rationalists accused him of sleight of hand in the 'materializations' (the apparent producing of objects out of nothing). In 2004 a BBC documentary ('The Secret Swami') raised allegations of sexual misconduct through former followers; he rejected them, and he was never charged. In June 1993 several people died in his private quarters, among them his personal assistant; the ashram spoke of an attempt on his life, and the circumstances have never been fully clarified. This portrait does not pass judgment on these allegations; it records that they were raised publicly, never confirmed in court and disputed by his movement, and that the typing makes no statement about their truth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Two's path of healing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Two's path of healing leads from the conviction <em>I am loved when I am needed</em> to the realization <em>I am lovable even without a gift</em>. That his motto ends with 'Hurt never' shows how close this path lies to care for the other. Sathya Sai Baba died on 24 April 2011 at the age of 84 after about a month in hospital. What remains is a body of work that shows how much a single idea of care can set in motion – and how important it is to look closely where devotion tips into dependence.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("enneagramm-zoo", "27 Animal Portraits – each Subtype animal with character, biology and Enneagram connection.", "Enneagramm-Zoo")}
+      ${bookTip("archetypen-der-tiere-im-enneagramm", "The archetypal animals of the 9 types as an inner map – images that work instantly.", "Archetypen der Tiere im Enneagramm")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
+        {route:"lebensmusterkompass/se2", label:"Life Pattern Compass: SE2 – Hippopotamus"},
+        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SE2w3)"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
+        {route:"beruehmte-nusrat-fateh-ali-khan", label:"Portrait: Nusrat Fateh Ali Khan (SE2)"},
+      ])}
+    </div>
+  `);
+}

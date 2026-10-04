@@ -2369,3 +2369,71 @@ export function andyWarholPortraitPage() {
     </div>
   `);
 }
+
+export function sathyaSaiBabaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sathya-sai-baba-portrait.jpg" alt="Sathya Sai Baba – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sathya Sai Baba</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Indischer spiritueller Lehrer, 1926–2011 &ndash; Tierentsprechung: Nilpferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Nilpferd von Puttaparthi</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Nilpferd</strong> ist das Tier der selbsterhaltenden Zwei: warm, rund, zugänglich – und zugleich ein Wesen, das sein Revier mit großer Entschlossenheit hält. Sathya Sai Baba wurde am 23. November 1926 im südindischen Dorf Puttaparthi (damals Provinz Madras, heute Andhra Pradesh) als Sathyanarayana Raju geboren. Mit vierzehn Jahren, am 29. Oktober 1940, erklärte er seiner Familie und den Dorfbewohnern, er sei der wiedergekehrte Sai Baba von Shirdi (einem im frühen 20. Jahrhundert verehrten Heiligen) und werde nun seine Mission aufnehmen: die geistige Erneuerung der Menschheit durch Wahrheit, rechtes Handeln, Frieden und Liebe.</p>
+          <p class="vb-intro">Ab 1948 entstand in Puttaparthi der Ashram (die spirituelle Gemeinschaft) <em>Prasanthi Nilayam</em> (›Wohnstätte des höchsten Friedens‹), fertiggestellt 1950. Der Mann, der später Millionen Menschen anzog, blieb sein Leben lang an dem Ort, an dem er geboren wurde – das Dorf wurde zum Pilgerzentrum, nicht er zum Auswanderer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Nähe durch Fürsorge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> nennt Naranjo den Subtyp des ›Privilegs‹: Nähe und Bedeutung werden nicht gefordert, sondern über Fürsorge und das stille Gefühl gesichert, gebraucht zu werden. Bei Sathya Sai Baba zeigt sich das im Kern seiner Rolle: Er war der ›Swami‹ (Herr, Meister) und zugleich für seine Anhänger eine väterlich-mütterliche Figur. Das berühmte Motto ›Love All, Serve All; Help Ever, Hurt Never‹ – ›Liebe alle, diene allen; hilf immer, verletze nie‹ – fasst das Muster in acht Worten zusammen: Zuwendung als Lebensprinzip.</p>
+          <p class="vb-intro">Die Gaben, die er verteilte – heilige Asche (<em>Vibhuti</em>), persönliche Begegnungen, die Möglichkeit, bei den täglichen <em>Darshan</em>-Auftritten (dem ›Anblick‹ des Meisters) nahe zu sein –, entsprechen der Zwei-Logik: Wer gibt, ist unentbehrlich, und wer unentbehrlich ist, wird geliebt. Dass Anhänger diese Gaben als Wunder erlebten, Skeptiker sie als Taschenspielertricks deuteten, ändert an der Typstruktur nichts: In beiden Lesarten ist es das Schenken, das die Verbindung herstellt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Wirkung, Reichweite, Organisation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> verleiht der Zwei Erfolgsorientierung, Auftritts- und Organisationstalent. Aus dem Dorf wurde eine weltweite Bewegung: die Sathya-Sai-Organisation, die nach eigenen Angaben in über hundert Ländern Zentren unterhält, getragen von ehrenamtlichem Einsatz und ergänzt durch Stiftungen und Einrichtungen. Auch die Erscheinung war bewusst gesetzt: das orangefarbene Gewand, die markante Lockenfrisur, die täglichen öffentlichen Auftritte vor Tausenden – ein Image, das weltweit sofort erkennbar war.</p>
+          <p class="vb-intro">Der Dreierflügel erklärt außerdem, warum Wirkung bei ihm nicht bei der persönlichen Ausstrahlung stehen blieb, sondern in handfeste, messbare Projekte überging – ein Merkmal, das ihn von vielen anderen spirituellen Lehrern unterscheidet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Krankenhäuser, Wasser, Bildung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die fachlich-praktische Substanz seines Wirkens liegt weniger in den Wundern als in der Infrastruktur, die daraus entstand. 1954 gründete er in Puttaparthi ein kleines kostenloses Allgemeinkrankenhaus. Am 22. November 1991, einen Tag vor seinem 65. Geburtstag, eröffnete der damalige indische Premierminister P. V. Narasimha Rao das Sri Sathya Sai Institute of Higher Medical Sciences – ein Spezialkrankenhaus mit 220 Betten, in zehn Monaten errichtet, in dem Behandlungen einschließlich Operationen kostenlos sind.</p>
+          <p class="vb-intro">Hinzu kam ein Trinkwasserprojekt in der dürregeplagten Region Rayalaseema im Distrikt Anantapur, das nach den vorliegenden Angaben rund 1,2 Millionen Menschen mit sauberem Wasser versorgte, sowie ein späteres Wasserprojekt für die Stadt Chennai (2004). Dazu kam ein Bildungsprogramm unter dem Namen ›Education in Human Values‹ (Erziehung zu menschlichen Werten), das fünf Werte lehrt: Wahrheit, rechtes Handeln, Frieden, Liebe und Gewaltlosigkeit. Bemerkenswert ist hier die Verbindung von spirituellem Anspruch und konkreter Daseinsvorsorge: Die Zwei gibt nicht nur Trost, sondern Medizin, Wasser und Schule.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht, Schatten und offene Fragen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE2w3 zeigt sich in den genannten Einrichtungen, die über seinen Tod hinaus weiterarbeiten, und in der Weise, wie er Menschen unterschiedlichster Herkunft eine Heimat anbot. Der Schatten der Zwei ist der Stolz – die Gefahr, durch die Rolle des unentbehrlichen Gebers selbst unangreifbar zu werden. Auch hier muss man ehrlich bleiben: Sathya Sai Baba war eine umstrittene Figur.</p>
+          <p class="vb-intro">Skeptiker und Rationalisten warfen ihm Taschenspielerei bei den ›Materialisierungen‹ (dem scheinbaren Hervorbringen von Gegenständen aus dem Nichts) vor. 2004 erhob eine BBC-Dokumentation (›The Secret Swami‹) durch ehemalige Anhänger Vorwürfe sexuellen Fehlverhaltens; er wies sie zurück, und er wurde nie angeklagt. Im Juni 1993 kamen in seinen Privaträumen mehrere Menschen ums Leben, darunter sein persönlicher Assistent; der Ashram sprach von einem Anschlag auf sein Leben, die Umstände sind nie vollständig geklärt worden. Das Porträt urteilt über diese Vorwürfe nicht; es hält fest, dass sie öffentlich erhoben, nie gerichtlich bestätigt und von seiner Bewegung bestritten wurden, und dass die Typisierung keine Aussage über ihre Wahrheit trifft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg der Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Zwei führt von der Überzeugung <em>Ich werde geliebt, wenn ich gebraucht werde</em> zur Erkenntnis <em>Ich bin auch ohne Gabe liebenswert</em>. Dass sein Motto mit ›Hurt never‹ (›verletze nie‹) endet, zeigt, wie nah dieser Weg an der Sorgfalt gegenüber dem Anderen liegt. Sathya Sai Baba starb am 24. April 2011 im Alter von 84 Jahren nach rund einem Monat im Krankenhaus; Was bleibt, ist ein Werk, das zeigt, wie viel eine einzelne Fürsorge-Idee in Bewegung setzen kann – und wie wichtig es ist, hinzuschauen, wo Zuwendung in Abhängigkeit kippt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("enneagramm-zoo", "27 Tierporträts – jedes Subtyp-Tier mit Charakter, Biologie und Enneagramm-Bezug.", "Enneagramm-Zoo")}
+      ${bookTip("archetypen-der-tiere-im-enneagramm", "Die archetypischen Tiere der 9 Typen als innere Landkarte – Bilder, die sofort wirken.", "Archetypen der Tiere im Enneagramm")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Nilpferd: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se2", label:"Lebensmusterkompass: SE2 – Nilpferd"},
+        {route:"beruehmte-oprah-winfrey", label:"Porträt: Oprah Winfrey (SE2w3)"},
+        {route:"beruehmte-ai-weiwei", label:"Porträt: Ai Weiwei (SE2w3)"},
+        {route:"beruehmte-nusrat-fateh-ali-khan", label:"Porträt: Nusrat Fateh Ali Khan (SE2)"},
+      ])}
+    </div>
+  `);
+}
