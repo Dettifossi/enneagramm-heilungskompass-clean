@@ -4419,6 +4419,19 @@ button.primary:hover::after {
   min-height: 40px;
 }
 .nav-dropdown__item:last-child { border-bottom: none; }
+.nav-dropdown__heading {
+  padding: 0.55rem 1.1rem 0.3rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--copper);
+  background: color-mix(in srgb, var(--copper) 7%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--copper) 25%, transparent);
+  pointer-events: none;
+  user-select: none;
+}
+.nav-dropdown__heading:not(:first-child) { margin-top: 0.15rem; border-top: 1px solid color-mix(in srgb, var(--ink) 8%, transparent); }
 .nav-dropdown__item:hover { background: color-mix(in srgb, var(--copper) 8%, transparent); }
 
 .nav-dropdown__search-wrap {
