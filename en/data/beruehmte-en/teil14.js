@@ -2413,3 +2413,68 @@ export function dmitriShostakovichPortraitPage() {
     </div>
   `);
 }
+
+export function amberBensonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-amber-benson-portrait.jpg" alt="Amber Benson – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Amber Benson</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">American actress, writer and director, born 1977 &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth Known for a Supporting Role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> is the animal of the Sexual Type 9: it hangs in the tree seemingly uninvolved, and whoever looks closer notices how firmly it holds on to the one thing it has chosen. Amber Benson, born on 8 January 1977 in Birmingham, Alabama, the daughter of a psychiatrist, danced at six in the Alabama Ballet's 'Nutcracker', moved to Orlando at twelve and to Los Angeles at fourteen to become an actress. Her first film role came in 1993 in Steven Soderbergh's 'King of the Hill', as the epileptic Ella McShane.</p>
+          <p class="vb-intro">She became known worldwide as Tara Maclay in 'Buffy the Vampire Slayer', a gentle, shy witch who appeared in the fourth season and died in the sixth. The role still shapes her public image. That is telling for the Nine: she is remembered above all as the character who stood in the background, even though she has since written books, directed films and produced audio dramas.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Nine: Merging with One Creative Counterpart</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>Sexual Nine (SX9)</strong> seeks not general harmony but merging with a single, especially meaningful bond. For Benson that bond is a writing partnership: with the author Christopher Golden she published the comic 'WannaBlessedBe' in 2001 and 'Wilderness' in 2002, then the novel series 'Ghosts of Albion' (2004–2006) and, most recently in October 2023, the Audible audio drama 'Slayers: A Buffyverse Story', which she wrote with Golden, directed and voiced herself. That is over twenty years of collaboration with the same person, across changing formats.</p>
+          <p class="vb-intro">The film 'Drones' (2010) was made together with Adam Busch, likewise a long-time companion from the Buffy years. The pattern is striking: Benson rarely works alone and rarely with changing strangers, but again and again with the same few people. The merging here is directed not at one person in private life but at the shared work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Which Wing Dominates? The One-Wing – with a Less Pronounced Eight-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the typing, SX9w1 stood against SX9w8. Several observations speak for the <strong>One-wing (w1)</strong>. First, the rhythm: the novels of the 'Death's Daughter' series appeared from 2009 to 2013 each at the end of February, year after year, followed by 'The Witches of Echo Park' (2014–2017). That is persistent, orderly production, not erratic working. Second, the manner of her statements: in February 2021 she backed the allegations of her former colleague Charisma Carpenter against the series creator Joss Whedon and described the set as a 'toxic environment' with long-lasting effects. The wording is moral and factual, not angry. Third, her early involvement in Barack Obama's 2008 campaign in an ad by MoveOn.org.</p>
+          <p class="vb-intro">An <strong>Eight-wing (w8)</strong> is less pronounced in her, but recognizable. It shows in the insistence on keeping her own work in her own hands: for 'Chance' (2002) she co-wrote, directed, produced and edited the film and played the lead; 'Lovers, Liars &amp; Lunatics' (2006) she partly financed through sales of a limited-edition action figure. But this trait is directed at the project, not at confrontation: the only known open dispute came after about twenty years and was an act of solidarity with someone else. An SX9 with a strongly pronounced Eight-wing generally appears earlier, more directly and more physically. That is why w1 is the more plausible classification here, with a residual uncertainty that should be named honestly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Author, Director, Singer and Narrator in One Person</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Benson's achievement lies in the breadth hidden behind the label of actress. In the series' musical special, 'Once More, with Feeling', she sang, among others, the solo 'Under Your Spell', and she appeared as a singer on Anthony Stewart Head's album 'Music for Elevators' (2002). As an author she wrote, with 'Ghosts of Albion', a fantasy series around British folklore, from which animated films for the BBC with Cosgrove Hall also emerged, and with the five 'Death's Daughter' novels the story of a young woman who learns that she is the daughter of Death.</p>
+          <p class="vb-intro">As a director and narrator she broadened the range further: in 2014 she read John Scalzi's 'Lock In' as an audiobook, in 'Slayers: A Buffyverse Story' she directed and brought James Marsters, Charisma Carpenter and Anthony Stewart Head to the microphone, and in 2024 she acted in 'I Saw the TV Glow'. This is typical for the Nine: the ability lies not in a single showpiece but in a reliable, versatile craft that she practices without much fuss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Nine with a One-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX9w1 shows in constancy: a creative bond that carries over two decades, and a stance that needs no volume but holds a clear line. That she spoke for a colleague in 2021 instead of staying silent shows that this calm is not indifference.</p>
+          <p class="vb-intro">The shadow of the Nine is <strong>self-forgetting (sloth)</strong>: one's own wanting steps behind the counterpart or the role. In Benson's case this shows in the fact that her public image stuck to a character she played for only a few seasons, while her own body of work is far less known. Whether she wants to change that, she has not let on.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Comparison: The Same Sloth, Different Works</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Closest to her stands <a href="#beruehmte-owen-wilson">Owen Wilson (SX9w1)</a>: his thirty-year writing partnership with Wes Anderson is the parallel to Benson's collaboration with Golden, and both lead private lives that hardly become a public topic. <a href="#beruehmte-sophie-marceau">Sophie Marceau (SX9w1)</a> shares with her the path from actress to director without taking on the role of the loud star. A contrast worth drawing is <a href="#beruehmte-dakota-johnson">Dakota Johnson (SX9w8)</a>: her portrait describes claws you only see once you get too close, while Benson's consistency shows as quiet persistence.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+          {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+          {route:"beruehmte-owen-wilson", label:"Portrait: Owen Wilson (SX9w1) – decades-long writing partnership"},
+          {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1) – actress and director"},
+          {route:"beruehmte-dakota-johnson", label:"Portrait: Dakota Johnson (SX9w8) – same subtype, different wing"},
+        ])}
+      </div>
+    </div>
+  `);
+}

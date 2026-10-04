@@ -2369,3 +2369,68 @@ export function lorneGreenePortraitPage() {
     </div>
   `);
 }
+
+export function amberBensonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-amber-benson-portrait.jpg" alt="Amber Benson – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Amber Benson</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanische Schauspielerin, Autorin und Regisseurin, geb. 1977 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier, das man an einer Nebenrolle erkannte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier des sexuellen Typs 9: Es hängt scheinbar unbeteiligt im Baum, und wer genauer hinsieht, bemerkt, wie fest es sich an das eine hält, was es gewählt hat. Amber Benson, am 8. Januar 1977 in Birmingham, Alabama, als Tochter eines Psychiaters geboren, tanzte mit sechs Jahren im ›Nussknacker‹ des Alabama Ballet, zog mit zwölf nach Orlando und mit vierzehn nach Los Angeles, um Schauspielerin zu werden. Ihre erste Filmrolle spielte sie 1993 in Steven Soderberghs ›King of the Hill‹, als an Epilepsie erkrankte Ella McShane.</p>
+          <p class="vb-intro">Weltweit bekannt wurde sie als Tara Maclay in ›Buffy the Vampire Slayer‹, einer sanften, schüchternen Hexe, die in der vierten Staffel auftrat und in der sechsten Staffel starb. Die Rolle prägt ihr öffentliches Bild bis heute. Das ist bezeichnend für die Neun: Sie ist vor allem als die Figur in Erinnerung, die im Hintergrund stand, obwohl sie seither selbst Bücher geschrieben, Filme inszeniert und Hörspiele produziert hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit dem einen kreativen Gegenüber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> sucht nach Naranjo nicht die allgemeine Harmonie, sondern die Verschmelzung mit einer einzigen, besonders bedeutsamen Bindung. Bei Benson ist das eine Schreibpartnerschaft: Mit dem Autor Christopher Golden veröffentlichte sie 2001 den Comic ›WannaBlessedBe‹ und 2002 ›Wilderness‹, dann die Romanreihe ›Ghosts of Albion‹ (2004–2006) und zuletzt, im Oktober 2023, das Audible-Hörspiel ›Slayers: A Buffyverse Story‹, das sie gemeinsam mit Golden schrieb, inszenierte und in dem sie selbst sprach. Das sind über zwanzig Jahre Zusammenarbeit mit demselben Menschen, in wechselnden Formaten.</p>
+          <p class="vb-intro">Der Film ›Drones‹ (2010) entstand gemeinsam mit Adam Busch, ebenfalls ein langjähriger Weggefährte aus der Buffy-Zeit. Auffällig ist das Muster: Benson arbeitet selten allein und selten mit wechselnden Fremden, sondern immer wieder mit denselben wenigen Menschen. Die Verschmelzung gilt hier nicht einer Person im Privaten, sondern dem gemeinsamen Werk.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Welcher Flügel überwiegt? Der Einserflügel – mit einem schwächer ausgeprägten Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bei der Zuordnung stand SX9w1 gegen SX9w8. Für den <strong>Einserflügel (w1)</strong> sprechen mehrere Beobachtungen. Erstens der Rhythmus: Die Romane der Reihe ›Death's Daughter‹ erschienen von 2009 bis 2013 jeweils Ende Februar, ein Jahr nach dem anderen, danach folgten ›The Witches of Echo Park‹ (2014–2017). Das ist beharrliche, geordnete Produktion, kein sprunghaftes Arbeiten. Zweitens die Art ihrer Stellungnahmen: Im Februar 2021 stellte sie sich hinter die Vorwürfe ihrer früheren Kollegin Charisma Carpenter gegen den Serienschöpfer Joss Whedon und beschrieb das Set als ›toxic environment‹ – ein ›giftiges Umfeld‹ –, mit Folgen, die lange nachwirkten. Die Wortwahl ist moralisch und sachlich, nicht wütend. Drittens ihr früher Einsatz für den Wahlkampf von Barack Obama 2008 in einem Spot von MoveOn.org.</p>
+          <p class="vb-intro">Ein <strong>Achterflügel (w8)</strong> ist bei ihr schwächer, aber erkennbar. Er zeigt sich im Anspruch, die eigene Arbeit selbst in der Hand zu behalten: Bei ›Chance‹ (2002) schrieb sie mit, inszenierte, produzierte und schnitt den Film und spielte die Hauptrolle; ›Lovers, Liars & Lunatics‹ (2006) finanzierte sie teilweise über den Verkauf einer limitierten Actionfigur. Doch dieser Zug richtet sich auf das eigene Projekt, nicht auf Konfrontation: Die einzige bekannte offene Auseinandersetzung kam erst nach rund zwanzig Jahren und war ein Akt der Solidarität mit einer anderen. Eine SX9 mit stark ausgeprägtem Achterflügel tritt in der Regel früher, direkter und körperbetonter auf. Deshalb ist w1 hier die plausiblere Einordnung, mit einer Restunsicherheit, die ehrlich benannt bleiben soll.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die fachliche Substanz: Autorin, Regisseurin, Sängerin und Sprecherin in einer Person</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bensons Leistung liegt in der Breite, die sich hinter dem Schauspielerinnen-Etikett verbirgt. Im Musical-Special der Serie, ›Once More, with Feeling‹ (›Noch einmal mit Gefühl‹), sang sie unter anderem das Solo ›Under Your Spell‹ und trat auf dem Album ›Music for Elevators‹ von Anthony Stewart Head (2002) als Sängerin auf. Als Autorin schrieb sie mit ›Ghosts of Albion‹ eine Fantasy-Serie um britische Volkssagen, aus der mit Cosgrove Hall auch Animationsfilme für die BBC entstanden, und mit den fünf ›Death's Daughter‹-Romanen die Geschichte einer jungen Frau, die erfährt, dass sie die Tochter des Todes ist.</p>
+          <p class="vb-intro">Als Regisseurin und Sprecherin hat sie die Bandbreite weiter ausgebaut: 2014 las sie John Scalzis ›Lock In‹ als Hörbuch ein, in ›Slayers: A Buffyverse Story‹ führte sie Regie und versammelte James Marsters, Charisma Carpenter und Anthony Stewart Head vor dem Mikrofon, und 2024 spielte sie in ›I Saw the TV Glow‹. Für die Neun ist das typisch: Die Fähigkeit liegt nicht in einem einzelnen Glanzstück, sondern in einem verlässlichen, vielseitigen Handwerk, das sie ohne großes Aufsehen betreibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 zeigt sich in der Beständigkeit: Eine kreative Verbindung, die über zwei Jahrzehnte trägt, und eine Haltung, die ohne Lautstärke auskommt, aber eine klare Linie hält. Dass sie 2021 für eine Kollegin sprach, statt zu schweigen, zeigt, dass diese Ruhe keine Gleichgültigkeit ist.</p>
+          <p class="vb-intro">Der Schatten der Neun ist die <strong>Selbstvergessenheit (Trägheit)</strong>: Das eigene Wollen tritt hinter das Gegenüber oder die Rolle zurück. Bei Benson zeigt sich das darin, dass das öffentliche Bild an einer Figur hängen blieb, die sie nur wenige Staffeln lang verkörperte, während der eigene Werkkatalog weit weniger bekannt ist. Ob sie das ändern will, hat sie nicht erkennen lassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Vergleich: Dasselbe Faultier, verschiedene Werke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am nächsten steht ihr <a href="#beruehmte-owen-wilson">Owen Wilson (SX9w1)</a>: Seine über dreißig Jahre dauernde Schreibpartnerschaft mit Wes Anderson ist die Parallele zu Bensons Zusammenarbeit mit Golden, und beide führen ein Privatleben, das nach außen kaum Thema wird. <a href="#beruehmte-sophie-marceau">Sophie Marceau (SX9w1)</a> teilt mit ihr den Weg von der Schauspielerin zur Regisseurin, ohne die Rolle des lauten Stars einzunehmen. Als Kontrast lohnt <a href="#beruehmte-dakota-johnson">Dakota Johnson (SX9w8)</a>: Bei ihr beschreibt das Porträt Krallen, die man erst sieht, wenn man zu nahe kommt, während Bensons Konsequenz sich als leise Beharrlichkeit zeigt.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-owen-wilson", label:"Porträt: Owen Wilson (SX9w1) – jahrzehntelange Schreibpartnerschaft"},
+        {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1) – Schauspielerin und Regisseurin"},
+        {route:"beruehmte-dakota-johnson", label:"Porträt: Dakota Johnson (SX9w8) – derselbe Subtyp, anderer Flügel"},
+        ])}
+      </div>
+    </div>
+  `);
+}
