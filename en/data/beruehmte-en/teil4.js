@@ -2361,3 +2361,76 @@ export function madsMikkelsenPortraitPage() {
     </div>
   `);
 }
+
+export function ursulaLyonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ursula-lyon-portrait.jpg" alt="Ursula Lyon – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-ursula-lyon-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Ursula Lyon</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Yoga and meditation teacher, 'Grande Dame of Buddhism' in the German-speaking world, born 1928 &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The eagle that rose higher with the years</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One: a creature that observes long and patiently, allocates its strength carefully and reaches its heights not through noise but through steadiness. Ursula Lyon, born in Cologne in 1928 as Ursula Hülsemann, grew up in the Bergisches Land, moved to Hamburg at the age of ten and spent the war years with her grandparents before taking her Abitur (school-leaving exam) in Osnabrück in 1947. Her wish to study medicine and become a pediatrician could not be realized; she became a nurse instead and later trained further in massage and therapeutic gymnastics – a path that stayed with the care of people all her life.</p>
+          <p class="vb-intro">From 1952 to 1964 she lived in São Paulo, Brazil, where she married the Austrian-American jurist Jesse Lyon and had two daughters; it was there that she also came to know yoga. After returning to Germany she gave yoga classes, first in small private groups, later at adult education centers, and trained further in autogenic training. In the early 1980s she moved to Vienna with her husband, where she lives and teaches.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: care as a way of life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>self-preservation One (SE1)</strong> the subtype of 'Worry': a mostly quiet inner question of whether one truly lives up to one's own standard. Unlike the social or sexual One, this attitude is not directed at improving the world but at conducting one's own life with care, reliability and honesty. In Lyon this shows throughout her path: nursing training, physiotherapy, the persistent practice of yoga and meditation over decades – all ways of keeping one's own body and mind in order and passing that order on.</p>
+          <p class="vb-intro">From this care grew a clearly structured practice system of her own: <strong>Sampada Yoga</strong>. The name stands for the binding together of healing elements for the blessing and inner happiness of those who practice. In it, Lyon combines yoga, non-denominational Vipassana meditation (insight meditation), the teaching of Theravada Buddhism – the oldest surviving school tradition – and rituals into a 'healing life strategy' that includes body, mind and heart alike.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: warmth, humor and service to others</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> lends the One a warm, attentive note: the high standard is placed in the service of others and conveyed with warmth. Lyon is regarded as a particularly lively, unpretentious and humorous teacher; she is affectionately called 'Buddha-Oma' ('Buddha Granny'). Keeping heart and mind open to humor and enthusiasm while continuing to develop kindness and compassion is, in her own words, the ground on which a humanly good, sustainable life can be built.</p>
+          <p class="vb-intro">Her own teachers included Christopher Titmuss and Ruth Denison, with whom she took part in retreats. In 1985 she met Ayya Khema, the first Western woman to become a Theravada nun, and remained her student until Khema's death in 1997. Ayya Khema authorized her to teach. Here the Two-wing shows in its best form: what she had received herself she passed on – reliably, over decades, without fuss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual achievement: communities that last</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lyon's merit lies not only in teaching but in building lasting structures. Together with her husband Jesse Lyon she played a substantial part in founding the Buddhist centers in Vienna and Scheibbs, the Peace Pagoda in Vienna and the Austrian Buddhist Religious Society. She is founder and leader of two communities, the Sampada Sangha and the Gingko Sangha, and has led meditation and yoga groups for decades in which people learned to deal with life's difficulties more easily.</p>
+          <p class="vb-intro">In 2023, for her 95th birthday, the book 'Von Buddha berührt' ('Touched by the Buddha') appeared, recorded by Marianne Merbeck-Khouri; it follows her life stations from Cologne via Hamburg and São Paulo to Vienna. On 8 March 2024 she received the internationally significant Outstanding Women in Buddhism Award (OWBA), which her granddaughter Kimberley Lyon accepted for her in Taiwan. She is regarded as one of the oldest still-teaching Buddhists in the world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow: old age as continuation, not withdrawal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE1w2 shows especially clearly in Lyon's old age: for her, age is not a time of withdrawal but a continuation of devotion. That she still taught, spoke to people and held conversations well beyond ninety bears witness to a vitality that springs not from busyness but from inner collectedness. A radio feature of the Austrian broadcaster ORF (Ö1) from January 2025 was titled 'Ich möchte lebendig sterben' ('I want to die alive') – a sentence that sums up her attitude: to lead life awake, attentive and open-hearted to the last breath.</p>
+          <p class="vb-intro">On her 95th birthday she thanked for the gift of time. The reason to speak of farewell, she said, was not a terminal illness but the certainty of a foreseeable, if uncertain, end; she wanted to tell those who had crossed her path in good time of her love, joy and gratitude. That, too, is One-care at its ripest: leaving nothing unspoken behind. A shadow can hardly be found in the public record; the strictness toward oneself typical of the One seems to have transformed over the decades into gentleness and humor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The path of healing: from strictness to lightness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One's path of healing leads from the inner conviction of having to do everything right to a serenity that also accepts the imperfect. The direction of growth leads to the Seven: to cheerfulness, lightness and enthusiasm. Lyon embodies this movement impressively: disciplined practice did not turn into a rigid rulebook but into a source of cheerfulness. She makes visible that discipline and lightness do not exclude one another but can deepen each other over a long life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. A role model for coming generations</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A woman who, after war, emigration and several new beginnings, found her life's task and pursued it faithfully for decades; who developed a method, founded communities and still touches people well past ninety: Ursula Lyon shows what is possible in a long life when care, kindness and humor work together. The eagle that never grew louder but always rose higher.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("enneagramm-zoo", "27 Animal Portraits – each Subtype animal with character, biology and Enneagram connection.", "Enneagramm-Zoo")}
+      ${bookTip("archetypen-der-tiere-im-enneagramm", "The archetypal animals of the 9 types as an inner map – images that work instantly.", "Archetypen der Tiere im Enneagramm")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Eagle"},
+        {route:"beruehmte-marie-kondo", label:"Portrait: Marie Kondo (SE1w2)"},
+        {route:"beruehmte-udo-juergens", label:"Portrait: Udo Jürgens (SE1w2)"},
+        {route:"beruehmte-dan-brown", label:"Portrait: Dan Brown (SE1w2)"},
+      ])}
+    </div>
+  `);
+}

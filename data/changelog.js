@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2438", date: "2026-10-04", text: "Neues Porträt: Ursula Lyon (SE1w2) – Yoga- und Meditationslehrerin, Grande Dame des Buddhismus.", text_en: "New portrait: Ursula Lyon (SE1w2) – yoga and meditation teacher, Grande Dame of Buddhism.", route: "beruehmte-ursula-lyon" },
     { version: "v2437", date: "2026-10-04", text: "Neues Porträt: Allie Sherlock (SX7w6) – irische Straßenmusikerin und Sängerin.", text_en: "New portrait: Allie Sherlock (SX7w6) – Irish busker and singer.", route: "beruehmte-allie-sherlock" },
     { version: "v2436", date: "2026-10-03", text: "Neues Krankheitsporträt: Dmitri Schostakowitsch (SO5w4) – Nervenleiden der rechten Hand, Herzinfarkte, Lungenkrebs.", text_en: "New illness portrait: Dmitri Shostakovich (SO5w4) – nerve disorder of the right hand, heart attacks, lung cancer.", route: "krankheitsportraets-dmitri-schostakowitsch" },
     { version: "v2435", date: "2026-10-03", text: "Neues Porträt: Dmitri Schostakowitsch (SO5w4) – sowjetischer Komponist, 7. Symphonie ›Leningrader‹.", text_en: "New portrait: Dmitri Shostakovich (SO5w4) – Soviet composer, Symphony No. 7 'Leningrad'.", route: "beruehmte-dmitri-schostakowitsch" },

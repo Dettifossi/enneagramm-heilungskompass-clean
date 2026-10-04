@@ -2404,3 +2404,76 @@ export function michaelaBenthausPortraitPage() {
     </div>
   `);
 }
+
+export function ursulaLyonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ursula-lyon-portrait.jpg" alt="Ursula Lyon – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-ursula-lyon-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Ursula Lyon</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltender Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Yoga- und Meditationslehrerin, ›Grande Dame des Buddhismus‹ im deutschsprachigen Raum, geb. 1928 &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der mit den Jahren höher stieg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins: ein Wesen, das lange und geduldig beobachtet, seine Kräfte sorgsam einteilt und seinen Aufstieg nicht durch Lärm, sondern durch Stetigkeit erreicht. Ursula Lyon, 1928 in Köln als Ursula Hülsemann geboren, wuchs im Bergischen Land auf, kam mit zehn Jahren nach Hamburg und verbrachte die Kriegsjahre bei den Großeltern, bevor sie 1947 in Osnabrück das Abitur ablegte. Ihr Wunsch, Medizin zu studieren und Kinderärztin zu werden, ließ sich nicht verwirklichen; sie wurde stattdessen Krankenschwester und bildete sich später in Massage und Heilgymnastik weiter – ein Weg, der ihr Leben lang bei der Sorge um den Menschen blieb.</p>
+          <p class="vb-intro">Von 1952 bis 1964 lebte sie in São Paulo in Brasilien, wo sie den österreichisch-amerikanischen Juristen Jesse Lyon heiratete und zwei Töchter zur Welt brachte; dort lernte sie auch das Yoga kennen. Nach der Rückkehr nach Deutschland gab sie Yogakurse, zunächst in kleinen privaten Gruppen, später an Volkshochschulen, und bildete sich im Autogenen Training weiter. Anfang der 1980er-Jahre zog sie mit ihrem Mann nach Wien, wo sie lebt und lehrt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Sorgfalt als Lebenshaltung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nannte die <strong>selbsterhaltende Eins (SE1)</strong> den Subtyp der ›Besorgnis‹ (englisch ›Worry‹): eine meist leise, innere Frage, ob man dem eigenen Anspruch wirklich gerecht wird. Anders als die soziale oder die sexuelle Eins richtet sich diese Haltung nicht darauf, die Welt zu verbessern, sondern darauf, das eigene Leben sorgfältig, verlässlich und aufrichtig zu führen. Bei Lyon zeigt sich das in ihrem gesamten Werdegang: Pflegeausbildung, Physiotherapie, das beharrliche Üben von Yoga und Meditation über Jahrzehnte – alles Wege, den eigenen Körper und Geist in Ordnung zu halten und diese Ordnung weiterzugeben.</p>
+          <p class="vb-intro">Aus dieser Sorgfalt entstand ein eigenes, klar gegliedertes Übungssystem: das <strong>Sampada-Yoga</strong>. Der Name steht für das Zusammenbinden heilsamer Elemente zum Segen und zum inneren Glück der Übenden. Lyon verbindet darin Yoga, nicht konfessionell gebundene Vipassana-Meditation (Einsichtsmeditation), die Lehre des Theravada-Buddhismus – der ältesten erhaltenen Schultradition – und Rituale zu einer ›heilsamen Lebensstrategie‹, die Körper, Geist und Herz gleichermaßen einbezieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme, Humor und Dienst am Nächsten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der Eins eine herzliche, zugewandte Note: Der hohe Anspruch wird in den Dienst anderer gestellt und mit Wärme vermittelt. Lyon gilt als besonders lebendige, unprätentiöse und humorvolle Lehrerin; liebevoll wird sie ›Buddha-Oma‹ genannt. Herz und Geist offen zu halten für Humor und Begeisterung, dabei Güte und Mitgefühl weiter zu entwickeln, ist nach eigener Aussage der Boden, auf dem sich ein menschlich gutes, tragfähiges Leben aufbauen lässt.</p>
+          <p class="vb-intro">Ihre eigenen Lehrer waren Christopher Titmuss und Ruth Denison, bei der sie an Retreats teilnahm. 1985 begegnete sie Ayya Khema, der ersten westlichen Frau, die Theravada-Nonne wurde, und blieb bis zu deren Tod 1997 ihre Schülerin. Ayya Khema ermächtigte sie zum Lehren. Hier zeigt sich der Zweierflügel in seiner besten Form: Was sie selbst empfangen hatte, gab sie weiter – verlässlich, über Jahrzehnte, ohne Aufhebens.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die tatsächliche Leistung: Gemeinschaften, die bleiben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Lyons Verdienst besteht nicht allein im Lehren, sondern im Aufbau tragfähiger Strukturen. Gemeinsam mit ihrem Mann Jesse Lyon wirkte sie wesentlich an der Gründung der buddhistischen Zentren in Wien und Scheibbs mit, an der Friedenspagode in Wien und an der Österreichischen Buddhistischen Religionsgesellschaft. Sie ist Gründerin und Leiterin zweier Gemeinschaften, der Sampada Sangha und der Gingko Sangha, und hat über Jahrzehnte Meditations- und Yogagruppen geleitet, in denen Menschen lernten, mit den Schwierigkeiten des Lebens leichter umzugehen.</p>
+          <p class="vb-intro">2023 erschien zu ihrem 95. Geburtstag das Buch ›Von Buddha berührt‹, aufgezeichnet von Marianne Merbeck-Khouri; es folgt ihren Lebensstationen von Köln über Hamburg und São Paulo bis nach Wien. Am 8. März 2024 wurde sie mit dem international bedeutenden Outstanding Women in Buddhism Award (OWBA) – dem Preis für herausragende Frauen im Buddhismus – ausgezeichnet, den ihre Enkelin Kimberley Lyon in Taiwan für sie entgegennahm. Sie gilt als eine der ältesten noch lehrenden Buddhistinnen der Welt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Das hohe Alter als Fortsetzung, nicht als Rückzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w2 zeigt sich in Lyons Alter besonders klar: Das Alter ist für sie keine Zeit des Rückzugs, sondern eine Fortsetzung der Hingabe. Dass sie auch jenseits der neunzig noch lehrte, vor Menschen sprach und Gespräche führte, zeugt von einer Lebendigkeit, die sich nicht aus Betriebsamkeit, sondern aus innerer Sammlung speist. Ein Radiobeitrag des Österreichischen Rundfunks (Ö1) vom Januar 2025 trug den Titel ›Ich möchte lebendig sterben‹ – ein Satz, der ihre Haltung auf den Punkt bringt: das Leben bis zum letzten Atemzug wach, zugewandt und mit offenem Herzen zu führen.</p>
+          <p class="vb-intro">An ihrem 95. Geburtstag dankte sie für die geschenkte Lebenszeit. Der Anlass, von Abschied zu sprechen, sei keine tödliche Krankheit, sondern die Gewissheit eines absehbaren, wenn auch ungewissen Endes; sie wolle Liebe, Freude und Dankbarkeit rechtzeitig denen sagen, die ihren Weg gekreuzt haben. Auch das ist Eins-Sorgfalt in ihrer reifsten Gestalt: nichts Unausgesprochenes zurücklassen. Ein Schatten lässt sich in den öffentlichen Zeugnissen kaum finden; die für die Eins typische Strenge gegen sich selbst scheint sich über die Jahrzehnte in Milde und Humor verwandelt zu haben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Strenge zur Leichtigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt von der inneren Überzeugung, alles richtig machen zu müssen, zur Gelassenheit, die auch das Unvollkommene annimmt. Die Entwicklungsrichtung führt dabei zur Sieben: zu Frohsinn, Leichtigkeit und Begeisterung. Lyon verkörpert diese Bewegung auf eindrucksvolle Weise: Die disziplinierte Praxis wurde nicht zum starren Regelwerk, sondern zur Quelle von Heiterkeit. Sie macht sichtbar, dass Disziplin und Leichtigkeit einander nicht ausschließen, sondern sich über ein langes Leben hinweg gegenseitig vertiefen können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Ein Vorbild für die kommenden Generationen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine Frau, die nach Krieg, Auswanderung und mehreren Neuanfängen ihre Lebensaufgabe fand und sie über Jahrzehnte treu verfolgte; die eine Methode entwickelte, Gemeinschaften gründete und mit weit über neunzig Jahren noch immer Menschen berührt: Ursula Lyon zeigt, was in einem langen Leben möglich ist, wenn Sorgfalt, Güte und Humor zusammenwirken. Der Adler, der nie lauter wurde, aber immer höher stieg.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("enneagramm-zoo", "27 Tierporträts – jedes Subtyp-Tier mit Charakter, Biologie und Enneagramm-Bezug.", "Enneagramm-Zoo")}
+      ${bookTip("archetypen-der-tiere-im-enneagramm", "Die archetypischen Tiere der 9 Typen als innere Landkarte – Bilder, die sofort wirken.", "Archetypen der Tiere im Enneagramm")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-marie-kondo", label:"Porträt: Marie Kondo (SE1w2)"},
+        {route:"beruehmte-udo-juergens", label:"Porträt: Udo Jürgens (SE1w2)"},
+        {route:"beruehmte-dan-brown", label:"Porträt: Dan Brown (SE1w2)"},
+      ])}
+    </div>
+  `);
+}
