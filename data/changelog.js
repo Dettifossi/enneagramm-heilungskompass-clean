@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2441", date: "2026-10-04", text: "Neues Porträt: Bianca Censori (SX3w2) – australische Architektin und Designerin, Yeezy Home.", text_en: "New portrait: Bianca Censori (SX3w2) – Australian architect and designer, Yeezy Home.", route: "beruehmte-bianca-censori" },
     { version: "v2440", date: "2026-10-04", text: "Neues Porträt: Sathya Sai Baba (SE2w3) – indischer spiritueller Lehrer, Krankenhäuser und Wasserprojekte.", text_en: "New portrait: Sathya Sai Baba (SE2w3) – Indian spiritual teacher, hospitals and water projects.", route: "beruehmte-sathya-sai-baba" },
     { version: "v2439", date: "2026-10-04", text: "Neuer Wissensartikel: Das Enneagramm als autopoietisches System – Kreislauf aus Kernwunde, Leidenschaft und Abwehr für alle neun Typen, mit Schaubild.", text_en: "New knowledge article: The Enneagram as an Autopoietic System – cycle of core wound, passion and defense for all nine types, with diagram.", route: "enneagramm-autopoese" },
     { version: "v2438", date: "2026-10-04", text: "Neues Porträt: Ursula Lyon (SE1w2) – Yoga- und Meditationslehrerin, Grande Dame des Buddhismus.", text_en: "New portrait: Ursula Lyon (SE1w2) – yoga and meditation teacher, Grande Dame of Buddhism.", route: "beruehmte-ursula-lyon" },

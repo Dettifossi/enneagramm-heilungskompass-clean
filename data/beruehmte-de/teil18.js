@@ -2357,3 +2357,69 @@ export function markusSoederPortraitPage() {
     </div>
   `);
 }
+
+export function biancaCensoriPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bianca-censori-portrait.jpg" alt="Bianca Censori – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bianca Censori</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Australische Architektin und Designerin, geb. 1995 &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Ein Pfau, der kaum spricht und trotzdem jeden Raum füllt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier des sexuellen Typs 3: Sein Rad ist keine Dekoration, sondern ein Argument, das ohne ein einziges Wort auskommt. Bianca Censori, am 5. Januar 1995 in Melbourne geboren, Enkelin italienischer Einwanderer aus Giulianova in den Abruzzen, wurde einem weltweiten Publikum bekannt, ohne dass dieses Publikum je viel von ihr gehört hätte. Auf Fotos, Roten Teppichen und in Straßenszenen ist sie präsent; in Interviews, Reden und Talkshows kommt sie kaum vor. Ihr Auftritt arbeitet fast ausschließlich über das Bild.</p>
+          <p class="vb-intro">Das macht sie zu einem aufschlussreichen Fall: Die Typisierung stützt sich hier nicht auf Zitate, sondern auf das, was sie sichtbar tut. Wer die Person hinter dem Bild beurteilen will, hat wenig Material. Wer das Muster beurteilen will, hat reichlich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Wirkung im Augenblick der Begegnung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> sucht nach Naranjo nicht das dauerhafte Ansehen in der Gesellschaft, sondern die unmittelbare Wirkung: den Moment, in dem ein Blick hängen bleibt. Bei Censori ist dieser Moment ihr Markenzeichen geworden. Der Auftritt bei den Grammys im Februar 2025 in einem fast durchsichtigen Outfit, die Aufnahmen aus Venedig im September 2023, die zu einer polizeilichen Prüfung wegen möglicher Verstöße gegen die öffentliche Sittlichkeit führten, ihre Schmuckkollektion im Mai 2025 mit Formen medizinischer Instrumente: Jedes dieser Ereignisse war darauf angelegt, in Sekunden gelesen zu werden, und jedes wurde weltweit diskutiert.</p>
+          <p class="vb-intro">Entscheidend für die Zuordnung ist, wie sie mit der Reaktion umgeht. Eine soziale Drei (SO3) würde einen Skandal als Gefahr für den Ruf behandeln und nachsteuern. Bei Censori bleibt die Wirkung das Ziel, auch wenn sie polarisiert: Das Bild muss treffen, ob es gefällt oder nicht. Das ist die Logik des sexuellen Subtyps, dem Aufmerksamkeit im Moment wichtiger ist als Billigung auf Dauer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Die eigene Stimme tritt hinter das gemeinsame Projekt zurück</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> färbt die Drei mit Zugewandtheit: Die Person definiert ihre Wirkung über die Verbindung zu einem anderen Menschen und dessen Vorhaben. Censoris öffentliche Rolle ist ohne ihren Ehemann, den Rapper und Designer Kanye West (Ye), kaum zu beschreiben. Die beiden heirateten im Dezember 2022 in einer privaten Zeremonie, seither treten sie als ästhetische Einheit auf; ihr Erscheinungsbild und das seiner Marke gehen ineinander über.</p>
+          <p class="vb-intro">Hier lohnt eine Klarstellung: Über die Frage, ob dieses Auftreten ihre freie Entscheidung ist, wird öffentlich heftig gestritten. Das Enneagramm kann dazu nichts beitragen, weil es keine Beziehungsdynamik von außen beurteilt. Festhalten lässt sich nur das beobachtbare Muster: Eine Drei mit Zweierflügel stellt sich typischerweise in den Dienst einer Person oder Sache, mit der sie sich identifiziert, und tut das mit voller Hingabe und Selbstverständlichkeit. Dass ihre eigene Stimme dabei kaum hörbar wird, passt zu diesem Flügel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die fachliche Substanz: Eine ausgebildete Architektin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hinter dem Bild steht eine fachliche Ausbildung, die in der Berichterstattung oft untergeht. Censori besuchte die Carey Baptist Grammar School in Melbourne und gründete nach dem Schulabschluss die Schmuckmarke Nylons. Anschließend studierte sie Architektur an der University of Melbourne, mit Bachelor und Master, den sie 2020 abschloss. Im November 2020 begann sie bei Yeezy, dem Unternehmen von Kanye West, zunächst als Architekturdesignerin; später wird sie als Leiterin der Architekturabteilung geführt.</p>
+          <p class="vb-intro">Dort gehörte sie neben Abe Salman und Tanil Raif zum Team hinter Yeezy Home, der Wohn- und Raumsparte des Unternehmens, über die Hypebeast 2021 ein Interview veröffentlichte. Das Team beschrieb einen bewusst menschlichen Zugang zum Bauen, der sich gegen starre Vorschriften und Konventionen der Branche richtet und Räume für Sinne und Stimmung gestalten will. Mit ›Primitive Futurism‹ (›Primitiver Futurismus‹) präsentierte sie gemeinsam mit Raif ein Bühnenbildkonzept für den Sunday-Service-Chor. Wie groß ihr persönlicher Anteil an einzelnen Entwürfen ist, lässt sich aus öffentlichen Quellen kaum trennen, weil das Team fast immer gemeinsam firmiert. Die Ausbildung selbst ist belegt, und sie erklärt, warum ihre Auftritte so räumlich gedacht wirken: Der Körper wird wie ein Bauteil im Raum behandelt, Silhouette, Material und Hintergrund sind abgestimmt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Konsequenz: Censori hat ein eigenes, sofort erkennbares visuelles Vokabular entwickelt und hält daran fest, auch gegen heftigen Widerspruch. Dass sie 2025 in Südkorea eine eigene Kunstausstellung zeigte und Schmuck mit einer klaren Formsprache entwarf, belegt, dass sie das Bild nicht nur trägt, sondern gestaltet.</p>
+          <p class="vb-intro">Der Schatten der Drei ist die <strong>Täuschung</strong>, genauer: die Verwechslung von Bild und Selbst. Wer die Wirkung zur Hauptaufgabe macht, riskiert, dass die Person darunter für das Publikum und irgendwann für sich selbst unsichtbar wird. Der Zweierflügel verschärft das, weil er die eigenen Bedürfnisse zusätzlich hinter die Wünsche des anderen stellt. Ob Censori diese Gefahr kennt, wissen wir nicht, denn dazu hat sie sich öffentlich nie geäußert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Vergleich: Wo andere Pfauen sprechen, schweigt sie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Aufschlussreich ist der Vergleich mit anderen SX3w2 dieses Kompasses. <a href="#beruehmte-helene-fischer">Helene Fischer (SX3w2)</a> bündelt ihre gesamte Strahlkraft auf die Bühne und schottet ihr Privatleben ab; die Grenze zwischen Auftritt und Alltag ist bei ihr scharf. Bei Censori fehlt diese Grenze weitgehend, ihr Alltag ist der Auftritt. <a href="#beruehmte-brigitte-bardot">Brigitte Bardot (SX3w2)</a> machte ihren Körper zum Bild einer ganzen Epoche und litt später darunter, darauf reduziert zu werden. <a href="#beruehmte-wolfgang-joop">Wolfgang Joop (SX3w2)</a> ist wie Censori ein Gestalter, der sich selbst zur sichtbaren Marke gemacht hat, nur dass er seine Haltung in Aphorismen ausspricht, während sie ganz im Bild bleibt.</p>
+          <p class="vb-intro">So ergibt sich ein stimmiges Gesamtbild: eine Frau mit architektonischer Schulung, die den eigenen Körper als Teil einer größeren Komposition einsetzt, mit voller Wirkung auf den Moment und mit der Bereitschaft, sich in ein gemeinsames Vorhaben einzufügen. Der Pfau entfaltet sein Rad hier nicht vor dem Spiegel, sondern vor einem Publikum, das sie nie um Erlaubnis fragt.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+        ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SX3w2) – Bühne und Privatleben strikt getrennt"},
+        {route:"beruehmte-brigitte-bardot", label:"Porträt: Brigitte Bardot (SX3w2) – der Körper als Bild einer Epoche"},
+        {route:"beruehmte-wolfgang-joop", label:"Porträt: Wolfgang Joop (SX3w2) – Gestalter als sichtbare Marke"},
+        ])}
+      </div>
+    </div>
+  `);
+}

@@ -2360,3 +2360,69 @@ export function andyWarholPortraitPage() {
     </div>
   `);
 }
+
+export function biancaCensoriPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bianca-censori-portrait.jpg" alt="Bianca Censori – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bianca Censori</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Australian architect and designer, born 1995 &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. A Peacock That Barely Speaks and Still Fills Every Room</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>peacock</strong> is the animal of the Sexual Type 3: its tail is not decoration but an argument that needs no words. Bianca Censori, born on 5 January 1995 in Melbourne, granddaughter of Italian immigrants from Giulianova in Abruzzo, became known to a worldwide audience without that audience hearing much from her. She is present in photographs, on red carpets and in street scenes; in interviews, speeches and talk shows she hardly appears. Her presence works almost entirely through the image.</p>
+          <p class="vb-intro">That makes her an instructive case: the typing here rests not on quotations but on what she visibly does. Anyone who wants to judge the person behind the image has little material. Anyone who wants to judge the pattern has plenty.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Three: Impact in the Moment of Encounter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>Sexual Three (SX3)</strong> seeks not lasting standing in society but immediate impact: the moment a gaze gets caught. For Censori, that moment has become a trademark. Her appearance at the Grammys in February 2025 in a nearly transparent outfit, the photographs from Venice in September 2023 that led to a police review over possible breaches of public decency, her jewellery collection of May 2025 using forms of medical instruments: each of these events was built to be read in seconds, and each was discussed worldwide.</p>
+          <p class="vb-intro">What decides the typing is how she handles the reaction. A Social Three (SO3) would treat a scandal as a threat to reputation and correct course. With Censori the impact remains the goal even when it polarizes: the image has to land, whether it is liked or not. That is the logic of the sexual subtype, for which attention in the moment matters more than approval in the long run.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Her Own Voice Steps Behind the Shared Project</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> colors the Three with devotion: the person defines her impact through the connection to another person and that person's undertaking. Censori's public role is hard to describe without her husband, the rapper and designer Kanye West (Ye). The two married in December 2022 in a private ceremony, and since then they appear as an aesthetic unit; her look and that of his brand flow into each other.</p>
+          <p class="vb-intro">A clarification is due here: whether this appearance is her free choice is fiercely debated in public. The Enneagram has nothing to add, because it cannot judge a relationship dynamic from outside. All that can be stated is the observable pattern: a Three with a Two-wing typically puts herself in the service of a person or cause she identifies with, and does so with full commitment and a sense of naturalness. That her own voice is barely audible in the process fits this wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: A Trained Architect</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Behind the image stands professional training that often gets lost in the coverage. Censori attended Carey Baptist Grammar School in Melbourne and founded the jewellery label Nylons after finishing school. She then studied architecture at the University of Melbourne, with a bachelor's and a master's degree completed in 2020. In November 2020 she started at Yeezy, Kanye West's company, first as an architectural designer; later she is listed as head of architecture.</p>
+          <p class="vb-intro">There she belonged, alongside Abe Salman and Tanil Raif, to the team behind Yeezy Home, the company's housing and spatial division, about which Hypebeast published an interview in 2021. The team described a deliberately humane approach to building, aimed against rigid regulations and industry conventions and intended to shape spaces for the senses and for mood. With 'Primitive Futurism' she presented, together with Raif, a set concept for the Sunday Service choir. How large her personal share in individual designs is can hardly be separated out from public sources, because the team almost always appears under a shared name. The training itself is documented, and it explains why her appearances look so spatially conceived: the body is treated like a structural element in space, with silhouette, material and backdrop coordinated.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Three with a Two-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in consistency: Censori has developed her own instantly recognizable visual vocabulary and holds to it even against fierce objection. That she showed her own art exhibition in South Korea in 2025 and designed jewellery with a clear formal language indicates that she does not merely wear the image but shapes it.</p>
+          <p class="vb-intro">The shadow of the Three is <strong>deceit</strong>, more precisely the confusion of image and self. Whoever makes impact the main task risks that the person underneath becomes invisible to the audience and eventually to herself. The Two-wing sharpens this, because it additionally puts one's own needs behind the wishes of the other. Whether Censori knows this danger we cannot say, as she has never spoken publicly about it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Comparison: Where Other Peacocks Speak, She Stays Silent</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The comparison with other SX3w2 in this compass is revealing. <a href="#beruehmte-helene-fischer">Helene Fischer (SX3w2)</a> concentrates all her radiance on the stage and shields her private life; the line between performance and everyday life is sharp for her. With Censori that line is largely missing, her everyday life is the performance. <a href="#beruehmte-brigitte-bardot">Brigitte Bardot (SX3w2)</a> made her body the image of an entire era and later suffered from being reduced to it. <a href="#beruehmte-wolfgang-joop">Wolfgang Joop (SX3w2)</a> is, like Censori, a designer who has made himself a visible brand, except that he voices his stance in aphorisms while she stays entirely within the image.</p>
+          <p class="vb-intro">The result is a coherent overall picture: a woman with architectural training who uses her own body as part of a larger composition, with full impact on the moment and a willingness to fit into a shared undertaking. Here the peacock does not unfurl its tail in front of a mirror but before an audience it never asks for permission.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+        ${relatedLinks([
+          {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+          {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+          {route:"beruehmte-helene-fischer", label:"Portrait: Helene Fischer (SX3w2) – stage and private life strictly separated"},
+          {route:"beruehmte-brigitte-bardot", label:"Portrait: Brigitte Bardot (SX3w2) – the body as the image of an era"},
+          {route:"beruehmte-wolfgang-joop", label:"Portrait: Wolfgang Joop (SX3w2) – designer as visible brand"},
+        ])}
+      </div>
+    </div>
+  `);
+}
