@@ -33899,7 +33899,7 @@ function _neuDatumFuerRoute(route) {
     let best = null;
     try {
       (typeof CHANGELOG !== "undefined" ? CHANGELOG : []).forEach(e => {
-        if (e && e.route === route && e.date && /^Neu(?:e[rsn]?)?(?=[\s:])/.test(e.text || "")) {
+        if (e && e.route && (e.route === route || e.route.indexOf(route + "/") === 0 || e.route.indexOf(route + "|") === 0) && e.date && /^Neu(?:e[rsn]?)?(?=[\s:])/.test(e.text || "")) {
           if (!best || e.date > best) best = e.date;
         }
       });
@@ -36584,7 +36584,7 @@ function praxistippsHeilpraktikerPage() {
           <div class="tool-grid">
             ${TIPPS.filter(t => t.kategorie === k.id).map(t => `
               <button class="tool-card tool-card--link" data-route="praxistipps-heilpraktiker/${t.slug}">
-                <span>Praxistipp</span>
+                <span>Praxistipp${_neuAktiv("praxistipps-heilpraktiker/" + t.slug) ? ' <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:4px;vertical-align:middle;letter-spacing:0.05em;">NEU</span>' : ""}</span>
                 <h2>${t.titel}</h2>
                 <p>${t.teaser}</p>
                 <span class="tool-card__arrow">Ansehen \u2192</span>
