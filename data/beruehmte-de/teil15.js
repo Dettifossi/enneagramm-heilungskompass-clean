@@ -2357,3 +2357,71 @@ export function steffenHensslerPortraitPage() {
     </div>
   `);
 }
+
+export function allieSherlockPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-allie-sherlock-portrait.jpg" alt="Allie Sherlock – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Allie Sherlock</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Irische Straßenmusikerin, Sängerin und Songwriterin, geb. 2005 &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse, der mitten auf der Straße zu singen begann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben: neugierig, gesellig, immer dort, wo gerade etwas geschieht, und unfähig, am Rand zu stehen, wenn sich irgendwo ein Spiel anbahnt. Allie Sherlock, am 7. April 2005 in Douglas bei Cork geboren, kam nicht über eine Bühne zur Musik, sondern über das Pflaster: Seit ihrem elften Lebensjahr stand sie nahezu jede Woche auf der Grafton Street in Dublin, einer der belebtesten Einkaufsstraßen der irischen Hauptstadt, eine Gitarre in der Hand, ihr Vater Mark daneben, der die Auftritte filmte und ins Netz stellte. Ihr eigener YouTube-Kanal besteht bereits seit 2014.</p>
+          <p class="vb-intro">Dass sie dort als Kind Halt fand, hat eine Vorgeschichte: Als Kind war sie sehr schüchtern, 2016 verließ sie die Grundschule wegen Mobbings und wurde danach zu Hause unterrichtet. Im Juni 2017 ging ihre Fassung von Ed Sheerans ›Supermarket Flowers‹ viral – das Video eines Mädchens, das mitten im Passantenstrom plötzlich so singt, dass die Menschen stehen bleiben. Aus der Straße wurde eine Weltbühne, ohne dass sich die Straße je ganz davon löste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: jede Gelegenheit zum Singen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nannte die <strong>sexuelle Sieben (SX7)</strong> den Subtyp der ›Suggestibilität‹: Statt ihre Begeisterung zu streuen, wirft sie sich in den einen Moment, die eine Begegnung, die eine Verlockung – und lässt sich dabei von der Intensität des Augenblicks tragen. Bei Sherlock zeigt sich das in einer Haltung, die eine Interview-Überschrift vom August 2026 auf den Punkt bringt: ›I take any opportunity I can to sing‹ – ›Ich ergreife jede Gelegenheit, die sich zum Singen bietet.‹ In einem vielbeachteten Straßenvideo stieg ein italienischer Passant spontan ein und sang mit ihr ›Perfect‹ auf Italienisch; die Straße, auf der niemand weiß, was in der nächsten Minute geschieht, ist für diese Haltung der ideale Ort.</p>
+          <p class="vb-intro">Am 29. Januar 2018 sang sie in der Show von Ellen DeGeneres Adeles ›A Million Years Ago‹ in einem eigenen Arrangement und erhielt stehende Ovationen. Im Februar 2018 unterschrieb sie einen Fünfjahresvertrag bei Patriot Records, dem Label des OneRepublic-Sängers Ryan Tedder, der ihr mindestens drei Alben auferlegte. Ihr Album ›Allie‹ erschien am 7. April 2023 – an ihrem 18. Geburtstag. Zuletzt erschien die Songsammlung ›For Once I'll Say It Out Loud‹ (etwa: ›Ein einziges Mal will ich es laut aussprechen‹); eine Tournee 2026 trägt denselben Titel. Anfang 2026 zählte ihr Kanal über sechs Millionen Abonnenten und mehr als 1,5 Milliarden Aufrufe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: der Vater am Straßenrand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben ein feines Gespür für Verlässlichkeit: Die Freiheit des Augenblicks wird nicht allein gewagt, sondern mit einem Menschen im Rücken, dem man traut. Bei Sherlock ist das ihr Vater, der zugleich Kameramann, Manager und Beschützer ist; Berichten zufolge achtet er darauf, dass ihr niemand zu nahe tritt, und hat sie als schüchternes Kind gezielt darin bestärkt, kleine Dinge selbstständig zu erledigen, bis sich ihr Selbstvertrauen aufbaute. Heute, so heißt es, wird sie nur noch selten nervös – vor den Millionen bei Ellen DeGeneres gestand sie dagegen eine deutliche Aufregung ein.</p>
+          <p class="vb-intro">Die Kraft ihrer Stimme erinnert zunächst an den Achterflügel (w8), an Durchsetzungswillen und Strahlkraft. Entscheidend für den Sechserflügel spricht jedoch das Muster dahinter: Die Wagnisse – die Straße, das Fernsehstudio, der Plattenvertrag – geschahen nie als einsame Alleingänge, sondern in einem engen, verlässlichen Verbund. Die Typisierung stützt sich auf öffentlich zugängliche Quellen und bleibt eine begründete Einschätzung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die fachliche Substanz: Stimme zwischen Belting und Flüstern</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Sherlock von unzähligen anderen Straßenmusikern unterscheidet, ist zuerst die Stimme selbst. Nach den vorliegenden Beschreibungen bewegt sie sich zwischen kraftvollem Belting – dem Singen in der Vollstimme ohne Übergang in die Kopfstimme, wie man es von Adele kennt – und leisem, fast gesprochenem Piano. Als Vorbilder werden Adele, Lewis Capaldi und Sam Smith genannt, drei Stimmen, die ihre Wirkung aus genau diesem Wechsel zwischen Wucht und Verletzlichkeit beziehen. Hinzu kommt das eigenständige Arrangieren: Sie spielt die Lieder nicht nach, sondern setzt sie mit eigener Gitarrenbegleitung neu.</p>
+          <p class="vb-intro">Dazu tritt die Schule der Straße: Wer unter Passanten singt, hat wenige Sekunden, um Aufmerksamkeit zu gewinnen und zu halten, und bekommt unmittelbare Rückmeldung – Menschen bleiben stehen oder gehen weiter. Dass Sherlock diese Schule schon als Kind durchlief, ist eine plausible Erklärung für die Sicherheit, mit der sie später vor Fernsehkameras und Konzertpublikum stand. Das Talent selbst ist real; die Straße hat es geschliffen, nicht erfunden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX7w6 zeigt sich darin, dass aus einer spontanen Haltung ein tragfähiges Werk wurde: vom Straßenvideo zu einem eigenen Album und eigenen Songs, von der Coverversion zur Songwriterin. Die Begeisterung blieb ansteckend, aber sie zerstreute sich nicht – sie fand mit der Musik einen Gegenstand, an dem sie über Jahre wachsen konnte.</p>
+          <p class="vb-intro">Ein Schatten lässt sich bei einer so jungen Künstlerin nur vorsichtig andeuten. Das Muster der Sieben, schmerzhaften Erfahrungen auszuweichen, indem man sich in neue, erfreuliche Eindrücke stürzt, zeigt sich im Rückblick: Nach dem Mobbing in der Grundschule wurde nicht die Rückkehr in die Klasse, sondern die offene Straße zum Ort der Selbstbehauptung. Das war ein gesunder, kreativer Ausweg – zugleich führt ein solcher Weg früh ins Scheinwerferlicht, ein Leben in der Öffentlichkeit vor der Volljährigkeit, das der Sechserflügel mit dem verlässlichen Familienrahmen aufzufangen versuchte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Schimpanse an der Grafton Street</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein Mädchen mit Gitarre, ein Vater mit Kamera, ein Strom von Passanten, die plötzlich stehen bleiben: Das ist die sexuelle Sieben mit Sechserflügel in ihrer unverfälschten Form – eine Begeisterung, die sich im Augenblick verschenkt, und ein verlässlicher Mensch am Rand, der sie sicher macht. Der Schimpanse hat den Straßenrand nie verlassen; er hat ihn nur größer gemacht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("enneagramm-zoo", "27 Tierporträts – jedes Subtyp-Tier mit Charakter, Biologie und Enneagramm-Bezug.", "Enneagramm-Zoo")}
+      ${bookTip("archetypen-der-tiere-im-enneagramm", "Die archetypischen Tiere der 9 Typen als innere Landkarte – Bilder, die sofort wirken.", "Archetypen der Tiere im Enneagramm")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-michaela-benthaus", label:"Porträt: Michaela Benthaus (SX7w6) – ein Traum, abgesichert durch Verbündete"},
+        {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
+        {route:"beruehmte-ida-pfeiffer", label:"Porträt: Ida Pfeiffer (SX7w6) – ein jahrzehntelang aufgeschobener Traum, dann vollständig verwirklicht"},
+      ])}
+    </div>
+  `);
+}

@@ -2353,3 +2353,71 @@ export function ulrichOttPortraitPage() {
     </div>
   `);
 }
+
+export function allieSherlockPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-allie-sherlock-portrait.jpg" alt="Allie Sherlock – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Allie Sherlock</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Irish busker, singer and songwriter, born 2005 &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The chimpanzee who began singing in the middle of the street</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the sexual Seven: curious, sociable, always where something is happening, and unable to stand at the edge when a game starts up somewhere. Allie Sherlock, born on 7 April 2005 in Douglas near Cork, did not come to music by way of a stage but by way of the pavement: from the age of eleven she stood almost every week on Grafton Street in Dublin, one of the busiest shopping streets in the Irish capital, a guitar in her hands, her father Mark beside her, filming the performances and putting them online. Her own YouTube channel has existed since 2014.</p>
+          <p class="vb-intro">That she found footing there as a child has a backstory: as a child she was very shy, and in 2016 she left primary school because of bullying and was then schooled at home. In June 2017 her version of Ed Sheeran's 'Supermarket Flowers' went viral – the video of a girl who, in the middle of the stream of passers-by, suddenly sings in such a way that people stop in their tracks. The street became a world stage, without the street ever quite letting go of her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: every opportunity to sing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the <strong>sexual Seven (SX7)</strong> the subtype of 'suggestibility': instead of scattering her enthusiasm, she throws herself into the one moment, the one encounter, the one lure – carried along by the intensity of the instant. In Sherlock this shows in an attitude that an August 2026 interview headline sums up: 'I take any opportunity I can to sing.' In a widely shared street video an Italian passer-by spontaneously joined in and sang 'Perfect' with her in Italian; the street, where nobody knows what the next minute will bring, is the ideal place for this attitude.</p>
+          <p class="vb-intro">On 29 January 2018 she sang Adele's 'A Million Years Ago' in her own arrangement on The Ellen DeGeneres Show and received a standing ovation. In February 2018 she signed a five-year contract with Patriot Records, the label of OneRepublic singer Ryan Tedder, which required her to deliver at least three albums. Her album 'Allie' was released on 7 April 2023 – her 18th birthday. Most recently came the song collection 'For Once I'll Say It Out Loud'; a 2026 tour carries the same title. At the start of 2026 her channel counted more than six million subscribers and over 1.5 billion views.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: her father at the curbside</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven a fine sense of reliability: the freedom of the moment is not ventured alone but with someone trusted at one's back. In Sherlock that is her father, who is cameraman, manager and protector in one; reportedly he takes care that nobody comes too close to her, and as a shy child he deliberately encouraged her to handle small things independently until her confidence grew. Today, it is said, she rarely gets nervous – before the millions watching Ellen DeGeneres, however, she admitted to considerable jitters.</p>
+          <p class="vb-intro">The power of her voice at first recalls the Eight-wing (w8), with its assertiveness and radiance. What speaks decisively for the Six-wing, however, is the pattern behind it: the risks – the street, the television studio, the record contract – were never lone ventures but happened within a close, reliable bond. This typing rests on publicly available sources and remains a reasoned assessment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The actual substance: a voice between belting and whispering</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Sherlock apart from countless other buskers is first of all the voice itself. According to the available descriptions it moves between powerful belting – singing in full voice without a transition into head voice, as familiar from Adele – and quiet, almost spoken piano. Adele, Lewis Capaldi and Sam Smith are named as influences, three voices that draw their effect from exactly this alternation between force and vulnerability. Added to this is her own arranging: she does not play songs back as they are but resets them with her own guitar accompaniment.</p>
+          <p class="vb-intro">Then there is the school of the street: anyone singing among passers-by has a few seconds to win and hold attention and receives immediate feedback – people stop or walk on. That Sherlock went through this school as a child is a plausible explanation for the assurance with which she later stood before television cameras and concert audiences. The talent itself is real; the street polished it, it did not invent it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX7w6 shows in how a spontaneous attitude became a lasting body of work: from street video to an album of her own and her own songs, from cover version to songwriter. The enthusiasm remained contagious but did not scatter – in music it found an object it could grow with over the years.</p>
+          <p class="vb-intro">A shadow can only be hinted at cautiously with so young an artist. The Seven's pattern of avoiding painful experiences by plunging into new, pleasant impressions shows in retrospect: after the bullying in primary school, it was not a return to the classroom but the open street that became the place of self-assertion. That was a healthy, creative way out – yet such a path also leads early into the spotlight, a life in public before adulthood, which the Six-wing tried to cushion with a reliable family frame.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The chimpanzee on Grafton Street</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A girl with a guitar, a father with a camera, a stream of passers-by who suddenly stop: that is the sexual Seven with a Six-wing in its unadulterated form – an enthusiasm that gives itself away in the moment, and a reliable person at the edge who makes it safe. The chimpanzee never left the curbside; it only made it bigger.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("enneagramm-zoo", "27 Animal Portraits – each Subtype animal with character, biology and Enneagram connection.", "Enneagramm-Zoo")}
+      ${bookTip("archetypen-der-tiere-im-enneagramm", "The archetypal animals of the 9 types as an inner map – images that work instantly.", "Archetypen der Tiere im Enneagramm")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-michaela-benthaus", label:"Portrait: Michaela Benthaus (SX7w6) – a dream secured by allies"},
+        {route:"beruehmte-jerry-lewis", label:"Portrait: Jerry Lewis (SX7w6)"},
+        {route:"beruehmte-ida-pfeiffer", label:"Portrait: Ida Pfeiffer (SX7w6) – a dream deferred for decades, then fully realized"},
+      ])}
+    </div>
+  `);
+}
