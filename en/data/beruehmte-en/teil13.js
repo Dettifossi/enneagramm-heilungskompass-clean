@@ -1848,58 +1848,59 @@ export function juergenVonDerLippePortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-juergen-von-der-lippe-portrait.jpg" alt="Jürgen von der Lippe – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Jürgen von der Lippe</p>
-        <p class="krim-portrait-typ">SX9w8 &middot; Sexual Type 9 with Eight-wing</p>
-        <p class="krim-portrait-subtitle">Entertainer, born 1948 &ndash; Animal correspondence: Sloth</p>
+        <p class="krim-portrait-typ">SO9w8 &middot; Social Type 9 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Entertainer, born 1948 &ndash; Animal correspondence: Buffalo</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Sloth With the Cheeky Remark</h2>
+        <h2 class="vb-section">1. The Buffalo With the Cheeky Remark</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>sloth</strong> doesn't seek the big herd, but the one intense connection it can fall completely into. Jürgen von der Lippe, born Hans-Jürgen Dohrenkamp in 1948 in Bad Salzuflen, had his breakthrough in 1980 with the 'WWF-Club' on WDR – but his real element was never the television apparatus itself, but the immediate, physically felt contact with the audience right in front of him.</p>
-          <p class="vb-intro">Telling detail: on his live tours he deliberately chooses venues seating 500 to 2,000 people, because larger halls make him uncomfortable – and after every single show, he holds an autograph session. Not a fleeting, distant relationship with his audience, but one he actively seeks out anew every single evening.</p>
+          <p class="vb-intro">The <strong>buffalo</strong> is the animal of the Social Type 9: it walks calmly with the herd, carries its weight without fuss, and when it sets off, the others follow. Jürgen von der Lippe, born Hans-Jürgen Dohrenkamp in 1948 in Bad Salzuflen, had his breakthrough in 1980 with the 'WWF-Club' on WDR. Afterwards he remained a fixture of German television for decades without ever being the loudest name in the house.</p>
+          <p class="vb-intro">Telling is how he treats his audience: on his live tours he deliberately chooses venues seating 500 to 2,000 people, because larger halls make him uncomfortable, and after every single show he holds an autograph session. For him the audience is not an anonymous mass but a community he feels part of for an evening.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Sexual Nine: Merging With the Audience, Not the Network</h2>
+        <h2 class="vb-section">2. The Social Nine: Identity Through Belonging</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>sexual Nine (SX9)</strong>, per Naranjo, seeks not belonging to a large group but complete merging in the immediate moment with the person or people in front of her. In von der Lippe this shows in how he reworks his program for each specific audience every single evening rather than running through a fixed set – the connection is built in the room, not on paper. He has refused editorial control over his stage material throughout his career, precisely because that would limit this live, unfiltered response to the audience before him.</p>
-          <p class="vb-intro">His more than 40-year bond with Anne Dohrenkamp also carries SX9 traits: he married her in 1983, divorced her, hastily married Margarethe Schreinemakers in 1986 – "because we found each other utterly amazing," as she later put it – split from her too in 1988, and afterward found his way back to Dohrenkamp, with whom he still lives today, in separate apartments. Not a clean picture of lifelong institutional loyalty, but the SX9's characteristic intense circling around the one bond that is found again in the end.</p>
+          <p class="vb-intro">According to Naranjo, the <strong>Social Nine (SO9)</strong> finds her place by dissolving into a group, a cause or a house, deliberately putting her own person in the background. In von der Lippe this shows in a loyalty that lasted over four decades: he stayed attached to public television and never moved to a big private-network deal. As early as 1976 he co-founded the cabaret group 'Gebrüder Blattschuss' with Hans Werner Olm, a collective rather than a solo project. He has refused editorial control over his stage material throughout his career, but that is no break with belonging; it is the price he asks for belonging on his own terms.</p>
+          <p class="vb-intro">His private life follows the same pull toward familiar home: in 1983 he married Anne Dohrenkamp, divorced her, hastily married Margarethe Schreinemakers in 1986 – "because we found each other utterly amazing," as she later put it – split from her too in 1988, and afterward found his way back to Dohrenkamp. He still lives with her today, in separate apartments: closeness, but with room of his own, as the buffalo walks along in the herd and still keeps its place.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Eight-wing: The Cheeky Remark That's Never Far Off</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Eight-wing</strong> gives the sexual Nine a directness that's rarely diplomatically wrapped. Von der Lippe is known for "always having a cheeky remark ready"; one of his own stage programs is even titled 'Sex und Humor,' and his early radio job ended because the responsible editor disliked his frequent sexual jokes. Tellingly, this crude humor is deployed not to shock, but to create exactly the direct, physically felt closeness to the audience that matters to the SX9.</p>
+          <p class="vb-intro">The <strong>Eight-wing</strong> gives the Social Nine a directness that's rarely diplomatically wrapped. Von der Lippe is known for "always having a cheeky remark ready"; one of his own stage programs is even titled 'Sex und Humor', and his early radio job ended because the responsible editor disliked his frequent sexual jokes. The crude humor serves not to shock but to create closeness: whoever laughs together at the same thing belongs together.</p>
           <p class="vb-intro">The same Eight-wing directness shows in his open criticism of the TV industry: "There's less and less money for programming, but more and more people who want a say, mainly by raising concerns." No vague dissatisfaction, but a clear, blunt naming of what bothers him – from a man who otherwise never stages himself as a loud fighter.</p>
-          <p class="vb-intro">Another pattern makes the Nine-Eight combination even clearer: for decades, von der Lippe has poked fun at the Catholic Church without hesitation – in one of his books, God, Jesus, Mary, and Joseph appear as characters, and church jokes are a fixed part of his repertoire. Jokes about Islam, by contrast, he deliberately avoids, because, in his own words, "his life is too important to him for that." That is exactly the Nine-Eight dynamic: the Eight-wing pushes right up to the edge of what feels safe – much like <a href="javascript:void(0)" data-route="beruehmte-mario-barth">Mario Barth</a> (SX9w8), who takes relationships and the friction between the sexes unsparingly to task – but as soon as real, uncontrollable friction threatens, the Nine core retreats back into harmony rather than seeing the conflict through to the end.</p>
-          <p class="vb-intro"><strong>Distinguishing from the Social Nine:</strong> The social Nine would also be a natural first guess: loyal to the same public broadcaster for over four decades, never switching to a big private-network deal. The decisive difference lies in where the actual merging happens. The Social Nine would dissolve into the institution itself, into the large collective of the network and its mass audience. Von der Lippe, by contrast, explicitly seeks the opposite of the big, anonymous stage – small venues instead of arenas, individual autograph sessions instead of distance, nightly reworking of material instead of a fixed program. His network loyalty is better read as the outer frame within which this one, concrete audience closeness can keep being built, not as the actual goal itself.</p>
+          <p class="vb-intro">Another pattern makes the Nine-Eight combination clear: for decades, von der Lippe has poked fun at the Catholic Church without hesitation – in one of his books, God, Jesus, Mary and Joseph appear as characters, and church jokes are a fixed part of his repertoire. Jokes about Islam, by contrast, he deliberately avoids, because, in his own words, "his life is too important to him for that." The Eight-wing pushes right up to the edge of what feels safe – much like <a href="javascript:void(0)" data-route="beruehmte-mario-barth">Mario Barth</a> (SX9w8), who takes relationships and the friction between the sexes ruthlessly to task – but as soon as real, uncontrollable friction threatens, the Nine core retreats into harmony instead of seeing the conflict through to the end.</p>
+          <p class="vb-intro">The sexual Nine would also be a natural first guess, given the small venues and the personal autograph sessions in which he meets his counterpart directly. The difference lies in where the merging happens. The SX9 seeks the one intense bond with a single counterpart and would rather break away from the big apparatus. Von der Lippe, by contrast, stays in the same house for over four decades, tailors his program to the audience as a whole and finds his home in belonging. For him the small venues are not a retreat from the collective but the form in which he can be part of a manageable collective.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Work: From Signals Officer to Entertainment Institution</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">After officer training in the German army and an unfinished teaching degree, von der Lippe co-founded the cabaret group "Gebrüder Blattschuss" with Hans Werner Olm in 1976. Record hits like 'Kreuzberger Nächte' and 'Guten Morgen, liebe Sorgen' followed, along with numerous stage characters he embodied himself across decades.</p>
-          <p class="vb-intro">Shows like 'Geld oder Liebe,' 'Donnerlippchen,' and 'Lippes Leselust' made him one of the most consistent figures in German television – not through one big career leap, but through steady presence across generations of viewers. His stage repertoire still includes uncannily precise impressions of other musicians, among them Peter Maffay (SX9w1) – a feat that itself requires a sharp sense for someone else's stage presence.</p>
+          <p class="vb-intro">Shows like 'Geld oder Liebe', 'Donnerlippchen' and 'Lippes Leselust' made him one of the most consistent figures in German television – not through one big career leap, but through steady presence across generations of viewers. His stage repertoire still includes uncannily precise impressions of other musicians, among them Peter Maffay (SX9w1) – a feat that itself requires a sharp sense for someone else's stage presence.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow of the Sexual Nine with Eight-wing</h2>
+        <h2 class="vb-section">5. Light and Shadow of the Social Nine with Eight-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX9w8 shows in von der Lippe in a rare combination: the ability to fully engage with one specific audience anew every single evening, paired with the courage to state uncomfortable truths plainly, rather than currying favor.</p>
-          <p class="vb-intro">The shadow of the Nine shows in his relationship history: two divorces before the one bond that mattered in the end was found again – a pattern in which merging is first sought with the wrong person before the right one prevails. Behind the crude, audience-facing facade, too, little was visible for a long time of a man who articulates his own, independent needs off stage.</p>
+          <p class="vb-intro">The light of the SO9w8 shows in von der Lippe in a rare combination: the reliability of staying loyal to the same house and the same audience for over four decades, paired with the courage to state uncomfortable truths plainly rather than currying favor.</p>
+          <p class="vb-intro">The shadow of the Nine is <strong>self-forgetting (sloth)</strong>: behind the crude, audience-facing facade, little was visible for a long time of a man who articulates his own, independent needs off stage. The two divorces before the one bond was found again fit this too: belonging was first sought in the wrong place before the familiar prevailed.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Sloth Who Chose the Small Stage Over the Big One</h2>
+        <h2 class="vb-section">6. The Buffalo Who Chose the Small Herd Over the Big One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Jürgen von der Lippe's path shows the sexual Nine with Eight-wing in an unvarnished, decades-held form: the small, felt room over the big, anonymous hall; the one woman he found his way back to after detours, rather than a clean, straight relationship line. The sloth doesn't choose its bond by size, but by whether it feels real.</p>
-          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-mario-barth">Mario Barth</a> (SX9w8) &ndash; in him, the same combination of Nine-merging with a stage persona and Eight-wing directness shows up in crude humor. More in the <a href="javascript:void(0)" data-route="beruehmte-mario-barth">portrait of Mario Barth</a>.</p>
-          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
-          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+          <p class="vb-intro">Jürgen von der Lippe's path shows the Social Nine with Eight-wing in an unvarnished, decades-held form: the manageable, felt room over the big, anonymous hall, the familiar house over the lucrative move, the one woman he found his way back to after detours. The buffalo doesn't choose its herd by size, but by whether he feels he belongs in it.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-mario-barth">Mario Barth</a> (SX9w8) &ndash; the same Eight-wing humor, but combined with a Nine-merging directed at a stage persona and the direct counterpart. Closer in instinct stands <a href="javascript:void(0)" data-route="beruehmte-carlo-ancelotti">Carlo Ancelotti</a> (SO9w8), whose calm authority likewise grows out of belonging to a team.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protection patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
         </blockquote>
 
         ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
-        {route:"beruehmte-mario-barth", label:"Portrait: Mario Barth (SX9w8)"},
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
+        {route:"beruehmte-carlo-ancelotti", label:"Portrait: Carlo Ancelotti (SO9w8)"},
+        {route:"beruehmte-ronald-reagan", label:"Portrait: Ronald Reagan (SO9w8)"},
+        {route:"beruehmte-mario-barth", label:"Portrait: Mario Barth (SX9w8) – same wing, different instinct"},
         {route:"beruehmte-juergen-drews", label:"Portrait: Jürgen Drews (SX9w8)"},
-        {route:"beruehmte-francois-damiens", label:"Portrait: François Damiens (SX9w8)"},
         ])}
       </div>
     </div>

@@ -1891,7 +1891,7 @@ export function juergenDrewsPortraitPage() {
           {route:"beruehmte-jon-bon-jovi", label:"Porträt: Jon Bon Jovi (SX9w1) – ebenfalls jahrzehntelange Bindungstreue"},
           {route:"beruehmte-helge-schneider", label:"Porträt: Helge Schneider (SX9w1)"},
           {route:"krankheitsportraets-juergen-drews", label:"Krankheitsporträt: Jürgen Drews (SX9w8) – Umgang mit der Polyneuropathie"},
-          {route:"beruehmte-juergen-von-der-lippe", label:"Porträt: Jürgen von der Lippe (SX9w8) – ebenfalls derber Humor als Publikumsnähe"},
+          {route:"beruehmte-juergen-von-der-lippe", label:"Porträt: Jürgen von der Lippe (SO9w8) – ebenfalls derber Humor als Publikumsnähe (soziale Neun, derselbe Flügel)"},
           {route:"beruehmte-francois-damiens", label:"Porträt: François Damiens (SX9w8)"},
         ])}
       </div>
