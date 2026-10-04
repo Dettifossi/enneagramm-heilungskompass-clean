@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=191";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=192";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -4100,6 +4100,7 @@ text.nav = [
     { route: "kriminalmusterkompass", label: "Crime Pattern Compass (Patterns in the Criminal Psychology Portraits)" },
     { route: "musterradar", label: "Pattern Radar (Wings & Instincts Across All Types)" },
     { route: "linien-dynamik-beziehungen", label: "Connecting-Line Dynamics in Relationships (Stress & Security Points)" },
+    { route: "enneagramm-autopoese", label: "The Enneagram as an Autopoietic System (Self-Preservation)" },
     { route: "enneagramm-rad", label: "Enneagram Wheel (interactive symbol)" },
     { route: "blickqualitaeten-atlas", label: "Gaze Quality Atlas (27 Subtypes)" },
     { route: "quiz", label: "Quiz" },
@@ -23333,6 +23334,99 @@ function linienDynamikBeziehungenPage() {
           {route:"kompatibilitaets-check", label:"Compatibility Check (compare two subtypes)"},
           {route:"tierforscher-uebereinstimmung", label:"Animal Researcher Match"},
           {route:"nicht-verbundene-typen", label:"Unconnected Types (Chart)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function enneagrammAutopoesePage() {
+  const typen = [
+    { typ: 1, name: "The Perfectionist", wunde: "The wound of imperfection: the deep feeling that reality never measures up to the inner ideal – and that one is only all right when everything is right.", leidenschaft: "Anger (fixation: resentment)", abwehr: "Reaction formation", uebersteuerung: "Perfectionism: the world is to become flawless and safe through tireless improvement. The inner judge corrects others first, then oneself, then others again.", integration: "Type 7 – lightness, spontaneity, joy", stress: "Type 4 – bitterness, withdrawal into the feeling of never being enough", oeffnung: "Serenity: accepting the imperfect without giving up the wish for goodness." },
+    { typ: 2, name: "The Helper", wunde: "The wound of unwelcome needs: the early experience that one is needed and loved as long as one gives – and that one's own needs are a disturbance.", leidenschaft: "Pride (fixation: flattery)", abwehr: "Repression", uebersteuerung: "Indispensability: giving becomes the currency that secures affection – until one's own needs drop out of sight and report back as exhaustion or resentment.", integration: "Type 4 – sensing one's own feelings, looking inward", stress: "Type 8 – demands and reproaches after long self-denial", oeffnung: "Humility: allowing giving and receiving to count equally." },
+    { typ: 3, name: "The Achiever", wunde: "The wound of lacking self-worth: the feeling of not being accepted for who one is but for achievement and the right image.", leidenschaft: "Deceit (fixation: vanity)", abwehr: "Identification", uebersteuerung: "Efficiency and image: the system adapts so consistently to expectations that contact with one's own feeling is lost – success appears, the self steps back.", integration: "Type 6 – commitment, loyalty, heartfelt concerns", stress: "Type 9 – switching off, listlessness, inner emptiness", oeffnung: "Truthfulness: the person behind the role, who is enough even without achievement." },
+    { typ: 4, name: "The Individualist", wunde: "The wound of separateness: the sense that something essential is missing and that others have it – together with the worry of not being understood.", leidenschaft: "Envy (fixation: melancholy)", abwehr: "Introjection", uebersteuerung: "Dramatizing the lack: longing for the distant and the lost becomes the life theme, while the present fades by comparison. The feeling is cultivated until it rules the system.", integration: "Type 1 – structure, action, objectivity", stress: "Type 2 – clinging, neediness toward others", oeffnung: "Equanimity: taking feelings seriously without succumbing to them." },
+    { typ: 5, name: "The Researcher", wunde: "The wound of overwhelm: the impression that the world demands too much and one's own resources are limited – hence the worry of being intruded upon or drained.", leidenschaft: "Avarice (fixation: stinginess)", abwehr: "Isolation", uebersteuerung: "Withdrawal into the observer position: feeling and acting are separated from understanding so as not to be overwhelmed. Life is observed instead of lived.", integration: "Type 8 – vigor, gut energy, acting from conviction", stress: "Type 7 – scattering, nervous busyness", oeffnung: "Non-attachment: giving and sharing without fear that nothing will be left." },
+    { typ: 6, name: "The Loyalist", wunde: "The wound of lost basic trust: the feeling that there is no reliable support – neither in the world nor in oneself.", leidenschaft: "Fear (fixation: cowardice)", abwehr: "Projection", uebersteuerung: "Securing and mistrust: dangers are anticipated and played through until caution itself becomes the source of unrest. Authorities are sought and tested at the same time.", integration: "Type 9 – trust, inner calm", stress: "Type 3 – activism, showing off, overcompensation", oeffnung: "Courage: acting despite fear without denying it." },
+    { typ: 7, name: "The Enthusiast", wunde: "The wound of unbearable heaviness: the experience that pain and lack are overwhelming and must be evaded.", leidenschaft: "Gluttony (fixation: planning)", abwehr: "Rationalization", uebersteuerung: "Flight forward into possibilities: plans, stimuli and inspiration keep the system in motion, leaving no room for depth and commitment. The pleasant is multiplied, the heavy postponed.", integration: "Type 5 – concentration, depth, steadiness", stress: "Type 1 – doggedness, criticism, self-coercion", oeffnung: "Sobriety: experiencing fullness without needing more." },
+    { typ: 8, name: "The Challenger", wunde: "The wound of vulnerability: the early experience that weakness is exploited and protection comes only from one's own strength.", leidenschaft: "Lust (fixation: revenge)", abwehr: "Denial", uebersteuerung: "Strength and control: the system comes on hard in advance so that nobody can get at the vulnerability. Tender feelings are treated as danger and pushed out of sight.", integration: "Type 2 – care, vulnerability, an open heart", stress: "Type 5 – withdrawal, reserve, mistrust", oeffnung: "Innocence: letting oneself be touched and still staying strong." },
+    { typ: 9, name: "The Mediator", wunde: "The wound of lost trust in being: the feeling that one's own presence and wishes do not count – and that peace is only to be found in adaptation.", leidenschaft: "Self-forgetting (fixation: sloth)", abwehr: "Self-numbing", uebersteuerung: "Adaptation to the point of self-erasure: conflicts are avoided, the familiar and comfortable numb the unrest. The self falls asleep so that peace remains.", integration: "Type 3 – drive, clarity, goals of one's own", stress: "Type 6 – anxiety, doubt, mistrust", oeffnung: "Right action: standing up for one's own life and being present." },
+  ];
+  const typCard = (t) => `
+    <div style="border-left:3px solid ${typeColor(t.typ)};padding:1rem 1.2rem;background:color-mix(in srgb, ${typeColor(t.typ)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1.1rem;">
+      <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.6rem;">
+        <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(t.typ)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">${t.typ}</span>
+        <strong style="color:${typeColor(t.typ)};">${t.name}</strong>
+      </div>
+      <div style="font-size:0.88rem;line-height:1.6;display:grid;gap:0.45rem;">
+        <div><span style="font-weight:700;color:var(--muted);">1. Core wound:</span> ${t.wunde}</div>
+        <div><span style="font-weight:700;color:var(--muted);">2. Passion and fixation:</span> ${t.leidenschaft}</div>
+        <div><span style="font-weight:700;color:var(--muted);">3. Defense system:</span> ${t.abwehr}</div>
+        <div><span style="font-weight:700;color:var(--muted);">4. Overcorrection:</span> ${t.uebersteuerung}</div>
+        <div><span style="font-weight:700;color:var(--muted);">5. Inner corrective:</span> relaxation line (integration) to ${t.integration}; stress line (disintegration) to ${t.stress}.</div>
+        <div><span style="font-weight:700;color:var(--muted);">6. Opening through awareness:</span> ${t.oeffnung}</div>
+      </div>
+    </div>`;
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('enneagramm-autopoese')}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; Enneagram Theory</p>
+        <h1 class="section-title">The Enneagram as an Autopoietic System: The Intelligence of Self-Preservation</h1>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="../assets/wissen/autopoese-kreislauf-en.jpg" alt="Autopoiesis: The Circle of Self-Maintenance – passion, defense system and inner correction within the Enneagram symbol" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">The circle of self-maintenance: passion at the center, the defense system as a protective wall, inner correction and integration as the counter-movement</p>
+        </div>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Viewing the Enneagram through the lens of autopoiesis opens an unfamiliar view of the human psyche. The Chilean biologists Humberto Maturana and Francisco Varela coined the term in the early 1970s to describe how living systems ceaselessly create, maintain and regulate themselves out of themselves. The Greek word combines 'autos' (self) and 'poiein' (to make, to create): self-production.</p>
+          <p class="vb-intro">Applied to the Enneagram, it becomes clear: the fixations, passions and defense mechanisms of the types are by no means mere 'mistakes' or pathological quirks. They are the ingenious, if often rigid, self-preservation programs of a psychological organism trying to preserve its inner integrity in a world experienced as threatening.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">1. What autopoiesis means – and what it does not prove</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Maturana and Varela first described the living cell: it continuously produces the building blocks it consists of and delimits itself from its surroundings through its membrane. Two concepts matter for what follows. <strong>Operational closure</strong> means that such a system works according to its own inner logic: it can be nudged from outside but not steered from outside. A <strong>perturbation</strong> is any stimulus the system responds to – and always in the way its own structure dictates, not in the way the stimulus demands.</p>
+          <p class="vb-intro">An honest classification matters here: the transfer to the life of the soul is a conceptual image, a <strong>model for illustration</strong>, not a laboratory finding. The two biologists spoke of the cell; reading the Enneagram as an autopoietic system is an analogy – though one that explains a surprising amount, especially why people hold on to their patterns even when these harm them.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">2. The psychological cycle of autopoiesis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Each of the nine Enneagram patterns forms a self-contained control loop of three links. They correspond to the three areas shown in the diagram above:</p>
+          <p class="vb-intro"><strong>The core wound (the primal pain):</strong> the foundation at which the system once experienced a fundamental shock or a lack of connection – for example the loss of trust in being for Type 9, or the feeling of lacking worth for Type 3.</p>
+          <p class="vb-intro"><strong>The passion and the fixation:</strong> In order never to feel this pain again, the system establishes a dominant, unconscious driving principle and a mental grid. The passion – gluttony for Type 7, pride for Type 2, for instance – feeds the system with a substitute energy. The fixation is its mental counterpart. Both levels belong together but must not be confused with the wound itself: the wound is the cause, the passion the reaction to it.</p>
+          <p class="vb-intro"><strong>The defense system:</strong> the operative protective armor. It blocks disturbances from outside and inside that might touch the sore spot. In the Enneagram each type has its own defense mechanism, such as reaction formation for Type 1 or projection for Type 6.</p>
+          <p class="vb-intro">Because the system is operationally closed, it interprets every stimulus from the environment so that the existing pattern is confirmed and kept alive. The system protects itself from collapse – paradoxically often at the expense of vitality and freedom.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">3. The inner dynamic: how the system strives for balance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A living system always strives for <strong>homeostasis</strong> (inner balance). In the Enneagram this happens through a dynamic that is often exhausting:</p>
+          <p class="vb-intro"><strong>The overcorrection:</strong> The pattern drives its principle to the extreme. A Type 1 tries to make the world absolutely flawless and safe through perfection; a Type 5 withdraws into the absolute observer position so as not to be overwhelmed.</p>
+          <p class="vb-intro"><strong>The inner corrective:</strong> When the overcorrection brings the system to the brink of collapse, the deeper wisdom of autopoiesis takes over. Via the inner connecting lines (integration and disintegration) and via the instincts, the subtypes, the system looks for new ways to balance the lack. It unconsciously brings in the qualities it had split off so far, so that the cycle does not break. The path under pressure leads toward the stress direction, the path of relaxation toward the integration direction – as described in detail in the article on
+          <a href="javascript:void(0)" data-route="linien-dynamik-beziehungen">Connecting-Line Dynamics in Relationships</a>.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">4. All nine types in the autopoietic cycle</h2>
+        <blockquote class="vb-blockquote" style="margin-bottom:1.2rem;">
+          <p class="vb-intro">The following overview applies the same grid to all nine patterns: from the core wound via passion and defense to overcorrection and the inner corrective. The wounds are to be understood as frequently described basic themes of the type, not as a diagnosis of any individual biography.</p>
+        </blockquote>
+        ${typen.map(typCard).join("")}
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">5. From automatic survival to conscious creation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The deeper aim of inner work with the Enneagram is to see through this blind, biological-psychological compulsion of autopoiesis. As long as we are unconscious, we follow a program that rigidly tries to keep us alive – and in doing so often separates us from life.</p>
+          <p class="vb-intro">Awakening means adding <strong>awareness</strong> to the autopoietic system. When we recognize how our passion and our defense system work tirelessly for us, the automatic struggle for survival turns into a conscious, creative shaping of our own lives. The system no longer has to defend itself rigidly but may open up – to a genuine transformation that comes from within. This is also an appreciation: the pattern was never the enemy but the attempt to survive. Whoever understands this can thank it and let it go, step by step.</p>
+        </blockquote>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"knowledge", label:"Back to the Knowledge Base"},
+          {route:"linien-dynamik-beziehungen", label:"Connecting-Line Dynamics in Relationships (Stress & Security Points)"},
+          {route:"angst-essenz", label:"Fear → Essence (diagram)"},
+          {route:"psychologisches-abwehrverhalten-der-9-typen", label:"Psychological defense behavior of the 9 types"},
+          {route:"enneagramm-rad", label:"Enneagram Wheel (interactive symbol)"},
         ])}
       </div>
     </div>
@@ -54318,6 +54412,7 @@ function subtypeSchaubilderPage() {
     "hauptfokus-des-bewusstseins-der-9-typen": hauptfokusBewusstseinsDer9TypenPage,
     "dynamik-des-bewusstseinszustandes": dynamikBewusstseinszustandesPage,
       "linien-dynamik-beziehungen": linienDynamikBeziehungenPage,
+      "enneagramm-autopoese": enneagrammAutopoesePage,
       "enneagramm-homoeopathie": enneagrammHomoeopathiePage,
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,

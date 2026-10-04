@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage, gescheGottfriedPortraitPage, juanaBarrazaPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage, arwedImielaPortraitPage, bernardEugeneGilesPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, ameliaDyerPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage, charlesStarkweatherPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=191";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=192";
 
 import { adeleKrankheitsportraetPage, arnoldSchwarzeneggerKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, knutHamsunKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage, davidHockneyKrankheitsportraetPage, guntherVonHagensKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15906,6 +15906,7 @@ const uiText = {
       { route: "kriminalmusterkompass", label: "Kriminalmusterkompass (Muster in den Kriminalpsychologie-Porträts)" },
       { route: "musterradar", label: "Musterradar (Flügel & Instinkte im Querschnitt)" },
       { route: "linien-dynamik-beziehungen", label: "Linien-Dynamik in Beziehungen (Stress- & Entspannungspunkte)" },
+      { route: "enneagramm-autopoese", label: "Das Enneagramm als autopoietisches System (Selbsterhaltung)" },
       { route: "enneagramm-rad", label: "Enneagramm-Rad (interaktives Symbol)" },
       { route: "blickqualitaeten-atlas", label: "Blickqualitäten-Atlas (27 Subtypen)" },
       { route: "quiz", label: "Quiz" },
@@ -50604,6 +50605,99 @@ function linienDynamikBeziehungenPage() {
   `);
 }
 
+function enneagrammAutopoesePage() {
+  const typen = [
+    { typ: 1, name: "Der Verbesserer", wunde: "Die Wunde der Unvollkommenheit: das tiefe Gefühl, dass die Wirklichkeit dem inneren Ideal nie genügt – und dass man selbst nur dann in Ordnung ist, wenn alles richtig ist.", leidenschaft: "Zorn (Fixierung: Groll)", abwehr: "Reaktionsbildung", uebersteuerung: "Perfektionismus: Die Welt soll durch unermüdliches Verbessern fehlerfrei und sicher werden. Der innere Richter korrigiert zuerst die anderen, dann sich selbst, dann wieder die anderen.", integration: "Typ 7 – Leichtigkeit, Spontaneität, Freude", stress: "Typ 4 – Verbitterung, Rückzug in das Gefühl, nie genug zu sein", oeffnung: "Gelassenheit: das Unvollkommene annehmen, ohne den Wunsch nach Güte aufzugeben." },
+    { typ: 2, name: "Der Helfer", wunde: "Die Wunde der unerwünschten Bedürfnisse: die frühe Erfahrung, dass man gebraucht und geliebt wird, solange man gibt – und eigene Bedürfnisse stören.", leidenschaft: "Stolz (Fixierung: Schmeichelei)", abwehr: "Verdrängung", uebersteuerung: "Unentbehrlichkeit: Das Geben wird zur Währung, mit der Zuneigung gesichert wird – bis die eigenen Bedürfnisse aus dem Blick geraten und sich als Erschöpfung oder Groll zurückmelden.", integration: "Typ 4 – Spüren der eigenen Gefühle, Innenschau", stress: "Typ 8 – Forderungen und Vorwürfe nach langer Selbstverleugnung", oeffnung: "Demut: Geben und Empfangen als gleichwertig zulassen." },
+    { typ: 3, name: "Der Macher", wunde: "Die Wunde des mangelnden Eigenwerts: das Gefühl, nicht um seiner selbst willen angenommen zu werden, sondern für Leistung und das passende Bild.", leidenschaft: "Täuschung (Fixierung: Eitelkeit)", abwehr: "Identifikation", uebersteuerung: "Effizienz und Image: Das System passt sich so konsequent an Erwartungen an, dass der Kontakt zum eigenen Fühlen verloren geht – der Erfolg erscheint, das Selbst tritt zurück.", integration: "Typ 6 – Verbindlichkeit, Loyalität, Herzensanliegen", stress: "Typ 9 – Abschalten, Antriebslosigkeit, innere Leere", oeffnung: "Wahrhaftigkeit: der Mensch hinter der Rolle, der auch ohne Leistung genügt." },
+    { typ: 4, name: "Der Individualist", wunde: "Die Wunde des Getrenntseins: das Empfinden, dass etwas Wesentliches fehlt und dass andere es haben – verbunden mit der Sorge, nicht verstanden zu werden.", leidenschaft: "Neid (Fixierung: Schwermut)", abwehr: "Introjektion", uebersteuerung: "Dramatisierung des Mangels: Die Sehnsucht nach dem Fernen und Verlorenen wird zum Lebensthema, die Gegenwart verblasst dagegen. Das Gefühl wird gepflegt, bis es das System beherrscht.", integration: "Typ 1 – Struktur, Handeln, Sachlichkeit", stress: "Typ 2 – Anklammern, Bedürftigkeit gegenüber anderen", oeffnung: "Gleichmut: Gefühle ernst nehmen, ohne ihnen zu verfallen." },
+    { typ: 5, name: "Der Forscher", wunde: "Die Wunde der Überforderung: der Eindruck, dass die Welt zu viel verlangt und die eigenen Kräfte begrenzt sind – daher die Sorge, eingenommen oder ausgelaugt zu werden.", leidenschaft: "Habsucht (Fixierung: Geiz)", abwehr: "Isolation", uebersteuerung: "Rückzug in die Beobachterposition: Gefühl und Handeln werden vom Verstehen getrennt, um nicht überfordert zu werden. Das Leben wird beobachtet, statt gelebt.", integration: "Typ 8 – Tatkraft, Bauchenergie, Handeln aus Überzeugung", stress: "Typ 7 – Zerstreuung, nervöse Betriebsamkeit", oeffnung: "Nicht-Anhaften: geben und teilen, ohne Angst, dass nichts übrig bleibt." },
+    { typ: 6, name: "Der Loyale", wunde: "Die Wunde des verlorenen Urvertrauens: das Gefühl, dass es keinen verlässlichen Halt gibt – weder in der Welt noch in sich selbst.", leidenschaft: "Angst (Fixierung: Feigheit)", abwehr: "Projektion", uebersteuerung: "Absicherung und Misstrauen: Gefahren werden vorweggenommen und durchgespielt, bis die Vorsicht selbst zur Quelle der Unruhe wird. Autoritäten werden gesucht und zugleich geprüft.", integration: "Typ 9 – Vertrauen, innere Ruhe", stress: "Typ 3 – Aktionismus, Imponiergehabe, Überkompensation", oeffnung: "Mut: handeln trotz Angst, ohne sie zu verleugnen." },
+    { typ: 7, name: "Der Enthusiast", wunde: "Die Wunde der unerträglichen Schwere: die Erfahrung, dass Schmerz und Mangel überwältigend sind und man ihnen ausweichen muss.", leidenschaft: "Völlerei (Fixierung: Planen)", abwehr: "Rationalisierung", uebersteuerung: "Flucht nach vorn in Möglichkeiten: Pläne, Reize und Anregungen halten das System in Bewegung, sodass die Tiefe und die Verbindlichkeit keinen Platz finden. Das Angenehme wird vermehrt, das Schwere verschoben.", integration: "Typ 5 – Konzentration, Tiefe, Beständigkeit", stress: "Typ 1 – Verbissenheit, Kritik, Selbstzwang", oeffnung: "Nüchternheit: Fülle erleben, ohne mehr zu brauchen." },
+    { typ: 8, name: "Der Herausforderer", wunde: "Die Wunde der Verletzlichkeit: die frühe Erfahrung, dass Schwäche ausgenutzt wird und Schutz nur aus eigener Stärke kommt.", leidenschaft: "Wollust (Fixierung: Rache)", abwehr: "Verleugnung", uebersteuerung: "Stärke und Kontrolle: Das System tritt im Voraus hart auf, damit niemand an die Verwundbarkeit kommt. Zarte Gefühle werden als Gefahr behandelt und aus dem Blick geschoben.", integration: "Typ 2 – Fürsorge, Verletzlichkeit, offenes Herz", stress: "Typ 5 – Rückzug, Verschlossenheit, Misstrauen", oeffnung: "Unschuld: sich berühren lassen und dennoch stark bleiben." },
+    { typ: 9, name: "Der Vermittler", wunde: "Die Wunde des verlorenen Seinsvertrauens: das Gefühl, dass die eigene Anwesenheit und die eigenen Wünsche nicht zählen – und dass Frieden nur in Anpassung zu finden ist.", leidenschaft: "Selbstvergessenheit (Fixierung: Trägheit)", abwehr: "Selbstbetäubung", uebersteuerung: "Anpassung bis zur Selbstauslöschung: Konflikte werden vermieden, Gewohntes und Bequemes betäubt die Unruhe. Das Eigene schläft ein, damit der Friede bleibt.", integration: "Typ 3 – Antrieb, Klarheit, eigene Ziele", stress: "Typ 6 – Ängstlichkeit, Zweifel, Misstrauen", oeffnung: "Tatkraft: für das eigene Leben einstehen und präsent sein." },
+  ];
+  const typCard = (t) => `
+    <div style="border-left:3px solid ${typeColor(t.typ)};padding:1rem 1.2rem;background:color-mix(in srgb, ${typeColor(t.typ)} 6%, transparent);border-radius:0 0.6rem 0.6rem 0;margin-bottom:1.1rem;">
+      <div style="display:flex;align-items:center;gap:0.6rem;margin-bottom:0.6rem;">
+        <span style="display:inline-flex;align-items:center;justify-content:center;width:1.8rem;height:1.8rem;border-radius:50%;background:${typeColor(t.typ)};color:#fff;font-weight:700;flex-shrink:0;font-size:0.9rem;">${t.typ}</span>
+        <strong style="color:${typeColor(t.typ)};">${t.name}</strong>
+      </div>
+      <div style="font-size:0.88rem;line-height:1.6;display:grid;gap:0.45rem;">
+        <div><span style="font-weight:700;color:var(--muted);">1. Kernwunde:</span> ${t.wunde}</div>
+        <div><span style="font-weight:700;color:var(--muted);">2. Leidenschaft und Fixierung:</span> ${t.leidenschaft}</div>
+        <div><span style="font-weight:700;color:var(--muted);">3. Abwehrsystem:</span> ${t.abwehr}</div>
+        <div><span style="font-weight:700;color:var(--muted);">4. Übersteuerung:</span> ${t.uebersteuerung}</div>
+        <div><span style="font-weight:700;color:var(--muted);">5. Inneres Korrektiv:</span> Entspannungslinie (Integration) zu ${t.integration}; Stresslinie (Desintegration) zu ${t.stress}.</div>
+        <div><span style="font-weight:700;color:var(--muted);">6. Öffnung durch Gewahrsein:</span> ${t.oeffnung}</div>
+      </div>
+    </div>`;
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('enneagramm-autopoese')}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Enneagramm-Theorie</p>
+        <h1 class="section-title">Das Enneagramm als autopoietisches System: Die Intelligenz der Selbsterhaltung</h1>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/wissen/autopoese-kreislauf-de.jpg" alt="Autopoese: Der Kreis der Selbsterhaltung – Leidenschaft, Abwehrsystem und innere Korrektur im Enneagramm-Symbol" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0;padding:0.5rem 0.5rem 0.7rem;">Der Kreis der Selbsterhaltung: Leidenschaft im Zentrum, Abwehrsystem als Schutzwall, innere Korrektur und Integration als Gegenbewegung</p>
+        </div>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Betrachtet man das Enneagramm durch die Linse der Autopoese, öffnet sich ein ungewohnter Blick auf die menschliche Psyche. Die chilenischen Biologen Humberto Maturana und Francisco Varela prägten den Begriff in den frühen 1970er-Jahren, um zu beschreiben, wie lebende Systeme sich unaufhörlich aus sich selbst heraus erschaffen, erhalten und regulieren. Das griechische Wort setzt sich aus ›autos‹ (selbst) und ›poiein‹ (machen, schaffen) zusammen: Selbstherstellung.</p>
+          <p class="vb-intro">Übertragen auf das Enneagramm zeigt sich: Die Fixierungen, Leidenschaften und Abwehrmechanismen der Typen sind keineswegs bloße ›Fehler‹ oder pathologische Macken. Sie sind die genialen, wenn auch oft starren Selbsterhaltungsprogramme eines seelischen Organismus, der versucht, seine innere Unversehrtheit in einer als bedrohlich erlebten Welt zu bewahren.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">1. Was Autopoese bedeutet – und was sie nicht beweist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Maturana und Varela beschrieben zunächst die lebende Zelle: Sie stellt die Bausteine, aus denen sie besteht, fortlaufend selbst her und grenzt sich dabei durch ihre Membran von der Umgebung ab. Zwei Begriffe sind für das Folgende wichtig. Die <strong>operationale Geschlossenheit</strong> besagt, dass ein solches System nach seiner eigenen inneren Logik arbeitet: Es lässt sich von außen anstoßen, aber nicht von außen steuern. Die <strong>Perturbation</strong> (Störung, Anstoß) bezeichnet jeden Reiz, auf den das System reagiert – und zwar stets so, wie es seine eigene Struktur vorgibt, nicht so, wie der Reiz es verlangte.</p>
+          <p class="vb-intro">Wichtig ist die ehrliche Einordnung: Die Übertragung auf das Seelenleben ist ein Denkbild, ein <strong>Modell zur Veranschaulichung</strong>, kein Laborbefund. Die beiden Biologen sprachen von der Zelle; das Enneagramm als autopoietisches System zu lesen, ist eine Analogie, die allerdings erstaunlich viel erklärt – insbesondere, warum Menschen an ihren Mustern festhalten, obwohl diese ihnen schaden.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">2. Der psychologische Kreislauf der Autopoese</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jedes der neun Enneagramm-Muster bildet einen in sich geschlossenen Regelkreis aus drei Gliedern. Sie entsprechen den drei Bereichen, die auch das Schaubild oben zeigt:</p>
+          <p class="vb-intro"><strong>Die Kernwunde (der Urschmerz):</strong> das Fundament, an dem das System einmal eine grundlegende Erschütterung oder einen Mangel an Verbundenheit erlebt hat – zum Beispiel den Verlust des Seinsvertrauens beim Typ 9 oder das Gefühl mangelnden Wertes beim Typ 3.</p>
+          <p class="vb-intro"><strong>Die Leidenschaft und die Fixierung:</strong> Um diesen Schmerz nie wieder fühlen zu müssen, etabliert das System ein dominantes, unbewusstes Antriebsprinzip und ein gedankliches Raster. Die Leidenschaft – etwa Völlerei beim Typ 7, Stolz beim Typ 2 – füttert das System mit einer Ersatzenergie. Die Fixierung ist ihr gedankliches Gegenstück. Beide Ebenen gehören zusammen, dürfen aber nicht mit der Wunde selbst verwechselt werden: Die Wunde ist die Ursache, die Leidenschaft die Reaktion darauf.</p>
+          <p class="vb-intro"><strong>Das Abwehrsystem:</strong> der operative Schutzpanzer. Er blockiert Störungen von außen und von innen, die den wunden Punkt berühren könnten. Im Enneagramm hat jeder Typ seinen eigenen Abwehrmechanismus, etwa die Reaktionsbildung beim Typ 1 oder die Projektion beim Typ 6.</p>
+          <p class="vb-intro">Weil das System operational geschlossen ist, deutet es jeden Reiz der Umwelt so, dass das bestehende Muster bestätigt und am Leben erhalten wird. Das System schützt sich selbst vor dem Zusammenbruch – paradoxerweise oft auf Kosten von Lebendigkeit und Freiheit.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">3. Die Eigendynamik: Wie das System nach Ausgleich strebt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein lebendiges System strebt stets nach <strong>Homöostase</strong> (dem inneren Gleichgewicht). Im Enneagramm geschieht dies über eine Dynamik, die häufig erschöpft:</p>
+          <p class="vb-intro"><strong>Die Übersteuerung:</strong> Das Muster treibt sein Prinzip auf die Spitze. Ein Typ 1 versucht, die Welt durch Perfektion absolut fehlerfrei und sicher zu machen; ein Typ 5 zieht sich in die absolute Beobachterposition zurück, um nur ja nicht überfordert zu werden.</p>
+          <p class="vb-intro"><strong>Das innere Korrektiv:</strong> Wenn die Übersteuerung das System an den Rand des Zusammenbruchs bringt, greift die tiefere Weisheit der Autopoese. Über die inneren Verbindungslinien (Integration und Desintegration) und über die Instinkte, die Subtypen, sucht das System nach neuen Wegen, den Mangel auszugleichen. Es holt sich unbewusst die Qualitäten ins Haus, die es bisher abgespalten hat, damit der Kreislauf nicht abreißt. Der Weg unter Druck führt dabei in die Stressrichtung, der Weg der Entspannung in die Integrationsrichtung – wie ausführlich im Beitrag zur
+          <a href="javascript:void(0)" data-route="linien-dynamik-beziehungen">Linien-Dynamik in Beziehungen</a> beschrieben.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">4. Alle neun Typen im autopoietischen Kreislauf</h2>
+        <blockquote class="vb-blockquote" style="margin-bottom:1.2rem;">
+          <p class="vb-intro">Die folgende Übersicht legt dasselbe Raster an alle neun Muster an: von der Kernwunde über Leidenschaft und Abwehr bis zur Übersteuerung und zum inneren Korrektiv. Die Wunden sind dabei als häufig beschriebene Grundthemen des Typs zu verstehen, nicht als Diagnose einer einzelnen Biografie.</p>
+        </blockquote>
+        ${typen.map(typCard).join("")}
+
+        <h2 class="section-title" style="font-size:1.25rem;margin:1.8rem 0 1rem;">5. Vom automatischen Überleben zur bewussten Schöpfung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das tiefere Ziel der inneren Arbeit mit dem Enneagramm besteht darin, diesen blinden, biologisch-psychologischen Zwang der Autopoese zu durchschauen. Solange wir unbewusst sind, folgen wir einem Programm, das starr versucht, uns am Leben zu erhalten – und uns dabei oft vom Leben trennt.</p>
+          <p class="vb-intro">Erwachen bedeutet, dem autopoietischen System <strong>Gewahrsein</strong> hinzuzufügen. Wenn wir erkennen, wie unsere Leidenschaft und unser Abwehrsystem unermüdlich für uns arbeiten, wandelt sich der automatische Überlebenskampf in eine bewusste, schöpferische Gestaltung des eigenen Lebens. Das System muss sich nicht mehr starr verteidigen, sondern darf sich öffnen – für eine echte, von innen kommende Verwandlung. Dies ist zugleich eine Würdigung: Das Muster war nie der Feind, sondern der Versuch, zu überleben. Wer das versteht, kann ihm danken und es loslassen, Schritt für Schritt.</p>
+        </blockquote>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${relatedLinks([
+          {route:"knowledge", label:"Zurück zur Wissensbasis"},
+          {route:"linien-dynamik-beziehungen", label:"Linien-Dynamik in Beziehungen (Stress- & Entspannungspunkte)"},
+          {route:"angst-essenz", label:"Angst → Essenz (Schaubild)"},
+          {route:"psychologisches-abwehrverhalten-der-9-typen", label:"Psychologisches Abwehrverhalten der 9 Typen"},
+          {route:"enneagramm-rad", label:"Enneagramm-Rad (interaktives Symbol)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function enneagrammHomoeopathiePage() {
   function card(f) {
     const col = (typeof TYPE_COLORS !== 'undefined' ? TYPE_COLORS[f.typ] : null) || 'var(--copper)';
@@ -78579,6 +78673,7 @@ const ROUTES = {
     "dynamik-des-bewusstseinszustandes": dynamikBewusstseinszustandesPage,
       "beruehmte-persoenlichkeiten": beruehmtePersoenlichkeitenPage,
       "linien-dynamik-beziehungen": linienDynamikBeziehungenPage,
+      "enneagramm-autopoese": enneagrammAutopoesePage,
       "enneagramm-homoeopathie": enneagrammHomoeopathiePage,
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,

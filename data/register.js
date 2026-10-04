@@ -32,6 +32,7 @@ export const registerEntries = [
 
   // Homöopathie
   { term: "Linien-Dynamik in Beziehungen", route: "linien-dynamik-beziehungen",   description: "Wie Stress- und Entspannungspunkte Partnerschaften zwischen linienverbundenen Typen prägen" },
+  { term: "Autopoese im Enneagramm",       route: "enneagramm-autopoese",         description: "Das Enneagramm als autopoietisches System: Kreislauf aus Kernwunde, Leidenschaft und Abwehr – für alle 9 Typen" },
   { term: "Enneagramm & Homöopathie",    route: "enneagramm-homoeopathie",       description: "Übersicht: Homöopathie für alle 27 Subtypen – Mittelzuordnungen nach Typ und Instinkt" },
   { term: "Enneagramm meets Reflexzonentherapie", route: "enneagramm-reflexzonentherapie", description: "Übersicht: Fuß- und Handreflexzonen als Landkarte der drei Enneagramm-Zentren" },
   { term: "Enneagramm meets Handanalyse", route: "enneagramm-handanalyse", description: "Übersicht: Handform, Fingerabstände und Handlinien als Spiegel der drei Enneagramm-Zentren" },
@@ -3032,6 +3033,7 @@ export const registerEntriesEN = [
   { term: "Enneagram Meets Houseplants", route: "enneagramm-zimmerpflanzen", description: "Overview: the 9 Enneagram types and their matching soul houseplants" },
   { term: "Enneagram Film Recommendations", route: "enneagramm-filme", description: "270 film tips for all 27 subtypes – ten films per subtype" },
   { term: "Connecting-Line Dynamics in Relationships", route: "linien-dynamik-beziehungen", description: "How stress and security points shape partnerships between line-connected types" },
+  { term: "Autopoiesis in the Enneagram", route: "enneagramm-autopoese", description: "The Enneagram as an autopoietic system: cycle of core wound, passion and defense – for all 9 types" },
   { term: "Enneagram & Homeopathy", route: "enneagramm-homoeopathie", description: "Overview: homeopathy for all 27 subtypes – remedy assignments by type and instinct" },
   { term: "Enneagram Meets Reflexology", route: "enneagramm-reflexzonentherapie", description: "Overview: foot and hand reflex zones as a map of the three Enneagram centers" },
   { term: "Enneagram Meets Hand Analysis", route: "enneagramm-handanalyse", description: "Overview: hand shape, finger spacing, and hand lines as a mirror of the three Enneagram centers" },

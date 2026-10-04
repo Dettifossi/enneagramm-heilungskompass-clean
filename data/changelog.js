@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2439", date: "2026-10-04", text: "Neuer Wissensartikel: Das Enneagramm als autopoietisches System – Kreislauf aus Kernwunde, Leidenschaft und Abwehr für alle neun Typen, mit Schaubild.", text_en: "New knowledge article: The Enneagram as an Autopoietic System – cycle of core wound, passion and defense for all nine types, with diagram.", route: "enneagramm-autopoese" },
     { version: "v2438", date: "2026-10-04", text: "Neues Porträt: Ursula Lyon (SE1w2) – Yoga- und Meditationslehrerin, Grande Dame des Buddhismus.", text_en: "New portrait: Ursula Lyon (SE1w2) – yoga and meditation teacher, Grande Dame of Buddhism.", route: "beruehmte-ursula-lyon" },
     { version: "v2437", date: "2026-10-04", text: "Neues Porträt: Allie Sherlock (SX7w6) – irische Straßenmusikerin und Sängerin.", text_en: "New portrait: Allie Sherlock (SX7w6) – Irish busker and singer.", route: "beruehmte-allie-sherlock" },
     { version: "v2436", date: "2026-10-03", text: "Neues Krankheitsporträt: Dmitri Schostakowitsch (SO5w4) – Nervenleiden der rechten Hand, Herzinfarkte, Lungenkrebs.", text_en: "New illness portrait: Dmitri Shostakovich (SO5w4) – nerve disorder of the right hand, heart attacks, lung cancer.", route: "krankheitsportraets-dmitri-schostakowitsch" },
