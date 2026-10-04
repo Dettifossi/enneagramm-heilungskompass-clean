@@ -33890,6 +33890,29 @@ const SCHAUBILDER_NEU = {
   "sprachstile-9-typen": "2026-09-17",
 };
 
+// NEU-Kennzeichnung (30 Tage): automatisch aus dem Changelog (Eintrag beginnt mit »Neu…« und hat eine route),
+// SCHAUBILDER_NEU bleibt als manuelle Übersteuerung bestehen.
+const _NEU_CACHE = {};
+function _neuDatumFuerRoute(route) {
+  if (SCHAUBILDER_NEU[route]) return SCHAUBILDER_NEU[route];
+  if (!(route in _NEU_CACHE)) {
+    let best = null;
+    try {
+      (typeof CHANGELOG !== "undefined" ? CHANGELOG : []).forEach(e => {
+        if (e && e.route === route && e.date && /^Neu(?:e[rsn]?)?(?=[\s:])/.test(e.text || "")) {
+          if (!best || e.date > best) best = e.date;
+        }
+      });
+    } catch (err) {}
+    _NEU_CACHE[route] = best;
+  }
+  return _NEU_CACHE[route];
+}
+function _neuAktiv(route) {
+  const d = _neuDatumFuerRoute(route);
+  return !!d && (new Date() - new Date(d)) < 30 * 864e5;
+}
+
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
@@ -34192,7 +34215,7 @@ function nav(active) {
         : dropdown;
       const subItems = sortedDropdown.map(({ route: sr, label: sl, heading }) => {
         if (heading) return `<div class="nav-dropdown__heading">${heading}</div>`;
-        const neuBadge = SCHAUBILDER_NEU[sr] && new Date()-new Date(SCHAUBILDER_NEU[sr])<30*864e5
+        const neuBadge = _neuAktiv(sr)
           ? ' <span style="background:#c9a84c;color:#fff;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:4px;vertical-align:middle;letter-spacing:0.05em;">NEU</span>' : '';
         return `<button class="nav-dropdown__item" data-route="${locked ? ("freischalt/" + lockTarget) : sr}">${sl}${neuBadge}</button>`;
       }).join("");
@@ -34204,7 +34227,7 @@ function nav(active) {
       return `<div class="nav-dropdown-wrap${isActive ? " is-active" : ""}${isSchaubilder ? " nav-dropdown-wrap--searchable" : ""}">
         <button class="nav-dropdown__trigger${isActive ? " is-active" : ""}${locked ? " nav-locked" : ""}${isMultiline ? " nav-dropdown__trigger--multiline" : ""}"
           data-dropdown-toggle aria-haspopup="true"
-        >${label} <span class="nav-dropdown__arrow">\u25be</span>${locked ? `<span class="nav-lock-icon" aria-hidden="true">\ud83d\udd12</span>` : ""}</button>
+        >${label}${dropdown.some(d => d.route && _neuAktiv(d.route)) ? '<span class="nav-neu-dot" title="NEU"></span>' : ""} <span class="nav-dropdown__arrow">\u25be</span>${locked ? `<span class="nav-lock-icon" aria-hidden="true">\ud83d\udd12</span>` : ""}</button>
         <div class="nav-dropdown__menu">${searchBox}${subItems}</div>
       </div>`;
     }

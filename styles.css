@@ -4419,6 +4419,15 @@ button.primary:hover::after {
   min-height: 40px;
 }
 .nav-dropdown__item:last-child { border-bottom: none; }
+.nav-neu-dot {
+  display: inline-block;
+  width: 0.45rem;
+  height: 0.45rem;
+  margin-left: 0.3rem;
+  border-radius: 50%;
+  background: #c9a84c;
+  vertical-align: middle;
+}
 .nav-dropdown__heading {
   padding: 0.55rem 1.1rem 0.3rem;
   font-size: 0.68rem;
