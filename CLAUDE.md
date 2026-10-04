@@ -110,6 +110,10 @@ print(f'Fehlend im Register: {len(miss)}')
 "
 ```
 
+## Blickqualitäten-Atlas — Pflichtschritt bei jedem neuen Porträt
+
+Der Blickqualitäten-Atlas (`blickqualitaetenAtlasPage()` in `bundle.js`/`en/bundle.js`) zieht seine Porträtkacheln live aus `BERUEHMT_PORTRAITS`/`KRANKHEITS_PORTRAITS`/`KRIMINAL_PORTRAITS`; das Bild kommt aus `BQA_IMG_MAP` (Route → Bildname, URL `…/assets/portraits/<Bildname>-portrait.jpg`). Fehlt der Eintrag, bleibt die Kachel eine leere, farbige Fläche. Für Routen mit Präfix `beruehmte-` gibt es seit 04.10.2026 einen automatischen Fallback (Route = Bildname). **Bei Krankheits- und Kriminalporträts ohne Berühmte-Persönlichkeiten-Porträt derselben Person** sowie bei abweichenden Bildnamen den Eintrag in `BQA_IMG_MAP` **in beiden Bundles** ergänzen (bei Krankheitsporträts zu einer Person, die schon unter Berühmten steht: auf deren Bildnamen zeigen, z. B. `"krankheitsportraets-x": "beruehmte-x"`). Das Porträtbild selbst muss unter diesem Namen auf R2 liegen.
+
 ## graphify
 
 This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
