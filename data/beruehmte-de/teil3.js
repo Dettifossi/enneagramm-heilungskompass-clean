@@ -2418,3 +2418,61 @@ export function julieBenzPortraitPage() {
     </div>
   `);
 }
+
+export function erichVonDaenikenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-erich-von-daeniken-portrait.jpg" alt="Erich von Däniken – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Erich von Däniken</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Selbsterhaltungs-Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Schweizer Autor, 1935&ndash;2026 &ndash; Tierentsprechung: Orang-Utan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Orang-Utan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> ist der einsamste der Menschenaffen &ndash; zurückgezogen, autonom, niemandem untergeordnet. Erich von Däniken, geboren am 14. April 1935 im schweizerischen Zofingen in ein streng katholisches Elternhaus, besuchte das Jesuiten-Internat Collège St-Michel in Freiburg, wo früh sein Interesse an Religion, Archäologie und kosmologischen Rätseln entstand. Statt eines akademischen Werdegangs lernte er Koch und Kellner, arbeitete sich zum Hoteldirektor hoch &ndash; ein praktischer, hemdsärmeliger Weg, der ihm handfeste Selbstständigkeit gab, lange bevor er zum Schriftsteller wurde.</p>
+          <p class="vb-intro">1968 erschien sein erstes Buch, ›Erinnerungen an die Zukunft‹ (international: ›Chariots of the Gods?‹), in dem er die These vertrat, außerirdische Besucher hätten in der Antike menschliche Kulturen entscheidend geprägt. Das Buch verkaufte sich weltweit über 65 Millionen Mal in rund dreißig Sprachen und machte die ›Prä-Astronautik‹ zu einem globalen popkulturellen Phänomen, das bis heute in Fernsehformaten wie ›Ancient Aliens‹ fortlebt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Selbsterhaltungs-Acht: Autonomie um jeden Preis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Selbsterhaltungs-Acht (SE8)</strong> verteidigt vor allem eines: ihre eigene Unabhängigkeit von fremder Kontrolle. Naranjo beschrieb diesen Subtyp über das Motiv der ›Satisfaktion‹ &ndash; ein unbedingtes Festhalten am eigenen Vorhaben, notfalls auch gegen Regeln und Autoritäten. Bei Däniken zeigte sich das auf eine durchaus zwiespältige Weise: Um seine frühen Reisen und Recherchen zu finanzieren, fälschte er als Hoteldirektor Bücher und nahm unerlaubt Kredite auf &ndash; 1970 wurde er deswegen wegen Betrugs, Veruntreuung und Urkundenfälschung zu dreieinhalb Jahren Haft verurteilt.</p>
+          <p class="vb-intro">Entscheidend ist, was danach geschah: Statt sich von der Haft stoppen zu lassen, schrieb er im Gefängnis sein zweites Buch, ›Zurück zu den Sternen‹, das ebenfalls zum Bestseller wurde &ndash; einer der seltenen Fälle, in denen ein Autor seinen Welterfolg von hinter Gittern aus festigte. Das ist die Selbsterhaltungs-Acht in Reinform: Die äußeren Umstände, selbst eine Gefängniszelle, ändern nichts am eigenen Plan. Kontrolle über das eigene Werk ist nicht verhandelbar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Die große, alles verbindende Erzählung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> gibt der Acht eine zusätzliche Weite: statt im kleinen Detail zu kämpfen, entwirft sie ein umfassendes, alles zusammenführendes Gesamtbild, in dem sich unzählige einzelne Fäden zu einer großen, beruhigend geschlossenen Erzählung verweben. Genau das war Dänikens eigentliches schriftstellerisches Mittel: Er verband ägyptische Pyramiden, südamerikanische Nazca-Linien, biblische Erzählungen und zahllose weitere Kulturen und Epochen zu einer einzigen, in sich stimmigen Welterklärung &ndash; eine epische Synthese, die einem fragmentierten Fachwissen eine große, zugängliche Ordnung entgegensetzte.</p>
+          <p class="vb-intro">Diese Neunerflügel-Weite machte seine Theorie massentauglich, obwohl sie fachlich auf erheblichen Widerstand stieß: Archäologen und Historiker wiesen seine zentralen Thesen wiederholt und detailliert als unhaltbar zurück. Däniken selbst reagierte darauf nicht mit Rückzug, sondern mit unbeirrter Weiterarbeit &ndash; er veröffentlichte bis ins hohe Alter weitere Bücher und hielt öffentliche Vorträge, ohne sein Grundnarrativ je substanziell zu revidieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der Selbsterhaltungs-Acht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE8w9 ist die Fähigkeit, aus praktisch nichts &ndash; einer Kellner- und Hotelkarriere ohne akademischen Hintergrund &ndash; ein globales, Jahrzehnte überdauerndes Werk zu errichten, das sich nie von Autoritäten oder Rückschlägen abhängig machte. Däniken blieb bis zu seinem Tod am 10. Januar 2026 im Alter von 90 Jahren eine eigenständige, unabhängig vermarktete Stimme, die kein Verlag und keine akademische Institution je vollständig kontrollierte.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Acht ist die <strong>Lust</strong> im Sinne eines übersteigerten Machtanspruchs &ndash; die Überzeugung, die eigene Agenda rechtfertige notfalls auch den Bruch von Regeln. Bei Däniken zeigte sich das zuerst ganz konkret in der Veruntreuung, die seine Karriere erst ermöglichte, und später subtiler in der Unbeirrbarkeit, mit der er fundierte wissenschaftliche Gegenargumente über Jahrzehnte hinweg beiseiteschob, statt sie ernsthaft zu prüfen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die rhetorische Substanz: Ein Meister der großen Erzählung, kein Wissenschaftler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Erich von Däniken tatsächlich auszeichnete, war nicht wissenschaftliche Stichhaltigkeit &ndash; seine zentralen Thesen gelten unter Archäologen und Historikern seit Jahrzehnten als widerlegt. Seine eigentliche Begabung lag anderswo: in der Fähigkeit, komplexe, über Kontinente und Jahrtausende verstreute archäologische Rätsel, Mythen und Bauwerke zu einer einzigen, mitreißend erzählten Geschichte zu verdichten, die auch fachfremden Lesern unmittelbar zugänglich war. Diese narrative Verdichtungsleistung &ndash; nicht die Richtigkeit der Inhalte &ndash; erklärt, warum ›Chariots of the Gods?‹ zu einem der meistverkauften Sachbücher der Geschichte wurde und ein ganzes Genre, die Prä-Astronautik-Populärliteratur, begründete.</p>
+          <p class="vb-intro">Der Orang-Utan lebt zurückgezogen in den Baumkronen und begegnet der Welt auf eigenen Bedingungen. Erich von Dänikens Weg vom verurteilten Hoteldirektor zum weltweit meistgelesenen Verfechter der Prä-Astronautik zeigt die Selbsterhaltungs-Acht mit Neunerflügel in ihrer bestimmtesten Form: unbedingte Kontrolle über das eigene Werk, verbunden mit einer Erzählgabe, die eine ganze, in sich geschlossene Gegenwelt zur etablierten Wissenschaft erschuf &ndash; eine Gegenwelt, die bis heute Millionen fasziniert, ungeachtet ihrer fachlichen Widerlegung.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
+        {route:"beruehmte-toni-morrison", label:"Porträt: Toni Morrison (SE8w9)"},
+      ])}
+    </div>
+  `);
+}
