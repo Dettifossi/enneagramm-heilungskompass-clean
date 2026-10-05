@@ -1055,7 +1055,7 @@ export function williamJamesSidisPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-william-james-sidis-portrait.jpg" alt="William James Sidis – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="/assets/portraits/beruehmte-william-james-sidis-portrait.jpg" alt="William James Sidis – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">William James Sidis</p>
         <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltungs-Typ 5 mit Sechserflügel</p>
