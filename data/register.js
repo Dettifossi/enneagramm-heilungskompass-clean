@@ -824,6 +824,7 @@ export const registerEntries = [
   { term: "Wilson Gonzalez Ochsenknecht",   route: "beruehmte-wilson-gonzalez-ochsenknecht", description: "Portrait: SE2w3 · Selbsterhaltender Typ 2 · Schauspieler und Musiker, Die Wilden Kerle" },
   { term: "Leonard Cohen",                  route: "beruehmte-leonard-cohen",                description: "Portrait: SO4w5 · Sozialer Typ 4 · Musiker und Dichter, Hallelujah" },
   { term: "William James Sidis",            route: "beruehmte-william-james-sidis",         description: "Portrait: SE5w6 · Selbsterhaltender Typ 5 · Wunderkind, mit 11 an Harvard, später anonym" },
+  { term: "Julie Benz",                     route: "beruehmte-julie-benz",                  description: "Portrait: SX6w7 · Sexueller Typ 6 · Schauspielerin, Darla (Buffy/Angel), Rita (Dexter)" },
   { term: "Cheyenne Ochsenknecht",          route: "beruehmte-cheyenne-ochsenknecht",       description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Model und Landwirtin, Chianina-Rinderhof" },
   { term: "Heidi Klum",                     route: "beruehmte-heidi-klum",                  description: "Portrait: SX3w4 · Sexueller Typ 3 · Model, Moderatorin, Unternehmerin" },
   { term: "Dolly Parton",                   route: "beruehmte-dolly-parton",                description: "Portrait: SX3w4 · Sexueller Typ 3 · Sängerin, Songwriterin, Unternehmerin" },

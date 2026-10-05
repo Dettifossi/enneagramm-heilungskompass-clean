@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2444", date: "2026-10-05", text: "Neues Porträt: Julie Benz (SX6w7) – Schauspielerin, Darla (Buffy/Angel), Rita (Dexter).", text_en: "New portrait: Julie Benz (SX6w7) – actress, Darla (Buffy/Angel), Rita (Dexter).", route: "beruehmte-julie-benz" },
     { version: "v2443", date: "2026-10-05", text: "Neues Porträt: William James Sidis (SE5w6) – US-amerikanisches Wunderkind, mit 11 an Harvard, später anonym.", text_en: "New portrait: William James Sidis (SE5w6) – American child prodigy, at Harvard at 11, later anonymous.", route: "beruehmte-william-james-sidis" },
     { version: "v2442", date: "2026-10-04", text: "Neues Porträt: Amber Benson (SX9w1) – Schauspielerin (Tara in Buffy), Autorin und Regisseurin.", text_en: "New portrait: Amber Benson (SX9w1) – actress (Tara in Buffy), author and director.", route: "beruehmte-amber-benson" },
     { version: "v2441", date: "2026-10-04", text: "Neues Porträt: Bianca Censori (SX3w2) – australische Architektin und Designerin, Yeezy Home.", text_en: "New portrait: Bianca Censori (SX3w2) – Australian architect and designer, Yeezy Home.", route: "beruehmte-bianca-censori" },
