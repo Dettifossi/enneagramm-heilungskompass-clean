@@ -2411,8 +2411,9 @@ export function julieBenzPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
-        {route:"beruehmte-horst-lichter", label:"Porträt: Horst Lichter (SX7w6)"},
-        {route:"beruehmte-bastian-schweinsteiger", label:"Porträt: Bastian Schweinsteiger"},
+        {route:"beruehmte-jennifer-aniston", label:"Porträt: Jennifer Aniston (SX6w7)"},
+        {route:"beruehmte-scarlett-johansson", label:"Porträt: Scarlett Johansson (SX6w7)"},
+        {route:"beruehmte-eva-mendes", label:"Porträt: Eva Mendes (SX6w7)"},
       ])}
     </div>
   `);
