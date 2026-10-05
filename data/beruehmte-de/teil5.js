@@ -1048,6 +1048,66 @@ export function leonardCohenPortraitPage() {
   `);
 }
 
+export function williamJamesSidisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-william-james-sidis-portrait.jpg" alt="William James Sidis – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">William James Sidis</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltungs-Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanisches Wunderkind &amp; Mathematiker, 1898&ndash;1944 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier der Selbsterhaltungs-Fünf &ndash; wachsam, nachtaktiv, territorial, und am liebsten dort, wo niemand sie beobachtet. Kaum eine Biografie zeigt dieses Muster so schroff wie die von William James Sidis: ein Kind, das mit elf Jahren vor der Harvard-Fakultät über vierdimensionale Körper referierte, und ein Erwachsener, der sein halbes Leben damit verbrachte, unter falschem Namen als einfacher Bürokraft-Angestellter unentdeckt zu bleiben.</p>
+          <p class="vb-intro">Sidis wurde am 1. April 1898 in Boston als Sohn des Psychologen Boris Sidis geboren, der an der eigenen Theorie arbeitete, außergewöhnliche Frühförderung könne geniale Fähigkeiten in jedem Kind freilegen &ndash; mit seinem Sohn als Beweisobjekt. William las bereits mit zwei Jahren Zeitungstexte, tippte mit vier Buchstaben auf Französisch und Englisch, verfasste mit fünf eine eigene anatomische Abhandlung und entwarf mit acht Jahren in seinem ›Book of Vendergood‹ eine vollständige Kunstsprache mit eigener Grammatik, die lateinische, griechische, deutsche und romanische Wurzeln verband. Mit elf Jahren wurde er an der Harvard University aufgenommen &ndash; der jüngste Studienanfänger in der Geschichte der Universität.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Selbsterhaltungs-Fünf: Rückzug als Überlebensstrategie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Selbsterhaltungs-Fünf (SE5)</strong> baut sich, anders als die soziale oder sexuelle Fünf, keine Bühne für ihr Wissen, sondern eine ›Burg‹: einen möglichst kleinen, vollständig selbst kontrollierten Rückzugsraum, in dem die eigenen Bedürfnisse auf ein Minimum reduziert werden, damit niemand mehr Zugriff auf einen hat. Bei Sidis war dieser Rückzug keine allmähliche Charaktereigenschaft, sondern eine Reaktion auf eine sehr konkrete Verletzung: Sein Vater stellte ihn als Kind wiederholt der Presse und der Fachwelt als Sensation vor, ohne ihn je zu fragen, ob er das wollte. Schon an seinem Harvard-Abschlusstag, mit sechzehn Jahren, sagte Sidis Reportern: ›I want to live the perfect life. The only way to live the perfect life is to live it in seclusion. I have always hated crowds‹ &ndash; ›Ich möchte das perfekte Leben führen. Der einzige Weg, das perfekte Leben zu führen, ist, es in Zurückgezogenheit zu leben. Ich habe Menschenmengen immer gehasst.‹</p>
+          <p class="vb-intro">Nach einer kurzen, von Anfeindungen der eigenen Studenten überschatteten Zeit als jüngste Lehrkraft am Rice Institute in Texas und einem abgebrochenen Jurastudium zog sich Sidis endgültig zurück: Er verleugnete sein mathematisches Wissen gegenüber Arbeitgebern, wechselte wiederholt Namen und Städte und arbeitete den Großteil seines Erwachsenenlebens als einfacher Buchhalter oder Rechenkraft &ndash; Tätigkeiten weit unterhalb seiner Fähigkeiten, aber mit dem entscheidenden Vorteil, dass sie ihn unsichtbar hielten. Genau das ist die SE5-Logik in Reinform: lieber die eigenen Bedürfnisse radikal verkleinern, als sich der Welt wieder auszusetzen, die einen einmal ausgestellt hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Misstrauen gegenüber Institutionen und der Kampf ums eigene Schweigen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> verstärkt bei der Fünf das Bedürfnis nach Sicherheit um eine wache, oft misstrauische Komponente gegenüber Autoritäten und Institutionen &ndash; die Welt wird nicht nur als anstrengend, sondern als potenziell gefährlich erlebt. 1919 wurde Sidis bei einer sozialistischen Mai-Kundgebung in Boston verhaftet, die gewaltsam eskalierte, und nach dem Sedition Act zu achtzehn Monaten Haft verurteilt; seine Eltern bewahrten ihn davor, indem sie ihn stattdessen in die eigene private Nervenheilanstalt des Vaters einweisen ließen. Diese Episode wirkt auf den ersten Blick untypisch für eine Fünf, passt aber genau zum Sechserflügel: eine kurze, idealistische Auflehnung gegen eine als bedrohlich erlebte Staatsmacht, direkt im Anschluss an die erzwungene Kindheits-Öffentlichkeit &ndash; und danach ein umso entschiedenerer Rückzug vor genau dieser Macht.</p>
+          <p class="vb-intro">Den klarsten Ausdruck fand dieses Misstrauen 1944, kurz vor seinem Tod, in seiner Klage gegen das Magazin ›The New Yorker‹, das ihn in einem Porträt unter dem Titel ›Where Are They Now?‹ öffentlich bloßgestellt hatte. Sidis verlor den Prozess, aber ›Sidis v. F-R Publishing Corp.‹ wurde zu einem der einflussreichsten Präzedenzfälle im US-amerikanischen Persönlichkeitsrecht &ndash; die SE5w6 verteidigt ihre Unsichtbarkeit notfalls auch dann noch gerichtlich, wenn sie längst spürt, dass sie den Kampf gegen eine übermächtige Öffentlichkeit kaum gewinnen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der Selbsterhaltungs-Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE5w6 zeigt sich darin, dass Sidis sein Bedürfnis nach einem geschützten Rückzugsraum nicht in Leere verwandelte, sondern in ein eigenes, in sich geschlossenes Wissensgebiet: 1926 veröffentlichte er unter dem Pseudonym ›Frank Folupa‹ ein dreihundertseitiges Fachbuch über das Sammeln von Straßenbahn-Transferzetteln, ›Notes on the Collection of Transfers‹ &ndash; ein Thema, das niemandem etwas beweisen musste und gerade deshalb zur sicheren Burg werden konnte. Über sechzehnhundert verschiedene Zettel hatte er zusammengetragen, dokumentiert mit derselben Akribie, mit der er einst mathematische Systeme durchdrang.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Fünf ist der <strong>Geiz</strong> &ndash; nicht im Sinne von Geld, sondern als radikales Zurückhalten der eigenen inneren Ressourcen, aus Angst, von den Ansprüchen anderer vollständig ausgesaugt zu werden. Bei Sidis kippte dieser Geiz zuletzt in Selbstverleugnung: Er starb am 17. Juli 1944, mit nur 46 Jahren, verarmt und an einer Hirnblutung, aufgefunden von seiner Vermieterin &ndash; ein Mann, der zu den vermutlich höchsten je gemessenen oder geschätzten Intelligenzwerten seiner Zeit gezählt wurde und doch am Ende keine einzige gesicherte, dauerhafte soziale Bindung oder materielle Absicherung besaß.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die fachliche Substanz: Mehr als eine IQ-Zahl</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sidis wird oft ein geschätzter IQ zwischen 250 und 300 zugeschrieben &ndash; Zahlen, die methodisch kaum haltbar sind, da nie ein regulärer, standardisierter Test bei ihm durchgeführt wurde, und die seine eigentliche Leistung eher verschleiern als erklären. Entscheidender ist, was konkret dahinterstand: Mit elf Jahren hielt er vor dem Harvard Mathematical Club einen zweistündigen Vortrag über vierdimensionale Körper, dem nur wenige Anwesende vollständig folgen konnten &ndash; der MIT-Professor Daniel Comstock gehörte zu den wenigen, die ihm bis zum Ende folgten, und sagte den verblüfften Reportern danach voraus, dieser Junge werde einer der großen Mathematiker seiner Generation werden. 1925 veröffentlichte Sidis unter eigenem Namen ›The Animate and the Inanimate‹, eine kosmologische Arbeit über Thermodynamik, in der er &ndash; Jahrzehnte bevor der Begriff geprägt wurde &ndash; Regionen des Raums postulierte, in denen sich der zweite Hauptsatz der Thermodynamik umkehrt: eine frühe, von späteren Physikern wie Buckminster Fuller gewürdigte Vorwegnahme dessen, was heute als Schwarzes Loch bekannt ist.</p>
+          <p class="vb-intro">Die Eule sieht im Dunkeln, was andere nicht sehen &ndash; aber sie zeigt sich kaum. William James Sidis besaß nachweislich eine außergewöhnliche, eigenständige wissenschaftliche Begabung, die weit über bloßes Schnellauffassen hinausging; dass die Welt davon fast nichts mehr erfuhr, lag nicht an fehlendem Talent, sondern an einer so früh und so gründlich erzwungenen Öffentlichkeit, dass sich sein ganzes späteres Leben als Flucht davor organisierte. Ein Lebensmuster, das zeigt: Hochbegabung allein schützt nicht vor seelischer Not &ndash; manchmal erzeugt gerade sie, in Verbindung mit einer Umwelt, die sie ausstellt statt sie zu schützen, die tiefste Form von Rückzug.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"beruehmte-carl-friedrich-gauss", label:"Portrait: Carl Friedrich Gauß (SE5)"},
+        {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SE5)"},
+        {route:"lebensmusterkompass", label:"Lebensmusterkompass: Biografische Muster aller Subtypen"},
+      ])}
+    </div>
+  `);
+}
+
 export function mahatmaGandhiPortraitPage() {
   return shell(`
     <div class="page-container">
