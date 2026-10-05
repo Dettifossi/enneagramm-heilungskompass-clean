@@ -2358,3 +2358,62 @@ export function johannLaferPortraitPage() {
     </div>
   `);
 }
+
+export function julieBenzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-julie-benz-portrait.jpg" alt="Julie Benz – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Julie Benz</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanische Schauspielerin, geb. 1972 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier der sexuellen Sechs &ndash; kein Tier, das sich duckt, sondern eines, das der Gefahr direkt ins Auge blickt, sobald sie unausweichlich scheint. Julie Benz, geboren am 1. Mai 1972 in Pittsburgh als Tochter eines Chirurgen und einer früheren Eiskunstläuferin, lebte dieses Prinzip schon als Teenager: Sie war selbst Leistungs-Eiskunstläuferin, bis sie mit vierzehn Jahren einen schweren Ermüdungsbruch im Bein erlitt, der ihre sportliche Laufbahn beendete. Statt sich zurückzuziehen, wandte sie sich sofort der Schauspielerei zu &ndash; ein erster, früher Beleg für das sexuelle Sechser-Muster: der Gefahr und dem Risiko nicht auszuweichen, sondern sie in eine neue Form von Mut zu verwandeln.</p>
+          <p class="vb-intro">Nach dem Studium an der New York University verpasste sie 1996 nur knapp die Hauptrolle der Buffy Summers in ›Buffy the Vampire Slayer‹ &ndash; die Rolle ging an Sarah Michelle Gellar &ndash; bekam aber die kleinere Rolle der Vampirin Darla, die sie über Jahre in der Serie und im Spin-off ›Angel‹ immer wieder spielte. Der eigentliche Durchbruch gelang ihr erst zehn Jahre später als Rita Bennett in ›Dexter‹ (2006&ndash;2010), wofür sie einen Satellite Award und einen Saturn Award gewann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Angst in Stärke verwandeln</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist der von Naranjo beschriebene ›gegenphobische‹ Ausdruck des Sechser-Typs: Statt der eigenen Angst auszuweichen, sucht sie die Konfrontation mit ihr aktiv, oft über eine Fassade aus Stärke und Attraktivität, die genau das kompensiert, was innerlich am meisten erschüttert ist. Benz beschrieb diesen inneren Kern selbst unverblümt: ›In den frühen Jahren meiner Karriere war ich unsicher und hatte wenig Selbstvertrauen‹, sagte sie rückblickend, und sie habe ständig versucht, ›das zu sein, von dem ich dachte, dass andere es von mir erwarten‹ &ndash; das ist die klassische Sechser-Unsicherheit: das eigene Urteil misstraut sich selbst und sucht Bestätigung von außen.</p>
+          <p class="vb-intro">Der Wendepunkt kam erst mit der Rolle der Rita in ›Dexter‹: Dort erkannte sie, wie sie selbst sagte, dass ›einfach ich selbst zu sein genug war &ndash; und kraftvoll‹. Genau das ist die Reifung der SX6: von der ständigen Suche nach äußerer Bestätigung hin zu einer selbst erarbeiteten, verkörperten Sicherheit. Auch ihre erklärte Vorliebe für Rollen erzählt vom selben Thema: Sie liebe ›Figuren, die komplex und zutiefst fehlerhaft sind, aber trotzdem Mut und Hoffnung zeigen, wenn sie mit ihrer eigenen Menschlichkeit konfrontiert werden &ndash; Figuren, die an ihre Belastungsgrenze gebracht werden und über sich hinauswachsen müssen, nur um jeden Tag zu überleben‹. Das ist nicht zufällig gewählt &ndash; es ist exakt das Thema, das die SX6 in sich selbst trägt und in ihrer Arbeit immer wieder durcharbeitet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Vielseitigkeit statt Festlegung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel</strong> gibt der sexuellen Sechs eine zusätzliche Beweglichkeit und Neugier &ndash; die Angst wird nicht nur konfrontiert, sondern in ein möglichst breites Spektrum an Erfahrungen verwandelt, statt sich auf ein enges Feld festzulegen. Genau das beschreibt Benz' Karriere: Komödie, Science-Fiction, Horror und Familiendrama wechselten sich ab, ohne dass sie sich je auf ein einziges Genre reduzieren ließ &ndash; eine der vielseitigsten Schauspielerinnen des US-Fernsehens ihrer Generation, wie Branchenbeobachter sie beschrieben.</p>
+          <p class="vb-intro">Diese Vielseitigkeit war zugleich ihre größte Hürde: Ihre eigene physische Attraktivität wurde, wie Beobachter anmerkten, gelegentlich selbst zum Hindernis dabei, als Schauspielerin mit Substanz ernst genommen zu werden &ndash; ein Konflikt, der die SX6w7 gut kennt: Die nach außen gerichtete Anziehungskraft, die eigentlich Schutz vor der inneren Unsicherheit bieten soll, kann zugleich verdecken, wie viel Tiefe und Ernsthaftigkeit tatsächlich dahinterliegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w7 zeigt sich darin, dass aus einer jahrelang verdeckten Unsicherheit am Ende eine selbst erarbeitete, öffentlich sichtbare Stärke wurde &ndash; nicht durch das Verschwinden der Angst, sondern durch den wiederholten, bewussten Gang durch sie hindurch, von der verletzten jugendlichen Eiskunstläuferin bis zur preisgekrönten Schauspielerin.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Angst</strong> selbst, der tiefe Zweifel an der eigenen Urteilsfähigkeit und der Welt als verlässlichem Ort. Bei der SX6 kann sich das in eine Übertreibung von Stärke und Mut verwandeln, die mehr beweisen will, als sie innerlich glaubt &ndash; Benz' eigene Beschreibung, wie sehr sie sich früher nach den Erwartungen anderer richtete, zeigt genau diesen Punkt, an dem die kompensierende Fassade und die reale Unsicherheit noch nicht zusammengefunden hatten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die schauspielerische Substanz: Mehr als ein attraktives Gesicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Julie Benz als Schauspielerin tatsächlich auszeichnete, war nicht nur äußere Erscheinung, sondern eine spezifische Fähigkeit: komplexe, moralisch zwiespältige Frauenfiguren so zu spielen, dass ihre Verletzlichkeit nie bloß dekorativ wirkte. Als Rita Bennett in ›Dexter‹ musste sie eine Frau glaubhaft machen, die selbst häusliche Gewalt überlebt hatte und sich nach und nach eine neue, eigene Stärke erarbeitete, ohne dabei ihre Zerbrechlichkeit zu verlieren &ndash; eine schauspielerische Gratwanderung, die ihr sowohl einen Satellite Award (2006) als auch einen Saturn Award (2009) einbrachte. Als Darla in ›Buffy‹ und ›Angel‹ wiederum musste sie über Jahre hinweg eine Figur tragen, die zwischen roher Vampir-Gewalt und zunehmender menschlicher Zerrissenheit pendelte, ohne dabei zur reinen Genre-Schablone zu werden.</p>
+          <p class="vb-intro">Der Wolf verteidigt sein Rudel bis zum letzten und wählt genau, wem er vertraut. Julie Benz' Weg von der verletzten Eiskunstläuferin über Jahre der Selbstzweifel bis zur eigenständig gewonnenen inneren Sicherheit zeigt die sexuelle Sechs in ihrer reifsten Form: Mut, der nicht die Abwesenheit von Angst ist, sondern die wiederholte Entscheidung, trotzdem zu handeln.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-horst-lichter", label:"Porträt: Horst Lichter (SX7w6)"},
+        {route:"beruehmte-bastian-schweinsteiger", label:"Porträt: Bastian Schweinsteiger"},
+      ])}
+    </div>
+  `);
+}
