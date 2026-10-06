@@ -2362,3 +2362,63 @@ export function abdulHayyHoldijkPortraitPage() {
     </div>
   `);
 }
+
+export function nicoleKidmanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-nicole-kidman-portrait.jpg" alt="Nicole Kidman – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nicole Kidman</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">US-australische Schauspielerin und Produzentin, geb. 1967 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins &ndash; unauffällig in der Erscheinung, aber unerbittlich in der Sache, der sie dient. Nicole Kidman, geboren am 20. Juni 1967 in Honolulu als Tochter australischer Eltern, wuchs in Sydney auf und litt als Kind unter starker Schüchternheit und einem Stottern, das sie durch den Besuch einer Schauspielschule überwand &ndash; eine erste, frühe Lektion darin, dass Disziplin und wiederholte Übung Angst in Handlungsfähigkeit verwandeln können.</p>
+          <p class="vb-intro">Der internationale Durchbruch gelang ihr mit dem australischen Thriller ›Dead Calm‹ (1989). Es folgte eine Karriere, die sich über mehr als drei Jahrzehnte durch nahezu jedes Genre und jede Produktionsgröße zog &ndash; vom Hollywood-Blockbuster über das europäische Arthouse-Kino bis zum prestigeträchtigen Fernsehdrama &ndash; und für die sie 2003 als erste Australierin den Oscar als beste Hauptdarstellerin gewann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Die eigene Stimme in den Dienst einer Sache stellen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> richtet ihren Perfektionismus nicht primär nach innen, sondern nach außen &ndash; auf die Gesellschaft, auf Missstände, auf das, was korrigiert werden muss, damit die Welt gerechter wird. Naranjo beschrieb diesen Subtyp als ›Inadaptability‹: eine grundsätzliche Unnachgiebigkeit gegenüber Zuständen, die nicht sein sollten.</p>
+          <p class="vb-intro">Bei Kidman zeigt sich das seit 1994 in ihrem ununterbrochenen Engagement als Goodwill-Botschafterin von UNICEF, mit Reisen in Krisen- und Armutsregionen, sowie in ihrer öffentlichen Arbeit gegen häusliche Gewalt &ndash; ein Thema, über das sie wiederholt auch mit Bezug auf eigene Erfahrungen sprach. Die SO1 kämpft selten für sich selbst allein; sie kämpft für ein Prinzip, das größer ist als die eigene Person, und bringt dafür ihre öffentliche Plattform in Stellung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Haltung, die sich kümmert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der sozialen Eins eine persönliche, zugewandte Wärme, die eine reine Eins ohne diesen Flügel oft vermissen lässt. Kidmans eigene Produktionsfirma Blossom Films wurde gezielt gegründet, um Geschichten von Frauen zu erzählen, die im traditionellen Studiosystem zu wenig Raum fanden &ndash; eine Mischung aus Prinzipientreue (die SO1-Seite: Hier herrscht eine strukturelle Schieflage) und persönlicher Fürsorge für die Figuren und ihre Darstellerinnen (die Zweier-Seite).</p>
+          <p class="vb-intro">Besonders deutlich wird das bei ›Big Little Lies‹ (2017), das sie selbst produzierte und in dem sie eine Frau spielte, die häusliche Gewalt erlebt: Ein Projekt, das zugleich eine klare gesellschaftliche Aussage (SO1) und eine zutiefst persönliche, empathische Annäherung an eine verletzliche Figur (w2) ist. Die SO1w2 verbindet moralische Klarheit mit der Fähigkeit, konkrete einzelne Menschen zu sehen, nicht nur abstrakte Prinzipien.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sozialen Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1 zeigt sich in einer Karriere, die immer wieder bewusst dorthin ging, wo echte künstlerische oder gesellschaftliche Substanz zu finden war, statt dem bequemsten oder lukrativsten Weg zu folgen &ndash; die Zusammenarbeit mit Regisseuren wie Stanley Kubrick, Lars von Trier, Jane Campion und Baz Luhrmann liest sich wie eine bewusste Suche nach Qualität und Haltung statt nach bloßem Erfolg.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> &ndash; bei der SO1 gerichtet gegen Unrecht, das im Großen fortbesteht, solange niemand es anspricht. Die Kehrseite ist eine Erschöpfung, die entsteht, wenn jede sichtbare Ungerechtigkeit als eigene Verantwortung erlebt wird. Kidman selbst hat öffentlich über die Belastung gesprochen, die mit dem offenen Sprechen über häusliche Gewalt einhergeht &ndash; ein Preis, den die SO1 bereit ist zu zahlen, weil Schweigen ihr wie ein noch größeres Versagen erscheint.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die schauspielerische Substanz: Die Kunst der vollständigen Verwandlung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Nicole Kidman als Schauspielerin auszeichnet, ist eine selten konsequente Bereitschaft zur physischen und stimmlichen Transformation. Für ihre Rolle als Virginia Woolf in ›The Hours‹ (2002) trug sie eine Nasenprothese, die ihr Gesicht spürbar veränderte &ndash; ein bewusster Verzicht auf die eigene, öffentlich bekannte Erscheinung zugunsten der Glaubwürdigkeit der Figur, wofür sie den Oscar erhielt. Als gebürtige Australierin beherrscht sie zudem ein beachtliches Spektrum an amerikanischen und britischen Akzenten mit einer Präzision, die Dialekt-Coaches wiederholt hervorgehoben haben.</p>
+          <p class="vb-intro">Diese Wandlungsfähigkeit ist kein oberflächlicher Trick, sondern Ausdruck derselben inneren Disziplin, die auch ihr gesellschaftliches Engagement trägt: eine strikte, selbstauferlegte Sorgfalt gegenüber der Aufgabe, die vor ihr liegt. Die Gans wacht über ihre Formation und lässt nicht locker, bis die Ordnung stimmt. Nicole Kidmans Weg vom stotternden Kind zur meistausgezeichneten Schauspielerin ihres Landes zeigt die soziale Eins mit Zweierflügel in ihrer reifsten Form: Prinzipientreue, die sich nicht in kalter Strenge erschöpft, sondern durch echte Zuwendung zu den Menschen und Geschichten lebendig bleibt, die sie trägt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2) – dieselbe Verbindung aus Prinzipientreue und persönlicher Fürsorge"},
+        {route:"beruehmte-steve-jobs", label:"Porträt: Steve Jobs (SO1w2)"},
+        {route:"beruehmte-david-bowie", label:"Porträt: David Bowie (SO1w2)"},
+      ])}
+    </div>
+  `);
+}
