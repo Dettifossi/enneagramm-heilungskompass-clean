@@ -449,7 +449,7 @@ export function elvisPresleyPortraitPage() {
 
         <h2 class="vb-section">6. Das Geschenk: Eine Stimme, die verbindet</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Elvis Presley der Welt gab, war mehr als Musik. Er brach Grenzen zwischen Genres, zwischen Schwarzer und Wei\u00dfer Musiktradition, zwischen dem, was als schicklich galt, und dem, was Menschen wirklich f\u00fchlten. Seine Gospel-Wurzeln, seine Liebe zum Rhythm and Blues, seine Balladen &ndash; all das trug dieselbe Botschaft der SX2w3: Ich zeige dir meine ganze Intensit\u00e4t, ungefiltert, und ich hoffe, du liebst mich daf\u00fcr.</p>
+          <p class="vb-intro">Was Elvis Presley der Welt gab, war mehr als Musik. Er brach Grenzen zwischen Genres, zwischen schwarzer und wei\u00dfer Musiktradition, zwischen dem, was als schicklich galt, und dem, was Menschen wirklich f\u00fchlten. Seine Gospel-Wurzeln, seine Liebe zum Rhythm and Blues, seine Balladen &ndash; all das trug dieselbe Botschaft der SX2w3: Ich zeige dir meine ganze Intensit\u00e4t, ungefiltert, und ich hoffe, du liebst mich daf\u00fcr.</p>
           <p class="vb-intro">Das Kamel kennt die W\u00fcste und kennt die Ersch\u00f6pfung, die aus grenzenlosem Geben entsteht. Doch was bleibt, ist die Erinnerung an einen Menschen, der Millionen Fremden das Gef\u00fchl gab, in einem einzigen Song oder Blick vollst\u00e4ndig gesehen zu werden. Das ist Elvis Presley. Das ist die SX2w3, gefeiert und verletzlich zugleich.</p>
         </blockquote>
 
@@ -2441,7 +2441,7 @@ export function naomiCampbellPortraitPage() {
         <h2 class="vb-section">1. Der Pfau</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei &ndash; Wirkung nicht als Mittel zum Zweck, sondern als unmittelbare, körperliche Präsenz selbst. Naomi Campbell, geboren am 22. Mai 1970 in London, besuchte bereits ab dem dritten Lebensjahr die Italia Conti Academy of Theatre Arts und erhielt dort eine fundierte Ausbildung in Ballett und Jazztanz &ndash; eine körperliche Schulung, die später zur Grundlage ihres unverwechselbaren Laufstils werden sollte.</p>
-          <p class="vb-intro">Mit 15 Jahren wurde sie auf der Straße entdeckt, mit 18 war sie bereits eine der gefragtesten Nachwuchsmodels der Welt. 1988 wurde sie als erste schwarze Frau auf dem Cover der französischen Vogue abgebildet &ndash; ein Tabubruch in einer Branche, die bis dahin Schwarzen Models systematisch weniger Sichtbarkeit zugestand. Gemeinsam mit Linda Evangelista, Cindy Crawford und Christy Turlington prägte sie in den 1990er-Jahren die Ära der ersten „Supermodels", deren Namen allein schon Kampagnen trugen.</p>
+          <p class="vb-intro">Mit 15 Jahren wurde sie auf der Straße entdeckt, mit 18 war sie bereits eine der gefragtesten Nachwuchsmodels der Welt. 1988 wurde sie als erste schwarze Frau auf dem Cover der französischen Vogue abgebildet &ndash; ein Tabubruch in einer Branche, die bis dahin schwarzen Models systematisch weniger Sichtbarkeit zugestand. Gemeinsam mit Linda Evangelista, Cindy Crawford und Christy Turlington prägte sie in den 1990er-Jahren die Ära der ersten „Supermodels", deren Namen allein schon Kampagnen trugen.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die sexuelle Drei: Anziehungskraft als Lebensform</h2>
