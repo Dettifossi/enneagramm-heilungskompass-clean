@@ -32933,7 +32933,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Fran\u00e7ois Damiens \u2013 Sexueller Typ 9",
     teaser:"SX9w8 \u00b7 geb. 1973. Schauspieler und Komiker. \u00dcber 400 versteckte Kamerastreiche mit einer bewusst vulg\u00e4ren, provokativen Kunstfigur, sp\u00e4ter gefeierter Charakterdarsteller (\u203aLa Famille B\u00e9lier\u2039) \u2013 bei extrem abgeschirmtem Privatleben. Tierentsprechung: Faultier.",
     land:"Belgien", tags:["Film"], gender:"m" },
-  { route:"beruehmte-stefan-homburg", name:"Stefan Homburg", added:"2026-10-06", subtyp:"SX9w1",
+  { route:"beruehmte-stefan-homburg", name:"Stefan Homburg", added:"2026-09-14", subtyp:"SX9w1",
     heading:"Stefan Homburg \u2013 Sexueller Typ 9",
     teaser:"SX9w1 \u00b7 geb. 1961. Finanzwissenschaftler, \u00fcber zwei Jahrzehnte Professor in Hannover, seit 2020 einer der bekanntesten Corona-Kritiker Deutschlands mit \u00fcber 140.000 X-Followern. Jahrzehntelange, vollst\u00e4ndige Verschmelzung mit einer einzigen fachlichen \u00dcberzeugung, ruhig und sachlich im Ton, unnachgiebig in der Sache. Tierentsprechung: Faultier.",
     land:"Deutschland", tags:["Wissenschaft"], gender:"m" },
