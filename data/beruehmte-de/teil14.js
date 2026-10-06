@@ -2206,6 +2206,7 @@ export function bruceSpringsteenPortraitPage() {
         {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
         {route:"beruehmte-peter-maffay", label:"Porträt: Peter Maffay (SX9w1) – dasselbe Lebensmuster und ein frappierend ähnliches Gesicht"},
         {route:"beruehmte-stefan-homburg", label:"Porträt: Stefan Homburg (SX9w1) – dieselbe Verschmelzung, auf eine fachliche Überzeugung gerichtet"},
+        {route:"beruehmte-dustin-hoffman", label:"Porträt: Dustin Hoffman (SX9w1) – Verschmelzung mit der jeweiligen Rolle"},
         {route:"beruehmte-jane-goodall", label:"Porträt: Dr. Jane Goodall (SX9w1)"},
         {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1)"},
       ])}
