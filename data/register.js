@@ -69,6 +69,7 @@ export const registerEntries = [
   { term: "Der Chakra-Kern Ihres Enneagrammtyps", route: "praxistipps-heilpraktiker/chakra-kern-uebung", description: "Neun Enneagrammtypen, neun Körperzentren und die passenden homöopathischen Konstitutionsmittel" },
   { term: "Klassische Homöopathie und Enneagramm-Homöopathie im Vergleich", route: "klassische-vs-enneagramm-homoeopathie", description: "Wie klassische Fallaufnahme und typbasierte Arbeitshypothese zur selben Mittelwahl führen" },
   { term: "Die Ennead von Heliopolis und das Enneagramm", route: "ennead-enneagramm", description: "Die neun Götter des alten Ägypten im Vergleich mit den neun Enneagrammtypen" },
+  { term: "Navagraha und das Enneagramm", route: "navagraha-enneagramm", description: "Die neun Grahas der vedischen Astrologie im Vergleich mit den neun Enneagrammtypen" },
   { term: "Stille",                          route: "stille",                        description: "Meditation & Stille: eine Übung für jeden Enneagrammtyp" },
   { term: "Tritypen",                        route: "tritypen",                      description: "Schaubild: Die 27 Tritypen – Kombination aus einem Typ pro Triade" },
 
