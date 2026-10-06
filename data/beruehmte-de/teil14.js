@@ -2135,8 +2135,75 @@ export function peterMaffayPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-bruce-springsteen", label:"Porträt: Bruce Springsteen (SX9w1) – ein frappierend ähnliches Gesicht und dasselbe Lebensmuster"},
         {route:"beruehmte-jane-goodall", label:"Porträt: Dr. Jane Goodall (SX9w1)"},
         {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1)"},
+        {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1)"},
+      ])}
+    </div>
+  `);
+}
+
+export function bruceSpringsteenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-bruce-springsteen-portrait.jpg" alt="Bruce Springsteen – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bruce Springsteen</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Musiker, geb. 1949 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier auf der Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun &ndash; kein Tier des Drängens, sondern eines der vollständigen, kompromisslosen Hingabe an das eine, was gerade geschieht. Bruce Springsteen, geboren am 23. September 1949 in Freehold, New Jersey, als Sohn eines Busfahrers mit unbehandelten psychischen Problemen, fand in der Musik früh einen Ort, an dem er sich ganz verlieren konnte &ndash; eine Flucht, die über sechs Jahrzehnte zur Lebensaufgabe wurde.</p>
+          <p class="vb-intro">Mit der E Street Band, gegründet 1972, entwickelte er einen Konzertstil, der bis heute als einer der intensivsten der Rockgeschichte gilt: Shows von regelmäßig drei bis vier Stunden Länge, bei denen Springsteen auf der Bühne restlos in der Musik und im Publikum aufzugehen scheint, statt sie nur zu performen. Alben wie ›Born to Run‹ (1975) und ›Born in the USA‹ (1984) machten ihn zu einer der zentralen Stimmen der amerikanischen Arbeiterklasse.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung statt Verteilung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Neun (SX9)</strong> lebt die Trägheits-Leidenschaft als vollständige Verschmelzung mit einem einzigen, alles überragenden Gegenüber &ndash; das eigene Selbst tritt zurück, um ganz darin aufzugehen. Bei Springsteen ist dieses Gegenüber die Bühne und das Publikum selbst: Seine Konzerte sind berüchtigt dafür, dass er die Setlist oft erst während der Show spontan verändert, auf Zurufe reagiert und sich dem jeweiligen Abend restlos anpasst, statt ein starres Programm abzuspulen.</p>
+          <p class="vb-intro">Über Jahrzehnte blieb er derselben Band, demselben musikalischen Grundthema &ndash; dem Leben der amerikanischen Arbeiterklasse &ndash; und demselben Publikum treu, statt sich wie viele Kollegen auf wechselnde Projekte zu verteilen. Genau das ist die SX9 in ihrer tragfähigsten Form: nicht viele lose Bindungen, sondern eine einzige, lebenslange Verschmelzung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Disziplin hinter der scheinbaren Mühelosigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine SX9 mit schwächer ausgeprägtem Einserflügel würde sich vermutlich treiben lassen. Bei Springsteen zeigt sich stattdessen eine fast asketische Arbeitsdisziplin: Bandmitglieder berichteten wiederholt von Probenmarathons, bei denen einzelne Songs über Stunden hinweg bis zur Perfektion durchgearbeitet wurden, und von einer körperlichen Fitness-Routine, mit der er auch im achten Lebensjahrzehnt noch dreistündige Konzerte durchhält.</p>
+          <p class="vb-intro">Auch sein gesellschaftliches Engagement folgt dieser Eins-Note: konsequente Benefizkonzerte für Kriegsveteranen, die ›Vote for Change‹-Tournee 2004 und eine klar prinzipiengeleitete politische Haltung, die er über Jahrzehnte beibehielt, statt sie der jeweiligen Stimmung anzupassen. Der Einserflügel bringt Ordnung und Prinzipientreue in die sonst grenzenlose Hingabe der Neun.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Leidenschaft: Trägheit als jahrzehntelang verborgene Tiefe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Leidenschaft der Neun heißt <strong>Trägheit</strong> &ndash; nicht körperliche Faulheit, sondern ein Vergessen der eigenen inneren Not zugunsten äußerer Geschäftigkeit. Erst in seiner 2016 erschienenen Autobiografie ›Born to Run‹ und der Bühnenshow ›Springsteen on Broadway‹ sprach Springsteen erstmals offen über lebenslange depressive Episoden und die Schatten seiner Kindheit mit einem psychisch erkrankten Vater &ndash; Jahrzehnte, nachdem die Öffentlichkeit ihn bereits als kraftstrotzenden ›Boss‹ kannte.</p>
+          <p class="vb-intro">Dieses späte, aber radikal ehrliche Offenlegen zeigt die typische SX9-Dynamik: Die eigene innere Wirklichkeit wird so lange zurückgestellt, bis sie nicht mehr zu übersehen ist &ndash; dann aber mit derselben Vollständigkeit ausgesprochen, mit der zuvor über sie geschwiegen wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w1 zeigt sich darin, wie Springsteen aus einer schwierigen, von psychischer Erkrankung und Armut geprägten Kindheit heraus eine jahrzehntelange, diszipliniert gepflegte künstlerische Gemeinschaft aufbaute, die Millionen Menschen eine Stimme für ihr eigenes Leben gab.</p>
+          <p class="vb-intro">Der Schatten liegt in der Kehrseite derselben Verschmelzungsfähigkeit: Das jahrzehntelange Verschweigen der eigenen Depression, bis sie kaum mehr zu tragen war, zeigt, wie leicht sich die SX9 in ihrer äußeren Rolle verliert, während die eigene innere Wirklichkeit unbemerkt bleibt &ndash; auch für sie selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Faultiere mit demselben Gesicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein besonders aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-peter-maffay">Peter Maffay</a> (SX9w1): Beide Musiker, geboren im selben Jahr 1949, teilen nicht nur eine verblüffende äußere Ähnlichkeit &ndash; markante, kantige Gesichtszüge, dieselbe zurückhaltende Bühnenpräsenz trotz jahrzehntelangem Ruhm &ndash;, sondern vor allem dasselbe zugrunde liegende Lebensmuster: die vollständige, disziplinierte Verschmelzung mit einem einzigen Lebenswerk, das weit über die reine Musikkarriere hinausreicht. Maffay fand dieses Werk in Tabaluga und seiner Stiftung für traumatisierte Kinder, Springsteen in der E Street Band und seinem jahrzehntelangen Engagement für die amerikanische Arbeiterklasse.</p>
+          <p class="vb-intro">Beide blieben trotz Weltruhm auffällig privat, beide hielten ihre Bühnenpartner über Jahrzehnte, statt sie auszutauschen, und bei beiden brach die eigentliche innere Tiefe erst spät und dann umso direkter durch die sorgfältig gepflegte öffentliche Fassade. Das Faultier verschmilzt nicht leichtfertig &ndash; aber wenn es sich bindet, dann vollständig und auf Lebenszeit. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-peter-maffay">Porträt zu Peter Maffay</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"beruehmte-peter-maffay", label:"Porträt: Peter Maffay (SX9w1) – dasselbe Lebensmuster und ein frappierend ähnliches Gesicht"},
+        {route:"beruehmte-jane-goodall", label:"Porträt: Dr. Jane Goodall (SX9w1)"},
         {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1)"},
       ])}
     </div>
