@@ -40033,6 +40033,13 @@ function knowledgePage() {
     <section class="knowledge-grid">
       ${knowledgePrototype.subtypes.map(knowledgeCard).join("")}
     </section>
+    <section class="narrow" style="margin-top:2.5rem;">
+      <div class="vb-section" style="max-width:100%;border:1px solid var(--line);border-radius:10px;padding:1.2rem 1.4rem;text-align:center;background:color-mix(in srgb, var(--copper) 6%, var(--paper));">
+        <p style="font-size:.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;margin:0 0 .5rem;">Kostenloser Download</p>
+        <p style="font-size:.95rem;color:var(--ink);margin:0 0 1rem;">Die neun Grundmotivationen, die neun Leidenschaften und die 27 Subtypen als gestalteter PDF-Guide zum Mitnehmen – „Der verborgene Schl\xfcssel zur Heilung“.</p>
+        <a href="https://www.verlagshausrathmer.com/downloads/der-verborgene-schluessel-zur-heilung.pdf" target="_blank" rel="noopener" style="display:inline-block;background:var(--copper);color:#fff;font-size:.9rem;padding:.6rem 1.4rem;border-radius:6px;text-decoration:none;font-weight:600;">↓ PDF-Guide herunterladen</a>
+      </div>
+    </section>
   `);
 }
 
@@ -50932,6 +50939,12 @@ function enneagrammHomoeopathiePage() {
         <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0 0 1.4rem;">Die folgenden Fallberichte stammen aus der lebendigen Praxis der Enneagramm-Hom\xf6opathie. Alle Patienten sind anonymisiert. Die F\xe4lle zeigen exemplarisch, wie die Bestimmung des Enneagrammtyps und die Verordnung des typspezifischen Heilmittels wirkt &ndash; auf der tiefsten Ebene des Menschseins.</p>
         <div style="display:flex;flex-direction:column;gap:1rem;margin-bottom:2rem;">
           ${HOMOEOPATHIE_FAELLE.map(card).join('')}
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin:0 0 2rem;border:1px solid var(--line);border-radius:10px;padding:1.2rem 1.4rem;text-align:center;background:color-mix(in srgb, var(--copper) 6%, var(--paper));">
+          <p style="font-size:.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;margin:0 0 .5rem;">Kostenloser Download</p>
+          <p style="font-size:.95rem;color:var(--ink);margin:0 0 1rem;">Die wichtigsten Zusammenh\xe4nge der Enneagramm-Hom\xf6opathie als gestalteter PDF-Guide zum Mitnehmen \u2013 vom Baum-Modell \xfcber die neun Mittel bis zum Weg zur\xfcck zum Wesenskern.</p>
+          <a href="https://www.psychologische-homoeopathie.de/downloads/enneagramm-homoeopathie-uebersicht.pdf" target="_blank" rel="noopener" style="display:inline-block;background:var(--copper);color:#fff;font-size:.9rem;padding:.6rem 1.4rem;border-radius:6px;text-decoration:none;font-weight:600;">\u2193 PDF-Guide herunterladen</a>
         </div>
 
         ${bookTip("enneagramm-homoeopathie-band-1", "Das Grundlagenwerk der Enneagramm-Hom\u00f6opathie \u2013 wie Pers\u00f6nlichkeitstyp und Heilmittelwahl auf der tiefsten Ebene zusammenh\u00e4ngen.", "Enneagramm-Hom\u00f6opathie \u2013 Band 1")}
