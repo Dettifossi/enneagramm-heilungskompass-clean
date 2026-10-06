@@ -1226,6 +1226,7 @@ export const registerEntries = [
   { term: "Jordan Peterson",               route: "beruehmte-jordan-peterson",             description: "Portrait: SO1w9 · Sozialer Typ 1 · Psychologe, Bestsellerautor" },
   { term: "Jürgen Klopp",               route: "beruehmte-juergen-klopp",               description: "Portrait: SO1w2 · Sozialer Typ 1 · Fußballtrainer, Liverpool, Leidenschaft" },
   { term: "Brad Pitt",                     route: "beruehmte-brad-pitt",                   description: "Portrait: SX3w2 · Sexueller Typ 3 · Schauspieler, Produzent" },
+  { term: "Naomi Campbell",                 route: "beruehmte-naomi-campbell",              description: "Portrait: SX3w2 · Sexueller Typ 3 · Model, Unternehmerin, Fashion for Relief" },
   { term: "Wolfgang Joop",                  route: "beruehmte-wolfgang-joop",               description: "Portrait: SX3w2 · Sexueller Typ 3 · Modedesigner, JOOP! und Wunderkind" },
   { term: "Lenny Kravitz",                 route: "beruehmte-lenny-kravitz",               description: "Portrait: SX3w2 · Sexueller Typ 3 · Musiker, vier Grammys in Folge" },
   { term: "Zoë Kravitz",                   route: "beruehmte-zoe-kravitz",                 description: "Portrait: SO3w2 · Sozialer Typ 3 · Schauspielerin, Musikerin, Regisseurin" },

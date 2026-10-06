@@ -2422,3 +2422,63 @@ export function nicoleKidmanPortraitPage() {
     </div>
   `);
 }
+
+export function naomiCampbellPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-naomi-campbell-portrait.jpg" alt="Naomi Campbell – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Naomi Campbell</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Britisches Model und Unternehmerin, geb. 1970 &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei &ndash; Wirkung nicht als Mittel zum Zweck, sondern als unmittelbare, körperliche Präsenz selbst. Naomi Campbell, geboren am 22. Mai 1970 in London, besuchte bereits ab dem dritten Lebensjahr die Italia Conti Academy of Theatre Arts und erhielt dort eine fundierte Ausbildung in Ballett und Jazztanz &ndash; eine körperliche Schulung, die später zur Grundlage ihres unverwechselbaren Laufstils werden sollte.</p>
+          <p class="vb-intro">Mit 15 Jahren wurde sie auf der Straße entdeckt, mit 18 war sie bereits eine der gefragtesten Nachwuchsmodels der Welt. 1988 wurde sie als erste schwarze Frau auf dem Cover der französischen Vogue abgebildet &ndash; ein Tabubruch in einer Branche, die bis dahin Schwarzen Models systematisch weniger Sichtbarkeit zugestand. Gemeinsam mit Linda Evangelista, Cindy Crawford und Christy Turlington prägte sie in den 1990er-Jahren die Ära der ersten „Supermodels", deren Namen allein schon Kampagnen trugen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Anziehungskraft als Lebensform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> macht aus persönlicher Anziehungskraft kein Mittel zum Erfolg, sondern das Lebensthema selbst &ndash; nicht öffentliches Prestige wie die soziale Drei, sondern unmittelbare, körperliche Wirkung im direkten Kontakt. Naranjo nannte diesen Subtyp <em>Masculinity/Femininity</em>: die Verkörperung von Attraktivität in ihrer reinsten Form.</p>
+          <p class="vb-intro">Campbells jahrzehntelange Karriere ist genau das in Reinform: Sie lief nicht einfach Kleidung ab, sie verkörperte sie. Designer wie Gianni Versace, Yves Saint Laurent und Alexander McQueen bauten Shows um ihre Präsenz herum, weil ihre bloße Anwesenheit eine Kollektion in ein Ereignis verwandelte. Die SX3 verwechselt diese Wirkung leicht mit dem eigenen Wert &ndash; und genau darin liegt zugleich ihre Kraft wie ihre Verletzlichkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Hilfe, die eine Bühne baut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> fügt der sexuellen Drei eine Dimension hinzu, die über reinen Magnetismus hinausgeht: das Bedürfnis, die eigene Plattform für andere nutzbar zu machen. 2005 gründete Campbell die Wohltätigkeitsorganisation Fashion for Relief, die seither mit spektakulären Charity-Modenschauen &ndash; mit teils denselben Top-Designern und Models, die sie selbst über Jahrzehnte kannte &ndash; Spenden für Katastrophenhilfe sammelt, unter anderem nach dem Hurrikan Katrina, dem Erdbeben in Haiti und während der Covid-19-Pandemie.</p>
+          <p class="vb-intro">Auch ihr Engagement für Nachwuchsmodels aus unterrepräsentierten Communities zeigt dieselbe Bewegung: die eigene, hart erkämpfte Sichtbarkeit nicht zu horten, sondern weiterzugeben. Die SX3w2 verbindet reine Präsenzkraft mit dem echten Wunsch, andere ins Rampenlicht mitzunehmen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten der sexuellen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3w2 zeigt sich darin, dass aus reiner physischer Präsenz über Jahrzehnte eine Institution der Modebranche wurde &ndash; Campbell gehört nach wie vor, mit über 55 Jahren, zu den gebuchtesten Laufstegmodels der Welt, in einer Branche, die junge Gesichter traditionell bevorzugt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Täuschung</strong> &ndash; das Verwechseln der eigenen Identität mit der eigenen Wirkung, verbunden mit der Angst, ohne diese Wirkung wertlos zu sein. Bei Campbell zeigte sich die Schattenseite wiederholt öffentlich: Mehrere Verurteilungen wegen Körperverletzung gegenüber Assistentinnen und Haushaltshilfen in den 2000er-Jahren, darunter ein geworfenes Mobiltelefon, dokumentieren Momente, in denen aufgestauter Druck sich explosiv entlud. Sie selbst sprach später offen über eine Therapie, mit der sie lernte, diesen Impulsen entgegenzuwirken &ndash; ein seltenes öffentliches Eingeständnis, das zur Reifung der SX3 gehört: die Wirkung nach außen zu kontrollieren, bedeutet zuerst, die eigene innere Intensität zu verstehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die professionelle Substanz: Ein Laufsteg-Stil als eigenständige Kunstform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Naomi Campbell als Model tatsächlich auszeichnet, ist weit mehr als reine Attraktivität: Ihr Laufstil &ndash; von Branchenkennern oft als der technisch präziseste und zugleich ausdrucksstärkste ihrer Generation beschrieben &ndash; verbindet die exakte Körperbeherrschung ihrer frühen Tanzausbildung mit einer theatralischen Präsenz, die jeden Schritt wie eine eigene kleine Performance wirken lässt. Als sie 1993 bei einer Vivienne-Westwood-Show auf extrem hohen Plateauschuhen stürzte, verwandelte sie den Moment durch ihr sofortiges, lachendes Wiederaufstehen in einen der meistzitierten Augenblicke der Modegeschichte &ndash; Beherrschung der eigenen Wirkung selbst im unkontrollierten Scheitern.</p>
+          <p class="vb-intro">Der Pfau zeigt sein Rad nicht aus Berechnung, sondern weil es seine Natur ist. Naomi Campbells Weg vom Straßencasting in London zur dienstältesten Ikone der internationalen Modewelt zeigt die sexuelle Drei mit Zweierflügel in ihrer ausdauerndsten Form: eine Anziehungskraft, die sich über Jahrzehnte nicht abnutzte, weil sie irgendwann begann, anderen zugutezukommen statt nur sich selbst zu dienen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-wolfgang-joop", label:"Porträt: Wolfgang Joop (SX3w2)"},
+        {route:"beruehmte-brad-pitt", label:"Porträt: Brad Pitt (SX3w2)"},
+        {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SX3w2)"},
+      ])}
+    </div>
+  `);
+}

@@ -2220,6 +2220,7 @@ export function wolfgangJoopPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
         {route:"beruehmte-brad-pitt", label:"Porträt: Brad Pitt (SX3w2)"},
+        {route:"beruehmte-naomi-campbell", label:"Porträt: Naomi Campbell (SX3w2)"},
         {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SX3w2)"},
         {route:"beruehmte-heidi-klum", label:"Porträt: Heidi Klum (SX3w4)"},
       ])}
