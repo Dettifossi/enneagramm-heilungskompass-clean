@@ -51689,6 +51689,29 @@ function enneagrammEnneadPage() {
         <h2 class="section-title" style="font-size:1.15rem;margin:0 0 1.2rem;">Die neun G\xf6tter von Heliopolis</h2>
         <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0 0 1.4rem;">In der \xe4gyptischen Stadt Heliopolis (im Alten Reich, ca. 2600 v. Chr., erstmals schriftlich belegt in den Pyramidentexten) entwickelten die Priester eine Sch\xf6pfungslehre, die den gesamten Kosmos aus einer einzigen Ursubstanz in neun aufeinanderfolgenden Generationen entfaltet: Atum zeugt aus sich selbst Schu und Tefnut, diese zeugen Geb und Nut, und aus deren Verbindung gehen schlie\xdflich Osiris, Isis, Seth und Nephthys hervor. Jede Gottheit verk\xf6rpert ein eigenst\xe4ndiges kosmisches Prinzip \u2013 und doch bilden alle neun zusammen ein geschlossenes, genealogisch verbundenes Ganzes.</p>
 
+        <div style="display:flex;flex-direction:column;align-items:center;gap:.5rem;margin:1.2rem 0 2rem;font-family:-apple-system,BlinkMacSystemFont,sans-serif;">
+          <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;">
+            <div style="background:color-mix(in srgb, var(--copper) 12%, var(--paper));border:1px solid var(--copper);border-radius:10px;padding:.5rem 1.1rem;font-size:.85rem;font-weight:700;color:var(--copper);">Atum</div>
+          </div>
+          <div style="font-size:.75rem;color:var(--muted);">zeugt aus sich selbst</div>
+          <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;">
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Schu</div>
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Tefnut</div>
+          </div>
+          <div style="font-size:.75rem;color:var(--muted);">zeugen</div>
+          <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;">
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Geb</div>
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Nut</div>
+          </div>
+          <div style="font-size:.75rem;color:var(--muted);">zeugen</div>
+          <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;">
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Osiris</div>
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Isis</div>
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Seth</div>
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Nephthys</div>
+          </div>
+        </div>
+
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.9rem;margin-bottom:2rem;">
           ${GOETTER.map(godCard).join('')}
         </div>
