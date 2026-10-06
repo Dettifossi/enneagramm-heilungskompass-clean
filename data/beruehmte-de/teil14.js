@@ -2136,6 +2136,7 @@ export function peterMaffayPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
         {route:"beruehmte-bruce-springsteen", label:"Porträt: Bruce Springsteen (SX9w1) – ein frappierend ähnliches Gesicht und dasselbe Lebensmuster"},
+        {route:"beruehmte-stefan-homburg", label:"Porträt: Stefan Homburg (SX9w1)"},
         {route:"beruehmte-jane-goodall", label:"Porträt: Dr. Jane Goodall (SX9w1)"},
         {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1)"},
         {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1)"},
@@ -2193,6 +2194,7 @@ export function bruceSpringsteenPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Ein besonders aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-peter-maffay">Peter Maffay</a> (SX9w1): Beide Musiker, geboren im selben Jahr 1949, teilen nicht nur eine verblüffende äußere Ähnlichkeit &ndash; markante, kantige Gesichtszüge, dieselbe zurückhaltende Bühnenpräsenz trotz jahrzehntelangem Ruhm &ndash;, sondern vor allem dasselbe zugrunde liegende Lebensmuster: die vollständige, disziplinierte Verschmelzung mit einem einzigen Lebenswerk, das weit über die reine Musikkarriere hinausreicht. Maffay fand dieses Werk in Tabaluga und seiner Stiftung für traumatisierte Kinder, Springsteen in der E Street Band und seinem jahrzehntelangen Engagement für die amerikanische Arbeiterklasse.</p>
           <p class="vb-intro">Beide blieben trotz Weltruhm auffällig privat, beide hielten ihre Bühnenpartner über Jahrzehnte, statt sie auszutauschen, und bei beiden brach die eigentliche innere Tiefe erst spät und dann umso direkter durch die sorgfältig gepflegte öffentliche Fassade. Das Faultier verschmilzt nicht leichtfertig &ndash; aber wenn es sich bindet, dann vollständig und auf Lebenszeit. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-peter-maffay">Porträt zu Peter Maffay</a>.</p>
+          <p class="vb-intro">Eine Verschmelzung ganz anderer Art zeigt <a href="javascript:void(0)" data-route="beruehmte-stefan-homburg">Prof. Dr. Stefan Homburg</a> (SX9w1): Statt mit einer Band oder einem künstlerischen Werk verschmilzt er seit Jahrzehnten mit einer einzigen wirtschaftspolitischen Grundüberzeugung, von der er sich nie abbringen ließ. Dasselbe Muster der vollständigen Hingabe an die eine Sache, nur auf ein völlig anderes Lebensfeld gerichtet. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-stefan-homburg">Porträt zu Stefan Homburg</a>.</p>
         </blockquote>
 
       </div>
@@ -2203,6 +2205,7 @@ export function bruceSpringsteenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
         {route:"beruehmte-peter-maffay", label:"Porträt: Peter Maffay (SX9w1) – dasselbe Lebensmuster und ein frappierend ähnliches Gesicht"},
+        {route:"beruehmte-stefan-homburg", label:"Porträt: Stefan Homburg (SX9w1) – dieselbe Verschmelzung, auf eine fachliche Überzeugung gerichtet"},
         {route:"beruehmte-jane-goodall", label:"Porträt: Dr. Jane Goodall (SX9w1)"},
         {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1)"},
       ])}
