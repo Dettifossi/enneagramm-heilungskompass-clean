@@ -2151,7 +2151,6 @@ export function dustinHoffmanPortraitPage() {
         {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
         {route:"beruehmte-konrad-adenauer", label:"Porträt: Konrad Adenauer (SE1w9)"},
         {route:"beruehmte-anthony-hopkins", label:"Porträt: Anthony Hopkins (SE1w9)"},
-        {route:"beruehmte-stefan-homburg", label:"Porträt: Stefan Homburg (SE1w9)"},
       ])}
     </div>
   `);

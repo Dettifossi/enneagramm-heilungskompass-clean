@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2453", date: "2026-10-06", text: "Korrektur: Porträt Stefan Homburg von SE1w9 zu SX9w1 umtypisiert und überarbeitet, mit Bruce Springsteen (gleicher Subtyp) verlinkt.", text_en: "Correction: portrait of Stefan Homburg retyped from SE1w9 to SX9w1 and revised, cross-linked with Bruce Springsteen (same subtype).", route: "beruehmte-stefan-homburg" },
     { version: "v2452", date: "2026-10-06", text: "Neues Porträt: Bruce Springsteen (SX9w1) – Musiker, „The Boss“, E Street Band.", text_en: "New portrait: Bruce Springsteen (SX9w1) – musician, \"The Boss\", E Street Band.", route: "beruehmte-bruce-springsteen" },
     { version: "v2451", date: "2026-10-06", text: "Neues Porträt: Naomi Campbell (SX3w2) – Model und Unternehmerin, Gründerin von Fashion for Relief.", text_en: "New portrait: Naomi Campbell (SX3w2) – model and entrepreneur, founder of Fashion for Relief.", route: "beruehmte-naomi-campbell" },
     { version: "v2450", date: "2026-10-06", text: "Neues Porträt: Nicole Kidman (SO1w2) – Schauspielerin und Produzentin, Oscarpreisträgerin.", text_en: "New portrait: Nicole Kidman (SO1w2) – actress and producer, Academy Award winner.", route: "beruehmte-nicole-kidman" },

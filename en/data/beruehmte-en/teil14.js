@@ -2128,6 +2128,7 @@ export function peterMaffayPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Peter Maffay remains the musician whose greatest work is not a single album, but a figure grown over forty years – from concept album to musical, from animated series to a foundation that today gives traumatized children a new home. From the first Tabaluga songs to the children's villages, the same pattern recurs: complete, disciplined merging with the one thing that carries.</p>
           <p class="vb-intro">This is the Sexual Nine with a One-wing at its most effective: a sloth that never grows loud, but builds, out of quiet, decades-long devotion, a life's work reaching far beyond its own music career.</p>
+          <p class="vb-intro">A merging of a very different kind shows in <a href="javascript:void(0)" data-route="beruehmte-stefan-homburg">Prof. Dr. Stefan Homburg</a> (SX9w1): instead of a band or an artistic work, he has merged for decades with a single economic-policy conviction he has never been talked out of. The same pattern of complete devotion to the one thing, only aimed at a completely different field of life. More in the <a href="javascript:void(0)" data-route="beruehmte-stefan-homburg">portrait of Stefan Homburg</a>.</p>
         </blockquote>
 
       </div>
@@ -2137,6 +2138,7 @@ export function peterMaffayPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"beruehmte-stefan-homburg", label:"Portrait: Stefan Homburg (SX9w1)"},
         {route:"beruehmte-jane-goodall", label:"Portrait: Dr. Jane Goodall (SX9w1)"},
         {route:"beruehmte-craig-foster", label:"Portrait: Craig Foster (SX9w1)"},
         {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
