@@ -50972,7 +50972,7 @@ function klassischeVsEnneagrammHomoeopathiePage() {
 
         <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
           <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">Die Enneagramm-Hom\xf6opathie: der Weg \xfcber den Pers\xf6nlichkeitstyp als Ausgangshypothese</h2>
-          <p class="vb-intro">Die Enneagramm-Hom\xf6opathie setzt vor der vollst\xe4ndigen Anamnese an: Der Enneagrammtyp liefert eine begr\xfcndete erste Arbeitshypothese \xfcber die wahrscheinliche Mittelfamilie – weil Typ und Subtyp bereits ein empirisch beschriebenes Muster aus Grundmotivation, Kernwunde und typischem Verhalten mitbringen. Dieses Muster l\xe4sst sich anschlie\xdfend mit der klassischen Fallaufnahme kreuzvalidieren, statt die Mittelsuche bei null zu beginnen.</p>
+          <p class="vb-intro">Die Enneagramm-Hom\xf6opathie setzt vor der vollst\xe4ndigen Anamnese an: Der Enneagrammtyp liefert eine begr\xfcndete erste Arbeitshypothese \xfcber die wahrscheinliche Mittelfamilie – weil Typ und Subtyp bereits ein empirisch beschriebenes Muster aus Grundmotivation, Grundleidenschaft, Kernwunde und typischem Verhalten mitbringen. Dieses Muster l\xe4sst sich anschlie\xdfend mit der klassischen Fallaufnahme kreuzvalidieren, statt die Mittelsuche bei null zu beginnen.</p>
         </div>
 
         <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
