@@ -4505,6 +4505,8 @@ button.primary:hover::after {
 }
 .related-link-btn {
   transition: background 0.18s, transform 0.15s;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 .related-link-btn:hover {
   background: var(--gold) !important;
