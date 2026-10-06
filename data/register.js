@@ -1241,6 +1241,7 @@ export const registerEntries = [
   { term: "Caren Miosga",                  route: "beruehmte-caren-miosga",                description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Journalistin, Moderatorin, »Tagesthemen«" },
   { term: "Kathrin Bauerfeind",            route: "beruehmte-kathrin-bauerfeind",          description: "Portrait: SE3w4 · Selbsterhaltender Typ 3 · Journalistin, Moderatorin, Essayistin" },
   { term: "Jane Goodall", route: "beruehmte-jane-goodall", description: "Portrait: SX9w1 · Sexuelle Typ 9 · Primatologin, Begründerin der modernen Schimpansenforschung" },
+  { term: "Bruce Springsteen", route: "beruehmte-bruce-springsteen", description: "Portrait: SX9w1 · Sexueller Typ 9 · Musiker, „The Boss“, E Street Band" },
   { term: "Peter Maffay", route: "beruehmte-peter-maffay", description: "Portrait: SX9w1 · Sexuelle Typ 9 · Musiker, Schöpfer von Tabaluga" },
   { term: "Heinz Rühmann", route: "beruehmte-heinz-ruehmann", description: "Portrait: SE1w9 · Selbsterhaltender Typ 1 · Schauspieler" },
   { term: "Craig Foster", route: "beruehmte-craig-foster", description: "Portrait: SX9w1 · Sexuelle Typ 9 · Naturfilmer, Regisseur von „My Octopus Teacher“" },
