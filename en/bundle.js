@@ -3025,7 +3025,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"François Damiens – Sexual Type 9",
     teaser:"SX9w8 · born 1973. Actor and comedian. Over 400 hidden-camera pranks with a deliberately vulgar, provocative alter ego, later an acclaimed character actor ('La Famille Bélier') – with an extremely shielded private life. Animal correspondence: Sloth.",
     land:"Belgium", tags:["Film"], gender:"m" },
-{ route:"beruehmte-stefan-homburg", name:"Stefan Homburg", added:"2026-10-06", subtyp:"SX9w1",
+{ route:"beruehmte-stefan-homburg", name:"Stefan Homburg", added:"2026-09-14", subtyp:"SX9w1",
     heading:"Stefan Homburg – Sexual Type 9",
     teaser:"SX9w1 · born 1961. Economist, professor in Hanover for over two decades, since 2020 one of Germany's best-known COVID critics with over 140,000 X followers. Decades-long, complete merging with a single professional conviction, calm and matter-of-fact in tone, uncompromising on substance. Animal correspondence: Sloth.",
     land:"Germany", tags:["Wissenschaft"], gender:"m" },
