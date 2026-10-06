@@ -50957,6 +50957,10 @@ function klassischeVsEnneagrammHomoeopathiePage() {
         <p class="eyebrow">Wissen &middot; Theorie und Dynamik</p>
         <h1 class="section-title">Klassische Hom\xf6opathie und Enneagramm-Hom\xf6opathie im Vergleich</h1>
 
+        <div style="margin:1.2rem 0 1.8rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/schaubilder/klassische-vs-enneagramm-homoeopathie/klassische-vs-enneagramm-homoeopathie.jpg" alt="Heilpraktiker und Patientin im Gespr\xe4ch, \xfcber ihr leuchtet das Enneagramm-Symbol als Sinnbild f\xfcr den tieferen Zugang zur Mittelwahl" style="width:100%;display:block;" loading="lazy" />
+        </div>
+
         <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
           <p class="vb-intro">Beide Methoden stehen auf derselben Grundlage: dem \xc4hnlichkeitsprinzip nach Dr. Samuel Hahnemann (<em>&bdquo;Similia similibus curentur&ldquo;</em>) und derselben Materia Medica. Der Unterschied liegt nicht im Mittel selbst, sondern im Weg, auf dem die Praxis zu ihm findet.</p>
         </blockquote>
