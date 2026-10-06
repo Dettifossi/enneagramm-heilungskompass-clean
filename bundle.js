@@ -15916,6 +15916,7 @@ const uiText = {
       { route: "enneagramm-rad", label: "Enneagramm-Rad (interaktives Symbol)" },
       { route: "bewusstseinsgrad-normalverteilung", label: "Bewusstseinsgrad & Gaußsche Normalverteilungskurve" },
       { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagramm vs. andere Persönlichkeitsmodelle" },
+      { route: "klassische-vs-enneagramm-homoeopathie", label: "Klassische Homöopathie und Enneagramm-Homöopathie im Vergleich" },
       { route: "tritypen", label: "Die 27 Tritypen des Enneagramms (für Fortgeschrittene)" },
       { heading: "Blicke und Tiere" },
       { route: "blickqualitaeten-atlas", label: "Blickqualitäten-Atlas (27 Subtypen)" },
@@ -50937,9 +50938,77 @@ function enneagrammHomoeopathiePage() {
           {route:"heilungsweg", label:"Schaubild: Heilungsweg des Menschen"},
           {route:"homoeopathie", label:"Hom\xf6opathie \u2013 Heilmittel\xfcbersicht"},
           {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
+          {route:"klassische-vs-enneagramm-homoeopathie", label:"Klassische Hom\xf6opathie und Enneagramm-Hom\xf6opathie im Vergleich"},
           {route:"beruehmte-samuel-hahnemann", label:"Portr\xe4t: Dr. Samuel Hahnemann (SO1w9)"},
           {route:"enneagramm-reflexzonentherapie", label:"Enneagramm meets Reflexzonentherapie"},
           {route:"enneagramm-zahnpsychosomatik", label:"Enneagramm meets Zahn-Psychosomatik"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function klassischeVsEnneagrammHomoeopathiePage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('klassische-vs-enneagramm-homoeopathie')}
+      <div class="page-content">
+        <button class="ghost-link" data-route="enneagramm-homoeopathie" style="margin-bottom:1.2rem;">← Zur\xfcck zu Enneagramm meets Hom\xf6opathie</button>
+        <p class="eyebrow">Wissen &middot; Theorie und Dynamik</p>
+        <h1 class="section-title">Klassische Hom\xf6opathie und Enneagramm-Hom\xf6opathie im Vergleich</h1>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Beide Methoden stehen auf derselben Grundlage: dem \xc4hnlichkeitsprinzip nach Dr. Samuel Hahnemann (<em>&bdquo;Similia similibus curentur&ldquo;</em>) und derselben Materia Medica. Der Unterschied liegt nicht im Mittel selbst, sondern im Weg, auf dem die Praxis zu ihm findet.</p>
+        </blockquote>
+
+        <div class="vb-section" style="max-width:100%;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">Die klassische Hom\xf6opathie: der Weg \xfcber die vollst\xe4ndige Symptomentotalit\xe4t</h2>
+          <p class="vb-intro">Schon im Organon verlangt Hahnemann die Erfassung der gesamten &bdquo;Symptomentotalit\xe4t&ldquo; eines Patienten – also nicht nur das k\xf6rperliche Beschwerdebild, sondern ausdr\xfccklich auch Gem\xfctszustand, Lebensumst\xe4nde und individuelle Modalit\xe4ten. Sein eigener Satz dazu lautet: <em>&bdquo;Das Gem\xfct ist der Schl\xfcssel zur Heilung des Patienten.&ldquo;</em> Der Weg zum passenden Mittel f\xfchrt hier \xfcber die vollst\xe4ndige Fallaufnahme: Befragung, Repertorisation und Materia-Medica-Abgleich. Ein Pers\xf6nlichkeitsbild des Patienten ergibt sich dabei erst im Verlauf der Anamnese, als eines von vielen Symptomfeldern unter vielen.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">Die Enneagramm-Hom\xf6opathie: der Weg \xfcber den Pers\xf6nlichkeitstyp als Ausgangshypothese</h2>
+          <p class="vb-intro">Die Enneagramm-Hom\xf6opathie setzt vor der vollst\xe4ndigen Anamnese an: Der Enneagrammtyp liefert eine begr\xfcndete erste Arbeitshypothese \xfcber die wahrscheinliche Mittelfamilie – weil Typ und Subtyp bereits ein empirisch beschriebenes Muster aus Grundmotivation, Kernwunde und typischem Verhalten mitbringen. Dieses Muster l\xe4sst sich anschlie\xdfend mit der klassischen Fallaufnahme kreuzvalidieren, statt die Mittelsuche bei null zu beginnen.</p>
+        </div>
+
+        <h2 class="section-title" style="font-size:1.2rem;margin:2.2rem 0 1rem;">Die Unterschiede im \xdcberblick</h2>
+        <div style="overflow-x:auto;">
+          <table style="width:100%;border-collapse:collapse;font-size:.88rem;margin:0 0 1.6rem;">
+            <thead>
+              <tr>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Dimension</th>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Klassische Hom\xf6opathie</th>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Enneagramm-Hom\xf6opathie</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">Ausgangspunkt</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Vollst\xe4ndige Anamnese inklusive Gem\xfct, ohne Vorannahme zur Mittelrichtung</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Enneagrammtyp und -subtyp als erste, begr\xfcndete Arbeitshypothese vor der vollst\xe4ndigen Anamnese</td></tr>
+              <tr><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">St\xe4rke</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Deckt auch seltene, untypische Mittelbilder auf, die kein Typmuster vorhersagen w\xfcrde</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Schnellere Orientierung bei \xe4hnlichen Differenzialmitteln, besonders wenn das Symptombild noch uneindeutig ist</td></tr>
+              <tr><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">Blick auf den Verlauf</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Momentaufnahme des aktuellen Beschwerdebilds</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Zus\xe4tzlich: Stress- und Sicherheitslinie des Typs erkl\xe4ren, wohin sich das Bild bei Belastung wahrscheinlich verschiebt</td></tr>
+              <tr><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">Verh\xe4ltnis zueinander</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Bleibt die methodische Grundlage und letzte Pr\xfcfinstanz</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Erg\xe4nzender Zugangsweg, der die klassische Fallaufnahme nicht ersetzt, sondern schneller auf die richtige Spur bringt</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 class="section-title" style="font-size:1.2rem;margin:0 0 1rem;">Was die Enneagramm-Hom\xf6opathie zus\xe4tzlich bietet</h2>
+        <div class="vb-section" style="max-width:100%;">
+          <p class="vb-intro"><strong>Eine begr\xfcndete Vorauswahl statt eines Blindflugs.</strong> Bei \xe4hnlich klingenden Mittelbildern – etwa zwischen mehreren Mitteln, die alle &bdquo;\xc4ngstlichkeit&ldquo; oder &bdquo;Perfektionismus&ldquo; zeigen – hilft das Wissen um Typ und Subtyp, die Differenzialdiagnose gezielter einzugrenzen, weil die charakterliche Grundmotivation hinter dem Symptom bereits bekannt ist.</p>
+          <p class="vb-intro" style="margin-top:1rem;"><strong>Ein Verlaufsmodell statt einer Momentaufnahme.</strong> Die Stress- und Sicherheitslinien des Enneagramms beschreiben, wie sich das Erscheinungsbild eines Menschen unter Druck typischerweise verschiebt. Das liefert eine zus\xe4tzliche Erkl\xe4rungsebene daf\xfcr, warum sich ein Beschwerdebild \xfcber die Zeit ver\xe4ndert – eine Perspektive, die \xfcber die reine Momentaufnahme der klassischen Erstanamnese hinausgeht.</p>
+          <p class="vb-intro" style="margin-top:1rem;"><strong>Ein gemeinsames Vokabular f\xfcr Patient und Behandler.</strong> Viele Patienten kennen ihr eigenes Enneagramm-Profil bereits aus der Selbstreflexion. Das erleichtert das Gespr\xe4ch \xfcber innere Muster erheblich – ein praktischer, kommunikativer Vorteil, der mit der eigentlichen Wirksamkeit der Mittel nichts zu tun hat, aber den Zugang zur Behandlung sp\xfcrbar erleichtert.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+          <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Fazit aus der Praxis:</strong> Die Enneagramm-Hom\xf6opathie ist kein Ersatz f\xfcr die klassische Methode – sie ist ein zus\xe4tzlicher, strukturierter Zugangsweg zur selben klassischen Mittelwahl. Am Ende steht immer dasselbe Mittel aus derselben Materia Medica; der Unterschied liegt allein darin, wie zielgerichtet und wie schnell der Weg dorthin gefunden wird.</p>
+        </div>
+
+        ${bookTip("enneagramm-homoeopathie-band-1", "Das Grundlagenwerk der Enneagramm-Homöopathie – wie Persönlichkeitstyp und Heilmittelwahl auf der tiefsten Ebene zusammenhängen.", "Enneagramm-Homöopathie – Band 1")}
+        ${bookTip("enneagramm-homoeopathie-band-2", "Weitere Fallberichte und Vertiefung der Enneagramm-Homöopathie in Band 2.", "Enneagramm-Homöopathie – Band 2")}
+        ${relatedLinks([
+          {route:"enneagramm-homoeopathie", label:"Enneagramm meets Hom\xf6opathie – 9 Patientenf\xe4lle"},
+          {route:"heilungsweg", label:"Schaubild: Heilungsweg des Menschen"},
+          {route:"homoeopathie", label:"Hom\xf6opathie – Heilmittel\xfcbersicht"},
+          {route:"persoenlichkeitsmodelle-vergleich", label:"Enneagramm vs. andere Pers\xf6nlichkeitsmodelle"},
+          {route:"beruehmte-samuel-hahnemann", label:"Portr\xe4t: Dr. Samuel Hahnemann (SO1w9)"},
         ])}
       </div>
     </div>
@@ -78872,6 +78941,7 @@ const ROUTES = {
       "linien-dynamik-beziehungen": linienDynamikBeziehungenPage,
       "enneagramm-autopoese": enneagrammAutopoesePage,
       "enneagramm-homoeopathie": enneagrammHomoeopathiePage,
+      "klassische-vs-enneagramm-homoeopathie": klassischeVsEnneagrammHomoeopathiePage,
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,
       "enneagramm-odyssee": enneagrammOdysseePage,
