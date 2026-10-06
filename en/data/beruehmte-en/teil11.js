@@ -2136,7 +2136,7 @@ export function dustinHoffmanPortraitPage() {
           <p class="vb-intro">The shadow lies in the flip side of that same capacity for merging: in 2017, several women raised allegations of inappropriate behavior against Hoffman, some dating back decades. Hoffman's public responses remained noticeably terse and evasive – as if the identity that had disappeared behind so many roles could not be made directly graspable here either.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Legacy: A Sloth That Never Merged With the Same Role Twice</h2>
+        <h2 class="vb-section">6. The Legacy: A Sloth That Merged Anew With Every Role</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Dustin Hoffman remains one of the most versatile actors of his generation – not despite, but because of his ability to dissolve completely into a new character each time, instead of settling for a merely plausible approximation. From Ratso Rizzo to Rain Man, the same pattern recurs: complete merging, defended with a toughness one would hardly expect from the calm, humorous surface of the Nine.</p>
           <p class="vb-intro">This is the sexual Nine with a One-wing at its most consistent: a sloth that doesn't yield when the completeness of its merging with the role is threatened, but holds its ground – for the one demand of owing nothing less than everything to its own transformation.</p>

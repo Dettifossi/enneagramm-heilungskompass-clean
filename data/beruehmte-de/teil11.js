@@ -2135,7 +2135,7 @@ export function dustinHoffmanPortraitPage() {
           <p class="vb-intro">Der Schatten liegt in der Kehrseite derselben Verschmelzungsfähigkeit: 2017 erhoben mehrere Frauen Vorwürfe unangemessenen Verhaltens gegen Hoffman, die teils Jahrzehnte zurücklagen. Hoffmans öffentliche Reaktionen blieben auffällig knapp und ausweichend – als könnte die eigene, hinter so vielen Rollen verschwundene Identität auch hier nicht direkt greifbar gemacht werden.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Das Vermächtnis: Ein Faultier, das nie zweimal dieselbe Rolle verschmolz</h2>
+        <h2 class="vb-section">6. Das Vermächtnis: Ein Faultier, das mit jeder Rolle neu verschmolz</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Dustin Hoffman bleibt einer der wandlungsfähigsten Schauspieler seiner Generation – nicht trotz, sondern wegen seiner Fähigkeit, sich jedes Mal vollständig in eine neue Figur aufzulösen, statt sich mit einer bloß plausiblen Annäherung zufriedenzugeben. Von Ratso Rizzo bis Rain Man zieht sich dasselbe Muster: vollständige Verschmelzung, verteidigt mit einer Härte, die die ruhige, humorvolle Oberfläche der Neun kaum vermuten lässt.</p>
           <p class="vb-intro">Das ist die sexuelle Neun mit Einserflügel in ihrer konsequentesten Form: ein Faultier, das nicht nachgibt, wenn die Vollständigkeit seiner Verschmelzung mit der Rolle bedroht wird, sondern beharrt – für den einen Anspruch, der eigenen Verwandlung nichts schuldig zu bleiben.</p>
