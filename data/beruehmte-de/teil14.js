@@ -2174,7 +2174,7 @@ export function bruceSpringsteenPortraitPage() {
         <h2 class="vb-section">3. Der Einserflügel: Disziplin hinter der scheinbaren Mühelosigkeit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Eine SX9 mit schwächer ausgeprägtem Einserflügel würde sich vermutlich treiben lassen. Bei Springsteen zeigt sich stattdessen eine fast asketische Arbeitsdisziplin: Bandmitglieder berichteten wiederholt von Probenmarathons, bei denen einzelne Songs über Stunden hinweg bis zur Perfektion durchgearbeitet wurden, und von einer körperlichen Fitness-Routine, mit der er auch im achten Lebensjahrzehnt noch dreistündige Konzerte durchhält.</p>
-          <p class="vb-intro">Auch sein gesellschaftliches Engagement folgt dieser Eins-Note: konsequente Benefizkonzerte für Kriegsveteranen, die ›Vote for Change‹-Tournee 2004 und eine klar prinzipiengeleitete politische Haltung, die er über Jahrzehnte beibehielt, statt sie der jeweiligen Stimmung anzupassen. Der Einserflügel bringt Ordnung und Prinzipientreue in die sonst grenzenlose Hingabe der Neun.</p>
+          <p class="vb-intro">Auch sein gesellschaftliches Engagement folgt dieser 1er-Note: konsequente Benefizkonzerte für Kriegsveteranen, die ›Vote for Change‹-Tournee 2004 und eine klar prinzipiengeleitete politische Haltung, die er über Jahrzehnte beibehielt, statt sie der jeweiligen Stimmung anzupassen. Der Einserflügel bringt Ordnung und Prinzipientreue in die sonst grenzenlose Hingabe der Neun.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Leidenschaft: Trägheit als jahrzehntelang verborgene Tiefe</h2>
