@@ -66,6 +66,7 @@ export const registerEntries = [
   { term: "Der Kompass in Zahlen", route: "zahlen-fakten", description: "Live gezählte Statistik: Porträts, Subtypen, Textumfang und Struktur des Kompasses" },
   { term: "Wer lenkt hier eigentlich wen?", route: "praxistipps-heilpraktiker/ich-illusion", description: "Der sanfte Ausweg aus der Ich-Illusion: Konditionierung, Enneagramm-Fixierung und innerer Frieden" },
   { term: "Der Beobachter hinter dem Muster", route: "praxistipps-heilpraktiker/turiya-enneagramm", description: "Enneagramm und der Turiya-Zustand nach Ramana Maharshi: die neun Typen als neun Wege aus der Stille" },
+  { term: "Der Chakra-Kern Ihres Enneagrammtyps", route: "praxistipps-heilpraktiker/chakra-kern-uebung", description: "Neun Enneagrammtypen, neun Körperzentren und die passenden homöopathischen Konstitutionsmittel" },
   { term: "Stille",                          route: "stille",                        description: "Meditation & Stille: eine Übung für jeden Enneagrammtyp" },
   { term: "Tritypen",                        route: "tritypen",                      description: "Schaubild: Die 27 Tritypen – Kombination aus einem Typ pro Triade" },
 

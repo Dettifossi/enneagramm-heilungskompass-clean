@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage, gescheGottfriedPortraitPage, juanaBarrazaPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage, arwedImielaPortraitPage, bernardEugeneGilesPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, ameliaDyerPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage, charlesStarkweatherPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=199";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=200";
 
 import { adeleKrankheitsportraetPage, arnoldSchwarzeneggerKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, knutHamsunKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage, davidHockneyKrankheitsportraetPage, guntherVonHagensKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -36517,6 +36517,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"metaintelligenz-achtsamkeit-im-moment", titel:"Meta-Intelligenz: Achtsamkeit im Moment", teaser:"Die wichtigste F\u00e4higkeit des menschlichen Geistes in vier einfachen Schritten \u2013 den gerade auftauchenden Gedanken beobachten, statt mit ihm zu verschmelzen.", img:"./assets/schaubilder/metaintelligenz-achtsamkeit-im-moment/metaintelligenz-achtsamkeit-im-moment.jpg", kategorie:"geist" },
     { slug:"vierter-weg-selbsterinnerung", titel:"Der Vierte Weg nach Gurdjieff: Selbsterinnerung mitten im Alltag", teaser:"Vier praktische \u00dcbungswege von G. I. Gurdjieff, um den mechanisierten Alltagsschlaf zu unterbrechen \u2013 ge\u00fcbt mitten im Trubel, nicht im stillen K\u00e4mmerlein.", img:"./assets/schaubilder/vierter-weg-selbsterinnerung/vierter-weg-selbsterinnerung.jpg", kategorie:"geist" },
     { slug:"das-ewige-ich-bin", titel:"Das ewige \u201eIch bin\u201c: Der Enneagramm-Heilungskompass jenseits der Fixierung", teaser:"Wie Judentum, Christentum, Hinduismus, Buddhismus, Islam und Taoismus denselben stillen Seinsgrund beschreiben \u2013 und was das f\u00fcr die Enneagramm-Arbeit bedeutet.", img:"./assets/schaubilder/das-ewige-ich-bin/das-ewige-ich-bin.jpg", kategorie:"geist" },
+    { slug:"chakra-kern-uebung", titel:"Der Chakra-Kern Ihres Enneagrammtyps", teaser:"Die neun Enneagrammtypen, neun K\u00f6rperzentren und die passenden hom\u00f6opathischen Konstitutionsmittel \u2013 und eine kurze \u00dcbung, um die eigene Zone bewusst zu sp\u00fcren.", img:"./assets/schaubilder/chakra-kern-uebung/chakra-kern-uebung.jpg", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"K\u00f6rper & Bewegung", icon:"\ud83e\udded" },
@@ -36575,6 +36576,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "das-ewige-ich-bin") {
     return dasEwigeIchBinPage();
+  }
+  if (param === "chakra-kern-uebung") {
+    return chakraKernUebungPage();
   }
 
   return shell(`
@@ -36772,6 +36776,117 @@ function fussreflexzonenAktivierungPage() {
         {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
         {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Faszienübungen für die Rumpfgesundheit"},
         {route:"enneagramm-reflexzonentherapie", label:"Enneagramm meets Reflexzonentherapie"},
+        {route:"situationskompass", label:"Situationskompass"},
+        {route:"practice", label:"Werkzeuge"},
+      ])}
+    </section>
+  `);
+}
+
+function chakraKernUebungPage() {
+  const ZONEN = [
+    { typ:"1", name:"Krone", ort:"knapp oberhalb des Scheitels (nicht die Kopfhaut selbst)", farbe:"#b5542f" },
+    { typ:"2", name:"Hand", ort:"Innenflächen beider Hände", farbe:"#c0862e" },
+    { typ:"3", name:"Solarplexus", ort:"Oberbauch", farbe:"#8a9a3a" },
+    { typ:"4", name:"Herz", ort:"Brustmitte", farbe:"#4f8a6e" },
+    { typ:"5", name:"Hals", ort:"Kehlkopfbereich", farbe:"#3d7a92" },
+    { typ:"6", name:"Wurzel", ort:"Beckenboden, unterer Rücken", farbe:"#5a5fa8" },
+    { typ:"7", name:"Stirn", ort:"zwischen den Augenbrauen", farbe:"#9a4f9e" },
+    { typ:"8", name:"Fuß ⚠︎ im Bild nicht sichtbar", ort:"wenige Zentimeter unterhalb der Fußsohlen, knapp außerhalb des Körpers – wie ein Spiegelbild der Krone am anderen Ende", farbe:"#a8304a" },
+    { typ:"9", name:"Sakral", ort:"Unterbauch, unterhalb des Nabels", farbe:"#c06a3d" },
+  ];
+  const TABELLE = [
+    { typ:"1", chakra:"Kronenchakra – Verbindung &amp; Erkenntnis", lage:"knapp oberhalb des Scheitels, nicht direkt auf der Kopfhaut", mittel:"Platinum metallicum" },
+    { typ:"2", chakra:"Handchakra – Austausch &amp; Heilung", lage:"Innenflächen der Hände", mittel:"Hyoscyamus niger" },
+    { typ:"3", chakra:"Solarplexuschakra – Selbstbewusstsein &amp; Durchsetzungsvermögen", lage:"Oberbauch, Bereich des Solarplexus", mittel:"Tarentula hispanica" },
+    { typ:"4", chakra:"Herzchakra – Liebe &amp; Mitgefühl", lage:"Brustbereich, Herzregion", mittel:"Ignatia" },
+    { typ:"5", chakra:"Halschakra – Ausdruck &amp; Kommunikation", lage:"Kehle, Halsbereich", mittel:"Stramonium" },
+    { typ:"6", chakra:"Wurzelchakra – Stabilität &amp; Erdung", lage:"Beckenboden, unterer Rücken", mittel:"Opium" },
+    { typ:"7", chakra:"Stirnchakra (Drittes Auge) – Intuition &amp; Einsicht", lage:"zwischen den Augenbrauen", mittel:"Belladonna" },
+    { typ:"8", chakra:"Fußchakra – Erdung &amp; Stabilität, körperliche Präsenz", lage:"wenige Zentimeter unterhalb der Fußsohlen, nicht direkt auf der Haut", mittel:"Veratrum album" },
+    { typ:"9", chakra:"Sakralchakra – Kreativität &amp; Lebensfreude, Fluss", lage:"Unterbauch, unterhalb des Nabels", mittel:"Cannabis indica" },
+  ];
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1 class="h1--tip">Der Chakra-Kern Ihres Enneagrammtyps</h1>
+      <p class="lead-small">Ein eigenständiger Praxiszugang: die eigene Chakra-Zone über den Enneagrammtyp finden und gezielt wahrnehmen.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="./assets/schaubilder/chakra-kern-uebung/chakra-kern-uebung.jpg"
+             alt="Meditierende Frau mit den sieben Hauptchakren entlang der Wirbelsäule und beiden leuchtenden Handchakren"
+             class="psycho-img" />
+      </div>
+      <p style="font-size:.82rem;color:var(--muted);margin:.6rem 0 0;font-style:italic;">Die sieben Hauptchakren und das Handchakra (links und rechts, an den geöffneten Handflächen) sind im Bild sichtbar. Das <strong style="color:var(--copper);font-style:normal;">Fußchakra</strong> – zuständig für Typ 8 – ist im Sitzen naturgemäß nicht zu sehen: Es liegt energetisch wenige Zentimeter unterhalb der Fußsohlen, so wie das Kronenchakra oberhalb des Scheitels gedacht wird – nicht direkt auf der Haut, sondern knapp außerhalb des Körpers.</p>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <p class="vb-intro">Neben den klassischen sieben Hauptchakren wird in der energetischen Körperarbeit um zwei weitere Zentren ergänzt: das <strong>Handchakra</strong> (Innenflächen der Hände, Austausch &amp; Heilung) und das <strong>Fußchakra</strong> (Erdung &amp; Stabilität) – zusammen neun Zentren.</p>
+        <p class="vb-intro">Auf dieser Grundlage lässt sich jeder der neun Enneagrammtypen einem dieser neun Zentren als gesunder Grundqualität zuordnen – eine Zuordnung, die sich aus jahrzehntelanger Praxiserfahrung mit beiden Systemen ergeben hat und sich in der klinischen Beobachtung immer wieder bestätigt. Das in der Praxis bewährte homöopathische Konstitutionsmittel zeigt dann, wohin diese Qualität kippt, wenn sie aus dem Gleichgewicht gerät – Chakra und Mittel als zwei Seiten derselben Medaille.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.2rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Zur Einordnung:</strong> Diese Dreifach-Verknüpfung aus Enneagrammtyp, Chakra und Konstitutionsmittel ist in dieser ausgearbeiteten Form neu – ein eigenständiger Praxisbeitrag, kein jahrhundertealter Kanon. Das gilt für jede lebendige therapeutische Methode: Sie entsteht aus der Beobachtung wiederkehrender Muster in der eigenen Arbeit. Genau darin liegt ihr Wert für die Praxis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Die neun Zuordnungen im Überblick</h2>
+        <div style="overflow-x:auto;">
+          <table style="width:100%;border-collapse:collapse;font-size:.85rem;">
+            <thead>
+              <tr>
+                <th style="text-align:left;padding:.6rem .65rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;">Typ</th>
+                <th style="text-align:left;padding:.6rem .65rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;">Chakra (gesunde Essenz)</th>
+                <th style="text-align:left;padding:.6rem .65rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;">Körperliche Lage</th>
+                <th style="text-align:left;padding:.6rem .65rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;">Mittel (Verzerrung)</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${TABELLE.map(r => `
+              <tr>
+                <td style="padding:.6rem .65rem;border-bottom:1px solid var(--line);font-weight:700;white-space:nowrap;">${r.typ}</td>
+                <td style="padding:.6rem .65rem;border-bottom:1px solid var(--line);">${r.chakra}</td>
+                <td style="padding:.6rem .65rem;border-bottom:1px solid var(--line);">${r.lage}</td>
+                <td style="padding:.6rem .65rem;border-bottom:1px solid var(--line);">${r.mittel}</td>
+              </tr>`).join("")}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .9rem;color:var(--ink);">Übung: Den eigenen Chakra-Kern spüren</h2>
+        <div style="background:var(--paper-raised, var(--paper));border:1px solid var(--line);border-radius:14px;padding:1.4rem 1.5rem;">
+          <ol style="margin:0;padding-left:1.3rem;font-size:.9rem;line-height:1.7;color:var(--ink);">
+            <li style="margin-bottom:.9rem;">Ruhig sitzen, beide Fußsohlen auf dem Boden, Augen schließen oder den Blick senken.</li>
+            <li style="margin-bottom:.9rem;">
+              Die dem eigenen Typ zugeordnete Körperregion aufsuchen:
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.7rem;margin:.9rem 0 .2rem;">
+                ${ZONEN.map(z => `
+                <div style="border-radius:12px;padding:.8rem .9rem;border:1px solid var(--line);border-left-width:5px;border-left-style:solid;border-left-color:${z.farbe};background:var(--paper);">
+                  <div style="font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:${z.farbe};">Typ ${z.typ}</div>
+                  <div style="font-weight:700;font-size:.92rem;margin:.15rem 0 .25rem;color:var(--ink);">${z.name}</div>
+                  <div style="font-size:.82rem;color:var(--muted);">${z.ort}</div>
+                </div>`).join("")}
+              </div>
+            </li>
+            <li style="margin-bottom:.9rem;">Mit einer Hand sanft dorthin greifen oder, wo das anatomisch nicht möglich ist (Krone, Fußsohlen bei sitzender Haltung), die Aufmerksamkeit bewusst dorthin lenken.</li>
+            <li style="margin-bottom:.9rem;">Drei bis fünf Atemzüge lang bewusst in genau diese Zone hineinatmen, ohne etwas verändern zu wollen.</li>
+            <li style="margin-bottom:.9rem;">Wahrnehmen, ob sich dort Weite, Enge, Wärme oder Taubheit zeigt – ohne Bewertung, nur als Beobachtung.</li>
+            <li style="margin-bottom:.9rem;">Abschließend einen Moment lang der Frage nachspüren: Zeigt sich hier gerade eher die gesunde Qualität dieser Zone oder eher ihre typische Verzerrung?</li>
+            <li style="margin-bottom:0;">Langsam die Augen wieder öffnen und kurz nachspüren, bevor der Alltag weitergeht.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Hinweis:</strong> Diese Übung ersetzt keine ärztliche oder heilpraktische Behandlung und stellt keine Diagnose. Sie dient der eigenen Wahrnehmung und Reflexion im Rahmen einer begleiteten Enneagramm-Arbeit.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"Das Energiefeld zwischen den Händen"},
         {route:"situationskompass", label:"Situationskompass"},
         {route:"practice", label:"Werkzeuge"},
       ])}
