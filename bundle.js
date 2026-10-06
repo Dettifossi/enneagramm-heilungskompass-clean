@@ -15938,6 +15938,7 @@ const uiText = {
       { route: "enneagramm-zahnpsychosomatik", label: "Enneagramm meets Zahnpsychosomatik" },
       { route: "enneagramm-astrologie", label: "Enneagramm meets Astrologie" },
       { heading: "Enneagramm in Kultur & Welt" },
+      { route: "ennead-enneagramm", label: "Die Ennead von Heliopolis und das Enneagramm" },
       { route: "enneagramm-odyssee", label: "Enneagramm meets Odyssee" },
       { route: "enneagramm-wohnraumarchitektur", label: "Enneagramm meets Wohnraumarchitektur" },
       { route: "enneagramm-zimmerpflanzen", label: "Enneagramm meets Zimmerpflanzen" },
@@ -51625,6 +51626,7 @@ function enneagrammOdysseePage() {
         </a>
         ${relatedLinks([
           {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
+          {route:"ennead-enneagramm", label:"Die Ennead von Heliopolis und das Enneagramm"},
           {route:"enneagramm-wohnraumarchitektur", label:"Enneagramm meets Wohnraumarchitektur"},
           {route:"beruehmte-persoenlichkeiten", label:"Ber\u00fchmte Pers\u00f6nlichkeiten \u2013 Portr\u00e4ts"},
           {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
@@ -51635,7 +51637,99 @@ function enneagrammOdysseePage() {
   `);
 }
 
-// \u2500\u2500\u2500 Enneagramm meets Wohnraumarchitektur \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+// \u2500\u2500\u2500 Die Ennead von Heliopolis und das Enneagramm \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+
+function enneagrammEnneadPage() {
+  const GOETTER = [
+    { name: "Atum", domain: "Sch\xf6pfung", text: "Der sich selbst erschaffende Ursprungsgott, aus dessen Einsamkeit alle acht \xfcbrigen G\xf6tter hervorgehen. Als Re-Atum zugleich Sonnengott des Mittags." },
+    { name: "Schu", domain: "Luft &amp; Raum", text: "Trennt Himmel und Erde voneinander und schafft so erst den Raum, in dem sich alles Weitere entfalten kann." },
+    { name: "Tefnut", domain: "Feuchtigkeit", text: "Schus Zwillingsschwester, Prinzip von Tau, Regen und Milde \u2013 das sanfte Gegenst\xfcck zur trockenen Luft." },
+    { name: "Geb", domain: "Erde", text: "Der Erdgott, in der \xe4gyptischen Mythologie ungew\xf6hnlicherweise m\xe4nnlich \u2013 das feste, tragende Fundament, auf dem alles Leben ruht." },
+    { name: "Nut", domain: "Himmel", text: "Die Himmelsg\xf6ttin, die sich nachts \xfcber Geb w\xf6lbt, jeden Abend die Sonne verschlingt und jeden Morgen neu gebiert \u2013 Sinnbild endloser Weite und Erneuerung." },
+    { name: "Osiris", domain: "Ordnung &amp; K\xf6nigtum", text: "Gott der kosmischen Ordnung, des Ackerbaus und der Totenrichtschaft \u2013 von Seth get\xf6tet, von Isis wieder zusammengef\xfcgt, Sinnbild der Wiederherstellung des Rechten." },
+    { name: "Isis", domain: "Magie &amp; F\xfcrsorge", text: "Die hingebungsvolle Gattin, die Osiris' Leichnam zusammensetzt und ihn durch Magie wiederbelebt \u2013 Urbild m\xfctterlicher Heilkraft." },
+    { name: "Seth", domain: "Chaos &amp; Sturm", text: "Gott der W\xfcste, des Sturms und des offenen Konflikts \u2013 notwendige Gegenkraft zur Ordnung, nicht einfach \u201edas B\xf6se\u201c." },
+    { name: "Nephthys", domain: "Trauer &amp; Schwelle", text: "Die stille, oft \xfcbersehene Schwester der strahlenden Isis \u2013 H\xfcterin der \xdcberg\xe4nge zwischen Leben und Tod, des Verborgenen." },
+  ];
+  function godCard(g) {
+    return `<div class="vb-section" style="max-width:100%;border:1px solid var(--line);border-radius:12px;padding:.95rem 1.05rem;background:color-mix(in srgb, var(--copper) 4%, var(--paper));">
+      <div style="font-weight:700;font-size:1rem;color:var(--ink);margin:0 0 .15rem;">${g.name}</div>
+      <div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--copper);margin:0 0 .4rem;">${g.domain}</div>
+      <p style="font-size:.85rem;color:var(--muted);margin:0;">${g.text}</p>
+    </div>`;
+  }
+  const TABELLE = [
+    { typ: "1", gott: "Osiris", text: "Beide stehen f\xfcr das Streben nach kosmischer Ordnung und Rechtschaffenheit \u2013 Osiris als Totenrichter, der Eins als innerer Ma\xdfstab f\xfcr richtig und falsch." },
+    { typ: "2", gott: "Isis", text: "Die hingebungsvolle, heilende F\xfcrsorge, die sich \xfcber das Wohl eines anderen definiert, ist in beiden Figuren dieselbe Grundbewegung." },
+    { typ: "3", gott: "Atum", text: "Der sich selbst erschaffende, strahlende Ursprungsgott spiegelt das Selbstbild der Drei: aus eigener Kraft zum gl\xe4nzenden Zentrum werden." },
+    { typ: "4", gott: "Nephthys", text: "Die stille, im Schatten der strahlenden Schwester stehende G\xf6ttin der Trauer und des \xdcbergangs trifft die Sehnsucht der Vier nach dem Besonderen im Schmerz." },
+    { typ: "5", gott: "Schu", text: "Schu schafft Distanz zwischen Himmel und Erde \u2013 genau jenen Raum, den auch die F\xfcnf braucht, um die Welt aus sicherem Abstand zu begreifen." },
+    { typ: "6", gott: "Geb", text: "Der tragende, feste Erdboden als Sinnbild f\xfcr das, wonach die Sechs im Kern sucht: verl\xe4sslichen Grund unter den F\xfc\xdfen." },
+    { typ: "7", gott: "Nut", text: "Die endlose, stern\u00fcbers\xe4te Himmelsg\xf6ttin, die sich t\xe4glich erneuert, spiegelt die Weite und den M\xf6glichkeitsreichtum, den die Sieben sucht." },
+    { typ: "8", gott: "Seth", text: "Rohe Kraft, Konfrontation und die Weigerung, sich zu beugen \u2013 Seths Wesen und die Durchsetzungskraft der Acht liegen nah beieinander." },
+    { typ: "9", gott: "Tefnut", text: "Das milde, vers\xf6hnliche Gegenst\xfcck zu Schu, das sich m\xfchelos einf\xfcgt, ohne sich aufzul\xf6sen \u2013 ein Bild f\xfcr die verschmelzende, friedliche Art der Neun." },
+  ];
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('ennead-enneagramm')}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Enneagramm in Kultur &amp; Welt</p>
+        <h1 class="section-title">Die Ennead von Heliopolis und das Enneagramm</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Zwei Systeme der Neun, getrennt durch viertausend Jahre</h2>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/schaubilder/ennead-enneagramm/ennead-enneagramm.jpg" alt="Neun \xe4gyptische G\xf6tterstatuen im Kreis um ein leuchtendes Enneagramm-Symbol in einem Tempelhof bei Sonnenuntergang" style="width:100%;display:block;" loading="lazy" />
+        </div>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">\u201eEnnead\u201c ist die griechische Bezeichnung f\xfcr eine Neunergruppe (<em>enn\xe9as</em>, von <em>enn\xe9a</em> = neun) \u2013 derselbe Wortstamm, der auch im Begriff \u201eEnneagramm\u201c (<em>enn\xe9a</em> + <em>gr\xe1mma</em>, \u201eNeun-Zeichen\u201c) steckt. Die griechischen Gelehrten der Antike verwendeten \u201eEnnead\u201c als festen Fachbegriff, wann immer eine Religion oder Philosophie neun zusammengeh\xf6rige Prinzipien kannte \u2013 am bekanntesten f\xfcr die neun G\xf6tter von Heliopolis im alten \xc4gypten.</p>
+          <p class="vb-intro">Das Enneagramm beschreibt dabei weit mehr als nur die menschliche Psyche. Die neun Grundprinzipien, die es abbildet, gelten als universelle Ordnungszahl, der man auf allen Ebenen der Sch\xf6pfung begegnet \u2013 in der Pflanzen- und Tierwelt ebenso wie einst in der Zahl der klassischen Planeten unseres Sonnensystems, als auch Pluto noch dazugez\xe4hlt wurde. Die menschliche Pers\xf6nlichkeit mit ihren neun Typen ist damit nur eine, wenn auch die f\xfcr die Praxis dieser App wichtigste Anwendung eines viel umfassenderen kosmischen Musters.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.15rem;margin:0 0 1.2rem;">Die neun G\xf6tter von Heliopolis</h2>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0 0 1.4rem;">In der \xe4gyptischen Stadt Heliopolis (im Alten Reich, ca. 2600 v. Chr., erstmals schriftlich belegt in den Pyramidentexten) entwickelten die Priester eine Sch\xf6pfungslehre, die den gesamten Kosmos aus einer einzigen Ursubstanz in neun aufeinanderfolgenden Generationen entfaltet: Atum zeugt aus sich selbst Schu und Tefnut, diese zeugen Geb und Nut, und aus deren Verbindung gehen schlie\xdflich Osiris, Isis, Seth und Nephthys hervor. Jede Gottheit verk\xf6rpert ein eigenst\xe4ndiges kosmisches Prinzip \u2013 und doch bilden alle neun zusammen ein geschlossenes, genealogisch verbundenes Ganzes.</p>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.9rem;margin-bottom:2rem;">
+          ${GOETTER.map(godCard).join('')}
+        </div>
+
+        <h2 class="section-title" style="font-size:1.15rem;margin:0 0 1rem;">Eine spielerische Gegen\xfcberstellung</h2>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0 0 1.2rem;">Genau auf dieser Ebene \u2013 als zwei eigenst\xe4ndige Versuche, ein Ganzes in neun zusammengeh\xf6rige Grundkr\xe4fte zu gliedern \u2013 l\xe4sst sich die Ennead von Heliopolis dem Enneagramm gegen\xfcberstellen. Diese Tabelle ist ausdr\xfccklich eine moderne, interpretierende Analogie und keine historische Behauptung: Die Priester von Heliopolis kannten keine Charaktertypologie. Wohl aber l\xe4sst sich mit etwas Aufmerksamkeit erkennen, wie bestimmte Wesensz\xfcge der neun Gottheiten auf die neun Grundkr\xe4fte verweisen, die im Enneagramm auch als menschliche Typen in Erscheinung treten.</p>
+        <div style="overflow-x:auto;">
+          <table style="width:100%;border-collapse:collapse;font-size:.88rem;margin:0 0 1.6rem;">
+            <thead>
+              <tr>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Typ</th>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Gottheit</th>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Die Resonanz</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${TABELLE.map(r => `
+              <tr>
+                <td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">${r.typ}</td>
+                <td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">${r.gott}</td>
+                <td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">${r.text}</td>
+              </tr>`).join("")}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:.5rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+          <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Einordnung ohne Determinismus:</strong> Diese Gegen\xfcberstellung erhebt keinen Anspruch auf historische oder esoterische Wahrheit. Sie zeigt lediglich, wie zwei Kulturen, die nichts voneinander wussten, unabh\xe4ngig voneinander zur selben Zahl griffen, um ein komplexes Ganzes in neun unterscheidbare Kr\xe4fte zu gliedern \u2013 ein weiterer Beleg daf\xfcr, dass die Neun offenbar eine universelle, \xfcber die menschliche Psyche weit hinausreichende Ordnungszahl f\xfcr vielschichtige Systeme ist.</p>
+        </div>
+
+        ${relatedLinks([
+          {route:"planetenzuordnungen", label:"Planeten &amp; Trabanten des Sonnensystems"},
+          {route:"enneagramm-odyssee", label:"Enneagramm meets Odyssee"},
+          {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
+          {route:"enneagramm-bibel", label:"Enneagramm im Spiegel des Neuen Testaments"},
+          {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
 
 function enneagrammWohnraumarchitekturPage() {
   const ZENTREN_WOHNEN = [
@@ -78957,6 +79051,7 @@ const ROUTES = {
       "klassische-vs-enneagramm-homoeopathie": klassischeVsEnneagrammHomoeopathiePage,
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,
+      "ennead-enneagramm": enneagrammEnneadPage,
       "enneagramm-odyssee": enneagrammOdysseePage,
       "enneagramm-wohnraumarchitektur": enneagrammWohnraumarchitekturPage,
       "enneagramm-zimmerpflanzen": enneagrammZimmerpflanzenPage,
