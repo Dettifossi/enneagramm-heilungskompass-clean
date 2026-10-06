@@ -2216,6 +2216,7 @@ export function stefanHomburgPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
         {route:"beruehmte-peter-maffay", label:"Portrait: Peter Maffay (SX9w1) – the same pattern of complete merging"},
+        {route:"beruehmte-dustin-hoffman", label:"Portrait: Dustin Hoffman (SX9w1)"},
         {route:"beruehmte-jane-goodall", label:"Portrait: Dr. Jane Goodall (SX9w1)"},
       ])}
     </div>

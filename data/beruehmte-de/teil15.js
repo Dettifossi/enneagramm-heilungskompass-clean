@@ -2217,6 +2217,7 @@ export function stefanHomburgPortraitPage() {
         {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
         {route:"beruehmte-bruce-springsteen", label:"Porträt: Bruce Springsteen (SX9w1) – dasselbe Lebensmuster der vollständigen Verschmelzung"},
         {route:"beruehmte-peter-maffay", label:"Porträt: Peter Maffay (SX9w1)"},
+        {route:"beruehmte-dustin-hoffman", label:"Porträt: Dustin Hoffman (SX9w1)"},
         {route:"beruehmte-jane-goodall", label:"Porträt: Dr. Jane Goodall (SX9w1)"},
       ])}
     </div>
