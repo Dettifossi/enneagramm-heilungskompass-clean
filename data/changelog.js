@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2446", date: "2026-10-06", text: "Neuer Praxistipp: Der Chakra-Kern Ihres Enneagrammtyps – neun Körperzentren und ihre homöopathischen Konstitutionsmittel.", text_en: "New practical tip: The Chakra Core of Your Enneagram Type – nine body centers and their homeopathic constitutional remedies.", route: "praxistipps-heilpraktiker/chakra-kern-uebung" },
     { version: "v2445", date: "2026-10-05", text: "Neues Porträt: Erich von Däniken (SE8w9) – Autor, Chariots of the Gods, Prä-Astronautik.", text_en: "New portrait: Erich von Däniken (SE8w9) – author, Chariots of the Gods, ancient astronaut theory.", route: "beruehmte-erich-von-daeniken" },
     { version: "v2444", date: "2026-10-05", text: "Neues Porträt: Julie Benz (SX6w7) – Schauspielerin, Darla (Buffy/Angel), Rita (Dexter).", text_en: "New portrait: Julie Benz (SX6w7) – actress, Darla (Buffy/Angel), Rita (Dexter).", route: "beruehmte-julie-benz" },
     { version: "v2443", date: "2026-10-05", text: "Neues Porträt: William James Sidis (SE5w6) – US-amerikanisches Wunderkind, mit 11 an Harvard, später anonym.", text_en: "New portrait: William James Sidis (SE5w6) – American child prodigy, at Harvard at 11, later anonymous.", route: "beruehmte-william-james-sidis" },
