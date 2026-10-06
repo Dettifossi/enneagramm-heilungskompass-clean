@@ -925,6 +925,7 @@ export const registerEntries = [
   { term: "Elizabeth Barrett Browning",     route: "beruehmte-elizabeth-barrett-browning",  description: "Portrait: SX9w8 · Sexueller Typ 9 · Englische Dichterin, chronisch krank, heimliche Ehe mit Robert Browning" },
   { term: "Alice Schwarzer",               route: "beruehmte-alice-schwarzer",             description: "Portrait: SX6w5 · Sexueller Typ 6 · Feministin, EMMA-Gründerin" },
   { term: "Ana de Armas",                  route: "beruehmte-ana-de-armas",                description: "Portrait: SX4w5 · Sexueller Typ 4 · Schauspielerin, Knives Out" },
+  { term: "Nicole Kidman",                 route: "beruehmte-nicole-kidman",               description: "Portrait: SO1w2 · Sozialer Typ 1 · Schauspielerin, Produzentin, Oscarpreisträgerin" },
   { term: "Angelina Jolie",                route: "beruehmte-angelina-jolie",              description: "Portrait: SO1w2 · Sozialer Typ 1 · Schauspielerin, UN-Botschafterin" },
   { term: "Steve Jobs",                    route: "beruehmte-steve-jobs",                  description: "Portrait: SO1w2 · Sozialer Typ 1 · Mitgründer von Apple" },
   { term: "Anke Engelke",                  route: "beruehmte-anke-engelke",                description: "Portrait: SX6w7 · Sexueller Typ 6 · Komikerin, Moderatorin" },
