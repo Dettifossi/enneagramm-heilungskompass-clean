@@ -2392,7 +2392,7 @@ export function nicoleKidmanPortraitPage() {
 
         <h2 class="vb-section">3. Der Zweierflügel: Haltung, die sich kümmert</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der sozialen Eins eine persönliche, zugewandte Wärme, die eine reine Eins ohne diesen Flügel oft vermissen lässt. Kidmans eigene Produktionsfirma Blossom Films wurde gezielt gegründet, um Geschichten von Frauen zu erzählen, die im traditionellen Studiosystem zu wenig Raum fanden &ndash; eine Mischung aus Prinzipientreue (die SO1-Seite: Hier herrscht eine strukturelle Schieflage) und persönlicher Fürsorge für die Figuren und ihre Darstellerinnen (die Zweier-Seite).</p>
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> verleiht der sozialen Eins eine persönliche, zugewandte Wärme, die bei schwächer ausgeprägtem Zweierflügel oft vermisst wird. Kidmans eigene Produktionsfirma Blossom Films wurde gezielt gegründet, um Geschichten von Frauen zu erzählen, die im traditionellen Studiosystem zu wenig Raum fanden &ndash; eine Mischung aus Prinzipientreue (die SO1-Seite: Hier herrscht eine strukturelle Schieflage) und persönlicher Fürsorge für die Figuren und ihre Darstellerinnen (die Zweier-Seite).</p>
           <p class="vb-intro">Besonders deutlich wird das bei ›Big Little Lies‹ (2017), das sie selbst produzierte und in dem sie eine Frau spielte, die häusliche Gewalt erlebt: Ein Projekt, das zugleich eine klare gesellschaftliche Aussage (SO1) und eine zutiefst persönliche, empathische Annäherung an eine verletzliche Figur (w2) ist. Die SO1w2 verbindet moralische Klarheit mit der Fähigkeit, konkrete einzelne Menschen zu sehen, nicht nur abstrakte Prinzipien.</p>
         </blockquote>
 
