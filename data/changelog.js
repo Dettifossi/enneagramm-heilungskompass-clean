@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2449", date: "2026-10-06", text: "Neuer Wissensartikel: Navagraha und das Enneagramm – die neun Grahas der vedischen Astrologie im Vergleich mit den neun Typen.", text_en: "New knowledge article: Navagraha and the Enneagram – the nine grahas of Vedic astrology compared with the nine types.", route: "navagraha-enneagramm" },
     { version: "v2448", date: "2026-10-06", text: "Neuer Wissensartikel: Die Ennead von Heliopolis und das Enneagramm – die neun Götter Ägyptens im Vergleich mit den neun Typen.", text_en: "New knowledge article: The Ennead of Heliopolis and the Enneagram – the nine gods of ancient Egypt compared with the nine types.", route: "ennead-enneagramm" },
     { version: "v2447", date: "2026-10-06", text: "Neuer Wissensartikel: Klassische Homöopathie und Enneagramm-Homöopathie im Vergleich.", text_en: "New knowledge article: Classical Homeopathy and Enneagram-Homeopathy Compared.", route: "klassische-vs-enneagramm-homoeopathie" },
     { version: "v2446", date: "2026-10-06", text: "Neuer Praxistipp: Der Chakra-Kern Ihres Enneagrammtyps – neun Körperzentren und ihre homöopathischen Konstitutionsmittel.", text_en: "New practical tip: The Chakra Core of Your Enneagram Type – nine body centers and their homeopathic constitutional remedies.", route: "praxistipps-heilpraktiker/chakra-kern-uebung" },

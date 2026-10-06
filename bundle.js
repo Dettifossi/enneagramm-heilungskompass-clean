@@ -15939,6 +15939,7 @@ const uiText = {
       { route: "enneagramm-astrologie", label: "Enneagramm meets Astrologie" },
       { heading: "Enneagramm in Kultur & Welt" },
       { route: "ennead-enneagramm", label: "Die Ennead von Heliopolis und das Enneagramm" },
+      { route: "navagraha-enneagramm", label: "Navagraha und das Enneagramm" },
       { route: "enneagramm-odyssee", label: "Enneagramm meets Odyssee" },
       { route: "enneagramm-wohnraumarchitektur", label: "Enneagramm meets Wohnraumarchitektur" },
       { route: "enneagramm-zimmerpflanzen", label: "Enneagramm meets Zimmerpflanzen" },
@@ -51743,10 +51744,102 @@ function enneagrammEnneadPage() {
         </div>
 
         ${relatedLinks([
+          {route:"navagraha-enneagramm", label:"Navagraha und das Enneagramm"},
           {route:"planetenzuordnungen", label:"Planeten &amp; Trabanten des Sonnensystems"},
           {route:"enneagramm-odyssee", label:"Enneagramm meets Odyssee"},
           {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
           {route:"enneagramm-bibel", label:"Enneagramm im Spiegel des Neuen Testaments"},
+          {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+// ─── Navagraha und das Enneagramm ─────────────────────────────
+
+function enneagrammNavagrahaPage() {
+  const GRAHAS = [
+    { name: "Surya", sanskrit: "Sonne", domain: "Seele &amp; Autorit\xe4t", text: "Zentrum des Horoskops, Sitz des Ichs und der Vitalit\xe4t – strahlende Selbstbehauptung, F\xfchrungsanspruch, der Vater." },
+    { name: "Chandra", sanskrit: "Mond", domain: "Gem\xfct &amp; Empf\xe4nglichkeit", text: "Hat kein eigenes Licht, sondern spiegelt nur das der Sonne – Sinnbild f\xfcr Gef\xfchl, Mutter, Anpassung und stete innere Bewegung." },
+    { name: "Mangala", sanskrit: "Mars", domain: "Kraft &amp; Tatendrang", text: "Energie, Mut, Durchsetzung und offener Konflikt – die rohe, handelnde Kraft des Horoskops." },
+    { name: "Budha", sanskrit: "Merkur", domain: "Verstand &amp; Analyse", text: "N\xfcchterner Intellekt, Kommunikation und Beobachtung – der k\xfchlste, am wenigsten emotionale aller Grahas." },
+    { name: "Guru", sanskrit: "Jupiter", domain: "Expansion &amp; Weisheit", text: "Der „gro\xdfe Wohlt\xe4ter“: Optimismus, F\xfclle, Lehre und der Glaube an immer neue M\xf6glichkeiten." },
+    { name: "Shukra", sanskrit: "Venus", domain: "Liebe &amp; Harmonie", text: "Zuneigung, Sch\xf6nheit, Beziehung und der Wunsch, Freude zu schenken und zu empfangen." },
+    { name: "Shani", sanskrit: "Saturn", domain: "Disziplin &amp; Pflicht", text: "Der strenge Lehrer: Struktur, Verzicht, Ausdauer und das unbestechliche Gewissen, das an Regeln festh\xe4lt." },
+    { name: "Rahu", sanskrit: "Aufsteigender Mondknoten", domain: "Verlangen &amp; Unruhe", text: "Kein Himmelsk\xf6rper, sondern ein Schattenpunkt – steht f\xfcr ruhelose Begierde, Besessenheit und ins Ma\xdflose gesteigerte Sorge." },
+    { name: "Ketu", sanskrit: "Absteigender Mondknoten", domain: "Losl\xf6sung &amp; Sehnsucht", text: "Der Gegenpol zu Rahu – R\xfcckzug, spirituelle Sehnsucht und ein diffuses Gef\xfchl, dass etwas Wesentliches fehlt." },
+  ];
+  function grahaCard(g) {
+    return `<div class="vb-section" style="max-width:100%;border:1px solid var(--line);border-radius:12px;padding:.95rem 1.05rem;background:color-mix(in srgb, var(--copper) 4%, var(--paper));">
+      <div style="font-weight:700;font-size:1rem;color:var(--ink);margin:0 0 .15rem;">${g.name}</div>
+      <div style="font-size:.78rem;color:var(--copper);font-style:italic;margin:0 0 .3rem;">${g.sanskrit}</div>
+      <div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);opacity:.65;margin:0 0 .4rem;">${g.domain}</div>
+      <p style="font-size:.85rem;color:var(--muted);margin:0;">${g.text}</p>
+    </div>`;
+  }
+  const TABELLE = [
+    { typ: "1", graha: "Shani (Saturn)", text: "Der strenge innere Richter, der an Regeln, Pflicht und Disziplin festh\xe4lt – Saturns Dom\xe4ne ist exakt das Terrain der Eins." },
+    { typ: "2", graha: "Shukra (Venus)", text: "Die Hinwendung zum anderen durch Liebe, Zuneigung und den Wunsch, Freude zu schenken – ganz im Sinne der Venus." },
+    { typ: "3", graha: "Surya (Sonne)", text: "Die Sonne hat kein Licht zu verbergen, sie strahlt aus eigener Kraft ins Zentrum – das Bed\xfcrfnis der Drei, zu gl\xe4nzen und gesehen zu werden." },
+    { typ: "4", graha: "Ketu", text: "Die diffuse Sehnsucht nach dem, was fehlt, der R\xfcckzug aus der gew\xf6hnlichen Welt ins Besondere – Ketus Melancholie trifft die Vier genau." },
+    { typ: "5", graha: "Budha (Merkur)", text: "Der k\xfchlste, unemotionalste Graha – reiner Verstand, Beobachtung und Analyse statt unmittelbarer Beteiligung." },
+    { typ: "6", graha: "Rahu", text: "Rastlose, ins Ma\xdflose gesteigerte Sorge und das Kreisen um m\xf6gliche Gefahren – Rahus Unruhe ist der Sechs vertraut." },
+    { typ: "7", graha: "Guru (Jupiter)", text: "Der gro\xdfe Wohlt\xe4ter, der immer neue M\xf6glichkeiten und F\xfclle verspricht – Jupiters Optimismus ist die Grundstimmung der Sieben." },
+    { typ: "8", graha: "Mangala (Mars)", text: "Rohe Kraft, unmittelbare Durchsetzung und die Bereitschaft zur offenen Konfrontation – Mars und die Acht sprechen dieselbe Sprache." },
+    { typ: "9", graha: "Chandra (Mond)", text: "Ohne eigenes Licht, nur Spiegelung der Sonne, stets im Einklang mit dem, was um ihn herum geschieht – ein treffendes Bild f\xfcr die verschmelzende Neun." },
+  ];
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('navagraha-enneagramm')}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Enneagramm in Kultur &amp; Welt</p>
+        <h1 class="section-title">Navagraha und das Enneagramm</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Die neun „Greifer“ der vedischen Astrologie</h2>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/schaubilder/navagraha-enneagramm/navagraha-enneagramm.jpg" alt="Die neun Grahas als G\xf6tterfiguren im Kreis um ein leuchtendes Enneagramm-Symbol vor Sternenhimmel" style="width:100%;display:block;" loading="lazy" />
+        </div>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">„Navagraha“ setzt sich aus dem Sanskrit <em>nava</em> (neun) und <em>graha</em> (w\xf6rtlich „Greifer“, „das, was ergreift“) zusammen – gemeint sind die neun Himmelskr\xe4fte, die nach vedischer Vorstellung das Schicksal eines Menschen im Moment seiner Geburt „ergreifen“ und fortan pr\xe4gen. Die Jyotish genannte vedische Astrologie z\xe4hlt seit \xfcber zweitausend Jahren exakt neun solcher Grahas – nicht zuf\xe4llig, sondern weil sieben davon die mit blo\xdfem Auge sichtbaren Lichter sind (Sonne, Mond und die f\xfcnf klassischen Planeten) und die \xfcbrigen zwei keine Himmelsk\xf6rper, sondern mathematische Punkte der Mondbahn sind: Rahu und Ketu, die Mondknoten. Uranus, Neptun und Pluto, erst mit dem Teleskop entdeckt, wurden in der traditionellen Jyotish-Praxis bis heute bewusst nicht aufgenommen – die Neun blieb neun.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.15rem;margin:0 0 1.2rem;">Die neun Grahas im \xdcberblick</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.9rem;margin-bottom:2rem;">
+          ${GRAHAS.map(grahaCard).join('')}
+        </div>
+
+        <h2 class="section-title" style="font-size:1.15rem;margin:0 0 1rem;">Eine spielerische Gegen\xfcberstellung</h2>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0 0 1.2rem;">Diese Zuordnung ist eine moderne, interpretierende Analogie, keine \xfcberlieferte Lehre der Jyotish-Tradition selbst – und unabh\xe4ngig von jeder bestehenden Zuordnung zur westlichen Astrologie dieser App. Sie zeigt, wie sich die klassischen Bedeutungen der neun Grahas mit den neun Grundmotivationen des Enneagramms ber\xfchren.</p>
+        <div style="overflow-x:auto;">
+          <table style="width:100%;border-collapse:collapse;font-size:.88rem;margin:0 0 1.6rem;">
+            <thead>
+              <tr>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Typ</th>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Graha</th>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Die Resonanz</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${TABELLE.map(r => `
+              <tr>
+                <td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">${r.typ}</td>
+                <td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">${r.graha}</td>
+                <td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">${r.text}</td>
+              </tr>`).join("")}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:.5rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+          <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Einordnung ohne Determinismus:</strong> Auch diese Gegen\xfcberstellung erhebt keinen Anspruch auf astrologische oder historische Wahrheit. Sie zeigt lediglich, wie zwei voneinander unabh\xe4ngige Traditionen – die vedische Astrologie und das moderne Enneagramm – auf verbl\xfcffend \xe4hnliche Weise neun Grundkr\xe4fte des menschlichen Erlebens unterscheiden. Ein weiteres Beispiel f\xfcr die Neun als universelle, kulturübergreifend wiederkehrende Ordnungszahl.</p>
+        </div>
+
+        ${relatedLinks([
+          {route:"ennead-enneagramm", label:"Die Ennead von Heliopolis und das Enneagramm"},
+          {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
+          {route:"planetenzuordnungen", label:"Planeten &amp; Trabanten des Sonnensystems"},
           {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
         ])}
       </div>
@@ -79075,6 +79168,7 @@ const ROUTES = {
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,
       "ennead-enneagramm": enneagrammEnneadPage,
+      "navagraha-enneagramm": enneagrammNavagrahaPage,
       "enneagramm-odyssee": enneagrammOdysseePage,
       "enneagramm-wohnraumarchitektur": enneagrammWohnraumarchitekturPage,
       "enneagramm-zimmerpflanzen": enneagrammZimmerpflanzenPage,
