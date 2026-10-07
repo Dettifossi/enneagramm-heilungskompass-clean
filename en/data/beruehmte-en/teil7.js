@@ -560,6 +560,7 @@ export function friedrichMerzPortraitPage() {
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2)"},
         {route:"beruehmte-marcel-reich-ranicki", label:"Portrait: Marcel Reich-Ranicki (SO1w9)"},
+        {route:"beruehmte-alice-weidel", label:"Portrait: Alice Weidel (SO1w9) – same subtype, political opponent"},
       ])}
     </div>
   `);

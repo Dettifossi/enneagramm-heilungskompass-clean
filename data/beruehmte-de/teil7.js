@@ -625,6 +625,7 @@ export function friedrichMerzPortraitPage() {
         {route:"subtype/so1", label:"SO1 \u2013 Die Gans: Subtyp-Profil"},
         {route:"beruehmte-angelina-jolie", label:"Portr\u00e4t: Angelina Jolie (SO1w2)"},
         {route:"beruehmte-marcel-reich-ranicki", label:"Portr\u00e4t: Marcel Reich-Ranicki (SO1w9)"},
+        {route:"beruehmte-alice-weidel", label:"Portr\u00e4t: Alice Weidel (SO1w9) \u2013 gleicher Subtyp, politische Gegenspielerin"},
       ])}
     </div>
   `);
