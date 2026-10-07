@@ -4802,7 +4802,7 @@ export function andyWarholKrankheitsportraetPage() {
         Im Alter von acht Jahren erkrankte Warhol nach Scharlach an Sydenham-Chorea (›St.-Veits-Tanz‹), einer
         neurologischen Nachwirkung mit unwillkürlichen Bewegungen; er verbrachte mehrere
         Monate bettlägerig, teils isoliert von Gleichaltrigen, mit auffälligen
-        Hautpigmentflecken, die ihn jahrelang hänseln ließen.</p>
+        Hautpigmentflecken, wegen derer er jahrelang gehänselt wurde.</p>
         <p class="vb-intro"><strong>b) Das Attentat von 1968:</strong>
         Am 3. Juni 1968 wurde Warhol von Valerie Solanas niedergeschossen, mehrere innere
         Organe wurden schwer verletzt; er überlebte nur knapp und musste für den Rest seines
