@@ -2399,3 +2399,70 @@ export function palinaRojinskiPortraitPage() {
     </div>
   `);
 }
+
+export function romanPolanskiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-roman-polanski-portrait.jpg" alt="Roman Polanski – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-roman-polanski-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Roman Polanski</p>
+        <p class="krim-portrait-typ">SX5w6 &middot; Sexueller Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Filmregisseur, geb. 1933 &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist ein Tier des Rückzugs – bei Gefahr rollt er sich zur undurchdringlichen Kugel zusammen, Stacheln nach außen, das Verletzliche vollständig verborgen im Inneren. Doch anders als der ängstliche Rückzug anderer Fünfer-Subtypen öffnet sich der Igel, sobald er sich einmal sicher fühlt, einem einzigen vertrauten Wesen gegenüber vollständig – mit einer Intensität, die in scharfem Kontrast zu seiner sonstigen Verschlossenheit steht.</p>
+          <p class="vb-intro">Roman Polanski, 1933 in Paris als Sohn polnisch-jüdischer Eltern geboren, überlebte als Kind das Krakauer Ghetto und den Mord an seiner Mutter in Auschwitz, indem er – von der eigenen Familie getrennt – unter falscher katholischer Identität durch die polnische Landschaft wanderte. Der Igel, der lernte, sich so vollständig zu verbergen, dass selbst die eigene Identität zur Tarnung wurde – und der aus genau dieser frühen Erfahrung des Überlebens durch Unsichtbarkeit später eine der eigenwilligsten Filmhandschriften des 20. Jahrhunderts entwickelte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Fünf: Vollständige Hingabe an das eine vertraute Gegenüber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Fünf (SX5)</strong> löst die für den Typ 5 charakteristische Zurückhaltung auf eine besondere Weise: Statt sich vollständig zurückzuziehen, konzentriert sie ihre gesamte emotionale Intensität auf die eine ausgewählte, vollständig vertraute Verbindung – Naranjo beschrieb diesen Subtyp mit dem Begriff ›Vertrauen‹ (im Original ›Confianza‹): Eine SX5 kann nach außen distanziert wirken, öffnet sich aber gegenüber dem einen gewählten Menschen mit einer Rückhaltlosigkeit, die alle sonstige Zurückhaltung Lügen straft.</p>
+          <p class="vb-intro">Bei Polanski zeigte sich dieses Muster am deutlichsten in seiner Ehe mit der Schauspielerin Sharon Tate, die er 1968 heiratete. Ihre Ermordung durch die Manson-Familie im August 1969, während er selbst beruflich in London weilte, traf ihn in genau jener einen Verbindung, auf die er seine emotionale Intensität konzentriert hatte – ein Verlust, von dem Weggefährten berichten, er habe ihn nie vollständig verarbeitet. Seine zweite, bis heute bestehende Ehe mit der Schauspielerin Emmanuelle Seigner seit 1989 zeigt dasselbe Muster einer über Jahrzehnte stabilen, nach außen kaum kommentierten, aber offenkundig zentralen Bindung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Wachsamkeit als permanenter Begleiter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt in die sexuelle Fünf eine zusätzliche Komponente ständiger Wachsamkeit und eines geschärften Gespürs für Bedrohung. Eine SX5 mit schwach ausgeprägtem Sechserflügel würde sich primär über Intensität definieren; die SX5w6 bleibt zusätzlich dauerhaft auf mögliche Gefahren fokussiert und baut ein enges, loyales Umfeld aus wenigen, genau geprüften Vertrauten auf, statt sich einem größeren Kreis zu öffnen.</p>
+          <p class="vb-intro">Bei Polanski lässt sich dieser Flügel seit 1978 unmittelbar an seiner Lebensrealität ablesen: Nach seiner Flucht aus den USA lebte er jahrzehntelang in einem Zustand andauernder juristischer Wachsamkeit, wählte seine Aufenthaltsorte (vorwiegend Frankreich und die Schweiz) gezielt nach Auslieferungsrisiken aus und arbeitete über Jahrzehnte mit einem bemerkenswert konstanten, kleinen Kreis von Produzenten, Schauspielern und Mitarbeitern zusammen – ein eng geführtes, sorgfältig abgesichertes berufliches Umfeld statt häufig wechselnder Kooperationen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die filmische Substanz: Vom Schock zur psychologischen Präzision</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Polanskis Ruf gründet auf einer tatsächlichen, mehrfach ausgezeichneten handwerklichen Meisterschaft. ›Rosemary's Baby‹ (1968) etablierte eine neue Form des psychologischen Horrorfilms, die Angst nicht durch sichtbare Bedrohung, sondern durch subtile, fast unmerkliche Verschiebungen der Wahrnehmung der Hauptfigur erzeugte – eine Technik, die das Genre jahrzehntelang prägte. ›Chinatown‹ (1974) gilt bis heute als stilbildender Höhepunkt des Neo-Noir, mit einer visuellen Komposition und einem Drehbuchaufbau, die in Filmschulen weltweit als Referenz gelehrt werden.</p>
+          <p class="vb-intro">Die vielleicht eindrücklichste Verbindung von Handwerk und eigener Biografie gelang ihm mit ›Der Pianist‹ (2002), der Verfilmung der Überlebensgeschichte des Warschauer Pianisten Władysław Szpilman im besetzten Polen. Polanski verzichtete bewusst auf sentimentale Überhöhung und inszenierte das Überleben im Ghetto mit einer nüchternen, fast dokumentarischen Präzision, die direkt aus seiner eigenen Kindheitserfahrung schöpfte – eine Regieleistung, für die er 2002 den Oscar für die beste Regie erhielt, obwohl er der Verleihung selbst aus rechtlichen Gründen fernbleiben musste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Fünf mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX5w6 zeigt sich in Polanskis Fähigkeit, extreme persönliche Katastrophen – den Holocaust, die Ermordung seiner Frau – in eine filmische Sprache zu übersetzen, die bei einem Millionenpublikum Resonanz fand, ohne die eigene Erfahrung instrumentalisierend auszustellen.</p>
+          <p class="vb-intro">Der Schatten dieses Porträts muss unverstellt benannt werden: 1977 wurde Polanski wegen des sexuellen Missbrauchs einer 13-jährigen Minderjährigen angeklagt und bekannte sich eines entsprechenden Tatbestands für schuldig. Kurz vor der Urteilsverkündung floh er 1978 aus den USA nach Frankreich und lebt seither als international gesuchte Person, die einer Auslieferung an die US-Justiz durch sorgfältig gewählte Aufenthaltsorte ausweicht. In den 2010er-Jahren erhoben mehrere weitere Frauen öffentlich Vorwürfe sexuellen Fehlverhaltens gegen ihn; 2018 wurde er aus der US-amerikanischen Filmakademie ausgeschlossen. Die beschriebene Wachsamkeit des Sechserflügels zeigt hier ihre dunkelste mögliche Ausprägung: dieselbe Fähigkeit zur sorgfältigen, dauerhaften Risikokontrolle, die anderswo kreative Kontinuität ermöglichte, diente hier über Jahrzehnte der Umgehung strafrechtlicher Verantwortung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei lebenslang Gesuchte: Polanski und Edward Snowden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein aufschlussreicher struktureller Vergleich – ausdrücklich ohne moralische Gleichsetzung der zugrunde liegenden Taten – ist <a href="javascript:void(0)" data-route="beruehmte-edward-snowden">Edward Snowden</a> (SX5w6): Wie Polanski lebt auch er seit Jahren im Ausland, weil eine Rückkehr in die USA eine strafrechtliche Verfolgung bedeuten würde, und wie Polanski organisierte er sein gesamtes weiteres Leben um die sorgfältige Verwaltung dieses einen zentralen Risikos. Beide Fälle zeigen, wie die SX5w6-Wachsamkeit eine jahrzehntelange Existenz im bewussten, kontrollierten Ausweichen tragen kann – bei Snowden aus Überzeugung gegenüber dem eigenen Gewissen, bei Polanski als Flucht vor einer rechtmäßig verhängten strafrechtlichen Konsequenz.</p>
+          <p class="vb-intro">Roman Polanski bleibt damit eine zutiefst gespaltene Figur der Filmgeschichte: ein Regisseur, dessen frühe Überlebensgeschichte eine außergewöhnliche künstlerische Sensibilität für Verletzlichkeit und Angst hervorbrachte, und zugleich ein verurteilter Straftäter, der sich der gerichtlichen Konsequenz seiner eigenen Tat seit fast einem halben Jahrhundert entzieht.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx5", label:"Lebensmusterkompass: SX5 – Igel"},
+        {route:"beruehmte-edward-snowden", label:"Porträt: Edward Snowden (SX5w6)"},
+        {route:"beruehmte-jodie-foster", label:"Porträt: Jodie Foster (SX5w6)"},
+        {route:"beruehmte-blaise-pascal", label:"Porträt: Blaise Pascal (SX5w6)"},
+      ])}
+    </div>
+  `);
+}

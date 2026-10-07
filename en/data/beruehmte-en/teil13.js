@@ -2367,3 +2367,70 @@ export function evanBatesPortraitPage() {
     </div>
   `);
 }
+
+export function romanPolanskiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-roman-polanski-portrait.jpg" alt="Roman Polanski – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-roman-polanski-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Roman Polanski</p>
+        <p class="krim-portrait-typ">SX5w6 &middot; Sexual Type 5 with a Six-Wing</p>
+        <p class="krim-portrait-subtitle">Film director, b. 1933 &ndash; Animal match: Hedgehog</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hedgehog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hedgehog</strong> is an animal of withdrawal – when threatened, it curls into an impenetrable ball, spines facing outward, everything vulnerable hidden completely inside. But unlike the fearful retreat of other Five subtypes, the hedgehog, once it feels safe, opens itself completely to a single trusted being – with an intensity that stands in sharp contrast to its usual guardedness.</p>
+          <p class="vb-intro">Roman Polanski, born in Paris in 1933 to Polish-Jewish parents, survived the Kraków ghetto as a child and the murder of his mother at Auschwitz by wandering the Polish countryside under a false Catholic identity, separated from his own family. The hedgehog that learned to hide so completely that even his own identity became camouflage – and who turned that very early experience of survival through invisibility into one of the most distinctive filmmaking styles of the 20th century.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Five: Complete Devotion to the One Trusted Counterpart</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Five (SX5)</strong> resolves the reserve characteristic of Type 5 in a particular way: instead of withdrawing completely, it concentrates all its emotional intensity on the one chosen, fully trusted connection – Naranjo described this subtype with the term "Confidence" (in the original "Confianza"): an SX5 can appear distant outwardly, but opens up to the one chosen person with an unreservedness that belies all its other guardedness.</p>
+          <p class="vb-intro">For Polanski, this pattern showed most clearly in his marriage to actress Sharon Tate, whom he married in 1968. Her murder by the Manson Family in August 1969, while he himself was working in London, struck him precisely in that one connection on which he had concentrated his emotional intensity – a loss that associates report he never fully processed. His second, still-ongoing marriage to actress Emmanuelle Seigner since 1989 shows the same pattern of a bond stable across decades, rarely commented on publicly, yet evidently central.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Vigilance as a Permanent Companion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> adds a further component of constant vigilance and a heightened sense for threat to the sexual Five. An SX5 with a weak Six-wing would define itself primarily through intensity; the SX5w6 additionally stays permanently focused on possible dangers and builds a tight, loyal circle of a few, carefully vetted confidants rather than opening up to a wider circle.</p>
+          <p class="vb-intro">For Polanski, this wing can be read directly off his life circumstances since 1978: after fleeing the United States, he lived for decades in a state of ongoing legal vigilance, deliberately chose his places of residence (mainly France and Switzerland) based on extradition risk, and worked over decades with a remarkably consistent, small circle of producers, actors and collaborators – a tightly managed, carefully secured professional environment rather than frequently changing collaborations.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Cinematic Substance: From Shock to Psychological Precision</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Polanski's reputation rests on genuine, repeatedly awarded craft mastery. "Rosemary's Baby" (1968) established a new form of psychological horror that generated fear not through visible threat but through subtle, almost imperceptible shifts in the protagonist's perception – a technique that shaped the genre for decades. "Chinatown" (1974) still stands as a style-defining pinnacle of neo-noir, with a visual composition and screenplay structure taught as a reference in film schools worldwide.</p>
+          <p class="vb-intro">Perhaps his most striking fusion of craft and personal biography came with "The Pianist" (2002), an adaptation of the survival story of Warsaw pianist Władysław Szpilman under German occupation. Polanski deliberately avoided sentimental elevation, staging survival in the ghetto with a sober, almost documentary precision drawn directly from his own childhood experience – a directorial achievement for which he received the 2002 Academy Award for Best Director, though legal reasons kept him from attending the ceremony himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Five With a Six-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX5w6 shows in Polanski's ability to translate extreme personal catastrophe – the Holocaust, the murder of his wife – into a cinematic language that resonated with audiences of millions without exploitatively putting his own experience on display.</p>
+          <p class="vb-intro">The shadow of this portrait must be named without euphemism: in 1977, Polanski was charged with the sexual abuse of a 13-year-old minor and pleaded guilty to a corresponding offense. Shortly before sentencing, he fled the United States for France in 1978 and has since lived as an internationally wanted person, evading extradition to US justice through carefully chosen places of residence. In the 2010s, several other women publicly raised allegations of sexual misconduct against him; in 2018 he was expelled from the Academy of Motion Picture Arts and Sciences. The Six-wing vigilance described above shows its darkest possible expression here: the same capacity for careful, sustained risk management that elsewhere enabled creative continuity here served, for decades, to evade criminal accountability.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Lifelong Fugitives: Polanski and Edward Snowden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A revealing structural comparison – explicitly without equating the underlying acts morally – is <a href="javascript:void(0)" data-route="beruehmte-edward-snowden">Edward Snowden</a> (SX5w6): like Polanski, he too has lived abroad for years because returning to the US would mean criminal prosecution, and like Polanski, he organized his entire subsequent life around the careful management of that one central risk. Both cases show how SX5w6 vigilance can sustain a decades-long existence of deliberate, controlled evasion – in Snowden's case out of conviction toward his own conscience, in Polanski's case as flight from a lawfully imposed criminal consequence.</p>
+          <p class="vb-intro">Roman Polanski thus remains a deeply split figure in film history: a director whose early survival story produced an extraordinary artistic sensitivity to vulnerability and fear, and at the same time a convicted offender who has evaded the judicial consequence of his own act for nearly half a century.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx5", label:"SX5 – The Hedgehog: subtype profile"},
+        {route:"lebensmusterkompass/sx5", label:"Life Pattern Compass: SX5 – Hedgehog"},
+        {route:"beruehmte-edward-snowden", label:"Portrait: Edward Snowden (SX5w6)"},
+        {route:"beruehmte-jodie-foster", label:"Portrait: Jodie Foster (SX5w6)"},
+        {route:"beruehmte-blaise-pascal", label:"Portrait: Blaise Pascal (SX5w6)"},
+      ])}
+    </div>
+  `);
+}

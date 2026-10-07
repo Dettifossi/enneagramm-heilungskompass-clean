@@ -1107,6 +1107,7 @@ export function edwardSnowdenPortraitPage() {
         {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
         {route:"beruehmte-taylor-swift", label:"Portrait: Taylor Swift (SX5w4)"},
         {route:"beruehmte-jodie-foster", label:"Portrait: Jodie Foster (SX5w6)"},
+        {route:"beruehmte-roman-polanski", label:"Portrait: Roman Polanski (SX5w6) – also decades spent fleeing"},
       ])}
     </div>
   `);
