@@ -1565,6 +1565,7 @@ export function woodyAllenPortraitPage() {
           <p class="vb-intro">Der Heilungsweg der Sechs f\u00fchrt von der Frage <em>Was, wenn alles schiefgeht?</em> zur Erkenntnis <em>Ich kann mit der Angst leben &ndash; und sogar etwas aus ihr machen.</em> F\u00fcr die SE6w7 bedeutet das, die eigene Wachsamkeit nicht zu bek\u00e4mpfen, sondern sie in Bewegung, in Sprache, in Arbeit zu verwandeln, ohne sich in der n\u00e4chsten Ablenkung zu verlieren.</p>
           <p class="vb-intro">Woody Allen hat diesen Weg \u00fcber sechs Jahrzehnte hinweg auf seine eigene, widerspr\u00fcchliche Weise beschritten: Er hat aus seiner Angst ein Werk gemacht, das gr\u00f6\u00dfer ist als die Angst selbst &ndash; und ist dabei doch nie an einen Ort gekommen, an dem die Angst endg\u00fcltig verstummt w\u00e4re. Das Kaninchen, das nie aufh\u00f6rt, wachsam zu sein &ndash; aber das gelernt hat, aus der Wachsamkeit Kunst zu machen.</p>
           <p class="vb-intro">\u00dcber neunzig Jahre alt, dreht Woody Allen noch immer Filme &ndash; im selben Rhythmus, mit derselben Klarinette am Montagabend, in derselben Stadt. Das ist die selbsterhaltende Sechs mit Siebenerfl\u00fcgel: Angst, die niemals ganz verschwindet &ndash; aber die, solange man weiterarbeitet, nie das letzte Wort beh\u00e4lt.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich \u00fcber den Atlantik hinweg ist <a href="javascript:void(0)" data-route="beruehmte-reinhard-mey">Reinhard Mey</a> (SE6w7): Auch bei ihm bleibt ein \u00fcber f\u00fcnfzig Jahre unver\u00e4ndertes Lampenfieber trotz jahrzehntelanger B\u00fchnenerfahrung bestehen, auch bei ihm bleibt das Privatleben streng abgeschirmt, auch bei ihm verwandelt der Siebenerfl\u00fcgel dieselbe Wachsamkeit in wortreiche, sanfte Satire statt in R\u00fcckzug &ndash; nur auf Deutsch und mit Gitarre statt mit Klarinette und Kamera. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-reinhard-mey">Portr\u00e4t zu Reinhard Mey</a>.</p>
         </blockquote>
 
       </div>
@@ -1574,6 +1575,7 @@ export function woodyAllenPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se6", label:"SE6 \u2013 Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-reinhard-mey", label:"Portr\u00e4t: Reinhard Mey (SE6w7) \u2013 dieselbe Wachsamkeit, in Satire statt in Humor verwandelt"},
         {route:"beruehmte-beatrice-chebet", label:"Portr\u00e4t: Beatrice Chebet (SE6w7)"},
         {route:"beruehmte-neil-armstrong", label:"Portr\u00e4t: Neil Armstrong (SE6w5)"},
         {route:"krankheitsportraets-woody-allen", label:"Krankheitsportr\u00e4t: Woody Allen (SE6w7) \u2013 lebenslange Hypochondrie"},
