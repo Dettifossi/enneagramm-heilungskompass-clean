@@ -2367,3 +2367,70 @@ export function adrianoCelentanoPortraitPage() {
     </div>
   `);
 }
+
+export function jessicaBielPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jessica-biel-portrait.jpg" alt="Jessica Biel – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jessica Biel</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Produzentin, geb. 1982 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber, der das eigene Image abriss, um ernst genommen zu werden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben: wach, rastlos, aber nie ziellos – die Energie fließt nicht in Zerstreuung, sondern in ein konkretes, selbst verantwortetes Werk. Jessica Biel, geboren 1982 in Ely, Minnesota, wurde als Teenager durch die Rolle der Mary Camden in der langjährigen Familienserie „7th Heaven" (1996–2006) bekannt – ein braves, wohlerzogenes Bild, das Millionen amerikanischer Haushalte wöchentlich ins Wohnzimmer bekamen.</p>
+          <p class="vb-intro">1999 sprengte sie dieses Bild bewusst: Ein freizügiges Fotoshooting für das Magazin „Gear" löste einen Skandal aus, der sie beinahe ihre Serienrolle kostete. Sie selbst erklärte später, sie habe diesen Bruch gezielt gesucht, um nicht für immer auf die brave Serientochter festgelegt zu werden. Kein Ausrutscher, sondern eine kalkulierte Grenzüberschreitung, mit der sich ein Biber selbst aus einem zu eng gewordenen Damm befreit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Die eigene Karriere als Verpflichtung zur Vielseitigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> ist der Kontratyp der Sieben: Statt die eigene Maßlosigkeit offen in Genuss zu leben, wendet sie dieselbe Energie nach innen – als Pflichtgefühl, der eigenen Begabung, dem Projekt oder der Gruppe möglichst viel schuldig zu sein. Bei Biel zeigt sich das in einer gezielten Flucht aus der Typisierung als Teeniestar: Direkt nach „7th Heaven" nahm sie körperlich fordernde, genreferne Rollen an, allen voran als Erin Hardesty im „The Texas Chainsaw Massacre"-Remake (2003) – blutig, roh, so weit wie möglich vom sauberen Serienimage entfernt.</p>
+          <p class="vb-intro">Diese Strategie zog sich durch ihre gesamte Laufbahn: romantische Komödie („Hitch", 2005), Action mit intensivem Körpertraining („Total Recall", 2012, „Hitman: Agent 47", 2015), düstere Prestige-Serie als Produzentin und Hauptdarstellerin („The Sinner", 2017–2021). Keine dieser Rollen bediente dasselbe Image zweimal – jede war ein neuer Beweis, dass noch mehr Facetten im eigenen Handwerk stecken, die man der Öffentlichkeit und sich selbst schuldet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Loyalität zu einem Projekt über Jahre, nicht zu vielen auf einmal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt in die expansive SO7-Energie ein Element von Wachsamkeit und beharrlicher Bindungstreue – weniger das sprunghafte Ausprobieren einer Achterflügel-Sieben, mehr das Festhalten an einer einmal eingegangenen Verpflichtung, bis sie zu Ende geführt ist. Biel optierte die Romanvorlage zu „The Sinner" selbst, kämpfte jahrelang dafür, den Stoff verfilmt zu bekommen, und blieb über vier Staffeln als ausführende Produzentin an Bord, obwohl sie nur in der ersten Staffel die Hauptrolle spielte.</p>
+          <p class="vb-intro">Dieselbe wache Beständigkeit zeigt sich privat: Seit 2012 mit Justin Timberlake verheiratet, über ein Jahrzehnt in einer der konstantesten Beziehungen Hollywoods, mit auffällig konsequent geschützter Privatsphäre um ihre Kinder. Der Biber, der einmal gebaut hat, gibt seinen Damm nicht auf, nur weil ein neues, einfacheres Projekt lockt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die fachliche Substanz: Körperliches Handwerk statt bloßer Attraktivität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Biel von vielen Schauspielerinnen ihrer Generation unterscheidet, ist die konsequente Bereitschaft, physisch harte Vorbereitung dem bequemeren Weg vorzuziehen. Für „The A-Team" (2010) absolvierte sie monatelanges Waffen- und Stunttraining für die Rolle einer Army-Hauptmännin; für „Total Recall" trainierte sie intensiv Kampfchoreografie, um eigene Stunts weitgehend selbst auszuführen. Diese körperliche Ernsthaftigkeit ist kein Selbstzweck, sondern dieselbe SO7-Pflichterfüllung, nur auf das eigene Handwerk statt auf eine Gruppe gerichtet: eine Rolle wird erst dann als erfüllt empfunden, wenn alles investiert wurde, was möglich war.</p>
+          <p class="vb-intro">Als Produzentin setzte sie dieses Prinzip fort: „The Sinner" wählte sie gezielt wegen der psychologisch komplexen, moralisch ungemütlichen Hauptfigur Cora Tannetti – eine Rolle ohne Sympathiebonus, die sie selbst als Risiko bezeichnete, weil sie dem Publikum keine einfache Identifikation erlaubte. Genau dieses Risiko war für sie der Maßstab echter schauspielerischer Arbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w6 zeigt sich in Biels Fähigkeit, aus der Pflicht zur Vielseitigkeit tatsächlich ein tragfähiges, jahrzehntelanges Werk zu bauen – vom Teeniestar zur ernstgenommenen Produzentin eines komplexen Fernsehdramas, nie durch Zufall, sondern durch eine Kette bewusst gewählter, oft unbequemer Entscheidungen.</p>
+          <p class="vb-intro">Der Schatten liegt in der Kehrseite derselben Pflichterfüllung: Die ständige Notwendigkeit, sich gegen ein einmal erworbenes Image zu beweisen, kann dazu führen, dass kein Erfolg je als ausreichend empfunden wird. Dass Biel noch Jahre nach „7th Heaven" in Interviews auf das „Gear"-Shooting angesprochen wurde, zeigt, wie hartnäckig ein früh zugewiesenes Bild selbst gegen entschlossene Gegenbeweise bestehen bleibt – eine Last, die die soziale Sieben eher durch noch mehr Einsatz als durch Gelassenheit zu lösen versucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Das Vermächtnis: Vom Serien-Image zur eigenen Produktionsfirma</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jessica Biel steht für den Weg einer Schauspielerin, die ihr eigenes Image nicht als gegeben hinnahm, sondern aktiv und wiederholt neu verhandelte – vom braven Serienkind über die Actionschauspielerin bis zur Produzentin, die mit „The Sinner" ein eigenes, moralisch kompliziertes Werk gegen Widerstände durchsetzte.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-sigourney-weaver">Sigourney Weaver</a> (SO7w6) – auch bei ihr zeigt sich dieselbe pflichtbewusste Genre-Vielfalt, mit der eine Schauspielerin ihr Handwerk über Jahrzehnte gegen jede Festlegung auf ein einziges Bild verteidigt. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-sigourney-weaver">Porträt zu Sigourney Weaver</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-sigourney-weaver", label:"Porträt: Sigourney Weaver (SO7w6)"},
+        {route:"beruehmte-billy-bob-thornton", label:"Porträt: Billy Bob Thornton (SO7w6)"},
+        {route:"beruehmte-ali-wong", label:"Porträt: Ali Wong (SO7w6)"},
+      ])}
+    </div>
+  `);
+}

@@ -2280,6 +2280,7 @@ export function sigourneyWeaverPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">With Ellen Ripley, Sigourney Weaver shaped a female character reduced to neither vulnerability nor pure toughness — a protagonist who survives out of sober competence, not by chance or rescue by others. This redefinition reached far beyond the science-fiction genre and opened roles for physically present, simultaneously complex female leads that had scarcely existed before.</p>
           <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-billy-bob-thornton">Billy Bob Thornton</a> (SO7w6) — he too shows the same dutiful genre range between drama and comedy, carried by the same social Seven energy. More in the <a href="javascript:void(0)" data-route="beruehmte-billy-bob-thornton">portrait of Billy Bob Thornton</a>.</p>
+          <p class="vb-intro">Equally illuminating is <a href="javascript:void(0)" data-route="beruehmte-jessica-biel">Jessica Biel</a> (SO7w6): she too deliberately tore down an image that had grown too tight — in her case the wholesome teen-TV persona from "7th Heaven" — and has since defended the same dutiful genre range across horror, action, and producing for decades. More in the <a href="javascript:void(0)" data-route="beruehmte-jessica-biel">portrait of Jessica Biel</a>.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
@@ -2290,6 +2291,7 @@ export function sigourneyWeaverPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
         {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-jessica-biel", label:"Portrait: Jessica Biel (SO7w6)"},
         {route:"beruehmte-billy-bob-thornton", label:"Portrait: Billy Bob Thornton (SO7w6)"},
         {route:"beruehmte-ali-wong", label:"Portrait: Ali Wong (SO7w6)"},
         {route:"beruehmte-carolin-kebekus", label:"Portrait: Carolin Kebekus (SO7w6)"},

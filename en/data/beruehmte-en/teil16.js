@@ -2362,3 +2362,70 @@ export function rikuMiuraPortraitPage() {
     </div>
   `);
 }
+
+export function jessicaBielPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jessica-biel-portrait.jpg" alt="Jessica Biel – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jessica Biel</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-Wing</p>
+        <p class="krim-portrait-subtitle">Actress &amp; producer, born 1982 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver Who Tore Down Her Own Image to Be Taken Seriously</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> is the animal of the social Seven: alert, restless, but never aimless – the energy doesn't scatter, it flows into a concrete, self-directed work. Jessica Biel, born in 1982 in Ely, Minnesota, became known as a teenager through the role of Mary Camden in the long-running family drama "7th Heaven" (1996–2006) – a wholesome, well-behaved image broadcast weekly into millions of American living rooms.</p>
+          <p class="vb-intro">In 1999, she deliberately shattered that image: a revealing photoshoot for Gear magazine sparked a scandal that nearly cost her the role. She later explained she had sought this break on purpose, to avoid being permanently typecast as the good girl from the show. Not a slip, but a calculated break with the mold – a beaver freeing itself from a dam that had grown too confining.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Her Own Career as an Obligation to Versatility</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Seven (SO7)</strong> is the Seven's counter-type: instead of living its excess openly as indulgence, it turns the same energy inward – as a sense of duty to owe one's own talent, project, or group as much as possible. In Biel, this shows in a deliberate flight from being typecast as a teen star: right after "7th Heaven," she took on physically demanding roles far from her clean image, above all as Erin Hardesty in the "The Texas Chainsaw Massacre" remake (2003) – bloody, raw, as far from the squeaky-clean TV persona as possible.</p>
+          <p class="vb-intro">This strategy ran through her entire career: romantic comedy ("Hitch," 2005), action roles with intense physical training ("Total Recall," 2012, "Hitman: Agent 47," 2015), a dark prestige series as both producer and lead ("The Sinner," 2017–2021). None of these roles traded on the same image twice – each was fresh proof that more facets of her craft remained to be shown, something she owed to the public and to herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Loyalty to One Project Over Years, Not Many at Once</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> brings into the expansive SO7 energy an element of vigilance and persistent loyalty to commitments – less the impulsive sampling of an Eight-wing Seven, more the steady follow-through on an obligation once taken on, until it is seen through to the end. Biel optioned the novel behind "The Sinner" herself, spent years fighting to get it made, and stayed on as executive producer across four seasons even though she only starred in the first.</p>
+          <p class="vb-intro">The same watchful steadiness shows privately: married to Justin Timberlake since 2012, one of Hollywood's most consistent relationships for over a decade, with notably consistent protection of her children's privacy. The beaver that has built once does not abandon its dam just because a newer, easier project beckons.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Professional Substance: Physical Craft Instead of Mere Attractiveness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Biel apart from many actresses of her generation is her consistent willingness to prefer physically demanding preparation over the easier path. For "The A-Team" (2010) she underwent months of weapons and stunt training to play an Army captain; for "Total Recall" she trained intensively in fight choreography to perform much of her own stunt work. This physical seriousness is not an end in itself but the same SO7 sense of duty, directed at her own craft rather than at a group: a role only feels fulfilled once everything possible has been invested in it.</p>
+          <p class="vb-intro">As a producer she carried this same principle forward: she chose "The Sinner" specifically for its psychologically complex, morally uncomfortable lead character Cora Tannetti – a role with no built-in audience sympathy, which she herself called a risk, because it offered viewers no easy identification. That very risk was, for her, the measure of genuine acting work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Seven with a Six-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w6 shows in Biel's ability to actually build a durable, decades-long body of work out of her sense of obligation to versatility – from teen star to a producer taken seriously for a complex television drama, never by chance, but through a chain of deliberately chosen, often uncomfortable decisions.</p>
+          <p class="vb-intro">The shadow lies in the flip side of that same sense of duty: the constant need to prove herself against an image acquired early can mean that no success ever feels like enough. That Biel was still being asked about the Gear shoot in interviews years after "7th Heaven" shows how stubbornly an early-assigned image persists even against determined counter-evidence – a burden the social Seven tends to answer with still more effort rather than with ease.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Legacy: From TV Image to Her Own Production Company</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jessica Biel represents the path of an actress who never accepted her own image as a given, but actively and repeatedly renegotiated it – from wholesome TV kid to action actress to producer who pushed a morally complicated project like "The Sinner" through against resistance.</p>
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-sigourney-weaver">Sigourney Weaver</a> (SO7w6) – she too shows the same dutiful genre range with which an actress defends her craft over decades against being pinned to a single image. More in the <a href="javascript:void(0)" data-route="beruehmte-sigourney-weaver">portrait of Sigourney Weaver</a>.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-sigourney-weaver", label:"Portrait: Sigourney Weaver (SO7w6)"},
+        {route:"beruehmte-billy-bob-thornton", label:"Portrait: Billy Bob Thornton (SO7w6)"},
+        {route:"beruehmte-ali-wong", label:"Portrait: Ali Wong (SO7w6)"},
+      ])}
+    </div>
+  `);
+}

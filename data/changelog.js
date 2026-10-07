@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2453", date: "2026-10-07", text: "Neues Porträt: Jessica Biel (SO7w6) – Schauspielerin und Produzentin, „The Sinner“.", text_en: "New portrait: Jessica Biel (SO7w6) – actress and producer, \"The Sinner\".", route: "beruehmte-jessica-biel" },
     { version: "v2452", date: "2026-10-06", text: "Neues Porträt: Bruce Springsteen (SX9w1) – Musiker, „The Boss“, E Street Band.", text_en: "New portrait: Bruce Springsteen (SX9w1) – musician, \"The Boss\", E Street Band.", route: "beruehmte-bruce-springsteen" },
     { version: "v2451", date: "2026-10-06", text: "Neues Porträt: Naomi Campbell (SX3w2) – Model und Unternehmerin, Gründerin von Fashion for Relief.", text_en: "New portrait: Naomi Campbell (SX3w2) – model and entrepreneur, founder of Fashion for Relief.", route: "beruehmte-naomi-campbell" },
     { version: "v2450", date: "2026-10-06", text: "Neues Porträt: Nicole Kidman (SO1w2) – Schauspielerin und Produzentin, Oscarpreisträgerin.", text_en: "New portrait: Nicole Kidman (SO1w2) – actress and producer, Academy Award winner.", route: "beruehmte-nicole-kidman" },
