@@ -2391,3 +2391,70 @@ export function raulAguayoKrauthausenPortraitPage() {
     </div>
   `);
 }
+
+export function veronicaFerresPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-veronica-ferres-portrait.jpg" alt="Veronica Ferres – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-veronica-ferres-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Veronica Ferres</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexueller Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin und Produzentin, geb. 1965 &ndash; Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> lebt nicht von roher Einzelstärke, sondern von der unerschütterlichen Bindung an sein Rudel – der eine Verbündete, dem er bedingungslos vertraut, zählt mehr als jede zufällige Überzahl an Gegnern. Nach außen tritt er kraftvoll, selbstsicher, kaum einschüchterbar auf. Darunter liegt jedoch ein waches, fast überwaches Tier, das genau registriert, wer Loyalität verdient und wer nicht – und das bereit ist, für die eine verlässliche Bindung erhebliche Risiken einzugehen.</p>
+          <p class="vb-intro">Veronica Ferres, geboren 1965 im nordrhein-westfälischen Solingen, wurde 1996 mit ihrer Hauptrolle in ›Das Superweib‹ praktisch über Nacht zu einem der bekanntesten Gesichter des deutschen Kinos – ausgerechnet in der Rolle einer Frau, die lernt, sich gegen eine feindliche Umgebung zu behaupten, statt sich ihr anzupassen. Der Wolf, der sich seinen Platz nicht erbittet, sondern sich ihn erkämpft, sobald er einmal entschlossen ist, ihn zu halten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Stärke als Schutzschild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> begegnet der Angst, die den Typ 6 insgesamt prägt, nicht durch Rückzug, sondern durch das genaue Gegenteil: Naranjo nannte diesen Subtyp ›Stärke/Schönheit‹ – eine demonstrative, oft eindrucksvolle Fassade von Unverwundbarkeit, die genau die Angst überdecken soll, die darunter tatsächlich vorhanden ist. Die SX6 sucht nicht viele lose Bündnisse, sondern die eine intensive, fast bedingungslose Verbindung zu einem verlässlichen Gegenüber – und ist bereit, für diese Verbindung ungewöhnliche Risiken einzugehen.</p>
+          <p class="vb-intro">Bei Ferres zeigte sich dieses Muster am deutlichsten im Jahr 2002, als ihre damalige Beziehung zum französischen Vivendi-Universal-Konzernchef Jean-Marie Messier zu einem der größten Medienskandale der europäischen Wirtschaftsgeschichte wurde: Die öffentlich bekannt gewordene Affäre fiel zeitlich mit dem dramatischen Absturz von Messiers Konzern und seiner Entlassung zusammen und machte Ferres über Nacht zur Zielscheibe internationaler Boulevardberichterstattung. Statt sich zurückzuziehen, verteidigte sie die Beziehung öffentlich – ein Verhalten, das für die SX6 typisch ist: Die einmal eingegangene intensive Bindung wird auch unter erheblichem öffentlichen Druck nicht preisgegeben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Kontrolle über die eigene Erzählung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> bringt in die expressive, auf Wirkung ausgerichtete SX6-Energie eine zurückhaltende, beobachtende Komponente: Eine SX6 mit schwach ausgeprägtem Fünferflügel würde ihre Intensität eher spontan nach außen tragen; die SX6w5 verarbeitet dieselbe Intensität zunächst innerlich und entscheidet bewusst, was davon überhaupt nach außen dringt.</p>
+          <p class="vb-intro">Bei Ferres zeigt sich das in einer auffälligen Konstante über Jahrzehnte: Trotz permanenter Boulevard-Aufmerksamkeit gibt sie in Interviews selten tiefe Einblicke in ihr tatsächliches Innenleben preis, sondern bleibt bei kontrollierten, oft fast geschäftsmäßigen Aussagen über ihre Arbeit. Auch ihre zweite Ehe mit dem Produzenten Martin Krug, seit 2015 geschlossen, wird medial kaum mit privaten Details bespielt – ungewöhnlich für eine Person, deren Karriere so eng mit öffentlicher Sichtbarkeit verknüpft ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die unternehmerische Substanz: Von der Schauspielerin zur internationalen Produzentin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ferres' Karriere erschöpft sich nicht in ihrer schauspielerischen Präsenz, so vielseitig diese über mehr als vier Jahrzehnte auch war – von der Komödienfigur in ›Das Superweib‹ über ernste Fernsehrollen bis zu internationalen Kinoproduktionen. Gemeinsam mit ihrem Ehemann Martin Krug gründete sie die Produktionsfirma Construction Film, die deutsch-internationale Koproduktionen realisiert. Unter ihrer Beteiligung entstand unter anderem ›Zwei Leben‹ (2012), ein Film über das Schicksal norwegisch-deutscher ›Lebensborn‹-Kinder, der 2014 für Deutschland für den Oscar als bester fremdsprachiger Film eingereicht wurde.</p>
+          <p class="vb-intro">Diese fachliche Substanz – der Schritt von der reinen Darstellerin zur Produzentin, die internationale Finanzierungen organisiert und Stoffe mit politisch-historischer Tragweite auswählt – zeigt eine unternehmerische Konsequenz, die über das hinausgeht, was ihr mediales Image als ›Superweib‹ allein vermuten lässt. Der Wolf, der sich nicht darauf verlässt, dass ihm die Rollen zufallen, sondern selbst die Produktionsstrukturen aufbaut, in denen er sie sich schafft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Sechs mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 zeigt sich in Ferres' Fähigkeit, öffentlichem Druck und wiederholten Boulevard-Kampagnen über Jahrzehnte standzuhalten, ohne ihre Karriere oder ihre privaten Bindungen aufzugeben – eine Widerstandsfähigkeit, die eng mit der demonstrativen SX6-Stärke zusammenhängt.</p>
+          <p class="vb-intro">Der Schatten liegt in der Kehrseite derselben Bindungsintensität: Die Bereitschaft, eine einmal eingegangene intensive Verbindung auch gegen erheblichen öffentlichen Widerstand zu verteidigen, kann – wie im Fall der Messier-Affäre sichtbar – zu Situationen führen, in denen private Loyalität mit erheblichen beruflichen und öffentlichen Konsequenzen für alle Beteiligten kollidiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Wölfinnen im deutschen Blick der Öffentlichkeit: Ferres und Alice Schwarzer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-alice-schwarzer">Alice Schwarzer</a> (SX6w5) – wie Ferres eine Frau, die über Jahrzehnte hinweg wiederholt ins Zentrum öffentlicher Kontroversen geriet und dabei nie den demonstrativen, kaum einschüchterbaren Auftritt aufgab, der für die SX6 charakteristisch ist. Beide verteidigen ihre Positionen – bei Schwarzer politisch-publizistisch, bei Ferres persönlich-beziehungsbezogen – mit derselben Unbeirrbarkeit, auch wenn der öffentliche Gegenwind erheblich ist.</p>
+          <p class="vb-intro">Veronica Ferres bleibt damit das Bild einer Künstlerin, die ihre öffentliche Stärke nie als reine Fassade einsetzte, sondern tatsächlich in Jahrzehnte überdauernde schauspielerische wie unternehmerische Substanz übersetzte – bei gleichzeitig strikt gewahrter Kontrolle darüber, was von ihrem eigentlichen Innenleben überhaupt sichtbar wird.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
+        {route:"beruehmte-alice-schwarzer", label:"Porträt: Alice Schwarzer (SX6w5)"},
+        {route:"beruehmte-natalie-dormer", label:"Porträt: Natalie Dormer (SX6w5)"},
+        {route:"beruehmte-bella-hadid", label:"Porträt: Bella Hadid (SX6w5)"},
+      ])}
+    </div>
+  `);
+}

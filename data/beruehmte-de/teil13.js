@@ -55,6 +55,7 @@ export function aliceSchwarzerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-anke-engelke", label:"Portr\u00e4t: Anke Engelke (SX6w7)"},
+        {route:"beruehmte-veronica-ferres", label:"Portr\u00e4t: Veronica Ferres (SX6w5)"},
       ])}
     </div>
   `);
