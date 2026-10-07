@@ -2388,3 +2388,70 @@ export function harrisonFordPortraitPage() {
     </div>
   `);
 }
+
+export function princeRogersNelsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-prince-rogers-nelson-portrait.jpg" alt="Prince Rogers Nelson – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-prince-rogers-nelson-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Prince Rogers Nelson</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Musiker, 1958&ndash;2016 &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist winzig und unübersehbar zugleich. Er fürchtet sich vor nichts, das größer ist als er, tritt mit einer Selbstverständlichkeit auf, die seine Statur Lügen straft, und verlangt, auf Augenhöhe wahrgenommen zu werden – nicht trotz seiner Kleinheit, sondern mit ihr. Unter der demonstrativen Dominanz liegt ein Tier, das außergewöhnlich empfindlich ist: hochemotional, bindungsintensiv, bei Zurückweisung sofort verletzt.</p>
+          <p class="vb-intro">Prince Rogers Nelson war mit 1,58 Metern einer der kleinsten großen Rockstars der Geschichte – und kompensierte das nie durch Unauffälligkeit, sondern durch das genaue Gegenteil: hochhackige Stiefel, barocke Rüschenblusen, eine Bühnenpräsenz, die jeden Raum sofort für sich beanspruchte. Aus Minneapolis stammend, einer Stadt ohne jede Tradition als Musikmetropole, baute er dort mit Paisley Park ein komplettes eigenes Universum aus Studio, Bühne und Rückzugsort – eine Welt, die ganz nach seinen eigenen Regeln funktionierte, weil er sie selbst gebaut hatte. Der Chihuahua, der sich die Bühne nicht erobert, sondern von Anfang an als seine eigene behandelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Rivalität als schöpferischer Treibstoff</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> trägt nach Claudio Naranjo den Schmerz der Vier nicht nach innen, sondern unmittelbar nach außen, in den direkten Vergleich mit anderen. Naranjo nannte diesen Subtyp <em>Rivalität</em> (im Original stellenweise auch <em>Hass</em>) – die brennende Überzeugung, benachteiligt worden zu sein, verbunden mit dem Impuls, genau das zu übertreffen, was einem verweigert wurde. Verletzte Menschen verletzen Menschen – bei der SX4 äußert sich das als unermüdlicher Drang, sich zu beweisen, zu übertreffen, nie zufrieden zu sein mit dem, was bereits erreicht wurde.</p>
+          <p class="vb-intro">Bei Prince zeigte sich das in einer der intensivsten Künstlerrivalitäten der Popgeschichte: In den 1980er-Jahren positionierte er sich bewusst als Gegenentwurf zu Michael Jackson, lehnte eine gemeinsame Tournee demonstrativ ab und baute an einer eigenen, unverwechselbaren Mythologie, die niemandem etwas schuldete. Derselbe Antrieb trieb ihn durch ein geradezu unmögliches Arbeitspensum: Er hinterließ bei seinem Tod ein als „Vault" bekanntes Archiv mit schätzungsweise mehreren tausend unveröffentlichten Songs – nicht aus Zwanghaftigkeit, sondern weil kein einzelnes Werk je genügte, um das zu beweisen, was bewiesen werden musste.</p>
+          <p class="vb-intro">Der sexuelle Instinkt richtet die Vier auf die unmittelbare, oft erotisch aufgeladene Begegnung aus – bei Prince in einer Bühnenpersona, die explizite Sexualität offensiv zur Schau stellte (Songs wie „Darling Nikki" oder „Head"), während er privat zunehmend zurückgezogen und kontrolliert lebte. Die Intensität, die auf der Bühne alles zeigte, war genau die Intensität, die im Leben fast nichts preisgab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Image als Waffe und Schutzschild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> lenkt die Rivalität der sexuellen Vier von der rein persönlichen Eifersucht auf die öffentliche Bühne des Erfolgs und des Images. Eine SX4 mit schwach ausgeprägtem Dreierflügel würde ihren Schmerz eher introvertiert, fast selbstzerstörerisch verarbeiten; die SX4w3 verwandelt denselben Schmerz in eine makellos inszenierte Fassade, die keine Schwäche zeigen darf – Konkurrenzneid wird zu Statusstreben, Verletzlichkeit wird zu Perfektion.</p>
+          <p class="vb-intro">Bei Prince war dieser Flügel in jedem Aspekt seiner öffentlichen Erscheinung sichtbar: die akribisch komponierten Bühnenoutfits, die symbolische Namensänderung zu einem unaussprechlichen Glyphen-Zeichen im Streit mit seiner Plattenfirma Warner Bros. (1993–2000), während der er mit dem Wort „SLAVE" auf der Wange auftrat, um auf die aus seiner Sicht versklavende Kontrolle des Labels über sein Lebenswerk hinzuweisen. Das war kein Marketing-Gag, sondern der Dreierflügel in seiner reinsten Form: Image und Selbstbestimmung wurden zur einzigen Sprache, in der sich tiefere Kränkung überhaupt ausdrücken ließ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die musikalische Substanz: Ein Ausnahmekönner, kein bloßes Image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hinter der Inszenierung stand eine reale, außergewöhnliche musikalische Begabung. Sein Debütalbum „For You" (1978) spielte er fast vollständig allein ein – Gesang, Gitarre, Bass, Schlagzeug, Keyboards, insgesamt rund 27 verschiedene Instrumente, im Alter von erst 19 Jahren. Sein Gitarrenspiel gilt bis heute als eines der technisch und ausdrucksstärksten der Rockgeschichte: Das Solo in „Purple Rain" wird regelmäßig neben Arbeiten von Jimi Hendrix genannt, und sein legendärer Auftritt bei der Rock-and-Roll-Hall-of-Fame-Hommage an George Harrison 2004 („While My Guitar Gently Weeps") gilt als eines der bedeutendsten Gitarrensoli, die je live gespielt wurden.</p>
+          <p class="vb-intro">Dazu kam eine stimmliche Bandbreite vom tiefen Bariton bis zu einem makellos kontrollierten Falsett, eine Produktionsarbeit, die Funk, Rock, Pop, R&B und New Wave souverän ineinander verschmolz, und eine Songwriting-Begabung, die weit über das eigene Werk hinausreichte: „Nothing Compares 2 U" (zum Welthit für Sinéad O'Connor), „I Feel for You" (für Chaka Khan) und „Manic Monday" (für die Bangles) stammen allesamt aus seiner Feder. Diese fachliche Substanz ist der eigentliche Grund, warum sich das demonstrative Dreierflügel-Image nie als leere Hülle entlarvte: Das Talent, das bewiesen werden musste, war tatsächlich vorhanden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Vier mit Dreierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX4w3 zeigt sich in Princes kompromissloser Verteidigung der eigenen künstlerischen Integrität: Der jahrelange Rechtsstreit um die Kontrolle über seine eigenen Master-Tapes, den er auch um den Preis geringerer kurzfristiger kommerzieller Sichtbarkeit führte, machte ihn zu einem Vorbild für nachfolgende Künstlergenerationen im Kampf um Eigentumsrechte an der eigenen Musik.</p>
+          <p class="vb-intro">Der Schatten liegt in der Kehrseite derselben Kontrollbesessenheit: Prince war berüchtigt für seine extreme Abschottung – Mitarbeiter unterschrieben strenge Schweigeerklärungen, Interviews wurden auf ein Minimum reduziert, und noch gravierender: chronische Hüftschmerzen, Folge jahrzehntelangen Tanzens auf hohen Absätzen, wurden über Jahre verheimlicht und mit verschreibungspflichtigen Schmerzmitteln selbst behandelt, statt öffentlich oder auch nur im engsten Kreis offen zugegeben zu werden. 2016 starb er an einer versehentlichen Fentanyl-Überdosis – eine Tragödie, die zeigt, wie dieselbe Fassade, die keine Schwäche zulassen durfte, am Ende auch keine rechtzeitige Hilfe zuließ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Masken auf derselben Bühne: Prince und Freddie Mercury</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein besonders aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="krankheitsportraets-freddie-mercury">Freddie Mercury</a> (SX4w3) – ebenfalls ein Ausnahmemusiker, dessen hyperexpressive, sexuell aufgeladene Bühnenpersona in scharfem Kontrast zu einem streng kontrollierten, zurückgezogenen Privatleben stand. Beide Künstler bauten eine öffentliche Fassade von vollkommener Souveränität, während im Verborgenen eine ernste gesundheitliche Bedrohung über Jahre geheim gehalten wurde – bei Mercury die HIV-Infektion, bei Prince die Schmerzmittelabhängigkeit. Mehr dazu im <a href="javascript:void(0)" data-route="krankheitsportraets-freddie-mercury">Krankheitsporträt zu Freddie Mercury</a>.</p>
+          <p class="vb-intro">Prince Rogers Nelson bleibt das Bild eines Künstlers, der die eigene Kleinheit in grenzenlose Bühnenpräsenz verwandelte, die eigene Kontrollbesessenheit in schöpferische Unabhängigkeit und die eigene Verletzlichkeit in eine Musik, die bis heute nachwirkt – auch wenn genau diese Fassade am Ende keinen Raum mehr für das eigene Eingeständnis von Schwäche ließ.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx4", label:"Lebensmusterkompass: SX4 – Chihuahua"},
+        {route:"krankheitsportraets-freddie-mercury", label:"Krankheitsporträt: Freddie Mercury (SX4w3)"},
+        {route:"kriminalpsychologie-bonnie-parker", label:"Porträt: Bonnie Parker (SX4w3)"},
+      ])}
+    </div>
+  `);
+}

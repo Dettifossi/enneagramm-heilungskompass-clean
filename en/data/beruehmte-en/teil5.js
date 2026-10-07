@@ -2355,3 +2355,70 @@ export function markusSoederPortraitPage() {
     </div>
   `);
 }
+
+export function princeRogersNelsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-prince-rogers-nelson-portrait.jpg" alt="Prince Rogers Nelson – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-prince-rogers-nelson-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Prince Rogers Nelson</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with a Three-Wing</p>
+        <p class="krim-portrait-subtitle">Musician, 1958&ndash;2016 &ndash; Animal match: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> is tiny and impossible to overlook at once. It fears nothing larger than itself, carries itself with a confidence its size seems to contradict, and demands to be met as an equal – not despite its smallness, but through it. Beneath the demonstrative dominance sits an animal that is extraordinarily sensitive: highly emotional, bond-intensive, instantly wounded by rejection.</p>
+          <p class="vb-intro">At 5'2" (1.58 m), Prince Rogers Nelson was one of the smallest major rock stars in history – and he never compensated by fading into the background, but by doing the exact opposite: platform boots, baroque ruffled blouses, a stage presence that claimed any room the moment he entered it. Coming from Minneapolis, a city with no tradition as a music capital, he built his own complete universe there with Paisley Park – studio, stage, and retreat in one, a world that ran entirely by his own rules because he had built it himself. The Chihuahua who doesn't conquer the stage, but treats it as his own from the very start.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Four: Rivalry as Creative Fuel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In Claudio Naranjo's framework, the <strong>sexual Four (SX4)</strong> carries the Four's pain not inward but directly outward, into immediate comparison with others. Naranjo named this subtype <em>Competition</em> (in places also called <em>Hate</em>) – the burning conviction of having been shortchanged, paired with the drive to surpass exactly what one was denied. Hurt people hurt people – in the SX4 this shows as a relentless need to prove oneself, to outdo, never satisfied with what has already been achieved.</p>
+          <p class="vb-intro">For Prince, this showed in one of the most intense artistic rivalries in pop history: in the 1980s he deliberately positioned himself as the counter-model to Michael Jackson, pointedly declined a joint tour, and built his own unmistakable mythology that owed nothing to anyone. The same drive pushed him through a nearly impossible workload: at his death he left behind an archive known as "the Vault," containing an estimated several thousand unreleased songs – not out of compulsion, but because no single work was ever enough to prove what needed proving.</p>
+          <p class="vb-intro">The sexual instinct orients the Four toward immediate, often erotically charged encounter – in Prince's case through a stage persona that put explicit sexuality boldly on display (songs like "Darling Nikki" or "Head"), while his private life grew increasingly withdrawn and controlled. The intensity that revealed everything onstage was exactly the intensity that revealed almost nothing in life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Image as Weapon and Shield</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> redirects the sexual Four's rivalry from purely personal jealousy onto the public stage of success and image. An SX4 with a weak Three-wing would tend to process the same pain more introvertedly, almost self-destructively; the SX4w3 turns that pain into a flawlessly staged façade that cannot show weakness – competitive envy becomes status-seeking, vulnerability becomes perfection.</p>
+          <p class="vb-intro">In Prince, this wing was visible in every facet of his public appearance: meticulously composed stage outfits, and the symbolic name change to an unpronounceable glyph during his dispute with his record label, Warner Bros. (1993–2000), during which he appeared in public with the word "SLAVE" written on his cheek to protest what he saw as the label's enslaving control over his life's work. This was not a marketing stunt but the Three-wing in its purest form: image and self-determination became the only language through which a deeper injury could be expressed at all.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Musical Substance: A Genuine Virtuoso, Not Just an Image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Behind the staging stood a real, extraordinary musical gift. He recorded his debut album, "For You" (1978), almost entirely by himself – vocals, guitar, bass, drums, keyboards, roughly 27 different instruments in all, at just 19 years old. His guitar playing is still regarded as among the most technically and expressively accomplished in rock history: the solo on "Purple Rain" is routinely mentioned alongside Jimi Hendrix's work, and his legendary performance at the 2004 Rock and Roll Hall of Fame tribute to George Harrison ("While My Guitar Gently Weeps") is considered one of the greatest guitar solos ever played live.</p>
+          <p class="vb-intro">On top of that came a vocal range running from a deep baritone to a flawlessly controlled falsetto, a production style that fused funk, rock, pop, R&B, and new wave with total confidence, and a songwriting gift that reached far beyond his own catalogue: "Nothing Compares 2 U" (a worldwide hit for Sinéad O'Connor), "I Feel for You" (for Chaka Khan), and "Manic Monday" (for the Bangles) were all written by him. This professional substance is the real reason the demonstrative Three-wing image never unmasked itself as an empty shell: the talent that needed proving was genuinely there.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Four With a Three-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX4w3 shows in Prince's uncompromising defense of his own artistic integrity: the years-long legal battle over control of his own master tapes, fought even at the cost of reduced short-term commercial visibility, made him a model for later generations of artists fighting for ownership of their own music.</p>
+          <p class="vb-intro">The shadow lies in the flip side of that same need for control: Prince was notorious for his extreme secrecy – staff signed strict non-disclosure agreements, interviews were kept to a bare minimum, and, more gravely, chronic hip pain from decades of dancing in high heels was concealed for years and self-treated with prescription painkillers rather than openly acknowledged, even to those closest to him. In 2016 he died of an accidental fentanyl overdose – a tragedy that shows how the same façade that could not admit weakness, in the end, could not admit the need for timely help either.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Masks on the Same Stage: Prince and Freddie Mercury</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A particularly revealing comparison is <a href="javascript:void(0)" data-route="krankheitsportraets-freddie-mercury">Freddie Mercury</a> (SX4w3) – likewise an exceptional musician whose hyper-expressive, sexually charged stage persona stood in sharp contrast to a tightly controlled, withdrawn private life. Both artists built a public façade of complete command while concealing a serious health threat for years – in Mercury's case the HIV infection, in Prince's case the painkiller dependency. More in the <a href="javascript:void(0)" data-route="krankheitsportraets-freddie-mercury">illness portrait of Freddie Mercury</a>.</p>
+          <p class="vb-intro">Prince Rogers Nelson remains the image of an artist who turned his own smallness into boundless stage presence, his own need for control into creative independence, and his own vulnerability into music that still resonates today – even though that very façade, in the end, left no room for admitting his own weakness.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: subtype profile"},
+        {route:"lebensmusterkompass/sx4", label:"Life Pattern Compass: SX4 – Chihuahua"},
+        {route:"krankheitsportraets-freddie-mercury", label:"Illness portrait: Freddie Mercury (SX4w3)"},
+        {route:"kriminalpsychologie-bonnie-parker", label:"Portrait: Bonnie Parker (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
