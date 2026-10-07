@@ -2280,6 +2280,7 @@ export function sigourneyWeaverPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Sigourney Weaver prägte mit Ellen Ripley eine Frauenfigur, die weder auf Verletzlichkeit noch auf reine Härte reduziert war – eine Handlungsträgerin, die aus nüchterner Kompetenz heraus überlebt, nicht aus Zufall oder Rettung durch andere. Diese Neudefinition wirkte weit über das Science-Fiction-Genre hinaus und öffnete Rollen für körperlich präsente, gleichzeitig komplexe weibliche Hauptfiguren, die es vorher kaum gab.</p>
           <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-billy-bob-thornton">Billy Bob Thornton</a> (SO7w6) – auch bei ihm zeigt sich dieselbe pflichtbewusste Genre-Vielfalt zwischen Drama und Komödie, getragen von derselben sozialen Siebener-Energie. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-billy-bob-thornton">Porträt zu Billy Bob Thornton</a>.</p>
+          <p class="vb-intro">Ebenso erhellend ist <a href="javascript:void(0)" data-route="beruehmte-jessica-biel">Jessica Biel</a> (SO7w6): Auch sie riss bewusst ein zu eng gewordenes Image ab – bei ihr das brave Teenie-Serienbild aus „7th Heaven" – und verteidigte seitdem über Jahrzehnte dieselbe pflichtbewusste Genre-Vielfalt zwischen Horror, Action und Produzentinnen-Arbeit. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-jessica-biel">Porträt zu Jessica Biel</a>.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -2290,6 +2291,7 @@ export function sigourneyWeaverPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
         {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-jessica-biel", label:"Porträt: Jessica Biel (SO7w6)"},
         {route:"beruehmte-billy-bob-thornton", label:"Porträt: Billy Bob Thornton (SO7w6)"},
         {route:"beruehmte-ali-wong", label:"Porträt: Ali Wong (SO7w6)"},
         {route:"beruehmte-carolin-kebekus", label:"Porträt: Carolin Kebekus (SO7w6)"},
