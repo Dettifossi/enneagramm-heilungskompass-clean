@@ -4561,3 +4561,201 @@ export function enricoCarusoKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function brianWilsonKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/krankheitsportraets-brian-wilson-portrait.jpg" alt="Brian Wilson" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/krankheitsportraets-brian-wilson-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Brian Wilson</p>
+        <p class="krim-portrait-typ">SO1w2 · Social Type 1 with Two-wing · 1942–2025</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Goose</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Animal correspondence: Goose" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Brian Wilson</strong>, co-founder, principal composer, producer, and
+        arranger of the Beach Boys, is regarded as one of the most consequential studio
+        visionaries in the history of popular music – and, at the same time, as one of
+        the longest and most privately embattled artists of his generation in dealing
+        with mental illness. For more than five decades, his musical output and an
+        increasingly severe psychiatric condition were so tightly intertwined that the
+        two can hardly be told apart.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typing:</strong>
+        <strong>Wilson</strong> is assigned to the <strong>social Type One with a
+        Two-wing</strong>. Naranjo described the social One as the subtype that directs
+        its claim to perfection not primarily inward, but toward the collective – as a
+        message, as a model, as something given to the community. The Two-wing adds
+        genuine, warm devotion: the wish to give others – the band, the listeners, later
+        his own family – something concrete through one's own work, rather than merely
+        pursuing an abstract ideal. Under chronic, decades-long psychological stress,
+        Ones typically move along their stress line toward Four – and exactly that shift
+        is clearly visible in Wilson's melancholic, self-doubting "lost years" of the
+        1970s and 80s, without his core type ever changing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Responsibility for the family from an early age:</strong>
+        Already as a teenager, Wilson shouldered financial co-responsibility for his
+        family with the royalties from the first Beach Boys hits – an early expression
+        of the feeling of having to answer for the welfare of the collective.</p>
+        <p class="vb-intro"><strong>b) The first breakdown on a commercial flight:</strong>
+        In December 1964, Wilson suffered a severe panic attack and burst into tears
+        during a flight to a concert date. He withdrew from touring entirely afterward,
+        to concentrate – for the group, not only for himself – fully on songwriting and
+        studio work.</p>
+        <p class="vb-intro"><strong>c) Voices, long before they had a name:</strong>
+        As early as the 1960s, Wilson began hearing voices – a symptom he could, or
+        would, name properly neither to himself nor to others for decades, long before
+        any clinical diagnosis existed for it.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Pet Sounds as a message to the entire genre of pop music:</strong>
+        In 1966, Wilson produced <em>Pet Sounds</em>, an album he explicitly understood
+        as an answer to the Beatles – not out of personal vanity, but out of the
+        conviction that he owed pop music as a whole a new, more perfect format: dense,
+        multilayered vocal harmonies, unusual instruments such as theremin, bicycle
+        bells, and dog whistles, built with session musicians from the legendary
+        Wrecking Crew.</p>
+        <p class="vb-intro"><strong>b) SMiLE and the collapse of his own masterpiece:</strong>
+        The even more ambitious follow-up album <em>SMiLE</em> (1966/67) collapsed amid
+        growing paranoia, LSD use, and a deteriorating mental state – it remained
+        unfinished for 37 years, until Wilson completed it alone in 2004.</p>
+        <p class="vb-intro"><strong>c) A violent father as an early rupture:</strong>
+        Wilson's father Murry physically abused him as a child – one blow is said to
+        have caused permanent hearing loss in his right ear. In 1964, the brothers
+        removed their father as the band's manager; in 1969, Murry secretly sold the
+        publishing rights to the entire Beach Boys song catalog far below its value – a
+        betrayal Wilson never fully got over.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) The "lost years":</strong>
+        Throughout much of the 1970s and 80s, Wilson withdrew from public life for long
+        stretches – bedridden, severely overweight, and addicted to drugs – a deep,
+        melancholic collapse that stood in sharp contrast to the structured, collectively
+        oriented energy of his earlier years.</p>
+        <p class="vb-intro"><strong>b) Dr. Eugene Landy and the loss of control:</strong>
+        The controversial psychotherapist Eugene Landy took near-total control of
+        Wilson's life from 1975 (with an interruption, until 1991) – 24-hour
+        surveillance, co-writing credits on Wilson's solo material, growing isolation
+        from his own family. In 1991, the California medical board revoked Landy's
+        license, and a court issued a restraining order.</p>
+        <p class="vb-intro"><strong>c) Diagnosis: schizoaffective disorder:</strong>
+        Only after decades of unclear, shifting diagnoses and treatments was Wilson
+        diagnosed with schizoaffective disorder – an explanation for the voices he had
+        heard for decades, which he had mostly endured alone and unnamed.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Return rather than final loss:</strong>
+        After marrying Melinda Ledbetter in 1995, a slow, years-long return to public
+        musical life began – a rare case in this compass where decades of decline were
+        in fact followed by substantial stabilization.</p>
+        <p class="vb-intro"><strong>b) SMiLE, completed in 2004:</strong>
+        Nearly forty years after the original collapsed, Wilson finally finished the
+        album and performed it live – a rare chance to complete, within his own
+        lifetime, a work once shattered by his own psyche.</p>
+        <p class="vb-intro"><strong>c) Decades of influence on an entire industry:</strong>
+        <em>Pet Sounds</em> is still considered a direct influence on works from the
+        Beatles to countless later record producers – the "message to the genre of pop
+        music" reached its goal far beyond Wilson's own lifetime.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Creative power under extreme strain:</strong>
+        Some of Wilson's most consequential works were created precisely during his
+        periods of greatest psychological strain – as if the pressure to give the
+        community something perfect could not simply fall silent, even under extreme
+        duress.</p>
+        <p class="vb-intro"><strong>b) Withdrawal as a loss of energy, not as rest:</strong>
+        The "lost years" were not a restorative retreat but a palpable loss of all
+        outward-directed energy – an inversion of the otherwise strongly
+        collectively-oriented drive.</p>
+        <p class="vb-intro"><strong>c) Regained energy in later life:</strong>
+        The extensive world tours of his final two decades, including the major Pet
+        Sounds anniversary tour of 2016/17, showed an energy many would not have
+        thought possible after the decades before.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) Interwoven with his work for over five decades:</strong>
+        From the first panic attacks in 1964 to the dementia diagnosis made public in
+        2024 and his death in 2025, Wilson's mental illness ran through his entire body
+        of work – not a marginal chapter, but a continuous second narrative alongside
+        the musical one.</p>
+        <p class="vb-intro"><strong>b) An unusual loss of control for a social One:</strong>
+        Unlike most social Ones in this compass, who actively shape and steer their
+        message to the collective, Wilson lost control over his own story to others for
+        decades – first to his illness, then to Dr. Landy – before regaining it late in
+        life.</p>
+        <p class="vb-intro"><strong>c) A counter-model to David Bowie:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-david-bowie">David Bowie</a>,
+        also SO1w2, kept control over his own illness narrative until the very last
+        second and turned it himself into a meticulously crafted final work. Wilson's
+        path ran in the opposite direction: control was lost almost entirely first,
+        before being – unusually for this register – genuinely reclaimed in later
+        years. Both cases show how differently the same subtype can respond to the loss
+        of its own agency.</p>
+        <p class="vb-intro"><strong>d) The shift along the stress line:</strong>
+        The "lost years" can also be read as a movement along the One's stress line
+        toward Four: the otherwise outward-directed, order-giving sense of
+        responsibility tipped, over years, into brooding self-doubt, withdrawal, and a
+        feeling of deep, barely communicable otherness – classic Four traits, without
+        Wilson's core type of SO1w2 ever changing.</p>
+        <p class="vb-intro"><strong>e) A classification without determinism:</strong>
+        This does not mean that the social One's pattern inevitably leads to
+        psychiatric illness – <strong>anyone can get any illness, regardless of
+        subtype.</strong> What Wilson's case can illustrate is a pattern that recurs,
+        in practice, with the need to give the community something perfect – one
+        possible explanation among many, not a verdict. The corresponding illness
+        pattern is being developed step by step in this compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        Wilson did not know his own Enneagram pattern – the social One with a Two-wing
+        unconsciously lives out its claim to perfection until it has given the
+        community something flawless, whatever the cost. That is exactly what Wilson
+        did for years, even as his own psyche was visibly breaking apart, rather than
+        stepping back in time or seeking professional help beyond Dr. Landy. Whoever
+        does not recognize their own pattern as such pays for the perfect work with
+        their own collapse, instead of weighing the two against each other in time.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Wilson's</strong> social One with a Two-wing shows itself, in this
+        illness portrait, at its most vulnerable: a lifelong wish to give the community
+        – the band, the listeners, his own family – something perfect cost him control
+        over his own story for decades, before he reclaimed it late in life. The goose
+        that sang all its life for the formation of others lost its own voice for long
+        stretches – and, unlike many other cases in this compass, found it again in the
+        end.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"krankheitsportraets-david-bowie", label:"Illness Portrait: David Bowie (SO1w2) – counter-model: keeping control instead of losing it"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+      ])}
+    </div>
+  `);
+}

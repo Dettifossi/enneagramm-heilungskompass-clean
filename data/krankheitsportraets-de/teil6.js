@@ -495,6 +495,7 @@ export function davidBowieKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-david-bowie", label:"Porträt: David Bowie (SO1w2) – Lebenswerk"},
         {route:"krankheitsportraets-steve-jobs", label:"Krankheitsporträt: Steve Jobs (SO1w2) – gleiches Muster: Kontrolle über die eigene Krankheit"},
+        {route:"krankheitsportraets-brian-wilson", label:"Krankheitsporträt: Brian Wilson (SO1w2) – Gegenmodell: Kontrolle verlieren statt behalten"},
         {route:"krankheitsportraets-ronald-reagan", label:"Krankheitsporträt: Ronald Reagan (SO9w8) – Gegenmodell: direkte statt verschlüsselte Offenlegung"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so1", label:"Subtyp-Profil SO1"},

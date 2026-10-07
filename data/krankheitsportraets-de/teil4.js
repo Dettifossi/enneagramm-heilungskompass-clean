@@ -4768,3 +4768,214 @@ export function enricoCarusoKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function brianWilsonKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/krankheitsportraets-brian-wilson-portrait.jpg" alt="Brian Wilson" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/krankheitsportraets-brian-wilson-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Brian Wilson</p>
+        <p class="krim-portrait-typ">SO1w2 · Sozialer Typ 1 mit Zweierflügel · 1942–2025</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gans</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Tierentsprechung: Gans" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Brian Wilson</strong>, Mitgründer, Hauptkomponist, Produzent und
+        Arrangeur der Beach Boys, gilt als einer der folgenreichsten Studio-Visionäre
+        der Popmusikgeschichte – und zugleich als einer der am längsten und
+        verborgensten mit einer psychischen Erkrankung ringenden Künstler seiner
+        Generation. Über fünf Jahrzehnte hinweg verliefen sein musikalisches
+        Schaffen und eine zunehmend schwere psychiatrische Erkrankung so eng
+        ineinander verschlungen, dass sich beides kaum getrennt erzählen lässt.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Wilson</strong> wird der <strong>sozialen Eins mit Zweierflügel</strong>
+        zugeordnet. Naranjo beschrieb die soziale Eins als den Subtyp, der seinen
+        Vollkommenheitsanspruch nicht primär nach innen, sondern an das Kollektiv
+        richtet – als Botschaft, als Vorbild, als etwas, das der Gemeinschaft
+        geschenkt wird. Der Zweierflügel bringt echte, warme Zuwendung hinzu: den
+        Wunsch, anderen – der Band, den Hörern, später der eigenen Familie – mit der
+        eigenen Arbeit konkret etwas zu geben, nicht nur ein abstraktes Ideal zu
+        verfolgen. Bei chronischem, jahrzehntelangem psychischem Stress bewegen sich
+        Einser typischerweise entlang ihrer Stresslinie zur Vier – und genau diese
+        Verschiebung lässt sich in Wilsons melancholischen, selbstzweiflerischen
+        „verlorenen Jahren" der 1970er und 80er deutlich erkennen, ohne dass sich
+        sein Kerntyp dadurch verändert hätte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Verantwortung für die Familie von früh an:</strong>
+        Bereits als Teenager übernahm Wilson mit den Tantiemen der ersten Beach-Boys-Hits
+        eine finanzielle Mitverantwortung für die eigene Familie – ein früher Ausdruck
+        des Gefühls, für das Wohl des Kollektivs geradestehen zu müssen.</p>
+        <p class="vb-intro"><strong>b) Der erste Zusammenbruch auf einem Linienflug:</strong>
+        Im Dezember 1964 erlitt Wilson während eines Fluges zu einem Konzerttermin
+        eine schwere Panikattacke und brach in Tränen aus. Er zog sich daraufhin
+        vollständig vom Touren zurück, um sich – für die Gruppe, nicht nur für sich
+        selbst – ganz auf Songwriting und Studioarbeit zu konzentrieren.</p>
+        <p class="vb-intro"><strong>c) Stimmen, lange bevor sie benannt wurden:</strong>
+        Noch in den 1960er-Jahren begann Wilson, Stimmen zu hören – ein Symptom, das
+        er jahrzehntelang weder sich selbst noch anderen gegenüber richtig benennen
+        konnte oder wollte, lange bevor eine klinische Diagnose dafür vorlag.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Pet Sounds als Botschaft an die ganze Gattung Popmusik:</strong>
+        1966 produzierte Wilson mit <em>Pet Sounds</em> ein Album, das er explizit als
+        Antwort auf die Beatles verstand – nicht aus persönlicher Eitelkeit, sondern
+        aus dem Anspruch, der gesamten Popmusik ein neues, vollkommeneres Format zu
+        schenken: komplexe, mehrschichtige Vokalharmonien, ungewöhnliche Instrumente
+        wie Theremin, Fahrradklingeln und Hundepfeifen, gebaut mit Session-Musikern der
+        legendären Wrecking Crew.</p>
+        <p class="vb-intro"><strong>b) SMiLE und der Zusammenbruch des eigenen Meisterwerks:</strong>
+        Das als noch ambitionierter geplante Nachfolgealbum <em>SMiLE</em> (1966/67)
+        scheiterte inmitten zunehmender Paranoia, LSD-Konsum und eines sich
+        verschlechternden psychischen Zustands – es blieb 37 Jahre unvollendet, bis
+        Wilson es 2004 allein noch einmal zu Ende brachte.</p>
+        <p class="vb-intro"><strong>c) Ein gewalttätiger Vater als früher Bruch:</strong>
+        Wilsons Vater Murry misshandelte ihn als Kind körperlich – ein Schlag soll zu
+        einem bleibenden Hörverlust auf dem rechten Ohr geführt haben. 1964 setzten
+        die Brüder den Vater als Bandmanager ab; 1969 verkaufte Murry heimlich die
+        Verlagsrechte am gesamten Beach-Boys-Songkatalog weit unter Wert – ein Verrat,
+        den Wilson zeitlebens nicht verwand.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die „verlorenen Jahre":</strong>
+        In den 1970er- und 80er-Jahren zog sich Wilson über weite Strecken bettlägerig,
+        stark übergewichtig und drogenabhängig aus dem öffentlichen Leben zurück – ein
+        tiefer, melancholischer Einbruch, der in deutlichem Kontrast zur
+        strukturierten, auf die Gemeinschaft ausgerichteten Energie seiner früheren
+        Jahre stand.</p>
+        <p class="vb-intro"><strong>b) Dr. Eugene Landy und der Verlust der Kontrolle:</strong>
+        Der umstrittene Psychotherapeut Eugene Landy übernahm ab 1975 (mit
+        Unterbrechung bis 1991) nahezu vollständige Kontrolle über Wilsons Leben –
+        24-Stunden-Überwachung, Mitautorenschaft an dessen Solomaterial, zunehmende
+        Isolation von der eigenen Familie. 1991 entzog die kalifornische Ärztekammer
+        Landy die Zulassung, ein Gericht erließ eine Kontaktsperre.</p>
+        <p class="vb-intro"><strong>c) Diagnose Schizoaffektive Störung:</strong>
+        Erst nach Jahrzehnten unklarer, wechselnder Diagnosen und Behandlungen wurde
+        bei Wilson eine schizoaffektive Störung festgestellt – eine Erklärung für die
+        über Jahrzehnte gehörten Stimmen, die er zuvor meist allein und unbenannt
+        ertragen hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Rückkehr statt endgültiger Verlust:</strong>
+        Nach seiner Heirat mit Melinda Ledbetter 1995 begann eine langsame, über Jahre
+        andauernde Rückkehr ins öffentliche Musikleben – ein für diesen Kompass
+        seltener Fall, in dem auf jahrzehntelangen Verfall tatsächlich eine
+        weitgehende Stabilisierung folgte.</p>
+        <p class="vb-intro"><strong>b) SMiLE, vollendet 2004:</strong>
+        Fast vierzig Jahre nach dem gescheiterten Original brachte Wilson das Album
+        doch noch zu Ende und spielte es live ein – eine seltene Gelegenheit, ein
+        eigenes, einst an der eigenen Psyche zerbrochenes Werk noch zu Lebzeiten zu
+        vollenden.</p>
+        <p class="vb-intro"><strong>c) Jahrzehntelange Nachwirkung auf eine ganze Branche:</strong>
+        <em>Pet Sounds</em> gilt bis heute als direkter Einfluss auf Werke von den
+        Beatles bis zu zahllosen späteren Studio-Produzenten – die „Botschaft an die
+        Gattung Popmusik" erreichte ihr Ziel weit über Wilsons eigene Lebenszeit
+        hinaus.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Schaffenskraft im Ausnahmezustand:</strong>
+        Einige von Wilsons folgenreichsten Werken entstanden exakt in den Phasen
+        größter psychischer Belastung – als könne der Druck, der Gemeinschaft etwas
+        Vollkommenes zu schenken, auch im Ausnahmezustand nicht einfach verstummen.</p>
+        <p class="vb-intro"><strong>b) Rückzug als Energieverlust, nicht als Ruhe:</strong>
+        Die „verlorenen Jahre" waren kein erholsamer Rückzug, sondern ein spürbarer
+        Verlust jeder nach außen gerichteten Energie – ein Umkippen der sonst stark
+        kollektiv ausgerichteten Antriebskraft ins Gegenteil.</p>
+        <p class="vb-intro"><strong>c) Wiedergewonnene Energie im Alter:</strong>
+        Die ausgedehnten Welttourneen seiner letzten zwei Lebensjahrzehnte, darunter
+        die große Pet-Sounds-Jubiläumstournee 2016/17, zeigten eine Energie, die
+        viele nach den Jahrzehnten zuvor nicht mehr für möglich gehalten hätten.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Über fünf Jahrzehnte verwoben mit dem Werk:</strong>
+        Von den ersten Panikattacken 1964 bis zur 2024 öffentlich gewordenen
+        Demenzdiagnose und seinem Tod 2025 zog sich Wilsons psychische Erkrankung
+        durch sein gesamtes Schaffen – kein Randkapitel, sondern eine durchgehende
+        zweite Erzählung neben der musikalischen.</p>
+        <p class="vb-intro"><strong>b) Ein für die soziale Eins ungewöhnlicher Kontrollverlust:</strong>
+        Anders als die meisten sozialen Einser dieses Kompasses, die ihre Botschaft an
+        das Kollektiv aktiv gestalten und steuern, verlor Wilson über Jahrzehnte die
+        Kontrolle über die eigene Geschichte an andere – zuerst an die eigene
+        Erkrankung, dann an Dr. Landy –, bevor er sie in späten Lebensjahren
+        zurückgewann.</p>
+        <p class="vb-intro"><strong>c) Gegenmodell zu David Bowie:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-david-bowie">David Bowie</a>,
+        ebenfalls SO1w2, behielt die Kontrolle über die eigene Krankengeschichte bis
+        zur letzten Sekunde und verwandelte sie selbst in ein kunstvoll geformtes
+        letztes Werk. Wilsons Weg verlief umgekehrt: Die Kontrolle ging zunächst
+        vollständig verloren, bevor sie – ungewöhnlich für dieses Register – in
+        späten Jahren tatsächlich zurückerobert wurde. Beide Fälle zeigen, in wie
+        unterschiedlicher Form derselbe Subtyp mit dem Verlust der eigenen
+        Handlungsmacht umgehen kann.</p>
+        <p class="vb-intro"><strong>d) Die Verschiebung zur Stresslinie:</strong>
+        Die „verlorenen Jahre" lassen sich auch als Bewegung entlang der Stresslinie
+        der Eins zur Vier lesen: das sonst nach außen gerichtete, ordnende
+        Verantwortungsgefühl kippte über Jahre in grüblerische Selbstzweifel,
+        Rückzug und das Gefühl tiefer, kaum mitteilbarer Andersartigkeit – klassische
+        Vierer-Züge, ohne dass Wilsons Kerntyp SO1w2 sich dadurch verändert hätte.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Eins zwangsläufig zu
+        psychiatrischen Erkrankungen führt – <strong>jeder Mensch kann jede Krankheit
+        bekommen, unabhängig vom Subtyp.</strong> Was sich an Wilsons Fall zeigen
+        lässt, ist ein Muster, das bei dem Bedürfnis, der Gemeinschaft etwas
+        Vollkommenes zu schenken, in der Praxis immer wieder auffällt – eine von
+        vielen möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild
+        wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Wilson kannte sein eigenes Enneagramm-Muster nicht – die soziale Eins mit
+        Zweierflügel lebt ihren Perfektionsanspruch unbewusst so lange aus, bis er
+        der Gemeinschaft etwas Vollkommenes geschenkt hat, komme, was wolle. Genau
+        das tat Wilson über Jahre hinweg, selbst als die eigene Psyche bereits
+        erkennbar zerbrach, statt rechtzeitig kürzerzutreten oder sich professionelle
+        Hilfe jenseits von Dr. Landy zu suchen. Wer das eigene Muster nicht als
+        solches erkennt, erkauft sich das vollkommene Werk mit dem eigenen
+        Zusammenbruch, statt beides rechtzeitig gegeneinander abzuwägen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Wilsons</strong> soziale Eins mit Zweierflügel zeigt sich in diesem
+        Krankheitsporträt von ihrer verletzlichsten Seite: ein Leben lang der
+        Gemeinschaft – der Band, den Hörern, der eigenen Familie – etwas Vollkommenes
+        schenken zu wollen, kostete ihn über Jahrzehnte die Kontrolle über die eigene
+        Geschichte, bevor er sie in späten Jahren noch einmal zurückgewann. Die
+        Gans, die ihr Leben lang für die Formation anderer sang, verlor über weite
+        Strecken die eigene Stimme – und fand sie, anders als viele andere Fälle
+        dieses Kompasses, am Ende noch einmal wieder.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"krankheitsportraets-david-bowie", label:"Krankheitsporträt: David Bowie (SO1w2) – Gegenmodell: Kontrolle behalten statt verlieren"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+      ])}
+    </div>
+  `);
+}
