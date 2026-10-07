@@ -2327,6 +2327,7 @@ export function paulBocusePortraitPage() {
         {route:"beruehmte-anna-netrebko", label:"Portrait: Anna Netrebko (SP3w4)"},
         {route:"beruehmte-michael-mina", label:"Portrait: Michael Mina (SP3w2)"},
         {route:"beruehmte-gordon-ramsay", label:"Portrait: Gordon Ramsay (SP3w4)"},
+        {route:"krankheitsportraets-paul-bocuse", label:"Illness Portrait: Paul Bocuse (SP3w4) – the unspoken Parkinson's disease"},
       ])}
     </div>
   `);
