@@ -4936,3 +4936,181 @@ export function andyWarholKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function paulBocuseKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-paul-bocuse-portrait.jpg" alt="Paul Bocuse" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-paul-bocuse-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Paul Bocuse</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Viererflügel · 1926–2018</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Waschbär</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Tierentsprechung: Waschbär" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Paul Bocuse</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-paul-bocuse">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: ein
+        fortschreitendes Parkinson-Leiden in seinen letzten Lebensjahren, das er nie öffentlich
+        beim Namen nannte, während er bis fast zum Lebensende weiter persönlich in seinem
+        Restaurant präsent war.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Bocuse</strong> ist dem <strong>selbsterhaltenden Typ 3 mit Viererflügel</strong>
+        zugeordnet. Die SE3 sichert ihren Wert über konkrete, nachweisbare Leistung und
+        Unermüdlichkeit statt über öffentliche Selbstdarstellung – der Waschbär, der sich
+        geschickt und beharrlich durchschlägt, egal welche Hindernisse im Weg liegen. Der
+        Viererflügel bringt eine introspektive, authentizitätsorientierte Note hinzu. Genau
+        dieses Bedürfnis, Leistungsfähigkeit und Präsenz um jeden Preis aufrechtzuerhalten,
+        prägte auch Bocuses Umgang mit seiner Krankheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Zittern, das der Presse zuerst auffiel:</strong>
+        Ab Mitte der 2000er-Jahre bemerkten Journalisten und Gäste bei öffentlichen Auftritten
+        ein zunehmendes Zittern und eine verlangsamte Bewegung – Anzeichen, die Bocuse und sein
+        Umfeld zunächst nicht kommentierten.</p>
+        <p class="vb-intro"><strong>b) Eine Diagnose, die nie offiziell bestätigt wurde:</strong>
+        Erst Jahre später sickerten Berichte durch, wonach bei Bocuse eine Parkinson-Erkrankung
+        diagnostiziert worden sei – eine offizielle Bestätigung durch ihn selbst oder seine
+        Familie blieb jedoch zeitlebens aus.</p>
+        <p class="vb-intro"><strong>c) Die eigentliche Küchenarbeit lag da schon lange in anderen Händen:</strong>
+        Tatsächlich hatte Bocuse das operative Kochen in seinem Restaurant bereits Jahrzehnte
+        zuvor an seine Schüler und Nachfolger übergeben – seine physische Präsenz blieb jedoch
+        bis zuletzt ein zentraler, unverzichtbarer Teil des Betriebs.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Tägliche Präsenz trotz sichtbarer Verlangsamung:</strong>
+        Bocuse erschien fast täglich in seiner charakteristischen weißen Kochjacke in seinem
+        Restaurant in Collonges-au-Mont-d'Or, auch als Gehen und Stehen ihm zunehmend
+        schwerfielen.</p>
+        <p class="vb-intro"><strong>b) Fotos mit Gästen als feste Institution:</strong>
+        Das gemeinsame Foto mit Bocuse persönlich galt für Gäste des Restaurants über
+        Jahrzehnte als fester Programmpunkt – ein Ritual, das auch dann fortgesetzt wurde, als
+        die körperliche Anstrengung dafür für ihn sichtbar zunahm.</p>
+        <p class="vb-intro"><strong>c) Keine öffentliche Erklärung, kein Rückzug:</strong>
+        Anders als andere öffentliche Personen mit chronischen Erkrankungen gab Bocuse nie ein
+        Interview, in dem er seinen Gesundheitszustand direkt ansprach – er zog es vor, einfach
+        weiterzumachen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Zunehmende Hilfe bei jedem Auftritt:</strong>
+        In seinen letzten Lebensjahren benötigte Bocuse bei öffentlichen Terminen zunehmend
+        Unterstützung beim Gehen und Stehen, erschien jedoch weiterhin so oft wie möglich
+        persönlich.</p>
+        <p class="vb-intro"><strong>b) Immer kürzere, aber nie ganz ausbleibende Auftritte:</strong>
+        Die Dauer seiner öffentlichen Präsenz verkürzte sich spürbar, verschwand aber nie
+        vollständig – selbst kurze, symbolische Erscheinungen blieben ihm wichtig.</p>
+        <p class="vb-intro"><strong>c) Ein neunzigster Geburtstag mit großem öffentlichen Auftritt:</strong>
+        Noch zu seinem 90. Geburtstag 2016 nahm Bocuse trotz sichtbar fortgeschrittener
+        Erkrankung an den groß angelegten Feierlichkeiten teil, die eigens zu seinen Ehren
+        organisiert wurden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod am 20. Januar 2018:</strong>
+        Bocuse starb im Alter von 91 Jahren in seinem Wohnhaus direkt neben seinem Restaurant
+        in Collonges-au-Mont-d'Or.</p>
+        <p class="vb-intro"><strong>b) Eine Reaktion auf höchster Ebene:</strong>
+        Der französische Staatspräsident Emmanuel Macron würdigte Bocuse noch am Todestag
+        öffentlich als Symbolfigur der französischen Kochkunst.</p>
+        <p class="vb-intro"><strong>c) Das Ende einer Ära:</strong>
+        Sein Tod wurde in der internationalen Gastronomie-Welt als symbolischer Abschluss einer
+        ganzen Epoche der französischen Haute Cuisine verstanden, die er selbst über
+        Jahrzehnte mitgeprägt hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Präsenz als Leistungsnachweis:</strong>
+        Für die SE3w4 zählt sichtbare, verlässliche Präsenz als eigene Form von Leistung –
+        Bocuse hielt genau daran fest, selbst als die körperliche Realität längst eine andere
+        war.</p>
+        <p class="vb-intro"><strong>b) Keine Bühne, aber auch kein Rückzug:</strong>
+        Anders als eine stärker auf Außenwirkung ausgerichtete Drei inszenierte Bocuse seine
+        Erkrankung nie – er sprach nicht darüber, verbarg sie aber auch nicht aktiv, sondern
+        ignorierte sie schlicht durch Weitermachen.</p>
+        <p class="vb-intro"><strong>c) Die Arbeit als Identität, nicht als Tätigkeit:</strong>
+        Da seine Identität untrennbar mit seiner Rolle als präsenter Patron verbunden war,
+        bedeutete ein öffentlicher Rückzug für ihn vermutlich einen schwereren Verlust als das
+        physische Fortschreiten der Krankheit selbst.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Identität, die sich nie vom Betrieb trennen ließ:</strong>
+        Bocuse hatte sein gesamtes Erwachsenenleben um sein Restaurant und seinen Ruf als
+        Patron herum aufgebaut – eine Identität, die sich auch durch fortschreitende
+        körperliche Einschränkung nicht auflösen ließ.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im selben Subtyp:</strong>
+        Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="krankheitsportraets-wim-thoelke">Wim Thoelke</a>
+        (SE3w4), der nach einer Dreifach-Bypass-Operation 1991 fast lückenlos bei seiner
+        Fernsehshow weiterarbeitete, bis kurz vor seinem Tod. Beide zeigen dasselbe
+        SE3w4-Muster: Die öffentliche Rolle wird nicht aufgegeben, solange körperlich
+        überhaupt noch irgendeine Form der Präsenz möglich ist. Mehr dazu im
+        <a href="javascript:void(0)" data-route="krankheitsportraets-wim-thoelke">Krankheitsporträt zu Wim Thoelke</a>.</p>
+        <p class="vb-intro"><strong>c) Keine Flucht in Krankschreibung, kein später Ruhestand:</strong>
+        Bocuse ging nie offiziell in Rente und erklärte seine Erkrankung nie zum Anlass für
+        einen geregelten Rückzug – bis zuletzt blieb sein Status offiziell unverändert.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet eine Bewegungserkrankung?</strong>
+        Für eine selbsterhaltende Drei mit Viererflügel, deren Wert sich über sichtbare,
+        verlässliche Leistungsfähigkeit definiert, liegt eine Deutung nahe: Ausgerechnet eine
+        Krankheit, die genau diese körperliche Verlässlichkeit und Beweglichkeit angreift,
+        wurde zur Erkrankung seiner letzten Lebensjahre – während er sich weigerte, die damit
+        verbundene Einschränkung öffentlich anzuerkennen. Diese Deutung ist eine plausible
+        Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Drei zwangsläufig zu Parkinson
+        oder anderen Bewegungserkrankungen führt – <strong>jeder Mensch kann jede Krankheit
+        bekommen, unabhängig vom Subtyp.</strong> Was sich an Bocuses Fall zeigen lässt, ist
+        ein Muster, das beim Bedürfnis, sichtbare Leistungsfähigkeit um jeden Preis
+        aufrechtzuerhalten, in der Praxis immer wieder auffällt – eine von vielen möglichen
+        Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem Kompass
+        nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Bocuse kannte sein eigenes Muster nicht – die selbsterhaltende Drei mit Viererflügel
+        definiert den eigenen Wert über sichtbare Leistungsfähigkeit, und genau dieser
+        Instinkt ließ ihn jede öffentliche Anerkennung seiner Erkrankung vermeiden, statt
+        rechtzeitig kürzerzutreten. Wer das eigene Fixierungsmuster nicht kennt, hält an der
+        gewohnten Rolle fest, selbst wenn der Körper längst andere Signale sendet.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Bocuses</strong> Geschichte zeigt sich die selbsterhaltende Drei mit
+        Viererflügel in ihrer beständigsten Form: eine Krankheit, die nie beim Namen genannt
+        wurde, eine Präsenz, die bis fast zum letzten Tag aufrechterhalten blieb, und ein Ende,
+        das die Öffentlichkeit trotz jahrelanger sichtbarer Anzeichen dennoch überraschte. Der
+        Waschbär, der sich bis zuletzt durch jede Einschränkung hindurcharbeitete, statt sie
+        öffentlich anzuerkennen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-paul-bocuse", label:"Porträt: Paul Bocuse (SE3w4) – Lebenswerk"},
+        {route:"krankheitsportraets-wim-thoelke", label:"Krankheitsporträt: Wim Thoelke (SE3w4) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se3", label:"Subtyp-Profil SE3"},
+      ])}
+    </div>
+  `);
+}

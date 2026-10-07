@@ -4715,3 +4715,171 @@ export function andyWarholKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function paulBocuseKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-paul-bocuse-portrait.jpg" alt="Paul Bocuse" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-paul-bocuse-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Paul Bocuse</p>
+        <p class="krim-portrait-typ">SE3w4 · Self-Preservation Type 3 with Four-wing · 1926–2018</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal match: Raccoon</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se3.jpg" alt="Animal match: Raccoon" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE3")};left:${tierAvatarLeft("SE3")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Paul Bocuse</strong> is already featured as a
+        <a href="javascript:void(0)" data-route="beruehmte-paul-bocuse">portrait under Famous Personalities</a>
+        in this Compass, covering his life's work and type structure in general. This portrait
+        is devoted to a chapter barely covered there: a progressive Parkinson's condition in
+        his final years that he never publicly named, while remaining personally present at his
+        restaurant almost until the end.</p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Bocuse</strong> is assigned to the <strong>self-preservation Type 3 with a
+        Four-wing</strong>. The SE3 secures its value through concrete, demonstrable
+        achievement and tireless effort rather than public self-presentation – the raccoon that
+        works its way through, skillfully and persistently, whatever obstacles lie in its path.
+        The Four-wing adds an introspective, authenticity-oriented note. This exact need to
+        maintain capability and presence at any cost also shaped how Bocuse handled his
+        illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Early Signs</h3>
+        <p class="vb-intro"><strong>a) A tremor the press noticed first:</strong>
+        From the mid-2000s onward, journalists and guests at public appearances began noticing
+        an increasing tremor and slowed movement – signs that Bocuse and those around him
+        initially left uncommented.</p>
+        <p class="vb-intro"><strong>b) A diagnosis never officially confirmed:</strong>
+        Only years later did reports surface that Bocuse had been diagnosed with Parkinson's
+        disease – an official confirmation from him or his family never came during his
+        lifetime.</p>
+        <p class="vb-intro"><strong>c) The actual kitchen work had long since passed to others:</strong>
+        In fact, Bocuse had handed the operational cooking at his restaurant to his students
+        and successors decades earlier – his physical presence, however, remained a central,
+        indispensable part of the operation until the very end.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Daily presence despite visible slowing:</strong>
+        Bocuse appeared almost daily in his signature white chef's jacket at his restaurant in
+        Collonges-au-Mont-d'Or, even as walking and standing became increasingly difficult for
+        him.</p>
+        <p class="vb-intro"><strong>b) The photo with guests as a fixed institution:</strong>
+        A photograph together with Bocuse in person was, for decades, a fixed part of the
+        restaurant experience for guests – a ritual that continued even as the physical effort
+        it required for him visibly grew.</p>
+        <p class="vb-intro"><strong>c) No public statement, no withdrawal:</strong>
+        Unlike other public figures with chronic illnesses, Bocuse never gave an interview
+        directly addressing his health – he preferred simply to keep going.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Features</h3>
+        <p class="vb-intro"><strong>a) Increasing assistance at every appearance:</strong>
+        In his final years, Bocuse increasingly needed support walking and standing at public
+        events, yet continued to appear in person as often as possible.</p>
+        <p class="vb-intro"><strong>b) Ever shorter, but never entirely absent appearances:</strong>
+        The length of his public presence visibly shortened, but never disappeared entirely –
+        even brief, symbolic appearances remained important to him.</p>
+        <p class="vb-intro"><strong>c) A ninetieth birthday with a major public appearance:</strong>
+        Even at his 90th birthday in 2016, Bocuse took part in the large-scale celebrations
+        organized in his honor, despite visibly advanced illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Death on January 20, 2018:</strong>
+        Bocuse died at age 91 in his home directly adjoining his restaurant in
+        Collonges-au-Mont-d'Or.</p>
+        <p class="vb-intro"><strong>b) A response at the highest level:</strong>
+        French President Emmanuel Macron publicly honored Bocuse on the day of his death as a
+        symbolic figure of French culinary art.</p>
+        <p class="vb-intro"><strong>c) The end of an era:</strong>
+        His death was understood in the international culinary world as the symbolic close of
+        an entire era of French haute cuisine that he himself had helped shape for decades.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Presence as proof of capability:</strong>
+        For the SE3w4, visible, reliable presence counts as its own form of achievement –
+        Bocuse held firmly to exactly that, even as physical reality had long since become
+        something else.</p>
+        <p class="vb-intro"><strong>b) No staging, but also no withdrawal:</strong>
+        Unlike a Three more oriented toward public image-building, Bocuse never dramatized his
+        illness – he did not speak of it, but also did not actively hide it, simply ignoring it
+        by continuing to work.</p>
+        <p class="vb-intro"><strong>c) Work as identity, not as activity:</strong>
+        Since his identity was inseparable from his role as the present patron, a public
+        withdrawal likely represented a heavier loss for him than the physical progression of
+        the illness itself.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) An identity that never separated from the business:</strong>
+        Bocuse had built his entire adult life around his restaurant and his reputation as its
+        patron – an identity that progressive physical limitation could not dissolve.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        A revealing comparison is <a href="javascript:void(0)" data-route="krankheitsportraets-wim-thoelke">Wim Thoelke</a>
+        (SE3w4), who kept almost seamlessly working on his television show after a triple
+        bypass operation in 1991, right up until shortly before his death. Both show the same
+        SE3w4 pattern: the public role is not given up as long as any form of presence remains
+        physically possible at all. More in the
+        <a href="javascript:void(0)" data-route="krankheitsportraets-wim-thoelke">illness portrait of Wim Thoelke</a>.</p>
+        <p class="vb-intro"><strong>c) No retreat into sick leave, no late retirement:</strong>
+        Bocuse never officially retired and never made his illness an occasion for an orderly
+        withdrawal – to the end, his official status remained unchanged.</p>
+        <p class="vb-intro"><strong>d) Why a movement disorder, of all things?</strong>
+        For a self-preservation Three with a Four-wing, whose sense of worth is defined through
+        visible, reliable capability, one interpretation suggests itself: of all things, an
+        illness that attacks exactly that physical reliability and mobility became the illness
+        of his final years – while he refused to publicly acknowledge the limitation it
+        brought. This interpretation is a plausible reading, not a documented historical causal
+        link, and will be developed further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) Context without determinism:</strong>
+        This does not mean the self-preservation Three's pattern inevitably leads to
+        Parkinson's or other movement disorders – <strong>anyone can develop any illness,
+        regardless of subtype.</strong> What Bocuse's case can show is a pattern that keeps
+        recurring in practice around the need to maintain visible capability at any cost – one
+        of many possible explanations, not a verdict. The corresponding illness profile will be
+        developed further over time in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        Bocuse did not know his own pattern – the self-preservation Three with a Four-wing
+        defines its own worth through visible capability, and it was exactly this instinct that
+        led him to avoid any public acknowledgment of his illness instead of scaling back in
+        time. Without knowing one's own fixation pattern, one holds on to the familiar role
+        even once the body has long been sending other signals.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Bocuse's story shows the self-preservation Three with a Four-wing in its most
+        persistent form: an illness never named, a presence maintained almost to the last day,
+        and an end that still surprised the public despite years of visible signs. The raccoon
+        that kept working its way through every limitation rather than publicly acknowledging
+        it.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-paul-bocuse", label:"Portrait: Paul Bocuse (SE3w4) – life's work"},
+        {route:"krankheitsportraets-wim-thoelke", label:"Illness Portrait: Wim Thoelke (SE3w4) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se3", label:"Subtype Profile SE3"},
+      ])}
+    </div>
+  `);
+}

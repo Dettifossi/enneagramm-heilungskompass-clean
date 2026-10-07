@@ -2345,6 +2345,7 @@ export function paulBocusePortraitPage() {
         {route:"beruehmte-anna-netrebko", label:"Porträt: Anna Netrebko (SE3w4)"},
         {route:"beruehmte-michael-mina", label:"Porträt: Michael Mina (SE3w2)"},
         {route:"beruehmte-gordon-ramsay", label:"Porträt: Gordon Ramsay (SX3w4)"},
+        {route:"krankheitsportraets-paul-bocuse", label:"Krankheitsporträt: Paul Bocuse (SE3w4) – das verschwiegene Parkinson-Leiden"},
       ])}
     </div>
   `);

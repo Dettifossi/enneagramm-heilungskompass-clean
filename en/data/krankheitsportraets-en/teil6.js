@@ -4699,6 +4699,7 @@ export function wimThoelkeKrankheitsportraetPage() {
         {route:"beruehmte-wim-thoelke", label:"Portrait: Wim Thoelke (SP3w4) – Der Große Preis"},
         {route:"krankheitsportraets-bernie-madoff", label:"Illness Portrait: Bernie Madoff (SP3w4) – same subtype"},
         {route:"krankheitsportraets-osho", label:"Illness Portrait: Osho (SP3w4) – same subtype"},
+        {route:"krankheitsportraets-paul-bocuse", label:"Illness Portrait: Paul Bocuse (SP3w4) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se3", label:"Subtype Profile SP3"},
       ])}
