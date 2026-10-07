@@ -2384,3 +2384,72 @@ export function andreDuqumPortraitPage() {
     </div>
   `);
 }
+
+export function aliceWeidelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alice-weidel-portrait.jpg" alt="Alice Weidel" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-alice-weidel-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Alice Weidel</p>
+        <p class="krim-portrait-typ">SO1w9 · Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Politician, born 1979 – Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Goose</strong> is the animal of the social One – a creature that does not preach order but embodies it, and defends its territory calmly but relentlessly. Alice Weidel, an economist by training and parliamentary group leader of the AfD in the Bundestag since 2017, shows this stance in a strikingly controlled form: rather than acting through loud interjections, she presents her convictions in long, composed speeches that deliberately rely on figures, statistics, and economic-policy argument.</p>
+          <p class="vb-intro">Born in 1979 in Gütersloh, Weidel earned her doctorate at the University of Bayreuth with a dissertation on the Chinese pension system and subsequently worked for several years at Goldman Sachs, Allianz Global Investors, and Deutsche Bank, including a posting in China. She joined the newly founded AfD in 2013, became co-leader of its parliamentary group alongside Tino Chrupalla in 2017, and was her party's chancellor candidate in 2025.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Order as Vocation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> directs its perfectionism not primarily inward but at society as a whole – at the question of how a community would have to be structured to function correctly and in order by its own standards. Naranjo called this subtype <em>Inadaptability</em> – unwillingness toward what is felt to be structurally wrong.</p>
+          <p class="vb-intro">In Weidel, this shows in a consistently economic-systemic style of argument: fiscal policy, migration policy, and energy policy are treated not primarily as emotional matters but as questions of correct or faulty system design. This approach – politics as applied engineering of order rather than a pure declaration of values – is a characteristic trait of the social One, regardless of the particular conclusions it reaches in any given case.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Controlled Calm Instead of Open Agitation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> noticeably cools the One's hot, slightly moralizing core energy. It brings an ability for outward composure that makes a firmly held inner conviction more stable and harder to attack, because it does not surface as visible agitation.</p>
+          <p class="vb-intro">Weidel's public manner is a striking example of this: even in Bundestag debates where opposing speakers interrupt or provoke her, her tone usually remains noticeably calm, almost cool – a contrast to louder, more affect-driven speakers both inside and outside her own party. This controlled calm is typical of a strongly expressed Nine admixture: the One's anger is not suppressed but channeled into a disciplined, almost unmoved delivery.</p>
+          <p class="vb-intro">The shadow side of the same admixture shows in a certain imperviousness to counterarguments once a position has been taken – a stubbornness that hides behind outward composure instead of discharging in open conflict.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. A Biography Full of Contrasts to Her Own Party</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A striking feature of Weidel's biography is the contrast between her private life and the traditional family models that parts of her party publicly advocate: she lives in a registered partnership with Swiss film producer Sarah Bossard, together with two adopted sons, in Switzerland. This contrast is regularly raised both by political opponents and by members of her own party.</p>
+          <p class="vb-intro">For the social One, such a contradiction between lived reality and a publicly held claim to order is not unusual: the SO1 frequently draws a sharp line between the system it considers correct for society as a whole and its own, individual way of living – a separation that can feel entirely coherent to the person holding it, even when it reads as a contradiction from the outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO1 is the persuasive force that arises from genuine inner consistency: regardless of how one evaluates her positions, Weidel comes across as someone who is actually convinced by her own economic-policy analysis, not as someone merely playing a role.</p>
+          <p class="vb-intro">The shadow of the SO1 is the confusion of moral certainty with factual certainty: the conviction that one's own diagnosis of society's condition is not merely one possible reading but the only correct one – a certainty that leaves little room for the validity of other perspectives. With a strongly expressed Nine admixture, this anger rarely surfaces openly; it remains as an underlying hardness beneath the controlled surface.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Geese on Opposite Sides: Weidel and Friedrich Merz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What makes this portrait particularly notable is the comparison with
+          <a href="javascript:void(0)" data-route="beruehmte-friedrich-merz">Friedrich Merz</a>,
+          also SO1w9 and, as Federal Chancellor, her direct political opponent. Both carry the same inner structure: an outward-directed perfectionism that wants to order society as a whole according to clear standards of its own, moderated by the same Nine-wing, which adds patience and outward calm rather than letting the One tip into open agitation.</p>
+          <p class="vb-intro">That two people with practically identical Enneagram structures can arrive at diametrically opposed political conclusions is not a contradiction of the model but shows both its limits and its real usefulness at once: the Enneagram describes a motivational structure – <em>how</em> someone arrives at and holds their convictions – not their substantive direction. Two SO1w9s can reach, with the same unyielding consistency, completely different visions of order for the very same society.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9) – same subtype, political opponent"},
+        {route:"beruehmte-marcel-reich-ranicki", label:"Portrait: Marcel Reich-Ranicki (SO1w9)"},
+      ])}
+    </div>
+  `);
+}

@@ -2419,3 +2419,72 @@ export function ulrichOttPortraitPage() {
     </div>
   `);
 }
+
+export function aliceWeidelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-alice-weidel-portrait.jpg" alt="Alice Weidel" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-alice-weidel-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Alice Weidel</p>
+        <p class="krim-portrait-typ">SO1w9 · Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Politikerin, geb. 1979 – Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins – ein Tier, das Ordnung nicht predigt, sondern verkörpert, und das sein Revier ruhig, aber unnachgiebig verteidigt. Alice Weidel, promovierte Volkswirtin und seit 2017 Fraktionsvorsitzende der AfD im Bundestag, zeigt diese Haltung in einer auffällig kontrollierten Form: Statt in lauten Zwischenrufen zu agieren, trägt sie ihre Überzeugungen in langen, geschlossenen Reden vor, die bewusst auf Zahlen, Statistiken und wirtschaftspolitische Argumentation setzen.</p>
+          <p class="vb-intro">Geboren 1979 in Gütersloh, promovierte Weidel an der Universität Bayreuth über das chinesische Rentensystem und arbeitete anschließend mehrere Jahre für Goldman Sachs, Allianz Global Investors und die Deutsche Bank, unter anderem in China. 2013 trat sie der neu gegründeten AfD bei, 2017 wurde sie gemeinsam mit Tino Chrupalla Fraktionsvorsitzende, 2025 Kanzlerkandidatin ihrer Partei.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Ordnung als Berufung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> richtet ihren Perfektionismus nicht primär nach innen, sondern auf die Gesellschaft als Ganzes – auf die Frage, wie ein Gemeinwesen beschaffen sein müsste, um nach den eigenen Maßstäben richtig und geordnet zu funktionieren. Naranjo beschrieb diesen Subtyp als <em>Inadaptability</em> – Unnachgiebigkeit gegenüber dem, was als strukturell falsch empfunden wird.</p>
+          <p class="vb-intro">Bei Weidel zeigt sich das in einem durchgehend wirtschaftspolitisch-systemischen Argumentationsstil: Haushaltspolitik, Migrationspolitik und Energiepolitik werden nicht primär emotional, sondern als Frage korrekter oder fehlerhafter Systemgestaltung verhandelt. Diese Herangehensweise – Politik als angewandte Ordnungsfrage statt als reines Wertebekenntnis – ist ein charakteristischer Zug der sozialen Eins, unabhängig davon, zu welchen inhaltlichen Schlussfolgerungen sie im Einzelfall kommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: kontrollierte Ruhe statt offener Erregung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> kühlt die hitzige, leicht moralisierende Grundenergie der Eins spürbar ab. Er bringt eine Fähigkeit zur äußeren Gelassenheit mit sich, die eine innerlich fest gehaltene Überzeugung stabiler und schwerer angreifbar macht, weil sie nicht in sichtbarer Erregung nach außen tritt.</p>
+          <p class="vb-intro">Weidels öffentlicher Auftritt ist dafür ein auffälliges Beispiel: Selbst in Bundestagsdebatten, in denen Gegenredner sie unterbrechen oder provozieren, bleibt ihr Tonfall meist auffallend ruhig, beinahe unterkühlt – ein Kontrast zu lauteren, affektbetonten Rednern innerhalb und außerhalb ihrer eigenen Partei. Diese kontrollierte Ruhe ist typisch für eine stark ausgeprägte Neun-Beimischung: Der Zorn der Eins wird nicht unterdrückt, sondern in eine disziplinierte, fast unbewegte Vortragsform überführt.</p>
+          <p class="vb-intro">Die Schattenseite derselben Beimischung zeigt sich in einer gewissen Unzugänglichkeit für Gegenargumente, sobald ein Standpunkt einmal gefasst ist – eine Sturheit, die sich hinter der äußeren Gelassenheit verbirgt, statt sich in offenem Streit zu entladen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Eine Biografie voller Kontraste zur eigenen Partei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bemerkenswert an Weidels Biografie ist der Kontrast zwischen ihrer privaten Lebensform und den traditionellen Familienbildern, für die Teile ihrer Partei öffentlich eintreten: Sie lebt in einer eingetragenen Partnerschaft mit der Schweizer Filmproduzentin Sarah Bossard, gemeinsam mit zwei adoptierten Söhnen, in der Schweiz. Dieser Kontrast wird von politischen Gegnern wie von eigenen Parteimitgliedern regelmäßig thematisiert.</p>
+          <p class="vb-intro">Für die soziale Eins ist ein solcher Widerspruch zwischen gelebter Realität und öffentlich vertretenem Ordnungsanspruch kein Einzelfall: Die SO1 trennt häufig scharf zwischen dem System, das sie für die Gesellschaft als Ganzes für richtig hält, und der eigenen, individuellen Lebensführung – eine Trennung, die ihr selbst stimmig erscheinen kann, obwohl sie von außen als Widerspruch gelesen wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1 ist die Überzeugungskraft, die aus echter innerer Konsequenz entsteht: Weidel wirkt, unabhängig von der inhaltlichen Bewertung ihrer Positionen, wie jemand, der tatsächlich von der eigenen wirtschaftspolitischen Analyse überzeugt ist, nicht wie jemand, der bloß eine Rolle spielt.</p>
+          <p class="vb-intro">Der Schatten der SO1 ist die Verwechslung von moralischer mit faktischer Gewissheit: die Überzeugung, die eigene Diagnose der gesellschaftlichen Lage sei nicht nur eine mögliche, sondern die einzig richtige – eine Gewissheit, die wenig Raum für die Berechtigung anderer Perspektiven lässt. Bei einer stark ausgeprägten Neun-Beimischung tritt dieser Zorn selten offen zutage; er bleibt als unterschwellige Härte unter der kontrollierten Oberfläche bestehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Gänse auf entgegengesetzten Seiten: Weidel und Friedrich Merz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bemerkenswert an diesem Porträt ist der Vergleich mit
+          <a href="javascript:void(0)" data-route="beruehmte-friedrich-merz">Friedrich Merz</a>,
+          ebenfalls SO1w9 und als Bundeskanzler ihr unmittelbarer politischer Gegenspieler. Beide tragen dieselbe innere Struktur: einen nach außen gerichteten Perfektionismus, der die Gesellschaft als Ganzes nach klaren, eigenen Maßstäben ordnen will, gedämpft durch denselben Neunerflügel, der Geduld und äußere Ruhe hinzufügt, statt die Eins in offene Erregung kippen zu lassen.</p>
+          <p class="vb-intro">Dass zwei Menschen mit praktisch identischer Enneagramm-Struktur zu diametral entgegengesetzten politischen Schlussfolgerungen kommen können, ist kein Widerspruch zum Modell, sondern zeigt dessen Grenzen und seinen eigentlichen Nutzen zugleich: Das Enneagramm beschreibt eine Motivationsstruktur – <em>wie</em> jemand zu seinen Überzeugungen kommt und sie vertritt –, nicht deren inhaltliche Richtung. Zwei SO1w9 können mit derselben unnachgiebigen Konsequenz zu völlig unterschiedlichen Ordnungsvorstellungen für dieselbe Gesellschaft gelangen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-friedrich-merz", label:"Porträt: Friedrich Merz (SO1w9) – gleicher Subtyp, politischer Gegenspieler"},
+        {route:"beruehmte-marcel-reich-ranicki", label:"Porträt: Marcel Reich-Ranicki (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
