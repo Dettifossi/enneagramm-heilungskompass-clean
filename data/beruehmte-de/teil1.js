@@ -2401,3 +2401,70 @@ export function wolfgangWodargPortraitPage() {
     </div>
   `);
 }
+
+export function stanleyMandelstamPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-stanley-mandelstam-portrait.jpg" alt="Stanley Mandelstam – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-stanley-mandelstam-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Stanley Mandelstam</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Theoretischer Physiker, 1928&ndash;2016 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> baut sich keinen auffälligen Horst, sondern eine stille, geschützte Nische, von der aus sie geduldig beobachtet, bevor sie handelt. Sie jagt nicht aus dem Affekt, sondern aus einer Position vollständiger Kontrolle über das eigene Terrain – lautlos, präzise, erst im genau richtigen Moment. Ruhm interessiert sie nicht; was zählt, ist die Gewissheit, dass das eigene Wissen trägt.</p>
+          <p class="vb-intro">Stanley Mandelstam, 1928 in Johannesburg geboren, verbrachte den größten Teil seiner wissenschaftlichen Laufbahn von 1963 bis zu seiner Emeritierung an der University of California, Berkeley, wo er über fünf Jahrzehnte ein zurückgezogenes, von Selbstdarstellung praktisch freies Forscherleben führte. Die Eule, deren Horst in Berkeley lag – und die von dort aus einige der folgenreichsten Werkzeuge der modernen theoretischen Physik entwickelte, ohne je das Rampenlicht zu suchen, das ihr mehrfach angeboten wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Fünf: Sicherheit durch unangreifbares Wissen statt durch Anerkennung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Fünf (SE5)</strong> sucht Sicherheit nicht in sozialer Bestätigung oder beruflichem Status, sondern im Aufbau einer eigenen, vollständig kontrollierten Wissens- und Lebensbasis – einer ›Burg‹, die unabhängig von äußerer Anerkennung Bestand hat. Naranjo beschrieb dieses Grundmuster als Rückzug, der kein Fluchtverhalten ist, sondern eine aktiv errichtete, geschützte Basis für Beobachtung, Denken und Arbeit.</p>
+          <p class="vb-intro">Bei Mandelstam zeigte sich das in einer akademischen Laufbahn, die auffällig wenige, dafür extrem einflussreiche Veröffentlichungen umfasste. Statt der für die Teilchenphysik der 1950er- bis 1970er-Jahre typischen Flut an Fachartikeln vertraute er der eigenen, über Jahre gereiften Einsicht – und veröffentlichte ein Ergebnis erst dann, wenn es nach seinem eigenen, ungewöhnlich strengen Maßstab vollständig abgesichert war. Kollegen berichteten, dass eine von Mandelstam bestätigte Rechnung in der Fachwelt als praktisch unanfechtbar galt – eine Form von Autorität, die nicht aus Lautstärke, sondern aus der nie enttäuschten Verlässlichkeit seiner Burg erwuchs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Vorsicht und Loyalität zu einem kleinen, geprüften Kreis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> verstärkt bei der selbsterhaltenden Fünf die Neigung zu methodischer Vorsicht und zu einem kleinen, sorgfältig geprüften Kreis vertrauter Mitarbeiter, statt sich einem breiten wissenschaftlichen Netzwerk zu öffnen. Eine SE5 mit schwach ausgeprägtem Sechserflügel würde ihre Erkenntnisse eher isoliert für sich behalten; die SE5w6 baut stattdessen über Jahre verlässliche, loyale Arbeitsbeziehungen zu wenigen Doktoranden und Kollegen auf.</p>
+          <p class="vb-intro">Mandelstam betreute im Lauf seiner Karriere vergleichsweise wenige Doktoranden – von denen jedoch mehrere zu prägenden Figuren der theoretischen Physik wurden. Er mied Fachkonferenzen zunehmend, je älter er wurde, blieb aber mit einem kleinen Kreis enger wissenschaftlicher Vertrauter in direktem, oft jahrzehntelangem Austausch – eine selektive, aber tiefe Form kollegialer Bindung, die der demonstrativen Sichtbarkeit auf großen Bühnen vorgezogen wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die physikalische Substanz: Werkzeuge, auf denen ein ganzes Fachgebiet aufbaut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mandelstams fachlicher Beitrag ist keine abstrakte Randnotiz, sondern das Fundament, auf dem bis heute gearbeitet wird. 1958 führte er die nach ihm benannten ›Mandelstam-Variablen‹ (s, t, u) ein – ein mathematisches Koordinatensystem zur Beschreibung relativistischer Streuprozesse, das seither in praktisch jeder Berechnung der Teilchenphysik verwendet wird, von Lehrbüchern bis zu den Experimenten am CERN. In den folgenden Jahrzehnten trug er maßgeblich zur S-Matrix-Theorie und zur Regge-Pol-Theorie bei und lieferte mit seinen Arbeiten zu dualen Resonanzmodellen in den frühen 1970er-Jahren einen der entscheidenden gedanklichen Bausteine, aus denen sich die moderne Stringtheorie entwickelte.</p>
+          <p class="vb-intro">Für diese Beiträge galt er wiederholt als Kandidat für den Nobelpreis für Physik, den er jedoch nie erhielt – teils, weil seine zentralen Ideen von anderen Forschern in sichtbareren, leichter zuordenbaren Einzelergebnissen weitergeführt wurden, während Mandelstam selbst im Hintergrund blieb. Diese fachliche Substanz – konkrete, bis heute genutzte mathematische Werkzeuge, nicht nur abstrakter Ruf – ist der Grund, warum Physiker seinen Namen auch jenseits spezialisierter Fachkreise kennen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Fünf mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE5w6 zeigt sich in Mandelstams Fähigkeit, ein Fachgebiet mit extremer Sorgfalt vor voreiligen, später zu korrigierenden Behauptungen zu schützen – seine zurückhaltende Publikationspraxis bedeutete, dass praktisch alles, was er veröffentlichte, Bestand hatte.</p>
+          <p class="vb-intro">Der Schatten liegt in der Kehrseite derselben Zurückhaltung: Dieselbe Burg, die ihm erlaubte, in Ruhe und ohne äußeren Druck zu arbeiten, hat ihm vermutlich auch die öffentliche Anerkennung gekostet, die ihm fachlich zugestanden hätte. Während andere Forscher seine Ideen in eigenen, besser vermarkteten Arbeiten aufgriffen und dafür Nobelpreise erhielten, blieb Mandelstam selbst weitgehend unsichtbar – eine Konsequenz, die er nach allem, was überliefert ist, nie offen bedauerte, die aber ein typisches Risiko des SE5w6-Musters zeigt: Sicherheit durch Rückzug kann denselben Preis haben wie Sicherheit durch Status – nur stiller.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Burgen der Zurückhaltung: Mandelstam und Carl Friedrich Gauß</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-carl-friedrich-gauss">Carl Friedrich Gauß</a> (SE5w6) – wie Mandelstam ein Wissenschaftler, dessen Lebensmotto ›pauca sed matura‹ (wenig, aber reif) sich fast wörtlich auf Mandelstams eigene Publikationspraxis übertragen lässt. Beide hielten mathematische beziehungsweise physikalische Erkenntnisse über Jahre zurück, bis sie nach dem eigenen, unerreichbar hohen Maßstab vollständig ausgereift waren, und beide bauten sich eine akademische Burg (Göttingen bei Gauß, Berkeley bei Mandelstam), die sie über Jahrzehnte praktisch nie verließen.</p>
+          <p class="vb-intro">Stanley Mandelstam bleibt damit das Bild eines Forschers, dessen Wirkung sich nicht an öffentlicher Sichtbarkeit, sondern an der stillen, unangefochtenen Verlässlichkeit seiner Arbeit bemisst – eine Eule, die ihr Fachgebiet aus der geschützten Distanz heraus für Jahrzehnte prägte, ohne je selbst ins grelle Licht zu treten.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se5", label:"Lebensmusterkompass: SE5 – Eule"},
+        {route:"beruehmte-carl-friedrich-gauss", label:"Porträt: Carl Friedrich Gauß (SE5w6)"},
+        {route:"beruehmte-charles-darwin", label:"Porträt: Charles Darwin (SE5w6)"},
+        {route:"beruehmte-warren-buffett", label:"Porträt: Warren Buffett (SE5w6)"},
+      ])}
+    </div>
+  `);
+}

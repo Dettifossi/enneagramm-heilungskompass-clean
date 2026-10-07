@@ -251,6 +251,7 @@ export function carlFriedrichGaussPortraitPage() {
         {route:"bewusstseinsgrad-normalverteilung", label:"Bewusstseinsgrad & Gaußsche Normalverteilungskurve"},
         {route:"beruehmte-archimedes", label:"Porträt: Archimedes (SX5w4)"},
         {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6)"},
+        {route:"beruehmte-stanley-mandelstam", label:"Porträt: Stanley Mandelstam (SE5w6) – gleicher Subtyp"},
       ])}
     </div>
   `);

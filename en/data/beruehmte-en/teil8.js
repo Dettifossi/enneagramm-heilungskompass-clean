@@ -2376,3 +2376,70 @@ export function harrisonFordPortraitPage() {
     </div>
   `);
 }
+
+export function stanleyMandelstamPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-stanley-mandelstam-portrait.jpg" alt="Stanley Mandelstam – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-stanley-mandelstam-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Stanley Mandelstam</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Self-Preservation Type 5 with a Six-Wing</p>
+        <p class="krim-portrait-subtitle">Theoretical physicist, 1928&ndash;2016 &ndash; Animal match: Owl</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Owl</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>owl</strong> doesn't build a conspicuous nest, but a quiet, protected niche from which it patiently observes before acting. It doesn't hunt on impulse, but from a position of complete control over its own territory – silent, precise, only at exactly the right moment. Fame holds no interest for it; what matters is the certainty that its own knowledge holds up.</p>
+          <p class="vb-intro">Stanley Mandelstam, born in Johannesburg in 1928, spent most of his scientific career, from 1963 until his retirement, at the University of California, Berkeley, where for over five decades he led a withdrawn research life practically free of self-promotion. The owl whose nest was in Berkeley – and who from there developed some of the most consequential tools in modern theoretical physics, without ever seeking the spotlight repeatedly offered to him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Five: Security Through Unassailable Knowledge Rather Than Recognition</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Five (SE5)</strong> seeks security not in social validation or professional status, but in building its own, fully controlled base of knowledge and life – a "castle" that stands independent of outside recognition. Naranjo described this basic pattern as withdrawal that is not flight behavior, but an actively constructed, protected base for observation, thought, and work.</p>
+          <p class="vb-intro">In Mandelstam, this showed in an academic career that was conspicuously sparse in publications, yet extremely influential. Rather than joining the flood of papers typical of particle physics from the 1950s through the 1970s, he trusted his own insight, matured over years – and published a result only once it was, by his own unusually strict standard, fully secured. Colleagues reported that a calculation confirmed by Mandelstam was considered practically unassailable in the field – a form of authority that grew not out of loudness, but out of the never-disappointed reliability of his castle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Caution and Loyalty to a Small, Vetted Circle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> strengthens the self-preservation Five's tendency toward methodical caution and toward a small, carefully vetted circle of trusted collaborators, rather than opening up to a wide scientific network. An SE5 with a weak Six-wing would tend to keep its insights to itself in isolation; the SE5w6 instead builds reliable, loyal working relationships with a few doctoral students and colleagues over years.</p>
+          <p class="vb-intro">Over the course of his career, Mandelstam supervised comparatively few doctoral students – several of whom nonetheless became formative figures in theoretical physics. He increasingly avoided academic conferences as he got older, but remained in direct, often decades-long exchange with a small circle of close scientific confidants – a selective but deep form of collegial bond, preferred over demonstrative visibility on large stages.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Physical Substance: Tools an Entire Field Is Built On</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mandelstam's professional contribution is not an abstract footnote, but the foundation on which the field still works today. In 1958, he introduced the variables that now bear his name – the "Mandelstam variables" (s, t, u) – a mathematical coordinate system for describing relativistic scattering processes that has since been used in practically every calculation in particle physics, from textbooks to the experiments at CERN. In the following decades, he contributed significantly to S-matrix theory and Regge pole theory, and with his work on dual resonance models in the early 1970s supplied one of the decisive conceptual building blocks from which modern string theory developed.</p>
+          <p class="vb-intro">For these contributions he was repeatedly considered a candidate for the Nobel Prize in Physics, which he never received – partly because his central ideas were carried forward by other researchers in more visible, more easily attributable individual results, while Mandelstam himself remained in the background. This professional substance – concrete mathematical tools still in use today, not just an abstract reputation – is why physicists know his name even beyond specialized circles.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Five With a Six-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE5w6 shows in Mandelstam's ability to protect a field, with extreme care, from premature claims that would later need correcting – his restrained publishing practice meant that practically everything he published held up.</p>
+          <p class="vb-intro">The shadow lies in the flip side of that same restraint: the same castle that allowed him to work in peace, without outside pressure, likely also cost him the public recognition his work deserved. While other researchers took up his ideas in their own, better-marketed papers and received Nobel Prizes for them, Mandelstam himself remained largely invisible – a consequence that, as far as is known, he never openly regretted, but one that shows a typical risk of the SE5w6 pattern: security through withdrawal can carry the same price as security through status – just more quietly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Castles of Restraint: Mandelstam and Carl Friedrich Gauss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-carl-friedrich-gauss">Carl Friedrich Gauss</a> (SE5w6) – like Mandelstam, a scientist whose life motto "pauca sed matura" (few, but ripe) applies almost word for word to Mandelstam's own publishing practice. Both withheld mathematical or physical insights for years until they were, by their own unreachably high standard, fully mature, and both built an academic castle (Göttingen for Gauss, Berkeley for Mandelstam) that they practically never left for decades.</p>
+          <p class="vb-intro">Stanley Mandelstam thus remains the picture of a researcher whose impact is measured not by public visibility, but by the quiet, unchallenged reliability of his work – an owl that shaped its field for decades from a protected distance, without ever stepping into the glare of the spotlight itself.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se5", label:"SE5 – The Owl: subtype profile"},
+        {route:"lebensmusterkompass/se5", label:"Life Pattern Compass: SE5 – Owl"},
+        {route:"beruehmte-carl-friedrich-gauss", label:"Portrait: Carl Friedrich Gauss (SE5w6)"},
+        {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SE5w6)"},
+        {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
