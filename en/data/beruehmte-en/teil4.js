@@ -574,6 +574,7 @@ export function freddieMercuryPortraitPage() {
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
         {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3)"},
         {route:"beruehmte-chester-bennington", label:"Portrait: Chester Bennington (SX4w3)"},
+        {route:"beruehmte-prince-rogers-nelson", label:"Portrait: Prince Rogers Nelson (SX4w3)"},
       ])}
     </div>
   `);
