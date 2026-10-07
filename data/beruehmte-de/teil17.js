@@ -2475,7 +2475,7 @@ export function brianWilsonPortraitPage() {
 
         <h2 class="vb-section">4. Die musikalische Substanz: Harmonische Komplexität, die ein ganzes Genre veränderte</h2>
         <p class="vb-intro">Was Wilson tatsächlich einzigartig machte, lässt sich konkret
-        benennen: Er verfügte über absolutes Gehör und konnte dadurch hochkomplexe,
+        benennen: Er verfügte über ein absolutes Gehör und konnte dadurch hochkomplexe,
         mehrstimmige Vokalharmonien – oft über zwanzig einzeln aufgenommene, übereinandergelegte
         Gesangsspuren – im Kopf entwerfen und im Studio exakt umsetzen, mit ungewöhnlichen,
         dissonanzreichen Akkordfolgen und Schwebeakkorden, die in der Popmusik seiner Zeit
