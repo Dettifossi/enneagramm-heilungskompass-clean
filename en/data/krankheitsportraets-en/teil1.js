@@ -4546,3 +4546,172 @@ export function arnoldSchwarzeneggerKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function andyWarholKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-andy-warhol-portrait.jpg" alt="Andy Warhol" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-andy-warhol-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Andy Warhol</p>
+        <p class="krim-portrait-typ">SX5w4 · Sexual Type 5 with Four-wing · 1928–1987</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal match: Hedgehog</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx5.jpg" alt="Animal match: Hedgehog" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX5")};left:${tierAvatarLeft("SX5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Andy Warhol</strong> is already featured as a
+        <a href="javascript:void(0)" data-route="beruehmte-andy-warhol">portrait under Famous Personalities</a>
+        in this Compass, covering his life's work and type structure in general. This portrait
+        is devoted to a chapter barely covered there: a decades-long, deep-seated distrust of
+        doctors and hospitals that let him conceal a progressively worsening gallbladder
+        condition – until a routine, plannable operation in 1987 ended fatally.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Warhol</strong> is assigned to the <strong>sexual Type 5 with a Four-wing</strong>.
+        The SX5 protects itself through radical withdrawal from being overwhelmed or having
+        unwanted access forced onto its inner self – the hedgehog that curls into a ball the
+        moment it senses a threat. The Four-wing adds a further, melancholy-tinged intensity of
+        self-observation. This exact protective pattern – controlling access to one's own body
+        and inner life as tightly as possible – became a fatal trap for Warhol in how he
+        handled his illness.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Early Signs</h3>
+        <p class="vb-intro"><strong>a) A childhood spent in a sickbed:</strong>
+        At age eight, following scarlet fever, Warhol developed Sydenham's chorea
+        ('St. Vitus' Dance'), a neurological aftereffect causing involuntary movements; he
+        spent several months bedridden, partly isolated from other children, with noticeable
+        skin pigmentation patches that left him teased for years.</p>
+        <p class="vb-intro"><strong>b) The 1968 assassination attempt:</strong>
+        On June 3, 1968, Warhol was shot by Valerie Solanas, severely injuring several internal
+        organs; he barely survived and had to wear a supportive, corset-like surgical garment
+        for the rest of his life.</p>
+        <p class="vb-intro"><strong>c) A fear that never went away again:</strong>
+        After the shooting, Warhol developed, according to several associates, a pronounced,
+        lasting fear of hospitals and doctors – a fear that further sharpened his already
+        hypochondriac relationship to health, rather than prompting him toward regular
+        checkups.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Obsessed with health, resistant to doctors:</strong>
+        Warhol was a notorious hypochondriac who collected disinfectants, vitamin supplements,
+        and alternative remedies, while consistently avoiding regular medical examinations for
+        years.</p>
+        <p class="vb-intro"><strong>b) Years of ignored warning signs:</strong>
+        In his private diary entries (later published as "The Andy Warhol Diaries") he
+        repeatedly noted pain and discomfort around his gallbladder, without drawing the
+        consequence of seeing a doctor.</p>
+        <p class="vb-intro"><strong>c) Concealed even from his closest circle:</strong>
+        Even close associates at the Factory learned how serious his condition actually was
+        only shortly before the operation finally scheduled in 1987.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Features</h3>
+        <p class="vb-intro"><strong>a) An operation planned almost in secret:</strong>
+        Only in February 1987, after years of worsening symptoms, did Warhol agree to
+        gallbladder surgery – he deliberately kept the planning minimal and informed only a
+        few confidants beforehand.</p>
+        <p class="vb-intro"><strong>b) The procedure itself was technically successful:</strong>
+        The operation on February 20, 1987 at New York Hospital was initially considered
+        uncomplicated; Warhol appeared to be recovering in the first hours afterward.</p>
+        <p class="vb-intro"><strong>c) Withdrawal instead of care:</strong>
+        Against medical advice, Warhol insisted on staying alone the night after the operation,
+        without continuous private nursing – a decision that later became central to a lawsuit
+        against the hospital.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) Death in the early morning hours of February 22, 1987:</strong>
+        Warhol died of cardiac arrest resulting from post-operative complications, presumably
+        aggravated by inadequate monitoring and fluid management during aftercare.</p>
+        <p class="vb-intro"><strong>b) A later lawsuit and a quiet settlement:</strong>
+        Warhol's estate sued the hospital over alleged medical negligence; the case ended years
+        later in an out-of-court settlement whose amount was never made public.</p>
+        <p class="vb-intro"><strong>c) A death no one expected:</strong>
+        Since the procedure itself was considered routine, Warhol's sudden death left the art
+        world deeply shaken.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Control over access until the very end:</strong>
+        This exact SX5w4 pattern – strictly controlling others' access to one's inner self –
+        showed up again on the night after the operation, when Warhol chose to stay alone
+        rather than cede control to an unfamiliar night nurse.</p>
+        <p class="vb-intro"><strong>b) Observation instead of connection:</strong>
+        Even in his final diary entries, written just days before the operation, the dominant
+        mode was distanced, almost reportage-style observation of social events – not an open
+        reckoning with his own fear.</p>
+        <p class="vb-intro"><strong>c) A flawless public facade until the end:</strong>
+        Outwardly, Warhol's cool, controlled image remained intact right up to the operation –
+        nothing signaled to the public the years of concealed health decline underneath.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) An early-learned link between illness and withdrawal:</strong>
+        At just eight years old, Warhol experienced months of isolation in a sickbed – an
+        experience that may have laid the groundwork for his later relationship to illness as
+        something better hidden and endured alone than shown to others.</p>
+        <p class="vb-intro"><strong>b) A fear that set in for good in 1968:</strong>
+        The assassination attempt and the life-threatening injuries it caused turned a latent
+        wariness into a concrete fear of hospitals that was never again resolved over almost
+        two decades.</p>
+        <p class="vb-intro"><strong>c) Avoidance sustained to the last controllable moment:</strong>
+        Even once he finally decided on surgery in 1987, Warhol tried to retain as much control
+        as possible – minimal planning, few people informed, no outside night nurse.</p>
+        <p class="vb-intro"><strong>d) Why the gallbladder, of all organs?</strong>
+        For a sexual Five with a Four-wing, whose central protective pattern is withdrawal from
+        unwanted access to one's inner self, one interpretation suggests itself: of all things,
+        an internal organ whose symptoms worsened invisibly, year after year, while complete
+        external control was maintained, became the site of the decisive event. This
+        interpretation is a plausible reading, not a documented historical causal link, and
+        will be developed further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) Context without determinism:</strong>
+        This does not mean the sexual Five's pattern inevitably leads to gallbladder disease or
+        other internal ailments – <strong>anyone can develop any illness, regardless of
+        subtype.</strong> What Warhol's case can show is a pattern that keeps recurring in
+        practice around the need to strictly control any access to one's inner self – one of
+        many possible explanations, not a verdict. The corresponding illness profile will be
+        developed further over time in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        Warhol did not know his own pattern – the sexual Five with a Four-wing instinctively
+        protects itself against any unwanted access to its inner self, and it was exactly this
+        instinct that let him suppress real physical warning signs for years instead of having
+        them treated in time. Without knowing one's own avoidance pattern, one keeps holding
+        onto it even once that very holding becomes the danger.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Warhol's story shows the sexual Five with a Four-wing at its most dangerous: a
+        protective pattern meant to guard against being overwhelmed becomes fatal avoidance of
+        necessary help. The hedgehog that curled up so completely that, at the exact moment it
+        needed to open up, it was left alone.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-andy-warhol", label:"Portrait: Andy Warhol (SX5w4) – life's work"},
+        {route:"krankheitsportraets-friedrich-nietzsche", label:"Illness Portrait: Friedrich Nietzsche (SX5w4) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx5", label:"Subtype Profile SX5"},
+      ])}
+    </div>
+  `);
+}

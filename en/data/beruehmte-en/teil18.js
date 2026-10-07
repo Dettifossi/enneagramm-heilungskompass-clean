@@ -2356,6 +2356,7 @@ export function andyWarholPortraitPage() {
         {route:"beruehmte-greta-garbo", label:"Portrait: Greta Garbo (SX5w4)"},
         {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
         {route:"beruehmte-tilda-swinton", label:"Portrait: Tilda Swinton (SX5w4)"},
+        {route:"krankheitsportraets-andy-warhol", label:"Illness Portrait: Andy Warhol (SX5w4) – the concealed gallbladder disease"},
       ])}
     </div>
   `);

@@ -1071,6 +1071,7 @@ export function friedrichNietzscheKrankheitsportraetPage() {
         {route:"beruehmte-frederic-chopin", label:"Porträt: Frédéric Chopin (SX5w4)"},
         {route:"krankheitsportraets-frederic-chopin", label:"Krankheitsporträt: Frédéric Chopin (SX5w4) – dieselbe SX5w4-Parallele"},
         {route:"krankheitsportraets-blaise-pascal", label:"Krankheitsporträt: Blaise Pascal (SX5w6)"},
+        {route:"krankheitsportraets-andy-warhol", label:"Krankheitsporträt: Andy Warhol (SX5w4) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx5", label:"Subtyp-Profil SX5"},
       ])}

@@ -4757,3 +4757,182 @@ export function arnoldSchwarzeneggerKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function andyWarholKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-andy-warhol-portrait.jpg" alt="Andy Warhol" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-andy-warhol-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Andy Warhol</p>
+        <p class="krim-portrait-typ">SX5w4 · Sexueller Typ 5 mit Viererflügel · 1928–1987</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Igel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx5.jpg" alt="Tierentsprechung: Igel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX5")};left:${tierAvatarLeft("SX5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Andy Warhol</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-andy-warhol">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um sein Lebenswerk und seine Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort kaum vorkommt: ein
+        jahrzehntelang gepflegtes, tief sitzendes Misstrauen gegenüber Ärzten und
+        Krankenhäusern, das ihn eine fortschreitende Gallenblasenerkrankung verschweigen ließ
+        – bis eine eigentlich planbare Operation 1987 tödlich endete.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Warhol</strong> ist dem <strong>sexuellen Typ 5 mit Viererflügel</strong>
+        zugeordnet. Die SX5 schützt sich durch radikalen Rückzug vor Überwältigung und
+        unerwünschtem Zugriff auf das eigene Innere – der Igel, der sich einrollt, sobald eine
+        Bedrohung spürbar wird. Der Viererflügel bringt eine zusätzliche, melancholisch
+        gefärbte Intensität der Selbstbeobachtung hinzu. Genau dieses Schutzmuster – Zugang zum
+        eigenen Körper und Innenleben so weit wie möglich zu kontrollieren – wurde für Warhol
+        im Umgang mit seiner Krankheit zur tödlichen Falle.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine Kindheit im Krankenbett:</strong>
+        Im Alter von acht Jahren erkrankte Warhol nach Scharlach an Sydenham-Chorea (›St.-Veits-Tanz‹), einer
+        neurologischen Nachwirkung mit unwillkürlichen Bewegungen; er verbrachte mehrere
+        Monate bettlägerig, teils isoliert von Gleichaltrigen, mit auffälligen
+        Hautpigmentflecken, die ihn jahrelang hänseln ließen.</p>
+        <p class="vb-intro"><strong>b) Das Attentat von 1968:</strong>
+        Am 3. Juni 1968 wurde Warhol von Valerie Solanas niedergeschossen, mehrere innere
+        Organe wurden schwer verletzt; er überlebte nur knapp und musste für den Rest seines
+        Lebens einen stützenden Chirurgie-Korsett-artigen Verband tragen.</p>
+        <p class="vb-intro"><strong>c) Eine Angst, die seither nie wieder verschwand:</strong>
+        Nach dem Attentat entwickelte Warhol laut mehreren Weggefährten eine ausgeprägte,
+        dauerhafte Furcht vor Krankenhäusern und Ärzten – eine Angst, die seinen ohnehin
+        hypochondrischen Umgang mit Gesundheit zusätzlich verschärfte, statt ihn zu
+        regelmäßigen Kontrollen zu bewegen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Besessen von Gesundheit, abweisend gegenüber Ärzten:</strong>
+        Warhol war ein notorischer Hypochonder, der Desinfektionsmittel, Vitaminpräparate und
+        alternative Heilmethoden sammelte, zugleich aber reguläre ärztliche Untersuchungen über
+        Jahre konsequent mied.</p>
+        <p class="vb-intro"><strong>b) Jahre mit ignorierten Warnzeichen:</strong>
+        In seinen privaten Tagebucheinträgen (später als ›The Andy Warhol Diaries‹
+        veröffentlicht) notierte er wiederholt Schmerzen und Beschwerden im Bereich der
+        Gallenblase, ohne daraus die Konsequenz eines Arztbesuchs zu ziehen.</p>
+        <p class="vb-intro"><strong>c) Verschwiegen bis in den engsten Kreis:</strong>
+        Selbst enge Mitarbeiter der Factory erfuhren erst kurz vor der schließlich
+        angesetzten Operation 1987, wie ernst sein Zustand tatsächlich war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Eine Operation, fast im Geheimen geplant:</strong>
+        Erst im Februar 1987, nach Jahren zunehmender Beschwerden, ließ sich Warhol zu einer
+        Gallenblasenoperation überreden – die Planung hielt er bewusst klein und informierte
+        nur wenige Vertraute im Voraus.</p>
+        <p class="vb-intro"><strong>b) Der Eingriff selbst verlief technisch erfolgreich:</strong>
+        Die Operation am 20. Februar 1987 im New York Hospital galt zunächst als
+        unkompliziert; Warhol schien sich in den ersten Stunden danach zu erholen.</p>
+        <p class="vb-intro"><strong>c) Rückzug statt Betreuung:</strong>
+        Entgegen ärztlichem Rat bestand Warhol darauf, in der Nacht nach der Operation allein
+        zu bleiben, ohne durchgehende private Nachtwache – eine Entscheidung, die später im
+        Zentrum einer Klage gegen das Krankenhaus stand.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Tod in den frühen Morgenstunden des 22. Februar 1987:</strong>
+        Warhol starb an einem Herzstillstand infolge postoperativer Komplikationen, mutmaßlich
+        begünstigt durch eine unzureichende Überwachung und Flüssigkeitszufuhr in der
+        Nachsorge.</p>
+        <p class="vb-intro"><strong>b) Eine spätere Klage und ein stiller Vergleich:</strong>
+        Warhols Nachlassverwalter verklagten das Krankenhaus wegen mutmaßlicher
+        Behandlungsfehler; der Fall endete Jahre später mit einem außergerichtlichen, nie
+        öffentlich bezifferten Vergleich.</p>
+        <p class="vb-intro"><strong>c) Ein Tod, der niemand erwartet hatte:</strong>
+        Da der Eingriff selbst als Routine-Operation galt, löste Warhols plötzlicher Tod in der
+        Kunstwelt tiefe Fassungslosigkeit aus.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kontrolle über den Zugang bis zuletzt:</strong>
+        Genau das SX5w4-Muster, den Zugriff anderer auf das eigene Innere strikt zu steuern,
+        zeigte sich noch in der Nacht nach der Operation – als Warhol lieber allein blieb, als
+        Kontrolle an eine fremde Nachtschwester abzugeben.</p>
+        <p class="vb-intro"><strong>b) Beobachtung statt Verbindung:</strong>
+        Auch in seinen letzten Tagebucheinträgen, wenige Tage vor der Operation entstanden,
+        dominierte die distanzierte, fast reportagehafte Beobachtung gesellschaftlicher
+        Ereignisse – nicht die offene Auseinandersetzung mit der eigenen Angst.</p>
+        <p class="vb-intro"><strong>c) Eine makellose öffentliche Fassade bis zum Schluss:</strong>
+        Nach außen blieb Warhols kühles, kontrolliertes Image bis zur Operation intakt – nichts
+        deutete für die Öffentlichkeit auf die jahrelang verschwiegene gesundheitliche
+        Zuspitzung hin.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine früh gelernte Verbindung zwischen Krankheit und Rückzug:</strong>
+        Schon als Achtjähriger erlebte Warhol monatelange Isolation im Krankenbett – eine
+        Erfahrung, die möglicherweise den Grundstein für sein späteres Verhältnis zu Krankheit
+        als etwas legte, das man besser verbirgt und allein durchsteht, als es nach außen zu
+        zeigen.</p>
+        <p class="vb-intro"><strong>b) Eine Angst, die sich 1968 endgültig festsetzte:</strong>
+        Das Attentat und die damit verbundene Lebensgefahr verwandelten eine latente
+        Vorsicht in eine konkrete, über fast zwei Jahrzehnte nie wieder gelöste Furcht vor
+        Krankenhäusern.</p>
+        <p class="vb-intro"><strong>c) Vermeidung, die bis zum letzten kontrollierbaren Moment durchgehalten wurde:</strong>
+        Selbst als er sich 1987 schließlich zur Operation entschloss, versuchte Warhol, so
+        viel Kontrolle wie möglich zu behalten – kleine Planung, wenige Eingeweihte, keine
+        fremde Nachtwache.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Gallenblase?</strong>
+        Für eine sexuelle Fünf mit Viererflügel, deren zentrales Schutzmuster der Rückzug vor
+        unerwünschtem Zugriff auf das eigene Innere ist, liegt eine Deutung nahe: Ausgerechnet
+        ein inneres Organ, dessen Beschwerden sich jahrelang unsichtbar nach innen verschlimmerten,
+        während nach außen vollständige Kontrolle gewahrt blieb, wurde zum Ort der
+        Entscheidung. Diese Deutung ist eine plausible Interpretation, kein belegter
+        historischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Fünf zwangsläufig zu
+        Gallenblasenerkrankungen oder anderen inneren Leiden führt – <strong>jeder Mensch kann
+        jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Warhols Fall
+        zeigen lässt, ist ein Muster, das beim Bedürfnis, jeden Zugriff auf das eigene Innere
+        strikt zu kontrollieren, in der Praxis immer wieder auffällt – eine von vielen
+        möglichen Erklärungen, kein Urteil. Das entsprechende Krankheitsbild wird in diesem
+        Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Warhol kannte sein eigenes Muster nicht – die sexuelle Fünf mit Viererflügel schützt
+        sich instinktiv vor jedem unerwünschten Zugriff auf das eigene Innere, und genau dieser
+        Instinkt ließ ihn Jahre lang reale körperliche Warnzeichen verdrängen, statt sie
+        rechtzeitig behandeln zu lassen. Wer das eigene Vermeidungsmuster nicht kennt, hält
+        selbst dann noch an ihm fest, wenn genau dieses Festhalten zur Gefahr wird.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        In <strong>Warhols</strong> Geschichte zeigt sich die sexuelle Fünf mit Viererflügel in
+        ihrer gefährlichsten Ausprägung: ein Schutzmuster, das vor Überwältigung bewahren soll,
+        wird zur tödlichen Vermeidung notwendiger Hilfe. Der Igel, der sich so vollständig
+        einrollte, dass er genau in dem Moment, in dem er sich hätte öffnen müssen, allein
+        blieb.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-andy-warhol", label:"Porträt: Andy Warhol (SX5w4) – Lebenswerk"},
+        {route:"krankheitsportraets-friedrich-nietzsche", label:"Krankheitsporträt: Friedrich Nietzsche (SX5w4) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx5", label:"Subtyp-Profil SX5"},
+      ])}
+    </div>
+  `);
+}
