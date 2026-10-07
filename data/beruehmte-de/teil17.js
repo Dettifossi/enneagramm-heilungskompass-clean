@@ -2483,7 +2483,8 @@ export function brianWilsonPortraitPage() {
         Vibrations</em> setzte er mit den Session-Musikern der legendären Wrecking Crew
         ungewöhnliche Klangquellen ein – Theremin, Fahrradklingeln, Hundepfeifen, eine
         Coca-Cola-Dose als Percussion-Instrument – und nahm Songteile modular und nichtlinear
-        auf, um sie später wie Puzzleteile zu einem Ganzen zusammenzusetzen. Paul McCartney
+        auf, um sie später wie Puzzleteile zu einem Ganzen zusammenzusetzen.
+        <a href="javascript:void(0)" data-route="beruehmte-paul-mccartney">Paul McCartney</a>
         bezeichnete <em>God Only Knows</em> wiederholt als „den größten Song, der je geschrieben
         wurde", und <em>Pet Sounds</em> gilt als direkter Auslöser für die Beatles, mit
         <em>Sgt. Pepper's Lonely Hearts Club Band</em> ein vergleichbar durchkomponiertes
@@ -2528,6 +2529,7 @@ export function brianWilsonPortraitPage() {
         {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
         {route:"beruehmte-david-bowie", label:"Porträt: David Bowie (SO1w2) – gleicher Subtyp"},
         {route:"beruehmte-juergen-klopp", label:"Porträt: Jürgen Klopp (SO1w2)"},
+        {route:"beruehmte-paul-mccartney", label:"Porträt: Paul McCartney (SE4w5)"},
         {route:"krankheitsportraets-brian-wilson", label:"Krankheitsporträt: Brian Wilson (SO1w2) – schizoaffektive Störung"},
       ])}
     </div>

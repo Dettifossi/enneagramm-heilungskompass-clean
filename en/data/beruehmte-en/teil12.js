@@ -1322,6 +1322,7 @@ export function paulMccartneyPortraitPage() {
         {route:"beruehmte-karoline-herfurth", label:"Portrait: Karoline Herfurth (SP4w5)"},
         {route:"beruehmte-clemens-arvay", label:"Portrait: Clemens G. Arvay (SP4w5)"},
         {route:"bibel-andreas", label:"Bible Portrait: Andrew (SE4w5)"},
+        {route:"beruehmte-brian-wilson", label:"Portrait: Brian Wilson (SO1w2) – on 'God Only Knows'"},
       ])}
     </div>
   `);

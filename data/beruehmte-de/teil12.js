@@ -1322,6 +1322,7 @@ export function paulMccartneyPortraitPage() {
         {route:"beruehmte-karoline-herfurth", label:"Portr\u00e4t: Karoline Herfurth (SE4w5)"},
         {route:"beruehmte-clemens-arvay", label:"Portr\u00e4t: Clemens G. Arvay (SE4w5)"},
         {route:"bibel-andreas", label:"Bibel-Portr\u00e4t: Andreas (SE4w5)"},
+        {route:"beruehmte-brian-wilson", label:"Portr\u00e4t: Brian Wilson (SO1w2) \u2013 \u00fcber \u203aGod Only Knows\u2039"},
       ])}
     </div>
   `);

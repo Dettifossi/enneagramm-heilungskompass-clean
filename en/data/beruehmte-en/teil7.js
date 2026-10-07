@@ -2443,7 +2443,9 @@ export function brianWilsonPortraitPage() {
         unusual sound sources with the session musicians of the legendary Wrecking Crew –
         theremin, bicycle bells, dog whistles, a Coca-Cola can as a percussion instrument – and
         recorded song sections modularly and non-linearly, later assembling them like puzzle
-        pieces into a whole. Paul McCartney repeatedly called <em>God Only Knows</em> "the
+        pieces into a whole.
+        <a href="javascript:void(0)" data-route="beruehmte-paul-mccartney">Paul McCartney</a>
+        repeatedly called <em>God Only Knows</em> "the
         greatest song ever written," and <em>Pet Sounds</em> is widely credited as the direct
         trigger for the Beatles' decision to attempt a similarly through-composed concept
         album with <em>Sgt. Pepper's Lonely Hearts Club Band</em>. Musicologists still count
@@ -2484,6 +2486,7 @@ export function brianWilsonPortraitPage() {
         {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
         {route:"beruehmte-david-bowie", label:"Portrait: David Bowie (SO1w2) – same subtype"},
         {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
+        {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
         {route:"krankheitsportraets-brian-wilson", label:"Illness Portrait: Brian Wilson (SO1w2) – schizoaffective disorder"},
       ])}
     </div>
