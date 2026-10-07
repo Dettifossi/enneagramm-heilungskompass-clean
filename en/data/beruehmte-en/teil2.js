@@ -1176,7 +1176,7 @@ export function franzSchubertPortraitPage() {
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3) – whom Schubert revered throughout his life"},
         {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fjodor Dostojewski (SE6w5)"},
         {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
-        {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SO4w5) – German-language song art compared, different core pattern"},
+        {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SE6w7) – same core type, German-language song art compared"},
         {route:"krankheitsportraets-fjodor-dostojewski", label:"Illness Portrait: Fjodor Dostoevsky (SE6w5)"},
         {route:"krankheitsportraets-franz-schubert", label:"Illness Portrait: Franz Schubert – Syphilis & Winterreise"},
       ])}

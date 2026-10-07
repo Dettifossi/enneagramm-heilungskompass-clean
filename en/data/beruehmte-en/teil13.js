@@ -1552,6 +1552,7 @@ export function woodyAllenPortraitPage() {
           <p class="vb-intro">The healing path of the Six leads from the question <em>What if everything goes wrong?</em> to the recognition <em>I can live with fear &ndash; and even make something of it.</em> For the SP6w7, this means not fighting one's own vigilance, but turning it into movement, into language, into work, without losing oneself in the next distraction.</p>
           <p class="vb-intro">Woody Allen has walked this path across six decades in his own, contradictory way: he has turned his fear into a body of work larger than the fear itself &ndash; and yet never arrived at a place where the fear finally fell silent. The rabbit that never stops being watchful &ndash; but that has learned to turn vigilance into art.</p>
           <p class="vb-intro">Well into his nineties, Woody Allen still makes films &ndash; at the same rhythm, with the same clarinet on Monday nights, in the same city. That is the Self-Preservation Six with Seven-wing: fear that never fully disappears &ndash; but that, as long as one keeps working, never gets the last word.</p>
+          <p class="vb-intro">A revealing comparison across the Atlantic is <a href="javascript:void(0)" data-route="beruehmte-reinhard-mey">Reinhard Mey</a> (SE6w7): he too has kept an unchanged stage fright for over fifty years despite decades of stage experience, he too keeps his private life tightly shielded, and in him too the Seven-wing turns the same vigilance into word-rich, gentle satire rather than withdrawal &ndash; only in German, and with a guitar instead of a clarinet and a camera. More in the <a href="javascript:void(0)" data-route="beruehmte-reinhard-mey">portrait of Reinhard Mey</a>.</p>
         </blockquote>
 
       </div>
@@ -1561,6 +1562,7 @@ export function woodyAllenPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
+        {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SE6w7) – the same vigilance, turned into satire instead of humor"},
         {route:"beruehmte-beatrice-chebet", label:"Portrait: Beatrice Chebet (SP6w7)"},
         {route:"beruehmte-neil-armstrong", label:"Portrait: Neil Armstrong (SP6w5)"},
         {route:"krankheitsportraets-woody-allen", label:"Illness Portrait: Woody Allen (SP6w7) – lifelong hypochondria"},
