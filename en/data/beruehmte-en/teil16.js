@@ -2370,7 +2370,7 @@ export function jessicaBielPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jessica-biel-portrait.jpg" alt="Jessica Biel – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jessica-biel-portrait.jpg" alt="Jessica Biel – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-jessica-biel-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Jessica Biel</p>
         <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-Wing</p>
