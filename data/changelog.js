@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2459", date: "2026-10-07", text: "Neues Porträt: Veronica Ferres (SX6w5) – Schauspielerin und Produzentin, ›Das Superweib‹.", text_en: "New portrait: Veronica Ferres (SX6w5) – actress and producer, \"Das Superweib\".", route: "beruehmte-veronica-ferres" },
     { version: "v2458", date: "2026-10-07", text: "Neues Krankheitsporträt: Paul Bocuse (SE3w4) – das nie öffentlich benannte Parkinson-Leiden.", text_en: "New illness portrait: Paul Bocuse (SE3w4) – the never publicly named Parkinson's disease.", route: "krankheitsportraets-paul-bocuse" },
     { version: "v2457", date: "2026-10-07", text: "Neues Krankheitsporträt: Andy Warhol (SX5w4) – die verschwiegene Gallenblasenerkrankung.", text_en: "New illness portrait: Andy Warhol (SX5w4) – the concealed gallbladder disease.", route: "krankheitsportraets-andy-warhol" },
     { version: "v2456", date: "2026-10-07", text: "Neues Porträt: Franz Josef Strauß (SE8w9) – bayerischer Ministerpräsident.", text_en: "New portrait: Franz Josef Strauß (SE8w9) – Bavarian minister-president.", route: "beruehmte-franz-josef-strauss" },

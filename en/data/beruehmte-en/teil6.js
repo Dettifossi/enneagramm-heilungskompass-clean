@@ -2359,3 +2359,70 @@ export function lorneGreenePortraitPage() {
     </div>
   `);
 }
+
+export function veronicaFerresPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-veronica-ferres-portrait.jpg" alt="Veronica Ferres – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-veronica-ferres-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Veronica Ferres</p>
+        <p class="krim-portrait-typ">SX6w5 &middot; Sexual Type 6 with a Five-Wing</p>
+        <p class="krim-portrait-subtitle">Actress and producer, b. 1965 &ndash; Animal match: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> doesn't rely on raw individual strength but on an unshakable bond with its pack – the one ally it trusts unconditionally matters more than any chance numerical advantage among opponents. Outwardly it presents as powerful, self-assured, hard to intimidate. Underneath, though, lies an alert, almost hyper-vigilant animal that tracks precisely who deserves loyalty and who does not – and that is willing to take substantial risks for the one reliable bond.</p>
+          <p class="vb-intro">Veronica Ferres, born in 1965 in Solingen, North Rhine-Westphalia, became one of German cinema's best-known faces almost overnight with her lead role in "Das Superweib" ("The Super Woman") in 1996 – fittingly, as a woman who learns to assert herself against a hostile environment instead of adapting to it. The wolf that doesn't beg for its place but fights for it once it has decided to hold it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: Strength as a Shield</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Six (SX6)</strong> meets the fear that shapes Type 6 overall not through withdrawal but through the exact opposite: Naranjo called this subtype "Strength/Beauty" – a demonstrative, often striking facade of invulnerability meant to cover the very fear that actually lies underneath. The SX6 doesn't seek many loose alliances, but the one intense, almost unconditional connection to a reliable counterpart – and is willing to take unusual risks for that connection.</p>
+          <p class="vb-intro">For Ferres, this pattern showed most clearly in 2002, when her then-relationship with French Vivendi Universal CEO Jean-Marie Messier became one of the biggest media scandals in European business history: the publicly revealed affair coincided with the dramatic collapse of Messier's company and his dismissal, and overnight made Ferres a target of international tabloid coverage. Rather than withdrawing, she publicly defended the relationship – behavior typical of the SX6: once an intense bond has been entered into, it is not abandoned even under substantial public pressure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Control Over One's Own Narrative</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> brings a reserved, observant component to the SX6's otherwise expressive, impact-oriented energy: an SX6 with a weak Five-wing would tend to carry its intensity outward spontaneously; the SX6w5 first processes that same intensity internally and consciously decides what, if anything, reaches the outside world at all.</p>
+          <p class="vb-intro">In Ferres this shows as a striking constant across decades: despite permanent tabloid attention, she rarely offers deep insight into her actual inner life in interviews, instead sticking to controlled, almost businesslike statements about her work. Even her second marriage to producer Martin Krug, entered into in 2015, receives remarkably little media coverage of private details – unusual for someone whose career is so closely tied to public visibility.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Entrepreneurial Substance: From Actress to International Producer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ferres's career is not exhausted by her acting presence, versatile as that has been across more than four decades – from the comedic lead in "Das Superweib" to serious television roles to international film productions. Together with her husband Martin Krug, she founded the production company Construction Film, which realizes German-international co-productions. Among the films produced under her involvement is "Two Lives" (2012), about the fate of Norwegian-German "Lebensborn" children, which was submitted for Germany as its entry for the Best Foreign Language Film Oscar in 2014.</p>
+          <p class="vb-intro">This professional substance – the step from pure performer to producer who organizes international financing and selects material of real political and historical weight – shows an entrepreneurial follow-through that goes beyond what her media image as "Superweib" alone would suggest. The wolf that doesn't rely on roles coming its way, but builds the production structures in which it creates them for itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Six With a Five-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w5 shows in Ferres's ability to withstand public pressure and repeated tabloid campaigns across decades without giving up her career or her private bonds – a resilience closely tied to the demonstrative SX6 strength.</p>
+          <p class="vb-intro">The shadow lies in the flip side of that same bonding intensity: the willingness to defend an intense connection once entered into, even against substantial public resistance, can – as visible in the Messier affair – lead to situations where private loyalty collides with significant professional and public consequences for everyone involved.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Wolves in the German Public Eye: Ferres and Alice Schwarzer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-alice-schwarzer">Alice Schwarzer</a> (SX6w5) – like Ferres, a woman who repeatedly found herself at the center of public controversy across decades without ever abandoning the demonstrative, hard-to-intimidate presence characteristic of the SX6. Both defend their positions – Schwarzer politically and in print, Ferres personally and relationally – with the same unwavering resolve, even when public pushback is substantial.</p>
+          <p class="vb-intro">Veronica Ferres thus remains the picture of an artist who never used her public strength as a pure facade, but actually translated it into decades of enduring acting and entrepreneurial substance – while maintaining strict control over what of her actual inner life becomes visible at all.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"lebensmusterkompass/sx6", label:"Life Pattern Compass: SX6 – Wolf"},
+        {route:"beruehmte-alice-schwarzer", label:"Portrait: Alice Schwarzer (SX6w5)"},
+        {route:"beruehmte-natalie-dormer", label:"Portrait: Natalie Dormer (SX6w5)"},
+        {route:"beruehmte-bella-hadid", label:"Portrait: Bella Hadid (SX6w5)"},
+      ])}
+    </div>
+  `);
+}
