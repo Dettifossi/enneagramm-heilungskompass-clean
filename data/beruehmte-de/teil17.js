@@ -2419,3 +2419,117 @@ export function fionaHarveyPortraitPage() {
     </div>
   `);
 }
+
+export function brianWilsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-brian-wilson-portrait.jpg" alt="Brian Wilson – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-brian-wilson-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Brian Wilson</p>
+        <p class="krim-portrait-typ">SO1w2 · Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Musiker, Komponist und Produzent, 1942–2025 – Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. Die Gans</h2>
+        <p class="vb-intro">Brian Wilson wurde am 20. Juni 1942 in Hawthorne, Kalifornien, geboren
+        und gründete 1961 gemeinsam mit seinen Brüdern Dennis und Carl Wilson, seinem Cousin
+        Mike Love und dem Freund Al Jardine die Beach Boys. Schon als Teenager übernahm er als
+        Hauptkomponist, Arrangeur und Produzent der Band eine Verantwortung, die weit über das
+        hinausging, was von einem Bandmitglied seines Alters erwartet wurde – eine frühe Form
+        jener Haltung, die ihn sein ganzes Leben begleitete: die eigene Begabung nicht für sich
+        zu behalten, sondern in ein möglichst vollkommenes, der ganzen Band und ihrem Publikum
+        geschenktes Werk zu verwandeln. 1964 zog er sich nach einem schweren
+        Nervenzusammenbruch auf einem Flug vollständig vom Touren zurück, um sich ganz auf
+        Songwriting und Studioarbeit zu konzentrieren – ein Schritt, der die Beach Boys von
+        einer reinen Liveband in ein Studioprojekt mit Wilson als kreativem Zentrum
+        verwandelte. Er starb am 11. Juni 2025.</p>
+
+        <h2 class="vb-section">2. Die soziale Eins: Vollkommenheit als Geschenk an das Kollektiv</h2>
+        <p class="vb-intro">Naranjo beschrieb die soziale Eins als den Subtyp, der seinen
+        Vollkommenheitsanspruch nicht in erster Linie nach innen, sondern an die Gemeinschaft
+        richtet – als Botschaft, als Vorbild, als etwas, das anderen zugutekommen soll. Bei
+        Wilson zeigte sich das in der Überzeugung, der Popmusik insgesamt ein neues, höheres
+        Format schuldig zu sein: Als er 1966 mit der Arbeit an <em>Pet Sounds</em> begann,
+        verstand er das Album explizit als Antwort auf die Beatles und als Versuch, „das
+        größte Rockalbum aller Zeiten" zu schaffen – nicht aus persönlicher Eitelkeit, sondern
+        aus der Überzeugung, dass die gesamte Gattung ein vollkommeneres Werk verdiente. Diese
+        Haltung zeigte sich auch im Kleinen: Wilson stellte seine eigene Stimme in vielen
+        Songs zugunsten der dichten, kollektiven Harmoniegesänge der Band zurück, statt sich
+        als Leadsänger in den Vordergrund zu spielen.</p>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme als Beweggrund hinter dem Perfektionsanspruch</h2>
+        <p class="vb-intro">Der Zweierflügel verleiht der sozialen Eins eine echte,
+        zwischenmenschliche Wärme, die über das reine Prinzip hinausgeht: Es geht nicht nur
+        darum, etwas Richtiges zu tun, sondern anderen Menschen konkret etwas Schönes zu
+        schenken. Wilson komponierte Songs wie <em>Wouldn't It Be Nice</em> oder <em>God Only
+        Know</em>s als unmittelbare, emotionale Botschaften an ein Publikum, das er nie
+        persönlich kannte, und investierte Monate in die Feinabstimmung einzelner
+        Harmoniestimmen, damit genau dieses Gefühl beim Hörer ankam. Auch im Umgang mit seinen
+        Brüdern und Bandkollegen zeigte sich dieselbe Zuwendung: Er schrieb Gesangsparts
+        gezielt auf die Stärken der einzelnen Stimmen zu, statt ein starres eigenes Konzept
+        durchzusetzen.</p>
+
+        <h2 class="vb-section">4. Die musikalische Substanz: Harmonische Komplexität, die ein ganzes Genre veränderte</h2>
+        <p class="vb-intro">Was Wilson tatsächlich einzigartig machte, lässt sich konkret
+        benennen: Er verfügte über absolutes Gehör und konnte dadurch hochkomplexe,
+        mehrstimmige Vokalharmonien – oft über zwanzig einzeln aufgenommene, übereinandergelegte
+        Gesangsspuren – im Kopf entwerfen und im Studio exakt umsetzen, mit ungewöhnlichen,
+        dissonanzreichen Akkordfolgen und Schwebeakkorden, die in der Popmusik seiner Zeit
+        praktisch keine Vorbilder hatten. Für <em>Pet Sounds</em> und die Single <em>Good
+        Vibrations</em> setzte er mit den Session-Musikern der legendären Wrecking Crew
+        ungewöhnliche Klangquellen ein – Theremin, Fahrradklingeln, Hundepfeifen, eine
+        Coca-Cola-Dose als Percussion-Instrument – und nahm Songteile modular und nichtlinear
+        auf, um sie später wie Puzzleteile zu einem Ganzen zusammenzusetzen. Paul McCartney
+        bezeichnete <em>God Only Knows</em> wiederholt als „den größten Song, der je geschrieben
+        wurde", und <em>Pet Sounds</em> gilt als direkter Auslöser für die Beatles, mit
+        <em>Sgt. Pepper's Lonely Hearts Club Band</em> ein vergleichbar durchkomponiertes
+        Konzeptalbum zu wagen. Musikwissenschaftler zählen das Album bis heute zu den
+        harmonisch anspruchsvollsten Werken der Popmusikgeschichte – eine fachliche Leistung,
+        die weit über bloßen Fleiß hinausgeht und die Wilson selbst, typisch für seinen
+        Subtyp, lieber als Dienst an einem höheren musikalischen Ideal denn als persönliches
+        Genie beschrieb.</p>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Eins mit Zweierflügel</h2>
+        <p class="vb-intro">Das Licht dieses Musters zeigte sich in einer Hingabe an
+        Schönheit, die ganze Generationen von Musikern prägte und bis heute nachwirkt. Der
+        Schatten lag in derselben Intensität: Der unbedingte Anspruch, der Band und der
+        Popmusik insgesamt ein vollkommenes Werk zu schenken, trug entscheidend zu Wilsons
+        psychischem Zusammenbruch Mitte der 1960er-Jahre und zu den anschließenden,
+        jahrzehntelangen „verlorenen Jahren" bei – ein Kapitel, das in diesem Kompass
+        eigens in einem
+        <a href="javascript:void(0)" data-route="krankheitsportraets-brian-wilson">Krankheitsporträt</a>
+        nachgezeichnet wird. Erst spät im Leben gewann Wilson die Kontrolle über sein Werk
+        und seine eigene Stimme zurück, unter anderem mit der vierzig Jahre verspäteten
+        Fertigstellung des einst gescheiterten Albums <em>SMiLE</em> im Jahr 2004.</p>
+
+        <h2 class="vb-section">6. Zwei Studiovisionäre derselben Subtyp-Prägung: Wilson und David Bowie</h2>
+        <p class="vb-intro">Wie
+        <a href="javascript:void(0)" data-route="beruehmte-david-bowie">David Bowie</a>,
+        ebenfalls SO1w2, verstand auch Wilson seine Kunst als eine an ein Kollektiv
+        gerichtete Botschaft, die er mit äußerster Präzision gestaltete, statt sie dem Zufall
+        zu überlassen – bei Bowie äußerte sich das in einer Kette bewusst inszenierter
+        Verwandlungen, bei Wilson in der jahrelangen, akribischen Feinarbeit an einem
+        einzigen, als vollkommen gedachten Klangbild. Beide öffneten mit ihrer Arbeit einen
+        musikalischen Raum, den vorher niemand betreten hatte, und beide bezahlten für diesen
+        Anspruch einen hohen persönlichen Preis – wenn auch auf sehr unterschiedliche Weise,
+        wie der Vergleich der beiden Krankheitsporträts zeigt.</p>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-david-bowie", label:"Porträt: David Bowie (SO1w2) – gleicher Subtyp"},
+        {route:"beruehmte-juergen-klopp", label:"Porträt: Jürgen Klopp (SO1w2)"},
+        {route:"krankheitsportraets-brian-wilson", label:"Krankheitsporträt: Brian Wilson (SO1w2) – schizoaffektive Störung"},
+      ])}
+    </div>
+  `);
+}
