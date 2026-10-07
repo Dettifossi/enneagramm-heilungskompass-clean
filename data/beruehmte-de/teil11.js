@@ -1179,6 +1179,7 @@ export function michaelJacksonPortraitPage() {
           {route:"beruehmte-heinrich-heine", label:"Portrait: Heinrich Heine (SO4w3)"},
           {route:"beruehmte-fabian-kahl", label:"Portrait: Fabian Kahl (SO4w3)"},
           {route:"beruehmte-eddie-redmayne", label:"Portrait: Eddie Redmayne (SO4w3)"},
+          {route:"beruehmte-prince-rogers-nelson", label:"Portrait: Prince Rogers Nelson (SX4w3) – die legendäre Rivalität der 1980er"},
         ])}
       </div>
     </div>

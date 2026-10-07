@@ -2413,7 +2413,7 @@ export function princeRogersNelsonPortraitPage() {
         <h2 class="vb-section">2. Die sexuelle Vier: Rivalität als schöpferischer Treibstoff</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> trägt nach Claudio Naranjo den Schmerz der Vier nicht nach innen, sondern unmittelbar nach außen, in den direkten Vergleich mit anderen. Naranjo nannte diesen Subtyp <em>Rivalität</em> (im Original stellenweise auch <em>Hass</em>) – die brennende Überzeugung, benachteiligt worden zu sein, verbunden mit dem Impuls, genau das zu übertreffen, was einem verweigert wurde. Verletzte Menschen verletzen Menschen – bei der SX4 äußert sich das als unermüdlicher Drang, sich zu beweisen, zu übertreffen, nie zufrieden zu sein mit dem, was bereits erreicht wurde.</p>
-          <p class="vb-intro">Bei Prince zeigte sich das in einer der intensivsten Künstlerrivalitäten der Popgeschichte: In den 1980er-Jahren positionierte er sich bewusst als Gegenentwurf zu Michael Jackson, lehnte eine gemeinsame Tournee demonstrativ ab und baute an einer eigenen, unverwechselbaren Mythologie, die niemandem etwas schuldete. Derselbe Antrieb trieb ihn durch ein geradezu unmögliches Arbeitspensum: Er hinterließ bei seinem Tod ein als „Vault" bekanntes Archiv mit schätzungsweise mehreren tausend unveröffentlichten Songs – nicht aus Zwanghaftigkeit, sondern weil kein einzelnes Werk je genügte, um das zu beweisen, was bewiesen werden musste.</p>
+          <p class="vb-intro">Bei Prince zeigte sich das in einer der intensivsten Künstlerrivalitäten der Popgeschichte: In den 1980er-Jahren positionierte er sich bewusst als Gegenentwurf zu <a href="javascript:void(0)" data-route="beruehmte-michael-jackson">Michael Jackson</a> (SO4w3), lehnte eine gemeinsame Tournee demonstrativ ab und baute an einer eigenen, unverwechselbaren Mythologie, die niemandem etwas schuldete. Derselbe Antrieb trieb ihn durch ein geradezu unmögliches Arbeitspensum: Er hinterließ bei seinem Tod ein als „Vault" bekanntes Archiv mit schätzungsweise mehreren tausend unveröffentlichten Songs – nicht aus Zwanghaftigkeit, sondern weil kein einzelnes Werk je genügte, um das zu beweisen, was bewiesen werden musste.</p>
           <p class="vb-intro">Der sexuelle Instinkt richtet die Vier auf die unmittelbare, oft erotisch aufgeladene Begegnung aus – bei Prince in einer Bühnenpersona, die explizite Sexualität offensiv zur Schau stellte (Songs wie „Darling Nikki" oder „Head"), während er privat zunehmend zurückgezogen und kontrolliert lebte. Die Intensität, die auf der Bühne alles zeigte, war genau die Intensität, die im Leben fast nichts preisgab.</p>
         </blockquote>
 
@@ -2451,6 +2451,7 @@ export function princeRogersNelsonPortraitPage() {
         {route:"lebensmusterkompass/sx4", label:"Lebensmusterkompass: SX4 – Chihuahua"},
         {route:"krankheitsportraets-freddie-mercury", label:"Krankheitsporträt: Freddie Mercury (SX4w3)"},
         {route:"kriminalpsychologie-bonnie-parker", label:"Porträt: Bonnie Parker (SX4w3)"},
+        {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3) – die legendäre Rivalität der 1980er"},
       ])}
     </div>
   `);

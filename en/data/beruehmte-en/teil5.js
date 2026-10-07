@@ -2380,7 +2380,7 @@ export function princeRogersNelsonPortraitPage() {
         <h2 class="vb-section">2. The Sexual Four: Rivalry as Creative Fuel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In Claudio Naranjo's framework, the <strong>sexual Four (SX4)</strong> carries the Four's pain not inward but directly outward, into immediate comparison with others. Naranjo named this subtype <em>Competition</em> (in places also called <em>Hate</em>) – the burning conviction of having been shortchanged, paired with the drive to surpass exactly what one was denied. Hurt people hurt people – in the SX4 this shows as a relentless need to prove oneself, to outdo, never satisfied with what has already been achieved.</p>
-          <p class="vb-intro">For Prince, this showed in one of the most intense artistic rivalries in pop history: in the 1980s he deliberately positioned himself as the counter-model to Michael Jackson, pointedly declined a joint tour, and built his own unmistakable mythology that owed nothing to anyone. The same drive pushed him through a nearly impossible workload: at his death he left behind an archive known as "the Vault," containing an estimated several thousand unreleased songs – not out of compulsion, but because no single work was ever enough to prove what needed proving.</p>
+          <p class="vb-intro">For Prince, this showed in one of the most intense artistic rivalries in pop history: in the 1980s he deliberately positioned himself as the counter-model to <a href="javascript:void(0)" data-route="beruehmte-michael-jackson">Michael Jackson</a> (SO4w3), pointedly declined a joint tour, and built his own unmistakable mythology that owed nothing to anyone. The same drive pushed him through a nearly impossible workload: at his death he left behind an archive known as "the Vault," containing an estimated several thousand unreleased songs – not out of compulsion, but because no single work was ever enough to prove what needed proving.</p>
           <p class="vb-intro">The sexual instinct orients the Four toward immediate, often erotically charged encounter – in Prince's case through a stage persona that put explicit sexuality boldly on display (songs like "Darling Nikki" or "Head"), while his private life grew increasingly withdrawn and controlled. The intensity that revealed everything onstage was exactly the intensity that revealed almost nothing in life.</p>
         </blockquote>
 
@@ -2418,6 +2418,7 @@ export function princeRogersNelsonPortraitPage() {
         {route:"lebensmusterkompass/sx4", label:"Life Pattern Compass: SX4 – Chihuahua"},
         {route:"krankheitsportraets-freddie-mercury", label:"Illness portrait: Freddie Mercury (SX4w3)"},
         {route:"kriminalpsychologie-bonnie-parker", label:"Portrait: Bonnie Parker (SX4w3)"},
+        {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3) – the legendary 1980s rivalry"},
       ])}
     </div>
   `);
