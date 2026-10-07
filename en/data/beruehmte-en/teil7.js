@@ -2382,3 +2382,110 @@ export function raulAguayoKrauthausenPortraitPage() {
     </div>
   `);
 }
+
+export function brianWilsonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-brian-wilson-portrait.jpg" alt="Brian Wilson – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-brian-wilson-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Brian Wilson</p>
+        <p class="krim-portrait-typ">SO1w2 · Social Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Musician, composer and producer, 1942–2025 – Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+        <h2 class="vb-section">1. The Goose</h2>
+        <p class="vb-intro">Brian Wilson was born on June 20, 1942, in Hawthorne, California, and
+        in 1961 founded the Beach Boys together with his brothers Dennis and Carl Wilson, his
+        cousin Mike Love, and friend Al Jardine. Already as a teenager, he took on
+        responsibility as the band's principal composer, arranger, and producer far beyond
+        what was expected of someone his age – an early form of the attitude that stayed with
+        him his whole life: not keeping his own talent to himself, but turning it into as
+        perfect a work as possible, given to the whole band and its audience. In 1964, after a
+        severe nervous breakdown on a flight, he withdrew from touring entirely to focus fully
+        on songwriting and studio work – a step that turned the Beach Boys from a pure live
+        band into a studio project with Wilson at its creative center. He died on June 11,
+        2025.</p>
+
+        <h2 class="vb-section">2. The social One: perfection as a gift to the collective</h2>
+        <p class="vb-intro">Naranjo described the social One as the subtype that directs its
+        claim to perfection not primarily inward, but toward the community – as a message, as
+        a model, as something meant to benefit others. In Wilson, this showed in the
+        conviction that he owed pop music as a whole a new, higher standard: when he began
+        work on <em>Pet Sounds</em> in 1966, he explicitly understood the album as an answer
+        to the Beatles and as an attempt to make "the greatest rock album ever made" – not out
+        of personal vanity, but from the conviction that the entire genre deserved a more
+        perfect work. This attitude also showed in smaller ways: Wilson often stepped back
+        from his own lead vocal on many songs in favor of the band's dense, collective
+        harmonies, rather than positioning himself as the frontman.</p>
+
+        <h2 class="vb-section">3. The Two-wing: warmth as the motive behind the claim to perfection</h2>
+        <p class="vb-intro">The Two-wing gives the social One a genuine, interpersonal warmth
+        that goes beyond mere principle: it is not just about doing the right thing, but about
+        giving other people something concretely beautiful. Wilson composed songs like
+        <em>Wouldn't It Be Nice</em> or <em>God Only Knows</em> as direct, emotional messages
+        to an audience he never knew personally, investing months in fine-tuning individual
+        harmony parts so that exactly this feeling would reach the listener. The same devotion
+        showed in how he treated his brothers and bandmates: he wrote vocal parts specifically
+        to the strengths of each individual voice, rather than imposing a rigid concept of his
+        own.</p>
+
+        <h2 class="vb-section">4. The musical substance: harmonic complexity that changed an entire genre</h2>
+        <p class="vb-intro">What actually made Wilson unique can be named concretely: he had
+        absolute pitch, which let him conceive highly complex, multi-part vocal harmonies –
+        often more than twenty separately recorded, layered vocal tracks – entirely in his
+        head and realize them precisely in the studio, with unusual, dissonance-rich chord
+        progressions and suspended chords that had practically no precedent in the pop music
+        of his time. For <em>Pet Sounds</em> and the single <em>Good Vibrations</em>, he used
+        unusual sound sources with the session musicians of the legendary Wrecking Crew –
+        theremin, bicycle bells, dog whistles, a Coca-Cola can as a percussion instrument – and
+        recorded song sections modularly and non-linearly, later assembling them like puzzle
+        pieces into a whole. Paul McCartney repeatedly called <em>God Only Knows</em> "the
+        greatest song ever written," and <em>Pet Sounds</em> is widely credited as the direct
+        trigger for the Beatles' decision to attempt a similarly through-composed concept
+        album with <em>Sgt. Pepper's Lonely Hearts Club Band</em>. Musicologists still count
+        the album among the most harmonically ambitious works in the history of pop music – a
+        technical achievement that goes far beyond mere hard work, and one that Wilson
+        himself, typically for his subtype, preferred to describe as service to a higher
+        musical ideal rather than personal genius.</p>
+
+        <h2 class="vb-section">5. Light and shadow of the social One with a Two-wing</h2>
+        <p class="vb-intro">The light of this pattern showed in a devotion to beauty that
+        shaped entire generations of musicians and still resonates today. Its shadow lay in
+        the same intensity: the unconditional claim to give the band, and pop music as a
+        whole, a perfect work contributed decisively to Wilson's psychological breakdown in
+        the mid-1960s and to the decades of "lost years" that followed – a chapter traced in
+        its own
+        <a href="javascript:void(0)" data-route="krankheitsportraets-brian-wilson">illness portrait</a>
+        in this compass. Only late in life did Wilson regain control over his work and his own
+        voice, including with the forty-years-delayed completion of the once-abandoned album
+        <em>SMiLE</em> in 2004.</p>
+
+        <h2 class="vb-section">6. Two studio visionaries of the same subtype: Wilson and David Bowie</h2>
+        <p class="vb-intro">Like
+        <a href="javascript:void(0)" data-route="beruehmte-david-bowie">David Bowie</a>, also
+        SO1w2, Wilson too understood his art as a message directed at a collective, shaped with
+        the utmost precision rather than left to chance – in Bowie's case this showed in a
+        chain of deliberately staged transformations, in Wilson's case in years of meticulous
+        fine work on a single, deliberately perfected soundscape. Both opened a musical space
+        no one had entered before, and both paid a high personal price for that claim – though
+        in very different ways, as the comparison of their two illness portraits shows.</p>
+
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from clinical practice.", "The Hidden Dynamics of the 27 Subtypes")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-david-bowie", label:"Portrait: David Bowie (SO1w2) – same subtype"},
+        {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
+        {route:"krankheitsportraets-brian-wilson", label:"Illness Portrait: Brian Wilson (SO1w2) – schizoaffective disorder"},
+      ])}
+    </div>
+  `);
+}

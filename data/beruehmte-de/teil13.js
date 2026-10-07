@@ -329,6 +329,7 @@ export function davidBowiePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so1", label:"SO1 \u2013 Subtyp-Profil"},
         {route:"beruehmte-freddie-mercury", label:"Freddie Mercury im Vergleich"},
+        {route:"beruehmte-brian-wilson", label:"Portr\u00e4t: Brian Wilson (SO1w2) \u2013 gleicher Subtyp, Studiovision\u00e4r"},
         {route:"krankheitsportraets-david-bowie", label:"Krankheitsportr\u00e4t: David Bowie (SO1w2)"},
       ])}
     </div>
