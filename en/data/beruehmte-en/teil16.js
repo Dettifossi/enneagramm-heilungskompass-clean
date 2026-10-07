@@ -2425,6 +2425,75 @@ export function jessicaBielPortraitPage() {
         {route:"beruehmte-sigourney-weaver", label:"Portrait: Sigourney Weaver (SO7w6)"},
         {route:"beruehmte-billy-bob-thornton", label:"Portrait: Billy Bob Thornton (SO7w6)"},
         {route:"beruehmte-ali-wong", label:"Portrait: Ali Wong (SO7w6)"},
+        {route:"beruehmte-justin-timberlake", label:"Portrait: Justin Timberlake (SO1w2) – her husband"},
+      ])}
+    </div>
+  `);
+}
+
+export function justinTimberlakePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-justin-timberlake-portrait.jpg" alt="Justin Timberlake – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-justin-timberlake-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Justin Timberlake</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">Singer, songwriter, and actor, b. 1981 &ndash; Animal match: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> never flies alone. It travels in formation, each bird contributing to the lift of the whole flock, and whenever the lead goose tires, another takes its place at the point. The goose knows an order it submits to, and at the same time has an unmistakable call of its own: loud, piercing, hard to ignore. It is disciplined and vocal at once – two traits that, for the goose, don't cancel each other out but reinforce one another.</p>
+          <p class="vb-intro">Justin Timberlake grew up in Tennessee and performed as a child on "The Mickey Mouse Club" – alongside Christina Aguilera, Britney Spears, and Ryan Gosling, a training ground for discipline with few equals – before becoming the frontman of *NSYNC, one of the most commercially successful boy bands in history. At the group's peak, he left to go solo, a move he publicly framed as necessary for his own artistic growth rather than as a personal break from the others. The goose that changes formation but never stops flying in one.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Showing the World How It's Done Right</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In Claudio Naranjo's Enneagram tradition, the <strong>social One (SO1)</strong> is the subtype of <em>Non-Adaptability</em> – someone who does not settle for existing conditions once a lack of fairness or care becomes visible, but feels called to actively correct it, often with missionary zeal and a standard that reaches beyond the purely private. Where the self-preservation One works on their own imperfections and the sexual One wants to reform their partner or closest circle, the social One directs their drive toward perfection at the group, the industry, society as a whole.</p>
+          <p class="vb-intro">For Timberlake, this first shows up within his own craft: since his *NSYNC years he has had a reputation for pushing higher production standards, refining vocal takes until every nuance sat right, and demanding a precision in choreography well beyond what was expected of a boy band. In 2004 he became entangled in the "wardrobe malfunction" scandal during the Super Bowl halftime show with Janet Jackson – and was publicly punished considerably more lightly than she was, even though both were involved. In 2021, seventeen years later, he issued a public apology to Janet Jackson and Britney Spears, acknowledging that he had benefited from a system that treats women in the music industry systematically more harshly than men, and that he had failed to stand up for either of them at the time. This is the social One in its purest form: not remorse over a private wrongdoing, but the need to belatedly name and correct a structural injustice in public.</p>
+          <p class="vb-intro">The same thread runs through his long-standing commitment to the Shriners Hospitals for Children, a cause he has supported since his own childhood and for which he has hosted an annual charity golf tournament for over two decades, as well as through the foundation he co-founded that funds music and arts education in public schools in his hometown of Memphis – precisely the subjects that school budgets tend to cut first. The social One corrects not only their own body of work, but the system they themselves rose out of.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Principle With Personal Warmth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> softens the One's strict adherence to principle with a component of personal warmth and relational attentiveness – the pure "this is the right way" becomes "this is the right way, and I'm looking after you while we do it." An SO1w9 would pursue the same mission more quietly, almost ascetically; the SO1w2 pursues the identical mission with noticeable personal warmth and a pronounced need to be seen as someone who cares.</p>
+          <p class="vb-intro">For Timberlake, this shows in his conspicuous loyalty to his former *NSYNC bandmates, with whom he has stayed on friendly terms for decades despite going solo, and who were present at both his Hollywood Walk of Fame induction and his wedding. It also shows in the carefully cultivated image of the approachable, down-to-earth "nice guy" despite global stardom – self-deprecating in interviews, collegial in appearances (such as his many "Saturday Night Live" guest spots), and focused on shared success rather than his own shine. He has been married to Jessica Biel since 2012, with whom he has two sons – one of Hollywood's more enduring marriages, consistently shielded from the spotlight. More in the <a href="javascript:void(0)" data-route="beruehmte-jessica-biel">portrait of Jessica Biel</a> (SO7w6).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Musical Substance: More Than a Good-Looking Entertainer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">That Timberlake is often perceived first as a teen idol and only second as a musician obscures a real professional substance. His second solo album, "FutureSex/LoveSounds" (2006), produced with Timbaland and Danja, is now widely regarded as having shaped pop and R&B production for the decade and a half that followed: percussive, electronically treated beats, unconventional song structures without a classic chorus anchor, and over it a falsetto technique Timberlake deliberately trained to master a register that contemporary pop music had, until then, rarely deployed with this much control. Music critics placed him within the lineage of Motown- and Prince-inflected "blue-eyed soul," without his ever simply copying those models.</p>
+          <p class="vb-intro">On top of that comes a rare combination of talents: Timberlake plays piano, guitar, and drums, co-writes and co-produces his songs, dances at a level rooted in years of disciplined training dating back to "The Mickey Mouse Club," and shows comedic as well as dramatic timing as an actor (in "The Social Network" or "In Time," for example). This very versatility – not just a singer, not just a dancer, not just a producer, but all of it at a demonstrably high level simultaneously – is the SO1's sense of duty in its musical form: the standard of pushing one's own craft, in every discipline, to its highest possible level, rather than resting on the bonus of one's own fame.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social One With a Two-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO1w2 shows in Timberlake's ability to combine a demand for quality with personal warmth, rather than playing one off against the other: he insists on high standards without coming across as cold or unapproachable, and repeatedly uses his reach for concrete, tangible help – from the Shriners Hospitals to music education funding in Memphis.</p>
+          <p class="vb-intro">The shadow lies in the flip side of that same stance: for decades he benefited from precisely the double standard he publicly named in 2021, without criticizing it loudly earlier – a pattern that recurs often enough in the SO1 when their own position within a system is comfortable, and the correction only follows once public pressure makes it unavoidable. The social One often recognizes injustice reliably – just not always in time, as long as they themselves remain part of the system that profits from it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. A Social Seven and a Social One Under One Roof: Timberlake and Jessica Biel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Timberlake's marriage to <a href="javascript:void(0)" data-route="beruehmte-jessica-biel">Jessica Biel</a> (SO7w6) connects two different but related variants of the same social sense of duty: where the social Seven seeks their duty in versatility – always new roles, always new challenges, never pinned to a single image – the social One seeks their duty in correcting and improving an existing state of affairs. Both subtypes share the same underlying stance: one's own energy does not belong only to one's own career, but to a larger context one feels obligated to.</p>
+          <p class="vb-intro">This shared stance likely helps explain why the relationship has remained so stable since 2012: both understand, from their own experience, what it means to treat one's career as something to be pursued with discipline and a sense of responsibility rather than as a mere vehicle for fame – and both shield, with noticeable consistency, their children's private lives from the very public exposure they themselves face professionally.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-jessica-biel", label:"Portrait: Jessica Biel (SO7w6) – his wife"},
+        {route:"beruehmte-nicole-kidman", label:"Portrait: Nicole Kidman (SO1w2)"},
+        {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
       ])}
     </div>
   `);

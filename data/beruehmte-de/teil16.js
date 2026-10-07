@@ -2430,6 +2430,75 @@ export function jessicaBielPortraitPage() {
         {route:"beruehmte-sigourney-weaver", label:"Porträt: Sigourney Weaver (SO7w6)"},
         {route:"beruehmte-billy-bob-thornton", label:"Porträt: Billy Bob Thornton (SO7w6)"},
         {route:"beruehmte-ali-wong", label:"Porträt: Ali Wong (SO7w6)"},
+        {route:"beruehmte-justin-timberlake", label:"Porträt: Justin Timberlake (SO1w2) – ihr Ehemann"},
+      ])}
+    </div>
+  `);
+}
+
+export function justinTimberlakePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-justin-timberlake-portrait.jpg" alt="Justin Timberlake – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-justin-timberlake-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Justin Timberlake</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Sänger, Songwriter und Schauspieler, geb. 1981 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> fliegt nie allein. Sie zieht im Verband, in exakter Formation, jede einzelne Gans trägt zur Schlagkraft der ganzen Gruppe bei – und sobald die Leitgans ermüdet, übernimmt eine andere ihren Platz an der Spitze. Die Gans kennt eine Ordnung, der sie sich unterordnet, und zugleich einen eigenen, unüberhörbaren Ruf: laut, durchdringend, kaum zu ignorieren. Sie ist diszipliniert und lautstark zugleich – zwei Eigenschaften, die sich bei ihr nicht ausschließen, sondern ergänzen.</p>
+          <p class="vb-intro">Justin Timberlake wuchs im US-Bundesstaat Tennessee auf, trat bereits als Kind im „Mickey Mouse Club" auf – neben Christina Aguilera, Britney Spears und Ryan Gosling, einer Trainingsstätte für Disziplin, die ihresgleichen sucht – und wurde danach zum Frontmann von *NSYNC, einer der kommerziell erfolgreichsten Boygroups der Geschichte. Als die Gruppe auf dem Höhepunkt stand, verließ er sie, um solo weiterzuziehen – ein Schritt, den er öffentlich als notwendig für die eigene künstlerische Weiterentwicklung begründete, nicht als persönliche Abgrenzung von den anderen. Die Gans, die die Formation wechselt, aber nie aufhört, in einer Formation zu fliegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der soziale Einser: Der Welt zeigen, wie es richtig geht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>soziale Einser (SO1)</strong> ist in der Enneagramm-Tradition nach Claudio Naranjo der Subtyp der <em>Unanpassungsfähigkeit</em> (im Original „Non-Adaptability") – ein Mensch, der sich nicht mit bestehenden Zuständen zufriedengibt, sobald er einen Mangel an Fairness oder Sorgfalt erkennt, sondern sich berufen fühlt, diesen Zustand aktiv zu korrigieren, oft mit missionarischem Eifer und einem Anspruch, der über das rein Private hinausgeht. Wo der selbsterhaltende Einser an der eigenen Unvollkommenheit arbeitet und der sexuelle Einser den Partner oder das engste Umfeld reformieren will, richtet der soziale Einser seinen Vervollkommnungsdrang auf die Gruppe, die Branche, die Gesellschaft als Ganzes.</p>
+          <p class="vb-intro">Bei Timberlake zeigt sich das zunächst im eigenen Metier: Er gilt seit seinen *NSYNC-Jahren als derjenige, der auf höhere Produktionsstandards drängte, an Gesangsaufnahmen so lange feilte, bis jede Nuance saß, und bei Choreografien Präzision einforderte, die weit über das hinausging, was von einer Boygroup erwartet wurde. 2004 geriet er in den „Wardrobe Malfunction"-Skandal beim Super-Bowl-Auftritt mit Janet Jackson – und wurde öffentlich erheblich milder bestraft als sie, obwohl beide beteiligt waren. 2021, siebzehn Jahre später, veröffentlichte er eine öffentliche Entschuldigung an Janet Jackson und an Britney Spears, in der er einräumte, von einem System profitiert zu haben, das Frauen in der Musikindustrie systematisch härter behandelt als Männer, und dass er es versäumt hatte, sich damals schützend vor beide zu stellen. Das ist der soziale Einser in Reinform: nicht die Reue über eine private Verfehlung, sondern das Bedürfnis, ein strukturelles Unrecht nachträglich öffentlich zu benennen und richtigzustellen.</p>
+          <p class="vb-intro">Dieselbe Linie zieht sich durch sein langjähriges Engagement für die Shriners Hospitals for Children, dem er seit seiner eigenen Kindheit verbunden ist und für das er über zwei Jahrzehnte ein jährliches Charity-Golfturnier ausrichtet, sowie durch die von ihm mitgegründete Stiftung, die Musik- und Kunstunterricht an öffentlichen Schulen in seiner Heimatstadt Memphis finanziert, dort, wo Schulbudgets diese Fächer zuerst streichen. Der soziale Einser korrigiert nicht nur das eigene Werk, sondern das System, aus dem heraus er selbst groß wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Prinzipientreue mit persönlicher Wärme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> mildert die strenge Prinzipientreue des Einsers mit einer Komponente persönlicher Zuwendung und Beziehungswärme – aus dem reinen „So ist es richtig" wird ein „So ist es richtig, und ich kümmere mich zugleich um dich dabei". Eine SO1w9 würde ihre Mission eher zurückhaltend, fast asketisch verfolgen; die SO1w2 verfolgt dieselbe Mission mit spürbarer persönlicher Herzlichkeit und einem ausgeprägten Bedürfnis, als jemand wahrgenommen zu werden, der sich kümmert.</p>
+          <p class="vb-intro">Bei Timberlake zeigt sich das in der auffälligen Loyalität zu seinen früheren *NSYNC-Bandkollegen, mit denen er trotz des Solowegs über Jahrzehnte freundschaftlich verbunden blieb und die bei seiner Aufnahme in die Hollywood Walk of Fame und bei seiner Hochzeit präsent waren. Es zeigt sich auch im bewusst kultivierten Bild des zugänglichen, bodenständigen „Nice Guy" trotz Weltstardaseins – in Interviews oft selbstironisch, in Auftritten (etwa seinen zahlreichen „Saturday Night Live"-Gastauftritten) kollegial und auf gemeinsames Gelingen statt auf das eigene Glänzen bedacht. Seit 2012 ist er mit Jessica Biel verheiratet, mit der er zwei Söhne hat – eine der beständigsten Ehen Hollywoods, konsequent gegen das Scheinwerferlicht abgeschirmt. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-jessica-biel">Porträt zu Jessica Biel</a> (SO7w6).</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die musikalische Substanz: Mehr als ein gutaussehender Entertainer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dass Timberlake oft zuerst als Teenie-Idol und erst in zweiter Linie als Musiker wahrgenommen wird, verdeckt eine reale fachliche Substanz. Sein zweites Soloalbum „FutureSex/LoveSounds" (2006), gemeinsam mit Timbaland und Danja produziert, gilt rückblickend als stilprägend für die Pop- und R&B-Produktion der folgenden anderthalb Jahrzehnte: perkussive, elektronisch verfremdete Beats, ungewöhnliche Songstrukturen ohne klassischen Refrain-Anker, und darüber eine Falsett-Technik, die Timberlake gezielt trainierte, um ein Register zu beherrschen, das in der zeitgenössischen Popmusik bis dahin kaum so kontrolliert eingesetzt wurde. Musikkritiker reihten ihn damit in die Tradition von Motown- und Prince-geprägtem „Blue-Eyed Soul" ein, ohne dass er die Vorbilder kopierte.</p>
+          <p class="vb-intro">Hinzu kommt eine Mehrfachbegabung, die selten in dieser Kombination auftritt: Timberlake spielt Klavier, Gitarre und Schlagzeug, schreibt und produziert seine Songs maßgeblich mit, tanzt auf einem Niveau, das in jahrelanger, disziplinierter Ausbildung seit dem „Mickey Mouse Club" wurzelt, und zeigt als Schauspieler (etwa in „The Social Network" oder „In Time") komödiantisches wie dramatisches Timing. Genau diese Vielseitigkeit – nicht nur Sänger, nicht nur Tänzer, nicht nur Produzent, sondern alles zugleich auf nachweisbar hohem Niveau – ist die SO1-Pflichterfüllung in ihrer musikalischen Ausprägung: der Anspruch, das eigene Handwerk in jeder Disziplin auf das höchstmögliche Niveau zu heben, statt sich mit dem Bonus der eigenen Bekanntheit zufriedenzugeben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten des sozialen Einsers mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w2 zeigt sich in Timberlakes Fähigkeit, Qualitätsanspruch und persönliche Wärme zu verbinden, statt das eine gegen das andere auszuspielen: Er fordert hohe Standards ein, ohne dabei kalt oder unnahbar zu wirken, und nutzt seine Reichweite wiederholt für konkrete, greifbare Hilfe – von den Shriners Hospitals bis zur Musikförderung in Memphis.</p>
+          <p class="vb-intro">Der Schatten liegt in der Kehrseite derselben Haltung: Jahrzehntelang profitierte er von genau dem Doppelstandard, den er 2021 öffentlich benannte, ohne ihn früher laut zu kritisieren – ein Muster, das bei der SO1 nicht selten vorkommt, wenn die eigene Position im System bequem ist und die Korrektur erst dann folgt, wenn der öffentliche Druck sie unausweichlich macht. Die soziale Eins erkennt Unrecht oft zuverlässig – nur nicht immer rechtzeitig, solange sie selbst Teil des Systems ist, das von diesem Unrecht profitiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei soziale Siebener und Einser unter einem Dach: Timberlake und Jessica Biel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Timberlakes Ehe mit <a href="javascript:void(0)" data-route="beruehmte-jessica-biel">Jessica Biel</a> (SO7w6) verbindet zwei unterschiedliche, aber verwandte Spielarten derselben sozialen Pflichterfüllung: Wo die soziale Sieben ihre Pflicht in der Vielseitigkeit sucht – immer neue Rollen, immer neue Herausforderungen, nie auf ein einziges Bild festgelegt – sucht der soziale Einser seine Pflicht in der Korrektur und Verbesserung eines bestehenden Zustands. Beide Subtypen teilen dieselbe Grundhaltung: Die eigene Energie gehört nicht nur der eigenen Karriere, sondern einem größeren Zusammenhang, dem man sich verpflichtet fühlt.</p>
+          <p class="vb-intro">Genau diese geteilte Grundhaltung dürfte mit erklären, warum die Beziehung seit 2012 so beständig geblieben ist: Beide verstehen aus eigener Erfahrung, was es heißt, die eigene Karriere als etwas zu behandeln, dem man sich mit Disziplin und Verantwortungsgefühl verschreibt, statt sie als bloßes Vehikel für Ruhm zu betrachten – und beide schirmen, mit auffälliger Konsequenz, das Privatleben ihrer Kinder vor genau jener Öffentlichkeit ab, der sie selbst beruflich ausgesetzt sind.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-jessica-biel", label:"Porträt: Jessica Biel (SO7w6) – seine Ehefrau"},
+        {route:"beruehmte-nicole-kidman", label:"Porträt: Nicole Kidman (SO1w2)"},
+        {route:"beruehmte-juergen-klopp", label:"Porträt: Jürgen Klopp (SO1w2)"},
       ])}
     </div>
   `);

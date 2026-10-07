@@ -1,9 +1,9 @@
 import { abdAlFattahAsSisiPortraitPage, anastasiiaMetelkinaPortraitPage, bastianPastewkaPortraitPage, byronKatiePortraitPage, knutHamsunPortraitPage, christophWaltzPortraitPage, dhapanbalYunupinguPortraitPage, editaGruberovaPortraitPage, fayeDunawayPortraitPage, franzLisztPortraitPage, giannaNanniniPortraitPage, guentherKrabbenhoeftPortraitPage, heidiKlumPortraitPage, indraNooyiPortraitPage, isadoraDuncanPortraitPage, jennaOrtegaPortraitPage, josephAounPortraitPage, kenFollettPortraitPage, leboMPortraitPage, ludwigXIVPortraitPage, markZuckerbergPortraitPage, miraMuratiPortraitPage, mohammedPortraitPage, natalieDormerPortraitPage, ninaChubaPortraitPage, pierceBrosnanPortraitPage, ruthBaderGinsburgPortraitPage, stephenHawkingPortraitPage, suzanLoriParksPortraitPage, thomasMannPortraitPage, timCluttonBrockPortraitPage, voltairePortraitPage, willYunLeePortraitPage, benBerndtPortraitPage, gunterGabrielPortraitPage, joeDispenzaPortraitPage, wolfgangWodargPortraitPage } from "./data/beruehmte-de/teil1.js";
 import { abidaParveenPortraitPage, andreAgassiPortraitPage, avrilLavignePortraitPage, beatriceChebetPortraitPage, bennySafdiePortraitPage, camilleFritschPortraitPage, claudeDebussyPortraitPage, dianFosseyPortraitPage, edwardSnowdenPortraitPage, franzSchubertPortraitPage, ginaRinehartPortraitPage, heikeMakatschPortraitPage, ingoZimmermannPortraitPage, jenniferAnistonPortraitPage, jonahHillPortraitPage, josephHaydnPortraitPage, kevinCostnerPortraitPage, lenaMeyerLandrutPortraitPage, madameTussaudPortraitPage, marleneZukPortraitPage, michaelDavidRosenbergPortraitPage, molierePortraitPage, norahJonesPortraitPage, platonPortraitPage, ryanGoslingPortraitPage, sterlingNorthPortraitPage, timMaelzerPortraitPage, wallaceShawnPortraitPage, leaMichelePortraitPage, vanessaGoeckingPortraitPage, bellaHadidPortraitPage, willieNelsonPortraitPage, lanaDelReyPortraitPage, mutterTeresaPortraitPage, cocoChanelPortraitPage, aylinTezelPortraitPage, owenWilsonPortraitPage, oliverKahnPortraitPage, serenaWilliamsPortraitPage } from "./data/beruehmte-de/teil2.js";
-import { adamSmithPortraitPage, alanTuringPortraitPage, andyReidPortraitPage, bernardFayePortraitPage, fabianKahlPortraitPage, brigitteMacronPortraitPage, carlFriedrichGaussPortraitPage, claudioNaranjoPortraitPage, cleopatraPortraitPage, diegoVelazquezPortraitPage, eliJaxonBearPortraitPage, frankSchaetzingPortraitPage, franzVonAssisiPortraitPage, gloriaVonThurnUndTaxisPortraitPage, helmutKohlPortraitPage, horstLichterPortraitPage, isaacNewtonPortraitPage, jenniferMatherPortraitPage, juditPolgarPortraitPage, juergenDrewsPortraitPage, klaraVonAssisiPortraitPage, lenaUrzendowskyPortraitPage, madelineStuartPortraitPage, marquisDeSadePortraitPage, monicaSimpsonPortraitPage, nusratFatehAliKhanPortraitPage, pythagorasPortraitPage, sadhguruPortraitPage, sebastianUrzendowskyPortraitPage, steveJobsPortraitPage, stingPortraitPage, tomKaulitzPortraitPage, warrenBuffettPortraitPage, leonGoretzkaPortraitPage, archimedesPortraitPage, johannLaferPortraitPage } from "./data/beruehmte-de/teil3.js";
+import { adamSmithPortraitPage, alanTuringPortraitPage, andyReidPortraitPage, bernardFayePortraitPage, fabianKahlPortraitPage, brigitteMacronPortraitPage, carlFriedrichGaussPortraitPage, claudioNaranjoPortraitPage, cleopatraPortraitPage, diegoVelazquezPortraitPage, eliJaxonBearPortraitPage, frankSchaetzingPortraitPage, franzVonAssisiPortraitPage, gloriaVonThurnUndTaxisPortraitPage, helmutKohlPortraitPage, horstLichterPortraitPage, isaacNewtonPortraitPage, jenniferMatherPortraitPage, juditPolgarPortraitPage, juergenDrewsPortraitPage, klaraVonAssisiPortraitPage, lenaUrzendowskyPortraitPage, madelineStuartPortraitPage, marquisDeSadePortraitPage, monicaSimpsonPortraitPage, nusratFatehAliKhanPortraitPage, pythagorasPortraitPage, sadhguruPortraitPage, sebastianUrzendowskyPortraitPage, steveJobsPortraitPage, stingPortraitPage, tomKaulitzPortraitPage, warrenBuffettPortraitPage, leonGoretzkaPortraitPage, archimedesPortraitPage, johannLaferPortraitPage, julieBenzPortraitPage, erichVonDaenikenPortraitPage } from "./data/beruehmte-de/teil3.js";
 import { adeleNeuhauserPortraitPage, angelaMerkelPortraitPage, billGatesPortraitPage, carlosSantanaPortraitPage, donMcleanPortraitPage, christophKolumbusPortraitPage, clemensArvayPortraitPage, dieterBohlenPortraitPage, elizabethBarrettBrowningPortraitPage, freddieMercuryPortraitPage, goldaMeirPortraitPage, gritStrassenbergerPortraitPage, heraklitPortraitPage, isabellaBriggsPortraitPage, jerryLewisPortraitPage, jesusChristusPortraitPage, joachimLlambiPortraitPage, johnIoannidisPortraitPage, juergenKloppPortraitPage, katieCouricPortraitPage, klausJBehrendtPortraitPage, leonardBernsteinPortraitPage, magnusCarlsenPortraitPage, margaretRutherfordPortraitPage, martaManserPortraitPage, monikaGruberPortraitPage, omarSyPortraitPage, philCollinsPortraitPage, queenElizabethIIPortraitPage, sahraWagenknechtPortraitPage, sergioBambarenPortraitPage, stormReidPortraitPage, toniMorrisonPortraitPage, willSmithPortraitPage, floydMayweatherPortraitPage, andyWarholPortraitPage, sathyaSaiBabaPortraitPage } from "./data/beruehmte-de/teil4.js";
-import { adelePortraitPage, angelinaJoliePortraitPage, annaNetrebkoPortraitPage, billHaastPortraitPage, borisGrundlPortraitPage, chesterBenningtonPortraitPage, carlRogersPortraitPage, christianDrostenPortraitPage, cluesoPortraitPage, dieterNuhrPortraitPage, eckhartTollePortraitPage, elonMuskPortraitPage, fredericChopinPortraitPage, gottfriedWilhelmLeibnizPortraitPage, halleBerryPortraitPage, hannahArendtPortraitPage, herbertGroenomeyerPortraitPage, jackBlackPortraitPage, jillPruetzPortraitPage, julesVernePortraitPage, kevinJamesPortraitPage, klausKinskiPortraitPage, leonardCohenPortraitPage, mahatmaGandhiPortraitPage, martinLutherPortraitPage, morganFreemanPortraitPage, oprahWinfreyPortraitPage, quentinTarantinoPortraitPage, sallyRooneyPortraitPage, stromaePortraitPage, tonyShalhoubPortraitPage, williamShakespearePortraitPage, willyBrandtPortraitPage, wolfgangJoopPortraitPage, peterSagePortraitPage, ulrichOttPortraitPage } from "./data/beruehmte-de/teil5.js";
-import { aiWeiweiPortraitPage, alecBaldwinPortraitPage, ankeEngelkePortraitPage, billieEilishPortraitPage, carenMiosgaPortraitPage, carlTanzlerPortraitPage, volkerGerhardtPortraitPage, eddieRedmaynePortraitPage, craigFosterPortraitPage, dietlandMuellerSchwarzePortraitPage, ellenMoonsPortraitPage, elvisPresleyPortraitPage, fridaKahloPortraitPage, grahameWebbPortraitPage, gregorGysiPortraitPage, herbertKicklPortraitPage, jackMaPortraitPage, jimiBlueOchsenknechtPortraitPage, julianAssangePortraitPage, klemensVonMetternichPortraitPage, leonardoDaVinciPortraitPage, malaikaMihamboPortraitPage, mataHariPortraitPage, milarepaPortraitPage, moritzBleibtreuPortraitPage, oliverHardyPortraitPage, oshoPortraitPage, rangaYogeshwarPortraitPage, samAltmanPortraitPage, stringerDavisPortraitPage, sucharitBhakdiPortraitPage, tracieDHallPortraitPage, wilmaMankillerPortraitPage, arnoldSchwarzeneggerPortraitPage, sigourneyWeaverPortraitPage } from "./data/beruehmte-de/teil6.js";
+import { adelePortraitPage, angelinaJoliePortraitPage, annaNetrebkoPortraitPage, billHaastPortraitPage, borisGrundlPortraitPage, chesterBenningtonPortraitPage, carlRogersPortraitPage, christianDrostenPortraitPage, cluesoPortraitPage, dieterNuhrPortraitPage, eckhartTollePortraitPage, elonMuskPortraitPage, fredericChopinPortraitPage, gottfriedWilhelmLeibnizPortraitPage, halleBerryPortraitPage, hannahArendtPortraitPage, herbertGroenomeyerPortraitPage, jackBlackPortraitPage, jillPruetzPortraitPage, julesVernePortraitPage, kevinJamesPortraitPage, klausKinskiPortraitPage, leonardCohenPortraitPage, mahatmaGandhiPortraitPage, martinLutherPortraitPage, morganFreemanPortraitPage, oprahWinfreyPortraitPage, quentinTarantinoPortraitPage, sallyRooneyPortraitPage, stromaePortraitPage, tonyShalhoubPortraitPage, williamShakespearePortraitPage, willyBrandtPortraitPage, wolfgangJoopPortraitPage, peterSagePortraitPage, ulrichOttPortraitPage, williamJamesSidisPortraitPage } from "./data/beruehmte-de/teil5.js";
+import { aiWeiweiPortraitPage, alecBaldwinPortraitPage, ankeEngelkePortraitPage, billieEilishPortraitPage, carenMiosgaPortraitPage, carlTanzlerPortraitPage, volkerGerhardtPortraitPage, eddieRedmaynePortraitPage, craigFosterPortraitPage, dietlandMuellerSchwarzePortraitPage, ellenMoonsPortraitPage, elvisPresleyPortraitPage, fridaKahloPortraitPage, grahameWebbPortraitPage, gregorGysiPortraitPage, herbertKicklPortraitPage, jackMaPortraitPage, jimiBlueOchsenknechtPortraitPage, julianAssangePortraitPage, klemensVonMetternichPortraitPage, leonardoDaVinciPortraitPage, malaikaMihamboPortraitPage, mataHariPortraitPage, milarepaPortraitPage, moritzBleibtreuPortraitPage, oliverHardyPortraitPage, oshoPortraitPage, rangaYogeshwarPortraitPage, samAltmanPortraitPage, stringerDavisPortraitPage, sucharitBhakdiPortraitPage, tracieDHallPortraitPage, wilmaMankillerPortraitPage, arnoldSchwarzeneggerPortraitPage, sigourneyWeaverPortraitPage, nicoleKidmanPortraitPage, naomiCampbellPortraitPage } from "./data/beruehmte-de/teil6.js";
 import { ajeetKaurPortraitPage, alanWattsPortraitPage, annaAndersonPortraitPage, bastianSchweinsteigerPortraitPage, billKaulitzPortraitPage, bryanJohnsonPortraitPage, carlWeathersPortraitPage, joshSafdiePortraitPage, cristianoRonaldoPortraitPage, dietmarBaerPortraitPage, eminemPortraitPage, friedrichMerzPortraitPage, gretaGarboPortraitPage, haraldVPortraitPage, helgeSchneiderPortraitPage, hermannHessePortraitPage, jacquelineMarsPortraitPage, jjLiuPortraitPage, juliusCaesarPortraitPage, kollegahPortraitPage, leonardoDiCaprioPortraitPage, marcelProustPortraitPage, matthiasSchweighoeferPortraitPage, mosesPortraitPage, ninaDobrevPortraitPage, ottoVonBismarckPortraitPage, rasputinPortraitPage, samuelHahnemannPortraitPage, sundarPichaiPortraitPage, takashiMurakamiPortraitPage, trumanCapotePortraitPage, virgilVanDijkPortraitPage, wilsonGonzalezOchsenknechtPortraitPage, gabiGarciaPortraitPage, viktorFranklPortraitPage, palinaRojinskiPortraitPage } from "./data/beruehmte-de/teil7.js";
 import { alainDelonPortraitPage, alanMcelligottPortraitPage, anneMcBridePortraitPage, biruteGaldikasPortraitPage, carmenGoglinPortraitPage, cynthiaLummisPortraitPage, diogenesPortraitPage, idaPfeifferPortraitPage, enyaPortraitPage, friedrichNietzschePortraitPage, gretaThunbergPortraitPage, hippokratesVonKosPortraitPage, jamaicaKincaidPortraitPage, jodieFosterPortraitPage, juneCarterCashPortraitPage, karlLauterbachPortraitPage, konfuziusPortraitPage, kurtGeorgKiesingerPortraitPage, leoTolstoiPortraitPage, lindaEvansPortraitPage, marcelReichRanickiPortraitPage, margotFriedlaenderPortraitPage, megRyanPortraitPage, mrTPortraitPage, pabloPicassoPortraitPage, reinhardMeyPortraitPage, sandraHuellerPortraitPage, sonoyaMizunoPortraitPage, taddlPortraitPage, tuttyTranPortraitPage, winifredCharlesworthPortraitPage, anneWillPortraitPage, davidHockneyPortraitPage, josephBeuysPortraitPage, wimThoelkePortraitPage, raulAguayoKrauthausenPortraitPage } from "./data/beruehmte-de/teil8.js";
 import { albertEinsteinPortraitPage, annikaVonMutiusPortraitPage, blaisePascalPortraitPage, carolinePetersPortraitPage, cynthiaMossPortraitPage, dirkRossmannPortraitPage, louiseHayPortraitPage, edvardMunchPortraitPage, epikurPortraitPage, friedrichSchillerPortraitPage, guentherJauchPortraitPage, haraldLeschPortraitPage, honoreDeBalzacPortraitPage, huangYongPingPortraitPage, irisBerbenPortraitPage, jamesCordenPortraitPage, joeNavarroPortraitPage, junkoTabeiPortraitPage, konradAdenauerPortraitPage, lindaLeinweberPortraitPage, mariacarlaBosconoPortraitPage, melanieKreisPortraitPage, muhammadAliPortraitPage, pamelaReifPortraitPage, reinholdMessnerPortraitPage, reinholdWuerthPortraitPage, scarlettJohanssonPortraitPage, taylorSwiftPortraitPage, udoJuergensPortraitPage, winstonChurchillPortraitPage, zoeKravitzPortraitPage, herfriedMuenklerPortraitPage, antonZeilingerPortraitPage, mariaCallasPortraitPage, henryShukmanPortraitPage, madsMikkelsenPortraitPage } from "./data/beruehmte-de/teil9.js";
@@ -11,16 +11,16 @@ import { albertSchweitzerPortraitPage, anneApplebaumPortraitPage, anthonyHopkins
 import { albertoMariniPortraitPage, alexanderBommesPortraitPage, aristotelesPortraitPage, barneyFishwickPortraitPage, borisBeckerPortraitPage, brianFennellPortraitPage, catStevensPortraitPage, cgJungPortraitPage, danBrownPortraitPage, donaldTrumpPortraitPage, dustinHoffmanPortraitPage, evaPeronPortraitPage, fritzWepperPortraitPage, hannahEmdePortraitPage, helmutSchmidtPortraitPage, hughGrantPortraitPage, jamieleecurtisPortraitPage, johannSebastianBachPortraitPage, jonBonJoviPortraitPage, kamalaHarrisPortraitPage, krisMarshallPortraitPage, lisaAntoniPortraitPage, marieAgnesStrackZimmermannPortraitPage, michaelJacksonPortraitPage, napoleonBonapartePortraitPage, paulGauguinPortraitPage, rihannaPortraitPage, rupertSpiraPortraitPage, serdarSomuncuPortraitPage, teresaVonAvilaPortraitPage, tobiasBeckPortraitPage, uliHoenessPortraitPage, wolfgangAmadeusMozartPortraitPage, corneliaFunkePortraitPage, gordonRamsayPortraitPage, dmitriSchostakowitschPortraitPage } from "./data/beruehmte-de/teil11.js";
 import { alexanderDerGrossePortraitPage, arminRohdePortraitPage, bracoPortraitPage, carloAncelottiPortraitPage, vincenzoCalifanoPortraitPage, changpengZhaoPortraitPage, danteAlighieriPortraitPage, davidGarrettPortraitPage, dieterLangePortraitPage, donataHopfenPortraitPage, fionaApplePortraitPage, gangajiPortraitPage, hansChristianAndersenPortraitPage, heinrichHeinePortraitPage, heleneFischerPortraitPage, hughWarwickPortraitPage, janeGoodallPortraitPage, johannWolfgangVonGoethePortraitPage, karlLagerfeldPortraitPage, ladyDianaPortraitPage, loiPortraitPage, marieAntoinettePortraitPage, markusLanzPortraitPage, michaelSchumacherPortraitPage, nataschaKampuschPortraitPage, paulMccartneyPortraitPage, robbieWilliamsPortraitPage, shakiraPortraitPage, theaLitschkaKoenPortraitPage, umbertEcoPortraitPage, usainBoltPortraitPage, williamJamesPortraitPage, wolodymyrSelenskyjPortraitPage, charlesLaughtonPortraitPage, madisonChockPortraitPage, rikuMiuraPortraitPage, juergenKlinsmannPortraitPage } from "./data/beruehmte-de/teil12.js";
 import { aliceSchwarzerPortraitPage, arthurRimbaudPortraitPage, bradPittPortraitPage, michelFoucaultPortraitPage, carolinKebekusPortraitPage, charlesDarwinPortraitPage, joachimLoewPortraitPage, davidBowiePortraitPage, ellenDegeneresPortraitPage, galarrwuyYunupinguPortraitPage, douglasRushkoffPortraitPage, fjodorDostojewskiPortraitPage, genesisPOrridgePortraitPage, hansDietrichGenscherPortraitPage, hermanVanVeenPortraitPage, hundertwasserPortraitPage, janUllrichPortraitPage, johnLennonPortraitPage, juergenVonDerLippePortraitPage, karlMarxPortraitPage, langLangPortraitPage, lorneGreenePortraitPage, loniHuiPortraitPage, madonnaPortraitPage, marieCuriePortraitPage, michelleObamaPortraitPage, nataschaOchsenknechtPortraitPage, penelopeCruzPortraitPage, robertDeNiroPortraitPage, seanPennPortraitPage, sigmundFreudPortraitPage, simoneDeBeauvoirPortraitPage, thomasChaanhingPortraitPage, ursulaVonDerLeyenPortraitPage, woodyAllenPortraitPage, evanBatesPortraitPage, amberBensonPortraitPage } from "./data/beruehmte-de/teil13.js";
-import { alexanderGerstPortraitPage, aliciaKeysPortraitPage, ashtonKutcherPortraitPage, brigitteBardotPortraitPage, charlotteWellsPortraitPage, davidHumePortraitPage, douglasSmithPortraitPage, eltonJohnPortraitPage, francisBaconPortraitPage, georgeGershwinPortraitPage, giacomoCasanovaPortraitPage, hansZimmerPortraitPage, heinzRuehmannPortraitPage, iceCubePortraitPage, jasminPaoliniPortraitPage, jonHammPortraitPage, johnnyCashPortraitPage, karolineHerfurthPortraitPage, kimJongUnPortraitPage, laoziPortraitPage, lucyCookePortraitPage, marieKondoPortraitPage, mickeyRourkePortraitPage, nateDoggPortraitPage, olenaZelenskaPortraitPage, peterFalkPortraitPage, peterMaffayPortraitPage, robertSchumannPortraitPage, soerenKierkegaardPortraitPage, thomasGottschalkPortraitPage, tomHanksPortraitPage, usherPortraitPage, xanthippePortraitPage, dmitriHvorostovskyPortraitPage, ingmarBergmanPortraitPage, michaelMinaPortraitPage, michaelaBenthausPortraitPage, ursulaLyonPortraitPage } from "./data/beruehmte-de/teil14.js";
+import { alexanderGerstPortraitPage, aliciaKeysPortraitPage, ashtonKutcherPortraitPage, brigitteBardotPortraitPage, charlotteWellsPortraitPage, davidHumePortraitPage, douglasSmithPortraitPage, eltonJohnPortraitPage, francisBaconPortraitPage, georgeGershwinPortraitPage, giacomoCasanovaPortraitPage, hansZimmerPortraitPage, heinzRuehmannPortraitPage, iceCubePortraitPage, jasminPaoliniPortraitPage, jonHammPortraitPage, johnnyCashPortraitPage, karolineHerfurthPortraitPage, kimJongUnPortraitPage, laoziPortraitPage, lucyCookePortraitPage, marieKondoPortraitPage, mickeyRourkePortraitPage, nateDoggPortraitPage, olenaZelenskaPortraitPage, peterFalkPortraitPage, peterMaffayPortraitPage, robertSchumannPortraitPage, soerenKierkegaardPortraitPage, thomasGottschalkPortraitPage, tomHanksPortraitPage, usherPortraitPage, xanthippePortraitPage, dmitriHvorostovskyPortraitPage, ingmarBergmanPortraitPage, michaelMinaPortraitPage, michaelaBenthausPortraitPage, ursulaLyonPortraitPage, bruceSpringsteenPortraitPage } from "./data/beruehmte-de/teil14.js";
 import { ameliaEarhartPortraitPage, astridLindgrenPortraitPage, barbaraBleischPortraitPage, brunoMarsPortraitPage, cheyenneOchsenknechtPortraitPage, davidLRathmerPortraitPage, drDrePortraitPage, francoisDamiensPortraitPage, frankaPotentePortraitPage, georgWilhelmFriedrichHegelPortraitPage, matthewMcConaugheyPortraitPage, haraldGloeocklerPortraitPage, igaSwiatekPortraitPage, javierParisiPortraitPage, jeanPaulSartrePortraitPage, johnnyDeppPortraitPage, katharinaTempelPortraitPage, larryKingPortraitPage, ludwigErhardPortraitPage, maraWilsonPortraitPage, mariellaSuperinaPortraitPage, mickyBeisenherzPortraitPage, neilArmstrongPortraitPage, oleNymoenPortraitPage, peterGabrielPortraitPage, philTaylorPortraitPage, romulusWhitakerPortraitPage, rosaParksPortraitPage, skylarGreyPortraitPage, sokratesPortraitPage, stefanHomburgPortraitPage, thomasVonAquinPortraitPage, uweOchsenknechtPortraitPage, xuBingPortraitPage, gertScobelPortraitPage, steffenHensslerPortraitPage, allieSherlockPortraitPage } from "./data/beruehmte-de/teil15.js";
-import { anaDeArmasPortraitPage, audreyTautouPortraitPage, augustinusVonHippoPortraitPage, ayoEdebiriPortraitPage, brynKenneyPortraitPage, christiaanBarnardPortraitPage, davidLureyPortraitPage, robertOppenheimerPortraitPage, drewBarrymorePortraitPage, edSheeranPortraitPage, frankRosellPortraitPage, gerhardSchroederPortraitPage, harnaamKaurPortraitPage, immanuelKantPortraitPage, jeanJacquesRousseauPortraitPage, johnWaynePortraitPage, kathrinBauerfeindPortraitPage, laurenceFrankPortraitPage, liseMeitnerPortraitPage, ludwigGoeranssonPortraitPage, marilynMonroePortraitPage, michaelBerrymanPortraitPage, miguelDeUnamunoPortraitPage, neroPortraitPage, peterLustigPortraitPage, roaldAmundsenPortraitPage, romySchneiderPortraitPage, rykeGeerdHamerPortraitPage, sophieMarceauPortraitPage, susanLinkPortraitPage, tildaSwintonPortraitPage, veraBirkenbihlPortraitPage, yayoiKusamaPortraitPage, oliverPocherPortraitPage, henningBaumPortraitPage, adrianoCelentanoPortraitPage } from "./data/beruehmte-de/teil16.js";
+import { anaDeArmasPortraitPage, audreyTautouPortraitPage, augustinusVonHippoPortraitPage, ayoEdebiriPortraitPage, brynKenneyPortraitPage, christiaanBarnardPortraitPage, davidLureyPortraitPage, robertOppenheimerPortraitPage, drewBarrymorePortraitPage, edSheeranPortraitPage, frankRosellPortraitPage, gerhardSchroederPortraitPage, harnaamKaurPortraitPage, immanuelKantPortraitPage, jeanJacquesRousseauPortraitPage, johnWaynePortraitPage, kathrinBauerfeindPortraitPage, laurenceFrankPortraitPage, liseMeitnerPortraitPage, ludwigGoeranssonPortraitPage, marilynMonroePortraitPage, michaelBerrymanPortraitPage, miguelDeUnamunoPortraitPage, neroPortraitPage, peterLustigPortraitPage, roaldAmundsenPortraitPage, romySchneiderPortraitPage, rykeGeerdHamerPortraitPage, sophieMarceauPortraitPage, susanLinkPortraitPage, tildaSwintonPortraitPage, veraBirkenbihlPortraitPage, yayoiKusamaPortraitPage, oliverPocherPortraitPage, henningBaumPortraitPage, adrianoCelentanoPortraitPage, jessicaBielPortraitPage, justinTimberlakePortraitPage } from "./data/beruehmte-de/teil16.js";
 import { adamSandlerPortraitPage, aliceMillerPortraitPage, anaSalcedaPortraitPage, baerbelBasPortraitPage, billyBobThorntonPortraitPage, buddhaPortraitPage, christianRaetschPortraitPage, davidMechPortraitPage, eckhardFreisePortraitPage, emmanuelMacronPortraitPage, franciscoDeGoyaPortraitPage, fransDeWaalPortraitPage, gertrudeElionPortraitPage, hazelBruggerPortraitPage, inaMuellerPortraitPage, jeanneCalmentPortraitPage, jonathanGroffPortraitPage, katjaRiemannPortraitPage, kimEngPortraitPage, laurenGardnerPortraitPage, lorisAssadianPortraitPage, ludwigVanBeethovenPortraitPage, marioBarthPortraitPage, mileyCyrusPortraitPage, neilHarbissonPortraitPage, nicolasCagePortraitPage, peterSharpePortraitPage, ringoStarrPortraitPage, ronaldReaganPortraitPage, spinozaPortraitPage, tilSchweigerPortraitPage, vincentVanGoghPortraitPage, zoeSaldanaPortraitPage, pedroAlonsoPortraitPage, claraLoeselPortraitPage, paulBocusePortraitPage, fionaHarveyPortraitPage } from "./data/beruehmte-de/teil17.js";
 import { aliWongPortraitPage, anastasiaBarnerPortraitPage, barackObamaPortraitPage, benjaminDisraeliPortraitPage, budSpencerPortraitPage, cecilyBrownPortraitPage, christopheBoeschPortraitPage, connieChiuPortraitPage, dalaiLamaPortraitPage, davidGuettaPortraitPage, derekGoodwinPortraitPage, edgarAllanPoePortraitPage, franzKafkaPortraitPage, giacomoPucciniPortraitPage, giorgiaMeloniPortraitPage, heatherThomasPortraitPage, indilaPortraitPage, indiraGandhiPortraitPage, jeanneMarieGuyonPortraitPage, jordanPetersonPortraitPage, keanuReevesPortraitPage, laurieMarkerPortraitPage, ludwigWittgensteinPortraitPage, marisaAbelaPortraitPage, michaelStipePortraitPage, milowPortraitPage, nikolaTeslaPortraitPage, pharrellWilliamsPortraitPage, rowanAtkinsonPortraitPage, sammyDavisJrPortraitPage, steffiGrafPortraitPage, timBendzkoPortraitPage, virginiaWoolfPortraitPage, georgeVithoulkasPortraitPage, markusSoederPortraitPage, biancaCensoriPortraitPage } from "./data/beruehmte-de/teil18.js";
 import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPortraitPage, arnoFunkePortraitPage, busterMurdaughPortraitPage, clydeBarrowPortraitPage, dianeDownsPortraitPage, frankAbagnalePortraitPage, grisdaBlancoPortraitPage, heinrichPommerenkePortraitPage, jeffreyDahmerPortraitPage, joelRifkinPortraitPage, johnMcAfeePortraitPage, karlaHomolkaPortraitPage, michaelFranzesePortraitPage, ojSimpsonPortraitPage, pamelaSmartPortraitPage, pedroAlonsoLopezPortraitPage, rudolfPleilPortraitPage, sebastianGreenwoodPortraitPage, tommyLynnSellsPortraitPage, wadeWilsonPortraitPage, bryanKohbergerPortraitPage, peterMoorePortraitPage, jamesDustyRhodesPortraitPage } from "./data/kriminal-de/teil1.js";
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage, gescheGottfriedPortraitPage, juanaBarrazaPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage, arwedImielaPortraitPage, bernardEugeneGilesPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, ameliaDyerPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage, charlesStarkweatherPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=196";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=205";
 
 import { adeleKrankheitsportraetPage, arnoldSchwarzeneggerKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, knutHamsunKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage, davidHockneyKrankheitsportraetPage, guntherVonHagensKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15916,6 +15916,7 @@ const uiText = {
       { route: "enneagramm-rad", label: "Enneagramm-Rad (interaktives Symbol)" },
       { route: "bewusstseinsgrad-normalverteilung", label: "Bewusstseinsgrad & Gaußsche Normalverteilungskurve" },
       { route: "persoenlichkeitsmodelle-vergleich", label: "Enneagramm vs. andere Persönlichkeitsmodelle" },
+      { route: "klassische-vs-enneagramm-homoeopathie", label: "Klassische Homöopathie und Enneagramm-Homöopathie im Vergleich" },
       { route: "tritypen", label: "Die 27 Tritypen des Enneagramms (für Fortgeschrittene)" },
       { heading: "Blicke und Tiere" },
       { route: "blickqualitaeten-atlas", label: "Blickqualitäten-Atlas (27 Subtypen)" },
@@ -15937,6 +15938,8 @@ const uiText = {
       { route: "enneagramm-zahnpsychosomatik", label: "Enneagramm meets Zahnpsychosomatik" },
       { route: "enneagramm-astrologie", label: "Enneagramm meets Astrologie" },
       { heading: "Enneagramm in Kultur & Welt" },
+      { route: "ennead-enneagramm", label: "Die Ennead von Heliopolis und das Enneagramm" },
+      { route: "navagraha-enneagramm", label: "Navagraha und das Enneagramm" },
       { route: "enneagramm-odyssee", label: "Enneagramm meets Odyssee" },
       { route: "enneagramm-wohnraumarchitektur", label: "Enneagramm meets Wohnraumarchitektur" },
       { route: "enneagramm-zimmerpflanzen", label: "Enneagramm meets Zimmerpflanzen" },
@@ -30470,6 +30473,16 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sigourney Weaver – Sozialer Typ 7",
     teaser:"SO7w6 · geb. 1949 in New York City. Schauspielerin, Ellen Ripley in vier ›Alien‹-Filmen, jahrzehntelanges Engagement für Berggorillas und Meeresschutz. Der Biber, der Vielfalt als Verpflichtung lebt.",
     land:"USA", tags:["Film","Umweltschutz"], gender:"f"},
+
+  { route:"beruehmte-jessica-biel", name:"Jessica Biel", added:"2026-10-07", subtyp:"SO7w6",
+    heading:"Jessica Biel – Sozialer Typ 7",
+    teaser:"SO7w6 · geb. 1982. Schauspielerin und Produzentin, vom braven Serienimage aus ›7th Heaven‹ zu Horror, Action und eigener Prestige-Serie ›The Sinner‹. Der Biber, der Vielfalt als Verpflichtung lebt.",
+    land:"USA", tags:["Film"], gender:"f"},
+
+  { route:"beruehmte-justin-timberlake", name:"Justin Timberlake", added:"2026-10-07", subtyp:"SO1w2",
+    heading:"Justin Timberlake – Sozialer Typ 1",
+    teaser:"SO1w2 · geb. 1981. Vom *NSYNC-Frontmann zum stilprägenden Solokünstler, Schauspieler und öffentlichem Kritiker des eigenen Systems. Die Gans, die Prinzipientreue mit persönlicher Wärme verbindet.",
+    land:"USA", tags:["Musik","Film"], gender:"m"},
   { route:"beruehmte-marie-kondo", name:"Marie Kondo", added:"2026-07-20", subtyp:"SE1w2",
     heading:"Marie Kondo \u2013 Selbsterhaltender Typ 1",
     teaser:"SE1w2 \u00b7 geb. 1984. Ordnungsberaterin, Autorin der KonMari-Methode. \"L\u00f6st es Freude aus?\" \u2013 ein inneres System, so klar wie ein Adlerblick, und ein Zweierfl\u00fcgel, der es zur Berufung macht. Der Adler, der Ordnung als Heimat versteht. Tierentsprechung: Adler.",
@@ -30582,6 +30595,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"J\u00fcrgen Klopp \u2013 Sozialer Typ 1",
     teaser:"SO1w2 \u00b7 geb. 1967. Trainer, Meister, Motivator. BVB, Liverpool, Red Bull \u2013 seit August 2026 Bundestrainer. Die Gans, die ihrer Formation glaubt, bevor die Formation sich selbst glaubt. Tierentsprechung: Gans.",
     land:"Deutschland", tags:["Sport","Fußball"], gender:"m"},
+  { route:"beruehmte-nicole-kidman", name:"Nicole Kidman", added:"2026-10-06", subtyp:"SO1w2",
+    heading:"Nicole Kidman – Sozialer Typ 1",
+    teaser:"SO1w2 · „Die Gans“, geb. 1967. Schauspielerin, Produzentin, Oscarpreisträgerin. Von Kubrick bis von Trier, vom Nasenprothesen-Mut für Virginia Woolf bis zum Einsatz für UNICEF – Prinzipientreue mit persönlicher Zuwendung. Tierentsprechung: Gans.",
+    land:"USA/Australien", tags:["Schauspiel"], gender:"f"},
   { route:"beruehmte-angelina-jolie", name:"Angelina Jolie", subtyp:"SO1w2",
     heading:"Angelina Jolie \u2013 Sozialer Typ 1",
     teaser:"SO1w2 \u00b7 \u201eDie Gans\u201c, geb. 1975. Schauspielerin, Regisseurin, UN-Sonderbotschafterin. \u00dcber 20 Jahre humanit\u00e4re Arbeit in Krisengebieten, sechs Kinder, ein Schaffen, das immer auch Haltung ist. Tierentsprechung: Gans.",
@@ -31434,6 +31451,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Brad Pitt – Sexueller Typ 3",
     teaser:"SX3w2 · geb. 1963 in Shawnee, Oklahoma. Schauspieler und Produzent (Plan B Entertainment), Oscar-Prämierter für „Once Upon a Time in Hollywood“ und „12 Years a Slave“. Magnetismus als Lebensthema, Förderer statt nur Star. Tierentsprechung: Pfau.",
     land:"USA", tags:["Schauspiel","Medien"], gender:"m"},
+  { route:"beruehmte-naomi-campbell", name:"Naomi Campbell", added:"2026-10-06", subtyp:"SX3w2",
+    heading:"Naomi Campbell – Sexueller Typ 3",
+    teaser:"SX3w2 · geb. 1970. Eines der ersten Supermodels, erste Schwarze Frau auf dem Cover der französischen Vogue. Legendärer Laufsteg-Stil aus früher Tanzausbildung, Gründerin von Fashion for Relief. Anziehungskraft als Lebensform. Tierentsprechung: Pfau.",
+    land:"Vereinigtes Königreich", tags:["Mode"], gender:"f"},
   { route:"beruehmte-wolfgang-joop", name:"Wolfgang Joop", added:"2026-09-14", subtyp:"SX3w2",
     heading:"Wolfgang Joop – Sexueller Typ 3",
     teaser:"SX3w2 · geb. 1944 in Potsdam. Modedesigner, Gründer von JOOP! und Wunderkind, Nachwuchsförderpreis „Designer for Tomorrow“, Jury bei „Germany's Next Topmodel“. Ästhetik als Lebensthema, öffentliches Bekenntnis zur Homosexualität. Tierentsprechung: Pfau.",
@@ -31678,6 +31699,18 @@ const BERUEHMT_PORTRAITS = [
     heading:"Leonard Cohen – Sozialer Typ 4",
     teaser:"SO4w5 · 1934–2016. Kanadischer Musiker und Dichter, Hallelujah. Sechs Jahre als Zen-Mönch im Kloster, nach Veruntreuung durch seine Managerin mit 73 zur erfolgreichsten Welttournee seiner Karriere zurückgekehrt. Tierentsprechung: Gürteltier.",
     land:"Kanada", tags:["Musik","Literatur"], gender:"m"},
+  { route:"beruehmte-william-james-sidis", name:"William James Sidis", added:"2026-10-05", subtyp:"SE5w6",
+    heading:"William James Sidis – Selbsterhaltungs-Typ 5",
+    teaser:"SE5w6 · 1898–1944. US-amerikanisches Wunderkind, mit 11 an Harvard, Vortrag über vierdimensionale Körper. Verleugnete später sein Wissen, lebte unter falschem Namen als Buchhalter, verarmt gestorben. Tierentsprechung: Eule.",
+    land:"USA", tags:["Wissenschaft"], gender:"m"},
+  { route:"beruehmte-julie-benz", name:"Julie Benz", added:"2026-10-05", subtyp:"SX6w7",
+    heading:"Julie Benz – Sexueller Typ 6",
+    teaser:"SX6w7 · geb. 1972. US-Schauspielerin, Darla in Buffy/Angel, Rita in Dexter (Satellite & Saturn Award). Eiskunstläuferin bis zur Verletzung mit 14. Tierentsprechung: Wolf.",
+    land:"USA", tags:["Film & TV"], gender:"w"},
+  { route:"beruehmte-erich-von-daeniken", name:"Erich von Däniken", added:"2026-10-05", subtyp:"SE8w9",
+    heading:"Erich von Däniken – Selbsterhaltungs-Typ 8",
+    teaser:"SE8w9 · 1935–2026. Schweizer Autor, ›Chariots of the Gods?‹, Prä-Astronautik-Theorie, über 65 Mio. verkaufte Bücher. Wegen Betrugs/Veruntreuung verurteilt, schrieb im Gefängnis seinen zweiten Bestseller. Tierentsprechung: Orang-Utan.",
+    land:"Schweiz", tags:["Literatur"], gender:"m"},
   { route:"beruehmte-john-lennon", name:"John Lennon", subtyp:"SO4w5",
     heading:"John Lennon \u2013 Sozialer Typ 4",
     teaser:"SO4w5 \u00b7 1940\u20131980. Musiker, Komponist, Friedensaktivist, Mitbegr\u00fcnder der Beatles. Das G\u00fcrteltier, das die Welt fragte: Stell Dir vor, es w\u00e4re Frieden.",
@@ -31706,9 +31739,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Gustav Mahler \u2013 Sozialer Typ 4",
     teaser:"SO4w5 \u00b7 1860\u20131911. \u00d6sterreichischer Komponist und Dirigent, Direktor der Wiener Hofoper. Sinfonien, Kindertotenlieder, Das Lied von der Erde. Das G\u00fcrteltier, das existenzielles Leid in monumentale, alles umfassende Klangwelten \u00fcbersetzte.",
     land:"Österreich", tags:["Musik"], gender:"m"},
-  { route:"beruehmte-reinhard-mey", name:"Reinhard Mey", added:"2026-08-25", subtyp:"SO4w5",
-    heading:"Reinhard Mey – Sozialer Typ 4",
-    teaser:"SO4w5 · geb. 1942. Deutscher Liedermacher, seit über fünf Jahrzehnten auf der Bühne. Lehnte eine ECHO-Nominierung wegen der Einordnung als \"Deutscher Schlager\" ab, striktes Vorbereitungsritual (fünf Stunden vorher, das gesamte Programm einmal allein durchspielen), öffentliche Verarbeitung des Verlusts seines Sohnes Maximilian 2014. Das Gürteltier mit Fünferflügel: Andersartigkeit verteidigen, ohne sie zur Schau zu stellen.",
+  { route:"beruehmte-reinhard-mey", name:"Reinhard Mey", added:"2026-08-25", subtyp:"SE6w7",
+    heading:"Reinhard Mey – Selbsterhaltender Typ 6",
+    teaser:"SE6w7 · geb. 1942. Deutscher Liedermacher, seit über fünf Jahrzehnten auf der Bühne. Über Jahrzehnte unverändertes Lampenfieber und Vorbereitungsritual (fünf Stunden vorher, das gesamte Programm einmal allein durchspielen), extrem geschütztes Privatleben, textlastige, ironisch-wache Lieder gegen Bürokratie und Krieg. Das Kaninchen mit Siebenerflügel: Wachsamkeit, die sich in Humor und Bewegung verwandelt.",
     land:"Deutschland", tags:["Musik"], gender:"m"},
   { route:"beruehmte-marcel-proust", name:"Marcel Proust", added:"2026-08-09", subtyp:"SO4w5",
     heading:"Marcel Proust \u2013 Sozialer Typ 4",
@@ -32838,6 +32871,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Dr. Jane Goodall – Sexuelle Typ 9",
     teaser:"SX9w1 · 1934–2025. Primatologin, Begründerin der modernen Schimpansenforschung, entdeckte Werkzeuggebrauch bei Tieren. Verschmelzung als Forschungsmethode, später Gründerin von Roots & Shoots. Tierentsprechung: Faultier.",
     tags:["Wissenschaft"], gender:"f"},
+  { route:"beruehmte-bruce-springsteen", name:"Bruce Springsteen", added:"2026-10-06", subtyp:"SX9w1",
+    heading:"Bruce Springsteen – Sexueller Typ 9",
+    teaser:"SX9w1 · geb. 1949. Musiker, „The Boss“, E Street Band. Drei- bis vierstündige Konzerte als völlige Verschmelzung mit dem Publikum, jahrzehntelang verschwiegene Depression. Verblüffend ähnlich: Peter Maffay. Tierentsprechung: Faultier.",
+    land:"USA", tags:["Musik"], gender:"m"},
   { route:"beruehmte-peter-maffay", name:"Peter Maffay", added:"2026-09-13", subtyp:"SX9w1",
     heading:"Peter Maffay – Sexuelle Typ 9",
     teaser:"SX9w1 · geb. 1949. Musiker, Schöpfer von Tabaluga, Gründer der Peter-Maffay-Stiftung mit Kinderdörfern für traumatisierte Kinder. Verschmelzung mit einem einzigen Lebenswerk. Tierentsprechung: Faultier.",
@@ -32906,9 +32943,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Fran\u00e7ois Damiens \u2013 Sexueller Typ 9",
     teaser:"SX9w8 \u00b7 geb. 1973. Schauspieler und Komiker. \u00dcber 400 versteckte Kamerastreiche mit einer bewusst vulg\u00e4ren, provokativen Kunstfigur, sp\u00e4ter gefeierter Charakterdarsteller (\u203aLa Famille B\u00e9lier\u2039) \u2013 bei extrem abgeschirmtem Privatleben. Tierentsprechung: Faultier.",
     land:"Belgien", tags:["Film"], gender:"m" },
-  { route:"beruehmte-stefan-homburg", name:"Stefan Homburg", added:"2026-09-14", subtyp:"SE1w9",
-    heading:"Stefan Homburg \u2013 Selbsterhaltender Typ 1",
-    teaser:"SE1w9 \u00b7 geb. 1961. Finanzwissenschaftler, \u00fcber zwei Jahrzehnte Professor in Hannover, seit 2020 einer der bekanntesten Corona-Kritiker Deutschlands mit \u00fcber 140.000 X-Followern. Unbeirrbares Festhalten an einmal als richtig erkannten Positionen, ruhig und sachlich im Ton, unnachgiebig in der Sache. Tierentsprechung: Adler.",
+  { route:"beruehmte-stefan-homburg", name:"Stefan Homburg", added:"2026-09-14", subtyp:"SX9w1",
+    heading:"Stefan Homburg \u2013 Sexueller Typ 9",
+    teaser:"SX9w1 \u00b7 geb. 1961. Finanzwissenschaftler, \u00fcber zwei Jahrzehnte Professor in Hannover, seit 2020 einer der bekanntesten Corona-Kritiker Deutschlands mit \u00fcber 140.000 X-Followern. Jahrzehntelange, vollst\u00e4ndige Verschmelzung mit einer einzigen fachlichen \u00dcberzeugung, ruhig und sachlich im Ton, unnachgiebig in der Sache. Tierentsprechung: Faultier.",
     land:"Deutschland", tags:["Wissenschaft"], gender:"m" },
   { route:"beruehmte-michael-berryman", name:"Michael Berryman", added:"2026-09-07", subtyp:"SX9w8",
     heading:"Michael Berryman \u2013 Sexueller Typ 9",
@@ -32926,9 +32963,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Mario Barth \u2013 Sexueller Typ 9",
     teaser:"SX9w8 \u00b7 geb. 1972. Comedian, Rekordhalter f\u00fcr die gr\u00f6\u00dfte Comedy-Show der Welt (Olympiastadion Berlin). Das Faultier, das sich mit dem Lachen der Masse verschmilzt \u2013 und mit Wucht zubei\u00dft, wenn Kritik kommt.",
     land:"Deutschland", tags:["Comedy"], gender:"m"},
-  { route:"beruehmte-dustin-hoffman", name:"Dustin Hoffman", added:"2026-09-13", subtyp:"SE1w9",
-    heading:"Dustin Hoffman \u2013 Selbsterhaltender Typ 1",
-    teaser:"SE1w9 \u00b7 geb. 1937. Schauspieler, bekannt f\u00fcr extreme, monatelange Rollenvorbereitung (Marathon Man, Rain Man). Verteidigte die Richtigkeit seiner Vorbereitung offen gegen Regisseure. Der Adler, der f\u00fcr die Genauigkeit seines Handwerks k\u00e4mpfte.",
+  { route:"beruehmte-dustin-hoffman", name:"Dustin Hoffman", added:"2026-09-13", subtyp:"SX9w1",
+    heading:"Dustin Hoffman \u2013 Sexueller Typ 9",
+    teaser:"SX9w1 \u00b7 geb. 1937. Schauspieler, bekannt f\u00fcr extreme, monatelange Rollenvorbereitung (Marathon Man, Rain Man) und vollst\u00e4ndiges Verschmelzen mit seinen Figuren. Verteidigte die Richtigkeit seiner Vorbereitung offen gegen Regisseure. Das Faultier, das in jeder Rolle vollst\u00e4ndig verschwand.",
     land:"USA", tags:["Schauspiel"], gender:"m"},
   { route:"beruehmte-lucy-cooke", name:"Lucy Cooke", added:"2026-08-19", subtyp:"SX9w8",
     heading:"Lucy Cooke \u2013 Sexueller Typ 9",
@@ -36505,6 +36542,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"metaintelligenz-achtsamkeit-im-moment", titel:"Meta-Intelligenz: Achtsamkeit im Moment", teaser:"Die wichtigste F\u00e4higkeit des menschlichen Geistes in vier einfachen Schritten \u2013 den gerade auftauchenden Gedanken beobachten, statt mit ihm zu verschmelzen.", img:"./assets/schaubilder/metaintelligenz-achtsamkeit-im-moment/metaintelligenz-achtsamkeit-im-moment.jpg", kategorie:"geist" },
     { slug:"vierter-weg-selbsterinnerung", titel:"Der Vierte Weg nach Gurdjieff: Selbsterinnerung mitten im Alltag", teaser:"Vier praktische \u00dcbungswege von G. I. Gurdjieff, um den mechanisierten Alltagsschlaf zu unterbrechen \u2013 ge\u00fcbt mitten im Trubel, nicht im stillen K\u00e4mmerlein.", img:"./assets/schaubilder/vierter-weg-selbsterinnerung/vierter-weg-selbsterinnerung.jpg", kategorie:"geist" },
     { slug:"das-ewige-ich-bin", titel:"Das ewige \u201eIch bin\u201c: Der Enneagramm-Heilungskompass jenseits der Fixierung", teaser:"Wie Judentum, Christentum, Hinduismus, Buddhismus, Islam und Taoismus denselben stillen Seinsgrund beschreiben \u2013 und was das f\u00fcr die Enneagramm-Arbeit bedeutet.", img:"./assets/schaubilder/das-ewige-ich-bin/das-ewige-ich-bin.jpg", kategorie:"geist" },
+    { slug:"chakra-kern-uebung", titel:"Der Chakra-Kern Ihres Enneagrammtyps", teaser:"Die neun Enneagrammtypen, neun K\u00f6rperzentren und die passenden hom\u00f6opathischen Konstitutionsmittel \u2013 und eine kurze \u00dcbung, um die eigene Zone bewusst zu sp\u00fcren.", img:"./assets/schaubilder/chakra-kern-uebung/chakra-kern-uebung.jpg", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"K\u00f6rper & Bewegung", icon:"\ud83e\udded" },
@@ -36563,6 +36601,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "das-ewige-ich-bin") {
     return dasEwigeIchBinPage();
+  }
+  if (param === "chakra-kern-uebung") {
+    return chakraKernUebungPage();
   }
 
   return shell(`
@@ -36760,6 +36801,117 @@ function fussreflexzonenAktivierungPage() {
         {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
         {route:"praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", label:"Faszienübungen für die Rumpfgesundheit"},
         {route:"enneagramm-reflexzonentherapie", label:"Enneagramm meets Reflexzonentherapie"},
+        {route:"situationskompass", label:"Situationskompass"},
+        {route:"practice", label:"Werkzeuge"},
+      ])}
+    </section>
+  `);
+}
+
+function chakraKernUebungPage() {
+  const ZONEN = [
+    { typ:"1", name:"Krone", ort:"knapp oberhalb des Scheitels (nicht die Kopfhaut selbst)", farbe:"#b5542f" },
+    { typ:"2", name:"Hand", ort:"Innenflächen beider Hände", farbe:"#c0862e" },
+    { typ:"3", name:"Solarplexus", ort:"Oberbauch", farbe:"#8a9a3a" },
+    { typ:"4", name:"Herz", ort:"Brustmitte", farbe:"#4f8a6e" },
+    { typ:"5", name:"Hals", ort:"Kehlkopfbereich", farbe:"#3d7a92" },
+    { typ:"6", name:"Wurzel", ort:"Beckenboden, unterer Rücken", farbe:"#5a5fa8" },
+    { typ:"7", name:"Stirn", ort:"zwischen den Augenbrauen", farbe:"#9a4f9e" },
+    { typ:"8", name:"Fuß ⚠︎ im Bild nicht sichtbar", ort:"wenige Zentimeter unterhalb der Fußsohlen, knapp außerhalb des Körpers – wie ein Spiegelbild der Krone am anderen Ende", farbe:"#a8304a" },
+    { typ:"9", name:"Sakral", ort:"Unterbauch, unterhalb des Nabels", farbe:"#c06a3d" },
+  ];
+  const TABELLE = [
+    { typ:"1", chakra:"Kronenchakra – Verbindung &amp; Erkenntnis", lage:"knapp oberhalb des Scheitels, nicht direkt auf der Kopfhaut", mittel:"Platinum metallicum" },
+    { typ:"2", chakra:"Handchakra – Austausch &amp; Heilung", lage:"Innenflächen der Hände", mittel:"Hyoscyamus niger" },
+    { typ:"3", chakra:"Solarplexuschakra – Selbstbewusstsein &amp; Durchsetzungsvermögen", lage:"Oberbauch, Bereich des Solarplexus", mittel:"Tarentula hispanica" },
+    { typ:"4", chakra:"Herzchakra – Liebe &amp; Mitgefühl", lage:"Brustbereich, Herzregion", mittel:"Ignatia" },
+    { typ:"5", chakra:"Halschakra – Ausdruck &amp; Kommunikation", lage:"Kehle, Halsbereich", mittel:"Stramonium" },
+    { typ:"6", chakra:"Wurzelchakra – Stabilität &amp; Erdung", lage:"Beckenboden, unterer Rücken", mittel:"Opium" },
+    { typ:"7", chakra:"Stirnchakra (Drittes Auge) – Intuition &amp; Einsicht", lage:"zwischen den Augenbrauen", mittel:"Belladonna" },
+    { typ:"8", chakra:"Fußchakra – Erdung &amp; Stabilität, körperliche Präsenz", lage:"wenige Zentimeter unterhalb der Fußsohlen, nicht direkt auf der Haut", mittel:"Veratrum album" },
+    { typ:"9", chakra:"Sakralchakra – Kreativität &amp; Lebensfreude, Fluss", lage:"Unterbauch, unterhalb des Nabels", mittel:"Cannabis indica" },
+  ];
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Zurück zu Praxistipps</button>
+      <p class="eyebrow">Werkzeuge · Praxistipps vom Heilpraktiker</p>
+      <h1 class="h1--tip">Der Chakra-Kern Ihres Enneagrammtyps</h1>
+      <p class="lead-small">Ein eigenständiger Praxiszugang: die eigene Chakra-Zone über den Enneagrammtyp finden und gezielt wahrnehmen.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="./assets/schaubilder/chakra-kern-uebung/chakra-kern-uebung.jpg"
+             alt="Meditierende Frau mit den sieben Hauptchakren entlang der Wirbelsäule und beiden leuchtenden Handchakren"
+             class="psycho-img" />
+      </div>
+      <p style="font-size:.82rem;color:var(--muted);margin:.6rem 0 0;font-style:italic;">Die sieben Hauptchakren und das Handchakra (links und rechts, an den geöffneten Handflächen) sind im Bild sichtbar. Das <strong style="color:var(--copper);font-style:normal;">Fußchakra</strong> – zuständig für Typ 8 – ist im Sitzen naturgemäß nicht zu sehen: Es liegt energetisch wenige Zentimeter unterhalb der Fußsohlen, so wie das Kronenchakra oberhalb des Scheitels gedacht wird – nicht direkt auf der Haut, sondern knapp außerhalb des Körpers.</p>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <p class="vb-intro">Neben den klassischen sieben Hauptchakren wird in der energetischen Körperarbeit um zwei weitere Zentren ergänzt: das <strong>Handchakra</strong> (Innenflächen der Hände, Austausch &amp; Heilung) und das <strong>Fußchakra</strong> (Erdung &amp; Stabilität) – zusammen neun Zentren.</p>
+        <p class="vb-intro">Auf dieser Grundlage lässt sich jeder der neun Enneagrammtypen einem dieser neun Zentren als gesunder Grundqualität zuordnen – eine Zuordnung, die sich aus jahrzehntelanger Praxiserfahrung mit beiden Systemen ergeben hat und sich in der klinischen Beobachtung immer wieder bestätigt. Das in der Praxis bewährte homöopathische Konstitutionsmittel zeigt dann, wohin diese Qualität kippt, wenn sie aus dem Gleichgewicht gerät – Chakra und Mittel als zwei Seiten derselben Medaille.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.2rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Zur Einordnung:</strong> Diese Dreifach-Verknüpfung aus Enneagrammtyp, Chakra und Konstitutionsmittel ist in dieser ausgearbeiteten Form neu – ein eigenständiger Praxisbeitrag, kein jahrhundertealter Kanon. Das gilt für jede lebendige therapeutische Methode: Sie entsteht aus der Beobachtung wiederkehrender Muster in der eigenen Arbeit. Genau darin liegt ihr Wert für die Praxis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Die neun Zuordnungen im Überblick</h2>
+        <div style="overflow-x:auto;">
+          <table style="width:100%;border-collapse:collapse;font-size:.85rem;">
+            <thead>
+              <tr>
+                <th style="text-align:left;padding:.6rem .65rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;">Typ</th>
+                <th style="text-align:left;padding:.6rem .65rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;">Chakra (gesunde Essenz)</th>
+                <th style="text-align:left;padding:.6rem .65rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;">Körperliche Lage</th>
+                <th style="text-align:left;padding:.6rem .65rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;">Mittel (Verzerrung)</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${TABELLE.map(r => `
+              <tr>
+                <td style="padding:.6rem .65rem;border-bottom:1px solid var(--line);font-weight:700;white-space:nowrap;">${r.typ}</td>
+                <td style="padding:.6rem .65rem;border-bottom:1px solid var(--line);">${r.chakra}</td>
+                <td style="padding:.6rem .65rem;border-bottom:1px solid var(--line);">${r.lage}</td>
+                <td style="padding:.6rem .65rem;border-bottom:1px solid var(--line);">${r.mittel}</td>
+              </tr>`).join("")}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .9rem;color:var(--ink);">Übung: Den eigenen Chakra-Kern spüren</h2>
+        <div style="background:var(--paper-raised, var(--paper));border:1px solid var(--line);border-radius:14px;padding:1.4rem 1.5rem;">
+          <ol style="margin:0;padding-left:1.3rem;font-size:.9rem;line-height:1.7;color:var(--ink);">
+            <li style="margin-bottom:.9rem;">Ruhig sitzen, beide Fußsohlen auf dem Boden, Augen schließen oder den Blick senken.</li>
+            <li style="margin-bottom:.9rem;">
+              Die dem eigenen Typ zugeordnete Körperregion aufsuchen:
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.7rem;margin:.9rem 0 .2rem;">
+                ${ZONEN.map(z => `
+                <div style="border-radius:12px;padding:.8rem .9rem;border:1px solid var(--line);border-left-width:5px;border-left-style:solid;border-left-color:${z.farbe};background:var(--paper);">
+                  <div style="font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:${z.farbe};">Typ ${z.typ}</div>
+                  <div style="font-weight:700;font-size:.92rem;margin:.15rem 0 .25rem;color:var(--ink);">${z.name}</div>
+                  <div style="font-size:.82rem;color:var(--muted);">${z.ort}</div>
+                </div>`).join("")}
+              </div>
+            </li>
+            <li style="margin-bottom:.9rem;">Mit einer Hand sanft dorthin greifen oder, wo das anatomisch nicht möglich ist (Krone, Fußsohlen bei sitzender Haltung), die Aufmerksamkeit bewusst dorthin lenken.</li>
+            <li style="margin-bottom:.9rem;">Drei bis fünf Atemzüge lang bewusst in genau diese Zone hineinatmen, ohne etwas verändern zu wollen.</li>
+            <li style="margin-bottom:.9rem;">Wahrnehmen, ob sich dort Weite, Enge, Wärme oder Taubheit zeigt – ohne Bewertung, nur als Beobachtung.</li>
+            <li style="margin-bottom:.9rem;">Abschließend einen Moment lang der Frage nachspüren: Zeigt sich hier gerade eher die gesunde Qualität dieser Zone oder eher ihre typische Verzerrung?</li>
+            <li style="margin-bottom:0;">Langsam die Augen wieder öffnen und kurz nachspüren, bevor der Alltag weitergeht.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Hinweis:</strong> Diese Übung ersetzt keine ärztliche oder heilpraktische Behandlung und stellt keine Diagnose. Sie dient der eigenen Wahrnehmung und Reflexion im Rahmen einer begleiteten Enneagramm-Arbeit.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"Alle Praxistipps"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"Das Energiefeld zwischen den Händen"},
         {route:"situationskompass", label:"Situationskompass"},
         {route:"practice", label:"Werkzeuge"},
       ])}
@@ -39902,6 +40054,13 @@ function knowledgePage() {
     </section>
     <section class="knowledge-grid">
       ${knowledgePrototype.subtypes.map(knowledgeCard).join("")}
+    </section>
+    <section class="narrow" style="margin-top:2.5rem;">
+      <div class="vb-section" style="max-width:100%;border:1px solid var(--line);border-radius:10px;padding:1.2rem 1.4rem;text-align:center;background:color-mix(in srgb, var(--copper) 6%, var(--paper));">
+        <p style="font-size:.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;margin:0 0 .5rem;">Kostenloser Download</p>
+        <p style="font-size:.95rem;color:var(--ink);margin:0 0 1rem;">Die neun Grundmotivationen, die neun Leidenschaften und die 27 Subtypen als gestalteter PDF-Guide zum Mitnehmen – „Der verborgene Schl\xfcssel zur Heilung“.</p>
+        <a href="https://www.verlagshausrathmer.com/downloads/der-verborgene-schluessel-zur-heilung.pdf" target="_blank" rel="noopener" style="display:inline-block;background:var(--copper);color:#fff;font-size:.9rem;padding:.6rem 1.4rem;border-radius:6px;text-decoration:none;font-weight:600;">↓ PDF-Guide herunterladen</a>
+      </div>
     </section>
   `);
 }
@@ -46955,12 +47114,12 @@ const LEBENSMUSTERKOMPASS = {
   SO7: {
     tier: "Biber",
     kernthema: "Rastloses Bauen im Dienst der Gemeinschaft – nie wirklich fertig (Naranjo: Kontratyp der Sieben)",
-    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière", "Nikola Tesla", "Die Samariterin am Jakobsbrunnen", "Ali Wong", "Billy Bob Thornton", "Prof. Dr. John Ioannidis", "Prof. Dr. Christian Drosten", "Carolin Kebekus", "Dr. Gregor Gysi", "Rupert Spira", "Epikur", "Franz von Assisi", "George Gershwin", "Günther Krabbenhöft", "Josh Safdie", "Sigourney Weaver", "Henry Shukman"],
+    beispiele: ["Rowan Atkinson", "Elon Musk", "Jules Verne", "Jeanne-Marie Bouvier de la Motte Guyon", "Dieter Nuhr", "Hazel Brugger", "Drew Barrymore", "Chris Watts", "Frank Abagnale Jr.", "Prof. Dr. Frank Rosell", "Prof. Dr. Dietland Müller-Schwarze", "Johann Wolfgang von Goethe", "Alexander Bommes", "Molière", "Nikola Tesla", "Die Samariterin am Jakobsbrunnen", "Ali Wong", "Billy Bob Thornton", "Prof. Dr. John Ioannidis", "Prof. Dr. Christian Drosten", "Carolin Kebekus", "Dr. Gregor Gysi", "Rupert Spira", "Epikur", "Franz von Assisi", "George Gershwin", "Günther Krabbenhöft", "Josh Safdie", "Sigourney Weaver", "Henry Shukman", "Jessica Biel"],
     fingerabdruecke: [
       {
         titel: "Rastloses, nie abgeschlossenes Bauen im Dienst eines größeren Systems",
         beschreibung: "Statt für sich selbst zu genießen, wird kontinuierlich etwas errichtet, das über die eigene Person hinaus wirkt – kaum ist ein Projekt fertig, beginnt bereits das nächste, ohne wirkliche Pause.",
-        beleg: "Elon Musk: ›Der Biber macht keine halben Sachen. Er baut und baut – und sucht sich das nächste Hindernis, das es zu stauen gilt‹; Hazel Brugger: ›Der Biber hat immer ein neues Projekt‹; Drew Barrymore: ›Fällt ein Damm ein, beginnt der Biber sofort von Neuem, ohne lange innezuhalten‹; Prof. Dr. Frank Rosell, der über 130 Fachpublikationen verfasste und sein Wissen sogar über Biber hinaus auf den Geruchssinn von Hunden ausweitete – der Biber baut nicht nur an einem Damm; Nikola Tesla, der zeitlebens Dutzende parallele Großprojekte verfolgte – Wechselstromsystem, drahtlose Energieübertragung, Radartechnik, ferngesteuerte Boote –, kaum war eines skizziert, begann bereits das nächste, nie mit dem Ziel des eigenen Ruhms, sondern stets im Namen einer kostenlosen Energie für die gesamte Menschheit; Ali Wong, deren Werk sich beständig in neue, verwandte Gebiete erweiterte – vom Stand-up über Sitcom-Drehbücher, einen New-York-Times-Bestseller bis zur eigenen Regiearbeit und einer preisgekrönten Dramaserien-Hauptrolle –, kaum war eine Form ausgeschöpft, begann bereits die nächste.; Josh Safdie, der über ein Jahrzehnt mit seinem Bruder Benny einen Film nach dem anderen drehte – Diamond District, Straßendrogenszene, Kautionsagenten-Milieu – und, kaum von Benny getrennt, sofort mit ›Marty Supreme‹ in die nächste amerikanische Subkultur eintauchte, ohne Pause zwischen den Projekten; Sigourney Weaver, die über fünfzig Jahre bewusst zwischen Body-Horror, Primatenforschung, Komödie und Bühnenarbeit pendelte, kaum war ein Genre ausgeschöpft, begann bereits das nächste, gebaut mit derselben nüchternen Sorgfalt wie ein Biberdamm."
+        beleg: "Elon Musk: ›Der Biber macht keine halben Sachen. Er baut und baut – und sucht sich das nächste Hindernis, das es zu stauen gilt‹; Hazel Brugger: ›Der Biber hat immer ein neues Projekt‹; Drew Barrymore: ›Fällt ein Damm ein, beginnt der Biber sofort von Neuem, ohne lange innezuhalten‹; Prof. Dr. Frank Rosell, der über 130 Fachpublikationen verfasste und sein Wissen sogar über Biber hinaus auf den Geruchssinn von Hunden ausweitete – der Biber baut nicht nur an einem Damm; Nikola Tesla, der zeitlebens Dutzende parallele Großprojekte verfolgte – Wechselstromsystem, drahtlose Energieübertragung, Radartechnik, ferngesteuerte Boote –, kaum war eines skizziert, begann bereits das nächste, nie mit dem Ziel des eigenen Ruhms, sondern stets im Namen einer kostenlosen Energie für die gesamte Menschheit; Ali Wong, deren Werk sich beständig in neue, verwandte Gebiete erweiterte – vom Stand-up über Sitcom-Drehbücher, einen New-York-Times-Bestseller bis zur eigenen Regiearbeit und einer preisgekrönten Dramaserien-Hauptrolle –, kaum war eine Form ausgeschöpft, begann bereits die nächste.; Josh Safdie, der über ein Jahrzehnt mit seinem Bruder Benny einen Film nach dem anderen drehte – Diamond District, Straßendrogenszene, Kautionsagenten-Milieu – und, kaum von Benny getrennt, sofort mit ›Marty Supreme‹ in die nächste amerikanische Subkultur eintauchte, ohne Pause zwischen den Projekten; Sigourney Weaver, die über fünfzig Jahre bewusst zwischen Body-Horror, Primatenforschung, Komödie und Bühnenarbeit pendelte, kaum war ein Genre ausgeschöpft, begann bereits das nächste, gebaut mit derselben nüchternen Sorgfalt wie ein Biberdamm.; Jessica Biel, die nach dem braven Serienimage aus ›7th Heaven‹ ohne Pause durch Horror, Action und eigene Produzentinnenarbeit zog – kaum war ein Genre bewiesen, suchte sie sich bereits das nächste, das noch unbequemer war."
       },
       {
         titel: "Vollständige innere Planung, bevor überhaupt der erste Handgriff erfolgt",
@@ -47036,12 +47195,12 @@ const LEBENSMUSTERKOMPASS = {
   SE6: {
     tier: "Kaninchen",
     kernthema: "Ständige Wachheit gegenüber Gefahr, Sicherheit gesucht im Vertrauten (Naranjo: Wärme)",
-    beispiele: ["Sundar Pichai", "Fjodor Dostojewski", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Klaus J. Behrendt", "Zachäus", "Huang Yong Ping", "Alberto Marini", "Karl Lauterbach", "Stan Laurel", "Stringer Davis", "Katie Couric", "Ellen DeGeneres", "Raúl Aguayo-Krauthausen"],
+    beispiele: ["Sundar Pichai", "Fjodor Dostojewski", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Klaus J. Behrendt", "Zachäus", "Huang Yong Ping", "Alberto Marini", "Karl Lauterbach", "Stan Laurel", "Stringer Davis", "Katie Couric", "Ellen DeGeneres", "Raúl Aguayo-Krauthausen", "Reinhard Mey"],
     fingerabdruecke: [
       {
         titel: "Gefahr früher wahrnehmen als andere – ständige, aktive Wachheit",
         beschreibung: "Die Sinne sind fortlaufend auf mögliche Bedrohung ausgerichtet. Das erlaubt oft, Entwicklungen vorherzusehen, bevor sie für andere sichtbar werden – nicht aus Ängstlichkeit im negativen Sinn, sondern als ständig aktive Risikoeinschätzung.",
-        beleg: "Herbert Kickl: ›Es hört früher, riecht früher, spürt früher als andere, wenn etwas nicht stimmt‹; Sundar Pichai: ›Es hört, bevor es sich bewegt … bleibt genau dann ruhig, wenn andere in Panik geraten, weil es die Lage längst analysiert hat, bevor sie eskalierte‹; Malaika Mihambo, deren Weitsprung ›kontrollierte Explosion‹ ist: ›Wenn es doch springt, dann erst, nachdem es den Boden, die Distanz, die Gefahr genau abgewogen hat‹; Dr. Anne McBride, deren gesamte Forschung der Frage gilt, wie Angst und Sicherheitsbedürfnisse bei Tieren entstehen – und die diese Erkenntnisse in klare, anwendbare Verhaltensregeln übersetzt.; Katie Couric, die aus dem Darmkrebstod ihres Mannes 2000 die Mitgründung einer dauerhaften Krebsforschungsallianz machte und sich live im Fernsehen einer eigenen Darmspiegelung unterzog, bevor die meisten Amerikaner das Risiko überhaupt wahrgenommen hatten – der ›Katie-Couric-Effekt‹ steigerte die Vorsorge-Raten um über 20 Prozent."
+        beleg: "Herbert Kickl: ›Es hört früher, riecht früher, spürt früher als andere, wenn etwas nicht stimmt‹; Sundar Pichai: ›Es hört, bevor es sich bewegt … bleibt genau dann ruhig, wenn andere in Panik geraten, weil es die Lage längst analysiert hat, bevor sie eskalierte‹; Malaika Mihambo, deren Weitsprung ›kontrollierte Explosion‹ ist: ›Wenn es doch springt, dann erst, nachdem es den Boden, die Distanz, die Gefahr genau abgewogen hat‹; Dr. Anne McBride, deren gesamte Forschung der Frage gilt, wie Angst und Sicherheitsbedürfnisse bei Tieren entstehen – und die diese Erkenntnisse in klare, anwendbare Verhaltensregeln übersetzt.; Katie Couric, die aus dem Darmkrebstod ihres Mannes 2000 die Mitgründung einer dauerhaften Krebsforschungsallianz machte und sich live im Fernsehen einer eigenen Darmspiegelung unterzog, bevor die meisten Amerikaner das Risiko überhaupt wahrgenommen hatten – der ›Katie-Couric-Effekt‹ steigerte die Vorsorge-Raten um über 20 Prozent.; Reinhard Mey, der mit ›Sei wachsam‹ einen eigenen Song der ständigen Alarmbereitschaft widmete und dessen über fünfzig Jahre unveränderte Lampenfieber-Rituale vor jedem Konzert dieselbe nie nachlassende Wachsamkeit zeigen – bei ihm verwandelt der Siebenerflügel die Wachsamkeit nicht in Rückzug, sondern in textreiche, ironisch-sanfte Verballhornung von Bürokratie und Obrigkeit."
       },
       {
         titel: "Sicherheit im Vertrauten statt auf der großen Bühne",
@@ -47127,12 +47286,12 @@ const LEBENSMUSTERKOMPASS = {
   SE5: {
     tier: "Eule",
     kernthema: "Der Rückzug als bewusst gebaute Burg – stille Beobachtung statt Flucht",
-    beispiele: ["Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch de Spinoza", "Carl Tanzler", "Joachim Kroll", "Carl Friedrich Gauß", "Prof. Dr. Ingo Zimmermann", "Nikodemus", "Robert Crumb", "Harald Lesch"],
+    beispiele: ["Dr. Christian Rätsch", "Xu Bing", "Franz Kafka", "Peter Lustig", "Warren Buffett", "Vera Birkenbihl", "Charles Darwin", "Marie Curie", "René Descartes", "Hermann Hesse", "Baruch de Spinoza", "Carl Tanzler", "Joachim Kroll", "Carl Friedrich Gauß", "Prof. Dr. Ingo Zimmermann", "Nikodemus", "Robert Crumb", "Harald Lesch", "William James Sidis"],
     fingerabdruecke: [
       {
         titel: "Der Rückzug als bewusst gebaute ›Burg‹ statt bloße Flucht",
         beschreibung: "Der Rückzugsraum ist kein Zeichen von Schwäche, sondern eine aktiv errichtete, geschützte Basis, von der aus beobachtet, gedacht und gearbeitet wird – klein, überschaubar, aber vollständig unter eigener Kontrolle.",
-        beleg: "Xu Bing: ›Die Eule, die in der Zeit der größten Öffentlichkeit lernte, sich in die Stille des Zeichens zurückzuziehen‹ – ›Die Burg aus Zeichen‹; Peter Lustig, dessen Wohnwagen zur ›Burg‹ wurde; Warren Buffett, der seit 1958 im selben Haus in Omaha lebt: ›Die Burg in Omaha‹; Hermann Hesse, der vierzig Jahre in seinem Tessiner Haus verbrachte: ›Die Burg im Tessin‹ – eine Burg, die auch seine lebenslange Migräne und wiederkehrenden depressiven Krisen nie ganz aus der Öffentlichkeit heraushalten konnte, aber immerhin in einen streng kontrollierten, therapeutischen Rahmen fasste; Spinoza: ›Die Burg des Denkens‹ – eine Burg, die er selbst dann nicht verließ, als das jahrzehntelange Linsenschleifen ihm die eigene Lunge kostete; Carl Friedrich Gauß, der Göttingen praktisch nie verließ und Jahrzehnte als Sternwarten-Direktor in einer sicheren, geordneten Alltagsstruktur forschte; Prof. Dr. Ingo Zimmermann, der auf einem Hof lebt und seinen von Hand aufgezogenen Waldkauz Hugo als kontrollierte, sorgfältig dosierte Form von Nähe an seiner Seite trägt – die eigene Tierentsprechung, offenbar unbewusst erkannt und gelebt; Dr. Christian Rätsch, der nicht von Universitätslehrstühlen aus, sondern als unabhängiger Wissenschaftler in seiner eigenen Burg forschte; Vera F. Birkenbihl, die unverheiratet und auf eigene Rechnung arbeitete, ihren eigenen Verlag gründete und ihre eigenen Methoden entwickelte, statt sich einer Institution unterzuordnen; Robert Crumb, der mit ›Zap Comix‹ im Selbstverlag jede Kontrolle über sein Werk in eigener Hand behielt und 1993 mit seiner Familie in ein abgelegenes südfranzösisches Dorf zog – die Burg, gewählt als ganzes Land, um dem amerikanischen Leben endgültig zu entkommen.; Harald Lesch, der neben seiner Professur für Astrophysik an der LMU München zusätzlich einen Lehrstuhl für Naturphilosophie an einer kirchlich getragenen Hochschule hält – eine bewusst gewählte, institutionell abgesicherte Burg, von der aus er über Jahrzehnte hinweg akribisch vorbereitetes Wissen an ein Millionenpublikum vermittelte, statt sich unkontrollierter medialer Verkürzung auszusetzen."
+        beleg: "Xu Bing: ›Die Eule, die in der Zeit der größten Öffentlichkeit lernte, sich in die Stille des Zeichens zurückzuziehen‹ – ›Die Burg aus Zeichen‹; Peter Lustig, dessen Wohnwagen zur ›Burg‹ wurde; Warren Buffett, der seit 1958 im selben Haus in Omaha lebt: ›Die Burg in Omaha‹; Hermann Hesse, der vierzig Jahre in seinem Tessiner Haus verbrachte: ›Die Burg im Tessin‹ – eine Burg, die auch seine lebenslange Migräne und wiederkehrenden depressiven Krisen nie ganz aus der Öffentlichkeit heraushalten konnte, aber immerhin in einen streng kontrollierten, therapeutischen Rahmen fasste; Spinoza: ›Die Burg des Denkens‹ – eine Burg, die er selbst dann nicht verließ, als das jahrzehntelange Linsenschleifen ihm die eigene Lunge kostete; Carl Friedrich Gauß, der Göttingen praktisch nie verließ und Jahrzehnte als Sternwarten-Direktor in einer sicheren, geordneten Alltagsstruktur forschte; Prof. Dr. Ingo Zimmermann, der auf einem Hof lebt und seinen von Hand aufgezogenen Waldkauz Hugo als kontrollierte, sorgfältig dosierte Form von Nähe an seiner Seite trägt – die eigene Tierentsprechung, offenbar unbewusst erkannt und gelebt; Dr. Christian Rätsch, der nicht von Universitätslehrstühlen aus, sondern als unabhängiger Wissenschaftler in seiner eigenen Burg forschte; Vera F. Birkenbihl, die unverheiratet und auf eigene Rechnung arbeitete, ihren eigenen Verlag gründete und ihre eigenen Methoden entwickelte, statt sich einer Institution unterzuordnen; Robert Crumb, der mit ›Zap Comix‹ im Selbstverlag jede Kontrolle über sein Werk in eigener Hand behielt und 1993 mit seiner Familie in ein abgelegenes südfranzösisches Dorf zog – die Burg, gewählt als ganzes Land, um dem amerikanischen Leben endgültig zu entkommen.; Harald Lesch, der neben seiner Professur für Astrophysik an der LMU München zusätzlich einen Lehrstuhl für Naturphilosophie an einer kirchlich getragenen Hochschule hält – eine bewusst gewählte, institutionell abgesicherte Burg, von der aus er über Jahrzehnte hinweg akribisch vorbereitetes Wissen an ein Millionenpublikum vermittelte, statt sich unkontrollierter medialer Verkürzung auszusetzen.; William James Sidis, der nach seiner erzwungenen Kindheits-Öffentlichkeit sein mathematisches Wissen verleugnete, wiederholt Namen und Städte wechselte und den Großteil seines Erwachsenenlebens unerkannt als einfacher Buchhalter arbeitete – die Burg aus Anonymität, bewusst gewählt als Schutz vor einer Welt, die ihn einmal ausgestellt hatte."
       },
       {
         titel: "Geduldiges Warten, bis das Wissen oder der Moment unangreifbar ist",
@@ -47142,7 +47301,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Verstoßung oder Krise wird zur Methode des Rückzugs, statt zum offenen Bruch zu führen",
         beschreibung: "Auf Ablehnung, Verbannung oder eine tiefe Lebenskrise folgt kein Widerstand und keine Konfrontation, sondern ein ruhiger, methodischer Rückzug in eine selbst gewählte, kontrollierte Existenz.",
-        beleg: "Spinoza, mit 23 Jahren aus seiner Gemeinde verbannt: ›Er reagierte nicht mit Widerstand oder Verhandlung – er zog sich zurück … und lebte den Rest seines Lebens außerhalb jeder Gemeinschaft, die ihn hätte binden können‹; Xu Bing, dessen Familie durch die Kulturrevolution zerstört wurde: ›Aus dieser Erfahrung wurde kein Bruch, sondern eine Methode‹; Hermann Hesse, dessen Krise nach dem Klosterausbruch ›eine lebenslange Bewegung nach innen‹ prägte; Marie Curie, die ihre Heimat verließ, weil Frauen dort nicht studieren durften."
+        beleg: "Spinoza, mit 23 Jahren aus seiner Gemeinde verbannt: ›Er reagierte nicht mit Widerstand oder Verhandlung – er zog sich zurück … und lebte den Rest seines Lebens außerhalb jeder Gemeinschaft, die ihn hätte binden können‹; Xu Bing, dessen Familie durch die Kulturrevolution zerstört wurde: ›Aus dieser Erfahrung wurde kein Bruch, sondern eine Methode‹; Hermann Hesse, dessen Krise nach dem Klosterausbruch ›eine lebenslange Bewegung nach innen‹ prägte; Marie Curie, die ihre Heimat verließ, weil Frauen dort nicht studieren durften.; William James Sidis, der nach seiner Verhaftung bei einer sozialistischen Kundgebung und der anschließenden Einweisung in die Nervenheilanstalt seines eigenen Vaters nicht in offenen Widerstand ging, sondern sich endgültig aus der Öffentlichkeit zurückzog und unter wechselnden Namen unsichtbar wurde."
       },
       {
         titel: "Wenn sich die unsichtbare Intensität der Isolation zu etwas Unumkehrbarem verdichtet (Schattenform)",
@@ -47181,7 +47340,7 @@ const LEBENSMUSTERKOMPASS = {
   SO4: {
     tier: "Gürteltier",
     kernthema: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter (Naranjo: Scham)",
-    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Leonard Cohen", "Javier Parisi", "Cat Stevens", "Fiona Apple", "Edgar Allan Poe", "Heraklit", "Hippokrates von Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina", "Thomas", "Heinrich Heine", "Edvard Munch", "Alan Watts", "Ajeet Kaur", "Prof. Lauren Gardner", "Cat Stevens / Yusuf Islam", "Hans Christian Andersen", "Hugh Grant", "Michael Stipe", "Alice Miller", "Fabian Kahl", "Ole Nymoen", "Eddie Redmayne", "Joachim Löw", "Reinhard Mey", "Benny Safdie"],
+    beispiele: ["Romy Schneider", "Michael Jackson", "Taddl (Daniel Tjarks)", "Til Schweiger", "Johnny Depp", "John Lennon", "Leonard Cohen", "Javier Parisi", "Cat Stevens", "Fiona Apple", "Edgar Allan Poe", "Heraklit", "Hippokrates von Kos", "Gustav Mahler", "Marcel Proust", "Elliot Rodger", "Dr. Mariella Superina", "Thomas", "Heinrich Heine", "Edvard Munch", "Alan Watts", "Ajeet Kaur", "Prof. Lauren Gardner", "Cat Stevens / Yusuf Islam", "Hans Christian Andersen", "Hugh Grant", "Michael Stipe", "Alice Miller", "Fabian Kahl", "Ole Nymoen", "Eddie Redmayne", "Joachim Löw", "Benny Safdie"],
     fingerabdruecke: [
       {
         titel: "Ein harter Panzer nach außen, ein außergewöhnlich empfindsames Inneres darunter",
@@ -47196,7 +47355,7 @@ const LEBENSMUSTERKOMPASS = {
       {
         titel: "Bedeutung durch bewusste Abgrenzung von einer Gemeinschaft, der man dennoch zugewandt bleibt",
         beschreibung: "Die eigene Bedeutung entsteht nicht durch Anpassung, sondern durch den bewussten Kontrast zur Gemeinschaft – man wendet sich ab, ohne sie je ganz zu verlassen, weil sie der Resonanzraum bleibt, an dem sich das eigene Denken oder Fühlen schärft.",
-        beleg: "Heraklit, der sich vom öffentlichen Leben abwandte, ›das er für oberflächlich hielt‹, aber ›Ephesos zugewandt‹ blieb; Hippokrates, der sich von der religiösen Heilkunst seiner Familie abgrenzte: ›Das Gürteltier bleibt Teil der Gemeinschaft der Heiler – aber es widerspricht ihr in ihrem Kern‹; Fiona Apple, deren jahrelange Rückzüge aus dem Rampenlicht sie ›trotzdem, oder gerade deshalb, zu den schonungslosesten Beobachterinnen‹ machten; Edgar Allan Poe und Marcel Proust, die sich körperlich zurückzogen, um über das Beobachtete zu schreiben – bei Proust wurde der Rückzug ins korkverkleidete Zimmer, erzwungen durch sein lebenslanges Asthma, buchstäblich zur Bedingung seines Lebenswerks; Dr. Mariella Superina, die sich innerhalb der Naturschutzgemeinschaft bewusst auf eine einzige, kaum beachtete Nische spezialisierte – Gürteltiere statt der prominenteren Großtiere – und gerade darin zur unersetzbaren, weltweit anerkannten Stimme wurde; Prof. Lauren Gardner, deren Verkehrsingenieurwesen-Hintergrund innerhalb der Epidemiologie-Gemeinschaft zunächst eine Außenseiterposition war – ›welche Rolle fehlt noch, die nur ich mit meinem Fachwissen ausfüllen kann?‹ –, bevor ihr Dashboard zur zentralen Referenz der ganzen Fachwelt wurde; Edvard Munch, der sich ab 1916 auf sein Gut Ekely zurückzog, aber international ausstellend mit der europäischen Kunstwelt verbunden blieb, die ihn 1892 in Berlin zunächst mit einer geschlossenen Skandalausstellung empfangen hatte – und der sein gesamtes Lebenswerk am Ende genau dieser Gemeinschaft vermächtnisierte, in Form seiner Schenkung an die Stadt Oslo.; Ole Nymoen, der sich mit seinem marxistischen Theorierahmen bewusst von den etablierten wirtschaftswissenschaftlichen Schulen absetzte, aber gleichzeitig genau dort publizierte, wo ökonomische Themen im linken Spektrum fehlten – ein Podcast, um ein Vakuum in der eigenen politischen Heimat zu füllen, nicht um sie zu verlassen.; Joachim Löw, der die deutsche Nationalmannschaft mit einer eigenen, ästhetischen Fußballvision modernisierte, statt sich dem bestehenden Ergebnisfußball anzupassen – die Mannschaft wurde so zum Botschafter einer neuen, weltoffeneren Identität, ohne dass er sich je von der Mannschaft selbst abwandte.; Reinhard Mey, der eine ECHO-Nominierung ablehnte, weil sie ihn in die Kategorie ›Deutscher Schlager‹ einordnete – eine Grenzziehung gegen die Vereinnahmung durch ein Genre, dem er sich nie zugehörig fühlte, ohne sich deshalb je von seinem eigenen, treuen Publikum abzuwenden.; Benny Safdie, der sich 2025 mit ›The Smashing Machine‹ zum ersten Mal ohne seinen Bruder Josh ans Regiepult setzte – eine bewusste, aber ausdrücklich als ›natürliche Weiterentwicklung‹ beschriebene Abgrenzung von der über ein Jahrzehnt gemeinsam aufgebauten Identität der ›Safdie Brothers‹, ohne dass die Beziehung zum Bruder deshalb endete."
+        beleg: "Heraklit, der sich vom öffentlichen Leben abwandte, ›das er für oberflächlich hielt‹, aber ›Ephesos zugewandt‹ blieb; Hippokrates, der sich von der religiösen Heilkunst seiner Familie abgrenzte: ›Das Gürteltier bleibt Teil der Gemeinschaft der Heiler – aber es widerspricht ihr in ihrem Kern‹; Fiona Apple, deren jahrelange Rückzüge aus dem Rampenlicht sie ›trotzdem, oder gerade deshalb, zu den schonungslosesten Beobachterinnen‹ machten; Edgar Allan Poe und Marcel Proust, die sich körperlich zurückzogen, um über das Beobachtete zu schreiben – bei Proust wurde der Rückzug ins korkverkleidete Zimmer, erzwungen durch sein lebenslanges Asthma, buchstäblich zur Bedingung seines Lebenswerks; Dr. Mariella Superina, die sich innerhalb der Naturschutzgemeinschaft bewusst auf eine einzige, kaum beachtete Nische spezialisierte – Gürteltiere statt der prominenteren Großtiere – und gerade darin zur unersetzbaren, weltweit anerkannten Stimme wurde; Prof. Lauren Gardner, deren Verkehrsingenieurwesen-Hintergrund innerhalb der Epidemiologie-Gemeinschaft zunächst eine Außenseiterposition war – ›welche Rolle fehlt noch, die nur ich mit meinem Fachwissen ausfüllen kann?‹ –, bevor ihr Dashboard zur zentralen Referenz der ganzen Fachwelt wurde; Edvard Munch, der sich ab 1916 auf sein Gut Ekely zurückzog, aber international ausstellend mit der europäischen Kunstwelt verbunden blieb, die ihn 1892 in Berlin zunächst mit einer geschlossenen Skandalausstellung empfangen hatte – und der sein gesamtes Lebenswerk am Ende genau dieser Gemeinschaft vermächtnisierte, in Form seiner Schenkung an die Stadt Oslo.; Ole Nymoen, der sich mit seinem marxistischen Theorierahmen bewusst von den etablierten wirtschaftswissenschaftlichen Schulen absetzte, aber gleichzeitig genau dort publizierte, wo ökonomische Themen im linken Spektrum fehlten – ein Podcast, um ein Vakuum in der eigenen politischen Heimat zu füllen, nicht um sie zu verlassen.; Joachim Löw, der die deutsche Nationalmannschaft mit einer eigenen, ästhetischen Fußballvision modernisierte, statt sich dem bestehenden Ergebnisfußball anzupassen – die Mannschaft wurde so zum Botschafter einer neuen, weltoffeneren Identität, ohne dass er sich je von der Mannschaft selbst abwandte.; Benny Safdie, der sich 2025 mit ›The Smashing Machine‹ zum ersten Mal ohne seinen Bruder Josh ans Regiepult setzte – eine bewusste, aber ausdrücklich als ›natürliche Weiterentwicklung‹ beschriebene Abgrenzung von der über ein Jahrzehnt gemeinsam aufgebauten Identität der ›Safdie Brothers‹, ohne dass die Beziehung zum Bruder deshalb endete."
       },
       {
         titel: "Wenn die Sehnsucht nach Zugehörigkeit auf ganzer Linie scheitert (Schattenform)",
@@ -47407,12 +47566,12 @@ const LEBENSMUSTERKOMPASS = {
   SO1: {
     tier: "Gans",
     kernthema: "Wachsame Verantwortung für die Ordnung der Gemeinschaft statt für sich allein",
-    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Konfuzius (Kong Fuzi)", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Ruben, der Schriftgelehrte", "Roald Amundsen", "Markus Lanz", "Richard David Precht", "Helmut Schmidt", "Kurt Georg Kiesinger", "Giorgia Meloni", "Emmanuel Macron", "Marcel Reich-Ranicki", "Thomas Mann", "Steve Jobs", "Cornelia Funke", "Oliver Pocher", "Prof. Dr. Volker Gerhardt", "Peter Sage", "Gert Scobel", "Dr. Wolfgang Wodarg"],
+    beispiele: ["Ursula von der Leyen", "Friedrich Merz", "Angelina Jolie", "Konrad Lorenz", "Dr. Jordan Peterson", "David Bowie", "Jürgen Klopp", "Dr. Samuel Hahnemann", "Konfuzius (Kong Fuzi)", "Adam Smith", "Xanthippe", "Ted Bundy", "Heinrich Pommerenke", "Ruben, der Schriftgelehrte", "Roald Amundsen", "Markus Lanz", "Richard David Precht", "Helmut Schmidt", "Kurt Georg Kiesinger", "Giorgia Meloni", "Emmanuel Macron", "Marcel Reich-Ranicki", "Thomas Mann", "Steve Jobs", "Cornelia Funke", "Oliver Pocher", "Prof. Dr. Volker Gerhardt", "Peter Sage", "Gert Scobel", "Dr. Wolfgang Wodarg", "Nicole Kidman", "Justin Timberlake"],
     fingerabdruecke: [
       {
         titel: "Wachsame, unbestechliche Ordnungshüter-Haltung, die bei Verletzung abrupt hart reagiert",
         beschreibung: "Nach außen wirkt die Haltung diszipliniert, bürgerlich, unauffällig kontrolliert. Doch sobald die eigene Ordnung oder ein als gerecht empfundenes Prinzip verletzt wird, folgt eine entschiedene, oft überraschend harte Reaktion – ohne Drama, aber ohne Kompromiss.",
-        beleg: "›Die Gans ist tief territorial. Sie zögert nicht. Sie greift entschieden an, wenn sie das Gefühl hat, dass ihre Ordnung verletzt wird‹ (Ted Bundy); Friedrich Merz: ›Er sagt, was er denkt … Die Gans weicht nicht aus, wenn sie überzeugt ist, das Richtige zu tun‹; Xanthippe und Adam Smith werden beide fast wortgleich als ›wachsam, prinzipientreu, unbestechlich in ihrem Sinn für Recht und Unrecht‹ beschrieben; Ursula von der Leyen ›steht Wache, meldet jede Störung laut, verteidigt ihr Territorium notfalls mit Bissen‹; Ruben, der Schriftgelehrte, der Jesus mitten im Tempelhof öffentlich zur Rede stellte, weil er als Wächter der Ordnung jede öffentliche Rede für prüfungspflichtig hielt; Roald Amundsen, der öffentlich und unverblümt kritisierte, dass die Methode seines Rivalen Robert Falcon Scott schlicht falsch sei, und der nach dem gemeinsamen Nordpolflug 1926 auf die öffentlichen Anerkennungsansprüche seines Weggefährten Umberto Nobile mit einer scharfen, kompromisslosen Fehde reagierte; Markus Lanz, der Politiker in seiner Talkshow wiederholt mit ausgedruckten Studien und Statistiken konfrontierte, um dokumentierte Widersprüche zwischen offizieller Darstellung und Datenlage aufzuzeigen – nicht aus Sensationslust, sondern aus der Überzeugung, dass öffentliche Verantwortungsträger sich an überprüfbaren Fakten messen lassen müssen; Richard David Precht, der seit Jahrzehnten als Reformer eines als grundlegend falsch empfundenen Bildungssystems auftritt und seine Überzeugungen konsequent in immer größere Formate übersetzte, vom Sachbuch über die eigene Fernsehsendung bis zum wöchentlichen Podcast – ein Beispiel dafür, wie sich dieselbe wachsame Reformüberzeugung auch in ruhiger, erzählerischer Form statt in direkter Konfrontation äußern kann; Helmut Schmidt, der im Deutschen Herbst 1977 den Austausch inhaftierter RAF-Mitglieder gegen den entführten Hanns Martin Schleyer ablehnte und erklärte, der Staat müsse ›mit der gebotenen Härte‹ reagieren – eine Härte, die sich, typisch für den Neunerflügel, nie in Lautstärke, sondern in unbewegter Konsequenz äußerte.; Marcel Reich-Ranicki, der 1995 demonstrativ ein Exemplar von Günter Grass' ›Ein weites Feld‹ auf dem ›Spiegel‹-Titelbild zerriss und 2008 live im Fernsehen den ihm verliehenen Deutschen Fernsehpreis ablehnte, um gegen das aus seiner Sicht sinkende Niveau zu protestieren – kalkulierte, öffentlich zelebrierte Urteile statt spontaner Wutausbrüche; Oliver Pocher, der Michael Wendler und dessen Frau Laura Müller in seinem eigenen Format unverblümt vorwarf: ›Für 10.000 Euro macht ihr jeden Scheiß!‹ – Kritik, die pointiert und beiläufig verpackt wird, statt als lauter, moralisierender Vorwurf.; Prof. Dr. Volker Gerhardt, der sich in seinem Buch ›Öffentlichkeit‹ (2012) explizit gegen Jürgen Habermas' Verständnis von ›kritischer Öffentlichkeit‹ positionierte – ein fundamentaler konzeptioneller Widerspruch zu einem der einflussreichsten deutschen Philosophen der Gegenwart, ausgetragen in sachlicher Buchform statt als öffentlicher Schlagabtausch.; Gert Scobel, der öffentlich wiederholt die Kommerzialisierung von Achtsamkeit und Meditation kritisiert – was als spirituelle Befreiung gedacht war, verkomme zum bloßen Leistungsoptimierungs-Tool –, diesen Einwand aber stets erklärend und nie anklagend vorträgt, ganz im ruhigen Duktus seiner eigenen, vierzig Jahre alten Zen-Praxis."
+        beleg: "›Die Gans ist tief territorial. Sie zögert nicht. Sie greift entschieden an, wenn sie das Gefühl hat, dass ihre Ordnung verletzt wird‹ (Ted Bundy); Friedrich Merz: ›Er sagt, was er denkt … Die Gans weicht nicht aus, wenn sie überzeugt ist, das Richtige zu tun‹; Xanthippe und Adam Smith werden beide fast wortgleich als ›wachsam, prinzipientreu, unbestechlich in ihrem Sinn für Recht und Unrecht‹ beschrieben; Ursula von der Leyen ›steht Wache, meldet jede Störung laut, verteidigt ihr Territorium notfalls mit Bissen‹; Ruben, der Schriftgelehrte, der Jesus mitten im Tempelhof öffentlich zur Rede stellte, weil er als Wächter der Ordnung jede öffentliche Rede für prüfungspflichtig hielt; Roald Amundsen, der öffentlich und unverblümt kritisierte, dass die Methode seines Rivalen Robert Falcon Scott schlicht falsch sei, und der nach dem gemeinsamen Nordpolflug 1926 auf die öffentlichen Anerkennungsansprüche seines Weggefährten Umberto Nobile mit einer scharfen, kompromisslosen Fehde reagierte; Markus Lanz, der Politiker in seiner Talkshow wiederholt mit ausgedruckten Studien und Statistiken konfrontierte, um dokumentierte Widersprüche zwischen offizieller Darstellung und Datenlage aufzuzeigen – nicht aus Sensationslust, sondern aus der Überzeugung, dass öffentliche Verantwortungsträger sich an überprüfbaren Fakten messen lassen müssen; Richard David Precht, der seit Jahrzehnten als Reformer eines als grundlegend falsch empfundenen Bildungssystems auftritt und seine Überzeugungen konsequent in immer größere Formate übersetzte, vom Sachbuch über die eigene Fernsehsendung bis zum wöchentlichen Podcast – ein Beispiel dafür, wie sich dieselbe wachsame Reformüberzeugung auch in ruhiger, erzählerischer Form statt in direkter Konfrontation äußern kann; Helmut Schmidt, der im Deutschen Herbst 1977 den Austausch inhaftierter RAF-Mitglieder gegen den entführten Hanns Martin Schleyer ablehnte und erklärte, der Staat müsse ›mit der gebotenen Härte‹ reagieren – eine Härte, die sich, typisch für den Neunerflügel, nie in Lautstärke, sondern in unbewegter Konsequenz äußerte.; Marcel Reich-Ranicki, der 1995 demonstrativ ein Exemplar von Günter Grass' ›Ein weites Feld‹ auf dem ›Spiegel‹-Titelbild zerriss und 2008 live im Fernsehen den ihm verliehenen Deutschen Fernsehpreis ablehnte, um gegen das aus seiner Sicht sinkende Niveau zu protestieren – kalkulierte, öffentlich zelebrierte Urteile statt spontaner Wutausbrüche; Oliver Pocher, der Michael Wendler und dessen Frau Laura Müller in seinem eigenen Format unverblümt vorwarf: ›Für 10.000 Euro macht ihr jeden Scheiß!‹ – Kritik, die pointiert und beiläufig verpackt wird, statt als lauter, moralisierender Vorwurf.; Prof. Dr. Volker Gerhardt, der sich in seinem Buch ›Öffentlichkeit‹ (2012) explizit gegen Jürgen Habermas' Verständnis von ›kritischer Öffentlichkeit‹ positionierte – ein fundamentaler konzeptioneller Widerspruch zu einem der einflussreichsten deutschen Philosophen der Gegenwart, ausgetragen in sachlicher Buchform statt als öffentlicher Schlagabtausch.; Gert Scobel, der öffentlich wiederholt die Kommerzialisierung von Achtsamkeit und Meditation kritisiert – was als spirituelle Befreiung gedacht war, verkomme zum bloßen Leistungsoptimierungs-Tool –, diesen Einwand aber stets erklärend und nie anklagend vorträgt, ganz im ruhigen Duktus seiner eigenen, vierzig Jahre alten Zen-Praxis.; Justin Timberlake, der 2021 öffentlich einräumte, von einem Doppelstandard profitiert zu haben, der Frauen in der Musikindustrie systematisch härter behandelt als Männer, und sich siebzehn Jahre nach dem gemeinsamen Super-Bowl-Skandal bei Janet Jackson und Britney Spears entschuldigte – nicht aus privater Reue, sondern aus dem Bedürfnis, ein strukturelles Unrecht nachträglich öffentlich richtigzustellen."
       },
       {
         titel: "Verantwortung für das Kollektiv statt Einzelkämpfertum – Formation statt Solo",
@@ -47434,17 +47593,17 @@ const LEBENSMUSTERKOMPASS = {
   SE1: {
     tier: "Adler",
     kernthema: "Perfektionismus, der sich nicht an der Welt, sondern an der eigenen Vorbereitung und Integrität abarbeitet",
-    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristoteles", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Michail Popkow", "Dennis Rader", "Andrei Tschikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Josef von Arimathäa", "Gianna Nannini", "Fritz Wepper", "Armin Mueller-Stahl", "J. Robert Oppenheimer", "Herman van Veen", "Reinhold Würth", "Dieter Lange", "Reinhold Messner", "König Harald V.", "Phil Collins", "Tim Cook", "Alain Delon", "Arnold Schwarzenegger", "Stefan Homburg", "Dustin Hoffman", "Anne Will", "Ben Berndt", "Heinz Rühmann", "Henning Baum", "Viktor Frankl", "Jürgen Klinsmann", "Harrison Ford", "Ursula Lyon"],
+    beispiele: ["Queen Elizabeth II.", "Sting", "Robert De Niro", "Christoph Waltz", "Pierce Brosnan", "Anthony Hopkins", "Magnus Carlsen", "Astrid Lindgren", "Ken Follett", "Dan Brown", "Konrad Adenauer", "Aristoteles", "Marie Kondo", "Udo Jürgens", "Dr. Peter Sharpe", "Joseph Aoun", "Dennis Nilsen", "Dorothea Puente", "Michail Popkow", "Dennis Rader", "Andrei Tschikatilo", "Arno Funke", "Paul Ogorzow", "Ludwig Wittgenstein", "Josef von Arimathäa", "Gianna Nannini", "Fritz Wepper", "Armin Mueller-Stahl", "J. Robert Oppenheimer", "Herman van Veen", "Reinhold Würth", "Dieter Lange", "Reinhold Messner", "König Harald V.", "Phil Collins", "Tim Cook", "Alain Delon", "Arnold Schwarzenegger", "Anne Will", "Ben Berndt", "Heinz Rühmann", "Henning Baum", "Viktor Frankl", "Jürgen Klinsmann", "Harrison Ford", "Ursula Lyon"],
     fingerabdruecke: [
       {
         titel: "Die Sorge nach innen statt die Welt korrigieren",
         beschreibung: "Naranjo nannte diesen Subtyp ›Worry‹ – Besorgnis: eine ständige, meist leise innere Frage, ob man dem eigenen Anspruch wirklich gerecht wird. Anders als die soziale oder sexuelle Eins richtet sich dieser Perfektionismus nicht auf die Korrektur anderer, sondern nach innen, auf das eigene Handwerk, die eigene Vorbereitung, die eigene Integrität.",
-        beleg: "Robert De Niro: ›Kein Interview, in dem er sich selbst erklärt‹ – der Perfektionismus zeigt sich nur in der Arbeit selbst; Christoph Waltz, der fragt, ob er ›dem eigenen Anspruch an Wahrhaftigkeit genügt‹; Magnus Carlsen, der sich unablässig fragt, ›ob diese Stellung wirklich optimal ausgeschöpft‹ ist; Marie Kondo, deren Unruhe gilt, ›ob das eigene Umfeld wirklich stimmt‹; Astrid Lindgren, Anthony Hopkins, Pierce Brosnan, Dan Brown, Aristoteles und Adenauer zeigen dieselbe nach innen gerichtete, unbestechliche Selbstprüfung – nie als Vorwurf an andere, immer als Anspruch an sich selbst; Sting, der bis heute geduldig darauf besteht, dass sein bekanntester Song richtig verstanden wird – die Eins besteht darauf, dass die Dinge stimmen, auch gegen die öffentliche Deutung; Ludwig Wittgenstein, der ganze Absätze seiner Philosophischen Untersuchungen wieder und wieder verwarf, bis sie dem eigenen, kaum erreichbaren Anspruch an Klarheit genügten; J. Robert Oppenheimer, der nach Hiroshima öffentlich sichtbar mit der moralischen Verantwortung für seine wissenschaftliche Schöpfung rang, ohne sie je zu leugnen oder auf andere abzuwälzen – eine schonungslose, nie nach außen gerichtete Selbstprüfung.; Alain Delon, dessen kontrollierte, fast eiskalte Leinwandpräsenz seine eigene, streng disziplinierte Art zu leben spiegelte – Aufrichtigkeit und ein persönlicher Ehrenkodex waren ihm wichtiger als öffentliche Rechtfertigung, selbst als ein Verdacht ihn jahrzehntelang begleitete.; Stefan Homburg, der einmal als fachlich richtig erkannte wirtschaftspolitische Positionen über Jahrzehnte unbeirrt vertritt, gegen erheblichen institutionellen Gegenwind und trotz gerichtlicher Konsequenzen für die eigene Wortwahl – die Sorge gilt dabei nie der Zustimmung anderer, sondern ausschließlich der eigenen fachlichen Richtigkeit.; Anne Will, die ihre eigene Sprache in einem Interview öffentlich als ›übersteigert, extra korrekt, superangesagt‹ kritisierte und selbst ›hochunsympathisch‹ nannte – der innere Kritiker richtet sich hier nicht gegen andere, sondern zuerst gegen die eigene Überkorrektheit.; Ben Berndt, dessen selbst auferlegtes Format-Gesetz für seinen Podcast – ›roh, ungeschnitten und unzensiert‹, keine Absprachen mit Gästen, kein nachträglicher Schnitt – seit Jahren kompromisslos eingehalten wird, weniger als Anspruch an andere denn als Prinzip, dem er sich selbst unterwirft.; Henning Baum, der sich mit Seife und kaltem Wasser statt mit der wachsenden Zahl an Pflegeprodukten wäscht und sein Auto bewusst so lange wie möglich fährt statt es regelmäßig zu tauschen: ›Man sollte seinen Verstand einsetzen und nicht jedem Trend hinterherlaufen‹ – die Sorge gilt der eigenen Lebensführung, nicht der öffentlichen Meinung darüber. Viktor Frankl, der unter Lebensgefahr im Rothschild-Spital Diagnosen fälschte, um Patienten vor der NS-›Euthanasie‹ zu schützen – keine öffentliche Geste, sondern eine private, riskante Konsequenz, die niemand sehen musste, damit sie für ihn zählte; Ursula Lyon, die nach Pflegeausbildung, Physiotherapie und jahrzehntelanger Yoga- und Meditationspraxis ein klar gegliedertes eigenes Übungssystem schuf (Sampada-Yoga) – Sorgfalt, die den eigenen Körper und Geist in Ordnung hält und diese Ordnung weitergibt."
+        beleg: "Robert De Niro: ›Kein Interview, in dem er sich selbst erklärt‹ – der Perfektionismus zeigt sich nur in der Arbeit selbst; Christoph Waltz, der fragt, ob er ›dem eigenen Anspruch an Wahrhaftigkeit genügt‹; Magnus Carlsen, der sich unablässig fragt, ›ob diese Stellung wirklich optimal ausgeschöpft‹ ist; Marie Kondo, deren Unruhe gilt, ›ob das eigene Umfeld wirklich stimmt‹; Astrid Lindgren, Anthony Hopkins, Pierce Brosnan, Dan Brown, Aristoteles und Adenauer zeigen dieselbe nach innen gerichtete, unbestechliche Selbstprüfung – nie als Vorwurf an andere, immer als Anspruch an sich selbst; Sting, der bis heute geduldig darauf besteht, dass sein bekanntester Song richtig verstanden wird – die Eins besteht darauf, dass die Dinge stimmen, auch gegen die öffentliche Deutung; Ludwig Wittgenstein, der ganze Absätze seiner Philosophischen Untersuchungen wieder und wieder verwarf, bis sie dem eigenen, kaum erreichbaren Anspruch an Klarheit genügten; J. Robert Oppenheimer, der nach Hiroshima öffentlich sichtbar mit der moralischen Verantwortung für seine wissenschaftliche Schöpfung rang, ohne sie je zu leugnen oder auf andere abzuwälzen – eine schonungslose, nie nach außen gerichtete Selbstprüfung.; Alain Delon, dessen kontrollierte, fast eiskalte Leinwandpräsenz seine eigene, streng disziplinierte Art zu leben spiegelte – Aufrichtigkeit und ein persönlicher Ehrenkodex waren ihm wichtiger als öffentliche Rechtfertigung, selbst als ein Verdacht ihn jahrzehntelang begleitete.; Anne Will, die ihre eigene Sprache in einem Interview öffentlich als ›übersteigert, extra korrekt, superangesagt‹ kritisierte und selbst ›hochunsympathisch‹ nannte – der innere Kritiker richtet sich hier nicht gegen andere, sondern zuerst gegen die eigene Überkorrektheit.; Ben Berndt, dessen selbst auferlegtes Format-Gesetz für seinen Podcast – ›roh, ungeschnitten und unzensiert‹, keine Absprachen mit Gästen, kein nachträglicher Schnitt – seit Jahren kompromisslos eingehalten wird, weniger als Anspruch an andere denn als Prinzip, dem er sich selbst unterwirft.; Henning Baum, der sich mit Seife und kaltem Wasser statt mit der wachsenden Zahl an Pflegeprodukten wäscht und sein Auto bewusst so lange wie möglich fährt statt es regelmäßig zu tauschen: ›Man sollte seinen Verstand einsetzen und nicht jedem Trend hinterherlaufen‹ – die Sorge gilt der eigenen Lebensführung, nicht der öffentlichen Meinung darüber. Viktor Frankl, der unter Lebensgefahr im Rothschild-Spital Diagnosen fälschte, um Patienten vor der NS-›Euthanasie‹ zu schützen – keine öffentliche Geste, sondern eine private, riskante Konsequenz, die niemand sehen musste, damit sie für ihn zählte; Ursula Lyon, die nach Pflegeausbildung, Physiotherapie und jahrzehntelanger Yoga- und Meditationspraxis ein klar gegliedertes eigenes Übungssystem schuf (Sampada-Yoga) – Sorgfalt, die den eigenen Körper und Geist in Ordnung hält und diese Ordnung weitergibt."
       },
       {
         titel: "Stille Präzision ohne Show – der Sturzflug nach langem Kreisen",
         beschreibung: "Die Wirkung entsteht nicht durch Lautstärke oder Selbstdarstellung, sondern durch langes, geduldiges Beobachten, gefolgt von einer einzigen, hochpräzisen Handlung, die keine Wiederholung braucht.",
-        beleg: "›Der Adler beobachtet lange, bevor er handelt … und wenn er schließlich zuschlägt, dann mit einer Genauigkeit, die keine Wiederholung braucht‹ (De Niro); Anthony Hopkins wurde mit nur rund sechzehn Minuten Screentime als Hannibal Lecter oscarprämiert – ›der Adler muss nicht schreien, um gefürchtet zu werden‹; Magnus Carlsens Gegner beschreiben Partien gegen ihn als ›langsames Erdrücken‹; Christoph Waltz wartete fünfzig Jahre auf seine Rolle bei Tarantino: ›Der Adler hatte geduldig gekreist. Dann schlug er zu.‹; Joseph Aoun warb im Vorfeld seiner Präsidentschaftswahl in keinem einzigen öffentlichen Forum für sich und klapperte keine Fraktion ab – vierzig Jahre stiller Militärdienst, dann durch einen einzigen, überparteilichen Vertrauensvorschuss ins höchste Staatsamt gehoben; Josef von Arimathäa, ein Mann der leisen Schritte, der Jesus einmal zuhörte, nie öffentlich für ihn eintrat – und nach dessen Tod ohne Zögern allein zu Pilatus ging, um mit einer einzigen, unumkehrbaren Handlung das zu tun, was kein anderer wagte.; Reinhold Messner, der jede Achttausender-Besteigung erst nach jahrelanger akribischer Vorbereitung anging und stets die reduzierteste, unspektakulärste Form wählte – den Alleingang ohne Sauerstoffgerät –, statt auf große, publikumswirksame Expeditionslogistik zu setzen.; Tim Cook, der als neuer Logistikchef von Apple eine Krisensitzung mit den Worten beendete, jemand solle nach China gehen – und, nachdem alle nickten, selbst aufstand und zum Flughafen fuhr, statt die Aufgabe zu delegieren.; Arnold Schwarzenegger, der Jahre vor seinem ersten großen Filmerfolg unbeachtet im Bodybuilding-Studio trainierte und nebenbei per Fernstudium einen Wirtschaftsabschluss erwarb – keine öffentliche Ankündigung eines Plans, sondern jahrelange stille Vorbereitung, bevor der Sturzflug in drei verschiedene Karrieren gelang.; Dustin Hoffman, der für ›Rain Man‹ Wochen mit autistischen Menschen verbrachte und sich für ›Marathon Man‹ tagelang wach hielt und hungerte, um die Erschöpfung seiner Figur wirklich zu spüren statt sie nur zu spielen – eine einsame, monatelange Vorbereitung, die keinem Publikum galt, sondern ausschließlich dem eigenen Anspruch, es genau richtig zu machen; dieselbe Sorge um Genauigkeit ließ ihn mit Sydney Pollack bei ›Tootsie‹ offen aneinandergeraten, sobald seine Vorbereitung infrage gestellt wurde.; Heinz Rühmann, der sich 1932 aus den ersten großen Gagen den Flugschein erwarb und diese anspruchsvolle technische Fertigkeit über Jahrzehnte abseits der Öffentlichkeit perfektionierte, bis er unter Fliegern als ernstzunehmender Sportpilot galt – dieselbe stille, unsichtbare Präzision auch im komödiantischen Timing, das seine scheinbar mühelose Leinwandfigur erst ermöglichte."
+        beleg: "›Der Adler beobachtet lange, bevor er handelt … und wenn er schließlich zuschlägt, dann mit einer Genauigkeit, die keine Wiederholung braucht‹ (De Niro); Anthony Hopkins wurde mit nur rund sechzehn Minuten Screentime als Hannibal Lecter oscarprämiert – ›der Adler muss nicht schreien, um gefürchtet zu werden‹; Magnus Carlsens Gegner beschreiben Partien gegen ihn als ›langsames Erdrücken‹; Christoph Waltz wartete fünfzig Jahre auf seine Rolle bei Tarantino: ›Der Adler hatte geduldig gekreist. Dann schlug er zu.‹; Joseph Aoun warb im Vorfeld seiner Präsidentschaftswahl in keinem einzigen öffentlichen Forum für sich und klapperte keine Fraktion ab – vierzig Jahre stiller Militärdienst, dann durch einen einzigen, überparteilichen Vertrauensvorschuss ins höchste Staatsamt gehoben; Josef von Arimathäa, ein Mann der leisen Schritte, der Jesus einmal zuhörte, nie öffentlich für ihn eintrat – und nach dessen Tod ohne Zögern allein zu Pilatus ging, um mit einer einzigen, unumkehrbaren Handlung das zu tun, was kein anderer wagte.; Reinhold Messner, der jede Achttausender-Besteigung erst nach jahrelanger akribischer Vorbereitung anging und stets die reduzierteste, unspektakulärste Form wählte – den Alleingang ohne Sauerstoffgerät –, statt auf große, publikumswirksame Expeditionslogistik zu setzen.; Tim Cook, der als neuer Logistikchef von Apple eine Krisensitzung mit den Worten beendete, jemand solle nach China gehen – und, nachdem alle nickten, selbst aufstand und zum Flughafen fuhr, statt die Aufgabe zu delegieren.; Arnold Schwarzenegger, der Jahre vor seinem ersten großen Filmerfolg unbeachtet im Bodybuilding-Studio trainierte und nebenbei per Fernstudium einen Wirtschaftsabschluss erwarb – keine öffentliche Ankündigung eines Plans, sondern jahrelange stille Vorbereitung, bevor der Sturzflug in drei verschiedene Karrieren gelang.; Heinz Rühmann, der sich 1932 aus den ersten großen Gagen den Flugschein erwarb und diese anspruchsvolle technische Fertigkeit über Jahrzehnte abseits der Öffentlichkeit perfektionierte, bis er unter Fliegern als ernstzunehmender Sportpilot galt – dieselbe stille, unsichtbare Präzision auch im komödiantischen Timing, das seine scheinbar mühelose Leinwandfigur erst ermöglichte."
       },
       {
         titel: "Jahrzehntelange Beharrlichkeit trotz Rückschlägen, bevor der Durchbruch kommt",
@@ -47461,12 +47620,12 @@ const LEBENSMUSTERKOMPASS = {
   SX9: {
     tier: "Faultier",
     kernthema: "Verschmelzung mit einem einzelnen Wesen, Werk oder Stil statt Zugehörigkeit zu einer Gruppe",
-    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning", "Kris Marshall", "Ed Gein", "Mutter Maria", "Ed Sheeran", "Eckhart Tolle", "Helge Schneider", "Jon Bon Jovi", "David Guetta", "Adam Sandler", "Jürgen Drews", "François Damiens", "Michael Berryman", "Peter Maffay", "Ringo Starr", "Willie Nelson", "Owen Wilson", "Mads Mikkelsen", "Amber Benson"],
+    beispiele: ["Craig Foster", "Dr. Jane Goodall", "Ana Salceda", "Keanu Reeves", "Dakota Johnson", "Heike Makatsch", "Mario Barth", "Diego Velázquez", "Dr. Carl Rogers", "Friedensreich Hundertwasser", "Iga Świątek", "Sophie Marceau", "Wolfgang Beltracchi", "Lucy Cooke", "Elizabeth Barrett Browning", "Kris Marshall", "Ed Gein", "Mutter Maria", "Ed Sheeran", "Eckhart Tolle", "Helge Schneider", "Jon Bon Jovi", "David Guetta", "Adam Sandler", "Jürgen Drews", "François Damiens", "Michael Berryman", "Peter Maffay", "Ringo Starr", "Willie Nelson", "Owen Wilson", "Mads Mikkelsen", "Amber Benson", "Stefan Homburg", "Dustin Hoffman"],
     fingerabdruecke: [
       {
         titel: "Die eine Bindung statt der vielen Kontakte",
         beschreibung: "Immer wieder zentriert sich das Leben nicht um ein Netzwerk, eine Institution oder ein Publikum, sondern um eine einzelne, oft nicht-menschliche oder sehr private Beziehung bzw. ein einzelnes Werk oder eine einzelne Rolle. Diese eine Verschmelzung wird zum Dreh- und Angelpunkt der gesamten weiteren Biografie – bis hin zur Auflösung der Grenze zwischen dem eigenen Ich und dem Gegenüber.",
-        beleg: "Foster und sein namenloser Oktopus, Goodall und der Schimpanse David Greybeard, Salceda und das Faultier Velcro; Velázquez in ›Las Meninas‹, wo ›die Grenze zwischen Betrachter und Betrachtetem verschwimmt‹; Beltracchi, dessen Kunstfälschungen als ›Verschmelzung mit dem Geist toter Meister‹ beschrieben werden; Carl Rogers' bedingungslos annehmende therapeutische Präsenz für sein Gegenüber; Mario Barth, der seit seinem Bühnendebüt 2001 ›von da an mit einer Bühnenfigur verschmolz, die zum Millionenpublikum sprach‹ – dem Berliner Kumpeltyp; François Damiens, der zwischen 1999 und 2005 über 400 versteckte Kamerastreiche unter einer fremden, bewusst unsympathischen Kunstfigur inszenierte und bis heute sein eigenes Privatleben so vollständig abschirmt, dass kaum etwas über seine Partnerin oder seine Söhne bekannt ist – Verschmelzung mit der Rolle als Schutz vor der eigenen Sichtbarkeit; Keanu Reeves' Verschmelzung mit einzelnen ikonischen Rollen (Neo, John Wick), ohne die dazugehörige Star-Fassade je mitzuleben; Elizabeth Barrett Browning, deren zwanzig Jahre Isolation im Vaterhaus sich binnen zwanzig Monaten Briefwechsel in die eine zentrale Bindung ihres restlichen Lebens verwandelten – ›die SX9 investiert ihre gesamte Energie in die eine Beziehung, die zählt, und lässt alles andere – auch die eigene Sicherheit – dahinter zurücktreten‹; Kris Marshall, der elf Jahre lang in ›My Family‹ denselben Charakter spielte und über ein Jahrzehnt hinweg dieselbe Werbefigur verkörperte, bevor er ›Death in Paradise‹ nach eigenen Angaben verließ, ›um mehr Zeit mit seiner Familie zu verbringen‹ – wenige, dafür sehr lange gehaltene Bindungen statt vieler kurzer.; Mutter Maria (Bibel-Porträt), deren gesamtes Leben sich um die eine Verbindung zu ihrem Sohn zentrierte, unter dem Kreuz, am leeren Grab und darüber hinaus: ›Ich bin da, weil du bist‹ – keine Rolle, kein Netzwerk, sondern die eine Bindung, die nie losgelassen wurde; Ed Sheeran, der seine Ehe mit Jugendfreundin Cherry Seaborn bewusst aus der Öffentlichkeit heraushält und 2019 sogar eine komplette Tourpause einlegte, um genau diese eine Beziehung zu schützen; Jon Bon Jovi, der seine Highschool-Liebe Dorothea Hurley seit ihrem heimlichen Eloping 1989 in Las Vegas nie mehr verließ und mit derselben Band seit 1983 zusammenblieb – dieselbe Verschmelzungsfähigkeit gilt bei ihm der Ehe wie der Band gleichermaßen; David Guetta, der in fast allen seinen Welthits nie selbst singt, sondern mit einer wechselnden Gaststimme verschmilzt, und dessen Ibiza-Partyreihe „F*** Me I'm Famous!“ seit 2002 trotz mehrfachen Venue-Wechsels unter demselben Namen weiterläuft – die eine Institution zählt mehr als der einzelne Abend; Jürgen Drews, seit 1994 mit Ramona verheiratet und seit Jahrzehnten treu demselben Mallorca-Publikum verbunden, das ihn Sommer für Sommer erwartet – dieselbe Frau, dieselbe Insel, dasselbe Fest, immer wieder neu bestätigt statt einmal errungen und dann vergessen.; Peter Maffay, dessen 1983 geschaffene Figur Tabaluga sich über vierzig Jahre vom Konzeptalbum über Musical und Zeichentrickserie bis zur eigenen Stiftung entwickelte – kein Nebenprojekt neben der Musikkarriere, sondern zunehmend deren eigentliches Zentrum.; Ringo Starr, der seit 1981 mit Barbara Bach verheiratet ist und mit ihr 1988 gemeinsam eine Entzugsklinik durchlief, statt sich in der Krise zu trennen – dieselbe Verschmelzungsfähigkeit gilt bei ihm der Ehe wie der Band: als 1968 während der Aufnahmen zum ›weißen Album‹ die Spannungen eskalierten, verließ er die Beatles kurzzeitig und kehrte zurück, sobald die anderen ihn ausdrücklich zurückholten.; Willie Nelson, dessen musikalische Partnerschaft mit seiner Schwester Bobbie vom gemeinsamen Gospelgesang der Kindheit bis zu ihrem Tod 2022 alle vier seiner Ehen und jeden Umbruch seiner Karriere überdauerte – eine einzige, lebenslange Bindung, die zentraler blieb als jede der turbulenteren romantischen Beziehungen.; Owen Wilson, dessen über dreißig Jahre andauernde Schreibpartnerschaft mit Wes Anderson die einzige verlässliche Konstante seines Lebens blieb, während eine seiner Töchter laut deren Mutter nie getroffen wurde; Mads Mikkelsen, seit 1987 mit der Choreografin Hanne Jacobsen zusammen, ohne dass diese Verbindung je zum öffentlichen Thema wurde – dieselbe Fähigkeit zur restlosen Verschmelzung, die seinen minimalistischen Schauspielstil trägt, gilt privat der einen, jahrzehntelangen Bindung; Amber Benson, deren Schreib- und Hörspielpartnerschaft mit Christopher Golden seit 2001 in wechselnden Formaten besteht – von Comics über die Romanreihe ›Ghosts of Albion‹ bis zum Audible-Hörspiel ›Slayers: A Buffyverse Story‹ (2023) – die Verschmelzung gilt hier dem gemeinsamen Werk, über mehr als zwei Jahrzehnte."
+        beleg: "Foster und sein namenloser Oktopus, Goodall und der Schimpanse David Greybeard, Salceda und das Faultier Velcro; Velázquez in ›Las Meninas‹, wo ›die Grenze zwischen Betrachter und Betrachtetem verschwimmt‹; Beltracchi, dessen Kunstfälschungen als ›Verschmelzung mit dem Geist toter Meister‹ beschrieben werden; Carl Rogers' bedingungslos annehmende therapeutische Präsenz für sein Gegenüber; Mario Barth, der seit seinem Bühnendebüt 2001 ›von da an mit einer Bühnenfigur verschmolz, die zum Millionenpublikum sprach‹ – dem Berliner Kumpeltyp; François Damiens, der zwischen 1999 und 2005 über 400 versteckte Kamerastreiche unter einer fremden, bewusst unsympathischen Kunstfigur inszenierte und bis heute sein eigenes Privatleben so vollständig abschirmt, dass kaum etwas über seine Partnerin oder seine Söhne bekannt ist – Verschmelzung mit der Rolle als Schutz vor der eigenen Sichtbarkeit; Keanu Reeves' Verschmelzung mit einzelnen ikonischen Rollen (Neo, John Wick), ohne die dazugehörige Star-Fassade je mitzuleben; Elizabeth Barrett Browning, deren zwanzig Jahre Isolation im Vaterhaus sich binnen zwanzig Monaten Briefwechsel in die eine zentrale Bindung ihres restlichen Lebens verwandelten – ›die SX9 investiert ihre gesamte Energie in die eine Beziehung, die zählt, und lässt alles andere – auch die eigene Sicherheit – dahinter zurücktreten‹; Kris Marshall, der elf Jahre lang in ›My Family‹ denselben Charakter spielte und über ein Jahrzehnt hinweg dieselbe Werbefigur verkörperte, bevor er ›Death in Paradise‹ nach eigenen Angaben verließ, ›um mehr Zeit mit seiner Familie zu verbringen‹ – wenige, dafür sehr lange gehaltene Bindungen statt vieler kurzer.; Mutter Maria (Bibel-Porträt), deren gesamtes Leben sich um die eine Verbindung zu ihrem Sohn zentrierte, unter dem Kreuz, am leeren Grab und darüber hinaus: ›Ich bin da, weil du bist‹ – keine Rolle, kein Netzwerk, sondern die eine Bindung, die nie losgelassen wurde; Ed Sheeran, der seine Ehe mit Jugendfreundin Cherry Seaborn bewusst aus der Öffentlichkeit heraushält und 2019 sogar eine komplette Tourpause einlegte, um genau diese eine Beziehung zu schützen; Jon Bon Jovi, der seine Highschool-Liebe Dorothea Hurley seit ihrem heimlichen Eloping 1989 in Las Vegas nie mehr verließ und mit derselben Band seit 1983 zusammenblieb – dieselbe Verschmelzungsfähigkeit gilt bei ihm der Ehe wie der Band gleichermaßen; David Guetta, der in fast allen seinen Welthits nie selbst singt, sondern mit einer wechselnden Gaststimme verschmilzt, und dessen Ibiza-Partyreihe „F*** Me I'm Famous!“ seit 2002 trotz mehrfachen Venue-Wechsels unter demselben Namen weiterläuft – die eine Institution zählt mehr als der einzelne Abend; Jürgen Drews, seit 1994 mit Ramona verheiratet und seit Jahrzehnten treu demselben Mallorca-Publikum verbunden, das ihn Sommer für Sommer erwartet – dieselbe Frau, dieselbe Insel, dasselbe Fest, immer wieder neu bestätigt statt einmal errungen und dann vergessen.; Peter Maffay, dessen 1983 geschaffene Figur Tabaluga sich über vierzig Jahre vom Konzeptalbum über Musical und Zeichentrickserie bis zur eigenen Stiftung entwickelte – kein Nebenprojekt neben der Musikkarriere, sondern zunehmend deren eigentliches Zentrum.; Ringo Starr, der seit 1981 mit Barbara Bach verheiratet ist und mit ihr 1988 gemeinsam eine Entzugsklinik durchlief, statt sich in der Krise zu trennen – dieselbe Verschmelzungsfähigkeit gilt bei ihm der Ehe wie der Band: als 1968 während der Aufnahmen zum ›weißen Album‹ die Spannungen eskalierten, verließ er die Beatles kurzzeitig und kehrte zurück, sobald die anderen ihn ausdrücklich zurückholten.; Willie Nelson, dessen musikalische Partnerschaft mit seiner Schwester Bobbie vom gemeinsamen Gospelgesang der Kindheit bis zu ihrem Tod 2022 alle vier seiner Ehen und jeden Umbruch seiner Karriere überdauerte – eine einzige, lebenslange Bindung, die zentraler blieb als jede der turbulenteren romantischen Beziehungen.; Owen Wilson, dessen über dreißig Jahre andauernde Schreibpartnerschaft mit Wes Anderson die einzige verlässliche Konstante seines Lebens blieb, während eine seiner Töchter laut deren Mutter nie getroffen wurde; Mads Mikkelsen, seit 1987 mit der Choreografin Hanne Jacobsen zusammen, ohne dass diese Verbindung je zum öffentlichen Thema wurde – dieselbe Fähigkeit zur restlosen Verschmelzung, die seinen minimalistischen Schauspielstil trägt, gilt privat der einen, jahrzehntelangen Bindung; Amber Benson, deren Schreib- und Hörspielpartnerschaft mit Christopher Golden seit 2001 in wechselnden Formaten besteht – von Comics über die Romanreihe ›Ghosts of Albion‹ bis zum Audible-Hörspiel ›Slayers: A Buffyverse Story‹ (2023) – die Verschmelzung gilt hier dem gemeinsamen Werk, über mehr als zwei Jahrzehnte.; Stefan Homburg, der seit seiner ersten öffentlichen Euro-Kritik 1997 über Jahrzehnte an derselben wirtschaftspolitischen Grundüberzeugung festhält und sich zunehmend vollständig mit ihr identifiziert – kein Themenwechsel, keine Verteilung auf wechselnde Debatten, sondern dieselbe eine Position, die sein gesamtes öffentliches Wirken trägt.; Dustin Hoffman, der für ›Rain Man‹ Wochen mit autistischen Menschen verbrachte und sich für ›Marathon Man‹ tagelang wach hielt und hungerte, um die Erschöpfung seiner Figur wirklich zu spüren statt sie nur zu spielen – keine Annäherung an eine Rolle, sondern die vollständige, monatelange Verschmelzung mit ihr, bis von der eigenen Person kaum noch etwas übrig zu sein scheint."
       },
       {
         titel: "Scheinbare Trägheit, die sich bei Bedarf in volle, präzise Intensität verwandelt",
@@ -50804,15 +50963,102 @@ function enneagrammHomoeopathiePage() {
           ${HOMOEOPATHIE_FAELLE.map(card).join('')}
         </div>
 
+        <div class="vb-section" style="max-width:100%;margin:0 0 2rem;border:1px solid var(--line);border-radius:10px;padding:1.2rem 1.4rem;text-align:center;background:color-mix(in srgb, var(--copper) 6%, var(--paper));">
+          <p style="font-size:.78rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;margin:0 0 .5rem;">Kostenloser Download</p>
+          <p style="font-size:.95rem;color:var(--ink);margin:0 0 1rem;">Die wichtigsten Zusammenh\xe4nge der Enneagramm-Hom\xf6opathie als gestalteter PDF-Guide zum Mitnehmen \u2013 vom Baum-Modell \xfcber die neun Mittel bis zum Weg zur\xfcck zum Wesenskern.</p>
+          <a href="https://www.psychologische-homoeopathie.de/downloads/enneagramm-homoeopathie-uebersicht.pdf" target="_blank" rel="noopener" style="display:inline-block;background:var(--copper);color:#fff;font-size:.9rem;padding:.6rem 1.4rem;border-radius:6px;text-decoration:none;font-weight:600;">\u2193 PDF-Guide herunterladen</a>
+        </div>
+
         ${bookTip("enneagramm-homoeopathie-band-1", "Das Grundlagenwerk der Enneagramm-Hom\u00f6opathie \u2013 wie Pers\u00f6nlichkeitstyp und Heilmittelwahl auf der tiefsten Ebene zusammenh\u00e4ngen.", "Enneagramm-Hom\u00f6opathie \u2013 Band 1")}
         ${bookTip("enneagramm-homoeopathie-band-2", "Weitere Fallberichte und Vertiefung der Enneagramm-Hom\u00f6opathie in Band 2.", "Enneagramm-Hom\u00f6opathie \u2013 Band 2")}
         ${relatedLinks([
           {route:"heilungsweg", label:"Schaubild: Heilungsweg des Menschen"},
           {route:"homoeopathie", label:"Hom\xf6opathie \u2013 Heilmittel\xfcbersicht"},
           {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
+          {route:"klassische-vs-enneagramm-homoeopathie", label:"Klassische Hom\xf6opathie und Enneagramm-Hom\xf6opathie im Vergleich"},
           {route:"beruehmte-samuel-hahnemann", label:"Portr\xe4t: Dr. Samuel Hahnemann (SO1w9)"},
           {route:"enneagramm-reflexzonentherapie", label:"Enneagramm meets Reflexzonentherapie"},
           {route:"enneagramm-zahnpsychosomatik", label:"Enneagramm meets Zahn-Psychosomatik"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function klassischeVsEnneagrammHomoeopathiePage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('klassische-vs-enneagramm-homoeopathie')}
+      <div class="page-content">
+        <button class="ghost-link" data-route="enneagramm-homoeopathie" style="margin-bottom:1.2rem;">← Zur\xfcck zu Enneagramm meets Hom\xf6opathie</button>
+        <p class="eyebrow">Wissen &middot; Theorie und Dynamik</p>
+        <h1 class="section-title">Klassische Hom\xf6opathie und Enneagramm-Hom\xf6opathie im Vergleich</h1>
+
+        <div style="margin:1.2rem 0 1.8rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/schaubilder/klassische-vs-enneagramm-homoeopathie/klassische-vs-enneagramm-homoeopathie.jpg" alt="Heilpraktiker und Patientin im Gespr\xe4ch, \xfcber ihr leuchtet das Enneagramm-Symbol als Sinnbild f\xfcr den tieferen Zugang zur Mittelwahl" style="width:100%;display:block;" loading="lazy" />
+        </div>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Beide Methoden stehen auf derselben Grundlage: dem \xc4hnlichkeitsprinzip nach Dr. Samuel Hahnemann (<em>&bdquo;Similia similibus curentur&ldquo;</em>) und derselben Materia Medica. Der Unterschied liegt nicht im Mittel selbst, sondern im Weg, auf dem die Praxis zu ihm findet.</p>
+        </blockquote>
+
+        <div class="vb-section" style="max-width:100%;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">Die klassische Hom\xf6opathie: der Weg \xfcber die vollst\xe4ndige Symptomentotalit\xe4t</h2>
+          <p class="vb-intro">Schon im Organon verlangt Hahnemann die Erfassung der gesamten &bdquo;Symptomentotalit\xe4t&ldquo; eines Patienten – also nicht nur das k\xf6rperliche Beschwerdebild, sondern ausdr\xfccklich auch Gem\xfctszustand, Lebensumst\xe4nde und individuelle Modalit\xe4ten. Sein eigener Satz dazu lautet: <em>&bdquo;Das Gem\xfct ist der Schl\xfcssel zur Heilung des Patienten.&ldquo;</em> Der Weg zum passenden Mittel f\xfchrt hier \xfcber die vollst\xe4ndige Fallaufnahme: Befragung, Repertorisation und Materia-Medica-Abgleich. Ein Pers\xf6nlichkeitsbild des Patienten ergibt sich dabei erst im Verlauf der Anamnese, als eines von vielen Symptomfeldern unter vielen.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">Die Enneagramm-Hom\xf6opathie: der Weg \xfcber den Pers\xf6nlichkeitstyp als Ausgangshypothese</h2>
+          <p class="vb-intro">Die Enneagramm-Hom\xf6opathie setzt vor der vollst\xe4ndigen Anamnese an: Der Enneagrammtyp liefert eine begr\xfcndete erste Arbeitshypothese \xfcber die wahrscheinliche Mittelfamilie – weil Typ und Subtyp bereits ein empirisch beschriebenes Muster aus Grundmotivation, Grundleidenschaft, Kernwunde und typischem Verhalten mitbringen. Dieses Muster l\xe4sst sich anschlie\xdfend mit der klassischen Fallaufnahme kreuzvalidieren, statt die Mittelsuche bei null zu beginnen.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">Vier Ebenen der Betrachtung: warum das Enneagramm tiefer blicken kann</h2>
+          <p class="vb-intro">Der eigentliche Vorteil der Enneagramm-Hom\xf6opathie liegt nicht allein in der schnelleren Orientierung, sondern in der Tiefe, aus der heraus das pathologische Geschehen betrachtet wird. Selbst erfahrene klassische Hom\xf6opathen arbeiten meist auf der <strong>Verhaltensebene</strong>: Sie beobachten, wie sich ein Patient in seiner Erkrankung verh\xe4lt, wie sich seine Symptome in Modalit\xe4t, Verlauf und Ausdrucksform zeigen. Nur die erfahrensten unter ihnen dringen gelegentlich bis zur <strong>motivationalen Ebene</strong> vor – zu der Frage, was einen Menschen in seinem Innersten antreibt.</p>
+          <p class="vb-intro" style="margin-top:1rem;">Das Enneagramm erlaubt es, wie durch eine Lupe noch weiter in die Tiefe zu blicken: von der Verhaltensebene zur <strong>Leidenschaftsebene</strong> (einer der neun Grundleidenschaften – Zorn, Stolz, Eitelkeit, Neid, Geiz, Angst, Ma\xdflosigkeit, Gier oder Tr\xe4gheit) und von dort weiter zur Ebene der <strong>Kernwunde</strong> – bei genauer Kenntnis des jeweiligen Subtyps sogar bis zur Ebene der 27 Instinktvarianten (Selbsterhaltung, Sozial, Sexuell).</p>
+          <p class="vb-intro" style="margin-top:1rem;">Diese vier Ebenen bilden keine beliebige Aufz\xe4hlung, sondern eine Wirkungskette: Aus der Kernwunde erw\xe4chst die Leidenschaft, aus der Leidenschaft erw\xe4chst das charakteristische Verhalten – und dieses Verhalten ist es, was sich auf der k\xf6rperlichen, seelischen und geistigen Ebene schlie\xdflich als Symptomatik zeigt. Die Verhaltensebene, auf der die klassische Hom\xf6opathie meist ansetzt, ist damit selbst bereits Ausdruck einer tieferliegenden Schicht – nicht deren Ursache.</p>
+          <p class="vb-intro" style="margin-top:1rem;">Menschsein und Kranksein sind zwei Seiten derselben M\xfcnze: Was einen Menschen motiviert, motiviert auch sein Kranksein; was seine Leidenschaft ausdr\xfcckt, dr\xfcckt sich auch in der Art seiner Symptomatik aus. Da die Hom\xf6opathie die Lebenskraft als Ganzes wieder ins Gleichgewicht bringen will, kann sie von diesem tieferen Zugang nur profitieren. Wer die tiefere Ursache eines Verhaltens auf der Ebene der Kernwunde und des Subtyps erkennt, kann daraus mitunter ein tiefergreifendes Mittel ableiten – eines, das von den allein \xfcber die Verhaltensbeobachtung gefundenen, typischen Mitteln der klassischen Hom\xf6opathie abweicht. Nicht immer, aber in nicht wenigen F\xe4llen – und mit dem Potenzial zu einer tieferen, nachhaltigeren Heilung.</p>
+        </div>
+
+        <h2 class="section-title" style="font-size:1.2rem;margin:2.2rem 0 1rem;">Die Unterschiede im \xdcberblick</h2>
+        <div style="overflow-x:auto;">
+          <table style="width:100%;border-collapse:collapse;font-size:.88rem;margin:0 0 1.6rem;">
+            <thead>
+              <tr>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Dimension</th>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Klassische Hom\xf6opathie</th>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Enneagramm-Hom\xf6opathie</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">Betrachtungsebene</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">In der Praxis meist die Verhaltensebene, bei sehr erfahrenen Behandlern gelegentlich die motivationale Ebene</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Systematischer Zugang bis zur Ebene der Leidenschaft, der Kernwunde und, subtypgenau, der Instinktvariante</td></tr>
+              <tr><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">Ausgangspunkt</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Vollst\xe4ndige Anamnese inklusive Gem\xfct, ohne Vorannahme zur Mittelrichtung</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Enneagrammtyp und -subtyp als erste, begr\xfcndete Arbeitshypothese vor der vollst\xe4ndigen Anamnese</td></tr>
+              <tr><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">St\xe4rke</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Deckt auch seltene, untypische Mittelbilder auf, die kein Typmuster vorhersagen w\xfcrde</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Schnellere Orientierung bei \xe4hnlichen Differenzialmitteln, besonders wenn das Symptombild noch uneindeutig ist</td></tr>
+              <tr><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">Blick auf den Verlauf</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Momentaufnahme des aktuellen Beschwerdebilds</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Zus\xe4tzlich: Stress- und Sicherheitslinie des Typs erkl\xe4ren, wohin sich das Krankheitsbild bei Belastung wahrscheinlich verschiebt</td></tr>
+              <tr><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">Verh\xe4ltnis zueinander</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Bleibt die methodische Grundlage und letzte Pr\xfcfinstanz</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Erg\xe4nzender Zugangsweg, der die klassische Fallaufnahme nicht ersetzt, sondern schneller auf die richtige Spur bringt</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 class="section-title" style="font-size:1.2rem;margin:0 0 1rem;">Was die Enneagramm-Hom\xf6opathie zus\xe4tzlich bietet</h2>
+        <div class="vb-section" style="max-width:100%;">
+          <p class="vb-intro"><strong>Eine begr\xfcndete Vorauswahl statt eines Blindflugs.</strong> Bei \xe4hnlich klingenden Mittelbildern – etwa zwischen mehreren Mitteln, die alle &bdquo;\xc4ngstlichkeit&ldquo; oder &bdquo;Perfektionismus&ldquo; zeigen – hilft das Wissen um Typ und Subtyp, die Differenzialdiagnose gezielter einzugrenzen, weil die charakterliche Grundmotivation hinter dem Symptom bereits bekannt ist.</p>
+          <p class="vb-intro" style="margin-top:1rem;"><strong>Ein Verlaufsmodell statt einer Momentaufnahme.</strong> Die Stress- und Sicherheitslinien des Enneagramms beschreiben, wie sich das Erscheinungsbild eines Menschen unter Druck typischerweise verschiebt. Das liefert eine zus\xe4tzliche Erkl\xe4rungsebene daf\xfcr, warum sich ein Beschwerdebild \xfcber die Zeit ver\xe4ndert – eine Perspektive, die \xfcber die reine Momentaufnahme der klassischen Erstanamnese hinausgeht.</p>
+          <p class="vb-intro" style="margin-top:1rem;"><strong>Ein gemeinsames Vokabular f\xfcr Patient und Behandler.</strong> Viele Patienten kennen ihr eigenes Enneagramm-Profil bereits aus der Selbstreflexion. Das erleichtert das Gespr\xe4ch \xfcber innere Muster erheblich – ein praktischer, kommunikativer Vorteil, der mit der eigentlichen Wirksamkeit der Mittel nichts zu tun hat, aber den Zugang zur Behandlung sp\xfcrbar erleichtert.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+          <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Fazit aus der Praxis:</strong> Die Enneagramm-Hom\xf6opathie ist kein Ersatz f\xfcr die klassische Methode – sie ist ein zus\xe4tzlicher, strukturierter Zugangsweg zur selben klassischen Mittelwahl. Am Ende steht immer dasselbe Mittel aus derselben Materia Medica; der Unterschied liegt allein darin, wie zielgerichtet und wie schnell der Weg dorthin gefunden wird.</p>
+        </div>
+
+        ${bookTip("enneagramm-homoeopathie-band-1", "Das Grundlagenwerk der Enneagramm-Homöopathie – wie Persönlichkeitstyp und Heilmittelwahl auf der tiefsten Ebene zusammenhängen.", "Enneagramm-Homöopathie – Band 1")}
+        ${bookTip("enneagramm-homoeopathie-band-2", "Weitere Fallberichte und Vertiefung der Enneagramm-Homöopathie in Band 2.", "Enneagramm-Homöopathie – Band 2")}
+        ${relatedLinks([
+          {route:"enneagramm-homoeopathie", label:"Enneagramm meets Hom\xf6opathie – 9 Patientenf\xe4lle"},
+          {route:"heilungsweg", label:"Schaubild: Heilungsweg des Menschen"},
+          {route:"homoeopathie", label:"Hom\xf6opathie – Heilmittel\xfcbersicht"},
+          {route:"persoenlichkeitsmodelle-vergleich", label:"Enneagramm vs. andere Pers\xf6nlichkeitsmodelle"},
+          {route:"beruehmte-samuel-hahnemann", label:"Portr\xe4t: Dr. Samuel Hahnemann (SO1w9)"},
         ])}
       </div>
     </div>
@@ -51416,6 +51662,7 @@ function enneagrammOdysseePage() {
         </a>
         ${relatedLinks([
           {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
+          {route:"ennead-enneagramm", label:"Die Ennead von Heliopolis und das Enneagramm"},
           {route:"enneagramm-wohnraumarchitektur", label:"Enneagramm meets Wohnraumarchitektur"},
           {route:"beruehmte-persoenlichkeiten", label:"Ber\u00fchmte Pers\u00f6nlichkeiten \u2013 Portr\u00e4ts"},
           {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
@@ -51426,7 +51673,214 @@ function enneagrammOdysseePage() {
   `);
 }
 
-// \u2500\u2500\u2500 Enneagramm meets Wohnraumarchitektur \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+// \u2500\u2500\u2500 Die Ennead von Heliopolis und das Enneagramm \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+
+function enneagrammEnneadPage() {
+  const GOETTER = [
+    { name: "Atum", domain: "Sch\xf6pfung", text: "Der sich selbst erschaffende Ursprungsgott, aus dessen Einsamkeit alle acht \xfcbrigen G\xf6tter hervorgehen. Als Re-Atum zugleich Sonnengott des Mittags." },
+    { name: "Schu", domain: "Luft &amp; Raum", text: "Trennt Himmel und Erde voneinander und schafft so erst den Raum, in dem sich alles Weitere entfalten kann." },
+    { name: "Tefnut", domain: "Feuchtigkeit", text: "Schus Zwillingsschwester, Prinzip von Tau, Regen und Milde \u2013 das sanfte Gegenst\xfcck zur trockenen Luft." },
+    { name: "Geb", domain: "Erde", text: "Der Erdgott, in der \xe4gyptischen Mythologie ungew\xf6hnlicherweise m\xe4nnlich \u2013 das feste, tragende Fundament, auf dem alles Leben ruht." },
+    { name: "Nut", domain: "Himmel", text: "Die Himmelsg\xf6ttin, die sich nachts \xfcber Geb w\xf6lbt, jeden Abend die Sonne verschlingt und jeden Morgen neu gebiert \u2013 Sinnbild endloser Weite und Erneuerung." },
+    { name: "Osiris", domain: "Ordnung &amp; K\xf6nigtum", text: "Gott der kosmischen Ordnung, des Ackerbaus und der Totenrichtschaft \u2013 von Seth get\xf6tet, von Isis wieder zusammengef\xfcgt, Sinnbild der Wiederherstellung des Rechten." },
+    { name: "Isis", domain: "Magie &amp; F\xfcrsorge", text: "Die hingebungsvolle Gattin, die Osiris' Leichnam zusammensetzt und ihn durch Magie wiederbelebt \u2013 Urbild m\xfctterlicher Heilkraft." },
+    { name: "Seth", domain: "Chaos &amp; Sturm", text: "Gott der W\xfcste, des Sturms und des offenen Konflikts \u2013 notwendige Gegenkraft zur Ordnung, nicht einfach \u201edas B\xf6se\u201c." },
+    { name: "Nephthys", domain: "Trauer &amp; Schwelle", text: "Die stille, oft \xfcbersehene Schwester der strahlenden Isis \u2013 H\xfcterin der \xdcberg\xe4nge zwischen Leben und Tod, des Verborgenen." },
+  ];
+  function godCard(g) {
+    return `<div class="vb-section" style="max-width:100%;border:1px solid var(--line);border-radius:12px;padding:.95rem 1.05rem;background:color-mix(in srgb, var(--copper) 4%, var(--paper));">
+      <div style="font-weight:700;font-size:1rem;color:var(--ink);margin:0 0 .15rem;">${g.name}</div>
+      <div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--copper);margin:0 0 .4rem;">${g.domain}</div>
+      <p style="font-size:.85rem;color:var(--muted);margin:0;">${g.text}</p>
+    </div>`;
+  }
+  const TABELLE = [
+    { typ: "1", gott: "Osiris", text: "Beide stehen f\xfcr das Streben nach kosmischer Ordnung und Rechtschaffenheit \u2013 Osiris als Totenrichter, der Eins als innerer Ma\xdfstab f\xfcr richtig und falsch." },
+    { typ: "2", gott: "Isis", text: "Die hingebungsvolle, heilende F\xfcrsorge, die sich \xfcber das Wohl eines anderen definiert, ist in beiden Figuren dieselbe Grundbewegung." },
+    { typ: "3", gott: "Atum", text: "Der sich selbst erschaffende, strahlende Ursprungsgott spiegelt das Selbstbild der Drei: aus eigener Kraft zum gl\xe4nzenden Zentrum werden." },
+    { typ: "4", gott: "Nephthys", text: "Die stille, im Schatten der strahlenden Schwester stehende G\xf6ttin der Trauer und des \xdcbergangs trifft die Sehnsucht der Vier nach dem Besonderen im Schmerz." },
+    { typ: "5", gott: "Schu", text: "Schu schafft Distanz zwischen Himmel und Erde \u2013 genau jenen Raum, den auch die F\xfcnf braucht, um die Welt aus sicherem Abstand zu begreifen." },
+    { typ: "6", gott: "Geb", text: "Der tragende, feste Erdboden als Sinnbild f\xfcr das, wonach die Sechs im Kern sucht: verl\xe4sslichen Grund unter den F\xfc\xdfen." },
+    { typ: "7", gott: "Nut", text: "Die endlose, stern\u00fcbers\xe4te Himmelsg\xf6ttin, die sich t\xe4glich erneuert, spiegelt die Weite und den M\xf6glichkeitsreichtum, den die Sieben sucht." },
+    { typ: "8", gott: "Seth", text: "Rohe Kraft, Konfrontation und die Weigerung, sich zu beugen \u2013 Seths Wesen und die Durchsetzungskraft der Acht liegen nah beieinander." },
+    { typ: "9", gott: "Tefnut", text: "Das milde, vers\xf6hnliche Gegenst\xfcck zu Schu, das sich m\xfchelos einf\xfcgt, ohne sich aufzul\xf6sen \u2013 ein Bild f\xfcr die verschmelzende, friedliche Art der Neun." },
+  ];
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('ennead-enneagramm')}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Enneagramm in Kultur &amp; Welt</p>
+        <h1 class="section-title">Die Ennead von Heliopolis und das Enneagramm</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Zwei Systeme der Neun, getrennt durch viertausend Jahre</h2>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/schaubilder/ennead-enneagramm/ennead-enneagramm.jpg" alt="Neun \xe4gyptische G\xf6tterstatuen im Kreis um ein leuchtendes Enneagramm-Symbol in einem Tempelhof bei Sonnenuntergang" style="width:100%;display:block;" loading="lazy" />
+        </div>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">\u201eEnnead\u201c ist die griechische Bezeichnung f\xfcr eine Neunergruppe (<em>enn\xe9as</em>, von <em>enn\xe9a</em> = neun) \u2013 derselbe Wortstamm, der auch im Begriff \u201eEnneagramm\u201c (<em>enn\xe9a</em> + <em>gr\xe1mma</em>, \u201eNeun-Zeichen\u201c) steckt. Die griechischen Gelehrten der Antike verwendeten \u201eEnnead\u201c als festen Fachbegriff, wann immer eine Religion oder Philosophie neun zusammengeh\xf6rige Prinzipien kannte \u2013 am bekanntesten f\xfcr die neun G\xf6tter von Heliopolis im alten \xc4gypten.</p>
+          <p class="vb-intro">Das Enneagramm beschreibt dabei weit mehr als nur die menschliche Psyche. Die neun Grundprinzipien, die es abbildet, gelten als universelle Ordnungszahl, der man auf allen Ebenen der Sch\xf6pfung begegnet \u2013 in der Pflanzen- und Tierwelt ebenso wie einst in der Zahl der klassischen Planeten unseres Sonnensystems, als auch Pluto noch dazugez\xe4hlt wurde. Die menschliche Pers\xf6nlichkeit mit ihren neun Typen ist damit nur eine, wenn auch die f\xfcr die Praxis dieser App wichtigste Anwendung eines viel umfassenderen kosmischen Musters.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.15rem;margin:0 0 1.2rem;">Die neun G\xf6tter von Heliopolis</h2>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0 0 1.4rem;">In der \xe4gyptischen Stadt Heliopolis (im Alten Reich, ca. 2600 v. Chr., erstmals schriftlich belegt in den Pyramidentexten) entwickelten die Priester eine Sch\xf6pfungslehre, die den gesamten Kosmos aus einer einzigen Ursubstanz in neun aufeinanderfolgenden Generationen entfaltet: Atum zeugt aus sich selbst Schu und Tefnut, diese zeugen Geb und Nut, und aus deren Verbindung gehen schlie\xdflich Osiris, Isis, Seth und Nephthys hervor. Jede Gottheit verk\xf6rpert ein eigenst\xe4ndiges kosmisches Prinzip \u2013 und doch bilden alle neun zusammen ein geschlossenes, genealogisch verbundenes Ganzes.</p>
+
+        <div style="display:flex;flex-direction:column;align-items:center;gap:.5rem;margin:1.2rem 0 2rem;font-family:-apple-system,BlinkMacSystemFont,sans-serif;">
+          <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;">
+            <div style="background:color-mix(in srgb, var(--copper) 12%, var(--paper));border:1px solid var(--copper);border-radius:10px;padding:.5rem 1.1rem;font-size:.85rem;font-weight:700;color:var(--copper);">Atum</div>
+          </div>
+          <div style="font-size:.75rem;color:var(--muted);">zeugt aus sich selbst</div>
+          <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;">
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Schu</div>
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Tefnut</div>
+          </div>
+          <div style="font-size:.75rem;color:var(--muted);">zeugen</div>
+          <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;">
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Geb</div>
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Nut</div>
+          </div>
+          <div style="font-size:.75rem;color:var(--muted);">zeugen</div>
+          <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;">
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Osiris</div>
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Isis</div>
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Seth</div>
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Nephthys</div>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.9rem;margin-bottom:2rem;">
+          ${GOETTER.map(godCard).join('')}
+        </div>
+
+        <h2 class="section-title" style="font-size:1.15rem;margin:0 0 1rem;">Eine spielerische Gegen\xfcberstellung</h2>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0 0 1.2rem;">Genau auf dieser Ebene \u2013 als zwei eigenst\xe4ndige Versuche, ein Ganzes in neun zusammengeh\xf6rige Grundkr\xe4fte zu gliedern \u2013 l\xe4sst sich die Ennead von Heliopolis dem Enneagramm gegen\xfcberstellen. Diese Tabelle ist ausdr\xfccklich eine moderne, interpretierende Analogie und keine historische Behauptung: Die Priester von Heliopolis kannten keine Charaktertypologie. Wohl aber l\xe4sst sich mit etwas Aufmerksamkeit erkennen, wie bestimmte Wesensz\xfcge der neun Gottheiten auf die neun Grundkr\xe4fte verweisen, die im Enneagramm auch als menschliche Typen in Erscheinung treten.</p>
+        <div style="overflow-x:auto;">
+          <table style="width:100%;border-collapse:collapse;font-size:.88rem;margin:0 0 1.6rem;">
+            <thead>
+              <tr>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Typ</th>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Gottheit</th>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Die Resonanz</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${TABELLE.map(r => `
+              <tr>
+                <td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">${r.typ}</td>
+                <td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">${r.gott}</td>
+                <td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">${r.text}</td>
+              </tr>`).join("")}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:.5rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+          <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Einordnung ohne Determinismus:</strong> Diese Gegen\xfcberstellung erhebt keinen Anspruch auf historische oder esoterische Wahrheit. Sie zeigt lediglich, wie zwei Kulturen, die nichts voneinander wussten, unabh\xe4ngig voneinander zur selben Zahl griffen, um ein komplexes Ganzes in neun unterscheidbare Kr\xe4fte zu gliedern \u2013 ein weiterer Beleg daf\xfcr, dass die Neun offenbar eine universelle, \xfcber die menschliche Psyche weit hinausreichende Ordnungszahl f\xfcr vielschichtige Systeme ist.</p>
+        </div>
+
+        ${relatedLinks([
+          {route:"navagraha-enneagramm", label:"Navagraha und das Enneagramm"},
+          {route:"planetenzuordnungen", label:"Planeten &amp; Trabanten des Sonnensystems"},
+          {route:"enneagramm-odyssee", label:"Enneagramm meets Odyssee"},
+          {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
+          {route:"enneagramm-bibel", label:"Enneagramm im Spiegel des Neuen Testaments"},
+          {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+// ─── Navagraha und das Enneagramm ─────────────────────────────
+
+function enneagrammNavagrahaPage() {
+  const GRAHAS = [
+    { name: "Surya", sanskrit: "Sonne", domain: "Seele &amp; Autorit\xe4t", text: "Zentrum des Horoskops, Sitz des Ichs und der Vitalit\xe4t – strahlende Selbstbehauptung, F\xfchrungsanspruch, der Vater." },
+    { name: "Chandra", sanskrit: "Mond", domain: "Gem\xfct &amp; Empf\xe4nglichkeit", text: "Hat kein eigenes Licht, sondern spiegelt nur das der Sonne – Sinnbild f\xfcr Gef\xfchl, Mutter, Anpassung und stete innere Bewegung." },
+    { name: "Mangala", sanskrit: "Mars", domain: "Kraft &amp; Tatendrang", text: "Energie, Mut, Durchsetzung und offener Konflikt – die rohe, handelnde Kraft des Horoskops." },
+    { name: "Budha", sanskrit: "Merkur", domain: "Verstand &amp; Analyse", text: "N\xfcchterner Intellekt, Kommunikation und Beobachtung – der k\xfchlste, am wenigsten emotionale aller Grahas." },
+    { name: "Guru", sanskrit: "Jupiter", domain: "Expansion &amp; Weisheit", text: "Der „gro\xdfe Wohlt\xe4ter“: Optimismus, F\xfclle, Lehre und der Glaube an immer neue M\xf6glichkeiten." },
+    { name: "Shukra", sanskrit: "Venus", domain: "Liebe &amp; Harmonie", text: "Zuneigung, Sch\xf6nheit, Beziehung und der Wunsch, Freude zu schenken und zu empfangen." },
+    { name: "Shani", sanskrit: "Saturn", domain: "Disziplin &amp; Pflicht", text: "Der strenge Lehrer: Struktur, Verzicht, Ausdauer und das unbestechliche Gewissen, das an Regeln festh\xe4lt." },
+    { name: "Rahu", sanskrit: "Aufsteigender Mondknoten", domain: "Verlangen &amp; Unruhe", text: "Kein Himmelsk\xf6rper, sondern ein Schattenpunkt – steht f\xfcr ruhelose Begierde, Besessenheit und ins Ma\xdflose gesteigerte Sorge." },
+    { name: "Ketu", sanskrit: "Absteigender Mondknoten", domain: "Losl\xf6sung &amp; Sehnsucht", text: "Der Gegenpol zu Rahu – R\xfcckzug, spirituelle Sehnsucht und ein diffuses Gef\xfchl, dass etwas Wesentliches fehlt." },
+  ];
+  function grahaCard(g) {
+    return `<div class="vb-section" style="max-width:100%;border:1px solid var(--line);border-radius:12px;padding:.95rem 1.05rem;background:color-mix(in srgb, var(--copper) 4%, var(--paper));">
+      <div style="font-weight:700;font-size:1rem;color:var(--ink);margin:0 0 .15rem;">${g.name}</div>
+      <div style="font-size:.78rem;color:var(--copper);font-style:italic;margin:0 0 .3rem;">${g.sanskrit}</div>
+      <div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);opacity:.65;margin:0 0 .4rem;">${g.domain}</div>
+      <p style="font-size:.85rem;color:var(--muted);margin:0;">${g.text}</p>
+    </div>`;
+  }
+  const TABELLE = [
+    { typ: "1", graha: "Shani (Saturn)", text: "Der strenge innere Richter, der an Regeln, Pflicht und Disziplin festh\xe4lt – Saturns Dom\xe4ne ist exakt das Terrain der Eins." },
+    { typ: "2", graha: "Shukra (Venus)", text: "Die Hinwendung zum anderen durch Liebe, Zuneigung und den Wunsch, Freude zu schenken – ganz im Sinne der Venus." },
+    { typ: "3", graha: "Surya (Sonne)", text: "Die Sonne hat kein Licht zu verbergen, sie strahlt aus eigener Kraft ins Zentrum – das Bed\xfcrfnis der Drei, zu gl\xe4nzen und gesehen zu werden." },
+    { typ: "4", graha: "Ketu", text: "Die diffuse Sehnsucht nach dem, was fehlt, der R\xfcckzug aus der gew\xf6hnlichen Welt ins Besondere – Ketus Melancholie trifft die Vier genau." },
+    { typ: "5", graha: "Budha (Merkur)", text: "Der k\xfchlste, unemotionalste Graha – reiner Verstand, Beobachtung und Analyse statt unmittelbarer Beteiligung." },
+    { typ: "6", graha: "Rahu", text: "Rastlose, ins Ma\xdflose gesteigerte Sorge und das Kreisen um m\xf6gliche Gefahren – Rahus Unruhe ist der Sechs vertraut." },
+    { typ: "7", graha: "Guru (Jupiter)", text: "Der gro\xdfe Wohlt\xe4ter, der immer neue M\xf6glichkeiten und F\xfclle verspricht – Jupiters Optimismus ist die Grundstimmung der Sieben." },
+    { typ: "8", graha: "Mangala (Mars)", text: "Rohe Kraft, unmittelbare Durchsetzung und die Bereitschaft zur offenen Konfrontation – Mars und die Acht sprechen dieselbe Sprache." },
+    { typ: "9", graha: "Chandra (Mond)", text: "Ohne eigenes Licht, nur Spiegelung der Sonne, stets im Einklang mit dem, was um ihn herum geschieht – ein treffendes Bild f\xfcr die verschmelzende Neun." },
+  ];
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('navagraha-enneagramm')}
+      <div class="page-content">
+        <p class="eyebrow">Wissen &middot; Enneagramm in Kultur &amp; Welt</p>
+        <h1 class="section-title">Navagraha und das Enneagramm</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Die neun „Greifer“ der vedischen Astrologie</h2>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="./assets/schaubilder/navagraha-enneagramm/navagraha-enneagramm.jpg" alt="Die neun Grahas als G\xf6tterfiguren im Kreis um ein leuchtendes Enneagramm-Symbol vor Sternenhimmel" style="width:100%;display:block;" loading="lazy" />
+        </div>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">„Navagraha“ setzt sich aus dem Sanskrit <em>nava</em> (neun) und <em>graha</em> (w\xf6rtlich „Greifer“, „das, was ergreift“) zusammen – gemeint sind die neun Himmelskr\xe4fte, die nach vedischer Vorstellung das Schicksal eines Menschen im Moment seiner Geburt „ergreifen“ und fortan pr\xe4gen. Die Jyotish genannte vedische Astrologie z\xe4hlt seit \xfcber zweitausend Jahren exakt neun solcher Grahas – nicht zuf\xe4llig, sondern weil sieben davon die mit blo\xdfem Auge sichtbaren Lichter sind (Sonne, Mond und die f\xfcnf klassischen Planeten) und die \xfcbrigen zwei keine Himmelsk\xf6rper, sondern mathematische Punkte der Mondbahn sind: Rahu und Ketu, die Mondknoten. Uranus, Neptun und Pluto, erst mit dem Teleskop entdeckt, wurden in der traditionellen Jyotish-Praxis bis heute bewusst nicht aufgenommen – die Neun blieb neun.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.15rem;margin:0 0 1.2rem;">Die neun Grahas im \xdcberblick</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.9rem;margin-bottom:2rem;">
+          ${GRAHAS.map(grahaCard).join('')}
+        </div>
+
+        <h2 class="section-title" style="font-size:1.15rem;margin:0 0 1rem;">Eine spielerische Gegen\xfcberstellung</h2>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0 0 1.2rem;">Diese Zuordnung ist eine moderne, interpretierende Analogie, keine \xfcberlieferte Lehre der Jyotish-Tradition selbst – und unabh\xe4ngig von jeder bestehenden Zuordnung zur westlichen Astrologie dieser App. Sie zeigt, wie sich die klassischen Bedeutungen der neun Grahas mit den neun Grundmotivationen des Enneagramms ber\xfchren.</p>
+        <div style="overflow-x:auto;">
+          <table style="width:100%;border-collapse:collapse;font-size:.88rem;margin:0 0 1.6rem;">
+            <thead>
+              <tr>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Typ</th>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Graha</th>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Die Resonanz</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${TABELLE.map(r => `
+              <tr>
+                <td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">${r.typ}</td>
+                <td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">${r.graha}</td>
+                <td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">${r.text}</td>
+              </tr>`).join("")}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:.5rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+          <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Einordnung ohne Determinismus:</strong> Auch diese Gegen\xfcberstellung erhebt keinen Anspruch auf astrologische oder historische Wahrheit. Sie zeigt lediglich, wie zwei voneinander unabh\xe4ngige Traditionen – die vedische Astrologie und das moderne Enneagramm – auf verbl\xfcffend \xe4hnliche Weise neun Grundkr\xe4fte des menschlichen Erlebens unterscheiden. Ein weiteres Beispiel f\xfcr die Neun als universelle, kulturübergreifend wiederkehrende Ordnungszahl.</p>
+        </div>
+
+        ${relatedLinks([
+          {route:"ennead-enneagramm", label:"Die Ennead von Heliopolis und das Enneagramm"},
+          {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
+          {route:"planetenzuordnungen", label:"Planeten &amp; Trabanten des Sonnensystems"},
+          {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
 
 function enneagrammWohnraumarchitekturPage() {
   const ZENTREN_WOHNEN = [
@@ -78745,8 +79199,11 @@ const ROUTES = {
       "linien-dynamik-beziehungen": linienDynamikBeziehungenPage,
       "enneagramm-autopoese": enneagrammAutopoesePage,
       "enneagramm-homoeopathie": enneagrammHomoeopathiePage,
+      "klassische-vs-enneagramm-homoeopathie": klassischeVsEnneagrammHomoeopathiePage,
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,
+      "ennead-enneagramm": enneagrammEnneadPage,
+      "navagraha-enneagramm": enneagrammNavagrahaPage,
       "enneagramm-odyssee": enneagrammOdysseePage,
       "enneagramm-wohnraumarchitektur": enneagrammWohnraumarchitekturPage,
       "enneagramm-zimmerpflanzen": enneagrammZimmerpflanzenPage,
@@ -78784,7 +79241,7 @@ const ROUTES = {
       "beruehmte-pierce-brosnan": pierceBrosnanPortraitPage,
       "beruehmte-christoph-waltz": christophWaltzPortraitPage,
       "beruehmte-alain-delon": alainDelonPortraitPage,
-      "beruehmte-arnold-schwarzenegger": arnoldSchwarzeneggerPortraitPage, "beruehmte-sigourney-weaver": sigourneyWeaverPortraitPage,
+      "beruehmte-arnold-schwarzenegger": arnoldSchwarzeneggerPortraitPage, "beruehmte-sigourney-weaver": sigourneyWeaverPortraitPage, "beruehmte-jessica-biel": jessicaBielPortraitPage, "beruehmte-justin-timberlake": justinTimberlakePortraitPage,
       "beruehmte-guenther-krabbenhoeft": guentherKrabbenhoeftPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
       "beruehmte-dan-brown": danBrownPortraitPage,
@@ -78799,6 +79256,7 @@ const ROUTES = {
       "beruehmte-iris-berben": irisBerbenPortraitPage,
       "beruehmte-linda-evans": lindaEvansPortraitPage,
       "beruehmte-brad-pitt": bradPittPortraitPage,
+      "beruehmte-naomi-campbell": naomiCampbellPortraitPage,
       "beruehmte-wolfgang-joop": wolfgangJoopPortraitPage,
       "beruehmte-lenny-kravitz": lennyKravitzPortraitPage,
       "beruehmte-heidi-klum": heidiKlumPortraitPage,
@@ -79089,6 +79547,7 @@ const ROUTES = {
     "beruehmte-carlo-ancelotti": carloAncelottiPortraitPage,
     "beruehmte-sergio-bambaren": sergioBambarenPortraitPage,
       "beruehmte-jane-goodall": janeGoodallPortraitPage,
+      "beruehmte-bruce-springsteen": bruceSpringsteenPortraitPage,
       "beruehmte-peter-maffay": peterMaffayPortraitPage,
       "beruehmte-heinz-ruehmann": heinzRuehmannPortraitPage,
       "beruehmte-laurie-marker": laurieMarkerPortraitPage,
@@ -79215,6 +79674,9 @@ const ROUTES = {
       "beruehmte-don-mclean": donMcleanPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
       "beruehmte-leonard-cohen": leonardCohenPortraitPage,
+      "beruehmte-william-james-sidis": williamJamesSidisPortraitPage,
+      "beruehmte-julie-benz": julieBenzPortraitPage,
+      "beruehmte-erich-von-daeniken": erichVonDaenikenPortraitPage,
       "beruehmte-cheyenne-ochsenknecht": cheyenneOchsenknechtPortraitPage,
       "beruehmte-javier-parisi": javierParisiPortraitPage,
       "beruehmte-fiona-apple": fionaApplePortraitPage,
@@ -79243,6 +79705,7 @@ const ROUTES = {
       "beruehmte-fabian-kahl": fabianKahlPortraitPage,
       "beruehmte-eddie-redmayne": eddieRedmaynePortraitPage,
       "beruehmte-joachim-loew": joachimLoewPortraitPage,
+      "beruehmte-nicole-kidman": nicoleKidmanPortraitPage,
       "beruehmte-angelina-jolie": angelinaJoliePortraitPage,
       "beruehmte-steve-jobs": steveJobsPortraitPage,
       "beruehmte-juergen-klopp": juergenKloppPortraitPage,
