@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2457", date: "2026-10-07", text: "Neues Krankheitsporträt: Andy Warhol (SX5w4) – die verschwiegene Gallenblasenerkrankung.", text_en: "New illness portrait: Andy Warhol (SX5w4) – the concealed gallbladder disease.", route: "krankheitsportraets-andy-warhol" },
     { version: "v2456", date: "2026-10-07", text: "Neues Porträt: Franz Josef Strauß (SE8w9) – bayerischer Ministerpräsident.", text_en: "New portrait: Franz Josef Strauß (SE8w9) – Bavarian minister-president.", route: "beruehmte-franz-josef-strauss" },
     { version: "v2455", date: "2026-10-07", text: "Neues Porträt: Prince Rogers Nelson (SX4w3) – Musiker, Gitarrenvirtuose.", text_en: "New portrait: Prince Rogers Nelson (SX4w3) – musician, guitar virtuoso.", route: "beruehmte-prince-rogers-nelson" },
     { version: "v2454", date: "2026-10-07", text: "Neues Porträt: Justin Timberlake (SO1w2) – Sänger, Songwriter und Schauspieler, ehem. *NSYNC.", text_en: "New portrait: Justin Timberlake (SO1w2) – singer, songwriter and actor, former *NSYNC.", route: "beruehmte-justin-timberlake" },
