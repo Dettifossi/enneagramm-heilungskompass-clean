@@ -2357,3 +2357,68 @@ export function abdulHayyHoldijkPortraitPage() {
     </div>
   `);
 }
+
+export function franzJosefStraussPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-franz-josef-strauss-portrait.jpg" alt="Franz Josef Strauß – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-franz-josef-strauss-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Franz Josef Strauß</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with a Nine-Wing</p>
+        <p class="krim-portrait-subtitle">Politician, 1915&ndash;1988 &ndash; Animal match: Orangutan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Orangutan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>orangutan</strong> is the animal of the self-preservation Eight – the most solitary of the great apes, needing no troop to assert its standing. It rules its own territory with quiet, unmistakable power, tolerates no serious rival within it, and defends what it holds with a determination that needs no justification. At the same time it is a patient strategist: it does not act on impulse, but chooses the moment when its move will be most effective.</p>
+          <p class="vb-intro">Franz Josef Strauß, born in Munich in 1915 as the son of a master butcher, rose over three decades from modest middle-class origins to become the most powerful man in Bavaria: federal defense minister, federal finance minister, and from 1978 until his death in 1988 Bavaria's minister-president and CSU party chairman for nearly three decades. The orangutan who penetrated his territory – the free state of Bavaria – so completely that his dominance there remains proverbial to this day.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Eight: Power as a Matter of Survival</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In Claudio Naranjo's framework, the <strong>self-preservation Eight (SE8)</strong> expresses the Eight's passion – <em>lust</em>, understood as a hunger for intensity and unrestricted self-determination – directly through possession, territory, and securing resources. Naranjo called this subtype <em>Satisfaction</em>: one's own survival, influence, and independence must be secured before anything else is even considered. This is not bravado, but the deep conviction that only someone standing firmly on their own ground cannot be pushed aside.</p>
+          <p class="vb-intro">Strauß's political style was exactly that: direct, confrontational, never at a loss for a blunt word. His annual Ash Wednesday speeches for the CSU in Passau became a fixture of West German political combat – attacks on opponents delivered in imagery that left no room for interpretation. The Spiegel Affair of 1962, when as defense minister he had several Spiegel journalists arrested over an article on the Bundeswehr, cost him his office – but revealed exactly that SE8 stance: defending one's own territory, if necessary, even against the freedom of the press, regardless of the political cost.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Patience as a Strategic Tool</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> gives the self-preservation Eight an ability an SE8w7 often lacks: the capacity to let decisions ripen and hold several perspectives at once instead of striking immediately. The SE8w9 is no less assertive, but it waits for the right moment, builds alliances meant to last, and pairs readiness for confrontation with the patience to build a life's work over decades rather than through isolated spectacular victories.</p>
+          <p class="vb-intro">In Strauß this showed in the patient, decades-long buildup of the CSU into Bavaria's dominant political force – a dominance he did not win in a single campaign, but consolidated through decades of internal party work. The same strategic patience showed in his discreet 1975 visit to China's leadership, conducted long before official diplomatic rapprochement – a foreign-policy move aimed at long-term calculation rather than short-term headlines.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Political Substance: From Farmland to High-Tech Hub</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Strauß's influence was not exhausted by rhetorical force. As Bavaria's minister-president, he systematically drove the settlement of high-tech industry and turned Bavaria, within two decades, from a predominantly agrarian state into one of Germany's most economically powerful states, with strengths in aerospace, electronics, and automotive manufacturing. As federal defense minister in the 1950s and early 1960s, he played a decisive role in building the Bundeswehr and in founding the cooperation that would later become Airbus: the German-French-British collaboration in aircraft manufacturing, out of which the European Airbus consortium later emerged, traces in substantial part back to his industrial-policy initiative.</p>
+          <p class="vb-intro">As federal finance minister (1966–1969) in the Grand Coalition under Kurt Georg Kiesinger, he co-designed, together with economics minister Karl Schiller, the so-called "global steering" of the West German economy – a then-novel approach to countercyclical economic management that helped overcome the recession of 1966/67. This professional substance – not just temperament, but concrete industrial and economic policy-making capability – is why Strauß is regarded, far beyond Bavaria, as one of the most formative, if also most controversial, politicians of the early Federal Republic.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Eight With a Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE8w9 shows in Strauß's ability to combine assertiveness with strategic foresight: he did not merely accumulate power, but used it to lay concrete industrial-policy foundations that still support Bavaria today.</p>
+          <p class="vb-intro">The shadow lies in the flip side of that same assertiveness: the Spiegel Affair was not the only episode in which Strauß treated democratic institutions and the freedom of the press as obstacles to be pushed aside by force if necessary, rather than as limits that apply even to the most powerful. His polarizing rhetoric, which often attacked political opponents personally and irreconcilably, deepened rifts in West German society that in part still echo today.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Orangutans, Two Forms of Territory: Strauß and Golda Meir</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-golda-meir">Golda Meir</a> (SE8w9) – like Strauß, a politician who rose from modest circumstances to the highest state responsibility, and who showed the same combination of unbending assertiveness and patient, years-long diplomacy. Where Meir directed her SE8w9 energy mainly outward, into securing the young state of Israel, Strauß directed his inward, into building an economically and industrially strong Bavaria – two very different stages for the same underlying pattern: one's own territory is not merely administered, but shaped and defended with full force.</p>
+          <p class="vb-intro">Franz Josef Strauß remains one of the most controversial figures in postwar German history – celebrated for his economic foresight, criticized for a political style that repeatedly tested the limits of democratic norms. Both light and shadow spring from the same orangutan pattern: the conviction that only unconditional assertiveness secures lasting influence.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se8", label:"SE8 – The Orangutan: subtype profile"},
+        {route:"lebensmusterkompass/se8", label:"Life Pattern Compass: SE8 – Orangutan"},
+        {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
+      ])}
+    </div>
+  `);
+}

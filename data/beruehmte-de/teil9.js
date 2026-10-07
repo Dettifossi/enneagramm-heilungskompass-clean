@@ -2388,3 +2388,68 @@ export function madsMikkelsenPortraitPage() {
     </div>
   `);
 }
+
+export function franzJosefStraussPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-franz-josef-strauss-portrait.jpg" alt="Franz Josef Strauß – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-franz-josef-strauss-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Franz Josef Strauß</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Selbsterhaltender Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Politiker, 1915&ndash;1988 &ndash; Tierentsprechung: Orang-Utan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Orang-Utan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier des selbsterhaltenden Typs 8 – der solitärste der Menschenaffen, der kein Rudel braucht, um seine Stellung zu behaupten. Er beherrscht sein eigenes Revier mit stiller, unübersehbarer Macht, duldet keine ernsthafte Konkurrenz darin und verteidigt seinen Besitzstand mit einer Entschlossenheit, die keiner Rechtfertigung bedarf. Zugleich ist er ein geduldiger Stratege: Er handelt nicht aus dem Affekt, sondern wählt den Moment, in dem sein Zugriff am wirkungsvollsten ist.</p>
+          <p class="vb-intro">Franz Josef Strauß, 1915 als Sohn eines Metzgermeisters in München geboren, baute sich aus bürgerlich-bescheidenen Verhältnissen über drei Jahrzehnte zum mächtigsten Mann Bayerns auf: Bundesverteidigungsminister, Bundesfinanzminister, von 1978 bis zu seinem Tod 1988 bayerischer Ministerpräsident und CSU-Parteivorsitzender über fast drei Jahrzehnte. Der Orang-Utan, der sein Revier – den Freistaat Bayern – so vollständig durchdrang, dass seine Herrschaft dort bis heute sprichwörtlich ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Acht: Macht als Existenzfrage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Acht (SE8)</strong> drückt die Leidenschaft der Acht – die <em>Wollust</em>, verstanden als Hunger nach Intensität und uneingeschränkter Selbstbestimmung – unmittelbar über Besitz, Territorium und Ressourcensicherung aus. Naranjo nannte diesen Subtyp <em>Satisfacción</em>: Das eigene Überleben, der eigene Einfluss, die eigene Unabhängigkeit müssen gesichert sein, bevor an irgendetwas anderes gedacht wird. Es geht nicht um Prahlerei, sondern um das tiefe Wissen: Nur wer selbst fest steht, kann nicht verdrängt werden.</p>
+          <p class="vb-intro">Strauß' politischer Stil war genau das: direkt, konfrontativ, nie um ein deftiges Wort verlegen. Seine jährlichen Reden beim Politischen Aschermittwoch der CSU in Passau wurden zum Fixpunkt der bundesdeutschen Streitkultur – Attacken auf politische Gegner, in einer Bildsprache, die keinen Interpretationsspielraum ließ. Die Spiegel-Affäre 1962, als er als Verteidigungsminister die Verhaftung mehrerer Spiegel-Journalisten wegen eines Artikels über die Bundeswehr veranlasste, kostete ihn das Amt – zeigte aber genau jene SE8-Haltung, das eigene Terrain notfalls auch gegen die Pressefreiheit zu verteidigen, ungeachtet der politischen Kosten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Geduld als strategisches Instrument</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> verleiht der selbsterhaltenden Acht eine Fähigkeit, die einer SE8w7 oft fehlt: das Vermögen, Entscheidungen reifen zu lassen und mehrere Perspektiven gleichzeitig zu halten, statt sofort zuzuschlagen. Die SE8w9 ist nicht weniger durchsetzungsstark, aber sie wartet den richtigen Moment ab, baut Allianzen auf, die lange halten, und verbindet Konfrontationsbereitschaft mit der Geduld, ein Lebenswerk über Jahrzehnte aufzubauen statt über einzelne spektakuläre Siege.</p>
+          <p class="vb-intro">Bei Strauß zeigte sich das im geduldigen, über Jahrzehnte verfolgten Aufbau der CSU zur dominanten politischen Kraft Bayerns – eine Vormachtstellung, die er nicht in einem einzigen Wahlkampf erkämpfte, sondern über Jahrzehnte parteiinterner Machtarbeit festigte. Dieselbe strategische Geduld zeigte sich 1975 in seinem diskreten, lange vor der offiziellen diplomatischen Annäherung geführten Besuch bei der chinesischen Führung – ein außenpolitischer Vorstoß, der auf langfristiges Kalkül statt auf kurzfristige Schlagzeilen zielte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die politische Substanz: Vom Agrarland zum Hochtechnologie-Standort</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Strauß' Einfluss erschöpfte sich nicht in rhetorischer Wucht. Als bayerischer Ministerpräsident trieb er systematisch die Ansiedlung von Hochtechnologie-Industrie voran und verwandelte Bayern binnen zwei Jahrzehnten von einem vorwiegend agrarisch geprägten Land in einen der wirtschaftsstärksten deutschen Bundesländer mit Schwerpunkten in Luft- und Raumfahrt, Elektronik und Automobilbau. Als Bundesverteidigungsminister in den 1950er- und frühen 1960er-Jahren war er maßgeblich am Aufbau der Bundeswehr und an der Gründung der späteren Airbus-Kooperation beteiligt: Die deutsch-französisch-britische Zusammenarbeit im Flugzeugbau, aus der später der europäische Airbus-Konzern hervorging, geht in wesentlichen Teilen auf seine industriepolitische Initiative zurück.</p>
+          <p class="vb-intro">Als Bundesfinanzminister (1966–1969) in der Großen Koalition unter Kurt Georg Kiesinger gestaltete er gemeinsam mit Wirtschaftsminister Karl Schiller die sogenannte „Globalsteuerung" der westdeutschen Wirtschaft – ein damals neuartiger Ansatz antizyklischer Konjunktursteuerung, der zur Überwindung der Rezession von 1966/67 beitrug. Diese fachliche Substanz – nicht nur Temperament, sondern konkrete industrie- und wirtschaftspolitische Gestaltungskraft – ist der Grund, warum Strauß weit über Bayern hinaus als einer der prägendsten, wenn auch umstrittensten Politiker der frühen Bundesrepublik gilt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Acht mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE8w9 zeigt sich in Strauß' Fähigkeit, Durchsetzungskraft mit strategischer Weitsicht zu verbinden: Er baute nicht nur Macht auf, sondern nutzte sie, um konkrete industriepolitische Grundlagen zu schaffen, die Bayern bis heute tragen.</p>
+          <p class="vb-intro">Der Schatten liegt in der Kehrseite derselben Durchsetzungskraft: Die Spiegel-Affäre blieb nicht die einzige Episode, in der Strauß demokratische Institutionen und die Pressefreiheit als Hindernisse behandelte, die notfalls mit Macht beiseitegeschoben werden durften, statt als Grenzen, die auch für den Mächtigsten gelten. Seine polarisierende Rhetorik, die politische Gegner oft persönlich und unversöhnlich angriff, vertiefte Gräben in der bundesdeutschen Gesellschaft, die teils bis heute nachwirken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Orang-Utans, zwei Revierformen: Strauß und Golda Meir</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-golda-meir">Golda Meir</a> (SE8w9) – wie Strauß eine Politikerin, die aus bescheidenen Verhältnissen zu höchster staatlicher Verantwortung aufstieg und dabei dieselbe Verbindung aus unbeugsamer Durchsetzungskraft und geduldiger, über Jahre angelegter Diplomatie zeigte. Wo Meir ihre SE8w9-Energie vor allem nach außen, in die Sicherung des jungen Staates Israel, richtete, richtete Strauß sie nach innen, in den Aufbau eines wirtschaftlich und industriell starken Bayerns – zwei sehr unterschiedliche Bühnen für dasselbe Grundmuster: Das eigene Terrain wird nicht verwaltet, sondern mit ganzer Kraft gestaltet und verteidigt.</p>
+          <p class="vb-intro">Franz Josef Strauß bleibt bis heute eine der umstrittensten Figuren der deutschen Nachkriegsgeschichte – gefeiert für seinen wirtschaftspolitischen Weitblick, kritisiert für einen Politikstil, der demokratische Spielregeln wiederholt an ihre Grenzen brachte. Beides, Licht und Schatten, entspringt demselben Orang-Utan-Muster: der Überzeugung, dass nur bedingungslose Durchsetzungskraft dauerhaften Einfluss sichert.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se8", label:"Lebensmusterkompass: SE8 – Orang-Utan"},
+        {route:"beruehmte-golda-meir", label:"Porträt: Golda Meir (SE8w9)"},
+      ])}
+    </div>
+  `);
+}

@@ -641,6 +641,7 @@ export function goldaMeirPortraitPage() {
         {route:"beruehmte-umberto-eco", label:"Portrait: Umberto Eco (SE8w7)"},
         {route:"astrologie-angela-merkel", label:"Portrait: Angela Merkel (SE9w8)"},
         {route:"krankheitsportraets-winston-churchill", label:"Illness Portrait: Winston Churchill (SE8w9)"},
+        {route:"beruehmte-franz-josef-strauss", label:"Portrait: Franz Josef Strauß (SE8w9)"},
         ])}
       </div>
     </div>
