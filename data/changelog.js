@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2462", date: "2026-10-07", text: "Neues Krankheitsporträt: Brian Wilson (SO1w2) – jahrzehntelanges Ringen mit schizoaffektiver Störung.", text_en: "New illness portrait: Brian Wilson (SO1w2) – decades-long struggle with schizoaffective disorder.", route: "krankheitsportraets-brian-wilson" },
     { version: "v2461", date: "2026-10-07", text: "Neues Porträt: Stanley Mandelstam (SE5w6) – theoretischer Physiker, Mandelstam-Variablen, Stringtheorie.", text_en: "New portrait: Stanley Mandelstam (SE5w6) – theoretical physicist, Mandelstam variables, string theory.", route: "beruehmte-stanley-mandelstam" },
     { version: "v2460", date: "2026-10-07", text: "Neues Porträt: Roman Polanski (SX5w6) – Filmregisseur, ›Der Pianist‹, ›Chinatown‹.", text_en: "New portrait: Roman Polanski (SX5w6) – film director, \"The Pianist\", \"Chinatown\".", route: "beruehmte-roman-polanski" },
     { version: "v2459", date: "2026-10-07", text: "Neues Porträt: Veronica Ferres (SX6w5) – Schauspielerin und Produzentin, ›Das Superweib‹.", text_en: "New portrait: Veronica Ferres (SX6w5) – actress and producer, \"Das Superweib\".", route: "beruehmte-veronica-ferres" },
