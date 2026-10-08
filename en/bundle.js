@@ -6149,7 +6149,7 @@ function startPage() {
     <section style="max-width:680px;margin:2rem auto 0;padding:0 1rem;">
       <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:0.8rem;">🎬 The Compass, explained in detail</h2>
       <div style="position:relative;width:100%;padding-top:56.25%;border-radius:12px;overflow:hidden;background:#000;box-shadow:0 8px 24px rgba(0,0,0,0.18);">
-        <iframe src="https://www.youtube.com/embed/edYAaR6Un0I" title="Enneagram Healing Compass – Detailed Walkthrough" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+        <iframe src="https://www.youtube.com/embed/edYAaR6Un0I?playsinline=1" title="Enneagram Healing Compass – Detailed Walkthrough" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
       </div>
       <p style="font-size:0.82rem;color:var(--muted);margin-top:0.6rem;">10 minutes – a detailed tour through every area of the Compass.</p>
     </section>
@@ -13170,7 +13170,7 @@ presented in 10&ndash;12 minutes each.
 They are the most-watched videos on the channel.</p>
         <div style="position:relative;aspect-ratio:16/9;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/${vid}?rel=0"
+            src="https://www.youtube.com/embed/${vid}?rel=0&playsinline=1"
             allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
         <p style="margin:0;padding:.5rem 1rem .7rem;font-size:.74rem;color:var(--muted);font-style:italic;">🇩🇪 German audio &ndash; enable auto-translated English subtitles via YouTube's settings (⚙).</p>
@@ -13243,7 +13243,7 @@ function subtypePage(code) {
       <h3 style="margin:0 0 0.6rem;font-size:1rem;color:${tc};">The Dynamics of Type ${dn} <span style="font-size:.78rem;font-weight:400;opacity:.72;">(German · turn on CC for English subtitles)</span></h3>
       <div style="position:relative;aspect-ratio:16/9;border-radius:10px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.1);">
         <iframe width="100%" height="100%" style="border:none;display:block;"
-          src="https://www.youtube.com/embed/${dv}?rel=0"
+          src="https://www.youtube.com/embed/${dv}?rel=0&playsinline=1"
           allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
       </div>
     </section>` : ""; })()} 
@@ -15214,9 +15214,9 @@ function isGermanLanguageResource(resource) {
 function mediaTile(resource) {
   const labels = text.knowledgeCard;
   const embedSrc = resource.youtubeVideoId
-    ? `https://www.youtube.com/embed/${resource.youtubeVideoId}`
+    ? `https://www.youtube.com/embed/${resource.youtubeVideoId}?playsinline=1`
     : resource.youtubePlaylistId
-      ? `https://www.youtube.com/embed/videoseries?list=${resource.youtubePlaylistId}`
+      ? `https://www.youtube.com/embed/videoseries?list=${resource.youtubePlaylistId}&playsinline=1`
       : "";
   const youtubeHref = resource.youtubeVideoId
     ? `https://www.youtube.com/watch?v=${resource.youtubeVideoId}`
@@ -17870,7 +17870,7 @@ function detlefRathmerJazzPage() {
       <p style="margin:0;padding:0.7rem 1rem 0.5rem;font-size:0.88rem;font-weight:600;line-height:1.35;color:var(--ink);">${label}</p>
       <div style="position:relative;aspect-ratio:16/9;background:#000;">
         <iframe width="100%" height="100%" style="border:none;display:block;"
-          src="https://www.youtube.com/embed/${id}?rel=0"
+          src="https://www.youtube.com/embed/${id}?rel=0&playsinline=1"
           allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
       </div>
       ${desc ? `<p style="margin:0;padding:0.3rem 1rem 0.6rem;font-size:0.8rem;color:var(--ink-muted);line-height:1.5;">${desc}</p>` : ""}
@@ -18322,7 +18322,7 @@ function homoeopathieSongsPage() {
       <p style="margin:0;padding:0.7rem 1rem 0.5rem;font-size:0.88rem;font-weight:600;line-height:1.35;color:var(--ink);">${s.label}</p>
       <div style="position:relative;aspect-ratio:16/9;background:#000;">
         <iframe width="100%" height="100%" style="border:none;display:block;"
-          src="https://www.youtube.com/embed/${s.id}?rel=0"
+          src="https://www.youtube.com/embed/${s.id}?rel=0&playsinline=1"
           allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
       </div>
     </div>
@@ -18531,7 +18531,7 @@ function portraitsCompanionsPage() {
       <p style="font-size:0.85rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin-bottom:0.6rem;">💡 The video is in English. For German subtitles: tap the <strong>gear icon ⚙</strong> in the video → <strong>Subtitles</strong> → <strong>Auto-translate</strong> → select <strong>German</strong>.</p>
       <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;">
         <iframe width="100%" height="100%" style="border:none;display:block;"
-          src="https://www.youtube.com/embed/${b.video.id}?rel=0"
+          src="https://www.youtube.com/embed/${b.video.id}?rel=0&playsinline=1"
           allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
       </div>
       <p style="margin-top:0.6rem;font-size:0.8rem;color:var(--ink-muted);line-height:1.5;">
@@ -21737,7 +21737,7 @@ function tierlexikonDetailPage(codeRaw) {
       ${(() => {
         const d = TIER_DOKU[code];
         if (!d) return "";
-        const src = `https://www.youtube.com/embed/${d.ytId}?start=${d.start}&rel=0&modestbranding=1`;
+        const src = `https://www.youtube.com/embed/${d.ytId}?start=${d.start}&rel=0&playsinline=1&modestbranding=1`;
         return `
           <div style="margin-top:2.5rem;">
             <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin:0 0 .8rem;display:flex;align-items:center;gap:.4rem;">
@@ -28231,7 +28231,7 @@ function josefVonArimathaeaPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Joseph of Arimathea, giving his soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/dKofTwCmedc?rel=0" title="In Silent Hands – Joseph of Arimathea" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/dKofTwCmedc?rel=0&playsinline=1" title="In Silent Hands – Joseph of Arimathea" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -28312,7 +28312,7 @@ function rubenSchriftgelehrterPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Reuben the Scribe, giving his soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/XOKO4asfeI8?rel=0" title="Between Law and Grace – Reuben the Scribe" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/XOKO4asfeI8?rel=0&playsinline=1" title="Between Law and Grace – Reuben the Scribe" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -28393,7 +28393,7 @@ function johannesDerTaeuferPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for John the Baptist, giving his soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/mSDVJQpCVF8?rel=0" title="Fire at the Jordan – John the Baptist" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/mSDVJQpCVF8?rel=0&playsinline=1" title="Fire at the Jordan – John the Baptist" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -28474,7 +28474,7 @@ function martaPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Martha, giving her soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/QrKeNWPeBiU?rel=0" title="Hands Full, Heart Open – Martha" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/QrKeNWPeBiU?rel=0&playsinline=1" title="Hands Full, Heart Open – Martha" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -28555,7 +28555,7 @@ function jesusPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for this chapter, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/3NwdYJLeKN0?rel=0" title="Bread from His Hands" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/3NwdYJLeKN0?rel=0&playsinline=1" title="Bread from His Hands" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -28636,7 +28636,7 @@ function mariaMagdalenaPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Mary Magdalene, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/bw3-nPmE3OA?rel=0" title="She Saw Him Break – Not the Bread Alone – Mary Magdalene" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/bw3-nPmE3OA?rel=0&playsinline=1" title="She Saw Him Break – Not the Bread Alone – Mary Magdalene" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -28717,7 +28717,7 @@ function salomePage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Salome, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/2gklX1qArXw?rel=0" title="More Than Just the Best – Salome and Jesus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/2gklX1qArXw?rel=0&playsinline=1" title="More Than Just the Best – Salome and Jesus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -28798,7 +28798,7 @@ function pontiusPilatusPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Pontius Pilate, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/0I-4rThOvQ0?rel=0" title="Clean Hands – Pilate" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/0I-4rThOvQ0?rel=0&playsinline=1" title="Clean Hands – Pilate" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -28883,7 +28883,7 @@ function judasIskariotPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Judas Iscariot, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/SK724DhEJns?rel=0" title="The Kiss – Judas Iscariot" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/SK724DhEJns?rel=0&playsinline=1" title="The Kiss – Judas Iscariot" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -28964,7 +28964,7 @@ function andreasPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Andrew, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/yI-zk3aHGBQ?rel=0" title="In the Shadow of the Light – Andrew" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/yI-zk3aHGBQ?rel=0&playsinline=1" title="In the Shadow of the Light – Andrew" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -29045,7 +29045,7 @@ function thomasPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Thomas, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/1WerclI4m18?rel=0" title="Until I See Him – Thomas" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/1WerclI4m18?rel=0&playsinline=1" title="Until I See Him – Thomas" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -29126,7 +29126,7 @@ function judasThaddaeusPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Jude Thaddaeus, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/12JIwPNwZN4?rel=0" title="Why Not the World? – Jude Thaddaeus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/12JIwPNwZN4?rel=0&playsinline=1" title="Why Not the World? – Jude Thaddaeus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -29207,7 +29207,7 @@ function nikodemusPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Nicodemus, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/T65cXVpkx9Y?rel=0" title="To Him by Night – Nicodemus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/T65cXVpkx9Y?rel=0&playsinline=1" title="To Him by Night – Nicodemus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -29288,7 +29288,7 @@ function gamalielPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Gamaliel, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/MaAgqDEujDI?rel=0" title="If It Is of God – Gamaliel" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/MaAgqDEujDI?rel=0&playsinline=1" title="If It Is of God – Gamaliel" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -29373,7 +29373,7 @@ function derMannVonGerasaPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for the Man of Gerasa, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/gAlYihN7QCE?rel=0" title="Legion – The Man of Gerasa" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/gAlYihN7QCE?rel=0&playsinline=1" title="Legion – The Man of Gerasa" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -29454,7 +29454,7 @@ function zachaeusPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Zacchaeus, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/z7BZ4KXOAsg?rel=0" title="I Am Staying at Your House – Zacchaeus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/z7BZ4KXOAsg?rel=0&playsinline=1" title="I Am Staying at Your House – Zacchaeus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -29535,7 +29535,7 @@ function philippusPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Philip, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/bm3SEsot92E?rel=0" title="Show Us the Father – Philip" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/bm3SEsot92E?rel=0&playsinline=1" title="Show Us the Father – Philip" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -29616,7 +29616,7 @@ function petrusPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Peter, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/QqRezX3O6VA?rel=0" title="And Yet He Loved Him – Peter" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/QqRezX3O6VA?rel=0&playsinline=1" title="And Yet He Loved Him – Peter" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -29696,7 +29696,7 @@ function lazarusPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Lazarus, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/kKxF8Dx-Sc8?rel=0" title="Come Out, Lazarus! – Lazarus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/kKxF8Dx-Sc8?rel=0&playsinline=1" title="Come Out, Lazarus! – Lazarus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -29775,7 +29775,7 @@ function samariterinAmJakobsbrunnenPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for the Samaritan Woman at Jacob's Well, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/k3ffDHKpbFE?rel=0" title="At Jacob's Well – She Saw Him – The Samaritan Woman" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/k3ffDHKpbFE?rel=0&playsinline=1" title="At Jacob's Well – She Saw Him – The Samaritan Woman" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -29854,7 +29854,7 @@ function johannesDerGeliebtePage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for John, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/kv4pxB6-GAQ?rel=0" title="John, the Beloved" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/kv4pxB6-GAQ?rel=0&playsinline=1" title="John, the Beloved" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -29934,7 +29934,7 @@ function derHauptmannUnterDemKreuzPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for the Centurion at the Cross, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/44TD-meNBt4?rel=0" title="Truly, This Was the Son of God – The Centurion" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/44TD-meNBt4?rel=0&playsinline=1" title="Truly, This Was the Son of God – The Centurion" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -30015,7 +30015,7 @@ function kaiphasPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Caiaphas, giving this soul's voice a sound.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/mCXz3BLUgeo?rel=0" title="The Guardian of the People – Caiaphas" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/mCXz3BLUgeo?rel=0&playsinline=1" title="The Guardian of the People – Caiaphas" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -30096,7 +30096,7 @@ function saulusAufDemWegNachDamaskusPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Saul, giving voice to his inner journey.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/mEc9zE0a-Ow?rel=0" title="Saul on the Road to Damascus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/mEc9zE0a-Ow?rel=0&playsinline=1" title="Saul on the Road to Damascus" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -30177,7 +30177,7 @@ function jakobusPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for James, giving voice to his inner journey.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/_l-CH4kXIiQ?rel=0" title="James – The Quiet One in the Shadow" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/_l-CH4kXIiQ?rel=0&playsinline=1" title="James – The Quiet One in the Shadow" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -30252,7 +30252,7 @@ function barabbasPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Barabbas, giving voice to his inner journey.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/Hz6P8Sr1iBk?rel=0" title="The Freed Man – Barabbas" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/Hz6P8Sr1iBk?rel=0&playsinline=1" title="The Freed Man – Barabbas" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -30333,7 +30333,7 @@ function mutterMariaPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A dedicated song was written for Mother Mary, giving voice to her inner journey.</p>
           <div style="position:relative;width:100%;padding-bottom:56.25%;border-radius:10px;overflow:hidden;margin:1rem 0;">
-            <iframe src="https://www.youtube.com/embed/gJc3U025VpA?rel=0" title="She Held Him Within Her – Mother Mary" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+            <iframe src="https://www.youtube.com/embed/gJc3U025VpA?rel=0&playsinline=1" title="She Held Him Within Her – Mother Mary" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
           </div>
         </blockquote>
 
@@ -35435,7 +35435,7 @@ function _davidVideoPage(routeSlug, eyebrow, title, intro, kategorien) {
       ${v.titel ? `<p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">${v.titel}${v.untertitel ? ' — ' + v.untertitel : ''}</p>` : v.label ? `<p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">${v.label}</p>` : ''}
       <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
         <iframe width="100%" height="100%" style="border:none;display:block;"
-          src="https://www.youtube.com/embed/${v.id}?rel=0"
+          src="https://www.youtube.com/embed/${v.id}?rel=0&playsinline=1"
           allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
       </div>
       <p style="font-size:.76rem;color:var(--muted);margin:.4rem 0 0;font-style:italic;">🇩🇪 This video is in German &ndash; open it on YouTube and enable auto-translated English subtitles via the settings (⚙) menu.</p>
@@ -35497,7 +35497,7 @@ function davidRathmerFuehrungPage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Enneagram Profiling for Leaders</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/Zj9RXScwEPY?rel=0"
+            src="https://www.youtube.com/embed/Zj9RXScwEPY?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35506,7 +35506,7 @@ function davidRathmerFuehrungPage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Profiler Explains: How to Read People Correctly &ndash; Who Is Sitting in Front of You</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/DQ3zIJWTUpw?rel=0"
+            src="https://www.youtube.com/embed/DQ3zIJWTUpw?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35516,7 +35516,7 @@ function davidRathmerFuehrungPage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Why Digistore24 Relies on Profiling | A Look Behind the Scenes</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/r3y-b4F1Bf0?rel=0"
+            src="https://www.youtube.com/embed/r3y-b4F1Bf0?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35525,7 +35525,7 @@ function davidRathmerFuehrungPage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Remote Leadership: How to Make Your Home Office Team Truly Productive</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/bbPofC84J2M?rel=0"
+            src="https://www.youtube.com/embed/bbPofC84J2M?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35534,7 +35534,7 @@ function davidRathmerFuehrungPage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">The Secret Lever in Customer Contact: How to See Right Through Your Customers</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/JHi_XKSS_Fo?rel=0"
+            src="https://www.youtube.com/embed/JHi_XKSS_Fo?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35543,7 +35543,7 @@ function davidRathmerFuehrungPage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Why You Always Hire the Wrong People for Your Team &ndash; and How to Prevent It!</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/Cn9ODeRyZ2E?rel=0"
+            src="https://www.youtube.com/embed/Cn9ODeRyZ2E?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35675,7 +35675,7 @@ function davidRathmerImpulsePage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Stress, Pressure, Burnout – What is REALLY Behind It!</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/3XE6esDr770?rel=0"
+            src="https://www.youtube.com/embed/3XE6esDr770?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35684,7 +35684,7 @@ function davidRathmerImpulsePage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">3 Tips Never to Be Deceived Again!</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/bJ6u7b7-YB0?rel=0"
+            src="https://www.youtube.com/embed/bJ6u7b7-YB0?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35693,7 +35693,7 @@ function davidRathmerImpulsePage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Reading People in Seconds: Profiler David Rathmer Explains His Method</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/kDyxrC3sqTk?rel=0"
+            src="https://www.youtube.com/embed/kDyxrC3sqTk?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35702,7 +35702,7 @@ function davidRathmerImpulsePage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">The Truth About Yourself That You Cannot See</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/mluq5sOtiQg?rel=0"
+            src="https://www.youtube.com/embed/mluq5sOtiQg?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35711,7 +35711,7 @@ function davidRathmerImpulsePage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Never Be Disappointed Again? Actually Quite Simple...</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/jQvMG3ZGuKI?rel=0"
+            src="https://www.youtube.com/embed/jQvMG3ZGuKI?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35720,7 +35720,7 @@ function davidRathmerImpulsePage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Why You Constantly Feel Empty – Without Knowing Why</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/2oq3buWKEt4?rel=0"
+            src="https://www.youtube.com/embed/2oq3buWKEt4?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35729,7 +35729,7 @@ function davidRathmerImpulsePage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">The Background of Your Personality</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/0-oXjkTEVb8?rel=0"
+            src="https://www.youtube.com/embed/0-oXjkTEVb8?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35738,7 +35738,7 @@ function davidRathmerImpulsePage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Stop Ruining Your Partnership – Relationship Problems?</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/3uTWZA8qlL0?rel=0"
+            src="https://www.youtube.com/embed/3uTWZA8qlL0?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35748,7 +35748,7 @@ function davidRathmerImpulsePage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">3 Errors in Dealing with People – These 3 Cognitive Errors Manipulate How You See Others!</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/ySFsGWcob7s?rel=0"
+            src="https://www.youtube.com/embed/ySFsGWcob7s?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35757,7 +35757,7 @@ function davidRathmerImpulsePage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">The Topic of Narcissism: How to Recognize Narcissistic People</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/WYdu11U1QVg?rel=0"
+            src="https://www.youtube.com/embed/WYdu11U1QVg?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35769,7 +35769,7 @@ function davidRathmerImpulsePage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">The Truth About Pigeonholing in Profiling: A Deeper Look Behind the Facade</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/hv8wVIBNMmU?rel=0"
+            src="https://www.youtube.com/embed/hv8wVIBNMmU?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35779,7 +35779,7 @@ function davidRathmerImpulsePage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Personal Development in Life: How Does It Work Best?</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/l3gfsaYpYDY?rel=0"
+            src="https://www.youtube.com/embed/l3gfsaYpYDY?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35789,7 +35789,7 @@ function davidRathmerImpulsePage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">The Biggest Mistake in Profiling!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/DRh43m5yfM0?rel=0"
+            src="https://www.youtube.com/embed/DRh43m5yfM0?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35799,7 +35799,7 @@ function davidRathmerImpulsePage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Der Mechanismus des Egos entlarvt – das muss dir Bewusstsein!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/R8IKz_52OpY?rel=0"
+            src="https://www.youtube.com/embed/R8IKz_52OpY?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35809,7 +35809,7 @@ function davidRathmerImpulsePage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">The Different Profiling Methods Explained</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/k_VjItcms4Y?rel=0"
+            src="https://www.youtube.com/embed/k_VjItcms4Y?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35819,7 +35819,7 @@ function davidRathmerImpulsePage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Profiling: Mythen und Fallen aufgedeckt!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/3fwmARNgv-Y?rel=0"
+            src="https://www.youtube.com/embed/3fwmARNgv-Y?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35829,7 +35829,7 @@ function davidRathmerImpulsePage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Warum wir in Stresssituationen unterschiedlich reagieren</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/XiCOAGs-Ge8?rel=0"
+            src="https://www.youtube.com/embed/XiCOAGs-Ge8?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35839,7 +35839,7 @@ function davidRathmerImpulsePage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Keeping Resolutions: Why It Often Fails and How to Stick With It!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/4skErw8UeVk?rel=0"
+            src="https://www.youtube.com/embed/4skErw8UeVk?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35849,7 +35849,7 @@ function davidRathmerImpulsePage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Can You Change? – Is a Change in Personality Even Possible?</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/Wq22njx7YFo?rel=0"
+            src="https://www.youtube.com/embed/Wq22njx7YFo?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35859,7 +35859,7 @@ function davidRathmerImpulsePage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">How You Can Fully Understand Every Person!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/0z0P5NkxEIg?rel=0"
+            src="https://www.youtube.com/embed/0z0P5NkxEIg?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35869,7 +35869,7 @@ function davidRathmerImpulsePage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">These are the mistakes most coaches make!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/igNXaI3VZ88?rel=0"
+            src="https://www.youtube.com/embed/igNXaI3VZ88?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35879,7 +35879,7 @@ function davidRathmerImpulsePage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Does Personal Development Really Work?!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/bJeQYPDRKG8?rel=0"
+            src="https://www.youtube.com/embed/bJeQYPDRKG8?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35889,7 +35889,7 @@ function davidRathmerImpulsePage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">The Best Personality Model!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/fXX-9r7GQYc?rel=0"
+            src="https://www.youtube.com/embed/fXX-9r7GQYc?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35899,7 +35899,7 @@ function davidRathmerImpulsePage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">How to Lose Your Misanthropy Forever!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/Tp0GebcicNw?rel=0"
+            src="https://www.youtube.com/embed/Tp0GebcicNw?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35909,7 +35909,7 @@ function davidRathmerImpulsePage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Warum Du es vermeiden solltest, das Enneagramm zu googeln!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/r8ThMXGKjbI?rel=0"
+            src="https://www.youtube.com/embed/r8ThMXGKjbI?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35919,7 +35919,7 @@ function davidRathmerImpulsePage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">What Does Behavior Reveal About a Person?</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/Dj6KF9p3fuQ?rel=0"
+            src="https://www.youtube.com/embed/Dj6KF9p3fuQ?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35929,7 +35929,7 @@ function davidRathmerImpulsePage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Schluss mit Aufschieben – so wirst Du sofort produktiv!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/g1G_jti70vI?rel=0"
+            src="https://www.youtube.com/embed/g1G_jti70vI?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35977,7 +35977,7 @@ function davidRathmerGrundlagenPage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 1 – The Perfectionist – Short Description</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/Oj5L0_6f7G4?rel=0"
+            src="https://www.youtube.com/embed/Oj5L0_6f7G4?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35986,7 +35986,7 @@ function davidRathmerGrundlagenPage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 2 – The Helper – Short Description</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/Wwq6Jz2RAKs?rel=0"
+            src="https://www.youtube.com/embed/Wwq6Jz2RAKs?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -35995,7 +35995,7 @@ function davidRathmerGrundlagenPage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 3 – The Pragmatist – Short Description</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/ao0lN1DXHC8?rel=0"
+            src="https://www.youtube.com/embed/ao0lN1DXHC8?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -36004,7 +36004,7 @@ function davidRathmerGrundlagenPage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 4 – The Dreamer – Short Description</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/nrDiO_tIcuw?rel=0"
+            src="https://www.youtube.com/embed/nrDiO_tIcuw?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -36013,7 +36013,7 @@ function davidRathmerGrundlagenPage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 5 – The Investigator – Short Description</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/nH6N85S0Fjk?rel=0"
+            src="https://www.youtube.com/embed/nH6N85S0Fjk?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -36022,7 +36022,7 @@ function davidRathmerGrundlagenPage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 6 – The Loyalist – Short Description</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/t_QC5INLOqQ?rel=0"
+            src="https://www.youtube.com/embed/t_QC5INLOqQ?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -36031,7 +36031,7 @@ function davidRathmerGrundlagenPage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 7 – The Planner – Short Description</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/OyC1l3p3J-I?rel=0"
+            src="https://www.youtube.com/embed/OyC1l3p3J-I?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -36040,7 +36040,7 @@ function davidRathmerGrundlagenPage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 8 – The Protector – Short Description</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/lYBu0fxRb-Y?rel=0"
+            src="https://www.youtube.com/embed/lYBu0fxRb-Y?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -36049,7 +36049,7 @@ function davidRathmerGrundlagenPage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 9 – The Peacemaker – Short Description</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/g2L8qhAkfcI?rel=0"
+            src="https://www.youtube.com/embed/g2L8qhAkfcI?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -36058,7 +36058,7 @@ function davidRathmerGrundlagenPage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Die Bauchenergie im Enneagramm (Typ 8, 9 und 1)</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/DvyvmYieI3c?rel=0"
+            src="https://www.youtube.com/embed/DvyvmYieI3c?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -36067,7 +36067,7 @@ function davidRathmerGrundlagenPage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Die Herzenergie im Enneagramm (Typ 2, 3 und 4)</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/03J6ov1pjpQ?rel=0"
+            src="https://www.youtube.com/embed/03J6ov1pjpQ?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -36076,7 +36076,7 @@ function davidRathmerGrundlagenPage() {
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Die Kopfenergie im Enneagramm (Typ 5, 6 und 7)</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/gtT7ulH5JNk?rel=0"
+            src="https://www.youtube.com/embed/gtT7ulH5JNk?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -36298,14 +36298,14 @@ function haikuDer9TypenPage() {
         <p style="font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:center;margin-bottom:1.2rem;">The Haiku Song &middot; All 9 Types</p>
         <p style="font-size:.92rem;font-weight:600;color:var(--ink);text-align:center;margin:0 0 .6rem;">🇩🇪 German</p>
         <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;margin-bottom:1.5rem;">
-          <iframe src="https://www.youtube.com/embed/nVoATnACLyg"
+          <iframe src="https://www.youtube.com/embed/nVoATnACLyg?playsinline=1"
             style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen loading="lazy" title="Haiku-Song Deutsch"></iframe>
         </div>
         <p style="font-size:.92rem;font-weight:600;color:var(--ink);text-align:center;margin:0 0 .6rem;">🇬🇧 English</p>
         <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;margin-bottom:2rem;">
-          <iframe src="https://www.youtube.com/embed/c4NAtdSJc7U"
+          <iframe src="https://www.youtube.com/embed/c4NAtdSJc7U?playsinline=1"
             style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen loading="lazy" title="Haiku Song English"></iframe>
@@ -36890,7 +36890,7 @@ function enneagrammProfilingPage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">David L. Rathmer: Enneagram Profiling for Executives</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/Zj9RXScwEPY?rel=0"
+            src="https://www.youtube.com/embed/Zj9RXScwEPY?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -36898,7 +36898,7 @@ function enneagrammProfilingPage() {
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">David L. Rathmer: Enneagram Profiling in the Company</p>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
           <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/DQ3zIJWTUpw?rel=0"
+            src="https://www.youtube.com/embed/DQ3zIJWTUpw?rel=0&playsinline=1"
             allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
         </div>
       </div>
@@ -51889,7 +51889,7 @@ function stillePage() {
         <p style="font-size:0.85rem;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);font-weight:700;margin:0 0 .35rem;text-align:center;">Mindfulness Exercise: The Exhale</p>
         <p style="font-size:0.85rem;color:var(--ink-muted);margin:0 0 1rem;line-height:1.6;">Most mindfulness exercises emphasize the inhale – in the Enneagram it stands for the having-mode: the craving to get or hold onto something, depending on one's own fixation. The exhale is the other side: giving instead of taking, letting go instead of craving, resting instead of striving. "Man errs as long as he strives," as Johann Wolfgang von Goethe put it in the Prologue in Heaven from Faust I. This exercise starts exactly there – not forced by willpower, but reached through simply observing the exhale, opening a stillness that balances the chronic inhale-rhythm of our time.</p>
         <div style="position:relative;width:100%;padding-top:56.25%;border-radius:12px;overflow:hidden;background:#000;box-shadow:0 8px 24px rgba(0,0,0,0.18);">
-          <iframe src="https://www.youtube.com/embed/LcLK3dPagZQ" title="Mindfulness Exercise: Observing the Exhale" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+          <iframe src="https://www.youtube.com/embed/LcLK3dPagZQ?playsinline=1" title="Mindfulness Exercise: Observing the Exhale" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
         </div>
         <p style="font-size:0.82rem;color:var(--muted);margin-top:0.6rem;text-align:center;">Over 25 minutes – a detailed guide by Detlef Rathmer on exhale-based mindfulness.</p>
       </div>
@@ -53744,7 +53744,7 @@ function _musikInit() {
       document.querySelectorAll(".musik-thumb").forEach(t => { t.style.display = ""; });
       if (!offen) {
         const vid = card.dataset.vid;
-        slot.innerHTML = `<iframe width="100%" height="100%" style="border:none;display:block;position:absolute;inset:0;" src="https://www.youtube.com/embed/${vid}?autoplay=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+        slot.innerHTML = `<iframe width="100%" height="100%" style="border:none;display:block;position:absolute;inset:0;" src="https://www.youtube.com/embed/${vid}?autoplay=1&rel=0&playsinline=1" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
         player.style.display = "";
         if (thumb) thumb.style.display = "none";
       }
@@ -54279,7 +54279,7 @@ function portraitsWegbegleiterPage() {
       <p style="font-size:0.85rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin-bottom:0.6rem;">💡 The video is in English. For German subtitles: tap the <strong>gear icon ⚙</strong> in the video → <strong>Subtitles</strong> → <strong>Auto-translate</strong> → select <strong>German</strong>.</p>
       <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;">
         <iframe width="100%" height="100%" style="border:none;display:block;"
-          src="https://www.youtube.com/embed/${b.video.id}?rel=0"
+          src="https://www.youtube.com/embed/${b.video.id}?rel=0&playsinline=1"
           allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
       </div>
       <p style="margin-top:0.6rem;font-size:0.8rem;color:var(--ink-muted);line-height:1.5;">
