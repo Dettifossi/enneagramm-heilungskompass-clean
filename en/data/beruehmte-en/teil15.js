@@ -2422,3 +2422,70 @@ export function allieSherlockPortraitPage() {
     </div>
   `);
 }
+
+export function hillaryClintonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-hillary-clinton-portrait.jpg" alt="Hillary Clinton – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hillary Clinton</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with a Two-wing</p>
+        <p class="krim-portrait-subtitle">Lawyer, politician, b. 1947 in Chicago &ndash; animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The goose that spent a lifetime working on the right reform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> holds its course for decades, even as the headwind grows – not out of stubbornness, but out of the conviction that certain things simply have to be done right. Hillary Diane Rodham, born in 1947 in Chicago, studied political science at Wellesley College and law at Yale, graduating in 1973. Her own commencement address at Wellesley – the first ever delivered by a student in the college's history – already publicly challenged the previous speaker, whose position she considered too willing to compromise.</p>
+          <p class="vb-intro">Straight out of law school she worked for the Children's Defense Fund, going undercover to investigate abuses in foster care and in special schools for children with disabilities – early instances of a pattern that runs through her entire public life: a system recognized as flawed is not simply accepted but corrected with legal precision and persistent work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social One: reform as a life's calling</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> takes on the responsibility of correcting a social order recognized as wrong, and finds it hard to tolerate obvious injustice simply being left in place. As First Lady, Clinton led the 1993 task force on health care reform – a mammoth project meant to establish nationwide health insurance, which failed in Congress in 1994. Rather than withdrawing, she ran for the U.S. Senate from New York in 2000, won, and fought for years for health coverage for 9/11 first responders – a long, grinding legislative effort until the funding was finally secured.</p>
+          <p class="vb-intro">As Secretary of State under Barack Obama (2009–2013), she visited more countries than any of her predecessors and made women's rights an explicit core theme of American foreign policy – with the often-quoted line "Women's rights are human rights, and human rights are women's rights," which she had first coined in 1995 at the UN's Fourth World Conference on Women in Beijing. The attitude behind it is classically One: a global condition recognized as wrong, met with institutional persistence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: care as a political drive</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> connects the One's demand for order with a genuine, personally colored impulse to care – reform is not pursued abstractly, but with concrete people in view. Clinton's early work for children's rights was no dutiful exercise but a thematic constant maintained across decades: her first solo book, <em>It Takes a Village</em> (1996 – the title refers to an African proverb about communal child-rearing), argues that children's welfare is a task for society as a whole, not just for families.</p>
+          <p class="vb-intro">The same quality of care showed in 1998 after the Lewinsky affair became public: rather than divorcing, Clinton chose to remain in the marriage – a decision she later described as her own deliberate choice, not political calculation. The Two-wing also shows in her governing style as Secretary of State: staff repeatedly described her as loyal and personally attentive, someone who remembered her team's birthdays and private hardships.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: legal precision as a political instrument</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mere prominence does not explain why Clinton held central political roles across five decades. The actual professional substance lies in a rare combination of legal attention to detail and institutional staying power: in 1974 she was part of the legal team that prepared the impeachment inquiry against President Nixon for the House Judiciary Committee – work demanding precise constitutional analysis under enormous political pressure.</p>
+          <p class="vb-intro">In 1978 she became the first woman made partner at the Rose Law Firm in Arkansas, and was twice named by the National Law Journal as one of the 100 most influential lawyers in America. In 2016 she became the first woman ever nominated for president by one of the two major U.S. parties – a historic moment that would have been unthinkable without decades of detail-oriented institutional work beforehand. This combination of legal expertise and sustained institutional labor is the actual core of her political career, not mere charisma or a position inherited through marriage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the social One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In its light, Clinton shows the capacity to actually move forward complex, often decades-blocked reform projects through grinding, detail-oriented work – from health coverage for 9/11 first responders to anchoring women's rights as a foreign-policy theme. The Two-wing ensures that this reforming drive doesn't stay cold or bureaucratic, but stays connected to personal care for the people it concerns.</p>
+          <p class="vb-intro">The One's besetting sin is <strong>anger</strong> – in Clinton's case often perceived as a controlled, almost suppressed tension, which repeatedly brought her the public accusation of lacking authenticity or being overly calculating. The shadow side of the SO1w2 shows in moments when the reform agenda one believes to be right leaves little room for genuine disagreement – critics accused her of managing dissenting positions rather than truly allowing them, which shaped her public image for decades, even though the underlying reform work was often professionally sound.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The healing path: from the right order to relaxed openness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One's healing path leads from anger to serenity – from the question <em>Do I have to correct every system I recognize as flawed?</em> to the realization <em>Not every disorder is mine to resolve, and not every objection is an attack on the right cause.</em> For the SO1w2, this means no longer experiencing one's own caring, reforming impulse as a duty that tolerates no error, but as an offer that is allowed to fail or to change without putting one's own worth in question.</p>
+          <p class="vb-intro">Clinton's own reflection after her 2016 presidential loss, especially in her book <em>What Happened</em> (2017), where she writes openly about her own misjudgments, reads as an approach to this path: the capacity to question a decades-long mission once more, even in visible defeat, rather than defending one's own certainty unchanged.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: subtype profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-nicole-kidman", label:"Portrait: Nicole Kidman (SO1w2)"},
+        {route:"beruehmte-steve-jobs", label:"Portrait: Steve Jobs (SO1w2)"},
+        {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2)"},
+      ])}
+    </div>
+  `);
+}

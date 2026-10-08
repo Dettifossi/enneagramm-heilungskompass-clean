@@ -31,6 +31,8 @@ const ROUTES = [
   { hash: "#david-rathmer-impulse", label: "David Rathmer – Impulse" },
   { hash: "#beruehmte-yannick-van-de-velde", label: "Neues Porträt: Yannick van de Velde" },
   { hash: "en/#beruehmte-yannick-van-de-velde", label: "Neues EN-Porträt: Yannick van de Velde" },
+  { hash: "#beruehmte-hillary-clinton", label: "Neues Porträt: Hillary Clinton" },
+  { hash: "en/#beruehmte-hillary-clinton", label: "Neues EN-Porträt: Hillary Clinton" },
 ];
 
 function startServer() {

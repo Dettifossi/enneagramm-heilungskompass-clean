@@ -2427,3 +2427,70 @@ export function allieSherlockPortraitPage() {
     </div>
   `);
 }
+
+export function hillaryClintonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-hillary-clinton-portrait.jpg" alt="Hillary Clinton – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Hillary Clinton</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Juristin, Politikerin, geb. 1947 in Chicago &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die ein Leben lang an der richtigen Reform arbeitet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> hält Kurs über Jahrzehnte, auch wenn der Gegenwind zunimmt – nicht aus Sturheit, sondern aus der Überzeugung, dass bestimmte Dinge einfach richtig gemacht werden müssen. Hillary Diane Rodham, geboren 1947 in Chicago, studierte Politikwissenschaft am Wellesley College und Jura in Yale, wo sie 1973 ihren Abschluss machte. Schon ihre Abschlussrede in Wellesley – die erste von einer Studentin gehaltene in der Geschichte des College – griff die vorige Rednerin öffentlich an, weil deren Position aus ihrer Sicht zu kompromissbereit war.</p>
+          <p class="vb-intro">Direkt nach dem Studium arbeitete sie für den Children's Defense Fund und ermittelte verdeckt zu Missständen in Pflegefamilien und Sonderschulen für Kinder mit Behinderung – frühe Beispiele für ein Muster, das sich durch ihr gesamtes öffentliches Leben zieht: ein als fehlerhaft erkanntes System wird nicht hingenommen, sondern mit juristischer Präzision und beharrlicher Arbeit korrigiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Reform als Lebensaufgabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> übernimmt die Verantwortung, eine als falsch erkannte gesellschaftliche Ordnung zu korrigieren, und erträgt schlecht, wenn offensichtliches Unrecht einfach bestehen bleibt. Als First Lady leitete Clinton 1993 die Arbeitsgruppe zur Gesundheitsreform – ein Mammutprojekt, das eine landesweite Krankenversicherung durchsetzen sollte und 1994 am Kongress scheiterte. Statt sich zurückzuziehen, kandidierte sie 2000 für den US-Senat in New York, gewann und setzte sich dort unter anderem für die medizinische Versorgung der Ersthelfer von 9/11 ein – eine über Jahre geführte, zähe Gesetzgebungsarbeit, bis die entsprechende Finanzierung tatsächlich stand.</p>
+          <p class="vb-intro">Als Außenministerin unter Barack Obama (2009–2013) bereiste sie mehr Länder als jeder ihrer Vorgänger und machte Frauenrechte explizit zu einem Kernthema amerikanischer Außenpolitik – mit dem oft zitierten Satz ›Menschenrechte sind Frauenrechte, und Frauenrechte sind Menschenrechte‹, den sie bereits 1995 auf der UN-Weltfrauenkonferenz in Peking geprägt hatte. Die Haltung dahinter ist typisch einserhaft: ein als unrichtig erkannter globaler Zustand, dem mit institutioneller Beharrlichkeit begegnet wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Fürsorge als politischer Antrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> verbindet den Ordnungsanspruch der Eins mit einem echten, persönlich gefärbten Fürsorgeimpuls – Reform wird nicht abstrakt betrieben, sondern mit konkreten Menschen im Blick. Clintons frühe Arbeit für Kinderrechte war keine Pflichtübung, sondern eine über Jahrzehnte beibehaltene thematische Konstante: Ihr erstes eigenes Buch, ›It Takes a Village‹ (1996, zu Deutsch etwa ›Es braucht ein ganzes Dorf‹ – der Titel bezieht sich auf ein afrikanisches Sprichwort über gemeinschaftliche Kindererziehung), argumentiert, dass Kindeswohl eine gesamtgesellschaftliche, nicht nur familiäre Aufgabe sei.</p>
+          <p class="vb-intro">Dieselbe Fürsorgequalität zeigte sich 1998 nach der öffentlich gewordenen Lewinsky-Affäre: Statt sich scheiden zu lassen, entschied sich Clinton öffentlich für den Verbleib in der Ehe – eine Entscheidung, die sie später als eigene, bewusste Wahl beschrieb, nicht als politisches Kalkül. Der Zweierflügel zeigt sich auch in ihrem Regierungsstil als Außenministerin: Mitarbeiter beschrieben sie wiederholt als loyal und persönlich zugewandt, jemand, die sich an Geburtstage und private Schicksalsschläge ihres Stabs erinnerte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Juristische Präzision als politisches Instrument</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Reine Prominenz erklärt nicht, warum Clinton über fünf Jahrzehnte hinweg zentrale politische Funktionen innehatte. Die eigentliche fachliche Substanz liegt in einer seltenen Kombination aus juristischer Detailgenauigkeit und institutionellem Durchhaltevermögen: 1974 gehörte sie zum juristischen Team, das für den Rechtsausschuss des Repräsentantenhauses die Amtsenthebungsverfahren gegen Präsident Nixon vorbereitete – eine Arbeit, die präzise verfassungsrechtliche Analyse unter enormem politischem Druck verlangte.</p>
+          <p class="vb-intro">1978 wurde sie als erste Partnerin der Rose Law Firm in Arkansas aufgenommen und zweimal vom National Law Journal zu einer der 100 einflussreichsten Anwälte der USA gezählt. 2016 wurde sie als erste Frau überhaupt von einer der beiden großen US-Parteien als Präsidentschaftskandidatin nominiert – ein historischer Moment, der ohne jahrzehntelange, detailverliebte Institutionsarbeit vorher nicht denkbar gewesen wäre. Diese Verbindung aus Fachkompetenz und ausdauernder Systemarbeit ist der eigentliche Kern ihrer politischen Karriere, nicht bloßes Charisma oder Amtsinhaberschaft durch Verwandtschaft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Clinton die Fähigkeit, komplexe, oft über Jahrzehnte blockierte Reformvorhaben mit zäher, detailgenauer Arbeit tatsächlich voranzubringen – von der Gesundheitsversorgung der 9/11-Ersthelfer bis zur Verankerung von Frauenrechten als außenpolitischem Thema. Der Zweierflügel sorgt dafür, dass dieser Reformanspruch nicht kalt oder bürokratisch bleibt, sondern mit persönlicher Zuwendung zu konkreten Betroffenen verbunden ist.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> – bei Clinton oft als kontrollierte, fast unterdrückte Spannung wahrgenommen, die ihr wiederholt den öffentlichen Vorwurf mangelnder Authentizität oder übermäßiger Berechnung einbrachte. Der Schatten der SO1w2 zeigt sich darin, dass der eigene, als richtig empfundene Reformanspruch gelegentlich keinen Raum für ernsthaften Widerspruch lässt – Kritiker warfen ihr vor, abweichende Positionen eher zu managen als wirklich zuzulassen, was ihr öffentliches Bild über Jahrzehnte prägte, obwohl die zugrunde liegende Reformarbeit oft fachlich fundiert war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der richtigen Ordnung zur gelassenen Offenheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit – von der Frage <em>Muss ich jedes als falsch erkannte System korrigieren?</em> zur Erkenntnis <em>Nicht jede Unordnung muss von mir aufgelöst werden, und nicht jeder Widerspruch ist ein Angriff auf die richtige Sache.</em> Für die SO1w2 bedeutet das, den eigenen Fürsorge- und Reformimpuls nicht länger als Pflicht zu erleben, die keinen Fehler duldet, sondern als Angebot, das auch scheitern oder sich wandeln darf, ohne den eigenen Wert infrage zu stellen.</p>
+          <p class="vb-intro">Clintons eigene Reflexion nach der verlorenen Präsidentschaftswahl 2016, insbesondere in ihrem Buch ›What Happened‹ (2017, ›Was geschehen ist‹), in dem sie offen über eigene Fehleinschätzungen schreibt, liest sich als Ansatz dieses Weges: die Fähigkeit, eine über Jahrzehnte verfolgte Mission auch im sichtbaren Scheitern noch einmal neu zu befragen, statt die eigene Gewissheit unverändert zu verteidigen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-nicole-kidman", label:"Porträt: Nicole Kidman (SO1w2)"},
+        {route:"beruehmte-steve-jobs", label:"Porträt: Steve Jobs (SO1w2)"},
+        {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2)"},
+      ])}
+    </div>
+  `);
+}

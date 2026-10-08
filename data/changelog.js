@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2467", date: "2026-10-08", text: "Neues Porträt: Hillary Clinton (SO1w2) – Juristin, Senatorin und Außenministerin.", text_en: "New portrait: Hillary Clinton (SO1w2) – lawyer, U.S. Senator and Secretary of State.", route: "beruehmte-hillary-clinton" },
     { version: "v2466", date: "2026-10-08", text: "Neues Porträt: Yannick van de Velde (SE4w3) – niederländischer Schauspieler, Komiker und Autor.", text_en: "New portrait: Yannick van de Velde (SE4w3) – Dutch actor, comedian and author.", route: "beruehmte-yannick-van-de-velde" },
     { version: "v2465", date: "2026-10-08", text: "Neuer Wissensartikel: Die 9 Enneagramm-Heilmittel im Licht der Signaturenlehre.", text_en: "New knowledge article: The 9 Enneagram remedies in light of the doctrine of signatures (German only).", route: "signaturenlehre-enneagramm-heilmittel" },
     { version: "v2464", date: "2026-10-07", text: "Neues Porträt: Alice Weidel (SO1w9) – Volkswirtin, AfD-Fraktionsvorsitzende.", text_en: "New portrait: Alice Weidel (SO1w9) – economist, AfD parliamentary group leader.", route: "beruehmte-alice-weidel" },
