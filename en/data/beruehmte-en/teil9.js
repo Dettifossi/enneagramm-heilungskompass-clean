@@ -2394,3 +2394,69 @@ export function palinaRojinskiPortraitPage() {
     </div>
   `);
 }
+
+export function yannickVanDeVeldePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-yannick-van-de-velde-portrait.jpg" alt="Yannick van de Velde – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Yannick van de Velde</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Self-Preservation Type 4 with a Three-Wing</p>
+        <p class="krim-portrait-subtitle">Dutch actor, comedian and author, b. 1989 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove in the Shadow of a Family Name</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four &ndash; a bird that does not stand out through loud display, but through always finding its own quiet way back. Yannick van de Velde, born August 15, 1989 in Utrecht, stood in front of a camera as early as age eight, including in the children's series ›Schoon Goed‹ and in 1999 in ›Kruimeltje‹ &ndash; as the son of the well-known director Jean van de Velde, he grew up from the start in the shadow of an already established name, without yet knowing what trace of his own he would leave in it.</p>
+          <p class="vb-intro">In 2004, the lead role of Remco van Leeuwen in ›In Oranje‹ became his real breakthrough: in 2005 he became the first Dutch actor ever to receive a Young Artist Award in Hollywood for it &ndash; an early, public confirmation that, at the same time, finally let him step out from under the mere reflex of his father's name.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: Intensity That Is Protected, Not Displayed</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SE4)</strong> does not put the Four's typical longing for the special, the un-ordinary, on public display, but processes it in a protected, self-controlled form &ndash; Naranjo described this subtype as the ›brave‹ or ›stoic‹ type of the Four, which channels intensity into work rather than showing it outwardly. That is exactly what van de Velde himself describes when he explains that he would rather invent a character who is ›the devil‹, or a ›very sad‹ character, than a ›normal guy‹ &ndash; the Four seeks the unusual, the thing that falls outside the frame, not the everyday.</p>
+          <p class="vb-intro">Telling too is how little he reveals about himself: he gives interviews only rarely and shares hardly anything private on social media &ndash; a classic SE4 pattern. The inner intensity does not become a public stage but remains a protected, self-managed raw material for the actual work in front of and behind the camera.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Child Star to His Own Sustainable Brand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing</strong> gives the self-preservation Four the ability to shape a very personal artistic signature into a lastingly successful, publicly visible body of work, instead of staying stuck in early childhood success. Van de Velde achieved exactly this transition: after ›In Oranje‹ and the title role of Tiuri in ›De Brief voor de Koning‹ (2008), he built a continuous adult career &ndash; roles in ›Overspel‹, as Lars van Marken in the Netflix series ›Undercover‹ and its spin-off ›Ferry‹, and in ›Amsterdam Empire‹.</p>
+          <p class="vb-intro">The Three-note shows even more clearly in his own venture: together with Tom van Kalmthout he forms the comedy duo Rundfunk, which produced not only sketch series like ›Rundfunk: Duco & Roy‹ but also several stage shows and, in 2019, the feature film ›Rundfunk: Jachterwachter‹ &ndash; a very personal, uncompromisingly absurdist comic signature turned into a functioning, multi-year brand of his own, not just a single punchline.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Professional Substance: From Child Actor to Versatile Craftsman</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes van de Velde beyond mere childhood fame is the rare range with which he has since built out his craft. As a child actor he had to make a young football fan in ›In Oranje‹ believable enough to convince international jury members, with no professional experience to fall back on &ndash; a rare, intuitive dramatic maturity at a young age, explicitly honored by the Young Artist Award. As the Dutch voice of Edmund Pevensie in the Narnia films, he in turn had to master a completely different, purely vocal discipline: carrying timing, emotion, and character through voice alone, without body or facial expression as tools.</p>
+          <p class="vb-intro">With Rundfunk came a third, even more demanding skill: not just acting, but writing, directing, and running his own material as a brand &ndash; from sketch to stage show to a feature-length film. This ability to create his own comedic worlds as a writer and director, rather than only interpreting other people's scripts, sets him apart from many child stars who never grew beyond pure acting after their first success.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE4w3 shows in how van de Velde, from a potentially overwhelming starting position &ndash; son of a well-known director, child star with an international award &ndash; shaped not a mere continuation of the given, but an independent, versatile career: from serious drama to voice acting to a comedy format he created entirely on his own terms.</p>
+          <p class="vb-intro">The fateful pattern of the Four is <strong>envy</strong> &ndash; for the SE4w3 often less resentment toward others than a constant inner struggle for one's own, unmistakable position, while the most obvious outward identity (the father's name, the role of former child star) keeps echoing alongside. His pronounced reserve toward interviews and public self-presentation can also be read as a protective response: letting the work speak rather than the person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Quiet Dove With Its Own Voice</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Yannick van de Velde's path from an eight-year-old child actor under his father's name to a versatile actor, voice performer, and co-founder of his own successful comedy format shows the self-preservation Four with a Three-wing at its most constructive: inner intensity is neither concealed nor put on display, but disciplined into ever new, self-chosen forms.</p>
+          <p class="vb-intro">The dove does not return to a single, given nest, but builds its own, flight by flight &ndash; quiet, but persistent, until the result is a body of work that carries on its own strength.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se4", label:"SE4 – The Dove: Subtype profile"},
+        {route:"beruehmte-brian-fennell", label:"Portrait: Brian Fennell (SYML) (SE4w3) – also quiet, disciplined processing of intensity"},
+        {route:"beruehmte-michael-david-rosenberg", label:"Portrait: Michael David Rosenberg (Passenger) (SE4w3)"},
+        {route:"beruehmte-adele", label:"Portrait: Adele (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
