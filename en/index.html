@@ -121,6 +121,12 @@
             el => !el.paused && !el.ended
           );
         }
+        // WebKit automatically pauses every <audio>/<video> element when freezing a page
+        // into the bfcache (e.g. right before a screen rotation). Checking mediaAktiv()
+        // only AFTER pageshow wakes the page back up therefore always sees it as paused —
+        // the real state has to be captured BEFORE the freeze, in pagehide.
+        let wasMediaActiveBeforeHide = false;
+        window.addEventListener('pagehide', () => { wasMediaActiveBeforeHide = mediaAktiv(); });
         function reloadOrDefer() {
           if (mediaAktiv()) { swReloadPending = true; return; }
           window.location.reload();
@@ -137,12 +143,13 @@
         navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' })
           .then(reg => reg.update());
         // Same bfcache reactivation iOS Safari uses when returning from background can
-        // also fire from a plain screen rotation while media is playing — without the
-        // mediaAktiv() check this would reload mid-playback instead of deferring like
-        // the SW-update path does.
+        // also fire from a plain screen rotation while media is playing — without a
+        // check this would reload mid-playback instead of deferring like the SW-update
+        // path does. What matters is the state captured in pagehide BEFORE the freeze,
+        // not the current (WebKit-paused-on-freeze) state.
         window.addEventListener('pageshow', e => {
           if (e.persisted) {
-            if (mediaAktiv()) { swReloadPending = true; return; }
+            if (wasMediaActiveBeforeHide) { swReloadPending = true; return; }
             window.location.reload();
             return;
           }

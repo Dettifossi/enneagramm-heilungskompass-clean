@@ -156,6 +156,13 @@
             el => !el.paused && !el.ended
           );
         }
+        // WebKit pausiert beim Einfrieren einer Seite in den bfcache (z. B. vor einer
+        // Bildschirmdrehung) automatisch jedes <audio>/<video>-Element. Eine Prüfung von
+        // mediaAktiv() ERST beim pageshow-Wiederaufwachen sieht ein abspielendes Medium
+        // deshalb fälschlich schon als pausiert – der eigentliche Zustand muss VORHER,
+        // beim pagehide (unmittelbar vor dem Einfrieren), festgehalten werden.
+        let medienLiefenVorHide = false;
+        window.addEventListener('pagehide', () => { medienLiefenVorHide = mediaAktiv(); });
         function reloadOrDefer() {
           if (mediaAktiv()) { swReloadPending = true; return; }
           window.location.reload();
@@ -179,11 +186,13 @@
         // dann einen echten Reload, damit neue Inhalte zuverlässig ankommen.
         // Dieselbe bfcache-Reaktivierung wird auf manchen Mobilgeräten (iOS Safari) jedoch
         // auch durch eine reine Bildschirmdrehung ausgelöst, während z. B. ein Song abspielt –
-        // ohne die mediaAktiv()-Prüfung würde das mitten in der Wiedergabe neu laden, statt
-        // (wie beim SW-Update) den Reload bis zum nächsten Routenwechsel zurückzustellen.
+        // ohne eine Prüfung würde das mitten in der Wiedergabe neu laden, statt (wie beim
+        // SW-Update) den Reload bis zum nächsten Routenwechsel zurückzustellen. Maßgeblich
+        // ist dabei der in pagehide festgehaltene Zustand VOR dem Einfrieren, nicht der
+        // aktuelle (von WebKit beim Einfrieren ohnehin auf pausiert gesetzte) Zustand.
         window.addEventListener('pageshow', e => {
           if (e.persisted) {
-            if (mediaAktiv()) { swReloadPending = true; return; }
+            if (medienLiefenVorHide) { swReloadPending = true; return; }
             window.location.reload();
             return;
           }
