@@ -17871,7 +17871,11 @@ const JAZZ_TRACKS = {
 // app on fast scrolling or a screen rotation, even on current devices.
 // window.ytFacadePlay() replaces a thumbnail with the real iframe only on tap.
 window.ytFacadePlay = function (el, id) {
-  el.outerHTML = `<iframe width="100%" height="100%" style="border:none;display:block;position:absolute;inset:0;"
+  // innerHTML, not outerHTML: el itself carries position:relative + aspect-ratio:16/9
+  // and defines the box's size. outerHTML would have removed that very frame — the
+  // newly inserted iframe (position:absolute) then had no positioned ancestor left
+  // and collapsed invisibly to size 0 (reported as "video disappears on tap").
+  el.innerHTML = `<iframe width="100%" height="100%" style="position:absolute;inset:0;border:none;display:block;"
     src="https://www.youtube.com/embed/${id}?rel=0&playsinline=1&autoplay=1"
     allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
 };
