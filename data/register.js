@@ -34,6 +34,7 @@ export const registerEntries = [
   { term: "Linien-Dynamik in Beziehungen", route: "linien-dynamik-beziehungen",   description: "Wie Stress- und Entspannungspunkte Partnerschaften zwischen linienverbundenen Typen prägen" },
   { term: "Autopoese im Enneagramm",       route: "enneagramm-autopoese",         description: "Das Enneagramm als autopoietisches System: Kreislauf aus Kernwunde, Leidenschaft und Abwehr – für alle 9 Typen" },
   { term: "Enneagramm & Homöopathie",    route: "enneagramm-homoeopathie",       description: "Übersicht: Homöopathie für alle 27 Subtypen – Mittelzuordnungen nach Typ und Instinkt" },
+  { term: "Signaturenlehre",             route: "signaturenlehre-enneagramm-heilmittel", description: "Die 9 Enneagramm-Heilmittel im Licht der Signaturenlehre – Fakten zu Platinum, Opium & Co." },
   { term: "Enneagramm meets Reflexzonentherapie", route: "enneagramm-reflexzonentherapie", description: "Übersicht: Fuß- und Handreflexzonen als Landkarte der drei Enneagramm-Zentren" },
   { term: "Enneagramm meets Handanalyse", route: "enneagramm-handanalyse", description: "Übersicht: Handform, Fingerabstände und Handlinien als Spiegel der drei Enneagramm-Zentren" },
   { term: "Enneagramm meets Jin Shin Jyutsu", route: "enneagramm-meets-jin-shin-jyutsu", description: "Schaubild: japanische Fingerhaltungen, Organe, Emotionen und ihre Nähe zu den 9 Enneagrammtypen" },

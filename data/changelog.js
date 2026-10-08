@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2465", date: "2026-10-08", text: "Neuer Wissensartikel: Die 9 Enneagramm-Heilmittel im Licht der Signaturenlehre.", text_en: "New knowledge article: The 9 Enneagram remedies in light of the doctrine of signatures (German only).", route: "signaturenlehre-enneagramm-heilmittel" },
     { version: "v2464", date: "2026-10-07", text: "Neues Porträt: Alice Weidel (SO1w9) – Volkswirtin, AfD-Fraktionsvorsitzende.", text_en: "New portrait: Alice Weidel (SO1w9) – economist, AfD parliamentary group leader.", route: "beruehmte-alice-weidel" },
     { version: "v2463", date: "2026-10-07", text: "Neues Porträt: Brian Wilson (SO1w2) – Beach-Boys-Mitgründer, Komponist, Produzent.", text_en: "New portrait: Brian Wilson (SO1w2) – Beach Boys co-founder, composer, producer.", route: "beruehmte-brian-wilson" },
     { version: "v2462", date: "2026-10-07", text: "Neues Krankheitsporträt: Brian Wilson (SO1w2) – jahrzehntelanges Ringen mit schizoaffektiver Störung.", text_en: "New illness portrait: Brian Wilson (SO1w2) – decades-long struggle with schizoaffective disorder.", route: "krankheitsportraets-brian-wilson" },
