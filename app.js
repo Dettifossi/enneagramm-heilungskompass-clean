@@ -51145,7 +51145,7 @@ function signaturenlehreEnneagrammHeilmittelPage() {
           `Der Gattungsname „Atropa" stammt von Atropos, der griechischen Schicksalsgöttin, die den Lebensfaden durchtrennt. <em style="color:var(--muted);">Die Intensität, mit der die Sieben das Leben auskosten will, trägt diese Dramatik bereits im Namen ihres Heilmittels.</em>`,
           `Die Beeren schmecken ungewöhnlich süß – anders als die meisten Giftpflanzen, die bitter warnen – ein Grund für die historisch hohe Zahl kindlicher Vergiftungen. <em style="color:var(--muted);">Das Verlockende warnt bei der Sieben selten rechtzeitig vor dem eigenen Preis.</em>`,
           `Atropin, der Hauptwirkstoff, ist bis heute unverzichtbares Gegenmittel bei Vergiftungen mit Nervengiften und bestimmten Pestiziden – dieselbe Substanz wirkt je nach Dosis als Gift oder Rettung. <em style="color:var(--muted);">Genau diese Doppelrolle kennt die Maßlosigkeit der Sieben: Dieselbe Intensität bringt im richtigen Maß Lebensfreude, in der Überdosis Erschöpfung – die Grenze liegt nicht in der Sache, sondern im Maß.</em>`,
-          `Ein Keynote der akuten Vergiftung: lebhafte Halluzinationen kleiner Tiere oder erschreckender Gesichter, von alten Autoren als „liliputanische Halluzinationen" beschrieben. <em style="color:var(--muted);">Die innere Erlebniswelt der Sieben ist oft ungewöhnlich lebhaft und bildstark.</em>`,
+          `Eine Keynote der akuten Vergiftung: lebhafte Halluzinationen kleiner Tiere oder erschreckender Gesichter, von alten Autoren als „liliputanische Halluzinationen" beschrieben. <em style="color:var(--muted);">Die innere Erlebniswelt der Sieben ist oft ungewöhnlich lebhaft und bildstark.</em>`,
         ])}
 
         ${typBox(8, "#a52a2a", "Veratrum album", "der Weiße Germer", [
