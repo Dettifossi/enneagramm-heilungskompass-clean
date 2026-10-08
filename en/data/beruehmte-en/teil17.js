@@ -2416,3 +2416,70 @@ export function fionaHarveyPortraitPage() {
     </div>
   `);
 }
+
+export function henriPoincarePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-henri-poincare-portrait.jpg" alt="Henri Poincaré – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Henri Poincaré</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with a Six-wing</p>
+        <p class="krim-portrait-subtitle">Mathematician, physicist, philosopher of science, 1854&ndash;1912 &ndash; animal correspondence: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The octopus that thought through an entire age</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>octopus</strong> has no fixed center, thinking in a distributed way across its whole nervous system – and yet possesses breathtaking intelligence. Jules Henri Poincaré, born in 1854 in Nancy as the son of a professor of medicine, was already known as a schoolboy as a "mathematical monster": extraordinary mental arithmetic, an unusually strong memory, and a remarkable ability – despite poor eyesight that made it hard for him to read what his teachers wrote on the board – to process what he heard almost entirely as visual imagery in his mind.</p>
+          <p class="vb-intro">After a severe childhood illness at age five, he was noticeably shy and preferred the quiet, self-invented games he played with his sister Aline to the rougher games of the schoolyard – a reserve that stayed with him for life. A St Andrews obituary describes him as a "delicate boy, preferring the society of his sister to the games of his schoolmates."</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Five: knowledge carried into the community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Five (SO5)</strong> does not hoard its knowledge the way the introverted SE5 does, but deliberately carries it into the community and becomes, through this, an authority – Naranjo called this subtype the "totem." Poincaré embodies this pattern to a rare degree: in 1887 he became a member of the Académie des Sciences, its president in 1906, and in 1908, on the strength of his books on the philosophy of science, he was even elected to the Académie française – a mathematician admitted into the circle of great French writers on the strength of pure literary skill.</p>
+          <p class="vb-intro">More telling still: against the intellectual climate of his time, in which science was rarely communicated to the public, he deliberately wrote for a general readership – "La Science et l'Hypothèse" (1902, "Science and Hypothesis"), "La Valeur de la Science" (1905, "The Value of Science"), and "Science et Méthode" (1908, "Science and Method"). A publisher's blurb calls him, for his lucid and welcoming prose, the "Carl Sagan of his time" – a label that above all captures the social orientation of his work: knowledge was not meant to stay in the ivory tower.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: vigilance wherever safety is at stake</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> gives the social Five an added vigilance toward risk and a tendency to take on responsibility for other people's safety. Right after graduating from the École des Mines in 1879, Poincaré was appointed mining inspector at Vesoul – work devoted almost entirely to safety: assessing gas buildup, planning ventilation, preventing accidents.</p>
+          <p class="vb-intro">In August 1879 he was on the scene of a firedamp explosion at Magny that killed between 16 and 18 miners, and carried out the official investigation "thoroughly and humanely," as sources consistently note. The same vigilant, error-hunting stance showed again in 1889 in the Swedish king's prize competition on the three-body problem: shortly before the deadline, Poincaré discovered a mathematical error of his own in the paper he had already submitted and corrected it in a feverish rush – an episode that, paradoxically, led to the actual discovery of deterministic chaos, since the correction revealed that tiny differences in initial conditions could make an entire system unpredictable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the last true polymath of mathematics</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sheer institutional office does not explain why Poincaré is still regarded as one of the last true polymaths of mathematics – someone who actively mastered, quite literally, every mathematical and physical subfield of his era. His work on Fuchsian functions and the three-body problem founded the modern theory of dynamical systems, and with it, in essence, what is today called chaos theory – long before the term existed.</p>
+          <p class="vb-intro">In physics, he developed central building blocks of special relativity in parallel with Einstein, formulated in 1904 the topological question known to this day as the "Poincaré conjecture" (not solved until 2003, by Grigori Perelman), and his essay "Mathematical Creation" – built around the famous anecdote of boarding an omnibus in Coutances, where the identity between Fuchsian transformations and non-Euclidean geometry suddenly became clear to him as he stepped on – offers a still-cited model of unconscious idea incubation. This combination of the deepest expertise across several disciplines at once and the ability to turn his own thinking into an object of study is the actual substance behind the public fame.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the social Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In its light, Poincaré shows the capacity to not wall off the deepest expertise but to make it accessible to the community – from the lecture hall through the Académie to the popular-science books that opened science to a broad public for the first time. The essayist Ruelle aptly describes him as someone "not driven by strong ambition or ideological preconceptions, but by extreme curiosity for the true nature of things."</p>
+          <p class="vb-intro">The Five's besetting sin is <strong>avarice</strong> – not material, but a withholding of one's own energy and presence. In Poincaré this showed in exactly the distance that Toulouse's 1897 psychiatric examination recorded: "neither sociable nor ready for confidences," often appearing in conversation as if he hadn't followed what was said, even though he had already fully thought through the question. The shadow side of the SO5w6 lies in how the public, institutional face – offices, lectures, books – conceals a rich but, to the outside, almost inaccessible private life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The healing path: from withholding to embodied participation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Five's healing path leads from avarice to generosity – from the question <em>Is my energy enough for real participation?</em> to the realization <em>I am allowed to engage, even when I'm not controlling or preparing everything.</em> For the SO5w6, this means no longer using one's institutional role only as a safe, distanced stage, but as an actual place of encounter.</p>
+          <p class="vb-intro">That Poincaré had his most consequential insight of all in the unplanned, physical moment of stepping onto an omnibus – not at his desk, not in controlled preparation – reads like a signpost toward exactly this path: the greatest insight did not come from still more withdrawal and analysis, but in the moment he let himself fully into the situation, mid-conversation with his travel companions, instead of controlling it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: subtype profile"},
+        {route:"lebensmusterkompass/so5", label:"Life Pattern Compass: SO5 – Octopus"},
+        {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
+        {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portrait: Georg Wilhelm Friedrich Hegel (SO5w6)"},
+        {route:"beruehmte-stephen-hawking", label:"Portrait: Stephen Hawking (SO5w6)"},
+      ])}
+    </div>
+  `);
+}

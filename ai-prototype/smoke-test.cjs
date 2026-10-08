@@ -33,6 +33,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-yannick-van-de-velde", label: "Neues EN-Porträt: Yannick van de Velde" },
   { hash: "#beruehmte-hillary-clinton", label: "Neues Porträt: Hillary Clinton" },
   { hash: "en/#beruehmte-hillary-clinton", label: "Neues EN-Porträt: Hillary Clinton" },
+  { hash: "#beruehmte-henri-poincare", label: "Neues Porträt: Henri Poincaré" },
+  { hash: "en/#beruehmte-henri-poincare", label: "Neues EN-Porträt: Henri Poincaré" },
 ];
 
 function startServer() {

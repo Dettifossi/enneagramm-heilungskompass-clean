@@ -2440,3 +2440,70 @@ export function sathyaSaiBabaPortraitPage() {
     </div>
   `);
 }
+
+export function henriPoincarePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-henri-poincare-portrait.jpg" alt="Henri Poincaré – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Henri Poincaré</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Sozialer Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Mathematiker, Physiker, Wissenschaftsphilosoph, 1854&ndash;1912 &ndash; Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus, der ein ganzes Zeitalter dachte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> hat kein festes Zentrum, denkt verteilt über ein ganzes Nervensystem – und ist trotzdem von atemberaubender Intelligenz. Jules Henri Poincaré, geboren 1854 in Nancy als Sohn eines Medizinprofessors, galt bereits als Schüler als „mathematisches Monster": außergewöhnliches Kopfrechnen, ein ungewöhnlich gutes Gedächtnis, dazu eine bemerkenswerte Fähigkeit, selbst mit schlechter Sehkraft – die ihm das Lesen der Tafelanschriebe erschwerte – Gehörtes rein visuell im Kopf zu verarbeiten.</p>
+          <p class="vb-intro">Nach einer schweren Kinderkrankheit mit fünf Jahren war er auffällig scheu und zog die ruhigen, selbst erfundenen Spiele mit seiner Schwester Aline den raueren Schulhofspielen vor – eine Zurückhaltung, die ihn sein Leben lang begleitete. Der St.-Andrews-Nachruf beschreibt ihn als „zartes Kind, das die Gesellschaft seiner Schwester den Spielen der Schulkameraden vorzog".</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der soziale Fünfer: Wissen, das in die Gemeinschaft getragen wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Fünf (SO5)</strong> hortet ihr Wissen nicht wie die introvertierte SE5, sondern trägt es bewusst in die Gemeinschaft hinein und wird so zur Instanz – Naranjo nannte diesen Subtyp das ›Totem‹. Poincaré verkörpert dieses Muster in einem seltenen Ausmaß: Er wurde 1887 Mitglied der Académie des Sciences, 1906 deren Präsident, und 1908 aufgrund seiner Bücher zur Wissenschaftsphilosophie sogar in die Académie française gewählt – ein Mathematiker, der mit reiner Sprachkunst in den Kreis der großen französischen Literaten aufgenommen wurde.</p>
+          <p class="vb-intro">Entscheidender noch: Gegen den intellektuellen Zeitgeist, in dem Wissenschaft kaum öffentlich vermittelt wurde, schrieb er bewusst für ein breites Publikum – ›La Science et l'Hypothèse‹ (1902, ›Wissenschaft und Hypothese‹), ›La Valeur de la Science‹ (1905, ›Der Wert der Wissenschaft‹) und ›Science et Méthode‹ (1908, ›Wissenschaft und Methode‹). Ein Verlagstext nennt ihn wegen seiner klaren, einladenden Prosa den „Carl Sagan seiner Zeit" – eine Zuschreibung, die vor allem die soziale Grundrichtung seines Wirkens trifft: Erkenntnis sollte nicht im Elfenbeinturm bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Wachsamkeit, wo es um Sicherheit geht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> verleiht der sozialen Fünf eine zusätzliche Wachsamkeit gegenüber Risiken und eine Neigung, Verantwortung für die Sicherheit anderer zu übernehmen. Nach seinem Abschluss an der École des Mines 1879 wurde Poincaré sofort zum Grubeninspektor in Vesoul ernannt – eine Tätigkeit, die fast ausschließlich der Sicherheit galt: Beurteilung von Gasansammlungen, Belüftungspläne, Unfallverhütung.</p>
+          <p class="vb-intro">Im August 1879 war er vor Ort bei einer Schlagwetterexplosion in Magny, bei der 16 bis 18 Bergleute starben, und führte die offizielle Untersuchung „gründlich und menschlich" durch, wie Quellen übereinstimmend festhalten. Dieselbe wache, fehlersuchende Haltung zeigte sich 1889 beim Preisausschreiben des schwedischen Königs zum Dreikörperproblem: Kurz vor der Deadline entdeckte Poincaré einen eigenen mathematischen Fehler in der bereits eingereichten Arbeit und korrigierte ihn in fieberhafter Eile – eine Episode, die paradoxerweise zur eigentlichen Entdeckung des deterministischen Chaos führte, weil die Korrektur zeigte, dass winzige Anfangsabweichungen das gesamte System unvorhersehbar machen können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Der letzte Universalgelehrte der Mathematik</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bloße institutionelle Ämterfülle erklärt nicht, warum Poincaré bis heute als einer der letzten echten Universalgelehrten der Mathematik gilt – jemand, der buchstäblich jedes mathematische und physikalische Teilgebiet seiner Zeit aktiv beherrschte. Er begründete mit seiner Arbeit zu den Fuchsschen Funktionen und dem Dreikörperproblem die moderne Theorie dynamischer Systeme und damit im Kern das, was heute Chaostheorie heißt – lange bevor der Begriff existierte.</p>
+          <p class="vb-intro">In der Physik entwickelte er parallel zu Einstein zentrale Bausteine der speziellen Relativitätstheorie, formulierte 1904 die bis heute als ›Poincaré-Vermutung‹ bekannte topologische Frage (erst 2003 von Grigori Perelman gelöst), und sein Aufsatz ›Mathematical Creation‹ beschreibt, gestützt auf die berühmte Anekdote vom Omnibus in Coutances – wo ihm beim Aufsteigen plötzlich die Identität Fuchsscher Transformationen mit der nichteuklidischen Geometrie klar wurde –, ein bis heute zitiertes Modell unbewusster Ideen-Inkubation. Diese Verbindung aus tiefster Fachkompetenz über mehrere Disziplinen hinweg und der Fähigkeit, die eigene Denkweise selbst zum Forschungsgegenstand zu machen, ist die eigentliche Substanz hinter dem öffentlichen Ruhm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Poincaré die Fähigkeit, tiefste Fachkompetenz nicht abzuschotten, sondern der Gemeinschaft zugänglich zu machen – vom Hörsaal über die Académie bis zu den populärwissenschaftlichen Büchern, die Wissenschaft erstmals einem breiten Publikum öffneten. Der Essayist Ruelle beschreibt ihn treffend als jemanden, der „nicht von starkem Ehrgeiz oder ideologischen Vorprägungen getrieben war, sondern von extremer Neugier auf die wahre Natur der Dinge".</p>
+          <p class="vb-intro">Das Schicksalsmuster der Fünf ist der <strong>Geiz</strong> – nicht materiell, sondern als Zurückhaltung der eigenen Energie und Präsenz. Bei Poincaré zeigte sich das in genau der Distanz, die Toulouses psychiatrische Untersuchung von 1897 protokollierte: „weder gesellig noch vertrauensbereit", im Gespräch oft wirkend, als habe er nicht zugehört, obwohl er die Frage längst durchdacht hatte. Der Schatten der SO5w6 liegt darin, dass die öffentliche, institutionelle Seite – Ämter, Vorträge, Bücher – ein reiches, aber nach außen fast unzugängliches Privatleben verdeckt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Zurückhaltung zur verkörperten Teilhabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt vom Geiz zur Großzügigkeit – von der Frage <em>Reicht meine Energie für echte Teilhabe?</em> zur Erkenntnis <em>Ich darf mich einbringen, auch wenn ich dabei nicht alles kontrolliere oder vorbereite.</em> Für die SO5w6 bedeutet das, die eigene institutionelle Rolle nicht nur als sichere, distanzierte Bühne zu nutzen, sondern als echten Ort der Begegnung.</p>
+          <p class="vb-intro">Dass Poincaré ausgerechnet im unverhofften, körperlichen Moment des Omnibus-Einstiegs – nicht am Schreibtisch, nicht in kontrollierter Vorbereitung – seine folgenreichste Einsicht hatte, liest sich wie ein Fingerzeig auf genau diesen Weg: Die größte Erkenntnis kam nicht aus noch mehr Rückzug und Analyse, sondern in dem Moment, in dem er sich, mitten im Gespräch mit Reisebegleitern, ganz auf die Situation einließ, statt sie zu kontrollieren.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so5", label:"Lebensmusterkompass: SO5 – Oktopus"},
+        {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6)"},
+        {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Porträt: Georg Wilhelm Friedrich Hegel (SO5w6)"},
+        {route:"beruehmte-stephen-hawking", label:"Porträt: Stephen Hawking (SO5w6)"},
+      ])}
+    </div>
+  `);
+}

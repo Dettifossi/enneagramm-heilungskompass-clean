@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2468", date: "2026-10-08", text: "Neues Porträt: Henri Poincaré (SO5w6) – Mathematiker, Physiker und Wissenschaftsphilosoph.", text_en: "New portrait: Henri Poincaré (SO5w6) – mathematician, physicist and philosopher of science.", route: "beruehmte-henri-poincare" },
     { version: "v2467", date: "2026-10-08", text: "Neues Porträt: Hillary Clinton (SO1w2) – Juristin, Senatorin und Außenministerin.", text_en: "New portrait: Hillary Clinton (SO1w2) – lawyer, U.S. Senator and Secretary of State.", route: "beruehmte-hillary-clinton" },
     { version: "v2466", date: "2026-10-08", text: "Neues Porträt: Yannick van de Velde (SE4w3) – niederländischer Schauspieler, Komiker und Autor.", text_en: "New portrait: Yannick van de Velde (SE4w3) – Dutch actor, comedian and author.", route: "beruehmte-yannick-van-de-velde" },
     { version: "v2465", date: "2026-10-08", text: "Neuer Wissensartikel: Die 9 Enneagramm-Heilmittel im Licht der Signaturenlehre.", text_en: "New knowledge article: The 9 Enneagram remedies in light of the doctrine of signatures (German only).", route: "signaturenlehre-enneagramm-heilmittel" },
