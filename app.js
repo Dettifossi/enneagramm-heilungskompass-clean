@@ -43222,14 +43222,32 @@ const JAZZ_TRACKS = {
   "86": [{t:"Lighthearted Improvisations",s:0}, {t:"Liveliness of the Moment",s:324}, {t:"Illusion of the Past",s:500}, {t:"Love is a Mystery",s:782}, {t:"Simplicity of Life",s:967}, {t:"Lost Dreams",s:1161}, {t:"Always Now",s:1401}, {t:"The Way Home",s:1575}, {t:"Everlasting Spring",s:1815}, {t:"Past Feelings",s:2048}, {t:"What Else, What Else",s:2288}, {t:"Such Is Life",s:2357}, {t:"Driving Without Destination",s:2579}, {t:"Minor Steps in Major Time",s:2770}, {t:"Highway to Silence",s:2922}, {t:"Moonlight Over Mulholland",s:3070}, {t:"Shadows on Melrose",s:3253}, {t:"Whispers from the Coast",s:3473}, {t:"The Coffee Was Jazz",s:3713}, {t:"Cool Breeze, Warm Soul",s:3884}],
 };
 
+// Diese Seite listet 140+ YouTube-Videos (Jazz-Alben, Enneagramm-/Spirituelle/Biblische
+// Songs, Liebeslieder) auf einer einzigen Route. Mit echten <iframe>-Embeds für jede
+// Kachel sofort im DOM (auch mit loading="lazy" bleiben es vorbereitete Player-Kontexte,
+// sobald sie in die Nähe des Viewports scrollen) summiert sich das zu weit über 100
+// gleichzeitig aktiven YouTube-Playern – bei schnellem Scrollen oder einer Bildschirm-
+// drehung (die bei vielen bereits geladenen Iframes gleichzeitig ein Reflow auslöst)
+// reicht das, um die als Home-Bildschirm-App laufende Seite zum Abstürzen/Neuladen zu
+// bringen, selbst auf aktuellen Geräten. window.ytFacadePlay() ersetzt stattdessen ein
+// Vorschaubild erst beim tatsächlichen Antippen durch den echten Iframe.
+window.ytFacadePlay = function (el, id) {
+  el.outerHTML = `<iframe width="100%" height="100%" style="border:none;display:block;position:absolute;inset:0;"
+    src="https://www.youtube.com/embed/${id}?rel=0&playsinline=1&autoplay=1"
+    allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+};
+
 function detlefRathmerJazzPage() {
   const kachel = (id, label, tracks, desc, langs) => `
     <div style="background:var(--paper);border-radius:14px;overflow:hidden;box-shadow:0 1px 6px rgba(0,0,0,0.08);">
       <p style="margin:0;padding:0.7rem 1rem 0.5rem;font-size:0.88rem;font-weight:600;line-height:1.35;color:var(--ink);">${label}</p>
-      <div style="position:relative;aspect-ratio:16/9;background:#000;">
-        <iframe width="100%" height="100%" style="border:none;display:block;"
-          src="https://www.youtube.com/embed/${id}?rel=0&playsinline=1"
-          allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      <div style="position:relative;aspect-ratio:16/9;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'${id}')">
+        <img src="https://img.youtube.com/vi/${id}/hqdefault.jpg" loading="lazy" alt="${label}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;">
+        <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+          <div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;">
+            <div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div>
+          </div>
+        </div>
       </div>
       ${desc ? `<p style="margin:0;padding:0.3rem 1rem 0.6rem;font-size:0.8rem;color:var(--ink-muted);line-height:1.5;">${desc}</p>` : ""}
       ${langs && langs.length ? `
