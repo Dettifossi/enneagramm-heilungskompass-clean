@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage, gescheGottfriedPortraitPage, juanaBarrazaPortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage, arwedImielaPortraitPage, bernardEugeneGilesPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, ameliaDyerPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage, charlesStarkweatherPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=213";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=214";
 
 import { adeleKrankheitsportraetPage, arnoldSchwarzeneggerKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, knutHamsunKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage, andyWarholKrankheitsportraetPage, paulBocuseKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage, davidHockneyKrankheitsportraetPage, guntherVonHagensKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15931,6 +15931,7 @@ const uiText = {
       { route: "subtyp-motivationsquiz", label: "Subtyp-Motivationsquiz (motivationsbedingtes Verhalten erraten)" },
       { heading: "Enneagramm meets … (Heilkunde & Deutung)" },
       { route: "enneagramm-homoeopathie", label: "Enneagramm meets Homöopathie" },
+      { route: "signaturenlehre-enneagramm-heilmittel", label: "Die 9 Enneagramm-Heilmittel & die Signaturenlehre" },
       { route: "enneagramm-reflexzonentherapie", label: "Enneagramm meets Reflexzonentherapie" },
       { route: "enneagramm-akupunktur", label: "Enneagramm meets Akupunktur" },
       { route: "enneagramm-handanalyse", label: "Enneagramm meets Handanalyse" },
@@ -51026,6 +51027,166 @@ function enneagrammHomoeopathiePage() {
   `);
 }
 
+function signaturenlehreEnneagrammHeilmittelPage() {
+  function typBox(nr, farbe, mittel, beiname, facts) {
+    return `
+        <div class="vb-section" style="max-width:100%;border:1.5px solid ${farbe}22;border-left:4px solid ${farbe};border-radius:10px;padding:1.3rem 1.5rem;margin:0 0 1.6rem;">
+          <div style="display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;margin-bottom:.9rem;">
+            <span style="font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:${farbe};padding:.2rem .6rem;border-radius:20px;">Typ ${nr}</span>
+            <h3 style="font-family:Georgia,'Times New Roman',serif;font-size:1.2rem;margin:0;color:var(--ink);">${mittel} <span style="font-size:.88rem;color:${farbe};font-weight:700;">– ${beiname}</span></h3>
+          </div>
+          <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:.8rem;">
+            ${facts.map(f => `<li style="font-size:.92rem;line-height:1.6;padding-left:1.1rem;position:relative;"><span style="position:absolute;left:0;color:${farbe};">–</span>${f}</li>`).join('')}
+          </ul>
+        </div>`;
+  }
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('signaturenlehre-enneagramm-heilmittel')}
+      <div class="page-content">
+        <button class="ghost-link" data-route="enneagramm-homoeopathie" style="margin-bottom:1.2rem;">← Zurück zu Enneagramm meets Homöopathie</button>
+        <p class="eyebrow">Wissen · Heilkunde</p>
+        <h1 class="section-title">Die neun Enneagramm-Heilmittel im Licht der Signaturenlehre</h1>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Die <strong>Signaturenlehre</strong> ist eine jahrhundertealte Beobachtung, die schon Paracelsus auf die Formel brachte: <em>„Die Natur bezeichnet jedes ihrer Gewächse mit dem Stempel ihrer Kraft."</em> Gestalt, Herkunft und Wesen eines Stoffes – ob Pflanze, Mineral oder Tier – verraten demnach etwas über seine Heilwirkung. In der Homöopathie lebt dieser Gedanke bis heute fort: Die Art, wie eine Substanz in der Natur erscheint und wirkt, spiegelt sich im „Mittelbild" wider.</p>
+          <p class="vb-intro">Die <strong>Enneagramm-Homöopathie</strong> geht einen Schritt weiter: Da jedem der neun Enneagrammtypen eine Grundleidenschaft zugrunde liegt, lässt sich für jede dieser neun Leidenschaften genau ein homöopathisches „Leidenschaftsmittel" finden, dessen Signatur sich auffällig präzise mit dem psychologischen Muster des jeweiligen Typs deckt. Im Folgenden werden diese neun Zuordnungen vorgestellt – vom Edelmetall Platin für Typ 1 bis zum indischen Hanf für Typ 9, mit Fakten aus klassischer Materia medica und Kulturgeschichte, die jeweils direkt auf das Typmuster bezogen werden.</p>
+        </blockquote>
+
+        ${typBox(1, "#a5603d", "Platinum metallicum", "das Edelmetall", [
+          `Platin macht nur etwa 0,000005 ppm der Erdkruste aus – seltener als Gold. <em style="color:var(--muted);">Die Eins empfindet sich oft als etwas Besonderes, das sich durch Reinheit statt Lautstärke abhebt.</em>`,
+          `Spanische Konquistadoren hielten es für „unreifes Silber" (daher der Name von span. „platina"), weil es ihren Öfen widerstand – sein wahrer Wert wurde erst später erkannt. <em style="color:var(--muted);">Die Eins wird oft unterschätzt; ihr Wert zeigt sich erst bei genauerem Hinsehen.</em>`,
+          `Schmelzpunkt 1768 °C – weit höher als Gold oder Silber. <em style="color:var(--muted);">Die innere Hitze (der unterdrückte Zorn der Eins) braucht enorme „Temperatur", um überhaupt sichtbar zu werden.</em>`,
+          `Chemisch fast reaktionsträge: widersteht fast allen Säuren außer Königswasser. <em style="color:var(--muted);">Kritik perlt an der Fassade der Eins ab, auch wenn es innen brodelt.</em>`,
+          `Hahnemann beschrieb das Mittelbild selbst: Gefühl der Überlegenheit, Verachtung für „gewöhnliche" Menschen – gefolgt von plötzlichem Selbstzweifel. <em style="color:var(--muted);">Der innere Richter der Eins urteilt mal nach außen, mal nach innen.</em>`,
+          `Traditioneller Werkstoff für Eheringe – Symbol für Unvergänglichkeit, weil es nicht anläuft. <em style="color:var(--muted);">Die Eins sucht Dauerhaftigkeit und Verlässlichkeit, in Beziehungen wie im moralischen Kompass.</em>`,
+          `In der Katalysatortechnik unverzichtbar: ermöglicht Reaktionen, ohne selbst verbraucht zu werden. <em style="color:var(--muted);">Die Eins wirkt oft als Katalysator für Verbesserung im Umfeld – treibt Veränderung an, bleibt selbst aber starr.</em>`,
+          `Mehr als doppelt so dicht wie Blei. <em style="color:var(--muted);">Hinter der ruhigen Oberfläche der Eins liegt enorme „Dichte" an aufgestauter Spannung.</em>`,
+          `Kommt in der Natur fast nie rein vor, sondern in Legierungen – „Reinheit" entsteht erst durch aufwendige Raffination. <em style="color:var(--muted);">Auch die Eins muss ihre Integrität aktiv erarbeiten; sie ist kein Naturzustand, sondern ständige „Veredelung".</em>`,
+          `Die Platinmetalle (Iridium, Palladium, Rhodium, Ruthenium, Osmium) treten in der Natur fast immer gemeinsam auf, nie isoliert. <em style="color:var(--muted);">Die Eins fühlt sich oft nur im Kreis anderer, ähnlich hoher Standards wirklich verstanden – einer kleinen „Elite" von Gleichgesinnten.</em>`,
+          `Über 80 % der weltweiten Platinvorkommen liegen in einer einzigen geologischen Formation Südafrikas, dem Bushveld-Komplex – anderswo auf der Welt ist der Stoff praktisch nicht zu finden. <em style="color:var(--muted);">Die Leidenschaft der Eins, der Zorn, speist sich aus genau diesem Gefühl der Konzentration: nur an einem einzigen, selbst gewählten Ort – dem eigenen inneren Maßstab – liegt das „echte", unverfälschte Richtig.</em>`,
+          `In der klassischen Materia medica (Kent) wird das Platinum-Bild explizit als „Hochmut" und „Verachtung für andere" beschrieben – gepaart mit tauber, reduzierter Körperempfindung, als stünde der Kopf über dem eigenen Fühlen. <em style="color:var(--muted);">Die Eins trennt oft Verstand und Gefühl, um die Kontrolle über sich selbst zu behalten.</em>`,
+          `Der Begriff „Platin-Standard" wird sprachlich noch über dem bekannteren „Gold-Standard" angesiedelt – die höchste denkbare Messlatte. <em style="color:var(--muted);">Die Eins legt an sich selbst oft einen Maßstab an, der noch über dem allgemein üblichen „Goldstandard" liegt.</em>`,
+        ])}
+
+        ${typBox(2, "#b3447c", "Hyoscyamus niger", "das Schwarze Bilsenkraut", [
+          `Gehört wie Stechapfel (Typ 5) und Tollkirsche (Typ 7) zu den Nachtschattengewächsen – drei Enneagramm-Heilmittel aus derselben botanischen Familie. <em style="color:var(--muted);">Rückzug, Intensität und Verlangen nach Nähe teilen eine gemeinsame stoffliche Wurzel.</em>`,
+          `Enthält Hyoscyamin und Scopolamin; im Mittelalter Bestandteil von Hexensalben, denen man „Flugerlebnisse" zuschrieb. <em style="color:var(--muted);">Die Zwei kann in extremen Zuständen ebenfalls die Bodenhaftung verlieren, mitgerissen von der Sehnsucht nach Verschmelzung.</em>`,
+          `Name „niger" (schwarz) wegen der dunkel geäderten Blüten und des fauligen Geruchs der ganzen Pflanze. <em style="color:var(--muted);">Hinter der Fassade von Zuneigung kann im Schatten der Zwei auch Manipulation verborgen liegen.</em>`,
+          `Wurde in der Antike als Betäubungsmittel vor Operationen eingesetzt, lange vor modernen Anästhetika. <em style="color:var(--muted);">Die Zwei „betäubt" oft die eigenen Bedürfnisse, um ganz für andere da zu sein.</em>`,
+          `Klassisches Keynote-Symptom in toxischer Dosis: distanzloses, schamloses Verhalten (z. B. Entkleiden in der Öffentlichkeit). <em style="color:var(--muted);">Die Schattenseite der Zwei zeigt sich im Kontrollverlust über Grenzen – die eigenen wie die der anderen.</em>`,
+          `Materia medica beschreibt Hyoscyamus-Patienten als eifersüchtig und von der Angst geplagt, verlassen zu werden. <em style="color:var(--muted);">Das deckt sich fast wörtlich mit der Grundangst der Zwei.</em>`,
+          `Wächst bevorzugt auf Schutt- und Ödland, nah an menschlichen Siedlungen. <em style="color:var(--muted);">Auch die Zwei orientiert sich stark an anderen; ihr „Lebensraum" ist die Beziehung.</em>`,
+          `Bilsenkraut-Samen fanden sich in neolithischen Grabstätten Europas – ein Hinweis auf eine rituelle Nutzung, die Jahrtausende zurückreicht. <em style="color:var(--muted);">Die Zwei sucht oft eine tiefe, fast zeitlose Form der Verbindung, die über das rein Gegenwärtige hinausgeht.</em>`,
+          `Der Name leitet sich vom griechischen „hyos kyamos" ab – „Bohne des Schweins", weil Schweine die Pflanze angeblich unbeschadet fressen können, während sie für Menschen giftig ist. <em style="color:var(--muted);">Etwas, das nach außen harmlos und nahrhaft wirkt, kann im Verborgenen eine ganz andere Wirkung haben – ein Bild für die Schattenseite der Zwei, die Zuneigung gibt, aber auch fordert.</em>`,
+          `Die typische toxische Symptomatik wird im englischen Sprachraum mit der Eselsbrücke „red as a beet, dry as a bone, mad as a hatter" zusammengefasst – gerötete Haut, trockener Mund, enthemmtes Verhalten. <em style="color:var(--muted);">Die Fassade der Fürsorge kann bei der Zwei im Extremfall in auffälliges, grenzüberschreitendes Verhalten kippen.</em>`,
+          `Bilsenkrautöl wurde volksmedizinisch Jahrhunderte lang äußerlich bei Zahnschmerzen angewendet, direkt ins schmerzende Zahnfleisch getropft – Linderung nur durch unmittelbaren Körperkontakt, nicht aus der Distanz. <em style="color:var(--muted);">Genau das ist die Grundstrategie der Zwei: Zuwendung muss körperlich, direkt und spürbar ankommen, damit sie als echte Liebe zählt – aus der Ferne gegeben, fühlt sie sich für die Zwei nicht ausreichend an.</em>`,
+        ])}
+
+        ${typBox(3, "#2f8f5b", "Tarentula hispanica", "die Spanische Tarantel", [
+          `Name geht auf die Stadt Tarent zurück, wo man glaubte, der Biss der Wolfsspinne löse „Tarantismus" aus, heilbar nur durch tagelanges Tanzen (Tarantella). <em style="color:var(--muted);">Die Drei „tanzt" gegen innere Unruhe an – durch Aktivität statt Stillstand.</em>`,
+          `Der Biss ist für Menschen meist harmlos; „Tarantismus" gilt heute eher als kulturelles Ventil-Phänomen. <em style="color:var(--muted);">Auch bei der Drei ist sichtbare Betriebsamkeit oft mehr Ausdruck als Notwendigkeit.</em>`,
+          `Mittelbild: extreme Ruhelosigkeit, die sich durch Musik und Rhythmus bessert. <em style="color:var(--muted);">Die Drei lebt für Resonanz und Applaus – der Takt des Erfolgs treibt sie an.</em>`,
+          `Patienten gelten als charmant nach außen, mit einer verborgenen, destruktiven „doppelten Natur". <em style="color:var(--muted);">Das Image der Drei kann glänzen, während im Hintergrund kalkuliert wird.</em>`,
+          `Spinnenseide ist elastischer als Stahl bei gleichem Gewicht – eines der reißfestesten Naturmaterialien. <em style="color:var(--muted);">Die Belastbarkeit der Drei unter Druck ist bemerkenswert – sie „funktioniert" fast immer.</em>`,
+          `Wolfsspinnen jagen aktiv, statt in Netzen zu warten. <em style="color:var(--muted);">Die Drei verfolgt Ziele zielstrebig, statt abzuwarten.</em>`,
+          `Echte Wolfsspinnen tragen ihre frisch geschlüpften Jungen zu Dutzenden huckepack auf dem eigenen Rücken mit sich. <em style="color:var(--muted);">Die Drei jongliert oft viele Projekte und Rollen gleichzeitig, immer sichtbar in Bewegung.</em>`,
+          `Die Tarantella-Tanztradition hielt sich in Teilen Süditaliens bis ins 20. Jahrhundert, mit eigens engagierten Musikern, die vermeintlich „Gebissene" heilen sollten. <em style="color:var(--muted);">Die Bühne, auf der die Drei glänzt, kann auch ein gesellschaftlich akzeptiertes Ventil für inneren Druck sein.</em>`,
+          `Wolfsspinnen besitzen ungewöhnlich gutes Sehvermögen für Spinnen; ihre Augen reflektieren nachts Licht so stark, dass Forscher sie mit bloßen Taschenlampen aufspüren – an jedem dunklen Ort erzeugt genau dieses Tier zwei leuchtende Punkte, die sofort Aufmerksamkeit ziehen. <em style="color:var(--muted);">Die Leidenschaft der Drei, die Täuschung, braucht genau dieses „Leuchten": Sichtbarkeit und Beachtung sind für sie kein Nebeneffekt, sondern die eigentliche Bestätigung, zu existieren und wertvoll zu sein.</em>`,
+          `Der Biss der europäischen Tarantel ist für Menschen tatsächlich weitgehend harmlos; der Mythos ihrer Gefährlichkeit war von der echten Toxikologie weitgehend abgekoppelt. <em style="color:var(--muted);">Image und Substanz fallen bei diesem Tier auseinander – ein auffälliger Spiegel der Drei, bei der der äußere Schein manchmal mehr Raum einnimmt als der tatsächliche Inhalt.</em>`,
+        ])}
+
+        ${typBox(4, "#6a4fa0", "Ignatia amara", "die Ignatiusbohne", [
+          `Stammt vom Brechnussbaum (Strychnos ignatii) von den Philippinen, benannt nach Ignatius von Loyola – Jesuiten brachten sie im 17. Jh. nach Europa. <em style="color:var(--muted);">Das Mittel trägt schon im Namen eine tiefe, fast religiöse Bedeutungsschwere – typisch für die Vier.</em>`,
+          `Enthält wie die verwandte Brechnuss (Nux vomica) Strychnin, wirkt psychisch aber ganz anders: sanft, paradox. <em style="color:var(--muted);">Auch die Vier wirkt oft paradox – zart und verletzlich, aber mit enormer innerer Intensität.</em>`,
+          `Zentrales Keynote-Symptom: „Kloß im Hals" durch unterdrückte Trauer, verbunden mit Seufzen. <em style="color:var(--muted);">Die Vier trägt oft einen unausgesprochenen, „im Hals steckengebliebenen" Schmerz mit sich.</em>`,
+          `Paradoxe Reaktion auf Trost: Mitgefühl von außen kann die Symptome verschlimmern statt lindern. <em style="color:var(--muted);">Die Vier fühlt sich oft missverstanden, selbst bei gut gemeintem Trost.</em>`,
+          `Klassisch das homöopathische „Liebeskummermittel" – verordnet bei akutem, frischem Trennungsschmerz. <em style="color:var(--muted);">Der Verlust des Idealisierten ist für die Vier oft ein zentrales biografisches Thema.</em>`,
+          `Paradoxe Geschmacksveränderung im Mittelbild: Süßes kann bitter erscheinen und umgekehrt. <em style="color:var(--muted);">Die Vier erlebt die Welt oft durch einen eigenen Filter – Banales wird bedeutsam, Bedeutsames banal.</em>`,
+          `Die Gattung Strychnos umfasst auch die Curare-Liane, aus der südamerikanische Jäger Pfeilgift herstellten – dieselbe Pflanzenfamilie liefert damit sowohl tödliches Gift als auch ein feines Seelenmittel. <em style="color:var(--muted);">Die Spannweite zwischen Extremen – Verzückung und Verzweiflung, Idealisierung und Enttäuschung – ist der Vier vertraut.</em>`,
+          `Die Samen sind extrem hart und bitter und müssen vor der Verarbeitung aufwendig gemahlen werden. <em style="color:var(--muted);">Hinter einer zunächst spröden, schwer zugänglichen Schale verbirgt sich bei der Vier oft etwas sehr Kostbares.</em>`,
+          `In klassischen Repertorien gehört Ignatia zu den ersten Mitteln, die unter „Beschwerden durch Kummer, enttäuschte Liebe oder Schock" aufgeführt werden. <em style="color:var(--muted);">Der Verlust des Idealisierten ist für die Vier ein immer wiederkehrendes, fast archetypisches Thema.</em>`,
+          `Ein eher unerwartetes Keynote-Symptom: Die Beschwerden bessern sich paradoxerweise durch Essen – ein Trostverhalten, das in der sonst so „leidvollen" Mittelbeschreibung heraussticht. <em style="color:var(--muted);">Auch die Vier sucht sich kleine Trostinseln inmitten großer Gefühle.</em>`,
+        ])}
+
+        ${typBox(5, "#3a7ca5", "Stramonium", "der Stechapfel", [
+          `Eine der giftigsten in Europa heimischen Pflanzen – wenige Samen können für Kinder tödlich sein. <em style="color:var(--muted);">Die Fünf empfindet die Welt oft als potenziell überwältigend – daher der Rückzug.</em>`,
+          `Name „Stechapfel" nach der stacheligen Fruchtkapsel. <em style="color:var(--muted);">Die Fünf schützt sich mit eigenen „Stacheln": Distanz, Zurückhaltung, intellektueller Rückzug.</em>`,
+          `In Überdosierung: charakteristische Horrorhalluzinationen, Verfolgungsangst, verbunden mit starkem Lichtbedürfnis als Trost. <em style="color:var(--muted);">Die Urangst der Fünf vor einer überfordernden Außenwelt zeigt sich fast bildhaft.</em>`,
+          `Historisch von indigenen nordamerikanischen Kulturen bei Initiationsritualen sowie im Ayurveda für visionäre Zustände genutzt. <em style="color:var(--muted);">Der innere Rückzug der Fünf kann zu einer Art innerer „Vision" führen, fernab der äußeren Welt.</em>`,
+          `Keynote-Symptom: im akuten Angstzustand wird – anders als erwartet – Gesellschaft und Licht gesucht, nicht gemieden. <em style="color:var(--muted);">Selbst die rückzugsorientierte Fünf kann in echten Krisen das dringende Bedürfnis nach einem sicheren Gegenüber entwickeln.</em>`,
+          `Der Wirkstoff Scopolamin wird in Mikrodosen bis heute gegen Reisekrankheit eingesetzt. <em style="color:var(--muted);">Auch die Fünf „dosiert" die Welt am liebsten in kleinen, kontrollierten Portionen.</em>`,
+          `1676 vergifteten sich britische Soldaten im kolonialen Jamestown versehentlich an Stechapfel-Blättern in einem Salat – tagelanges bizarres Verhalten, dokumentiert von einem Zeitzeugen; daher der englische Name „Jimsonweed". <em style="color:var(--muted);">Ein berühmter historischer Fall, in dem die Grenze zwischen harmloser Pflanze und völliger Realitätsentfremdung hauchdünn war.</em>`,
+          `Die Blüten des Stechapfels öffnen sich nur in der Dämmerung und schließen sich bei Sonnenaufgang wieder – bestäubt werden sie von Nachtfaltern. <em style="color:var(--muted);">Eine Pflanze, buchstäblich auf Dunkelheit ausgerichtet – ein Echo der Fünf, die Nacht und Rückzug oft der hellen Bühne vorzieht.</em>`,
+          `Im Mittelbild findet sich ein ausgeprägter Fluchtimpuls – der Drang, aus Fenstern zu klettern oder davonzulaufen, getrieben von Furcht. <em style="color:var(--muted);">Die Fünf kann unter Überforderung einen ganz ähnlichen inneren Fluchtreflex entwickeln, sobald die eigenen Grenzen überschritten werden.</em>`,
+          `Scopolamin-Pflaster werden heute gegen Reiseübelkeit verschrieben, in höheren historischen Dosen wurde der Stoff jedoch auch mit sogenannten „Wahrheitsseren" bei Verhören in Verbindung gebracht. <em style="color:var(--muted);">Eine unbehagliche Parallele zur Urangst der Fünf, gegen den eigenen Willen durchschaut oder bloßgestellt zu werden.</em>`,
+        ])}
+
+        ${typBox(6, "#c4871a", "Opium", "der Schlafmohn", [
+          `Gewonnen aus dem Milchsaft des Schlafmohns – von Sumerern vor über 5000 Jahren als „Pflanze der Freude" kultiviert. <em style="color:var(--muted);">Die Sehnsucht der Sechs nach Sicherheit hat hier eine jahrtausendealte „Abkürzung" gefunden.</em>`,
+          `Wirkstoffe Morphin und Codein, benannt nach Morpheus, dem griechischen Traumgott. <em style="color:var(--muted);">Die Sechs „träumt" sich mitunter aus der eigenen Angst heraus, statt sie zu konfrontieren.</em>`,
+          `Keynote-Symptom: Patienten verharmlosen selbst schwere Symptome – „es geht mir gut" trotz ernster Erkrankung. <em style="color:var(--muted);">Typisch phobische Sechs: Die Gefahr wird verdrängt statt konfrontiert.</em>`,
+          `Historisch Auslöser der Opiumkriege des 19. Jahrhunderts – eine einzige Pflanze veränderte Welthandel und Kriegsgeschichte. <em style="color:var(--muted);">Das Sicherheitsbedürfnis hinter dieser Signatur kann im Großen wie im Kleinen zu enormen Verwerfungen führen, wenn es pervertiert wird.</em>`,
+          `Homöopathisch klassisch bei Schockzuständen nach Unfällen – wenn jemand wie betäubt und reaktionsunfähig ist. <em style="color:var(--muted);">Die Sechs kann unter Extremstress in eine Art inneren „Schockzustand" der Erstarrung fallen.</em>`,
+          `Mohnsamen selbst (ohne Milchsaft) sind praktisch wirkstofffrei und ganz legal in der Küche – nur der Milchsaft der unreifen Kapsel ist aktiv. <em style="color:var(--muted);">Bei der Sechs liegt der Unterschied zwischen gesunder Vorsicht und lähmender Angst oft in der „Dosis".</em>`,
+          `Sumerische Schrifttafeln aus der Zeit um 3400 v. Chr. bezeichnen den Schlafmohn bereits als „Hul Gil" – die „Pflanze der Freude", gezielt angebaut, um Unbehagen gezielt zu dämpfen. <em style="color:var(--muted);">Die Leidenschaft der Sechs, die Angst, sucht seit jeher genau diese Abkürzung: nicht die Bedrohung selbst lösen, sondern das Gefühl der Bedrohung betäuben.</em>`,
+          `In der Materia medica wird für den Opium-Zustand eine fast völlige Schmerzlosigkeit beschrieben – selbst schwere Verletzungen werden ohne erkennbare Reaktion hingenommen. <em style="color:var(--muted);">Die Sechs kann unter Dauerstress eine ähnliche Abkopplung entwickeln, bei der echte Gefahr nicht mehr als solche empfunden wird.</em>`,
+          `Ein markantes Keynote-Symptom sind stecknadelkopfgroße Pupillen, selbst bei schwachem Licht – ein Zeichen, dass das Nervensystem nicht mehr angemessen auf die Umgebung reagiert. <em style="color:var(--muted);">Bei chronischer Angst kann auch die Sechs irgendwann auf echte Warnsignale nicht mehr reagieren.</em>`,
+          `Opium gilt klassisch auch als das wichtigste Mittel für Menschen, die nach einem plötzlichen Schreck „nie wieder dieselben" waren. <em style="color:var(--muted);">Ein tief verwurzeltes Schock-Erlebnis kann die Grundangst der Sechs auf Dauer prägen.</em>`,
+        ])}
+
+        ${typBox(7, "#d4a017", "Belladonna", "die Tollkirsche", [
+          `Name („schöne Frau") von der Renaissance-Mode, sich mit dem Saft die Pupillen zu weiten – ein früher, hochgiftiger „Beauty-Hack". <em style="color:var(--muted);">Die Sieben sucht das Attraktive, Berauschende – manchmal ohne die Risiken ganz wahrzunehmen.</em>`,
+          `Mittelbild: plötzliches, heftiges Fieber, hochrotes Gesicht, extreme Hitze – alles kommt abrupt mit voller Wucht. <em style="color:var(--muted);">Die Begeisterung der Sieben entzündet sich blitzartig und intensiv.</em>`,
+          `Zustände sind klassisch rasch veränderlich: Fieber steigt und fällt abrupt. <em style="color:var(--muted);">Die Sieben wechselt schnell zwischen Enthusiasmus und nächstem Impuls.</em>`,
+          `Bestandteil mittelalterlicher „Hexensalben" wegen halluzinogener Wirkung – assoziiert mit Rausch und Grenzüberschreitung. <em style="color:var(--muted);">Die Sieben sucht den Rausch der Möglichkeiten, manchmal bis zur Übertreibung.</em>`,
+          `Im akuten Zustand extreme Überempfindlichkeit gegenüber Licht und Lärm – die Kehrseite der sonst lebenslustigen Signatur. <em style="color:var(--muted);">Wird die Reizflut zu groß, kippt auch die Sieben plötzlich in Überforderung.</em>`,
+          `Alle Pflanzenteile giftig, besonders die süßlich schmeckenden schwarzen Beeren – der Geschmack warnt nicht vor der Gefahr. <em style="color:var(--muted);">Die Sieben lässt sich von Verlockung leiten und übersieht leicht den Preis des Genusses.</em>`,
+          `Der Gattungsname „Atropa" stammt von Atropos, der griechischen Schicksalsgöttin, die den Lebensfaden durchtrennt. <em style="color:var(--muted);">Die Intensität, mit der die Sieben das Leben auskosten will, trägt diese Dramatik bereits im Namen ihres Heilmittels.</em>`,
+          `Die Beeren schmecken ungewöhnlich süß – anders als die meisten Giftpflanzen, die bitter warnen – ein Grund für die historisch hohe Zahl kindlicher Vergiftungen. <em style="color:var(--muted);">Das Verlockende warnt bei der Sieben selten rechtzeitig vor dem eigenen Preis.</em>`,
+          `Atropin, der Hauptwirkstoff, ist bis heute unverzichtbares Gegenmittel bei Vergiftungen mit Nervengiften und bestimmten Pestiziden – dieselbe Substanz wirkt je nach Dosis als Gift oder Rettung. <em style="color:var(--muted);">Genau diese Doppelrolle kennt die Maßlosigkeit der Sieben: Dieselbe Intensität bringt im richtigen Maß Lebensfreude, in der Überdosis Erschöpfung – die Grenze liegt nicht in der Sache, sondern im Maß.</em>`,
+          `Ein Keynote der akuten Vergiftung: lebhafte Halluzinationen kleiner Tiere oder erschreckender Gesichter, von alten Autoren als „liliputanische Halluzinationen" beschrieben. <em style="color:var(--muted);">Die innere Erlebniswelt der Sieben ist oft ungewöhnlich lebhaft und bildstark.</em>`,
+        ])}
+
+        ${typBox(8, "#a52a2a", "Veratrum album", "der Weiße Germer", [
+          `Eine der giftigsten Alpenpflanzen, bis heute mit dem harmlosen Gelben Enzian verwechselt – mit teils tödlichen Folgen. <em style="color:var(--muted);">Die Acht wird oft mit roher Kraft verwechselt, wo in Wahrheit enorme, teils gefährliche Intensität steckt.</em>`,
+          `In der Antike zur Behandlung von „Wahnsinn" eingesetzt – man glaubte, heftiges Erbrechen „reinige den Geist". <em style="color:var(--muted);">Die Acht sucht radikale, durchgreifende Lösungen, keine halben Sachen.</em>`,
+          `Mittelbild: dramatischer Kollaps nach Exzess – eiskalter Schweiß, Kreislaufzusammenbruch. <em style="color:var(--muted);">Hinter der Fassade der Acht verbirgt sich oft eine Erschöpfung, die erst nach dem Zusammenbruch sichtbar wird.</em>`,
+          `Materia medica beschreibt ausgeprägten Geltungsdrang bis zu religiösem/monarchischem Größenwahn in Akutzuständen. <em style="color:var(--muted);">Der ungebremste Machtanspruch der Acht im Schatten zeigt sich hier in überzogener Reinform.</em>`,
+          `Wächst auf feuchten Bergwiesen und kann über 150 Jahre alt werden – eines der langlebigsten Kräuter Europas. <em style="color:var(--muted);">Die Acht verfügt oft über bemerkenswerte Zählebigkeit, die über Jahrzehnte trägt.</em>`,
+          `Historisch auch als Pfeilgift und bei rituellen Mutproben genutzt – kleine Dosen sollen Tapferkeit steigern, bevor Überdosierung tödlich endet. <em style="color:var(--muted);">Der schmale Grat zwischen Mut und Selbstzerstörung liegt in dieser Doppelnatur.</em>`,
+          `Im 19. Jahrhundert als eines der „heroischen" Abführ- und Brechmittel der Schulmedizin eingesetzt – man nahm die brutale, erschöpfende Wirkung bewusst in Kauf, weil nur eine radikale Reaktion als wirksam galt. <em style="color:var(--muted);">Die Maßlosigkeit der Acht denkt ähnlich: Eine Lösung muss spürbar und kompromisslos sein – Vorsicht erscheint ihr wie Halbherzigkeit.</em>`,
+          `In Hirtenüberlieferungen der Alpenregionen galt die Pflanze als stark genug, um böse Geister zu vertreiben. <em style="color:var(--muted);">Die Acht versteht sich oft selbst als Schutzmacht gegen Bedrohung, mächtig genug, Gefahr in Schach zu halten.</em>`,
+          `Im Kollaps-Zustand des Mittelbildes verlangt der Patient trotz eisiger, blaugefärbter Haut nach kalten Getränken – ein paradoxes Symptom, das schon die Erstprüfer irritierte. <em style="color:var(--muted);">Die Acht kann selbst im Zustand der Erschöpfung noch Widersprüchliches fordern, statt sich einfach fallen zu lassen.</em>`,
+          `Kent beschrieb die Wesensbewegung des Veratrum-Zustands als ein Pendeln „von den Höhen des Himmels in die Hölle" innerhalb derselben Episode. <em style="color:var(--muted);">Die Acht kennt diese Extremamplitude zwischen grenzenloser Stärke und plötzlichem, tiefem Einbruch.</em>`,
+        ])}
+
+        ${typBox(9, "#5a7d5a", "Cannabis indica", "der Indische Hanf", [
+          `Stammt aus dem Hindukusch, kompakter im Wuchs und THC-reicher als Cannabis sativa. <em style="color:var(--muted);">Die Neun „verdichtet" ihre Energie eher nach innen, statt sie aktiv nach außen zu entfalten.</em>`,
+          `Im Ayurveda seit Jahrtausenden als „Vijaya" (die Siegreiche) bei Unruhe und Schlaflosigkeit eingesetzt. <em style="color:var(--muted);">Paradox: Eine „siegreiche" Pflanze bringt die Neun zur Ruhe – nicht durch Kampf, sondern durch Loslassen.</em>`,
+          `Keynote-Symptom: veränderte Zeitwahrnehmung, die Grenze zwischen Traum und Wachsein verschwimmt. <em style="color:var(--muted);">Die Neun kann ähnlich die Fähigkeit verlieren, klare Prioritäten zu erkennen – alles wirkt gleich (un)wichtig.</em>`,
+          `Wirkt nachweislich dämpfend auf die Amygdala, das „Angstzentrum" des Gehirns. <em style="color:var(--muted);">Die Neun meidet Konflikt oft schon von sich aus, lange vor einer echten Konfrontation.</em>`,
+          `In hohen Dosen paradoxer Umkehreffekt: statt Beruhigung plötzliche Angst und Panik. <em style="color:var(--muted);">Der gesunde Rückzug der Neun zur Regeneration kann in selbstverlorene Trägheit kippen, wenn er zu weit geht.</em>`,
+          `Die früheste bekannte Erwähnung der psychoaktiven Wirkung findet sich in chinesischen Schriften, die Kaiser Shen Nung um 2700 v. Chr. zugeschrieben werden – dort als Mittel gegen „Vergesslichkeit" beschrieben. <em style="color:var(--muted);">Die Neun kann ihre eigenen, wichtigen Anliegen leicht aus dem Blick verlieren, während sie äußerlich Ruhe bewahrt.</em>`,
+          `Im Atharvaveda zählt Hanf zu den fünf heiligen Pflanzen Indiens, dort ausdrücklich mit der Lösung von Angst in Verbindung gebracht. <em style="color:var(--muted);">Die tiefe Sehnsucht der Neun nach einem angstfreien Zustand findet hier einen jahrtausendealten Text-Anker.</em>`,
+          `Cannabis indica wächst, angepasst an das raue Klima des Hindukusch, bewusst kompakt und buschig, statt wie die verwandte Cannabis sativa hoch und schlank in die Höhe zu streben. <em style="color:var(--muted);">Die Trägheit der Neun zeigt sich genau in dieser Strategie: lieber unauffällig und niedrig bleiben, als sich exponiert nach oben zu strecken und Reibung zu riskieren.</em>`,
+          `Pharmakologische Studien der 1970er-Jahre zeigten verlässlich, dass Testpersonen unter Cannabis-Einfluss verstrichene Zeit systematisch überschätzen. <em style="color:var(--muted);">Wissenschaftlich belegt ist damit genau jene Verzerrung des Dringlichkeitsgefühls, mit der die Neun ständig ringt.</em>`,
+          `Hanffasern trugen über Jahrhunderte buchstäblich die Segel und Seile der Seefahrt – unsichtbar unter Deck oder im Takelwerk verarbeitet, nie selbst im Mittelpunkt, aber ohne sie fuhr kein Schiff. <em style="color:var(--muted);">Das trifft die Rolle der Neun in Familien und Gruppen genau: Sie hält im Hintergrund zusammen, was sonst auseinanderfiele, bekommt dafür aber selten die Anerkennung des sichtbaren Kapitäns am Steuer.</em>`,
+        ])}
+
+        ${bookTip("enneagramm-homoeopathie-band-1", "Das Grundlagenwerk der Enneagramm-Homöopathie – wie Persönlichkeitstyp und Heilmittelwahl auf der tiefsten Ebene zusammenhängen.", "Enneagramm-Homöopathie – Band 1")}
+        ${bookTip("enneagramm-homoeopathie-band-2", "Weitere Fallberichte, ausführliche Mittelporträts und Vertiefung der Enneagramm-Homöopathie in Band 2.", "Enneagramm-Homöopathie – Band 2")}
+        ${relatedLinks([
+          {route:"enneagramm-homoeopathie", label:"Enneagramm meets Homöopathie – 9 Patientenfälle"},
+          {route:"klassische-vs-enneagramm-homoeopathie", label:"Klassische Homöopathie und Enneagramm-Homöopathie im Vergleich"},
+          {route:"wunden", label:"Die 9 Wunden der Enneagrammtypen"},
+          {route:"tierlexikon", label:"Tierlexikon der 27 Subtypen"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function klassischeVsEnneagrammHomoeopathiePage() {
   return shell(`
     <div class="page-container">
@@ -79240,6 +79401,7 @@ const ROUTES = {
       "linien-dynamik-beziehungen": linienDynamikBeziehungenPage,
       "enneagramm-autopoese": enneagrammAutopoesePage,
       "enneagramm-homoeopathie": enneagrammHomoeopathiePage,
+      "signaturenlehre-enneagramm-heilmittel": signaturenlehreEnneagrammHeilmittelPage,
       "klassische-vs-enneagramm-homoeopathie": klassischeVsEnneagrammHomoeopathiePage,
       ...Object.fromEntries(HOMOEOPATHIE_FAELLE.map(f => [f.route, () => homoeopathieFallPage(f.route)])),
       "enneagramm-astrologie": enneagrammAstrologiePage,
