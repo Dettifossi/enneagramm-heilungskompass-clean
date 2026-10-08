@@ -1609,6 +1609,12 @@ export const registerEntriesEN = [
   { term: "Country Assignments", route: "laenderzuordnungen", description: "Knowledge: 202 countries of the world, thoroughly derived from core fear, motivation and essence" },
 
   // Famous Personalities – Portraits
+  { term: "Bruce Springsteen", route: "beruehmte-bruce-springsteen", description: "Portrait: SX9w1 · Sexual Type 9 · Musician, 'The Boss', E Street Band" },
+  { term: "Erich von Däniken", route: "beruehmte-erich-von-daeniken", description: "Portrait: SE8w9 · Self-Preservation Type 8 · Author, Chariots of the Gods, ancient-astronaut theory" },
+  { term: "Julie Benz", route: "beruehmte-julie-benz", description: "Portrait: SX6w7 · Sexual Type 6 · Actress, Darla (Buffy/Angel), Rita (Dexter)" },
+  { term: "Naomi Campbell", route: "beruehmte-naomi-campbell", description: "Portrait: SX3w2 · Sexual Type 3 · Model, entrepreneur, Fashion for Relief" },
+  { term: "Nicole Kidman", route: "beruehmte-nicole-kidman", description: "Portrait: SO1w2 · Social Type 1 · Actress, producer, Academy Award winner" },
+  { term: "William James Sidis", route: "beruehmte-william-james-sidis", description: "Portrait: SE5w6 · Self-Preservation Type 5 · Child prodigy, at Harvard at 11, later lived anonymously" },
   { term: "Vladimir Putin", route: "beruehmte-wladimir-putin", description: "Portrait: SX6w5 · Sexual Type 6 · Politician, President of the Russian Federation" },
   { term: "Bobby Fischer", route: "beruehmte-bobby-fischer", description: "Portrait: SX6w5 · Sexual Type 6 · Chess World Champion" },
   { term: "Otto von Bismarck", route: "beruehmte-otto-von-bismarck", description: "Portrait: SX6w5 · Sexual Type 6 · First Chancellor of the German Empire" },
