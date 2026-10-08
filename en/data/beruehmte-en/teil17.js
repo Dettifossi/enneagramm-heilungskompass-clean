@@ -2466,6 +2466,7 @@ export function henriPoincarePortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Five's healing path leads from avarice to generosity – from the question <em>Is my energy enough for real participation?</em> to the realization <em>I am allowed to engage, even when I'm not controlling or preparing everything.</em> For the SO5w6, this means no longer using one's institutional role only as a safe, distanced stage, but as an actual place of encounter.</p>
           <p class="vb-intro">That Poincaré had his most consequential insight of all in the unplanned, physical moment of stepping onto an omnibus – not at his desk, not in controlled preparation – reads like a signpost toward exactly this path: the greatest insight did not come from still more withdrawal and analysis, but in the moment he let himself fully into the situation, mid-conversation with his travel companions, instead of controlling it.</p>
+          <p class="vb-intro">Poincaré died on July 17, 1912, in Paris at age 58 – suddenly and unexpectedly, from an embolism a week after what had initially seemed a successful operation for worsening prostate problems he had first noticed at an international conference in Rome in 1908. Family and friends had already felt relieved after the operation before the sudden death caught them unprepared – an abrupt ending that stood in striking contrast to a life otherwise marked by patient, carefully controlled preparation stretched across years.</p>
         </blockquote>
 
       </div>
