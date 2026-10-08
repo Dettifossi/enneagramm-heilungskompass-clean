@@ -51028,13 +51028,16 @@ function enneagrammHomoeopathiePage() {
 }
 
 function signaturenlehreEnneagrammHeilmittelPage() {
-  function typBox(nr, farbe, mittel, beiname, facts) {
+  function typBox(nr, farbe, mittel, beiname, facts, imgSlug) {
+    const imgHtml = imgSlug ? `
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/signaturenlehre/${imgSlug}.jpg" onerror="this.onerror=null;this.src='/assets/signaturenlehre/${imgSlug}.jpg'" alt="Historisches Apotheken-/Sammlungsetikett: ${mittel}" style="display:block;max-width:100%;height:auto;border-radius:8px;margin-bottom:1rem;border:1px solid var(--line);" loading="lazy">` : '';
     return `
         <div class="vb-section" style="max-width:100%;border:1.5px solid ${farbe}22;border-left:4px solid ${farbe};border-radius:10px;padding:1.3rem 1.5rem;margin:0 0 1.6rem;">
           <div style="display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;margin-bottom:.9rem;">
             <span style="font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:${farbe};padding:.2rem .6rem;border-radius:20px;">Typ ${nr}</span>
             <h3 style="font-family:Georgia,'Times New Roman',serif;font-size:1.2rem;margin:0;color:var(--ink);">${mittel} <span style="font-size:.88rem;color:${farbe};font-weight:700;">– ${beiname}</span></h3>
           </div>
+          ${imgHtml}
           <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:.8rem;">
             ${facts.map(f => `<li style="font-size:.92rem;line-height:1.6;padding-left:1.1rem;position:relative;"><span style="position:absolute;left:0;color:${farbe};">–</span>${f}</li>`).join('')}
           </ul>
@@ -51067,7 +51070,7 @@ function signaturenlehreEnneagrammHeilmittelPage() {
           `Über 80 % der weltweiten Platinvorkommen liegen in einer einzigen geologischen Formation Südafrikas, dem Bushveld-Komplex – anderswo auf der Welt ist der Stoff praktisch nicht zu finden. <em style="color:var(--muted);">Die Leidenschaft der Eins, der Zorn, speist sich aus genau diesem Gefühl der Konzentration: nur an einem einzigen, selbst gewählten Ort – dem eigenen inneren Maßstab – liegt das „echte", unverfälschte Richtig.</em>`,
           `In der klassischen Materia medica (Kent) wird das Platinum-Bild explizit als „Hochmut" und „Verachtung für andere" beschrieben – gepaart mit tauber, reduzierter Körperempfindung, als stünde der Kopf über dem eigenen Fühlen. <em style="color:var(--muted);">Die Eins trennt oft Verstand und Gefühl, um die Kontrolle über sich selbst zu behalten.</em>`,
           `Der Begriff „Platin-Standard" wird sprachlich noch über dem bekannteren „Gold-Standard" angesiedelt – die höchste denkbare Messlatte. <em style="color:var(--muted);">Die Eins legt an sich selbst oft einen Maßstab an, der noch über dem allgemein üblichen „Goldstandard" liegt.</em>`,
-        ])}
+        ], "platinum-metallicum")}
 
         ${typBox(2, "#b3447c", "Hyoscyamus niger", "das Schwarze Bilsenkraut", [
           `Gehört wie Stechapfel (Typ 5) und Tollkirsche (Typ 7) zu den Nachtschattengewächsen – drei Enneagramm-Heilmittel aus derselben botanischen Familie. <em style="color:var(--muted);">Rückzug, Intensität und Verlangen nach Nähe teilen eine gemeinsame stoffliche Wurzel.</em>`,
@@ -51081,7 +51084,7 @@ function signaturenlehreEnneagrammHeilmittelPage() {
           `Der Name leitet sich vom griechischen „hyos kyamos" ab – „Bohne des Schweins", weil Schweine die Pflanze angeblich unbeschadet fressen können, während sie für Menschen giftig ist. <em style="color:var(--muted);">Etwas, das nach außen harmlos und nahrhaft wirkt, kann im Verborgenen eine ganz andere Wirkung haben – ein Bild für die Schattenseite der Zwei, die Zuneigung gibt, aber auch fordert.</em>`,
           `Die typische toxische Symptomatik wird im englischen Sprachraum mit der Eselsbrücke „red as a beet, dry as a bone, mad as a hatter" zusammengefasst – gerötete Haut, trockener Mund, enthemmtes Verhalten. <em style="color:var(--muted);">Die Fassade der Fürsorge kann bei der Zwei im Extremfall in auffälliges, grenzüberschreitendes Verhalten kippen.</em>`,
           `Bilsenkrautöl wurde volksmedizinisch Jahrhunderte lang äußerlich bei Zahnschmerzen angewendet, direkt ins schmerzende Zahnfleisch getropft – Linderung nur durch unmittelbaren Körperkontakt, nicht aus der Distanz. <em style="color:var(--muted);">Genau das ist die Grundstrategie der Zwei: Zuwendung muss körperlich, direkt und spürbar ankommen, damit sie als echte Liebe zählt – aus der Ferne gegeben, fühlt sie sich für die Zwei nicht ausreichend an.</em>`,
-        ])}
+        ], "hyoscyamus-niger")}
 
         ${typBox(3, "#2f8f5b", "Tarentula hispanica", "die Spanische Tarantel", [
           `Name geht auf die Stadt Tarent zurück, wo man glaubte, der Biss der Wolfsspinne löse „Tarantismus" aus, heilbar nur durch tagelanges Tanzen (Tarantella). <em style="color:var(--muted);">Die Drei „tanzt" gegen innere Unruhe an – durch Aktivität statt Stillstand.</em>`,
@@ -51094,7 +51097,7 @@ function signaturenlehreEnneagrammHeilmittelPage() {
           `Die Tarantella-Tanztradition hielt sich in Teilen Süditaliens bis ins 20. Jahrhundert, mit eigens engagierten Musikern, die vermeintlich „Gebissene" heilen sollten. <em style="color:var(--muted);">Die Bühne, auf der die Drei glänzt, kann auch ein gesellschaftlich akzeptiertes Ventil für inneren Druck sein.</em>`,
           `Wolfsspinnen besitzen ungewöhnlich gutes Sehvermögen für Spinnen; ihre Augen reflektieren nachts Licht so stark, dass Forscher sie mit bloßen Taschenlampen aufspüren – an jedem dunklen Ort erzeugt genau dieses Tier zwei leuchtende Punkte, die sofort Aufmerksamkeit ziehen. <em style="color:var(--muted);">Die Leidenschaft der Drei, die Täuschung, braucht genau dieses „Leuchten": Sichtbarkeit und Beachtung sind für sie kein Nebeneffekt, sondern die eigentliche Bestätigung, zu existieren und wertvoll zu sein.</em>`,
           `Der Biss der europäischen Tarantel ist für Menschen tatsächlich weitgehend harmlos; der Mythos ihrer Gefährlichkeit war von der echten Toxikologie weitgehend abgekoppelt. <em style="color:var(--muted);">Image und Substanz fallen bei diesem Tier auseinander – ein auffälliger Spiegel der Drei, bei der der äußere Schein manchmal mehr Raum einnimmt als der tatsächliche Inhalt.</em>`,
-        ])}
+        ], "tarentula-hispanica")}
 
         ${typBox(4, "#6a4fa0", "Ignatia amara", "die Ignatiusbohne", [
           `Stammt vom Brechnussbaum (Strychnos ignatii) von den Philippinen, benannt nach Ignatius von Loyola – Jesuiten brachten sie im 17. Jh. nach Europa. <em style="color:var(--muted);">Das Mittel trägt schon im Namen eine tiefe, fast religiöse Bedeutungsschwere – typisch für die Vier.</em>`,
@@ -51107,7 +51110,7 @@ function signaturenlehreEnneagrammHeilmittelPage() {
           `Die Samen sind extrem hart und bitter und müssen vor der Verarbeitung aufwendig gemahlen werden. <em style="color:var(--muted);">Hinter einer zunächst spröden, schwer zugänglichen Schale verbirgt sich bei der Vier oft etwas sehr Kostbares.</em>`,
           `In klassischen Repertorien gehört Ignatia zu den ersten Mitteln, die unter „Beschwerden durch Kummer, enttäuschte Liebe oder Schock" aufgeführt werden. <em style="color:var(--muted);">Der Verlust des Idealisierten ist für die Vier ein immer wiederkehrendes, fast archetypisches Thema.</em>`,
           `Ein eher unerwartetes Keynote-Symptom: Die Beschwerden bessern sich paradoxerweise durch Essen – ein Trostverhalten, das in der sonst so „leidvollen" Mittelbeschreibung heraussticht. <em style="color:var(--muted);">Auch die Vier sucht sich kleine Trostinseln inmitten großer Gefühle.</em>`,
-        ])}
+        ], "ignatia-amara")}
 
         ${typBox(5, "#3a7ca5", "Stramonium", "der Stechapfel", [
           `Eine der giftigsten in Europa heimischen Pflanzen – wenige Samen können für Kinder tödlich sein. <em style="color:var(--muted);">Die Fünf empfindet die Welt oft als potenziell überwältigend – daher der Rückzug.</em>`,
@@ -51120,7 +51123,7 @@ function signaturenlehreEnneagrammHeilmittelPage() {
           `Die Blüten des Stechapfels öffnen sich nur in der Dämmerung und schließen sich bei Sonnenaufgang wieder – bestäubt werden sie von Nachtfaltern. <em style="color:var(--muted);">Eine Pflanze, buchstäblich auf Dunkelheit ausgerichtet – ein Echo der Fünf, die Nacht und Rückzug oft der hellen Bühne vorzieht.</em>`,
           `Im Mittelbild findet sich ein ausgeprägter Fluchtimpuls – der Drang, aus Fenstern zu klettern oder davonzulaufen, getrieben von Furcht. <em style="color:var(--muted);">Die Fünf kann unter Überforderung einen ganz ähnlichen inneren Fluchtreflex entwickeln, sobald die eigenen Grenzen überschritten werden.</em>`,
           `Scopolamin-Pflaster werden heute gegen Reiseübelkeit verschrieben, in höheren historischen Dosen wurde der Stoff jedoch auch mit sogenannten „Wahrheitsseren" bei Verhören in Verbindung gebracht. <em style="color:var(--muted);">Eine unbehagliche Parallele zur Urangst der Fünf, gegen den eigenen Willen durchschaut oder bloßgestellt zu werden.</em>`,
-        ])}
+        ], "stramonium")}
 
         ${typBox(6, "#c4871a", "Opium", "der Schlafmohn", [
           `Gewonnen aus dem Milchsaft des Schlafmohns – von Sumerern vor über 5000 Jahren als „Pflanze der Freude" kultiviert. <em style="color:var(--muted);">Die Sehnsucht der Sechs nach Sicherheit hat hier eine jahrtausendealte „Abkürzung" gefunden.</em>`,
@@ -51133,7 +51136,7 @@ function signaturenlehreEnneagrammHeilmittelPage() {
           `In der Materia medica wird für den Opium-Zustand eine fast völlige Schmerzlosigkeit beschrieben – selbst schwere Verletzungen werden ohne erkennbare Reaktion hingenommen. <em style="color:var(--muted);">Die Sechs kann unter Dauerstress eine ähnliche Abkopplung entwickeln, bei der echte Gefahr nicht mehr als solche empfunden wird.</em>`,
           `Ein markantes Keynote-Symptom sind stecknadelkopfgroße Pupillen, selbst bei schwachem Licht – ein Zeichen, dass das Nervensystem nicht mehr angemessen auf die Umgebung reagiert. <em style="color:var(--muted);">Bei chronischer Angst kann auch die Sechs irgendwann auf echte Warnsignale nicht mehr reagieren.</em>`,
           `Opium gilt klassisch auch als das wichtigste Mittel für Menschen, die nach einem plötzlichen Schreck „nie wieder dieselben" waren. <em style="color:var(--muted);">Ein tief verwurzeltes Schock-Erlebnis kann die Grundangst der Sechs auf Dauer prägen.</em>`,
-        ])}
+        ], "opium")}
 
         ${typBox(7, "#d4a017", "Belladonna", "die Tollkirsche", [
           `Name („schöne Frau") von der Renaissance-Mode, sich mit dem Saft die Pupillen zu weiten – ein früher, hochgiftiger „Beauty-Hack". <em style="color:var(--muted);">Die Sieben sucht das Attraktive, Berauschende – manchmal ohne die Risiken ganz wahrzunehmen.</em>`,
@@ -51146,7 +51149,7 @@ function signaturenlehreEnneagrammHeilmittelPage() {
           `Die Beeren schmecken ungewöhnlich süß – anders als die meisten Giftpflanzen, die bitter warnen – ein Grund für die historisch hohe Zahl kindlicher Vergiftungen. <em style="color:var(--muted);">Das Verlockende warnt bei der Sieben selten rechtzeitig vor dem eigenen Preis.</em>`,
           `Atropin, der Hauptwirkstoff, ist bis heute unverzichtbares Gegenmittel bei Vergiftungen mit Nervengiften und bestimmten Pestiziden – dieselbe Substanz wirkt je nach Dosis als Gift oder Rettung. <em style="color:var(--muted);">Genau diese Doppelrolle kennt die Maßlosigkeit der Sieben: Dieselbe Intensität bringt im richtigen Maß Lebensfreude, in der Überdosis Erschöpfung – die Grenze liegt nicht in der Sache, sondern im Maß.</em>`,
           `Eine Keynote der akuten Vergiftung: lebhafte Halluzinationen kleiner Tiere oder erschreckender Gesichter, von alten Autoren als „liliputanische Halluzinationen" beschrieben. <em style="color:var(--muted);">Die innere Erlebniswelt der Sieben ist oft ungewöhnlich lebhaft und bildstark.</em>`,
-        ])}
+        ], "belladonna")}
 
         ${typBox(8, "#a52a2a", "Veratrum album", "der Weiße Germer", [
           `Eine der giftigsten Alpenpflanzen, bis heute mit dem harmlosen Gelben Enzian verwechselt – mit teils tödlichen Folgen. <em style="color:var(--muted);">Die Acht wird oft mit roher Kraft verwechselt, wo in Wahrheit enorme, teils gefährliche Intensität steckt.</em>`,
@@ -51159,7 +51162,7 @@ function signaturenlehreEnneagrammHeilmittelPage() {
           `In Hirtenüberlieferungen der Alpenregionen galt die Pflanze als stark genug, um böse Geister zu vertreiben. <em style="color:var(--muted);">Die Acht versteht sich oft selbst als Schutzmacht gegen Bedrohung, mächtig genug, Gefahr in Schach zu halten.</em>`,
           `Im Kollaps-Zustand des Mittelbildes verlangt der Patient trotz eisiger, blaugefärbter Haut nach kalten Getränken – ein paradoxes Symptom, das schon die Erstprüfer irritierte. <em style="color:var(--muted);">Die Acht kann selbst im Zustand der Erschöpfung noch Widersprüchliches fordern, statt sich einfach fallen zu lassen.</em>`,
           `Kent beschrieb die Wesensbewegung des Veratrum-Zustands als ein Pendeln „von den Höhen des Himmels in die Hölle" innerhalb derselben Episode. <em style="color:var(--muted);">Die Acht kennt diese Extremamplitude zwischen grenzenloser Stärke und plötzlichem, tiefem Einbruch.</em>`,
-        ])}
+        ], "veratrum-album")}
 
         ${typBox(9, "#5a7d5a", "Cannabis indica", "der Indische Hanf", [
           `Stammt aus dem Hindukusch, kompakter im Wuchs und THC-reicher als Cannabis sativa. <em style="color:var(--muted);">Die Neun „verdichtet" ihre Energie eher nach innen, statt sie aktiv nach außen zu entfalten.</em>`,
@@ -51172,7 +51175,7 @@ function signaturenlehreEnneagrammHeilmittelPage() {
           `Cannabis indica wächst, angepasst an das raue Klima des Hindukusch, bewusst kompakt und buschig, statt wie die verwandte Cannabis sativa hoch und schlank in die Höhe zu streben. <em style="color:var(--muted);">Die Trägheit der Neun zeigt sich genau in dieser Strategie: lieber unauffällig und niedrig bleiben, als sich exponiert nach oben zu strecken und Reibung zu riskieren.</em>`,
           `Pharmakologische Studien der 1970er-Jahre zeigten verlässlich, dass Testpersonen unter Cannabis-Einfluss verstrichene Zeit systematisch überschätzen. <em style="color:var(--muted);">Wissenschaftlich belegt ist damit genau jene Verzerrung des Dringlichkeitsgefühls, mit der die Neun ständig ringt.</em>`,
           `Hanffasern trugen über Jahrhunderte buchstäblich die Segel und Seile der Seefahrt – unsichtbar unter Deck oder im Takelwerk verarbeitet, nie selbst im Mittelpunkt, aber ohne sie fuhr kein Schiff. <em style="color:var(--muted);">Das trifft die Rolle der Neun in Familien und Gruppen genau: Sie hält im Hintergrund zusammen, was sonst auseinanderfiele, bekommt dafür aber selten die Anerkennung des sichtbaren Kapitäns am Steuer.</em>`,
-        ])}
+        ], "cannabis-indica")}
 
         ${bookTip("enneagramm-homoeopathie-band-1", "Das Grundlagenwerk der Enneagramm-Homöopathie – wie Persönlichkeitstyp und Heilmittelwahl auf der tiefsten Ebene zusammenhängen.", "Enneagramm-Homöopathie – Band 1")}
         ${bookTip("enneagramm-homoeopathie-band-2", "Weitere Fallberichte, ausführliche Mittelporträts und Vertiefung der Enneagramm-Homöopathie in Band 2.", "Enneagramm-Homöopathie – Band 2")}
