@@ -5,7 +5,8 @@
   "description": "Statischer MVP-Prototyp für den Enneagramm-Kompass.",
   "scripts": {
     "start": "python3 -m http.server 4174",
-    "start:4173": "python3 -m http.server 4173"
+    "start:4173": "python3 -m http.server 4173",
+    "smoke-test": "node ai-prototype/smoke-test.cjs"
   },
   "devDependencies": {
     "@cspell/dict-de-de": "^4.1.2",

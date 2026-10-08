@@ -35515,57 +35515,33 @@ function davidRathmerFuehrungPage() {
       <h2 style="font-family:'EB Garamond',serif;font-size:1.25rem;color:var(--ink);border-bottom:2px solid var(--gold);padding-bottom:0.4rem;margin:0 0 1.2rem;">Employee Leadership & Enneagram</h2>
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Enneagram Profiling for Leaders</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/Zj9RXScwEPY?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'Zj9RXScwEPY')"><img src="https://img.youtube.com/vi/Zj9RXScwEPY/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Profiler Explains: How to Read People Correctly &ndash; Who Is Sitting in Front of You</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/DQ3zIJWTUpw?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'DQ3zIJWTUpw')"><img src="https://img.youtube.com/vi/DQ3zIJWTUpw/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       <h2 style="font-family:'EB Garamond',serif;font-size:1.25rem;color:var(--ink);border-bottom:2px solid var(--gold);padding-bottom:0.4rem;margin:1.5rem 0 1.2rem;">Enneagram Profiling in Companies</h2>
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Why Digistore24 Relies on Profiling | A Look Behind the Scenes</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/r3y-b4F1Bf0?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'r3y-b4F1Bf0')"><img src="https://img.youtube.com/vi/r3y-b4F1Bf0/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Remote Leadership: How to Make Your Home Office Team Truly Productive</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/bbPofC84J2M?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'bbPofC84J2M')"><img src="https://img.youtube.com/vi/bbPofC84J2M/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">The Secret Lever in Customer Contact: How to See Right Through Your Customers</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/JHi_XKSS_Fo?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'JHi_XKSS_Fo')"><img src="https://img.youtube.com/vi/JHi_XKSS_Fo/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Why You Always Hire the Wrong People for Your Team &ndash; and How to Prevent It!</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/Cn9ODeRyZ2E?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'Cn9ODeRyZ2E')"><img src="https://img.youtube.com/vi/Cn9ODeRyZ2E/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       ${relatedLinks([
@@ -35693,93 +35669,53 @@ function davidRathmerImpulsePage() {
       </div>
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Stress, Pressure, Burnout – What is REALLY Behind It!</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/3XE6esDr770?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'3XE6esDr770')"><img src="https://img.youtube.com/vi/3XE6esDr770/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("wenn-die-stille-brennt", "When inner exhaustion meets the Enneagram – burnout, loss of boundaries, and the path back to oneself.", "Wenn die Stille brennt &ndash; Burnout")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">3 Tips Never to Be Deceived Again!</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/bJ6u7b7-YB0?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'bJ6u7b7-YB0')"><img src="https://img.youtube.com/vi/bJ6u7b7-YB0/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Reading People in Seconds: Profiler David Rathmer Explains His Method</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/kDyxrC3sqTk?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'kDyxrC3sqTk')"><img src="https://img.youtube.com/vi/kDyxrC3sqTk/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">The Truth About Yourself That You Cannot See</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/mluq5sOtiQg?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'mluq5sOtiQg')"><img src="https://img.youtube.com/vi/mluq5sOtiQg/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Never Be Disappointed Again? Actually Quite Simple...</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/jQvMG3ZGuKI?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'jQvMG3ZGuKI')"><img src="https://img.youtube.com/vi/jQvMG3ZGuKI/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Why You Constantly Feel Empty – Without Knowing Why</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/2oq3buWKEt4?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'2oq3buWKEt4')"><img src="https://img.youtube.com/vi/2oq3buWKEt4/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("wenn-die-stille-brennt", "When inner exhaustion meets the Enneagram – burnout, loss of boundaries, and the path back to oneself.", "Wenn die Stille brennt – Burnout")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">The Background of Your Personality</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/0-oXjkTEVb8?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'0-oXjkTEVb8')"><img src="https://img.youtube.com/vi/0-oXjkTEVb8/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Stop Ruining Your Partnership – Relationship Problems?</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/3uTWZA8qlL0?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'3uTWZA8qlL0')"><img src="https://img.youtube.com/vi/3uTWZA8qlL0/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("die-sprache-unserer-beziehungen", "365 Type and Subtype combinations at a glance — the complete relationship lexicon of the Enneagram.", "Die Sprache unserer Relationships")}
       ${bookTip("die-sprache-unserer-sexualitaet", "How closeness, passion, and intimacy are experienced across all 27 Subtypes — with exercises for couples.", "Die Sprache unserer Sexualität")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">3 Errors in Dealing with People – These 3 Cognitive Errors Manipulate How You See Others!</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/ySFsGWcob7s?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'ySFsGWcob7s')"><img src="https://img.youtube.com/vi/ySFsGWcob7s/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">The Topic of Narcissism: How to Recognize Narcissistic People</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/WYdu11U1QVg?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'WYdu11U1QVg')"><img src="https://img.youtube.com/vi/WYdu11U1QVg/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("hinter-der-leidenschaft", "The hidden body patterns of the 27 Subtypes – where passion inscribes itself into the body.", "Hinter der Leidenschaft")}
       ${bookTip("du-bist-nicht-dein-zweifel", "Recognizing and letting go of core beliefs – a guide to inner freedom for all 9 types.", "Du bist nicht dein Zweifel")}
@@ -35787,171 +35723,103 @@ function davidRathmerImpulsePage() {
       ${bookTip("leidenschaft-und-heilung", "27 Subtypes – Passions, Virtues, and Paths of Healing Straight from Therapeutic Practice.", "Leidenschaft und Heilung")}
       <div style="margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">The Truth About Pigeonholing in Profiling: A Deeper Look Behind the Facade</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/hv8wVIBNMmU?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'hv8wVIBNMmU')"><img src="https://img.youtube.com/vi/hv8wVIBNMmU/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("hinter-der-leidenschaft", "The hidden body patterns of the 27 Subtypes – where passion inscribes itself into the body.", "Hinter der Leidenschaft")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Personal Development in Life: How Does It Work Best?</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/l3gfsaYpYDY?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'l3gfsaYpYDY')"><img src="https://img.youtube.com/vi/l3gfsaYpYDY/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">The Biggest Mistake in Profiling!</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/DRh43m5yfM0?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'DRh43m5yfM0')"><img src="https://img.youtube.com/vi/DRh43m5yfM0/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Der Mechanismus des Egos entlarvt – das muss dir Bewusstsein!</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/R8IKz_52OpY?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'R8IKz_52OpY')"><img src="https://img.youtube.com/vi/R8IKz_52OpY/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">The Different Profiling Methods Explained</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/k_VjItcms4Y?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'k_VjItcms4Y')"><img src="https://img.youtube.com/vi/k_VjItcms4Y/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Profiling: Mythen und Fallen aufgedeckt!</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/3fwmARNgv-Y?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'3fwmARNgv-Y')"><img src="https://img.youtube.com/vi/3fwmARNgv-Y/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Warum wir in Stresssituationen unterschiedlich reagieren</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/XiCOAGs-Ge8?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'XiCOAGs-Ge8')"><img src="https://img.youtube.com/vi/XiCOAGs-Ge8/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Keeping Resolutions: Why It Often Fails and How to Stick With It!</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/4skErw8UeVk?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'4skErw8UeVk')"><img src="https://img.youtube.com/vi/4skErw8UeVk/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Can You Change? – Is a Change in Personality Even Possible?</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/Wq22njx7YFo?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'Wq22njx7YFo')"><img src="https://img.youtube.com/vi/Wq22njx7YFo/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">How You Can Fully Understand Every Person!</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/0z0P5NkxEIg?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'0z0P5NkxEIg')"><img src="https://img.youtube.com/vi/0z0P5NkxEIg/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">These are the mistakes most coaches make!</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/igNXaI3VZ88?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'igNXaI3VZ88')"><img src="https://img.youtube.com/vi/igNXaI3VZ88/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Does Personal Development Really Work?!</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/bJeQYPDRKG8?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'bJeQYPDRKG8')"><img src="https://img.youtube.com/vi/bJeQYPDRKG8/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">The Best Personality Model!</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/fXX-9r7GQYc?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'fXX-9r7GQYc')"><img src="https://img.youtube.com/vi/fXX-9r7GQYc/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">How to Lose Your Misanthropy Forever!</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/Tp0GebcicNw?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'Tp0GebcicNw')"><img src="https://img.youtube.com/vi/Tp0GebcicNw/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Warum Du es vermeiden solltest, das Enneagramm zu googeln!</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/r8ThMXGKjbI?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'r8ThMXGKjbI')"><img src="https://img.youtube.com/vi/r8ThMXGKjbI/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">What Does Behavior Reveal About a Person?</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/Dj6KF9p3fuQ?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'Dj6KF9p3fuQ')"><img src="https://img.youtube.com/vi/Dj6KF9p3fuQ/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Schluss mit Aufschieben – so wirst Du sofort produktiv!</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/g1G_jti70vI?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'g1G_jti70vI')"><img src="https://img.youtube.com/vi/g1G_jti70vI/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
@@ -35995,110 +35863,62 @@ function davidRathmerGrundlagenPage() {
       <p class="section-intro">David L. Rathmer explains the foundational building blocks of the Enneagram &mdash; from the nine types over the three centers to the triads. Ideal for anyone wanting to understand the system from the ground up.</p>
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 1 – The Perfectionist – Short Description</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/Oj5L0_6f7G4?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'Oj5L0_6f7G4')"><img src="https://img.youtube.com/vi/Oj5L0_6f7G4/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 2 – The Helper – Short Description</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/Wwq6Jz2RAKs?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'Wwq6Jz2RAKs')"><img src="https://img.youtube.com/vi/Wwq6Jz2RAKs/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 3 – The Pragmatist – Short Description</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/ao0lN1DXHC8?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'ao0lN1DXHC8')"><img src="https://img.youtube.com/vi/ao0lN1DXHC8/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 4 – The Dreamer – Short Description</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/nrDiO_tIcuw?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'nrDiO_tIcuw')"><img src="https://img.youtube.com/vi/nrDiO_tIcuw/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 5 – The Investigator – Short Description</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/nH6N85S0Fjk?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'nH6N85S0Fjk')"><img src="https://img.youtube.com/vi/nH6N85S0Fjk/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 6 – The Loyalist – Short Description</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/t_QC5INLOqQ?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'t_QC5INLOqQ')"><img src="https://img.youtube.com/vi/t_QC5INLOqQ/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 7 – The Planner – Short Description</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/OyC1l3p3J-I?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'OyC1l3p3J-I')"><img src="https://img.youtube.com/vi/OyC1l3p3J-I/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 8 – The Protector – Short Description</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/lYBu0fxRb-Y?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'lYBu0fxRb-Y')"><img src="https://img.youtube.com/vi/lYBu0fxRb-Y/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 9 – The Peacemaker – Short Description</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/g2L8qhAkfcI?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'g2L8qhAkfcI')"><img src="https://img.youtube.com/vi/g2L8qhAkfcI/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Die Bauchenergie im Enneagramm (Typ 8, 9 und 1)</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/DvyvmYieI3c?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'DvyvmYieI3c')"><img src="https://img.youtube.com/vi/DvyvmYieI3c/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Die Herzenergie im Enneagramm (Typ 2, 3 und 4)</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/03J6ov1pjpQ?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'03J6ov1pjpQ')"><img src="https://img.youtube.com/vi/03J6ov1pjpQ/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Die Kopfenergie im Enneagramm (Typ 5, 6 und 7)</div>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/gtT7ulH5JNk?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'gtT7ulH5JNk')"><img src="https://img.youtube.com/vi/gtT7ulH5JNk/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       ${relatedLinks([
@@ -36908,19 +36728,11 @@ function enneagrammProfilingPage() {
 
       <div style="max-width:100%;margin-top:2rem;margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">David L. Rathmer: Enneagram Profiling for Executives</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/Zj9RXScwEPY?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'Zj9RXScwEPY')"><img src="https://img.youtube.com/vi/Zj9RXScwEPY/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       <div style="max-width:100%;margin-top:1.5rem;margin-bottom:2rem;">
         <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">David L. Rathmer: Enneagram Profiling in the Company</p>
-        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
-          <iframe width="100%" height="100%" style="border:none;display:block;"
-            src="https://www.youtube.com/embed/DQ3zIJWTUpw?rel=0&playsinline=1"
-            allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'DQ3zIJWTUpw')"><img src="https://img.youtube.com/vi/DQ3zIJWTUpw/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
         ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes in detail &ndash; the theoretical foundation for solid profiling practice.", "Die verborgene Dynamik der 27 Subtypes")}
         ${bookTip("die-praxis-der-typbestimmung-taschenbuch", "Type determination step by step &ndash; the ideal starting point before profiling training.", "Die Praxis der Typbestimmung")}
