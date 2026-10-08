@@ -35424,6 +35424,7 @@ function startPage() {
         <h2 class="start-path__title">Ich kenne meinen Subtyp</h2>
         <p class="start-path__body">W\u00e4hlen Sie Ihren Subtyp und erkunden Sie Heilmittel, TCM-Zuordnung, Kindheitspr\u00e4gung, Musik und pers\u00f6nliche Entwicklungswege.</p>
         <button class="start-path__btn" data-route="profile">Subtyp w\u00e4hlen \u2192</button>
+        <p style="font-size:0.78rem;color:var(--muted);margin:0.8rem 0 0;">Lieber im pers\u00f6nlichen Gespr\u00e4ch? <a href="javascript:void(0)" data-route="gesichts-scan" style="color:var(--copper,#a5603d);">Typberatung bei Detlef oder David Rathmer vereinbaren \u2192</a></p>
       </div>
       <div class="start-path start-path--unknown">
         <div class="start-path__icon">\u25c7</div>

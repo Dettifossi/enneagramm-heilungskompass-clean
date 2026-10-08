@@ -5964,6 +5964,7 @@ function startPage() {
         <h2 class="start-path__title">I know my Subtype</h2>
         <p class="start-path__body">Select your Subtype and explore Remedies, TCM assignments, childhood imprints, music, and personal development paths.</p>
         <button class="start-path__btn" data-route="profile">Choose Subtype →</button>
+        <p style="font-size:0.78rem;color:var(--muted);margin:0.8rem 0 0;">Prefer a personal conversation? <a href="javascript:void(0)" data-route="gesichts-scan" style="color:var(--copper,#a5603d);">Book a type consultation with Detlef or David Rathmer →</a></p>
       </div>
       <div class="start-path start-path--unknown">
         <div class="start-path__icon">◇</div>
