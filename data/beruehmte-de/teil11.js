@@ -2420,3 +2420,69 @@ export function dmitriSchostakowitschPortraitPage() {
     </div>
   `);
 }
+
+export function yannickVanDeVeldePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-yannick-van-de-velde-portrait.jpg" alt="Yannick van de Velde – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Yannick van de Velde</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Selbsterhaltungs-Vier mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Niederländischer Schauspieler, Komiker und Autor, geb. 1989 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube im Schatten des eigenen Namens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier &ndash; ein Vogel, der nicht durch lautes Auftreten auffällt, sondern dadurch, dass er immer wieder seinen eigenen, stillen Weg zurückfindet. Yannick van de Velde, geboren am 15. August 1989 in Utrecht, stand bereits mit acht Jahren vor der Kamera, unter anderem in der Kinderserie ›Schoon Goed‹ und 1999 in ›Kruimeltje‹ &ndash; als Sohn des bekannten Regisseurs Jean van de Velde wuchs er von Anfang an im Schatten eines bereits etablierten Namens auf, ohne selbst schon zu wissen, welche eigene Spur er darin hinterlassen würde.</p>
+          <p class="vb-intro">2004 gelang ihm mit der Hauptrolle des Remco van Leeuwen in ›In Oranje‹ der eigentliche Durchbruch: 2005 wurde er dafür als erster niederländischer Schauspieler überhaupt mit einem Young Artist Award in Hollywood ausgezeichnet &ndash; eine frühe, öffentliche Bestätigung, die ihn zugleich endgültig aus dem bloßen Reflex des väterlichen Namens heraustreten ließ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Intensität, die geschützt statt ausgestellt wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> trägt die für die Vier typische Sehnsucht nach dem Besonderen, Nicht-Gewöhnlichen nicht öffentlich zur Schau, sondern verarbeitet sie in einer geschützten, selbst kontrollierten Form &ndash; Naranjo beschrieb diesen Subtyp als den ›tapferen‹ oder ›stoischen‹ Typus der Vier, der Intensität lieber in Arbeit kanalisiert als sie nach außen zu zeigen. Genau das beschreibt van de Velde selbst, wenn er erklärt, lieber eine Figur zu erfinden, die ›der Teufel‹ ist, oder eine ›sehr traurige‹ Figur, statt eines ›normalen Typen‹ &ndash; die Vier sucht das Ungewöhnliche, das aus dem Rahmen Fallende, nicht das Alltägliche.</p>
+          <p class="vb-intro">Bezeichnend ist zugleich, wie wenig er von sich selbst preisgibt: Er gibt nur selten Interviews und teilt in sozialen Medien kaum Privates &ndash; ein klassisches SE4-Muster. Die innere Intensität wird nicht zur öffentlichen Bühne, sondern bleibt geschützter, selbst verwalteter Rohstoff für die eigentliche Arbeit vor und hinter der Kamera.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Kinderstar zur eigenen, tragfähigen Marke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Vier die Fähigkeit, aus einer sehr persönlichen künstlerischen Handschrift ein dauerhaft erfolgreiches, öffentlich sichtbares Werk zu formen, statt im frühen Kindheitserfolg zu verharren. Van de Velde gelang genau dieser Übergang: Nach ›In Oranje‹ und der Titelrolle des Tiuri in ›De Brief voor de Koning‹ (2008) baute er eine durchgehende Erwachsenenkarriere auf &ndash; Rollen in ›Overspel‹, als Lars van Marken in der Netflix-Serie ›Undercover‹ und deren Spin-off ›Ferry‹, sowie in ›Amsterdam Empire‹.</p>
+          <p class="vb-intro">Noch deutlicher zeigt sich die Dreier-Note in seiner eigenen Gründung: Gemeinsam mit Tom van Kalmthout bildet er das Comedy-Duo Rundfunk, das nicht nur Sketch-Serien wie ›Rundfunk: Duco & Roy‹, sondern auch mehrere Theaterprogramme und 2019 den Kinofilm ›Rundfunk: Jachterwachter‹ hervorbrachte &ndash; aus einer sehr eigenen, kompromisslos absurden Humorhandschrift wurde so eine funktionierende, mehrjährige eigene Marke statt nur einer einzelnen Pointe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die fachliche Substanz: Vom Kinderdarsteller zum vielseitigen Handwerker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was van de Velde über die bloße Kindheitsprominenz hinaus auszeichnet, ist die seltene Bandbreite, mit der er sein Handwerk seither ausgebaut hat. Als Kinderdarsteller musste er in ›In Oranje‹ einen jungen Fußballfan glaubhaft verkörpern, dessen Begeisterung internationale Jury-Mitglieder überzeugte, ohne dass ihm professionelle Erfahrung zur Seite stand &ndash; eine seltene, intuitive darstellerische Reife im Kindesalter, die der Young Artist Award ausdrücklich würdigte. Als niederländische Synchronstimme von Edmund Pevensie in den Narnia-Filmen wiederum musste er eine völlig andere, rein stimmliche Disziplin beherrschen: Timing, Emotion und Charakter allein über die Stimme zu tragen, ohne Körper und Mimik als Hilfsmittel.</p>
+          <p class="vb-intro">Mit Rundfunk kam eine dritte, noch anspruchsvollere Fähigkeit hinzu: nicht nur zu spielen, sondern eigenes Material zu schreiben, zu inszenieren und als Marke zu führen &ndash; vom Sketch über das Bühnenprogramm bis zum abendfüllenden Spielfilm. Diese Fähigkeit, als Autor und Regisseur eigene komödiantische Welten zu erschaffen statt nur fremde Drehbücher zu interpretieren, unterscheidet ihn von vielen Kinderstars, die nach dem ersten Erfolg nie über das reine Schauspielern hinauswuchsen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4w3 zeigt sich darin, wie van de Velde aus der potenziell erdrückenden Ausgangslage &ndash; Sohn eines bekannten Regisseurs, Kinderstar mit internationaler Auszeichnung &ndash; nicht eine bloße Fortsetzung des Gegebenen, sondern eine eigenständige, vielseitige Karriere formte: vom ernsten Drama über die Synchronrolle bis zum selbst geschaffenen, kompromisslos eigenen Comedy-Format.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; bei der SE4w3 oft weniger als Missgunst gegenüber anderen, sondern als ständiges inneres Ringen um die eigene, unverwechselbare Position, während die naheliegendste äußere Identität (der Name des Vaters, die Rolle des ehemaligen Kinderstars) immer mitschwingt. Seine ausgeprägte Zurückhaltung gegenüber Interviews und öffentlicher Selbstdarstellung lässt sich auch als Schutzreaktion lesen: lieber über die eigene Arbeit sprechen lassen als über die eigene Person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die stille Taube mit der eigenen Stimme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Yannick van de Veldes Weg vom achtjährigen Kinderdarsteller unter dem Namen seines Vaters zum vielseitigen Schauspieler, Synchronsprecher und Mitbegründer eines eigenen, erfolgreichen Comedy-Formats zeigt die selbsterhaltende Vier mit Dreierflügel in ihrer konstruktivsten Form: die innere Intensität wird nicht verschwiegen, aber auch nicht ausgestellt, sondern diszipliniert in immer neue, selbst gewählte Formen gegossen.</p>
+          <p class="vb-intro">Die Taube kehrt nicht zu einem einzigen, vorgegebenen Nest zurück, sondern baut sich, Flug für Flug, ihr eigenes &ndash; still, aber beharrlich, bis daraus ein Werk wird, das aus eigener Kraft trägt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-brian-fennell", label:"Porträt: Brian Fennell (SYML) (SE4w3) – ebenfalls stille, disziplinierte Verarbeitung von Intensität"},
+        {route:"beruehmte-michael-david-rosenberg", label:"Porträt: Michael David Rosenberg (Passenger) (SE4w3)"},
+        {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
+      ])}
+    </div>
+  `);
+}

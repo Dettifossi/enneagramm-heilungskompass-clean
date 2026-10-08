@@ -29,8 +29,8 @@ const ROUTES = [
   { hash: "#gesichts-scan", label: "Gesichts-Scan" },
   { hash: "#detlef-rathmer-jazz", label: "Jazz & Musik (Klick-zum-Laden-Videos)" },
   { hash: "#david-rathmer-impulse", label: "David Rathmer – Impulse" },
-  { hash: "#beruehmte-bruce-springsteen", label: "Neues Porträt: Bruce Springsteen" },
-  { hash: "en/#beruehmte-bruce-springsteen", label: "Neues EN-Porträt: Bruce Springsteen" },
+  { hash: "#beruehmte-yannick-van-de-velde", label: "Neues Porträt: Yannick van de Velde" },
+  { hash: "en/#beruehmte-yannick-van-de-velde", label: "Neues EN-Porträt: Yannick van de Velde" },
 ];
 
 function startServer() {
