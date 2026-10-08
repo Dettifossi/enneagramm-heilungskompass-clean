@@ -110,6 +110,33 @@ print(f'Fehlend im Register: {len(miss)}')
 "
 ```
 
+## DE/EN-Übersetzungsparität — Pflichtschritt bei jedem neuen Porträt
+
+**Jedes neue Porträt (Berühmte Persönlichkeiten, Krankheitsporträts, Kriminalpsychologie) MUSS zeitnah auch ins Englische übersetzt und in `en/bundle.js` verdrahtet werden** — nicht „irgendwann nachziehen", sondern im selben oder im unmittelbar folgenden Arbeitsschritt. Bei Krankheitsporträts und Kriminalpsychologie wurde das bislang zuverlässig eingehalten; bei „Berühmte Persönlichkeiten" ist genau das über Monate nicht passiert und erst am 2026-10-08 auf Hinweis des Nutzers nachträglich aufgefallen (6 fehlende EN-Porträts) — ein Rückstand, der unbemerkt wuchs, weil es dafür anders als beim Register keinen festen Kontrollbefehl gab.
+
+**Konkret bei jedem neuen `beruehmte-*`/`krankheitsportraets-*`/`kriminalpsychologie-*`-Porträt vor dem Commit:**
+1. Englische Übersetzung schreiben (gleiche Struktur: `shell()`, `pageHeader("Famous Personalities")`, `bookTip`-Titel/Teaser wie unten, `relatedLinks` mit EN-Labels).
+2. In die passende `en/data/*-en/teilN.js`-Datei einfügen (gleiches Prinzip wie bei DE: kürzeste Datei bevorzugen), Import + Routen-Map-Eintrag in `en/bundle.js` ergänzen.
+3. Bei Berühmte Persönlichkeiten zusätzlich den `BERUEHMT_PORTRAITS`-Array-Eintrag in `en/bundle.js` ergänzen (eigenes Array, nicht geteilt mit `bundle.js`).
+4. `registerEntriesEN` in `data/register.js` ergänzen (eigener Abschnitt, siehe oben).
+
+Feststehende EN-Formulierungen für `bookTip`, damit sie konsistent bleiben:
+```js
+${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+```
+
+**Kontrollbefehl** (vor dem Commit ausführen, um DE-Porträts ohne EN-Pendant zu finden):
+```bash
+for prefix in "beruehmte-" "krankheitsportraets-" "kriminalpsychologie-"; do
+  comm -23 <(grep -oE "\"$prefix[a-z0-9-]+\":" bundle.js | sort -u) \
+           <(grep -oE "\"$prefix[a-z0-9-]+\":" en/bundle.js | sort -u) \
+    | sed "s/^/Fehlt in EN ($prefix): /"
+done
+```
+Jeder ausgegebene Treffer ist ein Rückstand und muss vor Abschluss der Arbeit an diesem Porträt behoben werden — nicht erst, wenn der Nutzer danach fragt.
+
 ## NEU-Kennzeichnung (30 Tage) — automatisch über den Changelog
 
 Menüpunkte (Wissen, Praxis, Schaubilder …) erhalten seit 04.10.2026 automatisch das Badge **NEU** (und der Reiter einen kleinen Punkt), solange ein Changelog-Eintrag mit `route: "<route-des-Menüpunkts>"` jünger als 30 Tage ist **und sein Text mit »Neu…« beginnt** (z. B. »Neuer Wissensartikel: …«, »Neues Schaubild: …«, »Neu: …«). Bei jeder neuen Seite/Rubrik deshalb den Changelog-Eintrag so formulieren und die `route` setzen — mehr ist nicht nötig. Für Porträts gilt weiterhin das Feld `added:` im Array-Eintrag. `SCHAUBILDER_NEU` bleibt nur als manuelle Übersteuerung.
