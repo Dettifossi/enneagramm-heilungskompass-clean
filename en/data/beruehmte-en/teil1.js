@@ -2393,3 +2393,370 @@ export function wolfgangWodargPortraitPage() {
     </div>
   `);
 }
+
+export function bruceSpringsteenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-bruce-springsteen-portrait.jpg" alt="Bruce Springsteen – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bruce Springsteen</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with a One-Wing</p>
+        <p class="krim-portrait-subtitle">American musician, b. 1949 &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth on Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> is the animal of the sexual Nine &ndash; not an animal of urgency, but one of complete, uncompromising devotion to whatever is happening right now. Bruce Springsteen, born September 23, 1949 in Freehold, New Jersey, the son of a bus driver with untreated mental health problems, found in music an early place where he could lose himself completely &ndash; an escape that over six decades became his life's work.</p>
+          <p class="vb-intro">With the E Street Band, founded in 1972, he developed a concert style still regarded as one of the most intense in rock history: shows that regularly run three to four hours, in which Springsteen appears to dissolve entirely into the music and the audience on stage rather than merely performing it. Albums such as ›Born to Run‹ (1975) and ›Born in the USA‹ (1984) made him one of the central voices of the American working class.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Nine: Merging Instead of Spreading</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Nine (SX9)</strong> lives the passion of sloth as complete merging with a single, all-encompassing counterpart &ndash; the self steps back in order to dissolve fully into it. For Springsteen, this counterpart is the stage and the audience itself: his concerts are famous for the fact that he often changes the setlist spontaneously mid-show, responds to shouted requests, and adapts completely to that particular night instead of running through a fixed program.</p>
+          <p class="vb-intro">For decades he stayed loyal to the same band, the same core musical theme &ndash; the life of the American working class &ndash; and the same audience, rather than scattering himself across shifting projects the way many peers do. That is the SX9 at its most sustainable: not many loose attachments, but a single, lifelong merging.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Discipline Behind the Apparent Effortlessness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An SX9 with a weaker One-wing would likely just drift. In Springsteen instead there is an almost ascetic work discipline: band members have repeatedly described marathon rehearsals in which individual songs were worked through for hours until perfect, and a physical fitness routine that still lets him deliver three-hour concerts into his eighth decade.</p>
+          <p class="vb-intro">His social engagement follows the same One-note: consistent benefit concerts for war veterans, the 2004 ›Vote for Change‹ tour, and a clearly principle-driven political stance he maintained for decades rather than adjusting to the mood of the moment. The One-wing brings order and fidelity to principle into the otherwise boundless devotion of the Nine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Passion: Sloth as a Decades-Hidden Depth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The passion of the Nine is <strong>sloth</strong> &ndash; not physical laziness, but a forgetting of one's own inner distress in favor of outward busyness. Only in his 2016 autobiography ›Born to Run‹ and the stage show ›Springsteen on Broadway‹ did Springsteen speak openly for the first time about lifelong episodes of depression and the shadows of a childhood with a mentally ill father &ndash; decades after the public already knew him as the robust, powerful ›Boss‹.</p>
+          <p class="vb-intro">This late but radically honest disclosure shows the typical SX9 dynamic: one's own inner reality is set aside for as long as possible, until it can no longer be overlooked &ndash; and then spoken with the same completeness with which it was previously kept silent.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Nine with a One-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX9w1 shows in how Springsteen, out of a difficult childhood marked by mental illness and poverty, built a decades-long, disciplined artistic community that gave millions of people a voice for their own lives.</p>
+          <p class="vb-intro">The shadow lies in the flip side of that same capacity for merging: concealing his own depression for decades, until it could barely be carried any longer, shows how easily the SX9 can lose itself in its outward role while its own inner reality goes unnoticed &ndash; even by itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Sloths With the Same Face</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A particularly revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-peter-maffay">Peter Maffay</a> (SX9w1): both musicians, born the same year, 1949, share not only a striking physical resemblance &ndash; strong, angular features, the same reserved stage presence despite decades of fame &ndash; but above all the same underlying life pattern: complete, disciplined merging with a single life's work that reaches far beyond the music career itself. Maffay found that work in Tabaluga and his foundation for traumatized children, Springsteen in the E Street Band and his decades-long commitment to the American working class.</p>
+          <p class="vb-intro">Both remained conspicuously private despite worldwide fame, both kept their stage partners for decades rather than replacing them, and in both the real inner depth broke through only late, and all the more directly, through a carefully maintained public facade. The sloth does not merge lightly &ndash; but when it bonds, it does so completely and for life. More in the <a href="javascript:void(0)" data-route="beruehmte-peter-maffay">portrait of Peter Maffay</a>.</p>
+          <p class="vb-intro">A merging of a quite different kind is shown by <a href="javascript:void(0)" data-route="beruehmte-stefan-homburg">Prof. Dr. Stefan Homburg</a> (SX9w1): instead of a band or an artistic body of work, he has for decades merged with a single economic-policy conviction from which he never let himself be moved. The same pattern of total devotion to one thing, only pointed at a completely different field of life. More in the <a href="javascript:void(0)" data-route="beruehmte-stefan-homburg">portrait of Stefan Homburg</a>.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype profile"},
+        {route:"beruehmte-peter-maffay", label:"Portrait: Peter Maffay (SX9w1) – the same life pattern and a strikingly similar face"},
+        {route:"beruehmte-stefan-homburg", label:"Portrait: Stefan Homburg (SX9w1) – the same merging, directed at a professional conviction"},
+        {route:"beruehmte-dustin-hoffman", label:"Portrait: Dustin Hoffman (SX9w1) – merging with each role"},
+        {route:"beruehmte-jane-goodall", label:"Portrait: Dr. Jane Goodall (SX9w1)"},
+        {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
+      ])}
+    </div>
+  `);
+}
+
+export function julieBenzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-julie-benz-portrait.jpg" alt="Julie Benz – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Julie Benz</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with a Seven-Wing</p>
+        <p class="krim-portrait-subtitle">American actress, b. 1972 &ndash; Animal correspondence: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Six &ndash; not an animal that ducks, but one that looks danger straight in the eye once it seems unavoidable. Julie Benz, born May 1, 1972 in Pittsburgh, the daughter of a surgeon and a former figure skater, lived this principle already as a teenager: she was herself a competitive figure skater until, at fourteen, a severe stress fracture in her leg ended her athletic career. Instead of withdrawing, she turned immediately to acting &ndash; an early, telling sign of the sexual Six pattern: not avoiding danger and risk, but turning them into a new form of courage.</p>
+          <p class="vb-intro">After studying at New York University, she narrowly missed the lead role of Buffy Summers in ›Buffy the Vampire Slayer‹ in 1996 &ndash; the role went to Sarah Michelle Gellar &ndash; but got the smaller role of the vampire Darla, which she played repeatedly over the years in the series and its spin-off ›Angel‹. Her real breakthrough came only ten years later as Rita Bennett in ›Dexter‹ (2006&ndash;2010), for which she won a Satellite Award and a Saturn Award.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: Turning Fear Into Strength</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Six (SX6)</strong> is Naranjo's ›counterphobic‹ expression of the Six type: instead of avoiding her own fear, she actively seeks confrontation with it, often through a facade of strength and attractiveness that compensates for exactly what is most shaken inside. Benz described this inner core bluntly herself: ›In the early years of my career I was insecure and had little self-confidence,‹ she said looking back, and she had constantly tried ›to be what I thought others expected me to be‹ &ndash; the classic Six insecurity: one's own judgment distrusts itself and seeks validation from outside.</p>
+          <p class="vb-intro">The turning point came only with the role of Rita in ›Dexter‹: there she realized, as she put it herself, that ›just being myself was enough &ndash; and powerful‹. That is exactly the maturation of the SX6: from the constant search for outside validation toward a self-earned, embodied security. Her stated preference for roles tells the same story: she loves ›characters who are complex and deeply flawed but still show courage and hope when confronted with their own humanity &ndash; characters pushed to their breaking point who have to grow beyond themselves just to survive each day‹. That is no accident &ndash; it is exactly the theme the SX6 carries within and keeps working through in her work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Versatility Instead of Being Pinned Down</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing</strong> gives the sexual Six an added agility and curiosity &ndash; fear is not just confronted but turned into as broad a range of experience as possible, rather than being confined to one narrow field. That exactly describes Benz's career: comedy, science fiction, horror, and family drama alternated without her ever letting herself be reduced to a single genre &ndash; one of the most versatile actresses of American television of her generation, as industry observers described her.</p>
+          <p class="vb-intro">This versatility was at the same time her biggest hurdle: her own physical attractiveness, observers noted, occasionally became an obstacle to being taken seriously as an actress with substance &ndash; a conflict the SX6w7 knows well: the outward-facing magnetism that is supposed to protect against inner insecurity can at the same time obscure how much depth and seriousness actually lie behind it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Sexual Six</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w7 shows in how years of hidden insecurity eventually became a self-earned, publicly visible strength &ndash; not through the disappearance of fear, but through the repeated, conscious act of walking through it, from the injured teenage figure skater to the award-winning actress.</p>
+          <p class="vb-intro">The fateful pattern of the Six is <strong>fear</strong> itself, the deep doubt in one's own judgment and in the world as a reliable place. In the SX6 this can turn into an exaggeration of strength and courage that wants to prove more than it believes inside &ndash; Benz's own description of how much she once oriented herself to others' expectations shows exactly this point, where the compensating facade and the real insecurity had not yet come together.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Acting Substance: More Than an Attractive Face</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes Julie Benz as an actress to this day is not just her appearance but a specific skill: playing complex, morally conflicted women in a way where their vulnerability never feels merely decorative. As Rita Bennett in ›Dexter‹ she had to make credible a woman who had survived domestic violence herself and gradually built a new, own strength without losing her fragility &ndash; an acting balancing act that earned her both a Satellite Award (2006) and a Saturn Award (2009). As Darla in ›Buffy‹ and ›Angel‹, in turn, she had to carry for years a character caught between raw vampire violence and increasing human conflict, without becoming a mere genre cliché.</p>
+          <p class="vb-intro">The wolf defends its pack to the last and chooses exactly whom it trusts. Julie Benz's path from injured figure skater through years of self-doubt to self-earned inner security shows the sexual Six at its most mature: courage that is not the absence of fear, but the repeated decision to act anyway.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype profile"},
+        {route:"beruehmte-jennifer-aniston", label:"Portrait: Jennifer Aniston (SX6w7)"},
+        {route:"beruehmte-scarlett-johansson", label:"Portrait: Scarlett Johansson (SX6w7)"},
+        {route:"beruehmte-eva-mendes", label:"Portrait: Eva Mendes (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+export function erichVonDaenikenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-erich-von-daeniken-portrait.jpg" alt="Erich von Däniken – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Erich von Däniken</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with a Nine-Wing</p>
+        <p class="krim-portrait-subtitle">Swiss author, 1935&ndash;2026 &ndash; Animal correspondence: Orangutan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Orangutan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>orangutan</strong> is the most solitary of the great apes &ndash; withdrawn, autonomous, subordinate to no one. Erich von Däniken, born April 14, 1935 in Zofingen, Switzerland, into a strictly Catholic household, attended the Jesuit boarding school Collège St-Michel in Fribourg, where his interest in religion, archaeology, and cosmological riddles first took shape. Instead of an academic path, he trained as a cook and waiter and worked his way up to hotel director &ndash; a practical, hands-on route that gave him solid self-reliance long before he became a writer.</p>
+          <p class="vb-intro">In 1968 his first book appeared, ›Chariots of the Gods?‹ (German: ›Erinnerungen an die Zukunft‹), arguing that extraterrestrial visitors had decisively shaped human cultures in antiquity. The book sold more than 65 million copies worldwide in around thirty languages and turned ›ancient astronaut theory‹ into a global pop-culture phenomenon that still lives on today in television formats like ›Ancient Aliens‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Eight: Autonomy at Any Price</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Eight (SE8)</strong> defends above all one thing: its own independence from outside control. Naranjo described this subtype through the motif of ›satisfaction‹ &ndash; an unconditional sticking to one's own plan, if necessary against rules and authority. In Däniken this showed itself in a thoroughly ambivalent way: to finance his early travels and research, he falsified the accounts as a hotel director and took out unauthorized loans &ndash; in 1970 he was sentenced to three and a half years in prison for fraud, embezzlement, and forgery.</p>
+          <p class="vb-intro">What matters is what happened next: instead of letting prison stop him, he wrote his second book, ›Return to the Stars‹, in jail, which also became a bestseller &ndash; one of the rare cases of an author cementing his worldwide success from behind bars. That is the self-preservation Eight in pure form: outside circumstances, even a prison cell, change nothing about one's own plan. Control over one's own work is not negotiable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: The Great, All-Connecting Narrative</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> gives the Eight an added breadth: instead of fighting over small details, it designs a sweeping, all-encompassing picture in which countless individual threads weave into one large, reassuringly closed narrative. That was exactly Däniken's real literary tool: he connected Egyptian pyramids, the Nazca lines of South America, biblical stories, and countless other cultures and eras into a single, internally coherent explanation of the world &ndash; an epic synthesis that offered a large, accessible order in place of fragmented specialist knowledge.</p>
+          <p class="vb-intro">This Nine-wing breadth made his theory mass-appealing, even though it met considerable resistance from the field: archaeologists and historians repeatedly and in detail rejected his central claims as untenable. Däniken himself did not react by withdrawing but by continuing undeterred &ndash; he kept publishing further books and giving public lectures into old age, without ever substantially revising his core narrative.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Eight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE8w9 is the ability to build, out of practically nothing &ndash; a career as a waiter and hotel manager with no academic background &ndash; a global body of work that lasted decades and never made itself dependent on authorities or setbacks. Until his death on January 10, 2026, at age 90, Däniken remained an independent, self-marketed voice that no publisher and no academic institution ever fully controlled.</p>
+          <p class="vb-intro">The fateful pattern of the Eight is <strong>lust</strong> in the sense of an inflated claim to power &ndash; the conviction that one's own agenda justifies breaking rules if necessary. In Däniken this first showed itself very concretely in the embezzlement that made his career possible in the first place, and later more subtly in the unshakeable manner in which he set aside well-founded scientific counterarguments for decades instead of seriously examining them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Rhetorical Substance: A Master of the Grand Narrative, Not a Scientist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What actually distinguished Erich von Däniken was not scientific validity &ndash; his central claims have been considered refuted by archaeologists and historians for decades. His real gift lay elsewhere: in the ability to condense complex archaeological riddles, myths, and monuments scattered across continents and millennia into a single, compellingly told story that was immediately accessible even to lay readers. This narrative condensation &ndash; not the correctness of the content &ndash; explains why ›Chariots of the Gods?‹ became one of the best-selling nonfiction books in history and founded an entire genre, ancient-astronaut popular literature.</p>
+          <p class="vb-intro">The orangutan lives withdrawn in the treetops and meets the world on its own terms. Erich von Däniken's path from convicted hotel director to the world's most-read champion of ancient-astronaut theory shows the self-preservation Eight with a Nine-wing at its most determined: unconditional control over one's own work, combined with a gift for narrative that created an entire, self-contained counter-world to established science &ndash; a counter-world that still fascinates millions today, regardless of its scholarly refutation.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se8", label:"SE8 – The Orangutan: Subtype profile"},
+        {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SE8w9)"},
+      ])}
+    </div>
+  `);
+}
+
+export function williamJamesSidisPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-william-james-sidis-portrait.jpg" alt="William James Sidis – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">William James Sidis</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Self-Preservation Type 5 with a Six-Wing</p>
+        <p class="krim-portrait-subtitle">American child prodigy &amp; mathematician, 1898&ndash;1944 &ndash; Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Owl</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>owl</strong> is the animal of the self-preservation Five &ndash; watchful, nocturnal, territorial, and happiest where no one is watching. Hardly any biography shows this pattern as starkly as that of William James Sidis: a child who at eleven lectured the Harvard faculty on four-dimensional bodies, and an adult who spent half his life trying to remain undiscovered as an ordinary clerk under a false name.</p>
+          <p class="vb-intro">Sidis was born April 1, 1898 in Boston, the son of the psychologist Boris Sidis, who worked on his own theory that exceptional early education could unlock genius-level abilities in any child &ndash; with his son as the proof of concept. William was reading newspaper text by age two, typed in French and English at four, wrote his own anatomical treatise at five, and at eight devised a complete artificial language with its own grammar in his ›Book of Vendergood‹, combining Latin, Greek, German, and Romance roots. At eleven he was admitted to Harvard University &ndash; the youngest freshman in the university's history.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Five: Withdrawal as a Survival Strategy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unlike the social or sexual Five, the <strong>self-preservation Five (SE5)</strong> does not build a stage for its knowledge, but a ›fortress‹: as small a retreat as possible, fully under its own control, in which one's own needs are reduced to a minimum so that no one can gain access to them anymore. For Sidis this withdrawal was not a gradual character trait but a response to a very specific injury: as a child, his father repeatedly presented him to the press and the academic world as a sensation, without ever asking whether he wanted that. Already on his Harvard graduation day, at sixteen, Sidis told reporters: ›I want to live the perfect life. The only way to live the perfect life is to live it in seclusion. I have always hated crowds.‹</p>
+          <p class="vb-intro">After a brief, hostility-marred stint as the youngest faculty member at the Rice Institute in Texas and an abandoned law degree, Sidis withdrew for good: he denied his mathematical knowledge to employers, repeatedly changed his name and city, and worked most of his adult life as an ordinary bookkeeper or calculator &ndash; jobs far beneath his abilities, but with the decisive advantage of keeping him invisible. That is exactly the SE5 logic in pure form: radically shrink one's own needs rather than expose oneself again to a world that once put you on display.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Distrust of Institutions and the Fight for His Own Silence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> adds to the Five's need for security a watchful, often suspicious component toward authority and institutions &ndash; the world is experienced not just as exhausting but as potentially dangerous. In 1919 Sidis was arrested at a socialist May Day rally in Boston that turned violent, and was sentenced under the Sedition Act to eighteen months in prison; his parents spared him by having him committed instead to his father's own private psychiatric sanatorium. At first glance this episode seems atypical for a Five, but it fits the Six-wing precisely: a brief, idealistic rebellion against a state power experienced as threatening, coming directly after the forced publicity of his childhood &ndash; and then an all the more decisive retreat from that very power afterward.</p>
+          <p class="vb-intro">This distrust found its clearest expression in 1944, shortly before his death, in his lawsuit against ›The New Yorker‹ magazine, which had publicly exposed him in a profile titled ›Where Are They Now?‹. Sidis lost the case, but ›Sidis v. F-R Publishing Corp.‹ became one of the most influential precedents in American privacy law &ndash; the SE5w6 will defend its invisibility in court if necessary, even once it senses that the fight against an overwhelming public can hardly be won.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Self-Preservation Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE5w6 shows in how Sidis did not turn his need for a protected retreat into emptiness but into his own, self-contained field of knowledge: in 1926, under the pseudonym ›Frank Folupa‹, he published a three-hundred-page specialist book on collecting streetcar transfer tickets, ›Notes on the Collection of Transfers‹ &ndash; a subject that had nothing to prove to anyone and precisely for that reason could become a safe fortress. He had amassed over sixteen hundred different transfer slips, documented with the same meticulousness with which he once penetrated mathematical systems.</p>
+          <p class="vb-intro">The fateful pattern of the Five is <strong>avarice</strong> &ndash; not in the sense of money, but as a radical withholding of one's own inner resources, out of fear of being completely drained by others' demands. In Sidis this avarice eventually tipped into self-denial: he died on July 17, 1944, only 46 years old, impoverished and of a cerebral hemorrhage, found by his landlady &ndash; a man counted among what were probably the highest intelligence scores ever measured or estimated for his time, and yet, in the end, without a single secure, lasting social bond or material safety net.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Professional Substance: More Than an IQ Number</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sidis is often credited with an estimated IQ between 250 and 300 &ndash; figures that are methodologically barely defensible, since no standard, regular test was ever administered to him, and which obscure his actual achievement more than they explain it. What matters more is what concretely stood behind it: at eleven he gave a two-hour lecture to the Harvard Mathematical Club on four-dimensional bodies that few in attendance could fully follow &ndash; MIT professor Daniel Comstock was among the few who kept up to the end, and afterward told stunned reporters this boy would become one of the great mathematicians of his generation. In 1925 Sidis published, under his own name, ›The Animate and the Inanimate‹, a cosmological work on thermodynamics in which &ndash; decades before the term was coined &ndash; he postulated regions of space where the second law of thermodynamics reverses: an early anticipation, later acknowledged by physicists such as Buckminster Fuller, of what is now known as a black hole.</p>
+          <p class="vb-intro">The owl sees in the dark what others cannot &ndash; but shows itself hardly at all. William James Sidis demonstrably possessed an extraordinary, independent scientific gift that went far beyond mere quick comprehension; that the world learned almost nothing more of it was not for lack of talent, but because a publicity forced on him so early and so thoroughly organized his entire later life as flight from it. A life pattern that shows: giftedness alone does not protect against psychological distress &ndash; sometimes it is precisely giftedness, combined with an environment that puts it on display instead of protecting it, that produces the deepest form of withdrawal.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se5", label:"SE5 – The Owl: Subtype profile"},
+        {route:"beruehmte-carl-friedrich-gauss", label:"Portrait: Carl Friedrich Gauss (SE5)"},
+        {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SE5)"},
+        {route:"lebensmusterkompass", label:"Life Pattern Compass: biographical patterns of all subtypes"},
+      ])}
+    </div>
+  `);
+}
+
+export function nicoleKidmanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-nicole-kidman-portrait.jpg" alt="Nicole Kidman – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nicole Kidman</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">American-Australian actress and producer, b. 1967 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One &ndash; unassuming in appearance, but relentless about the cause it serves. Nicole Kidman, born June 20, 1967 in Honolulu to Australian parents, grew up in Sydney and as a child suffered from severe shyness and a stutter that she overcame by attending drama school &ndash; an early lesson that discipline and repeated practice can turn fear into the capacity to act.</p>
+          <p class="vb-intro">Her international breakthrough came with the Australian thriller ›Dead Calm‹ (1989). What followed was a career spanning more than three decades across nearly every genre and scale of production &ndash; from Hollywood blockbusters to European arthouse cinema to prestige television drama &ndash; for which she became the first Australian to win the Academy Award for Best Actress, in 2003.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Putting One's Own Voice at the Service of a Cause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social One (SO1)</strong> directs its perfectionism not primarily inward but outward &ndash; at society, at wrongs, at what must be corrected so the world becomes more just. Naranjo described this subtype as ›inadaptability‹: a fundamental unwillingness to accept conditions that ought not to exist.</p>
+          <p class="vb-intro">In Kidman this has shown since 1994 in her unbroken work as a UNICEF Goodwill Ambassador, with travel to crisis and poverty regions, and in her public advocacy against domestic violence &ndash; a subject she has repeatedly spoken about with reference to her own experience as well. The SO1 rarely fights for herself alone; she fights for a principle larger than her own person, and puts her public platform to work for it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: A Stance That Cares</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> gives the social One a personal, warm attentiveness often missing where the Two-wing is weaker. Kidman's own production company, Blossom Films, was founded specifically to tell the stories of women who had too little room in the traditional studio system &ndash; a mix of fidelity to principle (the SO1 side: there is a structural imbalance here) and personal care for the characters and the actresses who portray them (the Two side).</p>
+          <p class="vb-intro">This is especially clear in ›Big Little Lies‹ (2017), which she produced herself and in which she played a woman experiencing domestic violence: a project that is at once a clear social statement (SO1) and a deeply personal, empathetic approach to a vulnerable character (w2). The SO1w2 combines moral clarity with the ability to see concrete individual people, not just abstract principles.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Social One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO1 shows in a career that repeatedly and deliberately went wherever real artistic or social substance could be found, rather than taking the most comfortable or lucrative path &ndash; her collaborations with directors such as Stanley Kubrick, Lars von Trier, Jane Campion, and Baz Luhrmann read like a conscious search for quality and conviction rather than mere success.</p>
+          <p class="vb-intro">The fateful pattern of the One is <strong>anger</strong> &ndash; for the SO1 directed at injustice that persists at large as long as no one names it. The downside is an exhaustion that sets in when every visible injustice is felt as one's own responsibility. Kidman herself has spoken publicly about the toll that comes with speaking openly about domestic violence &ndash; a price the SO1 is willing to pay, because silence feels to her like an even greater failure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Acting Substance: The Art of Complete Transformation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What distinguishes Nicole Kidman as an actress is a rarely consistent willingness to undergo physical and vocal transformation. For her role as Virginia Woolf in ›The Hours‹ (2002), she wore a prosthetic nose that noticeably changed her face &ndash; a deliberate renunciation of her own, publicly known appearance for the sake of the character's credibility, for which she won the Academy Award. As an Australian by birth, she also commands a remarkable range of American and British accents with a precision dialect coaches have repeatedly praised.</p>
+          <p class="vb-intro">This capacity for transformation is no superficial trick, but an expression of the same inner discipline that also drives her social engagement: a strict, self-imposed care for the task in front of her. The goose watches over its formation and does not relent until the order is right. Nicole Kidman's path from a stuttering child to her country's most-awarded actress shows the social One with a Two-wing at its most mature: fidelity to principle that does not exhaust itself in cold rigor, but stays alive through real care for the people and stories it carries.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype profile"},
+        {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2) – the same combination of fidelity to principle and personal care"},
+        {route:"beruehmte-steve-jobs", label:"Portrait: Steve Jobs (SO1w2)"},
+        {route:"beruehmte-david-bowie", label:"Portrait: David Bowie (SO1w2)"},
+      ])}
+    </div>
+  `);
+}
+
+export function naomiCampbellPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-naomi-campbell-portrait.jpg" alt="Naomi Campbell – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Naomi Campbell</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">British model and entrepreneur, b. 1970 &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Peacock</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>peacock</strong> is the animal of the sexual Three &ndash; impact not as a means to an end, but as immediate, physical presence itself. Naomi Campbell, born May 22, 1970 in London, attended the Italia Conti Academy of Theatre Arts from the age of three and received there a thorough training in ballet and jazz dance &ndash; a physical schooling that would later become the foundation of her unmistakable runway walk.</p>
+          <p class="vb-intro">At 15 she was discovered on the street; by 18 she was already one of the most sought-after up-and-coming models in the world. In 1988 she became the first Black woman on the cover of French Vogue &ndash; a break with taboo in an industry that until then had systematically given Black models less visibility. Together with Linda Evangelista, Cindy Crawford, and Christy Turlington, she defined the era of the first ›supermodels‹ in the 1990s, whose names alone carried entire campaigns.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Three: Magnetism as a Way of Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Three (SX3)</strong> does not turn personal magnetism into a means to success but into the life theme itself &ndash; not public prestige, as with the social Three, but immediate, physical impact in direct contact. Naranjo called this subtype <em>Masculinity/Femininity</em>: the embodiment of attractiveness in its purest form.</p>
+          <p class="vb-intro">Campbell's decades-long career is exactly that in pure form: she did not simply walk clothing down a runway, she embodied it. Designers such as Gianni Versace, Yves Saint Laurent, and Alexander McQueen built shows around her presence, because her mere appearance turned a collection into an event. The SX3 easily mistakes this impact for her own worth &ndash; and precisely there lies both her strength and her vulnerability.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Help That Builds a Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> adds to the sexual Three a dimension that goes beyond pure magnetism: the need to make her own platform useful to others. In 2005 Campbell founded the charity Fashion for Relief, which has since raised disaster-relief donations through spectacular charity fashion shows &ndash; with some of the same top designers and models she herself had known for decades &ndash; including after Hurricane Katrina, the earthquake in Haiti, and during the Covid-19 pandemic.</p>
+          <p class="vb-intro">Her commitment to young models from underrepresented communities shows the same movement: not hoarding her own hard-won visibility, but passing it on. The SX3w2 combines pure presence with a genuine desire to bring others into the spotlight as well.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow of the Sexual Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX3w2 shows in how pure physical presence became, over decades, an institution of the fashion industry &ndash; Campbell, now over 55, still ranks among the most-booked runway models in the world, in an industry that traditionally favors young faces.</p>
+          <p class="vb-intro">The fateful pattern of the Three is <strong>deceit</strong> &ndash; confusing one's own identity with one's own impact, combined with the fear of being worthless without that impact. In Campbell the shadow side has shown itself publicly more than once: several convictions for assault against assistants and household staff in the 2000s, including a thrown mobile phone, document moments in which pent-up pressure discharged explosively. She later spoke openly about therapy that helped her counter these impulses &ndash; a rare public admission that belongs to the maturation of the SX3: controlling one's outward impact means first understanding one's own inner intensity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Professional Substance: A Runway Style as Its Own Art Form</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What actually distinguishes Naomi Campbell as a model is far more than mere attractiveness: her runway walk &ndash; often described by industry insiders as the most technically precise and at the same time most expressive of her generation &ndash; combines the exact body control of her early dance training with a theatrical presence that makes every step feel like its own small performance. When she fell during a 1993 Vivienne Westwood show wearing extremely high platform heels, she turned the moment, through her immediate, laughing recovery, into one of the most-cited moments in fashion history &ndash; mastery of her own impact even in uncontrolled failure.</p>
+          <p class="vb-intro">The peacock does not display its tail out of calculation, but because it is its nature. Naomi Campbell's path from a street casting in London to the longest-serving icon of international fashion shows the sexual Three with a Two-wing at its most enduring: a magnetism that did not wear thin over decades because, at some point, it began to serve others rather than only herself.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype profile"},
+        {route:"beruehmte-wolfgang-joop", label:"Portrait: Wolfgang Joop (SX3w2)"},
+        {route:"beruehmte-brad-pitt", label:"Portrait: Brad Pitt (SX3w2)"},
+        {route:"beruehmte-helene-fischer", label:"Portrait: Helene Fischer (SX3w2)"},
+      ])}
+    </div>
+  `);
+}
