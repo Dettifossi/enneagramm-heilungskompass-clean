@@ -108,10 +108,20 @@
         // Defer a forced reload while an embedded YouTube video is visible, so the
         // user isn't unexpectedly kicked out of what they're watching. The reload
         // happens on the next route change instead, where a re-render happens anyway.
+        // Also covers plain <audio>/<video> elements currently playing (e.g. the
+        // homeopathy/bible songs embedded as plain audio files) — a cross-origin
+        // YouTube iframe's play state can't be read, so its mere presence is used
+        // as an approximation, but audio/video elements can be checked directly.
         let swReloadPending = false;
+        function mediaAktiv() {
+          if (document.querySelector('iframe[src*="youtube.com/embed"]')) return true;
+          return Array.prototype.some.call(
+            document.querySelectorAll('audio, video'),
+            el => !el.paused && !el.ended
+          );
+        }
         function reloadOrDefer() {
-          const videoAktiv = document.querySelector('iframe[src*="youtube.com/embed"]');
-          if (videoAktiv) { swReloadPending = true; return; }
+          if (mediaAktiv()) { swReloadPending = true; return; }
           window.location.reload();
         }
         navigator.serviceWorker.addEventListener('message', e => {
@@ -125,8 +135,16 @@
         });
         navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' })
           .then(reg => reg.update());
+        // Same bfcache reactivation iOS Safari uses when returning from background can
+        // also fire from a plain screen rotation while media is playing — without the
+        // mediaAktiv() check this would reload mid-playback instead of deferring like
+        // the SW-update path does.
         window.addEventListener('pageshow', e => {
-          if (e.persisted) { window.location.reload(); return; }
+          if (e.persisted) {
+            if (mediaAktiv()) { swReloadPending = true; return; }
+            window.location.reload();
+            return;
+          }
           navigator.serviceWorker.getRegistration().then(reg => reg && reg.update());
         });
       }

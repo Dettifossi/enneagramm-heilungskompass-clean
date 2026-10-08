@@ -145,9 +145,20 @@
         // Routenwechsel (hashchange) nachgeholt – an einem Punkt, an dem ohnehin neu
         // gerendert wird und nichts unterbrochen werden kann.
         let swReloadPending = false;
+        // Erkennt nicht nur eingebettete YouTube-Videos (iframe, Play-Status von außen
+        // nicht auslesbar, daher reine Anwesenheitsprüfung als Näherung), sondern auch
+        // gerade abspielende <audio>/<video>-Elemente (z. B. die Homöopathie-/Bibel-Songs,
+        // die als reine Audiodateien eingebunden sind) – ein Reload mitten in der Wiedergabe
+        // würde in beiden Fällen den Nutzer unvermittelt aus der aktuellen Ansicht werfen.
+        function mediaAktiv() {
+          if (document.querySelector('iframe[src*="youtube.com/embed"]')) return true;
+          return Array.prototype.some.call(
+            document.querySelectorAll('audio, video'),
+            el => !el.paused && !el.ended
+          );
+        }
         function reloadOrDefer() {
-          const videoAktiv = document.querySelector('iframe[src*="youtube.com/embed"]');
-          if (videoAktiv) { swReloadPending = true; return; }
+          if (mediaAktiv()) { swReloadPending = true; return; }
           window.location.reload();
         }
         navigator.serviceWorker.addEventListener('message', e => {
@@ -167,8 +178,16 @@
         // aus dem bfcache reaktiviert (kein echter Reload) – dadurch prüft der obige Code nie
         // erneut auf Updates. pageshow mit persisted=true erkennt genau diesen Fall und erzwingt
         // dann einen echten Reload, damit neue Inhalte zuverlässig ankommen.
+        // Dieselbe bfcache-Reaktivierung wird auf manchen Mobilgeräten (iOS Safari) jedoch
+        // auch durch eine reine Bildschirmdrehung ausgelöst, während z. B. ein Song abspielt –
+        // ohne die mediaAktiv()-Prüfung würde das mitten in der Wiedergabe neu laden, statt
+        // (wie beim SW-Update) den Reload bis zum nächsten Routenwechsel zurückzustellen.
         window.addEventListener('pageshow', e => {
-          if (e.persisted) { window.location.reload(); return; }
+          if (e.persisted) {
+            if (mediaAktiv()) { swReloadPending = true; return; }
+            window.location.reload();
+            return;
+          }
           navigator.serviceWorker.getRegistration().then(reg => reg && reg.update());
         });
       }
