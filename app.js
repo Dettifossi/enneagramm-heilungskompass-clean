@@ -43232,7 +43232,12 @@ const JAZZ_TRACKS = {
 // bringen, selbst auf aktuellen Geräten. window.ytFacadePlay() ersetzt stattdessen ein
 // Vorschaubild erst beim tatsächlichen Antippen durch den echten Iframe.
 window.ytFacadePlay = function (el, id) {
-  el.outerHTML = `<iframe width="100%" height="100%" style="border:none;display:block;position:absolute;inset:0;"
+  // innerHTML statt outerHTML: el selbst trägt position:relative + aspect-ratio:16/9
+  // und definiert damit die Größe des Rahmens. outerHTML hätte diesen Rahmen mitsamt
+  // seines Elternbezugs entfernt – der neu eingesetzte Iframe (position:absolute)
+  // verlor dadurch jeden positionierten Elternrahmen und kollabierte unsichtbar auf
+  // Größe 0 (gemeldet als "Video verschwindet beim Antippen").
+  el.innerHTML = `<iframe width="100%" height="100%" style="position:absolute;inset:0;border:none;display:block;"
     src="https://www.youtube.com/embed/${id}?rel=0&playsinline=1&autoplay=1"
     allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
 };
