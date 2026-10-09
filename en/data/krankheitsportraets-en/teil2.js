@@ -4587,3 +4587,186 @@ export function guntherVonHagensKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function metteMaritKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-mette-marit-portrait.jpg" alt="Mette-Marit" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mette-Marit</p>
+        <p class="krim-portrait-typ">SE4w3 · Self-Preservation Type 4 with Three-wing · b. 1973</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Dove</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Mette-Marit</strong> already has a
+        <a href="javascript:void(0)" data-route="beruehmte-mette-marit">portrait under Famous Personalities</a>
+        in this Compass – that page covers her life path and type structure in general.
+        This portrait is devoted to a chapter only touched on there: a rare form of pulmonary
+        fibrosis, diagnosed in 2018, which required a lung transplant in 2026.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Mette-Marit</strong> is classified as the <strong>Self-Preservation Four with
+        Three-wing</strong>. Unlike other Four subtypes, SE4 does not carry suffering outward
+        but endures it with discipline, while presenting fulfilled duty and functioning capacity
+        to the outside world. The Three-wing gives her the ability to conceal even a progressive
+        physical illness behind visible, functioning public work for as long as possible –
+        exactly this tension between hidden suffering and outwardly maintained functioning
+        defines Mette-Marit's illness story.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First signs</h3>
+        <p class="vb-intro"><strong>a) Years before diagnosis:</strong>
+        When the diagnosis was announced in 2018, Mette-Marit herself stated that she had
+        experienced health challenges on a regular basis for a number of years – a phrasing that
+        points to a long, initially unclassified prior history rather than a sudden onset.</p>
+        <p class="vb-intro"><strong>b) An unusual diagnosis:</strong>
+        In October 2018 the Royal Court announced that an unusual variant of pulmonary fibrosis
+        had been detected, according to her treating physician, Professor Kristian Bjøro at the
+        National Hospital, at an early stage – which made the prognosis appear more favorable at
+        that point.</p>
+        <p class="vb-intro"><strong>c) Explicitly not lifestyle-related:</strong>
+        The Royal Court stressed early on that there was broad medical consensus that the
+        condition was not related to environmental or lifestyle factors – unlike more common
+        forms of pulmonary fibrosis. Whether it was linked to a broader autoimmune process
+        remained unclear at the time of diagnosis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General characteristics</h3>
+        <p class="vb-intro"><strong>a) An incurable, progressive disease:</strong>
+        Pulmonary fibrosis is considered incurable and generally progressive – affected lung
+        tissue scars permanently, and breathing capacity continually declines.</p>
+        <p class="vb-intro"><strong>b) Treatment with international involvement:</strong>
+        Treatment took place at Oslo University Hospital in cooperation with medical
+        professionals from abroad – an indication of how rare the exact variant was.</p>
+        <p class="vb-intro"><strong>c) Rehabilitation instead of withdrawal:</strong>
+        In 2019 Mette-Marit said she tired faster than before and took a month away from her
+        duties for pulmonary rehabilitation – not a complete pause from her role, but a limited,
+        targeted interruption.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential features</h3>
+        <p class="vb-intro"><strong>a) An oxygen tank in daily life, duties carried on:</strong>
+        According to reports, Mette-Marit at times used an oxygen tank in her daily life, yet
+        continued her representative and social duties for as long as possible – the weight of
+        the illness was not dramatized publicly.</p>
+        <p class="vb-intro"><strong>b) March 2025: an official deterioration:</strong>
+        The Royal Court reported that the disease had progressed and that Mette-Marit had daily
+        symptoms and ailments affecting her ability to carry out her duties – a rare, direct
+        public naming of the progression.</p>
+        <p class="vb-intro"><strong>c) Growing breathlessness:</strong>
+        Crown Prince Haakon publicly described in December 2025 that his wife was increasingly
+        struggling to breathe – a rare, very concrete account from close up rather than a
+        distanced official statement.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall effect</h3>
+        <p class="vb-intro"><strong>a) Waiting list and transplant in 2026:</strong>
+        On June 5, 2026, Oslo University Hospital announced that Mette-Marit had been placed on
+        the waiting list for a lung transplant after a significant deterioration in her
+        condition – without the procedure, her life expectancy had been limited to roughly a
+        year.</p>
+        <p class="vb-intro"><strong>b) A successful operation:</strong>
+        On June 17, 2026, the Royal Court announced that the lung transplant at Rikshospitalet
+        had been successful – no exact date of the procedure was given. Her treating physicians
+        described the course so far as successful and announced a hospital stay of several
+        weeks for monitoring and medication adjustment.</p>
+        <p class="vb-intro"><strong>c) A path that remains open:</strong>
+        As of the transplant announcement in June 2026, no further public updates on her health
+        were available at the time this portrait was written.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic effect</h3>
+        <p class="vb-intro"><strong>a) The same tenacity as in her life's work:</strong>
+        The SE4-typical tenacity with which Mette-Marit carried a stigmatized past for decades
+        also showed in how she handled the physical illness: keep functioning, keep working,
+        avoid being a burden to others for as long as possible.</p>
+        <p class="vb-intro"><strong>b) The Three-wing as a stage that finally became the subject itself:</strong>
+        For years, the Three-wing translated her own experience into visible projects for
+        others – the Literature Train, the UNAIDS ambassadorship, foundation work. With the
+        deterioration from 2025 onward, her own illness became, for the first time, the
+        officially communicated subject itself, no longer just a hidden backdrop to visible
+        work.</p>
+        <p class="vb-intro"><strong>c) Public duty despite an invisible burden:</strong>
+        That she carried on her duties for as long as possible while lung capacity continually
+        declined reads as a direct continuation of the same pattern that shaped her early years
+        as Crown Princess: outward functioning as proof that her own past history did not
+        disqualify her.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The illness as a connecting thread</h3>
+        <p class="vb-intro"><strong>a) An illness with no explanatory prior history:</strong>
+        Unlike many other illness portraits in this Compass, there is no solid indication of
+        lifestyle or environmental factors as a trigger here – the sources, on the contrary,
+        explicitly stress that such a link is unlikely.</p>
+        <p class="vb-intro"><strong>b) A disease that progressed over years, long communicated with restraint:</strong>
+        From the first nonspecific complaints through the 2018 diagnosis to the official 2025
+        deterioration announcement runs a long line in which the illness was initially kept
+        deliberately low-profile and only publicly named in its full severity late on.</p>
+        <p class="vb-intro"><strong>c) Functioning up to the limit:</strong>
+        Continuing public duties despite an oxygen tank and growing breathlessness shows a
+        pattern that recurs repeatedly in the self-preservation Four with Three-wing: maintaining
+        one's own functioning for as long as possible, before the illness itself becomes
+        impossible to overlook.</p>
+        <p class="vb-intro"><strong>d) Why the breath, of all things?</strong>
+        For a self-preservation Four, whose instinct is oriented toward one's own survival and
+        stability, one interpretation suggests itself: precisely the lungs, the organ that
+        carries the most immediate, involuntary form of self-preservation, became the site of
+        progressive loss of control – while, thanks to the Three-wing, visible functioning was
+        demonstrated outwardly for as long as possible at the same time. This interpretation is a
+        plausible reading, not a documented historical causal link, and will be developed further
+        in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) A reading without determinism:</strong>
+        This does not mean that the self-preservation Four's pattern inevitably leads to
+        pulmonary fibrosis – <strong>anyone can get any illness, regardless of subtype.</strong>
+        What Mette-Marit's case can illustrate is a pattern that recurs in practice around the
+        need to conceal progressive weakness behind outward functioning – one of many possible
+        explanations, not a verdict. The corresponding illness pattern will gradually be
+        developed further in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as a factor of its own:</strong>
+        Mette-Marit most likely did not know her own Enneagram pattern – the self-preservation
+        Four with Three-wing endures suffering with discipline and presents functioning capacity
+        to the outside world for as long as possible, instead of stepping back in time. This same
+        pattern, already practiced for decades in how she handled her stigmatized past, likely
+        also led her to keep working through the physical illness for as long as possible, before
+        the Royal Court had to publicly name the deterioration in 2025. Those who do not know
+        their own pattern of concealment keep functioning until the body itself sets the limit.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Mette-Marit's</strong> illness story reveals the same tenacity already visible in
+        her life path: a progressive, incurable disease carried for years behind functioning
+        public work, before the 2025 deterioration and the 2026 lung transplant became public.
+        The dove, which had already learned in her youth to quietly endure hardship, carried that
+        same capacity into her own physical exhaustion – and found, after a successful transplant
+        in June 2026, a new beginning.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-mette-marit", label:"Portrait: Mette-Marit (SE4w3) – life path"},
+        {route:"krankheitsportraets-lady-diana", label:"Illness Portrait: Lady Diana (SE4w3) – same subtype, the same mask of outward composure over hidden suffering"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se4", label:"Subtype profile SE4"},
+      ])}
+    </div>
+  `);
+}

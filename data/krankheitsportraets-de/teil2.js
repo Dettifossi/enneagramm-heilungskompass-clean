@@ -4813,3 +4813,190 @@ export function guntherVonHagensKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function metteMaritKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-mette-marit-portrait.jpg" alt="Mette-Marit" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mette-Marit</p>
+        <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel · geb. 1973</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Taube</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Tierentsprechung: Taube" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Mette-Marit</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-mette-marit">Porträt unter Berühmte Persönlichkeiten</a>
+        in diesem Kompass vertreten – dort geht es um ihren Lebensweg und ihre Typstruktur im
+        Allgemeinen. Dieses Porträt widmet sich einem Kapitel, das dort nur gestreift wird: eine
+        seltene Lungenfibrose, 2018 diagnostiziert, die 2026 eine Lungentransplantation
+        erforderlich machte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Mette-Marit</strong> ist dem <strong>selbsterhaltenden Typ 4 mit Dreierflügel</strong>
+        zugeordnet. Die SE4 trägt Leiden – anders als andere Vierer-Subtypen – nicht nach außen,
+        sondern hält es diszipliniert aus, während sie nach außen Pflichterfüllung und
+        Leistungsfähigkeit zeigt. Der Dreierflügel gibt ihr die Fähigkeit, auch eine fortschreitende
+        körperliche Erkrankung so lange wie möglich hinter sichtbarer, funktionierender öffentlicher
+        Arbeit zu verbergen – genau diese Spannung zwischen verborgenem Leiden und äußerlich
+        aufrechterhaltener Funktionsfähigkeit prägt Mette-Marits Krankheitsgeschichte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Jahre vor der Diagnose:</strong>
+        Mette-Marit erklärte bei der Bekanntgabe 2018 selbst, sie habe seit mehreren Jahren
+        regelmäßig gesundheitliche Beschwerden gehabt – eine Formulierung, die auf eine lange,
+        zunächst nicht eindeutig zugeordnete Vorgeschichte hindeutet, nicht auf einen plötzlichen
+        Beginn.</p>
+        <p class="vb-intro"><strong>b) Eine ungewöhnliche Diagnose:</strong>
+        Im Oktober 2018 teilte der Königshof mit, bei ihr sei eine seltene Variante der
+        Lungenfibrose festgestellt worden – nach Angaben ihres behandelnden Arztes, Professor
+        Kristian Bjøro vom Rikshospitalet, in einem frühen Stadium, was die Prognose zu diesem
+        Zeitpunkt günstiger erscheinen ließ.</p>
+        <p class="vb-intro"><strong>c) Ausdrücklich kein Lebensstil-Zusammenhang:</strong>
+        Der Königshof betonte früh, es bestehe breiter medizinischer Konsens, dass die Erkrankung
+        nicht mit Umwelteinflüssen oder Lebensstil zusammenhänge – anders als häufigere Formen der
+        Lungenfibrose. Ob ein Zusammenhang mit einem umfassenderen Autoimmunprozess besteht, blieb
+        zum Diagnosezeitpunkt offen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Eine unheilbare, fortschreitende Erkrankung:</strong>
+        Lungenfibrose gilt als unheilbar und in der Regel fortschreitend – betroffenes Lungengewebe
+        vernarbt dauerhaft, die Atemkapazität nimmt kontinuierlich ab.</p>
+        <p class="vb-intro"><strong>b) Behandlung mit internationaler Beteiligung:</strong>
+        Die Behandlung erfolgte am Universitätsklinikum Oslo in Zusammenarbeit mit medizinischem
+        Fachpersonal aus dem Ausland – ein Hinweis auf die Seltenheit der genauen Variante.</p>
+        <p class="vb-intro"><strong>c) Rehabilitation statt Rückzug:</strong>
+        2019 erklärte Mette-Marit, sie ermüde schneller als früher, und nahm sich einen Monat Zeit
+        für eine Lungenrehabilitation – keine vollständige Pause von ihren Aufgaben, sondern eine
+        begrenzte, gezielte Unterbrechung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Sauerstoffgerät im Alltag, Pflichten weitergeführt:</strong>
+        Berichten zufolge nutzte Mette-Marit im Alltag zeitweise ein Sauerstoffgerät, führte ihre
+        repräsentativen und sozialen Aufgaben jedoch so lange wie möglich fort – das Gewicht der
+        Erkrankung wurde nicht öffentlich dramatisiert.</p>
+        <p class="vb-intro"><strong>b) März 2025: eine offizielle Verschlechterung:</strong>
+        Der Königshof teilte mit, die Erkrankung habe sich verschlechtert; Mette-Marit habe
+        tägliche Symptome und Beschwerden, die ihre Fähigkeit beeinträchtigten, ihre Pflichten
+        auszuüben – eine seltene, direkte öffentliche Benennung des Fortschreitens.</p>
+        <p class="vb-intro"><strong>c) Zunehmende Atemnot:</strong>
+        Kronprinz Haakon beschrieb im Dezember 2025 öffentlich, dass seine Frau zunehmend Mühe
+        habe zu atmen – eine seltene, sehr konkrete Schilderung aus nächster Nähe statt einer
+        distanzierten offiziellen Erklärung.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Warteliste und Transplantation 2026:</strong>
+        Am 5. Juni 2026 teilte das Universitätsklinikum Oslo mit, Mette-Marit stehe nach einer
+        erheblichen Verschlechterung ihres Zustands auf der Warteliste für eine
+        Lungentransplantation – ohne den Eingriff sei ihre Lebenserwartung auf etwa ein Jahr
+        begrenzt gewesen.</p>
+        <p class="vb-intro"><strong>b) Eine erfolgreiche Operation:</strong>
+        Am 17. Juni 2026 gab der Königshof bekannt, die Lungentransplantation am Rikshospitalet
+        sei erfolgreich verlaufen – ein genaues Operationsdatum wurde nicht mitgeteilt. Die
+        behandelnden Ärzte beschrieben den bisherigen Verlauf als erfolgreich und kündigten
+        einen mehrwöchigen Klinikaufenthalt zur Überwachung und Anpassung der Medikation an.</p>
+        <p class="vb-intro"><strong>c) Ein Weg, der nicht abgeschlossen ist:</strong>
+        Nach dem Transplantationsbericht vom Juni 2026 lagen zum Zeitpunkt der Erstellung dieses
+        Porträts keine weiteren öffentlichen Angaben zu ihrem Gesundheitszustand vor.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Dieselbe Zähigkeit wie im Lebenswerk:</strong>
+        Die SE4-typische Zähigkeit, mit der Mette-Marit über Jahrzehnte eine stigmatisierte
+        Vergangenheit durchtrug, zeigte sich auch im Umgang mit der körperlichen Erkrankung:
+        funktionieren, weiterarbeiten, so lange wie möglich keine Last für andere sein.</p>
+        <p class="vb-intro"><strong>b) Der Dreierflügel als Bühne, die zuletzt selbst zum Thema wurde:</strong>
+        Jahrelang übersetzte der Dreierflügel ihr eigenes Erleben in sichtbare Projekte für
+        andere – Literaturzug, UNAIDS-Botschaft, Stiftungsarbeit. Mit der Verschlechterung ab
+        2025 wurde zum ersten Mal die eigene Krankheit selbst zum offiziell kommunizierten Thema,
+        nicht länger nur ein verborgener Hintergrund der sichtbaren Arbeit.</p>
+        <p class="vb-intro"><strong>c) Öffentliche Pflicht trotz unsichtbarer Last:</strong>
+        Dass sie ihre Aufgaben so lange wie möglich weiterführte, während die Lungenkapazität
+        kontinuierlich abnahm, liest sich als direkte Fortsetzung desselben Musters, das schon
+        ihre frühen Jahre als Kronprinzessin prägte: äußere Funktionsfähigkeit als Beweis, dass
+        die eigene Vorgeschichte sie nicht disqualifiziert.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine Krankheit ohne erklärende Vorgeschichte:</strong>
+        Anders als bei vielen anderen Krankheitsporträts dieses Kompasses gibt es hier keinen
+        belastbaren Hinweis auf Lebensstil oder Umweltfaktoren als Auslöser – die Quellen betonen
+        im Gegenteil ausdrücklich, dass dieser Zusammenhang unwahrscheinlich ist.</p>
+        <p class="vb-intro"><strong>b) Eine über Jahre fortschreitende, lange öffentlich zurückhaltend kommunizierte Erkrankung:</strong>
+        Von ersten unspezifischen Beschwerden über die Diagnose 2018 bis zur offiziellen
+        Verschlechterungsmeldung 2025 zieht sich eine lange Linie, in der die Krankheit zunächst
+        bewusst klein gehalten und erst spät in ihrer vollen Schwere öffentlich benannt wurde.</p>
+        <p class="vb-intro"><strong>c) Funktionieren bis zur Grenze:</strong>
+        Die Fortführung öffentlicher Pflichten trotz Sauerstoffgerät und zunehmender Atemnot zeigt
+        ein Muster, das bei der selbsterhaltenden Vier mit Dreierflügel wiederholt auffällt: die
+        eigene Funktionsfähigkeit so lange wie möglich aufrechtzuerhalten, bevor die Krankheit
+        selbst unübersehbar wird.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet die Atmung?</strong>
+        Für eine selbsterhaltende Vier, deren Instinkt auf das eigene Überleben und die eigene
+        Stabilität gerichtet ist, liegt eine Deutung nahe: Ausgerechnet die Lunge, das Organ, das
+        die unmittelbarste, unwillkürlichste Form der Selbsterhaltung trägt, wurde zum Ort des
+        fortschreitenden Kontrollverlusts – während gleichzeitig, dank des Dreierflügels, nach
+        außen möglichst lange sichtbare Funktionsfähigkeit demonstriert wurde. Diese Deutung ist
+        eine plausible Interpretation, kein belegter historischer Kausalzusammenhang, und wird im
+        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Vier zwangsläufig zu Lungenfibrose
+        führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong>
+        Was sich an Mette-Marits Fall zeigen lässt, ist ein Muster, das bei dem Bedürfnis, eine
+        fortschreitende Schwäche hinter äußerer Funktionsfähigkeit zu verbergen, in der Praxis
+        immer wieder auffällt – eine von vielen möglichen Erklärungen, kein Urteil. Das
+        entsprechende Krankheitsbild wird in diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Mette-Marit kannte ihr eigenes Enneagramm-Muster vermutlich nicht – die selbsterhaltende
+        Vier mit Dreierflügel hält Leiden diszipliniert aus und zeigt nach außen so lange wie
+        möglich Funktionsfähigkeit, statt rechtzeitig kürzerzutreten. Genau dieses Muster, über
+        Jahrzehnte hinweg schon im Umgang mit ihrer stigmatisierten Vergangenheit eingeübt, ließ
+        sie vermutlich auch bei der körperlichen Erkrankung so lange wie möglich weiterarbeiten,
+        bevor der Königshof 2025 die Verschlechterung öffentlich benennen musste. Wer das eigene
+        Verbergungsmuster nicht kennt, funktioniert weiter, bis der Körper selbst die Grenze
+        setzt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        An <strong>Mette-Marits</strong> Krankheitsgeschichte lässt sich dieselbe Zähigkeit ablesen,
+        die schon ihr Lebensweg zeigte: eine über Jahre fortschreitende, unheilbare Erkrankung,
+        die so lange wie möglich hinter funktionierender öffentlicher Arbeit verborgen blieb, bevor
+        2025 die Verschlechterung und 2026 die Lungentransplantation öffentlich wurden. Die Taube,
+        die schon in ihrer Jugend gelernt hatte, Härte still zu ertragen, trug diese Fähigkeit bis
+        in die eigene körperliche Erschöpfung – und fand, nach einer erfolgreichen Transplantation
+        im Juni 2026, einen neuen Anfang.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-mette-marit", label:"Porträt: Mette-Marit (SE4w3) – Lebensweg"},
+        {route:"krankheitsportraets-lady-diana", label:"Krankheitsporträt: Lady Diana (SE4w3) – gleicher Subtyp, dieselbe Maske aus äußerer Fassade über verborgenem Leiden"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se4", label:"Subtyp-Profil SE4"},
+      ])}
+    </div>
+  `);
+}

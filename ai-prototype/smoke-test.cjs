@@ -41,6 +41,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-katharina-die-grosse", label: "Neues EN-Porträt: Katharina die Große" },
   { hash: "#beruehmte-mette-marit", label: "Neues Porträt: Mette-Marit" },
   { hash: "en/#beruehmte-mette-marit", label: "Neues EN-Porträt: Mette-Marit" },
+  { hash: "#krankheitsportraets-mette-marit", label: "Neues Krankheitsporträt: Mette-Marit" },
+  { hash: "en/#krankheitsportraets-mette-marit", label: "Neues EN-Krankheitsporträt: Mette-Marit" },
 ];
 
 function startServer() {

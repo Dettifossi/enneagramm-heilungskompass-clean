@@ -2481,6 +2481,7 @@ export function metteMaritPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Mere image management does not explain why Mette-Marit's public standing shifted noticeably over two decades. Her father-in-law, King Harald V (himself an SE1w9, see his own portrait), publicly praised her early on as unusually committed and unusually brave – remarkable backing given the initial public controversy surrounding her.</p>
           <p class="vb-intro">Her literary engagement grew over the years into an independent cultural-policy voice: as an ambassador for Norwegian literature, she initiated several nationwide reading projects and, together with writer Geir Gulliksen, published a collection of stories and essays whose proceeds go to charity. With Haakon's accession to the throne in 2026, she became Queen of Norway – at the end of a path that began with massive public skepticism and led to one of Europe's longest-sustained, continuously expanded royal commitments to social causes.</p>
+          <p class="vb-intro">A significant part of her life since 2018 has been a rare pulmonary fibrosis that required a lung transplant in 2026 – covered in detail in her own <a href="javascript:void(0)" data-route="krankheitsportraets-mette-marit">illness portrait</a>.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and shadow of the self-preservation Four</h2>
@@ -2506,6 +2507,7 @@ export function metteMaritPortraitPage() {
         {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SE4w3)"},
         {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SE1w9) – father-in-law"},
         {route:"beruehmte-carl-xvi-gustaf", label:"Portrait: Carl XVI Gustaf (SE1w9)"},
+        {route:"krankheitsportraets-mette-marit", label:"Illness Portrait: Mette-Marit (SE4w3) – pulmonary fibrosis and transplant"},
       ])}
     </div>
   `);

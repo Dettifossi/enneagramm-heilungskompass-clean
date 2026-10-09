@@ -2496,6 +2496,7 @@ export function metteMaritPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Bloße Imagepflege erklärt nicht, warum Mette-Marits öffentliches Ansehen sich über zwei Jahrzehnte spürbar wandelte. Ihr Schwiegervater, König Harald V. (selbst SE1w9, siehe eigenes Porträt), lobte sie früh öffentlich als ungewöhnlich engagiert und ungewöhnlich mutig – eine bemerkenswerte Rückendeckung angesichts der anfänglichen öffentlichen Kontroverse um ihre Person.</p>
           <p class="vb-intro">Ihr literarisches Engagement wuchs über die Jahre zu einer eigenständigen kulturpolitischen Stimme: Als Botschafterin für norwegische Literatur initiierte sie mehrere landesweite Leseprojekte und gab gemeinsam mit dem Schriftsteller Geir Gulliksen eine Sammlung von Geschichten und Essays heraus, deren Erlöse wohltätigen Zwecken zugutekommen. Mit Haakons Thronbesteigung 2026 wurde sie Königin von Norwegen – nach einem Weg, der mit massiver öffentlicher Skepsis begann und in eine der am längsten anhaltenden, kontinuierlich ausgebauten royalen Sozialengagements Europas mündete.</p>
+          <p class="vb-intro">Ein wesentlicher Teil ihres Lebens seit 2018 ist eine seltene Lungenfibrose, die 2026 eine Lungentransplantation erforderlich machte – ausführlich dargestellt im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-mette-marit">Krankheitsporträt</a>.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten der Selbsterhaltungs-Vier</h2>
@@ -2521,6 +2522,7 @@ export function metteMaritPortraitPage() {
         {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
         {route:"beruehmte-harald-v", label:"Porträt: König Harald V. (SE1w9) – Schwiegervater"},
         {route:"beruehmte-carl-xvi-gustaf", label:"Porträt: Carl XVI. Gustaf (SE1w9)"},
+        {route:"krankheitsportraets-mette-marit", label:"Krankheitsporträt: Mette-Marit (SE4w3) – Lungenfibrose und Transplantation"},
       ])}
     </div>
   `);
