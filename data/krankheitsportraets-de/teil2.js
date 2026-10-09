@@ -2393,11 +2393,11 @@ export function michaelSchumacherKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-schumacher-portrait.jpg" alt="Michael Schumacher" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Michael Schumacher</p>
-        <p class="krim-portrait-typ">SX6w7 · Sexueller Typ 6 mit Siebenerflügel · geb. 1969</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltungstyp 1 mit Neunerflügel · geb. 1969</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Wolf</span>
+          <span>Tierentsprechung: Weißkopfseeadler</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Tierentsprechung: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Weißkopfseeadler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -2413,12 +2413,12 @@ export function michaelSchumacherKrankheitsportraetPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Schumacher</strong> ist dem <strong>sexuellen Typ 6 mit Siebenerflügel</strong>
-        zugeordnet. Als Kontratyp der Sechs begegnet die SX6 der eigenen Angst nicht mit
-        Rückzug, sondern mit Angriff – Sicherheit entsteht durch das Dominieren der Gefahr,
-        nicht durch ihre Vermeidung. Genau dieses Muster – Kontrolle über die Bedrohung
-        gewinnen, notfalls durch vollständige Abschottung – bestimmt bis heute den Umgang
-        seines engsten Umfelds mit seiner Krankheit.</p>
+        <strong>Schumacher</strong> ist dem <strong>selbsterhaltenden Typ 1 mit Neunerflügel</strong>
+        zugeordnet. Die SE1 richtet ihren Perfektionismus auf die eigene Vorbereitung und
+        Integrität, nicht auf die Korrektur anderer; der Neunerflügel gibt ihr die Fähigkeit,
+        auch unter extremem Druck nach außen gelassen und kontrolliert zu wirken. Genau dieses
+        Muster – stille, lückenlose Konsequenz statt öffentlicher Dramatik – bestimmt bis
+        heute den Umgang seines engsten Umfelds mit seiner Krankheit.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -2492,22 +2492,23 @@ export function michaelSchumacherKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Der Wolf, dessen Rudel jetzt für ihn kämpft:</strong>
-        Die SX6-typische Strategie, Bedrohung durch Dominanz statt durch Rückzug zu begegnen,
-        zeigt sich hier verschoben auf die Familie: Wo Schumacher selbst nicht mehr kämpfen
-        kann, übernimmt sein engstes Umfeld exakt dieselbe kompromisslose Haltung – Kontrolle
-        über die Bedrohung (in diesem Fall: die Öffentlichkeit) durch Härte statt durch
-        Nachgeben.</p>
-        <p class="vb-intro"><strong>b) Der Siebenerflügel und der Rückgriff auf das schönste Bild:</strong>
+        <p class="vb-intro"><strong>a) Der Adler, dessen Horst jetzt von anderen bewacht wird:</strong>
+        Die SE1-typische, nach innen gerichtete Pflichtauffassung zeigt sich hier verschoben
+        auf die Familie: Wo Schumacher selbst nicht mehr handeln kann, übernimmt sein engstes
+        Umfeld exakt dieselbe stille, lückenlose Konsequenz – eine selbst auferlegte
+        Schutzpflicht, die keine Ausnahme duldet.</p>
+        <p class="vb-intro"><strong>b) Der Neunerflügel und das Festhalten am ungetrübten Bild:</strong>
         Statt eines aktuellen, möglicherweise belastenden Bildes wählt sein Umfeld konsequent
-        die Erinnerung an den siegreichen, lebendigen Schumacher – eine Haltung, die zur
-        Fähigkeit des Siebenerflügels passt, selbst im Angesicht von Verlust an der Freude und
-        am Licht festzuhalten, statt sich in der Schwere zu verlieren.</p>
+        die Erinnerung an den souveränen, lebendigen Schumacher – eine Haltung, die zur
+        Neigung des Neunerflügels passt, Harmonie und ein stimmiges, nicht beunruhigendes
+        Gesamtbild zu bewahren, statt die Öffentlichkeit mit ungefilterten Details zu
+        konfrontieren.</p>
         <p class="vb-intro"><strong>c) Absolute Konsequenz statt halber Maßnahmen:</strong>
         Wie schon in seiner aktiven Karriere kennt auch der Umgang mit seiner Krankheit keine
         halben Lösungen: keine teilweise Offenheit, kein gelegentliches Update, sondern eine
-        vollständige, über ein Jahrzehnt konsequent durchgehaltene Abschottung – die SX6w7 in
-        ihrer radikalsten, jetzt stellvertretend von der Familie gelebten Form.</p>
+        vollständige, über ein Jahrzehnt konsequent durchgehaltene Abschottung – dieselbe
+        lückenlose Disziplin, die einst seine Vorbereitung im Cockpit auszeichnete, jetzt
+        stellvertretend von der Familie gelebt.</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
@@ -2516,52 +2517,63 @@ export function michaelSchumacherKrankheitsportraetPage() {
         Schumachers gesamte Karriere beruhte auf einem außergewöhnlich präzisen, hochtrainierten
         Kopf – Streckenkenntnis, Reaktionsgeschwindigkeit, taktisches Denken. Ausgerechnet
         dieses Organ wurde beim Sturz 2013 zum Ort der schwersten Verletzung.</p>
-        <p class="vb-intro"><strong>b) Warum ausgerechnet außerhalb der Piste, bei einem Mann, dessen ganzes Leben Risikokontrolle war?</strong>
-        Für eine sexuelle Sechs, deren gesamtes Berufsleben aus der präzisen, hochtrainierten
-        Kontrolle extremer Geschwindigkeit auf abgesperrten Rennstrecken bestand, liegt eine
-        Deutung nahe: Der folgenschwere Unfall ereignete sich ausgerechnet in einem
-        unkontrollierten, nicht abgesicherten Umfeld – abseits der Piste, ohne die Sicherheitsnetze
-        eines Formel-1-Cockpits. Diese Deutung ist eine plausible Interpretation, kein belegter
-        medizinischer oder biografischer Kausalzusammenhang, und wird im
-        Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
-        <p class="vb-intro"><strong>c) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Sechs zwangsläufig zu schweren Unfällen
-        führt – <strong>jeder Mensch kann jeden Unfall erleiden und jede Krankheit bekommen,
-        unabhängig vom Subtyp.</strong> Was sich an Schumachers Fall zeigen lässt, ist ein
-        Muster im Umgang mit einer plötzlichen, existenziellen Krise, das bei einer
-        ausgeprägten sexuellen Sechs mit Siebenerflügel und ihrem engsten Umfeld immer wieder
-        auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine thematische Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-phil-collins">Phil
+        Collins (SE1w9)</a>: Auch bei ihm versagte ausgerechnet das körperliche Werkzeug, auf
+        dem seine gesamte berufliche Identität beruhte, und auch dort reagierte das engste
+        Umfeld nicht mit öffentlicher Dramatik, sondern mit stiller, disziplinierter Anpassung.
+        Der entscheidende Unterschied liegt im Verlauf: Bei Collins war es ein schleichender,
+        über Jahre fortschreitender Verlust, bei Schumacher ein einziger, plötzlicher
+        Einschnitt – unter den bislang dokumentierten SE1w9-Fällen dieses Kompasses der
+        seltene Fall einer abrupten statt einer allmählichen Katastrophe.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet außerhalb der Piste, bei einem Mann, dessen ganzes Leben Risikokontrolle war?</strong>
+        Für eine Selbsterhaltungs-Eins, deren gesamtes Berufsleben aus der präzisen,
+        hochtrainierten Kontrolle extremer Geschwindigkeit auf abgesperrten Rennstrecken
+        bestand, liegt eine Deutung nahe: Der folgenschwere Unfall ereignete sich ausgerechnet
+        in einem unkontrollierten, nicht abgesicherten Umfeld – abseits der Piste, ohne die
+        Sicherheitsnetze eines Formel-1-Cockpits. Diese Deutung ist eine plausible
+        Interpretation, kein belegter medizinischer oder biografischer Kausalzusammenhang, und
+        wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu schweren
+        Unfällen führt – <strong>jeder Mensch kann jeden Unfall erleiden und jede Krankheit
+        bekommen, unabhängig vom Subtyp.</strong> Was sich an Schumachers Fall zeigen lässt,
+        ist ein Muster im Umgang mit einer plötzlichen, existenziellen Krise, das bei einer
+        ausgeprägten selbsterhaltenden Eins mit Neunerflügel und ihrem engsten Umfeld immer
+        wieder auffällt – eine von vielen möglichen Deutungen, kein Urteil. Das entsprechende
         Krankheitsbild wird in diesem Kompass nach und nach im
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
         ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) Die unbewusste Fixierung als eigener Faktor:</strong>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Nichts deutet darauf hin, dass Schumacher oder seine Familie sein Enneagramm-Muster je
-        bewusst kannten. Dennoch lässt sich an seinem Fall ablesen, wie tief das
-        SX6-typische Prinzip „Sicherheit durch Kontrolle der Bedrohung" auch nach der
+        bewusst kannten. Dennoch lässt sich an seinem Fall ablesen, wie tief das SE1-typische
+        Prinzip „lückenlose, stille Pflichterfüllung ohne öffentliche Klage" auch nach der
         Katastrophe fortwirkt – nicht mehr im Cockpit, sondern in der radikalen, bis heute
         durchgehaltenen Kontrolle darüber, was die Welt über ihn erfahren darf. Wer sein Leben
-        lang gelernt hat, Gefahr durch Dominanz zu begegnen, überträgt dieses Muster auch dann,
-        wenn die Gefahr nicht mehr die Rennstrecke, sondern die Öffentlichkeit selbst ist.</p>
+        lang gelernt hat, Verantwortung durch lückenlose, selbst auferlegte Disziplin zu
+        tragen, überträgt dieses Muster auch dann, wenn die Aufgabe nicht mehr die
+        Rennstrecke, sondern der Schutz der eigenen Würde ist.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        Auch am Krankheitsverlauf lässt sich <strong>Schumachers</strong> sexuelle Sechs mit
-        Siebenerflügel noch einmal ablesen: eine plötzliche, existenzielle Bedrohung, der mit
-        derselben Kompromisslosigkeit begegnet wird, die einst seine Karriere prägte – nur dass
-        die Kontrolle jetzt nicht mehr ihm selbst gehört, sondern von seinem Rudel
-        stellvertretend ausgeübt wird. Der Wolf, der einst das Tempo der ganzen Formel 1
-        vorgab, wird seit über zehn Jahren von genau jenem Rudel geschützt, das er sich selbst
-        aufgebaut hatte.</p>
+        Auch am Krankheitsverlauf lässt sich <strong>Schumachers</strong> selbsterhaltende Eins
+        mit Neunerflügel noch einmal ablesen: eine plötzliche, existenzielle Bedrohung, der mit
+        derselben lückenlosen, stillen Konsequenz begegnet wird, die einst seine Karriere
+        prägte – nur dass die Kontrolle jetzt nicht mehr ihm selbst gehört, sondern von seiner
+        Familie stellvertretend ausgeübt wird. Der Adler, der einst jede Kurve der Formel 1
+        auswendig kannte, wird seit über zehn Jahren von genau jenem engsten Kreis geschützt,
+        dem er selbst zeitlebens die größte Loyalität entgegenbrachte.</p>
       </div>
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SX6w7) – Lebenswerk"},
-        {route:"krankheitsportraets-avril-lavigne", label:"Krankheitsporträt: Avril Lavigne (SX6w7) – gleicher Subtyp, entgegengesetzte Bewältigungsstrategie"},
+        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SE1w9) – Lebenswerk"},
+        {route:"krankheitsportraets-phil-collins", label:"Krankheitsporträt: Phil Collins (SE1w9) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
-        {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
+        {route:"subtype/se1", label:"Subtyp-Profil SE1"},
       ])}
     </div>
   `);
@@ -4174,15 +4186,13 @@ export function avrilLavigneKrankheitsportraetPage() {
         Lavignes gesamte Karriere beruhte auf ihrer Stimme und körperlichen Bühnenpräsenz.
         Ausgerechnet diese Fähigkeiten – sprechen, sich bewegen – waren es, die ihr die
         Krankheit zeitweise vollständig raubte.</p>
-        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
-        Eine Parallele zeigt sich bei
-        <a href="javascript:void(0)" data-route="krankheitsportraets-michael-schumacher">Michael
-        Schumacher (SX6w7)</a>: Auch bei ihm traf eine plötzliche, existenzielle Krise einen
-        Menschen, dessen gesamtes Berufsleben auf körperlicher Kontrolle beruhte. Der
-        entscheidende Unterschied liegt im Umgang danach: Wo Schumachers Umfeld die Bedrohung
-        durch vollständige Abschottung kontrollierte, wählte Lavigne den entgegengesetzten Weg
-        derselben SX6w7-Logik – Kontrolle durch vollständige Offenlegung statt durch
-        Verschweigen.</p>
+        <p class="vb-intro"><strong>b) Kontrolle durch vollständige Offenlegung statt durch Verschweigen:</strong>
+        Auch hier traf eine plötzliche, existenzielle Krise einen Menschen, dessen gesamtes
+        Berufsleben auf körperlicher Kontrolle – Stimme, Bühnenpräsenz – beruhte. Typisch für
+        die SX6w7 ist, dass Lavigne die Bedrohung nicht durch Abschottung, sondern durch das
+        genaue Gegenteil zu kontrollieren suchte: eine vollständige, unverblümte Offenlegung
+        statt jedes Verschweigens – Kontrolle durch maximale Konfrontation der Bedrohung, nicht
+        durch ihre Vermeidung.</p>
         <p class="vb-intro"><strong>c) Wenn die Sechs unter chronischem Stress zur Drei wird:</strong>
         In den Monaten unmittelbar nach ihrer Genesung fällt eine für die sonst so direkte,
         konfrontative SX6 ungewöhnliche Verschiebung auf: ein verstärkter Fokus auf sichtbaren
@@ -4235,7 +4245,6 @@ export function avrilLavigneKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-avril-lavigne", label:"Porträt: Avril Lavigne (SX6w7) – Lebenswerk"},
-        {route:"krankheitsportraets-michael-schumacher", label:"Krankheitsporträt: Michael Schumacher (SX6w7) – gleicher Subtyp"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
       ])}

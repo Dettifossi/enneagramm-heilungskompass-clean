@@ -3943,7 +3943,12 @@ export function philCollinsKrankheitsportraetPage() {
         adaptation, rather than negotiated publicly. The same logic appears with
         <a href="javascript:void(0)" data-route="krankheitsportraets-johannes-paul-ii">John
         Paul II (SE1w9)</a>, whose Parkinson's disease took his voice and free movement, and
-        who nonetheless stayed in office down to a silent gesture at the hospital window.</p>
+        who nonetheless stayed in office down to a silent gesture at the hospital window. With
+        <a href="javascript:void(0)" data-route="krankheitsportraets-michael-schumacher">Michael
+        Schumacher (SE1w9)</a>, the same underlying logic appears in abrupt rather than gradual
+        form: a single fall took from him what Collins and John Paul II lost step by step, and
+        his closest circle took on exactly the same quiet, disciplined consistency that had
+        once marked his own career.</p>
         <p class="vb-intro"><strong>c) When the One under chronic stress moves toward the Four:</strong>
         Collins' autobiography "Not Dead Yet" (2016) stands out for a tone unusual for the
         otherwise matter-of-fact, disciplined SE1: extensive, introspective passages about

@@ -4132,7 +4132,12 @@ export function philCollinsKrankheitsportraetPage() {
         Logik zeigt sich auch bei
         <a href="javascript:void(0)" data-route="krankheitsportraets-johannes-paul-ii">Johannes
         Paul II. (SE1w9)</a>, dem die Parkinson-Erkrankung Stimme und freie Bewegung nahm und
-        der dennoch bis zur stummen Geste am Krankenhausfenster im Amt blieb.</p>
+        der dennoch bis zur stummen Geste am Krankenhausfenster im Amt blieb. Bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-michael-schumacher">Michael
+        Schumacher (SE1w9)</a> zeigt sich dieselbe Grundlogik in abrupter statt allmählicher
+        Form: ein einziger Sturz nahm ihm, was bei Collins und Johannes Paul II. schrittweise
+        verlorenging, und sein engstes Umfeld übernahm exakt dieselbe stille, disziplinierte
+        Konsequenz, die zuvor seine eigene Karriere geprägt hatte.</p>
         <p class="vb-intro"><strong>c) Wenn die Eins unter chronischem Stress zur Vier wird:</strong>
         Collins' Autobiografie ›Not Dead Yet‹ (2016) fällt durch einen für die sonst so
         sachliche, disziplinierte SE1 ungewöhnlichen Ton auf: ausführliche, introspektive

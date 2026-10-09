@@ -2158,7 +2158,7 @@ export function alecBaldwinPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-uwe-ochsenknecht", label:"Porträt: Uwe Ochsenknecht (SX6w7)"},
-        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SX6w7)"},
+        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SE1w9)"},
       ])}
     </div>
   `);

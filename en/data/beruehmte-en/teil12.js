@@ -1128,64 +1128,62 @@ export function michaelSchumacherPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-schumacher-portrait.jpg" alt="Michael Schumacher – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-schumacher-portrait.jpg" alt="Michael Schumacher – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Michael Schumacher</p>
-        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with Seven Wings</p>
-        <p class="krim-portrait-subtitle">Formula 1 racing driver, seven-time world champion, b. 1969 in Hürth – Animal equivalent: Wolf</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with Nine-Wing</p>
+        <p class="krim-portrait-subtitle">Formula 1 driver, seven-time world champion, born 1969 in Hürth &ndash; Animal correspondence: Bald Eagle</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Wolf</h2>
+        <h2 class="vb-section">1. The eagle who knew every corner by heart</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The wolf is no animal of comfort. It is vigilant, territorial, oriented toward its group—and when it hunts, it hunts with everything it has. The wolf does not duck from threat. It turns around and runs toward it. That is the sexual Six in its deepest expression: fear not as paralysis, but as fuel.</p>
-          <p class="vb-intro">The German racing driver Michael Schumacher is this wolf. Seven-time Formula 1 world champion, 91 victories, five consecutive titles with Ferrari—numbers that were without comparison in the history of motorsport when he retired for the first time in 2006. And yet it would be wrong to understand Schumacher through his statistics. What distinguished him was no expert feeling from a distance. It was an intensity that treated every centimeter of the track as personal territory. The wolf marks its territory. And it defends it.</p>
+          <p class="vb-intro">The <strong>bald eagle</strong> does not hunt out of a taste for risk, but out of precision: it watches for a long time before committing to a single, exactly calculated dive. German racing driver Michael Schumacher, born 1969 in Hürth-Kerpen, grew up in modest circumstances – his father Rolf worked as a bricklayer and kart-track caretaker, building his son's first karts himself from used parts because there was no money for new ones. This early lesson – that nothing is given, that everything has to be earned through one's own diligence – shaped him for life.</p>
+          <p class="vb-intro">Seven-time Formula 1 World Champion, 91 wins, five consecutive titles with Ferrari – figures without precedent in the history of motorsport when he first retired in 2006. But understanding Schumacher through his statistics alone misses the point: what set him apart was not improvised talent, but an almost clinical self-discipline – every corner of every track measured out in his head, every detail of the car questioned before a single wheel ever turned.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Strength: Fear as a Drive</h2>
+        <h2 class="vb-section">2. The Self-Preservation One: perfection as a private standard</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The sexual Six (SX6) is according to Naranjo the countertype of the Six—the subtype in which the passion of fear is most strongly hidden because it is turned into its opposite. The SX6 does not meet its fear with retreat, but with attack. Naranjo called this subtype Strength: security does not arise from avoiding the dangerous, but from dominating the dangerous. If I am faster than the threat, I am safe. In the cockpit of a Formula 1 car, this principle becomes literal.</p>
-          <p class="vb-intro">Schumacher was known for physical and mental preparation that was without equal in Formula 1 at the time. He trained like an elite athlete—endurance, reflexes, neck muscles. He knew every corner of every track to a degree of detail that baffled his engineers. He questioned, analyzed, refined—and when he got into the car, the fear of failure had long since been transformed into preparation. That is the SX6: I overtake the threat before it overtakes me.</p>
-          <p class="vb-intro">His pack was the Ferrari team. The years 2000 to 2004, in which he won five titles in a row, were no solo project—they were the result of a collective that had built up around him: Jean Todt, Ross Brawn, Rory Byrne. Schumacher was loyal to the bone, and the team gave him that same loyalty right back. The wolf and its pack.</p>
+          <p class="vb-intro">The <strong>Self-Preservation One (SE1)</strong> directs its perfectionism not at correcting others but inward, at its own preparation and integrity. Schumacher was known for a physical and mental preparation unmatched in the Formula 1 of his era: he trained like an elite athlete – endurance, reflexes, neck muscles – knew every corner of every track to a level of detail that astonished his engineers, and questioned, analyzed, refined until the preparation left no gaps. This was never a display of skill for its own sake, but a quiet, never publicly showcased demand on himself to leave nothing undone.</p>
+          <p class="vb-intro">His famous "qualifying feel" – the ability to extract everything from himself and the car in a single flying lap – was the result of years of meticulous fine-tuning of his own technique, not a spontaneous flash of genius. The same discipline showed in his loyalty to the Ferrari team: the years 2000 to 2004, in which he won five titles in a row, were no solo project but the result of years of patient collective effort alongside Jean Todt, Ross Brawn, and Rory Byrne – fulfilling a duty to a team he had committed himself to, not self-promotion.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Seven Wing: Joy in Speed</h2>
+        <h2 class="vb-section">3. The Nine-Wing: composure outward, control inward</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Seven wing (w7) brings something to the sexual Six that an SX6 with a weaker Seven wing would not develop on its own: capacity for enthusiasm, joy in play, and the ability to make an enjoyment out of what others experience as a threat. Where the SX6 fights, the SX6w7 celebrates fighting. The result is a human being who not only wants to win, but who enjoys winning.</p>
-          <p class="vb-intro">Schumacher loved driving. That sounds self-evident, but it is not. Many racing drivers love winning. Schumacher loved the corner, the grip, the limit of the doable. His famous qualifying feel—the ability to pull everything out of himself and the car in a single lap attempt—was not just technology. It was passion. The Seven wing gives the SX6 the joy that fear does not give: when I drive so fast that no one can catch me, I feel no risk anymore. I feel freedom.</p>
-          <p class="vb-intro">The Seven wing also explains his urge to return. In 2010, at forty-one years old, he got back into a Formula 1 car at Mercedes. Not out of greed for money, not out of vanity—but because driving itself called him. The Seven wing holds open the door to joy, even when reason has long said no.</p>
+          <p class="vb-intro">The <strong>Nine-wing</strong> takes from the One its confrontational edge in personal conduct and replaces it with an almost unshakeable, matter-of-fact calm. Despite the extreme tension of the sport, Schumacher came across in interviews and press conferences as strikingly controlled, polite, almost stoic; the raw intensity showed almost exclusively on the track itself, never as a public display of emotion before or after. This is typical of the Nine-wing: maintaining outward harmony even while inner tension runs at its highest.</p>
+          <p class="vb-intro">His urge to return also fits this picture: in 2010, at forty-one, he got back into a Formula 1 car with Mercedes – not out of a need for recognition, but because returning to his own disciplined routine of training and precision work on the car appealed to him more than a quiet retirement. The Nine-wing seeks the familiar, quiet routine, not the loud stage.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The Work: Seven Titles, Five with Ferrari</h2>
+        <h2 class="vb-section">4. The substance: seven titles, five with Ferrari</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Michael Schumacher debuted in 1991 at the Belgian Grand Prix in Spa for the Jordan team and was acquired by Benetton before the very next race. In 1994, he won his first world championship title; in 1995, his second. In 1996, he moved to Ferrari—at that time a team in crisis that had not won a drivers' title since 1979. He helped build the team up, waited four years for the breakthrough, and then won five times in a row: 2000, 2001, 2002, 2003, 2004. No one had ever won five consecutive world championship titles before.</p>
-          <p class="vb-intro">Ninety-one victories, 155 podium finishes, 68 pole positions—numbers that were only surpassed years later by Lewis Hamilton (SO2w3). During his active time, Schumacher set the benchmark by which all others were measured. That is the work of the SX6w7: not the mediocrity of comfort, but the absolute of the extreme.</p>
+          <p class="vb-intro">Michael Schumacher made his debut in 1991 at the Belgian Grand Prix in Spa for the Jordan team – and was signed by Benetton before the next race. In 1994 he won his first World Championship title, in 1995 his second. In 1996 he moved to Ferrari – at the time a team in crisis, without a drivers' title since 1979. He helped rebuild the team, waited four years for the breakthrough – and then won five in a row: 2000, 2001, 2002, 2003, 2004. No one had previously won five consecutive World Championship titles.</p>
+          <p class="vb-intro">Ninety-one wins, 155 podiums, 68 pole positions – figures only surpassed years later by Lewis Hamilton (SO2w3). His success rested professionally on an extraordinary ability to put precise technical feedback about the car into words – engineers described him as the most accurate feedback source they had ever worked with, which made the systematic development of the car over a season possible in the first place. Talent and reflexes were real, but it was the systematic, never-slackening refinement of the car and his own preparation that turned them into seven World Championship titles.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow: Limits and Controversies</h2>
+        <h2 class="vb-section">5. Light and shadow of the Self-Preservation One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX6w7 is its absoluteness. Schumacher led Ferrari out of a long period of failure into an era of dominance. He permanently raised the bar for preparation, analysis, and team spirit in Formula 1. And he exemplified a passion for motorsport that shaped generations of fans and drivers.</p>
-          <p class="vb-intro">The shadow of the SX6 is crossing boundaries. In 1994 in Adelaide, Schumacher collided with Damon Hill in a maneuver that remains controversial to this day: intentional collision or racing accident? In 1997 in Jerez, he deliberately steered his car into Jacques Villeneuve and was disqualified from the world championship standings for it. That is the wolf when the countertype flips: when winning becomes more important than the playing field that makes winning possible in the first place. The SX6 knows no half measures. Not in the shadow either.</p>
+          <p class="vb-intro">In the light, Schumacher shows a sense of duty sustained without fail for decades: he led Ferrari out of long-standing failure into an era of dominance and permanently raised the bar for preparation, analysis, and teamwork in Formula 1.</p>
+          <p class="vb-intro">The besetting sin of the One is <strong>anger</strong> – in the SE1w9 usually muted and directed inward, yet by no means absent when the One's own sense of justice is violated. In 1994 at Adelaide, Schumacher collided with Damon Hill in a maneuver still disputed today; in 1997 at Jerez he deliberately steered his car into Jacques Villeneuve and was struck from the championship standings for it. Both incidents followed championship situations in which Schumacher saw himself as both in the right and at a disadvantage – the rare but all the more forceful eruption of the otherwise so controlled anger of the One, when his own, self-perceived-as-just position feels threatened.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. The Wolf That Is Silent</h2>
+        <h2 class="vb-section">6. The eagle that falls silent</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">On December 29, 2013, Michael Schumacher had an accident while skiing in Méribel, France. He was skiing off-piste and fell over rocks. The severe traumatic brain injury suffered in the process changed his life irrevocably. For weeks he lay in an induced coma and underwent multiple surgeries. In June 2014, he was discharged from the hospital into the care of his family and into a privacy that has been hermetically guarded ever since.</p>
-          <p class="vb-intro">His wife Corinna decided that the world would learn nothing about his condition. Not as a gesture of isolation, but as protection. "We are protecting Michael," she said. "He is here, he is different, but he is there." This sentence is all the public knows. The pack holds together. It shows its teeth to anyone who wants to come closer than permitted. And the wolf that set the pace for decades is now quiet—surrounded by those who belong to him.</p>
-          <p class="vb-intro">Michael Schumacher showed the world what a human being can accomplish when transforming fear into strength and speed into art. What he owes it, he has long since paid. The rest belongs to him.</p>
+          <p class="vb-intro">On December 29, 2013, Michael Schumacher had an accident while skiing in Méribel, France. He was skiing off-piste and fell over rocks. The severe traumatic brain injury he suffered changed his life irrevocably. He lay in a medically induced coma for weeks, underwent multiple operations. In June 2014 he was discharged from the hospital – into his family's care and into a privacy that has been guarded hermetically ever since.</p>
+          <p class="vb-intro">His wife Corinna has decided that the world will learn nothing about his condition. Not as a gesture of harshness, but as a disciplined, consistently upheld duty of protection toward him. "We will protect Michael," she said. "He is here, he is different, but he is here." That sentence is, for more than a decade, almost everything the public knows – not a spontaneous defensive reaction, but the same quiet, unwaveringly maintained consequence that once marked his career, now carried on in his stead by his family.</p>
+          <p class="vb-intro">Michael Schumacher showed the world what a person can achieve through discipline and meticulous preparation. What he owed it, he paid long ago. The rest belongs to him.</p>
         </blockquote>
 
       </div>
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
-        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
-        {route:"beruehmte-anke-engelke", label:"Portrait: Anke Engelke (SX6w7)"},
-        {route:"krankheitsportraets-michael-schumacher", label:"Illness Portrait: Michael Schumacher (SX6w7)"},
-        {route:"bibel-petrus", label:"Bible Portrait: Peter (SX6w7)"},
-        {route:"beruehmte-oliver-kahn", label:"Portrait: Oliver Kahn (SX6w7)"},
+        {route:"subtype/se1", label:"SE1 – The Bald Eagle: subtype profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Bald Eagle"},
+        {route:"krankheitsportraets-michael-schumacher", label:"Illness Portrait: Michael Schumacher (SE1w9)"},
+        {route:"beruehmte-carl-xvi-gustaf", label:"Portrait: Carl XVI Gustaf (SE1w9)"},
+        {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SE1w9)"},
       ])}
     </div>
   `);

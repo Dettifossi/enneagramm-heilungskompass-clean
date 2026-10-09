@@ -458,7 +458,7 @@ export function evaMendesPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-ryan-gosling", label:"Porträt: Ryan Gosling (SX2w3) – Ehemann"},
-        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SX6w7)"},
+        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SE1w9)"},
         {route:"beruehmte-heather-thomas", label:"Porträt: Heather Thomas (SX6w7)"},
         {route:"beruehmte-olena-zelenska", label:"Porträt: Olena Zelenska (SX6w7)"},
         {route:"beruehmte-louise-hay", label:"Porträt: Louise Hay (SX6w7) – ebenfalls derselbe Subtyp"},

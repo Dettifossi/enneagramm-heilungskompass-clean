@@ -379,7 +379,7 @@ export function oliverKahnPortraitPage() {
         <h2 class="vb-section">6. The path to healing: from confrontation to genuine trust</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Six's path to healing runs from the belief <em>I must constantly secure myself against an unsafe world</em> to the realization <em>I already carry guidance within me and can fundamentally trust the world.</em> For the SX6w7, this means in particular not constantly translating one's own fear into new confrontation or new stimulation, but also being able to sit with it without immediately reacting or breaking away.</p>
-          <p class="vb-intro">Much like Michael Schumacher (SX6w7) – whose uncompromising intensity on the racetrack was as legendary as his ability to put rivals under pressure – Kahn shows the same underlying tension of the SX6w7: top performance through deliberately sought confrontation with one's own fear. The actual step toward healing would lie, as hinted at in his own book, in no longer treating his own vulnerability as a weakness to be covered up, but as part of the story that is also allowed to be told.</p>
+          <p class="vb-intro">Much like Anke Engelke (SX6w7) – whose uncompromising directness on stage is as defining as her willingness to voice uncomfortable truths – Kahn shows the same underlying tension of the SX6w7: top performance through deliberately sought confrontation with one's own fear. The actual step toward healing would lie, as hinted at in his own book, in no longer treating his own vulnerability as a weakness to be covered up, but as part of the story that is also allowed to be told.</p>
         </blockquote>
 
       </div>
@@ -389,7 +389,7 @@ export function oliverKahnPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype profile"},
-        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9)"},
       ])}
     </div>
   `);

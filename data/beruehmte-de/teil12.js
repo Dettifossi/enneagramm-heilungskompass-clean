@@ -1124,68 +1124,66 @@ export function marieAntoinettePortraitPage() {
 export function michaelSchumacherPortraitPage() {
   return shell(`
     <div class="page-container">
-      ${pageHeader("Ber\xfchmte Pers\xf6nlichkeiten")}
+      ${pageHeader("Berühmte Persönlichkeiten")}
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-schumacher-portrait.jpg" alt="Michael Schumacher – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Michael Schumacher</p>
-        <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerfl\xfcgel</p>
-        <p class="krim-portrait-subtitle">Formel-1-Rennfahrer, siebenmaliger Weltmeister, geb. 1969 in H\xfcrth &ndash; Tierentsprechung: Wolf</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltungstyp 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Formel-1-Rennfahrer, siebenmaliger Weltmeister, geb. 1969 in Hürth &ndash; Tierentsprechung: Weißkopfseeadler</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Der Wolf</h2>
+        <h2 class="vb-section">1. Der Adler, der jede Kurve auswendig kannte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Wolf</strong> ist kein Tier der Bequemlichkeit. Er ist wachsam, territorial, auf seine Gruppe ausgerichtet &ndash; und wenn er jagt, jagt er mit allem, was er hat. Der Wolf duckt sich nicht vor der Bedrohung. Er dreht sich um und l\xe4uft ihr entgegen. Das ist die sexuelle Sechs in ihrer tiefsten Auspr\xe4gung: Angst nicht als L\xe4hmung, sondern als Treibstoff.</p>
-          <p class="vb-intro">Der deutsche Rennfahrer Michael Schumacher ist dieser Wolf. Siebenmal Formel-1-Weltmeister, 91 Siege, f\xfcnf aufeinanderfolgende Titel mit Ferrari &ndash; Zahlen, die in der Geschichte des Motorsports ohne Vergleich waren, als er 2006 zum ersten Mal zur\xfccktrat. Und doch w\xe4re es falsch, Schumacher \xfcber seine Statistiken zu verstehen. Was ihn auszeichnete, war kein K\xf6nner-Gef\xfchl aus der Distanz. Es war eine Intensit\xe4t, die jeden Zentimeter der Strecke als pers\xf6nliches Territorium behandelte. Der Wolf markiert sein Revier. Und er verteidigt es.</p>
+          <p class="vb-intro">Der <strong>Weißkopfseeadler</strong> jagt nicht aus Lust am Risiko, sondern aus Präzision: Er beobachtet lange, bevor er sich für einen einzigen, exakt berechneten Sturzflug entscheidet. Der deutsche Rennfahrer Michael Schumacher, geboren 1969 in Hürth-Kerpen, wuchs in einfachen Verhältnissen auf – sein Vater Rolf arbeitete als Maurer und Kart-Streckenwart, schraubte dem Sohn die ersten Karts selbst aus gebrauchten Teilen zusammen, weil für Neues kein Geld da war. Diese frühe Erfahrung, dass nichts geschenkt wird und alles durch eigene Sorgfalt erarbeitet werden muss, prägte ihn fürs Leben.</p>
+          <p class="vb-intro">Siebenmal Formel-1-Weltmeister, 91 Siege, fünf aufeinanderfolgende Titel mit Ferrari – Zahlen, die in der Geschichte des Motorsports ohne Vergleich waren, als er 2006 zum ersten Mal zurücktrat. Doch wer Schumacher über seine Statistiken zu verstehen versucht, übersieht das Eigentliche: Was ihn auszeichnete, war kein improvisiertes Talent, sondern eine beinahe klinische Selbstdisziplin – jede Kurve jeder Strecke im Kopf vermessen, jedes Detail am Auto hinterfragt, bevor überhaupt ein Rad sich drehte.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die St\xe4rke: Angst als Antrieb</h2>
+        <h2 class="vb-section">2. Der Selbsterhaltungstyp 1: Perfektion als privater Maßstab</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Sechs (SX6)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Sechs &ndash; der Subtyp, in dem die Leidenschaft der Angst am st\xe4rksten verborgen ist, weil sie ins Gegenteil verkehrt wird. Die SX6 begegnet ihrer Angst nicht mit R\xfcckzug, sondern mit Angriff. Naranjo nannte diesen Subtyp <em>St\xe4rke</em>: Sicherheit entsteht nicht durch Vermeiden des Gef\xe4hrlichen, sondern durch das Dominieren des Gef\xe4hrlichen. <em>Wenn ich schneller bin als die Bedrohung, bin ich sicher.</em> Im Cockpit eines Formel-1-Wagens wird dieses Prinzip buchst\xe4blich.</p>
-          <p class="vb-intro">Schumacher war bekannt f\xfcr eine k\xf6rperliche und mentale Vorbereitung, die damals in der Formel 1 ohnegleichen war. Er trainierte wie ein Leistungssportler &ndash; Ausdauer, Reflexe, Nackenmuskulatur. Er kannte jede Kurve jeder Strecke in einem Detailgrad, der seine Ingenieure verbl\xfcffte. Er hinterfragte, analysierte, verfeinerte &ndash; und wenn er ins Auto stieg, war die Angst vor dem Versagen l\xe4ngst in Vorbereitung verwandelt worden. Das ist die SX6: <em>Ich \xfcberhole die Bedrohung, bevor sie mich \xfcberholt.</em></p>
-          <p class="vb-intro">Sein Rudel war das Ferrari-Team. Die Jahre 2000 bis 2004, in denen er f\xfcnf Titel in Serie gewann, waren kein Soloprojekt &ndash; sie waren das Ergebnis eines Kollektivs, das sich um ihn herum aufgebaut hatte: Jean Todt, Ross Brawn, Rory Byrne. Schumacher war loyal bis in die Knochen, und das Team gab ihm dieselbe Loyalit\xe4t unmittelbar zur\xfcck. Der Wolf und sein Rudel.</p>
+          <p class="vb-intro">Die <strong>Selbsterhaltungs-Eins (SE1)</strong> richtet ihren Perfektionismus nicht auf die Korrektur anderer, sondern nach innen, auf die eigene Vorbereitung und Integrität. Schumacher war bekannt für eine körperliche und mentale Vorbereitung, die in der Formel 1 ihrer Zeit ohnegleichen war: Er trainierte wie ein Leistungssportler – Ausdauer, Reflexe, Nackenmuskulatur –, kannte jede Kurve jeder Strecke in einem Detailgrad, der seine Ingenieure verblüffte, und hinterfragte, analysierte, verfeinerte, bis die Vorbereitung lückenlos war. Das war kein Zurschaustellen von Können, sondern der stille, nie öffentlich zur Schau gestellte Anspruch an sich selbst, keine Lücke zu lassen.</p>
+          <p class="vb-intro">Sein berühmtes „Qualifikationsgefühl" – die Fähigkeit, in einem einzigen Rundenversuch alles aus sich und dem Auto herauszuholen – war das Ergebnis jahrelanger, akribischer Feinarbeit an der eigenen Technik, nicht eines spontanen Geniestreichs. Dieselbe Disziplin zeigte sich in seiner Loyalität zum Ferrari-Team: Die Jahre 2000 bis 2004, in denen er fünf Titel in Serie gewann, waren kein Soloprojekt, sondern das Ergebnis jahrelanger, geduldiger Aufbauarbeit gemeinsam mit Jean Todt, Ross Brawn und Rory Byrne – Pflichterfüllung gegenüber einem Team, dem er sich verschrieben hatte, nicht Selbstinszenierung.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Siebenerfl\xfcgel: Freude an der Geschwindigkeit</h2>
+        <h2 class="vb-section">3. Der Neunerflügel: Gelassenheit nach außen, Kontrolle nach innen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenerfl\xfcgel (w7)</strong> bringt der sexuellen Sechs etwas, das eine SX6 mit schwach ausgeprägtem Siebenerflügel allein nicht entwickeln würde: Begeisterungsfähigkeit, Spielfreude und die F\xe4higkeit, aus dem, was andere als Bedrohung erleben, einen Genuss zu machen. Wo die SX6 k\xe4mpft, feiert die SX6w7 das K\xe4mpfen. Das Ergebnis ist ein Mensch, der nicht nur gewinnen <em>will</em>, sondern dem Gewinnen <em>gef\xe4llt</em>.</p>
-          <p class="vb-intro">Schumacher liebte das Fahren. Das klingt selbstverst\xe4ndlich &ndash; ist es aber nicht. Viele Rennfahrer lieben das Siegen. Schumacher liebte die Kurve, den Grip, die Grenze des Machbaren. Sein ber\xfchmtes <em>Qualifikationsgef\xfchl</em> &ndash; die F\xe4higkeit, in einem einzigen Rundenversuch alles aus sich und dem Auto herauszuholen &ndash; war nicht nur Technik. Es war Leidenschaft. Der Siebenerfl\xfcgel gibt der SX6 die Freude, die die Angst nicht gibt: Wenn ich so schnell fahre, dass niemand mich einholen kann, sp\xfcre ich kein Risiko mehr. Ich sp\xfcre Freiheit.</p>
-          <p class="vb-intro">Der Siebenerfl\xfcgel erkl\xe4rt auch seinen R\xfcckkehr-Drang. 2010, mit einundvierzig Jahren, stieg er bei Mercedes wieder in ein Formel-1-Auto. Nicht aus Geldgier, nicht aus Eitelkeit &ndash; sondern weil das Fahren selbst ihn rief. Der Siebenerfl\xfcgel h\xe4lt die T\xfcr zur Freude offen, auch wenn der Verstand l\xe4ngst Nein sagt.</p>
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> nimmt der Eins die konfrontative Schärfe im persönlichen Auftreten und ersetzt sie durch eine beinahe unbewegte, sachliche Ruhe. Schumacher wirkte in Interviews und Pressekonferenzen – trotz der extremen Anspannung des Sports – auffallend kontrolliert, höflich, fast stoisch; die rohe Intensität zeigte sich fast ausschließlich auf der Strecke selbst, nie als öffentliche Emotionsshow davor oder danach. Das ist typisch für den Neunerflügel: Harmonie nach außen wahren, selbst wenn im Inneren höchste Anspannung herrscht.</p>
+          <p class="vb-intro">Auch sein Rückkehr-Drang passt in dieses Bild: 2010, mit einundvierzig Jahren, stieg er bei Mercedes noch einmal in ein Formel-1-Auto – nicht aus Geltungsbedürfnis, sondern weil die Rückkehr zur eigenen, disziplinierten Lebensroutine, zum Training und zur Präzisionsarbeit am Fahrzeug, ihn mehr reizte als ein ruhiger Ruhestand. Der Neunerflügel sucht die vertraute, stille Routine, nicht die laute Bühne.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Das Werk: Sieben Titel, f\xfcnf mit Ferrari</h2>
+        <h2 class="vb-section">4. Die Substanz: Sieben Titel, fünf mit Ferrari</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Michael Schumacher deb\u00fctierte 1991 beim Gro\xdfen Preis von Belgien in Spa f\xfcr das Jordan-Team &ndash; und wurde noch vor dem n\xe4chsten Rennen von Benetton \xfcbernommen. 1994 gewann er seinen ersten Weltmeistertitel, 1995 seinen zweiten. 1996 wechselte er zu Ferrari &ndash; damals einem Team in der Krise, das seit 1979 keinen Fahrertitel mehr gewonnen hatte. Er baute das Team mit auf, wartete vier Jahre auf den Durchbruch &ndash; und gewann dann f\xfcnfmal in Serie: 2000, 2001, 2002, 2003, 2004. Niemand hatte zuvor f\xfcnf aufeinanderfolgende Weltmeistertitel gewonnen.</p>
-          <p class="vb-intro">Einundneunzig Siege, 155 Podestpl\xe4tze, 68 Pole-Positions &ndash; Zahlen, die erst Jahre sp\xe4ter von Lewis Hamilton (SO2w3) \xfcbertroffen wurden. Schumacher setzte in seiner aktiven Zeit den Ma\xdfstab, an dem alle anderen gemessen wurden. Das ist das Werk der SX6w7: nicht das Mittelma\xdf des Komforts, sondern das Absolute des Extremen.</p>
+          <p class="vb-intro">Michael Schumacher debütierte 1991 beim Großen Preis von Belgien in Spa für das Jordan-Team – und wurde noch vor dem nächsten Rennen von Benetton übernommen. 1994 gewann er seinen ersten Weltmeistertitel, 1995 seinen zweiten. 1996 wechselte er zu Ferrari – damals einem Team in der Krise, das seit 1979 keinen Fahrertitel mehr gewonnen hatte. Er baute das Team mit auf, wartete vier Jahre auf den Durchbruch – und gewann dann fünfmal in Serie: 2000, 2001, 2002, 2003, 2004. Niemand hatte zuvor fünf aufeinanderfolgende Weltmeistertitel gewonnen.</p>
+          <p class="vb-intro">Einundneunzig Siege, 155 Podestplätze, 68 Pole-Positions – Zahlen, die erst Jahre später von Lewis Hamilton (SO2w3) übertroffen wurden. Fachlich beruhte sein Erfolg auf einer außergewöhnlichen Fähigkeit, technisches Fahrzeugfeedback präzise in Worte zu fassen – Ingenieure beschrieben ihn als den genauesten Rückmelder, mit dem sie je gearbeitet hatten, was die systematische Weiterentwicklung des Autos über eine Saison erst ermöglichte. Talent und Reaktionsschnelligkeit waren real, doch erst die systematische, nie nachlassende Feinarbeit an Auto und eigener Vorbereitung machte daraus sieben Weltmeistertitel.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Licht und Schatten: Grenzen und Kontroversen</h2>
+        <h2 class="vb-section">5. Licht und Schatten der Selbsterhaltungs-Eins</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX6w7 ist ihre <strong>Unbedingtheit</strong>. Schumacher hat Ferrari aus einer langj\xe4hrigen Erfolglosigkeit in eine \xc4ra der Dominanz gef\xfchrt. Er hat die Messlatte f\xfcr Vorbereitung, Analyse und Teamgeist in der Formel 1 dauerhaft angehoben. Und er hat eine Leidenschaft f\xfcr den Motorsport vorgelebt, die Generationen von Fans und Fahrern gepr\xe4gt hat.</p>
-          <p class="vb-intro">Der Schatten der SX6 ist die Grenz\u00fcberschreitung. 1994 in Adelaide kollidierte Schumacher mit Damon Hill in einem Man\u00f6ver, das noch heute umstritten ist: absichtliche Kollision oder Racing-Unfall? 1997 in Jerez steuerte er seinen Wagen absichtlich in Jacques Villeneuve &ndash; und wurde daf\xfcr aus der Weltmeisterschaftswertung gestrichen. Das ist der Wolf, wenn der Kontratyp kippt: Wenn Gewinnen wichtiger wird als das Spielfeld, das das Gewinnen erst erm\xf6glicht. Die SX6 kennt keine halben Ma\xdfnahmen. Auch im Schatten nicht.</p>
+          <p class="vb-intro">Im Licht zeigt sich bei Schumacher eine über Jahrzehnte durchgehaltene, nie nachlassende Pflichtauffassung: Er hat Ferrari aus einer langjährigen Erfolglosigkeit in eine Ära der Dominanz geführt und die Messlatte für Vorbereitung, Analyse und Teamarbeit in der Formel 1 dauerhaft angehoben.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> – bei der SE1w9 meist gedämpft und nach innen gerichtet, aber keineswegs verschwunden, wenn das eigene Gerechtigkeitsempfinden verletzt wird. 1994 in Adelaide kollidierte Schumacher mit Damon Hill in einem bis heute umstrittenen Manöver; 1997 in Jerez steuerte er seinen Wagen absichtlich in Jacques Villeneuve und wurde dafür aus der Weltmeisterschaftswertung gestrichen. Beide Vorfälle folgten auf WM-Konstellationen, in denen Schumacher sich im Recht und im Rückstand zugleich sah – der seltene, aber umso heftigere Ausbruch des sonst so kontrollierten Einser-Zorns, wenn die eigene, als gerecht empfundene Position bedroht scheint.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Der Wolf, der schweigt</h2>
+        <h2 class="vb-section">6. Der Adler, der schweigt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Am 29. Dezember 2013 verungl\xfcckte Michael Schumacher beim Skifahren im franz\xf6sischen M\xe9ribel. Er fuhr au\xdferhalb der markierten Piste und st\xfcrzte \xfcber Felsen. Das dabei erlittene schwere Sch\xe4del-Hirn-Trauma ver\xe4nderte sein Leben unwiderruflich. Wochenlang lag er im k\xfcnstlichen Koma, wurde mehrfach operiert. Im Juni 2014 wurde er aus dem Krankenhaus entlassen &ndash; in die Obhut seiner Familie und in eine Privatheit, die seither hermetisch bewacht wird.</p>
-          <p class="vb-intro">Seine Frau Corinna hat entschieden, dass die Welt nichts \xfcber seinen Zustand erf\xe4hrt. Nicht als Geste der Abschottung &ndash; sondern als Schutz. <em>Wir werden Michael sch\xfctzen</em>, sagte sie. <em>Er ist hier, er ist anders, aber er ist da.</em> Dieser Satz ist alles, was die \xd6ffentlichkeit wei\xdf. Das Rudel h\xe4lt zusammen. Es zeigt die Z\xe4hne gegen\xfcber jedem, der n\xe4her kommen will, als erlaubt ist. Und der Wolf, der jahrzehntelang das Tempo vorgegeben hat, ist jetzt still &ndash; umgeben von denen, die ihm geh\xf6ren.</p>
-          <p class="vb-intro">Michael Schumacher hat der Welt gezeigt, was ein Mensch leisten kann, wenn er Angst in St\xe4rke verwandelt und Geschwindigkeit in Kunst. Was er ihr schuldet, hat er l\xe4ngst bezahlt. Der Rest geh\xf6rt ihm.</p>
+          <p class="vb-intro">Am 29. Dezember 2013 verunglückte Michael Schumacher beim Skifahren im französischen Méribel. Er fuhr außerhalb der markierten Piste und stürzte über Felsen. Das dabei erlittene schwere Schädel-Hirn-Trauma veränderte sein Leben unwiderruflich. Wochenlang lag er im künstlichen Koma, wurde mehrfach operiert. Im Juni 2014 wurde er aus dem Krankenhaus entlassen – in die Obhut seiner Familie und in eine Privatheit, die seither hermetisch bewacht wird.</p>
+          <p class="vb-intro">Seine Frau Corinna hat entschieden, dass die Welt nichts über seinen Zustand erfährt. Nicht als Geste der Härte, sondern als disziplinierte, konsequent durchgehaltene Schutzpflicht gegenüber ihm. „Wir werden Michael schützen", sagte sie. „Er ist hier, er ist anders, aber er ist da." Dieser Satz ist seit über einem Jahrzehnt beinahe alles, was die Öffentlichkeit weiß – keine spontane Abwehrreaktion, sondern dieselbe stille, über Jahre unverändert durchgehaltene Konsequenz, die schon seine Karriere auszeichnete, jetzt stellvertretend von seiner Familie weitergeführt.</p>
+          <p class="vb-intro">Michael Schumacher hat der Welt gezeigt, was ein Mensch durch Disziplin und akribische Vorbereitung leisten kann. Was er ihr schuldet, hat er längst bezahlt. Der Rest gehört ihm.</p>
         </blockquote>
 
       </div>
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe \u2013 Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist \u2013 Band 1")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\xf6nlichkeiten des Enneagramms")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
-        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
-        {route:"subtype/sx6", label:"SX6 \u2013 Der Wolf: Subtyp-Profil"},
-        {route:"beruehmte-anke-engelke", label:"Portr\xe4t: Anke Engelke (SX6w7)"},
-        {route:"krankheitsportraets-michael-schumacher", label:"Krankheitsporträt: Michael Schumacher (SX6w7)"},
-        {route:"bibel-petrus", label:"Bibel-Porträt: Petrus (SX6w7)"},
-        {route:"beruehmte-oliver-kahn", label:"Porträt: Oliver Kahn (SX6w7)"},
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Weißkopfseeadler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Weißkopfseeadler"},
+        {route:"krankheitsportraets-michael-schumacher", label:"Krankheitsporträt: Michael Schumacher (SE1w9)"},
+        {route:"beruehmte-carl-xvi-gustaf", label:"Porträt: Carl XVI. Gustaf (SE1w9)"},
+        {route:"beruehmte-johannes-paul-ii", label:"Porträt: Johannes Paul II. (SE1w9)"},
       ])}
     </div>
   `);

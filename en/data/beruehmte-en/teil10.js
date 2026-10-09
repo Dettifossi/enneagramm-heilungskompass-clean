@@ -527,7 +527,7 @@ export function evaMendesPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-ryan-gosling", label:"Portrait: Ryan Gosling (SX2w3) – husband"},
-        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9)"},
         {route:"beruehmte-heather-thomas", label:"Portrait: Heather Thomas (SX6w7)"},
         {route:"beruehmte-olena-zelenska", label:"Portrait: Olena Zelenska (SX6w7)"},
         {route:"beruehmte-louise-hay", label:"Portrait: Louise Hay (SX6w7) – also the same subtype"},

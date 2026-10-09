@@ -1552,7 +1552,7 @@ export function uweOchsenknechtPortraitPage() {
         {route:"beruehmte-natascha-ochsenknecht", label:"Portrait: Natascha Ochsenknecht (SO8w7) – ehemalige Ehefrau"},
         {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4) – Tochter"},
         {route:"beruehmte-katja-riemann", label:"Portrait: Katja Riemann (SX6w7)"},
-        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7)"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9)"},
         {route:"beruehmte-alec-baldwin", label:"Portrait: Alec Baldwin (SX6w7)"},
       ])}
     </div>

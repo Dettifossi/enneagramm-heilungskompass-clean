@@ -2278,163 +2278,177 @@ export function michaelSchumacherKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-schumacher-portrait.jpg" alt="Michael Schumacher" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Michael Schumacher</p>
-        <p class="krim-portrait-typ">SX6w7 · Sexual Type 6 with Seven-wing · born 1969</p>
+        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with Nine-Wing · born 1969</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Animal correspondence: Wolf</span>
+          <span>Animal correspondence: Bald Eagle</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx6.jpg" alt="Animal correspondence: Wolf" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX6")};left:${tierAvatarLeft("SX6")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Animal correspondence: Bald Eagle" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
       <p class="psycho-intro">
-        <strong>Michael Schumacher</strong> already has a
-        <a href="javascript:void(0)" data-route="beruehmte-michael-schumacher">portrait under Famous Personalities</a>
-        in this Compass – that page covers his life's work as seven-time Formula 1 world
-        champion and his type structure in general, with a brief mention of the 2013 skiing
-        accident. This page delves into that chapter: a severe traumatic brain injury, several
-        emergency surgeries, months in a medically induced coma – and a since unprecedented,
-        family-enforced total media blackout on his health.
+        <strong>Michael Schumacher</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-michael-schumacher">Famous
+        Personalities portrait</a> – that page covers his life's work as seven-time Formula 1
+        World Champion and his type structure in general, with a brief mention of the 2013
+        skiing accident. This page goes deeper into that chapter: a severe traumatic brain
+        injury, several emergency surgeries, months in a medically induced coma – and a since
+        unprecedented, family-enforced complete media blackout on his health condition.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
-        <strong>Schumacher</strong> is classified as the <strong>Sexual Six with Seven-wing</strong>.
-        As the counter-type of the Six, SX6 meets its own fear not with retreat but with
-        attack – safety comes from dominating danger, not avoiding it. Exactly this pattern –
-        gaining control over the threat, if necessary through total isolation – still defines
-        how his closest circle handles his illness today.</p>
+        <strong>Schumacher</strong> is assigned to the <strong>self-preservation Type 1 with
+        Nine-Wing</strong>. The SE1 directs its perfectionism at its own preparation and
+        integrity, not at correcting others; the Nine-wing gives it the ability to appear
+        composed and controlled even under extreme pressure. Exactly this pattern – quiet,
+        unwavering consistency instead of public drama – still shapes how his closest circle
+        handles his illness today.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
-        <p class="vb-intro"><strong>a) The fall on 29 December 2013:</strong>
-        Schumacher was skiing off-piste in the French resort of Méribel with his then
-        fourteen-year-old son Mick, lost control, and fell over rocks – an accident that
-        initially seemed harmless but turned out to be life-threatening within minutes.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First signs</h3>
+        <p class="vb-intro"><strong>a) The fall on December 29, 2013:</strong>
+        Schumacher was skiing off-piste in Méribel, France, with his then fourteen-year-old
+        son Mick, lost control, and fell over rocks – an accident that at first seemed
+        harmless but within minutes proved life-threatening.</p>
         <p class="vb-intro"><strong>b) A helmet that could not fully absorb the impact:</strong>
         Despite wearing a helmet, Schumacher suffered a severe traumatic brain injury on
-        impact with a rock – according to some reports, a camera mount attached to the helmet
-        may have contributed to the severity of the injury.</p>
-        <p class="vb-intro"><strong>c) Immediate transport to a specialist hospital:</strong>
-        Schumacher was rushed to Grenoble University Hospital, which specializes in traumatic
-        brain injuries, where emergency neurosurgical treatment began at once.</p>
+        impact with a rock – reports suggest a camera mount attached to the helmet may have
+        contributed to the severity of the injury.</p>
+        <p class="vb-intro"><strong>c) Immediate transport to a specialized clinic:</strong>
+        Schumacher was immediately brought to the Grenoble University Hospital, which
+        specializes in traumatic brain injuries, where emergency neurosurgical treatment
+        began.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General characteristics</h3>
         <p class="vb-intro"><strong>a) Several emergency surgeries to relieve pressure:</strong>
-        The treating physicians, Jean-François Payen and Stephan Chabardes, removed a
-        hematoma in several procedures and focused primarily on reducing the
-        life-threatening intracranial pressure caused by bleeding and swelling.</p>
+        Treating physicians Jean-François Payen and Stephan Chabardes removed a hematoma in
+        several procedures and worked primarily to lower the life-threatening intracranial
+        pressure caused by the resulting bleeding and swelling.</p>
         <p class="vb-intro"><strong>b) Months in a medically induced coma:</strong>
         To give the brain the best possible chance to recover, Schumacher was kept in a
-        medically induced coma for weeks and months – a duration far exceeding what is typical
+        medically induced coma for weeks and months – a duration far exceeding what is usual
         for traumatic brain injuries, reflecting the severity of the injury.</p>
         <p class="vb-intro"><strong>c) Transfer and discharge in June 2014:</strong>
-        It was not until June 2014, roughly six months after the accident, that Schumacher was
-        discharged from inpatient care – first to a specialist clinic in Lausanne, later into
-        home care with his family.</p>
+        Only in June 2014, about six months after the accident, was Schumacher discharged
+        from inpatient treatment – first to a specialized clinic in Lausanne, later to home
+        care with his family.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Key Traits</h3>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential traits</h3>
         <p class="vb-intro"><strong>a) An unprecedented media blackout:</strong>
-        Since his discharge in 2014, the family – above all his wife Corinna – has not made a
-        single detailed medical statement about his condition public, a level of discretion
-        with few if any equivalents among prominent illness cases.</p>
+        Since his 2014 discharge, the family – above all his wife Corinna – has not made a
+        single detailed medical statement about his health public, a consequence without
+        precedent in the history of prominent illness cases.</p>
         <p class="vb-intro"><strong>b) A few, carefully measured signs of life:</strong>
-        Isolated statements from his closest circle – such as Corinna Schumacher's line "He is
-        here, he is different, but he is here" – have for years remained practically the only
-        public information, supplemented by brief remarks from his brother Ralf Schumacher or
-        his daughter Gina Maria.</p>
+        Isolated statements from his closest circle – such as Corinna Schumacher's sentence
+        "He is here, he is different, but he is here" – have for years remained practically
+        the only public information, supplemented by brief remarks from brother Ralf
+        Schumacher or daughter Gina Maria.</p>
         <p class="vb-intro"><strong>c) Legal action against speculation:</strong>
-        The family has repeatedly taken legal action against media outlets that published
+        The family repeatedly took legal action against media outlets that published
         unauthorized reports, photos, or – in one 2023 case – an AI-generated interview about
-        his condition, actively enforcing the media blackout as well as maintaining it.</p>
+        his condition, actively enforcing the blackout.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
-        <p class="vb-intro"><strong>a) The most public man in motorsport becomes the least visible:</strong>
-        Few contrasts could be starker than the one between the Schumacher who spent decades
-        in the glaring spotlight of Formula 1 and the man about whom, for over a decade, almost
-        nothing has reached the public.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall effect</h3>
+        <p class="vb-intro"><strong>a) Motorsport's most public figure becomes its most invisible:</strong>
+        Few contrasts could be greater than the one between the Schumacher who stood for
+        decades in Formula 1's glaring spotlight and the man about whom, for over ten years,
+        practically nothing has reached the public.</p>
         <p class="vb-intro"><strong>b) Speculation as a permanent state:</strong>
-        The total information blackout has, over the years, created a persistent media vacuum
-        repeatedly filled with unconfirmed rumors – for instance about stem-cell treatments in
-        Paris – which the family has never confirmed nor denied.</p>
+        The complete information blackout has over the years created a lasting media vacuum,
+        repeatedly filled with unconfirmed rumors – such as stem-cell therapy in Paris –
+        which the family has never confirmed or denied.</p>
         <p class="vb-intro"><strong>c) A documentary as the only authorized glimpse:</strong>
-        The 2021 Netflix documentary "Schumacher" offered, for the first time, a
-        family-authorized but still highly restrained look back at his life – without showing
-        any current images or information about his present condition.</p>
+        The 2021 Netflix documentary "Schumacher" offered the first family-authorized, yet
+        still very restrained, look back at his life – showing no current images or
+        information about his present condition.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
-        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Expression</h3>
-        <p class="vb-intro"><strong>a) The wolf whose pack now fights for him:</strong>
-        The SX6's characteristic strategy of meeting threat with dominance rather than retreat
-        shows up here shifted onto the family: where Schumacher himself can no longer fight,
-        his closest circle takes on exactly the same uncompromising stance – controlling the
-        threat (in this case, the public) through firmness rather than yielding.</p>
-        <p class="vb-intro"><strong>b) The Seven-wing and the return to the most radiant image:</strong>
-        Rather than a current, potentially distressing image, his circle consistently chooses
-        the memory of the victorious, vibrant Schumacher – a stance that fits the Seven-wing's
-        ability to hold on to joy and light even in the face of loss, rather than being
-        consumed by heaviness.</p>
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic effect</h3>
+        <p class="vb-intro"><strong>a) The eagle whose nest is now guarded by others:</strong>
+        The SE1's characteristic, inward-directed sense of duty shows here shifted onto the
+        family: where Schumacher himself can no longer act, his closest circle takes on
+        exactly the same quiet, unwavering consistency – a self-imposed duty of protection
+        that allows no exception.</p>
+        <p class="vb-intro"><strong>b) The Nine-wing and holding onto the unclouded image:</strong>
+        Instead of a current, potentially distressing image, his circle consistently chooses
+        the memory of the assured, vibrant Schumacher – a stance that fits the Nine-wing's
+        tendency to preserve harmony and a coherent, non-disturbing overall picture rather
+        than confront the public with unfiltered detail.</p>
         <p class="vb-intro"><strong>c) Absolute consistency instead of half measures:</strong>
-        As in his active career, the handling of his illness knows no half measures either: no
-        partial openness, no occasional update, but a complete, decade-plus-consistently
-        maintained blackout – SX6w7 in its most radical form, now lived out on his behalf by
-        his family.</p>
+        As in his active career, how his illness is handled knows no half measures: no
+        partial openness, no occasional update, but a complete blackout consistently
+        maintained for over a decade – the same unwavering discipline that once marked his
+        preparation in the cockpit, now carried on in his stead by his family.</p>
       </div>
 
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
-        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Recurring Thread</h3>
-        <p class="vb-intro"><strong>a) From a head that knew every corner by heart to a head that must now be protected:</strong>
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The illness as a common thread</h3>
+        <p class="vb-intro"><strong>a) From a mind that knew every corner by heart to a mind that must be protected:</strong>
         Schumacher's entire career rested on an exceptionally precise, highly trained mind –
-        track knowledge, reaction speed, tactical thinking. Precisely this organ became the
-        site of the most severe injury in the 2013 fall.</p>
-        <p class="vb-intro"><strong>b) Why precisely off the marked track, for a man whose entire life was risk control?</strong>
-        For a Sexual Six whose entire professional life consisted of the precise, highly
-        trained mastery of extreme speed on closed, secured racetracks, one interpretation
-        suggests itself: the consequential accident happened precisely in an uncontrolled,
-        unsecured environment – off-piste, without the safety nets of a Formula 1 cockpit.
-        This interpretation is a plausible reading, not a proven medical or biographical causal
-        link, and is explored further in this Compass's Psychosomatics Register.</p>
-        <p class="vb-intro"><strong>c) Context without determinism:</strong>
-        This does not mean the pattern of the Sexual Six inevitably leads to severe
+        track knowledge, reaction speed, tactical thinking. Of all things, this was the organ
+        that bore the gravest injury in the 2013 fall.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        A thematic parallel appears with
+        <a href="javascript:void(0)" data-route="krankheitsportraets-phil-collins">Phil
+        Collins (SE1w9)</a>: in him too, of all things, the physical tool his entire
+        professional identity rested on gave out, and there too his closest circle responded
+        not with public drama but with quiet, disciplined adaptation. The decisive difference
+        lies in the course: with Collins it was a gradual loss unfolding over years, with
+        Schumacher a single, sudden break – among the SE1w9 cases documented so far in this
+        Compass, the rare instance of an abrupt rather than a gradual catastrophe.</p>
+        <p class="vb-intro"><strong>c) Why, of all places, off-piste, for a man whose whole life was risk control?</strong>
+        For a self-preservation One whose entire professional life consisted of precise,
+        highly trained control of extreme speed on closed racetracks, one reading suggests
+        itself: the fateful accident happened, of all places, in an uncontrolled, unsecured
+        environment – off the piste, without the safety net of a Formula 1 cockpit. This
+        reading is a plausible interpretation, not a documented medical or biographical causal
+        link, and will be developed further in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) A framework without determinism:</strong>
+        This does not mean the self-preservation One's pattern inevitably leads to severe
         accidents – <strong>anyone can have any accident and develop any illness, regardless
-        of subtype.</strong> What Schumacher's case illustrates is a pattern in how a sudden,
-        existential crisis is handled, one that recurs again and again in a pronounced Sexual
-        Six with a Seven-wing and their closest circle – one interpretation among many, not a
-        judgment. This illness pattern is being developed step by step in this Compass's
-        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>d) The unconscious fixation as its own factor:</strong>
-        Nothing suggests that Schumacher or his family ever consciously knew his Enneagram
-        pattern. And yet his case shows just how deeply the SX6 principle of "safety through
-        control of the threat" continues to operate even after catastrophe – no longer in the
-        cockpit, but in the radical, still-maintained control over what the world is allowed
-        to know about him. Whoever has spent a lifetime learning to meet danger with dominance
-        carries that same pattern forward even when the danger is no longer the racetrack, but
-        the public itself.</p>
+        of subtype.</strong> What Schumacher's case can show is a pattern in how a sudden,
+        existential crisis is handled, one that recurs in a pronounced self-preservation One
+        with Nine-wing and their closest circle – one of many possible readings, not a
+        verdict. The corresponding illness picture will be developed gradually in this
+        Compass's <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics
+        Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Nothing suggests that Schumacher or his family was ever consciously aware of his
+        Enneagram pattern. Yet his case shows how deeply the SE1's characteristic principle –
+        unwavering, quiet fulfillment of duty without public complaint – continues even after
+        catastrophe: no longer in the cockpit, but in the radical, still-maintained control
+        over what the world is allowed to learn about him. Whoever has spent a lifetime
+        learning to carry responsibility through unwavering, self-imposed discipline carries
+        that pattern forward even when the task is no longer the racetrack, but protecting
+        one's own dignity.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Schumacher's</strong> Sexual Six with a Seven-wing, too, can be read once more
-        through his illness history: a sudden, existential threat met with the same
-        uncompromising resolve that once defined his career – except the control is no longer
-        his own, but exercised on his behalf by his pack. The wolf who once set the pace for
-        all of Formula 1 has, for over a decade, been protected by that very same pack he had
-        built around himself.</p>
+        Even the course of his illness reveals <strong>Schumacher's</strong>
+        self-preservation One with Nine-Wing once more: a sudden, existential threat met with
+        the same unwavering, quiet consistency that once marked his career – except that
+        control no longer belongs to him, but is exercised on his behalf by his family. The
+        eagle who once knew every corner of Formula 1 by heart has, for over a decade, been
+        protected by the very closest circle to which he himself gave the greatest loyalty
+        throughout his life.</p>
       </div>
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SX6w7) – life's work"},
-        {route:"krankheitsportraets-avril-lavigne", label:"Illness Portrait: Avril Lavigne (SX6w7) – same subtype, opposite coping strategy"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9) – life's work"},
+        {route:"krankheitsportraets-phil-collins", label:"Illness Portrait: Phil Collins (SE1w9) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
-        {route:"subtype/sx6", label:"Subtype Profile SX6"},
+        {route:"subtype/se1", label:"Subtype Profile SE1"},
       ])}
     </div>
   `);
@@ -3981,14 +3995,12 @@ export function avrilLavigneKrankheitsportraetPage() {
         Lavigne's entire career rested on her voice and physical stage presence. Of all
         things, it was exactly these abilities – speaking, moving – that the illness
         temporarily took from her completely.</p>
-        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
-        A parallel shows in
-        <a href="javascript:void(0)" data-route="krankheitsportraets-michael-schumacher">Michael
-        Schumacher (SX6w7)</a>: in his case too, a sudden, existential crisis struck someone
-        whose entire professional life rested on physical control. The decisive difference
-        lies in how each handled it afterward: where Schumacher's circle controlled the threat
-        through complete concealment, Lavigne chose the opposite path within the same SX6w7
-        logic – control through complete disclosure instead of silence.</p>
+        <p class="vb-intro"><strong>b) Control through complete disclosure instead of silence:</strong>
+        Here too, a sudden, existential crisis struck someone whose entire professional life
+        rested on physical control – voice, stage presence. Typical of the SX6w7, Lavigne
+        sought to control the threat not through concealment but through its exact
+        opposite: a complete, blunt disclosure instead of any silence – control through
+        maximum confrontation of the threat, not through avoiding it.</p>
         <p class="vb-intro"><strong>c) When the Six under chronic stress moves toward the Three:</strong>
         In the months immediately following her recovery, an unusual shift stands out for the
         otherwise direct, confrontational SX6: an intensified focus on visible professional
@@ -4038,7 +4050,6 @@ export function avrilLavigneKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-avril-lavigne", label:"Portrait: Avril Lavigne (SX6w7) – life's work"},
-        {route:"krankheitsportraets-michael-schumacher", label:"Illness Portrait: Michael Schumacher (SX6w7) – same subtype"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx6", label:"Subtype Profile SX6"},
       ])}

@@ -632,7 +632,7 @@ export function heatherThomasPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-eva-mendes", label:"Porträt: Eva Mendes (SX6w7)"},
-        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SX6w7)"},
+        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SE1w9)"},
       ])}
     </div>
   `);

@@ -377,7 +377,7 @@ export function oliverKahnPortraitPage() {
         <h2 class="vb-section">6. Der Heilungsweg: Von der Konfrontation zum echten Vertrauen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Sechs führt von der Überzeugung <em>Ich muss mich ständig gegen eine unsichere Welt absichern</em> zur Erkenntnis <em>Ich trage die Führung bereits in mir und kann der Welt grundsätzlich vertrauen.</em> Für die SX6w7 bedeutet das insbesondere, die eigene Angst nicht immer wieder in neue Konfrontation oder neue Reize zu übersetzen, sondern auch auszuhalten, ohne sofort zu reagieren oder auszubrechen.</p>
-          <p class="vb-intro">Ähnlich wie Michael Schumacher (SX6w7) – dessen kompromisslose Intensität auf der Rennstrecke ebenso legendär war wie seine Fähigkeit, Rivalen unter Druck zu setzen – zeigt auch Kahn dieselbe Grundspannung der SX6w7: Höchstleistung durch bewusst gesuchte Konfrontation mit der eigenen Angst. Der eigentliche Heilungsschritt läge darin, wie in seinem eigenen Buch angedeutet, die eigene Verletzlichkeit nicht länger als Schwäche zu behandeln, die überdeckt werden muss, sondern als Teil der Geschichte, die auch erzählt werden darf.</p>
+          <p class="vb-intro">Ähnlich wie Anke Engelke (SX6w7) – deren kompromisslose Direktheit auf der Bühne ebenso prägend ist wie ihre Fähigkeit, auch unbequeme Wahrheiten anzusprechen – zeigt auch Kahn dieselbe Grundspannung der SX6w7: Höchstleistung durch bewusst gesuchte Konfrontation mit der eigenen Angst. Der eigentliche Heilungsschritt läge darin, wie in seinem eigenen Buch angedeutet, die eigene Verletzlichkeit nicht länger als Schwäche zu behandeln, die überdeckt werden muss, sondern als Teil der Geschichte, die auch erzählt werden darf.</p>
         </blockquote>
 
       </div>
@@ -387,7 +387,7 @@ export function oliverKahnPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
-        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SX6w7)"},
+        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SE1w9)"},
       ])}
     </div>
   `);
