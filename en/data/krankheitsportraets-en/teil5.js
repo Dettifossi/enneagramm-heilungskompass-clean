@@ -3940,7 +3940,10 @@ export function philCollinsKrankheitsportraetPage() {
         public complaint but with a new, equally disciplined way of working (dictation instead
         of writing, a seated concert instead of drumming). Both SE1w9s show the same pattern:
         the loss of a central working tool is compensated through discipline and pragmatic
-        adaptation, rather than negotiated publicly.</p>
+        adaptation, rather than negotiated publicly. The same logic appears with
+        <a href="javascript:void(0)" data-route="krankheitsportraets-johannes-paul-ii">John
+        Paul II (SE1w9)</a>, whose Parkinson's disease took his voice and free movement, and
+        who nonetheless stayed in office down to a silent gesture at the hospital window.</p>
         <p class="vb-intro"><strong>c) When the One under chronic stress moves toward the Four:</strong>
         Collins' autobiography "Not Dead Yet" (2016) stands out for a tone unusual for the
         otherwise matter-of-fact, disciplined SE1: extensive, introspective passages about

@@ -4916,3 +4916,207 @@ export function wimThoelkeKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function johannesPaulIIKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-johannes-paul-ii-portrait.jpg" alt="Johannes Paul II." class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johannes Paul II.</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel · 1920–2005</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Weißkopfseeadler</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Tierentsprechung: Weißkopfseeadler" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Johannes Paul II.</strong> ist bereits als
+        <a href="javascript:void(0)" data-route="beruehmte-johannes-paul-ii">Porträt
+        berühmter Persönlichkeiten</a> in diesem Kompass vertreten – dort geht es um sein
+        Lebenswerk als Papst, Philosoph und geistliches Oberhaupt. Diese Seite widmet sich einem
+        Aspekt, der dort nur gestreift wird: die fortschreitende Parkinson-Erkrankung, die seine
+        letzten anderthalb Jahrzehnte im Amt zunehmend prägte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Wojtyła</strong> ist dem <strong>selbsterhaltenden Typ 1 mit Neunerflügel</strong>
+        zugeordnet. Die SE1 richtet ihren Perfektionismus auf die eigene Pflichterfüllung und
+        Integrität, nicht primär auf die Außenwirkung; der Neunerflügel gibt ihr die Fähigkeit,
+        auch massive körperliche Verluste ohne lautes öffentliches Aufbegehren zu ertragen und
+        das Amt in gelassener, stiller Beharrlichkeit weiterzuführen. Genau diese Kombination –
+        das stille Festhalten an der selbst übernommenen Pflicht trotz sichtbarer körperlicher
+        Auflösung, ohne Rücktrittsgedanken – bestimmte den Umgang mit der eigenen
+        Parkinson-Erkrankung bis zum Tod.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Zittern der linken Hand in den frühen 1990er-Jahren:</strong>
+        Bereits Anfang der 1990er-Jahre bemerkten Beobachter ein leichtes Zittern seiner linken
+        Hand – zunächst von vielen als Spätfolge des Attentats von 1981 gedeutet, nicht als
+        eigenständige Erkrankung.</p>
+        <p class="vb-intro"><strong>b) Zunehmend verwaschene Sprache Ende der 1990er:</strong>
+        Gegen Ende der 1990er-Jahre wurde seine Sprache zunehmend undeutlicher, sein Gang
+        langsamer und steifer – Symptome, die der Vatikan offiziell nie kommentierte.</p>
+        <p class="vb-intro"><strong>c) Kein offizielles Eingeständnis der Diagnose:</strong>
+        Der Heilige Stuhl bestätigte die Parkinson-Diagnose nie ausdrücklich; erst 2003
+        räumte ein hochrangiger Vatikan-Kardinal, Giovanni Battista Re, die Erkrankung in
+        einem Interview öffentlich ein.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Erste sichtbare öffentliche Einschränkung 2001:</strong>
+        An Karfreitag 2001 konnte er erstmals in 23 Jahren Pontifikat das Kreuz bei der
+        Prozession in Rom nicht mehr selbst tragen – ein für die Öffentlichkeit unübersehbares
+        Zeichen des Fortschreitens.</p>
+        <p class="vb-intro"><strong>b) Zunehmende Mühe bei Auslandsreisen:</strong>
+        Bei einer Reise in die Slowakei 2004 konnte er sich kaum noch ohne fremde Hilfe auf
+        den Beinen halten und brachte Worte nur noch mühsam heraus – dennoch setzte er die
+        Reise programmgemäß fort.</p>
+        <p class="vb-intro"><strong>c) Kein Rückzug von öffentlichen Pflichten:</strong>
+        Trotz der fortschreitenden Einschränkung reduzierte er sein offizielles Programm nur
+        widerwillig und erschien weiterhin bei den meisten seiner angekündigten Audienzen und
+        Angelus-Gebete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Tracheotomie im Februar 2005:</strong>
+        Nach akuter Atemnot infolge einer Grippe wurde am 24. Februar 2005 eine Tracheotomie
+        durchgeführt, die ihm das Atmen erleichterte, seine ohnehin eingeschränkte
+        Sprachfähigkeit aber weiter beschnitt.</p>
+        <p class="vb-intro"><strong>b) Stumme Fenstererscheinungen statt Rücktritt:</strong>
+        Am 27. Februar 2005 zeigte er sich erstmals nach der Operation am Krankenhausfenster
+        der Gemelli-Klinik – ohne ein Wort zu sprechen, nur mit einer kurzen Segensgeste. Am
+        30. März brachte man ihm ein Mikrofon, doch er brachte nur noch heisere Laute heraus,
+        keine verständlichen Worte mehr.</p>
+        <p class="vb-intro"><strong>c) Kein Rücktritt trotz vollständigem Stimmverlust:</strong>
+        Obwohl ihm seine Stimme – jahrzehntelang eines seiner wichtigsten Werkzeuge als
+        Prediger und Weltreisender – faktisch vollständig genommen war, erwog er öffentlich nie
+        einen Rücktritt vom Amt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Weltweite Anteilnahme statt Imageverlust:</strong>
+        Die sichtbare, öffentlich mitverfolgte körperliche Auflösung schadete seinem Ansehen
+        nicht – im Gegenteil, sie wurde von vielen Gläubigen als Ausdruck gelebter
+        Glaubwürdigkeit und stiller Standhaftigkeit gedeutet.</p>
+        <p class="vb-intro"><strong>b) „Das Evangelium des Leidens" als gelebte Lehre:</strong>
+        Seine 1984 verfasste Enzyklika über den Sinn menschlichen Leidens erhielt durch seinen
+        eigenen, öffentlich sichtbaren Krankheitsverlauf zwei Jahrzehnte später eine zusätzliche,
+        ungeplante Glaubwürdigkeit.</p>
+        <p class="vb-intro"><strong>c) Letzte Lebenswochen und Tod:</strong>
+        Er starb am 2. April 2005 im Vatikan, nach Angaben des Vatikans an den Folgen von
+        Herz-Kreislauf-Versagen und septischem Schock infolge einer Harnwegsinfektion – letzte
+        Komplikationen auf dem Boden der fortgeschrittenen Parkinson-Erkrankung, die zuvor
+        bereits Schlucken und Atmung erheblich erschwert hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Pflichterfüllung, die sich nicht von Schwäche beeindrucken ließ:</strong>
+        Die SE1-typische, nach innen gerichtete Pflichtauffassung zeigte sich auch im Umgang
+        mit der eigenen Krankheit: Das Amt wurde nicht als etwas verstanden, das man bei
+        nachlassender Kraft abgeben durfte, sondern als lebenslange, selbst übernommene
+        Verpflichtung, die erst der Tod beenden durfte.</p>
+        <p class="vb-intro"><strong>b) Der Neunerflügel und das stille Ertragen statt öffentlicher Klage:</strong>
+        Dieselbe Zurückhaltung, mit der Wojtyła zeitlebens vor lauter Selbstinszenierung
+        zurückschreckte, prägte auch den Umgang mit der eigenen Erkrankung: kein öffentliches
+        Lamentieren, sondern ein stilles, geduldiges Weitermachen, so lange der Körper es
+        irgend zuließ.</p>
+        <p class="vb-intro"><strong>c) Die Fenstererscheinungen als letzte Form der Pflichterfüllung:</strong>
+        Dass er sich noch Wochen vor seinem Tod, ohne ein verständliches Wort sprechen zu
+        können, am Fenster zeigte, passt zur SE1w9-Haltung, die eigene Pflicht bis zur
+        physischen Grenze auszuüben, statt sich aus Scham oder Erschöpfung ganz
+        zurückzuziehen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Prediger und Weltreisender, dessen Werkzeug Stimme und Bewegung waren:</strong>
+        Wojtyłas gesamte Wirkung als Papst beruhte auf Sprache, Mimik, Reisen und
+        körperlicher Präsenz vor Millionenpublikum. Ausgerechnet diese Fähigkeiten – Stimme,
+        Mimik, freie Bewegung – wurden ihm durch die Parkinson-Erkrankung nach und nach
+        genommen.</p>
+        <p class="vb-intro"><strong>b) Eine Parallele im gleichen Subtyp:</strong>
+        Eine Parallele zeigt sich bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-phil-collins">Phil
+        Collins (SE1w9)</a>: Auch bei ihm versagte im mittleren Lebensalter genau jenes
+        körperliche Werkzeug – Hände und Wirbelsäule –, auf dem sein gesamtes Lebenswerk
+        beruhte, und auch er reagierte nicht mit Rückzug, sondern mit einer neuen, ebenso
+        disziplinierten Form des Weitermachens (sitzendes Konzert statt Schlagzeug). Bei
+        beiden SE1w9ern zeigt sich dasselbe Muster: Der Verlust des zentralen Ausdrucksmittels
+        wird nicht zum Anlass für Rückzug, sondern durch stille, angepasste Beharrlichkeit
+        kompensiert – bei Wojtyła bis zur stummen Geste am Krankenhausfenster, wo einst die
+        Stimme stand.</p>
+        <p class="vb-intro"><strong>c) Wenn die Eins unter chronischem Stress zur Vier wird:</strong>
+        Wer über anderthalb Jahrzehnte in fortschreitender, öffentlich kaum eingestandener
+        Krankheit lebt, bewegt sich zunehmend entlang seiner Stresslinie in Richtung seines
+        Stresspunkts – bei der Eins ist das die Vier. In seinen letzten Lebensjahren wirkte
+        Wojtyła bei öffentlichen Auftritten zunehmend introspektiv, melancholisch und
+        sichtbar leidend, ein auffälliger Kontrast zur humorvoll-gelassenen
+        Neunerflügel-Ausstrahlung seiner mittleren Amtsjahre. Diese ungewohnt nach innen
+        gerichtete, gezeichnete Präsenz erinnert an die gefühlsbetonte, leidensnahe Tönung des
+        Stresspunkts, nicht an die sachliche Pflichterfüllung des Kerntyps – bei unverändertem
+        Kerntyp SE1w9.</p>
+        <p class="vb-intro"><strong>d) Warum ausgerechnet Stimme, Mimik und Bewegung?</strong>
+        Für einen selbsterhaltenden Einser, dessen gesamte öffentliche Wirkung auf
+        kontrollierter Sprache, Mimik und bewusster körperlicher Präsenz vor Millionen
+        beruhte, liegt eine Deutung nahe: Ausgerechnet jene Fähigkeiten, die diese Kontrolle
+        ermöglichten – Stimme als Werkzeug der Lehre, Mimik als Ausdruck von Nähe, freie
+        Bewegung als Zeichen von Vitalität –, wurden zum Ort des fortschreitenden
+        Kontrollverlusts. Diese Deutung ist eine plausible Interpretation, kein belegter
+        klinischer Kausalzusammenhang, und wird im Psychosomatik-Register dieses Kompasses
+        noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Eins zwangsläufig zu
+        Parkinson-Erkrankungen führt – <strong>jeder Mensch kann jede Erkrankung entwickeln,
+        unabhängig vom Subtyp.</strong> Was sich an Wojtyłas Fall zeigen lässt, ist ein Muster
+        im Umgang mit einer schwerwiegenden, fortschreitenden Erkrankung, das bei einer
+        ausgeprägten selbsterhaltenden Eins mit Neunerflügel immer wieder auffällt – eine von
+        vielen möglichen Deutungen, kein Urteil. Das entsprechende Krankheitsbild wird in
+        diesem Kompass nach und nach im
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
+        ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Wojtyła kannte sein eigenes Muster vermutlich nicht als Enneagramm-Struktur – die
+        meisten Menschen seiner Generation kannten das Enneagramm überhaupt nicht. Die
+        selbsterhaltende Eins mit Neunerflügel hält reflexhaft an der eigenen, selbst
+        übernommenen Pflicht fest, statt rechtzeitig kürzerzutreten oder die eigene
+        Erschöpfung öffentlich zu benennen, und lebte genau dieses Muster bis zur physischen
+        Erschöpfung unverändert aus – nicht aus Schuld, sondern aus Unwissenheit über das
+        eigene Muster. Das erklärt, warum sich das Lebensmuster bis zur gesundheitlichen
+        Zuspitzung auslebte, statt rechtzeitig die Notbremse zu ziehen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Der selbsterhaltende Typ 1 mit Neunerflügel erklärt bei <strong>Johannes Paul
+        II.</strong> vieles am Umgang mit der eigenen Parkinson-Erkrankung: ein Papst, dessen
+        gesamte Wirkung auf Stimme, Mimik und körperlicher Präsenz beruhte, hielt an seinem
+        selbst übernommenen Amt fest, bis ihm genau diese Fähigkeiten vollständig genommen
+        waren – der Adler, der noch am Fenster stand und schweigend segnete, als die Stimme
+        längst verstummt war.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-johannes-paul-ii", label:"Porträt: Johannes Paul II. (SE1w9) – Lebenswerk"},
+        {route:"krankheitsportraets-phil-collins", label:"Krankheitsporträt: Phil Collins (SE1w9) – gleicher Subtyp"},
+        {route:"krankheitsportraets-astrid-lindgren", label:"Krankheitsporträt: Astrid Lindgren (SE1w9) – gleicher Subtyp"},
+        {route:"krankheitsportraets-robert-de-niro", label:"Krankheitsporträt: Robert De Niro (SE1w9) – gleicher Subtyp"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/se1", label:"Subtyp-Profil SE1"},
+      ])}
+    </div>
+  `);
+}

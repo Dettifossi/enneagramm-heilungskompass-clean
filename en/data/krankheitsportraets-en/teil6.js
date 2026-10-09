@@ -4707,3 +4707,194 @@ export function wimThoelkeKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function johannesPaulIIKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-johannes-paul-ii-portrait.jpg" alt="John Paul II" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Paul II</p>
+        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with Nine-Wing · 1920–2005</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Bald Eagle</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se1.jpg" alt="Animal correspondence: Bald Eagle" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE1")};left:${tierAvatarLeft("SE1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>John Paul II</strong> already appears in this Compass as a
+        <a href="javascript:void(0)" data-route="beruehmte-johannes-paul-ii">Famous
+        Personalities portrait</a> – that page covers his life's work as pope, philosopher and
+        spiritual leader. This page turns to an aspect only briefly noted there: the
+        progressive Parkinson's disease that increasingly marked his final decade and a half
+        in office.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Wojtyła</strong> is assigned to the <strong>self-preservation Type 1 with
+        Nine-Wing</strong>. The SE1 directs its perfectionism at its own duty and integrity,
+        not primarily at outward effect; the Nine-wing gives it the capacity to endure even
+        severe physical loss without loud public protest and to carry on the office with calm,
+        quiet persistence. Exactly this combination – quietly holding to a self-assumed duty
+        despite visible physical decline, without entertaining thoughts of resignation –
+        shaped his handling of his own Parkinson's disease until his death.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First signs</h3>
+        <p class="vb-intro"><strong>a) A tremor in the left hand in the early 1990s:</strong>
+        As early as the early 1990s, observers noticed a slight tremor in his left hand – at
+        first widely read as a late effect of the 1981 assassination attempt rather than a
+        condition in its own right.</p>
+        <p class="vb-intro"><strong>b) Increasingly slurred speech by the late 1990s:</strong>
+        By the late 1990s his speech had grown noticeably less distinct and his gait slower
+        and stiffer – symptoms the Vatican never officially commented on.</p>
+        <p class="vb-intro"><strong>c) No official acknowledgment of the diagnosis:</strong>
+        The Holy See never explicitly confirmed a Parkinson's diagnosis; only in 2003 did a
+        senior Vatican cardinal, Giovanni Battista Re, publicly acknowledge the condition in
+        an interview.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General characteristics</h3>
+        <p class="vb-intro"><strong>a) First visible public limitation in 2001:</strong>
+        On Good Friday 2001, for the first time in 23 years as pontiff, he was unable to
+        carry the cross himself during the Rome procession – an unmistakable public sign that
+        the disease was progressing.</p>
+        <p class="vb-intro"><strong>b) Growing difficulty on foreign trips:</strong>
+        During a 2004 trip to Slovakia he could barely stand without assistance and could
+        hardly get his words out – yet he completed the trip as scheduled regardless.</p>
+        <p class="vb-intro"><strong>c) No withdrawal from public duties:</strong>
+        Despite the advancing limitation, he reduced his official schedule only reluctantly
+        and continued to appear at most of his announced audiences and Angelus prayers.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential traits</h3>
+        <p class="vb-intro"><strong>a) Tracheotomy in February 2005:</strong>
+        After acute breathing trouble brought on by influenza, a tracheotomy was performed on
+        February 24, 2005, which eased his breathing but further curtailed his already
+        limited speech.</p>
+        <p class="vb-intro"><strong>b) Silent window appearances instead of resignation:</strong>
+        On February 27, 2005, he appeared for the first time after the surgery at the window
+        of the Gemelli hospital – without speaking a word, only a brief blessing gesture. On
+        March 30 a microphone was brought to him, but he could manage only hoarse sounds, no
+        intelligible words.</p>
+        <p class="vb-intro"><strong>c) No resignation despite complete loss of voice:</strong>
+        Although his voice – for decades one of his most important tools as a preacher and
+        world traveler – was effectively taken from him entirely, he never publicly
+        entertained resigning the office.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall effect</h3>
+        <p class="vb-intro"><strong>a) Worldwide sympathy instead of image loss:</strong>
+        The visible, publicly witnessed physical decline did not harm his standing – on the
+        contrary, many of the faithful read it as an expression of lived credibility and
+        quiet steadfastness.</p>
+        <p class="vb-intro"><strong>b) "Salvifici Doloris" as a lived teaching:</strong>
+        His 1984 encyclical on the meaning of human suffering ("The Christian Meaning of
+        Human Suffering") gained an additional, unplanned credibility two decades later
+        through his own publicly visible illness.</p>
+        <p class="vb-intro"><strong>c) Final weeks and death:</strong>
+        He died on April 2, 2005, at the Vatican; according to the Vatican's account, from
+        cardiovascular collapse and septic shock following a urinary tract infection – final
+        complications on top of the advanced Parkinson's disease, which had already severely
+        impaired swallowing and breathing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic effect</h3>
+        <p class="vb-intro"><strong>a) A sense of duty unimpressed by weakness:</strong>
+        The SE1's characteristic, inward-directed sense of duty also showed in how he handled
+        his own illness: the office was never treated as something to be relinquished once
+        strength faded, but as a lifelong, self-assumed obligation that only death could end.</p>
+        <p class="vb-intro"><strong>b) The Nine-wing and quiet endurance instead of public complaint:</strong>
+        The same reserve with which Wojtyła shied away from self-dramatization throughout his
+        life also marked how he handled his own illness: no public lament, but a quiet,
+        patient carrying-on for as long as his body allowed it.</p>
+        <p class="vb-intro"><strong>c) The window appearances as a final form of duty:</strong>
+        That he still showed himself at the window weeks before his death, unable to speak an
+        intelligible word, fits the SE1w9 pattern of carrying out one's duty to the physical
+        limit rather than withdrawing entirely out of shame or exhaustion.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The illness as a common thread</h3>
+        <p class="vb-intro"><strong>a) A preacher and world traveler whose tools were voice and movement:</strong>
+        Wojtyła's entire effect as pope rested on speech, facial expression, travel and
+        physical presence before audiences of millions. Exactly these abilities – voice,
+        expression, free movement – were taken from him step by step by Parkinson's disease.</p>
+        <p class="vb-intro"><strong>b) A parallel within the same subtype:</strong>
+        A parallel appears with
+        <a href="javascript:void(0)" data-route="krankheitsportraets-phil-collins">Phil
+        Collins (SE1w9)</a>: in him too, in midlife, exactly the physical tool his entire
+        life's work rested on – hands and spine – gave out, and he too responded not with
+        withdrawal but with a new, equally disciplined form of carrying on (a seated concert
+        instead of drumming). The same pattern shows in both SE1w9s: the loss of the central
+        means of expression is not met with retreat but compensated through quiet, adapted
+        persistence – in Wojtyła's case, down to the silent gesture at the hospital window,
+        where his voice once stood.</p>
+        <p class="vb-intro"><strong>c) When the One turns toward the Four under chronic stress:</strong>
+        Anyone who lives for a decade and a half with a progressive, publicly barely
+        acknowledged illness increasingly moves along their stress line toward their stress
+        point – for the One, that is the Four. In his final years, Wojtyła appeared at public
+        events increasingly introspective, melancholic, and visibly suffering, a striking
+        contrast to the humorous, easygoing Nine-wing presence of his middle years in office.
+        This unusually inward-turned, marked presence recalls the emotionally charged,
+        suffering-near tone of the stress point, not the matter-of-fact dutifulness of the
+        core type – with the core type SE1w9 unchanged.</p>
+        <p class="vb-intro"><strong>d) Why voice, expression, and movement specifically?</strong>
+        For a self-preservation One whose entire public effect rested on controlled speech,
+        expression, and deliberate physical presence before millions, one reading suggests
+        itself: exactly the faculties that made this control possible – voice as the tool of
+        teaching, expression as a sign of closeness, free movement as a sign of vitality –
+        became the site of progressive loss of control. This reading is a plausible
+        interpretation, not a documented clinical causal link, and will be developed further
+        in this Compass's Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>e) A framework without determinism:</strong>
+        This does not mean the self-preservation One's pattern inevitably leads to
+        Parkinson's disease – <strong>anyone can develop any illness, regardless of
+        subtype.</strong> What Wojtyła's case can show is a pattern in how a serious,
+        progressive illness was handled, one that recurs in a pronounced self-preservation
+        One with Nine-wing – one of many possible readings, not a verdict. The corresponding
+        illness picture will be developed gradually in this Compass's
+        <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        Wojtyła most likely did not know his own pattern as an Enneagram structure – most
+        people of his generation had never heard of the Enneagram at all. The
+        self-preservation One with Nine-wing holds reflexively to its own, self-assumed duty
+        rather than stepping back in time or naming its own exhaustion publicly, and he lived
+        out exactly this pattern unchanged to the point of physical exhaustion – not out of
+        guilt, but out of not knowing his own pattern. This explains why the life pattern
+        played itself out to the point of medical crisis rather than pulling the emergency
+        brake in time.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The self-preservation Type 1 with Nine-Wing explains much about how <strong>John Paul
+        II</strong> handled his own Parkinson's disease: a pope whose entire effect rested on
+        voice, expression and physical presence held to the office he had taken on until
+        exactly these faculties were fully taken from him – the eagle that still stood at the
+        window and blessed in silence, long after the voice had fallen still.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SE1w9) – life's work"},
+        {route:"krankheitsportraets-phil-collins", label:"Illness Portrait: Phil Collins (SE1w9) – same subtype"},
+        {route:"krankheitsportraets-astrid-lindgren", label:"Illness Portrait: Astrid Lindgren (SE1w9) – same subtype"},
+        {route:"krankheitsportraets-robert-de-niro", label:"Illness Portrait: Robert De Niro (SE1w9) – same subtype"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/se1", label:"Subtype Profile SE1"},
+      ])}
+    </div>
+  `);
+}

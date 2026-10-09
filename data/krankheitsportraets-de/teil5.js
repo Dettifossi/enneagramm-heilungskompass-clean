@@ -4128,7 +4128,11 @@ export function philCollinsKrankheitsportraetPage() {
         mit öffentlicher Klage, sondern mit einer neuen, ebenso disziplinierten Arbeitsweise
         (Diktat statt Schreiben, sitzendes Konzert statt Schlagzeug). Bei beiden SE1w9ern zeigt
         sich dasselbe Muster: Der Verlust des zentralen Arbeitswerkzeugs wird durch Disziplin
-        und pragmatische Anpassung kompensiert, statt öffentlich verhandelt zu werden.</p>
+        und pragmatische Anpassung kompensiert, statt öffentlich verhandelt zu werden. Dieselbe
+        Logik zeigt sich auch bei
+        <a href="javascript:void(0)" data-route="krankheitsportraets-johannes-paul-ii">Johannes
+        Paul II. (SE1w9)</a>, dem die Parkinson-Erkrankung Stimme und freie Bewegung nahm und
+        der dennoch bis zur stummen Geste am Krankenhausfenster im Amt blieb.</p>
         <p class="vb-intro"><strong>c) Wenn die Eins unter chronischem Stress zur Vier wird:</strong>
         Collins' Autobiografie ›Not Dead Yet‹ (2016) fällt durch einen für die sonst so
         sachliche, disziplinierte SE1 ungewöhnlichen Ton auf: ausführliche, introspektive
