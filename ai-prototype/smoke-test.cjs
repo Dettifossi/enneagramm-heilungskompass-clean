@@ -39,6 +39,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-carl-xvi-gustaf", label: "Neues EN-Porträt: Carl XVI. Gustaf" },
   { hash: "#beruehmte-katharina-die-grosse", label: "Neues Porträt: Katharina die Große" },
   { hash: "en/#beruehmte-katharina-die-grosse", label: "Neues EN-Porträt: Katharina die Große" },
+  { hash: "#beruehmte-mette-marit", label: "Neues Porträt: Mette-Marit" },
+  { hash: "en/#beruehmte-mette-marit", label: "Neues EN-Porträt: Mette-Marit" },
 ];
 
 function startServer() {

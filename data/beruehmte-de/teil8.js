@@ -2458,3 +2458,70 @@ export function veronicaFerresPortraitPage() {
     </div>
   `);
 }
+
+export function metteMaritPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-mette-marit-portrait.jpg" alt="Mette-Marit – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mette-Marit</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Selbsterhaltungstyp 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Kronprinzessin, seit 2026 Königin von Norwegen, geb. 1973 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die ihre Herkunft nicht verbarg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> erträgt Härte still, ohne sie laut zu zeigen – sie findet nach Stürmen zurück zum eigenen Nest, beharrlich, ohne Drama nach außen. Mette-Marit Tjessem Høiby wurde 1973 in Kristiansand geboren, die Eltern ließen sich früh scheiden, sie wuchs bei der Mutter auf. In ihren Studienjahren in Oslo erlebte sie, was sie selbst eine ›Jugendrebellion‹ nannte – eine intensive, grenzüberschreitende Phase, in der sie 1997 einen Sohn, Marius, bekam, dessen Vater später wegen Drogendelikten verurteilt wurde.</p>
+          <p class="vb-intro">Statt die eigene Geschichte zu verbergen, zog sie Marius als alleinerziehende, berufstätige Mutter groß, bevor sie 1999 Kronprinz Haakon kennenlernte. Als die Verlobung 2000 bekannt wurde, war die öffentliche Reaktion scharf: eine Bürgerliche mit unehelichem Kind, umgeben von Gerüchten über eine Partyvergangenheit und Drogenkonsum. Die Taube trägt die eigene Vorgeschichte mit sich, ohne sie zu kaschieren – auch wenn das bedeutet, ihr stand zu halten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Selbsterhaltungs-Vier: Zähigkeit statt Klage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Selbsterhaltungs-Vier (SE4)</strong> – Naranjo nannte diesen Subtyp ›Tenacity‹, Zähigkeit – erträgt Härte diszipliniert und still, statt sie dramatisch nach außen zu zeigen; das Gefühl, grundlegend ›disqualifiziert‹ zu sein, wird durch beharrliches Durchhalten bearbeitet, nicht durch Klage. Mette-Marit arbeitete für den eigenen Lebensunterhalt und den ihres Sohnes, während um sie herum öffentlich über ihre Eignung als künftige Kronprinzessin debattiert wurde – kein Rückzug, sondern ein stilles Weitermachen durch eine der intensivsten öffentlichen Prüfungsphasen, die eine moderne Thronfolgerin durchlaufen musste.</p>
+          <p class="vb-intro">Dieses Muster zeigte sich erneut nach dem Terroranschlag auf Utøya 2011, bei dem ihr Stiefbruder Trond Berntsen starb: Statt sich zurückzuziehen, suchte sie bewusst die Nähe zu den Betroffenen und zur norwegischen Bevölkerung, in der schwersten Stunde des Landes. Die SE4 flieht nicht vor dem Schmerz, sondern bleibt in ihm präsent – zäh, aber nicht spektakulär.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die sichtbare Rehabilitierung des eigenen Bildes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> verbindet die innere Zähigkeit der Vier mit dem Bedürfnis nach sichtbarem, überprüfbarem Erfolg – die eigene Disqualifikation wird nicht nur ausgehalten, sondern durch konkrete, vorzeigbare Leistung schrittweise widerlegt. Mette-Marit übernahm seit 2006 die Rolle der UNAIDS-Sonderbotschafterin, gründete gemeinsam mit Haakon die Kronprinzenpaar-Stiftung und baute über Jahre ein breites, sichtbares Engagement auf: Armutsbekämpfung, Bildung, Flüchtlingsarbeit, psychische Gesundheit.</p>
+          <p class="vb-intro">Besonders aufschlussreich ist ihr ›Literaturzug‹, mit dem sie über mehrere Jahre jeweils eine Woche lang per Bahn durch Norwegen reiste, um zum Lesen anzuregen, später fortgeführt als ›Literaturmetro‹ in der Osloer U-Bahn. Das sind keine abstrakten Wohltätigkeitsgesten, sondern konkrete, persönlich initiierte und über Jahre durchgehaltene Projekte – die sichtbare, leistungsbezogene Seite der SE4w3, die der eigenen Geschichte schrittweise neue Bedeutung gibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Von der umstrittenen Verlobten zur anerkannten Stimme für Verwundbare</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bloße Imagepflege erklärt nicht, warum Mette-Marits öffentliches Ansehen sich über zwei Jahrzehnte spürbar wandelte. Ihr Schwiegervater, König Harald V. (selbst SE1w9, siehe eigenes Porträt), lobte sie früh öffentlich als ungewöhnlich engagiert und ungewöhnlich mutig – eine bemerkenswerte Rückendeckung angesichts der anfänglichen öffentlichen Kontroverse um ihre Person.</p>
+          <p class="vb-intro">Ihr literarisches Engagement wuchs über die Jahre zu einer eigenständigen kulturpolitischen Stimme: Als Botschafterin für norwegische Literatur initiierte sie mehrere landesweite Leseprojekte und gab gemeinsam mit dem Schriftsteller Geir Gulliksen eine Sammlung von Geschichten und Essays heraus, deren Erlöse wohltätigen Zwecken zugutekommen. Mit Haakons Thronbesteigung 2026 wurde sie Königin von Norwegen – nach einem Weg, der mit massiver öffentlicher Skepsis begann und in eine der am längsten anhaltenden, kontinuierlich ausgebauten royalen Sozialengagements Europas mündete.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der Selbsterhaltungs-Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Mette-Marit die Fähigkeit, eine als disqualifizierend erlebte Vorgeschichte nicht zu verstecken, sondern in beharrliche, über Jahrzehnte durchgehaltene Arbeit für verwundbare Gruppen zu übersetzen – Jugendliche, Geflüchtete, Menschen mit psychischen Erkrankungen, Menschen mit HIV. Der Dreierflügel sorgt dafür, dass dieses Engagement nicht im Stillen bleibt, sondern konkrete, sichtbare Form annimmt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> – bei der SE4 oft als quälender Vergleich mit anderen erlebt, die scheinbar ohne die eigene ›disqualifizierende‹ Vorgeschichte auskommen. Umfragen zeigen, dass Mette-Marits öffentliche Anerkennung bis heute geringer ausfällt als die ihres Mannes, der seit Jahrzehnten ohne vergleichbare Kontroversen auftritt – eine Umfrage von InFact sah nur knapp 30 Prozent der Befragten, die ihr die Rolle der Königin in hohem Maße zutrauten. Der Schatten der SE4w3 zeigt sich darin, dass selbst jahrzehntelange sichtbare Leistung die ursprüngliche Disqualifikation im öffentlichen Bild nie vollständig auflöst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Disqualifikation zur gleichwertigen Würde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt vom Neid zur Gleichmut – von der Frage <em>Muss ich meine disqualifizierte Vergangenheit durch ständige sichtbare Leistung wettmachen?</em> zur Erkenntnis <em>Mein Wert hängt nicht von fortlaufender Rehabilitierung ab.</em> Für die SE4w3 bedeutet das, das eigene Engagement nicht länger als Beweisführung gegen die eigene Disqualifikation zu erleben, sondern als das, was es im Kern bereits ist: echte Zuwendung zu Menschen in ähnlicher Lage.</p>
+          <p class="vb-intro">Dass Mette-Marit nach Utøya 2011 nicht die öffentliche Bühne suchte, um ihr eigenes Bild zu verbessern, sondern schlicht bei den trauernden Menschen sein wollte, liest sich als Ansatz dieses Weges: eine Zuwendung, die nicht mehr dem eigenen Image diente, sondern tatsächlich den Menschen galt, die sie brauchten.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
+        {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
+        {route:"beruehmte-harald-v", label:"Porträt: König Harald V. (SE1w9) – Schwiegervater"},
+        {route:"beruehmte-carl-xvi-gustaf", label:"Porträt: Carl XVI. Gustaf (SE1w9)"},
+      ])}
+    </div>
+  `);
+}

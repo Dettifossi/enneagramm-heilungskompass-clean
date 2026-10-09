@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2471", date: "2026-10-09", text: "Neues Porträt: Mette-Marit (SE4w3) – Königin von Norwegen.", text_en: "New portrait: Mette-Marit (SE4w3) – Queen of Norway.", route: "beruehmte-mette-marit" },
     { version: "v2470", date: "2026-10-09", text: "Neues Porträt: Katharina die Große (SO3w2) – Kaiserin von Russland.", text_en: "New portrait: Catherine the Great (SO3w2) – Empress of Russia.", route: "beruehmte-katharina-die-grosse" },
     { version: "v2469", date: "2026-10-09", text: "Neues Porträt: Carl XVI. Gustaf (SE1w9) – König von Schweden.", text_en: "New portrait: Carl XVI Gustaf (SE1w9) – King of Sweden.", route: "beruehmte-carl-xvi-gustaf" },
     { version: "v2468", date: "2026-10-08", text: "Neues Porträt: Henri Poincaré (SO5w6) – Mathematiker, Physiker und Wissenschaftsphilosoph.", text_en: "New portrait: Henri Poincaré (SO5w6) – mathematician, physicist and philosopher of science.", route: "beruehmte-henri-poincare" },

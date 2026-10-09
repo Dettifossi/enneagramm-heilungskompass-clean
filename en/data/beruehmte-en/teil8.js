@@ -2443,3 +2443,70 @@ export function stanleyMandelstamPortraitPage() {
     </div>
   `);
 }
+
+export function metteMaritPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-mette-marit-portrait.jpg" alt="Mette-Marit – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Mette-Marit</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Self-Preservation Type 4 with a Three-wing</p>
+        <p class="krim-portrait-subtitle">Crown Princess, Queen of Norway since 2026, b. 1973 &ndash; animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The dove that didn't hide where it came from</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> endures hardship quietly, without showing it loudly – it finds its way back to its own nest after storms, persistent, without external drama. Mette-Marit Tjessem Høiby was born in 1973 in Kristiansand; her parents divorced early, and she grew up with her mother. During her university years in Oslo she went through what she herself called a "youth rebellion" – an intense, boundary-crossing phase during which she had a son, Marius, in 1997, whose father was later convicted of drug offenses.</p>
+          <p class="vb-intro">Rather than concealing her own story, she raised Marius as a single, working mother before meeting Crown Prince Haakon in 1999. When the engagement became public in 2000, the reaction was sharp: a commoner with a child born out of wedlock, surrounded by rumors of a party past and drug use. The dove carries its own history with it instead of disguising it – even when that means standing firm under scrutiny.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Four: tenacity instead of complaint</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SE4)</strong> – Naranjo called this subtype "tenacity" – endures hardship with discipline and quiet, rather than displaying it dramatically; the feeling of being fundamentally "disqualified" is worked through by stubborn persistence, not complaint. Mette-Marit worked to support herself and her son while the public openly debated her fitness to become future Crown Princess – no withdrawal, just quietly carrying on through one of the most intense public vetting periods a modern heir's partner has faced.</p>
+          <p class="vb-intro">The same pattern showed again after the 2011 Utøya terrorist attack, in which her stepbrother Trond Berntsen died: rather than withdrawing, she deliberately sought closeness with those affected and with the Norwegian people, in the country's hardest hour. The SE4 does not flee from pain but stays present within it – tenacious, not spectacular.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: visibly rehabilitating her own image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing</strong> connects the Four's inner tenacity with a need for visible, verifiable achievement – the felt disqualification is not merely endured but gradually disproved through concrete, demonstrable accomplishment. Since 2006 Mette-Marit has served as a UNAIDS Special Representative, co-founded the Crown Prince and Crown Princess's Foundation with Haakon, and built a broad, visible commitment over the years: fighting poverty, education, refugee work, mental health.</p>
+          <p class="vb-intro">Particularly telling is her "Literature Train," on which she traveled by rail through Norway for a week at a time over several years to encourage reading, later continued as a "Literature Metro" on the Oslo subway. These are not abstract charitable gestures but concrete, personally initiated projects sustained over years – the visible, achievement-oriented side of the SE4w3, giving her own story new meaning step by step.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: from controversial fiancée to recognized voice for the vulnerable</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mere image management does not explain why Mette-Marit's public standing shifted noticeably over two decades. Her father-in-law, King Harald V (himself an SE1w9, see his own portrait), publicly praised her early on as unusually committed and unusually brave – remarkable backing given the initial public controversy surrounding her.</p>
+          <p class="vb-intro">Her literary engagement grew over the years into an independent cultural-policy voice: as an ambassador for Norwegian literature, she initiated several nationwide reading projects and, together with writer Geir Gulliksen, published a collection of stories and essays whose proceeds go to charity. With Haakon's accession to the throne in 2026, she became Queen of Norway – at the end of a path that began with massive public skepticism and led to one of Europe's longest-sustained, continuously expanded royal commitments to social causes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the self-preservation Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In its light, Mette-Marit shows the capacity not to hide a history she experienced as disqualifying, but to translate it into decades of sustained work for vulnerable groups – young people, refugees, people with mental illness, people living with HIV. The Three-wing ensures that this commitment doesn't stay quiet, but takes concrete, visible form.</p>
+          <p class="vb-intro">The Four's besetting sin is <strong>envy</strong> – in the SE4 often experienced as a painful comparison with others who seem to get by without her own "disqualifying" history. Polls show that Mette-Marit's public approval remains lower than her husband's, who has stood in the spotlight for decades without comparable controversy – one InFact poll found only about 30 percent of respondents who had high confidence in her as a future queen. The shadow side of the SE4w3 shows in how even decades of visible achievement never fully dissolves the original disqualification in the public image.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The healing path: from disqualification to equal worth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Four's healing path leads from envy to equanimity – from the question <em>Must I make up for my disqualified past through constant, visible achievement?</em> to the realization <em>My worth does not depend on ongoing rehabilitation.</em> For the SE4w3, this means no longer experiencing one's own commitment as an argument against one's own disqualification, but as what it already is at its core: genuine care for people in similar circumstances.</p>
+          <p class="vb-intro">That Mette-Marit, after Utøya in 2011, did not seek the public stage to improve her own image but simply wanted to be with the grieving reads as an approach to this path: a form of care that no longer served her own image, but actually served the people who needed it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se4", label:"SE4 – The Dove: subtype profile"},
+        {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SE4 – Dove"},
+        {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SE4w3)"},
+        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SE1w9) – father-in-law"},
+        {route:"beruehmte-carl-xvi-gustaf", label:"Portrait: Carl XVI Gustaf (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
