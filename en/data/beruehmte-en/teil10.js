@@ -2403,7 +2403,7 @@ export function johannesPaulIIPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="/assets/portraits/beruehmte-johannes-paul-ii-portrait.jpg" alt="John Paul II – portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="/assets/portraits/beruehmte-johannes-paul-ii-repo.jpg" alt="John Paul II – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">John Paul II</p>
         <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine-Wing</p>
