@@ -2447,7 +2447,7 @@ export function johannesPaulIIPortraitPage() {
           <p class="vb-intro">His gesture of forgiveness toward his would-be assassin in 1983 and his later reconciliation gestures toward Judaism and Islam read as exactly this step on the healing path: a discipline practiced inwardly for decades that, in his more mature years, increasingly translated into lived grace – never quite abandoning its inner rigor, but growing ever more willing to grant others, and in the end himself, room for imperfection.</p>
         </blockquote>
 
-        <p class="vb-intro">A significant part of his final years was a progressive Parkinson's disease that took his voice and movement without him ever stepping down – covered in full in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-johannes-paul-ii">illness portrait</a>.</p>
+        <p class="vb-intro">In his final years he suffered from a progressive Parkinson's disease that took his voice and movement, without him ever stepping down – covered in full in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-johannes-paul-ii">illness portrait</a>.</p>
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}

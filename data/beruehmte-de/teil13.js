@@ -2492,7 +2492,7 @@ export function johannesPaulIIPortraitPage() {
           <p class="vb-intro">Die Vergebungsgeste gegenüber seinem Attentäter 1983 und die späten Versöhnungsgesten gegenüber Judentum und Islam lesen sich als genau dieser Schritt auf dem Heilungsweg: eine über Jahrzehnte innerlich geübte Strenge, die sich im reiferen Alter zunehmend in gelebte Gnade übersetzt – ohne die innere Disziplin je ganz aufzugeben, aber mit wachsender Bereitschaft, auch anderen (und am Ende sich selbst) Fehler zuzugestehen.</p>
         </blockquote>
 
-        <p class="vb-intro">Ein wesentlicher Teil seiner letzten Lebensjahre war eine fortschreitende Parkinson-Erkrankung, die ihm Stimme und Bewegung nahm, ohne dass er je zurücktrat – ausführlich dargestellt im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-johannes-paul-ii">Krankheitsporträt</a>.</p>
+        <p class="vb-intro">In seinen letzten Lebensjahren litt er an einer fortschreitenden Parkinson-Erkrankung, die ihm Stimme und Bewegung nahm, ohne dass er je zurücktrat – ausführlich dargestellt im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-johannes-paul-ii">Krankheitsporträt</a>.</p>
 
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
