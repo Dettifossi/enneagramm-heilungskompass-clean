@@ -2438,3 +2438,70 @@ export function ursulaLyonPortraitPage() {
     </div>
   `);
 }
+
+export function katharinaDieGrossePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-katharina-die-grosse-portrait.jpg" alt="Catherine the Great – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Catherine the Great</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with a Two-wing</p>
+        <p class="krim-portrait-subtitle">Empress of Russia, 1729&ndash;1796 &ndash; animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The cheetah that turned a provincial princess into an empress</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>cheetah</strong> doesn't wait for permission to shine – it seizes the one decisive moment the instant it appears. Sophie Auguste Friederike of Anhalt-Zerbst, born in 1729, the daughter of a minor German prince, arrived at the Russian court in 1744 at age fifteen to marry the designated heir, Peter. She had no hereditary claim whatsoever to the Russian throne – everything she later achieved she owed to a position she built herself, systematically.</p>
+          <p class="vb-intro">She learned Russian with fanatical determination, converted to the Orthodox Church and took the name Yekaterina, and studied the mentality of court and people to play the role of Russian ruler to perfection – an eighteen-year preparation period inside a marriage she herself later described as agonizing, which she came to interpret as a deliberate hardening of her own character. In 1762 she helped engineer the coup that deposed her luckless husband, Peter III, and ascended the throne herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Three: the state as a stage before all of Europe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Three (SO3)</strong> asks not only <em>Have I accomplished something?</em> but <em>Do I embody the image society expects of me?</em> – recognition is not a side effect, but the actual fuel. Catherine answered that question with a decades-long correspondence with the great philosophers of the Enlightenment: from 1763 until Voltaire's death in 1778, she exchanged letters with him regularly, earning her an intellectual reputation across Europe – Voltaire is said to have even coined her epithet "the Great."</p>
+          <p class="vb-intro">Her court was deliberately built to be lavish enough to outshine Versailles, and her military successes, such as the annexation of Crimea in 1783, were celebrated as elaborately staged public triumphs rather than merely administered. The social Three builds the stage on which her accomplishment must be seen by the entire community – for Catherine, that community was not only Russia, but educated Europe as a whole.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: power through sustained personal closeness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> gives the social Three a warm, relationship-oriented note – recognition is secured not through cool distance, but through personal attention and lasting bonds. Catherine's more than twenty documented lovers were far more than romantic episodes: through Grigori Orlov, for instance, she gained the decisive link to the military for the 1762 coup – a strategic alliance paired with genuine, long-standing personal closeness.</p>
+          <p class="vb-intro">Telling is how she treated her former lovers: none was ever pursued or disadvantaged after the relationship ended, most received generous gifts and often remained influential. Grigori Potemkin, for instance, remained her closest political confidant and de facto co-ruler until his death in 1791, long after their romantic relationship had ended. The SO3w2 seeks confirmation not in distanced authority, but in the direct, lasting personal bond with those she gathers around her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: legal reform, education, and founding the Hermitage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mere self-presentation does not explain why Catherine is still regarded as one of the most significant rulers in European history. In 1767 she convened the Legislative Commission and presented it with the "Nakaz," a guide for a new legal code grounded in Enlightenment ideas – the document was translated into several European languages and circulated far beyond Russia, even though the commission ultimately disbanded without producing a finished law code.</p>
+          <p class="vb-intro">In 1764 she founded the Smolny Institute, one of the first state-sponsored educational institutions for women in Europe, followed by twenty more institutes for girls from less wealthy families. That same year, her purchase of a private painting collection laid the foundation for the Hermitage, which grew into one of the world's most significant cultural institutions. In 1775 her Statute on Provincial Administration reorganized Russia's entire administrative structure into provinces and districts with elected officials and local courts – a professionally grounded administrative reform that went far beyond symbolic grandeur.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the social Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In its light, Catherine shows the capacity to modernize an empire from a position with no hereditary claim whatsoever, to connect Russia's intellectual life with Europe, and to create, with the Hermitage, a cultural legacy that endures today. The Legislative Commission and the Statute on Provincial Administration show that real, professionally grounded reform work stood behind the glittering facade.</p>
+          <p class="vb-intro">The shadow side of the SO3w2 shows in how the same drive for visible splendor and European recognition carried real social costs: serfdom was not eased under Catherine but rather tightened through concessions to the nobility – the Pugachev Rebellion of 1773 to 1775, one of the largest peasant uprisings in Russian history, was the direct consequence of this policy. The three partitions of Poland, in which Russia participated under her rule, visibly expanded the empire but cost Poland-Lithuania its state independence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The healing path: from the stage to real connection</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three's healing path leads from self-deception to authenticity – from the question <em>Do I successfully embody the image others expect of me?</em> to the realization <em>I am valuable even without constant confirmation from an audience.</em> For the SO3w2, this means no longer using one's own achievement merely as a means to admiration, but valuing it for what it actually accomplishes.</p>
+          <p class="vb-intro">That Catherine never dropped her former lovers but preserved trust, influence, and personal closeness with them well beyond the end of the relationship – above all Potemkin, who remained her closest political partner until his death – reads as an approach to this path: a capacity for real, lasting bonds that went beyond mere outward performance.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: subtype profile"},
+        {route:"lebensmusterkompass/so3", label:"Life Pattern Compass: SO3 – Cheetah"},
+        {route:"beruehmte-ludwig-xiv", label:"Portrait: Louis XIV (SO3w2) – the Sun King"},
+        {route:"beruehmte-klemens-von-metternich", label:"Portrait: Klemens von Metternich (SO3w2)"},
+        {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
+      ])}
+    </div>
+  `);
+}

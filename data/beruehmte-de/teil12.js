@@ -2443,3 +2443,70 @@ export function rikuMiuraPortraitPage() {
     </div>
   `);
 }
+
+export function katharinaDieGrossePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-katharina-die-grosse-portrait.jpg" alt="Katharina die Große – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Katharina die Große</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Kaiserin von Russland, 1729&ndash;1796 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard, der eine Prinzessin aus der Provinz zur Kaiserin machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> wartet nicht auf die Erlaubnis zu glänzen – er ergreift den einen entscheidenden Moment, sobald sich die Gelegenheit bietet. Sophie Auguste Friederike von Anhalt-Zerbst, geboren 1729 als Tochter eines unbedeutenden deutschen Fürsten, kam 1744 als 15-Jährige an den russischen Hof, um den designierten Thronfolger Peter zu heiraten. Sie besaß keinerlei erbliches Anrecht auf den russischen Thron – alles, was sie später erreichte, verdankte sie der eigenen, systematisch aufgebauten Position.</p>
+          <p class="vb-intro">Fanatisch lernte sie Russisch, konvertierte zur orthodoxen Kirche und nahm den Namen Jekaterina an, studierte die Mentalität von Hof und Volk, um die Rolle der russischen Herrscherin perfekt auszufüllen – eine achtzehnjährige Vorbereitungszeit in einer von ihr selbst als quälend beschriebenen Ehe, die sie später als bewusste Härtung des eigenen Charakters deutete. 1762 ließ sie ihren glücklosen Ehemann Peter III. in einem von ihr mitgetragenen Putsch stürzen und bestieg selbst den Thron.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Der Staat als Bühne vor ganz Europa</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> fragt nicht nur ›Habe ich etwas erreicht?‹, sondern ›Verkörpere ich das Bild, das die Gesellschaft von mir erwartet?‹ – Anerkennung ist kein Nebeneffekt, sondern der eigentliche Treibstoff. Katharina beantwortete diese Frage mit einer über Jahrzehnte geführten Korrespondenz mit den großen Philosophen der Aufklärung: Von 1763 bis zu Voltaires Tod 1778 stand sie mit ihm in regem Briefwechsel, der ihr europaweiten intellektuellen Ruf einbrachte – Voltaire soll ihr sogar den Beinamen ›die Große‹ verliehen haben.</p>
+          <p class="vb-intro">Ihr Hof wurde bewusst so prunkvoll gestaltet, dass er Versailles übertreffen sollte, und ihre militärischen Erfolge wie die Annexion der Krim 1783 wurden als aufwendig inszenierte, öffentliche Triumphe zelebriert, nicht nur verwaltet. Die soziale Drei baut sich die Bühne, auf der ihre Leistung von der gesamten Gemeinschaft gesehen werden muss – bei Katharina war diese Gemeinschaft nicht nur Russland, sondern das gebildete Europa insgesamt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Macht durch anhaltende persönliche Nähe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sozialen Drei eine warme, beziehungsorientierte Note – Anerkennung wird nicht durch kühle Distanz gesichert, sondern durch persönliche Zuwendung und dauerhafte Bindung. Katharinas mehr als zwanzig dokumentierte Liebhaber waren weit mehr als romantische Episoden: Über Grigori Orlow etwa erhielt sie beim Putsch 1762 die entscheidende Anbindung ans Militär – eine strategische Allianz, verbunden mit echter, langjähriger persönlicher Nähe.</p>
+          <p class="vb-intro">Bezeichnend ist, wie sie mit ihren früheren Liebhabern umging: Keiner von ihnen wurde nach der Trennung verfolgt oder benachteiligt, die meisten erhielten großzügige Geschenke und blieben oft weiterhin einflussreich. Grigori Potjomkin etwa blieb bis zu seinem Tod 1791 engster politischer Vertrauter und de facto Mitregent, weit über das Ende ihrer romantischen Beziehung hinaus. Die SO3w2 sucht Bestätigung nicht in distanzierter Autorität, sondern im direkten, dauerhaften persönlichen Band zu jenen, die sie um sich versammelt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Gesetzesreform, Bildung und die Gründung der Eremitage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bloße Selbstinszenierung erklärt nicht, warum Katharina bis heute als eine der bedeutendsten Herrscherinnen der europäischen Geschichte gilt. 1767 berief sie die Gesetzgebende Kommission ein und legte ihr die ›Nakaz‹ vor, eine auf Aufklärungsideen gestützte Anleitung für ein neues Rechtssystem – das Dokument wurde in mehrere europäische Sprachen übersetzt und zirkulierte weit über Russland hinaus, auch wenn die Kommission letztlich ohne fertiges Gesetzbuch aufgelöst wurde.</p>
+          <p class="vb-intro">1764 gründete sie das Smolny-Institut, eine der ersten staatlich getragenen Bildungseinrichtungen für Frauen in Europa, dem sie zwanzig weitere Institute für Mädchen aus weniger wohlhabenden Familien folgen ließ. Im selben Jahr legte sie mit dem Ankauf einer privaten Gemäldesammlung den Grundstein für die Eremitage, die sich zu einer der bedeutendsten Kultureinrichtungen der Welt entwickelte. 1775 reorganisierte sie mit dem Gouvernementsstatut die gesamte Verwaltungsstruktur Russlands in Provinzen und Bezirke mit gewählten Beamten und lokalen Gerichten – eine fachlich fundierte Verwaltungsreform, die weit über symbolische Prachtentfaltung hinausging.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Katharina die Fähigkeit, aus einer Position ohne jedes erbliche Anrecht heraus ein Reich zu modernisieren, das intellektuelle Leben Russlands mit Europa zu verbinden und mit der Eremitage ein kulturelles Vermächtnis zu schaffen, das bis heute Bestand hat. Die Gesetzgebende Kommission und das Gouvernementsstatut zeigen, dass hinter der glänzenden Fassade echte, fachlich fundierte Reformarbeit stand.</p>
+          <p class="vb-intro">Der Schatten der SO3w2 zeigt sich darin, dass dasselbe Streben nach sichtbarem Glanz und europäischer Anerkennung reale soziale Kosten hatte: Die Leibeigenschaft wurde unter Katharina nicht gelockert, sondern durch Zugeständnisse an den Adel eher verschärft – der Pugatschow-Aufstand 1773 bis 1775, einer der größten Bauernaufstände der russischen Geschichte, war die direkte Folge dieser Politik. Die drei polnischen Teilungen, an denen Russland unter ihrer Herrschaft beteiligt war, erweiterten zwar sichtbar das Reich, kosteten Polen-Litauen aber die staatliche Eigenständigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Bühne zur echten Verbindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Selbsttäuschung zur Authentizität – von der Frage <em>Verkörpere ich erfolgreich das Bild, das andere von mir erwarten?</em> zur Erkenntnis <em>Ich bin wertvoll, auch ohne die ständige Bestätigung durch ein Publikum.</em> Für die SO3w2 bedeutet das, die eigene Leistung nicht länger nur als Mittel zur Bewunderung zu nutzen, sondern als das zu würdigen, was sie tatsächlich bewirkt.</p>
+          <p class="vb-intro">Dass Katharina ihre früheren Liebhaber zeitlebens nicht fallen ließ, sondern ihnen Vertrauen, Einfluss und persönliche Nähe über das Ende der Beziehung hinaus bewahrte – allen voran Potjomkin, der bis zu seinem Tod ihr engster politischer Partner blieb –, liest sich als Ansatz dieses Weges: eine Fähigkeit zu echter, dauerhafter Bindung, die über die bloße Inszenierung nach außen hinausging.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so3", label:"Lebensmusterkompass: SO3 – Gepard"},
+        {route:"beruehmte-ludwig-xiv", label:"Porträt: Ludwig XIV. (SO3w2) – der Sonnenkönig"},
+        {route:"beruehmte-klemens-von-metternich", label:"Porträt: Klemens von Metternich (SO3w2)"},
+        {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
+      ])}
+    </div>
+  `);
+}

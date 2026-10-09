@@ -37,6 +37,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-henri-poincare", label: "Neues EN-Porträt: Henri Poincaré" },
   { hash: "#beruehmte-carl-xvi-gustaf", label: "Neues Porträt: Carl XVI. Gustaf" },
   { hash: "en/#beruehmte-carl-xvi-gustaf", label: "Neues EN-Porträt: Carl XVI. Gustaf" },
+  { hash: "#beruehmte-katharina-die-grosse", label: "Neues Porträt: Katharina die Große" },
+  { hash: "en/#beruehmte-katharina-die-grosse", label: "Neues EN-Porträt: Katharina die Große" },
 ];
 
 function startServer() {
