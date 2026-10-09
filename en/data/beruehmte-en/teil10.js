@@ -2395,3 +2395,70 @@ export function michaelaBenthausPortraitPage() {
     </div>
   `);
 }
+
+export function johannesPaulIIPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-johannes-paul-ii-portrait.jpg" alt="John Paul II – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">John Paul II</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine-Wing</p>
+        <p class="krim-portrait-subtitle">Pope 1978&ndash;2005, born 1920 as Karol Wojtyła &ndash; Animal correspondence: Bald Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The eagle that scrutinizes itself most severely</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>bald eagle</strong> does not watch over others first – it watches over itself, its nest, its own discipline and inner order, which remain the real yardstick rather than any loud outward claim. Karol Józef Wojtyła, born 1920 in Wadowice, Poland, lost his mother at eight, his older brother at twelve, and his father at twenty – a childhood and youth marked by early loss and an almost relentless inner discipline that grew out of it.</p>
+          <p class="vb-intro">During the German occupation of Poland he worked as a quarryman and in a chemical plant, studied theology secretly in the underground seminary of the Archbishop of Kraków, and narrowly escaped deportation. In 1978 he was elected the first non-Italian pope in over 450 years – a role he carried out until his death in 2005, despite advancing Parkinson's disease, without public complaint and without ever considering resignation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: the inner judge before the outer office</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation One (SE1)</strong> directs its perfectionism not primarily at correcting the world, but at the strictest possible self-examination – whether one measures up to one's own ideal before ever holding others to it. In Wojtyła this showed in an extraordinary, decades-long hidden physical asceticism: according to those closest to him, he at times slept on the bare floor, fasted beyond what the Church prescribed, and practiced self-flagellation as an expression of penance and self-discipline – practices that only became public knowledge after his death, since he himself never brought them into the open.</p>
+          <p class="vb-intro">His private spiritual diaries, in which he repeatedly examined whether he served God and his office sufficiently, are the classic expression of the inward-directed anger of the One: the world is not accused first – one's own insufficiency is. This inner severity toward himself preceded, and was the actual foundation of, the stricter stance he later took toward the Church as an institution – whoever judges themselves mercilessly by a standard will, as a consequence, tolerate no deviation from it in others either.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: warmth and patience instead of personal sharpness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> takes from the One its direct, interpersonal confrontation and replaces it with a notably warm, patient, often humorous personal presence. Wojtyła was known for his spontaneous wit and quick comebacks in direct contact – he teased journalists, improvised during audiences, and came across as approachable and at ease in person, even while deciding theological disputes within the Vatican with great severity through formal decrees (such as disciplining liberation theologians Leonardo Boff and Hans Küng).</p>
+          <p class="vb-intro">His lifelong love of nature and physical activity as a counterbalance is equally telling: even as pope he had a swimming pool built at Castel Gandolfo and took hikes and ski trips in the Italian and Polish mountains well into old age – a retreat into quiet, conflict-free closeness to nature that is typical of the Nine-wing and differs noticeably from the more interpersonally engaged dynamic of a Two-wing. The same Nine-wing note showed in his response to the 1981 assassination attempt by Mehmet Ali Ağca: instead of public rhetoric of retribution, he visited his would-be assassin in prison in 1983 and personally forgave him – reconciliation over confrontation, even in the most extreme case imaginable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: philosopher, linguist, geopolitical force</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">His significance does not rest on discipline and tenure alone. Wojtyła held a doctorate in philosophy (dissertations on the Spanish mystic John of the Cross and on Max Scheler) and had worked as an actor in an underground theater in Kraków before his ordination, also writing plays himself – a dual professional gift of philosophical rigor and dramatic sensibility that decisively shaped his later public presence as pope. His encyclicals, notably "Veritatis splendor" and "Fides et ratio" ("The Splendor of Truth" and "Faith and Reason"), are regarded as original philosophical-theological contributions, not mere administrative documents.</p>
+          <p class="vb-intro">His contribution to the end of communism in Eastern Europe is geopolitically substantial: his 1979 trip to Poland, nine months into his papacy, mobilized millions and is considered a decisive moral backbone for the later Solidarity movement around Lech Wałęsa. Add to this his extraordinary linguistic gift – he spoke fluent Polish, Italian, French, German, Spanish, and English, as well as liturgical Latin and Greek – which allowed direct, untranslated communication on practically every one of his more than one hundred foreign trips and made his global presence possible at this scale in the first place.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the Self-Preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the light, Wojtyła shows an integrity personally lived out and sustained over 26 years – a sense of duty that not even advancing Parkinson's disease in his final years could move him to step back from, combined with genuine reconciliation toward Judaism (the first papal visit to a synagogue, 1986) and Islam (a mosque visit in 2001), as well as the gesture at Jerusalem's Western Wall in 2000, where he asked forgiveness for the Church's historical wrongs.</p>
+          <p class="vb-intro">The besetting sin of the One is <strong>anger</strong> – in the SE1w9 directed primarily inward and further softened by the Nine-wing, yet by no means absent. The shadow shows in the harsh, at times rigid discipline imposed on internal reform voices within the Church, and in his hesitant, by today's standards inadequate response to the first publicly emerging cases of abuse within the Catholic Church during his pontificate – a gap that stands in striking contrast to the image of the morally uncompromising judge, strict with both himself and others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The healing path: from quiet self-scrutiny to serene mercy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the One leads from anger to serenity – from the question <em>Do I truly measure up to the ideal in every detail?</em> to the realization <em>The world – and I myself – may be imperfect without losing dignity because of it.</em> For the SE1w9, this means no longer treating the severity he so often directed at himself in private as a necessary burden, but allowing genuine mercy – first toward himself, then toward others.</p>
+          <p class="vb-intro">His gesture of forgiveness toward his would-be assassin in 1983 and his later reconciliation gestures toward Judaism and Islam read as exactly this step on the healing path: a discipline practiced inwardly for decades that, in his more mature years, increasingly translated into lived grace – never quite abandoning its inner rigor, but growing ever more willing to grant others, and in the end himself, room for imperfection.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se1", label:"SE1 – The Bald Eagle: subtype profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Bald Eagle"},
+        {route:"beruehmte-carl-xvi-gustaf", label:"Portrait: Carl XVI Gustaf (SE1w9) – Swedish monarch"},
+        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SE1w9) – Norwegian monarch"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
+      ])}
+    </div>
+  `);
+}

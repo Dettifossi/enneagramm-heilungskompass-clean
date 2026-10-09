@@ -2440,3 +2440,70 @@ export function amberBensonPortraitPage() {
     </div>
   `);
 }
+
+export function johannesPaulIIPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-johannes-paul-ii-portrait.jpg" alt="Johannes Paul II. – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johannes Paul II.</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltungstyp 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Papst 1978&ndash;2005, geb. 1920 als Karol Wojtyła &ndash; Tierentsprechung: Weißkopfseeadler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der sich selbst am strengsten prüft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Weißkopfseeadler</strong> wacht nicht über andere, sondern vor allem über sich selbst – sein Horst, seine Disziplin, seine innere Ordnung sind der eigentliche Maßstab, nicht der laute Anspruch nach außen. Karol Józef Wojtyła, geboren 1920 im polnischen Wadowice, verlor seine Mutter mit acht Jahren, seinen älteren Bruder mit zwölf und seinen Vater mit zwanzig – eine Kindheit und Jugend, die von früher Verlusterfahrung und einer daraus erwachsenden, fast unerbittlichen inneren Disziplin geprägt war.</p>
+          <p class="vb-intro">Während der deutschen Besatzung Polens arbeitete er als Steinbrucharbeiter und in einer Chemiefabrik, studierte heimlich Theologie im Untergrundseminar des Krakauer Erzbischofs und entging nur knapp der Deportation. 1978 wurde er als erster nicht-italienischer Papst seit über 450 Jahren gewählt – eine Rolle, die er bis zu seinem Tod 2005, trotz fortschreitender Parkinson-Erkrankung, ohne öffentliche Klage und ohne Rücktrittsgedanken ausfüllte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der Selbsterhaltungstyp 1: Der innere Richter vor dem äußeren Amt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Selbsterhaltungs-Eins (SE1)</strong> richtet ihren Perfektionismus nicht primär auf die Korrektur der Welt, sondern auf die eigene, strengste Selbstprüfung – die Frage, ob man selbst dem inneren Ideal genügt, bevor man es anderen vorhält. Bei Wojtyła zeigte sich das in einer außergewöhnlichen, jahrzehntelang verborgenen körperlichen Askese: Berichten aus seinem engsten Umfeld zufolge schlief er zeitweise auf dem blanken Boden, fastete regelmäßig über das kirchlich vorgeschriebene Maß hinaus und praktizierte Selbstgeißelung als Ausdruck von Buße und Selbstdisziplin – Praktiken, die erst nach seinem Tod öffentlich bekannt wurden, weil er selbst nie damit an die Öffentlichkeit ging.</p>
+          <p class="vb-intro">Seine privaten geistlichen Tagebücher, in denen er sich immer wieder selbst prüfte, ob er Gott und seinem Amt genug diene, sind der klassische Ausdruck des nach innen gerichteten Einser-Ärgers: nicht die Welt wird zuerst angeklagt, sondern das eigene Ungenügen. Diese innere Härte gegen sich selbst ging seiner später sichtbaren Strenge gegenüber der Kirche als Institution voraus und war ihr eigentliches Fundament – wer sich selbst gnadenlos an einem Maßstab misst, duldet folgerichtig auch bei anderen keine Abweichung davon.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Wärme und Geduld statt persönlicher Schärfe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> nimmt der Eins die direkte, zwischenmenschliche Konfrontation und ersetzt sie durch eine auffällig warme, geduldige, oft humorvolle persönliche Ausstrahlung. Wojtyła war für seinen spontanen Witz und seine Schlagfertigkeit im direkten Kontakt bekannt – er neckte Journalisten, improvisierte bei Audienzen und wirkte im persönlichen Gespräch zugänglich und gelassen, selbst wenn er in derselben Zeit über formale Dekrete theologische Debatten im Vatikan mit großer Strenge entschied (etwa die Disziplinierung der Befreiungstheologen Leonardo Boff und Hans Küng).</p>
+          <p class="vb-intro">Bezeichnend ist auch seine lebenslange Liebe zur Natur und zur körperlichen Bewegung als Ausgleich: Noch als Papst ließ er sich ein Schwimmbecken in Castel Gandolfo bauen und unternahm bis ins hohe Alter Wanderungen und Skiausflüge in den italienischen und polnischen Bergen – ein Rückzug in stille, konfliktfreie Naturverbundenheit, der typisch für den Neunerflügel ist und sich deutlich von einer stärker zwischenmenschlich-zugewandten Zweier-Dynamik unterscheidet. Auch im Umgang mit dem Attentat von 1981 durch Mehmet Ali Ağca zeigte sich diese Neuner-Note: Statt öffentlicher Vergeltungsrhetorik besuchte er seinen Attentäter 1983 im Gefängnis und vergab ihm persönlich – Versöhnung statt Konfrontation, auch im denkbar extremsten Fall.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Philosoph, Sprachbegabung und geopolitischer Einfluss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Seine Bedeutung erschöpft sich nicht in Disziplin und Amtsdauer. Wojtyła war promovierter Philosoph (Dissertationen über den spanischen Mystiker Johannes vom Kreuz und über Max Scheler) und Theaterautor, der vor seiner Priesterweihe aktiv als Schauspieler in einem Krakauer Untergrundtheater arbeitete und selbst Dramen schrieb – eine fachliche Doppelbegabung aus philosophischer Strenge und darstellerischem Gespür, die seine spätere öffentliche Präsenz als Papst entscheidend prägte. Seine Enzykliken, insbesondere „Veritatis splendor" und „Fides et ratio", gelten als eigenständige philosophisch-theologische Beiträge, nicht als bloße Verwaltungsdokumente.</p>
+          <p class="vb-intro">Geopolitisch fundiert ist sein Beitrag zum Ende des Kommunismus in Osteuropa: Seine Polen-Reise 1979, neun Monate nach Amtsantritt, mobilisierte Millionen und gilt als entscheidender moralischer Rückhalt für die spätere Solidarność-Bewegung um Lech Wałęsa. Hinzu kommt seine außergewöhnliche Sprachbegabung – er sprach fließend Polnisch, Italienisch, Französisch, Deutsch, Spanisch, Englisch sowie liturgisches Latein und Griechisch –, die ihm eine direkte, unübersetzte Kommunikation auf praktisch jeder seiner über hundert Auslandsreisen ermöglichte und seine globale Präsenz erst in diesem Umfang möglich machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der Selbsterhaltungs-Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Wojtyła eine über 26 Jahre durchgehaltene, persönlich vorgelebte Integrität – eine Pflichtauffassung, die selbst die fortschreitende Parkinson-Erkrankung in seinen letzten Jahren nicht zum Rückzug aus dem Amt bewegte, kombiniert mit echter Versöhnungsbereitschaft gegenüber dem eigenen Judentum (erster Papst-Besuch einer Synagoge, 1986) und dem Islam (Moschee-Besuch 2001) sowie der Geste am Jerusalemer Klagemauer 2000, bei der er um Vergebung für historisches Unrecht der Kirche bat.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> – bei der SE1w9 primär nach innen gerichtet und durch den Neunerflügel zusätzlich besänftigt, aber keineswegs verschwunden. Der Schatten zeigt sich in der harten, teils als rigide empfundenen Disziplinierung innerkirchlicher Reformstimmen und in seinem zögerlichen, aus heutiger Sicht unzureichenden Umgang mit den ersten öffentlich werdenden Missbrauchsfällen in der katholischen Kirche während seines Pontifikats – eine Leerstelle, die mit dem Bild des moralisch kompromisslosen, nach innen wie außen strengen Richters in auffälligem Kontrast steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der stillen Selbstprüfung zur gelassenen Barmherzigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit – von der Frage <em>Genüge ich dem Ideal wirklich in jedem Detail?</em> zur Erkenntnis <em>Die Welt – und auch ich selbst – darf unvollkommen sein, ohne dadurch an Würde zu verlieren.</em> Für die SE1w9 bedeutet das, die eigene, oft im Verborgenen gelebte Strenge gegen sich selbst nicht länger als notwendige Bürde zu behandeln, sondern echte Barmherzigkeit zuerst sich selbst, dann erst anderen gegenüber zuzulassen.</p>
+          <p class="vb-intro">Die Vergebungsgeste gegenüber seinem Attentäter 1983 und die späten Versöhnungsgesten gegenüber Judentum und Islam lesen sich als genau dieser Schritt auf dem Heilungsweg: eine über Jahrzehnte innerlich geübte Strenge, die sich im reiferen Alter zunehmend in gelebte Gnade übersetzt – ohne die innere Disziplin je ganz aufzugeben, aber mit wachsender Bereitschaft, auch anderen (und am Ende sich selbst) Fehler zuzugestehen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Weißkopfseeadler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Weißkopfseeadler"},
+        {route:"beruehmte-carl-xvi-gustaf", label:"Porträt: Carl XVI. Gustaf (SE1w9) – schwedischer Monarch"},
+        {route:"beruehmte-harald-v", label:"Porträt: König Harald V. (SE1w9) – norwegischer Monarch"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
