@@ -35,6 +35,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-hillary-clinton", label: "Neues EN-Porträt: Hillary Clinton" },
   { hash: "#beruehmte-henri-poincare", label: "Neues Porträt: Henri Poincaré" },
   { hash: "en/#beruehmte-henri-poincare", label: "Neues EN-Porträt: Henri Poincaré" },
+  { hash: "#beruehmte-carl-xvi-gustaf", label: "Neues Porträt: Carl XVI. Gustaf" },
+  { hash: "en/#beruehmte-carl-xvi-gustaf", label: "Neues EN-Porträt: Carl XVI. Gustaf" },
 ];
 
 function startServer() {

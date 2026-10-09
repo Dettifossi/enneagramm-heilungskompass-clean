@@ -2423,3 +2423,70 @@ export function biancaCensoriPortraitPage() {
     </div>
   `);
 }
+
+export function carlXVIGustafPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-carl-xvi-gustaf-portrait.jpg" alt="Carl XVI. Gustaf – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carl XVI. Gustaf</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltungstyp 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">König von Schweden seit 1973, geb. 1946 &ndash; Tierentsprechung: Weißkopfseeadler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der über fünf Jahrzehnte denselben Horst hütet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Weißkopfseeadler</strong> hält sein Revier über Jahrzehnte, ohne lauten Anspruch – die eigene Disziplin, nicht die Lautstärke, sichert das Territorium. Carl Gustaf Folke Hubertus, geboren 1946 in Stockholm, verlor seinen Vater, Kronprinz Gustaf Adolf, 1947 bei einem Flugzeugabsturz in Kopenhagen – mit neun Monaten war er damit designierter Thronfolger, aufgewachsen unter der besonderen, nie wirklich ablegbaren Erwartung, eines Tages König zu sein.</p>
+          <p class="vb-intro">1973, beim Tod seines Großvaters Gustaf VI. Adolf, wurde er mit 27 Jahren König – und beschrieb später selbst, wie fremd ihm das zunächst war: Er war es gewohnt, als Jüngster im Raum aufzustehen, wenn andere eintraten; plötzlich standen andere auf, wenn er den Raum betrat. Diese Umstellung, sagte er rückblickend, sei „sehr kompliziert" gewesen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der Selbsterhaltungstyp 1: Pflichterfüllung als privater Maßstab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Selbsterhaltungs-Eins (SE1)</strong> richtet ihren Perfektionismus nicht nach außen, auf die Korrektur anderer, sondern nach innen, auf die eigene Lebensführung und Pflichterfüllung. Carl Gustaf beschreibt sein Königsamt explizit als Daueraufgabe ohne festen Rücktrittstermin: Man arbeite, solange Gesundheit und Kraft es zuließen – eine Haltung, die er über mehr als fünfzig Jahre auf dem Thron ohne öffentliche Klage durchhielt, auch nach einer Herzoperation 2023.</p>
+          <p class="vb-intro">Besonders aufschlussreich ist sein jahrzehntelanger, meist verschwiegener Umgang mit seiner eigenen Legasthenie, die erst 1973 öffentlich wurde, als er bei einem Grubenbesuch seinen eigenen Namen falsch an eine Felswand schrieb und die Presse sich darüber lustig machte. Erst 1997 sprach Königin Silvia öffentlich darüber, dass man sich als Kind nicht ausreichend um das Problem gekümmert habe. Statt die Schwäche öffentlich zu thematisieren, trug Carl Gustaf sie über Jahrzehnte als private, selbst zu bewältigende Bürde – ein klassisches Muster der nach innen gerichteten Eins.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Rückzug statt Gegenangriff</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> nimmt der Eins die konfrontative Schärfe und ersetzt sie durch eine beinahe unbewegte, konfliktvermeidende Ruhe. Das zeigte sich 2010 besonders deutlich: Ein Enthüllungsbuch warf dem König frühere Besuche in Stripclubs, Affären und Kontakte ins kriminelle Milieu vor. Statt die Vorwürfe energisch zu bestreiten oder öffentlich zu kämpfen, reagierte Carl Gustaf auffallend zurückhaltend und sagte auf einer Pressekonferenz sinngemäß nur, man wolle „das Blatt wenden" und nach vorn schauen – ohne die einzelnen Vorwürfe im Detail zu dementieren.</p>
+          <p class="vb-intro">Diese Nicht-Konfrontation kostete ihn Popularität (eine Umfrage 2011 ergab, dass nur noch 44 Prozent der Schweden ihn auf dem Thron sehen wollten), zeigt aber genau das Neunerflügel-Muster: Rückzug und Aussitzen statt lautem Gegenangriff, selbst unter erheblichem öffentlichen Druck. Dieselbe konfliktscheue Ruhe prägt seinen Regierungsstil insgesamt – ein seit der Verfassungsreform 1974 rein zeremonielles Staatsoberhaupt ohne politische Macht, das diese Rolle ohne öffentliches Ringen um verlorene Kompetenzen akzeptierte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Der erste rein zeremonielle Monarch und sein Naturschutz-Engagement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bloße Amtsdauer erklärt nicht, warum Carl Gustaf als einer der stabilsten Monarchen Europas gilt. Er ist der erste schwedische König, der unter der 1974 reformierten Verfassung regierte, die dem Monarchen jede politische Machtbefugnis entzog und ihn auf eine rein repräsentative Rolle beschränkte – eine fundamentale Umstellung des gesamten Amtsverständnisses, die er von Beginn an, ohne öffentlichen Widerstand, mittrug und damit die moderne skandinavische Verfassungsmonarchie mitprägte.</p>
+          <p class="vb-intro">Fachlich fundiert ist zudem sein jahrzehntelanges Umweltengagement: Er ist Vorsitzender des schwedischen Zweigs des WWF und Ehrenvorsitzender der World Scout Foundation, fährt nach Berichten ein Hybridfahrzeug und bewirtschaftet auf seinem Gut Stenhammar aktiv Wald und Felder. Seine wirtschaftswissenschaftliche Ausbildung an der Universität Stockholm nach dem Studium an der Universität Uppsala gab diesem Engagement ein über bloße Symbolik hinausgehendes fachliches Fundament – kein rein repräsentatives Umwelt-Lippenbekenntnis, sondern praktische, selbst mitgetragene Arbeit auf dem eigenen Land.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der Selbsterhaltungs-Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Carl Gustaf eine über fünfzig Jahre durchgehaltene, nie öffentlich infrage gestellte Pflichtauffassung – ein Amt, das er trotz persönlicher Schwächen (der verschwiegenen Legasthenie) und trotz öffentlicher Krisen (dem Skandal 2010) ohne Unterbrechung weiterführte, kombiniert mit einem fachlich fundierten, über Jahrzehnte beständigen Naturschutz-Engagement.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> – bei der SE1w9 fast vollständig nach innen gerichtet und durch den Neunerflügel zusätzlich gedämpft, bis er kaum noch sichtbar wird. Der Schatten zeigt sich darin, dass dieselbe Konfliktvermeidung, die ihn durch den Skandal 2010 trug, auch dazu führte, dass berechtigte Fragen – etwa zu seiner angeblichen Nähe zu zweifelhaften Kreisen – nie wirklich öffentlich geklärt wurden, weil er sie lieber aussaß, als sie offensiv zu beantworten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der stillen Pflicht zur gelassenen Selbstannahme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit – von der Frage <em>Muss ich jede eigene Unzulänglichkeit allein und schweigend bewältigen?</em> zur Erkenntnis <em>Auch eine öffentliche Person darf eine Schwäche zeigen, ohne daran zu zerbrechen.</em> Für die SE1w9 bedeutet das, die eigene, oft jahrzehntelang verschwiegene Bürde – bei Carl Gustaf die Legasthenie – nicht länger als beschämende private Last zu behandeln, sondern als das, was sie ist: eine von vielen menschlichen Eigenschaften, die niemandes Würde infrage stellt.</p>
+          <p class="vb-intro">Dass Königin Silvia 1997 öffentlich über seine Legasthenie sprach – offenbar mit seinem Einverständnis –, liest sich als vorsichtiger Schritt auf genau diesem Weg: eine jahrzehntelang verborgene Schwäche wird, wenn auch nicht durch ihn selbst, endlich benannt, statt für immer im Schweigen zu bleiben.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Weißkopfseeadler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Weißkopfseeadler"},
+        {route:"beruehmte-harald-v", label:"Porträt: König Harald V. (SE1w9) – norwegischer Monarch"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-tim-cook", label:"Porträt: Tim Cook (SE1w9)"},
+      ])}
+    </div>
+  `);
+}

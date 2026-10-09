@@ -2417,3 +2417,70 @@ export function sathyaSaiBabaPortraitPage() {
     </div>
   `);
 }
+
+export function carlXVIGustafPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-carl-xvi-gustaf-portrait.jpg" alt="Carl XVI Gustaf – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Carl XVI Gustaf</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine-wing</p>
+        <p class="krim-portrait-subtitle">King of Sweden since 1973, b. 1946 &ndash; animal correspondence: Bald Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The eagle that has guarded the same nest for five decades</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>bald eagle</strong> holds its territory for decades without loud claim – discipline, not volume, secures the ground. Carl Gustaf Folke Hubertus, born in 1946 in Stockholm, lost his father, Crown Prince Gustaf Adolf, in a plane crash in Copenhagen in 1947 – at nine months old he became heir apparent, growing up under the particular, never fully removable expectation of one day becoming king.</p>
+          <p class="vb-intro">In 1973, on the death of his grandfather Gustaf VI Adolf, he became king at 27 – and later described himself how strange this initially felt: he was used to being the youngest in the room, standing up when others entered; suddenly others stood up when he entered. That adjustment, he recalled, was "very complicated."</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: duty as a private standard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation One (SE1)</strong> directs its perfectionism not outward, toward correcting others, but inward, toward its own conduct and sense of duty. Carl Gustaf has explicitly described his kingship as an ongoing task with no fixed retirement date: one works as long as health and strength allow – a stance he maintained without public complaint across more than fifty years on the throne, including after heart surgery in 2023.</p>
+          <p class="vb-intro">Particularly telling is his decades-long, mostly unspoken handling of his own dyslexia, which only became public in 1973, when during a mine visit he misspelled his own name on a rock wall and the press mocked him for it. Only in 1997 did Queen Silvia speak publicly about it, saying that as a child not enough attention had been paid to the problem. Rather than addressing the weakness publicly, Carl Gustaf carried it for decades as a private burden to be managed alone – a classic pattern of the inward-directed One.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: withdrawal instead of counterattack</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> takes the confrontational edge off the One and replaces it with an almost unmoved, conflict-avoidant calm. This showed especially clearly in 2010: a tell-all book accused the king of past visits to strip clubs, affairs, and contacts with criminal circles. Rather than forcefully denying the allegations or fighting back publicly, Carl Gustaf reacted with notable restraint, saying at a press conference only, in essence, that he wanted to "turn the page" and look forward – without denying the individual allegations in detail.</p>
+          <p class="vb-intro">This non-confrontation cost him popularity (a 2011 poll found that only 44 percent of Swedes still wanted him on the throne), but shows exactly the Nine-wing pattern: withdrawal and waiting it out instead of a loud counterattack, even under considerable public pressure. The same conflict-averse calm shapes his governing style overall – a purely ceremonial head of state since the 1974 constitutional reform, with no political power, a role he accepted without any public fight over the authority he lost.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the first purely ceremonial monarch and his conservation work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mere length of reign does not explain why Carl Gustaf is regarded as one of Europe's most stable monarchs. He is the first Swedish king to rule under the 1974 reformed constitution, which stripped the monarch of all political power and confined him to a purely representative role – a fundamental shift in the entire understanding of the office that he embraced from the start, without public resistance, helping to shape the modern Scandinavian constitutional monarchy.</p>
+          <p class="vb-intro">His decades-long environmental commitment is also substantively grounded: he chairs the Swedish branch of the WWF and is honorary chairman of the World Scout Foundation, reportedly drives a hybrid vehicle, and actively manages forest and fields on his Stenhammar estate. His economics education at Stockholm University, following studies at Uppsala University, gave this commitment a professional foundation beyond mere symbolism – not a purely representative environmental lip service, but practical, hands-on work on his own land.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the self-preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In its light, Carl Gustaf shows a sense of duty sustained for over fifty years and never publicly questioned – an office he kept carrying out without interruption despite a personal weakness (the unspoken dyslexia) and despite public crises (the 2010 scandal), combined with a professionally grounded, decades-consistent commitment to conservation.</p>
+          <p class="vb-intro">The One's besetting sin is <strong>anger</strong> – in the SE1w9 almost entirely directed inward and further muted by the Nine-wing, until it becomes barely visible. The shadow side shows in how the same conflict avoidance that carried him through the 2010 scandal also meant that legitimate questions – about his alleged closeness to dubious circles, for instance – were never truly addressed publicly, because he preferred to wait them out rather than answer them head-on.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The healing path: from silent duty to relaxed self-acceptance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One's healing path leads from anger to serenity – from the question <em>Must I handle every shortcoming of my own alone and in silence?</em> to the realization <em>Even a public figure is allowed to show a weakness without being broken by it.</em> For the SE1w9, this means no longer treating one's own, often decades-concealed burden – for Carl Gustaf, the dyslexia – as a shameful private load, but as what it is: one of many human traits that calls no one's dignity into question.</p>
+          <p class="vb-intro">That Queen Silvia spoke publicly about his dyslexia in 1997 – evidently with his consent – reads as a cautious step along exactly this path: a weakness hidden for decades is finally named, even if not by him directly, instead of staying in silence forever.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se1", label:"SE1 – The Bald Eagle: subtype profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Bald Eagle"},
+        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SE1w9) – Norwegian monarch"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
+        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
