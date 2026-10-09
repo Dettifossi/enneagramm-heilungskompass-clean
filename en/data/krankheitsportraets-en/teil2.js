@@ -4740,7 +4740,7 @@ export function metteMaritKrankheitsportraetPage() {
         developed further in this Compass's
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as a factor of its own:</strong>
-        Mette-Marit most likely did not know her own Enneagram pattern – the self-preservation
+        Mette-Marit most likely does not know her own Enneagram pattern – the self-preservation
         Four with Three-wing endures suffering with discipline and presents functioning capacity
         to the outside world for as long as possible, instead of stepping back in time. This same
         pattern, already practiced for decades in how she handled her stigmatized past, likely

@@ -4968,7 +4968,7 @@ export function metteMaritKrankheitsportraetPage() {
         <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a>
         ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Mette-Marit kannte ihr eigenes Enneagramm-Muster vermutlich nicht – die selbsterhaltende
+        Mette-Marit kennt ihr eigenes Enneagramm-Muster vermutlich nicht – die selbsterhaltende
         Vier mit Dreierflügel hält Leiden diszipliniert aus und zeigt nach außen so lange wie
         möglich Funktionsfähigkeit, statt rechtzeitig kürzerzutreten. Genau dieses Muster, über
         Jahrzehnte hinweg schon im Umgang mit ihrer stigmatisierten Vergangenheit eingeübt, ließ
