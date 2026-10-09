@@ -2453,3 +2453,69 @@ export function franzJosefStraussPortraitPage() {
     </div>
   `);
 }
+
+export function naviPillayPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-navi-pillay-portrait.jpg" alt="Navi Pillay – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Navi Pillay</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Juristin, Richterin, UN-Menschenrechtskommissarin, Friedensnobelpreisträgerin 2026, geb. 1941 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die im Verband fliegt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> fliegt nie allein – sie organisiert sich im Verband, hält Formation, wechselt sich an der Spitze ab, damit die ganze Gruppe weiterkommt. Das ist das Prinzip der sozialen Eins: Das eigene Streben nach Richtigkeit wird nicht isoliert gelebt, sondern an eine größere Ordnung gebunden – an Regeln, Institutionen, ein Kollektiv, das fair funktionieren soll.</p>
+          <p class="vb-intro">Navanethem „Navi" Pillay wurde 1941 in Clairwood bei Durban als Tochter eines Busfahrers geboren, Nachfahrin tamilischer Vertragsarbeiter, die einst aus Südindien nach Natal verschleppt worden waren. In einem Südafrika der Rassentrennung, das schwarzen und „farbigen" Frauen juristische Laufbahnen praktisch verschloss, studierte sie Jura an der University of Natal und eröffnete 1967 als eine der ersten schwarzen Frauen überhaupt eine eigene Anwaltskanzlei in der Provinz Natal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Gerechtigkeit als institutionelles Prinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> richtet ihren Perfektionismus nicht auf die eigene private Integrität (wie die SE1) oder eine persönliche Mission (wie die SX1), sondern auf die Korrektur und den verlässlichen Aufbau kollektiver Strukturen: Gesetze, Gerichte, internationale Institutionen. Pillays gesamte Laufbahn ist eine einzige Kette solcher institutioneller Korrekturarbeit: Als Verteidigerin politischer Gefangener erstritt sie 1973 ein wegweisendes Urteil, das politischen Häftlingen auf Robben Island – darunter Nelson Mandela – erstmals einklagbare Rechte zusicherte.</p>
+          <p class="vb-intro">1995 wurde sie als erste nicht-weiße Frau Richterin am Obersten Gerichtshof Südafrikas, im selben Jahr auch an das UN-Ruanda-Tribunal (ICTR) berufen, dessen Präsidentschaft sie von 1999 bis 2003 innehatte. Im Verfahren gegen Jean-Paul Akayesu erwirkte ihre Kammer ein historisches Grundsatzurteil: Erstmals wurde systematische sexuelle Gewalt völkerrechtlich als Mittel des Völkermords anerkannt – nicht als Begleiterscheinung, sondern als eigenständiger Tatbestand. Das ist soziale Eins in Reinform: eine Lücke im bestehenden Recht wird nicht beklagt, sondern durch präzise juristische Arbeit geschlossen, für alle zukünftigen Fälle verbindlich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Sachliche Autorität statt Anklage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> nimmt der Eins die persönliche, anklagende Schärfe und ersetzt sie durch eine ruhige, fast unerschütterliche Sachlichkeit. Pillay tritt öffentlich nie als zornige Anklägerin auf, sondern als juristisch präzise, zurückhaltend formulierende Autorität – selbst in den politisch explosivsten Momenten ihrer Karriere. Als sie 2021 die unabhängige UN-Untersuchungskommission zu Israel und den palästinensischen Gebieten übernahm und diese 2025 zu dem Schluss kam, dass Israel in Gaza Völkermord begehe, tat sie das in trockenem Berichtston, gestützt auf Dokumentation und Rechtsgrundsätze – nicht in der Sprache des Aktivismus.</p>
+          <p class="vb-intro">Dieselbe gelassene Note zeigte sich bei der Verleihung des Friedensnobelpreises 2026: Auf den stehenden Applaus des Publikums reagierte sie mit einem trockenen Scherz über den enttäuschten Mitbewerber Donald Trump – „Wenn Sie noch etwas mehr klatschen, teile ich den Preis vielleicht mit ihm" –, ohne die eigene Leistung larmoyant zu feiern oder den politischen Gegner frontal anzugreifen. Genau das ist der Neunerflügel: Haltung bewahren, auch wenn die Lage zum lauten Triumph einlädt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Vom Robben-Island-Urteil zum Nobelpreis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Pillays fachliche Wirkung lässt sich an einer durchgehenden Linie ablesen: 1973 das Robben-Island-Urteil für politische Gefangenenrechte, 1995 Südafrikas erste nicht-weiße Richterin, 1999–2003 Präsidentin des Ruanda-Tribunals mit dem bahnbrechenden Akayesu-Präzedenzfall, 2003–2008 Richterin am Internationalen Strafgerichtshof, 2008–2014 UN-Hochkommissarin für Menschenrechte – ein Amt, in dem sie wiederholt auch mächtige Staaten öffentlich wegen Menschenrechtsverletzungen kritisierte, ungeachtet diplomatischer Kosten. Sie war zudem Mitbegründerin der internationalen Frauenrechtsorganisation Equality Now.</p>
+          <p class="vb-intro">2026 erhielt sie, mit 85 Jahren, den Friedensnobelpreis „für ihren Einsatz für Frieden und internationales Recht" – als fünfte Südafrikanerin nach Albert Luthuli, Desmond Tutu, Nelson Mandela und F. W. de Klerk. Das Nobelkomitee würdigte insbesondere ihre jahrzehntelange Arbeit daran, dass Kriegsverbrechen, Verbrechen gegen die Menschlichkeit und Völkermord tatsächlich strafrechtlich verfolgt werden – nicht nur benannt, sondern juristisch geahndet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Pillay eine über mehr als fünfzig Jahre durchgehaltene, nie unterbrochene Linie institutioneller Reformarbeit – von der Verteidigung einzelner politischer Gefangener bis zur Mitgestaltung des modernen Völkerstrafrechts. Ihre Fähigkeit, komplexe Sachverhalte in verbindliche Rechtsprechung zu übersetzen, veränderte internationales Recht dauerhaft.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> – bei der SO1w9 kanalisiert in unermüdliche institutionelle Korrekturarbeit, selten in offener persönlicher Schärfe sichtbar. Der Schatten zeigt sich dort, wo diese institutionelle Autorität selbst politisch umstritten wird: Ihr Bericht zu Gaza 2025 brachte ihr scharfe Vorwürfe der Einseitigkeit seitens Israels und seiner Verbündeten ein, die ihr vorwarfen, mit dem Völkermord-Vorwurf selbst eine politische Position einzunehmen, statt neutral zu bleiben – ein Konflikt, der zeigt, wie schwer sich selbst die sachlichste SO1-Autorität der Politisierung entziehen kann, sobald ihr Urteil mächtige Interessen trifft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der institutionellen Strenge zur gelassenen Gewissheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Eins führt vom Zorn zur Gelassenheit – von der Frage <em>Ist das Recht wirklich lückenlos und gerecht angewandt?</em> zur Erkenntnis <em>Gerechtigkeit ist ein nie abgeschlossener, gemeinsamer Prozess, kein einmal erreichter Endzustand.</em> Für die SO1w9 bedeutet das, die eigene institutionelle Reformarbeit nicht als einsamen Kampf gegen eine fehlerhafte Welt zu erleben, sondern als einen von vielen Beiträgen zu einer kollektiven, nie ganz vollendeten Ordnung.</p>
+          <p class="vb-intro">Ihr trockener Scherz bei der Nobelpreisverleihung – die Bereitschaft, den eigenen historischen Moment mit Humor statt mit Pathos zu tragen – liest sich als genau dieser Schritt: eine lebenslang geübte, unerbittliche Prinzipientreue, die im hohen Alter gelassener, humorvoller und dadurch nicht weniger wirksam geworden ist.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-alice-weidel", label:"Porträt: Alice Weidel (SO1w9)"},
+        {route:"beruehmte-hillary-clinton", label:"Porträt: Hillary Clinton (SO1w2) – anderer Flügel"},
+      ])}
+    </div>
+  `);
+}

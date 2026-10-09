@@ -2423,3 +2423,69 @@ export function franzJosefStraussPortraitPage() {
     </div>
   `);
 }
+
+export function naviPillayPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-navi-pillay-portrait.jpg" alt="Navi Pillay – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Navi Pillay</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-Wing</p>
+        <p class="krim-portrait-subtitle">Jurist, judge, UN human rights commissioner, 2026 Nobel Peace Prize laureate, born 1941 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The goose that flies in formation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> never flies alone – it organizes itself into formation, taking turns at the lead so the whole group makes progress. This is the principle of the social One: the drive toward correctness is not lived in isolation, but bound to a larger order – to rules, institutions, a collective meant to function fairly.</p>
+          <p class="vb-intro">Navanethem "Navi" Pillay was born in 1941 in Clairwood near Durban, the daughter of a bus driver and a descendant of Tamil indentured laborers once brought from South India to Natal. In a racially segregated South Africa that effectively closed legal careers to Black and "Coloured" women, she studied law at the University of Natal and in 1967 opened her own law practice in Natal as one of the first Black women ever to do so.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: justice as an institutional principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social One (SO1)</strong> directs its perfectionism not at its own private integrity (like the SE1) or a personal mission (like the SX1), but at correcting and reliably building collective structures: laws, courts, international institutions. Pillay's entire career forms a single chain of such institutional correction work: as a defense lawyer for political prisoners, she won a landmark 1973 ruling that for the first time secured enforceable rights for political prisoners on Robben Island – among them Nelson Mandela.</p>
+          <p class="vb-intro">In 1995 she became the first non-white woman judge of South Africa's High Court, and that same year was also elected to the UN's Rwanda tribunal (ICTR), whose presidency she held from 1999 to 2003. In the case against Jean-Paul Akayesu, her chamber secured a historic precedent: for the first time, systematic sexual violence was recognized under international law as a means of genocide – not as a side effect, but as a distinct offense in its own right. This is the social One in its purest form: a gap in existing law is not lamented but closed through precise legal work, binding for every future case.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: matter-of-fact authority instead of accusation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> takes from the One its personal, accusatory edge and replaces it with a calm, almost unshakeable matter-of-factness. Pillay never appears in public as an angry accuser, but as a legally precise, restrained authority – even in the most politically explosive moments of her career. When she took over the independent UN commission of inquiry on Israel and the Palestinian territories in 2021, and it concluded in 2025 that Israel was committing genocide in Gaza, she delivered that finding in dry, report-style language, grounded in documentation and legal principle – not in the language of activism.</p>
+          <p class="vb-intro">The same composed note showed at the 2026 Nobel Peace Prize ceremony: facing a standing ovation, she responded with a dry joke about the disappointed rival candidate Donald Trump – "If you clap a little bit more I may share this prize with Trump" – without either sentimentally celebrating her own achievement or attacking her political opponent head-on. That is exactly the Nine-wing: holding composure even when the moment invites loud triumph.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: from the Robben Island ruling to the Nobel Prize</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Pillay's professional impact can be traced along a continuous line: the 1973 Robben Island ruling for political prisoners' rights, becoming South Africa's first non-white judge in 1995, serving as president of the Rwanda tribunal from 1999 to 2003 with the groundbreaking Akayesu precedent, serving as a judge of the International Criminal Court from 2003 to 2008, and serving as UN High Commissioner for Human Rights from 2008 to 2014 – an office in which she repeatedly criticized powerful states publicly over human rights violations, regardless of the diplomatic cost. She was also a co-founder of the international women's rights organization Equality Now.</p>
+          <p class="vb-intro">In 2026, at age 85, she received the Nobel Peace Prize "for her efforts to promote peace and international law" – the fifth South African after Albert Luthuli, Desmond Tutu, Nelson Mandela, and F. W. de Klerk. The Nobel Committee specifically honored her decades-long work ensuring that war crimes, crimes against humanity, and genocide are actually prosecuted – not merely named, but legally pursued.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the Social One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the light, Pillay shows an unbroken line of institutional reform work sustained over more than fifty years – from defending individual political prisoners to helping shape modern international criminal law. Her ability to translate complex facts into binding jurisprudence changed international law permanently.</p>
+          <p class="vb-intro">The besetting sin of the One is <strong>anger</strong> – in the SO1w9 channeled into tireless institutional correction work, rarely visible as open personal sharpness. The shadow shows where this institutional authority itself becomes politically contested: her 2025 report on Gaza drew sharp accusations of one-sidedness from Israel and its allies, who argued that by leveling the charge of genocide she was taking a political position rather than remaining neutral – a conflict that shows how hard it is even for the most matter-of-fact SO1 authority to escape politicization once its judgment touches powerful interests.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The healing path: from institutional rigor to composed certainty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the One leads from anger to serenity – from the question <em>Is the law truly applied completely and fairly?</em> to the realization <em>Justice is a never-finished, shared process, not a once-and-for-all achieved end state.</em> For the SO1w9, this means experiencing one's own institutional reform work not as a solitary fight against a flawed world, but as one of many contributions to a collective order that is never fully complete.</p>
+          <p class="vb-intro">Her dry joke at the Nobel ceremony – her willingness to carry her own historic moment with humor rather than pathos – reads as exactly this step: a lifetime of relentlessly practiced principle that, in old age, has grown more composed, more humorous, and no less effective for it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: subtype profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-alice-weidel", label:"Portrait: Alice Weidel (SO1w9)"},
+        {route:"beruehmte-hillary-clinton", label:"Portrait: Hillary Clinton (SO1w2) – different wing"},
+      ])}
+    </div>
+  `);
+}

@@ -39,6 +39,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-carl-xvi-gustaf", label: "Neues EN-Porträt: Carl XVI. Gustaf" },
   { hash: "#beruehmte-johannes-paul-ii", label: "Neues Porträt: Johannes Paul II." },
   { hash: "en/#beruehmte-johannes-paul-ii", label: "Neues EN-Porträt: Johannes Paul II." },
+  { hash: "#beruehmte-navi-pillay", label: "Neues Porträt: Navi Pillay" },
+  { hash: "en/#beruehmte-navi-pillay", label: "Neues EN-Porträt: Navi Pillay" },
   { hash: "#krankheitsportraets-johannes-paul-ii", label: "Neues Krankheitsporträt: Johannes Paul II." },
   { hash: "en/#krankheitsportraets-johannes-paul-ii", label: "Neues EN-Krankheitsporträt: Johannes Paul II." },
   { hash: "#beruehmte-michael-schumacher", label: "Umtypisiert: Michael Schumacher (SE1w9)" },

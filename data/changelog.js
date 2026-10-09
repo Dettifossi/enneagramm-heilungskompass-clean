@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2475", date: "2026-10-09", text: "Neues Porträt: Navi Pillay (SO1w9) – Juristin, Friedensnobelpreisträgerin 2026.", text_en: "New portrait: Navi Pillay (SO1w9) – jurist, 2026 Nobel Peace Prize laureate.", route: "beruehmte-navi-pillay" },
     { version: "v2474", date: "2026-10-09", text: "Neues Krankheitsporträt: Johannes Paul II. (SE1w9) – Parkinson-Erkrankung.", text_en: "New illness portrait: John Paul II (SE1w9) – Parkinson's disease.", route: "krankheitsportraets-johannes-paul-ii" },
     { version: "v2473", date: "2026-10-09", text: "Neues Porträt: Johannes Paul II. (SE1w9) – Papst 1978–2005.", text_en: "New portrait: John Paul II (SE1w9) – Pope 1978–2005.", route: "beruehmte-johannes-paul-ii" },
     { version: "v2472", date: "2026-10-09", text: "Neues Krankheitsporträt: Mette-Marit (SE4w3) – Lungenfibrose und Lungentransplantation.", text_en: "New illness portrait: Mette-Marit (SE4w3) – pulmonary fibrosis and lung transplant.", route: "krankheitsportraets-mette-marit" },
