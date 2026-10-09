@@ -2447,6 +2447,8 @@ export function johannesPaulIIPortraitPage() {
           <p class="vb-intro">His gesture of forgiveness toward his would-be assassin in 1983 and his later reconciliation gestures toward Judaism and Islam read as exactly this step on the healing path: a discipline practiced inwardly for decades that, in his more mature years, increasingly translated into lived grace – never quite abandoning its inner rigor, but growing ever more willing to grant others, and in the end himself, room for imperfection.</p>
         </blockquote>
 
+        <p class="vb-intro">A significant part of his final years was a progressive Parkinson's disease that took his voice and movement without him ever stepping down – covered in full in the dedicated <a href="javascript:void(0)" data-route="krankheitsportraets-johannes-paul-ii">illness portrait</a>.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -2455,6 +2457,7 @@ export function johannesPaulIIPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se1", label:"SE1 – The Bald Eagle: subtype profile"},
         {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Bald Eagle"},
+        {route:"krankheitsportraets-johannes-paul-ii", label:"Illness Portrait: John Paul II (SE1w9) – Parkinson's disease"},
         {route:"beruehmte-carl-xvi-gustaf", label:"Portrait: Carl XVI Gustaf (SE1w9) – Swedish monarch"},
         {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SE1w9) – Norwegian monarch"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},

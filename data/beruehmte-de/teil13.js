@@ -2492,6 +2492,8 @@ export function johannesPaulIIPortraitPage() {
           <p class="vb-intro">Die Vergebungsgeste gegenüber seinem Attentäter 1983 und die späten Versöhnungsgesten gegenüber Judentum und Islam lesen sich als genau dieser Schritt auf dem Heilungsweg: eine über Jahrzehnte innerlich geübte Strenge, die sich im reiferen Alter zunehmend in gelebte Gnade übersetzt – ohne die innere Disziplin je ganz aufzugeben, aber mit wachsender Bereitschaft, auch anderen (und am Ende sich selbst) Fehler zuzugestehen.</p>
         </blockquote>
 
+        <p class="vb-intro">Ein wesentlicher Teil seiner letzten Lebensjahre war eine fortschreitende Parkinson-Erkrankung, die ihm Stimme und Bewegung nahm, ohne dass er je zurücktrat – ausführlich dargestellt im eigenen <a href="javascript:void(0)" data-route="krankheitsportraets-johannes-paul-ii">Krankheitsporträt</a>.</p>
+
       </div>
       ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -2500,6 +2502,7 @@ export function johannesPaulIIPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se1", label:"SE1 – Der Weißkopfseeadler: Subtyp-Profil"},
         {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Weißkopfseeadler"},
+        {route:"krankheitsportraets-johannes-paul-ii", label:"Krankheitsporträt: Johannes Paul II. (SE1w9) – Parkinson-Erkrankung"},
         {route:"beruehmte-carl-xvi-gustaf", label:"Porträt: Carl XVI. Gustaf (SE1w9) – schwedischer Monarch"},
         {route:"beruehmte-harald-v", label:"Porträt: König Harald V. (SE1w9) – norwegischer Monarch"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
