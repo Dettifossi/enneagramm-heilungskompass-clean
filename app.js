@@ -16026,6 +16026,7 @@ const uiText = {
       { route: "angst-essenz", label: "Angst \u2192 Essenz" },
       { route: "bedrohungsszenarien", label: "Bedrohungsszenarien" },
       { route: "bewaeltigungsstrategie", label: "Bew\u00e4ltigungsstrategien" },
+      { route: "die-neuen-enneagramm-typen", label: "Die neuen Enneagramm-Typen" },
       { route: "ego-fixierungen", label: "Ego-Fixierungen nach Oscar Ichazo" },
       { route: "ego-persoenlichkeit", label: "Ego-Pers\u00f6nlichkeit" },
       { route: "empfindliche-punkte", label: "Empfindliche Punkte" },
@@ -34033,7 +34034,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -61939,6 +61940,82 @@ function grundformelPage() {
   `);
 }
 
+function dieNeuenEnneagrammTypenPage() {
+  const ROWS = [
+    { typ: 1, titel: "Groll", leidenschaft: "Kritik, Perfektionismus, Korrektur", darunter: "So wie es ist, darf es nicht sein.", tiefer: "Die Realität entspricht nicht dem inneren Ideal." },
+    { typ: 2, titel: "Stolz", leidenschaft: "Helfen, Geben, Fürsorge", darunter: "Ich brauche nichts.", tiefer: "Wenn ich selbst bedürftig bin, verliere ich Liebe." },
+    { typ: 3, titel: "Täuschung", leidenschaft: "Erfolg, Leistung, Image", darunter: "Ich muss etwas darstellen.", tiefer: "Mein Sein allein genügt nicht." },
+    { typ: 4, titel: "Neid", leidenschaft: "Sehnsucht, Vergleich, Melancholie", darunter: "Mir fehlt etwas.", tiefer: "Ich bin von etwas Wesentlichem getrennt." },
+    { typ: 5, titel: "Geiz", leidenschaft: "Rückzug, Sparsamkeit, Distanz", darunter: "Ich habe nicht genug.", tiefer: "Die Welt fordert mehr von mir, als ich geben kann." },
+    { typ: 6, titel: "Angst", leidenschaft: "Zweifel, Vorsicht, Absicherung", darunter: "Ich kann mich nicht auf mich verlassen.", tiefer: "Orientierung ist nicht sicher." },
+    { typ: 7, titel: "Völlerei", leidenschaft: "Ablenkung, Pläne, Möglichkeiten", darunter: "Ich darf nicht leiden.", tiefer: "Schmerz würde mich überwältigen." },
+    { typ: 8, titel: "Wollust", leidenschaft: "Macht, Kontrolle, Stärke, Intensität", darunter: "Die Welt ist gefährlich. Wenn ich nicht stark bin, werde ich verletzt.", tiefer: "Verletzlichkeit darf nicht existieren." },
+    { typ: 9, titel: "Trägheit", leidenschaft: "Trägheit, Bequemlichkeit, Anpassung", darunter: "Meine Existenz ist nicht wichtig.", tiefer: "Wenn ich mich zeige, könnte Verbundenheit verloren gehen." },
+  ];
+  return shell(`
+    ${pageHeader("die-neuen-enneagramm-typen")}
+    <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
+      <p class="eyebrow">Schaubilder · Grundlagen</p>
+      <h1 class="section-title">Die neuen Enneagramm-Typen</h1>
+      <p class="psycho-intro">Hinter der Leidenschaft liegt die Wunde – ein Schaubild, das die neun Typen über drei Tiefenebenen hinweg zeigt.</p>
+      <img
+        src="./assets/die-neuen-enneagramm-typen.jpg"
+        alt="Die neuen Enneagramm-Typen – Leidenschaft, Kernüberzeugung und Wunde der 9 Typen"
+        style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
+      />
+      <div class="vb-section" style="max-width:100%;">
+        <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Drei Ebenen statt zwei</h2>
+        <p class="vb-intro">Das Schaubild <a href="javascript:void(0)" data-route="leidenschaft-und-wunde">Leidenschaft und Wunde</a> stellt die sichtbare Leidenschaft der tief liegenden Wunde gegenüber. Dieses Schaubild geht einen Schritt weiter und schiebt eine dritte, vermittelnde Ebene dazwischen: die <strong>Kernüberzeugung</strong> – den Satz, mit dem der Verstand die Leidenschaft im Alltag rechtfertigt, bevor überhaupt sichtbar wird, welche Wunde eigentlich dahintersteckt.</p>
+        <p class="vb-intro">So entsteht eine Kette, die sich bei jedem der neun Typen gleich liest: Die <strong>Leidenschaft</strong> ist das, was von außen sichtbar wird – ein wiederkehrendes Verhaltensmuster. „Darunter" liegt die <strong>Kernüberzeugung</strong>, mit der dieses Verhalten sich für den Typ selbst logisch und notwendig anfühlt. „Noch tiefer" liegt schließlich die eigentliche <strong>Wunde</strong> – die früheste, meist unbewusste Grundannahme über sich selbst und die Welt, aus der alles andere erst entsteht.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Warum die Reihenfolge wichtig ist</h2>
+        <p class="vb-intro">Wer nur die Leidenschaft sieht – etwa den Perfektionismus der Eins oder die Kontrollbedürftigkeit der Acht –, sieht das Symptom und urteilt leicht vorschnell. Wer bei der Kernüberzeugung ansetzt, versteht bereits die innere Logik: Warum fühlt sich dieses Verhalten für den Menschen richtig, ja notwendig an? Erst wer bis zur Wunde vordringt, versteht, warum die Kernüberzeugung überhaupt entstanden ist – und warum echte Veränderung nie beim Symptom, sondern immer bei der Wunde selbst ansetzen muss.</p>
+
+        <h2 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Die drei Zentren und Triaden</h2>
+        <p class="vb-intro">Die neun Typen gliedern sich zugleich in drei <strong>Zentren</strong> – Bauch (Instinkt), Herz (Gefühl) und Kopf (Verstand) – und in drei <strong>Triaden</strong>: die Bauch-Triade (8-9-1), die Herz-Triade (2-3-4) und die Kopf-Triade (5-6-7). Jede Triade teilt eine gemeinsame Grundthematik, auch wenn sich Leidenschaft, Kernüberzeugung und Wunde von Typ zu Typ unterscheiden.</p>
+      </div>
+
+      <h2 style="font-size:1.05rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Alle 9 Typen im Überblick</h2>
+      <div style="overflow-x:auto;border:1px solid var(--line,var(--border));border-radius:12px;">
+        <table style="border-collapse:collapse;width:100%;min-width:560px;font-size:0.86rem;">
+          <thead>
+            <tr style="background:var(--ivory,var(--paper));">
+              <th style="text-align:left;padding:.6rem .8rem;border-bottom:1px solid var(--line,var(--border));">Typ &amp; Leidenschaft</th>
+              <th style="text-align:left;padding:.6rem .8rem;border-bottom:1px solid var(--line,var(--border));">Darunter</th>
+              <th style="text-align:left;padding:.6rem .8rem;border-bottom:1px solid var(--line,var(--border));">Noch tiefer</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${ROWS.map((row, i) => {
+              const tc = typeColor(row.typ);
+              return `
+                <tr style="background:${i % 2 ? "rgba(0,0,0,0.015)" : "transparent"};">
+                  <td style="padding:.55rem .8rem;border-bottom:1px solid var(--line,var(--border));font-weight:700;color:${tc};vertical-align:top;">Typ ${row.typ} – ${row.titel}<span style="display:block;font-weight:400;font-size:.78rem;color:var(--muted);margin-top:.2rem;">${row.leidenschaft}</span></td>
+                  <td style="padding:.55rem .8rem;border-bottom:1px solid var(--line,var(--border));vertical-align:top;">${row.darunter}</td>
+                  <td style="padding:.55rem .8rem;border-bottom:1px solid var(--line,var(--border));vertical-align:top;">${row.tiefer}</td>
+                </tr>`;
+            }).join("")}
+          </tbody>
+        </table>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
+        <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Hinter jeder Leidenschaft liegt eine Sehnsucht. Hinter jeder Sehnsucht liegt eine Wunde. Hinter jeder Wunde liegt Heilung.</blockquote>
+
+        ${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms – woher sie stammen, wie sie das Leben prägen und welche Heilmittel ihnen entsprechen.", "Hinter der Leidenschaft – Die neun Wunden des Enneagramms")}
+        ${bookTip("leidenschaft-und-heilung", "Leidenschaften, Tugenden und Heilungswege aller 27 Subtypen – direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
+        ${relatedLinks([
+          {route:"leidenschaft-und-wunde", label:"Leidenschaft und Wunde"},
+          {route:"wunden", label:"Wunden & Schutzstrategien"},
+          {route:"kerneberzeugungen", label:"Kernüberzeugungen"},
+          {route:"horney-triaden", label:"Horney-Triaden & Subtypen"},
+          {route:"drei-finger-regel", label:"Drei-Finger-Regel (Subtypenvarianten)"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
 function leidenschaftUndWundePage() {
   return shell(`
     ${pageHeader("leidenschaft-und-wunde")}
@@ -61974,7 +62051,7 @@ function leidenschaftUndWundePage() {
         ${bookTip("leidenschaft-und-heilung", "Leidenschaften, Tugenden und Heilungswege aller 27 Subtypen &ndash; direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
         ${relatedLinks([
           {route:"wunden", label:"Wunden & Schutzstrategien"},
-          {route:"leidenschaft-und-wunde", label:"Leidenschaft & Wunde"},
+          {route:"die-neuen-enneagramm-typen", label:"Die neuen Enneagramm-Typen"},
           {route:"gaslighting-enneagramm", label:"Gaslighting & Enneagramm"},
         ])}
       </div>
@@ -62015,6 +62092,7 @@ function wundenPage() {
         ${bookTip("leidenschaft-und-heilung", "27 Subtypen und ihre Leidenschaften &ndash; mit konkreten Heilungswegen direkt aus der therapeutischen Praxis.", "Leidenschaft und Heilung")}
         ${relatedLinks([
           {route:"leidenschaft-und-wunde", label:"Leidenschaft & Wunde"},
+          {route:"die-neuen-enneagramm-typen", label:"Die neuen Enneagramm-Typen"},
           {route:"kindheitsperspektiven", label:"Kindheitsperspektiven"},
           {route:"heilungsweg", label:"Heilungsweg"},
         ])}
@@ -80304,6 +80382,7 @@ const ROUTES = {
     "wer-wir-sind": werWirSindPage,
     "verwechslungen": verwechslungenPage,
     "wunden": wundenPage,
+    "die-neuen-enneagramm-typen": dieNeuenEnneagrammTypenPage,
     "leidenschaft-und-wunde": leidenschaftUndWundePage,
     "grundformel": grundformelPage,
     "ego-fixierungen": egoFixierungenPage,
