@@ -36931,6 +36931,7 @@ function dieNeuenEnneagrammTypenPage() {
         alt="The New Enneagram Types – passion, core belief and wound of the 9 types"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
+      <p class="vb-anmerkung" style="font-style:italic;color:var(--muted);font-size:0.9rem;margin:-1rem 0 1.8rem;">A note on the title: the nine types themselves are ancient, not new. "The New Enneagram Types" refers to the new, deeper perspective this chart offers – the added layer of the core belief between the visible passion and the underlying wound.</p>
       <div class="vb-section" style="max-width:100%;">
         <h2 style="font-size:1.05rem;font-weight:700;margin-bottom:1rem;color:var(--ink);">Three levels instead of two</h2>
         <p class="vb-intro">The chart <a href="javascript:void(0)" data-route="leidenschaft-und-wunde">Leidenschaft und Wunde</a> (Passion and Wound) sets the visible passion against the deep-lying wound. This chart goes one step further and inserts a third, mediating level in between: the <strong>core belief</strong> – the sentence with which the mind justifies the passion in everyday life, before it ever becomes visible which wound actually lies behind it.</p>
