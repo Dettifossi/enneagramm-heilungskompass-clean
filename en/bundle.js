@@ -36968,6 +36968,18 @@ function dieNeuenEnneagrammTypenPage() {
         </table>
       </div>
 
+      <h2 style="font-size:1.05rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">The nine wounds at a glance</h2>
+      <p class="vb-intro" style="margin-bottom:1rem;">Since the wound is the actual deepest level, here are the nine sentences that matter most, gathered on their own, without the other two columns:</p>
+      <div style="display:grid;gap:.5rem;">
+        ${ROWS.map(row => {
+          const tc = typeColor(row.typ);
+          return `<div style="display:flex;gap:.7rem;align-items:baseline;padding:.5rem .8rem;border-radius:8px;background:var(--ivory,var(--paper));">
+            <span style="font-weight:700;color:${tc};white-space:nowrap;">Type ${row.typ}</span>
+            <span style="font-style:italic;">${row.tiefer}</span>
+          </div>`;
+        }).join("")}
+      </div>
+
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Behind every passion lies a longing. Behind every longing lies a wound. Behind every wound lies healing.</blockquote>
 

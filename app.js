@@ -62000,6 +62000,18 @@ function dieNeuenEnneagrammTypenPage() {
         </table>
       </div>
 
+      <h2 style="font-size:1.05rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Die neun Wunden im Überblick</h2>
+      <p class="vb-intro" style="margin-bottom:1rem;">Da die Wunde die eigentliche Tiefenebene ist, hier noch einmal gesammelt, ohne die beiden anderen Spalten – die neun Sätze, auf die es ankommt:</p>
+      <div style="display:grid;gap:.5rem;">
+        ${ROWS.map(row => {
+          const tc = typeColor(row.typ);
+          return `<div style="display:flex;gap:.7rem;align-items:baseline;padding:.5rem .8rem;border-radius:8px;background:var(--ivory,var(--paper));">
+            <span style="font-weight:700;color:${tc};white-space:nowrap;">Typ ${row.typ}</span>
+            <span style="font-style:italic;">${row.tiefer}</span>
+          </div>`;
+        }).join("")}
+      </div>
+
       <div class="vb-section" style="max-width:100%;margin-top:1.5rem;">
         <blockquote style="border-left:3px solid var(--gold);padding:1rem 1.25rem;margin:2rem 0;font-style:italic;color:var(--copper);font-size:1.05rem;background:var(--ivory);border-radius:0 8px 8px 0;">Hinter jeder Leidenschaft liegt eine Sehnsucht. Hinter jeder Sehnsucht liegt eine Wunde. Hinter jeder Wunde liegt Heilung.</blockquote>
 
