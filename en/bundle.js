@@ -5659,6 +5659,10 @@ document.addEventListener("click", (e) => {
 
 
 const REVIEWS_API = 'https://kompass-assistent.9rathmer.workers.dev/reviews';
+// Schützt vor eingeschleustem HTML (Stored XSS) bei Texten, die Besucher einreichen.
+function _escHtml(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, function(c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; });
+}
 const ADMIN_CODE = 'rathmer9';
 
 
@@ -5699,7 +5703,7 @@ function _adminLoading() {
           '<div>' +
           '<span style="color:#f4a900;font-size:1.1rem;">' + sternText + '</span>' +
           '<span style="font-size:0.78rem;color:var(--muted);margin-left:0.5rem;">' + datum + '</span>' +
-          '<p style="font-size:0.9rem;color:var(--ink);margin:0.5rem 0 0;line-height:1.6;">' + (b.text || '(kein Kommentar)') + '</p>' +
+          '<p style="font-size:0.9rem;color:var(--ink);margin:0.5rem 0 0;line-height:1.6;">' + _escHtml(b.text || '(kein Kommentar)') + '</p>' +
           '</div></div>' +
           '<div style="display:flex;gap:0.5rem;margin-top:0.8rem;">' +
           '<button onclick="window._adminFreigeben(' + i + ')" ' +
@@ -5796,14 +5800,14 @@ function _bewertungSterneInit() {
       if (!section || !container) return;
       container.innerHTML = liste.map(function(b) {
         const landDisplay = b.countryCode ? (COUNTRY_NAME_EN[b.countryCode] || b.land || '') : (b.land || '');
-        const meta = [b.name, landDisplay || null].filter(Boolean).join(' · ');
+        const meta = [_escHtml(b.name), _escHtml(landDisplay) || null].filter(Boolean).join(' · ');
         const textEN = b.text_en || '';
         return '<div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;" data-review-card>' +
           '<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;">' +
           '<span style="color:#f4a900;font-size:1rem;">' + '★'.repeat(b.sterne) + '☆'.repeat(5-b.sterne) + '</span>' +
           (meta ? '<span style="font-size:0.78rem;color:var(--muted);">' + meta + '</span>' : '') +
           '</div>' +
-          '<p style="font-size:0.88rem;color:var(--ink);margin:0;line-height:1.6;" data-review-text data-text-en="' + textEN.replace(/"/g, '&quot;') + '">' + (b.text || '') + '</p>' +
+          '<p style="font-size:0.88rem;color:var(--ink);margin:0;line-height:1.6;" data-review-text data-text-en="' + _escHtml(textEN) + '">' + _escHtml(b.text || '') + '</p>' +
           '<button onclick="translateReview(this)" data-translated="0" style="margin-top:0.5rem;background:none;border:none;color:var(--gold-dark,#a07830);font-size:0.75rem;cursor:pointer;padding:0;">🌐 Translate</button>' +
           '</div>';
       }).join('');
@@ -9416,7 +9420,7 @@ function _sucheResults(q) {
 
 function _sucheResultsHtml(res, q) {
   const total = res.subtypen.length + res.portraits.length + res.register.length + res.zitate.length + res.laender.length;
-  if (total === 0) return `<p class="suche-hint">No results found for &ldquo;${q}&rdquo;.</p>`;
+  if (total === 0) return `<p class="suche-hint">No results found for &ldquo;${String(q).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]))}&rdquo;.</p>`;
 
   const hl = (txt) => {
     const i = txt.toLowerCase().indexOf(q.toLowerCase());
