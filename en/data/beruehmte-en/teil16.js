@@ -2637,3 +2637,72 @@ export function nikiLaudaPortraitPage() {
     </div>
   `);
 }
+
+export function johannesGutenbergPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-johannes-gutenberg-portrait.jpg" alt="Johannes Gutenberg – portrait (later imaginary depiction)" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-johannes-gutenberg-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Johannes Gutenberg</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine-Wing</p>
+        <p class="krim-portrait-subtitle">Inventor of printing with movable metal type, c. 1400 in Mainz &ndash; 1468 in Mainz &ndash; Animal match: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle Who Mends Its Nest Every Year</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An eagle pair does not build its eyrie in a single season. It carries twig after twig over the years, returns spring after spring and repairs what winter has damaged. The nest does not become a showpiece but a piece of work that lasts because every detail was checked.</p>
+          <p class="vb-intro">Johannes Gutenberg, born around 1400 in Mainz as Johannes Gensfleisch zur Laden zum Gutenberg (the exact year of birth is not known), came from a patrician family. His father Friele was a Münzerhausgenosse, that is, a member of the Mainz families involved in the city's coinage. Gutenberg became a goldsmith, a craft in which metal, measure and flawlessness decide everything. Out of this craft grew, over decades, a process that could for the first time reproduce texts in large numbers at consistent quality. What is remarkable is how little he left behind himself: no letter, no description of his method and no personal testimony survives. What we know about him comes from court records and from his printed works.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: The Standard Lies in the Workpiece</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation One (SE1)</strong> directs its perfectionism inward: toward its own preparation, its own care, and the question of whether the work is in order, not toward improving others. In Gutenberg this can be read off his main work, the 42-line Bible, produced in Mainz in the mid-1450s. He did not imitate just any script but the hand of the best scribes of his time, including abbreviations and ligatures. This required around 290 different characters, each one cast, checked and set so that the columns stood straight.</p>
+          <p class="vb-intro">Evidence of this standard is the reaction of contemporaries. Enea Silvio Piccolomini, later Pope Pius II, reported in a letter of March 1455 that he had seen sheets of this Bible in Frankfurt that were very clean and easy to read. Gutenberg was working to a standard that nobody set for him. The result was meant to last whether or not anyone looked closely.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: No Name in His Own Work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> takes the sharpness out of the One's manner and gives it a quiet, restrained persistence. It is striking that Gutenberg's Bible carries no imprint, neither printer's name nor year. The great dictionary &lsquo;Catholicon&rsquo; (a Latin reference work) of 1460, usually attributed to him, likewise names no printer but modestly praises the art that produced it in a Latin closing verse. The attribution dates from a later period and is not undisputed among scholars. By contrast, Johannes Fust and Peter Schöffer put their names prominently into the Psalter in 1457.</p>
+          <p class="vb-intro">That the reticence was deliberate cannot be proven from the sources. But it fits the image of a craftsman who lets his work speak. In 1465 Archbishop Adolf of Nassau of Mainz appointed him a courtier (&ldquo;Hofmann&rdquo;) and granted him court clothing plus grain and wine free of tax, a late recognition he apparently accepted calmly. The Nine avoids the big stage, and Gutenberg's biography therefore remains astonishingly quiet to this day.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: A System from Many Parts</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anyone who calls Gutenberg merely the inventor of printing overlooks what exactly set him apart. Printing from wood blocks and stamping metal already existed. What was new was the combination of several processes into one working system: a hand mould with which type could be cast in identical form as often as needed, copper matrices, type metal from an alloy of lead, tin and antimony (the exact composition is not recorded), an oil-based, viscous ink that adheres to metal, and a press that applied pressure evenly to the sheet. Each of these parts had to fit the others. The total print run of the Bible is usually given as around 180 copies, about 150 on paper and 30 on vellum, though the numbers vary by source.</p>
+          <p class="vb-intro">The One's trait lies in the coherence of this system: the process was only good once all its parts meshed so precisely that print did not fall short of the manuscript. Gutenberg worked on it for years, first in Strasbourg, where he lived from about 1434, then from 1448 again in Mainz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One with a Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in precision and endurance: Gutenberg completed a system that changed the spread of knowledge in Europe, and did so with a quality that is still admired today.</p>
+          <p class="vb-intro">The shadow shows where the demand on the work meets the reality of money and contracts. Gutenberg appeared in court several times, in Strasbourg over financial claims and a broken promise of marriage. For the Bible he borrowed money from Johannes Fust, repeatedly, probably 1,600 guilders in all (figures vary). At the end of 1455, when the printing of the Bible was close to completion, Fust sued for repayment including interest. The Mainz court ruled for Fust, and Gutenberg lost the equipment and type he had pledged to him. Fust went on printing with Peter Schöffer. The One tends to put the standard into the work and overlook the creditors' standard, and the Nine-wing can contribute to putting off a conflict until it is too late. Whether this was so for Gutenberg cannot be said. It is an interpretation.</p>
+          <p class="vb-intro">To be honest, one must add how thin the basis of this typing is. There are no letters and no personal statements, and the portrait above is an imaginary depiction from the 16th century (after André Thevet). What Gutenberg really looked like, we do not know. The assignment to SE1w9 therefore rests on his work and conduct, not on his face or his own words.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Eagles Who Let Their Work Speak: Gutenberg and Schumacher</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The same subtype shows in <a href="javascript:void(0)" data-route="beruehmte-michael-schumacher">Michael Schumacher</a> (SE1w9), and the comparison illuminates both. Schumacher too became known through his work, through preparation and precision, and rarely spoke about his inner life. In his case the reticence is known from interviews and from his later years. With Gutenberg we do not know whether he wanted to stay silent or whether the sources simply pass nothing down.</p>
+          <p class="vb-intro">The difference lies in the object of precision: Schumacher perfected himself and the car beneath him, Gutenberg a process that others carried on after him. The process spread across Europe within a few decades, and its inventor remained almost invisible behind it.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Eagle"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9) – same subtype"},
+        {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SE1w9)"},
+        {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
+        {route:"beruehmte-leonardo-da-vinci", label:"Portrait: Leonardo da Vinci (SO5w4)"},
+      ])}
+    </div>
+  `);
+}

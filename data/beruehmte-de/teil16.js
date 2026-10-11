@@ -2642,3 +2642,72 @@ export function nikiLaudaPortraitPage() {
     </div>
   `);
 }
+
+export function johannesGutenbergPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-johannes-gutenberg-portrait.jpg" alt="Johannes Gutenberg – Porträt (spätere Phantasiedarstellung)" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-johannes-gutenberg-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Johannes Gutenberg</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Erfinder des Buchdrucks mit beweglichen Metalllettern, um 1400 in Mainz &ndash; 1468 in Mainz &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der seinen Horst jedes Jahr nachbessert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein Adlerpaar baut seinen Horst nicht in einer Saison. Es trägt über Jahre Zweig um Zweig zusammen, kehrt Frühling für Frühling zurück und bessert aus, was der Winter beschädigt hat. Der Horst wird dadurch kein Schauobjekt, sondern ein Werkstück, das hält, weil jedes Detail geprüft wurde.</p>
+          <p class="vb-intro">Johannes Gutenberg, um 1400 als Johannes Gensfleisch zur Laden zum Gutenberg in Mainz geboren (das genaue Geburtsjahr ist nicht bekannt), stammte aus einer Patrizierfamilie. Sein Vater Friele war Münzerhausgenosse, gehörte also zu den Mainzer Familien, die mit dem Münzwesen der Stadt zu tun hatten. Gutenberg wurde Goldschmied, ein Handwerk, in dem Metall, Maß und Fehlerfreiheit entscheiden. Aus diesem Handwerk heraus entstand über Jahrzehnte ein Verfahren, das Texte erstmals in großer Zahl mit gleichbleibender Qualität vervielfältigen konnte. Das Bemerkenswerte ist, wie wenig er selbst darüber hinterlassen hat: Kein Brief, keine Beschreibung seines Vorgehens und kein Selbstzeugnis sind überliefert. Was wir über ihn wissen, stammt aus Gerichtsakten und aus seinen Drucken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der Selbsterhaltungstyp 1: der Maßstab liegt im Werkstück</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Selbsterhaltungs-Eins (SE1)</strong> richtet ihren Perfektionismus nach innen: auf die eigene Vorbereitung, die eigene Sorgfalt und die Frage, ob die Arbeit in Ordnung ist, nicht auf die Verbesserung anderer. Bei Gutenberg lässt sich das an seinem Hauptwerk ablesen, der 42-zeiligen Bibel, die Mitte der 1450er-Jahre in Mainz entstand. Er ahmte nicht irgendeine Schrift nach, sondern die Handschrift der besten Schreiber seiner Zeit, mitsamt Abkürzungen und Ligaturen. Dafür waren rund 290 verschiedene Lettern nötig, jede einzelne gegossen, geprüft und im Satz so ausgerichtet, dass die Spalten gerade standen.</p>
+          <p class="vb-intro">Ein Beleg für diesen Anspruch ist die Reaktion der Zeitgenossen. Enea Silvio Piccolomini, der spätere Papst Pius II., berichtete im März 1455 in einem Brief, er habe in Frankfurt Blätter dieser Bibel gesehen, die sehr sauber und gut lesbar gewesen seien. Gutenberg arbeitete damit an einem Maßstab, den ihm niemand vorgab. Das Ergebnis sollte bestehen, ob jemand genau hinsah oder nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: ohne Namen im eigenen Werk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> nimmt der Eins die Schärfe im Auftreten und gibt ihr eine stille, zurückgenommene Beharrlichkeit. Auffällig ist, dass Gutenbergs Bibel kein Impressum trägt, weder Druckername noch Jahr. Das große Wörterbuch ›Catholicon‹ (ein lateinisches Nachschlagewerk) von 1460, das ihm meist zugeschrieben wird, nennt ebenfalls keinen Drucker, sondern preist in einem lateinischen Schlussvers bescheiden die Kunst, die es hervorgebracht hat. Die Zuschreibung stammt aus späterer Zeit und ist unter Fachleuten nicht unumstritten. Dagegen setzten Johannes Fust und Peter Schöffer ihre Namen 1457 deutlich sichtbar in den Psalter.</p>
+          <p class="vb-intro">Dass die Zurückhaltung Absicht war, lässt sich aus den Quellen nicht beweisen. Sie passt aber zum Bild eines Handwerkers, der sein Werk für sich sprechen lässt. 1465 ernannte ihn der Mainzer Erzbischof Adolf von Nassau zum Hofmann und sicherte ihm Hofkleidung, Getreide und Wein steuerfrei zu, eine späte Anerkennung, die er offenbar ruhig annahm. Der Neuner meidet die große Bühne, und Gutenbergs Biografie bleibt deshalb bis heute erstaunlich leise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: aus vielen Einzelteilen ein System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wer Gutenberg nur als den Erfinder des Buchdrucks nennt, übersieht, was genau ihn auszeichnete. Das Drucken mit Holzblöcken und das Prägen von Metall gab es schon. Neu war die Verbindung mehrerer Verfahren zu einem funktionierenden System: ein Handgießinstrument, mit dem sich Lettern in gleicher Form beliebig oft gießen ließen, Matrizen aus Kupfer, Schriftmetall aus einer Legierung von Blei, Zinn und Antimon (die genaue Zusammensetzung ist nicht überliefert), eine ölhaltige, dickflüssige Druckerschwärze, die auf Metall haftet, und eine Presse, die den Druck gleichmäßig auf das Blatt brachte. Jedes dieser Teile musste zu den anderen passen. Die Gesamtauflage der Bibel wird meist mit rund 180 Exemplaren angegeben, etwa 150 auf Papier und 30 auf Pergament, doch die Zahlen schwanken je nach Quelle.</p>
+          <p class="vb-intro">Der Einser-Zug liegt in der Stimmigkeit dieses Systems: Das Verfahren war erst gut, wenn alle Einzelteile so genau ineinandergriffen, dass der Druck der Handschrift nicht nachstand. Gutenberg arbeitete jahrelang daran, zunächst in Straßburg, wo er ab etwa 1434 lebte, dann ab 1448 wieder in Mainz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der Selbsterhaltungs-Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Genauigkeit und Ausdauer: Gutenberg stellte ein System fertig, das die Verbreitung von Wissen in Europa veränderte, und tat es mit einer Qualität, die bis heute bewundert wird.</p>
+          <p class="vb-intro">Der Schatten zeigt sich, wo der Anspruch ans Werk auf die Realität von Geld und Verträgen trifft. Gutenberg stand mehrfach vor Gericht, in Straßburg wegen Geldforderungen und eines gebrochenen Eheversprechens. Für die Bibel lieh er sich von Johannes Fust Geld, mehrfach, insgesamt wohl 1.600 Gulden (die Angaben schwanken). Ende 1455, als der Druck der Bibel kurz vor dem Abschluss stand, klagte Fust auf Rückzahlung einschließlich Zinsen. Das Mainzer Gericht entschied für Fust, und Gutenberg verlor Geräte und Lettern, die er Fust verpfändet hatte. Fust druckte danach mit Peter Schöffer weiter. Der Einser neigt dazu, den Maßstab ins Werk zu legen und den Maßstab der Gläubiger zu übersehen, und der Neunerflügel kann dazu beitragen, einen Konflikt hinauszuschieben, bis es zu spät ist. Ob das bei Gutenberg so war, lässt sich nicht sagen. Es ist eine Deutung.</p>
+          <p class="vb-intro">Ehrlich muss man hinzufügen, wie dünn die Grundlage dieser Typisierung ist. Es gibt keine Briefe und keine persönlichen Aussagen, und das Porträt oben ist eine Phantasiedarstellung aus dem 16. Jahrhundert (nach André Thevet). Wie Gutenberg wirklich aussah, wissen wir nicht. Die Zuordnung zu SE1w9 stützt sich daher auf sein Werk und sein Verhalten, nicht auf sein Gesicht oder seine eigenen Worte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Adler, die ihr Werk sprechen lassen: Gutenberg und Schumacher</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Derselbe Subtyp zeigt sich bei <a href="javascript:void(0)" data-route="beruehmte-michael-schumacher">Michael Schumacher</a> (SE1w9), und der Vergleich beleuchtet beide. Auch Schumacher wurde über sein Werk bekannt, über Vorbereitung und Präzision, und sprach selten über sein Innenleben. Bei ihm ist die Zurückhaltung aus Interviews und aus den späteren Jahren bekannt. Bei Gutenberg wissen wir nicht, ob er schweigen wollte oder ob die Quellen einfach nichts überliefern.</p>
+          <p class="vb-intro">Der Unterschied liegt im Gegenstand der Genauigkeit: Schumacher perfektionierte sich selbst und den Wagen unter ihm, Gutenberg ein Verfahren, das nach ihm von anderen weitergeführt wurde. Das Verfahren verbreitete sich in wenigen Jahrzehnten über Europa, und sein Erfinder blieb dahinter fast unsichtbar.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SE1w9) – derselbe Subtyp"},
+        {route:"beruehmte-johannes-paul-ii", label:"Porträt: Johannes Paul II. (SE1w9)"},
+        {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6)"},
+        {route:"beruehmte-leonardo-da-vinci", label:"Porträt: Leonardo da Vinci (SO5w4)"},
+      ])}
+    </div>
+  `);
+}

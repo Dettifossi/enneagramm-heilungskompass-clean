@@ -1183,6 +1183,7 @@ export function michaelSchumacherPortraitPage() {
         {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Bald Eagle"},
         {route:"krankheitsportraets-michael-schumacher", label:"Illness Portrait: Michael Schumacher (SE1w9)"},
         {route:"beruehmte-carl-xvi-gustaf", label:"Portrait: Carl XVI Gustaf (SE1w9)"},
+        {route:"beruehmte-johannes-gutenberg", label:"Portrait: Johannes Gutenberg (SE1w9)"},
         {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SE1w9)"},
         {route:"beruehmte-nico-rosberg", label:"Portrait: Nico Rosberg (SO1w2) – his Mercedes team-mate"},
       ])}

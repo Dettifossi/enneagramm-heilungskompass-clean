@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2481", date: "2026-10-11", text: "Neues Porträt: Johannes Gutenberg (SE1w9) – Goldschmied und Erfinder des Buchdrucks.", text_en: "New portrait: Johannes Gutenberg (SE1w9) – goldsmith and inventor of printing.", route: "beruehmte-johannes-gutenberg" },
     { version: "v2480", date: "2026-10-11", text: "Neues Porträt: Niki Lauda (SO1w2) – dreimaliger Formel-1-Weltmeister und Fluglinien-Gründer.", text_en: "New portrait: Niki Lauda (SO1w2) – three-time Formula 1 World Champion and airline founder.", route: "beruehmte-niki-lauda" },
     { version: "v2478", date: "2026-10-11", text: "Neues Porträt: Nico Rosberg (SO1w2) – Formel-1-Weltmeister 2016, Unternehmer und Nachhaltigkeitsinvestor.", text_en: "New portrait: Nico Rosberg (SO1w2) – 2016 Formula 1 World Champion, entrepreneur and sustainability investor.", route: "beruehmte-nico-rosberg" },
     { version: "v2479", date: "2026-10-11", text: "Neues Porträt: Lewis Hamilton (SO2w3) – siebenmaliger Formel-1-Weltmeister.", text_en: "New portrait: Lewis Hamilton (SO2w3) – seven-time Formula 1 World Champion.", route: "beruehmte-lewis-hamilton" },
