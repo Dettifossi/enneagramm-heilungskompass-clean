@@ -2840,3 +2840,69 @@ export function javierTebasPortraitPage() {
     </div>
   `);
 }
+
+export function philippeSandsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-philippe-sands-portrait.jpg" alt="Philippe Sands – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-philippe-sands-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Philippe Sands</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with a Six-Wing</p>
+        <p class="krim-portrait-subtitle">International lawyer and author, Peace Prize of the German Book Trade 2026, b. 1960 in London &ndash; Animal match: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver Whose Dam Creates the Pond for Everyone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Whoever sees a beaver dam sees at first branches and mud. Only after a while does it show what it achieves: behind the dam a pond forms in which fish, frogs, birds and many other animals live that ask nothing of the builder. The beaver builds for itself, but the result belongs to everyone who benefits from it.</p>
+          <p class="vb-intro">Philippe Sands, born in London in 1960, is a French-British lawyer. He originally wanted to study economics and switched to law after a few weeks, studied at Cambridge, was called to the Bar in 1985 and appointed Queen's Counsel in 2003 (now King's Counsel). He is a professor at University College London, where he directs the Centre on International Courts and Tribunals, and a visiting professor at Harvard Law School. From 2018 to 2023 he was president of English PEN. The Börsenverein of the German Book Trade awards him its Peace Prize 2026, with the ceremony taking place on 11 October 2026 at the Paulskirche in Frankfurt. The jury calls him a &lsquo;persistent defender of international law&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Law as a Tool for the Greater Cause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>Social Seven (SO7)</strong> finds fulfilment in service to a community rather than in its own pleasure. That fits a lawyer who constantly puts his craft to use for others. In the Pinochet case before the British House of Lords he took part as counsel for Human Rights Watch. Before the International Court of Justice he represented the Solomon Islands in the advisory proceedings on nuclear weapons, later The Gambia in the case against Myanmar over the alleged genocide of the Rohingya, and Mauritius in the dispute over the Chagos Islands. Each time it is not he who stands at the centre but a group that would have found it harder to be heard without him.</p>
+          <p class="vb-intro">Striking is the number of roles he fills side by side: barrister, professor, author, interviewer in a documentary film, head of an association, arbitrator in international disputes. This can be linked to the Seven's pull toward restless, never-finished building: where a case ends, a book begins, and where a book ends, the next case begins.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Reliability Through Rules and Institutions</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> gives the Social Seven a bond to something reliable. In Sands this is international law itself: courts, treaties, concepts such as &lsquo;genocide&rsquo; and &lsquo;crimes against humanity&rsquo;. He defends this order not out of rigidity of principle but because it promises security to people who otherwise have none. He works within the system, in courts and with arguments, rather than attacking it from outside.</p>
+          <p class="vb-intro">The same bond shows in the personal sphere. The trigger for his book &lsquo;East West Street&rsquo; was an invitation in 2010 to give a lecture in Lemberg, today's Lviv. His grandfather had been born there in 1904. He had never spoken about that time and was the only survivor of his family. Sands began to follow that story, an attitude that can be linked to the loyalty of the Six-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Telling Law as Story</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Sands apart is more than the number of cases. In &lsquo;East West Street&rsquo; (2016, Baillie Gifford Prize) he shows that Hersch Lauterpacht, who coined the term &lsquo;crimes against humanity&rsquo;, and Raphael Lemkin, who developed the term &lsquo;genocide&rsquo;, studied at the university in Lemberg, in the same city and at the same time in which his grandfather grew up. He weaves legal history, family history and the Nuremberg trials into a narrative that makes an abstract law tangible.</p>
+          <p class="vb-intro">In &lsquo;The Ratline&rsquo; (2020) he follows the path of the SS man Otto Wächter, and in the documentary &lsquo;What Our Fathers Did&rsquo; he stands beside the sons of Hans Frank and Otto Wächter, Niklas Frank and Horst von Wächter, who deal with their fathers' guilt in very different ways. &lsquo;The Last Colony&rsquo; (2022) tells of the dispute over the Chagos Islands and their expelled population, &lsquo;38 Londres Street&rsquo; (2025) of the proceedings against the Chilean dictator Pinochet in London. The Börsenverein stresses that Sands looks both at the motives of the perpetrators and at the suffering of the victims.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Seven with a Six-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the combination of legal knowledge and narrative power: Sands makes international law understandable to people who will never enter a courtroom, and consistently places his work in the service of others.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. Whoever serves so many fronts at once risks that nothing is ever quite finished, and whoever relies on courts and treaties depends on their holding. The agreement between the United Kingdom and Mauritius over the Chagos Islands of May 2025 is criticised by experts for the limited return options of the expelled population. It shows that even a legal success does not settle every question, and that the Six-wing's hope for reliable rules meets limits.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Advocates for the Uncomfortable: Sands and Gysi</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-gregor-gysi">Gregor Gysi</a> (SO7w6), Sands shares more than the subtype. Both are lawyers who put their language and expertise at the service of people who would have found less of a hearing without them. Gysi defended regime critics in the GDR, Sands represents states and groups before international courts. In both the craft serves a greater cause, and in both the same theme runs through many roles.</p>
+          <p class="vb-intro">The difference lies in the stage. Gysi works through rhetoric and parliament, Sands through courtroom and book. Unlike <a href="javascript:void(0)" data-route="beruehmte-christian-drosten">Christian Drosten</a> (SO7w6), who moved closely along the line of decision-makers, Sands relies on the authority of independent courts and appears precisely where powerful states are challenged.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-gregor-gysi", label:"Portrait: Gregor Gysi (SO7w6) – advocate for the uncomfortable"},
+        {route:"beruehmte-christian-drosten", label:"Portrait: Christian Drosten (SO7w6)"},
+      ])}
+    </div>
+  `);
+}

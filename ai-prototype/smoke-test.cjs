@@ -69,6 +69,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-konrad-zuse", label: "Neues EN-Porträt: Konrad Zuse" },
   { hash: "#beruehmte-javier-tebas", label: "Neues Porträt: Javier Tebas" },
   { hash: "en/#beruehmte-javier-tebas", label: "Neues EN-Porträt: Javier Tebas" },
+  { hash: "#beruehmte-philippe-sands", label: "Neues Porträt: Philippe Sands" },
+  { hash: "en/#beruehmte-philippe-sands", label: "Neues EN-Porträt: Philippe Sands" },
 ];
 
 function startServer() {

@@ -2845,3 +2845,69 @@ export function javierTebasPortraitPage() {
     </div>
   `);
 }
+
+export function philippeSandsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-philippe-sands-portrait.jpg" alt="Philippe Sands – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-philippe-sands-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Philippe Sands</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Völkerrechtler und Autor, Friedenspreis des Deutschen Buchhandels 2026, geb. 1960 in London &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber, dessen Damm für alle den Teich schafft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wer einen Biberdamm sieht, sieht zunächst Äste und Schlamm. Erst nach einer Weile zeigt sich, was er bewirkt: Hinter dem Damm entsteht ein Teich, in dem Fische, Frösche, Vögel und viele andere Tiere leben, die vom Baumeister selbst nichts verlangen. Der Biber baut für sich, aber das Ergebnis gehört allen, die davon profitieren.</p>
+          <p class="vb-intro">Philippe Sands, 1960 in London geboren, ist französisch-britischer Jurist. Er wollte ursprünglich Volkswirtschaft studieren und wechselte nach wenigen Wochen zu Jura, studierte in Cambridge, wurde 1985 als Barrister zugelassen und 2003 zum Queen's Counsel ernannt (heute King's Counsel). Er lehrt als Professor am University College London, leitet dort das Zentrum für internationale Gerichte und Tribunale und ist Gastprofessor an der Harvard Law School. Von 2018 bis 2023 war er Präsident des englischen PEN. Der Börsenverein des Deutschen Buchhandels verleiht ihm den Friedenspreis 2026, die Preisverleihung findet am 11. Oktober 2026 in der Frankfurter Paulskirche statt. Die Jury nennt ihn einen ›beharrlichen Verteidiger des Völkerrechts‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: das Recht als Werkzeug für die größere Sache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> findet nach Naranjo Erfüllung im Dienst an einer Gemeinschaft statt im eigenen Vergnügen. Das passt zu einem Juristen, der sein Handwerk ständig für andere einsetzt. Im Pinochet-Verfahren vor dem britischen House of Lords war er als Anwalt für Human Rights Watch beteiligt. Vor dem Internationalen Gerichtshof vertrat er die Salomonen im Gutachtenverfahren zu Atomwaffen, später Gambia im Verfahren gegen Myanmar wegen des mutmaßlichen Völkermords an den Rohingya und Mauritius im Streit um die Chagos-Inseln. Jedes Mal steht nicht er selbst im Mittelpunkt, sondern eine Gruppe, die sich ohne ihn schwerer Gehör verschafft hätte.</p>
+          <p class="vb-intro">Auffällig ist die Zahl der Rollen, die er nebeneinander ausfüllt: Barrister, Professor, Autor, Gesprächsführer in einem Dokumentarfilm, Verbandspräsident, Schiedsrichter in internationalen Streitfällen. Das lässt sich mit dem Zug der Sieben zu rastlosem, nie abgeschlossenem Bauen in Verbindung bringen: Wo ein Verfahren endet, beginnt ein Buch, und wo ein Buch endet, beginnt der nächste Fall.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Verlässlichkeit durch Regeln und Institutionen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> gibt der sozialen Sieben eine Bindung an etwas Verlässliches. Bei Sands ist das das Völkerrecht selbst: Gerichte, Verträge, Begriffe wie ›Völkermord‹ und ›Verbrechen gegen die Menschlichkeit‹. Er verteidigt diese Ordnung nicht aus Prinzipienstarre, sondern weil sie ihm Sicherheit für Menschen verspricht, die sonst keine haben. Er arbeitet innerhalb des Systems, vor Gerichten und mit Argumenten, statt es von außen anzugreifen.</p>
+          <p class="vb-intro">Dieselbe Bindung zeigt sich im Persönlichen. Auslöser für sein Buch ›Rückkehr nach Lemberg‹ (im Original ›East West Street‹) war 2010 die Einladung zu einem Vortrag in Lemberg, der heutigen Stadt Lwiw. Dort war sein Großvater 1904 geboren worden. Er hatte über diese Zeit nie gesprochen und war der einzige Überlebende seiner Familie. Sands begann, dieser Geschichte zu folgen, eine Haltung, die sich mit der Loyalität des Sechserflügels in Verbindung bringen lässt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Recht als Geschichte erzählen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Sands auszeichnet, ist mehr als die Zahl der Verfahren. In ›Rückkehr nach Lemberg‹ (2016, Baillie Gifford Prize) zeigt er, dass Hersch Lauterpacht, der den Begriff ›Verbrechen gegen die Menschlichkeit‹ prägte, und Raphael Lemkin, der den Begriff ›Völkermord‹ entwickelte, an der Universität in Lemberg studierten, in derselben Stadt und zur selben Zeit, in der sein Großvater dort aufwuchs. Er verwebt Rechtsgeschichte, Familiengeschichte und die Nürnberger Prozesse zu einer Erzählung, die ein abstraktes Recht greifbar macht.</p>
+          <p class="vb-intro">In ›Die Rattenlinie‹ (2020, ›The Ratline‹) folgt er dem Weg des SS-Mannes Otto Wächter, und im Dokumentarfilm ›What Our Fathers Did‹ steht er neben den Söhnen von Hans Frank und Otto Wächter, Niklas Frank und Horst von Wächter, die sehr verschieden mit der Schuld ihrer Väter umgehen. ›Die letzte Kolonie‹ (2022, deutsch 2023) erzählt vom Streit um die Chagos-Inseln und ihre vertriebene Bevölkerung, ›Die Verschwundenen von Londres 38‹ (2025) vom Verfahren gegen den chilenischen Diktator Pinochet in London. Der Börsenverein hebt hervor, dass Sands sowohl die Motive der Täter als auch das Leid der Opfer in den Blick nehme.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verbindung aus Rechtskenntnis und Erzählkraft: Sands macht Völkerrecht für Menschen verständlich, die nie einen Gerichtssaal betreten werden, und stellt seine Arbeit durchgehend in den Dienst anderer.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Wer so viele Fronten gleichzeitig bedient, riskiert, dass nichts je ganz abgeschlossen ist, und wer auf Gerichte und Verträge setzt, ist darauf angewiesen, dass sie halten. Die Vereinbarung zwischen Großbritannien und Mauritius über die Chagos-Inseln vom Mai 2025 wird von Fachleuten wegen der eingeschränkten Rückkehrmöglichkeiten der vertriebenen Bevölkerung kritisiert. Das zeigt, dass auch ein juristischer Erfolg nicht jede Frage löst, und dass die Hoffnung des Sechserflügels auf verlässliche Regeln an Grenzen stößt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Anwälte der Unbequemen: Sands und Gysi</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-gregor-gysi">Gregor Gysi</a> (SO7w6) verbindet Sands mehr als der Subtyp. Beide sind Anwälte, die ihre Sprache und ihr Fachwissen in den Dienst von Menschen stellten, die ohne sie weniger Gehör gefunden hätten. Gysi verteidigte in der DDR Regimekritiker, Sands vertritt Staaten und Gruppen vor internationalen Gerichten. Bei beiden dient das Fach einer größeren Sache, und bei beiden zieht sich dasselbe Thema durch viele Rollen.</p>
+          <p class="vb-intro">Der Unterschied liegt in der Bühne. Gysi arbeitet über Rhetorik und Parlament, Sands über Gerichtssaal und Buch. Anders als <a href="javascript:void(0)" data-route="beruehmte-christian-drosten">Christian Drosten</a> (SO7w6), der sich eng an der Linie der Entscheidungsträger bewegte, stützt sich Sands auf die Autorität unabhängiger Gerichte und tritt gerade dort auf, wo mächtige Staaten herausgefordert werden.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-gregor-gysi", label:"Porträt: Gregor Gysi (SO7w6) – Anwalt der Unbequemen"},
+        {route:"beruehmte-christian-drosten", label:"Porträt: Christian Drosten (SO7w6)"},
+      ])}
+    </div>
+  `);
+}

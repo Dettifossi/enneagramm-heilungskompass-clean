@@ -1771,6 +1771,7 @@ export function gregorGysiPortraitPage() {
         ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"beruehmte-philippe-sands", label:"Portrait: Philippe Sands (SO7w6) – also an advocate for the uncomfortable"},
         {route:"beruehmte-carolin-kebekus", label:"Portrait: Carolin Kebekus (SO7w6) – also sharp wit with political conviction"},
         {route:"beruehmte-alexander-bommes", label:"Portrait: Alexander Bommes (SO7w6)"},
         {route:"beruehmte-rupert-spira", label:"Portrait: Rupert Spira (SO7w6)"},
