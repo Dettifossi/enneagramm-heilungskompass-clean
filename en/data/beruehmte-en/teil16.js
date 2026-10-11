@@ -2601,7 +2601,7 @@ export function nikiLaudaPortraitPage() {
         <h2 class="vb-section">3. The Two-Wing: Dry Loyalty</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings a commitment to people into the One's strict stance. Lauda was known for his bluntness, and his reliability toward those who belonged to him does not contradict that. With his title rival James Hunt he shared a genuine friendship beyond the competition; the film &ldquo;Rush&rdquo; (2013) by Ron Howard made that relationship world-famous. He held together in the family too: in 1997 his brother Florian donated a kidney to him, and in 2005 his later wife Birgit gave him a second one.</p>
-          <p class="vb-intro">This side showed in his working life as well. From 2012 Lauda was non-executive chairman of the Mercedes Formula 1 team and is regarded as the driving force behind signing <a href="javascript:void(0)" data-route="beruehmte-lewis-hamilton">Lewis Hamilton</a> (SO2w3), who moved from McLaren to Mercedes in 2013. Here the One worked with the Two: Lauda demanded honesty and supplied it himself, Hamilton sought closeness and backing within the team. Together they carried the Mercedes title era of the following years.</p>
+          <p class="vb-intro">This side showed in his working life as well. From 2012 Lauda was non-executive chairman of the Mercedes Formula 1 team and took part in the negotiations to sign <a href="javascript:void(0)" data-route="beruehmte-lewis-hamilton">Lewis Hamilton</a> (SO2w3), who moved from McLaren to Mercedes in 2013; by his own account he hardly had to convince him. Here the One worked with the Two: Lauda demanded honesty and supplied it himself, Hamilton sought closeness and backing within the team. Together they carried the Mercedes title era of the following years.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Sporting Substance: The Computer, Not the Daredevil</h2>
@@ -2631,7 +2631,7 @@ export function nikiLaudaPortraitPage() {
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
         {route:"beruehmte-nico-rosberg", label:"Portrait: Nico Rosberg (SO1w2) – same subtype, same racing team"},
-        {route:"beruehmte-lewis-hamilton", label:"Portrait: Lewis Hamilton (SO2w3) – brought to Mercedes by Lauda"},
+        {route:"beruehmte-lewis-hamilton", label:"Portrait: Lewis Hamilton (SO2w3) – negotiated with Lauda before joining Mercedes"},
         {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
       ])}
     </div>

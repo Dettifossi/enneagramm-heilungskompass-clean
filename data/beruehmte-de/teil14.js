@@ -2612,7 +2612,7 @@ export function lewisHamiltonPortraitPage() {
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"lebensmusterkompass/so2", label:"Lebensmusterkompass: SO2 – Golden Retriever"},
         {route:"beruehmte-nico-rosberg", label:"Porträt: Nico Rosberg (SO1w2) – sein Mercedes-Teamkollege"},
-        {route:"beruehmte-niki-lauda", label:"Porträt: Niki Lauda (SO1w2) – holte ihn als Mercedes-Aufsichtsratsvorsitzender ins Team"},
+        {route:"beruehmte-niki-lauda", label:"Porträt: Niki Lauda (SO1w2) – verhandelte als Mercedes-Aufsichtsratsvorsitzender mit ihm"},
         {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SE1w9)"},
         {route:"beruehmte-usain-bolt", label:"Porträt: Usain Bolt (SO2w3)"},
       ])}

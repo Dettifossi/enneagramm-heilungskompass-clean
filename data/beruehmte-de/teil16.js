@@ -2606,7 +2606,7 @@ export function nikiLaudaPortraitPage() {
         <h2 class="vb-section">3. Der Zweierflügel: trockene Loyalität</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt in die strenge Haltung des Einsers Verbindlichkeit gegenüber Menschen. Lauda war für seine Schroffheit bekannt, seine Verlässlichkeit gegenüber denen, die zu ihm gehörten, widerspricht dem nicht. Mit seinem Titelrivalen James Hunt verband ihn über die Konkurrenz hinaus eine echte Freundschaft; der Film „Rush" (2013) von Ron Howard machte diese Beziehung weltbekannt. Familiär hielt er ebenfalls zusammen: 1997 spendete ihm sein Bruder Florian eine Niere, 2005 gab ihm seine spätere Frau Birgit eine zweite.</p>
-          <p class="vb-intro">Auch im Berufsleben zeigte sich diese Seite. Seit 2012 war Lauda Aufsichtsratsvorsitzender des Mercedes-Formel-1-Teams und gilt als treibende Kraft hinter der Verpflichtung von <a href="javascript:void(0)" data-route="beruehmte-lewis-hamilton">Lewis Hamilton</a> (SO2w3), der 2013 von McLaren zu Mercedes wechselte. Hier arbeitete der Einser mit dem Zweier zusammen: Lauda verlangte Ehrlichkeit und lieferte sie selbst, Hamilton suchte Nähe und Rückhalt im Team. Beides hat in den folgenden Jahren die Mercedes-Titelära getragen.</p>
+          <p class="vb-intro">Auch im Berufsleben zeigte sich diese Seite. Seit 2012 war Lauda Aufsichtsratsvorsitzender des Mercedes-Formel-1-Teams und war an den Verhandlungen zur Verpflichtung von <a href="javascript:void(0)" data-route="beruehmte-lewis-hamilton">Lewis Hamilton</a> (SO2w3) beteiligt, der 2013 von McLaren zu Mercedes wechselte; überzeugen musste er ihn nach eigener Aussage kaum. Hier arbeitete der Einser mit dem Zweier zusammen: Lauda verlangte Ehrlichkeit und lieferte sie selbst, Hamilton suchte Nähe und Rückhalt im Team. Beides hat in den folgenden Jahren die Mercedes-Titelära getragen.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die sportliche Substanz: der Computer, nicht der Draufgänger</h2>
@@ -2636,7 +2636,7 @@ export function nikiLaudaPortraitPage() {
         {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
         {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
         {route:"beruehmte-nico-rosberg", label:"Porträt: Nico Rosberg (SO1w2) – derselbe Subtyp, derselbe Rennstall"},
-        {route:"beruehmte-lewis-hamilton", label:"Porträt: Lewis Hamilton (SO2w3) – von Lauda zu Mercedes geholt"},
+        {route:"beruehmte-lewis-hamilton", label:"Porträt: Lewis Hamilton (SO2w3) – mit Lauda in den Verhandlungen zum Wechsel zu Mercedes"},
         {route:"beruehmte-juergen-klopp", label:"Porträt: Jürgen Klopp (SO1w2)"},
       ])}
     </div>
