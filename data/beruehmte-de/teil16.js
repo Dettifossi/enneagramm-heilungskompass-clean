@@ -2568,6 +2568,76 @@ export function nicoRosbergPortraitPage() {
         {route:"beruehmte-juergen-klopp", label:"Porträt: Jürgen Klopp (SO1w2)"},
         {route:"beruehmte-justin-timberlake", label:"Porträt: Justin Timberlake (SO1w2)"},
         {route:"beruehmte-lewis-hamilton", label:"Porträt: Lewis Hamilton (SO2w3) – sein Mercedes-Teamkollege"},
+        {route:"beruehmte-niki-lauda", label:"Porträt: Niki Lauda (SO1w2) – derselbe Subtyp, Mercedes-Aufsichtsratsvorsitzender"},
+      ])}
+    </div>
+  `);
+}
+
+export function nikiLaudaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-niki-lauda-portrait.jpg" alt="Niki Lauda – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-niki-lauda-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Niki Lauda</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Dreimaliger Formel-1-Weltmeister, Unternehmer und Fluglinien-Gründer, 1949 in Wien &ndash; 2019 in Zürich &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die Alarm schlägt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach römischer Überlieferung rettete im Jahr 390 v. Chr. der Lärm von Gänsen das Kapitol: Die Wachhunde schliefen, die Gänse schlugen an, als Gallier nachts den Hügel hinaufkletterten. Gänse sind keine Kämpfer im engeren Sinn, aber verlässliche Wächter ihres Verbands. Sie bemerken, was nicht stimmt, und sagen es sofort und laut, auch wenn es niemandem gefällt.</p>
+          <p class="vb-intro">Niki Lauda, am 22. Februar 1949 in Wien als Andreas Nikolaus Lauda geboren, wuchs in einer wohlhabenden Industriellenfamilie auf, die seine Rennpläne ablehnte. Er finanzierte die ersten Jahre im Motorsport mit Bankkrediten, die durch eine Lebensversicherung gesichert waren, und kam über March und BRM 1974 zu Ferrari. Dort arbeitete er mit dem Team systematisch am Auto und holte 1975 den ersten Fahrertitel für Ferrari seit 1964. Sein Ruf in der Boxengasse beruhte weniger auf Draufgängertum als darauf, dass er genau benannte, was am Wagen oder an der Strecke nicht stimmte, und das so deutlich, dass es niemand überhören konnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der soziale Einser: Sicherheit als Ordnung für alle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>soziale Einser (SO1)</strong> gilt nach Claudio Naranjo als Subtyp der <em>Unanpassungsfähigkeit</em> (im Original „Non-Adaptability"): Er nimmt einen Zustand, den er für falsch hält, nicht hin, und sein Anspruch gilt dabei nicht ihm selbst, sondern dem Ganzen, in dem er sich bewegt. Bei Lauda war dieses Ganze zuerst der Rennsport und später die Luftfahrt, und beide Male ging es um Sicherheit.</p>
+          <p class="vb-intro">Vor dem Großen Preis von Deutschland 1976 hielt Lauda die rund 22 Kilometer lange Nordschleife des Nürburgrings für nicht mehr zu verantworten: zu lang, um sie mit Streckenposten und Rettungsdiensten zu sichern, und nach Regen kaum zu beurteilen. Er warb unter den Fahrern dafür, nicht zu starten. Die Mehrheit stimmte dagegen. In der zweiten Runde verunglückte er, sein Ferrari geriet in Brand, vier Fahrerkollegen zogen ihn aus dem Wrack. Er hatte Verbrennungen am Kopf und giftige Gase eingeatmet, im Krankenhaus erhielt er die Letzte Ölung. Zweiundvierzig Tage später saß er in Monza wieder im Auto und wurde Vierter.</p>
+          <p class="vb-intro">Im Titelfinale in Fuji gab er im strömenden Regen nach zwei Runden auf und verlor dadurch die Weltmeisterschaft mit einem Punkt Rückstand an James Hunt. Dass er nach dem Unfall zurückkehrte und zugleich in Fuji ausstieg, wirkt nur auf den ersten Blick widersprüchlich. In beiden Fällen entschied ein Maßstab, nicht Mut oder Angst: Das Risiko von Monza hielt er für vertretbar, das von Fuji nicht. Seine Begründung lief sinngemäß darauf hinaus, dass sein Leben mehr wert sei als ein Titel.</p>
+          <p class="vb-intro">Dieselbe Linie zeigt sich 1991. Am 26. Mai stürzte eine Boeing 767 seiner Fluglinie Lauda Air nach dem Aufgehen eines Schubumkehrers im Flug über Thailand ab, alle 223 Menschen an Bord starben. Der Hersteller wollte die Ursache zunächst nicht in der Konstruktion sehen. Lauda, der selbst Pilot war, trieb die Untersuchung persönlich voran und bestand darauf, den Vorgang im Simulator nachzustellen. Er verteidigte seine Mitarbeiter und Passagiere gegen eine bequeme Erklärung, und genau das ist die Aufgabe, die eine Gans im Verband übernimmt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: trockene Loyalität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt in die strenge Haltung des Einsers Verbindlichkeit gegenüber Menschen. Lauda war für seine Schroffheit bekannt, seine Verlässlichkeit gegenüber denen, die zu ihm gehörten, widerspricht dem nicht. Mit seinem Titelrivalen James Hunt verband ihn über die Konkurrenz hinaus eine echte Freundschaft; der Film „Rush" (2013) von Ron Howard machte diese Beziehung weltbekannt. Familiär hielt er ebenfalls zusammen: 1997 spendete ihm sein Bruder Florian eine Niere, 2005 gab ihm seine spätere Frau Birgit eine zweite.</p>
+          <p class="vb-intro">Auch im Berufsleben zeigte sich diese Seite. Seit 2012 war Lauda Aufsichtsratsvorsitzender des Mercedes-Formel-1-Teams und gilt als treibende Kraft hinter der Verpflichtung von <a href="javascript:void(0)" data-route="beruehmte-lewis-hamilton">Lewis Hamilton</a> (SO2w3), der 2013 von McLaren zu Mercedes wechselte. Hier arbeitete der Einser mit dem Zweier zusammen: Lauda verlangte Ehrlichkeit und lieferte sie selbst, Hamilton suchte Nähe und Rückhalt im Team. Beides hat in den folgenden Jahren die Mercedes-Titelära getragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die sportliche Substanz: der Computer, nicht der Draufgänger</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wer Lauda nur über den Feuerunfall kennt, übersieht, was ihn fachlich auszeichnete. Er gewann 25 Grand Prix und drei Weltmeisterschaften (1975, 1977 und 1984). Seine Stärke war nicht spektakuläres Überholen, sondern die Fähigkeit, ein Auto präzise zu beschreiben und es an der Grenze seiner Möglichkeiten, aber nicht darüber hinaus zu bewegen. Beim Ferrari 312T, mit dem er 1975 Weltmeister wurde, arbeitete er eng mit Chefkonstrukteur Mauro Forghieri an der Abstimmung. 1978 gewann er mit dem Brabham BT46B, dem berühmten „Staubsauger-Auto" mit Gebläse am Heck, in Schweden ein Rennen, bevor das Fahrzeug aus dem Verkehr gezogen wurde.</p>
+          <p class="vb-intro">Sein dritter Titel 1984 zeigt dieselbe Nüchternheit. Sein McLaren-Teamkollege Alain Prost gewann in dieser Saison sieben Rennen, Lauda fünf, und doch hatte Lauda am Ende einen halben Punkt mehr. Lauda selbst beschrieb sich später gern als jemanden, der sich seine Schnelligkeit erarbeitet habe, und das ist typisch für einen Einser, der sein Talent hinter der Mühe versteckt. Die Bilanz spricht dafür, dass beides stimmt: Begabung und Arbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten des sozialen Einsers mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht ist die Verbindung aus Genauigkeit und Rückgrat: Lauda sagte, was er sah, und trug die Folgen. Er setzte sich für Sicherheit ein, als das noch Zeit und Geld kostete, und half als Unternehmer und Teamfunktionär, Standards durchzusetzen, die anderen zugutekamen.</p>
+          <p class="vb-intro">Der Schatten gehört zur selben Haltung. Wer Maßstäbe so ernst nimmt, wird gegenüber Menschen, die sie nicht teilen, hart, und er hört auf, sich zu erklären. Das Verhältnis zu Enzo Ferrari kippte nach 1976, und Lauda verließ das Team 1977 noch vor Saisonende. Im Training zum Großen Preis von Kanada 1979 stieg er aus dem Wagen, sagte sinngemäß, er habe keine Lust mehr, im Kreis zu fahren, und beendete seine Laufbahn mitten in der Saison. Auch als Fernsehexperte bei RTL blieb er für ungeschminkte Urteile bekannt. Dass der Mann, der jedes Risiko berechnete, an einem Unfall mit ungeklärter Ursache beinahe starb, lässt sich als Lektion in den Grenzen der Kontrolle lesen, mehr als eine Lesart ist das nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Einser im selben Rennstall: Lauda und Rosberg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bei Mercedes begegneten sich zwei soziale Einser mit Zweierflügel: Lauda in der Führung, <a href="javascript:void(0)" data-route="beruehmte-nico-rosberg">Nico Rosberg</a> (SO1w2) im Cockpit. Beide wollten nach dem Rennsport ein eigenes Gefüge aufbauen: Lauda gründete 1979 die Charterfluglinie Lauda Air, später kam mit Niki ein zweites Unternehmen dazu, und Rosberg schuf das Greentech Festival, ein Extreme-E-Team und Beteiligungen an grünen Technologien. Beide haben außerdem auf eigene Initiative und zu einem selbst gewählten Zeitpunkt aufgehört.</p>
+          <p class="vb-intro">Der Unterschied liegt in der Lautstärke. Lauda sprach Fehler offen und oft bissig an, Rosberg suchte den Weg über Mentaltraining, Daten und Gespräche. Als Rosberg 2014 in Belgien mit Hamilton kollidierte, gehörte Lauda zu der Mercedes-Führung, die ihn öffentlich in die Verantwortung nahm. Die Gans warnt, und sie tut das notfalls auch gegenüber den Mitgliedern des eigenen Verbands.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-nico-rosberg", label:"Porträt: Nico Rosberg (SO1w2) – derselbe Subtyp, derselbe Rennstall"},
+        {route:"beruehmte-lewis-hamilton", label:"Porträt: Lewis Hamilton (SO2w3) – von Lauda zu Mercedes geholt"},
+        {route:"beruehmte-juergen-klopp", label:"Porträt: Jürgen Klopp (SO1w2)"},
       ])}
     </div>
   `);

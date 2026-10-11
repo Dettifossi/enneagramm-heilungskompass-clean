@@ -2563,6 +2563,76 @@ export function nicoRosbergPortraitPage() {
         {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
         {route:"beruehmte-justin-timberlake", label:"Portrait: Justin Timberlake (SO1w2)"},
         {route:"beruehmte-lewis-hamilton", label:"Portrait: Lewis Hamilton (SO2w3) – his Mercedes team-mate"},
+        {route:"beruehmte-niki-lauda", label:"Portrait: Niki Lauda (SO1w2) – same subtype, Mercedes chairman"},
+      ])}
+    </div>
+  `);
+}
+
+export function nikiLaudaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-niki-lauda-portrait.jpg" alt="Niki Lauda – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-niki-lauda-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Niki Lauda</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">Three-time Formula 1 World Champion, entrepreneur and airline founder, 1949 in Vienna &ndash; 2019 in Zurich &ndash; Animal match: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose That Sounds the Alarm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Roman tradition, the noise of geese saved the Capitol in 390 BC: the watchdogs slept, the geese cried out as Gauls climbed the hill by night. Geese are not fighters in the strict sense, but they are reliable guardians of their flock. They notice what is wrong and say so at once and loudly, even when nobody wants to hear it.</p>
+          <p class="vb-intro">Niki Lauda, born Andreas Nikolaus Lauda in Vienna on 22 February 1949, grew up in a wealthy industrial family that rejected his racing plans. He financed his first years in motorsport with bank loans secured by a life insurance policy and reached Ferrari in 1974 via March and BRM. There he worked systematically on the car with the team and won Ferrari's first drivers' title since 1964 in 1975. His reputation in the pit lane rested less on daring than on naming precisely what was wrong with the car or the track, and so clearly that nobody could overlook it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Safety as Order for Everyone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social One (SO1)</strong> is, following Claudio Naranjo, the subtype of <em>Non-Adaptability</em>: it does not accept a state of affairs it considers wrong, and its demand is aimed not at itself but at the whole in which it moves. For Lauda that whole was first motor racing and later aviation, and both times it was about safety.</p>
+          <p class="vb-intro">Before the 1976 German Grand Prix, Lauda considered the roughly 22-kilometre Nürburgring Nordschleife no longer defensible: too long to secure with marshals and rescue services, and hard to judge after rain. He lobbied the drivers not to start. The majority voted against him. In the second lap he crashed, his Ferrari caught fire, and four fellow drivers pulled him from the wreck. He had burns to the head and had inhaled toxic fumes, and in hospital he received the last rites. Forty-two days later he was back in a car at Monza and finished fourth.</p>
+          <p class="vb-intro">In the title decider at Fuji he gave up after two laps in torrential rain and thereby lost the championship to James Hunt by one point. That he returned after the crash and yet withdrew at Fuji seems contradictory only at first glance. In both cases a standard decided, not courage or fear: he considered the risk at Monza acceptable and the one at Fuji not. His reasoning amounted, in essence, to the view that his life was worth more than a title.</p>
+          <p class="vb-intro">The same line shows in 1991. On 26 May a Boeing 767 of his airline Lauda Air crashed over Thailand after a thrust reverser deployed in flight, and all 223 people on board died. The manufacturer at first did not want to see the cause in the design. Lauda, himself a pilot, pushed the investigation personally and insisted on reproducing the event in a simulator. He defended his staff and passengers against a convenient explanation, and that is exactly the task a goose takes on within the flock.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Dry Loyalty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings a commitment to people into the One's strict stance. Lauda was known for his bluntness, and his reliability toward those who belonged to him does not contradict that. With his title rival James Hunt he shared a genuine friendship beyond the competition; the film &ldquo;Rush&rdquo; (2013) by Ron Howard made that relationship world-famous. He held together in the family too: in 1997 his brother Florian donated a kidney to him, and in 2005 his later wife Birgit gave him a second one.</p>
+          <p class="vb-intro">This side showed in his working life as well. From 2012 Lauda was non-executive chairman of the Mercedes Formula 1 team and is regarded as the driving force behind signing <a href="javascript:void(0)" data-route="beruehmte-lewis-hamilton">Lewis Hamilton</a> (SO2w3), who moved from McLaren to Mercedes in 2013. Here the One worked with the Two: Lauda demanded honesty and supplied it himself, Hamilton sought closeness and backing within the team. Together they carried the Mercedes title era of the following years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Sporting Substance: The Computer, Not the Daredevil</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anyone who knows Lauda only through the fire crash overlooks what set him apart professionally. He won 25 Grands Prix and three world championships (1975, 1977 and 1984). His strength was not spectacular overtaking but the ability to describe a car precisely and to drive it at the limit of its possibilities, not beyond. On the Ferrari 312T in which he became champion in 1975, he worked closely with chief designer Mauro Forghieri on the set-up. In 1978 he won a race in Sweden in the Brabham BT46B, the famous &ldquo;fan car&rdquo; with a fan at the rear, before the car was withdrawn.</p>
+          <p class="vb-intro">His third title in 1984 shows the same sobriety. His McLaren team-mate Alain Prost won seven races that season, Lauda five, and yet Lauda ended up half a point ahead. Lauda himself later liked to describe himself as someone who had worked for his speed, which is typical of a One who hides talent behind effort. The record suggests both are true: talent and work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social One with a Two-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light is the combination of precision and backbone: Lauda said what he saw and bore the consequences. He pushed for safety when it still cost time and money, and as an entrepreneur and team official he helped enforce standards that benefited others.</p>
+          <p class="vb-intro">The shadow belongs to the same stance. Someone who takes standards this seriously becomes hard toward people who do not share them, and stops explaining himself. His relationship with Enzo Ferrari turned after 1976, and Lauda left the team in 1977 before the season was over. In practice for the 1979 Canadian Grand Prix he climbed out of the car, said in essence that he no longer felt like driving in circles, and ended his career in mid-season. As a television expert for RTL, too, he remained known for unvarnished verdicts. That the man who calculated every risk nearly died in a crash of unclear cause can be read as a lesson in the limits of control, but it remains only one possible reading.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Ones in the Same Racing Team: Lauda and Rosberg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At Mercedes, two Social Ones with a Two-wing met: Lauda in the management, <a href="javascript:void(0)" data-route="beruehmte-nico-rosberg">Nico Rosberg</a> (SO1w2) in the cockpit. Both wanted to build a structure of their own after racing: Lauda founded the charter airline Lauda Air in 1979, and later Niki as a second company, while Rosberg created the Greentech Festival, an Extreme E team and stakes in green technologies. Both also stopped on their own initiative and at a time of their own choosing.</p>
+          <p class="vb-intro">The difference lies in volume. Lauda addressed mistakes openly and often with a bite, while Rosberg went the route of mental training, data and conversation. When Rosberg collided with Hamilton in Belgium in 2014, Lauda was among the Mercedes leadership who publicly held him responsible. The goose warns, and where necessary it does so even toward members of its own flock.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-nico-rosberg", label:"Portrait: Nico Rosberg (SO1w2) – same subtype, same racing team"},
+        {route:"beruehmte-lewis-hamilton", label:"Portrait: Lewis Hamilton (SO2w3) – brought to Mercedes by Lauda"},
+        {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
       ])}
     </div>
   `);

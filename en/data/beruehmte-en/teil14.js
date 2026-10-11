@@ -2544,6 +2544,7 @@ export function lewisHamiltonPortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"lebensmusterkompass/so2", label:"Life Pattern Compass: SO2 – Golden Retriever"},
         {route:"beruehmte-nico-rosberg", label:"Portrait: Nico Rosberg (SO1w2) – his Mercedes team-mate"},
+        {route:"beruehmte-niki-lauda", label:"Portrait: Niki Lauda (SO1w2) – brought him into the team as Mercedes chairman"},
         {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9)"},
         {route:"beruehmte-usain-bolt", label:"Portrait: Usain Bolt (SO2w3)"},
       ])}
