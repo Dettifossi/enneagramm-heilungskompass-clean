@@ -3,11 +3,18 @@
 
 import { initializeApp, cert, getApps } from "firebase-admin/app";
 import { getAuth } from "firebase-admin/auth";
-import { generatePassword, escapeHtml, safeEqual, parseBody } from "./_lib.js";
 
 if (!getApps().length) {
   const sa = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
   initializeApp({ credential: cert(sa) });
+}
+
+function generatePassword() {
+  const chars = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz23456789";
+  let p1 = "", p2 = "";
+  for (let i = 0; i < 4; i++) p1 += chars[Math.floor(Math.random() * chars.length)];
+  for (let i = 0; i < 4; i++) p2 += chars[Math.floor(Math.random() * chars.length)];
+  return `Kompass-${p1}-${p2}`;
 }
 
 export default async function handler(req, res) {
@@ -18,12 +25,13 @@ export default async function handler(req, res) {
   if (req.method === "OPTIONS") return res.status(200).end();
   if (req.method !== "POST") return res.status(405).send("Method Not Allowed");
 
-  const { email, adminSecret } = parseBody(req.body);
+  const { email, adminSecret } = typeof req.body === "string"
+    ? JSON.parse(req.body) : req.body;
 
-  if (!process.env.ADMIN_SECRET || !safeEqual(adminSecret, process.env.ADMIN_SECRET)) {
+  if (!adminSecret || adminSecret !== process.env.ADMIN_SECRET) {
     return res.status(401).json({ error: "Nicht autorisiert" });
   }
-  if (!email || typeof email !== "string") return res.status(400).json({ error: "E-Mail fehlt" });
+  if (!email) return res.status(400).json({ error: "E-Mail fehlt" });
 
   const auth = getAuth();
   const password = generatePassword();
@@ -46,7 +54,7 @@ export default async function handler(req, res) {
 }
 
 async function sendNewPasswordMail(email, name, password) {
-  const anrede = name ? `Hallo ${escapeHtml(name.split(" ")[0])},` : "Hallo,";
+  const anrede = name ? `Hallo ${name.split(" ")[0]},` : "Hallo,";
   const appUrl = "https://www.verlagshausrathmer.com/enneagramm-kompass/";
 
   const response = await fetch("https://api.resend.com/emails", {
@@ -70,7 +78,7 @@ async function sendNewPasswordMail(email, name, password) {
           </p>
           <div style="background:#fff;border:2px solid #c9a84c;border-radius:10px;padding:1.2rem 1.5rem;margin-bottom:1.5rem;">
             <p style="margin:0 0 0.5rem;color:#555;font-size:.9rem;">Ihre Zugangsdaten:</p>
-            <p style="margin:0 0 0.3rem;font-size:1rem;color:#333;"><strong>E-Mail:</strong> ${escapeHtml(email)}</p>
+            <p style="margin:0 0 0.3rem;font-size:1rem;color:#333;"><strong>E-Mail:</strong> ${email}</p>
             <p style="margin:0;font-size:1.1rem;color:#8a6a1a;"><strong>Passwort:</strong> ${password}</p>
           </div>
           <a href="${appUrl}"
