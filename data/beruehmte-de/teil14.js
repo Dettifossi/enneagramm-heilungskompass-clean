@@ -2550,3 +2550,70 @@ export function ursulaLyonPortraitPage() {
     </div>
   `);
 }
+
+export function lewisHamiltonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lewis-hamilton-portrait.jpg" alt="Lewis Hamilton – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-lewis-hamilton-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Lewis Hamilton</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Sozialer Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Formel-1-Rennfahrer, siebenmaliger Weltmeister, geb. 1985 in Stevenage &ndash; Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever, der den Verband anführt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wo ein Mensch Halt braucht, wird häufig ein Golden Retriever eingesetzt: als Therapiehund, als Begleiter im Krankenhaus, als Rettungshund im Katastrophengebiet. Sein „weiches Maul" erlaubt ihm, ein rohes Ei zu tragen, ohne es zu zerdrücken, und seine Freude am Dienen ist so offen, dass sie auf die Menschen um ihn herum abfärbt. Er arbeitet nicht für sich, sondern für sein Gegenüber, und er will dabei gesehen werden.</p>
+          <p class="vb-intro">Lewis Hamilton wurde am 7. Januar 1985 in Stevenage geboren. Sein Vater Anthony nahm mehrere Jobs an, um dem Sohn den teuren Kartsport zu ermöglichen. Als Zehnjähriger sprach Hamilton nach eigener Schilderung bei einer Preisverleihung Ron Dennis an, den damaligen McLaren-Teamchef, und sagte ihm, er wolle eines Tages für ihn fahren. 1998 nahm McLaren ihn in sein Nachwuchsprogramm auf, 2007 debütierte er in der Formel 1 und gewann 2008 mit einem Punkt Vorsprung seinen ersten Titel. Bis heute hält er mit sieben Titeln gleichauf mit Michael Schumacher (SE1w9). Der junge Hamilton suchte sich früh den Förderer, der seinen Weg ermöglichen konnte, und blieb ihm über Jahre verbunden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Dazugehören, indem man gibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> gilt in der Enneagramm-Tradition nach Claudio Naranjo als der Subtyp der <em>Ambition</em>: Sie will ihren Platz nicht einfach in der Nähe einzelner Menschen, sondern innerhalb der Gruppe, der Organisation, des öffentlichen Lebens, und sie sucht diesen Platz über Zuwendung, Einfluss und die Nähe zu den Menschen, die in der Gruppe etwas bewegen. Die selbsterhaltende Zwei kümmert sich um den engsten Kreis, die sexuelle Zwei wirbt um den einen Menschen. Die soziale Zwei möchte für viele da sein und dabei gesehen werden.</p>
+          <p class="vb-intro">Bei Hamilton zeigt sich das zunächst in der Wahl seiner Förderer: Auf den Zehnjährigen, der Ron Dennis anspricht, folgten die McLaren-Jahre und später die Mercedes-Zeit, in der er eng mit Teamchef Toto Wolff und dem gesamten Rennstall zusammenarbeitete. Wichtiger ist, was er mit der Reichweite macht, die dabei entstand. 2020 setzte er die Hamilton Commission auf, die gemeinsam mit der Royal Academy of Engineering untersuchte, warum so wenige Schwarze Menschen im britischen Motorsport arbeiten. 2021 gründete er die Stiftung Mission 44, die jungen Menschen aus benachteiligten Verhältnissen Zugang zu Bildung und Technikberufen eröffnen will. Er kniete 2020 vor den Rennen als Zeichen gegen Rassismus und kritisierte öffentlich das Schweigen seines eigenen Sports. Auf der Strecke trug er in Ländern, in denen Homosexualität strafbar ist, einen Regenbogenhelm. Die soziale Zwei hat ein Gespür dafür, wen die Gruppe übersieht, und sie lässt diese Menschen nicht aus ihrer Zuwendung heraus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Zuwendung mit Strahlkraft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der Zuwendung der Zwei einen leistungsorientierten, öffentlichen Zug: Es geht nicht nur darum, dass man gebraucht wird, sondern auch darum, dass dieses Gebrauchtwerden sichtbar und erfolgreich ist. Die SO2w1, wie sie etwa Muhammad Ali (SO2w1) oder Barack Obama (SO2w1) verkörpern, bindet ihre Zuwendung stärker an Prinzipien. Die SO2w3 verbindet sie mit Image, Bühne und Stil.</p>
+          <p class="vb-intro">Hamilton verkörpert diese Seite sehr deutlich: Mode und Musik gehören für ihn zum Auftritt wie die Rennstrecke, er arbeitet mit Modemarken zusammen, veröffentlicht unter einem Pseudonym Musik und erscheint bei Veranstaltungen wie der Met Gala. 2021 wurde er zum Ritter geschlagen. Der Wechsel zu Ferrari 2025, zum prestigeträchtigsten Rennstall des Sports, folgte demselben Zug: Die Zwei mit Dreierflügel zieht es dorthin, wo Erfolg und Strahlkraft zusammenfallen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die sportliche Substanz: Gefühl für das Auto im Grenzbereich</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hinter dem Auftritt steht eine fahrerische Substanz, die ihn von vielen Zeitgenossen abhebt. Hamilton gilt als der Fahrer mit dem feinsten Gefühl für Grip und Reifenzustand, besonders bei wechselnden Bedingungen. Beim Großen Preis von Großbritannien 2008 gewann er im strömenden Regen mit mehr als einer Minute Vorsprung, und beim Saisonfinale in Brasilien überholte er in der letzten Runde noch Timo Glock und holte sich damit den Titel mit einem Punkt Vorsprung. Er hält Rekorde bei den Pole-Positions und liegt bei den Grand-Prix-Siegen weit über hundert, mehr als jeder andere Fahrer. Seine Titel von 2014 bis 2020 gewann er, mit Ausnahme von 2016, in der Hybridära mit Mercedes.</p>
+          <p class="vb-intro">Dazu kommt die Fähigkeit, im Duell zu überholen: Hamilton bleibt dicht am Gegner, wartet auf den kleinen Fehler und nutzt ihn sofort. Die Substanz lässt sich nicht auf das Team oder das Auto zurückführen, auch wenn beide eine Rolle spielten. Dass er bei allen Auszeichnungen zugleich das Bild eines Menschen pflegt, der für andere kämpft, ist Teil des Typs: Die soziale Zwei erlebt Erfolg nicht als reinen Selbstzweck, sondern als Mittel, um für andere etwas zu bewirken.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Zwei mit Dreierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verbindung aus Erfolg und Verantwortung: Hamilton nutzt eine der größten Bühnen des Sports für Anliegen, die weit über den Motorsport hinausgehen, und hält an ihnen fest, auch wenn das Teile seines Publikums verärgert.</p>
+          <p class="vb-intro">Der Schatten gehört zur selben Konstellation. Die soziale Zwei leidet besonders, wenn ihr Einsatz nicht anerkannt wird. Als Hamilton beim Saisonfinale 2021 in Abu Dhabi nach einer umstrittenen Entscheidung der Rennleitung in der letzten Runde den achten Titel verlor, schwieg er wochenlang in der Öffentlichkeit und in den sozialen Medien. Zugleich bleibt die Frage, wie weit das Bedürfnis nach Anerkennung die Auftritte formt: Die soziale Zwei neigt dazu, ihre Gaben dort zu zeigen, wo sie Resonanz bekommt, und kann Kritik als persönliche Zurückweisung erleben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Ein Zweier und ein Einser im selben Auto: Hamilton und Rosberg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hamiltons wichtigstes Gegenüber der Mercedes-Jahre war <a href="javascript:void(0)" data-route="beruehmte-nico-rosberg">Nico Rosberg</a> (SO1w2), mit dem er schon im Jahr 2000 als Jugendlicher im Kartteam fuhr. Beide gehören zu den sozialen Subtypen, doch ihr Zugang zur Gruppe ist verschieden: Der soziale Einser ordnet und korrigiert das System, in dem er sich bewegt, die soziale Zwei verbindet sich mit den Menschen darin und will von ihnen getragen werden. Entsprechend verlief der Konflikt zwischen den beiden. Rosberg arbeitete mit Daten, Regeln und mentaler Vorbereitung, Hamilton mit Gefühl, Instinkt und der Bindung zu Team und Publikum.</p>
+          <p class="vb-intro">Im Titelkampf 2016 trafen beide Haltungen aufeinander. Beim Finale in Abu Dhabi fuhr Hamilton die Führung bewusst langsam, um Rosberg in die Reichweite der Verfolger zu bringen, und ignorierte zunächst die Anweisung des Teams, das Tempo zu erhöhen. Das lässt sich als Versuch lesen, die Situation selbst zu bestimmen, statt sie dem Teamplan zu überlassen. Rosberg wurde Zweiter und gewann den Titel mit fünf Punkten Vorsprung. Rosberg trat fünf Tage später zurück, Hamilton blieb und gewann in den folgenden Jahren drei weitere Titel.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so2", label:"Lebensmusterkompass: SO2 – Golden Retriever"},
+        {route:"beruehmte-nico-rosberg", label:"Porträt: Nico Rosberg (SO1w2) – sein Mercedes-Teamkollege"},
+        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SE1w9)"},
+        {route:"beruehmte-usain-bolt", label:"Porträt: Usain Bolt (SO2w3)"},
+      ])}
+    </div>
+  `);
+}

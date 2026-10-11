@@ -59,6 +59,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-gert-postel", label: "Neues EN-Porträt: Gert Postel" },
   { hash: "#beruehmte-nico-rosberg", label: "Neues Porträt: Nico Rosberg" },
   { hash: "en/#beruehmte-nico-rosberg", label: "Neues EN-Porträt: Nico Rosberg" },
+  { hash: "#beruehmte-lewis-hamilton", label: "Neues Porträt: Lewis Hamilton" },
+  { hash: "en/#beruehmte-lewis-hamilton", label: "Neues EN-Porträt: Lewis Hamilton" },
 ];
 
 function startServer() {

@@ -2482,3 +2482,70 @@ export function amberBensonPortraitPage() {
     </div>
   `);
 }
+
+export function lewisHamiltonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lewis-hamilton-portrait.jpg" alt="Lewis Hamilton – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-lewis-hamilton-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Lewis Hamilton</p>
+        <p class="krim-portrait-typ">SO2w3 &middot; Social Type 2 with a Three-Wing</p>
+        <p class="krim-portrait-subtitle">Formula 1 driver, seven-time World Champion, b. 1985 in Stevenage &ndash; Animal match: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever Who Leads the Pack</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Where a person needs support, a Golden Retriever is often the one sent: as a therapy dog, as a companion in hospital, as a rescue dog in a disaster area. Its "soft mouth" lets it carry a raw egg without crushing it, and its joy in serving is so open that it rubs off on the people around it. It works not for itself but for the one in front of it, and it wants to be seen doing so.</p>
+          <p class="vb-intro">Lewis Hamilton was born on 7 January 1985 in Stevenage. His father Anthony took on several jobs to pay for his son's expensive karting. At ten, by his own account, Hamilton approached Ron Dennis, then McLaren team principal, at an awards ceremony and told him he wanted to drive for him one day. McLaren took him into its young driver programme in 1998, he debuted in Formula 1 in 2007 and won his first title in 2008 by one point. With seven titles he is level with Michael Schumacher (SE1w9). The young Hamilton found early the patron who could make his path possible, and stayed bound to him for years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Belonging by Giving</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In Claudio Naranjo's Enneagram tradition, the <strong>social Two (SO2)</strong> is the subtype of <em>Ambition</em>: it does not want its place simply near individuals but within the group, the organisation, public life, and it seeks that place through care, influence and closeness to the people who move things in the group. The self-preservation Two looks after the closest circle, the sexual Two courts one person. The social Two wants to be there for many and to be seen doing so.</p>
+          <p class="vb-intro">With Hamilton this shows first in the choice of his patrons: the ten-year-old who approaches Ron Dennis was followed by the McLaren years and later the Mercedes era, in which he worked closely with team principal Toto Wolff and the whole team. More important is what he does with the reach that resulted. In 2020 he set up the Hamilton Commission, which examined with the Royal Academy of Engineering why so few Black people work in British motorsport. In 2021 he founded the charity Mission 44, which aims to open access to education and technical careers for young people from disadvantaged backgrounds. In 2020 he took the knee before races as a sign against racism and publicly criticised his own sport's silence. On track he wore a rainbow helmet in countries where homosexuality is criminalised. The social Two has a feel for whom the group overlooks, and does not let these people drop out of its care.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Care With Radiance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Two's care an achievement-oriented, public quality: it matters not only that one is needed but that this being needed is visible and successful. The SO2w1, as embodied for instance by Muhammad Ali (SO2w1) or Barack Obama (SO2w1), ties its care more strongly to principle. The SO2w3 combines it with image, stage and style.</p>
+          <p class="vb-intro">Hamilton embodies this side very clearly: fashion and music belong to his appearance as much as the racetrack, he works with fashion brands, releases music under a pseudonym and appears at events such as the Met Gala. In 2021 he was knighted. The move to Ferrari in 2025, to the most prestigious team in the sport, followed the same pull: the Two with a Three-wing is drawn to where success and radiance coincide.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Sporting Substance: Feel for the Car at the Limit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Behind the appearance stands a driving substance that sets him apart from many contemporaries. Hamilton is regarded as the driver with the finest feel for grip and tyre condition, especially in changing conditions. At the 2008 British Grand Prix he won in pouring rain by more than a minute, and at the season finale in Brazil he passed Timo Glock on the final lap and took the title by one point. He holds the records for pole positions and sits well above one hundred Grand Prix wins, more than any other driver. With the exception of 2016, he won the titles from 2014 to 2020 in the hybrid era with Mercedes.</p>
+          <p class="vb-intro">Added to that is the ability to overtake in a duel: Hamilton stays close to his opponent, waits for the small mistake and uses it at once. The substance cannot be traced back to the team or the car, even if both played a part. That alongside all his honours he also cultivates the image of someone who fights for others is part of the type: the social Two does not experience success as an end in itself but as a means to achieve something for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Two With a Three-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the combination of success and responsibility: Hamilton uses one of the biggest stages in sport for causes that reach far beyond motorsport, and sticks with them even when that annoys parts of his audience.</p>
+          <p class="vb-intro">The shadow belongs to the same constellation. The social Two suffers most when their effort goes unacknowledged. When Hamilton lost the eighth title on the last lap of the 2021 finale in Abu Dhabi after a disputed decision by race control, he stayed silent for weeks in public and on social media. At the same time the question remains how far the need for recognition shapes the appearances: the social Two tends to show their gifts where they meet a response, and can experience criticism as personal rejection.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. A Two and a One in the Same Car: Hamilton and Rosberg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hamilton's most important counterpart in the Mercedes years was <a href="javascript:void(0)" data-route="beruehmte-nico-rosberg">Nico Rosberg</a> (SO1w2), with whom he had already driven in the same karting team as a teenager in 2000. Both belong to the social subtypes, but their approach to the group differs: the social One orders and corrects the system they move in, the social Two connects with the people in it and wants to be carried by them. The conflict between the two ran accordingly. Rosberg worked with data, rules and mental preparation, Hamilton with feel, instinct and the bond to team and public.</p>
+          <p class="vb-intro">In the 2016 title fight both attitudes collided. At the finale in Abu Dhabi, Hamilton deliberately led slowly to bring Rosberg within reach of the cars behind and at first ignored the team's instruction to increase the pace. That can be read as an attempt to determine the situation himself instead of leaving it to the team plan. Rosberg finished second and won the title by five points. He retired five days later, Hamilton stayed on and won three more titles in the following years.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"lebensmusterkompass/so2", label:"Life Pattern Compass: SO2 – Golden Retriever"},
+        {route:"beruehmte-nico-rosberg", label:"Portrait: Nico Rosberg (SO1w2) – his Mercedes team-mate"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9)"},
+        {route:"beruehmte-usain-bolt", label:"Portrait: Usain Bolt (SO2w3)"},
+      ])}
+    </div>
+  `);
+}
