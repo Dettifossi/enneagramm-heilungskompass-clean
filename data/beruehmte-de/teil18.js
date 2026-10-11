@@ -1604,7 +1604,7 @@ export function sammyDavisJrPortraitPage() {
 
         <h2 class="vb-section">6. Das Geschenk: Ein Leben, das keine Grenze kannte</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Sammy Davis Jr. der Welt gab, war mehr als Unterhaltung. Als Schwarzer Entertainer, der in einer von Rassismus geprägten Branche zur Ikone wurde, als Mitglied einer interrassischen Ehe zu einer Zeit, in der das Gefahr bedeutete, als treuer Freund innerhalb des Rat Pack &ndash; er lebte die SX2w3-Botschaft in aller Konsequenz: Ich gebe dir meine ganze Intensität, über jede Grenze hinweg, und hoffe, dass du mich dafür siehst.</p>
+          <p class="vb-intro">Was Sammy Davis Jr. der Welt gab, war mehr als Unterhaltung. Als schwarzer Entertainer, der in einer von Rassismus geprägten Branche zur Ikone wurde, als Mitglied einer interrassischen Ehe zu einer Zeit, in der das Gefahr bedeutete, als treuer Freund innerhalb des Rat Pack &ndash; er lebte die SX2w3-Botschaft in aller Konsequenz: Ich gebe dir meine ganze Intensität, über jede Grenze hinweg, und hoffe, dass du mich dafür siehst.</p>
           <p class="vb-intro">Das Kamel kennt keine halben Wege. Was von Sammy Davis Jr. bleibt, ist die Erinnerung an einen Menschen, der sich sechs Jahrzehnte lang restlos verausgabte, um Millionen von Fremden das Gefühl echter Verbindung zu geben &ndash; bis in seine letzten, von Krankheit gezeichneten Monate hinein.</p>
         </blockquote>
 
