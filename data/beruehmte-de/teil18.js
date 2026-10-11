@@ -2353,6 +2353,7 @@ export function markusSoederPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
         {route:"beruehmte-donald-trump", label:"Porträt: Donald Trump (SX8w7) – dieselbe Grundintensität, konfrontativerer Flügel"},
+        {route:"beruehmte-javier-tebas", label:"Porträt: Javier Tebas (SX8w9) – derselbe Subtyp"},
       ])}
     </div>
   `);

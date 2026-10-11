@@ -2779,3 +2779,69 @@ export function konradZusePortraitPage() {
     </div>
   `);
 }
+
+export function javierTebasPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-javier-tebas-portrait.jpg" alt="Javier Tebas – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-javier-tebas-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Javier Tebas</p>
+        <p class="krim-portrait-typ">SX8w9 &middot; Sexueller Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Jurist und Präsident der spanischen Profiliga LaLiga seit 2013, geb. 1962 in San José (Costa Rica) &ndash; Tierentsprechung: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Krokodil, das zehn Jahre am Ufer wartete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein Krokodil im Wasser verrät sich kaum: Nur Augen und Nasenlöcher ragen heraus, der Rest wartet unsichtbar. Wer am Ufer steht, merkt erst, dass es da war, wenn der Zugriff schon geschehen ist. Diese Mischung aus Geduld und plötzlicher Wucht ist das Bild für die sexuelle Acht.</p>
+          <p class="vb-intro">Javier Tebas wurde am 31. Juli 1962 in San José in Costa Rica geboren und besitzt die spanische Staatsangehörigkeit. Er studierte Jura in Zaragoza und arbeitet seit 1987 als Rechtsanwalt, zunächst im Gesellschaftsrecht, später im Sportrecht. Sein Weg in den Fußball begann 1993 als Präsident des Provinzclubs SD Huesca, den er bis 1998 führte. 2001 wurde er Vizepräsident der Liga, und 2003 stand er an der Spitze der ›G-30‹, einem Zusammenschluss von 30 kleineren Vereinen, die ihre Fernsehrechte gemeinsam verhandeln wollten. Erst 2013 wurde er Präsident der LaLiga. Zwischen dem ersten Anlauf und dem Amt lagen zehn Jahre, in denen er sein Thema nicht losließ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Acht: Macht als Konfrontation mit dem einen Gegner</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Acht (SX8)</strong> richtet ihre Kraft weniger auf ein ganzes System als auf die eine entscheidende Auseinandersetzung, den einen zentralen Gegner. Tebas hat in seiner Amtszeit eine Reihe solcher Gegner gehabt. Florentino Pérez, den Präsidenten von Real Madrid, machte er mehrfach öffentlich für die Idee einer europäischen Superliga verantwortlich. Pérez warf ihm im November 2025 im Gegenzug vor, eine Liga zu führen, die nur die eigenen Privilegien schütze. Gegen Paris Saint-Germain und Manchester City reichte LaLiga Beschwerden bei der UEFA wegen angeblicher Verstöße gegen die Finanzregeln ein, nachdem Kylian Mbappé 2022 in Paris verlängert hatte. Tebas nannte das einen Skandal für den Fußball, UEFA-Präsident Aleksander Ceferin widersprach ihm öffentlich.</p>
+          <p class="vb-intro">Auch 2020 zeigte sich das Muster: LaLiga hielt in der Auseinandersetzung um Lionel Messi daran fest, dass dessen Vertrag eine gültige Ausstiegsklausel von 700 Millionen Euro enthalte. Später sagte Tebas, LaLiga sei nicht im Krieg mit dem Spieler. Und im Streit um den Kampf gegen illegale Übertragungen wurde der Internetdienstleister Cloudflare zum Gegner: Tebas bezeichnete dessen Chef im August 2025 auf X als den ›Narco Maduro des Internets‹, eine Anspielung auf den venezolanischen Präsidenten. Jedes Mal lässt sich ein Gesicht und ein Name nennen, gegen den es geht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die Substanz: Zentralvermarktung und Finanzkontrolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wer Tebas nur als Streithansel sieht, übersieht, was er konkret aufgebaut hat. Seine Linie lässt sich auf drei Punkte bringen: Finanzkontrolle der Vereine, gemeinsame Vermarktung der Fernsehrechte und Internationalisierung der Liga. Die gemeinsame Vermarktung war das Thema der G-30 schon 2003. Unter seiner Führung stiegen die Einnahmen der LaLiga nach ihren Angaben in der Saison 2024/25 auf 5,46 Milliarden Euro (normalisiert), ein Plus von gut acht Prozent zum Vorjahr, bei mehr als 17 Millionen Stadionbesuchern.</p>
+          <p class="vb-intro">Ein weiterer Schritt war ›Boost LaLiga‹: Im August 2021 stimmten 38 von 42 Vereinen der beiden obersten Spielklassen einem Einstieg des Finanzinvestors CVC zu, der Abschluss im Dezember 2021 umfasste rund zwei Milliarden Euro und eine Beteiligung von 8,2 Prozent an einer neuen Gesellschaft für Übertragungs- und Sponsoringrechte. Real Madrid, Barcelona und Athletic Bilbao stiegen aus und klagten gegen das Verfahren. Ein Madrider Gericht lehnte im März 2022 einen Eilantrag dagegen ab. Nach Berichten leitete die Sportschiedsstelle TAD im Zusammenhang mit der kurzfristig einberufenen Versammlung ein Disziplinarverfahren gegen Tebas ein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Neunerflügel: zurückrudern, wenn der Kampf entschieden ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> zeigt sich bei Tebas weniger in der Härte als darin, wie er nach Ausfällen wieder Ruhe herstellt. Im Mai 2023 reagierte er auf die Rassismus-Vorwürfe von Vinícius Júnior zunächst scharf und forderte den Spieler auf, sich besser zu informieren. Später entschuldigte er sich öffentlich dafür. Im Fall Messi sagte er, man habe nie im Krieg mit dem Spieler gestanden und freue sich über dessen Verbleib. Und nach der Superliga-Krise 2021 erklärte er, LaLiga werde die beteiligten Vereine nicht sanktionieren, denn die Fans hätten sie bereits bestraft.</p>
+          <p class="vb-intro">Das passt zu einem Achter mit Neunerflügel: Die Intensität bleibt, aber wenn die Schlacht geschlagen ist, kehrt er zum Verwalten zurück. Dass er im Dezember 2023 ohne Gegenkandidaten für weitere vier Jahre bis 2027 im Amt bestätigt wurde, zeigt, dass seine Stellung in der Liga trotz aller Fehden unangefochten blieb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Acht mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Durchsetzungskraft für Kleinere: Tebas hat gemeinsame Vermarktung und finanzielle Disziplin zu seinem Lebensthema gemacht und damit die Liga nach eigenen Zahlen wirtschaftlich nach vorn gebracht. Auch im Kampf gegen Piraterie gibt er an, die illegale Nutzung in einer Saison um 60 Prozent gesenkt zu haben, und fügt hinzu, 60 Prozent seien ihm zu wenig.</p>
+          <p class="vb-intro">Der Schatten gehört zur selben Haltung. Die Sperren gegen Internetadressen trafen auch unbeteiligte Seiten, die spanische Sprachakademie RAE beschwerte sich über eine blockierte Seite, und Tebas warf ihr daraufhin vor, bei einer Straftat mitzuwirken. Im Rassismus-Fall sorgte nicht nur der erste Ausfall, sondern auch ein Vergleich mit Beleidigungen gegen Cristiano Ronaldo und Messi für Kritik. Dass drei prominente Vereine seiner Liga gegen seinen wichtigsten Wirtschaftsdeal klagten, zeigt, wie sehr der Stil des Konfrontierens auch Widerstand erzeugt. Ob dies Teil einer Strategie oder Folge seines Temperaments ist, lässt sich von außen nicht sagen. Es ist eine Deutung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Juristen an der Macht: Tebas und Söder</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-markus-soeder">Markus Söder</a> (SX8w9) teilt Tebas mehr als den Subtyp. Beide sind Juristen, die sich über Jahrzehnte in Institutionen nach oben arbeiteten, statt aus dem Nichts zu kommen. Beide führen ihre Auseinandersetzungen persönlich und öffentlich, und bei beiden folgt auf den Kampf wieder Verwaltung. Söder nach der verlorenen Kanzlerkandidatur 2021, Tebas nach seinen Ausfällen gegen Vinícius und Messi.</p>
+          <p class="vb-intro">Der Unterschied liegt in der Bühne. Söder inszeniert sich selbst als Person, mit Fotostrecken und Auftritten. Tebas tritt in sozialen Medien zwar scharf auf, bleibt aber vor allem ein Mann des Verhandlungstisches und des Gerichtssaals. Sein Instrument ist die Satzung, nicht das Foto.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx8", label:"Lebensmusterkompass: SX8 – Krokodil"},
+        {route:"beruehmte-markus-soeder", label:"Porträt: Markus Söder (SX8w9) – derselbe Subtyp"},
+        {route:"beruehmte-donald-trump", label:"Porträt: Donald Trump (SX8w7) – konfrontativerer Flügel"},
+      ])}
+    </div>
+  `);
+}

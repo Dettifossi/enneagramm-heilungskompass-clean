@@ -2774,3 +2774,69 @@ export function konradZusePortraitPage() {
     </div>
   `);
 }
+
+export function javierTebasPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-javier-tebas-portrait.jpg" alt="Javier Tebas – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-javier-tebas-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Javier Tebas</p>
+        <p class="krim-portrait-typ">SX8w9 &middot; Sexual Type 8 with a Nine-Wing</p>
+        <p class="krim-portrait-subtitle">Lawyer and president of Spain's top football league LaLiga since 2013, b. 1962 in San José (Costa Rica) &ndash; Animal match: Crocodile</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Crocodile That Waited Ten Years at the Bank</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A crocodile in the water barely gives itself away: only eyes and nostrils show, the rest waits unseen. Whoever stands on the bank notices it was there only when the strike has already happened. This mix of patience and sudden force is the image for the Sexual Eight.</p>
+          <p class="vb-intro">Javier Tebas was born on 31 July 1962 in San José, Costa Rica, and holds Spanish nationality. He studied law in Zaragoza and has worked as a lawyer since 1987, first in company law, later in sports law. His way into football began in 1993 as president of the provincial club SD Huesca, which he led until 1998. In 2001 he became vice-president of the league, and in 2003 he headed the &lsquo;G-30&rsquo;, an alliance of 30 smaller clubs that wanted to negotiate their television rights together. He became president of LaLiga only in 2013. Ten years lay between the first attempt and the office, years in which he never let go of his subject.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Eight: Power as Confrontation with the One Opponent</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Eight (SX8)</strong> directs its force less at a whole system than at the one decisive confrontation, the one central opponent. In his time in office, Tebas has had a series of such opponents. Florentino Pérez, president of Real Madrid, he repeatedly held publicly responsible for the idea of a European Super League. In November 2025 Pérez in turn accused him of running a league that only protects its own privileges. LaLiga filed complaints with UEFA against Paris Saint-Germain and Manchester City over alleged breaches of the financial rules after Kylian Mbappé extended his stay in Paris in 2022. Tebas called it an insult to football, and UEFA president Aleksander Ceferin publicly disagreed with him.</p>
+          <p class="vb-intro">The pattern showed in 2020 too: in the dispute over Lionel Messi, LaLiga held that his contract contained a valid release clause of 700 million euros. Later Tebas said LaLiga was not at war with the player. And in the fight against illegal broadcasts, the internet service provider Cloudflare became the opponent: in August 2025 Tebas called its chief the &lsquo;narco Maduro of the internet&rsquo; on X, an allusion to the Venezuelan president. Each time there is a face and a name that it is against.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Substance: Central Marketing and Financial Control</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Whoever sees Tebas only as a brawler overlooks what he concretely built. His line can be reduced to three points: financial control of the clubs, joint marketing of the television rights and internationalisation of the league. Joint marketing was the G-30's subject as early as 2003. Under his leadership, LaLiga's revenue rose, by its own figures, to 5.46 billion euros (normalised) in 2024/25, an increase of just over eight percent on the previous year, with more than 17 million spectators in the stadiums.</p>
+          <p class="vb-intro">A further step was &lsquo;Boost LaLiga&rsquo;: in August 2021, 38 of the 42 clubs in the top two divisions approved the entry of the investment fund CVC; the deal concluded in December 2021 comprised around two billion euros and a stake of 8.2 percent in a new company for broadcasting and sponsorship rights. Real Madrid, Barcelona and Athletic Bilbao opted out and sued over the process. A Madrid court rejected an urgent application against it in March 2022. According to reports, the sports arbitration tribunal TAD opened disciplinary proceedings against Tebas in connection with the assembly called at short notice.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Nine-Wing: Backing Down Once the Fight Is Decided</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> shows in Tebas less in hardness than in how he restores calm after outbursts. In May 2023 he first reacted sharply to Vinícius Júnior's accusations of racism and told the player to inform himself better. Later he apologised publicly for that. In the Messi case he said the league had never been at war with the player and was glad he stayed. And after the Super League crisis of 2021 he declared that LaLiga would not sanction the clubs involved, because the fans had already punished them.</p>
+          <p class="vb-intro">That fits an Eight with a Nine-wing: the intensity stays, but once the battle is fought, he returns to administering. That in December 2023 he was confirmed in office without a rival candidate for a further four years until 2027 shows that his standing in the league remained unchallenged despite all the feuds.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Eight with a Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in assertiveness on behalf of the smaller: Tebas made joint marketing and financial discipline his life's subject and, by the league's own figures, moved it forward economically. In the fight against piracy too, he states that he cut illegal use by 60 percent in one season, and adds that 60 percent is too little for him.</p>
+          <p class="vb-intro">The shadow belongs to the same stance. The blocks on internet addresses also hit uninvolved sites, the Royal Spanish Academy RAE complained about a blocked page, and Tebas then accused it of taking part in a crime. In the racism case, not only the first outburst but also a comparison with insults against Cristiano Ronaldo and Messi drew criticism. That three prominent clubs in his league sued over his most important business deal shows how much a confrontational style also creates resistance. Whether this is part of a strategy or a consequence of his temperament cannot be said from outside. It is an interpretation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Lawyers in Power: Tebas and Söder</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-markus-soeder">Markus Söder</a> (SX8w9), Tebas shares more than the subtype. Both are lawyers who worked their way up through institutions over decades instead of coming out of nowhere. Both conduct their disputes personally and in public, and in both the fight is followed by administration again. Söder after the lost chancellor candidacy of 2021, Tebas after his outbursts against Vinícius and Messi.</p>
+          <p class="vb-intro">The difference lies in the stage. Söder stages himself as a person, with photo series and appearances. Tebas does come on sharply on social media but remains above all a man of the negotiating table and the courtroom. His instrument is the statute, not the photo.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
+        {route:"lebensmusterkompass/sx8", label:"Life Pattern Compass: SX8 – Crocodile"},
+        {route:"beruehmte-markus-soeder", label:"Portrait: Markus Söder (SX8w9) – same subtype"},
+        {route:"beruehmte-donald-trump", label:"Portrait: Donald Trump (SX8w7) – more confrontational wing"},
+      ])}
+    </div>
+  `);
+}

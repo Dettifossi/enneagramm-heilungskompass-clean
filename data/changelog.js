@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2483", date: "2026-10-11", text: "Neues Porträt: Javier Tebas (SX8w9) – Präsident der spanischen Profiliga LaLiga.", text_en: "New portrait: Javier Tebas (SX8w9) – president of Spain's top football league LaLiga.", route: "beruehmte-javier-tebas" },
     { version: "v2482", date: "2026-10-11", text: "Neues Porträt: Konrad Zuse (SE1w9) – Bauingenieur und Computerpionier.", text_en: "New portrait: Konrad Zuse (SE1w9) – civil engineer and computer pioneer.", route: "beruehmte-konrad-zuse" },
     { version: "v2481", date: "2026-10-11", text: "Neues Porträt: Johannes Gutenberg (SE1w9) – Goldschmied und Erfinder des Buchdrucks.", text_en: "New portrait: Johannes Gutenberg (SE1w9) – goldsmith and inventor of printing.", route: "beruehmte-johannes-gutenberg" },
     { version: "v2480", date: "2026-10-11", text: "Neues Porträt: Niki Lauda (SO1w2) – dreimaliger Formel-1-Weltmeister und Fluglinien-Gründer.", text_en: "New portrait: Niki Lauda (SO1w2) – three-time Formula 1 World Champion and airline founder.", route: "beruehmte-niki-lauda" },
