@@ -64080,11 +64080,11 @@ function differenzierungPage() {
       <p style="line-height:1.75;color:var(--ink);margin:0 0 1.25rem;">${entry.text}</p>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:.5rem;border-top:1px solid color-mix(in srgb,var(--copper) 25%,var(--line));padding-top:1rem;">
         <div style="background:color-mix(in srgb,var(--copper) 8%,var(--paper));border-radius:.5rem;padding:.65rem .85rem;">
-          <div style="font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;color:var(--copper);font-weight:700;margin-bottom:.3rem;">Typ ${a} im Kern</div>
+          <div style="font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;color:var(--copper);font-weight:700;margin-bottom:.3rem;">Typ ${Math.min(a,b)} im Kern</div>
           <div style="font-size:.85rem;line-height:1.55;color:var(--ink);font-style:italic;">&bdquo;${entry.kernA}&ldquo;</div>
         </div>
         <div style="background:color-mix(in srgb,var(--copper) 8%,var(--paper));border-radius:.5rem;padding:.65rem .85rem;">
-          <div style="font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;color:var(--copper);font-weight:700;margin-bottom:.3rem;">Typ ${b} im Kern</div>
+          <div style="font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;color:var(--copper);font-weight:700;margin-bottom:.3rem;">Typ ${Math.max(a,b)} im Kern</div>
           <div style="font-size:.85rem;line-height:1.55;color:var(--ink);font-style:italic;">&bdquo;${entry.kernB}&ldquo;</div>
         </div>
       </div>
