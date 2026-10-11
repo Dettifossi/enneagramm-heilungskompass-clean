@@ -4996,7 +4996,7 @@ button.primary:active::after {
   background: transparent;
   color: var(--muted);
   cursor: pointer;
-  transition: all 0.15s;
+  transition: background-color 0.15s, color 0.15s, border-color 0.15s;
 }
 .tv-filter.is-active {
   background: var(--copper);
@@ -5638,4 +5638,16 @@ html, body { overscroll-behavior: none; }
 button, a, [role="button"], [data-route], summary, label, select, input { touch-action: manipulation; }
 @media (pointer: coarse) {
   input:not([type="checkbox"]):not([type="radio"]):not([type="range"]), textarea, select { font-size: 16px !important; }
+}
+
+/* Bewegung reduzieren (11.10.2026): Nutzer mit aktivierter Systemeinstellung sehen
+   keine Dauer-Animation (Hintergrund-Drift) und keine langen Übergänge mehr. */
+@media (prefers-reduced-motion: reduce) {
+  body { animation: none; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
