@@ -35053,13 +35053,13 @@ const REVIEWS_API = 'https://kompass-assistent.9rathmer.workers.dev/reviews';
 function _escHtml(s) {
   return String(s == null ? '' : s).replace(/[&<>"']/g, function(c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; });
 }
-const ADMIN_CODE = 'rathmer9';
+// Der Admin-Code steht NICHT im Code: Er wird erst nach erfolgreicher Prüfung durch den Worker gesetzt.
+let ADMIN_CODE = '';
 
 
 function adminPage() {
   const app = document.getElementById('app');
-  const code = window.location.hash.split('/')[1] || '';
-  if (code !== ADMIN_CODE) {
+  if (!ADMIN_CODE) {
     app.innerHTML = '<div style="max-width:400px;margin:4rem auto;padding:2rem;text-align:center;">' +
       '<p style="color:var(--ink);font-size:1rem;margin-bottom:1rem;">Admin-Code eingeben:</p>' +
       '<input id="admin-code-input" type="password" placeholder="Code..." ' +
@@ -35081,6 +35081,7 @@ function _adminLaden() {
     headers: { 'X-Admin-Code': ADMIN_CODE } })
     .then(function(r){ return r.json(); })
     .then(function(data) {
+      if (data.error) { ADMIN_CODE = ''; adminPage(); return; }
       const liste = data.reviews || [];
       const el = document.getElementById('admin-liste');
       if (!el) return;
@@ -35108,16 +35109,24 @@ function _adminLaden() {
     });
 }
 
-window._adminLogin = function() {
-  var v = document.getElementById('admin-code-input').value;
-  if (v === ADMIN_CODE) { location.hash = 'admin/' + v; }
-  else { alert('Falscher Code'); }
-};
+function _adminCheck(route) {
+  var v = (document.getElementById('admin-code-input').value || '').trim();
+  if (!v) return;
+  fetch(REVIEWS_API + '/wartend', { cache: 'no-store', headers: { 'X-Admin-Code': v } })
+    .then(function(r) {
+      if (r.status !== 200) throw new Error('abgelehnt');
+      ADMIN_CODE = v;
+      if (location.hash === '#' + route) { (route === 'admin' ? adminPage : adminWegweiserCodePage)(); }
+      else { location.hash = route; }
+    })
+    .catch(function() { alert('Falscher Code'); });
+}
+
+window._adminLogin = function() { _adminCheck('admin'); };
 
 function adminWegweiserCodePage() {
   const app = document.getElementById('app');
-  const code = window.location.hash.split('/')[1] || '';
-  if (code !== ADMIN_CODE) {
+  if (!ADMIN_CODE) {
     app.innerHTML = '<div style="max-width:400px;margin:4rem auto;padding:2rem;text-align:center;">' +
       '<p style="color:var(--ink);font-size:1rem;margin-bottom:1rem;">Admin-Code eingeben:</p>' +
       '<input id="admin-code-input" type="password" placeholder="Code..." ' +
@@ -35138,11 +35147,7 @@ function adminWegweiserCodePage() {
     '</div>';
 }
 
-window._adminWegweiserLogin = function() {
-  var v = document.getElementById('admin-code-input').value;
-  if (v === ADMIN_CODE) { location.hash = 'admin-wegweiser/' + v; }
-  else { alert('Falscher Code'); }
-};
+window._adminWegweiserLogin = function() { _adminCheck('admin-wegweiser'); };
 
 window._adminWegweiserSend = function() {
   var input = document.getElementById('admin-wegweiser-email');
@@ -80782,7 +80787,7 @@ document.addEventListener("click", (e) => {
 
 if (localStorage.getItem('kompass-admin-redirect')) {
   localStorage.removeItem('kompass-admin-redirect');
-  location.hash = 'admin/rathmer9';
+  location.hash = 'admin';
 }
 // Buchtipp-Stapel automatisch einklappen: fasst 3+ direkt aufeinanderfolgende
 // .book-tip-Elemente (egal auf welcher Seite) in ein <details>-Aufklappmen\u00fc
