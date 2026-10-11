@@ -2700,8 +2700,76 @@ export function johannesGutenbergPortraitPage() {
         {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Eagle"},
         {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9) – same subtype"},
         {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SE1w9)"},
+        {route:"beruehmte-konrad-zuse", label:"Portrait: Konrad Zuse (SE1w9) – same subtype"},
         {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
         {route:"beruehmte-leonardo-da-vinci", label:"Portrait: Leonardo da Vinci (SO5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+export function konradZusePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-konrad-zuse-portrait.jpg" alt="Konrad Zuse – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-konrad-zuse-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Konrad Zuse</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine-Wing</p>
+        <p class="krim-portrait-subtitle">Civil engineer and computer pioneer, builder of the Z3, 1910 in Berlin &ndash; 1995 in Hünfeld &ndash; Animal match: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle Who Sees the Flaw from Great Height</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An eagle can spot a small animal in the grass from several hundred metres up, because its eye brings into focus details that escape others. The same precision has a price: whoever sees this sharply also notices the small inconsistency that will not resolve itself.</p>
+          <p class="vb-intro">Konrad Zuse, born in Berlin on 22 June 1910, studied civil engineering at the Technical University and then worked as a structural analyst in the aircraft industry. Structural analysis demands long series of similar calculations, each one free of error. Zuse noticed above all how mind-numbing this work was, and he regarded it not as fate but as a problem that could be solved. From the inconsistency that a thinking person spends hours on mechanical calculation steps, his life's theme emerged.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: An Order That Checks Itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation One (SE1)</strong> directs its perfectionism at its own work and its own care, less at correcting others. Zuse turned this stance into a programme: from 1935 he built calculating machines in his parents' flat on Berlin's Wrangelstraße, first the purely mechanical Z1, which according to accounts kept jamming, then the Z2 with telephone relays and in 1941 the Z3. It was demonstrated in Berlin on 12 May 1941 and worked with around 2,000 relays in the binary system, programmed via punched film strips. That he did not give up when the mechanics jammed but changed the principle is a typical One trait: the result had to be right, even if the approach had to be rethought for it.</p>
+          <p class="vb-intro">Striking is how long he worked almost alone. One biographical account stresses that he developed the principles of the modern digital computer independently and in largely complete isolation. The drive did not come from outside but from a standard: a calculation that could be automated should be automated.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Composure and Humour Instead of Performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> takes the sharpness out of the One's manner. By his own jokingly meant account, Zuse became a computer builder because he was &lsquo;too lazy to calculate&rsquo;. Behind it lies no laziness but a self-ironic tone that plays down a great achievement. The irony changes nothing at the core: Zuse remains a One whose standard stays strict, only the Nine-wing delivers it more quietly.</p>
+          <p class="vb-intro">That this calm had substance shows in how he dealt with losses. The Z3 was destroyed in a bombing raid in 1943, the Z1 together with its original plans on 30 January 1944. Zuse went on building the Z4 anyway, fled the bombed Berlin in 1945 and took the nearly finished machine to Hinterstein in the Allgäu, where he hid it from the Allies. To support his family he reportedly sold woodcuts he had cut himself. Later, after leaving the company, he painted under the name Kuno See and portrayed computer pioneers; at CeBIT 1995 he gave Bill Gates a picture.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: The Computer as a System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anyone who calls Zuse merely &lsquo;one of the inventors of the computer&rsquo; overlooks what he concretely achieved. The Z3 is regarded as the first working, freely programmable and fully automatic digital computer. That depends on the definition, however, and American machines such as the 1944 ENIAC are also named as first. Zuse also developed the &lsquo;Plankalkül&rsquo; (&lsquo;plan calculus&rsquo;), a formalism regarded as a forerunner of high-level programming languages, even though it did not reach practical use in his lifetime.</p>
+          <p class="vb-intro">The Z4 was delivered to ETH Zurich in 1950 and was, in the years that followed, the only working digital computer on the European mainland. According to one source it computed, among other things, for the Grande Dixence dam, the same kind of engineering problem Zuse had originally wanted to be freed from calculating. In 1949 he founded Zuse KG, which built 251 computers by 1967. In 1969 he published the book &lsquo;Rechnender Raum&rsquo; (&lsquo;Calculating Space&rsquo;), in which he tried to think of the universe as a kind of computing machine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One with a Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the combination of precision, endurance and humour: Zuse built a new technology almost from nothing and remained a person who did not make himself larger than he was. Late recognition did come: from 1956 to 1992 he received honorary doctorates, and in 1966 the University of Göttingen made him an honorary professor.</p>
+          <p class="vb-intro">The shadow lies where the work meets money and commercial exploitation. Developing expensive computers drove Zuse KG deep into debt, and from 1967 it was taken over step by step by Siemens. Biographical accounts note that his business skills were less pronounced than his inventive ones. His patent proceedings dragged on for years because IBM, among others, filed objections, and ended in 1967 with the rejection of all his claims by the Federal Patent Court. Whether the Nine-wing's reticence contributed to his asserting himself less in matters of exploitation and patents cannot be proven. It is an interpretation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Eagles at the Start of a Technology: Zuse and Gutenberg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-johannes-gutenberg">Johannes Gutenberg</a> (SE1w9), Zuse shares more than the subtype. Both combined various individual parts into a system that changed how information is processed, Gutenberg in printing, Zuse in calculating. Both worked quietly for a long time, and both became dependent on financiers through the financing of their workshop: Gutenberg lost equipment and type to Johannes Fust in 1455, and Zuse's company passed into Siemens's hands from 1967.</p>
+          <p class="vb-intro">The difference lies in the trace they left. Not a single personal sentence of Gutenberg's survives. Zuse wrote an autobiography, &lsquo;Der Computer – Mein Lebenswerk&rsquo; (&lsquo;The Computer – My Life's Work&rsquo;, 1970), painted and explained his ideas publicly. In comparison with <a href="javascript:void(0)" data-route="beruehmte-michael-schumacher">Michael Schumacher</a> (SE1w9), it is also noticeable that Zuse's precision was directed at a work that carried on without him, whereas with Schumacher the person himself was the instrument.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Eagle"},
+        {route:"beruehmte-johannes-gutenberg", label:"Portrait: Johannes Gutenberg (SE1w9) – same subtype"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9)"},
+        {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SE1w9)"},
       ])}
     </div>
   `);

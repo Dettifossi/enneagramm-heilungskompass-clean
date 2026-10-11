@@ -2705,8 +2705,76 @@ export function johannesGutenbergPortraitPage() {
         {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
         {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SE1w9) – derselbe Subtyp"},
         {route:"beruehmte-johannes-paul-ii", label:"Porträt: Johannes Paul II. (SE1w9)"},
+        {route:"beruehmte-konrad-zuse", label:"Porträt: Konrad Zuse (SE1w9) – derselbe Subtyp"},
         {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6)"},
         {route:"beruehmte-leonardo-da-vinci", label:"Porträt: Leonardo da Vinci (SO5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+export function konradZusePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-konrad-zuse-portrait.jpg" alt="Konrad Zuse – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-konrad-zuse-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Konrad Zuse</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Bauingenieur und Computerpionier, Erbauer der Z3, 1910 in Berlin &ndash; 1995 in Hünfeld &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der aus großer Höhe den Fehler sieht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein Adler erkennt aus mehreren hundert Metern Höhe ein kleines Beutetier im Gras, weil sein Auge Einzelheiten scharf stellt, die anderen entgehen. Dieselbe Genauigkeit hat einen Preis: Wer so scharf sieht, bemerkt auch die kleine Unstimmigkeit, die sich nicht von selbst erledigt.</p>
+          <p class="vb-intro">Konrad Zuse, am 22. Juni 1910 in Berlin geboren, studierte Bauingenieurwesen an der Technischen Hochschule und arbeitete danach als Statiker in der Flugzeugindustrie. Die Statik verlangt lange Reihen gleichartiger Rechnungen, jede davon ohne Fehler. Zuse bemerkte vor allem, wie stumpfsinnig diese Arbeit war, und hielt das nicht für ein Schicksal, sondern für ein Problem, das sich lösen ließ. Aus der Unstimmigkeit, dass ein denkender Mensch Stunden mit mechanischen Rechenschritten verbringt, wurde sein Lebensthema.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der Selbsterhaltungstyp 1: eine Ordnung, die sich selbst prüft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Selbsterhaltungs-Eins (SE1)</strong> richtet ihren Perfektionismus auf das eigene Werk und die eigene Sorgfalt, weniger auf die Korrektur anderer. Zuse machte diese Haltung zu einem Programm: Ab 1935 baute er in der elterlichen Wohnung in der Berliner Wrangelstraße Rechenmaschinen, zunächst die rein mechanische Z1, die laut Überlieferung ständig klemmte, dann die Z2 mit Telefonrelais und 1941 die Z3. Sie wurde am 12. Mai 1941 in Berlin vorgeführt und arbeitete mit rund 2.000 Relais im Binärsystem, programmiert über gelochte Filmstreifen. Dass er nach dem Klemmen der Mechanik nicht aufgab, sondern das Prinzip wechselte, ist ein einsertypischer Zug: Das Ergebnis musste stimmen, auch wenn dafür der Ansatz neu gedacht werden musste.</p>
+          <p class="vb-intro">Auffällig ist dabei, wie lange er nahezu allein arbeitete. Eine biografische Darstellung betont, er habe die Prinzipien des modernen Digitalrechners unabhängig und in weitgehender Isolation entwickelt. Der Antrieb kam nicht von außen, sondern aus dem Maßstab, dass eine Rechenarbeit, die sich automatisieren ließ, auch automatisiert werden sollte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Gelassenheit und Humor statt Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> nimmt der Eins die Schärfe im Auftreten. Zuse wurde nach eigener, humorvoll gemeinter Aussage zum Computerbauer, weil er ›zu faul zum Rechnen‹ gewesen sei. Dahinter steckt keine Faulheit, sondern ein selbstironischer Ton, der eine große Leistung kleinmacht. Die Selbstironie ändert nichts am Kern: Zuse bleibt eine Eins, deren Maßstab unverändert streng ist, nur trägt der Neunerflügel ihn leiser vor.</p>
+          <p class="vb-intro">Dass diese Ruhe Substanz hatte, zeigt der Umgang mit Verlusten. Die Z3 wurde 1943 bei einem Bombenangriff zerstört, die Z1 samt Originalplänen am 30. Januar 1944. Zuse baute trotzdem die Z4 weiter, floh 1945 aus dem bombardierten Berlin und brachte die fast fertige Maschine nach Hinterstein im Allgäu, wo er sie vor den Alliierten versteckte. Zum Lebensunterhalt der Familie verkaufte er nach Berichten selbst geschnittene Holzschnitte. Später, nach seinem Ausscheiden aus der Firma, malte er unter dem Namen Kuno See und porträtierte Computerpioniere; auf der CeBIT 1995 schenkte er Bill Gates ein Bild.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der Computer als System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wer Zuse nur als ›einen der Erfinder des Computers‹ nennt, übersieht, was er konkret leistete. Die Z3 gilt als erster funktionsfähiger, frei programmierbarer und vollautomatischer Digitalrechner. Das hängt allerdings von der Definition ab, und amerikanische Maschinen wie der ENIAC von 1944 werden ebenfalls als erste genannt. Zuse entwickelte außerdem mit dem ›Plankalkül‹ einen Formalismus, der als Vorläufer der höheren Programmiersprachen gilt, auch wenn er zu Lebzeiten nicht zur Anwendungsreife kam.</p>
+          <p class="vb-intro">Die Z4 wurde 1950 an die ETH Zürich geliefert und war in den Jahren danach der einzige funktionierende Digitalrechner auf dem europäischen Festland. Laut einer Quelle rechnete sie unter anderem für die Staumauer Grande Dixence, also an derselben Art von Ingenieurproblemen, die Zuse ursprünglich vom Rechnen befreien wollte. 1949 gründete er die Zuse KG, die bis 1967 insgesamt 251 Rechner baute. 1969 veröffentlichte er das Buch ›Rechnender Raum‹, in dem er das Universum als eine Art Rechenmaschine zu denken versuchte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der Selbsterhaltungs-Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verbindung aus Genauigkeit, Ausdauer und Humor: Zuse baute eine neue Technik nahezu aus dem Nichts und blieb dabei ein Mensch, der sich nicht größer machte, als er war. Späte Anerkennung blieb nicht aus, von 1956 bis 1992 erhielt er Ehrendoktorwürden, 1966 ernannte ihn die Universität Göttingen zum Honorarprofessor.</p>
+          <p class="vb-intro">Der Schatten liegt dort, wo das Werk auf Geld und Verwertung trifft. Die Entwicklung teurer Rechner trieb die Zuse KG tief in die Schulden, ab 1967 wurde sie schrittweise von Siemens übernommen. Biografische Darstellungen halten fest, dass seine unternehmerischen Fähigkeiten weniger ausgeprägt waren als seine erfinderischen. Sein Patentverfahren zog sich über Jahre hin, weil unter anderem IBM Einsprüche erhob, und endete 1967 mit der Zurückweisung aller Ansprüche durch das Bundespatentgericht. Ob die Zurückhaltung des Neunerflügels dazu beitrug, dass er sich in Verwertungs- und Patentfragen weniger durchsetzte, lässt sich nicht belegen. Es ist eine Deutung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Adler am Anfang einer Technik: Zuse und Gutenberg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-johannes-gutenberg">Johannes Gutenberg</a> (SE1w9) teilt Zuse mehr als den Subtyp. Beide verbanden verschiedene Einzelteile zu einem System, das die Verarbeitung von Information verändert hat, Gutenberg beim Drucken, Zuse beim Rechnen. Beide arbeiteten lange im Stillen, und beide gerieten über die Finanzierung ihrer Werkstatt in Abhängigkeit von Geldgebern: Gutenberg verlor 1455 Geräte und Lettern an Johannes Fust, Zuses Firma ging ab 1967 in die Hand von Siemens über.</p>
+          <p class="vb-intro">Der Unterschied liegt in der Spur, die sie hinterließen. Von Gutenberg ist kein einziger persönlicher Satz überliefert. Zuse schrieb eine Autobiografie, ›Der Computer – Mein Lebenswerk‹ (1970), malte und erklärte seine Ideen öffentlich. Im Vergleich mit <a href="javascript:void(0)" data-route="beruehmte-michael-schumacher">Michael Schumacher</a> (SE1w9) fällt zudem auf, dass Zuses Genauigkeit sich auf ein Werk richtete, das auch ohne ihn weiterlief, während bei Schumacher die Person selbst das Instrument war.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-johannes-gutenberg", label:"Porträt: Johannes Gutenberg (SE1w9) – derselbe Subtyp"},
+        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SE1w9)"},
+        {route:"beruehmte-johannes-paul-ii", label:"Porträt: Johannes Paul II. (SE1w9)"},
       ])}
     </div>
   `);

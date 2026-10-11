@@ -65,6 +65,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-niki-lauda", label: "Neues EN-Porträt: Niki Lauda" },
   { hash: "#beruehmte-johannes-gutenberg", label: "Neues Porträt: Johannes Gutenberg" },
   { hash: "en/#beruehmte-johannes-gutenberg", label: "Neues EN-Porträt: Johannes Gutenberg" },
+  { hash: "#beruehmte-konrad-zuse", label: "Neues Porträt: Konrad Zuse" },
+  { hash: "en/#beruehmte-konrad-zuse", label: "Neues EN-Porträt: Konrad Zuse" },
 ];
 
 function startServer() {
