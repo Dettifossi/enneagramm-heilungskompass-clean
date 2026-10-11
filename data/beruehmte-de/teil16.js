@@ -2503,3 +2503,71 @@ export function justinTimberlakePortraitPage() {
     </div>
   `);
 }
+
+export function nicoRosbergPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-nico-rosberg-portrait.jpg" alt="Nico Rosberg – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-nico-rosberg-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Nico Rosberg</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Formel-1-Weltmeister 2016, Unternehmer und Nachhaltigkeitsinvestor, geb. 1985 in Wiesbaden &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans im Windschatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wer im Herbst Wildgänse beobachtet, sieht selten eine einzelne. Der Zug bildet ein V, jede Gans fliegt im Aufwind der vorderen und spart damit Kraft, die Spitze wechselt, sobald die führende Gans ermüdet, und die Rufe aus den hinteren Reihen halten Tempo und Richtung stabil. Der Verband funktioniert, weil jede Gans ihre Position kennt, sie diszipliniert hält und laut meldet, wenn etwas nicht stimmt.</p>
+          <p class="vb-intro">Nico Rosberg, am 27. Juni 1985 in Wiesbaden geboren und in Monaco aufgewachsen, verbrachte seine Laufbahn auffallend oft in genau dieser Lage: im Windschatten sehr großer Namen. Sein Vater Keke Rosberg war 1982 Formel-1-Weltmeister und wurde zugleich sein erster Manager. Von 2010 bis 2012 teilte er sich bei Mercedes das Team mit dem siebenmaligen Weltmeister Michael Schumacher (SE1w9), ab 2013 mit Lewis Hamilton, den er aus gemeinsamen Kartzeiten kannte. In der Formel 1 ist der Windschatten ein reales aerodynamisches Prinzip: Wer hinter einem schnelleren Auto fährt, wird selbst schneller und lernt dabei dessen Linie. In den Jahren 2014 und 2015 blieb er hinter Hamilton, lernte aus nächster Nähe dessen Linie und holte 2016 den Titel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der soziale Einser: Ordnung für das Ganze</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Enneagramm-Tradition nach Claudio Naranjo ist der <strong>soziale Einser (SO1)</strong> der Subtyp der <em>Unanpassungsfähigkeit</em> (im Original „Non-Adaptability"): Er findet sich mit Zuständen nicht ab, in denen etwas nach seinem Maßstab nicht stimmt, und richtet seinen Anspruch dabei nicht auf sich oder das engste Umfeld, sondern auf die Gruppe, den Betrieb, die Gesellschaft. Der selbsterhaltende Einser perfektioniert vor allem sich selbst, der sexuelle Einser seinen Partner. Der soziale Einser möchte das System in Ordnung bringen, in dem er sich bewegt.</p>
+          <p class="vb-intro">Im Rennstall sah das so aus: Rosberg galt als Fahrer, der besonders akribisch mit den Ingenieuren an Daten und Abstimmung arbeitete. Beim Großen Preis von Belgien 2014 kollidierte er in der zweiten Runde mit Hamilton. Die Mercedes-Führung machte ihn öffentlich verantwortlich und warf ihm vor, dem Kontakt nicht ausgewichen zu sein. Teamchef Toto Wolff vermutete später, der Vorfall habe Rosberg aus dem Gleichgewicht gebracht, weil er nicht mehr sicher war, was richtig und falsch war. Für einen sozialen Einser ist eine solche Lage doppelt unangenehm: Er hatte die Regeln des Teams gegen sich, und zugleich stellte der Vorfall seinen eigenen Anspruch infrage, sauber zu fahren.</p>
+          <p class="vb-intro">Die eigentliche Richtung zeigt sich nach dem Rücktritt. Rosberg kehrte dem Sport nicht einfach den Rücken, sondern machte aus dem Wunsch, etwas zu korrigieren, ein Programm: Er beteiligte sich an Start-ups für nachhaltige Technologien, gründete das Extreme-E-Team Rosberg X Racing und rief mit zwei Mitgründern das Greentech Festival ins Leben, das seit 2019 in Berlin-Tempelhof stattfindet und Ausstellung, Konferenz und Preisverleihung für grüne Innovation verbindet. 2021 erhielt er den Europäischen Kulturpreis für Umwelt. Wie bei einem Einser mit sozialem Schwerpunkt üblich, geht es dabei weniger um den persönlichen Auftritt als um die Frage, wie eine ganze Branche, hier der Motorsport, anders arbeiten könnte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Disziplin mit Beziehungswärme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der strengen Prinzipientreue des Einsers einen zugewandten Zug: Es geht nicht nur darum, dass etwas richtig ist, sondern auch darum, dass man dabei als jemand gesehen wird, der sich kümmert. Die SO1w9 pflegt ihre Mission eher stoisch und zurückgenommen. Die SO1w2 sucht dagegen das Gespräch, erklärt sich und braucht die Rückmeldung der anderen.</p>
+          <p class="vb-intro">Bei Rosberg zeigt sich das in der Art, wie er über seinen Weg spricht. Er hat öffentlich erzählt, dass er in seinem letzten Rennjahr mit einem Mentaltrainer arbeitete, es aber zunächst niemandem sagte, weil er die Formel 1 als sehr machohaft erlebte. Er meditierte nach Berichten morgens und abends und suchte in Kyoto einen Zen-Meister auf. Seine Methode hielt er zunächst geheim, gab sie nach dem Karriereende aber bereitwillig weiter, statt sie als Vorteil für sich zu behalten. Auch die Rücktrittsbegründung, fünf Tage nach dem Titelgewinn in Abu Dhabi, trug diesen Zug: Er wolle mehr Zeit mit seiner Familie verbringen, mit seiner Frau Vivian und den beiden Töchtern. Das Verhältnis zu Hamilton, mit dem er schon als Jugendlicher im Kart gefahren war, litt in den Titeljahren sichtbar und blieb ein Thema, das er öffentlich nicht ausklammerte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die sportliche Substanz: Präzision statt Spektakel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wer Rosberg nur als „Sohn von Keke" oder als Hamiltons Teamkollegen einordnet, übersieht, was ihn fachlich ausmachte. Schon bei seinem Debüt 2006 für Williams fuhr er im ersten Rennen in Bahrain die schnellste Rennrunde und war damit der jüngste Fahrer, dem das gelungen war. In 206 Grands Prix gewann er 23 Rennen und holte 30 Pole-Positions, davon viele in den Mercedes-Jahren, in denen die Qualifikationsrunde auf den Hundertstel genau sitzen musste. Sein erster Sieg 2012 in China war der erste Sieg des Mercedes-Werksteams seit 1955. In Monaco gewann er 2013, 2014 und 2015 und damit dreimal dort, wo auch sein Vater 1983 gesiegt hatte.</p>
+          <p class="vb-intro">Dass er den siebenmaligen Weltmeister Schumacher in allen drei gemeinsamen Mercedes-Jahren in der Gesamtwertung hinter sich ließ, lag nicht an überlegenem Instinkt, sondern an Vorbereitung, Konstanz und Datenarbeit. Hamilton galt als der Schnellere über eine einzelne Runde, Rosberg als der Fahrer, der ein Rennwochenende am gründlichsten vorbereitete. Er verlor 2014 und 2015 gegen Hamilton, gewann 2016 die ersten vier Rennen und am Ende den Titel mit fünf Punkten Vorsprung, nachdem er in Abu Dhabi hinter Hamilton Zweiter geworden war. Die Substanz ist also real, auch wenn er sie selbst gern als Ergebnis von Arbeit und Kopftraining beschreibt statt als Begabung. Dass ein Einser sein Talent kleinredet und die Mühe betont, gehört zum Typ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten des sozialen Einsers mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verbindung aus Disziplin und Lernbereitschaft: Rosberg arbeitete systematisch an seiner mentalen Verfassung, benannte öffentlich, dass auch ein Weltmeister Hilfe braucht, und übertrug dieselbe Gründlichkeit nach dem Rücktritt auf ein Feld, in dem er tatsächlich etwas bewegen wollte.</p>
+          <p class="vb-intro">Der Schatten gehört zur selben Konstellation. Ein Einser unter Dauerspannung neigt zu Starrheit und innerem Groll, und auf Rosbergs Rennjahre trifft das zu: Nach eigener Aussage steigerte er die Aggressivität in seinem Fahrstil bewusst, was nach Berichten auch zu schwierigen Momenten führte, und der Titelkampf mit Hamilton verlangte ihm nach Berichten so viel ab, dass er den Titel nicht verteidigen wollte. Der Rücktritt auf dem Gipfel lässt sich als Notbremse lesen, mit der er verhinderte, dass die Anspannung ihn dauerhaft verbrauchte. Der Einser erkennt oft früher als andere, wo sein eigenes Maß überschritten wird, hört aber meist erst dann darauf, wenn das Ziel erreicht ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Einser in einem Auto: Rosberg und Michael Schumacher</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rosbergs Mercedes-Zeit begann 2010 mit einem Teamkollegen, der selbst ein Einser war: <a href="javascript:void(0)" data-route="beruehmte-michael-schumacher">Michael Schumacher</a> (SE1w9), der mit einundvierzig Jahren zurückgekehrt war, weil ihn die disziplinierte Arbeit am Fahrzeug mehr reizte als der Ruhestand. Beide Fahrer standen für akribische Vorbereitung und Datenarbeit, doch ihre Einser-Formen unterscheiden sich im Adressaten. Der selbsterhaltende Einser misst sich an einem privaten, kaum erklärten Maßstab und sprach über sein Innenleben fast nie. Der soziale Einser richtet seinen Maßstab nach außen, erklärt seine Methode und macht sie anderen zugänglich.</p>
+          <p class="vb-intro">Dass Rosberg in allen drei gemeinsamen Jahren in der Gesamtwertung vor Schumacher blieb, spricht dafür, dass beide auf demselben Feld antraten, der Präzision, und der jüngere Fahrer sie in diesen Jahren verlässlicher abrufen konnte. Rosbergs späterer Weg, das Mentaltraining und die offene Rede darüber, bildet zugleich den Gegenpol zu Schumachers Zurückhaltung über das eigene Innenleben.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SE1w9) – sein Mercedes-Teamkollege"},
+        {route:"beruehmte-juergen-klopp", label:"Porträt: Jürgen Klopp (SO1w2)"},
+        {route:"beruehmte-justin-timberlake", label:"Porträt: Justin Timberlake (SO1w2)"},
+      ])}
+    </div>
+  `);
+}

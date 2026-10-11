@@ -2498,3 +2498,71 @@ export function justinTimberlakePortraitPage() {
     </div>
   `);
 }
+
+export function nicoRosbergPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-nico-rosberg-portrait.jpg" alt="Nico Rosberg – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-nico-rosberg-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Nico Rosberg</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">2016 Formula 1 World Champion, entrepreneur and sustainability investor, b. 1985 in Wiesbaden &ndash; Animal match: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose in the Slipstream</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wild geese in autumn rarely fly alone. The flock forms a V, each goose rides the updraft of the one ahead and saves energy, the lead changes as soon as the front goose tires, and the calls from the rear keep pace and direction steady. The formation works because every goose knows its place, holds it with discipline, and says so loudly when something is off.</p>
+          <p class="vb-intro">Nico Rosberg, born on 27 June 1985 in Wiesbaden and raised in Monaco, spent his career strikingly often in exactly that position: in the slipstream of very big names. His father Keke Rosberg was the 1982 Formula 1 World Champion and became his first manager. From 2010 to 2012 he shared a Mercedes team with seven-time champion Michael Schumacher (SE1w9), and from 2013 with Lewis Hamilton, whom he knew from their karting days. In Formula 1 the slipstream is a real aerodynamic principle: whoever follows a faster car becomes faster and learns its line. In 2014 and 2015 Rosberg stayed behind Hamilton, learned that line from close range, and won the title in 2016.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Order for the Whole</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In Claudio Naranjo's Enneagram tradition, the <strong>social One (SO1)</strong> is the subtype of <em>Non-Adaptability</em>: someone who does not settle for conditions that fall short of their standard, and who directs that standard not at themselves or their closest circle but at the group, the organisation, the society. The self-preservation One perfects mainly themselves, the sexual One their partner. The social One wants to put the system in order in which they move.</p>
+          <p class="vb-intro">In the paddock this looked like this: Rosberg was known as a driver who worked particularly meticulously with the engineers on data and set-up. At the 2014 Belgian Grand Prix he collided with Hamilton on lap two. The Mercedes management publicly held him responsible and accused him of not giving way. Team principal Toto Wolff later suggested the incident may have thrown Rosberg off balance because he was no longer sure what was right and wrong. For a social One such a situation is doubly uncomfortable: the team's rules were against him, and at the same time the incident questioned his own claim to drive cleanly.</p>
+          <p class="vb-intro">The real direction shows after his retirement. Rosberg did not simply turn his back on the sport but turned the wish to correct something into a programme: he invested in start-ups for sustainable technology, founded the Extreme E team Rosberg X Racing, and together with two co-founders launched the Greentech Festival, held in Berlin-Tempelhof since 2019, which combines an exhibition, a conference and an award ceremony for green innovation. In 2021 he received the European Culture Award for the Environment. As is typical for a One with a social focus, the point is less the personal appearance than the question of how an entire industry, here motorsport, could work differently.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Discipline With Relational Warmth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the One's strict adherence to principle a turned-toward quality: it matters not only that something is right but also that one is seen as someone who cares. The SO1w9 tends to pursue the mission stoically and in a restrained way. The SO1w2 instead seeks conversation, explains themselves and needs the feedback of others.</p>
+          <p class="vb-intro">With Rosberg this shows in how he talks about his path. He has said publicly that in his final racing year he worked with a mental coach but at first told nobody, because he experienced Formula 1 as very macho. According to reports he meditated morning and evening and visited a Zen master in Kyoto. He kept his method secret at first, but after retiring he shared it readily instead of keeping it as an advantage for himself. The reason he gave for retiring five days after winning the title in Abu Dhabi carried the same note: he wanted to spend more time with his family, his wife Vivian and their two daughters. His relationship with Hamilton, with whom he had raced karts as a teenager, visibly suffered during the title years, and it remained a subject he did not avoid in public.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Sporting Substance: Precision Over Spectacle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Anyone who files Rosberg only as "Keke's son" or Hamilton's team-mate overlooks what made him good. In his 2006 debut for Williams he set the fastest race lap in the very first race in Bahrain, the youngest driver to have done so. In 206 Grands Prix he won 23 races and took 30 pole positions, many of them in the Mercedes years, when a qualifying lap had to be right to the hundredth of a second. His first win, in China in 2012, was the first for the Mercedes works team since 1955. He won in Monaco in 2013, 2014 and 2015, three times at the place where his father had won in 1983.</p>
+          <p class="vb-intro">That he finished ahead of seven-time champion Schumacher in the standings in all three of their Mercedes years was not down to superior instinct but to preparation, consistency and data work. Hamilton was regarded as the faster over a single lap, Rosberg as the driver who prepared a race weekend most thoroughly. He lost to Hamilton in 2014 and 2015, won the first four races of 2016, and took the title with a five-point margin after finishing second behind Hamilton in Abu Dhabi. The substance is real, even if he likes to describe it as the result of work and mental training rather than talent. A One playing down their talent and stressing the effort is part of the type.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social One With a Two-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the combination of discipline and willingness to learn: Rosberg worked systematically on his mental state, said openly that even a world champion needs help, and after retiring carried the same thoroughness into a field where he really wanted to move something.</p>
+          <p class="vb-intro">The shadow belongs to the same constellation. A One under constant tension tends toward rigidity and inner resentment, and that applies to Rosberg's racing years: by his own account he deliberately raised the aggression in his driving, which according to reports also led to difficult moments, and the title fight with Hamilton reportedly cost him so much that he did not want to defend the title. Retiring at the summit can be read as an emergency brake that kept the tension from using him up for good. The One often recognises earlier than others where their own limit is being crossed, but usually only listens once the goal has been reached.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Ones in One Car: Rosberg and Michael Schumacher</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rosberg's Mercedes time began in 2010 with a team-mate who was himself a One: <a href="javascript:void(0)" data-route="beruehmte-michael-schumacher">Michael Schumacher</a> (SE1w9), who had returned at forty-one because disciplined work on the car appealed to him more than retirement. Both drivers stood for meticulous preparation and data work, but their forms of the One differ in who they are addressed to. The self-preservation One measures themselves against a private, rarely explained standard and almost never spoke about their inner life. The social One directs their standard outward, explains their method and makes it accessible to others.</p>
+          <p class="vb-intro">That Rosberg stayed ahead of Schumacher in the standings in all three of their years together suggests that both competed on the same ground, precision, and that the younger driver could call it up more reliably in those years. Rosberg's later path, the mental training and the open talk about it, is at the same time the counterpart to Schumacher's reticence about his own inner life.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9) – his Mercedes team-mate"},
+        {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
+        {route:"beruehmte-justin-timberlake", label:"Portrait: Justin Timberlake (SO1w2)"},
+      ])}
+    </div>
+  `);
+}

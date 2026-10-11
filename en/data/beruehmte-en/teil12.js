@@ -1184,6 +1184,7 @@ export function michaelSchumacherPortraitPage() {
         {route:"krankheitsportraets-michael-schumacher", label:"Illness Portrait: Michael Schumacher (SE1w9)"},
         {route:"beruehmte-carl-xvi-gustaf", label:"Portrait: Carl XVI Gustaf (SE1w9)"},
         {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SE1w9)"},
+        {route:"beruehmte-nico-rosberg", label:"Portrait: Nico Rosberg (SO1w2) – his Mercedes team-mate"},
       ])}
     </div>
   `);

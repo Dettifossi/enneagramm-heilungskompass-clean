@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2478", date: "2026-10-11", text: "Neues Porträt: Nico Rosberg (SO1w2) – Formel-1-Weltmeister 2016, Unternehmer und Nachhaltigkeitsinvestor.", text_en: "New portrait: Nico Rosberg (SO1w2) – 2016 Formula 1 World Champion, entrepreneur and sustainability investor.", route: "beruehmte-nico-rosberg" },
     { version: "v2477", date: "2026-10-11", text: "Neues Porträt: Gert Postel (SX8w7) – Hochstapler, 17 Jahre falscher Arzt.", text_en: "New portrait: Gert Postel (SX8w7) – impostor, posed as a doctor for 17 years.", route: "beruehmte-gert-postel" },
     { version: "v2476", date: "2026-10-10", text: "Neues Schaubild: Die neuen Enneagramm-Typen – Leidenschaft, Kernüberzeugung und Wunde.", text_en: "New chart: The New Enneagram Types – passion, core belief and wound.", route: "die-neuen-enneagramm-typen" },
     { version: "v2475", date: "2026-10-09", text: "Neues Porträt: Navi Pillay (SO1w9) – Juristin, Friedensnobelpreisträgerin 2026.", text_en: "New portrait: Navi Pillay (SO1w9) – jurist, 2026 Nobel Peace Prize laureate.", route: "beruehmte-navi-pillay" },
