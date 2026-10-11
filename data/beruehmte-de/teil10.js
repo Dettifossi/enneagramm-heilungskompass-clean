@@ -2464,7 +2464,7 @@ export function gertPostelPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gert-postel-portrait.jpg" alt="Gert Postel – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="/assets/portraits/beruehmte-gert-postel-portrait.jpg" alt="Gert Postel – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Gert Postel</p>
         <p class="krim-portrait-typ">SX8w7 · Sexueller Typ 8 mit Siebenerflügel</p>
