@@ -34,8 +34,15 @@
 </div>
 
 <script>
+function holeAdminCode() {
+  // Der Code steht nicht im Quelltext, er wird bei Bedarf abgefragt und nur für diese Sitzung gemerkt.
+  var c = sessionStorage.getItem('kompass-admin-secret');
+  if (!c) { c = prompt('Admin-Code eingeben:') || ''; if (c) sessionStorage.setItem('kompass-admin-secret', c); }
+  return c;
+}
 async function resetPw() {
-  const adminSecret = "rathmer9";
+  const adminSecret = holeAdminCode();
+  if (!adminSecret) return;
   const email = document.getElementById("customerEmail").value.trim();
   const btn = document.getElementById("btn");
   const result = document.getElementById("result");

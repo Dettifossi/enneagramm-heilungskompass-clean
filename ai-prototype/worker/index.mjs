@@ -285,8 +285,9 @@ async function handleAuthRequestLink(request, env) {
   if (!env.RESEND_API_KEY) {
     return jsonResponse(request, { error: "Login noch nicht aktiv." }, 501);
   }
-  const { email } = await request.json();
-  if (!email || typeof email !== "string" || !email.includes("@")) {
+  if (await isRateLimited(env, "AUTH_LIMITER", clientIp(request))) return tooManyRequests(request);
+  const { email } = (await readJson(request)) || {};
+  if (!email || typeof email !== "string" || !email.includes("@") || email.length > 254) {
     return jsonResponse(request, { error: "Gültige E-Mail-Adresse erforderlich." }, 400);
   }
   const normalized = email.toLowerCase().trim();
@@ -295,7 +296,13 @@ async function handleAuthRequestLink(request, env) {
   // Missbrauch unseres Mailversands für beliebige Adressen), aber die
   // Antwort ist für beide Fälle identisch, um Adressen nicht zu verraten.
   const sub = await getSubscriberStatus(env, normalized);
-  if (isSubscriberActive(sub)) {
+  // Pro Adresse höchstens eine Mail pro Minute (verhindert Mail-Flut an Abonnenten).
+  const cooldownKey = `reqcool:${normalized}`;
+  const coolingDown = isSubscriberActive(sub) && !!(await env.AUTH_TOKENS.get(cooldownKey));
+  if (isSubscriberActive(sub) && !coolingDown) {
+    await env.AUTH_TOKENS.put(cooldownKey, "1", { expirationTtl: 60 });
+    // Nur ein gültiger Code zur Zeit: ältere Codes dieser Adresse werden ungültig.
+    await deleteCodesFor(env, normalized);
     // Der Klick-Link (magic:<token>, per /auth/verify eingelöst) wird
     // weiterhin im Hintergrund erzeugt und bleibt als Route aktiv, aber
     // NICHT mehr in die E-Mail geschrieben - er würde Home-Bildschirm-
@@ -322,15 +329,38 @@ async function issueSessionToken(env, email) {
 // Bestätigt den 6-stelligen Code aus der Login-Mail - funktioniert unabhängig
 // davon, in welchem Browser-/App-Kontext die Mail geöffnet wurde (siehe
 // Kommentar bei sendMagicLinkEmail), anders als der Klick-Link.
+const MAX_CODE_ATTEMPTS = 5;
+
+async function deleteCodesFor(env, normalizedEmail) {
+  const list = await env.AUTH_TOKENS.list({ prefix: `code:${normalizedEmail}:` });
+  await Promise.all(list.keys.map((k) => env.AUTH_TOKENS.delete(k.name)));
+}
+
 async function handleAuthVerifyCode(request, env) {
-  const { email, code } = await request.json();
-  if (!email || !code) return jsonResponse(request, { error: "E-Mail und Code erforderlich." }, 400);
+  if (await isRateLimited(env, "AUTH_LIMITER", clientIp(request))) return tooManyRequests(request);
+  const { email, code } = (await readJson(request)) || {};
+  if (!email || !code || typeof email !== "string" || typeof code !== "string") {
+    return jsonResponse(request, { error: "E-Mail und Code erforderlich." }, 400);
+  }
   const normalized = email.toLowerCase().trim();
-  const key = `code:${normalized}:${code.trim()}`;
-  const exists = await env.AUTH_TOKENS.get(key);
-  if (!exists) return jsonResponse(request, { error: "Code ungültig oder abgelaufen." }, 401);
+  const trimmedCode = code.trim();
+
+  // Falsche Versuche pro Adresse zählen: nach 5 Fehlversuchen werden alle
+  // offenen Codes verworfen, ein Durchprobieren der 6 Ziffern ist damit nicht möglich.
+  const failKey = `codefail:${normalized}`;
+  const fails = Number((await env.AUTH_TOKENS.get(failKey)) || 0);
+  if (fails >= MAX_CODE_ATTEMPTS) return tooManyRequests(request);
+
+  const key = `code:${normalized}:${trimmedCode}`;
+  const exists = /^\d{6}$/.test(trimmedCode) ? await env.AUTH_TOKENS.get(key) : null;
+  if (!exists) {
+    await env.AUTH_TOKENS.put(failKey, String(fails + 1), { expirationTtl: MAGIC_LINK_TTL_SECONDS });
+    if (fails + 1 >= MAX_CODE_ATTEMPTS) await deleteCodesFor(env, normalized);
+    return jsonResponse(request, { error: "Code ungültig oder abgelaufen." }, 401);
+  }
 
   await env.AUTH_TOKENS.delete(key);
+  await env.AUTH_TOKENS.delete(failKey);
   const sessionToken = await issueSessionToken(env, normalized);
   return jsonResponse(request, { sessionToken, email: normalized });
 }
@@ -370,9 +400,18 @@ async function reviewsPut(env, key, list) {
   await env.REVIEWS.put(key, JSON.stringify(list));
 }
 
+// Der Admin-Code liegt ausschließlich als Worker-Secret (nie im Frontend-Code).
+// Vergleich in konstanter Zeit; Codes unter 12 Zeichen gelten als nicht konfiguriert.
 function requireAdmin(request, env) {
   const code = request.headers.get("X-Admin-Code");
-  return !!env.ADMIN_CODE && code === env.ADMIN_CODE;
+  if (!env.ADMIN_CODE || env.ADMIN_CODE.length < 12 || typeof code !== "string") return false;
+  return timingSafeEqual(code, env.ADMIN_CODE);
+}
+
+async function adminGate(request, env) {
+  // Gleiche Begrenzung für alle Admin-Aufrufe, damit der Code nicht durchprobiert werden kann.
+  if (await isRateLimited(env, "ADMIN_LIMITER", clientIp(request))) return tooManyRequests(request);
+  return null;
 }
 
 async function handleReviewsGetFreigegeben(request, env) {
@@ -380,25 +419,33 @@ async function handleReviewsGetFreigegeben(request, env) {
 }
 
 async function handleReviewsGetWartend(request, env) {
+  const blocked = await adminGate(request, env);
+  if (blocked) return blocked;
   if (!requireAdmin(request, env)) return jsonResponse(request, { error: "Nicht autorisiert." }, 401);
   return jsonResponse(request, { reviews: await reviewsGet(env, "wartend") });
 }
 
+const MAX_PENDING_REVIEWS = 300;
+
 async function handleReviewsSubmit(request, env) {
-  const body = await request.json();
+  if (await isRateLimited(env, "REVIEW_LIMITER", clientIp(request))) return tooManyRequests(request);
+  const body = (await readJson(request)) || {};
   const sterne = Number(body.sterne);
-  if (!sterne || sterne < 1 || sterne > 5) {
+  if (!Number.isInteger(sterne) || sterne < 1 || sterne > 5) {
     return jsonResponse(request, { error: "Feld 'sterne' fehlt oder ungültig." }, 400);
   }
   const review = {
     sterne,
     text: typeof body.text === "string" ? body.text.slice(0, 2000) : "",
     name: typeof body.name === "string" && body.name ? body.name.slice(0, 120) : null,
-    land: typeof body.land === "string" ? body.land : null,
-    countryCode: typeof body.countryCode === "string" ? body.countryCode : null,
+    land: typeof body.land === "string" ? body.land.slice(0, 80) : null,
+    countryCode: typeof body.countryCode === "string" && /^[A-Za-z]{2}$/.test(body.countryCode) ? body.countryCode.toUpperCase() : null,
     datum: new Date().toISOString(),
   };
   const wartend = await reviewsGet(env, "wartend");
+  if (wartend.length >= MAX_PENDING_REVIEWS) {
+    return jsonResponse(request, { error: "Zurzeit können keine neuen Bewertungen angenommen werden." }, 503);
+  }
   wartend.push(review);
   await reviewsPut(env, "wartend", wartend);
   return jsonResponse(request, { ok: true });
@@ -421,8 +468,11 @@ async function translateText(text, langpair) {
 }
 
 async function handleReviewsFreigeben(request, env) {
+  const blocked = await adminGate(request, env);
+  if (blocked) return blocked;
   if (!requireAdmin(request, env)) return jsonResponse(request, { error: "Nicht autorisiert." }, 401);
-  const { index } = await request.json();
+  const { index } = (await readJson(request)) || {};
+  if (!Number.isInteger(index) || index < 0) return jsonResponse(request, { error: "Index ungültig." }, 400);
   const wartend = await reviewsGet(env, "wartend");
   const review = wartend[index];
   if (!review) return jsonResponse(request, { error: "Bewertung nicht gefunden." }, 404);
@@ -441,11 +491,13 @@ async function handleReviewsFreigeben(request, env) {
 }
 
 async function handleReviewsLoeschen(request, env) {
+  const blocked = await adminGate(request, env);
+  if (blocked) return blocked;
   if (!requireAdmin(request, env)) return jsonResponse(request, { error: "Nicht autorisiert." }, 401);
-  const { index, from } = await request.json();
+  const { index, from } = (await readJson(request)) || {};
   const key = from === "freigegeben" ? "freigegeben" : "wartend";
   const liste = await reviewsGet(env, key);
-  if (index < 0 || index >= liste.length) return jsonResponse(request, { error: "Bewertung nicht gefunden." }, 404);
+  if (!Number.isInteger(index) || index < 0 || index >= liste.length) return jsonResponse(request, { error: "Bewertung nicht gefunden." }, 404);
   liste.splice(index, 1);
   await reviewsPut(env, key, liste);
   return jsonResponse(request, { ok: true });
@@ -501,8 +553,12 @@ async function handleStripeWebhook(request, env) {
   const event = JSON.parse(rawBody);
 
   switch (event.type) {
+    case "checkout.session.async_payment_succeeded":
     case "checkout.session.completed": {
       const session = event.data.object;
+      // Bei verzögerten Zahlarten (z. B. SEPA) meldet Stripe "completed" schon vor
+      // dem Zahlungseingang. Freigeschaltet wird erst, wenn bezahlt ist.
+      if (session.payment_status !== "paid" && session.payment_status !== "no_payment_required") break;
       const email = session.customer_details?.email || session.customer_email;
       if (email) {
         if (session.mode === "subscription") {
@@ -607,10 +663,50 @@ function jsonResponse(request, body, status = 200) {
   });
 }
 
+// ---------------------------------------------------------------------------
+// Missbrauchsschutz. Die Rate-Limiter sind Cloudflare-Bindings (siehe
+// wrangler.toml [[ratelimits]]). Fehlt ein Binding, greift schlicht keine
+// Begrenzung, damit der Worker nie wegen einer fehlenden Konfiguration ausfällt.
+// ---------------------------------------------------------------------------
+function clientIp(request) {
+  return request.headers.get("CF-Connecting-IP") || "unknown";
+}
+
+async function isRateLimited(env, bindingName, key) {
+  const binding = env[bindingName];
+  if (!binding || typeof binding.limit !== "function") return false;
+  try {
+    const { success } = await binding.limit({ key });
+    return !success;
+  } catch {
+    return false;
+  }
+}
+
+function tooManyRequests(request) {
+  return jsonResponse(request, { error: "Zu viele Anfragen. Bitte später erneut versuchen." }, 429);
+}
+
+async function readJson(request) {
+  try {
+    const data = await request.json();
+    return data && typeof data === "object" ? data : null;
+  } catch {
+    return null;
+  }
+}
+
+const MAX_QUESTION_LENGTH = 1000;
+
 async function handleAsk(request, env) {
-  const { question, lang } = await request.json();
+  if (await isRateLimited(env, "ASK_LIMITER", clientIp(request))) return tooManyRequests(request);
+  const body = await readJson(request);
+  const { question, lang } = body || {};
   if (!question || typeof question !== "string") {
     return jsonResponse(request, { error: "Feld 'question' fehlt." }, 400);
+  }
+  if (question.length > MAX_QUESTION_LENGTH) {
+    return jsonResponse(request, { error: "Frage zu lang." }, 400);
   }
 
   const isEN = lang === "en";
@@ -820,7 +916,10 @@ export default {
       }
       return await handleAsk(request, env);
     } catch (err) {
-      return jsonResponse(request, { error: err.message }, 500);
+      // Details nur ins Worker-Log, nicht an den Besucher (kann Hinweise auf
+      // Schnittstellen und Konfiguration enthalten).
+      console.error("Worker-Fehler:", err && err.stack ? err.stack : err);
+      return jsonResponse(request, { error: "Interner Fehler. Bitte später erneut versuchen." }, 500);
     }
   },
 };

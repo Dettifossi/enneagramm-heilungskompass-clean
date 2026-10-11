@@ -59,3 +59,33 @@ id = "66e4f67e14ce4eec9c14284c185c7ca8"
 # runExpiryReminders() in index.mjs. 8 Uhr UTC = 9/10 Uhr deutsche Zeit.
 [triggers]
 crons = ["0 8 * * *"]
+
+# Missbrauchsschutz (Rate Limiting). Zeitfenster darf nur 10 oder 60 Sekunden sein.
+# Pro Client-IP: KI-Fragen, Login (Code anfordern/prüfen), Bewertungen, Admin.
+[[ratelimits]]
+name = "ASK_LIMITER"
+namespace_id = "1001"
+  [ratelimits.simple]
+  limit = 20
+  period = 60
+
+[[ratelimits]]
+name = "AUTH_LIMITER"
+namespace_id = "1002"
+  [ratelimits.simple]
+  limit = 10
+  period = 60
+
+[[ratelimits]]
+name = "REVIEW_LIMITER"
+namespace_id = "1003"
+  [ratelimits.simple]
+  limit = 3
+  period = 60
+
+[[ratelimits]]
+name = "ADMIN_LIMITER"
+namespace_id = "1004"
+  [ratelimits.simple]
+  limit = 10
+  period = 60

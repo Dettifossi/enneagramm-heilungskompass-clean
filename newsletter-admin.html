@@ -28,7 +28,12 @@
 </div>
 
 <script>
-const ADMIN_SECRET = "rathmer9";
+function holeAdminCode() {
+  // Der Code steht nicht im Quelltext, er wird bei Bedarf abgefragt und nur für diese Sitzung gemerkt.
+  var c = sessionStorage.getItem('kompass-admin-secret');
+  if (!c) { c = prompt('Admin-Code eingeben:') || ''; if (c) sessionStorage.setItem('kompass-admin-secret', c); }
+  return c;
+}
 const API = "https://enneagramm-heilungskompass.vercel.app/api/newsletter";
 let aktuellerEntwurf = null;
 
@@ -38,6 +43,8 @@ async function laden() {
   const bereich = document.getElementById("bereich");
   bereich.innerHTML = '<div class="leer">Wird geladen…</div>';
   try {
+    const ADMIN_SECRET = holeAdminCode();
+    if (!ADMIN_SECRET) { bereich.innerHTML = '<div class="leer">Admin-Code erforderlich. Seite neu laden.</div>'; return; }
     const r = await fetch(`${API}?adminSecret=${encodeURIComponent(ADMIN_SECRET)}`);
     const data = await r.json();
     if (!r.ok) {
@@ -69,7 +76,7 @@ async function senden() {
     const r = await fetch(API, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ adminSecret: ADMIN_SECRET, campaignId: aktuellerEntwurf.id }),
+      body: JSON.stringify({ adminSecret: holeAdminCode(), campaignId: aktuellerEntwurf.id }),
     });
     const data = await r.json();
     if (r.ok && data.success) {
