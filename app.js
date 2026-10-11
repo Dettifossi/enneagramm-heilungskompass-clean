@@ -35049,6 +35049,10 @@ document.addEventListener("click", (e) => {
 
 
 const REVIEWS_API = 'https://kompass-assistent.9rathmer.workers.dev/reviews';
+// Schützt vor eingeschleustem HTML (Stored XSS) bei Texten, die Besucher einreichen.
+function _escHtml(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, function(c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; });
+}
 const ADMIN_CODE = 'rathmer9';
 
 
@@ -35089,7 +35093,7 @@ function _adminLaden() {
           '<div>' +
           '<span style="color:#f4a900;font-size:1.1rem;">' + sternText + '</span>' +
           '<span style="font-size:0.78rem;color:var(--muted);margin-left:0.5rem;">' + datum + '</span>' +
-          '<p style="font-size:0.9rem;color:var(--ink);margin:0.5rem 0 0;line-height:1.6;">' + (b.text || '(kein Kommentar)') + '</p>' +
+          '<p style="font-size:0.9rem;color:var(--ink);margin:0.5rem 0 0;line-height:1.6;">' + _escHtml(b.text || '(kein Kommentar)') + '</p>' +
           '</div></div>' +
           '<div style="display:flex;gap:0.5rem;margin-top:0.8rem;">' +
           '<button onclick="window._adminFreigeben(' + i + ')" ' +
@@ -35227,9 +35231,9 @@ function _bewertungSterneInit() {
       const container = document.getElementById('community-liste');
       if (!section || !container) return;
       container.innerHTML = liste.map(function(b) {
-        const displayText = b.text_de || b.text || '';
+        const displayText = _escHtml(b.text_de || b.text || '');
         const landDisplay = b.countryCode ? (COUNTRY_NAME_DE[b.countryCode] || b.land || '') : (b.land || '');
-        const meta = [b.name, landDisplay || null].filter(Boolean).join(' \u00b7 ');
+        const meta = [_escHtml(b.name), _escHtml(landDisplay) || null].filter(Boolean).join(' \u00b7 ');
         return '<div style="background:var(--ivory);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;" data-review-card>' +
           '<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;">' +
           '<span style="color:#f4a900;font-size:1rem;">' + '\u2605'.repeat(b.sterne) + '\u2606'.repeat(5-b.sterne) + '</span>' +
@@ -38390,7 +38394,7 @@ function _sucheResults(q) {
 
 function _sucheResultsHtml(res, q) {
   const total = res.subtypen.length + res.portraits.length + res.register.length + res.zitate.length + res.laender.length;
-  if (total === 0) return `<p class="suche-hint">Keine Ergebnisse f\u00fcr \u201e${q}\u201c gefunden.</p>`;
+  if (total === 0) return `<p class="suche-hint">Keine Ergebnisse f\u00fcr \u201e${String(q).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]))}\u201c gefunden.</p>`;
 
   const hl = (txt) => {
     const i = txt.toLowerCase().indexOf(q.toLowerCase());
