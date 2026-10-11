@@ -5,7 +5,7 @@ import { TRIADEN_EN as TRIADEN, TYPFRAGEN_EN as TYPFRAGEN, TYPNAMEN_EN as TYPNAM
 import { MOTIVTEST_EN as MOTIVTEST } from "../data/motivtest_en.js?v=3";
 import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
-import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
+import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
 import { registerEntries, registerEntriesEN } from "../data/register.js?v=211";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
