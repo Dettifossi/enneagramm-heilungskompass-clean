@@ -2,6 +2,8 @@
 // GET  /api/newsletter?adminSecret=...           -> neuesten Entwurf zurückgeben
 // POST /api/newsletter { adminSecret, campaignId } -> Entwurf jetzt versenden
 
+import { safeEqual, parseBody } from "./_lib.js";
+
 const BREVO_API = "https://api.brevo.com/v3";
 
 export default async function handler(req, res) {
@@ -13,9 +15,9 @@ export default async function handler(req, res) {
 
   const adminSecret = req.method === "GET"
     ? req.query.adminSecret
-    : (typeof req.body === "string" ? JSON.parse(req.body) : req.body)?.adminSecret;
+    : parseBody(req.body).adminSecret;
 
-  if (!adminSecret || adminSecret !== process.env.ADMIN_SECRET) {
+  if (!process.env.ADMIN_SECRET || !safeEqual(adminSecret, process.env.ADMIN_SECRET)) {
     return res.status(401).json({ error: "Nicht autorisiert" });
   }
 
@@ -40,8 +42,8 @@ export default async function handler(req, res) {
   }
 
   if (req.method === "POST") {
-    const { campaignId } = typeof req.body === "string" ? JSON.parse(req.body) : req.body;
-    if (!campaignId) return res.status(400).json({ error: "campaignId fehlt" });
+    const { campaignId } = parseBody(req.body);
+    if (!campaignId || !/^\d+$/.test(String(campaignId))) return res.status(400).json({ error: "campaignId fehlt oder ungültig" });
 
     try {
       const r = await fetch(`${BREVO_API}/emailCampaigns/${campaignId}/sendNow`, {

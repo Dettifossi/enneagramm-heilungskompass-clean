@@ -3,6 +3,7 @@
 import Stripe from "stripe";
 import { initializeApp, cert, getApps } from "firebase-admin/app";
 import { getAuth } from "firebase-admin/auth";
+import { generatePassword, escapeHtml } from "./_lib.js";
 
 export const config = { api: { bodyParser: false } };
 
@@ -27,14 +28,6 @@ async function getRawBody(req) {
 if (!getApps().length) {
   const sa = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
   initializeApp({ credential: cert(sa) });
-}
-
-function generatePassword() {
-  const chars = "ABCDEFGHJKLMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz23456789";
-  let p1 = "", p2 = "";
-  for (let i = 0; i < 4; i++) p1 += chars[Math.floor(Math.random() * chars.length)];
-  for (let i = 0; i < 4; i++) p2 += chars[Math.floor(Math.random() * chars.length)];
-  return `Kompass-${p1}-${p2}`;
 }
 
 export default async function handler(req, res) {
@@ -88,7 +81,7 @@ export default async function handler(req, res) {
     return res.status(200).json({ success: true, email });
   } catch (err) {
     console.error("Firebase error:", err);
-    return res.status(500).json({ error: err.message });
+    return res.status(500).json({ error: "Zugang konnte nicht erstellt werden." });
   }
 }
 
@@ -121,7 +114,7 @@ async function sendWelcomeMail(email, name, password, isEnglish) {
 }
 
 function renderGermanMail(email, name, password, appUrl) {
-  const anrede = name ? `Hallo ${name.split(" ")[0]},` : "Hallo,";
+  const anrede = name ? `Hallo ${escapeHtml(name.split(" ")[0])},` : "Hallo,";
   return `
 <div style="font-family:Georgia,serif;max-width:580px;margin:0 auto;padding:2rem 1.5rem;background:#faf8f4;">
 
@@ -137,7 +130,7 @@ function renderGermanMail(email, name, password, appUrl) {
   <!-- Zugangsdaten -->
   <div style="background:#fff;border:2px solid #c9a84c;border-radius:10px;padding:1.2rem 1.5rem;margin-bottom:1.5rem;">
     <p style="margin:0 0 0.5rem;color:#555;font-size:.9rem;">Ihre Zugangsdaten:</p>
-    <p style="margin:0 0 0.4rem;font-size:1rem;color:#333;"><strong>E-Mail:</strong> ${email}</p>
+    <p style="margin:0 0 0.4rem;font-size:1rem;color:#333;"><strong>E-Mail:</strong> ${escapeHtml(email)}</p>
     <p style="margin:0;font-size:1.15rem;color:#8a6a1a;"><strong>Passwort:</strong> ${password}</p>
   </div>
 
@@ -199,7 +192,7 @@ function renderGermanMail(email, name, password, appUrl) {
 }
 
 function renderEnglishMail(email, name, password, appUrl) {
-  const greeting = name ? `Hi ${name.split(" ")[0]},` : "Hi,";
+  const greeting = name ? `Hi ${escapeHtml(name.split(" ")[0])},` : "Hi,";
   return `
 <div style="font-family:Georgia,serif;max-width:580px;margin:0 auto;padding:2rem 1.5rem;background:#faf8f4;">
 
@@ -215,7 +208,7 @@ function renderEnglishMail(email, name, password, appUrl) {
   <!-- Login details -->
   <div style="background:#fff;border:2px solid #c9a84c;border-radius:10px;padding:1.2rem 1.5rem;margin-bottom:1.5rem;">
     <p style="margin:0 0 0.5rem;color:#555;font-size:.9rem;">Your login details:</p>
-    <p style="margin:0 0 0.4rem;font-size:1rem;color:#333;"><strong>Email:</strong> ${email}</p>
+    <p style="margin:0 0 0.4rem;font-size:1rem;color:#333;"><strong>Email:</strong> ${escapeHtml(email)}</p>
     <p style="margin:0;font-size:1.15rem;color:#8a6a1a;"><strong>Password:</strong> ${password}</p>
   </div>
 
