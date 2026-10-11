@@ -1898,7 +1898,7 @@ export function marcelReichRanickiPortraitPage() {
 
         <h2 class="vb-section">2. Der soziale Typ 1: Der Maßstab für ein ganzes Feld</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>soziale Typ 1 (SO1)</strong> trägt seinen Vollkommenheitsanspruch nicht als private Marotte, sondern als gesellschaftliches Anliegen. Naranjo nannte diesen Subtyp <em>Nichtanpassung</em>: Die SO1 kann sich nicht mit dem Mittelmaß abfinden, weil sie ein klares inneres Bild davon hat, wie eine Sache sein sollte &ndash; und dieses Bild beansprucht Gültigkeit für alle, nicht nur für sie selbst.</p>
+          <p class="vb-intro">Der <strong>soziale Typ 1 (SO1)</strong> trägt seinen Vollkommenheitsanspruch nicht als private Marotte, sondern als gesellschaftliches Anliegen. Naranjo nannte diesen Subtyp <em>Unangepasstheit</em>: Die SO1 kann sich nicht mit dem Mittelmaß abfinden, weil sie ein klares inneres Bild davon hat, wie eine Sache sein sollte &ndash; und dieses Bild beansprucht Gültigkeit für alle, nicht nur für sie selbst.</p>
           <p class="vb-intro">Reich-Ranicki verkörperte das in Reinform: Als „Literaturpapst" beanspruchte er nicht weniger, als den Maßstab für die gesamte deutschsprachige Gegenwartsliteratur zu setzen. Seine über Jahrzehnte kuratierte „Frankfurter Anthologie" in der FAZ und sein Kanon der wichtigsten deutschen Romane waren keine bloßen Empfehlungslisten, sondern der Versuch, verbindliche Ordnung in ein aus seiner Sicht orientierungsloses literarisches Feld zu bringen.</p>
         </blockquote>
 

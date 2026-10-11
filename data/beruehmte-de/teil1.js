@@ -1837,7 +1837,7 @@ export function thomasMannPortraitPage() {
 
         <h2 class="vb-section">2. Der soziale Typ 1: Repräsentant einer Kultur, nicht nur eines Werks</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>soziale Typ 1 (SO1)</strong> richtet seinen Vollkommenheitsanspruch nicht primär auf sich selbst, sondern auf das große Ganze &ndash; die Gesellschaft, die Kultur, „wie es sein sollte". Naranjo nannte diesen Subtyp <em>Nichtanpassung</em>: Die SO1 kann Mittelmaß und Verfall nicht stillschweigend hinnehmen, weil sie sich selbst zur Instanz für das Richtige macht.</p>
+          <p class="vb-intro">Der <strong>soziale Typ 1 (SO1)</strong> richtet seinen Vollkommenheitsanspruch nicht primär auf sich selbst, sondern auf das große Ganze &ndash; die Gesellschaft, die Kultur, „wie es sein sollte". Naranjo nannte diesen Subtyp <em>Unangepasstheit</em>: Die SO1 kann Mittelmaß und Verfall nicht stillschweigend hinnehmen, weil sie sich selbst zur Instanz für das Richtige macht.</p>
           <p class="vb-intro">Mann verkörperte das in seiner gesamten Biografie: Von den nationalkonservativen „Betrachtungen eines Unpolitischen" (1918) bis zum entschiedenen Demokratie-Verteidiger im amerikanischen Exil vollzog er einen Wandel, der immer denselben Kern behielt &ndash; die Überzeugung, als Schriftsteller eine moralische Verantwortung für den Zustand der deutschen Kultur zu tragen. Seine Radioansprachen „Deutsche Hörer!" (BBC, 1940&ndash;1945) waren keine private Meinungsäußerung, sondern der Versuch, von außen eine korrigierende Stimme für ein ganzes Land zu sein.</p>
         </blockquote>
 
@@ -2364,7 +2364,7 @@ export function wolfgangWodargPortraitPage() {
 
         <h2 class="vb-section">3. Der soziale Typ 1: Instanz für das Richtige im Gesundheitswesen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>soziale Typ 1 (SO1)</strong> richtet seinen Vollkommenheitsanspruch nicht primär auf sich selbst, sondern auf das große Ganze – wie eine Institution, ein System oder eine Gesellschaft eigentlich funktionieren sollte. Naranjo nannte diesen Subtyp <em>Nichtanpassung</em>: Die SO1 kann es nicht stillschweigend hinnehmen, wenn eine mächtige Institution von dem abweicht, was sie als richtig erkannt hat – selbst wenn das bedeutet, sich öffentlich mit ihr anzulegen.</p>
+          <p class="vb-intro">Der <strong>soziale Typ 1 (SO1)</strong> richtet seinen Vollkommenheitsanspruch nicht primär auf sich selbst, sondern auf das große Ganze – wie eine Institution, ein System oder eine Gesellschaft eigentlich funktionieren sollte. Naranjo nannte diesen Subtyp <em>Unangepasstheit</em>: Die SO1 kann es nicht stillschweigend hinnehmen, wenn eine mächtige Institution von dem abweicht, was sie als richtig erkannt hat – selbst wenn das bedeutet, sich öffentlich mit ihr anzulegen.</p>
           <p class="vb-intro">Wodargs gesamte Karriere liest sich als eine durchgehende Linie dieser Haltung: vom Amtsarzt, der die Gesundheit seines Landkreises im Blick behielt, über den Bundestagsabgeordneten bis zum Europarats-Vorsitzenden, der eine internationale Gesundheitsorganisation öffentlich zur Rechenschaft zog. Die soziale Eins stellt sich nicht gegen das System, weil sie Aufmerksamkeit sucht, sondern weil sie sich selbst als die Instanz versteht, die auf Abweichungen vom Richtigen hinweisen muss.</p>
         </blockquote>
 
