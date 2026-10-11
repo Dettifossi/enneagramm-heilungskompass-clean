@@ -2423,3 +2423,75 @@ export function princeRogersNelsonPortraitPage() {
     </div>
   `);
 }
+
+export function gertPostelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gert-postel-portrait.jpg" alt="Gert Postel – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gert Postel</p>
+        <p class="krim-portrait-typ">SX8w7 &middot; Sexual Type 8 with a Seven-wing</p>
+        <p class="krim-portrait-subtitle">German impostor, b. 1958 &ndash; posed as a doctor for 17 years, rising to chief physician and public health officer &ndash; animal correspondence: Crocodile</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Crocodile: from postal worker to chief physician without a single genuine exam</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>crocodile</strong> is the animal of the sexual Eight – it lies motionless until the moment is right, then strikes with all its stored-up force. Gert Uwe Postel was born on 18 June 1958 in Bremen, the only child of a car mechanic and a seamstress, grew up in Stuhr near Bremen, caught up on his secondary-school diploma through evening classes after leaving school early, and in 1976 completed training as a mail carrier. Until August 1977 he genuinely delivered letters – a thoroughly unremarkable biography that bears no relation to what followed.</p>
+          <p class="vb-intro">He himself names the turning point: in 1979, shortly after his mother's death, he »went off the rails«. Even before that, he had forged a school-leaving certificate to talk his way into a 1977 trainee post as a court clerk in Bremen – a plan that collapsed within months. What followed was not a single desperate act but, over nearly two decades, a pattern replayed again and again: forged medical licenses, forged specialist titles, forged references – and, on the strength of them, genuine positions as a physician in several West German hospitals, starting in Neuenkirchen near Oldenburg. When a Bremen judge recognized him in 1982, he was exposed for the first time. It would not be the last time recognition, rather than any check of his actual qualifications, was what stopped him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Eight: power not as a system, but as the one decisive confrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At its core, the <strong>Eight</strong>, in Naranjo's reading, is driven by power and control as a defense against feeling dominated and exposed from the outside – paired with an almost reflexive drive to expose false authority and to refuse submission to any hierarchy that has not earned its own sovereignty. For Postel, this was never aimed at physicians as people, but at the licensing system itself: the piece of paper that makes someone a doctor without saying anything about what they can actually do. Every new appointment was proof that this system was a hollow façade – and every time he went undetected, that conviction was confirmed anew.</p>
+          <p class="vb-intro">The <strong>sexual Eight (SX8)</strong> differs from the other Eight subtypes precisely in how narrowly this power is focused: not control of an entire territory (self-preservation Eight), and not a protective function for a group (social Eight), but an intense, almost magnetic dominance in the one decisive encounter – the one job interview, the one consultant's ward round, the one assessment appointment. Postel did not need an empire. He needed the one room, the one moment, in which his presence was compelling enough that no one asked further questions. Tellingly, material security was never the point – by his own account he lived in precarious circumstances at times – it was the sheer intensity of pulling it off that mattered.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The substance: no bungling amateur, but a gifted autodidact with an encyclopedic memory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">It would be too simple to explain Postel's career as nothing but brazen luck. Working as a physician for 17 years, rising to senior consultant in the psychiatric ward in Zschadraß near Leipzig with a professorship and the chief physician post at the Arnsdorf psychiatric hospital near Dresden in prospect, requires clinical conviction – not once, but before colleagues, day after day, for years. Postel taught himself medical knowledge, with an extraordinary memory for the literature, diagnostic criteria and psychiatric terminology, and combined it with near-theatrical precision: the right tone, the right pause, the right piece of jargon at exactly the right moment.</p>
+          <p class="vb-intro">One episode from his time as a supposed public health officer is especially telling: he drew up a psychiatric assessment of an actual psychiatric specialist who had struck him as suspicious – and wrongly certified that doctor as mentally disturbed. Specialists initially judged the assessment competent. This is not a story of stupidity on both sides, but proof of how far pure verbal and performative intelligence can detach itself from genuine expertise when it meets a system that values formal titles over actual scrutiny. His substance lay not in real medical training, but in a rare combination of memory, observation, and the sheer SX8 nerve to stay composed under permanent risk of exposure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Seven-wing: »Doktorspiele« rather than a tragic act of desperation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> shows itself in the lightness with which Postel tells even his most serious deceptions – his own book's title, <em>»Doktorspiele. Geständnisse eines Hochstaplers«</em> (»Doctor Games. Confessions of an Impostor«, 2001), gives this away in its very first word: <em>games</em>, not desperation, not tragedy. Where a more confrontational 8w9 variant would come across as grim and unshakeable, the Seven-wing brings a theatrical, almost childlike playfulness – comparable to the literary impostor Felix Krull, who experiences his own deceptions as an aesthetic pleasure rather than a moral burden.</p>
+          <p class="vb-intro">This lightness is not a late coat of varnish but part of the actual method: an impostor who visibly strains under pressure gets caught. Postel's charming, self-mocking nerve – in interviews he still recounts his deceptions today with audible relish – was exactly the camouflage that let him pass chief-physician interviews under the watchful eyes of colleagues. The Eight supplies the nerve; the Seven supplies the playful façade behind which that nerve stays invisible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The private audience with Pope John Paul II: the one stage bigger than any clinic</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Perhaps the most remarkable moment of his entire career took place far from any hospital: by his own account, on 1 May 1991, arranged through German Jesuits, Postel was received in a <strong>private audience by Pope John Paul II</strong> in Rome. The Pope reportedly spoke German with him, and the conversation concerned matters of faith – Postel's own wish to be installed as Archbishop of Munich and Freising, however, went unfulfilled. There is no independent Vatican confirmation of this meeting; it rests essentially on Postel's own, repeatedly retold account.</p>
+          <p class="vb-intro">From an SX8 perspective, this episode is revealing regardless of its ultimate verifiability: it shows just how consistently the sexual Eight seeks out the largest available stage. Deceiving a clinic in Saxony was one thing – winning an audience with the highest spiritual authority of the Catholic Church would be the ultimate confirmation that no hierarchy, however venerable, is safe from his own presence. Whether real or embellished in the telling, the episode fits seamlessly into the pattern of a man whose actual life's theme was never medicine, but the overcoming of every authority through his own sheer irresistibility.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Eight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX8w7 is a rare combination of <strong>nerve, observational skill, and playful charm</strong> – anyone who can stay composed for seventeen years under permanent risk of exposure possesses a psychological resilience that, put to honest use, would be a genuine strength. Postel's encyclopedic memory and his gift for observation would, deployed differently, have carried him through a regular medical or scientific career.</p>
+          <p class="vb-intro">The shadow lies exactly where the light begins: the intensity he summoned for the one job interview never flowed into the longer, harder path of an actual medical degree – the triumph of the moment mattered more to him than durable, lasting substance. His arrest in 1998 and his 1999 sentencing to four years in prison (a psychiatric assessment diagnosed a narcissistic personality disorder) shows the flip side: where real patients were treated by an unqualified actor, the game stopped being a harmless prank.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The legacy: impostor fraud as a reason to live, not a side effect</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Postel was released early from prison in January 2001 for good behavior and turned his own story into a business model: talks, interviews, the book »Doktorspiele«, which – to the surprise of many – made him something of a cult figure of the anti-psychiatry movement, because his case inadvertently revealed how much psychiatric authority can rest on performance and titles rather than verifiable ability.</p>
+          <p class="vb-intro">From a postal worker in Stuhr near Bremen, through forged medical licenses in several German states, a senior consultant post in Saxon psychiatry with a chief physician position in prospect, to – at least by his own account – a private audience with the Pope: Gert Postel is a case study in how far a sexual Eight with a Seven-wing can go when the one decisive confrontation becomes the actual purpose of a life. Being a doctor was never his goal in itself; the real goal was the repeated proof that he could seize, without permission, any authority that had denied him something.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx8", label:"SX8 – The Crocodile: subtype profile"},
+        {route:"lebensmusterkompass/sx8", label:"Life Pattern Compass: SX8 – Crocodile"},
+        {route:"beruehmte-markus-soeder", label:"Portrait: Markus Söder (SX8w9) – same core intensity, more orderly wing"},
+        {route:"kriminalpsychologie-peter-moore", label:"Portrait: Peter Moore (SX8w7) – same subtype, far darker register"},
+      ])}
+    </div>
+  `);
+}

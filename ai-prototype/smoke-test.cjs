@@ -55,6 +55,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-mette-marit", label: "Neues EN-Porträt: Mette-Marit" },
   { hash: "#krankheitsportraets-mette-marit", label: "Neues Krankheitsporträt: Mette-Marit" },
   { hash: "en/#krankheitsportraets-mette-marit", label: "Neues EN-Krankheitsporträt: Mette-Marit" },
+  { hash: "#beruehmte-gert-postel", label: "Neues Porträt: Gert Postel" },
+  { hash: "en/#beruehmte-gert-postel", label: "Neues EN-Porträt: Gert Postel" },
 ];
 
 function startServer() {

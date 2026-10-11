@@ -2456,3 +2456,75 @@ export function princeRogersNelsonPortraitPage() {
     </div>
   `);
 }
+
+export function gertPostelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gert-postel-portrait.jpg" alt="Gert Postel – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Gert Postel</p>
+        <p class="krim-portrait-typ">SX8w7 · Sexueller Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Hochstapler, geb. 1958 – 17 Jahre lang falscher Arzt, Chefarzt und Amtsarzt – Tierentsprechung: Krokodil</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Krokodil: vom Postboten zum Chefarzt ohne ein einziges echtes Examen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Krokodil</strong> ist das Tier der sexuellen Acht – lauert reglos, bis der Moment stimmt, und schlägt dann mit der ganzen angestauten Kraft zu. Gert Uwe Postel wurde am 18. Juni 1958 in Bremen als einziges Kind eines Kfz-Mechanikers und einer Schneiderin geboren, wuchs in Stuhr bei Bremen auf, holte nach der Hauptschule über die Abendschule die mittlere Reife nach und schloss 1976 eine Ausbildung zum Postboten ab. Bis August 1977 stellte er tatsächlich Briefe zu – eine bürgerlich-unauffällige Biografie, die mit dem, was danach kam, in keinem Verhältnis steht.</p>
+          <p class="vb-intro">Den Bruch markiert er selbst: 1979, kurz nach dem Tod seiner Mutter, sei er »auf die schiefe Bahn geraten«. Zuvor hatte er bereits ein Abiturzeugnis gefälscht, um sich 1977 eine Ausbildungsstelle als Rechtspfleger-Anwärter in Bremen zu erschleichen – ein Plan, der nach wenigen Monaten aufflog. Was folgte, war keine einmalige Verzweiflungstat, sondern über fast zwei Jahrzehnte hinweg ein immer wieder neu aufgelegtes Muster: gefälschte Approbationsurkunden, gefälschte Facharzttitel, gefälschte Zeugnisse – und damit echte Anstellungen als Arzt in mehreren westdeutschen Krankenhäusern, beginnend in Neuenkirchen bei Oldenburg. Als eine Bremer Richterin ihn 1982 wiedererkannte, flog er zum ersten Mal auf. Es sollte nicht das letzte Mal sein, dass ihn ein Wiedererkennen stoppte – nie eine inhaltliche Prüfung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Acht: Macht nicht als System, sondern als die eine durchschlagende Konfrontation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Kern geht es der <strong>Acht</strong> nach Naranjo um Macht und Kontrolle als Schutz gegen das Gefühl, von außen beherrscht und verletzbar zu werden – verbunden mit einem fast reflexhaften Drang, falsche Autorität zu entlarven und sich keiner Hierarchie unterzuordnen, der man die eigene Souveränität nicht zugesteht. Bei Postel richtet sich das nicht gegen Ärzte als Personen, sondern gegen das System der Approbation selbst: das Papier, das jemanden zum Arzt macht, ohne dass es etwas über sein tatsächliches Können aussagt. Jede neue Anstellung war der Beweis, dass dieses System eine hohle Fassade ist – und jedes Mal, wenn er unentdeckt blieb, bestätigte sich diese Überzeugung aufs Neue.</p>
+          <p class="vb-intro">Die <strong>sexuelle Acht (SX8)</strong> unterscheidet sich von den anderen Achter-Subtypen gerade darin, wie eng diese Macht geführt wird: nicht als Kontrolle eines ganzen Territoriums (selbsterhaltende Acht) und nicht als Schutzfunktion für eine Gruppe (soziale Acht), sondern als intensive, fast magnetische Dominanz in der einen entscheidenden Begegnung – dem einen Vorstellungsgespräch, der einen Chefarztvisite, dem einen Gutachtertermin. Postel brauchte kein Imperium. Er brauchte den einen Raum, den einen Moment, in dem seine Präsenz unwiderstehlich genug war, dass niemand nachfragte. Genau dafür spricht, dass es ihm nie um materielle Sicherheit ging – er lebte nach eigenen Angaben zeitweise in prekären Verhältnissen –, sondern um die reine Intensität des Gelingens selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die Substanz: kein Dilettant, sondern ein hochbegabter Selbstlerner mit enzyklopädischem Gedächtnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Es wäre zu einfach, Postels Karriere allein als dreistes Glück zu erklären. Wer über 17 Jahre als Arzt arbeitet, zuletzt als Oberarzt der Psychiatrie in Zschadraß bei Leipzig und mit Aussicht auf eine Professur sowie die Chefarztstelle der Psychiatrie in Arnsdorf bei Dresden, muss klinisch überzeugen – nicht nur einmal, sondern vor Fachkollegen, Tag für Tag, über Jahre. Postel eignete sich medizinisches Wissen autodidaktisch an, mit einem außergewöhnlichen Gedächtnis für Fachliteratur, Diagnosekriterien und psychiatrische Terminologie, und kombinierte das mit schauspielerischer Präzision: der richtige Tonfall, die richtige Pause, die richtige Fachfloskel im richtigen Moment.</p>
+          <p class="vb-intro">Besonders bezeichnend ist ein Vorfall aus seiner Zeit als vermeintlicher Amtsarzt: Er erstellte ein psychiatrisches Gutachten über einen echten Facharzt für Psychiatrie, der ihm verdächtig vorgekommen war – und bescheinigte diesem fälschlich eine psychische Störung. Das Gutachten wurde von Fachleuten zunächst als kompetent eingestuft. Das ist keine Geschichte von Dummheit auf beiden Seiten, sondern der Beweis, wie weit sich reine verbale und mimische Intelligenz von echter fachlicher Substanz emanzipieren kann, wenn sie auf ein System trifft, das formale Titel wichtiger nimmt als tatsächliche Prüfung. Die Substanz lag nicht in echtem medizinischem Fachwissen aus einem Studium, sondern in einer seltenen Kombination aus Gedächtnis, Beobachtungsgabe und der eisernen SX8-Nervenstärke, unter permanentem Entdeckungsrisiko souverän zu bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Siebenerflügel: »Doktorspiele« statt tragischer Verzweiflungstat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> zeigt sich bei Postel in der Leichtigkeit, mit der er selbst seine gravierendsten Täuschungen erzählt – sein eigener Buchtitel, <em>»Doktorspiele. Geständnisse eines Hochstaplers«</em> (2001), verrät diese Haltung bereits im ersten Wort: <em>Spiele</em>, nicht Verzweiflung, nicht Tragödie. Wo eine konfrontativere 8w9-Variante eher grimmig und unerschütterlich wirken würde, bringt der Siebenerflügel eine theatralische, fast kindliche Verspieltheit mit – vergleichbar mit dem literarischen Hochstapler Felix Krull, der sein eigenes Täuschen als ästhetisches Vergnügen und nicht als moralische Last erlebt.</p>
+          <p class="vb-intro">Diese Leichtigkeit ist kein nachträglicher Lack, sondern Teil der eigentlichen Masche: Ein Hochstapler, der sichtbar unter Druck steht, fällt auf. Postels charmante, selbstironische Chuzpe – in Interviews erzählt er seine Täuschungen bis heute mit hörbarem Vergnügen – war genau die Tarnung, die es ihm erlaubte, unter den wachsamen Augen von Fachkollegen Chefarztgespräche zu bestehen. Die Acht liefert die Nervenstärke, die Sieben liefert die spielerische Fassade, hinter der diese Nervenstärke unsichtbar bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Privataudienz bei Papst Johannes Paul II.: die eine Bühne, die größer war als jede Klinik</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der womöglich denkwürdigste Moment seiner gesamten Karriere ereignete sich fernab jeder Klinik: Nach eigener Darstellung wurde Postel am 1. Mai 1991, vermittelt über deutsche Jesuiten, zu einer <strong>Privataudienz bei Papst Johannes Paul II.</strong> in Rom empfangen. Der Papst habe mit ihm auf Deutsch gesprochen, es sei um Glaubensfragen gegangen – Postels eigener Wunsch, als Erzbischof von München und Freising eingesetzt zu werden, blieb freilich unerfüllt. Eine unabhängige vatikanische Bestätigung dieser Begegnung gibt es nicht; sie stützt sich im Wesentlichen auf Postels eigene, wiederholt öffentlich wiedergegebene Darstellung.</p>
+          <p class="vb-intro">Aus SX8-Perspektive ist gerade diese Episode aufschlussreich, unabhängig von ihrer letzten Beweisbarkeit: Sie zeigt, wie konsequent sich die sexuelle Acht die jeweils größte verfügbare Bühne sucht. Eine Klinik in Sachsen zu täuschen war eine Sache – die höchste geistliche Autorität der katholischen Kirche als Gesprächspartner zu gewinnen, wäre die ultimative Bestätigung, dass keine Hierarchie, keine noch so ehrwürdige Institution, vor der eigenen Präsenz sicher ist. Ob real oder in Teilen überhöht erzählt: Die Episode fügt sich bruchlos in das Muster eines Menschen, dessen eigentliches Lebensthema nicht Medizin, sondern die Überwindung jeder Autorität durch die eigene Unwiderstehlichkeit war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Acht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX8w7 ist eine seltene Verbindung aus <strong>Nervenstärke, Beobachtungsgabe und spielerischem Charme</strong> – wer siebzehn Jahre unter permanentem Entdeckungsrisiko souverän auftritt, verfügt über eine psychische Belastbarkeit, die in jedem redlichen Beruf eine Stärke wäre. Postels enzyklopädisches Gedächtnis und seine Beobachtungsgabe hätten, anders eingesetzt, für eine reguläre medizinische oder wissenschaftliche Laufbahn gereicht.</p>
+          <p class="vb-intro">Der Schatten liegt genau dort, wo das Licht ansetzt: Die Intensität, die er für das eine Vorstellungsgespräch aufbrachte, floss nie in den langen, mühsameren Weg eines echten Studiums – der Triumph des Moments war ihm wichtiger als die tragfähige, auf Dauer angelegte Substanz. Dass er 1998 verhaftet und 1999 zu vier Jahren Haft verurteilt wurde (ein psychiatrisches Gutachten diagnostizierte eine narzisstische Persönlichkeitsstörung), zeigt die Kehrseite: Wo echte Patienten von einem ungeprüften Akteur behandelt wurden, hörte das Spiel auf, ein harmloser Scherz zu sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Vermächtnis: Hochstapelei als Lebenssinn, nicht als Nebenprodukt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Postel wurde im Januar 2001 wegen guter Führung vorzeitig aus der Haft entlassen und machte aus seiner Geschichte selbst ein Geschäftsmodell: Vorträge, Interviews, das Buch »Doktorspiele«, das ihn – zur Verblüffung vieler – zu einer Art Kultfigur der Antipsychiatrie-Bewegung machte, weil sein Fall ungewollt offenlegte, wie stark psychiatrische Autorität auf Performance und Titel statt auf überprüfbarem Können beruhen kann.</p>
+          <p class="vb-intro">Vom Postboten aus Stuhr bei Bremen über gefälschte Approbationen in mehreren Bundesländern, eine Oberarztstelle in der sächsischen Psychiatrie mit Aussicht auf eine Chefarztposition, bis zur – zumindest nach eigener Darstellung – Privataudienz beim Papst: Gert Postel ist ein Lehrstück dafür, wie weit eine sexuelle Acht mit Siebenerflügel gehen kann, wenn die eine durchschlagende Konfrontation zum eigentlichen Lebenssinn wird. Nicht das Arztsein selbst war sein Ziel, sondern der immer wiederholte Beweis, dass er jede Autorität, die ihm etwas verweigerte, auch ohne deren Erlaubnis für sich erobern konnte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx8", label:"Lebensmusterkompass: SX8 – Krokodil"},
+        {route:"beruehmte-markus-soeder", label:"Porträt: Markus Söder (SX8w9) – dieselbe Grundintensität, geordneterer Flügel"},
+        {route:"kriminalpsychologie-peter-moore", label:"Porträt: Peter Moore (SX8w7) – derselbe Subtyp, weit düstereres Register"},
+      ])}
+    </div>
+  `);
+}
