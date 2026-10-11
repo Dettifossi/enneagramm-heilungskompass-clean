@@ -2522,7 +2522,7 @@ export function gertPostelPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
         {route:"lebensmusterkompass/sx8", label:"Lebensmusterkompass: SX8 – Krokodil"},
-        {route:"beruehmte-markus-soeder", label:"Porträt: Markus Söder (SX8w9) – dieselbe Grundintensität, geordneterer Flügel"},
+        {route:"beruehmte-markus-soeder", label:"Porträt: Markus Söder (SX8w9) – dieselbe Grundintensität, Neunerflügel statt Siebenerflügel"},
         {route:"kriminalpsychologie-peter-moore", label:"Porträt: Peter Moore (SX8w7) – derselbe Subtyp, weit düstereres Register"},
       ])}
     </div>

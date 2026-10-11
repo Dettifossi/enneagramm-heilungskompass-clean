@@ -2489,7 +2489,7 @@ export function gertPostelPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx8", label:"SX8 – The Crocodile: subtype profile"},
         {route:"lebensmusterkompass/sx8", label:"Life Pattern Compass: SX8 – Crocodile"},
-        {route:"beruehmte-markus-soeder", label:"Portrait: Markus Söder (SX8w9) – same core intensity, more orderly wing"},
+        {route:"beruehmte-markus-soeder", label:"Portrait: Markus Söder (SX8w9) – same core intensity, Nine-wing instead of Seven-wing"},
         {route:"kriminalpsychologie-peter-moore", label:"Portrait: Peter Moore (SX8w7) – same subtype, far darker register"},
       ])}
     </div>
