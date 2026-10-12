@@ -3180,3 +3180,137 @@ export function carolineWozniackiPortraitPage() {
     </div>
   `);
 }
+
+export function kennerlyKittPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-kennerly-kitt-portrait.jpg" alt="Kennerly Kitt – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-kennerly-kitt-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Kennerly Kitt</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Selbsterhaltender Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Harfenistin, eine Hälfte der ›Harp Twins‹, aus Illinois &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler, der den Aufwind liest</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein Adler schlägt nur selten mit den Flügeln. Er kreist stundenlang in der aufsteigenden Warmluft, liest die Luft und spart Kraft für den Moment, in dem sie gebraucht wird. Seine Genauigkeit liegt nicht im hektischen Handeln, sondern im Wissen, wann und wie viel Aufwand nötig ist.</p>
+          <p class="vb-intro">Kennerly Caye Kitt ist die eineiige Zwillingsschwester von Camille Kitt, mit der sie als ›Harp Twins‹ (›Harfen-Zwillinge‹) auftritt, vor allem bekannt über YouTube. Die beiden stammen aus Illinois, haben norwegische, schwedische und finnische Vorfahren und begannen als Kinder mit Klavier. In der Mittelstufe wechselten sie zur Harfe, das erste gebrauchte Instrument bezahlten sie mit Babysitten, Hundeausführen und Büroarbeit. Heute spielen sie Rock- und Metal-Bearbeitungen, Film- und Spielemusik und Eigenkompositionen auf Pedal- und E-Harfen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: der eigene Maßstab</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Eins (SE1)</strong> richtet ihren Perfektionismus nach innen: auf die eigene Vorbereitung, Sorgfalt und die Frage, ob die Arbeit stimmt. Die Laufbahn der beiden zeigt diese Haltung. Kennerly und Camille hielten in den letzten beiden Schuljahren, parallel zu einem Musikstudienprogramm an einem örtlichen College, eine Durchschnittsnote von 4,0, schlossen das Wheaton College Conservatory of Music mit einem Bachelor in Harfe ›Summa cum laude‹ (mit höchster Auszeichnung) ab und qualifizierten sich als Schwimmerinnen fünfmal für die Junior Olympics. Dazu kommen der dritte Dan im Taekwondo und die Tätigkeit als Instruktorinnen. Kennerly brach sich dabei zwei Finger, und beide gaben den Kampfsport danach auf.</p>
+          <p class="vb-intro">Auch in der Musik zeigt sich der innere Maßstab. In einem Porträt in ›Celtic Life International‹ sagt Kennerly, sie widmeten heute weit mehr Zeit und Energie dem Schreiben eigener Musik als Coverliedern, denn dort liege ihre wahre Leidenschaft. Wer von Bearbeitungen bekannter Songs zu eigenen Stücken wechselt, misst sich nicht mehr am Applaus für Bekanntes, sondern an dem, was er selbst für richtig hält. Im Auftritt fällt auf, dass sie häufig den Zeigefinger einsetzt, um zu betonen oder zu erklären, und insgesamt erdig, bestimmt und körperlich präsent wirkt, wie ein Bauchtyp.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Zuwendung und Verbindung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der strengen Haltung der Eins Wärme und Zuwendung. Bei Kennerly zeigt sich das in der Art, wie sie über Beziehung spricht. Zur Partnerwahl sagt sie, man fühle sich eben natürlich zu einem Menschen und seiner Seele hingezogen. Sie heiratete am 22. Februar 2022 Dromal Volfgang, den Zwillingsbruder von Camilles Ehemann Dromil, und nannte den Schritt und die jahrelange Geheimhaltung ›genau das, was wir wollten‹. Beide Paare sind nach ihren Worten ›alle beste Freunde‹.</p>
+          <p class="vb-intro">Dazu passt die Gemeinschaftsarbeit: Die Videos der beiden waren nach einer früheren Angabe komplett selbst gemacht, ein Familienmitglied führte die Kamera. Die Ehemänner, die Volfgang Twins, waren zunächst Fans, wurden Sicherheitsleute und spielen inzwischen Schlagzeug, 2025 erschien mit ihnen das gemeinsame Album ›Ice Storm‹. Mit der Autorin Debbie Viguié entstand die Romanreihe samt Album ›Twin Destinies‹ (›Zwillingsschicksale‹). Zuwendung heißt hier, Menschen einzubinden und gemeinsam etwas aufzubauen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: zwei Harfen, ein Klangbild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wer die ›Harp Twins‹ nur als Internet-Kuriosität sieht, übersieht das Handwerk. Ihre Stärke liegt in Duett-Bearbeitungen, die zwei Harfen wie ein Rockensemble klingen lassen: Songs von Iron Maiden, Metallica, Pink Floyd oder Rihanna, dazu Musik aus Videospielen, Filmen und Serien. Sie spielen Venus-Pedalharfen und elektrische Lyon-&amp;-Healy-Hebelharfen. Ihre erste Einzelveröffentlichung stammt vom 28. Juni 2012, ›Harp Attack‹ erschien 2013, bis 2026 folgten rund fünfzehn Alben, die sie nach eigenen Angaben selbst produzieren, darunter vier mit ausschließlich eigener Musik.</p>
+          <p class="vb-intro">Die Reichweite ist beachtlich: Nach den Angaben auf ihrer Seite haben sie mehr als 2,5 Millionen Fans in sozialen Medien und über 160 Millionen Aufrufe bei YouTube. Sie vertraten die USA bei vier Weltharfenfestivals, traten im PBS-Special ›Celtic Heart‹ (2020) auf und gingen 2024 auf eine Headliner-Tournee durch 20 Städte in elf Ländern. Das ist die Substanz hinter dem Format: Disziplin, Notenkenntnis und jahrelange Probenarbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verbindung aus Genauigkeit und Zuwendung: Kennerly verlangt Qualität und gibt zugleich viel von sich in die Gemeinschaft, die um das Duo entstanden ist. Dass sie den Schritt von Coverliedern zu Eigenkompositionen gegangen ist, zeigt, dass der Maßstab ihr wichtiger ist als der leichte Erfolg.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Eins neigt dazu, Ärger und Unzufriedenheit zu beherrschen, statt sie auszusprechen, und der Zweierflügel kann sich dabei in Dienstbereitschaft für andere verstecken. Dass die beiden Schwestern nach eigenen Worten kaum je widersprechen, lässt sich mit dieser Selbstbeherrschung in Verbindung bringen, ebenso wie die vier Jahre, in denen sie ihre Hochzeit für sich behielten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Gleiche Gene, verschiedene Typen: Kennerly und Camille</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zum Verständnis von Kennerly gehört ihre Schwester <a href="javascript:void(0)" data-route="beruehmte-camille-kitt">Camille Kitt</a> (SE4w3). Die beiden sind eineiig, haben dieselbe Ausbildung, denselben Abschluss, dieselben Auftritte und heirateten Zwillingsbrüder. Öffentliche Quellen unterscheiden sie fast nie: Interviews werden gemeinsam beantwortet, und selbst Berichte räumen ein, man könne sie kaum auseinanderhalten. Die Unterschiede zwischen den beiden Typen liegen daher weniger in getrennten Lebensläufen als im Wesen, im Auftreten, in Blick, Stimme und Gestik.</p>
+          <p class="vb-intro">Im Enneagramm-Symbol sind Eins und Vier durch eine Linie verbunden: Die Eins geht unter Druck in Richtung Vier, die Vier findet in der Eins Struktur und Klarheit. Das erklärt, warum sich beide Schwestern ergänzen. Kennerly bringt als Eins Maßstab, Ordnung und Bestimmtheit, Camille als Vier die Stimmung und die Tiefe, und gemeinsam entsteht, was die Harp Twins ausmacht. Zu den wenigen dokumentierten Einzelheiten zählt, dass sich Kennerly beim Taekwondo zwei Finger brach, während Camille eine Stichverletzung genäht werden musste.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-camille-kitt", label:"Porträt: Camille Kitt (SE4w3) – ihre eineiige Zwillingsschwester"},
+        {route:"beruehmte-marie-kondo", label:"Porträt: Marie Kondo (SE1w2) – derselbe Subtyp mit demselben Flügel"},
+        {route:"beruehmte-johannes-gutenberg", label:"Porträt: Johannes Gutenberg (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+export function camilleKittPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-camille-kitt-portrait.jpg" alt="Camille Kitt – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-camille-kitt-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Camille Kitt</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Harfenistin, eine Hälfte der ›Harp Twins‹, aus Illinois &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die aus dem Eigenen nährt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tauben füttern ihre Jungen mit einer Milch, die sie in ihrem eigenen Körper herstellen, im Kropf, und zwar beide Elternteile. Die Nahrung kommt aus dem Innern und wird weitergegeben. Es ist ein zartes Bild für ein Tier, das im Gurren leise klingt und doch weite Strecken zurücklegt.</p>
+          <p class="vb-intro">Camille Karie Kitt ist die eineiige Zwillingsschwester von Kennerly Kitt und spielt mit ihr als ›Harp Twins‹ (›Harfen-Zwillinge‹) Rock-, Metal- und Fantasy-Musik auf Harfen. Sie stammt wie ihre Schwester aus Illinois, mit norwegischen, schwedischen und finnischen Vorfahren, und begann als Kind am Klavier, ehe sie in der Mittelstufe zur Harfe wechselte. Bekannt wurden die beiden über YouTube, wo ihre Videos nach Angaben ihrer Seite über 160 Millionen Mal angesehen wurden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Zähigkeit im Stillen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist der Kontratyp der Vier: Sie macht ihr Innenleben nicht zur Schau, sondern trägt es still. Naranjo nannte diesen Subtyp ›Zähigkeit‹ (im Original ›tenacity‹). Bei Camille zeigt sich das an der Ausdauer hinter dem Erfolg: Das erste gebrauchte Instrument bezahlte sie mit Babysitten, Hundeausführen und Büroarbeit, sie qualifizierte sich als Schwimmerin fünfmal für die Junior Olympics und begann, Rock auf einem Instrument zu spielen, das dafür kaum bekannt war.</p>
+          <p class="vb-intro">Das Innenleben bleibt dabei geschützt. Camille, die Dromil Volfgang heiratete, beschrieb die erste Begegnung mit den Brüdern als einen jener Momente, in denen man es einfach weiß. Die Hochzeit vom 22. Februar 2022 behielten die beiden Paare vier Jahre lang für sich und machten sie erst am 22. Februar 2026 öffentlich. Wer so viel Privates zurückhält, trägt es zunächst allein. Hinzu kommt das Gefühl, anders zu sein: Camille sagte in einem Interview, die meisten ihrer Zuschauer seien keine Harfenfans und reagierten oft mit dem Satz ›Wow, das ist anders‹. Im Auftritt wirkt sie als Herztyp, in einem Wesen, das sich von dem der Schwester deutlich unterscheidet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Wirkung nach außen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Vier den Zug, das Innere sichtbar und erfolgreich zu machen. Bei Camille ist das die professionelle Gestaltung der Auftritte: selbst produzierte Videos, Rollen in Filmen und Serien wie ›Delivery Man‹ und der Serie ›The Walking Dead‹, eine Headliner-Tournee durch 20 Städte in elf Ländern und über 2,5 Millionen Fans in sozialen Medien. Die Tiefe der Vier braucht ein Gefäß, und der Dreierflügel liefert es.</p>
+          <p class="vb-intro">Dass beide Schwestern dabei dieselben Credits teilen, ändert den Befund nicht: Bei Camille steht die Wirkung im Dienst einer Stimmung, bei den Titeln ihrer Alben zeigt sich die Atmosphäre. ›Winter Lights‹, ›Iceborn‹, ›Ice Storm‹ und ›Nordic Nights‹ führen in eine kalte, klare, nordische Klangwelt, die zu ihren skandinavischen und finnischen Wurzeln passt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Stimmung als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was die Harp Twins ausmacht, ist mehr als ein Internet-Effekt. Sie schreiben und arrangieren Duette für zwei Harfen, spielen Venus-Pedalharfen und elektrische Lyon-&amp;-Healy-Hebelharfen und haben über 15 Alben selbst produziert, vier davon nur mit eigener Musik. Das Album ›Iceborn‹ (2020) dient als Soundtrack zum Comic ›Legend of the Shaders‹, mit der Autorin Debbie Viguié entstand die Romanreihe samt Album ›Twin Destinies‹.</p>
+          <p class="vb-intro">Zu den Stationen zählen die Teilnahme an vier Weltharfenfestivals für die USA, der Auftritt im PBS-Special ›Celtic Heart‹ und 2025 das gemeinsame Album ›Ice Storm‹ mit den Volfgang Twins, ihren Ehemännern. Die Substanz liegt in der Verbindung von klassischer Ausbildung, Summa cum laude am Wheaton College, und der Lust, mit dieser Ausbildung Rock und Fantasy zu spielen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Vier mit Dreierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verbindung von Gefühl und Handwerk: Camille macht aus einer Stimmung Musik, die Millionen erreicht, ohne das Innere auszustellen. Die Eigenart, ›anders‹ zu sein, wurde bei ihr nicht zur Pose, sondern zum Alleinstellungsmerkmal eines Instruments, das mit Rock nicht verbunden wurde.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Vier trägt ihren Schmerz oder ihr Anderssein oft allein, und der Dreierflügel kann daraus Leistung machen, die den Wert an Zahlen misst, an Aufrufen und Fans. Dass die Hochzeit vier Jahre lang geheim blieb, lässt sich mit dem Wunsch der Vier in Verbindung bringen, einen geschützten Raum zu behalten, auch wenn sie im Rampenlicht steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Gleiche Gene, verschiedene Typen: Camille und Kennerly</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Zu Camille gehört ihre Schwester <a href="javascript:void(0)" data-route="beruehmte-kennerly-kitt">Kennerly Kitt</a> (SE1w2). Die beiden sind eineiig, haben dieselbe Ausbildung und denselben Abschluss, spielen im Duo und heirateten Zwillingsbrüder. Öffentliche Quellen trennen sie kaum: Interviews werden gemeinsam beantwortet. Die Unterschiede liegen deshalb weniger im Lebenslauf als im Wesen: Camille wirkt als Herztyp, im Auftritt weicher und stimmungsgeleitet, Kennerly wirkt als Bauchtyp, erdiger und bestimmter, und setzt gern den Zeigefinger ein.</p>
+          <p class="vb-intro">Im Enneagramm-Symbol sind Eins und Vier durch eine Linie verbunden: Die Eins geht unter Druck in Richtung Vier, die Vier findet in der Eins Struktur. Genau diese Spannung trägt das Duo: Die Vier gibt der Musik Stimmung und Tiefe, die Eins Maßstab und Klarheit. Zu den wenigen dokumentierten Einzelheiten zählt, dass Camille beim Taekwondo eine Stichverletzung genäht werden musste, während sich Kennerly zwei Finger brach.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
+        {route:"beruehmte-kennerly-kitt", label:"Porträt: Kennerly Kitt (SE1w2) – ihre eineiige Zwillingsschwester"},
+        {route:"beruehmte-enya", label:"Porträt: Enya (SE4w3) – derselbe Subtyp mit demselben Flügel"},
+        {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
+      ])}
+    </div>
+  `);
+}

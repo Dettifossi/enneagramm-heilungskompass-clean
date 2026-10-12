@@ -514,6 +514,7 @@ export function enyaPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-camille-kitt", label:"Porträt: Camille Kitt (SE4w3) – derselbe Subtyp mit demselben Flügel"},
         {route:"beruehmte-peter-gabriel", label:"Porträt: Peter Gabriel (SE4w3)"},
         {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
         {route:"beruehmte-june-carter-cash", label:"Porträt: June Carter Cash (SE4w3)"},

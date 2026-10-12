@@ -3175,3 +3175,137 @@ export function carolineWozniackiPortraitPage() {
     </div>
   `);
 }
+
+export function kennerlyKittPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-kennerly-kitt-portrait.jpg" alt="Kennerly Kitt – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-kennerly-kitt-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Kennerly Kitt</p>
+        <p class="krim-portrait-typ">SE1w2 &middot; Self-Preservation Type 1 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">Harpist, one half of the &lsquo;Harp Twins&rsquo;, from Illinois &ndash; Animal match: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle That Reads the Updraft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">An eagle rarely flaps its wings. It circles for hours in the rising warm air, reads the air and saves its strength for the moment it is needed. Its precision lies not in hectic action but in knowing when and how much effort is required.</p>
+          <p class="vb-intro">Kennerly Caye Kitt is the identical twin sister of Camille Kitt, with whom she performs as the &lsquo;Harp Twins&rsquo;, best known through YouTube. The two come from Illinois, have Norwegian, Swedish and Finnish ancestry and began as children on piano. In middle school they switched to the harp, paying for the first used instrument with babysitting, dog-walking and office work. Today they play rock and metal arrangements, film and game music and original compositions on pedal and electric harps.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation One: One's Own Standard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation One (SE1)</strong> directs its perfectionism inward: toward its own preparation, care and the question of whether the work is right. The twins' path shows this stance. In their last two school years, alongside a music studies programme at a local college, Kennerly and Camille held a 4.0 grade average, graduated summa cum laude from the Wheaton College Conservatory of Music with a Bachelor in harp performance, and qualified for the Junior Olympics five times as swimmers. Added to this are third-degree black belts in Taekwondo and work as instructors. Kennerly broke two fingers in the process, and both gave up the martial art afterwards.</p>
+          <p class="vb-intro">The inner standard shows in the music too. In a profile in &lsquo;Celtic Life International&rsquo;, Kennerly says they now devote far more time and energy to writing original music than to cover songs, because that is where their true passion lies. Whoever moves from arrangements of known songs to pieces of their own no longer measures themselves by applause for the familiar but by what they themselves consider right. In performance it is noticeable that she often uses her index finger to emphasise or explain, and altogether comes across as earthy, determined and physically present, like a gut type.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Care and Connection</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the One's strict stance warmth and care. In Kennerly this shows in how she talks about relationships. On choosing a partner she says one simply gravitates naturally toward someone and their soul. On 22 February 2022 she married Dromal Volfgang, twin brother of Camille's husband Dromil, and called the step and the years of secrecy &lsquo;exactly what we wanted&rsquo;. Both couples are, in their words, &lsquo;all best friends&rsquo;.</p>
+          <p class="vb-intro">The collaborative work fits this: according to an earlier statement the sisters' videos were completely self-made, with a family member operating the camera. Their husbands, the Volfgang Twins, were first fans, became their security and now play drums; in 2025 the joint album &lsquo;Ice Storm&rsquo; appeared with them. With the author Debbie Viguié came the novel series with album &lsquo;Twin Destinies&rsquo;. Care here means bringing people in and building something together.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Two Harps, One Sound</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Whoever sees the &lsquo;Harp Twins&rsquo; only as an internet curiosity overlooks the craft. Their strength lies in duet arrangements that make two harps sound like a rock ensemble: songs by Iron Maiden, Metallica, Pink Floyd or Rihanna, plus music from video games, films and series. They play Venus pedal harps and electric Lyon &amp; Healy lever harps. Their first single release dates from 28 June 2012, &lsquo;Harp Attack&rsquo; appeared in 2013, and by 2026 around fifteen albums followed, which by their own account they produce themselves, including four with entirely original music.</p>
+          <p class="vb-intro">The reach is considerable: according to their site they have more than 2.5 million fans on social media and over 160 million YouTube views. They represented the USA at four World Harp Festivals, appeared in the PBS special &lsquo;Celtic Heart&rsquo; (2020) and in 2024 went on a headline tour of 20 cities in eleven countries. That is the substance behind the format: discipline, musicianship and years of rehearsal work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation One with a Two-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the combination of precision and care: Kennerly demands quality and at the same time gives a great deal of herself into the community that has formed around the duo. That she took the step from cover songs to original compositions shows that the standard matters more to her than easy success.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. The One tends to control anger and dissatisfaction rather than voice them, and the Two-wing can hide in readiness to serve others. That the sisters, by their own account, almost never contradict each other can be linked to this self-control, as can the four years in which they kept their wedding to themselves.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Same Genes, Different Types: Kennerly and Camille</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Understanding Kennerly includes her sister <a href="javascript:void(0)" data-route="beruehmte-camille-kitt">Camille Kitt</a> (SE4w3). The two are identical, have the same training, the same degree and the same appearances, and married twin brothers. Public sources hardly ever tell them apart: interviews are answered jointly, and even reports admit that one can barely distinguish them. The differences between the two types therefore lie less in separate life stories than in temperament, in manner, in gaze, voice and gesture.</p>
+          <p class="vb-intro">In the Enneagram symbol, One and Four are joined by a line: the One moves toward Four under pressure, the Four finds structure and clarity in the One. That explains why the two sisters complement each other. As a One, Kennerly brings standard, order and decisiveness, Camille as a Four the mood and depth, and together arises what makes the Harp Twins. Among the few documented individual details is that Kennerly broke two fingers in Taekwondo, while Camille needed a puncture wound stitched.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Eagle"},
+        {route:"beruehmte-camille-kitt", label:"Portrait: Camille Kitt (SE4w3) – her identical twin sister"},
+        {route:"beruehmte-marie-kondo", label:"Portrait: Marie Kondo (SE1w2) – same subtype with the same wing"},
+        {route:"beruehmte-johannes-gutenberg", label:"Portrait: Johannes Gutenberg (SE1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+export function camilleKittPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-camille-kitt-portrait.jpg" alt="Camille Kitt – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-camille-kitt-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Camille Kitt</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Self-Preservation Type 4 with a Three-Wing</p>
+        <p class="krim-portrait-subtitle">Harpist, one half of the &lsquo;Harp Twins&rsquo;, from Illinois &ndash; Animal match: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove That Feeds from Its Own Body</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Doves feed their young with a milk they produce in their own body, in the crop, and both parents do so. The food comes from within and is passed on. It is a tender image for an animal that sounds soft in its cooing and yet covers long distances.</p>
+          <p class="vb-intro">Camille Karie Kitt is the identical twin sister of Kennerly Kitt and plays rock, metal and fantasy music on harps with her as the &lsquo;Harp Twins&rsquo;. Like her sister she comes from Illinois, with Norwegian, Swedish and Finnish ancestry, and began as a child on piano before switching to the harp in middle school. The two became known through YouTube, where according to their site their videos have been watched over 160 million times.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: Tenacity in Quiet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Four (SE4)</strong> is the counter-type of the Four: it does not put its inner life on display but carries it quietly. Naranjo called this subtype &lsquo;Tenacity&rsquo;. In Camille this shows in the endurance behind the success: she paid for her first used instrument with babysitting, dog-walking and office work, qualified for the Junior Olympics five times as a swimmer, and began playing rock on an instrument little known for it.</p>
+          <p class="vb-intro">The inner life stays protected. Camille, who married Dromil Volfgang, described the first meeting with the brothers as one of those moments when you simply know. The two couples kept the wedding of 22 February 2022 to themselves for four years and made it public only on 22 February 2026. Whoever holds back so much that is private carries it alone at first. Added to this is the feeling of being different: Camille said in an interview that most of her viewers are not harp fans and often react with the sentence &lsquo;Wow, this is different&rsquo;. In performance she comes across as a heart type, in a temperament that clearly differs from her sister's.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Effect Outward</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Self-Preservation Four the drive to make the inner visible and successful. In Camille this is the professional shaping of the appearances: self-produced videos, roles in films and series such as &lsquo;Delivery Man&rsquo; and the series &lsquo;The Walking Dead&rsquo;, a headline tour of 20 cities in eleven countries and over 2.5 million fans on social media. The Four's depth needs a vessel, and the Three-wing supplies it.</p>
+          <p class="vb-intro">That both sisters share the same credits does not change the finding: in Camille the effect serves a mood, and the atmosphere shows in the titles of their albums. &lsquo;Winter Lights&rsquo;, &lsquo;Iceborn&rsquo;, &lsquo;Ice Storm&rsquo; and &lsquo;Nordic Nights&rsquo; lead into a cold, clear, Nordic sound world that fits their Scandinavian and Finnish roots.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Mood as a Craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What makes the Harp Twins is more than an internet effect. They write and arrange duets for two harps, play Venus pedal harps and electric Lyon &amp; Healy lever harps and have self-produced over 15 albums, four of them with only original music. The album &lsquo;Iceborn&rsquo; (2020) serves as the soundtrack to the comic &lsquo;Legend of the Shaders&rsquo;, and with the author Debbie Viguié came the novel series with album &lsquo;Twin Destinies&rsquo;.</p>
+          <p class="vb-intro">Among the milestones are representing the USA at four World Harp Festivals, the appearance in the PBS special &lsquo;Celtic Heart&rsquo; and, in 2025, the joint album &lsquo;Ice Storm&rsquo; with the Volfgang Twins, their husbands. The substance lies in combining classical training, summa cum laude at Wheaton College, with the desire to play rock and fantasy with that training.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Four with a Three-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the union of feeling and craft: Camille turns a mood into music that reaches millions without putting her inner life on display. The trait of being &lsquo;different&rsquo; did not become a pose in her but the unique selling point of an instrument not associated with rock.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. The Four often carries her pain or her otherness alone, and the Three-wing can turn this into achievement that measures worth in numbers, in views and fans. That the wedding stayed secret for four years can be linked to the Four's wish to keep a protected space, even when standing in the spotlight.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Same Genes, Different Types: Camille and Kennerly</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Camille's sister <a href="javascript:void(0)" data-route="beruehmte-kennerly-kitt">Kennerly Kitt</a> (SE1w2) belongs to her portrait. The two are identical, have the same training and the same degree, play as a duo and married twin brothers. Public sources hardly separate them: interviews are answered jointly. The differences therefore lie less in the life story than in temperament: Camille comes across as a heart type, softer in performance and guided by mood; Kennerly comes across as a gut type, earthier and more determined, and likes to use her index finger.</p>
+          <p class="vb-intro">In the Enneagram symbol, One and Four are joined by a line: the One moves toward Four under pressure, the Four finds structure in the One. This very tension carries the duo: the Four gives the music mood and depth, the One standard and clarity. Among the few documented individual details is that Camille needed a puncture wound stitched in Taekwondo, while Kennerly broke two fingers.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SE4 – Dove"},
+        {route:"beruehmte-kennerly-kitt", label:"Portrait: Kennerly Kitt (SE1w2) – her identical twin sister"},
+        {route:"beruehmte-enya", label:"Portrait: Enya (SE4w3) – same subtype with the same wing"},
+        {route:"beruehmte-adele", label:"Portrait: Adele (SE4w3)"},
+      ])}
+    </div>
+  `);
+}

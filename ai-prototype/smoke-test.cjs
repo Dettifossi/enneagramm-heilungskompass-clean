@@ -79,6 +79,10 @@ const ROUTES = [
   { hash: "en/#beruehmte-ruby-true", label: "Neues EN-Porträt: Ruby True" },
   { hash: "#beruehmte-caroline-wozniacki", label: "Neues Porträt: Caroline Wozniacki" },
   { hash: "en/#beruehmte-caroline-wozniacki", label: "Neues EN-Porträt: Caroline Wozniacki" },
+  { hash: "#beruehmte-kennerly-kitt", label: "Neues Porträt: Kennerly Kitt" },
+  { hash: "en/#beruehmte-kennerly-kitt", label: "Neues EN-Porträt: Kennerly Kitt" },
+  { hash: "#beruehmte-camille-kitt", label: "Neues Porträt: Camille Kitt" },
+  { hash: "en/#beruehmte-camille-kitt", label: "Neues EN-Porträt: Camille Kitt" },
 ];
 
 function startServer() {

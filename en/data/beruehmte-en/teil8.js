@@ -445,6 +445,7 @@ export function enyaPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-camille-kitt", label:"Portrait: Camille Kitt (SE4w3) – same subtype with the same wing"},
         {route:"beruehmte-peter-gabriel", label:"Portrait: Peter Gabriel (SP4w3)"},
         {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
         {route:"beruehmte-june-carter-cash", label:"Portrait: June Carter Cash (SP4w3)"},
