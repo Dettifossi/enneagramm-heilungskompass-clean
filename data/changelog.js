@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2485", date: "2026-10-12", text: "Neues Porträt: Sean Sherman (SE2w1) – Koch und Gründer von Owamni, indigene Küche.", text_en: "New portrait: Sean Sherman (SE2w1) – chef and founder of Owamni, Indigenous cuisine.", route: "beruehmte-sean-sherman" },
     { version: "v2484", date: "2026-10-11", text: "Neues Porträt: Philippe Sands (SO7w6) – Völkerrechtler, Friedenspreis des Deutschen Buchhandels 2026.", text_en: "New portrait: Philippe Sands (SO7w6) – international lawyer, Peace Prize of the German Book Trade 2026.", route: "beruehmte-philippe-sands" },
     { version: "v2483", date: "2026-10-11", text: "Neues Porträt: Javier Tebas (SX8w9) – Präsident der spanischen Profiliga LaLiga.", text_en: "New portrait: Javier Tebas (SX8w9) – president of Spain's top football league LaLiga.", route: "beruehmte-javier-tebas" },
     { version: "v2482", date: "2026-10-11", text: "Neues Porträt: Konrad Zuse (SE1w9) – Bauingenieur und Computerpionier.", text_en: "New portrait: Konrad Zuse (SE1w9) – civil engineer and computer pioneer.", route: "beruehmte-konrad-zuse" },

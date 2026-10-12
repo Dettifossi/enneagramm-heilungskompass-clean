@@ -2913,3 +2913,70 @@ export function philippeSandsPortraitPage() {
     </div>
   `);
 }
+
+export function seanShermanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sean-sherman-portrait.jpg" alt="Sean Sherman – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-sean-sherman-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Sean Sherman</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Selbsterhaltender Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Oglala-Lakota-Koch (›The Sioux Chef‹), Autor und Gründer von Owamni, geb. 1974 in Pine Ridge (South Dakota) &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd, das nachts Nahrung holt und morgens heimkehrt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein Flusspferd verbringt den Tag im Wasser, kaum sichtbar, die Augen knapp über der Oberfläche. Erst in der Dämmerung steigt es an Land und frisst im Dunkeln große Mengen Gras, oft viele Kilometer von seinem Gewässer entfernt. Vor Sonnenaufgang kehrt es zurück. Sein Revier ist das Wasser, aber seine Nahrung holt es sich draußen, und es kennt den Weg dorthin zurück.</p>
+          <p class="vb-intro">Sean Sherman, 1974 geboren, wuchs als Oglala Lakota in der Pine-Ridge-Reservation in South Dakota auf. Nach den Berichten über seine Kindheit bestand das Essen dort vor allem aus Lebensmitteln der staatlichen Lebensmittelhilfe, ergänzt durch gesammelte Pflanzen. Seine Mutter arbeitete in drei Jobs, die Familie verließ die Reservation, und mit dreizehn stand Sherman in seiner ersten Restaurantküche in Minneapolis. Mit siebenundzwanzig war er Küchenchef, und gekocht hat er lange vor allem europäische Küche. Zurück zu seiner eigenen Herkunft führte ihn später ein Gedanke, den er selbst als plötzliche Einsicht beschreibt: Er solle das Essen seiner Vorfahren kochen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Nahrung als Fürsorge und Überlebensprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Zwei (SE2)</strong> richtet ihre Zuwendung zuerst auf das Überleben und die Gesundheit derer, die ihr am nächsten stehen. Naranjo nannte diesen Subtyp ›Me First‹ (›Ich zuerst‹), nicht im Sinn von Egoismus, sondern als Fürsorge, die im engsten, existenziellen Kreis beginnt. Bei Sherman ist dieser Kreis seine Gemeinschaft und das, was sie isst. Er hat in Pine Ridge nach eigenem Bericht Cousins früh an Diabetes sterben sehen, und nach den Berichten gab es dort für ein Gebiet in der Größe von Connecticut nur einen einzigen Lebensmittelladen. Für ihn liegt das Problem darin, was Menschen zur Verfügung steht, nicht in den Menschen selbst.</p>
+          <p class="vb-intro">Daraus entsteht bei ihm Fürsorge in Form von Essen: Er kocht, bildet aus und baut Küchen auf, um traditionelle Lebensmittel wieder zugänglich zu machen. Dass jemand, der selbst unter dem Mangel litt, dem Mangel der anderen nachgeht, ist ein typischer Zug der selbsterhaltenden Zwei.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: strenge Regeln für ein gutes Essen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Zuwendung der Zwei ein inneres Regelwerk. Bei Sherman heißt es ›Dekolonisierung des Essens‹: Sein Ansatz verzichtet auf Zutaten, die erst durch die Kolonisierung auf den Tisch kamen. Nach dem Porträt des Guthrie Theaters stehen dort weder Milchprodukte noch Weizenmehl noch Rohrzucker auf der Karte, stattdessen vor allem wilde Pflanzen und Wild wie Bison. Diese Regeln dienen ihm als Maßstab für Herkunft und Qualität.</p>
+          <p class="vb-intro">Zugleich legt er Wert darauf, dass es nicht um ein Museumsstück geht. Sein Kochbuch ›Turtle Island‹ (2025; ›Schildkröteninsel‹, ein indigener Name für Nordamerika) will nach seinen Worten nicht zeigen, wie man 1491 gekocht hat, sondern wo indigene Küche heute steht. Darin verbinden sich die Prinzipientreue des Einsers und das Interesse der Zwei an dem, was Menschen heute tatsächlich nährt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: vom Imbisswagen zum Restaurant des Jahres</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Sherman konkret aufgebaut hat, lässt sich in Stufen beschreiben. Nach einigen Jahren der Recherche gründete er 2014 ›The Sioux Chef‹, ein Unternehmen für indigene Küche und Ausbildung. Gemeinsam mit seiner Geschäftspartnerin Dana Thompson betrieb er den Imbisswagen ›Tatanka Truck‹ mit Gerichten aus der Zeit vor der Kolonisierung. 2017 gründete er die gemeinnützige Organisation NATIFS (›North American Traditional Indigenous Food Systems‹, ›Traditionelle indigene Ernährungssysteme Nordamerikas‹) mit dem Indigenous Food Lab, einer Profiküche und Ausbildungsstätte. Sein erstes Kochbuch ›The Sioux Chef's Indigenous Kitchen‹ erhielt 2018 den James Beard Award als bestes amerikanisches Kochbuch.</p>
+          <p class="vb-intro">Im Juli 2021 eröffnete er mit Thompson ›Owamni by The Sioux Chef‹, das erste indigene Restaurant mit vollem Service in Minnesota. 2022 wurde es mit dem James Beard Award als bestes neues Restaurant ausgezeichnet. 2019 erhielt Sherman außerdem den Leadership Award der James Beard Foundation, 2023 den Julia Child Award. Im Jahr 2026 sollte Owamni als ›Indígena by Owamni‹ (spanisch für ›indigen‹) in größere Räume im Guthrie Theater in Minneapolis umziehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Zwei mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verbindung aus Wärme und Klarheit: Sherman kocht für Gäste, bildet Menschen aus und verbindet beides mit einem Auftrag, der über das einzelne Restaurant hinausgeht. Sein Lehrmodell sieht vor, dass ein indigenes Restaurant Fachkräfte ausbildet und danach örtliche Gemeinschaften eigene Küchen aufbauen.</p>
+          <p class="vb-intro">Der Schatten der Zwei ist das Bedürfnis, unentbehrlich zu sein. Bei einer Gründerfigur, die Küche, Stiftung, Bücher und Auftritte trägt, liegt die Gefahr nahe, dass vieles an ihr hängt. Das Lehrmodell, das andere zu eigenen Küchen befähigt, geht dagegen an: Es macht den Gründer ein Stück weit entbehrlich, und genau das entspricht dem Heilungsweg der Zwei, vom Geben für andere zum Geben, das andere selbst tragen. Beim Einserflügel kommt die Strenge hinzu: Regeln wie der Verzicht auf Weizenmehl und Milchprodukte schützen die Herkunft, können aber auch zur Messlatte werden, an der sich jeder Teller messen lassen muss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Menschen mit einem Auftrag: Sherman und Thunberg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-greta-thunberg">Greta Thunberg</a> (SE2w1) verbindet Sherman, dass beide aus persönlicher Betroffenheit einen klaren, regelgebundenen Auftrag machen. Bei Thunberg gilt er der Klimapolitik und richtet sich fordernd nach außen. Sherman baut dagegen Schritt für Schritt von innen auf: Küchen, Ausbildung, Lehrbücher. Beide sind Beispiele dafür, wie die selbsterhaltende Zwei mit Einserflügel Fürsorge in eine Sache verwandelt, für die sie bereit ist, sich auf Dauer in die Pflicht zu nehmen.</p>
+          <p class="vb-intro">Auch mit <a href="javascript:void(0)" data-route="beruehmte-margot-friedlaender">Margot Friedländer</a> (SE2w1) teilt Sherman die Verwurzelung in der eigenen Geschichte: Sie machte die Erinnerung an die Verfolgung zu ihrer Aufgabe, er die Rückgewinnung des Essens seiner Vorfahren. In beiden Fällen wird Herkunft nicht verwaltet, sondern weitergegeben.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se2", label:"Lebensmusterkompass: SE2 – Flusspferd"},
+        {route:"beruehmte-greta-thunberg", label:"Porträt: Greta Thunberg (SE2w1) – derselbe Subtyp"},
+        {route:"beruehmte-margot-friedlaender", label:"Porträt: Margot Friedländer (SE2w1)"},
+        {route:"beruehmte-soeren-kierkegaard", label:"Porträt: Søren Kierkegaard (SE2w1)"},
+      ])}
+    </div>
+  `);
+}

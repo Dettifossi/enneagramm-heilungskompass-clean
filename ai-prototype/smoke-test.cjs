@@ -71,6 +71,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-javier-tebas", label: "Neues EN-Porträt: Javier Tebas" },
   { hash: "#beruehmte-philippe-sands", label: "Neues Porträt: Philippe Sands" },
   { hash: "en/#beruehmte-philippe-sands", label: "Neues EN-Porträt: Philippe Sands" },
+  { hash: "#beruehmte-sean-sherman", label: "Neues Porträt: Sean Sherman" },
+  { hash: "en/#beruehmte-sean-sherman", label: "Neues EN-Porträt: Sean Sherman" },
 ];
 
 function startServer() {

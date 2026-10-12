@@ -581,6 +581,7 @@ export function gretaThunbergPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-sean-sherman", label:"Portrait: Sean Sherman (SE2w1) – same subtype"},
         {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2)"},
         {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SE2w1)"},
         {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SP2w1)"},
@@ -1059,6 +1060,7 @@ export function margotFriedlaenderPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
+        {route:"beruehmte-sean-sherman", label:"Portrait: Sean Sherman (SE2w1)"},
         {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SP2w1)"},
         {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SP2w1)"},
         {route:"beruehmte-franka-potente", label:"Portrait: Franka Potente (SP2w1)"},

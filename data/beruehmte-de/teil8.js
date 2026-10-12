@@ -650,6 +650,7 @@ export function gretaThunbergPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se2", label:"SE2 \u2013 Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-sean-sherman", label:"Porträt: Sean Sherman (SE2w1) – derselbe Subtyp"},
         {route:"beruehmte-angelina-jolie", label:"Portr\u00e4t: Angelina Jolie (SO1w2)"},
         {route:"beruehmte-soeren-kierkegaard", label:"Portr\u00e4t: S\u00f8ren Kierkegaard (SE2w1)"},
         {route:"beruehmte-margot-friedlaender", label:"Portr\u00e4t: Margot Friedl\u00e4nder (SE2w1)"},
@@ -1139,6 +1140,7 @@ export function margotFriedlaenderPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"beruehmte-sean-sherman", label:"Porträt: Sean Sherman (SE2w1)"},
         {route:"beruehmte-soeren-kierkegaard", label:"Porträt: Søren Kierkegaard (SE2w1)"},
         {route:"beruehmte-greta-thunberg", label:"Porträt: Greta Thunberg (SE2w1)"},
         {route:"beruehmte-franka-potente", label:"Porträt: Franka Potente (SE2w1)"},

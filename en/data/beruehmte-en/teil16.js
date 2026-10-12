@@ -2908,3 +2908,70 @@ export function philippeSandsPortraitPage() {
     </div>
   `);
 }
+
+export function seanShermanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sean-sherman-portrait.jpg" alt="Sean Sherman – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-sean-sherman-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Sean Sherman</p>
+        <p class="krim-portrait-typ">SE2w1 &middot; Self-Preservation Type 2 with a One-Wing</p>
+        <p class="krim-portrait-subtitle">Oglala Lakota chef (&lsquo;The Sioux Chef&rsquo;), author and founder of Owamni, b. 1974 in Pine Ridge (South Dakota) &ndash; Animal match: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippo That Fetches Food at Night and Returns by Morning</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A hippopotamus spends the day in the water, barely visible, its eyes just above the surface. Only at dusk does it climb ashore and eat large amounts of grass in the dark, often many kilometres from its water. Before sunrise it returns. Its territory is the water, but it fetches its food outside, and it knows the way back.</p>
+          <p class="vb-intro">Sean Sherman, born in 1974, grew up as an Oglala Lakota on the Pine Ridge Reservation in South Dakota. According to accounts of his childhood, the food there consisted mostly of government commodity foods, supplemented by foraged plants. His mother worked three jobs, the family left the reservation, and at thirteen Sherman stood in his first restaurant kitchen. By twenty-seven he was an executive chef, and for a long time he mostly cooked European cuisine. What led him back to his own heritage was a thought he himself describes as a sudden realisation: he should cook the food of his ancestors.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Two: Food as Care and a Principle of Survival</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Two (SE2)</strong> directs its care first at the survival and health of those closest to it. Naranjo called this subtype &lsquo;Me First&rsquo;, not in the sense of egoism but as care that begins in the narrowest, existential circle. For Sherman this circle is his community and what it eats. By his own account he saw cousins die young of diabetes in Pine Ridge, and according to reports there was only a single grocery store for an area the size of Connecticut. For him the problem lies in what is available to people, not in the people themselves.</p>
+          <p class="vb-intro">From this arises care in the form of food: he cooks, trains and builds kitchens to make traditional foods accessible again. That someone who himself suffered from the shortage goes after other people's shortage is a typical trait of the Self-Preservation Two.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Strict Rules for Good Food</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Two's care an inner rulebook. In Sherman it is called &lsquo;decolonising food&rsquo;: his approach omits ingredients that arrived on the table only through colonisation. According to the Guthrie Theater's profile, the menu includes no dairy, wheat flour or cane sugar, but instead mainly wild plants and game such as bison. These rules serve him as a measure of origin and quality.</p>
+          <p class="vb-intro">At the same time he stresses that this is not about a museum piece. His cookbook &lsquo;Turtle Island&rsquo; (2025; an Indigenous name for North America) is, in his words, not meant to show how people cooked in 1491 but where Indigenous cuisine stands today. In this the One's fidelity to principle combines with the Two's interest in what actually nourishes people today.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: From Food Truck to Restaurant of the Year</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What Sherman has concretely built can be described in stages. After several years of research he founded &lsquo;The Sioux Chef&rsquo; in 2014, a business for Indigenous cuisine and training. Together with his business partner Dana Thompson he ran the &lsquo;Tatanka Truck&rsquo; food truck with dishes from the time before colonisation. In 2017 he founded the non-profit NATIFS (North American Traditional Indigenous Food Systems) with the Indigenous Food Lab, a professional kitchen and training centre. His first cookbook &lsquo;The Sioux Chef's Indigenous Kitchen&rsquo; won the James Beard Award for best American cookbook in 2018.</p>
+          <p class="vb-intro">In July 2021 he opened &lsquo;Owamni by The Sioux Chef&rsquo; with Thompson, Minnesota's first full-service Indigenous restaurant. In 2022 it was awarded the James Beard Award for best new restaurant. In 2019 Sherman also received the James Beard Foundation's Leadership Award, and in 2023 the Julia Child Award. In 2026 Owamni was due to move, as &lsquo;Indígena by Owamni&rsquo; (Spanish for &lsquo;Indigenous&rsquo;), into larger premises at the Guthrie Theater in Minneapolis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Two with a One-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the combination of warmth and clarity: Sherman cooks for guests, trains people and links both to a mission that goes beyond the individual restaurant. His teaching model provides for an Indigenous restaurant to train professionals and for local communities then to build kitchens of their own.</p>
+          <p class="vb-intro">The shadow of the Two is the need to be indispensable. With a founder figure who carries kitchen, foundation, books and appearances, the danger is close that a lot hangs on him. The teaching model that enables others to run their own kitchens works against this: it makes the founder somewhat dispensable, and that is exactly what corresponds to the Two's path of healing, from giving for others to giving that others carry themselves. With the One-wing, strictness is added: rules such as forgoing wheat flour and dairy protect origin, but can also become a yardstick against which every plate must be measured.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two People with a Mission: Sherman and Thunberg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-greta-thunberg">Greta Thunberg</a> (SE2w1), Sherman shares that both turn personal affectedness into a clear, rule-bound mission. With Thunberg it is directed at climate policy and aimed outward as a demand. Sherman, by contrast, builds step by step from within: kitchens, training, textbooks. Both are examples of how the Self-Preservation Two with a One-wing turns care into a cause to which it is prepared to commit itself in the long run.</p>
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-margot-friedlaender">Margot Friedländer</a> (SE2w1) too, Sherman shares the rootedness in his own history: she made the memory of persecution her task, he the recovery of his ancestors' food. In both cases heritage is not administered but passed on.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
+        {route:"lebensmusterkompass/se2", label:"Life Pattern Compass: SE2 – Hippopotamus"},
+        {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SE2w1) – same subtype"},
+        {route:"beruehmte-margot-friedlaender", label:"Portrait: Margot Friedländer (SE2w1)"},
+        {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SE2w1)"},
+      ])}
+    </div>
+  `);
+}
