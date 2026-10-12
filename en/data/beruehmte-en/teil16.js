@@ -3078,7 +3078,6 @@ export function rubyTruePortraitPage() {
         <h2 class="vb-section">4. The Substance: Sound as a Craft</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">By her own account, True is a qualified sound therapist, Reiki practitioner, Thai yoga massage therapist and yoga teacher. These details come from her own profiles and could not be independently checked. Her craft is verifiable: she plays Tibetan and crystal singing bowls, tuning forks and Koshi chimes (wind chimes tuned to the elements) and takes care with recordings without singing, in which instrument and ambient sounds work alone.</p>
-          <p class="vb-intro">As for the frequencies she names in titles, such as 432 Hz or 136.1 Hz: what is established is above all that quiet sounds and steady attention can help with relaxing. For a special healing effect of individual frequencies there is no reliable scientific evidence. The offer therefore works first of all as a space for relaxation, not as a treatment.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow of the Sexual Six with a Seven-Wing</h2>

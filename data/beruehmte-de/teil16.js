@@ -3083,7 +3083,6 @@ export function rubyTruePortraitPage() {
         <h2 class="vb-section">4. Die Substanz: Klang als Handwerk</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Nach ihrer eigenen Darstellung ist True ausgebildete Klangtherapeutin, Reiki-Praktizierende, thailändische Yogamassage-Therapeutin und Yogalehrerin. Diese Angaben stammen aus ihren eigenen Profilen und ließen sich nicht unabhängig prüfen. Ihr Handwerk ist überprüfbar: Sie spielt tibetische und kristalline Klangschalen, Stimmgabeln und Koshi-Klangspiele (Klangspiele mit Stimmung nach den Elementen) und achtet auf Aufnahmen ohne Gesang, in denen Instrument und Umgebungsgeräusche allein wirken.</p>
-          <p class="vb-intro">Zu den Frequenzen, die sie in Titeln nennt, wie 432 Hz oder 136,1 Hz, gilt: Belegt ist vor allem, dass ruhige Klänge und gleichmäßige Aufmerksamkeit beim Entspannen helfen können. Für eine besondere Heilwirkung einzelner Frequenzen gibt es keine verlässlichen wissenschaftlichen Belege. Das Angebot wirkt also in erster Linie als Entspannungsraum, nicht als Behandlung.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten der sexuellen Sechs mit Siebenerflügel</h2>
