@@ -1993,6 +1993,7 @@ export function louiseHayPortraitPage() {
         ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"beruehmte-ruby-true", label:"Porträt: Ruby True (SX6w7) – derselbe Subtyp"},
         {route:"beruehmte-eva-mendes", label:"Porträt: Eva Mendes (SX6w7) – ebenfalls derselbe Subtyp"},
         {route:"beruehmte-heather-thomas", label:"Porträt: Heather Thomas (SX6w7)"},
         ])}

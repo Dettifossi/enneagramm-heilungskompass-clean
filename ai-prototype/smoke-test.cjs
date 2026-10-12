@@ -75,6 +75,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-sean-sherman", label: "Neues EN-Porträt: Sean Sherman" },
   { hash: "#beruehmte-billie-lourd", label: "Neues Porträt: Billie Lourd" },
   { hash: "en/#beruehmte-billie-lourd", label: "Neues EN-Porträt: Billie Lourd" },
+  { hash: "#beruehmte-ruby-true", label: "Neues Porträt: Ruby True" },
+  { hash: "en/#beruehmte-ruby-true", label: "Neues EN-Porträt: Ruby True" },
 ];
 
 function startServer() {

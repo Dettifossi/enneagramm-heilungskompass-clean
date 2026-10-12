@@ -256,6 +256,7 @@ export function byronKatiePortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-ruby-true", label:"Portrait: Ruby True (SX6w7)"},
         {route:"beruehmte-jennifer-aniston", label:"Portrait: Jennifer Aniston (SX6w7)"},
         {route:"beruehmte-anke-engelke", label:"Portrait: Anke Engelke (SX6w7)"},
         {route:"krankheitsportraets-byron-katie", label:"Illness Portrait: Byron Katie (SX6w7) – ten years of depression and agoraphobia"},

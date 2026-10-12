@@ -2059,6 +2059,7 @@ export function louiseHayPortraitPage() {
         ${relatedLinks([
           {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
           {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"beruehmte-ruby-true", label:"Portrait: Ruby True (SX6w7) – same subtype"},
           {route:"beruehmte-eva-mendes", label:"Portrait: Eva Mendes (SX6w7) – also the same subtype"},
           {route:"beruehmte-heather-thomas", label:"Portrait: Heather Thomas (SX6w7)"},
         ])}

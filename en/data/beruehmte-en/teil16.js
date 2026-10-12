@@ -3041,3 +3041,69 @@ export function billieLourdPortraitPage() {
     </div>
   `);
 }
+
+export function rubyTruePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ruby-true-portrait.jpg" alt="Ruby True – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-ruby-true-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Ruby True</p>
+        <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with a Seven-Wing</p>
+        <p class="krim-portrait-subtitle">ASMR artist, sound therapist and content creator, from England, living in Portugal according to her profiles &ndash; Animal match: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf That Howls So the Others Can Find It</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A wolf's howl is not a lament. It carries for many kilometres and tells the others in the pack: I am here, find me. Wolves howl to establish connection, and they recognise one another by their voices. The sound replaces touch where there is distance.</p>
+          <p class="vb-intro">Ruby True, an Englishwoman who according to her profiles lives in Portugal, works with exactly this principle. She is a content creator and artist in the field of ASMR, sound therapy and deep relaxation. ASMR stands for &lsquo;Autonomous Sensory Meridian Response&rsquo; and means a pleasant tingling that quiet sounds and gentle attention trigger in some people. Her YouTube channel &lsquo;Ruby True&rsquo; has, according to a talent agency, over 135,000 subscribers and more than 19 million views; she also streams sound baths live on Twitch and releases albums on Spotify and Apple Music.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Six: Strength That Turns Fear into Calm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Six (SX6)</strong> counts as the counter-type of the Six: it meets insecurity not with withdrawal but with strength and directness. Naranjo called this subtype &lsquo;Strength&rsquo;. In True this shows in what she offers. One of her albums is explicitly aimed at relieving anxiety, other releases address people who want to come to rest or fall asleep. She turns directly to the subject of anxiety and tension and offers an answer to it.</p>
+          <p class="vb-intro">Fitting this is the sexual subtypes' pull toward one-to-one closeness: ASMR lives on the illusion of personal attention, on the feeling that someone is taking time for the listener alone. True works with role-plays, hand movements and quiet attentiveness, often entirely without speech. According to a streamer overview she first streamed games and switched to ASMR because this kind of relaxation had helped her herself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-Wing: Variety and Lightness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> takes the heaviness out of the Six and brings curiosity and variety. In True this shows in the breadth of her formats: Reiki role-plays, chakra balancing, crystal singing bowls, tuning forks, guided meditations, recordings outdoors in nature, live sound baths and music albums, plus photos and meditations on Patreon. On her channel she describes her work as &lsquo;healing roleplays&rsquo;, &lsquo;energy plucking&rsquo; and aura cleansing.</p>
+          <p class="vb-intro">The releases keep coming: one album is titled &lsquo;ASMR Reiki And Crystal Tuning fork Healing Frequencies Energy Clearing, No Talking, nature&rsquo; (2025), a newer release is called &lsquo;ASMR Vagus Nerve Reset 432Hz &amp; 136.1Hz Tuning Forks&rsquo; (2026). The playfulness lies in the variety with which she keeps repackaging the same basic need for calm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Sound as a Craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">By her own account, True is a qualified sound therapist, Reiki practitioner, Thai yoga massage therapist and yoga teacher. These details come from her own profiles and could not be independently checked. Her craft is verifiable: she plays Tibetan and crystal singing bowls, tuning forks and Koshi chimes (wind chimes tuned to the elements) and takes care with recordings without singing, in which instrument and ambient sounds work alone.</p>
+          <p class="vb-intro">As for the frequencies she names in titles, such as 432 Hz or 136.1 Hz: what is established is above all that quiet sounds and steady attention can help with relaxing. For a special healing effect of individual frequencies there is no reliable scientific evidence. The offer therefore works first of all as a space for relaxation, not as a treatment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Six with a Seven-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the low-threshold access: whoever cannot sleep in the evening or suffers from tension finds a calm sound from True on YouTube at any time, without sign-up and without an appointment. She combines an offer for lonely hours with the closeness that ASMR makes possible.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. The closeness in ASMR videos is one-sided: the viewer experiences attention that applies to everyone at once, and this can create an attachment to the figure that carries more than it can deliver. Added to this is the Six's question of security: whoever works through platforms and a supporter community such as Patreon depends on algorithms and subscribers, and in this position the Sexual Six likes to look for the reliability of a loyal pack.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Healing Voices: True, Hay and Katie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-louise-hay">Louise Hay</a> (SX6w7) and <a href="javascript:void(0)" data-route="beruehmte-byron-katie">Byron Katie</a> (SX6w7), True shares the field: all three offer people a way out of inner tension and do so in a personal, immediate address. Hay worked with affirmations, Katie works with a method of questioning thoughts, True works through sound and closeness, often without a word.</p>
+          <p class="vb-intro">The difference lies in the medium: Hay and Katie speak, True is deliberately silent in many recordings. Where the two older women address the mind, True addresses the body. What they share is the basic stance of the Sexual Six with a Seven-wing: not to avoid fear but to set something effective against it, and to do so with lightness.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
+        {route:"lebensmusterkompass/sx6", label:"Life Pattern Compass: SX6 – Wolf"},
+        {route:"beruehmte-louise-hay", label:"Portrait: Louise Hay (SX6w7) – same subtype"},
+        {route:"beruehmte-byron-katie", label:"Portrait: Byron Katie (SX6w7)"},
+      ])}
+    </div>
+  `);
+}
