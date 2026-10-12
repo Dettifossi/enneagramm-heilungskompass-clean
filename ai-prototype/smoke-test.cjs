@@ -73,6 +73,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-philippe-sands", label: "Neues EN-Porträt: Philippe Sands" },
   { hash: "#beruehmte-sean-sherman", label: "Neues Porträt: Sean Sherman" },
   { hash: "en/#beruehmte-sean-sherman", label: "Neues EN-Porträt: Sean Sherman" },
+  { hash: "#beruehmte-billie-lourd", label: "Neues Porträt: Billie Lourd" },
+  { hash: "en/#beruehmte-billie-lourd", label: "Neues EN-Porträt: Billie Lourd" },
 ];
 
 function startServer() {

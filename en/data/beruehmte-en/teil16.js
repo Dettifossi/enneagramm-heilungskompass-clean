@@ -2975,3 +2975,69 @@ export function seanShermanPortraitPage() {
     </div>
   `);
 }
+
+export function billieLourdPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-billie-lourd-portrait.jpg" alt="Billie Lourd – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-billie-lourd-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Billie Lourd</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with a Four-Wing</p>
+        <p class="krim-portrait-subtitle">Actress (&lsquo;Scream Queens&rsquo;, &lsquo;American Horror Story&rsquo;, &lsquo;Star Wars&rsquo;, &lsquo;Booksmart&rsquo;), b. 1992 in Los Angeles &ndash; Animal match: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon That Tests with Its Paws First</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A raccoon does not see only with its eyes. Its front paws are so sensitive that it feels, turns and tests an object before doing anything with it. It appears at dusk, takes what others leave lying around and makes something useful of it. It does not want to stand out, it wants to get by.</p>
+          <p class="vb-intro">Billie Lourd was born on 17 July 1992 in Los Angeles, the daughter of the actress Carrie Fisher and the talent agent Bryan Lourd, and granddaughter of Debbie Reynolds. She thus grew up in one of Hollywood's best-known families. She attended Harvard-Westlake School and in 2014 graduated from New York University with a self-designed degree called &lsquo;Art and Business as Religion&rsquo;. Art and business belong together in her family: a father who represents talent, a mother and a grandmother who made their living from acting.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Not Playing Up One's Origins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Three (SE3)</strong> counts as the counter-type of the Three: it shows the least of what is usually associated with the image of the Three and seeks security through competence and a solid foundation, not through performance. In Lourd this shows in how she took her first roles. For the Fox series &lsquo;Scream Queens&rsquo; (2015–2016) she met, by her own recollection, with series creator Ryan Murphy believing it was an audition. Only the next day did she learn that it was an offer. She had not expected him to cast her without a try-out, because she knew that is not how it works.</p>
+          <p class="vb-intro">The role itself is not a lead either: as Chanel #3 she belongs to the entourage of the sorority chief Chanel Oberlin, played by Emma Roberts. She wears earmuffs as a nod to her mother's famous cinnamon-bun hairstyle as Princess Leia in &lsquo;Star Wars&rsquo;. The same goes for Lieutenant Kaydel Ko Connix, her role in &lsquo;The Force Awakens&rsquo; (2015), &lsquo;The Last Jedi&rsquo; (2017) and &lsquo;The Rise of Skywalker&rsquo; (2019), which she also played alongside her mother. A supporting part in big productions, no star turn, but reliably cast over the years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: Grief and Darkness as Material</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Self-Preservation Three depth and a pull toward the dark and idiosyncratic. Lourd works strikingly often in horror and the macabre: in &lsquo;American Horror Story&rsquo; she played different characters across three seasons, Winter Anderson in &lsquo;Cult&rsquo;, Mallory in &lsquo;Apocalypse&rsquo; and Montana Duke in &lsquo;1984&rsquo;. Then there is the personal side: her mother Carrie Fisher died on 27 December 2016, her grandmother Debbie Reynolds a day later. Speaking to Ellen DeGeneres in 2017 she called that time &lsquo;completely surreal&rsquo;, and on the fifth anniversary of her mother's death in December 2021 she wrote that her grief is &lsquo;never simple&rsquo;.</p>
+          <p class="vb-intro">What is special: she does not turn grief into a performance, but she speaks about it openly, and as she reported in interviews, growing up with addiction and mental illness in the family is no secret to her either. This can be linked to the Four-wing, which values emotional honesty above a smooth image.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Ensemble Instead of Singling Out</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What marks Lourd professionally is range. From the horror-comedy entourage of &lsquo;Scream Queens&rsquo; has grown a profile that stretches from &lsquo;Star Wars&rsquo; through the teen comedy &lsquo;Booksmart&rsquo; (2019), in which she plays Gigi, to the drama &lsquo;The Last Showgirl&rsquo; and the comedy &lsquo;Ticket to Paradise&rsquo;. In &lsquo;The Rise of Skywalker&rsquo; she even played her mother's role in a brief flashback, with her mother's face digitally inserted. As an actress she does not let herself be pinned to one genre but works her way into large casts through supporting parts.</p>
+          <p class="vb-intro">Her mother pointed her the way. As Lourd told Town &amp; Country magazine, Fisher pulled her aside on set and said it was odd that she felt so comfortable there, since it was the most uncomfortable environment in the world. If she felt comfortable there, she should do it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three with a Four-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in that Lourd does not turn a famous name into a business model but earns her own place role by role. In the same interview she said she loves being her mother's daughter but now gets to be just Billie.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. The Three's fate pattern is vanity, and in the SE3 it expresses itself quietly: in the wish to appear unassailable through restraint. Added to this is the weight of a legacy: Lourd said the pressure is great because her mother left such a large legacy, which she must now uphold and develop in her own way. Between the aim of simply being Billie and the expectation of carrying the legacy, she moves to this day.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Daughters of Famous Parents: Lourd and Jones</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-norah-jones">Norah Jones</a> (SE3w4), Lourd shares the origin in a famous family and the decision not to cash in on it. As a teenager Jones took a different surname so as not to appear as Ravi Shankar's daughter; Lourd bears the surname of her father, the agent, and not that of her mother, the acting icon Carrie Fisher. <a href="javascript:void(0)" data-route="beruehmte-cheyenne-ochsenknecht">Cheyenne Ochsenknecht</a> (SE3w4) also bears a well-known name and goes her own way.</p>
+          <p class="vb-intro">The difference lies in dealing with the public. After her rapid fame, Jones largely withdrew from the spotlight and keeps her private life closed. Lourd works in a profession that demands visibility and speaks more openly about grief and family. But both show the same basic stance of the Self-Preservation Three: the achievement should speak for itself, not the name.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: Subtype Profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SE3 – Raccoon"},
+        {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SE3w4) – same subtype"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4)"},
+      ])}
+    </div>
+  `);
+}

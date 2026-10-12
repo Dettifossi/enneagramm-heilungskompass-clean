@@ -2980,3 +2980,69 @@ export function seanShermanPortraitPage() {
     </div>
   `);
 }
+
+export function billieLourdPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-billie-lourd-portrait.jpg" alt="Billie Lourd – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-billie-lourd-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Billie Lourd</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin (›Scream Queens‹, ›American Horror Story‹, ›Star Wars‹, ›Booksmart‹), geb. 1992 in Los Angeles &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär, der erst mit den Pfoten prüft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein Waschbär sieht nicht nur mit den Augen. Seine Vorderpfoten sind so empfindlich, dass er einen Gegenstand erst abtastet, dreht und prüft, bevor er etwas damit anfängt. Er taucht in der Dämmerung auf, nimmt, was andere liegen lassen, und macht daraus etwas Brauchbares. Auffallen will er dabei nicht, er will zurechtkommen.</p>
+          <p class="vb-intro">Billie Lourd wurde am 17. Juli 1992 in Los Angeles geboren, als Tochter der Schauspielerin Carrie Fisher und des Talentagenten Bryan Lourd, Enkelin von Debbie Reynolds. Sie wuchs also in einer der bekanntesten Hollywood-Familien auf. Sie besuchte die Harvard-Westlake School und schloss 2014 an der New York University ein selbst entworfenes Studium namens ›Art and Business as Religion‹ (›Kunst und Geschäft als Religion‹) ab. Kunst und Geschäft gehören in ihrer Familie zusammen: ein Vater, der Talente vermittelt, eine Mutter und eine Großmutter, die als Schauspielerinnen davon lebten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Herkunft, die man nicht ausspielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Sie zeigt am wenigsten von dem, was man mit dem Bild der Drei verbindet, und sucht Sicherheit durch Können und ein solides Fundament, nicht durch Auftritt. Bei Lourd zeigt sich das an der Art, wie sie ihre ersten Rollen annahm. Für die Fox-Serie ›Scream Queens‹ (2015–2016) sprach sie nach eigener Erinnerung mit Serienschöpfer Ryan Murphy in dem Glauben, es gehe um ein Vorsprechen. Erst am nächsten Tag erfuhr sie, dass es ein Angebot war. Sie hatte nicht damit gerechnet, dass er sie ohne Probe besetzen würde, weil sie wusste, dass es so nicht läuft.</p>
+          <p class="vb-intro">Auch die Rolle selbst ist keine Hauptrolle: Als Chanel #3 gehört sie zum Gefolge der Sorority-Chefin Chanel Oberlin, gespielt von Emma Roberts. Sie trägt dabei Ohrenschützer als Anspielung auf die berühmte Schneckenfrisur ihrer Mutter als Prinzessin Leia in ›Star Wars‹. Dasselbe gilt für Leutnant Kaydel Ko Connix, ihre Rolle in ›Das Erwachen der Macht‹ (2015), ›Die letzten Jedi‹ (2017) und ›Der Aufstieg Skywalkers‹ (2019), die sie auch an der Seite ihrer Mutter spielte. Eine Nebenrolle in großen Produktionen, kein Starauftritt, aber dauerhaft verlässlich besetzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Trauer und Dunkelheit als Material</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Drei Tiefe und den Hang zum Dunklen, Eigenwilligen. Lourd arbeitet auffällig oft im Horror- und Gruselfach: In ›American Horror Story‹ spielte sie in drei Staffeln wechselnde Figuren, Winter Anderson in ›Cult‹, Mallory in ›Apocalypse‹ und Montana Duke in ›1984‹. Dazu kommt das Persönliche: Ihre Mutter Carrie Fisher starb am 27. Dezember 2016, ihre Großmutter Debbie Reynolds einen Tag später. Im Gespräch mit Ellen DeGeneres nannte sie diese Zeit 2017 ›völlig surreal‹, und zum fünften Todestag im Dezember 2021 schrieb sie, ihre Trauer sei ›nie einfach‹.</p>
+          <p class="vb-intro">Das Besondere: Sie macht aus der Trauer keinen Auftritt, spricht aber offen darüber, und und wie sie in Interviews berichtete, ist auch das Aufwachsen mit Sucht und psychischer Erkrankung in der Familie für sie kein Geheimnis. Das lässt sich mit dem Viererflügel in Verbindung bringen, der emotionale Ehrlichkeit höher stellt als ein glattes Bild.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Ensemble statt Alleinstellung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Lourd beruflich ausmacht, ist die Breite. Aus dem Horror-Comedy-Gefolge von ›Scream Queens‹ wurde ein Rollenprofil, das von ›Star Wars‹ über die Teenie-Komödie ›Booksmart‹ (2019), in der sie Gigi spielt, bis zum Drama ›The Last Showgirl‹ und der Komödie ›Ticket to Paradise‹ reicht. In ›Der Aufstieg Skywalkers‹ spielte sie in einem kurzen Rückblick sogar die Rolle ihrer Mutter, deren Gesicht digital eingesetzt wurde. Als Schauspielerin lässt sie sich nicht auf ein Genre festlegen, sondern arbeitet sich über Nebenrollen in große Besetzungen hinein.</p>
+          <p class="vb-intro">Ihre Mutter hat ihr den Weg gewiesen. Wie Lourd im Gespräch mit der Zeitschrift Town &amp; Country erzählte, zog Fisher sie am Set beiseite und sagte, es sei merkwürdig, dass sie sich dort so wohlfühle, obwohl es die unbequemste Umgebung der Welt sei. Wenn sie sich dort wohlfühle, solle sie es tun.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei mit Viererflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt darin, dass Lourd aus einem berühmten Namen kein Geschäftsmodell macht, sondern sich Rolle für Rolle ihren eigenen Platz erarbeitet. In demselben Interview sagte sie, sie liebe es, die Tochter ihrer Mutter zu sein, nun aber dürfe sie einfach Billie sein.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Das Schicksalsmuster der Drei ist die Eitelkeit, und bei der SE3 äußert sie sich leise: im Wunsch, durch Zurückhaltung unangreifbar zu wirken. Hinzu kommt die Last eines Erbes: Lourd sagte, der Druck sei groß, weil ihre Mutter ein so großes Vermächtnis hinterlassen habe, das sie nun bewahren und auf ihre Weise weiterentwickeln müsse. Zwischen dem Anspruch, einfach Billie zu sein, und der Erwartung, das Erbe zu tragen, bewegt sie sich bis heute.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Töchter berühmter Eltern: Lourd und Jones</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-norah-jones">Norah Jones</a> (SE3w4) verbindet Lourd die Herkunft aus einer berühmten Familie und die Entscheidung, daraus nicht Kapital zu schlagen. Jones nahm als Jugendliche einen anderen Nachnamen an, um nicht als Tochter von Ravi Shankar aufzutreten, Lourd trägt den Nachnamen ihres Vaters, des Agenten, und nicht den ihrer Mutter, der Schauspielikone Carrie Fisher. Auch <a href="javascript:void(0)" data-route="beruehmte-cheyenne-ochsenknecht">Cheyenne Ochsenknecht</a> (SE3w4) trägt einen bekannten Namen und geht eigene Wege.</p>
+          <p class="vb-intro">Der Unterschied liegt im Umgang mit der Öffentlichkeit. Jones zog sich nach dem schnellen Ruhm weitgehend aus dem Rampenlicht zurück und hält ihr Privatleben geschlossen. Lourd arbeitet in einem Beruf, der Sichtbarkeit verlangt, und spricht über Trauer und Familie offener. Beide zeigen aber dieselbe Grundhaltung der selbsterhaltenden Drei: Die Leistung soll für sich sprechen, nicht der Name.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
+        {route:"beruehmte-norah-jones", label:"Porträt: Norah Jones (SE3w4) – derselbe Subtyp"},
+        {route:"beruehmte-cheyenne-ochsenknecht", label:"Porträt: Cheyenne Ochsenknecht (SE3w4)"},
+      ])}
+    </div>
+  `);
+}
