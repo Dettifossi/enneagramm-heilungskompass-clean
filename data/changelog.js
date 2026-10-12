@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2489", date: "2026-10-12", text: "Neues Porträt: Caroline Wozniacki (SO7w6) – dänische Tennisspielerin, Weltranglisten-Erste.", text_en: "New portrait: Caroline Wozniacki (SO7w6) – Danish tennis player, former world No. 1.", route: "beruehmte-caroline-wozniacki" },
     { version: "v2488", date: "2026-10-12", text: "Neues Porträt: Ruby True (SX6w7) – ASMR-Künstlerin und Klangtherapeutin.", text_en: "New portrait: Ruby True (SX6w7) – ASMR artist and sound therapist.", route: "beruehmte-ruby-true" },
     { version: "v2487", date: "2026-10-12", text: "Neues Porträt: Billie Lourd (SE3w4) – Schauspielerin, Tochter von Carrie Fisher.", text_en: "New portrait: Billie Lourd (SE3w4) – actress, daughter of Carrie Fisher.", route: "beruehmte-billie-lourd" },
     { version: "v2486", date: "2026-10-12", text: "Neues Porträt: Sean Sherman (SE2w1) – Koch und Gründer von Owamni, indigene Küche.", text_en: "New portrait: Sean Sherman (SE2w1) – chef and founder of Owamni, Indigenous cuisine.", route: "beruehmte-sean-sherman" },

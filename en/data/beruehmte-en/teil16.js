@@ -3108,3 +3108,70 @@ export function rubyTruePortraitPage() {
     </div>
   `);
 }
+
+export function carolineWozniackiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-caroline-wozniacki-portrait.jpg" alt="Caroline Wozniacki – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-caroline-wozniacki-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Caroline Wozniacki</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with a Six-Wing</p>
+        <p class="krim-portrait-subtitle">Danish tennis player, former world No. 1 and 2018 Australian Open champion, b. 1990 in Odense &ndash; Animal match: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver That Mends Its Dam After Every Flood</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A beaver dam is never finished. After every storm and every flood it is mended, a branch here, a handful of mud there, so that the pond behind it survives. The beaver rests when everything holds and starts again when something breaks. It builds for itself and for the community that depends on the water level.</p>
+          <p class="vb-intro">Caroline Wozniacki was born on 11 July 1990 in Odense, Denmark, to Polish parents Piotr and Anna Wozniacki. Her father coached her from an early age. In 2006 she won the girls' singles title at Wimbledon, in 2008 she became the first Danish woman to win a WTA singles title, and in 2009 she was the first Dane of the Open Era in a Grand Slam final, the US Open. On 11 October 2010 she became world No. 1 and, by the usual accounts, stayed there for 71 weeks in total.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Seven: Belonging Instead of Going It Alone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>Social Seven (SO7)</strong> finds fulfilment in service to a community rather than in its own pleasure. Tennis is an individual sport, and yet Wozniacki's tie to a group shows again and again. In 2014 she ran the New York Marathon for &lsquo;Team for Kids&rsquo;, which funds youth programmes of the New York Road Runners, and raised more than 81,000 dollars. Her time, just under three hours and 27 minutes, was that of a serious runner, not a show run.</p>
+          <p class="vb-intro">After the end of her first career in 2020 she worked from 2022 as a commentator for Tennis Channel and ESPN, so still in the middle of her sport's circle. And when she announced her return in 2023 in an essay in Vogue magazine, she justified it partly by wanting to show her children that one can pursue one's dreams regardless of age and role. Here too a concern for others comes before her own ambition.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Bonds with Family and the Trusted</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> gives the Social Seven an anchor in trusted people. For Wozniacki this is her father and longtime coach Piotr: he watched her in one of the first practice sessions of her return and said she looked as if she was enjoying the game more. She confirmed that was exactly how it felt, relaxed and having fun, and that it let her see more clearly. Added to this are the family with former NBA player David Lee, whom she married in June 2019, and the friendship with Serena Williams, whose return after the birth of her daughter inspired her, in her own words.</p>
+          <p class="vb-intro">This can be linked to the pattern of the Six-wing: whoever draws security from reliable relationships takes risks more easily. Wozniacki's decision to return came in conversation with her father and in looking back at her joy in tennis, not in a lonely decision.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Sporting Substance: A Return at the Highest Level</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wozniacki's main work is her win at the 2018 Australian Open, her only Grand Slam title. According to the WTA profile, rheumatoid arthritis had been diagnosed in her beforehand, an autoimmune disease that attacks the joints, and she did not let it push her out of professional sport. In January 2020 she ended her first career at the Australian Open.</p>
+          <p class="vb-intro">That the return was no act of mercy is shown by the results: at the 2023 US Open she reached the fourth round and took the eventual champion Coco Gauff to three sets. In 2024 she reached the quarter-final at Indian Wells, made the third round at Wimbledon, received a wildcard for the Olympic Games in Paris and, on her way to the last 16 at the US Open, dropped only twelve games in three matches.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Seven with a Six-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the joy of doing. Wozniacki did not return to prove something but because she missed the game, and she combines career and family without sacrificing one to the other. That she wants to encourage other women who put their dreams aside for their families fits a Seven who builds for the community.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. The Seven seldom stays with one solution: after the farewell of 2020 came the return of 2023, and according to reports she hinted at the end of 2025 that the chapter might now be closed, without declaring it definitively. This keeping open can be linked to the Seven's tendency not to close options. Added to this, a woman who wants to be a role model for others finds it hard to allow herself simply to stop.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Sportswomen, Two Returnees: Wozniacki and Williams</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-serena-williams">Serena Williams</a> (SX7w8), Wozniacki shares a close friendship and the way back onto the court after the birth of children. The difference lies in the subtype: Williams pursues her goals with the intense force of a Sexual Seven with an Eight-wing, Wozniacki with the community-minded lightness of a Social Seven with a Six-wing, who holds family, team and joy in the game together.</p>
+          <p class="vb-intro">Closer to her own subtype is <a href="javascript:void(0)" data-route="beruehmte-alexander-bommes">Alexander Bommes</a> (SO7w6), who began as a professional handball player and later became a presenter. Wozniacki too moved into television after top-level sport and stayed connected to the game as a commentator. In both the theme remains the same, the community of sport, and only the role in it changes.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-alexander-bommes", label:"Portrait: Alexander Bommes (SO7w6) – same subtype"},
+        {route:"beruehmte-serena-williams", label:"Portrait: Serena Williams (SX7w8) – friend and fellow tennis player"},
+        {route:"beruehmte-philippe-sands", label:"Portrait: Philippe Sands (SO7w6)"},
+      ])}
+    </div>
+  `);
+}

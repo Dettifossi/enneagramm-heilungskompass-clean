@@ -451,6 +451,7 @@ export function serenaWilliamsPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-caroline-wozniacki", label:"Porträt: Caroline Wozniacki (SO7w6) – befreundete Tennisspielerin"},
         {route:"beruehmte-boris-becker", label:"Porträt: Boris Becker (SX7w8)"},
       ])}
     </div>

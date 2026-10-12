@@ -3113,3 +3113,70 @@ export function rubyTruePortraitPage() {
     </div>
   `);
 }
+
+export function carolineWozniackiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-caroline-wozniacki-portrait.jpg" alt="Caroline Wozniacki – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-caroline-wozniacki-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Caroline Wozniacki</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Dänische Tennisspielerin, frühere Weltranglisten-Erste und Australian-Open-Siegerin 2018, geb. 1990 in Odense &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber, der den Damm nach jedem Hochwasser wieder ausbessert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein Biberdamm wird nie fertig. Nach jedem Sturm und jedem Hochwasser wird nachgebessert, ein Ast hier, eine Handvoll Schlamm dort, damit der Teich dahinter bestehen bleibt. Der Biber ruht, wenn alles hält, und beginnt wieder, wenn etwas bricht. Er baut für sich und die Gemeinschaft, die vom Wasserstand abhängt.</p>
+          <p class="vb-intro">Caroline Wozniacki wurde am 11. Juli 1990 in Odense in Dänemark geboren, als Tochter der polnischen Eltern Piotr und Anna Wozniacki. Ihr Vater trainierte sie von klein auf. 2006 gewann sie das Juniorinnen-Turnier in Wimbledon, 2008 als erste Dänin einen Einzeltitel auf der WTA-Tour, 2009 stand sie als erste Dänin der Open Era im Endspiel eines Grand-Slam-Turniers, den US Open. Am 11. Oktober 2010 wurde sie Weltranglisten-Erste und blieb es nach den gängigen Angaben insgesamt 71 Wochen lang.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Zugehörigkeit statt Einzelkämpfertum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sieben (SO7)</strong> findet nach Naranjo Erfüllung im Dienst an einer Gemeinschaft statt im eigenen Vergnügen. Tennis ist ein Einzelsport, und doch zeigt sich bei Wozniacki immer wieder die Bindung an eine Gruppe. 2014 lief sie den New-York-Marathon für ›Team for Kids‹, das Jugendprogramme des New Yorker Laufverbands finanziert, und brachte dabei mehr als 81.000 Dollar zusammen. Ihre Zeit, knapp unter drei Stunden und 27 Minuten, war die einer ernsthaften Läuferin, kein Showlauf.</p>
+          <p class="vb-intro">Nach dem Ende ihrer ersten Laufbahn 2020 arbeitete sie ab 2022 als Kommentatorin bei Tennis Channel und ESPN, also weiter mitten im Kreis ihres Sports. Und als sie 2023 ihre Rückkehr in einem Essay in der Zeitschrift Vogue ankündigte, begründete sie sie unter anderem damit, ihren Kindern zeigen zu wollen, dass man seine Träume unabhängig von Alter und Rolle verfolgen kann. Auch hier steht ein Anliegen für andere vor dem eigenen Ehrgeiz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Bindung an Familie und Vertraute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> gibt der sozialen Sieben eine Verankerung in vertrauten Menschen. Bei Wozniacki ist das der Vater und langjährige Trainer Piotr: Er sah sie bei einer der ersten Übungseinheiten ihrer Rückkehr und sagte, sie wirke, als habe sie mehr Freude am Spiel. Sie bestätigte, genau so fühle es sich an, entspannt und mit Spaß, und das lasse sie klarer sehen. Dazu kommen die Familie mit dem früheren NBA-Spieler David Lee, den sie im Juni 2019 heiratete, und die Freundschaft zu Serena Williams, deren Rückkehr nach der Geburt ihrer Tochter sie nach eigenen Worten inspirierte.</p>
+          <p class="vb-intro">Das lässt sich mit dem Muster des Sechserflügels in Verbindung bringen: Wer Sicherheit aus verlässlichen Beziehungen zieht, geht Wagnisse leichter ein. Wozniackis Entschluss zur Rückkehr fiel im Gespräch mit dem Vater und im Rückblick auf die Freude am Tennis, nicht in einer einsamen Entscheidung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die sportliche Substanz: Rückkehr auf höchstem Niveau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wozniackis Hauptwerk ist der Sieg bei den Australian Open 2018, ihr einziger Grand-Slam-Titel. Nach Angaben des WTA-Porträts wurde zuvor eine rheumatoide Arthritis bei ihr festgestellt, eine Autoimmunerkrankung, die Gelenke angreift, und sie ließ sich davon nicht aus dem Profisport drängen. Im Januar 2020 beendete sie bei den Australian Open ihre erste Laufbahn.</p>
+          <p class="vb-intro">Dass die Rückkehr kein Gnadenakt war, zeigen die Ergebnisse: Bei den US Open 2023 erreichte sie die vierte Runde und zwang die spätere Siegerin Coco Gauff in drei Sätze. 2024 stand sie in Indian Wells im Viertelfinale, kam in Wimbledon in die dritte Runde, erhielt eine Wildcard für die Olympischen Spiele in Paris und gab bei den US Open auf dem Weg ins Achtelfinale in drei Spielen nur zwölf Spiele ab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Freude am Tun. Wozniacki kehrte nicht zurück, um etwas zu beweisen, sondern weil ihr das Spiel fehlte, und sie verbindet Beruf und Familie, ohne eines dem anderen zu opfern. Dass sie damit auch anderen Frauen Mut machen will, die ihre Träume zugunsten der Familie zurückgestellt haben, passt zu einer Sieben, die für die Gemeinschaft baut.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Sieben bleibt selten bei einer Lösung: Nach dem Abschied 2020 kam 2023 die Rückkehr, und nach Berichten deutete sie Ende 2025 an, dass das Kapitel nun wohl abgeschlossen sein könnte, ohne es endgültig zu erklären. Dieses Offenhalten lässt sich mit der Neigung der Sieben in Verbindung bringen, Optionen nicht zu schließen. Hinzu kommt, dass eine Frau, die für andere ein Vorbild sein will, sich schwer erlaubt, einfach aufzuhören.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Sportlerinnen, zwei Rückkehrerinnen: Wozniacki und Williams</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-serena-williams">Serena Williams</a> (SX7w8) verbindet Wozniacki eine enge Freundschaft und der Weg zurück auf den Platz nach der Geburt von Kindern. Der Unterschied liegt im Subtyp: Williams verfolgt ihre Ziele mit der intensiven Wucht einer sexuellen Sieben mit Achterflügel, Wozniacki mit der gemeinschaftsbezogenen Leichtigkeit einer sozialen Sieben mit Sechserflügel, die Familie, Team und Freude am Spiel zusammenhält.</p>
+          <p class="vb-intro">Näher am eigenen Subtyp liegt <a href="javascript:void(0)" data-route="beruehmte-alexander-bommes">Alexander Bommes</a> (SO7w6), der als Handballprofi begann und später Moderator wurde. Auch Wozniacki wechselte nach dem Leistungssport ins Fernsehen und blieb dem Sport als Kommentatorin verbunden. Bei beiden bleibt das Thema dasselbe, die Gemeinschaft des Sports, und nur die Rolle darin wechselt.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-alexander-bommes", label:"Porträt: Alexander Bommes (SO7w6) – derselbe Subtyp"},
+        {route:"beruehmte-serena-williams", label:"Porträt: Serena Williams (SX7w8) – befreundete Tennisspielerin"},
+        {route:"beruehmte-philippe-sands", label:"Porträt: Philippe Sands (SO7w6)"},
+      ])}
+    </div>
+  `);
+}

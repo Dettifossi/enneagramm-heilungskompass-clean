@@ -77,6 +77,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-billie-lourd", label: "Neues EN-Porträt: Billie Lourd" },
   { hash: "#beruehmte-ruby-true", label: "Neues Porträt: Ruby True" },
   { hash: "en/#beruehmte-ruby-true", label: "Neues EN-Porträt: Ruby True" },
+  { hash: "#beruehmte-caroline-wozniacki", label: "Neues Porträt: Caroline Wozniacki" },
+  { hash: "en/#beruehmte-caroline-wozniacki", label: "Neues EN-Porträt: Caroline Wozniacki" },
 ];
 
 function startServer() {
