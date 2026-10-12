@@ -2944,7 +2944,7 @@ export function seanShermanPortraitPage() {
         <h2 class="vb-section">3. Der Einserflügel: strenge Regeln für ein gutes Essen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Zuwendung der Zwei ein inneres Regelwerk. Bei Sherman heißt es ›Dekolonisierung des Essens‹: Sein Ansatz verzichtet auf Zutaten, die erst durch die Kolonisierung auf den Tisch kamen. Nach dem Porträt des Guthrie Theaters stehen dort weder Milchprodukte noch Weizenmehl noch Rohrzucker auf der Karte, stattdessen vor allem wilde Pflanzen und Wild wie Bison. Diese Regeln dienen ihm als Maßstab für Herkunft und Qualität.</p>
-          <p class="vb-intro">Zugleich legt er Wert darauf, dass es nicht um ein Museumsstück geht. Sein Kochbuch ›Turtle Island‹ (2025; ›Schildkröteninsel‹, ein indigener Name für Nordamerika) will nach seinen Worten nicht zeigen, wie man 1491 gekocht hat, sondern wo indigene Küche heute steht. Darin verbinden sich die Prinzipientreue des Einsers und das Interesse der Zwei an dem, was Menschen heute tatsächlich nährt.</p>
+          <p class="vb-intro">Zugleich legt er Wert darauf, dass es nicht um ein Museumsstück geht. Sein Kochbuch ›Turtle Island‹ (2025; ›Schildkröteninsel‹, ein indigener Name für Nordamerika) will nach seinen Worten nicht zeigen, wie man 1491 gekocht hat, sondern wo indigene Küche heute steht. Darin verbinden sich die Prinzipientreue des Einserflügels und das Interesse der Zwei an dem, was Menschen heute tatsächlich nährt.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: vom Imbisswagen zum Restaurant des Jahres</h2>

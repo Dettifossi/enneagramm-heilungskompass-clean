@@ -2939,7 +2939,7 @@ export function seanShermanPortraitPage() {
         <h2 class="vb-section">3. The One-Wing: Strict Rules for Good Food</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Two's care an inner rulebook. In Sherman it is called &lsquo;decolonising food&rsquo;: his approach omits ingredients that arrived on the table only through colonisation. According to the Guthrie Theater's profile, the menu includes no dairy, wheat flour or cane sugar, but instead mainly wild plants and game such as bison. These rules serve him as a measure of origin and quality.</p>
-          <p class="vb-intro">At the same time he stresses that this is not about a museum piece. His cookbook &lsquo;Turtle Island&rsquo; (2025; an Indigenous name for North America) is, in his words, not meant to show how people cooked in 1491 but where Indigenous cuisine stands today. In this the One's fidelity to principle combines with the Two's interest in what actually nourishes people today.</p>
+          <p class="vb-intro">At the same time he stresses that this is not about a museum piece. His cookbook &lsquo;Turtle Island&rsquo; (2025; an Indigenous name for North America) is, in his words, not meant to show how people cooked in 1491 but where Indigenous cuisine stands today. In this the One-wing's fidelity to principle combines with the Two's interest in what actually nourishes people today.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Substance: From Food Truck to Restaurant of the Year</h2>
