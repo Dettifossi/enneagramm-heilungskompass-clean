@@ -3150,7 +3150,7 @@ export function carolineWozniackiPortraitPage() {
         <h2 class="vb-section">4. Die sportliche Substanz: Rückkehr auf höchstem Niveau</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Wozniackis Hauptwerk ist der Sieg bei den Australian Open 2018, ihr einziger Grand-Slam-Titel. Nach Angaben des WTA-Porträts wurde zuvor eine rheumatoide Arthritis bei ihr festgestellt, eine Autoimmunerkrankung, die Gelenke angreift, und sie ließ sich davon nicht aus dem Profisport drängen. Im Januar 2020 beendete sie bei den Australian Open ihre erste Laufbahn.</p>
-          <p class="vb-intro">Dass die Rückkehr kein Gnadenakt war, zeigen die Ergebnisse: Bei den US Open 2023 erreichte sie die vierte Runde und zwang die spätere Siegerin Coco Gauff in einen dritten Satz. 2024 stand sie in Indian Wells im Viertelfinale, kam in Wimbledon in die dritte Runde, erhielt eine Wildcard für die Olympischen Spiele in Paris und gab bei den US Open auf dem Weg ins Achtelfinale in drei Spielen nur zwölf Spiele ab.</p>
+          <p class="vb-intro">Dass die Rückkehr kein Gnadenakt war, zeigen die Ergebnisse: Bei den US Open 2023 erreichte sie die vierte Runde und zwang die spätere Siegerin Coco Gauff in einen dritten Satz. 2024 stand sie in Indian Wells im Viertelfinale, kam in Wimbledon in die dritte Runde, erhielt eine Wildcard für die Olympischen Spiele in Paris und verlor bei den US Open auf dem Weg ins Achtelfinale in drei Matches insgesamt nur zwölf Spiele.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten der sozialen Sieben mit Sechserflügel</h2>
