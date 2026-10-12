@@ -1175,7 +1175,6 @@ export function franzSchubertPortraitPage() {
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-fjodor-dostojewski", label:"Porträt: Fjodor Dostojewski (SE6w5)"},
         {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
-        {route:"beruehmte-reinhard-mey", label:"Porträt: Reinhard Mey (SE6w7) – derselbe Grundtyp, deutschsprachige Liedkunst im Vergleich"},
         {route:"krankheitsportraets-fjodor-dostojewski", label:"Krankheitsporträt: Fjodor Dostojewski (SE6w5) – Parallele zu Schuberts geteiltem Leiden"},
         {route:"krankheitsportraets-franz-schubert", label:"Krankheitsporträt: Franz Schubert – Syphilis & Winterreise"},
       ])}

@@ -1378,45 +1378,45 @@ export function reinhardMeyPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-reinhard-mey-portrait.jpg" alt="Reinhard Mey" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Reinhard Mey</p>
-        <p class="krim-portrait-typ">SE6w7 · Selbsterhaltender Typ 6 mit Siebenerflügel</p>
-        <p class="krim-portrait-subtitle">Deutscher Liedermacher, geb. 1942 – Tierentsprechung: Kaninchen</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Sozialer Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Liedermacher, geb. 1942 in Berlin &ndash; Tierentsprechung: Gürteltier</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Das Kaninchen mit der Gitarre</h2>
+        <h2 class="vb-section">1. Das Gürteltier mit der Gitarre</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier der selbsterhaltenden Sechs: ständig wachsam gegenüber Gefahr, Sicherheit suchend im Vertrauten statt auf der großen Bühne. Reinhard Mey verkörpert genau diese Kombination: seit über fünf Jahrzehnten einer der erfolgreichsten deutschen Liedermacher, und dennoch nie jemand, der sein Privatleben öffentlich ausbreitete oder um Aufmerksamkeit jenseits seiner Lieder warb.</p>
-          <p class="vb-intro">Reinhard Mey, 1942 in Berlin geboren, gehört seit den späten 1960er-Jahren zu den prägendsten Vertretern der deutschen Liedermacher-Szene. Seine Lieder sind textlastig, wortreich, oft von einer wehmütigen Grundfärbung getragen &ndash; aber eben auch durchzogen von leiser, sanfter Ironie und einem wachen Blick auf Behörden, Obrigkeit und die eigene Zeit.</p>
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier der sozialen Vier: ein harter Panzer nach außen, darunter ein außergewöhnlich empfindsames Inneres. Reinhard Mey passt zu diesem Bild: Er ist seit über fünf Jahrzehnten einer der erfolgreichsten deutschen Liedermacher und hält sein Privatleben dennoch hinter einem dichten Panzer, während in seinen Liedern das Empfindsame offen liegt.</p>
+          <p class="vb-intro">Reinhard Mey wurde am 21. Dezember 1942 in Berlin geboren und besuchte das Französische Gymnasium. In den 1960er-Jahren sang er zunächst Chansons, trat in Frankreich als Frédérik Mey auf und kam erst von dort zurück zu deutschen Texten. Anfang der 1970er-Jahre setzte sich der Erfolg durch, mit Liedern wie &sbquo;Mein Achtel Lorbeerblatt&lsquo; (1972) und &sbquo;Über den Wolken&lsquo; (1974), das in einer ZDF-Wahl auf Platz vier der besten Lieder des Jahrhunderts kam. Er schrieb mehr als 500 Lieder und gilt als Alleingänger unter den deutschen Liedermachern.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Wachsamkeit im Vertrauten statt auf der großen Bühne</h2>
+        <h2 class="vb-section">2. Die soziale Vier: Anderssein innerhalb der Gemeinschaft</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Naranjo nannte die selbsterhaltende Sechs <em>Wärme</em>: Sicherheit entsteht nicht durch Zugehörigkeit zu einer großen Gruppe oder durch öffentliches Engagement für die Gesellschaft, sondern durch den engen, vertrauten Kreis &ndash; Familie, wenige verlässliche Bindungen, ein geschütztes Zuhause. Bei Mey zeigt sich das in einem außergewöhnlich abgeschirmten Privatleben: Über fünf Jahrzehnte Bühnenpräsenz, und doch bleibt sein persönliches Leben weitgehend unsichtbar &ndash; kein Homestory-Material, keine öffentliche Selbstdarstellung jenseits der Lieder.</p>
-          <p class="vb-intro">Auch sein berühmtester Protestsong "Nein, meine Söhne geb' ich nicht" (1986) richtet sich nicht an die Gesellschaft als Ganzes, sondern ist zuerst ein sehr persönliches Statement: der Schutz der eigenen Kinder vor Krieg und staatlichem Zugriff. Das ist die selbsterhaltende Sechs in Reinform &ndash; die Wachsamkeit gilt zuerst dem eigenen, engsten Kreis, nicht einem abstrakten gesellschaftlichen Anliegen.</p>
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> trägt nach Naranjo die Scham: das Gefühl, nicht ganz dazuzugehören, und zugleich den Wunsch, von der Gemeinschaft doch gesehen zu werden. Bei Mey zeigt sich das in seiner Stellung im Musikgeschäft: Er passte nie in die Schlagerwelt, bediente nicht den Zeitgeschmack und blieb mit Gitarre, langen Textzeilen und leiser Ironie ein Einzelgänger, der trotzdem ein großes Publikum erreichte, über Generationen hinweg.</p>
+          <p class="vb-intro">Auch sein Protestlied &sbquo;Nein, meine Söhne geb&lsquo; ich nicht&lsquo; (1986) ist keine Parole für die Menge, sondern ein sehr persönliches Bekenntnis: Der Schutz der eigenen Kinder vor Krieg und staatlichem Zugriff. Das Anderssein richtet sich gegen Obrigkeit und Behörde, etwa im &sbquo;Antrag auf Erteilung eines Antragsformulars&lsquo;, und bleibt dabei der Gemeinschaft zugewandt.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. Der Siebenerflügel: Wachsamkeit, die sich in Wortwitz und Bewegung verwandelt</h2>
+        <h2 class="vb-section">3. Der Dreierflügel: Handwerk, Vorbereitung und Erfolg</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Eine selbsterhaltende Sechs mit ausgeprägtem Fünferflügel würde ihre Wachsamkeit eher in stillem Rückzug und analytischer Distanz ausleben. Bei Mey zeigt sich stattdessen der <strong>Siebenerflügel</strong>: Seine Lieder über Bürokratie &ndash; etwa der "Antrag auf Erteilung eines Antragsformulars" &ndash; verwandeln dieselbe Wachsamkeit gegenüber Behörden und Obrigkeit nicht in Angst oder Rückzug, sondern in sprachverliebte, textreiche Satire. Sein eigener Song "Sei wachsam" bringt das Grundthema fast wörtlich auf den Punkt: ständige Alarmbereitschaft, aber künstlerisch verarbeitet, nicht gelähmt davon.</p>
-          <p class="vb-intro">Dazu passt, dass er trotz über fünfzig Jahren Bühnenerfahrung von einem Lampenfieber spricht, das nie nachgelassen habe: "Es ist jeden Abend da. Es ist der Motor, der mich antreibt … der Wettkampf mit mir selbst, der freie Fall, der Triumph über die Angst." Er erscheint rund fünf Stunden vor einem großen Auftritt in der Halle, macht einen gründlichen Soundcheck &ndash; und spielt danach, allein, das gesamte Konzertprogramm einmal vollständig durch, egal wie oft er es schon gespielt hat. Das ist typische Sechser-Vorsorge: Sicherheit wird nicht durch Vertrauen in die eigene Begabung hergestellt, sondern durch wiederholte, kontrollierte Vorbereitung. Der Siebenerflügel sorgt dafür, dass daraus keine lähmende Angst, sondern ein lebendiger, fast sportlicher "Triumph über die Angst" wird &ndash; Nervenkitzel statt Erstarrung.</p>
+          <p class="vb-intro">Der <strong>Dreierflügel</strong> bringt Leistung und Wirkung ins Spiel, und das zeigt sich bei Mey als Handwerk. Er erscheint rund fünf Stunden vor einem großen Auftritt in der Halle, macht einen gründlichen Soundcheck und spielt danach allein das gesamte Konzertprogramm einmal durch. Er spricht von einem Lampenfieber, das nie nachgelassen habe: &sbquo;Es ist jeden Abend da. Es ist der Motor, der mich antreibt … der Wettkampf mit mir selbst, der freie Fall, der Triumph über die Angst.&lsquo;</p>
+          <p class="vb-intro">Der Erfolg ist die sichtbare Seite des Dreierflügels: Etwa alle zwei bis drei Jahre geht er auf eine ausgedehnte Tournee, von jeder erscheint ein Live-Album, und 1973 erwarb er sogar die Privatpilotenlizenz, drei Jahre später die Instrumentenflugberechtigung. Das Fliegen, das ihn zu &sbquo;Über den Wolken&lsquo; trug, ist Leistung und Freiheit zugleich.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Der Verlust des Sohnes: privater Schmerz, nur behutsam nach außen getragen</h2>
+        <h2 class="vb-section">4. Der Verlust des Sohnes: Der Panzer und das Empfindsame darunter</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">2009 erlitt Meys Sohn Maximilian eine schwere Lungenentzündung, die ihn ins Koma versetzte; er starb 2014 im Alter von 32 Jahren, ohne das Bewusstsein wiedererlangt zu haben. Mey machte diesen Verlust nie zum öffentlichen Dauerthema, verarbeitete ihn aber in dem Lied "Du bist ein Riese, Max!" &ndash; darin auch der Gedanke, wie Eltern ihre Kinder durch Erziehung oft klein statt groß werden lassen. Genau das ist die selbsterhaltende Sechs: das zutiefst Persönliche wird nicht verschwiegen, aber auch nicht zum öffentlichen Statement gemacht &ndash; es bleibt, in Liedform behutsam verarbeitet, im Kern eine private Angelegenheit des engsten Kreises.</p>
-          <p class="vb-intro">Sein erklärtes erzieherisches Prinzip &ndash; seinen Söhnen bewusst viel Freiraum zu lassen, sie "sein zu lassen", statt sie in eine bestimmte Form zu drängen &ndash; liest sich wie der Versuch, die eigene, wache Vorsicht nicht ungefiltert an die nächste Generation weiterzugeben.</p>
+          <p class="vb-intro">2009 erlitt Meys Sohn Maximilian eine schwere Lungenentzündung, die ihn ins Koma versetzte; er starb 2014 im Alter von 32 Jahren, ohne das Bewusstsein wiedererlangt zu haben. Mey machte den Verlust nie zum öffentlichen Dauerthema, verarbeitete ihn aber in dem Lied &sbquo;Du bist ein Riese, Max!&lsquo;, auch mit dem Gedanken, wie Eltern ihre Kinder durch Erziehung oft klein statt groß werden lassen. Das ist das Gürteltier: das zutiefst Persönliche bleibt geschützt, aber in der Kunst darf es sichtbar werden.</p>
+          <p class="vb-intro">Sein erklärtes erzieherisches Prinzip, den Söhnen viel Freiraum zu lassen und sie &sbquo;sein zu lassen&lsquo;, passt zu einer Vier, die das eigene Anderssein schätzt und es anderen zugesteht.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Sechs mit Siebenerflügel</h2>
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Vier mit Dreierflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE6w7 zeigt sich in Meys Fähigkeit, Wachsamkeit und Vorsicht nicht in Lähmung, sondern in ein über fünfzig Jahre tragfähiges, lebendiges Werk zu verwandeln &ndash; "Gute Nacht, Freunde", "Über den Wolken" und viele mehr wurden zu einem festen Bestandteil des deutschsprachigen Liedguts, weil in ihnen echte, künstlerisch verarbeitete Wachheit steckt, keine kalkulierte Pose.</p>
-          <p class="vb-intro">Der Schatten liegt in der Gefahr, dass die ständige Wachsamkeit trotz des Siebenerflügels nie wirklich zur Ruhe kommt: Auch nach über fünfzig Jahren und Tausenden Konzerten bleibt das Lampenfieber unverändert stark &ndash; die Sicherheit, die durch Vorbereitung und Routine gesucht wird, stellt sich offenbar nie endgültig ein, sondern muss vor jedem einzelnen Auftritt neu erkämpft werden.</p>
+          <p class="vb-intro">Das Licht zeigt sich in der Verbindung von Tiefe und Reichweite: &sbquo;Gute Nacht, Freunde&lsquo;, &sbquo;Über den Wolken&lsquo; und viele weitere wurden fester Bestandteil des deutschsprachigen Liedguts, weil in ihnen echtes Gefühl und sorgfältiges Handwerk zusammenkommen.</p>
+          <p class="vb-intro">Der Schatten liegt in der Anspannung hinter dem Gelingen: Auch nach Tausenden Konzerten bleibt das Lampenfieber unverändert stark, und der Anspruch, vor sich selbst zu bestehen, muss vor jedem Auftritt neu eingelöst werden. Der Wunsch, gesehen zu werden, und der Schutz des Privaten stehen dabei nebeneinander.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Zwei Kaninchen, die ihre Wachsamkeit in Kunst verwandelten</h2>
+        <h2 class="vb-section">6. Zwei soziale Vierer, die ihr Anderssein in Erfolg verwandelten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-woody-allen">Woody Allen</a> (SE6w7): Auch bei ihm zeigt sich dieselbe Grundkombination &ndash; eine über Jahrzehnte unveränderte, fast rituelle Angst (bei Allen eine seit den 1950er-Jahren dokumentierte Gesundheitsangst, über 35 Jahre Psychoanalyse), die der Siebenerflügel nicht lähmt, sondern in ein konsistentes, humorvolles Lebenswerk verwandelt. Beide bleiben dabei auffällig in ihrer gewohnten Form verhaftet &ndash; Allen fast sein ganzes Leben in Manhattan, auf bekannten Wegen und zu bekannten Zeiten, Mey über fünfzig Jahre mit Gitarre und Stimme, ohne je in andere Ausdrucksformen zu wechseln.</p>
-          <p class="vb-intro">Beide verwandeln ihre Wachsamkeit zudem in Sprache statt in stummen Rückzug: Allens pointierter, selbstironischer Witz und Meys wortreiche, sanft-ironische Bürokratie-Satire sind zwei verschiedene nationale Ausprägungen derselben Grundbewegung &ndash; die Angst wird nicht verdrängt, sondern beredt gemacht. Mehr dazu im <a href="javascript:void(0)" data-route="beruehmte-woody-allen">Porträt zu Woody Allen</a>.</p>
+          <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-cat-stevens">Cat Stevens / Yusuf Islam</a> (SO4w3): Auch er ist ein Liedermacher mit sanfter, sehr persönlicher Stimme, der großen Erfolg hatte und sich dennoch zeitlebens als Außenseiter und Suchender zeigte. Bei beiden verbindet der Dreierflügel die Empfindsamkeit mit der Fähigkeit, ein großes Publikum zu erreichen.</p>
+          <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-hugh-grant">Hugh Grant</a> (SO4w3) zeigt, wie die soziale Vier mit Dreierflügel Erfolg und Distanz zum eigenen Ruhm verbindet: Der Panzer bleibt, auch wenn die Bühne groß ist.</p>
         </blockquote>
 
       </div>
@@ -1425,10 +1425,9 @@ export function reinhardMeyPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
-        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
-        {route:"beruehmte-woody-allen", label:"Porträt: Woody Allen (SE6w7) – dieselbe Wachsamkeit, in Humor statt in Rückzug verwandelt"},
-        {route:"beruehmte-katie-couric", label:"Porträt: Katie Couric (SE6w7)"},
-        {route:"beruehmte-fjodor-dostojewski", label:"Porträt: Fjodor Dostojewski (SE6w5)"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-cat-stevens", label:"Porträt: Cat Stevens / Yusuf Islam (SO4w3) – derselbe Subtyp"},
+        {route:"beruehmte-hugh-grant", label:"Porträt: Hugh Grant (SO4w3)"},
       ])}
     </div>
   `);

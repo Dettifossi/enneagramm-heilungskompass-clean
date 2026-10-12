@@ -1298,45 +1298,45 @@ export function reinhardMeyPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-reinhard-mey-portrait.jpg" alt="Reinhard Mey" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Reinhard Mey</p>
-        <p class="krim-portrait-typ">SE6w7 &middot; Self-Preservation Type 6 with Seven-Wing</p>
-        <p class="krim-portrait-subtitle">German singer-songwriter, b. 1942 &ndash; Animal correspondence: Rabbit</p>
+        <p class="krim-portrait-typ">SO4w3 &middot; Social Type 4 with Three-Wing</p>
+        <p class="krim-portrait-subtitle">German singer-songwriter, b. 1942 in Berlin &ndash; Animal correspondence: Armadillo</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Rabbit with a Guitar</h2>
+        <h2 class="vb-section">1. The Armadillo with a Guitar</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>rabbit</strong> is the animal of the self-preservation Six: constantly alert to danger, seeking safety in the familiar rather than on the big stage. Reinhard Mey embodies exactly this combination: for over five decades one of the most successful German singer-songwriters, yet never someone who spread his private life out in public or courted attention beyond his songs.</p>
-          <p class="vb-intro">Reinhard Mey, born in Berlin in 1942, has been one of the most defining figures of the German singer-songwriter scene since the late 1960s. His songs are word-dense, wordy, often carried by a wistful undertone &ndash; but just as often threaded through with quiet, gentle irony and a watchful eye on authorities, officialdom and his own era.</p>
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four: a hard shell on the outside, an exceptionally sensitive interior underneath. Reinhard Mey fits this image: for over five decades one of the most successful German singer-songwriters, he nevertheless keeps his private life behind a dense shell while the sensitive side lies open in his songs.</p>
+          <p class="vb-intro">Reinhard Mey was born on 21 December 1942 in Berlin and attended the French Gymnasium. In the 1960s he first sang chansons, appeared in France as Frédérik Mey and only from there returned to German lyrics. The breakthrough came in the early 1970s, with songs like "Mein Achtel Lorbeerblatt" ("My Eighth of a Laurel Leaf," 1972) and "Über den Wolken" ("Above the Clouds," 1974), which a ZDF poll ranked fourth among the best songs of the century. He wrote more than 500 songs and is regarded as a lone figure among German singer-songwriters.</p>
         </blockquote>
 
-        <h2 class="vb-section">2. The Self-Preservation Six: Vigilance in the Familiar, Not on the Big Stage</h2>
+        <h2 class="vb-section">2. The Social Four: Being Different Within the Community</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Naranjo called the self-preservation Six's passion <em>Warmth</em>: security arises not through belonging to a large group or public engagement for society, but through the close, familiar circle &ndash; family, a few reliable bonds, a protected home. In Mey this shows in an unusually shielded private life: over five decades of stage presence, and yet his personal life remains largely invisible &ndash; no home-story material, no public self-display beyond the songs.</p>
-          <p class="vb-intro">Even his most famous protest song, "Nein, meine Söhne geb' ich nicht" ("No, I Won't Give Up My Sons," 1986), is not addressed to society as a whole but is first and foremost a very personal statement: protecting his own children from war and state power. This is the self-preservation Six in its purest form &ndash; vigilance directed first at one's own closest circle, not at an abstract social cause.</p>
+          <p class="vb-intro">According to Naranjo, the <strong>social Four (SO4)</strong> carries <em>Shame</em>: the feeling of not quite belonging, together with the wish to be seen by the community after all. In Mey this shows in his role as a loner in the business: he never fitted the Schlager world, never served the taste of the day and remained, with guitar, long lines of text and quiet irony, a solitary figure who still reached a large audience across generations.</p>
+          <p class="vb-intro">Even his protest song "Nein, meine Söhne geb' ich nicht" ("No, I Won't Give Up My Sons," 1986) is not a slogan for the crowd but a very personal statement: protecting his own children from war and the state's grasp. His otherness is aimed at authority and bureaucracy, as in the "Antrag auf Erteilung eines Antragsformulars" ("Application for Issuing an Application Form"), and stays turned toward the community.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Seven-Wing: Vigilance Turned Into Wordplay and Motion</h2>
+        <h2 class="vb-section">3. The Three-Wing: Craft, Preparation and Success</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">A self-preservation Six with a pronounced Five-wing would likely live out its vigilance through quiet withdrawal and analytical distance. Mey instead shows the <strong>Seven-wing</strong>: his songs about bureaucracy &ndash; such as "Antrag auf Erteilung eines Antragsformulars" ("Application for the Issuance of an Application Form") &ndash; turn the same vigilance toward authorities and officialdom not into fear or withdrawal, but into word-loving, wordy satire. His own song "Sei wachsam" ("Be Vigilant") spells out the underlying theme almost literally: constant alertness, but artistically processed rather than paralyzed by it.</p>
-          <p class="vb-intro">Fittingly, despite more than fifty years of stage experience, he describes stage fright that has never eased: "It's there every evening. It's the engine that drives me … the contest with myself, the free fall, the triumph over fear." He arrives at the venue roughly five hours before a big show, does a thorough soundcheck &ndash; and then, alone, plays through the entire concert program once from start to finish, no matter how many times he has already played it. This is typical Six-style precaution: security is produced not by trusting one's own talent, but by repeated, controlled preparation. The Seven-wing ensures that this becomes not paralyzing fear but a lively, almost athletic "triumph over fear" &ndash; a thrill rather than a freeze.</p>
+          <p class="vb-intro">The <strong>Three-wing</strong> brings achievement and impact into play, and in Mey it shows as craft. He arrives about five hours before a big performance, does a thorough soundcheck and then plays the entire concert programme through once, alone. He speaks of stage fright that has never eased: "It's there every evening. It's the engine that drives me … the contest with myself, the free fall, the triumph over fear."</p>
+          <p class="vb-intro">Success is the visible side of the Three-wing: roughly every two to three years he goes on an extended tour, a live album appears from each, and in 1973 he even acquired a private pilot's licence, three years later the instrument rating. Flying, which carried him to "Über den Wolken," is achievement and freedom at once.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The Loss of a Son: Private Pain, Carried Outward Only Carefully</h2>
+        <h2 class="vb-section">4. The Loss of a Son: The Shell and the Sensitivity Beneath</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">In 2009, Mey's son Maximilian suffered severe pneumonia that left him in a coma; he died in 2014 at age 32, never having regained consciousness. Mey never turned this loss into a recurring public topic, but processed it in the song "Du bist ein Riese, Max!" ("You're a Giant, Max!") &ndash; which also carries the thought of how parents, through their upbringing, often make their children small instead of letting them grow big. This is exactly the self-preservation Six: the deeply personal is not silenced, but also not turned into a public statement &ndash; it remains, carefully processed in song form, at its core a private matter of the closest circle.</p>
-          <p class="vb-intro">His declared parenting principle &ndash; deliberately giving his sons a great deal of freedom, "letting them be," rather than pushing them into a fixed shape &ndash; reads like an attempt not to pass his own watchful caution on unfiltered to the next generation.</p>
+          <p class="vb-intro">In 2009, Mey's son Maximilian suffered severe pneumonia that left him in a coma; he died in 2014 at age 32, never having regained consciousness. Mey never made the loss a recurring public topic but processed it in the song "Du bist ein Riese, Max!" ("You Are a Giant, Max!"), including the thought of how parents often make their children small rather than great through upbringing. This is the armadillo: the deeply personal stays protected, yet in art it may become visible.</p>
+          <p class="vb-intro">His stated parenting principle of leaving his sons plenty of freedom and "letting them be" suits a Four who values his own otherness and grants it to others.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Six with a Seven-Wing</h2>
+        <h2 class="vb-section">5. Light and Shadow of the Social Four with a Three-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE6w7 shows in Mey's ability to turn vigilance and caution not into paralysis but into a body of work that has carried for over fifty years &ndash; "Gute Nacht, Freunde" ("Good Night, Friends"), "Über den Wolken" ("Above the Clouds"), and many more became a fixed part of the German-language songbook because they carry real, artistically processed alertness, not a calculated pose.</p>
-          <p class="vb-intro">The shadow lies in the risk that, despite the Seven-wing, the constant vigilance never truly settles: even after more than fifty years and thousands of concerts, the stage fright remains unchanged &ndash; the security sought through preparation and routine apparently never arrives for good, but must be won anew before every single performance.</p>
+          <p class="vb-intro">The light shows in the union of depth and reach: "Gute Nacht, Freunde" ("Good Night, Friends"), "Über den Wolken" and many more became fixtures of the German-language song repertoire because real feeling and careful craft meet in them.</p>
+          <p class="vb-intro">The shadow lies in the tension behind the success: even after thousands of concerts the stage fright remains as strong as ever, and the demand to measure up in his own eyes must be met anew before every performance. The wish to be seen and the protection of the private stand side by side.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Two Rabbits Who Turned Their Vigilance Into Art</h2>
+        <h2 class="vb-section">6. Two Social Fours Who Turned Their Otherness into Success</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-woody-allen">Woody Allen</a> (SE6w7): he too shows the same basic combination &ndash; a fear that has remained unchanged, almost ritual, across decades (in Allen's case a health anxiety documented since the 1950s, more than 35 years of psychoanalysis) that the Seven-wing does not paralyze but turns into a consistent, humorous body of work. Both remain noticeably attached to their accustomed form &ndash; Allen spending nearly his whole life in Manhattan, on familiar routes at familiar times, Mey for over fifty years with guitar and voice, never switching to other forms of expression.</p>
-          <p class="vb-intro">Both also turn their vigilance into language rather than silent withdrawal: Allen's pointed, self-deprecating wit and Mey's word-rich, gently ironic bureaucracy satire are two different national expressions of the same underlying movement &ndash; fear is not repressed, but made eloquent. More in the <a href="javascript:void(0)" data-route="beruehmte-woody-allen">portrait of Woody Allen</a>.</p>
+          <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-cat-stevens">Cat Stevens / Yusuf Islam</a> (SO4w3): he too is a singer-songwriter with a gentle, very personal voice who had great success yet showed himself all his life as an outsider and seeker. In both, the Three-wing joins sensitivity with the ability to reach a large audience.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-hugh-grant">Hugh Grant</a> (SO4w3) also shows how the social Four with a Three-wing combines success with distance from his own fame: the shell stays, even when the stage is big.</p>
         </blockquote>
 
       </div>
@@ -1345,10 +1345,9 @@ export function reinhardMeyPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
-        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
-        {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SE6w7) – the same vigilance, turned into humor instead of satire"},
-        {route:"beruehmte-katie-couric", label:"Portrait: Katie Couric (SE6w7)"},
-        {route:"beruehmte-fjodor-dostojewski", label:"Portrait: Fyodor Dostoevsky (SE6w5)"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-cat-stevens", label:"Portrait: Cat Stevens / Yusuf Islam (SO4w3) – same subtype"},
+        {route:"beruehmte-hugh-grant", label:"Portrait: Hugh Grant (SO4w3)"},
       ])}
     </div>
   `);
