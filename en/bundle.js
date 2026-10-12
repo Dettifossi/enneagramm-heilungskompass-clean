@@ -10053,7 +10053,7 @@ function _gsFillContactLinks(mailSubject, waText, sfx) {
 function _gsFinishPhotoScan() {
   if (_gsStream) { _gsStream.getTracks().forEach(t => t.stop()); }
   _gsQ("gs-photo-grid").innerHTML = _gsShots.map((s, i) =>
-    `<div class="gs-photo-card"><img src="${s.url}"><button onclick="_gsSaveShot(${i})">📥 Save</button></div>`
+    `<div class="gs-photo-card"><img src="${s.url}" alt="Captured photo"><button onclick="_gsSaveShot(${i})">📥 Save</button></div>`
   ).join("");
   const canShareFiles = !!(navigator.canShare && navigator.canShare({ files: [new File([""], "t.jpg", { type: "image/jpeg" })] }));
   _gsQ("gs-save-hint").textContent = canShareFiles
@@ -15569,7 +15569,7 @@ function bindEvents() {
       const code = el.dataset.comicOpen;
       const lb = document.createElement("div");
       lb.style.cssText = "position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.92);display:flex;align-items:center;justify-content:center;cursor:zoom-out;padding:1rem;";
-      lb.innerHTML = `<img src="${CDN}assets/comics/${code}.jpg" style="max-width:100%;max-height:100vh;border-radius:0.5rem;box-shadow:0 8px 40px rgba(0,0,0,0.6);filter:contrast(1.08);" />`;
+      lb.innerHTML = `<img src="${CDN}assets/comics/${code}.jpg" alt="Comic for subtype ${code}" style="max-width:100%;max-height:100vh;border-radius:0.5rem;box-shadow:0 8px 40px rgba(0,0,0,0.6);filter:contrast(1.08);" />`;
       lb.addEventListener("click", () => lb.remove());
       document.body.appendChild(lb);
     });
@@ -50727,7 +50727,7 @@ function renderAlbumGrid(grid, code, fotos) {
   if (!fotos.length) { grid.innerHTML = ""; return; }
   grid.innerHTML = fotos.map((f, i) => `
     <div onclick="window.__albumOpenLb('${code}',${i})" style="cursor:pointer;text-align:center;">
-      <img src="${f.dataUrl}" style="width:60px;height:60px;object-fit:cover;border-radius:8px;border:2px solid var(--border);" />
+      <img src="${f.dataUrl}" alt="Photo" style="width:60px;height:60px;object-fit:cover;border-radius:8px;border:2px solid var(--border);" />
       ${f.name ? `<p style="font-size:0.68rem;color:var(--muted);margin:0.2rem 0 0;max-width:60px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${f.name}</p>` : ""}
     </div>`).join("");
 }
@@ -54057,7 +54057,7 @@ function openCropDialog(src, onConfirm) {
   overlay.innerHTML = `
     <p style="color:#fff;font-size:0.9rem;margin:0;">Bild verschieben &amp; zoomen, dann bestätigen</p>
     <div id="crop-wrap" style="position:relative;width:${SIZE}px;height:${SIZE}px;border-radius:50%;overflow:hidden;border:3px solid #c4a456;cursor:grab;touch-action:none;flex-shrink:0;">
-      <img id="crop-img" src="${src}" style="position:absolute;transform-origin:0 0;user-select:none;pointer-events:none;" />
+      <img id="crop-img" src="${src}" alt="Image crop" style="position:absolute;transform-origin:0 0;user-select:none;pointer-events:none;" />
       <div style="position:absolute;inset:0;border-radius:50%;box-shadow:0 0 0 9999px rgba(0,0,0,0.55);pointer-events:none;"></div>
     </div>
     <div style="display:flex;align-items:center;gap:0.6rem;">

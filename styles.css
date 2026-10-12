@@ -5651,3 +5651,6 @@ button, a, [role="button"], [data-route], summary, label, select, input { touch-
     scroll-behavior: auto !important;
   }
 }
+
+/* Klickbare Flächen (Karten) per Tastatur: sichtbarer Fokus (siehe a11y.js) */
+[role="button"][data-route]:focus-visible { outline: 2px solid var(--gold, #c9a84c); outline-offset: 2px; }
