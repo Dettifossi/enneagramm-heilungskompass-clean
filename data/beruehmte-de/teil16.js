@@ -3089,7 +3089,7 @@ export function rubyTruePortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten der sexuellen Sechs mit Siebenerflügel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht liegt im niedrigschwelligen Zugang: Wer abends nicht schlafen kann oder unter Anspannung leidet, findet bei True jederzeit auf YouTube einen ruhigen Klang, ohne Anmeldung und ohne Termin. Sie verbindet damit ein Angebot für einsame Stunden mit der Nähe, die ASMR möglich macht.</p>
-          <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Nähe in ASMR-Videos ist einseitig: Der Zuschauer erlebt Zuwendung, die für alle gleichzeitig gilt, und das kann eine Bindung an die Figur erzeugen, die mehr trägt, als sie leisten kann. Dazu kommt die Sechs-Frage nach Sicherheit: Wer über Plattformen und eine Unterstützergemeinschaft wie Patreon arbeitet, hängt von Algorithmen und Abonnenten ab, und die sexuelle Sechs sucht in dieser Lage gern die Verlässlichkeit eines treuen Rudels.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Nähe in ASMR-Videos ist einseitig: Der Zuschauer erlebt Zuwendung, die für alle gleichzeitig gilt, und das kann eine Bindung an die Figur erzeugen, die mehr trägt, als sie leisten kann. Dazu kommt die Sechser-Frage nach Sicherheit: Wer über Plattformen und eine Unterstützergemeinschaft wie Patreon arbeitet, hängt von Algorithmen und Abonnenten ab, und die sexuelle Sechs sucht in dieser Lage gern die Verlässlichkeit eines treuen Rudels.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Heilende Stimmen: True, Hay und Katie</h2>
