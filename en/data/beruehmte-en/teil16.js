@@ -3078,6 +3078,7 @@ export function rubyTruePortraitPage() {
         <h2 class="vb-section">4. The Substance: Sound as a Craft</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">By her own account, True is a qualified sound therapist, Reiki practitioner, Thai yoga massage therapist and yoga teacher. These details come from her own profiles and could not be independently checked. Her craft is verifiable: she plays Tibetan and crystal singing bowls, tuning forks and Koshi chimes (wind chimes tuned to the elements) and takes care with recordings without singing, in which instrument and ambient sounds work alone.</p>
+          <p class="vb-intro">Whoever is looking for relaxation and a release from tension will also find a space of their own in this app: in the <a href="javascript:void(0)" data-route="stille">Stillness</a> section you can start a stillness practice, one minute for each Enneagram type, with a freely chosen duration. There is also a large selection of background sounds, from rain, sea, forest and fire through whale song and heartbeat to singing bowl and noise, or simply silence.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow of the Sexual Six with a Seven-Wing</h2>
@@ -3102,6 +3103,7 @@ export function rubyTruePortraitPage() {
         {route:"lebensmusterkompass/sx6", label:"Life Pattern Compass: SX6 – Wolf"},
         {route:"beruehmte-louise-hay", label:"Portrait: Louise Hay (SX6w7) – same subtype"},
         {route:"beruehmte-byron-katie", label:"Portrait: Byron Katie (SX6w7)"},
+        {route:"stille", label:"Stillness: practice with sound accompaniment"},
       ])}
     </div>
   `);

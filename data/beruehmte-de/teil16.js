@@ -3083,6 +3083,7 @@ export function rubyTruePortraitPage() {
         <h2 class="vb-section">4. Die Substanz: Klang als Handwerk</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Nach ihrer eigenen Darstellung ist True ausgebildete Klangtherapeutin, Reiki-Praktizierende, thailändische Yogamassage-Therapeutin und Yogalehrerin. Diese Angaben stammen aus ihren eigenen Profilen und ließen sich nicht unabhängig prüfen. Ihr Handwerk ist überprüfbar: Sie spielt tibetische und kristalline Klangschalen, Stimmgabeln und Koshi-Klangspiele (Klangspiele mit Stimmung nach den Elementen) und achtet auf Aufnahmen ohne Gesang, in denen Instrument und Umgebungsgeräusche allein wirken.</p>
+          <p class="vb-intro">Wer Entspannung und Abbau von Anspannung sucht, findet auch in dieser App einen eigenen Raum: Im Bereich <a href="javascript:void(0)" data-route="stille">Stille</a> lässt sich eine Stilleübung starten, eine Minute für jeden Enneagrammtyp, mit frei wählbarer Dauer. Dazu gibt es eine große Auswahl an Klängen im Hintergrund, von Regen, Meer, Wald und Feuer über Walgesang und Herzschlag bis zu Klangschale und Rauschen, oder auch einfach nur Stille.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten der sexuellen Sechs mit Siebenerflügel</h2>
@@ -3107,6 +3108,7 @@ export function rubyTruePortraitPage() {
         {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
         {route:"beruehmte-louise-hay", label:"Porträt: Louise Hay (SX6w7) – derselbe Subtyp"},
         {route:"beruehmte-byron-katie", label:"Porträt: Byron Katie (SX6w7)"},
+        {route:"stille", label:"Stille: Übung mit Klangbegleitung"},
       ])}
     </div>
   `);
