@@ -5357,7 +5357,7 @@ export function princeKrankheitsportraetPage() {
         </p>
       </div>
       <p class="psycho-intro">
-        <strong>Prince</strong> (Prince Rogers Nelson), Sänger, Multiinstrumentalist und Produzent aus Minneapolis, starb am 21. April 2016 mit 57 Jahren in seinem Studiokomplex Paisley Park an einer unbeabsichtigten Überdosis Fentanyl. Nach den Ermittlungen hatte er seit Jahren Schmerzen, über die er öffentlich kaum sprach, und nahm Tabletten ein, die gefälscht waren.
+        <strong>Prince</strong> (Prince Rogers Nelson), Sänger, Multiinstrumentalist und Produzent aus Minneapolis, starb am 21. April 2016 mit 57 Jahren in seinem Studiokomplex Paisley Park an einer unbeabsichtigten Überdosis Fentanyl. Nach den Ermittlungen hatte er seit Jahren Schmerzen, über die er öffentlich kaum sprach, und nahm Tabletten ein, die als gewöhnliches Schmerzmittel beschriftet waren, in Wahrheit aber Fentanyl enthielten.
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
@@ -5371,14 +5371,14 @@ export function princeKrankheitsportraetPage() {
         <p class="vb-intro"><strong>b) Ein Mensch, der wenig preisgab:</strong>
         Prince lebte weitgehend abgeschirmt in Paisley Park und sprach selten über Privates. Das passt zu der Haltung der sexuellen Vier, das Innere zu schützen.</p>
         <p class="vb-intro"><strong>c) Der Flug am 15. April 2016:</strong>
-        Eine Woche vor seinem Tod musste das Flugzeug, in dem er reiste, in Moline im Bundesstaat Illinois notlanden, weil er erkrankt war. Ihm wurde zweimal der Gegenstoff Narcan gegen Opioide verabreicht.</p>
+        Eine Woche vor seinem Tod musste das Flugzeug, in dem er reiste, in Moline im Bundesstaat Illinois notlanden, weil er erkrankt war. Ihm wurde zweimal das Gegenmittel Narcan (Wirkstoff Naloxon) verabreicht, das die Wirkung von Opioiden aufhebt.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
         <p class="vb-intro"><strong>a) Keine Verschreibung in Minnesota:</strong>
-        Nach den Akten hatte Prince in den zwölf Monaten vor seinem Tod in Minnesota keine Verschreibung für kontrollierte Substanzen. Der Arzt Michael Todd Schulenberg, ein Hausarzt, behandelte ihn in den letzten Wochen zweimal und verschrieb ihm Medikamente.</p>
-        <p class="vb-intro"><strong>b) Gefälschte Tabletten:</strong>
+        Nach den Akten hatte Prince in den zwölf Monaten vor seinem Tod in Minnesota kein ärztliches Rezept für stark wirksame, streng reglementierte Medikamente wie Opioid-Schmerzmittel. Der Arzt Michael Todd Schulenberg, ein Hausarzt, behandelte ihn in den letzten Wochen zweimal und verschrieb ihm Medikamente.</p>
+        <p class="vb-intro"><strong>b) Falsch beschriftete Tabletten:</strong>
         In Paisley Park fanden Ermittler viele Tabletten, die fälschlich als ›Watson 385‹ beschriftet waren, ein Stempel, der üblicherweise für ein Gemisch aus Paracetamol und Hydrocodon steht. Mindestens eine davon enthielt Fentanyl, Lidocain und einen weiteren Wirkstoff.</p>
         <p class="vb-intro"><strong>c) Was die Ermittler vermuteten:</strong>
         Sie hielten es für wahrscheinlich, dass Prince nicht wusste, was er einnahm, und glaubte, ein gewöhnliches Schmerzmittel zu nehmen.</p>
@@ -5397,7 +5397,7 @@ export function princeKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
         <p class="vb-intro"><strong>a) Ein Tod mit Signalwirkung:</strong>
-        Der Fall rückte die Gefahr gefälschter Tabletten ins öffentliche Bewusstsein, die wie gewöhnliche Schmerzmittel aussehen, aber Fentanyl enthalten.</p>
+        Der Fall rückte die Gefahr falsch beschrifteter Tabletten ins öffentliche Bewusstsein, die wie gewöhnliche Schmerzmittel aussehen, aber Fentanyl enthalten.</p>
         <p class="vb-intro"><strong>b) Ein Werk, das ihn überdauerte:</strong>
         Princes Musik und sein Ruf als Ausnahmekünstler blieben nach seinem Tod bestehen; das Krankheitsporträt betrachtet das Ende, nicht das Werk.</p>
         <p class="vb-intro"><strong>c) Verschwiegenheit mit Folgen:</strong>
@@ -5425,7 +5425,7 @@ export function princeKrankheitsportraetPage() {
         <p class="vb-intro"><strong>d) Die Verschiebung zur Stresslinie:</strong>
         Mit zunehmender Belastung lässt sich bei Prince ein Zug zur Zwei erkennen: Abhängigkeit von Helfern, Ärzten und Vertrauten, deren Rat er brauchte, aber nicht immer annahm. Sein Kerntyp SX4w3 blieb erkennbar.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der sexuellen Vier zu Schmerzmittelabhängigkeit führt: <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Gefälschte Tabletten sind ein äußeres Risiko, das jeden treffen kann. Was sich an Princes Fall zeigen lässt, ist die Verschwiegenheit über Schmerz, eine von vielen möglichen Betrachtungen, kein Urteil. Das entsprechende Krankheitsbild wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        Das heißt nicht, dass das Muster der sexuellen Vier zu Schmerzmittelabhängigkeit führt: <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Falsch beschriftete Tabletten sind ein äußeres Risiko, das jeden treffen kann. Was sich an Princes Fall zeigen lässt, ist die Verschwiegenheit über Schmerz, eine von vielen möglichen Betrachtungen, kein Urteil. Das entsprechende Krankheitsbild wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
         Prince kannte sein eigenes Enneagramm-Muster nicht. Die sexuelle Vier mit Dreierflügel lebt ihre Einzigartigkeit unbewusst so lange aus, bis nichts anderes mehr übrig bleibt, und das hieß hier: auf der Bühne alles zeigen und den Schmerz allein tragen. Wer das nicht erkennt, tut sich schwer, anderen die eigene Schwäche zuzumuten, und dann greifen Mittel, die schnell Erleichterung versprechen.</p>
       </div>
