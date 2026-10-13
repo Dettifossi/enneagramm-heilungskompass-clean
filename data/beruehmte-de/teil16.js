@@ -3318,3 +3318,69 @@ export function camilleKittPortraitPage() {
     </div>
   `);
 }
+
+export function wernerAblassPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-werner-ablass-portrait.jpg" alt="Werner Ablass – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-werner-ablass-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Werner Ablass</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Autor, Coach und Lehrer des nondualen Bewusstseins, 1949&ndash;2018 &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba, die sich aufrichtet und warnt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bevor die Schwarze Mamba zubeißt, richtet sie den Vorderkörper auf und zeigt das schwarze Innere ihres Mauls. Sie warnt, und sie tut es unmissverständlich. Das passt zur sexuellen Eins: Ihre Intensität kündigt sich an, sie hält mit dem, was sie für wahr hält, nicht hinter dem Berg.</p>
+          <p class="vb-intro">Werner Ablass wurde am 19. August 1949 in Neusorg geboren, wuchs in Kaufbeuren auf und starb am 23. Dezember 2018 in Brackenheim. Er war Schlosser, Lastwagenfahrer und Orgelbauer, nach verbreiteten Darstellungen fast zwanzig Jahre Wanderprediger einer Pfingstgemeinde, dann Vertriebsleiter und ab 1994 selbstständiger Coach für Management, Verkauf und Kommunikation. Nach 2004 wurde er als Autor und Lehrer des nondualen Bewusstseins bekannt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: der Eifer, der nicht lockerlässt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> ist nach Naranjo der Eiferer: Sie setzt sich mit Leidenschaft und ganzer Kraft für das ein, was ihr als richtig gilt. Bei Ablass zeigt sich das in der Dauer seiner Suche. Nach eigenen Angaben suchte er rund vierzig Jahre lang intensiv, durch viele Sackgassen, und er begann schon als Teenager. Das Predigen in einer fundamentalistisch-christlichen Gemeinde, das Ende dieses Glaubens, die Lektüre von Hubert Benoits ›Die hohe Lehre‹: Jede Station wurde mit vollem Einsatz durchlaufen und dann ebenso entschieden verlassen.</p>
+          <p class="vb-intro">Der Eifer blieb, als sich der Inhalt änderte. Er schrieb rund zwanzig Bücher, hielt Seminare und Events und verfasste fast täglich Texte. Mit Titeln wie ›Transzendenz ohne Gott und andere spirituelle Irrtümer‹ und ›Zen ohne wie ein Huhn auf der Stange zu sitzen‹ rechnete er mit der spirituellen Szene ab. Das lässt sich mit der Eins in Verbindung bringen, die Irrtümer nicht stehen lassen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Zuwendung hinter der Direktheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> gibt der sexuellen Eins Wärme und Zuwendung. Ablass trat nicht als Guru auf: Er nannte seine Treffen ›Events‹, bezeichnete sich als Diener und coachte Menschen einzeln. Sein erstes Buch hieß ›Leide nicht – liebe‹ (2004) und wurde sein Bestseller. Nach den Darstellungen der Seite Jetzt-TV schätzte er einfache Freuden wie Spaziergänge mit seinem Hund und wirkte im Umgang entspannt, ohne andere verändern zu wollen.</p>
+          <p class="vb-intro">Dazu passt, dass er sich besonders Menschen zuwandte, die gescheitert waren: Fast jeder, der zu ihm komme, habe zuvor gescheitert, sagte er, und genau dieses Scheitern öffne für die Wirklichkeit. Der Zweierflügel zeigt sich hier als Mitgefühl für die, die an ihren eigenen Maßstäben gescheitert sind.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Kein Täter, keine Anstrengung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Zentrum seiner Lehre steht die Einsicht, die er 2004 nach einem Besuch bei dem Advaita-Lehrer Ramesh Balsekar in Mumbai gewann: Es gibt Taten, aber keine Täter. Balsekar hatte ihm geraten zu prüfen, ob er je aus eigener Initiative gedacht, entschieden und gehandelt habe. Das Ergebnis war für Ablass, dass das Individuum in seinem Handeln nicht frei ist. Er beschrieb seinen Zustand seither als unumkehrbar und das Leben als ohne höheren Zweck und determiniert.</p>
+          <p class="vb-intro">Bemerkenswert ist, wie er das sagte: in Bildern, die jeder versteht. ›Du bist nicht der Geiger, du bist die Geige.‹ Das Leben gleiche einer fertigen DVD, das Erleben sei trotzdem frisch. Hinter allen Erscheinungen stehe eine Essenz wie Gold, aus dem verschiedene Figuren gefertigt sind. Wer leide, glaube, dass ihm etwas geschehe, und mit dem Wegfall dieser Vorstellung falle das Leiden weg, während Schmerz bleiben könne. Die Begriffe Erleuchtung und Erwachen verwendete er nicht, er lehnte beide ab. Er nannte seinen Wendepunkt ›Mindcrash‹, so auch der Titel seines Buches von 2015.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Eins mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt im Wandel des Zorns. Der Zorn der Eins gilt dem, was nicht so ist, wie es sein soll. Eine Lehre, nach der alles so geschieht, wie es geschieht, nimmt diesem Zorn den Gegner. Auf Ablass wirkte das nach den Darstellungen von Jetzt-TV als Gelassenheit und Humor, mit derben Bildern und ohne Pose. Das lässt sich mit dem Heilungsweg der Eins in Verbindung bringen, der vom Zorn zur Heiterkeit führt.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Wer sicher ist, im Besitz der Wahrheit zu sein, kann Widerspruch schwer stehen lassen, und die Szene war über ihn uneins: Er war umstritten, gerade weil er die gängigen Begriffe ablehnte. Seine derbe Direktheit, ob in Bildern oder im Auftritt, war nicht jedermanns Sache, und wer sich selbst im Recht weiß, hört andere Sichtweisen oft nur schwer an.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Eiferer: Ablass, DiCaprio und Luther</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-leonardo-dicaprio">Leonardo DiCaprio</a> (SX1w2) verbindet Ablass der Subtyp: Beide gehen ganz in eine Sache und lassen sich nicht halbherzig auf etwas ein, beide verbinden Intensität mit Zugewandtheit. Der Unterschied liegt im Gegenstand. Bei DiCaprio sind es Rollen und der Klimaschutz, bei Ablass die Frage, wer eigentlich handelt.</p>
+          <p class="vb-intro">Näher an Ablass' Weg liegt <a href="javascript:void(0)" data-route="beruehmte-martin-luther">Martin Luther</a> (SX1w2): Auch er verließ ein religiöses System, in dem er lange gesucht und gedient hatte, weil seine eigene Einsicht ihm wichtiger war als die Institution, und er schrieb mit Wucht gegen das, was er als Irrtum erkannte.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx1", label:"Lebensmusterkompass: SX1 – Schwarze Mamba"},
+        {route:"beruehmte-leonardo-dicaprio", label:"Porträt: Leonardo DiCaprio (SX1w2) – derselbe Subtyp"},
+        {route:"beruehmte-martin-luther", label:"Porträt: Martin Luther (SX1w2) – derselbe Subtyp, Bruch mit einem religiösen System"},
+      ])}
+    </div>
+  `);
+}

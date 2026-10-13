@@ -3313,3 +3313,69 @@ export function camilleKittPortraitPage() {
     </div>
   `);
 }
+
+export function wernerAblassPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-werner-ablass-portrait.jpg" alt="Werner Ablass – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-werner-ablass-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Werner Ablass</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">German author, coach and teacher of non-dual awareness, 1949&ndash;2018 &ndash; Animal match: Black Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Black Mamba That Rises Up and Warns</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Before the black mamba strikes, it raises its forebody and shows the black inside of its mouth. It warns, and it does so unmistakably. That suits the sexual One: its intensity announces itself, and it does not hold back what it holds to be true.</p>
+          <p class="vb-intro">Werner Ablass was born on 19 August 1949 in Neusorg, grew up in Kaufbeuren and died on 23 December 2018 in Brackenheim. He was a locksmith, a truck driver and an organ builder, by widespread accounts for almost twenty years an itinerant preacher in a Pentecostal congregation, then a sales manager and, from 1994, a self-employed coach for management, sales and communication. After 2004 he became known as an author and teacher of non-dual awareness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual One: Zeal That Does Not Let Go</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>sexual One (SX1)</strong> is the zealot: it throws itself with passion and full strength into what it holds to be right. In Ablass this shows in the length of his search. By his own account he searched intensively for about forty years, through many dead ends, beginning as a teenager. Preaching in a fundamentalist Christian congregation, the end of that faith, reading Hubert Benoit's 'Die hohe Lehre' ('The Supreme Doctrine'): each station was entered with full commitment and then left just as decisively.</p>
+          <p class="vb-intro">The zeal stayed when the content changed. He wrote about twenty books, held seminars and events, and wrote texts almost daily. With titles such as 'Transzendenz ohne Gott und andere spirituelle Irrtümer' ('Transcendence Without God and Other Spiritual Errors') and 'Zen ohne wie ein Huhn auf der Stange zu sitzen' ('Zen Without Sitting Like a Chicken on a Perch') he settled accounts with the spiritual scene. This can be linked to the One that cannot let errors stand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Care Behind the Directness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> gives the sexual One warmth and attentiveness. Ablass did not present himself as a guru: he called his meetings 'events', described himself as a servant and coached people one to one. His first book was 'Leide nicht – liebe' ('Do Not Suffer – Love', 2004) and became his bestseller. According to the Jetzt-TV site he enjoyed simple pleasures such as walks with his dog and came across as relaxed, without wanting to change others.</p>
+          <p class="vb-intro">It fits that he turned especially to people who had failed: nearly everyone who came to him had failed before, he said, and it was precisely this failure that opens one to reality. The Two-wing shows here as compassion for those who have failed by their own standards.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: No Doer, No Effort</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At the centre of his teaching is the insight he gained in 2004 after visiting the Advaita teacher Ramesh Balsekar in Mumbai: there are deeds, but no doers. Balsekar had advised him to examine whether he had ever thought, decided and acted on his own initiative. For Ablass the result was that the individual is not free in its actions. He described his state ever since as irreversible and life as without higher purpose and determined.</p>
+          <p class="vb-intro">What stands out is how he said it: in images anyone can grasp. 'You are not the violinist, you are the violin.' Life is like a finished DVD, yet the experience is still fresh. Behind all appearances stands one essence like gold, from which different figures are made. Whoever suffers believes that something is happening to them, and when this notion drops away, the suffering drops away, while pain may remain. He did not use the terms enlightenment and awakening and rejected both. He called his turning point 'Mindcrash', also the title of his 2015 book.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual One with a Two-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the transformation of anger. The One's anger is aimed at what is not as it should be. A teaching in which everything happens as it happens takes that anger's opponent away. According to Jetzt-TV, it came across in Ablass as composure and humour, with earthy images and without pose. This can be linked to the One's path of healing, which leads from anger to serenity.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. Whoever is sure of possessing the truth finds it hard to let contradiction stand, and the scene was divided over him: he was controversial precisely because he rejected the usual terms. His earthy directness, whether in images or on stage, was not to everyone's taste, and whoever knows himself to be right often finds it hard to hear other views.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Zealots: Ablass, DiCaprio and Luther</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-leonardo-dicaprio">Leonardo DiCaprio</a> (SX1w2), Ablass shares the subtype: both go wholly into a cause and cannot engage half-heartedly, both combine intensity with warmth. The difference lies in the object. For DiCaprio it is roles and climate protection, for Ablass the question of who actually acts.</p>
+          <p class="vb-intro">Closer to Ablass's path is <a href="javascript:void(0)" data-route="beruehmte-martin-luther">Martin Luther</a> (SX1w2): he too left a religious system in which he had long searched and served, because his own insight mattered more to him than the institution, and he wrote forcefully against what he recognised as error.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+        {route:"lebensmusterkompass/sx1", label:"Life Pattern Compass: SX1 – Black Mamba"},
+        {route:"beruehmte-leonardo-dicaprio", label:"Portrait: Leonardo DiCaprio (SX1w2) – same subtype"},
+        {route:"beruehmte-martin-luther", label:"Portrait: Martin Luther (SX1w2) – same subtype, break with a religious system"},
+      ])}
+    </div>
+  `);
+}
