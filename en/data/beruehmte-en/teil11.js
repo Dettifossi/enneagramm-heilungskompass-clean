@@ -1334,6 +1334,7 @@ export function paulGauguinPortraitPage() {
         {route:"beruehmte-pablo-picasso", label:"Portrait: Pablo Picasso (SX8w7)"},
         {route:"beruehmte-donald-trump", label:"Portrait: Donald J. Trump (SX8w7)"},
         {route:"subtype/sx8", label:"SX8 – The Crocodile: Subtype Profile"},
+        {route:"krankheitsportraets-paul-gauguin", label:"Illness Portrait: Paul Gauguin (SX8w7)"},
         ])}
       </div>
     </div>

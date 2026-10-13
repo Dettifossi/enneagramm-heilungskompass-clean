@@ -432,6 +432,7 @@ export function edgarAllanPoePortraitPage() {
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
         {route:"beruehmte-john-lennon", label:"Portr\xe4t: John Lennon (SO4w5)"},
         {route:"beruehmte-fiona-apple", label:"Portr\xe4t: Fiona Apple (SO4w5)"},
+        {route:"krankheitsportraets-edgar-allan-poe", label:"Krankheitsporträt: Edgar Allan Poe (SO4w5)"},
       ])}
     </div>
   `);
@@ -1551,6 +1552,7 @@ export function virginiaWoolfPortraitPage() {
         {route:"beruehmte-leo-tolstoi", label:"Porträt: Leo Tolstoi (SE4w5)"},
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-vanessa-goecking", label:"Porträt: Vanessa Göcking (SE4w5)"},
+        {route:"krankheitsportraets-virginia-woolf", label:"Krankheitsporträt: Virginia Woolf (SE4w5)"},
       ])}
     </div>
   `);
@@ -2017,6 +2019,7 @@ export function connieChiuPortraitPage() {
           {route:"beruehmte-neil-harbisson", label:"Porträt: Neil Harbisson (SE4w5) – ebenfalls eine körperliche Besonderheit in eigenständiges Werk verwandelt"},
           {route:"beruehmte-barney-fishwick", label:"Porträt: Barney Fishwick (SE4w5)"},
           {route:"beruehmte-charlotte-wells", label:"Porträt: Charlotte Wells (SE4w5)"},
+          {route:"krankheitsportraets-connie-chiu", label:"Krankheitsporträt: Connie Chiu (SE4w5)"},
         ])}
       </div>
     </div>

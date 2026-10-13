@@ -1451,6 +1451,7 @@ export function tELawrencePortraitPage() {
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-honore-de-balzac", label:"Porträt: Honoré de Balzac (SE4w3) – der erfundene Mythos"},
         {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
+        {route:"krankheitsportraets-t-e-lawrence", label:"Krankheitsporträt: T. E. Lawrence (SE4w3)"},
       ])}
     </div>
   `);
@@ -2189,6 +2190,7 @@ export function enricoCarusoPortraitPage() {
         {route:"beruehmte-andre-agassi", label:"Porträt: Andre Agassi (SE3w2)"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
         {route:"astrologie-enrico-caruso", label:"Enneagramm meets Astrologie: Enrico Caruso (SE3w2)"},
+        {route:"krankheitsportraets-enrico-caruso", label:"Krankheitsporträt: Enrico Caruso (SE3w2)"},
       ])}
     </div>
   `);
@@ -2257,6 +2259,7 @@ export function guntherVonHagensPortraitPage() {
         {route:"beruehmte-klaus-kinski", label:"Porträt: Klaus Kinski (SX1w9)"},
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Porträt: Marie-Agnes Strack-Zimmermann (SX1w9)"},
         {route:"beruehmte-udo-lindenberg", label:"Porträt: Udo Lindenberg (SX1w9) – derselbe Hut, dasselbe Prinzip"},
+        {route:"krankheitsportraets-gunther-von-hagens", label:"Krankheitsporträt: Gunther von Hagens (SX1w9)"},
       ])}
     </div>
   `);
@@ -2452,6 +2455,7 @@ export function princeRogersNelsonPortraitPage() {
         {route:"krankheitsportraets-freddie-mercury", label:"Krankheitsporträt: Freddie Mercury (SX4w3)"},
         {route:"kriminalpsychologie-bonnie-parker", label:"Porträt: Bonnie Parker (SX4w3)"},
         {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3) – die legendäre Rivalität der 1980er"},
+        {route:"krankheitsportraets-prince", label:"Krankheitsporträt: Prince (SX4w3)"},
       ])}
     </div>
   `);

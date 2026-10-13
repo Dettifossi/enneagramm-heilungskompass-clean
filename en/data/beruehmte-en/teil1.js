@@ -2191,6 +2191,7 @@ export function enricoCarusoPortraitPage() {
         {route:"beruehmte-andre-agassi", label:"Portrait: Andre Agassi (SP3w2)"},
         {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
         {route:"astrologie-enrico-caruso", label:"Enneagram Meets Astrology: Enrico Caruso (SP3w2)"},
+        {route:"krankheitsportraets-enrico-caruso", label:"Illness Portrait: Enrico Caruso (SE3w2)"},
       ])}
     </div>
   `);
@@ -2637,6 +2638,7 @@ export function williamJamesSidisPortraitPage() {
         {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5) – same subtype, withdrawal and sensitivity"},
         {route:"lebensmusterkompass/so4", label:"Lebensmusterkompass: SO4 – Gürteltier"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass: biographical patterns of all subtypes"},
+        {route:"krankheitsportraets-william-james-sidis", label:"Illness Portrait: William James Sidis (SO4w5)"},
       ])}
     </div>
   `);

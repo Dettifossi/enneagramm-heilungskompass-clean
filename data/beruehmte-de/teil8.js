@@ -2131,6 +2131,7 @@ export function alainDelonPortraitPage() {
         {route:"beruehmte-anne-will", label:"Porträt: Anne Will (SE1w2)"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Porträt: Queen Elizabeth II. (SE1w9)"},
         {route:"beruehmte-tim-cook", label:"Porträt: Tim Cook (SE1w9)"},
+        {route:"krankheitsportraets-alain-delon", label:"Krankheitsporträt: Alain Delon (SE1w2)"},
       ])}
     </div>
   `);
@@ -2263,6 +2264,7 @@ export function davidHockneyPortraitPage() {
         {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
         {route:"beruehmte-albert-einstein", label:"Porträt: Dr. Albert Einstein (SO5w4)"},
         {route:"beruehmte-claudio-naranjo", label:"Porträt: Dr. Claudio Naranjo (SO5w4)"},
+        {route:"krankheitsportraets-david-hockney", label:"Krankheitsporträt: David Hockney (SO5w4)"},
       ])}
     </div>
   `);

@@ -450,6 +450,7 @@ export function fionaApplePortraitPage() {
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
         {route:"beruehmte-javier-parisi", label:"Portrait: Javier Parisi (SO4w5)"},
+        {route:"krankheitsportraets-fiona-apple", label:"Illness Portrait: Fiona Apple (SO4w5)"},
       ])}
     </div>
   `);

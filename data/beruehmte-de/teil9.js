@@ -463,6 +463,7 @@ export function epikurPortraitPage() {
         {route:"beruehmte-franz-von-assisi", label:"Porträt: Franz von Assisi (SO7w6)"},
         {route:"beruehmte-george-gershwin", label:"Porträt: George Gershwin (SO7w6)"},
         {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
+        {route:"krankheitsportraets-epikur", label:"Krankheitsporträt: Epikur (SO7w6)"},
       ])}
     </div>
   `);
@@ -1737,6 +1738,7 @@ export function edvardMunchPortraitPage() {
         {route:"beruehmte-leonard-cohen", label:"Portr\xe4t: Leonard Cohen (SO4w5)"},
         {route:"beruehmte-michael-stipe", label:"Portr\xe4t: Michael Stipe (SO4w5)"},
         {route:"beruehmte-alice-miller", label:"Portr\xe4t: Alice Miller (SO4w5)"},
+        {route:"krankheitsportraets-edvard-munch", label:"Krankheitsporträt: Edvard Munch (SO4w5)"},
       ])}
     </div>
   `);

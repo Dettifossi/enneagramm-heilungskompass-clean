@@ -2051,6 +2051,7 @@ export function alainDelonPortraitPage() {
         {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SE1w2)"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
         {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SE1w9)"},
+        {route:"krankheitsportraets-alain-delon", label:"Illness Portrait: Alain Delon (SE1w2)"},
       ])}
     </div>
   `);

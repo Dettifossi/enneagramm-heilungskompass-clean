@@ -1594,6 +1594,7 @@ export function trumanCapotePortraitPage() {
         {route:"beruehmte-julius-caesar", label:"Portrait: Julius Caesar (SO2w3)"},
         {route:"beruehmte-eva-peron", label:"Portrait: Eva Perón (SO2w3)"},
         {route:"beruehmte-kamala-harris", label:"Portrait: Kamala Harris (SO2w3)"},
+        {route:"krankheitsportraets-truman-capote", label:"Illness Portrait: Truman Capote (SO2w3)"},
       ])}
     </div>
   `);
@@ -2253,6 +2254,7 @@ export function guntherVonHagensPortraitPage() {
         {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
         {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
         {route:"beruehmte-udo-lindenberg", label:"Portrait: Udo Lindenberg (SX1w9) – the same hat, the same principle"},
+        {route:"krankheitsportraets-gunther-von-hagens", label:"Illness Portrait: Gunther von Hagens (SX1w9)"},
       ])}
     </div>
   `);

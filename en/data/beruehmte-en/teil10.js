@@ -1520,6 +1520,7 @@ export function tELawrencePortraitPage() {
         {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
         {route:"beruehmte-honore-de-balzac", label:"Portrait: Honoré de Balzac (SP4w3) – the invented myth"},
         {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
+        {route:"krankheitsportraets-t-e-lawrence", label:"Illness Portrait: T. E. Lawrence (SE4w3)"},
       ])}
     </div>
   `);
@@ -2261,6 +2262,7 @@ export function davidHockneyPortraitPage() {
         {route:"subtype/so5", label:"SO5 – The Octopus: subtype profile"},
         {route:"beruehmte-albert-einstein", label:"Portrait: Dr. Albert Einstein (SO5w4)"},
         {route:"beruehmte-claudio-naranjo", label:"Portrait: Dr. Claudio Naranjo (SO5w4)"},
+        {route:"krankheitsportraets-david-hockney", label:"Illness Portrait: David Hockney (SO5w4)"},
       ])}
     </div>
   `);

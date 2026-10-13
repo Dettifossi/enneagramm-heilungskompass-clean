@@ -2101,6 +2101,7 @@ export function arnoldSchwarzeneggerPortraitPage() {
         {route:"beruehmte-alain-delon", label:"Porträt: Alain Delon (SE1w2)"},
         {route:"beruehmte-christoph-waltz", label:"Porträt: Christoph Waltz (SE1w2)"},
         {route:"beruehmte-tim-cook", label:"Porträt: Tim Cook (SE1w9)"},
+        {route:"krankheitsportraets-arnold-schwarzenegger", label:"Krankheitsporträt: Arnold Schwarzenegger (SE1w2)"},
       ])}
     </div>
   `);

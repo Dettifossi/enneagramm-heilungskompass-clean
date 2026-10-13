@@ -2073,6 +2073,7 @@ export function eltonJohnPortraitPage() {
         {route:"beruehmte-larry-king", label:"Porträt: Larry King (SE7w6)"},
         {route:"beruehmte-junko-tabei", label:"Porträt: Junko Tabei (SE7w6)"},
         {route:"beruehmte-jeanne-calment", label:"Porträt: Jeanne Calment (SE7w6)"},
+        {route:"krankheitsportraets-elton-john", label:"Krankheitsporträt: Elton John (SE7w6)"},
       ])}
     </div>
   `);

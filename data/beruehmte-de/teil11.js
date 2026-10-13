@@ -61,6 +61,7 @@ export function cgJungPortraitPage() {
         {route:"beruehmte-stephen-hawking", label:"Porträt: Stephen Hawking (SO5w6)"},
         {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Porträt: Georg Wilhelm Friedrich Hegel (SO5w6)"},
         {route:"beruehmte-isaac-newton", label:"Porträt: Isaac Newton (SO5w6)"},
+        {route:"krankheitsportraets-cg-jung", label:"Krankheitsporträt: Carl Gustav Jung (SO5w6)"},
       ])}
     </div>
   `);
@@ -1333,6 +1334,7 @@ export function paulGauguinPortraitPage() {
           {route:"beruehmte-pablo-picasso", label:"Porträt: Pablo Picasso (SX8w7)"},
           {route:"beruehmte-donald-trump", label:"Porträt: Donald J. Trump (SX8w7)"},
           {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
+          {route:"krankheitsportraets-paul-gauguin", label:"Krankheitsporträt: Paul Gauguin (SX8w7)"},
         ])}
       </div>
     </div>
@@ -2417,6 +2419,7 @@ export function dmitriSchostakowitschPortraitPage() {
         {route:"beruehmte-david-hockney", label:"Porträt: David Hockney (SO5w4)"},
         {route:"beruehmte-leonardo-da-vinci", label:"Porträt: Leonardo da Vinci (SO5w4)"},
         {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8) – Komponist, 21 Jahre an der 1. Symphonie"},
+        {route:"krankheitsportraets-dmitri-schostakowitsch", label:"Krankheitsporträt: Dmitri Schostakowitsch (SO5w4)"},
       ])}
     </div>
   `);

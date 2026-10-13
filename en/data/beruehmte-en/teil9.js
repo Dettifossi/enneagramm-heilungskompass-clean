@@ -61,6 +61,7 @@ export function cgJungPortraitPage() {
         {route:"beruehmte-stephen-hawking", label:"Portrait: Stephen Hawking (SO5w6)"},
         {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portrait: Georg Wilhelm Friedrich Hegel (SO5w6)"},
         {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
+        {route:"krankheitsportraets-cg-jung", label:"Illness Portrait: Carl Gustav Jung (SO5w6)"},
       ])}
     </div>
   `);
@@ -529,6 +530,7 @@ export function epikurPortraitPage() {
         {route:"beruehmte-franz-von-assisi", label:"Portrait: Francis of Assisi (SO7w6)"},
         {route:"beruehmte-george-gershwin", label:"Portrait: George Gershwin (SO7w6)"},
         {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
+        {route:"krankheitsportraets-epikur", label:"Illness Portrait: Epicurus (SO7w6)"},
       ])}
     </div>
   `);
@@ -1803,6 +1805,7 @@ export function edvardMunchPortraitPage() {
         {route:"beruehmte-leonard-cohen", label:"Portrait: Leonard Cohen (SO4w5)"},
         {route:"beruehmte-michael-stipe", label:"Portrait: Michael Stipe (SO4w5)"},
         {route:"beruehmte-alice-miller", label:"Portrait: Alice Miller (SO4w5)"},
+        {route:"krankheitsportraets-edvard-munch", label:"Illness Portrait: Edvard Munch (SO4w5)"},
       ])}
     </div>
   `);
@@ -2193,6 +2196,7 @@ export function charlesLaughtonPortraitPage() {
         {route:"beruehmte-margaret-rutherford", label:"Portrait: Margaret Rutherford (SP9w8)"},
         {route:"beruehmte-angela-merkel", label:"Portrait: Angela Merkel (SP9w8)"},
         {route:"beruehmte-abida-parveen", label:"Portrait: Abida Parveen (SP9w8)"},
+        {route:"krankheitsportraets-charles-laughton", label:"Illness Portrait: Charles Laughton (SE9w8)"},
       ])}
     </div>
   `);

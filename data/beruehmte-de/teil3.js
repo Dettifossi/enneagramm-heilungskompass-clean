@@ -523,6 +523,7 @@ export function franzVonAssisiPortraitPage() {
         {route:"beruehmte-henry-shukman", label:"Porträt: Henry Shukman (SO7w6) – Zen-Lehrer"},
         {route:"krankheitsportraets-moliere", label:"Krankheitsporträt: Molière (SO7w6)"},
         {route:"beruehmte-klara-von-assisi", label:"Porträt: Klara von Assisi (SE3w2) – Weggefährtin"},
+        {route:"krankheitsportraets-franz-von-assisi", label:"Krankheitsporträt: Franz von Assisi (SO7w6)"},
       ])}
     </div>
   `);
@@ -921,6 +922,7 @@ export function klaraVonAssisiPortraitPage() {
         {route:"beruehmte-michael-dell", label:"Porträt: Michael Dell (SE3w2)"},
         {route:"beruehmte-franz-von-assisi", label:"Porträt: Franz von Assisi (SO7w6) – Weggefährte"},
         {route:"beruehmte-susan-link", label:"Porträt: Susan Link (SE3w2)"},
+        {route:"krankheitsportraets-klara-von-assisi", label:"Krankheitsporträt: Klara von Assisi (SE3w2)"},
       ])}
     </div>
   `);
@@ -1695,6 +1697,7 @@ export function alanTuringPortraitPage() {
         {route:"beruehmte-frederic-chopin", label:"Porträt: Frédéric Chopin (SX5w4)"},
         {route:"beruehmte-greta-garbo", label:"Porträt: Greta Garbo (SX5w4)"},
         {route:"beruehmte-hugh-warwick", label:"Porträt: Hugh Warwick (SX5w4)"},
+        {route:"krankheitsportraets-alan-turing", label:"Krankheitsporträt: Alan Turing (SX5w4)"},
       ])}
     </div>
   `);
@@ -2090,6 +2093,7 @@ export function steveJobsPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
         {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2)"},
+        {route:"krankheitsportraets-steve-jobs", label:"Krankheitsporträt: Steve Jobs (SO1w2)"},
       ])}
     </div>
   `);

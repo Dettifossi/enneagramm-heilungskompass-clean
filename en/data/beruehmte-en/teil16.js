@@ -703,6 +703,7 @@ export function jeanJacquesRousseauPortraitPage() {
         {route:"beruehmte-taylor-swift", label:"Portrait: Taylor Swift (SX5w4)"},
         {route:"beruehmte-blaise-pascal", label:"Portrait: Blaise Pascal (SX5w6)"},
         {route:"beruehmte-archimedes", label:"Portrait: Archimedes (SX5w4)"},
+        {route:"krankheitsportraets-jean-jacques-rousseau", label:"Illness Portrait: Jean-Jacques Rousseau (SX5w4)"},
       ])}
     </div>
   `);
@@ -2633,6 +2634,7 @@ export function nikiLaudaPortraitPage() {
         {route:"beruehmte-nico-rosberg", label:"Portrait: Nico Rosberg (SO1w2) – same subtype, same racing team"},
         {route:"beruehmte-lewis-hamilton", label:"Portrait: Lewis Hamilton (SO2w3) – negotiated with Lauda before joining Mercedes"},
         {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
+        {route:"krankheitsportraets-niki-lauda", label:"Illness Portrait: Niki Lauda (SO1w2)"},
       ])}
     </div>
   `);
@@ -3508,6 +3510,7 @@ export function eleanorRooseveltPortraitPage() {
         {route:"lebensmusterkompass/so9", label:"Life Pattern Compass: SO9 – Buffalo"},
         {route:"beruehmte-amelia-earhart", label:"Portrait: Amelia Earhart (SO9w1) – same subtype, friend and fellow pioneer"},
         {route:"beruehmte-dalai-lama", label:"Portrait: Dalai Lama XIV. (SO9w1) – same subtype"},
+        {route:"krankheitsportraets-eleanor-roosevelt", label:"Illness Portrait: Eleanor Roosevelt (SO9w1)"},
       ])}
     </div>
   `);

@@ -2265,6 +2265,7 @@ export function knutHamsunPortraitPage() {
         {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5)"},
         {route:"beruehmte-don-mclean", label:"Porträt: Don McLean (SE4w5)"},
         {route:"beruehmte-paul-mccartney", label:"Porträt: Paul McCartney (SE4w5)"},
+        {route:"krankheitsportraets-knut-hamsun", label:"Krankheitsporträt: Knut Hamsun (SE4w5)"},
       ])}
     </div>
   `);

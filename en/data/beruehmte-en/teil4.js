@@ -56,6 +56,7 @@ export function christophKolumbusPortraitPage() {
         {route:"beruehmte-mariah-carey", label:"Portrait: Mariah Carey (SP7w8)"},
         {route:"beruehmte-kim-jong-un", label:"Portrait: Kim Jong Un (SP7w8)"},
         {route:"beruehmte-takashi-murakami", label:"Portrait: Takashi Murakami (SP7w8)"},
+        {route:"krankheitsportraets-christoph-kolumbus", label:"Illness Portrait: Christopher Columbus (SE7w8)"},
       ])}
     </div>
   `);
@@ -2044,6 +2045,7 @@ export function philCollinsPortraitPage() {
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
         {route:"beruehmte-sting", label:"Portrait: Sting (SE1w9)"},
         {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SE1w9)"},
+        {route:"krankheitsportraets-phil-collins", label:"Illness Portrait: Phil Collins (SE1w9)"},
       ])}
     </div>
   `);

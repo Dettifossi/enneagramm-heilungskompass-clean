@@ -121,6 +121,7 @@ export function arthurRimbaudPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-voltaire", label:"Porträt: Voltaire (SX4w3)"},
         {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3)"},
+        {route:"krankheitsportraets-arthur-rimbaud", label:"Krankheitsporträt: Arthur Rimbaud (SX4w3)"},
       ])}
     </div>
   `);
@@ -1981,6 +1982,7 @@ export function galarrwuyYunupinguPortraitPage() {
         {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
         {route:"beruehmte-dhapanbal-yunupingu", label:"Porträt: Dhapanbal Yunupingu (SE8w9) – dasselbe Prinzip, jüngere Generation"},
         {route:"beruehmte-helmut-kohl", label:"Porträt: Helmut Kohl (SE8w9) – ebenfalls derselbe Subtyp"},
+        {route:"krankheitsportraets-galarrwuy-yunupingu", label:"Krankheitsporträt: Galarrwuy Yunupingu (SE8w9)"},
         ])}
       </div>
     </div>

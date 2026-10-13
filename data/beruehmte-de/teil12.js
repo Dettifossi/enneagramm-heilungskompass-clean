@@ -450,6 +450,7 @@ export function fionaApplePortraitPage() {
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
         {route:"beruehmte-john-lennon", label:"Portr\u00e4t: John Lennon (SO4w5)"},
         {route:"beruehmte-javier-parisi", label:"Portr\u00e4t: Javier Parisi (SO4w5)"},
+        {route:"krankheitsportraets-fiona-apple", label:"Krankheitsporträt: Fiona Apple (SO4w5)"},
       ])}
     </div>
   `);
@@ -2245,6 +2246,7 @@ export function charlesLaughtonPortraitPage() {
         {route:"beruehmte-margaret-rutherford", label:"Porträt: Margaret Rutherford (SE9w8)"},
         {route:"beruehmte-angela-merkel", label:"Porträt: Angela Merkel (SE9w8)"},
         {route:"beruehmte-abida-parveen", label:"Porträt: Abida Parveen (SE9w8)"},
+        {route:"krankheitsportraets-charles-laughton", label:"Krankheitsporträt: Charles Laughton (SE9w8)"},
       ])}
     </div>
   `);

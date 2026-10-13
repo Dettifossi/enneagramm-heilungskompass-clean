@@ -1043,6 +1043,7 @@ export function leonardCohenPortraitPage() {
         {route:"beruehmte-edgar-allan-poe", label:"Portrait: Edgar Allan Poe (SO4w5)"},
         {route:"beruehmte-edvard-munch", label:"Portrait: Edvard Munch (SO4w5)"},
         {route:"bibel-thomas", label:"Bible Portrait: Thomas (SO4w5)"},
+        {route:"krankheitsportraets-leonard-cohen", label:"Illness Portrait: Leonard Cohen (SO4w5)"},
       ])}
     </div>
   `);
@@ -2420,6 +2421,7 @@ export function princeRogersNelsonPortraitPage() {
         {route:"krankheitsportraets-freddie-mercury", label:"Illness portrait: Freddie Mercury (SX4w3)"},
         {route:"kriminalpsychologie-bonnie-parker", label:"Portrait: Bonnie Parker (SX4w3)"},
         {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3) – the legendary 1980s rivalry"},
+        {route:"krankheitsportraets-prince", label:"Illness Portrait: Prince (SX4w3)"},
       ])}
     </div>
   `);

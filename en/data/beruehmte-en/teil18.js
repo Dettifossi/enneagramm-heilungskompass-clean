@@ -432,6 +432,7 @@ export function edgarAllanPoePortraitPage() {
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
         {route:"beruehmte-fiona-apple", label:"Portrait: Fiona Apple (SO4w5)"},
+        {route:"krankheitsportraets-edgar-allan-poe", label:"Illness Portrait: Edgar Allan Poe (SO4w5)"},
       ])}
     </div>
   `);
@@ -1552,6 +1553,7 @@ export function virginiaWoolfPortraitPage() {
         {route:"beruehmte-leo-tolstoi", label:"Portrait: Leo Tolstoy (SP4w5)"},
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6)"},
         {route:"beruehmte-vanessa-goecking", label:"Portrait: Vanessa Göcking (SP4w5)"},
+        {route:"krankheitsportraets-virginia-woolf", label:"Illness Portrait: Virginia Woolf (SE4w5)"},
       ])}
     </div>
   `);
@@ -2017,6 +2019,7 @@ export function connieChiuPortraitPage() {
         {route:"beruehmte-neil-harbisson", label:"Portrait: Neil Harbisson (SE4w5) – also turned a physical trait into a body of independent work"},
         {route:"beruehmte-barney-fishwick", label:"Portrait: Barney Fishwick (SE4w5)"},
         {route:"beruehmte-charlotte-wells", label:"Portrait: Charlotte Wells (SE4w5)"},
+        {route:"krankheitsportraets-connie-chiu", label:"Illness Portrait: Connie Chiu (SE4w5)"},
         ])}
       </div>
     </div>

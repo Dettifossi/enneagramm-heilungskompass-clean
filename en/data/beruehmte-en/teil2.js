@@ -2711,6 +2711,7 @@ export function avrilLavignePortraitPage() {
         {route:"subtype/sx6", label:"SX6 – The Wolf: Subtype Profile"},
         {route:"beruehmte-natalie-dormer", label:"Portrait: Natalie Dormer (SX6w5)"},
         {route:"beruehmte-bobby-fischer", label:"Portrait: Bobby Fischer (SX6w5)"},
+        {route:"krankheitsportraets-avril-lavigne", label:"Illness Portrait: Avril Lavigne (SX6w7)"},
       ])}
     </div>
   `);
@@ -2911,6 +2912,7 @@ export function knutHamsunPortraitPage() {
         {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SP4w5)"},
         {route:"beruehmte-don-mclean", label:"Portrait: Don McLean (SP4w5)"},
         {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
+        {route:"krankheitsportraets-knut-hamsun", label:"Illness Portrait: Knut Hamsun (SE4w5)"},
       ])}
     </div>
   `);

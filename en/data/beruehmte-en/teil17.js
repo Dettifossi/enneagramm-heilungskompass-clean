@@ -1567,6 +1567,7 @@ export function vincentVanGoghPortraitPage() {
         {route:"beruehmte-sam-altman", label:"Portrait: Sam Altman (SP4w5)"},
         {route:"beruehmte-loris-assadian", label:"Portrait: Loris Assadian (SP4w5)"},
         {route:"beruehmte-paul-gauguin", label:"Portrait: Paul Gauguin (SX8w7) – the conflict in Arles"},
+        {route:"krankheitsportraets-vincent-van-gogh", label:"Illness Portrait: Vincent van Gogh (SE4w5)"},
       ])}
     </div>
   `);

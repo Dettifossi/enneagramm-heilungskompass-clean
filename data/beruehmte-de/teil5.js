@@ -1044,6 +1044,7 @@ export function leonardCohenPortraitPage() {
         {route:"beruehmte-edgar-allan-poe", label:"Portrait: Edgar Allan Poe (SO4w5)"},
         {route:"beruehmte-edvard-munch", label:"Portrait: Edvard Munch (SO4w5)"},
         {route:"bibel-thomas", label:"Bibel-Porträt: Thomas (SO4w5)"},
+        {route:"krankheitsportraets-leonard-cohen", label:"Krankheitsporträt: Leonard Cohen (SO4w5)"},
       ])}
     </div>
   `);
@@ -1104,6 +1105,7 @@ export function williamJamesSidisPortraitPage() {
         {route:"beruehmte-marcel-proust", label:"Porträt: Marcel Proust (SO4w5) – derselbe Subtyp, Rückzug und Empfindsamkeit"},
         {route:"lebensmusterkompass/so4", label:"Lebensmusterkompass: SO4 – Gürteltier"},
         {route:"lebensmusterkompass", label:"Lebensmusterkompass: Biografische Muster aller Subtypen"},
+        {route:"krankheitsportraets-william-james-sidis", label:"Krankheitsporträt: William James Sidis (SO4w5)"},
       ])}
     </div>
   `);

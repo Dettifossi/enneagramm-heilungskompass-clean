@@ -2726,6 +2726,7 @@ export function avrilLavignePortraitPage() {
         {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
         {route:"beruehmte-natalie-dormer", label:"Porträt: Natalie Dormer (SX6w5)"},
         {route:"beruehmte-bobby-fischer", label:"Porträt: Bobby Fischer (SX6w5)"},
+        {route:"krankheitsportraets-avril-lavigne", label:"Krankheitsporträt: Avril Lavigne (SX6w7)"},
       ])}
     </div>
   `);

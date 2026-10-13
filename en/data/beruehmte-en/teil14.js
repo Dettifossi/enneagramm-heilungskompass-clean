@@ -2075,6 +2075,7 @@ export function eltonJohnPortraitPage() {
         {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6)"},
         {route:"beruehmte-junko-tabei", label:"Portrait: Junko Tabei (SE7w6)"},
         {route:"beruehmte-jeanne-calment", label:"Portrait: Jeanne Calment (SE7w6)"},
+        {route:"krankheitsportraets-elton-john", label:"Illness Portrait: Elton John (SE7w6)"},
       ])}
     </div>
   `);
@@ -2413,6 +2414,7 @@ export function dmitriShostakovichPortraitPage() {
         {route:"beruehmte-david-hockney", label:"Portrait: David Hockney (SO5w4)"},
         {route:"beruehmte-leonardo-da-vinci", label:"Portrait: Leonardo da Vinci (SO5w4)"},
         {route:"beruehmte-johannes-brahms", label:"Portrait: Johannes Brahms (SE9w8) – composer, 21 years on the 1st Symphony"},
+        {route:"krankheitsportraets-dmitri-schostakowitsch", label:"Illness Portrait: Dmitri Shostakovich (SO5w4)"},
       ])}
     </div>
   `);
