@@ -3470,14 +3470,14 @@ export function eleanorRooseveltPortraitPage() {
 
         <h2 class="vb-section">2. The Social Nine: Participation Instead of Performance</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the <strong>social Nine (SO9)</strong> finds identity in participation: in taking part in a cause and a community rather than in her own performance. In Roosevelt this shows in how she almost always put her fame at the service of others. From 1935 she wrote the daily newspaper column 'My Day', which she continued until her death in 1962, telling of everyday life, travels and what she saw on the way. She helped found Val-Kill Industries, a non-profit furniture workshop in Hyde Park, and taught at the Todhunter School, a private girls' school in New York.</p>
+          <p class="vb-intro">According to Naranjo, the <strong>social Nine (SO9)</strong> finds identity in participation: in taking part in a cause and a community rather than in her own performance. In Roosevelt this showed in how she almost always put her fame at the service of others. From 1935 she wrote the daily newspaper column 'My Day', which she continued until her death in 1962, telling of everyday life, travels and what she saw on the way. She helped found Val-Kill Industries, a non-profit furniture workshop in Hyde Park, and taught at the Todhunter School, a private girls' school in New York.</p>
           <p class="vb-intro">Her stance in conflict shows in a case from 1939: she resigned from the Daughters of the American Revolution after it had refused the singer Marian Anderson a concert in Constitution Hall. In 1943 she travelled as First Lady to the South Pacific to visit soldiers. The buffalo goes where the herd needs her.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One-Wing: Duty That Does Not Let Up</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>One-wing</strong> gives the social Nine principles and discipline. With a weakly developed One-wing the Nine would stay comfortably in the background. In Roosevelt it is strongly developed: for more than a quarter of a century she wrote her column almost daily, travelled tirelessly and took the standard of what is right literally.</p>
-          <p class="vb-intro">This can be linked to the strict imprint of her childhood. Whoever learned as a child that recognition depends on fulfilling duty easily develops an inner judge. In her the One shows less as anger at others than as stubborn responsibility: where something is wrong, it belongs in order.</p>
+          <p class="vb-intro">The <strong>One-wing</strong> gives the social Nine principles and discipline. With a weakly developed One-wing the Nine would stay comfortably in the background. In Roosevelt it was strongly developed: for more than a quarter of a century she wrote her column almost daily, travelled tirelessly and took the standard of what is right literally.</p>
+          <p class="vb-intro">This can be linked to the strict imprint of her childhood. Whoever learned as a child that recognition depends on fulfilling duty easily develops an inner judge. In her the One showed less as anger at others than as stubborn responsibility: where something is wrong, it belongs in order.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Substance: A Declaration for All People</h2>
