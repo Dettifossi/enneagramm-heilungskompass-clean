@@ -5120,3 +5120,445 @@ export function johannesPaulIIKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function nikiLaudaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-niki-lauda-portrait.jpg" alt="Niki Lauda" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-niki-lauda-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Niki Lauda</p>
+        <p class="krim-portrait-typ">SO1w2 · Sozialer Typ 1 mit Zweierflügel · 1949–2019</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Gans</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Tierentsprechung: Gans" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Niki Lauda</strong>, dreifacher Formel-1-Weltmeister und später Gründer der Fluglinie Lauda Air, überlebte 1976 am Nürburgring einen Feuerunfall, kehrte nach wenigen Wochen ins Cockpit zurück und lebte danach über vier Jahrzehnte mit den Folgen für Lunge und Nieren, bis er 2019 mit 70 Jahren starb. Sein Körper trug die Spuren eines Lebens, das er konsequent nach eigenem Maßstab führte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Lauda</strong> wird der <strong>sozialen Eins mit Zweierflügel</strong> zugeordnet, wie sie im Porträt zu <a href="javascript:void(0)" data-route="beruehmte-niki-lauda">Niki Lauda</a> beschrieben ist: ein Mensch, der für die Gemeinschaft Verantwortung übernimmt und dabei einen strengen Maßstab anlegt. Bei chronischer, jahrzehntelanger Belastung bewegen sich Einser entlang ihrer Stresslinie zur Vier, mit mehr Rückzug und Selbstbezug, ohne dass der Kerntyp sich ändert.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Maßstab, der Risiko ernst nimmt:</strong>
+        Schon vor 1976 war Lauda in der Formel 1 dafür bekannt, Gefahren nüchtern zu rechnen. Vor dem Großen Preis von Deutschland 1976 hielt er die Nordschleife des Nürburgrings für nicht mehr verantwortbar und wollte die Fahrer vergeblich zu einem Startverzicht bewegen.</p>
+        <p class="vb-intro"><strong>b) Der Unfall am 1. August 1976:</strong>
+        In der zweiten Runde ging sein Ferrari nach dem Aufprall in Flammen auf. Lauda erlitt lebensgefährliche Verbrennungen, und die Rauchgase schädigten seine Lunge stark.</p>
+        <p class="vb-intro"><strong>c) Sechs Wochen bis zur Rückkehr:</strong>
+        Er verpasste nur zwei Rennen und saß bereits sechs Wochen später wieder im Auto. Die Weltmeisterschaft ging 1976 an James Hunt, im Titelfinale in Fuji gab Lauda im strömenden Regen auf, weil das Risiko jenseits seines Maßstabs lag.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Disziplin gegenüber dem eigenen Körper:</strong>
+        Sein Umgang mit Verletzung und Folgeschäden wirkte nüchtern: Ursache klären, Lösung suchen, weitermachen. Die Narben im Gesicht bedeckte er in der Öffentlichkeit mit seiner Kappe, ohne darüber viele Worte zu verlieren.</p>
+        <p class="vb-intro"><strong>b) Neue Verantwortung nach dem Rennsport:</strong>
+        Nach seiner aktiven Zeit gründete er mit Lauda Air eine eigene Fluglinie. Nach dem Absturz einer Boeing 767 der Gesellschaft 1991 trieb er die Aufklärung persönlich voran.</p>
+        <p class="vb-intro"><strong>c) Ein Körper in der Öffentlichkeit:</strong>
+        Lauda blieb als Unternehmer und Experte sichtbar, auch als seine Gesundheit offenkundig angegriffen war.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die Nieren:</strong>
+        Nach Berichten hinterließ der Unfall nachhaltige Schäden am Körper. Er brauchte später zwei Nierentransplantationen: Zuerst spendete sein Bruder Florian eine Niere, 2005 spendete seine spätere Frau Birgit eine weitere, nachdem das Organ seines Bruders an Funktion verloren hatte. Wie sicher sich die Nierenleiden auf den Unfall von 1976 zurückführen lassen, geht aus den Berichten nicht eindeutig hervor.</p>
+        <p class="vb-intro"><strong>b) Die Lunge:</strong>
+        Im Sommer 2018 unterzog sich Lauda am 2. August im Wiener AKH einer Lungentransplantation, nachdem eine hämorrhagische Alveolitis, eine Entzündung der Lungenbläschen mit Einblutungen, seine Lunge geschädigt hatte. Der Eingriff verlief laut dem Chirurgen Walter Klepetko den Umständen entsprechend gut.</p>
+        <p class="vb-intro"><strong>c) Das Immunsystem als neuer Engpass:</strong>
+        Weil sein Immunsystem nach der Transplantation heruntergefahren worden war, wurde schon eine Grippe gefährlich: Im Januar 2019 lag er deshalb wieder auf der Intensivstation des AKH.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Körper unter Dauerbeobachtung:</strong>
+        Zwischen 1976 und 2019 lebte Lauda mit einem Körper, der wiederholt ersetzt, gestützt und überwacht werden musste. Er blieb dabei als Berater, Fluglinienunternehmer und Fernsehexperte öffentlich sichtbar.</p>
+        <p class="vb-intro"><strong>b) Der Tod am 20. Mai 2019:</strong>
+        Er starb am 20. Mai 2019 im Alter von 70 Jahren im Kreis seiner Familie.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Zielstrebigkeit als Antrieb:</strong>
+        Laudas Energie kam aus der Verbindung von Rechnen und Willen. Er sah Schmerz und Schaden als Hindernis für ein Ziel, nicht als Grund aufzugeben.</p>
+        <p class="vb-intro"><strong>b) Kosten dieser Haltung:</strong>
+        Wer jahrzehntelang Maßstab und Willen vor Schonung stellt, bekommt für den Körper wenig Erholungszeit, und die späten Jahre waren von Klinikaufenthalten geprägt.</p>
+        <p class="vb-intro"><strong>c) Rückhalt im engsten Kreis:</strong>
+        Sein Bruder und seine spätere Frau spendeten ihm Nieren, und seine Familie begleitete ihn bis zuletzt. Hier wird der Zweierflügel als Nähe zu wenigen, verlässlichen Menschen sichtbar.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Feuer, das nie ganz zu Ende ging:</strong>
+        Der Unfall von 1976 war der Beginn einer Kette: Verbrennungen, Lungenschäden, später Nierenversagen, schließlich Lungentransplantation. Nach den vorliegenden Berichten lässt sich nicht sicher sagen, wie weit jede Station aus der vorhergehenden folgte, aber Lauda selbst und sein Umfeld erzählten sie als zusammenhängende Geschichte.</p>
+        <p class="vb-intro"><strong>b) Der Maßstab als Haltung zur Krankheit:</strong>
+        Lauda machte seine Erkrankung nicht zum Drama. Er nahm sie als Aufgabe, bei der Entscheidungen nach klaren Kriterien zu treffen waren: Rückkehr nach sechs Wochen, Aufgeben in Fuji, später die Bereitschaft, sich Organe spenden zu lassen und das Risiko der Transplantationen einzugehen.</p>
+        <p class="vb-intro"><strong>c) Parallele zu Helmut Schmidt und Steve Jobs:</strong>
+        Wie <a href="javascript:void(0)" data-route="krankheitsportraets-helmut-schmidt">Helmut Schmidt</a> und <a href="javascript:void(0)" data-route="krankheitsportraets-steve-jobs">Steve Jobs</a> (beide SO1w2) traf Lauda gesundheitliche Entscheidungen nach eigenen Prinzipien. Anders als Jobs, der eine Operation aufschob, entschied sich Lauda für die ärztlich empfohlenen Schritte.</p>
+        <p class="vb-intro"><strong>d) Die Verschiebung zur Stresslinie:</strong>
+        Mit zunehmender Krankheit lässt sich bei Lauda ein Zug zur Vier erkennen: mehr Rückzug in den privaten Kreis, mehr Blick auf das eigene Befinden, die Erfahrung, dass der Körper ein Eigenleben hat, das sich dem Maßstab entzieht. Sein Kerntyp SO1w2 blieb dabei erkennbar.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Eins zu Verbrennungen, Organversagen oder Transplantationen führt: <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Der Unfall von 1976 war ein äußeres Ereignis. Was sich an Laudas Fall zeigen lässt, ist die Art, wie er mit den Folgen umging, eine von vielen möglichen Betrachtungen, kein Urteil. Das entsprechende Krankheitsbild wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Lauda kannte sein eigenes Enneagramm-Muster nicht. Die soziale Eins lebt ihren Anspruch, es richtig zu machen, so lange aus, bis das Ziel erreicht ist, und genau so kehrte er 1976 nach sechs Wochen ins Cockpit zurück, obwohl sein Körper noch nicht erholt war. Wer das eigene Muster nicht als solches erkennt, stellt den Maßstab leicht über die Schonung, und das Ergebnis zeigt sich oft erst viele Jahre später im Körper.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Laudas</strong> soziale Eins mit Zweierflügel zeigt sich in diesem Krankheitsporträt als Konsequenz im Umgang mit dem eigenen Körper: Er rechnete, entschied und trug die Folgen, vom Feuer am Nürburgring bis zur Lungentransplantation 2018. Die Gans, die in der Formation voranflog und das Gelände auf Gefahr prüfte, prüfte am Ende auch den eigenen Körper, ohne Pose und mit der Genauigkeit, die sein Leben bestimmt hatte.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-niki-lauda", label:"Porträt: Niki Lauda (SO1w2)"},
+        {route:"krankheitsportraets-steve-jobs", label:"Krankheitsporträt: Steve Jobs (SO1w2) – Entscheidung nach eigenem Prinzip"},
+        {route:"krankheitsportraets-brian-wilson", label:"Krankheitsporträt: Brian Wilson (SO1w2)"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+      ])}
+    </div>
+  `);
+}
+
+export function eleanorRooseveltKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-eleanor-roosevelt-portrait.jpg" alt="Eleanor Roosevelt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-eleanor-roosevelt-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Eleanor Roosevelt</p>
+        <p class="krim-portrait-typ">SO9w1 · Sozialer Typ 9 mit Einserflügel · 1884–1962</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Büffel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so9.jpg" alt="Tierentsprechung: Büffel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO9")};left:${tierAvatarLeft("SO9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Eleanor Roosevelt</strong>, First Lady der USA, Diplomatin und Vorsitzende der UN-Menschenrechtskommission, starb am 7. November 1962 mit 78 Jahren an den Folgen einer aplastischen Anämie, einer Erkrankung des Knochenmarks, und einer erst spät erkannten Tuberkulose. In ihren letzten beiden Lebensjahren verlief ihre Krankheit eng neben ihrer öffentlichen Arbeit und neben ihrem Widerstand gegen ärztliche Anweisungen.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Roosevelt</strong> wird der <strong>sozialen Neun mit Einserflügel</strong> zugeordnet, wie im Porträt zu <a href="javascript:void(0)" data-route="beruehmte-eleanor-roosevelt">Eleanor Roosevelt</a> beschrieben: Teilhabe an einer Sache und an der Gemeinschaft, getragen von Pflichtgefühl. Bei chronischer, lang anhaltender Belastung bewegen sich Neuner entlang ihrer Stresslinie zur Sechs, mit mehr Misstrauen und Absicherungsbedürfnis, ohne dass sich der Kerntyp ändert.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Eine Kindheit voller Verluste:</strong>
+        Ihre Mutter starb 1892 an Diphtherie, ihr Vater, an dem sie sehr hing, starb nach den gängigen Angaben zwei Jahre später an den Folgen von Alkoholismus. Verwaist und schüchtern kam sie zur Großmutter, in ein strenges Haus, wo sie lernte, dass Liebe und Anerkennung nicht sicher sind.</p>
+        <p class="vb-intro"><strong>b) Früh gelernte Pflicht:</strong>
+        Aus dieser Erfahrung entstand eine Haltung, Anerkennung durch Leistung für andere zu verdienen. Ihr Mann Franklin D. Roosevelt erkrankte 1921 an Kinderlähmung, und sie übernahm von da an einen großen Teil der öffentlichen Rolle an seiner Seite.</p>
+        <p class="vb-intro"><strong>c) Ein gesunder, belastbarer Körper:</strong>
+        Über Jahrzehnte reiste sie unermüdlich und schrieb fast täglich ihre Kolumne ›My Day‹. Ihre Gesundheit war über lange Zeit kein Thema, das sie in den Mittelpunkt stellte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Dienst an der Gemeinschaft:</strong>
+        Roosevelt stellte ihre Bekanntheit in den Dienst anderer, von Arbeiterinnen und Bürgerrechten bis zur Menschenrechtserklärung der Vereinten Nationen 1948. Eigene Bedürfnisse standen dabei meist hinten.</p>
+        <p class="vb-intro"><strong>b) Diagnose im April 1960:</strong>
+        Im April 1960 fand ihr Arzt eine leichte Anämie und ein auffälliges Knochenmark und stellte die Diagnose aplastische Anämie. Nach damaligem Stand war der fortschreitende Zusammenbruch des Knochenmarks nicht umkehrbar.</p>
+        <p class="vb-intro"><strong>c) Arbeit trotz Schwäche:</strong>
+        Ihre Kolumne lief weiter, doch nach den Berichten war sie zunehmend durch Erschöpfung ans Bett gebunden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Widerstand gegen Behandlung:</strong>
+        Nach den Berichten spuckte sie später Tabletten aus oder versteckte sie unter der Zunge, lehnte weitere Untersuchungen ab und verlangte, nach Hause zu gehen. Sie behandelte sich am Ende wie jemand, der nicht Patientin sein wollte.</p>
+        <p class="vb-intro"><strong>b) Entlassung gegen ärztlichen Rat:</strong>
+        Im Krankenhaus Columbia-Presbyterian ließ sie sich gegen die Anordnung der Ärzte entlassen, solange sie noch konnte, am 18. Oktober 1962.</p>
+        <p class="vb-intro"><strong>c) Die späte Tuberkulose-Diagnose:</strong>
+        Ihre Ärzte begannen sie vorsorglich mit Medikamenten gegen Tuberkulose zu behandeln, weil die Kultur Wochen braucht. Zwei Wochen vor ihrem Tod wurde die Knochenmarkskultur positiv gemeldet. Manche Kommentatoren meinen, die Tuberkulose sei auch deshalb zu spät erkannt worden, weil man der prominenten Patientin eine Knochenmarkspunktion ersparen wollte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Das Ende im Haus:</strong>
+        Sie starb am 7. November 1962 in New York. Offizielle Angaben nennen aplastische Anämie, disseminierte Tuberkulose und Herzversagen als Ursachen.</p>
+        <p class="vb-intro"><strong>b) Ein Lebenswerk, das in die Erkrankung hineinreichte:</strong>
+        Die Allgemeine Erklärung der Menschenrechte lag zu diesem Zeitpunkt 14 Jahre zurück, und Roosevelt war bis zuletzt als Stimme der Menschenrechte gefragt.</p>
+        <p class="vb-intro"><strong>c) Nachträgliche Debatte:</strong>
+        Die medizinische Fachliteratur hat später die Frage aufgeworfen, ob die Tuberkulose früher hätte erkannt werden können, und ihren Fall als bioethische Fallstudie behandelt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Pflicht als Treibstoff:</strong>
+        Der Einserflügel hielt Roosevelt lange in Bewegung. Erschöpfung ließ sich überspielen, solange das Ziel größer war als sie selbst.</p>
+        <p class="vb-intro"><strong>b) Der Moment, in dem die Energie nicht mehr reichte:</strong>
+        Als der Körper nachgab, endete diese Bewegung nicht in Ruhe, sondern in einem Kampf um das eigene Bestimmungsrecht über Behandlung und Aufenthalt.</p>
+        <p class="vb-intro"><strong>c) Rückkehr nach Hause:</strong>
+        Der Wunsch, zu Hause zu sein, passt zu einer sozialen Neun, die in vertrauter Umgebung bei ihren Menschen bleiben will.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Körper, der zuletzt zurückgestellt wurde:</strong>
+        Über Jahrzehnte stellte Roosevelt die eigenen Bedürfnisse hinter die Sache. Die Erkrankung ihres Knochenmarks, in dem Blutzellen entstehen, trat in genau der Zeit auf, in der sie noch immer für die Menschenrechte reiste und schrieb.</p>
+        <p class="vb-intro"><strong>b) Parallele zu Marie Curie:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-marie-curie">Marie Curie</a> (SE5w6) starb ebenfalls an einer aplastischen Anämie, bei ihr nach den Berichten als Folge jahrelanger Strahlenbelastung bei der Arbeit. Bei Roosevelt ist die Ursache nicht geklärt. Beide verbindet, dass sie sich dem Gebot ihrer Arbeit ungeschützt widmeten.</p>
+        <p class="vb-intro"><strong>c) Wilma Mankiller als Vergleich im Subtyp:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-wilma-mankiller">Wilma Mankiller</a> (SO9) lebte über Jahrzehnte mit schweren Erkrankungen, die sie neben ihrem öffentlichen Amt trug. Bei beiden ließ der Körper über Jahre zurückgestellte Bedürfnisse erkennen.</p>
+        <p class="vb-intro"><strong>d) Die Verschiebung zur Stresslinie:</strong>
+        Mit der Krankheit lässt sich bei Roosevelt ein Zug zur Sechs erkennen: Misstrauen gegenüber der ärztlichen Behandlung, Widerstand gegen Anweisungen und der Wunsch nach Kontrolle über die eigene Situation. Ihr Kerntyp SO9w1 blieb davon unberührt.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Neun zu Knochenmarkserkrankungen oder Tuberkulose führt: <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Roosevelts Fall zeigen lässt, ist die Art, wie sie ihr Leben lang eigene Bedürfnisse hinter die Sache stellte, eine von vielen möglichen Betrachtungen, kein Urteil. Das entsprechende Krankheitsbild wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Roosevelt kannte ihr eigenes Enneagramm-Muster nicht. Die soziale Neun mit Einserflügel lebt ihr Pflichtgefühl unbewusst so lange aus, bis der Körper nicht mehr mitspielt, und genau das tat sie, solange sie ihre Kolumne schrieb und für die Menschenrechte reiste. Wer das Muster nicht erkennt, bemerkt die Warnzeichen des eigenen Körpers spät, und der Widerstand am Ende lässt sich auch als Versuch lesen, die Entscheidung über das eigene Leben zurückzuholen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Roosevelts</strong> soziale Neun mit Einserflügel zeigt sich in diesem Krankheitsporträt in dem Satz, mit dem sie gelebt hatte: erst die Sache, dann sie selbst. Der Büffel, der sich dem Sturm zuwendet, ließ den eigenen Körper bis zuletzt hinter der Herde zurück, und erst am Ende, im Streit um Tabletten und Untersuchungen, forderte sie für sich selbst, was sie lebenslang für andere gefordert hatte: das Recht, über das eigene Leben zu entscheiden.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-eleanor-roosevelt", label:"Porträt: Eleanor Roosevelt (SO9w1)"},
+        {route:"krankheitsportraets-marie-curie", label:"Krankheitsporträt: Marie Curie (SE5w6) – dieselbe Diagnose, andere Ursache"},
+        {route:"krankheitsportraets-peter-falk", label:"Krankheitsporträt: Peter Falk (SO9w1)"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so9", label:"Lebensmusterkompass: SO9 – Büffel"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+      ])}
+    </div>
+  `);
+}
+
+export function princeKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-prince-rogers-nelson-portrait.jpg" alt="Prince" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-prince-rogers-nelson-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Prince</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexueller Typ 4 mit Dreierflügel · 1958–2016</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Tierentsprechung: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Prince</strong> (Prince Rogers Nelson), Sänger, Multiinstrumentalist und Produzent aus Minneapolis, starb am 21. April 2016 mit 57 Jahren in seinem Studiokomplex Paisley Park an einer unbeabsichtigten Überdosis Fentanyl. Nach den Ermittlungen hatte er seit Jahren Schmerzen, über die er öffentlich kaum sprach, und nahm Tabletten ein, die gefälscht waren.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Prince</strong> wird der <strong>sexuellen Vier mit Dreierflügel</strong> zugeordnet, wie im Porträt zu <a href="javascript:void(0)" data-route="beruehmte-prince-rogers-nelson">Prince</a> beschrieben: intensive, kompromisslose Einzigartigkeit, verbunden mit dem Drang, in der eigenen Kunst zu glänzen. Bei chronischer, lang anhaltender Belastung bewegen sich Vierer entlang ihrer Stresslinie zur Zwei, mit mehr Abhängigkeit von Helfern und mit Aufopferung für andere, ohne dass sich der Kerntyp ändert.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Körper als Instrument der Bühne:</strong>
+        Prince war für seine Auftritte bekannt, bei denen er tanzte, sprang und Gitarre spielte. Nach Angaben der Ermittler hatte er seit Jahren Schmerzen, über die er öffentlich kaum sprach.</p>
+        <p class="vb-intro"><strong>b) Ein Mensch, der wenig preisgab:</strong>
+        Prince lebte weitgehend abgeschirmt in Paisley Park und sprach selten über Privates. Das passt zu der Haltung der sexuellen Vier, das Innere zu schützen.</p>
+        <p class="vb-intro"><strong>c) Der Flug am 15. April 2016:</strong>
+        Eine Woche vor seinem Tod musste das Flugzeug, in dem er reiste, in Moline im Bundesstaat Illinois notlanden, weil er erkrankt war. Ihm wurde zweimal der Gegenstoff Narcan gegen Opioide verabreicht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Keine Verschreibung in Minnesota:</strong>
+        Nach den Akten hatte Prince in den zwölf Monaten vor seinem Tod in Minnesota keine Verschreibung für kontrollierte Substanzen. Der Arzt Michael Todd Schulenberg, ein Hausarzt, behandelte ihn in den letzten Wochen zweimal und verschrieb ihm Medikamente.</p>
+        <p class="vb-intro"><strong>b) Gefälschte Tabletten:</strong>
+        In Paisley Park fanden Ermittler viele Tabletten, die fälschlich als ›Watson 385‹ beschriftet waren, ein Stempel, der üblicherweise für ein Gemisch aus Paracetamol und Hydrocodon steht. Mindestens eine davon enthielt Fentanyl, Lidocain und einen weiteren Wirkstoff.</p>
+        <p class="vb-intro"><strong>c) Was die Ermittler vermuteten:</strong>
+        Sie hielten es für wahrscheinlich, dass Prince nicht wusste, was er einnahm, und glaubte, ein gewöhnliches Schmerzmittel zu nehmen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Der Hilferuf am Tag vor dem Tod:</strong>
+        Am 20. April 2016 baten seine Vertreter den kalifornischen Suchtmediziner Howard Kornfeld um Hilfe für Prince. Prince starb, bevor es zu einer Behandlung kam.</p>
+        <p class="vb-intro"><strong>b) Der Tod am 21. April 2016:</strong>
+        Prince wurde allein und nicht ansprechbar in einem Aufzug in Paisley Park gefunden. Die Gerichtsmedizin stufte seinen Tod als unbeabsichtigte, selbst zugeführte Überdosis Fentanyl ein, ohne zu klären, wie er das Mittel erhalten hatte.</p>
+        <p class="vb-intro"><strong>c) Kein Strafverfahren:</strong>
+        Die Behörden stellten eine zweijährige Untersuchung ohne Anklage ein. Seine Familie führte später zivilrechtliche Verfahren gegen ein Krankenhaus.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Tod mit Signalwirkung:</strong>
+        Der Fall rückte die Gefahr gefälschter Tabletten ins öffentliche Bewusstsein, die wie gewöhnliche Schmerzmittel aussehen, aber Fentanyl enthalten.</p>
+        <p class="vb-intro"><strong>b) Ein Werk, das ihn überdauerte:</strong>
+        Princes Musik und sein Ruf als Ausnahmekünstler blieben nach seinem Tod bestehen; das Krankheitsporträt betrachtet das Ende, nicht das Werk.</p>
+        <p class="vb-intro"><strong>c) Verschwiegenheit mit Folgen:</strong>
+        Weil er seine Schmerzen nach außen kaum zeigte, scheinen sich nur wenige Menschen seiner Lage vollständig bewusst gewesen zu sein.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Auftritt trotz Schmerz:</strong>
+        Sein Anspruch, auf der Bühne zu glänzen, ließ wenig Raum für Schonung.</p>
+        <p class="vb-intro"><strong>b) Ein Rückzugsort:</strong>
+        Paisley Park war Arbeitsstätte und Zuhause zugleich, und er lebte dort weitgehend für sich.</p>
+        <p class="vb-intro"><strong>c) Hilfe, die zu spät kam:</strong>
+        Dass seine Vertreter am Tag vor seinem Tod einen Suchtmediziner einschalteten, zeigt, dass die Lage erkannt wurde, bevor jemand eingreifen konnte.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Schmerz, den man nicht zeigt:</strong>
+        Der rote Faden in Princes Fall ist weniger die Abhängigkeit als das Schweigen über die Schmerzen. Ein Mensch, der auf der Bühne alles gab, trug sie im Verborgenen.</p>
+        <p class="vb-intro"><strong>b) Parallele zu Freddie Mercury:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-freddie-mercury">Freddie Mercury</a> (SX4w3) hielt seine Erkrankung fast fünf Jahre lang geheim. Beide zeigen die sexuelle Vier mit Dreierflügel, die ihr Leiden hinter dem Auftritt verbirgt.</p>
+        <p class="vb-intro"><strong>c) Michael Jackson als anderer Fall:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-michael-jackson">Michael Jackson</a> (SO4w3) starb 2009 an einer Medikamentenüberdosierung. Beide Fälle zeigen, wie nah Bühnenbelastung und Medikamente beieinander liegen können.</p>
+        <p class="vb-intro"><strong>d) Die Verschiebung zur Stresslinie:</strong>
+        Mit zunehmender Belastung lässt sich bei Prince ein Zug zur Zwei erkennen: Abhängigkeit von Helfern, Ärzten und Vertrauten, deren Rat er brauchte, aber nicht immer annahm. Sein Kerntyp SX4w3 blieb erkennbar.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Vier zu Schmerzmittelabhängigkeit führt: <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Gefälschte Tabletten sind ein äußeres Risiko, das jeden treffen kann. Was sich an Princes Fall zeigen lässt, ist die Verschwiegenheit über Schmerz, eine von vielen möglichen Betrachtungen, kein Urteil. Das entsprechende Krankheitsbild wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Prince kannte sein eigenes Enneagramm-Muster nicht. Die sexuelle Vier mit Dreierflügel lebt ihre Einzigartigkeit unbewusst so lange aus, bis nichts anderes mehr übrig bleibt, und das hieß hier: auf der Bühne alles zeigen und den Schmerz allein tragen. Wer das nicht erkennt, tut sich schwer, anderen die eigene Schwäche zuzumuten, und dann greifen Mittel, die schnell Erleichterung versprechen.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Princes</strong> sexuelle Vier mit Dreierflügel zeigt sich in diesem Krankheitsporträt in der Spannung zwischen der Bühne und dem Verborgenen. Der Chihuahua, der klein ist und seine Wachsamkeit laut zeigt, trägt einen empfindlichen Kern, und bei Prince blieb dieser Kern bis zum Schluss ungeschützt, weil er ihn nicht zeigte. Sein Fall erinnert daran, dass auch das, was nach Kontrolle aussieht, auf einem unsicheren Boden stehen kann.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-prince-rogers-nelson", label:"Porträt: Prince (SX4w3)"},
+        {route:"krankheitsportraets-freddie-mercury", label:"Krankheitsporträt: Freddie Mercury (SX4w3) – derselbe Subtyp, Geheimhaltung"},
+        {route:"krankheitsportraets-michael-jackson", label:"Krankheitsporträt: Michael Jackson (SO4w3)"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx4", label:"Lebensmusterkompass: SX4 – Chihuahua"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+      ])}
+    </div>
+  `);
+}
+
+export function williamJamesSidisKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-william-james-sidis-portrait.jpg" alt="William James Sidis" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-william-james-sidis-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">William James Sidis</p>
+        <p class="krim-portrait-typ">SE5w6 · Selbsterhaltender Typ 5 mit Sechserflügel · 1898–1944</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Eule</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Tierentsprechung: Eule" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>William James Sidis</strong>, ein amerikanisches Wunderkind der Mathematik, das mit elf Jahren in Harvard begann, zog sich später aus der Öffentlichkeit zurück und lebte in bescheidenen Verhältnissen in Boston. Er starb am 17. Juli 1944 im Alter von 46 Jahren an einer Hirnblutung, derselben Todesursache wie sein Vater, kurz nachdem er einen siebenjährigen Rechtsstreit mit einer Zeitschrift beendet hatte.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Sidis</strong> wird der <strong>selbsterhaltenden Fünf mit Sechserflügel</strong> zugeordnet, wie im Porträt zu <a href="javascript:void(0)" data-route="beruehmte-william-james-sidis">William James Sidis</a> beschrieben: Rückzug, Wissen als Schutzraum und das Bedürfnis, möglichst wenig von der Welt zu brauchen. Bei chronischer, lang anhaltender Belastung bewegen sich Fünfer entlang ihrer Stresslinie zur Sieben, mit mehr Zerstreuung und Unruhe, ohne dass sich der Kerntyp ändert.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Kind, das früh Erwartungen trug:</strong>
+        Sidis galt von klein auf als außergewöhnlich. Er begann mit elf Jahren in Harvard zu studieren und hielt nach den Berichten innerhalb eines Jahres einen Vortrag vor dem mathematischen Club der Universität über vierdimensionale Körper.</p>
+        <p class="vb-intro"><strong>b) Der Abschluss mit sechzehn:</strong>
+        1914 erhielt er seinen Bachelor in Harvard. Die Öffentlichkeit schaute auf ihn, lange bevor er erwachsen war.</p>
+        <p class="vb-intro"><strong>c) Der Rückzug:</strong>
+        Er verbrachte den Rest seines Lebens mit einfachen Büroarbeiten und wollte nach den Berichten vor allem in Ruhe gelassen werden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein Leben in Bescheidenheit:</strong>
+        Sidis lebte allein in einfachen Wohnungen in Boston, ohne enge Freunde und nach einer Darstellung beinahe in Armut.</p>
+        <p class="vb-intro"><strong>b) Ein Körper, der kaum Beachtung fand:</strong>
+        Nach dem, was berichtet wird, war er übergewichtig und hatte hohen Blutdruck. Zu seiner Gesundheit gibt es wenig mehr als diese Hinweise.</p>
+        <p class="vb-intro"><strong>c) Das Ende des Rückzugs:</strong>
+        1937 schrieb ein Reporter des New Yorker nach einer Bekanntschaft einen Artikel über sein zurückgezogenes, eigenwilliges Leben. Sidis war empört und klagte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Sieben Jahre Rechtsstreit:</strong>
+        Der Prozess zog sich über sieben Jahre hin und rückte ihn wieder in die Öffentlichkeit, die er gemieden hatte. 1944 erreichte er einen Vergleich.</p>
+        <p class="vb-intro"><strong>b) Die Hirnblutung:</strong>
+        Kurz nach dem Vergleich erlitt er eine Hirnblutung, von der er sich nicht mehr erholte. Er starb am 17. Juli 1944 in Boston. Einzelne Darstellungen nennen abweichende Daten für den Fund, nach einer wurde er am 13. Juli bewusstlos in einer Pension gefunden.</p>
+        <p class="vb-intro"><strong>c) Dieselbe Todesursache wie sein Vater:</strong>
+        Auch sein Vater, der Psychologe Boris Sidis, starb nach den Berichten an einer Hirnblutung. Das spricht dafür, dass eine familiäre Veranlagung eine Rolle gespielt haben kann.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein früher Tod:</strong>
+        Mit 46 Jahren starb Sidis in einem Alter, in dem andere Gelehrte ihr Hauptwerk erst vollenden.</p>
+        <p class="vb-intro"><strong>b) Ein Ruf, der den Menschen verdeckte:</strong>
+        Das Bild des ›klügsten Menschen der Welt‹, das die Presse zeichnete, bestimmte seinen Platz in der Erinnerung stärker als seine tatsächlichen Interessen.</p>
+        <p class="vb-intro"><strong>c) Schutz vor der Welt:</strong>
+        Ein Leben in Bescheidenheit und Abgeschiedenheit schützte ihn vor der Öffentlichkeit, ließ ihn aber auch ohne Menschen, die seinen Gesundheitszustand im Blick hatten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Energie sparen:</strong>
+        Die selbsterhaltende Fünf geht sparsam mit ihrer Kraft um und wählt wenige, ausgesuchte Bereiche. Sidis wählte Tätigkeiten, die ihn wenig forderten.</p>
+        <p class="vb-intro"><strong>b) Der Prozess als Belastung:</strong>
+        Der siebenjährige Rechtsstreit zwang ihn in die Öffentlichkeit, die er mied, und dürfte eine Dauerbelastung gewesen sein.</p>
+        <p class="vb-intro"><strong>c) Ein Körper ohne Rücklagen:</strong>
+        Wer sich aus allem zurückzieht, hat für Krisen wenig Puffer, weder sozial noch finanziell.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein verschwiegener Körper:</strong>
+        Die Quellenlage zu Sidis' Gesundheit ist dünn. Sie nennt Übergewicht, hohen Blutdruck und die Hirnblutung, mehr nicht. Der rote Faden liegt deshalb weniger in einer bekannten Krankengeschichte als im Muster von Rückzug und Belastung.</p>
+        <p class="vb-intro"><strong>b) Parallele zu Charles Darwin:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-charles-darwin">Charles Darwin</a> (SE5w6) arbeitete trotz eines nie eindeutig diagnostizierten chronischen Leidens über Jahrzehnte ruhig weiter. Sidis zog sich aus der Arbeit zurück, und beide Fälle zeigen, wie unterschiedlich dieselbe Grundhaltung mit Belastung umgehen kann.</p>
+        <p class="vb-intro"><strong>c) Parallele zu Baruch de Spinoza:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-spinoza">Baruch de Spinoza</a> (SE5w6) wählte mit dem Linsenschleifen ein einfaches Handwerk zur Unabhängigkeit und starb früh an einer Lungenerkrankung. Wie bei Sidis bedeutete Einfachheit nicht Schonung des Körpers.</p>
+        <p class="vb-intro"><strong>d) Die Verschiebung zur Stresslinie:</strong>
+        Mit zunehmender Belastung lässt sich bei Sidis ein Zug zur Sieben erkennen: viele wechselnde Interessen und Tätigkeiten, etwa seine Sammlung von Straßenbahn-Umsteigekarten, statt der Konzentration auf ein einziges Fach. Sein Kerntyp SE5w6 blieb dabei erkennbar.</p>
+        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der selbsterhaltenden Fünf zu Bluthochdruck oder Hirnblutungen führt: <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Eine familiäre Veranlagung ist hier wahrscheinlicher als eine psychische Ursache. Was sich an Sidis' Fall zeigen lässt, ist die Art, wie ein Mensch, der sich zurückgezogen hatte, von Belastungen eingeholt wurde, eine von vielen möglichen Betrachtungen, kein Urteil. Das entsprechende Krankheitsbild wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Sidis kannte sein eigenes Enneagramm-Muster nicht. Die selbsterhaltende Fünf mit Sechserflügel lebt ihren Rückzug unbewusst so lange aus, bis Schutz und Isolation ineinander übergehen. Er suchte Abstand von einer Öffentlichkeit, die ihn nicht losließ, und ließ dabei die Menschen und Routinen weg, die auf seinen Körper hätten achten können.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Sidis'</strong> selbsterhaltende Fünf mit Sechserflügel zeigt sich in diesem Krankheitsporträt als Geschichte eines Rückzugs, der schützen sollte und zugleich allein ließ. Die Eule, die in der Dunkelheit sieht und wenig braucht, suchte Ruhe vor den Blicken der Welt, und der Körper des früh Gefeierten gab mit 46 Jahren nach.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-william-james-sidis", label:"Porträt: William James Sidis (SE5w6)"},
+        {route:"krankheitsportraets-charles-darwin", label:"Krankheitsporträt: Charles Darwin (SE5w6) – chronisches Leiden, ruhige Arbeit"},
+        {route:"krankheitsportraets-spinoza", label:"Krankheitsporträt: Baruch de Spinoza (SE5w6)"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se5", label:"Lebensmusterkompass: SE5 – Eule"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+      ])}
+    </div>
+  `);
+}

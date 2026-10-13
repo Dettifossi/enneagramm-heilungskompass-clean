@@ -4898,3 +4898,445 @@ export function johannesPaulIIKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function nikiLaudaKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-niki-lauda-portrait.jpg" alt="Niki Lauda" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-niki-lauda-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Niki Lauda</p>
+        <p class="krim-portrait-typ">SO1w2 · Social Type 1 with Two-wing · 1949–2019</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Goose</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so1.jpg" alt="Animal correspondence: Goose" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO1")};left:${tierAvatarLeft("SO1")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Niki Lauda</strong>, three-time Formula 1 world champion and later founder of the airline Lauda Air, survived a fiery crash at the Nürburgring in 1976, returned to the cockpit within weeks and then lived for more than four decades with the consequences for lungs and kidneys until he died in 2019 at 70. His body carried the traces of a life he led consistently by his own standard.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Lauda</strong> is assigned to the <strong>social One with a Two-wing</strong>, as described in the portrait of <a href="javascript:void(0)" data-route="beruehmte-niki-lauda">Niki Lauda</a>: a person who takes responsibility for the community and applies a strict standard while doing so. Under chronic, decades-long strain, Ones move along their stress line to the Four, with more withdrawal and self-focus, without the core type changing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A standard that takes risk seriously:</strong>
+        Even before 1976, Lauda was known in Formula 1 for calculating dangers soberly. Before the 1976 German Grand Prix he considered the Nordschleife of the Nürburgring no longer justifiable and tried in vain to persuade the drivers to refuse to start.</p>
+        <p class="vb-intro"><strong>b) The accident of 1 August 1976:</strong>
+        On the second lap his Ferrari went up in flames after the impact. Lauda suffered life-threatening burns, and the fumes badly damaged his lungs.</p>
+        <p class="vb-intro"><strong>c) Six weeks until the return:</strong>
+        He missed only two races and was back in the car six weeks later. The 1976 championship went to James Hunt; in the title decider at Fuji Lauda withdrew in pouring rain because the risk lay beyond his standard.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Discipline toward his own body:</strong>
+        His handling of injury and consequential damage seemed sober: clarify the cause, look for a solution, carry on. In public he covered the scars on his face with his cap, without saying much about it.</p>
+        <p class="vb-intro"><strong>b) New responsibility after racing:</strong>
+        After his active career he founded his own airline, Lauda Air. After the crash of one of the company's Boeing 767s in 1991 he personally drove the investigation.</p>
+        <p class="vb-intro"><strong>c) A body in public view:</strong>
+        Lauda remained visible as an entrepreneur and expert even when his health was obviously damaged.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) The kidneys:</strong>
+        According to reports, the accident left lasting damage to his body. Later he needed two kidney transplants: first his brother Florian donated a kidney, and in 2005 his later wife Birgit donated another after his brother's organ had lost function. How securely the kidney problems can be traced to the 1976 accident is not clear from the reports.</p>
+        <p class="vb-intro"><strong>b) The lungs:</strong>
+        In the summer of 2018, on 2 August, Lauda underwent a lung transplant at Vienna's AKH after a haemorrhagic alveolitis, an inflammation of the air sacs with bleeding, had damaged his lungs. According to the surgeon Walter Klepetko the operation went as well as could be expected.</p>
+        <p class="vb-intro"><strong>c) The immune system as a new bottleneck:</strong>
+        Because his immune system had been turned down after the transplant, even a flu became dangerous: in January 2019 he was back in the intensive care unit of the AKH.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A body under constant observation:</strong>
+        Between 1976 and 2019 Lauda lived with a body that repeatedly had to be replaced, supported and monitored. He remained publicly visible throughout as an adviser, airline entrepreneur and television expert.</p>
+        <p class="vb-intro"><strong>b) Death on 20 May 2019:</strong>
+        He died on 20 May 2019 at the age of 70, surrounded by his family.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Determination as drive:</strong>
+        Lauda's energy came from the combination of calculation and will. He saw pain and damage as an obstacle to a goal, not as a reason to give up.</p>
+        <p class="vb-intro"><strong>b) The cost of this attitude:</strong>
+        Whoever puts standard and will before sparing himself for decades gives the body little recovery time, and the late years were marked by hospital stays.</p>
+        <p class="vb-intro"><strong>c) Support in the closest circle:</strong>
+        His brother and his later wife donated kidneys to him, and his family accompanied him to the end. Here the Two-wing becomes visible as closeness to a few reliable people.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A fire that never quite ended:</strong>
+        The 1976 accident was the start of a chain: burns, lung damage, later kidney failure, finally a lung transplant. According to the available reports it cannot be said with certainty how far each station followed from the one before, but Lauda himself and his circle told it as one connected story.</p>
+        <p class="vb-intro"><strong>b) The standard as an attitude to illness:</strong>
+        Lauda did not make his illness a drama. He took it as a task in which decisions had to be made by clear criteria: the return after six weeks, withdrawing at Fuji, later the willingness to accept organ donations and take the risk of transplants.</p>
+        <p class="vb-intro"><strong>c) A parallel to Helmut Schmidt and Steve Jobs:</strong>
+        Like <a href="javascript:void(0)" data-route="krankheitsportraets-helmut-schmidt">Helmut Schmidt</a> and <a href="javascript:void(0)" data-route="krankheitsportraets-steve-jobs">Steve Jobs</a> (both SO1w2), Lauda made health decisions by his own principles. Unlike Jobs, who postponed an operation, Lauda chose the medically recommended steps.</p>
+        <p class="vb-intro"><strong>d) The shift along the stress line:</strong>
+        As the illness advanced, a pull toward the Four can be seen in Lauda: more withdrawal into the private circle, more attention to his own condition, the experience that the body has a life of its own that escapes the standard. His core type SO1w2 remained recognisable.</p>
+        <p class="vb-intro"><strong>e) A classification without determinism:</strong>
+        This does not mean that the social One's pattern leads to burns, organ failure or transplants: <strong>anyone can get any illness, regardless of subtype.</strong> The 1976 accident was an external event. What Lauda's case shows is how he dealt with the consequences, one of many possible views, not a verdict. The corresponding clinical picture is being worked out step by step in the <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        Lauda did not know his own Enneagram pattern. The social One lives out the claim to get it right until the goal is reached, and that is how he returned to the cockpit after six weeks in 1976 even though his body had not recovered. Whoever does not recognise his own pattern as such easily puts the standard above sparing himself, and the result often shows in the body only many years later.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Lauda's</strong> social One with a Two-wing shows in this illness portrait as consistency in dealing with his own body: he calculated, decided and bore the consequences, from the fire at the Nürburgring to the lung transplant of 2018. The goose that flew ahead in the formation and tested the ground for danger tested in the end also its own body, without pose and with the precision that had governed its life.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-niki-lauda", label:"Portrait: Niki Lauda (SO1w2)"},
+        {route:"krankheitsportraets-steve-jobs", label:"Illness Portrait: Steve Jobs (SO1w2) – decision by his own principle"},
+        {route:"krankheitsportraets-brian-wilson", label:"Illness Portrait: Brian Wilson (SO1w2)"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+      ])}
+    </div>
+  `);
+}
+
+export function eleanorRooseveltKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-eleanor-roosevelt-portrait.jpg" alt="Eleanor Roosevelt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-eleanor-roosevelt-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Eleanor Roosevelt</p>
+        <p class="krim-portrait-typ">SO9w1 · Social Type 9 with One-wing · 1884–1962</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Buffalo</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so9.jpg" alt="Animal correspondence: Buffalo" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO9")};left:${tierAvatarLeft("SO9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Eleanor Roosevelt</strong>, First Lady of the United States, diplomat and chair of the UN Commission on Human Rights, died on 7 November 1962 at 78 of the consequences of aplastic anaemia, a disease of the bone marrow, and a tuberculosis recognised only late. In her last two years her illness ran alongside her public work and alongside her resistance to medical instructions.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Roosevelt</strong> is assigned to the <strong>social Nine with a One-wing</strong>, as described in the portrait of <a href="javascript:void(0)" data-route="beruehmte-eleanor-roosevelt">Eleanor Roosevelt</a>: participation in a cause and in the community, carried by a sense of duty. Under chronic, long-lasting strain, Nines move along their stress line to the Six, with more mistrust and need for security, without the core type changing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A childhood full of losses:</strong>
+        Her mother died of diphtheria in 1892, and her father, to whom she was devoted, died by common accounts two years later of the effects of alcoholism. Orphaned and shy, she went to her grandmother, into a strict household, where she learned that love and approval are not secure.</p>
+        <p class="vb-intro"><strong>b) Duty learned early:</strong>
+        From this experience came an attitude of earning approval through service to others. Her husband Franklin D. Roosevelt fell ill with polio in 1921, and from then on she took over a large part of the public role at his side.</p>
+        <p class="vb-intro"><strong>c) A healthy, resilient body:</strong>
+        For decades she travelled tirelessly and wrote her column 'My Day' almost daily. For a long time her health was not a subject she put at the centre.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) Service to the community:</strong>
+        Roosevelt put her fame at the service of others, from working women and civil rights to the United Nations declaration of human rights in 1948. Her own needs mostly came last.</p>
+        <p class="vb-intro"><strong>b) Diagnosis in April 1960:</strong>
+        In April 1960 her physician found a mild anaemia and an abnormal bone marrow and diagnosed aplastic anaemia. By the standards of the time the progressive collapse of the bone marrow was not reversible.</p>
+        <p class="vb-intro"><strong>c) Work despite weakness:</strong>
+        Her column continued, but according to the reports she was increasingly confined to bed by exhaustion.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Resistance to treatment:</strong>
+        According to the reports she later spat out pills or hid them under her tongue, refused further tests and demanded to go home. In the end she behaved like someone who did not want to be a patient.</p>
+        <p class="vb-intro"><strong>b) Discharge against medical advice:</strong>
+        She discharged herself from Columbia-Presbyterian against her doctors' orders while she still could, on 18 October 1962.</p>
+        <p class="vb-intro"><strong>c) The late tuberculosis diagnosis:</strong>
+        Her doctors began treating her with tuberculosis drugs as a precaution because the culture takes weeks. Two weeks before her death the bone marrow culture was reported positive. Some commentators suggest the tuberculosis was recognised late partly because the high-profile patient was to be spared a bone marrow biopsy.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) The end at home:</strong>
+        She died on 7 November 1962 in New York. Official records list aplastic anaemia, disseminated tuberculosis and heart failure as causes.</p>
+        <p class="vb-intro"><strong>b) A life's work reaching into the illness:</strong>
+        The Universal Declaration of Human Rights lay fourteen years back at that point, and Roosevelt was in demand as a voice of human rights to the end.</p>
+        <p class="vb-intro"><strong>c) Later debate:</strong>
+        Medical literature has since raised the question of whether the tuberculosis could have been recognised earlier and has treated her case as a bioethical case study.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Duty as fuel:</strong>
+        The One-wing kept Roosevelt moving for a long time. Exhaustion could be overridden as long as the goal was bigger than herself.</p>
+        <p class="vb-intro"><strong>b) The moment the energy no longer sufficed:</strong>
+        When the body gave way, this movement did not end in rest but in a struggle for her own say over treatment and place of stay.</p>
+        <p class="vb-intro"><strong>c) Return home:</strong>
+        The wish to be at home suits a social Nine who wants to stay among her people in familiar surroundings.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A body put aside at last:</strong>
+        For decades Roosevelt put her own needs behind the cause. The disease of her bone marrow, where blood cells are made, appeared at exactly the time when she was still travelling and writing for human rights.</p>
+        <p class="vb-intro"><strong>b) A parallel to Marie Curie:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-marie-curie">Marie Curie</a> (SE5w6) also died of aplastic anaemia, in her case according to the reports as a result of years of radiation exposure at work. In Roosevelt the cause is not established. What they share is that both devoted themselves unprotected to the demand of their work.</p>
+        <p class="vb-intro"><strong>c) Wilma Mankiller as a comparison in the subtype:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-wilma-mankiller">Wilma Mankiller</a> (SO9) lived for decades with serious illnesses that she carried alongside her public office. In both, the body showed needs that had been put aside for years.</p>
+        <p class="vb-intro"><strong>d) The shift along the stress line:</strong>
+        With the illness a pull toward the Six can be seen in Roosevelt: mistrust of medical treatment, resistance to instructions and the wish for control over her own situation. Her core type SO9w1 remained untouched.</p>
+        <p class="vb-intro"><strong>e) A classification without determinism:</strong>
+        This does not mean that the social Nine's pattern leads to bone marrow disease or tuberculosis: <strong>anyone can get any illness, regardless of subtype.</strong> What Roosevelt's case shows is how she put her own needs behind the cause all her life, one of many possible views, not a verdict. The corresponding clinical picture is being worked out step by step in the <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        Roosevelt did not know her own Enneagram pattern. The social Nine with a One-wing lives out her sense of duty unconsciously until the body no longer plays along, and that is what she did as long as she wrote her column and travelled for human rights. Whoever does not recognise the pattern notices the warning signs of her own body late, and the resistance at the end can also be read as an attempt to take back the decision over her own life.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Roosevelt's</strong> social Nine with a One-wing shows in this illness portrait in the sentence by which she had lived: first the cause, then herself. The buffalo that turns toward the storm left her own body behind the herd until the end, and only at the last, in the dispute over pills and tests, did she demand for herself what she had demanded all her life for others: the right to decide over her own life.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-eleanor-roosevelt", label:"Portrait: Eleanor Roosevelt (SO9w1)"},
+        {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SE5w6) – same diagnosis, different cause"},
+        {route:"krankheitsportraets-peter-falk", label:"Illness Portrait: Peter Falk (SO9w1)"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
+        {route:"lebensmusterkompass/so9", label:"Life Pattern Compass: SO9 – Buffalo"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+      ])}
+    </div>
+  `);
+}
+
+export function princeKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-prince-rogers-nelson-portrait.jpg" alt="Prince" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-prince-rogers-nelson-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Prince</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexual Type 4 with Three-wing · 1958–2016</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Animal correspondence: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Prince</strong> (Prince Rogers Nelson), singer, multi-instrumentalist and producer from Minneapolis, died on 21 April 2016 at 57 in his studio complex Paisley Park of an accidental overdose of fentanyl. According to the investigation he had had pain for years that he hardly spoke about in public, and he took pills that were counterfeit.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Prince</strong> is assigned to the <strong>sexual Four with a Three-wing</strong>, as described in the portrait of <a href="javascript:void(0)" data-route="beruehmte-prince-rogers-nelson">Prince</a>: intense, uncompromising uniqueness, joined with the drive to shine in one's own art. Under chronic, long-lasting strain, Fours move along their stress line to the Two, with more dependence on helpers and self-sacrifice for others, without the core type changing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A body as an instrument of the stage:</strong>
+        Prince was known for performances in which he danced, jumped and played guitar. According to the investigators he had had pain for years that he hardly spoke about in public.</p>
+        <p class="vb-intro"><strong>b) A person who revealed little:</strong>
+        Prince lived largely shielded in Paisley Park and rarely spoke about private matters. That fits the sexual Four's attitude of protecting the inner life.</p>
+        <p class="vb-intro"><strong>c) The flight on 15 April 2016:</strong>
+        A week before his death, the plane he was travelling on had to make an emergency landing in Moline, Illinois, because he had fallen ill. He was given the opioid antidote Narcan twice.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) No prescription in Minnesota:</strong>
+        According to the records Prince had no prescription for controlled substances in Minnesota in the twelve months before his death. The physician Michael Todd Schulenberg, a family practitioner, treated him twice in the last weeks and prescribed medication.</p>
+        <p class="vb-intro"><strong>b) Counterfeit pills:</strong>
+        In Paisley Park investigators found many pills falsely labelled 'Watson 385', a stamp usually associated with a mix of acetaminophen and hydrocodone. At least one of them contained fentanyl, lidocaine and another drug.</p>
+        <p class="vb-intro"><strong>c) What investigators suspected:</strong>
+        They thought it likely that Prince did not know what he was taking and believed he was taking an ordinary painkiller.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) The call for help on the day before his death:</strong>
+        On 20 April 2016 his representatives asked the California addiction specialist Howard Kornfeld for help for Prince. Prince died before treatment began.</p>
+        <p class="vb-intro"><strong>b) The death on 21 April 2016:</strong>
+        Prince was found alone and unresponsive in an elevator at Paisley Park. The medical examiner ruled his death an accidental, self-administered fentanyl overdose without establishing how he had obtained the drug.</p>
+        <p class="vb-intro"><strong>c) No criminal case:</strong>
+        Authorities closed a two-year investigation without charges. His family later pursued civil proceedings against a hospital.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) A death with signal effect:</strong>
+        The case brought into public awareness the danger of counterfeit pills that look like ordinary painkillers but contain fentanyl.</p>
+        <p class="vb-intro"><strong>b) A work that outlived him:</strong>
+        Prince's music and his reputation as an exceptional artist remained after his death; this illness portrait looks at the end, not the work.</p>
+        <p class="vb-intro"><strong>c) Reticence with consequences:</strong>
+        Because he showed his pain little to the outside, few people seem to have been fully aware of his situation.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Performing despite pain:</strong>
+        His claim to shine on stage left little room for sparing himself.</p>
+        <p class="vb-intro"><strong>b) A place of retreat:</strong>
+        Paisley Park was workplace and home at once, and he lived there largely to himself.</p>
+        <p class="vb-intro"><strong>c) Help that came too late:</strong>
+        That his representatives brought in an addiction specialist the day before his death shows the situation was recognised before anyone could intervene.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) Pain one does not show:</strong>
+        The red thread in Prince's case is less the dependency than the silence about the pain. A person who gave everything on stage carried it in hiding.</p>
+        <p class="vb-intro"><strong>b) A parallel to Freddie Mercury:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-freddie-mercury">Freddie Mercury</a> (SX4w3) kept his illness secret for almost five years. Both show the sexual Four with a Three-wing who hides suffering behind the performance.</p>
+        <p class="vb-intro"><strong>c) Michael Jackson as another case:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-michael-jackson">Michael Jackson</a> (SO4w3) died in 2009 of a medication overdose. Both cases show how close stage strain and medication can lie.</p>
+        <p class="vb-intro"><strong>d) The shift along the stress line:</strong>
+        With increasing strain a pull toward the Two can be seen in Prince: dependence on helpers, doctors and confidants whose advice he needed but did not always accept. His core type SX4w3 remained recognisable.</p>
+        <p class="vb-intro"><strong>e) A classification without determinism:</strong>
+        This does not mean that the sexual Four's pattern leads to painkiller dependency: <strong>anyone can get any illness, regardless of subtype.</strong> Counterfeit pills are an external risk that can affect anyone. What Prince's case shows is the reticence about pain, one of many possible views, not a verdict. The corresponding clinical picture is being worked out step by step in the <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        Prince did not know his own Enneagram pattern. The sexual Four with a Three-wing lives out her uniqueness unconsciously until nothing else is left, and here that meant: show everything on stage and bear the pain alone. Whoever does not recognise this finds it hard to impose his own weakness on others, and then agents that promise quick relief take hold.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Prince's</strong> sexual Four with a Three-wing shows in this illness portrait in the tension between the stage and the hidden. The Chihuahua, small and loud in its watchfulness, carries a sensitive core, and in Prince that core stayed unprotected to the end because he did not show it. His case is a reminder that even what looks like control can stand on uncertain ground.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-prince-rogers-nelson", label:"Portrait: Prince (SX4w3)"},
+        {route:"krankheitsportraets-freddie-mercury", label:"Illness Portrait: Freddie Mercury (SX4w3) – same subtype, secrecy"},
+        {route:"krankheitsportraets-michael-jackson", label:"Illness Portrait: Michael Jackson (SO4w3)"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"lebensmusterkompass/sx4", label:"Life Pattern Compass: SX4 – Chihuahua"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+      ])}
+    </div>
+  `);
+}
+
+export function williamJamesSidisKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-william-james-sidis-portrait.jpg" alt="William James Sidis" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-william-james-sidis-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">William James Sidis</p>
+        <p class="krim-portrait-typ">SE5w6 · Self-Preservation Type 5 with Six-wing · 1898–1944</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Owl</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Animal correspondence: Owl" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>William James Sidis</strong>, an American mathematical prodigy who began at Harvard at eleven, later withdrew from public view and lived in modest circumstances in Boston. He died on 17 July 1944 at the age of 46 of a cerebral haemorrhage, the same cause of death as his father, shortly after ending a seven-year legal dispute with a magazine.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Sidis</strong> is assigned to the <strong>self-preservation Five with a Six-wing</strong>, as described in the portrait of <a href="javascript:void(0)" data-route="beruehmte-william-james-sidis">William James Sidis</a>: withdrawal, knowledge as a refuge and the need to require as little as possible from the world. Under chronic, long-lasting strain, Fives move along their stress line to the Seven, with more distraction and restlessness, without the core type changing.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A child who carried expectations early:</strong>
+        Sidis was regarded as exceptional from early childhood. He began studying at Harvard at eleven and, according to the reports, within a year gave a lecture to the university's mathematics club on four-dimensional bodies.</p>
+        <p class="vb-intro"><strong>b) The degree at sixteen:</strong>
+        In 1914 he received his bachelor's degree at Harvard. The public looked at him long before he was grown up.</p>
+        <p class="vb-intro"><strong>c) The withdrawal:</strong>
+        He spent the rest of his life in simple office jobs and, according to the reports, above all wanted to be left alone.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) A life of modesty:</strong>
+        Sidis lived alone in simple apartments in Boston, without close friends and, by one account, almost in poverty.</p>
+        <p class="vb-intro"><strong>b) A body that received little attention:</strong>
+        According to what is reported, he was overweight and had high blood pressure. There is little more on his health than these hints.</p>
+        <p class="vb-intro"><strong>c) The end of withdrawal:</strong>
+        In 1937 a reporter for the New Yorker, after an acquaintance, wrote an article about his withdrawn, eccentric life. Sidis was outraged and sued.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Seven years of litigation:</strong>
+        The case dragged on for seven years and put him back into the public eye he had avoided. In 1944 he reached a settlement.</p>
+        <p class="vb-intro"><strong>b) The haemorrhage:</strong>
+        Shortly after the settlement he suffered a cerebral haemorrhage from which he did not recover. He died on 17 July 1944 in Boston. Some accounts give different dates for the discovery; according to one he was found unconscious in a boarding house on 13 July.</p>
+        <p class="vb-intro"><strong>c) The same cause of death as his father:</strong>
+        His father, the psychologist Boris Sidis, according to the reports also died of a cerebral haemorrhage. This suggests a family predisposition may have played a role.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) An early death:</strong>
+        At 46 Sidis died at an age at which other scholars are only completing their main work.</p>
+        <p class="vb-intro"><strong>b) A reputation that covered the person:</strong>
+        The image of the 'cleverest man in the world' drawn by the press determined his place in memory more strongly than his actual interests.</p>
+        <p class="vb-intro"><strong>c) Protection from the world:</strong>
+        A life of modesty and seclusion protected him from the public but also left him without people who kept an eye on his state of health.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Saving energy:</strong>
+        The self-preservation Five is sparing with her strength and chooses a few select areas. Sidis chose activities that demanded little of him.</p>
+        <p class="vb-intro"><strong>b) The lawsuit as strain:</strong>
+        The seven-year dispute forced him into the public eye he shunned and is likely to have been a constant strain.</p>
+        <p class="vb-intro"><strong>c) A body without reserves:</strong>
+        Whoever withdraws from everything has little buffer for crises, socially or financially.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A silent body:</strong>
+        The source material on Sidis's health is thin. It mentions overweight, high blood pressure and the haemorrhage, no more. The red thread therefore lies less in a known medical history than in the pattern of withdrawal and strain.</p>
+        <p class="vb-intro"><strong>b) A parallel to Charles Darwin:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-charles-darwin">Charles Darwin</a> (SE5w6) carried on working calmly for decades despite a chronic condition never clearly diagnosed. Sidis withdrew from work, and the two cases show how differently the same basic attitude can deal with strain.</p>
+        <p class="vb-intro"><strong>c) A parallel to Baruch de Spinoza:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-spinoza">Baruch de Spinoza</a> (SE5w6) chose lens grinding as a simple trade for independence and died early of a lung disease. As with Sidis, simplicity did not mean sparing the body.</p>
+        <p class="vb-intro"><strong>d) The shift along the stress line:</strong>
+        With increasing strain a pull toward the Seven can be seen in Sidis: many changing interests and activities, such as his collection of tram transfer tickets, instead of concentration on a single subject. His core type SE5w6 remained recognisable.</p>
+        <p class="vb-intro"><strong>e) A classification without determinism:</strong>
+        This does not mean that the self-preservation Five's pattern leads to high blood pressure or cerebral haemorrhage: <strong>anyone can get any illness, regardless of subtype.</strong> A family predisposition is more likely here than a psychological cause. What Sidis's case shows is how a person who had withdrawn was caught up by strain, one of many possible views, not a verdict. The corresponding clinical picture is being worked out step by step in the <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        Sidis did not know his own Enneagram pattern. The self-preservation Five with a Six-wing lives out withdrawal unconsciously until protection and isolation merge. He sought distance from a public that would not let go of him, and in doing so left out the people and routines that might have looked after his body.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Sidis's</strong> self-preservation Five with a Six-wing shows in this illness portrait as the story of a withdrawal that was meant to protect and left him alone at once. The owl, which sees in the dark and needs little, sought peace from the eyes of the world, and the body of the once-celebrated man gave way at 46.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-william-james-sidis", label:"Portrait: William James Sidis (SE5w6)"},
+        {route:"krankheitsportraets-charles-darwin", label:"Illness Portrait: Charles Darwin (SE5w6) – chronic illness, calm work"},
+        {route:"krankheitsportraets-spinoza", label:"Illness Portrait: Baruch de Spinoza (SE5w6)"},
+        {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
+        {route:"lebensmusterkompass/se5", label:"Life Pattern Compass: SE5 – Owl"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+      ])}
+    </div>
+  `);
+}
