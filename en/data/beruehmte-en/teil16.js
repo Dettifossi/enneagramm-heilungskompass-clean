@@ -3337,7 +3337,7 @@ export function wernerAblassPortraitPage() {
 
         <h2 class="vb-section">2. The Sexual One: Zeal That Does Not Let Go</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the <strong>sexual One (SX1)</strong> is the zealot: it throws itself with passion and full strength into what it holds to be right. In Ablass this shows in the length of his search. By his own account he searched intensively for about forty years, through many dead ends, beginning as a teenager. Preaching in a fundamentalist Christian congregation, the end of that faith, reading Hubert Benoit's 'Die hohe Lehre' ('The Supreme Doctrine'): each station was entered with full commitment and then left just as decisively.</p>
+          <p class="vb-intro">According to Naranjo, the <strong>sexual One (SX1)</strong> is the zealot: it throws itself with passion and full strength into what it holds to be right. In Ablass this shows in the length of his search. By his own account he searched intensively for about forty years, through many dead ends, beginning as a teenager. Preaching in a fundamentalist Christian congregation, the end of that faith, reading <a href="javascript:void(0)" data-route="beruehmte-hubert-benoit">Hubert Benoit</a> (SO1w9) and his work 'Die hohe Lehre' ('The Supreme Doctrine'): each station was entered with full commitment and then left just as decisively.</p>
           <p class="vb-intro">The zeal stayed when the content changed. He wrote about twenty books, held seminars and events, and wrote texts almost daily. With titles such as 'Transzendenz ohne Gott und andere spirituelle Irrtümer' ('Transcendence Without God and Other Spiritual Errors') and 'Zen ohne wie ein Huhn auf der Stange zu sitzen' ('Zen Without Sitting Like a Chicken on a Perch') he settled accounts with the spiritual scene. This can be linked to the One that cannot let errors stand.</p>
         </blockquote>
 
@@ -3375,6 +3375,72 @@ export function wernerAblassPortraitPage() {
         {route:"lebensmusterkompass/sx1", label:"Life Pattern Compass: SX1 – Black Mamba"},
         {route:"beruehmte-leonardo-dicaprio", label:"Portrait: Leonardo DiCaprio (SX1w2) – same subtype"},
         {route:"beruehmte-martin-luther", label:"Portrait: Martin Luther (SX1w2) – same subtype, break with a religious system"},
+      ])}
+    </div>
+  `);
+}
+
+export function hubertBenoitPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-hubert-benoit-portrait.jpg" alt="Hubert Benoit – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-hubert-benoit-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Hubert Benoit</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with a Nine-Wing</p>
+        <p class="krim-portrait-subtitle">French surgeon, psychotherapist and author, 1904&ndash;1992 &ndash; Animal match: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose That Checks the Ground Before the Flock Lands</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Before a flock of geese lands, one goose circles above the spot and tests whether it holds. She is the group's sentinel: her judgment decides where all fly. The goose is the animal of the social One, who takes responsibility for the order of the whole and wants to know the ground exactly before others trust it.</p>
+          <p class="vb-intro">Hubert Benoit was born on 21 March 1904 in Nancy and died on 28 October 1992 in Paris. He studied medicine in Paris, graduated in 1935 and worked as a surgeon until 1944. In the Allied bombing of Saint-Lô after the Normandy landings he was gravely wounded. Several operations over four years followed, his right hand stayed partly paralysed, and he could no longer operate. The surgeon became a thinker who from 1952 worked in Paris as a psychotherapist and wrote books on Zen and psychology.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Zen as a Science of Order</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>social One (SO1)</strong> carries <em>Non-Adaptability</em>: it cannot reconcile itself to an order it recognises as wrong and feels responsible for clarifying it for everyone. In Benoit this shows in that he formulated a precise teaching of his own. He came from medicine, knew psychoanalysis, knew Gurdjieff and engaged with Vedanta, Taoism and Zen, and he brought these sources into an order of his own.</p>
+          <p class="vb-intro">His main work 'La Doctrine suprême' ('The Supreme Doctrine', two volumes, 1951 and 1952; English edition 1955 with a foreword by Aldous Huxley) carries a claim to an ordered whole in its very title. It describes the Zen path in psychological terms. Behind it lies a concern of the One: it wants to know how things are right, and to say it in a way others can check.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Letting Go Instead of Imposing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> takes the sharp edge off the social One and brings in breadth and calm. In Benoit this shows most clearly in the book 'Lâcher prise' (1954, English 'Let Go!'). The title names the opposite of the One's grip: whoever wants to do everything right holds on, and Benoit sets letting go against it.</p>
+          <p class="vb-intro">The bridge between East and West belongs here too. The Nine seeks balance, and Benoit tried to form a peaceful synthesis from psychoanalysis and Eastern teaching rather than play one against the other. He preferred the term Ch'an to 'Zen Buddhism' because he considered the Chinese form purer, a trait of the One that cares about the accuracy of origin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: A Bridge Between Psychoanalysis and Zen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Benoit's achievement is that he made Zen readable to Western readers as psychology. 'Métaphysique et psychanalyse' appeared in 1949, 'De l'amour' ('On Love', English 'The Many Faces of Love') in 1951, 'La Doctrine suprême' in 1951 and 1952, 'Lâcher prise' in 1954 and 'De la réalisation intérieure' ('On Inner Realization') in 1979. He described parallels between Zen practice and psychoanalysis and named Western culture's ignorance of its own mind as the cause of many hidden burdens.</p>
+          <p class="vb-intro">That the approach carried is shown by its reception: Aldous Huxley made him known in the English-speaking world and wrote the foreword to 'The Supreme Doctrine'. The American psychologist Margaret Rioch was taught Zen by Benoit in Paris, and Ken Wilber cites him in 'The Atman Project'. He is still named among readers of non-duality, including Werner Ablass (SX1w2), who described Benoit's books as decisive for his own presentation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social One with a Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in how he dealt with loss. The surgeon whose hand failed became a thinker who did not lament but opened up a new field during a long convalescence and made a second profession of it. That suits the One, who takes difficulty as a task, and the Nine, who accepts what cannot be changed.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. A teaching that describes an exact law of the mind leaves little room for arbitrariness, and whoever believes the order has been found often hears other paths only with effort. This can be linked to the One's claim to be right.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Social Ones with a Nine-Wing Who Put Zen in Order</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From the same subtype, <a href="javascript:void(0)" data-route="beruehmte-gert-scobel">Gert Scobel</a> (SO1w9) is closest: he too joins philosophical precision with long Zen practice and wants the two to belong together rather than exclude each other. In Benoit the surgeon's medical exactness stands behind it, in Scobel that of the philosopher and presenter.</p>
+          <p class="vb-intro">Another link leads to <a href="javascript:void(0)" data-route="beruehmte-werner-ablass">Werner Ablass</a> (SX1w2): he named Benoit as his most important inspiration and remained a sexual zealot who wrote forcefully against errors, while Benoit as a social One with a Nine-wing chose the calm, ordering form. The same One logic, two instincts, two tones.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-gert-scobel", label:"Portrait: Gert Scobel (SO1w9)"},
+        {route:"beruehmte-werner-ablass", label:"Portrait: Werner Ablass (SX1w2)"},
       ])}
     </div>
   `);

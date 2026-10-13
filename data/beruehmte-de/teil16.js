@@ -3342,7 +3342,7 @@ export function wernerAblassPortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Eins: der Eifer, der nicht lockerlässt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> ist nach Naranjo der Eiferer: Sie setzt sich mit Leidenschaft und ganzer Kraft für das ein, was ihr als richtig gilt. Bei Ablass zeigt sich das in der Dauer seiner Suche. Nach eigenen Angaben suchte er rund vierzig Jahre lang intensiv, durch viele Sackgassen, und er begann schon als Teenager. Das Predigen in einer fundamentalistisch-christlichen Gemeinde, das Ende dieses Glaubens, die Lektüre von Hubert Benoits ›Die hohe Lehre‹: Jede Station wurde mit vollem Einsatz durchlaufen und dann ebenso entschieden verlassen.</p>
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> ist nach Naranjo der Eiferer: Sie setzt sich mit Leidenschaft und ganzer Kraft für das ein, was ihr als richtig gilt. Bei Ablass zeigt sich das in der Dauer seiner Suche. Nach eigenen Angaben suchte er rund vierzig Jahre lang intensiv, durch viele Sackgassen, und er begann schon als Teenager. Das Predigen in einer fundamentalistisch-christlichen Gemeinde, das Ende dieses Glaubens, die Lektüre von <a href="javascript:void(0)" data-route="beruehmte-hubert-benoit">Hubert Benoit</a> (SO1w9) und seinem Werk ›Die hohe Lehre‹: Jede Station wurde mit vollem Einsatz durchlaufen und dann ebenso entschieden verlassen.</p>
           <p class="vb-intro">Der Eifer blieb, als sich der Inhalt änderte. Er schrieb rund zwanzig Bücher, hielt Seminare und Events und verfasste fast täglich Texte. Mit Titeln wie ›Transzendenz ohne Gott und andere spirituelle Irrtümer‹ und ›Zen ohne wie ein Huhn auf der Stange zu sitzen‹ rechnete er mit der spirituellen Szene ab. Das lässt sich mit der Eins in Verbindung bringen, die Irrtümer nicht stehen lassen kann.</p>
         </blockquote>
 
@@ -3380,6 +3380,72 @@ export function wernerAblassPortraitPage() {
         {route:"lebensmusterkompass/sx1", label:"Lebensmusterkompass: SX1 – Schwarze Mamba"},
         {route:"beruehmte-leonardo-dicaprio", label:"Porträt: Leonardo DiCaprio (SX1w2) – derselbe Subtyp"},
         {route:"beruehmte-martin-luther", label:"Porträt: Martin Luther (SX1w2) – derselbe Subtyp, Bruch mit einem religiösen System"},
+      ])}
+    </div>
+  `);
+}
+
+export function hubertBenoitPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-hubert-benoit-portrait.jpg" alt="Hubert Benoit – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-hubert-benoit-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Hubert Benoit</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Französischer Chirurg, Psychotherapeut und Autor, 1904&ndash;1992 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die das Gelände prüft, bevor die Schar landet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bevor eine Gänseschar aufsetzt, kreist eine Gans über dem Platz und prüft, ob er trägt. Sie ist die Wächterin der Gruppe: Ihr Urteil entscheidet, wohin alle fliegen. Die Gans ist das Tier der sozialen Eins, die Verantwortung für die Ordnung des Ganzen übernimmt und das Gelände genau kennen will, ehe andere ihm vertrauen.</p>
+          <p class="vb-intro">Hubert Benoit wurde am 21. März 1904 in Nancy geboren und starb am 28. Oktober 1992 in Paris. Er studierte in Paris Medizin, schloss 1935 ab und arbeitete bis 1944 als Chirurg. Bei der alliierten Bombardierung von Saint-Lô nach der Landung in der Normandie wurde er schwer verletzt. Mehrere Operationen über vier Jahre folgten, seine rechte Hand blieb teilweise gelähmt, und er konnte nicht mehr operieren. Aus dem Chirurgen wurde ein Denker, der ab 1952 in Paris als Psychotherapeut arbeitete und Bücher über Zen und Psychologie schrieb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Zen als Ordnungswissenschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> trägt nach Naranjo die ›Unangepasstheit‹: Sie kann sich mit einer als falsch erkannten Ordnung nicht abfinden und fühlt sich verantwortlich, sie für alle zu klären. Bei Benoit zeigt sich das darin, dass er eine eigene, genaue Lehre formulierte. Er kam aus der Medizin, kannte die Psychoanalyse, kannte Gurdjieff und beschäftigte sich mit Vedanta, Taoismus und Zen, und er brachte diese Quellen in eine eigene Ordnung.</p>
+          <p class="vb-intro">Sein Hauptwerk ›La Doctrine suprême‹ (›Die höchste Lehre‹, zwei Bände 1951 und 1952; auf Englisch ›The Supreme Doctrine‹, 1955, mit einem Vorwort von Aldous Huxley) trägt schon im Titel den Anspruch auf ein geordnetes Ganzes. Es beschreibt den Zen-Weg in psychologischen Begriffen. Dahinter steht ein Anliegen der Eins: Sie will wissen, wie es richtig ist, und es so sagen, dass andere es nachprüfen können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Loslassen statt Durchsetzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> nimmt der sozialen Eins die scharfe Kante und bringt Weite und Ruhe hinein. Das zeigt sich bei Benoit am deutlichsten in dem Buch ›Lâcher prise‹ (1954, englisch ›Let Go!‹, ›Loslassen‹). Der Titel nennt das Gegenteil des Eins-Griffs: Wer alles richtig machen will, hält fest, und Benoit stellt dem das Loslassen gegenüber.</p>
+          <p class="vb-intro">Auch die Verbindung von Ost und West gehört dazu. Die Neun sucht Ausgleich, und Benoit versuchte, aus Psychoanalyse und östlicher Lehre eine friedliche Synthese zu bilden, statt die eine gegen die andere auszuspielen. Er bevorzugte den Begriff Ch'an gegenüber ›Zen-Buddhismus‹, weil er die chinesische Form für reiner hielt, ein Zug der Eins, der auf Genauigkeit der Herkunft achtet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Eine Brücke zwischen Psychoanalyse und Zen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Benoits Leistung ist, dass er Zen für westliche Leser als Psychologie lesbar machte. ›Métaphysique et psychanalyse‹ erschien 1949, ›De l'amour‹ (›Von der Liebe‹, englisch ›The Many Faces of Love‹) 1951, ›La Doctrine suprême‹ 1951 und 1952, ›Lâcher prise‹ 1954 und ›De la réalisation intérieure‹ (›Von der inneren Verwirklichung‹) 1979. Er beschrieb Parallelen zwischen der Übung des Zen und der Psychoanalyse und nannte die Unwissenheit der westlichen Kultur über den eigenen Geist als Ursache vieler verborgener Belastungen.</p>
+          <p class="vb-intro">Dass der Zugriff trug, zeigt die Wirkung: Aldous Huxley machte ihn im englischsprachigen Raum bekannt und schrieb das Vorwort zu ›The Supreme Doctrine‹. Die amerikanische Psychologin Margaret Rioch wurde von Benoit in Paris im Zen unterrichtet, und Ken Wilber zitiert ihn in ›The Atman Project‹. Bis heute wird er unter Lesern der Nondualität genannt, auch bei Werner Ablass (SX1w2), der Benoits Bücher als entscheidend für seine eigene Darstellung beschrieb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt im Umgang mit dem Verlust. Der Chirurg, dem die Hand versagte, wurde ein Denker, der nicht klagte, sondern in der langen Genesungszeit ein neues Feld erschloss und daraus einen zweiten Beruf machte. Das passt zur Eins, die Schwierigkeit als Auftrag nimmt, und zur Neun, die annimmt, was nicht zu ändern ist.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Eine Lehre, die ein genaues Gesetz des Geistes beschreibt, lässt wenig Raum für Beliebigkeit, und wer glaubt, die Ordnung gefunden zu haben, hört andere Wege oft nur mit Mühe. Das lässt sich mit dem Anspruch der Eins in Verbindung bringen, richtig zu liegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei soziale Einser mit Neunerflügel, die Zen ordneten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Aus demselben Subtyp liegt <a href="javascript:void(0)" data-route="beruehmte-gert-scobel">Gert Scobel</a> (SO1w9) am nächsten: Auch er verbindet philosophische Genauigkeit mit langer Zen-Praxis und möchte, dass beides zusammengehört, statt sich gegenseitig auszuschließen. Bei Benoit steht die ärztliche Genauigkeit des Chirurgen dahinter, bei Scobel die des Philosophen und Moderators.</p>
+          <p class="vb-intro">Eine andere Verbindung führt zu <a href="javascript:void(0)" data-route="beruehmte-werner-ablass">Werner Ablass</a> (SX1w2): Er nannte Benoit als wichtigsten Anreger und blieb dennoch ein sexueller Eiferer, der mit Wucht gegen Irrtümer schrieb, während Benoit als soziale Eins mit Neunerflügel die ruhige, ordnende Form wählte. Dieselbe Eins-Logik, zwei Instinkte, zwei Töne.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-gert-scobel", label:"Porträt: Gert Scobel (SO1w9)"},
+        {route:"beruehmte-werner-ablass", label:"Porträt: Werner Ablass (SX1w2)"},
       ])}
     </div>
   `);
