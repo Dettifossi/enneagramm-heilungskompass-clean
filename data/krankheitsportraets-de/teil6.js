@@ -5150,7 +5150,7 @@ export function nikiLaudaKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
         <p class="vb-intro"><strong>a) Ein Maßstab, der Risiko ernst nimmt:</strong>
-        Schon vor 1976 war Lauda in der Formel 1 dafür bekannt, Gefahren nüchtern zu rechnen. Vor dem Großen Preis von Deutschland 1976 hielt er die Nordschleife des Nürburgrings für nicht mehr verantwortbar und wollte die Fahrer vergeblich zu einem Startverzicht bewegen.</p>
+        Schon vor 1976 war Lauda in der Formel 1 dafür bekannt, Gefahren nüchtern zu berechnen. Vor dem Großen Preis von Deutschland 1976 hielt er die Nordschleife des Nürburgrings für nicht mehr verantwortbar und wollte die Fahrer vergeblich zu einem Startverzicht bewegen.</p>
         <p class="vb-intro"><strong>b) Der Unfall am 1. August 1976:</strong>
         In der zweiten Runde ging sein Ferrari nach dem Aufprall in Flammen auf. Lauda erlitt lebensgefährliche Verbrennungen, und die Rauchgase schädigten seine Lunge stark.</p>
         <p class="vb-intro"><strong>c) Sechs Wochen bis zur Rückkehr:</strong>
@@ -5188,7 +5188,7 @@ export function nikiLaudaKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
         <p class="vb-intro"><strong>a) Zielstrebigkeit als Antrieb:</strong>
-        Laudas Energie kam aus der Verbindung von Rechnen und Willen. Er sah Schmerz und Schaden als Hindernis für ein Ziel, nicht als Grund aufzugeben.</p>
+        Laudas Energie kam aus der Verbindung von Analyse und Willen. Er sah Schmerz und Schaden als Hindernis für ein Ziel, nicht als Grund aufzugeben.</p>
         <p class="vb-intro"><strong>b) Kosten dieser Haltung:</strong>
         Wer jahrzehntelang Maßstab und Willen vor Schonung stellt, bekommt für den Körper wenig Erholungszeit, und die späten Jahre waren von Klinikaufenthalten geprägt.</p>
         <p class="vb-intro"><strong>c) Rückhalt im engsten Kreis:</strong>
@@ -5214,7 +5214,7 @@ export function nikiLaudaKrankheitsportraetPage() {
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Laudas</strong> soziale Eins mit Zweierflügel zeigt sich in diesem Krankheitsporträt als Konsequenz im Umgang mit dem eigenen Körper: Er rechnete, entschied und trug die Folgen, vom Feuer am Nürburgring bis zur Lungentransplantation 2018. Die Gans, die in der Formation voranflog und das Gelände auf Gefahr prüfte, prüfte am Ende auch den eigenen Körper, ohne Pose und mit der Genauigkeit, die sein Leben bestimmt hatte.</p>
+        <strong>Laudas</strong> soziale Eins mit Zweierflügel zeigt sich in diesem Krankheitsporträt als Konsequenz im Umgang mit dem eigenen Körper: Er analysierte, entschied und trug die Folgen, vom Feuer am Nürburgring bis zur Lungentransplantation 2018. Die Gans, die in der Formation voranflog und das Gelände auf Gefahr prüfte, prüfte am Ende auch den eigenen Körper, ohne Pose und mit der Genauigkeit, die sein Leben bestimmt hatte.</p>
       </div>
 
       ${relatedLinks([
