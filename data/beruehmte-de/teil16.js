@@ -3487,7 +3487,7 @@ export function eleanorRooseveltPortraitPage() {
 
         <h2 class="vb-section">4. Die Substanz: Eine Erklärung für alle Menschen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Ihre größte Leistung ist die Arbeit an der Allgemeinen Erklärung der Menschenrechte. 1946 ernannte Präsident Truman sie zur Delegierten bei der UN-Generalversammlung, die Menschenrechtskommission wählte sie einstimmig zur Vorsitzenden. In einer Zeit wachsender Spannung zwischen Ost und West nutzte sie ihr Ansehen bei beiden Seiten, um die Verhandlungen zum Abschluss zu führen. Im Dezember 1948 nahm die Generalversammlung die Erklärung ohne Gegenstimme an.</p>
+          <p class="vb-intro">Ihre größte Leistung ist die Arbeit an der Allgemeinen Erklärung der Menschenrechte. 1946 ernannte Präsident Truman sie zur Delegierten bei der UN-Generalversammlung, die Menschenrechtskommission wählte sie einstimmig zur Vorsitzenden. In einer Zeit wachsender Spannung zwischen Ost und West nutzte sie ihr Ansehen auf beiden Seiten, um die Verhandlungen zum Abschluss zu führen. Im Dezember 1948 nahm die Generalversammlung die Erklärung ohne Gegenstimme an.</p>
           <p class="vb-intro">Danach reiste sie weiter durch die Welt und warb dafür, dass Juristen, Politiker und Hochschulen die Grundsätze ernst nahmen. Von ihr stammt die Frage, wo allgemeine Menschenrechte eigentlich beginnen: ›in kleinen Orten, nah am Zuhause‹. Das ist die Neun in ihrer besten Form: Vermitteln, ohne zu überfahren, und eine Sache so lange tragen, bis alle sie mittragen können.</p>
         </blockquote>
 
