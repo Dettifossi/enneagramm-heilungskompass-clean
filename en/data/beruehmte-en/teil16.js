@@ -3409,7 +3409,7 @@ export function hubertBenoitPortraitPage() {
 
         <h2 class="vb-section">3. The Nine-Wing: Letting Go Instead of Imposing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Nine-wing</strong> takes the sharp edge off the social One and brings in breadth and calm. In Benoit this shows most clearly in the book 'Lâcher prise' (1954, English 'Let Go!'). The title names the opposite of the One's grip: whoever wants to do everything right holds on, and Benoit sets letting go against it.</p>
+          <p class="vb-intro">The <strong>Nine-wing</strong> takes the sharp edge off the social One and brings in breadth and calm. In Benoit this shows most clearly in the book 'Lâcher prise' (1954, English 'Let Go!'). The title names the opposite of the One's compulsion to keep everything under control: whoever wants to do everything right holds on, and Benoit sets letting go against it.</p>
           <p class="vb-intro">The bridge between East and West belongs here too. The Nine seeks balance, and Benoit tried to form a peaceful synthesis from psychoanalysis and Eastern teaching rather than play one against the other. He preferred the term Ch'an to 'Zen Buddhism' because he considered the Chinese form purer, a trait of the One that cares about the accuracy of origin.</p>
         </blockquote>
 

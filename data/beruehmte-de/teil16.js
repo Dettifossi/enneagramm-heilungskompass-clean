@@ -3414,7 +3414,7 @@ export function hubertBenoitPortraitPage() {
 
         <h2 class="vb-section">3. Der Neunerflügel: Loslassen statt Durchsetzen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Neunerflügel</strong> nimmt der sozialen Eins die scharfe Kante und bringt Weite und Ruhe hinein. Das zeigt sich bei Benoit am deutlichsten in dem Buch ›Lâcher prise‹ (1954, englisch ›Let Go!‹, ›Loslassen‹). Der Titel nennt das Gegenteil des Eins-Griffs: Wer alles richtig machen will, hält fest, und Benoit stellt dem das Loslassen gegenüber.</p>
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> nimmt der sozialen Eins die scharfe Kante und bringt Weite und Ruhe hinein. Das zeigt sich bei Benoit am deutlichsten in dem Buch ›Lâcher prise‹ (1954, englisch ›Let Go!‹, ›Loslassen‹). Der Titel nennt das Gegenteil des Einser-Kontrollzwangs, alles im Griff haben zu müssen: Wer alles richtig machen will, hält fest, und Benoit stellt dem das Loslassen gegenüber.</p>
           <p class="vb-intro">Auch die Verbindung von Ost und West gehört dazu. Die Neun sucht Ausgleich, und Benoit versuchte, aus Psychoanalyse und östlicher Lehre eine friedliche Synthese zu bilden, statt die eine gegen die andere auszuspielen. Er bevorzugte den Begriff Ch'an gegenüber ›Zen-Buddhismus‹, weil er die chinesische Form für reiner hielt, ein Zug der Eins, der auf Genauigkeit der Herkunft achtet.</p>
         </blockquote>
 
