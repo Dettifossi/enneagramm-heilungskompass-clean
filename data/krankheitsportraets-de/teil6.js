@@ -5459,11 +5459,11 @@ export function williamJamesSidisKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-william-james-sidis-portrait.jpg" alt="William James Sidis" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-william-james-sidis-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">William James Sidis</p>
-        <p class="krim-portrait-typ">SE5w6 · Selbsterhaltender Typ 5 mit Sechserflügel · 1898–1944</p>
+        <p class="krim-portrait-typ">SO4w5 · Sozialer Typ 4 mit Fünferflügel · 1898–1944</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Tierentsprechung: Eule</span>
+          <span>Tierentsprechung: Gürteltier</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Tierentsprechung: Eule" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Tierentsprechung: Gürteltier" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -5472,7 +5472,7 @@ export function williamJamesSidisKrankheitsportraetPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Sidis</strong> wird der <strong>selbsterhaltenden Fünf mit Sechserflügel</strong> zugeordnet, wie im Porträt zu <a href="javascript:void(0)" data-route="beruehmte-william-james-sidis">William James Sidis</a> beschrieben: Rückzug, Wissen als Schutzraum und das Bedürfnis, möglichst wenig von der Welt zu brauchen. Bei chronischer, lang anhaltender Belastung bewegen sich Fünfer entlang ihrer Stresslinie zur Sieben, mit mehr Zerstreuung und Unruhe, ohne dass sich der Kerntyp ändert.</p>
+        <strong>Sidis</strong> wird der <strong>sozialen Vier mit Fünferflügel</strong> zugeordnet, wie im Porträt zu <a href="javascript:void(0)" data-route="beruehmte-william-james-sidis">William James Sidis</a> beschrieben: Scham über das Ausgestelltsein, ein empfindsames Inneres hinter einem harten Panzer und der Rückzug in den Verstand. Bei chronischer, lang anhaltender Belastung bewegen sich Vierer entlang ihrer Stresslinie zur Zwei, mit mehr Angewiesensein auf andere, ohne dass sich der Kerntyp ändert.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -5517,8 +5517,8 @@ export function williamJamesSidisKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
-        <p class="vb-intro"><strong>a) Energie sparen:</strong>
-        Die selbsterhaltende Fünf geht sparsam mit ihrer Kraft um und wählt wenige, ausgesuchte Bereiche. Sidis wählte Tätigkeiten, die ihn wenig forderten.</p>
+        <p class="vb-intro"><strong>a) Energie für den Panzer:</strong>
+        Die soziale Vier investiert viel Kraft in den Schutz des Empfindlichen. Sidis wählte Tätigkeiten, die ihn wenig forderten und wenig zeigten.</p>
         <p class="vb-intro"><strong>b) Der Prozess als Belastung:</strong>
         Der siebenjährige Rechtsstreit zwang ihn in die Öffentlichkeit, die er mied, und dürfte eine Dauerbelastung gewesen sein.</p>
         <p class="vb-intro"><strong>c) Ein Körper ohne Rücklagen:</strong>
@@ -5528,32 +5528,32 @@ export function williamJamesSidisKrankheitsportraetPage() {
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
         <p class="vb-intro"><strong>a) Ein verschwiegener Körper:</strong>
-        Die Quellenlage zu Sidis' Gesundheit ist dünn. Sie nennt Übergewicht, hohen Blutdruck und die Hirnblutung, mehr nicht. Der rote Faden liegt deshalb weniger in einer bekannten Krankengeschichte als im Muster von Rückzug und Belastung.</p>
-        <p class="vb-intro"><strong>b) Parallele zu Charles Darwin:</strong>
-        <a href="javascript:void(0)" data-route="krankheitsportraets-charles-darwin">Charles Darwin</a> (SE5w6) arbeitete trotz eines nie eindeutig diagnostizierten chronischen Leidens über Jahrzehnte ruhig weiter. Sidis zog sich aus der Arbeit zurück, und beide Fälle zeigen, wie unterschiedlich dieselbe Grundhaltung mit Belastung umgehen kann.</p>
-        <p class="vb-intro"><strong>c) Parallele zu Baruch de Spinoza:</strong>
-        <a href="javascript:void(0)" data-route="krankheitsportraets-spinoza">Baruch de Spinoza</a> (SE5w6) wählte mit dem Linsenschleifen ein einfaches Handwerk zur Unabhängigkeit und starb früh an einer Lungenerkrankung. Wie bei Sidis bedeutete Einfachheit nicht Schonung des Körpers.</p>
+        Die Quellenlage zu Sidis' Gesundheit ist dünn. Sie nennt Übergewicht, hohen Blutdruck und die Hirnblutung, mehr nicht. Der rote Faden liegt deshalb weniger in einer bekannten Krankengeschichte als im Muster von Scham, Rückzug und Belastung.</p>
+        <p class="vb-intro"><strong>b) Parallele zu Marcel Proust:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-marcel-proust">Marcel Proust</a> (SO4w5) zog sich, ebenfalls früh der Gesellschaft entwöhnt, in sein korkverkleidetes Zimmer zurück und starb mit 51 Jahren an einer Lungenentzündung. Beide verbinden Empfindsamkeit, Rückzug und einen frühen Tod, doch Proust machte aus dem Rückzug sein großes Werk, während Sidis' Rückzug im Verborgenen blieb.</p>
+        <p class="vb-intro"><strong>c) Gegenbild: Edvard Munch:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-edvard-munch">Edvard Munch</a> (SO4w5) machte seine Krisen öffentlich zum Bildgegenstand, bis hin zu Selbstporträts nach dem Nervenzusammenbruch 1908. Sidis verbarg dagegen, was ihn belastete. Beide Fälle zeigen, wie unterschiedlich dieselbe Scham mit dem eigenen Leiden umgehen kann.</p>
         <p class="vb-intro"><strong>d) Die Verschiebung zur Stresslinie:</strong>
-        Mit zunehmender Belastung lässt sich bei Sidis ein Zug zur Sieben erkennen: viele wechselnde Interessen und Tätigkeiten, etwa seine Sammlung von Straßenbahn-Umsteigekarten, statt der Konzentration auf ein einziges Fach. Sein Kerntyp SE5w6 blieb dabei erkennbar.</p>
+        Ob sich bei Sidis ein Zug zur Zwei zeigt, also ein stärkeres Angewiesensein auf andere, lässt sich aus den dünnen Quellen kaum sagen, und dafür gibt es keine Belege. Hier wird deshalb nur der Kerntyp SO4w5 betrachtet.</p>
         <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
-        Das heißt nicht, dass das Muster der selbsterhaltenden Fünf zu Bluthochdruck oder Hirnblutungen führt: <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Eine familiäre Veranlagung ist hier wahrscheinlicher als eine psychische Ursache. Was sich an Sidis' Fall zeigen lässt, ist die Art, wie ein Mensch, der sich zurückgezogen hatte, von Belastungen eingeholt wurde, eine von vielen möglichen Betrachtungen, kein Urteil. Das entsprechende Krankheitsbild wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        Das heißt nicht, dass das Muster der sozialen Vier zu Bluthochdruck oder Hirnblutungen führt: <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Eine familiäre Veranlagung ist hier wahrscheinlicher als eine psychische Ursache. Was sich an Sidis' Fall zeigen lässt, ist die Art, wie ein Mensch, der sich aus Scham zurückgezogen hatte, von Belastungen eingeholt wurde, eine von vielen möglichen Betrachtungen, kein Urteil. Das entsprechende Krankheitsbild wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
-        Sidis kannte sein eigenes Enneagramm-Muster nicht. Die selbsterhaltende Fünf mit Sechserflügel lebt ihren Rückzug unbewusst so lange aus, bis Schutz und Isolation ineinander übergehen. Er suchte Abstand von einer Öffentlichkeit, die ihn nicht losließ, und ließ dabei die Menschen und Routinen weg, die auf seinen Körper hätten achten können.</p>
+        Sidis kannte sein eigenes Enneagramm-Muster nicht. Die soziale Vier mit Fünferflügel lebt ihre Scham unbewusst so lange aus, bis Schutz und Isolation ineinander übergehen. Er suchte Abstand von einer Öffentlichkeit, die ihn nicht losließ, und ließ dabei die Menschen und Routinen weg, die auf seinen Körper hätten achten können.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Sidis'</strong> selbsterhaltende Fünf mit Sechserflügel zeigt sich in diesem Krankheitsporträt als Geschichte eines Rückzugs, der schützen sollte und zugleich allein ließ. Die Eule, die in der Dunkelheit sieht und wenig braucht, suchte Ruhe vor den Blicken der Welt, und der Körper des früh Gefeierten gab mit 46 Jahren nach.</p>
+        <strong>Sidis'</strong> soziale Vier mit Fünferflügel zeigt sich in diesem Krankheitsporträt als Geschichte eines Rückzugs, der schützen sollte und zugleich allein ließ. Das Gürteltier, das unter seinem Panzer ein empfindliches Inneres trägt, suchte Ruhe vor den Blicken der Welt, und der Körper des früh Gefeierten gab mit 46 Jahren nach.</p>
       </div>
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
-        {route:"beruehmte-william-james-sidis", label:"Porträt: William James Sidis (SE5w6)"},
-        {route:"krankheitsportraets-charles-darwin", label:"Krankheitsporträt: Charles Darwin (SE5w6) – chronisches Leiden, ruhige Arbeit"},
-        {route:"krankheitsportraets-spinoza", label:"Krankheitsporträt: Baruch de Spinoza (SE5w6)"},
-        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
-        {route:"lebensmusterkompass/se5", label:"Lebensmusterkompass: SE5 – Eule"},
+        {route:"beruehmte-william-james-sidis", label:"Porträt: William James Sidis (SO4w5)"},
+        {route:"krankheitsportraets-marcel-proust", label:"Krankheitsporträt: Marcel Proust (SO4w5) – Rückzug und Empfindsamkeit"},
+        {route:"krankheitsportraets-edvard-munch", label:"Krankheitsporträt: Edvard Munch (SO4w5) – Krisen öffentlich gemacht"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so4", label:"Lebensmusterkompass: SO4 – Gürteltier"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
       ])}
     </div>

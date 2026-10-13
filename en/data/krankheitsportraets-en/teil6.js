@@ -5237,11 +5237,11 @@ export function williamJamesSidisKrankheitsportraetPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-william-james-sidis-portrait.jpg" alt="William James Sidis" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-william-james-sidis-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">William James Sidis</p>
-        <p class="krim-portrait-typ">SE5w6 · Self-Preservation Type 5 with Six-wing · 1898–1944</p>
+        <p class="krim-portrait-typ">SO4w5 · Social Type 4 with Five-wing · 1898–1944</p>
         <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
-          <span>Animal correspondence: Owl</span>
+          <span>Animal correspondence: Armadillo</span>
           <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
-            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se5.jpg" alt="Animal correspondence: Owl" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE5")};left:${tierAvatarLeft("SE5")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so4.jpg" alt="Animal correspondence: Armadillo" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO4")};left:${tierAvatarLeft("SO4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
           </span>
         </p>
       </div>
@@ -5250,7 +5250,7 @@ export function williamJamesSidisKrankheitsportraetPage() {
       </p>
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
-        <strong>Sidis</strong> is assigned to the <strong>self-preservation Five with a Six-wing</strong>, as described in the portrait of <a href="javascript:void(0)" data-route="beruehmte-william-james-sidis">William James Sidis</a>: withdrawal, knowledge as a refuge and the need to require as little as possible from the world. Under chronic, long-lasting strain, Fives move along their stress line to the Seven, with more distraction and restlessness, without the core type changing.</p>
+        <strong>Sidis</strong> is assigned to the <strong>social Four with a Five-wing</strong>, as described in the portrait of <a href="javascript:void(0)" data-route="beruehmte-william-james-sidis">William James Sidis</a>: shame at having been put on display, a sensitive interior behind a hard shell and a retreat into the intellect. Under chronic, long-lasting strain, Fours move along their stress line to the Two, with more reliance on others, without the core type changing.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -5295,8 +5295,8 @@ export function williamJamesSidisKrankheitsportraetPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
-        <p class="vb-intro"><strong>a) Saving energy:</strong>
-        The self-preservation Five is sparing with her strength and chooses a few select areas. Sidis chose activities that demanded little of him.</p>
+        <p class="vb-intro"><strong>a) Energy for the shell:</strong>
+        The social Four invests a lot of strength in protecting what is tender. Sidis chose activities that demanded little of him and showed little of him.</p>
         <p class="vb-intro"><strong>b) The lawsuit as strain:</strong>
         The seven-year dispute forced him into the public eye he shunned and is likely to have been a constant strain.</p>
         <p class="vb-intro"><strong>c) A body without reserves:</strong>
@@ -5306,32 +5306,32 @@ export function williamJamesSidisKrankheitsportraetPage() {
       <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
         <p class="vb-intro"><strong>a) A silent body:</strong>
-        The source material on Sidis's health is thin. It mentions overweight, high blood pressure and the haemorrhage, no more. The red thread therefore lies less in a known medical history than in the pattern of withdrawal and strain.</p>
-        <p class="vb-intro"><strong>b) A parallel to Charles Darwin:</strong>
-        <a href="javascript:void(0)" data-route="krankheitsportraets-charles-darwin">Charles Darwin</a> (SE5w6) carried on working calmly for decades despite a chronic condition never clearly diagnosed. Sidis withdrew from work, and the two cases show how differently the same basic attitude can deal with strain.</p>
-        <p class="vb-intro"><strong>c) A parallel to Baruch de Spinoza:</strong>
-        <a href="javascript:void(0)" data-route="krankheitsportraets-spinoza">Baruch de Spinoza</a> (SE5w6) chose lens grinding as a simple trade for independence and died early of a lung disease. As with Sidis, simplicity did not mean sparing the body.</p>
+        The source material on Sidis's health is thin. It mentions overweight, high blood pressure and the haemorrhage, no more. The red thread therefore lies less in a known medical history than in the pattern of shame, withdrawal and strain.</p>
+        <p class="vb-intro"><strong>b) A parallel to Marcel Proust:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-marcel-proust">Marcel Proust</a> (SO4w5), likewise estranged from society early, withdrew into his cork-lined room and died at 51 of pneumonia. Both combine sensitivity, withdrawal and an early death, but Proust made his withdrawal into his great work, while Sidis's withdrawal stayed hidden.</p>
+        <p class="vb-intro"><strong>c) A counter-image: Edvard Munch:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-edvard-munch">Edvard Munch</a> (SO4w5) made his crises publicly the subject of his pictures, including self-portraits after his nervous breakdown of 1908. Sidis, by contrast, hid what burdened him. Both cases show how differently the same shame can deal with one's own suffering.</p>
         <p class="vb-intro"><strong>d) The shift along the stress line:</strong>
-        With increasing strain a pull toward the Seven can be seen in Sidis: many changing interests and activities, such as his collection of tram transfer tickets, instead of concentration on a single subject. His core type SE5w6 remained recognisable.</p>
+        Whether a pull toward the Two, that is more reliance on others, shows in Sidis can hardly be said from the thin sources, and there is no evidence for it. Only the core type SO4w5 is therefore considered here.</p>
         <p class="vb-intro"><strong>e) A classification without determinism:</strong>
-        This does not mean that the self-preservation Five's pattern leads to high blood pressure or cerebral haemorrhage: <strong>anyone can get any illness, regardless of subtype.</strong> A family predisposition is more likely here than a psychological cause. What Sidis's case shows is how a person who had withdrawn was caught up by strain, one of many possible views, not a verdict. The corresponding clinical picture is being worked out step by step in the <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        This does not mean that the social Four's pattern leads to high blood pressure or cerebral haemorrhage: <strong>anyone can get any illness, regardless of subtype.</strong> A family predisposition is more likely here than a psychological cause. What Sidis's case shows is how a person who had withdrawn out of shame was caught up by strain, one of many possible views, not a verdict. The corresponding clinical picture is being worked out step by step in the <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
         <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
-        Sidis did not know his own Enneagram pattern. The self-preservation Five with a Six-wing lives out withdrawal unconsciously until protection and isolation merge. He sought distance from a public that would not let go of him, and in doing so left out the people and routines that might have looked after his body.</p>
+        Sidis did not know his own Enneagram pattern. The social Four with a Five-wing lives out shame unconsciously until protection and isolation merge. He sought distance from a public that would not let go of him, and in doing so left out the people and routines that might have looked after his body.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
         <p class="vb-intro" style="margin-bottom:0;">
-        <strong>Sidis's</strong> self-preservation Five with a Six-wing shows in this illness portrait as the story of a withdrawal that was meant to protect and left him alone at once. The owl, which sees in the dark and needs little, sought peace from the eyes of the world, and the body of the once-celebrated man gave way at 46.</p>
+        <strong>Sidis's</strong> social Four with a Five-wing shows in this illness portrait as the story of a withdrawal that was meant to protect and left him alone at once. The armadillo, which carries a tender interior beneath its shell, sought peace from the eyes of the world, and the body of the once-celebrated man gave way at 46.</p>
       </div>
 
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
-        {route:"beruehmte-william-james-sidis", label:"Portrait: William James Sidis (SE5w6)"},
-        {route:"krankheitsportraets-charles-darwin", label:"Illness Portrait: Charles Darwin (SE5w6) – chronic illness, calm work"},
-        {route:"krankheitsportraets-spinoza", label:"Illness Portrait: Baruch de Spinoza (SE5w6)"},
-        {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
-        {route:"lebensmusterkompass/se5", label:"Life Pattern Compass: SE5 – Owl"},
+        {route:"beruehmte-william-james-sidis", label:"Portrait: William James Sidis (SO4w5)"},
+        {route:"krankheitsportraets-marcel-proust", label:"Illness Portrait: Marcel Proust (SO4w5) – withdrawal and sensitivity"},
+        {route:"krankheitsportraets-edvard-munch", label:"Illness Portrait: Edvard Munch (SO4w5) – crises made public"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"lebensmusterkompass/so4", label:"Life Pattern Compass: SO4 – Armadillo"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
       ])}
     </div>
