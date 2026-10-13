@@ -5269,7 +5269,7 @@ export function eleanorRooseveltKrankheitsportraetPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
         <p class="vb-intro"><strong>a) Dienst an der Gemeinschaft:</strong>
-        Roosevelt stellte ihre Bekanntheit in den Dienst anderer, von Arbeiterinnen und Bürgerrechten bis zur Menschenrechtserklärung der Vereinten Nationen 1948. Eigene Bedürfnisse standen dabei meist hinten.</p>
+        Roosevelt stellte ihre Bekanntheit in den Dienst anderer, von Arbeiterinnen und Bürgerrechten bis zur Menschenrechtserklärung der Vereinten Nationen 1948. Eigene Bedürfnisse standen dabei meist hinten an.</p>
         <p class="vb-intro"><strong>b) Diagnose im April 1960:</strong>
         Im April 1960 fand ihr Arzt eine leichte Anämie und ein auffälliges Knochenmark und stellte die Diagnose aplastische Anämie. Nach damaligem Stand war der fortschreitende Zusammenbruch des Knochenmarks nicht umkehrbar.</p>
         <p class="vb-intro"><strong>c) Arbeit trotz Schwäche:</strong>
@@ -5283,7 +5283,7 @@ export function eleanorRooseveltKrankheitsportraetPage() {
         <p class="vb-intro"><strong>b) Entlassung gegen ärztlichen Rat:</strong>
         Im Krankenhaus Columbia-Presbyterian ließ sie sich gegen die Anordnung der Ärzte entlassen, solange sie noch konnte, am 18. Oktober 1962.</p>
         <p class="vb-intro"><strong>c) Die späte Tuberkulose-Diagnose:</strong>
-        Ihre Ärzte begannen sie vorsorglich mit Medikamenten gegen Tuberkulose zu behandeln, weil die Kultur Wochen braucht. Zwei Wochen vor ihrem Tod wurde die Knochenmarkskultur positiv gemeldet. Manche Kommentatoren meinen, die Tuberkulose sei auch deshalb zu spät erkannt worden, weil man der prominenten Patientin eine Knochenmarkspunktion ersparen wollte.</p>
+        Neben der Blutarmut hatten die Ärzte den Verdacht auf eine Tuberkulose des Knochenmarks. Ob sie wirklich vorlag, konnte nur eine Bakterienkultur aus dem Knochenmark zeigen, und die braucht Wochen, bis sie Ergebnisse liefert. Deshalb begannen die Ärzte schon vorher vorsorglich mit Medikamenten gegen Tuberkulose. Zwei Wochen vor ihrem Tod meldete das Labor die Kultur als positiv: Die Tuberkulose war tatsächlich vorhanden. Manche Kommentatoren meinen, die Tuberkulose sei auch deshalb zu spät erkannt worden, weil man der prominenten Patientin eine Knochenmarkspunktion ersparen wollte.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -5310,15 +5310,13 @@ export function eleanorRooseveltKrankheitsportraetPage() {
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
         <p class="vb-intro"><strong>a) Ein Körper, der zuletzt zurückgestellt wurde:</strong>
         Über Jahrzehnte stellte Roosevelt die eigenen Bedürfnisse hinter die Sache. Die Erkrankung ihres Knochenmarks, in dem Blutzellen entstehen, trat in genau der Zeit auf, in der sie noch immer für die Menschenrechte reiste und schrieb.</p>
-        <p class="vb-intro"><strong>b) Parallele zu Marie Curie:</strong>
-        <a href="javascript:void(0)" data-route="krankheitsportraets-marie-curie">Marie Curie</a> (SE5w6) starb ebenfalls an einer aplastischen Anämie, bei ihr nach den Berichten als Folge jahrelanger Strahlenbelastung bei der Arbeit. Bei Roosevelt ist die Ursache nicht geklärt. Beide verbindet, dass sie sich dem Gebot ihrer Arbeit ungeschützt widmeten.</p>
-        <p class="vb-intro"><strong>c) Wilma Mankiller als Vergleich im Subtyp:</strong>
+        <p class="vb-intro"><strong>b) Wilma Mankiller als Vergleich im Subtyp:</strong>
         <a href="javascript:void(0)" data-route="krankheitsportraets-wilma-mankiller">Wilma Mankiller</a> (SO9) lebte über Jahrzehnte mit schweren Erkrankungen, die sie neben ihrem öffentlichen Amt trug. Bei beiden ließ der Körper über Jahre zurückgestellte Bedürfnisse erkennen.</p>
-        <p class="vb-intro"><strong>d) Die Verschiebung zur Stresslinie:</strong>
+        <p class="vb-intro"><strong>c) Die Verschiebung zur Stresslinie:</strong>
         Mit der Krankheit lässt sich bei Roosevelt ein Zug zur Sechs erkennen: Misstrauen gegenüber der ärztlichen Behandlung, Widerstand gegen Anweisungen und der Wunsch nach Kontrolle über die eigene Situation. Ihr Kerntyp SO9w1 blieb davon unberührt.</p>
-        <p class="vb-intro"><strong>e) Einordnung ohne Determinismus:</strong>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
         Das heißt nicht, dass das Muster der sozialen Neun zu Knochenmarkserkrankungen oder Tuberkulose führt: <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Roosevelts Fall zeigen lässt, ist die Art, wie sie ihr Leben lang eigene Bedürfnisse hinter die Sache stellte, eine von vielen möglichen Betrachtungen, kein Urteil. Das entsprechende Krankheitsbild wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) Die unbewusste Fixierung als eigener Faktor:</strong>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
         Roosevelt kannte ihr eigenes Enneagramm-Muster nicht. Die soziale Neun mit Einserflügel lebt ihr Pflichtgefühl unbewusst so lange aus, bis der Körper nicht mehr mitspielt, und genau das tat sie, solange sie ihre Kolumne schrieb und für die Menschenrechte reiste. Wer das Muster nicht erkennt, bemerkt die Warnzeichen des eigenen Körpers spät, und der Widerstand am Ende lässt sich auch als Versuch lesen, die Entscheidung über das eigene Leben zurückzuholen.</p>
       </div>
 
@@ -5331,7 +5329,6 @@ export function eleanorRooseveltKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-eleanor-roosevelt", label:"Porträt: Eleanor Roosevelt (SO9w1)"},
-        {route:"krankheitsportraets-marie-curie", label:"Krankheitsporträt: Marie Curie (SE5w6) – dieselbe Diagnose, andere Ursache"},
         {route:"krankheitsportraets-peter-falk", label:"Krankheitsporträt: Peter Falk (SO9w1)"},
         {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
         {route:"lebensmusterkompass/so9", label:"Lebensmusterkompass: SO9 – Büffel"},

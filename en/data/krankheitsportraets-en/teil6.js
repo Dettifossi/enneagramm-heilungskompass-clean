@@ -5061,7 +5061,7 @@ export function eleanorRooseveltKrankheitsportraetPage() {
         <p class="vb-intro"><strong>b) Discharge against medical advice:</strong>
         She discharged herself from Columbia-Presbyterian against her doctors' orders while she still could, on 18 October 1962.</p>
         <p class="vb-intro"><strong>c) The late tuberculosis diagnosis:</strong>
-        Her doctors began treating her with tuberculosis drugs as a precaution because the culture takes weeks. Two weeks before her death the bone marrow culture was reported positive. Some commentators suggest the tuberculosis was recognised late partly because the high-profile patient was to be spared a bone marrow biopsy.</p>
+        Besides the anaemia, her doctors suspected tuberculosis of the bone marrow. Whether it was really present could only be shown by a bacterial culture from the bone marrow, which takes weeks to yield results. So the doctors began treating her with tuberculosis drugs as a precaution beforehand. Two weeks before her death the laboratory reported the culture as positive: the tuberculosis was indeed present. Some commentators suggest the tuberculosis was recognised late partly because the high-profile patient was to be spared a bone marrow biopsy.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -5088,15 +5088,13 @@ export function eleanorRooseveltKrankheitsportraetPage() {
         <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
         <p class="vb-intro"><strong>a) A body put aside at last:</strong>
         For decades Roosevelt put her own needs behind the cause. The disease of her bone marrow, where blood cells are made, appeared at exactly the time when she was still travelling and writing for human rights.</p>
-        <p class="vb-intro"><strong>b) A parallel to Marie Curie:</strong>
-        <a href="javascript:void(0)" data-route="krankheitsportraets-marie-curie">Marie Curie</a> (SE5w6) also died of aplastic anaemia, in her case according to the reports as a result of years of radiation exposure at work. In Roosevelt the cause is not established. What they share is that both devoted themselves unprotected to the demand of their work.</p>
-        <p class="vb-intro"><strong>c) Wilma Mankiller as a comparison in the subtype:</strong>
+        <p class="vb-intro"><strong>b) Wilma Mankiller as a comparison in the subtype:</strong>
         <a href="javascript:void(0)" data-route="krankheitsportraets-wilma-mankiller">Wilma Mankiller</a> (SO9) lived for decades with serious illnesses that she carried alongside her public office. In both, the body showed needs that had been put aside for years.</p>
-        <p class="vb-intro"><strong>d) The shift along the stress line:</strong>
+        <p class="vb-intro"><strong>c) The shift along the stress line:</strong>
         With the illness a pull toward the Six can be seen in Roosevelt: mistrust of medical treatment, resistance to instructions and the wish for control over her own situation. Her core type SO9w1 remained untouched.</p>
-        <p class="vb-intro"><strong>e) A classification without determinism:</strong>
+        <p class="vb-intro"><strong>d) A classification without determinism:</strong>
         This does not mean that the social Nine's pattern leads to bone marrow disease or tuberculosis: <strong>anyone can get any illness, regardless of subtype.</strong> What Roosevelt's case shows is how she put her own needs behind the cause all her life, one of many possible views, not a verdict. The corresponding clinical picture is being worked out step by step in the <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
-        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
         Roosevelt did not know her own Enneagram pattern. The social Nine with a One-wing lives out her sense of duty unconsciously until the body no longer plays along, and that is what she did as long as she wrote her column and travelled for human rights. Whoever does not recognise the pattern notices the warning signs of her own body late, and the resistance at the end can also be read as an attempt to take back the decision over her own life.</p>
       </div>
 
@@ -5109,7 +5107,6 @@ export function eleanorRooseveltKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-eleanor-roosevelt", label:"Portrait: Eleanor Roosevelt (SO9w1)"},
-        {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SE5w6) – same diagnosis, different cause"},
         {route:"krankheitsportraets-peter-falk", label:"Illness Portrait: Peter Falk (SO9w1)"},
         {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
         {route:"lebensmusterkompass/so9", label:"Life Pattern Compass: SO9 – Buffalo"},
