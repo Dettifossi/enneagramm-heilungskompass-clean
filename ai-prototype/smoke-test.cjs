@@ -81,6 +81,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-caroline-wozniacki", label: "Neues EN-Porträt: Caroline Wozniacki" },
   { hash: "#beruehmte-kennerly-kitt", label: "Neues Porträt: Kennerly Kitt" },
   { hash: "en/#beruehmte-kennerly-kitt", label: "Neues EN-Porträt: Kennerly Kitt" },
+  { hash: "#beruehmte-eleanor-roosevelt", label: "Neues Porträt: Eleanor Roosevelt" },
+  { hash: "en/#beruehmte-eleanor-roosevelt", label: "Neues EN-Porträt: Eleanor Roosevelt" },
   { hash: "#beruehmte-hubert-benoit", label: "Neues Porträt: Hubert Benoit" },
   { hash: "en/#beruehmte-hubert-benoit", label: "Neues EN-Porträt: Hubert Benoit" },
   { hash: "#beruehmte-werner-ablass", label: "Neues Porträt: Werner Ablass" },

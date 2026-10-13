@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2493", date: "2026-10-13", text: "Neues Porträt: Eleanor Roosevelt (SO9w1) – First Lady, Diplomatin und Menschenrechtlerin.", text_en: "New portrait: Eleanor Roosevelt (SO9w1) – First Lady, diplomat and human rights advocate.", route: "beruehmte-eleanor-roosevelt" },
     { version: "v2492", date: "2026-10-13", text: "Neues Porträt: Hubert Benoit (SO1w9) – Chirurg und Psychotherapeut, der Zen als Psychologie lesbar machte.", text_en: "New portrait: Hubert Benoit (SO1w9) – surgeon and psychotherapist who made Zen readable as psychology.", route: "beruehmte-hubert-benoit" },
     { version: "v2491", date: "2026-10-13", text: "Neues Porträt: Werner Ablass (SX1w2) – Autor und Lehrer des nondualen Bewusstseins.", text_en: "New portrait: Werner Ablass (SX1w2) – author and teacher of non-dual awareness.", route: "beruehmte-werner-ablass" },
     { version: "v2490", date: "2026-10-12", text: "Neue Porträts: Camille Kitt (SE4w3) und Kennerly Kitt (SE1w2) – die Harp Twins.", text_en: "New portraits: Camille Kitt (SE4w3) and Kennerly Kitt (SE1w2) – the Harp Twins.", route: "beruehmte-camille-kitt" },

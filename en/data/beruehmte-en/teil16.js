@@ -3446,3 +3446,69 @@ export function hubertBenoitPortraitPage() {
     </div>
   `);
 }
+
+export function eleanorRooseveltPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-eleanor-roosevelt-portrait.jpg" alt="Eleanor Roosevelt – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-eleanor-roosevelt-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Eleanor Roosevelt</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with a One-Wing</p>
+        <p class="krim-portrait-subtitle">American First Lady, diplomat and human rights advocate, 1884&ndash;1962 &ndash; Animal match: Buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Buffalo That Turns Toward the Storm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">When a storm gathers, buffalo turn toward it and walk into it instead of running away, and the herd stays sheltered behind the lead animal. The buffalo is the animal of the social Nine: she carries responsibility for the community without needing to be loud.</p>
+          <p class="vb-intro">Eleanor Roosevelt was born on 11 October 1884 in New York. Her mother died of diphtheria in 1892, and her father, to whom she was devoted, died by common accounts two years later of the effects of alcoholism. Orphaned and painfully shy, she went to live with her grandmother Mary Hall in a strict household. She later recalled being constantly afraid of disappointing people and having learned that love and approval were hard to come by. The three years at a girls' boarding school near London from the age of fifteen were, in her words, among the happiest of her life. She married Franklin D. Roosevelt in 1905 and died on 7 November 1962.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Nine: Participation Instead of Performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>social Nine (SO9)</strong> finds identity in participation: in taking part in a cause and a community rather than in her own performance. In Roosevelt this shows in how she almost always put her fame at the service of others. From 1935 she wrote the daily newspaper column 'My Day', which she continued until her death in 1962, telling of everyday life, travels and what she saw on the way. She helped found Val-Kill Industries, a non-profit furniture workshop in Hyde Park, and taught at the Todhunter School, a private girls' school in New York.</p>
+          <p class="vb-intro">Her stance in conflict shows in a case from 1939: she resigned from the Daughters of the American Revolution after it had refused the singer Marian Anderson a concert in Constitution Hall. In 1943 she travelled as First Lady to the South Pacific to visit soldiers. The buffalo goes where the herd needs her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Duty That Does Not Let Up</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing</strong> gives the social Nine principles and discipline. With a weakly developed One-wing the Nine would stay comfortably in the background. In Roosevelt it is strongly developed: for more than a quarter of a century she wrote her column almost daily, travelled tirelessly and took the standard of what is right literally.</p>
+          <p class="vb-intro">This can be linked to the strict imprint of her childhood. Whoever learned as a child that recognition depends on fulfilling duty easily develops an inner judge. In her the One shows less as anger at others than as stubborn responsibility: where something is wrong, it belongs in order.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: A Declaration for All People</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Her greatest achievement is her work on the Universal Declaration of Human Rights. In 1946 President Truman appointed her a delegate to the UN General Assembly, and the Commission on Human Rights elected her chair unanimously. In a time of growing East-West tension she used her standing with both sides to steer the negotiations to a conclusion. In December 1948 the General Assembly adopted the Declaration without a dissenting vote.</p>
+          <p class="vb-intro">Afterwards she travelled on around the world and urged lawyers, politicians and universities to take the principles seriously. She is the source of the question where universal human rights begin: 'in small places, close to home'. This is the Nine at her best: mediating without overrunning, and carrying a cause until everyone can help carry it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Nine with a One-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the path from the shy orphan to a voice heard around the world. Roosevelt turned her own feeling of not being enough into the ability to see people in need, and she stayed free of pose.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. The Nine tends to put her own wishes behind the community's, and with the One-wing this becomes duty without pause. Roosevelt considered herself plain as a child, which can be linked to the tendency to draw one's worth from usefulness to others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Social Nines with a One-Wing: Roosevelt, Earhart and the Dalai Lama</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-amelia-earhart">Amelia Earhart</a> (SO9w1), Roosevelt shared a friendship: both women were pioneers in a man's world who showed their courage quietly rather than loudly. Earhart brought her discipline into the air, Roosevelt into diplomacy.</p>
+          <p class="vb-intro">The <a href="javascript:void(0)" data-route="beruehmte-dalai-lama">Dalai Lama XIV.</a> (SO9w1) shows the same blend: he places himself at the service of a community and stays in the calm that others seek. Roosevelt and the Dalai Lama both combine a sense of duty with the willingness to mediate between sides.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
+        {route:"lebensmusterkompass/so9", label:"Life Pattern Compass: SO9 – Buffalo"},
+        {route:"beruehmte-amelia-earhart", label:"Portrait: Amelia Earhart (SO9w1) – same subtype, friend and fellow pioneer"},
+        {route:"beruehmte-dalai-lama", label:"Portrait: Dalai Lama XIV. (SO9w1) – same subtype"},
+      ])}
+    </div>
+  `);
+}

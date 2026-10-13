@@ -3451,3 +3451,69 @@ export function hubertBenoitPortraitPage() {
     </div>
   `);
 }
+
+export function eleanorRooseveltPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-eleanor-roosevelt-portrait.jpg" alt="Eleanor Roosevelt – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-eleanor-roosevelt-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Eleanor Roosevelt</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanische First Lady, Diplomatin und Menschenrechtlerin, 1884&ndash;1962 &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel, der sich dem Sturm zuwendet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wenn ein Sturm aufzieht, drehen sich Büffel ihm zu und gehen hinein, statt vor ihm davonzulaufen, und die Herde bleibt hinter dem Leittier geschützt. Der Büffel ist das Tier der sozialen Neun: Sie trägt Verantwortung für die Gemeinschaft, ohne dass sie laut werden müsste.</p>
+          <p class="vb-intro">Eleanor Roosevelt wurde am 11. Oktober 1884 in New York geboren. Ihre Mutter starb 1892 an Diphtherie, ihr Vater, an dem sie sehr hing, starb nach den gängigen Angaben zwei Jahre später an den Folgen von Alkoholismus. Verwaist und schüchtern kam sie zur Großmutter Mary Hall, in ein strenges Haus. Sie beschrieb später, sie habe sich dort ständig davor gefürchtet, jemanden zu enttäuschen, und gelernt, dass Liebe und Zustimmung schwer zu bekommen seien. Die drei Jahre im Mädcheninternat bei London ab ihrem fünfzehnten Lebensjahr gehörten nach ihren Worten zu den glücklichsten ihres Lebens. Sie heiratete 1905 Franklin D. Roosevelt und starb am 7. November 1962.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Teilhabe statt Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> findet nach Naranjo Identität in der Teilhabe: im Mitwirken an einer Sache und einer Gemeinschaft, weniger im eigenen Auftritt. Bei Roosevelt zeigt sich das darin, dass sie ihre Bekanntheit fast immer in den Dienst anderer stellte. Ab 1935 schrieb sie die tägliche Zeitungskolumne ›My Day‹ (›Mein Tag‹), die sie bis zu ihrem Tod 1962 fortsetzte, und erzählte darin vom Alltag, von Reisen und von dem, was sie unterwegs sah. Sie half Val-Kill Industries zu gründen, einen gemeinnützigen Möbelbetrieb in Hyde Park, und unterrichtete an der Todhunter School, einer privaten Mädchenschule in New York.</p>
+          <p class="vb-intro">Ihre Haltung in Konflikten zeigt sich an einem Fall von 1939: Sie trat aus der Organisation Daughters of the American Revolution aus, nachdem diese der Sängerin Marian Anderson einen Auftritt in der Constitution Hall verweigert hatte. 1943 reiste sie als First Lady in den Südpazifik, um Soldaten zu besuchen. Der Büffel geht dorthin, wo die Herde ihn braucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Pflicht, die nicht nachlässt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> gibt der sozialen Neun Prinzipien und Disziplin. Bei einem schwach ausgeprägten Einserflügel bliebe die Neun gemütlich im Hintergrund. Bei Roosevelt wirkt er stark: Mehr als ein Vierteljahrhundert lang schrieb sie fast täglich ihre Kolumne, sie reiste unermüdlich und nahm den Maßstab des Richtigen wörtlich.</p>
+          <p class="vb-intro">Das lässt sich mit der strengen Prägung ihrer Kindheit in Verbindung bringen. Wer als Kind gelernt hat, dass Anerkennung an Pflichterfüllung hängt, entwickelt leicht einen inneren Richter. Die Einserfärbung zeigt sich bei ihr weniger als Zorn auf andere, sondern als hartnäckiges Verantwortungsgefühl: Wo etwas Unrecht ist, gehört es in Ordnung gebracht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Eine Erklärung für alle Menschen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ihre größte Leistung ist die Arbeit an der Allgemeinen Erklärung der Menschenrechte. 1946 ernannte Präsident Truman sie zur Delegierten bei der UN-Generalversammlung, die Menschenrechtskommission wählte sie einstimmig zur Vorsitzenden. In einer Zeit wachsender Spannung zwischen Ost und West nutzte sie ihr Ansehen bei beiden Seiten, um die Verhandlungen zum Abschluss zu führen. Im Dezember 1948 nahm die Generalversammlung die Erklärung ohne Gegenstimme an.</p>
+          <p class="vb-intro">Danach reiste sie weiter durch die Welt und warb dafür, dass Juristen, Politiker und Hochschulen die Grundsätze ernst nahmen. Von ihr stammt die Frage, wo allgemeine Menschenrechte eigentlich beginnen: ›in kleinen Orten, nah am Zuhause‹. Das ist die Neun in ihrer besten Form: Vermitteln, ohne zu überfahren, und eine Sache so lange tragen, bis alle sie mittragen können.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in dem Weg von der scheuen Waise zur Stimme, die in der Welt gehört wurde. Roosevelt machte aus dem eigenen Gefühl, nicht zu genügen, die Fähigkeit, Menschen in Not zu sehen, und sie blieb dabei ohne Pose.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Neun neigt dazu, die eigenen Wünsche zugunsten der Gemeinschaft zurückzustellen, und in Verbindung mit dem Einserflügel wird daraus Pflicht ohne Pause. Roosevelt hielt sich nach ihren eigenen Worten als Kind für unscheinbar, und das lässt sich mit der Neigung in Verbindung bringen, den eigenen Wert aus dem Nutzen für andere zu beziehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei soziale Neuner mit Einserflügel: Roosevelt, Earhart und der Dalai Lama</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-amelia-earhart">Amelia Earhart</a> (SO9w1) verband Roosevelt eine Freundschaft: Beide Frauen waren Pionierinnen in einer Männerwelt, die ihren Mut eher ruhig als laut zeigten. Earhart brachte ihre Disziplin in die Luft, Roosevelt in die Diplomatie.</p>
+          <p class="vb-intro">Auch der <a href="javascript:void(0)" data-route="beruehmte-dalai-lama">Dalai Lama XIV.</a> (SO9w1) zeigt dieselbe Mischung: Er stellt sich in den Dienst einer Gemeinschaft und bleibt dabei in der Ruhe, die andere sucht. Beide, Roosevelt und der Dalai Lama, verbinden Pflichtbewusstsein mit der Bereitschaft, zwischen Seiten zu vermitteln.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so9", label:"Lebensmusterkompass: SO9 – Büffel"},
+        {route:"beruehmte-amelia-earhart", label:"Porträt: Amelia Earhart (SO9w1) – derselbe Subtyp, befreundete Pionierin"},
+        {route:"beruehmte-dalai-lama", label:"Porträt: Dalai Lama XIV. (SO9w1) – derselbe Subtyp"},
+      ])}
+    </div>
+  `);
+}
