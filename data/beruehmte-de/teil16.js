@@ -3349,7 +3349,7 @@ export function wernerAblassPortraitPage() {
         <h2 class="vb-section">3. Der Zweierflügel: Zuwendung hinter der Direktheit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Zweierflügel</strong> gibt der sexuellen Eins Wärme und Zuwendung. Ablass trat nicht als Guru auf: Er nannte seine Treffen ›Events‹, bezeichnete sich als Diener und coachte Menschen einzeln. Sein erstes Buch hieß ›Leide nicht – liebe‹ (2004) und wurde sein Bestseller. Nach den Darstellungen der Seite Jetzt-TV schätzte er einfache Freuden wie Spaziergänge mit seinem Hund und wirkte im Umgang entspannt, ohne andere verändern zu wollen.</p>
-          <p class="vb-intro">Dazu passt, dass er sich besonders Menschen zuwandte, die gescheitert waren: Fast jeder, der zu ihm komme, habe zuvor gescheitert, sagte er, und genau dieses Scheitern öffne für die Wirklichkeit. Der Zweierflügel zeigt sich hier als Mitgefühl für die, die an ihren eigenen Maßstäben gescheitert sind.</p>
+          <p class="vb-intro">Dazu passt, dass er sich besonders Menschen zuwandte, die gescheitert waren: Fast jeder, der zu ihm komme, sei zuvor gescheitert, sagte er, und genau dieses Scheitern öffne für die Wirklichkeit. Der Zweierflügel zeigt sich hier als Mitgefühl für die, die an ihren eigenen Maßstäben gescheitert sind.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Kein Täter, keine Anstrengung</h2>
