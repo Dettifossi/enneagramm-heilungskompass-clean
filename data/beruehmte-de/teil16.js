@@ -3624,7 +3624,7 @@ export function joelGoldsmithPortraitPage() {
         <h2 class="vb-section">4. Die Substanz: Eine Lehre aus Stille und Meditation</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Im Mittelpunkt von Goldsmiths Lehre steht der bewusste Kontakt mit Gott, den er in der inneren Stille suchte, in der sich nach seiner Darstellung die ›leise innere Stimme‹ hörbar macht. Spirituelle Heilung verstand er als Folge dieses Kontakts, nicht als Technik. Das Porträt bewertet diese Heilungsvorstellungen nicht, sondern beschreibt die Person und ihr Muster.</p>
-          <p class="vb-intro">Seine Wirkung lässt sich am Umfang des Werks ablesen: Es gibt über fünfzig Bücher und mehr als 1.300 Stunden aufgezeichneten Unterrichts. Ein erstes Buch, ›The Infinite Way‹, erschien nach den Angaben 1947 oder 1948 im Selbstverlag. Mitarbeiterinnen wie Lorraine Sinkler und ihre Schwester Valborg redigierten viele der späteren Bücher. Diese Zusammenarbeit zeigt eine typische Sieben-Eigenschaft: Er schuf ein großes Werk, indem er andere ins Boot holte.</p>
+          <p class="vb-intro">Seine Wirkung lässt sich am Umfang des Werks ablesen: Es gibt über fünfzig Bücher und mehr als 1.300 Stunden aufgezeichneten Unterrichts. Ein erstes Buch, ›The Infinite Way‹, erschien nach den Angaben 1947 oder 1948 im Selbstverlag. Mitarbeiterinnen wie Lorraine Sinkler und ihre Schwester Valborg redigierten viele der späteren Bücher. Diese Zusammenarbeit zeigte eine typische Siebener-Eigenschaft: Er schuf ein großes Werk, indem er andere ins Boot holte.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Sieben mit Sechserflügel</h2>
