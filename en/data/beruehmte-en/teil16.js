@@ -3870,7 +3870,7 @@ export function marleenLohsePortraitPage() {
 
         <h2 class="vb-section">2. The Sexual Four: Measuring Oneself to Be Seen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>sexual Four (SX4)</strong> carries the Four's pain into immediate personal intensity. Naranjo called this subtype <em>Competition</em>: the feeling that others have what one lacks oneself, and the impulse to measure oneself and stand out. In Lohse this shows not as quarrel with others but as persistence in doing it precisely and fully. She moved from child star to drama school and from there to roles that demand something of her.</p>
+          <p class="vb-intro">The <strong>sexual Four (SX4)</strong> carries the Four's pain into immediate personal intensity. Naranjo called this subtype <em>Competition</em>: the feeling that others have what one lacks oneself, and the impulse to measure oneself and stand out. In Lohse this shows not as quarrel with others but as persistence in doing it precisely and fully. She moved from child star to film university and from there to roles that demand something of her.</p>
           <p class="vb-intro">Her graduation production of Sam Shepard's 'Lügengespinst' ('Lie of the Mind', directed by Lukas Langhoff) won the ensemble prize at the Theatertreffen of German-language drama students in 2010, although the prize went to the ensemble and not expressly to her personally. In 2011 she played Petra Stockmann in Ibsen's 'Ein Volksfeind' ('An Enemy of the People') in Bonn, and in Berlin's Ballhaus Naunynstraße she appeared in 'Bloodshed in Divercity'.</p>
         </blockquote>
 
@@ -3883,7 +3883,7 @@ export function marleenLohsePortraitPage() {
         <h2 class="vb-section">4. The Substance: From Child Role to the Berlinale</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">What sets Lohse apart from many child actors is the route through training to roles with weight of their own. In cinema she made her debut in 2007 with a supporting part in 'Vollidiot', played in 'Zimmer 205' (2011), 'Sushi in Suhl' (2012), 'Frau Ella' (2013) and 'Happy Burnout' (2017), and in 2019 received her first leading role on the cinema screen: in Erik Schmitt's 'Cleo' she had the title role, and the film had its world premiere at the Berlinale in the Generation section.</p>
-          <p class="vb-intro">Added to this are television roles such as the female lead in the fairy-tale film 'Das blaue Licht' ('The Blue Light', 2010) and, since 2021, the mother in the film series 'Die Schule der magischen Tiere' ('The School of Magical Animals'). From the gymnastics of her youth comes the body control she uses as a performer.</p>
+          <p class="vb-intro">Added to this are television roles such as the female lead in the fairy-tale film 'Das blaue Licht' ('The Blue Light', 2010) and, since 2021, the mother in the film series 'Die Schule der magischen Tiere' ('The School of Magical Animals'). The body control of her youthful gymnastics can be linked to the precision she shows as a performer.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow of the Sexual Four with a Three-Wing</h2>

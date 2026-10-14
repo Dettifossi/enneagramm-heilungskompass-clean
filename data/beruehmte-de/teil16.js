@@ -3875,7 +3875,7 @@ export function marleenLohsePortraitPage() {
 
         <h2 class="vb-section">2. Die sexuelle Vier: Sich messen, um gesehen zu werden</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> trägt den Schmerz der Vier in unmittelbare persönliche Intensität. Naranjo nannte diesen Subtyp <em>Rivalität</em>: das Gefühl, dass andere haben, was einem selbst fehlt, und der Impuls, sich zu messen und aufzufallen. Bei Lohse zeigt sich das nicht als Streit mit anderen, sondern als Beharrlichkeit, es genau und ganz zu machen. Sie wechselte vom Kinderstar zur Theaterschule und von dort zu Rollen, die ihr etwas abverlangen.</p>
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> trägt den Schmerz der Vier in unmittelbare persönliche Intensität. Naranjo nannte diesen Subtyp <em>Rivalität</em>: das Gefühl, dass andere haben, was einem selbst fehlt, und der Impuls, sich zu messen und aufzufallen. Bei Lohse zeigt sich das nicht als Streit mit anderen, sondern als Beharrlichkeit, es genau und ganz zu machen. Sie wechselte vom Kinderstar zur Filmhochschule und von dort zu Rollen, die ihr etwas abverlangen.</p>
           <p class="vb-intro">Ihre Abschlussinszenierung von Sam Shepards ›Lügengespinst‹ (Regie: Lukas Langhoff) erhielt 2010 beim Theatertreffen deutschsprachiger Schauspielstudierender den Ensemblepreis, wobei der Preis dem Ensemble galt und nicht ausdrücklich ihr persönlich. 2011 spielte sie in Bonn die Petra Stockmann in Ibsens ›Ein Volksfeind‹, und im Berliner Ballhaus Naunynstraße stand sie in ›Bloodshed in Divercity‹ auf der Bühne.</p>
         </blockquote>
 
@@ -3888,7 +3888,7 @@ export function marleenLohsePortraitPage() {
         <h2 class="vb-section">4. Die Substanz: Von der Kinderrolle zur Berlinale</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Was Lohse von vielen Kinderdarstellern unterscheidet, ist der Weg über die Ausbildung zu Rollen mit eigenem Gewicht. Im Kino debütierte sie 2007 mit einer Nebenrolle in ›Vollidiot‹, spielte in ›Zimmer 205‹ (2011), ›Sushi in Suhl‹ (2012), ›Frau Ella‹ (2013) und ›Happy Burnout‹ (2017) und erhielt 2019 ihre erste Hauptrolle auf der Kinoleinwand: In Erik Schmitts ›Cleo‹ hatte sie die Titelrolle, der Film hatte seine Weltpremiere bei der Berlinale in der Sektion Generation.</p>
-          <p class="vb-intro">Dazu kommen Fernsehrollen wie die weibliche Hauptrolle in dem Märchenfilm ›Das blaue Licht‹ (2010) und, seit 2021, die Mutter in der Filmreihe ›Die Schule der magischen Tiere‹. Aus dem Kunstturnen ihrer Jugend stammt die Körperbeherrschung, die sie als Darstellerin nutzt.</p>
+          <p class="vb-intro">Dazu kommen Fernsehrollen wie die weibliche Hauptrolle in dem Märchenfilm ›Das blaue Licht‹ (2010) und, seit 2021, die Mutter in der Filmreihe ›Die Schule der magischen Tiere‹. Die Körperbeherrschung des Kunstturnens ihrer Jugend lässt sich mit der Genauigkeit in Verbindung bringen, die sie als Darstellerin zeigt.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten der sexuellen Vier mit Dreierflügel</h2>
