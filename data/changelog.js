@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2498", date: "2026-10-14", text: "Neues Porträt: Bruno Gröning (SO1w2) – Heilungsprediger der Nachkriegszeit.", text_en: "New portrait: Bruno Gröning (SO1w2) – healing preacher of the postwar years.", route: "beruehmte-bruno-groening" },
     { version: "v2497", date: "2026-10-13", text: "Neues Krankheitsporträt: William James Sidis (SO4w5).", text_en: "New illness portrait: William James Sidis (SO4w5).", route: "krankheitsportraets-william-james-sidis" },
     { version: "v2496", date: "2026-10-13", text: "Neues Krankheitsporträt: Prince (SX4w3).", text_en: "New illness portrait: Prince (SX4w3).", route: "krankheitsportraets-prince" },
     { version: "v2495", date: "2026-10-13", text: "Neues Krankheitsporträt: Eleanor Roosevelt (SO9w1).", text_en: "New illness portrait: Eleanor Roosevelt (SO9w1).", route: "krankheitsportraets-eleanor-roosevelt" },

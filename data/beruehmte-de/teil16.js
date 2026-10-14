@@ -3520,3 +3520,69 @@ export function eleanorRooseveltPortraitPage() {
     </div>
   `);
 }
+
+export function brunoGroeningPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bruno-groening-portrait.jpg" alt="Bruno Gröning – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-bruno-groening-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Bruno Gröning</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Heilungsprediger, 1906&ndash;1959 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die ihre Schar nicht verlässt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine Gans bleibt bei ihrer Schar. Wenn eine verletzt ist, setzen sich andere dazu, und die Gruppe zieht erst weiter, wenn die Lage geklärt ist. Das passt zur sozialen Eins, die sich für das Wohl der Gemeinschaft verantwortlich fühlt und Ordnung nicht dem Zufall überlässt.</p>
+          <p class="vb-intro">Bruno Gröning wurde am 30. Mai 1906 als Bruno Grönkowski in Oliva bei Danzig geboren, als viertes von sieben Kindern. Nach dem Zweiten Weltkrieg kam er als Flüchtling über das Lager Dillenburg nach Westdeutschland. Anfang 1949 holte ihn ein verzweifelter Vater nach Herford, dessen Sohn an Muskelschwund litt. Die Berichte über diesen Fall machten ihn bekannt. Auf dem Höhepunkt strömten nach den Berichten bis zu 30.000 Menschen täglich zu seinen Auftritten. Er starb am 26. Januar 1959 in Paris.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Verantwortung für alle und Unangepasstheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> trägt nach Naranjo die ›Unangepasstheit‹: Sie kann sich nicht mit etwas abfinden, das sie für falsch hält, und fühlt sich verantwortlich, es für alle zu ändern. Bei Gröning zeigte sich das darin, dass er sein Anliegen für alle öffnen wollte. Er trat vor großen Menschenmengen auf, gründete 1953 den Gröning-Bund und baute damit eine Gemeinschaft um seine Lehre auf.</p>
+          <p class="vb-intro">Dazu gehört auch die Reibung mit der Ordnung seiner Zeit. In Nordrhein-Westfalen wurde ihm das Auftreten untersagt, er ließ sich auf dem Traberhof bei Rosenheim nieder und geriet in den folgenden Jahren immer wieder mit staatlichen Stellen in Konflikt. Zum Zeitpunkt seines Todes lief ein Revisionsverfahren. Die soziale Eins gibt nicht nach, wenn sie überzeugt ist, im Recht zu sein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Zuwendung zu den Leidenden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> gibt der sozialen Eins Wärme und Zuwendung. Bei Gröning stand sie sichtbar im Mittelpunkt: Er wandte sich Kranken und ihren Angehörigen persönlich zu, zuerst in Herford dem Vater und seinem kranken Sohn. Ein schwach ausgeprägter Zweierflügel hätte eher einen strengen Lehrer ergeben. Bei Gröning war er stark ausgeprägt: Im Zentrum stand der persönliche Kontakt zu den Kranken, nicht eine Lehre.</p>
+          <p class="vb-intro">Der Zweierflügel zeigt auch seine Kehrseite: Wer so stark auf die Nöte anderer antwortet, stellt die eigenen Bedürfnisse leicht zurück. In diese Jahre fällt auch eine Veränderung seines Privatlebens: 1955 ließ er sich scheiden und heiratete die Französin Josette Dufossé.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Ein Massenphänomen der Nachkriegszeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Gröning von anderen unterschied, war die Wucht, mit der er in kurzer Zeit eine Menge erreichte. In einer Zeit der Not, mit Flüchtlingen, Kriegsversehrten und einem überlasteten Gesundheitswesen, sahen viele Menschen in ihm eine Hoffnung. Er sprach von einem ›Heilstrom‹, der nach seiner Darstellung durch ihn fließe und den die Menschen empfangen könnten, wenn sie sich öffneten.</p>
+          <p class="vb-intro">Berichte über Heilungen verbreiteten sich schnell, und die Presse machte ihn zu einem Gegenstand öffentlicher Debatte. Die Heilungsberichte werden unterschiedlich gewichtet; dieses Porträt bewertet sie nicht, sondern beschreibt die Person und das Muster, in dem sie lebte. Der Junge aus Herford, dessen Fall ihn bekannt machte, starb nach den Berichten 1955 an Muskelschwund.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Eins mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Zuwendung. Gröning wandte sich Menschen zu, die in Not waren und oft schon viele Ärzte gesehen hatten. Das passt zu einer sozialen Eins, die für andere da sein will.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Eine Eins, die sich im Recht weiß, nimmt Einwände schwer auf, und der Zweierflügel kann daraus eine Rolle machen, in der der Helfer unersetzlich sein will. Die Konflikte mit den Behörden, das Auftrittsverbot und die Rechtsverfahren zeigen, wie wenig Spielraum zwischen seinem Anspruch und der Ordnung seiner Zeit blieb. Ende 1958 wurde in Paris Magenkrebs diagnostiziert, an dem er laut Totenschein am 26. Januar 1959 in der Clinique Henner starb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei soziale Einser mit eigenem Heilanspruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Aus demselben Subtyp liegt <a href="javascript:void(0)" data-route="beruehmte-samuel-hahnemann">Dr. Samuel Hahnemann</a> (SO1w9) nahe: Auch er schuf ein eigenes Heilsystem und geriet mit der Ordnung seiner Zeit in Konflikt. Der Unterschied liegt im Flügel: Hahnemann ordnete mit dem Neunerflügel ruhig und systematisch, während Gröning mit dem Zweierflügel auf die Menschen zuging.</p>
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-werner-ablass">Werner Ablass</a> (SX1w2) verbindet ihn der Zweierflügel: Beide sprachen Menschen an, die sich verloren fühlten, und beide beriefen sich auf eine Einsicht, die sie nicht aus Schulen bezogen. Ablass blieb als sexuelle Eins bei der Eifersucht des Einzelnen, Gröning als soziale Eins bei der Masse.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-samuel-hahnemann", label:"Porträt: Dr. Samuel Hahnemann (SO1w9) – derselbe Subtyp, Begründer eines eigenen Heilsystems"},
+        {route:"beruehmte-werner-ablass", label:"Porträt: Werner Ablass (SX1w2) – Lehrer mit ähnlichem Zweierflügel"},
+      ])}
+    </div>
+  `);
+}

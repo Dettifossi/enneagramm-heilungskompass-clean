@@ -3515,3 +3515,69 @@ export function eleanorRooseveltPortraitPage() {
     </div>
   `);
 }
+
+export function brunoGroeningPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bruno-groening-portrait.jpg" alt="Bruno Gröning – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-bruno-groening-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Bruno Gröning</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">German healing preacher, 1906&ndash;1959 &ndash; Animal match: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose That Does Not Leave Its Flock</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A goose stays with its flock. When one is injured, others settle beside it, and the group moves on only when the situation is clear. That suits the social One, who feels responsible for the welfare of the community and does not leave order to chance.</p>
+          <p class="vb-intro">Bruno Gröning was born on 30 May 1906 as Bruno Grönkowski in Oliva near Danzig, the fourth of seven children. After the Second World War he came to West Germany as a refugee via the camp at Dillenburg. In early 1949 a desperate father whose son had muscular dystrophy brought him to Herford. Reports about this case made him known. At the height, according to reports, up to 30,000 people a day flocked to his appearances. He died in Paris on 26 January 1959.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: Responsibility for All and Non-Adaptability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>social One (SO1)</strong> carries <em>Non-Adaptability</em>: it cannot reconcile itself to something it holds to be wrong and feels responsible for changing it for everyone. In Gröning this showed in that he wanted to open his concern to everyone. He appeared before large crowds, founded the Gröning-Bund in 1953 and thereby built a community around his teaching.</p>
+          <p class="vb-intro">The friction with the order of his time belongs here too. In North Rhine-Westphalia he was forbidden to appear; he settled at the Traberhof near Rosenheim and in the following years repeatedly came into conflict with state authorities. At the time of his death an appeal was pending. The social One does not give way when convinced of being in the right.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Attention to the Suffering</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> gives the social One warmth and attentiveness. In Gröning it stood visibly at the centre: he turned personally to the sick and their relatives, first in Herford to the father and his ill son. A weakly developed Two-wing would more likely have produced a strict teacher. In Gröning it was strongly developed: the centre was personal contact with the sick, not a doctrine.</p>
+          <p class="vb-intro">The Two-wing also shows its other side: whoever responds so strongly to the needs of others easily puts his own needs aside. A change in his private life also falls in these years: in 1955 he divorced and married the Frenchwoman Josette Dufossé.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: A Mass Phenomenon of the Postwar Years</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What set Gröning apart was the force with which he reached a crowd in a short time. In a time of need, with refugees, war-disabled people and an overburdened health system, many saw hope in him. He spoke of a 'healing stream' that, in his account, flowed through him and that people could receive if they opened themselves.</p>
+          <p class="vb-intro">Reports of healings spread quickly, and the press made him a subject of public debate. The reports of healings are weighed differently; this portrait does not assess them but describes the person and the pattern in which he lived. The boy from Herford whose case made him known died, according to the reports, in 1955 of muscular dystrophy.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social One with a Two-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the attentiveness. Gröning turned to people in need who had often already seen many doctors. That suits a social One who wants to be there for others.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. A One who knows himself to be right finds it hard to take in objections, and the Two-wing can turn that into a role in which the helper wants to be indispensable. The conflicts with the authorities, the ban on appearances and the legal proceedings show how little room remained between his claim and the order of his time. At the end of 1958 stomach cancer was diagnosed in Paris, of which, according to the death certificate, he died on 26 January 1959 at the Clinique Henner.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Social Ones with a Healing Claim of Their Own</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From the same subtype, <a href="javascript:void(0)" data-route="beruehmte-samuel-hahnemann">Dr. Samuel Hahnemann</a> (SO1w9) comes close: he too created a healing system of his own and came into conflict with the order of his time. The difference lies in the wing: Hahnemann with the Nine-wing ordered calmly and systematically, while Gröning with the Two-wing went toward people.</p>
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-werner-ablass">Werner Ablass</a> (SX1w2) he shares the Two-wing: both addressed people who felt lost, and both appealed to an insight not drawn from schools. Ablass as a sexual One stayed with the zeal of the individual, Gröning as a social One with the crowd.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-samuel-hahnemann", label:"Portrait: Dr. Samuel Hahnemann (SO1w9) – same subtype, founder of a healing system of his own"},
+        {route:"beruehmte-werner-ablass", label:"Portrait: Werner Ablass (SX1w2) – teacher with a similar Two-wing"},
+      ])}
+    </div>
+  `);
+}
