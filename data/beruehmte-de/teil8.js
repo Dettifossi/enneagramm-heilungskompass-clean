@@ -1413,7 +1413,7 @@ export function reinhardMeyPortraitPage() {
           <p class="vb-intro">Der Schatten liegt in der Anspannung hinter dem Gelingen: Auch nach Tausenden Konzerten bleibt das Lampenfieber unverändert stark, und der Anspruch, vor sich selbst zu bestehen, muss vor jedem Auftritt neu eingelöst werden. Der Wunsch, gesehen zu werden, und der Schutz des Privaten stehen dabei nebeneinander.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Zwei soziale Vierer, die ihr Anderssein in Erfolg verwandelten</h2>
+        <h2 class="vb-section">6. Drei soziale Vierer, die ihr Anderssein in Erfolg verwandelten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Ein aufschlussreicher Vergleich innerhalb desselben Subtyps ist <a href="javascript:void(0)" data-route="beruehmte-cat-stevens">Cat Stevens / Yusuf Islam</a> (SO4w3): Auch er ist ein Liedermacher mit sanfter, sehr persönlicher Stimme, der großen Erfolg hatte und sich dennoch zeitlebens als Außenseiter und Suchender zeigte. Bei beiden verbindet der Dreierflügel die Empfindsamkeit mit der Fähigkeit, ein großes Publikum zu erreichen.</p>
           <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-hugh-grant">Hugh Grant</a> (SO4w3) zeigt, wie die soziale Vier mit Dreierflügel Erfolg und Distanz zum eigenen Ruhm verbindet: Der Panzer bleibt, auch wenn die Bühne groß ist.</p>

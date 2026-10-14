@@ -3361,7 +3361,7 @@ export function wernerAblassPortraitPage() {
           <p class="vb-intro">The shadow belongs to the same pattern. Whoever is sure of possessing the truth finds it hard to let contradiction stand, and the scene was divided over him: he was controversial precisely because he rejected the usual terms. His earthy directness, whether in images or on stage, was not to everyone's taste, and whoever knows himself to be right often finds it hard to hear other views.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Two Zealots: Ablass, DiCaprio and Luther</h2>
+        <h2 class="vb-section">6. Three Zealots: Ablass, DiCaprio and Luther</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-leonardo-dicaprio">Leonardo DiCaprio</a> (SX1w2), Ablass shares the subtype: both go wholly into a cause and cannot engage half-heartedly, both combine intensity with warmth. The difference lies in the object. For DiCaprio it is roles and climate protection, for Ablass the question of who actually acts.</p>
           <p class="vb-intro">Closer to Ablass's path is <a href="javascript:void(0)" data-route="beruehmte-martin-luther">Martin Luther</a> (SX1w2): he too left a religious system in which he had long searched and served, because his own insight mattered more to him than the institution, and he wrote forcefully against what he recognised as error.</p>
@@ -3494,7 +3494,7 @@ export function eleanorRooseveltPortraitPage() {
           <p class="vb-intro">The shadow belongs to the same pattern. The Nine tends to put her own wishes behind the community's, and with the One-wing this becomes duty without pause. Roosevelt considered herself plain as a child, which can be linked to the tendency to draw one's worth from usefulness to others.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Two Social Nines with a One-Wing: Roosevelt, Earhart and the Dalai Lama</h2>
+        <h2 class="vb-section">6. Three Social Nines with a One-Wing: Roosevelt, Earhart and the Dalai Lama</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-amelia-earhart">Amelia Earhart</a> (SO9w1), Roosevelt shared a friendship: both women were pioneers in a man's world who showed their courage quietly rather than loudly. Earhart brought her discipline into the air, Roosevelt into diplomacy.</p>
           <p class="vb-intro">The <a href="javascript:void(0)" data-route="beruehmte-dalai-lama">Dalai Lama XIV.</a> (SO9w1) shows the same blend: he places himself at the service of a community and stays in the calm that others seek. Roosevelt and the Dalai Lama both combine a sense of duty with the willingness to mediate between sides.</p>
@@ -3562,7 +3562,7 @@ export function brunoGroeningPortraitPage() {
           <p class="vb-intro">On the illness there are accounts from his closest circle that are not independently verified in detail. According to them, in late autumn 1958 he travelled to Paris with his wife Josette, where he was noticeably emaciated and pale and was medically examined at her urging. The examination showed advanced stomach cancer. According to his wife's recollections, as passed on in followers' circles, he is said to have remarked that he had known it for a long time. In everyday life he is said to have been remarkably active until shortly before, continued to receive people seeking help and hardly complained. He was operated on in Paris, and according to these accounts the tumour could no longer be removed; shortly before his death a further emergency operation followed. In followers' circles his early death, he was 52, is also linked to the strain of the trials and the ban on appearances, while the medical view assumes an advanced stomach carcinoma recognised late. Stomach cancer is often discovered only late because the body compensates for a long time; that applies here too.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Two Social Ones with a Healing Claim of Their Own</h2>
+        <h2 class="vb-section">6. Three Ones with a Healing Claim of Their Own</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">From the same subtype, <a href="javascript:void(0)" data-route="beruehmte-samuel-hahnemann">Dr. Samuel Hahnemann</a> (SO1w9) comes close: he too created a healing system of his own and came into conflict with the order of his time. The difference lies in the wing: Hahnemann with the Nine-wing ordered calmly and systematically, while Gröning with the Two-wing went toward people.</p>
           <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-werner-ablass">Werner Ablass</a> (SX1w2) he shares the Two-wing: both addressed people who felt lost, and both appealed to an insight not drawn from schools. Ablass as a sexual One stayed with the zeal of the individual, Gröning as a social One with the crowd.</p>
@@ -3628,7 +3628,7 @@ export function joelGoldsmithPortraitPage() {
           <p class="vb-intro">The shadow belongs to the same pattern. The Seven rarely stays in one place: Goldsmith moved from New York via Boston to California and Hawaii, later travelled worldwide and died in a hotel on a trip. In addition the biographical sources largely come from his own circle, and his accounts of his spiritual breakthrough in 1928 differed in various reports. That his accounts diverge can be linked to the Seven's tendency to tell the more pleasant version.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Two Forms of Closeness: Goldsmith, King and Gröning</h2>
+        <h2 class="vb-section">6. Three Forms of Closeness: Goldsmith, King and Gröning</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-larry-king">Larry King</a> (SE7w6), Goldsmith shares the subtype: both created closeness as a profession, King in the television interview, Goldsmith in the stillness of teaching, and both joined the open with a fixed, reliable rhythm. The difference lies in the place: King appeared before millions, Goldsmith stayed in the small circle.</p>
           <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-bruno-groening">Bruno Gröning</a> (SO1w2) also addressed people in need, but he built an organisation with the Gröning-Bund and appearances before crowds and came into conflict with the authorities. Goldsmith as a self-preservation Seven stayed with the small, mobile form without organisation and without the claim to change the order of the community.</p>
@@ -3694,7 +3694,7 @@ export function mariaTrebenPortraitPage() {
           <p class="vb-intro">The shadow belongs to the same pattern. Her books met with criticism: Stiftung Warentest doubted her expertise and judged individual recipes, for instance with celandine, to be dangerous, and the Freiburg University Hospital warned against treating readily operable tumours first with herbs. The effectiveness of her recommendations is not proven. This can be linked to a Nine's tendency to find it hard to let doubts about her usefulness to the community come close. Among the lesser-known facts is also that on 18 January 1939 she applied for membership of the NSDAP and was admitted retroactively as of 1 December 1938, which is often missing from popular accounts. Her husband died in 1988, she herself on 26 July 1991 in Grieskirchen.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Two Social Nines in the Service of Others</h2>
+        <h2 class="vb-section">6. Three in the Service of Others: Treben, Roosevelt and Gröning</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-eleanor-roosevelt">Eleanor Roosevelt</a> (SO9w1), Treben shares the subtype: both put their knowledge and fame at the service of others, both carried the One-wing's sense of duty into their work.</p>
           <p class="vb-intro">Another line leads to <a href="javascript:void(0)" data-route="beruehmte-bruno-groening">Bruno Gröning</a> (SO1w2), who likewise addressed people in need in the postwar years. Gröning appeared as a healing preacher before crowds and built an organisation, Treben as a social Nine stayed with the quiet, everyday form: a book on the kitchen table instead of a stage.</p>
@@ -3826,7 +3826,7 @@ export function jensRiewaPortraitPage() {
           <p class="vb-intro">The shadow belongs to the same pattern. Whoever is so restrained as a newsreader remains hard to grasp as a person. Riewa keeps his private life largely out of the public eye and defends that boundary legally if need be. The Nine tends to hide behind the role, and here this can be linked to the restraint the role demands.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Two Faces of Reliability: Riewa, Hanks and Will</h2>
+        <h2 class="vb-section">6. Three Faces of Reliability: Riewa, Hanks and Will</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-tom-hanks">Tom Hanks</a> (SO9w1), Riewa shares the subtype: both stand for reliability, both have a calming effect on the audience, and both combine a calm basic attitude with the One-wing that watches quality. Hanks does it as an actor, Riewa as the voice of the news.</p>
           <p class="vb-intro">A counter-image is <a href="javascript:void(0)" data-route="beruehmte-anne-will">Anne Will</a> (SE1w2): she too presented for the ARD, but as a self-preservation One with a Two-wing the exact, probing engagement stood in the foreground, in Riewa as a social Nine it is the calm presence for the community.</p>
@@ -3892,7 +3892,7 @@ export function marleenLohsePortraitPage() {
           <p class="vb-intro">The shadow belongs to the same pattern. The Four with a Three-wing quickly measures herself by impact: whoever appears in several fields stands in comparison in each, and the wish to be seen whole can turn into constant pressure. Nothing personal can be read from the published sources on this; this is only the pattern of the subtype.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Two Sexual Fours with a Three-Wing: Lohse, Kaulitz and Eilish</h2>
+        <h2 class="vb-section">6. Three Sexual Fours with a Three-Wing: Lohse, Kaulitz and Eilish</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-bill-kaulitz">Bill Kaulitz</a> (SX4w3), Lohse shares the subtype: both came before an audience early and turned their individuality into expression, Kaulitz into the stage persona of a frontman, Lohse into the variety of roles. In Kaulitz the intensity is loud and visible, in Lohse it shows more quietly, in the precision of the performance.</p>
           <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-billie-eilish">Billie Eilish</a> (SX4w3) also came to the stage young and stays true to her own expression. As with Lohse, music comes as a way to bring the inner life into a voice of its own.</p>
@@ -3958,7 +3958,7 @@ export function andreaSawatzkiPortraitPage() {
           <p class="vb-intro">The shadow belongs to the same pattern. Whoever puts so much of herself into expression stands in comparison: with other authors, with other actresses and with her own standard. The public sources give little on burdens behind it, and this portrait does not want to invent anything about that.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Two Sexual Fours with a Three-Wing: Sawatzki, Lohse and Rojinski</h2>
+        <h2 class="vb-section">6. Three Sexual Fours with a Three-Wing: Sawatzki, Lohse and Rojinski</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-marleen-lohse">Marleen Lohse</a> (SX4w3), Sawatzki shares the subtype and the double role as actress and author: both also write themselves, both give their inner life a form of its own beside the roles. In Lohse music comes as a further step, in Sawatzki the book.</p>
           <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-palina-rojinski">Palina Rojinski</a> (SX4w3) she shares the ability to join the comic and the personal and to reach a television audience. Rojinski does it with play and presenting, Sawatzki with role and novel.</p>
@@ -4024,7 +4024,7 @@ export function sentaBergerPortraitPage() {
           <p class="vb-intro">The shadow belongs to the same pattern. The Four with a Three-wing measures herself by impact and recognition, and a life in the spotlight demands keeping composure even through setbacks. How she personally deals with that the published sources do not say, and this portrait does not want to invent anything about it.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Two Actresses, Two Paths: Berger, Sawatzki and Schneider</h2>
+        <h2 class="vb-section">6. Three Actresses, Two Subtypes: Berger, Sawatzki and Schneider</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-andrea-sawatzki">Andrea Sawatzki</a> (SX4w3), Berger shares the subtype and the ability to join the serious and the comic and to be present in German television for decades. Both are more than performers: Berger as producer and academy president, Sawatzki as author.</p>
           <p class="vb-intro">A counter-image is <a href="javascript:void(0)" data-route="beruehmte-romy-schneider">Romy Schneider</a> (SO4w3), likewise an Austrian film star. Schneider as a social Four carried her sensitivity behind a shell and suffered from the image the public had of her; Berger as a sexual Four put her intensity into decisions, went away, founded, shaped.</p>
@@ -4090,7 +4090,7 @@ export function robertGreenePortraitPage() {
           <p class="vb-intro">The shadow belongs to the same pattern. The Sunday Times called 'The 48 Laws of Power' the 'bible' of Hollywood scheming, and The Independent doubted whether Greene himself believes his theses or uses them as a sales gimmick. Whoever frames regularities of behaviour so sharply risks that they are read as instructions. In 2018 he suffered, by his own account, a serious stroke caused by a blood clot in the neck, in which his left arm and left leg were temporarily barely usable; according to his post, doctors expected a full recovery after a few months of rehabilitation.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Two Observers of Power: Greene, Foucault and Beuys</h2>
+        <h2 class="vb-section">6. Three Observers of Power: Greene, Foucault and Beuys</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-michel-foucault">Michel Foucault</a> (SX1w9), Greene shares the subtype and the subject: both investigate how power works. Foucault did so as a philosopher with conceptual rigour, Greene as an author with examples and rules, and both wanted to make the hidden mechanisms visible.</p>
           <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-joseph-beuys">Joseph Beuys</a> (SX1w9) also shows the sexual One's zeal to make a message out of observation. In Beuys it became art, in Greene it became a rulebook.</p>

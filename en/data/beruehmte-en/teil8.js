@@ -1333,7 +1333,7 @@ export function reinhardMeyPortraitPage() {
           <p class="vb-intro">The shadow lies in the tension behind the success: even after thousands of concerts the stage fright remains as strong as ever, and the demand to measure up in his own eyes must be met anew before every performance. The wish to be seen and the protection of the private stand side by side.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Two Social Fours Who Turned Their Otherness into Success</h2>
+        <h2 class="vb-section">6. Three Social Fours Who Turned Their Otherness into Success</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">A revealing comparison within the same subtype is <a href="javascript:void(0)" data-route="beruehmte-cat-stevens">Cat Stevens / Yusuf Islam</a> (SO4w3): he too is a singer-songwriter with a gentle, very personal voice who had great success yet showed himself all his life as an outsider and seeker. In both, the Three-wing joins sensitivity with the ability to reach a large audience.</p>
           <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-hugh-grant">Hugh Grant</a> (SO4w3) also shows how the social Four with a Three-wing combines success with distance from his own fame: the shell stays, even when the stage is big.</p>

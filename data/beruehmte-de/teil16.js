@@ -3366,7 +3366,7 @@ export function wernerAblassPortraitPage() {
           <p class="vb-intro">Der Schatten gehört zum selben Muster. Wer sicher ist, im Besitz der Wahrheit zu sein, kann Widerspruch schwer stehen lassen, und die Szene war über ihn uneins: Er war umstritten, gerade weil er die gängigen Begriffe ablehnte. Seine derbe Direktheit, ob in Bildern oder im Auftritt, war nicht jedermanns Sache, und wer sich selbst im Recht weiß, hört andere Sichtweisen oft nur schwer an.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Zwei Eiferer: Ablass, DiCaprio und Luther</h2>
+        <h2 class="vb-section">6. Drei Eiferer: Ablass, DiCaprio und Luther</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-leonardo-dicaprio">Leonardo DiCaprio</a> (SX1w2) verbindet Ablass der Subtyp: Beide gehen ganz in eine Sache und lassen sich nicht halbherzig auf etwas ein, beide verbinden Intensität mit Zugewandtheit. Der Unterschied liegt im Gegenstand. Bei DiCaprio sind es Rollen und der Klimaschutz, bei Ablass die Frage, wer eigentlich handelt.</p>
           <p class="vb-intro">Näher an Ablass' Weg liegt <a href="javascript:void(0)" data-route="beruehmte-martin-luther">Martin Luther</a> (SX1w2): Auch er verließ ein religiöses System, in dem er lange gesucht und gedient hatte, weil seine eigene Einsicht ihm wichtiger war als die Institution, und er schrieb mit Wucht gegen das, was er als Irrtum erkannte.</p>
@@ -3499,7 +3499,7 @@ export function eleanorRooseveltPortraitPage() {
           <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Neun neigt dazu, die eigenen Wünsche zugunsten der Gemeinschaft zurückzustellen, und in Verbindung mit dem Einserflügel wird daraus Pflicht ohne Pause. Roosevelt hielt sich nach ihren eigenen Worten als Kind für unscheinbar, und das lässt sich mit der Neigung in Verbindung bringen, den eigenen Wert aus dem Nutzen für andere zu beziehen.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Zwei soziale Neuner mit Einserflügel: Roosevelt, Earhart und der Dalai Lama</h2>
+        <h2 class="vb-section">6. Drei soziale Neuner mit Einserflügel: Roosevelt, Earhart und der Dalai Lama</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-amelia-earhart">Amelia Earhart</a> (SO9w1) verband Roosevelt eine Freundschaft: Beide Frauen waren Pionierinnen in einer Männerwelt, die ihren Mut eher ruhig als laut zeigten. Earhart brachte ihre Disziplin in die Luft, Roosevelt in die Diplomatie.</p>
           <p class="vb-intro">Auch der <a href="javascript:void(0)" data-route="beruehmte-dalai-lama">Dalai Lama XIV.</a> (SO9w1) zeigt dieselbe Mischung: Er stellt sich in den Dienst einer Gemeinschaft und bleibt dabei in der Ruhe, die andere sucht. Beide, Roosevelt und der Dalai Lama, verbinden Pflichtbewusstsein mit der Bereitschaft, zwischen Seiten zu vermitteln.</p>
@@ -3567,7 +3567,7 @@ export function brunoGroeningPortraitPage() {
           <p class="vb-intro">Zur Krankheit gibt es Darstellungen aus seinem engsten Umfeld, die im Detail nicht unabhängig geprüft sind. Danach reiste er im Spätherbst 1958 mit seiner Frau Josette nach Paris, wo er stark abgemagert und blass auffiel und auf ihr Drängen ärztlich untersucht wurde. Die Untersuchung ergab einen fortgeschrittenen Magenkrebs. Nach den Erinnerungen seiner Frau, wie sie in Anhängerkreisen überliefert sind, soll er gesagt haben, er habe das schon lange gewusst. Im Alltag soll er bis kurz davor erstaunlich aktiv gewesen sein, empfing weiter Hilfesuchende und klagte kaum. In Paris wurde er operiert, und nach diesen Darstellungen war der Tumor da nicht mehr zu entfernen; kurz vor seinem Tod folgte eine weitere Notoperation. In Anhängerkreisen wird sein früher Tod, er wurde 52, auch mit der Belastung durch die Prozesse und das Auftrittsverbot in Verbindung gebracht, während die ärztliche Sicht von einem spät erkannten, fortgeschrittenen Magenkarzinom ausgeht. Ein Magenkrebs wird häufig erst spät entdeckt, weil der Körper lange ausgleicht; das gilt auch hier.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Zwei soziale Einser mit eigenem Heilanspruch</h2>
+        <h2 class="vb-section">6. Drei Einser mit eigenem Heilanspruch</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Aus demselben Subtyp liegt <a href="javascript:void(0)" data-route="beruehmte-samuel-hahnemann">Dr. Samuel Hahnemann</a> (SO1w9) nahe: Auch er schuf ein eigenes Heilsystem und geriet mit der Ordnung seiner Zeit in Konflikt. Der Unterschied liegt im Flügel: Hahnemann ordnete mit dem Neunerflügel ruhig und systematisch, während Gröning mit dem Zweierflügel auf die Menschen zuging.</p>
           <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-werner-ablass">Werner Ablass</a> (SX1w2) verbindet ihn der Zweierflügel: Beide sprachen Menschen an, die sich verloren fühlten, und beide beriefen sich auf eine Einsicht, die sie nicht aus Schulen bezogen. Ablass blieb als sexuelle Eins bei der Eifersucht des Einzelnen, Gröning als soziale Eins bei der Masse.</p>
@@ -3633,7 +3633,7 @@ export function joelGoldsmithPortraitPage() {
           <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Sieben bleibt selten an einem Ort: Goldsmith zog von New York über Boston nach Kalifornien und Hawaii, reiste später weltweit und starb im Hotel auf einer Reise. Außerdem sind die biografischen Quellen weitgehend aus seinem eigenen Kreis, und seine Schilderungen seines spirituellen Durchbruchs 1928 fielen in verschiedenen Berichten unterschiedlich aus. Dass seine Schilderungen auseinandergehen, lässt sich mit dem Hang der Sieben in Verbindung bringen, die angenehmere Fassung zu erzählen.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Zwei Formen von Nähe: Goldsmith, King und Gröning</h2>
+        <h2 class="vb-section">6. Drei Formen von Nähe: Goldsmith, King und Gröning</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-larry-king">Larry King</a> (SE7w6) verbindet Goldsmith der Subtyp: Beide schufen Nähe als Beruf, King im Fernsehinterview, Goldsmith in der Stille des Unterrichts, und beide verbanden das Offene mit einem festen, verlässlichen Rhythmus. Der Unterschied liegt im Ort: King trat vor Millionen auf, Goldsmith blieb im kleinen Kreis.</p>
           <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-bruno-groening">Bruno Gröning</a> (SO1w2) sprach Menschen in Not an, aber er baute eine Organisation mit Gröning-Bund und Auftritten vor Massen auf und geriet mit den Behörden in Konflikt. Goldsmith als selbsterhaltende Sieben blieb bei der kleinen, beweglichen Form ohne Organisation und ohne den Anspruch, die Ordnung der Gemeinschaft zu verändern.</p>
@@ -3699,7 +3699,7 @@ export function mariaTrebenPortraitPage() {
           <p class="vb-intro">Der Schatten gehört zum selben Muster. Ihre Bücher stießen auf Kritik: Die Stiftung Warentest bezweifelte ihre Sachkunde und bewertete einzelne Rezepte, etwa mit Schöllkraut, als gefährlich, und die Universitätsklinik Freiburg warnte davor, gut operable Tumoren zuerst mit Kräutern zu behandeln. Die Wirksamkeit ihrer Empfehlungen sei nicht nachgewiesen, lautet der Tenor dieser Kritik. Das lässt sich mit der Neigung einer Neun in Verbindung bringen, Zweifel an ihrem Nutzen für die Gemeinschaft schwer an sich heranzulassen. Zu den weniger bekannten Fakten gehört außerdem, dass sie am 18. Januar 1939 die Aufnahme in die NSDAP beantragte und rückwirkend zum 1. Dezember 1938 aufgenommen wurde, was in populären Darstellungen oft fehlt. Ihr Mann starb 1988, sie selbst am 26. Juli 1991 in Grieskirchen.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Zwei soziale Neuner im Dienst anderer</h2>
+        <h2 class="vb-section">6. Drei im Dienst anderer: Treben, Roosevelt und Gröning</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-eleanor-roosevelt">Eleanor Roosevelt</a> (SO9w1) verbindet Treben der Subtyp: Beide stellten ihr Wissen und ihre Bekanntheit in den Dienst anderer, beide trugen den Pflichtgedanken des Einserflügels in ihre Arbeit.</p>
           <p class="vb-intro">Eine andere Linie führt zu <a href="javascript:void(0)" data-route="beruehmte-bruno-groening">Bruno Gröning</a> (SO1w2), der ebenfalls in der Nachkriegszeit Menschen in Not ansprach. Gröning trat als Heilungsprediger vor Massen auf und baute eine Organisation auf, Treben blieb als soziale Neun bei der leisen, alltäglichen Form: ein Buch auf dem Küchentisch statt einer Bühne.</p>
@@ -3831,7 +3831,7 @@ export function jensRiewaPortraitPage() {
           <p class="vb-intro">Der Schatten gehört zum selben Muster. Wer als Sprecher so zurückhaltend ist, bleibt als Person schwer zu greifen. Sein Privatleben hält Riewa weitgehend aus der Öffentlichkeit heraus, und die Grenze verteidigt er notfalls auch rechtlich. Die Neun neigt dazu, sich hinter der Rolle zu verbergen, und das lässt sich hier mit der Zurückhaltung in Verbindung bringen, die die Rolle verlangt.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Zwei Gesichter der Verlässlichkeit: Riewa, Hanks und Will</h2>
+        <h2 class="vb-section">6. Drei Gesichter der Verlässlichkeit: Riewa, Hanks und Will</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-tom-hanks">Tom Hanks</a> (SO9w1) verbindet Riewa der Subtyp: Beide stehen für Verlässlichkeit, beide wirken auf das Publikum beruhigend, und beide verbinden eine ruhige Grundhaltung mit dem Einserflügel, der auf Qualität achtet. Hanks tut es als Schauspieler, Riewa als Stimme der Nachrichten.</p>
           <p class="vb-intro">Als Gegenbild eignet sich <a href="javascript:void(0)" data-route="beruehmte-anne-will">Anne Will</a> (SE1w2): Auch sie moderierte für die ARD, aber als selbsterhaltende Eins mit Zweierflügel stand bei ihr die genaue, nachfragende Auseinandersetzung im Vordergrund, bei Riewa als sozialer Neun steht das ruhige Dasein für die Gemeinschaft.</p>
@@ -3897,7 +3897,7 @@ export function marleenLohsePortraitPage() {
           <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Vier mit Dreierflügel misst sich schnell an der Wirkung: Wer in mehreren Feldern auftritt, steht in jedem im Vergleich, und der Wunsch, ganz gesehen zu werden, kann in Dauerdruck umschlagen. Aus den veröffentlichten Quellen lässt sich dazu nichts Persönliches ablesen; das ist hier nur das Muster des Subtyps.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Zwei sexuelle Vierer mit Dreierflügel: Lohse, Kaulitz und Eilish</h2>
+        <h2 class="vb-section">6. Drei sexuelle Vierer mit Dreierflügel: Lohse, Kaulitz und Eilish</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-bill-kaulitz">Bill Kaulitz</a> (SX4w3) verbindet Lohse der Subtyp: Beide kamen früh vor ein Publikum und verwandelten ihre Eigenheit in Ausdruck, Kaulitz in die Bühnenfigur eines Frontmanns, Lohse in die Vielfalt der Rollen. Bei Kaulitz ist die Intensität laut und sichtbar, bei Lohse zeigt sie sich leiser, in der Genauigkeit der Darstellung.</p>
           <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-billie-eilish">Billie Eilish</a> (SX4w3) kam jung zur Bühne und bleibt dem eigenen Ausdruck treu. Wie bei Lohse kommt die Musik als Weg dazu, das Innere in eine eigene Stimme zu bringen.</p>
@@ -3963,7 +3963,7 @@ export function andreaSawatzkiPortraitPage() {
           <p class="vb-intro">Der Schatten gehört zum selben Muster. Wer so viel von sich in den Ausdruck legt, steht im Vergleich: mit anderen Autorinnen, mit anderen Schauspielerinnen und mit dem eigenen Anspruch. Über Belastungen dahinter geben die öffentlichen Quellen wenig her, und das Porträt will dazu nichts erfinden.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Zwei sexuelle Vierer mit Dreierflügel: Sawatzki, Lohse und Rojinski</h2>
+        <h2 class="vb-section">6. Drei sexuelle Vierer mit Dreierflügel: Sawatzki, Lohse und Rojinski</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-marleen-lohse">Marleen Lohse</a> (SX4w3) verbindet Sawatzki der Subtyp und die Doppelrolle als Schauspielerin und Autorin: Beide schreiben auch selbst, beide geben ihrem Innenleben neben den Rollen noch eine eigene Form. Bei Lohse kommt als weiterer Schritt die Musik dazu, bei Sawatzki das Buch.</p>
           <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-palina-rojinski">Palina Rojinski</a> (SX4w3) teilt sie die Fähigkeit, Komisches und Persönliches zu verbinden und Fernsehpublikum zu erreichen. Rojinski tut es mit Spiel und Moderation, Sawatzki mit Rolle und Roman.</p>
@@ -4029,7 +4029,7 @@ export function sentaBergerPortraitPage() {
           <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Vier mit Dreierflügel misst sich an Wirkung und Anerkennung, und ein Leben im Rampenlicht verlangt, auch bei Rückschlägen Haltung zu zeigen. Wie sie persönlich damit umgeht, geben die veröffentlichten Quellen nicht her, und das Porträt will dazu nichts erfinden.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Zwei Schauspielerinnen, zwei Wege: Berger, Sawatzki und Schneider</h2>
+        <h2 class="vb-section">6. Drei Schauspielerinnen, zwei Subtypen: Berger, Sawatzki und Schneider</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-andrea-sawatzki">Andrea Sawatzki</a> (SX4w3) verbindet Berger der Subtyp und die Fähigkeit, Ernstes und Komisches zu verbinden und über Jahrzehnte im deutschen Fernsehen präsent zu sein. Beide sind mehr als Darstellerinnen: Berger als Produzentin und Akademiepräsidentin, Sawatzki als Autorin.</p>
           <p class="vb-intro">Als Gegenbild eignet sich <a href="javascript:void(0)" data-route="beruehmte-romy-schneider">Romy Schneider</a> (SO4w3), ebenfalls ein österreichischer Filmstar. Schneider als soziale Vier trug ihre Empfindsamkeit hinter einem Panzer und litt am Bild, das die Öffentlichkeit von ihr hatte; Berger als sexuelle Vier setzte ihre Intensität in Entscheidungen um, ging weg, gründete, gestaltete.</p>
@@ -4095,7 +4095,7 @@ export function robertGreenePortraitPage() {
           <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Sunday Times bezeichnete ›The 48 Laws of Power‹ als ›Bibel‹ des Hollywood-Intrigantentums, und The Independent äußerte Zweifel, ob Greene selbst an seine Thesen glaubt oder sie als Verkaufsmasche nutzt. Wer Gesetzmäßigkeiten des Verhaltens so scharf fasst, riskiert, dass sie als Gebrauchsanweisung gelesen werden. 2018 erlitt er nach eigener Aussage einen schweren Schlaganfall durch ein Blutgerinnsel im Hals, bei dem sein linker Arm und sein linkes Bein zeitweise kaum nutzbar waren; die Ärzte erwarteten laut seinem Beitrag eine vollständige Genesung nach einigen Monaten Rehabilitation.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Zwei Beobachter der Macht: Greene, Foucault und Beuys</h2>
+        <h2 class="vb-section">6. Drei Beobachter der Macht: Greene, Foucault und Beuys</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-michel-foucault">Michel Foucault</a> (SX1w9) verbindet Greene der Subtyp und das Thema: Beide untersuchen, wie Macht funktioniert. Foucault tat es als Philosoph mit begrifflicher Strenge, Greene als Autor mit Beispielen und Regeln, und beide wollten die verborgenen Mechanismen sichtbar machen.</p>
           <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-joseph-beuys">Joseph Beuys</a> (SX1w9) zeigt den Eifer der sexuellen Eins, aus Beobachtung eine Botschaft zu machen. Bei Beuys wurde sie Kunst, bei Greene wurde sie ein Regelwerk.</p>
