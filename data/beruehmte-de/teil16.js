@@ -3983,3 +3983,69 @@ export function andreaSawatzkiPortraitPage() {
     </div>
   `);
 }
+
+export function sentaBergerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-senta-berger-portrait.jpg" alt="Senta Berger – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-senta-berger-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Susan Polgar</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Österreichisch-deutsche Schauspielerin und Produzentin, geb. 1941 in Wien &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua, der sich nicht klein machen lässt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Chihuahua nimmt sich Raum, der ihm nach seiner Größe nicht zustünde, und er wird laut, wenn jemand ihn kleinhalten will. Er ist wach, mutig und empfindsam zugleich. Das ist das Bild der sexuellen Vier: Sie lässt sich nicht in eine Rolle pressen, die andere für sie vorgesehen haben.</p>
+          <p class="vb-intro">Senta Berger wurde am 13. Mai 1941 in Wien als Senta Verhoeven geboren und wuchs in Lainz auf. Ihr Vater Josef Berger war Musiker, Komponist und Dirigent, und die Eltern führten außerdem einen metallverarbeitenden Familienbetrieb. Sie erhielt früh Tanzunterricht, begann mit sechzehn ein Schauspielstudium am Max Reinhardt Seminar und musste es verlassen, weil sie ohne Erlaubnis eine Rolle im US-Film ›Die Reise‹ (1959) angenommen hatte. 1957 hatte sie ihre erste Filmrolle in ›Die unentschuldigte Stunde‹, 1958 wurde sie jüngstes Mitglied des Theaters in der Josefstadt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Der Mut, zu gehen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> trägt den Schmerz der Vier in unmittelbare persönliche Intensität. Naranjo nannte diesen Subtyp <em>Rivalität</em>: das Gefühl, dass andere haben, was einem selbst fehlt, und der Impuls, sich zu messen und aufzufallen. Bei Berger zeigt sich das als Mut, eine Chance gegen die Regeln zu ergreifen. Mit sechzehn nahm sie die Rolle in ›Die Reise‹ an, obwohl sie ihr Studium deshalb verließ, und sie ging ab 1962 nach Hollywood, wo sie unter anderem mit Charlton Heston und Frank Sinatra arbeitete.</p>
+          <p class="vb-intro">Dieselbe Eigenwilligkeit zeigt sich im Gesellschaftlichen: 1971 beteiligte sie sich an der Aktion ›Wir haben abgetrieben!‹. Die sexuelle Vier legt ihr Eigenes offen, auch dort, wo es Widerspruch gibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Vom Star zur Produzentin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel</strong> gibt der sexuellen Vier die Fähigkeit, das Innere nach außen zu wenden und in Wirkung zu verwandeln. Bei einem schwach ausgeprägten Dreierflügel bliebe die Vier im eigenen Gefühl. Bei Berger ist er stark ausgeprägt: Sie gründete 1965 mit Sentana ihre eigene Produktionsfirma, die unter anderem ›Die weiße Rose‹ und ›Das schreckliche Mädchen‹ produzierte, und wurde 2003 Gründungsmitglied und bis 2010 erste Präsidentin der Deutschen Filmakademie, gemeinsam mit Günter Rohrbach.</p>
+          <p class="vb-intro">Das ist die Drei im Flügel: Aus der Darstellerin wird eine Gestalterin, die Strukturen für andere schafft. Sie engagiert sich außerdem als Botschafterin für Pro Wildlife und die José Carreras Leukämie-Stiftung und unterstützt die DKMS.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Sechs Jahrzehnte Filmgeschichte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Berger arbeitet seit den späten 1950er-Jahren im Film. Artur Brauner engagierte sie für mehrere Produktionen, darunter ›Der brave Soldat Schwejk‹ (1960), in den 1970er-Jahren spielte sie vor allem in italienischen Produktionen, und von 1974 bis 1982 war sie bei den Salzburger Festspielen die Buhlschaft im ›Jedermann‹. Ab 1985 folgten Hauptrollen im Fernsehen, etwa in ›Kir Royal‹, ›Die schnelle Gerdi‹ und ›Sie und Er‹ (1992), und von 2002 bis 2019 spielte sie in der ZDF-Reihe ›Unter Verdacht‹.</p>
+          <p class="vb-intro">Ihr größter Kinoerfolg ist ›Willkommen bei den Hartmanns‹ (2016) unter der Regie ihres Sohnes Simon Verhoeven. Die Auszeichnungen spiegeln die Dauer: Bambi (1968, 1990, 1999 und 2023 für das Lebenswerk), Goldene Romy, Bundesverdienstkreuz erster Klasse (1999), Deutscher Fernsehpreis (2009), Goldene Kamera und Adolf-Grimme-Preis (2010), Ehrenpreis des Deutschen Filmpreises (2021) und, laut Wikipedia, 2026 der Deutsche Filmpreis als beste Hauptdarstellerin. Dazu kommt ihr Buch ›Ich habe ja gewusst, dass ich fliegen kann‹ (2006).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Vier mit Dreierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Beständigkeit des Mutes. Wer als Jugendliche eine Chance gegen die Regeln ergreift und über sechzig Jahre im Geschäft bleibt, behält offenbar etwas von dieser Kraft. Das passt zu einer sexuellen Vier, die ihr Eigenes nicht aufgibt.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Vier mit Dreierflügel misst sich an Wirkung und Anerkennung, und ein Leben im Rampenlicht verlangt, auch bei Rückschlägen Haltung zu zeigen. Wie sie persönlich damit umgeht, geben die veröffentlichten Quellen nicht her, und das Porträt will dazu nichts erfinden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Schauspielerinnen, zwei Wege: Berger, Sawatzki und Schneider</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-andrea-sawatzki">Andrea Sawatzki</a> (SX4w3) verbindet Berger der Subtyp und die Fähigkeit, Ernstes und Komisches zu verbinden und über Jahrzehnte im deutschen Fernsehen präsent zu sein. Beide sind mehr als Darstellerinnen: Berger als Produzentin und Akademiepräsidentin, Sawatzki als Autorin.</p>
+          <p class="vb-intro">Als Gegenbild eignet sich <a href="javascript:void(0)" data-route="beruehmte-romy-schneider">Romy Schneider</a> (SO4w3), ebenfalls ein österreichischer Filmstar. Schneider als soziale Vier trug ihre Empfindsamkeit hinter einem Panzer und litt am Bild, das die Öffentlichkeit von ihr hatte; Berger als sexuelle Vier setzte ihre Intensität in Entscheidungen um, ging weg, gründete, gestaltete.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx4", label:"Lebensmusterkompass: SX4 – Chihuahua"},
+        {route:"beruehmte-andrea-sawatzki", label:"Porträt: Andrea Sawatzki (SX4w3) – Schauspielerin, derselbe Subtyp"},
+        {route:"beruehmte-romy-schneider", label:"Porträt: Romy Schneider (SO4w3) – österreichischer Filmstar, anderer Subtyp"},
+      ])}
+    </div>
+  `);
+}

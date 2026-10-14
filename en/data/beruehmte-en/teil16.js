@@ -3978,3 +3978,69 @@ export function andreaSawatzkiPortraitPage() {
     </div>
   `);
 }
+
+export function sentaBergerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-senta-berger-portrait.jpg" alt="Senta Berger – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-senta-berger-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Susan Polgar</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with a Three-Wing</p>
+        <p class="krim-portrait-subtitle">Austrian-German actress and producer, b. 1941 in Vienna &ndash; Animal match: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua That Will Not Be Made Small</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Chihuahua takes space that its size would not entitle it to, and it gets loud when someone wants to keep it small. It is alert, brave and sensitive at once. That is the image of the sexual Four: she will not be pressed into a role that others have intended for her.</p>
+          <p class="vb-intro">Senta Berger was born on 13 May 1941 in Vienna as Senta Verhoeven and grew up in Lainz. Her father Josef Berger was a musician, composer and conductor, and her parents also ran a metalworking family business. She had dance lessons early, began studying drama at sixteen at the Max Reinhardt Seminar and had to leave it because she had accepted, without permission, a role in the US film 'Die Reise' ('The Journey', 1959). In 1957 she had her first film role in 'Die unentschuldigte Stunde', and in 1958 she became the youngest member of the Theater in der Josefstadt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Four: The Courage to Go</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Four (SX4)</strong> carries the Four's pain into immediate personal intensity. Naranjo called this subtype <em>Competition</em>: the feeling that others have what one lacks oneself, and the impulse to measure oneself and stand out. In Berger this shows as the courage to seize a chance against the rules. At sixteen she accepted the role in 'Die Reise' although she left her studies because of it, and from 1962 she went to Hollywood, where she worked with Charlton Heston and Frank Sinatra, among others.</p>
+          <p class="vb-intro">The same wilfulness shows in the social sphere: in 1971 she took part in the campaign 'Wir haben abgetrieben!' ('We Had Abortions!'). The sexual Four lays her own self open, even where there is opposition.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Star to Producer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing</strong> gives the sexual Four the ability to turn the inner outward and into impact. With a weakly developed Three-wing the Four would stay in her own feeling. In Berger it is strongly developed: in 1965 she founded her own production company, Sentana, which produced 'Die weiße Rose' ('The White Rose') and 'Das schreckliche Mädchen' ('The Nasty Girl'), among others, and in 2003 she became a founding member and until 2010 the first president of the German Film Academy, together with Günter Rohrbach.</p>
+          <p class="vb-intro">That is the Three in the wing: the performer becomes a shaper who creates structures for others. She also serves as ambassador for Pro Wildlife and the José Carreras Leukaemia Foundation and supports the DKMS.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Six Decades of Film History</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Berger has worked in film since the late 1950s. Artur Brauner engaged her for several productions, including 'Der brave Soldat Schwejk' (1960), in the 1970s she played mostly in Italian productions, and from 1974 to 1982 she was the Buhlschaft in 'Jedermann' at the Salzburg Festival. From 1985 came lead roles on television, such as 'Kir Royal', 'Die schnelle Gerdi' and 'Sie und Er' (1992), and from 2002 to 2019 she played in the ZDF series 'Unter Verdacht'.</p>
+          <p class="vb-intro">Her greatest cinema success is 'Willkommen bei den Hartmanns' ('Welcome to Germany', 2016) directed by her son Simon Verhoeven. The awards reflect the duration: Bambi (1968, 1990, 1999 and 2023 for lifetime achievement), Goldene Romy, Federal Cross of Merit first class (1999), Deutscher Fernsehpreis (2009), Goldene Kamera and Adolf Grimme Award (2010), honorary prize of the Deutscher Filmpreis (2021) and, according to Wikipedia, in 2026 the Deutscher Filmpreis as best leading actress. In addition there is her book 'Ich habe ja gewusst, dass ich fliegen kann' ('I Knew I Could Fly', 2006).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Four with a Three-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the steadiness of courage. Whoever as a teenager seizes a chance against the rules and stays in the business for over sixty years evidently keeps something of this strength. That suits a sexual Four who does not give up her own.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. The Four with a Three-wing measures herself by impact and recognition, and a life in the spotlight demands keeping composure even through setbacks. How she personally deals with that the published sources do not say, and this portrait does not want to invent anything about it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Actresses, Two Paths: Berger, Sawatzki and Schneider</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-andrea-sawatzki">Andrea Sawatzki</a> (SX4w3), Berger shares the subtype and the ability to join the serious and the comic and to be present in German television for decades. Both are more than performers: Berger as producer and academy president, Sawatzki as author.</p>
+          <p class="vb-intro">A counter-image is <a href="javascript:void(0)" data-route="beruehmte-romy-schneider">Romy Schneider</a> (SO4w3), likewise an Austrian film star. Schneider as a social Four carried her sensitivity behind a shell and suffered from the image the public had of her; Berger as a sexual Four put her intensity into decisions, went away, founded, shaped.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"lebensmusterkompass/sx4", label:"Life Pattern Compass: SX4 – Chihuahua"},
+        {route:"beruehmte-andrea-sawatzki", label:"Portrait: Andrea Sawatzki (SX4w3) – actress, same subtype"},
+        {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3) – Austrian film star, different subtype"},
+      ])}
+    </div>
+  `);
+}
