@@ -3756,7 +3756,7 @@ export function susanPolgarPortraitPage() {
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three with a Two-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in the union of achievement and passing it on. In 2019 Polgár was inducted into the U.S. Chess Hall of Fame, in 2023 into the World Chess Hall of Fame. Both honour not only the games but also what she built up for chess in the United States.</p>
+          <p class="vb-intro">The light lies in the union of achievement and passing it on. In 2019 Polgár was inducted into the U.S. Chess Hall of Fame, in 2023 into the World Chess Hall of Fame. Both honour not only the games but also her work for chess in the United States: the foundation for girls' chess, the institute at Webster University and the years as a coach.</p>
           <p class="vb-intro">The shadow belongs to the same pattern. In 1999 the world chess federation FIDE stripped her of the world championship title because she did not agree to the conditions of the title match. The self-preservation Three holds to her conditions when she believes them right, and that can cost achievement that might have been won by other routes. The sources on the Olympiad medals vary, naming eleven or twelve.</p>
         </blockquote>
 

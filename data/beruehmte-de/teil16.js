@@ -3761,7 +3761,7 @@ export function susanPolgarPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei mit Zweierflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Verbindung von Leistung und Weitergabe. 2019 wurde Polgár in die U.S. Chess Hall of Fame aufgenommen, 2023 in die World Chess Hall of Fame. Beides würdigt nicht nur die Partien, sondern auch das, was sie für das Schach in den USA aufgebaut hat.</p>
+          <p class="vb-intro">Das Licht liegt in der Verbindung von Leistung und Weitergabe. 2019 wurde Polgár in die U.S. Chess Hall of Fame aufgenommen, 2023 in die World Chess Hall of Fame. Beides würdigt nicht nur die Partien, sondern auch ihr Wirken für das Schach in den USA: die Stiftung für das Mädchenschach, das Institut an der Webster University und die Jahre als Trainerin.</p>
           <p class="vb-intro">Der Schatten gehört zum selben Muster. 1999 entzog der Weltschachbund FIDE ihr den Weltmeistertitel, weil sie sich nicht auf die Bedingungen des Kampfes um den Titel einigte. Die selbsterhaltende Drei hält an ihren Bedingungen fest, wenn sie diese für richtig hält, und das kann Leistung kosten, die auf anderen Wegen zu holen gewesen wäre. Die Quellenlage zu den Olympiade-Medaillen schwankt, sie nennen elf oder zwölf.</p>
         </blockquote>
 
