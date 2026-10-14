@@ -3582,3 +3582,69 @@ export function brunoGroeningPortraitPage() {
     </div>
   `);
 }
+
+export function joelGoldsmithPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joel-goldsmith-portrait.jpg" alt="Joel S. Goldsmith – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-joel-goldsmith-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Joel S. Goldsmith</p>
+        <p class="krim-portrait-typ">SE7w6 &middot; Self-Preservation Type 7 with a Six-Wing</p>
+        <p class="krim-portrait-subtitle">American spiritual teacher and healer, 1892&ndash;1964 &ndash; Animal match: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Gorilla Around Whom a Circle Forms</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The gorilla leads not by noise but by calm. Where he sits, a circle forms, and whoever joins takes on the composure of the group. That is the image of the self-preservation Seven: she seeks safety and joy in the familiar circle and builds that circle herself.</p>
+          <p class="vb-intro">Joel S. Goldsmith was born on 10 March 1892 in New York as the first of three children of non-practising Jewish parents. His father was an importer of laces and textiles. Goldsmith attended school only through the eighth grade, served in the Marines in the First World War and afterwards worked in the clothing trade. From 1928, by his accounts, strangers asked him for prayer and healing. He gradually gave up his business, became a spiritual healer and teacher, and out of his letters to patients and students created the work 'The Infinite Way'. He died in 1964 on a trip to London.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Family: A Circle Without an Organisation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the self-preservation Seven the <strong>Family</strong>: safety and joy arise in the closest circle, in the familiar conversation, not in the large institution. In Goldsmith this showed in that he gathered a circle of students around his teaching but founded no church. According to the accounts there were no rituals, no dogma and no ceremonies with him, and he rejected a fixed organisation.</p>
+          <p class="vb-intro">From the 1940s he taught first in New England, then on the West Coast, finally in Hawaii, where at first he held classes in his own home. Demand made him travel and lecture. The structure remained small and personal: an office that kept books and recordings available, and people who came because they wanted to hear him themselves.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Reliability in Everyday Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> gives the self-preservation Seven a reliable framework. With a weakly developed Six-wing the Seven would stay mobile and changeable. In Goldsmith it was strongly developed: his teaching rests on regularity. He recommended 'contemplative meditation' in short, frequent sessions spread through the day instead of one long practice.</p>
+          <p class="vb-intro">The reliability also shows externally: in 1951 he set up the Infinite Way Office so that students would always have access to authentic material. Letters became books, lectures became tape recordings that later also became books. That is the Six side of the Seven: the open gets a fixed form one can rely on.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: A Teaching of Stillness and Meditation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At the centre of Goldsmith's teaching is conscious contact with God, which he sought in inner stillness, in which, by his account, the 'still small voice' becomes audible. He understood spiritual healing as a consequence of this contact, not as a technique. This portrait does not assess these ideas of healing but describes the person and the pattern.</p>
+          <p class="vb-intro">His reach can be read from the size of the work: there are over fifty books and more than 1,300 hours of recorded teaching. A first book, 'The Infinite Way', appeared according to the sources in 1947 or 1948 through self-publishing. Collaborators such as Lorraine Sinkler and her sister Valborg edited many of the later books. This collaboration shows a typical Seven trait: he created a large body of work by bringing others on board.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Seven with a Six-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the freedom Goldsmith left his students. Whoever came to him received no membership and no creed but a practice that he could carry on alone. That suits a Seven who understands attachment not as compulsion but as a free connection.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. The Seven rarely stays in one place: Goldsmith moved from New York via Boston to California and Hawaii, later travelled worldwide and died in a hotel on a trip. In addition the biographical sources largely come from his own circle, and his accounts of his spiritual breakthrough in 1928 differed in various reports. That his accounts diverge can be linked to the Seven's tendency to tell the more pleasant version.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Forms of Closeness: Goldsmith, King and Gröning</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-larry-king">Larry King</a> (SE7w6), Goldsmith shares the subtype: both created closeness as a profession, King in the television interview, Goldsmith in the stillness of teaching, and both joined the open with a fixed, reliable rhythm. The difference lies in the place: King appeared before millions, Goldsmith stayed in the small circle.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-bruno-groening">Bruno Gröning</a> (SO1w2) also addressed people in need, but he built an organisation with the Gröning-Bund and appearances before crowds and came into conflict with the authorities. Goldsmith as a self-preservation Seven stayed with the small, mobile form without organisation and without the claim to change the order of the community.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se7", label:"SE7 – The Gorilla: Subtype Profile"},
+        {route:"lebensmusterkompass/se7", label:"Life Pattern Compass: SE7 – Gorilla"},
+        {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6) – same subtype, closeness as a profession"},
+        {route:"beruehmte-bruno-groening", label:"Portrait: Bruno Gröning (SO1w2) – healing preacher with an organisation of his own"},
+      ])}
+    </div>
+  `);
+}

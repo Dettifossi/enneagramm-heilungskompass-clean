@@ -3587,3 +3587,69 @@ export function brunoGroeningPortraitPage() {
     </div>
   `);
 }
+
+export function joelGoldsmithPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joel-goldsmith-portrait.jpg" alt="Joel S. Goldsmith – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-joel-goldsmith-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Joel S. Goldsmith</p>
+        <p class="krim-portrait-typ">SE7w6 &middot; Selbsterhaltender Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer spiritueller Lehrer und Heiler, 1892&ndash;1964 &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla, um den ein Kreis entsteht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Gorilla führt nicht durch Lärm, sondern durch Ruhe. Wo er sitzt, bildet sich ein Kreis, und wer dazukommt, nimmt die Gelassenheit der Gruppe an. Das ist das Bild der selbsterhaltenden Sieben: Sie sucht Sicherheit und Freude im vertrauten Kreis und baut sich diesen Kreis selbst.</p>
+          <p class="vb-intro">Joel S. Goldsmith wurde am 10. März 1892 in New York als erstes von drei Kindern nicht praktizierender jüdischer Eltern geboren. Sein Vater war Importeur von Spitzen und Textilien. Goldsmith besuchte die Schule nur bis zur achten Klasse, diente im Ersten Weltkrieg bei den Marines und arbeitete danach in der Bekleidungsbranche. Ab 1928 baten ihn nach seinen Schilderungen Fremde um Gebet und Heilung. Er gab sein Geschäft allmählich auf, wurde spiritueller Heiler und Lehrer und gründete aus seinen Briefen an Patienten und Schüler das Werk ›The Infinite Way‹ (›Der unendliche Weg‹). Er starb 1964 auf einer Reise in London.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Familie: Ein Kreis ohne Organisation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die selbsterhaltende Sieben die <strong>Familie</strong>: Sicherheit und Freude entstehen im engsten Kreis, im vertrauten Gespräch, nicht in der großen Institution. Bei Goldsmith zeigte sich das darin, dass er um seine Lehre einen Kreis von Schülern versammelte, aber keine Kirche gründete. Nach den Darstellungen gab es bei ihm keine Rituale, kein Dogma und keine Zeremonien, und er lehnte eine feste Organisation ab.</p>
+          <p class="vb-intro">Ab den 1940er-Jahren lehrte er zunächst in Neuengland, dann an der Westküste, schließlich auf Hawaii, wo er anfangs Kurse in seinem eigenen Haus hielt. Die Nachfrage ließ ihn reisen und Vorträge halten. Die Struktur blieb dabei klein und persönlich: ein Büro, das Bücher und Aufnahmen bereithielt, und Menschen, die kamen, weil sie ihn selbst hören wollten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Verlässlichkeit im Alltag</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> gibt der selbsterhaltenden Sieben ein verlässliches Gerüst. Bei einem schwach ausgeprägten Sechserflügel bliebe die Sieben beweglich und wechselhaft. Bei Goldsmith war er stark ausgeprägt: Seine Lehre ruht auf Regelmäßigkeit. Er empfahl das ›kontemplative Meditieren‹ in kurzen, häufigen Sitzungen über den ganzen Tag verteilt, statt in einer langen Übung.</p>
+          <p class="vb-intro">Auch äußerlich zeigt sich die Verlässlichkeit: 1951 richtete er das Infinite Way Office ein, damit Schüler jederzeit Zugang zu echtem Material haben. Aus Briefen wurden Bücher, aus Vorträgen Tonaufnahmen, die später ebenfalls zu Büchern wurden. Das ist die Sechser-Seite der Sieben: Das Offene bekommt eine feste Form, auf die man sich verlassen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Eine Lehre aus Stille und Meditation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Mittelpunkt von Goldsmiths Lehre steht der bewusste Kontakt mit Gott, den er in der inneren Stille suchte, in der sich nach seiner Darstellung die ›leise innere Stimme‹ hörbar macht. Spirituelle Heilung verstand er als Folge dieses Kontakts, nicht als Technik. Das Porträt bewertet diese Heilungsvorstellungen nicht, sondern beschreibt die Person und ihr Muster.</p>
+          <p class="vb-intro">Seine Wirkung lässt sich am Umfang des Werks ablesen: Es gibt über fünfzig Bücher und mehr als 1.300 Stunden aufgezeichneten Unterrichts. Ein erstes Buch, ›The Infinite Way‹, erschien nach den Angaben 1947 oder 1948 im Selbstverlag. Mitarbeiterinnen wie Lorraine Sinkler und ihre Schwester Valborg redigierten viele der späteren Bücher. Diese Zusammenarbeit zeigt eine typische Sieben-Eigenschaft: Er schuf ein großes Werk, indem er andere ins Boot holte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Freiheit, die Goldsmith seinen Schülern ließ. Wer zu ihm kam, bekam keine Mitgliedschaft und kein Glaubensbekenntnis, sondern eine Übung, die er für sich allein weiterführen konnte. Das passt zu einer Sieben, die Bindung nicht als Zwang, sondern als freie Verbindung versteht.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Sieben bleibt selten an einem Ort: Goldsmith zog von New York über Boston nach Kalifornien und Hawaii, reiste später weltweit und starb im Hotel auf einer Reise. Außerdem sind die biografischen Quellen weitgehend aus seinem eigenen Kreis, und seine Schilderungen seines spirituellen Durchbruchs 1928 fielen in verschiedenen Berichten unterschiedlich aus. Dass seine Schilderungen auseinandergehen, lässt sich mit dem Hang der Sieben in Verbindung bringen, die angenehmere Fassung zu erzählen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Formen von Nähe: Goldsmith, King und Gröning</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-larry-king">Larry King</a> (SE7w6) verbindet Goldsmith der Subtyp: Beide schufen Nähe als Beruf, King im Fernsehinterview, Goldsmith in der Stille des Unterrichts, und beide verbanden das Offene mit einem festen, verlässlichen Rhythmus. Der Unterschied liegt im Ort: King trat vor Millionen auf, Goldsmith blieb im kleinen Kreis.</p>
+          <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-bruno-groening">Bruno Gröning</a> (SO1w2) sprach Menschen in Not an, aber er baute eine Organisation mit Gröning-Bund und Auftritten vor Massen auf und geriet mit den Behörden in Konflikt. Goldsmith als selbsterhaltende Sieben blieb bei der kleinen, beweglichen Form ohne Organisation und ohne den Anspruch, die Ordnung der Gemeinschaft zu verändern.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se7", label:"Lebensmusterkompass: SE7 – Gorilla"},
+        {route:"beruehmte-larry-king", label:"Porträt: Larry King (SE7w6) – derselbe Subtyp, Nähe als Beruf"},
+        {route:"beruehmte-bruno-groening", label:"Porträt: Bruno Gröning (SO1w2) – Heilungsprediger mit eigener Organisation"},
+      ])}
+    </div>
+  `);
+}
