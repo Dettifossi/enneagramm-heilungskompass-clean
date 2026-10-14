@@ -3765,9 +3765,9 @@ export function susanPolgarPortraitPage() {
           <p class="vb-intro">Der Schatten gehört zum selben Muster. 1999 entzog der Weltschachbund FIDE ihr den Weltmeistertitel, weil sie sich nicht auf die Bedingungen des Kampfes um den Titel einigte. Die selbsterhaltende Drei hält an ihren Bedingungen fest, wenn sie diese für richtig hält, und das kann Leistung kosten, die auf anderen Wegen zu holen gewesen wäre. Die Quellenlage zu den Olympiade-Medaillen schwankt, sie nennen elf oder zwölf.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Zwei Schwestern, ein Subtyp: Susan, Judit und die Leistung</h2>
+        <h2 class="vb-section">6. Drei Schwestern und die Leistung: Susan, Judit und Sofia</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Mit ihrer jüngeren Schwester <a href="javascript:void(0)" data-route="beruehmte-judit-polgar">Judit Polgár</a> (SE3w4) teilt Susan den Subtyp und dasselbe Elternhaus, aber der Flügel unterscheidet sich: Judit mit dem Viererflügel geht eher ins Individuelle und Künstlerische ihres Spiels, Susan mit dem Zweierflügel ins Weitergeben und Fördern. Beide Schwestern zeigen, wie derselbe Subtyp unter gleichen Bedingungen zwei verschiedene Handschriften entwickeln kann.</p>
+          <p class="vb-intro">Mit ihrer jüngeren Schwester <a href="javascript:void(0)" data-route="beruehmte-judit-polgar">Judit Polgár</a> (SE3w4) teilt Susan den Subtyp und dasselbe Elternhaus, aber der Flügel unterscheidet sich: Judit mit dem Viererflügel geht eher ins Individuelle und Künstlerische ihres Spiels, Susan mit dem Zweierflügel ins Weitergeben und Fördern. Beide Schwestern zeigen, wie derselbe Subtyp unter gleichen Bedingungen zwei verschiedene Handschriften entwickeln kann. Die mittlere Schwester <a href="javascript:void(0)" data-route="beruehmte-sofia-polgar">Sofia Polgár</a> (SE7w6) ging bei gleicher Erziehung einen dritten Weg: Sie wandte sich von den Turnieren der Kunst zu.</p>
           <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-andre-agassi">Andre Agassi</a> (SE3w2) verbindet Leistung und Weitergabe: Wie Polgár kam er aus einem strengen, vom Vater geprägten Training und gründete später Einrichtungen für Bildung. Beide machten aus dem, was sie als Kind erlitten oder gelernt hatten, einen Dienst an anderen.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -3781,6 +3781,7 @@ export function susanPolgarPortraitPage() {
         {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
         {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4) – Schwester, derselbe Subtyp mit anderem Flügel"},
         {route:"beruehmte-andre-agassi", label:"Porträt: Andre Agassi (SE3w2) – Leistungssportler, später Förderer der Bildung"},
+        {route:"beruehmte-sofia-polgar", label:"Porträt: Sofia Polgár (SE7w6) – mittlere Schwester, anderer Subtyp"},
       ])}
     </div>
   `);
@@ -4111,6 +4112,73 @@ export function robertGreenePortraitPage() {
         {route:"lebensmusterkompass/sx1", label:"Lebensmusterkompass: SX1 – Schwarze Mamba"},
         {route:"beruehmte-michel-foucault", label:"Porträt: Michel Foucault (SX1w9) – derselbe Subtyp, Macht als Gegenstand des Denkens"},
         {route:"beruehmte-joseph-beuys", label:"Porträt: Joseph Beuys (SX1w9) – derselbe Subtyp, Sendungsbewusstsein"},
+      ])}
+    </div>
+  `);
+}
+
+export function sofiaPolgarPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sofia-polgar-portrait.jpg" alt="Sofia Polgár – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-sofia-polgar-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Sofia Polgár</p>
+        <p class="krim-portrait-typ">SE7w6 &middot; Selbsterhaltender Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Ungarisch-israelische Schach-Internationale-Meisterin und Malerin, geb. 1974 in Budapest &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla, der sich den Kreis selbst wählt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Gorilla lebt in der Gruppe, aber er bestimmt nicht, was die Gruppe tut. Er hat seinen Platz und genießt ihn, und wenn ihm etwas nicht mehr liegt, geht er seinen Weg. Das ist das Bild der selbsterhaltenden Sieben: Sicherheit und Freude entstehen im selbst gewählten Kreis, und wo es eng wird, öffnet sie sich ein anderes Feld.</p>
+          <p class="vb-intro">Sofia Polgár wurde am 2. November 1974 in Budapest in eine jüdische Familie geboren, als mittlere der drei Polgár-Schwestern. Ihr Vater László führte mit ihr und ihren Schwestern Susan und Judit ein Bildungsexperiment durch, in dem Schach das Spezialgebiet war. Die Mädchen wurden zu Hause unterrichtet und lernten auch Esperanto. Sofia wurde 1986 Weltmeisterin der Mädchen unter vierzehn, nach dem Bericht Zweite bei der Weltmeisterschaft der unter Vierzehnjährigen hinter Joël Lautier.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Familie: Der Kreis aus Schwestern und eigener Familie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die selbsterhaltende Sieben die <strong>Familie</strong>: Sicherheit und Freude entstehen im engsten Kreis. Bei Sofia Polgár war dieser Kreis von Anfang an die Familie, die Schwestern und der Vater, und später ihre eigene: 1999 heiratete sie den israelischen Großmeister Yona Kosashvili und zog nach Israel, und das Paar hat zwei Söhne. Die Familie lebte einige Zeit in Toronto, damit ihr Mann seine medizinische Facharztausbildung absolvieren konnte, und kehrte 2012 nach Israel zurück, wo sie sich nahe Tel Aviv niederließ.</p>
+          <p class="vb-intro">Auch beruflich blieb sie im Kreis: Sie beriet und illustrierte die Schachbuchreihe ›Chess Palace‹ ihrer Schwester Judit, die 2015 in Frankfurt einen Sonderpreis der Best European Learning Materials Awards erhielt. Die selbsterhaltende Sieben baut sich ihr Netz aus Vertrauten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Loyalität und Zusammenarbeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> gibt der selbsterhaltenden Sieben Loyalität und Verlässlichkeit. Bei einem schwach ausgeprägten Sechserflügel bliebe die Sieben unverbindlich und beweglich. Bei Sofia Polgár zeigt er sich in der festen Bindung an die Familie und in der Zusammenarbeit mit der Schwester: Sie ließ sich nicht von der Konkurrenz zwischen den Schwestern bestimmen, sondern arbeitete später für das Schach-Lernen mit Judit zusammen.</p>
+          <p class="vb-intro">Auch in ihrem Werk zeigt sich das: ›My First Chess Club‹ (2020, mit David Cohen) richtet sich an Kinder, die zum ersten Mal an Schach herangeführt werden, und die Illustrationen sind in Aquarell gehalten. Verlässlichkeit trifft Spiel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Eine Meisterin des Angriffs, die zur Malerin wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Schach war ihr nicht nur Beruf, sondern auch Lust am Angriff. 1989, mit vierzehn Jahren, gewann sie ein Turnier in Rom mit 8½ aus 9 Punkten, das als ›Sack of Rome‹ in Erinnerung blieb; nach New in Chess lag ihre Turnierleistung bei 2879. 1990 erhielt sie die Titel Internationale Meisterin und Großmeisterin der Frauen, spielte viermal für Ungarn bei den Olympiaden (1988, 1990, 1994 und 1996) und gewann dabei zwei Mannschaftsgold-, eine Mannschaftssilber-, drei Einzelgold- und eine Einzelbronzemedaille. Ihre höchste FIDE-Wertung betrug 2505 im Juli 1998.</p>
+          <p class="vb-intro">Seit 2003 spielte sie nur noch sehr wenig gewertetes Schach, seit 2010 gar nicht mehr. Statt des Turnierschachs wählte sie die Kunst: Sie malt und illustriert, stellt aus, zum Beispiel ›Balance‹ in der Bibliothek von Kiryat Ono, 2019 die Schau ›Paintings that tell stories‹ und 2020 beim Global Chess Festival ein 3D-Kunstwerk in virtueller Realität mit zehn Schach-Gemälden. 2023 erschien ihre Autobiografie ›Amazing Artist – Dangerous Tactician‹ (›Erstaunliche Künstlerin – gefährliche Taktikerin‹), die Partien und Bilder verbindet, und 2024 das Projekt ›The Missing Player: Chess and Art‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Freude am Spiel. Sofia Polgár machte aus dem Schach, in das sie als Kind hineingeführt wurde, etwas, das ihr gehört: Angriff, Bild, Erzählung. Dass sie sich vom Wettkampfdruck löste und die Kunst wählte, passt zu einer Sieben, die sich Wege offenhält.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Sieben wechselt gern das Feld, bevor es unangenehm wird, und das kann bedeuten, dass ein Talent nicht bis zum letzten Rang ausgereizt wird. Ihre Höchstwertung lag unter der ihrer Schwestern, und das lässt sich mit der Neigung in Verbindung bringen, den Wettbewerb nicht um jeden Preis zu suchen. Persönliche Aussagen zu ihrer Motivation liegen in den Quellen nicht vor, und das Porträt will dazu nichts erfinden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Drei Schwestern, drei Wege: Susan, Judit und Sofia</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dieselbe Erziehung, drei verschiedene Menschen: <a href="javascript:void(0)" data-route="beruehmte-susan-polgar">Susan Polgár</a> (SE3w2) machte aus dem Schach eine Laufbahn von Titeln und Rekorden und gab sie als Förderin weiter, <a href="javascript:void(0)" data-route="beruehmte-judit-polgar">Judit Polgár</a> (SE3w4) wurde die stärkste Spielerin der Schachgeschichte, und Sofia wandte sich bei gleicher Begabung dem Spiel und der Kunst zu. Die beiden älteren sind selbsterhaltende Dreier mit unterschiedlichen Flügeln, Sofia eine selbsterhaltende Sieben: Das Elternhaus prägte das Schach, aber nicht den Subtyp.</p>
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-larry-king">Larry King</a> (SE7w6) verbindet sie der Subtyp: Beide bauen sich einen Kreis des Vertrauens, King im Gespräch vor der Kamera, Sofia in der Familie und im Bild.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se7", label:"Lebensmusterkompass: SE7 – Gorilla"},
+        {route:"beruehmte-susan-polgar", label:"Porträt: Susan Polgár (SE3w2) – älteste Schwester, anderer Subtyp"},
+        {route:"beruehmte-judit-polgar", label:"Porträt: Judit Polgár (SE3w4) – jüngste Schwester, anderer Subtyp"},
+        {route:"beruehmte-larry-king", label:"Porträt: Larry King (SE7w6) – derselbe Subtyp, Nähe als Beruf"},
       ])}
     </div>
   `);

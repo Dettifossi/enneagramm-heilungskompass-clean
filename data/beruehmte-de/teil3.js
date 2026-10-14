@@ -855,6 +855,7 @@ export function juditPolgarPortraitPage() {
         {route:"beruehmte-tony-shalhoub", label:"Porträt: Tony Shalhoub (SE3w4)"},
         {route:"beruehmte-magnus-carlsen", label:"Porträt: Magnus Carlsen (SE1w9) – von ihr besiegter Weltmeister"},
         {route:"beruehmte-susan-polgar", label:"Porträt: Susan Polgár (SE3w2) – Schwester, derselbe Subtyp mit anderem Flügel"},
+        {route:"beruehmte-sofia-polgar", label:"Porträt: Sofia Polgár (SE7w6) – mittlere Schwester, anderer Subtyp"},
       ])}
     </div>
   `);

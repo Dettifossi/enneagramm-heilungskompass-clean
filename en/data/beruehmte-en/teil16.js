@@ -3760,9 +3760,9 @@ export function susanPolgarPortraitPage() {
           <p class="vb-intro">The shadow belongs to the same pattern. In 1999 the world chess federation FIDE stripped her of the world championship title because she did not agree to the conditions of the title match. The self-preservation Three holds to her conditions when she believes them right, and that can cost achievement that might have been won by other routes. The sources on the Olympiad medals vary, naming eleven or twelve.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Two Sisters, One Subtype: Susan, Judit and Achievement</h2>
+        <h2 class="vb-section">6. Three Sisters and Achievement: Susan, Judit and Sofia</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">With her younger sister <a href="javascript:void(0)" data-route="beruehmte-judit-polgar">Judit Polgár</a> (SE3w4), Susan shares the subtype and the same parental home, but the wing differs: Judit with the Four-wing goes more toward the individual and artistic side of her play, Susan with the Two-wing toward passing on and fostering. The two sisters show how the same subtype under the same conditions can develop two different handwritings.</p>
+          <p class="vb-intro">With her younger sister <a href="javascript:void(0)" data-route="beruehmte-judit-polgar">Judit Polgár</a> (SE3w4), Susan shares the subtype and the same parental home, but the wing differs: Judit with the Four-wing goes more toward the individual and artistic side of her play, Susan with the Two-wing toward passing on and fostering. The two sisters show how the same subtype under the same conditions can develop two different handwritings. The middle sister <a href="javascript:void(0)" data-route="beruehmte-sofia-polgar">Sofia Polgár</a> (SE7w6) took a third path with the same upbringing: she turned from tournaments to art.</p>
           <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-andre-agassi">Andre Agassi</a> (SE3w2) also joins achievement and passing on: like Polgár he came from a strict training shaped by his father and later founded institutions for education. Both made out of what they had suffered or learned as children a service to others.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
@@ -3776,6 +3776,7 @@ export function susanPolgarPortraitPage() {
         {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SE3 – Raccoon"},
         {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SE3w4) – sister, same subtype with a different wing"},
         {route:"beruehmte-andre-agassi", label:"Portrait: Andre Agassi (SE3w2) – top athlete, later patron of education"},
+        {route:"beruehmte-sofia-polgar", label:"Portrait: Sofia Polgár (SE7w6) – middle sister, different subtype"},
       ])}
     </div>
   `);
@@ -4106,6 +4107,73 @@ export function robertGreenePortraitPage() {
         {route:"lebensmusterkompass/sx1", label:"Life Pattern Compass: SX1 – Black Mamba"},
         {route:"beruehmte-michel-foucault", label:"Portrait: Michel Foucault (SX1w9) – same subtype, power as a subject of thought"},
         {route:"beruehmte-joseph-beuys", label:"Portrait: Joseph Beuys (SX1w9) – same subtype, sense of mission"},
+      ])}
+    </div>
+  `);
+}
+
+export function sofiaPolgarPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sofia-polgar-portrait.jpg" alt="Sofia Polgár – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-sofia-polgar-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Sofia Polgár</p>
+        <p class="krim-portrait-typ">SE7w6 &middot; Self-Preservation Type 7 with a Six-Wing</p>
+        <p class="krim-portrait-subtitle">Hungarian-Israeli chess International Master and painter, b. 1974 in Budapest &ndash; Animal match: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Gorilla That Chooses Its Own Circle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The gorilla lives in the group, but it does not decide what the group does. It has its place and enjoys it, and when something no longer suits it, it goes its own way. That is the image of the self-preservation Seven: safety and joy arise in a self-chosen circle, and where things get tight she opens another field for herself.</p>
+          <p class="vb-intro">Sofia Polgár was born on 2 November 1974 in Budapest into a Jewish family, the middle one of the three Polgár sisters. Her father László conducted an educational experiment with her and her sisters Susan and Judit in which chess was the speciality. The girls were taught at home and also learned Esperanto. In 1986 Sofia became world champion of girls under fourteen; according to the report she was second at the world championship of under-fourteens behind Joël Lautier.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Family: The Circle of Sisters and Her Own Family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the self-preservation Seven the <strong>Family</strong>: safety and joy arise in the closest circle. For Sofia Polgár that circle was from the start the family, the sisters and the father, and later her own: in 1999 she married the Israeli grandmaster Yona Kosashvili and moved to Israel, and the couple have two sons. The family lived for some time in Toronto so that her husband could complete his medical specialist training, and returned to Israel in 2012, settling near Tel Aviv.</p>
+          <p class="vb-intro">Professionally too she stayed in the circle: she advised on and illustrated the chess book series 'Chess Palace' by her sister Judit, which received a special prize at the Best European Learning Materials Awards in Frankfurt in 2015. The self-preservation Seven builds her net from confidants.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Loyalty and Collaboration</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> gives the self-preservation Seven loyalty and reliability. With a weakly developed Six-wing the Seven would stay non-committal and mobile. In Sofia Polgár it shows in the firm bond to the family and the collaboration with her sister: she did not let the rivalry between sisters define her, but later worked with Judit on teaching chess.</p>
+          <p class="vb-intro">It shows in her work too: 'My First Chess Club' (2020, with David Cohen) is aimed at children being introduced to chess for the first time, and the illustrations are in watercolour. Reliability meets play.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: A Master of Attack Who Became a Painter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Chess was for her not only a profession but also a pleasure in attack. In 1989, at fourteen, she won a tournament in Rome with 8½ out of 9, remembered as the 'Sack of Rome'; according to New in Chess her tournament performance was 2879. In 1990 she received the titles International Master and Woman Grandmaster, played four times for Hungary at the Olympiads (1988, 1990, 1994 and 1996) and won two team gold, one team silver, three individual gold and one individual bronze medal. Her highest FIDE rating was 2505 in July 1998.</p>
+          <p class="vb-intro">Since 2003 she has played very little rated chess, and since 2010 none at all. Instead of tournament chess she chose art: she paints and illustrates and exhibits, for example 'Balance' at the Kiryat Ono library, the 2019 show 'Paintings that tell stories' and, in 2020, a virtual-reality 3D artwork at the Global Chess Festival with ten chess paintings. In 2023 her autobiography 'Amazing Artist – Dangerous Tactician' appeared, joining games and pictures, and in 2024 the project 'The Missing Player: Chess and Art'.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Seven with a Six-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the joy of play. Sofia Polgár made out of the chess she was led into as a child something that belongs to her: attack, picture, story. That she freed herself from competitive pressure and chose art suits a Seven who keeps paths open.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. The Seven likes to change the field before it becomes uncomfortable, and that can mean a talent is not drawn out to the last rank. Her highest rating lay below that of her sisters, and this can be linked to the tendency not to seek competition at any price. The sources contain no personal statements on her motivation, and this portrait does not want to invent anything about it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Three Sisters, Three Paths: Susan, Judit and Sofia</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The same upbringing, three different people: <a href="javascript:void(0)" data-route="beruehmte-susan-polgar">Susan Polgár</a> (SE3w2) made chess a career of titles and records and passed it on as a promoter, <a href="javascript:void(0)" data-route="beruehmte-judit-polgar">Judit Polgár</a> (SE3w4) became the strongest player in chess history, and Sofia, with the same gift, turned to play and art. The two elder are self-preservation Threes with different wings, Sofia a self-preservation Seven: the parental home shaped the chess, but not the subtype.</p>
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-larry-king">Larry King</a> (SE7w6) she shares the subtype: both build a circle of trust, King in conversation before the camera, Sofia in the family and in the picture.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se7", label:"SE7 – The Gorilla: Subtype Profile"},
+        {route:"lebensmusterkompass/se7", label:"Life Pattern Compass: SE7 – Gorilla"},
+        {route:"beruehmte-susan-polgar", label:"Portrait: Susan Polgár (SE3w2) – eldest sister, different subtype"},
+        {route:"beruehmte-judit-polgar", label:"Portrait: Judit Polgár (SE3w4) – youngest sister, different subtype"},
+        {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6) – same subtype, closeness as a profession"},
       ])}
     </div>
   `);
