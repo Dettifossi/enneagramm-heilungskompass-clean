@@ -3594,7 +3594,7 @@ export function joelGoldsmithPortraitPage() {
         </div>
         <p class="krim-portrait-name">Joel S. Goldsmith</p>
         <p class="krim-portrait-typ">SE7w6 &middot; Self-Preservation Type 7 with a Six-Wing</p>
-        <p class="krim-portrait-subtitle">American spiritual teacher and healer, 1892&ndash;1964 &ndash; Animal match: Gorilla</p>
+        <p class="krim-portrait-subtitle">American spiritual teacher, healer and mystic, 1892&ndash;1964 &ndash; Animal match: Gorilla</p>
       </div>
       <div class="page-content">
 

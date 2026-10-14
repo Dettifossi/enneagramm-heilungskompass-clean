@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=231";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=232";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -747,7 +747,7 @@ const BERUEHMT_PORTRAITS = [
     land:"USA", tags:["Music"], gender:"f"},
 { route:"beruehmte-joel-goldsmith", name:"Joel S. Goldsmith", added:"2026-10-14", subtyp:"SE7w6",
     heading:"Joel S. Goldsmith – Self-Preservation Type 7",
-    teaser:"SE7w6 · 1892–1964. American spiritual teacher and healer, author of 'The Infinite Way'. A circle of students without a church, contemplative meditation in short sessions, over fifty books. The gorilla around whom a circle forms.",
+    teaser:"SE7w6 · 1892–1964. American spiritual teacher, healer and mystic, author of 'The Infinite Way'. A circle of students without a church, contemplative meditation in short sessions, over fifty books. The gorilla around whom a circle forms.",
     land:"USA", tags:["Spiritualität"], gender:"m"},
 { route:"beruehmte-bruno-groening", name:"Bruno Gröning", added:"2026-10-14", subtyp:"SO1w2",
     heading:"Bruno Gröning – Social Type 1",
