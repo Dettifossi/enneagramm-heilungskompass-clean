@@ -3722,9 +3722,9 @@ export function susanPolgarPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-susan-polgar-portrait.jpg" alt="Susan Polgar – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-susan-polgar-portrait.jpg'" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-susan-polgar-portrait.jpg" alt="Susan Polgár – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-susan-polgar-portrait.jpg'" />
         </div>
-        <p class="krim-portrait-name">Susan Polgar</p>
+        <p class="krim-portrait-name">Susan Polgár</p>
         <p class="krim-portrait-typ">SE3w2 &middot; Self-Preservation Type 3 with a Two-Wing</p>
         <p class="krim-portrait-subtitle">Hungarian-American chess grandmaster, b. 1969 in Budapest &ndash; Animal match: Raccoon</p>
       </div>
@@ -3733,37 +3733,37 @@ export function susanPolgarPortraitPage() {
         <h2 class="vb-section">1. The Raccoon That Tests Before It Takes</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The raccoon feels what it finds with its paws and rinses it in the water before accepting it. It relies not on the first impression but on touch and repetition. That is the image of the self-preservation Three: she builds her achievement from careful preparation and prefers to let it speak for itself rather than put it on display.</p>
-          <p class="vb-intro">Susan Polgar was born on 19 April 1969 in Budapest, the daughter of the educator László Polgár and the eldest of the three Polgár sisters, who also include Sofia and Judit. At four she won the Budapest under-11 championship. In 1982, at twelve, she became world champion of girls under sixteen, and in 1984, at fifteen, she topped the women's world ranking. In 1994 she moved to the United States, where she became a trainer and promoter of chess.</p>
+          <p class="vb-intro">Susan Polgár was born on 19 April 1969 in Budapest, the daughter of the educator László Polgár and the eldest of the three Polgár sisters, who also include Sofia and Judit. At four she won the Budapest under-11 championship. In 1982, at twelve, she became world champion of girls under sixteen, and in 1984, at fifteen, she topped the women's world ranking. In 1994 she moved to the United States, where she became a trainer and promoter of chess.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The Self-Preservation Three: Skill Instead of Shining</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">According to Naranjo, the <strong>self-preservation Three (SE3)</strong> is the Three who does not put her achievement on display: she builds security through skill, work and reliability, not through performance. In Polgar this shows in the thoroughness with which she learned chess and teaches it. Her father, by the accounts, held the conviction that genius can be learned through early, intensive practice, and the three daughters grew up in this programme. Susan made a life of preparation out of it.</p>
+          <p class="vb-intro">According to Naranjo, the <strong>self-preservation Three (SE3)</strong> is the Three who does not put her achievement on display: she builds security through skill, work and reliability, not through performance. In Polgár this shows in the thoroughness with which she learned chess and teaches it. Her father, by the accounts, held the conviction that genius can be learned through early, intensive practice, and the three daughters grew up in this programme. Susan made a life of preparation out of it.</p>
           <p class="vb-intro">In 1991 she earned the title of grandmaster. By one account she was the first woman to reach it by the regular route of norms rather than through a women's world championship; other sources count her as the third woman with the title, depending on how one assesses the earlier cases. The figures speak for themselves: from 1996 to 1999 she was women's world champion, and with the Hungarian women's team she won Olympiad gold in 1988 and 1990, with more than ten medals in all.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The Two-Wing: Fostering Instead of Only Winning</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Two-wing</strong> gives the self-preservation Three attention to others. With a weakly developed Two-wing the Three would stay with her own achievement. In Polgar it is strongly developed: since 2004 there is the Susan Polgar Foundation, which promotes chess among girls in the United States. She heads the Susan Polgar Institute for Chess Excellence (SPICE) at Webster University and, as the only woman, coached a men's team in the top US collegiate division, at Texas Tech University from 2007 to 2012 and at Webster University from 2012 to 2021.</p>
+          <p class="vb-intro">The <strong>Two-wing</strong> gives the self-preservation Three attention to others. With a weakly developed Two-wing the Three would stay with her own achievement. In Polgár it is strongly developed: since 2004 there is the Susan Polgár Foundation, which promotes chess among girls in the United States. She heads the Susan Polgár Institute for Chess Excellence (SPICE) at Webster University and, as the only woman, coached a men's team in the top US collegiate division, at Texas Tech University from 2007 to 2012 and at Webster University from 2012 to 2021.</p>
           <p class="vb-intro">The attention goes to the next generation: whoever has experienced so much training passes it on. The achievement is put in the service of others instead of being measured only by one's own rank.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Substance: A Record in Endurance</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Beside the titles stands an event that brings her pattern to a point: in 2005 Polgar played a simultaneous exhibition in Florida against 326 opponents at once, of whom she beat 309, a winning percentage of 96.93. It is listed as a record. Whoever holds hundreds of positions in mind at once and moves from board to board needs memory, rhythm and physical endurance, and these join the self-preservation Three's discipline of handling her body like a tool.</p>
+          <p class="vb-intro">Beside the titles stands an event that brings her pattern to a point: in 2005 Polgár played a simultaneous exhibition in Florida against 326 opponents at once, of whom she beat 309, a winning percentage of 96.93. It is listed as a record. Whoever holds hundreds of positions in mind at once and moves from board to board needs memory, rhythm and physical endurance, and these join the self-preservation Three's discipline of handling her body like a tool.</p>
           <p class="vb-intro">In addition, as a young woman she held her own at world level in a male-dominated field. The result counts in the chess world regardless of gender, and that very clarity suits the self-preservation Three: she lets numbers speak.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three with a Two-Wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in the union of achievement and passing it on. In 2019 Polgar was inducted into the U.S. Chess Hall of Fame, in 2023 into the World Chess Hall of Fame. Both honour not only the games but also what she built up for chess in the United States.</p>
+          <p class="vb-intro">The light lies in the union of achievement and passing it on. In 2019 Polgár was inducted into the U.S. Chess Hall of Fame, in 2023 into the World Chess Hall of Fame. Both honour not only the games but also what she built up for chess in the United States.</p>
           <p class="vb-intro">The shadow belongs to the same pattern. In 1999 the world chess federation FIDE stripped her of the world championship title because she did not agree to the conditions of the title match. The self-preservation Three holds to her conditions when she believes them right, and that can cost achievement that might have been won by other routes. The sources on the Olympiad medals vary, naming eleven or twelve.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Two Sisters, One Subtype: Susan, Judit and Achievement</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">With her younger sister <a href="javascript:void(0)" data-route="beruehmte-judit-polgar">Judit Polgár</a> (SE3w4), Susan shares the subtype and the same parental home, but the wing differs: Judit with the Four-wing goes more toward the individual and artistic side of her play, Susan with the Two-wing toward passing on and fostering. The two sisters show how the same subtype under the same conditions can develop two different handwritings.</p>
-          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-andre-agassi">Andre Agassi</a> (SE3w2) also joins achievement and passing on: like Polgar he came from a strict training shaped by his father and later founded institutions for education. Both made out of what they had suffered or learned as children a service to others.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-andre-agassi">Andre Agassi</a> (SE3w2) also joins achievement and passing on: like Polgár he came from a strict training shaped by his father and later founded institutions for education. Both made out of what they had suffered or learned as children a service to others.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}

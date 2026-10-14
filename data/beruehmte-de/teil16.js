@@ -3727,9 +3727,9 @@ export function susanPolgarPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-susan-polgar-portrait.jpg" alt="Susan Polgar – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-susan-polgar-portrait.jpg'" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-susan-polgar-portrait.jpg" alt="Susan Polgár – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-susan-polgar-portrait.jpg'" />
         </div>
-        <p class="krim-portrait-name">Susan Polgar</p>
+        <p class="krim-portrait-name">Susan Polgár</p>
         <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
         <p class="krim-portrait-subtitle">Ungarisch-amerikanische Schach-Großmeisterin, geb. 1969 in Budapest &ndash; Tierentsprechung: Waschbär</p>
       </div>
@@ -3738,37 +3738,37 @@ export function susanPolgarPortraitPage() {
         <h2 class="vb-section">1. Der Waschbär, der prüft, bevor er zugreift</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Waschbär befühlt, was er findet, mit den Pfoten und spült es im Wasser, bevor er es annimmt. Er verlässt sich nicht auf den ersten Eindruck, sondern auf Griff und Wiederholung. Das ist das Bild der selbsterhaltenden Drei: Sie baut ihre Leistung aus sorgfältiger Vorbereitung auf und lässt sie lieber für sich sprechen, als sie auszustellen.</p>
-          <p class="vb-intro">Susan Polgar wurde am 19. April 1969 in Budapest geboren, als Tochter des Pädagogen László Polgár und älteste der drei Polgár-Schwestern, zu denen auch Sofia und Judit gehören. Mit vier Jahren gewann sie die Budapester Meisterschaft der unter Elfjährigen. 1982 wurde sie mit zwölf Jahren Weltmeisterin der Mädchen unter sechzehn, und 1984 führte sie mit fünfzehn die Weltrangliste der Frauen an. 1994 zog sie in die USA. Dort wurde sie Trainerin und Förderin des Schachs.</p>
+          <p class="vb-intro">Susan Polgár wurde am 19. April 1969 in Budapest geboren, als Tochter des Pädagogen László Polgár und älteste der drei Polgár-Schwestern, zu denen auch Sofia und Judit gehören. Mit vier Jahren gewann sie die Budapester Meisterschaft der unter Elfjährigen. 1982 wurde sie mit zwölf Jahren Weltmeisterin der Mädchen unter sechzehn, und 1984 führte sie mit fünfzehn die Weltrangliste der Frauen an. 1994 zog sie in die USA. Dort wurde sie Trainerin und Förderin des Schachs.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist nach Naranjo die Drei, die ihre Leistung nicht zur Schau stellt: Sie baut Sicherheit durch Können, Arbeit und Verlässlichkeit auf, nicht durch Auftritt. Bei Polgar zeigt sich das in der Gründlichkeit, mit der sie Schach lernte und lehrt. Ihr Vater verfolgte nach den Darstellungen die Überzeugung, dass Genie durch frühes, intensives Üben erlernbar sei, und die drei Töchter wuchsen in diesem Programm auf. Susan machte daraus ein Leben aus Vorbereitung.</p>
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> ist nach Naranjo die Drei, die ihre Leistung nicht zur Schau stellt: Sie baut Sicherheit durch Können, Arbeit und Verlässlichkeit auf, nicht durch Auftritt. Bei Polgár zeigt sich das in der Gründlichkeit, mit der sie Schach lernte und lehrt. Ihr Vater verfolgte nach den Darstellungen die Überzeugung, dass Genie durch frühes, intensives Üben erlernbar sei, und die drei Töchter wuchsen in diesem Programm auf. Susan machte daraus ein Leben aus Vorbereitung.</p>
           <p class="vb-intro">1991 erwarb sie den Titel des Großmeisters. Nach einer Darstellung war sie die erste Frau, die ihn auf dem regulären Weg über Normen erreichte und nicht über einen Weltmeistertitel der Frauen; andere Quellen zählen sie als dritte Frau mit dem Titel, je nachdem, wie man die früheren Fälle bewertet. Die Zahlen sprechen für sich: Von 1996 bis 1999 war sie Weltmeisterin der Frauen, und mit der ungarischen Frauenmannschaft gewann sie bei den Olympiaden 1988 und 1990 Gold, mit insgesamt mehr als zehn Medaillen.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Zweierflügel: Fördern statt nur gewinnen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Zweierflügel</strong> gibt der selbsterhaltenden Drei die Zuwendung zu anderen. Bei einem schwach ausgeprägten Zweierflügel bliebe die Drei bei der eigenen Leistung. Bei Polgar ist er stark ausgeprägt: Seit 2004 gibt es die Susan Polgar Foundation, die Schach unter Mädchen in den USA fördert. Sie leitet das Susan Polgar Institute for Chess Excellence (SPICE) an der Webster University und trainierte als einzige Frau ein Männerteam der ersten Hochschulliga der USA, an der Texas Tech University von 2007 bis 2012 und an der Webster University von 2012 bis 2021.</p>
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> gibt der selbsterhaltenden Drei die Zuwendung zu anderen. Bei einem schwach ausgeprägten Zweierflügel bliebe die Drei bei der eigenen Leistung. Bei Polgár ist er stark ausgeprägt: Seit 2004 gibt es die Susan Polgár Foundation, die Schach unter Mädchen in den USA fördert. Sie leitet das Susan Polgár Institute for Chess Excellence (SPICE) an der Webster University und trainierte als einzige Frau ein Männerteam der ersten Hochschulliga der USA, an der Texas Tech University von 2007 bis 2012 und an der Webster University von 2012 bis 2021.</p>
           <p class="vb-intro">Die Zuwendung gilt dem Nachwuchs: Wer so viel Training erlebt hat, gibt es weiter. Die Leistung wird in den Dienst anderer gestellt, statt nur am eigenen Rang gemessen zu werden.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Ein Rekord im Dauerlauf</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Neben den Titeln steht ein Ereignis, das ihr Muster auf den Punkt bringt: 2005 spielte Polgar in Florida eine Simultanveranstaltung gegen 326 Gegner gleichzeitig, von denen sie 309 Partien gewann, eine Gewinnquote von 96,93 Prozent. Das wird als Rekord geführt. Wer gleichzeitig hunderte Stellungen im Kopf behält und von Brett zu Brett wechselt, braucht Gedächtnis, Rhythmus und körperliche Ausdauer, und diese verbindet die selbsterhaltende Drei mit der Disziplin, ihren Körper wie ein Werkzeug zu führen.</p>
+          <p class="vb-intro">Neben den Titeln steht ein Ereignis, das ihr Muster auf den Punkt bringt: 2005 spielte Polgár in Florida eine Simultanveranstaltung gegen 326 Gegner gleichzeitig, von denen sie 309 Partien gewann, eine Gewinnquote von 96,93 Prozent. Das wird als Rekord geführt. Wer gleichzeitig hunderte Stellungen im Kopf behält und von Brett zu Brett wechselt, braucht Gedächtnis, Rhythmus und körperliche Ausdauer, und diese verbindet die selbsterhaltende Drei mit der Disziplin, ihren Körper wie ein Werkzeug zu führen.</p>
           <p class="vb-intro">Dazu kommt, dass sie als junge Frau in einer Männerdomäne auf Weltniveau mithielt. Das Ergebnis zählt in der Schachwelt unabhängig vom Geschlecht, und genau diese Klarheit entspricht der selbsterhaltenden Drei: Sie lässt Zahlen sprechen.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei mit Zweierflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt in der Verbindung von Leistung und Weitergabe. 2019 wurde Polgar in die U.S. Chess Hall of Fame aufgenommen, 2023 in die World Chess Hall of Fame. Beides würdigt nicht nur die Partien, sondern auch das, was sie für das Schach in den USA aufgebaut hat.</p>
+          <p class="vb-intro">Das Licht liegt in der Verbindung von Leistung und Weitergabe. 2019 wurde Polgár in die U.S. Chess Hall of Fame aufgenommen, 2023 in die World Chess Hall of Fame. Beides würdigt nicht nur die Partien, sondern auch das, was sie für das Schach in den USA aufgebaut hat.</p>
           <p class="vb-intro">Der Schatten gehört zum selben Muster. 1999 entzog der Weltschachbund FIDE ihr den Weltmeistertitel, weil sie sich nicht auf die Bedingungen des Kampfes um den Titel einigte. Die selbsterhaltende Drei hält an ihren Bedingungen fest, wenn sie diese für richtig hält, und das kann Leistung kosten, die auf anderen Wegen zu holen gewesen wäre. Die Quellenlage zu den Olympiade-Medaillen schwankt, sie nennen elf oder zwölf.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Zwei Schwestern, ein Subtyp: Susan, Judit und die Leistung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Mit ihrer jüngeren Schwester <a href="javascript:void(0)" data-route="beruehmte-judit-polgar">Judit Polgár</a> (SE3w4) teilt Susan den Subtyp und dasselbe Elternhaus, aber der Flügel unterscheidet sich: Judit mit dem Viererflügel geht eher ins Individuelle und Künstlerische ihres Spiels, Susan mit dem Zweierflügel ins Weitergeben und Fördern. Beide Schwestern zeigen, wie derselbe Subtyp unter gleichen Bedingungen zwei verschiedene Handschriften entwickeln kann.</p>
-          <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-andre-agassi">Andre Agassi</a> (SE3w2) verbindet Leistung und Weitergabe: Wie Polgar kam er aus einem strengen, vom Vater geprägten Training und gründete später Einrichtungen für Bildung. Beide machten aus dem, was sie als Kind erlitten oder gelernt hatten, einen Dienst an anderen.</p>
+          <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-andre-agassi">Andre Agassi</a> (SE3w2) verbindet Leistung und Weitergabe: Wie Polgár kam er aus einem strengen, vom Vater geprägten Training und gründete später Einrichtungen für Bildung. Beide machten aus dem, was sie als Kind erlitten oder gelernt hatten, einen Dienst an anderen.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
