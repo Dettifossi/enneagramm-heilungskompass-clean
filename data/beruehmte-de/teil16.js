@@ -3795,7 +3795,7 @@ export function jensRiewaPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jens-riewa-portrait.jpg" alt="Jens Riewa – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-jens-riewa-portrait.jpg'" />
         </div>
-        <p class="krim-portrait-name">Susan Polgar</p>
+        <p class="krim-portrait-name">Jens Riewa</p>
         <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
         <p class="krim-portrait-subtitle">Deutscher Nachrichtensprecher, Chefsprecher der Tagesschau, geb. 1963 &ndash; Tierentsprechung: Büffel</p>
       </div>
@@ -3861,7 +3861,7 @@ export function marleenLohsePortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-marleen-lohse-portrait.jpg" alt="Marleen Lohse – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-marleen-lohse-portrait.jpg'" />
         </div>
-        <p class="krim-portrait-name">Susan Polgar</p>
+        <p class="krim-portrait-name">Marleen Lohse</p>
         <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
         <p class="krim-portrait-subtitle">Deutsche Schauspielerin, Autorin und Musikerin, geb. 1984 in Soltau &ndash; Tierentsprechung: Chihuahua</p>
       </div>
@@ -3927,7 +3927,7 @@ export function andreaSawatzkiPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-andrea-sawatzki-portrait.jpg" alt="Andrea Sawatzki – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-andrea-sawatzki-portrait.jpg'" />
         </div>
-        <p class="krim-portrait-name">Susan Polgar</p>
+        <p class="krim-portrait-name">Andrea Sawatzki</p>
         <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
         <p class="krim-portrait-subtitle">Deutsche Schauspielerin und Autorin, geb. 1963 &ndash; Tierentsprechung: Chihuahua</p>
       </div>
@@ -3993,7 +3993,7 @@ export function sentaBergerPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-senta-berger-portrait.jpg" alt="Senta Berger – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-senta-berger-portrait.jpg'" />
         </div>
-        <p class="krim-portrait-name">Susan Polgar</p>
+        <p class="krim-portrait-name">Senta Berger</p>
         <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
         <p class="krim-portrait-subtitle">Österreichisch-deutsche Schauspielerin und Produzentin, geb. 1941 in Wien &ndash; Tierentsprechung: Chihuahua</p>
       </div>

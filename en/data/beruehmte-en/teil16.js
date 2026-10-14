@@ -3790,7 +3790,7 @@ export function jensRiewaPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jens-riewa-portrait.jpg" alt="Jens Riewa – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-jens-riewa-portrait.jpg'" />
         </div>
-        <p class="krim-portrait-name">Susan Polgar</p>
+        <p class="krim-portrait-name">Jens Riewa</p>
         <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with a One-Wing</p>
         <p class="krim-portrait-subtitle">German news anchor, chief anchor of the Tagesschau, b. 1963 &ndash; Animal match: Buffalo</p>
       </div>
@@ -3856,7 +3856,7 @@ export function marleenLohsePortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-marleen-lohse-portrait.jpg" alt="Marleen Lohse – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-marleen-lohse-portrait.jpg'" />
         </div>
-        <p class="krim-portrait-name">Susan Polgar</p>
+        <p class="krim-portrait-name">Marleen Lohse</p>
         <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with a Three-Wing</p>
         <p class="krim-portrait-subtitle">German actress, writer and musician, b. 1984 in Soltau &ndash; Animal match: Chihuahua</p>
       </div>
@@ -3922,7 +3922,7 @@ export function andreaSawatzkiPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-andrea-sawatzki-portrait.jpg" alt="Andrea Sawatzki – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-andrea-sawatzki-portrait.jpg'" />
         </div>
-        <p class="krim-portrait-name">Susan Polgar</p>
+        <p class="krim-portrait-name">Andrea Sawatzki</p>
         <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with a Three-Wing</p>
         <p class="krim-portrait-subtitle">German actress and author, b. 1963 &ndash; Animal match: Chihuahua</p>
       </div>
@@ -3988,7 +3988,7 @@ export function sentaBergerPortraitPage() {
         <div class="krim-portrait-frame">
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-senta-berger-portrait.jpg" alt="Senta Berger – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-senta-berger-portrait.jpg'" />
         </div>
-        <p class="krim-portrait-name">Susan Polgar</p>
+        <p class="krim-portrait-name">Senta Berger</p>
         <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with a Three-Wing</p>
         <p class="krim-portrait-subtitle">Austrian-German actress and producer, b. 1941 in Vienna &ndash; Animal match: Chihuahua</p>
       </div>
