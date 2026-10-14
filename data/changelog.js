@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2502", date: "2026-10-14", text: "Neues Porträt: Jens Riewa (SO9w1) – Chefsprecher der Tagesschau.", text_en: "New portrait: Jens Riewa (SO9w1) – chief anchor of the Tagesschau.", route: "beruehmte-jens-riewa" },
     { version: "v2501", date: "2026-10-14", text: "Neues Porträt: Susan Polgár (SE3w2) – Schach-Großmeisterin und Trainerin.", text_en: "New portrait: Susan Polgár (SE3w2) – chess grandmaster and coach.", route: "beruehmte-susan-polgar" },
     { version: "v2500", date: "2026-10-14", text: "Neues Porträt: Maria Treben (SO9w1) – österreichische Kräuterkundige und Autorin.", text_en: "New portrait: Maria Treben (SO9w1) – Austrian herbalist and author.", route: "beruehmte-maria-treben" },
     { version: "v2499", date: "2026-10-14", text: "Neues Porträt: Joel S. Goldsmith (SE7w6) – spiritueller Lehrer, Begründer von The Infinite Way.", text_en: "New portrait: Joel S. Goldsmith (SE7w6) – spiritual teacher, founder of The Infinite Way.", route: "beruehmte-joel-goldsmith" },

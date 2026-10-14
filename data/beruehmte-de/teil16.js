@@ -3785,3 +3785,69 @@ export function susanPolgarPortraitPage() {
     </div>
   `);
 }
+
+export function jensRiewaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jens-riewa-portrait.jpg" alt="Jens Riewa – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-jens-riewa-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Susan Polgar</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Nachrichtensprecher, Chefsprecher der Tagesschau, geb. 1963 &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel, an dem sich die Herde ausrichtet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wo der Büffel steht, richtet sich die Herde aus. Er muss nichts verkünden: Seine Masse und Ruhe sind das Signal, dass alles in Ordnung ist. Das ist das Bild der sozialen Neun, die Halt für die Gemeinschaft gibt, ohne sich in den Vordergrund zu drängen.</p>
+          <p class="vb-intro">Jens Riewa wurde am 2. Juli 1963 in Lübbenau im Spreewald geboren und wuchs in Lübben auf, wo er 1982 das Abitur ablegte. Er verpflichtete sich für drei Jahre als Soldat auf Zeit bei der Nationalen Volksarmee, brach ein Studium der ›Technologie des Bauwesens‹ in Dresden ab und machte eine Ausbildung zum Fluglotsen. Es folgten eine zweijährige Intensivsprecherziehung und ein Moderationstraining beim Berliner Rundfunk. 1988 bestand er den Eignungstest als Nachrichtensprecher beim Radio DDR und arbeitete danach beim Jugendradio DT64. 1991 holte ihn der damalige Tagesschau-Chefsprecher Werner Veigel zum NDR, zunächst als Off-Sprecher, ab 1994 als Sprecher im Bild. Seit dem 6. September 1995 spricht er die 20-Uhr-Ausgabe der Tagesschau, und seit dem 15. Dezember 2020 ist er als Nachfolger von Jan Hofer Chefsprecher.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Die Stimme der Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> findet nach Naranjo Identität in der Teilhabe: im Mitwirken an einer Sache und einer Gemeinschaft, weniger im eigenen Auftritt. Das Nachrichtensprechen ist dafür ein besonders klares Beispiel. Riewa spricht Texte, die andere geschrieben haben, und er gibt sie so wieder, dass die Meldung im Vordergrund steht und nicht er selbst. Dass Millionen Zuschauer ihm über Jahrzehnte zugehört haben, lässt sich auch mit dieser Zurückhaltung in Verbindung bringen.</p>
+          <p class="vb-intro">Auch die Zugehörigkeit zu einer Institution gehört zu diesem Muster. Die Tagesschau ist für viele ein Fixpunkt des Abends, und Riewa ist Teil dieses Fixpunkts. Er hat ihn nicht erfunden, sondern über Jahre mitgetragen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Genauigkeit und Pflichtgefühl</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> gibt der sozialen Neun Genauigkeit und Pflichtgefühl. Bei einem schwach ausgeprägten Einserflügel bliebe die Neun gelassen und ungenau. Bei Riewa ist er stark ausgeprägt: Das Handwerk des Nachrichtensprechers verlangt Präzision, Pünktlichkeit und fehlerfreie Artikulation, und die Stationen vor dem Fernsehen passen dazu, die Ausbildung zum Fluglotsen mit ihrem strengen Regelwerk, die zweijährige Sprecherziehung und die Zeit bei der Armee.</p>
+          <p class="vb-intro">Die 20-Uhr-Ausgabe läuft seit 1995 mit demselben Anspruch an Verlässlichkeit. Das ist die Einser-Seite der Neun: Die Ruhe ruht auf Ordnung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Jahrzehntelange Verlässlichkeit vor der Kamera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Riewa von anderen unterscheidet, ist die Dauer seiner Rolle und der Weg dorthin. Er kam aus dem Radio der DDR zur ARD-Tagesschau, also aus einem Mediensystem in ein anderes, und blieb in der Zeit nach der Wende über dreißig Jahre eine Konstante. Wer täglich ruhig und klar die Nachrichten verliest, auch wenn die Meldungen selbst schwer sind, schafft für die Zuschauer einen Halt, der unabhängig vom Inhalt trägt.</p>
+          <p class="vb-intro">Daneben zeigt sich eine spielerische Seite: Er moderierte von 1994 bis etwa 2000 die ›Deutsche Schlagerparade‹, präsentierte 1996 und 1997 die deutschen Vorentscheidungen zum Eurovision Song Contest, ist seit 2012 wieder Hauptmoderator des NDR-›Hamburg Journals‹ und trat 2021 in der Show ›The Masked Singer‹ als ›Chili‹ auf. Die soziale Neun mit Einserflügel kann auch locker sein, wenn der Rahmen stimmt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit. Riewa gibt Zuschauern das Gefühl, dass der Abend seine Ordnung hat, und er tut es ohne Pose. Das passt zu einer Neun, die Gemeinschaft stützt.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Wer als Sprecher so zurückhaltend ist, bleibt als Person schwer zu greifen. Sein Privatleben hält Riewa weitgehend aus der Öffentlichkeit heraus, und die Grenze verteidigt er notfalls auch rechtlich. Die Neun neigt dazu, sich hinter der Rolle zu verbergen, und das lässt sich hier mit der Zurückhaltung in Verbindung bringen, die die Rolle verlangt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Gesichter der Verlässlichkeit: Riewa, Hanks und Will</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-tom-hanks">Tom Hanks</a> (SO9w1) verbindet Riewa der Subtyp: Beide stehen für Verlässlichkeit, beide wirken auf das Publikum beruhigend, und beide verbinden eine ruhige Grundhaltung mit dem Einserflügel, der auf Qualität achtet. Hanks tut es als Schauspieler, Riewa als Stimme der Nachrichten.</p>
+          <p class="vb-intro">Als Gegenbild eignet sich <a href="javascript:void(0)" data-route="beruehmte-anne-will">Anne Will</a> (SE1w2): Auch sie moderiert für die ARD, aber als selbsterhaltende Eins mit Zweierflügel steht bei ihr die genaue, nachfragende Auseinandersetzung im Vordergrund, bei Riewa als sozialer Neun das ruhige Dasein für die Gemeinschaft.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so9", label:"Lebensmusterkompass: SO9 – Büffel"},
+        {route:"beruehmte-tom-hanks", label:"Porträt: Tom Hanks (SO9w1) – derselbe Subtyp, Verlässlichkeit als Markenzeichen"},
+        {route:"beruehmte-anne-will", label:"Porträt: Anne Will (SE1w2) – Moderatorin, anderer Subtyp"},
+      ])}
+    </div>
+  `);
+}

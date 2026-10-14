@@ -3780,3 +3780,69 @@ export function susanPolgarPortraitPage() {
     </div>
   `);
 }
+
+export function jensRiewaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jens-riewa-portrait.jpg" alt="Jens Riewa – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-jens-riewa-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Susan Polgar</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with a One-Wing</p>
+        <p class="krim-portrait-subtitle">German news anchor, chief anchor of the Tagesschau, b. 1963 &ndash; Animal match: Buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Buffalo Toward Which the Herd Aligns</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Where the buffalo stands, the herd aligns. He need not announce anything: his mass and calm are the signal that all is well. That is the image of the social Nine, who gives the community a hold without pushing to the front.</p>
+          <p class="vb-intro">Jens Riewa was born on 2 July 1963 in Lübbenau in the Spreewald and grew up in Lübben, where he took his Abitur in 1982. He committed for three years as a career soldier in the National People's Army, abandoned a degree in construction technology in Dresden and trained as an air traffic controller. A two-year intensive speech training and a presenting course at Berliner Rundfunk followed. In 1988 he passed the aptitude test as a news reader at Radio DDR and then worked at the youth radio DT64. In 1991 the then chief Tagesschau anchor Werner Veigel brought him to NDR, first as an off-screen voice, from 1994 as an on-screen anchor. Since 6 September 1995 he has read the 8 p.m. edition of the Tagesschau, and since 15 December 2020 he has been chief anchor as successor to Jan Hofer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Nine: The Voice of the Community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>social Nine (SO9)</strong> finds identity in participation: in taking part in a cause and a community, less in her own performance. Reading the news is a particularly clear example. Riewa reads texts that others have written, and he renders them so that the report is in the foreground and not himself. That millions of viewers have listened to him for decades can also be linked to this restraint.</p>
+          <p class="vb-intro">Belonging to an institution is also part of this pattern. The Tagesschau is a fixed point of the evening for many, and Riewa is part of that fixed point. He did not invent it but has helped carry it for years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Precision and a Sense of Duty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing</strong> gives the social Nine precision and a sense of duty. With a weakly developed One-wing the Nine would stay relaxed and imprecise. In Riewa it is strongly developed: the craft of the news reader demands exactness, punctuality and flawless articulation, and the stations before television fit, the training as an air traffic controller with its strict rulebook, the two-year speech training and the time in the army.</p>
+          <p class="vb-intro">The 8 p.m. edition has run since 1995 with the same claim to reliability. That is the One side of the Nine: the calm rests on order.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Decades of Reliability in Front of the Camera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Riewa apart is the length of his role and the path to it. He came from GDR radio to the ARD Tagesschau, that is from one media system to another, and remained a constant for more than thirty years after the fall of the Wall. Whoever reads the news calmly and clearly every day, even when the reports themselves are heavy, creates for the viewers a hold that carries independently of the content.</p>
+          <p class="vb-intro">Beside it a playful side shows: from 1994 to about 2000 he hosted the 'Deutsche Schlagerparade', in 1996 and 1997 he presented the German heats for the Eurovision Song Contest, since 2012 he has again been the main presenter of the NDR 'Hamburg Journal', and in 2021 he appeared in the show 'The Masked Singer' as 'Chili'. The social Nine with a One-wing can be relaxed too when the frame fits.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Nine with a One-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in reliability. Riewa gives viewers the feeling that the evening has its order, and he does it without pose. That suits a Nine who supports the community.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. Whoever is so restrained as a newsreader remains hard to grasp as a person. Riewa keeps his private life largely out of the public eye and defends that boundary legally if need be. The Nine tends to hide behind the role, and here this can be linked to the restraint the role demands.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Faces of Reliability: Riewa, Hanks and Will</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-tom-hanks">Tom Hanks</a> (SO9w1), Riewa shares the subtype: both stand for reliability, both have a calming effect on the audience, and both combine a calm basic attitude with the One-wing that watches quality. Hanks does it as an actor, Riewa as the voice of the news.</p>
+          <p class="vb-intro">A counter-image is <a href="javascript:void(0)" data-route="beruehmte-anne-will">Anne Will</a> (SE1w2): she too presents for the ARD, but as a self-preservation One with a Two-wing the exact, probing engagement stands in the foreground, in Riewa as a social Nine the calm presence for the community.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
+        {route:"lebensmusterkompass/so9", label:"Life Pattern Compass: SO9 – Buffalo"},
+        {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1) – same subtype, reliability as a trademark"},
+        {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SE1w2) – presenter, different subtype"},
+      ])}
+    </div>
+  `);
+}

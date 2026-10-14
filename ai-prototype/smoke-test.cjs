@@ -89,6 +89,8 @@ const ROUTES = [
   { hash: "en/#krankheitsportraets-prince", label: "Neues EN-Krankheitsporträt: Prince" },
   { hash: "#krankheitsportraets-william-james-sidis", label: "Neues Krankheitsporträt: William James Sidis" },
   { hash: "en/#krankheitsportraets-william-james-sidis", label: "Neues EN-Krankheitsporträt: William James Sidis" },
+  { hash: "#beruehmte-jens-riewa", label: "Neues Porträt: Jens Riewa" },
+  { hash: "en/#beruehmte-jens-riewa", label: "Neues EN-Porträt: Jens Riewa" },
   { hash: "#beruehmte-susan-polgar", label: "Neues Porträt: Susan Polgár" },
   { hash: "en/#beruehmte-susan-polgar", label: "Neues EN-Porträt: Susan Polgár" },
   { hash: "#beruehmte-maria-treben", label: "Neues Porträt: Maria Treben" },
