@@ -3917,3 +3917,69 @@ export function marleenLohsePortraitPage() {
     </div>
   `);
 }
+
+export function andreaSawatzkiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-andrea-sawatzki-portrait.jpg" alt="Andrea Sawatzki – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-andrea-sawatzki-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Susan Polgar</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Schauspielerin und Autorin, geb. 1963 &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua mit dem wachen Blick</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Chihuahua ist klein und dabei ganz Aufmerksamkeit: Er beobachtet, nimmt jede Regung wahr und reagiert mit seinem ganzen Körper. Wer ihn unterschätzt, wird überrascht. Das ist das Bild der sexuellen Vier: Sie spürt viel, hält wenig zurück und legt in ihren Ausdruck eine Intensität, die man ihr auf den ersten Blick nicht zutraut.</p>
+          <p class="vb-intro">Andrea Sawatzki wurde am 23. Februar 1963 in Schlehdorf in Bayern geboren (einzelne Quellen nennen Kochel am See) und wuchs in Vaihingen an der Enz auf. Ihre Mutter war Krankenschwester, ihr Vater der Journalist Günther Sawatzki (1906–1978). Sie studierte an der Neuen Münchner Schauspielschule, schloss 1987 ab, war Praktikantin an den Münchner Kammerspielen und hatte bis 1992 Theaterengagements in Stuttgart, Wilhelmshaven und München.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Intensität im Ausdruck</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> trägt den Schmerz der Vier in unmittelbare persönliche Intensität. Naranjo nannte diesen Subtyp <em>Rivalität</em>: das Gefühl, dass andere haben, was einem selbst fehlt, und der Impuls, sich zu messen und aufzufallen. Bei Sawatzki zeigt sich das als große Bandbreite, die nichts halb macht: Sie spielt Gebrochene und Komische, Ermittlerinnen und Ehefrauen, und sie schreibt über Familien so, dass Lachen und Schmerz nebeneinander stehen.</p>
+          <p class="vb-intro">Besonders deutlich wird die Intensität in ihren autobiografisch gefärbten Büchern: ›Brunnenstraße‹ (2022) handelt nach Besprechungen von ihrer Kindheit mit dem an Demenz erkrankten Vater, und ›Biarritz‹ (2025) greift, wie sie selbst sagte, die schwierige Beziehung zwischen Müttern und Töchtern auf, für die ihr eigenes Verhältnis zur Mutter die Vorlage war. Die sexuelle Vier verwandelt Verletzung in Ausdruck, statt sie zu verschweigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Von der Rolle zur Marke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel</strong> gibt der sexuellen Vier die Fähigkeit, das Innere nach außen zu wenden und in Wirkung zu verwandeln. Bei einem schwach ausgeprägten Dreierflügel bliebe die Vier im eigenen Gefühl. Bei Sawatzki ist er stark ausgeprägt: Aus der Schauspielerin wurde eine Autorin, aus den Romanen eine ZDF-Reihe, ›Familie Bundschuh‹, die seit 2015 läuft und auf ihren eigenen Büchern beruht. Sie spricht Hörbücher, synchronisierte die Mrs. Fox in ›Der fantastische Mr. Fox‹ und moderierte die Doku-Reihe ›Deadly Sins‹.</p>
+          <p class="vb-intro">Das Muster ist das der Drei im Flügel: Wirkung in mehreren Feldern, jedes mit eigenem Gesicht, und ein Gespür dafür, was beim Publikum ankommt, ohne das Persönliche zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Vom Durchbruch zur Doppelbegabung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Den Durchbruch hatte Sawatzki 1997 als Alma Siebert in ›Die Apothekerin‹ nach Ingrid Noll. Davor war sie in ›Auf Achse‹ (1993) und von 1995 bis 1998 in der Hauptrolle von ›A.S. – Gefahr ist sein Geschäft‹ zu sehen. Im Kino spielte sie in ›Bandits‹ (1997), ›Late Show‹ (1999), ›Harte Jungs‹ (2000) und ›Leo und Claire‹ (2001), und über rund ein Jahrzehnt war sie als Kommissarin Charlotte Sänger im Frankfurter ›Tatort‹ zu sehen. Später folgten ›Bella‹ (ab 2010) und ›Borgia‹ (2011–2013).</p>
+          <p class="vb-intro">Ihre Leistung zeigt sich auch in den Preisen: 2005 erhielt sie gemeinsam mit dem Ensemble den Adolf-Grimme-Preis für den ›Tatort: Herzversagen‹, 2006 den Deutschen Comedypreis für ›Arme Millionäre‹, 2007 den Preis als beste Schauspielerin beim World Film Festival Montréal für ›Der andere Junge‹ und 2011 den Bayerischen Fernsehpreis für ›Bella Vita‹. Dass dieselbe Person Thriller, Komödie und Familienroman beherrscht, ist die Doppelbegabung, die sie auszeichnet: die Ernsthaftigkeit der Vier und die Wirkung der Drei.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Vier mit Dreierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Offenheit. Sawatzki macht aus Erfahrungen, die andere verschweigen würden, Bücher, und sie tut es mit Humor und mit Härte, wo beides gebraucht wird. Das passt zu einer sexuellen Vier, die lieber ganz und verletzlich ist als geschützt und halb.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Wer so viel von sich in den Ausdruck legt, steht im Vergleich: mit anderen Autorinnen, mit anderen Schauspielerinnen und mit dem eigenen Anspruch. Über Belastungen dahinter geben die öffentlichen Quellen wenig her, und das Porträt will dazu nichts erfinden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei sexuelle Vierer mit Dreierflügel: Sawatzki, Lohse und Rojinski</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-marleen-lohse">Marleen Lohse</a> (SX4w3) verbindet Sawatzki der Subtyp und die Doppelrolle als Schauspielerin und Autorin: Beide schreiben auch selbst, beide geben ihrem Innenleben neben den Rollen noch eine eigene Form. Bei Lohse kommt als weiterer Schritt die Musik dazu, bei Sawatzki das Buch.</p>
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-palina-rojinski">Palina Rojinski</a> (SX4w3) teilt sie die Fähigkeit, Komisches und Persönliches zu verbinden und Fernsehpublikum zu erreichen. Rojinski tut es mit Spiel und Moderation, Sawatzki mit Rolle und Roman.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx4", label:"Lebensmusterkompass: SX4 – Chihuahua"},
+        {route:"beruehmte-marleen-lohse", label:"Porträt: Marleen Lohse (SX4w3) – Schauspielerin, derselbe Subtyp"},
+        {route:"beruehmte-palina-rojinski", label:"Porträt: Palina Rojinski (SX4w3) – Schauspielerin und Moderatorin, derselbe Subtyp"},
+      ])}
+    </div>
+  `);
+}

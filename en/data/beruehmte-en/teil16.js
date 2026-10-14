@@ -3912,3 +3912,69 @@ export function marleenLohsePortraitPage() {
     </div>
   `);
 }
+
+export function andreaSawatzkiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-andrea-sawatzki-portrait.jpg" alt="Andrea Sawatzki – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-andrea-sawatzki-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Susan Polgar</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with a Three-Wing</p>
+        <p class="krim-portrait-subtitle">German actress and author, b. 1963 &ndash; Animal match: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua with the Watchful Gaze</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Chihuahua is small and entirely attention: it observes, takes in every stir and responds with its whole body. Whoever underestimates it is surprised. That is the image of the sexual Four: she feels much, holds little back and puts into her expression an intensity one would not credit her with at first glance.</p>
+          <p class="vb-intro">Andrea Sawatzki was born on 23 February 1963 in Schlehdorf in Bavaria (some sources say Kochel am See) and grew up in Vaihingen an der Enz. Her mother was a nurse, her father the journalist Günther Sawatzki (1906–1978). She studied at the Neue Münchner Schauspielschule, graduated in 1987, did an internship at the Munich Kammerspiele and held theatre engagements in Stuttgart, Wilhelmshaven and Munich until 1992.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Four: Intensity in Expression</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Four (SX4)</strong> carries the Four's pain into immediate personal intensity. Naranjo called this subtype <em>Competition</em>: the feeling that others have what one lacks oneself, and the impulse to measure oneself and stand out. In Sawatzki this shows as a wide range that does nothing by halves: she plays the broken and the comic, investigators and wives, and she writes about families so that laughter and pain stand side by side.</p>
+          <p class="vb-intro">The intensity is particularly clear in her autobiographically coloured books: 'Brunnenstraße' (2022) is, according to reviews, about her childhood with a father who had dementia, and 'Biarritz' (2025) takes up, as she herself said, the difficult relationship between mothers and daughters, for which her own relationship with her mother was the model. The sexual Four turns injury into expression instead of keeping silent.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: From Role to Brand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing</strong> gives the sexual Four the ability to turn the inner outward and into impact. With a weakly developed Three-wing the Four would stay in her own feeling. In Sawatzki it is strongly developed: the actress became an author, the novels became a ZDF series, 'Familie Bundschuh' ('The Bundschuh Family'), which has run since 2015 and is based on her own books. She reads audiobooks, voiced Mrs. Fox in 'Fantastic Mr. Fox' and presented the documentary series 'Deadly Sins'.</p>
+          <p class="vb-intro">The pattern is that of the Three in the wing: impact in several fields, each with its own face, and a feeling for what lands with the audience without losing the personal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: From Breakthrough to Double Talent</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sawatzki had her breakthrough in 1997 as Alma Siebert in 'Die Apothekerin' ('The Pharmacist'), based on Ingrid Noll. Before that she was seen in 'Auf Achse' (1993) and from 1995 to 1998 in the lead of 'A.S. – Gefahr ist sein Geschäft'. In cinema she played in 'Bandits' (1997), 'Late Show' (1999), 'Harte Jungs' (2000) and 'Leo und Claire' (2001), and for about a decade she was seen as Commissioner Charlotte Sänger in the Frankfurt 'Tatort'. 'Bella' (from 2010) and 'Borgia' (2011–2013) followed.</p>
+          <p class="vb-intro">Her achievement also shows in the prizes: in 2005 she received, together with the ensemble, the Adolf Grimme Award for 'Tatort: Herzversagen', in 2006 the Deutscher Comedypreis for 'Arme Millionäre', in 2007 the prize for best actress at the World Film Festival Montréal for 'Der andere Junge' and in 2011 the Bavarian Television Award for 'Bella Vita'. That the same person masters thriller, comedy and family novel is the double talent that marks her: the earnestness of the Four and the impact of the Three.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Four with a Three-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in openness. Sawatzki makes books out of experiences others would keep silent about, and she does it with humour and with hardness where both are needed. That suits a sexual Four who would rather be whole and vulnerable than protected and half.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. Whoever puts so much of herself into expression stands in comparison: with other authors, with other actresses and with her own standard. The public sources give little on burdens behind it, and this portrait does not want to invent anything about that.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Sexual Fours with a Three-Wing: Sawatzki, Lohse and Rojinski</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-marleen-lohse">Marleen Lohse</a> (SX4w3), Sawatzki shares the subtype and the double role as actress and author: both also write themselves, both give their inner life a form of its own beside the roles. In Lohse music comes as a further step, in Sawatzki the book.</p>
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-palina-rojinski">Palina Rojinski</a> (SX4w3) she shares the ability to join the comic and the personal and to reach a television audience. Rojinski does it with play and presenting, Sawatzki with role and novel.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"lebensmusterkompass/sx4", label:"Life Pattern Compass: SX4 – Chihuahua"},
+        {route:"beruehmte-marleen-lohse", label:"Portrait: Marleen Lohse (SX4w3) – actress, same subtype"},
+        {route:"beruehmte-palina-rojinski", label:"Portrait: Palina Rojinski (SX4w3) – actress and presenter, same subtype"},
+      ])}
+    </div>
+  `);
+}
