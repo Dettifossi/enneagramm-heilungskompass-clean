@@ -3737,7 +3737,7 @@ export function susanPolgarPortraitPage() {
 
         <h2 class="vb-section">1. Der Waschbär, der prüft, bevor er zugreift</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Waschbär befühlt, was er findet, mit den Pfoten und spült es im Wasser, bevor er es annimmt. Er verlässt sich nicht auf den ersten Eindruck, sondern auf Griff und Wiederholung. Das ist das Bild der selbsterhaltenden Drei: Sie baut ihre Leistung aus sorgfältiger Vorbereitung auf und lässt sie lieber für sich sprechen, als sie auszustellen.</p>
+          <p class="vb-intro">Der Waschbär befühlt, was er findet, mit den Pfoten und spült es im Wasser, bevor er es annimmt. Er verlässt sich nicht auf den ersten Eindruck, sondern auf seinen Griff und die Wiederholung. Das ist das Bild der selbsterhaltenden Drei: Sie baut ihre Leistung aus sorgfältiger Vorbereitung auf und lässt sie lieber für sich sprechen, als sie auszustellen.</p>
           <p class="vb-intro">Susan Polgár wurde am 19. April 1969 in Budapest geboren, als Tochter des Pädagogen László Polgár und älteste der drei Polgár-Schwestern, zu denen auch Sofia und Judit gehören. Mit vier Jahren gewann sie die Budapester Meisterschaft der unter Elfjährigen. 1982 wurde sie mit zwölf Jahren Weltmeisterin der Mädchen unter sechzehn, und 1984 führte sie mit fünfzehn die Weltrangliste der Frauen an. 1994 zog sie in die USA. Dort wurde sie Trainerin und Förderin des Schachs.</p>
         </blockquote>
 
