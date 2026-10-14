@@ -3653,3 +3653,69 @@ export function joelGoldsmithPortraitPage() {
     </div>
   `);
 }
+
+export function mariaTrebenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-maria-treben-portrait.jpg" alt="Maria Treben – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-maria-treben-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Maria Treben</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Österreichische Kräuterkundige und Autorin, 1907&ndash;1991 &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel, der die Herde durch den Winter trägt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Winter gräbt der Büffel mit dem Kopf den Schnee weg, bis die Gräser darunter frei liegen, und die Herde frisst hinter ihm. Er bahnt den Weg für die anderen, ohne dass er es groß ankündigt. Das ist das Bild der sozialen Neun: Sie trägt Last und Verantwortung für die Gemeinschaft, ruhig und beharrlich.</p>
+          <p class="vb-intro">Maria Treben, geborene Günzel, wurde am 27. September 1907 in Saaz in Böhmen als mittlere von drei Schwestern geboren. Ihr Vater, Zeitungsverleger und Druckereibesitzer, starb durch einen Unfall, als sie zehn war, und die Familie zog nach Prag, wo sie das Mädchenlyzeum abschloss. Sie arbeitete rund vierzehn Jahre in der Redaktion des ›Prager Tagblatts‹, heiratete 1939 den Ingenieur Ernst Gottfried Treben und bekam 1942 einen Sohn. Nach der Vertreibung 1945 und Jahren in Flüchtlingslagern fand die Familie in Österreich eine neue Heimat, ab 1951 in Grieskirchen. Hier wurde sie zur Kräuterkundigen und mit ›Gesundheit aus der Apotheke Gottes‹ (1980) zur Autorin eines der meistverkauften Hausbücher im deutschsprachigen Raum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Teilhabe statt Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> findet nach Naranjo Identität in der Teilhabe: im Mitwirken an einer Sache und einer Gemeinschaft. Bei Treben zeigte sich das schon in ihrer Haltung nach der Vertreibung. Auf der Flucht erkrankten sie und ihr Sohn Ende 1945 im Lager Wülzburg an Bauchtyphus, und im Krankenhaus gab es kriegsbedingt kaum Medikamente. Der Chefarzt verordnete einen Saft aus Schöllkrautblättern. Sie bezeichnete das später als ihr ›Schlüsselerlebnis‹; diese Darstellung beruht auf ihren eigenen Angaben.</p>
+          <p class="vb-intro">Aus dieser Erfahrung machte sie keine Bühne für sich, sondern einen Dienst: Sie bildete sich im Selbststudium in Pflanzenheilkunde weiter, wobei die Begegnung mit dem Biologen Richard Willfort in den 1960er-Jahren ihren Blick schärfte, und gab ihr Wissen an andere weiter. 1971 hielt sie vor Kurgästen in Bad Mühllacken ihren ersten Kräutervortrag. Bis 1987 setzte sie die Vorträge fort. Sie war keine anerkannte Heilpraktikerin und praktizierte dennoch in Österreich und Deutschland, so ist es überliefert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Ordnung, Pflicht und ein moralischer Ton</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> gibt der sozialen Neun Prinzipien und Pflichtgefühl. Bei einem schwach ausgeprägten Einserflügel bliebe die Neun eher gemütlich im Hintergrund. Bei Treben war er stark ausgeprägt: Ihr Buch ist von einer klaren Ordnung durchzogen, geordnet nach Krankheiten, Pflanzen und Rezepten, und es trägt den Ton der Verantwortung bis in den Titel, ›Gesundheit aus der Apotheke Gottes‹. Die Natur ist darin nicht beliebig, sondern von einem Schöpfer gut geordnet.</p>
+          <p class="vb-intro">Das zeigt sich auch in ihrer Haltung zur Schulmedizin: Nach den Darstellungen bestand sie stets darauf, Beschwerden ärztlich abklären zu lassen und eng mit dem behandelnden Arzt zusammenzuarbeiten. Das passt zu einer Neun mit Einserflügel, die ihre Hilfe in einen geordneten Rahmen stellt und die Grenze des eigenen Wissens kennt oder sie zumindest benennt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Ein Hausbuch, das Millionen erreichte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Substanz ihres Lebenswerks ist die Reichweite eines einfachen Buches. 1976 erschien zunächst eine Mappe mit dem Titel ›Gesundheit aus der Apotheke Gottes‹, auf Anregung eines Pfarrers; ab 1980 folgte die Buchausgabe im Ennsthaler Verlag. Die Angaben zur Auflage schwanken: Genannt werden mehr als acht Millionen, nach anderen Angaben sogar über zehn Millionen Exemplare, in über zwanzig Sprachen. Weitere Titel sind ›Maria Treben's Heilerfolge‹ (1980), ›Aus meiner Hausapotheke‹ (1988) und ›Frauenkrankheiten‹ (1989).</p>
+          <p class="vb-intro">Bekannt wurde sie vor allem durch den Schwedenbitter, einen in Schnaps angesetzten Kräuterauszug, dessen Rezept sich nach einer Darstellung auf den schwedischen Arzt Urban Hjärne (1641–1724) zurückführen lässt. Ihr Einfluss reichte weit über Österreich hinaus, weil sie Pflanzenwissen in Alltagssprache übersetzte, die jeder mit einem Garten oder einer Wiese verstand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Zugänglichkeit. Treben machte aus einem Fachwissen, das sonst Ärzten und Apothekern vorbehalten schien, ein Wissen für Haushalte, und sie tat es, ohne sich selbst in den Mittelpunkt zu stellen.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Ihre Bücher stießen auf Kritik: Die Stiftung Warentest bezweifelte ihre Sachkunde und bewertete einzelne Rezepte, etwa mit Schöllkraut, als gefährlich, und die Universitätsklinik Freiburg warnte davor, gut operable Tumoren zuerst mit Kräutern zu behandeln. Die Wirksamkeit ihrer Empfehlungen ist nicht nachgewiesen. Das lässt sich mit der Neigung einer Neun in Verbindung bringen, Zweifel an ihrem Nutzen für die Gemeinschaft schwer an sich heranzulassen. Zu den weniger bekannten Fakten gehört außerdem, dass sie am 18. Januar 1939 die Aufnahme in die NSDAP beantragte und rückwirkend zum 1. Dezember 1938 aufgenommen wurde, was in populären Darstellungen oft fehlt. Ihr Mann starb 1988, sie selbst am 26. Juli 1991 in Grieskirchen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei soziale Neuner im Dienst anderer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-eleanor-roosevelt">Eleanor Roosevelt</a> (SO9w1) verbindet Treben der Subtyp: Beide stellten ihr Wissen und ihre Bekanntheit in den Dienst anderer, beide trugen den Pflichtgedanken des Einserflügels in ihre Arbeit.</p>
+          <p class="vb-intro">Eine andere Linie führt zu <a href="javascript:void(0)" data-route="beruehmte-bruno-groening">Bruno Gröning</a> (SO1w2), der ebenfalls in der Nachkriegszeit Menschen in Not ansprach. Gröning trat als Heilungsprediger vor Massen auf und baute eine Organisation auf, Treben blieb als soziale Neun bei der leisen, alltäglichen Form: ein Buch auf dem Küchentisch statt einer Bühne.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so9", label:"Lebensmusterkompass: SO9 – Büffel"},
+        {route:"beruehmte-eleanor-roosevelt", label:"Porträt: Eleanor Roosevelt (SO9w1) – derselbe Subtyp, Dienst an der Gemeinschaft"},
+        {route:"beruehmte-bruno-groening", label:"Porträt: Bruno Gröning (SO1w2) – Heilungsprediger der Nachkriegszeit"},
+      ])}
+    </div>
+  `);
+}

@@ -3648,3 +3648,69 @@ export function joelGoldsmithPortraitPage() {
     </div>
   `);
 }
+
+export function mariaTrebenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-maria-treben-portrait.jpg" alt="Maria Treben – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-maria-treben-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Maria Treben</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with a One-Wing</p>
+        <p class="krim-portrait-subtitle">Austrian herbalist and author, 1907&ndash;1991 &ndash; Animal match: Buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Buffalo That Carries the Herd Through Winter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In winter the buffalo digs the snow away with its head until the grass beneath lies bare, and the herd feeds behind it. It clears the way for the others without announcing it. That is the image of the social Nine: she carries burden and responsibility for the community, calmly and persistently.</p>
+          <p class="vb-intro">Maria Treben, née Günzel, was born on 27 September 1907 in Saaz in Bohemia as the middle one of three sisters. Her father, a newspaper publisher and printing-house owner, died in an accident when she was ten, and the family moved to Prague, where she completed girls' lyceum. She worked about fourteen years in the editorial office of the 'Prager Tagblatt', married the engineer Ernst Gottfried Treben in 1939 and had a son in 1942. After the expulsion in 1945 and years in refugee camps, the family found a new home in Austria, from 1951 in Grieskirchen. There she became a herbalist and, with 'Gesundheit aus der Apotheke Gottes' ('Health from God's Pharmacy', 1980), the author of one of the best-selling household books in the German-speaking world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Nine: Participation Instead of Performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>social Nine (SO9)</strong> finds identity in participation: in taking part in a cause and a community. In Treben this showed already in her attitude after the expulsion. During the flight she and her son fell ill with typhoid fever at the Wülzburg camp at the end of 1945, and in the hospital there was hardly any medication because of the war. The chief physician prescribed a juice from celandine leaves. She later called it her 'key experience'; this account rests on her own statements.</p>
+          <p class="vb-intro">She made not a stage for herself out of this experience but a service: she educated herself in herbal medicine by self-study, with her meeting with the biologist Richard Willfort in the 1960s sharpening her eye, and passed her knowledge on to others. In 1971 she gave her first herb lecture to spa guests in Bad Mühllacken. She continued the lectures until 1987. She was not a recognised alternative practitioner and nevertheless practised in Austria and Germany, so it is reported.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Order, Duty and a Moral Tone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing</strong> gives the social Nine principles and a sense of duty. With a weakly developed One-wing the Nine would stay rather comfortably in the background. In Treben it was strongly developed: her book is permeated by a clear order, arranged by illnesses, plants and recipes, and it carries the tone of responsibility into the very title, 'Health from God's Pharmacy'. Nature in it is not arbitrary but well ordered by a Creator.</p>
+          <p class="vb-intro">This shows also in her attitude to conventional medicine: according to the accounts she always insisted that complaints be clarified by a doctor and that one work closely with the treating physician. That suits a Nine with a One-wing, who places her help within an ordered frame and knows the limit of her own knowledge or at least names it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: A Household Book That Reached Millions</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The substance of her life's work is the reach of a simple book. In 1976 a folder with the title 'Gesundheit aus der Apotheke Gottes' appeared first, at the suggestion of a priest; from 1980 the book edition followed from Ennsthaler Verlag. Figures for the print run vary: more than eight million are named, and by other accounts even over ten million copies, in over twenty languages. Further titles include 'Maria Treben's Heilerfolge' ('Maria Treben's Healing Successes', 1980), 'Aus meiner Hausapotheke' ('From My Home Pharmacy', 1988) and 'Frauenkrankheiten' ('Women's Ailments', 1989).</p>
+          <p class="vb-intro">She became best known for the 'Swedish bitters', a herbal extract steeped in spirits whose recipe can, by one account, be traced to the Swedish physician Urban Hjärne (1641–1724). Her influence reached far beyond Austria because she translated plant knowledge into everyday language that anyone with a garden or a meadow understood.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Nine with a One-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in accessibility. Treben turned a body of knowledge that seemed reserved for doctors and pharmacists into knowledge for households, and she did so without putting herself at the centre.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. Her books met with criticism: Stiftung Warentest doubted her expertise and judged individual recipes, for instance with celandine, to be dangerous, and the Freiburg University Hospital warned against treating readily operable tumours first with herbs. The effectiveness of her recommendations is not proven. This can be linked to a Nine's tendency to find it hard to let doubts about her usefulness to the community come close. Among the lesser-known facts is also that on 18 January 1939 she applied for membership of the NSDAP and was admitted retroactively as of 1 December 1938, which is often missing from popular accounts. Her husband died in 1988, she herself on 26 July 1991 in Grieskirchen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Social Nines in the Service of Others</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-eleanor-roosevelt">Eleanor Roosevelt</a> (SO9w1), Treben shares the subtype: both put their knowledge and fame at the service of others, both carried the One-wing's sense of duty into their work.</p>
+          <p class="vb-intro">Another line leads to <a href="javascript:void(0)" data-route="beruehmte-bruno-groening">Bruno Gröning</a> (SO1w2), who likewise addressed people in need in the postwar years. Gröning appeared as a healing preacher before crowds and built an organisation, Treben as a social Nine stayed with the quiet, everyday form: a book on the kitchen table instead of a stage.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
+        {route:"lebensmusterkompass/so9", label:"Life Pattern Compass: SO9 – Buffalo"},
+        {route:"beruehmte-eleanor-roosevelt", label:"Portrait: Eleanor Roosevelt (SO9w1) – same subtype, service to the community"},
+        {route:"beruehmte-bruno-groening", label:"Portrait: Bruno Gröning (SO1w2) – healing preacher of the postwar years"},
+      ])}
+    </div>
+  `);
+}
