@@ -3816,7 +3816,7 @@ export function jensRiewaPortraitPage() {
         <h2 class="vb-section">3. Der Einserflügel: Genauigkeit und Pflichtgefühl</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Einserflügel</strong> gibt der sozialen Neun Genauigkeit und Pflichtgefühl. Bei einem schwach ausgeprägten Einserflügel bliebe die Neun gelassen und ungenau. Bei Riewa ist er stark ausgeprägt: Das Handwerk des Nachrichtensprechers verlangt Präzision, Pünktlichkeit und fehlerfreie Artikulation, und die Stationen vor dem Fernsehen passen dazu, die Ausbildung zum Fluglotsen mit ihrem strengen Regelwerk, die zweijährige Sprecherziehung und die Zeit bei der Armee.</p>
-          <p class="vb-intro">Die 20-Uhr-Ausgabe läuft seit 1995 mit demselben Anspruch an Verlässlichkeit. Das ist die Einser-Seite der Neun: Die Ruhe ruht auf Ordnung.</p>
+          <p class="vb-intro">Die 20-Uhr-Ausgabe läuft seit 1995 mit demselben Anspruch an Verlässlichkeit. Das ist die Einser-Seite der Neun: Die Ruhe beruht auf Ordnung.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Jahrzehntelange Verlässlichkeit vor der Kamera</h2>
