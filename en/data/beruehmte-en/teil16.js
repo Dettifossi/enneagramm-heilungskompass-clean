@@ -4221,7 +4221,7 @@ export function dieterThomasHeckPortraitPage() {
         <h2 class="vb-section">5. Light and Shadow of the Social Nine with a One-Wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light lies in hospitality. Heck gave artists a stage and did it with a warmth that made him known beyond the genre. That suits a Nine who creates community.</p>
-          <p class="vb-intro">The shadow belongs to the same pattern. Whoever puts himself so much in the service of a cause is easily equated with it in memory: for many he remained the man of the Hitparade, even though he was more. He died on 23 August 2018 at the age of 80 in a Berlin hospital and was buried at the Südwestkirchhof Stahnsdorf.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. Whoever puts himself so much in the service of a cause is easily equated with it in memory: for many he remained the man of the Hitparade, even though he was more. In his last years he suffered, according to press reports, from a lung disease, and in 2017 he needed an oxygen device at a television appearance. He died on 23 August 2018 at the age of 80 in Berlin, the family gave no details on the cause of death, and he was buried at the Südwestkirchhof Stahnsdorf.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Three Social Nines: Heck, Riewa and Hanks</h2>

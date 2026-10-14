@@ -4226,7 +4226,7 @@ export function dieterThomasHeckPortraitPage() {
         <h2 class="vb-section">5. Licht und Schatten der sozialen Neun mit Einserflügel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht liegt in der Gastfreundschaft. Heck gab Künstlern eine Bühne und tat es mit einer Wärme, die ihn auch über das Genre hinaus bekannt machte. Das passt zu einer Neun, die Gemeinschaft stiftet.</p>
-          <p class="vb-intro">Der Schatten gehört zum selben Muster. Wer sich so sehr in den Dienst einer Sache stellt, wird in der Erinnerung leicht mit ihr gleichgesetzt: Für viele blieb er der Mann der Hitparade, auch wenn er mehr war. Er starb am 23. August 2018 im Alter von 80 Jahren in einem Berliner Krankenhaus und wurde auf dem Südwestkirchhof Stahnsdorf beigesetzt.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Wer sich so sehr in den Dienst einer Sache stellt, wird in der Erinnerung leicht mit ihr gleichgesetzt: Für viele blieb er der Mann der Hitparade, auch wenn er mehr war. In seinen letzten Jahren litt er nach Presseberichten an einer Lungenerkrankung, und 2017 brauchte er bei einem Fernsehauftritt ein Sauerstoffgerät. Er starb am 23. August 2018 im Alter von 80 Jahren in Berlin, die Familie nannte keine Einzelheiten zur Todesursache, und er wurde auf dem Südwestkirchhof Stahnsdorf beigesetzt.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Drei soziale Neuner: Heck, Riewa und Hanks</h2>
