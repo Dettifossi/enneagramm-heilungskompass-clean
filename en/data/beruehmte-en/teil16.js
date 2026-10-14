@@ -3846,3 +3846,69 @@ export function jensRiewaPortraitPage() {
     </div>
   `);
 }
+
+export function marleenLohsePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-marleen-lohse-portrait.jpg" alt="Marleen Lohse – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-marleen-lohse-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Susan Polgar</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with a Three-Wing</p>
+        <p class="krim-portrait-subtitle">German actress, writer and musician, b. 1984 in Soltau &ndash; Animal match: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua That Senses Every Mood in the Room</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Chihuahua sits close to its person and senses every mood in the room before it is spoken. It is small but wide awake, and it throws itself in completely when something appeals to it. That is the image of the sexual Four: sensitive and intense, and she shuns no risk when it is about real expression.</p>
+          <p class="vb-intro">Marleen Lohse was born on 28 February 1984 in Soltau, grew up in Hoisdorf as the daughter of a hairdresser couple and attended the Gymnasium in Ahrensburg. As a child and teenager she did artistic gymnastics. At twelve she first stood before the camera in the series 'Neues vom Süderhof' (1997), and from 1998 to 2004 she played Julia 'Hexe' Clement in the NDR children's series 'Die Kinder vom Alstertal' ('The Children of the Alster Valley'), in 44 episodes. From 2006 to 2010 she studied at the Film and Television University 'Konrad Wolf' in Potsdam-Babelsberg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Four: Measuring Oneself to Be Seen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Four (SX4)</strong> carries the Four's pain into immediate personal intensity. Naranjo called this subtype <em>Competition</em>: the feeling that others have what one lacks oneself, and the impulse to measure oneself and stand out. In Lohse this shows not as quarrel with others but as persistence in doing it precisely and fully. She moved from child star to drama school and from there to roles that demand something of her.</p>
+          <p class="vb-intro">Her graduation production of Sam Shepard's 'Lügengespinst' ('Lie of the Mind', directed by Lukas Langhoff) won the ensemble prize at the Theatertreffen of German-language drama students in 2010, although the prize went to the ensemble and not expressly to her personally. In 2011 she played Petra Stockmann in Ibsen's 'Ein Volksfeind' ('An Enemy of the People') in Bonn, and in Berlin's Ballhaus Naunynstraße she appeared in 'Bloodshed in Divercity'.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Expression That Has Impact</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing</strong> gives the sexual Four the ability to turn the inner outward and into impact. With a weakly developed Three-wing the Four would stay in her own feeling. In Lohse it shows in several fields: cinema, television, stage, radio drama, screenplay and music. Since 2014 she has been seen as the vet Jule Christiansen in the ARD series 'Nord bei Nordwest', co-wrote with Erik Schmitt the screenplay for 'Story of Berlin', for whose treatment both received a grant from the Wim Wenders Foundation, and works regularly as a radio-play speaker; the ARD radio-play database listed a good seventy projects in April 2023.</p>
+          <p class="vb-intro">In 2025 she released her own music for the first time, and her debut album 'Wide Awake' appeared in October. An inner life that long spoke through roles gets a voice of its own: a typical step of the Four, who wants to make the personal visible.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: From Child Role to the Berlinale</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Lohse apart from many child actors is the route through training to roles with weight of their own. In cinema she made her debut in 2007 with a supporting part in 'Vollidiot', played in 'Zimmer 205' (2011), 'Sushi in Suhl' (2012), 'Frau Ella' (2013) and 'Happy Burnout' (2017), and in 2019 received her first leading role on the cinema screen: in Erik Schmitt's 'Cleo' she had the title role, and the film had its world premiere at the Berlinale in the Generation section.</p>
+          <p class="vb-intro">Added to this are television roles such as the female lead in the fairy-tale film 'Das blaue Licht' ('The Blue Light', 2010) and, since 2021, the mother in the film series 'Die Schule der magischen Tiere' ('The School of Magical Animals'). From the gymnastics of her youth comes the body control she uses as a performer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Four with a Three-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the willingness to expose oneself: whoever goes from child star to a performer with a handwriting of her own and later dares a debut as a musician risks comparison with what already exists. That suits a sexual Four who would rather be whole and vulnerable than protected and half.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. The Four with a Three-wing quickly measures herself by impact: whoever appears in several fields stands in comparison in each, and the wish to be seen whole can turn into constant pressure. Nothing personal can be read from the published sources on this; this is only the pattern of the subtype.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Sexual Fours with a Three-Wing: Lohse, Kaulitz and Eilish</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-bill-kaulitz">Bill Kaulitz</a> (SX4w3), Lohse shares the subtype: both came before an audience early and turned their individuality into expression, Kaulitz into the stage persona of a frontman, Lohse into the variety of roles. In Kaulitz the intensity is loud and visible, in Lohse it shows more quietly, in the precision of the performance.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-billie-eilish">Billie Eilish</a> (SX4w3) also came to the stage young and stays true to her own expression. As with Lohse, music comes as a way to bring the inner life into a voice of its own.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"lebensmusterkompass/sx4", label:"Life Pattern Compass: SX4 – Chihuahua"},
+        {route:"beruehmte-bill-kaulitz", label:"Portrait: Bill Kaulitz (SX4w3) – same subtype, intensity as a stage persona"},
+        {route:"beruehmte-billie-eilish", label:"Portrait: Billie Eilish (SX4w3) – same subtype, came to the stage young"},
+      ])}
+    </div>
+  `);
+}

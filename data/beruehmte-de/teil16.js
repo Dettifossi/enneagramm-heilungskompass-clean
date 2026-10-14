@@ -3851,3 +3851,69 @@ export function jensRiewaPortraitPage() {
     </div>
   `);
 }
+
+export function marleenLohsePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-marleen-lohse-portrait.jpg" alt="Marleen Lohse – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-marleen-lohse-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Susan Polgar</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Schauspielerin, Autorin und Musikerin, geb. 1984 in Soltau &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua, der jede Stimmung im Raum spürt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Chihuahua sitzt dicht am Menschen und spürt jede Stimmung im Raum, bevor sie ausgesprochen wird. Er ist klein, aber hellwach, und er legt sich ganz hinein, wenn ihn etwas anspricht. Das ist das Bild der sexuellen Vier: Sie ist empfindsam und intensiv, und sie scheut kein Risiko, wenn es um echten Ausdruck geht.</p>
+          <p class="vb-intro">Marleen Lohse wurde am 28. Februar 1984 in Soltau geboren, wuchs als Tochter eines Friseur-Ehepaars in Hoisdorf auf und besuchte das Gymnasium in Ahrensburg. Als Kind und Jugendliche betrieb sie Kunstturnen. Mit zwölf Jahren stand sie in der Serie ›Neues vom Süderhof‹ (1997) erstmals vor der Kamera, und von 1998 bis 2004 spielte sie in der NDR-Kinderserie ›Die Kinder vom Alstertal‹ die Julia ›Hexe‹ Clement, in 44 Folgen. Von 2006 bis 2010 studierte sie an der Hochschule für Film und Fernsehen ›Konrad Wolf‹ in Potsdam-Babelsberg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Sich messen, um gesehen zu werden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> trägt den Schmerz der Vier in unmittelbare persönliche Intensität. Naranjo nannte diesen Subtyp <em>Rivalität</em>: das Gefühl, dass andere haben, was einem selbst fehlt, und der Impuls, sich zu messen und aufzufallen. Bei Lohse zeigt sich das nicht als Streit mit anderen, sondern als Beharrlichkeit, es genau und ganz zu machen. Sie wechselte vom Kinderstar zur Theaterschule und von dort zu Rollen, die ihr etwas abverlangen.</p>
+          <p class="vb-intro">Ihre Abschlussinszenierung von Sam Shepards ›Lügengespinst‹ (Regie: Lukas Langhoff) erhielt 2010 beim Theatertreffen deutschsprachiger Schauspielstudierender den Ensemblepreis, wobei der Preis dem Ensemble galt und nicht ausdrücklich ihr persönlich. 2011 spielte sie in Bonn die Petra Stockmann in Ibsens ›Ein Volksfeind‹, und im Berliner Ballhaus Naunynstraße stand sie in ›Bloodshed in Divercity‹ auf der Bühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Ausdruck, der wirkt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel</strong> gibt der sexuellen Vier die Fähigkeit, das Innere nach außen zu wenden und in Wirkung zu verwandeln. Bei einem schwach ausgeprägten Dreierflügel bliebe die Vier im eigenen Gefühl. Bei Lohse zeigt er sich in mehreren Feldern: Kino, Fernsehen, Bühne, Hörspiel, Drehbuch und Musik. Sie ist seit 2014 als Tierärztin Jule Christiansen in der ARD-Reihe ›Nord bei Nordwest‹ zu sehen, schrieb zusammen mit Erik Schmitt das Drehbuch zu ›Story of Berlin‹, für dessen Treatment beide ein Stipendium der Wim Wenders Stiftung erhielten, und ist regelmäßig als Hörspielsprecherin tätig; die ARD-Hörspieldatenbank führte im April 2023 gut siebzig Projekte.</p>
+          <p class="vb-intro">2025 veröffentlichte sie zum ersten Mal eigene Musik, im Oktober erschien das Debütalbum ›Wide Awake‹. Ein Innenleben, das lange in Rollen sprach, bekommt eine eigene Stimme: ein typischer Schritt der Vier, die das Persönliche sichtbar machen will.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Von der Kinderrolle zur Berlinale</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Lohse von vielen Kinderdarstellern unterscheidet, ist der Weg über die Ausbildung zu Rollen mit eigenem Gewicht. Im Kino debütierte sie 2007 mit einer Nebenrolle in ›Vollidiot‹, spielte in ›Zimmer 205‹ (2011), ›Sushi in Suhl‹ (2012), ›Frau Ella‹ (2013) und ›Happy Burnout‹ (2017) und erhielt 2019 ihre erste Hauptrolle auf der Kinoleinwand: In Erik Schmitts ›Cleo‹ hatte sie die Titelrolle, der Film hatte seine Weltpremiere bei der Berlinale in der Sektion Generation.</p>
+          <p class="vb-intro">Dazu kommen Fernsehrollen wie die weibliche Hauptrolle in dem Märchenfilm ›Das blaue Licht‹ (2010) und, seit 2021, die Mutter in der Filmreihe ›Die Schule der magischen Tiere‹. Aus dem Kunstturnen ihrer Jugend stammt die Körperbeherrschung, die sie als Darstellerin nutzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Vier mit Dreierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Bereitschaft, sich auszusetzen: Wer vom Kinderstar zur Darstellerin mit eigener Handschrift wird und später als Musikerin ein Debüt wagt, riskiert den Vergleich mit dem, was schon da ist. Das passt zu einer sexuellen Vier, die lieber ganz und verletzlich ist als geschützt und halb.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Vier mit Dreierflügel misst sich schnell an der Wirkung: Wer in mehreren Feldern auftritt, steht in jedem im Vergleich, und der Wunsch, ganz gesehen zu werden, kann in Dauerdruck umschlagen. Aus den veröffentlichten Quellen lässt sich dazu nichts Persönliches ablesen; das ist hier nur das Muster des Subtyps.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei sexuelle Vierer mit Dreierflügel: Lohse, Kaulitz und Eilish</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-bill-kaulitz">Bill Kaulitz</a> (SX4w3) verbindet Lohse der Subtyp: Beide kamen früh vor ein Publikum und verwandelten ihre Eigenheit in Ausdruck, Kaulitz in die Bühnenfigur eines Frontmanns, Lohse in die Vielfalt der Rollen. Bei Kaulitz ist die Intensität laut und sichtbar, bei Lohse zeigt sie sich leiser, in der Genauigkeit der Darstellung.</p>
+          <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-billie-eilish">Billie Eilish</a> (SX4w3) kam jung zur Bühne und bleibt dem eigenen Ausdruck treu. Wie bei Lohse kommt die Musik als Weg dazu, das Innere in eine eigene Stimme zu bringen.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx4", label:"Lebensmusterkompass: SX4 – Chihuahua"},
+        {route:"beruehmte-bill-kaulitz", label:"Porträt: Bill Kaulitz (SX4w3) – derselbe Subtyp, Intensität als Bühnenfigur"},
+        {route:"beruehmte-billie-eilish", label:"Porträt: Billie Eilish (SX4w3) – derselbe Subtyp, jung zur Bühne gekommen"},
+      ])}
+    </div>
+  `);
+}
