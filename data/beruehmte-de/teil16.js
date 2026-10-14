@@ -4183,3 +4183,69 @@ export function sofiaPolgarPortraitPage() {
     </div>
   `);
 }
+
+export function dieterThomasHeckPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dieter-thomas-heck-portrait.jpg" alt="Dieter Thomas Heck – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-dieter-thomas-heck-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Dieter Thomas Heck</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Fernsehmoderator und Sänger, 1937&ndash;2018 &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel, der die Bühne für andere freihält</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Büffel läuft vorneweg, aber nicht, um selbst zu glänzen. Er hält den Weg frei, und hinter ihm kommt die Herde. Das ist das Bild der sozialen Neun: Sie gibt der Gemeinschaft eine Bühne und tritt dabei so auf, dass man sich bei ihr sicher fühlt.</p>
+          <p class="vb-intro">Dieter Thomas Heck wurde am 29. Dezember 1937 als Carl-Dieter Heckscher in Flensburg geboren und wuchs in Hamburg auf. Nach einer Darstellung wurde er mit fünf Jahren bei einem Bombenangriff verschüttet und stotterte danach; eine Gesangsausbildung half ihm, das zu überwinden, und daraus entwickelte sich seine Fähigkeit zum schnellen Sprechen. Er machte nach der Mittelschule eine Ausbildung zum Technischen Kaufmann bei einer Borgward-Vertretung in Hamburg und arbeitete als Automobilverkäufer. 1959 trat er als ›Dieter Heckscher‹ in Peter Frankenfelds Talentshow auf und sang 1961 in der Vorentscheidung zum Eurovision Song Contest.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Teilhabe an einer Sache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> findet nach Naranjo Identität in der Teilhabe: im Mitwirken an einer Sache und einer Gemeinschaft, weniger im eigenen Auftritt. Bei Heck zeigte sich das schon im Rundfunk: 1963 bekam er beim Südwestfunk nach einem spontanen Studiogespräch ein Radioangebot, 1965/66 moderierte er bei Radio Luxemburg, und der Name ›Thomas‹ stammt aus einem Leseraufruf der Zeitschrift ›Bravo‹. Bei der Europawelle Saar leitete er die Sendung ›Die Deutsche Schlagerparade‹ und initiierte 1967 die ›Goldene Europa‹.</p>
+          <p class="vb-intro">Seine Rolle war die des Gastgebers: Er stellte Künstler vor, die das Publikum kennenlernen sollte, und machte aus der Musik eine gemeinsame Sache.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Ordnung, Tempo und Pflicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> gibt der sozialen Neun Genauigkeit und Pflichtgefühl. Bei einem schwach ausgeprägten Einserflügel bliebe die Neun gemächlich. Bei Heck war er stark ausgeprägt: Die ZDF-Hitparade verlangte straffe Abläufe, exakte Ansagen und das legendär schnelle Sprechen, das aus der Überwindung des Stotterns hervorging. Auch seine Haltung zum Ordentlichen zeigte sich in einer Sendung, die Platzierungen, Abstimmung und feste Regeln hatte.</p>
+          <p class="vb-intro">Die Pflicht trug er in die Wohltätigkeit: Von 1994 bis 2007 moderierte er die Gala ›Melodien für Millionen‹ zugunsten der Deutschen Krebshilfe, bei der nach dem Wikipedia-Artikel in achtzehn Ausgaben über 50 Millionen Euro zusammenkamen. Er engagierte sich außerdem für den Tierschutz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Die Hitparade als Wohnzimmer der Nation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Heck von anderen unterschied, war die Dauer und die Wirkung der ZDF-Hitparade, die er von 1969 bis 1984 insgesamt 183-mal präsentierte. Nach anfänglicher Medienkritik wurde sie zu einer der wichtigsten Musiksendungen der 1970er- und 1980er-Jahre. Er verband Tempo mit Herzlichkeit und machte die Ansage zum eigenen Markenzeichen. Dazu kamen weitere ZDF-Sendungen wie ›Die Pyramide‹ (1979–1994), ›Musik liegt in der Luft‹ (1991–1998) und das ›Sommer-Hitfestival‹ (1999–2007), eine Rolle im Fernsehspiel ›Das Millionenspiel‹ (1970) und als Sänger die Single ›Es ist Mitternacht, John‹ (1981).</p>
+          <p class="vb-intro">Die Auszeichnungen spiegeln das: Goldene Kamera 1970 und 2017, Echo-Sonderpreis 2008, Bundesverdienstkreuz erster Klasse 2009, Deutscher Musikpreis 2012 und Hans-Rosenthal-Ehrenpreis 2014.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Gastfreundschaft. Heck gab Künstlern eine Bühne und tat es mit einer Wärme, die ihn auch über das Genre hinaus bekannt machte. Das passt zu einer Neun, die Gemeinschaft stiftet.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Wer sich so sehr in den Dienst einer Sache stellt, wird in der Erinnerung leicht mit ihr gleichgesetzt: Für viele blieb er der Mann der Hitparade, auch wenn er mehr war. Er starb am 23. August 2018 im Alter von 80 Jahren in einem Berliner Krankenhaus und wurde auf dem Südwestkirchhof Stahnsdorf beigesetzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Drei soziale Neuner: Heck, Riewa und Hanks</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-jens-riewa">Jens Riewa</a> (SO9w1) verbindet Heck der Subtyp und ein Stück Programmgeschichte: Riewa moderierte von 1994 bis etwa 2000 ebenfalls eine ›Deutsche Schlagerparade‹, das ARD-Pendant zur ZDF-Hitparade. Beide stellten ihre Stimme in den Dienst einer Sendung, bei der die Musik im Vordergrund stand.</p>
+          <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-tom-hanks">Tom Hanks</a> (SO9w1) steht für Verlässlichkeit, die Vertrauen schafft. Heck tat es als Gastgeber der Schlagerwelt, Hanks als Schauspieler.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so9", label:"Lebensmusterkompass: SO9 – Büffel"},
+        {route:"beruehmte-jens-riewa", label:"Porträt: Jens Riewa (SO9w1) – derselbe Subtyp, moderierte ebenfalls eine Schlagerparade"},
+        {route:"beruehmte-tom-hanks", label:"Porträt: Tom Hanks (SO9w1) – derselbe Subtyp, Verlässlichkeit als Markenzeichen"},
+      ])}
+    </div>
+  `);
+}

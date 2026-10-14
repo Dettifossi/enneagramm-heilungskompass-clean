@@ -4178,3 +4178,69 @@ export function sofiaPolgarPortraitPage() {
     </div>
   `);
 }
+
+export function dieterThomasHeckPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dieter-thomas-heck-portrait.jpg" alt="Dieter Thomas Heck – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-dieter-thomas-heck-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Dieter Thomas Heck</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with a One-Wing</p>
+        <p class="krim-portrait-subtitle">German television presenter and singer, 1937&ndash;2018 &ndash; Animal match: Buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Buffalo That Keeps the Stage Free for Others</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The buffalo runs ahead, but not to shine itself. It keeps the path clear, and the herd follows behind. That is the image of the social Nine: she gives the community a stage and appears in such a way that one feels safe with her.</p>
+          <p class="vb-intro">Dieter Thomas Heck was born on 29 December 1937 as Carl-Dieter Heckscher in Flensburg and grew up in Hamburg. By one account he was buried in rubble in an air raid at the age of five and stuttered afterwards; voice training helped him overcome it, and from that grew his ability to speak fast. After secondary school he trained as a commercial clerk at a Borgward dealership in Hamburg and worked as a car salesman. In 1959 he appeared as 'Dieter Heckscher' in Peter Frankenfeld's talent show and in 1961 sang in the German heat for the Eurovision Song Contest.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Nine: Participation in a Cause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>social Nine (SO9)</strong> finds identity in participation: in taking part in a cause and a community, less in her own performance. In Heck this showed already in broadcasting: in 1963 he received a radio offer at Südwestfunk after a spontaneous studio conversation, in 1965/66 he presented at Radio Luxembourg, and the name 'Thomas' comes from a readers' call in the magazine 'Bravo'. At Europawelle Saar he led the programme 'Die Deutsche Schlagerparade' and in 1967 initiated the 'Goldene Europa'.</p>
+          <p class="vb-intro">His role was that of the host: he introduced artists whom the audience was meant to get to know and made music a shared cause.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Order, Pace and Duty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing</strong> gives the social Nine precision and a sense of duty. With a weakly developed One-wing the Nine would stay unhurried. In Heck it was strongly developed: the ZDF Hitparade demanded tight sequences, exact announcements and the legendarily fast speech that came from overcoming the stutter. His attitude to order also showed in a programme that had rankings, voting and fixed rules.</p>
+          <p class="vb-intro">He carried duty into charity: from 1994 to 2007 he presented the gala 'Melodien für Millionen' ('Melodies for Millions') in aid of the Deutsche Krebshilfe, at which, according to the Wikipedia article, over 50 million euros came together in eighteen editions. He was also committed to animal welfare.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: The Hitparade as the Nation's Living Room</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What set Heck apart was the length and effect of the ZDF Hitparade, which he presented 183 times from 1969 to 1984. After initial criticism in the media it became one of the most important music programmes of the 1970s and 1980s. He joined pace with warmth and made the announcement his own trademark. Added to this were further ZDF programmes such as 'Die Pyramide' (1979–1994), 'Musik liegt in der Luft' (1991–1998) and the 'Sommer-Hitfestival' (1999–2007), a role in the television play 'Das Millionenspiel' ('The Million Game', 1970) and, as a singer, the single 'Es ist Mitternacht, John' ('It's Midnight, John', 1981).</p>
+          <p class="vb-intro">The awards reflect this: Goldene Kamera 1970 and 2017, Echo special prize 2008, Federal Cross of Merit first class 2009, Deutscher Musikpreis 2012 and Hans Rosenthal Honorary Award 2014.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Nine with a One-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in hospitality. Heck gave artists a stage and did it with a warmth that made him known beyond the genre. That suits a Nine who creates community.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. Whoever puts himself so much in the service of a cause is easily equated with it in memory: for many he remained the man of the Hitparade, even though he was more. He died on 23 August 2018 at the age of 80 in a Berlin hospital and was buried at the Südwestkirchhof Stahnsdorf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Three Social Nines: Heck, Riewa and Hanks</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-jens-riewa">Jens Riewa</a> (SO9w1), Heck shares the subtype and a piece of programme history: Riewa too hosted a 'Deutsche Schlagerparade' from 1994 to about 2000, the ARD counterpart to the ZDF Hitparade. Both put their voice in the service of a programme in which the music stood in the foreground.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-tom-hanks">Tom Hanks</a> (SO9w1) also stands for reliability that creates trust. Heck did it as host of the Schlager world, Hanks as an actor.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
+        {route:"lebensmusterkompass/so9", label:"Life Pattern Compass: SO9 – Buffalo"},
+        {route:"beruehmte-jens-riewa", label:"Portrait: Jens Riewa (SO9w1) – same subtype, also hosted a Schlagerparade"},
+        {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1) – same subtype, reliability as a trademark"},
+      ])}
+    </div>
+  `);
+}
