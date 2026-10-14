@@ -854,6 +854,7 @@ export function juditPolgarPortraitPage() {
         {route:"beruehmte-kathrin-bauerfeind", label:"Porträt: Kathrin Bauerfeind (SE3w4)"},
         {route:"beruehmte-tony-shalhoub", label:"Porträt: Tony Shalhoub (SE3w4)"},
         {route:"beruehmte-magnus-carlsen", label:"Porträt: Magnus Carlsen (SE1w9) – von ihr besiegter Weltmeister"},
+        {route:"beruehmte-susan-polgar", label:"Porträt: Susan Polgar (SE3w2) – Schwester, derselbe Subtyp mit anderem Flügel"},
       ])}
     </div>
   `);

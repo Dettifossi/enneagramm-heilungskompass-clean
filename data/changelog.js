@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2501", date: "2026-10-14", text: "Neues Porträt: Susan Polgar (SE3w2) – Schach-Großmeisterin und Trainerin.", text_en: "New portrait: Susan Polgar (SE3w2) – chess grandmaster and coach.", route: "beruehmte-susan-polgar" },
     { version: "v2500", date: "2026-10-14", text: "Neues Porträt: Maria Treben (SO9w1) – österreichische Kräuterkundige und Autorin.", text_en: "New portrait: Maria Treben (SO9w1) – Austrian herbalist and author.", route: "beruehmte-maria-treben" },
     { version: "v2499", date: "2026-10-14", text: "Neues Porträt: Joel S. Goldsmith (SE7w6) – spiritueller Lehrer, Begründer von The Infinite Way.", text_en: "New portrait: Joel S. Goldsmith (SE7w6) – spiritual teacher, founder of The Infinite Way.", route: "beruehmte-joel-goldsmith" },
     { version: "v2498", date: "2026-10-14", text: "Neues Porträt: Bruno Gröning (SO1w2) – Heilungsprediger der Nachkriegszeit.", text_en: "New portrait: Bruno Gröning (SO1w2) – healing preacher of the postwar years.", route: "beruehmte-bruno-groening" },
