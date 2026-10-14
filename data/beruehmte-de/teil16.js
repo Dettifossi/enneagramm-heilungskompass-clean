@@ -4049,3 +4049,69 @@ export function sentaBergerPortraitPage() {
     </div>
   `);
 }
+
+export function robertGreenePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-robert-greene-portrait.jpg" alt="Robert Greene – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-robert-greene-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Robert Greene</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexueller Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Autor, geb. 1959 in Los Angeles &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba, die jede Bewegung liest</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Schwarze Mamba schlägt nicht blind zu. Sie beobachtet, wartet und liest die Bewegung ihres Gegenübers, bevor sie sich entscheidet, und dann ist sie schnell. Das ist das Bild der sexuellen Eins: Sie sieht Muster, wo andere Zufall sehen, und sie bringt sie mit aller Konsequenz auf den Punkt.</p>
+          <p class="vb-intro">Robert Greene wurde am 14. Mai 1959 in Los Angeles als jüngerer Sohn jüdischer Eltern geboren und wuchs in Baldwin Hills und Brentwood auf. Er studierte an der University of California in Berkeley, schloss an der University of Wisconsin–Madison mit einem Bachelor in Klassischer Philologie ab und schätzt, rund fünfzig verschiedene Jobs gehabt zu haben, darunter Bauarbeiter, Übersetzer, Magazinredakteur und Drehbuchautor in Hollywood. Die Zahl beruht auf seiner eigenen Angabe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Der Eifer, Gesetzmäßigkeiten zu finden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> ist nach Naranjo der Eiferer: Sie setzt sich mit Leidenschaft und ganzer Kraft für das ein, was ihr als richtig gilt, und sie will wissen, wie die Dinge wirklich funktionieren. Bei Greene zeigt sich das in seiner Arbeitsweise: Er sucht in Geschichte und Philosophie nach wiederkehrenden Mustern des Verhaltens und fasst sie als nummerierte Gesetze und Strategien zusammen. Das ist der Ordnungsdrang der Eins, gewendet auf Macht, Verführung, Krieg und menschliche Natur.</p>
+          <p class="vb-intro">1995 arbeitete er als Autor an der Kunst- und Medienschule Fabrica in Italien und lernte dort den Buchpackager Joost Elffers kennen. Greene schlug ihm ein Buch über Macht vor, schrieb ein Konzept, und daraus wurde ›The 48 Laws of Power‹ (1998), das er selbst als Wendepunkt seines Lebens bezeichnet. Es folgten ›The Art of Seduction‹ (2001), ›The 33 Strategies of War‹ (2006), ›The 50th Law‹ (2009, mit dem Rapper 50 Cent), ›Mastery‹ (2012), ›The Laws of Human Nature‹ (2018) und ›The Daily Laws‹ (2021).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Ruhe und Weite hinter dem Eifer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> gibt der sexuellen Eins Ruhe und Weite. Bei einem schwach ausgeprägten Neunerflügel bliebe die Eins hitzig und kämpferisch. Bei Greene wirkt er stark: Er schreibt mit dem kühlen Blick des Beobachters, nicht mit der Hitze des Predigers, und er lebt nach eigener Angabe zurückgezogen in Los Angeles, spricht nach seinen Worten fünf Sprachen und beschäftigt sich mit dem Zen-Buddhismus.</p>
+          <p class="vb-intro">Auf die Kritik an seinen Büchern antwortet er sachlich: Nur wenige der 48 Gesetze seien tatsächlich manipulativ, sagt er, statt sich auf Streit einzulassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Macht als Gegenstand der Beobachtung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Greene von vielen Ratgeberautoren unterscheidet, ist der Zugriff: Er schreibt keine Motivationsliteratur, sondern sammelt Beispiele aus der Geschichte, von Höfen, Feldherren und Verführern, und leitet daraus Regeln ab. Nach Angaben aus dem Umfeld des Verlags wurden von ›The 48 Laws of Power‹ mehr als 1,2 Millionen Exemplare verkauft, von ›The Art of Seduction‹ mehr als 500.000 und von ›The 33 Strategies of War‹ mehr als 200.000; die Zahlen sind nicht unabhängig geprüft.</p>
+          <p class="vb-intro">Die Wirkung reicht weit über Bücherregale hinaus. Prominente aus Musik, Politik und Bürgerrechtsbewegung nennen seine Bücher, darunter 50 Cent, Jay-Z und Will Smith. Greene war außerdem von 2001 an Berater des Gründers von American Apparel und nach dem Börsengang 2007 Mitglied des Verwaltungsrats. Zugleich gilt er nach einer Angabe als der in US-Gefängnissen am häufigsten verbotene Autor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Klarheit. Greene nimmt dem Thema Macht den Nebel: Er benennt, was viele ungern aussprechen, und schafft damit Verständnis, auch für den Selbstschutz vor Manipulation. Das passt zu einer Eins, die Dinge ordnen und durchschaubar machen will.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Sunday Times bezeichnete ›The 48 Laws of Power‹ als ›Bibel‹ des Hollywood-Intrigantentums, und The Independent äußerte Zweifel, ob Greene selbst an seine Thesen glaubt oder sie als Verkaufsmasche nutzt. Wer Gesetzmäßigkeiten des Verhaltens so scharf fasst, riskiert, dass sie als Gebrauchsanweisung gelesen werden. 2018 erlitt er nach eigener Aussage einen schweren Schlaganfall durch ein Blutgerinnsel im Hals, bei dem sein linker Arm und sein linkes Bein zeitweise kaum nutzbar waren; die Ärzte erwarteten laut seinem Beitrag eine vollständige Genesung nach einigen Monaten Rehabilitation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Zwei Beobachter der Macht: Greene, Foucault und Beuys</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-michel-foucault">Michel Foucault</a> (SX1w9) verbindet Greene der Subtyp und das Thema: Beide untersuchen, wie Macht funktioniert. Foucault tat es als Philosoph mit begrifflicher Strenge, Greene als Autor mit Beispielen und Regeln, und beide wollten die verborgenen Mechanismen sichtbar machen.</p>
+          <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-joseph-beuys">Joseph Beuys</a> (SX1w9) zeigt den Eifer der sexuellen Eins, aus Beobachtung eine Botschaft zu machen. Bei Beuys wurde sie Kunst, bei Greene wurde sie ein Regelwerk.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx1", label:"Lebensmusterkompass: SX1 – Schwarze Mamba"},
+        {route:"beruehmte-michel-foucault", label:"Porträt: Michel Foucault (SX1w9) – derselbe Subtyp, Macht als Gegenstand des Denkens"},
+        {route:"beruehmte-joseph-beuys", label:"Porträt: Joseph Beuys (SX1w9) – derselbe Subtyp, Sendungsbewusstsein"},
+      ])}
+    </div>
+  `);
+}

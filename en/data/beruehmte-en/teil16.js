@@ -4044,3 +4044,69 @@ export function sentaBergerPortraitPage() {
     </div>
   `);
 }
+
+export function robertGreenePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-robert-greene-portrait.jpg" alt="Robert Greene – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-robert-greene-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Robert Greene</p>
+        <p class="krim-portrait-typ">SX1w9 &middot; Sexual Type 1 with a Nine-Wing</p>
+        <p class="krim-portrait-subtitle">American author, b. 1959 in Los Angeles &ndash; Animal match: Black Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Black Mamba That Reads Every Movement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The black mamba does not strike blindly. It watches, waits and reads the movement of its counterpart before deciding, and then it is fast. That is the image of the sexual One: she sees patterns where others see chance, and she brings them to a point with all consistency.</p>
+          <p class="vb-intro">Robert Greene was born on 14 May 1959 in Los Angeles, the younger son of Jewish parents, and grew up in Baldwin Hills and Brentwood. He studied at the University of California at Berkeley, graduated from the University of Wisconsin–Madison with a bachelor's degree in classical studies, and estimates he has had about fifty different jobs, including construction worker, translator, magazine editor and screenwriter in Hollywood. The number rests on his own statement.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual One: The Zeal to Find Regularities</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>sexual One (SX1)</strong> is the zealot: she throws herself with passion and full strength into what she holds to be right, and she wants to know how things really work. In Greene this shows in his way of working: he looks in history and philosophy for recurring patterns of behaviour and sums them up as numbered laws and strategies. That is the One's urge for order, turned to power, seduction, war and human nature.</p>
+          <p class="vb-intro">In 1995 he worked as a writer at the art and media school Fabrica in Italy and met the book packager Joost Elffers there. Greene proposed a book on power to him, wrote a concept, and out of it came 'The 48 Laws of Power' (1998), which he himself calls the turning point of his life. 'The Art of Seduction' (2001), 'The 33 Strategies of War' (2006), 'The 50th Law' (2009, with the rapper 50 Cent), 'Mastery' (2012), 'The Laws of Human Nature' (2018) and 'The Daily Laws' (2021) followed.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Calm and Breadth Behind the Zeal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> gives the sexual One calm and breadth. With a weakly developed Nine-wing the One would stay heated and combative. In Greene it is strong: he writes with the cool eye of the observer, not the heat of the preacher, and by his own account lives in seclusion in Los Angeles, speaks five languages by his own words and engages with Zen Buddhism.</p>
+          <p class="vb-intro">To criticism of his books he replies matter-of-factly: only a few of the 48 laws are actually manipulative, he says, instead of getting into a quarrel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Power as an Object of Observation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Greene apart from many advice authors is the approach: he does not write motivational literature but collects examples from history, from courts, generals and seducers, and derives rules from them. According to figures from the publisher's side, more than 1.2 million copies of 'The 48 Laws of Power' were sold, more than 500,000 of 'The Art of Seduction' and more than 200,000 of 'The 33 Strategies of War'; the figures are not independently checked.</p>
+          <p class="vb-intro">The effect reaches far beyond bookshelves. Figures from music, politics and the civil rights movement name his books, among them 50 Cent, Jay-Z and Will Smith. Greene was also from 2001 an adviser to the founder of American Apparel and after the 2007 stock-market flotation a board member. At the same time, by one account, he is the author most often banned in US prisons.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual One with a Nine-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in clarity. Greene takes the fog out of the subject of power: he names what many are reluctant to say and thereby creates understanding, also for protection against manipulation. That suits a One who wants to order things and make them transparent.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. The Sunday Times called 'The 48 Laws of Power' the 'bible' of Hollywood scheming, and The Independent doubted whether Greene himself believes his theses or uses them as a sales gimmick. Whoever frames regularities of behaviour so sharply risks that they are read as instructions. In 2018 he suffered, by his own account, a serious stroke caused by a blood clot in the neck, in which his left arm and left leg were temporarily barely usable; according to his post, doctors expected a full recovery after a few months of rehabilitation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Two Observers of Power: Greene, Foucault and Beuys</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-michel-foucault">Michel Foucault</a> (SX1w9), Greene shares the subtype and the subject: both investigate how power works. Foucault did so as a philosopher with conceptual rigour, Greene as an author with examples and rules, and both wanted to make the hidden mechanisms visible.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-joseph-beuys">Joseph Beuys</a> (SX1w9) also shows the sexual One's zeal to make a message out of observation. In Beuys it became art, in Greene it became a rulebook.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+        {route:"lebensmusterkompass/sx1", label:"Life Pattern Compass: SX1 – Black Mamba"},
+        {route:"beruehmte-michel-foucault", label:"Portrait: Michel Foucault (SX1w9) – same subtype, power as a subject of thought"},
+        {route:"beruehmte-joseph-beuys", label:"Portrait: Joseph Beuys (SX1w9) – same subtype, sense of mission"},
+      ])}
+    </div>
+  `);
+}

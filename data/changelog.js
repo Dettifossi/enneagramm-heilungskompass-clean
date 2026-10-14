@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2506", date: "2026-10-14", text: "Neues Porträt: Robert Greene (SX1w9) – Autor von ›The 48 Laws of Power‹.", text_en: "New portrait: Robert Greene (SX1w9) – author of The 48 Laws of Power.", route: "beruehmte-robert-greene" },
     { version: "v2505", date: "2026-10-14", text: "Neues Porträt: Senta Berger (SX4w3) – Schauspielerin und Produzentin.", text_en: "New portrait: Senta Berger (SX4w3) – actress and producer.", route: "beruehmte-senta-berger" },
     { version: "v2504", date: "2026-10-14", text: "Neues Porträt: Andrea Sawatzki (SX4w3) – Schauspielerin und Autorin.", text_en: "New portrait: Andrea Sawatzki (SX4w3) – actress and author.", route: "beruehmte-andrea-sawatzki" },
     { version: "v2503", date: "2026-10-14", text: "Neues Porträt: Marleen Lohse (SX4w3) – Schauspielerin, Autorin und Musikerin.", text_en: "New portrait: Marleen Lohse (SX4w3) – actress, writer and musician.", route: "beruehmte-marleen-lohse" },
