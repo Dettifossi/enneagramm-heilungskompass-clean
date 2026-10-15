@@ -4382,3 +4382,69 @@ export function lukeNicholsPortraitPage() {
     </div>
   `);
 }
+
+export function matthiasReimPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-matthias-reim-portrait.jpg" alt="Matthias Reim – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-matthias-reim-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Matthias Reim</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexueller Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Schlagersänger, Songwriter und Produzent, geb. 1957 in Korbach &ndash; Tierentsprechung: Schwarze Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Schwarze Mamba, die sich nach dem Sturz wieder aufrichtet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Schwarze Mamba richtet sich auf, wenn sie bedroht ist, und sie gibt nicht auf. Auch nach einem Sturz sucht sie den Weg zurück, schnell und mit ihrer ganzen Kraft. Das ist das Bild der sexuellen Eins: Sie lebt mit Intensität, verträgt keine Halbheiten und kehrt zurück, wenn sie noch etwas zu sagen hat.</p>
+          <p class="vb-intro">Matthias Reim wurde am 26. November 1957 in Korbach in Hessen geboren und wuchs in Homberg (Efze) auf, wo sein Vater Schulleiter des Gymnasiums war. Er begann ein Studium der Germanistik und Anglistik in Göttingen und brach es zugunsten der Musik ab. In den 1980er-Jahren spielte er in mehreren Bands (Airway, Aqua, Fallen Dice, Fair Fax), die keinen kommerziellen Erfolg hatten, und 1984 erschien seine erste Solosingle. In der zweiten Hälfte der Achtziger schrieb er Schlagerlieder für Bernhard Brink, Jürgen Drews, Roy Black und Tina York.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Eins: Intensität und Eifer in der Musik</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Eins (SX1)</strong> ist nach Naranjo der Eiferer: Sie setzt sich mit Leidenschaft und ganzer Kraft für das ein, was ihr als richtig gilt. Bei Reim zeigt sich das in der Art, wie er Musik macht: Er komponiert, textet, produziert und spielt seine Lieder überwiegend selbst. Seine Lieder handeln von Liebe in ihrer ungeschützten Form, und das Lied, das ihn berühmt machte, trägt die Intensität im Titel: ›Verdammt, ich lieb' Dich‹.</p>
+          <p class="vb-intro">Der Durchbruch kam am 18. April 1990 mit einem Auftritt in der ZDF-Show ›Der große Preis‹, vermittelt über Bernhard Brink. Die Single wurde nach dem Wikipedia-Artikel weltweit 2,5 Millionen Mal verkauft und stand 16 Wochen auf Platz 1 der deutschen Charts. Das Debütalbum ›Reim‹ erschien im Juni 1990 und erreichte die Top 10.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Zuwendung zu den Menschen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> gibt der sexuellen Eins Wärme und Zuwendung. Bei einem schwach ausgeprägten Zweierflügel bliebe die Eins hitzig und fordernd. Bei Reim zeigt er sich in einem Werk, das Menschen direkt anspricht, in Liedern für andere und in Zusammenarbeiten: Er schrieb für Kollegen, und mit der Sängerin Michelle veröffentlichte er die Singles ›Idiot‹ (2002) und ›Nicht verdient‹ (2018).</p>
+          <p class="vb-intro">Dazu gehört auch das Verhältnis zum Publikum, das ihn über Jahrzehnte begleitete, über den Absturz hinaus. Dass die Treue der Fans den Weg zurück mitgetragen haben dürfte, lässt sich mit dem Zweierflügel in Verbindung bringen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Der Weg zurück nach dem Absturz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bis 1999 folgten sechs weitere Alben bei Polydor, deren Erfolg jedoch kontinuierlich nachließ; ›Sensationell‹ (1998) erreichte nur Platz 51. Reim gab selbst an, Schulden von 13 Millionen Euro gehabt zu haben, und machte seinen früheren Manager Alfred Reimann dafür verantwortlich; die Zahl ist seine eigene Angabe und nicht unabhängig überprüft. Nach einem verkürzten Insolvenzverfahren ist er nach dem Wikipedia-Artikel seit April 2010 schuldenfrei.</p>
+          <p class="vb-intro">Mit dem Wechsel zu EMI gelang ihm ein Comeback: Ab 2003 erreichte jedes Studioalbum die Top 10, und 2013 erreichte ›Unendlich‹ erstmals seit 1990 wieder Platz 1 der deutschen Albumcharts. Ab 2016 folgten bei RCA Records ›Phoenix‹ (2016), ›Meteor‹ (2018), ›MR20‹ (2019), ›Matthias‹ (2022) und ›Zeppelin‹ (2024). 2011 erschien seine Autobiografie ›Verdammt, ich leb noch‹ (mit Dieter Weidenfeld), 2019 spielte er im Kinofilm ›Schatten über dem Bodensee‹ mit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Eins mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt im Durchhaltewillen. Wer nach einem Absturz mit Millionenschulden nicht aufgibt, sondern über Jahre wieder an die Spitze der Charts kommt, zeigt die Beharrlichkeit der Eins. Auszeichnungen wie der Ballermann-Award für sein Lebenswerk (2011), mehrere Goldene Stimmgabeln, die Bravo Otto (1990 Gold, 1991 Bronze) und der Löwe von Radio Luxemburg (1990) würdigen diese Laufbahn.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Eins hat hohe Maßstäbe an sich selbst, und der Zweierflügel macht sie anfällig für Menschen, denen sie vertraut: Die Schulden führte er auf einen Manager zurück. Auch 2015 mussten wegen Krankheit viele Konzerte und ein Album verschoben werden; Einzelheiten dazu nennt der Wikipedia-Artikel nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Drei Wiederkehrer: Reim, Robbie Williams und Eminem</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-robbie-williams">Robbie Williams</a> (SX1w2) verbindet Reim der Subtyp und der Weg: Beide erlebten Hochs und Tiefs und fanden mit Intensität und Offenheit zurück. Bei Williams ist die Offenheit lauter, bei Reim zeigt sie sich in der Ausdauer.</p>
+          <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-eminem">Eminem</a> (SX1w2) zeigt, wie die sexuelle Eins nach dem Absturz wieder aufsteht. Bei Eminem wurde der Schmerz zur Kunst, bei Reim wurde die Liebe in ihren Gefahren zum Lied.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx1", label:"SX1 – Die Schwarze Mamba: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx1", label:"Lebensmusterkompass: SX1 – Schwarze Mamba"},
+        {route:"beruehmte-robbie-williams", label:"Porträt: Robbie Williams (SX1w2) – derselbe Subtyp, Comeback und Offenheit"},
+        {route:"beruehmte-eminem", label:"Porträt: Eminem (SX1w2) – derselbe Subtyp, Rückkehr nach dem Absturz"},
+      ])}
+    </div>
+  `);
+}

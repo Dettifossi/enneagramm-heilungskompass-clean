@@ -4377,3 +4377,69 @@ export function lukeNicholsPortraitPage() {
     </div>
   `);
 }
+
+export function matthiasReimPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-matthias-reim-portrait.jpg" alt="Matthias Reim – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-matthias-reim-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Matthias Reim</p>
+        <p class="krim-portrait-typ">SX1w2 &middot; Sexual Type 1 with a Two-Wing</p>
+        <p class="krim-portrait-subtitle">German Schlager singer, songwriter and producer, b. 1957 in Korbach &ndash; Animal match: Black Mamba</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Black Mamba That Rises Again After the Fall</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The black mamba rises when threatened, and it does not give up. Even after a fall it looks for the way back, fast and with all its strength. That is the image of the sexual One: she lives with intensity, tolerates no half-measures and returns when she still has something to say.</p>
+          <p class="vb-intro">Matthias Reim was born on 26 November 1957 in Korbach in Hesse and grew up in Homberg (Efze), where his father was headmaster of the Gymnasium. He began studying German and English at Göttingen and gave it up for music. In the 1980s he played in several bands (Airway, Aqua, Fallen Dice, Fair Fax) that had no commercial success, and in 1984 his first solo single appeared. In the second half of the eighties he wrote Schlager songs for Bernhard Brink, Jürgen Drews, Roy Black and Tina York.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual One: Intensity and Zeal in Music</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>sexual One (SX1)</strong> is the zealot: she throws herself with passion and full strength into what she holds to be right. In Reim this shows in how he makes music: he composes, writes, produces and plays his songs largely himself. His songs are about love in its unprotected form, and the song that made him famous carries the intensity in its title: 'Verdammt, ich lieb' Dich' ('Damn, I Love You').</p>
+          <p class="vb-intro">The breakthrough came on 18 April 1990 with an appearance on the ZDF show 'Der große Preis', arranged through Bernhard Brink. According to the Wikipedia article the single sold 2.5 million copies worldwide and stood 16 weeks at No. 1 in the German charts. The debut album 'Reim' appeared in June 1990 and reached the top 10.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-Wing: Attention to People</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> gives the sexual One warmth and attentiveness. With a weakly developed Two-wing the One would stay heated and demanding. In Reim it shows in a body of work that addresses people directly, in songs for others and in collaborations: he wrote for colleagues, and with the singer Michelle he released the singles 'Idiot' (2002) and 'Nicht verdient' ('Not Deserved', 2018).</p>
+          <p class="vb-intro">The relationship to the audience that has accompanied him for decades belongs here too, beyond the fall. That the loyalty of the fans is likely to have helped carry the way back can be linked to the Two-wing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: The Way Back After the Fall</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Until 1999 six more albums followed at Polydor, but their success steadily declined; 'Sensationell' (1998) reached only No. 51. Reim himself stated that he had debts of 13 million euros and blamed his former manager Alfred Reimann; the figure is his own statement and not independently checked. After a shortened insolvency procedure he has, according to the Wikipedia article, been debt-free since April 2010.</p>
+          <p class="vb-intro">With the move to EMI a comeback succeeded: from 2003 every studio album reached the top 10, and in 2013 'Unendlich' ('Endless') reached No. 1 in the German album charts for the first time since 1990. From 2016 at RCA Records came 'Phoenix' (2016), 'Meteor' (2018), 'MR20' (2019), 'Matthias' (2022) and 'Zeppelin' (2024). In 2011 his autobiography 'Verdammt, ich leb noch' ('Damn, I'm Still Alive', with Dieter Weidenfeld) appeared, and in 2019 he appeared in the feature film 'Schatten über dem Bodensee'.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual One with a Two-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the will to persevere. Whoever does not give up after a fall with debts in the millions but works his way back to the top of the charts over years shows the One's persistence. Honours such as the Ballermann Award for lifetime achievement (2011), several Goldene Stimmgabeln, the Bravo Otto (1990 gold, 1991 bronze) and the Löwe von Radio Luxemburg (1990) acknowledge this career.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. The One has high standards for herself, and the Two-wing makes her vulnerable to people she trusts: he traced the debts back to a manager. In 2015 too many concerts and an album had to be postponed because of illness; the Wikipedia article gives no details on that.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Three Returners: Reim, Robbie Williams and Eminem</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-robbie-williams">Robbie Williams</a> (SX1w2), Reim shares the subtype and the path: both experienced highs and lows and found their way back with intensity and openness. In Williams the openness is louder, in Reim it shows in endurance.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-eminem">Eminem</a> (SX1w2) also shows how the sexual One rises again after the fall. In Eminem the pain became art, in Reim love in its dangers became song.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
+        {route:"lebensmusterkompass/sx1", label:"Life Pattern Compass: SX1 – Black Mamba"},
+        {route:"beruehmte-robbie-williams", label:"Portrait: Robbie Williams (SX1w2) – same subtype, comeback and openness"},
+        {route:"beruehmte-eminem", label:"Portrait: Eminem (SX1w2) – same subtype, return after the fall"},
+      ])}
+    </div>
+  `);
+}
