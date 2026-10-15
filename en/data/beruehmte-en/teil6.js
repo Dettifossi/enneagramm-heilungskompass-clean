@@ -2737,7 +2737,7 @@ export function danyBoonPortraitPage() {
 
         <h2 class="vb-section">2. The social Nine: identity through belonging</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">At its core, the <strong>Nine</strong>, according to Naranjo, is about the wish for harmony and the inertia of putting one's own position behind peace. The <strong>social Nine (SO9)</strong> is the countertype: instead of resting, it works actively for the community and finds its identity in belonging. In Boon this shows in a career that revolves not around self-presentation but around the we: he made a region, its dialect and its people his material, and he did so with warmth instead of mockery.</p>
+          <p class="vb-intro">At its core, the <strong>Nine</strong>, according to Naranjo, is about the wish for harmony and the inertia of putting one's own position behind peace. The <strong>social Nine (SO9)</strong> is the countertype: instead of resting, it works actively for the community and finds its identity in belonging. In Boon this shows in a career that revolves not around self-presentation but around the we: he made a region, its dialect and its people his material, and he did so with warmth instead of mockery. The social Nine is also described as the ›benefactor of the community‹, and this image fits strikingly well with a life task that consists in connecting.</p>
           <p class="vb-intro">As far as his known works show, his humour lives more on affection than on put-downs. He makes people laugh by presenting their quirks affectionately, and includes the audience in the community of those laughed about.</p>
         </blockquote>
 
@@ -2768,7 +2768,7 @@ export function danyBoonPortraitPage() {
         <h2 class="vb-section">7. The legacy: a comedian who made belonging his theme</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Dany Boon counts among France's most successful comedians and directors. His work consists of comedies about understanding between people of different origins, which reached audience records in France.</p>
-          <p class="vb-intro">Whoever looks at his work sees no mocker but a host: one who opened the door to a region that was laughed at and invited a whole country to enter.</p>
+          <p class="vb-intro">Whoever looks at his work sees no mocker but a benefactor of the community in the best sense, a host: one who opened the door to a region that was laughed at and invited a whole country to enter.</p>
         </blockquote>
 
       </div>

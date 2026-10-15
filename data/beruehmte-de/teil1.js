@@ -2783,7 +2783,7 @@ export function danyBoonPortraitPage() {
 
         <h2 class="vb-section">2. Die soziale Neun: Identität durch Zugehörigkeit</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Im Kern geht es der <strong>Neun</strong> nach Naranjo um den Wunsch nach Harmonie und die Trägheit, die eigene Position hinter dem Frieden zurückzustellen. Die <strong>soziale Neun (SO9)</strong> ist der Kontratyp: Statt zu ruhen, arbeitet sie aktiv für die Gemeinschaft und findet ihre Identität im Dazugehören. Bei Boon zeigt sich das in einer Laufbahn, die nicht um die Selbstdarstellung kreist, sondern um das Wir: Er machte eine Region, ihren Dialekt und ihre Menschen zum Stoff, und er tat es mit Wärme statt mit Spott.</p>
+          <p class="vb-intro">Im Kern geht es der <strong>Neun</strong> nach Naranjo um den Wunsch nach Harmonie und die Trägheit, die eigene Position hinter dem Frieden zurückzustellen. Die <strong>soziale Neun (SO9)</strong> ist der Kontratyp: Statt zu ruhen, arbeitet sie aktiv für die Gemeinschaft und findet ihre Identität im Dazugehören. Bei Boon zeigt sich das in einer Laufbahn, die nicht um die Selbstdarstellung kreist, sondern um das Wir: Er machte eine Region, ihren Dialekt und ihre Menschen zum Stoff, und er tat es mit Wärme statt mit Spott. Die soziale Neun wird auch als ›Wohltäter der Gemeinde‹ beschrieben, und dieses Bild passt auffallend gut zu einer Lebensaufgabe, die im Verbinden besteht.</p>
           <p class="vb-intro">Sein Humor lebt, soweit sich das aus seinen bekannten Werken ablesen lässt, eher von Zuneigung als von Herabsetzung: Er lässt Menschen lachen, indem er ihre Eigenheiten liebevoll vorführt, und schließt die Zuschauer in die Gemeinschaft derer ein, über die gelacht wird.</p>
         </blockquote>
 
@@ -2814,7 +2814,7 @@ export function danyBoonPortraitPage() {
         <h2 class="vb-section">7. Das Vermächtnis: ein Komiker, der Zugehörigkeit zum Thema machte</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Dany Boon zählt zu den erfolgreichsten Komikern und Regisseuren Frankreichs. Sein Werk besteht aus Komödien, die Verständigung zwischen Menschen verschiedener Herkunft zum Thema haben und die in Frankreich Zuschauerrekorde erreichten.</p>
-          <p class="vb-intro">Wer sein Werk betrachtet, sieht keinen Spötter, sondern einen Gastgeber: einen, der die Tür zu einer belächelten Region öffnete und ein ganzes Land einlud, sie zu betreten.</p>
+          <p class="vb-intro">Wer sein Werk betrachtet, sieht keinen Spötter, sondern einen Wohltäter der Gemeinde im besten Sinn, einen Gastgeber: einen, der die Tür zu einer belächelten Region öffnete und ein ganzes Land einlud, sie zu betreten.</p>
         </blockquote>
 
       </div>
