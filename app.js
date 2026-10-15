@@ -38291,16 +38291,18 @@ function libraryPage() {
 
 // Stand der Textumfang-Sch\u00e4tzung (Punkt 2 unten) \u2013 bei deutlich mehr neuen Portr\u00e4ts
 // (grob alle paar hundert) den Wert in TEXTUMFANG_STAND neu berechnen und Datum aktualisieren.
-const TEXTUMFANG_STAND = { datum: "09.09.2026", woerterMio: "1,5", normseiten: "5.850", buecher: "20" };
+const TEXTUMFANG_STAND = { datum: "16.10.2026", woerterMio: "1,9", normseiten: "7.350", buecher: "25" };
 // PRAXISTIPPS_ANZAHL manuell pflegen (TIPPS-Array ist lokal in praxistippsHeilpraktikerPage gekapselt) \u2013
 // bei jedem neuen Praxistipp hier mitz\u00e4hlen.
-const PRAXISTIPPS_ANZAHL = 16;
+const PRAXISTIPPS_ANZAHL = 18;
 
 function zahlenFaktenPage() {
   const beruehmt = BERUEHMT_PORTRAITS.length;
   const krankheit = KRANKHEITS_PORTRAITS.length;
   const kriminal = KRIMINAL_PORTRAITS.length;
-  const portraitsGesamt = beruehmt + krankheit + kriminal;
+  const astrologie = ASTROLOGIE_PORTRAITS.length;
+  const bibel = BIBEL_PORTRAITS.length;
+  const portraitsGesamt = beruehmt + krankheit + kriminal + astrologie + bibel;
   const registerAnzahl = registerEntries.length;
   const statCard = (num, label) => `
     <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1.1rem 1.2rem;">
@@ -38319,6 +38321,8 @@ function zahlenFaktenPage() {
         ${statCard(beruehmt, "Ber\u00fchmte Pers\u00f6nlichkeiten")}
         ${statCard(krankheit, "Krankheitsportr\u00e4ts")}
         ${statCard(kriminal, "Kriminalpsychologie-F\u00e4lle")}
+        ${statCard(astrologie, "Astrologie-Portr\u00e4ts")}
+        ${statCard(bibel, "Bibel-Portr\u00e4ts")}
         ${statCard(portraitsGesamt, "Portr\u00e4ts insgesamt")}
       </div>
 
@@ -45958,7 +45962,7 @@ function _memoryIntroScreen(level) {
           <p style="margin:0;">${meta.rule}</p>
         </div>
         <div style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-left:4px solid var(--copper);border-radius:12px;padding:1rem 1.2rem;margin:0 0 1.6rem;font-size:.9rem;">
-          Die Karten stammen aus allen über 800 Porträts des Kompasses &ndash; Berühmte Persönlichkeiten, Kriminalpsychologie und Krankheitsporträts gemischt. Je mehr Porträts hinzukommen, desto größer wird der Kartenpool automatisch.
+          Die Karten stammen aus allen über ${Math.floor((BERUEHMT_PORTRAITS.length + KRIMINAL_PORTRAITS.length + KRANKHEITS_PORTRAITS.length) / 100) * 100} Porträts des Kompasses &ndash; Berühmte Persönlichkeiten, Kriminalpsychologie und Krankheitsporträts gemischt. Je mehr Porträts hinzukommen, desto größer wird der Kartenpool automatisch.
         </div>
         ${best > 0 ? `<p style="text-align:center;color:var(--muted);font-size:0.9rem;margin-bottom:1.2rem;">Ihre Bestleistung in dieser Stufe: <strong style="color:var(--ink);">${best}/${MEMORY_TOTAL_ROUNDS}</strong></p>` : ""}
         <div style="text-align:center;">
