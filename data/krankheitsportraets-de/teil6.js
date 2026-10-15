@@ -5559,3 +5559,112 @@ export function williamJamesSidisKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function ramanaMaharshiKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ramana-maharshi-portrait.jpg" alt="Ramana Maharshi" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-ramana-maharshi-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Ramana Maharshi</p>
+        <p class="krim-portrait-typ">SO9w1 · Sozialer Typ 9 mit Einserflügel · 1879–1950</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Büffel</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so9.jpg" alt="Tierentsprechung: Büffel" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO9")};left:${tierAvatarLeft("SO9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Ramana Maharshi</strong>, indischer Weiser und Lehrer der Selbstbefragung am Berg Arunachala, starb am 14. April 1950 im Alter von 70 Jahren im Ashram in Tiruvannamalai an den Folgen eines Sarkoms am Arm. Seine letzte Krankheit zog sich über gut ein Jahr hin, mit vier Operationen, und verlief nach den Berichten seiner Schüler ohne die Absicht, die tägliche Begegnung mit den Besuchern aufzugeben.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Ramana Maharshi</strong> wird der <strong>sozialen Neun mit Einserflügel</strong> zugeordnet, wie im Porträt zu <a href="javascript:void(0)" data-route="beruehmte-ramana-maharshi">Ramana Maharshi</a> beschrieben: Teilhabe an einer Gemeinschaft, Gegenwart statt Auftritt, getragen von Klarheit und Strenge. Bei chronischer, lang anhaltender Belastung bewegen sich Neuner entlang ihrer Stresslinie zur Sechs, mit mehr Misstrauen und Absicherungsbedürfnis, ohne dass sich der Kerntyp ändert. <strong>Hinweis zur Quellenlage:</strong> Der ausführlichste Bericht stammt von einem engen Schüler, Arthur Osborne, und ist erkennbar verehrend gefärbt. Die medizinischen Daten wirken plausibel, sind aber ebenfalls nur aus dieser Quelle bekannt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Rheuma und Schwäche ab etwa 1947:</strong>
+        Nach dem Bericht litt Ramana Maharshi ab etwa 1947 an Rheuma in Beinen, Rücken und Schultern und an allgemeiner Schwäche. Zusätzliche nahrhafte Kost lehnte er ab.</p>
+        <p class="vb-intro"><strong>b) Der Knoten unter dem linken Ellbogen:</strong>
+        Anfang 1949 bemerkte man einen kleinen Knoten unterhalb des linken Ellbogens, den man zunächst für unbedenklich hielt.</p>
+        <p class="vb-intro"><strong>c) Die Rückkehr im Februar 1949:</strong>
+        Im Februar 1949 entfernte der Ashram-Arzt den Knoten. Innerhalb eines Monats kehrte er größer und schmerzhafter zurück und wurde als bösartiger Tumor erkannt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Die erste große Operation:</strong>
+        Ende März 1949 operierten Ärzte aus Madras. Die Wunde heilte nicht richtig, und der Tumor wuchs erneut.</p>
+        <p class="vb-intro"><strong>b) Ein Dorfheilkundiger und der Amputationsvorschlag:</strong>
+        Nach der Operation behandelte ihn ein Dorfheilkundiger ein bis zwei Wochen ohne Erfolg. Ein Vorschlag, den Arm zu amputieren, wurde abgelehnt, auch mit Verweis auf die Tradition, den Körper eines Jnani nicht zu verstümmeln. Später wurde der Tumor als Sarkom diagnostiziert.</p>
+        <p class="vb-intro"><strong>c) Der Umgang mit den Ärzten:</strong>
+        Er war den Ärzten gegenüber höflich und erkundigte sich zuerst, ob sie versorgt seien. Auf die Frage nach der Behandlung antwortete er sinngemäß, er habe nie um Behandlung gebeten und keine sei nötig, und überließ die Entscheidung den Anwesenden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Die dritte Operation im August 1949:</strong>
+        Im August 1949 folgte eine dritte Operation mit Radiumbehandlung des Gewebes. Am selben Nachmittag saß er nach dem Bericht trotzdem zum Darshan, der Begegnung mit den Besuchern, auf der Veranda der Ambulanz.</p>
+        <p class="vb-intro"><strong>b) Der Rückfall und die vierte Operation:</strong>
+        Im November 1949 trat der Tumor höher am Arm, nahe der Schulter, erneut auf. Im Dezember 1949 folgte die vierte und letzte Operation, die Wunde heilte nie. Die Ärzte erklärten den Fall für hoffnungslos und sprachen nur noch von lindernder Behandlung.</p>
+        <p class="vb-intro"><strong>c) Der 70. Geburtstag und die späten Versuche:</strong>
+        Am 5. Januar 1950 feierte der Ashram seinen 70. Geburtstag, und viele Gläubige erwarteten, dass es sein letzter sei. Danach wurden Homöopathie und Ayurveda versucht, nach dem Bericht jeweils zu spät.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Die Tagesroutine bis an die Grenze:</strong>
+        Bis zur Unmöglichkeit hielt er seine Routine ein: Bad, Darshan zu festen Zeiten und Korrespondenz.</p>
+        <p class="vb-intro"><strong>b) Der Rückzug aus der Halle:</strong>
+        Nach dem Januar war er zu schwach für die Halle und blieb in einem kleinen Vorraum. Der Darshan fand zunächst von einer Liege auf einer schmalen Veranda statt, später als Vorbeigehen an der offenen Tür. Als der Darshan vorübergehend unterbrochen wurde, ließ er ihn auf seinen eigenen Wunsch hin wieder aufnehmen.</p>
+        <p class="vb-intro"><strong>c) Die Gebete für seine Genesung:</strong>
+        Tägliche Gebete und Lieder für seine Genesung nahm er nach dem Bericht mit der Bemerkung hin, gute Tätigkeiten seien wünschenswert.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Kaum Nahrung, schwere Anämie:</strong>
+        Der Tumor kehrte oberhalb der nicht verheilenden Wunde zurück. Laut Bericht war der ganze Organismus betroffen, und es kam zu schwerer Anämie. Er konnte kaum noch Nahrung aufnehmen.</p>
+        <p class="vb-intro"><strong>b) Zwei Sichtweisen auf den Schmerz:</strong>
+        Gelegentlich stöhnte er im Schlaf, sonst zeigte er kaum Schmerzzeichen. Er sagte selbst, es gebe ›Schmerz‹, nie aber ›ich habe Schmerz‹. Die Ärzte vermuteten dagegen starke Schmerzen. Beide Darstellungen stehen im Bericht nebeneinander.</p>
+        <p class="vb-intro"><strong>c) Die letzten Entscheidungen:</strong>
+        Am 13. April 1950 lehnte er ein Mittel gegen die Lungenstauung ab. Am Abend des 14. April ließ er sich aufsetzen, obwohl jede Bewegung schmerzte, und lehnte Sauerstoff ab.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Der Körper, der schon vor der Krankheit zurückgestellt war:</strong>
+        Schon vor dem Knoten lehnte Ramana Maharshi zusätzliche Kost ab und hielt an der Routine fest. Das lässt sich mit der Neigung der sozialen Neun in Verbindung bringen, die eigenen Bedürfnisse hinter die Gemeinschaft zu stellen. In der Darstellung seiner Schüler wird dies als Gelassenheit und Hingabe gelesen, und das Porträt hält beides nebeneinander.</p>
+        <p class="vb-intro"><strong>b) Gegenbild zu Eleanor Roosevelt:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-eleanor-roosevelt">Eleanor Roosevelt</a> (SO9w1) stellte ihre Pflichten ebenfalls bis zuletzt vor den eigenen Körper, wehrte sich aber in ihren letzten Wochen gegen Untersuchungen und Medikamente und ließ sich gegen ärztlichen Rat entlassen. Ramana Maharshi dagegen ließ die Behandlungen zu, überließ die Entscheidung den Anwesenden und lehnte nur die Amputation und einzelne Mittel am Ende ab. Beide zeigen, wie unterschiedlich dasselbe Muster mit dem Verlust der Kontrolle umgehen kann.</p>
+        <p class="vb-intro"><strong>c) Die Verschiebung zur Stresslinie:</strong>
+        Eine Verschiebung zur Sechs, also mehr Misstrauen und Absicherung, ist in den Berichten nicht erkennbar. Im Gegenteil schildern die Schüler eine ruhige Gelassenheit bis zuletzt. Ob dies die Darstellung färbt, lässt sich aus der einen Quelle nicht entscheiden.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sozialen Neun zu einem Sarkom führt: <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Was sich an Ramana Maharshis Fall zeigen lässt, ist die Art, wie er mit der Krankheit umging, eine von vielen möglichen Betrachtungen, kein Urteil. Das entsprechende Krankheitsbild wird nach und nach im <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatik-Register</a> ausgearbeitet.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Ramana Maharshi kannte das Enneagramm nicht und beschrieb sein Wesen auf andere Weise. Die soziale Neun mit Einserflügel lebt ihr Zurückstellen der eigenen Bedürfnisse unbewusst so lange aus, bis der Körper es erzwingt. Bei ihm wurde dies von den Schülern als bewusste Gelassenheit gedeutet, und so fiel die Frage, ob er frühere Warnzeichen wie Rheuma und Schwäche hätte ernster nehmen können, gar nicht erst auf.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Ramana Maharshis</strong> soziale Neun mit Einserflügel zeigt sich in diesem Krankheitsporträt als Gelassenheit, die zugleich Zurückstellen ist. Der Büffel, der mitten in der Herde ruht, blieb bis in die letzten Wochen in der Nähe seiner Besucher, ließ den Körper vier Operationen und Behandlungen durchlaufen und ging ohne Aufhebens. Wie weit das ein Ausdruck seiner Lehre war und wie weit ein Muster, bleibt in den Berichten seiner Schüler offen.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-ramana-maharshi", label:"Porträt: Ramana Maharshi (SO9w1)"},
+        {route:"krankheitsportraets-eleanor-roosevelt", label:"Krankheitsporträt: Eleanor Roosevelt (SO9w1) – Gegenbild im Umgang mit der Behandlung"},
+        {route:"krankheitsportraets-peter-falk", label:"Krankheitsporträt: Peter Falk (SO9w1)"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so9", label:"Lebensmusterkompass: SO9 – Büffel"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+      ])}
+    </div>
+  `);
+}

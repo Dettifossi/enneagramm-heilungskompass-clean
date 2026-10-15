@@ -4306,6 +4306,7 @@ export function ramanaMaharshiPortraitPage() {
         {route:"lebensmusterkompass/so9", label:"Life Pattern Compass: SO9 – Buffalo"},
         {route:"beruehmte-dalai-lama", label:"Portrait: Dalai Lama XIV. (SO9w1) – same subtype, spiritual teacher"},
         {route:"beruehmte-werner-ablass", label:"Portrait: Werner Ablass (SX1w2) – teacher of the non-dual view"},
+        {route:"krankheitsportraets-ramana-maharshi", label:"Illness Portrait: Ramana Maharshi (SO9w1)"},
       ])}
     </div>
   `);

@@ -5337,3 +5337,112 @@ export function williamJamesSidisKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function ramanaMaharshiKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ramana-maharshi-portrait.jpg" alt="Ramana Maharshi" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-ramana-maharshi-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Ramana Maharshi</p>
+        <p class="krim-portrait-typ">SO9w1 · Social Type 9 with One-wing · 1879–1950</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Buffalo</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so9.jpg" alt="Animal correspondence: Buffalo" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO9")};left:${tierAvatarLeft("SO9")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Ramana Maharshi</strong>, Indian sage and teacher of self-inquiry at Mount Arunachala, died on 14 April 1950 at the age of 70 in the ashram in Tiruvannamalai of the consequences of a sarcoma of the arm. His last illness stretched over a good year with four operations and, according to his disciples' accounts, ran without any intention of giving up the daily encounter with visitors.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Ramana Maharshi</strong> is assigned to the <strong>social Nine with a One-wing</strong>, as described in the portrait of <a href="javascript:void(0)" data-route="beruehmte-ramana-maharshi">Ramana Maharshi</a>: participation in a community, presence instead of performance, carried by clarity and rigour. Under chronic, long-lasting strain, Nines move along their stress line to the Six, with more mistrust and need for security, without the core type changing. <strong>Note on the sources:</strong> The fullest account comes from a close disciple, Arthur Osborne, and is clearly coloured by veneration. The medical data seem plausible but are likewise known only from this source.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) Rheumatism and weakness from about 1947:</strong>
+        According to the account Ramana Maharshi suffered from about 1947 from rheumatism in legs, back and shoulders and from general weakness. He refused additional nourishing food.</p>
+        <p class="vb-intro"><strong>b) The nodule below the left elbow:</strong>
+        In early 1949 a small nodule below the left elbow was noticed, at first considered harmless.</p>
+        <p class="vb-intro"><strong>c) The return in February 1949:</strong>
+        In February 1949 the ashram doctor removed the nodule. Within a month it returned, larger and more painful, and was recognised as a malignant tumour.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) The first major operation:</strong>
+        At the end of March 1949 doctors from Madras operated. The wound did not heal properly, and the tumour grew again.</p>
+        <p class="vb-intro"><strong>b) A village healer and the amputation proposal:</strong>
+        After the operation a village healer treated him for one to two weeks without success. A proposal to amputate the arm was declined, also with reference to the tradition of not mutilating the body of a jnani. The tumour was later diagnosed as a sarcoma.</p>
+        <p class="vb-intro"><strong>c) Dealing with the doctors:</strong>
+        He was courteous to the doctors and first asked whether they were looked after. Asked about treatment he answered in essence that he had never asked for treatment and none was necessary, and left the decision to those present.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) The third operation in August 1949:</strong>
+        In August 1949 a third operation followed with radium treatment of the tissue. The same afternoon, according to the account, he nevertheless sat for darshan, the encounter with visitors, on the veranda of the dispensary.</p>
+        <p class="vb-intro"><strong>b) The relapse and the fourth operation:</strong>
+        In November 1949 the tumour appeared again higher on the arm, near the shoulder. In December 1949 the fourth and last operation followed, and the wound never healed. The doctors declared the case hopeless and spoke only of palliative treatment.</p>
+        <p class="vb-intro"><strong>c) The 70th birthday and the late attempts:</strong>
+        On 5 January 1950 the ashram celebrated his 70th birthday, and many believers expected it to be his last. After that homoeopathy and Ayurveda were tried, according to the account each too late.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) The daily routine to the limit:</strong>
+        Until it became impossible he kept his routine: bath, darshan at fixed times and correspondence.</p>
+        <p class="vb-intro"><strong>b) The withdrawal from the hall:</strong>
+        After January he was too weak for the hall and stayed in a small anteroom. Darshan first took place from a couch on a narrow veranda, later as people filing past the open door. When darshan was temporarily interrupted, he had it resumed at his own wish.</p>
+        <p class="vb-intro"><strong>c) The prayers for his recovery:</strong>
+        Daily prayers and songs for his recovery he accepted, according to the account, with the remark that good activities are desirable.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Hardly any food, severe anaemia:</strong>
+        The tumour returned above the wound that would not heal. According to the account the whole organism was affected, and severe anaemia set in. He could hardly take food any more.</p>
+        <p class="vb-intro"><strong>b) Two views of the pain:</strong>
+        Occasionally he groaned in his sleep, otherwise he showed hardly any signs of pain. He himself said there is 'pain', never 'I have pain'. The doctors, by contrast, suspected severe pain. Both versions stand side by side in the account.</p>
+        <p class="vb-intro"><strong>c) The last decisions:</strong>
+        On 13 April 1950 he declined a remedy for the congestion of the lungs. On the evening of 14 April he had himself seated although every movement hurt, and refused oxygen.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) The body already put aside before the illness:</strong>
+        Even before the nodule Ramana Maharshi declined additional food and kept to his routine. This can be linked to the social Nine's tendency to put her own needs behind the community. In his disciples' account this is read as composure and devotion, and the portrait holds both side by side.</p>
+        <p class="vb-intro"><strong>b) A counter-image to Eleanor Roosevelt:</strong>
+        <a href="javascript:void(0)" data-route="krankheitsportraets-eleanor-roosevelt">Eleanor Roosevelt</a> (SO9w1) likewise put her duties before her own body to the last but in her final weeks resisted tests and medication and discharged herself against medical advice. Ramana Maharshi, by contrast, allowed the treatments, left the decision to those present and declined only the amputation and individual remedies at the end. Both show how differently the same pattern can deal with the loss of control.</p>
+        <p class="vb-intro"><strong>c) The shift along the stress line:</strong>
+        A shift toward the Six, that is more mistrust and security-seeking, cannot be recognised in the accounts. On the contrary, the disciples describe a calm composure to the end. Whether this colours the account cannot be decided from the single source.</p>
+        <p class="vb-intro"><strong>d) A classification without determinism:</strong>
+        This does not mean that the social Nine's pattern leads to a sarcoma: <strong>anyone can get any illness, regardless of subtype.</strong> What Ramana Maharshi's case shows is how he dealt with the illness, one of many possible views, not a verdict. The corresponding clinical picture is being worked out step by step in the <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Ramana Maharshi did not know the Enneagram and described his nature in other terms. The social Nine with a One-wing lives out putting her own needs aside unconsciously until the body forces the issue. In him the disciples interpreted this as conscious composure, and so the question of whether he could have taken earlier warning signs such as rheumatism and weakness more seriously never came up.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Ramana Maharshi's</strong> social Nine with a One-wing shows in this illness portrait as a composure that is also a putting aside. The buffalo that rests in the middle of the herd stayed near his visitors into the last weeks, let the body go through four operations and treatments and left without fuss. How far that was an expression of his teaching and how far a pattern remains open in his disciples' accounts.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-ramana-maharshi", label:"Portrait: Ramana Maharshi (SO9w1)"},
+        {route:"krankheitsportraets-eleanor-roosevelt", label:"Illness Portrait: Eleanor Roosevelt (SO9w1) – counter-image in dealing with treatment"},
+        {route:"krankheitsportraets-peter-falk", label:"Illness Portrait: Peter Falk (SO9w1)"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
+        {route:"lebensmusterkompass/so9", label:"Life Pattern Compass: SO9 – Buffalo"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+      ])}
+    </div>
+  `);
+}

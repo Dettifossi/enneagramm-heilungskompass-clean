@@ -4311,6 +4311,7 @@ export function ramanaMaharshiPortraitPage() {
         {route:"lebensmusterkompass/so9", label:"Lebensmusterkompass: SO9 – Büffel"},
         {route:"beruehmte-dalai-lama", label:"Porträt: Dalai Lama XIV. (SO9w1) – derselbe Subtyp, spiritueller Lehrer"},
         {route:"beruehmte-werner-ablass", label:"Porträt: Werner Ablass (SX1w2) – Lehrer der nichtdualen Sicht"},
+        {route:"krankheitsportraets-ramana-maharshi", label:"Krankheitsporträt: Ramana Maharshi (SO9w1)"},
       ])}
     </div>
   `);
