@@ -4685,3 +4685,87 @@ export function juanaBarrazaPortraitPage() {
     </div>
   `);
 }
+
+export function gertPostelKriminalPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Gert Postel – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gert-postel-portrait.jpg?v=2" alt="Gert Postel – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-gert-postel-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Gert Postel</p>
+        <p class="krim-portrait-typ">SX8w9 · Sexueller Typ 8 mit Neunerflügel</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Gert Uwe Postel</strong>, geboren am 18. Juni 1958 in Bremen und gelernter Postbote, gab sich zwischen 1980 und 1997 mit gefälschten Urkunden und falschen Titeln mehrfach als Arzt aus und arbeitete in Krankenhäusern und Behörden, zuletzt von 1995 bis 1997 als Oberarzt im Maßregelvollzug in Zschadraß bei Leipzig. Er wurde im Juli 1997 zufällig enttarnt, im Mai 1998 festgenommen und am 22. Januar 1999 vom Landgericht Leipzig zu vier Jahren Freiheitsstrafe verurteilt, unter anderem wegen mehrfachen Betrugs und Urkundenfälschung. Im Januar 2001 wurde er vorzeitig entlassen.
+      </p>
+      <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Gert Postel</strong> wird dem <strong>Sexuellen Typ 8 mit Neunerflügel</strong> im Enneagramm zugeordnet. Die sexuelle Acht verbindet Dominanz mit dem Bedürfnis nach unmittelbarer, intensiver Begegnung; ihr Zorn richtet sich gegen Autorität, die sich ihr nicht beugt. Der Neunerflügel überzieht diese Intensität mit Ruhe und scheinbarer Gemächlichkeit. Das Porträt ›Gert Postel‹ unter den berühmten Persönlichkeiten beschreibt Wesen und Laufbahn ausführlich; dieses Kriminalporträt hält sich an die Taten, das Verfahren und die Belegbarkeit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Das Krokodil</h3>
+        <p class="vb-intro">Das <strong>Krokodil</strong> liegt reglos im Wasser, kaum sichtbar, und schlägt zu, wenn der Moment stimmt. Bei Postel zeigt sich das in der Art, wie er sich in Strukturen einfügte: Er trat nicht auf wie ein Eindringling, sondern wie jemand, der dazugehört, und das lässt sich mit der Gelassenheit des Neunerflügels in Verbindung bringen, die Nachfragen gar nicht erst aufkommen ließ.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die Taten: Von der gefälschten Urkunde zum Oberarzt</h3>
+        <p class="vb-intro"><strong>a) 1979/80, die ersten Fälschungen:</strong> Mit einem falschen Abiturzeugnis bewarb er sich beim Oberlandesgericht Bremen. Der Schwindel flog nach vier Monaten auf, eine Jugendstrafe wurde nicht verhängt, er musste 700 DM zahlen. 1980 mietete er in Bremen eine Wohnung unter falschem Namen und Titel und wurde vom Amtsgericht wegen unbefugter Titelführung zu einer Geldstrafe verurteilt.</p>
+        <p class="vb-intro"><strong>b) 1980/81, die ersten Arztstellen:</strong> In Neuenkirchen bei Oldenburg arbeitete er in einem Fachkrankenhaus mit gefälschter Approbationsurkunde. In Bremen war er als Notarzt-Vertreter tätig und verordnete Medikamente. Das Verfahren wurde gegen eine Zahlung von 600 DM eingestellt. 1982 scheiterte seine Bewerbung als Truppenarzt bei der Bundeswehr an der Überprüfung; er erstattete Selbstanzeige, und auch dieses Verfahren wurde eingestellt.</p>
+        <p class="vb-intro"><strong>c) 1982/83, der Amtsarzt in Flensburg:</strong> Unter dem Namen ›Dr. med. Dr. phil. Clemens Bartholdy‹ wurde er als stellvertretender Amtsarzt eingestellt, obwohl seine Unterlagen gefälscht und unvollständig waren. Seine Aufgaben wurden später reduziert, er schied aus, bevor er eine Stelle in Kiel antreten konnte.</p>
+        <p class="vb-intro"><strong>d) 1983 bis 1997, weitere Stationen:</strong> Es folgten weitere Stellen, unter anderem beim Arzt Julius Hackethal in Riedering. 1986 wurde er wegen Nachstellung einer Staatsanwältin verurteilt. Von 1995 bis 1997 war er in Zschadraß in Sachsen Oberarzt im Maßregelvollzug, diesmal unter seinem echten Namen. Ein Angebot für eine Chefarztstelle in Arnsdorf lehnte er ab.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Die Aufdeckung: Der Zufall, nicht die Prüfung</h3>
+        <p class="vb-intro"><strong>a) Juli 1997:</strong> In Zschadraß wurde er enttarnt, weil eine Ärztin ihren Eltern aus Schleswig-Holstein von ihm erzählte und diese seinen Namen kannten. Nach den Berichten erkannte ihn eine Mitarbeiterin zufällig am 10. Juli 1997. Er tauchte unter.</p>
+        <p class="vb-intro"><strong>b) Festnahme und Urteil:</strong> Im Mai 1998 wurde er in Stuttgart festgenommen. Am 22. Januar 1999 verurteilte ihn das Landgericht Leipzig zu vier Jahren Freiheitsstrafe, unter anderem wegen mehrfachen Betrugs und Urkundenfälschung. Auch das Landgericht Flensburg hatte ihn verurteilt; das genaue Datum dieses Urteils nennen die Quellen mit Dezember 1984 oder Januar 1985 unterschiedlich.</p>
+        <p class="vb-intro"><strong>c) Das Muster der Entdeckung:</strong> Wo er scheiterte, geschah das durch formale Überprüfung (wie bei der Bewerbung als Truppenarzt) oder durch Wiedererkennen, nicht durch eine fachliche Prüfung seines Könnens. Das ist das eigentlich Auffällige an den Taten: Die Täuschung scheiterte nicht an der Sache, sondern an Papieren und an der Person.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Das Gutachten und die Frage nach der Schuldfähigkeit</h3>
+        <p class="vb-intro">Ein Gutachten zur Schuldfähigkeit beschreibt ihn als stark ich-bezogen und kritikunfähig, als herablassend gegenüber anderen und gereizt bei Kritik. Das Hochstapeln wird darin mit einer Sucht verglichen. Eine formale Diagnose nennt der Artikel, auf den sich dieses Porträt stützt, nicht. Während seiner Arzttätigkeit fiel Fachleuten nach den Berichten keine Persönlichkeitsstörung auf.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Folgen und Kritik</h3>
+        <p class="vb-intro">Die Flensburger Sozialverwaltung wurde für Versäumnisse kritisiert. Honorare aus Zschadraß behielt Postel, eine Rückforderung war rechtlich kaum aussichtsreich. Michael Mielke kritisierte, dass Postel als Gutachter und Behandler tätig war und Facharztprüfungen abnahm. Es gibt auch Gegenstimmen: Der Krankenhausleiter in Zschadraß bewertete seine Probezeit als ›überdurchschnittlich‹, und Armin Nack, damals Vorsitzender Richter am Bundesgerichtshof, lobte 2012 in einem Vortrag Postels Gutachten in einem Fall.</p>
+        <p class="vb-intro">Einen belegten Schaden für einzelne Patienten nennen die Quellen nicht. Das Porträt behauptet deshalb keinen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Belegt und nicht belegt</h3>
+        <p class="vb-intro">Vieles stammt aus Postels eigenen Aussagen, etwa seine Kindheit, die Ursache des Suizids seiner Mutter, das Abiturzeugnis und die Privataudienz bei Papst Johannes Paul II. 1991. Diese Angaben sind nicht unabhängig belegt. Nicht belegt sind auch seine Behauptungen, er habe maßgeblichen Anteil an der Barschel-Affäre gehabt und an dem Buch von Reiner Pfeiffer mitgewirkt. Sein in der Haft verfasstes Buch ›Doktorspiele – Geständnisse eines Hochstaplers‹ erschien 2001 und wurde ein Bestseller.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro"><strong>Subtyp:</strong> SX8w9 – Sexuelle Acht mit Neunerflügel.<br>
+        <strong>Leidenschaft:</strong> Lust, hier als Triumph des Moments, in dem die Täuschung gelingt.<br>
+        <strong>Tierentsprechung:</strong> Krokodil – reglos bis zum entscheidenden Moment.<br>
+        <strong>Lehrwert:</strong> Postels Fall zeigt, wie ein System, das auf Titel und Erscheinung vertraut, einen Täuschenden erst durch Zufall erkennt, und wie sich Dominanz hinter Gelassenheit verbergen kann.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die sexuelle Acht im Vergleich: Wie sich Intensität und Dominanz bei SE8, SO8 und SX8 unterschiedlich ausdrücken.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE8, SO8, SX8 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 8 ausführlich porträtiert – Lust, Kontrolle und der Weg zur Verletzlichkeit.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Portrait dient der tiefenpsychologischen Analyse. Die Typzuordnung ist eine psychologische Hypothese, kein historisches Urteil. Gert Postel wurde 1999 vom Landgericht Leipzig zu vier Jahren Freiheitsstrafe verurteilt und 2001 vorzeitig entlassen. Das Enneagramm erklärt, es rechtfertigt nicht.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"beruehmte-gert-postel", label:"Porträt: Gert Postel (SX8w9) – Wesen und Laufbahn"},
+        {route:"kriminalpsychologie-bernie-madoff", label:"Kriminalpsychologie: Bernie Madoff (SE3w4) – anderer Betrugsfall"},
+        {route:"kriminalpsychologie-peter-moore", label:"Kriminalpsychologie: Peter Moore (SX8w7) – derselbe Subtyp, anderer Flügel"},
+      ])}
+    </div>
+  `);
+}

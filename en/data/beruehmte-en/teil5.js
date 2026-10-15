@@ -2463,7 +2463,7 @@ export function gertPostelPortraitPage() {
         <h2 class="vb-section">4. The Nine-wing: Composure as Camouflage</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Nine-wing (w9)</strong> shows itself in Postel in the calm with which he appeared: no pushing, no showing off, but a relaxed, almost comfortable matter-of-factness. His own book's title, <em>»Doktorspiele. Geständnisse eines Hochstaplers«</em> (»Doctor Games. Confessions of an Impostor«, 2001), speaks in an unexcited tone of what he did. Where the Eight with a Seven-wing comes across as theatrical and playful, the Nine-wing brings a quiet, unshakeable dominance: whoever appears so composed is not asked for proof, and that was exactly the effect.</p>
-          <p class="vb-intro">This composure is not a late coat of varnish but part of the actual method: an impostor who visibly strains under pressure gets caught. Postel's down-to-earth, unexcited presence, a man who after years as a postal worker from Stuhr near Bremen calmly led the chief-physician ward round among specialist colleagues, was exactly the camouflage that let him pass under watchful eyes. The Eight supplies the nerve; the Nine supplies the quiet matter-of-factness behind which that nerve stays invisible.</p>
+          <p class="vb-intro">This composure is not an accessory but part of the actual method: an impostor who visibly strains under pressure gets caught. Postel's down-to-earth, unexcited presence, a man who after years as a postal worker from Stuhr near Bremen calmly led the chief-physician ward round among specialist colleagues, was exactly the camouflage that let him pass under watchful eyes. The Eight supplies the nerve; the Nine supplies the quiet matter-of-factness behind which that nerve stays invisible.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The private audience with Pope John Paul II: the one stage bigger than any clinic</h2>
@@ -2494,6 +2494,7 @@ export function gertPostelPortraitPage() {
         {route:"lebensmusterkompass/sx8", label:"Life Pattern Compass: SX8 – Crocodile"},
         {route:"beruehmte-markus-soeder", label:"Portrait: Markus Söder (SX8w9) – same subtype and wing"},
         {route:"kriminalpsychologie-peter-moore", label:"Portrait: Peter Moore (SX8w7) – same subtype, different wing, far darker register"},
+        {route:"kriminalpsychologie-gert-postel", label:"Criminal Psychology: Gert Postel (SX8w9) – the acts and the proceedings"},
       ])}
     </div>
   `);

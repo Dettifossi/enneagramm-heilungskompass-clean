@@ -2497,7 +2497,7 @@ export function gertPostelPortraitPage() {
         <h2 class="vb-section">4. Der Neunerflügel: Gelassenheit als Tarnung</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> zeigt sich bei Postel in der Ruhe, mit der er auftrat: kein Drängen, kein Imponiergehabe, sondern eine gelassene, fast gemütliche Selbstverständlichkeit. Sein eigener Buchtitel, »Doktorspiele. Geständnisse eines Hochstaplers« (2001), spricht in einem unaufgeregten Ton von dem, was er getan hat. Wo die Acht mit Siebenerflügel eher theatralisch und verspielt wirkt, bringt der Neunerflügel eine ruhige, unerschütterliche Dominanz mit: Wer so gelassen auftritt, den fragt man nicht nach Belegen, und genau das war die Wirkung.</p>
-          <p class="vb-intro">Diese Gelassenheit ist kein nachträglicher Lack, sondern Teil der eigentlichen Masche: Ein Hochstapler, der sichtbar unter Druck steht, fällt auf. Postels bodenständige, unaufgeregte Präsenz, ein Mann, der nach Jahren als Postbote aus Stuhr bei Bremen unter Fachkollegen ruhig die Chefarztvisite führte, war genau die Tarnung, die es ihm erlaubte, unter wachsamen Augen zu bestehen. Die Acht liefert die Nervenstärke, die Neun liefert die ruhige Selbstverständlichkeit, hinter der diese Nervenstärke unsichtbar bleibt.</p>
+          <p class="vb-intro">Diese Gelassenheit ist kein Beiwerk, sondern Teil der eigentlichen Masche: Ein Hochstapler, der sichtbar unter Druck steht, fällt auf. Postels bodenständige, unaufgeregte Präsenz, ein Mann, der nach Jahren als Postbote aus Stuhr bei Bremen unter Fachkollegen ruhig die Chefarztvisite führte, war genau die Tarnung, die es ihm erlaubte, unter wachsamen Augen zu bestehen. Die Acht liefert die Nervenstärke, die Neun liefert die ruhige Selbstverständlichkeit, hinter der diese Nervenstärke unsichtbar bleibt.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Die Privataudienz bei Papst Johannes Paul II.: die eine Bühne, die größer war als jede Klinik</h2>
@@ -2528,6 +2528,7 @@ export function gertPostelPortraitPage() {
         {route:"lebensmusterkompass/sx8", label:"Lebensmusterkompass: SX8 – Krokodil"},
         {route:"beruehmte-markus-soeder", label:"Porträt: Markus Söder (SX8w9) – derselbe Subtyp und Flügel"},
         {route:"kriminalpsychologie-peter-moore", label:"Porträt: Peter Moore (SX8w7) – derselbe Subtyp, anderer Flügel, weit düstereres Register"},
+        {route:"kriminalpsychologie-gert-postel", label:"Kriminalpsychologie: Gert Postel (SX8w9) – die Taten und das Verfahren"},
       ])}
     </div>
   `);

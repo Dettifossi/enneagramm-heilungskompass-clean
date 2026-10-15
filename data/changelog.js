@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2513", date: "2026-10-15", text: "Neues kriminalpsychologisches Porträt: Gert Postel (SX8w9) – Hochstapler, 17 Jahre falscher Arzt.", text_en: "New criminal psychology portrait: Gert Postel (SX8w9) – impostor, posed as a doctor for 17 years.", route: "kriminalpsychologie-gert-postel" },
     { version: "v2512", date: "2026-10-15", text: "Neues Porträt: Matthias Reim (SX1w2) – Schlagersänger und Songwriter.", text_en: "New portrait: Matthias Reim (SX1w2) – Schlager singer and songwriter.", route: "beruehmte-matthias-reim" },
     { version: "v2511", date: "2026-10-15", text: "Neues Porträt: Luke Nichols (SE6w5) – Outdoor-Creator (›Outdoor Boys‹).", text_en: "New portrait: Luke Nichols (SE6w5) – outdoor creator (Outdoor Boys).", route: "beruehmte-luke-nichols" },
     { version: "v2510", date: "2026-10-15", text: "Neues Krankheitsporträt: Ramana Maharshi (SO9w1).", text_en: "New illness portrait: Ramana Maharshi (SO9w1).", route: "krankheitsportraets-ramana-maharshi" },

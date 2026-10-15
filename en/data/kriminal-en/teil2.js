@@ -2725,3 +2725,87 @@ export function juanaBarrazaPortraitPage() {
     </div>
   `);
 }
+
+export function gertPostelKriminalPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Gert Postel – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gert-postel-portrait.jpg?v=2" alt="Gert Postel – Portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-gert-postel-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Gert Postel</p>
+        <p class="krim-portrait-typ">SX8w9 · Sexual Type 8 with a Nine-Wing</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Gert Uwe Postel</strong>, born on 18 June 1958 in Bremen and a trained postal worker, posed repeatedly as a doctor between 1980 and 1997 with forged documents and false titles and worked in hospitals and authorities, most recently from 1995 to 1997 as a senior physician in forensic psychiatry in Zschadraß near Leipzig. He was exposed by chance in July 1997, arrested in May 1998 and sentenced by the Leipzig regional court on 22 January 1999 to four years in prison, among other things for multiple fraud and forgery of documents. In January 2001 he was released early.
+      </p>
+      <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Gert Postel</strong> is assigned to the <strong>Sexual Type 8 with a Nine-wing</strong> in the Enneagram. The sexual Eight joins dominance with the need for immediate, intense encounter; its anger turns against authority that does not bow to it. The Nine-wing wraps this intensity in calm and apparent unhurriedness. The portrait 'Gert Postel' among the famous personalities describes his nature and career in detail; this criminal portrait sticks to the acts, the proceedings and what can be documented.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: The crocodile</h3>
+        <p class="vb-intro">The <strong>crocodile</strong> lies motionless in the water, barely visible, and strikes when the moment is right. In Postel this shows in how he fitted into structures: he did not appear like an intruder but like someone who belongs, and that can be linked to the composure of the Nine-wing, which let questions hardly arise.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The acts: From the forged document to senior physician</h3>
+        <p class="vb-intro"><strong>a) 1979/80, the first forgeries:</strong> With a false school-leaving certificate he applied to the Higher Regional Court in Bremen. The fraud came to light after four months, no juvenile sentence was imposed, he had to pay 700 DM. In 1980 he rented a flat in Bremen under a false name and title and was fined by the local court for unauthorised use of a title.</p>
+        <p class="vb-intro"><strong>b) 1980/81, the first doctor posts:</strong> In Neuenkirchen near Oldenburg he worked in a specialist hospital with a forged licence. In Bremen he worked as a locum emergency doctor and prescribed medication. The proceedings were discontinued against a payment of 600 DM. In 1982 his application as an army doctor with the Bundeswehr failed at the vetting; he reported himself, and these proceedings too were discontinued.</p>
+        <p class="vb-intro"><strong>c) 1982/83, the public health officer in Flensburg:</strong> Under the name 'Dr. med. Dr. phil. Clemens Bartholdy' he was hired as deputy public health officer although his documents were forged and incomplete. His duties were later reduced, and he left before he could take up a post in Kiel.</p>
+        <p class="vb-intro"><strong>d) 1983 to 1997, further stations:</strong> Further posts followed, among others with the physician Julius Hackethal in Riedering. In 1986 he was convicted of stalking a public prosecutor. From 1995 to 1997 he was in Zschadraß in Saxony a senior physician in forensic psychiatry, this time under his real name. He declined an offer of a chief physician post in Arnsdorf.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The exposure: Chance, not scrutiny</h3>
+        <p class="vb-intro"><strong>a) July 1997:</strong> In Zschadraß he was exposed because a doctor told her parents in Schleswig-Holstein about him and they knew his name. According to the reports an employee recognised him by chance on 10 July 1997. He went underground.</p>
+        <p class="vb-intro"><strong>b) Arrest and sentence:</strong> In May 1998 he was arrested in Stuttgart. On 22 January 1999 the Leipzig regional court sentenced him to four years in prison, among other things for multiple fraud and forgery of documents. The Flensburg regional court had also convicted him; the sources give the exact date of that judgment differently as December 1984 or January 1985.</p>
+        <p class="vb-intro"><strong>c) The pattern of discovery:</strong> Where he failed, it happened through formal vetting (as with the application as an army doctor) or through being recognised, not through professional scrutiny of his competence. That is what is truly striking about the acts: the deception did not fail on the matter but on papers and on the person.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The expert report and the question of culpability</h3>
+        <p class="vb-intro">An expert report on culpability describes him as strongly self-centred and incapable of self-criticism, as condescending toward others and irritable under criticism. His impostures are compared in it to an addiction. The article on which this portrait relies names no formal diagnosis. During his work as a doctor, according to the reports, specialists noticed no personality disorder.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Consequences and criticism</h3>
+        <p class="vb-intro">The Flensburg social services administration was criticised for failings. Postel kept fees from Zschadraß, and recovery was legally hardly promising. Michael Mielke criticised that Postel worked as an expert witness and treating doctor and held specialist examinations. There are also counter-voices: the hospital director in Zschadraß rated his probation 'above average', and Armin Nack, then presiding judge at the Federal Court of Justice, praised Postel's expert reports in one case in a 2012 lecture.</p>
+        <p class="vb-intro">The sources name no documented harm to individual patients. The portrait therefore claims none.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Documented and not documented</h3>
+        <p class="vb-intro">Much comes from Postel's own statements, such as his childhood, the cause of his mother's suicide, the school-leaving certificate and the private audience with Pope John Paul II in 1991. These statements are not independently documented. Also not documented are his claims that he had a decisive part in the Barschel affair and collaborated on Reiner Pfeiffer's book. His book written in prison, 'Doktorspiele – Geständnisse eines Hochstaplers' ('Doctor Games – Confessions of an Impostor'), appeared in 2001 and became a bestseller.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
+        <p class="vb-intro"><strong>Subtype:</strong> SX8w9 – Sexual Eight with a Nine-wing.<br>
+        <strong>Passion:</strong> Lust, here as the triumph of the moment in which the deception succeeds.<br>
+        <strong>Animal correspondence:</strong> Crocodile – motionless until the decisive moment.<br>
+        <strong>Teaching value:</strong> Postel's case shows how a system that trusts titles and appearance recognises a deceiver only by chance, and how dominance can hide behind composure.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The Sexual Eight in comparison: how intensity and dominance express themselves differently in SE8, SO8, and SX8.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE8, SO8, SX8 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 8 portrayed in depth – lust, control and the path to vulnerability.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves depth-psychological analysis. The personality typing is a psychological hypothesis, not a historical verdict. Gert Postel was sentenced by the Leipzig regional court in 1999 to four years in prison and released early in 2001. The Enneagram explains; it does not justify.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"beruehmte-gert-postel", label:"Portrait: Gert Postel (SX8w9) – nature and career"},
+        {route:"kriminalpsychologie-bernie-madoff", label:"Criminal Psychology: Bernie Madoff (SE3w4) – another fraud case"},
+        {route:"kriminalpsychologie-peter-moore", label:"Criminal Psychology: Peter Moore (SX8w7) – same subtype, different wing"},
+      ])}
+    </div>
+  `);
+}
