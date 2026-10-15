@@ -2696,6 +2696,7 @@ export function wolfgangGruppPortraitPage() {
         <h2 class="vb-section">7. The legacy: succession in the family business</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In October 2023 Trigema was converted into a limited partnership. Son Wolfgang Grupp junior has since been the personally liable partner, daughter Bonita and wife Elisabeth are limited partners. The business thus stayed in the family, and the principle of personal liability was passed on to the next generation.</p>
+          <p class="vb-intro">In July 2025 Grupp was taken to hospital after a suicide attempt. In a letter to his former workforce he attributed it to depression in old age and thereby made the incident public himself. The step shows that even a man who for decades was seen as the embodiment of steadfastness can reach his limits, and that depression in old age is to be taken seriously and is treatable. Anyone affected, or who knows someone who is, can find help around the clock in Germany from the Telefonseelsorge on 0800 111 0 111 (free of charge).</p>
           <p class="vb-intro">Wolfgang Grupp is regarded as one of the best-known German entrepreneurs of his generation, as proof that a textile company can survive in Germany, and as a representative of an entrepreneurship that understands liability and loyalty to the location as part of responsibility.</p>
         </blockquote>
 

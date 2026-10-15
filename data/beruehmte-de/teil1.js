@@ -2741,6 +2741,7 @@ export function wolfgangGruppPortraitPage() {
         <h2 class="vb-section">7. Das Vermächtnis: Nachfolge im Familienbetrieb</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Im Oktober 2023 wurde Trigema in eine Kommanditgesellschaft umgewandelt. Sohn Wolfgang Grupp junior ist seither persönlich haftender Gesellschafter, Tochter Bonita und Ehefrau Elisabeth sind Kommanditisten. Der Betrieb blieb damit in der Familie, und das Prinzip der persönlichen Haftung wurde an die nächste Generation weitergegeben.</p>
+          <p class="vb-intro">Im Juli 2025 kam Grupp nach einem Suizidversuch ins Krankenhaus. In einem Brief an seine frühere Belegschaft führte er ihn auf eine Depression im Alter zurück und machte den Vorfall damit selbst öffentlich. Der Schritt zeigt, dass auch ein Mann, der über Jahrzehnte als Inbegriff von Standfestigkeit galt, an seine Grenzen kommen kann, und dass Depressionen im Alter ernst zu nehmen und behandelbar sind. Wer selbst betroffen ist oder jemanden kennt, findet in Deutschland rund um die Uhr Hilfe bei der Telefonseelsorge unter 0800 111 0 111 (kostenlos).</p>
           <p class="vb-intro">Wolfgang Grupp gilt als einer der bekanntesten deutschen Unternehmer seiner Generation, als Beleg dafür, dass ein Textilunternehmen in Deutschland bestehen kann, und als Vertreter eines Unternehmertums, das Haftung und Standorttreue als Teil der Verantwortung versteht.</p>
         </blockquote>
 
