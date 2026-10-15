@@ -9322,16 +9322,18 @@ function libraryPage() {
 
 // Text-volume estimate (section 2 below) – recalculate TEXTUMFANG_STAND and update the date
 // once several hundred more portraits have been added.
-const TEXTUMFANG_STAND = { datum: "Sep 9, 2026", woerterMio: "1.5", normseiten: "5,850", buecher: "20" };
+const TEXTUMFANG_STAND = { datum: "Oct 16, 2026", woerterMio: "1.9", normseiten: "7,350", buecher: "25" };
 // PRAXISTIPPS_ANZAHL is maintained manually (the TIPPS array is local to praxistippsHeilpraktikerPage) –
 // count it up whenever a new practice tip is added.
-const PRAXISTIPPS_ANZAHL = 16;
+const PRAXISTIPPS_ANZAHL = 17;
 
 function zahlenFaktenPage() {
   const beruehmt = BERUEHMT_PORTRAITS.length;
   const krankheit = KRANKHEITS_PORTRAITS.length;
   const kriminal = KRIMINAL_PORTRAITS.length;
-  const portraitsGesamt = beruehmt + krankheit + kriminal;
+  const astrologie = ASTROLOGIE_PORTRAITS.length;
+  const bibel = BIBEL_PORTRAITS.length;
+  const portraitsGesamt = beruehmt + krankheit + kriminal + astrologie + bibel;
   const registerAnzahl = registerEntriesEN.length;
   const statCard = (num, label) => `
     <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1.1rem 1.2rem;">
@@ -9350,6 +9352,8 @@ function zahlenFaktenPage() {
         ${statCard(beruehmt, "Famous Personalities")}
         ${statCard(krankheit, "Illness Portraits")}
         ${statCard(kriminal, "Criminal Psychology Cases")}
+        ${statCard(astrologie, "Astrology Portraits")}
+        ${statCard(bibel, "Bible Portraits")}
         ${statCard(portraitsGesamt, "Portraits Total")}
       </div>
 
@@ -20752,7 +20756,7 @@ function _memoryIntroScreen(level) {
           <p style="margin:0;">${meta.rule}</p>
         </div>
         <div style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-left:4px solid var(--copper);border-radius:12px;padding:1rem 1.2rem;margin:0 0 1.6rem;font-size:.9rem;">
-          The cards are drawn from all 800+ portraits in the compass &ndash; famous personalities, criminal psychology, and illness portraits mixed together. As more portraits are added, the card pool grows automatically.
+          The cards are drawn from all ${Math.floor((BERUEHMT_PORTRAITS.length + KRIMINAL_PORTRAITS.length + KRANKHEITS_PORTRAITS.length) / 100) * 100}+ portraits in the compass &ndash; famous personalities, criminal psychology, and illness portraits mixed together. As more portraits are added, the card pool grows automatically.
         </div>
         ${best > 0 ? `<p style="text-align:center;color:var(--muted);font-size:0.9rem;margin-bottom:1.2rem;">Your best score at this level: <strong style="color:var(--ink);">${best}/${MEMORY_TOTAL_ROUNDS}</strong></p>` : ""}
         <div style="text-align:center;">
@@ -50862,7 +50866,7 @@ function freischaltPage() {
 
         <ul style="text-align:left;font-size:0.9rem;color:var(--muted);line-height:1.8;margin:0 0 1.4rem;padding-left:1.3rem;">
           <li><strong style="color:var(--ink);">All 27 subtype portraits</strong> – depth-psychological profiles with animal, healing path & natural medicine</li>
-          <li><strong style="color:var(--ink);">800+ portraits</strong> – famous personalities, criminal cases & illness portraits</li>
+          <li><strong style="color:var(--ink);">${Math.floor((BERUEHMT_PORTRAITS.length + KRIMINAL_PORTRAITS.length + KRANKHEITS_PORTRAITS.length) / 100) * 100}+ portraits</strong> – famous personalities, criminal cases & illness portraits</li>
           <li><strong style="color:var(--ink);">Hundreds of charts</strong> – Enneagram, spirituality, philosophy, music & more</li>
           <li><strong style="color:var(--ink);">All 3 type tests</strong> – diagnosis, structure & motivation test with personal evaluation</li>
           <li><strong style="color:var(--ink);">Interactive learning games</strong> – Enneagram Memory, Flashcards, Compatibility Check & Growth Journal</li>
