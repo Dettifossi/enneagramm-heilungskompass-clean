@@ -2618,7 +2618,7 @@ export function dietrichMateschitzPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the self-preservation One</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SE1w9 lies in Mateschitz in patience and precision: he waited years, reworked the product until it was right and then implemented it with full consistency. To this adds generosity in private: in 2004 he co-founded, with Heinz Kinigadner, the foundation Wings for Life for research into spinal cord injuries and in 2012 donated 70 million euros to the Paracelsus Medical Private University.</p>
+          <p class="vb-intro">The light of the SE1w9 lies in Mateschitz in patience and precision: he waited years, reworked the product until it was right and then carried the project out with full consistency. To this adds generosity in private: in 2004 he co-founded, with Heinz Kinigadner, the foundation Wings for Life for research into spinal cord injuries and in 2012 donated 70 million euros to the Paracelsus Medical Private University.</p>
           <p class="vb-intro">The shadow is the hardness of control: whoever decides everything himself tolerates opposing forces poorly. The episode around the closure of Servus TV can be read in this light, without thereby excusing it.</p>
         </blockquote>
 

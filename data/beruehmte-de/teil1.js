@@ -2662,7 +2662,7 @@ export function dietrichMateschitzPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Eins</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SE1w9 liegt bei Mateschitz in der Geduld und Genauigkeit: Er wartete Jahre, überarbeitete das Produkt, bis es stimmte, und setzte dann mit voller Konsequenz um. Dazu kommt die Großzügigkeit im Verborgenen: Er gründete 2004 gemeinsam mit Heinz Kinigadner die Stiftung Wings for Life zur Erforschung von Rückenmarksverletzungen und spendete 2012 70 Millionen Euro an die Paracelsus Medizinische Privatuniversität.</p>
+          <p class="vb-intro">Das Licht der SE1w9 liegt bei Mateschitz in der Geduld und Genauigkeit: Er wartete Jahre, überarbeitete das Produkt, bis es stimmte, und setzte das Projekt dann mit voller Konsequenz um. Dazu kommt die Großzügigkeit im Verborgenen: Er gründete 2004 gemeinsam mit Heinz Kinigadner die Stiftung Wings for Life zur Erforschung von Rückenmarksverletzungen und spendete 2012 70 Millionen Euro an die Paracelsus Medizinische Privatuniversität.</p>
           <p class="vb-intro">Der Schatten ist die Härte der Kontrolle: Wer alles selbst entscheidet, verträgt widersprechende Kräfte schlecht. Die Episode um die Schließung von Servus TV lässt sich in diesem Licht lesen, ohne sie damit zu entschuldigen.</p>
         </blockquote>
 
