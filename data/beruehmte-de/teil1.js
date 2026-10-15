@@ -2650,7 +2650,7 @@ export function dietrichMateschitzPortraitPage() {
 
         <h2 class="vb-section">4. Der Neuner-Flügel: Ruhe, Understatement und bewusstes Zurücktreten</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Neuner-Flügel (w9)</strong> zeigt sich bei Mateschitz in der Zurückhaltung: ein Konzernchef, der keine Bühne suchte, sich nicht inszenierte und seine Hobbys, wie das Fliegen mit Oldtimer-Flugzeugen, im Privaten pflegte. Er besaß einen Pilotenschein, einen Hangar mit historischen Maschinen und die Insel Laucala in Fidschi. Die Ruhe des Auftretens passt zur Neun, und sie verbindet sich mit dem Eins-Kern zu einem Typ, der streng zu sich selbst ist und nach außen gelassen wirkt.</p>
+          <p class="vb-intro">Der <strong>Neuner-Flügel (w9)</strong> zeigt sich bei Mateschitz in der Zurückhaltung: ein Konzernchef, der keine Bühne suchte, sich nicht inszenierte und seine Hobbys, wie das Fliegen mit Oldtimer-Flugzeugen, im Privaten pflegte. Er besaß einen Pilotenschein, einen Hangar mit historischen Maschinen und die Insel Laucala in Fidschi. Die Ruhe des Auftretens passt zur Neun, und sie verbindet sich mit dem Einser-Kern zu einem Typ, der streng zu sich selbst ist und nach außen gelassen wirkt.</p>
           <p class="vb-intro">Die Zuordnung zum Flügel ist plausibel, aber nicht über jeden Zweifel erhaben: Ein zurückgezogenes Leben allein belegt noch keinen Neuner-Flügel, auch Introversion oder bewusste Abschirmung eines sehr Reichen können dahinterstehen.</p>
         </blockquote>
 
