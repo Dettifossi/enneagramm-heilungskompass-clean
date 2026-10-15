@@ -2570,3 +2570,74 @@ export function nickNoltePortraitPage() {
     </div>
   `);
 }
+
+export function dietrichMateschitzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dietrich-mateschitz-portrait.jpg" alt="Dietrich Mateschitz – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dietrich Mateschitz</p>
+        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with a Nine-wing</p>
+        <p class="krim-portrait-subtitle">Austrian entrepreneur, 1944–2022 – co-founder of Red Bull – animal equivalent: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle: a teacher's child from Styria who studied for ten years</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One: it observes for a long time from above and strikes only when everything is right. Dietrich Mateschitz was born on 20 May 1944 in Sankt Marein im Mürztal in Styria. His parents were both teachers, the family had Slovene-Croatian roots, though sources differ on this. He studied at the Hochschule für Welthandel in Vienna and graduated in 1972 after about ten years with a degree in marketing.</p>
+          <p class="vb-intro">Afterwards he worked in marketing, first at Unilever in detergents, then at the German cosmetics maker Blendax, which produced toothpaste. It was an inconspicuous path in corporations, with no public profile. The ten years of study and two decades as an employed marketing man can be linked to the eagle's patience, waiting for the right moment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: concern about success and control over the whole</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At its core, the <strong>One</strong>, according to Naranjo, is about the inner demand to act rightly and without error, accompanied by suppressed anger at everything that falls short. The <strong>self-preservation One (SE1)</strong> carries this demand as a quiet worry whether one really lives up to it, and secures itself through preparation and control. In Mateschitz this can be linked to the way he kept the company in his hands: Red Bull never went public, he held 49 percent of the shares until his death, and for decades he decided product, image and direction himself.</p>
+          <p class="vb-intro">His private life also fits this picture: he gave few interviews, avoided society events, dressed deliberately casually and once said he did not believe in having many friends. That is not flight from the world but an attitude in which achievement and scrutiny count in private, and the public appearance belongs to the product, not the person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The substance: building a global brand from a Thai tonic</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">On a trip for Blendax in 1982, Mateschitz came across the drink Krating Daeng in Bangkok and secured the distribution rights outside Asia. In 1984 he founded Red Bull GmbH with the Thai businessman Chaleo Yoovidhya. According to reports, the recipe was reworked for European taste for about three years before sales began in Austria in 1987, followed by Hungary in 1992. Where others would have advertised a drink, he built a brand that worked through events: he sponsored extreme athletes, staged his own competitions and in 2007 founded Red Bull Media House, which supplied its own images and stories.</p>
+          <p class="vb-intro">That was the real step: Red Bull did not sell a drink but images of boundary-crossing that accompanied the brand. In 2012 Felix Baumgartner jumped from the stratosphere in the project ›Red Bull Stratos‹, regarded as a turning point for the brand's self-image. In Formula One, Red Bull ended its Sauber sponsorship in 2001, bought the Jaguar team for one dollar in 2004 and turned it into Red Bull Racing, which won the constructors' title from 2010 to 2013; Sebastian Vettel took four drivers' titles, Max Verstappen the next in 2021. Football (Red Bull Salzburg, RB Leipzig in 2009) and ice hockey followed. Forbes estimated his fortune at 16.5 billion dollars in 2020 and 26.9 billion in 2021.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Nine-wing: calm, understatement and deliberate stepping back</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> shows in Mateschitz in his reserve: a corporate chief who sought no stage, did not stage himself and cultivated his hobbies, such as flying vintage aircraft, in private. He held a pilot's licence, a hangar with historic aircraft and the island of Laucala in Fiji. The calm of his appearance fits the Nine, and it combines with the One core into a type that is strict with itself and appears relaxed outwardly.</p>
+          <p class="vb-intro">The assignment to the wing is plausible but not beyond doubt: a withdrawn life alone does not prove a Nine-wing; introversion or the deliberate shielding of a very rich man can also lie behind it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The breaks: Servus TV, the interview remarks and the victims of extreme sport</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mateschitz's media work remained disputed. The Salzburg broadcaster Servus TV, part of his media house, was criticised for its handling of the Covid pandemic and classed by some as politically right-wing. In 2016 he announced the broadcaster's closure after staff had initiated a works council, and withdrew the announcement when the initiative was not pursued. In 2017 an interview in the ›Kleine Zeitung‹ caused criticism, in which he spoke critically about refugee policy and mentioned Donald Trump favourably; RB Leipzig fans and others reacted with protest.</p>
+          <p class="vb-intro">In addition, several extreme athletes were seriously injured or died during filming and projects of Red Bull, which repeatedly brought the brand criticism. According to reports, Mateschitz is said to have drunk ten to twelve cans of his drink every day; this is not independently verified.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE1w9 lies in Mateschitz in patience and precision: he waited years, reworked the product until it was right and then implemented it with full consistency. To this adds generosity in private: in 2004 he co-founded, with Heinz Kinigadner, the foundation Wings for Life for research into spinal cord injuries and in 2012 donated 70 million euros to the Paracelsus Medical Private University.</p>
+          <p class="vb-intro">The shadow is the hardness of control: whoever decides everything himself tolerates opposing forces poorly. The episode around the closure of Servus TV can be read in this light, without thereby excusing it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The legacy: an empire built on images and patience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dietrich Mateschitz died on 22 October 2022 aged 78 after a long cancer illness. By then Red Bull had grown into one of the most valuable brands in the world, with its own media house, sports teams in several countries and a foundation for spinal cord research.</p>
+          <p class="vb-intro">From an idea in Thailand he shaped a global brand through years of preparation and stayed in the background himself, like the eagle that watches from on high as its work takes flight.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: subtype profile"},
+        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SE1w9) – same subtype and wing, another corporation"},
+        {route:"beruehmte-phil-collins", label:"Portrait: Phil Collins (SE1w9) – same subtype and wing"},
+      ])}
+    </div>
+  `);
+}

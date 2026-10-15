@@ -2614,3 +2614,75 @@ export function nickNoltePortraitPage() {
     </div>
   `);
 }
+
+export function dietrichMateschitzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dietrich-mateschitz-portrait.jpg" alt="Dietrich Mateschitz – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dietrich Mateschitz</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neuner-Flügel</p>
+        <p class="krim-portrait-subtitle">Österreichischer Unternehmer, 1944–2022 – Mitgründer von Red Bull – Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler: ein Lehrerkind aus der Steiermark, das zehn Jahre studierte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins: Er beobachtet lange aus der Höhe und greift erst zu, wenn alles stimmt. Dietrich Mateschitz wurde am 20. Mai 1944 in Sankt Marein im Mürztal in der Steiermark geboren. Seine Eltern waren beide Lehrer, die Familie hatte slowenisch-kroatische Wurzeln, wobei die Quellen dazu unterschiedliche Angaben machen. Er studierte an der Hochschule für Welthandel in Wien und schloss 1972 nach rund zehn Jahren mit einem Abschluss in Marketing ab.</p>
+          <p class="vb-intro">Danach arbeitete er im Marketing, zuerst bei Unilever im Waschmittelbereich, dann beim deutschen Kosmetikhersteller Blendax, der Zahnpasta herstellte. Es war ein unauffälliger Weg in Konzernen, ohne öffentliches Profil. Die zehn Studienjahre und die zwei Jahrzehnte als angestellter Marketingmann lassen sich mit der Geduld des Adlers in Verbindung bringen, der auf den richtigen Augenblick wartet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Besorgnis um das Gelingen und Kontrolle über das Ganze</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Kern geht es der <strong>Eins</strong> nach Naranjo um den inneren Anspruch, richtig und ohne Fehler zu handeln, begleitet von unterdrücktem Ärger über alles, was dem nicht genügt. Die <strong>selbsterhaltende Eins (SE1)</strong> trägt diesen Anspruch als leise Besorgnis, ob man ihm wirklich gerecht wird, und sichert sich durch Vorbereitung und Kontrolle ab. Bei Mateschitz lässt sich das mit seiner Art in Verbindung bringen, die Firma in der Hand zu behalten: Red Bull ging nie an die Börse, er hielt bis zu seinem Tod 49 Prozent der Anteile, und über Jahrzehnte entschied er Produkt, Auftritt und Richtung selbst.</p>
+          <p class="vb-intro">Auch sein Privatleben passt in dieses Bild: Er gab kaum Interviews, mied Gesellschaftsveranstaltungen, kleidete sich betont lässig und sagte einmal, er glaube nicht daran, viele Freunde zu haben. Das ist keine Weltflucht, sondern eine Haltung, bei der Leistung und Prüfung im Verborgenen zählen und der Auftritt nach außen dem Produkt gehört, nicht der Person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die Substanz: aus einem thailändischen Tonikum eine Weltmarke gebaut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auf einer Reise für Blendax lernte Mateschitz 1982 in Bangkok das Getränk Krating Daeng kennen und sicherte sich die Vertriebsrechte außerhalb Asiens. 1984 gründete er mit dem thailändischen Unternehmer Chaleo Yoovidhya die Red Bull GmbH. Die Rezeptur wurde nach Berichten rund drei Jahre lang für den europäischen Geschmack überarbeitet, bevor 1987 der Verkauf in Österreich begann, 1992 folgte Ungarn. Wo andere ein Getränk beworben hätten, baute er eine Marke, die über Ereignisse wirkte: Er sponserte Extremsportler, veranstaltete eigene Wettbewerbe und gründete 2007 das Red Bull Media House, das eigene Bilder und Geschichten lieferte.</p>
+          <p class="vb-intro">Das war der eigentliche Schritt: Red Bull verkaufte nicht ein Getränk, sondern Bilder von Grenzüberschreitung, die die Marke begleitete. 2012 sprang Felix Baumgartner im Projekt ›Red Bull Stratos‹ aus der Stratosphäre, was als Wendepunkt für das Selbstbild der Marke gilt. In der Formel 1 trennte sich Red Bull 2001 vom Sauber-Sponsoring, kaufte 2004 das Jaguar-Team für einen Dollar und machte daraus Red Bull Racing, das 2010 bis 2013 die Konstrukteurswertung gewann; Sebastian Vettel holte vier Fahrertitel, Max Verstappen 2021 den nächsten. Dazu kamen Fußball (Red Bull Salzburg, 2009 RB Leipzig) und Eishockey. Forbes schätzte sein Vermögen 2020 auf 16,5 und 2021 auf 26,9 Milliarden Dollar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Neuner-Flügel: Ruhe, Understatement und bewusstes Zurücktreten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neuner-Flügel (w9)</strong> zeigt sich bei Mateschitz in der Zurückhaltung: ein Konzernchef, der keine Bühne suchte, sich nicht inszenierte und seine Hobbys, wie das Fliegen mit Oldtimer-Flugzeugen, im Privaten pflegte. Er besaß einen Pilotenschein, einen Hangar mit historischen Maschinen und die Insel Laucala in Fidschi. Die Ruhe des Auftretens passt zur Neun, und sie verbindet sich mit dem Eins-Kern zu einem Typ, der streng zu sich selbst ist und nach außen gelassen wirkt.</p>
+          <p class="vb-intro">Die Zuordnung zum Flügel ist plausibel, aber nicht über jeden Zweifel erhaben: Ein zurückgezogenes Leben allein belegt noch keinen Neuner-Flügel, auch Introversion oder bewusste Abschirmung eines sehr Reichen können dahinterstehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Brüche: Servus TV, die Interviewaussagen und die Opfer des Extremsports</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mateschitz' Medienarbeit blieb umstritten. Der zu seinem Medienhaus gehörende Salzburger Sender Servus TV wurde wegen seines Umgangs mit der Corona-Pandemie kritisiert und von manchen als politisch rechts eingeordnet. 2016 kündigte er die Schließung des Senders an, nachdem Beschäftigte eine Betriebsratsgründung angestoßen hatten, und nahm die Ankündigung zurück, als die Initiative nicht weiterverfolgt wurde. 2017 löste ein Interview in der ›Kleinen Zeitung‹ Kritik aus, in dem er sich kritisch zur Flüchtlingspolitik äußerte und Donald Trump positiv erwähnte; Fans von RB Leipzig und andere reagierten mit Protest.</p>
+          <p class="vb-intro">Hinzu kommt, dass mehrere Extremsportler bei Dreharbeiten und Projekten von Red Bull schwer verletzt wurden oder starben, was die Marke wiederholt in die Kritik brachte. Mateschitz soll nach Berichten täglich zehn bis zwölf Dosen seines Getränks getrunken haben; das ist nicht unabhängig belegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 liegt bei Mateschitz in der Geduld und Genauigkeit: Er wartete Jahre, überarbeitete das Produkt, bis es stimmte, und setzte dann mit voller Konsequenz um. Dazu kommt die Großzügigkeit im Verborgenen: Er gründete 2004 gemeinsam mit Heinz Kinigadner die Stiftung Wings for Life zur Erforschung von Rückenmarksverletzungen und spendete 2012 70 Millionen Euro an die Paracelsus Medizinische Privatuniversität.</p>
+          <p class="vb-intro">Der Schatten ist die Härte der Kontrolle: Wer alles selbst entscheidet, verträgt widersprechende Kräfte schlecht. Die Episode um die Schließung von Servus TV lässt sich in diesem Licht lesen, ohne sie damit zu entschuldigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Vermächtnis: ein Imperium, das auf Bildern und Geduld gebaut wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dietrich Mateschitz starb am 22. Oktober 2022 im Alter von 78 Jahren nach langer Krebserkrankung. Zu diesem Zeitpunkt hatte sich Red Bull zu einer der wertvollsten Marken der Welt entwickelt, mit einem eigenen Medienhaus, Sportteams in mehreren Ländern und einer Stiftung für die Rückenmarksforschung.</p>
+          <p class="vb-intro">Aus einer Idee in Thailand formte er in jahrelanger Vorbereitung eine Weltmarke und blieb dabei selbst im Hintergrund, wie der Adler, der aus der Höhe zusieht, wie sein Werk fliegt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-tim-cook", label:"Porträt: Tim Cook (SE1w9) – derselbe Subtyp und Flügel, ein anderer Konzern"},
+        {route:"beruehmte-phil-collins", label:"Porträt: Phil Collins (SE1w9) – derselbe Subtyp und Flügel"},
+      ])}
+    </div>
+  `);
+}
