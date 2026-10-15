@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2518", date: "2026-10-15", text: "Neues Porträt: Wolfgang Grupp (SE1w9) – Trigema-Inhaber, Unternehmer mit persönlicher Haftung.", text_en: "New portrait: Wolfgang Grupp (SE1w9) – Trigema owner, entrepreneur with personal liability.", route: "beruehmte-wolfgang-grupp" },
     { version: "v2517", date: "2026-10-15", text: "Neues Porträt: Dietrich Mateschitz (SE1w9) – Mitgründer von Red Bull.", text_en: "New portrait: Dietrich Mateschitz (SE1w9) – co-founder of Red Bull.", route: "beruehmte-dietrich-mateschitz" },
     { version: "v2516", date: "2026-10-15", text: "Neues Porträt: Nick Nolte (SX6w5) – Schauspieler, Wolf-Subtyp.", text_en: "New portrait: Nick Nolte (SX6w5) – actor, wolf subtype.", route: "beruehmte-nick-nolte" },
     { version: "v2515", date: "2026-10-15", text: "Neues Porträt: Russell Means (SE3w4) – Aktivist, Schauspieler und Autor, Sprecher der American Indian Movement.", text_en: "New portrait: Russell Means (SE3w4) – activist, actor and author, spokesman of the American Indian Movement.", route: "beruehmte-russell-means" },

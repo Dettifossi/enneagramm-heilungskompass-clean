@@ -2686,3 +2686,75 @@ export function dietrichMateschitzPortraitPage() {
     </div>
   `);
 }
+
+export function wolfgangGruppPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wolfgang-grupp-portrait.jpg" alt="Wolfgang Grupp – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Grupp</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neuner-Flügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Unternehmer, geb. 1942 – Inhaber von Trigema bis 2023 – Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler: ein Unternehmersohn aus Burladingen, der den Betrieb als Pflicht begriff</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> ist das Tier der selbsterhaltenden Eins: Er überblickt sein Revier, prüft, ob alles an seinem Platz ist, und lässt sich nicht gern auf Neues ein, solange das Bewährte trägt. Wolfgang Grupp wurde am 4. April 1942 in Burladingen auf der Schwäbischen Alb geboren, dem Ort, in dem das Textilunternehmen Trigema sitzt. Sein Vater Franz Grupp, Schwiegersohn des Firmengründers Josef Mayer, hatte die Leitung nach dessen Tod in den 1950er Jahren übernommen und haftete persönlich für den Erfolg und Misserfolg der Firma. Wolfgang Grupp studierte Betriebswirtschaft in Köln, trat 1969 in die Geschäftsleitung ein und wurde 1972 alleiniger Geschäftsführer.</p>
+          <p class="vb-intro">Der Weg war damit vorgezeichnet, und er hat ihn nie als Wahl, sondern als Aufgabe beschrieben. Die Sorge um das Fortbestehen des Familienbetriebs und um die Menschen, die davon leben, steht am Anfang seines Berufslebens.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: persönliche Haftung als Lebensprinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Kern geht es der <strong>Eins</strong> nach Naranjo um den inneren Anspruch, richtig zu handeln, und um Ärger über alles, was dem nicht genügt. Die <strong>selbsterhaltende Eins (SE1)</strong> trägt diesen Anspruch als Besorgnis um Sicherheit und Ordnung und sichert sich durch Verlässlichkeit ab. Bei Grupp zeigt sich das in einem Grundsatz, den er über Jahrzehnte öffentlich vertreten hat: Wer ein Unternehmen führt, haftet persönlich für seine Entscheidungen. Er selbst haftete 54 Jahre lang als persönlich haftender Inhaber mit seinem Privatvermögen und hielt das auch von Managern und Politikern für selbstverständlich.</p>
+          <p class="vb-intro">Darin steckt der Zug der Eins zur moralischen Klarheit: Wer entscheidet, soll einstehen. Der Ärger richtet sich bei ihm auf Verantwortungslosigkeit, auf Manager, die Entscheidungen treffen, ohne ihre Folgen zu tragen. Auch seine Auftritte in Talkshows, bei denen er klare Urteile fällte, lassen sich mit diesem Anspruch in Verbindung bringen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die Substanz: ein Textilunternehmen, das in Deutschland blieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Als Grupp 1969 in die Firma kam, stand die deutsche Textilindustrie unter dem Druck billiger Importe, und viele Hersteller verlagerten die Produktion ins Ausland. Trigema wuchs unter seiner Leitung auf 28,1 Millionen Euro Umsatz im Jahr 1975 und baute Schulden ab. Er hielt an einer Linie fest, die sich dem Trend widersetzte: Die Produkte werden in Deutschland gefertigt, bis 2022 stieg der Umsatz auf rund 127 Millionen Euro bei etwa 1.200 Beschäftigten. Nach Angaben des Unternehmens gab es seit 1969 weder Kurzarbeit noch betriebsbedingte Kündigungen.</p>
+          <p class="vb-intro">Dazu kam eine Werbung, die zu den bekanntesten im deutschen Fernsehen zählte: Die Spots mit einem Schimpansen machten den Namen Trigema in der Breite bekannt, und Grupp trat selbst als Gesicht der Firma auf. Das Besondere liegt in der Verbindung aus Prinzipientreue und Wirtschaftlichkeit: Er zeigte über Jahrzehnte, dass sich ein Familienunternehmen mit Produktion im Inland halten lässt, was in der Branche als Ausnahme galt. Das entspricht dem Einser-Muster, an einer Linie festzuhalten, auch wenn die Umgebung davon abrät.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Neuner-Flügel: Bodenständigkeit und Verwurzelung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neuner-Flügel (w9)</strong> lässt sich bei Grupp mit der Bodenständigkeit in Verbindung bringen, mit der er sich dem Standort Burladingen verbunden hielt: Er blieb über Jahrzehnte dort, pflegte ein bewusst unprätentiöses Auftreten und band sein Leben an den Ort und die Belegschaft. Die Ruhe des Neuners zeigt sich in dieser Beständigkeit, weniger in seinem öffentlichen Ton, der oft deutlich und bestimmt war.</p>
+          <p class="vb-intro">Die Zuordnung zum Flügel ist deshalb vorsichtig: Sie stützt sich auf Verwurzelung und Beständigkeit, nicht auf eine durchgängig gelassene Selbstdarstellung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Brüche: Äußerungen, die Widerspruch auslösten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Grupps öffentliche Haltung blieb nicht unumstritten. Im Mai 2022 sagte er, Russland habe sich unter Putin wirtschaftlich verbessert und die USA seien im Ukrainekrieg ›nicht ganz unschuldig‹, was Kritik auslöste. Im Februar 2023 unterzeichnete er das ›Manifest für Frieden‹. 2025 warf er Ärzten vor, sinnlose Krankschreibungen auszustellen, was die zuständige Landesärztekammer zurückwies.</p>
+          <p class="vb-intro">Auch sein Auftreten, das klare Urteile über andere Berufsgruppen enthielt, wurde nicht von allen geschätzt. Das ist das Spiegelbild des Eins-Anspruchs: Wer sich an hohen Maßstäben misst, misst auch andere daran.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE1w9 liegt bei Grupp in der Verlässlichkeit: Ein Unternehmer, der sich über Jahrzehnte nicht aus der Verantwortung stahl und seinen Beschäftigten Sicherheit bot. Dafür erhielt er 2005 den Cicero-Rednerpreis, 2012 die Ehrenbürgerwürde von Burladingen und 2019 das Bundesverdienstkreuz erster Klasse.</p>
+          <p class="vb-intro">Der Schatten ist die Unnachgiebigkeit im Urteil: Wer hohe Maßstäbe an sich anlegt, neigt dazu, sie anderen aufzuerlegen, und verträgt Widerspruch zu seinen Grundsätzen schlecht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Vermächtnis: Nachfolge im Familienbetrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Oktober 2023 wurde Trigema in eine Kommanditgesellschaft umgewandelt. Sohn Wolfgang Grupp junior ist seither persönlich haftender Gesellschafter, Tochter Bonita und Ehefrau Elisabeth sind Kommanditisten. Der Betrieb blieb damit in der Familie, und das Prinzip der persönlichen Haftung wurde an die nächste Generation weitergegeben.</p>
+          <p class="vb-intro">Wolfgang Grupp gilt als einer der bekanntesten deutschen Unternehmer seiner Generation, als Beleg dafür, dass ein Textilunternehmen in Deutschland bestehen kann, und als Vertreter eines Unternehmertums, das Haftung und Standorttreue als Teil der Verantwortung versteht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-tim-cook", label:"Porträt: Tim Cook (SE1w9) – derselbe Subtyp und Flügel, ein anderer Konzern"},
+        {route:"beruehmte-dietrich-mateschitz", label:"Porträt: Dietrich Mateschitz (SE1w9) – derselbe Subtyp und Flügel, ein anderer Unternehmer"},
+      ])}
+    </div>
+  `);
+}

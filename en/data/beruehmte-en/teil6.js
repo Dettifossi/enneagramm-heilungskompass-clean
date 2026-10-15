@@ -2641,3 +2641,74 @@ export function dietrichMateschitzPortraitPage() {
     </div>
   `);
 }
+
+export function wolfgangGruppPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wolfgang-grupp-portrait.jpg" alt="Wolfgang Grupp – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wolfgang Grupp</p>
+        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with a Nine-wing</p>
+        <p class="krim-portrait-subtitle">German entrepreneur, b. 1942 – owner of Trigema until 2023 – animal equivalent: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle: an entrepreneur's son from Burladingen who saw the business as a duty</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One: it surveys its territory, checks that everything is in its place and is reluctant to take up the new as long as the proven carries. Wolfgang Grupp was born on 4 April 1942 in Burladingen on the Swabian Alb, the town where the textile company Trigema is based. His father Franz Grupp, son-in-law of the founder Josef Mayer, had taken over the management after the latter's death in the 1950s and was personally liable for the firm's success and failure. Wolfgang Grupp studied business administration in Cologne, joined the management in 1969 and became sole managing director in 1972.</p>
+          <p class="vb-intro">The path was thus laid out, and he never described it as a choice but as a task. Concern for the survival of the family business and for the people who live from it stands at the beginning of his working life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: personal liability as a principle of life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At its core, the <strong>One</strong>, according to Naranjo, is about the inner demand to act rightly and about anger at everything that falls short. The <strong>self-preservation One (SE1)</strong> carries this demand as concern about security and order and secures itself through reliability. In Grupp this shows in a principle he has publicly held for decades: whoever runs a company is personally liable for their decisions. He himself was liable for 54 years as personally liable owner with his private assets and considered this equally self-evident for managers and politicians.</p>
+          <p class="vb-intro">In it lies the One's pull toward moral clarity: whoever decides should stand for it. His anger is directed at irresponsibility, at managers who make decisions without bearing their consequences. His talk-show appearances, in which he passed clear judgments, can also be linked to this demand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The substance: a textile company that stayed in Germany</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">When Grupp joined the firm in 1969, the German textile industry was under pressure from cheap imports, and many manufacturers moved production abroad. Under his leadership Trigema grew to 28.1 million euros in sales in 1975 and paid off debts. He held to a line that ran against the trend: the products are made in Germany, and by 2022 sales had risen to about 127 million euros with around 1,200 employees. According to the company, there has been neither short-time work nor redundancies for operational reasons since 1969.</p>
+          <p class="vb-intro">There was also advertising that ranked among the best known on German television: the spots with a chimpanzee made the name Trigema known to the wider public, and Grupp himself appeared as the face of the firm. The special quality lies in the combination of adherence to principle and economic viability: over decades he showed that a family company with domestic production can be sustained, which was considered an exception in the industry. That corresponds to the One pattern of holding to a line even when the surroundings advise against it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Nine-wing: down-to-earth rootedness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> in Grupp can be linked to the down-to-earth attitude with which he stayed attached to the location Burladingen: he remained there for decades, cultivated a deliberately unpretentious manner and tied his life to the place and the workforce. The calm of the Nine shows in this constancy, less in his public tone, which was often clear and firm.</p>
+          <p class="vb-intro">The assignment to the wing is therefore cautious: it rests on rootedness and constancy, not on a consistently relaxed self-presentation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The breaks: statements that provoked objection</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Grupp's public stance was not uncontroversial. In May 2022 he said Russia had improved economically under Putin and the US was ›not entirely innocent‹ in the Ukraine war, which drew criticism. In February 2023 he signed the ›Manifest für Frieden‹ (manifesto for peace). In 2025 he accused doctors of issuing pointless sick notes, which the responsible regional medical association rejected.</p>
+          <p class="vb-intro">His manner, which included clear judgments about other professions, was not appreciated by everyone. That is the mirror image of the One's demand: whoever measures himself by high standards also measures others by them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE1w9 in Grupp lies in reliability: an entrepreneur who for decades did not shirk responsibility and offered his employees security. For this he received the Cicero Speaker Prize in 2005, honorary citizenship of Burladingen in 2012 and the Federal Cross of Merit, first class, in 2019.</p>
+          <p class="vb-intro">The shadow is unyieldingness in judgment: whoever applies high standards to himself tends to impose them on others and tolerates objection to his principles poorly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The legacy: succession in the family business</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In October 2023 Trigema was converted into a limited partnership. Son Wolfgang Grupp junior has since been the personally liable partner, daughter Bonita and wife Elisabeth are limited partners. The business thus stayed in the family, and the principle of personal liability was passed on to the next generation.</p>
+          <p class="vb-intro">Wolfgang Grupp is regarded as one of the best-known German entrepreneurs of his generation, as proof that a textile company can survive in Germany, and as a representative of an entrepreneurship that understands liability and loyalty to the location as part of responsibility.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: subtype profile"},
+        {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SE1w9) – same subtype and wing, another corporation"},
+        {route:"beruehmte-dietrich-mateschitz", label:"Portrait: Dietrich Mateschitz (SE1w9) – same subtype and wing, another entrepreneur"},
+      ])}
+    </div>
+  `);
+}
