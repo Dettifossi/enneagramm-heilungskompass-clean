@@ -4244,3 +4244,69 @@ export function dieterThomasHeckPortraitPage() {
     </div>
   `);
 }
+
+export function ramanaMaharshiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ramana-maharshi-portrait.jpg" alt="Ramana Maharshi – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-ramana-maharshi-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Ramana Maharshi</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with a One-Wing</p>
+        <p class="krim-portrait-subtitle">Indian sage and teacher of self-inquiry, 1879&ndash;1950 &ndash; Animal match: Buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Buffalo That Rests in the Middle of the Herd</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A buffalo lies calmly in the middle of the herd, and around it life goes its way. It need do nothing for the others to feel safe: its presence is enough. That is the image of the social Nine, who dissolves into the community and gives it a hold in doing so.</p>
+          <p class="vb-intro">Ramana Maharshi was born on 30 December 1879 as Venkataraman Iyer in Tiruchuzhi in Tamil Nadu, the second of four children of an orthodox Brahmin family. He attended schools in Dindigul and Madurai and lived after his father's death with an uncle in Madurai. In July 1896, at sixteen, by his account he had an experience of fear of death in which he recognised his true self. He left his parental home secretly and arrived in Tiruvannamalai on 1 September 1896, where he stayed until his death.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Nine: Presence Instead of Performance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>social Nine (SO9)</strong> finds identity in participation: in taking part in a cause and a community, less in her own performance. In Ramana Maharshi this shows in that after the years in temples and caves on Mount Arunachala he finally lived in the midst of people. From 1899 he had lived on the mountain, about seventeen years in the Virupaksha cave, then in the Skandashram cave until the end of 1922. His mother came to him in 1916, became a sannyasini and died on 19 May 1922. From December 1922 he settled at the foot of the mountain, where Sri Ramanasramam arose.</p>
+          <p class="vb-intro">In 1928 the Old Hall was built, in which he lived until 1949. The ashram later included a library, a hospital and a post office. He often passed on his teaching by silence in his presence or by answering questions. The social Nine teaches not from a podium but by being there.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Clarity and Rigour of Method</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing</strong> gives the social Nine clarity and rigour. With a weakly developed One-wing the Nine would stay soft and indefinite. In Ramana Maharshi it was strongly developed: his teaching rests on an unusually simple and exact method, the self-inquiry 'Who am I?' (Atma-Vichara). He wrote it down as early as 1902 in the text 'Nan Yar?' ('Who Am I?') and taught it for decades.</p>
+          <p class="vb-intro">Fitting this is an attitude that relies on clarity rather than embellishment. Besides self-inquiry he also emphasised devotion (bhakti), and he wrote hymns, such as the 'Five Hymns to Arunachala'.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: A Question That Leads Back to the Core</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Ramana Maharshi apart from many spiritual teachers is the radicalism of the question: instead of developing teachings to be believed or practised, he led seekers again and again back to the question of who it actually is that seeks. From this grew a reputation that reached far beyond India: from 1911 Frank Humphreys made him known in the West, in 1931 B. V. Narasimha's biography appeared, and in 1934 Paul Brunton visited him.</p>
+          <p class="vb-intro">The ashram became a place where people came together regardless of background. Ramana Maharshi lived in the midst of visitors and ashram residents without putting himself on a pedestal as a master, and in a social Nine with a One-wing that is no contradiction: the hold the community found in him arose from his simplicity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Nine with a One-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in stillness. Whoever came to him received no doctrine but a question and a space. That suits a Nine who creates peace by being peaceful herself.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. The Nine tends to put her own needs behind the community's, and that also showed in his last illness: at the end of 1948 a small nodule on the arm was noticed, which was operated on in 1949 and, according to reports, returned. When doctors proposed amputation he refused, by tradition; the body itself is a disease, it should have its natural end. Radiation and further treatments, too, according to the reports, brought no success. His followers asked him to stay. He is said to have answered: 'Where can I go? I am always here.' He died on 14 April 1950 in the ashram in Tiruvannamalai, aged 70. The sources give the dates of the first operation and the recognition of the tumour differently.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Three Teachers of Stillness: Ramana Maharshi, the Dalai Lama and Ablass</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With the <a href="javascript:void(0)" data-route="beruehmte-dalai-lama">Dalai Lama XIV.</a> (SO9w1) he shares the subtype: both stand as spiritual teachers in the service of a community and radiate calm. In the Dalai Lama it carries at the same time responsibility for a people, in Ramana Maharshi it stayed wholly directed to the question of the self.</p>
+          <p class="vb-intro">Another line leads to <a href="javascript:void(0)" data-route="beruehmte-werner-ablass">Werner Ablass</a> (SX1w2), who also referred to a non-dual view. Ablass appeared as a sexual One with zeal against errors, Ramana Maharshi as a social Nine with the calm of a single question.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: Subtype Profile"},
+        {route:"lebensmusterkompass/so9", label:"Life Pattern Compass: SO9 – Buffalo"},
+        {route:"beruehmte-dalai-lama", label:"Portrait: Dalai Lama XIV. (SO9w1) – same subtype, spiritual teacher"},
+        {route:"beruehmte-werner-ablass", label:"Portrait: Werner Ablass (SX1w2) – teacher of the non-dual view"},
+      ])}
+    </div>
+  `);
+}

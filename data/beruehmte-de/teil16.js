@@ -4249,3 +4249,69 @@ export function dieterThomasHeckPortraitPage() {
     </div>
   `);
 }
+
+export function ramanaMaharshiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ramana-maharshi-portrait.jpg" alt="Ramana Maharshi – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-ramana-maharshi-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Ramana Maharshi</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Indischer Weiser und Lehrer der Selbstbefragung, 1879&ndash;1950 &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel, der mitten in der Herde ruht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein Büffel liegt ruhig mitten in der Herde, und um ihn herum geht das Leben seinen Gang. Er muss nichts tun, damit sich die anderen sicher fühlen: Seine Gegenwart genügt. Das ist das Bild der sozialen Neun, die in der Gemeinschaft aufgeht und ihr dabei Halt gibt.</p>
+          <p class="vb-intro">Ramana Maharshi wurde am 30. Dezember 1879 als Venkataraman Iyer in Tiruchuzhi in Tamil Nadu geboren, als zweites von vier Kindern einer orthodoxen brahmanischen Familie. Er besuchte Schulen in Dindigul und Madurai und lebte nach dem Tod seines Vaters bei einem Onkel in Madurai. Im Juli 1896, mit sechzehn Jahren, hatte er nach seiner Schilderung eine Erfahrung von Todesangst, bei der er sein wahres Selbst erkannte. Er verließ heimlich das Elternhaus und kam am 1. September 1896 nach Tiruvannamalai, wo er bis zu seinem Tod blieb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Gegenwart statt Auftritt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> findet nach Naranjo Identität in der Teilhabe: im Mitwirken an einer Sache und einer Gemeinschaft, weniger im eigenen Auftritt. Bei Ramana Maharshi zeigt sich das darin, dass er nach den Jahren in Tempeln und Höhlen am Berg Arunachala schließlich mitten unter Menschen lebte. Ab 1899 hatte er auf dem Berg gelebt, rund siebzehn Jahre in der Virupaksha-Höhle, dann in der Skandashram-Höhle bis Ende 1922. Seine Mutter kam 1916 zu ihm, wurde Sannyasini und starb am 19. Mai 1922. Ab Dezember 1922 ließ er sich am Fuß des Berges nieder, wo der Sri Ramanasramam entstand.</p>
+          <p class="vb-intro">1928 wurde die Old Hall gebaut, in der er bis 1949 lebte. Der Ashram umfasste später eine Bibliothek, ein Krankenhaus und eine Post. Seine Lehre gab er häufig durch Schweigen in seiner Gegenwart weiter oder durch Antworten auf Fragen. Die soziale Neun lehrt nicht von einem Podium, sondern dadurch, dass sie da ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Klarheit und Strenge der Methode</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel</strong> gibt der sozialen Neun Klarheit und Strenge. Bei einem schwach ausgeprägten Einserflügel bliebe die Neun weich und unbestimmt. Bei Ramana Maharshi war er stark ausgeprägt: Seine Lehre ist von einer ungewöhnlich einfachen und genauen Methode getragen, der Selbstbefragung ›Wer bin ich?‹ (Atma-Vichara). Er schrieb sie schon 1902 in der Schrift ›Nan Yar?‹ (›Wer bin ich?‹) nieder und lehrte sie über Jahrzehnte.</p>
+          <p class="vb-intro">Dazu passt eine Haltung, die auf Klarheit setzt statt auf Ausschmückung. Neben der Selbstbefragung betonte er auch die Hingabe (Bhakti), und er schrieb Hymnen, etwa die ›Five Hymns to Arunachala‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Eine Frage, die auf den Kern zurückführt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Ramana Maharshi von vielen spirituellen Lehrern unterscheidet, ist die Radikalität der Frage: Statt Lehren zu entwickeln, die man glauben oder üben muss, führte er die Suchenden immer wieder auf die Frage zurück, wer es eigentlich ist, der sucht. Daraus erwuchs ein Ruf, der weit über Indien hinausreichte: Ab 1911 machte Frank Humphreys ihn im Westen bekannt, 1931 erschien die Biografie von B. V. Narasimha, und 1934 besuchte ihn Paul Brunton.</p>
+          <p class="vb-intro">Der Ashram wurde zu einem Ort, an dem Menschen unabhängig von Herkunft zusammenkamen. Ramana Maharshi lebte inmitten von Besuchern und Ashrambewohnern, ohne sich als Meister auf ein Podest zu stellen, und das ist bei einer sozialen Neun mit Einserflügel kein Widerspruch: Der Halt, den die Gemeinschaft an ihm fand, entstand aus seiner Schlichtheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Stille. Wer zu ihm kam, bekam keine Doktrin, sondern eine Frage und einen Raum. Das passt zu einer Neun, die Frieden schafft, indem sie selbst friedlich ist.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Neun neigt dazu, die eigenen Bedürfnisse zugunsten der Gemeinschaft zurückzustellen, und das zeigte sich auch in seiner letzten Krankheit: Ende 1948 wurde ein kleiner Knoten am Arm bemerkt, der 1949 operiert wurde und nach Berichten wiederkehrte. Als Ärzte eine Amputation vorschlugen, lehnte er nach der Überlieferung ab; der Körper selbst sei eine Krankheit, er solle sein natürliches Ende haben. Auch Bestrahlung und weitere Behandlungen brachten laut den Berichten keinen Erfolg. Seine Anhänger baten ihn, zu bleiben. Er soll geantwortet haben: ›Wohin sollte ich gehen? Ich bin immer hier.‹ Er starb am 14. April 1950 im Ashram in Tiruvannamalai, 70 Jahre alt. Die Quellen nennen die Daten der ersten Operation und der Erkennung des Tumors unterschiedlich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Drei Lehrer der Stille: Ramana Maharshi, Dalai Lama und Ablass</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit dem <a href="javascript:void(0)" data-route="beruehmte-dalai-lama">Dalai Lama XIV.</a> (SO9w1) verbindet ihn der Subtyp: Beide stehen als spirituelle Lehrer im Dienst einer Gemeinschaft und strahlen Ruhe aus. Beim Dalai Lama trägt sie zugleich Verantwortung für ein Volk, bei Ramana Maharshi blieb sie ganz auf die Frage nach dem Selbst gerichtet.</p>
+          <p class="vb-intro">Eine andere Linie führt zu <a href="javascript:void(0)" data-route="beruehmte-werner-ablass">Werner Ablass</a> (SX1w2), der sich ebenfalls auf eine nichtduale Sicht bezog. Ablass trat als sexuelle Eins mit Eifer gegen Irrtümer auf, Ramana Maharshi als soziale Neun mit der Ruhe einer einzigen Frage.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so9", label:"Lebensmusterkompass: SO9 – Büffel"},
+        {route:"beruehmte-dalai-lama", label:"Porträt: Dalai Lama XIV. (SO9w1) – derselbe Subtyp, spiritueller Lehrer"},
+        {route:"beruehmte-werner-ablass", label:"Porträt: Werner Ablass (SX1w2) – Lehrer der nichtdualen Sicht"},
+      ])}
+    </div>
+  `);
+}
