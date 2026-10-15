@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2511", date: "2026-10-15", text: "Neues Porträt: Luke Nichols (SE6w5) – Outdoor-Creator (›Outdoor Boys‹).", text_en: "New portrait: Luke Nichols (SE6w5) – outdoor creator (Outdoor Boys).", route: "beruehmte-luke-nichols" },
     { version: "v2510", date: "2026-10-15", text: "Neues Krankheitsporträt: Ramana Maharshi (SO9w1).", text_en: "New illness portrait: Ramana Maharshi (SO9w1).", route: "krankheitsportraets-ramana-maharshi" },
     { version: "v2509", date: "2026-10-15", text: "Neues Porträt: Ramana Maharshi (SO9w1) – Weiser und Lehrer der Selbstbefragung.", text_en: "New portrait: Ramana Maharshi (SO9w1) – sage and teacher of self-inquiry.", route: "beruehmte-ramana-maharshi" },
     { version: "v2508", date: "2026-10-14", text: "Neues Porträt: Dieter Thomas Heck (SO9w1) – Moderator der ZDF-Hitparade.", text_en: "New portrait: Dieter Thomas Heck (SO9w1) – host of the ZDF Hitparade.", route: "beruehmte-dieter-thomas-heck" },

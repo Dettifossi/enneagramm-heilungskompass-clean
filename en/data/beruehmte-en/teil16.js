@@ -4311,3 +4311,69 @@ export function ramanaMaharshiPortraitPage() {
     </div>
   `);
 }
+
+export function lukeNicholsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-luke-nichols-portrait.jpg" alt="Luke Nichols – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-luke-nichols-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Luke Nichols</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with a Five-Wing</p>
+        <p class="krim-portrait-subtitle">American outdoor creator ('Outdoor Boys'), born in Alaska &ndash; Animal match: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit That Knows Its Burrow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The rabbit relies on its burrow. It is watchful, knows every exit and feels safest where it has its people around it. That is the image of the self-preservation Six: safety arises in the close, familiar circle, not on the big stage.</p>
+          <p class="vb-intro">Luke Nichols comes from Alaska. He studied political science at Brigham Young University and law at George Mason University, worked for political campaigns in Utah, practised as a lawyer in Virginia and then moved back to his home state. From 2013 he made fishing videos, first under the channel name 'Catfish &amp; Carp', and in 2015 he started 'Outdoor Boys'. Five years later he put his law work on hold to devote himself entirely to the channel.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Six: Warmth in the Close Circle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo called the self-preservation Six <strong>Warmth</strong>: safety arises not through attachment to a large group or cause but through the close, familiar circle in which people can rely on one another. The recipe of 'Outdoor Boys' was exactly that: campfire, cabins, snow and family. On his adventures in Alaska, over the years his wife and three sons came along, and Luke Nichols showed nothing other than the life he shared with them.</p>
+          <p class="vb-intro">That also explains the effect. Viewers saw no expert in the spotlight but a father providing safety and plenty outdoors. The channel grew to about fifteen million subscribers (more, according to some reports).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-Wing: Planning, Knowledge and Distance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing</strong> gives the self-preservation Six knowledge, analysis and the need for distance. With a weakly developed Five-wing the Six would stay more sociable and in need of support. In Nichols it is strong: a lawyer who carefully plans and explains bushcraft, winter survival and cabin building shows the Five's analytical trait, and the wish to withdraw also suits it.</p>
+          <p class="vb-intro">In May 2025 he announced in a video that he was stepping back from YouTube, for reasons of privacy and to spend more time with his family. The sheer volume of fans who wanted to contact him, photograph him or approach him in everyday life had at times been overwhelming. The decision looks like the typical pattern: watchfulness toward what endangers the safety of the close circle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: Real Time Outdoors Instead of Staging</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What set 'Outdoor Boys' apart from many outdoor channels was its calm and authenticity: long, unhurried videos in which one spends time with nature and family without anyone pushing to the front. The format had the character of a family album that millions could look at.</p>
+          <p class="vb-intro">The relationship to his own family as part of the work also speaks for the self-preservation Six: his son Tom runs a channel of his own, 'Outdoor Tom', with similar videos, on which Luke Nichols can also be seen. The burrow is passed on.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Six with a Five-Wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in conscious restraint. Whoever says at the height of success that he does not want the life of a full-time celebrity for his family puts the safety of the circle above fame. That suits a Six who knows her limits.</p>
+          <p class="vb-intro">The shadow belongs to the same pattern. The Six mistrusts what comes at her from outside, and that can also exclude good opportunities. At the same time it shows that the withdrawal was not entirely final: in November 2025 he announced three still unfinished videos, and in December 2025 he made a video for the channel of Steven, whose wife is battling cancer, so that Steven would not have to produce content over the holidays. Service to the circle can also interrupt the withdrawal. How it goes on after that is open according to the available reports.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Three Rabbits with a Five-Wing: Nichols, Schubert and Pichai</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-franz-schubert">Franz Schubert</a> (SE6w5), Nichols shares the subtype and the preference for the small circle: Schubert created his music in the circle of friends of the 'Schubertiads', Nichols his videos in the circle of the family. Both preferred the closeness of confidants to the big stage.</p>
+          <p class="vb-intro"><a href="javascript:void(0)" data-route="beruehmte-sundar-pichai">Sundar Pichai</a> (SE6w5) also shows the reliability of the self-preservation Six with a Five-wing, only in a completely different field: Pichai leads a global company with calm and planning, Nichols built a family channel.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SE6 – Rabbit"},
+        {route:"beruehmte-franz-schubert", label:"Portrait: Franz Schubert (SE6w5) – same subtype, protection in a small circle of friends"},
+        {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5) – same subtype, reliability under pressure"},
+      ])}
+    </div>
+  `);
+}

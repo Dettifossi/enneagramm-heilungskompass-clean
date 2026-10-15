@@ -4316,3 +4316,69 @@ export function ramanaMaharshiPortraitPage() {
     </div>
   `);
 }
+
+export function lukeNicholsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-luke-nichols-portrait.jpg" alt="Luke Nichols – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-luke-nichols-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Luke Nichols</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Outdoor-Creator (›Outdoor Boys‹), geb. in Alaska &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen, das seinen Bau kennt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Kaninchen verlässt sich auf seinen Bau. Es ist wachsam, kennt jeden Ausgang und fühlt sich am sichersten, wo es seine Leute um sich hat. Das ist das Bild der selbsterhaltenden Sechs: Sicherheit entsteht im engen, vertrauten Kreis, nicht auf der großen Bühne.</p>
+          <p class="vb-intro">Luke Nichols stammt aus Alaska. Er studierte Politikwissenschaft an der Brigham Young University und Rechtswissenschaft an der George Mason University, arbeitete für politische Kampagnen in Utah, war als Anwalt in Virginia tätig und zog dann zurück in seine Heimat. Ab 2013 machte er Angelvideos, zunächst unter dem Kanalnamen ›Catfish &amp; Carp‹, und 2015 startete er ›Outdoor Boys‹. Fünf Jahre später legte er seine Anwaltstätigkeit auf Eis, um sich ganz dem Kanal zu widmen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Wärme im engen Kreis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo nannte die selbsterhaltende Sechs die <strong>Wärme</strong>: Sicherheit entsteht nicht durch Bindung an eine große Gruppe oder Sache, sondern durch den engen, vertrauten Kreis, in dem man einander verlässt. Das Erfolgsrezept von ›Outdoor Boys‹ war genau das: Lagerfeuer, Hütten, Schnee und die Familie. Auf seinen Abenteuern in Alaska waren über Jahre seine Frau und seine drei Söhne dabei, und Luke Nichols zeigte nichts anderes als das Leben, das er mit ihnen teilte.</p>
+          <p class="vb-intro">Das erklärt auch die Wirkung. Zuschauer sahen keinen Experten im Rampenlicht, sondern einen Vater, der draußen für Sicherheit und Fülle sorgt. Der Kanal wuchs auf rund fünfzehn Millionen Abonnenten (je nach Bericht auch mehr).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Planung, Wissen und Abstand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel</strong> gibt der selbsterhaltenden Sechs Wissen, Analyse und das Bedürfnis nach Abstand. Bei einem schwach ausgeprägten Fünferflügel bliebe die Sechs eher gesellig und anlehnungsbedürftig. Bei Nichols ist er stark: Ein Jurist, der Bushcraft, Überleben im Winter und das Bauen von Hütten sorgfältig plant und erklärt, zeigt den analytischen Zug der Fünf, und der Wunsch, sich zurückzuziehen, passt ebenfalls zu ihr.</p>
+          <p class="vb-intro">Im Mai 2025 kündigte er in einem Video an, sich von YouTube zurückzuziehen, aus Gründen der Privatsphäre und um mehr Zeit mit seiner Familie zu verbringen. Die schiere Menge an Fans, die ihn kontaktieren, fotografieren oder im Alltag ansprechen wollten, sei zeitweise überwältigend gewesen. Die Entscheidung wirkt wie das typische Muster: Wachsamkeit gegenüber dem, was die Sicherheit des engen Kreises gefährdet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Echtes Draußensein statt Inszenierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was ›Outdoor Boys‹ von vielen Outdoor-Kanälen unterschied, war die Ruhe und Echtheit: lange, unaufgeregte Videos, in denen man Zeit mit der Natur und der Familie verbringt, ohne dass sich einer in den Vordergrund drängt. Das Format hatte den Charakter eines Familienalbums, das Millionen anschauen konnten.</p>
+          <p class="vb-intro">Auch das Verhältnis zur eigenen Familie als Teil des Werks spricht für die selbsterhaltende Sechs: Sein Sohn Tom führt unter dem Namen ›Outdoor Tom‹ einen eigenen Kanal mit ähnlichen Videos, auf dem Luke Nichols ebenfalls zu sehen ist. Der Bau wird weitergereicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Sechs mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt im bewussten Maßhalten. Wer auf dem Höhepunkt des Erfolgs sagt, dass er das Leben als Vollzeit-Prominenter nicht für seine Familie will, setzt die Sicherheit des Kreises über den Ruhm. Das passt zu einer Sechs, die ihre Grenzen kennt.</p>
+          <p class="vb-intro">Der Schatten gehört zum selben Muster. Die Sechs misstraut dem, was von außen auf sie zukommt, und das kann auch gute Chancen ausschließen. Zugleich zeigt sich, dass der Rückzug nicht ganz endgültig war: Im November 2025 kündigte er drei noch unfertige Videos an, und im Dezember 2025 drehte er ein Video für den Kanal von Steven, dessen Frau gegen Krebs kämpft, damit dieser über die Feiertage keinen Inhalt produzieren musste. Auch der Dienst am Kreis kann den Rückzug unterbrechen. Wie es danach weitergeht, ist nach den vorliegenden Meldungen offen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Drei Kaninchen mit Fünferflügel: Nichols, Schubert und Pichai</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-franz-schubert">Franz Schubert</a> (SE6w5) verbindet Nichols der Subtyp und die Vorliebe für den kleinen Kreis: Schubert schuf seine Musik im Freundeskreis der ›Schubertiaden‹, Nichols seine Videos im Kreis der Familie. Beide zogen die Nähe der Vertrauten der großen Bühne vor.</p>
+          <p class="vb-intro">Auch <a href="javascript:void(0)" data-route="beruehmte-sundar-pichai">Sundar Pichai</a> (SE6w5) zeigt die Verlässlichkeit der selbsterhaltenden Sechs mit Fünferflügel, nur in einem ganz anderen Feld: Pichai führt ein Weltunternehmen mit Ruhe und Planung, Nichols baute einen Familienkanal.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se6", label:"Lebensmusterkompass: SE6 – Kaninchen"},
+        {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5) – derselbe Subtyp, Schutz im kleinen Freundeskreis"},
+        {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5) – derselbe Subtyp, Verlässlichkeit unter Druck"},
+      ])}
+    </div>
+  `);
+}
