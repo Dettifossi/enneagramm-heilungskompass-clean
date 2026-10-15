@@ -2470,3 +2470,75 @@ export function stanleyMandelstamPortraitPage() {
     </div>
   `);
 }
+
+export function russellMeansPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-russell-means-portrait.jpg" alt="Russell Means – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Russell Means</p>
+        <p class="krim-portrait-typ">SE3w4 · Selbsterhaltender Typ 3 mit Vierer-Flügel</p>
+        <p class="krim-portrait-subtitle">Aktivist, Schauspieler und Autor, 1939–2012 – Sprecher der American Indian Movement – Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär: ein Kind von Pine Ridge, aufgewachsen in der Bucht von San Francisco</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei: findig, anpassungsfähig, im Zweifel mit geschickten Händen und ohne große Geste. Russell Means wurde am 10. November 1939 in Porcupine in der Pine-Ridge-Reservation in South Dakota geboren. Seine Mutter Theodora Louise Feather gehörte zu den Yankton Dakota, sein Vater Walter ›Hank‹ Means zu den Oglala Lakota. 1942 zog die Familie in die Bucht von San Francisco, wo der Vater auf der Werft in Vallejo arbeitete. Means machte 1958 in San Leandro seinen Schulabschluss, besuchte vier Colleges und schloss an keinem ab.</p>
+          <p class="vb-intro">Dieser Weg erzählt von einem Jungen, der zwischen zwei Welten aufwuchs, dem Reservatsleben seiner Familie und einer städtischen Arbeiterumgebung, und der lernen musste, sich in beiden zurechtzufinden. Er arbeitete sich durch wechselnde Stellen, kam im Rahmen des Office of Economic Opportunity mit Rechtshelfern für die Lakota in Kontakt und ging später nach Cleveland. Das Anpassen an wechselnde Umstände, ohne daraus eine feste Laufbahn zu machen, lässt sich mit dem Waschbär-Muster in Verbindung bringen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Auftritt für eine Aufgabe, nicht für das eigene Bild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Kern geht es der <strong>Drei</strong> nach Naranjo um das Bedürfnis, durch Leistung und Wirksamkeit Wert zu erlangen. Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als der Kontratyp: Sie sucht nicht den Glanz, sondern will durch Können und tragfähige Strukturen überzeugen. Bei Means scheint das auf den ersten Blick nicht zu passen, denn er besetzte für Kameras Denkmäler und Schiffe. Der Unterschied liegt im Gegenstand: Er trat als Sprecher einer Sache auf, die größer war als er selbst, und die Bühne war Werkzeug, nicht Selbstzweck. Seine Auftritte hatten ein Ziel und eine Wirkung, die sich überprüfen ließ.</p>
+          <p class="vb-intro">Dass dieser Zuschnitt umstritten blieb, gehört zum Bild. Kritiker innerhalb der Bewegung und außerhalb sahen in ihm auch einen Mann, der Aufmerksamkeit suchte. Die Typisierung stützt sich daher auf das Verhalten über Jahrzehnte hinweg, nicht auf einzelne Auftritte: Wo immer er scheiterte oder hinausgedrängt wurde, baute er an anderer Stelle neu auf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die Substanz: Protest als inszenierte Politik und der Aufbau von Strukturen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Außergewöhnliche an Means war, wie genau er Symbolik und Wirkung aufeinander abstimmte. 1969 beteiligte er sich an der Besetzung der Gefängnisinsel Alcatraz. Zu Thanksgiving 1970 brachte er in Boston einen Nachbau des Schiffs ›Mayflower II‹ unter Kontrolle und setzte damit den ersten großen Protest der American Indian Movement (AIM) in der Stadt. 1971 führte er die Besetzung des Mount Rushmore an, eines Denkmals im heiligen Gebiet der Black Hills. Im November 1972 war er an der Besetzung der Zentrale des Bureau of Indian Affairs in Washington beteiligt, bei der Schäden von über zwei Millionen Dollar entstanden. 1970 war er zum ersten nationalen Direktor der AIM ernannt worden.</p>
+          <p class="vb-intro">Den Höhepunkt bildete 1973 Wounded Knee: 71 Tage Belagerung durch das FBI und weitere Behörden, bei der Means als Sprecher auftrat und zwei Besetzer getötet wurden. Das anschließende Verfahren gegen ihn und Dennis Banks endete im September 1974 mit der Einstellung durch den Richter wegen Fehlverhaltens der Regierung, nachdem die Jury sich bereits für einen Freispruch bei der Verschwörungsanklage ausgesprochen hatte; das Berufungsgericht bestätigte die Einstellung. Daneben stehen Aufbauleistungen jenseits der Bühne: Ende der 1970er Jahre arbeitete er am International Indian Treaty Council mit, das 1977 Büros bei den Vereinten Nationen eröffnete, und half bei der Gründung des Radiosenders KILI und der Porcupine Health Clinic in der Reservation. 1987 bewarb er sich um die Präsidentschaftskandidatur der Libertarian Party und erreichte beim Parteitag 31,4 Prozent, hinter Ron Paul.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Vierer-Flügel: Selbstbild, Stil und künstlerischer Ausdruck</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Vierer-Flügel (w4)</strong> kommt bei Means in einem ausgeprägten Sinn für Identität und Ausdruck zum Vorschein: die lang getragenen Zöpfe, der Schmuck, ein Auftreten, das bewusst Bilder erzeugte. Andy Warhol malte 1976 achtzehn Porträts von ihm für die Serie ›American Indian Series‹. In den 1990er Jahren wandte er sich dem Film zu: Er spielte Chingachgook in ›The Last of the Mohicans‹ (1992), war in ›Natural Born Killers‹ (1994) zu sehen, verkörperte Sitting Bull in ›Buffalo Girls‹ (1995) und lieh dem Häuptling Powhatan in Disneys ›Pocahontas‹ (1995) die Stimme.</p>
+          <p class="vb-intro">Dazu kamen Bücher und Musik: 1995 erschien seine Autobiografie ›Where White Men Fear to Tread‹, geschrieben mit Marvin J. Wolf, mit gemischten Kritiken. Er nahm Alben auf, darunter ›Electric Warrior‹ (1993) und ›The Radical‹ (2007). Die Vierer-Färbung zeigt sich hier in dem Bedürfnis, die eigene Geschichte in eigener Form zu erzählen, statt sie anderen zu überlassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Brüche: Rücktritte, Spaltung und umstrittene Behauptungen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Means' Verhältnis zur AIM blieb wechselhaft. Am 8. Januar 1988 erklärte er seinen Rückzug, und die Führung der Bewegung stellte fest, es sei sein sechster Rücktritt seit 1974. 1993 spaltete sich die AIM förmlich in zwei Gruppen, wobei seine in Colorado ansässige Fraktion dem Umfeld von Ward Churchill nahestand. 1974 war er bei der Wahl zum Präsidenten der Oglala Sioux gegen Richard Wilson angetreten und verloren. Eine staatliche Untersuchung bestätigte Unregelmäßigkeiten, ein Bundesgericht ließ das Ergebnis aber stehen.</p>
+          <p class="vb-intro">Auch seine späteren Schritte blieben umstritten. Seine Reisen nach Nicaragua 1985 und 1986 und die Unterstützung der Miskito-Gruppe, die mit den Contras verbündet war, wurden in Teilen der Bewegung abgelehnt. 1999 beschuldigte er zusammen mit einem Mitstreiter Anführer der AIM, den Mord an Annie Mae Aquash angeordnet zu haben; verurteilt wurden später nur die beiden als Täter benannten Männer, die Beschuldigungen gegen die genannten Anführer blieben seine Darstellung. 2007 rief er die ›Republic of Lakotah‹ aus. Stammesvertreter erklärten, er spreche nicht für sie, und wiesen den Plan zurück.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3w4 liegt bei Means in der Fähigkeit, aus knappen Mitteln Wirkung zu erzeugen: ein Anliegen auf eine Weise sichtbar zu machen, dass eine Weltöffentlichkeit es nicht mehr übersehen konnte, und daneben dauerhafte Einrichtungen zu schaffen. Das ist die Findigkeit des Waschbären im größeren Maßstab.</p>
+          <p class="vb-intro">Der Schatten ist die Rastlosigkeit, die aus dem Leistungsmuster erwächst: Wer sich über Wirkung definiert, hält Rückschläge und Bedeutungsverlust schwer aus. Die wiederholten Rücktritte, die Fraktionskämpfe und die Neigung, immer wieder neue Bühnen zu suchen, lassen sich in diesem Licht lesen, ohne sie damit zu erklären oder zu entschuldigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Vermächtnis: ein Leben als öffentliche Figur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im August 2011 wurde bei Means Speiseröhrenkrebs diagnostiziert, den die Ärzte als inoperabel bezeichneten. Er lehnte die gängige Behandlung zunächst ab und setzte auf traditionelle Heilweisen, unterzog sich später aber auch einer Tomotherapie. Im Dezember 2011 erklärte er, den Krebs besiegt zu haben. Russell Means starb am 22. Oktober 2012 im Alter von 72 Jahren in Rapid City, South Dakota. Seine Asche wurde in den Black Hills verstreut.</p>
+          <p class="vb-intro">Sein Bild bleibt gespalten: für die einen ein Wegbereiter, der die Anliegen der indigenen Amerikaner in das Bewusstsein der Weltöffentlichkeit trug, für die anderen ein Mann, der zu oft für Menschen sprach, die ihn nicht dazu ermächtigt hatten. Beides gehört zu einem SE3w4, der über Jahrzehnte Aufgaben fand, durch die er gesehen wurde, und der seine Wirkung an dem maß, was er in Bewegung setzte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
+        {route:"beruehmte-rosa-parks", label:"Porträt: Rosa Parks (SE3w4) – derselbe Subtyp, ein anderer Weg des Protests"},
+        {route:"beruehmte-johnny-cash", label:"Porträt: Johnny Cash (SE3w4) – derselbe Subtyp und Flügel"},
+      ])}
+    </div>
+  `);
+}

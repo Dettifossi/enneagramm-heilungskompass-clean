@@ -2428,3 +2428,74 @@ export function veronicaFerresPortraitPage() {
     </div>
   `);
 }
+
+export function russellMeansPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-russell-means-portrait.jpg" alt="Russell Means – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Russell Means</p>
+        <p class="krim-portrait-typ">SE3w4 · Self-Preservation Type 3 with a Four-wing</p>
+        <p class="krim-portrait-subtitle">Activist, actor and author, 1939–2012 – spokesman of the American Indian Movement – animal equivalent: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon: a child of Pine Ridge, raised in the San Francisco Bay Area</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>raccoon</strong> is the animal of the self-preservation Three: resourceful, adaptable, with nimble hands and no grand gestures. Russell Means was born on 10 November 1939 in Porcupine on the Pine Ridge Reservation in South Dakota. His mother, Theodora Louise Feather, was Yankton Dakota, his father, Walter ›Hank‹ Means, Oglala Lakota. In 1942 the family moved to the San Francisco Bay Area, where his father worked at the Vallejo shipyard. Means graduated from San Leandro High School in 1958, attended four colleges and finished none.</p>
+          <p class="vb-intro">This path tells of a boy who grew up between two worlds, his family's reservation life and an urban working-class setting, and had to learn to find his way in both. He worked through changing jobs, came into contact with legal advocates for the Lakota through the Office of Economic Opportunity, and later moved to Cleveland. Adapting to changing circumstances without turning it into a fixed career can be linked to the raccoon pattern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Three: appearing for a task, not for one's own image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At its core, the <strong>Three</strong>, according to Naranjo, is about the need to gain worth through achievement and effectiveness. The <strong>self-preservation Three (SE3)</strong> is regarded as the countertype: it does not seek glamour but wants to convince through ability and lasting structures. At first glance that seems not to fit Means, who occupied monuments and ships for the cameras. The difference lies in the object: he appeared as the spokesman of a cause larger than himself, and the stage was a tool, not an end in itself. His appearances had a goal and an effect that could be checked.</p>
+          <p class="vb-intro">That this approach remained disputed is part of the picture. Critics inside and outside the movement also saw in him a man who sought attention. The typing therefore rests on behaviour over decades, not on single appearances: wherever he failed or was pushed out, he built anew somewhere else.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The substance: protest as staged politics and the building of structures</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What was exceptional about Means was how precisely he matched symbolism and effect. In 1969 he took part in the occupation of Alcatraz island. At Thanksgiving 1970 he seized a replica of the ship ›Mayflower II‹ in Boston, the first major protest there by the American Indian Movement (AIM). In 1971 he led the takeover of Mount Rushmore, a monument on sacred Black Hills land. In November 1972 he took part in the occupation of the Bureau of Indian Affairs headquarters in Washington, which caused more than two million dollars in damage. In 1970 he had been appointed AIM's first national director.</p>
+          <p class="vb-intro">The high point came in 1973 with Wounded Knee: a 71-day siege by the FBI and other authorities, during which Means acted as a spokesman and two occupiers were killed. The ensuing trial of him and Dennis Banks ended in September 1974 when the judge dismissed the case over government misconduct, after the jury had already voted to acquit on the conspiracy charge; the appeals court upheld the dismissal. Alongside this stand achievements beyond the stage: in the late 1970s he worked with the International Indian Treaty Council, which opened offices at the United Nations in 1977, and helped found the radio station KILI and the Porcupine Health Clinic on the reservation. In 1987 he sought the Libertarian Party's presidential nomination and reached 31.4 percent at the convention, behind Ron Paul.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Four-wing: self-image, style and artistic expression</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> shows in Means in a marked sense of identity and expression: the long braids, the jewellery, a presence that deliberately created images. In 1976 Andy Warhol painted eighteen portraits of him for the series ›American Indian Series‹. In the 1990s he turned to film: he played Chingachgook in ›The Last of the Mohicans‹ (1992), appeared in ›Natural Born Killers‹ (1994), embodied Sitting Bull in ›Buffalo Girls‹ (1995) and voiced Chief Powhatan in Disney's ›Pocahontas‹ (1995).</p>
+          <p class="vb-intro">Books and music followed: in 1995 his autobiography ›Where White Men Fear to Tread‹ appeared, written with Marvin J. Wolf and met with mixed reviews. He recorded albums, among them ›Electric Warrior‹ (1993) and ›The Radical‹ (2007). The Four colouring shows here in the need to tell one's own story in one's own form instead of leaving it to others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The breaks: resignations, split and disputed claims</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Means's relationship with the AIM remained changeable. On 8 January 1988 he announced his withdrawal, and the movement's leadership noted it was his sixth resignation since 1974. In 1993 the AIM formally split into two groups, his faction, based in Colorado, standing close to Ward Churchill's circle. In 1974 he had run for president of the Oglala Sioux against Richard Wilson and lost. A government investigation confirmed irregularities, but a federal court let the result stand.</p>
+          <p class="vb-intro">His later steps also remained disputed. His trips to Nicaragua in 1985 and 1986 and his support of the Miskito group allied with the Contras were rejected by parts of the movement. In 1999, together with an ally, he accused AIM leaders of having ordered the murder of Annie Mae Aquash; later only the two men named as perpetrators were convicted, and the accusations against the named leaders remained his account. In 2007 he proclaimed the ›Republic of Lakotah‹. Tribal representatives said he did not speak for them and rejected the plan.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE3w4 in Means lies in the ability to create effect from scarce means: to make a cause visible in a way that a world public could no longer overlook, and alongside it to create lasting institutions. This is the raccoon's resourcefulness on a larger scale.</p>
+          <p class="vb-intro">The shadow is the restlessness that grows from the achievement pattern: whoever defines themselves through effect has trouble bearing setbacks and loss of significance. The repeated resignations, the factional fights and the tendency to keep looking for new stages can be read in this light, without thereby explaining or excusing them.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The legacy: a life as a public figure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In August 2011 Means was diagnosed with oesophageal cancer, which doctors called inoperable. He initially declined the standard treatment and relied on traditional remedies, though he later also underwent tomotherapy. In December 2011 he said he had beaten the cancer. Russell Means died on 22 October 2012 in Rapid City, South Dakota, aged 72. His ashes were scattered in the Black Hills.</p>
+          <p class="vb-intro">His image remains divided: for some a pioneer who brought the concerns of Native Americans into the world's awareness, for others a man who too often spoke for people who had not authorised him to. Both belong to an SE3w4 who for decades found tasks through which he was seen, and who measured his effect by what he set in motion.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: subtype profile"},
+        {route:"beruehmte-rosa-parks", label:"Portrait: Rosa Parks (SE3w4) – same subtype, another path of protest"},
+        {route:"beruehmte-johnny-cash", label:"Portrait: Johnny Cash (SE3w4) – same subtype and wing"},
+      ])}
+    </div>
+  `);
+}
