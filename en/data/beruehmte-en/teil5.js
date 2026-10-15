@@ -2437,7 +2437,7 @@ export function gertPostelPortraitPage() {
           <img src="/assets/portraits/beruehmte-gert-postel-portrait.jpg" alt="Gert Postel – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Gert Postel</p>
-        <p class="krim-portrait-typ">SX8w7 &middot; Sexual Type 8 with a Seven-wing</p>
+        <p class="krim-portrait-typ">SX8w9 &middot; Sexual Type 8 with a Nine-wing</p>
         <p class="krim-portrait-subtitle">German impostor, b. 1958 &ndash; posed as a doctor for 17 years, rising to chief physician and public health officer &ndash; animal correspondence: Crocodile</p>
       </div>
       <div class="page-content">
@@ -2460,10 +2460,10 @@ export function gertPostelPortraitPage() {
           <p class="vb-intro">One episode from his time as a supposed public health officer is especially telling: he drew up a psychiatric assessment of an actual psychiatric specialist who had struck him as suspicious – and wrongly certified that doctor as mentally disturbed. Specialists initially judged the assessment competent. This is not a story of stupidity on both sides, but proof of how far pure verbal and performative intelligence can detach itself from genuine expertise when it meets a system that values formal titles over actual scrutiny. His substance lay not in real medical training, but in a rare combination of memory, observation, and the sheer SX8 nerve to stay composed under permanent risk of exposure.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. The Seven-wing: »Doktorspiele« rather than a tragic act of desperation</h2>
+        <h2 class="vb-section">4. The Nine-wing: Composure as Camouflage</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> shows itself in the lightness with which Postel tells even his most serious deceptions – his own book's title, <em>»Doktorspiele. Geständnisse eines Hochstaplers«</em> (»Doctor Games. Confessions of an Impostor«, 2001), gives this away in the title itself: <em>games</em>, not desperation, not tragedy. Where a more confrontational 8w9 variant would come across as grim and unshakeable, the Seven-wing brings a theatrical, almost childlike playfulness – comparable to the literary impostor Felix Krull, who experiences his own deceptions as an aesthetic pleasure rather than a moral burden.</p>
-          <p class="vb-intro">This lightness is not a late coat of varnish but part of the actual method: an impostor who visibly strains under pressure gets caught. Postel's charming, self-mocking nerve – in interviews he still recounts his deceptions today with audible relish – was exactly the camouflage that let him pass chief-physician interviews under the watchful eyes of colleagues. The Eight supplies the nerve; the Seven supplies the playful façade behind which that nerve stays invisible.</p>
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> shows itself in Postel in the calm with which he appeared: no pushing, no showing off, but a relaxed, almost comfortable matter-of-factness. His own book's title, <em>»Doktorspiele. Geständnisse eines Hochstaplers«</em> (»Doctor Games. Confessions of an Impostor«, 2001), speaks in an unexcited tone of what he did. Where the Eight with a Seven-wing comes across as theatrical and playful, the Nine-wing brings a quiet, unshakeable dominance: whoever appears so composed is not asked for proof, and that was exactly the effect.</p>
+          <p class="vb-intro">This composure is not a late coat of varnish but part of the actual method: an impostor who visibly strains under pressure gets caught. Postel's down-to-earth, unexcited presence, a man who after years as a postal worker from Stuhr near Bremen calmly led the chief-physician ward round among specialist colleagues, was exactly the camouflage that let him pass under watchful eyes. The Eight supplies the nerve; the Nine supplies the quiet matter-of-factness behind which that nerve stays invisible.</p>
         </blockquote>
 
         <h2 class="vb-section">5. The private audience with Pope John Paul II: the one stage bigger than any clinic</h2>
@@ -2474,14 +2474,14 @@ export function gertPostelPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the sexual Eight</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX8w7 is a rare combination of <strong>nerve, observational skill, and playful charm</strong> – anyone who can stay composed for seventeen years under permanent risk of exposure possesses a psychological resilience that, put to honest use, would be a genuine strength. Postel's encyclopedic memory and his gift for observation would, deployed differently, have carried him through a regular medical or scientific career.</p>
+          <p class="vb-intro">The light of the SX8w9 is a rare combination of <strong>nerve, observational skill, and unshakeable composure</strong> – anyone who can stay composed for seventeen years under permanent risk of exposure possesses a psychological resilience that, put to honest use, would be a genuine strength. Postel's encyclopedic memory and his gift for observation would, deployed differently, have carried him through a regular medical or scientific career.</p>
           <p class="vb-intro">The shadow lies exactly where the light begins: the intensity he summoned for the one job interview never flowed into the longer, harder path of an actual medical degree – the triumph of the moment mattered more to him than durable, lasting substance. His arrest in 1998 and his 1999 sentencing to four years in prison (a psychiatric assessment diagnosed a narcissistic personality disorder) shows the flip side: where real patients were treated by an unqualified actor, the game stopped being a harmless prank.</p>
         </blockquote>
 
         <h2 class="vb-section">7. The legacy: impostor fraud as a reason to live, not a side effect</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Postel was released early from prison in January 2001 for good behavior and turned his own story into a business model: talks, interviews, the book »Doktorspiele«, which – to the surprise of many – made him something of a cult figure of the anti-psychiatry movement, because his case inadvertently revealed how much psychiatric authority can rest on performance and titles rather than verifiable ability.</p>
-          <p class="vb-intro">From a postal worker in Stuhr near Bremen, through forged medical licenses in several German states, a senior consultant post in Saxon psychiatry with a chief physician position in prospect, to – at least by his own account – a private audience with the Pope: Gert Postel is a case study in how far a sexual Eight with a Seven-wing can go when the one decisive confrontation becomes the actual purpose of a life. Being a doctor was never his goal in itself; the real goal was the repeated proof that he could seize, without permission, any authority that had denied him something.</p>
+          <p class="vb-intro">From a postal worker in Stuhr near Bremen, through forged medical licenses in several German states, a senior consultant post in Saxon psychiatry with a chief physician position in prospect, to – at least by his own account – a private audience with the Pope: Gert Postel is a case study in how far a sexual Eight with a Nine-wing can go when the one decisive confrontation becomes the actual purpose of a life. Being a doctor was never his goal in itself; the real goal was the repeated proof that he could seize, without permission, any authority that had denied him something.</p>
         </blockquote>
 
       </div>
@@ -2492,8 +2492,8 @@ export function gertPostelPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx8", label:"SX8 – The Crocodile: subtype profile"},
         {route:"lebensmusterkompass/sx8", label:"Life Pattern Compass: SX8 – Crocodile"},
-        {route:"beruehmte-markus-soeder", label:"Portrait: Markus Söder (SX8w9) – same core intensity, Nine-wing instead of Seven-wing"},
-        {route:"kriminalpsychologie-peter-moore", label:"Portrait: Peter Moore (SX8w7) – same subtype, far darker register"},
+        {route:"beruehmte-markus-soeder", label:"Portrait: Markus Söder (SX8w9) – same subtype and wing"},
+        {route:"kriminalpsychologie-peter-moore", label:"Portrait: Peter Moore (SX8w7) – same subtype, different wing, far darker register"},
       ])}
     </div>
   `);

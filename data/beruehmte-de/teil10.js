@@ -2471,7 +2471,7 @@ export function gertPostelPortraitPage() {
           <img src="/assets/portraits/beruehmte-gert-postel-portrait.jpg" alt="Gert Postel – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Gert Postel</p>
-        <p class="krim-portrait-typ">SX8w7 · Sexueller Typ 8 mit Siebenerflügel</p>
+        <p class="krim-portrait-typ">SX8w9 · Sexueller Typ 8 mit Neunerflügel</p>
         <p class="krim-portrait-subtitle">Deutscher Hochstapler, geb. 1958 – 17 Jahre lang falscher Arzt, Chefarzt und Amtsarzt – Tierentsprechung: Krokodil</p>
       </div>
       <div class="page-content">
@@ -2494,10 +2494,10 @@ export function gertPostelPortraitPage() {
           <p class="vb-intro">Besonders bezeichnend ist ein Vorfall aus seiner Zeit als vermeintlicher Amtsarzt: Er erstellte ein psychiatrisches Gutachten über einen echten Facharzt für Psychiatrie, der ihm verdächtig vorgekommen war – und bescheinigte diesem fälschlich eine psychische Störung. Das Gutachten wurde von Fachleuten zunächst als kompetent eingestuft. Das ist keine Geschichte von Dummheit auf beiden Seiten, sondern der Beweis, wie weit sich reine verbale und mimische Intelligenz von echter fachlicher Substanz emanzipieren kann, wenn sie auf ein System trifft, das formale Titel wichtiger nimmt als tatsächliche Prüfung. Die Substanz lag nicht in echtem medizinischem Fachwissen aus einem Studium, sondern in einer seltenen Kombination aus Gedächtnis, Beobachtungsgabe und der eisernen SX8-Nervenstärke, unter permanentem Entdeckungsrisiko souverän zu bleiben.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Der Siebenerflügel: »Doktorspiele« statt tragischer Verzweiflungstat</h2>
+        <h2 class="vb-section">4. Der Neunerflügel: Gelassenheit als Tarnung</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> zeigt sich bei Postel in der Leichtigkeit, mit der er selbst seine gravierendsten Täuschungen erzählt – sein eigener Buchtitel, <em>»Doktorspiele. Geständnisse eines Hochstaplers«</em> (2001), verrät diese Haltung bereits im Titel selbst: <em>Spiele</em>, nicht Verzweiflung, nicht Tragödie. Wo eine konfrontativere 8w9-Variante eher grimmig und unerschütterlich wirken würde, bringt der Siebenerflügel eine theatralische, fast kindliche Verspieltheit mit – vergleichbar mit dem literarischen Hochstapler Felix Krull, der sein eigenes Täuschen als ästhetisches Vergnügen und nicht als moralische Last erlebt.</p>
-          <p class="vb-intro">Diese Leichtigkeit ist kein nachträglicher Lack, sondern Teil der eigentlichen Masche: Ein Hochstapler, der sichtbar unter Druck steht, fällt auf. Postels charmante, selbstironische Chuzpe – in Interviews erzählt er seine Täuschungen bis heute mit hörbarem Vergnügen – war genau die Tarnung, die es ihm erlaubte, unter den wachsamen Augen von Fachkollegen Chefarztgespräche zu bestehen. Die Acht liefert die Nervenstärke, die Sieben liefert die spielerische Fassade, hinter der diese Nervenstärke unsichtbar bleibt.</p>
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> zeigt sich bei Postel in der Ruhe, mit der er auftrat: kein Drängen, kein Imponiergehabe, sondern eine gelassene, fast gemütliche Selbstverständlichkeit. Sein eigener Buchtitel, »Doktorspiele. Geständnisse eines Hochstaplers« (2001), spricht in einem unaufgeregten Ton von dem, was er getan hat. Wo die Acht mit Siebenerflügel eher theatralisch und verspielt wirkt, bringt der Neunerflügel eine ruhige, unerschütterliche Dominanz mit: Wer so gelassen auftritt, den fragt man nicht nach Belegen, und genau das war die Wirkung.</p>
+          <p class="vb-intro">Diese Gelassenheit ist kein nachträglicher Lack, sondern Teil der eigentlichen Masche: Ein Hochstapler, der sichtbar unter Druck steht, fällt auf. Postels bodenständige, unaufgeregte Präsenz, ein Mann, der nach Jahren als Postbote aus Stuhr bei Bremen unter Fachkollegen ruhig die Chefarztvisite führte, war genau die Tarnung, die es ihm erlaubte, unter wachsamen Augen zu bestehen. Die Acht liefert die Nervenstärke, die Neun liefert die ruhige Selbstverständlichkeit, hinter der diese Nervenstärke unsichtbar bleibt.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Die Privataudienz bei Papst Johannes Paul II.: die eine Bühne, die größer war als jede Klinik</h2>
@@ -2508,14 +2508,14 @@ export function gertPostelPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sexuellen Acht</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX8w7 ist eine seltene Verbindung aus <strong>Nervenstärke, Beobachtungsgabe und spielerischem Charme</strong> – wer siebzehn Jahre unter permanentem Entdeckungsrisiko souverän auftritt, verfügt über eine psychische Belastbarkeit, die in jedem redlichen Beruf eine Stärke wäre. Postels enzyklopädisches Gedächtnis und seine Beobachtungsgabe hätten, anders eingesetzt, für eine reguläre medizinische oder wissenschaftliche Laufbahn gereicht.</p>
+          <p class="vb-intro">Das Licht der SX8w9 ist eine seltene Verbindung aus <strong>Nervenstärke, Beobachtungsgabe und unerschütterlicher Gelassenheit</strong> – wer siebzehn Jahre unter permanentem Entdeckungsrisiko souverän auftritt, verfügt über eine psychische Belastbarkeit, die in jedem redlichen Beruf eine Stärke wäre. Postels enzyklopädisches Gedächtnis und seine Beobachtungsgabe hätten, anders eingesetzt, für eine reguläre medizinische oder wissenschaftliche Laufbahn gereicht.</p>
           <p class="vb-intro">Der Schatten liegt genau dort, wo das Licht ansetzt: Die Intensität, die er für das eine Vorstellungsgespräch aufbrachte, floss nie in den langen, mühsameren Weg eines echten Studiums – der Triumph des Moments war ihm wichtiger als die tragfähige, auf Dauer angelegte Substanz. Dass er 1998 verhaftet und 1999 zu vier Jahren Haft verurteilt wurde (ein psychiatrisches Gutachten diagnostizierte eine narzisstische Persönlichkeitsstörung), zeigt die Kehrseite: Wo echte Patienten von einem ungeprüften Akteur behandelt wurden, hörte das Spiel auf, ein harmloser Scherz zu sein.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Das Vermächtnis: Hochstapelei als Lebenssinn, nicht als Nebenprodukt</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Postel wurde im Januar 2001 wegen guter Führung vorzeitig aus der Haft entlassen und machte aus seiner Geschichte selbst ein Geschäftsmodell: Vorträge, Interviews, das Buch »Doktorspiele«, das ihn – zur Verblüffung vieler – zu einer Art Kultfigur der Antipsychiatrie-Bewegung machte, weil sein Fall ungewollt offenlegte, wie stark psychiatrische Autorität auf Performance und Titel statt auf überprüfbarem Können beruhen kann.</p>
-          <p class="vb-intro">Vom Postboten aus Stuhr bei Bremen über gefälschte Approbationen in mehreren Bundesländern, eine Oberarztstelle in der sächsischen Psychiatrie mit Aussicht auf eine Chefarztposition, bis zur – zumindest nach eigener Darstellung – Privataudienz beim Papst: Gert Postel ist ein Lehrstück dafür, wie weit eine sexuelle Acht mit Siebenerflügel gehen kann, wenn die eine durchschlagende Konfrontation zum eigentlichen Lebenssinn wird. Nicht das Arztsein selbst war sein Ziel, sondern der immer wiederholte Beweis, dass er jede Autorität, die ihm etwas verweigerte, auch ohne deren Erlaubnis für sich erobern konnte.</p>
+          <p class="vb-intro">Vom Postboten aus Stuhr bei Bremen über gefälschte Approbationen in mehreren Bundesländern, eine Oberarztstelle in der sächsischen Psychiatrie mit Aussicht auf eine Chefarztposition, bis zur – zumindest nach eigener Darstellung – Privataudienz beim Papst: Gert Postel ist ein Lehrstück dafür, wie weit eine sexuelle Acht mit Neunerflügel gehen kann, wenn die eine durchschlagende Konfrontation zum eigentlichen Lebenssinn wird. Nicht das Arztsein selbst war sein Ziel, sondern der immer wiederholte Beweis, dass er jede Autorität, die ihm etwas verweigerte, auch ohne deren Erlaubnis für sich erobern konnte.</p>
         </blockquote>
 
       </div>
@@ -2526,8 +2526,8 @@ export function gertPostelPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx8", label:"SX8 – Das Krokodil: Subtyp-Profil"},
         {route:"lebensmusterkompass/sx8", label:"Lebensmusterkompass: SX8 – Krokodil"},
-        {route:"beruehmte-markus-soeder", label:"Porträt: Markus Söder (SX8w9) – dieselbe Grundintensität, Neunerflügel statt Siebenerflügel"},
-        {route:"kriminalpsychologie-peter-moore", label:"Porträt: Peter Moore (SX8w7) – derselbe Subtyp, weit düstereres Register"},
+        {route:"beruehmte-markus-soeder", label:"Porträt: Markus Söder (SX8w9) – derselbe Subtyp und Flügel"},
+        {route:"kriminalpsychologie-peter-moore", label:"Porträt: Peter Moore (SX8w7) – derselbe Subtyp, anderer Flügel, weit düstereres Register"},
       ])}
     </div>
   `);

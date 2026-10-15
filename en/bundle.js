@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=248";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=249";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -694,9 +694,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Prince Rogers Nelson – Sexual Type 4",
     teaser:"SX4w3 · 1958–2016. Multi-instrumentalist and guitar virtuoso, changed his name to a glyph in a dispute over his master tapes. The Chihuahua who turned smallness into boundless stage presence.",
     land:"USA", tags:["Music"], gender:"m"},
-{ route:"beruehmte-gert-postel", name:"Gert Postel", added:"2026-10-11", subtyp:"SX8w7",
+{ route:"beruehmte-gert-postel", name:"Gert Postel", added:"2026-10-11", subtyp:"SX8w9",
     heading:"Gert Postel – Sexual Type 8",
-    teaser:"SX8w7 · born 1958. German impostor who posed as a doctor for 17 years, rising to chief physician and public health officer – by his own account even received in a private audience by Pope John Paul II. The crocodile, for whom every authority was just the one decisive confrontation.",
+    teaser:"SX8w9 · born 1958. German impostor who posed as a doctor for 17 years, rising to chief physician and public health officer – by his own account even received in a private audience by Pope John Paul II. The crocodile, for whom every authority was just the one decisive confrontation.",
     land:"Germany", tags:["Fraud"], gender:"m"},
 { route:"beruehmte-nico-rosberg", name:"Nico Rosberg", added:"2026-10-11", subtyp:"SO1w2",
     heading:"Nico Rosberg – Social Type 1",
