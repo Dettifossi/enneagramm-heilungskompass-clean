@@ -805,7 +805,7 @@ During interrogation and at trial, Haarmann displayed a peculiar willingness to 
         {route:"kriminalpsychologie-josef-fritzl", label:"Criminal Psychology: Josef Fritzl (SX1w9)"},
         {route:"kriminalpsychologie-alex-murdaugh", label:"Criminal Psychology: Alex Murdaugh (SX1w2)"},
         {route:"kriminalpsychologie-dennis-rader", label:"Criminal Psychology: Dennis Rader (SP1w9)"},
-        {route:"kriminalpsychologie-bryan-kohberger", label:"Criminal Psychology: Bryan Kohberger (SX1w9) – the same subtype"},
+        {route:"kriminalpsychologie-bryan-kohberger", label:"Criminal Psychology: Bryan Kohberger (SX1w2) – the same subtype, different wing"},
         {route:"kriminalpsychologie-peter-moore", label:"Criminal Psychology: Peter Moore (SX8w7) – considered alternative typing"},
         {route:"kriminalpsychologie-james-dusty-rhodes", label:"Criminal Psychology: James ›Dusty‹ Rhodes (SX1w9) – the same subtype"},
       ])}

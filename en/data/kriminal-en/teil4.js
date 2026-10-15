@@ -1119,7 +1119,7 @@ export function elliotRodgerPortraitPage() {
           {route:"kriminalpsychologie-david-berkowitz", label:"Criminal Psychology: David Berkowitz (SP4w3)"},
           {route:"kriminalpsychologie-adolf-hitler", label:"Criminal Psychology: Adolf Hitler (SX4w3)"},
           {route:"kriminalpsychologie-ted-kaczynski", label:"Criminal Psychology: Ted Kaczynski (SO5w4)"},
-          {route:"kriminalpsychologie-bryan-kohberger", label:"Criminal Psychology: Bryan Kohberger (SX1w9) – studied Rodger as a role model"},
+          {route:"kriminalpsychologie-bryan-kohberger", label:"Criminal Psychology: Bryan Kohberger (SX1w2) – studied Rodger as a role model"},
         ])}
       </div>
     </div>
@@ -2707,7 +2707,7 @@ export function bryanKohbergerPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bryan-kohberger-portrait.jpg" alt="Bryan Kohberger – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Bryan Kohberger</p>
-        <p class="krim-portrait-typ">SX1w9 · Sexual Type 1 with a Nine-Wing</p>
+        <p class="krim-portrait-typ">SX1w2 · Sexual Type 1 with a Two-Wing</p>
       </div>
       <p class="psycho-intro">
         <strong>Bryan Christopher Kohberger</strong>, born 1994, was a criminology PhD student at Washington
@@ -2722,11 +2722,11 @@ export function bryanKohbergerPortraitPage() {
       </p>
       <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
-        <strong>Bryan Kohberger</strong> is assigned to the <strong>Sexual Type 1 with a Nine-wing</strong> in the
+        <strong>Bryan Kohberger</strong> is assigned to the <strong>Sexual Type 1 with a Two-wing</strong> in the
         Enneagram. The sexual One strives for total control and purity in the most intimate sphere; its anger
-        turns against anything that violates or denies this order. The nine-wing wraps this intensity in an
-        outwardly unremarkable, socially withdrawn facade – not charm, as with the two-wing, but retreat and
-        blending into the background. The One's stress point is the <strong>Four</strong>: rigid, self-tormenting
+        turns against anything that violates or denies this order. The two-wing wraps this intensity in the
+        claim to help: attention as a way to closeness and at the same time as a claim to superiority. In Kohberger
+        it shows not as warm charm but as a lecturing, would-be-helpful pose. The One's stress point is the <strong>Four</strong>: rigid, self-tormenting
         rumination, which in Kohberger's case produced not self-correction but a methodically planned act of
         violence.</p>
       </div>
@@ -2737,8 +2737,9 @@ export function bryanKohbergerPortraitPage() {
         The <strong>black mamba</strong> does not attack out of a will to dominate, but when its sphere is
         violated – and until it strikes, it is barely noticeable. Classmates and former instructors consistently
         described Kohberger as "awkward," unremarkable, socially isolated, with few close relationships. This
-        near-invisible everyday presence is the SX1's nine-wing in its purest form: not a warm, charming facade
-        as with the two-wing, but a disappearing into the background that only in hindsight is recognizable as camouflage.
+        near-invisible everyday presence combines, with the two-wing, with an offer of help and explanation:
+        not an effortlessly charming facade but an awkward approach to others that only in hindsight is recognizable
+        as camouflage and as an attempt to create closeness on one's own terms.
         </p>
       </div>
 
@@ -2749,12 +2750,12 @@ export function bryanKohbergerPortraitPage() {
         toward women who rejected him or from whom he expected rejection. This is the SX1 at its most destructive:
         the most intimate relationship is supposed to be pure, controlled, complete – every rejection is
         experienced not as disappointment but as a violation of a felt-to-be-absolute order that demands a response.</p>
-        <p class="vb-intro"><strong>b) Control instead of charm:</strong>
+        <p class="vb-intro"><strong>b) Help as superiority:</strong>
         Former classmates reported that as a teaching assistant, Kohberger "mansplained" to them, cut women off
         while speaking, and made derogatory, discriminatory remarks; instructors reportedly kept an internal
-        tally of how often he interrupted female instructors. Where the two-wing in other SX1 cases uses charm
-        as a means of access, the nine-wing here shows a different strategy: not adapting to the other person,
-        but devaluing them from a safe, unremarkable distance.</p>
+        tally of how often he interrupted female instructors. The two-wing shows here not
+        as warmth but as attention in lecturing form: help is offered, but in such a way that the other appears
+        ignorant, and where this attention was not gratefully accepted, devaluation followed.</p>
         <p class="vb-intro"><strong>c) The expert's facade:</strong>
         Kohberger himself researched the criminology of violent crime and, according to classmates, specifically
         studied the mass shooter Elliot Rodger – perpetrator of the 2014 Isla Vista massacre, already portrayed
@@ -2782,7 +2783,8 @@ export function bryanKohbergerPortraitPage() {
         times during the attack and briefly saw a masked male figure dressed entirely in black, roughly six feet
         tall, slim – she described him as looking like a basketball player, not muscular but lean and toned.
         According to her account, she heard a male voice say, "It's okay, I'm here to help you." Mortensen and a
-        second roommate were unharmed.</p>
+        second roommate were unharmed. The sentence belongs to the pattern of the two-wing: even in the act,
+        help appears as a pose that creates closeness and control.</p>
         <p class="vb-intro"><strong>d) Meticulous control with one decisive gap:</strong>
         Kohberger's phone was conspicuously turned off during the hours of the murders, and his vehicle was later
         thoroughly cleaned. At the same time, he left the knife sheath with his own DNA traces at the scene – the
@@ -2807,9 +2809,9 @@ export function bryanKohbergerPortraitPage() {
         <p class="vb-intro">
         Kohberger's guilty plea in July 2025 was a purely formal, legal act before the court – not a confession in
         his own words. At the sentencing itself, he exercised his right not to speak: no explanation, no visible
-        remorse, no account of events in his own voice. This too fits the pattern: where an SX1 with a two-wing
-        often becomes cooperative and forthcoming after the crime (as in the case of Gary Ridgway), the SX1 with a
-        nine-wing withdraws further – silence as a last form of control over one's own image. His 2026 petition to
+        remorse, no account of events in his own voice. This too fits the pattern: unlike Gary Ridgway (SX1w2), who became cooperative and forthcoming after his arrest,
+        Kohberger stayed silent. That does not contradict the two-wing in principle: the pose of help needs an audience
+        that accepts it, and in court there was none. Silence can here be read as a last form of control over one's own image. His 2026 petition to
         withdraw the legal guilty plea fits the same pattern: not an admission of final loss of control, but a
         renewed attempt to determine the outcome of his own story after all.
         </p>
@@ -2818,7 +2820,7 @@ export function bryanKohbergerPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. What the Enneagram Reveals</h3>
         <p class="vb-intro">
-        Bryan Kohberger shows the sexual One with a nine-wing in its most destructive form: a person who could
+        Bryan Kohberger shows the sexual One with a two-wing in its most destructive form: a person who could
         not tolerate rejection except as an attack on his own order – and who used the very academic distance
         with which he professionally studied violent crime to plan his own act. Important for this analysis:
         neither a criminology degree, nor social rejection, nor an autism diagnosis explains such an act on its
@@ -2831,13 +2833,13 @@ export function bryanKohbergerPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
         <p class="vb-intro">
-        <strong>Subtype:</strong> SX1w9 – Sexual One with a nine-wing.<br>
+        <strong>Subtype:</strong> SX1w2 – Sexual One with a two-wing.<br>
         <strong>Passion:</strong> Anger – here directed at a violation of one's own inner order experienced as rejection.<br>
         <strong>Stress point:</strong> Four – rigid, closed rumination without genuine self-examination.<br>
         <strong>Animal correspondence:</strong> Black mamba – unremarkable until the last moment, precise and lethal when it strikes.<br>
         <strong>Teaching value:</strong> Kohberger shows how academic distance from violence can itself become camouflage,
-        and how the One's nine-wing uses withdrawal rather than charm as its facade – two patterns markedly
-        different from the already-portrayed SX1w2 cases (Ridgway, Bernardo, Murdaugh).
+        and how the One's two-wing uses helpfulness as its facade – two patterns that connect him with the
+        already-portrayed SX1w2 cases (Ridgway, Bernardo, Murdaugh) and distinguish him from Fritz Haarmann (SX1w9).
         </p>
       </div>
 
@@ -2853,10 +2855,11 @@ export function bryanKohbergerPortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-fritz-haarmann", label:"Criminal Psychology: Fritz Haarmann (SX1w9) – the same subtype"},
-        {route:"kriminalpsychologie-gary-ridgway", label:"Criminal Psychology: Gary Ridgway (SX1w2)"},
-        {route:"kriminalpsychologie-alex-murdaugh", label:"Criminal Psychology: Alex Murdaugh (SX1w2)"},
+        {route:"kriminalpsychologie-fritz-haarmann", label:"Criminal Psychology: Fritz Haarmann (SX1w9) – the same subtype, different wing"},
+        {route:"kriminalpsychologie-gary-ridgway", label:"Criminal Psychology: Gary Ridgway (SX1w2) – the same subtype and wing"},
+        {route:"kriminalpsychologie-alex-murdaugh", label:"Criminal Psychology: Alex Murdaugh (SX1w2) – the same subtype and wing"},
         {route:"kriminalpsychologie-elliot-rodger", label:"Criminal Psychology: Elliot Rodger (SO4w5) – his declared role model"},
+        {route:"kriminalpsychologie-paul-bernardo", label:"Criminal Psychology: Paul Bernardo (SX1w2) – the same subtype and wing"},
       ])}
     </div>
   `);

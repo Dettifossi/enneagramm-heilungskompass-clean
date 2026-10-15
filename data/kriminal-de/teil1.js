@@ -4335,7 +4335,7 @@ export function bryanKohbergerPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/bryan-kohberger-portrait.jpg" alt="Bryan Kohberger – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Bryan Kohberger</p>
-        <p class="krim-portrait-typ">SX1w9 · Sexueller Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-typ">SX1w2 · Sexueller Typ 1 mit Zweierflügel</p>
       </div>
       <p class="psycho-intro">
         <strong>Bryan Christopher Kohberger</strong>, geboren 1994, war zur Tatzeit Doktorand der Kriminologie
@@ -4350,11 +4350,11 @@ export function bryanKohbergerPortraitPage() {
       </p>
       <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
         <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
-        <strong>Bryan Kohberger</strong> wird dem <strong>Sexuellen Typ 1 mit Neunerflügel</strong> im Enneagramm zugeordnet.
+        <strong>Bryan Kohberger</strong> wird dem <strong>Sexuellen Typ 1 mit Zweierflügel</strong> im Enneagramm zugeordnet.
         Die sexuelle Eins strebt nach vollständiger Kontrolle und Reinheit in der intimsten Sphäre; ihr Zorn richtet
-        sich gegen alles, was diese Ordnung verletzt oder ihr verweigert wird. Der Neunerflügel überzieht diese Intensität
-        mit einer nach außen unauffälligen, sozial zurückgenommenen Fassade – kein Charme wie beim Zweierflügel,
-        sondern Rückzug und Verschmelzen in den Hintergrund. Der Stresspunkt der Eins liegt bei der <strong>Vier</strong>:
+        sich gegen alles, was diese Ordnung verletzt oder ihr verweigert wird. Der Zweierflügel überzieht diese Intensität
+        mit dem Anspruch zu helfen: Zuwendung als Weg zu Nähe und zugleich als Anspruch auf Überlegenheit. Bei Kohberger
+        zeigt er sich nicht als warmer Charme, sondern als belehrende, helfen wollende Pose. Der Stresspunkt der Eins liegt bei der <strong>Vier</strong>:
         rigides, sich selbst quälendes Grübeln, aus dem in Kohbergers Fall keine Selbstkorrektur, sondern eine methodisch
         geplante Gewalttat hervorging.</p>
       </div>
@@ -4365,8 +4365,9 @@ export function bryanKohbergerPortraitPage() {
         Die <strong>Schwarze Mamba</strong> greift nicht aus Dominanzwillen an, sondern wenn ihre Sphäre verletzt wird –
         und sie ist, bis zum Zuschlagen, kaum wahrnehmbar. Klassenkameraden und ehemalige Dozierende beschrieben
         Kohberger übereinstimmend als "awkward", unauffällig, sozial isoliert, mit wenigen engen Beziehungen. Diese
-        beinahe unsichtbare Alltagspräsenz ist der Neunerflügel der SX1 in Reinform: keine warme, charmante Fassade
-        wie beim Zweierflügel, sondern ein Verschwinden im Hintergrund, das erst im Rückblick als Tarnung erkennbar wird.
+        beinahe unsichtbare Alltagspräsenz verbindet sich beim Zweierflügel mit einem Angebot an Hilfe und Erklärung:
+        keine mühelos charmante Fassade, sondern ein ungelenkes Zugehen auf andere, das erst im Rückblick als Tarnung
+        und als Versuch erkennbar wird, Nähe auf eigene Bedingungen herzustellen.
         </p>
       </div>
 
@@ -4378,13 +4379,13 @@ export function bryanKohbergerPortraitPage() {
         ihrer destruktivsten Form: Die intimste Beziehung soll rein, kontrolliert, vollständig sein – jede Zurückweisung
         wird nicht als Enttäuschung, sondern als Verletzung einer als absolut empfundenen Ordnung erlebt, die eine
         Antwort verlangt.</p>
-        <p class="vb-intro"><strong>b) Kontrolle statt Charme:</strong>
+        <p class="vb-intro"><strong>b) Hilfe als Überlegenheit:</strong>
         Ehemalige Kommilitoninnen berichteten, Kohberger habe ihnen als Lehrassistent Dinge erklärt, die sie als
         Fachfrauen längst wussten – herablassend, ohne ihre Kompetenz anzuerkennen ("Mansplaining") –, sei Frauen
         ins Wort gefallen und habe abfällige, diskriminierende Bemerkungen gemacht; Dozierende
-        führten intern Buch darüber, wie oft er weibliche Lehrkräfte unterbrach. Wo der Zweierflügel bei anderen
-        SX1-Fällen Charme als Zugangsmittel nutzt, zeigt der Neunerflügel hier eine andere Strategie: nicht Anpassung
-        an das Gegenüber, sondern dessen Abwertung aus sicherer, unauffälliger Distanz.</p>
+        führten intern Buch darüber, wie oft er weibliche Lehrkräfte unterbrach. Der Zweierflügel zeigt sich hier
+        nicht als Wärme, sondern als Zuwendung in belehrender Form: Hilfe wird angeboten, aber so, dass das Gegenüber
+        als unwissend erscheint, und wo diese Zuwendung nicht dankbar angenommen wurde, folgte die Abwertung.</p>
         <p class="vb-intro"><strong>c) Die Fassade des Fachmanns:</strong>
         Kohberger forschte selbst zur Kriminologie von Gewaltverbrechen und studierte nach Aussage von Kommilitonen
         gezielt den Amokläufer Elliot Rodger – Täter des Isla-Vista-Massakers 2014, in dieser App bereits als
@@ -4412,7 +4413,8 @@ export function bryanKohbergerPortraitPage() {
         ihre Zimmertür und sah kurz eine maskierte, ganz in Schwarz gekleidete männliche Gestalt, etwa 1,80 Meter
         groß, schlank – sie beschrieb ihn als jemanden, der wie ein Basketballspieler wirkte, nicht muskulös,
         sondern durchtrainiert schlank. Nach ihrer Aussage hörte sie eine männliche Stimme sagen: "Es ist okay,
-        ich bin hier, um zu helfen." Mortensen und eine zweite Mitbewohnerin blieben unversehrt.</p>
+        ich bin hier, um zu helfen." Mortensen und eine zweite Mitbewohnerin blieben unversehrt. Der Satz gehört zum Muster
+        des Zweierflügels: Selbst in der Tat erscheint die Hilfe als Pose, die Nähe und Kontrolle herstellt.</p>
         <p class="vb-intro"><strong>d) Akribie mit einer entscheidenden Lücke:</strong>
         Kohbergers Handy war in den Stunden der Tat auffällig ausgeschaltet, sein Fahrzeug wurde später gründlich
         gereinigt. Zugleich hinterließ er am Tatort die Messerscheide mit eigenen DNA-Spuren – ein Fehler, der ihn
@@ -4439,9 +4441,10 @@ export function bryanKohbergerPortraitPage() {
 Kohbergers Schuldbekenntnis im Juli 2025 war ein rein formaler, juristischer Akt vor Gericht ("guilty") – kein
         Geständnis in eigenen Worten. Bei der Urteilsverkündung selbst nutzte er sein Recht, sich nicht zu äußern:
         keine Erklärung, kein sichtbares Bedauern, keine eigene Version der Ereignisse. Auch das passt zum Muster:
-        Wo eine SX1 mit Zweierflügel nach der Tat oft kooperativ und mitteilsam wird (wie im Fall Gary Ridgway),
-        zieht sich die SX1 mit Neunerflügel weiter zurück – Schweigen als letzte Form der Kontrolle über das
-        eigene Bild. Sein Antrag von 2026, das juristische Schuldbekenntnis nachträglich zurückzunehmen, fügt sich
+        Anders als Gary Ridgway (SX1w2), der nach seiner Festnahme kooperierte und mitteilsam wurde,
+        schwieg Kohberger. Das widerspricht dem Zweierflügel nicht grundsätzlich: Die Hilfspose braucht ein Publikum,
+        das sie annimmt, und vor Gericht fehlte es. Schweigen lässt sich hier als letzte Form der Kontrolle über das
+        eigene Bild lesen. Sein Antrag von 2026, das juristische Schuldbekenntnis nachträglich zurückzunehmen, fügt sich
         in dasselbe Muster: kein Eingeständnis endgültiger Kontrolllosigkeit, sondern ein erneuter Versuch, den
         Ausgang der eigenen Geschichte doch noch selbst zu bestimmen.
         </p>
@@ -4450,7 +4453,7 @@ Kohbergers Schuldbekenntnis im Juli 2025 war ein rein formaler, juristischer Akt
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Was das Enneagramm sichtbar macht</h3>
         <p class="vb-intro">
-        Bryan Kohberger zeigt die sexuelle Eins mit Neunerflügel in ihrer zerstörerischsten Form: eine Person, die
+        Bryan Kohberger zeigt die sexuelle Eins mit Zweierflügel in ihrer zerstörerischsten Form: eine Person, die
         Zurückweisung nicht ertragen, sondern nur als Angriff auf die eigene Ordnung verarbeiten konnte – und die
         genau jene akademische Distanz, mit der sie Gewaltverbrechen professionell untersuchte, nutzte, um die
         eigene Tat zu planen. Wichtig für die Einordnung: Weder ein Kriminologiestudium noch soziale Zurückweisung
@@ -4464,13 +4467,13 @@ Kohbergers Schuldbekenntnis im Juli 2025 war ein rein formaler, juristischer Akt
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
         <p class="vb-intro">
-        <strong>Subtyp:</strong> SX1w9 – Sexuelle Eins mit Neunerflügel.<br>
+        <strong>Subtyp:</strong> SX1w2 – Sexuelle Eins mit Zweierflügel.<br>
         <strong>Leidenschaft:</strong> Zorn – hier gegen eine als Zurückweisung erlebte Verletzung der eigenen inneren Ordnung.<br>
         <strong>Stresspunkt:</strong> Vier – rigides, geschlossenes Grübeln ohne echte Selbstprüfung.<br>
         <strong>Tierentsprechung:</strong> Schwarze Mamba – unauffällig bis zum letzten Moment, präzise und tödlich im Zuschlagen.<br>
         <strong>Lehrwert:</strong> Kohberger zeigt, wie akademische Distanz zu Gewalt selbst zur Tarnung werden kann,
-        und wie der Neunerflügel der Eins Rückzug statt Charme als Fassade nutzt – zwei Muster, die sich von den
-        bereits porträtierten SX1w2-Fällen (Ridgway, Bernardo, Murdaugh) deutlich unterscheiden.
+        und wie der Zweierflügel der Eins Hilfsbereitschaft als Fassade nutzt – zwei Muster, die ihn mit den
+        bereits porträtierten SX1w2-Fällen (Ridgway, Bernardo, Murdaugh) verbinden und von Fritz Haarmann (SX1w9) unterscheiden.
         </p>
       </div>
 
@@ -4486,10 +4489,11 @@ Kohbergers Schuldbekenntnis im Juli 2025 war ein rein formaler, juristischer Akt
       </div>
 
       ${relatedLinks([
-        {route:"kriminalpsychologie-fritz-haarmann", label:"Kriminalpsychologie: Fritz Haarmann (SX1w9) – derselbe Subtyp"},
-        {route:"kriminalpsychologie-gary-ridgway", label:"Kriminalpsychologie: Gary Ridgway (SX1w2)"},
-        {route:"kriminalpsychologie-alex-murdaugh", label:"Kriminalpsychologie: Alex Murdaugh (SX1w2)"},
+        {route:"kriminalpsychologie-fritz-haarmann", label:"Kriminalpsychologie: Fritz Haarmann (SX1w9) – derselbe Subtyp, anderer Flügel"},
+        {route:"kriminalpsychologie-gary-ridgway", label:"Kriminalpsychologie: Gary Ridgway (SX1w2) – derselbe Subtyp und Flügel"},
+        {route:"kriminalpsychologie-alex-murdaugh", label:"Kriminalpsychologie: Alex Murdaugh (SX1w2) – derselbe Subtyp und Flügel"},
         {route:"kriminalpsychologie-elliot-rodger", label:"Kriminalpsychologie: Elliot Rodger (SO4w5) – sein erklärtes Vorbild"},
+        {route:"kriminalpsychologie-paul-bernardo", label:"Kriminalpsychologie: Paul Bernardo (SX1w2) – derselbe Subtyp und Flügel"},
       ])}
     </div>
   `);

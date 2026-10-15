@@ -1734,7 +1734,7 @@ export function fritzHaarmannPortraitPage() {
         {route:"kriminalpsychologie-josef-fritzl", label:"Kriminalpsychologie: Josef Fritzl (SX1w9)"},
         {route:"kriminalpsychologie-alex-murdaugh", label:"Kriminalpsychologie: Alex Murdaugh (SX1w2)"},
         {route:"kriminalpsychologie-dennis-rader", label:"Kriminalpsychologie: Dennis Rader (SE1w9)"},
-        {route:"kriminalpsychologie-bryan-kohberger", label:"Kriminalpsychologie: Bryan Kohberger (SX1w9) – derselbe Subtyp"},
+        {route:"kriminalpsychologie-bryan-kohberger", label:"Kriminalpsychologie: Bryan Kohberger (SX1w2) – derselbe Subtyp, anderer Flügel"},
         {route:"kriminalpsychologie-peter-moore", label:"Kriminalpsychologie: Peter Moore (SX8w7) – geprüfte Alternativtypisierung"},
         {route:"kriminalpsychologie-james-dusty-rhodes", label:"Kriminalpsychologie: James ›Dusty‹ Rhodes (SX1w9) – derselbe Subtyp"},
       ])}
