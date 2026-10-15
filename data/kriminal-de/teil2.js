@@ -4769,3 +4769,82 @@ export function gertPostelKriminalPortraitPage() {
     </div>
   `);
 }
+
+export function beateZschaepePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Beate Zschäpe – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-beate-zschaepe-portrait.jpg" alt="Beate Zschäpe – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Beate Zschäpe</p>
+        <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Beate Zschäpe</strong>, geboren am 2. Januar 1975 in Jena, lebte von 1998 bis 2011 gemeinsam mit Uwe Mundlos und Uwe Böhnhardt im Untergrund. Das Trio nannte sich ›Nationalsozialistischer Untergrund‹ (NSU). Dem Netzwerk werden zehn Morde zwischen 2000 und 2007, zwei Sprengstoffanschläge in Köln und mehrere Raubüberfälle zugerechnet. Nach dem Tod der beiden Männer am 4. November 2011 stellte sich Zschäpe am 8. November der Polizei. Das Oberlandesgericht München verurteilte sie am 11. Juli 2018 zu lebenslanger Freiheitsstrafe und stellte die besondere Schwere der Schuld fest.
+      </p>
+      <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Beate Zschäpe</strong> lässt sich dem <strong>selbsterhaltenden Typ 1 mit Neunerflügel</strong> im Enneagramm zuordnen. Die selbsterhaltende Eins sorgt sich um Sicherheit, Ordnung und das Funktionieren des Alltags und hält ihren Zorn unter Verschluss. Der Neunerflügel verleiht dem Auftreten Ruhe, Freundlichkeit und die Neigung, Unangenehmes auszublenden. Dieses Kriminalporträt beschreibt die Taten, das Verfahren und die Belegbarkeit. Es behauptet nicht, dass ein Subtyp zu Gewalt neige, sondern hält fest, welche Form eine Entgleisung in diesem einen Fall annahm.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Adler</h3>
+        <p class="vb-intro">Der <strong>Adler</strong> der selbsterhaltenden Eins hält Abstand, überblickt das Gelände und prüft, ob alles an seinem Platz ist. In Zschäpes Fall lässt sich das mit der Rolle in Verbindung bringen, die ihr die Anklage zuschrieb: Sie hielt den Alltag der Gruppe zusammen, sicherte Wohnung, Tarnung und Geldfluss und sorgte nach außen für das Bild einer unauffälligen Nachbarin. Die Ruhe des Neunerflügels passt dazu, dass sie in dieser Rolle jahrelang nicht auffiel.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die Taten: Das Leben im Untergrund</h3>
+        <p class="vb-intro"><strong>a) Der Untergrund (ab 1998):</strong> Nach einer Polizeidurchsuchung am 26. Januar 1998, bei der Sprengstoffkomponenten gefunden wurden, tauchten die drei ab. Sie lebten unter falschen Namen, zunächst in Chemnitz, später in Zwickau. Zschäpe trat in der Nachbarschaft unter wechselnden Identitäten auf, nach Darstellung der Bundesanwaltschaft als Fassade, die dem Trio das unauffällige Leben ermöglichte.</p>
+        <p class="vb-intro"><strong>b) Die Mordserie (2000 bis 2007):</strong> Zehn Menschen wurden getötet, neun Männer mit türkischen oder griechischen Wurzeln und eine Polizistin. Hinzu kamen zwei Sprengstoffanschläge in Köln, darunter der Nagelbombenanschlag in der Keupstraße 2004, bei dem viele Menschen verletzt wurden, sowie mehrere Raubüberfälle zur Finanzierung des Untergrunds. Das Gericht sah Zschäpe als Mittäterin: Die Taten seien ohne ihre Absicherung des gemeinsamen Lebens und der gemeinsamen Kasse nicht möglich gewesen.</p>
+        <p class="vb-intro"><strong>c) Das Ende der Gruppe (4. November 2011):</strong> Mundlos und Böhnhardt starben nach einem gescheiterten Banküberfall in Eisenach. Am selben Tag zerstörte eine Explosion die Zwickauer Wohnung in der Frühlingsstraße, die nach Überzeugung des Gerichts von Zschäpe in Brand gesetzt worden war. Zuvor hatte sie die Katzen der Gruppe zu einer Nachbarin gebracht. In den folgenden Tagen verschickte sie nach der Anklage Bekenner-DVDs, die die Gruppe vorbereitet hatte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Die Aufdeckung: Selbststellung statt Festnahme</h3>
+        <p class="vb-intro">Zschäpe floh und stellte sich am 8. November 2011 in Jena der Polizei. Erst durch diesen Schritt und die Funde in der Zwickauer Wohnung wurde die Verbindung der Mordserie zu einer rechtsextremen Terrorgruppe öffentlich. Bis dahin hatten die Ermittlungsbehörden eine Täterschaft im Umfeld der Opfer vermutet, die Ermittlungen blieben ohne Ergebnis. Die Aufdeckung geschah also nicht durch eine Fahndung nach dem Trio, sondern durch dessen Zusammenbruch.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Das Verfahren: Schweigen, Erklärung, Urteil</h3>
+        <p class="vb-intro"><strong>a) Anklage und Prozess:</strong> Die Anklage wurde am 8. November 2012 erhoben, der Prozess vor dem Oberlandesgericht München begann am 6. Mai 2013 und dauerte mehr als fünf Jahre. Zschäpe war unter anderem wegen Mittäterschaft an zehnfachem Mord, Mitgliedschaft in einer terroristischen Vereinigung und besonders schwerer Brandstiftung angeklagt.</p>
+        <p class="vb-intro"><strong>b) Ihr Aussageverhalten:</strong> Zschäpe schwieg über zwei Jahre. Im Dezember 2015 ließ sie über einen Verteidiger eine umfangreiche Erklärung verlesen: Sie räumte die Brandlegung in Zwickau ein, bestritt aber jede Beteiligung an den Morden und Anschlägen und beschrieb sich als von den beiden Männern abhängig. Beobachter bewerteten die Erklärung vielfach als taktisch. Angehörige der Opfer vermissten Antworten auf ihre zentralen Fragen. 2016 distanzierte sie sich von nationalistischem Gedankengut, was Fachleute unterschiedlich einordneten. In ihrem letzten Wort am 3. Juli 2018 entschuldigte sie sich bei den Opfern und gab an, von den Taten erst nachträglich erfahren zu haben.</p>
+        <p class="vb-intro"><strong>c) Das Urteil:</strong> Am 11. Juli 2018 verurteilte das Gericht Zschäpe zu lebenslanger Freiheitsstrafe mit Feststellung der besonderen Schwere der Schuld. Das schriftliche Urteil umfasst 3.025 Seiten. Der Bundesgerichtshof bestätigte es am 19. August 2021, das Bundesverfassungsgericht nahm ihre Beschwerde 2022 nicht an.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Gutachten und Schuldfähigkeit</h3>
+        <p class="vb-intro">Der Psychiater Henning Saß hielt Zschäpe für voll schuldfähig. Er sah keine krankhafte seelische Störung, beschrieb aber eine akzentuierte Persönlichkeit mit deutlich dissozialen Zügen. Die Verteidigung wollte dagegen eine abhängige Persönlichkeitsstörung geltend machen und beantragte einen eigenen Gutachter, der vom Gericht wegen Befangenheitsbedenken abgelehnt wurde. Das Gericht folgte Saß.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Belegt und nicht belegt</h3>
+        <p class="vb-intro"><strong>Belegt:</strong> Zschäpe lebte 13 Jahre im Untergrund, sie wurde als Mittäterin rechtskräftig verurteilt, ihre Selbststellung und die Brandlegung in Zwickau sind unstrittig. <strong>Nicht belegt:</strong> Kein Beweis stellte sie an einen der Tatorte. Das Gericht stützte die Mittäterschaft auf ihre Rolle im Gefüge der Gruppe, und diese Konstruktion war in der Fachdiskussion umstritten. Ob ihre Erklärung von 2015 der Wahrheit entsprach, ob sie die Taten billigte oder nur duldete, bleibt unbewiesen, ebenso, wie weit ihre Distanzierung von der rechten Szene reicht. Zu einem Aussteigerprogramm 2025 liegen nur Presseberichte vor.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro">Das Muster der selbsterhaltenden Eins, das sich in diesem Fall erkennen lässt, ist das der Ordnung im Dienst einer Sache, die sie selbst nicht hinterfragte: Sie hielt den Haushalt, die Tarnung und die Gemeinschaft zusammen und trug damit die Gewalt der anderen mit, ohne selbst an den Tatorten gewesen zu sein. Der Neunerflügel lässt sich mit ihrem unauffälligen, freundlichen Auftreten und dem späteren Ausblenden der Verantwortung in Verbindung bringen. Ob das Enneagramm hier mehr erklärt als eine vom Gericht festgestellte Mittäterschaft, ist offen: Die innere Motivation Zschäpes blieb im Verfahren weitgehend unaufgeklärt. Die Typisierung stützt sich auf Verhalten und Auftreten, nicht auf eigene Aussagen über ihr Innenleben.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Eins im Vergleich: Wie sich Zorn bei SE1, SO1 und SX1 unterschiedlich ausdrückt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 1 ausführlich porträtiert – Zorn, Perfektionismus und der Weg zur Gelassenheit.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        Das Enneagramm erklärt, es rechtfertigt nicht. Zehn Menschen wurden getötet, viele weitere verletzt, und Angehörige warteten über zehn Jahre auf Aufklärung. Die Typisierung dient dem Verständnis eines Musters und ist keine Entschuldigung. Sie beruht auf öffentlich dokumentierten Quellen und stellt keine Diagnose dar.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-dennis-rader", label:"Dennis Rader (SE1w9) – derselbe Subtyp und Flügel"},
+        {route:"kriminalpsychologie-paul-ogorzow", label:"Paul Ogorzow (SE1w9) – spießbürgerliche Tarnung"},
+        {route:"kriminalpsychologie", label:"Kriminalpsychologie – alle Porträts"},
+      ])}
+    </div>
+  `);
+}

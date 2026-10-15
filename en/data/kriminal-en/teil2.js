@@ -2809,3 +2809,82 @@ export function gertPostelKriminalPortraitPage() {
     </div>
   `);
 }
+
+export function beateZschaepePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Beate Zschäpe – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-beate-zschaepe-portrait.jpg" alt="Beate Zschäpe – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Beate Zschäpe</p>
+        <p class="krim-portrait-typ">SE1w9 · Self-Preservation Type 1 with a Nine-wing</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Beate Zschäpe</strong>, born 2 January 1975 in Jena, lived underground from 1998 to 2011 with Uwe Mundlos and Uwe Böhnhardt. The trio called itself the ›National Socialist Underground‹ (NSU). Ten murders between 2000 and 2007, two bombings in Cologne and several robberies are attributed to the network. After the two men died on 4 November 2011, Zschäpe turned herself in to the police on 8 November. On 11 July 2018 the Munich Higher Regional Court sentenced her to life imprisonment and found a particular gravity of guilt.
+      </p>
+      <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Beate Zschäpe</strong> can be linked to the <strong>self-preservation Type 1 with a Nine-wing</strong> in the Enneagram. The self-preservation One worries about security, order and the working of everyday life and keeps anger under lock. The Nine-wing adds calm, friendliness and a tendency to blank out what is unpleasant. This criminal portrait describes the acts, the proceedings and what can be proven. It does not claim that any subtype tends toward violence; it records the form a derailment took in this one case.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal equivalent: The Eagle</h3>
+        <p class="vb-intro">The <strong>eagle</strong> of the self-preservation One keeps its distance, surveys the terrain and checks that everything is in its place. In Zschäpe's case this can be linked to the role the prosecution assigned to her: she held the group's daily life together, secured the flat, the cover and the flow of money, and presented the picture of an inconspicuous neighbour. The calm of the Nine-wing fits the fact that she went unnoticed in this role for years.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The acts: life underground</h3>
+        <p class="vb-intro"><strong>a) Going underground (from 1998):</strong> After a police search on 26 January 1998 that found bomb components, the three disappeared. They lived under false names, first in Chemnitz, later in Zwickau. Zschäpe appeared in the neighbourhood under changing identities, according to the Federal Prosecutor as a facade that allowed the trio an inconspicuous life.</p>
+        <p class="vb-intro"><strong>b) The series of murders (2000 to 2007):</strong> Ten people were killed, nine men of Turkish or Greek origin and one policewoman. There were also two bombings in Cologne, including the 2004 nail-bomb attack in Keupstraße that injured many people, as well as several robberies to finance life underground. The court saw Zschäpe as a co-perpetrator: the acts would not have been possible without her securing the shared life and the shared funds.</p>
+        <p class="vb-intro"><strong>c) The end of the group (4 November 2011):</strong> Mundlos and Böhnhardt died after a failed bank robbery in Eisenach. The same day an explosion destroyed the Zwickau flat in Frühlingsstraße, which the court was convinced Zschäpe had set on fire. Beforehand she had taken the group's cats to a neighbour. In the following days she sent out, according to the indictment, confession DVDs that the group had prepared.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The discovery: surrender instead of arrest</h3>
+        <p class="vb-intro">Zschäpe fled and turned herself in to the police in Jena on 8 November 2011. Only this step and the finds in the Zwickau flat made public the link between the murder series and a far-right terror group. Until then the authorities had suspected perpetrators in the victims' own circles, and the investigations had led nowhere. The group was not uncovered by a manhunt but by its collapse.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The proceedings: silence, statement, verdict</h3>
+        <p class="vb-intro"><strong>a) Indictment and trial:</strong> The indictment was filed on 8 November 2012; the trial before the Higher Regional Court in Munich began on 6 May 2013 and lasted more than five years. Zschäpe was charged, among other things, as a co-perpetrator of ten murders, with membership in a terrorist organisation and with aggravated arson.</p>
+        <p class="vb-intro"><strong>b) Her conduct in court:</strong> Zschäpe stayed silent for over two years. In December 2015 an extensive statement was read out through a defence lawyer: she admitted the arson in Zwickau but denied any involvement in the murders and bombings and described herself as dependent on the two men. Observers often judged the statement tactical. Relatives of the victims missed answers to their central questions. In 2016 she distanced herself from nationalist ideas, which experts assessed differently. In her last word on 3 July 2018 she apologised to the victims and said she had learned of the acts only afterwards.</p>
+        <p class="vb-intro"><strong>c) The verdict:</strong> On 11 July 2018 the court sentenced Zschäpe to life imprisonment with a finding of particular gravity of guilt. The written judgment runs to 3,025 pages. The Federal Court of Justice upheld it on 19 August 2021, and the Federal Constitutional Court declined her complaint in 2022.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Expert opinion and criminal responsibility</h3>
+        <p class="vb-intro">The psychiatrist Henning Saß considered Zschäpe fully responsible. He saw no pathological mental disorder but described an accentuated personality with clearly dissocial traits. The defence wanted instead to argue a dependent personality disorder and requested its own expert, who was rejected by the court over concerns of bias. The court followed Saß.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Proven and not proven</h3>
+        <p class="vb-intro"><strong>Proven:</strong> Zschäpe lived 13 years underground, she was convicted with legal finality as a co-perpetrator, and her surrender and the arson in Zwickau are undisputed. <strong>Not proven:</strong> No evidence placed her at any of the crime scenes. The court based co-perpetration on her role within the group, and this construction was disputed in the professional debate. Whether her 2015 statement was truthful, whether she approved of the acts or merely tolerated them, remains unproven, as does the extent of her distancing from the far-right scene. For an exit programme in 2025 there are only press reports.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
+        <p class="vb-intro">The pattern of the self-preservation One that can be recognised in this case is order in the service of a cause she did not question herself: she held the household, the cover and the community together and thereby carried the violence of the others without having been at the crime scenes herself. The Nine-wing can be linked to her inconspicuous, friendly appearance and the later blanking-out of responsibility. Whether the Enneagram explains more here than a co-perpetration established by the court is open: Zschäpe's inner motivation remained largely unclarified in the trial. The typing rests on behaviour and appearance, not on her own statements about her inner life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The self-preservation One in comparison: how anger expresses itself differently in SE1, SO1, and SX1.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE1, SO1, SX1 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Type 1 portrayed in depth – anger, perfectionism and the path to serenity.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        The Enneagram explains; it does not excuse. Ten people were killed, many more were injured, and relatives waited over ten years for clarification. The typing serves to understand a pattern and is no excuse. It rests on publicly documented sources and is not a diagnosis.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-dennis-rader", label:"Dennis Rader (SE1w9) – same subtype and wing"},
+        {route:"kriminalpsychologie-paul-ogorzow", label:"Paul Ogorzow (SE1w9) – petty-bourgeois cover"},
+        {route:"kriminalpsychologie", label:"Criminal Psychology – all portraits"},
+      ])}
+    </div>
+  `);
+}
