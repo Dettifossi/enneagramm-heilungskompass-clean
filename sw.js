@@ -3,8 +3,8 @@
 // denselben Scope konkurrieren (führte zu unzuverlässiger Push-Zustellung).
 importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js");
 
-const SW_VERSION = 'v2255';
-const BUNDLE_VERSION = 'v2829'; // wird bei jedem Deploy mitaktualisiert → löst Auto-Reload aus
+const SW_VERSION = 'v2256';
+const BUNDLE_VERSION = 'v2830'; // wird bei jedem Deploy mitaktualisiert → löst Auto-Reload aus
 const CACHE_NAME = 'kompass-cache-' + SW_VERSION;
 
 self.addEventListener('install', event => {

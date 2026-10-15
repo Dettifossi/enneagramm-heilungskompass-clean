@@ -2866,7 +2866,7 @@ export function beateZschaepePortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
-        <p class="vb-intro">The pattern of the self-preservation One that can be recognised in this case is order in the service of a cause she did not question herself: she held the household, the cover and the community together and thereby carried the violence of the others without having been at the crime scenes herself. The Nine-wing can be linked to her inconspicuous, friendly appearance and the later blanking-out of responsibility. Whether the Enneagram explains more here than a co-perpetration established by the court is open: Zschäpe's inner motivation remained largely unclarified in the trial. The typing rests on behaviour and appearance, not on her own statements about her inner life.</p>
+        <p class="vb-intro">The pattern of the self-preservation One that can be recognised in this case is order in the service of a cause she went along with outwardly: she held the household, the cover and the community together and thereby, in the court's conviction, made the acts of the others possible, without being placed at the crime scenes. The Nine-wing can be linked to her inconspicuous, friendly appearance and the later blanking-out of responsibility. Whether the Enneagram explains more here than a co-perpetration established by the court is open: Zschäpe's inner motivation remained largely unclarified in the trial. The typing rests on behaviour and appearance, not on her own statements about her inner life.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;margin-top:2rem;">

@@ -2660,7 +2660,7 @@ export function wolfgangGruppPortraitPage() {
         <h2 class="vb-section">1. The Eagle: an entrepreneur's son from Burladingen who saw the business as a duty</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>eagle</strong> is the animal of the self-preservation One: it surveys its territory, checks that everything is in its place and is reluctant to take up the new as long as the proven carries. Wolfgang Grupp was born on 4 April 1942 in Burladingen on the Swabian Alb, the town where the textile company Trigema is based. His father Franz Grupp, son-in-law of the founder Josef Mayer, had taken over the management after the latter's death in the 1950s and was personally liable for the firm's success and failure. Wolfgang Grupp studied business administration in Cologne, joined the management in 1969 and became sole managing director in 1972.</p>
-          <p class="vb-intro">The path was thus laid out, and he never described it as a choice but as a task. Concern for the survival of the family business and for the people who live from it stands at the beginning of his working life.</p>
+          <p class="vb-intro">The path into the family business was thus laid out early. The business and the people who lived from it shaped his working life from the start.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The self-preservation One: personal liability as a principle of life</h2>
@@ -2671,8 +2671,8 @@ export function wolfgangGruppPortraitPage() {
 
         <h2 class="vb-section">3. The substance: a textile company that stayed in Germany</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">When Grupp joined the firm in 1969, the German textile industry was under pressure from cheap imports, and many manufacturers moved production abroad. Under his leadership Trigema grew to 28.1 million euros in sales in 1975 and paid off debts. He held to a line that ran against the trend: the products are made in Germany, and by 2022 sales had risen to about 127 million euros with around 1,200 employees. According to the company, there has been neither short-time work nor redundancies for operational reasons since 1969.</p>
-          <p class="vb-intro">There was also advertising that ranked among the best known on German television: the spots with a chimpanzee made the name Trigema known to the wider public, and Grupp himself appeared as the face of the firm. The special quality lies in the combination of adherence to principle and economic viability: over decades he showed that a family company with domestic production can be sustained, which was considered an exception in the industry. That corresponds to the One pattern of holding to a line even when the surroundings advise against it.</p>
+          <p class="vb-intro">When Grupp joined the firm in 1969, the German textile industry was under pressure from cheap imports, and many manufacturers moved production abroad. Under his leadership Trigema grew to 28.1 million euros in sales in 1975 and paid off debts. He held to a line that ran against the trend: the products continued to be made in Germany, and by 2022 sales had risen to about 127 million euros with around 1,200 employees. According to the company, there has been neither short-time work nor redundancies for operational reasons since 1969.</p>
+          <p class="vb-intro">There was also advertising that stayed in many people's memory: the spots with a chimpanzee made the name Trigema known to the wider public, and Grupp himself appeared as the face of the firm. The special quality lies in the combination of adherence to principle and economic viability: over decades he showed that a family company with domestic production can be sustained, which was considered an exception in the industry. That corresponds to the One pattern of holding to a line even when the surroundings advise against it.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The Nine-wing: down-to-earth rootedness</h2>
@@ -2738,7 +2738,7 @@ export function danyBoonPortraitPage() {
         <h2 class="vb-section">2. The social Nine: identity through belonging</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">At its core, the <strong>Nine</strong>, according to Naranjo, is about the wish for harmony and the inertia of putting one's own position behind peace. The <strong>social Nine (SO9)</strong> is the countertype: instead of resting, it works actively for the community and finds its identity in belonging. In Boon this shows in a career that revolves not around self-presentation but around the we: he made a region, its dialect and its people his material, and he did so with warmth instead of mockery.</p>
-          <p class="vb-intro">On stage, too, his humour is rarely about put-downs. He makes people laugh by presenting their quirks affectionately, and includes the audience in the community of those laughed about.</p>
+          <p class="vb-intro">As far as his known works show, his humour lives more on affection than on put-downs. He makes people laugh by presenting their quirks affectionately, and includes the audience in the community of those laughed about.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The substance: turning a mocked region into an audience record</h2>
@@ -2756,7 +2756,7 @@ export function danyBoonPortraitPage() {
         <h2 class="vb-section">5. The reach of his effect: from dialect to the community of a country</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The effect of ›Bienvenue chez les Ch'tis‹ went beyond cinema: the film helped break up the mocking image of a region in France. That is the classic achievement of the social Nine: it connects. Boon brought people from the north and the south, from city and country, together in a shared laugh.</p>
-          <p class="vb-intro">That he himself came from a marginal position as the son of a man with Algerian roots gives the concern weight without his turning it into a programme: he stayed with storytelling, not lecturing.</p>
+          <p class="vb-intro">That he himself comes from a marginal position as the son of a man with Algerian roots gives the concern added weight. His films seem more narrative than didactic.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Light and shadow of the social Nine</h2>
