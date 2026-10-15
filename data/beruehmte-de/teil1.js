@@ -2801,7 +2801,7 @@ export function danyBoonPortraitPage() {
 
         <h2 class="vb-section">5. Die Weite des Wirkens: vom Dialekt zur Gemeinschaft eines Landes</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Wirkung von ›Willkommen bei den Sch'tis‹ ging über das Kino hinaus: Der Film verschob in Frankreich das Bild einer Region und machte aus einem Spottobjekt einen Ort, an den Menschen reisen wollten. Das ist die klassische Leistung der sozialen Neun: Sie verbindet. Boon führte Menschen aus dem Norden und dem Süden, aus Stadt und Land, in einem gemeinsamen Lachen zusammen.</p>
+          <p class="vb-intro">Die Wirkung von ›Willkommen bei den Sch'tis‹ ging über das Kino hinaus: Der Film trug in Frankreich dazu bei, das Spottbild einer Region aufzubrechen. Das ist die klassische Leistung der sozialen Neun: Sie verbindet. Boon führte Menschen aus dem Norden und dem Süden, aus Stadt und Land, in einem gemeinsamen Lachen zusammen.</p>
           <p class="vb-intro">Dass er dabei selbst als Sohn eines Mannes mit algerischen Wurzeln aus einer Randlage kam, gibt dem Anliegen Gewicht, ohne dass er es zum Programm erhob: Er blieb beim Erzählen, nicht beim Belehren.</p>
         </blockquote>
 
