@@ -2554,7 +2554,7 @@ export function nickNoltePortraitPage() {
         <h2 class="vb-section">7. The legacy: a career without a smooth line</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In 1992 ›People‹ magazine named him ›Sexiest Man Alive‹, and in 2017 he received a star on the Hollywood Walk of Fame. With three Oscar nominations, a Golden Globe and several critics' awards, he counts among the defining character actors of his generation.</p>
-          <p class="vb-intro">His path does not run as a rising career but as a sequence of highs, crashes and new beginnings. The picture that remains is that of an SX6w5 who did not play fear and fragility away but made them visible in his characters.</p>
+          <p class="vb-intro">His path does not run as a rising career but as a sequence of highs, crashes and new beginnings. The picture that remains is that of an SX6w5 actor who did not play fear and fragility away but made them visible in his characters.</p>
         </blockquote>
 
       </div>

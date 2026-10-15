@@ -2597,7 +2597,7 @@ export function nickNoltePortraitPage() {
         <h2 class="vb-section">7. Das Vermächtnis: eine Laufbahn ohne glatte Linie</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">1992 kürte ihn das Magazin ›People‹ zum ›Sexiest Man Alive‹, 2017 erhielt er einen Stern auf dem Hollywood Walk of Fame. Mit drei Oscar-Nominierungen, einem Golden Globe und mehreren Kritikerpreisen zählt er zu den prägenden Charakterdarstellern seiner Generation.</p>
-          <p class="vb-intro">Sein Weg verläuft nicht als steigende Karriere, sondern als Folge von Höhen, Abstürzen und Neuanfängen. Das Bild, das bleibt, ist das eines SX6w5, der Angst und Zerbrechlichkeit nicht wegspielte, sondern in seinen Figuren sichtbar machte.</p>
+          <p class="vb-intro">Sein Weg verläuft nicht als steigende Karriere, sondern als Folge von Höhen, Abstürzen und Neuanfängen. Das Bild, das bleibt, ist das eines SX6w5-Schauspielers, der Angst und Zerbrechlichkeit nicht wegspielte, sondern in seinen Figuren sichtbar machte.</p>
         </blockquote>
 
       </div>
