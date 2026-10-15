@@ -2542,3 +2542,75 @@ export function russellMeansPortraitPage() {
     </div>
   `);
 }
+
+export function nickNoltePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-nick-nolte-portrait.jpg" alt="Nick Nolte – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nick Nolte</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexueller Typ 6 mit Fünfer-Flügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Schauspieler, geb. 1941 – drei Oscar-Nominierungen, Golden Globe für ›The Prince of Tides‹ – Tierentsprechung: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Wolf: ein unruhiger Junge aus Omaha, der sich nirgends festhielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Wolf</strong> ist das Tier der sexuellen Sechs: Er wendet sich der Gefahr zu, statt ihr auszuweichen, und sucht die Nähe zu denen, denen er vertraut. Nick Nolte wurde am 8. Februar 1941 in Omaha, Nebraska, geboren. Er wuchs in einer Familie auf, in der der Vater im Zweiten Weltkrieg diente und verändert zurückkehrte; in seinen Memoiren beschreibt er eine Kindheit voller Unruhe und Wechsel. Nach eigener Darstellung gab ihm seine Mutter in jungen Jahren Aufputschmittel. Er besuchte mehrere Highschools und Colleges in Kalifornien, Arizona und Nebraska und spielte Football.</p>
+          <p class="vb-intro">1961 wurde er festgenommen, weil er gefälschte Wehrpassausweise verkauft hatte; die Strafe wurde zur Bewährung ausgesetzt. Die Geschichte des jungen Nolte ist die eines Menschen, der Regeln testete, bevor er einen Platz gefunden hatte, an dem seine Unruhe nützlich wurde. Diesen Platz fand er auf der Bühne: 1960 begann er mit dem Actor's Inner Circle in Phoenix, arbeitete in Minneapolis, New York und Los Angeles und studierte bei Stella Adler.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sechs: Angst nach vorn verlegt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Kern geht es der <strong>Sechs</strong> nach Naranjo um Angst und die Suche nach Sicherheit. Die <strong>sexuelle Sechs (SX6)</strong> ist der Kontratyp: Sie flieht die Angst nicht, sondern geht auf sie zu, mit Härte, Direktheit und dem Anspruch, selbst stark zu sein. Bei Nolte lässt sich das mit einer Laufbahn in Verbindung bringen, die er auf körperlich präsente, oft gefährdete Männerfiguren gründete: Soldaten, Polizisten, Footballer, Gejagte. Auf der Leinwand wirkt er wie jemand, der Gefahr nicht fürchtet, und genau darin liegt die Spannung, denn die Figuren tragen meist eine tiefe Verwundbarkeit.</p>
+          <p class="vb-intro">Dasselbe Muster zeigt sich im Privatleben, soweit es öffentlich dokumentiert ist: Er hat über Jahrzehnte offen über seine Alkohol- und Drogenprobleme gesprochen und das Scheitern nicht versteckt. Das Motiv, sich der eigenen Schwäche frontal zu stellen, statt sie zu verbergen, passt zu der Kontra-Angst-Haltung, auch wenn es für sich allein noch keinen Subtyp belegt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die Substanz: ein Schauspieler, der Verletzlichkeit hinter Härte sichtbar macht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bekannt wurde Nolte 1976 mit der Miniserie ›Rich Man, Poor Man‹, für die er eine Emmy-Nominierung erhielt. Im Kino folgten ›The Deep‹ (1977), ›North Dallas Forty‹ (1979), ›48 Hrs.‹ (1982) und ›Under Fire‹ (1983). Den Durchbruch zur ersten Reihe brachten 1991 ›Cape Fear‹ und ›The Prince of Tides‹; für Letzteren erhielt er einen Golden Globe und seine erste Oscar-Nominierung. ›Affliction‹ (1997) trug ihm eine weitere Oscar-Nominierung ein, in dem Film spielt er einen Polizisten in einer Kleinstadt, der unter dem Erbe eines gewalttätigen Vaters zerbricht. In ›The Thin Red Line‹ (1998) verkörperte er einen Offizier, in ›Warrior‹ (2011) einen Vater, der trocken geworden ist und um das Vertrauen seiner Söhne ringt, was ihm eine dritte Oscar-Nominierung einbrachte.</p>
+          <p class="vb-intro">Das Besondere liegt in der Mischung aus Körperlichkeit und Brüchigkeit: die massige Präsenz, die raue, tief knarzende Stimme, und darunter Figuren, die sichtbar mit Schuld, Scham oder Verlust ringen. Nolte gibt seinen harten Männern keinen Panzer, sondern einen Riss. Das ist handwerklich anspruchsvoll, weil es ohne große Gesten auskommen muss: Wo andere Härte spielen, spielt er, was die Härte verbergen soll. Diese Fähigkeit lässt sich mit der Wolf-Haltung in Verbindung bringen, Schwäche nicht zu verleugnen, sondern in Stärke zu fassen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Fünfer-Flügel: Eigenwilligkeit und Innenschau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünfer-Flügel (w5)</strong> äußert sich bei Nolte weniger in Rückzug als in einer eigenwilligen, nach innen gewendeten Art zu arbeiten: Er wählte oft schwierige, nachdenkliche Rollen statt glatter Leinwandhelden, und er hat sich im Alter zunehmend auf Charakterrollen verlegt, etwa in ›Head Full of Honey‹ (2018). Auch seine Memoiren ›Rebel: My Life Outside the Lines‹ (2018) zeigen einen Mann, der sein Leben prüfend betrachtet, statt es zu glätten.</p>
+          <p class="vb-intro">Die Quellenlage zum Flügel ist dünner als zum Kerntyp. Die Zuordnung stützt sich auf Rollenwahl und öffentliche Selbstbeschreibung, nicht auf nähere Berichte über sein Privatleben, und bleibt deshalb vorsichtig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Abstürze: Alkohol, GHB und das berühmte Polizeifoto</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nolte hat seine Probleme mit Alkohol und Drogen öffentlich gemacht. 2002 wurde er in Malibu wegen Fahrens unter Einfluss festgenommen; bei dem Test wurde GHB nachgewiesen. Er plädierte auf ›no contest‹ (er bestritt den Vorwurf nicht) und erhielt Bewährung. Das Polizeifoto aus der Nacht, mit wirrem Haar und glasigem Blick, ging um die Welt und wurde zu einem der bekanntesten Fahndungsfotos der Popkultur.</p>
+          <p class="vb-intro">Dass er darüber später ohne Beschönigung gesprochen hat, gehört zum Bild. Die Abstürze zeigen die Schattenseite des Kontra-Angst-Musters: Wer die Angst durch Konfrontation und Betäubung zugleich bekämpft, geht dabei zeitweise zu weit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX6w5 liegt bei Nolte in der Aufrichtigkeit: in einer Schauspielerei, die ihre Figuren nicht verschönert, und in einem Umgang mit dem eigenen Scheitern, der keine Fassade pflegt. Daraus erwächst das Vertrauen von Regisseuren und Publikum, dass hier jemand wahrhaftig arbeitet.</p>
+          <p class="vb-intro">Der Schatten ist die Neigung, die eigene Angst und Unruhe mit Härte oder Betäubung zu beantworten, was sich in den dokumentierten Suchtproblemen widerspiegelt. Auch das lässt sich mit dem Subtyp in Verbindung bringen, ohne es zu erklären oder zu entschuldigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Vermächtnis: eine Laufbahn ohne glatte Linie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1992 kürte ihn das Magazin ›People‹ zum ›Sexiest Man Alive‹, 2017 erhielt er einen Stern auf dem Hollywood Walk of Fame. Mit drei Oscar-Nominierungen, einem Golden Globe und mehreren Kritikerpreisen zählt er zu den prägenden Charakterdarstellern seiner Generation.</p>
+          <p class="vb-intro">Sein Weg verläuft nicht als steigende Karriere, sondern als Folge von Höhen, Abstürzen und Neuanfängen. Das Bild, das bleibt, ist das eines SX6w5, der Angst und Zerbrechlichkeit nicht wegspielte, sondern in seinen Figuren sichtbar machte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx6", label:"SX6 – Der Wolf: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx6", label:"Lebensmusterkompass: SX6 – Wolf"},
+        {route:"beruehmte-natalie-dormer", label:"Porträt: Natalie Dormer (SX6w5) – derselbe Subtyp und Flügel"},
+        {route:"beruehmte-bobby-fischer", label:"Porträt: Bobby Fischer (SX6w5) – derselbe Subtyp und Flügel, ein anderes Feld"},
+      ])}
+    </div>
+  `);
+}

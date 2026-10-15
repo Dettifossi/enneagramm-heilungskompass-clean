@@ -2499,3 +2499,74 @@ export function russellMeansPortraitPage() {
     </div>
   `);
 }
+
+export function nickNoltePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-nick-nolte-portrait.jpg" alt="Nick Nolte – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Nick Nolte</p>
+        <p class="krim-portrait-typ">SX6w5 · Sexual Type 6 with a Five-wing</p>
+        <p class="krim-portrait-subtitle">American actor, b. 1941 – three Oscar nominations, Golden Globe for ›The Prince of Tides‹ – animal equivalent: Wolf</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Wolf: a restless boy from Omaha who could not hold on anywhere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>wolf</strong> is the animal of the sexual Six: it turns toward danger instead of avoiding it and seeks closeness to those it trusts. Nick Nolte was born on 8 February 1941 in Omaha, Nebraska. He grew up in a family in which his father served in World War II and returned changed; in his memoir he describes a childhood full of unrest and change. By his own account his mother gave him stimulants at a young age. He attended several high schools and colleges in California, Arizona and Nebraska and played football.</p>
+          <p class="vb-intro">In 1961 he was arrested for selling counterfeit draft cards; the sentence was suspended. The story of the young Nolte is that of a person who tested rules before he had found a place where his restlessness became useful. He found it on the stage: in 1960 he began with the Actor's Inner Circle in Phoenix, worked in Minneapolis, New York and Los Angeles, and studied with Stella Adler.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Six: fear moved forward</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At its core, the <strong>Six</strong>, according to Naranjo, is about fear and the search for security. The <strong>sexual Six (SX6)</strong> is the countertype: it does not flee fear but walks toward it, with toughness, directness and the demand to be strong oneself. In Nolte this can be linked to a career he built on physically present, often endangered male figures: soldiers, police officers, football players, the hunted. On screen he seems like someone who does not fear danger, and precisely there lies the tension, because the characters usually carry a deep vulnerability.</p>
+          <p class="vb-intro">The same pattern shows in his private life, as far as it is publicly documented: over decades he has spoken openly about his problems with alcohol and drugs and has not hidden his failures. The motif of facing one's own weakness head-on instead of hiding it fits the counter-fear attitude, even if on its own it does not prove a subtype.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The substance: an actor who makes vulnerability visible behind toughness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nolte became known in 1976 through the miniseries ›Rich Man, Poor Man‹, for which he received an Emmy nomination. In cinema followed ›The Deep‹ (1977), ›North Dallas Forty‹ (1979), ›48 Hrs.‹ (1982) and ›Under Fire‹ (1983). The breakthrough into the front rank came in 1991 with ›Cape Fear‹ and ›The Prince of Tides‹; for the latter he received a Golden Globe and his first Oscar nomination. ›Affliction‹ (1997) brought another Oscar nomination, in which he plays a small-town policeman who breaks under the legacy of a violent father. In ›The Thin Red Line‹ (1998) he embodied an officer, and in ›Warrior‹ (2011) a father who has become sober and fights for his sons' trust, which brought a third Oscar nomination.</p>
+          <p class="vb-intro">The special quality lies in the mix of physicality and fragility: the massive presence, the rough, deeply gravelly voice, and beneath it characters visibly wrestling with guilt, shame or loss. Nolte gives his hard men no armour but a crack. That is demanding craft, because it must manage without big gestures: where others play toughness, he plays what the toughness is meant to hide. This ability can be linked to the wolf attitude of not denying weakness but holding it in strength.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Five-wing: idiosyncrasy and introspection</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> expresses itself in Nolte less as withdrawal than as an idiosyncratic, inward-turned way of working: he often chose difficult, thoughtful roles over glossy screen heroes, and in later years he increasingly moved to character parts, for instance in ›Head Full of Honey‹ (2018). His memoir ›Rebel: My Life Outside the Lines‹ (2018) also shows a man who examines his life instead of smoothing it.</p>
+          <p class="vb-intro">The source base on the wing is thinner than on the core type. The assignment rests on role choice and public self-description, not on closer reports about his private life, and therefore remains cautious.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The crashes: alcohol, GHB and the famous police photo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nolte has made his problems with alcohol and drugs public. In 2002 he was arrested in Malibu for driving under the influence; the test showed GHB. He pleaded no contest and received probation. The police photo from that night, with wild hair and a glazed look, went around the world and became one of the best-known mugshots of pop culture.</p>
+          <p class="vb-intro">That he later spoke about it without varnish belongs to the picture. The crashes show the shadow side of the counter-fear pattern: whoever fights fear through confrontation and numbing at once goes too far at times.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Six</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX6w5 lies in Nolte in his honesty: in an acting that does not beautify its characters, and in a way of dealing with his own failure that keeps up no facade. From this grows the trust of directors and audiences that someone is working truthfully here.</p>
+          <p class="vb-intro">The shadow is the tendency to answer one's own fear and unrest with toughness or numbing, which is reflected in the documented addiction problems. This too can be linked to the subtype without explaining or excusing it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The legacy: a career without a smooth line</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1992 ›People‹ magazine named him ›Sexiest Man Alive‹, and in 2017 he received a star on the Hollywood Walk of Fame. With three Oscar nominations, a Golden Globe and several critics' awards, he counts among the defining character actors of his generation.</p>
+          <p class="vb-intro">His path does not run as a rising career but as a sequence of highs, crashes and new beginnings. The picture that remains is that of an SX6w5 who did not play fear and fragility away but made them visible in his characters.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx6", label:"SX6 – The Wolf: subtype profile"},
+        {route:"beruehmte-natalie-dormer", label:"Portrait: Natalie Dormer (SX6w5) – same subtype and wing"},
+        {route:"beruehmte-bobby-fischer", label:"Portrait: Bobby Fischer (SX6w5) – same subtype and wing, another field"},
+      ])}
+    </div>
+  `);
+}

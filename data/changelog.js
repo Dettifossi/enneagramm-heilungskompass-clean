@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2516", date: "2026-10-15", text: "Neues Porträt: Nick Nolte (SX6w5) – Schauspieler, Wolf-Subtyp.", text_en: "New portrait: Nick Nolte (SX6w5) – actor, wolf subtype.", route: "beruehmte-nick-nolte" },
     { version: "v2515", date: "2026-10-15", text: "Neues Porträt: Russell Means (SE3w4) – Aktivist, Schauspieler und Autor, Sprecher der American Indian Movement.", text_en: "New portrait: Russell Means (SE3w4) – activist, actor and author, spokesman of the American Indian Movement.", route: "beruehmte-russell-means" },
     { version: "v2514", date: "2026-10-15", text: "Neues kriminalpsychologisches Porträt: Beate Zschäpe (SE1w9) – NSU, die Taten und das Verfahren.", text_en: "New criminal psychology portrait: Beate Zschäpe (SE1w9) – the NSU, the acts and the proceedings.", route: "kriminalpsychologie-beate-zschaepe" },
     { version: "v2513", date: "2026-10-15", text: "Neues kriminalpsychologisches Porträt: Gert Postel (SX8w9) – Hochstapler, 17 Jahre falscher Arzt.", text_en: "New criminal psychology portrait: Gert Postel (SX8w9) – impostor, posed as a doctor for 17 years.", route: "kriminalpsychologie-gert-postel" },
