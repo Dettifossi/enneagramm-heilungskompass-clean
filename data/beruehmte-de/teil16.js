@@ -4340,7 +4340,7 @@ export function lukeNicholsPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Sechs: Wärme im engen Kreis</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Naranjo nannte die selbsterhaltende Sechs die <strong>Wärme</strong>: Sicherheit entsteht nicht durch Bindung an eine große Gruppe oder Sache, sondern durch den engen, vertrauten Kreis, in dem man einander verlässt. Das Erfolgsrezept von ›Outdoor Boys‹ war genau das: Lagerfeuer, Hütten, Schnee und die Familie. Auf seinen Abenteuern in Alaska waren über Jahre seine Frau und seine drei Söhne dabei, und Luke Nichols zeigte nichts anderes als das Leben, das er mit ihnen teilte.</p>
+          <p class="vb-intro">Naranjo nannte die selbsterhaltende Sechs die <strong>Wärme</strong>: Sicherheit entsteht nicht durch Bindung an eine große Gruppe oder Sache, sondern durch den engen, vertrauten Kreis, in dem man sich aufeinander verlassen kann. Das Erfolgsrezept von ›Outdoor Boys‹ war genau das: Lagerfeuer, Hütten, Schnee und die Familie. Auf seinen Abenteuern in Alaska waren über Jahre seine Frau und seine drei Söhne dabei, und Luke Nichols zeigte nichts anderes als das Leben, das er mit ihnen teilte.</p>
           <p class="vb-intro">Das erklärt auch die Wirkung. Zuschauer sahen keinen Experten im Rampenlicht, sondern einen Vater, der draußen für Sicherheit und Fülle sorgt. Der Kanal wuchs auf rund fünfzehn Millionen Abonnenten (je nach Bericht auch mehr).</p>
         </blockquote>
 
