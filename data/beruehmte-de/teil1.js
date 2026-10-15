@@ -2729,7 +2729,7 @@ export function wolfgangGruppPortraitPage() {
         <h2 class="vb-section">5. Die Brüche: Äußerungen, die Widerspruch auslösten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Grupps öffentliche Haltung blieb nicht unumstritten. Im Mai 2022 sagte er, Russland habe sich unter Putin wirtschaftlich verbessert und die USA seien im Ukrainekrieg ›nicht ganz unschuldig‹, was Kritik auslöste. Im Februar 2023 unterzeichnete er das ›Manifest für Frieden‹. 2025 warf er Ärzten vor, sinnlose Krankschreibungen auszustellen, was die zuständige Landesärztekammer zurückwies.</p>
-          <p class="vb-intro">Auch sein Auftreten, das klare Urteile über andere Berufsgruppen enthielt, wurde nicht von allen geschätzt. Das ist das Spiegelbild des Eins-Anspruchs: Wer sich an hohen Maßstäben misst, misst auch andere daran.</p>
+          <p class="vb-intro">Auch sein Auftreten, das klare Urteile über andere Berufsgruppen enthielt, wurde nicht von allen geschätzt. Das ist das Spiegelbild des Einser-Anspruchs: Wer sich an hohen Maßstäben misst, misst auch andere daran.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Eins</h2>
