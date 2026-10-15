@@ -2778,7 +2778,7 @@ export function danyBoonPortraitPage() {
         <h2 class="vb-section">1. Der Büffel: ein Junge aus Armentières, der sich seinen Namen aus einem Western lieh</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier der sozialen Neun: Er geht in der Herde auf und trägt verlässlich seinen Teil bei. Dany Boon wurde am 26. Juni 1966 als Daniel Hamidou in Armentières in Nordfrankreich geboren. Sein Vater, von kabylischer Herkunft aus Algerien, war Boxer und Lastwagenfahrer, seine Mutter stammte aus dem Norden Frankreichs. Den Künstlernamen entlehnte er der Westernserie ›Daniel Boone‹. Er wuchs im Arbeitermilieu einer Region auf, die in Frankreich lange als rau, kalt und rückständig verspottet wurde.</p>
-          <p class="vb-intro">Dieser Hintergrund ist für sein Werk entscheidend: Wer als Kind einer Minderheit in einer belächelten Gegend aufwächst, kennt das Gefühl, dazugehören zu wollen, und die Kraft einer Gemeinschaft, die sich gegen Vorurteile zusammenschließt. Das lässt sich mit dem Wunsch der sozialen Neun in Verbindung bringen, Teil einer Gruppe zu sein und ihr zu dienen.</p>
+          <p class="vb-intro">Dieser Hintergrund ist für sein Werk entscheidend: Wer als Kind zu einer Minderheit gehört und in einer belächelten Gegend aufwächst, kennt das Gefühl, dazugehören zu wollen, und die Kraft einer Gemeinschaft, die sich gegen Vorurteile zusammenschließt. Das lässt sich mit dem Wunsch der sozialen Neun in Verbindung bringen, Teil einer Gruppe zu sein und ihr zu dienen.</p>
         </blockquote>
 
         <h2 class="vb-section">2. Die soziale Neun: Identität durch Zugehörigkeit</h2>
