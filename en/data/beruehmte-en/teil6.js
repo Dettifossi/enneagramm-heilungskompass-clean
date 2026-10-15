@@ -2713,3 +2713,74 @@ export function wolfgangGruppPortraitPage() {
     </div>
   `);
 }
+
+export function danyBoonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dany-boon-portrait.jpg" alt="Dany Boon – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dany Boon</p>
+        <p class="krim-portrait-typ">SO9w1 · Social Type 9 with a One-wing</p>
+        <p class="krim-portrait-subtitle">French comedian, director and actor, b. 1966 – ›Welcome to the Sticks‹ – animal equivalent: Buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Buffalo: a boy from Armentières who borrowed his name from a Western</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>buffalo</strong> is the animal of the social Nine: it merges into the herd and reliably carries its share. Dany Boon was born on 26 June 1966 as Daniel Hamidou in Armentières in northern France. His father, of Kabyle descent from Algeria, was a boxer and truck driver, his mother came from the north of France. He borrowed his stage name from the Western series ›Daniel Boone‹. He grew up in the working-class setting of a region that was long mocked in France as rough, cold and backward.</p>
+          <p class="vb-intro">This background is decisive for his work: whoever grows up as the child of a minority in a region that is laughed at knows the feeling of wanting to belong and the strength of a community that bands together against prejudice. This can be linked to the social Nine's wish to be part of a group and to serve it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Nine: identity through belonging</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At its core, the <strong>Nine</strong>, according to Naranjo, is about the wish for harmony and the inertia of putting one's own position behind peace. The <strong>social Nine (SO9)</strong> is the countertype: instead of resting, it works actively for the community and finds its identity in belonging. In Boon this shows in a career that revolves not around self-presentation but around the we: he made a region, its dialect and its people his material, and he did so with warmth instead of mockery.</p>
+          <p class="vb-intro">On stage, too, his humour is rarely about put-downs. He makes people laugh by presenting their quirks affectionately, and includes the audience in the community of those laughed about.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The substance: turning a mocked region into an audience record</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Boon began as a comedian in Paris in 1989 and at the same time worked as an illustrator in an animation studio. From 1992 he appeared regularly on French television, from 1994 in films. His breakthrough came when he brought the dialect of his home region, Ch'ti, onto the stage: the DVD of his 2003 programme sold over 600,000 copies. The producer Claude Berri financed his directing debut of 2006, which reached about one million viewers.</p>
+          <p class="vb-intro">With ›Bienvenue chez les Ch'tis‹ (›Welcome to the Sticks‹, 2008) he wrote, directed and starred in a comedy about a postal official who is transferred to the north, which he considers inhospitable, and makes friends there. With over 20 million cinema admissions the film became the most successful French film in its own country. The concept behind it is precisely crafted: the dialect is the punchline and at the same time the means of dissolving prejudice. Further came ›Rien à déclarer‹ (›Nothing to Declare‹, 2010), ›Supercondriaque‹ (›Superchondriac‹, 2014) and other comedies in which he directed and played the lead. In 2019 he received the newly created Audience Prize of the Césars. He is a knight of the Legion of Honour and an officer of the Ordre des Arts et des Lettres.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The One-wing: care, craft and standards</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> shows in Boon in his craft standards: he often writes, directs and acts himself and thereby keeps the threads in hand. The precision with which dialect, rhythm and punchlines are built can be linked to the One's pull toward care, and the clear message of his films, to break down prejudice, also carries a moral undertone.</p>
+          <p class="vb-intro">The wing is assigned cautiously here: the source base on his working style in detail is limited, and the One colouring rests on the structure of his works.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The reach of his effect: from dialect to the community of a country</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The effect of ›Bienvenue chez les Ch'tis‹ went beyond cinema: the film helped break up the mocking image of a region in France. That is the classic achievement of the social Nine: it connects. Boon brought people from the north and the south, from city and country, together in a shared laugh.</p>
+          <p class="vb-intro">That he himself came from a marginal position as the son of a man with Algerian roots gives the concern weight without his turning it into a programme: he stayed with storytelling, not lecturing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Nine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO9w1 in Boon lies in a connecting warmth: a humour that creates community, and a reliability with which he delivered films over decades that reached a broad audience.</p>
+          <p class="vb-intro">The shadow is the danger that consideration for the we pales one's own position: whoever mainly wants to connect avoids sharpness and conflict. Whether this shows in his work cannot be judged with certainty from the available sources.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The legacy: a comedian who made belonging his theme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dany Boon counts among France's most successful comedians and directors. His work consists of comedies about understanding between people of different origins, which reached audience records in France.</p>
+          <p class="vb-intro">Whoever looks at his work sees no mocker but a host: one who opened the door to a region that was laughed at and invited a whole country to enter.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: subtype profile"},
+        {route:"beruehmte-kevin-costner", label:"Portrait: Kevin Costner (SO9w1) – same subtype and wing, also actor and director"},
+        {route:"beruehmte-sandra-hueller", label:"Portrait: Sandra Hüller (SO9w1) – same subtype and wing"},
+      ])}
+    </div>
+  `);
+}

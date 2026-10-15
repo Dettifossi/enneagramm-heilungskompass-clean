@@ -2759,3 +2759,75 @@ export function wolfgangGruppPortraitPage() {
     </div>
   `);
 }
+
+export function danyBoonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-dany-boon-portrait.jpg" alt="Dany Boon – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dany Boon</p>
+        <p class="krim-portrait-typ">SO9w1 · Sozialer Typ 9 mit Einser-Flügel</p>
+        <p class="krim-portrait-subtitle">Französischer Komiker, Regisseur und Schauspieler, geb. 1966 – ›Willkommen bei den Sch'tis‹ – Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel: ein Junge aus Armentières, der sich seinen Namen aus einem Western lieh</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier der sozialen Neun: Er geht in der Herde auf und trägt verlässlich seinen Teil bei. Dany Boon wurde am 26. Juni 1966 als Daniel Hamidou in Armentières in Nordfrankreich geboren. Sein Vater, von kabylischer Herkunft aus Algerien, war Boxer und Lastwagenfahrer, seine Mutter stammte aus dem Norden Frankreichs. Den Künstlernamen entlehnte er der Westernserie ›Daniel Boone‹. Er wuchs im Arbeitermilieu einer Region auf, die in Frankreich lange als rau, kalt und rückständig verspottet wurde.</p>
+          <p class="vb-intro">Dieser Hintergrund ist für sein Werk entscheidend: Wer als Kind einer Minderheit in einer belächelten Gegend aufwächst, kennt das Gefühl, dazugehören zu wollen, und die Kraft einer Gemeinschaft, die sich gegen Vorurteile zusammenschließt. Das lässt sich mit dem Wunsch der sozialen Neun in Verbindung bringen, Teil einer Gruppe zu sein und ihr zu dienen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Identität durch Zugehörigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Kern geht es der <strong>Neun</strong> nach Naranjo um den Wunsch nach Harmonie und die Trägheit, die eigene Position hinter dem Frieden zurückzustellen. Die <strong>soziale Neun (SO9)</strong> ist der Kontratyp: Statt zu ruhen, arbeitet sie aktiv für die Gemeinschaft und findet ihre Identität im Dazugehören. Bei Boon zeigt sich das in einer Laufbahn, die nicht um die Selbstdarstellung kreist, sondern um das Wir: Er machte eine Region, ihren Dialekt und ihre Menschen zum Stoff, und er tat es mit Wärme statt mit Spott.</p>
+          <p class="vb-intro">Auch auf der Bühne gilt sein Humor selten der Herabsetzung. Er lässt Menschen lachen, indem er ihre Eigenheiten liebevoll vorführt, und schließt die Zuschauer in die Gemeinschaft derer ein, über die gelacht wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die Substanz: aus einem verspotteten Landstrich einen Publikumsrekord gemacht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Boon begann 1989 als Komiker in Paris und arbeitete zugleich als Zeichner in einem Animationsstudio. Ab 1992 war er regelmäßig im französischen Fernsehen zu sehen, ab 1994 in Filmen. Sein Durchbruch kam, als er den Dialekt seiner Heimat, das Ch'ti, auf die Bühne brachte: Die DVD seines Programms von 2003 verkaufte sich über 600.000 Mal. Der Produzent Claude Berri finanzierte sein Regiedebüt von 2006, das rund eine Million Zuschauer erreichte.</p>
+          <p class="vb-intro">Mit ›Willkommen bei den Sch'tis‹ (›Bienvenue chez les Ch'tis‹, 2008) schrieb, inszenierte und spielte er in einer Komödie über einen Postbeamten, der in den Norden versetzt wird, den er für unwirtlich hält, und dort Freundschaften schließt. Der Film wurde mit über 20 Millionen Kinobesuchen der erfolgreichste französische Film im eigenen Land. Das Konzept dahinter ist handwerklich genau: Der Dialekt ist die Pointe, und zugleich das Mittel, Vorurteile aufzulösen. Es folgten ›Nichts zu verzollen‹ (›Rien à déclarer‹, 2010), ›Super-Hypochonder‹ (›Supercondriaque‹, 2014) und weitere Komödien, in denen er Regie führte und die Hauptrolle spielte. 2019 erhielt er den neu geschaffenen Publikumspreis der Césars. Er ist Ritter der Ehrenlegion und Offizier des Ordre des Arts et des Lettres.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Einser-Flügel: Sorgfalt, Handwerk und Anspruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einser-Flügel (w1)</strong> kommt bei Boon im handwerklichen Anspruch zum Vorschein: Er schreibt, inszeniert und spielt häufig selbst und behält damit die Fäden in der Hand. Die Genauigkeit, mit der Dialekt, Rhythmus und Pointen gebaut sind, lässt sich mit dem Einser-Zug zur Sorgfalt in Verbindung bringen, und auch die klare Botschaft seiner Filme, Vorurteile abzubauen, trägt einen moralischen Unterton.</p>
+          <p class="vb-intro">Der Flügel ist hier vorsichtig zugeordnet: Die Quellenlage zu seinem Arbeitsstil im Einzelnen ist begrenzt, und die Einser-Färbung stützt sich auf die Struktur seiner Werke.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Weite des Wirkens: vom Dialekt zur Gemeinschaft eines Landes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Wirkung von ›Willkommen bei den Sch'tis‹ ging über das Kino hinaus: Der Film verschob in Frankreich das Bild einer Region und machte aus einem Spottobjekt einen Ort, an den Menschen reisen wollten. Das ist die klassische Leistung der sozialen Neun: Sie verbindet. Boon führte Menschen aus dem Norden und dem Süden, aus Stadt und Land, in einem gemeinsamen Lachen zusammen.</p>
+          <p class="vb-intro">Dass er dabei selbst als Sohn eines Mannes mit algerischen Wurzeln aus einer Randlage kam, gibt dem Anliegen Gewicht, ohne dass er es zum Programm erhob: Er blieb beim Erzählen, nicht beim Belehren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Neun</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w1 liegt bei Boon in der verbindenden Wärme: einem Humor, der Gemeinschaft stiftet, und einer Zuverlässigkeit, mit der er über Jahrzehnte Filme lieferte, die ein breites Publikum erreichten.</p>
+          <p class="vb-intro">Der Schatten ist die Gefahr, dass die Rücksicht auf das Wir die eigene Position blass macht: Wer vor allem verbinden will, vermeidet Zuspitzung und Konflikt. Ob sich das in seinem Werk zeigt, lässt sich aus den vorliegenden Quellen nicht sicher beurteilen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Vermächtnis: ein Komiker, der Zugehörigkeit zum Thema machte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dany Boon zählt zu den erfolgreichsten Komikern und Regisseuren Frankreichs. Sein Werk besteht aus Komödien, die Verständigung zwischen Menschen verschiedener Herkunft zum Thema haben und die in Frankreich Zuschauerrekorde erreichten.</p>
+          <p class="vb-intro">Wer sein Werk betrachtet, sieht keinen Spötter, sondern einen Gastgeber: einen, der die Tür zu einer belächelten Region öffnete und ein ganzes Land einlud, sie zu betreten.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so9", label:"Lebensmusterkompass: SO9 – Büffel"},
+        {route:"beruehmte-kevin-costner", label:"Porträt: Kevin Costner (SO9w1) – derselbe Subtyp und Flügel, ebenfalls Schauspieler und Regisseur"},
+        {route:"beruehmte-sandra-hueller", label:"Porträt: Sandra Hüller (SO9w1) – derselbe Subtyp und Flügel"},
+      ])}
+    </div>
+  `);
+}
