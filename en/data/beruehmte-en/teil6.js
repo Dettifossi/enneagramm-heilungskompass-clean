@@ -2784,3 +2784,75 @@ export function danyBoonPortraitPage() {
     </div>
   `);
 }
+
+export function wayneDyerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wayne-dyer-portrait.jpg" alt="Wayne Dyer – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wayne Dyer</p>
+        <p class="krim-portrait-typ">SO9w8 · Social Type 9 with an Eight-wing</p>
+        <p class="krim-portrait-subtitle">American psychologist, author and speaker, 1940–2015 – ›Your Erroneous Zones‹ – animal equivalent: Buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Buffalo: a boy from Detroit with no fixed place in a family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>buffalo</strong> is the animal of the social Nine: it merges into the herd and reliably carries its share. Wayne Dyer was born on 10 May 1940 in Detroit, Michigan. After his father left the family, he spent a large part of his first ten years in an orphanage. Later he was adopted by a couple described as loving but strict. From 1958 to 1962 he served in the US Navy, last as a Petty Officer Second Class.</p>
+          <p class="vb-intro">He then studied history and philosophy, added a master's in psychology and earned a doctorate in counseling (Ed.D.) at Wayne State University in 1970. He worked as a school counselor, later taught counseling psychology at St. John's University in New York and ran a practice of his own on the side. Whoever spent the first years of life without a fixed place in a family knows the need to belong and the longing for a place where one is taken in as a matter of course. This can be linked to the pattern of the social Nine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Nine: creating belonging instead of searching for it</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At its core, the <strong>Nine</strong>, according to Naranjo, is about the wish for harmony and the inertia of putting one's own position behind peace. The <strong>social Nine (SO9)</strong> is the countertype: instead of resting, it works actively for the community and finds its identity in belonging. In Dyer this can be linked to the fact that his work revolves around one question: how people can give themselves support. He became someone who tells others that they can.</p>
+          <p class="vb-intro">His manner was calm, friendly and warm. He spoke in lecture halls, on television and to large audiences, and his tone was that of a conversation with the individual. That fits the picture of the social Nine, who leads not through authority but through connection.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The substance: psychology you can understand in everyday life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The breakthrough came in 1976 with ›Your Erroneous Zones‹. The book translated ideas from counseling psychology, as represented by Albert Ellis and Abraham Maslow among others, into everyday language. Dyer's basic idea was that many people make themselves needlessly unhappy through self-defeating patterns of thought, and that everyone can change these patterns. The book became a bestseller. Figures on the print run differ: publisher statements speak of over 35 million copies sold, an independent confirmation is lacking. Dyer became an advice author, speaker and television guest and, according to his biography, wrote around 20 further books.</p>
+          <p class="vb-intro">From the 1990s spirituality moved into the foreground, for example with ›Real Magic‹ (1992) and ›Your Sacred Self‹ (1994). Dyer named Nisargadatta Maharaj as his teacher. His television series for PBS reached a wide audience. What distinguished him was the combination of an academic foundation and a language that reached people without prior knowledge. In 2010 he also lent his voice, with an excerpt from one of his lectures, to the Pixar short ›Day & Night‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Eight-wing: self-responsibility and a clear statement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> can be linked in Dyer to a strongly pronounced directness that noticeably colours the otherwise gentle Nine: his early books deal with motivation, self-actualisation and assertiveness, and his message is unmistakable: whoever is unhappy should take responsibility for their own thinking and not rely on others. That is the Eight's directness in the garb of a friendly teacher.</p>
+          <p class="vb-intro">He said, for example, ›Don't be Christian, be Christ-like‹ and thereby placed lived attitude above labels. The mix of warmth and plain speaking, of community and independence, shows the Nine with an Eight-wing in its most effective form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The breaks: plagiarism accusations and criticism</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dyer's work was not uncontroversial. Albert Ellis accused him of leaning heavily in ›Your Erroneous Zones‹ on his Rational Emotive Therapy without acknowledging it adequately. Dyer denied this and cited his lectures at St. John's University as the source. In 2010 the translator Stephen Mitchell sued Dyer and his publisher Hay House over passages said to have been taken from Mitchell's translation of the ›Tao Te Ching‹. The case ended in 2011 with a settlement.</p>
+          <p class="vb-intro">Critics also considered his approach superficial, above all the late emphasis on ›intention‹ and manifestation. That someone who lived so strongly on harmony and encouragement also had to face accusations belongs to the overall picture.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Nine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO9w8 lies in Dyer in the ability to encourage people: he spoke in a way that made people feel seen and addressed, and he made heavy thoughts bearable.</p>
+          <p class="vb-intro">The shadow is the danger of simplification: whoever mainly wants to deliver encouragement and accessibility risks smoothing over what is difficult. The criticism of the superficiality of his work can be read in this light, without thereby confirming or refuting it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The legacy: a teacher for millions</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2009 Dyer was diagnosed with leukaemia. He died at the end of August 2015 on Maui, Hawaii, of a heart attack. Sources give the date of death as 29 or 30 August.</p>
+          <p class="vb-intro">He left a body of work that for many people was an entry into self-reflection. His career can be read as that of a man who had no fixed place as a child finding a profession that gave others support.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: subtype profile"},
+        {route:"beruehmte-ronald-reagan", label:"Portrait: Ronald Reagan (SO9w8) – same subtype and wing, a communicator of politics"},
+        {route:"beruehmte-willy-brandt", label:"Portrait: Willy Brandt (SO9w8) – same subtype and wing"},
+        {route:"beruehmte-dany-boon", label:"Portrait: Dany Boon (SO9w1) – same subtype, other wing"},
+      ])}
+    </div>
+  `);
+}

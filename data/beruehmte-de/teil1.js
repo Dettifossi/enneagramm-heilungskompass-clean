@@ -2831,3 +2831,76 @@ export function danyBoonPortraitPage() {
     </div>
   `);
 }
+
+export function wayneDyerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wayne-dyer-portrait.jpg" alt="Wayne Dyer – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wayne Dyer</p>
+        <p class="krim-portrait-typ">SO9w8 · Sozialer Typ 9 mit Achter-Flügel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Psychologe, Autor und Redner, 1940–2015 – ›Your Erroneous Zones‹ – Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel: ein Junge aus Detroit ohne festen Platz in einer Familie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier der sozialen Neun: Er geht in der Herde auf und trägt verlässlich seinen Teil bei. Wayne Dyer wurde am 10. Mai 1940 in Detroit, Michigan, geboren. Nachdem sein Vater die Familie verlassen hatte, verbrachte er einen großen Teil seiner ersten zehn Lebensjahre in einem Waisenhaus. Später wurde er von einem Ehepaar adoptiert, das als liebevoll, aber streng beschrieben wird. Von 1958 bis 1962 diente er in der US-Marine, zuletzt als Petty Officer Second Class.</p>
+          <p class="vb-intro">Danach studierte er Geschichte und Philosophie, schloss einen Master in Psychologie an und promovierte 1970 an der Wayne State University in Beratung (Ed.D.). Er arbeitete als Schulberater, lehrte später Beratungspsychologie an der St. John's University in New York und führte nebenher eine eigene Praxis. Wer die ersten Lebensjahre ohne festen Platz in einer Familie verbracht hat, kennt das Bedürfnis, dazuzugehören, und die Sehnsucht nach einem Ort, an dem man selbstverständlich aufgenommen wird. Das lässt sich mit dem Muster der sozialen Neun in Verbindung bringen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Zugehörigkeit stiften, statt sie zu suchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Kern geht es der <strong>Neun</strong> nach Naranjo um den Wunsch nach Harmonie und die Trägheit, die eigene Position hinter dem Frieden zurückzustellen. Die <strong>soziale Neun (SO9)</strong> ist der Kontratyp: Statt zu ruhen, arbeitet sie aktiv für die Gemeinschaft und findet ihre Identität im Dazugehören. Bei Dyer lässt sich das damit in Verbindung bringen, dass seine Arbeit um eine Frage kreist: wie Menschen sich selbst Halt geben können. Er wurde zu jemandem, der anderen sagt, dass sie das können.</p>
+          <p class="vb-intro">Sein Auftreten war dabei ruhig, freundlich und zugewandt. Er sprach in Hörsälen, im Fernsehen und vor großem Publikum, und sein Ton war der eines Gesprächs mit dem Einzelnen. Das passt zu dem Bild der sozialen Neun, die nicht durch Autorität führt, sondern durch Verbindung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Die Substanz: Psychologie, die man im Alltag verstehen kann</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Durchbruch kam 1976 mit ›Your Erroneous Zones‹ (›Ihre irrigen Zonen‹). Das Buch übersetzte Gedanken aus der Beratungspsychologie, wie sie etwa Albert Ellis und Abraham Maslow vertreten hatten, in eine Alltagssprache. Dyers Grundidee war, dass viele Menschen sich durch selbstschädigende Denkmuster unnötig unglücklich machen und dass jeder diese Muster ändern kann. Das Buch wurde ein Bestseller. Über die Auflage gehen die Angaben auseinander, Verlagsangaben sprechen von über 35 Millionen verkauften Exemplaren, eine unabhängige Bestätigung gibt es dafür nicht. Dyer wurde zum Ratgeberautor, Redner und Fernsehgast und schrieb danach nach Angaben seiner Biografie rund 20 weitere Bücher.</p>
+          <p class="vb-intro">Ab den 1990er Jahren rückte die Spiritualität in den Vordergrund, etwa mit ›Real Magic‹ (1992) und ›Your Sacred Self‹ (1994). Dyer nannte Nisargadatta Maharaj als seinen Lehrer. Seine Fernsehreihen für PBS erreichten ein breites Publikum. Was ihn auszeichnete, war die Verbindung aus akademischer Grundlage und einer Sprache, die Menschen ohne Vorkenntnisse erreichte. 2010 sprach er außerdem einen Ausschnitt aus einer seiner Vorlesungen im Pixar-Kurzfilm ›Day & Night‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Achter-Flügel: Selbstverantwortung und klare Ansage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achter-Flügel (w8)</strong> lässt sich bei Dyer mit einer stark ausgeprägten Direktheit in Verbindung bringen, die die sonst weiche Neun spürbar färbt: Seine frühen Bücher handeln von Motivation, Selbstverwirklichung und Durchsetzungsvermögen, und seine Botschaft ist unmissverständlich: Wer unglücklich ist, soll Verantwortung für das eigene Denken übernehmen und sich nicht auf andere verlassen. Das ist die Direktheit des Achters im Gewand eines freundlichen Lehrers.</p>
+          <p class="vb-intro">Er sagte etwa ›Don't be Christian, be Christ-like‹ (›Sei nicht christlich, sondern christusgleich‹) und stellte damit gelebte Haltung über Etiketten. Die Mischung aus Zuwendung und Ansage, aus Gemeinschaft und Eigenständigkeit, zeigt die Neun mit Achter-Flügel in ihrer wirksamsten Form.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Brüche: Plagiatsvorwürfe und Kritik</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dyers Werk blieb nicht unumstritten. Albert Ellis warf ihm vor, ›Your Erroneous Zones‹ stütze sich stark auf seine Rational-Emotive Therapie, ohne das angemessen auszuweisen. Dyer bestritt das und führte seine Vorlesungen an der St. John's University als Quelle an. 2010 verklagte der Übersetzer Stephen Mitchell Dyer und seinen Verlag Hay House wegen Passagen, die aus Mitchells Übersetzung des ›Tao Te Ching‹ (›Buch vom Weg und der Tugend‹) übernommen worden sein sollen. Der Fall endete 2011 mit einem Vergleich.</p>
+          <p class="vb-intro">Kritiker hielten seinen Ansatz zudem für oberflächlich, vor allem die späte Betonung von ›Intention‹ (Absicht) und Manifestation. Dass jemand, der so stark von Harmonie und Zuspruch lebte, sich auch Vorwürfen stellen musste, gehört zum Gesamtbild.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Neun</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w8 liegt bei Dyer in der Fähigkeit, Menschen Mut zu machen: Er sprach so, dass Menschen sich gesehen und angesprochen fühlten, und er machte schwere Gedanken tragbar.</p>
+          <p class="vb-intro">Der Schatten ist die Gefahr der Vereinfachung: Wer vor allem Zuspruch und Zugänglichkeit liefern will, läuft Gefahr, Schwieriges zu glätten. Die Kritik an der Oberflächlichkeit seines Werkes lässt sich in diesem Licht lesen, ohne sie damit zu bestätigen oder zu widerlegen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Vermächtnis: ein Lehrer für Millionen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2009 wurde bei Dyer Leukämie diagnostiziert. Er starb Ende August 2015 auf Maui, Hawaii, an einem Herzinfarkt. Die Quellen nennen als Todestag den 29. oder den 30. August.</p>
+          <p class="vb-intro">Er hinterließ ein Werk, das für viele Menschen ein Einstieg in die Selbstreflexion war. Seine Laufbahn lässt sich so lesen, dass ein Mann, der als Kind keinen festen Platz hatte, einen Beruf fand, der anderen Halt gab.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so9", label:"Lebensmusterkompass: SO9 – Büffel"},
+        {route:"beruehmte-ronald-reagan", label:"Porträt: Ronald Reagan (SO9w8) – derselbe Subtyp und Flügel, ein Kommunikator der Politik"},
+        {route:"beruehmte-willy-brandt", label:"Porträt: Willy Brandt (SO9w8) – derselbe Subtyp und Flügel"},
+        {route:"beruehmte-dany-boon", label:"Porträt: Dany Boon (SO9w1) – derselbe Subtyp, anderer Flügel"},
+      ])}
+    </div>
+  `);
+}
