@@ -225,12 +225,16 @@ function renderUpgradeMail({ name, isEnglish }) {
     return {
       subject: "Your upgrade to full access is active",
       html: shell(`<h2>Thank you${name ? ", " + esc(name) : ""}!</h2>
-        <p>Your upgrade is active. Open the app (<a href="${appUrl}">${appUrl}</a>) and sign in again if needed – all areas are now unlocked.</p>`),
+        <p>Your upgrade is active. Open the app (<a href="${appUrl}">${appUrl}</a>) and sign in again if needed – all areas are now unlocked.</p>
+        <p><strong>Your login details stay the same:</strong> sign in with the same email address and the password from your first welcome email.
+        If you no longer have the password, just write to us: <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>`),
     };
   }
   return {
     subject: "Ihr Upgrade auf den Vollzugang ist aktiv",
     html: shell(`<h2>Vielen Dank${name ? ", " + esc(name) : ""}!</h2>
-      <p>Ihr Upgrade ist aktiv. Öffnen Sie die App (<a href="${appUrl}">${appUrl}</a>) und melden Sie sich bei Bedarf neu an – alle Bereiche sind jetzt freigeschaltet.</p>`),
+      <p>Ihr Upgrade ist aktiv. Öffnen Sie die App (<a href="${appUrl}">${appUrl}</a>) und melden Sie sich bei Bedarf neu an – alle Bereiche sind jetzt freigeschaltet.</p>
+      <p><strong>Ihre Zugangsdaten bleiben unverändert:</strong> Melden Sie sich mit derselben E-Mail-Adresse und dem Passwort aus Ihrer ersten Willkommens-Mail an.
+      Falls Sie das Passwort nicht mehr haben, schreiben Sie uns gerne: <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>`),
   };
 }
