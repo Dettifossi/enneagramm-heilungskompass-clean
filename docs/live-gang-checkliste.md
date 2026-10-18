@@ -60,16 +60,22 @@ Dieser Schritt ist sicher, weil die Konstante nur auf der Upgrade-Seite der Port
 
 ---
 
-## Phase B: Echter Test, noch ohne Werbung
+## Phase B: Echter Test im Live-Modus, ohne Geld und ohne Werbung
 
-### B1. Deutscher Testkauf mit eigener Karte (39 €)
-1. Live-Link der Porträt-Edition öffnen, mit einer **E-Mail-Adresse ohne Konto** kaufen (zum Beispiel `9Rathmer+live1@gmail.com`, kommt im selben Postfach an).
-2. Prüfen: Willkommens-Mail kommt (deutsch), in Stripe beim Live-Ereignis **200**, Anmeldung zeigt **„Enneagramm-Porträts"**.
-3. Aufpreis-Link (40 €) mit derselben Adresse kaufen: Mail mit neuem Passwort kommt, danach **Vollzugang**.
-4. Beide Zahlungen in Stripe **erstatten** (Zahlungen → Zahlung öffnen → Zahlung erstatten).
+Statt mit der eigenen Karte zu zahlen und zu erstatten, testen wir mit einem **100-%-Rabattcode**. Der Kauf kostet dann 0 €. Der Webhook akzeptiert solche Käufe (Zahlstatus „keine Zahlung nötig“).
 
-### B2. Englischer Testkauf mit eigener Karte (44 USD)
-Wie B1, mit den englischen Links und einer anderen Adresse (`+live2`). Prüfen: Mail **auf Englisch**, Anmeldung zeigt **„Enneagram Portraits"**. Danach den englischen Aufpreis (45 USD) und Erstattung beider Zahlungen.
+### B0. Rabattcode vorbereiten (Stripe, Live)
+1. **Produktkatalog → Gutscheine → Gutschein erstellen:** 100 % Rabatt, **einmalig verwendbar**, Gültigkeit nur wenige Tage.
+2. Einen **Aktionscode** dazu anlegen (zum Beispiel `TESTPORTRAIT`), **Einlösungen auf 4 beschränken** (vier Testkäufe: Porträt-Edition und Aufpreis, je deutsch und englisch).
+3. Im jeweiligen Live-Zahlungslink **„Aktionscodes zulassen“** einschalten, **nur für die Dauer des Tests**. Danach wieder ausschalten.
+
+### B1. Deutscher Testkauf (39 € mit Code)
+1. Live-Link der Porträt-Edition öffnen, den Code eingeben und mit einer **E-Mail-Adresse ohne Konto** kaufen: **`9Rathmer+live1@gmail.com`** (Gmail-Plus-Adresse, **genau so tippen**, die Mail kommt in dein Postfach).
+2. Prüfen: Willkommens-Mail kommt (deutsch), in Stripe beim Live-Ereignis **200**, Anmeldung zeigt **„Enneagramm-Porträts“**.
+3. Aufpreis-Link mit derselben Adresse und Code kaufen: Mail mit neuem Passwort kommt, danach **Vollzugang**.
+
+### B2. Englischer Testkauf (44 USD mit Code)
+Wie B1 mit den englischen Links und **`9Rathmer+live2@gmail.com`**. Prüfen: Mail **auf Englisch**, Anmeldung zeigt **„Enneagram Portraits“**. Danach der englische Aufpreis.
 
 ### B3. Kontrolle des bestehenden Kaufwegs
 Prüfen, dass der **alte** Webhook weiterläuft: In Stripe unter Entwickler → Webhooks (Live) die Zustellungen des alten Endpunkts ansehen. Es darf kein Fehler auftreten, der vorher nicht da war.
@@ -87,7 +93,8 @@ Prüfen, dass der **alte** Webhook weiterläuft: In Stripe unter Entwickler → 
 
 ## Phase D: Aufräumen
 
-- Test-Konten in Firebase löschen (Authentication → Users): `9Rathmer@gmail.com`, die `+en`- und `+live`-Testadressen. **Nur diese**, keine Kundenkonten.
+- Test-Konten in Firebase löschen (Authentication → Users): `9Rathmer@gmail.com`, `9Rathmer1@gmail.com` (versehentlich angelegt), die `+en`- und `+live`-Testadressen. **Nur diese**, keine Kundenkonten.
+- Aktionscodes und Rabattgutscheine in Stripe löschen; „Aktionscodes zulassen“ in den Links wieder ausschalten.
 - Sandbox-Zahlungslinks und -Ziel deaktivieren.
 - Vercel-Variable `STRIPE_SECRET_KEY_PORTRAITS_TEST` und das Sandbox-`whsec_…` aus `STRIPE_WEBHOOK_SECRET_PORTRAITS` entfernen (optional, nicht dringend).
 
