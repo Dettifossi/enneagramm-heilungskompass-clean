@@ -25,7 +25,7 @@ Je Produkt einen Zahlungslink anlegen. Die Links später eintragen:
 ## 3. Neuen Webhook-Endpunkt anlegen (Stripe → Entwickler → Webhooks → Endpunkt hinzufügen)
 
 - **URL:** dieselbe Domain wie beim bestehenden Webhook, nur mit anderem Pfad:
-  `https://<DEINE-VERCEL-DOMAIN>/api/stripe-webhook-portraits`
+  `https://enneagramm-heilungskompass.vercel.app/api/stripe-webhook-portraits`
   (Die Domain steht beim bestehenden Endpunkt in derselben Liste.)
 - **Ereignis:** nur `checkout.session.completed`
 - Danach das **Signing-Secret** des neuen Endpunkts kopieren (beginnt mit `whsec_…`).
@@ -34,11 +34,12 @@ Je Produkt einen Zahlungslink anlegen. Die Links später eintragen:
 
 | Name | Wert |
 |---|---|
-| `STRIPE_WEBHOOK_SECRET_PORTRAITS` | das neue `whsec_…` |
+| `STRIPE_WEBHOOK_SECRET_PORTRAITS` | das neue `whsec_…` (später Test und Live Komma-getrennt) |
+| `STRIPE_SECRET_KEY_PORTRAITS_TEST` | geheimer Test-Schlüssel `sk_test_…` (nur für den Testlauf; Stripe → Entwickler → API-Schlüssel, im Testmodus) |
 | `PORTRAIT_PRICE_IDS` | die beiden Preis-IDs der Porträt-Edition, durch Komma getrennt |
 | `UPGRADE_PRICE_IDS` | die beiden Preis-IDs des Aufpreises, durch Komma getrennt |
 
-Die bestehenden Variablen (`STRIPE_SECRET_KEY`, `FIREBASE_SERVICE_ACCOUNT`, `RESEND_API_KEY`) werden mitgenutzt.
+Die bestehenden Variablen (`STRIPE_SECRET_KEY` für Live, `FIREBASE_SERVICE_ACCOUNT`, `RESEND_API_KEY`) werden mitgenutzt.
 Danach das Vercel-Projekt einmal neu bereitstellen (Deployments → „Redeploy“).
 
 ## 5. Testkauf (Testmodus)

@@ -10,10 +10,11 @@
 //   "full"      -> Vollzugang (nach Upgrade)
 //
 // Benötigte Umgebungsvariablen (Vercel):
-//   STRIPE_SECRET_KEY                 (vorhanden, gemeinsam genutzt)
+//   STRIPE_SECRET_KEY                 (vorhanden, gemeinsam genutzt; für Live-Ereignisse)
+//   STRIPE_SECRET_KEY_PORTRAITS_TEST  (NEU, nur für den Testlauf: geheimer Test-Schlüssel sk_test_…)
 //   FIREBASE_SERVICE_ACCOUNT          (vorhanden, gemeinsam genutzt)
 //   RESEND_API_KEY                    (vorhanden, gemeinsam genutzt)
-//   STRIPE_WEBHOOK_SECRET_PORTRAITS   (NEU: Signing-Secret des neuen Stripe-Webhook-Endpunkts)
+//   STRIPE_WEBHOOK_SECRET_PORTRAITS   (NEU: Signing-Secret(s) des neuen Endpunkts; Test und Live Komma-getrennt)
 //   PORTRAIT_PRICE_IDS                (NEU: Komma-getrennt, Preis-IDs der Porträt-Edition 39 €, DE/EN)
 //   UPGRADE_PRICE_IDS                 (NEU: Komma-getrennt, Preis-IDs des Aufpreises 40 €, DE/EN)
 
@@ -74,17 +75,33 @@ async function setEdition(auth, user, edition) {
 export default async function handler(req, res) {
   if (req.method !== "POST") return res.status(405).send("Method Not Allowed");
 
-  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
   const sig = req.headers["stripe-signature"];
   const rawBody = await getRawBody(req);
 
-  let event;
-  try {
-    event = stripe.webhooks.constructEvent(rawBody, sig, process.env.STRIPE_WEBHOOK_SECRET_PORTRAITS);
-  } catch (err) {
-    console.error("Portraits-Webhook: Signaturfehler:", err.message);
+  // Signatur prüfen: STRIPE_WEBHOOK_SECRET_PORTRAITS darf mehrere Secrets enthalten (Komma-getrennt,
+  // z. B. Testmodus und Live-Modus nebeneinander). Das erste passende gilt.
+  const verifier = new Stripe(process.env.STRIPE_SECRET_KEY_PORTRAITS_TEST || process.env.STRIPE_SECRET_KEY || "sk_unused");
+  let event = null;
+  for (const secret of idSet(process.env.STRIPE_WEBHOOK_SECRET_PORTRAITS)) {
+    try {
+      event = verifier.webhooks.constructEvent(rawBody, sig, secret);
+      break;
+    } catch {
+      // nächstes Secret versuchen
+    }
+  }
+  if (!event) {
+    console.error("Portraits-Webhook: Signaturfehler (kein passendes Secret)");
     return res.status(400).send("Webhook Error");
   }
+
+  // Stripe trennt Testmodus und Live-Modus: für Test-Ereignisse wird der Test-Schlüssel benötigt.
+  const apiKey = event.livemode ? process.env.STRIPE_SECRET_KEY : process.env.STRIPE_SECRET_KEY_PORTRAITS_TEST;
+  if (!apiKey) {
+    console.error(`Portraits-Webhook: kein API-Schlüssel für ${event.livemode ? "Live" : "Test"}-Ereignis gesetzt.`);
+    return res.status(500).json({ error: "not configured" });
+  }
+  const stripe = new Stripe(apiKey);
 
   if (event.type !== "checkout.session.completed") {
     return res.status(200).json({ received: true });
