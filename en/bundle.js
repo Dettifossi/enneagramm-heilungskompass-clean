@@ -8,6 +8,7 @@ import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
 import { registerEntries, registerEntriesEN } from "../data/register.js?v=259";
+import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=1";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -50826,6 +50827,7 @@ function psychogrammePage() {
           <img src="${R2_CDN}assets/schaubilder/psychogramme/typ-${t.typ}-comic.jpg?v=2" alt="Psychogramm Typ ${t.typ} (Learning comic)" class="psycho-img psycho-comic" style="display:none;" onload="window._psychoComicReady(this)" onerror="this.remove()" />
           <img src="${CDN}assets/schaubilder/psychogramme/typ-${t.typ}.jpg" alt="Psychogramm Typ ${t.typ}" class="psycho-img psycho-classic" />
         </div>
+        ${psychogrammErklaerung(t.typ, "en")}
       </div>
     `);
   }
