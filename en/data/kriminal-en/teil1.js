@@ -2915,7 +2915,7 @@ export function rexHeuermannPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: the Orangutan</h3>
-        <p class="vb-intro">The <strong>orangutan</strong> of the self-preservation Eight lives withdrawn in a territory of its own and meets others only on its own terms. It is the most solitary of the great apes, a planner with a very good memory. In Heuermann's case this can be linked to the picture of a man who lived for decades in a fixed environment and, by his own admission, at the same time kept a hidden second territory for many years. In Griselda Blanco and Salvatore Riina the same basic force appeared as open power over an organisation. Here it appears in concealment.</p>
+        <p class="vb-intro">The <strong>orangutan</strong> of the self-preservation Eight lives withdrawn in a territory of its own and meets others only on its own terms. It is the most solitary of the great apes, a planner with a very good memory. In Heuermann's case this can be linked to the picture of a man who lived for decades in a fixed environment and, by his own admission, at the same time kept a hidden second territory for many years. In <a href="javascript:void(0)" data-route="kriminalpsychologie-griselda-blanco">Griselda Blanco</a> and <a href="javascript:void(0)" data-route="kriminalpsychologie-salvatore-riina">Salvatore Riina</a>, who share the same subtype and wing (both SE8w9), the same basic force appeared as open power over an organisation. Here it appears in concealment.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -2949,7 +2949,7 @@ export function rexHeuermannPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
-        <p class="vb-intro">The pattern of the self-preservation Eight that can be recognised in this case is that of control over life and death that got by without public power. Unlike Griselda Blanco and Salvatore Riina, who showed their power openly, it remained concealed in Heuermann: he lived as an architect and family man, used burner phones and kept the two areas apart for years. The Nine-wing can be linked to this calm manner and the ability to compartmentalise what is unpleasant.</p>
+        <p class="vb-intro">The pattern of the self-preservation Eight that can be recognised in this case is that of control over life and death that got by without public power. Unlike <a href="javascript:void(0)" data-route="kriminalpsychologie-griselda-blanco">Griselda Blanco</a> (SE8w9) and <a href="javascript:void(0)" data-route="kriminalpsychologie-salvatore-riina">Salvatore Riina</a> (SE8w9), who showed their power openly, it remained concealed in Heuermann: he lived as an architect and family man, used burner phones and kept the two areas apart for years. The Nine-wing can be linked to this calm manner and the ability to compartmentalise what is unpleasant.</p>
         <p class="vb-intro">That he hardly spoke in court fits this type's reticence. The Enneagram cannot explain why he killed, and it replaces neither expert opinions nor the answers he owes the FBI.</p>
       </div>
 

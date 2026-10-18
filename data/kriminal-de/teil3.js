@@ -4830,7 +4830,7 @@ export function rexHeuermannPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Orang-Utan</h3>
-        <p class="vb-intro">Der <strong>Orang-Utan</strong> der selbsterhaltenden Acht lebt zurückgezogen in einem eigenen Revier und begegnet anderen nur zu seinen Bedingungen. Er ist der einsamste der Menschenaffen, ein Planer mit sehr gutem Gedächtnis. In Heuermanns Fall lässt sich das mit dem Bild eines Mannes in Verbindung bringen, der über Jahrzehnte in einer festen Umgebung lebte und nach seinem Geständnis zugleich über viele Jahre ein verborgenes zweites Revier unterhielt. Bei Griselda Blanco und Salvatore Riina zeigte sich dieselbe Grundkraft als offene Macht über eine Organisation. Hier zeigt sie sich im Verborgenen.</p>
+        <p class="vb-intro">Der <strong>Orang-Utan</strong> der selbsterhaltenden Acht lebt zurückgezogen in einem eigenen Revier und begegnet anderen nur zu seinen Bedingungen. Er ist der einsamste der Menschenaffen, ein Planer mit sehr gutem Gedächtnis. In Heuermanns Fall lässt sich das mit dem Bild eines Mannes in Verbindung bringen, der über Jahrzehnte in einer festen Umgebung lebte und nach seinem Geständnis zugleich über viele Jahre ein verborgenes zweites Revier unterhielt. Bei <a href="javascript:void(0)" data-route="kriminalpsychologie-griselda-blanco">Griselda Blanco</a> und <a href="javascript:void(0)" data-route="kriminalpsychologie-salvatore-riina">Salvatore Riina</a>, die denselben Subtyp und Flügel haben (beide SE8w9), zeigte sich dieselbe Grundkraft als offene Macht über eine Organisation. Hier zeigt sie sich im Verborgenen.</p>
       </div>
 
       <div class="vb-section" style="max-width:100%;">
@@ -4864,7 +4864,7 @@ export function rexHeuermannPortraitPage() {
 
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
-        <p class="vb-intro">Das Muster der selbsterhaltenden Acht, das sich in diesem Fall erkennen lässt, ist das einer Kontrolle über Leben und Tod, die ohne öffentliche Macht auskam. Anders als bei Griselda Blanco und Salvatore Riina, die ihre Macht offen zeigten, blieb sie bei Heuermann verdeckt: Er lebte als Architekt und Familienvater, nutzte Wegwerfhandys und hielt beide Bereiche über Jahre getrennt. Der Neunerflügel lässt sich mit diesem ruhigen Auftreten und der Fähigkeit in Verbindung bringen, Unangenehmes zu kompartimentieren.</p>
+        <p class="vb-intro">Das Muster der selbsterhaltenden Acht, das sich in diesem Fall erkennen lässt, ist das einer Kontrolle über Leben und Tod, die ohne öffentliche Macht auskam. Anders als bei <a href="javascript:void(0)" data-route="kriminalpsychologie-griselda-blanco">Griselda Blanco</a> (SE8w9) und <a href="javascript:void(0)" data-route="kriminalpsychologie-salvatore-riina">Salvatore Riina</a> (SE8w9), die ihre Macht offen zeigten, blieb sie bei Heuermann verdeckt: Er lebte als Architekt und Familienvater, nutzte Wegwerfhandys und hielt beide Bereiche über Jahre getrennt. Der Neunerflügel lässt sich mit diesem ruhigen Auftreten und der Fähigkeit in Verbindung bringen, Unangenehmes zu kompartimentieren.</p>
         <p class="vb-intro">Dass er vor Gericht kaum sprach, passt zur Zurückhaltung dieses Typs. Das Enneagramm kann nicht erklären, warum er tötete, und es ersetzt weder die Gutachten noch die Antworten, die er dem FBI schuldig ist.</p>
       </div>
 
