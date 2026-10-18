@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage, gescheGottfriedPortraitPage, juanaBarrazaPortraitPage, gertPostelKriminalPortraitPage, beateZschaepePortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage, arwedImielaPortraitPage, bernardEugeneGilesPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, ameliaDyerPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage, charlesStarkweatherPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=262";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=263";
 
 import { adeleKrankheitsportraetPage, arnoldSchwarzeneggerKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, knutHamsunKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage, andyWarholKrankheitsportraetPage, paulBocuseKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage, davidHockneyKrankheitsportraetPage, guntherVonHagensKrankheitsportraetPage, metteMaritKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15911,6 +15911,7 @@ const uiText = {
       { route: "kriminalmusterkompass", label: "Kriminalmusterkompass (Muster in den Kriminalpsychologie-Porträts)" },
       { route: "musterradar", label: "Musterradar (Flügel & Instinkte im Querschnitt)" },
       { heading: "Theorie und Dynamik" },
+      { route: "typ-aendert-sich-nicht", label: "Ändert sich der Typ im Laufe des Lebens?" },
       { route: "linien-dynamik-beziehungen", label: "Linien-Dynamik in Beziehungen (Stress- & Entspannungspunkte)" },
       { route: "enneagramm-autopoese", label: "Das Enneagramm als autopoietisches System (Selbsterhaltung)" },
       { route: "enneagramm-rad", label: "Enneagramm-Rad (interaktives Symbol)" },
@@ -34233,7 +34234,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -42519,6 +42520,57 @@ function heilungswegPage() {
         {route:"bewusstseinsuebungen", label:"Bewusstseins\u00fcbungen"},
       ])}
     </div>
+  `);
+}
+
+function typBleibtPage() {
+  return shell(`
+    ${pageHeader("typ-aendert-sich-nicht")}
+    <section class="narrow">
+      <p class="eyebrow">Wissen · Grundlagen</p>
+      <h1>Ändert sich der Typ im Laufe des Lebens?</h1>
+      <p class="lead-small">Die kurze Antwort des Kompasses: <strong>Nein.</strong> Der Grundtyp und der Subtyp gelten als von Anfang an angelegt und bleiben ein Leben lang dieselben. Verändern können sich das Verhalten, die Reife, die Lage der Flügel und der Einfluss von Stress. Der Typ selbst wechselt nicht.</p>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">1. Warum der Typ von Anfang an angelegt ist</h2>
+        <p class="vb-intro"><strong>Das Temperament zeigt sich früh.</strong> Eltern berichten oft, dass ihre Kinder schon in den ersten Lebenswochen ganz unterschiedlich sind: ruhig oder unruhig, offen oder zurückhaltend, leicht oder schwer zu beruhigen. Die New Yorker Längsschnittstudie von Alexander Chess und Stella Thomas (ab 1956) hat Kinder von Geburt an über viele Jahre begleitet und neun Temperamentsmerkmale beschrieben, darunter Aktivität, Regelmäßigkeit, Anpassungsfähigkeit, Intensität und Grundstimmung. Diese Anlagen waren früh erkennbar und blieben bei vielen Kindern über Jahre sichtbar. Der Kompass ordnet sie den neun Enneagrammtypen zu (siehe das Schaubild unten).</p>
+        <p class="vb-intro"><strong>Persönlichkeit ist zu einem großen Teil vererbt.</strong> Zwillings- und Adoptionsstudien zeigen, dass sich Unterschiede in Persönlichkeitsmerkmalen in vielen Untersuchungen zu etwa 40 bis 50 Prozent auf genetische Unterschiede zurückführen lassen. Eineiige Zwillinge, selbst wenn sie getrennt aufwachsen, ähneln sich in ihren Grundmerkmalen deutlich stärker als zufällig ausgewählte Menschen.</p>
+        <p class="vb-intro"><strong>Die Rangfolge bleibt stabil.</strong> Langzeitstudien finden, dass die Position eines Menschen im Vergleich zu anderen, etwa bei Aktivität, Geselligkeit oder Ängstlichkeit, über Jahrzehnte erstaunlich stabil bleibt, auch wenn alle mit den Jahren im Durchschnitt ruhiger und verträglicher werden.</p>
+        <p class="vb-intro"><strong>Körperliche Zeichen begleiten ein Leben lang.</strong> Im Enneagramm-Profiling kommen Beobachtungen hinzu, die von der Kindheit bis ins hohe Alter erkennbar bleiben: die Blickqualität, Mimik, Gestik, Körperhaltung und die Art, wie sich Energie im Körper zeigt. Das sind Beobachtungen aus der Praxis des Kompasses, keine Laborbefunde. Sie sprechen aber dafür, dass etwas Grundlegendes von Anfang an da ist.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">2. Was die Forschung belegt und was Deutung ist</h2>
+        <p class="vb-intro">Die genannten Studien belegen, dass Temperament früh sichtbar, teilweise vererbt und über das Leben hinweg relativ stabil ist. Sie belegen <strong>nicht</strong> die neun Enneagrammtypen als solche. Die Zuordnung der Temperamente zu den neun Typen ist die Deutung des Kompasses. Sie stützt sich auf die Praxis des Profilings und auf den Vergleich mit den Temperamentsforschungen, bleibt aber ein Modell. Das sagen wir deshalb offen, damit die Grenze zwischen Befund und Deutung sichtbar bleibt.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">3. Warum es trotzdem so aussieht, als würde sich der Typ ändern</h2>
+        <p class="vb-intro"><strong>Kind und Erwachsener wirken verschieden.</strong> Kinder passen sich an ihre Familie an und entwickeln Schutzstrategien. Diese Anpassung kann den Grundtyp zeitweise überdecken. Mit zunehmender Reife fallen manche Schutzmuster ab, und der Grundtyp tritt klarer hervor, statt sich zu verändern.</p>
+        <p class="vb-intro"><strong>Die Flügel.</strong> Viele Menschen bevorzugen in bestimmten Lebensphasen den einen Nachbartyp und später den anderen. Das verschiebt die Färbung, nicht den Typ.</p>
+        <p class="vb-intro"><strong>Stress- und Entspannungspunkt.</strong> Wer jahrelang unter Druck lebt, verhält sich oft wie der Typ seines Stresspunktes. Wer sich lange sicher fühlt, zeigt Züge seines Entspannungspunktes. Von außen kann das wie ein Typwechsel wirken. Das Profiling zeigt am Ende, dass der Grundtyp derselbe geblieben ist, an der Blickqualität, an der Motivation hinter dem Verhalten und an der Art, wie jemand unter Druck reagiert.</p>
+        <p class="vb-intro"><strong>Reife.</strong> Der Weg vom ungesunden zum gesunden Ausdruck eines Typs verändert das Verhalten stark. Entwicklung bedeutet im Enneagramm, den eigenen Typ reifer und freier zu leben, nicht ihn zu verlassen.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">4. Was das für die Praxis heißt</h2>
+        <p class="vb-intro">Der Typ ist kein Käfig. Verhalten lässt sich verändern, Gewohnheiten lassen sich lösen, Schutzmuster dürfen sich lockern. Gerade deshalb lohnt es sich, den eigenen Typ zu kennen: Er zeigt, wo die Anlagen liegen und welche Entwicklung zu einem selbst passt. Wer dagegen glaubt, den Typ wechseln zu müssen, arbeitet gegen die eigene Konstitution.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 .4rem;color:var(--ink);">Die beiden Schaubilder dazu</h2>
+        <figure style="margin:1.2rem 0 0;">
+          <div class="psycho-img-wrap"><img src="./assets/schaubilder/kindliche-temperamente/temperamente.jpg" alt="Die neun kindlichen Temperamente nach Chess" class="psycho-img" loading="lazy" /></div>
+          <figcaption style="font-size:.88rem;color:var(--muted);line-height:1.5;margin-top:.5rem;"><strong>Die neun kindlichen Temperamente nach Chess und Thomas</strong><br>Zeigt, wie die angeborenen Grundanlagen den neun Typen entsprechen. <button class="ghost-link" data-route="kindliche-temperamente">Schaubild ansehen &rarr;</button></figcaption>
+        </figure>
+        <figure style="margin:1.2rem 0 0;">
+          <div class="psycho-img-wrap"><img src="./assets/drei-lebenskraefte.jpg" alt="Die drei grundlegenden Lebenskräfte des Enneagramms" class="psycho-img" loading="lazy" /></div>
+          <figcaption style="font-size:.88rem;color:var(--muted);line-height:1.5;margin-top:.5rem;"><strong>Die drei grundlegenden Lebenskräfte</strong><br>Aktiv, ausgleichend, passiv (in der Tradition auch Yang, Mitte und Yin): die energetische Grundorientierung der Typen. <button class="ghost-link" data-route="drei-lebenskraefte">Schaubild ansehen &rarr;</button></figcaption>
+        </figure>
+      </div>
+      ${relatedLinks([
+        {route:"kindliche-temperamente", label:"Schaubild: Kindliche Temperamente"},
+        {route:"drei-lebenskraefte", label:"Schaubild: Die drei grundlegenden Lebenskräfte"},
+        {route:"linien-dynamik-beziehungen", label:"Linien-Dynamik (Stress- und Entspannungspunkte)"},
+        {route:"wunden", label:"Wunden & Schutzstrategien"},
+        {route:"wissen", label:"Wissen"},
+      ])}
+    </section>
   `);
 }
 
@@ -79627,6 +79679,7 @@ const ROUTES = {
     psychogramme: psychogrammePage,
     "heilungsweg": heilungswegPage,
     "kindliche-temperamente": kindlicheTemperamentePage,
+    "typ-aendert-sich-nicht": typBleibtPage,
     "tee-enneagramm": teeEnneagrammPage,
     "aetherische-oele": aetherischeOelePage,
     "angst-essenz": angstEssenzPage,
