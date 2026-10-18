@@ -141,6 +141,7 @@ function portraitEditionRoutes() {
 }
 // Aufpreis-Link (Stripe Payment Link) – wird mit dem Zahlungsteil der Edition gesetzt.
 const PORTRAIT_UPGRADE_URL = "";
+const PORTRAIT_APP_TITLE = "Enneagram Portraits";
 
 // Zentrales Portraits-Register – neue Zeile hier → Übersicht, Table of Contents und Leseprobe aktualisieren sich automatisch.
 const BIBEL_PORTRAITS = [
@@ -4971,7 +4972,7 @@ let krisenState = { typNr: null, krisenId: null };
 let kommGuideState = { subtypeCode: null };
 
 if (!location.hash || location.hash === "#start") {
-  document.title = text.meta.appTitle;
+  document.title = hasPortraits() ? PORTRAIT_APP_TITLE : text.meta.appTitle;
 }
 
 window.addEventListener("hashchange", () => {
@@ -5215,7 +5216,7 @@ export function pageHeader(active) {
     <header class="topline">
       <button class="brand" data-route="start" aria-label="${text.routes.start.brandAria}">
         ${compassMark("mini")}
-        <span>${text.meta.appTitle}</span>
+        <span>${hasPortraits() ? PORTRAIT_APP_TITLE : text.meta.appTitle}</span>
       </button>
       ${nav(active)}
       <a href="/" class="lang-switcher" title="Zur deutschen Version" aria-label="Zur deutschen Version" onclick="_switchLangVoice(event, this.href, 'sounds/lang/switch_to_de.mp3')">🇩🇪 DE</a>
@@ -50899,25 +50900,46 @@ function navPortraits(active) {
 }
 
 function portraitStartPage() {
+  const IMG = R2_CDN + "assets/portraits/";
+  const card = (route, img, title, count, desc) => `
+    <button data-route="${route}" style="display:flex;flex-direction:column;text-align:left;padding:0;border:1px solid var(--line,var(--border));border-radius:14px;overflow:hidden;background:var(--card,var(--paper));cursor:pointer;font:inherit;color:inherit;">
+      <img src="${IMG}${img}-portrait.jpg" alt="" loading="lazy" onerror="this.style.display='none'" style="width:100%;aspect-ratio:1/1;object-fit:cover;object-position:top;display:block;" />
+      <span style="padding:.6rem .75rem .8rem;display:block;">
+        <strong style="display:block;font-size:.92rem;line-height:1.25;color:var(--ink);overflow-wrap:anywhere;">${title} <span style="color:var(--copper);font-weight:700;">(${count})</span></strong>
+        <span style="display:block;font-size:.76rem;color:var(--muted);line-height:1.4;margin-top:.3rem;">${desc}</span>
+      </span>
+    </button>`;
+  const tile = (route, title, desc) => `
+    <button data-route="${route}" style="display:block;text-align:left;padding:.75rem .85rem;border:1px solid var(--line,var(--border));border-radius:14px;background:var(--card,var(--paper));cursor:pointer;font:inherit;color:inherit;">
+      <strong style="display:block;font-size:.92rem;line-height:1.25;color:var(--ink);overflow-wrap:anywhere;">${title}</strong>
+      <span style="display:block;font-size:.76rem;color:var(--muted);line-height:1.45;margin-top:.25rem;">${desc}</span>
+    </button>`;
   return shell(`
-    ${pageHeader("Portraits")}
+    ${pageHeader(PORTRAIT_APP_TITLE)}
     <section class="narrow">
-      <p class="eyebrow">Portrait Edition</p>
+      <p class="eyebrow">Enneagram Portraits</p>
       <h1>Learn the Enneagram through living portraits</h1>
-      <p class="lead-small">Famous personalities, criminal cases and illness portraits as an Enneagram mirror – with the three pattern compasses and the memory game.</p>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.9rem;margin-top:1.4rem;">
-        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="beruehmte-persoenlichkeiten" style="width:100%;">Famous Personalities (${BERUEHMT_PORTRAITS.length})</button></article>
-        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="kriminalpsychologie" style="width:100%;">Criminal Psychology (${KRIMINAL_PORTRAITS.length})</button></article>
-        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="krankheitsportraets" style="width:100%;">Illness Portraits (${KRANKHEITS_PORTRAITS.length})</button></article>
-        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="enneagramm-astrologie" style="width:100%;">Astrology Portraits (${ASTROLOGIE_PORTRAITS.length})</button></article>
-        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="enneagramm-bibel" style="width:100%;">Bible Portraits (${BIBEL_PORTRAITS.length})</button></article>
-        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="lebensmusterkompass" style="width:100%;">Life Pattern Compass</button></article>
-        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="krankheitsmusterkompass" style="width:100%;">Illness Pattern Compass</button></article>
-        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="kriminalmusterkompass" style="width:100%;">Crime Pattern Compass</button></article>
-        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="enneagramm-memory" style="width:100%;">Enneagram Memory</button></article>
-        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="register" style="width:100%;">Register</button></article>
+      <p class="lead-small">Famous personalities, criminal cases and illness portraits as an Enneagram mirror – plus the three pattern compasses and the memory game.</p>
+      <h2 style="font-size:1.1rem;font-weight:700;margin:2rem 0 .9rem;color:var(--ink);">Portraits</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:.8rem;">
+        ${card("beruehmte-persoenlichkeiten", "beruehmte-albert-einstein", "Famous Personalities", BERUEHMT_PORTRAITS.length, "Portraits of thinkers, artists and statesmen, each typed down to the subtype.")}
+        ${card("kriminalpsychologie", "beruehmte-gert-postel", "Criminal Psychology", KRIMINAL_PORTRAITS.length, "Case analyses: how subtype patterns show up in rare derailments.")}
+        ${card("krankheitsportraets", "krankheitsportraets-niki-lauda", "Illness Portraits", KRANKHEITS_PORTRAITS.length, "How life patterns and illness histories touch – without determinism.")}
+        ${card("enneagramm-astrologie", "beruehmte-marilyn-monroe", "Astrology Portraits", ASTROLOGIE_PORTRAITS.length, "Enneagram and astrology compared.")}
+        ${card("enneagramm-bibel", "bibel-salome", "Bible Portraits", BIBEL_PORTRAITS.length, "Biblical figures read as character types.")}
       </div>
-      <p style="margin-top:1.6rem;"><button class="ghost-link" data-route="freischalt">Upgrade to full access →</button></p>
+      <h2 style="font-size:1.1rem;font-weight:700;margin:2rem 0 .9rem;color:var(--ink);">Patterns &amp; games</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:.8rem;">
+        ${tile("lebensmusterkompass", "Life Pattern Compass", "Biographical fingerprints for each subtype.")}
+        ${tile("krankheitsmusterkompass", "Illness Pattern Compass", "Illness patterns in small samples, without prediction.")}
+        ${tile("kriminalmusterkompass", "Crime Pattern Compass", "What derailments can look like, not whether.")}
+        ${tile("enneagramm-memory", "Enneagram Memory", "Learn faces and gaze qualities playfully.")}
+        ${tile("register", "Register", "All entries from A to Z.")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem 1.2rem;border:1px solid var(--line,var(--border));border-left:4px solid var(--copper);border-radius:12px;background:var(--card,var(--paper));">
+        <p style="margin:0 0 .6rem;font-size:.9rem;color:var(--muted);line-height:1.55;">This edition contains the portraits, the three pattern compasses and the memory game. Full access adds the 27 subtype profiles, remedies, tests and charts. If you switch, your 39 € is credited.</p>
+        <button class="ghost-link" data-route="freischalt">More about full access →</button>
+      </div>
     </section>
   `);
 }
