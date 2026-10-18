@@ -75900,7 +75900,7 @@ function freischaltPage() {
 
         <ul style="text-align:left;font-size:0.9rem;color:var(--muted);line-height:1.8;margin:0 0 1.4rem;padding-left:1.3rem;">
           <li><strong style="color:var(--ink);">Alle 27 Subtyp-Portraits</strong> \u2013 tiefenpsychologische Profile mit Tier, Heilungsweg & Naturheilkunde</li>
-          <li><strong style="color:var(--ink);">\u00dcber 600 Portr\u00e4ts</strong> \u2013 ber\u00fchmte Pers\u00f6nlichkeiten, Kriminalf\u00e4lle & Krankheitsbilder</li>
+          <li><strong style="color:var(--ink);">\u00dcber ${(Math.floor((BERUEHMT_PORTRAITS.length + KRANKHEITS_PORTRAITS.length + KRIMINAL_PORTRAITS.length + ASTROLOGIE_PORTRAITS.length + BIBEL_PORTRAITS.length) / 100) * 100).toLocaleString("de-DE")} Portr\u00e4ts</strong> \u2013 ber\u00fchmte Pers\u00f6nlichkeiten, Kriminalf\u00e4lle, Krankheitsbilder, Astrologie & Bibel</li>
           <li><strong style="color:var(--ink);">Hunderte Schaubilder</strong> \u2013 Enneagramm, Spiritualit\u00e4t, Philosophie, Musik & mehr</li>
           <li><strong style="color:var(--ink);">Alle 3 Typen-Tests</strong> \u2013 Diagnose-, Struktur- & Motivationstest mit pers\u00f6nlicher Auswertung</li>
           <li><strong style="color:var(--ink);">Interaktive Lernspiele</strong> \u2013 Enneagramm-Memory, Flashcards, Kompatibilit\u00e4ts-Check & Wachstumstagebuch</li>
