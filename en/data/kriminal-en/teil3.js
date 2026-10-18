@@ -2814,3 +2814,86 @@ export function arwedImielaPortraitPage() {
     </div>
   `);
 }
+
+export function lindsayClancyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Lindsay Clancy – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-lindsay-clancy-portrait.jpg" alt="Lindsay Clancy – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lindsay Clancy</p>
+        <p class="krim-portrait-typ">SO3w4 · Social Type 3 with a Four-wing</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Lindsay Clancy</strong>, born 11 August 1990, worked as a labor and delivery nurse at Massachusetts General Hospital in Boston and lived with her husband Patrick and three children in Duxbury, Massachusetts. On 24 January 2023 her children Cora (5), Dawson (3) and Callan (8 months) died. According to the investigation they were strangled by her. She is charged with three counts of first-degree murder. She does not deny having killed the children but argues that, because of postpartum psychosis, she was not criminally responsible. The trial in summer 2026 ended on 4 September 2026 without a verdict, the jury being unable to agree. The case is open.
+      </p>
+      <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Lindsay Clancy</strong> can be linked to the <strong>social Type 3 with a Four-wing</strong> in the Enneagram. The social Three finds security in a role in which she is recognised and counts as capable in the group. The Four-wing adds emotional depth and a sensitive perception of shame and inadequacy. This criminal portrait describes the background, the act, the proceedings and what can be proven. It does not claim that any subtype tends toward violence; it records the form a derailment took in this one case. The case is not concluded; there is no verdict.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: the Cheetah</h3>
+        <p class="vb-intro">The <strong>cheetah</strong> of the social Three is a sprinter that hunts by day and in front of onlookers: its strength is performance at the right moment, and after the sprint it is exhausted. In Clancy's case this can be linked to the picture of achievement that arose from work and family: a labor and delivery nurse at one of the most respected hospitals in the US, mother of three children, a home in Duxbury. Her relatives and the nanny described her in court as a loving, caring mother. The mental strain of the last months, documented in the treatment records, fits a cheetah whose strength is not built for the long run.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The background: expectation and mental distress</h3>
+        <p class="vb-intro"><strong>a) Origins and family:</strong> Clancy grew up in Wallingford, Connecticut, and studied at Quinnipiac University. In 2013 she met Patrick Clancy, and they married on 3 December 2016. The children were born on 4 December 2017 (Cora), 30 September 2019 (Dawson) and 26 May 2022 (Callan). After the first two births she reported postpartum anxiety.</p>
+        <p class="vb-intro"><strong>b) Autumn 2022:</strong> After Callan's birth her condition worsened. In September 2022 a psychiatrist diagnosed generalized anxiety disorder by telehealth and prescribed Zoloft. Over the following months several doctors treated her and prescribed a series of psychiatric drugs one after another, including Ativan, trazodone, Prozac, Remeron, Klonopin, Seroquel, Lamictal and amitriptyline. She tolerated some of them badly. In early December she reported that one drug had triggered intrusive thoughts.</p>
+        <p class="vb-intro"><strong>c) December 2022 to January 2023:</strong> On 15 and 31 December she went to the emergency room because of suicidal thoughts, and in December she first declined inpatient admission. From 1 to 5 January 2023 she was voluntarily admitted to McLean Hospital with a diagnosis of severe depression without psychotic features and was discharged early. At her last appointment on 23 January 2023 she denied suicidal and homicidal thoughts, and the clinician observed no signs of psychosis.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The act: 24 January 2023</h3>
+        <p class="vb-intro">In the early evening Patrick Clancy left the house at about 5:15 p.m. to get food and a prescription. When he returned shortly after 6 p.m. he found the children in the basement and called 911, and police were on scene at 6:11 p.m. Cora and Dawson were pronounced dead at the hospital. Callan was flown to Boston, declared brain dead and taken off life support on 27 January. The medical examiner found asphyxia as the cause of death for all three children.</p>
+        <p class="vb-intro">Clancy had inflicted cuts on her wrists and neck and had fallen or jumped from a second-story window. Since then she has been paralysed from the waist down. She said a male voice had told her it was her last chance and that she had felt an irresistible compulsion to obey. The prosecution saw a planned act and pointed to online searches, to the timing of her husband's absence and to the choice of basement and exercise bands. Views differed on how serious the suicide attempt was.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The proceedings: charge, trial, deadlock</h3>
+        <p class="vb-intro"><strong>a) Charges:</strong> An arrest warrant was issued on 25 January 2023, and on 7 February 2023 she was arraigned by video from the hospital and pleaded not guilty. On 15 September 2023 she was indicted on three counts of first-degree murder and three counts of strangulation. In July 2026 the prosecution dropped the strangulation counts because they overlapped with the murder counts.</p>
+        <p class="vb-intro"><strong>b) The trial:</strong> Jury selection began on 20 July 2026 at Plymouth Superior Court, with Judge William F. Sullivan presiding. Opening statements followed on 27 July and closing arguments on 27 August. More than 80 witnesses were heard and more than 300 exhibits were presented. The jurors could decide, among other options, on first- or second-degree murder, manslaughter, not guilty, or not guilty by reason of lack of criminal responsibility.</p>
+        <p class="vb-intro"><strong>c) The outcome:</strong> After about 38 hours of deliberation the judge declared a mistrial on 4 September 2026, after the jurors had reported that they could not agree. According to media reports the split was eleven to one in favour of finding that she was not criminally responsible. A defense motion for a finding of not guilty was denied in early October. Whether the prosecution will seek a new trial had, according to the reports available, not yet been decided; a hearing is scheduled for 2 November 2026.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Expert opinions and criminal responsibility</h3>
+        <p class="vb-intro">The defense under Kevin Reddington argued that Clancy had suffered from postpartum psychosis, had been misdiagnosed and wrongly medicated, and that her providers had not coordinated her care. The psychiatrist Phillip Resnick described her as clearly psychotic on the day, saying it was almost as if someone had been pulling her strings like a puppet. The expert Paul Zeizel said she had been unable to appreciate the wrongfulness of her act.</p>
+        <p class="vb-intro">The prosecution considered the act deliberate and rational. Prosecutor Shanan Buckingham said this was not a woman in the throes of psychosis on 24 January 2023. Its experts pointed out that she had described the voice only once, and her treating doctors had observed no psychosis. Toxicology detected seven prescription drugs whose levels, according to one expert, did not point to an overdose.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Proven and not proven</h3>
+        <p class="vb-intro"><strong>Proven:</strong> Clancy killed her three children, which she does not deny. In the months before she had been in intensive psychiatric treatment, with emergency room visits and an inpatient stay. <strong>Not proven and open:</strong> Whether she was psychotic at the time, whether she could appreciate the wrongfulness of her act and what role the medication played was not decided by the jurors. Both sides called qualified experts, and the outcome was no verdict. Civil proceedings are running in parallel in which Clancy and her husband are suing providers and hospitals.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
+        <p class="vb-intro">The pattern of the social Three that can be recognised in this case is that of a woman whose self-image hung on the role of the capable, loving mother and professional. A note from November 2022 read: ›I am a great mom. I love my kids.‹ The Four-wing can be linked to the sensitivity to inadequacy and shame, which can hurt especially in an illness after the birth of a child. That she sought help several times, in emergency rooms and in a hospital, suggests that she did not hide her distress.</p>
+        <p class="vb-intro">Whether the act was the expression of a psychosis, as the defense holds, or a deliberate act, as the prosecution maintains, the Enneagram cannot decide. If the defense is right, the subtype does not describe the cause but the personality in which the illness spread. That is a question for experts and the court.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        The Enneagram explains; it does not justify. Three children died, and a father and a family are grieving. The typing serves to understand a pattern, replaces neither an expert opinion nor a verdict and is not a diagnosis. It rests on publicly documented sources. If you are in a mental health crisis yourself, in the US you can call or text 988 (Suicide &amp; Crisis Lifeline), free and around the clock.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-oj-simpson", label:"O.J. Simpson (SO3w4) – same subtype and wing"},
+        {route:"kriminalpsychologie-diane-downs", label:"Diane Downs (SX3w4) – a mother who attacked her children, different subtype"},
+        {route:"kriminalmusterkompass/so3", label:"Criminal Pattern Compass: SO3 – Cheetah"},
+        {route:"kriminalpsychologie", label:"Criminal psychology – all portraits"},
+      ])}
+    </div>
+  `);
+}

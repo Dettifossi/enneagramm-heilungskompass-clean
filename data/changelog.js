@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2526", date: "2026-10-19", text: "Neues Kriminalporträt: Lindsay Clancy (SO3w4) – Fall um die Tötung ihrer drei Kinder, Prozess 2026 ohne Urteil.", text_en: "New criminal portrait: Lindsay Clancy (SO3w4) – the case of the killing of her three children, 2026 trial without a verdict.", route: "kriminalpsychologie-lindsay-clancy" },
     { version: "v2525", date: "2026-10-19", text: "Neues Porträt: Franz-Peter Tebartz-van Elst (SE7w8) – Theologe und Bischof von Limburg 2008–2014.", text_en: "New portrait: Franz-Peter Tebartz-van Elst (SE7w8) – theologian and Bishop of Limburg 2008–2014.", route: "beruehmte-franz-peter-tebartz-van-elst" },
     { version: "v2524", date: "2026-10-19", text: "Neues Porträt: Charlie Chaplin (SX4w3) – Schauspieler, Regisseur und Komponist.", text_en: "New portrait: Charlie Chaplin (SX4w3) – actor, director and composer.", route: "beruehmte-charlie-chaplin" },
     { version: "v2523", date: "2026-10-19", text: "Neu: Die Porträt-Edition für 39 € – der günstige Einstieg über über 1.000 Porträts, die drei Muster-Kompasse und das Memory-Spiel. Jederzeit auf den Vollzugang erweiterbar.", text_en: "New: the Portrait Edition for $44 – an easy way in through over 1,000 portraits, the three pattern compasses and the memory game. Upgrade to full access at any time.", route: "kaufen" },

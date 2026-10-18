@@ -4794,3 +4794,86 @@ export function vincenzoPeruggiaPortraitPage() {
     </div>
   `);
 }
+
+export function lindsayClancyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Lindsay Clancy – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-lindsay-clancy-portrait.jpg" alt="Lindsay Clancy – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Lindsay Clancy</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Vierer-Flügel</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Lindsay Clancy</strong>, geboren am 11. August 1990, arbeitete als Krankenschwester in der Geburtshilfe am Massachusetts General Hospital in Boston und lebte mit ihrem Mann Patrick und drei Kindern in Duxbury, Massachusetts. Am 24. Januar 2023 starben ihre Kinder Cora (5 Jahre), Dawson (3 Jahre) und Callan (8 Monate). Nach den Ermittlungen wurden sie von ihr erdrosselt. Sie ist wegen dreifachen Mordes ersten Grades angeklagt. Sie bestreitet nicht, die Kinder getötet zu haben, macht aber geltend, aufgrund einer postpartalen Psychose nicht strafrechtlich verantwortlich gewesen zu sein. Der Prozess im Sommer 2026 endete am 4. September 2026 ohne Urteil, die Geschworenen konnten sich nicht einigen. Das Verfahren ist offen.
+      </p>
+      <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Lindsay Clancy</strong> lässt sich dem <strong>sozialen Typ 3 mit Vierer-Flügel</strong> im Enneagramm zuordnen. Die soziale Drei findet ihre Sicherheit in einer Rolle, in der sie anerkannt wird und in der Gruppe als tüchtig gilt. Der Vierer-Flügel bringt Gefühlstiefe und eine empfindliche Wahrnehmung für Scham und Unzulänglichkeit mit. Dieses Kriminalporträt beschreibt die Vorgeschichte, die Tat, das Verfahren und die Belegbarkeit. Es behauptet nicht, dass ein Subtyp zu Gewalt neige, sondern hält fest, welche Form eine Entgleisung in diesem einen Fall annahm. Das Verfahren ist nicht abgeschlossen; es liegt kein Urteil vor.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Gepard</h3>
+        <p class="vb-intro">Der <strong>Gepard</strong> der sozialen Drei ist ein Sprinter, der am Tag und vor Zuschauern jagt: Seine Stärke ist die Leistung im richtigen Moment, und nach dem Sprint ist er erschöpft. In Clancys Fall lässt sich das mit dem Leistungsbild in Verbindung bringen, das aus Beruf und Familie entstand: Krankenschwester in der Geburtshilfe an einer der angesehensten Kliniken der USA, Mutter von drei Kindern, ein Haus in Duxbury. Ihre Angehörigen und die Kinderfrau beschrieben sie vor Gericht als liebevolle, fürsorgliche Mutter. Die seelische Belastung der letzten Monate, die die Behandlungsunterlagen dokumentieren, passt zu einem Gepard, dessen Kraft für den Dauerlauf nicht gebaut ist.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die Vorgeschichte: Anspruch und seelische Not</h3>
+        <p class="vb-intro"><strong>a) Herkunft und Familie:</strong> Clancy wuchs in Wallingford, Connecticut, auf und studierte an der Quinnipiac University. 2013 lernte sie Patrick Clancy kennen, sie heirateten am 3. Dezember 2016. Die Kinder wurden am 4. Dezember 2017 (Cora), am 30. September 2019 (Dawson) und am 26. Mai 2022 (Callan) geboren. Nach den ersten beiden Geburten hatte sie nach eigenen Angaben postpartale Ängste.</p>
+        <p class="vb-intro"><strong>b) Der Herbst 2022:</strong> Nach Callans Geburt verschlechterte sich ihr Zustand. Im September 2022 stellte eine Psychiaterin per Telemedizin die Diagnose einer generalisierten Angststörung und verordnete Zoloft. In den folgenden Monaten behandelten sie mehrere Ärztinnen und Ärzte, die ihr nacheinander eine Reihe von Psychopharmaka verschrieben, darunter Ativan, Trazodon, Prozac, Remeron, Klonopin, Seroquel, Lamictal und Amitriptylin. Sie vertrug einige davon schlecht. Anfang Dezember berichtete sie, ein Medikament habe aufdringliche Gedanken ausgelöst.</p>
+        <p class="vb-intro"><strong>c) Dezember 2022 bis Januar 2023:</strong> Am 15. Dezember und am 31. Dezember suchte sie wegen Suizidgedanken die Notaufnahme auf, einen stationären Aufenthalt lehnte sie im Dezember zunächst ab. Vom 1. bis 5. Januar 2023 war sie freiwillig im McLean Hospital stationär aufgenommen, mit der Diagnose einer schweren Depression ohne psychotische Merkmale, und wurde früh entlassen. Bei ihrem letzten Termin am 23. Januar 2023 verneinte sie Suizid- und Tötungsgedanken, Hinweise auf eine Psychose beobachtete die Behandlerin nicht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Die Tat: 24. Januar 2023</h3>
+        <p class="vb-intro">Am frühen Abend verließ Patrick Clancy gegen 17:15 Uhr das Haus, um Essen und ein Medikament zu besorgen. Als er kurz nach 18 Uhr zurückkehrte, fand er die Kinder im Keller und rief den Notruf, die Polizei war um 18:11 Uhr vor Ort. Cora und Dawson wurden im Krankenhaus für tot erklärt. Callan wurde nach Boston geflogen, für hirntot erklärt und am 27. Januar von den lebenserhaltenden Maßnahmen getrennt. Die Gerichtsmedizin stellte bei allen drei Kindern Erstickung als Todesursache fest.</p>
+        <p class="vb-intro">Clancy hatte sich selbst Schnittverletzungen an Handgelenken und Hals zugefügt und war aus einem Fenster im ersten Obergeschoss gestürzt oder gesprungen. Seitdem ist sie ab der Taille abwärts gelähmt. Sie gab an, eine männliche Stimme habe zu ihr gesagt, dies sei ihre letzte Chance, und sie habe einen unwiderstehlichen Zwang empfunden, zu gehorchen. Die Staatsanwaltschaft sah in der Tat eine geplante Handlung und verwies auf Suchanfragen, auf den Zeitpunkt der Abwesenheit ihres Mannes und auf die Wahl von Keller und Sportbändern. Über die Ernsthaftigkeit des Suizidversuchs gingen die Ansichten auseinander.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Das Verfahren: Anklage, Prozess, Patt</h3>
+        <p class="vb-intro"><strong>a) Anklage:</strong> Am 25. Januar 2023 erging ein Haftbefehl, am 7. Februar 2023 wurde sie per Videoschaltung aus dem Krankenhaus dem Gericht vorgeführt und erklärte sich für nicht schuldig. Am 15. September 2023 folgte die Anklage wegen dreifachen Mordes ersten Grades und dreifacher Strangulierung. Im Juli 2026 ließ die Staatsanwaltschaft die Strangulierungsvorwürfe fallen, da sie sich mit den Mordvorwürfen überschnitten.</p>
+        <p class="vb-intro"><strong>b) Der Prozess:</strong> Am 20. Juli 2026 begann die Auswahl der Geschworenen am Superior Court in Plymouth, Richter war William F. Sullivan. Die Eröffnungsplädoyers folgten am 27. Juli, die Schlussvorträge am 27. August. Es wurden mehr als 80 Zeugen gehört und mehr als 300 Beweisstücke vorgelegt. Die Geschworenen konnten unter anderem auf Mord ersten oder zweiten Grades, Totschlag, nicht schuldig oder nicht schuldig wegen fehlender strafrechtlicher Verantwortlichkeit entscheiden.</p>
+        <p class="vb-intro"><strong>c) Das Ergebnis:</strong> Nach etwa 38 Stunden Beratung erklärte der Richter am 4. September 2026 den Prozess für gescheitert (Mistrial), nachdem die Geschworenen mitgeteilt hatten, sich nicht einigen zu können. Nach Medienberichten lag das Verhältnis bei elf zu eins zugunsten der Annahme, dass sie strafrechtlich nicht verantwortlich war. Ein Antrag der Verteidigung auf Freispruch wurde Anfang Oktober abgelehnt. Ob die Staatsanwaltschaft einen neuen Prozess anstrebt, war nach den vorliegenden Berichten noch nicht entschieden; ein Anhörungstermin ist für den 2. November 2026 angesetzt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Gutachten und Schuldfähigkeit</h3>
+        <p class="vb-intro">Die Verteidigung unter Kevin Reddington argumentierte, Clancy habe an einer postpartalen Psychose gelitten, sei falsch diagnostiziert und fehlmediziert worden, und die Behandler hätten ihre Betreuung nicht abgestimmt. Der Psychiater Phillip Resnick bezeichnete sie für den Tattag als eindeutig psychotisch, es sei fast gewesen, als habe sie jemand wie eine Marionette gesteuert. Der Gutachter Paul Zeizel sagte, sie habe das Unrecht ihrer Tat nicht erfassen können.</p>
+        <p class="vb-intro">Die Staatsanwaltschaft hielt die Tat für überlegt und rational. Die Anklägerin Shanan Buckingham sagte, dies sei keine Frau gewesen, die am 24. Januar 2023 in einer Psychose gesteckt habe. Ihre Gutachter wiesen darauf hin, dass die Stimme nur ein einziges Mal von ihr geschildert worden sei, und die behandelnden Ärzte hatten keine Psychose beobachtet. Die Toxikologie wies sieben verschreibungspflichtige Medikamente nach, deren Konzentration laut einem Gutachter nicht auf eine Überdosis hindeutete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Belegt und nicht belegt</h3>
+        <p class="vb-intro"><strong>Belegt:</strong> Clancy tötete ihre drei Kinder, das bestreitet sie nicht. Sie war in den Monaten davor in intensiver psychiatrischer Behandlung, mit Notaufnahmen und einem stationären Aufenthalt. <strong>Nicht belegt und offen:</strong> Ob sie zur Tatzeit psychotisch war, ob sie das Unrecht ihrer Handlung erfassen konnte und welche Rolle die Medikamente spielten, entschieden die Geschworenen nicht. Beide Seiten haben dazu qualifizierte Gutachter aufgeboten, und das Ergebnis blieb ohne Urteil. Parallel laufen Zivilverfahren, in denen Clancy und ihr Mann Behandler und Kliniken verklagen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro">Das Muster der sozialen Drei, das sich in diesem Fall erkennen lässt, ist das einer Frau, deren Selbstbild an der Rolle der tüchtigen, liebevollen Mutter und Fachfrau hing. Eine Notiz vom November 2022 lautete: ›I am a great mom. I love my kids.‹ (›Ich bin eine großartige Mutter. Ich liebe meine Kinder.‹). Der Vierer-Flügel lässt sich mit der Empfindlichkeit für Unzulänglichkeit und Scham in Verbindung bringen, die in einer Erkrankung nach der Geburt eines Kindes besonders schmerzen kann. Dass sie mehrfach Hilfe suchte, in Notaufnahmen und in einer Klinik, spricht dafür, dass sie ihre Not nicht verbarg.</p>
+        <p class="vb-intro">Ob die Tat Ausdruck einer Psychose war, wie die Verteidigung vertritt, oder eine überlegte Handlung, wie die Anklage meint, kann das Enneagramm nicht entscheiden. Wenn die Verteidigung recht hat, beschreibt der Subtyp nicht die Ursache, sondern die Persönlichkeit, in der sich die Erkrankung ausbreitete. Das ist eine Frage für Gutachter und Gericht.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Drei im Vergleich: Wie sich Leistung und Image bei SE3, SO3 und SX3 unterschiedlich ausdrücken.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Leistung, Image und der Weg zur Echtheit.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        Das Enneagramm erklärt, es rechtfertigt nicht. Drei Kinder sind gestorben, und ein Vater und eine Familie trauern. Die Typisierung dient dem Verständnis eines Musters, ersetzt weder ein Gutachten noch ein Urteil und stellt keine Diagnose dar. Sie beruht auf öffentlich dokumentierten Quellen. Wer selbst in einer seelischen Krise steckt, findet Hilfe bei der Telefonseelsorge unter 0800 111 0 111 (kostenlos, rund um die Uhr).
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-oj-simpson", label:"O.J. Simpson (SO3w4) – derselbe Subtyp und Flügel"},
+        {route:"kriminalpsychologie-diane-downs", label:"Diane Downs (SX3w4) – eine Mutter, die ihre Kinder angriff, anderer Subtyp"},
+        {route:"kriminalmusterkompass/so3", label:"Kriminalmusterkompass: SO3 – Gepard"},
+        {route:"kriminalpsychologie", label:"Kriminalpsychologie – alle Porträts"},
+      ])}
+    </div>
+  `);
+}
