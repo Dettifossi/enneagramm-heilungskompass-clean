@@ -2892,3 +2892,86 @@ export function jamesDustyRhodesPortraitPage() {
     </div>
   `);
 }
+
+export function rexHeuermannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Rex Heuermann – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-rex-heuermann-portrait.jpg" alt="Rex Heuermann – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rex Heuermann</p>
+        <p class="krim-portrait-typ">SE8w9 · Self-Preservation Type 8 with a Nine-wing</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Rex Heuermann</strong>, born 13 September 1963 in Massapequa Park, New York, worked as an architect in Manhattan and lived with his family on Long Island. He was arrested on 13 July 2023 and on 8 April 2026 pleaded guilty in Suffolk County Court to the murders of seven women. He also admitted an eighth killing for which he was not charged. The victims disappeared between 1993 and 2010, and their bodies were found at Gilgo Beach and other sites, which is why the case is known as the ›Gilgo Beach murders‹. On 17 June 2026 he was sentenced to life in prison without the possibility of parole.
+      </p>
+      <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Rex Heuermann</strong> can be linked to the <strong>self-preservation Type 8 with a Nine-wing</strong> in the Enneagram. The self-preservation Eight secures its territory and wants to keep control over its domain, usually without fuss. The Nine-wing adds calm to the manner and the ability to separate off what is unpleasant. This criminal portrait describes the acts, the proceedings and what can be proven. It does not claim that any subtype tends toward violence; it records the form a derailment took in this one case.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Animal correspondence: the Orangutan</h3>
+        <p class="vb-intro">The <strong>orangutan</strong> of the self-preservation Eight lives withdrawn in a territory of its own and meets others only on its own terms. It is the most solitary of the great apes, a planner with a very good memory. In Heuermann's case this can be linked to the picture of a man who lived for decades in a fixed environment and, by his own admission, at the same time kept a hidden second territory for many years. In Griselda Blanco and Salvatore Riina the same basic force appeared as open power over an organisation. Here it appears in concealment.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The man: an architect from Massapequa Park</h3>
+        <p class="vb-intro">Heuermann grew up in Massapequa Park on Long Island, graduated from Berner High School in 1981 and studied architecture at the New York Institute of Technology. By 1987 at the latest he worked for an architectural firm in Manhattan and later as an architectural consultant. In 1990 he married for the first time, and the marriage ended in divorce in 1994. In April 1996 he married Asa Ellerup, and the couple has two children; she filed for divorce in 2023. According to the investigators, his wife and children were out of state during the periods in which the crimes are believed to have occurred.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The acts: 1993 to 2010</h3>
+        <p class="vb-intro"><strong>a) The victims:</strong> Sandra Costilla (28), Valerie Mack (24), Jessica Taylor (20), Maureen Brainard-Barnes (25), Melissa Barthelemy (24), Megan Waterman (22) and Amber Lynn Costello (27) were killed by him, according to his plea, as was Karen Vergata (34), whose case was not charged. They disappeared between November 1993 and September 2010. According to the prosecution, most of them were sex workers.</p>
+        <p class="vb-intro"><strong>b) The method:</strong> Heuermann admitted in court that he met all eight women, strangled them and left their bodies at the sites at Gilgo Beach, Manorville and Southampton. He contacted the women with prepaid burner phones, which he then discarded. For Melissa Barthelemy, Megan Waterman and Amber Costello he stated that he had wrapped them in burlap.</p>
+        <p class="vb-intro"><strong>c) The discoveries:</strong> In December 2010 police found the remains of four women along Ocean Parkway on Long Island, who became known as the ›Gilgo Four‹, and later others. The link of Sandra Costilla, who had disappeared as early as 1993, to the case was only made in 2024.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. The uncovering: late and through traces</h3>
+        <p class="vb-intro">The case remained unsolved for more than a decade. In March 2022 Heuermann came under suspicion, according to investigators, because a dark green Chevrolet Avalanche registered in his name matched a witness's description. Investigators matched cell-tower data from burner phones to locations in Manhattan and Massapequa Park. They found DNA on a discarded pizza crust that they attributed to him. He was arrested in Manhattan on 13 July 2023 and was initially charged with the murders of three women, and in the following months further counts were added: Maureen Brainard-Barnes in January 2024, Jessica Taylor and Sandra Costilla in June 2024, Valerie Mack in December 2024. He initially pleaded not guilty.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. The proceedings: from a fight over evidence to a plea</h3>
+        <p class="vb-intro"><strong>a) Pretrial:</strong> In September 2025 Judge Timothy Mazzei ruled that the charges would be tried together and that prosecutors could use DNA evidence from newer analytical methods, reportedly a first in a New York court. In January 2026 the defense filed a 175-page motion seeking to exclude evidence. The trial had been set for autumn 2026.</p>
+        <p class="vb-intro"><strong>b) The plea:</strong> On 8 April 2026, in a hearing of about half an hour, he changed his plea and pleaded guilty. The prosecutor was Suffolk County District Attorney Raymond Tierney. He will not be separately charged in the Karen Vergata case, and in return he must speak with the FBI's behavioral analysis unit.</p>
+        <p class="vb-intro"><strong>c) The sentence:</strong> On 17 June 2026 Judge Mazzei sentenced him to three consecutive life terms and four further terms of 25 years to life each, so with no prospect of release. In court he said: ›There are no words I can say.‹ and, asked whether he was sorry, quietly: ›Yes I am.‹ Relatives of the victims spoke in the courtroom.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Proven and not proven</h3>
+        <p class="vb-intro"><strong>Proven:</strong> Heuermann confessed to seven murders and admitted an eighth killing, and he is convicted. The acts extended over 17 years. <strong>Not proven and open:</strong> His motive has not been clarified, and the FBI interview is meant to provide more. The death of Shannan Gilbert, for whom a search was conducted at Ocean Parkway in 2010, remained disputed, and Heuermann was not charged for it. Whether there are further victims is not known.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
+        <p class="vb-intro">The pattern of the self-preservation Eight that can be recognised in this case is that of control over life and death that got by without public power. Unlike Griselda Blanco and Salvatore Riina, who showed their power openly, it remained concealed in Heuermann: he lived as an architect and family man, used burner phones and kept the two areas apart for years. The Nine-wing can be linked to this calm manner and the ability to compartmentalise what is unpleasant.</p>
+        <p class="vb-intro">That he hardly spoke in court fits this type's reticence. The Enneagram cannot explain why he killed, and it replaces neither expert opinions nor the answers he owes the FBI.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        The Enneagram explains; it does not justify. Eight women were killed, and their families waited years for answers. The typing serves to understand a pattern and is no excuse. It rests on publicly documented sources and is not a diagnosis.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-griselda-blanco", label:"Griselda Blanco (SE8w9) – same subtype and wing, power in public"},
+        {route:"kriminalpsychologie-salvatore-riina", label:"Salvatore Riina (SE8w9) – same subtype and wing"},
+        {route:"kriminalpsychologie-dennis-rader", label:"Dennis Rader (SE1w9) – a double life behind a bourgeois facade"},
+        {route:"kriminalpsychologie-gary-ridgway", label:"Gary Ridgway (SX1w2) – a serial offender with a similar choice of victims"},
+        {route:"kriminalmusterkompass/se8", label:"Criminal Pattern Compass: SE8 – Orangutan"},
+        {route:"kriminalpsychologie", label:"Criminal psychology – all portraits"},
+      ])}
+    </div>
+  `);
+}

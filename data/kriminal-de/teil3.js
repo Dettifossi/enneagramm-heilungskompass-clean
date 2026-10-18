@@ -4807,3 +4807,86 @@ export function arwedImielaPortraitPage() {
     </div>
   `);
 }
+
+export function rexHeuermannPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Rex Heuermann – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-rex-heuermann-portrait.jpg" alt="Rex Heuermann – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rex Heuermann</p>
+        <p class="krim-portrait-typ">SE8w9 · Selbsterhaltender Typ 8 mit Neunerflügel</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Rex Heuermann</strong>, geboren am 13. September 1963 in Massapequa Park, New York, arbeitete als Architekt in Manhattan und lebte mit seiner Familie auf Long Island. Er wurde am 13. Juli 2023 festgenommen und bekannte sich am 8. April 2026 vor dem Suffolk County Court des Mordes an sieben Frauen schuldig. Eine achte Tötung räumte er ein, für die er nicht angeklagt wurde. Die Opfer verschwanden zwischen 1993 und 2010, ihre Leichen wurden unter anderem am Gilgo Beach gefunden, weshalb der Fall als ›Gilgo-Beach-Morde‹ bekannt ist. Am 17. Juni 2026 wurde er zu lebenslanger Haft ohne Aussicht auf Bewährung verurteilt.
+      </p>
+      <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Rex Heuermann</strong> lässt sich dem <strong>selbsterhaltenden Typ 8 mit Neunerflügel</strong> im Enneagramm zuordnen. Die selbsterhaltende Acht sichert ihr Revier und will über ihren Bereich die Kontrolle behalten, meist ohne Aufhebens. Der Neunerflügel verleiht dem Auftreten Ruhe und die Fähigkeit, Unangenehmes abzutrennen. Dieses Kriminalporträt beschreibt die Taten, das Verfahren und die Belegbarkeit. Es behauptet nicht, dass ein Subtyp zu Gewalt neige, sondern hält fest, welche Form eine Entgleisung in diesem einen Fall annahm.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Orang-Utan</h3>
+        <p class="vb-intro">Der <strong>Orang-Utan</strong> der selbsterhaltenden Acht lebt zurückgezogen in einem eigenen Revier und begegnet anderen nur zu seinen Bedingungen. Er ist der einsamste der Menschenaffen, ein Planer mit sehr gutem Gedächtnis. In Heuermanns Fall lässt sich das mit dem Bild eines Mannes in Verbindung bringen, der über Jahrzehnte in einer festen Umgebung lebte und nach seinem Geständnis zugleich über viele Jahre ein verborgenes zweites Revier unterhielt. Bei Griselda Blanco und Salvatore Riina zeigte sich dieselbe Grundkraft als offene Macht über eine Organisation. Hier zeigt sie sich im Verborgenen.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Der Mann: ein Architekt aus Massapequa Park</h3>
+        <p class="vb-intro">Heuermann wuchs in Massapequa Park auf Long Island auf, machte 1981 seinen Abschluss an der Berner High School und studierte Architektur am New York Institute of Technology. Spätestens 1987 arbeitete er für ein Architekturbüro in Manhattan und später als Architekturberater. 1990 heiratete er zum ersten Mal, die Ehe wurde 1994 geschieden. Im April 1996 heiratete er Asa Ellerup, das Paar hat zwei Kinder, sie reichte 2023 die Scheidung ein. Nach Angaben der Ermittler waren seine Frau und die Kinder während der Zeiträume, in denen die Taten vermutet werden, nicht im Bundesstaat.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Die Taten: 1993 bis 2010</h3>
+        <p class="vb-intro"><strong>a) Die Opfer:</strong> Sandra Costilla (28), Valerie Mack (24), Jessica Taylor (20), Maureen Brainard-Barnes (25), Melissa Barthelemy (24), Megan Waterman (22) und Amber Lynn Costello (27) wurden nach seinem Geständnis von ihm getötet, dazu Karen Vergata (34), deren Fall nicht angeklagt wurde. Sie verschwanden zwischen November 1993 und September 2010. Nach Angaben der Staatsanwaltschaft waren die meisten von ihnen Sexarbeiterinnen.</p>
+        <p class="vb-intro"><strong>b) Das Vorgehen:</strong> Heuermann räumte vor Gericht ein, alle acht Frauen getroffen, erdrosselt und ihre Leichen an den Fundorten Gilgo Beach, Manorville und Southampton abgelegt zu haben. Er nahm Kontakt zu den Frauen mit Prepaid-Wegwerfhandys auf, die er danach entsorgte. Bei Melissa Barthelemy, Megan Waterman und Amber Costello gab er an, sie in Sackleinen gewickelt zu haben.</p>
+        <p class="vb-intro"><strong>c) Die Funde:</strong> Im Dezember 2010 entdeckte die Polizei am Ocean Parkway auf Long Island die Überreste von vier Frauen, die als ›Gilgo Four‹ bekannt wurden, später weitere. Die Verbindung von Sandra Costilla, die schon 1993 verschwunden war, zu dem Fall wurde erst 2024 hergestellt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Die Aufdeckung: spät und über Spuren</h3>
+        <p class="vb-intro">Der Fall blieb mehr als ein Jahrzehnt ungeklärt. Im März 2022 geriet Heuermann nach Angaben der Ermittler in Verdacht, weil ein dunkelgrüner Chevrolet Avalanche auf seinen Namen zur Beschreibung eines Zeugen passte. Die Ermittler ordneten Funkzellendaten von Wegwerfhandys Standorten in Manhattan und Massapequa Park zu. Sie fanden DNA auf einem weggeworfenen Pizzarand, die sie ihm zuordneten. Er wurde am 13. Juli 2023 in Manhattan festgenommen und zunächst wegen der Morde an drei Frauen angeklagt, in den folgenden Monaten kamen weitere Anklagepunkte hinzu: Maureen Brainard-Barnes im Januar 2024, Jessica Taylor und Sandra Costilla im Juni 2024, Valerie Mack im Dezember 2024. Er erklärte sich zunächst für nicht schuldig.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Das Verfahren: vom Beweisstreit zum Geständnis</h3>
+        <p class="vb-intro"><strong>a) Vorverfahren:</strong> Im September 2025 entschied Richter Timothy Mazzei, dass die Anklagen in einem gemeinsamen Verfahren verhandelt werden und dass die Staatsanwaltschaft DNA-Beweise aus neueren Analyseverfahren nutzen darf, nach Berichten ein Novum vor einem Gericht in New York. Im Januar 2026 reichte die Verteidigung einen 175-seitigen Antrag ein, der Beweismittel ausschließen sollte. Der Prozess war für den Herbst 2026 angesetzt.</p>
+        <p class="vb-intro"><strong>b) Das Geständnis:</strong> Am 8. April 2026 änderte er in einer etwa halbstündigen Anhörung seine Erklärung und bekannte sich schuldig. Staatsanwalt war Suffolk County District Attorney Raymond Tierney. Wegen des Falls Karen Vergata wird er nicht zusätzlich angeklagt, im Gegenzug muss er mit der Verhaltensanalyse-Einheit des FBI sprechen.</p>
+        <p class="vb-intro"><strong>c) Das Urteil:</strong> Am 17. Juni 2026 verurteilte Richter Mazzei ihn zu drei aufeinanderfolgenden lebenslangen Haftstrafen und vier weiteren Strafen von jeweils 25 Jahren bis lebenslang, damit ohne Aussicht auf Entlassung. Er sagte vor Gericht: ›There are no words I can say.‹ (›Es gibt keine Worte, die ich sagen kann.‹) und auf die Frage, ob es ihm leidtue, leise: ›Yes I am.‹ (›Ja.‹) Angehörige der Opfer sprachen im Saal.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Belegt und nicht belegt</h3>
+        <p class="vb-intro"><strong>Belegt:</strong> Heuermann hat sieben Morde gestanden und eine achte Tötung eingeräumt, er ist verurteilt. Die Taten erstreckten sich über 17 Jahre. <strong>Nicht belegt und offen:</strong> Sein Motiv ist nicht aufgeklärt, die Befragung durch das FBI soll mehr darüber liefern. Der Tod von Shannan Gilbert, nach der 2010 am Ocean Parkway gesucht worden war, blieb umstritten, und Heuermann wurde dafür nicht angeklagt. Ob es weitere Opfer gibt, ist nicht bekannt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro">Das Muster der selbsterhaltenden Acht, das sich in diesem Fall erkennen lässt, ist das einer Kontrolle über Leben und Tod, die ohne öffentliche Macht auskam. Anders als bei Griselda Blanco und Salvatore Riina, die ihre Macht offen zeigten, blieb sie bei Heuermann verdeckt: Er lebte als Architekt und Familienvater, nutzte Wegwerfhandys und hielt beide Bereiche über Jahre getrennt. Der Neunerflügel lässt sich mit diesem ruhigen Auftreten und der Fähigkeit in Verbindung bringen, Unangenehmes zu kompartimentieren.</p>
+        <p class="vb-intro">Dass er vor Gericht kaum sprach, passt zur Zurückhaltung dieses Typs. Das Enneagramm kann nicht erklären, warum er tötete, und es ersetzt weder die Gutachten noch die Antworten, die er dem FBI schuldig ist.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die selbsterhaltende Acht im Vergleich: Wie sich Macht und Kontrolle bei SE8, SO8 und SX8 unterschiedlich ausdrücken.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE8, SO8, SX8 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 8 ausführlich porträtiert – Macht, Kontrolle und der Weg zur Verletzlichkeit.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        Das Enneagramm erklärt, es rechtfertigt nicht. Acht Frauen wurden getötet, ihre Familien warteten Jahre auf Aufklärung. Die Typisierung dient dem Verständnis eines Musters und ist keine Entschuldigung. Sie beruht auf öffentlich dokumentierten Quellen und stellt keine Diagnose dar.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-griselda-blanco", label:"Griselda Blanco (SE8w9) – derselbe Subtyp und Flügel, Macht in der Öffentlichkeit"},
+        {route:"kriminalpsychologie-salvatore-riina", label:"Salvatore Riina (SE8w9) – derselbe Subtyp und Flügel"},
+        {route:"kriminalpsychologie-dennis-rader", label:"Dennis Rader (SE1w9) – ein Doppelleben mit bürgerlicher Fassade"},
+        {route:"kriminalpsychologie-gary-ridgway", label:"Gary Ridgway (SX1w2) – ein Serientäter mit ähnlicher Opferwahl"},
+        {route:"kriminalmusterkompass/se8", label:"Kriminalmusterkompass: SE8 – Orang-Utan"},
+        {route:"kriminalpsychologie", label:"Kriminalpsychologie – alle Porträts"},
+      ])}
+    </div>
+  `);
+}
