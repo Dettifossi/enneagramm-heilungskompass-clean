@@ -29918,7 +29918,7 @@ let fbSignOut = null;
     fbSignIn = signInWithEmailAndPassword;
     fbSignOut = signOut;
     onAuthStateChanged(fbAuth, (user) => {
-      if (user && !hasBasis()) {
+      if (user && !hasBasis() && !hasPortraits()) {
         setTier("heilwissen");
         setLizenzName(user.displayName || user.email);
         if (typeof state !== "undefined" && state.route && state.route.startsWith("freischalt")) {
@@ -29980,6 +29980,28 @@ function getLizenzName()  { return localStorage.getItem(NAME_KEY) || ""; }
 function setLizenzName(n) { localStorage.setItem(NAME_KEY, n); }
 function hasBasis()      { const t = getTier(); return t === "basis" || t === "heilwissen"; }
 function hasHeilwissen() { return getTier() === "heilwissen"; }
+function hasPortraits() { return getTier() === "portraits"; }
+// Porträt-Edition (Stufe "portraits"): erlaubte Routen werden lazy aus den Porträt-Listen gebaut
+// (kein Zugriff auf die Arrays beim Laden des Moduls). Betrifft ausschließlich die Stufe "portraits".
+let _portraitEditionRoutes = null;
+function portraitEditionRoutes() {
+  if (_portraitEditionRoutes) return _portraitEditionRoutes;
+  _portraitEditionRoutes = new Set([
+    "start", "favoriten", "register",
+    "beruehmte-persoenlichkeiten", "kriminalpsychologie", "krankheitsportraets",
+    "enneagramm-astrologie", "enneagramm-bibel",
+    "lebensmusterkompass", "krankheitsmusterkompass", "kriminalmusterkompass",
+    "enneagramm-memory", "enneagramm-memory-1", "enneagramm-memory-2", "enneagramm-memory-3",
+    ...BERUEHMT_PORTRAITS.map(p => p.route),
+    ...KRANKHEITS_PORTRAITS.map(p => p.route),
+    ...KRIMINAL_PORTRAITS.map(p => p.route),
+    ...ASTROLOGIE_PORTRAITS.map(p => p.route),
+    ...BIBEL_PORTRAITS.map(p => p.route),
+  ]);
+  return _portraitEditionRoutes;
+}
+// Aufpreis-Link (Stripe Payment Link) – wird mit dem Zahlungsteil der Edition gesetzt.
+const PORTRAIT_UPGRADE_URL = "";
 
 // Bibel-Portraits \u2013 literarisch-typologische Deutungen biblischer/neutestamentlicher Figuren, aus "27 Gesichter der Seele" von Detlef Rathmer.
 const BIBEL_PORTRAITS = [
@@ -34475,6 +34497,7 @@ function compassMark(size = "large") {
 }
 
 function nav(active) {
+  if (hasPortraits()) return navPortraits(active);
   const items = text.nav.map(({ route, label, dropdown }) => {
     if (dropdown) {
       const isActive = dropdown.some(d => d.route === active) || active === route;
@@ -75750,7 +75773,81 @@ function renderAlbumGrid(grid, code, fotos) {
     </div>`).join("");
 }
 
+
+// ── Porträt-Edition: eigene Navigation, Startseite und Upgrade-Seite (nur Stufe "portraits") ──
+function navPortraits(active) {
+  const items = [
+    { route: "start", label: "Start" },
+    { route: "beruehmte-persoenlichkeiten", label: "Berühmte" },
+    { route: "kriminalpsychologie", label: "Kriminal" },
+    { route: "krankheitsportraets", label: "Krankheiten" },
+    { route: "enneagramm-astrologie", label: "Astrologie" },
+    { route: "enneagramm-bibel", label: "Bibel" },
+    { route: "lebensmusterkompass", label: "Lebensmuster" },
+    { route: "krankheitsmusterkompass", label: "Krankheitsmuster" },
+    { route: "kriminalmusterkompass", label: "Kriminalmuster" },
+    { route: "enneagramm-memory", label: "Memory" },
+    { route: "freischalt", label: "Vollzugang ✦" }
+  ].map(({ route, label }) => `<button class="${active === route ? "is-active" : ""}" data-route="${route}">${label}</button>`).join("");
+  return `<nav class="tabbar" aria-label="Hauptnavigation">${items}</nav>`;
+}
+
+function portraitStartPage() {
+  return shell(`
+    ${pageHeader("Porträts")}
+    <section class="narrow">
+      <p class="eyebrow">Porträt-Edition</p>
+      <h1>Das Enneagramm lernen über lebendige Porträts</h1>
+      <p class="lead-small">Berühmte Persönlichkeiten, Kriminalfälle und Krankheitsporträts als Enneagramm-Spiegel – mit den drei Muster-Kompassen und dem Memory-Spiel.</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.9rem;margin-top:1.4rem;">
+        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="beruehmte-persoenlichkeiten" style="width:100%;">Berühmte Persönlichkeiten (${BERUEHMT_PORTRAITS.length})</button></article>
+        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="kriminalpsychologie" style="width:100%;">Kriminalpsychologie (${KRIMINAL_PORTRAITS.length})</button></article>
+        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="krankheitsportraets" style="width:100%;">Krankheitsporträts (${KRANKHEITS_PORTRAITS.length})</button></article>
+        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="enneagramm-astrologie" style="width:100%;">Astrologie-Porträts (${ASTROLOGIE_PORTRAITS.length})</button></article>
+        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="enneagramm-bibel" style="width:100%;">Bibel-Porträts (${BIBEL_PORTRAITS.length})</button></article>
+        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="lebensmusterkompass" style="width:100%;">Lebensmusterkompass</button></article>
+        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="krankheitsmusterkompass" style="width:100%;">Krankheitsmusterkompass</button></article>
+        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="kriminalmusterkompass" style="width:100%;">Kriminalmusterkompass</button></article>
+        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="enneagramm-memory" style="width:100%;">Enneagramm-Memory</button></article>
+        <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1rem 1.1rem;"><button class="secondary" data-route="register" style="width:100%;">Register</button></article>
+      </div>
+      <p style="margin-top:1.6rem;"><button class="ghost-link" data-route="freischalt">Auf den Vollzugang erweitern →</button></p>
+    </section>
+  `);
+}
+
+function portraitUpgradePage() {
+  const buy = PORTRAIT_UPGRADE_URL
+    ? `<a class="freischalt-card__buy-btn freischalt-card__buy-btn--gold" href="${PORTRAIT_UPGRADE_URL}" target="_blank" rel="noopener">Jetzt erweitern →</a>`
+    : `<span class="freischalt-angebot__label">Der Upgrade-Link folgt in Kürze.</span>`;
+  return shell(`
+    <section class="freischalt-page">
+      <div class="freischalt-card">
+        <div class="freischalt-card__lock">\u2726</div>
+        <h1 class="freischalt-card__title">Auf den Vollzugang erweitern</h1>
+        <p class="freischalt-card__desc">Sie nutzen die Porträt-Edition. Der Vollzugang ergänzt alle 27 Subtyp-Profile, die Heilmittel, Tests, Schaubilder und Tools.</p>
+        <ul style="text-align:left;font-size:0.9rem;color:var(--muted);line-height:1.8;margin:0 0 1.4rem;padding-left:1.3rem;">
+          <li>Alle 27 Subtyp-Profile mit Tier, Wunde, Leidenschaft und Heilungsweg</li>
+          <li>Subtypgenaue Heilmittel: Homöopathie, Bachblüten, Öle, Edelsteine, Schüßler-Salze</li>
+          <li>Alle Typen-Tests mit persönlicher Auswertung</li>
+          <li>Hunderte Schaubilder und die Praxistipps</li>
+        </ul>
+        <div class="freischalt-card__angebote" style="justify-content:center;">
+          <div class="freischalt-angebot freischalt-angebot--gesamt">
+            <strong>Aufpreis auf den Vollzugang</strong>
+            <span class="freischalt-angebot__preis">€ 40</span>
+            <span class="freischalt-angebot__label">einmalig · Ihre 39 € werden angerechnet</span>
+            ${buy}
+          </div>
+        </div>
+        <p style="margin-top:1.2rem;"><button class="ghost-link" data-route="start">Zurück zu den Porträts</button></p>
+      </div>
+    </section>
+  `);
+}
+
 function freischaltPage() {
+  if (hasPortraits()) return portraitUpgradePage();
   return shell(`
     <section class="freischalt-page">
       <div class="freischalt-card">
@@ -80681,7 +80778,7 @@ function render() {
       return;
     }
     // Zugangsschutz
-    if (!hasHeilwissen() && base !== "start" && base !== "admin" && base !== "admin-wegweiser" && base !== "leseprobe" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register" && base !== "wegweiser-premium") {
+    if (!hasHeilwissen() && !(hasPortraits() && portraitEditionRoutes().has(base)) && base !== "start" && base !== "admin" && base !== "admin-wegweiser" && base !== "leseprobe" && base !== "inhaltsverzeichnis" && base !== "profile" && base !== "impressum" && base !== "datenschutz" && base !== "gesichts-scan" && base !== "updates" && base !== "kaufen" && base !== "register" && base !== "wegweiser-premium") {
       app.innerHTML = freischaltPage();
       bindEvents();
       requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
@@ -80707,6 +80804,8 @@ function render() {
       app.innerHTML = psychosomatikDetailPage(param);
     } else if (base === "psychosomatik-subtyp" && param) {
       app.innerHTML = psychosomatikSubtypPage(param);
+    } else if (hasPortraits() && base === "start") {
+      app.innerHTML = portraitStartPage();
     } else {
       app.innerHTML = (routes[base] || routes.start)();
     const isBadgePage = (base.startsWith("kriminalpsychologie-") && base !== "kriminalpsychologie")
