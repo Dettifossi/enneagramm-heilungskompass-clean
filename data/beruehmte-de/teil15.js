@@ -2496,3 +2496,85 @@ export function hillaryClintonPortraitPage() {
     </div>
   `);
 }
+
+export function charlieChaplinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-charlie-chaplin-portrait.jpg" alt="Charlie Chaplin – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-charlie-chaplin-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Charlie Chaplin</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Regisseur und Komponist, 1889&ndash;1977 &ndash; ›The Gold Rush‹, ›City Lights‹, ›The Great Dictator‹ &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua: ein Kind der Londoner Armut, das sich größer spielt, als es ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> misst sich an Hunden, die ein Vielfaches wiegen, und gibt nicht nach. Seine Kleinheit nimmt er nicht als Makel, sondern als Ausgangslage für einen Auftritt, den niemand übersehen soll. Charles Spencer Chaplin wurde am 16. April 1889 in Walworth im Süden Londons geboren, in einer Familie aus dem Varieté. Der Vater, ein Sänger, trank und starb 1901 mit 37 Jahren. Die Mutter Hannah, ebenfalls Bühnenkünstlerin, verlor ihre Stimme, ihr Einkommen und schließlich den Halt und kam wiederholt in psychiatrische Anstalten. Charlie und sein Halbbruder Sydney kamen als Kinder zeitweise ins Arbeitshaus und in Heime für Waisen und verarmte Kinder.</p>
+          <p class="vb-intro">Mit etwa 1,65 Metern blieb er zeitlebens ein kleiner Mann, und er machte daraus seinen Beruf: Seine berühmteste Figur ist ein Außenseiter in zu engem Jackett und zu weiten Hosen, der sich gegen Größere, Stärkere und Mächtigere behauptet. Er behandelt sie mit Würde und weicht ihnen aus, aber er fügt sich nie. Wer die Armut von innen kannte, brauchte keine Vorlage, um sie zu spielen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: der Wunsch, einzigartig zu sein, und der Drang, alle zu übertreffen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> ist nach Claudio Naranjo der Subtyp des Konkurrenzneids. Der Schmerz der Vier über das Gefühl, etwas Wesentliches nicht bekommen zu haben, wird hier nicht still getragen, sondern in den Vergleich mit anderen getrieben: Wer hat, was mir fehlt, und wie überbiete ich es? Bei Chaplin lässt sich das mit einem Lebensweg in Verbindung bringen, der vom Waisenhaus zum bestbezahlten Filmschauspieler der Welt führte, und mit einem Anspruch auf Alleinherrschaft über das eigene Werk.</p>
+          <p class="vb-intro">Als die großen Studios begannen, über seine Filme zu bestimmen, ging er einen ungewöhnlichen Weg: 1919 gründete er gemeinsam mit Mary Pickford, Douglas Fairbanks und D. W. Griffith die Verleihfirma United Artists, damit Künstler ihre Filme selbst besitzen und kontrollieren konnten. Er schrieb, inszenierte, produzierte, spielte, schnitt und komponierte seine Filme am Ende selbst, und er ließ sich dafür Zeit, solange ein Detail nicht stimmte. Bei ›City Lights‹ (›Lichter der Großstadt‹, 1931) soll er die Begegnung zwischen dem Tramp und dem blinden Blumenmädchen nach den bekannten Berichten weit über dreihundertmal gedreht haben, bis er zufrieden war.</p>
+          <p class="vb-intro">Der sexuelle Instinkt zeigt sich bei der Vier in der Intensität der Bindung. Chaplin war viermal verheiratet, und seine Beziehungen waren heftig, kurz und oft von Streit und Machtkämpfen begleitet. Seine ersten Ehen schloss er mit Mildred Harris und Lita Grey, beide waren zur Hochzeit gerade 16 Jahre alt. Die vierte Ehe mit Oona O'Neill, die er 1943 mit 54 Jahren einging, als sie 18 war, hielt bis zu seinem Tod und brachte acht Kinder hervor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: eine Kunstfigur, die um die Welt ging</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> lenkt die Intensität der Vier auf Wirkung, Erfolg und ein Bild, das sich einprägt. Bei Chaplin ist dieses Bild die berühmteste Kostümierung der Filmgeschichte: der Tramp (der Landstreicher) mit Bambusstöckchen, Schnurrbärtchen, Melone und der watschelnden Gangart. Er entstand 1914 fast zufällig aus einer Garderobe zusammengesuchter Kleidungsstücke, und Chaplin spielte die Figur über mehr als zwei Jahrzehnte. Wer sie sah, kannte sie sofort, in jedem Land, ohne ein Wort zu verstehen.</p>
+          <p class="vb-intro">Diese Wirkung wurde für ihn zu einem Maßstab. Sein Vertrag bei First National 1917 gilt als einer der ersten Millionenverträge der Filmgeschichte, und als der Tonfilm kam, hielt er an der Stummfilmform fest, solange es ging, weil seine Figur ohne Sprache international verstanden wurde. Das passt zum Dreierflügel einer SX4: Der Anspruch, gesehen zu werden, wird mit Disziplin, Technik und Präzision in etwas verwandelt, das niemand ignorieren kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Komik, die weh tut, und Pathos, das lacht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Chaplins Leistung bestand nicht nur darin, komisch zu sein. Er kam vom Varieté, aus der Schule des Fred-Karno-Ensembles, das ihm das körperliche Handwerk der Pantomime beibrachte: Timing, Balance, die genaue Verlängerung einer Bewegung, bis sie komisch wird. Auf dieses Fundament baute er etwas, das die Slapstick-Komödie bis dahin kaum kannte: Der Gag kippt in Rührung, die Rührung in einen Gag. In ›The Kid‹ (1921) liebt der Tramp ein Waisenkind. In ›The Gold Rush‹ (›Goldrausch‹, 1925) isst er seinen eigenen Schuh, und die Szene ist komisch und erschütternd zugleich. In ›Modern Times‹ (›Moderne Zeiten‹, 1936) wird der Mensch zum Rädchen der Maschine und gerät dabei in ein Bild, das bis heute zitiert wird.</p>
+          <p class="vb-intro">Dazu kam das, was weniger beachtet wird: Er komponierte die Musik zu seinen Filmen selbst, darunter die Melodie, die später als ›Smile‹ bekannt wurde, und er arbeitete so genau an Schnitt und Dramaturgie, dass seine Stummfilme bis heute funktionieren. Die Begabung war real, und was er daraus machte, entstand durch ungewöhnliche Beharrlichkeit: Er arbeitete an einzelnen Szenen so lange, bis sie stimmten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Diktator und der Tramp: zwei SX4w3 in einem Frühjahr geboren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Chaplin kam am 16. April 1889 zur Welt, vier Tage vor <a href="javascript:void(0)" data-route="kriminalpsychologie-adolf-hitler">Adolf Hitler</a> (SX4w3). Beide trugen denselben Schnurrbart, und beide wurden zu Figuren, die ein Massenpublikum bannten. Hitler wird in diesem Kompass ebenfalls als SX4w3 eingeordnet: dieselbe Mischung aus Konkurrenzneid, Selbstinszenierung und dem Drang, eine Rolle zu spielen, die größer ist als der Mensch dahinter. Der Unterschied liegt in der Richtung. Chaplin richtete die Energie auf das Erschaffen, auf Kunst, die Menschen zum Lachen und zum Mitgefühl brachte. Hitler richtete sie auf Vernichtung.</p>
+          <p class="vb-intro">Die Nationalsozialisten hassten Chaplin, hielten ihn für einen Juden und führten ihn in ihrer Hetzliteratur, obwohl er nicht jüdischer Herkunft war. 1940 drehte er mit ›The Great Dictator‹ (›Der große Diktator‹) seinen ersten vollständigen Tonfilm und spielte darin den Diktator Hynkel und einen jüdischen Friseur, den die Ähnlichkeit zum Verwechseln bringt. In der Schlussrede wendet sich der Friseur direkt an das Publikum und fordert Menschlichkeit gegen Hass. Später schrieb Chaplin, er hätte den Film nicht gedreht, wenn er das Ausmaß der Lager gekannt hätte.</p>
+          <p class="vb-intro">Es wird erzählt, dass Hitler Chaplin-Filme gesehen habe, auch ›The Great Dictator‹, vielleicht sogar mehrfach. Eine belastbare Quelle dafür ist nicht bekannt: Die Geschichte stützt sich auf spätere Berichte, und wie Hitler auf den Film reagierte, ist nirgends überliefert. Sie bleibt deshalb eine Anekdote und kein Beleg. Der Vergleich der beiden SX4w3 trägt auch ohne sie: Beide zeigen, wie stark dieselbe Grundkraft in sehr verschiedene Richtungen gehen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Brüche: Verfolgung im Land, das ihn groß gemacht hatte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Chaplin war nie amerikanischer Staatsbürger geworden. In der Nachkriegszeit geriet er unter Verdacht, kommunistische Sympathien zu haben, weil er sich öffentlich gegen Faschismus aussprach, sich für die Unterstützung des sowjetischen Verbündeten im Krieg aussprach und politischen Filmen wie ›Monsieur Verdoux‹ (›Herr Verdoux‹, 1947) eine bittere Gesellschaftskritik mitgab. Das FBI unter J. Edgar Hoover beobachtete ihn jahrelang. 1952 widerrief die US-Regierung seine Wiedereinreisegenehmigung, als er auf dem Schiff nach London zur Premiere von ›Limelight‹ (›Rampenlicht‹) unterwegs war. Er ließ sich daraufhin in der Schweiz nieder, in Vevey am Genfer See.</p>
+          <p class="vb-intro">Zu den Brüchen gehören auch die privaten Prozesse der 1940er-Jahre: 1944 wurde er in einem Verfahren nach dem Mann Act, der den Transport von Frauen über Staatsgrenzen zu unmoralischen Zwecken unter Strafe stellte, freigesprochen. In einer Vaterschaftsklage der Schauspielerin Joan Barry schlossen Bluttests seine Vaterschaft aus, er wurde dennoch zu Unterhaltszahlungen verurteilt. Die öffentliche Stimmung kippte damals gegen ihn.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten der sexuellen Vier mit Dreierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX4w3 liegt bei Chaplin in der Verbindung aus Verletzlichkeit und Ausdruckskraft: Er machte die eigene Erfahrung von Armut, Verlassenheit und Scham zur Quelle einer Kunst, die Menschen in aller Welt verstanden. Dass ein Komiker den Mut hatte, 1940 eine Diktatorenparodie zu drehen, als die USA noch neutral waren und ein Teil der Öffentlichkeit Kritik an Hitler für unklug hielt, gehört ebenfalls dazu.</p>
+          <p class="vb-intro">Der Schatten zeigt sich in der Kontrollbesessenheit und in den Beziehungen. Wer alles selbst entscheiden will, hat Mühe, Macht zu teilen, und in Beziehungen führte dieselbe Intensität zu Streit und Machtkämpfen. Die Ehe- und Prozessgeschichten, die ihm schadeten, lassen sich mit einem Subtyp in Verbindung bringen, der wenig Maß kennt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Ein Leben im Rampenlicht, bis zur Nachwelt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1972 kehrte Chaplin noch einmal nach Hollywood zurück, erhielt einen Ehrenoscar für sein Lebenswerk und wurde mit minutenlangem Applaus gefeiert. 1975 schlug ihn die Queen zum Ritter. Er starb am 25. Dezember 1977 mit 88 Jahren in Vevey. Im März 1978 wurde sein Sarg aus dem Grab gestohlen und erst Wochen später in der Nähe wiedergefunden. Seine Filme laufen bis heute.</p>
+          <p class="vb-intro">Chaplin machte aus der eigenen Kleinheit eine Figur, die größer war als die Welt, die sie bedrängte. Ob die Bewunderung, die er suchte, seinen Schmerz je ganz erreichte, lässt sich nicht beantworten, aber die Filme, die daraus entstanden, wirken weiter.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx4", label:"Lebensmusterkompass: SX4 – Chihuahua"},
+        {route:"kriminalpsychologie-adolf-hitler", label:"Kriminalpsychologie: Adolf Hitler (SX4w3) – derselbe Subtyp, die zerstörerische Richtung"},
+        {route:"beruehmte-prince-rogers-nelson", label:"Porträt: Prince Rogers Nelson (SX4w3) – derselbe Subtyp und Flügel, Bühne und Kontrolle"},
+        {route:"beruehmte-voltaire", label:"Porträt: Voltaire (SX4w3) – derselbe Subtyp, Satire gegen die Mächtigen"},
+        {route:"krankheitsportraets-freddie-mercury", label:"Krankheitsporträt: Freddie Mercury (SX4w3)"},
+      ])}
+    </div>
+  `);
+}

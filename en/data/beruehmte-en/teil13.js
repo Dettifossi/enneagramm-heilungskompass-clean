@@ -2435,3 +2435,85 @@ export function romanPolanskiPortraitPage() {
     </div>
   `);
 }
+
+export function charlieChaplinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-charlie-chaplin-portrait.jpg" alt="Charlie Chaplin – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Charlie Chaplin</p>
+        <p class="krim-portrait-typ">SX4w3 · Sexual Type 4 with a Three-wing</p>
+        <p class="krim-portrait-subtitle">Actor, director and composer, 1889–1977 – ›The Gold Rush‹, ›City Lights‹, ›The Great Dictator‹ – animal equivalent: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua: a child of London poverty who plays bigger than he is</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> squares up to dogs many times its weight and does not back down. It takes its smallness not as a flaw but as the starting point for an entrance nobody can overlook. Charles Spencer Chaplin was born on 16 April 1889 in Walworth, south London, into a music-hall family. His father, a singer, drank and died in 1901 at the age of 37. His mother Hannah, also a performer, lost her voice, her income and finally her footing, and was repeatedly committed to psychiatric institutions. As children, Charlie and his half-brother Sydney spent time in the workhouse and in homes for orphaned and destitute children.</p>
+          <p class="vb-intro">At about 1.65 metres he remained a small man all his life, and he turned it into his profession: his most famous character is an outsider in a too-tight jacket and too-wide trousers who holds his own against bigger, stronger and more powerful people. He treats them with dignity and dodges them, but he never submits. Whoever knew poverty from the inside did not need a script to play it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Four: the wish to be unique and the drive to outdo everyone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Claudio Naranjo, the <strong>sexual Four (SX4)</strong> is the subtype of competition and envy. The Four's pain over having missed something essential is not carried quietly here but driven into comparison with others: who has what I lack, and how do I top it? In Chaplin this can be linked to a path that led from the workhouse to the best-paid film actor in the world, and to a claim to sole authority over his own work.</p>
+          <p class="vb-intro">When the big studios began to dictate his films, he took an unusual route: in 1919 he co-founded the distribution company United Artists with Mary Pickford, Douglas Fairbanks and D. W. Griffith, so that artists could own and control their films. In the end he wrote, directed, produced, starred in, edited and scored his films himself, and he took as long as a detail needed. For ›City Lights‹ (1931), according to the familiar accounts, he shot the encounter between the Tramp and the blind flower girl well over three hundred times before he was satisfied.</p>
+          <p class="vb-intro">In the Four, the sexual instinct shows in the intensity of attachment. Chaplin married four times, and his relationships were intense, short and often accompanied by quarrels and power struggles. His first marriages, to Mildred Harris and Lita Grey, were to women who were both just 16 at the wedding. The fourth, to Oona O'Neill, whom he married in 1943 at the age of 54 when she was 18, lasted until his death and produced eight children.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: a constructed figure that went around the world</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> directs the Four's intensity toward impact, success and an image that sticks. In Chaplin that image is the most famous costume in film history: the Tramp with his bamboo cane, small moustache, bowler hat and waddling gait. It arose in 1914, almost by chance, from a wardrobe of mismatched clothes, and Chaplin played the character for more than two decades. Anyone who saw him knew him at once, in any country, without understanding a word.</p>
+          <p class="vb-intro">This impact became a yardstick for him. His 1917 contract with First National is considered one of the first million-dollar contracts in film history, and when sound arrived he held on to the silent form as long as he could, because his character was understood internationally without speech. That fits the Three-wing of an SX4: the claim to be seen is turned, through discipline, technique and precision, into something nobody can ignore.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: comedy that hurts and pathos that laughs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Chaplin's achievement was not just being funny. He came from the music hall, from the school of the Fred Karno troupe, which taught him the physical craft of pantomime: timing, balance, the exact extension of a movement until it turns comic. On this foundation he built something slapstick comedy had hardly known until then: the gag tips into tenderness, the tenderness into a gag. In ›The Kid‹ (1921) the Tramp loves an abandoned child. In ›The Gold Rush‹ (1925) he eats his own shoe, and the scene is funny and shattering at once. In ›Modern Times‹ (1936) the human being becomes a cog in the machine and ends up in an image that is still quoted today.</p>
+          <p class="vb-intro">There was also something that gets less attention: he composed the music for his films himself, including the melody later known as ›Smile‹, and he worked so precisely on editing and dramaturgy that his silent films still work today. The talent was real, and what he made of it came from unusual persistence: he worked on individual scenes until they were right.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The dictator and the Tramp: two SX4w3 born in the same spring</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Chaplin was born on 16 April 1889, four days before <a href="javascript:void(0)" data-route="kriminalpsychologie-adolf-hitler">Adolf Hitler</a> (SX4w3). Both wore the same moustache, and both became figures who held a mass audience spellbound. Hitler is also classified as SX4w3 in this Compass: the same mix of competition and envy, self-staging and the drive to play a role larger than the person behind it. The difference lies in the direction. Chaplin pointed that energy at creating, at art that moved people to laughter and compassion. Hitler pointed it at destruction.</p>
+          <p class="vb-intro">The Nazis hated Chaplin, took him for a Jew and listed him in their hate literature, although he was not of Jewish descent. In 1940 he made ›The Great Dictator‹, his first full sound film, playing the dictator Hynkel and a Jewish barber who is mistaken for him because of the resemblance. In the closing speech the barber addresses the audience directly and calls for humanity against hatred. Chaplin later wrote that he would not have made the film had he known the extent of the camps.</p>
+          <p class="vb-intro">It is said that Hitler watched Chaplin films, including ›The Great Dictator‹, perhaps even more than once. No reliable source for this is known: the story rests on later accounts, and how Hitler reacted to the film is not recorded anywhere. It therefore remains an anecdote, not evidence. The comparison of the two SX4w3 holds without it: both show how strongly the same basic force can run in very different directions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The breaks: persecution in the country that had made him great</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Chaplin never became an American citizen. In the postwar years he fell under suspicion of communist sympathies because he spoke out publicly against fascism, argued for supporting the Soviet ally during the war, and gave films such as ›Monsieur Verdoux‹ (›Mister Verdoux‹, 1947) a bitter social critique. The FBI under J. Edgar Hoover watched him for years. In 1952 the US government revoked his re-entry permit while he was at sea on his way to the London premiere of ›Limelight‹. He then settled in Switzerland, in Vevey on Lake Geneva.</p>
+          <p class="vb-intro">The breaks also include the private trials of the 1940s: in 1944 he was acquitted in a proceeding under the Mann Act, which criminalised transporting women across state lines for immoral purposes. In a paternity suit brought by the actress Joan Barry, blood tests ruled out his paternity, yet he was still ordered to pay support. Public opinion turned against him at the time.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Light and shadow of the sexual Four with a Three-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX4w3 lies in Chaplin in the combination of vulnerability and expressive power: he turned his own experience of poverty, abandonment and shame into the source of an art that people all over the world understood. It also belongs here that a comedian had the courage in 1940 to make a dictator parody, when the US was still neutral and part of the public thought criticising Hitler unwise.</p>
+          <p class="vb-intro">The shadow shows in the need for control and in relationships. Whoever wants to decide everything has trouble sharing power, and in relationships the same intensity led to quarrels and power struggles. The marriage and court stories that damaged him can be linked to a subtype that knows little moderation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. A life in the spotlight, down to posterity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1972 Chaplin returned to Hollywood once more, received an honorary Oscar for his life's work and was celebrated with minutes of applause. In 1975 the Queen knighted him. He died on 25 December 1977 in Vevey, aged 88. In March 1978 his coffin was stolen from the grave and found again only weeks later nearby. His films are still shown today.</p>
+          <p class="vb-intro">Chaplin turned his own smallness into a figure larger than the world that pressed on it. Whether the admiration he sought ever fully reached his pain cannot be answered, but the films that came out of it keep working.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: subtype profile"},
+        {route:"lebensmusterkompass/sx4", label:"Life Pattern Compass: SX4 – Chihuahua"},
+        {route:"kriminalpsychologie-adolf-hitler", label:"Criminal psychology: Adolf Hitler (SX4w3) – same subtype, the destructive direction"},
+        {route:"beruehmte-prince-rogers-nelson", label:"Portrait: Prince Rogers Nelson (SX4w3) – same subtype and wing, stage and control"},
+        {route:"beruehmte-voltaire", label:"Portrait: Voltaire (SX4w3) – same subtype, satire against the powerful"},
+        {route:"krankheitsportraets-freddie-mercury", label:"Illness portrait: Freddie Mercury (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
