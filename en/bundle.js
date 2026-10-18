@@ -50906,14 +50906,14 @@ function renderAlbumGrid(grid, code, fotos) {
 function navPortraits(active) {
   const items = [
     { route: "start", label: "Start" },
-    { route: "beruehmte-persoenlichkeiten", label: "Famous" },
-    { route: "kriminalpsychologie", label: "Criminal" },
-    { route: "krankheitsportraets", label: "Illness" },
+    { route: "beruehmte-persoenlichkeiten", label: "Famous Personalities" },
+    { route: "kriminalpsychologie", label: "Criminal Psychology" },
+    { route: "krankheitsportraets", label: "Illness Portraits" },
     { route: "enneagramm-astrologie", label: "Astrology" },
     { route: "enneagramm-bibel", label: "Bible" },
-    { route: "lebensmusterkompass", label: "Life Patterns" },
-    { route: "krankheitsmusterkompass", label: "Illness Patterns" },
-    { route: "kriminalmusterkompass", label: "Crime Patterns" },
+    { route: "lebensmusterkompass", label: "Life Pattern Compass" },
+    { route: "krankheitsmusterkompass", label: "Illness Pattern Compass" },
+    { route: "kriminalmusterkompass", label: "Crime Pattern Compass" },
     { route: "enneagramm-memory", label: "Memory" },
     { route: "freischalt", label: "Full access ✦" }
   ].map(({ route, label }) => `<button class="${active === route ? "is-active" : ""}" data-route="${route}">${label}</button>`).join("");
