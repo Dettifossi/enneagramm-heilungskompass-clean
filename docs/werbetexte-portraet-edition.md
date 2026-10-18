@@ -6,6 +6,18 @@ Stand der Zahlen (18.10.2026): 1.033 Porträts (717 Berühmte, 175 Krankheitspor
 
 ---
 
+## 0. Entschieden (18.10.2026)
+
+- **Versprechen:** „Lebenslanger Zugang, neue Porträts inklusive“ gilt für die Porträt-Edition.
+- **Widerruf und Rückgabe:** Genau wie beim Vollzugang. Bei digitalen Inhalten gibt es nach Beginn der Bereitstellung kein Widerrufsrecht. Der genaue Wortlaut wird aus deinen bestehenden AGB oder dem Stripe-Checkout übernommen (dort steht er, im App-Code nicht).
+- **Wegweiser:** Steht als **zusätzliches Modul** (Abo, optional) in der Vergleichstabelle.
+- **Englische Preise (USD):** Der Vollzugang kostet 89 USD. Verhältnismäßig ergibt sich:
+  - **Porträt-Edition: 44 USD** (79 € ↔ 89 USD, 39 € entsprechen rechnerisch 43,90 USD)
+  - **Aufpreis: 45 USD** (44 + 45 = 89, man zahlt auch hier nie mehr als 89 USD)
+  - Alternative zum Abwägen: 49 USD und 40 USD Aufpreis. Das ist „runder“, aber der Einstieg läge dann prozentual höher als in Deutschland (55 % statt 49 %).
+
+---
+
 ## 1. Die Kernbotschaft (für alle Texte)
 
 **Zwei Wege in den Kompass. Beide führen zum selben Ziel: das Enneagramm besser verstehen.**
@@ -30,6 +42,7 @@ Stand der Zahlen (18.10.2026): 1.033 Porträts (717 Berühmte, 175 Krankheitspor
 | Subtypgenaue Heilmittel: Homöopathie, Bachblüten, Öle, Edelsteine, Schüßler-Salze | – | ✓ |
 | Typentests mit persönlicher Auswertung | – | ✓ |
 | Hunderte Schaubilder, Praxistipps und Lernspiele | – | ✓ |
+| Wegweiser (KI-Assistent) als zusätzliches Modul im Abo | ✓ optional | ✓ optional |
 | Später aufstocken | Aufpreis 40 €, die 39 € werden angerechnet | – |
 
 *Hinweis zur Prüfung:* Welche Bereiche in der Porträt-Edition enthalten sind, steht im Code der App (Routenliste `portraitEditionRoutes`). Die Tabelle entspricht diesem Stand.
@@ -62,15 +75,15 @@ Der ganze Kompass. Alles aus der Porträt-Edition, dazu alle 27 Subtyp-Profile, 
 
 **Intro:** Not everyone needs everything. That is why the Compass comes in two versions: an easy entry through the portraits, or full access with everything that belongs to it.
 
-**Card 1: Portrait Edition · 39 €**
+**Card 1: Portrait Edition · 44 USD**
 Learn the Enneagram through living portraits. Over 1,000 famous personalities, criminal cases, illness, astrology and Bible portraits, each read as an Enneagram mirror down to the subtype. Plus the three pattern compasses and the memory game. Lifetime access, new portraits included.
 
-**Card 2: Full access · 79 €**
+**Card 2: Full access · 89 USD**
 The whole Compass. Everything in the Portrait Edition, plus all 27 subtype profiles, the subtype-specific remedies, the type tests, hundreds of charts and the practice tips.
 
-**Closing line:** You can start with the Portrait Edition and switch to full access later. Your 39 € is credited.
+**Closing line:** You can start with the Portrait Edition and switch to full access later. Your 44 USD is credited.
 
-**Buttons:** “Start the Portrait Edition for 39 €” · “Buy full access for 79 €”
+**Buttons:** “Start the Portrait Edition for 44 USD” · “Buy full access for 89 USD”
 
 ---
 
@@ -82,7 +95,7 @@ Unter dem bestehenden Angebot „Vollzugang € 79“ ein kurzer, ehrlicher Hinw
 > **Lieber erst einmal mit den Porträts starten?** Die Porträt-Edition für 39 € enthält über 1.000 Porträts, die drei Muster-Kompasse und das Memory-Spiel. Sie können jederzeit auf den Vollzugang wechseln, die 39 € werden angerechnet.
 
 **English:**
-> **Rather start with the portraits first?** The Portrait Edition for 39 € includes over 1,000 portraits, the three pattern compasses and the memory game. You can switch to full access at any time; your 39 € is credited.
+> **Rather start with the portraits first?** The Portrait Edition for 44 USD includes over 1,000 portraits, the three pattern compasses and the memory game. You can switch to full access at any time; your 44 USD is credited.
 
 ---
 
@@ -91,7 +104,7 @@ Unter dem bestehenden Angebot „Vollzugang € 79“ ein kurzer, ehrlicher Hinw
 ### Kurzer Hinweis unter dem Kaufbutton (Startseite)
 
 **DE:** Zwei Wege: Porträt-Edition für 39 € oder Vollzugang für 79 €. [Vergleich ansehen]
-**EN:** Two ways in: Portrait Edition for 39 € or full access for 79 €. [See the comparison]
+**EN:** Two ways in: Portrait Edition for 44 USD or full access for 89 USD. [See the comparison]
 
 ### Statischer Text für Suchmaschinen (index.html, vor dem Laden der App)
 
@@ -99,12 +112,12 @@ Unter dem bestehenden Angebot „Vollzugang € 79“ ein kurzer, ehrlicher Hinw
 > Zwei Varianten: Die Porträt-Edition (39 €) mit über 1.000 Porträts, den drei Muster-Kompassen und dem Memory-Spiel, und der Vollzugang (79 €) mit allen 27 Subtyp-Profilen, Heilmitteln, Typentests und Schaubildern. Wechsel jederzeit möglich, die 39 € werden angerechnet.
 
 **EN:**
-> Two versions: the Portrait Edition (39 €) with over 1,000 portraits, the three pattern compasses and the memory game, and full access (79 €) with all 27 subtype profiles, remedies, type tests and charts. Switching is possible at any time; the 39 € is credited.
+> Two versions: the Portrait Edition (44 USD) with over 1,000 portraits, the three pattern compasses and the memory game, and full access (89 USD) with all 27 subtype profiles, remedies, type tests and charts. Switching is possible at any time; the 44 USD is credited.
 
 ### Meta-Beschreibung für die Porträt-Edition (ca. 155 Zeichen)
 
 **DE:** Enneagramm-Porträts: über 1.000 berühmte Persönlichkeiten, Kriminalfälle und Krankheitsporträts als Enneagramm-Spiegel. Einmalig 39 €, lebenslanger Zugang.
-**EN:** Enneagram Portraits: over 1,000 famous personalities, criminal cases and illness portraits as an Enneagram mirror. One-time 39 €, lifetime access.
+**EN:** Enneagram Portraits: over 1,000 famous personalities, criminal cases and illness portraits as an Enneagram mirror. One-time 44 USD, lifetime access.
 
 ---
 
@@ -135,7 +148,7 @@ Die 27 Subtyp-Profile, die Heilmittel, die Typentests sowie die Schaubilder und 
 Ja, jederzeit. Der Aufpreis beträgt 40 €, damit zahlen Sie insgesamt nie mehr als 79 €. Beim Wechsel erhalten Sie ein neues Passwort per E-Mail.
 
 **Kommen neue Porträts dazu?**
-Ja, beide Varianten wachsen laufend. *(Bitte prüfen, ob dieses Versprechen für die Porträt-Edition so gelten soll.)*
+Ja. Sie erhalten lebenslangen Zugang, neue Porträts sind inklusive.
 
 **Wie bekomme ich meinen Zugang?**
 Nach dem Kauf kommen die Zugangsdaten per E-Mail. Mit E-Mail-Adresse und Passwort melden Sie sich in der App an.
@@ -146,14 +159,13 @@ Ja, die App läuft im Browser und lässt sich auf den Startbildschirm legen.
 **Gibt es eine kostenlose Probe?**
 Ja, die App-Leseprobe ist frei zugänglich.
 
-**Was ist mit Widerruf und Rückgabe?** *(Rechtlich zu prüfen: bei digitalen Inhalten gelten besondere Regeln. Bitte wie beim bestehenden Vollzugang formulieren.)*
+**Was ist mit Widerruf und Rückgabe?**
+Wie beim Vollzugang: Bei digitalen Inhalten besteht nach Beginn der Bereitstellung kein Widerrufsrecht. *(Wortlaut bitte aus den bestehenden AGB bzw. dem Stripe-Checkout übernehmen und prüfen.)*
 
 ---
 
-## 8. Offene Punkte zur Entscheidung
+## 8. Noch offen
 
-1. **Versprechen „neue Porträts inklusive“** für die Porträt-Edition: gewollt, oder nur „lebenslanger Zugang“?
-2. **Widerruf und Rückgabe:** dieselbe Formulierung wie beim Vollzugang übernehmen?
-3. **Wo soll die 39-€-Variante zuerst sichtbar sein?** Vorschlag: Vorstellungsseite und Kaufseite zuerst, die Startseite danach.
-4. **Englische Preisangabe:** Euro oder USD? (Die englischen Produkte in Stripe sind noch nicht angelegt.)
-5. **Wegweiser (KI-Assistent):** wird separat angeboten (Abo) und gilt für beide Varianten. Soll das in der Vergleichstabelle stehen?
+1. **Wo die 39-€-Variante zuerst sichtbar wird.** Gemeint war: Auf welchen Seiten steht der Hinweis auf beide Varianten als Erstes? Mein Vorschlag, damit es einfach bleibt: **Alles am Tag des Live-Gangs gleichzeitig** (Vorstellungsseite, Kaufseite, Startseite, Landingpages, Verlags-Homepage). Dann widerspricht sich nirgends etwas, und die Käufer sehen überall dasselbe.
+2. **Wortlaut zu Widerruf und Rückgabe** aus den AGB in die FAQ und auf die Verkaufsseite übernehmen.
+3. **Englische Produkte in Stripe** mit 44 USD (Porträt-Edition) und 45 USD (Aufpreis) anlegen und testen.
