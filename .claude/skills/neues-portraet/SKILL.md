@@ -44,3 +44,14 @@ Register-Lücken und DE/EN-Parität: die zwei Kontrollbefehle aus `CLAUDE.md`. D
 
 ## 6. Abschluss
 Committen und pushen (Autonomie-Regel); der Post-Commit-Hook baut die Wissensbasis. Die Porträt-Edition erkennt neue Einträge in den Porträt-Arrays automatisch, dort ist nichts zu tun.
+
+## Gotchas (real aufgetretene Fehler)
+- `en/sw.js` `BUNDLE_VERSION` und `en/index.html` `bundle.js?v=inhalt-vNNNN` müssen dieselbe Nummer tragen, sonst greift der Auto-Reload der EN-Seite nicht. Beide nach dem Hochzählen gegenlesen.
+- `register.js?v=` steht in **beiden** Bundles und zählt getrennt (DE und EN haben verschiedene Stände). Nach jeder Änderung an `data/register.js` in beiden hochzählen.
+- macOS-`sed` braucht ein leeres Argument: `sed -i '' 's/alt/neu/' datei`. Ohne das schlägt der Befehl fehl oder ändert nichts.
+- Der Browser cacht ES-Module hartnäckig: vor dem Test `fetch(url,{cache:'reload'})` für `bundle.js`, die Teil-Datei und `register.js`, dann neu laden. Sonst sieht man die alte Seite oder die Startseite statt der Route.
+- Ohne gesetztes Tier (`localStorage` `enneagramm-kompass:tier` = `heilwissen`) zeigt die App die Verkaufsseite statt des Porträts.
+- Datenzeilen im Register und in den Arrays einzeln mit eindeutigem Anker ersetzen (`assert count==1`), nie mit breiten Mustern: sonst werden bei DE und EN Doppeltreffer überschrieben.
+- Englische Zitate in DE-Texten und nicht-englische Titel immer mit Übersetzung in Klammern; keine geraden `"` in JS-Strings, stattdessen `›…‹`.
+- Bei Lebenden und laufenden Verfahren den Stand mit Datum nennen und den Quellen-Abruf (Wikipedia, Nachrichten) vor dem Schreiben machen; Gerichtsausgang nicht aus dem Gedächtnis (Fälle ändern sich, z. B. Clancy und Heuermann 2026).
+- Eine Aussage, die nur als Anekdote überliefert ist (z. B. Hitler und Chaplin), als solche kennzeichnen, nicht als Beleg.
