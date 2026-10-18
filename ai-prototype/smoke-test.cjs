@@ -89,6 +89,8 @@ const ROUTES = [
   { hash: "en/#krankheitsportraets-prince", label: "Neues EN-Krankheitsporträt: Prince" },
   { hash: "#krankheitsportraets-william-james-sidis", label: "Neues Krankheitsporträt: William James Sidis" },
   { hash: "en/#krankheitsportraets-william-james-sidis", label: "Neues EN-Krankheitsporträt: William James Sidis" },
+  { hash: "#typ-aendert-sich-nicht", label: "Neuer Wissensartikel: Typ ändert sich nicht" },
+  { hash: "en/#typ-aendert-sich-nicht", label: "Neuer EN-Wissensartikel: Typ ändert sich nicht" },
   { hash: "#beruehmte-wayne-dyer", label: "Neues Porträt: Wayne Dyer" },
   { hash: "en/#beruehmte-wayne-dyer", label: "Neues EN-Porträt: Wayne Dyer" },
   { hash: "#beruehmte-dany-boon", label: "Neues Porträt: Dany Boon" },

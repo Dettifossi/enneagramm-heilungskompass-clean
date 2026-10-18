@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2521", date: "2026-10-19", text: "Neuer Wissensartikel: Ändert sich der Typ im Laufe des Lebens? Temperament, Vererbung, Flügel und Stresspunkte.", text_en: "New knowledge article: Does the type change over the course of life? Temperament, heredity, wings and stress points.", route: "typ-aendert-sich-nicht" },
     { version: "v2520", date: "2026-10-19", text: "Neues Porträt: Wayne Dyer (SO9w8) – Psychologe, Autor und Redner.", text_en: "New portrait: Wayne Dyer (SO9w8) – psychologist, author and speaker.", route: "beruehmte-wayne-dyer" },
     { version: "v2519", date: "2026-10-15", text: "Neues Porträt: Dany Boon (SO9w1) – Komiker und Regisseur, Willkommen bei den Sch'tis.", text_en: "New portrait: Dany Boon (SO9w1) – comedian and director, Welcome to the Sticks.", route: "beruehmte-dany-boon" },
     { version: "v2518", date: "2026-10-15", text: "Neues Porträt: Wolfgang Grupp (SE1w9) – Trigema-Inhaber, Unternehmer mit persönlicher Haftung.", text_en: "New portrait: Wolfgang Grupp (SE1w9) – Trigema owner, entrepreneur with personal liability.", route: "beruehmte-wolfgang-grupp" },

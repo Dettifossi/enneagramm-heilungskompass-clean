@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=257";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=258";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -4293,7 +4293,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -4443,6 +4443,7 @@ text.nav = [
     { route: "kriminalmusterkompass", label: "Crime Pattern Compass (Patterns in the Criminal Psychology Portraits)" },
     { route: "musterradar", label: "Pattern Radar (Wings & Instincts Across All Types)" },
     { heading: "Theory & Dynamics" },
+    { route: "typ-aendert-sich-nicht", label: "Does the Type Change Over a Lifetime?" },
     { route: "linien-dynamik-beziehungen", label: "Connecting-Line Dynamics in Relationships (Stress & Security Points)" },
     { route: "enneagramm-autopoese", label: "The Enneagram as an Autopoietic System (Self-Preservation)" },
     { route: "enneagramm-rad", label: "Enneagram Wheel (interactive symbol)" },
@@ -17207,6 +17208,56 @@ function heilungswegPage() {
         {route:"bewusstseinsuebungen", label:"Consciousness Exercises"},
       ])}
     </div>
+  `);
+}
+
+function typBleibtPage() {
+  return shell(`
+    ${pageHeader("typ-aendert-sich-nicht")}
+    <section class="narrow">
+      <p class="eyebrow">Knowledge · Foundations</p>
+      <h1>Does the type change over the course of life?</h1>
+      <p class="lead-small">The Compass's short answer: <strong>No.</strong> The core type and the subtype are regarded as laid down from the very beginning and remain the same for life. What can change are behaviour, maturity, the lean of the wings and the influence of stress. The type itself does not switch.</p>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">1. Why the type is laid down from the start</h2>
+        <p class="vb-intro"><strong>Temperament shows early.</strong> Parents often report that their children are very different from the first weeks of life: calm or restless, open or reserved, easy or hard to soothe. The New York Longitudinal Study by Alexander Chess and Stella Thomas (from 1956) followed children from birth over many years and described nine temperament traits, including activity, regularity, adaptability, intensity and basic mood. These dispositions were recognisable early and remained visible in many children for years. The Compass assigns them to the nine Enneagram types (see the chart below).</p>
+        <p class="vb-intro"><strong>Personality is to a large extent inherited.</strong> Twin and adoption studies show that, in many investigations, around 40 to 50 percent of the differences in personality traits can be traced to genetic differences. Identical twins, even when raised apart, resemble each other in their basic traits far more than randomly chosen people.</p>
+        <p class="vb-intro"><strong>The rank order stays stable.</strong> Long-term studies find that a person's position relative to others, in activity, sociability or anxiety for example, remains remarkably stable over decades, even though on average everyone becomes calmer and more agreeable with the years.</p>
+        <p class="vb-intro"><strong>Physical signs accompany a lifetime.</strong> Enneagram profiling adds observations that remain recognisable from childhood into old age: the quality of the gaze, facial expression, gestures, posture and the way energy shows in the body. These are observations from the Compass's practice, not laboratory findings. But they speak for something fundamental being there from the start.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">2. What research shows and what is interpretation</h2>
+        <p class="vb-intro">The studies mentioned show that temperament is visible early, partly inherited and relatively stable across life. They do <strong>not</strong> prove the nine Enneagram types as such. Assigning the temperaments to the nine types is the Compass's interpretation. It rests on the practice of profiling and on comparison with temperament research, but remains a model. We say this openly so that the line between finding and interpretation stays visible.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">3. Why it still looks as if the type changes</h2>
+        <p class="vb-intro"><strong>Child and adult seem different.</strong> Children adapt to their family and develop protective strategies. This adaptation can temporarily cover the core type. With growing maturity some protective patterns fall away, and the core type emerges more clearly instead of changing.</p>
+        <p class="vb-intro"><strong>The wings.</strong> Many people prefer one neighbouring type in certain phases of life and the other later. That shifts the colouring, not the type.</p>
+        <p class="vb-intro"><strong>Stress and security point.</strong> Whoever lives under pressure for years often behaves like the type of their stress point. Whoever feels safe for a long time shows traits of their security point. From outside this can look like a change of type. Profiling shows in the end that the core type has stayed the same, in the quality of the gaze, in the motivation behind the behaviour and in the way someone reacts under pressure.</p>
+        <p class="vb-intro"><strong>Maturity.</strong> The path from the unhealthy to the healthy expression of a type changes behaviour strongly. In the Enneagram, development means living one's own type more maturely and freely, not leaving it.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">4. What this means in practice</h2>
+        <p class="vb-intro">The type is not a cage. Behaviour can change, habits can be loosened, protective patterns may relax. That is exactly why it is worth knowing one's own type: it shows where the dispositions lie and which development suits oneself. Whoever believes they must change their type works against their own constitution.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 .4rem;color:var(--ink);">The two charts on this</h2>
+        <figure style="margin:1.2rem 0 0;">
+          <div class="psycho-img-wrap"><img src="../assets/schaubilder/kindliche-temperamente/temperamente.jpg" alt="The nine childhood temperaments according to Chess" class="psycho-img" loading="lazy" /></div>
+          <figcaption style="font-size:.88rem;color:var(--muted);line-height:1.5;margin-top:.5rem;"><strong>The nine childhood temperaments according to Chess and Thomas</strong><br>Shows how the innate basic dispositions correspond to the nine types. <button class="ghost-link" data-route="kindliche-temperamente">View chart &rarr;</button></figcaption>
+        </figure>
+        <figure style="margin:1.2rem 0 0;">
+          <div class="psycho-img-wrap"><img src="../assets/drei-lebenskraefte.jpg" alt="The three fundamental life forces of the Enneagram" class="psycho-img" loading="lazy" /></div>
+          <figcaption style="font-size:.88rem;color:var(--muted);line-height:1.5;margin-top:.5rem;"><strong>The three fundamental life forces</strong><br>Active, balancing, passive (in tradition also Yang, centre and Yin): the energetic basic orientation of the types. <button class="ghost-link" data-route="drei-lebenskraefte">View chart &rarr;</button></figcaption>
+        </figure>
+      </div>
+      ${relatedLinks([
+        {route:"kindliche-temperamente", label:"Chart: Childhood Temperaments"},
+        {route:"drei-lebenskraefte", label:"Chart: The Three Fundamental Life Forces"},
+        {route:"linien-dynamik-beziehungen", label:"Connecting-Line Dynamics (Stress & Security Points)"},
+        {route:"wissen", label:"Knowledge"},
+      ])}
+    </section>
   `);
 }
 
@@ -54784,6 +54835,7 @@ function subtypeSchaubilderPage() {
     psychogramme: psychogrammePage,
     "heilungsweg": heilungswegPage,
     "kindliche-temperamente": kindlicheTemperamentePage,
+    "typ-aendert-sich-nicht": typBleibtPage,
     "tee-enneagramm": teeEnneagrammPage,
     "aetherische-oele": aetherischeOelePage,
     "angst-essenz": angstEssenzPage,
