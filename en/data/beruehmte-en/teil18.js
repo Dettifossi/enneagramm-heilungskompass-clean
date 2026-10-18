@@ -2430,3 +2430,75 @@ export function biancaCensoriPortraitPage() {
     </div>
   `);
 }
+
+export function franzPeterTebartzVanElstPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-franz-peter-tebartz-van-elst-portrait.jpg" alt="Franz-Peter Tebartz-van Elst – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Franz-Peter Tebartz-van Elst</p>
+        <p class="krim-portrait-typ">SE7w8 · Self-Preservation Type 7 with an Eight-wing</p>
+        <p class="krim-portrait-subtitle">Theologian and bishop, b. 1959 – Bishop of Limburg 2008–2014 – animal equivalent: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Gorilla: a farmer's son from the Lower Rhine on his way up</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>gorilla</strong> is the animal of the self-preservation Seven: strong and calm as long as its territory is secure, and careful in setting up what protects it. Every evening it builds itself a fresh nest. Franz-Peter Tebartz-van Elst was born on 20 November 1959 as the second of five children of a farming family in Kevelaer-Twisteden on the Lower Rhine. After finishing school at the Piuskolleg in Coesfeld he studied theology and philosophy in Münster and Freiburg and was ordained a priest in Münster Cathedral on 26 May 1985.</p>
+          <p class="vb-intro">After that things moved quickly: a doctorate in theology in 1993, habilitation in pastoral theology in 1998, in 2002 professor of pastoral theology and liturgical studies at the University of Passau, in 2003 auxiliary bishop of Münster at the age of 43, and at the end of 2007 his appointment as Bishop of Limburg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Seven: a protected space of confidants and advantages</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At its core the <strong>Seven</strong> is about the passion of gluttony, according to Naranjo: the hunger for the better, the more beautiful, the richer, which draws the gaze away from what is unpleasant. The <strong>self-preservation Seven (SE7)</strong> directs this hunger toward building a protected, family-like system of confidants, resources and a space of its own. In Tebartz-van Elst this can be linked to the building project on the Limburg cathedral hill: residence, chapel, conference rooms and administration, a microcosm of its own on a hill above the town, built with a claim to quality and dignity.</p>
+          <p class="vb-intro">Critics in the diocese described his leadership style as authoritarian.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: assertiveness and toughness toward opposition</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> colours the otherwise light, pleasure-loving Seven with directness, drive and the will to prevail. In an SE7 with a strongly developed Eight-wing, protecting one's own territory can turn hard. When Der Spiegel reported in 2013 on the bishop's flight to India and questioned the class of the flight, he gave sworn statements about it. The Hamburg public prosecutor considered two of them false and applied for a penalty order. The proceedings were discontinued in 2013 against a fine of 20,000 euros, so he was not considered to have a criminal record. The diocese said regarding the flight that it had been an upgrade with bonus miles and a co-payment from his own pocket.</p>
+          <p class="vb-intro">How he dealt with opposition belongs to the picture of the Eight-wing: whoever defends his own territory answers criticism with counter-pressure, not withdrawal.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: a scientifically trained theologian of the parish and the liturgy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Behind the rapid rise stood a professional education. His dissertation dealt with the adult catechumenate, that is, with how adults are instructed in the faith and received into the Church. His habilitation thesis was titled ›Gemeinde in mobiler Gesellschaft‹ (›Parish in a Mobile Society‹) and dealt with how parishes can exist in a society in which people often change their place of residence. In Passau he taught pastoral theology and liturgical studies, that is, the study of church action and of worship.</p>
+          <p class="vb-intro">These emphases, catechesis, parish and liturgy, also shaped his later path. In December 2014 he moved to Rome, to the Pontifical Council for Promoting the New Evangelization. That is a field of faith transmission that fits his theological formation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The break: Limburg 2013/2014</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The costs of the building project on the cathedral hill ended up at more than 31 million euros and triggered a conflict in 2013 that became known nationwide. On 23 October 2013 Pope Francis removed him from the exercise of his office, after receiving him shortly before for a conversation. In March 2014 an audit commission of the German Bishops' Conference concluded in a 108-page report that the costs had not been made transparent and that controls had been circumvented. Tebartz-van Elst disputed the report on several points. On 26 March 2014 the Pope accepted his resignation as Bishop of Limburg.</p>
+          <p class="vb-intro">For the self-preservation Seven such a break is especially hard, because the protected space it has built is lost in one stroke. That he afterwards took up a new field of work in Rome fits the Seven, who after a setback looks for a new place instead of dwelling on the loss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Seven with an Eight-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE7w8 lies in him in the combination of expertise, will to shape and a sense of dignity and form, especially in worship. Whoever commits to liturgy and church space wants to create places where people experience something greater.</p>
+          <p class="vb-intro">The shadow lies where protecting one's own space becomes more important than feedback from outside: where costs are stated too low and controls are circumvented, as the audit commission recorded, the corrective is missing. This can be linked to the Seven's tendency to block out the unpleasant and to the Eight-wing's toughness toward opposition.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Related patterns: the gorilla in Columbus and Fossey</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A comparison with <a href="javascript:void(0)" data-route="beruehmte-christoph-kolumbus">Christopher Columbus</a> (SE7w8) shows a similar dynamic: an ambitious climber who builds a field of power of his own and, as governor, comes into conflict with the Crown over his conduct of office. In <a href="javascript:void(0)" data-route="beruehmte-dian-fossey">Dian Fossey</a> (SE7w8) the same basic force shows in her toughness in protecting her own territory.</p>
+          <p class="vb-intro">In this Compass Tebartz-van Elst remains the example of a man whose talent and will to shape carried him quickly into high office, and whose inclination to fence in his own space firmly made him stumble there in the end.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se7", label:"SE7 – The Gorilla: subtype profile"},
+        {route:"lebensmusterkompass/se7", label:"Life Pattern Compass: SE7 – Gorilla"},
+        {route:"beruehmte-christoph-kolumbus", label:"Portrait: Christopher Columbus (SE7w8) – same subtype and wing"},
+        {route:"beruehmte-dian-fossey", label:"Portrait: Dian Fossey (SE7w8) – same subtype and wing"},
+      ])}
+    </div>
+  `);
+}

@@ -93,6 +93,8 @@ const ROUTES = [
   { hash: "en/#wann-entsteht-der-typ", label: "Neues EN-Schaubild: Wann entsteht der Typ" },
   { hash: "#typ-aendert-sich-nicht", label: "Neuer Wissensartikel: Typ ändert sich nicht" },
   { hash: "en/#typ-aendert-sich-nicht", label: "Neuer EN-Wissensartikel: Typ ändert sich nicht" },
+  { hash: "#beruehmte-franz-peter-tebartz-van-elst", label: "Neues Porträt: Franz-Peter Tebartz-van Elst" },
+  { hash: "en/#beruehmte-franz-peter-tebartz-van-elst", label: "Neues EN-Porträt: Franz-Peter Tebartz-van Elst" },
   { hash: "#beruehmte-charlie-chaplin", label: "Neues Porträt: Charlie Chaplin" },
   { hash: "en/#beruehmte-charlie-chaplin", label: "Neues EN-Porträt: Charlie Chaplin" },
   { hash: "#beruehmte-wayne-dyer", label: "Neues Porträt: Wayne Dyer" },

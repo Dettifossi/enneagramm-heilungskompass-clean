@@ -2536,3 +2536,75 @@ export function brianWilsonPortraitPage() {
     </div>
   `);
 }
+
+export function franzPeterTebartzVanElstPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-franz-peter-tebartz-van-elst-portrait.jpg" alt="Franz-Peter Tebartz-van Elst – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-franz-peter-tebartz-van-elst-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Franz-Peter Tebartz-van Elst</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Theologe und Bischof, geb. 1959 &ndash; Bischof von Limburg 2008&ndash;2014 &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla: ein Bauernsohn vom Niederrhein auf dem Weg nach oben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier der selbsterhaltenden Sieben: kräftig und ruhig, solange sein Revier sicher ist, und sorgfältig im Einrichten dessen, was ihn schützt. Jeden Abend baut er sich ein frisches Nest. Franz-Peter Tebartz-van Elst wurde am 20. November 1959 als zweites von fünf Kindern einer Bauernfamilie in Kevelaer-Twisteden am Niederrhein geboren. Nach dem Abitur am Piuskolleg in Coesfeld studierte er Theologie und Philosophie in Münster und Freiburg und wurde am 26. Mai 1985 im Dom zu Münster zum Priester geweiht.</p>
+          <p class="vb-intro">Danach ging es zügig nach oben: Promotion zum Dr. theol. 1993, Habilitation in Pastoraltheologie 1998, 2002 Professor für Pastoraltheologie und Liturgiewissenschaft an der Universität Passau, 2003 Weihbischof von Münster im Alter von 43 Jahren, Ende 2007 die Ernennung zum Bischof von Limburg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: ein geschützter Raum aus Vertrauten und Vorteilen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Kern geht es der <strong>Sieben</strong> nach Naranjo um die Leidenschaft der Gefräßigkeit: den Hunger nach dem Besseren, Schöneren, Reicheren, der den Blick vom Unangenehmen wegzieht. Die <strong>selbsterhaltende Sieben (SE7)</strong> richtet diesen Hunger darauf, sich ein geschütztes, familienähnliches System aus Vertrauten, Ressourcen und einem eigenen Raum aufzubauen. Bei Tebartz-van Elst lässt sich damit das Bauprojekt auf dem Limburger Domberg in Verbindung bringen: Residenz, Kapelle, Konferenzräume und Verwaltung, ein eigener Mikrokosmos auf einem Hügel über der Stadt, errichtet mit Anspruch auf Qualität und Würde.</p>
+          <p class="vb-intro">Kritiker im Bistum beschrieben seinen Führungsstil als autoritär.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Durchsetzung und Härte gegenüber Widerspruch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> färbt die sonst leichte, genussvolle Sieben mit Direktheit, Tatkraft und dem Willen, sich durchzusetzen. Bei einer SE7 mit stark ausgeprägtem Achterflügel kann der Schutz des eigenen Reviers hart werden. Als der ›Spiegel‹ 2013 über einen Indienflug des Bischofs berichtete und die Klasse des Fluges in Frage stellte, gab er dazu eidesstattliche Erklärungen ab. Die Staatsanwaltschaft Hamburg hielt zwei davon für falsch und beantragte einen Strafbefehl. Das Verfahren wurde 2013 gegen eine Geldauflage von 20.000 Euro eingestellt, damit galt er nicht als vorbestraft. Das Bistum erklärte zum Flug, es habe sich um ein Upgrade mit Bonusmeilen und eine Zuzahlung aus eigener Tasche gehandelt.</p>
+          <p class="vb-intro">Der Umgang mit Widerspruch gehört zu dem, was das Bild des Achterflügels prägt: Wer das eigene Revier verteidigt, beantwortet Kritik mit Gegenwehr, nicht mit Rückzug.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: ein wissenschaftlich geschulter Theologe der Gemeinde und der Liturgie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hinter dem schnellen Aufstieg stand eine fachliche Ausbildung. Seine Dissertation befasste sich mit dem Erwachsenenkatechumenat, also mit der Frage, wie Erwachsene im Glauben unterwiesen und in die Kirche aufgenommen werden. Seine Habilitationsschrift trug den Titel ›Gemeinde in mobiler Gesellschaft‹ und behandelte die Frage, wie Pfarrgemeinden in einer Gesellschaft bestehen, in der Menschen häufig den Wohnort wechseln. In Passau lehrte er Pastoraltheologie und Liturgiewissenschaft, also die Lehre vom kirchlichen Handeln und vom Gottesdienst.</p>
+          <p class="vb-intro">Diese Schwerpunkte, Katechese, Gemeinde und Liturgie, bestimmten auch seinen späteren Weg. Im Dezember 2014 wechselte er nach Rom, in den Päpstlichen Rat zur Förderung der Neuevangelisierung. Das ist ein Feld der Glaubensvermittlung, das zu seiner theologischen Prägung passt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Bruch: Limburg 2013/2014</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Kosten des Bauprojekts auf dem Domberg lagen am Ende bei mehr als 31 Millionen Euro und lösten 2013 einen Konflikt aus, der bundesweit bekannt wurde. Am 23. Oktober 2013 enthob Papst Franziskus ihn der Ausübung des Amtes, nachdem er ihn kurz zuvor zu einem Gespräch empfangen hatte. Eine Prüfungskommission der Deutschen Bischofskonferenz kam im März 2014 in einem 108-seitigen Bericht zu dem Ergebnis, dass die Kosten nicht transparent gemacht und Kontrollen umgangen worden seien. Tebartz-van Elst widersprach dem Bericht in mehreren Punkten. Am 26. März 2014 nahm der Papst seinen Rücktritt als Bischof von Limburg an.</p>
+          <p class="vb-intro">Für die selbsterhaltende Sieben ist ein solcher Bruch besonders hart, weil der geschützte Raum, den sie sich aufgebaut hat, mit einem Schlag verloren geht. Dass er danach in Rom ein neues Aufgabenfeld übernahm, passt zur Sieben, die nach einem Einbruch einen neuen Ort sucht, statt sich beim Verlust aufzuhalten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Sieben mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE7w8 liegt bei ihm in der Verbindung von Fachwissen, Gestaltungswillen und dem Sinn für Würde und Form, besonders im Gottesdienst. Wer sich für Liturgie und Kirchenraum einsetzt, will Orte schaffen, an denen Menschen etwas Größeres erfahren.</p>
+          <p class="vb-intro">Der Schatten liegt dort, wo der Schutz des eigenen Raums wichtiger wird als die Rückmeldung von außen: Wo Kosten zu niedrig angegeben werden und Kontrollen umgangen werden, wie es die Prüfungskommission festhielt, fehlt das Korrektiv. Das lässt sich mit der Neigung der Sieben in Verbindung bringen, Unangenehmes auszublenden, und mit der Härte des Achterflügels gegenüber Widerspruch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Verwandte Muster: der Gorilla bei Kolumbus und Fossey</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein Vergleich mit <a href="javascript:void(0)" data-route="beruehmte-christoph-kolumbus">Christoph Kolumbus</a> (SE7w8) zeigt eine ähnliche Dynamik: ein ehrgeiziger Aufsteiger, der sich ein eigenes Machtfeld aufbaut und als Statthalter wegen seiner Amtsführung mit der Krone in Konflikt gerät. Bei <a href="javascript:void(0)" data-route="beruehmte-dian-fossey">Dian Fossey</a> (SE7w8) zeigt sich dieselbe Grundkraft in ihrer Härte beim Schutz des eigenen Reviers.</p>
+          <p class="vb-intro">Tebartz-van Elst bleibt in diesem Kompass das Beispiel eines Mannes, dessen Begabung und Gestaltungswille ihn schnell in hohe Ämter trugen und dessen Neigung, den eigenen Raum fest zu umhegen, ihn dort am Ende ins Straucheln brachte.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se7", label:"Lebensmusterkompass: SE7 – Gorilla"},
+        {route:"beruehmte-christoph-kolumbus", label:"Porträt: Christoph Kolumbus (SE7w8) – derselbe Subtyp und Flügel"},
+        {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8) – derselbe Subtyp und Flügel"},
+      ])}
+    </div>
+  `);
+}
