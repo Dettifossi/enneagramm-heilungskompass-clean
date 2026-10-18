@@ -47,7 +47,7 @@ Danach das Vercel-Projekt einmal neu bereitstellen (Deployments → „Redeploy�
 1. Zahlungslink „Porträt-Edition“ öffnen, mit der Testkarte `4242 4242 4242 4242` (beliebiges Ablaufdatum, beliebige CVC) kaufen.
 2. Die Willkommens-E-Mail mit den Zugangsdaten prüfen.
 3. In der App anmelden: Es muss die **Porträt-Edition** erscheinen (Name „Enneagramm-Porträts“, Heilmittel gesperrt).
-4. Zahlungslink „Aufpreis“ mit derselben E-Mail kaufen → nach erneutem Öffnen/Anmelden ist der **Vollzugang** frei.
+4. Zahlungslink „Aufpreis“ mit derselben E-Mail kaufen → es kommt eine Mail mit **neuem Passwort**; nach dem Anmelden mit den neuen Daten ist der **Vollzugang** frei.
 5. Prüfen, dass ein bestehender Kunde (Vollzugang) unverändert funktioniert.
 
 ## 6. Freischalten
@@ -59,4 +59,5 @@ Erst wenn alle Testkäufe stimmen: dieselben Schritte im Live-Modus wiederholen 
 - Konten mit bestehendem Zugang werden **nie herabgestuft**: Ein Porträt-Kauf mit einer E-Mail, die schon ein Konto hat, ändert nichts.
 - Nur bezahlte Sitzungen berechtigen.
 - Fremde Produkte (Bücher usw.) werden ignoriert.
+- Beim Aufpreis gibt es ein **neues Passwort** per Mail (das alte Passwort wird ungültig), weil Käufer der Porträt-Edition ihr Passwort oft nicht mehr kennen.
 - Wer direkt den Vollzugang kauft, obwohl er die Porträt-Edition hat, bekommt den Vollzugang freigeschaltet.

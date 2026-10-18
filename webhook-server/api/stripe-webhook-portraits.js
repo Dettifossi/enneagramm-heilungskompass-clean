@@ -164,9 +164,13 @@ export default async function handler(req, res) {
 
     // kind === "upgrade"
     if (existing) {
+      // Wer die Porträt-Edition vor längerer Zeit gekauft hat, kennt sein Passwort meist nicht mehr:
+      // beim Upgrade gibt es daher – wie beim Vollzugangs-Kauf – ein neues Passwort per Mail.
+      const password = generatePassword();
+      await auth.updateUser(existing.uid, { password });
       await setEdition(auth, existing, "full");
-      await sendMail(email, renderUpgradeMail({ name, isEnglish }));
-      console.log(`✅ Upgrade auf Vollzugang: ${email}`);
+      await sendMail(email, renderUpgradeMail({ email, name, password, isEnglish }));
+      console.log(`✅ Upgrade auf Vollzugang (neues Passwort gesendet): ${email}`);
     } else {
       // Sonderfall: Aufpreis ohne vorhandenes Konto – Vollzugang-Konto anlegen.
       const password = generatePassword();
@@ -219,22 +223,24 @@ function renderWelcomeMail({ email, name, password, isEnglish, full }) {
   };
 }
 
-function renderUpgradeMail({ name, isEnglish }) {
+function renderUpgradeMail({ email, name, password, isEnglish }) {
   const appUrl = isEnglish ? "https://kompass.verlagshausrathmer.com/en/" : "https://kompass.verlagshausrathmer.com/";
   if (isEnglish) {
     return {
-      subject: "Your upgrade to full access is active",
+      subject: "Your upgrade to full access is active – new login details",
       html: shell(`<h2>Thank you${name ? ", " + esc(name) : ""}!</h2>
-        <p>Your upgrade is active. Open the app (<a href="${appUrl}">${appUrl}</a>) and sign in again if needed – all areas are now unlocked.</p>
-        <p><strong>Your login details stay the same:</strong> sign in with the same email address and the password from your first welcome email.
-        If you no longer have the password, just write to us: <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>`),
+        <p>Your upgrade to full access is active. All areas are now unlocked.</p>
+        <p><strong>Your new login details:</strong><br>Email: ${esc(email)}<br>Password: ${esc(password)}</p>
+        <p>Your previous password is no longer valid. Open the app (<a href="${appUrl}">${appUrl}</a>), go to “Unlock” and sign in with the details above.</p>
+        <p>Questions? <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>`),
     };
   }
   return {
-    subject: "Ihr Upgrade auf den Vollzugang ist aktiv",
+    subject: "Ihr Upgrade auf den Vollzugang ist aktiv – neue Zugangsdaten",
     html: shell(`<h2>Vielen Dank${name ? ", " + esc(name) : ""}!</h2>
-      <p>Ihr Upgrade ist aktiv. Öffnen Sie die App (<a href="${appUrl}">${appUrl}</a>) und melden Sie sich bei Bedarf neu an – alle Bereiche sind jetzt freigeschaltet.</p>
-      <p><strong>Ihre Zugangsdaten bleiben unverändert:</strong> Melden Sie sich mit derselben E-Mail-Adresse und dem Passwort aus Ihrer ersten Willkommens-Mail an.
-      Falls Sie das Passwort nicht mehr haben, schreiben Sie uns gerne: <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>`),
+      <p>Ihr Upgrade auf den Vollzugang ist aktiv. Alle Bereiche sind jetzt freigeschaltet.</p>
+      <p><strong>Ihre neuen Zugangsdaten:</strong><br>E-Mail: ${esc(email)}<br>Passwort: ${esc(password)}</p>
+      <p>Ihr bisheriges Passwort ist ab sofort nicht mehr gültig. Öffnen Sie die App (<a href="${appUrl}">${appUrl}</a>), gehen Sie auf „Freischalten“ und melden Sie sich mit den obigen Daten an.</p>
+      <p>Bei Fragen: <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>`),
   };
 }
