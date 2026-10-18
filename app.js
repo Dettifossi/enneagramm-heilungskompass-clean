@@ -29917,12 +29917,19 @@ let fbSignOut = null;
     fbAuth = getAuth(fbApp);
     fbSignIn = signInWithEmailAndPassword;
     fbSignOut = signOut;
-    onAuthStateChanged(fbAuth, (user) => {
-      if (user && !hasBasis() && !hasPortraits()) {
-        setTier("heilwissen");
+    onAuthStateChanged(fbAuth, async (user) => {
+      if (!user) return;
+      if (!hasBasis() && !hasPortraits()) {
+        setTier(await tierForUser(user, false));
         setLizenzName(user.displayName || user.email);
         if (typeof state !== "undefined" && state.route && state.route.startsWith("freischalt")) {
           go("start");
+        }
+      } else if (hasPortraits()) {
+        // Upgrade auf den Vollzugang: Token neu laden, damit der geänderte Claim ankommt
+        if ((await tierForUser(user, true)) === "heilwissen") {
+          setTier("heilwissen");
+          if (typeof render === "function") render();
         }
       }
     });
@@ -29981,6 +29988,20 @@ function setLizenzName(n) { localStorage.setItem(NAME_KEY, n); }
 function hasBasis()      { const t = getTier(); return t === "basis" || t === "heilwissen"; }
 function hasHeilwissen() { return getTier() === "heilwissen"; }
 function hasPortraits() { return getTier() === "portraits"; }
+// Edition aus dem Firebase-Token (Custom Claim "edition"): nur "portraits" ergibt die Porträt-Edition.
+// Alles andere (kein Claim, "full", Fehler, Zeitüberschreitung) bleibt der bisherige Vollzugang –
+// bestehende Kunden haben keinen Claim und behalten damit ihr Verhalten unverändert.
+async function tierForUser(user, forceRefresh) {
+  try {
+    const res = await Promise.race([
+      user.getIdTokenResult(!!forceRefresh),
+      new Promise((_, reject) => setTimeout(() => reject(new Error("timeout")), 4000)),
+    ]);
+    return res && res.claims && res.claims.edition === "portraits" ? "portraits" : "heilwissen";
+  } catch (e) {
+    return "heilwissen";
+  }
+}
 // Porträt-Edition (Stufe "portraits"): erlaubte Routen werden lazy aus den Porträt-Listen gebaut
 // (kein Zugriff auf die Arrays beim Laden des Moduls). Betrifft ausschließlich die Stufe "portraits".
 let _portraitEditionRoutes = null;
@@ -41436,7 +41457,7 @@ function bindEvents() {
       msg.textContent = "Anmelden..."; msg.style.color = "var(--muted)";
       try {
         const cred = await fbSignIn(fbAuth, email, pass);
-        setTier("heilwissen");
+        setTier(await tierForUser(cred.user, false));
         setLizenzName(cred.user.displayName || cred.user.email);
         playPurchaseWelcome();
         const card = document.querySelector(".freischalt-card");
