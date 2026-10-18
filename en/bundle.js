@@ -7,7 +7,7 @@ import { DIAGNOSETEST_EN as DIAGNOSETEST } from "../data/diagnosetest_en.js?v=1"
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=258";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=259";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -4293,7 +4293,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -4490,6 +4490,7 @@ text.nav = [
     { route: "grundformel", label: "Core Formula of the Rathmer Enneagram" },
     { route: "schaubilder-als-spiegel", label: "Diagrams as a Mirror" },
     { route: "dialektische-struktur", label: "Dialectical Structure" },
+    { route: "wann-entsteht-der-typ", label: "When and How Does the Enneagram Type Arise?" },
     { route: "enneagramm-profiling", label: "Enneagram Profiling" },
     { route: "interessante-erkenntnisse", label: "Interesting Insights" },
     { route: "maennliche-weibliche-seite", label: "Masculine & Feminine Side of the Enneagram" },
@@ -17211,6 +17212,36 @@ function heilungswegPage() {
   `);
 }
 
+function typEntstehungPage() {
+  return shell(`
+    ${pageHeader("wann-entsteht-der-typ")}
+    <section class="narrow">
+      <p class="eyebrow">Diagrams · Foundations</p>
+      <h1>When and how does the Enneagram type arise in the course of human development?</h1>
+      <p class="lead-small">The chart shows that, in the Compass's view, the Enneagram type is already laid down as potential at conception and unfolds in the course of life on two foundations: genetics and conditioning.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="${R2_CDN}assets/schaubilder/typ-entstehung/typ-entstehung.jpg" alt="When and how does the Enneagram type arise in the course of human development? Chart with the poles genetics and conditioning in a yin-yang symbol" class="psycho-img" loading="lazy" />
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">The chart's key statements</h2>
+        <ul style="font-size:.95rem;line-height:1.7;padding-left:1.2rem;">
+          <li>At the moment of conception the genetic code is already fixed, and with it the Enneagram type, above all as a potential still to be manifested.</li>
+          <li>At the same time prenatal conditioning (imprinting, socialisation) of the embryo begins.</li>
+          <li>Genetics and conditioning are the two pillars of purely biological development. From them further layers of being human develop, such as the psychological ego consciousness and later the spiritual development of the Enneagram type.</li>
+          <li>The foundation of all human development remains the Enneagram fixation present from the beginning, in the image of yin and yang the genetic disposition together with conditioning over the course of life.</li>
+        </ul>
+        <p style="font-size:.85rem;color:var(--muted);line-height:1.6;">The chart reflects the Compass's view and is a model. What research shows about temperament and heredity, and what is interpretation, is set out in the knowledge article.</p>
+      </div>
+      ${relatedLinks([
+        {route:"typ-aendert-sich-nicht", label:"Knowledge: Does the type change over the course of life?"},
+        {route:"kindliche-temperamente", label:"Chart: Childhood Temperaments"},
+        {route:"drei-lebenskraefte", label:"Chart: The Three Fundamental Life Forces"},
+        {route:"schaubilder", label:"All diagrams"},
+      ])}
+    </section>
+  `);
+}
+
 function typBleibtPage() {
   return shell(`
     ${pageHeader("typ-aendert-sich-nicht")}
@@ -17247,12 +17278,13 @@ function typBleibtPage() {
           <figcaption style="font-size:.88rem;color:var(--muted);line-height:1.5;margin-top:.5rem;"><strong>The nine childhood temperaments according to Chess and Thomas</strong><br>Shows how the innate basic dispositions correspond to the nine types. <button class="ghost-link" data-route="kindliche-temperamente">View chart &rarr;</button></figcaption>
         </figure>
         <figure style="margin:1.2rem 0 0;">
-          <div class="psycho-img-wrap"><img src="../assets/drei-lebenskraefte.jpg" alt="The three fundamental life forces of the Enneagram" class="psycho-img" loading="lazy" /></div>
-          <figcaption style="font-size:.88rem;color:var(--muted);line-height:1.5;margin-top:.5rem;"><strong>The three fundamental life forces</strong><br>Active, balancing, passive (in tradition also Yang, centre and Yin): the energetic basic orientation of the types. <button class="ghost-link" data-route="drei-lebenskraefte">View chart &rarr;</button></figcaption>
+          <div class="psycho-img-wrap"><img src="${R2_CDN}assets/schaubilder/typ-entstehung/typ-entstehung.jpg" alt="When and how does the Enneagram type arise? Genetics and conditioning as yin and yang" class="psycho-img" loading="lazy" /></div>
+          <figcaption style="font-size:.88rem;color:var(--muted);line-height:1.5;margin-top:.5rem;"><strong>When and how does the Enneagram type arise?</strong><br>Genetics and conditioning as the two foundations of development: the type is laid down as potential from the beginning. <button class="ghost-link" data-route="wann-entsteht-der-typ">View chart &rarr;</button></figcaption>
         </figure>
       </div>
       ${relatedLinks([
         {route:"kindliche-temperamente", label:"Chart: Childhood Temperaments"},
+        {route:"wann-entsteht-der-typ", label:"Chart: When and How Does the Enneagram Type Arise?"},
         {route:"drei-lebenskraefte", label:"Chart: The Three Fundamental Life Forces"},
         {route:"linien-dynamik-beziehungen", label:"Connecting-Line Dynamics (Stress & Security Points)"},
         {route:"wissen", label:"Knowledge"},
@@ -54836,6 +54868,7 @@ function subtypeSchaubilderPage() {
     "heilungsweg": heilungswegPage,
     "kindliche-temperamente": kindlicheTemperamentePage,
     "typ-aendert-sich-nicht": typBleibtPage,
+    "wann-entsteht-der-typ": typEntstehungPage,
     "tee-enneagramm": teeEnneagrammPage,
     "aetherische-oele": aetherischeOelePage,
     "angst-essenz": angstEssenzPage,

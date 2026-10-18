@@ -20,7 +20,7 @@ import { adolfEichmannPortraitPage, alfonsSchuhbeckPortraitPage, andrewCunananPo
 import { adolfHitlerPortraitPage, andersBreivikPortraitPage, angelResendezPortraitPage, belleGunnessPortraitPage, cedricMaakePortraitPage, davidBerkowitzPortraitPage, dieterZlofPortraitPage, dorotheaPuentePortraitPage, fritzHaarmannPortraitPage, gudrunEnsslinPortraitPage, henriLandruPortraitPage, jeffreyEpsteinPortraitPage, johnGottiPortraitPage, johnWayneGacyPortraitPage, leslieVanHoutenPortraitPage, michailPopkowPortraitPage, osamaBinLadenPortraitPage, paulBernardoPortraitPage, peterSutcliffePortraitPage, rujaIgnatovaPortraitPage, susanWrightPortraitPage, tedBundyPortraitPage, ulrikeMeinhofPortraitPage, wernerGladowPortraitPage, wolfgangBeltracchiPortraitPage, gescheGottfriedPortraitPage, juanaBarrazaPortraitPage, gertPostelKriminalPortraitPage, beateZschaepePortraitPage } from "./data/kriminal-de/teil2.js";
 import { aileenWuornosPortraitPage, andreasBaaderPortraitPage, annaDelveyPortraitPage, bernieMadoffPortraitPage, charlesMansonPortraitPage, dennisNilsenPortraitPage, edGeinPortraitPage, elizabethBathoryPortraitPage, fritzHonkaPortraitPage, garyRidgwayPortraitPage, haroldShipmanPortraitPage, jackUnterweegerPortraitPage, jimJonesPortraitPage, johnHinckleyJrPortraitPage, jonathanMeijerPortraitPage, lukaMagnottaPortraitPage, nickLeesonPortraitPage, ottoMuehlPortraitPage, paulOgorzowPortraitPage, richardRamirezPortraitPage, salvatoreRiinaPortraitPage, tedKaczynskiPortraitPage, victorLustigPortraitPage, arwedImielaPortraitPage, bernardEugeneGilesPortraitPage } from "./data/kriminal-de/teil3.js";
 import { alexMurdaughPortraitPage, ameliaDyerPortraitPage, andreiTschikatiloPortraitPage, arminMeiwesPortraitPage, bonnieParkerPortraitPage, chrisWattsPortraitPage, dennisRaderPortraitPage, elliotRodgerPortraitPage, gennadiMikhasevichPortraitPage, harveyWeinsteinPortraitPage, jeanneWeberPortraitPage, joachimKrollPortraitPage, johnListPortraitPage, josefFritzlPortraitPage, maryAnnCottonPortraitPage, nielsHoegelPortraitPage, pabloEscobarPortraitPage, pDiddyPortraitPage, ronnieBiggsPortraitPage, samuelBankmanFriedPortraitPage, tomKeatingPortraitPage, vincenzoPeruggiaPortraitPage, charlesStarkweatherPortraitPage } from "./data/kriminal-de/teil4.js";
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=263";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=264";
 
 import { adeleKrankheitsportraetPage, arnoldSchwarzeneggerKrankheitsportraetPage, ashtonKutcherKrankheitsportraetPage, charlesDarwinKrankheitsportraetPage, davidHumeKrankheitsportraetPage, fjodorDostojewskiKrankheitsportraetPage, freddieMercuryKrankheitsportraetPage, fritzPerlsKrankheitsportraetPage, galarrwuyYunupinguKrankheitsportraetPage, gustavMahlerKrankheitsportraetPage, hannahArendtKrankheitsportraetPage, hundertwasserKrankheitsportraetPage, johannSebastianBachKrankheitsportraetPage, juliusCaesarKrankheitsportraetPage, knutHamsunKrankheitsportraetPage, ladyDianaKrankheitsportraetPage, ludwigXIVKrankheitsportraetPage, margaretRutherfordKrankheitsportraetPage, michaelJacksonKrankheitsportraetPage, nataschaKampuschKrankheitsportraetPage, oshoKrankheitsportraetPage, robertSchumannKrankheitsportraetPage, seanConneryKrankheitsportraetPage, vincentVanGoghKrankheitsportraetPage, virginiaWoolfKrankheitsportraetPage, wolfgangAmadeusMozartKrankheitsportraetPage, andyWarholKrankheitsportraetPage, paulBocuseKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil1.js";
 import { aiWeiweiKrankheitsportraetPage, astridLindgrenKrankheitsportraetPage, avrilLavigneKrankheitsportraetPage, charlesMansonKrankheitsportraetPage, dollyPartonKrankheitsportraetPage, francisBaconKrankheitsportraetPage, fredericChopinKrankheitsportraetPage, genesisPOrridgeKrankheitsportraetPage, hansChristianAndersenKrankheitsportraetPage, heinrichHeineKrankheitsportraetPage, immanuelKantKrankheitsportraetPage, johnGottiKrankheitsportraetPage, juergenDrewsKrankheitsportraetPage, junkoTabeiKrankheitsportraetPage, larryKingKrankheitsportraetPage, marcelProustKrankheitsportraetPage, michaelSchumacherKrankheitsportraetPage, neilArmstrongKrankheitsportraetPage, ottoVonBismarckKrankheitsportraetPage, romySchneiderKrankheitsportraetPage, spinozaKrankheitsportraetPage, voltaireKrankheitsportraetPage, steveJobsKrankheitsportraetPage, woodyAllenKrankheitsportraetPage, davidHockneyKrankheitsportraetPage, guntherVonHagensKrankheitsportraetPage, metteMaritKrankheitsportraetPage } from "./data/krankheitsportraets-de/teil2.js";
@@ -15960,6 +15960,7 @@ const uiText = {
       { heading: "Grundlagen und Aufbau des Enneagramms" },
       { route: "60-sekunden-scan", label: "60-Sekunden-Scan" },
       { route: "dialektische-struktur", label: "Dialektische Struktur" },
+      { route: "wann-entsteht-der-typ", label: "Wann und wie entsteht der Enneagrammtyp?" },
       { route: "enneagramm-profiling", label: "Enneagramm-Profiling" },
       { route: "grundformel", label: "Grundformel des Rathmer-Enneagramms" },
       { route: "interessante-erkenntnisse", label: "Interessante Erkenntnisse" },
@@ -34234,7 +34235,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -42523,6 +42524,36 @@ function heilungswegPage() {
   `);
 }
 
+function typEntstehungPage() {
+  return shell(`
+    ${pageHeader("wann-entsteht-der-typ")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Grundlagen</p>
+      <h1>Wann und wie entsteht der Enneagrammtyp im Rahmen der menschlichen Entwicklung?</h1>
+      <p class="lead-small">Das Schaubild zeigt, dass der Enneagrammtyp nach der Sicht des Kompasses schon bei der Befruchtung als Potenzial angelegt ist und sich im Lauf des Lebens in zwei Grundlagen entfaltet: Genetik und Konditionierung.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="${R2_CDN}assets/schaubilder/typ-entstehung/typ-entstehung.jpg" alt="Wann und wie entsteht der Enneagrammtyp im Rahmen der menschlichen Entwicklung? Schaubild mit den Polen Genetik und Konditionierung in einem Yin-Yang-Symbol" class="psycho-img" loading="lazy" />
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Die Kernaussagen des Schaubilds</h2>
+        <ul style="font-size:.95rem;line-height:1.7;padding-left:1.2rem;">
+          <li>Schon zum Zeitpunkt der Befruchtung steht der genetische Code fest, und damit der Enneagrammtyp vor allem als noch zu manifestierendes Potenzial.</li>
+          <li>Zugleich beginnt schon die pränatale Konditionierung (Prägung, Sozialisation) des Embryos.</li>
+          <li>Genetik und Konditionierung sind die beiden Säulen der rein biologischen Entwicklung. Aus ihnen entwickeln sich weitere Schichten des Menschseins, etwa das psychologische Ich-Bewusstsein und später auch die spirituelle Entwicklung des Enneagrammtyps.</li>
+          <li>Grundlage jeder menschlichen Entwicklung bleibt die von Anfang an bestehende Enneagrammfixierung, im Bild des Yin und Yang die genetische Anlage zusammen mit der Konditionierung im Laufe des Lebens.</li>
+        </ul>
+        <p style="font-size:.85rem;color:var(--muted);line-height:1.6;">Das Schaubild gibt die Sicht des Kompasses wieder und ist ein Modell. Was die Forschung zu Temperament und Vererbung belegt und was Deutung ist, steht im Wissensartikel.</p>
+      </div>
+      ${relatedLinks([
+        {route:"typ-aendert-sich-nicht", label:"Wissen: Ändert sich der Typ im Laufe des Lebens?"},
+        {route:"kindliche-temperamente", label:"Schaubild: Kindliche Temperamente"},
+        {route:"drei-lebenskraefte", label:"Schaubild: Die drei grundlegenden Lebenskräfte"},
+        {route:"schaubilder", label:"Alle Schaubilder"},
+      ])}
+    </section>
+  `);
+}
+
 function typBleibtPage() {
   return shell(`
     ${pageHeader("typ-aendert-sich-nicht")}
@@ -42559,12 +42590,13 @@ function typBleibtPage() {
           <figcaption style="font-size:.88rem;color:var(--muted);line-height:1.5;margin-top:.5rem;"><strong>Die neun kindlichen Temperamente nach Chess und Thomas</strong><br>Zeigt, wie die angeborenen Grundanlagen den neun Typen entsprechen. <button class="ghost-link" data-route="kindliche-temperamente">Schaubild ansehen &rarr;</button></figcaption>
         </figure>
         <figure style="margin:1.2rem 0 0;">
-          <div class="psycho-img-wrap"><img src="./assets/drei-lebenskraefte.jpg" alt="Die drei grundlegenden Lebenskräfte des Enneagramms" class="psycho-img" loading="lazy" /></div>
-          <figcaption style="font-size:.88rem;color:var(--muted);line-height:1.5;margin-top:.5rem;"><strong>Die drei grundlegenden Lebenskräfte</strong><br>Aktiv, ausgleichend, passiv (in der Tradition auch Yang, Mitte und Yin): die energetische Grundorientierung der Typen. <button class="ghost-link" data-route="drei-lebenskraefte">Schaubild ansehen &rarr;</button></figcaption>
+          <div class="psycho-img-wrap"><img src="${R2_CDN}assets/schaubilder/typ-entstehung/typ-entstehung.jpg" alt="Wann und wie entsteht der Enneagrammtyp? Genetik und Konditionierung als Yin und Yang" class="psycho-img" loading="lazy" /></div>
+          <figcaption style="font-size:.88rem;color:var(--muted);line-height:1.5;margin-top:.5rem;"><strong>Wann und wie entsteht der Enneagrammtyp?</strong><br>Genetik und Konditionierung als die beiden Grundlagen der Entwicklung: Der Typ ist von Anfang an als Potenzial angelegt. <button class="ghost-link" data-route="wann-entsteht-der-typ">Schaubild ansehen &rarr;</button></figcaption>
         </figure>
       </div>
       ${relatedLinks([
         {route:"kindliche-temperamente", label:"Schaubild: Kindliche Temperamente"},
+        {route:"wann-entsteht-der-typ", label:"Schaubild: Wann und wie entsteht der Enneagrammtyp?"},
         {route:"drei-lebenskraefte", label:"Schaubild: Die drei grundlegenden Lebenskräfte"},
         {route:"linien-dynamik-beziehungen", label:"Linien-Dynamik (Stress- und Entspannungspunkte)"},
         {route:"wunden", label:"Wunden & Schutzstrategien"},
@@ -79680,6 +79712,7 @@ const ROUTES = {
     "heilungsweg": heilungswegPage,
     "kindliche-temperamente": kindlicheTemperamentePage,
     "typ-aendert-sich-nicht": typBleibtPage,
+    "wann-entsteht-der-typ": typEntstehungPage,
     "tee-enneagramm": teeEnneagrammPage,
     "aetherische-oele": aetherischeOelePage,
     "angst-essenz": angstEssenzPage,
