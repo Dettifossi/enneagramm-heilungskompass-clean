@@ -50754,6 +50754,22 @@ function psychogrammePage() {
       <p class="eyebrow">Depth Psychology</p>
       <h1 class="section-title">Psychogramme der 9 Enneagrammtypen</h1>
       <p class="psycho-intro">Each psychogram shows the complete depth-psychological cycle of a type: from the Higher Self through the underlying feeling of deficiency to the fictitious self-image and shadow &mdash; and the path back to integration.</p>
+      <details style="margin:1rem 0 1.4rem;padding:.9rem 1.1rem;border:1px solid var(--line,var(--border));border-left:4px solid var(--copper);border-radius:12px;background:var(--card,var(--paper));">
+        <summary style="cursor:pointer;font-weight:700;color:var(--ink);">How to read a psychogram</summary>
+        <div style="margin-top:.7rem;font-size:.92rem;line-height:1.6;color:var(--ink);">
+          <p style="margin:0 0 .6rem;">A psychogram is read <strong>from top to bottom</strong>. It tells how an original quality becomes a protective pattern and how that pattern can dissolve again.</p>
+          <ol style="margin:0 0 .6rem;padding-left:1.2rem;">
+            <li><strong>Higher Self</strong> (top, blue): the original quality of the type, for example perfection for the One or love for the Nine.</li>
+            <li><strong>Not being held / loss of contact with Being:</strong> the two experiences from which the pattern arises.</li>
+            <li><strong>Underlying feeling of deficiency</strong> (purple) and the <strong>core sentence</strong> (red): the deep, mostly unconscious conviction about oneself, such as “Something is wrong with me”.</li>
+            <li><strong>The five boxes:</strong> typical reactions with which the type answers this feeling.</li>
+            <li><strong>The counter-strategy</strong> (green): the thought with which the type tries to compensate for the feeling of deficiency.</li>
+            <li><strong>The speech bubble:</strong> the behaviour that only imitates the original quality (“an attempt to imitate …”).</li>
+            <li><strong>Fictitious self-image</strong> (bottom left, light) and <strong>fictitious shadow</strong> (bottom right, dark): the image the type wants to show of itself, and what it does not want to see in itself. “Counter-type” means the variant that lives the opposite of what is expected.</li>
+          </ol>
+          <p style="margin:0;">The path to integration is in the lower boxes: recognise self-image and shadow and meet both with loving acceptance. More on wound, passion and healing path is in the subtype profiles.</p>
+        </div>
+      </details>
       <div class="psycho-grid">
         ${PSYCHOGRAMM_TYPEN.map(t => `
           <button class="psycho-card" data-route="psychogramme/${t.typ}" style="border-color:${typeColor(t.typ)};background:linear-gradient(160deg, ${typeColor(t.typ)}18, ${typeColor(t.typ)}08);">

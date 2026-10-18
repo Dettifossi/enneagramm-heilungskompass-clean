@@ -75648,6 +75648,22 @@ function psychogrammePage() {
       <p class="eyebrow">Tiefenpsychologie</p>
       <h1 class="section-title">Psychogramme der 9 Enneagrammtypen</h1>
       <p class="psycho-intro">Jedes Psychogramm zeigt den vollst\u00e4ndigen tiefenpsychologischen Kreislauf eines Typs: vom H\u00f6heren Selbst \u00fcber das untergr\u00fcndige Mangelgef\u00fchl bis zum fiktiven Selbstbild und Schatten \u2014 und den Weg zur\u00fcck zur Integration.</p>
+      <details style="margin:1rem 0 1.4rem;padding:.9rem 1.1rem;border:1px solid var(--line,var(--border));border-left:4px solid var(--copper);border-radius:12px;background:var(--card,var(--paper));">
+        <summary style="cursor:pointer;font-weight:700;color:var(--ink);">So liest man ein Psychogramm</summary>
+        <div style="margin-top:.7rem;font-size:.92rem;line-height:1.6;color:var(--ink);">
+          <p style="margin:0 0 .6rem;">Ein Psychogramm wird <strong>von oben nach unten</strong> gelesen. Es erzählt, wie aus einer ursprünglichen Qualität ein Schutzmuster wird und wie sich dieses wieder auflösen lässt.</p>
+          <ol style="margin:0 0 .6rem;padding-left:1.2rem;">
+            <li><strong>Höheres Selbst</strong> (oben, blau): die ursprüngliche Qualität des Typs, zum Beispiel Vollkommenheit bei der Eins oder Liebe bei der Neun.</li>
+            <li><strong>Nicht gehalten werden / Kontaktverlust zum Sein:</strong> die beiden Erfahrungen, aus denen das Muster entsteht.</li>
+            <li><strong>Untergründiges Mangelgefühl</strong> (violett) und der <strong>Kernsatz</strong> (rot): die tiefe, meist unbewusste Überzeugung über sich selbst, etwa „Mit mir stimmt etwas nicht“.</li>
+            <li><strong>Die fünf Kästchen:</strong> typische Reaktionen, mit denen der Typ auf dieses Gefühl antwortet.</li>
+            <li><strong>Die Gegenstrategie</strong> (grün): der Gedanke, mit dem der Typ das Mangelgefühl auszugleichen versucht.</li>
+            <li><strong>Die Sprechblase:</strong> das Verhalten, das die ursprüngliche Qualität nur nachahmt („Versuch, … zu imitieren“).</li>
+            <li><strong>Fiktives Selbstbild</strong> (unten links, hell) und <strong>fiktiver Schatten</strong> (unten rechts, dunkel): das Bild, das der Typ von sich zeigen möchte, und das, was er an sich nicht sehen will. Mit „Kontratyp“ ist die Ausprägung gemeint, die das Gegenteil des Erwarteten lebt.</li>
+          </ol>
+          <p style="margin:0;">Der Weg zur Integration steht in den unteren Kästchen: Selbstbild und Schatten erkennen und beiden mit liebevoller Akzeptanz begegnen. Mehr zu Wunde, Leidenschaft und Heilungsweg steht in den Subtyp-Profilen.</p>
+        </div>
+      </details>
       <div class="psycho-grid">
         ${PSYCHOGRAMM_TYPEN.map(t => `
           <button class="psycho-card" data-route="psychogramme/${t.typ}" style="border-color:${typeColor(t.typ)};background:linear-gradient(160deg, ${typeColor(t.typ)}18, ${typeColor(t.typ)}08);">
