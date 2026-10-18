@@ -2560,7 +2560,7 @@ export function franzPeterTebartzVanElstPortraitPage() {
 
         <h2 class="vb-section">2. Die selbsterhaltende Sieben: ein geschützter Raum aus Vertrauten und Vorteilen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Im Kern geht es der <strong>Sieben</strong> nach Naranjo um die Leidenschaft der Gefräßigkeit: den Hunger nach dem Besseren, Schöneren, Reicheren, der den Blick vom Unangenehmen wegzieht. Die <strong>selbsterhaltende Sieben (SE7)</strong> richtet diesen Hunger darauf, sich ein geschütztes, familienähnliches System aus Vertrauten, Ressourcen und einem eigenen Raum aufzubauen. Bei Tebartz-van Elst lässt sich damit das Bauprojekt auf dem Limburger Domberg in Verbindung bringen: Residenz, Kapelle, Konferenzräume und Verwaltung, ein eigener Mikrokosmos auf einem Hügel über der Stadt, errichtet mit Anspruch auf Qualität und Würde.</p>
+          <p class="vb-intro">Im Kern geht es der <strong>Sieben</strong> nach Naranjo um die Leidenschaft der Völlerei: den Hunger nach dem Besseren, Schöneren, Reicheren, der den Blick vom Unangenehmen wegzieht. Die <strong>selbsterhaltende Sieben (SE7)</strong> richtet diesen Hunger darauf, sich ein geschütztes, familienähnliches System aus Vertrauten, Ressourcen und einem eigenen Raum aufzubauen. Bei Tebartz-van Elst lässt sich damit das Bauprojekt auf dem Limburger Domberg in Verbindung bringen: Residenz, Kapelle, Konferenzräume und Verwaltung, ein eigener Mikrokosmos auf einem Hügel über der Stadt, errichtet mit Anspruch auf Qualität und Würde.</p>
           <p class="vb-intro">Kritiker im Bistum beschrieben seinen Führungsstil als autoritär.</p>
         </blockquote>
 
