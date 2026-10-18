@@ -30025,7 +30025,7 @@ function portraitEditionRoutes() {
   return _portraitEditionRoutes;
 }
 // Aufpreis-Link (Stripe Payment Link) – wird mit dem Zahlungsteil der Edition gesetzt.
-const PORTRAIT_UPGRADE_URL = "";
+const PORTRAIT_UPGRADE_URL = "https://buy.stripe.com/dRmeVd0Wk1u2eBQbrt4gg3P";
 const PORTRAIT_APP_TITLE = "Enneagramm-Porträts";
 
 // Bibel-Portraits \u2013 literarisch-typologische Deutungen biblischer/neutestamentlicher Figuren, aus "27 Gesichter der Seele" von Detlef Rathmer.

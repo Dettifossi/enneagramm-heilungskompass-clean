@@ -162,7 +162,7 @@ function portraitEditionRoutes() {
   return _portraitEditionRoutes;
 }
 // Aufpreis-Link (Stripe Payment Link) – wird mit dem Zahlungsteil der Edition gesetzt.
-const PORTRAIT_UPGRADE_URL = "";
+const PORTRAIT_UPGRADE_URL = "https://buy.stripe.com/00wcN5gVigoW79ocvx4gg3R";
 const PORTRAIT_APP_TITLE = "Enneagram Portraits";
 
 // Zentrales Portraits-Register – neue Zeile hier → Übersicht, Table of Contents und Leseprobe aktualisieren sich automatisch.
