@@ -50702,6 +50702,27 @@ function teeEnneagrammPage() {
   `);
 }
 
+// Psychogramm-Seite: Lerncomic-Bild (typ-N-comic.jpg auf R2) mit Umschalter zur klassischen Fassung.
+// Fehlt das Comic-Bild, bleibt die klassische Ansicht unverändert (kein Umschalter).
+window._psychoComicReady = function (img) {
+  const root = img.closest(".psycho-detail");
+  if (!root) return;
+  root.querySelector(".psycho-switch").style.display = "flex";
+  window._psychoMode(root.querySelector('[data-psycho-mode="comic"]'), "comic");
+};
+window._psychoMode = function (btn, mode) {
+  const root = btn.closest(".psycho-detail");
+  if (!root) return;
+  root.querySelector(".psycho-comic").style.display = mode === "comic" ? "block" : "none";
+  root.querySelector(".psycho-classic").style.display = mode === "comic" ? "none" : "block";
+  root.querySelectorAll(".psycho-switch button").forEach((b) => {
+    const on = b === btn;
+    b.setAttribute("aria-pressed", on ? "true" : "false");
+    b.style.background = on ? "var(--copper,#a5652f)" : "transparent";
+    b.style.color = on ? "#fff" : "var(--ink,#28241f)";
+  });
+};
+
 function psychogrammePage() {
   const param = state.route.split("/")[1];
   const typNr = param ? parseInt(param) : null;
@@ -50714,8 +50735,13 @@ function psychogrammePage() {
         <button class="ghost-link psycho-back" data-route="psychogramme">← Alle Psychogramme</button>
         <h1 class="psycho-detail__title">Typ ${t.typ} &ndash; ${t.name}</h1>
         <p class="psycho-detail__kern">${t.kern}</p>
+        <div class="psycho-switch" role="group" aria-label="Psychogram view" style="display:none;justify-content:center;gap:.5rem;margin:.2rem 0 1rem;">
+          <button type="button" data-psycho-mode="comic" aria-pressed="false" onclick="window._psychoMode(this,'comic')" style="border:1px solid var(--copper,#a5652f);border-radius:999px;padding:.35rem 1rem;font:inherit;font-size:.9rem;cursor:pointer;">Learning comic</button>
+          <button type="button" data-psycho-mode="classic" aria-pressed="false" onclick="window._psychoMode(this,'classic')" style="border:1px solid var(--copper,#a5652f);border-radius:999px;padding:.35rem 1rem;font:inherit;font-size:.9rem;cursor:pointer;">Classic</button>
+        </div>
         <div class="psycho-img-wrap">
-          <img src="${CDN}assets/schaubilder/psychogramme/typ-${t.typ}.jpg" alt="Psychogramm Typ ${t.typ}" class="psycho-img" />
+          <img src="${R2_CDN}assets/schaubilder/psychogramme/typ-${t.typ}-comic.jpg" alt="Psychogramm Typ ${t.typ} (Learning comic)" class="psycho-img psycho-comic" style="display:none;" onload="window._psychoComicReady(this)" onerror="this.remove()" />
+          <img src="${CDN}assets/schaubilder/psychogramme/typ-${t.typ}.jpg" alt="Psychogramm Typ ${t.typ}" class="psycho-img psycho-classic" />
         </div>
       </div>
     `);
