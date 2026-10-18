@@ -6176,7 +6176,7 @@ function startPage() {
   ` : `
     <button class="primary" data-route="profile">Choose my subtype →</button>
     <button class="secondary" data-route="leseprobe">View app sample</button>
-    <button class="secondary" data-route="kaufen" style="margin-top:.25rem;">Buy access · $ 89 →</button>
+    <button class="secondary" data-route="kaufen" style="margin-top:.25rem;">Buy access · from $ 44 →</button>
     <button class="ghost-link" data-route="freischalt" style="margin-top:.5rem;font-size:.85rem;">Already purchased? Activate access here →</button>
   `;
 
@@ -9181,6 +9181,7 @@ function kaufenPage() {
         <p>For everyone who already knows their Enneagram type and wants to go deeper. For therapists, counsellors and coaches. For people who want to truly understand themselves — not superficially, but really.</p>
         <h3>One-time purchase — lifetime access:</h3>
         <p>$ 89 — one-time, no subscription. All future updates included.</p>
+ <p>There are two ways in: <strong>full access</strong> ($ 89) or, as an easy start, the <strong>Portrait Edition</strong> ($ 44, further down). Switching is possible at any time, your $ 44 is credited.</p>
       </div>
     </section>
     <section class="narrow" style="padding:0 1rem 2rem;">
@@ -9194,7 +9195,7 @@ function kaufenPage() {
           <li>✓ Remedies Compass (homeopathy, Bach, Schuessler, gemstones, teas)</li>
           <li>✓ Essential oils, TCM, childhood imprints</li>
           <li>✓ Music &amp; daily impulses</li>
-          <li>✓ 70 criminal portraits – Enneagram depth analysis of famous cases</li>
+          <li>✓ ${KRIMINAL_PORTRAITS.length} criminal portraits – Enneagram depth analysis of famous cases</li>
           <li>✓ 100+ charts &amp; gallery</li>
           <li>✓ Complete library with 60+ books</li>
           <li>✓ All future updates included</li>
@@ -9206,7 +9207,28 @@ function kaufenPage() {
         </a>
         <p style="font-size:.8rem;opacity:.6;text-align:center;margin-top:.75rem;">Secure payment via Stripe &middot; PayPal accepted &middot; Instant access after payment</p>
       </div>
-      <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;">
+       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:2rem;margin-bottom:1.5rem;border-left:4px solid var(--copper,#a5652f);">
+ <p class="eyebrow" style="margin:0 0 .5rem;">An easy way in</p>
+ <div style="display:flex;align-items:baseline;gap:.75rem;margin-bottom:.4rem;">
+ <span style="font-size:2.2rem;font-weight:700;font-family:'EB Garamond',serif;">$ 44</span>
+ <span style="font-size:.85rem;color:var(--muted);">Portrait Edition · one-time · no subscription</span>
+ </div>
+ <p style="margin:0 0 1rem;font-size:.95rem;line-height:1.6;">Learn the Enneagram through living portraits.</p>
+ <ul style="list-style:none;padding:0;margin:0 0 1rem;display:flex;flex-direction:column;gap:.6rem;">
+ <li>✓ Over ${(Math.floor((BERUEHMT_PORTRAITS.length + KRANKHEITS_PORTRAITS.length + KRIMINAL_PORTRAITS.length + ASTROLOGIE_PORTRAITS.length + BIBEL_PORTRAITS.length) / 100) * 100).toLocaleString("en-US")} portraits: famous personalities, criminal cases, illness, astrology and Bible portraits</li>
+ <li>✓ Life, illness and crime pattern compasses</li>
+ <li>✓ Enneagram Memory</li>
+ <li>✓ Lifetime access, new portraits included</li>
+ <li>✓ Upgrade to full access at any time, your $ 44 is credited</li>
+ </ul>
+ <p style="font-size:.88rem;color:var(--muted);line-height:1.5;margin:0 0 1.2rem;">Not included: the 27 subtype profiles, the remedies, the type tests, and the charts and tools. These come with full access.</p>
+ <a href="https://buy.stripe.com/eVqdR9fReegO51g5354gg3Q" target="_blank" rel="noopener"
+ style="display:block;width:100%;text-align:center;background:#2d4a3e;color:#fff;padding:1rem;border-radius:10px;font-size:1.1rem;font-weight:600;text-decoration:none;box-sizing:border-box;">
+ Buy Portrait Edition → $ 44
+ </a>
+ <p style="font-size:.8rem;opacity:.6;text-align:center;margin-top:.75rem;">Secure payment via Stripe · login details by email</p>
+ </div>
+ <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;">
         <h3 style="margin-top:0;">Questions?</h3>
         <p style="margin:0;font-size:.95rem;">For questions about access, write to <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>
       </div>
@@ -51153,7 +51175,8 @@ function freischaltPage() {
           </div>
         </div>
 
-        <div class="freischalt-card__divider"><span>Already purchased? Sign in here:</span></div>
+        <p style="font-size:.88rem;line-height:1.5;color:var(--muted);text-align:center;margin:1rem 0 1.2rem;">Rather start with the portraits first? <a href="https://buy.stripe.com/eVqdR9fReegO51g5354gg3Q" target="_blank" rel="noopener" style="color:var(--copper,#a5652f);">Portrait Edition for $ 44</a> – upgrade at any time, your $ 44 is credited.</p>
+ <div class="freischalt-card__divider"><span>Already purchased? Sign in here:</span></div>
 
         <!-- E-Mail-Login (neue Kunden) -->
         <div id="panelEmail">

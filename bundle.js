@@ -35607,7 +35607,7 @@ function startPage() {
   ` : `
     <button class="primary" data-route="profile">Meinen Subtyp w\u00e4hlen \u2192</button>
     <button class="secondary" data-route="leseprobe">App-Leseprobe ansehen</button>
-    <button class="secondary" data-route="kaufen" style="margin-top:.25rem;">Zugang kaufen \u00b7 \u20ac\u202f79 \u2192</button>
+    <button class="secondary" data-route="kaufen" style="margin-top:.25rem;">Zugang kaufen \u00b7 ab \u20ac\u202f39 \u2192</button>
     <button class="ghost-link" data-route="freischalt" style="margin-top:.5rem;font-size:.85rem;">Bereits gekauft? Zugang hier aktivieren \u2192</button>
   `;
 
@@ -38218,6 +38218,7 @@ function kaufenPage() {
         <p>F\u00fcr alle, die ihren Enneagrammtyp bereits kennen und tiefer gehen wollen. F\u00fcr Therapeuten, Berater und Coaches. F\u00fcr Menschen, die sich selbst verstehen wollen \u2014 nicht oberfl\u00e4chlich, sondern wirklich.</p>
         <h3>Einmaliger Kauf \u2014 lebenslanger Zugang:</h3>
         <p>\u20ac 79 \u2014 einmalig, kein Abo. Alle zuk\u00fcnftigen Updates sind inklusive.</p>
+ <p>Es gibt zwei Wege: den <strong>Vollzugang</strong> (€ 79) oder, als günstigen Einstieg, die <strong>Porträt-Edition</strong> (€ 39, weiter unten). Ein Wechsel ist jederzeit möglich, die 39 € werden angerechnet.</p>
       </div>
     </section>
     <section class="narrow" style="padding:0 1rem 2rem;">
@@ -38231,7 +38232,7 @@ function kaufenPage() {
           <li>\u2713 Heilmittel-Kompass (Hom\u00f6opathie, Bach, Sch\u00fc\u00dfler, Edelsteine, Tees)</li>
           <li>\u2713 \u00c4therische \u00d6le, TCM, Kindheitspr\u00e4gung</li>
           <li>\u2713 Musik & Tagesimpulse</li>
-          <li>\u2713 70 Kriminalportr\u00e4ts \u2013 Enneagramm-Tiefenanalyse ber\u00fchmter F\u00e4lle</li>
+          <li>\u2713 ${KRIMINAL_PORTRAITS.length} Kriminalportr\u00e4ts \u2013 Enneagramm-Tiefenanalyse ber\u00fchmter F\u00e4lle</li>
           <li>\u2713 100+ Schaubilder & Galerie</li>
           <li>\u2713 Komplette Bibliothek mit 60+ B\u00fcchern</li>
           <li>\u2713 Alle zuk\u00fcnftigen Updates inklusive</li>
@@ -38243,7 +38244,28 @@ function kaufenPage() {
         </a>
         <p style="font-size:.8rem;opacity:.6;text-align:center;margin-top:.75rem;">Sicherer Kauf \u00fcber Stripe &middot; auch per PayPal &middot; Sofortiger Zugang nach Zahlung</p>
       </div>
-      <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;">
+       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:2rem;margin-bottom:1.5rem;border-left:4px solid var(--copper,#a5652f);">
+ <p class="eyebrow" style="margin:0 0 .5rem;">Günstiger Einstieg</p>
+ <div style="display:flex;align-items:baseline;gap:.75rem;margin-bottom:.4rem;">
+ <span style="font-size:2.2rem;font-weight:700;font-family:'EB Garamond',serif;">€ 39</span>
+ <span style="font-size:.85rem;color:var(--muted);">Porträt-Edition · einmalig · kein Abo</span>
+ </div>
+ <p style="margin:0 0 1rem;font-size:.95rem;line-height:1.6;">Das Enneagramm lernen über lebendige Porträts.</p>
+ <ul style="list-style:none;padding:0;margin:0 0 1rem;display:flex;flex-direction:column;gap:.6rem;">
+ <li>✓ Über ${(Math.floor((BERUEHMT_PORTRAITS.length + KRANKHEITS_PORTRAITS.length + KRIMINAL_PORTRAITS.length + ASTROLOGIE_PORTRAITS.length + BIBEL_PORTRAITS.length) / 100) * 100).toLocaleString("de-DE")} Porträts: berühmte Persönlichkeiten, Kriminalfälle, Krankheitsporträts, Astrologie und Bibel</li>
+ <li>✓ Lebens-, Krankheits- und Kriminalmusterkompass</li>
+ <li>✓ Enneagramm-Memory</li>
+ <li>✓ Lebenslanger Zugang, neue Porträts inklusive</li>
+ <li>✓ Jederzeit auf den Vollzugang erweiterbar, die 39 € werden angerechnet</li>
+ </ul>
+ <p style="font-size:.88rem;color:var(--muted);line-height:1.5;margin:0 0 1.2rem;">Nicht enthalten: die 27 Subtyp-Profile, die Heilmittel, die Typentests sowie die Schaubilder und Tools. Diese gibt es im Vollzugang.</p>
+ <a href="https://buy.stripe.com/8x2aEX8oM8WufFUeDF4gg3O" target="_blank" rel="noopener"
+ style="display:block;width:100%;text-align:center;background:#2d4a3e;color:#fff;padding:1rem;border-radius:10px;font-size:1.1rem;font-weight:600;text-decoration:none;box-sizing:border-box;">
+ Porträt-Edition kaufen → € 39
+ </a>
+ <p style="font-size:.8rem;opacity:.6;text-align:center;margin-top:.75rem;">Sicherer Kauf über Stripe · Zugangsdaten per E-Mail</p>
+ </div>
+ <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;">
         <h3 style="margin-top:0;">Fragen?</h3>
         <p style="margin:0;font-size:.95rem;">Bei Fragen zum Zugang schreib an <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>
       </div>
@@ -76048,7 +76070,8 @@ function freischaltPage() {
           </div>
         </div>
 
-        <div class="freischalt-card__divider"><span>Bereits gekauft? Jetzt anmelden:</span></div>
+        <p style="font-size:.88rem;line-height:1.5;color:var(--muted);text-align:center;margin:1rem 0 1.2rem;">Lieber erst mit den Porträts starten? <a href="https://buy.stripe.com/8x2aEX8oM8WufFUeDF4gg3O" target="_blank" rel="noopener" style="color:var(--copper,#a5652f);">Porträt-Edition für € 39</a> – jederzeit aufstockbar, die 39 € werden angerechnet.</p>
+ <div class="freischalt-card__divider"><span>Bereits gekauft? Jetzt anmelden:</span></div>
 
         <!-- E-Mail-Login (neue Kunden) -->
         <div id="panelEmail">

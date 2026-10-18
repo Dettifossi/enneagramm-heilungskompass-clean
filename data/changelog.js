@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2523", date: "2026-10-19", text: "Neu: Die Porträt-Edition für 39 € – der günstige Einstieg über über 1.000 Porträts, die drei Muster-Kompasse und das Memory-Spiel. Jederzeit auf den Vollzugang erweiterbar.", text_en: "New: the Portrait Edition for $44 – an easy way in through over 1,000 portraits, the three pattern compasses and the memory game. Upgrade to full access at any time.", route: "kaufen" },
     { version: "v2522", date: "2026-10-19", text: "Neues Schaubild: Wann und wie entsteht der Enneagrammtyp im Rahmen der menschlichen Entwicklung?", text_en: "New diagram: When and how does the Enneagram type arise in the course of human development?", route: "wann-entsteht-der-typ" },
     { version: "v2521", date: "2026-10-19", text: "Neuer Wissensartikel: Ändert sich der Typ im Laufe des Lebens? Temperament, Vererbung, Flügel und Stresspunkte.", text_en: "New knowledge article: Does the type change over the course of life? Temperament, heredity, wings and stress points.", route: "typ-aendert-sich-nicht" },
     { version: "v2520", date: "2026-10-19", text: "Neues Porträt: Wayne Dyer (SO9w8) – Psychologe, Autor und Redner.", text_en: "New portrait: Wayne Dyer (SO9w8) – psychologist, author and speaker.", route: "beruehmte-wayne-dyer" },
