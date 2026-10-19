@@ -57,6 +57,8 @@ const ROUTES = [
   { hash: "en/#krankheitsportraets-mette-marit", label: "Neues EN-Krankheitsporträt: Mette-Marit" },
   { hash: "#beruehmte-gert-postel", label: "Neues Porträt: Gert Postel" },
   { hash: "en/#beruehmte-gert-postel", label: "Neues EN-Porträt: Gert Postel" },
+  { hash: "#beruehmte-florence-nightingale", label: "Neues Porträt: Florence Nightingale" },
+  { hash: "en/#beruehmte-florence-nightingale", label: "Neues EN-Porträt: Florence Nightingale" },
   { hash: "#beruehmte-nico-rosberg", label: "Neues Porträt: Nico Rosberg" },
   { hash: "en/#beruehmte-nico-rosberg", label: "Neues EN-Porträt: Nico Rosberg" },
   { hash: "#beruehmte-lewis-hamilton", label: "Neues Porträt: Lewis Hamilton" },

@@ -134,6 +134,7 @@ export function albertSchweitzerPortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
         {route:"beruehmte-mutter-teresa", label:"Portrait: Mother Teresa (SO2w1)"},
+        {route:"beruehmte-florence-nightingale", label:"Portrait: Florence Nightingale (SO2w1) – also self-sacrificing care paired with lasting institution-building"},
       ])}
     </div>
   `);
