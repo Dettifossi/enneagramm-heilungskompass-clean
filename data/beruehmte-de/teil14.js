@@ -2621,3 +2621,73 @@ export function lewisHamiltonPortraitPage() {
     </div>
   `);
 }
+
+export function hallaTomasdottirPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-halla-tomasdottir-portrait.jpg" alt="Halla Tómasdóttir – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Halla Tómasdóttir</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einerflügel</p>
+        <p class="krim-portrait-subtitle">Präsidentin von Island seit 2024, geb. 1968 &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> ist das Tier des sozialen Typs 9 &ndash; kein Einzelgänger, sondern ein Herdentier, dessen Identität sich aus der Zugehörigkeit zu einer größeren Gemeinschaft speist, nicht aus individueller Profilierung. Der Büffel führt nicht durch Befehl oder Lautstärke, sondern durch ruhige, vertrauenerweckende Präsenz, der andere sich von selbst anschließen. Halla Tómasdóttir, am 11. Oktober 1968 in Reykjavík geboren und seit dem 1. August 2024 Präsidentin von Island, verkörpert dieses Bild in einem Land, dessen politische Kultur gerade in den letzten Jahren zunehmend gespalten war &ndash; sie trat nicht an, um eine Seite zu vertreten, sondern um das Land wieder zusammenzuführen.</p>
+          <p class="vb-intro">Sie ist erst die zweite Frau im isländischen Präsidentenamt nach Vigdís Finnbogadóttir (1980&ndash;1996) und gewann die Wahl 2024 nach einer ersten erfolglosen Kandidatur 2016, bei der sie Guðni Th. Jóhannesson unterlag. Zwischen beiden Kandidaturen liegt eine jahrzehntelange Laufbahn, die durchgängig auf Brückenbau statt auf Konfrontation setzte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Einheit als Lebensaufgabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Neun (SO9)</strong> ist nach Naranjo der Subtyp, bei dem sich die Trägheit der Neun &ndash; das Vergessen der eigenen Bedürfnisse zugunsten äußerer Harmonie &ndash; nicht in privatem Rückzug äußert, sondern in der aktiven Arbeit an Zusammenhalt innerhalb einer Gruppe oder Gesellschaft. Naranjo nannte diesen Subtyp den der ›Teilhabe‹: Das eigene Selbst tritt nicht als profilierte Einzelperson auf, sondern verschmilzt mit der größeren Sache, der es dient &ndash; hier: der Einheit eines ganzen Landes.</p>
+          <p class="vb-intro">Tómasdóttirs gesamte Präsidentschaftskampagne 2024 war explizit auf diese Funktion zugeschnitten: Sie positionierte sich bewusst parteipolitisch neutral, vermied es, sich einem politischen Lager zuzuordnen, und präsentierte sich als Kandidatin, die ein zunehmend polarisiertes Land wieder zusammenführen könne. Das ist keine taktische Zurückhaltung, sondern gelebte Neuner-Identität: Führung wird nicht als Durchsetzung der eigenen Agenda verstanden, sondern als Herstellung von Verbindung zwischen Lagern, die sich sonst auseinanderzubewegen drohen.</p>
+          <p class="vb-intro">Dieselbe Dynamik prägte bereits ihre Zeit als Mitgründerin der Investmentgesellschaft Auður Capital 2007: Sie sprach dort von ›emotional capital‹ &ndash; der Idee, Investitionsentscheidungen nicht nur anhand von Zahlen, sondern anhand des gesamten menschlichen und kulturellen Gefüges eines Unternehmens zu treffen. Nach eigener Darstellung kam die Firma ohne direkte Verluste durch den isländischen Bankenkollaps von 2008 &ndash; eine Zeit, in der sie sich öffentlich für mehr Vielfalt am Verhandlungstisch einsetzte, weil unterschiedliche Perspektiven ihrer Ansicht nach zu einer vollständigeren Risikoeinschätzung führten. Auch hier: nicht die eigene Position durchsetzen, sondern möglichst viele Stimmen einbeziehen, bevor eine gemeinsame Entscheidung entsteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einerflügel: Prinzipien statt Beliebigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einerflügel (w1)</strong> verleiht der sozialen Neun eine innere Verankerung in Prinzipien, die ihr sonst fehlen könnte &ndash; die SO9w1 sucht Einheit nicht um jeden Preis, sondern Einheit auf Grundlage dessen, was richtig ist. Tómasdóttirs vier Grundsätze bei Auður Capital &ndash; Risikobewusstsein, Klartext, emotionales Kapital und ›Profit mit Prinzipien‹ &ndash; sind auffällig ethisch-prinzipiengeleitet formuliert, nicht auf Status oder Glanz ausgerichtet. Das unterscheidet eine SO9w1 deutlich von einer SO9w8, deren Harmoniebestreben eher von roher Durchsetzungskraft im Hintergrund getragen wird.</p>
+          <p class="vb-intro">Dieselbe Prinzipientreue zeigte sich in ihrer Arbeit als CEO von The B Team (2018&ndash;2024), einer globalen Non-Profit-Initiative für verantwortungsvolleres Wirtschaften: Sie beschrieb ihre Rolle dort selbst als Vertrauensaufbau zwischen Wirtschaftsführern mit unterschiedlichen, oft gegensätzlichen Interessen &ndash; aber stets mit dem erklärten Ziel, diese Zusammenarbeit an klar benannten ethischen Standards auszurichten, nicht an bloßem Kompromiss um des Kompromisses willen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Was ihren Weg trug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Tómasdóttirs Laufbahn von bloßer Begabung zur Vermittlung unterscheidet, ist die konkrete fachliche Vorbereitung dahinter. Sie erwarb 1993 einen Bachelor in Betriebswirtschaft an der Auburn University in Montgomery und 1995 einen MBA an der Thunderbird School of Global Management in Arizona, bevor sie in den 1990er-Jahren für internationale Konzerne wie Mars und PepsiCo in den USA arbeitete &ndash; eine harte betriebswirtschaftliche Schulung, die ihrem späteren Konzept des ›emotional capital‹ erst die nötige fachliche Autorität verlieh, um in der Finanzbranche überhaupt ernst genommen zu werden. Ohne diese Grundlage wäre ihr Ansatz leicht als naive Gefühlsduselei abgetan worden &ndash; mit ihr wurde er zu einer eigenständigen, in der Praxis erprobten Methode.</p>
+          <p class="vb-intro">Diese Kombination aus fachlicher Substanz und beziehungsorientierter Haltung erklärt, warum sie 2024 als Konsenskandidatin überzeugte: Sie trat nicht als charismatische Außenseiterin an, sondern als jemand mit nachweisbarer Erfahrung in Wirtschaft, internationaler Diplomatie und gemeinnütziger Führungsarbeit &ndash; eine Statur, die der Einerflügel braucht, um Einheit nicht nur zu wünschen, sondern tatsächlich glaubwürdig herzustellen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Steffi Graf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine aufschlussreiche Parallele findet sich bei der Tennisspielerin Steffi Graf (SO9w1): Auch sie zeichnete sich durch eine Abwesenheit von Drama und Selbstdarstellung aus &ndash; ›Sie macht kein Drama. Sie braucht kein Publikum, um zu wissen, dass sie da ist‹ &ndash;, kombiniert mit einer hohen, fast unauffälligen professionellen Disziplin. Beide Frauen zeigen dasselbe SO9w1-Muster: Wirkung entsteht nicht durch demonstrative Führung, sondern durch stille, prinzipientreue Präsenz, der andere von selbst Vertrauen entgegenbringen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO9w1 ist ihre Fähigkeit, in einer zunehmend polarisierten politischen Landschaft tatsächlich als glaubwürdige, von vielen akzeptierte Vermittlerin wahrgenommen zu werden &ndash; eine Rolle, die reinen Konfliktparteien verwehrt bleibt. Tómasdóttirs Wahlsieg 2024 nach der Niederlage 2016 zeigt zudem eine stille, beharrliche Zähigkeit, die der Neun oft abgesprochen wird.</p>
+          <p class="vb-intro">Der Schatten: Die ständige Suche nach Einheit kann dazu führen, dass notwendige, unbequeme Konflikte zu lange vermieden werden. Ein weitgehend repräsentatives Amt wie das isländische Präsidentenamt bietet dafür allerdings einen vergleichsweise sicheren Rahmen &ndash; die eigentliche Machtprobe für dieses Muster liegt eher in ihrer früheren Arbeit mit konkurrierenden Wirtschaftsinteressen als im aktuellen Staatsamt selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Vermächtnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Halla Tómasdóttirs Weg vom Finanzsektor über internationale Nachhaltigkeitsarbeit bis ins höchste Staatsamt Islands zeigt das SO9w1-Muster in einer seiner konstruktivsten Formen: Einheit nicht als Verwässerung eigener Standpunkte, sondern als aktiv gestaltete, prinzipiengeleitete Gemeinschaftsarbeit. Der Büffel, der nicht führt, indem er brüllt, sondern indem er geht &ndash; und die Herde folgt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"beruehmte-steffi-graf", label:"Porträt: Steffi Graf (SO9w1) – dieselbe stille, prinzipientreue Präsenz"},
+        {route:"beruehmte-alan-mcelligott", label:"Porträt: Dr. Alan McElligott (SO9w1)"},
+      ])}
+    </div>
+  `);
+}

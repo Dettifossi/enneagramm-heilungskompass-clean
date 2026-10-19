@@ -57,6 +57,8 @@ const ROUTES = [
   { hash: "en/#kriminalpsychologie-frank-hanebuth", label: "Neues EN-Kriminalporträt: Frank Hanebuth" },
   { hash: "#beruehmte-draupadi-murmu", label: "Neues Porträt: Draupadi Murmu" },
   { hash: "en/#beruehmte-draupadi-murmu", label: "Neues EN-Porträt: Draupadi Murmu" },
+  { hash: "#beruehmte-halla-tomasdottir", label: "Neues Porträt: Halla Tómasdóttir" },
+  { hash: "en/#beruehmte-halla-tomasdottir", label: "Neues EN-Porträt: Halla Tómasdóttir" },
   { hash: "#die-neuen-enneagramm-typen", label: "Neues Schaubild: Die neuen Enneagramm-Typen" },
   { hash: "en/#die-neuen-enneagramm-typen", label: "Neues EN-Schaubild: Die neuen Enneagramm-Typen" },
   { hash: "#krankheitsportraets-johannes-paul-ii", label: "Neues Krankheitsporträt: Johannes Paul II." },

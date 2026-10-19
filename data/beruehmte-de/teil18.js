@@ -1423,6 +1423,7 @@ export function steffiGrafPortraitPage() {
         {route:"beruehmte-baerbel-bas", label:"Portr\u00e4t: B\u00e4rbel Bas (SE9w1)"},
         {route:"beruehmte-dalai-lama", label:"Portr\u00e4t: Dalai Lama XIV. (SO9w1) \u2013 dieselbe stille Selbstverst\u00e4ndlichkeit"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portr\u00e4t: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"beruehmte-halla-tomasdottir", label:"Portr\u00e4t: Halla T\u00f3masd\u00f3ttir (SO9w1) \u2013 dieselbe stille, prinzipientreue Pr\u00e4senz"},
       ])}
     </div>
   `);

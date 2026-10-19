@@ -2495,3 +2495,73 @@ export function brianWilsonPortraitPage() {
     </div>
   `);
 }
+
+export function hallaTomasdottirPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-halla-tomasdottir-portrait.jpg" alt="Halla Tómasdóttir – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Halla Tómasdóttir</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type Nine with a One-Wing</p>
+        <p class="krim-portrait-subtitle">President of Iceland since 2024, b. 1968 &ndash; animal correspondence: buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Buffalo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>buffalo</strong> is the animal of the social Nine – not a loner, but a herd animal whose identity comes from belonging to a larger community rather than from individual distinction. The buffalo does not lead by command or volume, but through a calm, trust-inspiring presence that others join of their own accord. Halla Tómasdóttir, born on 11 October 1968 in Reykjavík and President of Iceland since 1 August 2024, embodies this image in a country whose political culture had grown increasingly polarized in recent years – she ran not to represent one side, but to bring the country back together.</p>
+          <p class="vb-intro">She is only the second woman to hold the Icelandic presidency after Vigdís Finnbogadóttir (1980–1996), and won the 2024 election after an unsuccessful first bid in 2016, in which she lost to Guðni Th. Jóhannesson. Between those two candidacies lies a decades-long career that consistently favored bridge-building over confrontation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Nine: Unity as a Life Task</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>social Nine (SO9)</strong> is the subtype in which the Nine's inertia – forgetting one's own needs in favor of outward harmony – expresses itself not as private withdrawal, but as active work on cohesion within a group or society. Naranjo called this subtype the one of "participation": the self does not appear as a distinguished individual, but merges with the larger cause it serves – here, the unity of an entire country.</p>
+          <p class="vb-intro">Tómasdóttir's entire 2024 presidential campaign was explicitly tailored to this function: she deliberately positioned herself as politically neutral, avoided aligning with any political camp, and presented herself as a candidate capable of reuniting an increasingly polarized country. This is not tactical restraint but lived Nine-type identity: leadership is understood not as asserting one's own agenda, but as creating connection between camps that would otherwise drift apart.</p>
+          <p class="vb-intro">The same dynamic already shaped her time as a co-founder of the investment firm Auður Capital in 2007: she spoke there of "emotional capital" – the idea of making investment decisions not only based on numbers, but on the entire human and cultural fabric of a company. By her own account, the firm came through Iceland's 2008 banking collapse without direct losses – a time during which she publicly advocated for more diversity at the negotiating table, on the grounds that different perspectives led to a more complete assessment of risk. Here too: not asserting one's own position, but drawing in as many voices as possible before a shared decision is reached.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Principles Instead of Arbitrariness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Nine an inner anchoring in principle that she might otherwise lack – the SO9w1 does not seek unity at any price, but unity grounded in what is right. Tómasdóttir's four principles at Auður Capital – risk awareness, straight talk, emotional capital, and "profit with principles" – are notably ethics-driven in their formulation, not oriented toward status or glamour. This clearly distinguishes an SO9w1 from an SO9w8, whose striving for harmony tends to be carried by raw assertiveness held in reserve.</p>
+          <p class="vb-intro">The same fidelity to principle showed in her work as CEO of The B Team (2018–2024), a global non-profit initiative for more responsible business practices: she described her role there as building trust between business leaders with differing, often opposing interests – but always with the stated goal of aligning that cooperation with clearly named ethical standards, not mere compromise for its own sake.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: What Carried Her Path</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Tómasdóttir's career apart from a mere talent for mediation is the concrete professional grounding behind it. She earned a bachelor's degree in business administration from Auburn University at Montgomery in 1993 and an MBA from the Thunderbird School of Global Management in Arizona in 1995, before working for international corporations such as Mars and PepsiCo in the United States during the 1990s – a rigorous business education that gave her later concept of "emotional capital" the professional authority it needed to be taken seriously in the finance industry at all. Without this foundation, her approach could easily have been dismissed as naive sentimentality – with it, it became a distinct, practically tested method.</p>
+          <p class="vb-intro">This combination of professional substance and relational orientation explains why she won over voters as a consensus candidate in 2024: she did not run as a charismatic outsider, but as someone with demonstrable experience in business, international diplomacy, and non-profit leadership – a stature the One-wing needs to not merely wish for unity, but actually establish it credibly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. A Parallel Within the Same Subtype: Steffi Graf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A revealing parallel can be found in tennis player Steffi Graf (SO9w1): she too was marked by an absence of drama and self-display – "She makes no drama. She doesn't need an audience to know she's there" – combined with a high, almost unremarkable professional discipline. Both women show the same SO9w1 pattern: impact arises not from demonstrative leadership, but from a quiet, principle-driven presence that others come to trust of their own accord.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO9w1 is her ability to be perceived, in an increasingly polarized political landscape, as a genuinely credible, widely accepted mediator – a role denied to pure partisans. Tómasdóttir's 2024 election victory after her 2016 defeat also shows a quiet, persistent tenacity that is often denied to the Nine.</p>
+          <p class="vb-intro">The shadow: the constant search for unity can mean that necessary, uncomfortable conflicts are avoided for too long. A largely representative office like the Icelandic presidency, however, offers a comparatively safe frame for this – the real test of this pattern lies more in her earlier work with competing business interests than in her current office of state.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Legacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Halla Tómasdóttir's path from finance through international sustainability work to Iceland's highest office of state shows the SO9w1 pattern in one of its most constructive forms: unity not as a dilution of one's own positions, but as actively shaped, principle-driven community work. The buffalo who does not lead by roaring, but by walking – and the herd follows.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: subtype profile"},
+        {route:"beruehmte-steffi-graf", label:"Portrait: Steffi Graf (SO9w1) – the same quiet, principle-driven presence"},
+        {route:"beruehmte-alan-mcelligott", label:"Portrait: Dr. Alan McElligott (SO9w1)"},
+      ])}
+    </div>
+  `);
+}

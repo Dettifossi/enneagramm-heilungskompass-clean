@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2542", date: "2026-10-19", text: "Neues Porträt: Halla Tómasdóttir (SO9w1) – Präsidentin von Island.", text_en: "New portrait: Halla Tómasdóttir (SO9w1) – President of Iceland.", route: "beruehmte-halla-tomasdottir" },
     { version: "v2541", date: "2026-10-19", text: "Neues Porträt: Draupadi Murmu (SE8w9) – 15. Präsidentin Indiens.", text_en: "New portrait: Draupadi Murmu (SE8w9) – 15th President of India.", route: "beruehmte-draupadi-murmu" },
     { version: "v2540", date: "2026-10-19", text: "Neues Kriminalporträt: Frank Hanebuth (SO8w9) – langjähriger Anführer des Hells-Angels-Charters Hannover.", text_en: "New criminal portrait: Frank Hanebuth (SO8w9) – longtime leader of the Hells Angels Hanover chapter.", route: "kriminalpsychologie-frank-hanebuth" },
     { version: "v2539", date: "2026-10-19", text: "Neues Porträt: Louis Klamroth (SX5w6) – Journalist und Moderator von ›Hart aber fair‹.", text_en: "New portrait: Louis Klamroth (SX5w6) – journalist and host of ›Hart aber fair‹.", route: "beruehmte-louis-klamroth" },

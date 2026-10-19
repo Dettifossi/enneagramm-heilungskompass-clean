@@ -1424,6 +1424,7 @@ export function steffiGrafPortraitPage() {
         {route:"beruehmte-baerbel-bas", label:"Portrait: Bärbel Bas (SP9w1)"},
         {route:"beruehmte-dalai-lama", label:"Portrait: Dalai Lama XIV. (SO9w1) – the same quiet self-evidence"},
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SP9w8)"},
+        {route:"beruehmte-halla-tomasdottir", label:"Portrait: Halla Tómasdóttir (SO9w1) – the same quiet, principle-driven presence"},
       ])}
     </div>
   `);
