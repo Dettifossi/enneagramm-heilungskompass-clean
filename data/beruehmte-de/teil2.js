@@ -1107,6 +1107,7 @@ export function edwardSnowdenPortraitPage() {
         {route:"beruehmte-taylor-swift", label:"Portr\u00e4t: Taylor Swift (SX5w4)"},
         {route:"beruehmte-jodie-foster", label:"Portr\u00e4t: Jodie Foster (SX5w6)"},
         {route:"beruehmte-roman-polanski", label:"Portr\u00e4t: Roman Polanski (SX5w6) \u2013 ebenfalls jahrzehntelang auf der Flucht"},
+        {route:"beruehmte-louis-klamroth", label:"Portr\u00e4t: Louis Klamroth (SX5w6) \u2013 dieselbe Durchbrechung der sch\u00fctzenden Distanz f\u00fcr eine einzige, bedeutsame Verbindung"},
       ])}
     </div>
   `);

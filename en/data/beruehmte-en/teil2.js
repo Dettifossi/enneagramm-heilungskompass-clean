@@ -1109,6 +1109,7 @@ export function edwardSnowdenPortraitPage() {
         {route:"beruehmte-taylor-swift", label:"Portrait: Taylor Swift (SX5w4)"},
         {route:"beruehmte-jodie-foster", label:"Portrait: Jodie Foster (SX5w6)"},
         {route:"beruehmte-roman-polanski", label:"Portrait: Roman Polanski (SX5w6) – also decades spent fleeing"},
+        {route:"beruehmte-louis-klamroth", label:"Portrait: Louis Klamroth (SX5w6) – the same breaking of protective distance for a single, significant connection"},
       ])}
     </div>
   `);

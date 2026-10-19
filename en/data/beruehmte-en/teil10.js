@@ -2468,3 +2468,70 @@ export function johannesPaulIIPortraitPage() {
     </div>
   `);
 }
+
+export function louisKlamrothPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-louis-klamroth-portrait.jpg" alt="Louis Klamroth – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Louis Klamroth</p>
+        <p class="krim-portrait-typ">SX5w6 &middot; Sexual Type Five with a Six-Wing</p>
+        <p class="krim-portrait-subtitle">German journalist &amp; TV host, b. 1989 &ndash; animal correspondence: hedgehog</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hedgehog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hedgehog</strong> is the animal of the sexual Five &ndash; a creature that curls into a ball and shows its quills at the first sign of danger, that prefers to observe rather than expose itself, but that, once it does uncurl, can approach someone with surprising directness. Louis Klamroth, who since January 2023 has succeeded Frank Plasberg as host of the ARD political talk show "Hart aber fair" ("Tough but Fair"), visibly carries this double nature: a man with a political science degree from Amsterdam and the London School of Economics who would rather retreat behind analysis and structure than expose himself emotionally &ndash; and who at the same time publicly disclosed one of his most intimate relationships, fully aware of the professional cost it would carry.</p>
+          <p class="vb-intro">Born on 28 October 1989 in Hamburg, the son of actor Peter Lohmeyer (known for, among other roles, "The Miracle of Bern") and nephew of journalist Wibke Bruhns, Klamroth himself first grew up in the spotlight as a child actor before turning toward the analytical, more distanced pole of his heritage: political journalism. In 2016 he launched "Klamroths Konter" on n-tv, at the time Germany's youngest political talk-show host &ndash; a format in which he learned to create closeness with interview partners without exposing himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Five: Trust Instead of Withdrawal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>sexual Five (SX5)</strong> is the <strong>counter-type</strong> of the Five: while the self-preservation Five withdraws into private niches and the social Five passes its knowledge on to a group, the SX5 breaks through its own protective wall for the one connection it deems important enough. Naranjo called this theme <em>trust</em>: not the crowd, not the private refuge, but the single, chosen, intense relationship becomes the place where the Five opens up &ndash; and risks something it otherwise avoids with all its might.</p>
+          <p class="vb-intro">In Klamroth, this pattern can be read from a single, widely discussed public event: in December 2022 he made his relationship with climate activist Luisa Neubauer public &ndash; shortly before taking over from Plasberg at "Hart aber fair." For a Five, whose protective strategy normally consists of shielding anything private, this is a remarkable reversal: instead of concealing the relationship, he explained publicly that the audience had "a claim" to know, since his partner was herself a public figure. This is not the openness of a Two or a Seven, who lives outward by nature anyway &ndash; it is the calculated, almost confrontational boundary-crossing of an SX5 who deliberately gives up her otherwise protected distance for a single connection deemed significant, even while anticipating the storm of debate it would trigger over his journalistic neutrality.</p>
+          <p class="vb-intro">The same tension between withdrawal and intense devotion shows in his own description of his first year at "Hart aber fair": he said in retrospect that at first he had "not felt the freedom to host the way that suits me" &ndash; a characteristically Five phrasing that shows how much he initially held back his own perspective, until he came to experience the format as a safe enough frame for his particular kind of closeness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-Wing: Responsibility Before Authority</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the sexual Five a keen sense of duty toward institutions and a fine instinct for risk and safeguarding. The SX5w6 does not act rashly &ndash; it checks in advance whom it is dealing with, what rules apply, what consequences loom, and secures itself before taking a step that could endanger its own position.</p>
+          <p class="vb-intro">In Klamroth this shows in how he framed the disclosure of his relationship with Neubauer: not as a romantic confession, but as a pre-considered boundary, coordinated with the broadcaster &ndash; with the explicit stipulation that Neubauer would never be a guest on his own show. This is the Six-wing in its purest form: before risking trust, the rules that will offer protection if things go wrong are laid down first. His public back-and-forth with predecessor Plasberg ("He wants the break" &ndash; Klamroth: "I remember the events entirely differently") shows the same posture: not seeking open confrontation, but pinning down one's own account of events unmistakably the moment one's integrity is questioned.</p>
+          <p class="vb-intro">The Six-wing also explains why Klamroth moved conspicuously cautiously when taking over a 22-year-old, institutionally entrenched format, rather than overhauling it immediately &ndash; introducing change only gradually, with a new studio and colour concept, with added room for citizens' voices. This is not indecision but the typical Six strategy: moving carefully within an existing, trusted system before changing it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: What Carries Him as a Host</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Klamroth apart from a mere spotlight-raised newcomer is the analytical sharpness with which he conducts political panel discussions &ndash; a legacy of his political science studies in Amsterdam and at the London School of Economics (LSE). Hosting an interview without taking a visible position oneself, while precisely exposing the weak points of an argument, takes more than charisma: it takes a robust grasp of political context, which he sharpened over five years in his own first format "Klamroths Konter" (2016&ndash;2021), before taking over, at only 33, one of Germany's most storied political talk formats.</p>
+          <p class="vb-intro">This ability to maintain distance without appearing cold is exactly the balancing act the sexual Five with a Six-wing must master: enough withdrawal to remain neutral as a host, but enough devotion to individual guests to allow genuine moments of conversation rather than mere question-and-answer ritual. That he repeatedly exposed himself to public criticism and a published dispute with his prominent predecessor shows that he does not seek comfortable harmony, but defends his own reading of events the moment it is challenged &ndash; a Six-wing steadfastness that surfaces whenever his own integrity is at stake.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX5w6 is its ability, despite fundamental reticence, to live out a single, significant connection with full consequence &ndash; even at the cost of public debate over its own neutrality. Klamroth could have concealed his relationship, as many public figures do. Instead, he chose disclosure &ndash; paired with clear, pre-set boundaries meant to safeguard his journalistic integrity.</p>
+          <p class="vb-intro">The shadow: the same caution that protects him from rash steps can read as hesitancy &ndash; his own admission that in his first year he had "not felt the freedom" to host the way that suits him shows how much Five-energy needs safety first before it shows itself. And the public dispute with Plasberg can also be read this way: a w6 need to pin down one's own version of the story at all costs, out of worry about otherwise being misrepresented.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Path to Healing: Trust Without Reservation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Five's path to healing leads from <em>I don't have enough to show myself fully</em> to <em>I can show myself without losing myself.</em> For the SX5w6, this means concretely: trusting the one connection that truly matters, without first surrounding it with rules and safeguards. Klamroth's public handling of his relationship is a step on this path &ndash; braver than pure withdrawal, but still accompanied by the Six-wing's characteristic caution of securing everything in advance.</p>
+          <p class="vb-intro">What remains is the question his path so far poses: how much closeness can a Five bear before she begins to lose herself &ndash; and how much safeguarding does a Six-wing need before realizing he no longer needs it at all?</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx5", label:"SX5 – The Hedgehog: subtype profile"},
+        {route:"beruehmte-edward-snowden", label:"Portrait: Edward Snowden (SX5w6) – the same breaking of protective distance in a single, risky act"},
+        {route:"beruehmte-jodie-foster", label:"Portrait: Jodie Foster (SX5w6)"},
+      ])}
+    </div>
+  `);
+}

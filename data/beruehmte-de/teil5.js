@@ -2491,3 +2491,70 @@ export function aliceWeidelPortraitPage() {
     </div>
   `);
 }
+
+export function louisKlamrothPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-louis-klamroth-portrait.jpg" alt="Louis Klamroth – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Louis Klamroth</p>
+        <p class="krim-portrait-typ">SX5w6 &middot; Sexueller Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Journalist &amp; TV-Moderator, geb. 1989 &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier des sexuellen Typs 5 &ndash; ein Wesen, das sich bei Gefahr zusammenrollt und Stacheln zeigt, das lieber beobachtet als sich zu zeigen, das aber, wenn es sich einmal entrollt, mit erstaunlicher Direktheit auf jemanden zugehen kann. Louis Klamroth, seit Januar 2023 Nachfolger von Frank Plasberg als Moderator der ARD-Polittalkshow &bdquo;Hart aber fair&ldquo;, trägt diese Doppelnatur sichtbar vor sich her: ein Mann mit politikwissenschaftlichem Studium in Amsterdam und an der London School of Economics, der sich lieber hinter Analyse und Struktur verschanzt, als sich emotional zu exponieren &ndash; und der zugleich öffentlich eine seiner intimsten Beziehungen offenlegte, obwohl er genau wusste, welchen beruflichen Preis das haben würde.</p>
+          <p class="vb-intro">Geboren am 28. Oktober 1989 in Hamburg als Sohn des Schauspielers Peter Lohmeyer (bekannt u. a. aus &bdquo;Das Wunder von Bern&ldquo;) und Neffe der Journalistin Wibke Bruhns, wuchs Klamroth selbst zunächst als Kinderdarsteller im Scheinwerferlicht auf, bevor er sich dem analytisch-distanzierten Pol seiner Herkunft zuwandte: dem politischen Journalismus. 2016 startete er mit &bdquo;Klamroths Konter&ldquo; bei n-tv als damals jüngster Polit-Talk-Moderator Deutschlands &ndash; ein Format, in dem er lernte, Nähe zu Gesprächspartnern herzustellen, ohne sich selbst preiszugeben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Fünf: Vertrauen statt Rückzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Fünf (SX5)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Fünf: Während die selbsterhaltende Fünf sich in private Nischen zurückzieht und die soziale Fünf ihr Wissen an eine Gruppe weitergibt, durchbricht die SX5 ihre eigene Schutzmauer für die eine Verbindung, die ihr wichtig genug erscheint. Naranjo nannte dieses Thema <em>Vertrauen</em>: Nicht die Masse, nicht das private Refugium, sondern die ausgewählte, intensive Beziehung wird zum Ort, an dem die Fünf sich öffnet &ndash; und genau dort riskiert sie etwas, das sie sonst mit aller Macht vermeidet.</p>
+          <p class="vb-intro">Bei Klamroth lässt sich dieses Muster an einem einzigen, öffentlich breit diskutierten Ereignis ablesen: Im Dezember 2022 machte er seine Beziehung zur Klimaaktivistin Luisa Neubauer öffentlich &ndash; kurz bevor er die Nachfolge Plasbergs bei &bdquo;Hart aber fair&ldquo; antrat. Für eine Fünf, deren Schutzstrategie normalerweise im Abschotten des Privaten besteht, ist das eine bemerkenswerte Umkehrung: Statt die Beziehung zu verbergen, erklärte er öffentlich, das Publikum habe &bdquo;einen Anspruch&ldquo; darauf, es zu wissen, weil seine Partnerin selbst eine Person des öffentlichen Lebens sei. Das ist nicht die Offenheit eines Zweiers oder Siebeners, der ohnehin nach außen lebt &ndash; es ist die kalkulierte, fast konfrontative Grenzüberschreitung einer SX5, die ihre sonst geschützte Distanz für eine einzige, als bedeutsam erachtete Verbindung bewusst aufgibt, obwohl sie ahnt, dass das einen Sturm an Debatten über seine journalistische Neutralität auslösen wird.</p>
+          <p class="vb-intro">Dieselbe Spannung zwischen Rückzug und intensiver Zuwendung zeigt sich in seiner eigenen Beschreibung des ersten Jahres bei &bdquo;Hart aber fair&ldquo;: Er habe zunächst &bdquo;nicht die Freiheit gespürt, so zu moderieren, wie es mir entspricht&ldquo;, sagte er rückblickend &ndash; eine fünfertypische Formulierung, die zeigt, wie sehr er zunächst die eigene Perspektive zurückhielt, bis er das Format als sicheren Rahmen für seine Art der Nähe empfand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Verantwortung vor Autorität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt der sexuellen Fünf ein waches Pflichtgefühl gegenüber Institutionen und ein feines Gespür für Risiko und Absicherung. Die SX5w6 handelt nicht leichtfertig &ndash; sie prüft vorab, mit wem sie es zu tun hat, welche Regeln gelten, welche Konsequenzen drohen, und sichert sich ab, bevor sie einen Schritt wagt, der die eigene Position gefährden könnte.</p>
+          <p class="vb-intro">Bei Klamroth zeigt sich das in der Art, wie er die Offenlegung seiner Beziehung zu Neubauer rahmte: nicht als romantisches Bekenntnis, sondern als vorab durchdachte, mit dem Sender abgestimmte Grenzziehung &ndash; mit der ausdrücklichen Festlegung, dass Neubauer niemals Gast seiner eigenen Sendung sein werde. Das ist der Sechserflügel in Reinform: Bevor Vertrauen riskiert wird, werden die Regeln festgelegt, die im Zweifel Schutz bieten. Auch sein öffentlicher Schlagabtausch mit Vorgänger Plasberg (&bdquo;Er will den Bruch&ldquo; &ndash; Klamroth: &bdquo;Ich habe die Ereignisse gänzlich anders in Erinnerung&ldquo;) zeigt diese Haltung: keine offene Konfrontation suchen, aber die eigene Darstellung der Ereignisse unmissverständlich festhalten, sobald die eigene Integrität infrage steht.</p>
+          <p class="vb-intro">Der Sechserflügel erklärt auch, warum Klamroth sich bei der Übernahme eines 22 Jahre alten, institutionell fest verankerten Formats auffällig vorsichtig bewegte, statt es sofort radikal umzubauen &ndash; erst schrittweise, mit neuem Studio- und Farbkonzept, mit zusätzlichem Raum für Bürgerstimmen. Das ist keine Unentschlossenheit, sondern die typische Sechser-Strategie: sich in einem bestehenden, als verlässlich erkannten System zunächst vorsichtig bewegen, bevor man es verändert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Was ihn als Moderator trägt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Klamroth von einer bloßen Nachwuchskraft im Scheinwerferlicht unterscheidet, ist die analytische Schärfe, mit der er politische Gesprächsrunden führt &ndash; ein Erbe seines politikwissenschaftlichen Studiums in Amsterdam und an der London School of Economics (LSE). Wer ein Interview führt, ohne selbst Position zu beziehen, aber zugleich die Schwachstellen eines Arguments präzise freilegt, braucht mehr als Charisma: Er braucht ein belastbares Verständnis politischer Zusammenhänge, das er in seinem ersten eigenen Format &bdquo;Klamroths Konter&ldquo; (2016&ndash;2021) über fünf Jahre hinweg schärfte, bevor er mit erst 33 Jahren eines der traditionsreichsten Polit-Talkformate Deutschlands übernahm.</p>
+          <p class="vb-intro">Diese Fähigkeit, Distanz zu wahren, ohne kalt zu wirken, ist genau die Gratwanderung, die die sexuelle Fünf mit Sechserflügel meistern muss: genug Rückzug, um als Moderator neutral zu bleiben, aber genug Zuwendung zu einzelnen Gästen, um echte Gesprächsmomente zu ermöglichen statt bloßer Frage-Antwort-Rituale. Dass er sich dabei wiederholt öffentlicher Kritik und einem publizierten Streit mit seinem prominenten Vorgänger aussetzte, zeigt: Er sucht nicht die bequeme Harmonie, sondern verteidigt seine eigene Lesart der Ereignisse, sobald sie infrage gestellt wird &ndash; eine sechserflügel-typische Standhaftigkeit, sobald die eigene Integrität auf dem Spiel steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX5w6 ist ihre Fähigkeit, trotz grundsätzlicher Zurückhaltung eine einzelne, bedeutsame Verbindung mit voller Konsequenz zu leben &ndash; selbst wenn sie dafür öffentliche Debatten über die eigene Neutralität in Kauf nehmen muss. Klamroth hätte seine Beziehung verbergen können, wie es viele öffentliche Personen tun. Stattdessen entschied er sich für die Offenlegung &ndash; verbunden mit klaren, vorab gesetzten Grenzen, die seine journalistische Integrität absichern sollten.</p>
+          <p class="vb-intro">Der Schatten: Die gleiche Vorsicht, die ihn vor unüberlegten Schritten schützt, kann als Zögerlichkeit erscheinen &ndash; sein eigenes Eingeständnis, im ersten Jahr &bdquo;nicht die Freiheit gespürt&ldquo; zu haben, so zu moderieren, wie es ihm entspricht, zeigt, wie sehr die Fünf-Energie zunächst Sicherheit braucht, bevor sie sich zeigt. Und die öffentliche Auseinandersetzung mit Plasberg lässt sich auch so lesen: ein w6-typisches Bedürfnis, die eigene Version der Geschichte unbedingt festzuhalten, aus Sorge, sonst falsch dazustehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vertrauen ohne Vorbehalt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von <em>Ich habe nicht genug, um mich ganz zu zeigen</em> zu <em>Ich kann mich zeigen, ohne mich zu verlieren.</em> Für die SX5w6 bedeutet das konkret: der einen Verbindung, die wirklich zählt, zu vertrauen, ohne sie vorab mit Regeln und Absicherungen zu umstellen. Klamroths öffentlicher Umgang mit seiner Beziehung ist ein Schritt auf diesem Weg &ndash; mutiger als der reine Rückzug, aber noch begleitet von der sechserflügel-typischen Vorsicht, alles im Vorfeld abzusichern.</p>
+          <p class="vb-intro">Was bleibt, ist die Frage, die sein bisheriger Weg stellt: Wie viel Nähe verträgt eine Fünf, bevor sie beginnt, sich selbst zu verlieren &ndash; und wie viel Absicherung braucht ein Sechserflügel, bevor er merkt, dass er sie gar nicht mehr braucht?</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-edward-snowden", label:"Porträt: Edward Snowden (SX5w6) – dieselbe Durchbrechung der schützenden Distanz in einem einzigen, riskanten Akt"},
+        {route:"beruehmte-jodie-foster", label:"Porträt: Jodie Foster (SX5w6)"},
+      ])}
+    </div>
+  `);
+}
