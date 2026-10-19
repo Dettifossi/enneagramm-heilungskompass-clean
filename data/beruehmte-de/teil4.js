@@ -2558,7 +2558,7 @@ export function olafSchubertPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sozialen Eins mit Neunerflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SO1w9 zeigt sich in Schuberts Fähigkeit, eine echte moralische Reformbotschaft über drei Jahrzehnte zu transportieren, ohne dabei je verbittert, zynisch oder angreifend zu wirken – ein seltenes Kunststück, das Publikum zum Lachen bringt, während es gleichzeitig zum Nachdenken anregt.</p>
+          <p class="vb-intro">Das Licht der SO1w9 zeigt sich in Schuberts Fähigkeit, eine echte moralische Reformbotschaft über drei Jahrzehnte zu transportieren, ohne dabei je verbittert, zynisch oder angreifend zu wirken – ein seltenes Kunststück, welches das Publikum zum Lachen bringt, während es gleichzeitig zum Nachdenken anregt.</p>
           <p class="vb-intro">Der Schatten liegt in der Gefahr, dass die Botschaft hinter der Absurdität vollständig verschwindet – wer die Logikspiele nur als Unsinn konsumiert, verpasst die eigentliche Reformmission, die sie trägt. Wo der Achterflügel einer SO1 unmissverständlich wäre, riskiert der Neunerflügel, dass die eigene moralische Position so stark verwässert wird, dass sie kaum noch als Position erkennbar ist.</p>
         </blockquote>
 
