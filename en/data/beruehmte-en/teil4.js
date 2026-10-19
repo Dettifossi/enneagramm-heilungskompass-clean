@@ -2507,3 +2507,72 @@ export function katharinaDieGrossePortraitPage() {
     </div>
   `);
 }
+
+export function rosaLuxemburgPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-rosa-luxemburg-portrait.jpg" alt="Rosa Luxemburg – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rosa Luxemburg</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with Nine-wing</p>
+        <p class="krim-portrait-subtitle">Marxist theorist and revolutionary, 1871&ndash;1919 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose that flew in formation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Goose</strong> never flies alone &ndash; it organizes in formation, holds its line, takes turns at the lead so the whole group makes progress. That is the principle of the Social One: the drive toward correctness is not lived in isolation but bound to a larger order &ndash; a movement, a party, a class. Rosa Luxemburg was born in 1871 in Zamość, then under Russian occupation (today Poland), the youngest of five children in a Jewish merchant family. A hip ailment mistreated in childhood left her limping for life; as a woman, a Jew, and a Polish native in Germany, she moved from early on in a position of multiple social marginalization.</p>
+          <p class="vb-intro">In 1898 she earned a doctorate in political science in Zurich &ndash; one of the few universities that admitted women at the time &ndash; and that same year moved to Berlin, where within a few years she rose to become one of the leading theorists of German Social Democracy (SPD), despite being a woman and a foreigner who would ordinarily have been granted scarcely any voice in the party.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: adherence to principle even against her own side</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social One (SO1)</strong> directs its perfectionism not at private integrity but at correcting collective structures &ndash; and holds to that standard even when it strikes her own allies. In 1914 the SPD's Reichstag faction voted for war credits and thus for entry into the First World War; Luxemburg publicly and permanently broke with the party she had served for nearly two decades, because she could not accept this betrayal of the party's own principle &ndash; international working-class solidarity instead of national warmongering. For her anti-war agitation she sat in prison almost continuously between 1915 and 1918.</p>
+          <p class="vb-intro">She showed the same incorruptibility toward her own revolutionary allies in 1918: in her essay "The Russian Revolution," she supported the Bolsheviks' goals but sharply criticized their suppression of press and assembly freedom &ndash; coining the still-quoted line: "Freedom is always and exclusively the freedom of the one who thinks differently." That is the Social One in its purest form: a recognized wrong is named, even when committed by one's own cause.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: merging instead of personal accusation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing</strong> shows up in Luxemburg not as restrained language &ndash; her political writings were sharp and uncompromising &ndash; but as a tendency to dissolve her own person into the collective rather than putting herself forward. Companions and biographers describe how she repeatedly subordinated personal needs to party unity and theoretical consistency; her central theoretical disagreement with Lenin was precisely her trust in the "spontaneity of the masses" over strict top-down party control &ndash; organic collective harmony rather than imposed individual control, a classic Nine-wing value.</p>
+          <p class="vb-intro">This pattern shows especially clearly in her famous prison letters to Sophie Liebknecht (1916&ndash;1918): in them she describes, at length, a bird she watched through her cell window, or a beaten buffalo in the prison yard whose pain she felt as her own &ndash; a diffuse, merging empathy with suffering in general, not the individually targeted attention toward one specific person that would be typical of a Two-wing. Even in the painful breakup with her longtime political and personal partner Leo Jogiches, she avoided open personal confrontation and instead processed the rupture through her work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: an independent Marxist theorist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What set Rosa Luxemburg apart was not just revolutionary commitment but independent, methodologically ambitious economic theory. In "The Accumulation of Capital" (1913), she attempted to close a gap in Marx's own reproduction schemas: she argued that capitalist economies could sustain long-term growth only through the continued expansion into non-capitalist territories (colonies, agrarian societies) &ndash; a theory of imperialism as an economic necessity of capitalism itself, still debated in economic history today, however controversial it remained among specialists.</p>
+          <p class="vb-intro">In December 1918/January 1919, together with Karl Liebknecht, she founded the Spartacus League and the Communist Party of Germany (KPD) &ndash; an attempt to turn theoretical work into an independent revolutionary organization separate from the SPD. Her sharp legal and economic argumentation, paired with a gift for political writing, made her one of the most feared opponents of the political right of her time.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel within the same subtype: Navi Pillay</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the portraits in this compass, <a href="#beruehmte-navi-pillay">Navi Pillay (SO1w9)</a> offers a revealing parallel: both women overcame multiple forms of social marginalization (Pillay as a non-white woman in apartheid South Africa, Luxemburg as a Jewish, Polish-born woman in Imperial Germany) through uncompromising theoretical-legal precision work that ultimately spared neither her own allies nor powerful institutions. Both showed the Nine-wing's characteristic renunciation of personal accusation in favor of matter-of-fact argument aimed at the larger whole &ndash; in Pillay's case a dry legal reporting tone even at the most politically explosive moments, in Luxemburg's case a merging solidarity with the suffering that never centered on her own person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the Social One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In its light, Luxemburg shows the ability to name a development she judged wrong even when it strikes her own movement, her own party, or her own closest allies &ndash; a rare intellectual independence that earned her as many enemies as admirers in her lifetime. Her willingness to go to prison repeatedly for her convictions rather than moderate her course shows the consistency with which the One lives its principles.</p>
+          <p class="vb-intro">The One's besetting pattern is <strong>anger</strong> &ndash; in the SO1w9 channeled into tireless theoretical and organizational corrective work, rarely visible as open personal sharpness toward individuals. The shadow of this pattern shows in how the same incorruptibility that made her a moral authority also isolated her in the end: on 15 January 1919, after the Spartacist uprising was crushed, she was murdered together with Karl Liebknecht by Freikorps soldiers, her body thrown into the Landwehr Canal &ndash; she died for the principle she would not abandon even at mortal risk.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Legacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rosa Luxemburg was only 47 when she died, yet her theoretical and political writing still shapes socialist and Marxist thought today, far beyond the immediate political camps that invoke her. Her line about the freedom of the one who thinks differently is still quoted today against authoritarian co-optation from every political direction &ndash; a legacy that shows the Social One with a Nine-wing in its purest form: adherence to principle that is not exhausted in personal accusation, but lived as an uncompromising commitment to the cause itself, to the very last consequence.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: subtype profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-navi-pillay", label:"Portrait: Navi Pillay (SO1w9) – also uncompromising theoretical-legal precision work against multiple social marginalization"},
+      ])}
+    </div>
+  `);
+}

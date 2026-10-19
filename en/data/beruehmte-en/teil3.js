@@ -2491,6 +2491,7 @@ export function naviPillayPortraitPage() {
         {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
         {route:"beruehmte-alice-weidel", label:"Portrait: Alice Weidel (SO1w9)"},
         {route:"beruehmte-hillary-clinton", label:"Portrait: Hillary Clinton (SO1w2) – different wing"},
+        {route:"beruehmte-rosa-luxemburg", label:"Portrait: Rosa Luxemburg (SO1w9) – also uncompromising theoretical-legal precision work against multiple social marginalization"},
       ])}
     </div>
   `);

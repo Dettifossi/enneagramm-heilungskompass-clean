@@ -2483,3 +2483,72 @@ export function erichVonDaenikenPortraitPage() {
     </div>
   `);
 }
+
+export function rosaLuxemburgPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-rosa-luxemburg-portrait.jpg" alt="Rosa Luxemburg – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rosa Luxemburg</p>
+        <p class="krim-portrait-typ">SO1w9 · Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Marxistische Theoretikerin und Revolutionärin, 1871–1919 – Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die im Verband flog</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> fliegt nie allein – sie organisiert sich im Verband, hält Formation, wechselt sich an der Spitze ab, damit die ganze Gruppe weiterkommt. Das ist das Prinzip der sozialen Eins: Das eigene Streben nach Richtigkeit wird nicht isoliert gelebt, sondern an eine größere Ordnung gebunden – an Bewegung, Partei, Klasse. Rosa Luxemburg wurde 1871 im damals russisch besetzten Zamość (heute Polen) als jüngstes von fünf Kindern einer jüdischen Kaufmannsfamilie geboren. Eine als Kind falsch behandelte Hüfterkrankung ließ sie ihr Leben lang hinken; als Frau, als Jüdin, als gebürtige Polin in Deutschland bewegte sie sich von früh an in mehrfacher gesellschaftlicher Außenseiterposition.</p>
+          <p class="vb-intro">1898 promovierte sie in Zürich – eine der wenigen Universitäten, die Frauen damals überhaupt zuließen – in Staatswissenschaften und ging noch im selben Jahr nach Berlin, wo sie innerhalb weniger Jahre zu einer der führenden Theoretikerinnen der deutschen Sozialdemokratie (SPD) aufstieg, obwohl ihr als Frau und Ausländerin eigentlich kaum eine Stimme in der Partei zugestanden worden wäre.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Prinzipientreue gegen die eigene Seite</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> richtet ihren Perfektionismus nicht auf die eigene private Integrität, sondern auf die Korrektur kollektiver Strukturen – und hält an diesem Maßstab fest, auch wenn er die eigenen Verbündeten trifft. 1914 stimmte die SPD-Reichstagsfraktion für die Kriegskredite und damit für den Ersten Weltkrieg; Luxemburg brach öffentlich und endgültig mit der Partei, der sie fast zwei Jahrzehnte gedient hatte, weil sie den Verrat am eigenen Prinzip – internationale Arbeitersolidarität statt nationaler Kriegstreiberei – nicht hinnehmen konnte. Für ihre Agitation gegen den Krieg saß sie zwischen 1915 und 1918 fast durchgehend im Gefängnis.</p>
+          <p class="vb-intro">Dieselbe Unbestechlichkeit zeigte sie 1918 gegenüber den eigenen revolutionären Verbündeten: In ihrer Schrift ›Die Russische Revolution‹ unterstützte sie das Ziel der Bolschewiki, kritisierte aber deren Unterdrückung von Presse- und Versammlungsfreiheit scharf – mit dem bis heute zitierten Satz: ›Freiheit ist immer nur die Freiheit des Andersdenkenden.‹ Das ist die soziale Eins in Reinform: ein als falsch erkannter Fehler wird benannt, selbst wenn er von der eigenen Sache begangen wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Verschmelzung statt persönlicher Anklage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel</strong> zeigt sich bei Luxemburg nicht als sachliche Zurückhaltung in der Sprache – ihre politischen Schriften waren scharf und kompromisslos –, sondern als eine Tendenz, die eigene Person im Kollektiv aufzulösen, statt sie zu profilieren. Weggefährten und Biografinnen beschreiben, wie sie persönliche Bedürfnisse wiederholt der Parteieinheit und der theoretischen Konsequenz unterordnete; ihre zentrale theoretische Differenz zu Lenin war ausgerechnet das Vertrauen auf die ›Spontaneität der Massen‹ gegenüber strenger Parteikontrolle von oben – organische kollektive Harmonie statt durchgesetzter Einzelkontrolle, ein typischer Neunerflügel-Wert.</p>
+          <p class="vb-intro">Besonders deutlich wird dieses Muster in ihren berühmten Gefängnisbriefen an Sophie Liebknecht (1916–1918): Darin beschreibt sie minutenlang einen Vogel, den sie durchs Zellenfenster beobachtete, oder einen geschlagenen Büffel im Gefängnishof, dessen Schmerz sie als eigenen empfand – eine diffuse, verschmelzende Empathie mit dem Leiden allgemein, nicht die gezielt auf eine einzelne Person gerichtete Zuwendung, wie sie für einen Zweierflügel typisch wäre. Selbst in der schmerzhaften Trennung von ihrem langjährigen politischen und persönlichen Partner Leo Jogiches vermied sie offene persönliche Konfrontation und verarbeitete den Bruch stattdessen in der Arbeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Eine eigenständige marxistische Theoretikerin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Rosa Luxemburg auszeichnete, war nicht nur revolutionäres Engagement, sondern eine eigenständige, methodisch anspruchsvolle ökonomische Theoriearbeit. In ›Die Akkumulation des Kapitals‹ (1913) unternahm sie den Versuch, eine Lücke in Marx’ eigenen Reproduktionsschemata zu schließen: Sie argumentierte, kapitalistische Ökonomien könnten ihr Wachstum langfristig nur durch die fortgesetzte Erschließung nicht-kapitalistischer Gebiete (Kolonien, Agrargesellschaften) aufrechterhalten – eine Theorie des Imperialismus als ökonomischer Notwendigkeit des Kapitalismus selbst, die bis heute in der Wirtschaftsgeschichte diskutiert wird, so umstritten sie unter Fachkollegen auch blieb.</p>
+          <p class="vb-intro">Im Dezember 1918/Januar 1919 gründete sie gemeinsam mit Karl Liebknecht den Spartakusbund und die Kommunistische Partei Deutschlands (KPD) – ein Versuch, aus der Theoriearbeit eine eigenständige, von der SPD unabhängige revolutionäre Organisation zu formen. Ihre juristische und ökonomische Argumentationsschärfe, gepaart mit publizistischem Talent, machte sie zu einer der meistgefürchteten Gegnerinnen der politischen Rechten ihrer Zeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Navi Pillay</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den Porträts dieses Kompasses findet sich mit <a href="#beruehmte-navi-pillay">Navi Pillay (SO1w9)</a> eine aufschlussreiche Parallele: Beide Frauen überwanden mehrfache gesellschaftliche Marginalisierung (bei Pillay als nicht-weiße Frau im Apartheid-Südafrika, bei Luxemburg als Jüdin, Polin und Frau im Kaiserreich) durch kompromisslose theoretisch-juristische Präzisionsarbeit, die am Ende selbst die eigenen Verbündeten und mächtige Institutionen nicht schonte. Beide zeigten den für den Neunerflügel typischen Verzicht auf persönliche Anklage zugunsten sachlicher, auf das große Ganze gerichteter Argumentation – bei Pillay als trockener juristischer Berichtston selbst in den politisch explosivsten Momenten, bei Luxemburg als verschmelzende, nie auf die eigene Person zentrierte Solidarität mit den Leidenden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Luxemburg die Fähigkeit, eine als falsch erkannte Entwicklung zu benennen, selbst wenn das die eigene Bewegung, die eigene Partei oder die eigenen engsten Verbündeten trifft – eine seltene intellektuelle Unabhängigkeit, die ihr zu Lebzeiten ebenso viele Feinde wie Bewunderer einbrachte. Ihre Bereitschaft, für die eigene Überzeugung wiederholt ins Gefängnis zu gehen, statt den Kurs zu mäßigen, zeigt die Konsequenz, mit der die Eins ihre Prinzipien lebt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> – bei der SO1w9 kanalisiert in unermüdliche theoretische und organisatorische Korrekturarbeit, selten in offener persönlicher Schärfe gegenüber Einzelpersonen sichtbar. Der Schatten dieses Musters zeigt sich darin, dass dieselbe Unbestechlichkeit, die sie zur moralischen Instanz machte, sie am Ende auch isolierte: Am 15. Januar 1919, nach der Niederschlagung des Spartakusaufstands, wurde sie gemeinsam mit Karl Liebknecht von Freikorps-Soldaten ermordet, ihr Leichnam in den Landwehrkanal geworfen – sie starb für das Prinzip, von dem sie sich auch unter Lebensgefahr nicht abbringen ließ.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Vermächtnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rosa Luxemburg wurde nur 47 Jahre alt, doch ihr theoretisches und publizistisches Werk prägt die sozialistische und marxistische Theoriebildung bis heute, weit über die unmittelbaren politischen Lager hinweg, die sich auf sie berufen. Ihr Satz über die Freiheit des Andersdenkenden wird bis in die Gegenwart gegen autoritäre Vereinnahmung jeder politischen Richtung zitiert – ein Erbe, das die soziale Eins mit Neunerflügel in ihrer reinsten Form zeigt: Prinzipientreue, die sich nicht in persönlicher Anklage erschöpft, sondern in einem bis zur letzten Konsequenz gelebten Anspruch an die Sache selbst.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-navi-pillay", label:"Porträt: Navi Pillay (SO1w9) – ebenfalls kompromisslose theoretisch-juristische Präzisionsarbeit gegen mehrfache gesellschaftliche Marginalisierung"},
+      ])}
+    </div>
+  `);
+}

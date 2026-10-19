@@ -2519,6 +2519,7 @@ export function naviPillayPortraitPage() {
         {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
         {route:"beruehmte-alice-weidel", label:"Porträt: Alice Weidel (SO1w9)"},
         {route:"beruehmte-hillary-clinton", label:"Porträt: Hillary Clinton (SO1w2) – anderer Flügel"},
+        {route:"beruehmte-rosa-luxemburg", label:"Porträt: Rosa Luxemburg (SO1w9) – ebenfalls kompromisslose theoretisch-juristische Präzisionsarbeit gegen mehrfache gesellschaftliche Marginalisierung"},
       ])}
     </div>
   `);
