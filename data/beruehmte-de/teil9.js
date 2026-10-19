@@ -606,7 +606,7 @@ export function guentherJauchPortraitPage() {
         {route:"beruehmte-dirk-rossmann", label:"Portr\xe4t: Dirk Rossmann (SO5w6) \u2013 schrieb unwissentlich eine Buchreihe \u00fcber sein eigenes Tiertotem"},
         {route:"beruehmte-eckhard-freise", label:"Portr\xe4t: Eckhard Freise (SO5w6) \u2013 erster Million\xe4r bei Wer wird Million\xe4r?"},
         {route:"beruehmte-simone-de-beauvoir", label:"Portr\xe4t: Simone de Beauvoir (SO5w6)"},
-        {route:"beruehmte-bernhard-hoecker", label:"Portr\xe4t: Bernhard Hoecker (SO5w6) \u2013 dieselbe Totem-Funktion in schlagfertigerem Ton"},
+        {route:"beruehmte-bernhard-hoecker", label:"Portr\xe4t: Bernhard Hoëcker (SO5w6) \u2013 dieselbe Totem-Funktion in schlagfertigerem Ton"},
       ])}
     </div>
   `);

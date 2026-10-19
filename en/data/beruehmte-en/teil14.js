@@ -2562,9 +2562,9 @@ export function bernhardHoeckerPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bernhard-hoecker-portrait.jpg" alt="Bernhard Hoecker – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bernhard-hoecker-portrait.jpg" alt="Bernhard Hoëcker – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Bernhard Hoecker</p>
+        <p class="krim-portrait-name">Bernhard Hoëcker</p>
         <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with Six-wing</p>
         <p class="krim-portrait-subtitle">Comedian, TV host, quiz expert, b. 1970 &ndash; Animal correspondence: Octopus</p>
       </div>
@@ -2572,7 +2572,7 @@ export function bernhardHoeckerPortraitPage() {
 
         <h2 class="vb-section">1. The Octopus in the studio</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Octopus</strong> is the animal of the Social Five &ndash; highly intelligent, reaching with eight arms at once, never at a loss for an answer. Bernhard Hoecker was born in 1970 and has lived in Bonn since age ten, where he still lives today. He studied economics there before turning to television &ndash; first as part of the sketch comedy series "Switch" (1997&ndash;2001), which honed his comedic craft before he became the figure audiences now know: the man who seems to know everything.</p>
+          <p class="vb-intro">The <strong>Octopus</strong> is the animal of the Social Five &ndash; highly intelligent, reaching with eight arms at once, never at a loss for an answer. Bernhard Hoëcker was born in 1970 and has lived in Bonn since age ten, where he still lives today. He studied economics there before turning to television &ndash; first as part of the sketch comedy series "Switch" (1997&ndash;2001), which honed his comedic craft before he became the figure audiences now know: the man who seems to know everything.</p>
           <p class="vb-intro">Since 2003 he has been a regular panelist on "Genial daneben," since 2015 team captain on "Wer weiß denn sowas?", and since 2012 co-host, alongside Wigald Boning, of the ZDF science format "Nicht nachmachen!" Three different shows, one shared core: Hoecker is the one who carries a panel, a studio audience, or an entire show on his broad general knowledge.</p>
         </blockquote>
 
@@ -2605,7 +2605,7 @@ export function bernhardHoeckerPortraitPage() {
 
         <h2 class="vb-section">7. Legacy</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Over two decades, Bernhard Hoecker has established himself as one of the most reliable quiz and knowledge figures on German television, without ever becoming a mere self-promoter. This is precisely where the Social Five with a Six-wing shows itself in its most mature form: an enormous store of knowledge used not for distinction, but shared steadily, show after show, with the audience &ndash; reliable, humorous, and personally scarcely graspable.</p>
+          <p class="vb-intro">Over two decades, Bernhard Hoëcker has established himself as one of the most reliable quiz and knowledge figures on German television, without ever becoming a mere self-promoter. This is precisely where the Social Five with a Six-wing shows itself in its most mature form: an enormous store of knowledge used not for distinction, but shared steadily, show after show, with the audience &ndash; reliable, humorous, and personally scarcely graspable.</p>
         </blockquote>
 
       </div>

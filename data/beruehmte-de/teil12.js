@@ -2521,9 +2521,9 @@ export function bernhardHoeckerPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bernhard-hoecker-portrait.jpg" alt="Bernhard Hoecker – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bernhard-hoecker-portrait.jpg" alt="Bernhard Hoëcker – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Bernhard Hoecker</p>
+        <p class="krim-portrait-name">Bernhard Hoëcker</p>
         <p class="krim-portrait-typ">SO5w6 · Sozialer Typ 5 mit Sechserflügel</p>
         <p class="krim-portrait-subtitle">Komiker, Moderator, Quiz-Experte, geb. 1970 – Tierentsprechung: Oktopus</p>
       </div>
@@ -2531,7 +2531,7 @@ export function bernhardHoeckerPortraitPage() {
 
         <h2 class="vb-section">1. Der Oktopus im Studio</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 – hochintelligent, mit acht Armen gleichzeitig greifend, dabei nie um eine Antwort verlegen. Bernhard Hoecker wurde 1970 geboren und wuchs seit seinem zehnten Lebensjahr in Bonn auf, wo er bis heute lebt. Er studierte dort Volkswirtschaftslehre, bevor er sich dem Fernsehen zuwandte – zunächst als Teil der Sketch-Comedy-Reihe ›Switch‹ (1997–2001), die sein komisches Handwerkszeug schulte, bevor er zu dem wurde, als das ihn das Publikum kennt: der Mann, der scheinbar alles weiß.</p>
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 – hochintelligent, mit acht Armen gleichzeitig greifend, dabei nie um eine Antwort verlegen. Bernhard Hoëcker wurde 1970 geboren und wuchs seit seinem zehnten Lebensjahr in Bonn auf, wo er bis heute lebt. Er studierte dort Volkswirtschaftslehre, bevor er sich dem Fernsehen zuwandte – zunächst als Teil der Sketch-Comedy-Reihe ›Switch‹ (1997–2001), die sein komisches Handwerkszeug schulte, bevor er zu dem wurde, als das ihn das Publikum kennt: der Mann, der scheinbar alles weiß.</p>
           <p class="vb-intro">Seit 2003 sitzt er als fester Rater bei ›Genial daneben‹, seit 2015 ist er Team-Kapitän bei ›Wer weiß denn sowas?‹, seit 2012 moderiert er gemeinsam mit Wigald Boning das ZDF-Wissenschaftsformat ›Nicht nachmachen!‹. Drei verschiedene Sendungen, ein gemeinsamer Kern: Hoecker ist derjenige, der ein Panel, ein Studiopublikum oder eine ganze Sendung mit seinem breiten Allgemeinwissen trägt.</p>
         </blockquote>
 
@@ -2564,7 +2564,7 @@ export function bernhardHoeckerPortraitPage() {
 
         <h2 class="vb-section">7. Vermächtnis</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Über zwei Jahrzehnte hinweg hat sich Bernhard Hoecker als eine der verlässlichsten Quiz- und Wissensfiguren des deutschen Fernsehens etabliert, ohne je zum reinen Selbstdarsteller zu werden. Genau darin zeigt sich die soziale Fünf mit Sechserflügel in ihrer reifsten Form: ein enormer Wissensschatz, der nicht zur Distinktion genutzt wird, sondern beständig, Sendung für Sendung, mit dem Publikum geteilt wird – verlässlich, humorvoll, und dabei persönlich kaum greifbar.</p>
+          <p class="vb-intro">Über zwei Jahrzehnte hinweg hat sich Bernhard Hoëcker als eine der verlässlichsten Quiz- und Wissensfiguren des deutschen Fernsehens etabliert, ohne je zum reinen Selbstdarsteller zu werden. Genau darin zeigt sich die soziale Fünf mit Sechserflügel in ihrer reifsten Form: ein enormer Wissensschatz, der nicht zur Distinktion genutzt wird, sondern beständig, Sendung für Sendung, mit dem Publikum geteilt wird – verlässlich, humorvoll, und dabei persönlich kaum greifbar.</p>
         </blockquote>
 
       </div>

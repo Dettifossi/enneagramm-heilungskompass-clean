@@ -2,7 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
-    { version: "v2536", date: "2026-10-19", text: "Neues Porträt: Bernhard Hoecker (SO5w6) – Komiker, Moderator, Quiz-Experte.", text_en: "New portrait: Bernhard Hoecker (SO5w6) – comedian, TV host, quiz expert.", route: "beruehmte-bernhard-hoecker" },
+    { version: "v2536", date: "2026-10-19", text: "Neues Porträt: Bernhard Hoëcker (SO5w6) – Komiker, Moderator, Quiz-Experte.", text_en: "New portrait: Bernhard Hoëcker (SO5w6) – comedian, TV host, quiz expert.", route: "beruehmte-bernhard-hoecker" },
     { version: "v2535", date: "2026-10-19", text: "Neues Porträt: Rosa Luxemburg (SO1w9) – marxistische Theoretikerin und Revolutionärin.", text_en: "New portrait: Rosa Luxemburg (SO1w9) – Marxist theorist and revolutionary.", route: "beruehmte-rosa-luxemburg" },
     { version: "v2534", date: "2026-10-19", text: "Neues Porträt: Margaret Thatcher (SO1w2) – erste Premierministerin des Vereinigten Königreichs, die ›Iron Lady‹.", text_en: "New portrait: Margaret Thatcher (SO1w2) – first female Prime Minister of the United Kingdom, the 'Iron Lady'.", route: "beruehmte-margaret-thatcher" },
     { version: "v2533", date: "2026-10-19", text: "Neues Porträt: Florence Nightingale (SO2w1) – Begründerin der modernen Krankenpflege, Statistik-Pionierin.", text_en: "New portrait: Florence Nightingale (SO2w1) – founder of modern nursing, statistics pioneer.", route: "beruehmte-florence-nightingale" },
