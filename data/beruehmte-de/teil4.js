@@ -2510,3 +2510,75 @@ export function henriPoincarePortraitPage() {
     </div>
   `);
 }
+
+export function olafSchubertPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-olaf-schubert-portrait.jpg" alt="Olaf Schubert – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Olaf Schubert</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Sozialer Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Kabarettist &amp; Kunstfigur des Comedians Michael Haubold, geb. 1967 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans im Argyle-Pullunder</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Olaf Schubert ist die Bühnenfigur des 1967 im vogtländischen Plauen geborenen Comedians Michael Haubold, der sie 1995 auf sächsischen Kleinkunstbühnen erfand. Markenzeichen sind ein gestrickter Argyle-Pullunder, eine eigenwillige Überkämmfrisur und eine Bühnenfigur, die sich selbst als ›Weltverbesserer und Humorist‹ sowie ›Wunder im Pullunder‹ bezeichnet. Den bundesweiten Durchbruch brachten Auftritte im ›Quatsch Comedy Club‹ und regelmäßige Beiträge für die ZDF-heute-show, die Schubert über Jahre als feste satirische Stimme etablierten.</p>
+          <p class="vb-intro">Die <strong>Gans</strong> ist das Tier der sozialen Eins: Sie wacht über die Gemeinschaft, mahnt zur Ordnung, zieht laut und unübersehbar Aufmerksamkeit auf das, was falsch läuft – aber als Herdentier, nicht als Einzelkämpferin. Schuberts komische Grundhaltung ist exakt das: Er tritt nicht als zynischer Außenseiter auf, sondern als jemand, der sich ausdrücklich und ernsthaft dem Gemeinwohl verschrieben hat – nur eben mit einer Methode, die komplett schiefläuft, sobald sie auf die Bühne trifft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Der erklärte Weltverbesserer als komisches Prinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo beschrieb die <strong>soziale Eins (SO1)</strong> als die Verfechterin der Vollkommenheit für die Gemeinschaft – Sicherheit und Sinn entstehen aus der erklärten Mission, Zustände zu verbessern, Missstände zu benennen, moralische Orientierung zu stiften. Bei Schubert wird dieser Antrieb zum zentralen komödiantischen Mechanismus selbst gemacht: Er nannte seine eigene Fernsehshow 2014 unverblümt ›Olaf verbessert die Welt!‹ – ein Titel, der die Reformmission der sozialen Eins nicht ironisch unterläuft, sondern als wörtliches Programm präsentiert, bevor der Witz überhaupt beginnt.</p>
+          <p class="vb-intro">Auch seine Rolle als Jury-Vorsitzender des Deutschen Comedypreises 2014 passt in dieses Muster: nicht nur Entertainer, sondern jemand, der über richtig und falsch in der eigenen Zunft urteilt, mit einer selbstverständlichen moralischen Autorität, die über das reine Unterhalten hinausgeht. Die soziale Eins sucht genau diese Position – nicht die beste Pointe allein, sondern die anerkannte Stimme, die sagt, was gilt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Harmlosigkeit statt Zorn, Absurdität statt Anklage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> zeigt sich bei Schubert in der auffälligen Abwesenheit von echtem Zorn. Wo eine stärker achterflügel-geprägte SO1 ihre Reformmission mit scharfer, konfrontativer Attacke verfolgen würde, bleibt Schuberts Kritik bewusst harmlos verpackt: absurde Logikketten, scheinbar naive Folgerungen, ein freundlich-verwirrter Vortragston, der nie wirklich jemanden persönlich angreift. Die moralische Botschaft bleibt bestehen, wird aber so sehr mit Unsinn umhüllt, dass sie nie als Vorwurf ankommt, sondern als Kopfschütteln über die Absurdität der Welt.</p>
+          <p class="vb-intro">Dieselbe Neunerflügel-Tendenz zur Versöhnung statt Konfrontation zeigt sich darin, dass Schubert als Kunstfigur über drei Jahrzehnte hinweg kaum tatsächliche Feindschaften oder öffentliche Skandale produzierte – ungewöhnlich für eine Figur, die sich explizit als moralische Instanz inszeniert. Der Reformimpuls bleibt erhalten, aber eingebettet in eine grundsätzlich gutmütige, nicht verletzende Bühnenpräsenz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Präzise Logikkomik statt bloßer Verkleidung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Schubert als Komiker tatsächlich auszeichnet, ist mehr als Pullunder und Frisur: Seine Pointen funktionieren über eine eigentümlich stringente, scheinbar logische Gedankenführung, die mit falschen Prämissen beginnt und daraus mit todernster Konsequenz absurde Schlussfolgerungen zieht – ein Verfahren, das technisch nah an der klassischen Non-sequitur-Komik liegt, aber mit der spezifisch sächsischen Bedächtigkeit seines Vortragsstils eine eigene, unverwechselbare Textur bekommt. Diese genaue Beherrschung von Timing und Logikstruktur erklärt, warum die Figur auch nach drei Jahrzehnten noch funktioniert, obwohl das äußere Kostüm sich kaum verändert hat.</p>
+          <p class="vb-intro">Bezeichnend ist zudem die bewusste Unschärfe zwischen Figur und Person: Haubold hält sein Privatleben konsequent aus der Öffentlichkeit heraus, während die Mockumentary ›Olaf Jagger‹ (2022) genau mit dieser Grenze zwischen echtem Michael Haubold und erfundenem Olaf Schubert spielt – ein Kunstgriff, der zeigt, wie weit die Kunstfigur inzwischen als eigenständige öffentliche Persönlichkeit tragfähig geworden ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Zwei Gänse der deutschen Comedy: Schubert und Pocher</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-oliver-pocher">Oliver Pocher</a> (SO1w9) – wie Schubert ein deutscher Comedian, dessen Humor sich explizit an gesellschaftlichen Missständen und öffentlichen Figuren abarbeitet, mit demselben Grundantrieb der sozialen Eins: die Gemeinschaft auf das hinzuweisen, was schiefläuft. Beide teilen dieselbe Grundstruktur der sozialen Eins mit Neunerflügel – moralische Mission, verpackt in einen Ton, der Konfrontation eher vermeidet als sucht.</p>
+          <p class="vb-intro">Der Unterschied liegt im Zielobjekt und im Risiko: Pocher sucht die direkte, oft unangenehme Konfrontation mit konkreten Personen und Skandalen der Gegenwart, nah an echter öffentlicher Reibung. Schubert dagegen verlegt die Kritik fast vollständig in das Absurde und Allgemeine – keine Namen, keine konkreten Gegner, sondern eine komplette Parallelwelt aus Pseudologik, in der die moralische Botschaft nie wirklich jemanden persönlich trifft. Zwei Varianten derselben Reformmission, die eine mit offenem Visier, die andere hinter einer sorgfältig aufgebauten Kunstfigur.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO1w9 zeigt sich in Schuberts Fähigkeit, eine echte moralische Reformbotschaft über drei Jahrzehnte zu transportieren, ohne dabei je verbittert, zynisch oder angreifend zu wirken – ein seltenes Kunststück, das Publikum zum Lachen bringt, während es gleichzeitig zum Nachdenken anregt.</p>
+          <p class="vb-intro">Der Schatten liegt in der Gefahr, dass die Botschaft hinter der Absurdität vollständig verschwindet – wer die Logikspiele nur als Unsinn konsumiert, verpasst die eigentliche Reformmission, die sie trägt. Wo der Achterflügel einer SO1 unmissverständlich wäre, riskiert der Neunerflügel, dass die eigene moralische Position so stark verwässert wird, dass sie kaum noch als Position erkennbar ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Die Gans, die lächelnd Alarm schlägt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von sächsischen Kleinkunstbühnen über den ›Quatsch Comedy Club‹ und die ›heute-show‹ bis zur eigenen Sendung ›Olaf verbessert die Welt!‹: Olaf Schubert steht für eine soziale Eins mit Neunerflügel, deren Reformanspruch nie offen aggressiv auftritt, sondern konsequent in Absurdität, Logikspiel und freundliche Verwirrung verpackt bleibt.</p>
+          <p class="vb-intro">Am Ende bleibt das Bild eines Weltverbesserers im Pullunder, der seine moralische Mission so geschickt tarnt, dass sie als Comedy durchgeht – eine Gans, die zwar Alarm schlägt, aber dabei so freundlich lächelt, dass niemand sich ernsthaft angegriffen fühlt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-oliver-pocher", label:"Porträt: Oliver Pocher (SO1w9) – derselbe Subtyp, direktere Konfrontation"},
+        {route:"beruehmte-markus-lanz", label:"Porträt: Markus Lanz (SO1w9)"},
+      ])}
+    </div>
+  `);
+}

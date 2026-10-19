@@ -2486,3 +2486,75 @@ export function carlXVIGustafPortraitPage() {
     </div>
   `);
 }
+
+export function olafSchubertPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-olaf-schubert-portrait.jpg" alt="Olaf Schubert – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Olaf Schubert</p>
+        <p class="krim-portrait-typ">SO1w9 &middot; Social Type 1 with a Nine-wing</p>
+        <p class="krim-portrait-subtitle">German cabaret artist &amp; stage persona of comedian Michael Haubold, b. 1967 &ndash; animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The goose in the argyle vest</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Olaf Schubert is the stage persona of comedian Michael Haubold, born in 1967 in Plauen in the Vogtland region, who invented the character in 1995 on small cabaret stages in Saxony. His trademarks are a knitted argyle vest, a distinctive combed-over hairstyle, and a stage character who describes himself as a ›world improver and humorist‹ and a ›miracle in a vest‹. National breakthrough came through appearances in the ›Quatsch Comedy Club‹ and regular contributions to ZDF's satirical news show heute-show, which established Schubert over the years as a fixed satirical voice.</p>
+          <p class="vb-intro">The <strong>goose</strong> is the animal of the social One: it watches over the community, calls for order, loudly and unmistakably draws attention to what is going wrong – but as a herd animal, not a lone fighter. Schubert's comic stance is exactly this: he does not present himself as a cynical outsider, but as someone explicitly and seriously devoted to the common good – only with a method that goes completely sideways the moment it hits the stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social One: the declared world improver as comic principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo described the <strong>social One (SO1)</strong> as the advocate of perfection for the community – security and meaning arise from a declared mission to improve conditions, name what is wrong, provide moral orientation. In Schubert, this drive is turned into the central comedic mechanism itself: in 2014 he bluntly named his own television show ›Olaf verbessert die Welt!‹ (»Olaf Improves the World!«) – a title that does not ironically undercut the social One's reform mission but presents it as a literal program before the joke even begins.</p>
+          <p class="vb-intro">His role as jury chair of the Deutscher Comedypreis in 2014 fits the same pattern: not just an entertainer, but someone judging right and wrong within his own profession, with a self-evident moral authority that goes beyond pure entertainment. The social One seeks exactly this position – not the best punchline alone, but the recognized voice that says what counts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: harmlessness instead of anger, absurdity instead of accusation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> shows in Schubert in the striking absence of real anger. Where an SO1 with a stronger Eight-wing would pursue its reform mission with sharp, confrontational attack, Schubert's criticism stays deliberately wrapped in harmlessness: absurd chains of logic, seemingly naive deductions, a friendly, confused delivery that never really attacks anyone personally. The moral message remains, but is so thoroughly wrapped in nonsense that it never lands as reproach – only as a head-shake at the absurdity of the world.</p>
+          <p class="vb-intro">The same Nine-wing tendency toward reconciliation rather than confrontation shows in the fact that, across three decades, the character produced almost no real feuds or public scandals – unusual for a figure explicitly staged as a moral authority. The reform impulse stays intact, but embedded in a fundamentally good-natured, non-injurious stage presence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: precise logic-comedy, not just a costume</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What actually distinguishes Schubert as a comedian is more than the vest and the hairstyle: his punchlines work through a peculiarly stringent, seemingly logical train of thought that starts from false premises and draws absurd conclusions from them with deadly seriousness – a technique that lies technically close to classic non-sequitur comedy, but gets its own unmistakable texture from the specifically Saxon deliberateness of his delivery. This precise command of timing and logical structure explains why the character still works after three decades, even though the outer costume has barely changed.</p>
+          <p class="vb-intro">Also notable is the deliberate blurriness between character and person: Haubold consistently keeps his private life out of the public eye, while the mockumentary ›Olaf Jagger‹ (2022) plays exactly with this boundary between the real Michael Haubold and the invented Olaf Schubert – a device that shows how far the stage character has become a viable public personality in its own right.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Two geese of German comedy: Schubert and Pocher</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-oliver-pocher">Oliver Pocher</a> (SO1w9) – like Schubert, a German comedian whose humor explicitly works through social ills and public figures, with the same basic drive of the social One: pointing the community toward what is going wrong. Both share the same basic structure of the social One with a Nine-wing – a moral mission wrapped in a tone that avoids confrontation rather than seeking it.</p>
+          <p class="vb-intro">The difference lies in the target and the risk: Pocher seeks direct, often uncomfortable confrontation with concrete people and present-day scandals, close to real public friction. Schubert, by contrast, almost entirely relocates his criticism into the absurd and the general – no names, no concrete opponents, but an entire parallel world of pseudo-logic in which the moral message never really hits anyone personally. Two variants of the same reform mission, one with open visor, the other behind a carefully constructed stage character.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social One with a Nine-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO1w9 shows in Schubert's ability to carry a genuine moral reform message across three decades without ever becoming bitter, cynical or attacking – a rare feat that makes an audience laugh while also giving it something to think about.</p>
+          <p class="vb-intro">The shadow lies in the risk that the message disappears entirely behind the absurdity – anyone who consumes the logic games as pure nonsense misses the actual reform mission carrying them. Where an SO1's Eight-wing would be unambiguous, the Nine-wing risks diluting one's own moral position so thoroughly that it is barely recognizable as a position at all.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The goose that sounds the alarm with a smile</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From small Saxon cabaret stages, through the ›Quatsch Comedy Club‹ and the ›heute-show‹, to his own program ›Olaf verbessert die Welt!‹: Olaf Schubert stands for a social One with a Nine-wing whose reform claim never shows up as openly aggressive, but stays consistently wrapped in absurdity, logic games and friendly confusion.</p>
+          <p class="vb-intro">In the end, the image that remains is of a world improver in a vest who disguises his moral mission so skillfully that it passes as comedy – a goose that does sound the alarm, but smiles so warmly while doing it that no one feels seriously attacked.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: subtype profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-oliver-pocher", label:"Portrait: Oliver Pocher (SO1w9) – same subtype, more direct confrontation"},
+        {route:"beruehmte-markus-lanz", label:"Portrait: Markus Lanz (SO1w9)"},
+      ])}
+    </div>
+  `);
+}

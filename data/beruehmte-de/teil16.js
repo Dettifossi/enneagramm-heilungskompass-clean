@@ -2229,6 +2229,7 @@ export function oliverPocherPortraitPage() {
         {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9)"},
         {route:"beruehmte-cornelia-funke", label:"Porträt: Cornelia Funke (SO1w9)"},
         {route:"beruehmte-markus-lanz", label:"Porträt: Markus Lanz (SO1w9)"},
+        {route:"beruehmte-olaf-schubert", label:"Porträt: Olaf Schubert (SO1w9) – derselbe Subtyp, absurdere Verpackung"},
       ])}
     </div>
   `);

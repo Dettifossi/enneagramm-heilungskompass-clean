@@ -159,6 +159,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-wolfram-eilenberger", label: "Neues EN-Porträt: Wolfram Eilenberger" },
   { hash: "#beruehmte-ilka-bessin", label: "Neues Porträt: Ilka Bessin" },
   { hash: "en/#beruehmte-ilka-bessin", label: "Neues EN-Porträt: Ilka Bessin" },
+  { hash: "#beruehmte-olaf-schubert", label: "Neues Porträt: Olaf Schubert" },
+  { hash: "en/#beruehmte-olaf-schubert", label: "Neues EN-Porträt: Olaf Schubert" },
 ];
 
 function startServer() {
