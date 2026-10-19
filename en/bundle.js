@@ -36006,7 +36006,7 @@ function davidRathmerPersoenlichkeitenPage() {
     "david-rathmer-persoenlichkeiten",
     "David L. Rathmer · Ennea Exposed",
     "Ennea Exposed: Famous Personalities",
-    "David L. Rathmer analysiert bekannte Persönlichkeiten aus Politik, Wirtschaft und Kultur mit dem Enneagramm — präzise, tiefgehend und oft überraschend aufschlussreich.",
+    "David L. Rathmer analyzes well-known personalities from politics, business, and culture with the Enneagram — precise, in-depth, and often surprisingly revealing.",
     [
       { titel: "Ennea Exposed: Famous Personalities", bookTipAfterEach: bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth — protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1") + bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit") + bookTip("fuehrung-mit-fundament", "Understanding leaders and teams — the Enneagram as a leadership compass.", "Führung mit Fundament"), videos: [
         { id: "LaWtvvpo-x8", label: "Episode 1: Personality Analysis of Vladimir Putin" },
@@ -36016,17 +36016,17 @@ function davidRathmerPersoenlichkeitenPage() {
         { id: "S9NpViOEOmU", label: "Episode 5: Personality Analysis of Kollegah" },
         { id: "XnS_8QaUL8Y", label: "Episode 6: Personality Analysis of Jeffrey Epstein" },
         { id: "tk05kjDO1JA", label: "Episode 7: Personality Analysis of Elon Musk" },
-        { id: "7Kiwaq8iFWo", label: "Trump vs. Musk – Warum Freunde zu Feinden wurden | Profiling-Analyse" },
-        { id: "CHQsVdYZ_eo", label: "Jordan Peterson: Was ihn in Diskussionen unschlagbar macht – Profiler reagiert …" },
-        { id: "N-gMMS2SMBk", label: "Profiler exposed Taddl – Was steckt hinter seinem Image?" },
-        { id: "Eg8oZQwukGo", label: "Profiler reagiert aufs Trump-Attentat – War alles nur inszeniert?" },
-        { id: "If5jZpTLUac", label: "Til Schweiger: Was ihn als Filmemacher einzigartig macht – Profiler reagiert …" },
-        { id: "jJCUgSFPpsM", label: "Andrew Tate: Was steckt hinter seinem Verhalten? – Reaktion vom Profiler" },
+        { id: "7Kiwaq8iFWo", label: "Trump vs. Musk – Why Friends Became Enemies | Profiling Analysis" },
+        { id: "CHQsVdYZ_eo", label: "Jordan Peterson: What Makes Him Unbeatable in Debates – Profiler Reacts …" },
+        { id: "N-gMMS2SMBk", label: "Profiler Exposes Taddl – What's Behind His Image?" },
+        { id: "Eg8oZQwukGo", label: "Profiler Reacts to the Trump Assassination Attempt – Was It All Staged?" },
+        { id: "If5jZpTLUac", label: "Til Schweiger: What Makes Him Unique as a Filmmaker – Profiler Reacts …" },
+        { id: "jJCUgSFPpsM", label: "Andrew Tate: What's Behind His Behavior? – Profiler Reaction" },
         { id: "QzEfQ2M_wL8", label: "AnniTheDuck explained in depth – What is behind her behavior?" },
-        { id: "jr4Uk0y4NoI", label: "Profiler reagiert auf Tomatolix – „Diese Selbstexperimente musste ich abbrechen“" },
+        { id: "jr4Uk0y4NoI", label: "Profiler Reacts to Tomatolix – “I Had to Stop These Self-Experiments”" },
         { id: "kCeWwTbC38I", label: "Marc Gebauer psychologically explained!" },
         { id: "RenXmYRwdps", label: "Jeremy Fragrance - Behaviors explained in depth - Profiler reaction" },
-        { id: "dYs0myM02ec", label: "Profiler reagiert auf ApoRed - „Ich zeige euch ALLES! Auto, Wohnung..." },
+        { id: "dYs0myM02ec", label: "Profiler Reacts to ApoRed – “I Show You EVERYTHING! Car, Apartment...”" },
         { id: "orsDfRl0Pr8", label: "Reinhold Würth: What really drives him" },
       ]},
     ]
@@ -36038,23 +36038,23 @@ function davidRathmerErfolgsinterviewsPage() {
     "david-rathmer-erfolgsinterviews",
     "David L. Rathmer · Erfolgsinterviews",
     "Erfolgsinterviews",
-    "David L. Rathmer im Gespräch mit Unternehmern, Führungskräften und Persönlichkeiten — wie das Enneagramm in der Praxis wirkt und welche Erfolge durch Profiling entstehen.",
+    "David L. Rathmer in conversation with entrepreneurs, leaders, and personalities — how the Enneagram works in practice and what successes profiling creates.",
     [
-      { titel: "Erfolgsinterviews", bookTipAfterEach: bookTip("fuehrung-mit-fundament", "Führungskräfte und Teams verstehen — das Enneagramm als Führungskompass.", "Führung mit Fundament"), videos: [
-        { id: "1cXW4E-2R3A", titel: "Interview 1: Keine Fehlbesetzungen dank Enneagram Profiling", untertitel: "Digistore24" },
-        { id: "WD8fThkCyWs", titel: "Interview 2: Kunden verstehen, Teams führen: Jörgs Resultate mit Profiling", untertitel: "" },
-        { id: "tWrlusgiGr4", titel: "Interview 3: Wie das Profiling Coaching, Verkauf und Beziehung verbessert", untertitel: "Kundeninterview mit Philip" },
-        { id: "EMocsifWclE", titel: "Interview 4: „Für JEDEN, der sich tiefgehend entwickeln möchte!“", untertitel: "Erfolgsinterview mit Daniel Scholz" },
-        { id: "I6EBy-bOmyI", titel: "Interview 5: „Wir können nicht mehr ohne dieses Wissen!“", untertitel: "Erfolgsinterview mit Raimund & Max" },
-        { id: "UxYnrQWLzgM", titel: "Interview 6: So profitieren Unternehmen durch Profiling", untertitel: "Erfolgsinterview mit Philip Hohn" },
-        { id: "JYVFhXC_VXM", titel: "Interview 7: Das mächtigste Tool in deinem Leben", untertitel: "Erfolgsinterview mit Angelika Sauer" },
-        { id: "zGdDhXEecyA", titel: "Interview 8: Wie wendet ein Vereinspräsident das Profiling an?", untertitel: "Erfolgsinterview mit Bastian" },
-        { id: "yIY_a2OTJ4s", titel: "Interview 9: „Typisieren heißt nicht gleich bewerten …“", untertitel: "Erfolgsinterview mit Simon Dornauer" },
-        { id: "IEjfGtWFnjQ", titel: "Interview 10: „Ich sehe die Welt jetzt mit anderen Augen.“", untertitel: "Erfolgsinterview mit Stefan Wittmann" },
-        { id: "jeiv9zBYeCA", titel: "Interview 11: „Per se sollte jede Führungskraft die RP-Methode können.“", untertitel: "Erfolgsinterview mit Nico Bückemeyer" },
-        { id: "Jutfgzmo7aM", titel: "Interview 12: „Ich habe volles Verständnis für mein Umfeld.“", untertitel: "Erfolgsinterview mit Tobias Klamm" },
-        { id: "rgYZio4l8Ro", titel: "Interview 13: „Die erfolgreichsten Monate unserer Unternehmensgeschichte.“", untertitel: "Erfolgsinterview mit Simon Schwarze" },
-        { id: "WB9UlyIktOE", titel: "Interview 14: „Das Business-Profiling hat das Unternehmertum revolutioniert!“", untertitel: "Erfolgsinterview mit Peter Misch" },
+      { titel: "Success Interviews", bookTipAfterEach: bookTip("fuehrung-mit-fundament", "Understanding leaders and teams — the Enneagram as a leadership compass.", "Führung mit Fundament"), videos: [
+        { id: "1cXW4E-2R3A", titel: "Interview 1: No More Bad Hires Thanks to Enneagram Profiling", untertitel: "Digistore24" },
+        { id: "WD8fThkCyWs", titel: "Interview 2: Understanding Customers, Leading Teams: Jörg's Results with Profiling", untertitel: "" },
+        { id: "tWrlusgiGr4", titel: "Interview 3: How Profiling Improves Coaching, Sales, and Relationships", untertitel: "Client Interview with Philip" },
+        { id: "EMocsifWclE", titel: "Interview 4: “For ANYONE Who Wants to Develop Deeply!”", untertitel: "Success Interview with Daniel Scholz" },
+        { id: "I6EBy-bOmyI", titel: "Interview 5: “We Can No Longer Do Without This Knowledge!”", untertitel: "Success Interview with Raimund & Max" },
+        { id: "UxYnrQWLzgM", titel: "Interview 6: How Companies Benefit from Profiling", untertitel: "Success Interview with Philip Hohn" },
+        { id: "JYVFhXC_VXM", titel: "Interview 7: The Most Powerful Tool in Your Life", untertitel: "Success Interview with Angelika Sauer" },
+        { id: "zGdDhXEecyA", titel: "Interview 8: How Does a Club President Use Profiling?", untertitel: "Success Interview with Bastian" },
+        { id: "yIY_a2OTJ4s", titel: "Interview 9: “Typing Doesn't Mean Judging …”", untertitel: "Success Interview with Simon Dornauer" },
+        { id: "IEjfGtWFnjQ", titel: "Interview 10: “I See the World With Different Eyes Now.”", untertitel: "Success Interview with Stefan Wittmann" },
+        { id: "jeiv9zBYeCA", titel: "Interview 11: “Every Leader Should Really Know the RP Method.”", untertitel: "Success Interview with Nico Bückemeyer" },
+        { id: "Jutfgzmo7aM", titel: "Interview 12: “I Have Complete Understanding for the People Around Me.”", untertitel: "Success Interview with Tobias Klamm" },
+        { id: "rgYZio4l8Ro", titel: "Interview 13: “The Most Successful Months in Our Company's History.”", untertitel: "Success Interview with Simon Schwarze" },
+        { id: "WB9UlyIktOE", titel: "Interview 14: “Business Profiling Has Revolutionized Entrepreneurship!”", untertitel: "Success Interview with Peter Misch" },
       ]},
     ]
   );
@@ -36065,7 +36065,7 @@ function davidRathmerImpulsePage() {
     ${pageHeader("david-rathmer-impulse")}
     <section class="narrow">
       <p class="eyebrow">David L. Rathmer · Impulses & Insights</p>
-      <h1 class="h1--tip">Impulse &amp; Einsichten</h1>
+      <h1 class="h1--tip">Impulses &amp; Insights</h1>
       <p class="lead-small">Short, educational videos by David L. Rathmer — on personality, relationships, burnout, and personal growth.</p>
       <div style="display:flex;gap:0.7rem;flex-wrap:wrap;margin:1.2rem 0 2rem;">
         <a href="https://www.enneascholars.de" target="_blank" rel="noopener"
@@ -36150,7 +36150,7 @@ function davidRathmerImpulsePage() {
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
-        <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Der Mechanismus des Egos entlarvt – das muss dir Bewusstsein!</div>
+        <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">The Mechanism of the Ego Exposed – This Needs Your Awareness!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'R8IKz_52OpY')"><img src="https://img.youtube.com/vi/R8IKz_52OpY/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
@@ -36162,13 +36162,13 @@ function davidRathmerImpulsePage() {
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
-        <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Profiling: Mythen und Fallen aufgedeckt!</div>
+        <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Profiling: Myths and Pitfalls Exposed!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'3fwmARNgv-Y')"><img src="https://img.youtube.com/vi/3fwmARNgv-Y/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
-        <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Warum wir in Stresssituationen unterschiedlich reagieren</div>
+        <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Why We React Differently in Stressful Situations</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'XiCOAGs-Ge8')"><img src="https://img.youtube.com/vi/XiCOAGs-Ge8/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
@@ -36216,7 +36216,7 @@ function davidRathmerImpulsePage() {
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
-        <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Warum Du es vermeiden solltest, das Enneagramm zu googeln!</div>
+        <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Why You Should Avoid Googling the Enneagram!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'r8ThMXGKjbI')"><img src="https://img.youtube.com/vi/r8ThMXGKjbI/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
@@ -36228,7 +36228,7 @@ function davidRathmerImpulsePage() {
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
       ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The 27 Subtypes compared — how profiling works and what lies behind the patterns.", "Die verborgene Dynamik der 27 Subtypes")}
       <div class="video-card" style="margin-bottom:1.5rem;">
-        <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Schluss mit Aufschieben – so wirst Du sofort produktiv!</div>
+        <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">No More Procrastination – How to Become Productive Right Now!</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'g1G_jti70vI')"><img src="https://img.youtube.com/vi/g1G_jti70vI/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bookTip("der-code-deiner-persoenlichkeit", "The Enneagram as a key to self-knowledge — for greater clarity and personal growth.", "Der Code deiner Persönlichkeit")}
@@ -36245,12 +36245,12 @@ function davidRathmerImpulsePage() {
 function davidRathmerKriminalfaellePage() {
   return _davidVideoPage(
     "david-rathmer-kriminalfaelle",
-    "David L. Rathmer · Kriminalfälle",
-    "Kriminalfälle",
-    "Das Enneagramm als psychologisches Werkzeug zur Analyse bekannter Kriminalfälle — David L. Rathmer beleuchtet Täterprofile und Hintergründe aus der Perspektive der 27 Subtypes.",
+    "David L. Rathmer · Criminal Cases",
+    "Criminal Cases",
+    "The Enneagram as a psychological tool for analyzing well-known criminal cases — David L. Rathmer examines offender profiles and backgrounds from the perspective of the 27 subtypes.",
     [
-      { titel: "Täterprofile & Hintergründe", videos: [
-        { id: "XnS_8QaUL8Y", label: "Jeffrey Epstein – Persönlichkeitsanalyse (Enneagrammtyp SX8)" },
+      { titel: "Offender Profiles & Backgrounds", videos: [
+        { id: "XnS_8QaUL8Y", label: "Jeffrey Epstein – Personality Analysis (Enneagram Type SX8)" },
       ]},
     ]
   );
@@ -36269,7 +36269,7 @@ function davidRathmerGrundlagenPage() {
     ${pageHeader("david-rathmer-grundlagen")}
     <section class="content-section">
       <p class="eyebrow">David L. Rathmer &middot; Knowledge</p>
-      <h1 class="section-title">Enneagramm-Grundlagen</h1>
+      <h1 class="section-title">Enneagram Fundamentals</h1>
       <p class="section-intro">David L. Rathmer explains the foundational building blocks of the Enneagram &mdash; from the nine types over the three centers to the triads. Ideal for anyone wanting to understand the system from the ground up.</p>
       <div class="video-card" style="margin-bottom:1.5rem;">
         <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Enneagram Type 1 – The Perfectionist – Short Description</div>
@@ -36317,17 +36317,17 @@ function davidRathmerGrundlagenPage() {
       </div>
       ${bt}
       <div class="video-card" style="margin-bottom:1.5rem;">
-        <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Die Bauchenergie im Enneagramm (Typ 8, 9 und 1)</div>
+        <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Gut Energy in the Enneagram (Types 8, 9, and 1)</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'DvyvmYieI3c')"><img src="https://img.youtube.com/vi/DvyvmYieI3c/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       <div class="video-card" style="margin-bottom:1.5rem;">
-        <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Die Herzenergie im Enneagramm (Typ 2, 3 und 4)</div>
+        <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Heart Energy in the Enneagram (Types 2, 3, and 4)</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'03J6ov1pjpQ')"><img src="https://img.youtube.com/vi/03J6ov1pjpQ/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
       <div class="video-card" style="margin-bottom:1.5rem;">
-        <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Die Kopfenergie im Enneagramm (Typ 5, 6 und 7)</div>
+        <div class="video-label" style="font-size:.85rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;">Head Energy in the Enneagram (Types 5, 6, and 7)</div>
         <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;cursor:pointer;" onclick="window.ytFacadePlay(this,'gtT7ulH5JNk')"><img src="https://img.youtube.com/vi/gtT7ulH5JNk/hqdefault.jpg" loading="lazy" alt="Video" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;"><div style="width:58px;height:58px;border-radius:50%;background:rgba(0,0,0,0.65);display:flex;align-items:center;justify-content:center;"><div style="width:0;height:0;border-top:11px solid transparent;border-bottom:11px solid transparent;border-left:18px solid #fff;margin-left:4px;"></div></div></div></div>
       </div>
       ${bt}
