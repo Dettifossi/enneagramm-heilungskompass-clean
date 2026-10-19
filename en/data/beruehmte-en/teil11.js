@@ -2535,7 +2535,7 @@ export function olafSchubertPortraitPage() {
         <h2 class="vb-section">6. Light and shadow of the social One with a Nine-wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SO1w9 shows in Schubert's ability to carry a genuine moral reform message across three decades without ever becoming bitter, cynical or attacking – a rare feat that makes an audience laugh while also giving it something to think about.</p>
-          <p class="vb-intro">The shadow lies in the risk that the message disappears entirely behind the absurdity – anyone who consumes the logic games as pure nonsense misses the actual reform mission carrying them. Where an SO1's Eight-wing would be unambiguous, the Nine-wing risks diluting one's own moral position so thoroughly that it is barely recognizable as a position at all.</p>
+          <p class="vb-intro">The shadow lies in the risk that the message disappears entirely behind the absurdity – anyone who consumes the logic games as pure nonsense misses the actual reform mission carrying them. Where an SO1 with a stronger Two-wing would at least keep its message recognizable through personal warmth, the Nine-wing risks diluting the moral position itself so thoroughly that it becomes barely recognizable behind the absurdity.</p>
         </blockquote>
 
         <h2 class="vb-section">7. The goose that sounds the alarm with a smile</h2>
