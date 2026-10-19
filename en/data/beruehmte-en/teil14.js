@@ -2617,6 +2617,7 @@ export function bernhardHoeckerPortraitPage() {
         {route:"subtype/so5", label:"SO5 – The Octopus: subtype profile"},
         {route:"lebensmusterkompass/so5", label:"Life Pattern Compass: SO5 – Octopus"},
         {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6) – the same totem function in a cooler tone"},
+        {route:"beruehmte-wigald-boning", label:"Portrait: Wigald Boning (SO5w6) – his longtime partner on Nicht nachmachen!, the same totem function once physical instead of verbal"},
       ])}
     </div>
   `);

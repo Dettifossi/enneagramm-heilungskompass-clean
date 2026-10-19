@@ -2576,6 +2576,7 @@ export function bernhardHoeckerPortraitPage() {
         {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
         {route:"lebensmusterkompass/so5", label:"Lebensmusterkompass: SO5 – Oktopus"},
         {route:"beruehmte-guenther-jauch", label:"Porträt: Günther Jauch (SO5w6) – dieselbe Totem-Funktion in kühlerem Ton"},
+        {route:"beruehmte-wigald-boning", label:"Porträt: Wigald Boning (SO5w6) – sein langjähriger Partner bei Nicht nachmachen!, dieselbe Totem-Funktion einmal körperlich statt verbal"},
       ])}
     </div>
   `);

@@ -2466,3 +2466,70 @@ export function yannickVanDeVeldePortraitPage() {
     </div>
   `);
 }
+
+export function wigaldBoningPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-wigald-boning-portrait.jpg" alt="Wigald Boning – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wigald Boning</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Comedian, TV host, endurance self-experiments, b. 1967 &ndash; Animal correspondence: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Octopus who tests knowledge on his own body</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Octopus</strong> is the animal of the Social Five &ndash; highly intelligent, reaching with eight arms at once, never losing its composure. Wigald Boning was born in 1967 in Wildeshausen, Lower Saxony, and became nationally known from 1993 onward as part of the sketch show "RTL Samstag Nacht," where he and Olli Dittrich also formed the comedy singing duo "Die Doofen" &ndash; with roughly 1.5 million records sold in Germany, Austria, and Switzerland, one of the most successful comedy music projects of the 1990s.</p>
+          <p class="vb-intro">Since 2012 he has co-hosted, alongside <a href="#beruehmte-bernhard-hoecker">Bernhard Hoëcker</a>, the ZDF format "Nicht nachmachen!" ("Don't Try This At Home"), in which both deliberately ignore warning labels on everyday products to show live what actually happens &ndash; a comedy-experiment format adapted from a Norwegian original that ran for two seasons. Both also sit together on the panel of "Genial daneben" &ndash; two men of the same subtype meeting in the same shows for more than a decade.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The totem: knowledge tested on itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the Social Five the <strong>Totem</strong> &ndash; the linking of knowledge with belonging and standing within a group. Boning's own distinctive variant of this pattern is to test knowledge not through verbal recall, but publicly, on his own body: on 16 July 2014 he swam across Lake Constance from Friedrichshafen to Romanshorn &ndash; twelve kilometers at a water temperature of 21°C, in seven hours and 24 minutes, documented on the World Open Water Swimming Association's record list.</p>
+          <p class="vb-intro">In his book "Lauf, Wigald, lauf!" ("Run, Wigald, Run!") he describes a year in which he ran a marathon every week. Since 1 July 2022 he has swum in open water daily, regardless of weather or water temperature &ndash; including temperatures near 2°C &ndash; with the stated goal of 1,000 consecutive days, documented in the book and stage show "Herr Boning geht baden" ("Mr. Boning Goes for a Swim"); among other places, he swam for this purpose through the Rhine in the middle of Cologne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: reliability in partnership and project</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> gives the Social Five a deep need for reliability &ndash; not the one-off experiment, but the partnership sustained for years and the project continued without gaps. His more than decade-long television partnership with Bernhard Hoëcker &ndash; from "Nicht nachmachen!" to joint stage appearances like "Gute Frage" to the shared panel on "Genial daneben" &ndash; shows exactly this structure: the same familiar constellation, played out again and again, rather than constantly new partners.</p>
+          <p class="vb-intro">The same reliability shows in his daily swimming ritual: not a one-off stunt, but a discipline carried out for years toward a fixed goal of 1,000 days &ndash; security found not through standing still, but through the unshakeable repetition of the same, self-chosen routine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: physical endurance as its own discipline</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Boning apart is not just comedic talent, but an unusual feat of physical endurance that goes far beyond what any entertainment format requires: a twelve-kilometer swim across Lake Constance at realistic water temperature, a year of weekly marathons, daily open-water swimming sustained for years at temperatures near freezing. For his television work he received the Deutscher Fernsehpreis and the Adolf Grimme Award &ndash; professional recognition that stands alongside his athletic substance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel within the same subtype: Bernhard Hoëcker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The direct comparison with <a href="#beruehmte-bernhard-hoecker">Bernhard Hoëcker (SO5w6)</a>, his longtime television partner, is especially revealing: both are the same subtype, both have proven their knowledge live in front of an audience for years &ndash; yet in entirely different ways. Hoëcker performs his totem verbally: enormous general knowledge, retrieved instantly and quick-wittedly in conversation, for instance on "Genial daneben." Boning performs the same totem physically: knowledge about his own physical limits, not narrated but proven on his own body &ndash; two expressions of the same Social Five, one cognitive, one physical.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the Social Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In its light, Boning shows the ability to make knowledge about his own physical limits publicly experienceable rather than merely claiming it &ndash; a rare combination of comedic lightness and genuine athletic substance. The Five's besetting pattern is <strong>avarice</strong> &ndash; in Boning's case less visible in how he handles knowledge, which he shares generously with his own body as evidence, and more in the consistency with which he carries out his often health-marginal self-experiments (swimming at water temperatures near zero), even when the risk seems scarcely comprehensible to outsiders.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Legacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From "RTL Samstag Nacht" through "Die Doofen" to "Nicht nachmachen!" and his daily open-water swimming, Wigald Boning has continually paired comedic talent with genuine physical substance. This is precisely where the Social Five with a Six-wing shows itself in its most idiosyncratic form: knowledge that is not cited, but lived out in one's own body and demonstrated to the audience &ndash; reliably continued, year after year, regardless of how uncomfortable the conditions happen to be.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: subtype profile"},
+        {route:"lebensmusterkompass/so5", label:"Life Pattern Compass: SO5 – Octopus"},
+        {route:"beruehmte-bernhard-hoecker", label:"Portrait: Bernhard Hoëcker (SO5w6) – the same totem function, once verbal instead of physical"},
+      ])}
+    </div>
+  `);
+}

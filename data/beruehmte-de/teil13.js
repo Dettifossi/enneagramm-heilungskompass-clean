@@ -2510,3 +2510,70 @@ export function johannesPaulIIPortraitPage() {
     </div>
   `);
 }
+
+export function wigaldBoningPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-wigald-boning-portrait.jpg" alt="Wigald Boning – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Wigald Boning</p>
+        <p class="krim-portrait-typ">SO5w6 · Sozialer Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Komiker, Moderator, Ausdauer-Selbstversuche, geb. 1967 – Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus, der sein Wissen am eigenen Körper prüft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 – hochintelligent, mit acht Armen gleichzeitig greifend, ohne je die Fassung zu verlieren. Wigald Boning wurde 1967 in Wildeshausen (Niedersachsen) geboren und wurde ab 1993 als Teil der Sketch-Show ›RTL Samstag Nacht‹ bundesweit bekannt, wo er gemeinsam mit Olli Dittrich auch das Gesangsduo ›Die Doofen‹ bildete – mit rund 1,5 Millionen verkauften Tonträgern in Deutschland, Österreich und der Schweiz eines der erfolgreichsten Comedy-Musikprojekte der 1990er-Jahre.</p>
+          <p class="vb-intro">Seit 2012 moderiert er gemeinsam mit <a href="#beruehmte-bernhard-hoecker">Bernhard Hoëcker</a> das ZDF-Format ›Nicht nachmachen!‹, in dem beide bewusst Warnhinweise auf Alltagsprodukten ignorieren, um live vorzuführen, was dann tatsächlich passiert – ein nach norwegischem Originalformat entwickeltes Comedy-Experiment, das über zwei Staffeln lief. Beide sitzen zudem gemeinsam im Rateteam von ›Genial daneben‹ – zwei Männer desselben Subtyps, die über mehr als ein Jahrzehnt hinweg in denselben Sendungen aufeinandertreffen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Das Totem: Wissen, das sich selbst erprobt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 5 das <strong>Totem</strong> – die Verknüpfung von Wissen mit Zugehörigkeit und Ansehen innerhalb einer Gruppe. Bonings ganz eigene Spielart dieses Musters besteht darin, Wissen nicht verbal abzurufen, sondern es am eigenen Körper öffentlich zu testen: Am 16. Juli 2014 durchschwamm er den Bodensee von Friedrichshafen nach Romanshorn – zwölf Kilometer bei 21 Grad Wassertemperatur, in sieben Stunden und 24 Minuten, dokumentiert in der Rekordliste der World Open Water Swimming Association.</p>
+          <p class="vb-intro">In seinem Buch ›Lauf, Wigald, lauf!‹ beschreibt er ein Jahr, in dem er wöchentlich einen Marathon lief. Seit dem 1. Juli 2022 schwimmt er täglich im Freiwasser, unabhängig von Wetter oder Wassertemperatur – auch bei Werten um zwei Grad – mit dem erklärten Ziel von 1000 aufeinanderfolgenden Tagen, dokumentiert in Buch und Bühnenprogramm ›Herr Boning geht baden‹; unter anderem schwamm er dafür auch im Rhein mitten durch Köln.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Verlässlichkeit in Partnerschaft und Projekt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> bringt der sozialen Fünf ein tiefes Bedürfnis nach Verlässlichkeit – nicht das einmalige Experiment, sondern die über Jahre durchgehaltene Partnerschaft und das lückenlos fortgesetzte Projekt. Seine mehr als ein Jahrzehnt andauernde Fernsehpartnerschaft mit Bernhard Hoëcker – von ›Nicht nachmachen!‹ über gemeinsame Bühnenauftritte wie ›Gute Frage‹ bis zum gemeinsamen Rateteam bei ›Genial daneben‹ – zeigt genau diese Struktur: dieselbe vertraute Konstellation, immer wieder neu bespielt, statt ständig neuer Partner.</p>
+          <p class="vb-intro">Dieselbe Verlässlichkeit zeigt sich im täglichen Schwimm-Ritual: Es ist kein einmaliger Stunt, sondern eine über Jahre fortgeführte, auf ein festes Ziel von 1000 Tagen angelegte Disziplin – Sicherheit nicht durch Stillstand, sondern durch die unerschütterliche Wiederholung derselben, selbst gewählten Routine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Körperliche Ausdauer als eigenständige Disziplin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Boning auszeichnet, ist nicht nur komödiantisches Talent, sondern eine ungewöhnliche körperliche Ausdauerleistung, die weit über das hinausgeht, was ein Unterhaltungsformat verlangt: ein zwölf Kilometer langer Bodensee-Schwimm bei realistischer Wassertemperatur, ein Jahr mit wöchentlichen Marathons, tägliches Freiwasserschwimmen über Jahre hinweg bei Wassertemperaturen nahe dem Gefrierpunkt. Für seine Fernseharbeit wurde er mit dem Deutschen Fernsehpreis und dem Adolf-Grimme-Preis ausgezeichnet – eine fachliche Anerkennung, die neben der sportlichen Substanz steht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Bernhard Hoëcker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Besonders aufschlussreich ist der direkte Vergleich mit <a href="#beruehmte-bernhard-hoecker">Bernhard Hoëcker (SO5w6)</a>, seinem langjährigen Fernsehpartner: Beide sind derselbe Subtyp, beide stellen ihr Wissen seit Jahren live vor Publikum unter Beweis – doch auf vollkommen unterschiedliche Weise. Hoëcker performt sein Totem verbal: enormes Allgemeinwissen, blitzschnell und schlagfertig im Gespräch abgerufen, etwa bei ›Genial daneben‹. Boning performt dasselbe Totem körperlich: Wissen über die eigenen physischen Grenzen, das nicht erzählt, sondern am eigenen Körper bewiesen wird – zwei Ausdrucksformen derselben sozialen Fünf, einmal kognitiv, einmal physisch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Boning die Fähigkeit, Wissen über die eigenen körperlichen Grenzen öffentlich erfahrbar zu machen, statt es nur zu behaupten – eine seltene Verbindung aus komödiantischer Leichtigkeit und echter sportlicher Substanz. Der Schatten der Fünf ist der <strong>Geiz</strong> – bei Boning weniger im Umgang mit Wissen sichtbar, das er großzügig mit dem eigenen Körper als Beweismittel teilt, sondern eher in der Konsequenz, mit der die eigenen, oft gesundheitlich grenzwertigen Selbstversuche (Schwimmen bei Wassertemperaturen nahe null Grad) durchgezogen werden, selbst wenn das Risiko für Außenstehende kaum nachvollziehbar wirkt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Vermächtnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von ›RTL Samstag Nacht‹ über ›Die Doofen‹ bis zu ›Nicht nachmachen!‹ und dem täglichen Freiwasserschwimmen hat Wigald Boning sein komödiantisches Talent kontinuierlich mit echter körperlicher Substanz verbunden. Genau darin zeigt sich die soziale Fünf mit Sechserflügel in ihrer eigenwilligsten Form: Wissen, das nicht zitiert, sondern am eigenen Leib durchlebt und dem Publikum vorgeführt wird – verlässlich fortgesetzt, Jahr für Jahr, unabhängig davon, wie unbequem die Bedingungen gerade sind.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so5", label:"Lebensmusterkompass: SO5 – Oktopus"},
+        {route:"beruehmte-bernhard-hoecker", label:"Porträt: Bernhard Hoëcker (SO5w6) – dieselbe Totem-Funktion, einmal verbal statt körperlich"},
+      ])}
+    </div>
+  `);
+}
