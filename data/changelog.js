@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2540", date: "2026-10-19", text: "Neues Kriminalporträt: Frank Hanebuth (SO8w9) – langjähriger Anführer des Hells-Angels-Charters Hannover.", text_en: "New criminal portrait: Frank Hanebuth (SO8w9) – longtime leader of the Hells Angels Hanover chapter.", route: "kriminalpsychologie-frank-hanebuth" },
     { version: "v2539", date: "2026-10-19", text: "Neues Porträt: Louis Klamroth (SX5w6) – Journalist und Moderator von ›Hart aber fair‹.", text_en: "New portrait: Louis Klamroth (SX5w6) – journalist and host of ›Hart aber fair‹.", route: "beruehmte-louis-klamroth" },
     { version: "v2538", date: "2026-10-19", text: "Neues Porträt: Édith Piaf (SE4w3) – Chansonsängerin.", text_en: "New portrait: Édith Piaf (SE4w3) – chanson singer.", route: "beruehmte-edith-piaf" },
     { version: "v2537", date: "2026-10-19", text: "Neues Porträt: Wigald Boning (SO5w6) – Komiker, Ausdauer-Selbstversuche.", text_en: "New portrait: Wigald Boning (SO5w6) – comedian, endurance self-experiments.", route: "beruehmte-wigald-boning" },

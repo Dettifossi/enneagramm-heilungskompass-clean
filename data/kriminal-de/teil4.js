@@ -4877,3 +4877,81 @@ export function lindsayClancyPortraitPage() {
     </div>
   `);
 }
+
+export function frankHanebuthPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Frank Hanebuth – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/kriminalpsychologie-frank-hanebuth-portrait.jpg" alt="Frank Hanebuth – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Frank Hanebuth</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Sozialer Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-sub">Langjähriger Anführer des Hells-Angels-Charters Hannover, geb. 1964 &ndash; Tierentsprechung: Löwe</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Der Löwe</h3>
+        <p class="vb-intro">Der <strong>Löwe</strong> ist das Tier der sozialen Acht &ndash; nicht der Einzelgänger, der auf eigene Faust jägt, sondern das Oberhaupt eines Rudels, dessen Macht sich gerade darin zeigt, dass andere sich ihm freiwillig unterordnen. Der Löwe muss selten selbst kämpfen; seine Präsenz allein regelt die Hackordnung. Frank Hanebuth, über mehr als zwei Jahrzehnte die prägende Figur des Hells-Angels-Charters Hannover, verkörpert genau diese Rolle: kein Mann, der jede Auseinandersetzung persönlich austrägt, sondern einer, dessen bloße Zugehörigkeit und Autorität ein ganzes Territorium &ndash; das Hannoveraner Rotlichtmilieu &ndash; jahrzehntelang strukturierte.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die soziale Acht: Macht als Ordnungsfaktor für die Gruppe</h3>
+        <p class="vb-intro">Die <strong>soziale Acht (SO8)</strong> ist nach Naranjo der Subtyp, bei dem sich die Leidenschaft der Acht &ndash; Wollust im Sinne von ungezügelter Intensität und Kontrollbedürfnis &ndash; nicht gegen die Gruppe richtet, sondern sich in deren Dienst stellt: Die SO8 schützt &bdquo;ihre Leute&ldquo;, verteidigt ein Territorium oder eine Gemeinschaft, und gewinnt Status dadurch, dass sie als unangefochtene Autorität innerhalb eines klar definierten Kollektivs auftritt. Naranjo sprach hier von einer Variante, bei der persönliche Macht untrennbar mit sozialer Führungsverantwortung verknüpft ist.</p>
+        <p class="vb-intro">Hanebuth, am 21. September 1964 im niederschsischen Garbsen-Osterwald geboren und in Hannover aufgewachsen, lernte zunächst Tischler und boxte zwischen 1991 und 1996 professionell &ndash; ein frühes Zeugnis einer körperlich-direkten Durchsetzungsfähigkeit, die später in eine vollkommen andere Form von Macht überging: nicht mehr die eigene Faust im Ring, sondern die Kontrolle über ein ganzes Netzwerk. 1995 wurde er Präsident des Hannoveraner Chapters des Motorradclubs &bdquo;Bones&ldquo;, 1999 ging dieses in den Hells Angels auf. Unter seiner Führung entwickelte sich das Hannoveraner Charter Medienberichten zufolge zum wohlhabendsten und einflussreichsten Hells-Angels-Verband Deutschlands &ndash; eine Machtposition, die nicht durch ständige offene Gewalt, sondern durch die schlichte Tatsache aufrechterhalten wurde, dass seine Autorität im Milieu kaum infrage gestellt wurde.</p>
+        <p class="vb-intro">2001 wurde Hanebuth in Hamburg wegen gefährlicher Körperverletzung verurteilt und verbüßte drei Jahre Haft &ndash; ein Beleg dafür, dass die Löwen-Autorität keineswegs rein symbolisch blieb, sondern im Zweifel auch persönlich durchgesetzt wurde. Journalistischen Recherchen zufolge koordinierte er über Jahre, was in Medienberichten als &bdquo;Sicherheits&ldquo;-Strukturen im Hannoveraner Rotlichtmilieu beschrieben wird &ndash; ein Vorwurf, der wiederholt Gegenstand strafrechtlicher Ermittlungen war, ohne dass daraus durchgehend rechtskräftige Verurteilungen in diesem speziellen Punkt folgten.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Der Neunerflügel: Ruhe statt Eskalation</h3>
+        <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> mildert bei der sozialen Acht die rohe Konfrontationslust der reinen Acht zu einer ruhigeren, fast gelassenen Form von Autorität. Die SO8w9 muss nicht ständig Dominanz demonstrieren &ndash; ihre Macht ruht in sich selbst, wirkt eher wie ein feststehender Naturzustand als wie eine täglich neu erkämpfte Position. Diese Gelassenheit ist in zahlreichen öffentlichen Auftritten Hanebuths zu beobachten: Er wirkt in Interviews und bei Gerichtsterminen auffallend ruhig, fast bärenhaft gemächlich, nie hektisch oder um Bestätigung bemüht &ndash; eine Präsenz, die ihre Wirkung gerade aus dem Verzicht auf lautes Imponiergehabe zieht.</p>
+        <p class="vb-intro">Dieselbe Neuner-Gelassenheit zeigt sich in seinem Umgang mit der mehrjährigen spanischen Untersuchungshaft: 2013 wurde Hanebuth auf Mallorca zusammen mit 23 weiteren mutmaßlichen Rockerclub-Mitgliedern festgenommen, verbrachte rund zwei Jahre in Untersuchungshaft, bevor er 2015 gegen eine Kaution von 60.000 Euro freikam, und wurde nach dem anschließenden Prozess von den Vorwürfen freigesprochen. Öffentlich kommentierte er diese Jahre zurückhaltend, ohne die demonstrative Empörung, die man bei einem reinen Achter-Profil eher erwarten würde &ndash; ein Hinweis auf die neunertypische Fähigkeit, auch große persönliche Belastung ohne äußerlich sichtbare Eskalation zu tragen.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Territorium statt Einzeltat</h3>
+        <p class="vb-intro">Anders als bei den meisten Porträts dieser Rubrik lässt sich Hanebuths Fall nicht auf eine einzelne, klar datierte Tat reduzieren. Sein Muster ist strukturell: die jahrzehntelange Kontrolle eines Territoriums (des Hannoveraner Rotlichtmilieus) durch die bloße Existenz einer unangefochtenen Hierarchie-Spitze, abgesichert durch die reale Bereitschaft zu körperlicher Durchsetzung, wenn nötig &ndash; belegt durch die Verurteilung von 2001 &ndash;, aber getragen von der ruhigen, fast institutionellen Präsenz eines Mannes, dem laut Medienberichten über Jahre kaum jemand im Milieu offen die Stirn bot.</p>
+        <p class="vb-intro">Diese Kombination &ndash; reale Gewaltbereitschaft im Hintergrund, aber ganz überwiegend ruhiges, fast gelassenes Auftreten nach außen &ndash; ist typisch für die SO8w9: Die Acht liefert die Substanz der Macht, der Neunerflügel die Form, in der sie getägt wird, ohne ständige Eskalation.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Was das Enneagramm sichtbar macht</h3>
+        <p class="vb-intro"><strong>a) Die SO8 als Ordnungsmacht statt reiner Konfrontation:</strong> Der gesunde soziale Achter schützt seine Gemeinschaft und schafft verlässliche Strukturen. In der ungesunden Ausprägung wird dieselbe Energie zur Kontrolle eines Milieus genutzt, das sich außerhalb rechtsstaatlicher Strukturen bewegt &ndash; die Schutzfunktion kippt in eine Form von Herrschaft, die selbst Gegenstand strafrechtlicher Ermittlungen wird.</p>
+        <p class="vb-intro"><strong>b) Der Neunerflügel als Erklärung für die lange Dauer:</strong> Ein reiner Achter ohne Neunerflügel hätte vermutlich häufiger offene Konflikte gesucht und wäre dadurch früher sichtbar angreifbar geworden. Die neunertypische Gelassenheit erlaubte es Hanebuth, seine Position über Jahrzehnte zu halten, ohne ständig neue Frontlinien zu eröffnen.</p>
+        <p class="vb-intro"><strong>c) Rechtsstaatliche Einordnung ohne Vorverurteilung:</strong> Hanebuth wurde 2001 wegen Körperverletzung rechtskräftig verurteilt, in Spanien jedoch nach Jahren der Untersuchungshaft freigesprochen. Viele der ihm in Medienberichten zugeschriebenen Rollen (etwa als &bdquo;Boss aller europäischen Hells Angels&ldquo;) sind journalistische Zuschreibungen, keine gerichtlich festgestellten Tatsachen &ndash; dieses Porträt beschreibt ein psychologisches Muster, kein abschließendes juristisches Urteil.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Fazit: Der Löwe, der selten brüllen musste</h3>
+        <p class="vb-intro">Frank Hanebuth ist ein seltener Fall in dieser Sammlung: kein Einzeltäter mit einer dramatischen, klar datierten Tat, sondern eine Figur, deren Macht sich gerade über die lange Dauer und die relative äußere Ruhe ihrer Ausübung definiert. Der Löwe, der nicht ständig brüllen muss, weil seine Position im Rudel ohnehin nicht infrage steht &ndash; bis die juristische Aufarbeitung, wie 2001 und erneut ab 2013, doch an die Substanz dieser Macht rührt.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Frank Armin Hanebuth</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtyp:</strong> SO8w9 &ndash; Sozialer Typ 8 mit Neunerflügel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Wollust (als ungezügelte Intensität und Kontrollbedürfnis, hier in den Dienst der Gruppe gestellt)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Tierentsprechung:</strong> Löwe</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Geboren:</strong> 21. September 1964, Garbsen-Osterwald</span>
+          <span style="display:block;"><strong>Rechtliche Eckdaten:</strong> 2001 Verurteilung wegen gefährlicher Körperverletzung (Hamburg), drei Jahre Haft; 2013–2015 Untersuchungshaft in Spanien, anschließend Freispruch</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Acht im Vergleich: Wie sich Macht und Kontrolle bei SE8, SO8 und SX8 unterschiedlich ausdrücken – und warum die SO8 Autorität braucht, die eine Gruppe trägt.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE8, SO8, SX8 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Wollust als Grundmotiv der Acht: Wie Kontrolle und Intensität zum zentralen Lebensthema werden.", "Wer du wirklich bist (Band 1)")}
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Hinweis:</strong> Dieses Porträt dient der tiefenpsychologischen Analyse einer öffentlich bekannten Person des Zeitgeschehens. Die Typzuordnung ist eine psychologische Hypothese, kein juristisches Urteil. Zugeschriebene Rollen und Vorwürfe aus Medienberichten, die nicht zu einer rechtskräftigen Verurteilung geführt haben, werden als solche gekennzeichnet, nicht als erwiesene Tatsachen dargestellt.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"beruehmte-bud-spencer", label:"Porträt: Bud Spencer (SO8w9) – derselbe Subtyp, hier als ruhiger, beschützender Riese statt als Milieu-Autorität"},
+          {route:"kriminalpsychologie", label:"Alle Kriminalpsychologie-Porträts"},
+          {route:"subtype/so8", label:"SO8 – Der Löwe: Subtyp-Profil"},
+        ])}
+    </div>
+  `);
+}

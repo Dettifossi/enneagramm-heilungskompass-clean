@@ -53,6 +53,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-edith-piaf", label: "Neues EN-Porträt: Édith Piaf" },
   { hash: "#beruehmte-louis-klamroth", label: "Neues Porträt: Louis Klamroth" },
   { hash: "en/#beruehmte-louis-klamroth", label: "Neues EN-Porträt: Louis Klamroth" },
+  { hash: "#kriminalpsychologie-frank-hanebuth", label: "Neues Kriminalporträt: Frank Hanebuth" },
+  { hash: "en/#kriminalpsychologie-frank-hanebuth", label: "Neues EN-Kriminalporträt: Frank Hanebuth" },
   { hash: "#die-neuen-enneagramm-typen", label: "Neues Schaubild: Die neuen Enneagramm-Typen" },
   { hash: "en/#die-neuen-enneagramm-typen", label: "Neues EN-Schaubild: Die neuen Enneagramm-Typen" },
   { hash: "#krankheitsportraets-johannes-paul-ii", label: "Neues Krankheitsporträt: Johannes Paul II." },

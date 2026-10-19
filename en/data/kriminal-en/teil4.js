@@ -2864,3 +2864,81 @@ export function bryanKohbergerPortraitPage() {
     </div>
   `);
 }
+
+export function frankHanebuthPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Frank Hanebuth – Criminal Psychology")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/kriminalpsychologie-frank-hanebuth-portrait.jpg" alt="Frank Hanebuth – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Frank Hanebuth</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Social Type Eight with a Nine-Wing</p>
+        <p class="krim-portrait-sub">Longtime leader of the Hells Angels Hanover chapter, b. 1964 – animal correspondence: lion</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. The Lion</h3>
+        <p class="vb-intro">The <strong>lion</strong> is the animal of the social Eight – not the lone hunter who stalks on his own, but the head of a pride whose power shows precisely in the fact that others submit to it voluntarily. The lion rarely has to fight himself; his mere presence settles the pecking order. Frank Hanebuth, the defining figure of the Hells Angels Hanover chapter for more than two decades, embodies exactly this role: not a man who personally fights every confrontation, but one whose sheer membership and authority structured an entire territory – Hanover's red-light district – for decades.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. The Social Eight: Power as an Ordering Force for the Group</h3>
+        <p class="vb-intro">According to Naranjo, the <strong>social Eight (SO8)</strong> is the subtype in which the Eight's passion – lust, in the sense of unrestrained intensity and a need for control – is not directed against the group but placed in its service: the SO8 protects "its people," defends a territory or a community, and gains status by appearing as the unchallenged authority within a clearly defined collective. Naranjo spoke here of a variant in which personal power is inseparably tied to social leadership responsibility.</p>
+        <p class="vb-intro">Hanebuth, born on 21 September 1964 in Garbsen-Osterwald in Lower Saxony and raised in Hanover, first trained as a carpenter and boxed professionally between 1991 and 1996 – an early sign of a physically direct assertiveness that later shifted into an entirely different form of power: no longer his own fists in the ring, but control over an entire network. In 1995 he became president of the Hanover chapter of the motorcycle club "Bones," which merged into the Hells Angels in 1999. Under his leadership, the Hanover chapter reportedly became the wealthiest and most influential Hells Angels charter in Germany – a position of power maintained not through constant open violence, but through the simple fact that his authority in the milieu went largely unchallenged.</p>
+        <p class="vb-intro">In 2001 Hanebuth was convicted in Hamburg of causing serious bodily harm and served three years in prison – evidence that the lion's authority was by no means purely symbolic, but was personally enforced when in doubt. According to journalistic investigations, he coordinated for years what media reports describe as "security" structures in Hanover's red-light district – an allegation that was repeatedly the subject of criminal investigations, without consistently leading to final convictions on this specific point.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. The Nine-Wing: Calm Instead of Escalation</h3>
+        <p class="vb-intro">The <strong>Nine-wing (w9)</strong> softens the raw confrontational drive of the pure Eight into a calmer, almost serene form of authority in the social Eight. The SO8w9 does not have to constantly demonstrate dominance – its power rests in itself, resembling a fixed state of nature more than a position fought for anew each day. This composure can be observed in numerous public appearances by Hanebuth: in interviews and at court dates he comes across as noticeably calm, almost bear-like in his unhurried manner, never hectic or seeking validation – a presence that draws its effect precisely from the absence of loud posturing.</p>
+        <p class="vb-intro">The same Nine-type composure shows in how he handled years of Spanish pretrial detention: in 2013 Hanebuth was arrested on Mallorca together with 23 other alleged motorcycle gang members, spent around two years in pretrial detention, was released in 2015 on bail of 60,000 euros, and was acquitted of the charges after the subsequent trial. He commented on these years publicly with notable restraint, without the demonstrative outrage one might expect from a pure Eight profile – a sign of the Nine-type ability to carry even significant personal strain without visible external escalation.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Territory Instead of a Single Act</h3>
+        <p class="vb-intro">Unlike most portraits in this category, Hanebuth's case cannot be reduced to a single, clearly dated act. His pattern is structural: decades of control over a territory (Hanover's red-light district) through the mere existence of an unchallenged apex of a hierarchy, backed by a real willingness to use physical force when necessary – documented by the 2001 conviction – yet carried by the calm, almost institutional presence of a man whom, according to media reports, hardly anyone in the milieu openly defied for years.</p>
+        <p class="vb-intro">This combination – real willingness to use violence in the background, but an overwhelmingly calm, almost serene public manner – is typical of the SO8w9: the Eight supplies the substance of the power, the Nine-wing the form in which it is carried, without constant escalation.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. What the Enneagram Reveals</h3>
+        <p class="vb-intro"><strong>a) The SO8 as an ordering power rather than pure confrontation:</strong> The healthy social Eight protects its community and creates reliable structures. In its unhealthy expression, the same energy is used to control a milieu operating outside the structures of the rule of law – the protective function tips into a form of rule that itself becomes the subject of criminal investigation.</p>
+        <p class="vb-intro"><strong>b) The Nine-wing as an explanation for the long duration:</strong> A pure Eight without a Nine-wing would likely have sought open conflict more often and would have become visibly vulnerable sooner as a result. The Nine-type composure allowed Hanebuth to hold his position for decades without constantly opening new fronts.</p>
+        <p class="vb-intro"><strong>c) A legal framing without prejudgment:</strong> Hanebuth was legally convicted of bodily harm in 2001, but acquitted in Spain after years of pretrial detention. Many of the roles attributed to him in media reports (such as "boss of all European Hells Angels") are journalistic characterizations, not facts established by a court – this portrait describes a psychological pattern, not a final legal verdict.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Conclusion: The Lion Who Rarely Had to Roar</h3>
+        <p class="vb-intro">Frank Hanebuth is a rare case in this collection: not a lone perpetrator with a single, dramatic, clearly dated act, but a figure whose power is defined precisely by the long duration and relative outward calm of its exercise. The lion who does not have to roar constantly because his position in the pride is not in question anyway – until legal proceedings, as in 2001 and again from 2013 onward, do reach the substance of that power.</p>
+      </div>
+
+      <div class="vb-section">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Classification</h3>
+        <p class="vb-intro" style="margin-bottom:1.2rem;">
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Frank Armin Hanebuth</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SO8w9 – Social Type Eight with a Nine-Wing</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Passion:</strong> Lust (as unrestrained intensity and a need for control, here placed in the service of the group)</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Animal correspondence:</strong> Lion</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Born:</strong> 21 September 1964, Garbsen-Osterwald</span>
+          <span style="display:block;"><strong>Legal milestones:</strong> 2001 conviction for causing serious bodily harm (Hamburg), three years in prison; 2013–2015 pretrial detention in Spain, followed by acquittal</span>
+        </p>
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "The social Eight compared: how power and control express themselves differently in SE8, SO8, and SX8 – and why the SO8 needs an authority carried by a group.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE8, SO8, SX8 – 27 character profiles compared.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Lust as the core motive of the Eight: how control and intensity become a central life theme.", "Wer du wirklich bist (Band 1)")}
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        <strong>Note:</strong> This portrait serves as a depth-psychological analysis of a publicly known contemporary figure. The type assignment is a psychological hypothesis, not a legal verdict. Roles and allegations attributed to him in media reports that did not result in a final conviction are identified as such, not presented as established fact.
+        </p>
+      </div>
+
+        ${relatedLinks([
+          {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9) – the same subtype, here as a calm, protective giant instead of a criminal-milieu authority"},
+          {route:"kriminalpsychologie", label:"All Criminal Psychology Portraits"},
+          {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
+        ])}
+    </div>
+  `);
+}
