@@ -2546,7 +2546,7 @@ export function wigaldBoningPortraitPage() {
 
         <h2 class="vb-section">4. Die Substanz: Körperliche Ausdauer als eigenständige Disziplin</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Was Boning auszeichnet, ist nicht nur komödiantisches Talent, sondern eine ungewöhnliche körperliche Ausdauerleistung, die weit über das hinausgeht, was ein Unterhaltungsformat verlangt: ein zwölf Kilometer langer Bodensee-Schwimm bei realistischer Wassertemperatur, ein Jahr mit wöchentlichen Marathons, tägliches Freiwasserschwimmen über Jahre hinweg bei Wassertemperaturen nahe dem Gefrierpunkt. Für seine Fernseharbeit wurde er mit dem Deutschen Fernsehpreis und dem Adolf-Grimme-Preis ausgezeichnet – eine fachliche Anerkennung, die neben der sportlichen Substanz steht.</p>
+          <p class="vb-intro">Was Boning auszeichnet, ist nicht nur komödiantisches Talent, sondern eine ungewöhnliche körperliche Ausdauerleistung, die weit über das hinausgeht, was ein Unterhaltungsformat verlangt: eine zwölf Kilometer lange Durchschwimmung des Bodensees bei realistischer Wassertemperatur, ein Jahr mit wöchentlichen Marathons, tägliches Freiwasserschwimmen über Jahre hinweg bei Wassertemperaturen nahe dem Gefrierpunkt. Für seine Fernseharbeit wurde er mit dem Deutschen Fernsehpreis und dem Adolf-Grimme-Preis ausgezeichnet – eine fachliche Anerkennung, die neben der sportlichen Substanz steht.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Parallele im selben Subtyp: Bernhard Hoëcker</h2>
