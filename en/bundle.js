@@ -8,7 +8,7 @@ import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
 import { registerEntries, registerEntriesEN } from "../data/register.js?v=266";
-import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=1";
+import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
 import { TIERLEXIKON_EN as TIERLEXIKON } from "../data/tierlexikon_en.js?v=10";
@@ -17185,15 +17185,15 @@ function bindDiagnosetest() {
 // ── PSYCHOGRAMME ──────────────────────────────────────────────────────────────
 
 const PSYCHOGRAMM_TYPEN = [
-  { typ: 1, name: "Der Verbesserer",     kern: "Heilige Vollkommenheit · Reinheit · Richtigkeit" },
-  { typ: 2, name: "Der Helfer",          kern: "Heiliger Wille · Liebe zum Einssein" },
-  { typ: 3, name: "Der Macher",          kern: "Heiliges Gesetz · Echtheit · Wahrhaftigkeit" },
-  { typ: 4, name: "Der Individualist",   kern: "Heiliger Ursprung · individueller Ausdruck des Seins" },
-  { typ: 5, name: "Der Forscher",        kern: "Heiliges Allwissen · Transparenz · Klarheit" },
-  { typ: 6, name: "Der Loyale",          kern: "Heiliger Glaube · Vertrauen · Sicherheit" },
-  { typ: 7, name: "Der Enthusiast",      kern: "Heiliger Plan · Freude · Entfaltung" },
-  { typ: 8, name: "Der Herausforderer",  kern: "Heilige Wahrheit · Stärke" },
-  { typ: 9, name: "Der Vermittler",      kern: "Heilige Liebe · Harmonie · Würde · Energie" },
+  { typ: 1, name: "The Reformer",     kern: "Sacred Perfection · Purity · Rightness" },
+  { typ: 2, name: "The Helper",          kern: "Sacred Will · Love of Oneness" },
+  { typ: 3, name: "The Achiever",          kern: "Sacred Law · Authenticity · Truthfulness" },
+  { typ: 4, name: "The Individualist",   kern: "Sacred Source · Individual Expression of Being" },
+  { typ: 5, name: "The Investigator",        kern: "Sacred Omniscience · Transparency · Clarity" },
+  { typ: 6, name: "The Loyalist",          kern: "Sacred Faith · Trust · Security" },
+  { typ: 7, name: "The Enthusiast",      kern: "Sacred Plan · Joy · Unfolding" },
+  { typ: 8, name: "The Challenger",  kern: "Sacred Truth · Strength" },
+  { typ: 9, name: "The Peacemaker",      kern: "Sacred Love · Harmony · Dignity · Energy" },
 ];
 
 function heilungswegPage() {
@@ -50860,8 +50860,8 @@ function psychogrammePage() {
     return shell(`
       ${pageHeader("psychogramme")}
       <div class="psycho-detail">
-        <button class="ghost-link psycho-back" data-route="psychogramme">← Alle Psychogramme</button>
-        <h1 class="psycho-detail__title">Typ ${t.typ} &ndash; ${t.name}</h1>
+        <button class="ghost-link psycho-back" data-route="psychogramme">← All Psychograms</button>
+        <h1 class="psycho-detail__title">Type ${t.typ} &ndash; ${t.name}</h1>
         <p class="psycho-detail__kern">${t.kern}</p>
         <div class="psycho-switch" role="group" aria-label="Psychogram view" style="display:none;justify-content:center;gap:.5rem;margin:.2rem 0 1rem;">
           <button type="button" data-psycho-mode="comic" aria-pressed="false" onclick="window._psychoMode(this,'comic')" style="border:1px solid var(--copper,#a5652f);border-radius:999px;padding:.35rem 1rem;font:inherit;font-size:.9rem;cursor:pointer;">Learning comic</button>
@@ -50869,19 +50869,19 @@ function psychogrammePage() {
         </div>
         <div class="psycho-img-wrap">
           <img src="/assets/schaubilder/psychogramme/typ-${t.typ}-comic-en.jpg" alt="Psychogram Type ${t.typ} (Learning comic)" class="psycho-img psycho-comic" style="display:none;" onload="window._psychoComicReady(this)" onerror="this.remove()" />
-          <img src="${CDN}assets/schaubilder/psychogramme/typ-${t.typ}.jpg" alt="Psychogramm Typ ${t.typ}" class="psycho-img psycho-classic" />
+          <img src="${CDN}assets/schaubilder/psychogramme/typ-${t.typ}.jpg" alt="Psychogram Type ${t.typ}" class="psycho-img psycho-classic" />
         </div>
         ${psychogrammErklaerung(t.typ, "en")}
       </div>
     `);
   }
 
-  // Übersicht aller 9 Typen
+  // Overview of all 9 types
   return shell(`
     ${pageHeader("psychogramme")}
     <div class="psycho-wrap">
       <p class="eyebrow">Depth Psychology</p>
-      <h1 class="section-title">Psychogramme der 9 Enneagrammtypen</h1>
+      <h1 class="section-title">Psychograms of the 9 Enneagram Types</h1>
       <p class="psycho-intro">Each psychogram shows the complete depth-psychological cycle of a type: from the Higher Self through the underlying feeling of deficiency to the fictitious self-image and shadow &mdash; and the path back to integration.</p>
       <details style="margin:1rem 0 1.4rem;padding:.9rem 1.1rem;border:1px solid var(--line,var(--border));border-left:4px solid var(--copper);border-radius:12px;background:var(--card,var(--paper));">
         <summary style="cursor:pointer;font-weight:700;color:var(--ink);">How to read a psychogram</summary>

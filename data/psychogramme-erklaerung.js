@@ -617,7 +617,7 @@ export function psychogrammErklaerung(typ, lang) {
   if (en) {
     return `<div class="psycho-explain" style="max-width:620px;margin:1.6rem auto 0;">
       <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .6rem;color:var(--ink);">Psychogram Type ${typ} explained</h2>
-      <p style="font-size:.8rem;color:var(--muted);margin:0 0 .6rem;">The diagram is in German; this text explains it step by step.</p>
+      <p style="font-size:.8rem;color:var(--muted);margin:0 0 .6rem;">The learning comic above is in English; the classic diagram (toggle above) is in German. This text explains it step by step.</p>
       ${h("The Higher Self")}${p("At the top stands the Higher Self of this type: <strong>" + esc(e.hs) + "</strong>. It is the original quality from which the type comes.")}
       ${h("The loss and the feeling of deficiency")}${p("This quality is lost through two experiences that stand at the start of every psychogram: not being held, and loss of contact with Being. From them arises the underlying feeling of deficiency, and from it the core sentence of the type: " + quote(e.kern, "en") + " (" + esc(e.kernz) + ").")}
       ${h("Five typical reactions")}${p("From the core sentence follow five typical reactions: " + esc(list(e.rea, "and")) + ".")}
