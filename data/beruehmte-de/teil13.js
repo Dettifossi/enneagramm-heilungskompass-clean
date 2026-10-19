@@ -2540,7 +2540,7 @@ export function wigaldBoningPortraitPage() {
 
         <h2 class="vb-section">3. Der Sechserflügel: Verlässlichkeit in Partnerschaft und Projekt</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Sechserflügel</strong> bringt der sozialen Fünf ein tiefes Bedürfnis nach Verlässlichkeit – nicht das einmalige Experiment, sondern die über Jahre durchgehaltene Partnerschaft und das lückenlos fortgesetzte Projekt. Seine mehr als ein Jahrzehnt andauernde Fernsehpartnerschaft mit Bernhard Hoëcker – von ›Nicht nachmachen!‹ über gemeinsame Bühnenauftritte wie ›Gute Frage‹ bis zum gemeinsamen Rateteam bei ›Genial daneben‹ – zeigt genau diese Struktur: dieselbe vertraute Konstellation, immer wieder neu bespielt, statt ständig neuer Partner.</p>
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> bringt der sozialen Fünf ein tiefes Bedürfnis nach Verlässlichkeit – nicht das einmalige Experiment, sondern die über Jahre durchgehaltene Partnerschaft und das lückenlos fortgesetzte Projekt. Seine mehr als ein Jahrzehnt andauernde Fernsehpartnerschaft mit Bernhard Hoëcker – von ›Nicht nachmachen!‹ über gemeinsame Bühnenauftritte wie ›Gute Frage‹ bis zum gemeinsamen Rateteam bei ›Genial daneben‹ – zeigt genau diese Struktur: dieselbe vertraute Konstellation, immer wieder neu bespielt, statt ständig wechselnder Partner.</p>
           <p class="vb-intro">Dieselbe Verlässlichkeit zeigt sich im täglichen Schwimm-Ritual: Es ist kein einmaliger Stunt, sondern eine über Jahre fortgeführte, auf ein festes Ziel von 1000 Tagen angelegte Disziplin – Sicherheit nicht durch Stillstand, sondern durch die unerschütterliche Wiederholung derselben, selbst gewählten Routine.</p>
         </blockquote>
 
