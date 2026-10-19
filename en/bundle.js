@@ -14007,7 +14007,7 @@ function spuerenInner(entry, sp) {
     <figure class="vollseite-karte">
       <p class="vollseite-karte__hint">Tap to enlarge</p>
       <div class="card-pg-wrap">
-        <img src="${seite1}" alt="${entry.code} Seite 1 &ndash; Prototypen, Blickqualität und Körpersignatur" class="vollseite-karte__img" loading="lazy"
+        <img src="${seite1}" alt="${entry.code} Page 1 &ndash; Prototypes, Gaze Quality & Body Signature" class="vollseite-karte__img" loading="lazy"
           onerror="this.closest('.vollseite-karte').style.display='none'" />
         <div class="card-pg-compass" aria-hidden="true">${compassMark("mini")}</div>
       </div>
@@ -22216,11 +22216,11 @@ function obstsortPage() {
     ${pageHeader("obstsorten")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; Archetypes</p>
-      <h1 class="section-title">Die 9 Obstsorten</h1>
+      <h1 class="section-title">The 9 Fruits</h1>
       <p class="psycho-intro">An enneagrammatic-archetypal consideration: what every fruit reveals about the core essence of a type.</p>
       <img
         src="../assets/obstsorten.jpg"
-        alt="Die 9 Obstsorten &ndash; Schaubild"
+        alt="The 9 Fruits &ndash; chart"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
       <div class="vb-section" style="max-width:100%;">
@@ -22324,11 +22324,11 @@ function weinsortenPage() {
     ${pageHeader("weinsorten")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; Archetypes</p>
-      <h1 class="section-title">Die 9 Weinsorten</h1>
+      <h1 class="section-title">The 9 Wine Varieties</h1>
       <p class="psycho-intro">An enneagrammatic-archetypal consideration: what each wine variety reveals about the core essence of a type.</p>
       <img
         src="../assets/weinsorten.jpg"
-        alt="Die 9 Weinsorten &ndash; Schaubild"
+        alt="The 9 Wine Varieties &ndash; chart"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
       <div class="vb-section" style="max-width:100%;">
@@ -22378,11 +22378,11 @@ function brotsortenPage() {
     ${pageHeader("brotsorten")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; Archetypes</p>
-      <h1 class="section-title">Die 9 Brotsorten</h1>
+      <h1 class="section-title">The 9 Bread Varieties</h1>
       <p class="psycho-intro">An enneagrammatic-archetypal consideration: what each bread variety reveals about the core essence of a type.</p>
       <img
         src="../assets/brotsorten.jpg"
-        alt="Die 9 Brotsorten &ndash; Schaubild"
+        alt="The 9 Bread Varieties &ndash; chart"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
       <div class="vb-section" style="max-width:100%;">
@@ -34413,9 +34413,9 @@ function baumartenPage() {
     ${pageHeader("baumarten")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts · Archetypen</p>
-      <h1 class="section-title">Die 9 Baumarten</h1>
+      <h1 class="section-title">The 9 Tree Species</h1>
       <p class="psycho-intro">An Enneagrammatic-Archetypal Perspective: What each tree species reveals about the core essence of an Enneagram type – with astonishing facts that bring the principle to life.</p>
-      <img src="../assets/baumarten.jpg" alt="Die 9 Baumarten – Schaubild"
+      <img src="../assets/baumarten.jpg" alt="The 9 Tree Species – chart"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -34507,9 +34507,9 @@ function affenartenPage() {
     ${pageHeader("affenarten")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; Archetypes</p>
-      <h1 class="section-title">Die 9 Affenarten</h1>
+      <h1 class="section-title">The 9 Primate Species</h1>
       <p class="psycho-intro">An enneagrammatic-archetypal consideration: What each monkey/primate species reveals about the core essence of an Enneagram type – viewed in comparison among the primate species.</p>
-      <img src="../assets/affenarten.jpg" alt="Die 9 Affenarten &ndash; Schaubild"
+      <img src="../assets/affenarten.jpg" alt="The 9 Primate Species &ndash; chart"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
 
       <div style="background:var(--surface-2,#f5f0e8);border-left:4px solid var(--gold);border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin:0 0 2rem;" class="vb-section">
@@ -34569,9 +34569,9 @@ function epochenWeltgeschichtePage() {
     ${pageHeader("epochen-weltgeschichte")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; Archetypes</p>
-      <h1 class="section-title">Epochen der Weltgeschichte</h1>
+      <h1 class="section-title">Epochs of World History</h1>
       <p class="psycho-intro">The 9 Enneagram principles in the epochs of history: each epoch carries a dominant time quality – and that mirrors the core essence of a type.</p>
-      <img src="../assets/epochen-weltgeschichte.jpg" alt="Epochen der Weltgeschichte &ndash; Schaubild"
+      <img src="../assets/epochen-weltgeschichte.jpg" alt="Epochs of World History &ndash; chart"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -34620,9 +34620,9 @@ function kaffeeartenPage() {
     ${pageHeader("kaffeearten")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; Archetypes</p>
-      <h1 class="section-title">Die 9 Kaffeearten</h1>
+      <h1 class="section-title">The 9 Coffee Varieties</h1>
       <p class="psycho-intro">An enneagrammatic-archetypal consideration: what each type of coffee reveals about the core essence of a type.</p>
-      <img src="../assets/kaffeearten.jpg" alt="Die 9 Kaffeearten &ndash; Schaubild"
+      <img src="../assets/kaffeearten.jpg" alt="The 9 Coffee Varieties &ndash; chart"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -34671,9 +34671,9 @@ function getreideartenPage() {
     ${pageHeader("getreidearten")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; Archetypes</p>
-      <h1 class="section-title">Die 9 Getreidearten</h1>
+      <h1 class="section-title">The 9 Grain Varieties</h1>
       <p class="psycho-intro">An enneagrammatic-archetypal consideration: what each type of grain reveals about the core essence of a type.</p>
-      <img src="../assets/getreidearten.jpg" alt="Die 9 Getreidearten &ndash; Schaubild"
+      <img src="../assets/getreidearten.jpg" alt="The 9 Grain Varieties &ndash; chart"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -34823,11 +34823,11 @@ function werWirSindPage() {
     ${pageHeader("wer-wir-sind")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; Essence</p>
-      <h1 class="section-title">Wer wir sind</h1>
+      <h1 class="section-title">Who We Are</h1>
       <p class="psycho-intro">The map is not the territory &ndash; why the Enneagram describes us, but does not define us.</p>
       <img
         src="../assets/wer-wir-sind.jpg"
-        alt="Wer wir sind &ndash; Schaubild"
+        alt="Who We Are &ndash; chart"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
       <div class="vb-section" style="max-width:100%;">
@@ -34866,7 +34866,7 @@ function symmetrieDesEnneagrammsPage() {
     ${pageHeader("symmetrie-des-enneagramms")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; System Architecture</p>
-      <h1 class="section-title">Die Symmetrie des Enneagramms</h1>
+      <h1 class="section-title">The Symmetry of the Enneagram</h1>
       <p class="psycho-intro">Behind the nine different personality structures lies a remarkable inner order: opposing types often share the same core wound &ndash; yet develop opposite strategies to cope with it.</p>
       <img
         src="../assets/symmetrie-des-enneagramms.jpg"
@@ -35182,11 +35182,11 @@ function neunLogismoiPage() {
     ${pageHeader("neun-logismoi")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; Intellectual History & Self-Knowledge</p>
-      <h1 class="section-title">Die 9 Logismoi nach Evagrius Ponticus</h1>
+      <h1 class="section-title">The 9 Logismoi According to Evagrius Ponticus</h1>
       <p class="psycho-intro">What do we fill our inner emptiness with? As early as the 4th century, Evagrius Ponticus described nine inner movements that pull human beings away from their center &ndash; showing an astonishing proximity to the Enneagram.</p>
       <img
         src="../assets/neun-logismoi.jpg"
-        alt="Die 9 Logismoi nach Evagrius Ponticus"
+        alt="The 9 Logismoi According to Evagrius Ponticus"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
 
@@ -35242,11 +35242,11 @@ function gaslightingPage() {
     ${pageHeader("gaslighting-enneagramm")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; Relationship Psychology</p>
-      <h1 class="section-title">Gaslighting und Enneagramm</h1>
+      <h1 class="section-title">Gaslighting and the Enneagram</h1>
       <p class="psycho-intro">Gaslighting is a form of psychological manipulation in which another person's perception, experience, or memory is systematically called into question &ndash; with the goal of creating uncertainty and gaining interpretive sovereignty over shared reality.</p>
       <img
         src="../assets/gaslighting-enneagramm.jpg"
-        alt="Gaslighting und Enneagramm"
+        alt="Gaslighting and the Enneagram"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
 
@@ -36401,12 +36401,12 @@ function solfeggioFrequenzenPage() {
       ${pageHeader("solfeggio-frequenzen")}
       <div style="max-width:680px;margin:0 auto;padding:0 1rem;">
         <p class="eyebrow">Charts &middot; Sound &middot; Healing</p>
-        <h1 class="section-title">Die 9 Solfeggio-Frequenzen</h1>
+        <h1 class="section-title">The 9 Solfeggio Frequencies</h1>
         <p style="font-size:.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0 .75rem;">The illustrated overview clarifies the <strong>nine Solfeggio frequencies</strong>, which play a central role in sound healing and spiritual development. Each of these frequencies is attributed specific healing, emotional, and spiritual effects based on the natural vibrations of the universe.</p>
         <p style="font-size:.95rem;line-height:1.75;color:var(--anthracite);margin:0 0 1.5rem;">Solfeggio frequencies are simply defined audio frequencies in Hertz. To make them audible, all you basically need is an instrument or tool capable of generating a clean sine tone or a sound that is as pure as possible.</p>
       </div>
 
-      <img src="${IMG}" alt="Die 9 Solfeggio-Frequenzen im Enneagramm-Kreis"
+      <img src="${IMG}" alt="The 9 Solfeggio Frequencies in the Enneagram Circle"
         style="width:100%;max-width:520px;display:block;margin:0 auto 2.5rem;border-radius:18px;box-shadow:0 4px 24px rgba(0,0,0,0.18);" loading="lazy" />
 
       <div class="vb-section" style="max-width:100%;">
@@ -36627,11 +36627,11 @@ function beziehungenSchaubildPage() {
     ${pageHeader("beziehungen-schaubild")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; Relationships &middot; Ego Dynamics</p>
-      <h1 class="section-title">Relationships &ndash; Liebe und Schutz</h1>
+      <h1 class="section-title">Relationships &ndash; Love and Protection</h1>
       <p class="psycho-intro">Many relationships do not end because love has vanished &ndash; but because unconscious protective mechanisms obscure seeing one another.</p>
       <img
         src="../assets/beziehungen.jpg"
-        alt="Relationships im Enneagramm"
+        alt="Relationships in the Enneagram"
         style="width:100%;border-radius:8px;margin:1.5rem 0;"
       />
 
@@ -36761,11 +36761,11 @@ function hunderassenPage() {
     ${pageHeader("hunderassen")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; Interesting Insights</p>
-      <h1 class="section-title">Die Enneagrammtypen &ndash; auf den Hund gekommen</h1>
+      <h1 class="section-title">The Enneagram Types &ndash; Gone to the Dogs</h1>
       <p class="psycho-intro">Nine types, nine dog breeds &ndash; and an astonishing amount of recognition value. What dogs can tell us about Enneagram principles.</p>
       <img
         src="../assets/hunderassen.jpg"
-        alt="Die 9 Enneagrammtypen – auf den Hund gekommen"
+        alt="The 9 Enneagram Types – Gone to the Dogs"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
       <div class="vb-section" style="max-width:100%;">
@@ -37207,11 +37207,11 @@ function grundformelPage() {
     ${pageHeader("grundformel")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts · Model</p>
-      <h1 class="section-title">Die Grundformel des Rathmer-Enneagramms</h1>
+      <h1 class="section-title">The Basic Formula of the Rathmer Enneagram</h1>
       <p class="psycho-intro">Three deficits. Three forms of energy. Three instincts. – The foundation of an Enneagram model that has grown over twenty years.</p>
       <img
         src="../assets/grundformel.jpg"
-        alt="Die Grundformel des Rathmer-Enneagramms"
+        alt="The Basic Formula of the Rathmer Enneagram"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
       <div class="vb-section" style="max-width:100%;">
@@ -37353,11 +37353,11 @@ function leidenschaftUndWundePage() {
     ${pageHeader("leidenschaft-und-wunde")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts · Healing</p>
-      <h1 class="section-title">Leidenschaft und Wunde</h1>
+      <h1 class="section-title">Passion and Wound</h1>
       <p class="psycho-intro">Two levels of a pattern – what becomes visible and what really lies behind it.</p>
       <img
         src="../assets/leidenschaft-und-wunde.jpg"
-        alt="Leidenschaft und Wunde der 9 Typen"
+        alt="Passion and Wound of the 9 Types"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
       <div class="vb-section" style="max-width:100%;">
@@ -40357,7 +40357,7 @@ function mikroimpresionenPage() {
     ${pageHeader("mikroimpressionen")}
     <div style="max-width:680px;margin:0 auto;padding:0 1rem 3rem;">
       <p class="eyebrow">Charts &middot; Profiling</p>
-      <h1 class="section-title">Mikroimpressionen der 27 Enneagramm-Subtypes</h1>
+      <h1 class="section-title">Micro-Impressions of the 27 Enneagram Subtypes</h1>
       <p class="psycho-intro">Long before someone speaks, they are already readable. Facial expressions, gaze, and bodily tension betray the structure underneath &ndash; if you know what to look for. This overview shows for all 27 Enneagram subtypes how their inner pattern expresses itself outwardly: not via self-reports, but via immediately perceptible signals. Each chart shows a type, and each description names the peculiarities of the three instinct variants.</p>
       <div style="border-left:3px solid var(--gold);padding:.7rem 1rem;margin-bottom:2rem;background:var(--paper);border-radius:0 6px 6px 0;font-size:.85rem;color:var(--muted);font-style:italic;">These descriptions are phenomenological sketches, not diagnoses. They sharpen observation &ndash; they do not replace a personal typing conversation.</div>
       ${cards}
