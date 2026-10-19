@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2534", date: "2026-10-19", text: "Neues Porträt: Margaret Thatcher (SO1w2) – erste Premierministerin des Vereinigten Königreichs, die ›Iron Lady‹.", text_en: "New portrait: Margaret Thatcher (SO1w2) – first female Prime Minister of the United Kingdom, the 'Iron Lady'.", route: "beruehmte-margaret-thatcher" },
     { version: "v2533", date: "2026-10-19", text: "Neues Porträt: Florence Nightingale (SO2w1) – Begründerin der modernen Krankenpflege, Statistik-Pionierin.", text_en: "New portrait: Florence Nightingale (SO2w1) – founder of modern nursing, statistics pioneer.", route: "beruehmte-florence-nightingale" },
     { version: "v2532", date: "2026-10-19", text: "Die Lerncomic-Ansicht der Psychogramme ist jetzt auch in der englischen App-Version in Englisch verfügbar.", text_en: "New: the learning-comic view of the psychograms is now available in English in the English app version.", route: "psychogramme" },
     { version: "v2531", date: "2026-10-19", text: "Neues Porträt: Olaf Schubert (SO1w9) – Kabarettist und Kunstfigur im Pullunder.", text_en: "New portrait: Olaf Schubert (SO1w9) – cabaret artist and vest-wearing stage persona.", route: "beruehmte-olaf-schubert" },

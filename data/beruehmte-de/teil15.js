@@ -2492,6 +2492,7 @@ export function hillaryClintonPortraitPage() {
         {route:"beruehmte-nicole-kidman", label:"Porträt: Nicole Kidman (SO1w2)"},
         {route:"beruehmte-steve-jobs", label:"Porträt: Steve Jobs (SO1w2)"},
         {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2)"},
+        {route:"beruehmte-margaret-thatcher", label:"Porträt: Margaret Thatcher (SO1w2) – ebenfalls unerschütterlicher Reformanspruch mit juristisch-analytischer Präzision"},
       ])}
     </div>
   `);

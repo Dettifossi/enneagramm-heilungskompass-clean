@@ -2516,3 +2516,72 @@ export function metteMaritPortraitPage() {
     </div>
   `);
 }
+
+export function margaretThatcherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-margaret-thatcher-portrait.jpg" alt="Margaret Thatcher – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Margaret Thatcher</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Prime Minister of the United Kingdom 1979&ndash;1990, 1925&ndash;2013 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose that never changed course</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Goose</strong> holds formation and direction even as headwinds rise &ndash; not out of stubbornness, but from deep conviction that it has found the right course. Margaret Hilda Roberts was born in 1925 in Grantham, the daughter of a grocer and local politician who instilled in her early a Methodist work ethic and the value of hard graft. She studied chemistry at Oxford, worked initially as a chemist, qualified alongside it as a tax barrister, and entered Parliament as an MP in 1959.</p>
+          <p class="vb-intro">In 1979 she became the first woman Prime Minister of the United Kingdom &ndash; an office she held continuously until 1990, longer than any other head of government of the 20th century. "The lady's not for turning," she declared at a party conference in 1980 in response to calls to reverse her economic course &ndash; a line that became emblematic of her entire tenure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social One: conviction as a governing program</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social One (SO1)</strong> takes on responsibility for correcting a social order it perceives as wrong, and struggles to accept obvious misconduct &ndash; in her view economic complacency or a lack of personal responsibility &ndash; being simply tolerated. Thatcher came to office with the firm conviction that Britain's postwar consensus of nationalization, high taxes, and powerful trade unions had driven the country into economic decline, and over eleven years pursued a reform program of privatization (British Telecom, British Gas, and other state industries), deregulation, and monetarist economic policy.</p>
+          <p class="vb-intro">In 1982, after Argentina's invasion of the Falkland Islands, she dispatched a naval task force to retake them &ndash; a war waged not out of imperial calculation but from the One's characteristic conviction that a clear violation of international law could not go unanswered. Victory decisively strengthened her domestic standing. During the 1984&ndash;85 miners' strike, she remained uncompromising throughout months of bitter confrontation with the National Union of Mineworkers &ndash; for the One, yielding on a position judged wrong is not an option, even at a high social cost.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: care within a narrow, personal circle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing</strong> shows up in Thatcher not as general sociability or a diplomatic need for harmony &ndash; her public style was far too confrontational for that, her nickname "Iron Lady" (coined by Soviet propaganda in 1976 and proudly adopted by her) too fitting. Instead, the Two-wing expresses itself as narrowly-channeled, personal care for specific individuals in her immediate circle, standing in clear contrast to her otherwise famous toughness: after the 1982 Falklands War, she wrote personally and individually worded condolence letters to the families of fallen soldiers. When a relative complained that an official Army letter had seemed "abrupt and unfeeling," she personally intervened to restore the relationship on a direct, human level.</p>
+          <p class="vb-intro">Her biographer Jonathan Aitken, who knew her personally for decades, described her as genuinely "capable of kindness" toward people in her innermost circle, even while she could appear "rude and arrogant" on the larger political stage &ndash; a care deliberately directed at specific individuals, not a diffuse public. In private notes from the Falklands War, she wrote that at Downing Street "one was protected and safe" and felt "so guilty at the comfort" &ndash; a personal, not merely principled-political, identification with the fate of individual soldiers and islanders. Over decades she also kept up an extensive private correspondence with her sister Muriel &ndash; a sustained, personal relationship maintained apart from the political stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: a chemist and tax barrister at the head of government</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What set Thatcher apart from many of her predecessors was not mere rhetorical resolve but a rare dual qualification: she was the first British Prime Minister with a science degree (chemistry, Oxford, 1947) and worked for several years after graduating as an industrial chemist, among other things helping develop emulsifiers for ice cream. In parallel she qualified as a tax barrister &ndash; a combination of scientific analytical ability and legal precision that clearly shaped her governing style: Cabinet meetings under her leadership were known for meticulous preparation and the expectation that every argument be backed by facts and figures.</p>
+          <p class="vb-intro">This methodical rigor showed in the monetarist economic policy of the early 1980s, which explicitly drew on the academic theory of Milton Friedman rather than mere political instinct. Her talent for hours of exacting detail work &ndash; colleagues reported she regularly worked through government papers late into the night and hunted down errors in columns of figures with ruthless precision &ndash; is usually overshadowed in her public image by sheer political force of will, but was the actual professional foundation of her ability to prevail.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the Social One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In its light, Thatcher shows the ability to sustain a highly unpopular reform judged necessary, consistently, across an entire decade, without being deterred by resistance &ndash; a resolve even sharp critics acknowledged as extraordinary. The Two-wing ensures that this toughness is complemented, within her closest personal circle, by genuine, individually directed care that only partially matches her public image as a pure "Iron Lady."</p>
+          <p class="vb-intro">The One's besetting pattern is <strong>anger</strong> &ndash; in Thatcher often visible as undisguised, self-assured sharpness that left little room for serious dissent. Her biographer Hugo Young chose the title "One of Us" for his influential portrait &ndash; after the phrase she used to sort allies from perceived opponents, even within her own Cabinet. This uncompromising stance toward colleagues she considered "soft" (the so-called "wets") ultimately contributed decisively to her own downfall in 1990, when a party leadership challenge forced her resignation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallel within the same subtype: Hillary Clinton</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the portraits in this compass, <a href="#beruehmte-hillary-clinton">Hillary Clinton (SO1w2)</a> offers a revealing parallel: both politicians combined an unshakeable, decades-long reform agenda with legal-analytical precision (Clinton's Yale law degree and work on the Nixon impeachment inquiry; Thatcher's chemistry degree and tax-law training) and both were more frequently publicly accused of excessive coldness or calculation than their male counterparts. In both, the Two-wing showed up as narrowly-channeled personal care, often visible only in private &ndash; toward Clinton's staff, toward the families of Thatcher's fallen soldiers &ndash; while their public conduct remained marked by unyielding adherence to principle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Legacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Margaret Thatcher died in London in 2013 at the age of 87. Her eleven-year tenure changed Britain's economic and social order so fundamentally that even her political successor Tony Blair, from the opposition Labour Party, left large parts of her economic course intact &ndash; a rare degree of lasting influence for a democratically elected head of government. To this day her name remains synonymous in Britain with an entire political era whose record can hardly be discussed neutrally: revered for economic renewal and foreign-policy resolve, criticized for the social cost of deindustrializing entire regions &ndash; a legacy that shows the Goose with the Two-wing in its purest form: a course held against resistance, carried by genuine, if selectively directed, personal conviction.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: subtype profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-hillary-clinton", label:"Portrait: Hillary Clinton (SO1w2) – also an unshakeable reform agenda paired with legal-analytical precision"},
+      ])}
+    </div>
+  `);
+}

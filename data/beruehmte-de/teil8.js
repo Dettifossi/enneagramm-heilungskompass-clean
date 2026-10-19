@@ -2531,3 +2531,72 @@ export function metteMaritPortraitPage() {
     </div>
   `);
 }
+
+export function margaretThatcherPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-margaret-thatcher-portrait.jpg" alt="Margaret Thatcher – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Margaret Thatcher</p>
+        <p class="krim-portrait-typ">SO1w2 · Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Premierministerin des Vereinigten Königreichs 1979–1990, 1925–2013 – Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans, die den Kurs nicht wechselte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> hält Formation und Richtung, auch wenn der Gegenwind zunimmt – nicht aus Starrsinn, sondern aus der tiefen Überzeugung, den richtigen Kurs gefunden zu haben. Margaret Hilda Roberts wurde 1925 in Grantham als Tochter eines Lebensmittelhändlers und Lokalpolitikers geboren, der ihr früh methodistische Pflichtethik und den Wert harter Arbeit vermittelte. Sie studierte Chemie in Oxford, arbeitete zunächst als Chemikerin, qualifizierte sich daneben als Steuerrechtsanwältin und zog 1959 als Unterhausabgeordnete ins Parlament ein.</p>
+          <p class="vb-intro">1979 wurde sie als erste Frau Premierministerin des Vereinigten Königreichs – ein Amt, das sie bis 1990 länger ununterbrochen innehatte als jeder andere Regierungschef des 20. Jahrhunderts. ›The lady's not for turning‹ (›Die Dame ist nicht fürs Umdrehen zu haben‹), erklärte sie 1980 auf einem Parteitag als Antwort auf die Forderung, ihren wirtschaftspolitischen Kurs zu ändern – ein Satz, der zum Sinnbild ihrer gesamten Amtszeit wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Überzeugung als Regierungsprogramm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Eins (SO1)</strong> übernimmt die Verantwortung, eine als falsch erkannte gesellschaftliche Ordnung zu korrigieren, und verträgt schlecht, wenn offensichtliches Fehlverhalten – aus ihrer Sicht etwa wirtschaftliche Selbstgefälligkeit oder mangelnde Eigenverantwortung – einfach hingenommen wird. Thatcher trat mit der festen Überzeugung an, der britische Nachkriegskonsens aus Verstaatlichung, hohen Steuern und starken Gewerkschaften habe das Land in den wirtschaftlichen Niedergang geführt, und verfolgte über elf Jahre ein Reformprogramm aus Privatisierungen (British Telecom, British Gas und weitere Staatsunternehmen), Deregulierung und monetaristischer Geldpolitik.</p>
+          <p class="vb-intro">1982, nach der argentinischen Invasion der Falklandinseln, entsandte sie eine Flotte zur Rückeroberung – ein Krieg, den sie nicht aus imperialem Kalkül, sondern aus der für die Eins typischen Überzeugung führte, dass ein völkerrechtlich eindeutiges Unrecht nicht unwidersprochen bleiben dürfe. Der Sieg festigte ihre innenpolitische Stellung entscheidend. Während des Bergarbeiterstreiks 1984/85 blieb sie trotz monatelanger, erbitterter Konfrontation mit der Bergarbeitergewerkschaft NUM kompromisslos bei ihrer Linie – für die SO1 ist Nachgeben gegenüber einer als falsch erkannten Position keine Option, auch um einen hohen sozialen Preis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Fürsorge im engen, persönlichen Kreis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel</strong> zeigt sich bei Thatcher nicht als allgemeine Geselligkeit oder diplomatisches Harmoniebedürfnis – dafür war ihr öffentlicher Stil zu konfrontativ, ihr Spitzname ›Iron Lady‹ (von sowjetischer Propaganda 1976 geprägt und von ihr selbst stolz übernommen) zu treffend. Stattdessen äußert sich der Zweierflügel als eng geführte, persönliche Zuwendung zu einzelnen Menschen in ihrem unmittelbaren Umfeld, die mit ihrer sonstigen Härte deutlich kontrastiert: Nach dem Falklandkrieg 1982 schrieb sie den Familien gefallener Soldaten eigenhändige, individuell formulierte Kondolenzbriefe. Als sich ein Angehöriger beschwerte, ein offizielles Schreiben der Armee habe ›schroff und gefühllos‹ gewirkt, griff sie persönlich ein, um den Kontakt zur Familie direkt und menschlich wiederherzustellen.</p>
+          <p class="vb-intro">Ihr Biograf Jonathan Aitken, der sie über Jahrzehnte persönlich kannte, beschrieb sie als durchaus ›zu Freundlichkeit fähig‹ gegenüber Menschen in ihrem engsten Kreis, auch wenn sie im größeren politischen Rahmen ›schroff und arrogant‹ auftreten konnte – eine Fürsorge, die sich gezielt an konkrete Einzelpersonen richtete, nicht an eine diffuse Öffentlichkeit. In privaten Aufzeichnungen aus der Zeit des Falklandkriegs notierte sie, man habe sich in der Downing Street ›geschützt und sicher‹ gefühlt und sich dafür ›schuldig wegen des eigenen Komforts‹ – eine persönliche, nicht nur politisch-prinzipielle Identifikation mit dem Schicksal einzelner Soldaten und Inselbewohner. Über Jahrzehnte hinweg führte sie zudem einen umfangreichen privaten Briefwechsel mit ihrer Schwester Muriel – eine beständige, persönliche Beziehungspflege abseits der politischen Bühne.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Eine Chemikerin und Steuerrechtsanwältin an der Regierungsspitze</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Thatcher von vielen ihrer Vorgänger unterschied, war keine bloße rhetorische Entschlossenheit, sondern eine seltene fachliche Doppelqualifikation: Sie war die erste britische Premierministerin mit einem naturwissenschaftlichen Abschluss (Chemie, Oxford, 1947) und arbeitete nach dem Studium einige Jahre als Industriechemikerin, unter anderem an der Entwicklung von Emulgatoren für Speiseeis. Parallel dazu qualifizierte sie sich als Steuerrechtsanwältin – eine Kombination aus naturwissenschaftlicher Analysefähigkeit und juristischer Detailgenauigkeit, die ihr Regierungsstil deutlich prägte: Kabinettssitzungen unter ihrer Führung waren bekannt für akribische Vorbereitung und die Erwartung, dass jedes Argument mit Fakten und Zahlen unterlegt sein musste.</p>
+          <p class="vb-intro">Diese methodische Schärfe zeigte sich etwa in der monetaristischen Wirtschaftspolitik der frühen 1980er-Jahre, die sich explizit auf die akademische Theorie Milton Friedmans stützte und nicht nur auf politisches Bauchgefühl. Ihr Talent für exakte, stundenlange Detailarbeit – Weggefährten berichteten, sie habe Regierungsunterlagen regelmäßig bis spät in die Nacht durchgearbeitet und Fehler in Zahlenkolonnen mit schonungsloser Präzision aufgespürt – wird in ihrer öffentlichen Selbstdarstellung meist von der politischen Überzeugungskraft überlagert, war aber die eigentliche fachliche Grundlage ihrer Durchsetzungsfähigkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Eins</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Thatcher die Fähigkeit, eine als notwendig erkannte, hochgradig unpopuläre Reform über ein ganzes Jahrzehnt konsequent durchzuhalten, ohne sich von Widerstand beirren zu lassen – eine Entschlossenheit, die selbst scharfe Kritiker als außergewöhnlich anerkannten. Der Zweierflügel sorgt dafür, dass diese Härte im engsten persönlichen Kreis durch echte, individuell gerichtete Zuwendung ergänzt wird, die ihr öffentliches Bild als reine ›Eiserne Lady‹ nur unvollständig wiedergibt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Eins ist der <strong>Zorn</strong> – bei Thatcher oft als unverhohlene, selbstgewisse Schärfe sichtbar, die kaum Raum für ernsthaften Widerspruch ließ. Ihr Biograf Hugo Young wählte für sein einflussreiches Porträt den Titel ›One of Us‹ (›Einer von uns‹) – nach dem Satz, mit dem sie Verbündete von vermeintlichen Gegnern schied, auch innerhalb des eigenen Kabinetts. Diese kompromisslose Haltung gegenüber als ›weich‹ empfundenen Kabinettskollegen (den sogenannten ›wets‹) trug am Ende maßgeblich zu ihrem eigenen Sturz 1990 bei, als sie durch eine parteiinterne Kampfabstimmung zum Rücktritt gezwungen wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallele im selben Subtyp: Hillary Clinton</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den Porträts dieses Kompasses findet sich mit <a href="#beruehmte-hillary-clinton">Hillary Clinton (SO1w2)</a> eine aufschlussreiche Parallele: Beide Politikerinnen verbanden einen unerschütterlichen, über Jahrzehnte verfolgten Reformanspruch mit juristisch-analytischer Detailgenauigkeit (bei Clinton das Jurastudium in Yale und die Arbeit am Nixon-Amtsenthebungsverfahren, bei Thatcher das Chemiestudium und die Steuerrechtsausbildung) und wurden beide öffentlich häufiger mit dem Vorwurf übermäßiger Kälte oder Berechnung konfrontiert als ihre männlichen Amtskollegen. Bei beiden zeigte sich der Zweierflügel als eng geführte, oft erst im privaten Umfeld sichtbare persönliche Zuwendung – bei Clinton gegenüber ihrem Mitarbeiterstab, bei Thatcher gegenüber den Angehörigen gefallener Soldaten –, während der öffentliche Auftritt von unnachgiebiger Prinzipientreue geprägt blieb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Vermächtnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Margaret Thatcher starb 2013 in London im Alter von 87 Jahren. Ihre elfjährige Amtszeit veränderte die britische Wirtschafts- und Gesellschaftsordnung so grundlegend, dass selbst ihr politischer Nachfolger Tony Blair aus der oppositionellen Labour-Partei weite Teile ihres wirtschaftspolitischen Kurses nicht mehr rückgängig machte – ein seltenes Maß an dauerhafter Durchsetzung für eine demokratisch gewählte Regierungschefin. Bis heute bleibt ihr Name in Großbritannien gleichbedeutend mit einer politischen Ära, über deren Bilanz kaum neutral diskutiert werden kann: Verehrt für wirtschaftliche Erneuerung und außenpolitische Entschlossenheit, kritisiert für die sozialen Kosten der Deindustrialisierung ganzer Regionen – ein Erbe, das die Gans mit dem Zweierflügel in ihrer reinsten Form zeigt: ein über Widerstände hinweg gehaltener Kurs, getragen von echter, wenn auch selektiv gerichteter, persönlicher Überzeugung.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-hillary-clinton", label:"Porträt: Hillary Clinton (SO1w2) – ebenfalls unerschütterlicher Reformanspruch mit juristisch-analytischer Präzision"},
+      ])}
+    </div>
+  `);
+}

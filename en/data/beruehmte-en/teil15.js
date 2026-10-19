@@ -2488,6 +2488,7 @@ export function hillaryClintonPortraitPage() {
         {route:"beruehmte-nicole-kidman", label:"Portrait: Nicole Kidman (SO1w2)"},
         {route:"beruehmte-steve-jobs", label:"Portrait: Steve Jobs (SO1w2)"},
         {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2)"},
+        {route:"beruehmte-margaret-thatcher", label:"Portrait: Margaret Thatcher (SO1w2) – also an unshakeable reform agenda paired with legal-analytical precision"},
       ])}
     </div>
   `);
