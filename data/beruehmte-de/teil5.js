@@ -132,6 +132,7 @@ export function adelePortraitPage() {
         {route:"beruehmte-lady-diana", label:"Portr\u00e4t: Lady Diana (SE4w3)"},
         {route:"beruehmte-tim-bendzko", label:"Portr\u00e4t: Tim Bendzko (SE4w3)"},
         {route:"krankheitsportraets-adele", label:"Krankheitsportr\u00e4t: Adele (SE4w3) \u2013 postnatale Depression"},
+        {route:"beruehmte-edith-piaf", label:"Portr\u00e4t: Edith Piaf (SE4w3) \u2013 ebenfalls stiller, diszipliniert geformter Schmerz in universellen Liedern"},
       ])}
     </div>
   `);

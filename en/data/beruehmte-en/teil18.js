@@ -2502,3 +2502,71 @@ export function franzPeterTebartzVanElstPortraitPage() {
     </div>
   `);
 }
+
+export function edithPiafPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-edith-piaf-portrait.jpg" alt="Edith Piaf – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Edith Piaf</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Self-Preservation Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Chanson singer, 1915&ndash;1963 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove who sang out of misery</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Dove</strong> has been a symbol of peace for millennia &ndash; delicate at first impression, but tenacious at its core. It carries messages over great distances and returns, even through storms. Édith Giovanna Gassion, born in 1915 in Paris into poverty, spent part of her childhood at her grandmother's brothel in Normandy and went temporarily blind as a child &ndash; according to legend, her sight returned after a pilgrimage to Saint Thérèse of Lisieux. In 1935, while still singing on the Parisian boulevards, she was discovered by nightclub owner Louis Leplée, who also gave her the stage name "la môme Piaf" &ndash; Parisian street slang for "the little sparrow."</p>
+          <p class="vb-intro">Within a few years, the destitute street singer became one of the 20th century's greatest interpreters of French chanson, known for songs like "La Vie en rose" (1945/46) and "Non, je ne regrette rien" (1960). The Dove, carrying what is innermost in a voice that reaches far beyond its own narrow living space to the whole world.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: pain as quiet, disciplined form</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Four (SE4)</strong> is the counter-type of the Four: it does not channel its inner life into dramatic self-display, but carries it quietly before giving it form. Naranjo called this subtype "tenacity" &ndash; uncompromising hardness toward oneself, not toward others. Piaf's life was marked by a chain of personal catastrophes: the death of her two-year-old daughter Marcelle in 1935, the murder of her mentor and discoverer Louis Leplée in 1936, and the 1949 plane crash that killed the great love of her life, boxer Marcel Cerdan.</p>
+          <p class="vb-intro">What was characteristic of the SE4 was how she handled this pain in public: on stage she usually stood motionless, in a plain black dress, without dance, without theatrics &ndash; all the drama lay in the voice itself, not in gesture. She did not publicly lament her suffering; she sang it into a form disciplined enough to reach millions, rather than exhausting itself in mere display.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: carrying the message outward</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing</strong> gives the Self-Preservation Four the ability to turn the inner life into impact. An SE4 with a weak Three-wing might remain in her inner world &ndash; deeply feeling, but invisible. Piaf's career shows the full force of this connection: after the 1951 car accident that triggered a lifelong morphine addiction, and several further accidents in the following years, her career was already considered over more than once. In 1960 she nevertheless recorded "Non, je ne regrette rien" &ndash; a song that became her definitive comeback and remains her best-known work today.</p>
+          <p class="vb-intro">The Three-wing brings the discipline, the sense of timing, and the stage presence that turned a deeply personal life marked by pain and addiction into a globally celebrated body of work. The SE4w3 knows: what I have lived through can be given a form that carries &ndash; even once one's own body has long since been marked by that life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: a voice trained without a conservatory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What actually set Piaf apart was a highly distinctive vocal technique that she never acquired through classical training, but developed as an autodidact on the street and in small Parisian music halls: an intense, almost raw vibrato, an uncompromisingly clear French diction that made every line understandable even to non-native speakers, and a dynamic contrast between near-whispered passages and full chest voice that gave every song theatrical tension without relying on exaggerated gesture. Contemporaries described her small, slight stature (barely 1.47 meters) in stark contrast to a voice that filled entire concert halls on its own weight &ndash; a professional substance that went far beyond mere talent and was shaped by decades of daily stage practice.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel within the same subtype: Adele</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the portraits in this compass, <a href="#beruehmte-adele">Adele (SE4w3)</a> offers an obvious parallel: both singers transformed deep personal pain &ndash; for Adele breakups and self-doubt, for Piaf loss, addiction, and physical decline &ndash; not into public complaint, but into disciplined, composed songs that became universal precisely because of that discipline. Both show the characteristic SE4w3 contrast between quiet, often barely perceptible inner distress and a stage presence that reaches millions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the Self-Preservation Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In its light, Piaf shows the ability to transform genuine, existential pain into art of lasting value &ndash; songs still sung worldwide today, carrying grief, loss, and resilience in equal measure. The Four's besetting pattern is <strong>envy</strong> &ndash; the deep feeling that others were given something one lacks oneself.</p>
+          <p class="vb-intro">The shadow of the SE4w3 shows in Piaf in the consistency with which she placed her own physical decline in service of her art rather than sparing herself: despite progressive morphine addiction, several accidents, and increasingly poor health, she performed until shortly before her death &ndash; a relentlessness toward herself that was at once her greatest strength and her most tragic weakness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Legacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Edith Piaf died in 1963 at only 47, physically worn out by decades of personal tragedy and substance abuse. Her body of work is still regarded today as one of the most defining voices of French chanson worldwide. This is precisely where the Self-Preservation Four with a Three-wing shows itself in its most striking form: a life full of quiet, rarely publicly lamented catastrophes that nevertheless &ndash; or precisely because of that &ndash; transformed into a disciplined, world-carrying voice.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se4", label:"SE4 – The Dove: subtype profile"},
+        {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SE4 – Dove"},
+        {route:"beruehmte-adele", label:"Portrait: Adele (SE4w3) – also quiet, disciplined pain shaped into universal songs"},
+      ])}
+    </div>
+  `);
+}

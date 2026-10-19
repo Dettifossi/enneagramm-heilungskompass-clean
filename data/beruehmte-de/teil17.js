@@ -2608,3 +2608,71 @@ export function franzPeterTebartzVanElstPortraitPage() {
     </div>
   `);
 }
+
+export function edithPiafPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-edith-piaf-portrait.jpg" alt="Edith Piaf – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Edith Piaf</p>
+        <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Chansonsängerin, 1915–1963 – Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube, die aus dem Elend sang</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist seit Jahrtausenden das Symbol des Friedens – zart im ersten Eindruck, aber zäh im Kern. Sie trägt Botschaften über weite Strecken und kehrt zurück, selbst durch Sturm. Édith Giovanna Gassion, geboren 1915 in Paris in ärmlichen Verhältnissen, verbrachte Teile ihrer Kindheit im Bordell ihrer Großmutter in der Normandie und erblindete im Kindesalter zeitweise – laut Überlieferung heilte sie nach einer Pilgerfahrt zur heiligen Theresia von Lisieux wieder. 1935 wurde sie, damals noch als Straßensängerin auf den Pariser Boulevards, von dem Nachtclubbesitzer Louis Leplée entdeckt, der ihr auch den Künstlernamen ›la môme Piaf‹ gab – Pariser Straßenargot für ›der kleine Spatz‹.</p>
+          <p class="vb-intro">Innerhalb weniger Jahre wurde aus der mittellosen Straßensängerin eine der größten Chansoninterpretinnen des 20. Jahrhunderts, bekannt für Lieder wie ›La Vie en rose‹ (1945/46) und ›Non, je ne regrette rien‹ (1960). Die Taube, die das Innerste in eine Stimme trägt, die über den eigenen engen Lebensraum hinaus die ganze Welt erreicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Schmerz als stille, disziplinierte Form</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist der Kontratyp der Vier: Sie zieht ihr Innenleben nicht in dramatische Selbstdarstellung, sondern trägt es still, bevor sie es in eine Form bringt. Naranjo nannte diesen Subtyp ›Zähigkeit‹ (tenacity) – kompromisslose Härte sich selbst gegenüber, nicht gegenüber anderen. Piafs Leben war von einer Kette persönlicher Katastrophen gezeichnet: 1935 der Tod ihrer zweijährigen Tochter Marcelle, 1936 die Ermordung ihres Mentors und Entdeckers Louis Leplée, 1949 der Flugzeugabsturz, bei dem ihre große Liebe, der Boxer Marcel Cerdan, ums Leben kam.</p>
+          <p class="vb-intro">Charakteristisch für die SE4 war, wie sie mit diesem Schmerz öffentlich umging: Auf der Bühne stand sie meist regungslos, in einem schlichten schwarzen Kleid, ohne Tanz, ohne Theatralik – die gesamte Dramatik lag in der Stimme selbst, nicht in der Geste. Sie klagte nicht öffentlich über ihr Leid, sie sang es in eine Form, die diszipliniert genug war, um Millionen zu erreichen, statt sich in bloßer Zurschaustellung zu erschöpfen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die Botschaft nach außen tragen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel</strong> gibt der selbsterhaltenden Vier die Fähigkeit, das Innere in Wirkung zu verwandeln. Eine SE4 mit schwach ausgeprägtem Dreierflügel könnte in ihrer inneren Welt verharren – tief empfindend, aber unsichtbar. Piafs Karriere zeigt die volle Kraft dieser Verbindung: Nach dem Autounfall 1951, der eine lebenslange Morphiumabhängigkeit auslöste, und mehreren weiteren Unfällen in den folgenden Jahren galt ihre Karriere bereits mehrfach als beendet. 1960 nahm sie dennoch ›Non, je ne regrette rien‹ auf – ein Lied, das zum endgültigen Comeback und zu ihrem bis heute bekanntesten Werk wurde.</p>
+          <p class="vb-intro">Der Dreierflügel bringt die Disziplin, das Gespür für Timing und die Bühnenpräsenz, die aus einem zutiefst persönlichen, von Schmerz und Sucht gezeichneten Lebensabschnitt ein weltweit gefeiertes Werk machte. Die SE4w3 weiß: Was ich durchlebt habe, kann in eine Form gebracht werden, die trägt – auch dann noch, wenn der eigene Körper längst von diesem Leben gezeichnet ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Eine Stimme, die ohne Technikschule geschult wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Piaf tatsächlich auszeichnete, war eine höchst eigenständige Gesangstechnik, die sie sich nie in einer klassischen Gesangsausbildung aneignete, sondern auf der Straße und in kleinen Pariser Music-Halls autodidaktisch entwickelte: ein intensives, fast raues Vibrato, eine kompromisslos klare französische Diktion, die jede Zeile auch für Nicht-Muttersprachler verständlich machte, und ein dynamischer Kontrast zwischen fast geflüsterten Passagen und voller Bruststimme, der jedem Lied eine theatralische Spannung gab, ohne auf übertriebene Gestik angewiesen zu sein. Zeitgenossen beschrieben ihre kleine, zierliche Statur (knapp 1,47 Meter) im Kontrast zu einer Stimme, die ganze Konzertsäle allein mit ihrem Gewicht füllte – eine fachliche Substanz, die weit über bloßes Talent hinausging und von Jahrzehnten täglicher Bühnenpraxis geformt wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Adele</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den Porträts dieses Kompasses findet sich mit <a href="#beruehmte-adele">Adele (SE4w3)</a> eine naheliegende Parallele: Beide Sängerinnen verwandelten tiefen persönlichen Schmerz – bei Adele Trennungen und Selbstzweifel, bei Piaf Verlust, Sucht und körperlichen Verfall – nicht in öffentliche Klage, sondern in diszipliniert komponierte Lieder, die genau dadurch universell wurden. Beide zeigen den charakteristischen SE4w3-Kontrast zwischen stiller, oft von Außenstehenden kaum wahrgenommener innerer Not und einer Bühnenpräsenz, die Millionen erreicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Piaf die Fähigkeit, echten, existenziellen Schmerz in Kunst von bleibendem Wert zu verwandeln – Lieder, die bis heute weltweit gesungen werden und die Trauer, Verlust und Widerstandskraft gleichermaßen tragen. Das Schicksalsmuster der Vier ist der <strong>Neid</strong> – das tiefe Gefühl, dass anderen etwas mitgegeben wurde, das einem selbst fehlt.</p>
+          <p class="vb-intro">Der Schatten der SE4w3 zeigt sich bei Piaf in der Konsequenz, mit der sie ihren eigenen körperlichen Verfall in den Dienst der Kunst stellte, statt sich zu schonen: Trotz fortschreitender Morphiumabhängigkeit, mehrerer Unfälle und zunehmend schlechter Gesundheit trat sie bis kurz vor ihrem Tod auf – eine Unerbittlichkeit sich selbst gegenüber, die zugleich ihre größte Stärke und ihre tragischste Schwäche war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Vermächtnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Edith Piaf starb 1963 im Alter von nur 47 Jahren an Leberkrebs, physisch ausgezehrt von Jahrzehnten voller persönlicher Tragödien und Substanzmissbrauch. Ihr Lebenswerk gilt bis heute als eine der prägendsten Stimmen des französischen Chansons weltweit. Genau darin zeigt sich die selbsterhaltende Vier mit Dreierflügel in ihrer eindrücklichsten Form: ein Leben voller stiller, kaum öffentlich geklagter Katastrophen, das sich dennoch – oder gerade deshalb – in eine diszipliniert geformte, weltweit tragende Stimme verwandelte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
+        {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3) – ebenfalls stiller, diszipliniert geformter Schmerz in universellen Liedern"},
+      ])}
+    </div>
+  `);
+}

@@ -49,6 +49,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-bernhard-hoecker", label: "Neues EN-Porträt: Bernhard Hoëcker" },
   { hash: "#beruehmte-wigald-boning", label: "Neues Porträt: Wigald Boning" },
   { hash: "en/#beruehmte-wigald-boning", label: "Neues EN-Porträt: Wigald Boning" },
+  { hash: "#beruehmte-edith-piaf", label: "Neues Porträt: Edith Piaf" },
+  { hash: "en/#beruehmte-edith-piaf", label: "Neues EN-Porträt: Edith Piaf" },
   { hash: "#die-neuen-enneagramm-typen", label: "Neues Schaubild: Die neuen Enneagramm-Typen" },
   { hash: "en/#die-neuen-enneagramm-typen", label: "Neues EN-Schaubild: Die neuen Enneagramm-Typen" },
   { hash: "#krankheitsportraets-johannes-paul-ii", label: "Neues Krankheitsporträt: Johannes Paul II." },
