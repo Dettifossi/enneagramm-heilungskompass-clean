@@ -30,24 +30,35 @@ concurrency:
 jobs:
   migrate:
     runs-on: ubuntu-latest
-    if: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
     env:
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       R2_BUCKET: kompass-assets
       R2_PUBLIC_BASE: https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev
     steps:
+      - name: Prüfen, ob die nötigen Secrets gesetzt sind
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::warning::CLOUDFLARE_API_TOKEN ist nicht gesetzt (Settings → Secrets and variables → Actions). Workflow wird übersprungen, bis das Secret hinterlegt ist."
+            echo "SKIP=true" >> "$GITHUB_ENV"
+          else
+            echo "SKIP=false" >> "$GITHUB_ENV"
+          fi
+
       - name: Checkout
+        if: env.SKIP != 'true'
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
 
       - name: Setup Node
+        if: env.SKIP != 'true'
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
       - name: Lokal referenzierte Porträtbilder nach R2 hochladen und Referenzen umschreiben
+        if: env.SKIP != 'true'
         run: |
           set -euo pipefail
 
