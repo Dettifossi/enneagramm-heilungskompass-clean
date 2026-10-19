@@ -2629,7 +2629,7 @@ export function hallaTomasdottirPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="/assets/portraits/beruehmte-halla-tomasdottir-portrait.jpg" alt="Halla Tómasdóttir – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-halla-tomasdottir-portrait.jpg" alt="Halla Tómasdóttir – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Halla Tómasdóttir</p>
         <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einerflügel</p>
