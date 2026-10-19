@@ -2510,9 +2510,9 @@ export function edithPiafPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-edith-piaf-portrait.jpg" alt="Edith Piaf – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-edith-piaf-portrait.jpg" alt="Édith Piaf – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Edith Piaf</p>
+        <p class="krim-portrait-name">Édith Piaf</p>
         <p class="krim-portrait-typ">SE4w3 &middot; Self-Preservation Type 4 with Three-wing</p>
         <p class="krim-portrait-subtitle">Chanson singer, 1915&ndash;1963 &ndash; Animal correspondence: Dove</p>
       </div>
@@ -2554,7 +2554,7 @@ export function edithPiafPortraitPage() {
 
         <h2 class="vb-section">7. Legacy</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Edith Piaf died in 1963 at only 47, physically worn out by decades of personal tragedy and substance abuse. Her body of work is still regarded today as one of the most defining voices of French chanson worldwide. This is precisely where the Self-Preservation Four with a Three-wing shows itself in its most striking form: a life full of quiet, rarely publicly lamented catastrophes that nevertheless &ndash; or precisely because of that &ndash; transformed into a disciplined, world-carrying voice.</p>
+          <p class="vb-intro">Édith Piaf died in 1963 at only 47, physically worn out by decades of personal tragedy and substance abuse. Her body of work is still regarded today as one of the most defining voices of French chanson worldwide. This is precisely where the Self-Preservation Four with a Three-wing shows itself in its most striking form: a life full of quiet, rarely publicly lamented catastrophes that nevertheless &ndash; or precisely because of that &ndash; transformed into a disciplined, world-carrying voice.</p>
         </blockquote>
 
       </div>

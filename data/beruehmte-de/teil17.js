@@ -2616,9 +2616,9 @@ export function edithPiafPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-edith-piaf-portrait.jpg" alt="Edith Piaf – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-edith-piaf-portrait.jpg" alt="Édith Piaf – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
-        <p class="krim-portrait-name">Edith Piaf</p>
+        <p class="krim-portrait-name">Édith Piaf</p>
         <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel</p>
         <p class="krim-portrait-subtitle">Chansonsängerin, 1915–1963 – Tierentsprechung: Taube</p>
       </div>
@@ -2660,7 +2660,7 @@ export function edithPiafPortraitPage() {
 
         <h2 class="vb-section">7. Vermächtnis</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Edith Piaf starb 1963 im Alter von nur 47 Jahren an Leberkrebs, physisch ausgezehrt von Jahrzehnten voller persönlicher Tragödien und Substanzmissbrauch. Ihr Lebenswerk gilt bis heute als eine der prägendsten Stimmen des französischen Chansons weltweit. Genau darin zeigt sich die selbsterhaltende Vier mit Dreierflügel in ihrer eindrücklichsten Form: ein Leben voller stiller, kaum öffentlich geklagter Katastrophen, das sich dennoch – oder gerade deshalb – in eine diszipliniert geformte, weltweit tragende Stimme verwandelte.</p>
+          <p class="vb-intro">Édith Piaf starb 1963 im Alter von nur 47 Jahren an Leberkrebs, physisch ausgezehrt von Jahrzehnten voller persönlicher Tragödien und Substanzmissbrauch. Ihr Lebenswerk gilt bis heute als eine der prägendsten Stimmen des französischen Chansons weltweit. Genau darin zeigt sich die selbsterhaltende Vier mit Dreierflügel in ihrer eindrücklichsten Form: ein Leben voller stiller, kaum öffentlich geklagter Katastrophen, das sich dennoch – oder gerade deshalb – in eine diszipliniert geformte, weltweit tragende Stimme verwandelte.</p>
         </blockquote>
 
       </div>
