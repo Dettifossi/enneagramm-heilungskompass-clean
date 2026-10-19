@@ -673,6 +673,7 @@ export function guentherJauchPortraitPage() {
         {route:"beruehmte-dirk-rossmann", label:"Portrait: Dirk Rossmann (SO5w6) – unknowingly wrote a book series about his own animal totem"},
         {route:"beruehmte-eckhard-freise", label:"Portrait: Eckhard Freise (SO5w6) – first-ever millionaire on Wer wird Millionär?"},
         {route:"beruehmte-simone-de-beauvoir", label:"Portrait: Simone de Beauvoir (SO5w6)"},
+        {route:"beruehmte-bernhard-hoecker", label:"Portrait: Bernhard Hoecker (SO5w6) – the same totem function in a quicker-witted tone"},
       ])}
     </div>
   `);

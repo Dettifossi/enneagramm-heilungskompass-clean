@@ -2513,3 +2513,70 @@ export function katharinaDieGrossePortraitPage() {
     </div>
   `);
 }
+
+export function bernhardHoeckerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-bernhard-hoecker-portrait.jpg" alt="Bernhard Hoecker – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bernhard Hoecker</p>
+        <p class="krim-portrait-typ">SO5w6 · Sozialer Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Komiker, Moderator, Quiz-Experte, geb. 1970 – Tierentsprechung: Oktopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Oktopus im Studio</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Oktopus</strong> ist das Tier des sozialen Typs 5 – hochintelligent, mit acht Armen gleichzeitig greifend, dabei nie um eine Antwort verlegen. Bernhard Hoecker wurde 1970 geboren und wuchs seit seinem zehnten Lebensjahr in Bonn auf, wo er bis heute lebt. Er studierte dort Volkswirtschaftslehre, bevor er sich dem Fernsehen zuwandte – zunächst als Teil der Sketch-Comedy-Reihe ›Switch‹ (1997–2001), die sein komisches Handwerkszeug schulte, bevor er zu dem wurde, als das ihn das Publikum kennt: der Mann, der scheinbar alles weiß.</p>
+          <p class="vb-intro">Seit 2003 sitzt er als fester Rater bei ›Genial daneben‹, seit 2015 ist er Team-Kapitän bei ›Wer weiß denn sowas?‹, seit 2012 moderiert er gemeinsam mit Wigald Boning das ZDF-Wissenschaftsformat ›Nicht nachmachen!‹. Drei verschiedene Sendungen, ein gemeinsamer Kern: Hoecker ist derjenige, der ein Panel, ein Studiopublikum oder eine ganze Sendung mit seinem breiten Allgemeinwissen trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Das Totem: Wissen, das fürs Publikum da ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 5 das <strong>Totem</strong> – die Verknüpfung von Wissen mit Zugehörigkeit und Ansehen innerhalb einer Gruppe. Anders als die selbsterhaltende Fünf, die ihr Wissen als privates Reservoir schützt, stellt die soziale Fünf ihr Wissen bewusst in den Dienst des Kollektivs und wird dadurch zur anerkannten Instanz. Hoeckers gesamte öffentliche Identität ist genau dieses Muster: Sein Wissen existiert nicht im stillen Kämmerlein, sondern wird live, vor Kamera und Publikum, performt und geteilt – t-online beschreibt ihn treffend als ›intelligenten Allwisser mit trockenem Humor‹.</p>
+          <p class="vb-intro">Bezeichnend ist, wie er selbst seine Arbeitsweise beschreibt: In einem Interview nannte er sich ›recht faul‹ und sagte, er bereite sich nur ungern vor – ›deswegen sind Improvisationsformate wie geschaffen für mich‹. Eine selbsterhaltende Fünf würde Kompetenz eher im Verborgenen absichern, bevor sie sich zeigt; Hoecker sucht stattdessen aktiv die ungeschützte, unvorbereitete Live-Situation vor Publikum – Wissen, das sich im Moment der sozialen Bewährung beweisen soll, nicht vorab in Ruhe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Verlässlichkeit im immer gleichen Rahmen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel</strong> bringt der sozialen Fünf ein tiefes Bedürfnis nach Verlässlichkeit und Stabilität. Nicht das einmalige Fernsehexperiment, sondern das über Jahre durchgehaltene, vertraute Format. Hoecker ist seit über zwei Jahrzehnten in denselben, immer wiederkehrenden Sendestrukturen präsent – ›Genial daneben‹ zwei Jahrzehnte lang, ›Wer weiß denn sowas?‹ seit zehn Jahren, dieselbe Partnerschaft mit Wigald Boning bei ›Nicht nachmachen!‹ seit 2012. Keine dieser Rollen wurde neu erfunden; alle beruhen auf der immer gleichen, sicher beherrschten Position: der Wissende im festen Ensemble.</p>
+          <p class="vb-intro">Dieselbe Tendenz zeigt sich im Umgang mit dem Privaten: Mehrere Quellen beschreiben ihn als jemanden, der auf der Bühne offenherzig wirkt, über sein Privatleben aber so gut wie nichts preisgibt. Eine Bekannte wird mit den Worten zitiert, er sei zuverlässig und unterhaltsam, aber ›selten zu Hause und schlecht erreichbar‹ – der Sechserflügel schützt die eigene Sicherheit, indem er klare, verlässliche Grenzen zwischen der öffentlichen Rolle und dem unsichtbaren Privatbereich zieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Enzyklopädisches Wissen unter Zeitdruck</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Hoecker tatsächlich auszeichnet, ist nicht bloß komödiantisches Talent, sondern eine seltene Kombination aus breitem Faktenwissen und der Fähigkeit, es unter Live-Bedingungen blitzschnell und unterhaltsam abzurufen – eine kognitive Leistung, die sich deutlich von reinem Showtalent unterscheidet. Bei ›Genial daneben‹ muss er innerhalb von Sekunden plausible, aber falsche Antworten erfinden, ohne dabei aus dem Konzept zu geraten; bei ›Wer weiß denn sowas?‹ trägt er als Team-Kapitän über Jahre hinweg konstant hohe Trefferquoten bei kuriosen Alltagsfragen. Seine 2026 vorgestellte Solo-Bühnenshow ›Was vom Merken übrig blieb‹ macht sogar die eigenen Gedächtnis- und Denkprozesse selbst zum Bühnenstoff – ein Zeichen dafür, dass das Wissen bei ihm nicht Mittel zum Zweck ist, sondern selbst zum Gegenstand der Beobachtung wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Günther Jauch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den Porträts dieses Kompasses findet sich mit <a href="#beruehmte-guenther-jauch">Günther Jauch (SO5w6)</a> eine naheliegende Parallele: Beide bauten ihre öffentliche Identität auf derselben Totem-Funktion auf – Wissen, das dem Publikum zugänglich gemacht wird, statt privat gehortet zu werden –, und beide hielten über Jahrzehnte an denselben, vertrauten Sendeformaten fest, statt sich ständig neu zu erfinden. Der Unterschied liegt im Ton: Jauch moderiert mit kühler, distanzierter Sachlichkeit, Hoecker mit trockenem, schlagfertigem Humor – zwei verschiedene Ausdrucksformen desselben Grundmusters, Wissen als sozialen Anker zu nutzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Licht zeigt sich bei Hoecker die Fähigkeit, enormes Faktenwissen nicht abgehoben, sondern zugänglich und unterhaltsam zu vermitteln – eine seltene Kombination aus intellektueller Substanz und Publikumsnähe, die drei parallel laufende, langjährige Fernsehformate trägt. Der Schatten der Fünf ist der <strong>Geiz</strong> – nicht mit Wissen, das er großzügig teilt, sondern mit sich selbst: Je mehr Bühnenpräsenz er zeigt, desto konsequenter bleibt sein privates Leben unsichtbar, fast wie ein Gegengewicht zur ständigen öffentlichen Exponiertheit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Vermächtnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Über zwei Jahrzehnte hinweg hat sich Bernhard Hoecker als eine der verlässlichsten Quiz- und Wissensfiguren des deutschen Fernsehens etabliert, ohne je zum reinen Selbstdarsteller zu werden. Genau darin zeigt sich die soziale Fünf mit Sechserflügel in ihrer reifsten Form: ein enormer Wissensschatz, der nicht zur Distinktion genutzt wird, sondern beständig, Sendung für Sendung, mit dem Publikum geteilt wird – verlässlich, humorvoll, und dabei persönlich kaum greifbar.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so5", label:"SO5 – Der Oktopus: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so5", label:"Lebensmusterkompass: SO5 – Oktopus"},
+        {route:"beruehmte-guenther-jauch", label:"Porträt: Günther Jauch (SO5w6) – dieselbe Totem-Funktion in kühlerem Ton"},
+      ])}
+    </div>
+  `);
+}

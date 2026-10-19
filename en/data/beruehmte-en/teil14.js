@@ -2554,3 +2554,70 @@ export function lewisHamiltonPortraitPage() {
     </div>
   `);
 }
+
+export function bernhardHoeckerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-bernhard-hoecker-portrait.jpg" alt="Bernhard Hoecker – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Bernhard Hoecker</p>
+        <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Comedian, TV host, quiz expert, b. 1970 &ndash; Animal correspondence: Octopus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Octopus in the studio</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Octopus</strong> is the animal of the Social Five &ndash; highly intelligent, reaching with eight arms at once, never at a loss for an answer. Bernhard Hoecker was born in 1970 and has lived in Bonn since age ten, where he still lives today. He studied economics there before turning to television &ndash; first as part of the sketch comedy series "Switch" (1997&ndash;2001), which honed his comedic craft before he became the figure audiences now know: the man who seems to know everything.</p>
+          <p class="vb-intro">Since 2003 he has been a regular panelist on "Genial daneben," since 2015 team captain on "Wer weiß denn sowas?", and since 2012 co-host, alongside Wigald Boning, of the ZDF science format "Nicht nachmachen!" Three different shows, one shared core: Hoecker is the one who carries a panel, a studio audience, or an entire show on his broad general knowledge.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The totem: knowledge that exists for the audience</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the Social Five the <strong>Totem</strong> &ndash; the linking of knowledge with belonging and standing within a group. Unlike the Self-Preservation Five, who protects knowledge as a private reserve, the Social Five deliberately puts knowledge in service of the collective and thereby becomes a recognized authority. Hoecker's entire public identity follows exactly this pattern: his knowledge doesn't exist in a quiet study, but is performed and shared live, on camera, in front of an audience &ndash; t-online aptly describes him as an "intelligent know-it-all with dry humor."</p>
+          <p class="vb-intro">It is telling how he describes his own working style: in one interview he called himself "rather lazy" and said he dislikes preparing &ndash; "that's why improv formats are made for me." A Self-Preservation Five would typically secure competence privately before showing it; Hoecker instead actively seeks out the unprotected, unprepared live situation in front of an audience &ndash; knowledge meant to prove itself in the moment of social testing, not in quiet advance preparation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: reliability within an always-familiar frame</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing</strong> gives the Social Five a deep need for reliability and stability &ndash; not the one-off television experiment, but the format sustained for years, trusted and familiar. Hoecker has been present for over two decades in the same, recurring show structures &ndash; "Genial daneben" for two decades, "Wer weiß denn sowas?" for a decade, the same partnership with Wigald Boning on "Nicht nachmachen!" since 2012. None of these roles was reinvented; all rest on the same, securely mastered position: the knowledgeable one within a fixed ensemble.</p>
+          <p class="vb-intro">The same tendency shows in how he handles his private life: several sources describe him as open and forthcoming on stage, yet revealing almost nothing about his personal life. An acquaintance is quoted calling him reliable and entertaining, but "rarely home and hard to reach" &ndash; the Six-wing protects its own security by drawing clear, dependable boundaries between the public role and the invisible private sphere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: encyclopedic knowledge under time pressure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What actually sets Hoecker apart is not just comedic talent but a rare combination of broad factual knowledge and the ability to retrieve it instantly and entertainingly under live conditions &ndash; a cognitive feat distinct from pure showmanship. On "Genial daneben" he must invent plausible but false answers within seconds without breaking character; as team captain on "Wer weiß denn sowas?" he has sustained consistently high hit rates on bizarre everyday trivia questions for years. His 2026 solo stage show "Was vom Merken übrig blieb" ("What Was Left of Remembering") turns his own memory and cognitive processes into stage material itself &ndash; a sign that knowledge is not, for him, a means to an end, but becomes an object of observation in its own right.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel within the same subtype: Günther Jauch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the portraits in this compass, <a href="#beruehmte-guenther-jauch">Günther Jauch (SO5w6)</a> offers an obvious parallel: both built their public identity on the same totem function &ndash; knowledge made accessible to an audience rather than hoarded privately &ndash; and both stuck to the same familiar show formats for decades rather than constantly reinventing themselves. The difference lies in tone: Jauch hosts with cool, detached matter-of-factness, Hoecker with dry, quick-witted humor &ndash; two different expressions of the same underlying pattern of using knowledge as a social anchor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the Social Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In its light, Hoecker shows the ability to convey enormous factual knowledge not loftily but accessibly and entertainingly &ndash; a rare combination of intellectual substance and audience closeness that carries three long-running television formats at once. The Five's besetting pattern is <strong>avarice</strong> &ndash; not with knowledge, which he shares generously, but with himself: the more stage presence he shows, the more consistently his private life stays invisible, almost a counterweight to his constant public exposure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Legacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Over two decades, Bernhard Hoecker has established himself as one of the most reliable quiz and knowledge figures on German television, without ever becoming a mere self-promoter. This is precisely where the Social Five with a Six-wing shows itself in its most mature form: an enormous store of knowledge used not for distinction, but shared steadily, show after show, with the audience &ndash; reliable, humorous, and personally scarcely graspable.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so5", label:"SO5 – The Octopus: subtype profile"},
+        {route:"lebensmusterkompass/so5", label:"Life Pattern Compass: SO5 – Octopus"},
+        {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6) – the same totem function in a cooler tone"},
+      ])}
+    </div>
+  `);
+}
