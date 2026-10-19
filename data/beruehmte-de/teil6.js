@@ -1902,6 +1902,7 @@ export function oliverHardyPortraitPage() {
         {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
         {route:"beruehmte-moritz-bleibtreu", label:"Porträt: Moritz Bleibtreu (SE7w8)"},
         {route:"beruehmte-hans-zimmer", label:"Porträt: Hans Zimmer (SE7w8)"},
+        {route:"beruehmte-ilka-bessin", label:"Porträt: Ilka Bessin (SE7w8) – derselbe Subtyp, anderes komödiantisches Register"},
         {route:"beruehmte-stan-laurel", label:"Porträt: Stan Laurel (SE6w5) – sein Filmpartner"},
         {route:"kriminalpsychologie-andreas-baader", label:"Kriminalpsychologie: Andreas Baader (SE7w8)"},
       ])}

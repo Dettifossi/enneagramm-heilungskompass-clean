@@ -2494,3 +2494,75 @@ export function carlXVIGustafPortraitPage() {
     </div>
   `);
 }
+
+export function ilkaBessinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-ilka-bessin-portrait.jpg" alt="Ilka Bessin – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ilka Bessin</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Komikerin &amp; Schauspielerin, bekannt als ›Cindy aus Marzahn‹, geb. 1971 &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla, der sich aus Hartz IV eine pinke Rüstung baute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ilka Bessin wurde am 18. November 1971 in Luckenwalde in der damaligen DDR geboren, lernte Köchin und arbeitete später als Animateurin auf Kreuzfahrtschiffen, bevor sie um 1999/2000 ihre Bühnenfigur Cindy aus Marzahn erfand: eine pink gekleidete, lautstarke, bitterarme Langzeitarbeitslose aus Ost-Berlin, die mit schonungslosem Ost-West-Sarkasmus über Hartz IV, Jobcenter und den eigenen Körper herzieht. 2004 gewann Bessin mit dieser Figur die letzte Staffel von ProSiebens ›Quatsch Comedy Club‹-Talentschuppen – der Durchbruch nach Jahren in der Kreuzfahrt- und Kleinbühnen-Entertainerbranche.</p>
+          <p class="vb-intro">Der <strong>Gorilla</strong> ist das Tier der selbsterhaltenden Sieben: ein Körper, der selbst zur Bühne wird, der keine leise Zurückhaltung kennt, sondern mit voller physischer Präsenz einnimmt, was er braucht – Aufmerksamkeit, Lachen, materielle Sicherheit. Bessin baute sich aus einer realen Mangelerfahrung (sie berichtete später offen über eigene Jahre der Arbeitslosigkeit und Geldnot) eine Kunstfigur, die genau diese Verwundbarkeit in schlagfertige, nach außen gerichtete Komik verwandelte – Schutz durch Überzeichnung statt durch Verbergen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Vergnügen und Sicherheit durch Fülle statt durch Verzicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo beschrieb die <strong>selbsterhaltende Sieben (SE7)</strong> als die Verfechterin der Familie oder des unmittelbaren Verbands im materiellen Sinn – Sicherheit entsteht durch das Aufbauen und Sichern angenehmer, versorgender Verhältnisse für sich und die eigenen Leute, durch praktische Anhäufung statt durch Risiko. Bei Bessin zeigt sich das in der schieren Verlässlichkeit ihres Comedy-Betriebs: Von der eigenen RTL-Show ab 2010 über zahlreiche Fernsehauftritte, Tourneen und Bücher bis zur Jubiläumsshow ›20 Jahre Pink‹ 2025 baute sie über zwei Jahrzehnte ein kontinuierliches, finanziell tragfähiges Geschäftsmodell um eine einzige, konsequent wiederverwertete Figur auf.</p>
+          <p class="vb-intro">Auch ihre öffentliche Offenheit über Körpergewicht – mehrfach dokumentierte Ab- und wieder Zunahmen von teils über 20 Kilogramm – passt in dieses Muster: Der Körper selbst wird zum Terrain von Fülle und Genuss, das offen verhandelt statt verschämt versteckt wird. Wo eine sexuelle Sieben die Intensität im einen elektrisierenden Moment sucht, sucht die selbsterhaltende Sieben die verlässliche, wiederkehrende Versorgung – ein voller Kühlschrank, ein sicheres Zuhause, ein Publikum, das wiederkommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Direktheit, Lautstärke, keine falsche Höflichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> zeigt sich bei Bessin in der schonungslosen Direktheit ihrer Kunstfigur: Cindy aus Marzahn nimmt kein Blatt vor den Mund, pöbelt über das Jobcenter, über reiche Wessis, über die eigene Lebenslage – mit einer körperlichen Präsenz und Lautstärke, die keine Entschuldigung sucht. Wo eine stärker neunerflügel-geprägte SE7 die eigene Unzufriedenheit eher in versöhnlichem Humor auflösen würde, trägt der Achterflügel echte Konfrontationslust in die Komik: Cindy greift an, bevor sie selbst angegriffen werden kann.</p>
+          <p class="vb-intro">Dieselbe Direktheit zeigte Bessin auch jenseits der Bühne: 2016 beendete sie die Figur öffentlich und unverblümt mit der Begründung, sie wolle nicht länger ›als Dicke‹ auf offener Bühne stehen und belächelt werden – eine klare, konfrontative Entscheidung, keine stille Zurückziehung. Jahre später kehrte sie ebenso unmissverständlich mit einer neuen RTL-Show zurück, als die Zeit für sie wieder stimmte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Timing, Körperkomik und eine Kunstfigur mit echtem sozialem Nerv</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Bessin als Komikerin tatsächlich auszeichnet, ist mehr als die reine Oberfläche der grellen Perücke und des pinken Kostüms: Ihr comic Timing – die genaue Pause vor der Pointe, der plötzliche Wechsel zwischen Klage und Angriff, die physische Präsenz, mit der sie eine Bühne allein füllt – gehört zum technisch präzisesten der deutschen Stand-up- und Kabarettszene ihrer Generation. Cindy aus Marzahn funktioniert zudem deshalb so nachhaltig, weil die Figur echte soziale Beobachtung trägt: die Erfahrung von Armut, Behördenwillkür und gesellschaftlicher Herabwürdigung, komprimiert in eine überzeichnete, aber erkennbar wahrhaftige Kunstfigur.</p>
+          <p class="vb-intro">Genau diese Verbindung aus persönlicher Betroffenheit und komödiantischem Handwerk erklärt, warum die Figur über zwei Jahrzehnte trug, obwohl Bessin selbst wiederholt betonte, nicht mit Cindy identisch zu sein – ein Kunstgriff, der echtes technisches Können (Stimme, Mimik, Timing) mit einer klaren biografischen Substanz verband, statt bloß eine Maske aufzusetzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Zwei Gorillas der Körperkomik: Bessin und Oliver Hardy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-oliver-hardy">Oliver Hardy</a> (SE7w8) – wie Bessin ein Komiker, dessen komisches Kapital untrennbar mit dem eigenen Körperumfang verbunden war, der ihn zur physischen Zielscheibe und zugleich zur unverwechselbaren Marke machte. Beide teilen dasselbe Grundmuster der selbsterhaltenden Sieben mit Achterflügel: Der eigene Körper wird nicht versteckt, sondern offensiv zur Bühne gemacht, mit direkter, oft selbstironischer Konfrontation statt leiser Verlegenheit.</p>
+          <p class="vb-intro">Der Unterschied liegt im Register: Hardy spielte die Tollpatschigkeit eines Mannes, der trotz bester Absichten ständig scheitert – stille, physische Situationskomik im Duo mit Stan Laurel. Bessin/Cindy dagegen ist laut, verbal aggressiv, sozial pointiert – keine stille Opferfigur, sondern eine, die zurückschlägt, bevor sie fällt. Zwei Ausprägungen desselben Subtyps, die dieselbe körperliche Grundhaltung in völlig unterschiedliche komödiantische Sprache übersetzen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Sieben mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE7w8 zeigt sich in Bessins Fähigkeit, aus einer schmerzhaften persönlichen Erfahrung – Armut, Arbeitslosigkeit, Körperbeschämung – eine Figur zu formen, die Millionen Menschen zugleich zum Lachen bringt und einen wunden gesellschaftlichen Punkt trifft, ohne moralisierend zu wirken.</p>
+          <p class="vb-intro">Der Schatten liegt in der Gefahr, dass die eigene körperliche Realität zum alleinigen Bühnenstoff wird, bis sie selbst zur Last wird – genau das benannte Bessin 2016 mit der vorübergehenden Absetzung der Figur. Wo der Achterflügel schonungslose Direktheit verschafft, kann dieselbe Direktheit nach innen kippen, wenn das Publikum nur noch über den Körper lacht statt mit der Pointe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Der Gorilla, der mit Pink zurückschlug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von der Kochlehre über die Kreuzfahrtschiff-Animation bis zur eigenen RTL-Show und zwei Jahrzehnten ›Cindy aus Marzahn‹: Ilka Bessin steht für eine selbsterhaltende Sieben mit Achterflügel, die persönliche Notlage nicht verdrängte, sondern mit voller körperlicher und verbaler Direktheit in eine tragfähige komödiantische Existenz verwandelte.</p>
+          <p class="vb-intro">Am Ende bleibt das Bild einer Komikerin, die genau wusste, wann sie die pinke Rüstung anlegen und wann sie sie ablegen musste – eine Figur, über die Millionen lachten, während sie gleichzeitig eine reale soziale Wunde offenlegte, lauter und direkter, als es leisere Subtypen je gewagt hätten.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se7", label:"Lebensmusterkompass: SE7 – Gorilla"},
+        {route:"beruehmte-oliver-hardy", label:"Porträt: Oliver Hardy (SE7w8) – derselbe Subtyp, anderes komödiantisches Register"},
+        {route:"beruehmte-johann-lafer", label:"Porträt: Johann Lafer (SE7w8)"},
+      ])}
+    </div>
+  `);
+}

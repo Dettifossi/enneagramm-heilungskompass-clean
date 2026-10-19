@@ -2491,3 +2491,75 @@ export function hillaryClintonPortraitPage() {
     </div>
   `);
 }
+
+export function ilkaBessinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-ilka-bessin-portrait.jpg" alt="Ilka Bessin – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Ilka Bessin</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Self-Preservation Type 7 with an Eight-wing</p>
+        <p class="krim-portrait-subtitle">German comedian &amp; actress, known as ›Cindy aus Marzahn‹, b. 1971 &ndash; animal correspondence: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The gorilla who built herself a pink suit of armor out of welfare</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ilka Bessin was born on 18 November 1971 in Luckenwalde in what was then East Germany, trained as a cook and later worked as an entertainment host on cruise ships, before inventing her stage persona Cindy aus Marzahn around 1999/2000: a pink-clad, loud, dirt-poor long-term unemployed woman from East Berlin, who skewers welfare offices and her own body with unsparing East–West sarcasm. In 2004 Bessin won the final season of ProSieben's ›Quatsch Comedy Club‹ talent contest with this character – the breakthrough after years on cruise ships and small-venue entertainment circuits.</p>
+          <p class="vb-intro">The <strong>gorilla</strong> is the animal of the self-preservation Seven: a body that becomes its own stage, that knows no quiet restraint but takes up what it needs – attention, laughter, material security – with full physical presence. Bessin built, out of a real experience of scarcity (she later spoke openly about her own years of unemployment and financial hardship), a stage character that turned exactly that vulnerability into quick-witted, outward-directed comedy – protection through exaggeration rather than concealment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Seven: pleasure and security through abundance, not abstinence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Naranjo described the <strong>self-preservation Seven (SE7)</strong> as the advocate of the family or immediate circle in a material sense – security arises from building and securing pleasant, provisioning circumstances for oneself and one's own people, through practical accumulation rather than risk. In Bessin this shows in the sheer reliability of her comedy operation: from her own RTL show starting in 2010, through countless television appearances, tours and books, to the 2025 anniversary show ›20 Jahre Pink‹ (»20 Years of Pink«), she built a continuous, financially durable business model over two decades around a single, consistently reused character.</p>
+          <p class="vb-intro">Her public openness about her body weight – repeatedly documented losses and regains of more than 20 kilograms at times – fits the same pattern: the body itself becomes territory for abundance and enjoyment, openly negotiated rather than shamefully hidden. Where a sexual Seven seeks intensity in the one electrifying moment, the self-preservation Seven seeks reliable, recurring provision – a full fridge, a secure home, an audience that keeps coming back.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: directness, volume, no false politeness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> shows in Bessin in the unsparing directness of her stage character: Cindy aus Marzahn minces no words, rails against the welfare office, against the rich West, against her own circumstances – with a physical presence and volume that seeks no apology. Where an SE7 with a stronger Six-wing might dissolve its own discontent into more conciliatory humor, the Eight-wing carries real combative energy into the comedy: Cindy attacks before she can be attacked herself.</p>
+          <p class="vb-intro">Bessin showed the same directness offstage as well: in 2016 she publicly and bluntly retired the character, explaining that she no longer wanted to stand on stage ›as the fat one‹ and be laughed at for it – a clear, confrontational decision, not a quiet withdrawal. Years later she returned just as unambiguously with a new RTL show, once the time felt right to her again.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: timing, physical comedy, and a character with real social nerve</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What actually distinguishes Bessin as a comedian is more than the sheer surface of the garish wig and pink costume: her comic timing – the precise pause before the punchline, the sudden shift between complaint and attack, the physical presence with which she fills a stage alone – ranks among the most technically precise in German stand-up and cabaret of her generation. Cindy aus Marzahn also works so durably because the character carries real social observation: the experience of poverty, bureaucratic arbitrariness and social degradation, compressed into an exaggerated but recognizably truthful stage figure.</p>
+          <p class="vb-intro">This exact combination of personal stakes and comedic craft explains why the character lasted for two decades, even though Bessin herself repeatedly stressed that she is not identical to Cindy – a device that linked genuine technical skill (voice, facial expression, timing) with clear biographical substance, rather than simply putting on a mask.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Two gorillas of physical comedy: Bessin and Oliver Hardy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-oliver-hardy">Oliver Hardy</a> (SE7w8) – like Bessin, a comedian whose comic capital was inseparable from his own body size, which made him both a physical target and an unmistakable brand. Both share the same basic pattern of the self-preservation Seven with an Eight-wing: the body is not hidden but offensively turned into the stage, with direct, often self-deprecating confrontation instead of quiet embarrassment.</p>
+          <p class="vb-intro">The difference lies in register: Hardy played the clumsiness of a man who, despite his best intentions, constantly fails – quiet, physical slapstick in a duo with Stan Laurel. Bessin/Cindy, by contrast, is loud, verbally aggressive, socially pointed – not a quiet victim figure, but one who strikes back before she falls. Two expressions of the same subtype, translating the same bodily stance into completely different comedic languages.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Seven with an Eight-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE7w8 shows in Bessin's ability to shape a painful personal experience – poverty, unemployment, body shaming – into a character that makes millions of people laugh while hitting a raw social nerve, without ever turning moralistic.</p>
+          <p class="vb-intro">The shadow lies in the risk that one's own physical reality becomes the sole stage material, until it becomes a burden in itself – exactly what Bessin named in 2016 when she temporarily retired the character. Where the Eight-wing grants unsparing directness, that same directness can turn inward when the audience only laughs at the body instead of with the punchline.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The gorilla who struck back in pink</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From training as a cook, through cruise-ship entertaining, to her own RTL show and two decades of ›Cindy aus Marzahn‹: Ilka Bessin stands for a self-preservation Seven with an Eight-wing who did not suppress personal hardship but transformed it, with full physical and verbal directness, into a durable comedic career.</p>
+          <p class="vb-intro">In the end, the image that remains is of a comedian who knew exactly when to put on the pink armor and when to take it off – a character millions laughed at, while it simultaneously exposed a real social wound, louder and more directly than quieter subtypes would ever have dared.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se7", label:"SE7 – The Gorilla: subtype profile"},
+        {route:"lebensmusterkompass/se7", label:"Life Pattern Compass: SE7 – Gorilla"},
+        {route:"beruehmte-oliver-hardy", label:"Portrait: Oliver Hardy (SE7w8) – same subtype, different comedic register"},
+        {route:"beruehmte-johann-lafer", label:"Portrait: Johann Lafer (SE7w8)"},
+      ])}
+    </div>
+  `);
+}

@@ -157,6 +157,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-camille-kitt", label: "Neues EN-Porträt: Camille Kitt" },
   { hash: "#beruehmte-wolfram-eilenberger", label: "Neues Porträt: Wolfram Eilenberger" },
   { hash: "en/#beruehmte-wolfram-eilenberger", label: "Neues EN-Porträt: Wolfram Eilenberger" },
+  { hash: "#beruehmte-ilka-bessin", label: "Neues Porträt: Ilka Bessin" },
+  { hash: "en/#beruehmte-ilka-bessin", label: "Neues EN-Porträt: Ilka Bessin" },
 ];
 
 function startServer() {
