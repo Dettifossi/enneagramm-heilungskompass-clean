@@ -4913,7 +4913,7 @@ export function frankHanebuthPortraitPage() {
       <div class="vb-section">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Territorium statt Einzeltat</h3>
         <p class="vb-intro">Anders als bei den meisten Porträts dieser Rubrik lässt sich Hanebuths Fall nicht auf eine einzelne, klar datierte Tat reduzieren. Sein Muster ist strukturell: die jahrzehntelange Kontrolle eines Territoriums (des Hannoveraner Rotlichtmilieus) durch die bloße Existenz einer unangefochtenen Hierarchie-Spitze, abgesichert durch die reale Bereitschaft zu körperlicher Durchsetzung, wenn nötig &ndash; belegt durch die Verurteilung von 2001 &ndash;, aber getragen von der ruhigen, fast institutionellen Präsenz eines Mannes, dem laut Medienberichten über Jahre kaum jemand im Milieu offen die Stirn bot.</p>
-        <p class="vb-intro">Diese Kombination &ndash; reale Gewaltbereitschaft im Hintergrund, aber ganz überwiegend ruhiges, fast gelassenes Auftreten nach außen &ndash; ist typisch für die SO8w9: Die Acht liefert die Substanz der Macht, der Neunerflügel die Form, in der sie getägt wird, ohne ständige Eskalation.</p>
+        <p class="vb-intro">Diese Kombination &ndash; reale Gewaltbereitschaft im Hintergrund, aber ganz überwiegend ruhiges, fast gelassenes Auftreten nach außen &ndash; ist typisch für die SO8w9: Die Acht liefert die Substanz der Macht, der Neunerflügel die Form, in der sie getragen wird, ohne ständige Eskalation.</p>
       </div>
 
       <div class="vb-section">
