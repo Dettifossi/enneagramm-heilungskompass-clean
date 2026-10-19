@@ -1,0 +1,125 @@
+name: Porträtbilder nach R2 migrieren
+
+# Läuft automatisch bei jedem Push, der assets/portraits/ verändert, und
+# lässt sich zusätzlich manuell auslösen (workflow_dispatch), um den
+# bestehenden Rückstand an lokal im Repo liegenden Porträtbildern
+# einmalig aufzuräumen. Idempotent: findet beim nächsten Lauf nichts mehr
+# zu tun, wenn schon alles migriert ist, und beendet sich dann ohne Commit.
+#
+# Einmaliges Setup (siehe README-Hinweis unten): im Repo unter
+# Settings → Secrets and variables → Actions zwei Secrets hinterlegen:
+#   CLOUDFLARE_API_TOKEN   – Cloudflare-API-Token mit Schreibrecht auf
+#                            den R2-Bucket "kompass-assets"
+#   CLOUDFLARE_ACCOUNT_ID  – die Cloudflare-Account-ID (Dashboard → rechte
+#                            Seitenleiste, oder Account Home-URL)
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "assets/portraits/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: migrate-portraits-to-r2
+  cancel-in-progress: false
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    if: ${{ secrets.CLOUDFLARE_API_TOKEN != '' }}
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      R2_BUCKET: kompass-assets
+      R2_PUBLIC_BASE: https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Lokal referenzierte Porträtbilder nach R2 hochladen und Referenzen umschreiben
+        run: |
+          set -euo pipefail
+
+          # Alle Dateien, auf die irgendeine Seite noch über den lokalen
+          # Fallback-Pfad verweist (src="/assets/portraits/NAME") statt über
+          # die R2-URL. Durchsucht alle Bundle- und Teil-Dateien, DE und EN.
+          mapfile -t FILES < <(
+            grep -rhoE 'src="/assets/portraits/[A-Za-z0-9_.-]+\.(jpg|jpeg|png)"' \
+              bundle.js en/bundle.js \
+              data/beruehmte-de/*.js en/data/beruehmte-en/*.js \
+              data/krankheitsportraets-de/*.js en/data/krankheitsportraets-en/*.js \
+              data/kriminal-de/*.js en/data/kriminal-en/*.js \
+              2>/dev/null \
+            | sed -E 's/^src="\/assets\/portraits\///; s/"$//' \
+            | sort -u
+          )
+
+          if [ "${#FILES[@]}" -eq 0 ]; then
+            echo "Keine lokal referenzierten Porträtbilder gefunden – nichts zu tun."
+            echo "CHANGED=false" >> "$GITHUB_ENV"
+            exit 0
+          fi
+
+          echo "Gefunden: ${#FILES[@]} lokal referenzierte Porträtbilder."
+          CHANGED=false
+
+          for name in "${FILES[@]}"; do
+            local_path="assets/portraits/$name"
+            if [ ! -f "$local_path" ]; then
+              echo "::warning::$local_path ist referenziert, aber nicht im Repo vorhanden – übersprungen."
+              continue
+            fi
+
+            content_type="image/jpeg"
+            case "$name" in
+              *.png) content_type="image/png" ;;
+            esac
+
+            echo "Lade $local_path nach R2 hoch ($R2_BUCKET/assets/portraits/$name) ..."
+            npx --yes wrangler@4 r2 object put \
+              "$R2_BUCKET/assets/portraits/$name" \
+              --file "$local_path" \
+              --content-type "$content_type" \
+              --remote
+
+            echo "Schreibe Referenzen auf $name von lokalem Pfad auf R2-URL um ..."
+            grep -rlZ "/assets/portraits/$name" \
+                bundle.js en/bundle.js app.js \
+                data/beruehmte-de/*.js en/data/beruehmte-en/*.js \
+                data/krankheitsportraets-de/*.js en/data/krankheitsportraets-en/*.js \
+                data/kriminal-de/*.js en/data/kriminal-en/*.js \
+                2>/dev/null \
+              | xargs -0 -r sed -i "s|/assets/portraits/$name|$R2_PUBLIC_BASE/assets/portraits/$name|g"
+
+            git rm --quiet "$local_path"
+            CHANGED=true
+            echo "✓ $name migriert."
+          done
+
+          echo "CHANGED=$CHANGED" >> "$GITHUB_ENV"
+
+      - name: app.js synchronisieren (Kopie von bundle.js)
+        if: env.CHANGED == 'true'
+        run: cp bundle.js app.js
+
+      - name: Änderungen committen und pushen
+        if: env.CHANGED == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A -- assets/portraits bundle.js en/bundle.js app.js \
+            data/beruehmte-de data/krankheitsportraets-de data/kriminal-de \
+            en/data/beruehmte-en en/data/krankheitsportraets-en en/data/kriminal-en
+          git commit -m "chore: Porträtbilder nach R2 migriert [automated]"
+          git push
