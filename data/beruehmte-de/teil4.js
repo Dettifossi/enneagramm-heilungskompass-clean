@@ -1582,6 +1582,7 @@ export function toniMorrisonPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se8", label:"SE8 \u2013 Der Orang-Utan: Subtyp-Profil"},
         {route:"beruehmte-umberto-eco", label:"Portr\u00e4t: Umberto Eco (SE8w7)"},
+        {route:"beruehmte-draupadi-murmu", label:"Portr\u00e4t: Draupadi Murmu (SE8w9) \u2013 dieselbe stille Z\u00e4higkeit nach struktureller Benachteiligung"},
       ])}
     </div>
   `);

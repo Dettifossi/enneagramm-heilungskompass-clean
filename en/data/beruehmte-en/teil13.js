@@ -2517,3 +2517,73 @@ export function charlieChaplinPortraitPage() {
     </div>
   `);
 }
+
+export function draupadiMurmuPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-draupadi-murmu-portrait.jpg" alt="Draupadi Murmu – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Draupadi Murmu</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type Eight with a Nine-Wing</p>
+        <p class="krim-portrait-subtitle">15th President of India, b. 1958 &ndash; animal correspondence: orangutan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Orangutan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>orangutan</strong> is the animal of the self-preservation Eight – a creature that survives in the thicket not by roaring the loudest, but by being tough, by carving out its own territory, and by never giving up on climbing to the next branch, however harsh the forest. Draupadi Murmu, born on 20 June 1958 in the village of Uparbeda in the eastern Indian state of Odisha as a member of the indigenous Santal community, embodies this image in a way that goes far beyond any political career: a woman who came from one of India's poorest and most marginalized communities and fought her way, through a series of personal catastrophes, to the head of state of the world's largest democracy, without ever losing her inner calm.</p>
+          <p class="vb-intro">In 2022 she was sworn in as India's 15th President – the first president from an indigenous community in the country's history and only the second woman to hold the office after Pratibha Patil. Between that office and her origins lies a path that speaks of tenacity, not of a glittering rise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Eight: Survival Through Tenacity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the <strong>self-preservation Eight (SE8)</strong> is the subtype in which the Eight's passion – lust, in the sense of immediate, unfiltered intensity – is directed above all at physical survival and material security. It is not about prestige or social leadership, but about the raw question: will I, and will mine, make it through? Naranjo also described this subtype as marked by a particular kind of satisfaction that arises simply from enduring hardship.</p>
+          <p class="vb-intro">Murmu's life reads like a textbook example of this dynamic. After studying political science and economics at Ramadevi Women's College in Bhubaneswar (graduating in 1979), she first worked at an irrigation department before becoming a teacher. Between 2009 and 2015 she lost nearly her entire immediate family in rapid succession: her younger son Laxman under unclear circumstances, her elder son Sipun in a road accident, her mother, her brother, and finally, in 2014, her husband Shyam Charan Murmu to cardiac arrest. She later said of herself: "I was devastated and suffered from depression." What distinguishes a self-preservation Eight in such a situation from other types is not the absence of collapse – she experienced it – but the ability to keep working, keep surviving afterward, without confronting the outside world with her own despair.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-Wing: Calm Instead of Display</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> softens the raw assertiveness of the pure Eight into a quiet, almost unassuming persistence in the self-preservation Eight. The SE8w9 does not have to prove that she is strong – she simply is, and she shows it through endurance rather than volume. This composure marks Murmu's entire public presence: countless reports describe her as reserved, modest in manner, and strikingly unpretentious for someone holding such a representative office.</p>
+          <p class="vb-intro">Telling is how she found her own way out of depression after the years of loss: through turning to the Brahma Kumaris movement, a spiritual community that emphasizes inner peace and meditation. "It was when I visited the Brahma Kumaris that I realized I had to move on," she later said. This is not the retreat of a pure Eight, who would more likely push forward combatively – it is the Nine-type search for inner peace as a way of recovering one's own strength.</p>
+          <p class="vb-intro">The same quiet persistence shows in her political career: rather than standing out through loud campaigns, she worked her way over decades through local and regional offices – legislator and minister in Odisha, district president of Mayurbhanj, governor of Jharkhand from 2015 to 2021 – before being nominated for the highest office of state in 2022. Not a leap, but a long, steady path.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Substance: What Carried Her Rise</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Murmu's path apart from a mere story of victimhood is the concrete institutional competence she built over decades. As governor of Jharkhand – a state with a high proportion of indigenous population – she made a name for herself by repeatedly rejecting state government bills that, in her view, would have undermined the land rights of indigenous communities, intervening directly in political disputes that went far beyond the mostly ceremonial role of an Indian governorship. This was not a symbolic gesture but the practical application of decades of experience with exactly the problems facing her own community.</p>
+          <p class="vb-intro">As a teacher, she also at times taught on an honorary basis at a school in Rairangpur after giving up her post at the irrigation department to be with her family – a decision that traded concrete material security for her own duty of care, typical of an SE8 whose priorities orient around the immediate survival and well-being of her own family rather than career planning.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SE8w9 is her ability to pass through repeated, existential losses without breaking under them and without turning her own vulnerability into a public stage. Murmu never made her grief into political capital – she processed it and moved on.</p>
+          <p class="vb-intro">The shadow: the same ability to process pain without showing it outwardly can mean leaving herself little room to be vulnerable. The Nine-type calm on the outside says little about how much of the burden was actually processed inwardly, compared with what simply had to be set aside in order to keep functioning.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. A Parallel Within the Same Subtype: Toni Morrison</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A revealing parallel can be found in writer Toni Morrison (SE8w9): she too came from a community shaped by structural disadvantage, and she too combined raw, grounded tenacity with a calm, unhurried public presence that never depended on volume. Both women show the same SE8w9 pattern: the hardship of survival is neither suppressed nor concealed, but converted into a quiet, load-bearing authority that convinces precisely through its restraint.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Legacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Draupadi Murmu's presidency is, first and foremost, a symbol: the first member of an indigenous community at the head of the Indian state, after a life that repeatedly threatened to take everything dear to her. The SE8w9 pattern explains how this path became psychologically possible – not through suppressing pain, but through a tenacious, quiet endurance that refused to break under loss and preferred to show its strength through calm persistence rather than loud self-display.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se8", label:"SE8 – The Orangutan: subtype profile"},
+        {route:"beruehmte-toni-morrison", label:"Portrait: Toni Morrison (SE8w9) – the same quiet tenacity after structural disadvantage"},
+        {route:"beruehmte-birute-galdikas", label:"Portrait: Dr. Biruté Galdikas (SE8w9)"},
+      ])}
+    </div>
+  `);
+}

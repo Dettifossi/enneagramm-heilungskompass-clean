@@ -2559,3 +2559,73 @@ export function wolframEilenbergerPortraitPage() {
     </div>
   `);
 }
+
+export function draupadiMurmuPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-draupadi-murmu-portrait.jpg" alt="Draupadi Murmu – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Draupadi Murmu</p>
+        <p class="krim-portrait-typ">SE8w9 &middot; Selbsterhaltender Typ 8 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">15. Präsidentin Indiens, geb. 1958 &ndash; Tierentsprechung: Orang-Utan</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Orang-Utan</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Orang-Utan</strong> ist das Tier des selbsterhaltenden Typs 8 &ndash; ein Wesen, das im Dickicht überlebt, nicht weil es am lautesten brüllt, sondern weil es zäh ist, weil es sich sein Territorium selbst erarbeitet und weil es trotz aller Widrigkeiten des Waldes niemals aufgibt, seinen Ast weiterzuklettern. Draupadi Murmu, am 20. Juni 1958 im Dorf Uparbeda im ostindischen Bundesstaat Odisha als Angehörige des indigenen Santal-Volkes geboren, verkörpert dieses Bild auf eine Weise, die über jede politische Karriere hinausgeht: eine Frau, die aus einer der ärmsten und marginalisiertesten Gemeinschaften Indiens stammte und sich durch eine Reihe persönlicher Katastrophen hindurch bis an die Staatsspitze der größten Demokratie der Welt kämpfte, ohne dabei ihre innere Ruhe zu verlieren.</p>
+          <p class="vb-intro">2022 wurde sie als 15. Präsidentin Indiens vereidigt &ndash; die erste Präsidentin aus einer indigenen Gemeinschaft in der Geschichte des Landes und erst die zweite Frau in diesem Amt nach Pratibha Patil. Zwischen diesem Amt und ihrer Herkunft liegt ein Weg, der von Zähigkeit erzählt, nicht von glänzendem Aufstieg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Der selbsterhaltende Achter: Überleben durch Zähigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>selbsterhaltende Achter (SE8)</strong> ist nach Naranjo derjenige Subtyp, bei dem sich die Leidenschaft der Acht &ndash; Wollust im Sinne von unmittelbarer, ungefilterter Intensität &ndash; vor allem auf das physische Überleben und die materielle Absicherung richtet. Es geht nicht um Prestige oder soziale Führungsrolle, sondern um die rohe Frage: Werde ich und werden die Meinen durchkommen? Naranjo beschrieb diesen Subtyp auch als geprägt von einer besonderen Form der Satisfaktion, die aus dem bloßen Überstehen von Härte entsteht.</p>
+          <p class="vb-intro">Murmus Lebensweg liest sich wie ein Lehrbeispiel dieser Dynamik. Nach einem Politikwissenschafts- und Wirtschaftsstudium am Ramadevi Women's College in Bhubaneswar (Abschluss 1979) arbeitete sie zunächst in einer Bewässerungsbehörde, bevor sie als Lehrerin tätig wurde. Zwischen 2009 und 2015 verlor sie in rascher Folge nahezu ihre gesamte unmittelbare Familie: ihren jüngeren Sohn Laxman unter ungeklärten Umständen, ihren älteren Sohn Sipun bei einem Verkehrsunfall, ihre Mutter, ihren Bruder und schließlich 2014 ihren Ehemann Shyam Charan Murmu an einem Herzstillstand. Sie selbst beschrieb später: &bdquo;Ich war am Boden zerstört und litt an Depressionen.&ldquo; Was eine selbsterhaltende Acht in einer solchen Lage von anderen Typen unterscheidet, ist nicht das Ausbleiben des Zusammenbruchs &ndash; sie erlebte ihn &ndash;, sondern die Fähigkeit, danach weiterzuarbeiten, weiterzuüberleben, ohne die Außenwelt mit der eigenen Verzweiflung zu konfrontieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: Ruhe statt Inszenierung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> mildert bei der selbsterhaltenden Acht die rohe Durchsetzungskraft der reinen Acht zu einer stillen, fast unauffälligen Beharrlichkeit. Die SE8w9 muss nicht beweisen, dass sie stark ist &ndash; sie ist es einfach, und sie zeigt es durch Ausdauer statt durch Lautstärke. Diese Gelassenheit prägt Murmus gesamten öffentlichen Auftritt: Sie gilt in zahllosen Berichten als zurückhaltend, bescheiden im Umgang und auffallend unprätentiös für eine Person in einem derart repräsentativen Amt.</p>
+          <p class="vb-intro">Bezeichnend ist, wie sie nach den Jahren der Verluste ihren eigenen Weg aus der Depression fand: durch die Hinwendung zur Brahma-Kumaris-Bewegung, einer spirituellen Gemeinschaft, die innere Ruhe und Meditation betont. &bdquo;Es war, als ich die Brahma Kumaris besuchte, dass mir klar wurde, ich musste weitermachen&ldquo;, sagte sie später. Das ist kein Rückzug einer reinen Acht, die eher kämpferisch nach vorne drängen würde &ndash; es ist die neunertypische Suche nach innerem Frieden als Weg, die eigene Kraft wiederzufinden.</p>
+          <p class="vb-intro">Dieselbe ruhige Beharrlichkeit zeigte sich in ihrer politischen Laufbahn: Statt mit lauten Kampagnen aufzufallen, arbeitete sie sich über Jahrzehnte durch kommunale und regionale Ämter &ndash; Abgeordnete und Ministerin in Odisha, Distriktpräsidentin von Mayurbhanj, von 2015 bis 2021 Gouverneurin von Jharkhand &ndash; bevor sie 2022 für das höchste Staatsamt nominiert wurde. Kein Sprung, sondern ein langer, stetiger Weg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Was ihren Aufstieg trug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Murmus Weg von einer bloßen Opfergeschichte unterscheidet, ist die konkrete institutionelle Kompetenz, die sie sich über Jahrzehnte erarbeitete. Als Gouverneurin von Jharkhand &ndash; einem Bundesstaat mit einem hohen Anteil indigener Bevölkerung &ndash; machte sie sich einen Namen, indem sie wiederholt Gesetzesvorlagen der Landesregierung zurückwies, die aus ihrer Sicht die Landrechte indigener Gemeinschaften untergraben hätten, und damit direkt in politische Auseinandersetzungen eingriff, die weit über die meist zeremonielle Rolle eines indischen Gouverneursamts hinausgingen. Das war keine symbolische Geste, sondern die praktische Anwendung jahrzehntelanger Erfahrung mit genau den Problemen, die ihre eigene Gemeinschaft betrafen.</p>
+          <p class="vb-intro">Als Lehrerin unterrichtete sie zudem zeitweise ehrenamtlich an einer Schule in Rairangpur, nachdem sie ihre Stelle in der Bewässerungsbehörde aufgegeben hatte, um bei ihrer Familie zu sein &ndash; eine Entscheidung, die handfeste materielle Sicherheit gegen die eigene Fürsorgepflicht eintauschte, typisch für eine SE8, deren Prioritäten sich am unmittelbaren Überleben und Wohlergehen der eigenen Familie orientieren, nicht an Karriereplanung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE8w9 ist ihre Fähigkeit, durch wiederholte, existenzielle Verluste hindurchzugehen, ohne daran zu zerbrechen und ohne die eigene Verletzlichkeit zur öffentlichen Bühne zu machen. Murmu hat ihre Trauer nie zum politischen Kapital gemacht &ndash; sie hat sie verarbeitet und ist weitergegangen.</p>
+          <p class="vb-intro">Der Schatten: Dieselbe Fähigkeit, Schmerz zu verarbeiten, ohne ihn nach außen zu zeigen, kann bedeuten, dass sie sich selbst wenig Raum lässt, verletzlich zu sein. Die neunertypische Ruhe nach außen sagt wenig darüber, wie viel von der Last tatsächlich innerlich verarbeitet wurde, verglichen mit dem, was einfach beiseitegeschoben werden musste, um funktionsfähig zu bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallele im selben Subtyp: Toni Morrison</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Eine aufschlussreiche Parallele findet sich bei der Schriftstellerin Toni Morrison (SE8w9): Auch sie stammte aus einer von struktureller Benachteiligung geprägten Gemeinschaft, auch sie verband rohe, erdverbundene Zähigkeit mit einer ruhigen, unaufgeregten öffentlichen Präsenz, die nie auf Lautstärke angewiesen war. Beide Frauen zeigen dasselbe SE8w9-Muster: Die Härte des Überlebens wird nicht verdrängt oder kaschiert, sondern in eine stille, tragfähige Autorität umgewandelt, die gerade durch ihre Zurückhaltung überzeugt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Vermächtnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Draupadi Murmus Präsidentschaft ist in erster Linie ein Symbol: die erste Angehörige einer indigenen Gemeinschaft an der Spitze des indischen Staates, nach einem Leben, das wiederholt alles zu nehmen drohte, was ihr lieb war. Das SE8w9-Muster erklärt, wie dieser Weg psychologisch möglich wurde &ndash; nicht durch Verdrängung des Schmerzes, sondern durch eine zähe, stille Ausdauer, die sich weigerte, am Verlust zu zerbrechen, und die ihre Kraft lieber in ruhiger Beharrlichkeit als in lauter Selbstdarstellung zeigte.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se8", label:"SE8 – Der Orang-Utan: Subtyp-Profil"},
+        {route:"beruehmte-toni-morrison", label:"Porträt: Toni Morrison (SE8w9) – dieselbe stille Zähigkeit nach struktureller Benachteiligung"},
+        {route:"beruehmte-birute-galdikas", label:"Porträt: Dr. Biruté Galdikas (SE8w9)"},
+      ])}
+    </div>
+  `);
+}

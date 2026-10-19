@@ -1582,6 +1582,7 @@ export function toniMorrisonPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se8", label:"SP8 – The Orangutan: Subtype Profile"},
         {route:"beruehmte-umberto-eco", label:"Portrait: Umberto Eco (SP8w7)"},
+        {route:"beruehmte-draupadi-murmu", label:"Portrait: Draupadi Murmu (SE8w9) – the same quiet tenacity after structural disadvantage"},
       ])}
     </div>
   `);
