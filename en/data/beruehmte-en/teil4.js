@@ -2448,7 +2448,7 @@ export function katharinaDieGrossePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="/assets/portraits/beruehmte-katharina-die-grosse-portrait.jpg" alt="Catherine the Great – portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-katharina-die-grosse-portrait.jpg" alt="Catherine the Great – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Catherine the Great</p>
         <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with a Two-wing</p>

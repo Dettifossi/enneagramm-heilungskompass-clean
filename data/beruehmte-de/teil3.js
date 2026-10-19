@@ -2373,7 +2373,7 @@ export function julieBenzPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="/assets/portraits/beruehmte-julie-benz-portrait.jpg" alt="Julie Benz – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-julie-benz-portrait.jpg" alt="Julie Benz – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Julie Benz</p>
         <p class="krim-portrait-typ">SX6w7 &middot; Sexueller Typ 6 mit Siebenerflügel</p>
@@ -2433,7 +2433,7 @@ export function erichVonDaenikenPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="/assets/portraits/beruehmte-erich-von-daeniken-portrait.jpg" alt="Erich von Däniken – Porträt" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-erich-von-daeniken-portrait.jpg" alt="Erich von Däniken – Porträt" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Erich von Däniken</p>
         <p class="krim-portrait-typ">SE8w9 &middot; Selbsterhaltungs-Typ 8 mit Neunerflügel</p>

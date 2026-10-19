@@ -2455,7 +2455,7 @@ export function metteMaritPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="/assets/portraits/beruehmte-mette-marit-portrait.jpg" alt="Mette-Marit – portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mette-marit-portrait.jpg" alt="Mette-Marit – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Mette-Marit</p>
         <p class="krim-portrait-typ">SE4w3 &middot; Self-Preservation Type 4 with a Three-wing</p>
@@ -2524,7 +2524,7 @@ export function margaretThatcherPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="/assets/portraits/beruehmte-margaret-thatcher-portrait.jpg" alt="Margaret Thatcher – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-margaret-thatcher-portrait.jpg" alt="Margaret Thatcher – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Margaret Thatcher</p>
         <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with Two-wing</p>

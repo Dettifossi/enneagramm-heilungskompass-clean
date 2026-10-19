@@ -2425,7 +2425,7 @@ export function henriPoincarePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="/assets/portraits/beruehmte-henri-poincare-portrait.jpg" alt="Henri Poincaré – portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-henri-poincare-portrait.jpg" alt="Henri Poincaré – portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Henri Poincaré</p>
         <p class="krim-portrait-typ">SO5w6 &middot; Social Type 5 with a Six-wing</p>
@@ -2493,7 +2493,7 @@ export function florenceNightingalePortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="/assets/portraits/beruehmte-florence-nightingale-portrait.jpg" alt="Florence Nightingale – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-florence-nightingale-portrait.jpg" alt="Florence Nightingale – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Florence Nightingale</p>
         <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>

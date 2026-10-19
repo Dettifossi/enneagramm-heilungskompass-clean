@@ -4924,7 +4924,7 @@ export function johannesPaulIIKrankheitsportraetPage() {
       <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="/assets/portraits/beruehmte-johannes-paul-ii-portrait.jpg" alt="Johannes Paul II." class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-johannes-paul-ii-portrait.jpg" alt="Johannes Paul II." class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Johannes Paul II.</p>
         <p class="krim-portrait-typ">SE1w9 · Selbsterhaltender Typ 1 mit Neunerflügel · 1920–2005</p>

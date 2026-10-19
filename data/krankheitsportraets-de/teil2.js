@@ -4830,7 +4830,7 @@ export function metteMaritKrankheitsportraetPage() {
       <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="/assets/portraits/beruehmte-mette-marit-portrait.jpg" alt="Mette-Marit" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-mette-marit-portrait.jpg" alt="Mette-Marit" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Mette-Marit</p>
         <p class="krim-portrait-typ">SE4w3 · Selbsterhaltender Typ 4 mit Dreierflügel · geb. 1973</p>

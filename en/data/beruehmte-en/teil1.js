@@ -2403,7 +2403,7 @@ export function bruceSpringsteenPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="/assets/portraits/beruehmte-bruce-springsteen-portrait.jpg" alt="Bruce Springsteen – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bruce-springsteen-portrait.jpg" alt="Bruce Springsteen – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Bruce Springsteen</p>
         <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with a One-Wing</p>
@@ -2472,7 +2472,7 @@ export function julieBenzPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="/assets/portraits/beruehmte-julie-benz-portrait.jpg" alt="Julie Benz – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-julie-benz-portrait.jpg" alt="Julie Benz – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Julie Benz</p>
         <p class="krim-portrait-typ">SX6w7 &middot; Sexual Type 6 with a Seven-Wing</p>
@@ -2532,7 +2532,7 @@ export function erichVonDaenikenPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="/assets/portraits/beruehmte-erich-von-daeniken-portrait.jpg" alt="Erich von Däniken – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-erich-von-daeniken-portrait.jpg" alt="Erich von Däniken – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Erich von Däniken</p>
         <p class="krim-portrait-typ">SE8w9 &middot; Self-Preservation Type 8 with a Nine-Wing</p>
@@ -2651,7 +2651,7 @@ export function nicoleKidmanPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="/assets/portraits/beruehmte-nicole-kidman-portrait.jpg" alt="Nicole Kidman – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-nicole-kidman-portrait.jpg" alt="Nicole Kidman – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Nicole Kidman</p>
         <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with a Two-Wing</p>
@@ -2711,7 +2711,7 @@ export function naomiCampbellPortraitPage() {
       <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="/assets/portraits/beruehmte-naomi-campbell-portrait.jpg" alt="Naomi Campbell – Portrait" class="krim-portrait-img" loading="lazy" />
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-naomi-campbell-portrait.jpg" alt="Naomi Campbell – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Naomi Campbell</p>
         <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with a Two-Wing</p>
