@@ -2548,7 +2548,7 @@ export function ilkaBessinPortraitPage() {
 
         <h2 class="vb-section">7. Der Gorilla, der mit Pink zurückschlug</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Von der Kochlehre über die Kreuzfahrtschiff-Animation bis zur eigenen RTL-Show und zwei Jahrzehnten ›Cindy aus Marzahn‹: Ilka Bessin steht für eine selbsterhaltende Sieben mit Achterflügel, die persönliche Notlage nicht verdrängte, sondern mit voller körperlicher und verbaler Direktheit in eine tragfähige komödiantische Existenz verwandelte.</p>
+          <p class="vb-intro">Von der Kochlehre über die Kreuzfahrtschiff-Animation bis zur eigenen RTL-Show und zwei Jahrzehnten ›Cindy aus Marzahn‹: Ilka Bessin steht für eine selbsterhaltende Sieben mit Achterflügel, die ihre persönliche Notlage nicht verdrängte, sondern mit voller körperlicher und verbaler Direktheit in eine tragfähige komödiantische Existenz verwandelte.</p>
           <p class="vb-intro">Am Ende bleibt das Bild einer Komikerin, die genau wusste, wann sie die pinke Rüstung anlegen und wann sie sie ablegen musste – eine Figur, über die Millionen lachten, während sie gleichzeitig eine reale soziale Wunde offenlegte, lauter und direkter, als es leisere Subtypen je gewagt hätten.</p>
         </blockquote>
 
