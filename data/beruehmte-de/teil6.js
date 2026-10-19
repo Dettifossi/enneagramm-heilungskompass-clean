@@ -2502,7 +2502,7 @@ export function wolframEilenbergerPortraitPage() {
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. Das Erdmännchen, das die Philosophiegeschichte auf Wache stellt</h2>
+        <h2 class="vb-section">1. Das Erdmännchen, das über die Philosophiegeschichte wacht</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Wolfram Eilenberger wurde 1972 in Freiburg im Breisgau geboren und studierte Psychologie, Philosophie und Romanistik in Heidelberg, Turku und Zürich, wo er 2008 promoviert wurde. Zwischen 2003 und 2010 war er philosophischer Korrespondent des Magazins Cicero, langjähriger Kolumnist des Berliner Tagesspiegels und übernahm Lehraufträge an der University of Toronto, der Indiana University, der Berliner Universität der Künste und später der ETH Zürich. 2011 gründete er das Philosophie Magazin und war sieben Jahre lang dessen Chefredakteur – ein Projekt, das akademische Philosophie bewusst aus dem Seminarraum heraus in den Zeitschriftenkiosk trug.</p>
           <p class="vb-intro">Diese Grundbewegung – ein wachsames Auge auf das gesamte Feld der Philosophiegeschichte, gepaart mit dem Drang, die eigenen Beobachtungen so breit wie möglich zu streuen – ist die Handschrift der sozialen Sechs mit Siebenerflügel. Wie beim Erdmännchen, das nicht auf dem einen Wachposten verharrt, sondern ständig zwischen mehreren Blickwinkeln wechselt, springt auch Eilenbergers Werk zwischen Einzelbiografien, Ideengeschichte und Gegenwartsdiagnose hin und her, ohne je lange an einem Ort stehen zu bleiben.</p>

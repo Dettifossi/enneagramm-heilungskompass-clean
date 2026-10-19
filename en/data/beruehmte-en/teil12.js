@@ -2471,7 +2471,7 @@ export function wolframEilenbergerPortraitPage() {
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The meerkat that puts the history of philosophy on watch</h2>
+        <h2 class="vb-section">1. The meerkat that stands watch over the history of philosophy</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Wolfram Eilenberger was born in 1972 in Freiburg im Breisgau and studied psychology, philosophy and Romance languages in Heidelberg, Turku and Zurich, where he earned his doctorate in 2008. Between 2003 and 2010 he was the philosophical correspondent for the magazine Cicero, a longtime columnist for the Berlin Tagesspiegel, and held teaching posts at the University of Toronto, Indiana University, the Berlin University of the Arts and later ETH Zurich. In 2011 he founded the Philosophie Magazin and served as its editor-in-chief for seven years – a project that deliberately carried academic philosophy out of the seminar room and onto the newsstand.</p>
           <p class="vb-intro">This underlying movement – a watchful eye over the whole field of the history of philosophy, paired with the drive to spread one's own observations as widely as possible – is the signature of the social Six with a Seven-wing. Like a meerkat that never stays on a single lookout post but keeps shifting between vantage points, Eilenberger's work leaps between individual biographies, intellectual history and diagnoses of the present, never settling in one place for long.</p>
