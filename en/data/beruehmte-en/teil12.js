@@ -2455,3 +2455,75 @@ export function aliceWeidelPortraitPage() {
     </div>
   `);
 }
+
+export function wolframEilenbergerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-wolfram-eilenberger-portrait.jpg" alt="Wolfram Eilenberger – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Wolfram Eilenberger</p>
+        <p class="krim-portrait-typ">SO6w7 &middot; Social Type 6 with a Seven-wing</p>
+        <p class="krim-portrait-subtitle">Philosopher, journalist &amp; bestselling author, b. 1972 &ndash; animal correspondence: Meerkat</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The meerkat that puts the history of philosophy on watch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wolfram Eilenberger was born in 1972 in Freiburg im Breisgau and studied psychology, philosophy and Romance languages in Heidelberg, Turku and Zurich, where he earned his doctorate in 2008. Between 2003 and 2010 he was the philosophical correspondent for the magazine Cicero, a longtime columnist for the Berlin Tagesspiegel, and held teaching posts at the University of Toronto, Indiana University, the Berlin University of the Arts and later ETH Zurich. In 2011 he founded the Philosophie Magazin and served as its editor-in-chief for seven years – a project that deliberately carried academic philosophy out of the seminar room and onto the newsstand.</p>
+          <p class="vb-intro">This underlying movement – a watchful eye over the whole field of the history of philosophy, paired with the drive to spread one's own observations as widely as possible – is the signature of the social Six with a Seven-wing. Like a meerkat that never stays on a single lookout post but keeps shifting between vantage points, Eilenberger's work leaps between individual biographies, intellectual history and diagnoses of the present, never settling in one place for long.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Duty: orientation through retelling great thinkers, not through building a system of one's own</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the social Type 6 <strong>Duty</strong> – security arises through service to the community, through providing orientation in confusing times. Eilenberger's life theme is exactly that, only turned in a particular direction: instead of designing his own philosophical system, he makes himself a mediator of other people's systems – he takes the great, often difficult thinkers of the twentieth century and translates their lives and thought so a broad public can understand them and put them to use for the present.</p>
+          <p class="vb-intro">His best-known book, <em>»Zeit der Zauberer. Das große Jahrzehnt der Philosophie 1919–1929«</em> (»Time of the Magicians«, 2018), tells the years of Ernst Cassirer, Martin Heidegger, Ludwig Wittgenstein and Walter Benjamin as one shared, intersecting biography – months on the Spiegel bestseller list, winner of the 2018 Bavarian Book Prize. It was followed by <em>»Feuer der Freiheit«</em> (»Fire of Freedom«) on Hannah Arendt, Simone de Beauvoir, Simone Weil and Ayn Rand, and by <em>»Geister der Gegenwart«</em> (»Spirits of the Present«) – always the same basic impulse: provide orientation by showing how others have already thought through confusing times.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: pace, several thinkers at once, stepping in front of the camera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> shows itself in Eilenberger in the sheer breadth and speed of his output: rather than spending decades immersed in a single thinker, as a Six with a stronger Five-wing might, he weaves four or five biographies together in parallel within a single book and lets them collide within a shared span of years. The same restlessness carries him beyond writing itself: as host of the show »Sternstunde Philosophie« on Swiss television (SRF), as program director of Cologne's phil.COLOGNE philosophy festival, and as a sought-after guest on countless panels and at literary festivals.</p>
+          <p class="vb-intro">Where the Five-wing channels energy inward into quiet systematization, the Seven-wing directs it outward: into reach, stage presence, the next stimulating topic. The founding of the Philosophie Magazin itself is the clearest example – not a specialist journal for experts, but a product deliberately aimed at pace, visual accessibility and a broad, curious readership.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: translating complex intellectual history into tellable tension</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What actually distinguishes Eilenberger as an author is more than mere readability: he combines the strict textual fidelity of a trained philosopher with the storytelling craft of a biographer who knows exactly how to wring real dramatic tension out of dry facts – lecture schedules, correspondence, academic rivalries. In »Zeit der Zauberer«, for instance, the bitter philosophical and personal rivalry between Cassirer and Heidegger, which culminated in the famous 1929 Davos disputation, is told so that it reads like a decisive duel between two worldviews, without flattening the underlying philosophical substance.</p>
+          <p class="vb-intro">Reviewers sometimes note that the book offers experts little that is substantively new about the four protagonists – but that is precisely where the real achievement lies: not new facts, but a new, more accessible form through which complex intellectual history can reach an audience that would never read the original texts itself. This work of journalistic translation is itself a form of skill that is not self-evident just because the result reads easily.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Two meerkats of the German-speaking public sphere: Eilenberger and Münkler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">A revealing comparison is <a href="javascript:void(0)" data-route="beruehmte-herfried-muenkler">Herfried Münkler</a> (SO6w7) – like Eilenberger, a German-speaking humanities scholar who deliberately carries academic knowledge out of the seminar room and into talk shows, essays and bestsellers, rather than leaving it within the specialist circle. Both share the same basic pattern of the social Six with a Seven-wing: a vigilance that does not withdraw but shows up with pace and public reach.</p>
+          <p class="vb-intro">The difference lies in what each stands watch over: Münkler reads wars, empires and myths as immediate security threats to the present. Eilenberger reads the history of philosophy itself as the thing under threat – a field at risk of being lost without mediation, because its most complex thinkers would otherwise only be read within specialist libraries. Two watchmen of the same subtype, directing their vigilance at different dangers: one at the world order, the other at thought itself disappearing from public awareness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Six with a Seven-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO6w7 shows in Eilenberger's ability to tell highly complex intellectual history in a way that reaches a mass audience without flattening into mere entertainment – a rare balance of scholarly integrity and journalistic instinct.</p>
+          <p class="vb-intro">The shadow lies in the risk that the breadth of thinkers and topics covered comes at the expense of depth – a risk that matches exactly the criticism some specialist reviewers raise, that his books offer little substantively new. Where a Six with a stronger Five-wing lingers too long in quiet depth, the SO6w7 risks losing sharpness of focus across too many parallel narrative threads – a price that reach demands.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. The meerkat that carried philosophy out of the seminar room</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From studies in Heidelberg, Turku and Zurich, through founding the Philosophie Magazin, to a bestseller about Cassirer, Heidegger, Wittgenstein and Benjamin: Wolfram Eilenberger stands for a social Six with a Seven-wing whose vigilance is not exhausted in specialist papers but consistently seeks the path into the broader public.</p>
+          <p class="vb-intro">In the end, the image that remains is of a mediator who carries the great, often forbidding thinkers of the twentieth century out of the academic seminar room and makes them accessible – with pace, narrative instinct, and the courage to simplify – to an audience that would otherwise never have reached them.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
+        {route:"lebensmusterkompass/so6", label:"Life Pattern Compass: SO6 – Meerkat"},
+        {route:"beruehmte-herfried-muenkler", label:"Portrait: Herfried Münkler (SO6w7) – same watch, different object"},
+        {route:"beruehmte-anne-applebaum", label:"Portrait: Anne Applebaum (SO6w7)"},
+      ])}
+    </div>
+  `);
+}

@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2529", date: "2026-10-19", text: "Neues Porträt: Wolfram Eilenberger (SO6w7) – Philosoph und Autor von ›Zeit der Zauberer‹.", text_en: "New portrait: Wolfram Eilenberger (SO6w7) – philosopher and author of ›Time of the Magicians‹.", route: "beruehmte-wolfram-eilenberger" },
     { version: "v2528", date: "2026-10-19", text: "Gut zu wissen: Wer seinen eigenen Subtyp genauer klären möchte, kann dafür eine persönliche Typberatung bei Detlef oder David Rathmer in Anspruch nehmen.", text_en: "Good to know: anyone wanting a clearer picture of their own subtype can book a personal type consultation with Detlef or David Rathmer.", route: "gesichts-scan" },
     { version: "v2527", date: "2026-10-19", text: "Neues Kriminalporträt: Rex Heuermann (SE8w9) – Gilgo-Beach-Morde, Geständnis und lebenslange Haft 2026.", text_en: "New criminal portrait: Rex Heuermann (SE8w9) – Gilgo Beach murders, plea and life sentence in 2026.", route: "kriminalpsychologie-rex-heuermann" },
     { version: "v2526", date: "2026-10-19", text: "Neues Kriminalporträt: Lindsay Clancy (SO3w4) – Fall um die Tötung ihrer drei Kinder, Prozess 2026 ohne Urteil.", text_en: "New criminal portrait: Lindsay Clancy (SO3w4) – the case of the killing of her three children, 2026 trial without a verdict.", route: "kriminalpsychologie-lindsay-clancy" },

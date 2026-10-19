@@ -2486,3 +2486,75 @@ export function naomiCampbellPortraitPage() {
     </div>
   `);
 }
+
+export function wolframEilenbergerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="/assets/portraits/beruehmte-wolfram-eilenberger-portrait.jpg" alt="Wolfram Eilenberger – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Dr. Wolfram Eilenberger</p>
+        <p class="krim-portrait-typ">SO6w7 &middot; Sozialer Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Philosoph, Publizist &amp; Bestsellerautor, geb. 1972 &ndash; Tierentsprechung: Erdmännchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdmännchen, das die Philosophiegeschichte auf Wache stellt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wolfram Eilenberger wurde 1972 in Freiburg im Breisgau geboren und studierte Psychologie, Philosophie und Romanistik in Heidelberg, Turku und Zürich, wo er 2008 promoviert wurde. Zwischen 2003 und 2010 war er philosophischer Korrespondent des Magazins Cicero, langjähriger Kolumnist des Berliner Tagesspiegels und übernahm Lehraufträge an der University of Toronto, der Indiana University, der Berliner Universität der Künste und später der ETH Zürich. 2011 gründete er das Philosophie Magazin und war sieben Jahre lang dessen Chefredakteur – ein Projekt, das akademische Philosophie bewusst aus dem Seminarraum heraus in den Zeitschriftenkiosk trug.</p>
+          <p class="vb-intro">Diese Grundbewegung – ein wachsames Auge auf das gesamte Feld der Philosophiegeschichte, gepaart mit dem Drang, die eigenen Beobachtungen so breit wie möglich zu streuen – ist die Handschrift der sozialen Sechs mit Siebenerflügel. Wie beim Erdmännchen, das nicht auf dem einen Wachposten verharrt, sondern ständig zwischen mehreren Blickwinkeln wechselt, springt auch Eilenbergers Werk zwischen Einzelbiografien, Ideengeschichte und Gegenwartsdiagnose hin und her, ohne je lange an einem Ort stehen zu bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Pflicht: Orientierung durch das Nacherzählen großer Denker, nicht durch eigene Systembildung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 6 die <strong>Pflicht</strong> – Sicherheit entsteht durch Dienst an der Gemeinschaft, durch das Bereitstellen von Orientierung in Zeiten, in denen diese fehlt. Eilenbergers Lebensthema ist genau das, nur auf eine besondere Weise gewendet: Statt ein eigenes philosophisches System zu entwerfen, macht er sich zum Vermittler fremder Systeme – er nimmt die großen, oft sperrigen Denker des 20. Jahrhunderts und übersetzt ihr Leben und Denken so, dass ein breites Publikum sie versteht und für die eigene Gegenwart nutzbar machen kann.</p>
+          <p class="vb-intro">Sein bekanntestes Buch, <em>»Zeit der Zauberer. Das große Jahrzehnt der Philosophie 1919–1929«</em> (2018), erzählt die Jahre von Ernst Cassirer, Martin Heidegger, Ludwig Wittgenstein und Walter Benjamin als gemeinsame, sich kreuzende Biografie – monatelang auf der Spiegel-Bestsellerliste, ausgezeichnet mit dem Bayerischen Buchpreis 2018. Es folgten <em>»Feuer der Freiheit«</em> über Hannah Arendt, Simone de Beauvoir, Simone Weil und Ayn Rand sowie <em>»Geister der Gegenwart«</em> – immer derselbe Grundimpuls: Orientierung stiften, indem man zeigt, wie andere schon einmal in unübersichtlichen Zeiten gedacht haben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Tempo, mehrere Denker gleichzeitig, der Sprung vor die Kamera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> zeigt sich bei Eilenberger in der schieren Spannweite und Geschwindigkeit seines Schaffens: Statt sich – wie eine stärker fünferflügel-geprägte SO6 – jahrzehntelang in einen einzigen Denker zu vertiefen, verknüpft er in seinen Büchern gleich vier oder fünf Biografien parallel und lässt sie in einem gemeinsamen Zeitraum aufeinandertreffen. Dieselbe Rastlosigkeit trägt ihn aus dem reinen Schreiben hinaus: als Moderator der Sendung »Sternstunde Philosophie« im Schweizer Fernsehen SRF, als Programmleiter des Kölner Philosophiefestivals phil.COLOGNE und als gefragter Gast zahlreicher Podiumsdiskussionen und Literaturfestivals.</p>
+          <p class="vb-intro">Wo der Fünferflügel die Energie nach innen in stille Systematisierung lenkt, richtet der Siebenerflügel sie nach außen: in Reichweite, Bühne, das nächste anregende Thema. Die Gründung des Philosophie Magazins selbst ist dafür das deutlichste Beispiel – kein Fachjournal für Spezialisten, sondern ein Produkt, das bewusst auf Tempo, visuelle Zugänglichkeit und ein breites, neugieriges Publikum zielte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Komplexe Ideengeschichte in erzählbare Spannung übersetzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Eilenberger als Autor tatsächlich auszeichnet, ist mehr als bloße Verständlichkeit: Er verbindet die strenge Werktreue eines promovierten Philosophen mit dem erzählerischen Handwerk eines Biografen, der genau weiß, wie man aus trockenen Fakten – Vorlesungstermine, Briefwechsel, akademische Rivalitäten – echte dramatische Spannung gewinnt. In »Zeit der Zauberer« etwa wird die erbitterte philosophische und persönliche Rivalität zwischen Cassirer und Heidegger, die 1929 in der berühmten Davoser Disputation kulminierte, so geschildert, dass sie wie ein Entscheidungsduell zweier Weltanschauungen wirkt, ohne die philosophische Substanz zu verflachen.</p>
+          <p class="vb-intro">Rezensionen bemängeln gelegentlich, das Buch biete Fachkundigen inhaltlich wenig grundlegend Neues zu den vier Protagonisten – doch genau darin liegt die eigentliche Leistung: nicht neue Fakten, sondern eine neue, zugänglichere Form, in der sich komplexe Ideengeschichte an ein Publikum vermitteln lässt, das die Originaltexte selbst nie lesen würde. Diese publizistische Übersetzungsarbeit ist selbst eine Form von Können, die sich nicht von selbst versteht, nur weil sie leicht lesbar wirkt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Zwei Erdmännchen der deutschsprachigen Öffentlichkeit: Eilenberger und Münkler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ein aufschlussreicher Vergleich ist <a href="javascript:void(0)" data-route="beruehmte-herfried-muenkler">Herfried Münkler</a> (SO6w7) – wie Eilenberger ein deutschsprachiger Geisteswissenschaftler, der akademisches Wissen bewusst aus dem Seminarraum heraus in Talkshows, Essays und Bestseller trägt, statt es im Fachzirkel zu belassen. Beide teilen dasselbe Grundmuster der sozialen Sechs mit Siebenerflügel: Wachsamkeit, die sich nicht zurückzieht, sondern mit Tempo und öffentlicher Reichweite auftritt.</p>
+          <p class="vb-intro">Der Unterschied liegt im Gegenstand der Wache: Münkler deutet Kriege, Imperien und Mythen als unmittelbare sicherheitspolitische Gefahrenlagen für die Gegenwart. Eilenberger deutet die Geschichte der Philosophie selbst als Gefahrenlage – als ein Gebiet, das ohne Vermittlung verloren zu gehen droht, weil seine komplexesten Denker sonst nur noch in Fachbibliotheken gelesen würden. Zwei Wächter desselben Subtyps, die ihre Wachsamkeit auf unterschiedliche Bedrohungen richten: die eine auf die Weltordnung, die andere auf das Verschwinden des Denkens selbst aus dem öffentlichen Bewusstsein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Sechs mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO6w7 zeigt sich in Eilenbergers Fähigkeit, hochkomplexe Ideengeschichte so zu erzählen, dass sie ein Massenpublikum erreicht, ohne zur bloßen Unterhaltung zu verflachen – eine seltene Balance aus wissenschaftlicher Integrität und publizistischem Gespür.</p>
+          <p class="vb-intro">Der Schatten liegt in der Gefahr, dass die Breite der behandelten Denker und Themen auf Kosten der Tiefe geht – ein Risiko, dem gerade der Vorwurf mancher Fachkritiker entspricht, seine Bücher böten wenig grundlegend Neues. Wo eine stärker fünferflügel-geprägte SO6 zu lange im Stillen vertieft, riskiert die SO6w7, mit zu vielen parallelen Erzählsträngen an Tiefenschärfe zu verlieren – ein Preis, den die Reichweite verlangt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Das Erdmännchen, das die Philosophie aus dem Seminarraum holte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Vom Studium in Heidelberg, Turku und Zürich über die Gründung des Philosophie Magazins bis zum Bestseller über Cassirer, Heidegger, Wittgenstein und Benjamin: Wolfram Eilenberger steht für eine soziale Sechs mit Siebenerflügel, deren Wachsamkeit sich nicht in Fachaufsätzen erschöpft, sondern konsequent den Weg in die breite Öffentlichkeit sucht.</p>
+          <p class="vb-intro">Am Ende bleibt das Bild eines Vermittlers, der die großen, oft als unzugänglich geltenden Denker des 20. Jahrhunderts aus dem akademischen Seminarraum herausholt und sie – mit Tempo, erzählerischem Gespür und dem Mut zur Vereinfachung – einem Publikum zugänglich macht, das sie sonst nie erreicht hätten.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so6", label:"Lebensmusterkompass: SO6 – Erdmännchen"},
+        {route:"beruehmte-herfried-muenkler", label:"Porträt: Herfried Münkler (SO6w7) – dieselbe Wache, anderer Gegenstand"},
+        {route:"beruehmte-anne-applebaum", label:"Porträt: Anne Applebaum (SO6w7)"},
+      ])}
+    </div>
+  `);
+}

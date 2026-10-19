@@ -155,6 +155,8 @@ const ROUTES = [
   { hash: "en/#beruehmte-werner-ablass", label: "Neues EN-Porträt: Werner Ablass" },
   { hash: "#beruehmte-camille-kitt", label: "Neues Porträt: Camille Kitt" },
   { hash: "en/#beruehmte-camille-kitt", label: "Neues EN-Porträt: Camille Kitt" },
+  { hash: "#beruehmte-wolfram-eilenberger", label: "Neues Porträt: Wolfram Eilenberger" },
+  { hash: "en/#beruehmte-wolfram-eilenberger", label: "Neues EN-Porträt: Wolfram Eilenberger" },
 ];
 
 function startServer() {
