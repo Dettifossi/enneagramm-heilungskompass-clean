@@ -86,9 +86,25 @@ function escapeHtml(s) {
     .replace(/"/g, "&quot;");
 }
 
+// Nur neue oder inhaltlich geänderte Seiten schreiben (Titel/Beschreibung). Die
+// Cache-Versionsnummern im Seitenkopf allein ändern sich bei jedem Commit; sie bei
+// allen ~3000 Seiten nachzuziehen blähte den Git-Verlauf um ~18 MB pro Commit auf.
+// Mit --all werden trotzdem alle Seiten neu geschrieben (z. B. nach Template-Umbau).
+const FORCE_ALL = process.argv.includes("--all");
+let unchanged = 0;
+function metaOf(html) {
+  const title = (html.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || "";
+  const desc = (html.match(/<meta name="description" content="([^"]*)"/) || [])[1] || "";
+  return title + "|" + desc;
+}
 function writePage(outDir, html) {
+  const file = path.join(outDir, "index.html");
+  if (!FORCE_ALL && fs.existsSync(file) && metaOf(fs.readFileSync(file, "utf-8")) === metaOf(html)) {
+    unchanged++;
+    return;
+  }
   fs.mkdirSync(outDir, { recursive: true });
-  fs.writeFileSync(path.join(outDir, "index.html"), html, "utf-8");
+  fs.writeFileSync(file, html, "utf-8");
 }
 
 function run() {
@@ -162,7 +178,7 @@ function run() {
   );
 
   console.log(
-    `DE: ${generatedRoutes.de.length} Seiten, EN: ${generatedRoutes.en.length} Seiten erzeugt (${skipped} übersprungen, ${duplicates} Duplikat-Routen ignoriert).`
+    `DE: ${generatedRoutes.de.length} Seiten, EN: ${generatedRoutes.en.length} Seiten erzeugt (${skipped} übersprungen, ${duplicates} Duplikat-Routen ignoriert, ${unchanged} unverändert nicht neu geschrieben).`
   );
   console.log(`Routenliste für sitemap.xml gespeichert: ai-prototype/generated-routes.json`);
 }
