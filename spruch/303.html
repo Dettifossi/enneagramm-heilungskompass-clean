@@ -53,9 +53,11 @@
   <h2>Welcher Typ steckt in diesem Satz?</h2>
   <p class="lead">Das Enneagramm zeigt, warum uns manche Gedanken tief berühren und andere kaum. Im Heilungskompass lassen sich alle 27 Subtypen erkunden, mit Porträts bekannter Persönlichkeiten und einem Test für den eigenen Weg.</p>
   <div class="btns">
-    <a class="btn primary" id="app" href="https://kompass.verlagshausrathmer.com/">Zur App</a>
+    <a class="btn primary" id="info" href="https://www.verlagshausrathmer.com/kompass.html">Mehr über die App erfahren</a>
+    <a class="btn secondary" id="app" href="https://kompass.verlagshausrathmer.com/">Die App ansehen</a>
     <a class="btn secondary" id="verlag" href="https://www.verlagshausrathmer.com/">Zum Verlagshaus Rathmer</a>
   </div>
+
   <p class="more">Mehr Gedanken wie diesen gibt es in der App.</p>
   <footer>© Detlef Rathmer · <a href="https://www.verlagshausrathmer.com/impressum.html">Impressum</a></footer>
 </main>
@@ -64,6 +66,7 @@
   (function () {
     var q = new URLSearchParams(location.search).get("q") || "direkt";
     var utm = "?utm_source=spruch&utm_medium=" + encodeURIComponent(q) + "&utm_campaign=303";
+    document.getElementById("info").href += utm;
     document.getElementById("app").href += utm;
     document.getElementById("verlag").href += utm;
   })();
