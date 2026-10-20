@@ -1291,6 +1291,7 @@ export function muhammadAliPortraitPage() {
         {route:"beruehmte-alexander-gerst", label:"Portrait: Alexander Gerst (SO2w1)"},
         {route:"krankheitsportraets-muhammad-ali", label:"Illness Portrait: Muhammad Ali (SO2w1)"},
         {route:"beruehmte-bob-marley", label:"Portrait: Bob Marley (SO2w1)"},
+        {route:"beruehmte-don-king", label:"Portrait: Don King (SE7w8)"},
         {route:"bibel-jesus", label:"Bible Portrait: Jesus (SO2w1)"},
       ])}
     </div>

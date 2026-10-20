@@ -2418,6 +2418,7 @@ export function johannLaferPortraitPage() {
         {route:"beruehmte-adriano-celentano", label:"Porträt: Adriano Celentano (SX7w8)"},
         {route:"beruehmte-ilka-bessin", label:"Porträt: Ilka Bessin (SE7w8)"},
         {route:"beruehmte-steffen-henssler", label:"Porträt: Steffen Henssler (SO7w6)"},
+        {route:"beruehmte-don-king", label:"Porträt: Don King (SE7w8)"},
       ])}
     </div>
   `);

@@ -453,6 +453,7 @@ export function donaldTrumpPortraitPage() {
         {route:"beruehmte-pablo-picasso", label:"Portrait: Pablo Picasso (SX8w7)"},
         {route:"beruehmte-paul-gauguin", label:"Portrait: Paul Gauguin (SX8w7)"},
         {route:"beruehmte-ruth-bader-ginsburg", label:"Portrait: Ruth Bader Ginsburg (SX8w9)"},
+        {route:"beruehmte-don-king", label:"Portrait: Don King (SE7w8)"},
       ])}
     </div>
   `);
@@ -1212,6 +1213,7 @@ export function michaelJacksonPortraitPage() {
         {route:"beruehmte-eddie-redmayne", label:"Portrait: Eddie Redmayne (SO4w3)"},
         {route:"beruehmte-prince-rogers-nelson", label:"Portrait: Prince Rogers Nelson (SX4w3) – the legendary 1980s rivalry"},
         {route:"beruehmte-mariella-superina", label:"Portrait: Dr. Mariella Superina (SO4w5)"},
+        {route:"beruehmte-don-king", label:"Portrait: Don King (SE7w8)"},
         ])}
       </div>
     </div>

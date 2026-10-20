@@ -1160,6 +1160,7 @@ export function mariahCareyPortraitPage() {
         {route:"beruehmte-hans-zimmer", label:"Portrait: Hans Zimmer (SE7w8)"},
         {route:"beruehmte-christoph-kolumbus", label:"Portrait: Christopher Columbus (SE7w8)"},
         {route:"krankheitsportraets-mariah-carey", label:"Illness Portrait: Mariah Carey (SE7w8) – bipolar disorder"},
+        {route:"beruehmte-don-king", label:"Portrait: Don King (SE7w8)"},
         ])}
       </div>
     </div>
@@ -2401,6 +2402,7 @@ export function johannLaferPortraitPage() {
         {route:"beruehmte-adriano-celentano", label:"Portrait: Adriano Celentano (SX7w8)"},
         {route:"beruehmte-ilka-bessin", label:"Portrait: Ilka Bessin (SE7w8)"},
         {route:"beruehmte-steffen-henssler", label:"Portrait: Steffen Henssler (SO7w6)"},
+        {route:"beruehmte-don-king", label:"Portrait: Don King (SE7w8)"},
       ])}
     </div>
   `);

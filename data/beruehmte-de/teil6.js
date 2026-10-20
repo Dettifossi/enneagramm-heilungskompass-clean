@@ -1219,6 +1219,7 @@ export function moritzBleibtreuPortraitPage() {
         {route:"beruehmte-oliver-hardy", label:"Porträt: Oliver Hardy (SE7w8)"},
         {route:"beruehmte-johann-lafer", label:"Porträt: Johann Lafer (SE7w8)"},
         {route:"beruehmte-til-schweiger", label:"Porträt: Til Schweiger (SO4w3)"},
+        {route:"beruehmte-don-king", label:"Porträt: Don King (SE7w8)"},
       ])}
     </div>
   `);

@@ -2659,6 +2659,7 @@ export function franzPeterTebartzVanElstPortraitPage() {
         {route:"lebensmusterkompass/se7", label:"Lebensmusterkompass: SE7 – Gorilla"},
         {route:"beruehmte-christoph-kolumbus", label:"Porträt: Christoph Kolumbus (SE7w8) – derselbe Subtyp und Flügel"},
         {route:"beruehmte-dian-fossey", label:"Porträt: Dian Fossey (SE7w8) – derselbe Subtyp und Flügel"},
+        {route:"beruehmte-don-king", label:"Porträt: Don King (SE7w8)"},
       ])}
     </div>
   `);
