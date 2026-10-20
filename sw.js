@@ -3,8 +3,8 @@
 // denselben Scope konkurrieren (führte zu unzuverlässiger Push-Zustellung).
 importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js");
 
-const SW_VERSION = 'v2318';
-const BUNDLE_VERSION = 'v2892'; // wird bei jedem Deploy mitaktualisiert → löst Auto-Reload aus
+const SW_VERSION = 'v2319';
+const BUNDLE_VERSION = 'v2893'; // wird bei jedem Deploy mitaktualisiert → löst Auto-Reload aus
 const CACHE_NAME = 'kompass-cache-' + SW_VERSION;
 
 self.addEventListener('install', event => {
@@ -32,12 +32,9 @@ self.addEventListener('fetch', event => {
   const isAppShell =
     url.pathname === '/' ||
     url.pathname.endsWith('/') ||
-    url.pathname.endsWith('index.html') ||
-    url.pathname.includes('bundle.js') ||
-    url.pathname.includes('/data/beruehmte-de/') ||
-    url.pathname.includes('/data/kriminal-de/') ||
-    url.pathname.includes('/data/krankheitsportraets-de/') ||
-    url.pathname.includes('app.js');
+    url.pathname.endsWith('index.html');
+  // Skripte, Daten und Styles tragen eine Versionsnummer (?v=...) und werden vom Browser
+  // normal zwischengespeichert (Revalidierung per ETag); nur die Startseite kommt immer frisch.
 
   if (isAppShell) {
     event.respondWith(

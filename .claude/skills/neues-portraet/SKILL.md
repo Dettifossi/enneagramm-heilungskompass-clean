@@ -22,7 +22,7 @@ Inhaltsregeln (Recherche, Ton, Substanz-Absatz, Unschuldsvermutung, Fremdsprache
 Kürzeste Teil-Datei wählen (`wc -c`), Funktion ans Ende anhängen (`export function xyzPortraitPage()`).
 
 ## 3. Verdrahtung (jeweils `bundle.js` und `en/bundle.js`)
-1. Funktionsname in die `import { … } from "./data/…/teilN.js"`-Zeile der gewählten Datei einfügen.
+1. Platzhalter-Zeile bei den übrigen ergänzen (Lazy Loading): `const xyzPortraitPage = () => _lazyPage("./data/…/teilN.js", "xyzPortraitPage");` (DE `./data/…`, EN `./data/…` relativ zu `en/bundle.js`). Es gibt keine `import`-Zeile für Teil-Dateien mehr.
 2. Eintrag im passenden Array (`BERUEHMT_PORTRAITS` / `KRIMINAL_PORTRAITS` / `KRANKHEITS_PORTRAITS`): route, name, subtyp, heading, teaser, land, tags, gender (`added:` bei Berühmten).
 3. Routen-Map: `"route": funktionPage,` neben ein Nachbar-Porträt.
 4. Kriminal/Krankheit ohne Berühmten-Pendant: `BQA_IMG_MAP` in beiden Bundles ergänzen.
