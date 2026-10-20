@@ -2662,7 +2662,7 @@ export function augusteRodinPortraitPage() {
 
         <h2 class="vb-section">6. Light and shadow of the sexual Nine with an Eight-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light of the SX9w8 lies in Rodin in the persistence with which he carried a work over decades, and in the firmness with which he refused to adapt his understanding of form to the taste of his time. For the 1900 World's Fair a pavilion of his works was set up, which brought orders for busts from all over the world. His country estate in Meudon, which he and Rose acquired in 1897, received guests such as King Edward VII and Isadora Duncan. In 1908 he rented the Hôtel Biron in Paris, in 1914 he donated a selection of works to Britain, and he bequeathed his studio and reproduction rights to the French state. The Musée Rodin was founded in 1916 and opened in 1919 at the Hôtel Biron.</p>
+          <p class="vb-intro">The light of the SX9w8 lies in Rodin in the persistence with which he carried a work over decades, and in the firmness with which he refused to adapt his understanding of form to the taste of his time. For the 1900 World's Fair a pavilion of his works was set up, which brought orders for busts from all over the world. His country estate in Meudon, which he and Rose acquired in 1897, received guests such as King Edward VII and <a href="javascript:void(0)" data-route="beruehmte-isadora-duncan">Isadora Duncan</a> (SX2w3). In 1908 he rented the Hôtel Biron in Paris, in 1914 he donated a selection of works to Britain, and he bequeathed his studio and reproduction rights to the French state. The Musée Rodin was founded in 1916 and opened in 1919 at the Hôtel Biron.</p>
           <p class="vb-intro">The shadow lies where not deciding costs others. Rose stayed in the background for decades, Camille Claudel withdrew after the break in 1898 and was committed to an asylum in 1913, and Gwen John was kept at a distance. It is a pattern from Rodin's life, and there is no reason to transfer it to other people of this subtype. He died on 17 November 1917, aged 77, in Meudon. At his wish a cast of ›The Thinker‹ stands at his grave.</p>
         </blockquote>
 
@@ -2680,6 +2680,7 @@ export function augusteRodinPortraitPage() {
         {route:"subtype/sx9", label:"SX9 – The Sloth: subtype profile"},
         {route:"lebensmusterkompass/sx9", label:"Life Pattern Compass: SX9 – Sloth"},
         {route:"beruehmte-camille-claudel", label:"Portrait: Camille Claudel (SX4w5) – pupil, lover and rival"},
+        {route:"beruehmte-isadora-duncan", label:"Portrait: Isadora Duncan (SX2w3) – guest in Meudon"},
         {route:"beruehmte-dakota-johnson", label:"Portrait: Dakota Johnson (SX9w8) – same subtype and wing"},
         {route:"beruehmte-heike-makatsch", label:"Portrait: Heike Makatsch (SX9w8) – same subtype and wing"},
       ])}

@@ -2608,7 +2608,7 @@ export function augusteRodinPortraitPage() {
 
         <h2 class="vb-section">6. Licht und Schatten der sexuellen Neun mit Achterflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht der SX9w8 liegt bei Rodin in der Ausdauer, mit der er ein Werk über Jahrzehnte trug, und in der Standfestigkeit, mit der er sich weigerte, sein Verständnis von Form dem Geschmack seiner Zeit anzupassen. Zur Weltausstellung 1900 wurde ein eigener Pavillon mit seinen Werken eingerichtet, der Bestellungen für Büsten aus aller Welt brachte. Sein Landsitz in Meudon, den er und Rose 1897 erwarben, empfing Gäste wie König Edward VII. und Isadora Duncan. 1908 mietete er das Hôtel Biron in Paris, 1914 schenkte er Großbritannien eine Auswahl von Werken, und sein Atelier und die Vervielfältigungsrechte vermachte er dem französischen Staat. Das Musée Rodin wurde 1916 gegründet und 1919 im Hôtel Biron eröffnet.</p>
+          <p class="vb-intro">Das Licht der SX9w8 liegt bei Rodin in der Ausdauer, mit der er ein Werk über Jahrzehnte trug, und in der Standfestigkeit, mit der er sich weigerte, sein Verständnis von Form dem Geschmack seiner Zeit anzupassen. Zur Weltausstellung 1900 wurde ein eigener Pavillon mit seinen Werken eingerichtet, der Bestellungen für Büsten aus aller Welt brachte. Sein Landsitz in Meudon, den er und Rose 1897 erwarben, empfing Gäste wie König Edward VII. und <a href="javascript:void(0)" data-route="beruehmte-isadora-duncan">Isadora Duncan</a> (SX2w3). 1908 mietete er das Hôtel Biron in Paris, 1914 schenkte er Großbritannien eine Auswahl von Werken, und sein Atelier und die Vervielfältigungsrechte vermachte er dem französischen Staat. Das Musée Rodin wurde 1916 gegründet und 1919 im Hôtel Biron eröffnet.</p>
           <p class="vb-intro">Der Schatten liegt dort, wo das Nicht-Entscheiden andere kostet. Rose blieb jahrzehntelang im Hintergrund, Camille Claudel zog sich nach der Trennung 1898 zurück und wurde 1913 in eine Anstalt eingewiesen, Gwen John wurde auf Abstand gehalten. Es ist ein Muster aus Rodins Lebensweg, und es gibt keinen Anlass, es auf andere Menschen dieses Subtyps zu übertragen. Er starb am 17. November 1917 im Alter von 77 Jahren in Meudon. Auf seinen Wunsch steht eine Fassung des ›Denkers‹ an seinem Grab.</p>
         </blockquote>
 
@@ -2626,6 +2626,7 @@ export function augusteRodinPortraitPage() {
         {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
         {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
         {route:"beruehmte-camille-claudel", label:"Porträt: Camille Claudel (SX4w5) – Schülerin, Geliebte und Rivalin"},
+        {route:"beruehmte-isadora-duncan", label:"Porträt: Isadora Duncan (SX2w3) – Gast in Meudon"},
         {route:"beruehmte-dakota-johnson", label:"Porträt: Dakota Johnson (SX9w8) – derselbe Subtyp und Flügel"},
         {route:"beruehmte-heike-makatsch", label:"Porträt: Heike Makatsch (SX9w8) – derselbe Subtyp und Flügel"},
       ])}

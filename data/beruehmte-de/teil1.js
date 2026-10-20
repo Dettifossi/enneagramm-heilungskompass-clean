@@ -1614,7 +1614,7 @@ export function isadoraDuncanPortraitPage() {
         <h2 class="vb-section">3. Der Dreierflügel: Aus einer Vision eine Bewegung machen</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sexuellen Zwei den Antrieb, aus persönlicher Hingabe ein sichtbares, wirkungsvolles Projekt zu formen. Duncan blieb nicht bei der eigenen Bühnenpräsenz stehen: Sie gründete Tanzschulen in Deutschland, Frankreich, den USA und schließlich in der Sowjetunion, um ihre Methode systematisch an eine neue Generation weiterzugeben – die berühmten „Isadorables", sechs von ihr selbst ausgebildete Schülerinnen, traten weltweit in ihrem Stil auf – 1920 wollte Duncan sie sogar offiziell adoptieren und ließ sie fortan ihren Nachnamen tragen, auch wenn es entgegen späteren Behauptungen nie zu einer rechtsgültigen Adoption kam.</p>
-          <p class="vb-intro">Ihr Ehrgeiz galt nicht dem persönlichen Ruhm allein, sondern der Etablierung einer ganzen Kunstrichtung: Sie wollte, dass der freie Ausdruckstanz als eigenständige, ernstzunehmende Kunstform überdauert, weit über ihre eigene Karriere hinaus. Der Dreierflügel lieferte die strategische Weitsicht und Selbstinszenierung, die sexuelle Zwei darunter die tatsächliche, persönliche Hingabe, die dieser Vision erst Leben einhauchte.</p>
+          <p class="vb-intro">Ihr Ehrgeiz galt nicht dem persönlichen Ruhm allein, sondern der Etablierung einer ganzen Kunstrichtung: Sie wollte, dass der freie Ausdruckstanz als eigenständige, ernstzunehmende Kunstform überdauert, weit über ihre eigene Karriere hinaus. Der Dreierflügel lieferte die strategische Weitsicht und Selbstinszenierung, die sexuelle Zwei darunter die tatsächliche, persönliche Hingabe, die dieser Vision erst Leben einhauchte. Zu den Gästen auf dem Landsitz von <a href="javascript:void(0)" data-route="beruehmte-auguste-rodin">Auguste Rodin</a> (SX9w8) in Meudon zählte sie ebenfalls.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Verlust und Neuanfang</h2>
@@ -1646,6 +1646,7 @@ export function isadoraDuncanPortraitPage() {
         {route:"beruehmte-giacomo-casanova", label:"Porträt: Giacomo Casanova (SX2w3)"},
         {route:"beruehmte-sammy-davis-jr", label:"Porträt: Sammy Davis Jr. (SX2w3)"},
         {route:"beruehmte-cleopatra", label:"Porträt: Cleopatra (SX2w3)"},
+        {route:"beruehmte-auguste-rodin", label:"Porträt: Auguste Rodin (SX9w8) – Gastgeber in Meudon"},
       ])}
     </div>
   `);
