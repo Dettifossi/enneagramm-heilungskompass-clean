@@ -115,6 +115,8 @@ const ROUTES = [
   { hash: "en/#typ-aendert-sich-nicht", label: "Neuer EN-Wissensartikel: Typ ändert sich nicht" },
   { hash: "#kriminalpsychologie-rex-heuermann", label: "Neues Kriminalporträt: Rex Heuermann" },
   { hash: "en/#kriminalpsychologie-rex-heuermann", label: "Neues EN-Kriminalporträt: Rex Heuermann" },
+  { hash: "#kriminalpsychologie-rodney-alcala", label: "Neues Kriminalporträt: Rodney Alcala" },
+  { hash: "en/#kriminalpsychologie-rodney-alcala", label: "Neues EN-Kriminalporträt: Rodney Alcala" },
   { hash: "#kriminalpsychologie-lindsay-clancy", label: "Neues Kriminalporträt: Lindsay Clancy" },
   { hash: "en/#kriminalpsychologie-lindsay-clancy", label: "Neues EN-Kriminalporträt: Lindsay Clancy" },
   { hash: "#beruehmte-franz-peter-tebartz-van-elst", label: "Neues Porträt: Franz-Peter Tebartz-van Elst" },

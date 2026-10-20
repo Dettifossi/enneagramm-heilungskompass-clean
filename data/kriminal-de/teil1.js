@@ -4847,3 +4847,88 @@ export function jamesDustyRhodesPortraitPage() {
     </div>
   `);
 }
+
+export function rodneyAlcalaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Rodney Alcala – Kriminalpsychologie")}
+      <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/kriminalpsychologie-rodney-alcala-portrait.jpg" alt="Rodney Alcala – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rodney Alcala</p>
+        <p class="krim-portrait-typ">SO3w4 · Sozialer Typ 3 mit Vierer-Flügel</p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Rodney Alcala</strong>, geboren am 23. August 1943 in San Antonio, Texas, trat in den 1970er-Jahren in Kalifornien und New York als Fotograf auf und nahm 1978 an der Fernsehshow ›The Dating Game‹ (›Das Rendezvous-Spiel‹) teil. Er wurde wegen sieben Morden an Frauen und einem Mädchen verurteilt: fünf davon in Kalifornien (Urteil 2010) und zwei in New York (Schuldeingeständnis 2012). Sein Fall ist der eines Mannes, dessen öffentliches Auftreten als charmanter, kreativer Künstler und dessen Taten weit auseinanderliegen. Er starb am 24. Juli 2021 im Alter von 77 Jahren in Haft. Die Zahl seiner Opfer ist nicht bekannt.
+      </p>
+      <div class="vb-section" style="background:rgba(139,0,0,0.06);border-left:3px solid #8b0000;padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong>
+        <strong>Rodney Alcala</strong> lässt sich dem <strong>sozialen Typ 3 mit Vierer-Flügel</strong> im Enneagramm zuordnen. Die soziale Drei sucht Sicherheit im Ansehen der Gruppe und pflegt ein Bild, das ankommt. Der Vierer-Flügel fügt den Anspruch auf Besonderheit und ein künstlerisches Selbstbild hinzu. Dieses Kriminalporträt beschreibt die Vorgeschichte, die Taten, die Verfahren und die Belegbarkeit. Es behauptet nicht, dass ein Subtyp zu Gewalt neige, und es erklärt die Taten nicht. Ein Militärpsychiater diagnostizierte 1964 eine antisoziale Persönlichkeitsstörung. Das Enneagramm beschreibt hier nur die Oberfläche, die Alcala nach außen zeigte, und die Art, wie er sie einsetzte.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Der Gepard</h3>
+        <p class="vb-intro">Der <strong>Gepard</strong> der sozialen Drei jagt auf offenem Gelände und am Tag, ein Sprinter, der gesehen wird. Bei Alcala lässt sich das mit seiner Art in Verbindung bringen, sich selbst im Licht zu bewegen: Er trat unter Decknamen wie ›John Berger‹ als Modefotograf auf, sprach Frauen und Mädchen mit dem Angebot an, sie zu fotografieren, und stellte sich 1978 in einer Fernsehshow vor Millionen Zuschauern als Junggeselle zur Wahl. Die Tierentsprechung ist ein Bild für das Muster, kein Urteil über die Person und keine Erklärung der Taten.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Die Vorgeschichte: Herkunft, Armee, Kunststudium</h3>
+        <p class="vb-intro"><strong>a) Herkunft:</strong> Alcala kam als Rodrigo Jacques Alcala Buquor zur Welt, als drittes von vier Kindern einer mexikanisch-amerikanischen Familie. 1951 zog der Vater mit der Familie nach Mexiko, 1954 verließ er sie. Die Mutter zog mit den Kindern in einen Vorort von Los Angeles, Alcala war elf Jahre alt.</p>
+        <p class="vb-intro"><strong>b) Armee:</strong> 1961 trat er mit 17 Jahren in die US-Armee ein und diente als Schreiber. Er fiel mehrfach durch Übergriffe auf junge Frauen disziplinarisch auf. 1964 verließ er nach einem Nervenzusammenbruch unerlaubt seine Einheit in Fort Bragg und trampte zu seiner Mutter nach Kalifornien. Ein Militärpsychiater diagnostizierte eine antisoziale Persönlichkeitsstörung, er wurde aus medizinischen Gründen entlassen. Für seine Intelligenz kursieren Werte um einen IQ von 135, dafür gibt es keinen verlässlichen Beleg.</p>
+        <p class="vb-intro"><strong>c) Studium:</strong> Alcala schloss ein Kunststudium an der UCLA ab. Die häufig wiederholte Behauptung, er habe bei Roman Polanski Film studiert, ist nicht belegt; Polanski war nie sein Lehrer. Auch dieser Mythos gehört zum Bild, das er von sich verbreitete.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Die Taten: 1968 bis 1979</h3>
+        <p class="vb-intro"><strong>a) Tali Shapiro, 1968:</strong> Am 25. September 1968 lockte Alcala die achtjährige Tali Shapiro in seine Wohnung in Hollywood, vergewaltigte und schlug sie. Sie überlebte nach 32 Tagen im Koma. Alcala floh, ein Zeuge hatte aber die Polizei gerufen. Weil die Familie nach Mexiko zog und das Kind nicht aussagen durfte, wurde er nur wegen Kindesmissbrauchs verurteilt. Er kam 1974 auf Bewährung frei. Ein weiterer Übergriffsversuch auf ein 13-jähriges Mädchen 1974 in Huntington Beach folgte, im Juni 1977 war er erneut auf Bewährung in Freiheit.</p>
+        <p class="vb-intro"><strong>b) New York:</strong> Am 12. Juni 1971 wurde die 23-jährige Cornelia Crilley in ihrer Wohnung in Manhattan erdrosselt. Der Fall blieb bis 2011 ungeklärt. Am 15. Juli 1977 verschwand die 23-jährige Ellen Jane Hover in Manhattan, ihre Überreste fanden sich 1978 am Hudson. Im Dezember 2012 bekannte sich Alcala in beiden Fällen schuldig, im Januar 2013 erhielt er 25 Jahre bis lebenslang je Fall.</p>
+        <p class="vb-intro"><strong>c) Kalifornien, 1977 bis 1979:</strong> Am 9. November 1977 wurde die 18-jährige Jill Barcomb in Los Angeles tot gefunden, am 16. Dezember 1977 die 27-jährige Georgia Wixted in ihrer Wohnung in Malibu, am 24. Juni 1978 Charlotte Lamb, Anfang dreißig, im Wäscheraum eines Hauses in El Segundo. Am 13. Juni 1979 starb die 21-jährige Jill Parenteau in ihrer Wohnung in Burbank. Am 14. Februar 1979 hatte die 15-jährige Monique Hoyt einen Übergriff in der Nähe von Joshua Tree überlebt und war zu einer Tankstelle entkommen. Ihre spätere Aussage führte zu einer eigenen Verurteilung.</p>
+        <p class="vb-intro"><strong>d) Robin Samsoe, 1979:</strong> Am 20. Juni 1979 fuhr die zwölfjährige Robin Samsoe mit einer Freundin zum Strand von Sunset Beach in Huntington Beach. Ein Mann sprach die Mädchen an und bot an, sie für einen ›Fotokurs‹ zu fotografieren. Auf dem Weg zum Ballettunterricht verschwand Robin. Ihre Überreste wurden am 2. Juli 1979 gefunden.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. ›The Dating Game‹, 1978</h3>
+        <p class="vb-intro">Im September 1978, zwischen den Morden an Wixted und Lamb auf der einen und Parenteau und Samsoe auf der anderen Seite, trat Alcala in der Fernsehshow ›The Dating Game‹ als Kandidat auf und gewann das Rendezvous. Nach Berichten lehnte die Teilnehmerin das Treffen später ab, weil er ihr unheimlich vorkam. Die Ausstrahlung ist ein Beleg für die Spannung in diesem Fall: Ein Mann, der in einem Studio als unterhaltsamer, welterfahrener Fotograf auftrat, war zu diesem Zeitpunkt bereits wegen eines Übergriffs auf ein Kind verurteilt gewesen. Die Sendung spielte später bei der Ermittlung eine Rolle: Detektive erkannten ihn in einer Wiederholung wieder.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Festnahme und Verfahren</h3>
+        <p class="vb-intro"><strong>a) Festnahme:</strong> Nach einer Phantomzeichnung meldete sich am 26. Juni 1979 ein Bewährungshelfer bei der Polizei in Huntington Beach, dass sie seinem Probanden Alcala ähnle. Zwei Jugendliche erkannten ihn auf Fotos wieder. Am 24. Juli 1979 wurde er im Haus seiner Mutter in Monterey Park festgenommen, in seinem Zimmer fanden sich mehr als 1200 Fotografien. In einem Lagerraum in Seattle stießen die Ermittler auf mehr als 2000 weitere Aufnahmen und auf Ohrringe; ein Paar wurde als das von Robin Samsoe identifiziert.</p>
+        <p class="vb-intro"><strong>b) Die drei Verfahren im Fall Samsoe:</strong> 1980 wurde Alcala verurteilt und zum Tod verurteilt, das Urteil wurde 1984 aufgehoben, weil die Geschworenen von seinen früheren Sexualdelikten erfahren hatten. 1986 folgten erneute Verurteilung und Todesurteil, 2001 hob ein Bundesgericht auch dieses Urteil auf, nach einem Fehler beim Umgang mit der Aussage einer Zeugin. 2003 bestätigte die Berufungsinstanz das.</p>
+        <p class="vb-intro"><strong>c) 2010:</strong> Im dritten Prozess in Orange County vertrat sich Alcala selbst. Angeklagt waren die Morde an Samsoe, Barcomb, Wixted, Lamb und Parenteau. DNA-Spuren verbanden ihn mit vier der Taten, im Fall Wixted zusätzlich ein Handabdruck. Am 25. Februar 2010 sprachen die Geschworenen ihn in fünf Mordanklagen schuldig, am 9. März 2010 empfahlen sie die Todesstrafe, die bestätigt wurde. Sie wurde nie vollstreckt.</p>
+        <p class="vb-intro"><strong>d) Ende:</strong> Alcala starb am 24. Juli 2021 im Alter von 77 Jahren, nach Berichten an einem Herzinfarkt, in Haft in Kalifornien.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">6. Belegt und nicht belegt</h3>
+        <p class="vb-intro"><strong>Belegt (Verurteilung oder Schuldeingeständnis):</strong> Der Übergriff auf Tali Shapiro, die Morde an Cornelia Crilley, Ellen Hover, Jill Barcomb, Georgia Wixted, Charlotte Lamb, Jill Parenteau und Robin Samsoe sowie der Übergriff auf Monique Hoyt. <strong>Nicht belegt:</strong> Die Zahl der weiteren Opfer. Aus Alcalas Fotoarchiv wurden 2010 rund 120 Aufnahmen veröffentlicht, damit Betroffene oder Angehörige sich melden. Es gibt weitere Verdachtsfälle, in denen es nie zu einer Verurteilung kam, darunter der Fall Christine Thornton, in dem 2016 Anklage erhoben wurde, der aber nicht verhandelt wurde. Für diese Fälle gilt: keine Verurteilung, keine Gewissheit.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Einordnung</h3>
+        <p class="vb-intro">Das Muster der sozialen Drei lässt sich in der Art erkennen, wie Alcala sein Auftreten gestaltete: der Fotograf mit Decknamen, der Frauen und Mädchen mit dem Angebot ansprach, sie aufzunehmen, und der in einer Fernsehshow um die Gunst des Publikums warb. Der Vierer-Flügel passt zu dem künstlerischen Selbstbild und zu dem Anspruch, einen besonderen Blick zu haben, den er mit der Kamera inszenierte. Die Fotografie diente ihm dabei als Zugang zu Menschen.</p>
+        <p class="vb-intro">Hier endet die Aussagekraft des Subtyps. Eine soziale Drei will gesehen und gemocht werden, und die weit überwiegende Zahl solcher Menschen geht damit nicht gewalttätig um. Was Alcala tat, erklärt weder das Enneagramm noch ein Subtyp, es lässt sich nur mit schweren Persönlichkeitsstörungen und einer Täterbiografie beschreiben, die in diesem Rahmen nicht ausgeleuchtet werden kann. Der Fall zeigt vor allem, wie eine sympathische Außenwirkung mit schweren Taten zusammengehen kann, und warum sie für sich genommen nichts über einen Menschen sagt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "Die soziale Drei im Vergleich: Wie sich Leistung und Image bei SE3, SO3 und SX3 unterschiedlich ausdrücken.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "SE3, SO3, SX3 – 27 Charakterprofile im Vergleich.", "Die 27 Persönlichkeiten des Enneagramms")}
+        ${bookTip("wer-du-wirklich-bist-band-1", "Typ 3 ausführlich porträtiert – Leistung, Image und der Weg zur Echtheit.", "Wer du wirklich bist – Band 1")}
+      </div>
+      <div style="margin-top:2rem;padding:1rem;background:var(--surface);border-radius:8px;max-width:100%;">
+        <p style="margin:0;font-size:0.85rem;color:var(--muted);line-height:1.6;">
+        Das Enneagramm erklärt, es rechtfertigt nicht. Frauen und ein Kind sind gestorben, Familien trauern bis heute. Die Typisierung dient dem Verständnis eines Musters, ersetzt weder ein Gutachten noch ein Urteil und stellt keine Diagnose dar. Sie beruht auf öffentlich dokumentierten Quellen.
+        </p>
+      </div>
+
+      ${relatedLinks([
+        {route:"kriminalpsychologie-oj-simpson", label:"O.J. Simpson (SO3w4) – derselbe Subtyp und Flügel, das öffentliche Bild"},
+        {route:"kriminalpsychologie-andrew-cunanan", label:"Andrew Cunanan (SO3w4) – derselbe Subtyp, Nähe zu Prestige"},
+        {route:"kriminalmusterkompass/so3", label:"Kriminalmusterkompass: SO3 – Gepard"},
+        {route:"kriminalpsychologie", label:"Kriminalpsychologie – alle Porträts"},
+      ])}
+    </div>
+  `);
+}
