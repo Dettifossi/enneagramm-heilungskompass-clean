@@ -38474,8 +38474,11 @@ function bindEvents() {
       if (!isOpen) {
         const rect = trigger.getBoundingClientRect();
         menu.style.top = (rect.bottom + 6) + "px";
-        menu.style.right = (window.innerWidth - rect.right) + "px";
+        menu.style.right = "auto";
+        menu.style.left = "8px";
         wrap.classList.add("is-open");
+        const mw = menu.offsetWidth, vw = document.documentElement.clientWidth;
+        menu.style.left = Math.max(8, Math.min(rect.right - mw, vw - mw - 8)) + "px";
       }
     });
   });

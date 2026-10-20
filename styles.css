@@ -4615,6 +4615,8 @@ button.primary:active::after {
   display: none;
   position: fixed;
   min-width: 160px;
+  width: max-content;
+  max-width: calc(100vw - 16px);
   max-height: 70vh;
   overflow-y: auto;
   background: var(--ivory);
