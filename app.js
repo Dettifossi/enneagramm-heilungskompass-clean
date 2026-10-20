@@ -9,6 +9,18 @@ import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 const _lazyV = (() => { try { return new URL(import.meta.url).search; } catch (e) { return ""; } })();
 const _lazyMods = new Map();
 // ── Große Datenblöcke werden erst gebraucht geladen (siehe data/lazy/) ───────────────
+function _prefetchData(key, then) {
+  const d = _LAZY_DATA[key];
+  if (d.loaded) return;
+  if (!d.p && !d.failed) {
+    d.p = import(d.spec + _lazyV).then(
+      m => { d.assign(m); d.loaded = true; },
+      err => { d.failed = true; console.error(err); }
+    );
+  }
+  if (d.p) d.p.then(then);
+}
+let _sucheWaitLaender = false;
 function _needData(key) {
   const d = _LAZY_DATA[key];
   if (d.loaded) return null;
@@ -35706,6 +35718,14 @@ function _sScore(c, tokens, fuzzy) {
 }
 
 function _sucheResults(q) {
+  if (!LAENDER_REGIONEN && !_sucheWaitLaender) {
+    _sucheWaitLaender = true;
+    _prefetchData("laender", () => {
+      _sucheWaitLaender = false;
+      const upd = window._updateSuche || window._updateSearch;
+      if (window._currentRoute === "suche" && _sucheQuery && upd) upd(_sucheQuery);
+    });
+  }
   const tokens = _sTokens(q);
   const empty = () => ({ subtypen: [], portraits: [], register: [], zitate: [], laender: [], fuzzy: false });
   if (!tokens.length) return empty();
@@ -35730,7 +35750,7 @@ function _sucheResults(q) {
       add(res.register, e, e.term, e.description || "", { label: e.term, sub: (e.description || "").slice(0, 80), route: e.route });
     });
 
-    LAENDER_REGIONEN.forEach(r => {
+    (LAENDER_REGIONEN || []).forEach(r => {
       r.laender.forEach(l => {
         add(res.laender, l, l.name, "", { label: l.name, sub: r.region + " · Typ " + l.typ, route: "laenderzuordnungen|ll-" + l.iso });
       });
