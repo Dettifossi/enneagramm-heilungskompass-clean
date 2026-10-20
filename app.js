@@ -30577,7 +30577,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Harry Houdini \u2013 Sozialer Typ 3",
     teaser:"SO3w2 \u00b7 1874\u20131926. Entfesselungsk\u00fcnstler (Handschellenk\u00f6nig, Wasserfolterzelle, Kistenflucht im East River): vom Armutskind aus Budapest zu einem der bestbezahlten Unterhalter seiner Zeit, Pr\u00e4sident der Society of American Magicians, Gegner der Spiritisten. Der Gepard, der sein Scheitern zur B\u00fchne machte.",
     land:"Ungarn/USA", tags:["Schauspiel"], gender:"m"},
-  { route:"beruehmte-ada-lovelace", name:"Ada Lovelace", added:"2026-10-21", subtyp:"SO7w6",
+  { route:"beruehmte-ada-lovelace", name:"Ada Lovelace", added:"2026-10-20", subtyp:"SO7w6",
     heading:"Ada Lovelace \u2013 Sozialer Typ 7",
     teaser:"SO7w6 \u00b7 1815\u20131852. Mathematikerin, Tochter Lord Byrons, Verfasserin der Notizen zu Babbages Analytical Engine (1843) mit einem Verfahren, das als erstes ver\u00f6ffentlichtes Computerprogramm gilt. Der Biber, der an einem System baute, das erst nach ihr verstanden wurde.",
     land:"Gro\u00dfbritannien", tags:["Wissenschaft"], gender:"w"},
