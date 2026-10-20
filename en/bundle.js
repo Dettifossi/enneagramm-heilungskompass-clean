@@ -27433,12 +27433,17 @@ const KRIMINALMUSTERKOMPASS = {
   SO3: {
     tier: "Cheetah",
     kernthema: "A desire for status, visibility, or public recognition played a recognizable role, as motive or stage, in several of the portrayed cases.",
-    beispiele: ["Pedro Alonso López", "Andrew Cunanan", "O.J. Simpson", "Vincenzo Peruggia", "Wade Wilson", "Werner Gladow", "Rodney Alcala"],
+    beispiele: ["Pedro Alonso López", "Andrew Cunanan", "O.J. Simpson", "Vincenzo Peruggia", "Wade Wilson", "Werner Gladow", "Lindsay Clancy", "Rodney Alcala"],
     fingerabdruecke: [
       {
         titel: "Status, visibility, or a public stage as a recognizable motive",
         beschreibung: "The social Three shows, in several cases, a connection to fame, status, or public attention – either as a direct motive or as the stage on which the crime unfolded.",
         beleg: "O.J. Simpson's case itself became a public stage as the \"trial of the century\"; Andrew Cunanan sought closeness to prestige and recognition throughout his life before murdering across the United States; Vincenzo Peruggia stole the Mona Lisa out of patriotic self-dramatization; Werner Gladow, founder of his own gang at seventeen, stated his own goal as wanting to be \"rich and feared\" – fear as a publicly witnessed currency, not a private gain; Pedro Alonso López confessed, after his arrest, to the highest victim count ever attributed to a single offender (350) – a grim claim to a record rather than a mere confession; Wade Wilson visibly laughed and smirked for the cameras throughout his entire trial instead of showing fear or remorse – the courtroom itself became a stage."
+      },
+      {
+        titel: "The image of the capable, loving mother and the mental distress behind it (single case, no reliable pattern yet)",
+        beschreibung: "In one case, the social Three shows how the self-image of capability and care persisted while a severe mental illness progressed. No pattern can be derived from a single, still open case.",
+        beleg: "Lindsay Clancy, a labor and delivery nurse and mother of three, noted in November 2022 ›I am a great mom. I love my kids.‹, sought help several times in emergency rooms and a clinic in the following months, and killed her three children on 24 January 2023; whether this was an expression of psychosis remained without a verdict in the 2026 trial."
       },
       {
         titel: "The charming artist as access to people (single case, no reliable pattern)",
