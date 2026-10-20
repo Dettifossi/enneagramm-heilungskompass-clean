@@ -119,6 +119,8 @@ const ROUTES = [
   { hash: "en/#kriminalpsychologie-rodney-alcala", label: "Neues EN-Kriminalporträt: Rodney Alcala" },
   { hash: "#kriminalpsychologie-lindsay-clancy", label: "Neues Kriminalporträt: Lindsay Clancy" },
   { hash: "en/#kriminalpsychologie-lindsay-clancy", label: "Neues EN-Kriminalporträt: Lindsay Clancy" },
+  { hash: "#beruehmte-auguste-rodin", label: "Neues Porträt: Auguste Rodin" },
+  { hash: "en/#beruehmte-auguste-rodin", label: "Neues EN-Porträt: Auguste Rodin" },
   { hash: "#beruehmte-camille-claudel", label: "Neues Porträt: Camille Claudel" },
   { hash: "en/#beruehmte-camille-claudel", label: "Neues EN-Porträt: Camille Claudel" },
   { hash: "#beruehmte-franz-peter-tebartz-van-elst", label: "Neues Porträt: Franz-Peter Tebartz-van Elst" },

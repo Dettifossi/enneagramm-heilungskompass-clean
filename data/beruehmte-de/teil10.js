@@ -342,6 +342,7 @@ export function dakotaJohnsonPortraitPage() {
         {route:"beruehmte-amber-benson", label:"Porträt: Amber Benson (SX9w1)"},
         {route:"beruehmte-carl-rogers", label:"Porträt: Dr. Carl Rogers (SX9w1)"},
         {route:"beruehmte-mario-barth", label:"Porträt: Mario Barth (SX9w8)"},
+        {route:"beruehmte-auguste-rodin", label:"Porträt: Auguste Rodin (SX9w8)"},
         ])}
       </div>
     </div>

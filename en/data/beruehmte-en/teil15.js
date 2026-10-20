@@ -2614,3 +2614,75 @@ export function ilkaBessinPortraitPage() {
     </div>
   `);
 }
+
+export function augusteRodinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-auguste-rodin-portrait.jpg" alt="Auguste Rodin – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-auguste-rodin-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Auguste Rodin</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexual Type 9 with an Eight-wing</p>
+        <p class="krim-portrait-subtitle">Sculptor, 1840&ndash;1917 &ndash; creator of ›The Thinker‹ and ›The Burghers of Calais‹ &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth: a self-taught man devoted to clay</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sloth</strong> is the animal of the sexual Nine. It is not an emblem of laziness but of a creature that stays in one place and works so slowly that it becomes one with its surroundings. Auguste Rodin was born on 12 November 1840 in Paris, the son of a police clerk, in a working-class family. He was largely self-taught and drew from the age of ten. From 14 to 17 he attended the Petite École, where the teacher Horace Lecoq de Boisbaudran had the students draw from memory. The École des Beaux-Arts, the Paris art academy, rejected him in 1857, and two further applications also failed.</p>
+          <p class="vb-intro">So he took the long road. For about two decades he worked as a craftsman and ornament maker, finally as chief assistant to Albert-Ernest Carrier-Belleuse, and until about the age of thirty he lived in straitened circumstances. After that he spent six years outside France, mostly in Belgium. He became known only in his mid-thirties.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Nine: merging with the work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the subtype of the sexual Nine that of union. It means the tendency to dissolve into another person or a cause until the boundary of the self blurs. In Rodin this can be linked to the way he worked. He studied his models from every side, climbed a ladder to see them from above, and examined the clay models by candlelight. He preferred models who moved naturally over those who struck academic poses. This can be read as devotion to the subject, not as depiction from the outside.</p>
+          <p class="vb-intro">A biographical break belongs to it, as is common in this subtype. In 1862 his sister Maria died in a convent. Rodin blamed himself because he had introduced her to an unfaithful suitor. In the same year he briefly joined a Catholic order as a lay brother and left again. According to the accounts, the order's founder encouraged him to return to sculpture. The break became the devotion that carried him for the rest of his life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: refusal and hardness when the work is attacked</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Nine strength and the willingness to defend when something essential is threatened. In Rodin this shows above all when his work is attacked. When his ›The Age of Bronze‹ was accused in 1877 of having been cast from a living model, he objected fiercely, wrote to newspapers, had photographs made and demanded an inquiry, until a committee of sculptors cleared him.</p>
+          <p class="vb-intro">When the town council of Calais demanded a more heroic design for ›The Burghers of Calais‹, Rodin was ready to end the project rather than give way. The town finally asked him to continue. When the writers' society rejected his ›Balzac‹ in 1898 and the press mocked it, he repaid the fee, put the figure in his garden and took no more public commissions. The Nine gives way until it is about her own. Then she becomes unyielding.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the body in motion and the fragment as a work</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rodin freed sculpture from the smooth, idealised form of his time. After an Italian journey in 1875 he later said that Michelangelo had freed him from academic sculpture. His figures have moving, deliberately unsmoothed surfaces on which the light works, and they show people in inner conflict instead of in heroic pose. In ›The Burghers of Calais‹ (1884 to 1889), a commission based on Jean Froissart's chronicles of the Hundred Years' War, he showed six men who offered their lives to save the town, in conflicting emotions rather than as a closed group of heroes.</p>
+          <p class="vb-intro">In 1880 he received the commission for a portal for a planned Museum of Decorative Arts in Paris that was never built. He worked on ›The Gates of Hell‹ for the next four decades, and it remained unfinished. It grew to 186 figures, and works such as ›The Thinker‹, originally ›The Poet‹ after Dante, and ›The Kiss‹ detached from it, which he later showed as works in their own right. He treated plaster casts as raw material and recombined them, and he regarded fragments as autonomous works of art. ›The Walking Man‹ consists of a damaged torso and the legs of a smaller figure. Skilled assistants enlarged his clay models and transferred them into plaster, bronze and marble. Between 1877 and 1917 he made at least 56 portraits, and the art historian Kenneth Clark later called ›Balzac‹ perhaps the greatest sculpture of the 19th century.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Rose, Camille and not deciding</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The relationships are the most revealing field. Rose Beuret lived with him from 1864, in 1866 their son Auguste-Eugène was born, whom Rodin long barely looked after. Rose stayed in the background, and he married her only on 29 January 1917, a few weeks before her death on 14 February. In 1883 the 18-year-old <a href="javascript:void(0)" data-route="beruehmte-camille-claudel">Camille Claudel</a> (SX4w5) met him; he was 42. She became his pupil, collaborator and lover and remained so until 1898. Biographers report that he assured her of his fidelity, but he stayed with Rose. How binding that assurance was is disputed.</p>
+          <p class="vb-intro">From 1904 Gwen John, at first his model, was his lover. She wrote him thousands of letters over about ten years, and when the relationship ended he kept her at a distance through porters and secretaries. From 1908 he had a relationship with the Duchess of Choiseul. The pattern is the same over decades: he left no one and decided nothing. That fits the Nine, who avoids conflict by leaving things in suspense, and it explains the couple with Claudel. A sexual Four wants exclusivity and devotion; a Nine who says neither no nor yes can give neither.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Nine with an Eight-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX9w8 lies in Rodin in the persistence with which he carried a work over decades, and in the firmness with which he refused to adapt his understanding of form to the taste of his time. For the 1900 World's Fair a pavilion of his works was set up, which brought orders for busts from all over the world. His country estate in Meudon, which he and Rose acquired in 1897, received guests such as King Edward VII and Isadora Duncan. In 1908 he rented the Hôtel Biron in Paris, in 1914 he donated a selection of works to Britain, and he bequeathed his studio and reproduction rights to the French state. The Musée Rodin was founded in 1916 and opened in 1919 at the Hôtel Biron.</p>
+          <p class="vb-intro">The shadow lies where not deciding costs others. Rose stayed in the background for decades, Camille Claudel withdrew after the break in 1898 and was committed to an asylum in 1913, and Gwen John was kept at a distance. It is a pattern from Rodin's life, and there is no reason to transfer it to other people of this subtype. He died on 17 November 1917, aged 77, in Meudon. At his wish a cast of ›The Thinker‹ stands at his grave.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Related patterns: Dakota Johnson and Heike Makatsch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The same combination of merging and firmness appears in <a href="javascript:void(0)" data-route="beruehmte-dakota-johnson">Dakota Johnson</a> (SX9w8) and <a href="javascript:void(0)" data-route="beruehmte-heike-makatsch">Heike Makatsch</a> (SX9w8), who show calm on the outside and become distinct when boundaries are crossed. Rodin is the example of an artist whose career taken alone would also fit the Four. The basic pattern of avoiding decisions in private, devotion to the work and hardness when attacked speaks in this compass for the sexual Nine, and in the couple with <a href="javascript:void(0)" data-route="beruehmte-camille-claudel">Camille Claudel</a> (SX4w5) it shows how differently two people can be wired who share a craft.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: subtype profile"},
+        {route:"lebensmusterkompass/sx9", label:"Life Pattern Compass: SX9 – Sloth"},
+        {route:"beruehmte-camille-claudel", label:"Portrait: Camille Claudel (SX4w5) – pupil, lover and rival"},
+        {route:"beruehmte-dakota-johnson", label:"Portrait: Dakota Johnson (SX9w8) – same subtype and wing"},
+        {route:"beruehmte-heike-makatsch", label:"Portrait: Heike Makatsch (SX9w8) – same subtype and wing"},
+      ])}
+    </div>
+  `);
+}

@@ -1326,6 +1326,7 @@ export function heikeMakatschPortraitPage() {
         {route:"beruehmte-dakota-johnson", label:"Portrait: Dakota Johnson (SX9w8)"},
         {route:"beruehmte-lucy-cooke", label:"Portrait: Lucy Cooke (SX9w8)"},
         {route:"beruehmte-mario-barth", label:"Portrait: Mario Barth (SX9w8)"},
+        {route:"beruehmte-auguste-rodin", label:"Portrait: Auguste Rodin (SX9w8)"},
       ])}
     </div>
   `);

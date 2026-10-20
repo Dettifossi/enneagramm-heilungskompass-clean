@@ -2560,3 +2560,75 @@ export function naviPillayPortraitPage() {
     </div>
   `);
 }
+
+export function augusteRodinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-auguste-rodin-portrait.jpg" alt="Auguste Rodin – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-auguste-rodin-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Auguste Rodin</p>
+        <p class="krim-portrait-typ">SX9w8 &middot; Sexueller Typ 9 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Bildhauer, 1840&ndash;1917 &ndash; Schöpfer von ›Der Denker‹ und ›Die Bürger von Calais‹ &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier: ein Autodidakt, der sich dem Lehm verschrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> ist das Tier der sexuellen Neun. Es ist kein Sinnbild für Trägheit, sondern für ein Wesen, das so lange an einem Ort bleibt und so langsam arbeitet, dass es mit seiner Umgebung eins wird. Auguste Rodin wurde am 12. November 1840 in Paris als Sohn eines Polizeischreibers geboren, in einer Arbeiterfamilie. Er war weitgehend Autodidakt und zeichnete schon mit zehn Jahren. Von 14 bis 17 besuchte er die Petite École, wo der Lehrer Horace Lecoq de Boisbaudran die Schüler anhielt, aus dem Gedächtnis zu zeichnen. Die École des Beaux-Arts, die Pariser Kunsthochschule, lehnte ihn 1857 ab, und zwei weitere Bewerbungen scheiterten ebenfalls.</p>
+          <p class="vb-intro">Er ging deshalb den langen Weg. Rund zwei Jahrzehnte arbeitete er als Kunsthandwerker und Ornamentbildner, zuletzt als Chefgehilfe bei Albert-Ernest Carrier-Belleuse, und er lebte bis etwa zu seinem dreißigsten Lebensjahr in knappen Verhältnissen. Danach verbrachte er sechs Jahre außerhalb Frankreichs, vor allem in Belgien. Bekannt wurde er erst mit Mitte dreißig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit dem Werk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den Subtyp der sexuellen Neun den der Vereinigung. Gemeint ist die Neigung, im Gegenüber oder in einer Sache aufzugehen, bis die Grenze zum eigenen Ich verschwimmt. Bei Rodin lässt sich das mit seiner Art zu arbeiten in Verbindung bringen. Er studierte seine Modelle von allen Seiten, stieg auf eine Leiter, um sie von oben zu sehen, und betrachtete die Tonmodelle bei Kerzenlicht. Er bevorzugte Modelle, die sich natürlich bewegten, statt akademische Posen einzunehmen. Das lässt sich als Hingabe an den Gegenstand lesen, nicht als Darstellung von außen.</p>
+          <p class="vb-intro">Eine biografische Zäsur gehört dazu, wie sie bei diesem Subtyp häufig vorkommt. 1862 starb seine Schwester Maria in einem Kloster. Rodin machte sich Vorwürfe, weil er sie mit einem untreuen Verehrer bekannt gemacht hatte. Im selben Jahr trat er für kurze Zeit als Laienbruder in einen katholischen Orden ein und verließ ihn wieder. Nach den Berichten ermunterte ihn der Gründer des Ordens, zur Bildhauerei zurückzukehren. Aus dem Bruch wurde die Hingabe, die ihn für den Rest seines Lebens trug.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Weigerung und Härte, wenn das Werk angegriffen wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Neun Kraft und die Bereitschaft, sich zu wehren, wenn etwas Wesentliches bedroht ist. Bei Rodin zeigt sich das vor allem bei Angriffen auf sein Werk. Als 1877 sein ›L'Âge d'airain‹ (›Das eherne Zeitalter‹) den Vorwurf traf, es sei am lebenden Modell abgegossen, widersprach er heftig, schrieb an Zeitungen, ließ Fotografien anfertigen und verlangte eine Untersuchung, bis eine Kommission von Bildhauern ihn entlastete.</p>
+          <p class="vb-intro">Als der Gemeinderat von Calais bei ›Les Bourgeois de Calais‹ (›Die Bürger von Calais‹) einen heroischeren Entwurf verlangte, war Rodin bereit, das Projekt abzubrechen, statt nachzugeben. Die Stadt bat ihn schließlich fortzufahren. Als die Schriftstellervereinigung sein ›Balzac‹ 1898 ablehnte und die Presse es verspottete, zahlte er das Honorar zurück, stellte die Figur in seinen Garten und nahm keine öffentlichen Aufträge mehr an. Die Neun gibt nach, bis es um das Eigene geht. Dann wird sie unnachgiebig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der Körper in Bewegung und das Fragment als Werk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rodin löste die Bildhauerei von der glatten, idealisierten Form seiner Zeit. Nach einer Italienreise 1875 sagte er später, Michelangelo habe ihn von der akademischen Bildhauerei befreit. Seine Figuren haben bewegte, bewusst nicht geglättete Oberflächen, auf denen das Licht arbeitet, und sie zeigen Menschen in inneren Konflikten statt in heroischer Pose. Bei den ›Bürgern von Calais‹ (1884 bis 1889), einem Auftrag nach den Chroniken von Jean Froissart über den Hundertjährigen Krieg, zeigte er sechs Männer, die ihr Leben anboten, um die Stadt zu retten, in widerstreitenden Gefühlen statt als geschlossene Heldengruppe.</p>
+          <p class="vb-intro">1880 erhielt er den Auftrag für ein Portal eines geplanten Museums für dekorative Künste in Paris, das nie gebaut wurde. An ›La Porte de l'Enfer‹ (›Das Höllentor‹) arbeitete er die nächsten vier Jahrzehnte, und es blieb unvollendet. Es wuchs auf 186 Figuren an, und aus ihm lösten sich Werke wie ›Le Penseur‹ (›Der Denker‹), ursprünglich ›Der Dichter‹ nach Dante, und ›Le Baiser‹ (›Der Kuss‹), die er später als eigene Arbeiten zeigte. Er behandelte Gipsabgüsse als Rohmaterial und setzte sie neu zusammen, und er betrachtete Fragmente als eigenständige Kunstwerke. ›L'Homme qui marche‹ (›Der schreitende Mann‹) besteht aus einem beschädigten Torso und den Beinen einer kleineren Figur. Geschickte Gehilfen vergrößerten seine Tonmodelle und übertrugen sie in Gips, Bronze und Marmor. Zwischen 1877 und 1917 entstanden mindestens 56 Porträts, und der Kunsthistoriker Kenneth Clark nannte den ›Balzac‹ später vielleicht die größte Skulptur des 19. Jahrhunderts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Rose, Camille und das Nicht-Entscheiden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Beziehungen sind das aufschlussreichste Feld. Rose Beuret lebte seit 1864 mit ihm, 1866 wurde ihr Sohn Auguste-Eugène geboren, um den sich Rodin über lange Zeit kaum kümmerte. Rose blieb im Hintergrund, und er heiratete sie erst am 29. Januar 1917, wenige Wochen vor ihrem Tod am 14. Februar. 1883 begegnete ihm die 18-jährige <a href="javascript:void(0)" data-route="beruehmte-camille-claudel">Camille Claudel</a> (SX4w5), er war 42. Sie wurde Schülerin, Mitarbeiterin und Geliebte und blieb es bis 1898. Biografen berichten, er habe ihr Treue zugesichert, doch er blieb bei Rose. Ob und wie verbindlich diese Zusage war, ist umstritten.</p>
+          <p class="vb-intro">Ab 1904 war Gwen John, zunächst sein Modell, seine Geliebte. Sie schrieb ihm in rund zehn Jahren Tausende Briefe, und als die Beziehung endete, hielt er sie über Pförtner und Sekretäre auf Abstand. Ab 1908 hatte er eine Beziehung zur Herzogin von Choiseul. Das Muster ist über Jahrzehnte dasselbe: Er trennte sich von niemandem und entschied nichts. Das passt zur Neun, die Konflikte meidet, indem sie die Dinge in der Schwebe lässt, und es erklärt das Paar mit Claudel. Eine sexuelle Vier will Ausschließlichkeit und Hingabe, eine Neun, die nicht Nein sagt und nicht Ja, kann beides nicht geben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Neun mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX9w8 liegt bei Rodin in der Ausdauer, mit der er ein Werk über Jahrzehnte trug, und in der Standfestigkeit, mit der er sich weigerte, sein Verständnis von Form dem Geschmack seiner Zeit anzupassen. Zur Weltausstellung 1900 wurde ein eigener Pavillon mit seinen Werken eingerichtet, der Bestellungen für Büsten aus aller Welt brachte. Sein Landsitz in Meudon, den er und Rose 1897 erwarben, empfing Gäste wie König Edward VII. und Isadora Duncan. 1908 mietete er das Hôtel Biron in Paris, 1914 schenkte er Großbritannien eine Auswahl von Werken, und sein Atelier und die Vervielfältigungsrechte vermachte er dem französischen Staat. Das Musée Rodin wurde 1916 gegründet und 1919 im Hôtel Biron eröffnet.</p>
+          <p class="vb-intro">Der Schatten liegt dort, wo das Nicht-Entscheiden andere kostet. Rose blieb jahrzehntelang im Hintergrund, Camille Claudel zog sich nach der Trennung 1898 zurück und wurde 1913 in eine Anstalt eingewiesen, Gwen John wurde auf Abstand gehalten. Es ist ein Muster aus Rodins Lebensweg, und es gibt keinen Anlass, es auf andere Menschen dieses Subtyps zu übertragen. Er starb am 17. November 1917 im Alter von 77 Jahren in Meudon. Auf seinen Wunsch steht eine Fassung des ›Denkers‹ an seinem Grab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Verwandte Muster: Dakota Johnson und Heike Makatsch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dieselbe Verbindung aus Verschmelzung und Standfestigkeit zeigt sich bei <a href="javascript:void(0)" data-route="beruehmte-dakota-johnson">Dakota Johnson</a> (SX9w8) und <a href="javascript:void(0)" data-route="beruehmte-heike-makatsch">Heike Makatsch</a> (SX9w8), bei denen nach außen Ruhe herrscht und die bei Grenzüberschreitungen deutlich werden. Rodin ist das Beispiel eines Künstlers, dessen Laufbahn für sich genommen auch zur Vier passen würde. Das Grundmuster aus Vermeidung von Entscheidungen im Privaten, Hingabe an das Werk und Härte bei Angriffen spricht in diesem Kompass für die sexuelle Neun, und im Paar mit <a href="javascript:void(0)" data-route="beruehmte-camille-claudel">Camille Claudel</a> (SX4w5) zeigt sich, wie verschieden zwei Menschen gestrickt sein können, die ein Handwerk teilen.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
+        {route:"beruehmte-camille-claudel", label:"Porträt: Camille Claudel (SX4w5) – Schülerin, Geliebte und Rivalin"},
+        {route:"beruehmte-dakota-johnson", label:"Porträt: Dakota Johnson (SX9w8) – derselbe Subtyp und Flügel"},
+        {route:"beruehmte-heike-makatsch", label:"Porträt: Heike Makatsch (SX9w8) – derselbe Subtyp und Flügel"},
+      ])}
+    </div>
+  `);
+}

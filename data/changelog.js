@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2545", date: "2026-10-20", text: "Neues Porträt: Auguste Rodin (SX9w8) – Bildhauer, Schöpfer von Der Denker und Die Bürger von Calais.", text_en: "New portrait: Auguste Rodin (SX9w8) – sculptor, creator of The Thinker and The Burghers of Calais.", route: "beruehmte-auguste-rodin" },
     { version: "v2544", date: "2026-10-20", text: "Neues Porträt: Camille Claudel (SX4w5) – Bildhauerin, Schülerin und Rivalin Auguste Rodins.", text_en: "New portrait: Camille Claudel (SX4w5) – sculptor, pupil and rival of Auguste Rodin.", route: "beruehmte-camille-claudel" },
     { version: "v2543", date: "2026-10-20", text: "Neues Kriminalporträt: Rodney Alcala (SO3w4) – Fotograf und Kandidat von The Dating Game, wegen sieben Morden verurteilt.", text_en: "New criminal portrait: Rodney Alcala (SO3w4) – photographer and Dating Game contestant, convicted of seven murders.", route: "kriminalpsychologie-rodney-alcala" },
     { version: "v2542", date: "2026-10-19", text: "Neues Porträt: Halla Tómasdóttir (SO9w1) – Präsidentin von Island.", text_en: "New portrait: Halla Tómasdóttir (SO9w1) – President of Iceland.", route: "beruehmte-halla-tomasdottir" },
