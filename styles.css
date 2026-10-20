@@ -5730,3 +5730,18 @@ p, li, .vb-intro { text-wrap: pretty; }
   .legal-footer__link::after, .ghost-link::after { inset: -14px -8px; }
   .kf-btn::after { inset: -6px -3px; }
 }
+
+/* Materialeffekte (20.10.2026): Milchglas für schwebende Flächen, nur wo der Browser es kann.
+   Ohne backdrop-filter bleibt der volle Elfenbein-Hintergrund stehen. */
+@supports (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px)) {
+  .nav-dropdown__menu {
+    background: color-mix(in srgb, var(--ivory) 82%, transparent);
+    -webkit-backdrop-filter: saturate(1.6) blur(18px);
+    backdrop-filter: saturate(1.6) blur(18px);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.06), 0 10px 30px rgba(0,0,0,0.14);
+  }
+  .nav-dropdown__search-wrap {
+    background: color-mix(in srgb, var(--ivory) 70%, transparent);
+  }
+  .register-jumpbar, .tv-filterbar { background: color-mix(in srgb, var(--ivory) 78%, transparent); -webkit-backdrop-filter: saturate(1.6) blur(14px); backdrop-filter: saturate(1.6) blur(14px); }
+}
