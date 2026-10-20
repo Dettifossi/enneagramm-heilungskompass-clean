@@ -2652,3 +2652,80 @@ export function margaretThatcherPortraitPage() {
     </div>
   `);
 }
+
+export function donKingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-don-king-portrait.jpg" alt="Don King – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-don-king-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Don King</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Selbsterhaltender Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Boxpromoter, geb. 1931 &ndash; Veranstalter von &rsaquo;Rumble in the Jungle&lsaquo; und &rsaquo;Thrilla in Manila&lsaquo; &ndash; Tierentsprechung: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gorilla: ein Revier aus dem Nichts</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gorilla</strong> sichert, was zu ihm gehört: sein Revier, seine Gruppe, seine Vorräte. Er muss nicht laut sein, solange niemand sein Gebiet anrührt, und er wird sehr deutlich, wenn jemand es tut. Donald King wurde am 20. August 1931 in Cleveland, Ohio, als fünftes von sechs Kindern von Clarence und Hattie King geboren. Am 7. Dezember 1941 starb der Vater bei einem Unfall in einem Stahlwerk, die Mutter erhielt eine Entschädigung von 10.000 Dollar. Die Familie betrieb nebenher ein illegales Zahlenlotto über ein ›Policy House‹ (Annahmestelle für das Zahlenlotto), King nannte das später selbst ›Hustling‹ (sinngemäß: sich durchschlagen und Geschäfte machen).</p>
+          <p class="vb-intro">1951 machte er seinen Abschluss an der John Adams High School, ein kurzes Studium an der Kent State University brach er ab. Sein erstes Geld verdiente er mit Zahlenlotto und Wetten. Das lässt sich mit dem Grundzug der selbsterhaltenden Sieben in Verbindung bringen: Wer in diesem Milieu Geld bewegt, braucht Verbündete, Vorsprung und die Bereitschaft, ein Geschäft gegen Widerstand zu verteidigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sieben: Sicherheit durch Besitz, Verträge und Gefolge</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den selbsterhaltenden Typ 7 die ›Familie‹: Sicherheit entsteht im engen, verlässlichen Kreis. Bei King ist dieser Kreis kein stilles Zuhause, sondern ein Hofstaat. Zu ihm gehörten seine Frau Henrietta (gest. 2. Dezember 2010), die Kinder Debbie und Eric, der Adoptivsohn Carl, der in mehreren Vertragsstreitigkeiten als Manager auftauchte, und ein Stall von Boxern, deren Börsen und Verträge über seinen Tisch liefen. Das lässt sich mit dem selbsterhaltenden Muster in Verbindung bringen: Sicherheit hat hier weniger mit Genuss am Tisch zu tun als mit dem Gefühl, das Territorium zu besitzen, in dem die Gruppe lebt.</p>
+          <p class="vb-intro">Die Leidenschaft der Sieben ist die Völlerei, das Verlangen nach immer mehr. Beim Boxpromoter zeigt sie sich nicht beim Essen, sondern in der Größe der Zahlen: noch eine Börse, noch ein Titelkampf, noch ein Vertrag. Der Genuss liegt im Abschluss des Deals und in der Aufmerksamkeit, die er erzeugt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Dominanz, Gewalt und ein zweites Leben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Sieben Durchsetzungskraft und die Bereitschaft zur Konfrontation. Bei Don King ist er stark ausgeprägt. 1954 schoss er auf einen Mann, der eines seiner Glücksspiellokale überfallen wollte; der Fall wurde als gerechtfertigte Tötung eingestuft. 1957 wurde sein Haus bombardiert, er selbst an Kopf und Hals angeschossen, nach Berichten, weil er sich geweigert hatte, dem Unterweltboss Shondor Birns Schutzgeld zu zahlen. Im Dezember 1957 durchsuchten Steuerfahnder sein Haus wegen nicht gezahlter Steuern auf das Zahlenlotto in Höhe von 32.029 Dollar.</p>
+          <p class="vb-intro">Am 24. April 1966 schlug und trat King seinen Angestellten Sam Garrett, der ihm 600 Dollar schuldete, und hielt ihm einen Revolver an den Kopf. Garrett starb an Kopfverletzungen. King berief sich auf Notwehr, wurde 1967 wegen Mordes zweiten Grades zu einem bis zwanzig Jahren verurteilt und saß in der Marion Correctional Institution. Nach drei Jahren und elf Monaten kam er 1972 frei, nachdem sein Anwalt eine Herabstufung des Urteils auf Totschlag erreicht hatte. 1983 begnadigte ihn der Gouverneur von Ohio, Jim Rhodes, unterstützt durch Briefe unter anderem von Jesse Jackson und Coretta Scott King. Im Gefängnis bildete King sich in der Bibliothek selbst weiter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: aus einem Kampf ein Weltereignis machen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was King von anderen Promotern unterschied, war seine Fähigkeit, aus einem Boxkampf ein Ereignis zu machen, für das Staaten, Sender und Sponsoren zahlten. Den Einstieg fand er Anfang der 1970er-Jahre, als er mit Hilfe des Sängers Lloyd Price Muhammad Ali (SO2w1) für einen Wohltätigkeitskampf in Cleveland gewann. Daraus entstand die Verbindung, die seinen Namen trug. 1974 holte er den Kampf zwischen Ali und George Foreman, den ›Rumble in the Jungle‹ in Zaire, mit einer Börse von zehn Millionen Dollar, damals die höchste der Boxgeschichte. 1975 organisierte er Alis Kampf gegen Chuck Wepner, der als Vorbild für den Film ›Rocky‹ gilt, und im selben Jahr den dritten Kampf Alis gegen Joe Frazier, die ›Thrilla in Manila‹.</p>
+          <p class="vb-intro">In den folgenden Jahrzehnten stand er hinter Mike Tyson, Evander Holyfield, Julio César Chávez, Bernard Hopkins, Félix Trinidad und Roy Jones Jr. 1984 organisierte er für die Jacksons die ›Victory Tour‹. Dazu kam eine eigene Marke: das aufrecht stehende Haar, die Jacken in den Farben der amerikanischen Flagge und der Ausruf ›Only in America!‹ (›Nur in Amerika!‹). King verstand, dass ein Promoter selbst zum Teil des Spektakels werden kann, und er blieb dabei flexibel: Er unterstützte 2004 George W. Bush, 2008 und 2012 Barack Obama und über viele Jahre Donald Trump (SX8w7). Dieses Wechseln der Seiten, solange das eigene Geschäft geschützt ist, passt zur Sieben mit Achterflügel.</p>
+          <p class="vb-intro">1998 kaufte er die Wochenzeitung ›Call and Post‹, die sich an die afroamerikanische Gemeinschaft in Cleveland richtet, und ist nach den vorliegenden Angaben bis heute ihr Herausgeber. 1997 wurde er in die International Boxing Hall of Fame aufgenommen, 2008 in die Gaming Hall of Fame.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Schatten: Verträge, Klagen und der Preis des Reviers</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Fast jede große Boxerkarriere unter King endete in einem Rechtsstreit. Larry Holmes warf ihm vor, einen verdeckten Anteil von 25 Prozent der Börsen einzubehalten und ihn über seine Laufbahn um rund zehn Millionen Dollar gebracht zu haben; Holmes einigte sich in einem Verfahren um 300.000 Dollar auf 150.000 Dollar. Tim Witherspoon klagte 1987 auf 25 Millionen Dollar und einigte sich auf eine Million. Terry Norris klagte 1996, King einigte sich 2003 auf 7,5 Millionen Dollar. Mike Tyson verklagte ihn 1998 auf 100 Millionen Dollar und erhielt nach einem Bericht von NBC Sports in einem Vergleich 14 Millionen Dollar. Lennox Lewis verlangte 2003 385 Millionen Dollar. Muhammad Ali (SO2w1) hatte 1982 wegen einer Unterzahlung von 1,1 Millionen Dollar geklagt und die Klage wurde nach einem von Ali unterzeichneten Schreiben beendet, dessen Umstände umstritten sind. Die Vorwürfe stammen jeweils von den Klägern, vieles endete im Vergleich und nicht in einem Urteil.</p>
+          <p class="vb-intro">King selbst klagte 2005 gegen den Sender ESPN auf 2,5 Milliarden Dollar wegen einer Dokumentation; die Klage wurde abgewiesen, die Abweisung 2010 bestätigt. Auch die Verfahren der letzten Jahre drehen sich um Geld und Besitz. Wo das Revier berührt wird, geht es um Kontrolle über Zahlen und Verträge.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Sieben mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in einer ungewöhnlichen Verwandlung: Ein Mann aus einer Stahlarbeiterfamilie, der wegen Totschlags im Gefängnis gesessen hatte, wurde zu einem Veranstalter, dessen Kämpfe in der Boxgeschichte einen festen Platz haben. Er verband Sportler, Politik, Medien und Geld und gab vielen Boxern die Bühne, die sie ohne ihn nicht gehabt hätten. Seine Begabung, andere für eine Idee zu gewinnen, ist real.</p>
+          <p class="vb-intro">Der Schatten liegt dort, wo die Sicherung des eigenen Reviers die Fürsorge für die Gruppe überlagert. Die Boxer, die zu seiner ›Familie‹ gehörten, standen in vielen Fällen vor Gericht gegen ihn. Der Gorilla schützt seine Gruppe, aber er entscheidet allein, was ihr gehört. Mit der Gefängnisbibliothek, den Begnadigungsbriefen und den späteren Bündnissen über politische Lager hinweg zeigt sich auch ein Zug, den die Sieben mit Achterflügel kennt: Rückschläge werden nicht lange betrauert, es wird neu gebaut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: ein Veteran, der sich zurückgezogen hat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Don King ist nach den vorliegenden Angaben (Stand 20. Oktober 2026) 95 Jahre alt. Im September 2024 wurde er wegen einer nicht näher bekannten Erkrankung im Krankenhaus behandelt, Tyson äußerte sich öffentlich besorgt. Er hat sich weitgehend aus dem großen Geschäft zurückgezogen, ist weiter Herausgeber der ›Call and Post‹ und veranstaltet jedes Jahr zu Weihnachten eine Truthahn-Verteilung in Südflorida. 2023 wurde bekannt, dass er den ›Bomaye Fight Club‹ des Wrestling-Verbands Major League Wrestling finanziert. Im Film ›Michael‹ (2026) wird er von Deon Cole gespielt, in ›Don King: Only in America‹ (1997) von Ving Rhames, der dafür einen Golden Globe erhielt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se7", label:"SE7 – Der Gorilla: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se7", label:"Lebensmusterkompass: SE7 – Gorilla"},
+        {route:"beruehmte-muhammad-ali", label:"Porträt: Muhammad Ali (SO2w1) – der Boxer, mit dem Kings Aufstieg begann"},
+        {route:"beruehmte-donald-trump", label:"Porträt: Donald J. Trump (SX8w7) – langjähriger Weggefährte"},
+        {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3) – ›Victory Tour‹ 1984"},
+        {route:"beruehmte-moritz-bleibtreu", label:"Porträt: Moritz Bleibtreu (SE7w8)"},
+        {route:"beruehmte-mariah-carey", label:"Porträt: Mariah Carey (SE7w8)"},
+        {route:"beruehmte-franz-peter-tebartz-van-elst", label:"Porträt: Franz-Peter Tebartz-van Elst (SE7w8)"},
+        {route:"beruehmte-johann-lafer", label:"Porträt: Johann Lafer (SE7w8)"},
+      ])}
+    </div>
+  `);
+}

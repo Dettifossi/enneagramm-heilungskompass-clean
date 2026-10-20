@@ -2569,3 +2569,80 @@ export function wigaldBoningPortraitPage() {
     </div>
   `);
 }
+
+export function donKingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-don-king-portrait.jpg" alt="Don King – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-don-king-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Don King</p>
+        <p class="krim-portrait-typ">SE7w8 &middot; Self-Preservation Type 7 with an Eight-wing</p>
+        <p class="krim-portrait-subtitle">Boxing promoter, b. 1931 &ndash; promoter of the &lsquo;Rumble in the Jungle&rsquo; and the &lsquo;Thrilla in Manila&rsquo; &ndash; Animal correspondence: Gorilla</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Gorilla: a territory built from nothing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Gorilla</strong> secures what belongs to it: its territory, its group, its supplies. It does not need to be loud as long as nobody touches its ground, and it becomes very clear when somebody does. Donald King was born on 20 August 1931 in Cleveland, Ohio, the fifth of six children of Clarence and Hattie King. On 7 December 1941 his father died in an accident at a steel plant, and his mother received compensation of $10,000. The family also ran an illegal numbers game through a &lsquo;policy house&rsquo;, which King later called hustling himself.</p>
+          <p class="vb-intro">He graduated from John Adams High School in 1951 and dropped out of a short stint at Kent State University. He earned his first money with numbers and betting. This can be linked to the basic trait of the self-preservation Seven: anyone moving money in that world needs allies, a head start, and the willingness to defend a deal against resistance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Seven: security through property, contracts, and entourage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the self-preservation Seven the &lsquo;family&rsquo;: security arises in the close, reliable circle. With King this circle is not a quiet home but a court. It included his wife Henrietta (d. 2 December 2010), the children Debbie and Eric, the adopted son Carl, who appeared as a manager in several contract disputes, and a stable of boxers whose purses and contracts passed across his table. This can be linked to the self-preservation pattern: security here has less to do with pleasure at the table than with the feeling of owning the territory the group lives in.</p>
+          <p class="vb-intro">The passion of the Seven is gluttony, the craving for more. In a boxing promoter it shows not at dinner but in the size of the numbers: one more purse, one more title fight, one more contract. The pleasure lies in closing the deal and in the attention it creates.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: dominance, violence, and a second life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Seven assertiveness and a readiness for confrontation. With Don King it is strongly pronounced. In 1954 he shot a man who was trying to rob one of his gambling houses; the case was ruled a justifiable homicide. In 1957 his house was bombed and he himself was shot in the head and neck, reportedly because he had refused to pay protection money to the underworld boss Shondor Birns. In December 1957 tax agents raided his house over unpaid taxes of $32,029 on the numbers game.</p>
+          <p class="vb-intro">On 24 April 1966 King beat and kicked his employee Sam Garrett, who owed him $600, and held a revolver to his head. Garrett died of head injuries. King claimed self-defense, was convicted of second-degree murder in 1967, sentenced to one to twenty years, and held at the Marion Correctional Institution. After three years and eleven months he was released in 1972, after his attorney had the conviction reduced to manslaughter. In 1983 Ohio governor Jim Rhodes pardoned him, supported by letters from Jesse Jackson and Coretta Scott King, among others. In prison King educated himself in the library.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: turning a fight into a world event</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What set King apart from other promoters was his ability to turn a boxing match into an event that states, broadcasters, and sponsors paid for. He found his way in during the early 1970s, when he won Muhammad Ali (SO2w1) over for a charity exhibition in Cleveland with the help of the singer Lloyd Price. From that came the connection that carried his name. In 1974 he secured the fight between Ali and George Foreman, the &lsquo;Rumble in the Jungle&rsquo; in Zaire, with a purse of ten million dollars, the highest in boxing history at the time. In 1975 he promoted Ali&rsquo;s fight against Chuck Wepner, regarded as the model for the film &lsquo;Rocky&rsquo;, and in the same year Ali&rsquo;s third fight against Joe Frazier, the &lsquo;Thrilla in Manila&rsquo;.</p>
+          <p class="vb-intro">In the following decades he stood behind Mike Tyson, Evander Holyfield, Julio César Chávez, Bernard Hopkins, Félix Trinidad, and Roy Jones Jr. In 1984 he promoted the Jacksons&rsquo; Victory Tour. On top of that came a brand of his own: upright hair, jackets in the colors of the American flag, and the cry &lsquo;Only in America!&rsquo;. King understood that a promoter can become part of the spectacle himself, and he stayed flexible: he backed George W. Bush in 2004, Barack Obama in 2008 and 2012, and Donald Trump (SX8w7) over many years. Switching sides as long as one&rsquo;s own business is protected fits a Seven with an Eight-wing.</p>
+          <p class="vb-intro">In 1998 he bought the weekly newspaper &lsquo;Call and Post&rsquo;, aimed at the African American community in Cleveland, and according to the available information he is still its publisher. He was inducted into the International Boxing Hall of Fame in 1997 and the Gaming Hall of Fame in 2008.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The shadow: contracts, lawsuits, and the price of a territory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Almost every major boxing career under King ended in a legal dispute. Larry Holmes accused him of withholding a hidden 25 percent share of purses and of costing him about ten million dollars over his career; in one case over a $300,000 deduction Holmes settled for $150,000. Tim Witherspoon sued in 1987 for $25 million and settled for one million. Terry Norris sued in 1996, and King settled in 2003 for $7.5 million. Mike Tyson sued him in 1998 for $100 million and, according to NBC Sports, received $14 million in a settlement. Lennox Lewis demanded $385 million in 2003. Muhammad Ali (SO2w1) had sued in 1982 over an underpayment of $1.1 million, and the suit was ended after a letter signed by Ali whose circumstances are disputed. The accusations come in each case from the plaintiffs, and much of it ended in settlements rather than judgments.</p>
+          <p class="vb-intro">King himself sued the broadcaster ESPN in 2005 for $2.5 billion over a documentary; the suit was dismissed, and the dismissal was upheld in 2010. The cases of recent years also revolve around money and property. Where the territory is touched, it is about control over numbers and contracts.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Seven with an Eight-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in an unusual transformation: a man from a steelworker family, who had served time in prison for manslaughter, became a promoter whose fights hold a firm place in boxing history. He connected athletes, politics, media, and money, and gave many boxers a stage they would not have had without him. His gift for winning others over to an idea is real.</p>
+          <p class="vb-intro">The shadow lies where securing one&rsquo;s own territory overshadows care for the group. The boxers who belonged to his &lsquo;family&rsquo; stood against him in court in many cases. The Gorilla protects its group, but it decides alone what belongs to it. With the prison library, the pardon letters, and the later alliances across political camps, a trait shows up that the Seven with an Eight-wing knows: setbacks are not mourned for long, one builds anew.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: a veteran who has withdrawn</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 20 October 2026), Don King is 95 years old. In September 2024 he was treated in hospital for an illness not described in detail, and Tyson voiced concern in public. He has largely withdrawn from the big business, remains publisher of the &lsquo;Call and Post&rsquo;, and holds a turkey giveaway in South Florida every Christmas. In 2023 it became known that he finances the &lsquo;Bomaye Fight Club&rsquo; of the wrestling promotion Major League Wrestling. In the film &lsquo;Michael&rsquo; (2026) he is played by Deon Cole, in &lsquo;Don King: Only in America&rsquo; (1997) by Ving Rhames, who won a Golden Globe for it.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se7", label:"SE7 – The Gorilla: subtype profile"},
+        {route:"lebensmusterkompass/se7", label:"Life Pattern Compass: SE7 – Gorilla"},
+        {route:"beruehmte-muhammad-ali", label:"Portrait: Muhammad Ali (SO2w1) – the boxer with whom King's rise began"},
+        {route:"beruehmte-donald-trump", label:"Portrait: Donald J. Trump (SX8w7) – long-time associate"},
+        {route:"beruehmte-michael-jackson", label:"Portrait: Michael Jackson (SO4w3) – Victory Tour 1984"},
+        {route:"beruehmte-moritz-bleibtreu", label:"Portrait: Moritz Bleibtreu (SE7w8)"},
+        {route:"beruehmte-mariah-carey", label:"Portrait: Mariah Carey (SE7w8)"},
+        {route:"beruehmte-franz-peter-tebartz-van-elst", label:"Portrait: Franz-Peter Tebartz-van Elst (SE7w8)"},
+        {route:"beruehmte-johann-lafer", label:"Portrait: Johann Lafer (SE7w8)"},
+      ])}
+    </div>
+  `);
+}
