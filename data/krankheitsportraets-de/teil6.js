@@ -497,6 +497,7 @@ export function davidBowieKrankheitsportraetPage() {
         {route:"krankheitsportraets-steve-jobs", label:"Krankheitsporträt: Steve Jobs (SO1w2) – gleiches Muster: Kontrolle über die eigene Krankheit"},
         {route:"krankheitsportraets-brian-wilson", label:"Krankheitsporträt: Brian Wilson (SO1w2) – Gegenmodell: Kontrolle verlieren statt behalten"},
         {route:"krankheitsportraets-ronald-reagan", label:"Krankheitsporträt: Ronald Reagan (SO9w8) – Gegenmodell: direkte statt verschlüsselte Offenlegung"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Karl Lagerfeld (SO3w4) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so1", label:"Subtyp-Profil SO1"},
       ])}
@@ -848,6 +849,7 @@ export function franzSchubertKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5) – Lebenswerk"},
+        {route:"krankheitsportraets-ludwig-van-beethoven", label:"Ludwig van Beethoven (SX6w5) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se6", label:"Subtyp-Profil SE6"},
       ])}
@@ -1036,6 +1038,7 @@ export function friedrichSchillerKrankheitsportraetPage() {
         {route:"beruehmte-johann-wolfgang-von-goethe", label:"Porträt: Johann Wolfgang von Goethe (SO7w6) – enger Freund und Briefpartner"},
         {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – Gegenmodell: Verbergen statt Konfrontation"},
         {route:"krankheitsportraets-otto-von-bismarck", label:"Krankheitsporträt: Otto von Bismarck (SX6w5) – gleicher Subtyp, gegenläufige Ausprägung"},
+        {route:"krankheitsportraets-ludwig-van-beethoven", label:"Ludwig van Beethoven (SX6w5) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
       ])}
@@ -1599,6 +1602,7 @@ export function johannesBrahmsKrankheitsportraetPage() {
         {route:"krankheitsportraets-robert-schumann", label:"Krankheitsporträt: Robert Schumann (SX7w8) – Brahms besuchte ihn regelmäßig in Endenich"},
         {route:"krankheitsportraets-david-hume", label:"Krankheitsporträt: David Hume (SE9w8) – dieselbe elefantenhafte Gelassenheit"},
         {route:"krankheitsportraets-hans-dietrich-genscher", label:"Krankheitsporträt: Hans-Dietrich Genscher (SE9w8) – gleicher Subtyp"},
+        {route:"krankheitsportraets-margaret-rutherford", label:"Margaret Rutherford (SE9w8) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se9", label:"Subtyp-Profil SE9"},
       ])}
@@ -1960,6 +1964,8 @@ export function konradAdenauerKrankheitsportraetPage() {
         {route:"beruehmte-konrad-adenauer", label:"Porträt: Konrad Adenauer (SE1w9) – Lebenswerk"},
         {route:"krankheitsportraets-astrid-lindgren", label:"Krankheitsporträt: Astrid Lindgren (SE1w9) – gleicher Subtyp"},
         {route:"krankheitsportraets-robert-de-niro", label:"Krankheitsporträt: Robert De Niro (SE1w9) – gleicher Subtyp"},
+        {route:"beruehmte-heinz-ruehmann", label:"Porträt: Heinz Rühmann (SE1w9)"},
+        {route:"krankheitsportraets-anthony-hopkins", label:"Anthony Hopkins (SE1w9) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se1", label:"Subtyp-Profil SE1"},
       ])}
@@ -2468,6 +2474,7 @@ export function napoleonBonaparteKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-napoleon-bonaparte", label:"Porträt: Napoleon Bonaparte (SO2w3) – Lebenswerk"},
+        {route:"krankheitsportraets-julius-caesar", label:"Julius Caesar (SO2w3) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so2", label:"Subtyp-Profil SO2"},
       ])}
@@ -2839,6 +2846,8 @@ export function robertDeNiroKrankheitsportraetPage() {
         {route:"krankheitsportraets-konrad-adenauer", label:"Krankheitsporträt: Konrad Adenauer (SE1w9) – gleicher Subtyp"},
         {route:"krankheitsportraets-astrid-lindgren", label:"Krankheitsporträt: Astrid Lindgren (SE1w9) – gleicher Subtyp"},
         {route:"krankheitsportraets-ludwig-wittgenstein", label:"Krankheitsporträt: Ludwig Wittgenstein (SE1w9) – gleicher Subtyp, gleiche Krankheit"},
+        {route:"krankheitsportraets-johannes-paul-ii", label:"Johannes Paul II. (SE1w9) – Krankheitsporträt"},
+        {route:"krankheitsportraets-phil-collins", label:"Phil Collins (SE1w9) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se1", label:"Subtyp-Profil SE1"},
       ])}
@@ -3388,6 +3397,7 @@ export function winstonChurchillKrankheitsportraetPage() {
         {route:"beruehmte-winston-churchill", label:"Porträt: Winston Churchill (SE8w9) – Lebenswerk"},
         {route:"krankheitsportraets-golda-meir", label:"Krankheitsporträt: Golda Meir (SE8w9) – dieselbe Verbergungsstrategie"},
         {route:"krankheitsportraets-helmut-kohl", label:"Krankheitsporträt: Helmut Kohl (SE8w9) – dasselbe Muster verborgener Verwundbarkeit"},
+        {route:"krankheitsportraets-karl-marx", label:"Karl Marx (SO8w9) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se8", label:"Subtyp-Profil SE8"},
       ])}
@@ -3948,6 +3958,7 @@ export function adamSmithKrankheitsportraetPage() {
         {route:"beruehmte-adam-smith", label:"Porträt: Adam Smith (SO1w9) – Lebenswerk"},
         {route:"krankheitsportraets-jordan-peterson", label:"Krankheitsporträt: Dr. Jordan Peterson (SO1w9) – gleicher Subtyp"},
         {route:"krankheitsportraets-helmut-schmidt", label:"Krankheitsporträt: Helmut Schmidt (SO1w9) – gleicher Subtyp"},
+        {route:"beruehmte-cornelia-funke", label:"Porträt: Cornelia Funke (SO1w9)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so1", label:"Subtyp-Profil SO1"},
       ])}
@@ -4135,6 +4146,7 @@ export function josephHaydnKrankheitsportraetPage() {
         {route:"beruehmte-joseph-haydn", label:"Porträt: Joseph Haydn (SE3w2) – Lebenswerk"},
         {route:"krankheitsportraets-sadhguru", label:"Krankheitsporträt: Sadhguru (SE3w2) – gleicher Subtyp"},
         {route:"krankheitsportraets-enrico-caruso", label:"Krankheitsporträt: Enrico Caruso (SE3w2) – gleicher Subtyp"},
+        {route:"beruehmte-kim-eng", label:"Porträt: Kim Eng (SE3w2)"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se3", label:"Subtyp-Profil SE3"},
       ])}
@@ -4710,6 +4722,7 @@ export function helmutSchmidtKrankheitsportraetPage() {
         {route:"beruehmte-helmut-schmidt", label:"Porträt: Helmut Schmidt (SO1w9) – Kanzlerschaft"},
         {route:"krankheitsportraets-adam-smith", label:"Krankheitsporträt: Adam Smith (SO1w9) – gleicher Subtyp"},
         {route:"krankheitsportraets-jordan-peterson", label:"Krankheitsporträt: Dr. Jordan Peterson (SO1w9) – gleicher Subtyp"},
+        {route:"krankheitsportraets-niki-lauda", label:"Niki Lauda (SO1w2) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so1", label:"Subtyp-Profil SO1"},
       ])}
@@ -5330,6 +5343,7 @@ export function eleanorRooseveltKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-eleanor-roosevelt", label:"Porträt: Eleanor Roosevelt (SO9w1)"},
         {route:"krankheitsportraets-peter-falk", label:"Krankheitsporträt: Peter Falk (SO9w1)"},
+        {route:"krankheitsportraets-ramana-maharshi", label:"Ramana Maharshi (SO9w1) – Krankheitsporträt"},
         {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
         {route:"lebensmusterkompass/so9", label:"Lebensmusterkompass: SO9 – Büffel"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},

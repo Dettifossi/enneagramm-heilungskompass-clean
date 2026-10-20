@@ -56155,6 +56155,7 @@ function borisBeckerKriminalPage() {
         {route:"beruehmte-boris-becker", label:"Portr\u00e4t: Boris Becker \u2013 Ber\u00fchmte Pers\u00f6nlichkeiten"},
         {route:"astrologie-boris-becker", label:"Astrologie: Boris Becker (SX7w8)"},
         {route:"kriminalpsychologie-aileen-wuornos", label:"Kriminalpsychologie: Aileen Wuornos (SX7w8)"},
+        {route:"kriminalpsychologie-ronnie-biggs", label:"Ronnie Biggs (SX7w8) – Kriminalpsychologie"},
       ])}
     </div>
   `);

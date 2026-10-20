@@ -166,6 +166,8 @@ export function albertEinsteinKrankheitsportraetPage() {
         {route:"krankheitsportraets-leonardo-da-vinci", label:"Illness Portrait: Leonardo da Vinci (SO5w4) – the same pattern of unrestrained creation"},
         {route:"krankheitsportraets-stephen-hawking", label:"Illness Portrait: Stephen Hawking (SO5w6) – the same pattern of unabated work to the end"},
         {route:"krankheitsportraets-hannah-arendt", label:"Illness Portrait: Hannah Arendt (SO5w4) – the same pattern: warning acknowledged, not followed"},
+        {route:"krankheitsportraets-david-hockney", label:"David Hockney (SO5w4) – illness portrait"},
+        {route:"krankheitsportraets-dmitri-schostakowitsch", label:"Dmitri Shostakovich (SO5w4) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so5", label:"Subtype Profile SO5"},
       ])}
@@ -1009,6 +1011,7 @@ export function freudKrankheitsportraetPage() {
         {route:"krankheitsportraets-immanuel-kant", label:"Illness Portrait: Immanuel Kant (SO6w5) – the same pattern of self-control"},
         {route:"krankheitsportraets-moliere", label:"Illness Portrait: Molière (SO7w6)"},
         {route:"krankheitsportraets-woody-allen", label:"Illness Portrait: Woody Allen (SP6w7) – related hypochondria, a different instinct response"},
+        {route:"krankheitsportraets-marie-curie", label:"Marie Curie (SE5w6) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so6", label:"Subtype Profile SO6"},
       ])}
@@ -1358,6 +1361,8 @@ export function hansDietrichGenscherKrankheitsportraetPage() {
         {route:"beruehmte-hans-dietrich-genscher", label:"Portrait: Hans-Dietrich Genscher (SE9w8)"},
         {route:"krankheitsportraets-david-hume", label:"Illness Portrait: David Hume (SE9w8) – same subtype"},
         {route:"krankheitsportraets-johannes-brahms", label:"Illness Portrait: Johannes Brahms (SE9w8) – same subtype"},
+        {route:"krankheitsportraets-charles-laughton", label:"Charles Laughton (SE9w8) – illness portrait"},
+        {route:"krankheitsportraets-margaret-rutherford", label:"Margaret Rutherford (SE9w8) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se9", label:"Subtype Profile SE9"},
       ])}
@@ -1874,6 +1879,11 @@ export function karlLagerfeldKrankheitsportraetPage() {
         {route:"krankheitsportraets-william-james", label:"Illness Portrait: William James (SO3w4) – same subtype"},
         {route:"krankheitsportraets-david-bowie", label:"Illness Portrait: David Bowie (SO1w2) – also secrecy, but artistically encoded rather than denied"},
         {route:"krankheitsportraets-ronald-reagan", label:"Illness Portrait: Ronald Reagan (SO9w8) – counter-model: direct disclosure rather than denial"},
+        {route:"krankheitsportraets-claude-debussy", label:"Claude Debussy (SX4w5) – illness portrait"},
+        {route:"krankheitsportraets-friedrich-schiller", label:"Friedrich Schiller (SX6w5) – illness portrait"},
+        {route:"krankheitsportraets-john-wayne", label:"John Wayne (SX8w7) – illness portrait"},
+        {route:"krankheitsportraets-ludwig-van-beethoven", label:"Ludwig van Beethoven (SX6w5) – illness portrait"},
+        {route:"krankheitsportraets-michael-jackson", label:"Michael Jackson (SO4w3) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so3", label:"Subtype Profile SO3"},
       ])}
@@ -2046,6 +2056,7 @@ export function leonardBernsteinKrankheitsportraetPage() {
         {route:"beruehmte-leonard-bernstein", label:"Portrait: Leonard Bernstein (SX7w6) – life's work"},
         {route:"krankheitsportraets-morgan-freeman", label:"Illness Portrait: Morgan Freeman (SX7w6)"},
         {route:"krankheitsportraets-frans-de-waal", label:"Illness Portrait: Frans de Waal (SX7w6)"},
+        {route:"krankheitsportraets-franz-liszt", label:"Franz Liszt (SX7w8) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx7", label:"Subtype Profile SX7"},
       ])}
@@ -2704,6 +2715,8 @@ export function peterFalkKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1) – life's work"},
+        {route:"krankheitsportraets-eleanor-roosevelt", label:"Eleanor Roosevelt (SO9w1) – illness portrait"},
+        {route:"krankheitsportraets-ramana-maharshi", label:"Ramana Maharshi (SO9w1) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so9", label:"Subtype Profile SO9"},
       ])}
@@ -2887,6 +2900,8 @@ export function ronaldReaganKrankheitsportraetPage() {
         {route:"beruehmte-ronald-reagan", label:"Portrait: Ronald Reagan (SO9w8) – life's work"},
         {route:"beruehmte-wilma-mankiller", label:"Portrait: Wilma Mankiller (SO9w8)"},
         {route:"krankheitsportraets-willy-brandt", label:"Illness Portrait: Willy Brandt (SO9w8) – same subtype"},
+        {route:"krankheitsportraets-david-bowie", label:"David Bowie (SO1w2) – illness portrait"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Karl Lagerfeld (SO3w4) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so9", label:"Subtype Profile SO9"},
       ])}
@@ -4198,6 +4213,7 @@ export function klaraVonAssisiKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-klara-von-assisi", label:"Portrait: Clare of Assisi (SE3w2) – life's work"},
+        {route:"krankheitsportraets-enrico-caruso", label:"Enrico Caruso (SE3w2) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se3", label:"Subtype Profile SE3"},
       ])}

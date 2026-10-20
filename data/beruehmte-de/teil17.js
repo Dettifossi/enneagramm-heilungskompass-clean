@@ -182,6 +182,12 @@ export function baerbelBasPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/se9", label:"SE9 \u2013 Der Elefant: Subtyp-Profil"},
         {route:"kriminalpsychologie-alfons-schuhbeck", label:"Portr\u00e4t: Alfons Schuhbeck (SE9w1)"},
+        {route:"beruehmte-cynthia-moss", label:"Porträt: Dr. Cynthia Moss (SE9w1)"},
+        {route:"beruehmte-hans-dietrich-genscher", label:"Porträt: Hans-Dietrich Genscher (SE9w8)"},
+        {route:"beruehmte-james-levine", label:"Porträt: James Levine (SE9w1)"},
+        {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8)"},
+        {route:"beruehmte-ludwig-erhard", label:"Porträt: Ludwig Erhard (SE9w1)"},
+        {route:"beruehmte-steffi-graf", label:"Porträt: Steffi Graf (SO9w1)"},
       ])}
     </div>
   `);
@@ -266,6 +272,8 @@ export function buddhaPortraitPage() {
         {route:"beruehmte-albert-einstein", label:"Portr\u00e4t: Albert Einstein (SO5w4)"},
         {route:"beruehmte-claudio-naranjo", label:"Portr\u00e4t: Dr. Claudio Naranjo (SO5w4)"},
         {route:"beruehmte-milarepa", label:"Portr\u00e4t: Milarepa (SO5w4)"},
+        {route:"beruehmte-konfuzius", label:"Porträt: Konfuzius (Kong Fuzi) (SO1w2)"},
+        {route:"beruehmte-laozi", label:"Porträt: Laotse (Laozi) (SE9w1)"},
       ])}
     </div>
   `);
@@ -328,6 +336,11 @@ export function christianRaetschPortraitPage() {
         {route:"subtype/se5", label:"SE5 \u2013 Die Eule: Subtyp-Profil"},
         {route:"beruehmte-clemens-arvay", label:"Portr\u00e4t: Clemens G. Arvay (SE4w5)"},
         {route:"beruehmte-xu-bing", label:"Portr\u00e4t: Xu Bing (SE5w4)"},
+        {route:"beruehmte-franz-kafka", label:"Porträt: Franz Kafka (SE5w4)"},
+        {route:"beruehmte-gertrude-elion", label:"Porträt: Gertrude Belle Elion (SO5w4)"},
+        {route:"beruehmte-peter-lustig", label:"Porträt: Peter Lustig (SE5w6)"},
+        {route:"beruehmte-robert-crumb", label:"Porträt: Robert Crumb (SE5w4)"},
+        {route:"beruehmte-taylor-swift", label:"Porträt: Taylor Swift (SX5w4)"},
       ])}
     </div>
   `);
@@ -459,6 +472,7 @@ export function eckhardFreisePortraitPage() {
         {route:"beruehmte-guenther-jauch", label:"Portr\xe4t: G\xfcnther Jauch (SO5w6) – Moderator derselben Sendung"},
         {route:"beruehmte-dirk-rossmann", label:"Portr\xe4t: Dirk Rossmann (SO5w6)"},
         {route:"beruehmte-simone-de-beauvoir", label:"Portr\xe4t: Simone de Beauvoir (SO5w6)"},
+        {route:"beruehmte-anton-zeilinger", label:"Porträt: Anton Zeilinger (SO5w6)"},
       ])}
     </div>
   `);
@@ -523,6 +537,7 @@ export function fransDeWaalPortraitPage() {
         {route:"beruehmte-jill-pruetz", label:"Porträt: Dr. Jill Pruetz (SX7w6)"},
         {route:"beruehmte-christophe-boesch", label:"Porträt: Prof. Dr. Christophe Boesch (SX7w8)"},
         {route:"krankheitsportraets-frans-de-waal", label:"Krankheitsporträt: Frans de Waal (SX7w6) – Magenkrebs, bis zuletzt aktiv"},
+        {route:"beruehmte-michaela-benthaus", label:"Porträt: Michaela Benthaus (SX7w6)"},
       ])}
       ${animalResearcherMatchBlock("beruehmte-frans-de-waal")}
     </div>
@@ -584,6 +599,8 @@ export function gertrudeElionPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so5", label:"SO5 \u2013 Der Oktopus: Subtyp-Profil"},
         {route:"beruehmte-christian-raetsch", label:"Portr\u00e4t: Christian R\u00e4tsch (SE5w4)"},
+        {route:"beruehmte-bill-gates", label:"Porträt: Bill Gates (SO5w6)"},
+        {route:"beruehmte-claudio-naranjo", label:"Porträt: Dr. Claudio Naranjo (SO5w4)"},
       ])}
     </div>
   `);
@@ -642,6 +659,10 @@ export function hazelBruggerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so7", label:"SO7 \u2013 Der Biber: Subtyp-Profil"},
         {route:"beruehmte-elon-musk", label:"Portr\u00e4t: Elon Musk (SO7w6)"},
+        {route:"beruehmte-dieter-nuhr", label:"Porträt: Dieter Nuhr (SO7w8)"},
+        {route:"beruehmte-drew-barrymore", label:"Porträt: Drew Barrymore (SO7w8)"},
+        {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
       ])}
     </div>
   `);
@@ -700,6 +721,7 @@ export function inaMuellerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx7", label:"SX7 \u2013 Der Schimpanse: Subtyp-Profil"},
         {route:"beruehmte-thomas-gottschalk", label:"Portr\u00e4t: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-caroline-peters", label:"Porträt: Caroline Peters (SX7w6)"},
       ])}
     </div>
   `);
@@ -772,6 +794,7 @@ export function jeanneCalmentPortraitPage() {
           {route:"beruehmte-larry-king", label:"Portr\xe4t: Larry King (SE7w6)"},
           {route:"beruehmte-jasmin-paolini", label:"Portr\xe4t: Jasmine Paolini (SE7w6)"},
           {route:"beruehmte-elton-john", label:"Portr\xe4t: Elton John (SE7w6)"},
+          {route:"beruehmte-junko-tabei", label:"Porträt: Junko Tabei (SE7w6)"},
         ])}
       </div>
     </div>
@@ -951,6 +974,7 @@ export function laurenGardnerPortraitPage() {
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
         {route:"lebensmusterkompass/so4", label:"Lebensmusterkompass: SO4 – Gürteltier"},
         {route:"beruehmte-mariella-superina", label:"Porträt: Dr. Mariella Superina (SO4w5)"},
+        {route:"beruehmte-ajeet-kaur", label:"Porträt: Ajeet Kaur (SO4w5)"},
       ])}
     </div>
   `);
@@ -1029,6 +1053,8 @@ export function ludwigVanBeethovenPortraitPage() {
         {route:"beruehmte-alice-schwarzer", label:"Porträt: Alice Schwarzer (SX6w5)"},
         {route:"beruehmte-napoleon-bonaparte", label:"Porträt: Napoleon Bonaparte (SO2w3)"},
         {route:"beruehmte-bella-hadid", label:"Porträt: Bella Hadid (SX6w5)"},
+        {route:"beruehmte-johannes-brahms", label:"Porträt: Johannes Brahms (SE9w8)"},
+        {route:"beruehmte-platon", label:"Porträt: Platon (SX6w5)"},
       ])}
     </div>
   `);
@@ -1161,6 +1187,8 @@ export function mileyCyrusPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/sx7", label:"SX7 \u2013 Der Schimpanse: Subtyp-Profil"},
         {route:"beruehmte-thomas-gottschalk", label:"Portr\u00e4t: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-leonard-bernstein", label:"Porträt: Leonard Bernstein (SX7w6)"},
+        {route:"beruehmte-morgan-freeman", label:"Porträt: Morgan Freeman (SX7w6)"},
       ])}
     </div>
   `);
@@ -1227,6 +1255,8 @@ export function nicolasCagePortraitPage() {
         {route:"beruehmte-adele", label:"Portr\xe4t: Adele (SE4w3)"},
         {route:"beruehmte-lady-diana", label:"Portr\xe4t: Lady Diana (SE4w3)"},
         {route:"beruehmte-sebastian-urzendowsky", label:"Porträt: Sebastian Urzendowsky (SE4w3) – ebenfalls Schauspieler, derselbe Subtyp"},
+        {route:"beruehmte-evan-bates", label:"Porträt: Evan Bates (SE4w3)"},
+        {route:"beruehmte-michael-david-rosenberg", label:"Porträt: Michael David Rosenberg (Passenger) (SE4w3)"},
       ])}
     </div>
   `);
@@ -1359,6 +1389,11 @@ export function ronaldReaganPortraitPage() {
           {route:"beruehmte-kevin-costner", label:"Portr\xe4t: Kevin Costner (SO9w1)"},
           {route:"beruehmte-angela-merkel", label:"Portr\xe4t: Angela Merkel (SE9w8)"},
           {route:"krankheitsportraets-ronald-reagan", label:"Krankheitsporträt: Ronald Reagan (SO9w8)"},
+          {route:"beruehmte-carlo-ancelotti", label:"Porträt: Carlo Ancelotti (SO9w8)"},
+          {route:"beruehmte-juergen-von-der-lippe", label:"Porträt: J\u00fcrgen von der Lippe (SO9w8)"},
+          {route:"beruehmte-sergio-bambaren", label:"Porträt: Sergio Bambar\u00e9n (SO9w8)"},
+          {route:"beruehmte-wayne-dyer", label:"Porträt: Wayne Dyer (SO9w8)"},
+          {route:"beruehmte-wilma-mankiller", label:"Porträt: Wilma Mankiller (SO9w8)"},
         ])}
       </div>
     </div>
@@ -1497,6 +1532,12 @@ export function tilSchweigerPortraitPage() {
         {route:"subtype/so4", label:"SO4 \u2013 Das G\u00fcrteltier: Subtyp-Profil"},
         {route:"beruehmte-taddl", label:"Portr\u00e4t: Taddl (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Portr\u00e4t: Romy Schneider (SO4w3)"},
+        {route:"beruehmte-cat-stevens", label:"Porträt: Cat Stevens / Yusuf Islam (SO4w3)"},
+        {route:"beruehmte-hugh-grant", label:"Porträt: Hugh Grant (SO4w3)"},
+        {route:"beruehmte-johnny-depp", label:"Porträt: Johnny Depp (SO4w3)"},
+        {route:"beruehmte-katja-riemann", label:"Porträt: Katja Riemann (SX6w7)"},
+        {route:"beruehmte-michael-jackson", label:"Porträt: Michael Jackson (SO4w3)"},
+        {route:"beruehmte-moritz-bleibtreu", label:"Porträt: Moritz Bleibtreu (SE7w8)"},
       ])}
     </div>
   `);
@@ -1568,6 +1609,12 @@ export function vincentVanGoghPortraitPage() {
         {route:"beruehmte-loris-assadian", label:"Porträt: Loris Assadian (SE4w5)"},
         {route:"beruehmte-paul-gauguin", label:"Porträt: Paul Gauguin (SX8w7) – der Konflikt in Arles"},
         {route:"krankheitsportraets-vincent-van-gogh", label:"Krankheitsporträt: Vincent van Gogh (SE4w5)"},
+        {route:"beruehmte-charlotte-wells", label:"Porträt: Charlotte Wells (SE4w5)"},
+        {route:"beruehmte-ingmar-bergman", label:"Porträt: Ingmar Bergman (SE4w5)"},
+        {route:"beruehmte-ludwig-goeransson", label:"Porträt: Ludwig Göransson (SE4w5)"},
+        {route:"beruehmte-miguel-de-unamuno", label:"Porträt: Miguel de Unamuno (SE4w5)"},
+        {route:"beruehmte-neil-harbisson", label:"Porträt: Neil Harbisson (SE4w5)"},
+        {route:"beruehmte-vanessa-goecking", label:"Porträt: Vanessa Göcking (SE4w5)"},
       ])}
     </div>
   `);
@@ -1627,6 +1674,7 @@ export function zoeSaldanaPortraitPage() {
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"beruehmte-nina-chuba", label:"Porträt: Nina Chuba (SO2w3)"},
         {route:"beruehmte-will-smith", label:"Porträt: Will Smith (SO2w3)"},
+        {route:"beruehmte-lea-michele", label:"Porträt: Lea Michele (SO2w3)"},
       ])}
     </div>
   `);
@@ -1757,6 +1805,9 @@ export function billyBobThorntonPortraitPage() {
         {route:"beruehmte-ali-wong", label:"Porträt: Ali Wong (SO7w6)"},
         {route:"beruehmte-frank-rosell", label:"Porträt: Prof. Dr. Frank Rosell (SO7w6)"},
         {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2) – langjährige Ehefrau"},
+        {route:"beruehmte-henry-shukman", label:"Porträt: Henry Shukman (SO7w6)"},
+        {route:"beruehmte-jessica-biel", label:"Porträt: Jessica Biel (SO7w6)"},
+        {route:"beruehmte-sigourney-weaver", label:"Porträt: Sigourney Weaver (SO7w6)"},
       ])}
     </div>
   `);
@@ -1823,6 +1874,8 @@ export function emmanuelMacronPortraitPage() {
         {route:"beruehmte-ursula-von-der-leyen", label:"Portr\xe4t: Ursula von der Leyen (SO1w9)"},
         {route:"beruehmte-helmut-schmidt", label:"Portr\xe4t: Helmut Schmidt (SO1w9)"},
         {route:"beruehmte-brigitte-macron", label:"Portr\xe4t: Brigitte Macron (SX3w2) – seine Frau"},
+        {route:"beruehmte-markus-lanz", label:"Porträt: Markus Lanz (SO1w9)"},
+        {route:"beruehmte-roald-amundsen", label:"Porträt: Roald Amundsen (SO1w9)"},
       ])}
     </div>
   `);
@@ -2016,6 +2069,7 @@ export function neilHarbissonPortraitPage() {
           {route:"beruehmte-connie-chiu", label:"Porträt: Connie Chiu (SE4w5) – ebenfalls eine körperliche Besonderheit in eigenständiges Werk verwandelt"},
           {route:"beruehmte-charlotte-wells", label:"Porträt: Charlotte Wells (SE4w5)"},
           {route:"beruehmte-vincent-van-gogh", label:"Porträt: Vincent van Gogh (SE4w5)"},
+          {route:"krankheitsportraets-connie-chiu", label:"Connie Chiu (SE4w5) – Krankheitsporträt"},
         ])}
       </div>
     </div>
@@ -2347,6 +2401,7 @@ export function paulBocusePortraitPage() {
         {route:"beruehmte-michael-mina", label:"Porträt: Michael Mina (SE3w2)"},
         {route:"beruehmte-gordon-ramsay", label:"Porträt: Gordon Ramsay (SX3w4)"},
         {route:"krankheitsportraets-paul-bocuse", label:"Krankheitsporträt: Paul Bocuse (SE3w4) – das verschwiegene Parkinson-Leiden"},
+        {route:"beruehmte-johann-lafer", label:"Porträt: Johann Lafer (SE7w8)"},
       ])}
     </div>
   `);

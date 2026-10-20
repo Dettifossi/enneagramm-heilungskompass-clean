@@ -253,6 +253,8 @@ export function borisBeckerPortraitPage() {
         {route:"kriminalpsychologie-boris-becker", label:"Kriminalfall: Boris Becker (SX7w8)"},
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"beruehmte-serena-williams", label:"Portrait: Serena Williams (SX7w8)"},
+        {route:"beruehmte-shakira", label:"Portrait: Shakira (SX7w8)"},
+        {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SE7w6)"},
       ])}
     </div>
   `);
@@ -320,6 +322,7 @@ export function catStevensPortraitPage() {
         {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
         {route:"beruehmte-alan-watts", label:"Portrait: Alan Watts (SO4w3) – also a radical spiritual reinvention"},
+        {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SO4w3)"},
       ])}
     </div>
   `);
@@ -379,6 +382,9 @@ export function danBrownPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se1", label:"SP1 – The Worried One: Subtype Profile"},
         {route:"beruehmte-christoph-waltz", label:"Christoph Waltz – SP1w2"},
+        {route:"beruehmte-ken-follett", label:"Portrait: Ken Follett (SE1w9)"},
+        {route:"beruehmte-udo-juergens", label:"Portrait: Udo Jürgens (SE1w2)"},
+        {route:"beruehmte-ursula-lyon", label:"Portrait: Ursula Lyon (SE1w2)"},
       ])}
     </div>
   `);
@@ -439,6 +445,14 @@ export function donaldTrumpPortraitPage() {
         {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
         {route:"beruehmte-michelle-obama", label:"Portrait: Michelle Obama (SO8w7)"},
         {route:"beruehmte-markus-soeder", label:"Portrait: Markus Söder (SX8w9) – same core intensity, more balancing wing"},
+        {route:"beruehmte-adele-neuhauser", label:"Portrait: Adele Neuhauser (SX8w7)"},
+        {route:"beruehmte-diogenes", label:"Portrait: Diogenes of Sinope (SX8w7)"},
+        {route:"beruehmte-genesis-p-orridge", label:"Portrait: Genesis P-Orridge (SX8w9)"},
+        {route:"beruehmte-gerhard-schroeder", label:"Portrait: Gerhard Schröder (SX8w7)"},
+        {route:"beruehmte-javier-tebas", label:"Portrait: Javier Tebas (SX8w9)"},
+        {route:"beruehmte-pablo-picasso", label:"Portrait: Pablo Picasso (SX8w7)"},
+        {route:"beruehmte-paul-gauguin", label:"Portrait: Paul Gauguin (SX8w7)"},
+        {route:"beruehmte-ruth-bader-ginsburg", label:"Portrait: Ruth Bader Ginsburg (SX8w9)"},
       ])}
     </div>
   `);
@@ -704,6 +718,7 @@ export function hughGrantPortraitPage() {
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
         {route:"beruehmte-johnny-depp", label:"Portrait: Johnny Depp (SO4w3)"},
         {route:"beruehmte-til-schweiger", label:"Portrait: Til Schweiger (SO4w3)"},
+        {route:"beruehmte-reinhard-mey", label:"Portrait: Reinhard Mey (SO4w3)"},
       ])}
     </div>
   `);
@@ -771,6 +786,11 @@ export function jamieleecurtisPortraitPage() {
         {route:"beruehmte-leonardo-dicaprio", label:"Portrait: Leonardo DiCaprio (SX1w2)"},
         {route:"beruehmte-christoph-waltz", label:"Portrait: Christoph Waltz (SE1w2)"},
         {route:"krankheitsportraets-jamie-lee-curtis", label:"Illness Portrait: Jamie Lee Curtis (SX1w2) – opioid dependency"},
+        {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
+        {route:"beruehmte-marie-agnes-strack-zimmermann", label:"Portrait: Marie-Agnes Strack-Zimmermann (SX1w9)"},
+        {route:"beruehmte-martin-luther", label:"Portrait: Martin Luther (SX1w2)"},
+        {route:"beruehmte-rasputin", label:"Portrait: Grigori Rasputin (SX1w9)"},
+        {route:"beruehmte-robbie-williams", label:"Portrait: Robbie Williams (SX1w2)"},
       ])}
     </div>
   `);
@@ -913,6 +933,7 @@ export function kamalaHarrisPortraitPage() {
         {route:"beruehmte-mira-murati", label:"Portrait: Mira Murati (SO2w3)"},
         {route:"beruehmte-truman-capote", label:"Portrait: Truman Capote (SO2w3)"},
         {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
+        {route:"beruehmte-benjamin-disraeli", label:"Portrait: Benjamin Disraeli (SO2w3)"},
       ])}
     </div>
   `);
@@ -981,6 +1002,10 @@ export function krisMarshallPortraitPage() {
         {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1) – the same quiet presence"},
         {route:"beruehmte-craig-foster", label:"Portrait: Craig Foster (SX9w1)"},
         {route:"beruehmte-mads-mikkelsen", label:"Portrait: Mads Mikkelsen (SX9w1)"},
+        {route:"beruehmte-dakota-johnson", label:"Portrait: Dakota Johnson (SX9w8)"},
+        {route:"beruehmte-elizabeth-barrett-browning", label:"Portrait: Elizabeth Barrett Browning (SX9w8)"},
+        {route:"beruehmte-heike-makatsch", label:"Portrait: Heike Makatsch (SX9w8)"},
+        {route:"beruehmte-lucy-cooke", label:"Portrait: Lucy Cooke (SX9w8)"},
         ])}
       </div>
     </div>
@@ -1108,6 +1133,10 @@ export function marieAgnesStrackZimmermannPortraitPage() {
         {route:"subtype/sx1", label:"SX1 – The Black Mamba: Subtype Profile"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
         {route:"beruehmte-jamie-lee-curtis", label:"Portrait: Jamie Lee Curtis (SX1w2)"},
+        {route:"beruehmte-gunther-von-hagens", label:"Portrait: Gunther von Hagens (SX1w9)"},
+        {route:"beruehmte-klaus-kinski", label:"Portrait: Klaus Kinski (SX1w9)"},
+        {route:"beruehmte-michel-foucault", label:"Portrait: Michel Foucault (SX1w9)"},
+        {route:"beruehmte-rasputin", label:"Portrait: Grigori Rasputin (SX1w9)"},
       ])}
     </div>
   `);
@@ -1182,6 +1211,7 @@ export function michaelJacksonPortraitPage() {
         {route:"beruehmte-fabian-kahl", label:"Portrait: Fabian Kahl (SO4w3)"},
         {route:"beruehmte-eddie-redmayne", label:"Portrait: Eddie Redmayne (SO4w3)"},
         {route:"beruehmte-prince-rogers-nelson", label:"Portrait: Prince Rogers Nelson (SX4w3) – the legendary 1980s rivalry"},
+        {route:"beruehmte-mariella-superina", label:"Portrait: Dr. Mariella Superina (SO4w5)"},
         ])}
       </div>
     </div>
@@ -1252,6 +1282,7 @@ export function napoleonBonapartePortraitPage() {
         {route:"beruehmte-julius-caesar", label:"Portrait: Julius Caesar (SO2w3)"},
         {route:"beruehmte-will-smith", label:"Portrait: Will Smith (SO2w3)"},
         {route:"beruehmte-ludwig-van-beethoven", label:"Portrait: Ludwig van Beethoven (SX6w5) &ndash; to whom he was originally meant to dedicate the Eroica"},
+        {route:"beruehmte-alexander-der-grosse", label:"Portrait: Alexander the Great (SO2w3)"},
       ])}
     </div>
   `);
@@ -1408,6 +1439,7 @@ export function rihannaPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-freddie-mercury", label:"Portrait: Freddie Mercury (SX4w3)"},
         {route:"beruehmte-billie-eilish", label:"Portrait: Billie Eilish (SX4w3)"},
+        {route:"beruehmte-paris-hilton", label:"Portrait: Paris Hilton (SX4w3)"},
       ])}
     </div>
   `);
@@ -1542,6 +1574,8 @@ export function teresaVonAvilaPortraitPage() {
         {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
         {route:"beruehmte-gottfried-wilhelm-leibniz", label:"Portrait: Gottfried Wilhelm Leibniz (SO3w4)"},
         {route:"krankheitsportraets-teresa-von-avila", label:"Illness Portrait: Teresa of Ávila – Apparent Death & Paralysis"},
+        {route:"beruehmte-william-james", label:"Portrait: William James (SO3w4)"},
+        {route:"krankheitsportraets-karl-lagerfeld", label:"Karl Lagerfeld (SO3w4) – illness portrait"},
       ])}
     </div>
   `);
@@ -1609,6 +1643,11 @@ export function uliHoenessPortraitPage() {
         {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-jan-ullrich", label:"Portrait: Jan Ullrich (SE2w3)"},
         {route:"beruehmte-gloria-von-thurn-und-taxis", label:"Portrait: Gloria von Thurn und Taxis (SE2w1)"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
+        {route:"beruehmte-fiona-harvey", label:"Portrait: Fiona Harvey (SE2w3)"},
+        {route:"beruehmte-nero", label:"Portrait: Nero (SE2w3)"},
+        {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SE2w3)"},
+        {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3)"},
       ])}
     </div>
   `);
@@ -1682,6 +1721,8 @@ export function wolfgangAmadeusMozartPortraitPage() {
         {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
         {route:"beruehmte-yayoi-kusama", label:"Portrait: Yayoi Kusama (SP2w3)"},
         {route:"beruehmte-nero", label:"Portrait: Nero (SP2w3) – emperor and stage performer"},
+        {route:"beruehmte-ai-weiwei", label:"Portrait: Ai Weiwei (SE2w3)"},
+        {route:"krankheitsportraets-frida-kahlo", label:"Frida Kahlo (SE2w3) – illness portrait"},
       ])}
     </div>
   `);
@@ -1820,6 +1861,10 @@ export function helmutSchmidtPortraitPage() {
         {route:"beruehmte-emmanuel-macron", label:"Portrait: Emmanuel Macron (SO1w9)"},
         {route:"beruehmte-peter-sage", label:"Portrait: Peter Sage (SO1w9)"},
         {route:"beruehmte-marcel-reich-ranicki", label:"Portrait: Marcel Reich-Ranicki (SO1w9)"},
+        {route:"beruehmte-cornelia-funke", label:"Portrait: Cornelia Funke (SO1w9)"},
+        {route:"beruehmte-oliver-pocher", label:"Portrait: Oliver Pocher (SO1w9)"},
+        {route:"beruehmte-thomas-mann", label:"Portrait: Thomas Mann (SO1w9)"},
+        {route:"beruehmte-wolfgang-wodarg", label:"Portrait: Dr. Wolfgang Wodarg (SO1w9)"},
       ])}
     </div>
   `);
@@ -1958,6 +2003,8 @@ export function jonBonJoviPortraitPage() {
         {route:"beruehmte-helge-schneider", label:"Portrait: Helge Schneider (SX9w1)"},
         {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
         {route:"beruehmte-david-guetta", label:"Portrait: David Guetta (SX9w1) – also a musician with a long-running institution of his own"},
+        {route:"beruehmte-adam-sandler", label:"Portrait: Adam Sandler (SX9w1)"},
+        {route:"beruehmte-juergen-drews", label:"Portrait: Jürgen Drews (SX9w8)"},
         ])}
       </div>
     </div>
@@ -2023,6 +2070,7 @@ export function barneyFishwickPortraitPage() {
         {route:"beruehmte-sally-rooney", label:"Portrait: Sally Rooney (SE4w5)"},
         {route:"beruehmte-michael-david-rosenberg", label:"Portrait: Michael David Rosenberg / Passenger (SE4w3)"},
         {route:"beruehmte-neil-harbisson", label:"Portrait: Neil Harbisson (SE4w5) – also years of precise technical work, same subtype"},
+        {route:"beruehmte-connie-chiu", label:"Portrait: Connie Chiu (SE4w5)"},
         ])}
       </div>
     </div>
@@ -2090,6 +2138,7 @@ export function brianFennellPortraitPage() {
         {route:"beruehmte-michael-david-rosenberg", label:"Portrait: Michael David Rosenberg (Passenger) (SE4w3) – also a musician, same subtype"},
         {route:"beruehmte-adele", label:"Portrait: Adele (SE4w3)"},
         {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SE4w3)"},
+        {route:"beruehmte-yannick-van-de-velde", label:"Portrait: Yannick van de Velde (SE4w3)"},
       ])}
     </div>
   `);
@@ -2154,6 +2203,7 @@ export function dustinHoffmanPortraitPage() {
         {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
         {route:"beruehmte-peter-maffay", label:"Portrait: Peter Maffay (SX9w1)"},
         {route:"beruehmte-stefan-homburg", label:"Portrait: Stefan Homburg (SX9w1)"},
+        {route:"beruehmte-bruce-springsteen", label:"Portrait: Bruce Springsteen (SX9w1)"},
       ])}
     </div>
   `);
@@ -2280,6 +2330,7 @@ export function corneliaFunkePortraitPage() {
         {route:"beruehmte-helmut-schmidt", label:"Portrait: Helmut Schmidt (SO1w9)"},
         {route:"beruehmte-roald-amundsen", label:"Portrait: Roald Amundsen (SO1w9)"},
         {route:"krankheitsportraets-adam-smith", label:"Illness Portrait: Adam Smith (SO1w9)"},
+        {route:"beruehmte-oliver-pocher", label:"Portrait: Oliver Pocher (SO1w9)"},
       ])}
     </div>
   `);
@@ -2482,6 +2533,9 @@ export function carlXVIGustafPortraitPage() {
         {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SE1w9) – Norwegian monarch"},
         {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II (SE1w9)"},
         {route:"beruehmte-tim-cook", label:"Portrait: Tim Cook (SE1w9)"},
+        {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SE1w9)"},
+        {route:"beruehmte-mette-marit", label:"Portrait: Mette-Marit (SE4w3)"},
+        {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9)"},
       ])}
     </div>
   `);

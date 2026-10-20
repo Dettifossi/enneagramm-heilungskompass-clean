@@ -2166,6 +2166,9 @@ export function ludwigVanBeethovenKrankheitsportraetPage() {
         {route:"krankheitsportraets-friedrich-schiller", label:"Krankheitsporträt: Friedrich Schiller (SX6w5) – derselbe Subtyp, dieselbe Konfrontationshaltung"},
         {route:"krankheitsportraets-franz-schubert", label:"Krankheitsporträt: Franz Schubert (SE6w5) – Gegenmodell: Rückzug statt Konfrontation"},
         {route:"krankheitsportraets-karl-lagerfeld", label:"Krankheitsporträt: Karl Lagerfeld (SO3w4) – Gegenmodell: Verbergen statt Konfrontation"},
+        {route:"krankheitsportraets-frederic-chopin", label:"Frédéric Chopin (SX5w4) – Krankheitsporträt"},
+        {route:"krankheitsportraets-julius-caesar", label:"Julius Caesar (SO2w3) – Krankheitsporträt"},
+        {route:"krankheitsportraets-michael-jackson", label:"Michael Jackson (SO4w3) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/sx6", label:"Subtyp-Profil SX6"},
       ])}
@@ -2535,6 +2538,7 @@ export function muhammadAliKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-muhammad-ali", label:"Porträt: Muhammad Ali (SO2w1) – Lebenswerk"},
         {route:"krankheitsportraets-bob-marley", label:"Krankheitsporträt: Bob Marley (SO2w1) – gleicher Subtyp"},
+        {route:"krankheitsportraets-julius-caesar", label:"Julius Caesar (SO2w3) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so2", label:"Subtyp-Profil SO2"},
       ])}
@@ -3054,6 +3058,7 @@ export function sadhguruKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
         {route:"krankheitsportraets-joseph-haydn", label:"Krankheitsporträt: Joseph Haydn (SE3w2)"},
+        {route:"krankheitsportraets-enrico-caruso", label:"Enrico Caruso (SE3w2) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se3", label:"Subtyp-Profil SE3"},
       ])}
@@ -3415,6 +3420,7 @@ export function wilmaMankillerKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-wilma-mankiller", label:"Porträt: Wilma Mankiller (SO9w8) – Lebenswerk"},
         {route:"krankheitsportraets-willy-brandt", label:"Krankheitsporträt: Willy Brandt (SO9w8) – gleicher Subtyp"},
+        {route:"krankheitsportraets-eleanor-roosevelt", label:"Eleanor Roosevelt (SO9w1) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so9", label:"Subtyp-Profil SO9"},
       ])}
@@ -3991,6 +3997,7 @@ export function edvardMunchKrankheitsportraetPage() {
         {route:"krankheitsportraets-heinrich-heine", label:"Krankheitsporträt: Heinrich Heine (SO4w3) – dieselbe Bewältigungsstrategie, anderer Flügel"},
         {route:"krankheitsportraets-marcel-proust", label:"Krankheitsporträt: Marcel Proust (SO4w5) – lebenslanges Asthma"},
         {route:"krankheitsportraets-fiona-apple", label:"Krankheitsporträt: Fiona Apple (SO4w5) – gleicher Subtyp"},
+        {route:"krankheitsportraets-william-james-sidis", label:"William James Sidis (SO4w5) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/so4", label:"Subtyp-Profil SO4"},
       ])}

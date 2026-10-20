@@ -61,6 +61,8 @@ export function adamSmithPortraitPage() {
         {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
         {route:"beruehmte-david-hume", label:"Portrait: David Hume (SE9w8) – his close friend"},
         {route:"krankheitsportraets-adam-smith", label:"Illness Portrait: Adam Smith (SO1w9)"},
+        {route:"beruehmte-samuel-hahnemann", label:"Portrait: Dr. Samuel Hahnemann (SO1w9)"},
+        {route:"beruehmte-xanthippe", label:"Portrait: Xanthippe (SO1w9)"},
       ])}
     </div>
   `);
@@ -252,6 +254,8 @@ export function carlFriedrichGaussPortraitPage() {
         {route:"beruehmte-archimedes", label:"Portrait: Archimedes (SX5w4)"},
         {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
         {route:"beruehmte-stanley-mandelstam", label:"Portrait: Stanley Mandelstam (SE5w6) – same subtype"},
+        {route:"beruehmte-harald-lesch", label:"Portrait: Harald Lesch (SE5w6)"},
+        {route:"beruehmte-ingo-zimmermann", label:"Portrait: Prof. Dr. Ingo Zimmermann (SE5w4)"},
       ])}
     </div>
   `);
@@ -321,6 +325,8 @@ export function claudioNaranjoPortraitPage() {
         {route:"beruehmte-hannah-arendt", label:"Portrait: Hannah Arendt (SO5w4)"},
         {route:"beruehmte-buddha", label:"Portrait: Siddhartha Gautama (Buddha) (SO5w4)"},
         {route:"krankheitsportraets-claudio-naranjo", label:"Illness Portrait: Dr. Claudio Naranjo – Parkinson's"},
+        {route:"beruehmte-david-hockney", label:"Portrait: David Hockney (SO5w4)"},
+        {route:"beruehmte-leonardo-da-vinci", label:"Portrait: Leonardo da Vinci (SO5w4)"},
       ])}
     </div>
   `);
@@ -387,6 +393,7 @@ export function diegoVelazquezPortraitPage() {
         {route:"beruehmte-hundertwasser", label:"Portrait: Friedensreich Hundertwasser (SX9w8)"},
         {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
         {route:"krankheitsportraets-diego-velazquez", label:"Illness Portrait: Diego Velázquez (SX9w1)"},
+        {route:"beruehmte-sophie-marceau", label:"Portrait: Sophie Marceau (SX9w1)"},
       ])}
     </div>
   `);
@@ -594,6 +601,10 @@ export function gloriaVonThurnUndTaxisPortraitPage() {
         {route:"subtype/se2", label:"SE2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-greta-thunberg", label:"Portrait: Greta Thunberg (SE2w1)"},
         {route:"beruehmte-jan-ullrich", label:"Portrait: Jan Ullrich (SE2w3)"},
+        {route:"beruehmte-jack-black", label:"Portrait: Jack Black (SE2w1)"},
+        {route:"beruehmte-joachim-llambi", label:"Portrait: Joachim Llambi (SE2w1)"},
+        {route:"beruehmte-sucharit-bhakdi", label:"Portrait: Prof. Dr. Sucharit Bhakdi (SO2w1)"},
+        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3)"},
       ])}
     </div>
   `);
@@ -660,6 +671,11 @@ export function helmutKohlPortraitPage() {
         {route:"beruehmte-winston-churchill", label:"Portrait: Winston Churchill (SE8w9) – also a statesman, same subtype"},
         {route:"beruehmte-golda-meir", label:"Portrait: Golda Meir (SE8w9)"},
         {route:"krankheitsportraets-helmut-kohl", label:"Illness Portrait: Helmut Kohl (SE8w9) – fall, wheelchair, and loss of speech"},
+        {route:"beruehmte-boris-grundl", label:"Portrait: Boris Grundl (SE8w9)"},
+        {route:"beruehmte-ellen-moons", label:"Portrait: Ellen Moons (SE8w9)"},
+        {route:"beruehmte-galarrwuy-yunupingu", label:"Portrait: Galarrwuy Yunupingu (SE8w9)"},
+        {route:"beruehmte-konrad-adenauer", label:"Portrait: Konrad Adenauer (SE1w9)"},
+        {route:"beruehmte-ryke-geerd-hamer", label:"Portrait: Ryke Geerd Hamer (SE8w9)"},
       ])}
     </div>
   `);
@@ -732,6 +748,11 @@ export function isaacNewtonPortraitPage() {
         {route:"beruehmte-stephen-hawking", label:"Portrait: Stephen Hawking (SO5w6) – same chair"},
         {route:"beruehmte-archimedes", label:"Portrait: Archimedes (SX5w4)"},
         {route:"beruehmte-carl-friedrich-gauss", label:"Portrait: Carl Friedrich Gauss (SE5w6)"},
+        {route:"beruehmte-cg-jung", label:"Portrait: Carl Gustav Jung (SO5w6)"},
+        {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portrait: Georg Wilhelm Friedrich Hegel (SO5w6)"},
+        {route:"beruehmte-henri-poincare", label:"Portrait: Henri Poincaré (SO5w6)"},
+        {route:"beruehmte-johannes-gutenberg", label:"Portrait: Johannes Gutenberg (SE1w9)"},
+        {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SE5w6)"},
       ])}
     </div>
   `);
@@ -856,6 +877,11 @@ export function juditPolgarPortraitPage() {
         {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SE1w9) – a world champion she defeated"},
         {route:"beruehmte-susan-polgar", label:"Portrait: Susan Polgár (SE3w2) – sister, same subtype with a different wing"},
         {route:"beruehmte-sofia-polgar", label:"Portrait: Sofia Polgár (SE7w6) – middle sister, different subtype"},
+        {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SE3w4)"},
+        {route:"beruehmte-annika-von-mutius", label:"Portrait: Dr. Annika von Mutius (SE3w4)"},
+        {route:"beruehmte-bryn-kenney", label:"Portrait: Bryn Kenney (SE3w4)"},
+        {route:"beruehmte-changpeng-zhao", label:"Portrait: Changpeng Zhao (SE3w4)"},
+        {route:"beruehmte-rosa-parks", label:"Portrait: Rosa Parks (SE3w4)"},
       ])}
     </div>
   `);
@@ -1114,6 +1140,7 @@ export function marquisDeSadePortraitPage() {
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5)"},
         {route:"beruehmte-ana-de-armas", label:"Portrait: Ana de Armas (SX4w5)"},
+        {route:"beruehmte-camille-claudel", label:"Portrait: Camille Claudel (SX4w5)"},
       ])}
     </div>
   `);
@@ -1173,6 +1200,8 @@ export function monicaSimpsonPortraitPage() {
         {route:"subtype/se2", label:"SP2 – The Hippopotamus: Subtype Profile"},
         {route:"beruehmte-mickey-rourke", label:"Portrait: Mickey Rourke (SP2w3)"},
         {route:"beruehmte-ice-cube", label:"Portrait: Ice Cube (SP2w3)"},
+        {route:"beruehmte-nate-dogg", label:"Portrait: Nate Dogg (SE2w3)"},
+        {route:"beruehmte-tracie-d-hall", label:"Portrait: Tracie D. Hall (SE2w3)"},
       ])}
     </div>
   `);
@@ -1235,6 +1264,10 @@ export function nusratFatehAliKhanPortraitPage() {
         {route:"beruehmte-carlos-santana", label:"Portrait: Carlos Santana (SP2w3)"},
         {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SP2w3)"},
         {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SP2w3)"},
+        {route:"beruehmte-fiona-harvey", label:"Portrait: Fiona Harvey (SE2w3)"},
+        {route:"beruehmte-sathya-sai-baba", label:"Portrait: Sathya Sai Baba (SE2w3)"},
+        {route:"beruehmte-tutty-tran", label:"Portrait: Tutty Tran (SE2w3)"},
+        {route:"krankheitsportraets-frida-kahlo", label:"Frida Kahlo (SE2w3) – illness portrait"},
       ])}
     </div>
   `);
@@ -1302,6 +1335,10 @@ export function pythagorasPortraitPage() {
         {route:"beruehmte-guenther-jauch", label:"Portrait: Günther Jauch (SO5w6)"},
         {route:"beruehmte-heraklit", label:"Portrait: Heraclitus (SO4w5) – who sharply criticized him in his fragments"},
         {route:"beruehmte-isaac-newton", label:"Portrait: Isaac Newton (SO5w6)"},
+        {route:"beruehmte-georg-wilhelm-friedrich-hegel", label:"Portrait: Georg Wilhelm Friedrich Hegel (SO5w6)"},
+        {route:"beruehmte-jennifer-mather", label:"Portrait: Jennifer Mather (SO5w6)"},
+        {route:"beruehmte-platon", label:"Portrait: Plato (SX6w5)"},
+        {route:"beruehmte-sokrates", label:"Portrait: Socrates (SO8w7)"},
       ])}
     </div>
   `);
@@ -1366,6 +1403,13 @@ export function sadhguruPortraitPage() {
         {route:"krankheitsportraets-sadhguru", label:"Illness Portrait: Sadhguru (SE3w2) – chronic subdural hematoma"},
         {route:"beruehmte-susan-link", label:"Portrait: Susan Link (SE3w2)"},
         {route:"beruehmte-vincenzo-califano", label:"Portrait: Vincenzo Califano (SE3w2) – spiritual teacher, same combination at a smaller scale"},
+        {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SE3w4)"},
+        {route:"beruehmte-enrico-caruso", label:"Portrait: Enrico Caruso (SE3w2)"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SE3w4)"},
+        {route:"beruehmte-lang-lang", label:"Portrait: Lang Lang (SE3w2)"},
+        {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SE3w4)"},
+        {route:"beruehmte-penelope-cruz", label:"Portrait: Penélope Cruz (SE3w2)"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Portrait: Wolodymyr Selenskyj (SE3w2)"},
       ])}
     </div>
   `);
@@ -1429,6 +1473,11 @@ export function stingPortraitPage() {
         {route:"beruehmte-magnus-carlsen", label:"Portrait: Magnus Carlsen (SP1w9)"},
         {route:"beruehmte-ludwig-wittgenstein", label:"Portrait: Ludwig Wittgenstein (SE1w9)"},
         {route:"beruehmte-herman-van-veen", label:"Portrait: Herman van Veen (SP1w9)"},
+        {route:"beruehmte-aristoteles", label:"Portrait: Aristotle (SE1w9)"},
+        {route:"beruehmte-harald-v", label:"Portrait: King Harald V (SE1w9)"},
+        {route:"beruehmte-phil-collins", label:"Portrait: Phil Collins (SE1w9)"},
+        {route:"beruehmte-queen-elizabeth-ii", label:"Portrait: Queen Elizabeth II. (SE1w9)"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SE1w9)"},
       ])}
     </div>
   `);
@@ -1566,6 +1615,7 @@ export function warrenBuffettPortraitPage() {
         {route:"beruehmte-vera-birkenbihl", label:"Portrait: Vera Birkenbihl (SE5w6)"},
         {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SE5w6)"},
         {route:"krankheitsportraets-warren-buffett", label:"Illness Portrait: Warren Buffett (SE5w6) – the 2012 prostate cancer diagnosis"},
+        {route:"beruehmte-stanley-mandelstam", label:"Portrait: Stanley Mandelstam (SE5w6)"},
         {route:"bibel-nikodemus", label:"Bible Portrait: Nicodemus (SE5w6)"},
       ])}
     </div>
@@ -1965,6 +2015,7 @@ export function sebastianUrzendowskyPortraitPage() {
           {route:"beruehmte-lena-urzendowsky", label:"Portrait: Lena Urzendowsky (SE2w1) – his sister"},
           {route:"beruehmte-nicolas-cage", label:"Portrait: Nicolas Cage (SE4w3) – also an actor, same subtype"},
           {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SE4w3)"},
+          {route:"beruehmte-evan-bates", label:"Portrait: Evan Bates (SE4w3)"},
         ])}
       </div>
     </div>
@@ -2098,6 +2149,8 @@ export function steveJobsPortraitPage() {
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2)"},
         {route:"krankheitsportraets-steve-jobs", label:"Illness Portrait: Steve Jobs (SO1w2)"},
+        {route:"beruehmte-hillary-clinton", label:"Portrait: Hillary Clinton (SO1w2)"},
+        {route:"beruehmte-nicole-kidman", label:"Portrait: Nicole Kidman (SO1w2)"},
       ])}
     </div>
   `);

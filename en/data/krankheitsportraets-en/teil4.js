@@ -682,6 +682,7 @@ export function claudeDebussyKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5) – life's work"},
         {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4) – counter-model: concealment instead of performing"},
+        {route:"beruehmte-camille-claudel", label:"Portrait: Camille Claudel (SX4w5)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx4", label:"Subtype Profile SX4"},
       ])}
@@ -2224,6 +2225,8 @@ export function leonardoDaVinciKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-leonardo-da-vinci", label:"Portrait: Leonardo da Vinci (SO5w4) – universal genius"},
         {route:"krankheitsportraets-albert-einstein", label:"Illness Portrait: Albert Einstein (SO5w4) – the same pattern of unrestrained creation"},
+        {route:"krankheitsportraets-david-hockney", label:"David Hockney (SO5w4) – illness portrait"},
+        {route:"krankheitsportraets-dmitri-schostakowitsch", label:"Dmitri Shostakovich (SO5w4) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so5", label:"Subtype Profile SO5"},
       ])}
@@ -2413,6 +2416,7 @@ export function marieCurieKrankheitsportraetPage() {
         {route:"krankheitsportraets-charles-darwin", label:"Illness Portrait: Charles Darwin (SE5w6)"},
         {route:"krankheitsportraets-sigmund-freud", label:"Illness Portrait: Sigmund Freud (SO6w5)"},
         {route:"krankheitsportraets-spinoza", label:"Illness Portrait: Baruch de Spinoza (SP5w6) – fatal consequence of his own craft"},
+        {route:"krankheitsportraets-warren-buffett", label:"Warren Buffett (SE5w6) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se5", label:"Subtype Profile SE5"},
       ])}
@@ -4752,6 +4756,8 @@ export function brianWilsonKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"krankheitsportraets-david-bowie", label:"Illness Portrait: David Bowie (SO1w2) – counter-model: keeping control instead of losing it"},
+        {route:"beruehmte-brian-wilson", label:"Portrait: Brian Wilson (SO1w2)"},
+        {route:"krankheitsportraets-niki-lauda", label:"Niki Lauda (SO1w2) – illness portrait"},
         {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
         {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
         {route:"psychosomatik", label:"Psychosomatics Register"},

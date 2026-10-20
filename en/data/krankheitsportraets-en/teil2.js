@@ -338,6 +338,8 @@ export function astridLindgrenKrankheitsportraetPage() {
         {route:"beruehmte-astrid-lindgren", label:"Portrait: Astrid Lindgren (SE1w9)"},
         {route:"krankheitsportraets-konrad-adenauer", label:"Illness Portrait: Konrad Adenauer (SE1w9) – same subtype"},
         {route:"krankheitsportraets-robert-de-niro", label:"Illness Portrait: Robert De Niro (SE1w9) – same subtype"},
+        {route:"krankheitsportraets-johannes-paul-ii", label:"John Paul II (SE1w9) – illness portrait"},
+        {route:"krankheitsportraets-phil-collins", label:"Phil Collins (SE1w9) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se1", label:"Subtype Profile SE1"},
       ])}
@@ -866,6 +868,7 @@ export function francisBaconKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-francis-bacon", label:"Portrait: Francis Bacon (SP7w8) – life's work"},
         {route:"krankheitsportraets-christoph-kolumbus", label:"Illness Portrait: Christopher Columbus (SP7w8)"},
+        {route:"krankheitsportraets-mariah-carey", label:"Mariah Carey (SE7w8) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se7", label:"Subtype Profile SE7"},
       ])}
@@ -2076,6 +2079,8 @@ export function larryKingKrankheitsportraetPage() {
       ${relatedLinks([
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-larry-king", label:"Portrait: Larry King (SE7w6) – life's work"},
+        {route:"krankheitsportraets-elton-john", label:"Elton John (SE7w6) – illness portrait"},
+        {route:"krankheitsportraets-junko-tabei", label:"Junko Tabei (SE7w6) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se7", label:"Subtype Profile SE7"},
       ])}
@@ -2261,6 +2266,7 @@ export function marcelProustKrankheitsportraetPage() {
         {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5) – life's work"},
         {route:"krankheitsportraets-gustav-mahler", label:"Illness Portrait: Gustav Mahler (SO4w5) – the same race against time"},
         {route:"krankheitsportraets-edvard-munch", label:"Illness Portrait: Edvard Munch (SO4w5)"},
+        {route:"krankheitsportraets-william-james-sidis", label:"William James Sidis (SO4w5) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so4", label:"Subtype Profile SO4"},
       ])}
@@ -2989,6 +2995,7 @@ export function romySchneiderKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3) – life's work"},
         {route:"krankheitsportraets-michael-jackson", label:"Illness Portrait: Michael Jackson (SO4w3)"},
+        {route:"krankheitsportraets-heinrich-heine", label:"Heinrich Heine (SO4w3) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so4", label:"Subtype Profile SO4"},
       ])}
@@ -3506,6 +3513,7 @@ export function woodyAllenKrankheitsportraetPage() {
         {route:"krankheitsportraets-immanuel-kant", label:"Illness Portrait: Immanuel Kant (SO6w5) – related hypochondria, a different instinct response"},
         {route:"krankheitsportraets-sigmund-freud", label:"Illness Portrait: Sigmund Freud (SO6w5)"},
         {route:"krankheitsportraets-neil-armstrong", label:"Illness Portrait: Neil Armstrong (SP6w5) – same core type, opposite wing"},
+        {route:"beruehmte-katie-couric", label:"Portrait: Katie Couric (SE6w7)"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/se6", label:"Subtype Profile SP6"},
       ])}
@@ -4233,6 +4241,7 @@ export function steveJobsKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-steve-jobs", label:"Portrait: Steve Jobs (SO1w2) – life's work"},
         {route:"krankheitsportraets-david-bowie", label:"Illness Portrait: David Bowie (SO1w2)"},
+        {route:"krankheitsportraets-niki-lauda", label:"Niki Lauda (SO1w2) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so1", label:"Subtype Profile SO1"},
       ])}

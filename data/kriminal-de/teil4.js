@@ -580,6 +580,12 @@ export function alexMurdaughPortraitPage() {
         {route:"kriminalpsychologie-dennis-rader", label:"Kriminalpsychologie: Dennis Rader (SE1w9)"},
         {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy (SO1w9)"},
         {route:"kriminalpsychologie-otto-muehl", label:"Kriminalpsychologie: Otto Mühl (SX1w2)"},
+        {route:"kriminalpsychologie-bryan-kohberger", label:"Bryan Kohberger (SX1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-chris-watts", label:"Chris Watts (SO7w6) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-fritz-haarmann", label:"Fritz Haarmann (SX1w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-gary-ridgway", label:"Gary Ridgway (SX1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-josef-fritzl", label:"Josef Fritzl (SX1w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-wade-wilson", label:"Wade Wilson (SO3w4) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -846,6 +852,10 @@ export function andreiTschikatiloPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-arno-funke", label:"Kriminalpsychologie: Arno Funke"},
         {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy"},
+        {route:"kriminalpsychologie-dennis-rader", label:"Dennis Rader (SE1w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-michail-popkow", label:"Michail Popkow (SE1w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-pedro-alonso-lopez", label:"Pedro Alonso L\u00f3pez (SO3w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-peter-sutcliffe", label:"Peter Sutcliffe (SE2w1) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
       ])}
     </div>
@@ -1051,6 +1061,9 @@ export function arminMeiwesPortraitPage() {
         {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik (SX6w5)"},
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer (SX5w4)"},
         {route:"kriminalpsychologie-joel-rifkin", label:"Kriminalpsychologie: Joel Rifkin (SX5w6)"},
+        {route:"kriminalpsychologie-charles-manson", label:"Charles Manson (SX6w7) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-leslie-van-houten", label:"Leslie Van Houten (SO9w1) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-ted-bundy", label:"Ted Bundy (SO1w9) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -1131,6 +1144,8 @@ export function bonnieParkerPortraitPage() {
           {route:"kriminalpsychologie-clyde-barrow", label:"Kriminalpsychologie: Clyde Barrow (SX7w8) – ihr Partner"},
           {route:"kriminalpsychologie-adolf-hitler", label:"Kriminalpsychologie: Adolf Hitler (SX4w3)"},
           {route:"kriminalpsychologie-charles-starkweather", label:"Kriminalpsychologie: Charles Starkweather (SX4w3)"},
+          {route:"beruehmte-prince-rogers-nelson", label:"Porträt: Prince Rogers Nelson (SX4w3)"},
+          {route:"kriminalpsychologie-elizabeth-bathory", label:"Elizabeth B\u00e1thory (SX4w3) – Kriminalpsychologie"},
         ])}
       </div>
     </div>
@@ -1680,6 +1695,15 @@ export function dennisRaderPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-andrei-tschikatilo", label:"Kriminalpsychologie: Andrei Tschikatilo"},
         {route:"kriminalpsychologie-arno-funke", label:"Kriminalpsychologie: Arno Funke"},
+        {route:"kriminalpsychologie-alex-murdaugh", label:"Alex Murdaugh (SX1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-beate-zschaepe", label:"Beate Zsch\u00e4pe (SE1w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-fritz-haarmann", label:"Fritz Haarmann (SX1w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-gary-ridgway", label:"Gary Ridgway (SX1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-josef-fritzl", label:"Josef Fritzl (SX1w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-michail-popkow", label:"Michail Popkow (SE1w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-peter-sutcliffe", label:"Peter Sutcliffe (SE2w1) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-rex-heuermann", label:"Rex Heuermann (SE8w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-ted-bundy", label:"Ted Bundy (SO1w9) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\u00e4t der 9 Typen"},
       ])}
     </div>
@@ -2198,6 +2222,16 @@ export function harveyWeinsteinPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy"},
         {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar"},
+        {route:"kriminalpsychologie-anna-delvey", label:"Anna Delvey (SE2w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-buster-murdaugh", label:"Buster Murdaugh (SE2w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-jack-unterweger", label:"Jack Unterweger (SO2w1) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-jeffrey-epstein", label:"Jeffrey Epstein (SX8w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-jim-jones", label:"Jim Jones (SO2w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-john-wayne-gacy", label:"John Wayne Gacy (SE2w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-jonathan-meijer", label:"Jonathan Meijer (SE2w1) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-pamela-smart", label:"Pamela Smart (SX2w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-peter-sutcliffe", label:"Peter Sutcliffe (SE2w1) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-tommy-lynn-sells", label:"Tommy Lynn Sells (SE2w1) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
       ])}
     </div>
@@ -2279,6 +2313,8 @@ export function jeanneWeberPortraitPage() {
           {route:"kriminalpsychologie-peter-sutcliffe", label:"Kriminalpsychologie: Peter Sutcliffe (SE2w1)"},
           {route:"kriminalpsychologie-ulrike-meinhof", label:"Kriminalpsychologie: Ulrike Meinhof (SE2w1)"},
           {route:"kriminalpsychologie-henri-landru", label:"Kriminalpsychologie: Henri D\xe9sir\xe9 Landru (SE3w4)"},
+          {route:"kriminalpsychologie-gesche-gottfried", label:"Gesche Gottfried (SO1w2) – Kriminalpsychologie"},
+          {route:"kriminalpsychologie-juana-barraza", label:"Juana Barraza (SE2w3) – Kriminalpsychologie"},
         ])}
       </div>
     </div>
@@ -2624,6 +2660,8 @@ export function joachimKrollPortraitPage() {
         {route:"kriminalpsychologie-fritz-honka", label:"Kriminalpsychologie: Fritz Honka (SE5w6) \u2013 derselbe Subtyp"},
         {route:"kriminalpsychologie-jeffrey-dahmer", label:"Kriminalpsychologie: Jeffrey Dahmer"},
         {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
+        {route:"kriminalpsychologie-harold-shipman", label:"Dr. Harold Shipman (SO5w6) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-rudolf-pleil", label:"Rudolf Pleil (SE2w3) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\u00e4t der 9 Typen"},
       ])}
     </div>
@@ -3140,6 +3178,7 @@ export function josefFritzlPortraitPage() {
         {route:"kriminalpsychologie-alex-murdaugh", label:"Kriminalpsychologie: Alex Murdaugh (SX1w2)"},
         {route:"kriminalpsychologie-dennis-rader", label:"Kriminalpsychologie: Dennis Rader (SE1w9)"},
         {route:"kriminalpsychologie-michail-popkow", label:"Kriminalpsychologie: Michail Popkow (SE1w9)"},
+        {route:"kriminalpsychologie-fritz-haarmann", label:"Fritz Haarmann (SX1w9) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -3220,6 +3259,7 @@ export function maryAnnCottonPortraitPage() {
           {route:"kriminalpsychologie-gary-ridgway", label:"Kriminalpsychologie: Gary Ridgway (SX1w2) – Green River Killer"},
           {route:"kriminalpsychologie-paul-bernardo", label:"Kriminalpsychologie: Paul Bernardo (SX1w2)"},
           {route:"beruehmte-anna-anderson", label:"Portr\xe4t: Anna Anderson (SE3w4)"},
+          {route:"kriminalpsychologie-henri-landru", label:"Henri Désiré Landru (SE3w4) – Kriminalpsychologie"},
         ])}
       </div>
     </div>
@@ -3436,6 +3476,12 @@ export function nielsHoegelPortraitPage() {
         {route:"kriminalpsychologie-anders-breivik", label:"Kriminalpsychologie: Anders Breivik"},
         {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy"},
         {route:"kriminalpsychologie-arwed-imiela", label:"Kriminalpsychologie: Arwed Imiela (SE7w8)"},
+        {route:"kriminalpsychologie-aileen-wuornos", label:"Aileen Wuornos (SX7w8) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-arno-funke", label:"Arno Funke (\u201eDagobert\u201c) (SE1w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-chris-watts", label:"Chris Watts (SO7w6) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-dorothea-puente", label:"Dorothea Puente (SE1w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-harold-shipman", label:"Dr. Harold Shipman (SO5w6) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-wolfgang-beltracchi", label:"Wolfgang Beltracchi (SX9w1) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
       ])}
     </div>
@@ -3656,6 +3702,15 @@ export function pabloEscobarPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-ted-bundy", label:"Kriminalpsychologie: Ted Bundy"},
         {route:"kriminalpsychologie-tom-keating", label:"Kriminalpsychologie: Tom Keating (SE3w4) – Vergleichsportrait"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Porträt: Wolodymyr Selenskyj (SE3w2)"},
+        {route:"kriminalpsychologie-adolf-hitler", label:"Adolf Hitler (SX4w3) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-harvey-weinstein", label:"Harvey Weinstein (SE2w1) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-john-mcafee", label:"John McAfee (SX8w9) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-luka-magnotta", label:"Luka Magnotta (SX3w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-michael-franzese", label:"Michael Franzese (SE3w2) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-ruja-ignatova", label:"Ruja Ignatova (SE3w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-samuel-bankman-fried", label:"Samuel Bankman-Fried (SE3w4) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-wade-wilson", label:"Wade Wilson (SO3w4) – Kriminalpsychologie"},
         {route:"blickqualitaet", label:"Blickqualit\xe4t der 9 Typen"},
         {route:"psychogramme", label:"Psychogramme"},
       ])}
@@ -3922,6 +3977,8 @@ export function pDiddyPortraitPage() {
       ${relatedLinks([
         {route:"kriminalpsychologie-aileen-wuornos", label:"Kriminalpsychologie: Aileen Wuornos (SX7w8)"},
         {route:"kriminalpsychologie-griselda-blanco", label:"Kriminalpsychologie: Griselda Blanco (SE8w9)"},
+        {route:"kriminalpsychologie-chris-watts", label:"Chris Watts (SO7w6) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-ronnie-biggs", label:"Ronnie Biggs (SX7w8) – Kriminalpsychologie"},
         {route:"portrait-typ-7", label:"Typportr\u00e4t: Der Typ 7 im \u00dcberblick"},
       ])}
     </div>
@@ -4160,6 +4217,8 @@ export function ronnieBiggsPortraitPage() {
         {route:"kriminalpsychologie-aileen-wuornos", label:"Kriminalpsychologie: Aileen Wuornos (SX7w8)"},
         {route:"kriminalpsychologie-boris-becker", label:"Kriminalpsychologie: Boris Becker (SX7w8)"},
         {route:"kriminalpsychologie-p-diddy", label:"Kriminalpsychologie: Sean 'P. Diddy' Combs (SX7w8)"},
+        {route:"kriminalpsychologie-clyde-barrow", label:"Clyde Barrow (SX7w8) – Kriminalpsychologie"},
+        {route:"kriminalpsychologie-victor-lustig", label:"Victor Lustig (SX7w8) – Kriminalpsychologie"},
       ])}
     </div>
   `);
@@ -4473,6 +4532,7 @@ export function samuelBankmanFriedPortraitPage() {
         {route:"kriminalpsychologie-ruja-ignatova", label:"Kriminalpsychologie: Ruja Ignatova (SE3w4)"},
         {route:"kriminalpsychologie-pablo-escobar", label:"Kriminalpsychologie: Pablo Escobar (SE3)"},
         {route:"kriminalpsychologie-wade-wilson", label:"Kriminalpsychologie: Wade Wilson (SO3w4)"},
+        {route:"kriminalpsychologie-bernie-madoff", label:"Bernie Madoff (SE3w4) – Kriminalpsychologie"},
       ])}
     </div>
   `);
