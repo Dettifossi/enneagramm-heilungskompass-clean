@@ -51190,7 +51190,7 @@ function portraitStartPage() {
         ${tile("register", "Register", "All entries from A to Z.")}
       </div>
       <div style="margin-top:2rem;padding:1rem 1.2rem;border:1px solid var(--line,var(--border));border-left:4px solid var(--copper);border-radius:12px;background:var(--card,var(--paper));">
-        <p style="margin:0 0 .6rem;font-size:.9rem;color:var(--muted);line-height:1.55;">This edition contains the portraits, the three pattern compasses and the memory game. Full access adds the 27 subtype profiles, remedies, tests and charts. If you switch, your 39 € is credited.</p>
+        <p style="margin:0 0 .6rem;font-size:.9rem;color:var(--muted);line-height:1.55;">This edition contains the portraits, the three pattern compasses and the memory game. Full access adds the 27 subtype profiles, remedies, tests and charts. If you switch, your $44 is credited.</p>
         <button class="ghost-link" data-route="freischalt">More about full access →</button>
       </div>
     </section>
