@@ -2590,6 +2590,23 @@ export function harryHoudiniPortraitPage() {
         <h2 class="vb-section">7. Verwandte Muster: Barnard und Ludwig XIV.</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die Verbindung aus öffentlichem Wagnis und Charme zeigt sich bei <a href="javascript:void(0)" data-route="beruehmte-christiaan-barnard">Dr. Christiaan Barnard</a> (SO3w2), der seine erste Herzverpflanzung 1967 zur Weltbühne machte, und bei <a href="javascript:void(0)" data-route="beruehmte-ludwig-xiv">Ludwig XIV.</a> (SO3w2), der seinen Hof zur Bühne der eigenen Größe ausbaute. Bei Houdini ist die Bühne der Beruf selbst. Seine Sicherheitsbedürfnisse als Kind aus verarmter Familie sind sichtbar, aber der Antrieb, vor der Gemeinschaft zu bestehen, überlagert sie.</p>
+          <p class="vb-intro">Zur Veranschaulichung hier zwei kurze Stummfilm-Ausschnitte, die zeigen, wie Houdini auftrat: eine Entfesselung aus der Zwangsjacke und ein Brückensprung mit Handschellen aus dem Jahr 1907. Sie machen das Prinzip der sozialen Drei sichtbar, denn die Leistung findet vor Publikum statt, mitten auf der Straße, und gilt erst als vollbracht, wenn andere sie gesehen haben.</p>
+          <div style="max-width:100%;margin-top:1.2rem;margin-bottom:1.2rem;">
+            <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Video: Harry Houdini – Entfesselung aus der Zwangsjacke</p>
+            <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+              <iframe width="100%" height="100%" style="border:none;display:block;"
+                src="https://www.youtube.com/embed/3r8qr-p9z5g?rel=0&playsinline=1"
+                allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy" title="Video: Harry Houdini – Entfesselung aus der Zwangsjacke"></iframe>
+            </div>
+          </div>
+          <div style="max-width:100%;margin-top:1.2rem;margin-bottom:1.2rem;">
+            <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Video: Houdini – Brückensprung mit Handschellen (1907)</p>
+            <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+              <iframe width="100%" height="100%" style="border:none;display:block;"
+                src="https://www.youtube.com/embed/E_HHFMSmHCQ?rel=0&playsinline=1"
+                allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy" title="Video: Houdini – Brückensprung mit Handschellen (1907)"></iframe>
+            </div>
+          </div>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}

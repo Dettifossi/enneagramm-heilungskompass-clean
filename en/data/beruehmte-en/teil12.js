@@ -2644,6 +2644,23 @@ export function harryHoudiniPortraitPage() {
         <h2 class="vb-section">7. Related patterns: Barnard and Louis XIV</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The combination of public risk-taking and charm appears in <a href="javascript:void(0)" data-route="beruehmte-christiaan-barnard">Dr. Christiaan Barnard</a> (SO3w2), who turned his first heart transplant in 1967 into a world stage, and in <a href="javascript:void(0)" data-route="beruehmte-ludwig-xiv">Louis XIV</a> (SO3w2), who built up his court as a stage for his own greatness. With Houdini the stage is the profession itself. His need for security as a child of an impoverished family is visible, but the drive to stand the test before the community overlays it.</p>
+          <p class="vb-intro">To illustrate this, here are two short silent-film clips showing how Houdini performed: an escape from a straitjacket and a bridge jump with handcuffs from 1907. They make the principle of the social Three visible, because the achievement takes place in front of an audience, in the middle of the street, and only counts as accomplished once others have seen it.</p>
+          <div style="max-width:100%;margin-top:1.2rem;margin-bottom:1.2rem;">
+            <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Video: Harry Houdini – straitjacket escape</p>
+            <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+              <iframe width="100%" height="100%" style="border:none;display:block;"
+                src="https://www.youtube.com/embed/3r8qr-p9z5g?rel=0&playsinline=1"
+                allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy" title="Video: Harry Houdini – straitjacket escape"></iframe>
+            </div>
+          </div>
+          <div style="max-width:100%;margin-top:1.2rem;margin-bottom:1.2rem;">
+            <p style="font-size:0.78rem;color:var(--copper);text-transform:uppercase;letter-spacing:0.09em;margin:0 0 0.5rem;font-weight:700;">Video: Houdini – bridge jump with handcuff escape (1907)</p>
+            <div style="position:relative;aspect-ratio:16/9;border-radius:12px;overflow:hidden;background:#000;">
+              <iframe width="100%" height="100%" style="border:none;display:block;"
+                src="https://www.youtube.com/embed/E_HHFMSmHCQ?rel=0&playsinline=1"
+                allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy" title="Video: Houdini – bridge jump with handcuff escape (1907)"></iframe>
+            </div>
+          </div>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
