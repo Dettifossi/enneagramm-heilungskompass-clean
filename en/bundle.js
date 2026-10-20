@@ -9665,68 +9665,155 @@ window._resetQuiz = function() {
 
 // ── Globale Search ────────────────────────────────────────────────────────────────────────────
 
-function _sucheResults(q) {
-  const lq = q.toLowerCase();
-  const res = { subtypen: [], portraits: [], register: [], zitate: [], laender: [] };
+// ── Suche: Normalisierung, Mehrwort-Suche, Synonyme, Tippfehler-Toleranz ──────────────
+const _SUCHE_SYNONYME_RAW = {"psychogram": ["psychogramm", "personlichkeitsprofil"], "portrait": ["portrat", "porträt"], "chart": ["diagram", "schaubild", "graph"], "test": ["quiz", "questionnaire"], "wing": ["fluegel", "flügel"], "animal": ["tier", "archetype"]};
+const _SUCHE_SYNONYME = (() => {
+  const m = {};
+  Object.keys(_SUCHE_SYNONYME_RAW).forEach(k => {
+    const all = [k, ..._SUCHE_SYNONYME_RAW[k]].map(s => _sNorm(s));
+    all.forEach(a => { m[a] = all.filter(b => b !== a); });
+  });
+  return m;
+})();
 
-  Object.values(subtypeProfiles).forEach(p => {
-    const hay = [p.code, p.title_en || p.title, p.titleAlt, p.archetype, p.subtitle || ""].join(" ").toLowerCase();
-    if (hay.includes(lq)) {
-      res.subtypen.push({ label: enCode(p.code) + " – " + (p.title_en || p.title), sub: p.archetype_en || p.archetype || "", route: "subtype/" + p.id });
+function _sNorm(s) {
+  return String(s == null ? "" : s).toLowerCase()
+    .replace(/ß/g, "ss")
+    .normalize("NFD").replace(/[̀-ͯ]/g, "")
+    .replace(/ae/g, "a").replace(/oe/g, "o").replace(/ue/g, "u")
+    .replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+function _sLev(a, b, max) {
+  if (Math.abs(a.length - b.length) > max) return max + 1;
+  let prev = Array.from({ length: b.length + 1 }, (_, i) => i);
+  for (let i = 1; i <= a.length; i++) {
+    const cur = [i];
+    let rowMin = i;
+    for (let j = 1; j <= b.length; j++) {
+      const v = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+      cur.push(v);
+      if (v < rowMin) rowMin = v;
     }
-  });
+    if (rowMin > max) return max + 1;
+    prev = cur;
+  }
+  return prev[b.length];
+}
 
-  KRIMINAL_PORTRAITS.forEach(p => {
-    const hay = (p.name + " " + (p.beschreibung || "") + " " + (p.typ || "")).toLowerCase();
-    if (hay.includes(lq)) res.portraits.push({ label: p.name, sub: p.typ || "", route: p.route });
-  });
+const _sCache = new WeakMap();
+function _sPrep(obj, label, extra) {
+  let c = _sCache.get(obj);
+  if (!c) {
+    const l = _sNorm(label);
+    c = { l, h: _sNorm(label + " " + (extra || "")), w: l.split(" ").filter(Boolean) };
+    _sCache.set(obj, c);
+  }
+  return c;
+}
 
-  registerEntriesEN.forEach(e => {
-    const hay = (e.term + " " + (e.description || "")).toLowerCase();
-    if (hay.includes(lq)) res.register.push({ label: e.term, sub: (e.description || "").slice(0, 80), route: e.route });
-  });
+// tokens: [{ alts: ["psychogramm", "personlichkeitsprofil"], len }]
+function _sTokens(q) {
+  return _sNorm(q).split(" ").filter(Boolean).map(t => ({ t, alts: [t, ...(_SUCHE_SYNONYME[t] || [])] }));
+}
 
-  LAENDER_REGIONEN.forEach(r => {
-    r.laender.forEach(l => {
-      if (l.name.toLowerCase().includes(lq)) {
-        res.laender.push({ label: l.name, sub: r.region + " · Type " + l.typ, route: "laenderzuordnungen|ll-" + l.iso });
+// Liefert eine Punktzahl (>0) oder 0, wenn nicht passend. fuzzy = Tippfehler-Toleranz an.
+function _sScore(c, tokens, fuzzy) {
+  let total = 0;
+  for (const tk of tokens) {
+    let best = 0;
+    for (const a of tk.alts) {
+      if (c.l.startsWith(a)) best = Math.max(best, 100);
+      else if (c.w.some(w => w.startsWith(a))) best = Math.max(best, 80);
+      else if (c.l.includes(a)) best = Math.max(best, 60);
+      else if (c.h.includes(a)) best = Math.max(best, 30);
+    }
+    if (!best && fuzzy) {
+      const max = tk.t.length <= 3 ? 0 : tk.t.length <= 5 ? 1 : 2;
+      if (max) {
+        for (const w of c.w) {
+          if (_sLev(w, tk.t, max) <= max || _sLev(w.slice(0, tk.t.length), tk.t, max) <= max) { best = 15; break; }
+        }
       }
-    });
-  });
-
-  (window._zitateData || []).forEach(z => {
-    const hay = (z.q + " " + z.a + " " + (z.t || "")).toLowerCase();
-    if (hay.includes(lq)) {
-      const label = '"' + z.q.slice(0, 65) + (z.q.length > 65 ? "…" : "") + '"';
-      res.zitate.push({ label, sub: z.a + (z.y ? " (" + z.y + ")" : ""), route: "zitate" });
     }
-  });
+    if (!best) return 0;
+    total += best;
+  }
+  return total / tokens.length;
+}
 
-  return res;
+function _sucheResults(q) {
+  const tokens = _sTokens(q);
+  const empty = () => ({ subtypen: [], portraits: [], register: [], zitate: [], laender: [], fuzzy: false });
+  if (!tokens.length) return empty();
+
+  const run = (fuzzy) => {
+    const res = empty();
+    const add = (list, obj, label, extra, item) => {
+      const s = _sScore(_sPrep(obj, label, extra), tokens, fuzzy);
+      if (s > 0) { item._s = s; list.push(item); }
+    };
+
+    Object.values(subtypeProfiles).forEach(p => {
+      add(res.subtypen, p, p.code + " " + (p.title_en || p.title), [p.titleAlt, p.archetype, p.subtitle || ""].join(" "),
+        { label: enCode(p.code) + " \u2013 " + (p.title_en || p.title), sub: p.archetype_en || p.archetype || "", route: "subtype/" + p.id });
+    });
+
+    KRIMINAL_PORTRAITS.forEach(p => {
+      add(res.portraits, p, p.name, (p.beschreibung || "") + " " + (p.typ || ""), { label: p.name, sub: p.typ || "", route: p.route });
+    });
+
+    registerEntriesEN.forEach(e => {
+      add(res.register, e, e.term, e.description || "", { label: e.term, sub: (e.description || "").slice(0, 80), route: e.route });
+    });
+
+    LAENDER_REGIONEN.forEach(r => {
+      r.laender.forEach(l => {
+        add(res.laender, l, l.name, "", { label: l.name, sub: r.region + " · Type " + l.typ, route: "laenderzuordnungen|ll-" + l.iso });
+      });
+    });
+
+    (window._zitateData || []).forEach(z => {
+      const label = '"' + z.q.slice(0, 65) + (z.q.length > 65 ? "…" : "") + '"';
+      add(res.zitate, z, z.q, z.a + " " + (z.t || ""), { label, sub: z.a + (z.y ? " (" + z.y + ")" : ""), route: "zitate" });
+    });
+
+    ["subtypen", "portraits", "register", "zitate", "laender"].forEach(k => res[k].sort((a, b) => b._s - a._s));
+    res.fuzzy = fuzzy;
+    return res;
+  };
+
+  const exact = run(false);
+  const total = exact.subtypen.length + exact.portraits.length + exact.register.length + exact.zitate.length + exact.laender.length;
+  if (total > 0) return exact;
+  return run(true);
 }
 
 function _sucheResultsHtml(res, q) {
   const total = res.subtypen.length + res.portraits.length + res.register.length + res.zitate.length + res.laender.length;
-  if (total === 0) return `<p class="suche-hint">No results found for &ldquo;${String(q).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]))}&rdquo;.</p>`;
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
+  if (total === 0) return `<p class="suche-hint">No results found for &ldquo;${esc(q)}&rdquo;.</p>`;
 
-  const hl = (txt) => {
-    const i = txt.toLowerCase().indexOf(q.toLowerCase());
-    if (i === -1) return txt;
-    return txt.slice(0, i) + `<mark class="suche-hl">${txt.slice(i, i + q.length)}</mark>` + txt.slice(i + q.length);
-  };
+  const words = String(q).trim().split(/\s+/).filter(w => w.length > 1).map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  const hlRe = words.length ? new RegExp("(" + words.join("|") + ")", "ig") : null;
+  const hl = (txt) => hlRe ? esc(txt).replace(hlRe, '<mark class="suche-hl">$1</mark>') : esc(txt);
 
   const group = (title, items) => {
     if (!items.length) return "";
-    const more = items.length > 6 ? `<p class="suche-more">+ ${items.length - 6} weitere</p>` : "";
+    const rest = items.length - 6;
+    const more = rest > 0
+      ? `<button type="button" class="suche-more-btn" data-more="1" data-n="${items.length}">Show all ${items.length}</button>`
+      : "";
     return `<div class="suche-group">
       <h3 class="suche-group-title">${title} <span class="suche-count">${items.length}</span></h3>
-      ${items.slice(0, 6).map(it => `<button class="suche-result" data-route="${it.route}">
+      ${items.map((it, i) => `<button class="suche-result${i >= 6 ? " suche-result--extra" : ""}" data-route="${it.route}">
         <span class="suche-result-label">${hl(it.label)}</span>
         ${it.sub ? `<span class="suche-result-sub">${it.sub}</span>` : ""}
       </button>`).join("")}${more}</div>`;
   };
 
-  return `<p class="suche-total">${total} result${total === 1 ? "" : "s"}</p>
+  const hint = res.fuzzy ? `<p class="suche-hint">No exact matches \u2013 showing similar results (typos are tolerated).</p>` : "";
+  return `<p class="suche-total">${total} ${total === 1 ? "result" : "results"}</p>${hint}
     ${group("Subtypes", res.subtypen)}
     ${group("Criminal Portraits", res.portraits)}
     ${group("Register &amp; Charts", res.register)}
@@ -9734,17 +9821,29 @@ function _sucheResultsHtml(res, q) {
     ${group("Quotes of the Wise", res.zitate)}`;
 }
 
+function _sucheBindResults(box) {
+  box.querySelectorAll("[data-route]").forEach(btn => {
+    btn.addEventListener("click", () => { _sucheQuery = ""; go(btn.dataset.route); });
+  });
+}
+if (!window._sucheMoreBound) {
+  window._sucheMoreBound = true;
+  document.addEventListener("click", e => {
+    const b = e.target.closest && e.target.closest(".suche-more-btn");
+    if (b) { b.closest(".suche-group").classList.add("is-open"); b.remove(); }
+  });
+}
+
 window._updateSearch = function(q) {
   _sucheQuery = q;
   const box = document.getElementById("suche-ergebnisse");
   if (!box) return;
-  if (q.length < 2) { box.innerHTML = `<p class="suche-hint">Mindestens 2 Zeichen eingeben…</p>`; return; }
+  if (q.length < 2) { box.innerHTML = `<p class="suche-hint">Enter at least 2 characters\u2026</p>`; return; }
   const res = _sucheResults(q);
   box.innerHTML = _sucheResultsHtml(res, q);
-  box.querySelectorAll("[data-route]").forEach(btn => {
-    btn.addEventListener("click", () => { _sucheQuery = ""; go(btn.dataset.route); });
-  });
+  _sucheBindResults(box);
 };
+
 
 function suchePage() {
   const hasQ = _sucheQuery.length >= 2;
@@ -9760,7 +9859,7 @@ function suchePage() {
                autocomplete="off" spellcheck="false" />
       </div>
       <div id="suche-ergebnisse">
-        ${hasQ ? _sucheResultsHtml(_sucheResults(_sucheQuery), _sucheQuery) : `<p class="suche-hint">Mindestens 2 Zeichen eingeben…</p>`}
+        ${hasQ ? _sucheResultsHtml(_sucheResults(_sucheQuery), _sucheQuery) : `<p class="suche-hint">Enter at least 2 characters…</p>`}
       </div>
     </section>
   `);

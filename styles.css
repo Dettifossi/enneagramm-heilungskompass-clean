@@ -5461,6 +5461,14 @@ button.primary:active::after {
 .suche-result-sub { font-size: 0.78rem; color: var(--muted); }
 .suche-hl { background: #f5d76e55; color: var(--ink); font-weight: 700; border-radius: 2px; }
 .suche-more { font-size: 0.8rem; color: var(--muted); margin: 0.3rem 0 0; text-align: center; }
+.suche-result--extra { display: none; }
+.suche-group.is-open .suche-result--extra { display: flex; }
+.suche-more-btn {
+  display: block; margin: 0.3rem auto 0; padding: 0.45rem 1.1rem;
+  background: transparent; color: var(--copper); border: 1px solid var(--line);
+  border-radius: 20px; font: inherit; font-size: 0.82rem; cursor: pointer;
+}
+.suche-more-btn:hover { border-color: var(--gold); }
 
 /* ── Favoriten ──────────────────────────────────────────────────────────── */
 .fav-heart-btn {
