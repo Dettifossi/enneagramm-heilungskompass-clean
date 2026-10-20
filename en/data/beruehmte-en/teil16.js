@@ -255,6 +255,7 @@ export function christiaanBarnardPortraitPage() {
         {route:"beruehmte-zoe-kravitz", label:"Portrait: Zoë Kravitz (SO3w2)"},
         {route:"beruehmte-will-yun-lee", label:"Portrait: Will Yun Lee (SO3w2)"},
         {route:"beruehmte-virgil-van-dijk", label:"Portrait: Virgil van Dijk (SO3w2)"},
+        {route:"beruehmte-harry-houdini", label:"Portrait: Harry Houdini (SO3w2)"},
       ])}
     </div>
   `);

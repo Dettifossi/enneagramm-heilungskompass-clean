@@ -2589,3 +2589,74 @@ export function wolframEilenbergerPortraitPage() {
     </div>
   `);
 }
+
+export function harryHoudiniPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-harry-houdini-portrait.jpg" alt="Harry Houdini – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-harry-houdini-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Harry Houdini</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with a Two-wing</p>
+        <p class="krim-portrait-subtitle">Escape artist, 1874&ndash;1926 &ndash; The ›Handcuff King‹ &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Cheetah: 57 seconds in the East River</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Cheetah</strong> is the animal of the social Three. It hunts by day, in open country and in front of onlookers, and its strength is the sprint that is decided in a few moments. Houdini built his life on such moments. In 1912 he was locked in a crate that was thrown into New York's East River, and he freed himself in 57 seconds, in front of a crowd that watched.</p>
+          <p class="vb-intro">He was born Erik Weisz on 24 March 1874 in Budapest, the child of a rabbi. In 1878 the family emigrated to the USA to escape antisemitism. After his father lost his position in 1882 the family fell into dire poverty in Milwaukee. Houdini worked as a child, at nine he appeared as a trapeze artist, and after his father's death in 1892 he went on tour with a magic act. He chose his stage name in homage to his role model, the French magician Jean-Eugène Robert-Houdin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Three: recognition as fuel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Three (SO3)</strong> asks not only whether she has achieved something but whether the community sees it. For a long time Houdini had nothing that was seen. From 1891 he performed in dime museums and variety shows, billed himself for a time as the ›King of Cards‹, and was regarded by professionals as competent but not especially skilled at sleight of hand. In 1899 he was defeated by a pair of handcuffs in a Chicago museum. His manager Martin Beck advised him to concentrate on escapes.</p>
+          <p class="vb-intro">From this came the ›Handcuff King‹, who challenged local police to lock him up, often after he had been stripped and searched. In 1900 he performed in Europe, impressed Scotland Yard and won a six-month engagement at London's Alhambra. He claimed all his life to have been born in Appleton, Wisconsin, although he was born in Budapest, and on posters he called himself the ›King of Handcuffs‹. After the quarrel with Beck he built himself a European tour of his own because he lacked acceptance across the Atlantic, and he stayed about five years. The press called him a ›real-life superman‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: mother, Bess and the warmth on stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the social Three closeness and the readiness to win people over. Houdini was closely attached to his mother Cecelia and called himself ›a Mothers-boy‹. When he learned in Sweden in 1913 that his mother had died, he is said to have fainted and wept uncontrollably. The house in Manhattan that he acquired in 1905 was the family's base, especially for her.</p>
+          <p class="vb-intro">In 1894 he met Wilhelmina ›Bess‹ Rahner, who stood with him on stage in every performance. His brother Theodore, called Hardeen, was his closest partner in the act. Houdini was regarded as generous to family and friends, and reporters described him with a ›pleasant smile and easy confidence‹. The audience got a likeable man who radiated connection while putting himself in mortal danger.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: escape as craft and spectacle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Houdini was more than a publicist for himself. He was short and stocky, trained swimming, boxing and running as a young man, and could gain slack in restraints by expanding his shoulders and chest and holding his arms away from his body. He shielded the mechanics of his acts with a small screen, a kind of ghost house, and still wrote books for other magicians such as ›Handcuff Secrets‹ (1909). He knew how to open locks, and he knew how to turn it into an event.</p>
+          <p class="vb-intro">When imitators copied his handcuff act he retired it in January 1908 and moved on to the milk can. He first performed the ›Chinese Water Torture Cell‹, in which he was locked upside down in a water tank, on 21 September 1912 in Berlin and played it until his death. At New York's Hippodrome he made an elephant vanish. In 1909 he bought a biplane and flew successfully for the first time on 26 November 1909 in Hamburg, and in March 1910 he made some of the first powered flights in Australia. From 1906 he filmed escapes and acted in five feature films, including ›The Master Mystery‹ (1919). His film company and a film laboratory lost money, and in 1923 he withdrew from the film business.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The opponents: crusades and lawsuits</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Houdini was combative. He went to law against imitators, and in 1901 he sued a policeman and a newspaper in Cologne for slander and opened, in the courtroom and without tools, a lock the officer had made himself. In his book ›The Unmasking of Robert-Houdin‹ (1908) he attacked his former idol, which according to one source did more to tarnish Houdini's reputation than the target's. From the 1920s he devoted himself to exposing mediums who preyed on the bereaved, sat on a ›Scientific American‹ committee that offered a cash prize for proof of supernatural powers that nobody ever received, and attended séances in disguise with a reporter and a police officer. He published the pamphlet against the medium Mina Crandon, known as ›Margery‹, at his own expense. His friendship with the writer Arthur Conan Doyle, a spiritualist, broke over this.</p>
+          <p class="vb-intro">A connection with his mother's death in 1913 can be suspected, but it is an interpretation and not proof of a single motive. What is certain is the result: the man who performed the impossible on stage wanted to prove publicly what was real and what was not. He and Bess had agreed that whichever of them died first would try to make contact from beyond. After his death she held a séance every year for ten years without receiving a sign, until she said in 1943 that ten years were enough.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Three with a Two-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO3w2 lies in Houdini in the persistence with which he made a lifework out of a failure, that of 1899, and in the community spirit with which he became president of the Society of American Magicians in 1917, united the local clubs, often at his own expense, into a national body and remained in office until his death. He built up one of the largest collections on the history of magic and bequeathed part of his papers to the Library of Congress.</p>
+          <p class="vb-intro">The shadow lies where the image becomes more important than the truth. The challenge of the London ›Daily Mirror‹ in 1904, in front of about 4,000 onlookers, was according to many biographers largely staged, and his former manager Beck is said to have said that Houdini was beaten there and asked Bess for help. In his mid-forties he was, according to one biography, physically worn out. On 22 October 1926 he was punched repeatedly in the abdomen in Montreal, by one account at his own invitation as a test of strength; on 24 October he performed in Detroit with a fever of 40 degrees Celsius; on 25 October his appendix was removed, and on 31 October he died, aged 52, of peritonitis. Biographers disagree on whether the punches were the cause or whether the appendicitis had already been there. The insurer paid double indemnity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Related patterns: Barnard and Louis XIV</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The combination of public risk-taking and charm appears in <a href="javascript:void(0)" data-route="beruehmte-christiaan-barnard">Dr. Christiaan Barnard</a> (SO3w2), who turned his first heart transplant in 1967 into a world stage, and in <a href="javascript:void(0)" data-route="beruehmte-ludwig-xiv">Louis XIV</a> (SO3w2), who built up his court as a stage for his own greatness. With Houdini the stage is the profession itself. His need for security as a child of an impoverished family is visible, but the drive to stand the test before the community overlays it.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: subtype profile"},
+        {route:"lebensmusterkompass/so3", label:"Life Pattern Compass: SO3 – Cheetah"},
+        {route:"beruehmte-christiaan-barnard", label:"Portrait: Dr. Christiaan Barnard (SO3w2) – same subtype and wing"},
+        {route:"beruehmte-ludwig-xiv", label:"Portrait: Louis XIV (SO3w2) – same subtype and wing"},
+      ])}
+    </div>
+  `);
+}

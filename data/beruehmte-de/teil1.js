@@ -1054,6 +1054,7 @@ export function ludwigXIVPortraitPage() {
         {route:"beruehmte-dmitri-hvorostovsky", label:"Porträt: Dmitri Hvorostovsky (SO3w2)"},
         {route:"beruehmte-klemens-von-metternich", label:"Porträt: Klemens von Metternich (SO3w2)"},
         {route:"beruehmte-katharina-die-grosse", label:"Porträt: Katharina die Große (SO3w2)"},
+        {route:"beruehmte-harry-houdini", label:"Porträt: Harry Houdini (SO3w2)"},
       ])}
     </div>
   `);

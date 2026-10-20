@@ -2535,3 +2535,74 @@ export function romanPolanskiPortraitPage() {
     </div>
   `);
 }
+
+export function harryHoudiniPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-harry-houdini-portrait.jpg" alt="Harry Houdini – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-harry-houdini-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Harry Houdini</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Entfesselungskünstler, 1874&ndash;1926 &ndash; Der ›Handschellenkönig‹ &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard: 57 Sekunden im East River</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei. Er jagt am Tag, auf offenem Gelände und vor Zuschauern, und seine Stärke ist der Sprint, der in wenigen Augenblicken entschieden wird. Houdini baute sein Leben auf solchen Augenblicken auf. 1912 wurde er in eine Kiste gesperrt, die in den New Yorker East River geworfen wurde, und befreite sich vor den Augen der Zuschauer in 57 Sekunden.</p>
+          <p class="vb-intro">Geboren wurde er als Erik Weisz am 24. März 1874 in Budapest, als Kind eines Rabbiners. 1878 wanderte die Familie in die USA aus, um dem Antisemitismus zu entgehen. Nachdem der Vater 1882 seine Stelle verloren hatte, fiel sie in Milwaukee in bittere Armut. Houdini arbeitete schon als Kind, mit neun trat er als Trapezkünstler auf, und nach dem Tod des Vaters 1892 ging er mit einer Zaubernummer auf Tournee. Seinen Künstlernamen wählte er in Anlehnung an sein Vorbild, den französischen Zauberer Jean-Eugène Robert-Houdin.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Anerkennung als Treibstoff</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> fragt nicht nur, ob sie etwas erreicht hat, sondern ob die Gemeinschaft es sieht. Houdini hatte lange nichts, was gesehen wurde. Ab 1891 trat er in Jahrmarktsmuseen und Varietés auf, nannte sich zeitweise ›König der Karten‹ und galt Fachleuten als solide, aber nicht besonders geschickt im Taschenspiel. 1899 unterlag er in einem Chicagoer Museum einem Paar Handschellen. Sein Manager Martin Beck riet ihm, sich auf Entfesselungen zu verlegen.</p>
+          <p class="vb-intro">Daraus wurde der ›Handschellenkönig‹, der örtliche Polizisten aufforderte, ihn einzuschließen, oft nachdem er entkleidet und durchsucht worden war. 1900 trat er in Europa auf, überzeugte Scotland Yard und gewann ein halbjähriges Engagement am Londoner Alhambra. Er behauptete sein Leben lang, in Appleton in Wisconsin geboren zu sein, obwohl er in Budapest zur Welt kam, und er nannte sich auf Plakaten ›König der Handschellen‹. Nach dem Streit mit Beck baute er sich eine eigene Europatournee auf, weil ihm die Anerkennung jenseits des Atlantiks fehlte, und er blieb etwa fünf Jahre. Die Presse nannte ihn einen ›real-life superman‹ (›Supermann in Wirklichkeit‹).</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Mutter, Bess und die Wärme auf der Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sozialen Drei Nähe und die Bereitschaft, Menschen für sich einzunehmen. Houdini war eng an seine Mutter Cecelia gebunden und nannte sich selbst ›a Mothers-boy‹ (›ein Muttersöhnchen‹). Als er 1913 in Schweden vom Tod der Mutter erfuhr, soll er ohnmächtig geworden sein und unkontrolliert geweint haben. Das Haus in Manhattan, das er 1905 erwarb, war der Stützpunkt der Familie, besonders für sie.</p>
+          <p class="vb-intro">1894 lernte er Wilhelmina ›Bess‹ Rahner kennen, die in jeder Vorstellung mit ihm auf der Bühne stand. Sein Bruder Theodore, genannt Hardeen, war sein engster Partner im Auftritt. Houdini galt als großzügig gegenüber Familie und Freunden, und Reporter beschrieben ihn mit einem ›pleasant smile and easy confidence‹ (›angenehmem Lächeln und müheloser Selbstsicherheit‹). Das Publikum bekam einen sympathischen Mann, der Verbundenheit ausstrahlte, während er sich in Lebensgefahr begab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Entfesselung als Handwerk und Spektakel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Houdini war mehr als ein Werbefachmann in eigener Sache. Er war klein und gedrungen, trainierte als junger Mann Schwimmen, Boxen und Laufen und konnte sich in Fesseln Spielraum verschaffen, indem er Schultern und Brust weitete und die Arme vom Körper abhielt. Er schirmte die Mechanik seiner Nummern mit einem kleinen Vorhang ab, einer Art Geisterhaus, und schrieb dennoch Bücher für andere Zauberer wie ›Handcuff Secrets‹ (›Handschellen-Geheimnisse‹, 1909). Er wusste, wie man Schlösser öffnet, und er wusste, wie man daraus ein Ereignis macht.</p>
+          <p class="vb-intro">Als Nachahmer seine Handschellennummer kopierten, gab er sie im Januar 1908 auf und wechselte zur Milchkanne. Die ›Chinese Water Torture Cell‹ (›Wasserfolterzelle‹), bei der er kopfüber in einem Wassertank eingesperrt wurde, führte er erstmals am 21. September 1912 in Berlin vor und spielte sie bis zu seinem Tod. Am New Yorker Hippodrome ließ er einen Elefanten verschwinden. 1909 kaufte er einen Doppeldecker und flog am 26. November 1909 in Hamburg erstmals erfolgreich, und im März 1910 unternahm er in Australien einige der ersten Motorflüge dort. Ab 1906 drehte er Fluchtszenen und spielte in fünf Spielfilmen, darunter ›The Master Mystery‹ (1919). Seine Filmgesellschaft und ein Filmlabor brachten Verluste, 1923 zog er sich aus dem Filmgeschäft zurück.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Gegner: Kreuzzüge und Prozesse</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Houdini war streitbar. Gegen Nachahmer ging er juristisch vor, 1901 verklagte er in Köln einen Polizisten und eine Zeitung wegen Verleumdung und öffnete im Gerichtssaal ohne Werkzeug ein Schloss, das der Beamte selbst gefertigt hatte. In seinem Buch ›The Unmasking of Robert-Houdin‹ (›Die Entlarvung Robert-Houdins‹, 1908) griff er sein früheres Idol an, was seinem Ruf nach der Quelle mehr schadete als dem Angegriffenen. Ab den 1920er-Jahren widmete er sich der Entlarvung von Medien, die Trauernde ausbeuteten, saß in einer Kommission des ›Scientific American‹, die für den Nachweis übernatürlicher Kräfte ein Preisgeld ausgesetzt hatte, das nie jemand erhielt, und besuchte Séancen verkleidet, mit einem Reporter und einem Polizisten. Die Schrift gegen das Medium Mina Crandon, genannt ›Margery‹, gab er auf eigene Kosten heraus. Die Freundschaft mit dem Schriftsteller Arthur Conan Doyle, der Spiritist war, zerbrach darüber.</p>
+          <p class="vb-intro">Ein Zusammenhang mit dem Tod der Mutter 1913 lässt sich vermuten, ist aber eine Deutung und kein Beleg für ein einzelnes Motiv. Sicher ist die Folge: Der Mann, der auf der Bühne das Unmögliche vorführte, wollte öffentlich beweisen, was echt war und was nicht. Er und Bess hatten vereinbart, dass der oder die Erste, die starb, versuchen sollte, aus dem Jenseits Kontakt aufzunehmen. Nach seinem Tod hielt sie zehn Jahre lang jährlich eine Séance ab, ohne ein Zeichen zu erhalten, bis sie 1943 sagte, zehn Jahre seien genug.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3w2 liegt bei Houdini in der Beharrlichkeit, mit der er aus einem Scheitern, dem von 1899, ein Lebenswerk machte, und im Gemeinschaftssinn, mit dem er 1917 Präsident der Society of American Magicians wurde, die örtlichen Clubs oft auf eigene Kosten zu einem Landesverband einte und bis zu seinem Tod im Amt blieb. Er trug eine der größten Sammlungen zur Geschichte der Zauberkunst zusammen und vermachte der Library of Congress einen Teil seiner Papiere.</p>
+          <p class="vb-intro">Der Schatten liegt dort, wo das Bild wichtiger wird als die Wahrheit. Die Herausforderung der Londoner ›Daily Mirror‹ 1904 vor rund 4.000 Zuschauern war nach Ansicht vieler Biografen weitgehend inszeniert, und sein früherer Manager Beck soll gesagt haben, Houdini sei dort besiegt worden und habe Bess um Hilfe gebeten. Mit Mitte vierzig war er nach einer Biografie körperlich verbraucht. Am 22. Oktober 1926 wurde er in Montreal mehrfach in den Bauch geschlagen, nach einer Darstellung auf seine eigene Einladung als Kraftprobe, am 24. Oktober trat er in Detroit mit 40 Grad Fieber auf, am 25. Oktober wurde der Blinddarm entfernt, und am 31. Oktober starb er im Alter von 52 Jahren an einer Bauchfellentzündung. Biografen sind uneins, ob die Schläge die Ursache waren oder die Blinddarmentzündung schon vorher bestand. Die Versicherung zahlte die doppelte Summe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Verwandte Muster: Barnard und Ludwig XIV.</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Verbindung aus öffentlichem Wagnis und Charme zeigt sich bei <a href="javascript:void(0)" data-route="beruehmte-christiaan-barnard">Dr. Christiaan Barnard</a> (SO3w2), der seine erste Herzverpflanzung 1967 zur Weltbühne machte, und bei <a href="javascript:void(0)" data-route="beruehmte-ludwig-xiv">Ludwig XIV.</a> (SO3w2), der seinen Hof zur Bühne der eigenen Größe ausbaute. Bei Houdini ist die Bühne der Beruf selbst. Seine Sicherheitsbedürfnisse als Kind aus verarmter Familie sind sichtbar, aber der Antrieb, vor der Gemeinschaft zu bestehen, überlagert sie.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so3", label:"Lebensmusterkompass: SO3 – Gepard"},
+        {route:"beruehmte-christiaan-barnard", label:"Porträt: Dr. Christiaan Barnard (SO3w2) – derselbe Subtyp und Flügel"},
+        {route:"beruehmte-ludwig-xiv", label:"Porträt: Ludwig XIV. (SO3w2) – derselbe Subtyp und Flügel"},
+      ])}
+    </div>
+  `);
+}
