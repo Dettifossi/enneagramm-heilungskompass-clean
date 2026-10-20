@@ -9792,7 +9792,7 @@ function _sucheResults(q) {
 function _sucheResultsHtml(res, q) {
   const total = res.subtypen.length + res.portraits.length + res.register.length + res.zitate.length + res.laender.length;
   const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
-  if (total === 0) return `<p class="suche-hint">No results found for &ldquo;${esc(q)}&rdquo;.</p>`;
+  if (total === 0) return `<p class="suche-hint">No results found for &ldquo;${esc(q)}&rdquo;.</p><div class="suche-ask"><p>Sounds like a question? The Guide answers questions about everything in the app.</p><button type="button" class="suche-ask-btn" data-ask="${esc(q)}">Ask the Guide</button></div>`;
 
   const words = String(q).trim().split(/\s+/).filter(w => w.length > 1).map(w => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
   const hlRe = words.length ? new RegExp("(" + words.join("|") + ")", "ig") : null;
@@ -9812,8 +9812,9 @@ function _sucheResultsHtml(res, q) {
       </button>`).join("")}${more}</div>`;
   };
 
+  const askBlock = _sucheIsQuestion(q) ? `<div class="suche-ask"><p>Sounds like a question? The Guide answers questions about everything in the app.</p><button type="button" class="suche-ask-btn" data-ask="${esc(q)}">Ask the Guide</button></div>` : "";
   const hint = res.fuzzy ? `<p class="suche-hint">No exact matches \u2013 showing similar results (typos are tolerated).</p>` : "";
-  return `<p class="suche-total">${total} ${total === 1 ? "result" : "results"}</p>${hint}
+  return `<p class="suche-total">${total} ${total === 1 ? "result" : "results"}</p>${hint}${askBlock}
     ${group("Subtypes", res.subtypen)}
     ${group("Criminal Portraits", res.portraits)}
     ${group("Register &amp; Charts", res.register)}
@@ -9838,11 +9839,102 @@ window._updateSearch = function(q) {
   _sucheQuery = q;
   const box = document.getElementById("suche-ergebnisse");
   if (!box) return;
-  if (q.length < 2) { box.innerHTML = `<p class="suche-hint">Enter at least 2 characters\u2026</p>`; return; }
+  clearTimeout(_sucheMissTimer);
+  if (q.length < 2) {
+    box.innerHTML = `<p class="suche-hint">Enter at least 2 characters\u2026</p>`;
+    _sucheRenderSuggestions({ register: [], portraits: [], subtypen: [] }, q);
+    return;
+  }
   const res = _sucheResults(q);
   box.innerHTML = _sucheResultsHtml(res, q);
   _sucheBindResults(box);
+  _sucheRenderSuggestions(res, q);
+  const total = res.subtypen.length + res.portraits.length + res.register.length + res.zitate.length + res.laender.length;
+  if (total === 0) _sucheMissTimer = setTimeout(() => { if (_sucheQuery === q) _sucheLogMiss(q); }, 1400);
 };
+
+// ── Vorschläge beim Tippen, Wegweiser-Hinweis, anonyme Zählung erfolgloser Suchen ──
+function _sucheSuggestions(res) {
+  const seen = new Set();
+  const pool = [...res.register, ...res.portraits, ...res.subtypen]
+    .filter(it => res.fuzzy || it._s >= 60)
+    .sort((a, b) => b._s - a._s || a.label.length - b.label.length);
+  const out = [];
+  for (const it of pool) {
+    if (seen.has(it.label)) continue;
+    seen.add(it.label);
+    out.push(it);
+    if (out.length >= 6) break;
+  }
+  return out;
+}
+
+function _sucheRenderSuggestions(res, q) {
+  const box = document.getElementById("suche-vorschlaege");
+  if (!box) return;
+  const items = q.length >= 2 ? _sucheSuggestions(res) : [];
+  if (!items.length) { box.innerHTML = ""; box.classList.remove("is-open"); return; }
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
+  box.innerHTML = items.map(it => `<button type="button" class="suche-sugg" role="option" data-route="${it.route}">${esc(it.label)}</button>`).join("");
+  box.classList.add("is-open");
+  box.querySelectorAll("[data-route]").forEach(btn => {
+    btn.addEventListener("click", () => { _sucheQuery = ""; go(btn.dataset.route); });
+  });
+}
+
+window._sucheKey = function(e) {
+  const box = document.getElementById("suche-vorschlaege");
+  if (!box) return;
+  const items = [...box.querySelectorAll(".suche-sugg")];
+  if (!items.length) return;
+  const cur = items.findIndex(b => b.classList.contains("is-active"));
+  if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+    e.preventDefault();
+    const next = e.key === "ArrowDown" ? (cur + 1) % items.length : (cur <= 0 ? items.length - 1 : cur - 1);
+    items.forEach((b, i) => b.classList.toggle("is-active", i === next));
+  } else if (e.key === "Enter" && cur >= 0) {
+    e.preventDefault();
+    items[cur].click();
+  } else if (e.key === "Escape") {
+    box.innerHTML = ""; box.classList.remove("is-open");
+  }
+};
+
+window._sucheAskWegweiser = function(q) {
+  const panel = document.getElementById("wegweiser-panel");
+  const btn = document.getElementById("wegweiser-btn");
+  if (!panel || !btn) return;
+  if (getComputedStyle(panel).display === "none") btn.click();
+  const inp = document.getElementById("wegweiser-input");
+  if (inp) { inp.value = q; inp.focus(); }
+};
+
+if (!window._sucheAskBound) {
+  window._sucheAskBound = true;
+  document.addEventListener("click", e => {
+    const b = e.target.closest && e.target.closest(".suche-ask-btn");
+    if (b) window._sucheAskWegweiser(b.dataset.ask || "");
+  });
+}
+
+let _sucheMissTimer = 0;
+const _sucheMissSent = new Set();
+function _sucheLogMiss(q) {
+  const t = String(q).trim().toLowerCase();
+  if (t.length < 3 || t.length > 40 || _sucheMissSent.has(t)) return;
+  _sucheMissSent.add(t);
+  try {
+    fetch("https://kompass-assistent.9rathmer.workers.dev/search-miss", {
+      method: "POST", headers: { "Content-Type": "text/plain" }, keepalive: true,
+      body: JSON.stringify({ q: t, lang: "en" })
+    }).catch(() => {});
+  } catch (e) {}
+}
+
+function _sucheIsQuestion(q) {
+  const s = String(q).trim();
+  return s.indexOf("?") !== -1 || s.split(/\s+/).length >= 4;
+}
 
 
 function suchePage() {
@@ -9855,9 +9947,11 @@ function suchePage() {
         <input class="suche-input" id="suche-input" type="search"
                placeholder="Subtypes, Portraits, Charts, Quotes…"
                oninput="window._updateSearch(this.value)"
+               onkeydown="window._sucheKey(event)"
                value="${_sucheQuery.replace(/"/g, '&quot;')}"
                autocomplete="off" spellcheck="false" />
       </div>
+      <div id="suche-vorschlaege" class="suche-vorschlaege" role="listbox"></div>
       <div id="suche-ergebnisse">
         ${hasQ ? _sucheResultsHtml(_sucheResults(_sucheQuery), _sucheQuery) : `<p class="suche-hint">Enter at least 2 characters…</p>`}
       </div>
@@ -51460,6 +51554,8 @@ function datenschutzPage() {
     <p>On the optional "Face Scan &amp; Video" page used to prepare a personal type consultation, your browser requests access to your camera and, if applicable, your microphone with your explicit permission (Art. 6 Para. 1 lit. a GDPR, consent). The resulting photos or video are processed and stored exclusively on your own device; there is no automatic transmission to any server. Only if you actively choose to send them via email or WhatsApp do the recordings leave your device (see section 8). You can revoke camera access at any time via your browser or device settings.</p>
     <h2>6a. "The Guide" – AI Knowledge Assistant (Beta)</h2>
     <p>Via the compass button (🧭) you can use "The Guide", an experimental AI assistant that answers your questions based on the content of this app. Your submitted question, together with the matching text excerpts from the app needed to answer it, is transmitted to and processed by the Gemini API operated by Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland (a Google service) in order to generate an answer. No profile data, name, or other personal information is transmitted – only the question text you enter. Processing by Google may also take place outside the EU. Legal basis: Art. 6 Para. 1 lit. a GDPR (consent through active use of the feature). Further information: <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">ai.google.dev/gemini-api/terms</a>. If you do not wish to use this feature, simply do not click the compass button – the app remains fully usable without it.</p>
+    <h2>6b. Search: anonymous counting of unsuccessful search terms</h2>
+    <p>If the search finds nothing for a term you entered, the app may count that term anonymously in order to improve the search (for example by adding synonyms). Only the search term in lower case, the language of the app, a counter and the date of the first and last occurrence are stored. No IP address, no identifier and no link to your access are stored. Entries containing e-mail addresses, links, longer numbers or more than four words are discarded. The entries are deleted automatically after 90 days. Processing runs via this app's Cloudflare Worker (Cloudflare, Inc., San Francisco, USA); your IP address technically occurs briefly in the process and is not stored for this counting. The legal basis is Art. 6(1)(f) GDPR (legitimate interest in a well-functioning search). Please do not enter personal data into the search.</p>
     <h2>7. Google Fonts</h2>
     <p>This app uses fonts from Google Fonts (Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland). When the page loads, a connection to Google's servers is established and your IP address is transmitted. Legal basis: Art. 6 Para. 1 lit. f GDPR. Further information: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
     <h2>8. Purchase, Payment Processing and Contact</h2>
