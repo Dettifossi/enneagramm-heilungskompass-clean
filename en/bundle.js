@@ -765,7 +765,7 @@ const BERUEHMT_PORTRAITS = [
     heading:"Harry Houdini \u2013 Social Type 3",
     teaser:"SO3w2 \u00b7 1874\u20131926. Escape artist (Handcuff King, Water Torture Cell, crate escape in the East River): from a poor child in Budapest to one of the highest-paid entertainers of his time, president of the Society of American Magicians, opponent of the spiritualists. The Cheetah who turned his failure into a stage.",
     land:"Hungary/USA", tags:["Acting"], gender:"m"},
-{ route:"beruehmte-ada-lovelace", name:"Ada Lovelace", added:"2026-10-21", subtyp:"SO7w6",
+{ route:"beruehmte-ada-lovelace", name:"Ada Lovelace", added:"2026-10-20", subtyp:"SO7w6",
     heading:"Ada Lovelace \u2013 Social Type 7",
     teaser:"SO7w6 \u00b7 1815\u20131852. Mathematician, daughter of Lord Byron, author of the notes on Babbage\u2019s Analytical Engine (1843) containing a method regarded as the first published computer program. The Beaver who built on a system that was understood only after her.",
     land:"Great Britain", tags:["Science"], gender:"f"},
