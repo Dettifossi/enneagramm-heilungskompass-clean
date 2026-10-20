@@ -2579,3 +2579,77 @@ export function charlieChaplinPortraitPage() {
     </div>
   `);
 }
+
+export function camilleClaudelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-camille-claudel-portrait.jpg" alt="Camille Claudel – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-camille-claudel-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Camille Claudel</p>
+        <p class="krim-portrait-typ">SX4w5 &middot; Sexueller Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Bildhauerin, 1864&ndash;1943 &ndash; Schülerin und Rivalin Auguste Rodins &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua: ein Mädchen, das den Lehm formte, bevor es Bildhauerei lernte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist klein und tritt auf, als gehöre ihm der Raum. Seine Leidenschaft steht in keinem Verhältnis zu seiner Größe, und er gibt nicht nach, auch wenn die Lage aussichtslos scheint. Camille Claudel wurde am 8. Dezember 1864 in Fère-en-Tardenois im Département Aisne geboren, als Tochter eines Beamten. Ihr Bruder Paul, vier Jahre jünger, wurde später Dichter und Diplomat. Schon als Kind knetete sie im Garten Figuren aus Erde und Ton, und früh fiel auf, dass sie dabei nicht nachahmte, sondern formte, was sie sah: Gestalten in Bewegung.</p>
+          <p class="vb-intro">Der Vater förderte die Tochter und zog 1881 mit der Familie nach Paris, damit sie dort ausgebildet werden konnte. Die Mutter stand der Begabung nach Überlieferung kühl gegenüber, denn eine Bildhauerin passte nicht in das Bild, das sie sich von ihrer Tochter gemacht hatte. Camille besuchte die Académie Colarossi, eine der wenigen Kunstschulen, die Frauen offenstanden, und arbeitete im Atelier mit anderen jungen Bildhauerinnen. Ihr erster Lehrer, der Bildhauer Alfred Boucher, erkannte ihr Talent und gab sie vor einer Italienreise 1883 an Auguste Rodin weiter.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Rodin und das Gefühl, das Entscheidende zu entbehren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> ist nach Claudio Naranjo der Subtyp des Konkurrenzneids. Der Schmerz der Vier, etwas Wesentliches nicht zu besitzen, richtet sich hier nicht still nach innen, sondern auf einen Menschen, der hat, was fehlt, und auf die Frage, ob man ihn erreichen, übertreffen oder verlieren wird. Bei Claudel lässt sich das mit ihrer Verbindung zu Rodin in Zusammenhang bringen. Rodin war 24 Jahre älter, der berühmteste Bildhauer seiner Zeit und lebte seit 1864 mit Rose Beuret zusammen. Camille wurde seine Schülerin, Mitarbeiterin und Geliebte, und sie blieb es etwa anderthalb Jahrzehnte.</p>
+          <p class="vb-intro">Biografen berichten von einem Schriftstück aus dem Jahr 1886, in dem Rodin ihr Zuwendung und Treue zusicherte. Eingelöst wurde es nicht: Er blieb bei Rose Beuret. Aus einem ihrer Briefe wird der Satz überliefert: ›Il y a toujours quelque chose d'absent qui me tourmente‹ – ›Es gibt immer etwas Fehlendes, das mich quält‹. Dieses Gefühl, dass ein Wesentliches fehlt, ist das Grundthema der Vier, und bei der sexuellen Vier verbindet es sich mit Rivalität: Camille war nicht nur eine Geliebte, die verlassen wurde, sondern eine Künstlerin, die sich im selben Feld mit dem Mann maß, von dem sie geprägt war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Handwerk, Strenge und der Rückzug in die Werkstatt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der Vier Strenge, Sachlichkeit und die Neigung, sich zum Arbeiten zurückzuziehen. Bei Claudel zeigt sich das in der Wahl ihrer Werkstoffe und in der Genauigkeit ihrer Arbeit: Sie formte in Gips, goss in Bronze und schnitt in Onyx, einen Stein, der beim Bearbeiten keinen Fehler verzeiht. Je mehr sich die Beziehung zu Rodin löste, desto mehr zog sie sich zurück. Um 1898 war der Bruch endgültig.</p>
+          <p class="vb-intro">Ab etwa 1905 stellte sie kaum noch aus und lebte zurückgezogen in einer Wohnung am Quai de Bourbon auf der Île Saint-Louis in Paris. Die Fensterläden blieben nach Berichten geschlossen. Sie zerstörte eigene Arbeiten mit dem Hammer und war überzeugt, Rodin und seine Umgebung wollten ihr Werk stehlen und sie schädigen. In den Anstaltsakten ist später von Verfolgungswahn die Rede. Eine Diagnose aus der Ferne ist nicht möglich und wird hier nicht gestellt. Zu sehen ist ein Muster, das zur Verbindung von Vier und Fünf passt: Die Vier fühlt sich verraten, die Fünf zieht sich zurück und schützt den eigenen Raum, bis kaum noch jemand hineinkommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Bewegung in Stein und Bronze, nicht Monumente</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudel war mehr als Rodins Schülerin. Rodins Figuren sind schwer, monumental und aus der Masse heraus gedacht. Ihre eigenen Arbeiten sind kleiner und dichter, und sie leben von einer Bewegung, die im Körper selbst entsteht. ›Sakountala‹ (1888), eine Gruppe nach einem indischen Drama, trug ihr eine ehrende Erwähnung im Pariser Salon ein. ›La Valse‹ (›Der Walzer‹, um 1889 bis 1905) zeigt ein Paar, das im Tanz zu kippen scheint, zusammengehalten von einem flatternden Gewand, das die Bewegung selbst sichtbar macht. ›Les Causeuses‹ (›Die Schwätzerinnen‹, 1893 bis 1895) sind vier Frauen, die in einem Raum aus Onyx die Köpfe zusammenstecken und flüstern, ein Stück Alltag, das ohne Pathos auskommt. ›La Vague‹ (›Die Welle‹, um 1897) zeigt drei Badende unter einer überhängenden Woge aus Onyx und Bronze und wird mit dem Einfluss japanischer Holzschnitte in Verbindung gebracht.</p>
+          <p class="vb-intro">Der Kritiker Octave Mirbeau schrieb 1895 über sie: ›Une révolte contre la nature: une femme de génie‹ – ›Eine Auflehnung gegen die Natur: eine geniale Frau‹. Das war als Lob gemeint und verrät zugleich, wie ungewöhnlich es damals war, dass eine Frau Bildhauerin war. Von Rodin wird der Satz überliefert, er habe ihr gezeigt, wo man Gold findet, aber das Gold, das sie finde, gehöre ganz ihr. Die Begabung war real und eigenständig. Das macht ihren Fall so schmerzhaft: Die Öffentlichkeit sah in ihr lange vor allem Rodins Muse.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Bruch: Einweisung 1913 und dreißig Jahre Anstalt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ihre Gruppe ›L'Âge mûr‹ (›Das reife Alter‹, 1893 bis 1900) wird häufig als Bild ihrer Trennung von Rodin gelesen: Eine junge Frau kniet und streckt die Arme aus, ein Mann wird von einer älteren Frau fortgezogen. In ›Persée et la Gorgone‹ (›Perseus und die Gorgo‹, 1902) trägt das abgeschlagene Medusenhaupt Züge, die häufig als ihr eigenes Gesicht gedeutet werden. Das sind Deutungen, keine Belege, aber sie zeigen, wie nah Leben und Werk bei ihr beieinanderlagen.</p>
+          <p class="vb-intro">Am 2. März 1913 starb ihr Vater, der sie bis dahin gestützt hatte. Acht Tage später, am 10. März 1913, wurde sie auf Veranlassung ihrer Familie in die Anstalt Ville-Évrard bei Paris eingewiesen. 1914 kam sie in die Anstalt Montdevergues bei Avignon, wo sie bis zu ihrem Tod am 19. Oktober 1943 blieb, fast dreißig Jahre. Ärzte hielten ihre Entlassung in den 1920er-Jahren für vertretbar, die Familie lehnte sie ab. Nach Überlieferung besuchte die Mutter sie nie, ihr Bruder Paul nur selten. Sie starb mit 78 Jahren unter den Mangelbedingungen der Kriegsjahre und wurde in einem Gemeinschaftsgrab des Anstaltsfriedhofs bestattet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Vier mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX4w5 liegt bei ihr in der Kompromisslosigkeit, mit der sie ein eigenes Formgefühl durchhielt, und in der handwerklichen Strenge, die der Fünferflügel dazugibt. Ihre besten Arbeiten bestehen neben denen ihres Lehrers, und heute steht sie mit ihm im selben Museum.</p>
+          <p class="vb-intro">Der Schatten liegt dort, wo aus der Kränkung ein Feindbild wird und der Rückzug des Fünferflügels die Verbindung zu Menschen kappt, die hätten helfen können. Wo die Vier nichts mehr verzeiht und die Fünf niemanden mehr einlässt, bleibt am Ende die Werkstatt, in der sie das eigene Werk zerstört. Es ist ein Muster aus ihrem Lebensweg, und es gibt keinen Anlass, es auf andere Menschen dieses Subtyps zu übertragen.</p>
+          <p class="vb-intro">Nach ihrem Tod kam die Würdigung: 1951 zeigte das Musée Rodin eine Retrospektive, 1984 erschien die Biografie von Reine-Marie Paris, einer Enkelin ihres Bruders Paul, 1988 der Film mit Isabelle Adjani, und 2017 eröffnete in Nogent-sur-Seine das Musée Camille Claudel, in der Stadt, in der sie als Jugendliche gelebt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Verwandte Muster: Debussy und Sade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-claude-debussy">Claude Debussy</a> (SX4w5) verband sie in den frühen 1890er-Jahren eine enge Freundschaft. Ob mehr daraus wurde, ist nicht belegt. Es wird berichtet, dass Debussy einen Abguss der ›Valse‹ bis zu seinem Tod behielt. Beide folgten ihrem eigenen Formgefühl und wichen den Regeln ihrer Zeit nicht aus. <a href="javascript:void(0)" data-route="beruehmte-marquis-de-sade">Marquis de Sade</a> (SX4w5) verbrachte ebenfalls viele Jahre hinter Mauern, wenn auch aus ganz anderen Gründen.</p>
+          <p class="vb-intro">Camille Claudel bleibt in diesem Kompass das Beispiel einer Künstlerin, deren Begabung nicht zu übersehen war und deren Neigung, Kränkung nach innen zu verschließen, sie am Ende von ihren Mitmenschen trennte.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx4", label:"Lebensmusterkompass: SX4 – Chihuahua"},
+        {route:"beruehmte-claude-debussy", label:"Porträt: Claude Debussy (SX4w5) – derselbe Subtyp und Flügel"},
+        {route:"beruehmte-marquis-de-sade", label:"Porträt: Marquis de Sade (SX4w5) – derselbe Subtyp und Flügel"},
+        {route:"krankheitsportraets-claude-debussy", label:"Krankheitsporträt: Claude Debussy (SX4w5)"},
+      ])}
+    </div>
+  `);
+}

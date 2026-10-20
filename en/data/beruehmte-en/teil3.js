@@ -2496,3 +2496,77 @@ export function naviPillayPortraitPage() {
     </div>
   `);
 }
+
+export function camilleClaudelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-camille-claudel-portrait.jpg" alt="Camille Claudel – portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Camille Claudel</p>
+        <p class="krim-portrait-typ">SX4w5 · Sexual Type 4 with a Five-wing</p>
+        <p class="krim-portrait-subtitle">Sculptor, 1864–1943 – pupil and rival of Auguste Rodin – animal equivalent: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua: a girl who shaped clay before she learned sculpture</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> is small and enters a room as if it belonged to her. Its passion is out of all proportion to its size, and it does not give way even when the situation looks hopeless. Camille Claudel was born on 8 December 1864 in Fère-en-Tardenois in the Aisne department, the daughter of a civil servant. Her brother Paul, four years younger, later became a poet and diplomat. As a child she kneaded figures out of earth and clay in the garden, and it was noticed early that she did not copy but shaped what she saw: figures in motion.</p>
+          <p class="vb-intro">Her father supported her and moved the family to Paris in 1881 so that she could be trained there. According to tradition her mother was cool towards the gift, because a sculptor did not fit the picture she had of her daughter. Camille attended the Académie Colarossi, one of the few art schools open to women, and worked in a studio with other young women sculptors. Her first teacher, the sculptor Alfred Boucher, recognised her talent and handed her on to Auguste Rodin before a trip to Italy in 1883.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Four: Rodin and the feeling of lacking the decisive thing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Claudio Naranjo, the <strong>sexual Four (SX4)</strong> is the subtype of competitive envy. The Four's pain at not possessing something essential is not carried quietly inwards here but directed at a person who has what is missing, and at the question of whether one will reach, surpass or lose them. In Claudel's case this can be connected with her bond to Rodin. Rodin was 24 years older, the most famous sculptor of his time, and had lived with Rose Beuret since 1864. Camille became his pupil, collaborator and lover, and remained so for about a decade and a half.</p>
+          <p class="vb-intro">Biographers report a document from 1886 in which Rodin assured her of devotion and fidelity. It was never honoured: he stayed with Rose Beuret. A sentence from one of her letters has been handed down: ›Il y a toujours quelque chose d'absent qui me tourmente‹ ('There is always something absent that torments me'). That feeling that something essential is missing is the core theme of the Four, and in the sexual Four it combines with rivalry: Camille was not only a lover who was abandoned but an artist measuring herself in the same field against the man who had shaped her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: craft, rigour and withdrawal into the studio</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Four rigour, objectivity and a tendency to withdraw in order to work. In Claudel this shows in her choice of materials and the precision of her work: she modelled in plaster, cast in bronze and cut in onyx, a stone that forgives no mistake as it is worked. The more the relationship with Rodin came apart, the more she withdrew. By about 1898 the break was final.</p>
+          <p class="vb-intro">From about 1905 she hardly exhibited any more and lived in seclusion in an apartment on the Quai de Bourbon on the Île Saint-Louis in Paris. According to reports the shutters stayed closed. She destroyed her own works with a hammer and was convinced that Rodin and his circle wanted to steal her work and harm her. The later asylum records speak of persecutory delusions. A diagnosis from a distance is not possible and is not made here. What can be seen is a pattern that fits the combination of Four and Five: the Four feels betrayed, the Five withdraws and guards its own space until hardly anyone gets in.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: movement in stone and bronze, not monuments</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudel was more than Rodin's pupil. Rodin's figures are heavy, monumental and conceived from the mass. Her own works are smaller and denser, and they live from a movement that arises in the body itself. ›Sakountala‹ (1888), a group after an Indian drama, earned her an honourable mention at the Paris Salon. ›La Valse‹ ('The Waltz', c. 1889 to 1905) shows a couple that seems to tip over in the dance, held together by a fluttering garment that makes the movement itself visible. ›Les Causeuses‹ ('The Gossips', 1893 to 1895) are four women whispering with their heads together in a space of onyx, a piece of everyday life that needs no pathos. ›La Vague‹ ('The Wave', c. 1897) shows three bathers beneath an overhanging wave of onyx and bronze and is linked with the influence of Japanese woodblock prints.</p>
+          <p class="vb-intro">The critic Octave Mirbeau wrote of her in 1895: ›Une révolte contre la nature: une femme de génie‹ ('A revolt against nature: a woman of genius'). It was meant as praise and at the same time shows how unusual it was then for a woman to be a sculptor. Rodin is said to have remarked that he had shown her where to find gold, but the gold she found was entirely her own. The gift was real and independent. That makes her case so painful: for a long time the public saw in her mainly Rodin's muse.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The break: committal in 1913 and thirty years in the asylum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Her group ›L'Âge mûr‹ ('The Mature Age', 1893 to 1900) is often read as an image of her separation from Rodin: a young woman kneels with outstretched arms while a man is drawn away by an older woman. In ›Persée et la Gorgone‹ ('Perseus and the Gorgon', 1902) the severed head of Medusa bears features that are often interpreted as her own face. These are interpretations, not evidence, but they show how close life and work lay together in her case.</p>
+          <p class="vb-intro">On 2 March 1913 her father, who had supported her until then, died. Eight days later, on 10 March 1913, she was committed at her family's instigation to the asylum of Ville-Évrard near Paris. In 1914 she was moved to the asylum of Montdevergues near Avignon, where she remained until her death on 19 October 1943, almost thirty years. Doctors considered her release justifiable in the 1920s, but the family refused. According to tradition her mother never visited her, and her brother Paul only rarely. She died aged 78 under the shortages of the war years and was buried in a communal grave in the asylum cemetery.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Four with a Five-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX4w5 in her lies in the uncompromising way she held on to her own sense of form, and in the craft rigour the Five-wing adds. Her best works stand beside those of her teacher, and today she shares a museum with him.</p>
+          <p class="vb-intro">The shadow lies where hurt turns into an enemy image and the Five-wing's withdrawal cuts the link to people who could have helped. Where the Four forgives nothing and the Five lets no one in, what remains in the end is the studio in which she destroys her own work. This is a pattern from her life path, and there is no reason to transfer it to other people of this subtype.</p>
+          <p class="vb-intro">Recognition came after her death: in 1951 the Musée Rodin showed a retrospective, in 1984 the biography by Reine-Marie Paris, a granddaughter of her brother Paul, appeared, in 1988 the film with Isabelle Adjani, and in 2017 the Musée Camille Claudel opened in Nogent-sur-Seine, the town where she lived as a teenager.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Related patterns: Debussy and Sade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">She had a close friendship with <a href="javascript:void(0)" data-route="beruehmte-claude-debussy">Claude Debussy</a> (SX4w5) in the early 1890s. Whether more came of it is not documented. It is reported that Debussy kept a cast of ›La Valse‹ until his death. Both followed their own sense of form and did not step aside for the rules of their time. <a href="javascript:void(0)" data-route="beruehmte-marquis-de-sade">Marquis de Sade</a> (SX4w5) also spent many years behind walls, though for entirely different reasons.</p>
+          <p class="vb-intro">Camille Claudel remains in this compass the example of an artist whose gift could not be overlooked and whose tendency to shut hurt inside in the end separated her from the people around her.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: subtype profile"},
+        {route:"lebensmusterkompass/sx4", label:"Life Pattern Compass: SX4 – Chihuahua"},
+        {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5) – same subtype and wing"},
+        {route:"beruehmte-marquis-de-sade", label:"Portrait: Marquis de Sade (SX4w5) – same subtype and wing"},
+        {route:"krankheitsportraets-claude-debussy", label:"Illness portrait: Claude Debussy (SX4w5)"},
+      ])}
+    </div>
+  `);
+}
