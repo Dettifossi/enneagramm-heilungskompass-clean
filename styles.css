@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
 
 :root {
   --ivory: #f7f1e6;
@@ -5670,3 +5669,35 @@ button, a, [role="button"], [data-route], summary, label, select, input { touch-
 
 /* Klickbare Flächen (Karten) per Tastatur: sichtbarer Fokus (siehe a11y.js) */
 [role="button"][data-route]:focus-visible { outline: 2px solid var(--gold, #c9a84c); outline-offset: 2px; }
+
+/* ── Bedienung (20.10.2026): Tastaturfokus überall, Federkurven ───────────────── */
+:root {
+  --spring: cubic-bezier(0.34, 1.4, 0.64, 1);
+  --spring-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+a:focus-visible, button:focus-visible, summary:focus-visible, select:focus-visible,
+[tabindex]:focus-visible, .nav-dropdown__item:focus-visible {
+  outline: 2px solid var(--gold, #c9a84c);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+input:focus-visible, textarea:focus-visible {
+  outline: 2px solid var(--gold, #c9a84c);
+  outline-offset: 1px;
+}
+.suche-input:focus-visible { outline: none; }
+.suche-sugg:focus-visible { outline-offset: -2px; }
+
+/* Menüs und Wegweiser-Fenster federn beim Öffnen auf und starten im Zustand 'angeklickt' */
+@keyframes springPopIn {
+  from { opacity: 0; transform: translateY(-6px) scale(0.96); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes springPanelIn {
+  from { opacity: 0; transform: translateY(14px) scale(0.97); transform-origin: bottom right; }
+  to   { opacity: 1; transform: none; transform-origin: bottom right; }
+}
+.nav-dropdown-wrap.is-open .nav-dropdown__menu { animation: springPopIn 0.28s var(--spring) both; }
+#wegweiser-panel { animation: springPanelIn 0.34s var(--spring) both; }
+.suche-vorschlaege.is-open { animation: springPopIn 0.22s var(--spring-soft) both; }
+button, [role="button"] { transition-timing-function: var(--spring-soft); }
