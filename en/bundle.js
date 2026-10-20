@@ -51216,8 +51216,8 @@ function portraitUpgradePage() {
         <div class="freischalt-card__angebote" style="justify-content:center;">
           <div class="freischalt-angebot freischalt-angebot--gesamt">
             <strong>Upgrade to full access</strong>
-            <span class="freischalt-angebot__preis">€ 40</span>
-            <span class="freischalt-angebot__label">one-time · your 39 € is credited</span>
+            <span class="freischalt-angebot__preis">$45</span>
+            <span class="freischalt-angebot__label">one-time · your $44 is credited</span>
             ${buy}
           </div>
         </div>
