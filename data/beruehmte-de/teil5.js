@@ -537,6 +537,7 @@ export function elonMuskPortraitPage() {
         {route:"beruehmte-jeanne-marie-guyon", label:"Porträt: Jeanne-Marie Bouvier de la Motte Guyon (SO7w6)"},
         {route:"beruehmte-johann-wolfgang-von-goethe", label:"Porträt: Johann Wolfgang von Goethe (SO7w6)"},
         {route:"beruehmte-rowan-atkinson", label:"Porträt: Rowan Atkinson (SO7w6)"},
+        {route:"beruehmte-ada-lovelace", label:"Porträt: Ada Lovelace (SO7w6)"},
       ])}
     </div>
   `);
