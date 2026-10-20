@@ -54,7 +54,11 @@
   function esc(x) { return String(x).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
   function toast(m) { var t = document.getElementById("to"); t.textContent = m; t.classList.add("on"); setTimeout(function () { t.classList.remove("on"); }, 1800); }
   function link(z) { return BASE + z.n + ".html?q=" + ch.value; }
-  function text(z) { return "„" + z.q + "“ – " + z.a + "\n\nWelcher Typ steckt in diesem Satz? → " + link(z) + "\n\n#Enneagramm #Selbsterkenntnis"; }
+  function text(z) {
+    var kopf = "„" + z.q + "“ – " + z.a + "\n\nWelcher Typ steckt in diesem Satz? ";
+    if (ch.value === "ig") return kopf + "Mehr dazu über den Link in der Bio.\n\n#Enneagramm #Selbsterkenntnis #Persönlichkeit #Psychologie";
+    return kopf + "→ " + link(z) + "\n\n#Enneagramm #Selbsterkenntnis";
+  }
   function render() {
     var q = s.value.trim().toLowerCase(), t = th.value;
     var L = Z.filter(function (z) { return (!t || z.t === t) && (!q || (z.q + " " + z.a).toLowerCase().indexOf(q) > -1); });
