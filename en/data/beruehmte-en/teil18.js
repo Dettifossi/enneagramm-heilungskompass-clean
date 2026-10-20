@@ -1272,6 +1272,7 @@ export function nikolaTeslaPortraitPage() {
         {route:"beruehmte-miguel-de-unamuno", label:"Portrait: Miguel de Unamuno (SE4w5)"},
         {route:"beruehmte-vincent-van-gogh", label:"Portrait: Vincent van Gogh (SE4w5)"},
         {route:"beruehmte-virginia-woolf", label:"Portrait: Virginia Woolf (SE4w5)"},
+        {route:"beruehmte-ada-lovelace", label:"Portrait: Ada Lovelace (SO7w6)"},
       ])}
     </div>
   `);

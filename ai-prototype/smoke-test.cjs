@@ -121,6 +121,8 @@ const ROUTES = [
   { hash: "en/#kriminalpsychologie-lindsay-clancy", label: "Neues EN-Kriminalporträt: Lindsay Clancy" },
   { hash: "#beruehmte-harry-houdini", label: "Neues Porträt: Harry Houdini" },
   { hash: "en/#beruehmte-harry-houdini", label: "Neues EN-Porträt: Harry Houdini" },
+  { hash: "#beruehmte-ada-lovelace", label: "Neues Porträt: Ada Lovelace" },
+  { hash: "en/#beruehmte-ada-lovelace", label: "Neues EN-Porträt: Ada Lovelace" },
   { hash: "#beruehmte-auguste-rodin", label: "Neues Porträt: Auguste Rodin" },
   { hash: "en/#beruehmte-auguste-rodin", label: "Neues EN-Porträt: Auguste Rodin" },
   { hash: "#beruehmte-camille-claudel", label: "Neues Porträt: Camille Claudel" },

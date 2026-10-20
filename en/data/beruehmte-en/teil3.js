@@ -1752,6 +1752,7 @@ export function alanTuringPortraitPage() {
         {route:"beruehmte-greta-garbo", label:"Portrait: Greta Garbo (SX5w4)"},
         {route:"beruehmte-hugh-warwick", label:"Portrait: Hugh Warwick (SX5w4)"},
         {route:"krankheitsportraets-alan-turing", label:"Illness Portrait: Alan Turing (SX5w4)"},
+        {route:"beruehmte-ada-lovelace", label:"Portrait: Ada Lovelace (SO7w6)"},
       ])}
     </div>
   `);

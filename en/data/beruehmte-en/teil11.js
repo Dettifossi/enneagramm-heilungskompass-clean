@@ -2612,3 +2612,75 @@ export function olafSchubertPortraitPage() {
     </div>
   `);
 }
+
+export function adaLovelacePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ada-lovelace-portrait.jpg" alt="Ada Lovelace – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-ada-lovelace-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Ada Lovelace</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with a Six-wing</p>
+        <p class="krim-portrait-subtitle">Mathematician, 1815&ndash;1852 &ndash; author of the Notes on the Analytical Engine &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver: a girl who designed a flying machine at twelve</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Beaver</strong> is the animal of the social Seven. It builds without pause, and what it builds serves more than itself: dams, ponds, a whole structure that others live from. Augusta Ada Byron was born on 10 December 1815 in London, the daughter of the poet Lord Byron and the reformer Anne Isabella Milbanke. Byron separated from her mother about a month after her birth and died in April 1824, when Ada was eight. She never had a real relationship with him.</p>
+          <p class="vb-intro">Her mother kept her away from Byron's influence and had her watched for signs of ›moral deviation‹; Ada called these watchers the ›Furies‹. From the age of eight she had headaches, in June 1829 measles paralysed her, she lay in bed for almost a year and walked on crutches in 1831. In February 1828, aged twelve, she planned a flying machine, studied the anatomy of birds and drafted a book titled ›Flyology‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Seven: building for a larger whole</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the subtype of the social Seven that of sacrifice. It means an idealism that puts one's own pleasure aside when it serves a cause or a community. It is regarded as the countertype of the Seven: instead of enjoyment, service stands in the foreground. In Ada this can be linked to her turn to mathematics and to Charles Babbage's calculating machine. Her mother had her taught mathematics early, her teachers included William Frend, William King and Mary Somerville, and later Augustus De Morgan helped her. Her talent emerged from 1832, at the age of 17.</p>
+          <p class="vb-intro">On 5 June 1833 she met Charles Babbage through Mary Somerville. On 8 July 1835 she married William King, who was made Earl of Lovelace in 1838, which made her Countess of Lovelace. The children Byron (1836), Anne Isabella, called Annabella (1837), and Ralph Gordon (1839) followed in quick succession. In a letter of 6 February 1841 she wrote to her mother that she possessed a ›most singular combination of qualities exactly fitted to make me pre-eminently a discoverer of the hidden realities of nature‹ and spoke of her ›insatiable &amp; restless energy‹, for which she had finally found a purpose.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: mentors, loyalty and the mother</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven loyalty to people she trusts and a need for backing. Ada sought mentors: Somerville, De Morgan and above all Babbage. Toward her mother she remained all her life in a tension of rebellion and dependence. In the last months of her cancer her mother controlled who could visit her. Under her influence Ada became religious, according to the accounts repented her earlier conduct and made Lady Byron her executor.</p>
+          <p class="vb-intro">That she could hold her ground is shown by the quarrel with Babbage in 1843. He wanted to add an anonymous preface about government funding to the translation and demanded that she withdraw her work. She refused; to do so would be ›dishonorable &amp; unjustifiable‹. On 14 August 1843 she sent a long letter with conditions, on whose copy Babbage noted that he had seen her that morning and refused all the conditions. A week later she wrote to her mother that Babbage and she were perhaps more friends than ever.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: Notes A to G</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1842 and 1843 Ada translated an article by the Italian mathematician Luigi Menabrea on the Analytical Engine and added Notes A to G, which were three times as long as the text itself. They appeared in September 1843 under her initials ›AAL‹. Note G contains a method for computing Bernoulli numbers, often regarded as the first published computer program. How much of it was her own contribution is disputed among historians, since Babbage had written earlier unpublished programs.</p>
+          <p class="vb-intro">Her own thought went further: she saw that the machine could handle not only numbers but other things, such as music, and wrote that it had ›no pretensions whatever to originate anything‹. She called her approach ›poetical science‹ and herself an ›Analyst (&amp; Metaphysician)‹. In 1844 she spoke of creating a ›calculus of the nervous system‹, which she never achieved. Most people described her as dainty and charming, and she was a celebrated young woman of her first season, partly for her brilliant mind. Babbage called her ›The Enchantress of Number‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Playing with risk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The same restlessness shows in private life. An affair with a tutor in 1833 ended in a failed attempt to elope, which her mother's circle covered up. In 1841 her mother told her that Byron's half-sister Augusta Leigh had had a child with Byron, and Ada blamed Augusta more than her father. In the 1840s rumours of affairs persisted, and from 1844 of a relationship with John Crosse.</p>
+          <p class="vb-intro">In the late 1840s she lost over £3,000 betting on horses. In 1851 she led a betting syndicate that bet according to a mathematical model. It failed badly and left her with debts of several thousand pounds, which she had to confess to her husband. This can be understood as building on a system, here with a group and a mathematical model, but without the backing that science gave her.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Seven with a Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO7w6 lies in Ada in the combination of imagination and rigour: she built an intellectual edifice that reached beyond her time and put herself in the service of Babbage's project. Her notes appeared under the initials ›AAL‹, but she wanted them to be attributable to her later.</p>
+          <p class="vb-intro">The shadow lies where the building is never finished and the risk is no longer cushioned. Much remained plan, the bets left debts, and the dependence on her mother lasted to the end. Ada Lovelace died on 27 November 1852, aged 36, in Marylebone in London of cervical cancer, then called uterine cancer. At her request she was buried beside her father in Hucknall, Nottinghamshire.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Related patterns: Tesla and Verne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The combination of wealth of ideas, service to a larger whole and a building never finished appears in <a href="javascript:void(0)" data-route="beruehmte-nikola-tesla">Nikola Tesla</a> (SO7w6), who designed inventions for the public, and in <a href="javascript:void(0)" data-route="beruehmte-jules-verne">Jules Verne</a> (SO7w6), whose novels anticipated a technical future. As a later pioneer of computer science, <a href="javascript:void(0)" data-route="beruehmte-alan-turing">Alan Turing</a> (SX5w4) appears in this compass, a different type with a similar subject. Against the assignment to the Seven speaks her bent for analysis, which would fit a Five just as well.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: subtype profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6) – same subtype and wing"},
+        {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6) – same subtype and wing"},
+        {route:"beruehmte-alan-turing", label:"Portrait: Alan Turing (SX5w4) – pioneer of computer science"},
+      ])}
+    </div>
+  `);
+}

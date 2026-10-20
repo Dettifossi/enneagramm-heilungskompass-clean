@@ -2641,3 +2641,75 @@ export function bernhardHoeckerPortraitPage() {
     </div>
   `);
 }
+
+export function adaLovelacePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ada-lovelace-portrait.jpg" alt="Ada Lovelace – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-ada-lovelace-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Ada Lovelace</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Mathematikerin, 1815&ndash;1852 &ndash; Verfasserin der Notizen zur Analytical Engine &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber: ein Mädchen, das mit zwölf eine Flugmaschine entwarf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> ist das Tier der sozialen Sieben. Er baut ohne Pause, und was er baut, dient mehr als ihm selbst: Dämme, Teiche, ein ganzes Gefüge, von dem andere leben. Augusta Ada Byron wurde am 10. Dezember 1815 in London als Tochter des Dichters Lord Byron und der Reformerin Anne Isabella Milbanke geboren. Byron trennte sich etwa einen Monat nach ihrer Geburt von der Mutter und starb im April 1824, als Ada acht war. Eine wirkliche Beziehung zu ihm hatte sie nie.</p>
+          <p class="vb-intro">Die Mutter hielt sie von Byrons Einfluss fern und ließ sie auf Anzeichen ›moralischer Abweichung‹ beobachten, Ada nannte diese Aufpasser die ›Furien‹. Ab dem achten Lebensjahr hatte sie Kopfschmerzen, im Juni 1829 lähmten sie die Masern, sie lag fast ein Jahr im Bett und ging 1831 an Krücken. Im Februar 1828, mit zwölf, plante sie eine Flugmaschine, studierte die Anatomie von Vögeln und entwarf ein Buch mit dem Titel ›Flyology‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: Bauen für ein größeres Ganzes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den Subtyp der sozialen Sieben den des Opfers. Gemeint ist ein Idealismus, der das eigene Vergnügen zurückstellt, wenn es einer Sache oder Gemeinschaft dient. Er gilt als Kontratyp der Sieben: Statt Genuss steht der Dienst im Vordergrund. Bei Ada lässt sich das mit ihrer Hinwendung zur Mathematik und zu Charles Babbages Rechenmaschine in Verbindung bringen. Die Mutter ließ sie früh in Mathematik unterrichten, Lehrer waren unter anderem William Frend, William King und Mary Somerville, später half ihr Augustus De Morgan. Ihr Talent trat ab 1832 hervor, mit 17 Jahren.</p>
+          <p class="vb-intro">Am 5. Juni 1833 lernte sie durch Mary Somerville Charles Babbage kennen. Am 8. Juli 1835 heiratete sie William King, der 1838 zum Earl of Lovelace erhoben wurde, womit sie Gräfin von Lovelace war. Die Kinder Byron (1836), Anne Isabella, genannt Annabella (1837), und Ralph Gordon (1839) kamen kurz hintereinander. In einem Brief vom 6. Februar 1841 schrieb sie ihrer Mutter, sie besitze eine ›most singular combination of qualities exactly fitted to make me pre-eminently a discoverer of the hidden realities of nature‹ (›eine höchst einzigartige Verbindung von Eigenschaften, die mich zu einer Entdeckerin der verborgenen Wirklichkeiten der Natur bestimmt‹) und von ihrer ›insatiable & restless energy‹ (›unersättlichen und rastlosen Energie‹), für die sie endlich ein Ziel gefunden habe.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Mentoren, Loyalität und die Mutter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Loyalität gegenüber Menschen, denen sie vertraut, und ein Bedürfnis nach Rückhalt. Ada suchte Mentoren: Somerville, De Morgan und vor allem Babbage. Gegenüber der Mutter blieb sie ein Leben lang in einem Spannungsverhältnis aus Auflehnung und Abhängigkeit. In den letzten Monaten ihrer Krebserkrankung kontrollierte die Mutter, wer sie besuchen durfte. Ada wurde unter ihrem Einfluss religiös, bereute nach den Berichten ihr früheres Verhalten und machte Lady Byron zur Testamentsvollstreckerin.</p>
+          <p class="vb-intro">Dass sie ihre Meinung durchsetzen konnte, zeigt der Streit mit Babbage 1843. Er wollte der Übersetzung ein anonymes Vorwort über die Regierungsförderung beifügen und verlangte, dass sie ihre Arbeit zurückzieht. Sie lehnte ab, das wäre ›dishonorable &amp; unjustifiable‹ (›unehrenhaft und nicht zu rechtfertigen‹). Am 14. August 1843 schickte sie einen langen Brief mit Bedingungen, auf dessen Kopie Babbage notierte, er habe sie am Morgen getroffen und alle Bedingungen abgelehnt. Eine Woche später schrieb sie ihrer Mutter, Babbage und sie seien wohl mehr Freunde als je zuvor.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: die Notizen A bis G</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1842 und 1843 übersetzte Ada einen Aufsatz des italienischen Mathematikers Luigi Menabrea über die Analytical Engine und fügte die Notizen A bis G hinzu, die dreimal so lang waren wie der Text selbst. Sie erschienen im September 1843 unter ihren Initialen ›AAL‹. Notiz G enthält ein Verfahren zur Berechnung der Bernoulli-Zahlen, das oft als das erste veröffentlichte Computerprogramm gilt. Wie viel davon ihr eigener Beitrag war, ist unter Historikern umstritten, denn Babbage hatte früher schon unveröffentlichte Programme geschrieben.</p>
+          <p class="vb-intro">Ihr eigener Gedanke war weiter: Sie sah, dass die Maschine nicht nur mit Zahlen umgehen konnte, sondern auch mit anderen Dingen, etwa mit Musik, und schrieb, sie habe ›no pretensions whatever to originate anything‹ (›keinerlei Anspruch, irgendetwas selbst zu erfinden‹). Ihren Ansatz nannte sie ›poetical science‹ (›poetische Wissenschaft‹) und sich selbst ›Analyst (&amp; Metaphysician)‹ (›Analytikerin und Metaphysikerin‹). 1844 sprach sie davon, eine ›Rechnung des Nervensystems‹ zu schaffen, die ihr nie gelang. Die meisten beschrieben sie als zierlich und charmant, und sie war in ihrer ersten Saison eine gefeierte junge Frau, auch wegen ihres glänzenden Verstandes. Babbage nannte sie ›The Enchantress of Number‹ (›Die Zauberin der Zahlen‹).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das Spiel mit dem Risiko</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Dieselbe Rastlosigkeit zeigt sich im Privaten. Eine Affäre mit einem Hauslehrer 1833 endete mit einem gescheiterten Fluchtversuch, den der Kreis der Mutter vertuschte. 1841 erfuhr sie von ihrer Mutter, dass Byrons Halbschwester Augusta Leigh ein Kind von Byron hatte, und gab Augusta mehr Schuld als ihrem Vater. In den 1840er-Jahren hielten sich Gerüchte über Affären, ab 1844 über eine Beziehung zu John Crosse.</p>
+          <p class="vb-intro">In den späten 1840er-Jahren verlor sie über 3.000 Pfund bei Pferdewetten. 1851 führte sie ein Wettsyndikat, das nach einem mathematischen Modell wettete. Es scheiterte schwer und ließ sie mit Schulden von mehreren tausend Pfund zurück, die sie ihrem Mann gestehen musste. Das lässt sich als Bauen an einem System verstehen, hier mit einer Gruppe und einem mathematischen Modell, aber ohne den Rückhalt, den ihr die Wissenschaft gab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO7w6 liegt bei Ada in der Verbindung von Vorstellungskraft und Strenge: Sie baute ein Gedankengebäude, das über ihre Zeit hinausreichte, und stellte sich in den Dienst von Babbages Projekt. Ihre Notizen erschienen unter den Initialen ›AAL‹, sie wollte aber, dass sie ihr später zugeordnet werden konnten.</p>
+          <p class="vb-intro">Der Schatten liegt dort, wo das Bauen nie fertig wird und das Wagnis nicht mehr aufgefangen ist. Vieles blieb Plan, die Wetten hinterließen Schulden, und die Abhängigkeit von der Mutter blieb bis zum Ende. Ada Lovelace starb am 27. November 1852 im Alter von 36 Jahren in Marylebone in London an Gebärmutterhalskrebs, damals Gebärmutterkrebs genannt. Auf ihren Wunsch wurde sie neben ihrem Vater in Hucknall in Nottinghamshire beigesetzt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Verwandte Muster: Tesla und Verne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Verbindung aus Ideenreichtum, Dienst an einem größeren Ganzen und nie fertigem Bau zeigt sich bei <a href="javascript:void(0)" data-route="beruehmte-nikola-tesla">Nikola Tesla</a> (SO7w6), der Erfindungen für die Allgemeinheit entwarf, und bei <a href="javascript:void(0)" data-route="beruehmte-jules-verne">Jules Verne</a> (SO7w6), dessen Romane technische Zukunft vorwegnahmen. Als spätere Pionierin der Informatik steht <a href="javascript:void(0)" data-route="beruehmte-alan-turing">Alan Turing</a> (SX5w4) in diesem Kompass, ein anderer Typ mit ähnlichem Gegenstand. Gegen die Zuordnung zur Sieben spricht ihr Hang zur Analyse, der ebenso zu einer Fünf passen würde.</p>
+          ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+          ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+          ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+        </blockquote>
+
+      </div>
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6) – derselbe Subtyp und Flügel"},
+        {route:"beruehmte-jules-verne", label:"Porträt: Jules Verne (SO7w6) – derselbe Subtyp und Flügel"},
+        {route:"beruehmte-alan-turing", label:"Porträt: Alan Turing (SX5w4) – Pionier der Informatik"},
+      ])}
+    </div>
+  `);
+}
