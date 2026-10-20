@@ -5701,3 +5701,32 @@ input:focus-visible, textarea:focus-visible {
 #wegweiser-panel { animation: springPanelIn 0.34s var(--spring) both; }
 .suche-vorschlaege.is-open { animation: springPopIn 0.22s var(--spring-soft) both; }
 button, [role="button"] { transition-timing-function: var(--spring-soft); }
+
+/* ── Seitenwechsel (View Transitions): kurzes Ausblenden, sanftes Einschweben ── */
+@media (prefers-reduced-motion: no-preference) {
+  ::view-transition-old(root) { animation: 0.12s ease both vtOut; }
+  ::view-transition-new(root) { animation: 0.28s var(--spring-soft) both vtIn; }
+}
+@keyframes vtOut { to { opacity: 0; } }
+@keyframes vtIn { from { opacity: 0; transform: translateY(10px); } }
+
+/* ── Typografie: ruhiger Zeilenfall, weniger Einzelwörter am Zeilenende ─────── */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; font-kerning: normal; }
+h1, h2, h3, .vb-section, .section-title { text-wrap: balance; }
+p, li, .vb-intro { text-wrap: pretty; }
+:lang(de) p, :lang(de) li, :lang(de) .vb-intro { hyphens: auto; hyphenate-limit-chars: 7 3 3; }
+
+/* ── Touch: größere Treffer­flächen für kleine Bedienelemente (Layout bleibt gleich) ─ */
+@media (pointer: coarse) {
+  .kf-btn, .related-link-btn, .tagesimpuls-card__close, .page-back-btn, .fav-heart-btn,
+  .voice-mute-btn, .suche-fav-nav-btn, .register-jump, .legal-footer__link,
+  .start-path__btn, .ghost-link, .chip-nav-btn { position: relative; }
+  .related-link-btn::after, .page-back-btn::after, .suche-fav-nav-btn::after,
+  .voice-mute-btn::after, .start-path__btn::after, .chip-nav-btn::after,
+  .tagesimpuls-card__close::after, .fav-heart-btn::after, .register-jump::after,
+  .legal-footer__link::after, .ghost-link::after, .kf-btn::after,
+  .lang-switcher::after { content: ""; position: absolute; inset: -9px -6px; }
+  .tagesimpuls-card__close::after, .fav-heart-btn::after, .register-jump::after { inset: -12px -10px; }
+  .legal-footer__link::after, .ghost-link::after { inset: -14px -8px; }
+  .kf-btn::after { inset: -6px -3px; }
+}

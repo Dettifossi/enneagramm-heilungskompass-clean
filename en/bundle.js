@@ -56501,8 +56501,16 @@ function subtypeSchaubilderPage() {
     }
     requestAnimationFrame(() => requestAnimationFrame(() => { app.style.opacity = "1"; }));
   };
+  // Seitenwechsel: wo verfügbar, weicher Übergang ohne Wartezeit (View Transitions);
+  // sonst das bisherige Aus- und Einblenden. Bei reduzierter Bewegung kein Übergang.
+  const _prevRoute = window._lastRenderedRoute;
+  window._lastRenderedRoute = state.route;
+  const _useVT = !!document.startViewTransition && !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
   if (app.innerHTML === "") {
     setContent();
+  } else if (_useVT && _prevRoute && _prevRoute !== state.route) {
+    app.style.opacity = "1";
+    document.startViewTransition(() => { setContent(); });
   } else {
     app.style.opacity = "0";
     setTimeout(setContent, 180);
