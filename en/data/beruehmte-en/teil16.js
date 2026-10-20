@@ -2822,6 +2822,7 @@ export function konradZusePortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">With <a href="javascript:void(0)" data-route="beruehmte-johannes-gutenberg">Johannes Gutenberg</a> (SE1w9), Zuse shares more than the subtype. Both combined various individual parts into a system that changed how information is processed, Gutenberg in printing, Zuse in calculating. Both worked quietly for a long time, and both became dependent on financiers through the financing of their workshop: Gutenberg lost equipment and type to Johannes Fust in 1455, and Zuse's company passed into Siemens's hands from 1967.</p>
           <p class="vb-intro">The difference lies in the trace they left. Not a single personal sentence of Gutenberg's survives. Zuse wrote an autobiography, &lsquo;Der Computer – Mein Lebenswerk&rsquo; (&lsquo;The Computer – My Life's Work&rsquo;, 1970), painted and explained his ideas publicly. In comparison with <a href="javascript:void(0)" data-route="beruehmte-michael-schumacher">Michael Schumacher</a> (SE1w9), it is also noticeable that Zuse's precision was directed at a work that carried on without him, whereas with Schumacher the person himself was the instrument.</p>
+          <p class="vb-intro">An earlier forerunner of programmable computing is <a href="javascript:void(0)" data-route="beruehmte-ada-lovelace">Ada Lovelace</a> (SO7w6). Her notes of 1843 describe a method for Charles Babbage's Analytical Engine, which was never fully built, whereas Zuse built his machines himself and got them to run.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -2835,6 +2836,7 @@ export function konradZusePortraitPage() {
         {route:"beruehmte-johannes-gutenberg", label:"Portrait: Johannes Gutenberg (SE1w9) – same subtype"},
         {route:"beruehmte-michael-schumacher", label:"Portrait: Michael Schumacher (SE1w9)"},
         {route:"beruehmte-johannes-paul-ii", label:"Portrait: John Paul II (SE1w9)"},
+        {route:"beruehmte-ada-lovelace", label:"Portrait: Ada Lovelace (SO7w6) – forerunner of programmable computing"},
       ])}
     </div>
   `);

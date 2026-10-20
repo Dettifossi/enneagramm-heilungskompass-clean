@@ -2666,7 +2666,7 @@ export function adaLovelacePortraitPage() {
 
         <h2 class="vb-section">7. Related patterns: Tesla and Verne</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The combination of wealth of ideas, service to a larger whole and a building never finished appears in <a href="javascript:void(0)" data-route="beruehmte-nikola-tesla">Nikola Tesla</a> (SO7w6), who designed inventions for the public, and in <a href="javascript:void(0)" data-route="beruehmte-jules-verne">Jules Verne</a> (SO7w6), whose novels anticipated a technical future. As a later pioneer of computer science, <a href="javascript:void(0)" data-route="beruehmte-alan-turing">Alan Turing</a> (SX5w4) appears in this compass, a different type with a similar subject. Against the assignment to the Seven speaks her bent for analysis, which would fit a Five just as well.</p>
+          <p class="vb-intro">The combination of wealth of ideas, service to a larger whole and a building never finished appears in <a href="javascript:void(0)" data-route="beruehmte-nikola-tesla">Nikola Tesla</a> (SO7w6), who designed inventions for the public, and in <a href="javascript:void(0)" data-route="beruehmte-jules-verne">Jules Verne</a> (SO7w6), whose novels anticipated a technical future. As a later pioneer of computer science, <a href="javascript:void(0)" data-route="beruehmte-alan-turing">Alan Turing</a> (SX5w4) appears in this compass, a different type with a similar subject, and <a href="javascript:void(0)" data-route="beruehmte-konrad-zuse">Konrad Zuse</a> (SE1w9) later built a programmable computer himself with the Z3. Against the assignment to the Seven speaks her bent for analysis, which would fit a Five just as well.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -2680,6 +2680,7 @@ export function adaLovelacePortraitPage() {
         {route:"beruehmte-nikola-tesla", label:"Portrait: Nikola Tesla (SO7w6) – same subtype and wing"},
         {route:"beruehmte-jules-verne", label:"Portrait: Jules Verne (SO7w6) – same subtype and wing"},
         {route:"beruehmte-alan-turing", label:"Portrait: Alan Turing (SX5w4) – pioneer of computer science"},
+        {route:"beruehmte-konrad-zuse", label:"Portrait: Konrad Zuse (SE1w9) – builder of the Z3"},
       ])}
     </div>
   `);

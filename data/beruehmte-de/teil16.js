@@ -2828,6 +2828,7 @@ export function konradZusePortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Mit <a href="javascript:void(0)" data-route="beruehmte-johannes-gutenberg">Johannes Gutenberg</a> (SE1w9) teilt Zuse mehr als den Subtyp. Beide verbanden verschiedene Einzelteile zu einem System, das die Verarbeitung von Information verändert hat, Gutenberg beim Drucken, Zuse beim Rechnen. Beide arbeiteten lange im Stillen, und beide gerieten über die Finanzierung ihrer Werkstatt in Abhängigkeit von Geldgebern: Gutenberg verlor 1455 Geräte und Lettern an Johannes Fust, Zuses Firma ging ab 1967 in die Hand von Siemens über.</p>
           <p class="vb-intro">Der Unterschied liegt in der Spur, die sie hinterließen. Von Gutenberg ist kein einziger persönlicher Satz überliefert. Zuse schrieb eine Autobiografie, ›Der Computer – Mein Lebenswerk‹ (1970), malte und erklärte seine Ideen öffentlich. Im Vergleich mit <a href="javascript:void(0)" data-route="beruehmte-michael-schumacher">Michael Schumacher</a> (SE1w9) fällt zudem auf, dass Zuses Genauigkeit sich auf ein Werk richtete, das auch ohne ihn weiterlief, während bei Schumacher die Person selbst das Instrument war.</p>
+          <p class="vb-intro">Eine frühere Wegbereiterin des programmierbaren Rechnens ist <a href="javascript:void(0)" data-route="beruehmte-ada-lovelace">Ada Lovelace</a> (SO7w6). Ihre Notizen von 1843 beschreiben ein Verfahren für Charles Babbages Analytical Engine, die nie fertig gebaut wurde, während Zuse seine Maschinen selbst baute und zum Laufen brachte.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -2841,6 +2842,7 @@ export function konradZusePortraitPage() {
         {route:"beruehmte-johannes-gutenberg", label:"Porträt: Johannes Gutenberg (SE1w9) – derselbe Subtyp"},
         {route:"beruehmte-michael-schumacher", label:"Porträt: Michael Schumacher (SE1w9)"},
         {route:"beruehmte-johannes-paul-ii", label:"Porträt: Johannes Paul II. (SE1w9)"},
+        {route:"beruehmte-ada-lovelace", label:"Porträt: Ada Lovelace (SO7w6) – Wegbereiterin des programmierbaren Rechnens"},
       ])}
     </div>
   `);

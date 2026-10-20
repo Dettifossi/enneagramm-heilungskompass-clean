@@ -2695,7 +2695,7 @@ export function adaLovelacePortraitPage() {
 
         <h2 class="vb-section">7. Verwandte Muster: Tesla und Verne</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die Verbindung aus Ideenreichtum, Dienst an einem größeren Ganzen und nie fertigem Bau zeigt sich bei <a href="javascript:void(0)" data-route="beruehmte-nikola-tesla">Nikola Tesla</a> (SO7w6), der Erfindungen für die Allgemeinheit entwarf, und bei <a href="javascript:void(0)" data-route="beruehmte-jules-verne">Jules Verne</a> (SO7w6), dessen Romane technische Zukunft vorwegnahmen. Als spätere Pionierin der Informatik steht <a href="javascript:void(0)" data-route="beruehmte-alan-turing">Alan Turing</a> (SX5w4) in diesem Kompass, ein anderer Typ mit ähnlichem Gegenstand. Gegen die Zuordnung zur Sieben spricht ihr Hang zur Analyse, der ebenso zu einer Fünf passen würde.</p>
+          <p class="vb-intro">Die Verbindung aus Ideenreichtum, Dienst an einem größeren Ganzen und nie fertigem Bau zeigt sich bei <a href="javascript:void(0)" data-route="beruehmte-nikola-tesla">Nikola Tesla</a> (SO7w6), der Erfindungen für die Allgemeinheit entwarf, und bei <a href="javascript:void(0)" data-route="beruehmte-jules-verne">Jules Verne</a> (SO7w6), dessen Romane technische Zukunft vorwegnahmen. Als spätere Pionierin der Informatik steht <a href="javascript:void(0)" data-route="beruehmte-alan-turing">Alan Turing</a> (SX5w4) in diesem Kompass, ein anderer Typ mit ähnlichem Gegenstand, und <a href="javascript:void(0)" data-route="beruehmte-konrad-zuse">Konrad Zuse</a> (SE1w9) baute mit der Z3 später selbst einen programmierbaren Rechner. Gegen die Zuordnung zur Sieben spricht ihr Hang zur Analyse, der ebenso zu einer Fünf passen würde.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
@@ -2709,6 +2709,7 @@ export function adaLovelacePortraitPage() {
         {route:"beruehmte-nikola-tesla", label:"Porträt: Nikola Tesla (SO7w6) – derselbe Subtyp und Flügel"},
         {route:"beruehmte-jules-verne", label:"Porträt: Jules Verne (SO7w6) – derselbe Subtyp und Flügel"},
         {route:"beruehmte-alan-turing", label:"Porträt: Alan Turing (SX5w4) – Pionier der Informatik"},
+        {route:"beruehmte-konrad-zuse", label:"Porträt: Konrad Zuse (SE1w9) – Erbauer der Z3"},
       ])}
     </div>
   `);
