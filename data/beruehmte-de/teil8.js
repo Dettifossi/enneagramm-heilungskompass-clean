@@ -2699,13 +2699,19 @@ export function donKingPortraitPage() {
           <p class="vb-intro">King selbst klagte 2005 gegen den Sender ESPN auf 2,5 Milliarden Dollar wegen einer Dokumentation; die Klage wurde abgewiesen, die Abweisung 2010 bestätigt. Auch die Verfahren der letzten Jahre drehen sich um Geld und Besitz. Wo das Revier berührt wird, geht es um Kontrolle über Zahlen und Verträge.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Sieben mit Achterflügel</h2>
+        <h2 class="vb-section">6. Parallele im selben Subtyp: Carey, Tebartz-van Elst und Lafer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den Porträts dieses Kompasses stehen mehrere SE7w8er, und der Vergleich zeigt, was Kings Muster ausmacht. <a href="#beruehmte-mariah-carey">Mariah Carey (SE7w8)</a> wuchs wie King in unsicheren Verhältnissen auf, baute ihr Nest später groß (Penthouses, Privatjets, eine Fangemeinde als Familie) und nutzt Macht als Schutzschild. <a href="#beruehmte-franz-peter-tebartz-van-elst">Franz-Peter Tebartz-van Elst (SE7w8)</a> baute sich auf dem Limburger Domberg einen geschützten Raum aus Vertrauten und Vorteilen und beantwortete Kritik mit Gegenwehr statt mit Rückzug. <a href="#beruehmte-johann-lafer">Johann Lafer (SE7w8)</a> zeigt die friedliche Seite des Subtyps: Genuss und Sicherheit im engsten Kreis, ohne Konflikt.</p>
+          <p class="vb-intro">Allen gemeinsam ist das Revier aus Vertrauten und Besitz, das der Achterflügel verteidigt. Bei Lafer bleibt das Revier ein Haus und eine Küche, bei Carey ein inneres Nest mit Schutzwall, bei Tebartz-van Elst ein Bauprojekt. Bei King ist es ein Markt: die Verträge der Boxer, ihre Börsen und ihre Treue. Das macht den Unterschied in der Wirkung. Wo die anderen ihr Revier schützen, verhandelt King mit seinem; deshalb haben seine ›Familienmitglieder‹ ihn so oft vor Gericht gesehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten der selbsterhaltenden Sieben mit Achterflügel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht liegt in einer ungewöhnlichen Verwandlung: Ein Mann aus einer Stahlarbeiterfamilie, der wegen Totschlags im Gefängnis gesessen hatte, wurde zu einem Veranstalter, dessen Kämpfe in der Boxgeschichte einen festen Platz haben. Er verband Sportler, Politik, Medien und Geld und gab vielen Boxern die Bühne, die sie ohne ihn nicht gehabt hätten. Seine Begabung, andere für eine Idee zu gewinnen, ist real.</p>
           <p class="vb-intro">Der Schatten liegt dort, wo die Sicherung des eigenen Reviers die Fürsorge für die Gruppe überlagert. Die Boxer, die zu seiner ›Familie‹ gehörten, standen in vielen Fällen vor Gericht gegen ihn. Der Gorilla schützt seine Gruppe, aber er entscheidet allein, was ihr gehört. Mit der Gefängnisbibliothek, den Begnadigungsbriefen und den späteren Bündnissen über politische Lager hinweg zeigt sich auch ein Zug, den die Sieben mit Achterflügel kennt: Rückschläge werden nicht lange betrauert, es wird neu gebaut.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Stand: ein Veteran, der sich zurückgezogen hat</h2>
+        <h2 class="vb-section">8. Stand: ein Veteran, der sich zurückgezogen hat</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Don King ist nach den vorliegenden Angaben (Stand 20. Oktober 2026) 95 Jahre alt. Im September 2024 wurde er wegen einer nicht näher bekannten Erkrankung im Krankenhaus behandelt, Tyson äußerte sich öffentlich besorgt. Er hat sich weitgehend aus dem großen Geschäft zurückgezogen, ist weiter Herausgeber der ›Call and Post‹ und veranstaltet jedes Jahr zu Weihnachten eine Truthahn-Verteilung in Südflorida. 2023 wurde bekannt, dass er den ›Bomaye Fight Club‹ des Wrestling-Verbands Major League Wrestling finanziert. Im Film ›Michael‹ (2026) wird er von Deon Cole gespielt, in ›Don King: Only in America‹ (1997) von Ving Rhames, der dafür einen Golden Globe erhielt.</p>
         </blockquote>

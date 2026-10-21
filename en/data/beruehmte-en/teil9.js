@@ -2617,13 +2617,19 @@ export function donKingPortraitPage() {
           <p class="vb-intro">King himself sued the broadcaster ESPN in 2005 for $2.5 billion over a documentary; the suit was dismissed, and the dismissal was upheld in 2010. The cases of recent years also revolve around money and property. Where the territory is touched, it is about control over numbers and contracts.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Light and shadow of the self-preservation Seven with an Eight-wing</h2>
+        <h2 class="vb-section">6. Parallel in the same subtype: Carey, Tebartz-van Elst and Lafer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Several SE7w8s stand among the portraits in this Compass, and the comparison shows what makes King&rsquo;s pattern. <a href="#beruehmte-mariah-carey">Mariah Carey (SE7w8)</a> grew up, like King, in unstable circumstances, later built her nest big (penthouses, private jets, a fan community as family) and uses power as a shield. <a href="#beruehmte-franz-peter-tebartz-van-elst">Franz-Peter Tebartz-van Elst (SE7w8)</a> built himself a protected space of confidants and advantages on the Limburg cathedral hill and answered criticism with resistance instead of withdrawal. <a href="#beruehmte-johann-lafer">Johann Lafer (SE7w8)</a> shows the peaceful side of the subtype: pleasure and security in the closest circle, without conflict.</p>
+          <p class="vb-intro">What they share is the territory of confidants and property that the Eight-wing defends. With Lafer the territory stays a house and a kitchen, with Carey an inner nest with a rampart, with Tebartz-van Elst a building project. With King it is a market: the boxers&rsquo; contracts, their purses and their loyalty. That makes the difference in effect. Where the others protect their territory, King negotiates with his; that is why his &lsquo;family members&rsquo; so often saw him in court.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Light and shadow of the self-preservation Seven with an Eight-wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light lies in an unusual transformation: a man from a steelworker family, who had served time in prison for manslaughter, became a promoter whose fights hold a firm place in boxing history. He connected athletes, politics, media, and money, and gave many boxers a stage they would not have had without him. His gift for winning others over to an idea is real.</p>
           <p class="vb-intro">The shadow lies where securing one&rsquo;s own territory overshadows care for the group. The boxers who belonged to his &lsquo;family&rsquo; stood against him in court in many cases. The Gorilla protects its group, but it decides alone what belongs to it. With the prison library, the pardon letters, and the later alliances across political camps, a trait shows up that the Seven with an Eight-wing knows: setbacks are not mourned for long, one builds anew.</p>
         </blockquote>
 
-        <h2 class="vb-section">7. Status: a veteran who has withdrawn</h2>
+        <h2 class="vb-section">8. Status: a veteran who has withdrawn</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">According to the available information (as of 20 October 2026), Don King is 95 years old. In September 2024 he was treated in hospital for an illness not described in detail, and Tyson voiced concern in public. He has largely withdrawn from the big business, remains publisher of the &lsquo;Call and Post&rsquo;, and holds a turkey giveaway in South Florida every Christmas. In 2023 it became known that he finances the &lsquo;Bomaye Fight Club&rsquo; of the wrestling promotion Major League Wrestling. In the film &lsquo;Michael&rsquo; (2026) he is played by Deon Cole, in &lsquo;Don King: Only in America&rsquo; (1997) by Ving Rhames, who won a Golden Globe for it.</p>
         </blockquote>
