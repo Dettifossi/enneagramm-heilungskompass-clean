@@ -3105,6 +3105,7 @@ export function billieLourdPortraitPage() {
         {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SE3 – Raccoon"},
         {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SE3w4) – same subtype"},
         {route:"beruehmte-cheyenne-ochsenknecht", label:"Portrait: Cheyenne Ochsenknecht (SE3w4)"},
+        {route:"beruehmte-catherine-deneuve", label:"Portrait: Catherine Deneuve (SE3w4)"},
       ])}
     </div>
   `);

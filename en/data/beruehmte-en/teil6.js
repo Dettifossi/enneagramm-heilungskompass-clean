@@ -1752,6 +1752,7 @@ export function carenMiosgaPortraitPage() {
         {route:"beruehmte-rosa-parks", label:"Portrait: Rosa Parks (SP3w4)"},
         {route:"beruehmte-fiona-harvey", label:"Portrait: Fiona Harvey (SE2w3)"},
         {route:"beruehmte-indira-gandhi", label:"Portrait: Indira Gandhi (SE3w4)"},
+        {route:"beruehmte-catherine-deneuve", label:"Portrait: Catherine Deneuve (SE3w4)"},
       ])}
     </div>
   `);

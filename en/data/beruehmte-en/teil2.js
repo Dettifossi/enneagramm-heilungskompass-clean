@@ -2139,6 +2139,7 @@ export function norahJonesPortraitPage() {
         {route:"beruehmte-anna-netrebko", label:"Portrait: Anna Netrebko (SE3w4)"},
         {route:"beruehmte-paul-bocuse", label:"Portrait: Paul Bocuse (SE3w4)"},
         {route:"beruehmte-wim-thoelke", label:"Portrait: Wim Thoelke (SE3w4)"},
+        {route:"beruehmte-catherine-deneuve", label:"Portrait: Catherine Deneuve (SE3w4)"},
       ])}
     </div>
   `);

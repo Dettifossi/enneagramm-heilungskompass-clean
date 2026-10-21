@@ -2434,6 +2434,7 @@ export function annaNetrebkoPortraitPage() {
         {route:"beruehmte-wim-thoelke", label:"Porträt: Wim Thoelke (SE3w4)"},
         {route:"beruehmte-barbara-bleisch", label:"Porträt: Dr. Barbara Bleisch (SE3w2)"},
         {route:"beruehmte-paul-bocuse", label:"Porträt: Paul Bocuse (SE3w4)"},
+        {route:"beruehmte-catherine-deneuve", label:"Porträt: Catherine Deneuve (SE3w4)"},
       ])}
     </div>
   `);
