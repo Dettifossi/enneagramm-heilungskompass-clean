@@ -35,7 +35,7 @@
     <input id="s" type="search" placeholder="Suchen (Spruch oder Autor) …" />
     <select id="th"><option value="">Alle Themen</option></select>
     <select id="ch" title="Kanal für die Link-Auswertung">
-      <option value="fb">Kanal: Facebook</option><option value="wa">Kanal: WhatsApp</option><option value="xing">Kanal: Xing</option><option value="x">Kanal: X</option><option value="ig">Kanal: Instagram</option><option value="li">Kanal: LinkedIn</option>
+      <option value="fb">Kanal: Facebook</option><option value="wa">Kanal: WhatsApp</option><option value="xing">Kanal: Xing</option><option value="x">Kanal: X</option><option value="ig">Kanal: Instagram</option><option value="tt">Kanal: TikTok</option><option value="li">Kanal: LinkedIn</option>
     </select>
   </div>
   <p class="info" id="n"></p>
@@ -57,6 +57,7 @@
   function text(z) {
     var kopf = "„" + z.q + "“ – " + z.a + "\n\nWelcher Typ steckt in diesem Satz? ";
     if (ch.value === "ig") return kopf + "Mehr dazu über den Link in der Bio.\n\n#Enneagramm #Selbsterkenntnis #Persönlichkeit #Psychologie";
+    if (ch.value === "tt") return kopf + "Mehr dazu über den Link in der Bio.\n\n#Enneagramm #Selbsterkenntnis #Persönlichkeit #Psychologie #Zitate";
     return kopf + "→ " + link(z) + "\n\n#Enneagramm #Selbsterkenntnis";
   }
   function render() {
