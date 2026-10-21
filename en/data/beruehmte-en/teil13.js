@@ -1368,6 +1368,7 @@ export function robertDeNiroPortraitPage() {
         {route:"beruehmte-juergen-klinsmann", label:"Portrait: Jürgen Klinsmann (SE1w9)"},
         {route:"beruehmte-reinhold-messner", label:"Portrait: Reinhold Messner (SE1w9)"},
         {route:"beruehmte-viktor-frankl", label:"Portrait: Viktor Frankl (SE1w9)"},
+        {route:"beruehmte-fabrice-luchini", label:"Portrait: Fabrice Luchini (SE1w9)"},
       ])}
     </div>
   `);
@@ -2365,6 +2366,7 @@ export function henningBaumPortraitPage() {
         {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SE1w9)"},
         {route:"beruehmte-reinhold-messner", label:"Portrait: Reinhold Messner (SE1w9)"},
         {route:"beruehmte-anthony-hopkins", label:"Portrait: Anthony Hopkins (SE1w9)"},
+        {route:"beruehmte-fabrice-luchini", label:"Portrait: Fabrice Luchini (SE1w9)"},
       ])}
     </div>
   `);

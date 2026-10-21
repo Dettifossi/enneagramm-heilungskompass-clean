@@ -2426,6 +2426,7 @@ export function harrisonFordPortraitPage() {
         {route:"beruehmte-juergen-klinsmann", label:"Portrait: Jürgen Klinsmann (SP1w9)"},
         {route:"beruehmte-dieter-lange", label:"Portrait: Dieter Lange (SP1w9)"},
         {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SP1w9)"},
+        {route:"beruehmte-fabrice-luchini", label:"Portrait: Fabrice Luchini (SE1w9)"},
       ])}
     </div>
   `);

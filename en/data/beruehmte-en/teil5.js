@@ -2650,6 +2650,7 @@ export function catherineDeneuvePortraitPage() {
         {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SE3w4)"},
         {route:"beruehmte-caren-miosga", label:"Portrait: Caren Miosga (SE3w4)"},
         {route:"beruehmte-billie-lourd", label:"Portrait: Billie Lourd (SE3w4) – also the daughter of an actress"},
+        {route:"beruehmte-fabrice-luchini", label:"Portrait: Fabrice Luchini (SE1w9)"},
       ])}
     </div>
   `);

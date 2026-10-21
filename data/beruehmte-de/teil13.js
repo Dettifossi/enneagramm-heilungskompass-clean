@@ -1370,6 +1370,7 @@ export function robertDeNiroPortraitPage() {
         {route:"beruehmte-juergen-klinsmann", label:"Porträt: Jürgen Klinsmann (SE1w9)"},
         {route:"beruehmte-reinhold-messner", label:"Porträt: Reinhold Messner (SE1w9)"},
         {route:"beruehmte-viktor-frankl", label:"Porträt: Viktor Frankl (SE1w9)"},
+        {route:"beruehmte-fabrice-luchini", label:"Porträt: Fabrice Luchini (SE1w9)"},
       ])}
     </div>
   `);
