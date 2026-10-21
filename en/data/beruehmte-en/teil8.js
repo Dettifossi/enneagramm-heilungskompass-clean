@@ -2635,3 +2635,71 @@ export function margaretThatcherPortraitPage() {
     </div>
   `);
 }
+
+export function hansSiglPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-hans-sigl-portrait.jpg" alt="Hans Sigl – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-hans-sigl-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Hans Sigl</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with a One-wing</p>
+        <p class="krim-portrait-subtitle">Austrian actor and host, b. 1969 &ndash; title role in &lsquo;Der Bergdoktor&rsquo; (The Mountain Doctor) &ndash; Animal correspondence: Buffalo</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Buffalo: a boy who mediated between his parents</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Buffalo</strong> stays in the herd even when it is the biggest. It looks for its place among the others and carries what has to be carried without making a fuss. Hans-Dieter Sigl was born on 7 July 1969 in Rottenmann in Styria. When he was ten his parents separated, and he grew up with his mother. According to press reports about his appearance on the podcast &lsquo;Hotel Matze&rsquo;, it was an environment shaped mainly by women, his mother, grandmother and aunts. As a child, he says, he tried to mediate between his parents and became the link between them.</p>
+          <p class="vb-intro">He took his school-leaving exam at the Bundesgymnasium Feldkirch. He then studied law in Salzburg, switched to English and psychology for teaching, and dropped out. He trained in acting, singing and dancing at the Tiroler Landestheater in Innsbruck, where he was a permanent ensemble member from 1993 to 1999, followed by the Bremer Shakespeare Company.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Nine: identity through belonging</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the social Type 9 the type of &lsquo;participation&rsquo;: the person finds themselves by being part of a group, an ensemble, a community. In Hans Sigl this can be linked to several stations. The child who mediates between his parents practices early on how to balance tensions between people. The ensemble theater, where he played full-time for six years, lives on interplay. And the TV series that made him known are about a village and a family.</p>
+          <p class="vb-intro">From 2001 to 2006 he played Major Andreas Blitz in &lsquo;SOKO Kitzbühel&rsquo; for 63 episodes. Since 2008 he has been, without interruption, the village doctor Dr. Martin Gruber in &lsquo;Der Bergdoktor&rsquo;, a series that started on 6 February 2008 on ORF 2 and also airs on ZDF. Gruber returns from New York to Ellmau, takes over the village practice and lives with his family on the Gruberhof. Each episode combines a medical case with the ongoing family story. A detail from Wikipedia is remarkable: about ten years earlier, Sigl had played a small part as a taxi driver in the older Sat.1 series of the same name.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: precision and decency</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Nine an inner standard: things should be done right, and done properly. In an interview with &lsquo;TRENDYone&rsquo; on 23 October 2025, Sigl says he is &lsquo;very precise&rsquo; on set, wants every scene to be taken seriously, and that he is, like his character Gruber, a perfectionist. He describes the same conscientiousness in small things: in an interview from December 2022 he speaks about responsibility on set, about drinking bottles, train travel and LED lights, and says that many small things add up to the big picture. When filming in the mountains, safety has top priority for him by his own account.</p>
+          <p class="vb-intro">In that 2022 conversation he calls showing a stance &lsquo;a matter of decency&rsquo;, and when asked whether he is not afraid of voicing his opinion, he answers: &lsquo;All the more so!&rsquo; (&lsquo;Jetzt erst Recht!&rsquo;). His political statements can thus be read as conviction about what is right, rather than a claim to power. In January 2021, Sigl and his wife won 30,000 euros in a celebrity special of &lsquo;Das Quiz mit Jörg Pilawa&rsquo; and donated the money to the sea-rescue organization Sea-Eye for its ship Sea-Eye 4. In an interview with the newspaper &lsquo;Der Standard&rsquo; (February 2025) he called himself an anti-fascist and criticized the shift to the right in Austria. The title of the interview is &lsquo;Yes, of course I am an anti-fascist&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: host, face of a series, and ensemble person</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">What sets Hans Sigl apart from many television faces is the breadth of his craft. He comes from the theater and trained in acting, singing and dancing. He performed as a cabaret artist with his own solo program and with the show &lsquo;Hintze und Sigl&rsquo;, recorded audiobooks for the publisher Reclam, voiced characters in the children&rsquo;s series &lsquo;Yakari&rsquo;, and for several years has taken on large entertainment evenings: in 2019 as guest host at the ZDF Fernsehgarten, from July 2022 as host of the &lsquo;Starnacht&rsquo; with Barbara Schöneberger, and around New Year 2022/23 and 2023/24 as host of the &lsquo;Große Silvester Show&rsquo; with Francine Jordi. He also won the Romy awards in 2014, 2016, 2017 and 2021 and the Goldene Henne (audience prize for acting) in 2015 and 2017.</p>
+          <p class="vb-intro">As Dr. Martin Gruber he has played, since 2008, a character who listens and mediates. That he describes himself as precise and perfectionist fits a craft he learned in the theater. Whether this can be read as a calm reliability that ties an audience to the series over so many years is an interpretation that can be linked to the pattern of the social Nine. I have not evaluated ratings or reviews.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the social Nine with a One-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the ability to hold people together: in the ensemble, in the series family, on an evening in front of a large audience. The Nine in the social subtype acts in their group like a calm center, and the One-wing gives this calm order and a clear standard.</p>
+          <p class="vb-intro">The shadow of the Nine lies where mediating becomes a habit that covers the person&rsquo;s own position. Someone who balances their parents as a child learns that their own needs come second. It can take years until a point is reached where something breaks through, and then the decision is often uncompromising. According to press reports on &lsquo;Hotel Matze&rsquo;, Sigl deliberately broke off contact with his parents at around the age of 30; both parents have since died. This fits the pattern, but the details come from tabloid and regional media and are less reliable than the rest. How it really was I can only read from those reports.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Status: still in the title role</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 21 October 2026), Hans Sigl continues as Dr. Martin Gruber in &lsquo;Der Bergdoktor&rsquo;, which so far comprises more than 170 episodes in over 17 seasons; the count in the sources is not consistent. He lives with his wife Susanne at the Ammersee in Bavaria. In 2026 he was a guest on &lsquo;Wer weiß wie wann was war?&rsquo; on RTL.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so9", label:"SO9 – The Buffalo: subtype profile"},
+        {route:"lebensmusterkompass/so9", label:"Life Pattern Compass: SO9 – Buffalo"},
+        {route:"beruehmte-dieter-thomas-heck", label:"Portrait: Dieter Thomas Heck (SO9w1) – also a TV host, same subtype and wing"},
+        {route:"beruehmte-jens-riewa", label:"Portrait: Jens Riewa (SO9w1)"},
+        {route:"beruehmte-peter-falk", label:"Portrait: Peter Falk (SO9w1) – actor, same subtype and wing"},
+        {route:"beruehmte-dany-boon", label:"Portrait: Dany Boon (SO9w1)"},
+        {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1)"},
+      ])}
+    </div>
+  `);
+}

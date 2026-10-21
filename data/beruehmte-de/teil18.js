@@ -2642,3 +2642,71 @@ export function ilkaBessinPortraitPage() {
     </div>
   `);
 }
+
+export function hansSiglPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-hans-sigl-portrait.jpg" alt="Hans Sigl – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-hans-sigl-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Hans Sigl</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Sozialer Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Österreichischer Schauspieler und Moderator, geb. 1969 &ndash; Titelrolle in &rsaquo;Der Bergdoktor&lsaquo; &ndash; Tierentsprechung: Büffel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Büffel: ein Junge, der zwischen den Eltern vermittelte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Büffel</strong> bleibt in der Herde, auch wenn er der Größte ist. Er sucht seinen Platz unter den anderen und trägt, was getragen werden muss, ohne daraus ein Aufheben zu machen. Hans-Dieter Sigl wurde am 7. Juli 1969 in Rottenmann in der Steiermark geboren. Als er zehn Jahre alt war, trennten sich seine Eltern, und er wuchs bei seiner Mutter auf. Nach Presseberichten über seinen Auftritt im Podcast ›Hotel Matze‹ war es ein Umfeld, in dem vor allem Frauen den Alltag prägten, Mutter, Großmutter und Tanten. Als Kind habe er versucht, zwischen den Eltern zu vermitteln, und sei so zum Bindeglied zwischen beiden geworden.</p>
+          <p class="vb-intro">Die Matura legte er am Bundesgymnasium Feldkirch ab. Danach studierte er in Salzburg zunächst Jura, dann Englisch und Psychologie auf Lehramt, und brach das Studium ab. Seine Schauspiel-, Gesangs- und Tanzausbildung machte er am Tiroler Landestheater in Innsbruck, wo er von 1993 bis 1999 festes Ensemblemitglied war. Danach folgte die Bremer Shakespeare Company.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Neun: Identität durch Zugehörigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 9 den der ›Teilhabe‹: Die Person findet sich selbst, indem sie Teil einer Gruppe, eines Ensembles, einer Gemeinschaft ist. Das lässt sich bei Hans Sigl mit mehreren Stationen in Verbindung bringen. Das Kind, das zwischen den Eltern vermittelt, übt früh, Spannungen zwischen Menschen auszugleichen. Das Ensembletheater, in dem er sechs Jahre fest spielte, lebt vom Zusammenspiel. Und die Fernsehserien, die ihn bekannt machten, handeln von einem Dorf und einer Familie.</p>
+          <p class="vb-intro">Von 2001 bis 2006 spielte er in ›SOKO Kitzbühel‹ den Major Andreas Blitz, 63 Folgen lang. Seit 2008 ist er ununterbrochen der Dorfarzt Dr. Martin Gruber in ›Der Bergdoktor‹, einer Serie, die am 6. Februar 2008 auf ORF 2 begann und im ZDF läuft. Gruber kehrt aus New York nach Ellmau zurück, übernimmt die Praxis des Dorfes und lebt mit seiner Familie auf dem Gruberhof. Jede Folge verbindet einen medizinischen Fall mit der fortlaufenden Familiengeschichte. Bemerkenswert ist ein Detail aus Wikipedia: Rund zehn Jahre zuvor hatte Sigl in der älteren Sat.1-Serie gleichen Namens eine kleine Nebenrolle als Taxifahrer gespielt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Genauigkeit und Anstand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Neun einen inneren Maßstab: Es soll richtig gemacht werden, und zwar ordentlich. In einem Interview mit ›TRENDYone‹ vom 23. Oktober 2025 sagt Sigl, er sei am Set ›sehr genau‹, jede Szene solle ernst genommen werden, und er sei darin, wie seine Figur Gruber, ein Perfektionist. Dieselbe Gewissenhaftigkeit beschreibt er im Kleinen: In einem Interview vom Dezember 2022 spricht er über Verantwortung am Set, über Trinkflaschen, Zuganreise und LED-Scheinwerfer, und sagt, viele kleine Dinge ergäben das große Ganze. Bei den Bergaufnahmen hat Sicherheit für ihn nach eigener Aussage höchste Priorität.</p>
+          <p class="vb-intro">Haltung zu zeigen nennt er in dem Gespräch von 2022 ›eine Frage des Anstands‹, und auf die Frage, ob er keine Angst habe, seine Meinung zu sagen, antwortet er: ›Jetzt erst Recht!‹. Seine politischen Äußerungen lassen sich damit als Überzeugung lesen, was richtig ist, und nicht als Machtanspruch. Im Januar 2021 gewann Sigl mit seiner Frau in einem Promi-Special von ›Das Quiz mit Jörg Pilawa‹ 30.000 Euro und spendete das Geld an die Seenotrettungsorganisation Sea-Eye für deren Schiff Sea-Eye 4. In einem Interview mit der Zeitung ›Der Standard‹ (Februar 2025) bezeichnete er sich als Antifaschisten und kritisierte den Rechtsruck in Österreich. Der Titel des Gesprächs lautet ›Ja, natürlich bin ich Antifaschist‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Gastgeber, Gesicht einer Serie und Ensemblemensch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Was Hans Sigl von vielen Fernsehgesichtern unterscheidet, ist die Breite seines Handwerks. Er kommt vom Theater und hat Schauspiel, Gesang und Tanz gelernt. Er trat als Kabarettist mit eigenem Soloprogramm und mit der Show ›Hintze und Sigl‹ auf, las Hörbücher für den Reclam-Verlag ein, sprach in der Kinderserie ›Yakari‹ und übernimmt seit einigen Jahren große Unterhaltungsabende: 2019 als Gastmoderator im ZDF-Fernsehgarten, ab Juli 2022 als Moderator der ›Starnacht‹ mit Barbara Schöneberger und zum Jahreswechsel 2022/23 und 2023/24 als Gastgeber der ›Großen Silvester Show‹ mit Francine Jordi. Dazu kamen die Romy-Preise 2014, 2016, 2017 und 2021 und die Goldene Henne (Publikumspreis Schauspiel) 2015 und 2017.</p>
+          <p class="vb-intro">Als Dr. Martin Gruber spielt er seit 2008 eine Figur, die zuhört und vermittelt. Dass er sich dabei selbst als genau und perfektionistisch beschreibt, passt zu einem Handwerk, das er am Theater gelernt hat. Ob das als ruhige Verlässlichkeit gelesen werden kann, die ein Publikum über so viele Jahre an die Serie bindet, ist eine Deutung, die sich mit dem Muster der sozialen Neun in Verbindung bringen lässt. Quoten und Kritiken habe ich dazu nicht ausgewertet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Fähigkeit, Menschen zusammenzuhalten: im Ensemble, in der Serienfamilie, am Abend vor einem großen Publikum. Die Neun im sozialen Subtyp wirkt in ihrer Gruppe wie ein ruhiger Mittelpunkt, und der Einserflügel gibt dieser Ruhe Ordnung und einen klaren Maßstab.</p>
+          <p class="vb-intro">Der Schatten der Neun liegt dort, wo das Vermitteln zur Gewohnheit wird, die die eigene Position verdeckt. Wer als Kind den Ausgleich zwischen den Eltern übernimmt, lernt, dass die eigenen Bedürfnisse zurückstehen. Das kann Jahre dauern, bis ein Punkt erreicht ist, an dem etwas durchbricht, und dann fällt die Entscheidung oft kompromisslos aus. Nach den Presseberichten zu ›Hotel Matze‹ brach Sigl mit etwa 30 Jahren den Kontakt zu seinen Eltern bewusst ab; beide Eltern sind inzwischen verstorben. Das passt zu diesem Muster, die Angaben stammen aber aus Boulevard- und Regionalmedien und sind weniger gesichert als der Rest. Wie es wirklich war, kann ich nur aus diesen Berichten ablesen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Stand: weiter in der Titelrolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hans Sigl ist nach den vorliegenden Angaben (Stand 21. Oktober 2026) weiter als Dr. Martin Gruber im ›Bergdoktor‹ zu sehen, der bisher mehr als 170 Folgen in über 17 Staffeln umfasst; die Zählung in den Quellen ist nicht einheitlich. Er lebt mit seiner Frau Susanne am Ammersee in Bayern. 2026 war er Gast bei ›Wer weiß wie wann was war?‹ auf RTL.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so9", label:"SO9 – Der Büffel: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so9", label:"Lebensmusterkompass: SO9 – Büffel"},
+        {route:"beruehmte-dieter-thomas-heck", label:"Porträt: Dieter Thomas Heck (SO9w1) – ebenfalls Fernsehgastgeber, derselbe Subtyp und Flügel"},
+        {route:"beruehmte-jens-riewa", label:"Porträt: Jens Riewa (SO9w1)"},
+        {route:"beruehmte-peter-falk", label:"Porträt: Peter Falk (SO9w1) – Schauspieler, derselbe Subtyp und Flügel"},
+        {route:"beruehmte-dany-boon", label:"Porträt: Dany Boon (SO9w1)"},
+        {route:"beruehmte-tom-hanks", label:"Porträt: Tom Hanks (SO9w1)"},
+      ])}
+    </div>
+  `);
+}

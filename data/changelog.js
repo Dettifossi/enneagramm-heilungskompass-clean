@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2549", date: "2026-10-21", text: "Neues Porträt: Hans Sigl (SO9w1) – Schauspieler und Moderator, Titelrolle in Der Bergdoktor.", text_en: "New portrait: Hans Sigl (SO9w1) – actor and host, title role in Der Bergdoktor.", route: "beruehmte-hans-sigl" },
     { version: "v2548", date: "2026-10-20", text: "Neues Porträt: Don King (SE7w8) – Boxpromoter, Veranstalter von Rumble in the Jungle und Thrilla in Manila.", text_en: "New portrait: Don King (SE7w8) – boxing promoter, organizer of the Rumble in the Jungle and the Thrilla in Manila.", route: "beruehmte-don-king" },
     { version: "v2547", date: "2026-10-20", text: "Neues Porträt: Ada Lovelace (SO7w6) – Mathematikerin und Verfasserin der Notizen zur Analytical Engine.", text_en: "New portrait: Ada Lovelace (SO7w6) – mathematician and author of the notes on the Analytical Engine.", route: "beruehmte-ada-lovelace" },
     { version: "v2546", date: "2026-10-20", text: "Neues Porträt: Harry Houdini (SO3w2) – Entfesselungskünstler und Handschellenkönig.", text_en: "New portrait: Harry Houdini (SO3w2) – escape artist and Handcuff King.", route: "beruehmte-harry-houdini" },
