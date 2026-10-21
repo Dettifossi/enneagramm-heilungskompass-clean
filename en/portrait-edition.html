@@ -327,6 +327,10 @@
   .probe-text { max-height:4.6rem; overflow:hidden; position:relative; }
   .probe-text p { margin:0 0 .8rem; }
   .probe-text::after { content:""; position:absolute; left:0; right:0; bottom:0; height:4.5rem; background:linear-gradient(transparent, var(--paper)); }
+  .probe-tier { float:right; width:132px; margin:.2rem 0 .6rem 1.1rem; text-align:center; }
+  .probe-tier img { width:132px; height:132px; border-radius:50%; object-fit:cover; display:block; }
+  .probe-tier figcaption { font-size:.78rem; color:var(--muted); margin-top:.3rem; line-height:1.3; }
+  @media (max-width:640px) { .probe-tier { float:none; margin:.4rem auto .8rem; } }
   .probe-more { max-width:860px; margin:1.2rem auto 0; color:var(--muted); font-size:.95rem; }
   .probe-more li { margin:.15rem 0; }
   @media (max-width:640px) { .probe { grid-template-columns:1fr; } .probe img { width:100%; height:auto; aspect-ratio:1/1; } }
@@ -395,6 +399,7 @@
           <h3>Muhammad Ali</h3>
           <p class="probe-sub">American heavyweight boxing champion and civil rights activist, 1942–2016 · Animal correspondence: Golden Retriever</p>
           <h4>1. The Golden Retriever</h4>
+          <figure class="probe-tier"><img src="../assets/so2-tier.jpg" alt="Golden Retriever, animal of the social Two" loading="lazy" /><figcaption>Animal correspondence: Golden Retriever</figcaption></figure>
           <p>The Golden Retriever is the animal of the social Two, an animal whose presence makes rooms feel bigger, and that puts its strength in service of everyone around it, not just itself. Few people have made this dual nature as visible as Muhammad Ali: the loudest, most self-assured athlete of his era and at the same time someone who consistently used his public stage for the cause of Black America.</p>
           <p>Cassius Marcellus Clay Jr. was born on January 17, 1942, in Louisville, Kentucky, at a time and in a place where racial segregation was everyday life. In 1964, at age 22, he won the heavyweight world title, joined the Nation of Islam, and took the name Muhammad Ali, a break with what was expected of a young Black boxer.</p>
           <h4>2. The Social Two: Personal Fame in Service of an Entire Community</h4>

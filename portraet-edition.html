@@ -327,6 +327,10 @@
   .probe-text { max-height:4.6rem; overflow:hidden; position:relative; }
   .probe-text p { margin:0 0 .8rem; }
   .probe-text::after { content:""; position:absolute; left:0; right:0; bottom:0; height:4.5rem; background:linear-gradient(transparent, var(--paper)); }
+  .probe-tier { float:right; width:132px; margin:.2rem 0 .6rem 1.1rem; text-align:center; }
+  .probe-tier img { width:132px; height:132px; border-radius:50%; object-fit:cover; display:block; }
+  .probe-tier figcaption { font-size:.78rem; color:var(--muted); margin-top:.3rem; line-height:1.3; }
+  @media (max-width:640px) { .probe-tier { float:none; margin:.4rem auto .8rem; } }
   .probe-more { max-width:860px; margin:1.2rem auto 0; color:var(--muted); font-size:.95rem; }
   .probe-more li { margin:.15rem 0; }
   @media (max-width:640px) { .probe { grid-template-columns:1fr; } .probe img { width:100%; height:auto; aspect-ratio:1/1; } }
@@ -395,6 +399,7 @@
           <h3>Muhammad Ali</h3>
           <p class="probe-sub">US-amerikanischer Boxweltmeister und Bürgerrechtler, 1942–2016 · Tierentsprechung: Golden Retriever</p>
           <h4>1. Der Golden Retriever</h4>
+          <figure class="probe-tier"><img src="./assets/so2-tier.jpg" alt="Golden Retriever, Tierentsprechung der sozialen Zwei" loading="lazy" /><figcaption>Tierentsprechung: Golden Retriever</figcaption></figure>
           <p>Der Golden Retriever ist das Tier der sozialen Zwei, ein Tier, dessen Auftreten Räume größer macht und das seine Kraft für alle um sich herum einsetzt, nicht nur für sich selbst. Kaum jemand hat diese Doppelnatur so sichtbar gemacht wie Muhammad Ali: der lauteste, selbstbewussteste Sportler seiner Zeit und zugleich einer, der seine öffentliche Bühne konsequent für die Sache der schwarzen Bevölkerung Amerikas einsetzte.</p>
           <p>Cassius Marcellus Clay Jr. wurde am 17. Januar 1942 in Louisville, Kentucky, geboren, in einer Zeit und an einem Ort, in der Rassentrennung Alltag war. 1964 gewann er als 22-Jähriger den Weltmeistertitel im Schwergewicht, trat der Nation of Islam bei und nahm den Namen Muhammad Ali an, ein Bruch mit dem, was von einem jungen schwarzen Boxer erwartet wurde.</p>
           <h4>2. Die soziale Zwei: Der eigene Ruhm im Dienst einer ganzen Gemeinschaft</h4>
