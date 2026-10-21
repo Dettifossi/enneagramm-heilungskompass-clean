@@ -2605,3 +2605,75 @@ export function florenceNightingalePortraitPage() {
     </div>
   `);
 }
+
+export function sixNinePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-6ix9ine-portrait.jpg" alt="6ix9ine – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-6ix9ine-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">6ix9ine</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Self-Preservation Type 2 with a Three-wing</p>
+        <p class="krim-portrait-subtitle">American rapper (Daniel Hernandez), b. 1996 &ndash; &lsquo;Gummo&rsquo;, &lsquo;Fefe&rsquo;, &lsquo;Trollz&rsquo; &ndash; Animal correspondence: Hippopotamus</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hippopotamus: a boy from Bushwick</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Hippopotamus</strong> is the animal of the self-preservation Two: it looks easygoing and clumsy, stays in its territory, and becomes dangerous very quickly when that territory seems threatened. Daniel Hernandez was born on 8 May 1996 in the Brooklyn neighborhood of Bushwick. His mother comes from Atlixco in Mexico, his father from Puerto Rico. He grew up in a church community and, according to the available information, met his biological father only at around age nine; the father was addicted to drugs and was imprisoned for several years. In 2010 his stepfather was shot near the family home. Afterwards Hernandez is said to have fallen into a depression.</p>
+          <p class="vb-intro">He left school around the tenth grade, having earlier been expelled for misbehavior. He worked as a busboy at a restaurant and in a bodega. In 2012 he decided to rap after the label owner Peter &lsquo;Righteous P&rsquo; Rodgers approached him. The details come from press and Wikipedia sources that partly rest on court documents and his own statements.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Two: closeness through indispensability</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the self-preservation Two the subtype of &lsquo;privilege&rsquo;: whoever is indispensable has a safe place among others, and whoever has a safe place may also ask for something. This can be linked to the path of a boy who lost fathers early or never had them and looked for support in a group. In the criminal case of 2018/2019 his connection to the Nine Trey Gangsters, a subgroup of the Bloods, became a matter of record, and he pleaded guilty in that connection. From the point of view of the self-preservation Two this can be read as a search for protection and backing, which in return demands loyalty and following.</p>
+          <p class="vb-intro">The same mix of closeness and entitlement shows in how he treated his audience. He became known in 2017 through a viral Instagram post, built a huge following and gave it what it wanted: attention, provocation and quarrels. Where he saw himself threatened, the exaggerated show turned serious, as the numerous public feuds show, for example with Trippie Redd, Chief Keef, Meek Mill, 50 Cent and others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: the image as a success machine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the Two an eye for effect and success. Hernandez appeared under the name &lsquo;Tekashi69&rsquo; with rainbow hair, large-scale tattoos and dental jewelry, a look meant to be impossible to overlook. Prosecutors accused him in 2018 of deliberately using feuds to boost his sales. The numbers show the effect: &lsquo;Gummo&rsquo; (10 November 2017) reached number 12 on the Billboard Hot 100, the mixtape &lsquo;Day69&rsquo; (23 February 2018) number 4 on the Billboard 200, the debut album &lsquo;Dummy Boy&rsquo; (27 November 2018) number 2, and &lsquo;Fefe&rsquo; with Nicki Minaj and Murda Beatz number 3 on the Hot 100. In 2020 &lsquo;Trollz&rsquo; with Nicki Minaj reached number 1 on the Hot 100, his first number one.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: attention as a craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Musically, 6ix9ine is a trap rapper: hard, often shouted rapping over heavy beats. Reviews of his debut album were mostly negative. What set him apart from the rest of the New York scene was less technique than a sense for attention. Appearing as a figure impossible to overlook, provocation on social networks and feuds made him one of the most discussed rappers of his generation before his first album even came out. In October 2019 the press reported a two-album deal with 10K Projects worth more than ten million US dollars. This can be read as an example of the self-preservation Two pattern: whoever appears indispensable to other people&rsquo;s conversation has a place, and whoever has the place can monetize it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The path through the courts: facts and allegations</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Convictions and proceedings:</strong> In 2015 he pleaded guilty in a case of use of a child in a sexual performance and received probation; he later denied sexual contact, and the sources differ on the age. On 18 November 2018 he was arrested with other people; the federal indictment under the RICO Act and for firearms and conspiracy offenses concerned the Nine Trey Gangsters. On 1 February 2019 he pleaded guilty to nine counts and testified as a witness for the prosecution. On 18 December 2019 he was sentenced to two years in prison, with 13 months of pretrial detention credited. In April 2020 he was moved to home confinement because of asthma and the coronavirus risk, was released in August 2020 and was then under supervised release.</p>
+          <p class="vb-intro"><strong>Violence against him:</strong> On 22 July 2018 he was kidnapped, beaten and robbed in Brooklyn; the perpetrator was found guilty in October 2019. In March 2023 he was attacked in a gym in Florida and suffered facial injuries; three men were arrested.</p>
+          <p class="vb-intro"><strong>Later proceedings:</strong> In October 2023 and January 2024 he was arrested in the Dominican Republic (assault and domestic violence respectively) and released under conditions. In September 2024 his former partner filed a civil suit against him. These allegations come from lawsuits and media reports and have not been conclusively established in court; he partly denies them. On 29 October 2024 he was arrested for violating the terms of his supervised release, according to reports for a trip without permission, being late to court and two positive tests for methamphetamine. In January 2026 a federal judge sentenced him to three months in prison, which he began on 6 January at the Metropolitan Detention Center in Brooklyn. According to a report the judge said his behavior suggested that he believed ordinary rules did not apply to him. He was released in early April 2026.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Two with a Three-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the ability to make a lot out of very little. A boy without support became one of the best-known rappers of his generation and also found, in his own way, paths to generosity: for &lsquo;Trollz&rsquo; part of the revenue went to the Bail Project, and in April 2026 he gave 50,000 dollars to two families, although a crypto betting provider sponsored the draw and his motives were discussed online.</p>
+          <p class="vb-intro">The shadow lies where the territory overlays everything. The self-preservation Two with a Three-wing can hold belonging only as long as it is useful, and when closeness is lost, the easygoing turns into hardness. His path has repeatedly put him in conflict with groups and the law, and his decision of 2019 to testify as a witness against members of his own group can be read as an indication of what comes first for the self-preservation Two in an emergency: one&rsquo;s own safety. Whether the patterns this portrait describes come from a childhood with losses, from career choice or from environment cannot be separated from a distance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: after prison</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 21 October 2026), 6ix9ine has been free again since April 2026 and is under the terms of supervised release. Violations of these terms already led to detention in 2024 and 2026. I found no reliable information about new releases.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se2", label:"SE2 – The Hippopotamus: subtype profile"},
+        {route:"lebensmusterkompass/se2", label:"Life Pattern Compass: SE2 – Hippopotamus"},
+        {route:"beruehmte-uli-hoeness", label:"Portrait: Uli Hoeneß (SE2w3) – same subtype and wing, also with a court case"},
+        {route:"beruehmte-harald-gloeockler", label:"Portrait: Harald Glööckler (SE2w3) – the image as a success machine"},
+        {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SE2w3)"},
+        {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SE2w3)"},
+      ])}
+    </div>
+  `);
+}

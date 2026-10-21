@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2550", date: "2026-10-21", text: "Neues Porträt: 6ix9ine (SE2w3) – Rapper aus Brooklyn, bekannt durch Gummo, Fefe und Trollz.", text_en: "New portrait: 6ix9ine (SE2w3) – rapper from Brooklyn, known for Gummo, Fefe and Trollz.", route: "beruehmte-6ix9ine" },
     { version: "v2549", date: "2026-10-21", text: "Neues Porträt: Hans Sigl (SO9w1) – Schauspieler und Moderator, Titelrolle in Der Bergdoktor.", text_en: "New portrait: Hans Sigl (SO9w1) – actor and host, title role in Der Bergdoktor.", route: "beruehmte-hans-sigl" },
     { version: "v2548", date: "2026-10-20", text: "Neues Porträt: Don King (SE7w8) – Boxpromoter, Veranstalter von Rumble in the Jungle und Thrilla in Manila.", text_en: "New portrait: Don King (SE7w8) – boxing promoter, organizer of the Rumble in the Jungle and the Thrilla in Manila.", route: "beruehmte-don-king" },
     { version: "v2547", date: "2026-10-20", text: "Neues Porträt: Ada Lovelace (SO7w6) – Mathematikerin und Verfasserin der Notizen zur Analytical Engine.", text_en: "New portrait: Ada Lovelace (SO7w6) – mathematician and author of the notes on the Analytical Engine.", route: "beruehmte-ada-lovelace" },

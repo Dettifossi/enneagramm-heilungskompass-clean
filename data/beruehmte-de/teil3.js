@@ -2610,3 +2610,75 @@ export function rosaLuxemburgPortraitPage() {
     </div>
   `);
 }
+
+export function sixNinePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-6ix9ine-portrait.jpg" alt="6ix9ine – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-6ix9ine-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">6ix9ine</p>
+        <p class="krim-portrait-typ">SE2w3 &middot; Selbsterhaltender Typ 2 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Rapper (Daniel Hernandez), geb. 1996 &ndash; &rsaquo;Gummo&lsaquo;, &rsaquo;Fefe&lsaquo;, &rsaquo;Trollz&lsaquo; &ndash; Tierentsprechung: Flusspferd</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Flusspferd: ein Junge aus Bushwick</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Flusspferd</strong> ist das Tier der selbsterhaltenden Zwei: Es wirkt gemütlich und plump, bleibt in seinem Revier und wird sehr schnell sehr gefährlich, wenn dieses Revier bedroht scheint. Daniel Hernandez wurde am 8. Mai 1996 im Brooklyner Stadtteil Bushwick geboren. Seine Mutter stammt aus Atlixco in Mexiko, sein Vater aus Puerto Rico. Er wuchs in einer Kirchengemeinde auf, lernte seinen leiblichen Vater nach den vorliegenden Angaben erst mit etwa neun Jahren kennen, der damals drogenabhängig war und mehrere Jahre inhaftiert wurde. 2010 wurde sein Stiefvater in der Nähe des Familienhauses erschossen. Danach soll Hernandez in eine Depression gefallen sein.</p>
+          <p class="vb-intro">Die Schule verließ er etwa in der zehnten Klasse, zuvor war er wegen Fehlverhaltens verwiesen worden. Er arbeitete als Hilfskraft in einem Restaurant und in einem Bodega-Laden. 2012 entschied er sich zu rappen, nachdem ihn der Labelbetreiber Peter ›Righteous P‹ Rodgers angesprochen hatte. Die Angaben stammen aus Presse- und Wikipedia-Quellen, die sich teilweise auf Gerichtsunterlagen und seine eigenen Aussagen stützen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Zwei: Nähe durch Unentbehrlichkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte die selbsterhaltende Zwei den Subtyp des ›Privilegs‹: Wer unentbehrlich ist, hat einen sicheren Platz bei den anderen, und wer einen sicheren Platz hat, darf auch etwas verlangen. Das lässt sich mit dem Weg eines Jungen in Verbindung bringen, der früh Väter verlor oder nie hatte und seinen Halt in einer Gruppe suchte. Im Strafverfahren 2018/2019 wurde seine Verbindung zu den Nine Trey Gangsters, einer Untergruppe der Bloods, aktenkundig, er bekannte sich in diesem Zusammenhang schuldig. Aus Sicht der selbsterhaltenden Zwei lässt sich das als Suche nach Schutz und Rückhalt lesen, die im Gegenzug Loyalität und Gefolgschaft verlangt.</p>
+          <p class="vb-intro">Dieselbe Mischung aus Nähe und Anspruch zeigt sich im Umgang mit seinem Publikum. Er wurde 2017 über einen viral gegangenen Instagram-Post bekannt, baute sich eine riesige Gefolgschaft auf und gab ihr, was sie wollte: Aufmerksamkeit, Provokation und Streit. Wo er sich bedroht sah, wurde aus der übertriebenen Show Ernst, wie die zahlreichen öffentlichen Fehden zeigen, etwa mit Trippie Redd, Chief Keef, Meek Mill, 50 Cent und weiteren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: das Bild als Erfolgsmaschine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der Zwei den Blick auf Wirkung und Erfolg. Hernandez trat unter dem Namen ›Tekashi69‹ mit Regenbogenhaar, großflächigen Tätowierungen und Zahnschmuck auf, ein Aussehen, das unübersehbar sein sollte. Staatsanwälte warfen ihm 2018 vor, Fehden gezielt eingesetzt zu haben, um seine Verkäufe zu steigern. Aus den Zahlen lässt sich der Wirkungsgrad ablesen: ›Gummo‹ (10. November 2017) erreichte Platz 12 der Billboard Hot 100, das Mixtape ›Day69‹ (23. Februar 2018) Platz 4 der Billboard 200, das Debütalbum ›Dummy Boy‹ (27. November 2018) Platz 2, ›Fefe‹ mit Nicki Minaj und Murda Beatz Platz 3 der Hot 100. 2020 erreichte ›Trollz‹ mit Nicki Minaj Platz 1 der Hot 100, seine erste Nummer eins.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Aufmerksamkeit als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Musikalisch ist 6ix9ine ein Trap-Rapper: harter, oft geschrienener Sprechgesang über wuchtigen Beats. Die Kritik zum Debütalbum war überwiegend negativ. Was ihn vom Rest der New Yorker Szene unterschied, war weniger die Technik als das Gespür für Aufmerksamkeit. Der Auftritt als Figur, die man nicht übersehen kann, die Provokation in den sozialen Netzwerken und die Fehden machten ihn zu einem der meistbesprochenen Rapper seiner Generation, noch bevor das erste Album erschien. Im Oktober 2019 meldete die Presse einen Zweialbumvertrag mit 10K Projects über mehr als zehn Millionen US-Dollar. Das lässt sich als Beispiel für das Muster der selbsterhaltenden Zwei lesen: Wer unentbehrlich erscheint für das Gespräch der anderen, hat einen Platz, und wer den Platz hat, kann ihn verwerten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Weg vor Gericht: Tatsachen und Vorwürfe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><strong>Verurteilungen und Verfahren:</strong> 2015 bekannte er sich in einem Verfahren der Verwendung eines Kindes in einer sexuellen Darbietung schuldig und erhielt eine Bewährungsstrafe; er bestritt später sexuellen Kontakt, die Angaben zum Alter in den Quellen weichen voneinander ab. Am 18. November 2018 wurde er mit weiteren Personen festgenommen, die Bundesanklage nach dem RICO-Gesetz sowie Waffen- und Verschwörungsdelikte betraf die Nine Trey Gangsters. Am 1. Februar 2019 bekannte er sich in neun Anklagepunkten schuldig und sagte als Zeuge der Anklage aus. Am 18. Dezember 2019 wurde er zu zwei Jahren Haft verurteilt, wobei 13 Monate Untersuchungshaft angerechnet wurden. Im April 2020 kam er wegen Asthma und des Corona-Risikos in Hausarrest, im August 2020 wurde er entlassen und stand danach unter Bewährungsaufsicht.</p>
+          <p class="vb-intro"><strong>Gewalt gegen ihn:</strong> Am 22. Juli 2018 wurde er in Brooklyn entführt, geschlagen und ausgeraubt, der Täter wurde im Oktober 2019 schuldig gesprochen. Im März 2023 wurde er in einem Fitnessstudio in Florida angegriffen und erlitt Gesichtsverletzungen; drei Männer wurden festgenommen.</p>
+          <p class="vb-intro"><strong>Spätere Verfahren:</strong> Im Oktober 2023 und im Januar 2024 wurde er in der Dominikanischen Republik festgenommen (Körperverletzung bzw. häusliche Gewalt) und kam unter Auflagen frei. Im September 2024 reichte seine frühere Partnerin eine Zivilklage gegen ihn ein. Diese Vorwürfe stammen aus Klagen und Medienberichten und sind nicht abschließend gerichtlich festgestellt; er bestreitet sie zum Teil. Am 29. Oktober 2024 wurde er wegen Verstößen gegen die Bewährungsauflagen festgenommen, laut Berichten wegen einer Reise ohne Erlaubnis, einer Verspätung vor Gericht und zweier positiver Tests auf Methamphetamin. Im Januar 2026 verurteilte ihn ein Bundesrichter zu drei Monaten Haft, die er am 6. Januar im Metropolitan Detention Center in Brooklyn antrat. Der Richter sagte laut Bericht, sein Verhalten lasse vermuten, dass er glaube, normale Regeln gälten für ihn nicht. Anfang April 2026 kam er frei.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Zwei mit Dreierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Fähigkeit, aus sehr wenig sehr viel zu machen. Ein Junge ohne Rückhalt wurde zu einem der bekanntesten Rapper seiner Generation und fand, nach eigenem Weg, auch Wege zur Großzügigkeit: Für ›Trollz‹ floss ein Teil der Einnahmen an das Bail Project, und im April 2026 verteilte er 50.000 Dollar an zwei Familien, wobei ein Krypto-Wettanbieter das Gewinnspiel sponserte und die Motive in den Netzwerken diskutiert wurden.</p>
+          <p class="vb-intro">Der Schatten liegt dort, wo das Revier alles überlagert. Die selbsterhaltende Zwei mit Dreierflügel kann Zugehörigkeit nur halten, solange sie nützlich ist, und wenn sie die Nähe verliert, kippt das Gemütliche in Härte. Sein Weg hat ihn mehrfach in Konflikt mit Gruppen und Gesetz gebracht, und seine Entscheidung von 2019, als Zeuge gegen Mitglieder der eigenen Gruppe auszusagen, lässt sich als Hinweis lesen, was für die selbsterhaltende Zwei im Ernstfall zuerst kommt: die eigene Sicherheit. Ob die Muster, die dieses Porträt beschreibt, aus einer Kindheit mit Verlusten, aus Berufswahl oder Umfeld stammen, lässt sich aus der Ferne nicht trennen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: nach der Haft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 21. Oktober 2026) ist 6ix9ine seit April 2026 wieder frei und steht unter den Auflagen der Bewährung. Eine Verletzung dieser Auflagen führte bereits 2024 und 2026 zu Haft. Über neue Veröffentlichungen habe ich keine gesicherten Informationen gefunden.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se2", label:"SE2 – Das Flusspferd: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se2", label:"Lebensmusterkompass: SE2 – Flusspferd"},
+        {route:"beruehmte-uli-hoeness", label:"Porträt: Uli Hoeneß (SE2w3) – derselbe Subtyp und Flügel, ebenfalls mit einem Verfahren vor Gericht"},
+        {route:"beruehmte-harald-gloeockler", label:"Porträt: Harald Glööckler (SE2w3) – das Bild als Erfolgsmaschine"},
+        {route:"beruehmte-tom-kaulitz", label:"Porträt: Tom Kaulitz (SE2w3)"},
+        {route:"beruehmte-quentin-tarantino", label:"Porträt: Quentin Tarantino (SE2w3)"},
+      ])}
+    </div>
+  `);
+}

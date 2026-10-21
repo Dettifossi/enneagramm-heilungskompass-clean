@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=278";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=279";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -494,6 +494,7 @@ const florenceNightingalePortraitPage = () => _lazyPage("./data/beruehmte-de/tei
 const adaLovelacePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "adaLovelacePortraitPage");
 const donKingPortraitPage = () => _lazyPage("./data/beruehmte-de/teil8.js", "donKingPortraitPage");
 const hansSiglPortraitPage = () => _lazyPage("./data/beruehmte-de/teil18.js", "hansSiglPortraitPage");
+const sixNinePortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js", "sixNinePortraitPage");
 const alexanderDerGrossePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "alexanderDerGrossePortraitPage");
 const arminRohdePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "arminRohdePortraitPage");
 const bracoPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "bracoPortraitPage");
@@ -27581,6 +27582,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Harry Houdini \u2013 Sozialer Typ 3",
     teaser:"SO3w2 \u00b7 1874\u20131926. Entfesselungsk\u00fcnstler (Handschellenk\u00f6nig, Wasserfolterzelle, Kistenflucht im East River): vom Armutskind aus Budapest zu einem der bestbezahlten Unterhalter seiner Zeit, Pr\u00e4sident der Society of American Magicians, Gegner der Spiritisten. Der Gepard, der sein Scheitern zur B\u00fchne machte.",
     land:"Ungarn/USA", tags:["Schauspiel"], gender:"m"},
+  { route:"beruehmte-6ix9ine", name:"6ix9ine", added:"2026-10-21", subtyp:"SE2w3",
+    heading:"6ix9ine \u2013 Selbsterhaltender Typ 2",
+    teaser:"SE2w3 \u00b7 geb. 1996. US-amerikanischer Rapper (Daniel Hernandez) aus Brooklyn, bekannt durch \u203aGummo\u2039, \u203aFefe\u2039 und \u203aTrollz\u2039. Das Flusspferd, das Aufmerksamkeit zum Handwerk machte und sein Revier mit Härte verteidigte.",
+    land:"USA", tags:["Musik"], gender:"m"},
   { route:"beruehmte-hans-sigl", name:"Hans Sigl", added:"2026-10-21", subtyp:"SO9w1",
     heading:"Hans Sigl \u2013 Sozialer Typ 9",
     teaser:"SO9w1 \u00b7 geb. 1969. \u00d6sterreichischer Schauspieler und Moderator, seit 2008 in der Titelrolle von \u203aDer Bergdoktor\u2039. Der B\u00fcffel, der im Ensemble zu Hause ist und Haltung f\u00fcr eine Frage des Anstands h\u00e4lt.",
@@ -65258,7 +65263,7 @@ const ROUTES = {
       "beruehmte-ludwig-wittgenstein": ludwigWittgensteinPortraitPage,
       "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
       "beruehmte-henning-baum": henningBaumPortraitPage,
-      "beruehmte-hans-sigl": hansSiglPortraitPage, "beruehmte-don-king": donKingPortraitPage, "beruehmte-dieter-lange": dieterLangePortraitPage, "beruehmte-russell-means": russellMeansPortraitPage, "beruehmte-nick-nolte": nickNoltePortraitPage, "beruehmte-dietrich-mateschitz": dietrichMateschitzPortraitPage, "beruehmte-wolfgang-grupp": wolfgangGruppPortraitPage, "beruehmte-dany-boon": danyBoonPortraitPage, "beruehmte-wayne-dyer": wayneDyerPortraitPage, "beruehmte-auguste-rodin": augusteRodinPortraitPage, "beruehmte-harry-houdini": harryHoudiniPortraitPage, "beruehmte-ada-lovelace": adaLovelacePortraitPage, "beruehmte-camille-claudel": camilleClaudelPortraitPage, "beruehmte-charlie-chaplin": charlieChaplinPortraitPage, "beruehmte-franz-peter-tebartz-van-elst": franzPeterTebartzVanElstPortraitPage, "beruehmte-juergen-klinsmann": juergenKlinsmannPortraitPage, "beruehmte-harrison-ford": harrisonFordPortraitPage, "beruehmte-prince-rogers-nelson": princeRogersNelsonPortraitPage, "beruehmte-gert-postel": gertPostelPortraitPage,
+      "beruehmte-6ix9ine": sixNinePortraitPage, "beruehmte-hans-sigl": hansSiglPortraitPage, "beruehmte-don-king": donKingPortraitPage, "beruehmte-dieter-lange": dieterLangePortraitPage, "beruehmte-russell-means": russellMeansPortraitPage, "beruehmte-nick-nolte": nickNoltePortraitPage, "beruehmte-dietrich-mateschitz": dietrichMateschitzPortraitPage, "beruehmte-wolfgang-grupp": wolfgangGruppPortraitPage, "beruehmte-dany-boon": danyBoonPortraitPage, "beruehmte-wayne-dyer": wayneDyerPortraitPage, "beruehmte-auguste-rodin": augusteRodinPortraitPage, "beruehmte-harry-houdini": harryHoudiniPortraitPage, "beruehmte-ada-lovelace": adaLovelacePortraitPage, "beruehmte-camille-claudel": camilleClaudelPortraitPage, "beruehmte-charlie-chaplin": charlieChaplinPortraitPage, "beruehmte-franz-peter-tebartz-van-elst": franzPeterTebartzVanElstPortraitPage, "beruehmte-juergen-klinsmann": juergenKlinsmannPortraitPage, "beruehmte-harrison-ford": harrisonFordPortraitPage, "beruehmte-prince-rogers-nelson": princeRogersNelsonPortraitPage, "beruehmte-gert-postel": gertPostelPortraitPage,
       "beruehmte-herman-van-veen": hermanVanVeenPortraitPage,
       "beruehmte-magnus-carlsen": magnusCarlsenPortraitPage,
       "beruehmte-peter-sharpe": peterSharpePortraitPage,
