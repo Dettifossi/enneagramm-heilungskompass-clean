@@ -2609,3 +2609,69 @@ export function florenceNightingalePortraitPage() {
     </div>
   `);
 }
+
+export function catherineDeneuvePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-catherine-deneuve-portrait.jpg" alt="Catherine Deneuve – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-catherine-deneuve-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Catherine Deneuve</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Französische Schauspielerin, geb. 1943 &ndash; &rsaquo;Les Parapluies de Cherbourg&lsaquo;, &rsaquo;Belle de jour&lsaquo;, &rsaquo;Indochine&lsaquo; &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär: die Tochter zweier Schauspieler, die einen eigenen Namen wählte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> wirkt harmlos, trägt seine Maske von Natur aus und ist erstaunlich geschickt mit den Händen. Er baut aus wenig ein System, das funktioniert, und fällt dabei kaum auf. Catherine Fabienne Dorléac wurde am 22. Oktober 1943 in Paris geboren, als Tochter der Schauspieler Maurice Dorléac und Renée Simonot. Ihre Schwester Françoise Dorléac (1942–1967), ebenfalls Schauspielerin, starb 1967 bei einem Autounfall. Catherine nahm den Mädchennamen ihrer Mutter, Deneuve, als Künstlernamen, um sich von ihren Schwestern abzugrenzen.</p>
+          <p class="vb-intro">Sie besuchte katholische Schulen und stand 1957 mit 13 Jahren in ihrem ersten Film, ›Les Collégiennes‹ von André Hunebelle, noch unter dem Namen Catherine Dorléac. Von da an arbeitete sie, soweit die Angaben es zeigen, über Jahrzehnte ununterbrochen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Können statt Glänzen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die selbsterhaltende Drei gilt im Lebensmusterkompass dieser App als Kontratyp der Drei: Sie will nicht glänzen, sondern etwas können, und sichert sich mit solider Arbeit einen Platz, an dem sie nicht mehr gefährdet ist. Das lässt sich bei Deneuve mit der Art in Verbindung bringen, wie sie ihre Laufbahn gebaut hat. Auf den frühen Film folgte kein Strahlen um jeden Preis, sondern die Zusammenarbeit mit den großen Regisseuren ihrer Zeit: Jacques Demy, Roman Polanski, Luis Buñuel, François Truffaut, Régis Wargnier, Lars von Trier, François Ozon. Es entstand ein Werk, das sich nicht auf einen Erfolg stützt, sondern auf eine lange Reihe tragfähiger Arbeiten.</p>
+          <p class="vb-intro">Dazu passt, dass sie ihr Privatleben geschützt hat. Zu Spekulationen über ihr Privatleben sagte sie 2002 im Magazin ›Knack‹ sinngemäß, man rate, sobald man nichts darüber wisse. 1983 antwortete sie auf die Frage nach ihrem Alter in einer Kosmetikkampagne mit dem Satz ›Look closely. Next year, I will be 40‹ (›Schaut genau hin. Nächstes Jahr werde ich 40‹), also mit einer Selbstverständlichkeit, die ohne Maskierung auskommt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Distanz, Melancholie und das Rätsel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der Drei eine Neigung zum Besonderen, zur Tiefe und zu einer gewissen Schwermut. Das zeigt sich in der Auswahl ihrer Rollen. Statt der bequemen Schönheit, die man von ihr hätte verlangen können, spielte sie in ›Repulsion‹ (1965, Roman Polanski) und ›Belle de jour‹ (1967, Luis Buñuel) Frauen, bei denen die ruhige Oberfläche etwas Dunkles verdeckt, und in ›Tristana‹ (1970, Buñuel) eine Figur, die an ihrer Umwelt zerbricht. Der frühe Tod ihrer Schwester 1967, im selben Jahr wie ›Belle de jour‹, kann als Hintergrund für die Ernsthaftigkeit dieser Jahre gelesen werden, ohne dass sich daraus mehr behaupten ließe, als die Daten zeigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: das Gesicht, das mehr verbirgt als zeigt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Durchbruch kam mit ›Les Parapluies de Cherbourg‹ (1964, Jacques Demy), einem Film, der mit der Goldenen Palme in Cannes ausgezeichnet wurde. ›Repulsion‹ war ihr englischsprachiges Debüt, ›Belle de jour‹ brachte ihr eine BAFTA-Nominierung. Für ›Le Dernier Métro‹ (1980, François Truffaut) erhielt sie den César und den David di Donatello als beste Hauptdarstellerin, für ›Indochine‹ (1992, Régis Wargnier) eine Oscar-Nominierung und ihren zweiten César. Für ›Place Vendôme‹ bekam sie 1998 den Volpi-Pokal der Filmfestspiele von Venedig, dazu Ehrenpreise: den Goldenen Bären der Berlinale (1998), die Ehrenpalme in Cannes (2005) und den Goldenen Löwen für das Lebenswerk in Venedig (2022). Insgesamt gab es 14 César-Nominierungen.</p>
+          <p class="vb-intro">Was sie von vielen unterscheidet, ist die Art, wie sie die Zurückhaltung als Handwerkszeug einsetzt. Ihre Figuren sprechen wenig und zeigen noch weniger, und die Regisseure nutzen das als Gegenpol zu dem, was darunter liegt: den Zusammenbruch der Carol in ›Repulsion‹, das Doppelleben der Séverine in ›Belle de jour‹, die Selbstbeherrschung der Theaterleiterin im besetzten Paris in ›Le Dernier Métro‹. Das lässt sich als die ›natürliche Maske‹ der selbsterhaltenden Drei lesen, die aus einem sehr beherrschten Äußeren ein künstlerisches Mittel macht. Dass die Mode sie ebenso nutzte, passt dazu: Yves Saint Laurent, dessen Muse sie war, kleidete sie in mehreren Filmen ein, Ende der 1970er-Jahre war sie das Gesicht von Chanel No. 5, und von 1985 bis 1989 diente ihr Bild als Marianne, als Symbol der französischen Republik. Die Rechte daran trat sie laut Wikipedia an Amnesty International ab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei mit Viererflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Beständigkeit: Über mehr als sechs Jahrzehnte blieb sie im Gespräch, ohne sich zu verbiegen, und fand zu jeder Lebensphase neue Rollen. 1971 unterzeichnete sie das ›Manifest der 343‹ zur Frage der Schwangerschaftsabbrüche, und sie engagierte sich bei Amnesty International gegen die Todesstrafe.</p>
+          <p class="vb-intro">Der Schatten liegt in der Distanz. Wer die Maske zur Stärke macht, wirkt leicht unnahbar. Im Januar 2018 unterzeichnete sie einen offenen Brief von 100 Frauen in ›Le Monde‹, der die #MeToo-Bewegung kritisierte. Sie entschuldigte sich später bei Betroffenen, die sich verletzt fühlten, verteidigte aber ihre Unterschrift. Das zeigt, wie schwer es dem Waschbären fällt, Position und Verletzlichkeit gleichzeitig zu zeigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Stand: weiter vor der Kamera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Catherine Deneuve wird am 22. Oktober 2026 83 Jahre alt. Im November 2019 erlitt sie einen leichten Schlaganfall, nach Berichten ohne Schäden an den motorischen Funktionen. Danach drehte sie weiter: ›Bernadette‹ (2023, Léa Domenach) als Bernadette Chirac, ›Marcello Mio‹ (2024, Christophe Honoré) als sie selbst, und für 2026 werden ›Parallel Tales‹ (Asghar Farhadi) und ›Gentle Monster‹ (Marie Kreutzer) genannt. Zu ihren Kindern gehören Christian Vadim (mit Roger Vadim) und Chiara Mastroianni (mit Marcello Mastroianni).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se3", label:"Lebensmusterkompass: SE3 – Waschbär"},
+        {route:"beruehmte-anna-netrebko", label:"Porträt: Anna Netrebko (SE3w4) – Bühnenkünstlerin, derselbe Subtyp und Flügel"},
+        {route:"beruehmte-norah-jones", label:"Porträt: Norah Jones (SE3w4)"},
+        {route:"beruehmte-caren-miosga", label:"Porträt: Caren Miosga (SE3w4)"},
+        {route:"beruehmte-billie-lourd", label:"Porträt: Billie Lourd (SE3w4) – ebenfalls Tochter einer Schauspielerin"},
+      ])}
+    </div>
+  `);
+}

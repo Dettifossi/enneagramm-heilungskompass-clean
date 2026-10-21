@@ -2587,3 +2587,69 @@ export function gertPostelPortraitPage() {
     </div>
   `);
 }
+
+export function catherineDeneuvePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-catherine-deneuve-portrait.jpg" alt="Catherine Deneuve – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-catherine-deneuve-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Catherine Deneuve</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Self-Preservation Type 3 with a Four-wing</p>
+        <p class="krim-portrait-subtitle">French actress, b. 1943 &ndash; &lsquo;The Umbrellas of Cherbourg&rsquo;, &lsquo;Belle de Jour&rsquo;, &lsquo;Indochine&rsquo; &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon: the daughter of two actors who chose her own name</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Raccoon</strong> looks harmless, wears its mask by nature and is astonishingly skilled with its hands. It builds a system that works out of very little and hardly draws attention while doing so. Catherine Fabienne Dorléac was born on 22 October 1943 in Paris, the daughter of the actors Maurice Dorléac and Renée Simonot. Her sister Françoise Dorléac (1942–1967), also an actress, died in a car accident in 1967. Catherine took her mother&rsquo;s maiden name, Deneuve, as her stage name in order to set herself apart from her sisters.</p>
+          <p class="vb-intro">She attended Catholic schools and appeared in her first film at 13 in 1957, &lsquo;Les Collégiennes&rsquo; by André Hunebelle, still under the name Catherine Dorléac. From then on, as far as the sources show, she worked without interruption for decades.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Three: ability instead of shine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In this app&rsquo;s Life Pattern Compass the self-preservation Three counts as the countertype of the Three: it does not want to shine but to be able to do something, and secures through solid work a place where it is no longer at risk. This can be linked to the way Deneuve built her career. The early film was not followed by shine at any cost, but by cooperation with the great directors of her time: Jacques Demy, Roman Polanski, Luis Buñuel, François Truffaut, Régis Wargnier, Lars von Trier, François Ozon. The result is a body of work that does not rest on one success but on a long series of sound works.</p>
+          <p class="vb-intro">It fits that she protected her private life. On speculation about her private life she said in 2002 in the magazine &lsquo;Knack&rsquo;, in essence, that people guess as soon as they know nothing about it. In 1983, in a cosmetics campaign, she answered the question about her age with the sentence &lsquo;Look closely. Next year, I will be 40&rsquo;, a matter-of-factness that needs no disguise.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: distance, melancholy and the riddle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Three a leaning toward the special, toward depth and a certain gravity. This shows in her choice of roles. Instead of the comfortable beauty that could have been demanded of her, she played in &lsquo;Repulsion&rsquo; (1965, Roman Polanski) and &lsquo;Belle de Jour&rsquo; (1967, Luis Buñuel) women in whom a calm surface covers something dark, and in &lsquo;Tristana&rsquo; (1970, Buñuel) a character who breaks on her surroundings. The early death of her sister in 1967, the same year as &lsquo;Belle de Jour&rsquo;, can be read as a background to the seriousness of those years, without claiming more than the dates show.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the face that hides more than it shows</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The breakthrough came with &lsquo;The Umbrellas of Cherbourg&rsquo; (&lsquo;Les Parapluies de Cherbourg&rsquo;, 1964, Jacques Demy), a film awarded the Palme d&rsquo;Or in Cannes. &lsquo;Repulsion&rsquo; was her English-language debut, and &lsquo;Belle de Jour&rsquo; brought her a BAFTA nomination. For &lsquo;Le Dernier Métro&rsquo; (&lsquo;The Last Metro&rsquo;, 1980, François Truffaut) she received the César and the David di Donatello as best actress, for &lsquo;Indochine&rsquo; (1992, Régis Wargnier) an Oscar nomination and her second César. For &lsquo;Place Vendôme&rsquo; she received the Volpi Cup at the Venice Film Festival in 1998, along with honorary awards: the Golden Bear of the Berlinale (1998), the honorary Palme in Cannes (2005) and the Golden Lion for lifetime achievement in Venice (2022). In total there were 14 César nominations.</p>
+          <p class="vb-intro">What sets her apart from many is the way she uses restraint as a tool. Her characters speak little and show even less, and directors use this as a counterweight to what lies beneath: the breakdown of Carol in &lsquo;Repulsion&rsquo;, the double life of Séverine in &lsquo;Belle de Jour&rsquo;, the self-control of the theater director in occupied Paris in &lsquo;Le Dernier Métro&rsquo;. This can be read as the &lsquo;natural mask&rsquo; of the self-preservation Three, which turns a very controlled exterior into an artistic means. That fashion used her in the same way fits this: Yves Saint Laurent, whose muse she was, dressed her in several films, in the late 1970s she was the face of Chanel No. 5, and from 1985 to 1989 her image served as Marianne, the symbol of the French Republic. According to Wikipedia she transferred the rights to it to Amnesty International.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the self-preservation Three with a Four-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in constancy: over more than six decades she stayed in the conversation without bending, and found new roles in every phase of life. In 1971 she signed the &lsquo;Manifesto of the 343&rsquo; on the question of abortion, and she campaigned with Amnesty International against the death penalty.</p>
+          <p class="vb-intro">The shadow lies in distance. Whoever turns the mask into a strength easily seems unapproachable. In January 2018 she signed an open letter by 100 women in &lsquo;Le Monde&rsquo; that criticized the #MeToo movement. She later apologized to people who felt hurt, but defended her signature. This shows how hard it is for the Raccoon to show position and vulnerability at the same time.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Status: still in front of the camera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Catherine Deneuve turns 83 on 22 October 2026. In November 2019 she suffered a mild stroke, according to reports without damage to her motor functions. She has kept filming since: &lsquo;Bernadette&rsquo; (2023, Léa Domenach) as Bernadette Chirac, &lsquo;Marcello Mio&rsquo; (2024, Christophe Honoré) as herself, and for 2026 &lsquo;Parallel Tales&rsquo; (Asghar Farhadi) and &lsquo;Gentle Monster&rsquo; (Marie Kreutzer) are named. Her children include Christian Vadim (with Roger Vadim) and Chiara Mastroianni (with Marcello Mastroianni).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se3", label:"SE3 – The Raccoon: subtype profile"},
+        {route:"lebensmusterkompass/se3", label:"Life Pattern Compass: SE3 – Raccoon"},
+        {route:"beruehmte-anna-netrebko", label:"Portrait: Anna Netrebko (SE3w4) – stage artist, same subtype and wing"},
+        {route:"beruehmte-norah-jones", label:"Portrait: Norah Jones (SE3w4)"},
+        {route:"beruehmte-caren-miosga", label:"Portrait: Caren Miosga (SE3w4)"},
+        {route:"beruehmte-billie-lourd", label:"Portrait: Billie Lourd (SE3w4) – also the daughter of an actress"},
+      ])}
+    </div>
+  `);
+}

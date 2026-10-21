@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2551", date: "2026-10-21", text: "Neues Porträt: Catherine Deneuve (SE3w4) – Schauspielerin, bekannt durch Les Parapluies de Cherbourg, Belle de jour und Indochine.", text_en: "New portrait: Catherine Deneuve (SE3w4) – actress, known for The Umbrellas of Cherbourg, Belle de Jour and Indochine.", route: "beruehmte-catherine-deneuve" },
     { version: "v2550", date: "2026-10-21", text: "Neues Porträt: 6ix9ine (SE2w3) – Rapper aus Brooklyn, bekannt durch Gummo, Fefe und Trollz.", text_en: "New portrait: 6ix9ine (SE2w3) – rapper from Brooklyn, known for Gummo, Fefe and Trollz.", route: "beruehmte-6ix9ine" },
     { version: "v2549", date: "2026-10-21", text: "Neues Porträt: Hans Sigl (SO9w1) – Schauspieler und Moderator, Titelrolle in Der Bergdoktor.", text_en: "New portrait: Hans Sigl (SO9w1) – actor and host, title role in Der Bergdoktor.", route: "beruehmte-hans-sigl" },
     { version: "v2548", date: "2026-10-20", text: "Neues Porträt: Don King (SE7w8) – Boxpromoter, Veranstalter von Rumble in the Jungle und Thrilla in Manila.", text_en: "New portrait: Don King (SE7w8) – boxing promoter, organizer of the Rumble in the Jungle and the Thrilla in Manila.", route: "beruehmte-don-king" },
