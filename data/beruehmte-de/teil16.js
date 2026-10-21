@@ -3500,7 +3500,7 @@ export function hubertBenoitPortraitPage() {
 
         <h2 class="vb-section">5. Licht und Schatten der sozialen Eins mit Neunerflügel</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das Licht liegt im Umgang mit dem Verlust. Der Chirurg, dem die Hand versagte, wurde ein Denker, der nicht klagte, sondern in der langen Genesungszeit ein neues Feld erschloss und daraus einen zweiten Beruf machte. Das passt zur Eins, die Schwierigkeit als Auftrag nimmt, und zur Neun, die annimmt, was nicht zu ändern ist.</p>
+          <p class="vb-intro">Das Licht liegt im Umgang mit dem Verlust. Der Chirurg, dem die Hand versagte, wurde ein Denker, der sich nicht beklagte, sondern in der langen Genesungszeit ein neues Feld erschloss und daraus einen zweiten Beruf machte. Das passt zur Eins, die Schwierigkeit als Auftrag nimmt, und zur Neun, die annimmt, was nicht zu ändern ist.</p>
           <p class="vb-intro">Der Schatten gehört zum selben Muster. Eine Lehre, die ein genaues Gesetz des Geistes beschreibt, lässt wenig Raum für Beliebigkeit, und wer glaubt, die Ordnung gefunden zu haben, hört andere Wege oft nur mit Mühe. Das lässt sich mit dem Anspruch der Eins in Verbindung bringen, richtig zu liegen.</p>
         </blockquote>
 
