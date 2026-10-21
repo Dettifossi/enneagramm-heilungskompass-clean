@@ -50,12 +50,35 @@ export default async function handler(req, res) {
       return res.status(200).json({ ok: true, hinweis: `Entwurf "${name}" existiert bereits, nichts geändert` });
     }
 
-    const sent = await brevo("/emailCampaigns?status=sent&limit=1&sort=desc");
-    const last = sent.json?.campaigns?.[0];
-    const sender = last?.sender;
-    const listIds = last?.recipients?.lists;
-    if (!sender?.email || !Array.isArray(listIds) || !listIds.length) {
-      return res.status(409).json({ error: "Kein früherer Brief mit Absender und Listen gefunden. Bitte einmal einen Brief manuell in Brevo senden oder BREVO-Absender/Liste ergänzen." });
+    // Absender und Empfängerlisten: zuerst aus Umgebungsvariablen (falls gesetzt), sonst vom letzten Brief,
+    // der nicht nur Entwurf ist (versendet, geplant oder archiviert).
+    let sender = process.env.BREVO_SENDER_EMAIL ? { name: process.env.BREVO_SENDER_NAME || "Detlef Rathmer", email: process.env.BREVO_SENDER_EMAIL } : null;
+    let listIds = (process.env.BREVO_LIST_IDS || "").split(",").map((x) => parseInt(x, 10)).filter((x) => x > 0);
+    const gefunden = [];
+    if (!sender || !listIds.length) {
+      for (const status of ["sent", "archive", "queued", ""]) {
+        const r = await brevo(`/emailCampaigns?${status ? `status=${status}&` : ""}limit=10&sort=desc`);
+        const camps = (r.json?.campaigns || []).filter((c) => c.status !== "draft");
+        gefunden.push(`${status || "alle"}: HTTP ${r.status}, ${camps.length} Briefe`);
+        const c = camps.find((x) => x.sender?.email && x.recipients?.lists?.length);
+        if (c) {
+          sender = sender || { name: c.sender.name, email: c.sender.email };
+          if (!listIds.length) listIds = c.recipients.lists;
+          break;
+        }
+      }
+    }
+    if (!sender?.email || !listIds.length) {
+      const senders = await brevo("/senders");
+      const lists = await brevo("/contacts/lists?limit=50");
+      const info = {
+        error: "Absender oder Empfängerliste nicht ermittelbar. Bitte in Vercel BREVO_SENDER_EMAIL und BREVO_LIST_IDS setzen (Hinweise siehe unten).",
+        suche: gefunden,
+        absender: (senders.json?.senders || []).map((s) => `${s.name} <${s.email}>`),
+        listen: (lists.json?.lists || []).map((l) => `${l.id}: ${l.name} (${l.totalSubscribers} Kontakte)`),
+      };
+      console.log("newsletter-draft 409", JSON.stringify(info));
+      return res.status(409).json(info);
     }
 
     const created = await brevo("/emailCampaigns", {
