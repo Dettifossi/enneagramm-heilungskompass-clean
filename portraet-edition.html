@@ -317,6 +317,19 @@
   .faq details { border-bottom: 1px solid var(--line); padding: 1rem 0; }
   .faq summary { cursor: pointer; font-weight: 700; font-size: 1rem; }
   .faq p { color: var(--muted); font-size: .95rem; margin-top: .6rem; }
+
+  .probe { display:grid; grid-template-columns:200px 1fr; gap:1.6rem; background:var(--paper); border:1px solid var(--line); border-radius:18px; padding:1.6rem; box-shadow:var(--shadow-soft); max-width:860px; margin:2rem auto 0; position:relative; overflow:hidden; }
+  .probe img { width:200px; height:200px; object-fit:cover; border-radius:14px; }
+  .probe-meta { font-size:.78rem; letter-spacing:.1em; text-transform:uppercase; color:var(--copper); font-weight:700; }
+  .probe h3 { font-size:1.7rem; margin:.2rem 0 .1rem; }
+  .probe-sub { color:var(--muted); font-size:.95rem; margin:0 0 .9rem; }
+  .probe h4 { font-family:'EB Garamond',Georgia,serif; font-size:1.2rem; margin:.4rem 0 .4rem; color:var(--moss); }
+  .probe-text { max-height:11.5rem; overflow:hidden; position:relative; }
+  .probe-text p { margin:0 0 .8rem; }
+  .probe-text::after { content:""; position:absolute; left:0; right:0; bottom:0; height:4.5rem; background:linear-gradient(transparent, var(--paper)); }
+  .probe-more { max-width:860px; margin:1.2rem auto 0; color:var(--muted); font-size:.95rem; }
+  .probe-more li { margin:.15rem 0; }
+  @media (max-width:640px) { .probe { grid-template-columns:1fr; } .probe img { width:100%; height:auto; aspect-ratio:1/1; } }
 </style>
 </head>
 <body>
@@ -366,6 +379,40 @@
       <h2 class="section-title reveal">Porträts, die im Gedächtnis bleiben</h2>
       <p class="section-lead reveal">Jedes Porträt nennt den Subtyp und begründet ihn. Dazu kommen laufend neue Personen, ohne Aufpreis.</p>
       <div class="portrait-strip reveal"><div class="portrait-item"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-james-corden-portrait.jpg" alt="James Corden" loading="lazy" /><div class="name">James Corden</div><div class="code">SO6w7</div></div><div class="portrait-item"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jodie-foster-portrait.jpg" alt="Jodie Foster" loading="lazy" /><div class="name">Jodie Foster</div><div class="code">SX5w6</div></div><div class="portrait-item"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-tilda-swinton-portrait.jpg" alt="Tilda Swinton" loading="lazy" /><div class="name">Tilda Swinton</div><div class="code">SX5w4</div></div><div class="portrait-item"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-woody-allen-portrait.jpg" alt="Woody Allen" loading="lazy" /><div class="name">Woody Allen</div><div class="code">SE6w7</div></div><div class="portrait-item"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-malaika-mihambo-portrait.jpg" alt="Malaika Mihambo" loading="lazy" /><div class="name">Malaika Mihambo</div><div class="code">SE6w5</div></div><div class="portrait-item"><img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-andy-reid-portrait.jpg" alt="Andy Reid" loading="lazy" /><div class="name">Andy Reid</div><div class="code">SO6w5</div></div></div>
+    </div>
+  </section>
+
+
+  <section class="section-alt" id="probe">
+    <div class="wrap">
+      <div class="kicker reveal">Zum Probelesen</div>
+      <h2 class="section-title reveal">So liest sich ein Porträt</h2>
+      <p class="section-lead reveal">Als Beispiel Muhammad Ali. Jedes Porträt ist gleich aufgebaut: das Tier des Subtyps, die Begründung des Typs, der Flügel, Licht und Schatten, dazu Belege aus der Biografie. Hier der Anfang.</p>
+      <article class="probe reveal">
+        <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-muhammad-ali-portrait.jpg" alt="Muhammad Ali – Porträt" loading="lazy" />
+        <div>
+          <div class="probe-meta">SO2w1 · Sozialer Typ 2 mit Einserflügel</div>
+          <h3>Muhammad Ali</h3>
+          <p class="probe-sub">US-amerikanischer Boxweltmeister und Bürgerrechtler, 1942–2016 · Tierentsprechung: Golden Retriever</p>
+          <h4>1. Der Golden Retriever</h4>
+          <div class="probe-text">
+            <p>Der Golden Retriever ist das Tier der sozialen Zwei, ein Tier, dessen Auftreten Räume größer macht und das seine Kraft für alle um sich herum einsetzt, nicht nur für sich selbst. Kaum jemand hat diese Doppelnatur so sichtbar gemacht wie Muhammad Ali: der lauteste, selbstbewussteste Sportler seiner Zeit und zugleich einer, der seine öffentliche Bühne konsequent für die Sache der schwarzen Bevölkerung Amerikas einsetzte.</p>
+            <p>Cassius Marcellus Clay Jr. wurde am 17. Januar 1942 in Louisville, Kentucky, geboren, in einer Zeit und an einem Ort, in der Rassentrennung Alltag war. 1964 gewann er als 22-Jähriger den Weltmeistertitel im Schwergewicht, trat der Nation of Islam bei und nahm den Namen Muhammad Ali an, ein Bruch mit dem, was von einem jungen schwarzen Boxer erwartet wurde.</p>
+          </div>
+        </div>
+      </article>
+      <div class="probe-more reveal">
+        <strong>Es geht weiter mit:</strong>
+        <ul>
+          <li>2. Die soziale Zwei: Der eigene Ruhm im Dienst einer ganzen Gemeinschaft</li>
+          <li>3. Der Einserflügel: Prinzipientreue trotz höchstem persönlichen Preis</li>
+          <li>4. Licht und Schatten der sozialen Zwei</li>
+          <li>5. Das Werk: Vom lautesten Boxer der Welt zum weltweiten Botschafter der Würde</li>
+        </ul>
+      </div>
+      <div class="cta-row reveal" style="justify-content:center;margin-top:1.4rem;">
+        <a class="btn btn-primary" href="https://buy.stripe.com/8x2aEX8oM8WufFUeDF4gg3O" target="_blank" rel="noopener">Weiterlesen: Porträt-Edition für 39 € →</a>
+      </div>
     </div>
   </section>
 
