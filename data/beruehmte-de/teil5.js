@@ -1504,6 +1504,7 @@ export function quentinTarantinoPortraitPage() {
         {route:"beruehmte-stromae", label:"Porträt: Stromae (Paul Van Haver) (SE2w3)"},
         {route:"beruehmte-tom-kaulitz", label:"Porträt: Tom Kaulitz (SE2w3)"},
         {route:"beruehmte-tutty-tran", label:"Porträt: Tutty Tran (SE2w3)"},
+        {route:"beruehmte-6ix9ine", label:"Porträt: 6ix9ine (SE2w3)"},
       ])}
     </div>
   `);

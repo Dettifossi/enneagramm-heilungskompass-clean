@@ -673,6 +673,7 @@ export function haraldGloeocklerPortraitPage() {
         {route:"beruehmte-madison-chock", label:"Porträt: Madison Chock (SE2w3)"},
         {route:"beruehmte-mr-t", label:"Porträt: Mr. T (SE2w3)"},
         {route:"beruehmte-nusrat-fateh-ali-khan", label:"Porträt: Nusrat Fateh Ali Khan (SE2w3)"},
+        {route:"beruehmte-6ix9ine", label:"Porträt: 6ix9ine (SE2w3)"},
       ])}
     </div>
   `);

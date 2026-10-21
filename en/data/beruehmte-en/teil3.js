@@ -1541,6 +1541,7 @@ export function tomKaulitzPortraitPage() {
         {route:"beruehmte-quentin-tarantino", label:"Portrait: Quentin Tarantino (SP2w3)"},
         {route:"beruehmte-bill-kaulitz", label:"Portrait: Bill Kaulitz (SX4w3) – twin brother"},
         {route:"beruehmte-heidi-klum", label:"Portrait: Heidi Klum (SX3w4) – wife"},
+        {route:"beruehmte-6ix9ine", label:"Portrait: 6ix9ine (SE2w3)"},
       ])}
     </div>
   `);

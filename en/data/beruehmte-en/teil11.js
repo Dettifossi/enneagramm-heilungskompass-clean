@@ -1650,6 +1650,7 @@ export function uliHoenessPortraitPage() {
         {route:"beruehmte-nero", label:"Portrait: Nero (SE2w3)"},
         {route:"beruehmte-oprah-winfrey", label:"Portrait: Oprah Winfrey (SE2w3)"},
         {route:"beruehmte-wolfgang-amadeus-mozart", label:"Portrait: Wolfgang Amadeus Mozart (SE2w3)"},
+        {route:"beruehmte-6ix9ine", label:"Portrait: 6ix9ine (SE2w3)"},
       ])}
     </div>
   `);
