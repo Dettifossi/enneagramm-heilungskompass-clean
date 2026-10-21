@@ -74,10 +74,13 @@ export default async function handler(req, res) {
       const info = {
         error: "Absender oder Empfängerliste nicht ermittelbar. Bitte in Vercel BREVO_SENDER_EMAIL und BREVO_LIST_IDS setzen (Hinweise siehe unten).",
         suche: gefunden,
+        absenderAbfrage: `HTTP ${senders.status} ${senders.json?.message || ""}`.trim(),
+        listenAbfrage: `HTTP ${lists.status} ${lists.json?.message || ""}`.trim(),
         absender: (senders.json?.senders || []).map((s) => `${s.name} <${s.email}>`),
         listen: (lists.json?.lists || []).map((l) => `${l.id}: ${l.name} (${l.totalSubscribers} Kontakte)`),
       };
-      console.log("newsletter-draft 409", JSON.stringify(info));
+      // Eine einzige Textzeile, damit sie im Vercel-Log ohne Aufklappen lesbar ist
+      console.log(`newsletter-draft 409 | ${gefunden.join(" ; ")} | Absender-Abfrage: ${info.absenderAbfrage} | Listen-Abfrage: ${info.listenAbfrage} | Absender: ${info.absender.join(", ") || "-"} | Listen: ${info.listen.join(", ") || "-"}`);
       return res.status(409).json(info);
     }
 
