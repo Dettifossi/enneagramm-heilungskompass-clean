@@ -2827,6 +2827,7 @@ export function danyBoonPortraitPage() {
         {route:"beruehmte-kevin-costner", label:"Portrait: Kevin Costner (SO9w1) – same subtype and wing, also actor and director"},
         {route:"beruehmte-sandra-hueller", label:"Portrait: Sandra Hüller (SO9w1) – same subtype and wing"},
         {route:"beruehmte-wayne-dyer", label:"Portrait: Wayne Dyer (SO9w8)"},
+        {route:"beruehmte-hans-sigl", label:"Portrait: Hans Sigl (SO9w1)"},
       ])}
     </div>
   `);

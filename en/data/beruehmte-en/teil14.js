@@ -1342,6 +1342,7 @@ export function peterFalkPortraitPage() {
         {route:"beruehmte-dalai-lama", label:"Portrait: Dalai Lama XIV. (SO9w1)"},
         {route:"beruehmte-joe-dispenza", label:"Portrait: Joe Dispenza (SO9w1)"},
         {route:"beruehmte-sandra-hueller", label:"Portrait: Sandra Hüller (SO9w1)"},
+        {route:"beruehmte-hans-sigl", label:"Portrait: Hans Sigl (SO9w1)"},
       ])}
     </div>
   `);
@@ -1882,6 +1883,7 @@ export function tomHanksPortraitPage() {
         {route:"beruehmte-dieter-thomas-heck", label:"Portrait: Dieter Thomas Heck (SO9w1)"},
         {route:"beruehmte-jens-riewa", label:"Portrait: Jens Riewa (SO9w1)"},
         {route:"beruehmte-joe-dispenza", label:"Portrait: Joe Dispenza (SO9w1)"},
+        {route:"beruehmte-hans-sigl", label:"Portrait: Hans Sigl (SO9w1)"},
       ])}
     </div>
   `);

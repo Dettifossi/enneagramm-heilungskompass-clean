@@ -3915,6 +3915,7 @@ export function jensRiewaPortraitPage() {
         {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1) – same subtype, reliability as a trademark"},
         {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SE1w2) – presenter, different subtype"},
         {route:"beruehmte-dieter-thomas-heck", label:"Portrait: Dieter Thomas Heck (SO9w1)"},
+        {route:"beruehmte-hans-sigl", label:"Portrait: Hans Sigl (SO9w1)"},
       ])}
     </div>
   `);
@@ -4314,6 +4315,7 @@ export function dieterThomasHeckPortraitPage() {
         {route:"lebensmusterkompass/so9", label:"Life Pattern Compass: SO9 – Buffalo"},
         {route:"beruehmte-jens-riewa", label:"Portrait: Jens Riewa (SO9w1) – same subtype, also hosted a Schlagerparade"},
         {route:"beruehmte-tom-hanks", label:"Portrait: Tom Hanks (SO9w1) – same subtype, reliability as a trademark"},
+        {route:"beruehmte-hans-sigl", label:"Portrait: Hans Sigl (SO9w1)"},
       ])}
     </div>
   `);
