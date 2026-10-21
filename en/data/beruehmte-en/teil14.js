@@ -2692,3 +2692,70 @@ export function bernhardHoeckerPortraitPage() {
     </div>
   `);
 }
+
+export function fabriceLuchiniPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-fabrice-luchini-portrait.jpg" alt="Fabrice Luchini – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-fabrice-luchini-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Fabrice Luchini</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Self-Preservation Type 1 with a Nine-wing</p>
+        <p class="krim-portrait-subtitle">French actor and reader, b. 1951 &ndash; &lsquo;La Discrète&rsquo;, &lsquo;Dans la maison&rsquo;, readings from La Fontaine to Céline &ndash; Animal correspondence: Eagle</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Eagle: a hairdresser&rsquo;s apprentice who later circled around language</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>eagle</strong> watches and circles for a long time before acting, and when it strikes, the grip holds. Fabrice Luchini was born Robert Luchini in Paris on 1 November 1951. According to the available accounts his family came from Assisi in Italy, and his parents ran a greengrocer&rsquo;s shop in the Goutte d&rsquo;Or quarter of the 18th arrondissement. At 13 his mother placed him as an apprentice with a hairdresser on the Avenue Matignon, where he took the first name of the hairdresser&rsquo;s son: Fabrice.</p>
+          <p class="vb-intro">The road to film began early: in 1969 he had his first film role in &lsquo;Tout peut arriver&rsquo; (&lsquo;Anything Can Happen&rsquo;) by Philippe Labro, and in 1970 a small part as a teenager in Éric Rohmer&rsquo;s &lsquo;Le Genou de Claire&rsquo; (&lsquo;Claire&rsquo;s Knee&rsquo;).</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation One: safety through preparation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In this app&rsquo;s Life Pattern Compass, the self-preservation One is the subtype whose perfectionism works less on the world than on its own preparation and integrity. That can be linked to Luchini&rsquo;s work on texts. In an interview with &lsquo;La Nouvelle Quinzaine&rsquo; he describes learning a text as long, almost endless repetition aimed at wearing out the urge to interpret before one looks for meaning. For Arthur Rimbaud&rsquo;s &lsquo;Une saison en enfer&rsquo; (&lsquo;A Season in Hell&rsquo;) he says he speaks the text for an hour in the morning, then walks through the day and tries to wear it down so that the meaning imposes itself.</p>
+          <p class="vb-intro">In the same conversation he invokes Paul Valéry&rsquo;s mistrust of professional reciters. For him the yardstick lies with the text, not with the performer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: stepping back behind the text</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the One a calm and the ability to enter into a matter instead of controlling it. That Luchini wears down his own will to interpret until the text speaks for itself can be linked to this: he steps back behind what he performs. There are no documented statements about his everyday temperament, self-doubt or stage fright, so the wing assignment remains an assessment on a thin basis, derived only from his working method.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: film, stage and the spoken word</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Luchini&rsquo;s work falls into three lines. <strong>Film:</strong> he worked repeatedly with Éric Rohmer (&lsquo;Perceval le Gallois&rsquo;, 1979, &lsquo;Les Nuits de la pleine lune&rsquo; / &lsquo;Full Moon in Paris&rsquo;, 1984), appeared in &lsquo;Family Business&rsquo; (1986, Costa-Gavras) and &lsquo;Max mon amour&rsquo; (1986, Nagisa Ōshima), and became widely known through Christian Vincent&rsquo;s &lsquo;La Discrète&rsquo; (1990), for which he received the Prix Jean Gabin. In 1994 he won the César for best supporting actor for &lsquo;Tout ça… pour ça !&rsquo; (&lsquo;All That… for That!&rsquo;). Later came &lsquo;Potiche&rsquo; (2010) and &lsquo;Dans la maison&rsquo; (&lsquo;In the House&rsquo;, 2012) by François Ozon, &lsquo;Les Femmes du 6e étage&rsquo; (&lsquo;The Women on the 6th Floor&rsquo;, 2011, Philippe Le Guay) and &lsquo;Slack Bay&rsquo; (2016, Bruno Dumont). For &lsquo;L&rsquo;Hermine&rsquo; (&lsquo;Courted&rsquo;, 2015, Christian Vincent) he received the Volpi Cup for best actor at the Venice Film Festival, and in 2007 the best actor prize at the Moscow Film Festival for &lsquo;Molière&rsquo;.</p>
+          <p class="vb-intro"><strong>Stage:</strong> he appeared in &lsquo;En attendant Godot&rsquo; (&lsquo;Waiting for Godot&rsquo;, 1978), in &lsquo;Voyage au bout de la nuit&rsquo; (&lsquo;Journey to the End of the Night&rsquo;) after Céline (1986 to 1988), in &lsquo;Knock ou le triomphe de la médecine&rsquo; (&lsquo;Knock, or the Triumph of Medicine&rsquo;, 2002, for which he received the Prix du Brigadier), &lsquo;Le Point sur Robert&rsquo; (2006 to 2009) and &lsquo;Une heure de tranquillité&rsquo; (&lsquo;An Hour of Peace&rsquo;, 2013). <strong>Readings:</strong> he read texts by Baudelaire, Hugo, La Fontaine and Nietzsche (1996), later Louis Jouvet, Céline and Philippe Muray (&lsquo;Fabrice Luchini lit Philippe Muray&rsquo;, 2010 to 2012). Recordings came out of the readings, such as &lsquo;Variations&rsquo; with La Fontaine and Baudelaire (2012).</p>
+          <p class="vb-intro">What sets him apart is the way to the text: he treats literature not as material for a performance but as something the speaker submits to. That can be linked to a self-preservation One who finds security in thorough preparation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and shadow of the self-preservation One with a Nine-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in precision and fidelity to the subject. Whoever places the text above themselves protects it from their own vanity, and that gives his readings weight.</p>
+          <p class="vb-intro">The shadow of the self-preservation One is inward worry, severity toward oneself and tension before an appearance. For Luchini there is only the description of his method, no statement of his own about tension or self-criticism.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Status: still in conversation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 21 October 2026), Fabrice Luchini turns 75 on 1 November 2026. His recent films include &lsquo;La petite&rsquo;, &lsquo;Mon crime&rsquo; (&lsquo;The Crime Is Mine&rsquo;, 2023, François Ozon), &lsquo;Marcello Mio&rsquo; (2024, Christophe Honoré) and &lsquo;The Empire&rsquo; (2024, Bruno Dumont). On 4 December 2025 France Inter broadcast a &lsquo;Grand entretien&rsquo; with him. No confirmed film projects for 2025 and 2026 are documented.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se1", label:"SE1 – The Eagle: Subtype Profile"},
+        {route:"lebensmusterkompass/se1", label:"Life Pattern Compass: SE1 – Eagle"},
+        {route:"beruehmte-robert-de-niro", label:"Portrait: Robert De Niro (SE1w9) – actor, same subtype and wing"},
+        {route:"beruehmte-harrison-ford", label:"Portrait: Harrison Ford (SE1w9)"},
+        {route:"beruehmte-henning-baum", label:"Portrait: Henning Baum (SE1w9)"},
+        {route:"beruehmte-catherine-deneuve", label:"Portrait: Catherine Deneuve (SE3w4) – also a French screen great"},
+      ])}
+    </div>
+  `);
+}

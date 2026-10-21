@@ -2669,3 +2669,70 @@ export function olafSchubertPortraitPage() {
     </div>
   `);
 }
+
+export function fabriceLuchiniPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-fabrice-luchini-portrait.jpg" alt="Fabrice Luchini – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-fabrice-luchini-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Fabrice Luchini</p>
+        <p class="krim-portrait-typ">SE1w9 &middot; Selbsterhaltender Typ 1 mit Neunerflügel</p>
+        <p class="krim-portrait-subtitle">Französischer Schauspieler und Vorleser, geb. 1951 &ndash; &rsaquo;La Discrète&lsaquo;, &rsaquo;Dans la maison&lsaquo;, Lesungen von La Fontaine bis Céline &ndash; Tierentsprechung: Adler</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Adler: ein Friseurlehrling, der später mit Sprache kreiste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Adler</strong> beobachtet lange und kreist, bevor er handelt, und wenn er zugreift, sitzt der Griff. Fabrice Luchini wurde am 1. November 1951 in Paris als Robert Luchini geboren. Seine Familie stammte nach den vorliegenden Angaben aus Assisi in Italien, die Eltern betrieben einen Gemüseladen im Pariser Viertel Goutte d&rsquo;Or im 18. Arrondissement. Mit 13 Jahren vermittelte seine Mutter ihn als Lehrling zu einem Friseur an der Avenue Matignon. Dort nahm er den Vornamen des Sohnes des Friseurs an: Fabrice.</p>
+          <p class="vb-intro">Der Weg zum Film begann früh: 1969 hatte er in ›Tout peut arriver‹ von Philippe Labro seine erste Filmrolle, 1970 spielte er in ›Le Genou de Claire‹ von Éric Rohmer eine kleine Rolle als Jugendlicher.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Eins: Sicherheit durch Vorbereitung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die selbsterhaltende Eins gilt im Lebensmusterkompass dieser App als der Subtyp, dessen Perfektionismus sich nicht an der Welt abarbeitet, sondern an der eigenen Vorbereitung und Integrität. Das lässt sich bei Luchini mit seiner Arbeit an Texten in Verbindung bringen. In einem Interview mit ›La Nouvelle Quinzaine‹ beschreibt er das Lernen eines Textes als lange, fast endlose Wiederholung, die darauf zielt, die Lust am Interpretieren zu erschöpfen, bevor man nach dem Sinn sucht. Für Arthur Rimbauds ›Une saison en enfer‹ (›Eine Zeit in der Hölle‹) sagt er, er spreche den Text morgens eine Stunde lang, gehe dann im Lauf des Tages spazieren und versuche, ihn abzunutzen, damit sich der Sinn von selbst durchsetzt.</p>
+          <p class="vb-intro">In demselben Gespräch beruft er sich auf Paul Valérys Misstrauen gegenüber professionellen Vorlesern. Der Maßstab liegt für ihn beim Text, nicht beim Vortragenden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Neunerflügel: hinter dem Text zurücktreten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Neunerflügel (w9)</strong> gibt der Eins eine Gelassenheit und die Fähigkeit, sich in eine Sache hineinzubegeben, statt sie zu beherrschen. Dass Luchini seinen eigenen Interpretationswillen so lange abnutzt, bis der Text von selbst spricht, lässt sich damit in Verbindung bringen: Er tritt hinter das zurück, was er vorträgt. Belegte Aussagen zu seinem Alltagscharakter, zu Selbstzweifeln oder zu Lampenfieber liegen nicht vor, die Flügelzuordnung bleibt deshalb eine Einschätzung auf schmaler Grundlage, die sich allein aus der Arbeitsweise ableitet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Film, Bühne und das gesprochene Wort</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Luchinis Werk lässt sich in drei Linien beschreiben. <strong>Film:</strong> Er drehte mehrfach mit Éric Rohmer (›Perceval le Gallois‹, 1979, ›Les Nuits de la pleine lune‹, 1984), spielte in ›Family Business‹ (1986, Costa-Gavras) und ›Max mon amour‹ (1986, Nagisa Ōshima) und wurde mit Christian Vincents ›La Discrète‹ (›Die Diskrete‹, 1990) bekannt, für die er den Prix Jean Gabin erhielt. 1994 gewann er den César als bester Nebendarsteller für ›Tout ça… pour ça !‹ (›All das … für das!‹). Später folgten ›Potiche‹ (2010) und ›Dans la maison‹ (›In ihrem Haus‹, 2012) von François Ozon, ›Les Femmes du 6e étage‹ (›Die Frauen im 6. Stock‹, 2011, Philippe Le Guay) und ›Slack Bay‹ (2016, Bruno Dumont). Für ›L&rsquo;Hermine‹ (›Courted‹, 2015, Christian Vincent) erhielt er den Volpi-Pokal der Filmfestspiele von Venedig als bester Darsteller, 2007 den Preis für den besten Darsteller beim Moskauer Filmfestival für ›Molière‹.</p>
+          <p class="vb-intro"><strong>Bühne:</strong> Er stand in ›En attendant Godot‹ (›Warten auf Godot‹, 1978), in ›Voyage au bout de la nuit‹ (›Reise ans Ende der Nacht‹) nach Céline (1986 bis 1988) und in ›Knock ou le triomphe de la médecine‹ (2002, dafür der Prix du Brigadier), ›Le Point sur Robert‹ (2006 bis 2009) und ›Une heure de tranquillité‹ (2013) auf der Bühne. <strong>Lesungen:</strong> Er las Texte von Baudelaire, Hugo, La Fontaine und Nietzsche (1996), später Louis Jouvet, Céline und Philippe Muray (›Fabrice Luchini lit Philippe Muray‹, 2010 bis 2012). Aus den Lesungen entstanden Aufnahmen, etwa ›Variations‹ mit La Fontaine und Baudelaire (2012).</p>
+          <p class="vb-intro">Was ihn unterscheidet, ist der Weg zum Text: Er behandelt Literatur nicht als Material für eine Darbietung, sondern als etwas, dem sich der Sprecher unterordnet. Das lässt sich mit einer selbsterhaltenden Eins in Verbindung bringen, die ihre Sicherheit in der gründlichen Vorbereitung findet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Eins mit Neunerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Genauigkeit und der Treue zum Gegenstand. Wer den Text über sich stellt, schützt ihn vor der eigenen Eitelkeit, und das gibt seinen Lesungen Gewicht.</p>
+          <p class="vb-intro">Der Schatten der selbsterhaltenden Eins ist die Sorge nach innen, die Strenge gegen sich selbst und die Anspannung vor dem Auftritt. Für Luchini liegt dazu nur die Beschreibung seiner Methode vor, keine eigene Aussage über Anspannung oder Selbstkritik.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Stand: weiter im Gespräch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 21. Oktober 2026) wird Fabrice Luchini am 1. November 2026 75 Jahre alt. Zu seinen letzten Filmen gehören ›La petite‹ und ›Mon crime‹ (›The Crime Is Mine‹, 2023, François Ozon), ›Marcello Mio‹ (2024, Christophe Honoré) und ›The Empire‹ (2024, Bruno Dumont). Am 4. Dezember 2025 sendete France Inter ein ›Grand entretien‹ mit ihm. Gesicherte Angaben zu Filmprojekten für 2025 und 2026 liegen nicht vor.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se1", label:"SE1 – Der Adler: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se1", label:"Lebensmusterkompass: SE1 – Adler"},
+        {route:"beruehmte-robert-de-niro", label:"Porträt: Robert De Niro (SE1w9) – Schauspieler, derselbe Subtyp und Flügel"},
+        {route:"beruehmte-harrison-ford", label:"Porträt: Harrison Ford (SE1w9)"},
+        {route:"beruehmte-henning-baum", label:"Porträt: Henning Baum (SE1w9)"},
+        {route:"beruehmte-catherine-deneuve", label:"Porträt: Catherine Deneuve (SE3w4) – ebenfalls französische Filmgröße"},
+      ])}
+    </div>
+  `);
+}
