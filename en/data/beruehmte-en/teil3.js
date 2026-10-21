@@ -2622,6 +2622,7 @@ export function camilleClaudelPortraitPage() {
         {route:"beruehmte-marquis-de-sade", label:"Portrait: Marquis de Sade (SX4w5) – same subtype and wing"},
         {route:"krankheitsportraets-claude-debussy", label:"Illness portrait: Claude Debussy (SX4w5)"},
         {route:"beruehmte-auguste-rodin", label:"Portrait: Auguste Rodin (SX9w8)"},
+        {route:"krankheitsportraets-camille-claudel", label:"Illness Portrait: Camille Claudel (SX4w5)"},
       ])}
     </div>
   `);

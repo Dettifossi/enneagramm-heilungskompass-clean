@@ -4763,3 +4763,344 @@ export function dmitriShostakovichKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function florenceNightingaleKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-florence-nightingale-portrait.jpg" alt="Florence Nightingale" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-florence-nightingale-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Florence Nightingale</p>
+        <p class="krim-portrait-typ">SO2w1 · Social Type 2 with One-wing · 1820–1910</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Golden Retriever</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/so2.jpg" alt="Animal correspondence: Golden Retriever" loading="lazy" style="position:absolute;top:${tierAvatarTop("SO2")};left:${tierAvatarLeft("SO2")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Florence Nightingale</strong>, founder of modern nursing and a statistician, died on 13 August 1910 at the age of 90 in her house in London. For more than half of her life, after the fever that nearly killed her in the Crimean War in May 1855, she was ill, at times bedridden and hardly ever out of the house. From her room she planned hospitals, wrote reports and drove reforms that still shape health care today. What she suffered from is disputed to this day.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Florence Nightingale</strong> is assigned to the <strong>social Two with a One-wing</strong>, as described in the portrait of <a href="javascript:void(0)" data-route="beruehmte-florence-nightingale">Florence Nightingale</a>: care that becomes structure, and a demand for exactness and duty. Under chronic, long-lasting strain, Twos move along their stress line to the Eight, with more hardness, control and assertiveness, without the core type changing. <strong>Note on the sources:</strong> The diagnoses come from hindsight, from letters, from Edward Cook&rsquo;s biography (1913) and from specialist papers of the 20th and 21st centuries that contradict one another. Where the sources diverge, the portrait names both readings.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) The fever of May 1855:</strong>
+        In the winter of 1854/55 Nightingale worked up to twenty hours a day in the hospital at Scutari; according to a specialist paper about three thousand patients died there in January and February alone. In May 1855, shortly after arriving in the Crimea, she fell ill with a severe fever that nearly cost her life. Head nurse Eliza Roberts nursed her through the crisis. Contemporaries spoke of &lsquo;Crimean fever&rsquo;; modern research generally regards it as brucellosis, a bacterial infection that at the time was neither named nor treatable.</p>
+        <p class="vb-intro"><strong>b) The consequences in the following years:</strong>
+        After her return in 1856 recovery did not come. According to a summary of a 1995 BMJ paper as reported by a blog, insomnia, loss of appetite, nausea at the sight of food, anaemia, nervousness and low mood followed. A specialist piece describes her as returning from the war aged and hardened.</p>
+        <p class="vb-intro"><strong>c) The first severe attack in 1857:</strong>
+        According to the same summary, the first severe attack followed in August 1857 with a racing heart and palpitations. She was convinced she would soon die and made her will. The doctors found no organic cause and diagnosed &lsquo;neurosis&rsquo;, in the language of the time neurasthenia, a weakness of the nerves.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Features</h3>
+        <p class="vb-intro"><strong>a) Christmas 1861:</strong>
+        On 2 August 1861 her friend and ally Sidney Herbert, the minister of war, with whom she had driven the reform of army medicine, died. Around Christmas she became so ill that her end was feared. Two doctors, Dr Williams and Dr Sutherland, attended her daily. To a friend she wrote: &lsquo;They say all this worry has brought on congestion of the spine which leads straight to paralysis.&rsquo; Cook notes in his biography that the case was &lsquo;by no means so serious as she had reported&rsquo;.</p>
+        <p class="vb-intro"><strong>b) Walking falls away:</strong>
+        According to the available accounts she could no longer walk and, according to a timeline, was carried from room to room in the following years. How long she was actually bedridden the sources give differently: from about six years from 1861 to two decades in which she hardly left bed or couch.</p>
+        <p class="vb-intro"><strong>c) The wish to die:</strong>
+        In March 1862 she wrote to her mother of her &lsquo;last three months of extreme weakness&rsquo; and added: &lsquo;Sometimes I wonder that I should be so impatient for death.&rsquo; At the same time, as Cook records, she set up a house of her own for the first time in her life, &lsquo;a fashionable old maid&rsquo;s house&rsquo;, as she called it, &lsquo;a new and independent course in my broken old age&rsquo;. She was 41.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Back pain and breathlessness:</strong>
+        According to the BMJ summary mentioned above she suffered from 1863 to 1866 from severe back pain, possibly an inflammation of the spine (spondylitis), as well as pain in the right elbow and breathlessness from chest pain or spasms. After 1870 the physical complaints eased; severe headaches, insomnia and a low mood with feelings of worthlessness remained.</p>
+        <p class="vb-intro"><strong>b) Life in the room:</strong>
+        According to Cook&rsquo;s biography Nightingale could receive visitors only in her own room, and all writing was done in bed. For important male visitors she got up and dressed, which tired her greatly. A timeline describes that she saw visitors only by appointment and one at a time. Church attendance was lost too: in a letter of 1870 she called it one of her greatest afflictions not to be able to go to church, and in 1866 she wrote to Benjamin Jowett: &lsquo;I must be Robinson Crusoe come to life again as a female.&rsquo;</p>
+        <p class="vb-intro"><strong>c) The newspaper stays closed:</strong>
+        She wrote: &lsquo;I have never been able to get over the morbid feeling at seeing my lost two&rsquo;s names in the paper, so that I see no paper.&rsquo; She meant Herbert and the poet Arthur Hugh Clough, who died in 1861. Being unable to read a book about Clough she called in 1865 &lsquo;a morbid peculiarity of long illness&rsquo;.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) The work from bed:</strong>
+        The years in the room were at the same time the most productive of her life. Since 1860 the nursing school she shaped had existed at St Thomas&rsquo; Hospital; from her room she planned hospitals, grounded reforms in statistics and took up hygiene and the living conditions of the poor. Her ideas spread across Britain and abroad. A side note shows an everyday detail from the room: she bought flannel by mail order, a retail method that was new at the time, and the dealer advertised with her name.</p>
+        <p class="vb-intro"><strong>b) The improvement:</strong>
+        After 1870, according to one account, she could walk again and the spinal pain disappeared. According to the BMJ summary the low mood lasted until around 1880, after which it lifted.</p>
+        <p class="vb-intro"><strong>c) Withdrawal as a way of life:</strong>
+        Healthy in the sense of her contemporaries she never became again. The New York Times, reporting her death on 15 August 1910, wrote that she &lsquo;had been an invalid for a long time, rarely leaving her room&rsquo;.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Old age:</strong>
+        In her last decade she wrote little because of blindness and declining mental abilities, but kept her interest in current affairs. She died on 13 August 1910 peacefully in her sleep at her house in South Street, Mayfair. A week earlier she had been quite sick, the press reported, but then recovered and seemed cheerful on the Friday.</p>
+        <p class="vb-intro"><strong>b) Three readings of the illness:</strong>
+        The dispute about her illness is itself part of her story. The physician D. A. B. Young proposed in the BMJ in 1995 that she had been infected with Brucella melitensis in the Crimean War and that her long convalescence could be explained this way; the diagnosis of neurasthenia, he argued, is often wrongly made in brucellosis. Barbara Dossey took the same line in 1998 and counted on an illness of 32 years from 1855 to 1887. A second approach is psychiatric: Kathy Wisner, a psychiatrist, considers a bipolar disorder likely, because voices and severe depressive episodes are known from her youth and because periods of extraordinary productivity fit. Brucellosis alone, she says, does not explain her mood swings and her creative drive. The physician Philip Mackowiak combines both and reckons with four interlocking disorders: bipolar personality disorder, Crimean fever (brucellosis), post-traumatic stress disorder and, at the end, senile dementia. The third reading comes from contemporaries and later biographers: the historian F. B. Smith regarded her invalidism as hysterical and her seclusion as manipulative. An author on the Victorian Web disagrees: Smith had not considered the organic side nor how widespread brucella was, and the confinement imposed on Victorian women also belongs to the picture.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) The Two who looks after herself last:</strong>
+        The passion of the Two is pride: she gives so that she is needed and can hardly allow herself anything. Claudio Naranjo described the social Two as the type of &lsquo;ambition&rsquo;, who serves not individuals but a cause in which she becomes indispensable. For Nightingale the cause was army medicine, and she served it with twenty hours a day, without sparing herself. That the fever caught her at Scutari at the height of the work can be linked to this pattern: whoever looks after herself last notices warning signs late. After the fever, according to the accounts, she stayed another 21 months with the army.</p>
+        <p class="vb-intro"><strong>b) The One-wing: duty even in bed:</strong>
+        The One-wing gives the Two strictness and the demand to do the right thing. In Nightingale this is visible in how she organised her room: visitors by appointment, one at a time, all work done in writing in bed. The illness became a way of working. The authors of a piece from the Institute of Mental Health suggest that work and purpose protected her from being overwhelmed by the confinement. Her own hindsight suggests she also suffered from the narrowness: the Robinson Crusoe letter to Jowett is about that.</p>
+        <p class="vb-intro"><strong>c) Counter-images in the same subtype:</strong>
+        Among the illness portraits stand <a href="javascript:void(0)" data-route="krankheitsportraets-bob-marley">Bob Marley</a> (SO2w1) and <a href="javascript:void(0)" data-route="krankheitsportraets-muhammad-ali">Muhammad Ali</a> (SO2w1), two more SO2w1s. Both gave something up for their cause: Marley declined an amputation for religious reasons, and Ali kept boxing although his Parkinson&rsquo;s syndrome presumably also stems from repeated blows to the head. Nightingale accepted treatment, two doctors came daily, and gave up society instead. The pattern of putting the cause before the body is the same; the price differs: with Marley the body, with Ali the brain, with Nightingale the world outside the room.</p>
+        <p class="vb-intro"><strong>d) The shift along the stress line:</strong>
+        Under lasting stress the Two moves to the Eight: less warmth, more hardness and control. Biographers describe Nightingale as at times difficult, demanding and uncompromising with staff who did not follow her instructions exactly. This can be linked to the Eight trait without her core type having changed. She also steered closeness this way: whoever wanted to speak to her came on her terms.</p>
+        <p class="vb-intro"><strong>e) A classification without determinism:</strong>
+        This does not mean that the social Two&rsquo;s pattern leads to brucellosis or depression: <strong>anyone can get any illness, regardless of subtype.</strong> According to Young&rsquo;s hypothesis the pathogen struck Nightingale in the Crimean War, not because she was a Two. What her case shows is how she dealt with the illness, one of many possible views, not a verdict. The corresponding clinical picture is being worked out step by step in the <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        Nightingale did not know the Enneagram. She therefore lived out her passion for being indispensable unconsciously and unchecked: twenty hours a day, hardly any sleep, the care of the sick before her own. When the body pulled the emergency brake at Scutari, it did not become a pause but a withdrawal into a room from which she continued the same pattern by other means. That years later she herself spoke of &lsquo;a morbid peculiarity of long illness&rsquo; shows that she sensed parts of it. Knowing how tightly her pride bound her to the cause might perhaps have let her loosen her grip in time, not out of guilt but out of ignorance of her own pattern.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Whoever sees Florence Nightingale in her room sees a social Two with a One-wing who did not give up her care but put it in another format: letters, reports, statistics, a house she opened to visitors by appointment. The golden retriever who stays loyal to its cause did so for decades, with a body that no longer went along. Whether the fever, the mind or both stood behind it remains open in research. As a pattern the result is clear: the cause came first, the body paid, and the world became small so that the work could become large.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-florence-nightingale", label:"Portrait: Florence Nightingale (SO2w1)"},
+        {route:"krankheitsportraets-bob-marley", label:"Illness Portrait: Bob Marley (SO2w1) – gave up a treatment for his cause"},
+        {route:"krankheitsportraets-muhammad-ali", label:"Illness Portrait: Muhammad Ali (SO2w1) – kept boxing despite warning signs"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"lebensmusterkompass/so2", label:"Life Pattern Compass: SO2 – Golden Retriever"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+      ])}
+    </div>
+  `);
+}
+
+export function camilleClaudelKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-camille-claudel-portrait.jpg" alt="Camille Claudel" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-camille-claudel-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Camille Claudel</p>
+        <p class="krim-portrait-typ">SX4w5 · Sexual Type 4 with Five-wing · 1864–1943</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Chihuahua</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx4.jpg" alt="Animal correspondence: Chihuahua" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX4")};left:${tierAvatarLeft("SX4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Camille Claudel</strong>, French sculptor and pupil, collaborator and rival of Auguste Rodin, died on 19 October 1943 at the age of 78 in the Montdevergues asylum near Avignon. Thirty of those years, from March 1913 on, she spent in asylums. Her case combines two questions that this portrait deliberately keeps apart: what the sources show of mental illness, and how it came about that she stayed committed for thirty years although doctors in the 1920s considered a return to her family possible.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Camille Claudel</strong> is assigned to the <strong>sexual Four with a Five-wing</strong>, as described in the portrait of <a href="javascript:void(0)" data-route="beruehmte-camille-claudel">Camille Claudel</a>. The Four carries the feeling that something essential is missing, and its passion is envy of all who seem to possess it. In the sexual Four, described by Naranjo as the subtype of rivalry, this feeling is not turned quietly inward but aimed at one person: it wants to reach him, surpass him, and fears losing him. In Claudel that was Rodin. The Five-wing adds rigour, withdrawal and a tendency to defend one's own space until hardly anyone gets in. Under chronic, long-lasting strain, Fours move along their stress line to the Two, with more pleading, dependence on attention and an effort to win people over, without the core type changing. <strong>Note on the sources:</strong> The surviving files reflect the view of the doctors and the family, many of her letters never left the asylum, and individual dates conflict in the sources (committal 10 or 13 March 1913, transfer to Montdevergues in September 1914 or February 1915). No diagnosis is made here from a distance.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) The withdrawal from about 1905:</strong>
+        After the break with Rodin around 1898 Claudel hardly exhibited any more and lived withdrawn in her studio on the Quai de Bourbon on the Île Saint-Louis. According to accounts based on contemporaries, from about 1905 she showed obsessions and paranoid ideas. She saw in Rodin the cause of her lack of success, and her work increasingly consisted of variations on older works.</p>
+        <p class="vb-intro"><strong>b) The studio as fortress:</strong>
+        In his 1909 journal her brother Paul Claudel describes the disorder in her studio and calls her &lsquo;folle&rsquo; (&lsquo;mad&rsquo;). From about 1911, according to the museum in Nogent-sur-Seine, her condition becomes &lsquo;truly worrying&rsquo;. She barricades herself in, lives in poverty, and is convinced that &lsquo;la bande à Rodin&rsquo; (&lsquo;Rodin&rsquo;s gang&rsquo;) is persecuting her.</p>
+        <p class="vb-intro"><strong>c) The work of destruction:</strong>
+        Around 1912 she smashed plaster models and burned material. To her cousin Henriette Thierry she wrote that she takes her hammer and crushes a little man: &lsquo;je prends mon marteau et j&rsquo;écrabouille un bonhomme&rsquo;. She called the fate of her large group &lsquo;a true human sacrifice&rsquo;. A flood of the Seine had inundated her studio in 1910, and according to the sources poverty and malnutrition followed.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Characteristics</h3>
+        <p class="vb-intro"><strong>a) The father&rsquo;s death and the certificate:</strong>
+        In early March 1913 her father Louis-Prosper Claudel, who had supported her until then, died. She did not learn of it in time and missed the funeral. According to most accounts Paul asked a doctor, Dr Michaux, for a certificate. It is dated 7 March and finds a delusional psychosis. As the core of her complaints it names her fear: &lsquo;elle a toujours la terreur de la bande à Rodin&rsquo; (&lsquo;she still has a terror of Rodin&rsquo;s gang&rsquo;).</p>
+        <p class="vb-intro"><strong>b) The committal on 10 March 1913:</strong>
+        At the family&rsquo;s initiative she was taken to the Ville-Évrard asylum near Paris, according to the accounts picked up by two men from the asylum. The procedure was called &lsquo;placement volontaire&rsquo; (&lsquo;voluntary placement&rsquo;) and ran under the French law of 1838 at her mother&rsquo;s request. According to the accounts it was signed only by a doctor and the family, the person concerned had not agreed, which is why the word &lsquo;voluntary&rsquo; is disputed. The asylum doctor Dr Truelle recorded a systematic persecution delirium in her file. He also noted her statement that the plot against her went &lsquo;back 3000 years or to before the flood&rsquo;.</p>
+        <p class="vb-intro"><strong>c) Cut off from the outside world:</strong>
+        The family asked for visits and mail to be restricted. When her cousin Charles Thierry wanted to visit her in March 1913, Dr Truelle turned him away, saying the family had forbidden all contact. His letter to her stayed in the file and was never handed to her.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Traits</h3>
+        <p class="vb-intro"><strong>a) Montdevergues:</strong>
+        Because of the war she was transferred in September 1914 to the Montdevergues asylum in Montfavet near Avignon, according to the psychiatrist Michel Deveaux and the museum. French Wikipedia gives 12 February 1915 and an interim stay in Enghien. According to the accounts the admission finding speaks of a systematic persecution delirium based mainly on false interpretations and imagination.</p>
+        <p class="vb-intro"><strong>b) Daily life in the asylum:</strong>
+        At first she lived in a boarding wing for patients who could pay, later, according to the Montfavet hospital, in a large dormitory when the family stopped paying. She refused the asylum food for fear of poisoning and cooked her own potatoes and hard-boiled eggs on the stove in the hall. She sat for long hours on a park bench waiting for visitors. She no longer sculpted there.</p>
+        <p class="vb-intro"><strong>c) The letters:</strong>
+        On 25 February 1917 she wrote to a former doctor and neighbour that she had been held in asylums for almost six years, and asked him to speak with the lawyer M. Adam and to have her moved to the Salpêtrière or Sainte-Anne. About the isolation she wrote: &lsquo;aucune de mes lettres ne part, aucune visite ne pénètre&rsquo; (&lsquo;none of my letters leaves, no visit gets in&rsquo;), and: &lsquo;Maman et ma sœur ont donné l&rsquo;ordre de me séquestrer de la façon la plus complète&rsquo; (&lsquo;Mama and my sister gave the order to sequester me in the most complete way&rsquo;). Many letters did not leave the asylum. Some got out through bribes and go-betweens.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) The medical recommendation of 1920:</strong>
+        In 1919 her condition seemed to improve. On 1 June 1920 the asylum doctor Dr Brunet advised her mother in a letter to try returning her daughter to the family. In his words she suffered above all from loneliness (&lsquo;souffre de solitude&rsquo;). Her mother refused, with the words &lsquo;jamais, jamais !&rsquo; (&lsquo;never, never!&rsquo;). According to one account several asylum doctors considered her condition compatible with discharge, and the family never followed.</p>
+        <p class="vb-intro"><strong>b) Who came, and who did not:</strong>
+        Her mother never visited her and died in 1929, her sister, according to most accounts, never either. Paul, mostly abroad as a diplomat, came about a dozen times in thirty years according to the museum, other sources count seven visits. In May 1924 and December 1929 the English sculptor Jessie Lipscomb, a friend from her Paris years, visited her and did not think her insane but trapped in a &lsquo;living death&rsquo;. Her last visitor was Paul on 21 September 1943.</p>
+        <p class="vb-intro"><strong>c) Recognition after death:</strong>
+        In 1951 the Musée Rodin showed a retrospective, with a preface by Paul Claudel. Recognition has grown since the 1980s, in 2008 a cenotaph was unveiled in Montfavet, and in 2017 the museum in Nogent-sur-Seine opened.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) Hunger in the war years:</strong>
+        During the German occupation many patients in French asylums died of undernourishment. According to the account the director of her asylum wrote that his patients were dying of hunger &lsquo;literally&rsquo;. A letter of August 1942 links her declining health with oedema from malnutrition.</p>
+        <p class="vb-intro"><strong>b) The death on 19 October 1943:</strong>
+        She died around two in the morning, according to French Wikipedia of a stroke, according to the Montfavet hospital most probably of the consequences of malnutrition. Paul had learned of her illness in September and crossed occupied France, but was not present at her death or funeral.</p>
+        <p class="vb-intro"><strong>c) The grave:</strong>
+        She was first buried in a provisional grave in the Montfavet cemetery and about ten years later moved to a communal grave, later to an ossuary, because no relative claimed the burial place.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) Hurt turned inward, withdrawal outward:</strong>
+        The sexual Four with a Five-wing experiences rivalry with one person at full intensity. Rodin was her teacher, lover and yardstick at once, and the more the bond broke, the more Claudel withdrew, into a barricaded studio. That she smashed her own models and tied the smashing to a figure (&lsquo;un bonhomme&rsquo;) can be linked to the vehemence of the sexual Four, here directed not at Rodin but at her own work that was tied to him.</p>
+        <p class="vb-intro"><strong>b) Illness and committal as two separate questions:</strong>
+        That Claudel suffered from a mental illness is attested by the sources on several sides. Contemporary doctors such as Michaux and Truelle diagnosed a persecution delirium. Later psychiatric articles discuss a paranoid psychosis, dementia praecox or schizophrenia in Bleuler&rsquo;s sense. The curator Cécile Bertran says the situation is &lsquo;not easy to judge&rsquo;, because modern experts after reviewing the files concluded that she was indeed ill. Whether thirty years in an asylum were necessary is another question. The asylum doctors themselves considered her discharge justifiable in the 1920s, the family refused. Critics, among them the biographer Odile Ayral-Clause, see in the sequestration above all an attempt to keep the matter secret and avoid a scandal, since Claudel had been neither violent nor suicidal. Paul and the family pointed out that she was badly neglected and no longer able to live alone. Both views stand side by side, and the portrait does not decide between them.</p>
+        <p class="vb-intro"><strong>c) The shift along the stress line:</strong>
+        The letters from the asylum show what would be expected of the Four under lasting pressure on the stress line to the Two: pleas, appeals to people who could help, the effort to win doctors, lawyers and relatives over. The letters to Dr Michaux and to her cousin Charles Thierry are exactly such calls for help. At the same time the core remained: the rivalry with Rodin, the conviction of being inferior to him and persecuted by him. The core type did not change, only the behaviour was at times more directed at others.</p>
+        <p class="vb-intro"><strong>d) A classification without determinism:</strong>
+        This does not mean that the sexual Four&rsquo;s pattern leads to a psychosis: <strong>anyone can get any illness, regardless of subtype.</strong> Whether and how Claudel&rsquo;s illness is connected to her biography cannot be decided from a distance. What can be shown is how hurt, withdrawal and the consequences of isolation intertwined, one of many possible views, not a verdict. The corresponding clinical picture is being worked out step by step in the <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as its own factor:</strong>
+        Camille Claudel did not know the Enneagram. The sexual Four with a Five-wing lives out hurt and withdrawal unconsciously, and she does not choose whether Rodin becomes the object of her rivalry. Had she known of the mechanism that keeps envy and withdrawal in a cycle, it might perhaps have been conceivable to accept help earlier, before the studio became a fortress. Instead the chain ran as the portrait of the artist describes it: hurt became withdrawal, withdrawal became ever fewer people who could have helped, and in the end it was the family that decided over her life.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">7. Parallel in the same subtype: Debussy and Sartre</h3>
+        <p class="vb-intro">Among the illness portraits in this Compass, <a href="javascript:void(0)" data-route="krankheitsportraets-claude-debussy">Claude Debussy (SX4w5)</a> and <a href="javascript:void(0)" data-route="krankheitsportraets-jean-paul-sartre">Jean-Paul Sartre (SX4w5)</a> are two SX4s who illuminate the Claudel case from the other side. Debussy kept his bowel cancer almost secret, kept working despite the pain and composed his last chamber works in phases of growing exhaustion. Sartre spoke openly about his extreme amphetamine abuse and did not change his behaviour all the same. In both, the Four follows its inner standard to the limit of endurance, and the Five-wing keeps it at work.</p>
+        <p class="vb-intro">In Claudel the same Five-wing tips into breaking off: the work is not deepened but destroyed, the withdrawal not into concentration but into barricading. Even more striking is the contrast with Debussy in silence. Where Debussy kept his suffering to himself, Claudel was silenced: her letters did not leave, her visitors were turned away. That the three related cases led to such different paths shows that the subtype describes a pattern and not a course.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">8. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Camille Claudel&rsquo;s</strong> sexual Four with a Five-wing shows in this illness portrait as a rivalry that turns into withdrawal. The Chihuahua that walks in as if the room belonged to it defended it to the extreme, smashed its own work and in the end stayed alone in a dormitory. How much of this was illness and how much custody by the family remains open in the sources. What is certain is the talent, which lets her best works stand beside those of her teacher.</p>
+      </div>
+
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-camille-claudel", label:"Portrait: Camille Claudel (SX4w5)"},
+        {route:"krankheitsportraets-claude-debussy", label:"Illness Portrait: Claude Debussy (SX4w5) – same subtype, the suffering kept secret"},
+        {route:"krankheitsportraets-jean-paul-sartre", label:"Illness Portrait: Jean-Paul Sartre (SX4w5)"},
+        {route:"beruehmte-auguste-rodin", label:"Portrait: Auguste Rodin (SX9w8)"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"lebensmusterkompass/sx4", label:"Life Pattern Compass: SX4 – Chihuahua"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+      ])}
+    </div>
+  `);
+}
+
+export function edithPiafKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-edith-piaf-portrait.jpg" alt="Édith Piaf" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-edith-piaf-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Édith Piaf</p>
+        <p class="krim-portrait-typ">SE4w3 · Self-Preservation Type 4 with Three-wing · 1915–1963</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Dove</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/se4.jpg" alt="Animal correspondence: Dove" loading="lazy" style="position:absolute;top:${tierAvatarTop("SE4")};left:${tierAvatarLeft("SE4")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Édith Piaf</strong>, the chanson singer from Paris, died on 10 October 1963 at the age of 47 in her villa in Plascassier near Grasse. Since the late 1940s her body had carried rheumatic polyarthritis, a dependence on morphine and alcohol, several accidents, operations and finally a liver disease. She still stood on stage until shortly before the end, and the question of what her body and what her will contributed to this life is the core of this portrait.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong>
+        <strong>Édith Piaf</strong> is assigned to the <strong>self-preservation Four with a Three-wing</strong>, as described in the portrait of <a href="javascript:void(0)" data-route="beruehmte-edith-piaf">Édith Piaf</a>: a pain that does not complain but is brought into a disciplined form, carried by the ability to turn the inner life into effect. Under chronic, long-lasting strain, Fours move along their stress line to the Two, with more turning toward others, more being needed and less withdrawal into themselves, without the core type changing. <strong>Note on the sources:</strong> Much of Piaf&rsquo;s last years comes from the memories of her circle. Simone Berteaut, an important witness, falsely presented herself as Piaf&rsquo;s half-sister in her 1969 memoir. Medical details and dates are therefore given where several sources agree, and discrepancies are named.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) The eyes in childhood:</strong>
+        According to her biographers the girl lost her sight between about three and eight years. A doctor is said to have diagnosed a double keratitis, probably a consequence of lack of care and hygiene, which was never treated. In 1921 her grandmother took her to Lisieux, to the grave of Saint Thérèse. In one version earth from the grave was laid on her eyes, and after about eight days she could see again. Piaf herself spoke of a miraculous healing. It remains a tradition; other versions tell the way differently.</p>
+        <p class="vb-intro"><strong>b) The joints:</strong>
+        According to one source the polyarthritis already showed in the early years of her career. What is documented is that it worsened after the death of her lover, the boxer Marcel Cerdan, who died in a plane crash in October 1949. After that Piaf suffered from acute polyarthritis and took high doses of morphine.</p>
+        <p class="vb-intro"><strong>c) Alcohol:</strong>
+        Around 1949/50 her condition is described as &lsquo;délabré par l&rsquo;alcool et la drogue&rsquo;, &lsquo;wrecked by alcohol and drugs&rsquo;. She turned down film roles because of it. She never got control of the alcohol that had comforted her after Cerdan&rsquo;s death.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Features</h3>
+        <p class="vb-intro"><strong>a) The accident of July 1951:</strong>
+        In a car accident in July 1951, in which Charles Aznavour, then her assistant, was a passenger, Piaf broke an arm and two ribs. Her doctor prescribed morphine for the joint pain, and pain therapy turned into dependence. The sources place the beginning of the morphine dependence differently, after Cerdan&rsquo;s death in 1949 or after this accident.</p>
+        <p class="vb-intro"><strong>b) The attempts at withdrawal:</strong>
+        After her marriage to the singer Jacques Pills in 1952 he took her to a detox clinic three times. The first cure is dated to 1953. In 1955, after several cures, she got free of morphine. Her rheumatoid polyarthritis was treated at that time with high doses of cortisone, and afterwards she fled into alcohol again. The marriage to Pills ended in 1957.</p>
+        <p class="vb-intro"><strong>c) The accident of September 1958:</strong>
+        On 6 September 1958 Piaf crashed with the young Georges Moustaki on the Route Nationale 10 near Coignières. According to the sources the accident worsened her health and her dependence further. Two more serious accidents are mentioned without exact dates.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) The collapse of 1959:</strong>
+        In February 1959, according to a Belgian source, she collapsed on stage during the New York tour and coughed up blood backstage. Ulcers and bleeding in the digestive tract followed, and several operations. Which operation took place when is given differently by the sources: a stomach ulcer is named, and so is an operation of the pancreas in September 1959.</p>
+        <p class="vb-intro"><strong>b) Dreux, 13 December 1959:</strong>
+        After a tour the press later called &lsquo;tournée suicide&rsquo;, the &lsquo;suicide tour&rsquo;, Piaf collapsed during the interval in Dreux, according to a local journalist &lsquo;sunk on a chair in ether fumes&rsquo;. She insisted on singing: &lsquo;Ils ont payé pour m&rsquo;entendre, si je ne chante pas à Dreux, je mourrai&rsquo; – &lsquo;They paid to hear me; if I don&rsquo;t sing in Dreux, I will die.&rsquo; A doctor gave her an injection, she sang for about forty minutes, until after midnight, and then at her own wish &lsquo;La foule&rsquo; (&lsquo;The Crowd&rsquo;). Behind the curtain she cried: &lsquo;Chanter, je n&rsquo;ai plus que cela au monde&rsquo; – &lsquo;Singing is all I have left in the world.&rsquo; A sleep cure and a period of recovery followed.</p>
+        <p class="vb-intro"><strong>c) Olympia 1960/61:</strong>
+        At the Paris Olympia, according to the accounts, she could only sing after a morphine injection. The polyarthritis was severely disabling. The song &lsquo;Non, je ne regrette rien&rsquo; (&lsquo;No, I regret nothing&rsquo;) came out of those months and became her definitive comeback.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Impact</h3>
+        <p class="vb-intro"><strong>a) The body as instrument:</strong>
+        On stage she mostly stood motionless in a plain black dress, without dance and without gesture. The drama lay in the voice. The smaller the movement, the more the voice had to carry. For a woman with severely disabling polyarthritis this reduction could be both a stylistic means and a relief.</p>
+        <p class="vb-intro"><strong>b) The late marriage:</strong>
+        On 9 October 1962 she married Théo Sarapo (born Theophanis Lamboukas), about twenty years younger. He stayed at her side until her death.</p>
+        <p class="vb-intro"><strong>c) The last work:</strong>
+        In early 1963 she recorded &lsquo;L&rsquo;Homme de Berlin&rsquo; (&lsquo;The Man from Berlin&rsquo;), her last recording. After that her strength waned.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Impact</h3>
+        <p class="vb-intro"><strong>a) The coma in spring 1963:</strong>
+        After the recording Piaf, according to the accounts, fell into a coma attributed to her liver disease. In her villa in Plascassier she was nursed by Théo Sarapo and her friend Simone Berteaut, and over the following months she came round again and again. The nursing account rests on Berteaut, whose reliability is limited.</p>
+        <p class="vb-intro"><strong>b) The cause of death, handed down inconsistently:</strong>
+        Liver failure with internal bleeding is usually named, according to one source through a ruptured aneurysm. Liver cancer is also named, which her circle suspected, and partly liver cirrhosis. An autopsy does not seem to have taken place, so none of the statements is certain.</p>
+        <p class="vb-intro"><strong>c) The death and the staging afterwards:</strong>
+        Piaf died on 10 October 1963 at about 1:10 pm in Plascassier. Her body was taken to Paris, and the official announcement of 11 October gave Paris as the place of death, with a backdated certificate, so that her fans would believe she had died in the capital. Her last words are handed down as: &lsquo;Every damn thing you do in this life, you have to pay for.&rsquo; The Catholic Church first refused her a Mass because she had remarried after a divorce; only in 2013 was a requiem held.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) The body as the price of tenacity:</strong>
+        Claudio Naranjo called the self-preservation Four &lsquo;tenacity&rsquo;: a hardness directed against oneself that does not complain. The passion of the Four is envy, the feeling that others were given something one lacks. Behind it in the self-preservation Four there is often a deep, early experience of want, and in Piaf the misery of her childhood, the years in her grandmother&rsquo;s brothel and the long blindness belong to it. This can be linked to the way she treated her body: as something that has to function as long as there is something left to sing. The sentence from Dreux, &lsquo;Singing is all I have left in the world&rsquo;, says that the stage was at once content of life and protection. Whoever thinks this way does not spare herself.</p>
+        <p class="vb-intro"><strong>b) The Three-wing:</strong>
+        The Three-wing gives the Four an eye for effect and the discipline to face the audience. In Dreux this is easy to see: Piaf sings because people have paid, and because her appearing is a promise. A Four without this wing might have withdrawn. The wing makes the appearance a duty, and from the duty comes the feat that the local journalist in Dreux called &lsquo;at the limit of human endurance&rsquo;.</p>
+        <p class="vb-intro"><strong>c) The shift along the stress line:</strong>
+        On the stress line to the Two, Fours show more turning toward others, more being needed and less withdrawal. This fits that in her last years Piaf was increasingly surrounded by people who looked after her, and that in 1962 she married a young man, Théo Sarapo, who nursed her to the end. The core type remains the Four; the turning toward others is a shift, not a change of type, and that the sources only hint at this trace belongs to the picture.</p>
+        <p class="vb-intro"><strong>d) A parallel in the same subtype:</strong>
+        Several SE4w3s appear among the illness portraits in this Compass. <a href="javascript:void(0)" data-route="krankheitsportraets-honore-de-balzac">Honoré de Balzac</a> (SE4w3) shows the same pattern most closely: decades of wearing down his own body for the work, a fatal complication and death a few months after the wedding. In Piaf a good year lies between the marriage in 1962 and her death. In both the body is the price of the form. <a href="javascript:void(0)" data-route="krankheitsportraets-lady-diana">Lady Diana</a> (SE4w3) and <a href="javascript:void(0)" data-route="krankheitsportraets-adele">Adele</a> (SE4w3) concealed their suffering for years; in Piaf the decline was visible, and she carried it onto the stage. <a href="javascript:void(0)" data-route="krankheitsportraets-mette-marit">Mette-Marit</a> (SE4w3) continued her public duties despite a serious lung disease. In all of them the tenacity of the self-preservation Four comes before sparing oneself.</p>
+        <p class="vb-intro"><strong>e) A classification without determinism:</strong>
+        This does not mean that the self-preservation Four&rsquo;s pattern leads to polyarthritis, dependence or a liver disease: <strong>anyone can get any illness, regardless of subtype.</strong> A rheumatic illness, several serious accidents and a pain therapy that ended in dependence are fates that happen to many people without this pattern. What Piaf&rsquo;s case shows is how she lived with it, one of many possible views, not a verdict. The corresponding clinical picture is being worked out step by step in the <a href="javascript:void(0)" data-route="psychosomatik">Psychosomatics Register</a>.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>f) The unconscious fixation as its own factor:</strong>
+        Piaf did not know her Enneagram pattern, and she would probably have described the tenacity she carried as plain duty toward her audience. The self-preservation Four lives out her hardness against herself unconsciously and unchecked: in Dreux she sings one more song after the curtain against the advice of those around her, and the sleep cure afterwards is not a turn but a pause until the next appearance. This is not guilt but missing knowledge that this pattern makes the body the price. It explains why a life like hers plays out until the health crisis instead of pulling the emergency brake in time.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        <strong>Édith Piaf&rsquo;s</strong> path shows in this illness portrait a self-preservation Four with a Three-wing who does not complain of her pain but sings it. The dove that flies through every weather carried for years joints that ached, an addiction that began in pain therapy, and a body that collapsed several times. She kept singing because singing was the one thing that remained. How much of this path was decision and how much consequence of illness, accidents and the medicine of her time cannot be separated from the contradictory sources.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-edith-piaf", label:"Portrait: Édith Piaf (SE4w3)"},
+        {route:"krankheitsportraets-honore-de-balzac", label:"Illness Portrait: Honoré de Balzac (SE4w3) – wearing down the body for the work"},
+        {route:"krankheitsportraets-lady-diana", label:"Illness Portrait: Lady Diana (SE4w3) – a suffering that stayed hidden"},
+        {route:"krankheitsportraets-adele", label:"Illness Portrait: Adele (SE4w3)"},
+        {route:"krankheitsportraets-mette-marit", label:"Illness Portrait: Mette-Marit (SE4w3)"},
+        {route:"subtype/se4", label:"SE4 – The Dove: Subtype Profile"},
+        {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SE4 – Dove"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+      ])}
+    </div>
+  `);
+}

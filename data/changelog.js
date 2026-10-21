@@ -2,6 +2,9 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2553", date: "2026-10-21", text: "Neues Krankheitsporträt: Florence Nightingale (SO2w1) – Krimfieber, jahrzehntelange Krankheit und die Frage, was dahintersteckte.", text_en: "New illness portrait: Florence Nightingale (SO2w1) – Crimean fever, decades of illness and the question of what lay behind it.", route: "krankheitsportraets-florence-nightingale" },
+    { version: "v2554", date: "2026-10-21", text: "Neues Krankheitsporträt: Camille Claudel (SX4w5).", text_en: "New illness portrait: Camille Claudel (SX4w5).", route: "krankheitsportraets-camille-claudel" },
+    { version: "v2555", date: "2026-10-21", text: "Neues Krankheitsporträt: Édith Piaf (SE4w3).", text_en: "New illness portrait: Édith Piaf (SE4w3).", route: "krankheitsportraets-edith-piaf" },
     { version: "v2552", date: "2026-10-21", text: "Neues Porträt: Fabrice Luchini (SE1w9) – französischer Schauspieler und Vorleser, bekannt durch La Discrète und Dans la maison.", text_en: "New portrait: Fabrice Luchini (SE1w9) – French actor and reader, known for La Discrète and Dans la maison.", route: "beruehmte-fabrice-luchini" },
     { version: "v2551", date: "2026-10-21", text: "Neues Porträt: Catherine Deneuve (SE3w4) – Schauspielerin, bekannt durch Les Parapluies de Cherbourg, Belle de jour und Indochine.", text_en: "New portrait: Catherine Deneuve (SE3w4) – actress, known for The Umbrellas of Cherbourg, Belle de Jour and Indochine.", route: "beruehmte-catherine-deneuve" },
     { version: "v2550", date: "2026-10-21", text: "Neues Porträt: 6ix9ine (SE2w3) – Rapper aus Brooklyn, bekannt durch Gummo, Fefe und Trollz.", text_en: "New portrait: 6ix9ine (SE2w3) – rapper from Brooklyn, known for Gummo, Fefe and Trollz.", route: "beruehmte-6ix9ine" },

@@ -2607,7 +2607,7 @@ export function edithPiafPortraitPage() {
 
         <h2 class="vb-section">3. The Three-wing: carrying the message outward</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Three-wing</strong> gives the Self-Preservation Four the ability to turn the inner life into impact. An SE4 with a weak Three-wing might remain in her inner world &ndash; deeply feeling, but invisible. Piaf's career shows the full force of this connection: after the 1951 car accident that triggered a lifelong morphine addiction, and several further accidents in the following years, her career was already considered over more than once. In 1960 she nevertheless recorded "Non, je ne regrette rien" &ndash; a song that became her definitive comeback and remains her best-known work today.</p>
+          <p class="vb-intro">The <strong>Three-wing</strong> gives the Self-Preservation Four the ability to turn the inner life into impact. An SE4 with a weak Three-wing might remain in her inner world &ndash; deeply feeling, but invisible. Piaf's career shows the full force of this connection: after the 1951 car accident, after which her morphine dependence became entrenched, and several further accidents in the following years, her career was already considered over more than once. In 1960 she nevertheless recorded "Non, je ne regrette rien" &ndash; a song that became her definitive comeback and remains her best-known work today.</p>
           <p class="vb-intro">The Three-wing brings the discipline, the sense of timing, and the stage presence that turned a deeply personal life marked by pain and addiction into a globally celebrated body of work. The SE4w3 knows: what I have lived through can be given a form that carries &ndash; even once one's own body has long since been marked by that life.</p>
         </blockquote>
 
@@ -2641,6 +2641,7 @@ export function edithPiafPortraitPage() {
         {route:"subtype/se4", label:"SE4 – The Dove: subtype profile"},
         {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SE4 – Dove"},
         {route:"beruehmte-adele", label:"Portrait: Adele (SE4w3) – also quiet, disciplined pain shaped into universal songs"},
+        {route:"krankheitsportraets-edith-piaf", label:"Illness Portrait: Édith Piaf (SE4w3)"},
       ])}
     </div>
   `);

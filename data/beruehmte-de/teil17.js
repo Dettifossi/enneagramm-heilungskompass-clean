@@ -2694,7 +2694,7 @@ export function edithPiafPortraitPage() {
 
         <h2 class="vb-section">3. Der Dreierflügel: Die Botschaft nach außen tragen</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der <strong>Dreierflügel</strong> gibt der selbsterhaltenden Vier die Fähigkeit, das Innere in Wirkung zu verwandeln. Eine SE4 mit schwach ausgeprägtem Dreierflügel könnte in ihrer inneren Welt verharren – tief empfindend, aber unsichtbar. Piafs Karriere zeigt die volle Kraft dieser Verbindung: Nach dem Autounfall 1951, der eine lebenslange Morphiumabhängigkeit auslöste, und mehreren weiteren Unfällen in den folgenden Jahren galt ihre Karriere bereits mehrfach als beendet. 1960 nahm sie dennoch ›Non, je ne regrette rien‹ auf – ein Lied, das zum endgültigen Comeback und zu ihrem bis heute bekanntesten Werk wurde.</p>
+          <p class="vb-intro">Der <strong>Dreierflügel</strong> gibt der selbsterhaltenden Vier die Fähigkeit, das Innere in Wirkung zu verwandeln. Eine SE4 mit schwach ausgeprägtem Dreierflügel könnte in ihrer inneren Welt verharren – tief empfindend, aber unsichtbar. Piafs Karriere zeigt die volle Kraft dieser Verbindung: Nach dem Autounfall 1951, in dessen Folge sich ihre Morphinabhängigkeit verfestigte, und mehreren weiteren Unfällen in den folgenden Jahren galt ihre Karriere bereits mehrfach als beendet. 1960 nahm sie dennoch ›Non, je ne regrette rien‹ auf – ein Lied, das zum endgültigen Comeback und zu ihrem bis heute bekanntesten Werk wurde.</p>
           <p class="vb-intro">Der Dreierflügel bringt die Disziplin, das Gespür für Timing und die Bühnenpräsenz, die aus einem zutiefst persönlichen, von Schmerz und Sucht gezeichneten Lebensabschnitt ein weltweit gefeiertes Werk machte. Die SE4w3 weiß: Was ich durchlebt habe, kann in eine Form gebracht werden, die trägt – auch dann noch, wenn der eigene Körper längst von diesem Leben gezeichnet ist.</p>
         </blockquote>
 
@@ -2716,7 +2716,7 @@ export function edithPiafPortraitPage() {
 
         <h2 class="vb-section">7. Vermächtnis</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Édith Piaf starb 1963 im Alter von nur 47 Jahren an Leberkrebs, physisch ausgezehrt von Jahrzehnten voller persönlicher Tragödien und Substanzmissbrauch. Ihr Lebenswerk gilt bis heute als eine der prägendsten Stimmen des französischen Chansons weltweit. Genau darin zeigt sich die selbsterhaltende Vier mit Dreierflügel in ihrer eindrücklichsten Form: ein Leben voller stiller, kaum öffentlich geklagter Katastrophen, das sich dennoch – oder gerade deshalb – in eine diszipliniert geformte, weltweit tragende Stimme verwandelte.</p>
+          <p class="vb-intro">Édith Piaf starb 1963 im Alter von nur 47 Jahren an einem Leberleiden (die genaue Todesursache ist nicht gesichert), physisch ausgezehrt von Jahrzehnten voller persönlicher Tragödien und Substanzmissbrauch. Ihr Lebenswerk gilt bis heute als eine der prägendsten Stimmen des französischen Chansons weltweit. Genau darin zeigt sich die selbsterhaltende Vier mit Dreierflügel in ihrer eindrücklichsten Form: ein Leben voller stiller, kaum öffentlich geklagter Katastrophen, das sich dennoch – oder gerade deshalb – in eine diszipliniert geformte, weltweit tragende Stimme verwandelte.</p>
         </blockquote>
 
       </div>
@@ -2728,6 +2728,7 @@ export function edithPiafPortraitPage() {
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
         {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3) – ebenfalls stiller, diszipliniert geformter Schmerz in universellen Liedern"},
+        {route:"krankheitsportraets-edith-piaf", label:"Krankheitsporträt: Édith Piaf (SE4w3)"},
       ])}
     </div>
   `);

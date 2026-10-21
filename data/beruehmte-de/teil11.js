@@ -2605,6 +2605,7 @@ export function florenceNightingalePortraitPage() {
         {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
         {route:"lebensmusterkompass/so2", label:"Lebensmusterkompass: SO2 – Golden Retriever"},
         {route:"beruehmte-albert-schweitzer", label:"Porträt: Dr. Albert Schweitzer (SO2w1) – ebenfalls aufopfernde Fürsorge, verbunden mit dauerhaftem institutionellem Aufbau"},
+        {route:"krankheitsportraets-florence-nightingale", label:"Krankheitsporträt: Florence Nightingale (SO2w1)"},
       ])}
     </div>
   `);
