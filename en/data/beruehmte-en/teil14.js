@@ -1546,6 +1546,7 @@ export function thomasGottschalkPortraitPage() {
         {route:"beruehmte-ina-mueller", label:"Portrait: Ina Müller (SX7w8)"},
         {route:"beruehmte-miley-cyrus", label:"Portrait: Miley Cyrus (SX7w6)"},
         {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
+        {route:"beruehmte-wietske-van-tongeren", label:"Portrait: Wietske van Tongeren (SX7w6)"},
       ])}
     </div>
   `);

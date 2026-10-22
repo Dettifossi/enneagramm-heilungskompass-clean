@@ -2717,3 +2717,76 @@ export function adaLovelacePortraitPage() {
     </div>
   `);
 }
+
+export function wietskeVanTongerenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wietske-van-tongeren-portrait.jpg" alt="Wietske van Tongeren – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-wietske-van-tongeren-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Wietske van Tongeren</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Niederländische Musicaldarstellerin, geb. 1980 &ndash; &rsaquo;Elisabeth&lsaquo;, &rsaquo;Rebecca&lsaquo;, &rsaquo;Rocky&lsaquo; &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse: das Dorfkind aus den Niederlanden, das erst Jura studieren wollte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> hängt sich mit Begeisterung an alles, was klingt und sich bewegt, und springt mit dem ganzen Körper hinein. Wietske van Tongeren wurde am 26. Dezember 1980 in Zwolle in den Niederlanden geboren und wuchs in einem kleinen Dorf auf, in dem künstlerische Laufbahnen unüblich waren. Sie sang von Kind an. Eigentlich wollte sie Jura studieren. Dann sah sie in den Niederlanden das Musical ›Miss Saigon‹, es bewegte sie, und ihr Vater riet ihr, sich nach einer Ausbildung umzusehen.</p>
+          <p class="vb-intro">Sie lernte Schauspiel, Gesang und Tanz am Konservatorium in Tilburg (heute Fontys), wechselte nach einem Jahr die Schule, um besser ausgebildet zu werden, und schloss 2004 ab. Schon in der Ausbildung spielte sie die Mrs. Lovett in ›Sweeney Todd‹. Im Frühjahr 2004 sang sie in Wien für ›Elisabeth‹ vor und bekam die Zweitbesetzung der Titelrolle. Sie wollte ein Jahr bleiben. Sie blieb: ›Österreich hat mich gepackt und nicht mehr losgelassen.‹</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: verliebt in Stücke und Rollen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sieben sucht den Rausch des Neuen. Die <strong>sexuelle Sieben (SX7)</strong> nannte Claudio Naranjo den Subtyp der ›Suggestibility‹: Sie lässt sich von einer Idee, einer Musik, einer Rolle so vollständig faszinieren, dass sie darin versinkt. Sie sucht nicht Überfluss und nicht Zugehörigkeit, sondern Intensität.</p>
+          <p class="vb-intro">Bei van Tongeren zeigt sich das in den Worten, die sie für ihre Arbeit wählt. Auf die Frage nach ihrer Rolle als Maria in ›The Sound of Music‹ sagte sie: ›Ich liebe jede meiner Rollen.‹ Über ein neues Stück: ›Ich habe mich direkt in die Musik verliebt.‹ Und: ›Ich liebe es, wenn neue Stücke entstehen.‹ Zu ihrer Rolle der Adrian in der Uraufführung von ›Rocky‹ sagte sie, sie hätte ›nie im Leben gedacht‹, sie zu bekommen. Von ihrem Kollegen Drew Sarich sagt sie: ›Drew ist total locker, das überträgt sich auf mich.‹ Das ist die Ansteckung der Sieben. Auch in der Salzburger Maria durfte sie ›quirlig sein, wie ich auch privat ein bisschen bin‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Ensemble, Vorbereitung und die Angst vor der Premiere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Loyalität, Wärme und ein Gespür dafür, was trägt. Wo eine Sieben mit schwächer ausgeprägtem Sechserflügel von einem Faszinosum zum nächsten springt, fragt der Sechserflügel: Gehöre ich dazu, habe ich mich vorbereitet? Bei van Tongeren sind es Haltungen: Sie will ›die Partitur beherrschen‹ (ein Anspruch aus der Konservatoriumszeit), lernt ihre Texte früh und nähert sich der Epoche ihrer Figur. Sie sieht sich nicht an, wie andere die Rolle gespielt haben: ›Das würde mich nur unsicher machen.‹ Als Neue in einem Ensemble sagte sie: ›Ich falle jetzt in diesen Swimmingpool hinein und versuche, wieder zu schwimmen – mit einem neuen Team.‹ Und: ›Mir persönlich ist es wichtiger, die Leute der Produktion kennenzulernen.‹ Ein niederländischer Satz von ihr, sinngemäß: ›Alle Nasen in einer Richtung haben.‹</p>
+          <p class="vb-intro">Dazu gehört die Sechser-Sorge: ›Premieren sind furchtbar‹, sagt sie, und vor Vorstellungen braucht sie ›meinen eigenen Raum‹. Das Lampenfieber lässt sie nicht zu: ›Es macht deine eigene Authentizität kaputt, wenn du es zulässt.‹ Bei der Salzburger Premiere sei sie, in Anwesenheit von Mitgliedern der echten Trapp-Familie, ›aufgeregt, aber positiv aufgeregt‹ gewesen.</p>
+          <p class="vb-intro">Der Flügel zeigt sich auch im Privaten. Sie zog von Perchtoldsdorf und Wien nach Gablitz, kaufte während der Schwangerschaft ein Haus von einem Dirigenten, der nach Spanien ging, und sagt: ›Freiwillig gehen wir hier nicht mehr weg.‹ Ihr Mann Martin Pasching ist ebenfalls Musicaldarsteller, sie lernten sich bei ›Elisabeth‹ kennen. Sie haben zwei Kinder.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Rollen, die den Raum füllen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Von 2004 an folgten die Titelrolle in ›Elisabeth‹ in Stuttgart, 2006 bis 2008 in Wien die Hauptrolle ›Ich‹ in ›Rebecca‹ (die namenlose zweite Frau), ab 2009 Stephanie in ›Rudolf – Affaire Mayerling‹ im Raimund Theater, 2011 Betty Schaefer in ›Sunset Boulevard‹ in Bad Hersfeld und 2011/12 Maria von Trapp in Salzburg. Von November 2012 bis August 2015 spielte sie in Hamburg die Adrian in der Uraufführung von ›Rocky – Das Musical‹. Später sang sie die Grizabella in ›Cats‹ im Wiener Ronacher, 2022 die Mary Tudor in der Uraufführung von ›Lady Bess‹ (Kunze/Levay) am Theater St. Gallen, 2024 die Donna in ›Mamma Mia!‹ in Tecklenburg und 2025 die Beverley in der deutschsprachigen Erstaufführung von ›Come From Away‹ in Regensburg.</p>
+          <p class="vb-intro">Auffällig ist, wie viele davon Uraufführungen oder Erstaufführungen sind: ›Rebecca‹, ›Rudolf‹, ›Rocky‹, ›Lady Bess‹, ›Come From Away‹. Wer neue Stücke liebt, ist an dem Moment interessiert, in dem eine Figur zum ersten Mal lebt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Peters, Bernstein und Gottschalk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den Porträts dieses Kompasses stehen mehrere SX7w6er, und der Vergleich zeigt, wie der Sechserflügel die Lust an der Verwandlung bindet. <a href="#beruehmte-caroline-peters">Caroline Peters (SX7w6)</a> lässt sich in Rollen ziehen und ist zugleich festes Ensemblemitglied am Burgtheater. <a href="#beruehmte-leonard-bernstein">Leonard Bernstein (SX7w6)</a> verband Konzertsaal und Musical und blieb seinen Institutionen und Schülern treu. <a href="#beruehmte-thomas-gottschalk">Thomas Gottschalk (SX7w6)</a> trägt die Bühne in jede Situation.</p>
+          <p class="vb-intro">Van Tongeren liegt dicht bei Peters: Verwandlung und Ensemble gehören zusammen. Mit Bernstein teilt sie die Liebe zum Musical, mit Gottschalk die Quirligkeit. Anders als Peters bindet sie sich nicht an ein einzelnes Haus, sondern an die Gruppe, mit der sie gerade ein Stück baut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der ehrlichen, positiven Kraft, die sie bei Maria beschreibt: ›Die Rolle ist ehrlich und offen wie ein Kind – und sie ist sehr positiv.‹ Dazu die Kollegialität: Über ihre Partnerschaft mit Uwe Kröger heißt es, sie vertrauten einander, ›das ist für eine Liebesgeschichte auf der Bühne sicher sehr wichtig‹.</p>
+          <p class="vb-intro">Der Schatten ist die Vereinbarkeit. Zu ›Cats‹ sagte sie 2020: ›Bei Cats ist es einfach zur Zeit die Herausforderung, dass ich jetzt zwei Kinder habe.‹ Und mit Humor über ihre Kinder: ›Lern was Gescheites, mach das nur als Hobby.‹ Der Wunsch der Sechs nach Sicherheit kollidiert mit dem Beruf, der Sicherheit kaum kennt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: weiter auf der Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 22. Oktober 2026) lebt Wietske van Tongeren mit ihrer Familie in Gablitz bei Wien und steht weiter auf der Bühne. 2025 spielte sie in Regensburg die Beverley in ›Come From Away‹, für den Sommer 2026 war die Rolle der Cloe in ›The Band‹ beim Musicalsommer Amstetten angekündigt. Sie wird am 26. Dezember 2026 46 Jahre alt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-caroline-peters", label:"Porträt: Caroline Peters (SX7w6) – Schauspielerin, derselbe Subtyp und Flügel"},
+        {route:"beruehmte-leonard-bernstein", label:"Porträt: Leonard Bernstein (SX7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+      ])}
+    </div>
+  `);
+}

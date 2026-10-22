@@ -1107,6 +1107,7 @@ export function leonardBernsteinPortraitPage() {
         {route:"beruehmte-miley-cyrus", label:"Portrait: Miley Cyrus (SX7w6)"},
         {route:"krankheitsportraets-leonard-bernstein", label:"Illness Portrait: Leonard Bernstein – emphysema"},
         {route:"beruehmte-jerry-lewis", label:"Portrait: Jerry Lewis (SX7w6)"},
+        {route:"beruehmte-wietske-van-tongeren", label:"Portrait: Wietske van Tongeren (SX7w6)"},
       ])}
     </div>
   `);

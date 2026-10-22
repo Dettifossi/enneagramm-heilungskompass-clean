@@ -2678,3 +2678,76 @@ export function harryHoudiniPortraitPage() {
     </div>
   `);
 }
+
+export function wietskeVanTongerenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-wietske-van-tongeren-portrait.jpg" alt="Wietske van Tongeren – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-wietske-van-tongeren-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Wietske van Tongeren</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with a Six-wing</p>
+        <p class="krim-portrait-subtitle">Dutch musical performer, b. 1980 &ndash; &lsquo;Elisabeth&rsquo;, &lsquo;Rebecca&rsquo;, &lsquo;Rocky&rsquo; &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee: the village child from the Netherlands who first wanted to study law</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> attaches itself with enthusiasm to everything that sounds and moves and jumps in with its whole body. Wietske van Tongeren was born on 26 December 1980 in Zwolle in the Netherlands and grew up in a small village where artistic careers were unusual. She sang from childhood. Actually she wanted to study law. Then she saw the musical &lsquo;Miss Saigon&rsquo; in the Netherlands, it moved her, and her father advised her to look into training.</p>
+          <p class="vb-intro">She studied acting, singing and dance at the conservatory in Tilburg (now Fontys), changed schools after a year to be better trained and graduated in 2004. Already during her training she played Mrs. Lovett in &lsquo;Sweeney Todd&rsquo;. In spring 2004 she auditioned in Vienna for &lsquo;Elisabeth&rsquo; and got the understudy of the title role. She wanted to stay one year. She stayed: &lsquo;Austria gripped me and never let go.&rsquo;</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: in love with plays and roles</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven seeks the intoxication of the new. Claudio Naranjo called the <strong>sexual Seven (SX7)</strong> the subtype of &lsquo;suggestibility&rsquo;: it lets itself be so completely fascinated by an idea, a piece of music, a role that it sinks into it. It seeks neither abundance nor belonging, but intensity.</p>
+          <p class="vb-intro">In van Tongeren this shows in the words she chooses for her work. Asked about her role as Maria in &lsquo;The Sound of Music&rsquo; she said: &lsquo;I love every one of my roles.&rsquo; About a new piece: &lsquo;I fell in love with the music straight away.&rsquo; And: &lsquo;I love it when new pieces come into being.&rsquo; About her role as Adrian in the world premiere of &lsquo;Rocky&rsquo; she said she would &lsquo;never in my life have thought&rsquo; she would get it. About her colleague Drew Sarich she says: &lsquo;Drew is totally relaxed, and that rubs off on me.&rsquo; That is the Seven&rsquo;s infection. In the Salzburg Maria too she was allowed to be &lsquo;bubbly, as I am a little in private too&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: ensemble, preparation and the fear of the premiere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven loyalty, warmth and a sense of what holds. Where a Seven with a weaker Six-wing jumps from one fascination to the next, the Six-wing asks: do I belong, have I prepared? In van Tongeren these are attitudes: she wants to &lsquo;master the score&rsquo; (a standard from her conservatory days), learns her lines early and approaches the era of her character. She does not look at how others played the role: &lsquo;That would only make me insecure.&rsquo; As a newcomer in an ensemble she said: &lsquo;I am falling into this swimming pool now and trying to swim again – with a new team.&rsquo; And: &lsquo;Personally it is more important to me to get to know the people of the production.&rsquo; A Dutch phrase of hers, roughly: &lsquo;Have all noses pointing in one direction.&rsquo;</p>
+          <p class="vb-intro">The Six&rsquo;s worry belongs to it: &lsquo;Premieres are terrible&rsquo;, she says, and before performances she needs &lsquo;my own space&rsquo;. She does not let stage fright in: &lsquo;It destroys your own authenticity if you allow it.&rsquo; At the Salzburg premiere, in the presence of members of the real Trapp family, she was &lsquo;excited, but positively excited&rsquo;.</p>
+          <p class="vb-intro">The wing shows in private life too. She moved from Perchtoldsdorf and Vienna to Gablitz, bought a house during her pregnancy from a conductor who was moving to Spain, and says: &lsquo;We are not going to leave here voluntarily any more.&rsquo; Her husband Martin Pasching is also a musical performer; they met on &lsquo;Elisabeth&rsquo;. They have two children.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: roles that fill the room</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">From 2004 followed the title role in &lsquo;Elisabeth&rsquo; in Stuttgart, 2006 to 2008 in Vienna the lead &lsquo;Ich&rsquo; (&lsquo;I&rsquo;) in &lsquo;Rebecca&rsquo; (the nameless second wife), from 2009 Stephanie in &lsquo;Rudolf – Affaire Mayerling&rsquo; at the Raimund Theater, in 2011 Betty Schaefer in &lsquo;Sunset Boulevard&rsquo; in Bad Hersfeld and in 2011/12 Maria von Trapp in Salzburg. From November 2012 to August 2015 she played in Hamburg Adrian in the world premiere of &lsquo;Rocky – Das Musical&rsquo;. Later she sang Grizabella in &lsquo;Cats&rsquo; at Vienna&rsquo;s Ronacher, in 2022 Mary Tudor in the world premiere of &lsquo;Lady Bess&rsquo; (Kunze/Levay) at the Theater St. Gallen, in 2024 Donna in &lsquo;Mamma Mia!&rsquo; in Tecklenburg and in 2025 Beverley in the German-language premiere of &lsquo;Come From Away&rsquo; in Regensburg.</p>
+          <p class="vb-intro">Striking is how many of these are world or first performances: &lsquo;Rebecca&rsquo;, &lsquo;Rudolf&rsquo;, &lsquo;Rocky&rsquo;, &lsquo;Lady Bess&rsquo;, &lsquo;Come From Away&rsquo;. Whoever loves new pieces is interested in the moment in which a character lives for the first time.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Peters, Bernstein and Gottschalk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Several SX7w6s stand among the portraits in this Compass, and the comparison shows how the Six-wing binds the pleasure in transformation. <a href="#beruehmte-caroline-peters">Caroline Peters (SX7w6)</a> lets herself be drawn into roles and is at the same time a permanent ensemble member at the Burgtheater. <a href="#beruehmte-leonard-bernstein">Leonard Bernstein (SX7w6)</a> joined concert hall and musical and stayed loyal to his institutions and pupils. <a href="#beruehmte-thomas-gottschalk">Thomas Gottschalk (SX7w6)</a> carries the stage into every situation.</p>
+          <p class="vb-intro">Van Tongeren is close to Peters: transformation and ensemble belong together. With Bernstein she shares the love of the musical, with Gottschalk the bubbliness. Unlike Peters, she does not bind herself to a single house but to the group with which she is currently building a piece.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Seven with a Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the honest, positive force she describes in Maria: &lsquo;The role is honest and open like a child – and it is very positive.&rsquo; Add the collegiality: about her partnership with Uwe Kröger it is said that they trust each other, &lsquo;which is certainly very important for a love story on stage&rsquo;.</p>
+          <p class="vb-intro">The shadow is compatibility with family. About &lsquo;Cats&rsquo; she said in 2020: &lsquo;With Cats the challenge at the moment is simply that I now have two children.&rsquo; And with humour about her children: &lsquo;Learn something sensible, do this only as a hobby.&rsquo; The Six&rsquo;s wish for security collides with a profession that hardly knows security.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: still on stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 22 October 2026) Wietske van Tongeren lives with her family in Gablitz near Vienna and is still on stage. In 2025 she played Beverley in &lsquo;Come From Away&rsquo; in Regensburg; for summer 2026 the role of Cloe in &lsquo;The Band&rsquo; at the Musicalsommer Amstetten was announced. She turns 46 on 26 December 2026.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-caroline-peters", label:"Portrait: Caroline Peters (SX7w6) – actress, same subtype and wing"},
+        {route:"beruehmte-leonard-bernstein", label:"Porträt: Leonard Bernstein (SX7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+      ])}
+    </div>
+  `);
+}
