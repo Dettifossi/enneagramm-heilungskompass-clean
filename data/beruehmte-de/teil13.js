@@ -1648,6 +1648,7 @@ export function woodyAllenPortraitPage() {
         {route:"krankheitsportraets-woody-allen", label:"Krankheitsportr\u00e4t: Woody Allen (SE6w7) \u2013 lebenslange Hypochondrie"},
         {route:"beruehmte-raul-aguayo-krauthausen", label:"Portr\u00e4t: Ra\u00fal Aguayo-Krauthausen (SE6w7)"},
         {route:"beruehmte-heiko-maas", label:"Porträt: Heiko Maas (SE6w7)"},
+        {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald H\u00f6rhan (SE6w7)"},
       ])}
     </div>
   `);
@@ -2725,6 +2726,7 @@ export function heikoMaasPortraitPage() {
         {route:"beruehmte-katie-couric", label:"Porträt: Katie Couric (SE6w7)"},
         {route:"beruehmte-raul-aguayo-krauthausen", label:"Porträt: Raúl Aguayo-Krauthausen (SE6w7)"},
         {route:"beruehmte-beatrice-chebet", label:"Porträt: Beatrice Chebet (SE6w7)"},
+        {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald H\u00f6rhan (SE6w7)"},
       ])}
     </div>
   `);

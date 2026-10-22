@@ -1635,6 +1635,7 @@ export function woodyAllenPortraitPage() {
         {route:"krankheitsportraets-woody-allen", label:"Illness Portrait: Woody Allen (SP6w7) – lifelong hypochondria"},
         {route:"beruehmte-raul-aguayo-krauthausen", label:"Portrait: Raúl Aguayo-Krauthausen (SP6w7)"},
         {route:"beruehmte-heiko-maas", label:"Portrait: Heiko Maas (SE6w7)"},
+        {route:"beruehmte-gerald-hoerhan", label:"Portrait: Gerald H\u00f6rhan (SE6w7)"},
       ])}
     </div>
   `);

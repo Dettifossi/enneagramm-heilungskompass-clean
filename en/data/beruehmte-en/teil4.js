@@ -2255,6 +2255,7 @@ export function katieCouricPortraitPage() {
         {route:"krankheitsportraets-woody-allen", label:"Illness Portrait: Woody Allen (SP6w7)"},
         {route:"beruehmte-ellen-degeneres", label:"Portrait: Ellen DeGeneres (SP6w5) – same core type, different wing"},
         {route:"beruehmte-heiko-maas", label:"Portrait: Heiko Maas (SE6w7)"},
+        {route:"beruehmte-gerald-hoerhan", label:"Portrait: Gerald H\u00f6rhan (SE6w7)"},
       ])}
     </div>
   `);
@@ -2736,6 +2737,7 @@ export function heikoMaasPortraitPage() {
         {route:"beruehmte-katie-couric", label:"Portrait: Katie Couric (SE6w7)"},
         {route:"beruehmte-raul-aguayo-krauthausen", label:"Portrait: Raúl Aguayo-Krauthausen (SE6w7)"},
         {route:"beruehmte-beatrice-chebet", label:"Portrait: Beatrice Chebet (SE6w7)"},
+        {route:"beruehmte-gerald-hoerhan", label:"Portrait: Gerald H\u00f6rhan (SE6w7)"},
       ])}
     </div>
   `);
