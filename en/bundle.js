@@ -10636,6 +10636,16 @@ function zahlenFaktenPage() {
   const _subSort = Object.entries(_proSub).sort((a, b) => b[1] - a[1]);
   const _typMax = Math.max(...Object.values(_proTyp));
   const _pct = (n, m) => Math.round(100 * n / m);
+  const _subMax = Math.max(...Object.values(_proSub));
+  const _instFarbe = { SE: "#6b8f71", SO: "#c4a456", SX: "#a8553f" };
+  const _subBalken = [1,2,3,4,5,6,7,8,9].map(n => ["SE","SO","SX"].map(i => {
+    const c = i + n, v = _proSub[c] || 0;
+    return `<div style="display:flex;align-items:center;gap:.6rem;margin:.18rem 0;font-family:system-ui,sans-serif;font-size:.8rem;">
+      <span style="width:2.4rem;color:var(--muted);">${c}</span>
+      <span style="flex:1;border-radius:5px;height:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));"><span style="display:block;height:100%;width:${_pct(v, _subMax)}%;background:${_instFarbe[i]};border-radius:5px;"></span></span>
+      <span style="width:2.4rem;text-align:right;font-variant-numeric:tabular-nums;">${v}</span>
+    </div>`;
+  }).join("") + '<div style="height:.5rem;"></div>').join("");
   const _frauen = BERUEHMT_PORTRAITS.filter(p => p.gender === "f" || p.gender === "w").length;
   const _laender = new Set(BERUEHMT_PORTRAITS.map(p => p.land).filter(Boolean));
   const _deUsa = BERUEHMT_PORTRAITS.filter(p => p.land === "Germany" || p.land === "USA").length;
@@ -10687,6 +10697,9 @@ function zahlenFaktenPage() {
       </div>
       <h3 style="font-size:.95rem;font-weight:700;margin:1.6rem 0 .5rem;color:var(--ink);">Portraits per Enneagram type</h3>
       ${_typBalken}
+      <h3 style="font-size:.95rem;font-weight:700;margin:1.6rem 0 .5rem;color:var(--ink);">Portraits per subtype (all 27)</h3>
+      <p style="font-family:system-ui,sans-serif;font-size:.78rem;color:var(--muted);margin:0 0 .6rem;"><span style="color:#6b8f71;">&#9632;</span> self-preservation &nbsp; <span style="color:#c4a456;">&#9632;</span> social &nbsp; <span style="color:#a8553f;">&#9632;</span> sexual</p>
+      ${_subBalken}
       <p style="font-family:system-ui,sans-serif;font-size:.75rem;color:var(--muted);margin-top:.6rem;">Counted live from the portrait lists. The distribution reflects which portraits were chosen, not how common the types are in the population.</p>
 
       <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Text Volume</h2>
