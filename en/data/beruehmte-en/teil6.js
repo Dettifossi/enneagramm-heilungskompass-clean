@@ -1887,6 +1887,7 @@ export function stringerDavisPortraitPage() {
         {route:"beruehmte-klaus-j-behrendt", label:"Portrait: Klaus J. Behrendt (SP6w5)"},
         {route:"beruehmte-anne-mcbride", label:"Portrait: Dr. Anne McBride (SP6w5)"},
         {route:"beruehmte-stan-laurel", label:"Portrait: Stan Laurel (SP6w5)"},
+        {route:"beruehmte-milan-peschel", label:"Portrait: Milan Peschel (SE6w5)"},
       ])}
     </div>
   `);
