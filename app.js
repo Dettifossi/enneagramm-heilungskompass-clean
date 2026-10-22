@@ -35607,7 +35607,7 @@ function zahlenFaktenPage() {
 
             <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Verteilung der Porträts</h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.9rem;">
-        ${statCard(_mitSub.length, "Porträts mit zugeordnetem Subtyp (berühmte Persönlichkeiten, Krankheit, Kriminal)")}
+        ${statCard(_mitSub.length, "Porträts mit zugeordnetem Subtyp (Porträts berühmter Persönlichkeiten, Krankheitsporträts, Kriminalporträts)")}
         ${statCard(_subSort[0][0] + " &middot; " + _subSort[0][1], "Am häufigsten porträtierter Subtyp")}
         ${statCard(_subSort[_subSort.length - 1][0] + " &middot; " + _subSort[_subSort.length - 1][1], "Am seltensten porträtierter Subtyp")}
         ${statCard(_pct(_proInst.SE, _mitSub.length) + " / " + _pct(_proInst.SO, _mitSub.length) + " / " + _pct(_proInst.SX, _mitSub.length) + " %", "Verteilung auf selbsterhaltend / sozial / sexuell")}
