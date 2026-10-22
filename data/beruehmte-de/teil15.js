@@ -2706,3 +2706,74 @@ export function camilleClaudelPortraitPage() {
     </div>
   `);
 }
+
+export function thomasSchmelzerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-thomas-schmelzer-portrait.jpg" alt="Thomas Schmelzer – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-thomas-schmelzer-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Thomas Schmelzer</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Moderator, Regisseur und Gründer von MYSTICA.TV &ndash; &rsaquo;Die Stille in mir&lsaquo;, &rsaquo;Wiedergeburt&lsaquo; &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen: der Schauspieler, der lieber fragt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> sitzt am Rand der Lichtung und beobachtet, wer kommt. Thomas Schmelzer begann als Schauspieler: Nach den Angaben auf seiner Seite spielte er 25 Rollen in Film und Fernsehen, eine andere Quelle nennt rund 350 Drehtage in 20 Filmen und Serien. 1994 begann seine Fernsehlaufbahn als Moderator mit einer 26-teiligen Serie für die ARD, später war er sechs Jahre Redakteur beim Magazin ›raum&amp;zeit‹, und 2004 drehte er eine große Dokumentation für arte in Japan. Die Angaben zu seiner Person stammen überwiegend aus seinen eigenen Seiten und aus Veranstalter-Porträts, Geburtsjahr und Herkunft nennen sie nicht.</p>
+          <p class="vb-intro">Vom Schauspieler, der Rollen übernimmt, wurde er zum Moderator, der Fragen stellt. Er hat nach eigenen Angaben rund 60 bis 80 Kongresse moderiert und zwischen 900 und 1.300 Persönlichkeiten interviewt; die Zahlen schwanken je nach Quelle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Halt im Gespräch und in der Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sechs sucht verlässliche Orientierung, weil sie weiß, wie wacklig sie sein kann. Die <strong>selbsterhaltende Sechs (SE6)</strong> nannte Claudio Naranjo den Subtyp der ›Wärme‹: Sie findet Sicherheit in vertrauten Menschen, in einem Kreis, dem sie sich zugehörig fühlt, und in Menschen, auf die sie sich verlassen kann. Wer über Jahre Hunderte von Fachleuten befragt, sucht nach Menschen, denen man trauen kann, und baut sich ein Netz verlässlicher Gegenüber auf.</p>
+          <p class="vb-intro">Dazu passt die Lebensgeschichte, die er selbst erzählt: Nach der Überwindung einer Krebserkrankung, so seine Seite, wandte er sich spirituellen Themen zu. Eine Rezension nennt die Diagnose im Alter von 25 Jahren und zitiert seine Erfahrung im Krankenhaus: Er habe sich ›nicht länger in einem schweren Körper‹ empfunden, sondern in einem ›federleichten Sein ohne Anhaftung‹. Eine andere Autorin schreibt, die Diagnose habe ihn in Stille und tiefe Selbstprüfung geführt. Dass jemand, dessen Körper unsicher geworden ist, Halt in der Stille und im Gespräch mit anderen sucht, ist das Muster der Sechs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: der aufmerksame Beobachter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der Sechs eine beobachtende, wissenssuchende Seite: Wer viel weiß und genau fragt, fühlt sich weniger ausgeliefert. Bei Schmelzer zeigt sich das im Handwerk: Er führte Regie bei Dokumentarfilmen, schreibt für Printmagazine (seit einigen Jahren eine Kolumne im ›ENGELmagazin‹ über gelebte Spiritualität), war Redakteur und arbeitet als Medienberater. Eine Sechs mit schwächer ausgeprägtem Fünferflügel hätte vielleicht auf der Bühne geredet; Schmelzer sitzt dem Gast gegenüber und hört zu. Über seine Arbeit sagt seine Seite: ›Meine Leidenschaft, meine Profession: Auf MYSTICA.TV und vielen Kongressen.‹</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: ein Gesprächsportal und seine Filme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Webportal MYSTICA.TV leitet und moderiert er nach eigenen Angaben seit 2008, und für Februar 2028 kündigt er einen Kongress ›20 Jahre MYSTICA‹ an. Die Talk-Reihe läuft an zwei Tagen in der Woche, der YouTube-Kanal hat je nach Quelle zwischen 125.000 und 150.000 Abonnenten. 2015 führte er Regie beim MYSTICA-Dokumentarfilm ›Die Übersinnlichen‹, im April 2018 folgte ›Wiedergeburt – Deine Seele ist unsterblich!‹, der den Publikumspreis des Cosmic Cine Filmfestivals in München erhielt. Im März 2016 erschien sein erstes Buch ›Die Stille in mir‹, ein zweites, ›Klarheit des Herzens‹, war für Herbst 2025 angekündigt. Im April 2024 startete er mit der Talkshow ›COSMOPOLY – Der Bewusstseinstalk‹.</p>
+          <p class="vb-intro">Er stellt Menschen und Sichtweisen vor und moderiert die Gespräche. Das ist die Sechs als Gastgeber: Sie schafft einen Raum, in dem andere sprechen können, und bleibt selbst Vermittler.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Pichai, Peschel und Schubert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den Porträts dieses Kompasses stehen mehrere SE6w5er, und der Vergleich zeigt, wie die Sechs ihren Halt in anderen sucht. <a href="#beruehmte-sundar-pichai">Sundar Pichai (SE6w5)</a> gilt als einer, der zuhört, bevor er entscheidet, und macht Information zur Sicherheit. <a href="#beruehmte-milan-peschel">Milan Peschel (SE6w5)</a> fand als Schauspieler Halt in Handwerk, Haus und Familie. <a href="#beruehmte-franz-schubert">Franz Schubert (SE6w5)</a> sammelte einen Kreis enger Freunde um sich.</p>
+          <p class="vb-intro">Schmelzer verbindet sie: Wie Pichai hört er zu, wie Peschel kommt er vom Spielen her und bleibt dem Beruf verbunden, und wie Schubert baut er einen Kreis auf. Nur dass sein Kreis öffentlich ist: ein Portal, in dem ein Gespräch das andere ablöst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Sechs mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt im Zuhören. Wer sich selbst als verletzlich erlebt hat, kann anderen Raum geben, und das Format der langen Gespräche gibt Gästen Zeit. Er plant weit voraus: Für 2026 bis 2028 sind Moderationen und Vorträge angekündigt, ein verlässlicher Rhythmus aus Kongressen, Seminaren und Sendungen.</p>
+          <p class="vb-intro">Der Schatten der Sechs ist, dass Halt im Gespräch nie endgültig ist. Wer Sicherheit durch Menschen und Wissen sucht, fragt weiter, und jedes Gespräch öffnet die nächste Frage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Moderationen bis 2028</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 22. Oktober 2026) moderiert Thomas Schmelzer weiter bei MYSTICA.TV und auf Kongressen. Auf seiner Seite sind unter anderem der ›Welt im Wandel Kongress‹ in Würzburg (10. und 11. Oktober 2026), das Festival ›find your flow!‹ in Basel (7. und 8. November 2026) und ein Seminar ›Erfolgreich auftreten‹ im MYSTICA Studio München (28. November 2026) angekündigt, für 2027 weitere Kongresse und im Februar 2028 ›20 Jahre MYSTICA – Der große Kongress‹.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se6", label:"Lebensmusterkompass: SE6 – Kaninchen"},
+        {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5) – derselbe Subtyp und Flügel"},
+        {route:"beruehmte-milan-peschel", label:"Porträt: Milan Peschel (SE6w5)"},
+        {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5)"},
+      ])}
+    </div>
+  `);
+}

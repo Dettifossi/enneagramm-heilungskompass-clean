@@ -250,7 +250,7 @@ export const LEBENSMUSTERKOMPASS = {
   SE6: {
     tier: "Rabbit",
     kernthema: "Constant alertness to danger, security sought in the familiar (Naranjo: Warmth)",
-    beispiele: ["Sundar Pichai", "Fyodor Dostoevsky", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Zacchaeus", "Huang Yong Ping", "Alberto Marini", "Karl Lauterbach", "Stan Laurel", "Stringer Davis", "Katie Couric", "Ellen DeGeneres", "Raúl Aguayo-Krauthausen", "Luke Nichols", "Heiko Maas", "Gerald Hörhan", "Kevin Kühnert", "Carlo Masala", "Milan Peschel"],
+    beispiele: ["Sundar Pichai", "Fyodor Dostoevsky", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Zacchaeus", "Huang Yong Ping", "Alberto Marini", "Karl Lauterbach", "Stan Laurel", "Stringer Davis", "Katie Couric", "Ellen DeGeneres", "Raúl Aguayo-Krauthausen", "Luke Nichols", "Heiko Maas", "Gerald Hörhan", "Kevin Kühnert", "Carlo Masala", "Milan Peschel", "Thomas Schmelzer"],
     fingerabdruecke: [
       {
         titel: "Perceiving danger earlier than others – constant, active alertness",
@@ -275,7 +275,7 @@ export const LEBENSMUSTERKOMPASS = {
       {
         titel: "Trust in an external, time-tested system instead of one's own uncertain judgment (especially with the 5-wing)",
         beschreibung: "Instead of relying on one's own judgment, control is deliberately handed over to a reliable, usually long-established procedure or system of order – security arises because something proven makes the decision, not the uncertain self.",
-        beleg: "Heiko Maas, who sought support in church, union, party and legal order, became a reliable anchor of the state SPD himself after Lafontaine's switch in 2004 and as a minister created security through laws; Huang Yong Ping, who for decades let dice and wheels of chance decide, following the principles of the I Ching, the color, form, and arrangement of his works: 'No personal statement, no artistic caprice – but a familiar, external procedure that takes over the decision where his own authority seemed too uncertain.'"
+        beleg: "Thomas Schmelzer, who as a presenter questions hundreds of specialists and witnesses and so builds a net of reliable counterparts instead of relying on his own judgment alone; Heiko Maas, who sought support in church, union, party and legal order, became a reliable anchor of the state SPD himself after Lafontaine's switch in 2004 and as a minister created security through laws; Huang Yong Ping, who for decades let dice and wheels of chance decide, following the principles of the I Ching, the color, form, and arrangement of his works: 'No personal statement, no artistic caprice – but a familiar, external procedure that takes over the decision where his own authority seemed too uncertain.'"
       },
       {
         titel: "When protective vigilance tips into public catastrophizing (shadow form, especially with the 5-wing)",
