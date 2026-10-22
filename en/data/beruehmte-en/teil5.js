@@ -2713,7 +2713,7 @@ export function ulrichSelzPortraitPage() {
         <h2 class="vb-section">6. Light and shadow of the social Six with a Five-wing</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light lies in reliability and in the compassion that comes from own experience: a doctor who knows from childhood what it is like when nobody has an answer and builds a profession on it. The mixture of emergency medicine and education has something caring about it.</p>
-          <p class="vb-intro">The shadow of the Six lies in permanent readiness: whoever keeps watch finds it hard to switch off, and whoever sees dangers early sometimes sees them where others do not yet. At the same time the work remains checkable: the details on training and reach come predominantly from him and his publisher.</p>
+          <p class="vb-intro">The shadow of the Six lies in permanent readiness: whoever keeps watch finds it hard to switch off, and whoever sees dangers early sometimes sees them where others do not yet. At the same time the social Six lives on the backing of the group: whoever makes the warning a daily task needs an audience that listens, and the approval of the community easily becomes a reassurance.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Status: doctor, author and channel operator</h2>

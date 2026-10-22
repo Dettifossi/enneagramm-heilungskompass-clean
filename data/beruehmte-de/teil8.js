@@ -2787,7 +2787,7 @@ export function ulrichSelzPortraitPage() {
         <h2 class="vb-section">6. Licht und Schatten der sozialen Sechs mit Fünferflügel</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht liegt in der Verlässlichkeit und im Mitgefühl, das aus eigener Erfahrung kommt: ein Arzt, der aus der Kindheit weiß, wie es ist, wenn niemand eine Antwort hat, und darauf einen Beruf aufbaut. Die Mischung aus Notfallmedizin und Aufklärung hat etwas Fürsorgliches.</p>
-          <p class="vb-intro">Der Schatten der Sechs liegt im Dauerbereitschaftsmodus: Wer Wache hält, kann schwer abschalten, und wer Gefahren früh sieht, sieht sie manchmal auch dort, wo andere noch keine erkennen. Zugleich bleibt das Werk überprüfbar: Die Angaben zu Ausbildung und Reichweite stammen überwiegend von ihm selbst und seinem Verlag.</p>
+          <p class="vb-intro">Der Schatten der Sechs liegt im Dauerbereitschaftsmodus: Wer Wache hält, kann schwer abschalten, und wer Gefahren früh sieht, sieht sie manchmal auch dort, wo andere noch keine erkennen. Zugleich lebt die soziale Sechs vom Rückhalt der Gruppe: Wer die Warnung zur täglichen Aufgabe macht, braucht ein Publikum, das zuhört, und die Zustimmung der Gemeinschaft wird leicht zur Rückversicherung.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Stand: Arzt, Autor und Kanalbetreiber</h2>
