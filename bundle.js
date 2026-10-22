@@ -35607,13 +35607,13 @@ function zahlenFaktenPage() {
 
             <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Verteilung der Porträts</h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.9rem;">
-        ${statCard(_mitSub.length, "Porträts mit zugeordnetem Subtyp (Berühmte, Krankheit, Kriminal)")}
+        ${statCard(_mitSub.length, "Porträts mit zugeordnetem Subtyp (berühmte Persönlichkeiten, Krankheit, Kriminal)")}
         ${statCard(_subSort[0][0] + " &middot; " + _subSort[0][1], "Am häufigsten porträtierter Subtyp")}
         ${statCard(_subSort[_subSort.length - 1][0] + " &middot; " + _subSort[_subSort.length - 1][1], "Am seltensten porträtierter Subtyp")}
         ${statCard(_pct(_proInst.SE, _mitSub.length) + " / " + _pct(_proInst.SO, _mitSub.length) + " / " + _pct(_proInst.SX, _mitSub.length) + " %", "Verteilung auf selbsterhaltend / sozial / sexuell")}
         ${statCard(_pct(_frauen, BERUEHMT_PORTRAITS.length) + " %", "Frauenanteil bei den berühmten Persönlichkeiten")}
-        ${statCard(_laender.size, "Verschiedene Herkunftsländer bei den Berühmten")}
-        ${statCard(_pct(_deUsa, BERUEHMT_PORTRAITS.length) + " %", "Berühmte aus Deutschland oder den USA")}
+        ${statCard(_laender.size, "Verschiedene Herkunftsländer bei den berühmten Persönlichkeiten")}
+        ${statCard(_pct(_deUsa, BERUEHMT_PORTRAITS.length) + " %", "berühmte Persönlichkeiten aus Deutschland oder den USA")}
       </div>
       <h3 style="font-size:.95rem;font-weight:700;margin:1.6rem 0 .5rem;color:var(--ink);">Porträts je Enneagramm-Typ</h3>
       ${_typBalken}

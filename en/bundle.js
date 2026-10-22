@@ -10692,8 +10692,8 @@ function zahlenFaktenPage() {
         ${statCard(_subSort[_subSort.length - 1][0] + " &middot; " + _subSort[_subSort.length - 1][1], "Least frequently portrayed subtype")}
         ${statCard(_pct(_proInst.SE, _mitSub.length) + " / " + _pct(_proInst.SO, _mitSub.length) + " / " + _pct(_proInst.SX, _mitSub.length) + " %", "Split across self-preservation / social / sexual")}
         ${statCard(_pct(_frauen, BERUEHMT_PORTRAITS.length) + " %", "Share of women among the famous personalities")}
-        ${statCard(_laender.size, "Different countries of origin among the famous")}
-        ${statCard(_pct(_deUsa, BERUEHMT_PORTRAITS.length) + " %", "Famous people from Germany or the USA")}
+        ${statCard(_laender.size, "Different countries of origin among the famous personalities")}
+        ${statCard(_pct(_deUsa, BERUEHMT_PORTRAITS.length) + " %", "Famous personalities from Germany or the USA")}
       </div>
       <h3 style="font-size:.95rem;font-weight:700;margin:1.6rem 0 .5rem;color:var(--ink);">Portraits per Enneagram type</h3>
       ${_typBalken}
