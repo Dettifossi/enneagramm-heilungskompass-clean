@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2563", date: "2026-10-22", text: "Neues Schaubild: Kröten schlucken – Selbstbild und Fremdbild nach und nach in Einklang bringen.", text_en: "New diagram: Swallowing Toads – bringing self-image and outside image into line, step by step.", route: "kroetenschlucken" },
     { version: "v2562", date: "2026-10-22", text: "Neues Porträt: Michael Greger (SE6w5) – Arzt und Autor, bekannt durch How Not to Die und NutritionFacts.org.", text_en: "New portrait: Michael Greger (SE6w5) – physician and author, known for How Not to Die and NutritionFacts.org.", route: "beruehmte-michael-greger" },
     { version: "v2561", date: "2026-10-22", text: "Neues Porträt: Thomas Schmelzer (SE6w7) – Moderator, Regisseur und Gründer von MYSTICA.TV.", text_en: "New portrait: Thomas Schmelzer (SE6w7) – presenter, director and founder of MYSTICA.TV.", route: "beruehmte-thomas-schmelzer" },
     { version: "v2560", date: "2026-10-22", text: "Neues Porträt: Milan Peschel (SE6w5) – Schauspieler und Regisseur, bekannt durch Halt auf freier Strecke und Netto.", text_en: "New portrait: Milan Peschel (SE6w5) – actor and director, known for Halt auf freier Strecke and Netto.", route: "beruehmte-milan-peschel" },

@@ -109,6 +109,8 @@ const ROUTES = [
   { hash: "en/#krankheitsportraets-prince", label: "Neues EN-Krankheitsporträt: Prince" },
   { hash: "#krankheitsportraets-william-james-sidis", label: "Neues Krankheitsporträt: William James Sidis" },
   { hash: "en/#krankheitsportraets-william-james-sidis", label: "Neues EN-Krankheitsporträt: William James Sidis" },
+  { hash: "#kroetenschlucken", label: "Neues Schaubild: Kröten schlucken" },
+  { hash: "en/#kroetenschlucken", label: "Neues EN-Schaubild: Kröten schlucken" },
   { hash: "#wann-entsteht-der-typ", label: "Neues Schaubild: Wann entsteht der Typ" },
   { hash: "en/#wann-entsteht-der-typ", label: "Neues EN-Schaubild: Wann entsteht der Typ" },
   { hash: "#typ-aendert-sich-nicht", label: "Neuer Wissensartikel: Typ ändert sich nicht" },

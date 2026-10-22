@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=285";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=286";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -5487,7 +5487,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -5685,6 +5685,7 @@ text.nav = [
     { route: "schaubilder-als-spiegel", label: "Diagrams as a Mirror" },
     { route: "dialektische-struktur", label: "Dialectical Structure" },
     { route: "wann-entsteht-der-typ", label: "When and How Does the Enneagram Type Arise?" },
+    { route: "kroetenschlucken", label: "Swallowing Toads" },
     { route: "enneagramm-profiling", label: "Enneagram Profiling" },
     { route: "interessante-erkenntnisse", label: "Interesting Insights" },
     { route: "maennliche-weibliche-seite", label: "Masculine & Feminine Side of the Enneagram" },
@@ -18656,6 +18657,80 @@ function typEntstehungPage() {
         {route:"typ-aendert-sich-nicht", label:"Knowledge: Does the type change over the course of life?"},
         {route:"kindliche-temperamente", label:"Chart: Childhood Temperaments"},
         {route:"drei-lebenskraefte", label:"Chart: The Three Fundamental Life Forces"},
+        {route:"schaubilder", label:"All diagrams"},
+      ])}
+    </section>
+  `);
+}
+
+function kroetenschluckenPage() {
+  return shell(`
+    ${pageHeader("kroetenschlucken")}
+    <section class="narrow">
+      <p class="eyebrow">Diagrams · Self-Knowledge</p>
+      <h1>Swallowing Toads: bringing self-image and outside image into line, step by step</h1>
+      <p class="lead-small">Anyone who uncovers their own blind spots with the Enneagram hears something that does not taste good at first. The chart puts this process into a picture that tells, with a wink, how hard and how healing self-knowledge can be at the same time.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="${R2_CDN}assets/schaubilder/kroetenschlucken/kroetenschlucken.jpg" alt="Swallowing toads: a laughing frog on a blue background, with a yellow oval on its belly explaining the metaphor" class="psycho-img" loading="lazy" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Introduction: a figure of speech as a method</h2>
+        <p class="vb-intro">In German one says that someone has to swallow a toad (›eine Kröte schlucken‹) when they must accept something unpleasant they would rather not accept. One does not swallow it gladly, but one swallows it because it serves the matter. English has a close cousin in ›swallow a bitter pill‹. This very meaning makes the expression useful for the Enneagram: anyone who wants to recognise their pattern cannot avoid accepting uncomfortable things about themselves.</p>
+        <p class="vb-intro">The chart shows a cheerfully laughing frog. That is deliberate. The toad is not meant as a punishment or a verdict on character, but as an invitation to take one's own quirks with humour. Whoever can laugh at themselves swallows more easily.</p>
+
+        <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 .8rem;color:var(--ink);">The chart's key statements</h2>
+        <ul style="font-size:.95rem;line-height:1.7;padding-left:1.2rem;">
+          <li>Uncovering one's own blind spots with the Enneagram and becoming aware of them is, in a certain sense, like swallowing toads.</li>
+          <li>The toad corresponds to the outside image, that is, the Enneagram type together with its subtype, which we use primarily, objectively but unconsciously, as a psychological defense mechanism, and by which we are intrinsically motivated to reach our life goals.</li>
+          <li>The metaphor stands for the process of gradually synchronising the subjective self-image and the objective outside image, that is, bringing them into line.</li>
+          <li>These toads are to be swallowed in the course of the process of self-knowledge.</li>
+        </ul>
+
+        <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 .8rem;color:var(--ink);">Self-image and outside image: two views of the same person</h2>
+        <p class="vb-intro">Every person carries an image of themselves: how they are, what drives them, how they come across. This <strong>self-image</strong> is subjective (personally coloured) and contains above all what we want to see and are able to see of ourselves. Alongside it there is the <strong>outside image</strong>: the picture that others have of us, who experience how we come across without knowing our intentions. Between the two there is almost always a gap.</p>
+        <p class="vb-intro">Psychology has a term for this: the <strong>blind spot</strong>. In the Johari window, developed by the psychologists Joseph Luft and Harry Ingham in 1955, it is the area that those around us see in us but we ourselves do not. One cannot recognise it alone, precisely because one does not see it. A mirror from outside is needed.</p>
+        <p class="vb-intro">The Enneagram can be that mirror. It describes type and subtype, which, in the Compass's view, we use unconsciously from childhood as our main strategy for coping with the world. The chart explicitly calls this strategy the outside image: it is objectively present and easy for others to recognise, while the person concerned mostly does not notice it. The toad is therefore what others have long seen in us and what we must laboriously come to accept as part of ourselves.</p>
+
+        <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 .8rem;color:var(--ink);">Why the toad is so hard to swallow</h2>
+        <p class="vb-intro">The protective strategy once helped us. It protected us, secured recognition or carried us through a difficult time. That is why it does not feel like a flaw but like a part of us that we defend. Whoever gets on its trail often meets resistance: justification, defensiveness, shame, or the reflex to dismiss the feedback as unfair. All of this is human and part of the process.</p>
+        <p class="vb-intro">In addition, the same strategy that drives us is also our strength. Whoever swallows the toad is not meant to discard or fight anything but to recognise it as part of themselves. Only then does the possibility arise of using it more consciously instead of being used by it.</p>
+
+        <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 .8rem;color:var(--ink);">Examples: what the nine types typically find hard to swallow</h2>
+        <p class="vb-intro">The following examples are approximations, not prescriptions. Every person has their own mixture of type, subtype and life story.</p>
+        <ul style="font-size:.95rem;line-height:1.7;padding-left:1.2rem;">
+          <li><strong>Type 1:</strong> that one's own precision and criticism come across to others as strictness.</li>
+          <li><strong>Type 2:</strong> that the helpfulness also seeks recognition and attention for oneself.</li>
+          <li><strong>Type 3:</strong> that the image one shows of oneself is not the same as what one feels.</li>
+          <li><strong>Type 4:</strong> that constantly stressing what is missing can weigh on the people around one.</li>
+          <li><strong>Type 5:</strong> that withdrawal and reserve are experienced by others as coldness or lack of interest.</li>
+          <li><strong>Type 6:</strong> that vigilance also expresses distrust of people who mean well.</li>
+          <li><strong>Type 7:</strong> that lightness comes across to others as non-commitment.</li>
+          <li><strong>Type 8:</strong> that one's own strength intimidates people one never meant to intimidate.</li>
+          <li><strong>Type 9:</strong> that avoiding conflict looks to others like indifference.</li>
+        </ul>
+
+        <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 .8rem;color:var(--ink);">The process: step by step, not all at once</h2>
+        <p class="vb-intro">The words ›step by step‹ in the chart matter. Nobody has to swallow all the toads at once, and nobody should. Self-knowledge is a path taken in stages, and it needs time for the new to settle.</p>
+        <ul style="font-size:.95rem;line-height:1.7;padding-left:1.2rem;">
+          <li>Take feedback from trusted people seriously, even if it hurts at first.</li>
+          <li>Observe one's own behaviour in everyday situations without judging at once.</li>
+          <li>Honour the strategy: it once had a good reason.</li>
+          <li>Proceed with humour and self-respect, not with self-criticism.</li>
+          <li>In the case of deep wounds or heavy strain, seek professional support.</li>
+        </ul>
+        <p class="vb-intro">In this way self-image and outside image come closer together. The result is not a different person but a more honest one: whoever knows their effect on others can choose how to use it.</p>
+        <p style="font-size:.85rem;color:var(--muted);line-height:1.6;">The chart reflects the Compass's view and is a model. It does not replace psychotherapeutic treatment.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("hinter-der-leidenschaft", "Behind passion, the deeper wounds – the path to transformation of the Enneagram type.", "Hinter der Leidenschaft – die neun Wunden")}
+        ${bookTip("der-code-deiner-persoenlichkeit", "How the Enneagram type develops &ndash; and what it reveals about our deepest imprints.", "Der Code deiner Persönlichkeit")}
+      </div>
+      ${relatedLinks([
+        {route:"schaubilder-als-spiegel", label:"Diagrams as a Mirror"},
+        {route:"wann-entsteht-der-typ", label:"Chart: When and How Does the Enneagram Type Arise?"},
+        {route:"typ-aendert-sich-nicht", label:"Knowledge: Does the type change over the course of life?"},
         {route:"schaubilder", label:"All diagrams"},
       ])}
     </section>
@@ -44413,6 +44488,7 @@ function subtypeSchaubilderPage() {
     "kindliche-temperamente": kindlicheTemperamentePage,
     "typ-aendert-sich-nicht": typBleibtPage,
     "wann-entsteht-der-typ": typEntstehungPage,
+    "kroetenschlucken": kroetenschluckenPage,
     "tee-enneagramm": teeEnneagrammPage,
     "aetherische-oele": aetherischeOelePage,
     "angst-essenz": angstEssenzPage,
