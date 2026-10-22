@@ -1636,6 +1636,7 @@ export function woodyAllenPortraitPage() {
         {route:"beruehmte-raul-aguayo-krauthausen", label:"Portrait: Raúl Aguayo-Krauthausen (SP6w7)"},
         {route:"beruehmte-heiko-maas", label:"Portrait: Heiko Maas (SE6w7)"},
         {route:"beruehmte-gerald-hoerhan", label:"Portrait: Gerald H\u00f6rhan (SE6w7)"},
+        {route:"beruehmte-kevin-kuehnert", label:"Portrait: Kevin K\u00fchnert (SE6w7)"},
       ])}
     </div>
   `);

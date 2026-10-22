@@ -1649,6 +1649,7 @@ export function woodyAllenPortraitPage() {
         {route:"beruehmte-raul-aguayo-krauthausen", label:"Portr\u00e4t: Ra\u00fal Aguayo-Krauthausen (SE6w7)"},
         {route:"beruehmte-heiko-maas", label:"Porträt: Heiko Maas (SE6w7)"},
         {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald H\u00f6rhan (SE6w7)"},
+        {route:"beruehmte-kevin-kuehnert", label:"Porträt: Kevin K\u00fchnert (SE6w7)"},
       ])}
     </div>
   `);
@@ -2727,6 +2728,7 @@ export function heikoMaasPortraitPage() {
         {route:"beruehmte-raul-aguayo-krauthausen", label:"Porträt: Raúl Aguayo-Krauthausen (SE6w7)"},
         {route:"beruehmte-beatrice-chebet", label:"Porträt: Beatrice Chebet (SE6w7)"},
         {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald H\u00f6rhan (SE6w7)"},
+        {route:"beruehmte-kevin-kuehnert", label:"Porträt: Kevin K\u00fchnert (SE6w7)"},
       ])}
     </div>
   `);

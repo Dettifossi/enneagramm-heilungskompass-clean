@@ -2676,6 +2676,7 @@ export function geraldHoerhanPortraitPage() {
         {route:"beruehmte-woody-allen", label:"Porträt: Woody Allen (SE6w7) – derselbe Subtyp und Flügel"},
         {route:"beruehmte-katie-couric", label:"Porträt: Katie Couric (SE6w7)"},
         {route:"beruehmte-heiko-maas", label:"Porträt: Heiko Maas (SE6w7)"},
+        {route:"beruehmte-kevin-kuehnert", label:"Porträt: Kevin K\u00fchnert (SE6w7)"},
       ])}
     </div>
   `);
