@@ -2638,26 +2638,27 @@ export function thomasSchmelzerPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-thomas-schmelzer-portrait.jpg" alt="Thomas Schmelzer – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-thomas-schmelzer-portrait.jpg'" />
         </div>
         <p class="krim-portrait-name">Thomas Schmelzer</p>
-        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with a Five-wing</p>
+        <p class="krim-portrait-typ">SE6w7 &middot; Self-Preservation Type 6 with a Seven-wing</p>
         <p class="krim-portrait-subtitle">German presenter, director and founder of MYSTICA.TV &ndash; &lsquo;Die Stille in mir&rsquo;, &lsquo;Wiedergeburt&rsquo; &ndash; Animal correspondence: Rabbit</p>
       </div>
       <div class="page-content">
 
-        <h2 class="vb-section">1. The Rabbit: the actor who would rather ask</h2>
+        <h2 class="vb-section">1. The Rabbit: the actor who would rather moderate</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>rabbit</strong> sits at the edge of the clearing and watches who comes. Thomas Schmelzer began as an actor: according to his site he played 25 roles in film and television, another source names about 350 shooting days in 20 films and series. In 1994 his television career began as a presenter with a 26-part series for ARD, later he was for six years an editor at the magazine &lsquo;raum&amp;zeit&rsquo;, and in 2004 he made a large documentary for arte in Japan. The information about him comes mostly from his own pages and from organisers&rsquo; profiles; they name neither his year of birth nor his origins.</p>
-          <p class="vb-intro">From the actor who takes on roles he became a presenter who asks questions. By his own account he has moderated about 60 to 80 congresses and interviewed between 900 and 1,300 personalities; the figures vary by source.</p>
+          <p class="vb-intro">From the actor who takes on roles he became a presenter who leads conversations. By his own account he has moderated about 60 to 80 congresses and interviewed between 900 and 1,300 personalities; the figures vary by source.</p>
         </blockquote>
 
         <h2 class="vb-section">2. The self-preservation Six: support in conversation and community</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The Six seeks reliable orientation because it knows how shaky it can be. Claudio Naranjo called the <strong>self-preservation Six (SE6)</strong> the subtype of &lsquo;warmth&rsquo;: it finds security in familiar people, in a circle to which it feels it belongs, and in people it can rely on. Whoever questions hundreds of specialists over years is looking for people one can trust and builds a net of reliable counterparts.</p>
+          <p class="vb-intro">The Six seeks reliable orientation because it knows how shaky it can be. Claudio Naranjo called the <strong>self-preservation Six (SE6)</strong> the subtype of &lsquo;warmth&rsquo;: it finds security in familiar people, in a circle to which it feels it belongs, and in people it can rely on. Whoever receives hundreds of guests over years builds a net of counterparts and a community that comes together on his portal.</p>
           <p class="vb-intro">The life story he tells himself fits: after overcoming a cancer, according to his page, he turned to spiritual topics. A review names the diagnosis at the age of 25 and quotes his experience in hospital: he no longer felt himself &lsquo;in a heavy body&rsquo; but in a &lsquo;feather-light being without attachment&rsquo;. Another author writes that the diagnosis led him into stillness and deep self-examination. That someone whose body has become uncertain seeks support in stillness and in conversation with others is the pattern of the Six.</p>
         </blockquote>
 
-        <h2 class="vb-section">3. The Five-wing: the attentive observer</h2>
+        <h2 class="vb-section">3. The Seven-wing: the lively, light side</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Six an observing, knowledge-seeking side: whoever knows much and asks precisely feels less at the mercy of things. In Schmelzer this shows in the craft: he directed documentary films, writes for print magazines (for some years a column in the &lsquo;ENGELmagazin&rsquo; on lived spirituality), was an editor and works as a media consultant. A Six with a weaker Five-wing might have talked on the stage; Schmelzer sits across from the guest and listens. About his work his page says: &lsquo;My passion, my profession: on MYSTICA.TV and many congresses.&rsquo;</p>
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Six speed, curiosity and the pleasure of doing many things at once. A Six with a weaker Seven-wing might have limited itself to one format. Schmelzer fills many: the web portal MYSTICA.TV, congresses, documentary films, books, a column in the &lsquo;ENGELmagazin&rsquo;, seminars and the talk show &lsquo;COSMOPOLY&rsquo;. His site describes the aim of his work as helpful knowledge for a conscious, peaceful life, and he describes the talk series as a &lsquo;project of the heart&rsquo; with &lsquo;cult status&rsquo;.</p>
+          <p class="vb-intro">The way he leads conversations also seems more lively than probing: the interviews live on the openness and variety of the guests, not on persistent follow-up. That is the Seven-wing that keeps conversations moving while the Six beneath provides trust and reliability. About his work his page says: &lsquo;My passion, my profession: on MYSTICA.TV and many congresses.&rsquo;</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: a conversation portal and its films</h2>
@@ -2666,16 +2667,16 @@ export function thomasSchmelzerPortraitPage() {
           <p class="vb-intro">He presents people and viewpoints and moderates the conversations. That is the Six as host: it creates a space in which others can speak and itself remains the mediator.</p>
         </blockquote>
 
-        <h2 class="vb-section">5. Parallel in the same subtype: Pichai, Peschel and Schubert</h2>
+        <h2 class="vb-section">5. Parallel in the same subtype: Allen, Kühnert and Hörhan</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Several SE6w5s stand among the portraits in this Compass, and the comparison shows how the Six seeks its support in others. <a href="#beruehmte-sundar-pichai">Sundar Pichai (SE6w5)</a> is said to listen before he decides and makes information security. <a href="#beruehmte-milan-peschel">Milan Peschel (SE6w5)</a> found support as an actor in craft, house and family. <a href="#beruehmte-franz-schubert">Franz Schubert (SE6w5)</a> gathered a circle of close friends around him.</p>
-          <p class="vb-intro">Schmelzer links them: like Pichai he listens, like Peschel he comes from acting and stays tied to the profession, and like Schubert he builds a circle. Only that his circle is public: a portal in which one conversation replaces the next.</p>
+          <p class="vb-intro">Several SE6w7s stand among the portraits in this Compass, and the comparison shows how the Seven-wing sets the Six&rsquo;s worry in motion. <a href="#beruehmte-woody-allen">Woody Allen (SE6w7)</a> turns fear into punchlines and stays in the familiar territory. <a href="#beruehmte-kevin-kuehnert">Kevin Kühnert (SE6w7)</a> moves forward cheekily and publicly as long as the group carries him. <a href="#beruehmte-gerald-hoerhan">Gerald Hörhan (SE6w7)</a> sells caution as rebellion.</p>
+          <p class="vb-intro">Schmelzer shares with Allen the pleasure in the word and with Kühnert and Hörhan the public appearance. The difference: he is the host who gives others the stage, not the provocateur. His security lies in the circle of guests and viewers, not in his own property as with Hörhan or in the party as with Kühnert.</p>
         </blockquote>
 
-        <h2 class="vb-section">6. Light and shadow of the self-preservation Six with a Five-wing</h2>
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Six with a Seven-wing</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The light lies in listening. Whoever has experienced vulnerability can give others space, and the format of the long conversations gives guests time. He plans far ahead: for 2026 to 2028 moderations and talks are announced, a reliable rhythm of congresses, seminars and broadcasts.</p>
-          <p class="vb-intro">The shadow of the Six is that support in conversation is never final. Whoever seeks security through people and knowledge keeps asking, and every conversation opens the next question.</p>
+          <p class="vb-intro">The light lies in openness. Whoever has experienced vulnerability can give others space, and the format of the long conversations gives guests time. He plans far ahead: for 2026 to 2028 moderations and talks are announced, a reliable rhythm of congresses, seminars and broadcasts.</p>
+          <p class="vb-intro">The shadow of this combination is the lightness that evades depth: the Seven-wing likes the new and the next, the Six would probe until something is reliably settled. Where conversations stay in motion, the question of what is dependable often stays open.</p>
         </blockquote>
 
         <h2 class="vb-section">7. Status: moderations until 2028</h2>
@@ -2691,9 +2692,9 @@ export function thomasSchmelzerPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
         {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SE6 – Rabbit"},
-        {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5) – same subtype and wing"},
-        {route:"beruehmte-milan-peschel", label:"Porträt: Milan Peschel (SE6w5)"},
-        {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5)"},
+        {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SE6w7) – same subtype and wing"},
+        {route:"beruehmte-kevin-kuehnert", label:"Porträt: Kevin Kühnert (SE6w7)"},
+        {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald Hörhan (SE6w7)"},
       ])}
     </div>
   `);

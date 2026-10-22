@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=283";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=284";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -1833,9 +1833,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Harry Houdini \u2013 Social Type 3",
     teaser:"SO3w2 \u00b7 1874\u20131926. Escape artist (Handcuff King, Water Torture Cell, crate escape in the East River): from a poor child in Budapest to one of the highest-paid entertainers of his time, president of the Society of American Magicians, opponent of the spiritualists. The Cheetah who turned his failure into a stage.",
     land:"Hungary/USA", tags:["Acting"], gender:"m"},
-{ route:"beruehmte-thomas-schmelzer", name:"Thomas Schmelzer", added:"2026-10-22", subtyp:"SE6w5",
+{ route:"beruehmte-thomas-schmelzer", name:"Thomas Schmelzer", added:"2026-10-22", subtyp:"SE6w7",
     heading:"Thomas Schmelzer \u2013 Self-Preservation Type 6",
-    teaser:"SE6w5 \u00b7 German presenter, director and founder of MYSTICA.TV (\u2018Die Stille in mir\u2019, \u2018Wiedergeburt\u2019). The Rabbit who seeks support in conversation and in a circle of reliable counterparts.",
+    teaser:"SE6w7 \u00b7 German presenter, director and founder of MYSTICA.TV (\u2018Die Stille in mir\u2019, \u2018Wiedergeburt\u2019). The Rabbit who seeks support in conversation and in a circle of reliable counterparts.",
     land:"Germany", tags:["Medien","Spiritualit\u00e4t"], gender:"m"},
 { route:"beruehmte-milan-peschel", name:"Milan Peschel", added:"2026-10-22", subtyp:"SE6w5",
     heading:"Milan Peschel \u2013 Self-Preservation Type 6",

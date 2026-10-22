@@ -2716,6 +2716,7 @@ export function geraldHoerhanPortraitPage() {
         {route:"beruehmte-katie-couric", label:"Porträt: Katie Couric (SE6w7)"},
         {route:"beruehmte-heiko-maas", label:"Porträt: Heiko Maas (SE6w7)"},
         {route:"beruehmte-kevin-kuehnert", label:"Portrait: Kevin K\u00fchnert (SE6w7)"},
+        {route:"beruehmte-thomas-schmelzer", label:"Portrait: Thomas Schmelzer (SE6w7)"},
       ])}
     </div>
   `);

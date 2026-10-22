@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=288";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=289";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -27596,9 +27596,9 @@ const BERUEHMT_PORTRAITS = [
     heading:"Harry Houdini \u2013 Sozialer Typ 3",
     teaser:"SO3w2 \u00b7 1874\u20131926. Entfesselungsk\u00fcnstler (Handschellenk\u00f6nig, Wasserfolterzelle, Kistenflucht im East River): vom Armutskind aus Budapest zu einem der bestbezahlten Unterhalter seiner Zeit, Pr\u00e4sident der Society of American Magicians, Gegner der Spiritisten. Der Gepard, der sein Scheitern zur B\u00fchne machte.",
     land:"Ungarn/USA", tags:["Schauspiel"], gender:"m"},
-  { route:"beruehmte-thomas-schmelzer", name:"Thomas Schmelzer", added:"2026-10-22", subtyp:"SE6w5",
+  { route:"beruehmte-thomas-schmelzer", name:"Thomas Schmelzer", added:"2026-10-22", subtyp:"SE6w7",
     heading:"Thomas Schmelzer \u2013 Selbsterhaltender Typ 6",
-    teaser:"SE6w5 \u00b7 Deutscher Moderator, Regisseur und Gr\u00fcnder von MYSTICA.TV (\u203aDie Stille in mir\u2039, \u203aWiedergeburt\u2039). Das Kaninchen, das Halt im Gespr\u00e4ch und im Kreis verl\u00e4sslicher Gegen\u00fcber sucht.",
+    teaser:"SE6w7 \u00b7 Deutscher Moderator, Regisseur und Gr\u00fcnder von MYSTICA.TV (\u203aDie Stille in mir\u2039, \u203aWiedergeburt\u2039). Das Kaninchen, das Halt im Gespr\u00e4ch und im Kreis verl\u00e4sslicher Gegen\u00fcber sucht.",
     land:"Deutschland", tags:["Medien","Spiritualit\u00e4t"], gender:"m"},
   { route:"beruehmte-milan-peschel", name:"Milan Peschel", added:"2026-10-22", subtyp:"SE6w5",
     heading:"Milan Peschel \u2013 Selbsterhaltender Typ 6",

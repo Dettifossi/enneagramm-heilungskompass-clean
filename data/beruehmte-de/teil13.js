@@ -1650,6 +1650,7 @@ export function woodyAllenPortraitPage() {
         {route:"beruehmte-heiko-maas", label:"Porträt: Heiko Maas (SE6w7)"},
         {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald H\u00f6rhan (SE6w7)"},
         {route:"beruehmte-kevin-kuehnert", label:"Porträt: Kevin K\u00fchnert (SE6w7)"},
+        {route:"beruehmte-thomas-schmelzer", label:"Porträt: Thomas Schmelzer (SE6w7)"},
       ])}
     </div>
   `);

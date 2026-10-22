@@ -2679,7 +2679,6 @@ export function milanPeschelPortraitPage() {
         {route:"beruehmte-stringer-davis", label:"Portrait: Stringer Davis (SE6w5) – actor, same subtype and wing"},
         {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5)"},
         {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
-        {route:"beruehmte-thomas-schmelzer", label:"Portrait: Thomas Schmelzer (SE6w5)"},
       ])}
     </div>
   `);

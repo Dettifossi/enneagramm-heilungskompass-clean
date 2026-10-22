@@ -1590,7 +1590,6 @@ export function sundarPichaiPortraitPage() {
         {route:"beruehmte-neil-armstrong", label:"Portrait: Neil Armstrong (SE6w5)"},
         {route:"beruehmte-carlo-masala", label:"Portrait: Carlo Masala (SE6w5)"},
         {route:"beruehmte-milan-peschel", label:"Portrait: Milan Peschel (SE6w5)"},
-        {route:"beruehmte-thomas-schmelzer", label:"Portrait: Thomas Schmelzer (SE6w5)"},
       ])}
     </div>
   `);
@@ -2704,6 +2703,7 @@ export function kevinKuehnertPortraitPage() {
         {route:"beruehmte-heiko-maas", label:"Portrait: Heiko Maas (SE6w7) – also SPD, same subtype and wing"},
         {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald Hörhan (SE6w7)"},
         {route:"beruehmte-woody-allen", label:"Porträt: Woody Allen (SE6w7)"},
+        {route:"beruehmte-thomas-schmelzer", label:"Portrait: Thomas Schmelzer (SE6w7)"},
       ])}
     </div>
   `);
