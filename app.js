@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=290";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=291";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -504,6 +504,7 @@ const carloMasalaPortraitPage = () => _lazyPage("./data/beruehmte-de/teil6.js", 
 const milanPeschelPortraitPage = () => _lazyPage("./data/beruehmte-de/teil5.js", "milanPeschelPortraitPage");
 const thomasSchmelzerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil15.js", "thomasSchmelzerPortraitPage");
 const michaelGregerPortraitPage = () => _lazyPage("./data/beruehmte-de/teil14.js", "michaelGregerPortraitPage");
+const johnTravoltaPortraitPage = () => _lazyPage("./data/beruehmte-de/teil9.js", "johnTravoltaPortraitPage");
 const alexanderDerGrossePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "alexanderDerGrossePortraitPage");
 const arminRohdePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "arminRohdePortraitPage");
 const bracoPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "bracoPortraitPage");
@@ -17025,6 +17026,7 @@ const uiText = {
       { route: "60-sekunden-scan", label: "60-Sekunden-Scan" },
       { route: "dialektische-struktur", label: "Dialektische Struktur" },
       { route: "wann-entsteht-der-typ", label: "Wann und wie entsteht der Enneagrammtyp?" },
+      { route: "kroetenschlucken", label: "Kröten schlucken" },
       { route: "enneagramm-profiling", label: "Enneagramm-Profiling" },
       { route: "grundformel", label: "Grundformel des Rathmer-Enneagramms" },
       { route: "interessante-erkenntnisse", label: "Interessante Erkenntnisse" },
@@ -27597,6 +27599,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Harry Houdini \u2013 Sozialer Typ 3",
     teaser:"SO3w2 \u00b7 1874\u20131926. Entfesselungsk\u00fcnstler (Handschellenk\u00f6nig, Wasserfolterzelle, Kistenflucht im East River): vom Armutskind aus Budapest zu einem der bestbezahlten Unterhalter seiner Zeit, Pr\u00e4sident der Society of American Magicians, Gegner der Spiritisten. Der Gepard, der sein Scheitern zur B\u00fchne machte.",
     land:"Ungarn/USA", tags:["Schauspiel"], gender:"m"},
+  { route:"beruehmte-john-travolta", name:"John Travolta", added:"2026-10-22", subtyp:"SX7w8",
+    heading:"John Travolta \u2013 Sexueller Typ 7",
+    teaser:"SX7w8 \u00b7 geb. 1954. Amerikanischer Schauspieler, T\u00e4nzer und Pilot (\u203aSaturday Night Fever\u2039, \u203aGrease\u2039, \u203aPulp Fiction\u2039). Der Schimpanse, dessen Tanz ansteckt und der nach dem Absturz durchh\u00e4lt.",
+    land:"USA", tags:["Schauspiel","Film","Musik"], gender:"m"},
   { route:"beruehmte-michael-greger", name:"Michael Greger", added:"2026-10-22", subtyp:"SE6w5",
     heading:"Michael Greger \u2013 Selbsterhaltender Typ 6",
     teaser:"SE6w5 \u00b7 geb. 1972. Amerikanischer Arzt und Autor (\u203aHow Not to Die\u2039, NutritionFacts.org). Das Kaninchen, das aus der Angst vor dem Verlust ein System aus Vorsorge und belegtem Wissen macht.",
@@ -31380,7 +31386,7 @@ function _neuAktiv(route) {
   return !!d && (new Date() - new Date(d)) < 30 * 864e5;
 }
 
-const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
+const HEILWISSEN_ROUTES = new Set(["wann-entsteht-der-typ", "kroetenschlucken", "typ-aendert-sich-nicht", "tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "dynamik-der-fluegelenergien", "hilfreiche-hinweise-9-typen", "montagmorgen-gedanken-9-typen", "sprachstile-9-typen", "subtyp-comicfiguren", "aufmerksamkeitsfokus", "bedrohungsszenarien", "formen-der-angst", "gedankliche-emotionale-muster", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-finger-regel", "die-neuen-enneagramm-typen", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "schatten-projektionen-miasmen", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "nicht-verbundene-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "geschenkideen", "weihnachtsgeschenke", "energiestatus-triadenenergien", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "9-jahreszyklen", "temperamentenlehre-antike", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route), "enneagramm-bibel", ...BIBEL_PORTRAITS.map(p => p.route),
     "psychologisches-abwehrverhalten-der-9-typen",
     "heilfasten-der-9-typen",
     "psychologische-verhaltensmuster-der-9-typen",
@@ -39919,6 +39925,80 @@ function typEntstehungPage() {
         {route:"typ-aendert-sich-nicht", label:"Wissen: Ändert sich der Typ im Laufe des Lebens?"},
         {route:"kindliche-temperamente", label:"Schaubild: Kindliche Temperamente"},
         {route:"drei-lebenskraefte", label:"Schaubild: Die drei grundlegenden Lebenskräfte"},
+        {route:"schaubilder", label:"Alle Schaubilder"},
+      ])}
+    </section>
+  `);
+}
+
+function kroetenschluckenPage() {
+  return shell(`
+    ${pageHeader("kroetenschlucken")}
+    <section class="narrow">
+      <p class="eyebrow">Schaubilder · Selbsterkenntnis</p>
+      <h1>Kröten schlucken: Selbstbild und Fremdbild nach und nach in Einklang bringen</h1>
+      <p class="lead-small">Wer mit dem Enneagramm die eigenen blinden Flecke entdeckt, bekommt etwas zu hören, das zunächst nicht schmeckt. Das Schaubild fasst diesen Vorgang in ein Bild, das mit einem Augenzwinkern erzählt, wie schwer und wie heilsam Selbsterkenntnis zugleich ist.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="${R2_CDN}assets/schaubilder/kroetenschlucken/kroetenschlucken.jpg" alt="Kröten schlucken: lachender Frosch auf blauem Grund, im Bauch ein gelbes Oval mit der Erklärung der Metapher" class="psycho-img" loading="lazy" />
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        <h2 style="font-size:1.1rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">Einleitung: eine Redensart als Methode</h2>
+        <p class="vb-intro">Im Deutschen sagt man, jemand müsse eine Kröte schlucken, wenn er etwas Unangenehmes hinnehmen muss, das er lieber nicht akzeptieren würde. Man schluckt sie nicht gern, aber man schluckt sie, weil es der Sache dient. Genau diese Bedeutung macht die Redensart für das Enneagramm brauchbar: Wer sein Muster erkennen will, kommt nicht daran vorbei, auch Unbequemes über sich selbst anzunehmen.</p>
+        <p class="vb-intro">Das Schaubild zeigt dazu einen fröhlich lachenden Frosch. Das ist Absicht. Die Kröte soll hier keine Strafe sein und kein Urteil über den Charakter, sondern eine Einladung, die eigenen Eigenarten mit Humor zu nehmen. Wer über sich selbst lachen kann, schluckt leichter.</p>
+
+        <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 .8rem;color:var(--ink);">Die Kernaussagen des Schaubilds</h2>
+        <ul style="font-size:.95rem;line-height:1.7;padding-left:1.2rem;">
+          <li>Die eigenen blinden Flecke mit dem Enneagramm aufzudecken und sich bewusst zu machen, gleicht in gewisser Weise dem Schlucken von Kröten.</li>
+          <li>Die Kröte entspricht dem Fremdbild, also dem Enneagrammtyp nebst Subtyp, den wir objektiv, aber unbewusst als psychologischen Abwehrmechanismus (als seelische Schutzstrategie) primär nutzen und von dem wir intrinsisch (aus uns selbst heraus) motiviert werden, um unsere Lebensziele zu erreichen.</li>
+          <li>Die Metapher steht für den Prozess, das subjektive Selbstbild und das objektive Fremdbild nach und nach zu synchronisieren, also in Einklang zu bringen.</li>
+          <li>Diese Kröten gilt es im Rahmen des Selbsterkenntnisprozesses zu schlucken.</li>
+        </ul>
+
+        <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 .8rem;color:var(--ink);">Selbstbild und Fremdbild: zwei Sichtweisen auf dieselbe Person</h2>
+        <p class="vb-intro">Jeder Mensch trägt ein Bild von sich selbst in sich: wie er ist, was ihn antreibt, wie er wirkt. Dieses <strong>Selbstbild</strong> ist subjektiv (persönlich gefärbt) und enthält vor allem das, was wir von uns sehen wollen und sehen können. Daneben gibt es das <strong>Fremdbild</strong>: das Bild, das andere von uns haben, die uns erleben, wie wir wirken, ohne unsere Absichten zu kennen. Zwischen beiden liegt fast immer eine Lücke.</p>
+        <p class="vb-intro">Die Psychologie kennt dafür den Begriff des <strong>blinden Flecks</strong>. Im Johari-Fenster, das die beiden Psychologen Joseph Luft und Harry Ingham 1955 entwickelten, ist es der Bereich, den die Umgebung an uns sieht, wir selbst aber nicht. Man kann ihn nicht allein erkennen, weil man ihn eben nicht sieht. Dazu braucht es einen Spiegel von außen.</p>
+        <p class="vb-intro">Das Enneagramm kann dieser Spiegel sein. Es beschreibt Typ und Subtyp, die wir nach der Sicht des Kompasses von Kindheit an unbewusst als Hauptstrategie einsetzen, um mit der Welt zurechtzukommen. Das Schaubild nennt diese Strategie ausdrücklich das Fremdbild: Sie ist objektiv vorhanden und für das Umfeld gut zu erkennen, während die betroffene Person sie meist nicht wahrnimmt. Die Kröte ist also das, was andere längst an uns sehen und was wir erst mühsam als Teil von uns anerkennen müssen.</p>
+
+        <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 .8rem;color:var(--ink);">Warum die Kröte so schwer zu schlucken ist</h2>
+        <p class="vb-intro">Die Schutzstrategie hat uns einmal geholfen. Sie hat uns geschützt, uns Anerkennung gesichert oder uns durch eine schwierige Zeit getragen. Deshalb fühlt sie sich nicht wie ein Fehler an, sondern wie ein Teil von uns, den wir verteidigen. Wer ihr auf die Spur kommt, trifft oft auf Gegenwehr: Rechtfertigung, Abwehr, Scham oder der Reflex, die Rückmeldung als ungerecht abzutun. All das ist menschlich und gehört zum Prozess.</p>
+        <p class="vb-intro">Hinzu kommt, dass dieselbe Strategie, die uns antreibt, auch unsere Stärke ist. Wer die Kröte schluckt, soll nichts ablegen oder bekämpfen, sondern sie als Teil von sich erkennen. Erst dann entsteht die Möglichkeit, sie bewusster einzusetzen, statt von ihr eingesetzt zu werden.</p>
+
+        <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 .8rem;color:var(--ink);">Beispiele: was die neun Typen typischerweise schwer schlucken</h2>
+        <p class="vb-intro">Die folgenden Beispiele sind Annäherungen und keine Vorschriften. Jeder Mensch hat seine eigene Mischung aus Typ, Subtyp und Lebensgeschichte.</p>
+        <ul style="font-size:.95rem;line-height:1.7;padding-left:1.2rem;">
+          <li><strong>Typ 1:</strong> dass die eigene Genauigkeit und Kritik bei anderen als Strenge ankommt.</li>
+          <li><strong>Typ 2:</strong> dass die Hilfsbereitschaft auch Anerkennung und Zuwendung für sich selbst sucht.</li>
+          <li><strong>Typ 3:</strong> dass das Bild, das man von sich zeigt, nicht dasselbe ist wie das, was man fühlt.</li>
+          <li><strong>Typ 4:</strong> dass das ständige Betonen des Fehlenden Menschen im Umfeld belasten kann.</li>
+          <li><strong>Typ 5:</strong> dass Rückzug und Zurückhaltung von anderen als Kälte oder Desinteresse erlebt werden.</li>
+          <li><strong>Typ 6:</strong> dass die Wachsamkeit auch Misstrauen gegenüber Menschen ausdrückt, die es gut meinen.</li>
+          <li><strong>Typ 7:</strong> dass die Leichtigkeit bei anderen als Unverbindlichkeit ankommt.</li>
+          <li><strong>Typ 8:</strong> dass die eigene Stärke Menschen einschüchtert, die man gar nicht einschüchtern wollte.</li>
+          <li><strong>Typ 9:</strong> dass das Ausweichen vor Konflikten bei anderen wie Gleichgültigkeit wirkt.</li>
+        </ul>
+
+        <h2 style="font-size:1.1rem;font-weight:700;margin:1.6rem 0 .8rem;color:var(--ink);">Der Prozess: nach und nach, nicht auf einmal</h2>
+        <p class="vb-intro">Das Wort „nach und nach“ im Schaubild ist wichtig. Niemand muss alle Kröten auf einmal schlucken, und niemand sollte es. Selbsterkenntnis ist ein Weg in Schritten, der Zeit braucht, damit das Neue sich setzen kann.</p>
+        <ul style="font-size:.95rem;line-height:1.7;padding-left:1.2rem;">
+          <li>Rückmeldungen von vertrauten Menschen ernst nehmen, auch wenn sie zunächst wehtun.</li>
+          <li>Das eigene Verhalten in Alltagssituationen beobachten, ohne sofort zu urteilen.</li>
+          <li>Die Strategie würdigen: Sie hatte einmal einen guten Grund.</li>
+          <li>Mit Humor und Selbstachtung vorgehen, nicht mit Selbstkritik.</li>
+          <li>Bei tiefen Verletzungen oder starker Belastung fachliche Begleitung in Anspruch nehmen.</li>
+        </ul>
+        <p class="vb-intro">So nähern sich Selbstbild und Fremdbild einander an. Das Ergebnis ist kein anderer Mensch, sondern ein ehrlicherer: Wer die eigene Wirkung auf andere kennt, kann wählen, wie er sie einsetzt.</p>
+        <p style="font-size:.85rem;color:var(--muted);line-height:1.6;">Das Schaubild gibt die Sicht des Kompasses wieder und ist ein Modell. Es ersetzt keine psychotherapeutische Behandlung.</p>
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms – tiefgreifende Analyse der Urwunde hinter jeder Leidenschaft, mit konkreten Heilungswegen für alle 9 Typen.", "Hinter der Leidenschaft")}
+        ${bookTip("der-code-deiner-persoenlichkeit", "Wie der Enneagrammtyp entsteht – und was er über unsere tiefsten Prägungen verrät.", "Der Code deiner Persönlichkeit")}
+      </div>
+      ${relatedLinks([
+        {route:"schaubilder-als-spiegel", label:"Schaubilder als Spiegel"},
+        {route:"wann-entsteht-der-typ", label:"Schaubild: Wann und wie entsteht der Enneagrammtyp?"},
+        {route:"typ-aendert-sich-nicht", label:"Wissen: Ändert sich der Typ im Laufe des Lebens?"},
         {route:"schaubilder", label:"Alle Schaubilder"},
       ])}
     </section>
@@ -65201,6 +65281,7 @@ const ROUTES = {
     "kindliche-temperamente": kindlicheTemperamentePage,
     "typ-aendert-sich-nicht": typBleibtPage,
     "wann-entsteht-der-typ": typEntstehungPage,
+    "kroetenschlucken": kroetenschluckenPage,
     "tee-enneagramm": teeEnneagrammPage,
     "aetherische-oele": aetherischeOelePage,
     "angst-essenz": angstEssenzPage,
@@ -65329,7 +65410,7 @@ const ROUTES = {
       "beruehmte-ludwig-wittgenstein": ludwigWittgensteinPortraitPage,
       "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
       "beruehmte-henning-baum": henningBaumPortraitPage,
-      "beruehmte-michael-greger": michaelGregerPortraitPage, "beruehmte-thomas-schmelzer": thomasSchmelzerPortraitPage, "beruehmte-milan-peschel": milanPeschelPortraitPage, "beruehmte-carlo-masala": carloMasalaPortraitPage, "beruehmte-kevin-kuehnert": kevinKuehnertPortraitPage, "beruehmte-gerald-hoerhan": geraldHoerhanPortraitPage, "beruehmte-heiko-maas": heikoMaasPortraitPage, "beruehmte-fabrice-luchini": fabriceLuchiniPortraitPage, "beruehmte-catherine-deneuve": catherineDeneuvePortraitPage, "beruehmte-6ix9ine": sixNinePortraitPage, "beruehmte-hans-sigl": hansSiglPortraitPage, "beruehmte-don-king": donKingPortraitPage, "beruehmte-dieter-lange": dieterLangePortraitPage, "beruehmte-russell-means": russellMeansPortraitPage, "beruehmte-nick-nolte": nickNoltePortraitPage, "beruehmte-dietrich-mateschitz": dietrichMateschitzPortraitPage, "beruehmte-wolfgang-grupp": wolfgangGruppPortraitPage, "beruehmte-dany-boon": danyBoonPortraitPage, "beruehmte-wayne-dyer": wayneDyerPortraitPage, "beruehmte-auguste-rodin": augusteRodinPortraitPage, "beruehmte-harry-houdini": harryHoudiniPortraitPage, "beruehmte-ada-lovelace": adaLovelacePortraitPage, "beruehmte-camille-claudel": camilleClaudelPortraitPage, "beruehmte-charlie-chaplin": charlieChaplinPortraitPage, "beruehmte-franz-peter-tebartz-van-elst": franzPeterTebartzVanElstPortraitPage, "beruehmte-juergen-klinsmann": juergenKlinsmannPortraitPage, "beruehmte-harrison-ford": harrisonFordPortraitPage, "beruehmte-prince-rogers-nelson": princeRogersNelsonPortraitPage, "beruehmte-gert-postel": gertPostelPortraitPage,
+      "beruehmte-john-travolta": johnTravoltaPortraitPage, "beruehmte-michael-greger": michaelGregerPortraitPage, "beruehmte-thomas-schmelzer": thomasSchmelzerPortraitPage, "beruehmte-milan-peschel": milanPeschelPortraitPage, "beruehmte-carlo-masala": carloMasalaPortraitPage, "beruehmte-kevin-kuehnert": kevinKuehnertPortraitPage, "beruehmte-gerald-hoerhan": geraldHoerhanPortraitPage, "beruehmte-heiko-maas": heikoMaasPortraitPage, "beruehmte-fabrice-luchini": fabriceLuchiniPortraitPage, "beruehmte-catherine-deneuve": catherineDeneuvePortraitPage, "beruehmte-6ix9ine": sixNinePortraitPage, "beruehmte-hans-sigl": hansSiglPortraitPage, "beruehmte-don-king": donKingPortraitPage, "beruehmte-dieter-lange": dieterLangePortraitPage, "beruehmte-russell-means": russellMeansPortraitPage, "beruehmte-nick-nolte": nickNoltePortraitPage, "beruehmte-dietrich-mateschitz": dietrichMateschitzPortraitPage, "beruehmte-wolfgang-grupp": wolfgangGruppPortraitPage, "beruehmte-dany-boon": danyBoonPortraitPage, "beruehmte-wayne-dyer": wayneDyerPortraitPage, "beruehmte-auguste-rodin": augusteRodinPortraitPage, "beruehmte-harry-houdini": harryHoudiniPortraitPage, "beruehmte-ada-lovelace": adaLovelacePortraitPage, "beruehmte-camille-claudel": camilleClaudelPortraitPage, "beruehmte-charlie-chaplin": charlieChaplinPortraitPage, "beruehmte-franz-peter-tebartz-van-elst": franzPeterTebartzVanElstPortraitPage, "beruehmte-juergen-klinsmann": juergenKlinsmannPortraitPage, "beruehmte-harrison-ford": harrisonFordPortraitPage, "beruehmte-prince-rogers-nelson": princeRogersNelsonPortraitPage, "beruehmte-gert-postel": gertPostelPortraitPage,
       "beruehmte-herman-van-veen": hermanVanVeenPortraitPage,
       "beruehmte-magnus-carlsen": magnusCarlsenPortraitPage,
       "beruehmte-peter-sharpe": peterSharpePortraitPage,
