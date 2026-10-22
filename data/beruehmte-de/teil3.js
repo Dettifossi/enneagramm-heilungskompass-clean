@@ -131,6 +131,7 @@ export function andyReidPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
         {route:"subtype/so6", label:"SO6 \u2013 Das Erdm\u00e4nnchen: Subtyp-Profil"},
         {route:"beruehmte-sigmund-freud", label:"Portr\u00e4t: Sigmund Freud (SO6w5)"},
+        {route:"beruehmte-andreas-gruber", label:"Porträt: Andreas Gruber (SO6w5)"},
       ])}
     </div>
   `);

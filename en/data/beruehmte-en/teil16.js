@@ -656,6 +656,7 @@ export function immanuelKantPortraitPage() {
         {route:"beruehmte-rene-descartes", label:"Portrait: René Descartes (SE5w6)"},
         {route:"beruehmte-soeren-kierkegaard", label:"Portrait: Søren Kierkegaard (SE2w1)"},
         {route:"beruehmte-tim-clutton-brock", label:"Portrait: Prof. Tim Clutton-Brock (SO6w5)"},
+        {route:"beruehmte-andreas-gruber", label:"Portrait: Andreas Gruber (SO6w5)"},
       ])}
     </div>
   `);

@@ -2687,3 +2687,75 @@ export function catherineDeneuvePortraitPage() {
     </div>
   `);
 }
+
+export function andreasGruberPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-andreas-gruber-portrait.jpg" alt="Andreas Gruber – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-andreas-gruber-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Andreas Gruber</p>
+        <p class="krim-portrait-typ">SO6w5 &middot; Sozialer Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Österreichischer Thriller-Autor, geb. 1968 &ndash; Todes-Reihe und Rache-Reihe &ndash; Tierentsprechung: Erdmännchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdmännchen: der Wiener am Schreibtisch</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdmännchen</strong> steht aufrecht am Bau, hält Wache und warnt die Gruppe, bevor Gefahr da ist. Andreas Gruber wurde 1968 in Wien geboren, studierte dort an der Wirtschaftsuniversität und arbeitete lange in einem Bürojob. Schon als Kind wollte er Geschichten erfinden: Seinen ersten Krimi schrieb er mit neun Jahren in den Sommerferien mit Bleistift. Nach drei Seiten waren alle Figuren tot.</p>
+          <p class="vb-intro">Als Jugendlicher spielte er Schlagzeug in einer Heavy-Metal-Band, die zwar keine Auftritte hatte, aber eine Kassette mit etwa zwölf Songs aufnahm. Heavy Metal hört er seit seinem vierzehnten Lebensjahr. Bis heute lebt er mit seiner Frau in Grillenberg in Niederösterreich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sechs: Sicherheit durch Gruppe und Absicherung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sechs sucht Sicherheit, weil sie Gefahr früh wahrnimmt und lieber vorbereitet ist. Die <strong>soziale Sechs (SO6)</strong> findet diese Sicherheit nach Claudio Naranjo in der Gruppe, in Pflicht und in verlässlichen Regeln, die für alle gelten. Bei Gruber zeigt sich das in einer Arbeitsweise, die dem Zufall wenig überlässt: Er schreibt vorab ein Exposé (einen Plan der gesamten Handlung, Kapitel für Kapitel), das 50 bis 100 Seiten lang wird und ein bis zwei Monate Arbeit kostet. Ohne Konzept zu arbeiten und es dem Zufall zu überlassen, lehnt er ab, weil der Schluss dann nicht stimmig werden könnte.</p>
+          <p class="vb-intro">Auch die Gruppe ist eingebaut: Bevor ein Manuskript abgegeben wird, geben Testleser Rückmeldung, er druckt es dafür ›insgesamt sieben Mal‹ aus. Seine Tage beschreibt er wie einen Bürojob mit festen Zeiten, nur dass das Büro zu Hause liegt. Und auf die Frage nach seinem Können antwortet er mit einem typischen Sechser-Zweifel: ›Ich weiß nämlich gar nicht, ob ich überhaupt Talent habe.‹ Zur Sicherheit gehörte auch der Bürojob: Seit 1997 schrieb er semi-professionell neben der Arbeit, hauptberuflich erst seit 2014.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Recherche und Fachwissen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der Sechs den Hang zum Wissen, zur Recherche und zum Rückzug an den Schreibtisch. Gruber spricht zu den Themen seiner Romane mit Fachleuten: einem Berliner Staatsanwalt, einem Berner Rechtsmediziner, einem Beamten des Bundeskriminalamts in Wiesbaden, Medizinern für die Eröffnungsszene von ›Todesfrist‹. Für ihn sei das der beste Weg, vor allem, weil man sich nicht auf Maschinen verlassen dürfe, die teilweise erfinden, was sie nicht wissen. Beim Schreiben hört er mit Kopfhörern instrumentale Filmmusik und arbeitet fünf Stunden am Stück, wenn es gut läuft.</p>
+          <p class="vb-intro">Sein Sechserkern zeigt sich darin, dass er das Wissen von anderen absichern lässt; der Fünferflügel darin, dass er es genau haben will.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Thriller, die gebaut sind wie Uhrwerke</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gruber schreibt Kriminal- und Spannungsromane, bei denen der Aufbau trägt: meist zwei Handlungsstränge, Rückblenden und ein Showdown am Ende. Oft weiß er ab der Mitte, wer der Mörder ist. Die ›Todes-Reihe‹ (›Todesfrist‹, ›Todesurteil‹, ›Todesmärchen‹) folgt dem niederländischen Profiler (Fallanalytiker) Maarten S. Sneijder, der für das Bundeskriminalamt arbeitet. In der ›Rache-Reihe‹ ermittelt der Leipziger Kommissar Walter Pulaski, der an Asthma leidet. Er variiert die Themen bewusst, damit nicht der Eindruck entsteht, es gehe immer um denselben Serienkiller.</p>
+          <p class="vb-intro">Seine Kurzgeschichten erschienen in über hundert Anthologien, 1999 gewann eine beim NÖ Donaufestival einen Preis. Die Romane sind ins Französische, Italienische, Türkische, Portugiesische, Japanische und Koreanische übersetzt. Er wurde für den Friedrich-Glauser-Krimipreis und zweimal für den Leo-Perutz-Krimipreis der Stadt Wien nominiert, gewann die Herzogenrather Handschelle und mehrfach den Deutschen Phantastik Preis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Kant, Ott und Reid</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den SO6w5ern dieses Kompasses finden sich mehrere, die ihr Werk durch Struktur absichern. <a href="#beruehmte-immanuel-kant">Immanuel Kant (SO6w5)</a> baute ein wasserdichtes System als Antwort auf Humes Skeptizismus, Gruber baut wasserdichte Handlungen. <a href="#beruehmte-ulrich-ott">Dr. Ulrich Ott (SO6w5)</a> bindet spirituelle Erfahrung an fMRT-geprüfte (also durch Hirnscans belegte) wissenschaftliche Autorität zurück, Gruber bindet seine Fälle an die Aussagen von Fachleuten. <a href="#beruehmte-andy-reid">Andy Reid (SO6w5)</a> blieb über zwei Jahrzehnte bei derselben Grundstruktur, Gruber bei seinem festen Aufbau aus Exposé, Strängen und Showdown.</p>
+          <p class="vb-intro">Der Unterschied: Kant und Ott legen die Sicherheit in Systeme und Beweise, Gruber legt sie zusätzlich in die Rückmeldung eines Publikums, das er früh in den Prozess holt: Testleser, Fachleute, Fans.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Sechs mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in Verlässlichkeit und Handwerk: ein Autor, der Termine hält, sorgfältig recherchiert und seine Leser nicht enttäuschen will. Dazu kommt Selbstironie: Er habe ›eine große Portion Selbstironie‹ und nehme sich ›nicht allzu ernst‹. Einen Fake-Schlager zum 1. April 2020 kommentierten Fans, sie seien froh, dass er endlich seine wahre Bestimmung gefunden habe.</p>
+          <p class="vb-intro">Der Schatten der Sechs ist das Misstrauen in das eigene Urteil: der Zweifel am Talent trotz Erfolg, die Absicherung durch viele Leser und die Scheu vor dem Sprung ins Offene. Der Wechsel zum hauptberuflichen Schreiben kam erst mit sechsundvierzig.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: freier Schriftsteller in Niederösterreich</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 22. Oktober 2026) arbeitet Andreas Gruber, Jahrgang 1968, als freier Schriftsteller, lebt mit seiner Frau in Grillenberg und gibt Schreibworkshops. Er geht gern ins Kino, reist oft mit seiner Frau und spielt Schlagzeug. Über seine Zukunft sagte er 2021 zurückhaltend, was er nach dem Ende der bestehenden Reihen erfinden werde, könne er heute nicht sagen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so6", label:"Lebensmusterkompass: SO6 – Erdmännchen"},
+        {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
+        {route:"beruehmte-ulrich-ott", label:"Porträt: Dr. Ulrich Ott (SO6w5)"},
+        {route:"beruehmte-andy-reid", label:"Porträt: Andy Reid (SO6w5)"},
+      ])}
+    </div>
+  `);
+}

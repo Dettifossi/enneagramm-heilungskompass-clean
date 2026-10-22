@@ -2688,3 +2688,75 @@ export function sixNinePortraitPage() {
     </div>
   `);
 }
+
+export function andreasGruberPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-andreas-gruber-portrait.jpg" alt="Andreas Gruber – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-andreas-gruber-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Andreas Gruber</p>
+        <p class="krim-portrait-typ">SO6w5 &middot; Social Type 6 with a Five-wing</p>
+        <p class="krim-portrait-subtitle">Austrian thriller author, b. 1968 &ndash; Todes series and Rache series &ndash; Animal correspondence: Meerkat</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Meerkat: the Viennese at his desk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>meerkat</strong> stands upright at the burrow, keeps watch and warns the group before danger arrives. Andreas Gruber was born in Vienna in 1968, studied there at the University of Economics and Business and worked for a long time in an office job. Even as a child he wanted to invent stories: he wrote his first crime story at the age of nine in the summer holidays, in pencil. After three pages all the characters were dead.</p>
+          <p class="vb-intro">As a teenager he played drums in a heavy metal band that never gave a concert but recorded a cassette of about twelve songs. He has listened to heavy metal since he was fourteen. To this day he lives with his wife in Grillenberg in Lower Austria.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Six: safety through the group and through backing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six seeks safety because it perceives danger early and prefers to be prepared. According to Claudio Naranjo the <strong>social Six (SO6)</strong> finds this safety in the group, in duty and in reliable rules that apply to everyone. In Gruber this shows in a way of working that leaves little to chance: beforehand he writes an outline (a plan of the whole plot, chapter by chapter) of 50 to 100 pages that takes one to two months. He rejects working without a concept and leaving it to chance, because the ending might then not fit together.</p>
+          <p class="vb-intro">The group is built in too: before a manuscript is handed in, test readers give feedback, and for that he prints it out &lsquo;seven times in total&rsquo;. He describes his days like an office job with fixed hours, except that the office is at home. And asked about his ability he answers with a typical Six doubt: &lsquo;I don&rsquo;t even know whether I have any talent at all&rsquo; (original German: &lsquo;Ich weiß nämlich gar nicht, ob ich überhaupt Talent habe&rsquo;). Safety also meant the office job: from 1997 he wrote semi-professionally alongside work, full-time only since 2014.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: research and expertise</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Six the leaning towards knowledge, research and withdrawal to the desk. Gruber talks to experts about the subjects of his novels: a Berlin public prosecutor, a forensic pathologist in Bern, an officer of the Federal Criminal Police Office in Wiesbaden, doctors for the opening scene of &lsquo;Todesfrist&rsquo; (&lsquo;Deadline&rsquo;). For him this is the best way, not least because one must not rely on machines that partly invent what they do not know. While writing he listens through headphones to instrumental film music and works five hours at a stretch when it goes well.</p>
+          <p class="vb-intro">His Six core shows in that he lets others secure his knowledge; the Five-wing in that he wants it exact.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: thrillers built like clockwork</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gruber writes crime and suspense novels in which the construction carries: usually two plot strands, flashbacks and a showdown at the end. Often he knows from the middle of the book who the murderer is. The &lsquo;Todes&rsquo; series (&lsquo;Todesfrist&rsquo;, &lsquo;Todesurteil&rsquo;, &lsquo;Todesmärchen&rsquo;; roughly &lsquo;Deadline&rsquo;, &lsquo;Death Sentence&rsquo;, &lsquo;Death Fairy Tale&rsquo;) follows the Dutch profiler (case analyst) Maarten S. Sneijder, who works for the Federal Criminal Police Office. In the &lsquo;Rache&rsquo; (&lsquo;Revenge&rsquo;) series the Leipzig detective Walter Pulaski investigates; he suffers from asthma. He deliberately varies the themes so that readers do not get the impression it is always about the same serial killer.</p>
+          <p class="vb-intro">His short stories have appeared in more than a hundred anthologies, and in 1999 one won a prize at the NÖ Donaufestival. The novels are translated into French, Italian, Turkish, Portuguese, Japanese and Korean. He was nominated for the Friedrich Glauser Crime Prize and twice for the Leo Perutz Crime Prize of the City of Vienna, won the Herzogenrather Handschelle and several times the Deutscher Phantastik Preis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Kant, Ott and Reid</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SO6w5s in this Compass are several who secure their work through structure. <a href="#beruehmte-immanuel-kant">Immanuel Kant (SO6w5)</a> built a watertight system as an answer to Hume&rsquo;s scepticism; Gruber builds watertight plots. <a href="#beruehmte-ulrich-ott">Dr. Ulrich Ott (SO6w5)</a> ties spiritual experience back to fMRI-tested (brain-scan-backed) scientific authority; Gruber ties his cases back to what experts tell him. <a href="#beruehmte-andy-reid">Andy Reid (SO6w5)</a> stayed with the same basic structure for two decades; Gruber stays with his fixed build of outline, strands and showdown.</p>
+          <p class="vb-intro">The difference: Kant and Ott place the safety in systems and proofs; Gruber places it also in the feedback of an audience he brings in early: test readers, experts, fans.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Six with a Five-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in reliability and craft: an author who keeps deadlines, researches carefully and does not want to disappoint his readers. Added to that is self-irony: he has &lsquo;a large portion of self-irony&rsquo; and does &lsquo;not take himself too seriously&rsquo;. Fans reacted to a fake schlager song on 1 April 2020 by saying they were glad he had finally found his true calling.</p>
+          <p class="vb-intro">The shadow of the Six is mistrust of one&rsquo;s own judgement: doubt about talent despite success, backing through many readers and a reluctance to leap into the open. The move to writing full-time came only at forty-six.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: freelance writer in Lower Austria</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 22 October 2026) Andreas Gruber, born 1968, works as a freelance writer, lives with his wife in Grillenberg and teaches writing workshops. He likes going to the cinema, travels often with his wife and plays drums. About his future he said in 2021, with reserve, that what he will invent once the existing series are finished he cannot say today.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
+        {route:"lebensmusterkompass/so6", label:"Life Pattern Compass: SO6 – Meerkat"},
+        {route:"beruehmte-immanuel-kant", label:"Porträt: Immanuel Kant (SO6w5)"},
+        {route:"beruehmte-ulrich-ott", label:"Porträt: Dr. Ulrich Ott (SO6w5)"},
+        {route:"beruehmte-andy-reid", label:"Porträt: Andy Reid (SO6w5)"},
+      ])}
+    </div>
+  `);
+}
