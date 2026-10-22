@@ -1786,6 +1786,7 @@ export function karlLauterbachPortraitPage() {
         {route:"beruehmte-alberto-marini", label:"Portr\xe4t: Alberto Marini (SE6w5)"},
         {route:"beruehmte-markus-lanz", label:"Porträt: Markus Lanz (SO1w9)"},
         {route:"beruehmte-carlo-masala", label:"Porträt: Carlo Masala (SE6w5)"},
+        {route:"beruehmte-michael-greger", label:"Porträt: Michael Greger (SE6w5)"},
       ])}
     </div>
   `);

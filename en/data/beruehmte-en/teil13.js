@@ -2732,6 +2732,7 @@ export function carloMasalaPortraitPage() {
         {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SE6w5) – same subtype and wing"},
         {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
         {route:"beruehmte-malaika-mihambo", label:"Porträt: Malaika Mihambo (SE6w5)"},
+        {route:"beruehmte-michael-greger", label:"Portrait: Michael Greger (SE6w5)"},
       ])}
     </div>
   `);
