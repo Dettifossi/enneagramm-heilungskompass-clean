@@ -2642,3 +2642,76 @@ export function louisKlamrothPortraitPage() {
     </div>
   `);
 }
+
+export function milanPeschelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-milan-peschel-portrait.jpg" alt="Milan Peschel – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-milan-peschel-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Milan Peschel</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Schauspieler und Regisseur, geb. 1968 &ndash; &rsaquo;Halt auf freier Strecke&lsaquo;, &rsaquo;Netto&lsaquo; &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen: das Schlüsselkind aus Ost-Berlin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> hat seinen Bau gern in der Nähe vertrauter Wege und kommt am liebsten dann heraus, wenn es sich auskennt. Milan Peschel wurde am 17. Januar 1968 in Ost-Berlin geboren, als Sohn eines Lehrers für Mathematik und Physik und einer Modejournalistin, und wuchs in Lichtenberg und Friedrichshain auf. Als er vier war, trennten sich die Eltern. Er war ein Schlüsselkind, das nach der Schule allein nach Hause kam, weil seine Mutter arbeitete, und sagt trotzdem: ›Ich war immer aufgehoben und behütet.‹ Mit neun Jahren stand er zum ersten Mal auf einer Bühne, in der Pubertät hörte er mit dem Wunsch, Schauspieler zu werden, wieder auf.</p>
+          <p class="vb-intro">Mit 16 begann er eine Ausbildung zum Theatertischler an der Deutschen Staatsoper Berlin, danach arbeitete er bis 1991 als Bühnentechniker an der Volksbühne. Erst dann ging er an die Hochschule für Schauspielkunst ›Ernst Busch‹ und studierte dort von 1991 bis 1995. Ein Handwerk lernen, hinter der Bühne arbeiten und dann erst nach vorn gehen: Das ist der vorsichtige Weg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Sicherheit im Handwerk, im Haus und in der Familie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sechs sucht Sicherheit, weil sie weiß, wie schnell sie fehlt. Die <strong>selbsterhaltende Sechs (SE6)</strong> nannte Claudio Naranjo den Subtyp der ›Wärme‹: Sie findet Halt in einem überschaubaren Kreis von Menschen, in einem Haus und in verlässlichen Abläufen. Bei Peschel zieht sich das durch. Seine Familie nennt er ›eine absolute Grundierung meines Lebens‹ und sagt: ›Daran hat meine Familie einen großen Anteil, weil sie immer da war.‹ Er ist verheiratet und hat zwei Kinder.</p>
+          <p class="vb-intro">Ein Haus war ihm die Volksbühne in Berlin: Dort war er 1997 bis 2008 festes Ensemblemitglied und arbeitete vor allem mit Frank Castorf und Dimiter Gotscheff. Über das Ende des Hauses, wie er es kannte, sagt er: ›Die Zerschlagung der Volksbühne hat mich tief getroffen.‹ Wer in einem Theater Sicherheit gefunden hat und sie verliert, spürt es wie ein Zuhause, das weg ist.</p>
+          <p class="vb-intro">Auch die Vorsicht gehört dazu. Er erzählt von einem Konzert in der Zionskirche 1987, bei dem Skinheads die Veranstaltung überfielen und er früh ging: ›Ich bin ein Kind aus Ostberlin, was sich nicht auf ein Punkkonzert getraut hat.‹ Er sei vielleicht ›zu feige‹ gewesen, sich in die erste Reihe zu stellen, das Wort Angst verwendet er nicht, er spricht von einem ›Überlebensinstinkt‹. Und beim Beruf: Seine erste große Filmrolle bekam er mit 35, ›nicht gerade jung‹, wie er sagt, er nennt sich einen ›Spätzünder‹. Es war ein langsamer Weg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: der Beobachter und Handwerker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der Sechs eine beobachtende, sachliche Seite: Wer genau hinsieht und etwas von der Sache versteht, fühlt sich sicherer. Bei Peschel lässt sich das mit seiner Handwerkerherkunft in Verbindung bringen: Aus der Tischlerlehre kennt er Menschen aus Werkstätten, und das hilft ihm als Schauspieler. Der Flügel zeigt sich auch darin, dass er neben dem Spielen Hörspiele spricht (vor allem unter dem Regisseur Paul Plamper) und seit 2007 selbst Regie führt, am Maxim Gorki Theater, am Theater an der Parkaue und an weiteren deutschen und dänischen Bühnen.</p>
+          <p class="vb-intro">Er sieht sich selbst nüchtern. Über seinen Zugang zu Rollen sagt er: ›Mir werden die Rollen angeboten, weil die Leute davon ausgehen, dass ich sie spielen kann.‹ Und zur Identität: ›Wir sind alle ganz verschiedene Identitäten und die setzen sich immer wieder neu zusammen.‹ Eine Sechs mit schwächer ausgeprägtem Fünferflügel hätte sich vielleicht auf das Spielen beschränkt; Peschel schaut den Beruf auch von außen an.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der Normale, der groß wird</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sein Durchbruch war 2005 der Film ›Netto‹, in dem er einen Wendeverlierer mit Humor spielt, nominiert für den Deutschen Filmpreis. 2010 erhielt er für den Tatort ›Weil sie böse sind‹ einen Sonderpreis des Deutschen Fernsehkrimipreises und den Hessischen Fernsehpreis. Für die Hauptrolle in Andreas Dresens ›Halt auf freier Strecke‹, einem Film über einen Vater, der an Krebs erkrankt, bekam er 2011/2012 den Bayerischen Filmpreis und den Deutschen Filmpreis. Dazu kommen ›Jud Süß – Film ohne Gewissen‹ (2010), viele ›Tatort‹- und ›Polizeiruf 110‹-Folgen, 2016 der Sam Hawkens in ›Winnetou‹, die Serie ›Doppelhaushälfte‹ (seit 2022) und die ›Schule der magischen Tiere‹-Filme (2021 bis 2025). 2021 wurde er für eine Nebenrolle in ›Je suis Karl‹ nochmals für den Deutschen Filmpreis nominiert.</p>
+          <p class="vb-intro">Ein Tagesspiegel-Porträt von 2016 fasst ihn als ›Milan Peschel als Milan Peschel‹ zusammen: Er spielt Menschen, die man kennt. Der Artikel hält auch fest, man merke ihm nicht an, dass er einer der gefragtesten Schauspieler Deutschlands ist. Das ist die Sechs, die den Mittelpunkt nicht sucht, und der Fünferflügel, der lieber genau spielt als laut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Davis, Schubert und Pichai</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den Porträts dieses Kompasses stehen mehrere SE6w5er, und der Vergleich zeigt, wie die Sechs ihren Halt sucht. <a href="#beruehmte-stringer-davis">Stringer Davis (SE6w5)</a> hielt sich als Schauspieler an einen vertrauten Mittelpunkt und blieb im Hintergrund. <a href="#beruehmte-franz-schubert">Franz Schubert (SE6w5)</a> fand Halt im Kreis enger Freunde und arbeitete in stiller, konzentrierter Rückzugsarbeit. <a href="#beruehmte-sundar-pichai">Sundar Pichai (SE6w5)</a> blieb in dem Unternehmen, dem er vertraute, statt zu wechseln.</p>
+          <p class="vb-intro">Peschel liegt zwischen ihnen: Mit Schubert teilt er den Kreis vertrauter Menschen und die Sorgfalt, mit Davis die Zurückhaltung gegenüber dem Rampenlicht, und mit Pichai die Treue zu einem Haus. Der Unterschied: Peschel arbeitete an einem Theater, das für Radikalität bekannt war, und blieb dort elf Jahre im Ensemble.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Sechs mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit und in der Wärme, mit der er sich erinnert und anderen begegnet. Er sagt: ›Kinder zu haben gibt einem ein ganz anderes Bewusstsein für Verhältnismäßigkeiten.‹ Und über den späten Start: Er sei nicht unglücklich darüber, weil er Erfolge so mehr schätzen könne. ›Mir gehört die Welt nicht, ich muss sie mir irgendwie erobern.‹ Wer so spricht, hat Sicherheit nie als gegeben genommen.</p>
+          <p class="vb-intro">Der Schatten der Sechs ist, dass Sicherheit an Orten und Menschen hängt, die man verlieren kann. Der Umbruch an der Volksbühne traf ihn tief, und im Interview nennt er auch den Tod des Regisseurs René Pollesch. Er sagt selbst, dass er sich damals nicht in die erste Reihe gestellt hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: weiter in Film, Fernsehen und auf der Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 22. Oktober 2026) lebt Milan Peschel in Berlin und steht weiter vor der Kamera. Für 2025 ist der Film ›Nacktgeld‹ verzeichnet, für 2026 die Titel ›Extrawurst‹, ›Vaterland‹ und ›Steckerlfischfiasko‹. Als Regisseur arbeitet er weiter an Theatern in Deutschland und Dänemark.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se6", label:"Lebensmusterkompass: SE6 – Kaninchen"},
+        {route:"beruehmte-stringer-davis", label:"Porträt: Stringer Davis (SE6w5) – Schauspieler, derselbe Subtyp und Flügel"},
+        {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5)"},
+        {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
+      ])}
+    </div>
+  `);
+}

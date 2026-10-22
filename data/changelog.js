@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2560", date: "2026-10-22", text: "Neues Porträt: Milan Peschel (SE6w5) – Schauspieler und Regisseur, bekannt durch Halt auf freier Strecke und Netto.", text_en: "New portrait: Milan Peschel (SE6w5) – actor and director, known for Halt auf freier Strecke and Netto.", route: "beruehmte-milan-peschel" },
     { version: "v2559", date: "2026-10-22", text: "Neues Porträt: Carlo Masala (SE6w5) – Politikwissenschaftler und Sicherheitsexperte.", text_en: "New portrait: Carlo Masala (SE6w5) – political scientist and security expert.", route: "beruehmte-carlo-masala" },
     { version: "v2558", date: "2026-10-22", text: "Neues Porträt: Kevin Kühnert (SE6w7) – Politiker, ehemaliger Juso-Chef und SPD-Generalsekretär.", text_en: "New portrait: Kevin Kühnert (SE6w7) – politician, former Juso chair and SPD general secretary.", route: "beruehmte-kevin-kuehnert" },
     { version: "v2557", date: "2026-10-22", text: "Neues Porträt: Gerald Hörhan (SE6w7) – österreichischer Investor und Autor, bekannt als ›Investment Punk‹.", text_en: "New portrait: Gerald Hörhan (SE6w7) – Austrian investor and author, known as 'Investment Punk'.", route: "beruehmte-gerald-hoerhan" },

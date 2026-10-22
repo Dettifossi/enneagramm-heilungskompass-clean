@@ -2610,3 +2610,76 @@ export function louisKlamrothPortraitPage() {
     </div>
   `);
 }
+
+export function milanPeschelPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-milan-peschel-portrait.jpg" alt="Milan Peschel – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-milan-peschel-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Milan Peschel</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with a Five-wing</p>
+        <p class="krim-portrait-subtitle">German actor and director, b. 1968 &ndash; &lsquo;Halt auf freier Strecke&rsquo;, &lsquo;Netto&rsquo; &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit: the latchkey child from East Berlin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> likes to keep its burrow near familiar paths and prefers to come out when it knows its way around. Milan Peschel was born on 17 January 1968 in East Berlin, the son of a teacher of mathematics and physics and a fashion journalist, and grew up in Lichtenberg and Friedrichshain. When he was four his parents separated. He was a latchkey child who came home alone after school because his mother was working, and yet he says: &lsquo;I was always taken care of and sheltered.&rsquo; At nine he first stood on a stage, and in puberty he gave up the wish to become an actor again.</p>
+          <p class="vb-intro">At 16 he began an apprenticeship as a theatre carpenter at the Deutsche Staatsoper Berlin, then worked until 1991 as a stage technician at the Volksbühne. Only then did he go to the Ernst Busch drama school, where he studied from 1991 to 1995. Learn a craft, work backstage and only then go to the front: that is the cautious way.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Six: security in craft, in the house and in the family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six seeks security because it knows how quickly it can be missing. Claudio Naranjo called the <strong>self-preservation Six (SE6)</strong> the subtype of &lsquo;warmth&rsquo;: it finds support in a manageable circle of people, in a house and in reliable routines. In Peschel this runs through everything. He calls his family &lsquo;an absolute foundation of my life&rsquo; and says: &lsquo;My family has a large share in that because it was always there.&rsquo; He is married and has two children.</p>
+          <p class="vb-intro">A house for him was the Volksbühne in Berlin: he was a permanent ensemble member there from 1997 to 2008 and worked mainly with Frank Castorf and Dimiter Gotscheff. About the end of the house as he knew it he says: &lsquo;The smashing of the Volksbühne hit me deeply.&rsquo; Whoever has found security in a theatre and loses it feels it like a home that is gone.</p>
+          <p class="vb-intro">Caution belongs to it too. He tells of a concert in the Zionskirche in 1987 at which skinheads attacked the event and he left early: &lsquo;I am a child from East Berlin who did not dare go to a punk concert.&rsquo; Perhaps he was &lsquo;too cowardly&rsquo; to stand in the front row; he does not use the word fear, he speaks of a &lsquo;survival instinct&rsquo;. And in his profession: he got his first big film role at 35, &lsquo;not exactly young&rsquo;, as he says, and calls himself a &lsquo;late starter&rsquo;. It was a slow road.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: the observer and craftsman</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Six an observing, matter-of-fact side: whoever looks closely and understands the matter feels safer. In Peschel this can be linked to his craftsman&rsquo;s background: from the carpentry apprenticeship he knows people from workshops, and that helps him as an actor. The wing also shows in that alongside acting he speaks radio plays (mainly under the director Paul Plamper) and since 2007 has directed himself, at the Maxim Gorki Theater, the Theater an der Parkaue and other German and Danish stages.</p>
+          <p class="vb-intro">He sees himself soberly. About his access to roles he says: &lsquo;I am offered roles because people assume I can play them.&rsquo; And on identity: &lsquo;We are all very different identities and they recompose themselves again and again.&rsquo; A Six with a weaker Five-wing might have limited itself to acting; Peschel also looks at the profession from outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the ordinary man who becomes big</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">His breakthrough was the 2005 film &lsquo;Netto&rsquo;, in which he plays a loser of reunification with humour, nominated for the Deutscher Filmpreis. In 2010 he received a special prize of the Deutscher Fernsehkrimipreis and the Hessischer Fernsehpreis for the Tatort &lsquo;Weil sie böse sind&rsquo; (&lsquo;Because They Are Evil&rsquo;). For the lead role in Andreas Dresen&rsquo;s &lsquo;Halt auf freier Strecke&rsquo; (&lsquo;Stopped on Track&rsquo;), a film about a father who falls ill with cancer, he received the Bayerischer Filmpreis and the Deutscher Filmpreis in 2011/2012. Add &lsquo;Jud Süß – Film ohne Gewissen&rsquo; (2010), many &lsquo;Tatort&rsquo; and &lsquo;Polizeiruf 110&rsquo; episodes, in 2016 Sam Hawkens in &lsquo;Winnetou&rsquo;, the series &lsquo;Doppelhaushälfte&rsquo; (since 2022) and the &lsquo;Schule der magischen Tiere&rsquo; (&lsquo;School of Magical Animals&rsquo;) films (2021 to 2025). In 2021 he was again nominated for the Deutscher Filmpreis for a supporting role in &lsquo;Je suis Karl&rsquo;.</p>
+          <p class="vb-intro">A 2016 Tagesspiegel portrait sums him up as &lsquo;Milan Peschel as Milan Peschel&rsquo;: he plays people one knows. The article also notes that one does not notice that he is one of the most sought-after actors in Germany. That is the Six that does not seek the centre and the Five-wing that would rather play precisely than loudly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Davis, Schubert and Pichai</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Several SE6w5s stand among the portraits in this Compass, and the comparison shows how the Six seeks its support. <a href="#beruehmte-stringer-davis">Stringer Davis (SE6w5)</a> held to a familiar centre as an actor and stayed in the background. <a href="#beruehmte-franz-schubert">Franz Schubert (SE6w5)</a> found support in a circle of close friends and worked in quiet, concentrated withdrawal. <a href="#beruehmte-sundar-pichai">Sundar Pichai (SE6w5)</a> stayed in the company he trusted instead of changing.</p>
+          <p class="vb-intro">Peschel lies between them: with Schubert he shares the circle of familiar people and the care, with Davis the restraint toward the limelight, and with Pichai the loyalty to a house. The difference: Peschel worked at a theatre known for radicalism and remained in its ensemble for eleven years.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Six with a Five-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in reliability and in the warmth with which he remembers and meets others. He says: &lsquo;Having children gives one a quite different awareness of proportion.&rsquo; And about the late start: he is not unhappy about it because it lets him appreciate successes more. &lsquo;The world does not belong to me, I somehow have to conquer it.&rsquo; Whoever speaks like this has never taken security for granted.</p>
+          <p class="vb-intro">The shadow of the Six is that security hangs on places and people that can be lost. The upheaval at the Volksbühne hit him deeply, and in the interview he also names the death of the director René Pollesch. He says himself that he did not put himself in the front row back then.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: still in film, television and on stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 22 October 2026) Milan Peschel lives in Berlin and is still in front of the camera. The film &lsquo;Nacktgeld&rsquo; is listed for 2025 and the titles &lsquo;Extrawurst&rsquo;, &lsquo;Vaterland&rsquo; and &lsquo;Steckerlfischfiasko&rsquo; for 2026. As a director he continues to work at theatres in Germany and Denmark.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SE6 – Rabbit"},
+        {route:"beruehmte-stringer-davis", label:"Portrait: Stringer Davis (SE6w5) – actor, same subtype and wing"},
+        {route:"beruehmte-franz-schubert", label:"Porträt: Franz Schubert (SE6w5)"},
+        {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
