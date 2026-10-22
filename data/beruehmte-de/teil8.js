@@ -2738,3 +2738,75 @@ export function donKingPortraitPage() {
     </div>
   `);
 }
+
+export function ulrichSelzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ulrich-selz-portrait.jpg" alt="Dr. Ulrich Selz – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-ulrich-selz-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Dr. Ulrich Selz</p>
+        <p class="krim-portrait-typ">SO6w5 &middot; Sozialer Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Arzt und Autor (›Der Darm-Doc‹) &ndash; Notfallmediziner aus Ingolstadt &ndash; Tierentsprechung: Erdmännchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdmännchen: der Arzt, der früh Wache hielt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdmännchen</strong> steht aufrecht am Bau, hält Wache und warnt die Gruppe, bevor Gefahr da ist. Ulrich Selz ist Arzt in Ingolstadt und wurde als ›Darm-Doc‹ bekannt. Mit dem Darm beschäftigt er sich nach eigener Aussage ›im Grunde seit meinem 11. Lebensjahr‹: Als Kind und Jugendlicher litt er gemeinsam mit seinem Bruder unter starken Verdauungsbeschwerden und Allergien. ›Unsere Kindheit war eine einzige Diät voller Verbote, voller Verzicht.‹ Die Mutter suchte verzweifelt Hilfe. Beim Bruder heilte später auch die Haut, als der Darm besser wurde.</p>
+          <p class="vb-intro">Mit siebzehn begann er im Rettungsdienst. Nach einem Unfall, den er mit seinem Vater erlebte, stand für ihn fest: ›Ich will Menschen helfen.‹ Seine Motivation fasst er selbst so: ›Meine Motivation ist meine jahrelange Leidensgeschichte.‹</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sechs: Wache halten für die Gruppe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sechs nimmt Gefahren früh wahr und möchte vorbereitet sein. Die <strong>soziale Sechs (SO6)</strong> richtet diese Wachsamkeit nach Claudio Naranjo auf die Gruppe: Sicherheit entsteht durch Zugehörigkeit, Pflicht und verlässliche Strukturen. Bei Selz ist das fast wörtlich zu sehen. Er arbeitete in der Notfall- und Intensivmedizin, im bodengebundenen Notarztdienst, im Luftrettungsdienst in Deutschland und den USA und auf einer Brandverletztenintensivstation. Ehrenamtlich ist er Kreisfeuerwehrarzt im Landkreis Eichstätt, Fachberater ABC (für atomare, biologische und chemische Gefahrenlagen) des Kreisfeuerwehrverbands und Feuerwehrarzt der Gemeinde Großmehring. Wer sich dort einreiht, übernimmt Bereitschaft für andere.</p>
+          <p class="vb-intro">Auch die Warnung gehört dazu: Er will, dass Betroffene ihre Beschwerden ernst nehmen und nicht mehr abgetan werden. Blähungen würden von Ärzten oft als ›Befindlichkeitsstörung‹ abgetan, sagt er, und für sein Publikum gilt: ›Niemand muss mehr jahrelang im Dunkeln tappen, so wie wir damals.‹ Er erinnert sich an seine eigene Kindheit, in der die Familie jahrelang ohne Antwort blieb, und sorgt dafür, dass andere früher Antworten bekommen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Ursachen suchen, Zusammenhänge erklären</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der Sechs den Hang zum Wissen, zur Analyse und zum Erklären. Selz suchte nie nur Symptome, sondern ›Zusammenhänge‹ und ›wahre Ursachen‹. Er sieht den Darm als komplexes Organ, das mit Immunsystem, Nervensystem und Stoffwechsel zusammenhängt. Sein Studium führte ihn nach eigenen Angaben nach Ulm, München, Halle, Baltimore (Johns Hopkins University) und an die University of Maryland, hinzu kamen Stationen in Anästhesie, Schmerztherapie und vier Jahre an einer Klinik für Integrative Medizin und Naturheilverfahren in Bad Elster. Ein Pilotprojekt der Ludwig-Maximilians-Universität München führte ihn zur Darmmedizin.</p>
+          <p class="vb-intro">Wo die Sechs Rückhalt sucht, liefert der Fünferflügel die Erklärung. Er erklärt wissenschaftlich fundiert und mit Humor, etwa mit dem Satz ›Jeder Furz ist einer zu viel‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Darmmedizin für Betroffene verständlich gemacht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Selz verbindet moderne Diagnostik mit einem Blick darauf, wie Magen, Darm, Immunsystem und Psyche zusammenhängen. Er behandelt in seiner Praxis viele Menschen mit chronischen Magen-Darm-Beschwerden, bei denen andere Wege nicht weitergeführt hatten. Er kritisiert, dass bei Unverträglichkeiten oft zu schnell Gemüse weggelassen werde; Ballaststoffe seien ›essenziell für ein gesundes Mikrobiom‹ (die Gesamtheit der Darmbakterien).</p>
+          <p class="vb-intro">Außerdem entwickelte er nach eigenen Angaben die ›Migränetherapie nach Dr. Selz‹. Sein Buch ›Der Darm-Doc‹ (Rowohlt) stand nach Berichten einer Regionalzeitung auf Platz 1 der Spiegel-Bestsellerliste, sein YouTube-Kanal hat rund 600.000 Abonnenten, andere Quellen nennen rund 500.000. Den Weg dorthin beschreibt er mit Humor: Die ersten Videos seien aus einem Golftrauma entstanden, daraus wurden tägliche Gesundheitsvideos. Über Social Media könne er ›noch mehr Betroffene erreichen‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Manser, Ott und Gruber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-marta-manser">Prof. Dr. Marta Manser (SO6w5)</a> entschlüsselte das Warnrufsystem der Erdmännchen, ein Frühwarnsystem für die ganze Gruppe; Selz warnt Betroffene davor, Beschwerden abzutun, und gibt ihnen verständliche Erklärungen. <a href="#beruehmte-ulrich-ott">Dr. Ulrich Ott (SO6w5)</a> bindet sein Thema an wissenschaftliche Belege zurück, bevor er es öffentlich vermittelt; Selz tritt ebenfalls als Arzt auf, der Wissen verständlich weitergibt. <a href="#beruehmte-andreas-gruber">Andreas Gruber (SO6w5)</a> sichert sich durch Fachleute und Testleser ab, Selz durch Diagnostik und Fachnetzwerke wie die Ärztegesellschaft für Klinische Metalltoxikologie.</p>
+          <p class="vb-intro">Der Unterschied: Manser und Ott bleiben im wissenschaftlichen Kreis, Selz trägt die Wache in die Öffentlichkeit: täglich, auf mehreren Plattformen, mit Humor und ohne Fachchinesisch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Sechs mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit und im Mitgefühl, das aus eigener Erfahrung kommt: ein Arzt, der aus der Kindheit weiß, wie es ist, wenn niemand eine Antwort hat, und darauf einen Beruf aufbaut. Die Mischung aus Notfallmedizin und Aufklärung hat etwas Fürsorgliches.</p>
+          <p class="vb-intro">Der Schatten der Sechs liegt im Dauerbereitschaftsmodus: Wer Wache hält, kann schwer abschalten, und wer Gefahren früh sieht, sieht sie manchmal auch dort, wo andere noch keine erkennen. Zugleich bleibt das Werk überprüfbar: Die Angaben zu Ausbildung und Reichweite stammen überwiegend von ihm selbst und seinem Verlag.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Arzt, Autor und Kanalbetreiber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 23. Oktober 2026) arbeitet Dr. Ulrich Selz als niedergelassener Arzt in Ingolstadt, schreibt Bücher und betreibt einen großen YouTube-Kanal sowie Instagram- und TikTok-Konten. Sein Buch ›Der Darm-Doc‹ wendet sich an Menschen mit Verstopfung, Durchfall, Blähungen und Bauchschmerzen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so6", label:"Lebensmusterkompass: SO6 – Erdmännchen"},
+        {route:"beruehmte-marta-manser", label:"Porträt: Prof. Dr. Marta Manser (SO6w5)"},
+        {route:"beruehmte-ulrich-ott", label:"Porträt: Dr. Ulrich Ott (SO6w5)"},
+        {route:"beruehmte-andreas-gruber", label:"Porträt: Andreas Gruber (SO6w5)"},
+      ])}
+    </div>
+  `);
+}

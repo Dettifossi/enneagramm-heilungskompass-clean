@@ -2664,3 +2664,75 @@ export function catherineDeneuvePortraitPage() {
     </div>
   `);
 }
+
+export function ulrichSelzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-ulrich-selz-portrait.jpg" alt="Dr. Ulrich Selz – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-ulrich-selz-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Dr. Ulrich Selz</p>
+        <p class="krim-portrait-typ">SO6w5 &middot; Social Type 6 with a Five-wing</p>
+        <p class="krim-portrait-subtitle">Physician and author (&lsquo;Der Darm-Doc&rsquo;) &ndash; emergency doctor from Ingolstadt &ndash; Animal correspondence: Meerkat</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Meerkat: the doctor who kept watch early</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>meerkat</strong> stands upright at the burrow, keeps watch and warns the group before danger arrives. Ulrich Selz is a physician in Ingolstadt who became known as the &lsquo;Darm-Doc&rsquo; (&lsquo;gut doctor&rsquo;). By his own account he has dealt with the gut &lsquo;basically since I was 11&rsquo;: as a child and teenager he and his brother suffered from severe digestive complaints and allergies. &lsquo;Our childhood was one single diet full of prohibitions, full of renunciation.&rsquo; His mother desperately looked for help. With his brother, the skin also healed later when the gut improved.</p>
+          <p class="vb-intro">At seventeen he started in the emergency medical service. After an accident he witnessed with his father, it was clear to him: &lsquo;I want to help people.&rsquo; He summarises his motivation himself: &lsquo;My motivation is my years-long history of suffering.&rsquo;</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Six: keeping watch for the group</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six perceives dangers early and wants to be prepared. According to Claudio Naranjo the <strong>social Six (SO6)</strong> directs this vigilance toward the group: safety arises through belonging, duty and reliable structures. In Selz this can be seen almost literally. He worked in emergency and intensive care medicine, in ground-based emergency physician service, in air rescue in Germany and the USA and on a burn intensive care unit. As a volunteer he is district fire brigade physician in the district of Eichstätt, ABC adviser (for atomic, biological and chemical hazards) of the district fire brigade association and fire brigade physician of the municipality of Großmehring. Whoever joins there takes on readiness for others.</p>
+          <p class="vb-intro">Warning belongs to it too: he wants those affected to take their complaints seriously and not be dismissed. Doctors often wave away bloating as a &lsquo;Befindlichkeitsstörung&rsquo; (roughly &lsquo;a mere ailment of mood&rsquo;), he says, and for his audience he holds: &lsquo;Nobody has to grope in the dark for years any more, like we did back then.&rsquo; He remembers his own childhood, in which the family stayed without an answer for years, and makes sure others get answers earlier.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: seeking causes, explaining connections</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Six the leaning toward knowledge, analysis and explaining. Selz never looked for symptoms only but for &lsquo;connections&rsquo; and &lsquo;true causes&rsquo;. He sees the gut as a complex organ connected to the immune system, the nervous system and metabolism. By his own account his studies took him to Ulm, Munich, Halle, Baltimore (Johns Hopkins University) and the University of Maryland; added to this were posts in anesthesia, pain therapy and four years at a clinic for integrative medicine and naturopathy in Bad Elster. A pilot project of the Ludwig Maximilian University of Munich led him to gut medicine.</p>
+          <p class="vb-intro">Where the Six looks for support, the Five-wing supplies the explanation. He explains scientifically grounded and with humour, for example with the sentence &lsquo;Every fart is one too many&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: gut medicine made understandable for those affected</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Selz combines modern diagnostics with a view of how stomach, gut, immune system and psyche are connected. In his practice he treats many people with chronic gastrointestinal complaints for whom other paths had led nowhere. He criticises that with intolerances vegetables are often left out too quickly; fibre is &lsquo;essential for a healthy microbiome&rsquo; (the whole of the gut bacteria).</p>
+          <p class="vb-intro">By his own account he also developed the &lsquo;Migränetherapie nach Dr. Selz&rsquo; (&lsquo;migraine therapy according to Dr. Selz&rsquo;). His book &lsquo;Der Darm-Doc&rsquo; (&lsquo;The Gut Doc&rsquo;, Rowohlt) reached number 1 on the Spiegel bestseller list according to a regional newspaper; his YouTube channel has about 600,000 subscribers, other sources say about 500,000. He describes the road there with humour: the first videos arose from a golf trauma, which became daily health videos. Via social media he can reach &lsquo;even more of those affected&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Manser, Ott and Gruber</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-marta-manser">Prof. Dr. Marta Manser (SO6w5)</a> decoded the meerkats&rsquo; alarm-call system, an early warning system for the whole group; Selz warns those affected not to dismiss complaints and gives them understandable explanations. <a href="#beruehmte-ulrich-ott">Dr. Ulrich Ott (SO6w5)</a> ties his subject back to scientific evidence before conveying it publicly; Selz also appears as a doctor who passes knowledge on understandably. <a href="#beruehmte-andreas-gruber">Andreas Gruber (SO6w5)</a> secures himself through experts and test readers, Selz through diagnostics and professional networks such as the medical society for clinical metal toxicology.</p>
+          <p class="vb-intro">The difference: Manser and Ott stay within the scientific circle; Selz carries the watch into the public: daily, on several platforms, with humour and without jargon.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Six with a Five-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in reliability and in the compassion that comes from own experience: a doctor who knows from childhood what it is like when nobody has an answer and builds a profession on it. The mixture of emergency medicine and education has something caring about it.</p>
+          <p class="vb-intro">The shadow of the Six lies in permanent readiness: whoever keeps watch finds it hard to switch off, and whoever sees dangers early sometimes sees them where others do not yet. At the same time the work remains checkable: the details on training and reach come predominantly from him and his publisher.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: doctor, author and channel operator</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 23 October 2026) Dr. Ulrich Selz works as a doctor in private practice in Ingolstadt, writes books and runs a large YouTube channel as well as Instagram and TikTok accounts. His book &lsquo;Der Darm-Doc&rsquo; addresses people with constipation, diarrhoea, bloating and abdominal pain.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
+        {route:"lebensmusterkompass/so6", label:"Life Pattern Compass: SO6 – Meerkat"},
+        {route:"beruehmte-marta-manser", label:"Porträt: Prof. Dr. Marta Manser (SO6w5)"},
+        {route:"beruehmte-ulrich-ott", label:"Porträt: Dr. Ulrich Ott (SO6w5)"},
+        {route:"beruehmte-andreas-gruber", label:"Porträt: Andreas Gruber (SO6w5)"},
+      ])}
+    </div>
+  `);
+}

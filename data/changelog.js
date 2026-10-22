@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2570", date: "2026-10-23", text: "Neues Porträt: Dr. Ulrich Selz (SO6w5) – Arzt und Autor (Der Darm-Doc).", text_en: "New portrait: Dr. Ulrich Selz (SO6w5) – physician and author (Der Darm-Doc).", route: "beruehmte-ulrich-selz" },
     { version: "v2569", date: "2026-10-22", text: "Neues Porträt: Andreas Gruber (SO6w5) – österreichischer Thriller-Autor.", text_en: "New portrait: Andreas Gruber (SO6w5) – Austrian thriller author.", route: "beruehmte-andreas-gruber" },
     { version: "v2568", date: "2026-10-22", text: "Der Kompass in Zahlen: neuer Abschnitt mit der Verteilung der Porträts auf Typen und Subtypen, Frauenanteil und Herkunftsländern.", text_en: "The Compass in Numbers: new section on how the portraits are distributed across types and subtypes, share of women and countries of origin.", route: "zahlen-fakten" },
     { version: "v2567", date: "2026-10-22", text: "Neues Porträt: Duncan Haldane (SE5w6) – britischer Physiker, Nobelpreis für Physik 2016.", text_en: "New portrait: Duncan Haldane (SE5w6) – British physicist, Nobel Prize in Physics 2016.", route: "beruehmte-duncan-haldane" },
