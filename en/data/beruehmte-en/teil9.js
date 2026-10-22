@@ -2654,3 +2654,75 @@ export function donKingPortraitPage() {
     </div>
   `);
 }
+
+export function duncanHaldanePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-duncan-haldane-portrait.jpg" alt="Duncan Haldane – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-duncan-haldane-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Duncan Haldane</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Self-Preservation Type 5 with a Six-wing</p>
+        <p class="krim-portrait-subtitle">British physicist, b. 1951 &ndash; Nobel Prize in Physics 2016 &ndash; Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Owl: half Scot, half Slovene, born in London</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>owl</strong> sits still in the dark and sees where others recognise nothing. Frederick Duncan Michael Haldane was born on 14 September 1951 in London, into a medical family that valued science and education highly. His father was a doctor, by his own account a psychiatrist in the newly founded British health service, and came from Scotland. His mother, the Slovene Ljudmila Renko, his father had met as a medical officer in the British Army near the Yugoslav–Austrian border, when she was studying medicine. Haldane says he always understood himself as half Scottish, half Slovene.</p>
+          <p class="vb-intro">He attended an elementary school in Bedford Park in west London, at ten he moved to the preparatory school Colet Court and then to St Paul&rsquo;s School. Christ&rsquo;s College in Cambridge followed, where he took his bachelor&rsquo;s degree and in 1978 his doctorate under Philip W. Anderson, a later Nobel laureate.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Five: the fortress of theory</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Five withdraws so as not to be overwhelmed, and collects knowledge as protection. Claudio Naranjo called the <strong>self-preservation Five (SE5)</strong> the subtype of the &lsquo;castle&rsquo;: one&rsquo;s own territory, a place of thinking, becomes the fortress in which one can work undisturbed. In Haldane the castle is theory. His colleague Hans Bozler remembers him as quiet and unassuming: &lsquo;As an assistant professor, Duncan mostly worked out of his office by himself.&rsquo; In the evenings he sometimes showed the spectra of his simulations of spin chains, the work was &lsquo;extremely complex&rsquo;.</p>
+          <p class="vb-intro">The image that stays of him is the whiteboard on which he does research at home: on the day of the Nobel announcement he was photographed in front of it. His own description fits too: of his prize-winning work he says it was &lsquo;a kind of sleeper&rsquo;, &lsquo;a very theoretical thing&rsquo;. And on discovery: &lsquo;All these things are things that no one expects. You stumble over something and then you find the big picture after.&rsquo;</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: respect for what has grown, loyalty to a place</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Five loyalty, an eye for reliable counterparts and the inclination to tie itself into a framework. A Five with a weaker Six-wing might have sealed itself off completely; Haldane stays in institutions and relationships. When he came to the University of Southern California in 1981 he said: &lsquo;I was recruited to USC by Professor Kazumi Maki, whose work I greatly respected.&rsquo; Since 1990 he has been a professor at Princeton, Eugene Higgins Professor since 1999 and Sherman Fairchild University Professor since 2017. He lives in Princeton with his wife Odile Belmont.</p>
+          <p class="vb-intro">His origin binds him too: on 22 March 2019 he received Slovenian citizenship at a ceremony at the Slovenian embassy in Washington, in addition to British. A tie to the mother&rsquo;s country, to a belonging he had felt since childhood.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: chains that behave differently from what everyone thought</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Haldane studied chains of interacting atoms and in 1983 found a difference that nobody had expected: chains whose effective spin is a whole number behave fundamentally differently from those with half-integer spin (the &lsquo;Haldane gap&rsquo;, in the field also called the &lsquo;Haldane conjecture&rsquo;). The work at first caused a stir in the bad sense: &lsquo;At the time, it made a big stir because people said it&rsquo;s nonsense, it has to be wrong.&rsquo; It was rejected by several journals, and Haldane says: &lsquo;It was blocked for publication, but I knew it was right.&rsquo; For it he received the Oliver E. Buckley Prize of the American Physical Society in 1993.</p>
+          <p class="vb-intro">Further work concerns Luttinger liquids, the fractional quantum Hall effect (in 2011 a geometric description) and so-called exclusion statistics. Haldane pseudopotentials and the quantum anomalous Hall effect carry his name. On 4 October 2016 he received the Nobel Prize in Physics, shared with David J. Thouless and J. Michael Kosterlitz, &lsquo;for theoretical discoveries of topological phase transitions and topological phases of matter&rsquo;. He heard of it in a call at 4:30 in the morning, and said he was &lsquo;very surprised and very gratified&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Mandelstam, Darwin and Gauss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Several SE5w6s stand among the portraits in this Compass, and the comparison shows what the castle of thought can look like. <a href="#beruehmte-stanley-mandelstam">Stanley Mandelstam (SE5w6)</a> published little and released results only once they were secured by his strict standard. <a href="#beruehmte-charles-darwin">Charles Darwin (SE5w6)</a> withdrew to Down House and held back his theory for twenty years. <a href="#beruehmte-carl-friedrich-gauss">Carl Friedrich Gauss (SE5w6)</a> feared the &lsquo;clamour of the Boeotians&rsquo; and kept discoveries to himself for decades.</p>
+          <p class="vb-intro">Haldane differs here: Darwin and Gauss held back what could have provoked criticism; Haldane published and got the criticism anyway, and he held firm: &lsquo;I knew it was right.&rsquo; Like Mandelstam he works with a small circle and in his head, but his trust in his own insight was stronger than the worry about contradiction.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Five with a Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in persistence and in the modesty with which he looks at the prize: &lsquo;My work was a kind of sleeper.&rsquo; He also says: &lsquo;It didn&rsquo;t become such a big deal until my work got extended&rsquo; by others. That is a Five that does not make its contribution larger than it is.</p>
+          <p class="vb-intro">The shadow of the Five is that one finds oneself alone with one&rsquo;s insight. In an interview in Stockholm Haldane said that one of the prize-winning papers took long to appear because it contradicted the doctrine then valid: &lsquo;Perhaps I didn&rsquo;t explain it clearly enough, but in any case, this paper was rejected by a number of journals.&rsquo; And it had been so clear to him that he could not understand why others did not appreciate his arguments. Whoever works in the castle also stays alone with contradiction at first.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: professor at Princeton</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 22 October 2026) Duncan Haldane is 75 years old, lives in Princeton, New Jersey, and is Sherman Fairchild University Professor there. From 2013 to 2018 he was Distinguished Visiting Research Chair at the Perimeter Institute. His honours include the Buckley Prize (1993), the Dirac Medal (2012), the Nobel Prize (2016), election to the Royal Society (1996) and to the US National Academy of Sciences (2017).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
+        {route:"lebensmusterkompass/se5", label:"Life Pattern Compass: SE5 – Owl"},
+        {route:"beruehmte-stanley-mandelstam", label:"Portrait: Stanley Mandelstam (SE5w6) – physicist, same subtype and wing"},
+        {route:"beruehmte-charles-darwin", label:"Porträt: Charles Darwin (SE5w6)"},
+        {route:"beruehmte-carl-friedrich-gauss", label:"Porträt: Carl Friedrich Gauß (SE5w6)"},
+      ])}
+    </div>
+  `);
+}

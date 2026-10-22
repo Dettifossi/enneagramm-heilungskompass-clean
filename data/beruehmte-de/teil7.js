@@ -2626,3 +2626,75 @@ export function harryHoudiniPortraitPage() {
     </div>
   `);
 }
+
+export function duncanHaldanePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-duncan-haldane-portrait.jpg" alt="Duncan Haldane – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-duncan-haldane-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Duncan Haldane</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Britischer Physiker, geb. 1951 &ndash; Nobelpreis für Physik 2016 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule: halb Schotte, halb Slowene, geboren in London</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> sitzt still im Dunkeln und sieht dort, wo andere nichts erkennen. Frederick Duncan Michael Haldane wurde am 14. September 1951 in London geboren, in eine Ärztefamilie, die Wissenschaft und Bildung hoch schätzte. Sein Vater war Arzt, nach seiner eigenen Darstellung Psychiater im gerade gegründeten britischen Gesundheitsdienst, und stammte aus Schottland. Seine Mutter, die Slowenin Ljudmila Renko, hatte der Vater als Sanitätsoffizier der britischen Armee nahe der jugoslawisch-österreichischen Grenze kennengelernt, als sie Medizin studierte. Haldane sagt von sich, er habe sich immer als halb Schotte, halb Slowene verstanden.</p>
+          <p class="vb-intro">Er besuchte eine Grundschule in Bedford Park im Westen Londons, mit zehn kam er an die Vorschule Colet Court und dann an die St Paul&rsquo;s School. Es folgten das Christ&rsquo;s College in Cambridge, wo er den Bachelor machte und 1978 bei Philip W. Anderson, einem späteren Nobelpreisträger, promovierte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Fünf: die Burg aus Theorie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Fünf zieht sich zurück, um nicht überwältigt zu werden, und sammelt Wissen als Schutz. Die <strong>selbsterhaltende Fünf (SE5)</strong> nannte Claudio Naranjo den Subtyp der ›Burg‹: Das eigene Territorium, ein Ort des Denkens, wird zur Festung, in der man ungestört arbeiten kann. Bei Haldane ist die Burg die Theorie. Sein Kollege Hans Bozler erinnert sich an ihn als ruhig und bescheiden: ›Als Assistenzprofessor arbeitete Duncan meistens allein in seinem Büro.‹ Er zeigte abends manchmal die Spektren seiner Simulationen von Spinketten, die Arbeit war ›extrem komplex‹.</p>
+          <p class="vb-intro">Das Bild, das von ihm im Gedächtnis bleibt, ist das Whiteboard, auf dem er zu Hause forscht: Am Tag der Nobelpreisverkündung wurde er davor fotografiert. Auch seine eigene Beschreibung passt: Über seine preisgekrönte Arbeit sagt er, sie sei ›eine Art Schläfer‹ gewesen (›a kind of sleeper‹), ›eine sehr theoretische Sache‹. Und über das Entdecken: ›All diese Dinge erwartet niemand. Man stolpert über etwas und findet das große Bild erst danach.‹</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Respekt vor dem Gewachsenen, Treue zu einem Ort</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Fünf Loyalität, einen Blick für verlässliche Gegenüber und die Neigung, sich in einen Rahmen einzubinden. Eine Fünf mit schwächer ausgeprägtem Sechserflügel hätte sich vielleicht ganz abgekapselt; Haldane bleibt in Institutionen und Beziehungen. Als er 1981 an die University of Southern California kam, sagte er: ›Ich wurde von Professor Kazumi Maki an die USC geholt, dessen Arbeit ich sehr respektierte.‹ Seit 1990 ist er Professor in Princeton, Eugene Higgins Professor seit 1999 und Sherman Fairchild University Professor seit 2017. Er lebt in Princeton mit seiner Frau Odile Belmont.</p>
+          <p class="vb-intro">Auch die Herkunft bindet ihn: Am 22. März 2019 erhielt er in einer Feier an der slowenischen Botschaft in Washington die slowenische Staatsbürgerschaft, zusätzlich zur britischen. Eine Bindung an das Land der Mutter, an eine Zugehörigkeit, die er seit der Kindheit empfand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Ketten, die sich anders verhalten, als alle dachten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Haldane untersuchte Ketten wechselwirkender Atome und fand 1983 einen Unterschied, den vorher niemand erwartet hatte: Ketten, deren effektiver Spin eine ganze Zahl ist, verhalten sich grundlegend anders als solche mit halbzahligem Spin (die ›Haldane-Lücke‹, in der Fachwelt auch ›Haldane-Vermutung‹ genannt). Die Arbeit machte zunächst Furore im schlechten Sinn: ›Damals gab es einen großen Wirbel, weil die Leute sagten, das sei Unsinn, das müsse falsch sein.‹ Sie wurde bei mehreren Zeitschriften abgelehnt, und Haldane sagt: ›Sie wurde für die Veröffentlichung blockiert, aber ich wusste, dass sie richtig ist.‹ Er wurde dafür 1993 mit dem Oliver E. Buckley Prize der American Physical Society ausgezeichnet.</p>
+          <p class="vb-intro">Weitere Arbeiten betreffen Luttinger-Flüssigkeiten, den fraktionierten Quanten-Hall-Effekt (2011 eine geometrische Beschreibung) und die sogenannte Ausschlussstatistik. Haldane-Pseudopotentiale und der quantenanomale Hall-Effekt tragen seinen Namen. Am 4. Oktober 2016 erhielt er den Nobelpreis für Physik, geteilt mit David J. Thouless und J. Michael Kosterlitz, ›für theoretische Entdeckungen topologischer Phasenübergänge und topologischer Materiephasen‹. Er hörte davon in einem Anruf um 4:30 Uhr morgens, und sagte, er sei ›sehr überrascht und sehr dankbar‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Mandelstam, Darwin und Gauß</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den Porträts dieses Kompasses stehen mehrere SE5w6er, und der Vergleich zeigt, wie die Burg des Denkens aussehen kann. <a href="#beruehmte-stanley-mandelstam">Stanley Mandelstam (SE5w6)</a> veröffentlichte wenig und gab Ergebnisse erst frei, wenn sie nach seinem strengen Maßstab abgesichert waren. <a href="#beruehmte-charles-darwin">Charles Darwin (SE5w6)</a> zog sich nach Down House zurück und hielt seine Theorie zwanzig Jahre zurück. <a href="#beruehmte-carl-friedrich-gauss">Carl Friedrich Gauß (SE5w6)</a> fürchtete das ›Geschrei der Böotier‹ und behielt Entdeckungen jahrzehntelang für sich.</p>
+          <p class="vb-intro">Haldane liegt hier anders: Darwin und Gauß hielten zurück, was Kritik hätte auslösen können; Haldane veröffentlichte und bekam die Kritik trotzdem, und er hielt fest: ›Ich wusste, dass es richtig ist.‹ Wie Mandelstam arbeitet er mit einem kleinen Kreis und im Kopf, aber sein Vertrauen in die eigene Einsicht war stärker als die Sorge vor Widerspruch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Fünf mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Beharrlichkeit und in der Bescheidenheit, mit der er auf den Preis blickt: ›Meine Arbeit war eine Art Schläfer.‹ Er sagt auch: ›Es wurde keine so große Sache, bis meine Arbeit von anderen weitergeführt wurde.‹ Das ist eine Fünf, die ihren Beitrag nicht größer macht, als er ist.</p>
+          <p class="vb-intro">Der Schatten der Fünf ist, dass man sich mit seiner Einsicht allein findet. In einem Interview in Stockholm sagte Haldane, eine der preisgekrönten Arbeiten habe lange gebraucht, bis sie erschien, weil sie der damals gültigen Lehrmeinung widersprach: ›Vielleicht habe ich sie nicht klar genug erklärt, aber jedenfalls wurde die Arbeit von mehreren Zeitschriften abgelehnt.‹ Und: Es sei ihm so klar gewesen, dass er nicht habe verstehen können, warum andere seine Argumente nicht würdigten. Wer in der Burg arbeitet, bleibt auch mit dem Widerspruch zunächst allein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Professor in Princeton</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 22. Oktober 2026) ist Duncan Haldane 75 Jahre alt, lebt in Princeton, New Jersey, und ist dort Sherman Fairchild University Professor. Von 2013 bis 2018 war er Distinguished Visiting Research Chair am Perimeter Institute. Zu seinen Auszeichnungen zählen der Buckley-Preis (1993), die Dirac-Medaille (2012), der Nobelpreis (2016), die Aufnahme in die Royal Society (1996) und in die US-Akademie der Wissenschaften (2017).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se5", label:"Lebensmusterkompass: SE5 – Eule"},
+        {route:"beruehmte-stanley-mandelstam", label:"Porträt: Stanley Mandelstam (SE5w6) – Physiker, derselbe Subtyp und Flügel"},
+        {route:"beruehmte-charles-darwin", label:"Porträt: Charles Darwin (SE5w6)"},
+        {route:"beruehmte-carl-friedrich-gauss", label:"Porträt: Carl Friedrich Gauß (SE5w6)"},
+      ])}
+    </div>
+  `);
+}

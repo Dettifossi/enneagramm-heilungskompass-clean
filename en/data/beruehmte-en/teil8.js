@@ -2496,6 +2496,7 @@ export function stanleyMandelstamPortraitPage() {
         {route:"beruehmte-carl-friedrich-gauss", label:"Portrait: Carl Friedrich Gauss (SE5w6)"},
         {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SE5w6)"},
         {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SE5w6)"},
+        {route:"beruehmte-duncan-haldane", label:"Portrait: Duncan Haldane (SE5w6)"},
       ])}
     </div>
   `);

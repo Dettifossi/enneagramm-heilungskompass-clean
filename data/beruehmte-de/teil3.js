@@ -256,6 +256,7 @@ export function carlFriedrichGaussPortraitPage() {
         {route:"beruehmte-stanley-mandelstam", label:"Porträt: Stanley Mandelstam (SE5w6) – gleicher Subtyp"},
         {route:"beruehmte-harald-lesch", label:"Porträt: Harald Lesch (SE5w6)"},
         {route:"beruehmte-ingo-zimmermann", label:"Porträt: Prof. Dr. Ingo Zimmermann (SE5w4)"},
+        {route:"beruehmte-duncan-haldane", label:"Porträt: Duncan Haldane (SE5w6)"},
       ])}
     </div>
   `);

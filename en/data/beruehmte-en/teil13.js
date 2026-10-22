@@ -275,6 +275,7 @@ export function charlesDarwinPortraitPage() {
         {route:"krankheitsportraets-charles-darwin", label:"Illness Portrait: Charles Darwin (SE5w6)"},
         {route:"krankheitsportraets-marie-curie", label:"Illness Portrait: Marie Curie (SE5w6) – parallel to Darwin's chronic illness"},
         {route:"beruehmte-stanley-mandelstam", label:"Portrait: Stanley Mandelstam (SE5w6)"},
+        {route:"beruehmte-duncan-haldane", label:"Portrait: Duncan Haldane (SE5w6)"},
       ])}
     </div>
   `);
