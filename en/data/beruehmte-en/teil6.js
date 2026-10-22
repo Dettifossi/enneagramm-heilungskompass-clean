@@ -1086,6 +1086,7 @@ export function malaikaMihamboPortraitPage() {
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SP6w5)"},
         {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SP6w5)"},
+        {route:"beruehmte-carlo-masala", label:"Portrait: Carlo Masala (SE6w5)"},
       ])}
     </div>
   `);

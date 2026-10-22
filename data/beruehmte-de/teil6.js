@@ -1086,6 +1086,7 @@ export function malaikaMihamboPortraitPage() {
         {route:"subtype/se6", label:"SE6 \u2013 Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-herbert-kickl", label:"Portr\u00e4t: Herbert Kickl (SE6w5)"},
         {route:"beruehmte-sundar-pichai", label:"Portr\u00e4t: Sundar Pichai (SE6w5)"},
+        {route:"beruehmte-carlo-masala", label:"Porträt: Carlo Masala (SE6w5)"},
       ])}
     </div>
   `);

@@ -1704,6 +1704,7 @@ export function karlLauterbachPortraitPage() {
         {route:"beruehmte-huang-yong-ping", label:"Portrait: Huang Yong Ping (SP6w5)"},
         {route:"beruehmte-alberto-marini", label:"Portrait: Alberto Marini (SP6w5)"},
         {route:"beruehmte-markus-lanz", label:"Portrait: Markus Lanz (SO1w9)"},
+        {route:"beruehmte-carlo-masala", label:"Portrait: Carlo Masala (SE6w5)"},
       ])}
     </div>
   `);

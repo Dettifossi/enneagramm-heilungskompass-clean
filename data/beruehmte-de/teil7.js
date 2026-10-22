@@ -1672,6 +1672,7 @@ export function sundarPichaiPortraitPage() {
         {route:"beruehmte-luke-nichols", label:"Porträt: Luke Nichols (SE6w5)"},
         {route:"beruehmte-mahatma-gandhi", label:"Porträt: Mahatma Gandhi (SE6w5)"},
         {route:"beruehmte-neil-armstrong", label:"Porträt: Neil Armstrong (SE6w5)"},
+        {route:"beruehmte-carlo-masala", label:"Porträt: Carlo Masala (SE6w5)"},
       ])}
     </div>
   `);
