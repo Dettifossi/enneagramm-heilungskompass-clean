@@ -2662,3 +2662,76 @@ export function draupadiMurmuPortraitPage() {
     </div>
   `);
 }
+
+export function carloMasalaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-carlo-masala-portrait.jpg" alt="Carlo Masala – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-carlo-masala-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Carlo Masala</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with a Five-wing</p>
+        <p class="krim-portrait-subtitle">German political scientist, b. 1968 &ndash; Professor at the Bundeswehr University Munich, &lsquo;Weltunordnung&rsquo; &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit: the guest-worker child from Cologne-Chorweiler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> looks out of its burrow for a long time before it steps out, and it looks further than others think. Carlo Masala was born on 27 March 1968 in Cologne, the son of an Austrian saleswoman and an Italian guest worker who worked in mining in Dortmund and later in a Cologne factory and died early. He grew up in Cologne-Chorweiler and as a child spent several years in Sardinia. In an interview he said he had experienced racist exclusion as a child and youth, from classmates and from officers of the Cologne police.</p>
+          <p class="vb-intro">He studied political science, German and Romance philology in Cologne and Bonn from 1988 to 1992, took his doctorate in 1996 on German-Italian relations and habilitated in 2002 with a work on the threat to Europe from the south. From 2004 to 2007 he did research at the NATO Defense College in Rome, and in July 2007 he became Professor of International Politics at the Bundeswehr University Munich. He lives in Leipzig. As a young man he would have refused military service, as he told the taz in 2022: &lsquo;Back then I would have refused.&rsquo; At the same time, he said, he had &lsquo;also back then recognised the function of armies&rsquo; and had never been a pacifist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Six: security through belonging and thinking ahead</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six reckons with the worst so as not to be surprised. Claudio Naranjo called the <strong>self-preservation Six (SE6)</strong> the subtype of &lsquo;warmth&rsquo;: it seeks security in reliable bonds and in being prepared. In Masala both threads are visible early. Whoever experiences exclusion as the child of a guest worker learns how much depends on belonging. At 28 he became a German citizen and gave up Italian citizenship for it, because otherwise he could not have been given full civil-servant status. The price: his father&rsquo;s passport. The gain: a security nobody can take from him any more.</p>
+          <p class="vb-intro">Later thinking ahead became his profession. Since 2020 he has led the Competence Center for Crisis Early Warning at his university, and the Metis Institute for Strategy and Foresight advises the Federal Ministry of Defence. He sees himself as a neorealist: states act in a world without a world police, in which each must first secure its own safety. That is the world in which the Six moves anyway.</p>
+          <p class="vb-intro">What he says about fear is striking. Asked whether he had been afraid of nuclear war in the 1980s, he answered the taz: &lsquo;Never. I never had fear of this nuclear Armageddon.&rsquo; And about himself: &lsquo;The mode I always have is: attack.&rsquo; This does not fit the cliché of the anxious Six, and yet it is its pattern: the Six often does not feel its fear as fear, it turns it into work. He has the vigilance not in the feeling but in the scenario.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: analysis as equipment</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Six an analytical side: knowledge as protection. Whoever understands exactly how a system works is less at its mercy. A Six with a weaker Five-wing might have left its worry in conversation; Masala makes theory of it. In 2005 he wrote a book on the neorealist Kenneth N. Waltz, edits handbooks on international politics, chaired the German Political Science Association from 2015 to 2017 and as dean led his faculty from 2011.</p>
+          <p class="vb-intro">The wing also shows in the form of his appearances. Since July 2018 he has co-hosted the security-policy podcast &lsquo;Sicherheitshalber&rsquo; (&lsquo;Just to Be Safe&rsquo;, with Thomas Wiegold, Frank Sauer and Ulrike Franke), and in 2022 he explained the war in the Stern podcast &lsquo;Ukraine – die Lage&rsquo; (&lsquo;Ukraine – the Situation&rsquo;). He explains, sorts and draws scenarios instead of invoking.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: books that play through the worst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">His book &lsquo;Weltunordnung&rsquo; (&lsquo;World Disorder&rsquo;, 2016, third edition 2022) describes a world without a firm order. In 2023 followed &lsquo;Bedingt abwehrbereit&rsquo; (&lsquo;Conditionally Ready for Defence&rsquo;) on the state of the Bundeswehr, in 2024 &lsquo;Warum die Welt keinen Frieden findet&rsquo; (&lsquo;Why the World Finds No Peace&rsquo;) and in 2025 &lsquo;Wenn Russland gewinnt. Ein Szenario&rsquo; (&lsquo;If Russia Wins: A Scenario&rsquo;). The last book is a thought experiment: according to reviews it begins with a Russian advance on the Estonian town of Narva and is meant to show that Europe has not rearmed enough after the war in Ukraine and lacks important capabilities. It wants to shake people up and encourage preparation. One review calls it above all a critique of Western complacency.</p>
+          <p class="vb-intro">As a Six he thinks through the worst case so that it can be met. He says of himself: &lsquo;I want a defensive democracy, and I also want an army that reflects the diversity of this society.&rsquo; From 2022 to 2025 he was an expert member of the Bundestag inquiry commission on the lessons from Afghanistan. In 2023 he received the Lichtenberg Medal of the Academy of Sciences in Göttingen, and since 2024 he has been a member of the Bavarian Academy of Sciences and Humanities.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Lauterbach, Pichai and Mihambo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Several SE6w5s stand among the portraits in this Compass, and the comparison shows how differently the Five-wing makes knowledge out of worry. <a href="#beruehmte-karl-lauterbach">Karl Lauterbach (SE6w5)</a> backed his warnings during the Covid pandemic with studies and model calculations, often in the worst-case scenario. <a href="#beruehmte-sundar-pichai">Sundar Pichai (SE6w5)</a> collects information as security and is known for his memory. <a href="#beruehmte-malaika-mihambo">Malaika Mihambo (SE6w5)</a> studies her own movement down to the detail.</p>
+          <p class="vb-intro">Masala is close to Lauterbach: both translate the Six&rsquo;s vigilance into public warnings backed by expertise. The difference: Lauterbach warns as a politician who is supposed to act; Masala as a scholar who draws up scenarios and leaves the decision to others. With Pichai he shares thinking ahead, with Mihambo the pleasure of understanding the mechanics behind events.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Six with a Five-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in vigilance that takes responsibility. Masala translates fear into preparation and makes it understandable for others. He also names his own earlier stance openly: by his conviction at the time he would not have gone to the Bundeswehr, and he has reviewed his position since.</p>
+          <p class="vb-intro">The shadow of the Six is the permanent scenario. Whoever constantly plays through the worst easily becomes part of the tension he describes. His role in media and podcasts keeps him in a permanent presence that never switches vigilance off.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: professor, author, podcaster</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 22 October 2026) Carlo Masala continues to teach at the Bundeswehr University in Munich, heads the Metis Institute and the Competence Center for Crisis Early Warning there, and has been a member of the Central Committee of German Catholics since 2025. He co-hosts the podcast &lsquo;Sicherheitshalber&rsquo;, lives in Leipzig and has been a board member of the Hermann Ehlers Foundation since 2024.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SE6 – Rabbit"},
+        {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SE6w5) – same subtype and wing"},
+        {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
+        {route:"beruehmte-malaika-mihambo", label:"Porträt: Malaika Mihambo (SE6w5)"},
+      ])}
+    </div>
+  `);
+}

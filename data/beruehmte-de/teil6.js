@@ -2676,3 +2676,76 @@ export function draupadiMurmuPortraitPage() {
     </div>
   `);
 }
+
+export function carloMasalaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-carlo-masala-portrait.jpg" alt="Carlo Masala – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-carlo-masala-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Carlo Masala</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Politikwissenschaftler, geb. 1968 &ndash; Professor an der Universität der Bundeswehr München, &rsaquo;Weltunordnung&lsaquo; &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen: das Gastarbeiterkind aus Köln-Chorweiler</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> schaut lange aus dem Bau, bevor es hinaustritt, und es schaut weiter, als andere meinen. Carlo Masala wurde am 27. März 1968 in Köln geboren, als Sohn einer österreichischen Verkäuferin und eines italienischen Gastarbeiters, der im Bergbau in Dortmund und später in einer Kölner Fabrik arbeitete und früh starb. Er wuchs in Köln-Chorweiler auf und verbrachte als Kind mehrere Jahre auf Sardinien. In einem Interview sagte er, er habe als Kind und Jugendlicher rassistische Ausgrenzung erlebt, von Mitschülern und von Beamten der Kölner Polizei.</p>
+          <p class="vb-intro">Er studierte von 1988 bis 1992 Politikwissenschaft, Germanistik und Romanistik in Köln und Bonn, wurde 1996 über die deutsch-italienischen Beziehungen promoviert und habilitierte sich 2002 mit einer Arbeit über die Bedrohung Europas aus dem Süden. 2004 bis 2007 forschte er am NATO Defense College in Rom, im Juli 2007 wurde er Professor für Internationale Politik an der Universität der Bundeswehr München. Er lebt in Leipzig. Als junger Mann hätte er den Wehrdienst verweigert, wie er der taz 2022 sagte: ›Damals hätte ich verweigert.‹ Zugleich habe er ›auch damals die Funktion von Armeen eingesehen‹ und sei nie Pazifist gewesen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Sicherheit durch Zugehörigkeit und Vorausdenken</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sechs rechnet mit dem Schlimmsten, um nicht überrascht zu werden. Die <strong>selbsterhaltende Sechs (SE6)</strong> nannte Claudio Naranjo den Subtyp der ›Wärme‹: Sie sucht Sicherheit in verlässlichen Bindungen und darin, vorbereitet zu sein. Bei Masala sind beide Fäden früh sichtbar. Wer als Kind eines Gastarbeiters Ausgrenzung erlebt, lernt, wie viel an Zugehörigkeit hängt. Er wurde mit 28 Jahren deutscher Staatsbürger und gab dafür die italienische Staatsangehörigkeit auf, weil er sonst nicht voll verbeamtet werden konnte. Der Preis: der Pass seines Vaters. Der Gewinn: eine Sicherheit, die ihm niemand mehr nehmen kann.</p>
+          <p class="vb-intro">Später wurde das Vorausdenken sein Beruf. Seit 2020 leitet er das Kompetenzzentrum Krisenfrüherkennung an seiner Universität, das Metis-Institut für Strategie und Vorausschau berät das Bundesverteidigungsministerium. Er versteht sich als Neorealist: Staaten handeln in einer Welt ohne Weltpolizei, in der jeder zuerst seine eigene Sicherheit sichern muss. Das ist die Welt, in der sich die Sechs ohnehin bewegt.</p>
+          <p class="vb-intro">Auffällig ist dabei, was er über Angst sagt. Auf die Frage, ob er in den 1980er Jahren Angst vor einem Atomkrieg hatte, antwortete er der taz: ›Nie. Ich hatte nie Angst vor diesem nuklearen Armageddon.‹ Und über sich selbst: ›Der Modus, den ich immer habe, ist: Attacke.‹ Das passt nicht zum Klischee der ängstlichen Sechs, und doch ist es ihr Muster: Die Sechs fühlt ihre Angst oft gar nicht als Angst, sie setzt sie in Arbeit um. Er hat die Wachsamkeit nicht im Gefühl, sondern im Szenario.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Analyse als Rüstzeug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der Sechs eine analytische Seite: Wissen als Schutz. Wer genau versteht, wie ein System funktioniert, ist ihm weniger ausgeliefert. Eine Sechs mit schwächer ausgeprägtem Fünferflügel hätte vielleicht ihre Sorge im Gespräch gelassen; Masala macht daraus Theorie. Er schrieb 2005 ein Buch über den Neorealisten Kenneth N. Waltz, gibt Handbücher zur internationalen Politik heraus, war 2015 bis 2017 Vorsitzender der Deutschen Vereinigung für Politikwissenschaft und ab 2011 Dekan seiner Fakultät.</p>
+          <p class="vb-intro">Der Flügel zeigt sich auch in der Form seiner Auftritte. Seit Juli 2018 ist er Mitgastgeber des sicherheitspolitischen Podcasts ›Sicherheitshalber‹ (mit Thomas Wiegold, Frank Sauer und Ulrike Franke), 2022 erklärte er im Stern-Podcast ›Ukraine – die Lage‹ den Krieg. Er erklärt, ordnet ein und zeichnet Szenarien, statt zu beschwören.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Bücher, die das Schlimmste durchspielen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sein Buch ›Weltunordnung‹ (2016, dritte Auflage 2022) beschreibt eine Welt ohne feste Ordnung. 2023 folgte ›Bedingt abwehrbereit‹ über den Zustand der Bundeswehr, 2024 ›Warum die Welt keinen Frieden findet‹ und 2025 ›Wenn Russland gewinnt. Ein Szenario‹. Das letzte Buch ist ein Gedankenspiel: Nach Rezensionen beginnt es mit einem russischen Vorstoß auf die estnische Stadt Narva und soll zeigen, dass Europa nach dem Ukraine-Krieg nicht ausreichend aufgerüstet hat und wichtige Fähigkeiten fehlen. Es will aufrütteln und zur Vorbereitung anregen. Eine Rezension nennt es vor allem eine Kritik an der westlichen Selbstzufriedenheit.</p>
+          <p class="vb-intro">Als Sechs durchdenkt er den schlimmsten Fall, damit man ihm begegnen kann. Er sagt von sich: ›Ich will eine wehrhafte Demokratie, und ich will auch eine Armee, die die Diversität dieser Gesellschaft widerspiegelt.‹ 2022 bis 2025 war er Sachverständiger der Enquete-Kommission des Bundestages zu den Lehren aus Afghanistan. 2023 erhielt er die Lichtenberg-Medaille der Akademie der Wissenschaften zu Göttingen, seit 2024 ist er Mitglied der Bayerischen Akademie der Wissenschaften.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Lauterbach, Pichai und Mihambo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den Porträts dieses Kompasses stehen mehrere SE6w5er, und der Vergleich zeigt, wie unterschiedlich der Fünferflügel aus der Sorge Wissen macht. <a href="#beruehmte-karl-lauterbach">Karl Lauterbach (SE6w5)</a> stützte seine Warnungen in der Corona-Pandemie mit Studien und Modellrechnungen, oft im schlechtestmöglichen Szenario. <a href="#beruehmte-sundar-pichai">Sundar Pichai (SE6w5)</a> sammelt Information als Sicherheit und ist für sein Gedächtnis bekannt. <a href="#beruehmte-malaika-mihambo">Malaika Mihambo (SE6w5)</a> studiert die eigene Bewegung bis ins Detail.</p>
+          <p class="vb-intro">Masala liegt nah bei Lauterbach: Beide übersetzen die Wachsamkeit der Sechs in öffentliche Warnungen, gestützt auf Fachwissen. Der Unterschied: Lauterbach warnt als Politiker, der handeln soll; Masala als Wissenschaftler, der Szenarien entwirft und die Entscheidung anderen überlässt. Mit Pichai verbindet ihn das Vorausdenken, mit Mihambo die Lust, die Mechanik hinter dem Geschehen zu verstehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Sechs mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Wachsamkeit, die Verantwortung übernimmt. Masala übersetzt Angst in Vorbereitung und macht sie für andere verständlich. Er benennt auch die eigene frühere Haltung offen: Nach damaliger Überzeugung wäre er nicht zur Bundeswehr gegangen, und er hat seine Position seither überprüft.</p>
+          <p class="vb-intro">Der Schatten der Sechs ist das Dauerszenario. Wer ständig das Schlimmste durchspielt, wird leicht selbst Teil der Anspannung, die er beschreibt. Seine Rolle in Medien und Podcasts hält ihn in einer Dauerpräsenz, die die Wachsamkeit nie ausschaltet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Professor, Autor, Podcaster</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 22. Oktober 2026) lehrt Carlo Masala weiter an der Universität der Bundeswehr in München, leitet dort das Metis-Institut und das Kompetenzzentrum Krisenfrüherkennung und ist seit 2025 Mitglied des Zentralkomitees der deutschen Katholiken. Er ist Mitgastgeber des Podcasts ›Sicherheitshalber‹, wohnt in Leipzig und ist seit 2024 Vorstandsmitglied der Hermann-Ehlers-Stiftung.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se6", label:"Lebensmusterkompass: SE6 – Kaninchen"},
+        {route:"beruehmte-karl-lauterbach", label:"Porträt: Karl Lauterbach (SE6w5) – derselbe Subtyp und Flügel"},
+        {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
+        {route:"beruehmte-malaika-mihambo", label:"Porträt: Malaika Mihambo (SE6w5)"},
+      ])}
+    </div>
+  `);
+}

@@ -250,7 +250,7 @@ export const LEBENSMUSTERKOMPASS = {
   SE6: {
     tier: "Rabbit",
     kernthema: "Constant alertness to danger, security sought in the familiar (Naranjo: Warmth)",
-    beispiele: ["Sundar Pichai", "Fyodor Dostoevsky", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Zacchaeus", "Huang Yong Ping", "Alberto Marini", "Karl Lauterbach", "Stan Laurel", "Stringer Davis", "Katie Couric", "Ellen DeGeneres", "Raúl Aguayo-Krauthausen", "Luke Nichols", "Heiko Maas", "Gerald Hörhan", "Kevin Kühnert"],
+    beispiele: ["Sundar Pichai", "Fyodor Dostoevsky", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Zacchaeus", "Huang Yong Ping", "Alberto Marini", "Karl Lauterbach", "Stan Laurel", "Stringer Davis", "Katie Couric", "Ellen DeGeneres", "Raúl Aguayo-Krauthausen", "Luke Nichols", "Heiko Maas", "Gerald Hörhan", "Kevin Kühnert", "Carlo Masala"],
     fingerabdruecke: [
       {
         titel: "Perceiving danger earlier than others – constant, active alertness",
@@ -265,7 +265,7 @@ export const LEBENSMUSTERKOMPASS = {
       {
         titel: "Calm functioning under extreme pressure, because the danger was already calculated",
         beschreibung: "Even in exceptional situations, a surprising capacity to act remains – not through spontaneous courage, but because possible threats had already been mentally played out in advance.",
-        beleg: "Fyodor Dostoevsky, who survived a mock execution, and whose rabbit-nature remained 'astonishingly functional even in exceptional situations,' 'because it had already calculated the danger before it arrived'; Sundar Pichai, who leads one of the world's most powerful technology companies 'without ever raising his voice ... no step that isn't secured.'; Mahatma Gandhi, whose meticulously planned campaigns of nonviolent resistance – from hunger strikes to years of observing what worked – stayed calm and functional even under extreme pressure, because the danger had long since been thought through."
+        beleg: "Carlo Masala, who translates vigilance into scenarios and preparation ('The mode I always have is: attack') and, as head of a competence center for crisis early warning, calculates the danger before it arrives; Fyodor Dostoevsky, who survived a mock execution, and whose rabbit-nature remained 'astonishingly functional even in exceptional situations,' 'because it had already calculated the danger before it arrived'; Sundar Pichai, who leads one of the world's most powerful technology companies 'without ever raising his voice ... no step that isn't secured.'; Mahatma Gandhi, whose meticulously planned campaigns of nonviolent resistance – from hunger strikes to years of observing what worked – stayed calm and functional even under extreme pressure, because the danger had long since been thought through."
       },
       {
         titel: "When years of suppressed fear unexpectedly erupt into violence (shadow form)",

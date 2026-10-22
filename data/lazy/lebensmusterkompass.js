@@ -250,7 +250,7 @@ export const LEBENSMUSTERKOMPASS = {
   SE6: {
     tier: "Kaninchen",
     kernthema: "Ständige Wachheit gegenüber Gefahr, Sicherheit gesucht im Vertrauten (Naranjo: Wärme)",
-    beispiele: ["Sundar Pichai", "Fjodor Dostojewski", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Klaus J. Behrendt", "Zachäus", "Huang Yong Ping", "Alberto Marini", "Karl Lauterbach", "Stan Laurel", "Stringer Davis", "Katie Couric", "Ellen DeGeneres", "Raúl Aguayo-Krauthausen", "Luke Nichols", "Heiko Maas", "Gerald Hörhan", "Kevin Kühnert"],
+    beispiele: ["Sundar Pichai", "Fjodor Dostojewski", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Klaus J. Behrendt", "Zachäus", "Huang Yong Ping", "Alberto Marini", "Karl Lauterbach", "Stan Laurel", "Stringer Davis", "Katie Couric", "Ellen DeGeneres", "Raúl Aguayo-Krauthausen", "Luke Nichols", "Heiko Maas", "Gerald Hörhan", "Kevin Kühnert", "Carlo Masala"],
     fingerabdruecke: [
       {
         titel: "Gefahr früher wahrnehmen als andere – ständige, aktive Wachheit",
@@ -265,7 +265,7 @@ export const LEBENSMUSTERKOMPASS = {
       {
         titel: "Ruhige Funktionsfähigkeit unter extremem Druck, weil die Gefahr längst kalkuliert wurde",
         beschreibung: "Auch in Ausnahmesituationen bleibt eine erstaunliche Handlungsfähigkeit erhalten – nicht durch spontanen Mut, sondern weil mögliche Bedrohungen bereits im Vorfeld gedanklich durchgespielt wurden.",
-        beleg: "Fjodor Dostojewski, der eine Scheinhinrichtung überlebte und dessen Kaninchen-Natur ›selbst in Ausnahmesituationen erstaunlich funktionsfähig‹ blieb, ›weil es die Gefahr längst kalkuliert hat, bevor sie eintraf‹; Sundar Pichai, der eines der mächtigsten Technologieunternehmen der Welt führt, ›ohne je laut zu werden … kein Schritt, der nicht abgesichert ist.‹; Mahatma Gandhi, dessen minutiös geplante Kampagnen des gewaltlosen Widerstands – von Hungerstreiks bis zu jahrelanger Beobachtung dessen, was funktionierte – selbst unter extremem Druck ruhig und funktionsfähig blieben, weil die Gefahr längst durchdacht war."
+        beleg: "Carlo Masala, der Wachsamkeit in Szenarien und Vorbereitung übersetzt (›Der Modus, den ich immer habe, ist: Attacke‹) und als Leiter eines Kompetenzzentrums für Krisenfrüherkennung die Gefahr durchrechnet, bevor sie eintritt; Fjodor Dostojewski, der eine Scheinhinrichtung überlebte und dessen Kaninchen-Natur ›selbst in Ausnahmesituationen erstaunlich funktionsfähig‹ blieb, ›weil es die Gefahr längst kalkuliert hat, bevor sie eintraf‹; Sundar Pichai, der eines der mächtigsten Technologieunternehmen der Welt führt, ›ohne je laut zu werden … kein Schritt, der nicht abgesichert ist.‹; Mahatma Gandhi, dessen minutiös geplante Kampagnen des gewaltlosen Widerstands – von Hungerstreiks bis zu jahrelanger Beobachtung dessen, was funktionierte – selbst unter extremem Druck ruhig und funktionsfähig blieben, weil die Gefahr längst durchdacht war."
       },
       {
         titel: "Wenn die jahrelang verdrängte Angst unerwartet in Gewalt umschlägt (Schattenform)",
