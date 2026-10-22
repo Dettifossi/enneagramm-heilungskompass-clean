@@ -2646,3 +2646,76 @@ export function edithPiafPortraitPage() {
     </div>
   `);
 }
+
+export function geraldHoerhanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gerald-hoerhan-portrait.jpg" alt="Gerald Hörhan – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-gerald-hoerhan-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Gerald Hörhan</p>
+        <p class="krim-portrait-typ">SE6w7 &middot; Self-Preservation Type 6 with a Seven-wing</p>
+        <p class="krim-portrait-subtitle">Austrian investor and author, b. 1975 &ndash; &lsquo;Investment Punk&rsquo;, &lsquo;The One-Room Millionaire&rsquo; &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit: the Viennese boy who did not want to be middle class</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> builds its burrow deep and with several exits, because it knows how quickly the ground under its feet can give way. Gerald Hörhan was born on 28 October 1975 in Vienna. His parents, in his words, did not have much money: &lsquo;My parents did not have much and it was clear to me that I wanted to have something.&rsquo; His father drove a VW Golf. At twelve he decided that one day he would own a big company car, and at 13 he resolved to become rich: he wanted to be at the top, among those with property, freedom and money. A middle-class daily life with early rising and little free time he rejected.</p>
+          <p class="vb-intro">He did a good deal for it. He attended secondary school in Mödling, by his own account was &lsquo;one of the worst pupils&rsquo; and still graduated with a perfect 1.0. He won the mathematics and the Latin olympiad and competed for Austria at the International Mathematical Olympiad in 1992 and 1993 (places 204 and 44). With a scholarship he went to Harvard and studied applied mathematics and economics, working 30 to 35 hours a week alongside, often 70 to 80 hours in summer internships. Next came JP Morgan in New York (mergers and acquisitions) and the consultancy McKinsey in Frankfurt; since 2003 he has run Danube Advisory, a consultancy for real-estate transactions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Six: security through property and reserves</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six lives with the fear of being unprotected, and secures itself. Claudio Naranjo called the <strong>self-preservation Six (SE6)</strong> the subtype of &lsquo;warmth&rsquo;: security arises in a close, reliable circle and in concrete provisions, not in the wide world. It asks: do I have enough to be safe? For Hörhan the answer comes in figures: &lsquo;I always say, on a million one sleeps well.&rsquo;</p>
+          <p class="vb-intro">This sentence is the key to his path. By his own account he was a millionaire before 30 and did not live beyond his means: he did not spend the higher income but invested the difference, at first in real estate while it was still cheap. According to an interview he owned over 200 residential units in Germany and Austria. His rule: &lsquo;Never take on consumer debt.&rsquo; Debt, as his argument runs, leads to a state of panic, reserves make one curious and open to change. That is the Six that does not suppress its fear but transfers it into a system: whoever has reserves has nothing to fear.</p>
+          <p class="vb-intro">The private side follows the same pattern. By his own account he still lives in rented housing, centrally, so as to walk to work. On marriage he says: &lsquo;No, and I will not do that either&rsquo;, mainly for financial reasons; whoever marries should urgently make a marriage contract. He names the fear that &lsquo;someone wants to take something from you&rsquo; as a burden on wealth, and says of his priorities: &lsquo;I love two things: I love my freedom. And I do not like risk for my assets.&rsquo; The warmth of the Six stays with him in the very closest circle: he has a son whom he loves &lsquo;above all&rsquo; and to whom he wants to pass on honesty and character, but not luxury.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: the punk as counter-design to security</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Six speed, appetite for freedom and the tendency to turn worry into aggression. A Six with a weaker Seven-wing might have been content to preach caution. Hörhan sells caution as rebellion. The name &lsquo;Investment Punk&rsquo; arose at a music festival near Rostock, where he negotiated a bank contract in a punk outfit; a friend said he was not an investment banker but an &lsquo;investment punker&rsquo;. The rebellious, he says, has accompanied him since school. At appearances he sometimes shows up with a mohawk and punk clothing.</p>
+          <p class="vb-intro">The wing also shows in his pleasure in speed and in cars: first car at 22, first sports car at 25, a used Aston Martin in 2007. And he says: &lsquo;I love my business, I love earning money and investing money&rsquo;, plus 80 to 100 working hours a week. The Six would secure everyday life; the Seven turns it into an adventure. From the fear of sinking in the middle class comes the pleasure of leaving it, and from caution comes a public performance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: books that declare the middle class the enemy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hörhan&rsquo;s breakthrough came in 2010 with the book &lsquo;Investment Punk&rsquo; (subtitle: why you toil and we get rich). His thesis: state, corporations and media drive the middle class into debt and thus into dependence. Next came &lsquo;Gegengift&rsquo; (&lsquo;Antidote&rsquo;, 2011), &lsquo;Null Bock Komplott&rsquo; (&lsquo;Can&rsquo;t-be-bothered Conspiracy&rsquo;, 2013), &lsquo;Der stille Raub&rsquo; (&lsquo;The Silent Theft&rsquo;, 2017) on digitalisation and social media, and in 2023 &lsquo;Der Einzimmer-Millionär&rsquo; (&lsquo;The One-Room Millionaire&rsquo;), which stood at number 1 on the Spiegel bestseller list in September 2023 and describes how financial freedom can be built with a portfolio of small apartments. Through the Investment Punk Academy he teaches his method in seminars and online courses.</p>
+          <p class="vb-intro">Reception was divided. The Frankfurter Allgemeine Zeitung complained that the investment tips would fit on a ten-page leaflet, Handelsblatt saw readers more insulted than the middle class, the magazine &lsquo;trend&rsquo; called him the &lsquo;bad boy&rsquo; of the economic crisis who entertainingly insults the middle class, and the Wiener Zeitung found &lsquo;Gegengift&rsquo; accessible and useful for readers with little economic knowledge. For the type this is consistent: the Six distrusts systems that promise security and builds its own instead.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Allen, Couric and Maas</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Several SE6w7s stand among the portraits in this Compass, and the comparison shows how differently safeguarding can look. <a href="#beruehmte-woody-allen">Woody Allen (SE6w7)</a> turned his fear into punchlines and stayed in the familiar New York territory. <a href="#beruehmte-katie-couric">Katie Couric (SE6w7)</a> translated her own cancer experience into lasting prevention. <a href="#beruehmte-heiko-maas">Heiko Maas (SE6w7)</a> sought support in party, union and legal order and later wrote laws himself.</p>
+          <p class="vb-intro">Hörhan takes the opposite path: not institutions are to secure him but his own property, and he replaces bonds with independence. Where Maas relies on rules and belonging, Hörhan relies on real estate, reserves and contracts. What he shares with Couric is practice: both translate fear into tangible protective measures, except that his protective measure is an apartment. And with Allen he shares the pleasure of the performance that turns worry into entertainment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Six with a Seven-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in consistency: from a modest family with little money Hörhan made a clear direction early and pursued it with discipline. He names honesty, handshake integrity and character as important values and, asked whether he is happy, says: &lsquo;Yes.&rsquo; He is &lsquo;very content&rsquo;. He believes one becomes happy by looking for a task in life.</p>
+          <p class="vb-intro">The shadow is the fear that never finds its remedy entirely effective. He also says: &lsquo;In private life I have never found the fulfilment that I found in my business&rsquo; and that he has never fallen in love. A Six that seeks security in property finds that property protects against loss but does not automatically bring fulfilment in private life. In October 2011 trading in the profit-participation certificates of his Life Settlement Holding AG on the Vienna Stock Exchange was suspended; the financial market authority examined a suspected unauthorised banking business. A result of that examination is not named in the available sources, and the presumption of innocence applies to Hörhan.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: still travelling as Investment Punk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 22 October 2026) Gerald Hörhan turns 51 on 28 October 2026. He is founder and managing director of the Investment Punk Academy, and a real-estate seminar with him in Munich was advertised for 26 September 2026. His most recent book is &lsquo;Der Einzimmer-Millionär&rsquo; (2023).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SE6 – Rabbit"},
+        {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SE6w7) – same subtype and wing"},
+        {route:"beruehmte-katie-couric", label:"Porträt: Katie Couric (SE6w7)"},
+        {route:"beruehmte-heiko-maas", label:"Porträt: Heiko Maas (SE6w7)"},
+      ])}
+    </div>
+  `);
+}

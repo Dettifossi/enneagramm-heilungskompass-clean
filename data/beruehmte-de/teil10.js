@@ -2607,3 +2607,76 @@ export function gertPostelPortraitPage() {
     </div>
   `);
 }
+
+export function geraldHoerhanPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-gerald-hoerhan-portrait.jpg" alt="Gerald Hörhan – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-gerald-hoerhan-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Gerald Hörhan</p>
+        <p class="krim-portrait-typ">SE6w7 &middot; Selbsterhaltender Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Österreichischer Investor und Autor, geb. 1975 &ndash; &rsaquo;Investment Punk&lsaquo;, &rsaquo;Der Einzimmer-Millionär&lsaquo; &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen: der Wiener Junge, der nicht Mittelstand sein wollte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> baut seinen Bau tief und mit mehreren Ausgängen, denn es weiß, wie schnell der Boden unter den Füßen nachgeben kann. Gerald Hörhan wurde am 28. Oktober 1975 in Wien geboren. Seine Eltern hatten nach seinen Worten nicht viel Geld: ›Meine Eltern haben nicht viel gehabt und mir war klar, ich will etwas haben.‹ Sein Vater fuhr einen VW Golf. Mit zwölf beschloss er, einmal ein großes Firmenauto zu besitzen, und mit 13 fasste er den Entschluss, reich zu werden: Er wollte an die Spitze, zu denen mit Besitz, Freiheit und Geld. Einen Mittelstandsalltag mit frühem Aufstehen und wenig Freizeit lehnte er ab.</p>
+          <p class="vb-intro">Dafür tat er einiges. Er besuchte das Gymnasium in Mödling, galt nach eigener Aussage als ›einer der schlimmsten Schüler‹ und machte trotzdem ein Abitur mit der Note 1,0. Er gewann die Mathematik- und die Lateinolympiade und trat 1992 und 1993 für Österreich bei der Internationalen Mathematikolympiade an (Platz 204 und 44). Mit einem Stipendium ging er nach Harvard und studierte angewandte Mathematik und Wirtschaft, arbeitete nebenher 30 bis 35 Stunden in der Woche, in Sommerpraktika oft 70 bis 80 Stunden. Es folgten JP Morgan in New York (Fusionen und Übernahmen) und die Unternehmensberatung McKinsey in Frankfurt; seit 2003 führt er die Danube Advisory, eine Beratungsfirma für Immobilientransaktionen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Sicherheit durch Besitz und Reserven</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sechs lebt mit der Angst, ungeschützt zu sein, und sichert sich ab. Die <strong>selbsterhaltende Sechs (SE6)</strong> nannte Claudio Naranjo den Subtyp der ›Wärme‹: Sicherheit entsteht in einem engen, verlässlichen Kreis und in konkreten Vorkehrungen, nicht in der großen Welt. Sie fragt: Habe ich genug, um sicher zu sein? Bei Hörhan lautet die Antwort in Zahlen: ›Ich sage immer, auf einer Million schläft man gut.‹</p>
+          <p class="vb-intro">Dieser Satz ist der Schlüssel zu seinem Weg. Nach eigener Angabe war er vor 30 Millionär und lebte nicht über seinen Verhältnissen: Er gab das gestiegene Einkommen nicht aus, sondern legte die Differenz an, zunächst in Immobilien, als sie noch günstig waren. Laut einem Interview besaß er über 200 Wohneinheiten in Deutschland und Österreich. Sein Grundsatz: ›Niemals Konsumschulden machen.‹ Schulden, so sinngemäß seine Argumentation, führen in einen Zustand der Panik, Reserven machen neugierig und offen für Veränderung. Das ist die Sechs, die ihre Angst nicht verdrängt, sondern in ein System überträgt: Wer Rücklagen hat, muss nichts fürchten.</p>
+          <p class="vb-intro">Auch das Private folgt diesem Muster. Er lebt nach eigener Aussage weiter zur Miete, zentral, um zu Fuß zur Arbeit gehen zu können. Zur Ehe sagt er: ›Nein und ich werde das auch nicht tun.‹, vor allem aus finanziellen Gründen; wer heirate, solle dringend einen Ehevertrag machen. Er nennt die Angst, dass ›einem jemand etwas wegnehmen will‹, als Belastung des Vermögens, und sagt über seine Prioritäten: ›Ich liebe zwei Dinge: ich liebe meine Freiheit. Und ich mag kein Risiko für meine Vermögenswerte.‹ Die Wärme der Sechs bleibt bei ihm im allerengsten Kreis: Er hat einen Sohn, den er ›über alles‹ liebt und dem er Ehrlichkeit und Charakter mitgeben möchte, aber keinen Luxus.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: der Punk als Gegenentwurf zur Sicherheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der Sechs Tempo, Lust auf Freiheit und die Neigung, die Sorge in Angriffslust zu verwandeln. Eine Sechs mit schwächer ausgeprägtem Siebenerflügel hätte sich vielleicht damit begnügt, Vorsicht zu predigen. Hörhan verkauft Vorsicht als Rebellion. Der Name ›Investment Punk‹ entstand auf einem Musikfestival bei Rostock, wo er im Punk-Outfit einen Bankvertrag verhandelte; ein Freund meinte, er sei kein Investmentbanker, sondern ein ›Investment Punker‹. Das Rebellische, sagt er, begleite ihn seit der Schulzeit. Bei Auftritten erscheint er zuweilen mit Irokesenschnitt und Punk-Kleidung.</p>
+          <p class="vb-intro">Man sieht den Flügel auch in seinem Genuss am Tempo und in den Autos: erstes Auto mit 22, erster Sportwagen mit 25, 2007 ein gebrauchter Aston Martin. Und er sagt: ›Ich liebe mein Geschäft, ich liebe Geld verdienen und Geld investieren‹, dazu 80 bis 100 Arbeitsstunden pro Woche. Die Sechs würde den Alltag absichern; die Sieben macht daraus ein Abenteuer. Aus der Angst, im Mittelstand unterzugehen, wird die Lust, ihn zu verlassen, und aus der Vorsicht ein öffentlicher Auftritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Bücher, die den Mittelstand zum Feind erklären</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Seinen Durchbruch hatte Hörhan 2010 mit dem Buch ›Investment Punk‹ (Untertitel: Warum ihr schuftet und wir reich werden). Seine These: Staat, Konzerne und Medien treiben den Mittelstand in Schulden und damit in Abhängigkeit. Es folgten ›Gegengift‹ (2011), ›Null Bock Komplott‹ (2013), ›Der stille Raub‹ (2017) über Digitalisierung und soziale Medien und 2023 ›Der Einzimmer-Millionär‹, das im September 2023 auf Platz 1 der Spiegel-Bestsellerliste stand und beschreibt, wie sich mit einem Portfolio kleiner Wohnungen finanzielle Freiheit aufbauen lässt. Mit der Investment Punk Academy vermittelt er seine Methode in Seminaren und Online-Kursen.</p>
+          <p class="vb-intro">Die Aufnahme war geteilt. Die Frankfurter Allgemeine Zeitung bemängelte, die Anlagetipps passten auf ein zehnseitiges Faltblatt, das Handelsblatt sah eher die Leser beleidigt als den Mittelstand, das Magazin ›trend‹ nannte ihn den ›bösen Buben‹ der Wirtschaftskrise, der den Mittelstand unterhaltsam beschimpft, und die Wiener Zeitung hielt ›Gegengift‹ für zugänglich und nützlich für Leser mit wenig ökonomischem Wissen. Für den Typ ist das stimmig: Die Sechs misstraut Systemen, die Sicherheit versprechen, und baut stattdessen ihr eigenes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Allen, Couric und Maas</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den Porträts dieses Kompasses stehen mehrere SE6w7er, und der Vergleich zeigt, wie unterschiedlich Absicherung aussehen kann. <a href="#beruehmte-woody-allen">Woody Allen (SE6w7)</a> machte aus seiner Angst Pointen und blieb im vertrauten New Yorker Revier. <a href="#beruehmte-katie-couric">Katie Couric (SE6w7)</a> übersetzte die eigene Krebserfahrung in dauerhafte Vorsorge. <a href="#beruehmte-heiko-maas">Heiko Maas (SE6w7)</a> suchte Halt in Partei, Gewerkschaft und Rechtsordnung und schrieb später selbst Gesetze.</p>
+          <p class="vb-intro">Hörhan geht den entgegengesetzten Weg: Nicht Institutionen sollen ihn sichern, sondern sein eigener Besitz, und Bindung ersetzt er durch Unabhängigkeit. Wo Maas auf Regeln und Zugehörigkeit setzt, setzt Hörhan auf Immobilien, Reserven und Verträge. Die Gemeinsamkeit mit Couric ist die Praxis: Beide übersetzen Angst in handfeste Schutzmaßnahmen, nur dass seine Schutzmaßnahme eine Wohnung ist. Und mit Allen verbindet ihn die Lust am Auftritt, die aus der Sorge Unterhaltung macht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Sechs mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Konsequenz: Hörhan hat aus einer kleinen Familie mit wenig Geld früh eine klare Richtung gemacht und sie diszipliniert verfolgt. Er nennt Ehrlichkeit, Handschlagqualität und Charakter als wichtige Werte und sagt auf die Frage, ob er glücklich sei: ›Ja.‹ Er sei ›sehr zufrieden‹. Er glaubt, man werde glücklich, wenn man eine Aufgabe im Leben sucht.</p>
+          <p class="vb-intro">Der Schatten ist die Angst, die ihr Gegenmittel nie ganz wirksam findet. Er sagt auch: ›Ich habe privat nie die Erfüllung gefunden, die ich in meinen Geschäften gefunden habe‹ und dass er sich noch nie verliebt habe. Eine Sechs, die Sicherheit im Besitz sucht, erfährt, dass Besitz vor Verlust schützt, aber nicht automatisch Erfüllung im Privaten bringt. Im Oktober 2011 wurde der Handel mit den Genussscheinen seiner Life Settlement Holding AG an der Wiener Börse ausgesetzt; die Finanzmarktaufsicht prüfte den Verdacht eines unerlaubten Bankgeschäfts. Ein Ergebnis dieser Prüfung wird in den vorliegenden Quellen nicht genannt, für Hörhan gilt die Unschuldsvermutung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: weiter als Investment Punk unterwegs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 22. Oktober 2026) wird Gerald Hörhan am 28. Oktober 2026 51 Jahre alt. Er ist Gründer und Geschäftsführer der Investment Punk Academy, und für den 26. September 2026 wurde ein Immobilienseminar mit ihm in München beworben. Sein jüngstes Buch ist ›Der Einzimmer-Millionär‹ (2023).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se6", label:"Lebensmusterkompass: SE6 – Kaninchen"},
+        {route:"beruehmte-woody-allen", label:"Porträt: Woody Allen (SE6w7) – derselbe Subtyp und Flügel"},
+        {route:"beruehmte-katie-couric", label:"Porträt: Katie Couric (SE6w7)"},
+        {route:"beruehmte-heiko-maas", label:"Porträt: Heiko Maas (SE6w7)"},
+      ])}
+    </div>
+  `);
+}
