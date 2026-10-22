@@ -2764,3 +2764,75 @@ export function hallaTomasdottirPortraitPage() {
     </div>
   `);
 }
+
+export function michaelGregerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-greger-portrait.jpg" alt="Michael Greger – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-michael-greger-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Michael Greger</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Arzt und Autor, geb. 1972 &ndash; &rsaquo;How Not to Die&lsaquo;, NutritionFacts.org &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen: der Neunjährige, der seine Großmutter zurückkehren sah</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> legt Vorräte an und kennt jeden Fluchtweg, bevor es ihn braucht. Michael Greger wurde am 25. Oktober 1972 in Miami, Florida, geboren. Er sagt, er habe mit neun Jahren beschlossen, Medizin zu studieren, und zwar wegen seiner Großmutter. In seinem Buch beschreibt er, wie seine Großmutter Frances Greger nach so vielen Bypass-Operationen, dass die Chirurgen am Ende waren, im Rollstuhl nach Hause geschickt wurde, um zu sterben. Kurz danach sah sie im Fernsehen einen Bericht über Nathan Pritikin und seine Ernährungs- und Lebensstilprogramme, ging in sein Programm und verließ es, nach der Darstellung in der Pritikin-Biografie, ohne Rollstuhl: Sie sei innerhalb von drei Wochen zehn Meilen am Tag gelaufen und habe dann noch viele Jahre gelebt; sie wurde 96. Die Angaben zu den Einzelheiten schwanken je nach Quelle.</p>
+          <p class="vb-intro">Er sagt dazu, anders als viele Kinder, die Arzt werden, weil ein geliebter Mensch krank wurde oder starb, sei es bei ihm gewesen: ›Ich sah meine Oma gesund werden.‹ Ein Kind erlebt, dass die Angst vor einem Verlust abgewendet werden kann, und macht das Abwenden zu seinem Beruf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Sicherheit durch Vorsorge und System</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sechs rechnet mit dem Schlimmsten und will vorbereitet sein. Die <strong>selbsterhaltende Sechs (SE6)</strong> nannte Claudio Naranjo den Subtyp der ›Wärme‹: Sie sichert sich ganz konkret ab, im eigenen Körper, im eigenen Haushalt, im unmittelbaren Umfeld. Bei Greger lässt sich diese Absicherung als Programm lesen. Sein Weg beginnt bei der Frage, wie man dem Tod ausweicht, und führt zur Antwort, dass man dafür ein System braucht.</p>
+          <p class="vb-intro">Das Muster zeigt sich auch bei seinen frühen Themen. 1994, als Student im dritten Studienjahr in Cornell, schrieb er auf einer selbst betriebenen Website über den Rinderwahn und arbeitete dann für Farm Sanctuary. Er wurde nach dem Besuch eines Schlachthofs für diese Arbeit Veganer. 2004 wurde er mit dem Satz zitiert, der Rinderwahn sei die ›Pest des 21. Jahrhunderts‹; er sagte später, er habe das nur als Frage formuliert. 2006 erschien sein Buch über die Vogelgrippe. Ein Rezensent bemängelte 2007, es konzentriere sich stark auf Untergangsszenarien und biete wenig praktische Ratschläge. Eine Sechs sieht die Gefahr früh und benennt sie laut, und sie hängt daran, dass es für jede Gefahr eine Vorkehrung gibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Wissen als Schutz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der Sechs eine sammelnde, wissensorientierte Seite: Wer die Quellen kennt, ist weniger ausgeliefert. Eine Sechs mit schwächer ausgeprägtem Fünferflügel hätte sich vielleicht auf Warnungen beschränkt; Greger belegt sie. Seine Videos auf NutritionFacts.org kommen mit Transkripten und Quellenlisten, jeden Werktag erscheint ein neues, die meisten spricht er selbst. Er studierte Landwirtschaft in Cornell (1995), danach Medizin an der Tufts University, wo er zunächst das MD/PhD-Programm begann und dann nur den MD machte (1999).</p>
+          <p class="vb-intro">Das passt zur Selbstbeschreibung der Seite: Sie veröffentlicht nach eigener Darstellung belegte Aussagen und finanziert sich aus Spenden und Stiftungsgeldern. Wissen in Form von Studien ist für ihn die Antwort auf die Frage der Sechs, was man tun kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Gesundheitsaufklärung, Rinderskandal und Bücher</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1998 trat er als Sachverständiger im erfolglosen Verleumdungsprozess von Rinderzüchtern gegen Oprah Winfrey auf, die 1996 über die Sicherheit von Fleisch gesprochen hatte. Ab 2005 war er Direktor für öffentliche Gesundheit und Tierhaltung bei der Humane Society of the United States. 2008 sagte er vor dem US-Kongress aus, nachdem ein verdecktes Video der Humane Society aus dem Schlachtbetrieb Westland Meat Packing erschienen war; das Landwirtschaftsministerium rief danach 143 Millionen Pfund Rindfleisch zurück. 2011 gründete er NutritionFacts.org, eine gemeinnützige Seite mit belegten Videos.</p>
+          <p class="vb-intro">Seine Bücher: ›How Not to Die‹ (›Wie man nicht stirbt‹, 2015, mit Gene Stone, dreimal auf der Bestsellerliste der New York Times), ›How Not to Diet‹ (2019), ›How to Survive a Pandemic‹ (2020), ›How Not to Age‹ (2023), ›Ozempic: Risks, Benefits, and Natural Alternatives to GLP-1 Weight-Loss Drugs‹ (2024) und 2026 ›Ultra-Processed Foods: Concerns, Controversies, and Exceptions‹. 2017 erhielt er den Trailblazer Award des American College of Lifestyle Medicine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Lauterbach, Masala und Pichai</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den Porträts dieses Kompasses stehen mehrere SE6w5er, und der Vergleich zeigt, wie unterschiedlich die Sechs ihre Sorge in Wissen übersetzt. <a href="#beruehmte-karl-lauterbach">Karl Lauterbach (SE6w5)</a> stützte seine Warnungen in der Corona-Pandemie auf Studien und Modellrechnungen, oft im schlechtestmöglichen Szenario. <a href="#beruehmte-carlo-masala">Carlo Masala (SE6w5)</a> entwirft Szenarien, damit man dem Schlimmsten vorbereitet begegnet. <a href="#beruehmte-sundar-pichai">Sundar Pichai (SE6w5)</a> macht Information zur Sicherheit.</p>
+          <p class="vb-intro">Greger liegt dicht bei Lauterbach: Beide warnen mit Fachwissen und geben der Angst die Form von Daten. Der Unterschied: Greger will keine Entscheidung herbeiführen wie ein Politiker, sondern Menschen einen Alltag geben, der Gefahr abwehrt. Mit Masala teilt er die Neigung zum Szenario, mit Pichai die Quellenfreude.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Sechs mit Fünferflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Offenheit der Quellen: Wer jeden Werktag ein Video mit Belegen veröffentlicht, lässt sich prüfen. Die Familiengeschichte gibt dem Ganzen Wärme: Seine Seite und sein Buch erzählen von einem Kind, das gesehen hat, wie eine Angst vor dem Verlust abgewendet werden kann.</p>
+          <p class="vb-intro">Der Schatten der Sechs ist, dass die Wachsamkeit die Gefahr größer zeichnet. Kritiker sagen das auch zu Greger: Die Ärztin Harriet Hall (›Science-Based Medicine‹) meint, er überschätze oft die Vorteile pflanzlicher Ernährung und die Schäden tierischer Produkte und lasse manchmal Gegenbelege weg. Der Chemiker Joseph Schwarcz (McGill University) sieht in seiner Arbeit eine vegane Agenda und eine Auswahl der Daten nach Passung. Morgan Pfiffner (›Red Pen Reviews‹, 2024) bewertete ›How Not to Diet‹ mit 50 Prozent für wissenschaftliche Genauigkeit und 75 Prozent für Gesundheitsförderlichkeit, und Jonathan Jarry (McGill, 2026) wirft ihm vor, synthetische Stoffe zu verteufeln und schwache Studien zu pflanzlichen Stoffen unkritisch aufzugreifen. Bei ihm verbinden sich Sorge, Quellen und Sendungsbewusstsein.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: weiter mit NutritionFacts.org</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 22. Oktober 2026) wird Michael Greger am 25. Oktober 2026 54 Jahre alt. Er leitet weiter die gemeinnützige Seite NutritionFacts.org, sein Podcast ›Nutrition Facts with Dr. Greger‹ wurde 2025 bei den VegNews Veggie Awards als bester Podcast ausgezeichnet, und 2025 und 2026 erschienen weitere Bücher. Er sitzt im Expertengremium von U.S. News &amp; World Report, das die ›besten Diäten‹ bewertet.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se6", label:"Lebensmusterkompass: SE6 – Kaninchen"},
+        {route:"beruehmte-karl-lauterbach", label:"Porträt: Karl Lauterbach (SE6w5) – derselbe Subtyp und Flügel"},
+        {route:"beruehmte-carlo-masala", label:"Porträt: Carlo Masala (SE6w5)"},
+        {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
+      ])}
+    </div>
+  `);
+}

@@ -2689,3 +2689,75 @@ export function augusteRodinPortraitPage() {
     </div>
   `);
 }
+
+export function michaelGregerPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-michael-greger-portrait.jpg" alt="Michael Greger – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-michael-greger-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Michael Greger</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Self-Preservation Type 6 with a Five-wing</p>
+        <p class="krim-portrait-subtitle">American physician and author, b. 1972 &ndash; &lsquo;How Not to Die&rsquo;, NutritionFacts.org &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit: the nine-year-old who saw his grandmother come back</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> lays in stores and knows every escape route before it needs it. Michael Greger was born on 25 October 1972 in Miami, Florida. He says he decided at nine to study medicine, because of his grandmother. In his book he describes how his grandmother Frances Greger, after so many bypass operations that the surgeons had run out of options, was sent home in a wheelchair to die. Soon after she saw a television report about Nathan Pritikin and his diet and lifestyle programmes, went to his programme and, according to the Pritikin biography, left it without the wheelchair: within three weeks she is said to have walked ten miles a day and then lived many more years; she became 96. Details vary by source.</p>
+          <p class="vb-intro">He says that, unlike many children who become doctors because a loved one fell ill or died, in his case it was: &lsquo;I watched my grandma get better.&rsquo; A child experiences that the fear of a loss can be averted, and makes averting it his profession.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Six: security through prevention and system</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six reckons with the worst and wants to be prepared. Claudio Naranjo called the <strong>self-preservation Six (SE6)</strong> the subtype of &lsquo;warmth&rsquo;: it secures itself very concretely, in its own body, its own household, its immediate surroundings. In Greger this securing can be read as a programme. His path begins with the question how to avoid death and leads to the answer that one needs a system for it.</p>
+          <p class="vb-intro">The pattern shows in his early themes too. In 1994, as a junior at Cornell, he wrote on a self-run website about mad cow disease and then worked for Farm Sanctuary. After touring a stockyard for that work he became vegan. In 2004 he was quoted as calling mad cow disease the &lsquo;plague of the 21st century&rsquo;; he later said he had only posed it as a question. In 2006 his book on bird flu appeared. A reviewer complained in 2007 that it concentrates heavily on doomsday scenarios and offers little practical advice. A Six sees danger early and names it loudly, and it clings to the idea that there is a precaution for every danger.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: knowledge as protection</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the Six a collecting, knowledge-oriented side: whoever knows the sources is less at their mercy. A Six with a weaker Five-wing might have limited itself to warnings; Greger documents them. His videos on NutritionFacts.org come with transcripts and lists of citations, a new one appears every weekday, most of them narrated by him. He studied agriculture at Cornell (1995), then medicine at Tufts University, where he first began the MD/PhD programme and then took only the MD (1999).</p>
+          <p class="vb-intro">That fits the site&rsquo;s self-description: by its own account it publishes referenced statements and is funded by donations and foundation grants. Knowledge in the form of studies is for him the answer to the Six&rsquo;s question of what one can do.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: health education, the beef scandal and books</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1998 he appeared as an expert witness in the unsuccessful libel suit by cattle producers against Oprah Winfrey, who in 1996 had spoken about the safety of meat. From 2005 he was director of public health and animal agriculture at the Humane Society of the United States. In 2008 he testified before the US Congress after an undercover video by the Humane Society from the slaughterhouse Westland Meat Packing appeared; the Department of Agriculture then recalled 143 million pounds of beef. In 2011 he founded NutritionFacts.org, a non-profit site of referenced videos.</p>
+          <p class="vb-intro">His books: &lsquo;How Not to Die&rsquo; (2015, with Gene Stone, three times on the New York Times bestseller list), &lsquo;How Not to Diet&rsquo; (2019), &lsquo;How to Survive a Pandemic&rsquo; (2020), &lsquo;How Not to Age&rsquo; (2023), &lsquo;Ozempic: Risks, Benefits, and Natural Alternatives to GLP-1 Weight-Loss Drugs&rsquo; (2024) and in 2026 &lsquo;Ultra-Processed Foods: Concerns, Controversies, and Exceptions&rsquo;. In 2017 he received the Trailblazer Award of the American College of Lifestyle Medicine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Lauterbach, Masala and Pichai</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Several SE6w5s stand among the portraits in this Compass, and the comparison shows how differently the Six translates its worry into knowledge. <a href="#beruehmte-karl-lauterbach">Karl Lauterbach (SE6w5)</a> backed his warnings in the Covid pandemic with studies and model calculations, often in the worst-case scenario. <a href="#beruehmte-carlo-masala">Carlo Masala (SE6w5)</a> draws up scenarios so that one meets the worst prepared. <a href="#beruehmte-sundar-pichai">Sundar Pichai (SE6w5)</a> makes information security.</p>
+          <p class="vb-intro">Greger is close to Lauterbach: both warn with expertise and give fear the form of data. The difference: Greger does not want to bring about a decision like a politician but to give people an everyday life that fends off danger. With Masala he shares the inclination to scenarios, with Pichai the delight in sources.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Six with a Five-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the openness of the sources: whoever publishes a video with citations every weekday can be checked. The family history gives the whole warmth: his site and book tell of a child who saw how a fear of loss can be averted.</p>
+          <p class="vb-intro">The shadow of the Six is that vigilance draws the danger larger. Critics say this of Greger too: the physician Harriet Hall (&lsquo;Science-Based Medicine&rsquo;) thinks he often overstates the benefits of plant-based diets and the harms of animal products and sometimes omits contrary evidence. The chemist Joseph Schwarcz (McGill University) sees a vegan agenda in his work and a selection of data by fit. Morgan Pfiffner (&lsquo;Red Pen Reviews&rsquo;, 2024) rated &lsquo;How Not to Diet&rsquo; 50 percent for scientific accuracy and 75 percent for healthfulness, and Jonathan Jarry (McGill, 2026) accuses him of demonising synthetic substances and taking up weak studies on plant substances uncritically. In him worry, sources and a sense of mission combine.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: still with NutritionFacts.org</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 22 October 2026) Michael Greger turns 54 on 25 October 2026. He continues to lead the non-profit site NutritionFacts.org, his podcast &lsquo;Nutrition Facts with Dr. Greger&rsquo; was voted best podcast at the VegNews Veggie Awards in 2025, and further books appeared in 2025 and 2026. He sits on the expert panel of U.S. News &amp; World Report that ranks the &lsquo;best diets&rsquo;.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SE6 – Rabbit"},
+        {route:"beruehmte-karl-lauterbach", label:"Portrait: Karl Lauterbach (SE6w5) – same subtype and wing"},
+        {route:"beruehmte-carlo-masala", label:"Porträt: Carlo Masala (SE6w5)"},
+        {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
