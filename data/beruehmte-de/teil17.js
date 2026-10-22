@@ -722,6 +722,7 @@ export function inaMuellerPortraitPage() {
         {route:"subtype/sx7", label:"SX7 \u2013 Der Schimpanse: Subtyp-Profil"},
         {route:"beruehmte-thomas-gottschalk", label:"Portr\u00e4t: Thomas Gottschalk (SX7w6)"},
         {route:"beruehmte-caroline-peters", label:"Porträt: Caroline Peters (SX7w6)"},
+        {route:"beruehmte-christian-kohlund", label:"Porträt: Christian Kohlund (SX7w8)"},
       ])}
     </div>
   `);

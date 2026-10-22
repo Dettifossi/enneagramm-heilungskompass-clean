@@ -2706,6 +2706,7 @@ export function johnTravoltaPortraitPage() {
         {route:"beruehmte-adriano-celentano", label:"Porträt: Adriano Celentano (SX7w8) – derselbe Subtyp und Flügel"},
         {route:"beruehmte-shakira", label:"Porträt: Shakira (SX7w8)"},
         {route:"beruehmte-boris-becker", label:"Porträt: Boris Becker (SX7w8)"},
+        {route:"beruehmte-christian-kohlund", label:"Porträt: Christian Kohlund (SX7w8)"},
       ])}
     </div>
   `);

@@ -2682,3 +2682,75 @@ export function geraldHoerhanPortraitPage() {
     </div>
   `);
 }
+
+export function christianKohlundPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-christian-kohlund-portrait.jpg" alt="Christian Kohlund – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-christian-kohlund-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Christian Kohlund</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Schweizer Schauspieler, geb. 1950 &ndash; Schwarzwaldklinik, Zürich-Krimi &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse: aufgewachsen zwischen Bühne und Kamera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> lebt im Rudel, spielt, probiert aus und sucht die Aufmerksamkeit der Gruppe. Christian Kohlund wurde am 17. August 1950 in Basel geboren und wuchs am Zürichsee auf, in einer Schauspielerfamilie: Der Vater Erwin Kohlund war Schauspieler und Regisseur, die Mutter Margit Winter Theaterschauspielerin, der Großvater Ekkehard Kohlund Intendant des Berner Stadttheaters, die Schwester Franziska ebenfalls Schauspielerin und Regisseurin. Schon mit acht Jahren stand er an der Seite seines Vaters vor der Kamera, im Film ›Die Käserei in der Vehfreude‹.</p>
+          <p class="vb-intro">Nach dem Abitur zog ihn zuerst die Technik an: Er arbeitete als Regie-, Kamera- und Produktionsassistent und wurde erst danach Schauspieler. 1970 bis 1972 studierte er am Max-Reinhardt-Seminar in Wien.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: neugierig auf immer neue Welten</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sieben sucht Erlebnisse und hält sich Möglichkeiten offen. Die <strong>sexuelle Sieben (SX7)</strong> nannte Claudio Naranjo den Subtyp der ›Suggestibility‹ (Beeinflussbarkeit durch Faszination): Sie lässt sich von einer Welt, einer Figur oder einem Menschen entzünden und geht mit ganzer Intensität hinein. Bei Kohlund zeigt sich das im Wechsel der Schauplätze und Rollen. Er begann 1972 am Schiller Theater in Berlin und spielte danach an Bühnen in Berlin, München und Zürich, nach Berichten daneben auch als Student in Cambridge. Das Fernsehen führte ihn in australische Serien (›Im Tal der Sonne‹, ›Bony‹), in französische Miniserien und in internationale Produktionen mit Richard Harris, Gary Oldman und Michel Piccoli.</p>
+          <p class="vb-intro">Er spielte den Hohepriester Kaiphas in der Miniserie ›Jesus‹ (1999) und Lepidus in ›Julius Caesar‹ (2003), also Figuren aus ganz verschiedenen Welten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Präsenz und Gewicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Sieben Kraft, Direktheit und Durchsetzungswillen. Eine Sieben mit schwächer ausgeprägtem Achterflügel wäre leichter, spielerischer; Kohlund fällt in Rollen mit Gewicht: Professor Vollmers in ›Die Schwarzwaldklinik‹ (1986 bis 1989, 35 Folgen), der Hotelier Markus Winter in ›Das Traumhotel‹ (2004 bis 2014), der Anwalt Thomas Borchert im ›Zürich-Krimi‹. Mit der sonoren Stimme, für die er bekannt ist, besetzt man ihn als Menschen, die Autorität haben und andere führen.</p>
+          <p class="vb-intro">Dazu passt, dass er Regie führt: Er inszenierte und spielte das Bühnenstück ›Im Zweifel für den Angeklagten‹, das bis ins Victory Gardens Theatre nach Chicago tourte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: fünf Jahrzehnte im deutschsprachigen Fernsehen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Sein Kinodebüt gab Kohlund 1973 in Maximilian Schells Oscar-nominiertem Spielfilm ›Der Fußgänger‹. Es folgten Filme wie ›Die Brücke von Zupanja‹ und ›Das chinesische Wunder‹, mehrere Folgen von ›Derrick‹ (1978 und 1985) und ab Mitte der 1970er-Jahre eine lange Fernsehlaufbahn. Zu den bekanntesten Stationen gehören ›Die Schwarzwaldklinik‹, ›Anna Maria – Eine Frau geht ihren Weg‹ (1994 bis 1996), ›Das Traumhotel‹ und seit 2016 der ›Zürich-Krimi‹, den nach einem Bericht regelmäßig über sieben Millionen Menschen sehen. Dazu kommen Gastrollen etwa im ›Bergdoktor‹ und in ›Nord Nord Mord‹.</p>
+          <p class="vb-intro">Er gewann den Prix Walo als beliebtester Schauspieler der Schweiz. Als Hobbys nennt eine Biografie Fotografie und Golf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Travolta, Celentano und Ina Müller</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den SX7w8ern dieses Kompasses finden sich mehrere Darsteller und Entertainer. <a href="#beruehmte-john-travolta">John Travolta (SX7w8)</a> sucht wie Kohlund die Bühne, die Kamera und neue Rollen, und teilt den Hang zur Verwandlung. <a href="#beruehmte-adriano-celentano">Adriano Celentano (SX7w8)</a> bleibt über Jahrzehnte im Rampenlicht und unterhält ein Publikum, das ihn mag. <a href="#beruehmte-ina-mueller">Ina Müller (SX7w8)</a> bringt Lebenslust und Direktheit mit, die man auch bei Kohlunds Auftreten spürt.</p>
+          <p class="vb-intro">Der Unterschied: Travolta und Celentano sind Gesicht und Stimme ihrer eigenen Show; Kohlund tritt eher als Figur in einem Ensemble auf, als Professor, Hotelier oder Anwalt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Sieben mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Neugier, in der Bandbreite und in der Beständigkeit, mit der er über Jahrzehnte immer wieder neue Welten betrat. Die Ruhe, die er im Bayerischen Wald findet, wo er mit seiner Frau lebt, zeigt auch eine Gegenseite zur Unruhe der Dreharbeiten.</p>
+          <p class="vb-intro">Der Schatten der Sieben liegt darin, dass der Beruf den Alltag verdrängt. Im November 2024 sagte er in einem Interview mit der Deutschen Presse-Agentur über seine Rolle als Großvater: ›Ich könnte sicher besser werden als Opa.‹ Er ist oft wochenlang beim Dreh und findet die Enkelkinder ›fabelhaft‹. Die Ehrlichkeit, mit der er das sagt, gehört zum Bild.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Schauspieler im Bayerischen Wald</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 23. Oktober 2026) ist Christian Kohlund 76 Jahre alt, lebt im Bayerischen Wald und spielt im ›Zürich-Krimi‹ den Anwalt Thomas Borchert.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-john-travolta", label:"Porträt: John Travolta (SX7w8)"},
+        {route:"beruehmte-adriano-celentano", label:"Porträt: Adriano Celentano (SX7w8)"},
+        {route:"beruehmte-ina-mueller", label:"Porträt: Ina Müller (SX7w8)"},
+      ])}
+    </div>
+  `);
+}

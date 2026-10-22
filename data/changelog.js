@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2572", date: "2026-10-23", text: "Neues Porträt: Christian Kohlund (SX7w8) – Schweizer Schauspieler (Die Schwarzwaldklinik, Zürich-Krimi).", text_en: "New portrait: Christian Kohlund (SX7w8) – Swiss actor (Die Schwarzwaldklinik, Zürich-Krimi).", route: "beruehmte-christian-kohlund" },
     { version: "v2571", date: "2026-10-23", text: "Neues Porträt: Isabell Gerschke (SX7w6) – Schauspielerin (Polizeiruf 110, In aller Freundschaft).", text_en: "New portrait: Isabell Gerschke (SX7w6) – actress (Polizeiruf 110, In aller Freundschaft).", route: "beruehmte-isabell-gerschke" },
     { version: "v2570", date: "2026-10-23", text: "Neues Porträt: Dr. Ulrich Selz (SO6w5) – Arzt und Autor (Der Darm-Doc).", text_en: "New portrait: Dr. Ulrich Selz (SO6w5) – physician and author (Der Darm-Doc).", route: "beruehmte-ulrich-selz" },
     { version: "v2569", date: "2026-10-22", text: "Neues Porträt: Andreas Gruber (SO6w5) – österreichischer Thriller-Autor.", text_en: "New portrait: Andreas Gruber (SO6w5) – Austrian thriller author.", route: "beruehmte-andreas-gruber" },

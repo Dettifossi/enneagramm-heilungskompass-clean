@@ -722,6 +722,7 @@ export function inaMuellerPortraitPage() {
         {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
         {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
         {route:"beruehmte-caroline-peters", label:"Portrait: Caroline Peters (SX7w6)"},
+        {route:"beruehmte-christian-kohlund", label:"Portrait: Christian Kohlund (SX7w8)"},
       ])}
     </div>
   `);
@@ -2402,6 +2403,7 @@ export function adrianoCelentanoPortraitPage() {
         {route:"beruehmte-serena-williams", label:"Portrait: Serena Williams (SX7w8)"},
         {route:"beruehmte-johann-lafer", label:"Portrait: Johann Lafer (SP7w8)"},
         {route:"beruehmte-john-travolta", label:"Portrait: John Travolta (SX7w8)"},
+        {route:"beruehmte-christian-kohlund", label:"Portrait: Christian Kohlund (SX7w8)"},
       ])}
     </div>
   `);

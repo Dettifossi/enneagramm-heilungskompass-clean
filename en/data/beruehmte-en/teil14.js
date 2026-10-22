@@ -2767,3 +2767,75 @@ export function fabriceLuchiniPortraitPage() {
     </div>
   `);
 }
+
+export function christianKohlundPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-christian-kohlund-portrait.jpg" alt="Christian Kohlund – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-christian-kohlund-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Christian Kohlund</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with an Eight-wing</p>
+        <p class="krim-portrait-subtitle">Swiss actor, b. 1950 &ndash; Schwarzwaldklinik, Zürich-Krimi &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee: growing up between stage and camera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> lives in the troop, plays, tries things out and seeks the attention of the group. Christian Kohlund was born on 17 August 1950 in Basel and grew up on Lake Zurich, in an acting family: his father Erwin Kohlund was an actor and director, his mother Margit Winter a stage actress, his grandfather Ekkehard Kohlund director of the Bern City Theatre, his sister Franziska likewise an actress and director. At the age of eight he already stood in front of the camera beside his father, in the film &lsquo;Die Käserei in der Vehfreude&rsquo; (&lsquo;The Cheese Dairy in Vehfreude&rsquo;).</p>
+          <p class="vb-intro">After school-leaving exams the technical side attracted him first: he worked as assistant director, camera assistant and production assistant and became an actor only afterwards. From 1970 to 1972 he studied at the Max Reinhardt Seminar in Vienna.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: curious about ever new worlds</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven seeks experiences and keeps options open. Claudio Naranjo called the <strong>sexual Seven (SX7)</strong> the subtype of &lsquo;suggestibility&rsquo; (being swayed by fascination): it is kindled by a world, a character or a person and goes in with full intensity. In Kohlund this shows in the change of settings and roles. He began in 1972 at the Schiller Theater in Berlin and then played on stages in Berlin, Munich and Zurich, according to reports also studying in Cambridge. Television took him into Australian series (&lsquo;Im Tal der Sonne&rsquo;, &lsquo;Bony&rsquo;), French miniseries and international productions with Richard Harris, Gary Oldman and Michel Piccoli.</p>
+          <p class="vb-intro">He played the high priest Caiaphas in the miniseries &lsquo;Jesus&rsquo; (1999) and Lepidus in &lsquo;Julius Caesar&rsquo; (2003), figures from very different worlds.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: presence and weight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Seven strength, directness and assertiveness. A Seven with a weaker Eight-wing would be lighter, more playful; Kohlund lands in roles with weight: Professor Vollmers in &lsquo;Die Schwarzwaldklinik&rsquo; (&lsquo;The Black Forest Clinic&rsquo;, 1986 to 1989, 35 episodes), the hotelier Markus Winter in &lsquo;Das Traumhotel&rsquo; (&lsquo;The Dream Hotel&rsquo;, 2004 to 2014), the lawyer Thomas Borchert in the &lsquo;Zürich-Krimi&rsquo; (&lsquo;Zurich Crime&rsquo;). With the sonorous voice he is known for, he is cast as people who have authority and lead others.</p>
+          <p class="vb-intro">It fits that he directs: he staged and acted in the play &lsquo;Im Zweifel für den Angeklagten&rsquo; (&lsquo;The Benefit of the Doubt&rsquo;), which toured as far as the Victory Gardens Theater in Chicago.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: five decades in German-language television</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kohlund made his film debut in 1973 in Maximilian Schell&rsquo;s Oscar-nominated feature &lsquo;Der Fußgänger&rsquo; (&lsquo;The Pedestrian&rsquo;). Films such as &lsquo;Die Brücke von Zupanja&rsquo; (&lsquo;The Bridge at Zupanja&rsquo;) and &lsquo;Das chinesische Wunder&rsquo; (&lsquo;The Chinese Miracle&rsquo;) followed, several episodes of &lsquo;Derrick&rsquo; (1978 and 1985) and from the mid-1970s a long television career. Among the best-known stations are &lsquo;Die Schwarzwaldklinik&rsquo;, &lsquo;Anna Maria – Eine Frau geht ihren Weg&rsquo; (&lsquo;Anna Maria – A Woman Goes Her Way&rsquo;, 1994 to 1996), &lsquo;Das Traumhotel&rsquo; and since 2016 the &lsquo;Zürich-Krimi&rsquo;, which according to a report regularly draws over seven million viewers. Added to this are guest roles for example in &lsquo;Der Bergdoktor&rsquo; and &lsquo;Nord Nord Mord&rsquo;.</p>
+          <p class="vb-intro">He won the Prix Walo as the most popular actor in Switzerland. As hobbies a biography names photography and golf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Travolta, Celentano and Ina Müller</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-john-travolta">John Travolta (SX7w8)</a> seeks, like Kohlund, the stage, the camera and new roles, and shares the leaning toward transformation. <a href="#beruehmte-adriano-celentano">Adriano Celentano (SX7w8)</a> stays in the spotlight over decades and entertains an audience that likes him. <a href="#beruehmte-ina-mueller">Ina Müller (SX7w8)</a> brings zest for life and directness that one also feels in Kohlund&rsquo;s presence. Several SX7w8s in this Compass are performers and entertainers.</p>
+          <p class="vb-intro">The difference: Travolta and Celentano are the face and voice of their own show; Kohlund appears rather as a figure in an ensemble, as professor, hotelier or lawyer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Seven with an Eight-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in curiosity, in range and in the constancy with which he kept entering new worlds over decades. The calm he finds in the Bavarian Forest, where he lives with his wife, also shows a counterpart to the restlessness of shooting.</p>
+          <p class="vb-intro">The shadow of the Seven lies in the profession displacing everyday life. In November 2024 he said in an interview with the German Press Agency about his role as grandfather: &lsquo;I could surely become better as a grandpa&rsquo; (original German: &lsquo;Ich könnte sicher besser werden als Opa&rsquo;). He is often away for weeks shooting and finds his grandchildren &lsquo;fabulous&rsquo;. The honesty with which he says it belongs to the picture.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: actor in the Bavarian Forest</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 23 October 2026) Christian Kohlund is 76 years old, lives in the Bavarian Forest and plays the lawyer Thomas Borchert in the &lsquo;Zürich-Krimi&rsquo;.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-john-travolta", label:"Porträt: John Travolta (SX7w8)"},
+        {route:"beruehmte-adriano-celentano", label:"Porträt: Adriano Celentano (SX7w8)"},
+        {route:"beruehmte-ina-mueller", label:"Porträt: Ina Müller (SX7w8)"},
+      ])}
+    </div>
+  `);
+}
