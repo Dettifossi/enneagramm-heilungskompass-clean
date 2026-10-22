@@ -255,6 +255,7 @@ export function borisBeckerPortraitPage() {
         {route:"beruehmte-serena-williams", label:"Portrait: Serena Williams (SX7w8)"},
         {route:"beruehmte-shakira", label:"Portrait: Shakira (SX7w8)"},
         {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SE7w6)"},
+        {route:"beruehmte-john-travolta", label:"Portrait: John Travolta (SX7w8)"},
       ])}
     </div>
   `);
@@ -2686,6 +2687,79 @@ export function adaLovelacePortraitPage() {
         {route:"beruehmte-elon-musk", label:"Portrait: Elon Musk (SO7w6) – same subtype and wing"},
         {route:"beruehmte-alan-turing", label:"Portrait: Alan Turing (SX5w4) – pioneer of computer science"},
         {route:"beruehmte-konrad-zuse", label:"Portrait: Konrad Zuse (SE1w9) – builder of the Z3"},
+      ])}
+    </div>
+  `);
+}
+
+export function johnTravoltaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-john-travolta-portrait.jpg" alt="John Travolta – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-john-travolta-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">John Travolta</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with an Eight-wing</p>
+        <p class="krim-portrait-subtitle">American actor, dancer and pilot, b. 1954 &ndash; &lsquo;Saturday Night Fever&rsquo;, &lsquo;Grease&rsquo;, &lsquo;Pulp Fiction&rsquo; &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee: the youngest of a theatre family from New Jersey</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> never keeps still for long: where something vibrates it joins in and pulls the others along. John Travolta was born on 18 February 1954 in Englewood, New Jersey, the youngest of six children. His father Salvatore &lsquo;Sam&rsquo; Travolta, of Italian descent, was a semi-professional football player and later a tire salesman, his mother Helen, of Irish descent, an actress and singer who later taught drama and English at a high school. The siblings Joey, Ellen, Ann, Margaret and Sam all became actors, inspired by the mother&rsquo;s love of theatre. He grew up Catholic, in a house he describes as culturally Irish.</p>
+          <p class="vb-intro">At 17 he left Dwight Morrow High School in 1971, went to New York and joined the touring company of the musical &lsquo;Grease&rsquo; as Doody. Broadway followed (&lsquo;Over Here!&rsquo;), small television roles such as in &lsquo;Emergency!&rsquo; (1972), in 1976 the bully Billy Nolan in Brian De Palma&rsquo;s &lsquo;Carrie&rsquo; and from 1975 to 1979 Vinnie Barbarino in the ABC series &lsquo;Welcome Back, Kotter&rsquo;. In July 1976 his song &lsquo;Let Her In&rsquo; reached number 10 on the Billboard Hot 100.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: fascination that infects</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven wants fullness and movement instead of lack and standstill. Claudio Naranjo called the <strong>sexual Seven (SX7)</strong> the subtype of &lsquo;suggestibility&rsquo;: it is swept away by an experience so completely that everyone present is infected. It acts not through control but through presence.</p>
+          <p class="vb-intro">In Travolta this becomes visible in 1977. &lsquo;Saturday Night Fever&rsquo; brought him an Oscar nomination for best actor at 24, then one of the youngest nominees in that category. In 1978 followed &lsquo;Grease&rsquo; as Danny Zuko, whose soundtrack stood at number 1 on the Billboard 200. The dance on the lit floor and the song on the stage are not planning but infection: the viewer wants to dance along. His private fascinations too are not scattered but bundled. In 1975, at 21, he joined the Church of Scientology after reading &lsquo;Dianetics&rsquo;. He is a private pilot, according to Wikipedia owns four planes and flew a former Qantas Boeing 707 that he named &lsquo;Jett Clipper Ella&rsquo;; in 2007 he was inducted into the &lsquo;Living Legends of Aviation&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: the one who keeps going after the crash</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Seven toughness and the refusal to give up. A Seven with a weaker Eight-wing would evade or start anew after a crash; Travolta stays on. After &lsquo;Urban Cowboy&rsquo; (1980) came failures: &lsquo;Blow Out&rsquo; (1981) was critically praised and a box-office flop, &lsquo;Staying Alive&rsquo; (1983) was a financial success and panned by critics, for the role he trained intensively and lost 20 pounds, &lsquo;Two of a Kind&rsquo; (1983) and &lsquo;Perfect&rsquo; (1985) failed. He turned down leads in &lsquo;American Gigolo&rsquo;, &lsquo;An Officer and a Gentleman&rsquo; and &lsquo;Splash&rsquo;. With &lsquo;Look Who&rsquo;s Talking&rsquo; (1989) came the turn (297 million dollars at the box office), in 1994 &lsquo;Pulp Fiction&rsquo; under Quentin Tarantino, his second Oscar nomination, and afterwards &lsquo;Get Shorty&rsquo; (1995, Golden Globe), &lsquo;Broken Arrow&rsquo;, &lsquo;Face/Off&rsquo; and more.</p>
+          <p class="vb-intro">He also held on to one project for years: &lsquo;Battlefield Earth&rsquo; (2000), after the novel by L. Ron Hubbard, which he had championed for a long time. The film was poorly reviewed, flopped at the box office, and his performance earned him two Razzie Awards. That is the Eight-wing: it stands by what it believes, even against all probability.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: dance, charm and versatility</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Travolta embodies dance in cinema like hardly anyone else: the white-suit style of &lsquo;Saturday Night Fever&rsquo; and the choreographies of &lsquo;Grease&rsquo; belong to the visual memory of the 20th century. He stayed flexible. In 2007 he played Edna Turnblad in &lsquo;Hairspray&rsquo;, his first musical role since &lsquo;Grease&rsquo;, in 2016 the lawyer Robert Shapiro in &lsquo;The People v. O. J. Simpson: American Crime Story&rsquo;, for which he was nominated for an Emmy. The ease with which he takes mishaps shows at the 2014 Oscars, when he mispronounced Idina Menzel&rsquo;s name, apologised and the slip became an internet meme. Menzel called the error &lsquo;one of the best things that happened&rsquo; to her.</p>
+          <p class="vb-intro">As a director he made his debut with &lsquo;Propeller One-Way Night Coach&rsquo;, a film based on his own 1997 book. It was shown at the Cannes Film Festival in 2026, where he received an Honorary Palme d&rsquo;Or, and was released on Apple TV on 29 May 2026.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Celentano, Shakira and Becker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Several SX7w8s stand among the portraits in this Compass, and the comparison shows how infection is joined with toughness. <a href="#beruehmte-adriano-celentano">Adriano Celentano (SX7w8)</a> brings rock&rsquo;n&rsquo;roll to Italy with an angular-elastic dance and has been married to the same woman for over sixty years, the SX7 focus on one bond. <a href="#beruehmte-shakira">Shakira (SX7w8)</a> turns dance into a shared intoxication and keeps control of her work. <a href="#beruehmte-boris-becker">Boris Becker (SX7w8)</a> pulled people along with his intensity for a decade and fell deeply.</p>
+          <p class="vb-intro">Travolta is close to Celentano: dance and movement as body language and a great bond that lasted decades (the marriage to Kelly Preston from 1991 until her death in 2020). With Shakira he shares the pull of the stage, with Becker the experience of rise, fall and return. Unlike Becker, his fall stayed professional: the return came with &lsquo;Pulp Fiction&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Seven with an Eight-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the warmth and the joy in dance and music. After his wife&rsquo;s death he said, according to reports of an interview with &lsquo;Esquire España&rsquo; in April 2021, that his priority was to find joy with his children Ella and Ben, especially when listening to music and dancing. In 2020 he announced that he would step back from work to be there for his children.</p>
+          <p class="vb-intro">The shadow of the Seven is the pain it would like to evade, and life confronted Travolta with it twice. On 2 January 2009 his son Jett died at 16 during a Christmas trip to the Bahamas; the death certificate named a seizure. In 2014 Travolta called it &lsquo;the worst thing that has ever happened to me&rsquo;. He founded the Jett Travolta Foundation for children with special needs. On 12 July 2020 his wife Kelly Preston died at 57 at home in Clearwater, Florida, two years after her breast cancer diagnosis. He has said that his family and Scientology helped him, and that he had not known whether he would make it. The Eight-wing shows in standing firm: he built a foundation out of the loss.</p>
+          <p class="vb-intro">He also had to fend off difficult accusations: in 2012 two masseurs filed suits that were later withdrawn or dismissed; his lawyer called the allegations &lsquo;complete fiction&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: director and honorary palme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 22 October 2026) John Travolta is 72 years old. Most recently, according to Wikipedia, his directorial debut &lsquo;Propeller One-Way Night Coach&rsquo; was in the foreground, shown at Cannes in 2026 and honoured with an Honorary Palme d&rsquo;Or. His awards include two Oscar nominations, a Golden Globe for &lsquo;Get Shorty&rsquo; (from six nominations), two Emmy nominations and in 2014 an IIFA award for outstanding achievement in international cinema.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-adriano-celentano", label:"Portrait: Adriano Celentano (SX7w8) – same subtype and wing"},
+        {route:"beruehmte-shakira", label:"Porträt: Shakira (SX7w8)"},
+        {route:"beruehmte-boris-becker", label:"Porträt: Boris Becker (SX7w8)"},
       ])}
     </div>
   `);

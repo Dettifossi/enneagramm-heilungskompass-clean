@@ -2635,3 +2635,76 @@ export function augusteRodinPortraitPage() {
     </div>
   `);
 }
+
+export function johnTravoltaPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-john-travolta-portrait.jpg" alt="John Travolta – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-john-travolta-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">John Travolta</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanischer Schauspieler, Tänzer und Pilot, geb. 1954 &ndash; &rsaquo;Saturday Night Fever&lsaquo;, &rsaquo;Grease&lsaquo;, &rsaquo;Pulp Fiction&lsaquo; &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse: das Nesthäkchen einer Theaterfamilie aus New Jersey</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> hält nie lange still: Wo etwas schwingt, steigt er ein und zieht die anderen mit. John Travolta wurde am 18. Februar 1954 in Englewood, New Jersey, als jüngstes von sechs Kindern geboren. Sein Vater Salvatore ›Sam‹ Travolta, italienischer Herkunft, war semiprofessioneller Footballspieler und später Reifenhändler, seine Mutter Helen, irischer Herkunft, Schauspielerin und Sängerin, die später an einer Highschool Theater und Englisch unterrichtete. Die Geschwister Joey, Ellen, Ann, Margaret und Sam wurden alle Schauspieler, inspiriert von der Liebe der Mutter zum Theater. Er wuchs katholisch auf, in einem Haus, das er als irisch geprägt beschreibt.</p>
+          <p class="vb-intro">Mit 17 verließ er 1971 die Dwight Morrow High School, ging nach New York und stieg in die Tournee des Musicals ›Grease‹ ein, als Doody. Es folgten der Broadway (›Over Here!‹), kleine Fernsehrollen wie in ›Emergency!‹ (1972), 1976 der Raufbold Billy Nolan in Brian De Palmas ›Carrie‹ und von 1975 bis 1979 Vinnie Barbarino in der ABC-Serie ›Welcome Back, Kotter‹. Im Juli 1976 erreichte sein Lied ›Let Her In‹ Platz 10 der Billboard Hot 100.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Faszination, die ansteckt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sieben will Fülle und Bewegung statt Mangel und Stillstand. Die <strong>sexuelle Sieben (SX7)</strong> nannte Claudio Naranjo den Subtyp der ›Suggestibility‹: Sie lässt sich von einem Erleben so vollständig mitreißen, dass sich alle Anwesenden anstecken lassen. Sie wirkt nicht durch Kontrolle, sondern durch Präsenz.</p>
+          <p class="vb-intro">Bei Travolta wird das 1977 sichtbar. ›Saturday Night Fever‹ brachte ihm mit 24 Jahren eine Oscar-Nominierung als bester Hauptdarsteller ein, damals einer der jüngsten Nominierten in dieser Kategorie. 1978 folgte ›Grease‹ als Danny Zuko, dessen Soundtrack auf Platz 1 der Billboard 200 stand. Der Tanz auf der beleuchteten Fläche und das Lied auf der Bühne sind keine Planung, sondern Ansteckung: Der Zuschauer will mittanzen. Auch seine privaten Faszinationen sind nicht zerstreut, sondern gebündelt. Er trat 1975 mit 21 Jahren nach der Lektüre von ›Dianetics‹ der Scientology-Kirche bei. Er ist Privatpilot, besitzt nach der Wikipedia-Angabe vier Flugzeuge und flog eine ehemalige Qantas-Boeing 707, die er ›Jett Clipper Ella‹ nannte; 2007 wurde er in die ›Living Legends of Aviation‹ aufgenommen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: der Durchhalter nach dem Absturz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Sieben Härte und die Weigerung aufzugeben. Eine Sieben mit schwächer ausgeprägtem Achterflügel würde nach einem Absturz ausweichen oder neu anfangen; Travolta bleibt dran. Nach ›Urban Cowboy‹ (1980) folgten Misserfolge: ›Blow Out‹ (1981) war kritisch gelobt und ein Kassenflop, ›Staying Alive‹ (1983) war finanziell ein Erfolg und wurde von der Kritik verrissen, für die Rolle trainierte er intensiv und nahm 20 Pfund ab, ›Two of a Kind‹ (1983) und ›Perfect‹ (1985) fielen durch. Er lehnte Hauptrollen in ›American Gigolo‹, ›An Officer and a Gentleman‹ und ›Splash‹ ab. Mit ›Look Who&rsquo;s Talking‹ (1989) kam die Wende (297 Millionen Dollar Einspiel), 1994 ›Pulp Fiction‹ unter Quentin Tarantino, seine zweite Oscar-Nominierung, und danach ›Get Shorty‹ (1995, Golden Globe), ›Broken Arrow‹, ›Face/Off‹ und weitere.</p>
+          <p class="vb-intro">Auch an einem Projekt hielt er jahrelang fest: ›Battlefield Earth‹ (2000), nach dem Roman von L. Ron Hubbard, den er lange gefördert hatte. Der Film wurde schlecht besprochen, floppte an den Kassen, und seine Darstellung brachte ihm zwei Goldene Himbeeren ein. Das ist der Achterflügel: Er steht zu dem, woran er glaubt, auch gegen alle Wahrscheinlichkeit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Tanz, Charme und Wandlungsfähigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Travolta verkörpert den Tanz im Kino wie kaum ein Zweiter: Der Stil der weißen Anzüge in ›Saturday Night Fever‹ und die Choreografien von ›Grease‹ gehören zum Bildgedächtnis des 20. Jahrhunderts. Er blieb dabei beweglich. 2007 spielte er in ›Hairspray‹ Edna Turnblad, seine erste Musical-Rolle seit ›Grease‹, 2016 in ›The People v. O. J. Simpson: American Crime Story‹ den Anwalt Robert Shapiro, wofür er für einen Emmy nominiert wurde. Die Lockerheit, mit der er auch Pannen nimmt, zeigt sich 2014 bei der Oscar-Verleihung, als er den Namen von Idina Menzel falsch aussprach, sich entschuldigte und der Ausrutscher zum Internet-Meme wurde. Menzel nannte den Fehler ›eines der besten Dinge, die mir passiert sind‹.</p>
+          <p class="vb-intro">Als Regisseur debütierte er mit ›Propeller One-Way Night Coach‹, einem Film nach seinem eigenen Buch von 1997. Er wurde 2026 bei den Filmfestspielen in Cannes gezeigt, wo er eine Goldene Ehrenpalme erhielt, und erschien am 29. Mai 2026 bei Apple TV.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Celentano, Shakira und Becker</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den Porträts dieses Kompasses stehen mehrere SX7w8er, und der Vergleich zeigt, wie die Ansteckung mit Härte verbunden wird. <a href="#beruehmte-adriano-celentano">Adriano Celentano (SX7w8)</a> bringt mit eckig-elastischem Tanz den Rock&rsquo;n&rsquo;Roll nach Italien und ist seit über sechzig Jahren mit derselben Frau verheiratet, der SX7-Fokus auf eine Verbindung. <a href="#beruehmte-shakira">Shakira (SX7w8)</a> verwandelt Tanz in gemeinsamen Rausch und behält die Kontrolle über ihr Werk. <a href="#beruehmte-boris-becker">Boris Becker (SX7w8)</a> zog ein Jahrzehnt lang Menschen mit seiner Intensität mit und stürzte tief.</p>
+          <p class="vb-intro">Travolta liegt dicht bei Celentano: Tanz und Bewegung als Körpersprache und eine große Bindung, die über Jahrzehnte hielt (die Ehe mit Kelly Preston von 1991 bis zu ihrem Tod 2020). Mit Shakira teilt er den Sog der Bühne, mit Becker die Erfahrung von Aufstieg, Absturz und Wiederkehr. Anders als Becker blieb sein Absturz beruflich: Die Rückkehr kam mit ›Pulp Fiction‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Sieben mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Wärme und der Freude am Tanz und an der Musik. Nach dem Tod seiner Frau sagte er nach Berichten über ein Interview mit ›Esquire España‹ im April 2021, seine Priorität sei, mit seinen Kindern Ella und Ben Freude zu finden, besonders beim Hören von Musik und beim Tanzen. 2020 kündigte er an, sich von der Arbeit zurückzuziehen, um für seine Kinder da zu sein.</p>
+          <p class="vb-intro">Der Schatten der Sieben ist der Schmerz, dem sie ausweichen möchte, und das Leben hat Travolta zweimal damit konfrontiert. Am 2. Januar 2009 starb sein Sohn Jett mit 16 Jahren während einer Weihnachtsreise auf den Bahamas; die Sterbeurkunde nannte einen Krampfanfall. 2014 nannte Travolta das ›das Schlimmste, was mir je passiert ist‹. Er gründete die Jett Travolta Foundation für Kinder mit besonderen Bedürfnissen. Am 12. Juli 2020 starb seine Frau Kelly Preston mit 57 Jahren zu Hause in Clearwater, Florida, zwei Jahre nach ihrer Brustkrebsdiagnose. Er hat gesagt, seine Familie und Scientology hätten ihm geholfen, und dass er nicht gewusst habe, ob er es schaffen werde. Der Achterflügel zeigt sich im Standhalten: Er baute aus dem Verlust eine Stiftung.</p>
+          <p class="vb-intro">Auch schwierige Vorwürfe musste er abwehren: 2012 reichten zwei Masseure Klagen ein, die später zurückgenommen bzw. abgewiesen wurden; sein Anwalt nannte die Anschuldigungen ›völlig erfunden‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Regisseur und Ehrenpalme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 22. Oktober 2026) ist John Travolta 72 Jahre alt. Zuletzt stand nach der Wikipedia-Angabe sein Regiedebüt ›Propeller One-Way Night Coach‹ im Mittelpunkt, das 2026 in Cannes gezeigt und mit einer Goldenen Ehrenpalme ausgezeichnet wurde. Zu seinen Auszeichnungen zählen zwei Oscar-Nominierungen, ein Golden Globe für ›Get Shorty‹ (bei sechs Nominierungen), zwei Emmy-Nominierungen und 2014 ein IIFA-Preis für herausragende Verdienste im internationalen Kino.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-adriano-celentano", label:"Porträt: Adriano Celentano (SX7w8) – derselbe Subtyp und Flügel"},
+        {route:"beruehmte-shakira", label:"Porträt: Shakira (SX7w8)"},
+        {route:"beruehmte-boris-becker", label:"Porträt: Boris Becker (SX7w8)"},
+      ])}
+    </div>
+  `);
+}

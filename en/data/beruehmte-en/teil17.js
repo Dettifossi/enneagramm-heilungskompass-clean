@@ -2400,6 +2400,7 @@ export function adrianoCelentanoPortraitPage() {
         {route:"beruehmte-robert-schumann", label:"Portrait: Robert Schumann (SX7w8)"},
         {route:"beruehmte-serena-williams", label:"Portrait: Serena Williams (SX7w8)"},
         {route:"beruehmte-johann-lafer", label:"Portrait: Johann Lafer (SP7w8)"},
+        {route:"beruehmte-john-travolta", label:"Portrait: John Travolta (SX7w8)"},
       ])}
     </div>
   `);
