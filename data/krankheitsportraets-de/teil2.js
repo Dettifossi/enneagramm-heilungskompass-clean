@@ -5012,6 +5012,7 @@ export function metteMaritKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-mette-marit", label:"Porträt: Mette-Marit (SE4w3) – Lebensweg"},
         {route:"krankheitsportraets-lady-diana", label:"Krankheitsporträt: Lady Diana (SE4w3) – gleicher Subtyp, dieselbe Maske aus äußerer Fassade über verborgenem Leiden"},
+        {route:"krankheitsportraets-edith-piaf", label:"Édith Piaf (SE4w3) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}

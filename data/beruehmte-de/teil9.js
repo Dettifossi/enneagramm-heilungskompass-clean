@@ -2630,6 +2630,7 @@ export function augusteRodinPortraitPage() {
         {route:"beruehmte-isadora-duncan", label:"Porträt: Isadora Duncan (SX2w3) – Gast in Meudon"},
         {route:"beruehmte-dakota-johnson", label:"Porträt: Dakota Johnson (SX9w8) – derselbe Subtyp und Flügel"},
         {route:"beruehmte-heike-makatsch", label:"Porträt: Heike Makatsch (SX9w8) – derselbe Subtyp und Flügel"},
+        {route:"krankheitsportraets-camille-claudel", label:"Camille Claudel (SX4w5) – Krankheitsporträt"},
       ])}
     </div>
   `);

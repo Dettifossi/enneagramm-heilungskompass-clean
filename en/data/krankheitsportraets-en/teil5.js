@@ -321,6 +321,7 @@ export function bobMarleyKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"All Illness Portraits"},
         {route:"beruehmte-bob-marley", label:"Portrait: Bob Marley (SO2w1)"},
         {route:"krankheitsportraets-muhammad-ali", label:"Illness Portrait: Muhammad Ali (SO2w1) – same subtype"},
+        {route:"krankheitsportraets-florence-nightingale", label:"Florence Nightingale (SO2w1) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so2", label:"Subtype Profile SO2"},
       ])}
@@ -2420,6 +2421,7 @@ export function muhammadAliKrankheitsportraetPage() {
         {route:"beruehmte-muhammad-ali", label:"Portrait: Muhammad Ali (SO2w1) – life's work"},
         {route:"krankheitsportraets-bob-marley", label:"Illness Portrait: Bob Marley (SO2w1) – same subtype"},
         {route:"krankheitsportraets-julius-caesar", label:"Julius Caesar (SO2w3) – illness portrait"},
+        {route:"krankheitsportraets-florence-nightingale", label:"Florence Nightingale (SO2w1) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/so2", label:"Subtype Profile SO2"},
       ])}

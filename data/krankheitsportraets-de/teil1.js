@@ -174,6 +174,7 @@ export function adeleKrankheitsportraetPage() {
         {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
         {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
         {route:"krankheitsportraets-lady-diana", label:"Krankheitsporträt: Lady Diana (SE4w3) – gleicher Subtyp"},
+        {route:"krankheitsportraets-edith-piaf", label:"Édith Piaf (SE4w3) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}
@@ -2200,6 +2201,7 @@ export function ladyDianaKrankheitsportraetPage() {
         {route:"krankheitsportraets-honore-de-balzac", label:"Krankheitsporträt: Honoré de Balzac (SE4w3) – gleicher Subtyp"},
         {route:"krankheitsportraets-mette-marit", label:"Mette-Marit (SE4w3) – Krankheitsporträt"},
         {route:"krankheitsportraets-t-e-lawrence", label:"T. E. Lawrence (SE4w3) – Krankheitsporträt"},
+        {route:"krankheitsportraets-edith-piaf", label:"Édith Piaf (SE4w3) – Krankheitsporträt"},
         {route:"psychosomatik", label:"Psychosomatik-Register"},
         {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}

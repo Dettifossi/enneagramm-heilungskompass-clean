@@ -1647,6 +1647,7 @@ export function woodyAllenPortraitPage() {
         {route:"beruehmte-neil-armstrong", label:"Portr\u00e4t: Neil Armstrong (SE6w5)"},
         {route:"krankheitsportraets-woody-allen", label:"Krankheitsportr\u00e4t: Woody Allen (SE6w7) \u2013 lebenslange Hypochondrie"},
         {route:"beruehmte-raul-aguayo-krauthausen", label:"Portr\u00e4t: Ra\u00fal Aguayo-Krauthausen (SE6w7)"},
+        {route:"beruehmte-heiko-maas", label:"Porträt: Heiko Maas (SE6w7)"},
       ])}
     </div>
   `);

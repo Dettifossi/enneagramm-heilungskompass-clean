@@ -2254,6 +2254,7 @@ export function katieCouricPortraitPage() {
         {route:"beruehmte-beatrice-chebet", label:"Porträt: Beatrice Chebet (SE6w7)"},
         {route:"krankheitsportraets-woody-allen", label:"Krankheitsporträt: Woody Allen (SE6w7)"},
         {route:"beruehmte-ellen-degeneres", label:"Porträt: Ellen DeGeneres (SE6w5) – gleicher Kerntyp, anderer Flügel"},
+        {route:"beruehmte-heiko-maas", label:"Porträt: Heiko Maas (SE6w7)"},
       ])}
     </div>
   `);

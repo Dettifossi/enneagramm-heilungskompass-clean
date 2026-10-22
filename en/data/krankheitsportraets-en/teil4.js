@@ -683,6 +683,7 @@ export function claudeDebussyKrankheitsportraetPage() {
         {route:"beruehmte-claude-debussy", label:"Portrait: Claude Debussy (SX4w5) – life's work"},
         {route:"krankheitsportraets-karl-lagerfeld", label:"Illness Portrait: Karl Lagerfeld (SO3w4) – counter-model: concealment instead of performing"},
         {route:"beruehmte-camille-claudel", label:"Portrait: Camille Claudel (SX4w5)"},
+        {route:"krankheitsportraets-camille-claudel", label:"Camille Claudel (SX4w5) – illness portrait"},
         {route:"psychosomatik", label:"Psychosomatics Register"},
         {route:"subtype/sx4", label:"Subtype Profile SX4"},
       ])}

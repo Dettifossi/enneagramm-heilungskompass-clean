@@ -1410,6 +1410,7 @@ export function honoreDeBalzacKrankheitsportraetPage() {
         {route:"beruehmte-honore-de-balzac", label:"Porträt: Honoré de Balzac (SE4w3) – Lebenswerk"},
         {route:"krankheitsportraets-lady-diana", label:"Krankheitsporträt: Lady Diana (SE4w3) – gleicher Subtyp"},
         {route:"krankheitsportraets-t-e-lawrence", label:"Krankheitsporträt: T. E. Lawrence (SE4w3) – gleicher Subtyp"},
+        {route:"krankheitsportraets-edith-piaf", label:"Édith Piaf (SE4w3) – Krankheitsporträt"},
         {route:"psychosomatik/herzinsuffizienz", label:"Psychosomatik-Register: Herzinsuffizienz"},
         {route:"subtype/se4", label:"Subtyp-Profil SE4"},
       ])}
