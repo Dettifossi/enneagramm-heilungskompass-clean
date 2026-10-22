@@ -2475,6 +2475,7 @@ export function allieSherlockPortraitPage() {
         {route:"beruehmte-michaela-benthaus", label:"Porträt: Michaela Benthaus (SX7w6) – ein Traum, abgesichert durch Verbündete"},
         {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
         {route:"beruehmte-ida-pfeiffer", label:"Porträt: Ida Pfeiffer (SX7w6) – ein jahrzehntelang aufgeschobener Traum, dann vollständig verwirklicht"},
+        {route:"beruehmte-helene-spilling-odegaard", label:"Porträt: Helene Spilling \u00d8degaard (SX7w6)"},
       ])}
     </div>
   `);

@@ -1189,6 +1189,7 @@ export function mileyCyrusPortraitPage() {
         {route:"beruehmte-thomas-gottschalk", label:"Portrait: Thomas Gottschalk (SX7w6)"},
         {route:"beruehmte-leonard-bernstein", label:"Portrait: Leonard Bernstein (SX7w6)"},
         {route:"beruehmte-morgan-freeman", label:"Portrait: Morgan Freeman (SX7w6)"},
+        {route:"beruehmte-helene-spilling-odegaard", label:"Portrait: Helene Spilling \u00d8degaard (SX7w6)"},
       ])}
     </div>
   `);

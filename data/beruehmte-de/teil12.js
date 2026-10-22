@@ -2786,6 +2786,7 @@ export function wietskeVanTongerenPortraitPage() {
         {route:"beruehmte-caroline-peters", label:"Porträt: Caroline Peters (SX7w6) – Schauspielerin, derselbe Subtyp und Flügel"},
         {route:"beruehmte-leonard-bernstein", label:"Porträt: Leonard Bernstein (SX7w6)"},
         {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-helene-spilling-odegaard", label:"Porträt: Helene Spilling \u00d8degaard (SX7w6)"},
       ])}
     </div>
   `);

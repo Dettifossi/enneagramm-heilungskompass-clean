@@ -2712,3 +2712,75 @@ export function hansSiglPortraitPage() {
     </div>
   `);
 }
+
+export function heleneSpillingOedegaardPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-helene-spilling-odegaard-portrait.jpg" alt="Helene Spilling Ødegaard – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-helene-spilling-odegaard-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Helene Spilling Ødegaard</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with a Six-wing</p>
+        <p class="krim-portrait-subtitle">Norwegian dancer and entrepreneur, b. 1996 &ndash; 17 Norwegian championship titles, &lsquo;Skal vi danse&rsquo; winner 2021 &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee: the girl from Gjerdrum who danced in front of the television</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> attaches itself to everything that swings and learns by joining in. Helene Spilling was born on 17 April 1996 in Gjerdrum, Norway. As a child her interest in dancing was awakened by the television show &lsquo;Skal vi danse&rsquo; (&lsquo;Shall We Dance&rsquo;, the Norwegian version of &lsquo;Dancing with the Stars&rsquo;). At twelve she began dancing herself.</p>
+          <p class="vb-intro">Already in 2011 she competed for the first time at tournaments and with Christian Skibsrud became Norwegian champion in Latin and ten-dance. In 2012 she won gold in ballroom in the under-19 age group. From 2013 to 2017 she won twelve Norwegian championship titles with Jonas Pettersen in the U19, U21 and adult classes, and in 2017 the Kongepokal (the King&rsquo;s Cup). In her championship career she won 17 gold, four silver and two bronze medals in total. In 2017 she went to Lithuania and trained with Dominykas Granskas for the club LSKdans from Lillestrøm. In 2018 they became Northern European champions in standard dance and reached the quarter-finals at Grand Slam events, in 2019 they received the &lsquo;Duo of the Year&rsquo; prize at the Dance Awards. After about two and a half years she returned to Norway and ended her competitive career.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: wholly in the dance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven seeks the experience that makes one forget everything else. Claudio Naranjo called the <strong>sexual Seven (SX7)</strong> the subtype of &lsquo;suggestibility&rsquo;: it throws itself into the one moment, the one fascination and lets itself be carried by the intensity. In Spilling it begins in front of the television: a child sees dance and wants to be in it. 17 Norwegian championship titles are the expression of this devotion, not of scattering.</p>
+          <p class="vb-intro">Afterwards she sought new things that demand just as completely. In the show &lsquo;Skal vi danse&rsquo; she came second in 2020 with Nate Kahungu, won season 17 in 2021 with Simon Nitsche, came third in 2022 with Aleksander Hetland and fourth in 2023 with Harlem Alexander. Add the competition shows &lsquo;Alle mot alle&rsquo; (&lsquo;Everyone Against Everyone&rsquo;, 2021), &lsquo;Mesternes mester&rsquo; (&lsquo;Champion of Champions&rsquo;, 2023, fifth place) and the &lsquo;24-stjerners julekalender&rsquo; (&lsquo;24-Star Advent Calendar&rsquo;, 2022). Each format demands a different kind of body and courage, and she jumps in.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: partner, team and the concern for the safe space</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven loyalty, warmth and the need for a reliable counterpart. A Seven with a weaker Six-wing would jump alone; Spilling dances in a duo. Her sport is a partner dance, she went to Lithuania for her partner, and in &lsquo;Skal vi danse&rsquo; she dances with a partner every week. In 2026 she competes in &lsquo;Mesternes mester team&rsquo;, a team format, with Stig-André Berge as team partner. Her friendship with the former Paralympian Birgit Skarstein belongs to it too: the two lived together in Oslo for about four years.</p>
+          <p class="vb-intro">The Six-wing also shows in how she deals with publicity. She says: &lsquo;I left social media and somehow have still not quite got back on my feet.&rsquo; And: &lsquo;It is not always so cosy.&rsquo; About the wedding coverage: &lsquo;I think I have never seen the Norwegian press at this level before.&rsquo; And: &lsquo;I wish there had been a little more respect, perhaps, for privacy.&rsquo; She lives with her family in seclusion in London.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: dance as a profession, studio and warmth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Spilling is founder and owner of The Zone Dance Studio in Oslo, where contestants of &lsquo;Skal vi danse&rsquo; have trained since 2022. Since May 2024 she has been brand ambassador of the Norwegian jewellery brand Thune. In June 2026 she began sharing crochet patterns on her website and asking for donations to the Norwegian Children&rsquo;s Cancer Association. The tournament career has turned into a mixture of sport, television and business in which she passes dance on.</p>
+          <p class="vb-intro">It belongs to her path that she traded professional dance for family life, as a photo caption in an interview in the magazine &lsquo;Se og Hør&rsquo; from October 2026 sums it up.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: van Tongeren, Sherlock and Cyrus</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Several SX7w6s stand among the portraits in this Compass, and the comparison shows how the Six-wing secures devotion. <a href="#beruehmte-wietske-van-tongeren">Wietske van Tongeren (SX7w6)</a> falls in love with roles and finds support in the ensemble. <a href="#beruehmte-allie-sherlock">Allie Sherlock (SX7w6)</a> sings on the street with her father behind her. <a href="#beruehmte-miley-cyrus">Miley Cyrus (SX7w6)</a> transforms herself again and again and stays loyal to family and Dolly Parton.</p>
+          <p class="vb-intro">Spilling is close to van Tongeren: she too is a performer who lives for the stage and seeks the group. With Sherlock she shares the need for a person behind her, with Cyrus the experience that fame demands protection.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Seven with a Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the discipline that makes achievement of enthusiasm and in the warmth with which she commits. The donation appeal with the crochet patterns for the children&rsquo;s cancer association is one example.</p>
+          <p class="vb-intro">The shadow is the price of attention. An interview from October 2026 announces in its lead that she speaks about family life and motherhood and about &lsquo;the tough period&rsquo;; the lead notes: she lives a life many can only dream of, &lsquo;but the road there has had its price&rsquo;. About her body after the birth she says the starting point is a completely different one than in 2023: &lsquo;A pregnancy splits the abdominal muscles, after all.&rsquo; And about the press frenzy: &lsquo;It was not funny at the time, but now I just have to laugh about it.&rsquo; The Seven, here too, turns strain into humour.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: Mesternes mester team and family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 22 October 2026) Helene Spilling Ødegaard is 30 years old. She is married to the footballer Martin Ødegaard, the couple has a son (born 1 December 2024) and lives in London. She continues to run The Zone Dance Studio and in 2026 took part in the season &lsquo;Mesternes mester team&rsquo;, whose premiere was announced for August 2026.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-wietske-van-tongeren", label:"Portrait: Wietske van Tongeren (SX7w6) – musical performer, same subtype and wing"},
+        {route:"beruehmte-allie-sherlock", label:"Porträt: Allie Sherlock (SX7w6)"},
+        {route:"beruehmte-miley-cyrus", label:"Porträt: Miley Cyrus (SX7w6)"},
+      ])}
+    </div>
+  `);
+}

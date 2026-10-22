@@ -2470,6 +2470,7 @@ export function allieSherlockPortraitPage() {
         {route:"beruehmte-michaela-benthaus", label:"Portrait: Michaela Benthaus (SX7w6) – a dream secured by allies"},
         {route:"beruehmte-jerry-lewis", label:"Portrait: Jerry Lewis (SX7w6)"},
         {route:"beruehmte-ida-pfeiffer", label:"Portrait: Ida Pfeiffer (SX7w6) – a dream deferred for decades, then fully realized"},
+        {route:"beruehmte-helene-spilling-odegaard", label:"Portrait: Helene Spilling \u00d8degaard (SX7w6)"},
       ])}
     </div>
   `);
