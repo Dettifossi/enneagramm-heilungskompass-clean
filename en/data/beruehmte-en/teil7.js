@@ -1590,6 +1590,7 @@ export function sundarPichaiPortraitPage() {
         {route:"beruehmte-neil-armstrong", label:"Portrait: Neil Armstrong (SE6w5)"},
         {route:"beruehmte-carlo-masala", label:"Portrait: Carlo Masala (SE6w5)"},
         {route:"beruehmte-milan-peschel", label:"Portrait: Milan Peschel (SE6w5)"},
+        {route:"beruehmte-thomas-schmelzer", label:"Portrait: Thomas Schmelzer (SE6w5)"},
       ])}
     </div>
   `);

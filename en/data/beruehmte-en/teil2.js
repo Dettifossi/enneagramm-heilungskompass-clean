@@ -1199,6 +1199,7 @@ export function franzSchubertPortraitPage() {
         {route:"krankheitsportraets-franz-schubert", label:"Illness Portrait: Franz Schubert – Syphilis & Winterreise"},
         {route:"beruehmte-luke-nichols", label:"Portrait: Luke Nichols (SE6w5)"},
         {route:"beruehmte-milan-peschel", label:"Portrait: Milan Peschel (SE6w5)"},
+        {route:"beruehmte-thomas-schmelzer", label:"Portrait: Thomas Schmelzer (SE6w5)"},
       ])}
     </div>
   `);
