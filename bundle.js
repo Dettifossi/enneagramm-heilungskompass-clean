@@ -35543,6 +35543,28 @@ function zahlenFaktenPage() {
   const bibel = BIBEL_PORTRAITS.length;
   const portraitsGesamt = beruehmt + krankheit + kriminal + astrologie + bibel;
   const registerAnzahl = registerEntries.length;
+
+  const _alle = [...BERUEHMT_PORTRAITS, ...KRANKHEITS_PORTRAITS, ...KRIMINAL_PORTRAITS];
+  const _mitSub = _alle.filter(p => /^S[EOX][1-9]/.test(p.subtyp || ""));
+  const _proSub = {}, _proTyp = {}, _proInst = { SE: 0, SO: 0, SX: 0 };
+  _mitSub.forEach(p => {
+    const c = p.subtyp.slice(0, 3);
+    _proSub[c] = (_proSub[c] || 0) + 1;
+    _proTyp[c[2]] = (_proTyp[c[2]] || 0) + 1;
+    _proInst[c.slice(0, 2)]++;
+  });
+  const _subSort = Object.entries(_proSub).sort((a, b) => b[1] - a[1]);
+  const _typMax = Math.max(...Object.values(_proTyp));
+  const _pct = (n, m) => Math.round(100 * n / m);
+  const _frauen = BERUEHMT_PORTRAITS.filter(p => p.gender === "f" || p.gender === "w").length;
+  const _laender = new Set(BERUEHMT_PORTRAITS.map(p => p.land).filter(Boolean));
+  const _deUsa = BERUEHMT_PORTRAITS.filter(p => p.land === "Deutschland" || p.land === "USA").length;
+  const _typBalken = Object.keys(_proTyp).sort().map(t => `
+    <div style="display:flex;align-items:center;gap:.6rem;margin:.25rem 0;font-family:system-ui,sans-serif;font-size:.82rem;">
+      <span style="width:4.6rem;color:var(--muted);">Typ ${t}</span>
+      <span style="flex:1;background:color-mix(in srgb, var(--copper) 10%, var(--paper));border-radius:6px;height:.9rem;"><span style="display:block;height:100%;width:${_pct(_proTyp[t], _typMax)}%;background:var(--copper);border-radius:6px;"></span></span>
+      <span style="width:2.6rem;text-align:right;font-variant-numeric:tabular-nums;">${_proTyp[t]}</span>
+    </div>`).join("");
   const statCard = (num, label) => `
     <article style="background:var(--card,var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1.1rem 1.2rem;">
       <div style="font-family:system-ui,sans-serif;font-size:2.1rem;font-weight:800;color:var(--copper);line-height:1;font-variant-numeric:tabular-nums;">${num}</div>
@@ -35572,6 +35594,20 @@ function zahlenFaktenPage() {
         ${statCard(5, "Heilmittel-Systeme je Subtyp<br><span style=\"font-weight:400;\">(Hom\u00f6opathie, Bachbl\u00fcten, \u00d6le, Edelsteine, Sch\u00fc\u00dfler-Salze)</span>")}
         ${statCard(registerAnzahl.toLocaleString("de-DE") + "+", "Eintr\u00e4ge im Register")}
       </div>
+
+            <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Verteilung der Porträts</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.9rem;">
+        ${statCard(_mitSub.length, "Porträts mit zugeordnetem Subtyp (Berühmte, Krankheit, Kriminal)")}
+        ${statCard(_subSort[0][0] + " &middot; " + _subSort[0][1], "Am häufigsten porträtierter Subtyp")}
+        ${statCard(_subSort[_subSort.length - 1][0] + " &middot; " + _subSort[_subSort.length - 1][1], "Am seltensten porträtierter Subtyp")}
+        ${statCard(_pct(_proInst.SE, _mitSub.length) + " / " + _pct(_proInst.SO, _mitSub.length) + " / " + _pct(_proInst.SX, _mitSub.length) + " %", "Verteilung auf selbsterhaltend / sozial / sexuell")}
+        ${statCard(_pct(_frauen, BERUEHMT_PORTRAITS.length) + " %", "Frauenanteil bei den berühmten Persönlichkeiten")}
+        ${statCard(_laender.size, "Verschiedene Herkunftsländer bei den Berühmten")}
+        ${statCard(_pct(_deUsa, BERUEHMT_PORTRAITS.length) + " %", "Berühmte aus Deutschland oder den USA")}
+      </div>
+      <h3 style="font-size:.95rem;font-weight:700;margin:1.6rem 0 .5rem;color:var(--ink);">Porträts je Enneagramm-Typ</h3>
+      ${_typBalken}
+      <p style="font-family:system-ui,sans-serif;font-size:.75rem;color:var(--muted);margin-top:.6rem;">Live aus den Porträt-Listen gezählt. Die Verteilung spiegelt die Auswahl der Porträts wider, nicht die Häufigkeit der Typen in der Bevölkerung.</p>
 
       <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Textumfang</h2>
       <div style="background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line,var(--border));border-radius:12px;padding:1.4rem 1.6rem;">

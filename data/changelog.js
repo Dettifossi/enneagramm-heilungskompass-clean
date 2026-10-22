@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2568", date: "2026-10-22", text: "Der Kompass in Zahlen: neuer Abschnitt mit der Verteilung der Porträts auf Typen und Subtypen, Frauenanteil und Herkunftsländern.", text_en: "The Compass in Numbers: new section on how the portraits are distributed across types and subtypes, share of women and countries of origin.", route: "zahlen-fakten" },
     { version: "v2567", date: "2026-10-22", text: "Neues Porträt: Duncan Haldane (SE5w6) – britischer Physiker, Nobelpreis für Physik 2016.", text_en: "New portrait: Duncan Haldane (SE5w6) – British physicist, Nobel Prize in Physics 2016.", route: "beruehmte-duncan-haldane" },
     { version: "v2566", date: "2026-10-22", text: "Neues Porträt: Helene Spilling Ødegaard (SX7w6) – norwegische Tänzerin, Siegerin von Skal vi danse 2021.", text_en: "New portrait: Helene Spilling Ødegaard (SX7w6) – Norwegian dancer, winner of Skal vi danse 2021.", route: "beruehmte-helene-spilling-odegaard" },
     { version: "v2565", date: "2026-10-22", text: "Neues Porträt: Wietske van Tongeren (SX7w6) – Musicaldarstellerin, bekannt durch Elisabeth, Rebecca und Rocky.", text_en: "New portrait: Wietske van Tongeren (SX7w6) – musical performer, known for Elisabeth, Rebecca and Rocky.", route: "beruehmte-wietske-van-tongeren" },
