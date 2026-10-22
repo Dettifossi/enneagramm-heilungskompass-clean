@@ -2632,3 +2632,76 @@ export function hallaTomasdottirPortraitPage() {
     </div>
   `);
 }
+
+export function kevinKuehnertPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-kevin-kuehnert-portrait.jpg" alt="Kevin Kühnert – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-kevin-kuehnert-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Kevin Kühnert</p>
+        <p class="krim-portrait-typ">SE6w7 &middot; Self-Preservation Type 6 with a Seven-wing</p>
+        <p class="krim-portrait-subtitle">German politician, b. 1989 &ndash; Juso chair 2017&ndash;2021, SPD general secretary 2021&ndash;2024 &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit: the Berlin boy from the handball club and the student council</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> sits upright in the tall grass, ears pricked, and hears sooner than others where things are becoming restless. Kevin Kühnert was born on 1 July 1989 in West Berlin. His father works in a Berlin district administration, his mother at a job centre; he was named after the English footballer Kevin Keegan, whom his mother admired. He played youth handball at VfL Lichtenrade, was student spokesperson at the Beethoven-Gymnasium in Lankwitz and took his Abitur there in 2008. At 15 he joined the SPD.</p>
+          <p class="vb-intro">After school he did a voluntary social year at the youth welfare office in Steglitz-Zehlendorf, began studying publishing and communication at the Free University in 2009 and dropped out in 2010. Until 2014 he worked in a call centre of the toy retailer myToys.de, then until 2019 in the offices of two SPD members of parliament. A politics degree at the FernUniversität Hagen, begun in 2016, has been on hold since his election as Juso chair. He is a fan of Tennis Borussia Berlin and sat on the club&rsquo;s supervisory board from 2013 to 2017.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Six: support in the group, security in withdrawal</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six senses danger earlier than others and seeks protection. Claudio Naranjo called the <strong>self-preservation Six (SE6)</strong> the subtype of &lsquo;warmth&rsquo;: it secures itself through reliable bonds, through groups and clubs in which people stand by each other. Whoever experiences that as a child in a handball club, as student spokesperson and at 15 in a party builds security from belonging.</p>
+          <p class="vb-intro">Kühnert&rsquo;s career is a chain of such groups: in 2012 chairman of the Berlin Jusos, in 2015 deputy federal chairman of the Jusos, in November 2017 federal chairman with 225 of 297 votes, in December 2019 deputy SPD chairman with 70.4 percent, in December 2021 SPD general secretary with 77.8 percent, confirmed in December 2023 with 92.6 percent. When he laid down the office of general secretary in 2024 he still remained an SPD member and justified the tie with the organisation and its values.</p>
+          <p class="vb-intro">The departure shows the other side of the Six: where danger grows, it seeks protection, and that can lie in withdrawal. In April 2025 Kühnert told &lsquo;Die Zeit&rsquo;: &lsquo;My red line is where violence is in the air. I am only 1.70 metres tall.&rsquo; He reported neo-Nazis, farmers with self-built gallows outside SPD headquarters, a stadium visitor who said &lsquo;I hate you!&rsquo; to his face, and a Covid denier who threw a raw egg at him at a campaign appearance in Detmold. And: &lsquo;At some point it became clear to me: if I want to be left in peace, I have to go where there are no people at all.&rsquo; He increasingly spent his holidays in lonely mountain regions. That is the Six that cannot put its vigilance down.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: the cheeky, public side</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Six speed, wit and the desire to move forward instead of staying under cover. A Six with a weaker Seven-wing might have kept to the background of party work. Kühnert went to the head of the Jusos at 28 and in 2018 launched the #NoGroKo campaign against a new grand coalition, with which the Jusos called on people to join the party in order to vote against it in the membership ballot. The general secretary of his own party, Lars Klingbeil, criticised the approach.</p>
+          <p class="vb-intro">In 2019 he told &lsquo;Die Zeit&rsquo; that he was a socialist and that overcoming capitalism needs collectivisation, using BMW as an example, and that nobody should own more housing than they live in themselves. The CDU/CSU, FDP and AfD reacted sharply, the SPD leadership distanced itself. This pleasure in sharpening, in appearing with Böhmermann and on talk shows, is the wing; the Six underneath asks how far one can go without losing the group.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: from Juso chair to general secretary</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">His real political achievement was to give a party youth organisation that was seen as a fringe phenomenon public force. In 2018 &lsquo;Time&rsquo; magazine named him one of its &lsquo;Next Generation Leaders&rsquo;. In 2021 he won the direct mandate in the Berlin constituency of Tempelhof-Schöneberg with 27.1 percent of first votes and sat on the Bundestag committee for housing and urban development. As general secretary he ran the headquarters of a party he had criticised from the left for years. His positions ranged from a minimum wage of at least 12 euros and a wealth tax through limits on temporary agency work to employee co-ownership of companies. On the Berlin referendum on expropriating large housing companies he said in 2021 that he would vote against it because the threshold of 3,000 flats was arbitrary.</p>
+          <p class="vb-intro">A documentary series by NDR (&lsquo;Kevin Kühnert und die SPD&rsquo;) followed him for three years and aired after the 2021 federal election.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Maas, Hörhan and Allen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Several SE6w7s stand among the portraits in this Compass, and the comparison shows how differently the Six seeks its support. <a href="#beruehmte-heiko-maas">Heiko Maas (SE6w7)</a>, like Kühnert, stayed loyal to his party and found his support in institutions, but became a minister and stayed in politics. <a href="#beruehmte-gerald-hoerhan">Gerald Hörhan (SE6w7)</a> seeks security in his own property and sells caution as rebellion. <a href="#beruehmte-woody-allen">Woody Allen (SE6w7)</a> withdrew from the noise of the world into a manageable territory and turned fear into punchlines.</p>
+          <p class="vb-intro">Kühnert lies between them: his security lies in the group, as with Maas, but when the group could no longer offer it, he withdrew, like Allen into his territory, except that his lies in the mountains. He shares the pleasure in the public appearance with Hörhan, but while Hörhan turns fear into property, in Kühnert it becomes stance and the question of when the price grows too high.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Six with a Seven-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the stance that turns vigilance into care. Kühnert demands respect for people who think differently, of himself. He says he has been in a relationship with an FDP politician for several years and has therefore understood anew: &lsquo;It takes the constant awareness that the political opponent could also be right.&rsquo; That is a Six that has learned that security does not arise from delimitation.</p>
+          <p class="vb-intro">The shadow is the exhaustion of vigilance. On 7 October 2024 he resigned as general secretary: &lsquo;I myself cannot grow beyond myself at the moment because, unfortunately, I am not healthy.&rsquo; He has not named a diagnosis. In the interview with &lsquo;Die Zeit&rsquo; he later described a &lsquo;feeling of absolute futility&rsquo;: he had lost faith that he could fight the hatred online. What was decisive was not fear of neo-Nazis but &lsquo;increasing doubt&rsquo; about the matter of resilience, after three men in a tram talked about beating up a politician and nobody intervened. That the Six&rsquo;s vigilance cannot be switched off shows itself here as the cost of a life in constant light.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: after politics</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 22 October 2026) Kühnert gave his last speech in the Bundestag on 11 February 2025 and left parliament in March 2025. He remained an SPD member. In summer 2025 he hiked about 1,000 kilometres on the Nordalpenweg through Austria, since November 2025 he has been writing the column &lsquo;Teilnehmende Beobachtung&rsquo; (&lsquo;Participant Observation&rsquo;) for Rolling Stone Germany, since December 2025 he has headed the area of taxation, distribution and lobbying at the civil-society group Finanzwende, and since February 2026 he hosts the talk series &lsquo;Missverstehen Sie mich richtig!&rsquo; (&lsquo;Misunderstand Me Correctly!&rsquo;) at the Distel cabaret theatre. He has not ruled out a return to politics.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SE6 – Rabbit"},
+        {route:"beruehmte-heiko-maas", label:"Portrait: Heiko Maas (SE6w7) – also SPD, same subtype and wing"},
+        {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald Hörhan (SE6w7)"},
+        {route:"beruehmte-woody-allen", label:"Porträt: Woody Allen (SE6w7)"},
+      ])}
+    </div>
+  `);
+}

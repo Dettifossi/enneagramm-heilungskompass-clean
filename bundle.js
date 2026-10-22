@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=284";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=285";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -499,6 +499,7 @@ const catherineDeneuvePortraitPage = () => _lazyPage("./data/beruehmte-de/teil11
 const fabriceLuchiniPortraitPage = () => _lazyPage("./data/beruehmte-de/teil4.js", "fabriceLuchiniPortraitPage");
 const heikoMaasPortraitPage = () => _lazyPage("./data/beruehmte-de/teil13.js", "heikoMaasPortraitPage");
 const geraldHoerhanPortraitPage = () => _lazyPage("./data/beruehmte-de/teil10.js", "geraldHoerhanPortraitPage");
+const kevinKuehnertPortraitPage = () => _lazyPage("./data/beruehmte-de/teil17.js", "kevinKuehnertPortraitPage");
 const alexanderDerGrossePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "alexanderDerGrossePortraitPage");
 const arminRohdePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "arminRohdePortraitPage");
 const bracoPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "bracoPortraitPage");
@@ -27592,6 +27593,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Harry Houdini \u2013 Sozialer Typ 3",
     teaser:"SO3w2 \u00b7 1874\u20131926. Entfesselungsk\u00fcnstler (Handschellenk\u00f6nig, Wasserfolterzelle, Kistenflucht im East River): vom Armutskind aus Budapest zu einem der bestbezahlten Unterhalter seiner Zeit, Pr\u00e4sident der Society of American Magicians, Gegner der Spiritisten. Der Gepard, der sein Scheitern zur B\u00fchne machte.",
     land:"Ungarn/USA", tags:["Schauspiel"], gender:"m"},
+  { route:"beruehmte-kevin-kuehnert", name:"Kevin K\u00fchnert", added:"2026-10-22", subtyp:"SE6w7",
+    heading:"Kevin K\u00fchnert \u2013 Selbsterhaltender Typ 6",
+    teaser:"SE6w7 \u00b7 geb. 1989. Deutscher Politiker, Juso-Vorsitzender 2017\u20132021, SPD-Generalsekretär 2021\u20132024. Das Kaninchen, das Halt in der Gruppe sucht und sich, als sie ihn nicht mehr tragen kann, in die Berge zur\u00fcckzieht.",
+    land:"Deutschland", tags:["Politik"], gender:"m"},
   { route:"beruehmte-gerald-hoerhan", name:"Gerald H\u00f6rhan", added:"2026-10-22", subtyp:"SE6w7",
     heading:"Gerald H\u00f6rhan \u2013 Selbsterhaltender Typ 6",
     teaser:"SE6w7 \u00b7 geb. 1975. \u00d6sterreichischer Investor und Autor (\u203aInvestment Punk\u2039, \u203aDer Einzimmer-Million\u00e4r\u2039). Das Kaninchen, das Sicherheit in Besitz und Reserven sucht und Vorsicht als Rebellion verkauft.",
@@ -65304,7 +65309,7 @@ const ROUTES = {
       "beruehmte-ludwig-wittgenstein": ludwigWittgensteinPortraitPage,
       "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
       "beruehmte-henning-baum": henningBaumPortraitPage,
-      "beruehmte-gerald-hoerhan": geraldHoerhanPortraitPage, "beruehmte-heiko-maas": heikoMaasPortraitPage, "beruehmte-fabrice-luchini": fabriceLuchiniPortraitPage, "beruehmte-catherine-deneuve": catherineDeneuvePortraitPage, "beruehmte-6ix9ine": sixNinePortraitPage, "beruehmte-hans-sigl": hansSiglPortraitPage, "beruehmte-don-king": donKingPortraitPage, "beruehmte-dieter-lange": dieterLangePortraitPage, "beruehmte-russell-means": russellMeansPortraitPage, "beruehmte-nick-nolte": nickNoltePortraitPage, "beruehmte-dietrich-mateschitz": dietrichMateschitzPortraitPage, "beruehmte-wolfgang-grupp": wolfgangGruppPortraitPage, "beruehmte-dany-boon": danyBoonPortraitPage, "beruehmte-wayne-dyer": wayneDyerPortraitPage, "beruehmte-auguste-rodin": augusteRodinPortraitPage, "beruehmte-harry-houdini": harryHoudiniPortraitPage, "beruehmte-ada-lovelace": adaLovelacePortraitPage, "beruehmte-camille-claudel": camilleClaudelPortraitPage, "beruehmte-charlie-chaplin": charlieChaplinPortraitPage, "beruehmte-franz-peter-tebartz-van-elst": franzPeterTebartzVanElstPortraitPage, "beruehmte-juergen-klinsmann": juergenKlinsmannPortraitPage, "beruehmte-harrison-ford": harrisonFordPortraitPage, "beruehmte-prince-rogers-nelson": princeRogersNelsonPortraitPage, "beruehmte-gert-postel": gertPostelPortraitPage,
+      "beruehmte-kevin-kuehnert": kevinKuehnertPortraitPage, "beruehmte-gerald-hoerhan": geraldHoerhanPortraitPage, "beruehmte-heiko-maas": heikoMaasPortraitPage, "beruehmte-fabrice-luchini": fabriceLuchiniPortraitPage, "beruehmte-catherine-deneuve": catherineDeneuvePortraitPage, "beruehmte-6ix9ine": sixNinePortraitPage, "beruehmte-hans-sigl": hansSiglPortraitPage, "beruehmte-don-king": donKingPortraitPage, "beruehmte-dieter-lange": dieterLangePortraitPage, "beruehmte-russell-means": russellMeansPortraitPage, "beruehmte-nick-nolte": nickNoltePortraitPage, "beruehmte-dietrich-mateschitz": dietrichMateschitzPortraitPage, "beruehmte-wolfgang-grupp": wolfgangGruppPortraitPage, "beruehmte-dany-boon": danyBoonPortraitPage, "beruehmte-wayne-dyer": wayneDyerPortraitPage, "beruehmte-auguste-rodin": augusteRodinPortraitPage, "beruehmte-harry-houdini": harryHoudiniPortraitPage, "beruehmte-ada-lovelace": adaLovelacePortraitPage, "beruehmte-camille-claudel": camilleClaudelPortraitPage, "beruehmte-charlie-chaplin": charlieChaplinPortraitPage, "beruehmte-franz-peter-tebartz-van-elst": franzPeterTebartzVanElstPortraitPage, "beruehmte-juergen-klinsmann": juergenKlinsmannPortraitPage, "beruehmte-harrison-ford": harrisonFordPortraitPage, "beruehmte-prince-rogers-nelson": princeRogersNelsonPortraitPage, "beruehmte-gert-postel": gertPostelPortraitPage,
       "beruehmte-herman-van-veen": hermanVanVeenPortraitPage,
       "beruehmte-magnus-carlsen": magnusCarlsenPortraitPage,
       "beruehmte-peter-sharpe": peterSharpePortraitPage,

@@ -2733,3 +2733,76 @@ export function edithPiafPortraitPage() {
     </div>
   `);
 }
+
+export function kevinKuehnertPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-kevin-kuehnert-portrait.jpg" alt="Kevin Kühnert – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-kevin-kuehnert-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Kevin Kühnert</p>
+        <p class="krim-portrait-typ">SE6w7 &middot; Selbsterhaltender Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Politiker, geb. 1989 &ndash; Juso-Vorsitzender 2017&ndash;2021, SPD-Generalsekretär 2021&ndash;2024 &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen: der Berliner Junge aus Handballverein und Schülervertretung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> sitzt aufrecht im hohen Gras, die Ohren aufgestellt, und hört früher als andere, wo es unruhig wird. Kevin Kühnert wurde am 1. Juli 1989 in West-Berlin geboren. Sein Vater arbeitet in einer Berliner Bezirksverwaltung, seine Mutter im Jobcenter; benannt wurde er nach dem englischen Fußballer Kevin Keegan, den seine Mutter bewunderte. Er spielte Jugendhandball beim VfL Lichtenrade, war Schülersprecher am Beethoven-Gymnasium in Lankwitz und machte dort 2008 Abitur. Mit 15 trat er in die SPD ein.</p>
+          <p class="vb-intro">Nach der Schule leistete er ein Freiwilliges Soziales Jahr im Jugendamt Steglitz-Zehlendorf, begann 2009 ein Studium der Publizistik an der Freien Universität und brach es 2010 ab. Bis 2014 arbeitete er in einem Callcenter des Spielzeughändlers myToys.de, danach bis 2019 in den Büros zweier SPD-Abgeordneter. Ein Politikstudium an der FernUniversität Hagen, 2016 begonnen, ruht seit seiner Wahl zum Juso-Vorsitzenden. Er ist Fan von Tennis Borussia Berlin und saß von 2013 bis 2017 im Aufsichtsrat des Vereins.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Halt in der Gruppe, Sicherheit im Rückzug</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sechs spürt Gefahr früher als andere und sucht Schutz. Die <strong>selbsterhaltende Sechs (SE6)</strong> nannte Claudio Naranjo den Subtyp der ›Wärme‹: Sie sichert sich über verlässliche Bindungen, über Gruppen und Vereine, in denen man zueinander hält. Wer das als Kind im Handballverein, als Schülersprecher und mit 15 in einer Partei erlebt, baut sich seine Sicherheit aus Zugehörigkeit.</p>
+          <p class="vb-intro">Kühnerts Laufbahn ist eine Kette solcher Gruppen: 2012 Vorsitzender der Berliner Jusos, 2015 stellvertretender Bundesvorsitzender der Jusos, im November 2017 mit 225 von 297 Stimmen Bundesvorsitzender, Dezember 2019 mit 70,4 Prozent stellvertretender SPD-Vorsitzender, Dezember 2021 mit 77,8 Prozent SPD-Generalsekretär, im Dezember 2023 mit 92,6 Prozent bestätigt. Als er 2024 das Amt des Generalsekretärs niederlegte, blieb er trotzdem SPD-Mitglied und begründete die Bindung mit der Organisation und ihren Werten.</p>
+          <p class="vb-intro">Der Abschied zeigt die zweite Seite der Sechs: Wo die Gefahr wächst, sucht sie Schutz, und der kann im Rückzug liegen. Im April 2025 sagte Kühnert der ›Zeit‹: ›Meine rote Linie ist da, wo Gewalt in der Luft liegt. Ich bin nur 1,70 Meter groß.‹ Er berichtete von Neonazis, von Bauern mit selbstgebauten Galgen vor der SPD-Zentrale, von einem Stadionbesucher, der ihm ›Ich hasse dich!‹ ins Gesicht sagte, und von einer Corona-Leugnerin, die bei einem Wahlkampfauftritt in Detmold ein rohes Ei nach ihm warf. Und: ›Irgendwann ist mir klar geworden: Wenn ich in Ruhe gelassen werden will, muss ich dahin, wo gar keine Menschen sind.‹ Er verbrachte seine Urlaube zunehmend in einsamen Gebirgsgegenden. Das ist die Sechs, die ihre Wachsamkeit nicht ablegen kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: die freche, öffentliche Seite</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der Sechs Tempo, Witz und die Lust, nach vorn zu gehen, statt in Deckung zu bleiben. Eine Sechs mit schwächer ausgeprägtem Siebenerflügel hätte sich vielleicht im Hintergrund der Parteiarbeit gehalten. Kühnert ging mit 28 an die Spitze der Jusos und startete 2018 die Kampagne #NoGroKo gegen eine neue Große Koalition, mit der die Jusos zum Parteieintritt aufriefen, um im Mitgliederentscheid dagegen zu stimmen. Der Generalsekretär der eigenen Partei, Lars Klingbeil, kritisierte das Vorgehen.</p>
+          <p class="vb-intro">2019 sagte er der ›Zeit‹, er sei Sozialist und eine Überwindung des Kapitalismus brauche Kollektivierung, am Beispiel von BMW, außerdem solle niemand mehr Wohnraum besitzen, als er selbst bewohne. Union, FDP und AfD reagierten scharf, die SPD-Spitze distanzierte sich. Diese Lust an der Zuspitzung, am Auftritt bei Böhmermann und in Talkshows ist der Flügel; die Sechs darunter fragt, wie weit man gehen kann, ohne die Gruppe zu verlieren.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: vom Juso-Chef zum Generalsekretär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Seine eigentliche politische Leistung war, einer Parteijugend, die als Randerscheinung galt, öffentliche Wucht zu geben. 2018 wurde er vom Magazin ›Time‹ unter die ›Next Generation Leaders‹ gewählt. 2021 gewann er das Direktmandat im Berliner Wahlkreis Tempelhof-Schöneberg mit 27,1 Prozent der Erststimmen und saß im Bundestag im Ausschuss für Wohnen und Stadtentwicklung. Als Generalsekretär leitete er die Parteizentrale einer Partei, die er jahrelang von links kritisiert hatte. Seine Positionen reichten vom Mindestlohn von mindestens 12 Euro und einer Vermögensteuer über die Begrenzung der Leiharbeit bis zur Beteiligung der Beschäftigten an den Unternehmen. Zum Berliner Volksentscheid zur Enteignung großer Wohnungsunternehmen sagte er 2021, er werde dagegen stimmen, weil die Schwelle von 3.000 Wohnungen willkürlich sei.</p>
+          <p class="vb-intro">Eine Dokumentationsreihe des NDR (›Kevin Kühnert und die SPD‹) begleitete ihn drei Jahre lang und lief nach der Bundestagswahl 2021.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Maas, Hörhan und Allen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den Porträts dieses Kompasses stehen mehrere SE6w7er, und der Vergleich zeigt, wie unterschiedlich die Sechs ihren Halt sucht. <a href="#beruehmte-heiko-maas">Heiko Maas (SE6w7)</a> blieb wie Kühnert seiner Partei treu und fand seinen Halt in Institutionen, wurde aber Minister und blieb in der Politik. <a href="#beruehmte-gerald-hoerhan">Gerald Hörhan (SE6w7)</a> sucht Sicherheit im eigenen Besitz und verkauft Vorsicht als Rebellion. <a href="#beruehmte-woody-allen">Woody Allen (SE6w7)</a> zog sich aus dem Lärm der Welt in ein überschaubares Revier zurück und machte aus der Angst Pointen.</p>
+          <p class="vb-intro">Kühnert liegt zwischen ihnen: Seine Sicherheit liegt in der Gruppe wie bei Maas, aber als die Gruppe sie nicht mehr bieten konnte, zog er sich zurück, wie Allen in sein Revier, nur dass seines in den Bergen liegt. Die Lust am öffentlichen Auftritt teilt er mit Hörhan, doch während Hörhan die Angst in Besitz verwandelt, wird sie bei Kühnert zu Haltung und zur Frage, wann der Preis zu hoch wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Sechs mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Haltung, die Wachsamkeit in Sorgfalt verwandelt. Kühnert verlangt von sich selbst Respekt für Andersdenkende. Er sagt, er sei seit einigen Jahren mit einem FDP-Politiker liiert und habe dadurch neu verstanden: ›Es braucht das ständige Bewusstsein, dass der politische Gegner auch recht haben könnte.‹ Das ist eine Sechs, die gelernt hat, dass Sicherheit nicht aus Abgrenzung entsteht.</p>
+          <p class="vb-intro">Der Schatten ist die Erschöpfung der Wachsamkeit. Am 7. Oktober 2024 trat er als Generalsekretär zurück: ›Ich selbst kann im Moment nicht über mich hinauswachsen, weil ich leider nicht gesund bin.‹ Eine Diagnose hat er nicht genannt. Im Interview mit der ›Zeit‹ beschrieb er später ein ›Gefühl von absoluter Vergeblichkeit‹: Er habe den Glauben verloren, gegen den Hass im Netz ankämpfen zu können. Nicht Angst vor Neonazis sei entscheidend gewesen, sondern ›zunehmend Zweifel‹ beim Thema Wehrhaftigkeit, nachdem in einer Straßenbahn drei Männer über das Verprügeln eines Politikers gesprochen hätten und niemand eingegriffen habe. Dass die Wachsamkeit der Sechs nicht ausschaltbar ist, zeigt sich hier als Kosten eines Lebens im Dauerlicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: nach der Politik</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 22. Oktober 2026) hielt Kühnert am 11. Februar 2025 seine letzte Rede im Bundestag und schied im März 2025 aus dem Parlament aus. Er blieb Mitglied der SPD. Im Sommer 2025 wanderte er rund 1.000 Kilometer auf dem Nordalpenweg durch Österreich, seit November 2025 schreibt er für ›Rolling Stone‹ Deutschland die Kolumne ›Teilnehmende Beobachtung‹, seit Dezember 2025 leitet er bei der Bürgerbewegung Finanzwende den Bereich Steuern, Verteilung und Lobbyismus, und seit Februar 2026 moderiert er im Kabarett-Theater Distel die Gesprächsreihe ›Missverstehen Sie mich richtig!‹. Eine Rückkehr in die Politik hat er nicht ausgeschlossen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se6", label:"Lebensmusterkompass: SE6 – Kaninchen"},
+        {route:"beruehmte-heiko-maas", label:"Porträt: Heiko Maas (SE6w7) – ebenfalls SPD, derselbe Subtyp und Flügel"},
+        {route:"beruehmte-gerald-hoerhan", label:"Porträt: Gerald Hörhan (SE6w7)"},
+        {route:"beruehmte-woody-allen", label:"Porträt: Woody Allen (SE6w7)"},
+      ])}
+    </div>
+  `);
+}

@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2558", date: "2026-10-22", text: "Neues Porträt: Kevin Kühnert (SE6w7) – Politiker, ehemaliger Juso-Chef und SPD-Generalsekretär.", text_en: "New portrait: Kevin Kühnert (SE6w7) – politician, former Juso chair and SPD general secretary.", route: "beruehmte-kevin-kuehnert" },
     { version: "v2557", date: "2026-10-22", text: "Neues Porträt: Gerald Hörhan (SE6w7) – österreichischer Investor und Autor, bekannt als ›Investment Punk‹.", text_en: "New portrait: Gerald Hörhan (SE6w7) – Austrian investor and author, known as 'Investment Punk'.", route: "beruehmte-gerald-hoerhan" },
     { version: "v2556", date: "2026-10-22", text: "Neues Porträt: Heiko Maas (SE6w7) – Politiker und Jurist, Bundesjustiz- und Außenminister.", text_en: "New portrait: Heiko Maas (SE6w7) – politician and lawyer, Federal Minister of Justice and Foreign Minister.", route: "beruehmte-heiko-maas" },
     { version: "v2553", date: "2026-10-21", text: "Neues Krankheitsporträt: Florence Nightingale (SO2w1) – Krimfieber, jahrzehntelange Krankheit und die Frage, was dahintersteckte.", text_en: "New illness portrait: Florence Nightingale (SO2w1) – Crimean fever, decades of illness and the question of what lay behind it.", route: "krankheitsportraets-florence-nightingale" },
