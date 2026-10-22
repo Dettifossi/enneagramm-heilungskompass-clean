@@ -2653,3 +2653,78 @@ export function wigaldBoningPortraitPage() {
     </div>
   `);
 }
+
+export function heikoMaasPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-heiko-maas-portrait.jpg" alt="Heiko Maas – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-heiko-maas-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Heiko Maas</p>
+        <p class="krim-portrait-typ">SE6w7 &middot; Selbsterhaltender Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Politiker und Jurist, geb. 1966 &ndash; Bundesjustizminister 2013&ndash;2018, Außenminister 2018&ndash;2021 &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen: der älteste von drei Söhnen aus Saarlouis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> kennt jeden Ausgang seines Baus und wählt den Weg, auf dem ihm nichts passieren kann. Heiko Maas wurde am 19. September 1966 in Saarlouis geboren, als ältester von drei Söhnen eines Berufssoldaten und einer Schneiderin. Die Familie war katholisch geprägt, er war Messdiener und mehrere Jahre in der katholischen Jugendarbeit aktiv. 1987 machte er sein Abitur am Realgymnasium in Völklingen und arbeitete danach ein Jahr als Produktionshelfer im Ford-Werk in Saarlouis. Er ist Mitglied der IG Metall.</p>
+          <p class="vb-intro">1989 begann er in Saarbrücken Jura zu studieren und trat im selben Jahr in die SPD ein. 1993 bestand er das erste, 1996 das zweite juristische Staatsexamen. Eine Kirche, eine Gewerkschaft, eine Partei, ein Studium der Regeln: Wer diese Stationen aneinanderreiht, sieht einen Menschen, der Halt in Ordnungen sucht, die größer sind als er selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Sicherheit durch Zugehörigkeit und Regeln</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sechs lebt mit der Angst, dass etwas schiefgehen könnte, und sichert sich ab. Die <strong>selbsterhaltende Sechs (SE6)</strong> nannte Claudio Naranjo den Subtyp der ›Wärme‹: Sie sucht Sicherheit nicht in Stärke oder Kontrolle über die Welt, sondern in verlässlichen Bindungen, in Menschen und Strukturen, auf die man zählen kann. Wo andere Sechsen Gefahren früh wittern, will sie vor allem wissen, wer zu ihr hält.</p>
+          <p class="vb-intro">Maas&rsquo; Laufbahn liest sich wie eine Folge solcher Bindungen. Mit 26 Jahren wurde er 1992 Landesvorsitzender der Saar-Jusos, 1994 saß er im Landtag, gefördert von Oskar Lafontaine und Reinhard Klimmt. Als Lafontaine 2004 zur Linkspartei wechselte, ließ er ihn, wie die taz 2009 schrieb, vor einer Wahl ›im Regen stehen‹. Maas habe später gesagt, er habe zu oft erlebt, dass im Stich gelassen wird, wer sich auf Lafontaine verlässt. Für eine Sechs ist das der klassische Schlag: Die Autorität, auf die man sich gestützt hat, fällt aus, und man muss lernen, selbst Halt zu geben. Maas blieb 18 Jahre Landesvorsitzender der SPD Saar (2000 bis 2018), 13 Jahre Oppositionsführer im Landtag und gehörte dem Bundesvorstand der Partei bis 2021 an. Das ist die Verlässlichkeit einer Sechs, die ihre Gruppe nie verlässt.</p>
+          <p class="vb-intro">Auch die Wahl des Berufs passt dazu. Der Jurist hält sich an Regeln, die für alle gelten. 1999 verzichtete er auf ein Übergangsgeld, das ihm nach den damaligen Regeln zugestanden hätte, und nannte diese Regeln dringend änderungsbedürftig. Als Bundesjustizminister wechselte er bei der Vorratsdatenspeicherung von Skepsis im Januar 2014 zu einem der stärksten Befürworter in der SPD im Jahr 2015: ein Beispiel für die Sechs, die Sicherheit über Absicherung sucht. Und beim Thema Sport nennt er selbst, wie er Aggressionen abbaut: ›Wenn ich Aggressionen abbauen will, mache ich Sport.‹ Die taz porträtierte ihn 2009 unter dem Titel ›Hart gegen sich selbst‹ und meinte Joggen und Triathlon: Die Härte der Sechs richtet sich nicht gegen andere, sondern gegen sich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: der ›neue Mann‹ und die leichtere Seite</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> gibt der Sechs Beweglichkeit, Anpassung ans Moderne und die Neigung, die Sorge nicht nur zu tragen, sondern ihr eine leichtere Form zu geben. Bei Maas fällt das in den Auftritten auf, die nicht zum Bild des distanzierten Juristen passen. Im Landtagswahlkampf 2009 inszenierte ihn die SPD als ›den neuen Mann‹, mit Dreitagebart und offenem Hemd, was die taz als gewagt bewertete, weil er seit 15 Jahren zur politischen Klasse gehörte. 2016 wählte ihn das Magazin ›GQ‹ zum ›Best Dressed‹ (Bestgekleideten), er läuft Triathlon und ist Fan des Hamburger SV.</p>
+          <p class="vb-intro">Eine Sechs mit schwächer ausgeprägtem Siebenerflügel hätte sich vielleicht auf das Absichern beschränkt. Bei Maas kommt eine Spur Lust an der Wirkung hinzu, an der Frage, wie er von außen gesehen wird. Das lässt sich mit dem Siebenerflügel in Verbindung bringen und mit der Sechs, die ihre Unsicherheit über das Bild nach außen kompensiert, ohne sie zuzugeben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Gesetze, Diplomatie und die Auschwitz-Frage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In der Antrittsrede als Außenminister am 14. März 2018 sagte Maas einen Satz, der seither mit seinem Namen verbunden ist: ›Ich bin wegen Auschwitz in die Politik gegangen.‹ Er sei nicht wegen Willy Brandt, der Friedens- oder der Umweltbewegung Politiker geworden. Auf seiner ersten Reise nach Israel erklärte er später, er habe in der Schule keine Antworten auf seine Fragen zum Holocaust bekommen und sich deshalb mit der eigenen Familiengeschichte befasst. Er habe nach einem Widerstandskämpfer in der Familie gesucht und nur Mitläufer gefunden, und daraus die Frage abgeleitet, was er selbst beitragen könne. Eine Sechs, die nach Halt sucht und ihn in der Geschichte der Eltern und Großeltern nicht findet, macht Haltung zur eigenen Aufgabe.</p>
+          <p class="vb-intro">Als Bundesjustiz- und Verbraucherschutzminister (2013 bis 2018) verantwortete er das Netzwerkdurchsetzungsgesetz (2017), das gegen Hass im Netz vorgehen sollte und als Schnellschuss kritisiert wurde, den Straftatbestand der Datenhehlerei (§ 202d StGB), eine Reform der Mordmerkmale und die gesetzliche Frauenquote von 30 Prozent für Aufsichtsräte börsennotierter Unternehmen. 2015 entließ er den Generalbundesanwalt Harald Range, nachdem dieser gegen Journalisten von netzpolitik.org ermittelt hatte, und sagte, das Vertrauen sei nachhaltig gestört.</p>
+          <p class="vb-intro">Als Außenminister (2018 bis 2021) unterstützte er unter anderem die deutsche Bewerbung um einen Sitz im UN-Sicherheitsrat 2019/20, warf im Februar 2020 dem syrischen Regime und Russland Verstöße gegen das humanitäre Völkerrecht in Idlib vor und unterstützte die Bewaffnung von Bundeswehr-Drohnen. Nach dem chaotischen Abzug aus Afghanistan im Sommer 2021 bot er Olaf Scholz seinen Rücktritt an, den dieser nicht annahm. Auch das passt zum Typ: Die Sechs übernimmt Verantwortung, wenn die Ordnung, für die sie steht, nicht hält.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Woody Allen, Katie Couric, Raúl Aguayo-Krauthausen und Beatrice Chebet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den Porträts dieses Kompasses stehen mehrere SE6w7er, und der Vergleich zeigt, wie unterschiedlich dieselbe Absicherung aussehen kann. <a href="#beruehmte-woody-allen">Woody Allen (SE6w7)</a> machte aus seiner Angst Pointen und blieb über Jahrzehnte in demselben New Yorker Revier. <a href="#beruehmte-katie-couric">Katie Couric (SE6w7)</a> machte aus der eigenen Erfahrung mit Krebs dauerhafte Vorsorge. <a href="#beruehmte-raul-aguayo-krauthausen">Raúl Aguayo-Krauthausen (SE6w7)</a> schuf mit Wheelmap eine kartierte, überprüfbare Sicherheit. <a href="#beruehmte-beatrice-chebet">Beatrice Chebet (SE6w7)</a> findet Halt in der Gemeinschaft der Läuferinnen.</p>
+          <p class="vb-intro">Maas&rsquo; Weg ist dem von Aguayo-Krauthausen am nächsten: Sicherheit, die durch Regeln und Strukturen entsteht. Wo Aguayo-Krauthausen eine Karte baut, schreibt Maas Gesetze, und beide misstrauen vagen Zusicherungen. Anders als Allen, der seine Angst in Sprache verwandelt, lässt Maas sie in Paragrafen, Sitzungen und in Haltung übergehen, und anders als Chebet sucht er seine Gemeinschaft in Institutionen: Partei, Gewerkschaft, Kirche, Staat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Sechs mit Siebenerflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit: Maas blieb über Jahrzehnte derselben Partei, derselben Region und derselben Rolle treu, wenn auch in wechselnden Ämtern. Er übernahm Verantwortung, bot nach Afghanistan den Rücktritt an und macht Haltung zur Begründung seiner Politik.</p>
+          <p class="vb-intro">Der Schatten der Sechs ist die Anfälligkeit für Stützen von außen. Der Wechsel bei der Vorratsdatenspeicherung, das NetzDG als Schnellschuss und die Entlassung Ranges zeigen, wie schnell eine Sechs Entscheidungen trifft, wenn sie Sicherheit herstellen will, und wie viel Kritik sie dafür einsteckt. Auch die Berufung zum Aufsichtsratsvorsitzenden der Stahl-Holding-Saar im Oktober 2025 wurde von Kritikern als Versorgung eines Parteimannes gewertet; der saarländische CDU-Chef Stephan Toscani sprach von ›Parteibuch-Politik und Filz in Reinform‹. Wer Sicherheit in Zugehörigkeit sucht, gerät leicht in den Verdacht, dass die Zugehörigkeit selbst die Stelle verschafft hat. Das ist die Sicht von Kritikern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: zurück im Saarland</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 22. Oktober 2026) hat Heiko Maas den Bundestag Ende 2022 verlassen und arbeitet als Rechtsanwalt bei GSK Stockmann. Er ist Präsident des Verbandes der Saarhütten, seit 2024 Präsident des Deutschen Polen-Instituts und seit Oktober 2025 Aufsichtsratsvorsitzender von Stahl-Holding-Saar, Saarstahl und Dillinger Hütte. Neuere Meldungen aus dem Jahr 2026 liegen nicht vor.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se6", label:"Lebensmusterkompass: SE6 – Kaninchen"},
+        {route:"beruehmte-woody-allen", label:"Porträt: Woody Allen (SE6w7) – derselbe Subtyp und Flügel"},
+        {route:"beruehmte-katie-couric", label:"Porträt: Katie Couric (SE6w7)"},
+        {route:"beruehmte-raul-aguayo-krauthausen", label:"Porträt: Raúl Aguayo-Krauthausen (SE6w7)"},
+        {route:"beruehmte-beatrice-chebet", label:"Porträt: Beatrice Chebet (SE6w7)"},
+      ])}
+    </div>
+  `);
+}

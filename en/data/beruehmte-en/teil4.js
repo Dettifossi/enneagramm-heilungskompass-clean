@@ -2664,3 +2664,78 @@ export function rosaLuxemburgPortraitPage() {
     </div>
   `);
 }
+
+export function heikoMaasPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-heiko-maas-portrait.jpg" alt="Heiko Maas – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-heiko-maas-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Heiko Maas</p>
+        <p class="krim-portrait-typ">SE6w7 &middot; Self-Preservation Type 6 with a Seven-wing</p>
+        <p class="krim-portrait-subtitle">German politician and lawyer, b. 1966 &ndash; Federal Minister of Justice 2013&ndash;2018, Foreign Minister 2018&ndash;2021 &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit: the eldest of three sons from Saarlouis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> knows every exit of its burrow and chooses the path on which nothing can happen to it. Heiko Maas was born on 19 September 1966 in Saarlouis, the eldest of three sons of a career soldier and a seamstress. The family was shaped by Catholicism; he was an altar server and active for several years in Catholic youth work. In 1987 he took his Abitur at the Realgymnasium in Völklingen and then worked for a year as a production assistant at the Ford plant in Saarlouis. He is a member of the IG Metall union.</p>
+          <p class="vb-intro">In 1989 he began studying law in Saarbrücken and joined the SPD in the same year. He passed the first state law examination in 1993 and the second in 1996. A church, a union, a party, a study of rules: whoever lines up these stations sees someone who looks for support in orders larger than himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The self-preservation Six: security through belonging and rules</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six lives with the fear that something could go wrong, and secures itself. Claudio Naranjo called the <strong>self-preservation Six (SE6)</strong> the subtype of &lsquo;warmth&rsquo;: it seeks security not in strength or control of the world but in reliable bonds, in people and structures one can count on. Where other Sixes spot danger early, it wants above all to know who stands by it.</p>
+          <p class="vb-intro">Maas&rsquo; career reads like a series of such bonds. At 26 he became chairman of the Saar Jusos (the SPD&rsquo;s youth wing) in 1992; in 1994 he sat in the state parliament, sponsored by Oskar Lafontaine and Reinhard Klimmt. When Lafontaine switched to the Left Party in 2004, he left him, as the taz wrote in 2009, &lsquo;standing in the rain&rsquo; before an election. Maas later said, it is reported, that he had too often seen people abandoned who relied on Lafontaine. For a Six this is the classic blow: the authority one leaned on fails, and one has to learn to give support oneself. Maas stayed 18 years chairman of the SPD Saar (2000 to 2018), 13 years leader of the opposition in the state parliament and a member of the party executive until 2021. That is the reliability of a Six who never leaves their group.</p>
+          <p class="vb-intro">The choice of profession fits too. The lawyer holds to rules that apply to everyone. In 1999 he waived a transition allowance that was due to him under the rules of the time and called those rules in urgent need of change. As Federal Minister of Justice he moved on data retention from scepticism in January 2014 to one of the strongest SPD supporters in 2015: an example of the Six that seeks security through safeguards. And on sport he says himself how he works off aggression: &lsquo;When I want to work off aggression, I do sport.&rsquo; The taz portrayed him in 2009 under the title &lsquo;Hart gegen sich selbst&rsquo; (&lsquo;Hard on himself&rsquo;) and meant jogging and triathlon: the Six&rsquo;s hardness is not directed at others but at itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: the &lsquo;new man&rsquo; and the lighter side</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> gives the Six mobility, adaptation to the modern and the tendency not only to carry the worry but to give it a lighter form. In Maas this is noticeable in appearances that do not fit the image of the distanced lawyer. In the 2009 state election campaign the SPD staged him as &lsquo;the new man&rsquo;, with stubble and an open shirt, which the taz judged daring because he had belonged to the political class for 15 years. In 2016 the magazine &lsquo;GQ&rsquo; named him &lsquo;Best Dressed&rsquo;, he runs triathlon and is a fan of Hamburger SV.</p>
+          <p class="vb-intro">A Six with a weaker Seven-wing might have limited itself to safeguarding. In Maas there is a trace of pleasure in effect, in the question of how he is seen from outside. This can be linked to the Seven-wing and to the Six that compensates its uncertainty through the image it presents, without admitting it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: laws, diplomacy and the question of Auschwitz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In his inaugural speech as foreign minister on 14 March 2018 Maas said a sentence that has been tied to his name ever since: &lsquo;I went into politics because of Auschwitz&rsquo; (&lsquo;Ich bin wegen Auschwitz in die Politik gegangen&rsquo;). He did not become a politician, he said, because of Willy Brandt, the peace movement or the environment movement. On his first trip to Israel he later explained that he had received no answers to his questions about the Holocaust at school and therefore looked into his own family history. He had searched for a resistance fighter in the family and found only followers, and from that asked what he himself could contribute. A Six that looks for support and does not find it in the history of parents and grandparents makes stance its own task.</p>
+          <p class="vb-intro">As Federal Minister of Justice and Consumer Protection (2013 to 2018) he was responsible for the Network Enforcement Act (2017), meant to act against hate online and criticised as a rushed measure, the offence of data receiving (§ 202d of the criminal code), a reform of the murder qualifiers and the statutory 30 percent women&rsquo;s quota for supervisory boards of listed companies. In 2015 he dismissed Federal Prosecutor General Harald Range after the latter had investigated journalists at netzpolitik.org, saying that trust had been lastingly disturbed.</p>
+          <p class="vb-intro">As foreign minister (2018 to 2021) he, among other things, supported the German bid for a UN Security Council seat in 2019/20, accused the Syrian regime and Russia in February 2020 of violating humanitarian law in Idlib, and supported arming Bundeswehr drones. After the chaotic withdrawal from Afghanistan in summer 2021 he offered Olaf Scholz his resignation, which Scholz did not accept. This too fits the type: the Six takes responsibility when the order it stands for does not hold.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Woody Allen, Katie Couric, Raúl Aguayo-Krauthausen and Beatrice Chebet</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Several SE6w7s stand among the portraits in this Compass, and the comparison shows how differently the same safeguarding can look. <a href="#beruehmte-woody-allen">Woody Allen (SE6w7)</a> turned his fear into punchlines and stayed for decades in the same New York territory. <a href="#beruehmte-katie-couric">Katie Couric (SE6w7)</a> turned her own experience with cancer into lasting prevention. <a href="#beruehmte-raul-aguayo-krauthausen">Raúl Aguayo-Krauthausen (SE6w7)</a> created a mapped, verifiable security with Wheelmap. <a href="#beruehmte-beatrice-chebet">Beatrice Chebet (SE6w7)</a> finds support in the community of runners.</p>
+          <p class="vb-intro">Maas&rsquo; path is closest to that of Aguayo-Krauthausen: security that arises from rules and structures. Where Aguayo-Krauthausen builds a map, Maas writes laws, and both distrust vague assurances. Unlike Allen, who turns his fear into language, Maas lets it pass into paragraphs, meetings and stance, and unlike Chebet he seeks his community in institutions: party, union, church, state.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the self-preservation Six with a Seven-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in reliability: Maas stayed for decades with the same party, the same region and the same role, if in changing offices. He took responsibility, offered his resignation after Afghanistan and makes stance the justification of his politics.</p>
+          <p class="vb-intro">The shadow of the Six is susceptibility to outside supports. The switch on data retention, the NetzDG as a rushed measure and the dismissal of Range show how quickly a Six makes decisions when it wants to establish security, and how much criticism it takes for it. The appointment as chairman of the supervisory board of Stahl-Holding-Saar in October 2025 was also read by critics as providing for a party man; the Saarland CDU leader Stephan Toscani spoke of &lsquo;party-book politics and nepotism in pure form&rsquo;. Whoever seeks security in belonging easily falls under the suspicion that the belonging itself provided the post. That is the view of critics.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: back in Saarland</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 22 October 2026) Heiko Maas left the Bundestag at the end of 2022 and works as a lawyer at GSK Stockmann. He is president of the Verband der Saarhütten (association of Saar steelworks), since 2024 president of the German Poland Institute and since October 2025 chairman of the supervisory boards of Stahl-Holding-Saar, Saarstahl and Dillinger Hütte. No newer reports from 2026 are available.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
+        {route:"lebensmusterkompass/se6", label:"Life Pattern Compass: SE6 – Rabbit"},
+        {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SE6w7) – same subtype and wing"},
+        {route:"beruehmte-katie-couric", label:"Portrait: Katie Couric (SE6w7)"},
+        {route:"beruehmte-raul-aguayo-krauthausen", label:"Portrait: Raúl Aguayo-Krauthausen (SE6w7)"},
+        {route:"beruehmte-beatrice-chebet", label:"Portrait: Beatrice Chebet (SE6w7)"},
+      ])}
+    </div>
+  `);
+}

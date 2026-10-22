@@ -250,7 +250,7 @@ export const LEBENSMUSTERKOMPASS = {
   SE6: {
     tier: "Kaninchen",
     kernthema: "Ständige Wachheit gegenüber Gefahr, Sicherheit gesucht im Vertrauten (Naranjo: Wärme)",
-    beispiele: ["Sundar Pichai", "Fjodor Dostojewski", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Klaus J. Behrendt", "Zachäus", "Huang Yong Ping", "Alberto Marini", "Karl Lauterbach", "Stan Laurel", "Stringer Davis", "Katie Couric", "Ellen DeGeneres", "Raúl Aguayo-Krauthausen", "Luke Nichols"],
+    beispiele: ["Sundar Pichai", "Fjodor Dostojewski", "Franz Schubert", "Herbert Kickl", "Malaika Mihambo", "Mahatma Gandhi", "Neil Armstrong", "Beatrice Chebet", "Woody Allen", "John List", "Dr. Anne McBride", "Klaus J. Behrendt", "Zachäus", "Huang Yong Ping", "Alberto Marini", "Karl Lauterbach", "Stan Laurel", "Stringer Davis", "Katie Couric", "Ellen DeGeneres", "Raúl Aguayo-Krauthausen", "Luke Nichols", "Heiko Maas"],
     fingerabdruecke: [
       {
         titel: "Gefahr früher wahrnehmen als andere – ständige, aktive Wachheit",
@@ -275,7 +275,7 @@ export const LEBENSMUSTERKOMPASS = {
       {
         titel: "Vertrauen in ein äußeres, altbewährtes System statt in die eigene, unsichere Entscheidung (v. a. bei w5)",
         beschreibung: "Statt sich auf die eigene Urteilskraft zu verlassen, wird die Kontrolle bewusst an ein verlässliches, meist traditionsreiches Verfahren oder Ordnungssystem abgegeben – Sicherheit entsteht dadurch, dass etwas Bewährtes die Entscheidung trifft, nicht das unsichere Selbst.",
-        beleg: "Huang Yong Ping, der über Jahrzehnte Würfel und Drehräder nach den Prinzipien des I Ging über Farbe, Form und Anordnung seiner Werke entscheiden ließ: ›Keine persönliche Setzung, keine künstlerische Willkür – sondern ein vertrautes, äußeres Verfahren, das die Entscheidung übernimmt, wo die eigene Autorität zu unsicher erscheint.‹"
+        beleg: "Heiko Maas, der Halt in Kirche, Gewerkschaft, Partei und Rechtsordnung suchte, nach Lafontaines Wechsel 2004 selbst zum verlässlichen Anker der Landes-SPD wurde und als Minister Sicherheit über Gesetze herstellte; Huang Yong Ping, der über Jahrzehnte Würfel und Drehräder nach den Prinzipien des I Ging über Farbe, Form und Anordnung seiner Werke entscheiden ließ: ›Keine persönliche Setzung, keine künstlerische Willkür – sondern ein vertrautes, äußeres Verfahren, das die Entscheidung übernimmt, wo die eigene Autorität zu unsicher erscheint.‹"
       },
       {
         titel: "Wenn geschützte Wachsamkeit in öffentliche Katastrophisierung kippt (Schattenform, v. a. bei w5)",
