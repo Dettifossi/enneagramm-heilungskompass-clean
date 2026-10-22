@@ -2693,3 +2693,75 @@ export function sixNinePortraitPage() {
     </div>
   `);
 }
+
+export function isabellGerschkePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-isabell-gerschke-portrait.jpg" alt="Isabell Gerschke – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-isabell-gerschke-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Isabell Gerschke</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Schauspielerin, geb. 1979 &ndash; Polizeiruf 110, In aller Freundschaft &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse: das Mädchen vom Schulhof</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> lebt in Bewegung, im Miteinander und in der Lust, Neues auszuprobieren. Isabell Gerschke wurde am 5. Juni 1979 in Potsdam geboren und wuchs dort als Tochter einer Lehrerin und eines Handwerkers auf. Zur Schauspielerei kam sie durch Zufall: ›Zur Schauspielerei kam ich mit zwölf Jahren, kurz nach der Maueröffnung.‹ Ein Film-Scout sprach sie auf dem Schulhof an, sie ging aus Neugierde zum Casting und war sofort begeistert. Ihr erster Film ›Unser Haus‹ entstand 1991.</p>
+          <p class="vb-intro">Ihre eigentliche Leidenschaft war schon vorher da: ›Seitdem ich fünf Jahre alt bin, tanze ich und habe das auch immer weiterverfolgt.‹ Bekannt wurde sie 1996 als Laura in ›Crash Kids‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Begeisterung, die gleich ganz hineinspringt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sieben sucht das Erleben, das Spaß macht und Möglichkeiten offen hält. Die <strong>sexuelle Sieben (SX7)</strong> nannte Claudio Naranjo den Subtyp der ›Suggestibility‹ (Beeinflussbarkeit durch Faszination): Sie lässt sich von einer Idee, einer Rolle oder einem Menschen entzünden und geht mit ganzer Intensität hinein. Bei Gerschke zeigt sich das in der Begeisterung, mit der sie schon als Zwölfjährige sofort ins Casting und ins Filmleben sprang: Sie entscheide oft aus dem Bauch heraus und vertraue ihrem Gespür. Dabei räumt sie ein, dass in sehr emotionalen Situationen der Blick auf die Fakten verloren gehen kann.</p>
+          <p class="vb-intro">Sie identifiziert sich stark mit ihren Rollen und sieht viel eigene Erfahrung in jeder Figur. Besonders reizen sie die dunklen Seiten von Menschen. Sie fühlt sich mit den Frauen, die sie verkörpert hat, stark verbunden, weil das Leben ihrer Meinung nach selten eindeutig ist. Sie ist gern spontan, nennt sich offen für neue Erfahrungen und sieht Umwege als Lernprozesse.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Ensemble, Heimatstadt, Bodenständigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Loyalität und das Bedürfnis nach einem verlässlichen Rahmen. Eine Sieben mit schwächer ausgeprägtem Sechserflügel würde sich vielleicht mehr zerstreuen; Gerschke bleibt ihrer Stadt und ihren Ensembles treu. Seit über drei Jahrzehnten arbeitet sie im Fernsehen, in Reihen wie ›Polizeiruf 110‹, ›Heiter bis tödlich: Akte Ex‹ und ›In aller Freundschaft‹, also in Formaten mit festem Team und festem Schauplatz. Sie lebt weiterhin in Potsdam, gibt dort Tanzunterricht für Jugendliche und ist Schirmherrin der Initiative ›Kultür Potsdam‹, die sich für kulturelle Teilhabe in ihrer Heimatstadt einsetzt.</p>
+          <p class="vb-intro">Zur Sechs passt auch ihr Verhältnis zur Öffentlichkeit: Sie hält das Privatleben weitgehend heraus, hat nach Berichten keinen Instagram-Account und sagt: ›Im Vordergrund sollte meine Arbeit stehen.‹ Ihr Leben beschreibt sie als ›ganz bodenständig‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Schauspielerin, Tänzerin, Sängerin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gerschke verbindet drei Ausdrucksformen. Als Schauspielerin spielt sie seit Kindertagen Haupt- und Gastrollen: 2010 bis 2013 war sie Oberkommissarin Nora Lindner im ›Polizeiruf 110‹ (Folgen 43 bis 50), 2012 bis 2016 Kommissarin Kristina Katzer in ›Heiter bis tödlich: Akte Ex‹ (23 Folgen), seit Juni 2020 die Gynäkologin Dr. Ina Schulte in ›In aller Freundschaft‹. Hinzu kommen Gastrollen in ›Tatort‹, ›Ein Fall für zwei‹ und ›Wilsberg‹ sowie Kinofilme wie ›Mädchen über Bord‹ (2005).</p>
+          <p class="vb-intro">Für Gesang und Tanz ging sie eigene Wege: 1999 studierte sie Popgesang am Musicians Institute in Hollywood, von 2001 bis 2003 folgte eine Bühnentanzausbildung bei Danceworks in Berlin. Nach eigener Website schreibt sie Songs, produziert eigene Musik und arbeitet als Coach.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Peters, Spilling Ødegaard und van Tongeren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Unter den SX7w6ern dieses Kompasses finden sich mehrere aus der Bühne und dem Tanz. <a href="#beruehmte-caroline-peters">Caroline Peters (SX7w6)</a> lebt den Rausch der Verwandlung, wie Gerschke, die in Rollen stark aufgeht und die dunklen Seiten reizvoll findet. <a href="#beruehmte-helene-spilling-odegaard">Helene Spilling Ødegaard (SX7w6)</a> wurde als Kind vom Tanz gepackt und warf sich hinein, wie Gerschke, die seit dem fünften Lebensjahr tanzt. <a href="#beruehmte-wietske-van-tongeren">Wietske van Tongeren (SX7w6)</a> verliebt sich in neue Stücke und findet im Ensemble Halt, wie Gerschke in ihren Serienteams.</p>
+          <p class="vb-intro">Der Unterschied: Spilling Ødegaard und van Tongeren gehen in einer einzigen Kunstform auf; Gerschke verteilt ihre Begeisterung auf Schauspiel, Tanz, Gesang und Unterricht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in Neugier und Hingabe: ein Mensch, der neugierig zum Casting ging, bis heute tanzt und die Begeisterung an Jugendliche weitergibt. Auch die Selbstbeschreibung ist ehrlich: Umwege seien Lernprozesse.</p>
+          <p class="vb-intro">Der Schatten der Sieben liegt im Bauchgefühl, das sie selbst erwähnt: Bei starken Gefühlen geht der Blick auf die Fakten leicht verloren. Dazu kommt die Streuung auf viele Felder, die der Sechserflügel durch Bodenständigkeit und Treue zur Stadt ausgleicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Schauspielerin in Potsdam</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 23. Oktober 2026) lebt Isabell Gerschke in Potsdam. In ›In aller Freundschaft‹ spielt sie Dr. Ina Schulte; ob ihr Ausstieg aus der Serie endgültig ist, ist den Quellen nicht eindeutig zu entnehmen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-caroline-peters", label:"Porträt: Caroline Peters (SX7w6)"},
+        {route:"beruehmte-helene-spilling-odegaard", label:"Porträt: Helene Spilling Ødegaard (SX7w6)"},
+        {route:"beruehmte-wietske-van-tongeren", label:"Porträt: Wietske van Tongeren (SX7w6)"},
+      ])}
+    </div>
+  `);
+}

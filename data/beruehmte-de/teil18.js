@@ -2784,6 +2784,7 @@ export function heleneSpillingOedegaardPortraitPage() {
         {route:"beruehmte-wietske-van-tongeren", label:"Porträt: Wietske van Tongeren (SX7w6) – Musicaldarstellerin, derselbe Subtyp und Flügel"},
         {route:"beruehmte-allie-sherlock", label:"Porträt: Allie Sherlock (SX7w6)"},
         {route:"beruehmte-miley-cyrus", label:"Porträt: Miley Cyrus (SX7w6)"},
+        {route:"beruehmte-isabell-gerschke", label:"Porträt: Isabell Gerschke (SX7w6)"},
       ])}
     </div>
   `);

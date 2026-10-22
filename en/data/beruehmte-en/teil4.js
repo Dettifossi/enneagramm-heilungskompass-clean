@@ -2745,3 +2745,75 @@ export function heikoMaasPortraitPage() {
     </div>
   `);
 }
+
+export function isabellGerschkePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-isabell-gerschke-portrait.jpg" alt="Isabell Gerschke – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-isabell-gerschke-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Isabell Gerschke</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with a Six-wing</p>
+        <p class="krim-portrait-subtitle">German actress, b. 1979 &ndash; Polizeiruf 110, In aller Freundschaft &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee: the girl from the schoolyard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> lives in movement, in togetherness and in the joy of trying out something new. Isabell Gerschke was born on 5 June 1979 in Potsdam and grew up there as the daughter of a teacher and a craftsman. She came to acting by chance: &lsquo;I came to acting at the age of twelve, shortly after the opening of the Wall.&rsquo; A film scout approached her in the schoolyard, she went to the casting out of curiosity and was immediately enthusiastic. Her first film &lsquo;Unser Haus&rsquo; (&lsquo;Our House&rsquo;) was made in 1991.</p>
+          <p class="vb-intro">Her real passion had been there earlier: &lsquo;I have been dancing since I was five years old and have always kept it up.&rsquo; She became known in 1996 as Laura in &lsquo;Crash Kids&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: enthusiasm that jumps in completely</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven seeks experience that is fun and keeps options open. Claudio Naranjo called the <strong>sexual Seven (SX7)</strong> the subtype of &lsquo;suggestibility&rsquo; (being swayed by fascination): it is kindled by an idea, a role or a person and goes in with full intensity. In Gerschke this shows in the enthusiasm with which, at twelve, she at once jumped into the casting and into film life: she often decides from the gut and trusts her instinct. She concedes that in very emotional situations the view of the facts can be lost.</p>
+          <p class="vb-intro">She identifies strongly with her roles and sees much of her own experience in every character. The dark sides of people attract her in particular. She feels strongly connected to the women she has played because life is, in her view, rarely clear-cut. She likes being spontaneous, calls herself open to new experiences and sees detours as learning processes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: ensemble, home town, down-to-earth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven loyalty and the need for a reliable framework. A Seven with a weaker Six-wing might scatter more; Gerschke stays loyal to her city and her ensembles. For over three decades she has worked in television, in series such as &lsquo;Polizeiruf 110&rsquo;, &lsquo;Heiter bis tödlich: Akte Ex&rsquo; and &lsquo;In aller Freundschaft&rsquo; (&lsquo;In All Friendship&rsquo;), that is, in formats with a fixed team and a fixed setting. She still lives in Potsdam, teaches dance to teenagers there and is patron of the initiative &lsquo;Kultür Potsdam&rsquo;, which campaigns for cultural participation in her home town.</p>
+          <p class="vb-intro">Her relationship to the public fits the Six as well: she keeps her private life largely out of it, reportedly has no Instagram account, and says: &lsquo;My work should be in the foreground&rsquo; (original German: &lsquo;Im Vordergrund sollte meine Arbeit stehen&rsquo;). She describes her life as &lsquo;very down-to-earth&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: actress, dancer, singer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Gerschke combines three forms of expression. As an actress she has played leading and guest roles since childhood: from 2010 to 2013 she was Chief Inspector Nora Lindner in &lsquo;Polizeiruf 110&rsquo; (episodes 43 to 50), from 2012 to 2016 Inspector Kristina Katzer in &lsquo;Heiter bis tödlich: Akte Ex&rsquo; (23 episodes), and since June 2020 the gynaecologist Dr. Ina Schulte in &lsquo;In aller Freundschaft&rsquo;. Added to this are guest roles in &lsquo;Tatort&rsquo;, &lsquo;Ein Fall für zwei&rsquo; and &lsquo;Wilsberg&rsquo; as well as films such as &lsquo;Mädchen über Bord&rsquo; (&lsquo;Girls Overboard&rsquo;, 2005).</p>
+          <p class="vb-intro">For singing and dance she went her own ways: in 1999 she studied pop singing at the Musicians Institute in Hollywood, and from 2001 to 2003 followed a stage dance training at Danceworks in Berlin. According to her own website she writes songs, produces her own music and works as a coach.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Peters, Spilling Ødegaard and van Tongeren</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SX7w6s in this Compass are several from the stage and from dance. <a href="#beruehmte-caroline-peters">Caroline Peters (SX7w6)</a> lives the rapture of transformation, like Gerschke, who gets absorbed in roles and finds the dark sides appealing. <a href="#beruehmte-helene-spilling-odegaard">Helene Spilling Ødegaard (SX7w6)</a> was seized by dance as a child and threw herself in, like Gerschke, who has danced since the age of five. <a href="#beruehmte-wietske-van-tongeren">Wietske van Tongeren (SX7w6)</a> falls in love with new pieces and finds support in the ensemble, like Gerschke in her series teams.</p>
+          <p class="vb-intro">The difference: Spilling Ødegaard and van Tongeren are absorbed in a single art form; Gerschke spreads her enthusiasm over acting, dance, singing and teaching.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Seven with a Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in curiosity and devotion: a person who went to the casting out of curiosity, still dances and passes the enthusiasm on to teenagers. Her self-description is honest too: detours are learning processes.</p>
+          <p class="vb-intro">The shadow of the Seven lies in the gut feeling she mentions herself: with strong emotions the view of the facts is easily lost. Added to that is the spread over many fields, which the Six-wing balances through down-to-earthness and loyalty to her city.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: actress in Potsdam</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 23 October 2026) Isabell Gerschke lives in Potsdam. In &lsquo;In aller Freundschaft&rsquo; she plays Dr. Ina Schulte; whether her departure from the series is final cannot be clearly taken from the sources.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-caroline-peters", label:"Porträt: Caroline Peters (SX7w6)"},
+        {route:"beruehmte-helene-spilling-odegaard", label:"Porträt: Helene Spilling Ødegaard (SX7w6)"},
+        {route:"beruehmte-wietske-van-tongeren", label:"Porträt: Wietske van Tongeren (SX7w6)"},
+      ])}
+    </div>
+  `);
+}

@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=299";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=301";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -510,6 +510,7 @@ const heleneSpillingOedegaardPortraitPage = () => _lazyPage("./data/beruehmte-de
 const duncanHaldanePortraitPage = () => _lazyPage("./data/beruehmte-de/teil7.js", "duncanHaldanePortraitPage");
 const andreasGruberPortraitPage = () => _lazyPage("./data/beruehmte-de/teil11.js", "andreasGruberPortraitPage");
 const ulrichSelzPortraitPage = () => _lazyPage("./data/beruehmte-de/teil8.js", "ulrichSelzPortraitPage");
+const isabellGerschkePortraitPage = () => _lazyPage("./data/beruehmte-de/teil3.js", "isabellGerschkePortraitPage");
 const alexanderDerGrossePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "alexanderDerGrossePortraitPage");
 const arminRohdePortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "arminRohdePortraitPage");
 const bracoPortraitPage = () => _lazyPage("./data/beruehmte-de/teil12.js", "bracoPortraitPage");
@@ -27604,6 +27605,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Harry Houdini \u2013 Sozialer Typ 3",
     teaser:"SO3w2 \u00b7 1874\u20131926. Entfesselungsk\u00fcnstler (Handschellenk\u00f6nig, Wasserfolterzelle, Kistenflucht im East River): vom Armutskind aus Budapest zu einem der bestbezahlten Unterhalter seiner Zeit, Pr\u00e4sident der Society of American Magicians, Gegner der Spiritisten. Der Gepard, der sein Scheitern zur B\u00fchne machte.",
     land:"Ungarn/USA", tags:["Schauspiel"], gender:"m"},
+  { route:"beruehmte-isabell-gerschke", name:"Isabell Gerschke", added:"2026-10-23", subtyp:"SX7w6",
+    heading:"Isabell Gerschke \u2013 Sexueller Typ 7",
+    teaser:"SX7w6 \u00b7 geb. 1979. Deutsche Schauspielerin (\u203aPolizeiruf 110\u2039, \u203aIn aller Freundschaft\u2039), Tänzerin und Sängerin. Der Schimpanse, der als Zwölfjährige neugierig ins Casting sprang und in Ensembles Halt findet.",
+    land:"Deutschland", tags:["Film","Fernsehen"], gender:"f"},
   { route:"beruehmte-ulrich-selz", name:"Dr. Ulrich Selz", added:"2026-10-23", subtyp:"SO6w5",
     heading:"Dr. Ulrich Selz \u2013 Sozialer Typ 6",
     teaser:"SO6w5 \u00b7 Arzt und Autor (\u203aDer Darm-Doc\u2039) aus Ingolstadt, Notfallmediziner und Feuerwehrarzt. Das Erdm\u00e4nnchen, das nach eigener Kindheit voller Verdauungsbeschwerden Wache h\u00e4lt und Betroffenen fr\u00fch Antworten gibt.",
@@ -65484,7 +65489,7 @@ const ROUTES = {
       "beruehmte-ludwig-wittgenstein": ludwigWittgensteinPortraitPage,
       "beruehmte-robert-de-niro": robertDeNiroPortraitPage,
       "beruehmte-henning-baum": henningBaumPortraitPage,
-      "beruehmte-ulrich-selz": ulrichSelzPortraitPage, "beruehmte-andreas-gruber": andreasGruberPortraitPage, "beruehmte-duncan-haldane": duncanHaldanePortraitPage, "beruehmte-helene-spilling-odegaard": heleneSpillingOedegaardPortraitPage, "beruehmte-wietske-van-tongeren": wietskeVanTongerenPortraitPage, "beruehmte-john-travolta": johnTravoltaPortraitPage, "beruehmte-michael-greger": michaelGregerPortraitPage, "beruehmte-thomas-schmelzer": thomasSchmelzerPortraitPage, "beruehmte-milan-peschel": milanPeschelPortraitPage, "beruehmte-carlo-masala": carloMasalaPortraitPage, "beruehmte-kevin-kuehnert": kevinKuehnertPortraitPage, "beruehmte-gerald-hoerhan": geraldHoerhanPortraitPage, "beruehmte-heiko-maas": heikoMaasPortraitPage, "beruehmte-fabrice-luchini": fabriceLuchiniPortraitPage, "beruehmte-catherine-deneuve": catherineDeneuvePortraitPage, "beruehmte-6ix9ine": sixNinePortraitPage, "beruehmte-hans-sigl": hansSiglPortraitPage, "beruehmte-don-king": donKingPortraitPage, "beruehmte-dieter-lange": dieterLangePortraitPage, "beruehmte-russell-means": russellMeansPortraitPage, "beruehmte-nick-nolte": nickNoltePortraitPage, "beruehmte-dietrich-mateschitz": dietrichMateschitzPortraitPage, "beruehmte-wolfgang-grupp": wolfgangGruppPortraitPage, "beruehmte-dany-boon": danyBoonPortraitPage, "beruehmte-wayne-dyer": wayneDyerPortraitPage, "beruehmte-auguste-rodin": augusteRodinPortraitPage, "beruehmte-harry-houdini": harryHoudiniPortraitPage, "beruehmte-ada-lovelace": adaLovelacePortraitPage, "beruehmte-camille-claudel": camilleClaudelPortraitPage, "beruehmte-charlie-chaplin": charlieChaplinPortraitPage, "beruehmte-franz-peter-tebartz-van-elst": franzPeterTebartzVanElstPortraitPage, "beruehmte-juergen-klinsmann": juergenKlinsmannPortraitPage, "beruehmte-harrison-ford": harrisonFordPortraitPage, "beruehmte-prince-rogers-nelson": princeRogersNelsonPortraitPage, "beruehmte-gert-postel": gertPostelPortraitPage,
+      "beruehmte-isabell-gerschke": isabellGerschkePortraitPage, "beruehmte-ulrich-selz": ulrichSelzPortraitPage, "beruehmte-andreas-gruber": andreasGruberPortraitPage, "beruehmte-duncan-haldane": duncanHaldanePortraitPage, "beruehmte-helene-spilling-odegaard": heleneSpillingOedegaardPortraitPage, "beruehmte-wietske-van-tongeren": wietskeVanTongerenPortraitPage, "beruehmte-john-travolta": johnTravoltaPortraitPage, "beruehmte-michael-greger": michaelGregerPortraitPage, "beruehmte-thomas-schmelzer": thomasSchmelzerPortraitPage, "beruehmte-milan-peschel": milanPeschelPortraitPage, "beruehmte-carlo-masala": carloMasalaPortraitPage, "beruehmte-kevin-kuehnert": kevinKuehnertPortraitPage, "beruehmte-gerald-hoerhan": geraldHoerhanPortraitPage, "beruehmte-heiko-maas": heikoMaasPortraitPage, "beruehmte-fabrice-luchini": fabriceLuchiniPortraitPage, "beruehmte-catherine-deneuve": catherineDeneuvePortraitPage, "beruehmte-6ix9ine": sixNinePortraitPage, "beruehmte-hans-sigl": hansSiglPortraitPage, "beruehmte-don-king": donKingPortraitPage, "beruehmte-dieter-lange": dieterLangePortraitPage, "beruehmte-russell-means": russellMeansPortraitPage, "beruehmte-nick-nolte": nickNoltePortraitPage, "beruehmte-dietrich-mateschitz": dietrichMateschitzPortraitPage, "beruehmte-wolfgang-grupp": wolfgangGruppPortraitPage, "beruehmte-dany-boon": danyBoonPortraitPage, "beruehmte-wayne-dyer": wayneDyerPortraitPage, "beruehmte-auguste-rodin": augusteRodinPortraitPage, "beruehmte-harry-houdini": harryHoudiniPortraitPage, "beruehmte-ada-lovelace": adaLovelacePortraitPage, "beruehmte-camille-claudel": camilleClaudelPortraitPage, "beruehmte-charlie-chaplin": charlieChaplinPortraitPage, "beruehmte-franz-peter-tebartz-van-elst": franzPeterTebartzVanElstPortraitPage, "beruehmte-juergen-klinsmann": juergenKlinsmannPortraitPage, "beruehmte-harrison-ford": harrisonFordPortraitPage, "beruehmte-prince-rogers-nelson": princeRogersNelsonPortraitPage, "beruehmte-gert-postel": gertPostelPortraitPage,
       "beruehmte-herman-van-veen": hermanVanVeenPortraitPage,
       "beruehmte-magnus-carlsen": magnusCarlsenPortraitPage,
       "beruehmte-peter-sharpe": peterSharpePortraitPage,
