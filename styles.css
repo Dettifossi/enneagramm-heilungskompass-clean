@@ -5716,7 +5716,9 @@ button, [role="button"] { transition-timing-function: var(--spring-soft); }
 body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; font-kerning: normal; }
 h1, h2, h3, .vb-section, .section-title { text-wrap: balance; }
 p, li, .vb-intro { text-wrap: pretty; }
-:lang(de) p, :lang(de) li, :lang(de) .vb-intro { hyphens: auto; hyphenate-limit-chars: 7 3 3; }
+/* Silbentrennung nur in langen Fließtexten; Untertitel, Teaser, Karten, Listen und Namen bleiben ungetrennt */
+:lang(de) .vb-intro, :lang(de) .psycho-intro, :lang(de) .lead-small, :lang(de) .vb-anmerkung, :lang(de) .typentest-intro, :lang(de) .vb-typ__text { hyphens: auto; hyphenate-limit-chars: 7 3 3; }
+.krim-portrait-name, .krim-portrait-typ, .krim-portrait-subtitle, .krim-portrait-sub { hyphens: manual; -webkit-hyphens: manual; text-wrap: balance; }
 
 /* ── Touch: größere Treffer­flächen für kleine Bedienelemente (Layout bleibt gleich) ─ */
 @media (pointer: coarse) {
