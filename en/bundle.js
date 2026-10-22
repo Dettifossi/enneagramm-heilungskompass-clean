@@ -7269,7 +7269,7 @@ function updatesPage() {
           <p class="eyebrow">The Compass keeps growing</p>
           <h1 class="typentest-titel" style="margin-bottom:0.6rem;">All Updates</h1>
           <p class="typentest-intro">See how regularly new content, portraits and features are added.</p>
-          <ul style="list-style:none;margin:1.2rem 0 0;padding:0;">${rows}</ul>
+          <ul style="list-style:none;margin:1.2rem 0 0;padding:0;hyphens:manual;-webkit-hyphens:manual;">${rows}</ul>
         </div>
       </div>
     </div>
@@ -7307,7 +7307,7 @@ function neuigkeitenSection() {
         <button onclick="(function(){localStorage.setItem('kompass:changelog-seen','${latest}');document.getElementById('neuigkeiten-banner').remove();})()" style="position:absolute;top:0.5rem;right:0.6rem;background:none;border:none;font-size:1rem;color:var(--muted,#888);cursor:pointer;line-height:1;padding:0.1rem 0.3rem;" aria-label="Close">×</button>
         <details>
           <summary style="cursor:pointer;font-size:0.7rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--copper,#b87830);margin:0;padding-right:1.4rem;list-style:none;">New since your last visit (${neu.length})</summary>
-          <ul style="list-style:none;margin:0.6rem 0 0;padding:0;font-size:0.88rem;color:var(--ink,#2c2824);line-height:1.5;">${items}</ul>
+          <ul style="list-style:none;margin:0.6rem 0 0;padding:0;font-size:0.88rem;color:var(--ink,#2c2824);line-height:1.5;hyphens:manual;-webkit-hyphens:manual;">${items}</ul>
         </details>
       </div>
     </section>`;

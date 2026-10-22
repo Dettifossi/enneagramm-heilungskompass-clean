@@ -5747,3 +5747,7 @@ p, li, .vb-intro { text-wrap: pretty; }
   }
   .register-jumpbar, .tv-filterbar { background: color-mix(in srgb, var(--ivory) 78%, transparent); -webkit-backdrop-filter: saturate(1.6) blur(14px); backdrop-filter: saturate(1.6) blur(14px); }
 }
+
+/* Namen in Neuigkeiten und im Update-Verzeichnis nie per Silbentrennung zerlegen (z. B. »Hei-ko Maas«) */
+#neuigkeiten-banner li, #neuigkeiten-banner li *,
+.typentest-card ul li, .typentest-card ul li * { hyphens: manual; -webkit-hyphens: manual; }
