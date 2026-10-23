@@ -2791,3 +2791,76 @@ export function heleneSpillingOedegaardPortraitPage() {
     </div>
   `);
 }
+
+
+export function christinaPlatePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-christina-plate-portrait.jpg" alt="Christina Plate – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-christina-plate-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Christina Plate</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Deutsche Schauspielerin, geb. 1965 &ndash; Familie Dr. Kleist &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau: das Gesicht, das früh auf die Bühne kam</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> zeigt sich, und er weiß, dass man ihn ansieht. Christina Plate wurde am 21. April 1965 in West-Berlin geboren. Mit sechs Jahren stand sie für Kinderkleidung vor der Kamera und trat gemeinsam mit ihrer Mutter in Werbespots auf, mit elf debütierte sie in der ZDF-Serie ›Kinder, Kinder‹. 1982 spielte sie neben Thomas Ohrner in ›Manni, der Libero‹ und arbeitete auch als Synchronsprecherin.</p>
+          <p class="vb-intro">Danach ging sie einen zweiten Weg: Sie ließ sich zur Gymnastiklehrerin ausbilden und legte 1985 das Staatsexamen ab. Der Durchbruch kam 1987 mit der Serie ›Praxis Bülowbogen‹, in der sie bis 1994 in 18 Folgen zu sehen war. 1988 erhielt sie den Nachwuchs-Bambi.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Ausstrahlung als Beruf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Drei lebt von der Wirkung, und Claudio Naranjo beschrieb die <strong>sexuelle Drei (SX3)</strong> als den Subtyp der Weiblichkeit beziehungsweise Männlichkeit: Das Bild, das man abgibt, die Ausstrahlung und das Strahlen für andere stehen im Mittelpunkt. Bei Christina Plate begann das mit dem Kindermodel und setzte sich als Gesicht deutscher Fernsehserien fort, die ihr über Jahrzehnte eine treue Zuschauerschaft brachten. 2004 posierte sie für den ›Playboy‹, das Juli-Heft trug ihr Bild auf dem Titel.</p>
+          <p class="vb-intro">Zur Biografie gehört auch die Schattenseite des Bildes: 1989 brach sie an einem Filmset zusammen und wurde wegen Magersucht behandelt, wie später berichtet wurde. Wer früh gelernt hat, dass das eigene Aussehen der Beruf ist, kann den Körper zur Aufgabe machen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Wärme und Zuwendung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> bringt der Drei Herzlichkeit, Hilfsbereitschaft und den Wunsch, gebraucht zu werden. Bei Plate ist er schwächer ausgeprägt als der Kern, aber in der Rollenwahl deutlich zu sehen: Ihre Serienfiguren stammen aus dem Umfeld von Arztpraxis, Familie und Polizeiarbeit, aus Rollen, in denen man sich um andere kümmert. Von 2004 bis 2011 war sie die weibliche Hauptfigur der ARD-Serie ›Familie Dr. Kleist‹ (52 Folgen), 2015 und 2016 spielte sie in ›SOKO Köln‹ die Hauptkommissarin Nina Jacobs (24 Folgen).</p>
+          <p class="vb-intro">Im Januar 2011 kündigte sie an, ihre Schauspielkarriere einzuschränken, und verließ die Serie. Die Nähe zur Familie hat seitdem Vorrang. Das ist der Zweierflügel in der Praxis: Die Drei steht für den Erfolg, die Zwei für den Menschen, der dafür da ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Verlässlichkeit vor der Kamera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Plate hat in über 70 Film- und Fernsehproduktionen mitgewirkt, darunter ›Derrick‹, ›Der Alte‹, ›Das Traumschiff‹ und mehrere ›Tatort‹-Folgen (1991, 1992, 1996). Was sie als Schauspielerin trägt, ist weniger das große Drama als die Fähigkeit, in Serienrollen glaubwürdig zu bleiben: Eine Figur über Jahre mit gleichbleibender Wärme und Präsenz zu spielen, ist selbst eine handwerkliche Leistung.</p>
+          <p class="vb-intro">Mit dem Nachwuchs-Bambi 1988 begann eine Laufbahn, die sich nicht auf einen einzelnen Erfolg stützt, sondern auf Dauer. Zugleich zeigt der frühe Start, wie jung die Disziplin war, die dieses Berufsleben verlangte: Wer mit sechs Jahren vor der Kamera steht, lernt Stillhalten, Lächeln und Abliefern, lange bevor andere einen Beruf wählen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Helene Fischer und Iris Berben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auch unter den SX3w2ern dieses Kompasses stehen Frauen, bei denen Ausstrahlung und Professionalität zusammenkommen. <a href="#beruehmte-helene-fischer">Helene Fischer (SX3w2)</a> verbindet Strahlen und Perfektion auf der großen Bühne. <a href="#beruehmte-iris-berben">Iris Berben (SX3w2)</a> ist wie Plate Schauspielerin, bei der Präsenz und Haltung ein Leben lang tragen.</p>
+          <p class="vb-intro">Der Unterschied: Fischer arbeitet auf der Konzertbühne, Berben und Plate vor der Kamera, und Plate hat sich 2011 bewusst zurückgenommen. Die Gemeinsamkeit: das Gesicht, das viele Menschen mit Vertrauen verbinden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Drei mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit, in der Wärme und in der Fähigkeit, vor einem großen Publikum zu bestehen, ohne die Zugewandtheit zu verlieren. Wer über Jahrzehnte in Serien Vertrauen aufbaut, schenkt den Zuschauern Sicherheit.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Gefahr, sich über das Bild zu definieren. Wo das Aussehen zur Währung wird, droht die Selbstüberforderung, bei Plate nach den vorliegenden Berichten in Form der Magersucht. Die Hinwendung zur Familie nach 2011 gibt der Wärme des Zweierflügels mehr Raum.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: weniger Rampenlicht, mehr Familie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 23. Oktober 2026) ist Christina Plate 61 Jahre alt, lebt mit ihrer Familie in Hamburg und tritt seltener vor der Kamera auf. Im Januar 2023 war sie zu Gast in der Quizsendung ›Wer weiß denn sowas?‹.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx3", label:"Lebensmusterkompass: SX3 – Pfau"},
+        {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SX3w2)"},
+        {route:"beruehmte-iris-berben", label:"Porträt: Iris Berben (SX3w2)"},
+        {route:"beruehmte-kai-pflaume", label:"Porträt: Kai Pflaume (SX3w2)"},
+      ])}
+    </div>
+  `);
+}

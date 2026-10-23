@@ -1842,6 +1842,7 @@ export function heleneFischerPortraitPage() {
           {route:"beruehmte-lenny-kravitz", label:"Portrait: Lenny Kravitz (SX3w2)"},
           {route:"beruehmte-naomi-campbell", label:"Portrait: Naomi Campbell (SX3w2)"},
           {route:"beruehmte-wolfgang-joop", label:"Portrait: Wolfgang Joop (SX3w2)"},
+          {route:"beruehmte-christina-plate", label:"Portrait: Christina Plate (SX3w2)"},
         ])}
       </div>
     </div>
@@ -2752,6 +2753,79 @@ export function wietskeVanTongerenPortraitPage() {
         {route:"beruehmte-helene-spilling-odegaard", label:"Portrait: Helene Spilling \u00d8degaard (SX7w6)"},
         {route:"beruehmte-isabell-gerschke", label:"Portrait: Isabell Gerschke (SX7w6)"},
         {route:"beruehmte-johannes-heesters", label:"Portrait: Johannes Heesters (SX7w6)"},
+      ])}
+    </div>
+  `);
+}
+
+
+export function christinaPlatePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-christina-plate-portrait.jpg" alt="Christina Plate – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-christina-plate-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Christina Plate</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">German actress, b. 1965 &ndash; Familie Dr. Kleist &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Peacock: the face that came early to the stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>peacock</strong> shows itself, and it knows it is being looked at. Christina Plate was born on 21 April 1965 in West Berlin. At the age of six she stood in front of the camera for children&rsquo;s clothing and appeared in commercials with her mother; at eleven she made her debut in the ZDF series &lsquo;Kinder, Kinder&rsquo; (&lsquo;Kids, Kids&rsquo;). In 1982 she played alongside Thomas Ohrner in &lsquo;Manni, der Libero&rsquo; and also worked as a voice actress.</p>
+          <p class="vb-intro">After that she took a second path: she trained as a gymnastics teacher and passed the state examination in 1985. The breakthrough came in 1987 with the series &lsquo;Praxis Bülowbogen&rsquo;, in which she appeared in 18 episodes until 1994. In 1988 she received the Nachwuchs-Bambi (young talent award).</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Three: radiance as a profession</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three lives on impact, and Claudio Naranjo described the <strong>sexual Three (SX3)</strong> as the subtype of femininity or masculinity: the image one gives off, radiance and shining for others are at the centre. In Christina Plate this began with the child model and continued as the face of German TV series that brought her a loyal audience over decades. In 2004 she posed for &lsquo;Playboy&rsquo;, and the July issue carried her picture on the cover.</p>
+          <p class="vb-intro">The biography also includes the shadow side of the image: in 1989 she collapsed on a film set and was treated for anorexia, as was reported later. Someone who learned early that their own appearance is the job can turn the body into a task.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: warmth and care</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> brings the Three warmth, helpfulness and the wish to be needed. In Plate it is weaker than the core, but clearly visible in her choice of roles: her series characters come from the world of the doctor&rsquo;s practice, family and police work, roles in which one cares for others. From 2004 to 2011 she was the female lead of the ARD series &lsquo;Familie Dr. Kleist&rsquo; (&lsquo;The Kleist Family Doctor&rsquo;, 52 episodes), and in 2015 and 2016 she played Chief Inspector Nina Jacobs in &lsquo;SOKO Köln&rsquo; (24 episodes).</p>
+          <p class="vb-intro">In January 2011 she announced that she would scale back her acting career and left the series. Closeness to her family has taken priority since. That is the Two-wing in practice: the Three stands for success, the Two for the person who is there for others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: reliability in front of the camera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Plate has appeared in more than 70 film and television productions, among them &lsquo;Derrick&rsquo;, &lsquo;Der Alte&rsquo; (&lsquo;The Old Man&rsquo;), &lsquo;Das Traumschiff&rsquo; (&lsquo;The Dream Ship&rsquo;) and several &lsquo;Tatort&rsquo; episodes (1991, 1992, 1996). What carries her as an actress is less the great drama than the ability to stay credible in series roles: playing a character for years with constant warmth and presence is itself a craft achievement.</p>
+          <p class="vb-intro">With the Nachwuchs-Bambi in 1988 began a career that does not rest on a single success but on duration. At the same time the early start shows how young the discipline was that this working life demanded: someone who stands in front of the camera at six learns to hold still, to smile and to deliver long before others choose a profession.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Helene Fischer and Iris Berben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SX3w2s in this Compass are also women in whom radiance and professionalism come together. <a href="#beruehmte-helene-fischer">Helene Fischer (SX3w2)</a> combines shine and perfection on the big stage. <a href="#beruehmte-iris-berben">Iris Berben (SX3w2)</a> is, like Plate, an actress whose presence and bearing carry a lifetime.</p>
+          <p class="vb-intro">The difference: Fischer works on the concert stage, Berben and Plate in front of the camera, and Plate deliberately stepped back in 2011. What they share: the face that many people associate with trust.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Three with a Two-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in reliability, warmth and the ability to hold one&rsquo;s own in front of a large audience without losing warmth towards others. Someone who builds trust in series over decades gives the audience a sense of security.</p>
+          <p class="vb-intro">The shadow of this combination is the danger of defining oneself through the image. Where appearance becomes currency, overstrain threatens, in Plate&rsquo;s case, according to the reports, in the form of anorexia. The turn to family after 2011 gives the warmth of the Two-wing more room.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: less spotlight, more family</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 23 October 2026) Christina Plate is 61 years old, lives with her family in Hamburg and appears in front of the camera less often. In January 2023 she was a guest on the quiz show &lsquo;Wer weiß denn sowas?&rsquo; (&lsquo;Who Knows Such a Thing?&rsquo;).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"lebensmusterkompass/sx3", label:"Life Pattern Compass: SX3 – Peacock"},
+        {route:"beruehmte-helene-fischer", label:"Porträt: Helene Fischer (SX3w2)"},
+        {route:"beruehmte-iris-berben", label:"Porträt: Iris Berben (SX3w2)"},
+        {route:"beruehmte-kai-pflaume", label:"Porträt: Kai Pflaume (SX3w2)"},
       ])}
     </div>
   `);

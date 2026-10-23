@@ -1906,6 +1906,7 @@ export function irisBerbenPortraitPage() {
           {route:"beruehmte-brigitte-bardot", label:"Portrait: Brigitte Bardot (SX3w2) – also an actress"},
           {route:"beruehmte-brigitte-macron", label:"Portrait: Brigitte Macron (SX3w2)"},
           {route:"beruehmte-linda-evans", label:"Portrait: Linda Evans (SX3w2)"},
+          {route:"beruehmte-christina-plate", label:"Portrait: Christina Plate (SX3w2)"},
         ])}
       </div>
     </div>
