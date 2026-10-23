@@ -27425,22 +27425,22 @@ function _astrologiePage(p, analysisHtml) {
       </div>
       <div class="page-content">
         <div style="margin:1.2rem 0 1.8rem;border-radius:10px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,0.15);">
-          <img src="../assets/portraits/astrologie-${p.slug}-horoskop.jpg" alt="Radix-Horoskop ${p.name}" style="width:100%;display:block;" loading="lazy" />
-          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0.4rem 0 0;padding:0 0.5rem 0.6rem;">Radix-Horoskop &middot; ${p.name}</p>
+          <img src="../assets/portraits/astrologie-${p.slug}-horoskop.jpg" alt="Natal chart ${p.name}" style="width:100%;display:block;" loading="lazy" />
+          <p style="text-align:center;font-size:0.78rem;color:var(--muted);margin:0.4rem 0 0;padding:0 0.5rem 0.6rem;">Natal chart &middot; ${p.name}</p>
         </div>
         ${analysisHtml}
       </div>
-      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
-      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
-      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
       ${relatedLinks([
-        {route:"enneagramm-astrologie", label:"Alle Astrologie-Analysen"},
+        {route:"enneagramm-astrologie", label:"All astrology analyses"},
         ...(p.beruehmteRoute
-          ? [{route:p.beruehmteRoute, label:`Porträt: ${p.name} (${p.subtyp}) – Berühmte Persönlichkeiten`}]
-          : [{route:"beruehmte-persoenlichkeiten", label:"Berühmte Persönlichkeiten"}]),
+          ? [{route:p.beruehmteRoute, label:`Portrait: ${p.name} (${p.subtyp}) – Famous Personalities`}]
+          : [{route:"beruehmte-persoenlichkeiten", label:"Famous Personalities"}]),
         ...(p.kriminalRoute
-          ? [{route:p.kriminalRoute, label:`Kriminalfall: ${p.name} (${p.subtyp})`}]
-          : [{route:"kriminalpsychologie", label:"Kriminalpsychologie"}]),
+          ? [{route:p.kriminalRoute, label:`Criminal case: ${p.name} (${p.subtyp})`}]
+          : [{route:"kriminalpsychologie", label:"Criminal Psychology"}]),
       ])}
     </div>
   `);
@@ -27449,7 +27449,7 @@ function _astrologiePage(p, analysisHtml) {
 function astrologieReinholdMessnerPage() {
   return _astrologiePage(
     { slug:"reinhold-messner", name:"Reinhold Messner", subtyp:"SE1w9",
-      subtypLabel:"Selbsterhaltender Typ 1 mit Neunerflügel",
+      subtypLabel:"Self-Preservation Type 1 with Nine-wing",
       subtitle:"Extrembergsteiger, geb. 1944 – Erster Mensch auf allen 14 Achttausendern ohne Sauerstoffmaske",
       beruehmteRoute:"beruehmte-reinhold-messner", gender:"m" },
     `<h2 class="vb-section">SE1w9 – The Ascetic Perfectionist</h2>
@@ -27473,7 +27473,7 @@ function astrologieReinholdMessnerPage() {
 function astrologieMarilynMonroePage() {
   return _astrologiePage(
     { slug:"marilyn-monroe", name:"Marilyn Monroe", subtyp:"SX3w4",
-      subtypLabel:"Sexueller Typ 3 mit Viererflügel",
+      subtypLabel:"Sexual Type 3 with Four-wing",
       subtitle:"Schauspielerin, 1926–1962 – Ikone des 20. Jahrhunderts" },
     `<h2 class="vb-section">SX3w4 – Glamour and the Search for the True Self</h2>
     <blockquote class="vb-blockquote">
@@ -27495,7 +27495,7 @@ function astrologieMarilynMonroePage() {
 function astrologieRomySchneiderPage() {
   return _astrologiePage(
     { slug:"romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
-      subtypLabel:"Soziale Typ 4 mit Dreierflügel",
+      subtypLabel:"Social Type 4 with Three-wing",
       subtitle:"Schauspielerin, 1938–1982 – Die Kaiserin der europäischen Leinwand",
       beruehmteRoute:"beruehmte-romy-schneider" , gender:"f"},
     `<h2 class="vb-section">SO4w3 – The Aristocratic Four</h2>
@@ -27518,7 +27518,7 @@ function astrologieRomySchneiderPage() {
 function astrologieJohnLennonPage() {
   return _astrologiePage(
     { slug:"john-lennon", name:"John Lennon", subtyp:"SO4w5",
-      subtypLabel:"Sozialer Typ 4 mit Fünferflügel",
+      subtypLabel:"Social Type 4 with Five-wing",
       subtitle:"Musiker, Friedensaktivist, 1940–1980 – Mitgründer der Beatles",
       beruehmteRoute:"beruehmte-john-lennon" , gender:"m"},
     `<h2 class="vb-section">SO4w5 – The Intellectual Individualist</h2>
@@ -27542,7 +27542,7 @@ function astrologieJohnLennonPage() {
 function astrologieAlbertEinsteinPage() {
   return _astrologiePage(
     { slug:"albert-einstein", name:"Albert Einstein", subtyp:"SO5w6",
-      subtypLabel:"Sozialer Typ 5 mit Sechserflügel",
+      subtypLabel:"Social Type 5 with Six-wing",
       subtitle:"Physiker, Nobelpreisträger, 1879–1955 – Begründer der Relativitätstheorie",
       beruehmteRoute:"beruehmte-albert-einstein" },
     `<h2 class="vb-section">SO5w6 – The Master of the System</h2>
@@ -27566,7 +27566,7 @@ function astrologieAlbertEinsteinPage() {
 function astrologieBorisBeckerPage() {
   return _astrologiePage(
     { slug:"boris-becker", name:"Boris Becker", subtyp:"SX7w8",
-      subtypLabel:"Sexueller Typ 7 mit Achterflügel",
+      subtypLabel:"Sexual Type 7 with Eight-wing",
       subtitle:"Tennisprofi, geb. 1967 – Dreifacher Wimbledon-Sieger, Olympiasieger",
       beruehmteRoute:"beruehmte-boris-becker",
       kriminalRoute:"kriminalpsychologie-boris-becker" , gender:"m"},
@@ -27590,7 +27590,7 @@ function astrologieBorisBeckerPage() {
 function astrologieGerhardSchroederPage() {
   return _astrologiePage(
     { slug:"gerhard-schroeder", name:"Gerhard Schröder", subtyp:"SX8w7",
-      subtypLabel:"Sexueller Typ 8 mit Siebenerflügel",
+      subtypLabel:"Sexual Type 8 with Seven-wing",
       subtitle:"Bundeskanzler, geb. 1944 – Kanzler der Bundesrepublik Deutschland 1998–2005",
       beruehmteRoute:"beruehmte-gerhard-schroeder" },
     `<h2 class="vb-section">SX8w7 – The Instinctive Politician of Power</h2>
@@ -27614,7 +27614,7 @@ function astrologieGerhardSchroederPage() {
 function astrologieAngelaMerkelPage() {
   return _astrologiePage(
     { slug:"angela-merkel", name:"Angela Merkel", subtyp:"SE9w8",
-      subtypLabel:"Selbsterhaltende Typ 9 mit Achterflügel",
+      subtypLabel:"Self-Preservation Type 9 with Eight-wing",
       subtitle:"Bundeskanzlerin, geb. 1954 – Kanzlerin der Bundesrepublik Deutschland 2005–2021" },
     `<h2 class="vb-section">SE9w8 – The Immovable Mediator</h2>
     <blockquote class="vb-blockquote">
@@ -27641,7 +27641,7 @@ function astrologieAngelaMerkelPage() {
 function astrologieEnricoCarusoPage() {
   return _astrologiePage(
     { slug:"enrico-caruso", name:"Enrico Caruso", subtyp:"SE3w2",
-      subtypLabel:"Selbsterhaltender Typ 3 mit Zweierflügel",
+      subtypLabel:"Self-Preservation Type 3 with Two-wing",
       subtitle:"Opera Singer, 1873–1921 – the most famous tenor of his era",
       beruehmteRoute:"beruehmte-enrico-caruso", gender:"m" },
     `<h2 class="vb-section">SP3w2 – The Disciplined Voice</h2>
@@ -27669,7 +27669,7 @@ function astrologieEnricoCarusoPage() {
 function astrologieDavidLRathmerPage() {
   return _astrologiePage(
     { slug:"david-l-rathmer", name:"David L. Rathmer", subtyp:"SE3w4",
-      subtypLabel:"Selbsterhaltender Typ 3 mit Viererflügel",
+      subtypLabel:"Self-Preservation Type 3 with Four-wing",
       subtitle:"Enneagram Profiler, Founder of the Ennea Scholars Academy, Economic Senator of the European Economic Senate, b. 2003 in Münster",
       beruehmteRoute:"beruehmte-david-l-rathmer", gender:"m" },
     `<h2 class="vb-section">SP3w4 – The Raccoon Who Turns His Own Depth Into a Method</h2>
@@ -27697,7 +27697,7 @@ function astrologieDavidLRathmerPage() {
 function astrologieFranzKafkaPage() {
   return _astrologiePage(
     { slug:"franz-kafka", name:"Franz Kafka", subtyp:"SE5w4",
-      subtypLabel:"Selbsterhaltender Typ 5 mit Viererflügel",
+      subtypLabel:"Self-Preservation Type 5 with Four-wing",
       subtitle:"Writer, 1883–1924 – \"The Trial,\" \"The Castle,\" \"The Metamorphosis\"",
       beruehmteRoute:"beruehmte-franz-kafka", gender:"m" },
     `<h2 class="vb-section">SP5w4 – The Owl Beneath a Crushing Weight of Stone</h2>

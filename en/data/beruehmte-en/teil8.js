@@ -1419,7 +1419,7 @@ export function sandraHuellerPortraitPage() {
 
         <h2 class="vb-section">3. The One wing: Precision without compromise</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">A Nine with a more muted One wing would tend to drift along. In Hüller's case, the strongly developed Einserflügel brings something else: high standards for her own work, a fine sense for what is morally sustainable, and the willingness to turn down roles that do not meet that standard. In "The Zone of Interest" (2023) she played Hedwig Höss, the wife of Auschwitz commandant Rudolf Höss – a role demanding absolute precision, without ever softening or normalizing the character.</p>
+          <p class="vb-intro">A Nine with a more muted One wing would tend to drift along. In Hüller's case, the strongly developed One-wing brings something else: high standards for her own work, a fine sense for what is morally sustainable, and the willingness to turn down roles that do not meet that standard. In "The Zone of Interest" (2023) she played Hedwig Höss, the wife of Auschwitz commandant Rudolf Höss – a role demanding absolute precision, without ever softening or normalizing the character.</p>
           <p class="vb-intro">The SO9w1 appears soft and adaptable on the outside. Internally, she follows a strict, often invisible standard of right and wrong. Hüller chooses her roles along this line – not by prospects of success, but by whether she can do justice to the material.</p>
         </blockquote>
 
@@ -1438,7 +1438,7 @@ export function sandraHuellerPortraitPage() {
         <h2 class="vb-section">6. The Buffalo in the spotlight</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">In 2024, Hüller was simultaneously nominated for the Best Actress Oscar for two films – "Anatomy of a Fall" and "The Zone of Interest" – a rare constellation. In interviews she responded with noticeable reserve – no triumphant gesture, more a quiet puzzlement about what all the fuss was supposed to mean.</p>
-          <p class="vb-intro">The buffalo with an Einserflügel moves through the biggest stages of the film world without giving up its groundedness. No drama, no posing – just the quiet, stubborn endurance with which the social Nine carries role after role, season after season. This is not a spectacular career. It is one that simply never stops carrying.</p>
+          <p class="vb-intro">The buffalo with a One-wing moves through the biggest stages of the film world without giving up its groundedness. No drama, no posing – just the quiet, stubborn endurance with which the social Nine carries role after role, season after season. This is not a spectacular career. It is one that simply never stops carrying.</p>
           ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
           ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
           ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}

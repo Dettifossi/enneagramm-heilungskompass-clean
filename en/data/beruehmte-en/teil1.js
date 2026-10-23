@@ -2684,7 +2684,7 @@ export function williamJamesSidisPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype profile"},
         {route:"beruehmte-marcel-proust", label:"Portrait: Marcel Proust (SO4w5) – same subtype, withdrawal and sensitivity"},
-        {route:"lebensmusterkompass/so4", label:"Lebensmusterkompass: SO4 – Gürteltier"},
+        {route:"lebensmusterkompass/so4", label:"Life Pattern Compass: SO4 – Armadillo"},
         {route:"lebensmusterkompass", label:"Life Pattern Compass: biographical patterns of all subtypes"},
         {route:"krankheitsportraets-william-james-sidis", label:"Illness Portrait: William James Sidis (SO4w5)"},
       ])}

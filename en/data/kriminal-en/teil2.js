@@ -2027,7 +2027,7 @@ export function tedBundyPortraitPage() {
 
         <div class="krim-portrait-footer">
           <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Ted Bundy, geb. 24. November 1946, Burlington, Vermont – gest. 24. Januar 1989, Starke, Florida</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SO1w9 – Soziale Eins mit Neunerfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SO1w9 – Social One with a Nine-wing</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Zorn (unterdr\xfcckt, als Resentiment)</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Animal correspondence:</strong> Gans</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Bekanntheit:</strong> Mindestens 30 Morde in den USA 1974–1978, hingerichtet 1989</span>

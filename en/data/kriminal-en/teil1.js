@@ -764,8 +764,8 @@ export function frankAbagnalePortraitPage() {
       </div>
 
       ${relatedLinks([
-        {route:"beruehmte-anna-anderson", label:"Porträt: Anna Anderson (SP3w4)"},
-        {route:"beruehmte-josh-safdie", label:"Porträt: Josh Safdie (SO7w6)"},
+        {route:"beruehmte-anna-anderson", label:"Portrait: Anna Anderson (SP3w4)"},
+        {route:"beruehmte-josh-safdie", label:"Portrait: Josh Safdie (SO7w6)"},
         {route:"kriminalpsychologie-bernie-madoff", label:"Bernie Madoff (SP3w4) – criminal psychology"},
         {route:"kriminalpsychologie-victor-lustig", label:"Victor Lustig (SX7w8) – criminal psychology"},
         {route:"kriminalpsychologie", label:"Criminal psychology – all portraits"},

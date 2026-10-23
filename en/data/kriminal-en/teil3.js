@@ -1891,7 +1891,7 @@ export function nickLeesonPortraitPage() {
 
         <div class="krim-portrait-footer">
           <span style="display:block;margin-bottom:0.3rem;"><strong>Name:</strong> Nick Leeson, geb. 25. Februar 1967, Watford, England</span>
-          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SO9w8 &ndash; Soziale Neun mit Achterfl\xfcgel</span>
+          <span style="display:block;margin-bottom:0.3rem;"><strong>Subtype:</strong> SO9w8 &ndash; Social Nine with an Eight-wing</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Leidenschaft:</strong> Tr\xe4gheit (Selbstvergessenheit, Nicht-Hinschauen)</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Animal correspondence:</strong> B\xfcffel</span>
           <span style="display:block;margin-bottom:0.3rem;"><strong>Bekanntheit:</strong> Zusammenbruch von Barings Bank 1995, Verlust von 827 Mio. Pfund</span>
