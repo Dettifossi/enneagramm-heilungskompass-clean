@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=310";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=312";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -5864,6 +5864,7 @@ text.nav = [
     { route: "bewusstseinsuebungen", label: "Consciousness Exercises" },
     { route: "enneagramm-meets-jin-shin-jyutsu", label: "Enneagram Meets Jin Shin Jyutsu" },
     { route: "tee-enneagramm", label: "Enneagram Teas" },
+    { route: "yogi-tee-kompass", label: "Yogi Tea Compass" },
     { route: "aetherische-oele", label: "Essential Oils" },
     { route: "edelsteine", label: "Gemstones" },
     { route: "heilungsweg", label: "Healing Path" },
@@ -40980,6 +40981,7 @@ function teeEnneagrammPage() {
       </div>
       ${bookTip("enneagramm-bachblueten-therapie", "Plant-based remedies matched to each type &ndash; the same principle applied to Bach flowers, for all 9 types.", "Enneagramm-Bachblüten-Therapie")}
       ${relatedLinks([
+        {route:"yogi-tee-kompass", label:"Yogi Tea Compass"},
         {route:"aetherische-oele", label:"Essential Oils"},
         {route:"edelsteine", label:"Gemstones"},
         {route:"heilungsweg", label:"Path to Healing"},
@@ -40987,6 +40989,77 @@ function teeEnneagrammPage() {
     </section>
   `);
 }
+
+// ── Yogi-Tee-Kompass: Yogi-Tea-Sorten für die 9 Typen und 27 Subtypen (Daten: data/yogitee.js) ──
+let YOGITEE = null;
+_LAZY_DATA.yogitee = { spec: "../data/yogitee.js", assign: m => { YOGITEE = m.YOGITEE; } };
+function yogiTeeKompassPage() {
+  { const _w = _needData("yogitee"); if (_w) return _w; }
+  const Y = YOGITEE.en;
+  const nr = parseInt((state.route.split("/")[1] || "")) || 0;
+  const tee = id => Y.tees.find(t => t.id === id);
+  const az = q => "https://www.amazon.de/s?k=" + encodeURIComponent(q) + "&tag=enneagrammkom-21";
+  const kauf = t => `<a href="${az(t.such)}" target="_blank" rel="noopener sponsored" style="display:inline-block;font-size:.82rem;font-weight:600;color:var(--copper);border:1px solid var(--line);border-radius:6px;padding:.3rem .7rem;text-decoration:none;">View on Amazon (affiliate link)</a>`;
+  const karte = (t, warum) => `<div style="border:1px solid var(--line);border-radius:12px;padding:.9rem 1rem;background:var(--paper);">
+      <div style="font-weight:700;color:var(--ink);">${t.name}</div>
+      <div style="font-size:.78rem;color:var(--muted);margin:.15rem 0 .5rem;">${Y.fam[t.fam]} &middot; ${t.zutaten.slice(0, 5).join(", ")}</div>
+      ${warum ? `<p style="font-size:.9rem;line-height:1.6;margin:0 0 .6rem;">${warum}</p>` : ""}
+      ${kauf(t)}
+    </div>`;
+  const grid = inner => `<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:.8rem;margin:.8rem 0;">${inner}</div>`;
+  const h2 = txt => `<h2 style="font-size:1.1rem;font-weight:700;margin:2rem 0 .6rem;color:var(--ink);">${txt}</h2>`;
+  const hinweis = `<div style="margin:1.5rem 0 0;padding:1rem 1.2rem;background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:10px;font-size:.84rem;line-height:1.65;color:var(--ink);">
+      <p style="margin:0 0 .5rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;font-size:.78rem;">Important notes</p>
+      <p style="margin:0 0 .5rem;">Enjoyment and ritual, not a health claim: this compass is a suggestion of which tea blend may suit your nature. It replaces neither medical or naturopathic advice nor treatment.</p><p style="margin:0 0 .5rem;">Licorice is in many varieties; with high blood pressure do not drink it in larger amounts. Black tea, green tea, white tea, maté and guarana contain caffeine. In pregnancy and breastfeeding, with medication or complaints, ask a doctor or pharmacist first; this applies especially to valerian, echinacea, sage and licorice.</p><p style="margin:0;">Yogi Tea® is a trademark of Yogi Tea GmbH. This is an independent recommendation with no connection to the brand. The links are affiliate links (Amazon Associates programme). Ingredients according to retailer information, as of October 2026: recipes and names may change, the packaging is binding. In other countries varieties have other names; for example Abendtee corresponds to the English Bedtime and Ingwer Orange Vanille to Ginger Orange.</p></div>`;
+  let body = "";
+  if (nr >= 1 && nr <= 9) {
+    const T = Y.typen[nr];
+    const instinkte = [["Self-preservation", "SE"], ["Social", "SO"], ["Sexual", "SX"]];
+    body += `<button class="ghost-link" data-route="yogi-tee-kompass" style="margin:1.2rem 0 0;">&larr; All types</button>`;
+    body += `<h2 style="font-size:1.25rem;font-weight:700;margin:1rem 0 .3rem;color:var(--ink);">Type ${nr} &ndash; ${T.anker}</h2><p class="vb-intro">${T.intro}</p>`;
+    body += grid(T.tees.map(x => karte(tee(x.id), x.warum)).join(""));
+    body += h2("The three subtypes of type " + nr);
+    body += `<p style="font-size:.88rem;color:var(--muted);margin:0 0 .4rem;">The instinct comes on top of the type recommendation: the self-preservation subtype likes it warm, familiar and calm, the social one shared and convivial, the sexual one intense and spicy.</p>`;
+    body += instinkte.map(([name, pre]) => {
+      const code = "S" + (pre === "SE" ? "E" : pre.slice(1)) + nr;
+      const disp = pre === "SE" ? "SP" + nr : code;
+      const s = Y.sub[code];
+      const tier = _TQ_TIERE[disp] || "";
+      return `<div style="margin:1.2rem 0 0;"><h3 style="font-size:1rem;font-weight:700;margin:0 0 .3rem;color:var(--ink);">${disp} &middot; ${tier} <span style="font-weight:400;color:var(--muted);font-size:.85rem;">(${name})</span></h3><p style="font-size:.9rem;line-height:1.6;margin:0 0 .3rem;">${s.text}</p>${grid(s.tees.map(id => karte(tee(id))).join(""))}</div>`;
+    }).join("");
+  } else {
+    body += h2("Choose your type");
+    body += `<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.8rem;">${[1,2,3,4,5,6,7,8,9].map(n => {
+      const T = Y.typen[n];
+      return `<button class="tool-card tool-card--link" data-route="yogi-tee-kompass/${n}"><span>Type ${n}</span><h2>${T.anker}</h2><p>${T.tees.map(x => tee(x.id).name).join(" &middot; ")}</p><span class="tool-card__arrow">View &rarr;</span></button>`;
+    }).join("")}</div>`;
+  }
+  const alle = Y.tees.slice().sort((a, b) => a.name.localeCompare(b.name, "en"));
+  body += `<details style="margin:2.2rem 0 0;"><summary style="cursor:pointer;font-weight:700;color:var(--ink);">All varieties at a glance (${alle.length})</summary><ul style="list-style:none;padding:0;margin:.8rem 0 0;font-size:.86rem;line-height:1.6;">${alle.map(t => `<li style="padding:.5rem 0;border-bottom:1px solid var(--line);"><strong>${t.name}</strong> <span style="color:var(--muted);">&middot; ${Y.fam[t.fam]}</span><br><span style="color:var(--muted);">${t.zutaten.join(", ")}</span><br>${kauf(t)}</li>`).join("")}</ul></details>`;
+  return shell(`
+    ${pageHeader("tee-enneagramm")}
+    <section class="narrow">
+      <p class="eyebrow">Knowledge &middot; Tea &amp; Enneagram</p>
+      <h1>The Yogi Tea Compass</h1>
+      <p class="lead-small">Yogi Tea comes in over 50 blends. Which one suits your Enneagram type, which your subtype? The compass leads from the type via the matching herb to concrete varieties.</p>
+      <div class="psycho-img-wrap" style="margin-top:1.2rem;">
+        <img src="${R2_CDN}assets/schaubilder/yogi-tee/yogi-tee-hero.jpg" alt="Steaming tea cup with saucer in backlight" class="psycho-img" loading="lazy" onerror="this.parentElement.style.display='none'" />
+      </div>
+      <div class="vb-section" style="max-width:100%;margin-top:1.4rem;">
+        <p class="vb-intro">The assignment follows two steps. First the type: the Healing-Tea Compass gives each type one herb (lemon balm, rose, rosemary, willowherb, oat grass, chamomile, peppermint, ginger, fennel). Then Yogi blends are sought that contain this herb or match its mood.</p>
+        <p class="vb-intro">Then comes the subtype: it shifts the choice toward its instinct, that is warm and familiar (self-preservation), shared and convivial (social) or intense and spicy (sexual). So each of the 27 subtypes gets two suggestions of its own.</p>
+      </div>
+      ${body}
+      ${hinweis}
+      ${relatedLinks([
+        {route:"tee-enneagramm", label:"Tea &amp; Enneagram"},
+        {route:"heiltees", label:"Healing Teas"},
+        {route:"aetherische-oele", label:"Essential Oils"},
+      ])}
+    </section>
+  `);
+}
+
 
 // Psychogramm-Seite: Lerncomic-Bild (typ-N-comic.jpg auf R2) mit Umschalter zur klassischen Fassung.
 // Fehlt das Comic-Bild, bleibt die klassische Ansicht unverändert (kein Umschalter).
@@ -44863,6 +44936,7 @@ function subtypeSchaubilderPage() {
     "wann-entsteht-der-typ": typEntstehungPage,
     "kroetenschlucken": kroetenschluckenPage,
     "tee-enneagramm": teeEnneagrammPage,
+    "yogi-tee-kompass": yogiTeeKompassPage,
     "aetherische-oele": aetherischeOelePage,
     "angst-essenz": angstEssenzPage,
     "edelsteine": edelsteinePage,

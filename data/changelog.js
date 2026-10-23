@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2579", date: "2026-10-24", text: "Neuer Wissensartikel: Der Yogi-Tee-Kompass – welche Yogi-Tea-Sorte zu welchem Typ und Subtyp passt, mit Zutaten und Links.", text_en: "New knowledge article: The Yogi Tea Compass – which Yogi Tea variety suits which type and subtype, with ingredients and links.", route: "yogi-tee-kompass" },
     { version: "v2578", date: "2026-10-23", text: "Der Kompass in Zahlen: neue Abschnitte zu den Porträts je Tier und zum Wissensumfang (Heilmittel, Quiz, Psychosomatik, Beziehungs-Paarungen und mehr).", text_en: "The Compass in Numbers: new sections on portraits per animal and the scope of knowledge (remedies, quiz, psychosomatics, relationship pairings and more).", route: "zahlen-fakten" },
     { version: "v2577", date: "2026-10-23", text: "Der Kompass in Zahlen: neue Auswertungen zu Flügeln, Berufsfeldern, Frauenanteil, Herkunftsländern, Wachstum und dem Vergleich der Rubriken.", text_en: "The Compass in Numbers: new analyses of wings, fields, share of women, countries of origin, growth and a comparison of the sections.", route: "zahlen-fakten" },
     { version: "v2576", date: "2026-10-23", text: "Neues Porträt: Knossi, Jens Knossalla (SX7w8) – Streamer und Entertainer.", text_en: "New portrait: Knossi, Jens Knossalla (SX7w8) – streamer and entertainer.", route: "beruehmte-knossi" },

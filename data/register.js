@@ -356,6 +356,7 @@ export const registerEntries = [
   // T
   { term: "Taube",                   route: "tierlexikon/se4",              description: "Tierarchetyp des SE4 · Typ 4 · Herzzentrum" },
   { term: "TCM",                     route: "tcm",                      description: "Traditionelle Chinesische Medizin · Meridiane & Organuhr" },
+  { term: "Yogi-Tee-Kompass",         route: "yogi-tee-kompass",           description: "Yogi-Tea-Sorten für die 9 Typen und 27 Subtypen mit Zutaten und Amazon-Links" },
   { term: "Teeempfehlungen",         route: "tee-enneagramm",           description: "Schaubild: Tees für alle 9 Enneagrammtypen" },
   { term: "Tischdialoge der 27 Subtypen", route: "tischdialoge", description: "Innerer Dialog zwischen Leidenschaft & Instinkt je Subtyp, mit Ergebnis" },
   { term: "Tierbilder",              route: "tierentsprechungen",        description: "Schaubild: alle 27 Tierarchetypn im Überblick" },
@@ -2705,6 +2706,7 @@ export const registerEntriesEN = [
   { term: "SX · Sexual Type", route: "knowledge", description: "One of the three subtypes: focus on depth & intensity" },
   { term: "Dove", route: "tierlexikon/se4", description: "Animal archetype of SP4 · Typ 4 · Heart center" },
   { term: "TCM", route: "tcm", description: "Traditional Chinese Medicine · meridians & organ clock" },
+  { term: "Yogi Tea Compass", route: "yogi-tee-kompass", description: "Yogi Tea varieties for the 9 types and 27 subtypes with ingredients and Amazon links" },
   { term: "Tea Recommendations", route: "tee-enneagramm", description: "Diagram: teas for all 9 Enneagram types" },
   { term: "Table Dialogues of the 27 Subtypes", route: "tischdialoge", description: "Inner dialogue between passion & instinct per subtype, with result" },
   { term: "Animal Images", route: "tierentsprechungen", description: "Diagram: all 27 animal archetypes at a glance" },
