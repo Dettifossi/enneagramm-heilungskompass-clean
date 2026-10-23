@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=307";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=309";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -9161,6 +9161,7 @@ function praxistippsHeilpraktikerPage() {
     { slug:"metaintelligenz-achtsamkeit-im-moment", titel:"Meta-Intelligence: Mindfulness in the Moment", teaser:"The most important ability of the human mind in four simple steps – observing the thought that just arose instead of merging with it.", img:"../assets/schaubilder/metaintelligenz-achtsamkeit-im-moment/metaintelligenz-achtsamkeit-im-moment-en.jpg", kategorie:"geist" },
     { slug:"vierter-weg-selbsterinnerung", titel:"The Fourth Way According to Gurdjieff: Self-Remembering in the Middle of Everyday Life", teaser:"Four practical exercise paths from G. I. Gurdjieff for interrupting mechanized everyday sleep – practiced in the middle of the bustle, not in quiet seclusion.", img:"../assets/schaubilder/vierter-weg-selbsterinnerung/vierter-weg-selbsterinnerung-en.jpg", kategorie:"geist" },
     { slug:"das-ewige-ich-bin", titel:"The Eternal ›I Am‹: The Enneagram Healing Compass Beyond Fixation", teaser:"How Judaism, Christianity, Hinduism, Buddhism, Islam, and Taoism describe the same silent ground of being – and what that means for Enneagram work.", img:"../assets/schaubilder/das-ewige-ich-bin/das-ewige-ich-bin-en.jpg", kategorie:"geist" },
+    { slug:"chakra-kern-uebung", titel:"The Chakra Core of Your Enneagram Type", teaser:"The nine Enneagram types, nine body centers and the matching homeopathic constitutional remedies – and a short exercise to sense your own zone deliberately.", img:"../assets/schaubilder/chakra-kern-uebung/chakra-kern-uebung.jpg", kategorie:"geist" },
   ];
   const TIPP_KATEGORIEN = [
     { id:"koerper", label:"Body & Movement", icon:"🧭" },
@@ -9213,6 +9214,9 @@ function praxistippsHeilpraktikerPage() {
   }
   if (param === "vierter-weg-selbsterinnerung") {
     return vierterWegSelbsterinnerungPage();
+  }
+  if (param === "chakra-kern-uebung") {
+    return chakraKernUebungPage();
   }
   if (param === "das-ewige-ich-bin") {
     return dasEwigeIchBinPage();
@@ -10063,6 +10067,117 @@ function metaintelligenzAchtsamkeitPage() {
   `);
 }
 
+function chakraKernUebungPage() {
+  const ZONEN = [
+    { typ:"1", name:"Crown", ort:"just above the top of the head (not the scalp itself)", farbe:"#b5542f" },
+    { typ:"2", name:"Hand", ort:"palms of both hands", farbe:"#c0862e" },
+    { typ:"3", name:"Solar plexus", ort:"upper abdomen", farbe:"#8a9a3a" },
+    { typ:"4", name:"Heart", ort:"center of the chest", farbe:"#4f8a6e" },
+    { typ:"5", name:"Throat", ort:"larynx area", farbe:"#3d7a92" },
+    { typ:"6", name:"Root", ort:"pelvic floor, lower back", farbe:"#5a5fa8" },
+    { typ:"7", name:"Brow", ort:"between the eyebrows", farbe:"#9a4f9e" },
+    { typ:"8", name:"Foot ⚠︎ not visible in the picture", ort:"a few centimeters below the soles of the feet, just outside the body – like a mirror image of the crown at the other end", farbe:"#a8304a" },
+    { typ:"9", name:"Sacral", ort:"lower abdomen, below the navel", farbe:"#c06a3d" },
+  ];
+  const TABELLE = [
+    { typ:"1", chakra:"Crown chakra – connection &amp; insight", lage:"just above the top of the head, not directly on the scalp", mittel:"Platinum metallicum" },
+    { typ:"2", chakra:"Hand chakra – exchange &amp; healing", lage:"palms of the hands", mittel:"Hyoscyamus niger" },
+    { typ:"3", chakra:"Solar plexus chakra – self-confidence &amp; assertiveness", lage:"upper abdomen, area of the solar plexus", mittel:"Tarentula hispanica" },
+    { typ:"4", chakra:"Heart chakra – love &amp; compassion", lage:"chest area, heart region", mittel:"Ignatia" },
+    { typ:"5", chakra:"Throat chakra – expression &amp; communication", lage:"throat, neck area", mittel:"Stramonium" },
+    { typ:"6", chakra:"Root chakra – stability &amp; grounding", lage:"pelvic floor, lower back", mittel:"Opium" },
+    { typ:"7", chakra:"Brow chakra (third eye) – intuition &amp; insight", lage:"between the eyebrows", mittel:"Belladonna" },
+    { typ:"8", chakra:"Foot chakra – grounding &amp; stability, physical presence", lage:"a few centimeters below the soles of the feet, not directly on the skin", mittel:"Veratrum album" },
+    { typ:"9", chakra:"Sacral chakra – creativity &amp; joy of life, flow", lage:"lower abdomen, below the navel", mittel:"Cannabis indica" },
+  ];
+  return shell(`
+    ${pageHeader("praxistipps-heilpraktiker")}
+    <section class="narrow">
+      <button class="ghost-link" data-route="praxistipps-heilpraktiker" style="margin-bottom:1rem;">← Back to Practical Tips</button>
+      <p class="eyebrow">Tools · Practical Tips from the Naturopath</p>
+      <h1 class="h1--tip">The Chakra Core of Your Enneagram Type</h1>
+      <p class="lead-small">An independent practical approach: finding your own chakra zone through your Enneagram type and sensing it deliberately.</p>
+
+      <div class="psycho-img-wrap" style="margin-top:1.5rem;">
+        <img src="../assets/schaubilder/chakra-kern-uebung/chakra-kern-uebung.jpg"
+             alt="Meditating woman with the seven main chakras along the spine and both glowing hand chakras"
+             class="psycho-img" />
+      </div>
+      <p style="font-size:.82rem;color:var(--muted);margin:.6rem 0 0;font-style:italic;">The seven main chakras and the hand chakra (left and right, at the open palms) are visible in the picture. The <strong style="color:var(--copper);font-style:normal;">foot chakra</strong> – responsible for type 8 – naturally cannot be seen while sitting: energetically it lies a few centimeters below the soles of the feet, just as the crown chakra is imagined above the top of the head – not directly on the skin, but just outside the body.</p>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+        <p class="vb-intro">Besides the classical seven main chakras, energetic bodywork adds two further centers: the <strong>hand chakra</strong> (palms of the hands, exchange &amp; healing) and the <strong>foot chakra</strong> (grounding &amp; stability) – nine centers in all.</p>
+        <p class="vb-intro">On this basis each of the nine Enneagram types can be assigned to one of these nine centers as its healthy basic quality – an assignment that emerged from decades of practical experience with both systems and is confirmed again and again in clinical observation. The homeopathic constitutional remedy proven in practice then shows where this quality tips over when it falls out of balance – chakra and remedy as two sides of the same coin.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.2rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">A note on context:</strong> This threefold link of Enneagram type, chakra and constitutional remedy is new in this worked-out form – an independent practical contribution, not a centuries-old canon. That is true of every living therapeutic method: it arises from observing recurring patterns in one's own work. Exactly therein lies its value for practice.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .8rem;color:var(--ink);">The Nine Assignments at a Glance</h2>
+        <div style="overflow-x:auto;">
+          <table style="width:100%;border-collapse:collapse;font-size:.85rem;">
+            <thead>
+              <tr>
+                <th style="text-align:left;padding:.6rem .65rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;">Type</th>
+                <th style="text-align:left;padding:.6rem .65rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;">Chakra (healthy essence)</th>
+                <th style="text-align:left;padding:.6rem .65rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;">Physical location</th>
+                <th style="text-align:left;padding:.6rem .65rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;">Remedy (distortion)</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${TABELLE.map(r => `
+              <tr>
+                <td style="padding:.6rem .65rem;border-bottom:1px solid var(--line);font-weight:700;white-space:nowrap;">${r.typ}</td>
+                <td style="padding:.6rem .65rem;border-bottom:1px solid var(--line);">${r.chakra}</td>
+                <td style="padding:.6rem .65rem;border-bottom:1px solid var(--line);">${r.lage}</td>
+                <td style="padding:.6rem .65rem;border-bottom:1px solid var(--line);">${r.mittel}</td>
+              </tr>`).join("")}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .9rem;color:var(--ink);">Exercise: Sensing Your Own Chakra Core</h2>
+        <div style="background:var(--paper-raised, var(--paper));border:1px solid var(--line);border-radius:14px;padding:1.4rem 1.5rem;">
+          <ol style="margin:0;padding-left:1.3rem;font-size:.9rem;line-height:1.7;color:var(--ink);">
+            <li style="margin-bottom:.9rem;">Sit quietly, both soles of the feet on the floor, eyes closed or gaze lowered.</li>
+            <li style="margin-bottom:.9rem;">
+              Find the body region assigned to your own type:
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.7rem;margin:.9rem 0 .2rem;">
+                ${ZONEN.map(z => `
+                <div style="border-radius:12px;padding:.8rem .9rem;border:1px solid var(--line);border-left-width:5px;border-left-style:solid;border-left-color:${z.farbe};background:var(--paper);">
+                  <div style="font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:${z.farbe};">Type ${z.typ}</div>
+                  <div style="font-weight:700;font-size:.92rem;margin:.15rem 0 .25rem;color:var(--ink);">${z.name}</div>
+                  <div style="font-size:.82rem;color:var(--muted);">${z.ort}</div>
+                </div>`).join("")}
+              </div>
+            </li>
+            <li style="margin-bottom:.9rem;">Gently reach there with one hand or, where that is anatomically not possible (crown, soles of the feet in a seated position), consciously direct your attention there.</li>
+            <li style="margin-bottom:.9rem;">For three to five breaths, breathe consciously into exactly this zone without wanting to change anything.</li>
+            <li style="margin-bottom:.9rem;">Notice whether openness, tightness, warmth or numbness shows there – without judgment, only as observation.</li>
+            <li style="margin-bottom:.9rem;">Finally, for a moment, feel into the question: Is it rather the healthy quality of this zone that shows right now, or rather its typical distortion?</li>
+            <li style="margin-bottom:0;">Slowly open your eyes again and feel the afterglow for a moment before everyday life continues.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+        <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Note:</strong> This exercise does not replace medical or naturopathic treatment and does not make a diagnosis. It serves one's own perception and reflection within accompanied Enneagram work.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"praxistipps-heilpraktiker", label:"All Practical Tips"},
+        {route:"praxistipps-heilpraktiker/energiefeld-haende", label:"The Energy Field Between the Hands"},
+        {route:"situationskompass", label:"Situations Compass"},
+        {route:"practice", label:"Tools"},
+      ])}
+    </section>
+  `);
+}
+
 function vierterWegSelbsterinnerungPage() {
   return shell(`
     ${pageHeader("praxistipps-heilpraktiker")}
@@ -10653,7 +10768,7 @@ function libraryPage() {
 const TEXTUMFANG_STAND = { datum: "Oct 16, 2026", woerterMio: "1.9", normseiten: "7,350", buecher: "25" };
 // PRAXISTIPPS_ANZAHL is maintained manually (the TIPPS array is local to praxistippsHeilpraktikerPage) –
 // count it up whenever a new practice tip is added.
-const PRAXISTIPPS_ANZAHL = 17;
+const PRAXISTIPPS_ANZAHL = 18;
 
 function zahlenFaktenPage() {
   const beruehmt = BERUEHMT_PORTRAITS.length;
@@ -10664,6 +10779,7 @@ function zahlenFaktenPage() {
   const portraitsGesamt = beruehmt + krankheit + kriminal + astrologie + bibel;
   const registerAnzahl = registerEntriesEN.length;
 
+  const _dc = c => c.replace(/^SE/, "SP");
   const _alle = [...BERUEHMT_PORTRAITS, ...KRANKHEITS_PORTRAITS, ...KRIMINAL_PORTRAITS];
   const _mitSub = _alle.filter(p => /^S[EOX][1-9]/.test(p.subtyp || ""));
   const _proSub = {}, _proTyp = {}, _proInst = { SE: 0, SO: 0, SX: 0 };
@@ -10681,7 +10797,7 @@ function zahlenFaktenPage() {
   const _subBalken = [1,2,3,4,5,6,7,8,9].map(n => ["SE","SO","SX"].map(i => {
     const c = i + n, v = _proSub[c] || 0;
     return `<div style="display:flex;align-items:center;gap:.6rem;margin:.18rem 0;font-family:system-ui,sans-serif;font-size:.8rem;">
-      <span style="width:2.4rem;color:var(--muted);">${c}</span>
+      <span style="width:2.4rem;color:var(--muted);">${_dc(c)}</span>
       <span style="flex:1;border-radius:5px;height:.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));"><span style="display:block;height:100%;width:${_pct(v, _subMax)}%;background:${_instFarbe[i]};border-radius:5px;"></span></span>
       <span style="width:2.4rem;text-align:right;font-variant-numeric:tabular-nums;">${v}</span>
     </div>`;
@@ -10727,8 +10843,8 @@ function zahlenFaktenPage() {
   });
   const _frBalken = [1,2,3,4,5,6,7,8,9].map(n => _row("Type " + n, _pct(_frTyp[n] || 0, _gesTyp[n] || 1), 100, "#a8553f", _pct(_frTyp[n] || 0, _gesTyp[n] || 1) + " %")).join("");
   const _frSubSort = Object.keys(_gesSub).filter(c => _gesSub[c] >= 10).sort((a, b) => _frSub[a] / _gesSub[a] - _frSub[b] / _gesSub[b]);
-  const _frNiedrig = _frSubSort.slice(0, 3).map(c => c + " (" + _pct(_frSub[c] || 0, _gesSub[c]) + " %)").join(", ");
-  const _frHoch = _frSubSort.slice(-3).reverse().map(c => c + " (" + _pct(_frSub[c] || 0, _gesSub[c]) + " %)").join(", ");
+  const _frNiedrig = _frSubSort.slice(0, 3).map(c => _dc(c) + " (" + _pct(_frSub[c] || 0, _gesSub[c]) + " %)").join(", ");
+  const _frHoch = _frSubSort.slice(-3).reverse().map(c => _dc(c) + " (" + _pct(_frSub[c] || 0, _gesSub[c]) + " %)").join(", ");
   const _monate = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
   const _proMonat = {};
   [...BERUEHMT_PORTRAITS, ...KRIMINAL_PORTRAITS].forEach(p => { const m = /^(\d{4})-(\d{2})/.exec(p.added || ""); if (m) { const k = m[1] + "-" + m[2]; _proMonat[k] = (_proMonat[k] || 0) + 1; } });
@@ -10751,7 +10867,7 @@ function zahlenFaktenPage() {
   const _rubBlocks = [1,2,3,4,5,6,7,8,9].map(n => `<div style="margin:.4rem 0 .7rem;"><div style="font-family:system-ui,sans-serif;font-size:.82rem;font-weight:700;color:var(--ink);">Type ${n}</div>${_rubTyp.map(([c, tot], i) => _row(["Famous", "Illness", "Criminal"][i], _pct(c[n] || 0, tot || 1), 25, _rubFarben[i], _pct(c[n] || 0, tot || 1) + " %")).join("")}</div>`).join("");
 
   const _rowW = (label, v, max, color, shown, w) => `<div style="display:flex;align-items:center;gap:.6rem;margin:.18rem 0;font-family:system-ui,sans-serif;font-size:.8rem;"><span style="width:${w};color:var(--muted);white-space:nowrap;">${label}</span>${_bar(v, max, color)}<span style="width:2.4rem;text-align:right;font-variant-numeric:tabular-nums;">${shown}</span></div>`;
-  const _tierSort = Object.keys(_proSub).map(c => [_TQ_TIERE[c.replace("SE", "SP")] + " (" + c + ")", _proSub[c]]).sort((a, b) => b[1] - a[1]);
+  const _tierSort = Object.keys(_proSub).map(c => [_TQ_TIERE[c.replace("SE", "SP")] + " (" + _dc(c) + ")", _proSub[c]]).sort((a, b) => b[1] - a[1]);
   const _tierMax = _tierSort[0][1];
   const _tierBalken = _tierSort.map(([n, v]) => _rowW(n, v, _tierMax, "var(--copper)", v, "9.5rem")).join("");
   const _frauen = BERUEHMT_PORTRAITS.filter(p => p.gender === "f" || p.gender === "w").length;
@@ -10806,8 +10922,8 @@ function zahlenFaktenPage() {
             <h2 style="font-size:1.1rem;font-weight:700;margin:2.2rem 0 1rem;color:var(--ink);">Distribution of Portraits</h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:.9rem;">
         ${statCard(_mitSub.length, "Portraits with an assigned subtype (famous personalities, illness portraits, criminal portraits)")}
-        ${statCard(_subSort[0][0] + " &middot; " + _subSort[0][1], "Most frequently portrayed subtype")}
-        ${statCard(_subSort[_subSort.length - 1][0] + " &middot; " + _subSort[_subSort.length - 1][1], "Least frequently portrayed subtype")}
+        ${statCard(_dc(_subSort[0][0]) + " &middot; " + _subSort[0][1], "Most frequently portrayed subtype")}
+        ${statCard(_dc(_subSort[_subSort.length - 1][0]) + " &middot; " + _subSort[_subSort.length - 1][1], "Least frequently portrayed subtype")}
         ${statCard(_pct(_proInst.SE, _mitSub.length) + " / " + _pct(_proInst.SO, _mitSub.length) + " / " + _pct(_proInst.SX, _mitSub.length) + " %", "Split across self-preservation / social / sexual")}
         ${statCard(_pct(_frauen, BERUEHMT_PORTRAITS.length) + " %", "Share of women among the famous personalities")}
         ${statCard(_laender.size, "Different countries of origin among the famous personalities")}

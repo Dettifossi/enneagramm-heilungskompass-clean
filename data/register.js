@@ -3318,6 +3318,7 @@ export const registerEntriesEN = [
   { term: "Fascia Exercises for Core Health", route: "praxistipps-heilpraktiker/faszienuebungen-rumpfgesundheit", description: "Chart: four fascia exercises against the effects of prolonged sitting" },
   { term: "Foot Reflex Zone Activation", route: "praxistipps-heilpraktiker/fussreflexzonen-aktivierung", description: "Chart: hedgehog ball, cork and wooden roller for foot reflex zone massage" },
   { term: "3-Part Swing Routine", route: "praxistipps-heilpraktiker/schwung-routine", description: "Chart: three standing swing exercises for fascia, mobility, and full-body training" },
+  { term: "The Chakra Core of Your Enneagram Type", route: "praxistipps-heilpraktiker/chakra-kern-uebung", description: "Nine Enneagram types, nine body centers and the matching homeopathic constitutional remedies" },
   { term: "The Energy Field Between the Hands", route: "praxistipps-heilpraktiker/energiefeld-haende", description: "Basic body-awareness exercise: sensing the energetic power ball between the palms" },
   { term: "Movement in the Element of Water", route: "praxistipps-heilpraktiker/bewegung-wasser", description: "Mindful, flowing movement using the image of water resistance – inspired by Tai Chi" },
   { term: "The Invisible Magnet", route: "praxistipps-heilpraktiker/unsichtbarer-magnet", description: "Grounding exercise: imagined magnets at the soles of the feet for instant grounding and calm" },
