@@ -1249,6 +1249,7 @@ export function mohammedPortraitPage() {
         {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9)"},
         {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
         {route:"beruehmte-moses", label:"Portrait: Moses (SX6w5)"},
+        {route:"beruehmte-joshua-richards", label:"Portrait: Joshua Richards (SE8w9)"},
       ])}
     </div>
   `);
@@ -2302,6 +2303,7 @@ export function gunterGabrielPortraitPage() {
         {route:"beruehmte-bud-spencer", label:"Portrait: Bud Spencer (SO8w9)"},
         {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9)"},
         {route:"beruehmte-johnny-cash", label:"Portrait: Johnny Cash (SP3w4)"},
+        {route:"beruehmte-joshua-richards", label:"Portrait: Joshua Richards (SE8w9)"},
       ])}
     </div>
   `);

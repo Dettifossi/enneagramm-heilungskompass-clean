@@ -2709,3 +2709,76 @@ export function kevinKuehnertPortraitPage() {
     </div>
   `);
 }
+
+
+export function joshuaRichardsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-joshua-richards-portrait.jpg" alt="Joshua Richards – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-joshua-richards-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Joshua Richards</p>
+        <p class="krim-portrait-typ">SO8w9 &middot; Social Type 8 with a Nine-wing</p>
+        <p class="krim-portrait-subtitle">English actor &ndash; Bear Wolf in Emmerdale &ndash; Animal correspondence: Lion</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Lion: the man from Yorkshire</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>lion</strong> does not have to roar to be there. Joshua Richards is an English actor who by his own account has been based in Yorkshire for most of his life. He was a member of the Royal Shakespeare Company, where he played roles in &lsquo;Henry IV&rsquo;, Parts 1 and 2. On stage he is used to large roles in which one has a long time to learn the lines.</p>
+          <p class="vb-intro">In front of the camera he appeared among others in &lsquo;Troy&rsquo; (2004) alongside Brad Pitt, in the series &lsquo;A Very English Scandal&rsquo; with Hugh Grant, in &lsquo;Downton Abbey&rsquo;, &lsquo;Heartbeat&rsquo; and &lsquo;Panic Button&rsquo;. Since February 2019 he has played Bear Wolf in the television series &lsquo;Emmerdale&rsquo; (a long-running British soap opera set in Yorkshire), his first soap role.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Eight: strength for others</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Eight is strong and does not want to be controlled. Claudio Naranjo called the <strong>social Eight (SO8)</strong> the subtype of friendship and brotherhood: it puts its strength in the service of the group, protects its own and binds itself through loyalty. In Richards this shows in his relationship with the people around him. He has been married for more than thirty years to the actress Sarah Parks and says of his wife: &lsquo;In the end I ended up being on Emmerdale and she is the one who supports me.&rsquo; On joining the series he said the role was less daunting than expected and that everyone was friendly.</p>
+          <p class="vb-intro">His view of the character Bear Wolf also fits. Bear is a former wrestler, a giant who had to take blows all his life. Richards says of him: &lsquo;He&rsquo;s not afraid of anybody.&rsquo; He traces this back to a life of knocks (&lsquo;a lifetime of taking the knocks&rsquo;), and says of himself: &lsquo;That&rsquo;s not me, by the way. I&rsquo;d cry!&rsquo; The man who appears with the stature of an Eight does not take himself too seriously.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Nine-wing: calm and humour</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Nine-wing (w9)</strong> gives the Eight calm, good nature and the ability to accept things. An Eight with a weaker Nine-wing would be louder and more demanding; Richards tells things calmly and with self-irony. When colleagues noticed his weight loss he joked: &lsquo;Well, I&rsquo;ve kept away from you. That must help!&rsquo; Of Brad Pitt he said that off-screen he was &lsquo;chilled, laidback and charming&rsquo; &ndash; this is how someone speaks to whom this tone comes naturally.</p>
+          <p class="vb-intro">His description of Bear also follows the Nine pattern: Bear has the ability to shut down, &lsquo;I think he&rsquo;d be all right&rsquo; in prison, and would take a blow without escalating: he would say, &lsquo;oh right, fine&rsquo;. This is the calm side of the Eight: it does not have to win every confrontation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: from theatre to soap</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Richards works between two worlds: theatre, where one rehearses long and has plenty of time to learn, and the television series, where the pace is high. Of the soap he said: &lsquo;you throw out your short-term memory.&rsquo; In May 2026 he spoke about a demanding storyline: you get home and have to learn the lines for the following day, &lsquo;I hope this ends soon, because this is killing me&rsquo;, and at the same time he was &lsquo;over the moon&rsquo; when it came to an end.</p>
+          <p class="vb-intro">Bear Wolf is a fictional wrestler modelled on the real wrestler Giant Haystacks; Richards has played him since the character was introduced in 2019. The role speaks of respect for a person with a hard shell, a pattern also found in the other lions in the Compass.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Bud Spencer and Gunter Gabriel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SO8w9s in this Compass are several strong men with a soft core. <a href="#beruehmte-bud-spencer">Bud Spencer (SO8w9)</a> was the lion who did not have to roar, a good-natured giant who put family and community above fame. <a href="#beruehmte-gunter-gabriel">Gunter Gabriel (SO8w9)</a> gave workers a voice in schlager and had a hard shell with a soft core.</p>
+          <p class="vb-intro">The difference: Bud Spencer and Gabriel appeared as the face of their own cause, Richards embodies the figure of another and remains in the ensemble as an actor. What they share: physical impact connected with kindness.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Eight with a Nine-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in reliability, humour and the readiness to put one&rsquo;s own strength at the service of others. He speaks warmly of his wife and kindly of his colleagues.</p>
+          <p class="vb-intro">The shadow of this combination is the tendency to endure what is unpleasant instead of tackling it. Richards himself spoke publicly about his health: for a long time he ate &lsquo;all the wrong meals from Emmerdale catering&rsquo;, &lsquo;lasagne and chips&rsquo;, and with a change of diet, supported by his wife, he lost about four stone (roughly 25 kilos). That he tells this openly and with humour belongs to the picture.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: Bear Wolf since 2019</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 23 October 2026) Joshua Richards, in his mid-sixties, still plays Bear Wolf in &lsquo;Emmerdale&rsquo; and lives in Yorkshire.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so8", label:"SO8 – The Lion: Subtype Profile"},
+        {route:"lebensmusterkompass/so8", label:"Life Pattern Compass: SO8 – Lion"},
+        {route:"beruehmte-bud-spencer", label:"Porträt: Bud Spencer (SO8w9)"},
+        {route:"beruehmte-gunter-gabriel", label:"Porträt: Gunter Gabriel (SO8w9)"},
+        {route:"beruehmte-mohammed", label:"Porträt: Mohammed (SO8w9)"},
+      ])}
+    </div>
+  `);
+}

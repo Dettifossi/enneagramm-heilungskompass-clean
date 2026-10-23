@@ -262,6 +262,7 @@ export function budSpencerPortraitPage() {
         {route:"beruehmte-karl-marx", label:"Portrait: Karl Marx (SO8w9)"},
         {route:"beruehmte-mohammed", label:"Portrait: Muhammad ibn Abdullah (SO8w9)"},
         {route:"kriminalpsychologie-frank-hanebuth", label:"Frank Hanebuth (SO8w9) – criminal psychology"},
+        {route:"beruehmte-joshua-richards", label:"Portrait: Joshua Richards (SE8w9)"},
       ])}
     </div>
   `);

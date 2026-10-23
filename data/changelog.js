@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2581", date: "2026-10-23", text: "Neues Porträt: Joshua Richards (SO8w9) – englischer Schauspieler (Bear Wolf in Emmerdale).", text_en: "New portrait: Joshua Richards (SO8w9) – English actor (Bear Wolf in Emmerdale).", route: "beruehmte-joshua-richards" },
     { version: "v2580", date: "2026-10-23", text: "Neuer Wissensartikel: Warum nur 9 Enneagramm-Heilmittel und nicht 27? – Subtypen für die Diagnose, ein Mittel je Typ für die Leidenschaft.", text_en: "New knowledge article: Why only 9 Enneagram remedies and not 27? – subtypes for diagnosis, one remedy per type for the passion.", route: "warum-nur-9-heilmittel" },
     { version: "v2579", date: "2026-10-23", text: "Neuer Wissensartikel: Der Yogi-Tee-Kompass – welche Yogi-Tea-Sorte zu welchem Typ und Subtyp passt, mit Zutaten und Links.", text_en: "New knowledge article: The Yogi Tea Compass – which Yogi Tea variety suits which type and subtype, with ingredients and links.", route: "yogi-tee-kompass" },
     { version: "v2578", date: "2026-10-23", text: "Der Kompass in Zahlen: neue Abschnitte zu den Porträts je Tier und zum Wissensumfang (Heilmittel, Quiz, Psychosomatik, Beziehungs-Paarungen und mehr).", text_en: "The Compass in Numbers: new sections on portraits per animal and the scope of knowledge (remedies, quiz, psychosomatics, relationship pairings and more).", route: "zahlen-fakten" },
