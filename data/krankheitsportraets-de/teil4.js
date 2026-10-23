@@ -4986,3 +4986,217 @@ export function brianWilsonKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function rudiCarrellKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rudi-carrell-portrait.jpg" alt="Rudi Carrell – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rudi Carrell</p>
+        <p class="krim-portrait-typ">SX7w6 · Sexueller Typ 7 mit Sechserflügel · 1934–2006</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Schimpanse</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Tierentsprechung: Schimpanse" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Rudi Carrell</strong> ist bereits als <a href="javascript:void(0)" data-route="beruehmte-rudi-carrell">Porträt unter Berühmte Persönlichkeiten</a> in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Showmaster. Im Vordergrund dieser Seite steht ein Kapitel, das dort nur angerissen wird: Carrell war über Jahrzehnte Kettenraucher, erkrankte an Lungenkrebs, bekannte sich im November 2005 öffentlich dazu und starb am 7. Juli 2006 im Alter von 71 Jahren im Klinikum Bremen-Ost.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong> <strong>Carrell</strong> ist dem <strong>sexuellen Typ 7 mit Sechserflügel</strong> zugeordnet. Die sexuelle Sieben lebt von Faszination und Suggestibilität: Sie lässt sich von Menschen und Augenblicken entzünden und entzündet andere. Der Sechserflügel bringt Verlässlichkeit und Loyalität hinzu – Carrells Humor war immer auch ein Vertrag mit seinem Publikum und seiner Familie.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Ein Leben mit drei Packungen am Tag:</strong>
+        Carrell war Kettenraucher. Nach einem Interview mit der ›Bunten‹ (November 2005) rauchte er bis zu drei Packungen Zigaretten täglich, etwa 51 Jahre lang, und hörte nach eigenen Angaben erst kurz vor dem öffentlichen Bekenntnis zu seiner Erkrankung auf. Im Fernsehstudio war Rauchen verboten, weshalb ihm bei Aufnahmen jemand mit einem Wassereimer folgte.</p>
+        <p class="vb-intro"><strong>b) Eine belastete Familiengeschichte:</strong>
+        Seine Großmutter väterlicherseits starb mit 58 Jahren an Tuberkulose, sein Vater im selben Alter an Lungenkrebs. Auch seine Schwester Truus erkrankte an Lungenkrebs, obwohl sie nie geraucht hatte; sie wurde rechtzeitig geheilt.</p>
+        <p class="vb-intro"><strong>c) Das Gefühl im Urlaub:</strong>
+        Kurz nach seinem 70. Geburtstag (Dezember 2004) spürte Carrell während eines Karibik-Urlaubs, dass er krank war. Eine Untersuchung im Klinikum Bremen stellte Lungenkrebs fest.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Das öffentliche Bekenntnis:</strong>
+        Im November 2005 bestätigte Carrell in einem Interview mit der ›Bunten‹ seine Krankheit. Er machte sie damit selbst öffentlich, bevor andere darüber spekulieren konnten.</p>
+        <p class="vb-intro"><strong>b) Weiterarbeiten im Fernsehen:</strong>
+        Bei der letzten Folge von ›7 Tage, 7 Köpfe‹, ausgestrahlt am 31. Dezember 2005, trat er stumm auf und führte seinen Running Gag vor – seine Rolle blieb sichtbar, auch ohne gesprochenes Wort.</p>
+        <p class="vb-intro"><strong>c) Der letzte Fernsehauftritt:</strong>
+        Bei der Goldenen Kamera am 2. Februar 2006 dankte er ironisch seiner Krankenversicherung, dem Klinikum Bremen-Ost und der Pharmaindustrie. Seine Stimme war dabei geschwächt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Gelassenheit bei der Diagnose:</strong>
+        Carrell nahm die Diagnose gelassen auf. Er sagte seinen Kindern, er habe ein erfülltes Leben gehabt – eine Aussage, die in der Quelle als Zitat belegt ist.</p>
+        <p class="vb-intro"><strong>b) ›Nicht krank‹ trotz Krankheit:</strong>
+        Im Interview sagte er sinngemäß, er fühle sich nicht krank, weil ihm typische Symptome wie Fieber und Schmerzen erspart geblieben seien.</p>
+        <p class="vb-intro"><strong>c) Offen über den eigenen Tod:</strong>
+        Im ›SZ-Magazin‹ vom 17. März 2006 sprach er offen über den Tod. Er wollte keine öffentliche Beerdigung, scherzhaft aus Angst vor den Jacob Sisters (einem Gesangsduo).</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Humor als Haltung bis zuletzt:</strong>
+        Der ironische Dank bei der Goldenen Kamera und der Scherz über die Beerdigung zeigen, dass Carrell auch die eigene Krankheit mit der Leichtigkeit behandelte, mit der er sein Publikum jahrzehntelang unterhalten hatte.</p>
+        <p class="vb-intro"><strong>b) Ein Abschied im engsten Kreis:</strong>
+        Carrell starb am 7. Juli 2006 gegen Mittag im Klinikum Bremen-Ost. Die Trauerfeier fand am 9. Juli im engsten Familienkreis statt, die Urne wurde am 25. Juli auf dem Friedhof in Heiligenfelde beigesetzt.</p>
+        <p class="vb-intro"><strong>c) Ein letzter Wunsch aus Treue:</strong>
+        Auf seinen letzten Wunsch hin wurde die Urne seiner zweiten Ehefrau Anke, die im Jahr 2000 an Herzversagen gestorben war, dorthin umgebettet, neben seine eigene.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Leichtigkeit als Schutzraum:</strong>
+        Die sexuelle Sieben schützt sich vor Schwere durch Spiel und Witz. Carrell hielt diesen Ton bis zum Schluss, auch als die Erkrankung ihn körperlich schwächte.</p>
+        <p class="vb-intro"><strong>b) Der Sechserflügel als Treue:</strong>
+        Der Wunsch, neben seiner Frau Anke beerdigt zu werden, und die Offenheit gegenüber der Familie zeigen die Loyalität des Sechserflügels hinter der Showfassade.</p>
+        <p class="vb-intro"><strong>c) Parallele im selben Subtyp: Leonard Bernstein:</strong>
+        Wie <a href="javascript:void(0)" data-route="krankheitsportraets-leonard-bernstein">Leonard Bernstein (SX7w6)</a>, der jahrzehntelang rauchte und an einer fortgeschrittenen Lungenerkrankung starb, ließ auch Carrell sein Leben lang kaum Bremsen zu. Der Unterschied: Bernstein zog sich wenige Tage vor seinem Tod vom Dirigieren zurück, Carrell sprach ein Jahr zuvor offen über sein Ende.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Ein Leben unter Dauerreiz:</strong>
+        Carrell war 51 Jahre lang Kettenraucher, und er sagte selbst, er sei 1980 ›ausgebrannt‹ gewesen. Dazwischen liegt ein Berufsleben aus Livesendungen, Reisen und Erfolgsdruck.</p>
+        <p class="vb-intro"><strong>b) Das Rauchen als ständiger Reiz:</strong>
+        Für eine sexuelle Sieben, die vom nächsten Reiz lebt, ist die Zigarette ein stetiger, schneller Gewinn. Was im Studio verboten war, war im Alltag Begleiter: jemand mit Wassereimer musste ihm folgen.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die Lunge?:</strong>
+        Für eine sexuelle Sieben mit Sechserflügel, deren Energie vom Atem der Begeisterung lebt, lässt sich in einer Erkrankung der Lunge ein Bild des eigenen Musters lesen: Der Atem, der Leichtigkeit trug, wird zum Ort der Grenze. Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Sieben mit Sechserflügel zwangsläufig zu einer Lungenerkrankung führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Carrells Erkrankung hat klassische Risikofaktoren: einundfünfzig Jahre Kettenrauchen und eine familiäre Vorbelastung (der Vater starb im gleichen Alter an Lungenkrebs), und seine Schwester erkrankte sogar, ohne zu rauchen. Die Deutung ist eine von vielen möglichen, kein Urteil. In seinen letzten Monaten zeigt sich zudem ein Zug zu Nüchternheit und Ordnung, den das Porträt unter Berühmte Persönlichkeiten als Verschiebung zum Stresspunkt Eins beschreibt: Er regelte sein Begräbnis und sprach offen über den Tod, der Kerntyp blieb aber die Sieben mit Humor.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Carrell kannte, wie die meisten Menschen, sein Enneagramm-Muster nicht bewusst. Ohne dieses Wissen traf seine Lust auf Reiz und Tempo keinen Widerstand, statt dass rechtzeitig die Notbremse gezogen wurde – ein Zug, der ihn auf der Bühne groß machte, ihn aber über Jahrzehnte zur nächsten Zigarette trieb. Wer das eigene Muster erkennt, kann bewusst gegensteuern; wer es nicht kennt, wiederholt es, bis der Körper die Grenze setzt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die sexuelle Sieben mit Sechserflügel bestätigt sich bei <strong>Rudi Carrell</strong> noch einmal in der Art, wie er der eigenen Krankheit begegnete: mit dem Witz, der ihn bekannt gemacht hatte. Er dankte der Pharmaindustrie ironisch vor laufender Kamera und regelte seinen Abschied selbst, im engsten Kreis, neben seiner Frau. Der Schimpanse, der sein Publikum über Jahrzehnte zum Lachen brachte, verließ die Bühne mit demselben Ton.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-rudi-carrell", label:"Porträt: Rudi Carrell (SX7w6) – Lebenswerk"},
+        {route:"krankheitsportraets-leonard-bernstein", label:"Leonard Bernstein (SX7w6) – Krankheitsporträt"},
+        {route:"krankheitsportraets-morgan-freeman", label:"Morgan Freeman (SX7w6) – Krankheitsporträt"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
+      ])}
+    </div>
+  `);
+}
+
+export function johannesHeestersKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; Alle Krankheitsporträts</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-johannes-heesters-portrait.jpg" alt="Johannes Heesters – Porträt" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johannes Heesters</p>
+        <p class="krim-portrait-typ">SX7w6 · Sexueller Typ 7 mit Sechserflügel · 1903–2011</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Tierentsprechung: Schimpanse</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Tierentsprechung: Schimpanse" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Johannes Heesters</strong> ist bereits als <a href="javascript:void(0)" data-route="beruehmte-johannes-heesters">Porträt unter Berühmte Persönlichkeiten</a> in diesem Kompass vertreten – dort geht es um sein Lebenswerk als Operettentenor und Schauspieler. Im Vordergrund dieser Seite steht ein Kapitel, das dort nur angerissen wird: Heesters stand bis ins Alter von 106 Jahren auf der Bühne, obwohl ihn eine Makuladegeneration und ein Glaukom ab 2007 zunehmend das Augenlicht kosteten, bis er 2009 völlig erblindete. Er starb am 24. Dezember 2011 im Alter von 108 Jahren in Starnberg an den Folgen eines Schlaganfalls.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Typzuordnung:</strong> <strong>Heesters</strong> ist dem <strong>sexuellen Typ 7 mit Sechserflügel</strong> zugeordnet. Die sexuelle Sieben lebt von Faszination und Suggestibilität: Sie lässt sich von Menschen und Augenblicken entzünden und entzündet andere. Der Sechserflügel bringt Verlässlichkeit hinzu – Heesters kam, wo er zugesagt hatte, auch mit über hundert Jahren.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Erste Anzeichen</h3>
+        <p class="vb-intro"><strong>a) Bühne mit 99:</strong>
+        2003, mit 99 Jahren, stand Heesters von September bis November auf der Bühne der Komödie im Marquardt in Stuttgart – ein Alter, in dem die meisten Menschen längst keine Abendvorstellungen mehr bestreiten.</p>
+        <p class="vb-intro"><strong>b) Die Augen lassen nach:</strong>
+        Eine Makuladegeneration (eine Netzhauterkrankung) und ein 2007 aufgetretenes Glaukom schränkten sein Sehvermögen schrittweise ein.</p>
+        <p class="vb-intro"><strong>c) Ein Sturz am Neujahrstag:</strong>
+        Am 1. Januar 2008 stürzte Heesters in seinem Ferienhaus in Alpbach in Österreich und zog sich schwere Verletzungen zu. Nach den Angaben der Quelle erholte er sich rasch davon.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. Allgemeine Merkmale</h3>
+        <p class="vb-intro"><strong>a) Ein Film mit 104:</strong>
+        2008 übernahm er mit 104 Jahren eine Nebenrolle in dem Kinofilm ›1½ Ritter‹.</p>
+        <p class="vb-intro"><strong>b) Gott im ›Jedermann‹:</strong>
+        2009 war Heesters völlig erblindet. Im Juni desselben Jahres spielte er mit 105 Jahren den Gott im ›Jedermann‹ am Alten Schauspielhaus Stuttgart.</p>
+        <p class="vb-intro"><strong>c) Ein Konzert in Wien:</strong>
+        Am 8. Dezember 2009, mit 106 Jahren, sang er bei einem Konzert des Robert-Stolz-Clubs in Wien. Die Stadt ehrte ihn rund um seinen 106. Geburtstag mit einer Feier.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Wesentliche Eigenschaften</h3>
+        <p class="vb-intro"><strong>a) Anpassen statt aufgeben:</strong>
+        Im Juli 2010 trat er mit 106 Jahren in Rolf Hochhuths ›Inselkomödie‹ in Berlin auf. Er sprach zwei kurze Monologe, sang aber nicht – die Rolle wurde seinen Kräften angepasst, ohne dass er auf die Bühne verzichtete.</p>
+        <p class="vb-intro"><strong>b) Ein letzter Auftritt im Kurzfilm:</strong>
+        2011 trat er im Kurzfilm ›Ten‹ als Heiliger Petrus auf.</p>
+        <p class="vb-intro"><strong>c) Humor über das eigene Alter:</strong>
+        Seine Buchtitel greifen das Altern mit Witz auf: ›Ich bin gottseidank nicht mehr jung‹ (1993) und ›Auch hundert Jahre sind zu kurz‹ (2003).</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Gesamtwirkung</h3>
+        <p class="vb-intro"><strong>a) Ein Schwächeanfall mit Folgen:</strong>
+        Kurz vor dem 5. Dezember 2011 erlitt der 107-Jährige einen Schwächeanfall, der mehrere Tage Krankenhaus erforderte. Dabei wurde ihm ein Herzschrittmacher eingesetzt. Warum, nennt die Quelle nicht.</p>
+        <p class="vb-intro"><strong>b) Der 108. Geburtstag:</strong>
+        Seinen 108. Geburtstag am 5. Dezember 2011 verbrachte er zu Hause im Kreis der Familie. Am 17. Dezember wurde er auf der Intensivstation des Krankenhauses Starnberg aufgenommen.</p>
+        <p class="vb-intro"><strong>c) Der Abschied:</strong>
+        Heesters starb am 24. Dezember 2011 in Starnberg an den Folgen eines Schlaganfalls, im Beisein seiner Frau Simone Rethel und seiner Tochter Wiesje. Die Beisetzung fand am 30. Dezember auf dem Nordfriedhof in München statt.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetische Wirkung</h3>
+        <p class="vb-intro"><strong>a) Die Bühne als Lebenselixier:</strong>
+        Die sexuelle Sieben verschmilzt mit ihrem Publikum. Für Heesters blieb die Bühne bis ins höchste Alter der Ort, an dem die Energie floss.</p>
+        <p class="vb-intro"><strong>b) Der Sechserflügel als Verlässlichkeit:</strong>
+        Dass er zusagte und auch blind, mit über hundert Jahren, erschien, zeigt die Loyalität des Sechserflügels gegenüber seinem Publikum und den Mitspielenden.</p>
+        <p class="vb-intro"><strong>c) Parallele im selben Subtyp: Franz Liszt:</strong>
+        Wie <a href="javascript:void(0)" data-route="krankheitsportraets-franz-liszt">Franz Liszt (SX7w8)</a>, der trotz Herzschwäche und fortschreitender Erblindung bis zuletzt konzertierte, führte auch Heesters seine Auftritte trotz Erblindung fort. Der Unterschied: Heesters passte die Rolle an (Monologe statt Gesang), Liszt spielte weiter am Instrument.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. Die Krankheit als roter Faden</h3>
+        <p class="vb-intro"><strong>a) Eine späte Einschränkung nach einem langen Leben:</strong>
+        Die Augenerkrankung begann erst 2007, mit 103 Jahren, und führte 2009 zur völligen Erblindung. Heesters lebte also fast ein Jahrhundert ohne schwere Einschränkung seines Sehens.</p>
+        <p class="vb-intro"><strong>b) Weiterspielen ohne Augenlicht:</strong>
+        Für einen Menschen, dessen Beruf aus Auftritt und Blickkontakt bestand, wurde der Verlust des Augenlichts zur größten denkbaren Herausforderung – und er spielte trotzdem weiter, bis 2011 sein letzter Auftritt im Kurzfilm ›Ten‹ entstand.</p>
+        <p class="vb-intro"><strong>c) Warum ausgerechnet die Augen?:</strong>
+        Für eine sexuelle Sieben, die von Faszination und Blickkontakt lebt, lässt sich im Verlust des Augenlichts eine Zuspitzung des Lebensmusters lesen: Er konnte das Publikum nicht mehr sehen, spielte aber weiter für es. Diese Deutung wird im Psychosomatik-Register dieses Kompasses noch ausführlicher entfaltet.</p>
+        <p class="vb-intro"><strong>d) Einordnung ohne Determinismus:</strong>
+        Das heißt nicht, dass das Muster der sexuellen Sieben mit Sechserflügel zwangsläufig zur Erblindung führt – <strong>jeder Mensch kann jede Krankheit bekommen, unabhängig vom Subtyp.</strong> Makuladegeneration und Glaukom sind altersassoziierte Erkrankungen, die bei Menschen jenseits der hundert Jahre häufig auftreten; Vor 2007 ist bei Heesters keine Augenerkrankung belegt. Die Deutung ist eine von vielen möglichen, kein Urteil.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) Die unbewusste Fixierung als eigener Faktor:</strong>
+        Heesters kannte, wie die meisten Menschen, sein Enneagramm-Muster nicht bewusst. Ohne dieses Wissen fand seine Lust am Auftritt keinen Widerstand, statt dass rechtzeitig die Notbremse gezogen wurde – ein Zug, der ihn über hundert Jahre auf der Bühne hielt und auch nach Erblindung und schwerem Sturz nicht aufhören ließ. Wer das eigene Muster erkennt, kann bewusst gegensteuern; wer es nicht kennt, wiederholt es, bis der Körper die Grenze setzt.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Fazit</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        Die sexuelle Sieben mit Sechserflügel bestätigt sich bei <strong>Johannes Heesters</strong> noch einmal in der Beharrlichkeit, mit der er auch ohne Augenlicht auf der Bühne blieb und seine Rollen anpasste, statt sie aufzugeben. Der Schimpanse, der jahrzehntelang seinen Charme verströmte, hielt diesen einen Ort, die Bühne, bis ins Alter von 106 Jahren.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"Alle Krankheitsporträts"},
+        {route:"beruehmte-johannes-heesters", label:"Porträt: Johannes Heesters (SX7w6) – Lebenswerk"},
+        {route:"krankheitsportraets-franz-liszt", label:"Franz Liszt (SX7w8) – Krankheitsporträt"},
+        {route:"krankheitsportraets-morgan-freeman", label:"Morgan Freeman (SX7w6) – Krankheitsporträt"},
+        {route:"psychosomatik", label:"Psychosomatik-Register"},
+        {route:"subtype/sx7", label:"Subtyp-Profil SX7"},
+      ])}
+    </div>
+  `);
+}

@@ -2,6 +2,8 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2596", date: "2026-10-24", text: "Neues Krankheitsporträt: Johannes Heesters (SX7w6) – Erblindung im Alter und Bühne bis 106.", text_en: "New illness portrait: Johannes Heesters (SX7w6) – blindness in old age and the stage until 106.", route: "krankheitsportraets-johannes-heesters" },
+    { version: "v2595", date: "2026-10-24", text: "Neues Krankheitsporträt: Rudi Carrell (SX7w6) – Lungenkrebs und Humor bis zuletzt.", text_en: "New illness portrait: Rudi Carrell (SX7w6) – lung cancer and humour to the end.", route: "krankheitsportraets-rudi-carrell" },
     { version: "v2594", date: "2026-10-24", text: "Neues Porträt: Hong Chau (SE3w2) – Schauspielerin.", text_en: "New portrait: Hong Chau (SP3w2) – actress.", route: "beruehmte-hong-chau" },
     { version: "v2593", date: "2026-10-24", text: "Neues Porträt: Lance Oppenheim (SO7w6) – Dokumentarfilmer.", text_en: "New portrait: Lance Oppenheim (SO7w6) – documentary filmmaker.", route: "beruehmte-lance-oppenheim" },
     { version: "v2592", date: "2026-10-24", text: "Neues Porträt: Bradley Cooper (SO1w2) – Schauspieler und Regisseur.", text_en: "New portrait: Bradley Cooper (SO1w2) – actor and director.", route: "beruehmte-bradley-cooper" },

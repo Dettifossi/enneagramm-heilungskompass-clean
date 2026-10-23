@@ -4766,3 +4766,217 @@ export function brianWilsonKrankheitsportraetPage() {
     </div>
   `);
 }
+
+export function rudiCarrellKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rudi-carrell-portrait.jpg" alt="Rudi Carrell – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Rudi Carrell</p>
+        <p class="krim-portrait-typ">SX7w6 · Sexual Type 7 with Six-wing · 1934–2006</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Chimpanzee</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Animal correspondence: Chimpanzee" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Rudi Carrell</strong> already has a <a href="javascript:void(0)" data-route="beruehmte-rudi-carrell">portrait under Famous Personalities</a> in this Compass – that page covers his life&rsquo;s work as a showmaster. This page puts the spotlight on a chapter that page only glances at: Carrell was a chain smoker for decades, developed lung cancer, confirmed it publicly in November 2005 and died on 7 July 2006 at the age of 71 in the Klinikum Bremen-Ost.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong> <strong>Carrell</strong> is classified as the <strong>Sexual Type 7 with Six-wing</strong>. The sexual Seven lives on fascination and suggestibility: she is ignited by people and moments and ignites others. The Six-wing adds reliability and loyalty – Carrell&rsquo;s humour was always also a contract with his audience and his family.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) A life of three packs a day:</strong>
+        Carrell was a chain smoker. According to an interview with &lsquo;Bunte&rsquo; magazine (November 2005) he smoked up to three packs of cigarettes a day for about 51 years, and by his own account stopped only shortly before publicly acknowledging his illness. Smoking was forbidden in the television studio, so someone followed him around during recordings with a bucket of water.</p>
+        <p class="vb-intro"><strong>b) A burdened family history:</strong>
+        His paternal grandmother died of tuberculosis at 58, his father of lung cancer at the same age. His sister Truus also developed lung cancer although she had never smoked; she was cured in time.</p>
+        <p class="vb-intro"><strong>c) The feeling on holiday:</strong>
+        Shortly after his 70th birthday (December 2004) Carrell sensed during a holiday in the Caribbean that he was ill. An examination at the Klinikum Bremen diagnosed lung cancer.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) The public acknowledgement:</strong>
+        In November 2005 Carrell confirmed his illness in an interview with &lsquo;Bunte&rsquo;. In doing so he made it public himself before others could speculate.</p>
+        <p class="vb-intro"><strong>b) Keeping on working on television:</strong>
+        In the last episode of &lsquo;7 Tage, 7 Köpfe&rsquo; (&lsquo;7 Days, 7 Heads&rsquo;), aired on 31 December 2005, he appeared silently and performed his running gag – his role remained visible even without a spoken word.</p>
+        <p class="vb-intro"><strong>c) The last television appearance:</strong>
+        At the Goldene Kamera on 2 February 2006 he ironically thanked his health insurer, the Klinikum Bremen-Ost and the pharmaceutical industry. His voice was weakened at the time.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Composure at the diagnosis:</strong>
+        Carrell took the diagnosis calmly. He told his children that he had had a full life – a statement documented as a quotation in the source.</p>
+        <p class="vb-intro"><strong>b) &lsquo;Not ill&rsquo; despite illness:</strong>
+        In the interview he said, in essence, that he did not feel ill because he had been spared typical symptoms such as fever and pain.</p>
+        <p class="vb-intro"><strong>c) Open about his own death:</strong>
+        In the &lsquo;SZ-Magazin&rsquo; of 17 March 2006 he spoke openly about death. He did not want a public funeral, jokingly for fear of the Jacob Sisters (a singing duo).</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) Humour as an attitude to the end:</strong>
+        The ironic thanks at the Goldene Kamera and the joke about the funeral show that Carrell treated his own illness with the lightness with which he had entertained his audience for decades.</p>
+        <p class="vb-intro"><strong>b) A farewell among the closest:</strong>
+        Carrell died on 7 July 2006 around noon in the Klinikum Bremen-Ost. The memorial service took place on 9 July in the closest family circle, and the urn was interred on 25 July in the cemetery in Heiligenfelde.</p>
+        <p class="vb-intro"><strong>c) A last wish out of loyalty:</strong>
+        At his last wish the urn of his second wife Anke, who had died of heart failure in 2000, was moved there, next to his own.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) Lightness as a refuge:</strong>
+        The sexual Seven protects herself from heaviness through play and wit. Carrell kept this tone to the end, even as the illness weakened him physically.</p>
+        <p class="vb-intro"><strong>b) The Six-wing as loyalty:</strong>
+        The wish to be buried next to his wife Anke and the openness towards his family show the loyalty of the Six-wing behind the show facade.</p>
+        <p class="vb-intro"><strong>c) Parallel in the same subtype: Leonard Bernstein:</strong>
+        Like <a href="javascript:void(0)" data-route="krankheitsportraets-leonard-bernstein">Leonard Bernstein (SX7w6)</a>, who smoked for decades and died of an advanced lung disease, Carrell too allowed himself hardly any brakes throughout his life. The difference: Bernstein withdrew from conducting only a few days before his death, Carrell spoke openly about his end a year earlier.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A life under constant stimulation:</strong>
+        Carrell was a chain smoker for 51 years, and he said himself that he was &lsquo;burnt out&rsquo; in 1980. In between lies a working life of live shows, travel and the pressure to succeed.</p>
+        <p class="vb-intro"><strong>b) Smoking as a constant stimulus:</strong>
+        For a sexual Seven who lives on the next stimulus, the cigarette is a steady, quick gain. What was forbidden in the studio was an everyday companion: someone with a bucket of water had to follow him.</p>
+        <p class="vb-intro"><strong>c) Why the lungs of all things?:</strong>
+        For a sexual Seven with a Six-wing whose energy lives on the breath of enthusiasm, an illness of the lungs can be read as an image of one&rsquo;s own pattern: the breath that carried lightness becomes the place of the limit. This interpretation is developed in more detail in this Compass&rsquo;s Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Classification without determinism:</strong>
+        This does not mean that the pattern of the sexual Seven with a Six-wing inevitably leads to a lung disease – <strong>anyone can get any illness, regardless of subtype.</strong> Carrell&rsquo;s illness has classic risk factors: fifty-one years of chain smoking and a family burden (his father died of lung cancer at the same age), and his sister even fell ill without smoking. The interpretation is one of many possible, not a verdict. In his last months a tendency to sobriety and order also shows, which the portrait under Famous Personalities describes as a shift towards the stress point One: he arranged his funeral and spoke openly about death, but the core type remained the Seven with humour.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as a factor in its own right:</strong>
+        Like most people, Carrell did not consciously know his Enneagram pattern. Without this knowledge his appetite for stimulation and pace met no resistance, and the emergency brake was not pulled in time – a trait that made him great on stage but drove him for decades to the next cigarette. Whoever recognises their own pattern can consciously steer against it; whoever does not repeats it until the body sets the limit.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The sexual Seven with a Six-wing is confirmed once more in <strong>Rudi Carrell</strong> in the way he met his own illness: with the wit that had made him known. He thanked the pharmaceutical industry ironically in front of the camera and arranged his farewell himself, among the closest, next to his wife. The chimpanzee who made his audience laugh for decades left the stage in the same tone.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-rudi-carrell", label:"Portrait: Rudi Carrell (SX7w6) – Life&rsquo;s Work"},
+        {route:"krankheitsportraets-leonard-bernstein", label:"Leonard Bernstein (SX7w6) – Illness Portrait"},
+        {route:"krankheitsportraets-morgan-freeman", label:"Morgan Freeman (SX7w6) – Illness Portrait"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx7", label:"Subtype Profile SX7"},
+      ])}
+    </div>
+  `);
+}
+
+export function johannesHeestersKrankheitsportraetPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("krankheitsportraets")}
+      <button class="ghost-link" data-route="krankheitsportraets" style="margin-bottom:1rem;">&larr; All Illness Portraits</button>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-johannes-heesters-portrait.jpg" alt="Johannes Heesters – Portrait" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Johannes Heesters</p>
+        <p class="krim-portrait-typ">SX7w6 · Sexual Type 7 with Six-wing · 1903–2011</p>
+        <p class="krim-portrait-subtitle" style="display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+          <span>Animal correspondence: Chimpanzee</span>
+          <span style="position:relative;width:32px;height:32px;border-radius:50%;overflow:hidden;flex-shrink:0;box-shadow:0 0 0 2px var(--gold);display:inline-block;">
+            <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/tier-avatar-120/sx7.jpg" alt="Animal correspondence: Chimpanzee" loading="lazy" style="position:absolute;top:${tierAvatarTop("SX7")};left:${tierAvatarLeft("SX7")};width:140%;height:140%;object-fit:cover;" onerror="this.parentElement.style.display='none'" />
+          </span>
+        </p>
+      </div>
+      <p class="psycho-intro">
+        <strong>Johannes Heesters</strong> already has a <a href="javascript:void(0)" data-route="beruehmte-johannes-heesters">portrait under Famous Personalities</a> in this Compass – that page covers his life&rsquo;s work as an operetta tenor and actor. This page puts the spotlight on a chapter that page only glances at: Heesters was on stage until the age of 106 although a macular degeneration and glaucoma increasingly cost him his sight from 2007, until he went completely blind in 2009. He died on 24 December 2011 at the age of 108 in Starnberg of the consequences of a stroke.
+      </p>
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;margin-bottom:2rem;max-width:100%;">
+        <p style="margin:0;font-size:0.95rem;color:var(--ink);"><strong>Type assignment:</strong> <strong>Heesters</strong> is classified as the <strong>Sexual Type 7 with Six-wing</strong>. The sexual Seven lives on fascination and suggestibility: she is ignited by people and moments and ignites others. The Six-wing adds reliability – Heesters came where he had promised to, even at over a hundred years old.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. First Signs</h3>
+        <p class="vb-intro"><strong>a) On stage at 99:</strong>
+        In 2003, at 99, Heesters stood from September to November on the stage of the Komödie im Marquardt in Stuttgart – an age at which most people have long stopped giving evening performances.</p>
+        <p class="vb-intro"><strong>b) The eyes fade:</strong>
+        A macular degeneration (a retinal disease) and a glaucoma that appeared in 2007 progressively limited his sight.</p>
+        <p class="vb-intro"><strong>c) A fall on New Year&rsquo;s Day:</strong>
+        On 1 January 2008 Heesters fell at his holiday house in Alpbach, Austria, and suffered serious injuries. According to the source he recovered quickly.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">2. General Traits</h3>
+        <p class="vb-intro"><strong>a) A film at 104:</strong>
+        In 2008, at 104, he took a supporting role in the feature film &lsquo;1½ Ritter&rsquo; (&lsquo;1½ Knights&rsquo;).</p>
+        <p class="vb-intro"><strong>b) God in &lsquo;Jedermann&rsquo;:</strong>
+        By 2009 Heesters was completely blind. In June of that year he played God in &lsquo;Jedermann&rsquo; (&lsquo;Everyman&rsquo;) at the Altes Schauspielhaus Stuttgart at the age of 105.</p>
+        <p class="vb-intro"><strong>c) A concert in Vienna:</strong>
+        On 8 December 2009, aged 106, he sang at a concert of the Robert Stolz Club in Vienna. The city honoured him with a celebration around his 106th birthday.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">3. Essential Characteristics</h3>
+        <p class="vb-intro"><strong>a) Adapting instead of giving up:</strong>
+        In July 2010, aged 106, he appeared in Rolf Hochhuth&rsquo;s &lsquo;Inselkomödie&rsquo; (&lsquo;Island Comedy&rsquo;) in Berlin. He spoke two short monologues but did not sing – the role was adapted to his strength without him giving up the stage.</p>
+        <p class="vb-intro"><strong>b) A last appearance in a short film:</strong>
+        In 2011 he appeared in the short film &lsquo;Ten&rsquo; as Saint Peter.</p>
+        <p class="vb-intro"><strong>c) Humour about his own age:</strong>
+        His book titles take up ageing with wit: &lsquo;Ich bin gottseidank nicht mehr jung&rsquo; (&lsquo;Thank God I Am No Longer Young&rsquo;, 1993) and &lsquo;Auch hundert Jahre sind zu kurz&rsquo; (&lsquo;Even a Hundred Years Are Too Short&rsquo;, 2003).</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Overall Effect</h3>
+        <p class="vb-intro"><strong>a) A fainting spell with consequences:</strong>
+        Shortly before 5 December 2011 the 107-year-old suffered a fainting spell that required several days in hospital. A pacemaker was implanted. The source does not say why.</p>
+        <p class="vb-intro"><strong>b) The 108th birthday:</strong>
+        He spent his 108th birthday on 5 December 2011 at home with his family. On 17 December he was admitted to the intensive care unit of the Starnberg hospital.</p>
+        <p class="vb-intro"><strong>c) The farewell:</strong>
+        Heesters died on 24 December 2011 in Starnberg of the consequences of a stroke, in the presence of his wife Simone Rethel and his daughter Wiesje. The funeral took place on 30 December at the Nordfriedhof in Munich.</p>
+      </div>
+
+      <div class="vb-section" style="max-width:100%;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Energetic Effect</h3>
+        <p class="vb-intro"><strong>a) The stage as an elixir of life:</strong>
+        The sexual Seven merges with her audience. For Heesters the stage remained, into the highest age, the place where the energy flowed.</p>
+        <p class="vb-intro"><strong>b) The Six-wing as reliability:</strong>
+        That he committed and appeared even blind, at over a hundred, shows the loyalty of the Six-wing towards his audience and fellow players.</p>
+        <p class="vb-intro"><strong>c) Parallel in the same subtype: Franz Liszt:</strong>
+        Like <a href="javascript:void(0)" data-route="krankheitsportraets-franz-liszt">Franz Liszt (SX7w8)</a>, who gave concerts to the very end despite heart weakness and progressive blindness, Heesters too continued his appearances despite blindness. The difference: Heesters adapted the role (monologues instead of singing), Liszt kept playing at the instrument.</p>
+      </div>
+
+      <div class="vb-section" style="background:color-mix(in srgb, #4a7f91 8%, var(--paper));border:1.5px solid #4a7f91;border-radius:10px;padding:1.3rem 1.4rem;max-width:100%;">
+        <h3 style="font-size:1.1rem;font-weight:700;margin:0 0 1rem;color:#2e5a68;">6. The Illness as a Red Thread</h3>
+        <p class="vb-intro"><strong>a) A late limitation after a long life:</strong>
+        The eye disease began only in 2007, at 103, and led to complete blindness in 2009. Heesters thus lived almost a century without serious limitation of his sight.</p>
+        <p class="vb-intro"><strong>b) Playing on without sight:</strong>
+        For a person whose profession consisted of appearance and eye contact, the loss of sight became the greatest conceivable challenge – and he kept playing nevertheless, until his last appearance in the short film &lsquo;Ten&rsquo; in 2011.</p>
+        <p class="vb-intro"><strong>c) Why the eyes of all things?:</strong>
+        For a sexual Seven who lives on fascination and eye contact, the loss of sight can be read as a heightening of the life pattern: he could no longer see the audience but kept playing for it. This interpretation is developed in more detail in this Compass&rsquo;s Psychosomatics Register.</p>
+        <p class="vb-intro"><strong>d) Classification without determinism:</strong>
+        This does not mean that the pattern of the sexual Seven with a Six-wing inevitably leads to blindness – <strong>anyone can get any illness, regardless of subtype.</strong> Macular degeneration and glaucoma are age-associated diseases that occur frequently in people beyond a hundred years; Before 2007 no eye disease is documented for Heesters. The interpretation is one of many possible, not a verdict.</p>
+        <p class="vb-intro" style="margin-bottom:0;"><strong>e) The unconscious fixation as a factor in its own right:</strong>
+        Like most people, Heesters did not consciously know his Enneagram pattern. Without this knowledge his joy in performing met no resistance, and the emergency brake was not pulled in time – a trait that kept him on stage for over a hundred years and did not let him stop even after blindness and a serious fall. Whoever recognises their own pattern can consciously steer against it; whoever does not repeats it until the body sets the limit.</p>
+      </div>
+
+      <div class="vb-section" style="background:rgba(180,120,0,0.07);border-left:3px solid var(--gold);padding:1rem 1.2rem;border-radius:8px;max-width:100%;margin-top:2rem;">
+        <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.75rem;color:var(--ink);">7. Conclusion</h3>
+        <p class="vb-intro" style="margin-bottom:0;">
+        The sexual Seven with a Six-wing is confirmed once more in <strong>Johannes Heesters</strong> in the persistence with which he stayed on stage even without sight and adapted his roles instead of giving them up. The chimpanzee who radiated his charm for decades held this one place, the stage, until the age of 106.</p>
+      </div>
+
+      ${relatedLinks([
+        {route:"krankheitsportraets", label:"All Illness Portraits"},
+        {route:"beruehmte-johannes-heesters", label:"Portrait: Johannes Heesters (SX7w6) – Life&rsquo;s Work"},
+        {route:"krankheitsportraets-franz-liszt", label:"Franz Liszt (SX7w8) – Illness Portrait"},
+        {route:"krankheitsportraets-morgan-freeman", label:"Morgan Freeman (SX7w6) – Illness Portrait"},
+        {route:"psychosomatik", label:"Psychosomatics Register"},
+        {route:"subtype/sx7", label:"Subtype Profile SX7"},
+      ])}
+    </div>
+  `);
+}

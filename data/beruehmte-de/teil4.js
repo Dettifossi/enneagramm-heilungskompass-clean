@@ -2822,6 +2822,7 @@ export function rudiCarrellPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"krankheitsportraets-rudi-carrell", label:"Krankheitsporträt: Rudi Carrell – Lungenkrebs und Humor"},
         {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
         {route:"beruehmte-johannes-heesters", label:"Porträt: Johannes Heesters (SX7w6)"},
         {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
