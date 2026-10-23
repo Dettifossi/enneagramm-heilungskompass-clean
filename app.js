@@ -61743,10 +61743,10 @@ function yogiTeeKompassPage() {
   const nr = parseInt((state.route.split("/")[1] || "")) || 0;
   const tee = id => Y.tees.find(t => t.id === id);
   const az = q => "https://www.amazon.de/s?k=" + encodeURIComponent(q) + "&tag=enneagrammkom-21";
-  const kauf = t => `<a href="${t.link || az(t.such)}" target="_blank" rel="noopener sponsored" style="display:inline-block;font-size:.82rem;font-weight:600;color:var(--copper);border:1px solid var(--line);border-radius:6px;padding:.3rem .7rem;text-decoration:none;">Bei Amazon ansehen (Werbelink)</a>`;
+  const kauf = t => `<a href="${t.link || az(t.ean)}" target="_blank" rel="noopener sponsored" style="display:inline-block;font-size:.82rem;font-weight:600;color:var(--copper);border:1px solid var(--line);border-radius:6px;padding:.3rem .7rem;text-decoration:none;">Bei Amazon ansehen (Werbelink)</a>`;
   const karte = (t, warum) => `<div style="border:1px solid var(--line);border-radius:12px;padding:.9rem 1rem;background:var(--paper);">
       <div style="font-weight:700;color:var(--ink);">${t.name}</div>
-      <div style="font-size:.78rem;color:var(--muted);margin:.15rem 0 .5rem;">${Y.fam[t.fam]} &middot; ${t.zutaten.slice(0, 5).join(", ")}</div>
+      <div style="font-size:.78rem;color:var(--muted);margin:.15rem 0 .5rem;">${Y.fam[t.fam]} &middot; ${t.zutaten.slice(0, 5).join(", ")}${t.kof ? " &middot; " + Y.ui.kof : ""}${t.lim ? " &middot; " + Y.ui.lim : ""}</div>
       ${warum ? `<p style="font-size:.9rem;line-height:1.6;margin:0 0 .6rem;">${warum}</p>` : ""}
       ${kauf(t)}
     </div>`;
@@ -61754,7 +61754,7 @@ function yogiTeeKompassPage() {
   const h2 = txt => `<h2 style="font-size:1.1rem;font-weight:700;margin:2rem 0 .6rem;color:var(--ink);">${txt}</h2>`;
   const hinweis = `<div style="margin:1.5rem 0 0;padding:1rem 1.2rem;background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:10px;font-size:.84rem;line-height:1.65;color:var(--ink);">
       <p style="margin:0 0 .5rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;font-size:.78rem;">Wichtige Hinweise</p>
-      <p style="margin:0 0 .5rem;">Genuss und Ritual, keine Heilaussage: Dieser Kompass ist eine Anregung, welche Teemischung zur eigenen Art passen kann. Er ersetzt weder ärztliche oder heilpraktische Beratung noch eine Behandlung.</p><p style="margin:0 0 .5rem;">Süßholz steckt in vielen Sorten, bei hohem Blutdruck nicht in größeren Mengen trinken. Schwarztee, Grüntee, Weißer Tee, Mate und Guarana enthalten Koffein. In Schwangerschaft und Stillzeit, bei Medikamenten oder Beschwerden vorher Arzt oder Apotheker fragen, das gilt vor allem bei Baldrian, Echinacea, Salbei und Süßholz.</p><p style="margin:0;">Yogi Tea® ist eine Marke der Yogi Tea GmbH. Dies ist eine unabhängige Empfehlung ohne Verbindung zur Marke. Die Links sind Werbelinks (Amazon-Partnerprogramm). Zutaten laut Händlerangaben, Stand Oktober 2026: Rezepturen und Namen können sich ändern, verbindlich ist die Packung. In anderen Ländern heißen Sorten anders, so entspricht zum Beispiel Abendtee dem englischen Bedtime und Ingwer Orange Vanille dem Ginger Orange.</p></div>`;
+      <p style="margin:0 0 .5rem;">Genuss und Ritual, keine Heilaussage: Dieser Kompass ist eine Anregung, welche Teemischung zur eigenen Art passen kann. Er ersetzt weder ärztliche oder heilpraktische Beratung noch eine Behandlung.</p><p style="margin:0 0 .5rem;">Süßholz steckt in vielen Sorten, bei hohem Blutdruck nicht in größeren Mengen trinken. Schwarztee, Grüntee, Weißer Tee, Mate und Guarana enthalten Koffein. In Schwangerschaft und Stillzeit, bei Medikamenten oder Beschwerden vorher Arzt oder Apotheker fragen, das gilt vor allem bei Baldrian, Echinacea, Salbei und Süßholz.</p><p style="margin:0;">Yogi Tea® ist eine Marke der Yogi Tea GmbH. Dies ist eine unabhängige Empfehlung ohne Verbindung zur Marke. Die Links sind Werbelinks (Amazon-Partnerprogramm). Sorten und Zutaten laut Hersteller (yogi-life.com), Stand Oktober 2026: Rezepturen und Namen können sich ändern, verbindlich ist die Packung. In anderen Ländern heißen Sorten anders, so entspricht zum Beispiel Abendtee dem englischen Bedtime und Ingwer Orange Vanille dem Ginger Orange.</p></div>`;
   let body = "";
   if (nr >= 1 && nr <= 9) {
     const T = Y.typen[nr];
@@ -61779,13 +61779,13 @@ function yogiTeeKompassPage() {
     }).join("")}</div>`;
   }
   const alle = Y.tees.slice().sort((a, b) => a.name.localeCompare(b.name, "de"));
-  body += `<details style="margin:2.2rem 0 0;"><summary style="cursor:pointer;font-weight:700;color:var(--ink);">Alle Sorten im Überblick (${alle.length})</summary><ul style="list-style:none;padding:0;margin:.8rem 0 0;font-size:.86rem;line-height:1.6;">${alle.map(t => `<li style="padding:.5rem 0;border-bottom:1px solid var(--line);"><strong>${t.name}</strong> <span style="color:var(--muted);">&middot; ${Y.fam[t.fam]}</span><br><span style="color:var(--muted);">${t.zutaten.join(", ")}</span><br>${kauf(t)}</li>`).join("")}</ul></details>`;
+  body += `<details style="margin:2.2rem 0 0;"><summary style="cursor:pointer;font-weight:700;color:var(--ink);">Alle Sorten im Überblick (${alle.length})</summary><ul style="list-style:none;padding:0;margin:.8rem 0 0;font-size:.86rem;line-height:1.6;">${alle.map(t => `<li style="padding:.5rem 0;border-bottom:1px solid var(--line);"><strong>${t.name}</strong> <span style="color:var(--muted);">&middot; ${Y.fam[t.fam]}${t.kof ? " &middot; " + Y.ui.kof : ""}${t.lim ? " &middot; " + Y.ui.lim : ""}</span><br><span style="color:var(--muted);">${t.zutaten.join(", ")}</span><br>${kauf(t)}</li>`).join("")}</ul></details>`;
   return shell(`
     ${pageHeader("tee-enneagramm")}
     <section class="narrow">
       <p class="eyebrow">Wissen &middot; Tee &amp; Enneagramm</p>
       <h1>Der Yogi-Tee-Kompass</h1>
-      ${nr ? "" : `<p class="lead-small">Yogi Tea gibt es in über 50 Mischungen. Welche passt zu deinem Enneagrammtyp, welche zu deinem Subtyp? Der Kompass führt vom Typ über das passende Heilkraut zu konkreten Sorten.</p>
+      ${nr ? "" : `<p class="lead-small">Yogi Tea gibt es in rund 65 Mischungen. Welche passt zu deinem Enneagrammtyp, welche zu deinem Subtyp? Der Kompass führt vom Typ über das passende Heilkraut zu konkreten Sorten.</p>
       <div class="psycho-img-wrap" style="margin-top:1.2rem;">
         <img src="${R2_CDN}assets/schaubilder/yogi-tee/yogi-tee-hero.jpg" alt="Dampfende Teetasse mit Untertasse im Gegenlicht" class="psycho-img" loading="lazy" onerror="this.parentElement.style.display='none'" />
       </div>
