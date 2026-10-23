@@ -2213,6 +2213,7 @@ export function horstLichterPortraitPage() {
         {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
         {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
         {route:"beruehmte-johann-lafer", label:"Porträt: Johann Lafer (SE7w8) – TV-Partner bei ›Lafer! Lichter! Lecker!‹"},
+        {route:"beruehmte-volker-rosin", label:"Porträt: Volker Rosin (SX7w6)"},
       ])}
     </div>
   `);

@@ -2065,6 +2065,7 @@ export function jerryLewisPortraitPage() {
         {route:"beruehmte-adriano-celentano", label:"Portrait: Adriano Celentano (SX7w8)"},
         {route:"beruehmte-allie-sherlock", label:"Portrait: Allie Sherlock (SX7w6)"},
         {route:"beruehmte-horst-lichter", label:"Portrait: Horst Lichter (SX7w6)"},
+        {route:"beruehmte-volker-rosin", label:"Portrait: Volker Rosin (SX7w6)"},
       ])}
     </div>
   `);

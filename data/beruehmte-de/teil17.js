@@ -2809,3 +2809,75 @@ export function kevinKuehnertPortraitPage() {
     </div>
   `);
 }
+
+export function volkerRosinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-volker-rosin-portrait.jpg" alt="Volker Rosin – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-volker-rosin-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Volker Rosin</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Kinderliedermacher, geb. 1956 &ndash; Der König der Kinderdisco &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse: der Junge, der Gitarre spielen wollte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist beweglich, verspielt und mitten im Rudel. Volker Rosin wurde am 25. Februar 1956 in Rheinkamp geboren und zog 1969 mit dreizehn nach Minden. Er kam aus einfachen Verhältnissen: ›Als Arbeiterkind komme ich von ganz unten‹, sagt er. In der Schule galt er als Außenseiter, weil er täglich weit pendeln musste. Mit vierzehn lernte er sich Gitarre selbst bei und übte, bis die Finger wund waren. Seinen Antrieb beschreibt er mit einem Augenzwinkern: ›Ich wollte unbedingt Gitarre spielen, denn Gitarristen bekommen die besten Mädchen ab.‹</p>
+          <p class="vb-intro">Er trat mit eigenen Songs und Protestliedern auf. Einmal endete ein Auftritt in einer Diskothek nach einer halben Stunde, er wurde für den Abbruch bezahlt: ›Das war die größte Pleite meines Lebens.‹</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Begeisterung, die sofort zur Sache geht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sieben sucht Erlebnisse und mag, was Spaß macht. Die <strong>sexuelle Sieben (SX7)</strong> nannte Claudio Naranjo den Subtyp der ›Suggestibility‹ (Beeinflussbarkeit durch Faszination): Sie lässt sich von einer Sache entzünden und geht mit ganzer Intensität hinein. Bei Rosin kam die Zündung im Kindergarten. Er arbeitete dort nach einer Ausbildung zum Erzieher (nach einem Zeitungsbericht als erster männlicher Erzieher Deutschlands) und merkte: ›Dabei habe ich festgestellt, dass es ja nicht nur die alten Kinderlieder gibt, sondern auch neue.‹ Das habe ihn motiviert, selbst neue Lieder zu schreiben.</p>
+          <p class="vb-intro">1978 musste er wegen einer Netzhautablösung sechs Wochen im Krankenhaus bleiben. Dort entschied er sich, als Kinderliedermacher selbstständig zu werden, und rief Kindergärten im Umkreis von hundert Kilometern an. Sein Erfolgsrezept sieht er darin, dass ›noch viel Kind in mir steckt‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Kinder ernst nehmen, Gemeinschaft stiften</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Loyalität und das Bedürfnis nach einem verlässlichen Gegenüber. Eine Sieben mit schwächer ausgeprägtem Sechserflügel hätte sich vielleicht in immer neue Projekte gestürzt; Rosin bleibt seit fast vierzig Jahren bei derselben Zielgruppe. Er studierte Sozialwesen an der Fachhochschule Kiel und schloss 1984 als Diplom-Sozialpädagoge ab. Sein Publikum nimmt er ernst: ›Kinder sind das ehrlichste Publikum der Welt, sie sind sehr spontan.‹ ›Kinder merken, dass ich ihr Freund bin.‹ ›Kinder haben es verdient, dass sie abwechslungsreiche Musik hören.‹</p>
+          <p class="vb-intro">Die Gemeinschaft stiftet er über Mitmachen: ›Ich biete ihnen etwas an: Mitklatschen, mitsingen, mitspringen, mitschunkeln, mit Party machen.‹ Seit 2000 unterstützt er über das Projekt ›Ein kleines Herz‹ herzkranke Kinder, er war Mitgründer des Deutschen Kita-Musikpreises (2011), und eine Düsseldorfer Grundschule wurde 2010 in ›Volker Rosin Schule‹ umbenannt. Er beschreibt sich als bodenständig und familienorientiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Lieder, die zum Bewegen gemacht sind</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rosins Handschrift ist die Bewegung: ›Es war eigentlich von Anfang an bei mir so, dass ich den Bewegungscharakter in den Vordergrund gestellt habe.‹ Seine Lieder, etwa ›Das singende Känguru‹, ›Der Gorilla mit der Sonnenbrille‹, ›Hoppelhase Hans‹ und ›Das Lied über mich‹, haben einfache Texte, eingängige Melodien und Bewegungen zum Nachmachen. 1980 erschien sein erstes Liederbuch, 1982 gründete er in Düsseldorf sein eigenes Label Moon Records, weil keine Plattenfirma seine Musik veröffentlichen wollte.</p>
+          <p class="vb-intro">Er hat über 35 Alben veröffentlicht, je nach Quelle mehr als drei bis über fünf Millionen Tonträger verkauft und eine halbe Million Spiel- und Liederbücher. Seit 2005 läuft im Kinderkanal KiKA die Sendung ›Tanzalarm‹, die er mitkonzipierte. Sein Album ›Der blaue Hund will tanzen‹ verbindet bekannte Jazz- und Swingmelodien mit Kinderliedern.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Lewis, Lichter und Gottschalk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-jerry-lewis">Jerry Lewis (SX7w6)</a> warf sich in den Moment mit dem Publikum und war über vierzig Jahre das Gesicht einer Wohltätigkeitssendung für Kinder; Rosin sammelt für herzkranke Kinder und lebt von der Verschmelzung mit seinem Publikum. <a href="#beruehmte-horst-lichter">Horst Lichter (SX7w6)</a> begeistert sich sofort für fast jeden Menschen und bleibt dabei bodenständig, wie Rosin. <a href="#beruehmte-thomas-gottschalk">Thomas Gottschalk (SX7w6)</a> ist wie Rosin der Entertainer, der den Funken auf sein Publikum überspringen lässt.</p>
+          <p class="vb-intro">Der Unterschied: Gottschalk und Lichter wenden sich an Erwachsene und stehen dabei oft im Mittelpunkt; Rosin überlässt seinem Publikum die Bewegung: Die Kinder sind der Star der Show.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt im Humor und in der Ehrlichkeit, mit der er den Weg beschreibt: von den ersten Absagen der Plattenfirmen über die ›größte Pleite‹ bis zu einer eigenen Schule mit seinem Namen. Sein Optimismus zeigt sich in dem Satz ›Ich bin gesund, ich bin positiv denkend‹ und in der Vorfreude zum 65. Geburtstag: ›Ich freue mich auf die nächsten 65 Jahre.‹</p>
+          <p class="vb-intro">Der Schatten der Sieben liegt darin, dass die Bühne zur Lebensgrundlage wird. Er knüpft die Zukunft ausdrücklich an Bedingungen: ›solange ich gesund bin, solange ich authentisch bin, solange die Kinder mich auch ernst nehmen‹. Scherzhaft sagte er einmal, er werde vielleicht ›der Johannes Heesters der Kinderliedermacher‹, in Anspielung auf den Sänger und Schauspieler, der bis ins hohe Alter auf der Bühne stand.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Kinderliedermacher, 70 Jahre alt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 23. Oktober 2026) ist Volker Rosin 70 Jahre alt und weiterhin als Kinderliedermacher aktiv. Er sagt: ›Ich habe noch sehr viel vor, ich will natürlich noch weitermachen.‹</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
+        {route:"beruehmte-horst-lichter", label:"Porträt: Horst Lichter (SX7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+      ])}
+    </div>
+  `);
+}

@@ -2721,3 +2721,75 @@ export function geraldHoerhanPortraitPage() {
     </div>
   `);
 }
+
+export function volkerRosinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-volker-rosin-portrait.jpg" alt="Volker Rosin – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-volker-rosin-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Volker Rosin</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with a Six-wing</p>
+        <p class="krim-portrait-subtitle">German children&rsquo;s songwriter, b. 1956 &ndash; King of the Kids&rsquo; Disco &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee: the boy who wanted to play guitar</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> is agile, playful and in the middle of the troop. Volker Rosin was born on 25 February 1956 in Rheinkamp and moved at thirteen to Minden in 1969. He came from modest circumstances: &lsquo;As a working-class child I come from the very bottom&rsquo;, he says. At school he was an outsider because he had to commute far every day. At fourteen he taught himself guitar and practised until his fingers were sore. He describes his drive with a wink: &lsquo;I absolutely wanted to play guitar, because guitarists get the best girls.&rsquo;</p>
+          <p class="vb-intro">He performed his own songs and protest songs. Once a performance in a discotheque ended after half an hour and he was paid for stopping: &lsquo;That was the biggest flop of my life.&rsquo;</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: enthusiasm that gets straight to the point</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven seeks experiences and likes what is fun. Claudio Naranjo called the <strong>sexual Seven (SX7)</strong> the subtype of &lsquo;suggestibility&rsquo; (being swayed by fascination): it is kindled by a cause and goes in with full intensity. In Rosin the spark came in the kindergarten. He worked there after training as an educator (according to a newspaper report as the first male kindergarten teacher in Germany) and noticed: &lsquo;I found that there are not only the old children&rsquo;s songs but new ones too.&rsquo; That motivated him to write new songs himself.</p>
+          <p class="vb-intro">In 1978 he had to stay six weeks in hospital because of a detached retina. There he decided to become self-employed as a children&rsquo;s songwriter and phoned kindergartens within a hundred kilometres. He sees his recipe for success in that &lsquo;there is still a lot of child in me&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: taking children seriously, creating community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven loyalty and the need for a reliable counterpart. A Seven with a weaker Six-wing might have thrown himself into ever new projects; Rosin has stayed with the same target group for almost forty years. He studied social work at the University of Applied Sciences in Kiel and graduated in 1984 as a certified social pedagogue. He takes his audience seriously: &lsquo;Children are the most honest audience in the world, they are very spontaneous.&rsquo; &lsquo;Children notice that I am their friend.&rsquo; &lsquo;Children deserve to hear varied music.&rsquo;</p>
+          <p class="vb-intro">He creates community through joining in: &lsquo;I offer them something: clapping along, singing along, jumping along, swaying along, partying along.&rsquo; Since 2000 he has supported children with heart disease through the project &lsquo;Ein kleines Herz&rsquo; (&lsquo;A Little Heart&rsquo;), he was co-founder of the Deutscher Kita-Musikpreis (2011), and a Düsseldorf primary school was renamed &lsquo;Volker Rosin Schule&rsquo; in 2010. He describes himself as down-to-earth and family-oriented.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: songs made for moving</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Rosin&rsquo;s signature is movement: &lsquo;From the beginning it was actually so with me that I put the movement character in the foreground.&rsquo; His songs, such as &lsquo;Das singende Känguru&rsquo; (&lsquo;The Singing Kangaroo&rsquo;), &lsquo;Der Gorilla mit der Sonnenbrille&rsquo; (&lsquo;The Gorilla with the Sunglasses&rsquo;), &lsquo;Hoppelhase Hans&rsquo; (&lsquo;Hopping Hare Hans&rsquo;) and &lsquo;Das Lied über mich&rsquo; (&lsquo;The Song About Me&rsquo;), have simple lyrics, catchy melodies and movements to copy. In 1980 his first songbook appeared, in 1982 he founded his own label Moon Records in Düsseldorf, because no record company wanted to release his music.</p>
+          <p class="vb-intro">He has released more than 35 albums, sold, depending on the source, between more than three and over five million recordings and half a million play and songbooks. Since 2005 the children&rsquo;s channel KiKA has aired the show &lsquo;Tanzalarm&rsquo; (&lsquo;Dance Alarm&rsquo;), which he co-conceived. His album &lsquo;Der blaue Hund will tanzen&rsquo; (&lsquo;The Blue Dog Wants to Dance&rsquo;) combines well-known jazz and swing melodies with children&rsquo;s songs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Lewis, Lichter and Gottschalk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-jerry-lewis">Jerry Lewis (SX7w6)</a> threw himself into the moment with the audience and was for over forty years the face of a charity telethon for children; Rosin collects for children with heart disease and lives from the fusion with his audience. <a href="#beruehmte-horst-lichter">Horst Lichter (SX7w6)</a> is at once enthusiastic about almost every person and stays down-to-earth, like Rosin. <a href="#beruehmte-thomas-gottschalk">Thomas Gottschalk (SX7w6)</a> is, like Rosin, the entertainer who lets the spark jump to his audience.</p>
+          <p class="vb-intro">The difference: Gottschalk and Lichter address adults and are often the centre; Rosin leaves the movement to his audience: the children are the star of the show.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Seven with a Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the humour and honesty with which he describes the way: from the first rejections by record companies through the &lsquo;biggest flop&rsquo; to a school with his own name. His optimism shows in the sentence &lsquo;I am healthy, I am positive-thinking&rsquo; and in the anticipation on his 65th birthday: &lsquo;I look forward to the next 65 years.&rsquo;</p>
+          <p class="vb-intro">The shadow of the Seven lies in the stage becoming the basis of life. He ties the future explicitly to conditions: &lsquo;as long as I am healthy, as long as I am authentic, as long as the children also take me seriously&rsquo;. Jokingly he once said he might become &lsquo;the Johannes Heesters of children&rsquo;s songwriters&rsquo;, alluding to the singer and actor who stood on stage into very old age.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: children&rsquo;s songwriter, 70 years old</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 23 October 2026) Volker Rosin is 70 years old and still active as a children&rsquo;s songwriter. He says: &lsquo;I still have a lot planned, of course I want to keep going.&rsquo;</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
+        {route:"beruehmte-horst-lichter", label:"Porträt: Horst Lichter (SX7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+      ])}
+    </div>
+  `);
+}
