@@ -2816,3 +2816,76 @@ export function johannesHeestersPortraitPage() {
     </div>
   `);
 }
+
+
+export function lanceOppenheimPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lance-oppenheim-portrait.jpg" alt="Lance Oppenheim – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-lance-oppenheim-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Lance Oppenheim</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Sozialer Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Dokumentarfilmer, geb. 1996 &ndash; Tierentsprechung: Biber</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Biber: der Junge aus Weston, Florida</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Biber</strong> baut für die Gemeinschaft und schaut dabei, dass alles hält. Lance Oppenheim wurde am 26. Januar 1996 in Hollywood, Florida, geboren und wuchs in Weston, Florida, auf. Er stammt aus einer jüdischen Familie, beide Eltern sind Immobilienanwälte. Von 2010 bis 2014 besuchte er die Pine Crest School.</p>
+          <p class="vb-intro">Schon in der Schulzeit drehte er mehrere kurze Dokumentarfilme. Der Film ›Quicksand‹ wurde landesweit vom Sender PBS gezeigt. 2019 schloss er an der Harvard University mit einem Bachelor in Visual and Environmental Studies ab und studierte dort bei Ross McElwee, Robb Moss und Guy Maddin. Drei seiner Kurzfilme aus der Studienzeit erwarb die ›New York Times‹ für ihre Reihe Op-Docs, und ›The Happiest Guy in the World‹ feierte 2018 beim Tribeca Festival Premiere.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sieben: der Blick auf die Gemeinschaft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sieben flieht vor dem Schmerz in die Begeisterung, und Claudio Naranjo beschrieb die <strong>soziale Sieben (SO7)</strong> als den Subtyp des Opfers: Der Spaß tritt hinter die Sache zurück, und die Sieben stellt ihr Talent in den Dienst einer Gruppe. Bei Oppenheim zeigt sich das darin, dass er seine Kamera auf Gemeinschaften richtet. Sein Debüt ›Some Kind of Heaven‹ (2020) begleitet Bewohner von The Villages, einer riesigen Seniorensiedlung in Florida. Der Film entstand als Abschlussarbeit an der Harvard University, wurde von Darren Aronofsky und der ›New York Times‹ produziert, feierte beim Sundance Festival Premiere und wurde von Magnolia Pictures gekauft.</p>
+          <p class="vb-intro">Danach folgten weitere Filme über Gruppen: ›Spermworld‹ (2024, Premiere beim Festival True/False, später bei FX, Disney+ und Hulu) und die HBO-Serie ›Ren Faire‹ (2024, Premiere bei SXSW) über das Texas Renaissance Festival. 2023 stand er auf der Forbes-Liste ›30 Under 30‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Zusammenarbeit und Treue zur Sache</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Loyalität, Teamgeist und das Bedürfnis nach verlässlichen Partnern. Bei Oppenheim zeigt er sich in der Art, wie er arbeitet: mit Produzenten und Mitarbeitern wie Darren Aronofsky, mit der Produktionsfirma Elara Pictures bei ›Ren Faire‹ und 2026 mit Nathan Fielder als Co-Regisseur von ›You Can See Everything‹, einem Film über Elizabeth Holmes. 2025 war er außerdem Produzent von ›The Python Hunt‹, bei dem Xander Robin Regie führte.</p>
+          <p class="vb-intro">Der Kerntyp Sieben ist neugierig und beweglich, der Sechserflügel sorgt dafür, dass er in Teams verlässlich bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Wirklichkeit mit Form</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Wikipedia-Seite beschreibt seine Arbeit so, dass sie ›nonfiction storytelling with heightened, cinematic formalism‹ verbinde – dokumentarisches Erzählen mit gesteigerter, filmischer Gestaltung. Er filmt reale Menschen und Orte, aber mit einem Blick für Bildkomposition, Ausschnitt und Stimmung, der über reine Beobachtung hinausgeht. Dazu passt der Weg zum Erzählfilm: Sein erster narrativer Spielfilm heißt ›Primetime‹ (2026, mit Robert Pattinson als Chris Hansen), und er inszenierte das Musikvideo ›Lost Boys‹ für Phoebe Bridgers.</p>
+          <p class="vb-intro">Eine Anekdote zeigt die Beharrlichkeit hinter der Leichtigkeit: Die ›New York Times‹ lehnte seine ersten Vorschläge noch freundlich ab, und er kam trotzdem wieder, bis sie drei seiner Kurzfilme erwarb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Josh Safdie und Philippe Sands</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auch unter den SO7w6ern dieses Kompasses stehen Menschen, die Geschichten über Gruppen und Systeme erzählen. <a href="#beruehmte-josh-safdie">Josh Safdie (SO7w6)</a> ist wie Oppenheim Filmemacher. <a href="#beruehmte-philippe-sands">Philippe Sands (SO7w6)</a> verfolgt als Jurist und Autor die Geschichten hinter großen Ereignissen und stellt seine Neugier in den Dienst der Gerechtigkeit.</p>
+          <p class="vb-intro">Der Unterschied: Oppenheim bleibt mit seiner Kamera nah an Gemeinschaften, Safdie erzählt fiktional, Sands schreibt Bücher. Die Gemeinsamkeit: Die Sieben stellt ihre Beweglichkeit in den Dienst einer Geschichte, die größer ist als sie selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Neugier, in der Beweglichkeit und in der Bereitschaft, anderen die Bühne zu überlassen. Wer Seniorensiedlungen, Spendergemeinschaften und Mittelalterfeste mit gleicher Aufmerksamkeit filmt, zeigt Interesse an Menschen und nicht nur an Effekten.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Gefahr, sich in immer neuen Projekten zu verteilen und nie bei einem zu bleiben. Wer als Dreißigjähriger bereits zwei Serien, einen Dokumentarfilm, eine Co-Regie und einen Spielfilm im Gepäck hat, muss darauf achten, dass die Tiefe mit der Breite mithält.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: vom Dokumentarfilm zum Spielfilm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Lance Oppenheim 30 Jahre alt, seit 2025 mit Abigail Rowe verheiratet und hat ein Kind. Mit ›Primetime‹ und ›You Can See Everything‹ (beide 2026) wechselt er zwischen Spielfilm und Dokumentarfilm.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so7", label:"Lebensmusterkompass: SO7 – Biber"},
+        {route:"beruehmte-josh-safdie", label:"Porträt: Josh Safdie (SO7w6)"},
+        {route:"beruehmte-philippe-sands", label:"Porträt: Philippe Sands (SO7w6)"},
+        {route:"beruehmte-sigourney-weaver", label:"Porträt: Sigourney Weaver (SO7w6)"},
+      ])}
+    </div>
+  `);
+}

@@ -2345,6 +2345,7 @@ export function sigourneyWeaverPortraitPage() {
         {route:"beruehmte-ali-wong", label:"Portrait: Ali Wong (SO7w6)"},
         {route:"beruehmte-carolin-kebekus", label:"Portrait: Carolin Kebekus (SO7w6)"},
         {route:"beruehmte-henry-shukman", label:"Portrait: Henry Shukman (SO7w6)"},
+        {route:"beruehmte-lance-oppenheim", label:"Portrait: Lance Oppenheim (SO7w6)"},
       ])}
     </div>
   `);

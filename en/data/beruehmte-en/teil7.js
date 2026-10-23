@@ -2255,6 +2255,7 @@ export function joshSafdiePortraitPage() {
         {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
         {route:"beruehmte-benny-safdie", label:"Portrait: Benny Safdie (SO4w5) – the brother Josh co-directed with for over a decade"},
         {route:"kriminalpsychologie-frank-abagnale-jr", label:"Criminal psychology portrait: Frank Abagnale Jr. (SO7w6)"},
+        {route:"beruehmte-lance-oppenheim", label:"Portrait: Lance Oppenheim (SO7w6)"},
       ])}
     </div>
   `);

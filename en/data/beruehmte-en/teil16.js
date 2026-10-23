@@ -2990,6 +2990,7 @@ export function philippeSandsPortraitPage() {
         {route:"beruehmte-gregor-gysi", label:"Portrait: Gregor Gysi (SO7w6) – advocate for the uncomfortable"},
         {route:"beruehmte-christian-drosten", label:"Portrait: Christian Drosten (SO7w6)"},
         {route:"beruehmte-caroline-wozniacki", label:"Portrait: Caroline Wozniacki (SO7w6)"},
+        {route:"beruehmte-lance-oppenheim", label:"Portrait: Lance Oppenheim (SO7w6)"},
       ])}
     </div>
   `);

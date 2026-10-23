@@ -2814,3 +2814,76 @@ export function naomiCampbellPortraitPage() {
     </div>
   `);
 }
+
+
+export function lanceOppenheimPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-lance-oppenheim-portrait.jpg" alt="Lance Oppenheim – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-lance-oppenheim-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Lance Oppenheim</p>
+        <p class="krim-portrait-typ">SO7w6 &middot; Social Type 7 with Six-wing</p>
+        <p class="krim-portrait-subtitle">American documentary filmmaker, b. 1996 &ndash; Animal correspondence: Beaver</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Beaver: the boy from Weston, Florida</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>beaver</strong> builds for the community and makes sure everything holds. Lance Oppenheim was born on 26 January 1996 in Hollywood, Florida, and grew up in Weston, Florida. He comes from a Jewish family, both parents are real estate attorneys. From 2010 to 2014 he attended Pine Crest School.</p>
+          <p class="vb-intro">Even in school he made several short documentaries. The film &lsquo;Quicksand&rsquo; was distributed nationwide by PBS. In 2019 he graduated from Harvard University with a bachelor&rsquo;s degree in Visual and Environmental Studies, studying with Ross McElwee, Robb Moss and Guy Maddin. Three of his short films from college were acquired by the &lsquo;New York Times&rsquo; for its Op-Docs series, and &lsquo;The Happiest Guy in the World&rsquo; premiered at the Tribeca Festival in 2018.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social Seven: the view on the community</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven flees pain into enthusiasm, and Claudio Naranjo described the <strong>social Seven (SO7)</strong> as the subtype of sacrifice: the fun steps back behind the cause, and the Seven puts their talent at the service of a group. In Oppenheim this shows in his pointing the camera at communities. His debut &lsquo;Some Kind of Heaven&rsquo; (2020) follows residents of The Villages, a huge retirement community in Florida. The film began as his senior thesis at Harvard University, was produced by Darren Aronofsky and the &lsquo;New York Times&rsquo;, premiered at the Sundance Festival and was acquired by Magnolia Pictures.</p>
+          <p class="vb-intro">More films about groups followed: &lsquo;Spermworld&rsquo; (2024, premiered at the True/False festival, later on FX, Disney+ and Hulu) and the HBO series &lsquo;Ren Faire&rsquo; (2024, premiered at SXSW) about the Texas Renaissance Festival. In 2023 he was on the Forbes &lsquo;30 Under 30&rsquo; list.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: collaboration and loyalty to the cause</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven loyalty, team spirit and the need for reliable partners. In Oppenheim it shows in the way he works: with producers and collaborators such as Darren Aronofsky, with the production company Elara Pictures on &lsquo;Ren Faire&rsquo; and in 2026 with Nathan Fielder as co-director of &lsquo;You Can See Everything&rsquo;, a film about Elizabeth Holmes. In 2025 he was also a producer of &lsquo;The Python Hunt&rsquo;, directed by Xander Robin.</p>
+          <p class="vb-intro">The core type Seven is curious and mobile, the Six-wing makes sure he stays reliable in teams.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: reality with form</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Wikipedia page describes his work as one that &lsquo;blends nonfiction storytelling with heightened, cinematic formalism&rsquo;. He films real people and places, but with an eye for composition, framing and mood that goes beyond pure observation. The move to narrative film fits this: his first narrative feature is &lsquo;Primetime&rsquo; (2026, with Robert Pattinson as Chris Hansen), and he directed the music video &lsquo;Lost Boys&rsquo; for Phoebe Bridgers.</p>
+          <p class="vb-intro">An anecdote shows the persistence behind the lightness: the &lsquo;New York Times&rsquo; at first politely rejected his pitches, and he came back anyway until it acquired three of his short films.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Josh Safdie and Philippe Sands</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SO7w6s in this Compass are also people who tell stories about groups and systems. <a href="#beruehmte-josh-safdie">Josh Safdie (SO7w6)</a> is, like Oppenheim, a filmmaker. <a href="#beruehmte-philippe-sands">Philippe Sands (SO7w6)</a> follows, as a lawyer and author, the stories behind great events and puts his curiosity at the service of justice.</p>
+          <p class="vb-intro">The difference: Oppenheim stays close to communities with his camera, Safdie tells fiction, Sands writes books. What they share: the Seven puts their mobility at the service of a story that is greater than themselves.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social Seven with a Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in curiosity, mobility and the readiness to leave the stage to others. Someone who films retirement communities, donor communities and medieval festivals with the same attention shows interest in people and not only in effects.</p>
+          <p class="vb-intro">The shadow of this combination is the danger of spreading oneself across ever new projects and never staying with one. Someone who at thirty already has two series, a documentary, a co-directed film and a feature to their name has to watch that depth keeps pace with breadth.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: from documentary to feature film</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 24 October 2026) Lance Oppenheim is 30 years old, has been married to Abigail Rowe since 2025 and has a child. With &lsquo;Primetime&rsquo; and &lsquo;You Can See Everything&rsquo; (both 2026) he moves between feature film and documentary.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so7", label:"SO7 – The Beaver: Subtype Profile"},
+        {route:"lebensmusterkompass/so7", label:"Life Pattern Compass: SO7 – Beaver"},
+        {route:"beruehmte-josh-safdie", label:"Portrait: Josh Safdie (SO7w6)"},
+        {route:"beruehmte-philippe-sands", label:"Portrait: Philippe Sands (SO7w6)"},
+        {route:"beruehmte-sigourney-weaver", label:"Portrait: Sigourney Weaver (SO7w6)"},
+      ])}
+    </div>
+  `);
+}

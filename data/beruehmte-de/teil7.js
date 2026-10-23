@@ -2271,6 +2271,7 @@ export function joshSafdiePortraitPage() {
         {route:"subtype/so7", label:"SO7 – Der Biber: Subtyp-Profil"},
         {route:"beruehmte-benny-safdie", label:"Porträt: Benny Safdie (SO4w5) – der Bruder, mit dem Josh über ein Jahrzehnt gemeinsam Regie führte"},
         {route:"kriminalpsychologie-frank-abagnale-jr", label:"Kriminalporträt: Frank Abagnale Jr. (SO7w6)"},
+        {route:"beruehmte-lance-oppenheim", label:"Porträt: Lance Oppenheim (SO7w6)"},
       ])}
     </div>
   `);
