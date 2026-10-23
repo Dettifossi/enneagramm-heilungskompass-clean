@@ -2702,3 +2702,82 @@ export function thomasSchmelzerPortraitPage() {
     </div>
   `);
 }
+
+export function johannesHeestersPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-johannes-heesters-portrait.jpg" alt="Johannes Heesters – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-johannes-heesters-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Johannes Heesters</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with a Six-wing</p>
+        <p class="krim-portrait-subtitle">Dutch-German operetta tenor and actor, 1903&ndash;2011 &ndash; Count Danilo &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee: the merchant&rsquo;s son who became a man of the stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> lives in movement, in play and in the troop. Johan Marius Nicolaas Heesters, called Jopi, was born on 5 December 1903 in Amersfoort in the Netherlands, the youngest of four sons of a merchant. After school he began a commercial apprenticeship, at sixteen he decided for the stage and founded his own theatre group. He trained in singing and acting in Amsterdam. He learned German fluently early on after living several years with a German great-uncle from Bavaria.</p>
+          <p class="vb-intro">In the early 1920s he was on stage in Amsterdam, followed by engagements in The Hague, Brussels and Switzerland. First he acted in plays, from 1932 also sang, and moved into operetta (a light musical stage with singing, dance and spoken dialogue).</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: charm, adventure, fascination</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven seeks enjoyment and new impressions and avoids what weighs on one. Claudio Naranjo called the <strong>sexual Seven (SX7)</strong> the subtype of &lsquo;suggestibility&rsquo; (being swayed by fascination): it lets itself be carried by what attracts it and radiates attraction itself. In Heesters both are visible. In 1934 he made his debut at the Vienna Volksoper in Millöcker&rsquo;s &lsquo;Der Bettelstudent&rsquo; (&lsquo;The Beggar Student&rsquo;), in 1936 he went to Berlin and became a star of musical and operetta films for UFA, the big German film company. In 1953 the director Otto Preminger brought him to Hollywood for &lsquo;Die Jungfrau auf dem Dach&rsquo; (&lsquo;The Virgin on the Roof&rsquo;).</p>
+          <p class="vb-intro">His signature role became Count Danilo in Lehár&rsquo;s &lsquo;Die lustige Witwe&rsquo; (&lsquo;The Merry Widow&rsquo;), which he first sang on New Year&rsquo;s Eve 1938 in Munich and then played over 1,600 times, a charming bon vivant courted by women. Looking back on his long life, he said in effect that he would live everything again, it had been a great adventure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: loyalty, framework, adaptation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven loyalty and the need for a carrying framework. A Seven with a weaker Six-wing would roam more freely; Heesters stays loyal to houses, ensembles and people. In 1930 he married the Belgian actress Louisa &lsquo;Wiske&rsquo; Ghijs; the marriage lasted until her death in 1985, and two daughters came from it. In 1992 he married the actress Simone Rethel. He stayed attached to the Vienna Volksoper, which made him an honorary member in 1984.</p>
+          <p class="vb-intro">The Six-wing also includes fitting into orders without questioning them. His own explanation for the years in the German Reich later was that he had not been interested in politics and had tried to protect his family.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the voice of operetta over nine decades</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heesters did not sing in the great opera houses but in operetta and light film, where the audience demands lightness, charm and voice. He was a tenor and stood on stage for around ninety years, about eighty-seven of them in front of the camera. After the war he continued in Vienna, Munich and Berlin, made records (among them &lsquo;Jetzt geh&rsquo; ich ins Maxim&rsquo;, 1965, and &lsquo;Ich werde 100 Jahre alt&rsquo;, &lsquo;I Will Be 100 Years Old&rsquo;, 2003) and stayed present on television and stage into extreme old age.</p>
+          <p class="vb-intro">Ten times he won the Bambi, in 2001 the Platinum Romy for his life&rsquo;s work, in 2003 the Goldene Kamera, in 2004 the honorary title Kammersänger. At 99 he still performed in Stuttgart, at 105 he played God in &lsquo;Jedermann&rsquo; (&lsquo;Everyman&rsquo;). From 2009 he was completely blind through macular degeneration (a disease of the retina). In his memoirs &lsquo;Es kommt auf die Sekunde an&rsquo; (&lsquo;It Comes Down to the Second&rsquo;, 1978) he described his path.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The years 1936 to 1945 and the dispute over Dachau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heesters worked in the German Reich from 1936. Adolf Hitler attended several early performances of Danilo. As far as is known he was neither a member of the Nazi Party nor did he take German citizenship; expressions of sympathy for the regime are not documented, but he also did not explicitly distance himself. In 1944 he was on Joseph Goebbels&rsquo;s &lsquo;Gottbegnadeten&rsquo; list (&lsquo;God-gifted&rsquo;), the list of artists the regime considered especially important. In the Netherlands he was therefore partly regarded as a fellow traveller.</p>
+          <p class="vb-intro">In 1976 a Dutch journalist accused him of having performed in 1941 at the Dachau concentration camp for the SS. Heesters denied a performance, not the visit: in his autobiography he wrote that the camp had looked to the visitors &lsquo;like a typical soldiers&rsquo; camp&rsquo;, and regretted having been used for propaganda as a member of the ensemble. In 2006 he said on television: &lsquo;I swear it on my family &ndash; it is not true!&rsquo; In 2008 a court dismissed his suit against the publicist Volker Kühn without ruling on the truth of the allegation; in 2010 the dispute ended with a settlement. In a Dutch satirical interview in 2008 he called Hitler &lsquo;a good chap&rsquo; who had been &lsquo;nice to me&rsquo; and apologised a few days later on the show &lsquo;Wetten, dass..?&rsquo;. The magazine Stern suspected he had hardly seen through the satire.</p>
+          <p class="vb-intro">This behaviour can be brought into connection with the suggestibility of the sexual Seven: trust in what attracts one, without examining it critically. It explains nothing, excuses nothing and replaces no historical assessment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallel in the same subtype: Lewis, van Tongeren and Rosin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-jerry-lewis">Jerry Lewis (SX7w6)</a> sought the fusion with the audience into old age, like Heesters, who performed until 2011. <a href="#beruehmte-wietske-van-tongeren">Wietske van Tongeren (SX7w6)</a> falls in love with roles and pieces of musical theatre and finds support in the ensemble, like Heesters in operetta. <a href="#beruehmte-volker-rosin">Volker Rosin (SX7w6)</a> said jokingly that he might become &lsquo;the Johannes Heesters of children&rsquo;s songwriters&rsquo;, a nod to this model of a stage life into old age.</p>
+          <p class="vb-intro">The difference: Lewis and Rosin used their stage for children and charity; Heesters stayed with operetta and the charm of the stage figure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Light and shadow of the sexual Seven with a Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in zest for life, humour and the toughness with which he stood on stage across a century. As his secret in December 2010 he named &lsquo;love and passion&rsquo;, with love the age difference did not matter. In 2010 he quit smoking for his wife.</p>
+          <p class="vb-intro">The shadow of the Seven lies in that it prefers not to look at the heavy: politics, the camp, the question of one&rsquo;s own share. The looking away cost him reputation, above all in the Netherlands, and led to decades of dispute.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Status: died on 24 December 2011 in Starnberg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 23 October 2026) Johannes Heesters died on 24 December 2011 in Starnberg at the age of 108 from the consequences of a stroke. He is buried in Munich&rsquo;s Nordfriedhof.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
+        {route:"beruehmte-wietske-van-tongeren", label:"Porträt: Wietske van Tongeren (SX7w6)"},
+        {route:"beruehmte-volker-rosin", label:"Porträt: Volker Rosin (SX7w6)"},
+      ])}
+    </div>
+  `);
+}

@@ -2735,3 +2735,82 @@ export function heikoMaasPortraitPage() {
     </div>
   `);
 }
+
+export function johannesHeestersPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-johannes-heesters-portrait.jpg" alt="Johannes Heesters – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-johannes-heesters-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Johannes Heesters</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Niederländisch-deutscher Operettentenor und Schauspieler, 1903&ndash;2011 &ndash; Graf Danilo &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse: der Kaufmannssohn, der Bühnenmensch wurde</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> lebt in Bewegung, im Spiel und im Rudel. Johan Marius Nicolaas Heesters, genannt Jopi, wurde am 5. Dezember 1903 in Amersfoort in den Niederlanden geboren, als jüngster von vier Söhnen eines Kaufmanns. Nach der Schule begann er eine kaufmännische Lehre, mit sechzehn entschied er sich für die Bühne und gründete eine eigene Theatergruppe. Er ließ sich in Amsterdam im Gesang und in der Schauspielerei ausbilden. Deutsch lernte er früh fließend, nachdem er mehrere Jahre bei einem deutschen Großonkel aus Bayern gelebt hatte.</p>
+          <p class="vb-intro">Anfang der 1920er-Jahre stand er in Amsterdam auf der Bühne, danach folgten Engagements in Den Haag, Brüssel und in der Schweiz. Zuerst spielte er Schauspiel, ab 1932 auch Gesangsrollen, und wechselte in die Operette (eine heitere Musikbühne mit Gesang, Tanz und gesprochenen Dialogen).</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Charme, Abenteuer, Faszination</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sieben sucht Genuss und neue Eindrücke und meidet, was bedrückt. Die <strong>sexuelle Sieben (SX7)</strong> nannte Claudio Naranjo den Subtyp der ›Suggestibility‹ (Beeinflussbarkeit durch Faszination): Sie lässt sich von dem tragen, was sie anzieht, und strahlt dabei selbst Anziehung aus. Bei Heesters ist beides sichtbar. 1934 debütierte er an der Wiener Volksoper in Millöckers ›Der Bettelstudent‹, 1936 ging er nach Berlin und wurde für die UFA, die große deutsche Filmgesellschaft, zum Star von Musik- und Operettenfilmen. 1953 holte ihn der Regisseur Otto Preminger für ›Die Jungfrau auf dem Dach‹ nach Hollywood.</p>
+          <p class="vb-intro">Seine Paraderolle wurde der Graf Danilo in Lehárs ›Die lustige Witwe‹, den er am Silvesterabend 1938 in München zum ersten Mal sang und danach über 1.600-mal spielte, ein charmanter Lebemann, der von Frauen umschwärmt wird. Auf seinen späten Lebensweg blickte er sinngemäß mit der Aussage zurück, er würde alles wieder so leben, es sei ein großes Abenteuer gewesen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Treue, Rahmen, Anpassung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Loyalität und das Bedürfnis nach einem tragenden Rahmen. Eine Sieben mit schwächer ausgeprägtem Sechserflügel würde freier umherziehen; Heesters bleibt Häusern, Ensembles und Menschen treu. 1930 heiratete er die belgische Schauspielerin Louisa ›Wiske‹ Ghijs, die Ehe hielt bis zu ihrem Tod 1985, aus ihr gingen zwei Töchter hervor. 1992 heiratete er die Schauspielerin Simone Rethel. Der Volksoper Wien blieb er verbunden, die ihn 1984 zum Ehrenmitglied ernannte.</p>
+          <p class="vb-intro">Zum Sechserflügel gehört auch, dass er sich in Ordnungen einfügt, ohne sie zu hinterfragen. Seine eigene Begründung für die Jahre im Deutschen Reich lautete später, er habe sich nicht für Politik interessiert und versucht, seine Familie zu schützen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: die Stimme der Operette über neun Jahrzehnte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heesters sang nicht in großen Opernhäusern, sondern in der Operette und im Unterhaltungsfilm, wo das Publikum Leichtigkeit, Charme und Stimme verlangt. Er war Tenor und stand rund neunzig Jahre auf der Bühne, davon etwa siebenundachtzig vor der Kamera. Nach dem Krieg arbeitete er in Wien, München und Berlin weiter, nahm Schallplatten auf (etwa ›Jetzt geh' ich ins Maxim‹, 1965, und ›Ich werde 100 Jahre alt‹, 2003) und blieb bis ins höchste Alter im Fernsehen und auf der Bühne präsent.</p>
+          <p class="vb-intro">Zehnmal gewann er den Bambi, 2001 die Platin-Romy für sein Lebenswerk, 2003 die Goldene Kamera, 2004 den Ehrentitel Kammersänger. Noch mit 99 trat er in Stuttgart auf, mit 105 spielte er den Gott im ›Jedermann‹. Seit 2009 war er durch Makuladegeneration (eine Netzhauterkrankung) vollständig erblindet. In seinen Erinnerungen ›Es kommt auf die Sekunde an‹ (1978) beschrieb er seinen Weg.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Jahre 1936 bis 1945 und der Streit um Dachau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Heesters arbeitete ab 1936 im Deutschen Reich. Adolf Hitler besuchte mehrere frühe Aufführungen des Danilo. Er war nach allem, was bekannt ist, weder NSDAP-Mitglied noch nahm er die deutsche Staatsbürgerschaft an; Sympathiebekundungen für das Regime sind nicht belegt, aber er distanzierte sich auch nicht ausdrücklich. 1944 stand er auf der Gottbegnadeten-Liste von Joseph Goebbels, der Liste der Künstler, die das Regime für besonders wichtig hielt. In den Niederlanden galt er deshalb zum Teil als Mitläufer.</p>
+          <p class="vb-intro">1976 warf ihm ein niederländischer Journalist vor, 1941 im Konzentrationslager Dachau vor der SS aufgetreten zu sein. Heesters bestritt einen Auftritt, nicht den Besuch: In seiner Autobiografie schrieb er, das Lager habe auf die Besucher ›wie ein typisches Soldatenlager‹ gewirkt, und bereute, als Ensemblemitglied für Propaganda benutzt worden zu sein. 2006 sagte er im Fernsehen: ›Ich schwöre es bei meiner Familie – es ist nicht wahr!‹ Ein Gericht wies 2008 seine Klage gegen den Publizisten Volker Kühn ab, ohne über den Wahrheitsgehalt zu entscheiden; 2010 endete der Streit mit einem Vergleich. In einem niederländischen Satireinterview 2008 nannte er Hitler ›einen Kerl‹, der ›nett zu mir‹ gewesen sei, und entschuldigte sich wenige Tage später in der Sendung ›Wetten, dass..?‹. Der Stern vermutete, er habe die Satire kaum durchschaut.</p>
+          <p class="vb-intro">Dieses Verhalten lässt sich mit der Suggestibility der sexuellen Sieben in Verbindung bringen: dem Vertrauen in das, was einen anzieht, ohne es kritisch zu prüfen. Es erklärt nichts, entschuldigt nichts und ersetzt keine historische Bewertung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallele im selben Subtyp: Lewis, van Tongeren und Rosin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-jerry-lewis">Jerry Lewis (SX7w6)</a> suchte bis ins hohe Alter die Verschmelzung mit dem Publikum, wie Heesters, der bis 2011 auftrat. <a href="#beruehmte-wietske-van-tongeren">Wietske van Tongeren (SX7w6)</a> verliebt sich in Rollen und Stücke des Musiktheaters und findet im Ensemble Halt, wie Heesters in der Operette. <a href="#beruehmte-volker-rosin">Volker Rosin (SX7w6)</a> sagte scherzhaft, er werde vielleicht ›der Johannes Heesters der Kinderliedermacher‹, ein Hinweis auf dieses Vorbild des Bühnenlebens bis ins hohe Alter.</p>
+          <p class="vb-intro">Der Unterschied: Lewis und Rosin setzten ihre Bühne für Kinder und Wohltätigkeit ein; Heesters blieb bei der Operette und beim Charme der Kunstfigur.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten der sexuellen Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Lebensfreude, im Humor und in der Zähigkeit, mit der er über ein Jahrhundert hinweg auf der Bühne stand. Für sein Alter nannte er im Dezember 2010 ›Liebe und Leidenschaft‹ als Geheimnis, bei der Liebe zähle der Altersunterschied nicht. 2010 hörte er für seine Frau mit dem Rauchen auf.</p>
+          <p class="vb-intro">Der Schatten der Sieben liegt darin, dass sie das Schwere lieber nicht ansieht: die Politik, das Lager, die Frage nach dem eigenen Anteil. Das Wegschauen kostete ihn Ansehen, vor allem in den Niederlanden, und führte zu Jahrzehnten des Streits.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Stand: gestorben am 24. Dezember 2011 in Starnberg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 23. Oktober 2026) starb Johannes Heesters am 24. Dezember 2011 in Starnberg im Alter von 108 Jahren an den Folgen eines Schlaganfalls. Er ist auf dem Münchner Nordfriedhof begraben.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
+        {route:"beruehmte-wietske-van-tongeren", label:"Porträt: Wietske van Tongeren (SX7w6)"},
+        {route:"beruehmte-volker-rosin", label:"Porträt: Volker Rosin (SX7w6)"},
+      ])}
+    </div>
+  `);
+}

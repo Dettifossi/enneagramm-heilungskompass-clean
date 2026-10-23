@@ -2877,6 +2877,7 @@ export function volkerRosinPortraitPage() {
         {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
         {route:"beruehmte-horst-lichter", label:"Porträt: Horst Lichter (SX7w6)"},
         {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-johannes-heesters", label:"Porträt: Johannes Heesters (SX7w6)"},
       ])}
     </div>
   `);

@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2574", date: "2026-10-23", text: "Neues Porträt: Johannes Heesters (SX7w6) – Operettentenor und Schauspieler (Graf Danilo).", text_en: "New portrait: Johannes Heesters (SX7w6) – operetta tenor and actor (Count Danilo).", route: "beruehmte-johannes-heesters" },
     { version: "v2573", date: "2026-10-23", text: "Neues Porträt: Volker Rosin (SX7w6) – Kinderliedermacher (Das singende Känguru, Tanzalarm).", text_en: "New portrait: Volker Rosin (SX7w6) – children's songwriter (Das singende Känguru, Tanzalarm).", route: "beruehmte-volker-rosin" },
     { version: "v2572", date: "2026-10-23", text: "Neues Porträt: Christian Kohlund (SX7w8) – Schweizer Schauspieler (Die Schwarzwaldklinik, Zürich-Krimi).", text_en: "New portrait: Christian Kohlund (SX7w8) – Swiss actor (Die Schwarzwaldklinik, Zürich-Krimi).", route: "beruehmte-christian-kohlund" },
     { version: "v2571", date: "2026-10-23", text: "Neues Porträt: Isabell Gerschke (SX7w6) – Schauspielerin (Polizeiruf 110, In aller Freundschaft).", text_en: "New portrait: Isabell Gerschke (SX7w6) – actress (Polizeiruf 110, In aller Freundschaft).", route: "beruehmte-isabell-gerschke" },
