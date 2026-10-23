@@ -2171,6 +2171,7 @@ export function herfriedMuenklerPortraitPage() {
         {route:"beruehmte-donata-hopfen", label:"Portrait: Donata Hopfen (SO6w7)"},
         {route:"beruehmte-wolfram-eilenberger", label:"Portrait: Wolfram Eilenberger (SO6w7) – same watch, different danger"},
         {route:"beruehmte-anne-will", label:"Portrait: Anne Will (SP1w2)"},
+        {route:"beruehmte-heinz-rudolf-kunze", label:"Portrait: Heinz Rudolf Kunze (SE6w7)"},
       ])}
     </div>
   `);

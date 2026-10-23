@@ -2604,6 +2604,7 @@ export function wolframEilenbergerPortraitPage() {
         {route:"lebensmusterkompass/so6", label:"Lebensmusterkompass: SO6 – Erdmännchen"},
         {route:"beruehmte-herfried-muenkler", label:"Porträt: Herfried Münkler (SO6w7) – dieselbe Wache, anderer Gegenstand"},
         {route:"beruehmte-anne-applebaum", label:"Porträt: Anne Applebaum (SO6w7)"},
+        {route:"beruehmte-heinz-rudolf-kunze", label:"Porträt: Heinz Rudolf Kunze (SO6w7)"},
       ])}
     </div>
   `);

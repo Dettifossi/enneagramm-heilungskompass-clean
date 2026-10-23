@@ -750,6 +750,7 @@ export function herbertGroenomeyerPortraitPage() {
         {route:"beruehmte-james-corden", label:"Portrait: James Corden (SO6w7)"},
         {route:"beruehmte-jonah-hill", label:"Portrait: Jonah Hill (SO6w7)"},
         {route:"beruehmte-anne-applebaum", label:"Portrait: Anne Applebaum (SO6w7)"},
+        {route:"beruehmte-heinz-rudolf-kunze", label:"Portrait: Heinz Rudolf Kunze (SE6w7)"},
       ])}
     </div>
   `);
