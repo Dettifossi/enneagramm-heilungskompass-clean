@@ -256,6 +256,7 @@ export function borisBeckerPortraitPage() {
         {route:"beruehmte-shakira", label:"Portrait: Shakira (SX7w8)"},
         {route:"beruehmte-wallace-shawn", label:"Portrait: Wallace Shawn (SE7w6)"},
         {route:"beruehmte-john-travolta", label:"Portrait: John Travolta (SX7w8)"},
+        {route:"beruehmte-knossi", label:"Portrait: Knossi (Jens Knossalla) (SX7w8)"},
       ])}
     </div>
   `);
@@ -2761,6 +2762,7 @@ export function johnTravoltaPortraitPage() {
         {route:"beruehmte-shakira", label:"Porträt: Shakira (SX7w8)"},
         {route:"beruehmte-boris-becker", label:"Porträt: Boris Becker (SX7w8)"},
         {route:"beruehmte-christian-kohlund", label:"Portrait: Christian Kohlund (SX7w8)"},
+        {route:"beruehmte-knossi", label:"Portrait: Knossi (Jens Knossalla) (SX7w8)"},
       ])}
     </div>
   `);

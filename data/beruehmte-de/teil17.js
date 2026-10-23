@@ -723,6 +723,7 @@ export function inaMuellerPortraitPage() {
         {route:"beruehmte-thomas-gottschalk", label:"Portr\u00e4t: Thomas Gottschalk (SX7w6)"},
         {route:"beruehmte-caroline-peters", label:"Porträt: Caroline Peters (SX7w6)"},
         {route:"beruehmte-christian-kohlund", label:"Porträt: Christian Kohlund (SX7w8)"},
+        {route:"beruehmte-knossi", label:"Porträt: Knossi (Jens Knossalla) (SX7w8)"},
       ])}
     </div>
   `);

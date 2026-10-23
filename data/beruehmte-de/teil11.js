@@ -256,6 +256,7 @@ export function borisBeckerPortraitPage() {
         {route:"beruehmte-shakira", label:"Porträt: Shakira (SX7w8)"},
         {route:"beruehmte-wallace-shawn", label:"Porträt: Wallace Shawn (SE7w6)"},
         {route:"beruehmte-john-travolta", label:"Porträt: John Travolta (SX7w8)"},
+        {route:"beruehmte-knossi", label:"Porträt: Knossi (Jens Knossalla) (SX7w8)"},
       ])}
     </div>
   `);

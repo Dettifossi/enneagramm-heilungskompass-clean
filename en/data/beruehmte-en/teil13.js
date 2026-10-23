@@ -2738,3 +2738,81 @@ export function carloMasalaPortraitPage() {
     </div>
   `);
 }
+
+export function knossiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-knossi-portrait.jpg" alt="Knossi (Jens Knossalla) – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-knossi-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Knossi (Jens Knossalla)</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with an Eight-wing</p>
+        <p class="krim-portrait-subtitle">German streamer and entertainer, b. 1986 &ndash; King of the Internet &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee: the class clown from Rastatt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> lives in play, in the troop and in the spotlight. Jens Heinz Richard Knossalla, called Knossi, was born on 7 July 1986 in Malsch near Karlsruhe and grew up in Rastatt. He describes his childhood as carefree, with family camping holidays and fishing trips. Early on he wanted to be in the media: &lsquo;From the start I absolutely wanted to be in the media.&rsquo; He liked standing in front of the class to make jokes.</p>
+          <p class="vb-intro">His parents&rsquo; condition was a school-leaving certificate and an apprenticeship. He became an office clerk (Bürokaufmann) but said later: &lsquo;I never worked in that job.&rsquo; According to a report he missed two months of the third training year to take part in a casting show.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: from show to show, from play to stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven seeks fun, variety and new stimuli. Claudio Naranjo called the <strong>sexual Seven (SX7)</strong> the subtype of &lsquo;suggestibility&rsquo; (being swayed by fascination): it lets itself be carried by what attracts it and throws itself in with full force. In Knossi this shows in the succession of fascinations. In 2006 he appeared in game shows on 9Live, in 2008 he took part in &lsquo;WipeOut – Heul nicht, lauf!&rsquo; (&lsquo;WipeOut – Don&rsquo;t Cry, Run!&rsquo;, ProSieben) after an application to &lsquo;Big Brother&rsquo; had been rejected. In 2010 followed &lsquo;Der Kreuzfahrtkönig&rsquo; (&lsquo;The Cruise King&rsquo;, RTL II), in 2011 &lsquo;17 Meter&rsquo; (ProSieben).</p>
+          <p class="vb-intro">Via &lsquo;17 Meter&rsquo; he came to poker and in 2011 won the casting show &lsquo;PokerStars sucht das PokerAss&rsquo; (&lsquo;PokerStars Seeks the Poker Ace&rsquo;) with 100,000 euros in prize money. On PokerStars he played under the name &lsquo;Knossi&rsquo;, which became his nickname. He commentated tournaments and wrote a column in the trade magazine PokerBlatt. Poker led him to Twitch, the streaming platform where players and chatters broadcast live to an audience. There he became known in 2019 when the streamer MontanaBlack &lsquo;hosted&rsquo; him on his channel, that is, redirected his viewers to him: over 25,000 viewers watched him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: crown, directness, entrepreneurial spirit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Seven strength, self-confidence and assertiveness. A Seven with a weaker Eight-wing would appear more playful and lighter; Knossi calls himself &lsquo;King of the Internet&rsquo; and usually appears with a crown. He says of himself that he has a strong talent for entertaining. The entrepreneurial side fits: in 2021 he launched the liqueur ALGE with Kaufland, the fashion label KROWNZ, and in 2023 with the streamer Trymacs the pizza chain Happy Slice, which works on the principle of a &lsquo;ghost kitchen&rsquo; (a kitchen without its own restaurant, for deliveries only).</p>
+          <p class="vb-intro">The Eight also shows on a large scale: he organised multi-day streaming events such as the &lsquo;Angelcamp&rsquo; (&lsquo;Fishing Camp&rsquo;) and the &lsquo;Horrorcamp&rsquo;, which according to a report at times had 330,000 simultaneous viewers, and in 2023 bought a hoverboard prop from &lsquo;Back to the Future&rsquo; for 180,000 euros.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: reach, stage and brands</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Knossi is among the German streamers with the greatest reach: according to a figure from January 2025 he has over 2.4 million followers on Twitch and about 1.5 million subscribers on YouTube. His book &lsquo;Knossi – König des Internets&rsquo; (&lsquo;Knossi – King of the Internet&rsquo;, 2020) reached number 1 on the Spiegel bestseller list. On television he was seen among others in &lsquo;Täglich frisch geröstet&rsquo; (&lsquo;Freshly Roasted Daily&rsquo;, 2020), &lsquo;Let&rsquo;s Dance&rsquo; (season 16, fifth place), &lsquo;7 vs. Wild&rsquo; and for a time as co-host of &lsquo;Das Supertalent&rsquo; (2024 and 2025, with Victoria Swarovski). He voiced roles in feature films, for example &lsquo;Teenage Mutant Ninja Turtles: Mutant Mayhem&rsquo; and &lsquo;Despicable Me 4&rsquo;.</p>
+          <p class="vb-intro">His single &lsquo;Alge&rsquo; reached number 50 in the German charts in 2020. He hosts the podcast &lsquo;1 auf die Ohren&rsquo; (&lsquo;1 for the Ears&rsquo;, since 2022). Among others he received the Bravo Otto (2021 and 2024), the Goldene Henne (2021), the German Brand Award (2023, with OBI) and the StreamAwards (2022 and 2023).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Dispute and criticism</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Where there is much reach there is also criticism, and it is documented. The animal-rights organisation PETA filed a criminal complaint in 2020 over the release of caught fish (&lsquo;catch and release&rsquo;) at the Angelcamp; the second camp took place in 2021 in the Czech Republic. His casino streams, in which he showed gambling, were criticised as advertising for gambling, among others by Jan Böhmermann. In early 2021 he stopped them, citing his role-model function.</p>
+          <p class="vb-intro">From the Enneagram&rsquo;s point of view this can be brought into connection with the Seven, which lets itself be carried by the stimulus and looks at the consequences only when criticised. It judges nothing and replaces no legal or moral assessment.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallel in the same subtype: Ina Müller, Boris Becker and Travolta</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-ina-mueller">Ina Müller (SX7w8)</a> is, like Knossi, direct, fond of life and always close to the audience. <a href="#beruehmte-boris-becker">Boris Becker (SX7w8)</a> stood, like Knossi, early in the spotlight and seeks the big stage. <a href="#beruehmte-john-travolta">John Travolta (SX7w8)</a> shares with Knossi the joy of transformation and appearance.</p>
+          <p class="vb-intro">The difference: Müller, Becker and Travolta emerged in the classic spotlight of television, sport and film; Knossi built his stage on the net himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Light and shadow of the sexual Seven with an Eight-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the humour and the self-irony with which he puts on the crown, and in the diligence behind the fun: poker, streaming, brands and stage he built up in a few years. He said that 2011 was one of the most exciting years of his life.</p>
+          <p class="vb-intro">The shadow lies in boundlessness: whoever lets himself be carried by the stimulus and appears with force crosses more easily what others still consider appropriate. The tension between play and responsibility is documented in him, not least in his own reason for ending the casino streams.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Status: streamer and entertainer in Baden-Baden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 23 October 2026) Jens Knossalla is 40 years old, lives in Baden-Baden and is still active as a streamer, podcaster and television guest.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-ina-mueller", label:"Porträt: Ina Müller (SX7w8)"},
+        {route:"beruehmte-boris-becker", label:"Porträt: Boris Becker (SX7w8)"},
+        {route:"beruehmte-john-travolta", label:"Porträt: John Travolta (SX7w8)"},
+      ])}
+    </div>
+  `);
+}

@@ -2,6 +2,7 @@
 // Format: { date: "JJJJ-MM-TT", text: "Deutscher Text", text_en: "English text" }
 // Neueste Einträge oben. Datum als ISO-String (wird alphabetisch verglichen).
 var CHANGELOG = [
+    { version: "v2576", date: "2026-10-23", text: "Neues Porträt: Knossi, Jens Knossalla (SX7w8) – Streamer und Entertainer.", text_en: "New portrait: Knossi, Jens Knossalla (SX7w8) – streamer and entertainer.", route: "beruehmte-knossi" },
     { version: "v2575", date: "2026-10-23", text: "Neues Porträt: Rudi Carrell (SX7w6) – Showmaster (Am laufenden Band, Rudis Tagesshow).", text_en: "New portrait: Rudi Carrell (SX7w6) – showmaster (Am laufenden Band, Rudis Tagesshow).", route: "beruehmte-rudi-carrell" },
     { version: "v2574", date: "2026-10-23", text: "Neues Porträt: Johannes Heesters (SX7w6) – Operettentenor und Schauspieler (Graf Danilo).", text_en: "New portrait: Johannes Heesters (SX7w6) – operetta tenor and actor (Count Danilo).", route: "beruehmte-johannes-heesters" },
     { version: "v2573", date: "2026-10-23", text: "Neues Porträt: Volker Rosin (SX7w6) – Kinderliedermacher (Das singende Känguru, Tanzalarm).", text_en: "New portrait: Volker Rosin (SX7w6) – children's songwriter (Das singende Känguru, Tanzalarm).", route: "beruehmte-volker-rosin" },

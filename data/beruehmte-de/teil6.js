@@ -2752,3 +2752,81 @@ export function carloMasalaPortraitPage() {
     </div>
   `);
 }
+
+export function knossiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-knossi-portrait.jpg" alt="Knossi (Jens Knossalla) – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-knossi-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Knossi (Jens Knossalla)</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Streamer und Entertainer, geb. 1986 &ndash; König des Internets &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse: der Klassenclown aus Rastatt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> lebt im Spiel, im Rudel und im Rampenlicht. Jens Heinz Richard Knossalla, genannt Knossi, wurde am 7. Juli 1986 in Malsch bei Karlsruhe geboren und wuchs in Rastatt auf. Seine Kindheit beschreibt er als unbeschwert, mit Campingurlauben und Angelausflügen mit der Familie. Schon früh wollte er in die Medien: ›Ich wollte von Anfang an unbedingt in die Medien.‹ Er stand gern vor der Schulklasse, um Witze zu machen.</p>
+          <p class="vb-intro">Die Bedingung seiner Eltern war ein Schulabschluss und eine Ausbildung. Er wurde Bürokaufmann, sagte aber später: ›Gearbeitet habe ich in dem Job nie.‹ Nach einem Bericht fehlte er im dritten Ausbildungsjahr zwei Monate, um an einer Castingshow teilzunehmen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: von Show zu Show, vom Spiel zur Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sieben sucht Spaß, Abwechslung und neue Reize. Die <strong>sexuelle Sieben (SX7)</strong> nannte Claudio Naranjo den Subtyp der ›Suggestibility‹ (Beeinflussbarkeit durch Faszination): Sie lässt sich von dem tragen, was sie anzieht, und wirft sich mit ganzer Kraft hinein. Bei Knossi zeigt sich das in der Folge von Faszinationen. 2006 trat er in Spielshows bei 9Live auf, 2008 nahm er an ›WipeOut – Heul nicht, lauf!‹ (ProSieben) teil, nachdem eine Bewerbung bei ›Big Brother‹ abgelehnt worden war. 2010 folgte ›Der Kreuzfahrtkönig‹ (RTL II), 2011 ›17 Meter‹ (ProSieben).</p>
+          <p class="vb-intro">Über ›17 Meter‹ kam er zum Poker und gewann 2011 die Castingshow ›PokerStars sucht das PokerAss‹ mit 100.000 Euro Preisgeld. Auf PokerStars spielte er unter dem Namen ›Knossi‹, der zum Spitznamen wurde. Er kommentierte Turniere und schrieb eine Kolumne im Fachmagazin PokerBlatt. Das Pokern führte ihn zu Twitch, der Streamingplattform, auf der Spieler und Plaudernde live vor Publikum senden. Dort wurde er 2019 bekannt, als der Streamer MontanaBlack ihn auf seinen Kanal ›hostete‹, also seine Zuschauer zu ihm weiterleitete: Über 25.000 Zuschauer sahen ihm zu.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Krone, Direktheit, Unternehmergeist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Sieben Kraft, Selbstbewusstsein und Durchsetzungswillen. Eine Sieben mit schwächer ausgeprägtem Achterflügel würde verspielter und leichter auftreten; Knossi nennt sich selbst ›König des Internets‹ und tritt meist mit einer Krone auf. Er sagt von sich, ein starkes Talent zum Unterhalten zu haben. Dazu passt das Unternehmerische: Er brachte 2021 den Likör ALGE mit Kaufland auf den Markt, das Modelabel KROWNZ und mit dem Streamer Trymacs 2023 die Pizzakette Happy Slice, die nach dem Prinzip einer ›Ghost Kitchen‹ (Küche ohne eigenes Restaurant, nur für Lieferungen) arbeitet.</p>
+          <p class="vb-intro">Auch im Großen zeigt sich der Achter: Er organisierte mehrtägige Streaming-Events wie das ›Angelcamp‹ und das ›Horrorcamp‹, das nach einem Bericht zeitweise 330.000 Zuschauer gleichzeitig hatte, und kaufte 2023 einen Hoverboard-Requisiten aus ›Zurück in die Zukunft‹ für 180.000 Euro.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Reichweite, Bühne und Marken</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Knossi gehört zu den reichweitenstärksten deutschen Streamern: Nach einer Angabe von Januar 2025 hat er auf Twitch über 2,4 Millionen Follower, auf YouTube etwa 1,5 Millionen Abonnenten. Sein Buch ›Knossi – König des Internets‹ (2020) stand auf Platz 1 der Spiegel-Bestsellerliste. Im Fernsehen war er unter anderem bei ›Täglich frisch geröstet‹ (2020), ›Let's Dance‹ (Staffel 16, Platz 5), ›7 vs. Wild‹ und zeitweise als Mitmoderator von ›Das Supertalent‹ (2024 und 2025, mit Victoria Swarovski) zu sehen. Er sprach Rollen in Kinofilmen, etwa in ›Teenage Mutant Ninja Turtles: Mutant Mayhem‹ und ›Ich – Einfach unverbesserlich 4‹.</p>
+          <p class="vb-intro">Seine Single ›Alge‹ erreichte 2020 Platz 50 der deutschen Charts. Er moderiert den Podcast ›1 auf die Ohren‹ (seit 2022). Er erhielt unter anderem den Bravo Otto (2021 und 2024), die Goldene Henne (2021), den German Brand Award (2023, mit OBI) und die StreamAwards (2022 und 2023).</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Streit und Kritik</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Wo viel Reichweite ist, gibt es auch Kritik, und sie ist dokumentiert. Die Tierschutzorganisation PETA erstattete 2020 Strafanzeige wegen des Zurücksetzens gefangener Fische (›Catch and Release‹) beim Angelcamp, das zweite Camp fand 2021 in Tschechien statt. Seine Casino-Streams, in denen er Glücksspiele zeigte, wurden als Werbung für Glücksspiel kritisiert, unter anderem von Jan Böhmermann. Anfang 2021 stellte er sie ein, mit Verweis auf seine Vorbildfunktion.</p>
+          <p class="vb-intro">Aus Enneagramm-Sicht lässt sich das mit der Sieben in Verbindung bringen, die sich vom Reiz tragen lässt und die Folgen erst bei Kritik in den Blick nimmt. Es bewertet nichts und ersetzt keine rechtliche oder moralische Beurteilung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallele im selben Subtyp: Ina Müller, Boris Becker und Travolta</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-ina-mueller">Ina Müller (SX7w8)</a> ist wie Knossi direkt, lebenslustig und immer nah am Publikum. <a href="#beruehmte-boris-becker">Boris Becker (SX7w8)</a> stand wie Knossi früh im Rampenlicht und sucht die große Bühne. <a href="#beruehmte-john-travolta">John Travolta (SX7w8)</a> teilt mit Knossi die Lust an Verwandlung und Auftritt.</p>
+          <p class="vb-intro">Der Unterschied: Müller, Becker und Travolta entstanden im klassischen Rampenlicht von Fernsehen, Sport und Film; Knossi hat sich seine Bühne im Netz selbst gebaut.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten der sexuellen Sieben mit Achterflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt im Humor und in der Selbstironie, mit der er sich die Krone aufsetzt, und im Fleiß hinter dem Spaß: Poker, Streaming, Marken und Bühne baute er in wenigen Jahren auf. Er sagte, 2011 sei eines der aufregendsten Jahre seines Lebens gewesen.</p>
+          <p class="vb-intro">Der Schatten liegt in der Grenzenlosigkeit: Wer sich vom Reiz tragen lässt und mit Wucht auftritt, überschreitet leichter, was andere noch für angemessen halten. Die Spannung zwischen Spiel und Verantwortung ist bei ihm dokumentiert, nicht zuletzt in seiner eigenen Begründung für das Ende der Casino-Streams.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Stand: Streamer und Entertainer in Baden-Baden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 23. Oktober 2026) ist Jens Knossalla 40 Jahre alt, lebt in Baden-Baden und ist weiterhin als Streamer, Podcaster und Fernsehgast aktiv.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-ina-mueller", label:"Porträt: Ina Müller (SX7w8)"},
+        {route:"beruehmte-boris-becker", label:"Porträt: Boris Becker (SX7w8)"},
+        {route:"beruehmte-john-travolta", label:"Porträt: John Travolta (SX7w8)"},
+      ])}
+    </div>
+  `);
+}
