@@ -2067,6 +2067,7 @@ export function jerryLewisPortraitPage() {
         {route:"beruehmte-horst-lichter", label:"Portrait: Horst Lichter (SX7w6)"},
         {route:"beruehmte-volker-rosin", label:"Portrait: Volker Rosin (SX7w6)"},
         {route:"beruehmte-johannes-heesters", label:"Portrait: Johannes Heesters (SX7w6)"},
+        {route:"beruehmte-rudi-carrell", label:"Portrait: Rudi Carrell (SX7w6)"},
       ])}
     </div>
   `);

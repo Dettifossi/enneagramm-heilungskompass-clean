@@ -2683,3 +2683,82 @@ export function milanPeschelPortraitPage() {
     </div>
   `);
 }
+
+export function rudiCarrellPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rudi-carrell-portrait.jpg" alt="Rudi Carrell – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-rudi-carrell-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Rudi Carrell</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexual Type 7 with a Six-wing</p>
+        <p class="krim-portrait-subtitle">Dutch-German showmaster, 1934&ndash;2006 &ndash; Am laufenden Band &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee: the magician&rsquo;s son from Alkmaar</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> lives in play, in the troop and in laughter. Rudolf Wijbrand Kesselaar, later Rudi Carrell, was born on 19 December 1934 in Alkmaar in the Netherlands. His father André Carrell was a magician and entertainer, so a working life on stage was laid out for him. According to a report in the Stuttgarter Zeitung his parents hid a Jewish woman in the house during the German occupation.</p>
+          <p class="vb-intro">His first stage appearance came the day before his 14th birthday as host of a school evening. At 15 he left school, he broke off an apprenticeship, and in November 1952 he joined his father&rsquo;s ensemble. As &lsquo;Rudi Carrell&rsquo; he first appeared on 17 October 1953 in Arnhem.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Seven: stage, restlessness, transformation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven seeks lightness and new impressions. Claudio Naranjo called the <strong>sexual Seven (SX7)</strong> the subtype of &lsquo;suggestibility&rsquo; (being swayed by fascination): it lets itself be carried by what attracts it and constantly seeks the next stimulus. In Carrell this shows early and in many places. He performed in the Netherlands, went to Germany in 1965, lived for periods in Spain and France and kept returning. He preferred quick visual gags to long sketches and over decades invented ever new formats: &lsquo;Am laufenden Band&rsquo; (&lsquo;On the Conveyor Belt&rsquo;, from 1974), &lsquo;Rudis Tagesshow&rsquo; (&lsquo;Rudi&rsquo;s Daily Show&rsquo;, from 1981), &lsquo;Die verflixte 7&rsquo; (&lsquo;The Darn 7&rsquo;, 1984 to 1987) and &lsquo;7 Tage, 7 Köpfe&rsquo; (&lsquo;7 Days, 7 Heads&rsquo;, 1998 to 2005).</p>
+          <p class="vb-intro">His gift of observation was pronounced even as a teenager: he watched people in the street and made material out of it. Humour was for him transformation, also as self-protection: he invented a false identity when strangers recognised him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: fear, duty, few confidants</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> gives the Seven vigilance, a sense of duty and the need for a few reliable people. A Seven with a weaker Six-wing would appear more carefree; Carrell spoke openly about a side that looks like fear: &lsquo;Most of the time my nervousness, my inhibitions, my fear were to blame for these outbursts.&rsquo; He called himself a &lsquo;classic Prussian&rsquo;, by which he meant work mania and discipline, and stayed loyal for years to a few collaborators, such as his adviser Leslie Roberts.</p>
+          <p class="vb-intro">Gratitude toward the audience belongs to the Six-wing too. At the end he said in 2006: &lsquo;It was an honour to be allowed to make television in this country and before this audience.&rsquo; From 1975 he lived in Wachendorf near Bremen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The perfectionism: the One under pressure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Under long-lasting stress the Seven moves along its stress line to the One. It then becomes strict, controlling and perfectionist, although its core type does not change. Exactly this pattern shows in Carrell when he works behind the scenes. He kept scripts open until the last minute and expected the same preparation from everyone. Jochen Busse said: &lsquo;It had to be a perfect show.&rsquo; Several colleagues report flaring outbursts, and he himself said later: &lsquo;In the studio I was a disgusting arsehole.&rsquo;</p>
+          <p class="vb-intro">The colleague Patrick Nederkoorn describes the other side: Carrell promoted talents and gave them big chances, but was also &lsquo;a complicated person&rsquo; who &lsquo;could flare up very easily&rsquo;. It was always important to him to get the best out of the show. The strictness thus does not belong to his core type but to the strain of a life consisting of live shows with audiences of millions.</p>
+          <p class="vb-intro">From the Enneagram&rsquo;s point of view this can be read as follows: whoever lives often at the stress point experiences his fixation one-sidedly and uses up strength for the tension that the core type would actually carry lightly. In Carrell, who as a chain smoker fell ill with lung cancer and died at 71, this permanent strain may have been a factor; a cause cannot be derived from it. Johannes Heesters, also SX7w6, seems more relaxed in the sources and lived to 108. The comparison is an observation, not proof.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The substance: the master of the Saturday-night show</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carrell was one of the defining television entertainers of Germany. With &lsquo;Die Rudi Carrell Show&rsquo; (1965 to 1973) he won the Silver Rose of Montreux in 1964. In &lsquo;Am laufenden Band&rsquo;, a game show in which prizes passed by on a conveyor belt and contestants had to remember what they saw, he reached, according to a report, up to 30 million viewers in the 1970s. In &lsquo;Rudis Tagesshow&rsquo; he took politics and everyday life satirically to task. He also had pop hits such as &lsquo;Wann wird&rsquo;s mal wieder richtig Sommer?&rsquo; (&lsquo;When Will It Be Really Summer Again?&rsquo;) and acted in comedy films.</p>
+          <p class="vb-intro">In 1991 he co-founded the production company J. E. Entertainment in Cologne, held 25 percent and sold his stake in 1994: &lsquo;That was the biggest deal of my life.&rsquo; With his own company he later produced &lsquo;7 Tage, 7 Köpfe&rsquo;. His last television appearance was on 2 February 2006, when he received the Goldene Kamera for his life&rsquo;s work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallel in the same subtype: Heesters, Gottschalk and Lewis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-johannes-heesters">Johannes Heesters (SX7w6)</a> was, like Carrell, Dutch, became a star of entertainment in Germany and stood on stage into old age. <a href="#beruehmte-thomas-gottschalk">Thomas Gottschalk (SX7w6)</a> is, like Carrell, the showmaster of Saturday-night entertainment who lets the spark jump over. <a href="#beruehmte-jerry-lewis">Jerry Lewis (SX7w6)</a> sought the fusion with the audience into old age.</p>
+          <p class="vb-intro">The difference: Heesters stayed with the charm of the stage figure, Gottschalk and Lewis often seemed more relaxed in the spotlight. In Carrell the pressure behind the lightness is documented most clearly.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Light and shadow of the sexual Seven with a Six-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the humour, in the gift of observation and in the readiness to poke fun at himself. He rejected idealisation and kept a sober attitude also toward illness and death: when he fell ill with lung cancer he said in effect that if he died tomorrow, that would be fine too.</p>
+          <p class="vb-intro">The shadow lies in the pressure behind the lightness and in the consequences of some decisions. A piece in &lsquo;Rudis Tagesshow&rsquo; in 1987 showed by picture montage how it looked as if women&rsquo;s underwear were being thrown at the Iranian revolutionary leader Khomeini. The German ambassador in Iran was summoned, Carrell and his family received death threats, and he apologised. Asked whether he would do it again, he said in 2006: &lsquo;Absolutely not.&rsquo; In 1980, after a burnout, he had moved to France for some months.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Status: died on 7 July 2006 in Bremen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 23 October 2026) Rudi Carrell died on 7 July 2006 at the age of 71 in Bremen from the consequences of lung cancer, which he had confirmed in 2005. He had stopped smoking before.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"lebensmusterkompass/sx7", label:"Life Pattern Compass: SX7 – Chimpanzee"},
+        {route:"beruehmte-johannes-heesters", label:"Porträt: Johannes Heesters (SX7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
+      ])}
+    </div>
+  `);
+}

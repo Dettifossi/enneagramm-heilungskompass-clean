@@ -2810,6 +2810,7 @@ export function johannesHeestersPortraitPage() {
         {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
         {route:"beruehmte-wietske-van-tongeren", label:"Porträt: Wietske van Tongeren (SX7w6)"},
         {route:"beruehmte-volker-rosin", label:"Porträt: Volker Rosin (SX7w6)"},
+        {route:"beruehmte-rudi-carrell", label:"Porträt: Rudi Carrell (SX7w6)"},
       ])}
     </div>
   `);

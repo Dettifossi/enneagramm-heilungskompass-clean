@@ -2067,6 +2067,7 @@ export function jerryLewisPortraitPage() {
         {route:"beruehmte-horst-lichter", label:"Porträt: Horst Lichter (SX7w6)"},
         {route:"beruehmte-volker-rosin", label:"Porträt: Volker Rosin (SX7w6)"},
         {route:"beruehmte-johannes-heesters", label:"Porträt: Johannes Heesters (SX7w6)"},
+        {route:"beruehmte-rudi-carrell", label:"Porträt: Rudi Carrell (SX7w6)"},
       ])}
     </div>
   `);
@@ -2745,6 +2746,85 @@ export function fabriceLuchiniPortraitPage() {
         {route:"beruehmte-harrison-ford", label:"Porträt: Harrison Ford (SE1w9)"},
         {route:"beruehmte-henning-baum", label:"Porträt: Henning Baum (SE1w9)"},
         {route:"beruehmte-catherine-deneuve", label:"Porträt: Catherine Deneuve (SE3w4) – ebenfalls französische Filmgröße"},
+      ])}
+    </div>
+  `);
+}
+
+export function rudiCarrellPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rudi-carrell-portrait.jpg" alt="Rudi Carrell – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-rudi-carrell-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Rudi Carrell</p>
+        <p class="krim-portrait-typ">SX7w6 &middot; Sexueller Typ 7 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Niederländisch-deutscher Showmaster, 1934&ndash;2006 &ndash; Am laufenden Band &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse: der Zauberer-Sohn aus Alkmaar</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> lebt im Spiel, im Rudel und im Gelächter. Rudolf Wijbrand Kesselaar, später Rudi Carrell, wurde am 19. Dezember 1934 in Alkmaar in den Niederlanden geboren. Sein Vater André Carrell war Zauberkünstler und Entertainer, ein Berufsleben auf der Bühne war ihm also vorgezeichnet. Nach einem Bericht der Stuttgarter Zeitung versteckten seine Eltern während der deutschen Besatzung eine jüdische Frau im Haus.</p>
+          <p class="vb-intro">Seinen ersten Bühnenauftritt hatte er am Tag vor seinem 14. Geburtstag als Moderator eines Schulabends. Mit 15 verließ er die Schule, eine Lehre brach er ab, im November 1952 stieg er in das Ensemble seines Vaters ein. Als ›Rudi Carrell‹ trat er zum ersten Mal am 17. Oktober 1953 in Arnhem auf.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Bühne, Unruhe, Verwandlung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sieben sucht Leichtigkeit und neue Eindrücke. Die <strong>sexuelle Sieben (SX7)</strong> nannte Claudio Naranjo den Subtyp der ›Suggestibility‹ (Beeinflussbarkeit durch Faszination): Sie lässt sich von dem tragen, was sie anzieht, und sucht ständig den nächsten Reiz. Bei Carrell zeigt sich das früh und an vielen Stellen. Er trat in den Niederlanden auf, ging 1965 nach Deutschland, lebte zeitweise in Spanien und Frankreich und kehrte immer wieder zurück. Er bevorzugte schnelle Bildwitze vor langen Sketchen und erfand über Jahrzehnte immer neue Formate: ›Am laufenden Band‹ (ab 1974), ›Rudis Tagesshow‹ (ab 1981), ›Die verflixte 7‹ (1984 bis 1987) und ›7 Tage, 7 Köpfe‹ (1998 bis 2005).</p>
+          <p class="vb-intro">Seine Beobachtungsgabe war schon als Jugendlicher ausgeprägt: Er sah Menschen auf der Straße zu und machte daraus Material. Humor war für ihn Verwandlung, auch beim Selbstschutz: Er erfand eine falsche Identität, wenn Fremde ihn erkannten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Angst, Pflicht, wenige Vertraute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> gibt der Sieben Wachsamkeit, Pflichtgefühl und das Bedürfnis nach wenigen verlässlichen Menschen. Eine Sieben mit schwächer ausgeprägtem Sechserflügel würde unbeschwerter auftreten; Carrell sprach offen über eine Seite, die nach Angst aussieht: ›Schuld an diesen Ausbrüchen waren meist meine Nervosität, meine Hemmungen, meine Angst.‹ Er nannte sich selbst einen ›klassischen Preußen‹, womit er Arbeitswut und Disziplin meinte, und blieb wenigen Mitarbeitern über Jahre treu, etwa seinem Berater Leslie Roberts.</p>
+          <p class="vb-intro">Zum Sechserflügel gehört auch die Dankbarkeit gegenüber dem Publikum. Zum Ende sagte er 2006: ›Es war eine Ehre, in diesem Land und vor diesem Publikum Fernsehen machen zu dürfen.‹ Seit 1975 lebte er in Wachendorf bei Bremen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Perfektionismus: die Eins unter Druck</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Sieben bewegt sich unter lang anhaltendem Stress entlang ihrer Stresslinie zur Eins. Dann wird sie streng, kontrollierend und perfektionistisch, obwohl ihr Kerntyp nicht wechselt. Genau dieses Muster zeigt sich bei Carrell, wenn er hinter den Kulissen arbeitet. Er hielt Drehbücher bis zur letzten Minute offen und erwartete dieselbe Vorbereitung von allen. Jochen Busse sagte: ›Es musste eine perfekte Sendung sein.‹ Mehrere Kollegen berichten von aufbrausenden Ausbrüchen, und er selbst sagte später: ›Ich war im Studio ein widerliches Arschloch.‹</p>
+          <p class="vb-intro">Der Mitarbeiter Patrick Nederkoorn beschreibt die Gegenseite: Carrell habe Talente gefördert und ihnen große Chancen gegeben, sei aber auch ›ein komplizierter Mensch‹ gewesen, der ›sehr aufbrausend werden konnte‹. Wichtig war ihm immer, das Beste aus der Show herauszuholen. Die Strenge gehört also nicht zu seinem Kerntyp, sondern zur Belastung eines Lebens, das aus Live-Shows mit Millionenpublikum bestand.</p>
+          <p class="vb-intro">Aus Enneagramm-Sicht lässt sich das so lesen: Wer häufig im Stresspunkt lebt, erlebt seine Fixierung einseitig und verbraucht Kraft für die Anspannung, die der Kerntyp eigentlich leicht tragen würde. Bei Carrell, der als Kettenraucher an Lungenkrebs erkrankte und mit 71 starb, mag diese Dauerbelastung ein Faktor gewesen sein; eine Ursache lässt sich daraus nicht ableiten. Johannes Heesters, ebenfalls SX7w6, wirkt in den Quellen gelassener und wurde 108 Jahre alt. Der Vergleich ist eine Beobachtung, kein Beweis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Die Substanz: der Meister der Samstagabendshow</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Carrell war einer der prägenden Fernsehunterhalter Deutschlands. Mit ›Die Rudi Carrell Show‹ (1965 bis 1973) gewann er 1964 die Silberne Rose von Montreux. In ›Am laufenden Band‹, einer Spielshow, bei der Preise auf einem Förderband vorbeiliefen und die Kandidaten sich merken mussten, was sie sahen, erreichte er in den 1970er-Jahren nach einem Bericht bis zu 30 Millionen Zuschauer. In ›Rudis Tagesshow‹ nahm er Politik und Alltag satirisch auf die Schippe. Daneben hatte er Schlagererfolge wie ›Wann wird's mal wieder richtig Sommer?‹ und spielte in Komödienfilmen mit.</p>
+          <p class="vb-intro">1991 gründete er mit der Produktionsfirma J. E. Entertainment in Köln mit, hielt 25 Prozent und verkaufte seinen Anteil 1994: ›Das war das größte Geschäft meines Lebens.‹ Mit der eigenen Firma produzierte er später ›7 Tage, 7 Köpfe‹. Sein letzter Fernsehauftritt war am 2. Februar 2006, als er die Goldene Kamera für sein Lebenswerk erhielt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Parallele im selben Subtyp: Heesters, Gottschalk und Lewis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro"><a href="#beruehmte-johannes-heesters">Johannes Heesters (SX7w6)</a> war wie Carrell Niederländer, wurde in Deutschland zum Star der Unterhaltung und stand bis ins hohe Alter auf der Bühne. <a href="#beruehmte-thomas-gottschalk">Thomas Gottschalk (SX7w6)</a> ist wie Carrell der Showmaster der Samstagabendunterhaltung, der den Funken überspringen lässt. <a href="#beruehmte-jerry-lewis">Jerry Lewis (SX7w6)</a> suchte die Verschmelzung mit dem Publikum bis ins hohe Alter.</p>
+          <p class="vb-intro">Der Unterschied: Heesters blieb beim Charme der Kunstfigur, Gottschalk und Lewis wirkten im Rampenlicht oft entspannter. Bei Carrell ist der Druck hinter der Leichtigkeit am deutlichsten dokumentiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten der sexuellen Sieben mit Sechserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt im Humor, in der Beobachtungsgabe und in der Bereitschaft, sich selbst auf die Schippe zu nehmen. Er lehnte Verklärung ab und hielt auch zu Krankheit und Tod eine nüchterne Haltung: Als er an Lungenkrebs erkrankte, sagte er sinngemäß, wenn er morgen sterbe, sei das auch in Ordnung.</p>
+          <p class="vb-intro">Der Schatten liegt im Druck hinter der Leichtigkeit und in den Folgen mancher Entscheidungen. Ein Beitrag in ›Rudis Tagesshow‹ 1987 zeigte per Bildmontage, wie es aussah, als würde man dem iranischen Revolutionsführer Chomeini Damenunterwäsche zuwerfen. Der deutsche Botschafter in Iran wurde einbestellt, Carrell und seine Familie erhielten Morddrohungen, und er entschuldigte sich. Auf die Frage, ob er das noch einmal machen würde, sagte er 2006: ›Auf keinen Fall.‹ 1980 war er nach einem Burnout für einige Monate nach Frankreich gezogen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Stand: gestorben am 7. Juli 2006 in Bremen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 23. Oktober 2026) starb Rudi Carrell am 7. Juli 2006 im Alter von 71 Jahren in Bremen an den Folgen einer Lungenkrebserkrankung, die er 2005 bestätigt hatte. Er hatte zuvor mit dem Rauchen aufgehört.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx7", label:"Lebensmusterkompass: SX7 – Schimpanse"},
+        {route:"beruehmte-johannes-heesters", label:"Porträt: Johannes Heesters (SX7w6)"},
+        {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
+        {route:"beruehmte-jerry-lewis", label:"Porträt: Jerry Lewis (SX7w6)"},
       ])}
     </div>
   `);

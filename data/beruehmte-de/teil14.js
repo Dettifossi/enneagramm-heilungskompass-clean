@@ -1546,6 +1546,7 @@ export function thomasGottschalkPortraitPage() {
         {route:"beruehmte-morgan-freeman", label:"Porträt: Morgan Freeman (SX7w6)"},
         {route:"beruehmte-wietske-van-tongeren", label:"Porträt: Wietske van Tongeren (SX7w6)"},
         {route:"beruehmte-volker-rosin", label:"Porträt: Volker Rosin (SX7w6)"},
+        {route:"beruehmte-rudi-carrell", label:"Porträt: Rudi Carrell (SX7w6)"},
       ])}
     </div>
   `);
