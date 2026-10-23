@@ -2782,7 +2782,7 @@ export function viggoMortensenPortraitPage() {
         <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit Rolle und Ort</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Die Neun sucht Verbindung und Frieden, und Claudio Naranjo beschrieb die <strong>sexuelle Neun (SX9)</strong> als den Subtyp der Vereinigung: Die Verschmelzung mit einer Person, einer Sache oder einem Ort steht im Mittelpunkt. Bei Mortensen zeigt sich das in der Hingabe an seine Rollen und Orte. Für ›Thirteen Lives‹ (2022) ließ er sich vom britischen Höhlentaucher Rick Stanton persönlich das Höhlentauchen beibringen. Seit 2009 ist er mit der spanischen Schauspielerin Ariadna Gil zusammen, die beiden leben in Madrid, außerdem hat er ein Anwesen in Sandpoint, Idaho.</p>
-          <p class="vb-intro">Die Verschmelzung zeigt sich auch in seiner Biografie: Wer als Kind in vier Ländern lebte, passt sich an und wird überall ein Stück zu Hause. Mortensen lebt in drei Sprachen und ist Mitglied der katalanischen Organisation Òmnium Cultural (seit 2018). Er unterstützt Fußballclubs in mehreren Ländern, darunter San Lorenzo de Almagro in Argentinien, Fulham und Real Madrid.</p>
+          <p class="vb-intro">Die Verschmelzung zeigt sich auch in seiner Biografie: Wer als Kind in vier Ländern lebte, lernt, sich anzupassen und überall Anschluss zu finden. Mortensen lebt in drei Sprachen und ist Mitglied der katalanischen Organisation Òmnium Cultural (seit 2018). Er unterstützt Fußballclubs in mehreren Ländern, darunter San Lorenzo de Almagro in Argentinien, Fulham und Real Madrid.</p>
         </blockquote>
 
         <h2 class="vb-section">3. Der Einserflügel: Prinzipien und Qualität</h2>

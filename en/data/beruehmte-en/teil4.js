@@ -2847,7 +2847,7 @@ export function viggoMortensenPortraitPage() {
         <h2 class="vb-section">2. The sexual Nine: merging with role and place</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The Nine seeks connection and peace, and Claudio Naranjo described the <strong>sexual Nine (SX9)</strong> as the subtype of union: merging with a person, a cause or a place is at the centre. In Mortensen this shows in his devotion to his roles and places. For &lsquo;Thirteen Lives&rsquo; (2022) he had the British cave diver Rick Stanton personally teach him cave diving. Since 2009 he has been with the Spanish actress Ariadna Gil, the two live in Madrid, and he also has a property in Sandpoint, Idaho.</p>
-          <p class="vb-intro">The merging also shows in his biography: someone who lived in four countries as a child adapts and becomes a little at home everywhere. Mortensen lives in three languages and has been a member of the Catalan organisation Òmnium Cultural since 2018. He supports football clubs in several countries, among them San Lorenzo de Almagro in Argentina, Fulham and Real Madrid.</p>
+          <p class="vb-intro">The merging also shows in his biography: someone who lived in four countries as a child learns to adapt and to find a footing anywhere. Mortensen lives in three languages and has been a member of the Catalan organisation Òmnium Cultural since 2018. He supports football clubs in several countries, among them San Lorenzo de Almagro in Argentina, Fulham and Real Madrid.</p>
         </blockquote>
 
         <h2 class="vb-section">3. The One-wing: principles and quality</h2>
