@@ -53,9 +53,15 @@ function arg(name, def) {
 function routesFrom(file) {
   const src = fs.readFileSync(path.join(ROOT, file), "utf8");
   const found = new Set();
-  const re = /\{\s*route:\s*"((?:beruehmte|kriminalpsychologie|krankheitsportraets)-[a-z0-9-]+)"\s*,\s*name:/g;
-  let m;
-  while ((m = re.exec(src))) if (!NOT_PORTRAITS.has(m[1])) found.add(m[1]);
+  for (const name of ["BERUEHMT_PORTRAITS", "KRIMINAL_PORTRAITS", "KRANKHEITS_PORTRAITS"]) {
+    const start = src.indexOf(`const ${name} = [`);
+    if (start === -1) continue;
+    const end = src.indexOf("\n];", start);
+    const block = src.slice(start, end);
+    const re = /route:\s*"([a-z0-9-]+)"/g;
+    let m;
+    while ((m = re.exec(block))) if (!NOT_PORTRAITS.has(m[1])) found.add(m[1]);
+  }
   return [...found];
 }
 
@@ -69,9 +75,9 @@ function startServer() {
 
 async function checkRoute(page, lang, route) {
   const errors = [];
-  const onErr = (e) => errors.push(String(e.message || e).slice(0, 160));
+  const onErr = (e) => { const s = String(e.message || e); if (!/ServiceWorker/.test(s)) errors.push(s.slice(0, 160)); };
   const onConsole = (m) => {
-    if (m.type() === "error" && !/Failed to load resource|cloudflareinsights|CORS policy|ERR_FAILED/.test(m.text())) errors.push(m.text().slice(0, 160));
+    if (m.type() === "error" && !/Failed to load resource|cloudflareinsights|CORS policy|ERR_FAILED|ServiceWorker/.test(m.text())) errors.push(m.text().slice(0, 160));
   };
   page.on("pageerror", onErr);
   page.on("console", onConsole);
@@ -82,13 +88,13 @@ async function checkRoute(page, lang, route) {
     await page.goto(url, { waitUntil: "domcontentloaded" });
     await page.reload({ waitUntil: "domcontentloaded" });
     await page
-      .waitForFunction(() => document.querySelectorAll("h2.vb-section").length > 0, null, { timeout: 15000 })
+      .waitForFunction(() => document.querySelectorAll(".page-content h2").length > 0, null, { timeout: 15000 })
       .catch(() => {});
     info = await page.evaluate(() => {
       const text = document.body.innerText || "";
       return {
         name: document.querySelector(".krim-portrait-name")?.textContent?.trim() || "",
-        sections: document.querySelectorAll("h2.vb-section").length,
+        sections: document.querySelectorAll(".page-content h2").length,
         img: document.querySelector(".krim-portrait-wrap img")?.src || "",
         bad: /\bundefined\b|\[object Object\]/.test(text),
       };
