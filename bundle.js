@@ -1,6 +1,6 @@
 // Register der nachladbaren Datenblöcke (muss vor den Einträgen in _LAZY_DATA stehen)
 const _LAZY_DATA = {};
-import { registerEntries, registerEntriesEN } from "./data/register.js?v=316";
+import { registerEntries, registerEntriesEN } from "./data/register.js?v=317";
 import { psychogrammErklaerung } from "./data/psychogramme-erklaerung.js?v=2";
 
 // ── Porträt-Seiten werden erst beim Aufruf geladen (statt alle beim Start) ─────────
@@ -48571,6 +48571,18 @@ function warumNeunHeilmittelPage() {
         <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
           <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Hinweis:</strong> Dieser Artikel beschreibt das Vorgehen der Enneagramm-Homöopathie und ersetzt keine ärztliche oder heilpraktische Beratung oder Behandlung.</p>
         </div>
+        <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .5rem;color:var(--ink);">Der Song dazu: ›Tiefer als die Masken‹</h2>
+          <p class="vb-intro" style="margin:0 0 .8rem;">Eine Hommage an die Enneagramm-Homöopathie: Die Maske gehört zum Typ, die Leidenschaft liegt tiefer.</p>
+          <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+            <iframe src="https://www.youtube.com/embed/A6xBEHS5F1c?rel=0&playsinline=1" title="Tiefer als die Masken – Hommage an die Enneagramm-Homöopathie" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </div>
+        ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("der-code-deiner-persoenlichkeit", "Wie sich der Enneagrammtyp entwickelt – und was er über unsere tiefsten Prägungen verrät.", "Der Code deiner Persönlichkeit")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("hinter-der-leidenschaft", "Die neun Wunden des Enneagramms – tiefgreifende Analyse der Urwunde hinter jeder Leidenschaft, mit konkreten Heilungswegen für alle 9 Typen.", "Hinter der Leidenschaft")}
+        ${bookTip("leidenschaft-und-heilung", "Die 9 Leidenschaften hinter den vermiedenen Gefühlen – mit Heilungswegen aus der homöopathischen Praxis.", "Leidenschaft und Heilung")}
         ${relatedLinks([
           {route:"enneagramm-homoeopathie", label:"Enneagramm meets Homöopathie"},
           {route:"yogi-tee-kompass", label:"Yogi-Tee-Kompass"},

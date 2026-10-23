@@ -11,7 +11,7 @@ _LAZY_DATA.beziehungen = { spec: "../data/beziehungspaarungen.js", assign: m => 
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=5";
 let SITUATIONSKOMPASS = null;
 _LAZY_DATA.situationskompass = { spec: "../data/situationskompass.js", assign: m => { SITUATIONSKOMPASS = m.SITUATIONSKOMPASS; } };
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=314";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=315";
 import { psychogrammErklaerung } from "../data/psychogramme-erklaerung.js?v=2";
 import { TIERENTSPRECHUNGEN_EN as TIERENTSPRECHUNGEN } from "../data/tierentsprechungen_en.js?v=1";
 import { VERHALTEN_EN as VERHALTEN } from "../data/verhalten_en.js?v=1";
@@ -5743,6 +5743,7 @@ text.nav = [
     { route: "subtyp-motivationsquiz", label: "Subtype Motivation Quiz (guess motivation-driven behavior)" },
     { heading: "Enneagram Meets … (Healing & Interpretation)" },
     { route: "enneagramm-homoeopathie", label: "Enneagram Meets Homeopathy" },
+    { route: "signaturenlehre-enneagramm-heilmittel", label: "The 9 Enneagram Remedies & the Doctrine of Signatures" },
     { route: "warum-nur-9-heilmittel", label: "Why Only 9 Enneagram Remedies and Not 27?" },
     { route: "enneagramm-reflexzonentherapie", label: "Enneagram Meets Reflexology" },
     { route: "enneagramm-akupunktur", label: "Enneagram Meets Acupuncture" },
@@ -5752,6 +5753,8 @@ text.nav = [
     { route: "enneagramm-astrologie", label: "Enneagram meets Astrology" },
     { route: "yogi-tee-kompass", label: "Yogi Tea Compass (teas for 9 types & 27 subtypes)" },
     { heading: "Enneagram in Culture & World" },
+    { route: "ennead-enneagramm", label: "The Ennead of Heliopolis and the Enneagram" },
+    { route: "navagraha-enneagramm", label: "Navagraha and the Enneagram" },
     { route: "enneagramm-odyssee", label: "Enneagram Meets the Odyssey" },
     { route: "enneagramm-wohnraumarchitektur", label: "Enneagram Meets Interior Architecture" },
     { route: "enneagramm-zimmerpflanzen", label: "Enneagram Meets Houseplants" },
@@ -25827,11 +25830,471 @@ function warumNeunHeilmittelPage() {
         <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
           <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Note:</strong> This article describes the approach of Enneagram homeopathy and does not replace medical or naturopathic advice or treatment.</p>
         </div>
+        <div class="vb-section" style="max-width:100%;margin-top:1.8rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .5rem;color:var(--ink);">The song for it: ‘Tiefer als die Masken’</h2>
+          <p class="vb-intro" style="margin:0 0 .8rem;">A tribute to Enneagram homeopathy (song in German): the mask belongs to the type, the passion lies deeper.</p>
+          <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+            <iframe src="https://www.youtube.com/embed/A6xBEHS5F1c?rel=0&playsinline=1" title="Tiefer als die Masken (Deeper Than the Masks) – a tribute to Enneagram homeopathy" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+          </div>
+        </div>
+        ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("der-code-deiner-persoenlichkeit", "How the Enneagram type develops &ndash; and what it reveals about our deepest imprints.", "Der Code deiner Persönlichkeit")}
+        ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+        ${bookTip("hinter-der-leidenschaft", "The nine wounds of the Enneagram – an in-depth analysis of the primal wound behind each passion, with concrete healing paths for all 9 types.", "Hinter der Leidenschaft")}
+        ${bookTip("leidenschaft-und-heilung", "The 9 passions behind these avoided emotions &ndash; with paths of healing from homeopathic practice.", "Leidenschaft und Heilung")}
         ${relatedLinks([
           {route:"enneagramm-homoeopathie", label:"Enneagram Meets Homeopathy"},
           {route:"yogi-tee-kompass", label:"Yogi Tea Compass"},
           {route:"leidenschaft-und-wunde", label:"Passion and Wound"},
           {route:"bedeutung-27-subtypen", label:"Why the 27 Subtypes Matter"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function enneagrammEnneadPage() {
+  const GOETTER = [
+    { name: "Atum", domain: "Creation", text: "The self-created primordial god from whose solitude all eight other gods emerge. As Re-Atum also the sun god of midday." },
+    { name: "Shu", domain: "Air &amp; Space", text: "Separates heaven and earth and thereby creates the space in which everything else can unfold." },
+    { name: "Tefnut", domain: "Moisture", text: "Shu's twin sister, principle of dew, rain and mildness – the gentle counterpart to dry air." },
+    { name: "Geb", domain: "Earth", text: "The earth god, unusually male in Egyptian mythology – the firm, bearing foundation on which all life rests." },
+    { name: "Nut", domain: "Sky", text: "The sky goddess who arches over Geb at night, swallows the sun every evening and gives birth to it anew every morning – an image of endless expanse and renewal." },
+    { name: "Osiris", domain: "Order &amp; Kingship", text: "God of cosmic order, agriculture and judgment of the dead – killed by Seth, put back together by Isis, an image of the restoration of what is right." },
+    { name: "Isis", domain: "Magic &amp; Care", text: "The devoted wife who puts Osiris's body back together and revives him through magic – archetype of maternal healing power." },
+    { name: "Seth", domain: "Chaos &amp; Storm", text: "God of the desert, the storm and open conflict – a necessary counterforce to order, not simply “the evil one”." },
+    { name: "Nephthys", domain: "Mourning &amp; Threshold", text: "The quiet, often overlooked sister of the radiant Isis – guardian of the transitions between life and death, of the hidden." },
+  ];
+  function godCard(g) {
+    return `<div class="vb-section" style="max-width:100%;border:1px solid var(--line);border-radius:12px;padding:.95rem 1.05rem;background:color-mix(in srgb, var(--copper) 4%, var(--paper));">
+      <div style="font-weight:700;font-size:1rem;color:var(--ink);margin:0 0 .15rem;">${g.name}</div>
+      <div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--copper);margin:0 0 .4rem;">${g.domain}</div>
+      <p style="font-size:.85rem;color:var(--muted);margin:0;">${g.text}</p>
+    </div>`;
+  }
+  const TABELLE = [
+    { typ: "1", gott: "Osiris", text: "Both stand for the striving for cosmic order and righteousness – Osiris as judge of the dead, the One as an inner measure of right and wrong." },
+    { typ: "2", gott: "Isis", text: "The devoted, healing care that defines itself through the well-being of another is the same basic movement in both figures." },
+    { typ: "3", gott: "Atum", text: "The self-created, radiant primordial god mirrors the Three's self-image: becoming a shining centre by one's own power." },
+    { typ: "4", gott: "Nephthys", text: "The quiet goddess of mourning and transition, standing in the shadow of her radiant sister, meets the Four's longing for what is special in pain." },
+    { typ: "5", gott: "Shu", text: "Shu creates distance between heaven and earth – exactly the space the Five also needs to grasp the world from a safe distance." },
+    { typ: "6", gott: "Geb", text: "The bearing, firm earth as an image of what the Six seeks at its core: reliable ground under the feet." },
+    { typ: "7", gott: "Nut", text: "The endless, star-studded sky goddess who renews herself daily mirrors the expanse and wealth of possibilities that the Seven seeks." },
+    { typ: "8", gott: "Seth", text: "Raw strength, confrontation and the refusal to bend – Seth's nature and the Eight's assertiveness lie close together." },
+    { typ: "9", gott: "Tefnut", text: "The mild, conciliatory counterpart to Shu that fits in effortlessly without dissolving – an image of the Nine's merging, peaceful way." },
+  ];
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('ennead-enneagramm')}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; Enneagram in Culture &amp; World</p>
+        <h1 class="section-title">The Ennead of Heliopolis and the Enneagram</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">Two systems of nine, separated by four thousand years</h2>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="../assets/schaubilder/ennead-enneagramm/ennead-enneagramm.jpg" alt="Nine Egyptian god statues in a circle around a glowing Enneagram symbol in a temple courtyard at sunset" style="width:100%;display:block;" loading="lazy" />
+        </div>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">“Ennead” is the Greek term for a group of nine (<em>ennéas</em>, from <em>ennéa</em> = nine) – the same word stem that is also in the word “Enneagram” (<em>ennéa</em> + <em>grámma</em>, “nine-sign”). The Greek scholars of antiquity used “Ennead” as a fixed technical term whenever a religion or philosophy knew nine related principles – best known for the nine gods of Heliopolis in ancient Egypt.</p>
+          <p class="vb-intro">The Enneagram describes far more than just the human psyche. The nine basic principles it depicts are regarded as a universal ordering number that one meets on all levels of creation – in the plant and animal world just as once in the number of the classical planets of our solar system, when Pluto was still counted. The human personality with its nine types is thus only one application, though the most important for the practice of this app, of a far more comprehensive cosmic pattern.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.15rem;margin:0 0 1.2rem;">The nine gods of Heliopolis</h2>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0 0 1.4rem;">In the Egyptian city of Heliopolis (in the Old Kingdom, around 2600 BC, first documented in writing in the Pyramid Texts) the priests developed a doctrine of creation that unfolds the whole cosmos from a single primordial substance in nine successive generations: Atum begets Shu and Tefnut from himself, they beget Geb and Nut, and from their union finally Osiris, Isis, Seth and Nephthys emerge. Each deity embodies an independent cosmic principle – and yet all nine together form a closed, genealogically connected whole.</p>
+
+        <div style="display:flex;flex-direction:column;align-items:center;gap:.5rem;margin:1.2rem 0 2rem;font-family:-apple-system,BlinkMacSystemFont,sans-serif;">
+          <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;">
+            <div style="background:color-mix(in srgb, var(--copper) 12%, var(--paper));border:1px solid var(--copper);border-radius:10px;padding:.5rem 1.1rem;font-size:.85rem;font-weight:700;color:var(--copper);">Atum</div>
+          </div>
+          <div style="font-size:.75rem;color:var(--muted);">begets from himself</div>
+          <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;">
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Shu</div>
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Tefnut</div>
+          </div>
+          <div style="font-size:.75rem;color:var(--muted);">beget</div>
+          <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;">
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Geb</div>
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Nut</div>
+          </div>
+          <div style="font-size:.75rem;color:var(--muted);">beget</div>
+          <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;">
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Osiris</div>
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Isis</div>
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Seth</div>
+            <div style="background:var(--paper-raised, #fff);border:1px solid var(--line);border-radius:10px;padding:.5rem .9rem;font-size:.82rem;font-weight:600;color:var(--ink);">Nephthys</div>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.9rem;margin-bottom:2rem;">
+          ${GOETTER.map(godCard).join('')}
+        </div>
+
+        <h2 class="section-title" style="font-size:1.15rem;margin:0 0 1rem;">A playful comparison</h2>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0 0 1.2rem;">It is on exactly this level – as two independent attempts to divide a whole into nine related basic forces – that the Ennead of Heliopolis can be set against the Enneagram. This table is expressly a modern, interpretive analogy and not a historical claim: the priests of Heliopolis knew no typology of character. But with a little attention one can see how certain traits of the nine deities point to the nine basic forces that also appear in the Enneagram as human types.</p>
+        <div style="overflow-x:auto;">
+          <table style="width:100%;border-collapse:collapse;font-size:.88rem;margin:0 0 1.6rem;">
+            <thead>
+              <tr>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Type</th>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Deity</th>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">The resonance</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${TABELLE.map(r => `
+              <tr>
+                <td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">${r.typ}</td>
+                <td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">${r.gott}</td>
+                <td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">${r.text}</td>
+              </tr>`).join("")}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:.5rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+          <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Context without determinism:</strong> This comparison makes no claim to historical or esoteric truth. It merely shows how two cultures that knew nothing of each other reached independently for the same number to divide a complex whole into nine distinguishable forces – further evidence that nine is apparently a universal ordering number for multilayered systems, reaching far beyond the human psyche.</p>
+        </div>
+
+        ${relatedLinks([
+          {route:"navagraha-enneagramm", label:"Navagraha and the Enneagram"},
+          {route:"planetenzuordnungen", label:"Planets &amp; Moons of the Solar System"},
+          {route:"enneagramm-odyssee", label:"Enneagram Meets the Odyssey"},
+          {route:"enneagramm-astrologie", label:"Enneagram meets Astrology"},
+          {route:"enneagramm-bibel", label:"The Enneagram in the Mirror of the New Testament"},
+          {route:"wunden", label:"The 9 Wounds of the Enneagram Types"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function enneagrammNavagrahaPage() {
+  const GRAHAS = [
+    { name: "Surya", sanskrit: "Sun", domain: "Soul &amp; Authority", text: "Centre of the horoscope, seat of the ego and vitality – radiant self-assertion, claim to leadership, the father." },
+    { name: "Chandra", sanskrit: "Moon", domain: "Mind &amp; Receptivity", text: "Has no light of its own but only reflects that of the sun – an image of feeling, mother, adaptation and constant inner movement." },
+    { name: "Mangala", sanskrit: "Mars", domain: "Strength &amp; Drive", text: "Energy, courage, assertiveness and open conflict – the raw, acting force of the horoscope." },
+    { name: "Budha", sanskrit: "Mercury", domain: "Intellect &amp; Analysis", text: "Sober intellect, communication and observation – the coolest, least emotional of all Grahas." },
+    { name: "Guru", sanskrit: "Jupiter", domain: "Expansion &amp; Wisdom", text: "The “great benefactor”: optimism, abundance, teaching and the belief in ever new possibilities." },
+    { name: "Shukra", sanskrit: "Venus", domain: "Love &amp; Harmony", text: "Affection, beauty, relationship and the wish to give and receive joy." },
+    { name: "Shani", sanskrit: "Saturn", domain: "Discipline &amp; Duty", text: "The strict teacher: structure, renunciation, perseverance and the incorruptible conscience that holds on to rules." },
+    { name: "Rahu", sanskrit: "Ascending lunar node", domain: "Desire &amp; Restlessness", text: "Not a celestial body but a shadow point – stands for restless craving, obsession and worry heightened to excess." },
+    { name: "Ketu", sanskrit: "Descending lunar node", domain: "Detachment &amp; Longing", text: "The counter-pole to Rahu – withdrawal, spiritual longing and a diffuse feeling that something essential is missing." },
+  ];
+  function grahaCard(g) {
+    return `<div class="vb-section" style="max-width:100%;border:1px solid var(--line);border-radius:12px;padding:.95rem 1.05rem;background:color-mix(in srgb, var(--copper) 4%, var(--paper));">
+      <div style="font-weight:700;font-size:1rem;color:var(--ink);margin:0 0 .15rem;">${g.name}</div>
+      <div style="font-size:.78rem;color:var(--copper);font-style:italic;margin:0 0 .3rem;">${g.sanskrit}</div>
+      <div style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);opacity:.65;margin:0 0 .4rem;">${g.domain}</div>
+      <p style="font-size:.85rem;color:var(--muted);margin:0;">${g.text}</p>
+    </div>`;
+  }
+  const TABELLE = [
+    { typ: "1", graha: "Shani (Saturn)", text: "The strict inner judge who holds on to rules, duty and discipline – Saturn's domain is exactly the terrain of the One." },
+    { typ: "2", graha: "Shukra (Venus)", text: "Turning toward the other through love, affection and the wish to give joy – entirely in the spirit of Venus." },
+    { typ: "3", graha: "Surya (Sun)", text: "The sun has no light to hide, it shines from its own power into the centre – the Three's need to shine and be seen." },
+    { typ: "4", graha: "Ketu", text: "The diffuse longing for what is missing, the withdrawal from the ordinary world into the special – Ketu's melancholy hits the Four exactly." },
+    { typ: "5", graha: "Budha (Mercury)", text: "The coolest, least emotional Graha – pure intellect, observation and analysis instead of immediate participation." },
+    { typ: "6", graha: "Rahu", text: "Restless worry heightened to excess and the circling around possible dangers – Rahu's unrest is familiar to the Six." },
+    { typ: "7", graha: "Guru (Jupiter)", text: "The great benefactor who always promises new possibilities and abundance – Jupiter's optimism is the basic mood of the Seven." },
+    { typ: "8", graha: "Mangala (Mars)", text: "Raw strength, immediate assertion and the readiness for open confrontation – Mars and the Eight speak the same language." },
+    { typ: "9", graha: "Chandra (Moon)", text: "Without light of its own, only a reflection of the sun, always in tune with what happens around it – a fitting image for the merging Nine." },
+  ];
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('navagraha-enneagramm')}
+      <div class="page-content">
+        <p class="eyebrow">Knowledge &middot; Enneagram in Culture &amp; World</p>
+        <h1 class="section-title">Navagraha and the Enneagram</h1>
+        <h2 class="section-title" style="font-size:1.2rem;font-weight:600;margin:0 0 1.4rem;color:var(--muted);">The nine “graspers” of Vedic astrology</h2>
+
+        <div style="margin:0 0 2rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="../assets/schaubilder/navagraha-enneagramm/navagraha-enneagramm.jpg" alt="The nine Grahas as deity figures in a circle around a glowing Enneagram symbol against a starry sky" style="width:100%;display:block;" loading="lazy" />
+        </div>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">“Navagraha” is composed of the Sanskrit <em>nava</em> (nine) and <em>graha</em> (literally “grasper”, “that which seizes”) – meaning the nine celestial forces which, according to the Vedic conception, “seize” a person's fate at the moment of birth and shape it from then on. Vedic astrology, called Jyotish, has counted exactly nine such Grahas for over two thousand years – not by chance, but because seven of them are the lights visible to the naked eye (sun, moon and the five classical planets) and the other two are not celestial bodies but mathematical points of the moon's orbit: Rahu and Ketu, the lunar nodes. Uranus, Neptune and Pluto, discovered only with the telescope, have deliberately not been included in traditional Jyotish practice to this day – nine stayed nine.</p>
+        </blockquote>
+
+        <h2 class="section-title" style="font-size:1.15rem;margin:0 0 1.2rem;">The nine Grahas at a glance</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.9rem;margin-bottom:2rem;">
+          ${GRAHAS.map(grahaCard).join('')}
+        </div>
+
+        <h2 class="section-title" style="font-size:1.15rem;margin:0 0 1rem;">A playful comparison</h2>
+        <p style="font-size:0.9rem;color:var(--muted);line-height:1.6;margin:0 0 1.2rem;">This assignment is a modern, interpretive analogy, not a handed-down doctrine of the Jyotish tradition itself – and independent of any existing assignment to Western astrology in this app. It shows how the classical meanings of the nine Grahas touch the nine basic motivations of the Enneagram.</p>
+        <div style="overflow-x:auto;">
+          <table style="width:100%;border-collapse:collapse;font-size:.88rem;margin:0 0 1.6rem;">
+            <thead>
+              <tr>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Type</th>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Graha</th>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">The resonance</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${TABELLE.map(r => `
+              <tr>
+                <td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">${r.typ}</td>
+                <td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">${r.graha}</td>
+                <td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">${r.text}</td>
+              </tr>`).join("")}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:.5rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+          <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Context without determinism:</strong> This comparison, too, makes no claim to astrological or historical truth. It merely shows how two independent traditions – Vedic astrology and the modern Enneagram – distinguish nine basic forces of human experience in a surprisingly similar way. Another example of nine as a universal ordering number that recurs across cultures.</p>
+        </div>
+
+        ${relatedLinks([
+          {route:"ennead-enneagramm", label:"The Ennead of Heliopolis and the Enneagram"},
+          {route:"enneagramm-astrologie", label:"Enneagram meets Astrology"},
+          {route:"planetenzuordnungen", label:"Planets &amp; Moons of the Solar System"},
+          {route:"wunden", label:"The 9 Wounds of the Enneagram Types"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function signaturenlehreEnneagrammHeilmittelPage() {
+  function typBox(nr, farbe, mittel, beiname, facts, imgSlug) {
+    const imgHtml = imgSlug ? `
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/signaturenlehre/${imgSlug}.jpg" onerror="this.onerror=null;this.src='/assets/signaturenlehre/${imgSlug}.jpg'" alt="Historical pharmacy/collection label: ${mittel}" style="display:block;max-width:100%;height:auto;border-radius:8px;margin-bottom:1rem;border:1px solid var(--line);" loading="lazy">` : '';
+    return `
+        <div class="vb-section" style="max-width:100%;border:1.5px solid ${farbe}22;border-left:4px solid ${farbe};border-radius:10px;padding:1.3rem 1.5rem;margin:0 0 1.6rem;">
+          <div style="display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;margin-bottom:.9rem;">
+            <span style="font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:${farbe};padding:.2rem .6rem;border-radius:20px;">Type ${nr}</span>
+            <h3 style="font-family:Georgia,'Times New Roman',serif;font-size:1.2rem;margin:0;color:var(--ink);">${mittel} <span style="font-size:.88rem;color:${farbe};font-weight:700;">– ${beiname}</span></h3>
+          </div>
+          ${imgHtml}
+          <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:.8rem;">
+            ${facts.map(f => `<li style="font-size:.92rem;line-height:1.6;padding-left:1.1rem;position:relative;"><span style="position:absolute;left:0;color:${farbe};">–</span>${f}</li>`).join('')}
+          </ul>
+        </div>`;
+  }
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('signaturenlehre-enneagramm-heilmittel')}
+      <div class="page-content">
+        <button class="ghost-link" data-route="enneagramm-homoeopathie" style="margin-bottom:1.2rem;">← Back to Enneagram Meets Homeopathy</button>
+        <p class="eyebrow">Knowledge · Healing Arts</p>
+        <h1 class="section-title">The Nine Enneagram Remedies in the Light of the Doctrine of Signatures</h1>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">The <strong>doctrine of signatures</strong> is a centuries-old observation that Paracelsus already put into the formula: <em>“Nature marks each of its plants with the stamp of its power.”</em> The form, origin and character of a substance – whether plant, mineral or animal – thus reveal something about its healing action. In homeopathy this idea lives on to this day: the way a substance appears and acts in nature is reflected in the “remedy picture”.</p>
+          <p class="vb-intro"><strong>Enneagram homeopathy</strong> goes a step further: since each of the nine Enneagram types rests on a basic passion, exactly one homeopathic “passion remedy” can be found for each of these nine passions, whose signature coincides strikingly precisely with the psychological pattern of the respective type. In what follows these nine assignments are presented – from the noble metal platinum for Type 1 to Indian hemp for Type 9, with facts from classical materia medica and cultural history, each related directly to the type pattern.</p>
+        </blockquote>
+
+        ${typBox(1, "#a5603d", "Platinum metallicum", "the noble metal", [
+          `Platinum makes up only about 0.000005 ppm of the earth's crust – rarer than gold. <em style="color:var(--muted);">The One often experiences themselves as something special that stands out through purity rather than loudness.</em>`,
+          `Spanish conquistadors took it for “unripe silver” (hence the name, from Spanish “platina”) because it resisted their furnaces – its true value was recognised only later. <em style="color:var(--muted);">The One is often underestimated; their value shows only on closer inspection.</em>`,
+          `Melting point 1768 °C – far higher than gold or silver. <em style="color:var(--muted);">The inner heat (the One's suppressed anger) needs enormous “temperature” even to become visible.</em>`,
+          `Chemically almost inert: resists almost all acids except aqua regia. <em style="color:var(--muted);">Criticism rolls off the One's facade, even when it seethes inside.</em>`,
+          `Hahnemann described the remedy picture himself: a feeling of superiority, contempt for “ordinary” people – followed by sudden self-doubt. <em style="color:var(--muted);">The One's inner judge judges now outward, now inward.</em>`,
+          `Traditional material for wedding rings – a symbol of imperishability because it does not tarnish. <em style="color:var(--muted);">The One seeks permanence and reliability, in relationships as in the moral compass.</em>`,
+          `Indispensable in catalyst technology: it enables reactions without being consumed itself. <em style="color:var(--muted);">The One often acts as a catalyst for improvement in their surroundings – drives change but remains rigid themselves.</em>`,
+          `More than twice as dense as lead. <em style="color:var(--muted);">Behind the One's calm surface lies an enormous “density” of pent-up tension.</em>`,
+          `Almost never occurs pure in nature but in alloys – “purity” arises only through elaborate refining. <em style="color:var(--muted);">The One too has to work for their integrity actively; it is not a natural state but constant “refinement”.</em>`,
+          `The platinum metals (iridium, palladium, rhodium, ruthenium, osmium) almost always occur together in nature, never in isolation. <em style="color:var(--muted);">The One often feels truly understood only in the circle of others of similarly high standards – a small “elite” of like-minded people.</em>`,
+          `Over 80% of the world's platinum deposits lie in a single geological formation in South Africa, the Bushveld Complex – elsewhere in the world the substance is practically not to be found. <em style="color:var(--muted);">The One's passion, anger, feeds on exactly this feeling of concentration: only in one single, self-chosen place – their own inner standard – lies the “real”, unadulterated right.</em>`,
+          `In classical materia medica (Kent) the Platinum picture is explicitly described as “haughtiness” and “contempt for others” – paired with numb, reduced bodily sensation, as if the head stood above one's own feeling. <em style="color:var(--muted);">The One often separates intellect and feeling to keep control of themselves.</em>`,
+          `The term “platinum standard” is placed linguistically even above the better-known “gold standard” – the highest conceivable benchmark. <em style="color:var(--muted);">The One often applies to themselves a standard that lies even above the generally usual “gold standard”.</em>`,
+        ], "platinum-metallicum")}
+
+        ${typBox(2, "#b3447c", "Hyoscyamus niger", "black henbane", [
+          `Like thorn apple (Type 5) and deadly nightshade (Type 7) it belongs to the nightshade family – three Enneagram remedies from the same botanical family. <em style="color:var(--muted);">Withdrawal, intensity and longing for closeness share a common material root.</em>`,
+          `Contains hyoscyamine and scopolamine; in the Middle Ages a component of witches' ointments to which “flying experiences” were attributed. <em style="color:var(--muted);">In extreme states the Two too can lose their footing, swept away by the longing for merging.</em>`,
+          `Named “niger” (black) because of the dark-veined flowers and the foul smell of the whole plant. <em style="color:var(--muted);">Behind the facade of affection, manipulation can also hide in the Two's shadow.</em>`,
+          `Used in antiquity as an anaesthetic before operations, long before modern anaesthetics. <em style="color:var(--muted);">The Two often “numbs” their own needs in order to be completely there for others.</em>`,
+          `Classic keynote symptom in toxic dose: boundless, shameless behaviour (e.g. undressing in public). <em style="color:var(--muted);">The Two's shadow side shows in the loss of control over boundaries – their own and those of others.</em>`,
+          `Materia medica describes Hyoscyamus patients as jealous and plagued by the fear of being abandoned. <em style="color:var(--muted);">This matches almost word for word the Two's basic fear.</em>`,
+          `Prefers to grow on rubble and wasteland, close to human settlements. <em style="color:var(--muted);">The Two too is strongly oriented toward others; their “habitat” is the relationship.</em>`,
+          `Henbane seeds were found in Neolithic burial sites in Europe – a hint of a ritual use reaching back millennia. <em style="color:var(--muted);">The Two often seeks a deep, almost timeless form of connection that goes beyond the purely present.</em>`,
+          `The name derives from the Greek “hyos kyamos” – “pig's bean”, because pigs can supposedly eat the plant unharmed while it is poisonous to humans. <em style="color:var(--muted);">Something that looks harmless and nourishing on the outside can have a quite different effect in hiding – an image for the Two's shadow side, which gives affection but also demands it.</em>`,
+          `The typical toxic symptomatology is summarised in the English-speaking world by the mnemonic “red as a beet, dry as a bone, mad as a hatter” – flushed skin, dry mouth, disinhibited behaviour. <em style="color:var(--muted);">The Two's facade of care can in the extreme case tip into conspicuous, boundary-crossing behaviour.</em>`,
+          `Henbane oil was used externally in folk medicine for centuries against toothache, dropped directly onto the aching gum – relief only through direct bodily contact, not from a distance. <em style="color:var(--muted);">This is exactly the Two's basic strategy: affection must arrive physically, directly and tangibly to count as real love – given from afar, it does not feel sufficient to the Two.</em>`,
+        ], "hyoscyamus-niger")}
+
+        ${typBox(3, "#2f8f5b", "Tarentula hispanica", "the Spanish tarantula", [
+          `The name goes back to the city of Taranto, where people believed the bite of the wolf spider triggered “tarantism”, curable only by dancing for days (tarantella). <em style="color:var(--muted);">The Three “dances” against inner restlessness – through activity instead of standstill.</em>`,
+          `The bite is mostly harmless to humans; “tarantism” is regarded today rather as a cultural outlet phenomenon. <em style="color:var(--muted);">In the Three too, visible busyness is often more expression than necessity.</em>`,
+          `Remedy picture: extreme restlessness that improves through music and rhythm. <em style="color:var(--muted);">The Three lives for resonance and applause – the beat of success drives them.</em>`,
+          `Patients are regarded as charming outwardly, with a hidden, destructive “double nature”. <em style="color:var(--muted);">The Three's image can shine while calculation goes on in the background.</em>`,
+          `Spider silk is more elastic than steel of the same weight – one of the most tear-resistant natural materials. <em style="color:var(--muted);">The Three's resilience under pressure is remarkable – they almost always “function”.</em>`,
+          `Wolf spiders hunt actively instead of waiting in webs. <em style="color:var(--muted);">The Three pursues goals purposefully instead of waiting.</em>`,
+          `True wolf spiders carry their freshly hatched young by the dozen piggyback on their own back. <em style="color:var(--muted);">The Three often juggles many projects and roles at once, always visibly in motion.</em>`,
+          `The tarantella dance tradition survived in parts of southern Italy into the 20th century, with specially hired musicians who were supposed to heal the supposedly “bitten”. <em style="color:var(--muted);">The stage on which the Three shines can also be a socially accepted outlet for inner pressure.</em>`,
+          `Wolf spiders have unusually good eyesight for spiders; their eyes reflect light so strongly at night that researchers locate them with plain flashlights – in any dark place exactly this animal produces two glowing points that immediately draw attention. <em style="color:var(--muted);">The Three's passion, deceit, needs exactly this “glow”: visibility and attention are for them not a side effect but the actual confirmation of existing and being valuable.</em>`,
+          `The bite of the European tarantula is in fact largely harmless to humans; the myth of its dangerousness was largely decoupled from real toxicology. <em style="color:var(--muted);">Image and substance fall apart in this animal – a striking mirror of the Three, in whom outward appearance sometimes takes up more room than actual content.</em>`,
+        ], "tarentula-hispanica")}
+
+        ${typBox(4, "#6a4fa0", "Ignatia amara", "the St Ignatius bean", [
+          `Comes from the strychnine tree (Strychnos ignatii) of the Philippines, named after Ignatius of Loyola – Jesuits brought it to Europe in the 17th century. <em style="color:var(--muted);">The remedy carries a deep, almost religious weight of meaning already in its name – typical of the Four.</em>`,
+          `Contains, like the related poison nut (Nux vomica), strychnine, but acts psychologically quite differently: gently, paradoxically. <em style="color:var(--muted);">The Four too often seems paradoxical – delicate and vulnerable, but with enormous inner intensity.</em>`,
+          `Central keynote symptom: “lump in the throat” from suppressed grief, accompanied by sighing. <em style="color:var(--muted);">The Four often carries an unspoken pain “stuck in the throat”.</em>`,
+          `Paradoxical reaction to consolation: sympathy from outside can worsen the symptoms instead of easing them. <em style="color:var(--muted);">The Four often feels misunderstood, even with well-meant consolation.</em>`,
+          `Classically the homeopathic “lovesickness remedy” – prescribed for acute, fresh separation pain. <em style="color:var(--muted);">The loss of the idealised is often a central biographical theme for the Four.</em>`,
+          `Paradoxical change of taste in the remedy picture: sweet can seem bitter and vice versa. <em style="color:var(--muted);">The Four often experiences the world through a filter of their own – the banal becomes significant, the significant banal.</em>`,
+          `The genus Strychnos also includes the curare liana from which South American hunters made arrow poison – the same plant family thus supplies both deadly poison and a fine remedy for the soul. <em style="color:var(--muted);">The span between extremes – rapture and despair, idealisation and disappointment – is familiar to the Four.</em>`,
+          `The seeds are extremely hard and bitter and have to be elaborately ground before processing. <em style="color:var(--muted);">Behind an at first brittle, hard-to-access shell, something very precious often hides in the Four.</em>`,
+          `In classical repertories Ignatia is among the first remedies listed under “complaints from grief, disappointed love or shock”. <em style="color:var(--muted);">The loss of the idealised is for the Four a recurring, almost archetypal theme.</em>`,
+          `A rather unexpected keynote symptom: the complaints paradoxically improve through eating – a comfort behaviour that stands out in the otherwise so “sorrowful” remedy description. <em style="color:var(--muted);">The Four too seeks little islands of comfort amid big feelings.</em>`,
+        ], "ignatia-amara")}
+
+        ${typBox(5, "#3a7ca5", "Stramonium", "the thorn apple", [
+          `One of the most poisonous plants native to Europe – a few seeds can be fatal to children. <em style="color:var(--muted);">The Five often experiences the world as potentially overwhelming – hence the withdrawal.</em>`,
+          `The name “thorn apple” refers to the spiny fruit capsule. <em style="color:var(--muted);">The Five protects themselves with their own “thorns”: distance, reserve, intellectual withdrawal.</em>`,
+          `In overdose: characteristic horror hallucinations, fear of persecution, together with a strong need for light as comfort. <em style="color:var(--muted);">The Five's primal fear of an overwhelming outer world shows almost pictorially.</em>`,
+          `Historically used by indigenous North American cultures in initiation rituals and in Ayurveda for visionary states. <em style="color:var(--muted);">The Five's inner withdrawal can lead to a kind of inner “vision”, far from the outer world.</em>`,
+          `Keynote symptom: in the acute state of fear – other than expected – company and light are sought, not avoided. <em style="color:var(--muted);">Even the withdrawal-oriented Five can develop in real crises the urgent need for a safe counterpart.</em>`,
+          `The active substance scopolamine is still used in micro-doses against travel sickness. <em style="color:var(--muted);">The Five too prefers to “dose” the world in small, controlled portions.</em>`,
+          `In 1676 British soldiers in colonial Jamestown accidentally poisoned themselves with thorn apple leaves in a salad – days of bizarre behaviour, documented by a contemporary; hence the English name “Jimsonweed”. <em style="color:var(--muted);">A famous historical case in which the line between a harmless plant and complete estrangement from reality was razor-thin.</em>`,
+          `The flowers of the thorn apple open only at dusk and close again at sunrise – they are pollinated by night moths. <em style="color:var(--muted);">A plant literally oriented toward darkness – an echo of the Five, who often prefers night and withdrawal to the bright stage.</em>`,
+          `The remedy picture shows a pronounced flight impulse – the urge to climb out of windows or run away, driven by fear. <em style="color:var(--muted);">Under overload the Five can develop a very similar inner flight reflex as soon as their own boundaries are crossed.</em>`,
+          `Scopolamine patches are prescribed today against travel nausea, but in higher historical doses the substance was also associated with so-called “truth serums” in interrogations. <em style="color:var(--muted);">An uncomfortable parallel to the Five's primal fear of being seen through or exposed against their will.</em>`,
+        ], "stramonium")}
+
+        ${typBox(6, "#c4871a", "Opium", "the opium poppy", [
+          `Obtained from the milky sap of the opium poppy – cultivated by the Sumerians over 5000 years ago as the “plant of joy”. <em style="color:var(--muted);">The Six's longing for safety found here a millennia-old “shortcut”.</em>`,
+          `Active substances morphine and codeine, named after Morpheus, the Greek god of dreams. <em style="color:var(--muted);">The Six sometimes “dreams” themselves out of their own fear instead of confronting it.</em>`,
+          `Keynote symptom: patients play down even severe symptoms – “I'm fine” despite serious illness. <em style="color:var(--muted);">Typically phobic Six: the danger is repressed instead of confronted.</em>`,
+          `Historically the trigger of the Opium Wars of the 19th century – a single plant changed world trade and the history of war. <em style="color:var(--muted);">The need for safety behind this signature can lead to enormous upheavals, on a large as on a small scale, when it is perverted.</em>`,
+          `Classical in homeopathy for states of shock after accidents – when someone is as if numbed and unable to react. <em style="color:var(--muted);">Under extreme stress the Six can fall into a kind of inner “state of shock”, of freezing.</em>`,
+          `Poppy seeds themselves (without milky sap) are practically free of active substances and entirely legal in the kitchen – only the milky sap of the unripe capsule is active. <em style="color:var(--muted);">In the Six the difference between healthy caution and paralysing fear often lies in the “dose”.</em>`,
+          `Sumerian clay tablets from around 3400 BC already call the opium poppy “Hul Gil” – the “plant of joy”, cultivated deliberately to dampen discomfort. <em style="color:var(--muted);">The Six's passion, fear, has always sought exactly this shortcut: not solving the threat itself but numbing the feeling of threat.</em>`,
+          `Materia medica describes for the Opium state an almost complete painlessness – even severe injuries are accepted without recognisable reaction. <em style="color:var(--muted);">Under permanent stress the Six can develop a similar detachment in which real danger is no longer felt as such.</em>`,
+          `A striking keynote symptom is pinpoint pupils, even in dim light – a sign that the nervous system no longer reacts appropriately to the surroundings. <em style="color:var(--muted);">With chronic fear the Six too can eventually stop reacting to real warning signals.</em>`,
+          `Opium is also classically regarded as the most important remedy for people who after a sudden fright were “never the same again”. <em style="color:var(--muted);">A deeply rooted shock experience can shape the Six's basic fear for good.</em>`,
+        ], "opium")}
+
+        ${typBox(7, "#d4a017", "Belladonna", "the deadly nightshade", [
+          `The name (“beautiful woman”) comes from the Renaissance fashion of widening the pupils with its juice – an early, highly toxic “beauty hack”. <em style="color:var(--muted);">The Seven seeks the attractive, the intoxicating – sometimes without fully perceiving the risks.</em>`,
+          `Remedy picture: sudden, violent fever, bright red face, extreme heat – everything comes abruptly with full force. <em style="color:var(--muted);">The Seven's enthusiasm ignites in a flash and intensely.</em>`,
+          `States are classically quickly changeable: fever rises and falls abruptly. <em style="color:var(--muted);">The Seven switches quickly between enthusiasm and the next impulse.</em>`,
+          `A component of medieval “witches' ointments” because of the hallucinogenic effect – associated with intoxication and boundary-crossing. <em style="color:var(--muted);">The Seven seeks the intoxication of possibilities, sometimes to the point of exaggeration.</em>`,
+          `In the acute state extreme hypersensitivity to light and noise – the reverse side of the otherwise zestful signature. <em style="color:var(--muted);">When the flood of stimuli becomes too great, the Seven too suddenly tips into overload.</em>`,
+          `All parts of the plant are poisonous, especially the sweet-tasting black berries – the taste does not warn of the danger. <em style="color:var(--muted);">The Seven lets themselves be guided by temptation and easily overlooks the price of enjoyment.</em>`,
+          `The genus name “Atropa” comes from Atropos, the Greek goddess of fate who cuts the thread of life. <em style="color:var(--muted);">The intensity with which the Seven wants to savour life already carries this drama in the name of their remedy.</em>`,
+          `The berries taste unusually sweet – unlike most poisonous plants, which warn by bitterness – a reason for the historically high number of poisonings of children. <em style="color:var(--muted);">What is tempting rarely warns the Seven in time of its own price.</em>`,
+          `Atropine, the main active substance, is to this day an indispensable antidote for poisoning with nerve agents and certain pesticides – the same substance acts as poison or rescue depending on the dose. <em style="color:var(--muted);">Exactly this double role is known to the Seven's gluttony: the same intensity brings joy of life in the right measure, exhaustion in overdose – the line lies not in the matter but in the measure.</em>`,
+          `A keynote of acute poisoning: vivid hallucinations of small animals or frightening faces, described by old authors as “Lilliputian hallucinations”. <em style="color:var(--muted);">The Seven's inner world of experience is often unusually vivid and rich in images.</em>`,
+        ], "belladonna")}
+
+        ${typBox(8, "#a52a2a", "Veratrum album", "white hellebore", [
+          `One of the most poisonous Alpine plants, to this day confused with the harmless yellow gentian – with sometimes fatal consequences. <em style="color:var(--muted);">The Eight is often mistaken for raw strength where in truth there is enormous, sometimes dangerous intensity.</em>`,
+          `Used in antiquity to treat “madness” – people believed violent vomiting “cleansed the mind”. <em style="color:var(--muted);">The Eight seeks radical, thorough solutions, no half measures.</em>`,
+          `Remedy picture: dramatic collapse after excess – ice-cold sweat, circulatory collapse. <em style="color:var(--muted);">Behind the Eight's facade there is often an exhaustion that becomes visible only after the collapse.</em>`,
+          `Materia medica describes a pronounced drive for recognition up to religious/monarchical delusions of grandeur in acute states. <em style="color:var(--muted);">The unchecked claim to power of the Eight in the shadow shows here in exaggerated pure form.</em>`,
+          `Grows in damp mountain meadows and can be over 150 years old – one of the longest-lived herbs of Europe. <em style="color:var(--muted);">The Eight often has a remarkable toughness that carries over decades.</em>`,
+          `Historically also used as arrow poison and in ritual tests of courage – small doses are said to increase bravery before an overdose ends fatally. <em style="color:var(--muted);">The narrow line between courage and self-destruction lies in this dual nature.</em>`,
+          `In the 19th century used as one of the “heroic” laxatives and emetics of conventional medicine – the brutal, exhausting effect was knowingly accepted because only a radical reaction counted as effective. <em style="color:var(--muted);">The Eight's excess thinks similarly: a solution must be tangible and uncompromising – caution seems to it like half-heartedness.</em>`,
+          `In shepherd lore of the Alpine regions the plant was regarded as strong enough to drive away evil spirits. <em style="color:var(--muted);">The Eight often sees themselves as a protective power against threat, mighty enough to keep danger at bay.</em>`,
+          `In the collapse state of the remedy picture the patient demands cold drinks despite icy, blue-tinged skin – a paradoxical symptom that irritated even the first provers. <em style="color:var(--muted);">Even in a state of exhaustion the Eight can still demand contradictory things instead of simply letting go.</em>`,
+          `Kent described the movement of being in the Veratrum state as an oscillation “from the heights of heaven into hell” within the same episode. <em style="color:var(--muted);">The Eight knows this extreme amplitude between boundless strength and sudden, deep collapse.</em>`,
+        ], "veratrum-album")}
+
+        ${typBox(9, "#5a7d5a", "Cannabis indica", "Indian hemp", [
+          `Comes from the Hindu Kush, more compact in growth and richer in THC than Cannabis sativa. <em style="color:var(--muted);">The Nine rather “condenses” their energy inward instead of actively unfolding it outward.</em>`,
+          `Used in Ayurveda for millennia as “Vijaya” (the victorious) against restlessness and sleeplessness. <em style="color:var(--muted);">Paradox: a “victorious” plant brings the Nine to rest – not through fighting but through letting go.</em>`,
+          `Keynote symptom: altered perception of time, the line between dream and waking blurs. <em style="color:var(--muted);">The Nine can similarly lose the ability to recognise clear priorities – everything seems equally (un)important.</em>`,
+          `Demonstrably dampens the amygdala, the brain's “fear centre”. <em style="color:var(--muted);">The Nine often avoids conflict on their own, long before a real confrontation.</em>`,
+          `In high doses a paradoxical reverse effect: instead of calming, sudden fear and panic. <em style="color:var(--muted);">The Nine's healthy withdrawal for regeneration can tip into self-forgetful sloth when it goes too far.</em>`,
+          `The earliest known mention of the psychoactive effect is found in Chinese writings attributed to Emperor Shen Nung around 2700 BC – described there already as a remedy against “forgetfulness”, although the plant in larger amounts itself dampens memory. This is no contradiction but the homeopathic law of similars in pure form: what produces a state in excess can in homeopathic preparation heal exactly this state – “Similia similibus curentur”. <em style="color:var(--muted);">The Nine can easily lose sight of their own important concerns while outwardly keeping calm.</em>`,
+          `In the Atharvaveda hemp counts among the five sacred plants of India, there expressly associated with the release of fear. <em style="color:var(--muted);">The Nine's deep longing for a fear-free state finds here a millennia-old textual anchor.</em>`,
+          `Cannabis indica grows, adapted to the harsh climate of the Hindu Kush, deliberately compact and bushy instead of striving tall and slender upward like the related Cannabis sativa. <em style="color:var(--muted);">The Nine's sloth shows in exactly this strategy: rather stay inconspicuous and low than stretch oneself upward, exposed, and risk friction.</em>`,
+          `Pharmacological studies of the 1970s showed reliably that test subjects under the influence of cannabis systematically overestimate elapsed time. <em style="color:var(--muted);">Scientifically documented is thus exactly that distortion of the sense of urgency with which the Nine constantly struggles.</em>`,
+          `Hemp fibres literally carried the sails and ropes of seafaring for centuries – processed invisibly below deck or in the rigging, never themselves in the centre, but without them no ship sailed. <em style="color:var(--muted);">This hits the Nine's role in families and groups exactly: they hold together in the background what would otherwise fall apart, but rarely receive for it the recognition of the visible captain at the helm.</em>`,
+        ], "cannabis-indica")}
+
+        ${bookTip("enneagramm-homoeopathie-band-1", "The foundation of Enneagram homeopathy – how personality type and remedy selection are connected, easy to follow even for laypeople.", "Enneagramm-Homöopathie – Band 1")}
+        ${bookTip("enneagramm-homoeopathie-band-2", "Further case reports, detailed remedy portraits and deepening of Enneagram homeopathy in Volume 2.", "Enneagramm-Homöopathie – Band 2")}
+        ${relatedLinks([
+          {route:"enneagramm-homoeopathie", label:"Enneagram Meets Homeopathy – 9 Patient Cases"},
+          {route:"klassische-vs-enneagramm-homoeopathie", label:"Classical Homeopathy and Enneagram Homeopathy Compared"},
+          {route:"wunden", label:"The 9 Wounds of the Enneagram Types"},
+          {route:"tierlexikon", label:"Animal Lexicon of the 27 Subtypes"},
+        ])}
+      </div>
+    </div>
+  `);
+}
+
+function klassischeVsEnneagrammHomoeopathiePage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader('klassische-vs-enneagramm-homoeopathie')}
+      <div class="page-content">
+        <button class="ghost-link" data-route="enneagramm-homoeopathie" style="margin-bottom:1.2rem;">← Back to Enneagram Meets Homeopathy</button>
+        <p class="eyebrow">Knowledge &middot; Theory and Dynamics</p>
+        <h1 class="section-title">Classical Homeopathy and Enneagram Homeopathy Compared</h1>
+
+        <div style="margin:1.2rem 0 1.8rem;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,0.15);">
+          <img src="../assets/schaubilder/klassische-vs-enneagramm-homoeopathie/klassische-vs-enneagramm-homoeopathie.jpg" alt="Naturopath and patient in conversation, above them the Enneagram symbol glows as an image of the deeper approach to choosing a remedy" style="width:100%;display:block;" loading="lazy" />
+        </div>
+
+        <blockquote class="vb-blockquote" style="margin-bottom:1.8rem;">
+          <p class="vb-intro">Both methods stand on the same foundation: the law of similars according to Dr. Samuel Hahnemann (<em>&lsquo;Similia similibus curentur&rsquo;</em>) and the same materia medica. The difference lies not in the remedy itself but in the way the practice finds its way to it.</p>
+        </blockquote>
+
+        <div class="vb-section" style="max-width:100%;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">Classical homeopathy: the way via the complete totality of symptoms</h2>
+          <p class="vb-intro">Already in the Organon Hahnemann demands that the entire &lsquo;totality of symptoms&rsquo; of a patient be recorded – so not only the physical complaints but expressly also the state of mind, life circumstances and individual modalities. His own sentence on this reads: <em>&lsquo;The mind is the key to healing the patient.&rsquo;</em> The way to the fitting remedy leads here through the complete case-taking: questioning, repertorisation and comparison with the materia medica. A picture of the patient's personality emerges only in the course of the anamnesis, as one of many symptom fields among many.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">Enneagram homeopathy: the way via the personality type as a starting hypothesis</h2>
+          <p class="vb-intro">Enneagram homeopathy starts before the complete anamnesis: the Enneagram type supplies a reasoned first working hypothesis about the probable remedy family – because type and subtype already bring an empirically described pattern of basic motivation, basic passion, core wound and typical behaviour. This pattern can then be cross-validated with the classical case-taking, instead of starting the search for the remedy from zero.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:1.6rem;">
+          <h2 style="font-size:1.15rem;font-weight:700;margin:0 0 .7rem;color:var(--ink);">Four levels of observation: why the Enneagram can look deeper</h2>
+          <p class="vb-intro">The real advantage of Enneagram homeopathy lies not only in faster orientation but in the depth from which the pathological process is viewed. Even experienced classical homeopaths mostly work on the <strong>behavioural level</strong>: they observe how a patient behaves in their illness, how their symptoms show in modality, course and form of expression. Only the most experienced of them occasionally reach the <strong>motivational level</strong> – the question of what drives a person at their innermost.</p>
+          <p class="vb-intro" style="margin-top:1rem;">The Enneagram allows one to look even deeper, as through a magnifying glass: from the behavioural level to the <strong>level of passion</strong> (one of the nine basic passions – anger, pride, vanity, envy, avarice, fear, gluttony, lust or sloth) and from there further to the level of the <strong>core wound</strong> – with precise knowledge of the respective subtype even to the level of the 27 instinct variants (self-preservation, social, sexual).</p>
+          <p class="vb-intro" style="margin-top:1rem;">These four levels are not an arbitrary list but a chain of effect: the passion grows out of the core wound, the characteristic behaviour grows out of the passion – and it is this behaviour that finally shows itself on the physical, emotional and mental level as symptoms. The behavioural level, at which classical homeopathy mostly starts, is thus itself already an expression of a deeper layer – not its cause.</p>
+          <p class="vb-intro" style="margin-top:1rem;">Being human and being ill are two sides of the same coin: what motivates a person also motivates their illness; what their passion expresses also expresses itself in the nature of their symptoms. Since homeopathy wants to bring the vital force as a whole back into balance, it can only profit from this deeper approach. Whoever recognises the deeper cause of a behaviour at the level of the core wound and the subtype can sometimes derive from it a more profound remedy – one that differs from the typical remedies of classical homeopathy found through behavioural observation alone. Not always, but in not a few cases – and with the potential for a deeper, more lasting healing.</p>
+        </div>
+
+        <h2 class="section-title" style="font-size:1.2rem;margin:2.2rem 0 1rem;">The differences at a glance</h2>
+        <div style="overflow-x:auto;">
+          <table style="width:100%;border-collapse:collapse;font-size:.88rem;margin:0 0 1.6rem;">
+            <thead>
+              <tr>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Dimension</th>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Classical homeopathy</th>
+                <th style="text-align:left;padding:.65rem .7rem;border-bottom:1px solid var(--line);color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.06em;">Enneagram homeopathy</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">Level of observation</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">In practice mostly the behavioural level, with very experienced practitioners occasionally the motivational level</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Systematic access down to the level of passion, of the core wound and, subtype-precisely, of the instinct variant</td></tr>
+              <tr><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">Starting point</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Complete anamnesis including state of mind, without presupposition about the direction of the remedy</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Enneagram type and subtype as a first, reasoned working hypothesis before the complete anamnesis</td></tr>
+              <tr><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">Strength</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Also uncovers rare, atypical remedy pictures that no type pattern would predict</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Faster orientation among similar differential remedies, especially when the symptom picture is still ambiguous</td></tr>
+              <tr><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">View of the course</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Snapshot of the current complaint picture</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">In addition: the stress and security line of the type explains where the illness picture is likely to shift under strain</td></tr>
+              <tr><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);font-weight:700;">Relation to each other</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Remains the methodological foundation and final authority of verification</td><td style="padding:.65rem .7rem;border-bottom:1px solid var(--line);">Complementary approach that does not replace the classical case-taking but puts it faster on the right track</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2 class="section-title" style="font-size:1.2rem;margin:0 0 1rem;">What Enneagram homeopathy additionally offers</h2>
+        <div class="vb-section" style="max-width:100%;">
+          <p class="vb-intro"><strong>A reasoned preselection instead of flying blind.</strong> With similar-sounding remedy pictures – for example among several remedies that all show &lsquo;anxiety&rsquo; or &lsquo;perfectionism&rsquo; – knowledge of type and subtype helps to narrow down the differential diagnosis more precisely, because the basic motivation of character behind the symptom is already known.</p>
+          <p class="vb-intro" style="margin-top:1rem;"><strong>A model of the course instead of a snapshot.</strong> The stress and security lines of the Enneagram describe how a person's appearance typically shifts under pressure. This provides an additional level of explanation for why a complaint picture changes over time – a perspective that goes beyond the mere snapshot of the classical first anamnesis.</p>
+          <p class="vb-intro" style="margin-top:1rem;"><strong>A shared vocabulary for patient and practitioner.</strong> Many patients already know their own Enneagram profile from self-reflection. This makes the conversation about inner patterns considerably easier – a practical, communicative advantage that has nothing to do with the actual efficacy of the remedies but noticeably eases access to the treatment.</p>
+        </div>
+
+        <div class="vb-section" style="max-width:100%;margin-top:1.8rem;background:color-mix(in srgb, var(--copper) 8%, var(--paper));border:1px solid var(--line);border-radius:10px;padding:1rem 1.2rem;">
+          <p style="font-size:.9rem;line-height:1.7;color:var(--ink);margin:0;"><strong style="color:var(--copper);">Conclusion from practice:</strong> Enneagram homeopathy is no replacement for the classical method – it is an additional, structured approach to the same classical choice of remedy. In the end there is always the same remedy from the same materia medica; the difference lies solely in how purposefully and how quickly the way there is found.</p>
+        </div>
+
+        ${bookTip("enneagramm-homoeopathie-band-1", "The foundation of Enneagram homeopathy – how personality type and remedy selection are connected, easy to follow even for laypeople.", "Enneagramm-Homöopathie – Band 1")}
+        ${bookTip("enneagramm-homoeopathie-band-2", "Further case reports and deepening of Enneagram homeopathy in Volume 2.", "Enneagramm-Homöopathie – Band 2")}
+        ${relatedLinks([
+          {route:"enneagramm-homoeopathie", label:"Enneagram Meets Homeopathy – 9 Patient Cases"},
+          {route:"heilungsweg", label:"Chart: Path of Healing"},
+          {route:"homoeopathie", label:"Homeopathy – Remedy Overview"},
+          {route:"persoenlichkeitsmodelle-vergleich", label:"Enneagram vs. Other Personality Models"},
+          {route:"beruehmte-samuel-hahnemann", label:"Portrait: Dr. Samuel Hahnemann (SO1w9)"},
         ])}
       </div>
     </div>
@@ -44978,6 +45441,10 @@ function subtypeSchaubilderPage() {
     "tee-enneagramm": teeEnneagrammPage,
     "yogi-tee-kompass": yogiTeeKompassPage,
     "warum-nur-9-heilmittel": warumNeunHeilmittelPage,
+    "ennead-enneagramm": enneagrammEnneadPage,
+    "navagraha-enneagramm": enneagrammNavagrahaPage,
+    "signaturenlehre-enneagramm-heilmittel": signaturenlehreEnneagrammHeilmittelPage,
+    "klassische-vs-enneagramm-homoeopathie": klassischeVsEnneagrammHomoeopathiePage,
     "aetherische-oele": aetherischeOelePage,
     "angst-essenz": angstEssenzPage,
     "edelsteine": edelsteinePage,
