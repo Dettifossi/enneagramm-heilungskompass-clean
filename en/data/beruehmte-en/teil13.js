@@ -2769,7 +2769,7 @@ export function knossiPortraitPage() {
         <h2 class="vb-section">3. The Eight-wing: crown, directness, entrepreneurial spirit</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Seven strength, self-confidence and assertiveness. A Seven with a weaker Eight-wing would appear more playful and lighter; Knossi calls himself &lsquo;King of the Internet&rsquo; and usually appears with a crown. He says of himself that he has a strong talent for entertaining. The entrepreneurial side fits: in 2021 he launched the liqueur ALGE with Kaufland, the fashion label KROWNZ, and in 2023 with the streamer Trymacs the pizza chain Happy Slice, which works on the principle of a &lsquo;ghost kitchen&rsquo; (a kitchen without its own restaurant, for deliveries only).</p>
-          <p class="vb-intro">The Eight also shows on a large scale: he organised multi-day streaming events such as the &lsquo;Angelcamp&rsquo; (&lsquo;Fishing Camp&rsquo;) and the &lsquo;Horrorcamp&rsquo;, which according to a report at times had 330,000 simultaneous viewers, and in 2023 bought a hoverboard prop from &lsquo;Back to the Future&rsquo; for 180,000 euros.</p>
+          <p class="vb-intro">The Eight-wing also shows on a large scale: he organised multi-day streaming events such as the &lsquo;Angelcamp&rsquo; (&lsquo;Fishing Camp&rsquo;) and the &lsquo;Horrorcamp&rsquo;, which according to a report at times had 330,000 simultaneous viewers, and in 2023 bought a hoverboard prop from &lsquo;Back to the Future&rsquo; for 180,000 euros.</p>
         </blockquote>
 
         <h2 class="vb-section">4. The substance: reach, stage and brands</h2>

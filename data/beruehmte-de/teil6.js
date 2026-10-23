@@ -2783,7 +2783,7 @@ export function knossiPortraitPage() {
         <h2 class="vb-section">3. Der Achterflügel: Krone, Direktheit, Unternehmergeist</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Sieben Kraft, Selbstbewusstsein und Durchsetzungswillen. Eine Sieben mit schwächer ausgeprägtem Achterflügel würde verspielter und leichter auftreten; Knossi nennt sich selbst ›König des Internets‹ und tritt meist mit einer Krone auf. Er sagt von sich, ein starkes Talent zum Unterhalten zu haben. Dazu passt das Unternehmerische: Er brachte 2021 den Likör ALGE mit Kaufland auf den Markt, das Modelabel KROWNZ und mit dem Streamer Trymacs 2023 die Pizzakette Happy Slice, die nach dem Prinzip einer ›Ghost Kitchen‹ (Küche ohne eigenes Restaurant, nur für Lieferungen) arbeitet.</p>
-          <p class="vb-intro">Auch im Großen zeigt sich der Achter: Er organisierte mehrtägige Streaming-Events wie das ›Angelcamp‹ und das ›Horrorcamp‹, das nach einem Bericht zeitweise 330.000 Zuschauer gleichzeitig hatte, und kaufte 2023 einen Hoverboard-Requisiten aus ›Zurück in die Zukunft‹ für 180.000 Euro.</p>
+          <p class="vb-intro">Auch im Großen zeigt sich der Achterflügel: Er organisierte mehrtägige Streaming-Events wie das ›Angelcamp‹ und das ›Horrorcamp‹, das nach einem Bericht zeitweise 330.000 Zuschauer gleichzeitig hatte, und kaufte 2023 einen Hoverboard-Requisiten aus ›Zurück in die Zukunft‹ für 180.000 Euro.</p>
         </blockquote>
 
         <h2 class="vb-section">4. Die Substanz: Reichweite, Bühne und Marken</h2>
