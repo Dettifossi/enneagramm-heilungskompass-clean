@@ -1550,6 +1550,7 @@ export function timBendzkoPortraitPage() {
         {route:"beruehmte-brian-fennell", label:"Portrait: Brian Fennell (SYML) (SP4w3)"},
         {route:"beruehmte-karoline-herfurth", label:"Portrait: Karoline Herfurth (SP4w5)"},
         {route:"beruehmte-sebastian-urzendowsky", label:"Portrait: Sebastian Urzendowsky (SP4w3)"},
+        {route:"beruehmte-rolf-zuckowski", label:"Portrait: Rolf Zuckowski (SE4w3)"},
       ])}
     </div>
   `);
@@ -2791,6 +2792,7 @@ export function volkerRosinPortraitPage() {
         {route:"beruehmte-horst-lichter", label:"Porträt: Horst Lichter (SX7w6)"},
         {route:"beruehmte-thomas-gottschalk", label:"Porträt: Thomas Gottschalk (SX7w6)"},
         {route:"beruehmte-johannes-heesters", label:"Portrait: Johannes Heesters (SX7w6)"},
+        {route:"beruehmte-rolf-zuckowski", label:"Portrait: Rolf Zuckowski (SE4w3)"},
       ])}
     </div>
   `);

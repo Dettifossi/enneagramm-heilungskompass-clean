@@ -142,6 +142,7 @@ export function adelePortraitPage() {
         {route:"beruehmte-nicolas-cage", label:"Porträt: Nicolas Cage (SE4w3)"},
         {route:"beruehmte-t-e-lawrence", label:"Porträt: T. E. Lawrence (SE4w3)"},
         {route:"beruehmte-yannick-van-de-velde", label:"Porträt: Yannick van de Velde (SE4w3)"},
+        {route:"beruehmte-rolf-zuckowski", label:"Porträt: Rolf Zuckowski (SE4w3)"},
       ])}
     </div>
   `);

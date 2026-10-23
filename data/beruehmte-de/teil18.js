@@ -1547,6 +1547,7 @@ export function timBendzkoPortraitPage() {
         {route:"beruehmte-brian-fennell", label:"Porträt: Brian Fennell (SYML) (SE4w3)"},
         {route:"beruehmte-karoline-herfurth", label:"Porträt: Karoline Herfurth (SE4w5)"},
         {route:"beruehmte-sebastian-urzendowsky", label:"Porträt: Sebastian Urzendowsky (SE4w3)"},
+        {route:"beruehmte-rolf-zuckowski", label:"Porträt: Rolf Zuckowski (SE4w3)"},
       ])}
     </div>
   `);

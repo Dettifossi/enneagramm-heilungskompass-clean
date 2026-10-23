@@ -2787,3 +2787,76 @@ export function heleneSpillingOedegaardPortraitPage() {
     </div>
   `);
 }
+
+
+export function rolfZuckowskiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rolf-zuckowski-portrait.jpg" alt="Rolf Zuckowski – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-rolf-zuckowski-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Rolf Zuckowski</p>
+        <p class="krim-portrait-typ">SP4w3 &middot; Self-Preservation Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">German songwriter and children&rsquo;s song author, b. 1947 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove: the quiet companion from Hamburg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is a quiet animal that looks for home, shows reliability and lives among people across generations. Rolf Zuckowski was born on 12 May 1947 in Hamburg, the son of a seaman and a hairdresser, with three siblings. In 1961 he received a guitar from his father and played as singer and guitarist in the school band The Beathovens, which broke up in 1967. He still lives in Hamburg-Blankenese.</p>
+          <p class="vb-intro">After school he studied business administration from 1967 and graduated in 1972. He then worked at the music publisher Hans Sikorski and as producer, lyricist and conductor for the Swiss band Peter, Sue &amp; Marc. The later children&rsquo;s songwriter learned the business from the ground up before making songs himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: persistence instead of drama</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Four carries a deep emotional life, and Claudio Naranjo described the <strong>Self-Preservation Four (SP4)</strong> as the subtype of tenacity: the feeling is not displayed but carried quietly, doggedly and over the long haul. In Zuckowski this shows in the steadiness of his work. Since 1977 (&lsquo;Rolfs Vogelhochzeit&rsquo;, &lsquo;Rolf&rsquo;s Bird Wedding&rsquo;) and 1979 (&lsquo;Rolfs Schulweg-Hitparade&rsquo;) he has been writing for children. In 2012 he announced his retreat from show business, and yet 2018 brought the musical &lsquo;Die Weihnachtsbäckerei&rsquo; (&lsquo;The Christmas Bakery&rsquo;), 2020 to 2023 the videos from his &lsquo;Dachstübchen&rsquo; (&lsquo;little attic room&rsquo;), 2022 the autobiography &lsquo;Ein bisschen Mut, ein bisschen Glück&rsquo; (&lsquo;A Little Courage, a Little Luck&rsquo;) and 2023 the album &lsquo;Reiten ist mehr&rsquo;.</p>
+          <p class="vb-intro">His social commitment also carries this quiet tenacity: since 2010 he has been patron of the Bethel children&rsquo;s hospice and since 2017 honorary ambassador of the von Bodelschwingh Foundations Bethel. Anyone who exposes themselves to the suffering of children has to be able to bear it without complaining.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: impact and craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> brings the Four ambition, drive and a sense of how something lands. In Zuckowski the wing is weaker than the core but clearly recognisable: he is a business graduate, worked in the publishing trade and understands music as a product that must reach people. With more than 20 million records sold he is, according to Wikipedia, among the most successful German artists. In 1982 &lsquo;… und ganz doll mich&rsquo; (&lsquo;… and Me Very Much&rsquo;) reached number 1 in the ZDF Hitparade, and in 1984 he entered the Guinness Book of Records for the &lsquo;longest song in the world&rsquo;, whose lines children had written themselves.</p>
+          <p class="vb-intro">The Three side also shows in his appearances: the song &lsquo;In der Weihnachtsbäckerei&rsquo; was presented in 1987 on the show &lsquo;Wetten, dass..?&rsquo; and became an evergreen that many families still know. The Four gives the whole its tone, the Three makes sure it is heard.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: songs that take children seriously</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">His songs make children participants: in 1984 the lines of the record-setting song came from children themselves, and his Christmas and seasonal songs are still passed on in families today. In 1983 he developed the concept for the album &lsquo;Tabaluga&rsquo; by <a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a>, and in 1996 the book series &lsquo;Bunte Liedergeschichten&rsquo; (&lsquo;Colourful Song Stories&rsquo;) began at Gerstenberg Verlag.</p>
+          <p class="vb-intro">In 2011 he founded the Deutscher Kita-Musikpreis with Detlev Jöcker and <a href="#beruehmte-volker-rosin">Volker Rosin (SX7w6)</a>. His awards range from the ECHO Pop (1994) and the Deutscher Musikpreis (2000) through the Federal Cross of Merit (2005) and the ECHO for his life&rsquo;s work (2008) to his appointment as honorary commissioner of the Hamburg police (2025). His work is sung by generations.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Tim Bendzko and Adele</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SP4w3s in this Compass are other musicians who turn their feeling into songs. <a href="#beruehmte-tim-bendzko">Tim Bendzko (SP4w3)</a> is, like Zuckowski, a German-language musician whose songs reach many people in everyday life. <a href="#beruehmte-adele">Adele (SP4w3)</a> shapes her pain into songs that touch millions, with the same quiet discipline.</p>
+          <p class="vb-intro">The difference: Bendzko and Adele write for adults, Zuckowski for children and families. What they share: the feeling is not shouted out but brought into a form that holds.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the Self-Preservation Four with a Three-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in reliability, a long breath and the warmth that is in the songs. Someone who writes for children for decades and is involved in a children&rsquo;s hospice carries feelings without putting them on display.</p>
+          <p class="vb-intro">The shadow of this combination is the danger of hiding behind the form: the Four shows its feeling only in the song, the Three makes sure it lands well. Where both come together, something unfinished, personal and heavy may remain in the background.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: &lsquo;Rolf Zuckowskis Liederwelt&rsquo;</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 23 October 2026) Rolf Zuckowski is 79 years old and still artistically active. In 2025 he sang the duet &lsquo;Bald ist Weihnachten&rsquo; (&lsquo;Christmas Is Coming&rsquo;) with <a href="#beruehmte-helene-fischer">Helene Fischer (SX3w2)</a>, and in September 2026 the Tiptoi song book &lsquo;Rolf Zuckowskis Liederwelt&rsquo; (&lsquo;Rolf Zuckowski&rsquo;s World of Songs&rsquo;) was published by Ravensburger.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"lebensmusterkompass/se4", label:"Life Pattern Compass: SP4 – Dove"},
+        {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SP4w3)"},
+        {route:"beruehmte-adele", label:"Portrait: Adele (SP4w3)"},
+        {route:"beruehmte-volker-rosin", label:"Portrait: Volker Rosin (SX7w6)"},
+      ])}
+    </div>
+  `);
+}

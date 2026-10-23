@@ -2713,3 +2713,76 @@ export function johnTravoltaPortraitPage() {
     </div>
   `);
 }
+
+
+export function rolfZuckowskiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-rolf-zuckowski-portrait.jpg" alt="Rolf Zuckowski – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-rolf-zuckowski-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Rolf Zuckowski</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Deutscher Liedermacher und Kinderlieder-Autor, geb. 1947 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube: der leise Wegbegleiter aus Hamburg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist ein leises Tier, das Heimat sucht, Verlässlichkeit zeigt und über Generationen mitten unter den Menschen lebt. Rolf Zuckowski wurde am 12. Mai 1947 in Hamburg geboren, als Sohn eines Seemanns und einer Friseurin, mit drei Geschwistern. 1961 bekam er von seinem Vater eine Gitarre und spielte als Sänger und Gitarrist in der Schulband The Beathovens, die sich 1967 auflöste. Er lebt bis heute in Hamburg-Blankenese.</p>
+          <p class="vb-intro">Nach dem Abitur studierte er ab 1967 Betriebswirtschaft und schloss 1972 mit dem Diplom ab. Danach arbeitete er im Musikverlag Hans Sikorski und als Produzent, Texter und Dirigent für die Schweizer Band Peter, Sue & Marc. Der spätere Kinderlieder-Autor lernte das Geschäft von der Pike auf, bevor er selbst Lieder machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Beharrlichkeit statt Drama</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Vier trägt ein tiefes Gefühlsleben in sich, und Claudio Naranjo beschrieb die <strong>selbsterhaltende Vier (SE4)</strong> als den Subtyp der Beharrlichkeit: Das Gefühl wird nicht ausgestellt, sondern still, zäh und mit langem Atem getragen. Bei Zuckowski zeigt sich das in der Beständigkeit seiner Arbeit. Seit 1977 (›Rolfs Vogelhochzeit‹) und 1979 (›Rolfs Schulweg-Hitparade‹) schreibt er für Kinder,. 2012 kündigte er seinen Rückzug aus dem Showgeschäft an, und doch kamen 2018 das Musical ›Die Weihnachtsbäckerei‹, von 2020 bis 2023 die Videos aus seinem ›Dachstübchen‹, 2022 die Autobiografie ›Ein bisschen Mut, ein bisschen Glück‹ und 2023 das Album ›Reiten ist mehr‹.</p>
+          <p class="vb-intro">Auch sein soziales Engagement trägt diese stille Zähigkeit: Seit 2010 ist er Pate des Kinderhospizes Bethel, seit 2017 ehrenamtlicher Botschafter der Von Bodelschwinghschen Stiftungen Bethel. Wer sich dem Leiden von Kindern aussetzt, muss tragen können, ohne zu klagen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Wirkung und Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> bringt der Vier Ehrgeiz, Zielstrebigkeit und das Gespür dafür, wie etwas wirkt. Bei Zuckowski ist der Flügel schwächer ausgeprägt als der Kern, aber deutlich erkennbar: Er ist Diplom-Betriebswirt, hat in der Verlagsbranche gearbeitet und versteht Musik als Produkt, das ankommen muss. Mit mehr als 20 Millionen verkauften Tonträgern gehört er laut Wikipedia zu den erfolgreichsten deutschen Künstlern. 1982 stand er mit ›… und ganz doll mich‹ auf Platz 1 der ZDF-Hitparade, 1984 trug ihn das Guinness-Buch der Rekorde für das ›längste Lied der Welt‹ ein, dessen Zeilen Kinder selbst getextet hatten.</p>
+          <p class="vb-intro">Die Dreier-Seite zeigt sich auch im Auftritt: Das Lied ›In der Weihnachtsbäckerei‹ wurde 1987 in der Show ›Wetten, dass..?‹ vorgestellt und wurde zum Dauerbrenner, den bis heute viele Familien kennen. Die Vier gibt dem Ganzen den Ton, die Drei sorgt dafür, dass er gehört wird.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Lieder, in denen Kinder ernst genommen werden</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Seine Lieder machen Kinder zu Beteiligten: 1984 stammten die Zeilen des Rekordlieds von Kindern selbst, und seine Weihnachts- und Jahreszeitenlieder werden bis heute in Familien weitergegeben. 1983 entwickelte er das Konzept für das Album ›Tabaluga‹ von <a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a>, 1996 begann die Buchreihe ›Bunte Liedergeschichten‹ im Gerstenberg Verlag.</p>
+          <p class="vb-intro">2011 gründete er mit Detlev Jöcker und <a href="#beruehmte-volker-rosin">Volker Rosin (SX7w6)</a> den Deutschen Kita-Musikpreis. Die Auszeichnungen reichen vom ECHO Pop (1994) und dem Deutschen Musikpreis (2000) über das Verdienstkreuz am Bande (2005) und den ECHO für sein Lebenswerk (2008) bis zur Ernennung zum Ehrenkommissar der Polizei Hamburg (2025). Sein Werk wird von Generationen gesungen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Tim Bendzko und Adele</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auch unter den SE4w3ern dieses Kompasses stehen Musiker, die ihr Fühlen in Lieder verwandeln. <a href="#beruehmte-tim-bendzko">Tim Bendzko (SE4w3)</a> ist wie Zuckowski ein deutschsprachiger Musiker, dessen Lieder viele Menschen im Alltag erreichen. <a href="#beruehmte-adele">Adele (SE4w3)</a> formt ihren Schmerz zu Liedern, die Millionen berühren, mit der gleichen stillen Disziplin.</p>
+          <p class="vb-intro">Der Unterschied: Bendzko und Adele schreiben für Erwachsene, Zuckowski für Kinder und Familien. Die Gemeinsamkeit: Das Gefühl wird nicht herausgeschrien, sondern in eine Form gebracht, die trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der selbsterhaltenden Vier mit Dreierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Verlässlichkeit, im langen Atem und in der Wärme, die in den Liedern steckt. Wer über Jahrzehnte für Kinder schreibt und sich in einem Kinderhospiz engagiert, trägt Gefühle, ohne sie auszustellen.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Gefahr, sich hinter der Form zu verbergen: Die Vier zeigt ihr Gefühl nur im Lied, die Drei achtet darauf, dass es gut ankommt. Wo beides zusammenkommt, bleibt manches Unfertige, Eigene und Schwere im Hintergrund.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: ›Rolf Zuckowskis Liederwelt‹</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 23. Oktober 2026) ist Rolf Zuckowski 79 Jahre alt und weiter künstlerisch aktiv. 2025 sang er mit <a href="#beruehmte-helene-fischer">Helene Fischer (SX3w2)</a> das Duett ›Bald ist Weihnachten‹, im September 2026 erschien bei Ravensburger das Tiptoi-Liederbuch ›Rolf Zuckowskis Liederwelt‹.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"lebensmusterkompass/se4", label:"Lebensmusterkompass: SE4 – Taube"},
+        {route:"beruehmte-tim-bendzko", label:"Porträt: Tim Bendzko (SE4w3)"},
+        {route:"beruehmte-adele", label:"Porträt: Adele (SE4w3)"},
+        {route:"beruehmte-volker-rosin", label:"Porträt: Volker Rosin (SX7w6)"},
+      ])}
+    </div>
+  `);
+}
