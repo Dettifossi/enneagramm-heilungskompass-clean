@@ -2217,6 +2217,7 @@ export function peterMaffayPortraitPage() {
         {route:"beruehmte-craig-foster", label:"Porträt: Craig Foster (SX9w1)"},
         {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1)"},
         {route:"beruehmte-dustin-hoffman", label:"Porträt: Dustin Hoffman (SX9w1)"},
+        {route:"beruehmte-viggo-mortensen", label:"Porträt: Viggo Mortensen (SX9w1)"},
       ])}
     </div>
   `);
@@ -2286,6 +2287,7 @@ export function bruceSpringsteenPortraitPage() {
         {route:"beruehmte-dustin-hoffman", label:"Porträt: Dustin Hoffman (SX9w1) – Verschmelzung mit der jeweiligen Rolle"},
         {route:"beruehmte-jane-goodall", label:"Porträt: Dr. Jane Goodall (SX9w1)"},
         {route:"beruehmte-sophie-marceau", label:"Porträt: Sophie Marceau (SX9w1)"},
+        {route:"beruehmte-viggo-mortensen", label:"Porträt: Viggo Mortensen (SX9w1)"},
       ])}
     </div>
   `);

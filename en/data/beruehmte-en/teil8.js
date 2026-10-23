@@ -1400,7 +1400,7 @@ export function sandraHuellerPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-sandra-hueller-portrait.jpg" alt="Sandra H\xfcller – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Sandra H\xfcller</p>
-        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with Einserfl\xfcgel</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with One-wing</p>
         <p class="krim-portrait-subtitle">Actress, b. 1978 – Toni Erdmann, Anatomy of a Fall, The Zone of Interest – Animal equivalent: Buffalo</p>
       </div>
       <div class="page-content">

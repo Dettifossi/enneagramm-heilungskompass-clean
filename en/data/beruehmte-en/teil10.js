@@ -773,7 +773,7 @@ export function jamesLevinePortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-james-levine-portrait.jpg" alt="James Levine – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">James Levine</p>
-        <p class="krim-portrait-typ">SP9w1 &middot; Self-Preservation Type 9 with Einserfl\xfcgel</p>
+        <p class="krim-portrait-typ">SP9w1 &middot; Self-Preservation Type 9 with One-wing</p>
         <p class="krim-portrait-subtitle">Conductor & pianist, 1943–2021 – Animal equivalent: Elephant</p>
       </div>
       <div class="page-content">

@@ -687,7 +687,7 @@ export function igaSwiatekPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-iga-swiatek-portrait.jpg" alt="Iga Świątek – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Iga Świątek</p>
-        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with Einserfl\xfcgel</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
         <p class="krim-portrait-subtitle">Tennis professional, b. 2001 – Animal equivalent: Sloth</p>
       </div>
       <div class="page-content">

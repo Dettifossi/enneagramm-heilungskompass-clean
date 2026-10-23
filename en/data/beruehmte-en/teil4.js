@@ -2821,3 +2821,76 @@ export function isabellGerschkePortraitPage() {
     </div>
   `);
 }
+
+
+export function viggoMortensenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-viggo-mortensen-portrait.jpg" alt="Viggo Mortensen – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-viggo-mortensen-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Viggo Mortensen</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexual Type 9 with One-wing</p>
+        <p class="krim-portrait-subtitle">American-Danish actor and artist, b. 1958 &ndash; Animal correspondence: Sloth</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Sloth: the man who is at home everywhere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sloth</strong> moves slowly and merges with its surroundings. Viggo Peter Mortensen Jr. was born on 20 October 1958 in New York City to an American mother, Grace Gamble Atkinson, and a Danish father, Viggo Peter Mortensen Sr. In 1961 the family moved to Venezuela, then to Denmark and finally settled in Argentina, where he became fluent in Spanish. After his parents&rsquo; divorce, when he was eleven, he returned to the US with his mother in 1969 and grew up in upstate New York.</p>
+          <p class="vb-intro">In 1976 he graduated from Watertown High School, and in 1980 he earned a bachelor&rsquo;s degree in Spanish studies and government at St. Lawrence University. He then lived in the UK, Spain and Denmark, where he drove trucks and sold flowers. In 1982 he returned to the US to become an actor. He holds American, Canadian and Danish citizenship and speaks English, Spanish and Danish.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Nine: merging with role and place</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Nine seeks connection and peace, and Claudio Naranjo described the <strong>sexual Nine (SX9)</strong> as the subtype of union: merging with a person, a cause or a place is at the centre. In Mortensen this shows in his devotion to his roles and places. For &lsquo;Thirteen Lives&rsquo; (2022) he had the British cave diver Rick Stanton personally teach him cave diving. Since 2009 he has been with the Spanish actress Ariadna Gil, the two live in Madrid, and he also has a property in Sandpoint, Idaho.</p>
+          <p class="vb-intro">The merging also shows in his biography: someone who lived in four countries as a child adapts and becomes a little at home everywhere. Mortensen lives in three languages and has been a member of the Catalan organisation Òmnium Cultural since 2018. He supports football clubs in several countries, among them San Lorenzo de Almagro in Argentina, Fulham and Real Madrid.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-wing: principles and quality</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the Nine loyalty to principles, precision and the demand to do it right. In Mortensen it shows in his political and artistic engagement: he volunteered for Jesse Jackson&rsquo;s presidential campaign in 1988 and endorsed Bernie Sanders in 2016, later Jill Stein. In an open letter he explained why he could not support Hillary Clinton. He signed open letters on Gaza (2020, 2023) and Ukraine aid (2024) and criticised Javier Milei&rsquo;s government in 2024.</p>
+          <p class="vb-intro">The One-wing also shows in the care of his work: Mortensen writes, paints, photographs and publishes, and in his projects he is often actor, writer, director and composer in one. The core type Nine opens itself to the person, the One-wing asks whether it feels right.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: the late breakthrough and a territory of his own</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mortensen&rsquo;s path was slow. In 1985 he made his debut in Peter Weir&rsquo;s &lsquo;Witness&rsquo; as an Amish farmer, and in the nineties he played supporting roles, among them in &lsquo;The Portrait of a Lady&rsquo; (1996), &lsquo;G.I. Jane&rsquo; (1997) and &lsquo;A Perfect Murder&rsquo; (1998). Only in 2001, in his early forties, did Aragorn in &lsquo;The Lord of the Rings&rsquo; bring him the breakthrough, as a last-minute replacement for Stuart Townsend. Afterwards he worked with David Cronenberg on &lsquo;A History of Violence&rsquo; (2005), &lsquo;Eastern Promises&rsquo; (2007), &lsquo;A Dangerous Method&rsquo; (2011) and &lsquo;Crimes of the Future&rsquo; (2022). For &lsquo;Eastern Promises&rsquo;, &lsquo;Captain Fantastic&rsquo; (2016) and &lsquo;Green Book&rsquo; (2018) he was nominated for the Oscar for Best Actor each time.</p>
+          <p class="vb-intro">He created his own territory with the publishing house Perceval Press, in which he publishes poetry, photographs and paintings, and with his directing work: in 2020 he made his directorial debut with &lsquo;Falling&rsquo;, based on dementia in his family, and wrote, produced and scored the film as well, and in 2023 came the Western &lsquo;The Dead Don&rsquo;t Hurt&rsquo;. He also worked musically with the guitarist Buckethead.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Peter Maffay and Bruce Springsteen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SX9w1s in this Compass are also people who have held their bond to a cause over decades. <a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a> binds himself to music and to a social cause he has carried for decades. <a href="#beruehmte-bruce-springsteen">Bruce Springsteen (SX9w1)</a> stays true to his audience and origins and carries both into his work.</p>
+          <p class="vb-intro">The difference: Maffay and Springsteen stay with one medium, Mortensen moves between film, poetry, painting, photography and music. What they share: a slow, faithful expansion instead of a plan.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Nine with a One-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in the ability to commit fully to something and in loyalty to people, places and convictions. Someone who carries four countries, three languages and several art forms within them brings a great deal of understanding for others.</p>
+          <p class="vb-intro">The shadow of this combination is the danger that merging blurs one&rsquo;s own boundaries and the One-wing sharpens the judgement of others. His open letters and political choices show how clearly he takes a stand, even when he meets opposition.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: actor, director, publisher</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 23 October 2026) Viggo Mortensen is 68 years old and continues to work as an actor and director. According to the source, which new projects will appear is partly unconfirmed. Honours include an honorary doctorate from St. Lawrence University (2006), the Gold Medal of León (2006) and the Knight&rsquo;s Cross of the Order of the Dannebrog (2010).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx9", label:"SX9 – The Sloth: Subtype Profile"},
+        {route:"lebensmusterkompass/sx9", label:"Life Pattern Compass: SX9 – Sloth"},
+        {route:"beruehmte-peter-maffay", label:"Porträt: Peter Maffay (SX9w1)"},
+        {route:"beruehmte-bruce-springsteen", label:"Porträt: Bruce Springsteen (SX9w1)"},
+        {route:"beruehmte-willie-nelson", label:"Porträt: Willie Nelson (SX9w1)"},
+      ])}
+    </div>
+  `);
+}

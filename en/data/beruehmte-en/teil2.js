@@ -591,6 +591,7 @@ export function willieNelsonPortraitPage() {
         {route:"beruehmte-ringo-starr", label:"Portrait: Ringo Starr (SX9w1)"},
         {route:"beruehmte-ed-sheeran", label:"Portrait: Ed Sheeran (SX9w1)"},
         {route:"beruehmte-owen-wilson", label:"Portrait: Owen Wilson (SX9w1)"},
+        {route:"beruehmte-viggo-mortensen", label:"Portrait: Viggo Mortensen (SX9w1)"},
       ])}
     </div>
   `);
@@ -1547,7 +1548,7 @@ export function kevinCostnerPortraitPage() {
           <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-kevin-costner-portrait.jpg" alt="Kevin Costner – Portrait" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Kevin Costner</p>
-        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with Einserfl\xfcgel</p>
+        <p class="krim-portrait-typ">SO9w1 &middot; Social Type 9 with One-wing</p>
         <p class="krim-portrait-subtitle">Actor & director, b. 1955 – Animal equivalent: Buffalo</p>
       </div>
       <div class="page-content">

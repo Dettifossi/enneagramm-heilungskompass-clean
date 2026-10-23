@@ -587,6 +587,7 @@ export function willieNelsonPortraitPage() {
         {route:"beruehmte-ringo-starr", label:"Porträt: Ringo Starr (SX9w1)"},
         {route:"beruehmte-ed-sheeran", label:"Porträt: Ed Sheeran (SX9w1)"},
         {route:"beruehmte-owen-wilson", label:"Porträt: Owen Wilson (SX9w1)"},
+        {route:"beruehmte-viggo-mortensen", label:"Porträt: Viggo Mortensen (SX9w1)"},
       ])}
     </div>
   `);

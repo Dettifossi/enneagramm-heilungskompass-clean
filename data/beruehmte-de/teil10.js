@@ -2756,3 +2756,76 @@ export function christianKohlundPortraitPage() {
     </div>
   `);
 }
+
+
+export function viggoMortensenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-viggo-mortensen-portrait.jpg" alt="Viggo Mortensen – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-viggo-mortensen-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Viggo Mortensen</p>
+        <p class="krim-portrait-typ">SX9w1 &middot; Sexueller Typ 9 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Amerikanisch-dänischer Schauspieler und Künstler, geb. 1958 &ndash; Tierentsprechung: Faultier</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Faultier: der Mann, der überall zu Hause ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Faultier</strong> bewegt sich langsam und verschmilzt mit seiner Umgebung. Viggo Peter Mortensen Jr. wurde am 20. Oktober 1958 in New York City geboren, als Sohn einer amerikanischen Mutter, Grace Gamble Atkinson, und eines dänischen Vaters, Viggo Peter Mortensen Sr. 1961 zog die Familie nach Venezuela, dann nach Dänemark und ließ sich schließlich in Argentinien nieder, wo er fließend Spanisch lernte. Nach der Scheidung der Eltern, er war elf, kehrte er 1969 mit seiner Mutter in die USA zurück und wuchs im Norden des Bundesstaats New York auf.</p>
+          <p class="vb-intro">1976 machte er seinen Abschluss an der Watertown High School, 1980 an der St. Lawrence University einen Bachelor in Hispanistik und Politikwissenschaft. Danach lebte er in Großbritannien, Spanien und Dänemark, wo er Lastwagen fuhr und Blumen verkaufte. 1982 kehrte er in die USA zurück, um Schauspieler zu werden. Er besitzt die amerikanische, kanadische und dänische Staatsbürgerschaft und spricht Englisch, Spanisch und Dänisch.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Neun: Verschmelzung mit Rolle und Ort</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Neun sucht Verbindung und Frieden, und Claudio Naranjo beschrieb die <strong>sexuelle Neun (SX9)</strong> als den Subtyp der Vereinigung: Die Verschmelzung mit einer Person, einer Sache oder einem Ort steht im Mittelpunkt. Bei Mortensen zeigt sich das in der Hingabe an seine Rollen und Orte. Für ›Thirteen Lives‹ (2022) ließ er sich vom britischen Höhlentaucher Rick Stanton persönlich das Höhlentauchen beibringen. Seit 2009 ist er mit der spanischen Schauspielerin Ariadna Gil zusammen, die beiden leben in Madrid, außerdem hat er ein Anwesen in Sandpoint, Idaho.</p>
+          <p class="vb-intro">Die Verschmelzung zeigt sich auch in seiner Biografie: Wer als Kind in vier Ländern lebte, passt sich an und wird überall ein Stück zu Hause. Mortensen lebt in drei Sprachen und ist Mitglied der katalanischen Organisation Òmnium Cultural (seit 2018). Er unterstützt Fußballclubs in mehreren Ländern, darunter San Lorenzo de Almagro in Argentinien, Fulham und Real Madrid.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Prinzipien und Qualität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der Neun Prinzipientreue, Genauigkeit und den Anspruch, es richtig zu machen. Bei Mortensen zeigt er sich im politischen und im künstlerischen Engagement: Er unterstützte 1988 Jesse Jacksons Präsidentschaftskampagne und 2016 Bernie Sanders, später Jill Stein. In einem offenen Brief erklärte er, warum er Hillary Clinton nicht unterstützen könne. Er unterzeichnete offene Briefe zu Gaza (2020, 2023) und zur Ukraine-Hilfe (2024) und kritisierte 2024 die Regierung von Javier Milei.</p>
+          <p class="vb-intro">Der Einserflügel zeigt sich auch in der Sorgfalt seiner Arbeit: Mortensen schreibt, malt, fotografiert und veröffentlicht, und er ist bei seinen Projekten oft Schauspieler, Autor, Regisseur und Komponist in einem. Der Kerntyp Neun öffnet sich dem Menschen, der Einserflügel fragt, ob es sich richtig anfühlt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: der späte Durchbruch und das eigene Territorium</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Mortensens Weg war langsam. 1985 debütierte er in Peter Weirs ›Witness‹ als amischer Farmer, in den Neunzigern spielte er Nebenrollen, unter anderem in ›The Portrait of a Lady‹ (1996), ›G.I. Jane‹ (1997) und ›A Perfect Murder‹ (1998). Erst 2001, mit Anfang vierzig, brachte ihm Aragorn in ›Der Herr der Ringe‹ den Durchbruch, als kurzfristiger Ersatz für Stuart Townsend. Danach arbeitete er mit David Cronenberg in ›A History of Violence‹ (2005), ›Eastern Promises‹ (2007), ›A Dangerous Method‹ (2011) und ›Crimes of the Future‹ (2022). Für ›Eastern Promises‹, ›Captain Fantastic‹ (2016) und ›Green Book‹ (2018) wurde er jeweils für den Oscar als bester Hauptdarsteller nominiert.</p>
+          <p class="vb-intro">Sein eigenes Territorium schuf er mit dem Verlag Perceval Press, in dem er Gedichte, Fotografien und Malerei veröffentlicht, und mit seinen Regiearbeiten: 2020 gab er mit ›Falling‹ sein Regiedebüt, das auf der Demenz in seiner Familie beruht, und schrieb, produzierte und vertonte den Film zugleich, 2023 folgte der Western ›The Dead Don't Hurt‹. Er arbeitete auch musikalisch mit dem Gitarristen Buckethead zusammen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Peter Maffay und Bruce Springsteen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auch unter den SX9w1ern dieses Kompasses stehen Menschen, die ihre Verbindung zu einer Sache über Jahrzehnte gehalten haben. <a href="#beruehmte-peter-maffay">Peter Maffay (SX9w1)</a> verbindet sich mit der Musik und mit einem sozialen Anliegen, das er jahrzehntelang trägt. <a href="#beruehmte-bruce-springsteen">Bruce Springsteen (SX9w1)</a> bleibt seinem Publikum und seiner Herkunft treu und überträgt beides in sein Werk.</p>
+          <p class="vb-intro">Der Unterschied: Maffay und Springsteen bleiben bei einem Medium, Mortensen wechselt zwischen Film, Dichtung, Malerei, Fotografie und Musik. Die Gemeinsamkeit: eine langsame, treue Ausdehnung statt eines Plans.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Neun mit Einserflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Fähigkeit, sich ganz auf etwas einzulassen, und in der Treue zu Menschen, Orten und Überzeugungen. Wer vier Länder, drei Sprachen und mehrere Kunstformen in sich trägt, bringt viel Verständnis für andere mit.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die Gefahr, dass die Verschmelzung eigene Grenzen verwischt und der Einserflügel das Urteil über andere schärft. Seine offenen Briefe und Wahlentscheidungen zeigen, wie deutlich er Position bezieht, auch wenn er damit Widerspruch erntet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Schauspieler, Regisseur, Verleger</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 23. Oktober 2026) ist Viggo Mortensen 68 Jahre alt und arbeitet weiter als Schauspieler und Regisseur. Welche neuen Projekte erscheinen, ist laut der Quelle zum Teil noch nicht bestätigt. Auszeichnungen unter anderem: Ehrendoktorwürde der St. Lawrence University (2006), Goldmedaille von León (2006), Ritterkreuz des Dannebrogordens (2010).</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx9", label:"SX9 – Das Faultier: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx9", label:"Lebensmusterkompass: SX9 – Faultier"},
+        {route:"beruehmte-peter-maffay", label:"Porträt: Peter Maffay (SX9w1)"},
+        {route:"beruehmte-bruce-springsteen", label:"Porträt: Bruce Springsteen (SX9w1)"},
+        {route:"beruehmte-willie-nelson", label:"Porträt: Willie Nelson (SX9w1)"},
+      ])}
+    </div>
+  `);
+}
