@@ -1961,6 +1961,7 @@ export function matthewMcConaugheyPortraitPage() {
           {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
           {route:"beruehmte-frank-schaetzing", label:"Porträt: Frank Schätzing (SX3w4) – ebenfalls SX3w4"},
           {route:"beruehmte-dieter-bohlen", label:"Porträt: Dieter Bohlen (SX3w4)"},
+          {route:"beruehmte-jon-erik-hexum", label:"Porträt: Jon-Erik Hexum (SX3w4)"},
         ])}
       </div>
     </div>

@@ -2178,6 +2178,7 @@ export function madonnaPortraitPage() {
         {route:"beruehmte-marilyn-monroe", label:"Portrait: Marilyn Monroe (SX3w4)"},
         {route:"beruehmte-gordon-ramsay", label:"Portrait: Gordon Ramsay (SX3w4)"},
         {route:"beruehmte-lana-del-rey", label:"Portrait: Lana Del Rey (SX3w4)"},
+        {route:"beruehmte-jon-erik-hexum", label:"Portrait: Jon-Erik Hexum (SX3w4)"},
       ])}
     </div>
   `);

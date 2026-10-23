@@ -676,6 +676,7 @@ export function heidiKlumPortraitPage() {
         {route:"beruehmte-tom-kaulitz", label:"Portrait: Tom Kaulitz (SE2w3) – Ehemann"},
         {route:"beruehmte-bill-kaulitz", label:"Portrait: Bill Kaulitz (SX4w3) – Schwager"},
         {route:"beruehmte-wolfgang-joop", label:"Porträt: Wolfgang Joop (SX3w2)"},
+        {route:"beruehmte-jon-erik-hexum", label:"Porträt: Jon-Erik Hexum (SX3w4)"},
       ])}
     </div>
   `);

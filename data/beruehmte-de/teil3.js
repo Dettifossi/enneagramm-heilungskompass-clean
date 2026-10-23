@@ -2766,3 +2766,76 @@ export function isabellGerschkePortraitPage() {
     </div>
   `);
 }
+
+
+export function jonErikHexumPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jon-erik-hexum-portrait.jpg" alt="Jon-Erik Hexum – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-jon-erik-hexum-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Jon-Erik Hexum</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexueller Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Schauspieler, 1957&ndash;1984 &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau: das Gesicht aus Tenafly</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> zeigt sich und wird gesehen. Jon-Erik Hexum wurde am 5. November 1957 in Englewood, New Jersey, geboren. Sein Vater Thorleif Andreas Hexum war ein norwegischer Einwanderer, seine Mutter Gretha Olivia Paulsen eine norwegisch-amerikanische Minnesotanerin. Die Eltern trennten sich, als er vier war, danach zog die Mutter ihn und seinen Bruder Gunnar in Tenafly, New Jersey, groß.</p>
+          <p class="vb-intro">An der Tenafly High School spielte er in der Marschkapelle, war Klassensprecher und der erste männliche Cheerleader der Schule. Seit seinem achten Lebensjahr spielte er Fußball, später trainierte er regelmäßig. 1976 machte er seinen Abschluss und studierte zunächst an der Case Western Reserve University biomedizinische Technik. Danach wechselte er an die Michigan State University, wo er 1980 einen Bachelor in politischer Philosophie erwarb, nebenher Football spielte und kleine Bühnenrollen übernahm.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Anziehung als Beruf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Drei lebt von der Wirkung, und Claudio Naranjo beschrieb die <strong>sexuelle Drei (SX3)</strong> als den Subtyp der Männlichkeit beziehungsweise Weiblichkeit: Ausstrahlung, Anziehung und das Bild, das andere von einem haben, stehen im Mittelpunkt. Bei Hexum war das der Beruf: Er zog 1980 nach New York und lernte dort den Manager von John Travolta kennen, 1981 ging er nach Los Angeles. 1982 spielte er in der NBC-Serie ›Voyagers!‹ den Phineas Bogg. Die Serie wurde nach schwachen Quoten abgesetzt.</p>
+          <p class="vb-intro">Der Durchbruch kam 1983 mit dem Fernsehfilm ›Making of a Male Model‹. Der Film erreichte hohe Einschaltquoten und machte ihn zum Sexsymbol. Die Presse nannte ihn den ›next big thing‹ (›das nächste große Ding‹) in Hollywood und verwies auf sein Aussehen, seine Ausstrahlung und seinen Ehrgeiz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Zweifel am eigenen Bild</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der Drei Innerlichkeit, Individualität und die Frage, was hinter dem Bild liegt. Bei Hexum zeigt er sich in der Unzufriedenheit mit dem, was ihn bekannt gemacht hatte: Er äußerte Bedenken zu ›Making of a Male Model‹ und sagte, der Film sei ausbeuterischer gewesen, als er erwartet hatte. Auch sein Bildungsweg, von der biomedizinischen Technik zur politischen Philosophie, zeigt einen Menschen, der nach Sinn und Tiefe sucht, nicht nur nach Wirkung.</p>
+          <p class="vb-intro">Er beschrieb sich selbst als ›extreme miser‹ (›extremen Geizhals‹) und lebte bescheiden in Burbank. Er war mit der Schauspielerin E.G. Daily zusammen. Der Kerntyp Drei strebt nach dem Erfolg, der Viererflügel fragt, ob dieser Erfolg ihm entspricht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: Ausstrahlung vor der Kamera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hexums Stärke war seine Präsenz vor der Kamera. Die Quellen beschreiben ihn als Darsteller, dessen Aussehen und Charisma Zuschauer anzogen. 1984 trat er in einer Folge von ›Hotel‹ auf und spielte in der CBS-Serie ›Cover Up‹ die Rolle des Mac Harper. Seine einzige Kinofilmrolle hatte er als Pat Trammell in ›The Bear‹, der drei Wochen vor seinem Tod startete.</p>
+          <p class="vb-intro">Die Substanz seiner kurzen Laufbahn lag weniger in einem Werk als in dem Versprechen, das viele in ihm sahen. Ob er es hätte einlösen können, lässt sich nicht beantworten. Sicher ist, dass er mit sechsundzwanzig Jahren bereits in mehreren Fernsehproduktionen die Hauptrolle gespielt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Matthew McConaughey und Heidi Klum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auch unter den SX3w4ern dieses Kompasses stehen Menschen, deren Aussehen und Ausstrahlung ihren Weg bestimmten. <a href="#beruehmte-matthew-mcconaughey">Matthew McConaughey (SX3w4)</a> ist wie Hexum Schauspieler, der als Schönling begann und danach Tiefe suchte. <a href="#beruehmte-heidi-klum">Heidi Klum (SX3w4)</a> machte ihr Aussehen als Model zum Beruf und baute daraus ein Unternehmen.</p>
+          <p class="vb-intro">Der Unterschied: McConaughey und Klum haben ihre Laufbahn über Jahrzehnte weiterentwickelt, Hexums Laufbahn endete mit sechsundzwanzig. Die Gemeinsamkeit: Das Bild öffnet Türen, und die Frage nach dem Menschen dahinter bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sexuellen Drei mit Viererflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt in der Energie, im Ehrgeiz und in der Offenheit, mit der er auf andere zuging. Als Schüler war er Klassensprecher und der erste männliche Cheerleader seiner Schule, ein Zeichen dafür, dass er Zugehörigkeit und Auftritt verband.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist der Zwiespalt zwischen dem Bild, das gefragt war, und dem Menschen, der er sein wollte. Am 12. Oktober 1984 verletzte er sich am Set von ›Cover Up‹ auf dem Gelände von 20th Century Fox bei einem Spiel mit einer Requisitenwaffe tödlich. Er wurde etwa fünf Stunden operiert und am 18. Oktober für hirntot erklärt. Der Tod wurde als Unfall eingestuft; dieses Porträt deutet ihn nicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Jon-Erik Hexum 1957 bis 1984</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jon-Erik Hexum starb am 18. Oktober 1984 im Alter von sechsundzwanzig Jahren. Sein Herz wurde einem 36-jährigen Mann in Las Vegas transplantiert, seine Nieren, Hornhäute und seine Haut gingen an weitere Empfänger. ›Cover Up‹ lief ohne seine Figur weiter. Seine Mutter einigte sich mit den Produktionsfirmen außergerichtlich auf eine Entschädigung.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"lebensmusterkompass/sx3", label:"Lebensmusterkompass: SX3 – Pfau"},
+        {route:"beruehmte-matthew-mcconaughey", label:"Porträt: Matthew McConaughey (SX3w4)"},
+        {route:"beruehmte-heidi-klum", label:"Porträt: Heidi Klum (SX3w4)"},
+        {route:"beruehmte-madonna", label:"Porträt: Madonna (SX3w4)"},
+      ])}
+    </div>
+  `);
+}

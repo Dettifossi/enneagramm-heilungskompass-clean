@@ -2738,3 +2738,76 @@ export function ulrichSelzPortraitPage() {
     </div>
   `);
 }
+
+
+export function jonErikHexumPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-jon-erik-hexum-portrait.jpg" alt="Jon-Erik Hexum – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-jon-erik-hexum-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Jon-Erik Hexum</p>
+        <p class="krim-portrait-typ">SX3w4 &middot; Sexual Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">American actor, 1957&ndash;1984 &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Peacock: the face from Tenafly</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>peacock</strong> shows itself and is seen. Jon-Erik Hexum was born on 5 November 1957 in Englewood, New Jersey. His father Thorleif Andreas Hexum was a Norwegian immigrant, his mother Gretha Olivia Paulsen a Norwegian-American from Minnesota. His parents separated when he was four, after which his mother raised him and his brother Gunnar in Tenafly, New Jersey.</p>
+          <p class="vb-intro">At Tenafly High School he played in the marching band, was class president and the school&rsquo;s first male cheerleader. He had played soccer and football since the age of eight and later trained regularly. He graduated in 1976 and first studied biomedical engineering at Case Western Reserve University. He then transferred to Michigan State University, where he earned a BA in political philosophy in 1980, played backup football on the side and took minor stage roles.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The sexual Three: attraction as a profession</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Three lives on impact, and Claudio Naranjo described the <strong>sexual Three (SX3)</strong> as the subtype of masculinity or femininity: radiance, attraction and the image others have of one are at the centre. For Hexum this was the profession: in 1980 he moved to New York and met John Travolta&rsquo;s manager there, and in 1981 he went to Los Angeles. In 1982 he played Phineas Bogg in the NBC series &lsquo;Voyagers!&rsquo;. The series was cancelled after weak ratings.</p>
+          <p class="vb-intro">The breakthrough came in 1983 with the television film &lsquo;Making of a Male Model&rsquo;. The film drew high ratings and made him a sex symbol. The press called him the &lsquo;next big thing&rsquo; in Hollywood and pointed to his looks, charisma and ambition.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: doubt about his own image</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the Three inwardness, individuality and the question of what lies behind the image. In Hexum it shows in his dissatisfaction with what had made him famous: he voiced misgivings about &lsquo;Making of a Male Model&rsquo; and said the film was more exploitative than he had expected. His educational path, from biomedical engineering to political philosophy, also shows a person searching for meaning and depth, not only for impact.</p>
+          <p class="vb-intro">He described himself as an &lsquo;extreme miser&rsquo; and lived modestly in Burbank. He was in a relationship with the actress E.G. Daily. The core type Three strives for success, the Four-wing asks whether this success corresponds to him.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: radiance in front of the camera</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hexum&rsquo;s strength was his presence in front of the camera. The sources describe him as a performer whose looks and charisma drew viewers. In 1984 he appeared in an episode of &lsquo;Hotel&rsquo; and starred in the CBS series &lsquo;Cover Up&rsquo; as Mac Harper. His only feature film role was Pat Trammell in &lsquo;The Bear&rsquo;, released three weeks before his death.</p>
+          <p class="vb-intro">The substance of his short career lay less in a body of work than in the promise many saw in him. Whether he could have fulfilled it cannot be answered. What is certain is that at twenty-six he had already played the lead in several television productions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Matthew McConaughey and Heidi Klum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SX3w4s in this Compass are also people whose looks and radiance shaped their path. <a href="#beruehmte-matthew-mcconaughey">Matthew McConaughey (SX3w4)</a> is, like Hexum, an actor who began as a heartthrob and then looked for depth. <a href="#beruehmte-heidi-klum">Heidi Klum (SX3w4)</a> made her appearance as a model her profession and built a business from it.</p>
+          <p class="vb-intro">The difference: McConaughey and Klum have developed their careers over decades, Hexum&rsquo;s career ended at twenty-six. What they share: the image opens doors, and the question about the person behind it remains.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the sexual Three with a Four-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in energy, ambition and the openness with which he approached others. At school he was class president and the school&rsquo;s first male cheerleader, a sign that he combined belonging and performance.</p>
+          <p class="vb-intro">The shadow of this combination is the tension between the image that was in demand and the person he wanted to be. On 12 October 1984 he fatally injured himself on the set of &lsquo;Cover Up&rsquo; on the 20th Century Fox lot while playing with a prop gun. He underwent about five hours of surgery and was declared brain dead on 18 October. The death was ruled accidental; this portrait does not interpret it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: Jon-Erik Hexum, 1957 to 1984</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jon-Erik Hexum died on 18 October 1984 at the age of twenty-six. His heart was transplanted to a 36-year-old man in Las Vegas, and his kidneys, corneas and skin went to other recipients. &lsquo;Cover Up&rsquo; continued without his character. His mother reached an out-of-court settlement with the production companies.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"lebensmusterkompass/sx3", label:"Life Pattern Compass: SX3 – Peacock"},
+        {route:"beruehmte-matthew-mcconaughey", label:"Porträt: Matthew McConaughey (SX3w4)"},
+        {route:"beruehmte-heidi-klum", label:"Porträt: Heidi Klum (SX3w4)"},
+        {route:"beruehmte-madonna", label:"Porträt: Madonna (SX3w4)"},
+      ])}
+    </div>
+  `);
+}
