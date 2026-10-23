@@ -5749,6 +5749,7 @@ text.nav = [
     { route: "enneagramm-meets-jin-shin-jyutsu", label: "Enneagram Meets Jin Shin Jyutsu" },
     { route: "enneagramm-zahnpsychosomatik", label: "Enneagram Meets Dental Psychosomatics" },
     { route: "enneagramm-astrologie", label: "Enneagram meets Astrology" },
+    { route: "yogi-tee-kompass", label: "Yogi Tea Compass (teas for 9 types & 27 subtypes)" },
     { heading: "Enneagram in Culture & World" },
     { route: "enneagramm-odyssee", label: "Enneagram Meets the Odyssey" },
     { route: "enneagramm-wohnraumarchitektur", label: "Enneagram Meets Interior Architecture" },
