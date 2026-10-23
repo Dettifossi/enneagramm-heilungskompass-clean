@@ -88,13 +88,13 @@ async function checkRoute(page, lang, route) {
     await page.goto(url, { waitUntil: "domcontentloaded" });
     await page.reload({ waitUntil: "domcontentloaded" });
     await page
-      .waitForFunction(() => document.querySelectorAll(".page-content h2").length > 0, null, { timeout: 15000 })
+      .waitForFunction(() => document.querySelector(".krim-portrait-name") && document.querySelectorAll(".vb-section").length > 0, null, { timeout: 15000 })
       .catch(() => {});
     info = await page.evaluate(() => {
       const text = document.body.innerText || "";
       return {
         name: document.querySelector(".krim-portrait-name")?.textContent?.trim() || "",
-        sections: document.querySelectorAll(".page-content h2").length,
+        sections: document.querySelectorAll(".vb-section").length,
         img: document.querySelector(".krim-portrait-wrap img")?.src || "",
         bad: /\bundefined\b|\[object Object\]/.test(text),
       };
