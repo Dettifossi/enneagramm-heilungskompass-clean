@@ -2155,6 +2155,7 @@ export function steveJobsPortraitPage() {
         {route:"krankheitsportraets-steve-jobs", label:"Illness Portrait: Steve Jobs (SO1w2)"},
         {route:"beruehmte-hillary-clinton", label:"Portrait: Hillary Clinton (SO1w2)"},
         {route:"beruehmte-nicole-kidman", label:"Portrait: Nicole Kidman (SO1w2)"},
+        {route:"beruehmte-bradley-cooper", label:"Portrait: Bradley Cooper (SO1w2)"},
       ])}
     </div>
   `);

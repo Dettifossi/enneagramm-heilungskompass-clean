@@ -2799,3 +2799,76 @@ export function volkerRosinPortraitPage() {
     </div>
   `);
 }
+
+
+export function bradleyCooperPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bradley-cooper-portrait.jpg" alt="Bradley Cooper – portrait" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-bradley-cooper-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Bradley Cooper</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Social Type 1 with Two-wing</p>
+        <p class="krim-portrait-subtitle">American actor and director, b. 1975 &ndash; Animal correspondence: Goose</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Goose: the boy from Jenkintown</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>goose</strong> keeps watch, pays attention to the order of the group and raises the alarm when something is wrong. Bradley Cooper was born on 5 January 1975 in Abington Township near Philadelphia and grew up in Jenkintown and Rydal. His father Charles Cooper was a stockbroker at Merrill Lynch, and his mother Gloria (née Campano) worked at the television station KYW-TV. He was raised Catholic and has an older sister, Holly.</p>
+          <p class="vb-intro">After graduating from high school in 1993 he attended Villanova University for a year and then transferred to Georgetown University, where in 1997 he earned a BA in English with a minor in French. In 2000 he completed an MFA in acting at the Actors Studio Drama School at The New School.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The social One: standards and responsibility</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The One wants to get it right, and Claudio Naranjo described the <strong>social One (SO1)</strong> as the subtype of non-adaptability: it directs its standards at the group, takes responsibility and does not let itself be bent. In Cooper this shows in the thoroughness of his education (English, French, an acting MFA) and in the consistency with which he has changed: since 2004 he has, by his own account, abstained from alcohol and drugs.</p>
+          <p class="vb-intro">His way of dealing with the loss of his father, who died of lung cancer in 2011, also shows responsibility for others. He then supported cancer initiatives, joined the board of the Hole in the Wall Gang Camp in 2014 and was an executive producer of Stand Up to Cancer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: attention and charm</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the One warmth, attention and the wish to be needed. In Cooper it shows in his dealings with others and in the question of how he comes across to people. He said of his work: &lsquo;I enjoy people, that makes this profession a lot easier, and I can sleep anywhere.&rsquo; In 2011 &lsquo;People&rsquo; magazine named him &lsquo;Sexiest Man Alive&rsquo;, and in an &lsquo;Esquire&rsquo; interview he answered with the sentence: &lsquo;Fall in love with my looks, fine, but stay with me for my talent.&rsquo;</p>
+          <p class="vb-intro">The core type One sets the standard, the Two-wing makes it human.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The substance: from actor to director</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Cooper began in 1999 with an appearance in &lsquo;Sex and the City&rsquo;, played in &lsquo;Wet Hot American Summer&rsquo; in 2001 and until 2006 played Will Tippin in &lsquo;Alias&rsquo;. The breakthrough came in 2009 with &lsquo;The Hangover&rsquo; as Phil Wenneck, with sequels in 2011 and 2013. After that he showed range: &lsquo;Limitless&rsquo; (2011), &lsquo;The Place Beyond the Pines&rsquo; (2012), &lsquo;American Sniper&rsquo; (2014) and on Broadway &lsquo;The Elephant Man&rsquo; (Tony nomination). Since 2014 he has voiced Rocket Raccoon in the &lsquo;Guardians of the Galaxy&rsquo; films.</p>
+          <p class="vb-intro">In 2018 he directed for the first time with &lsquo;A Star Is Born&rsquo;, co-wrote the script and played the lead; the film brought him a BAFTA for Best Film Music and two Grammys. In 2023 followed &lsquo;Maestro&rsquo;, about Leonard Bernstein, which he directed, produced, co-wrote and starred in. According to the Wikipedia page he has been nominated for twelve Oscars in all, among others for &lsquo;Silver Linings Playbook&rsquo;, &lsquo;American Hustle&rsquo;, &lsquo;American Sniper&rsquo;, &lsquo;A Star Is Born&rsquo; and &lsquo;Maestro&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Angelina Jolie and Nicole Kidman</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SO1w2s in this Compass are also actors who take responsibility beyond the screen. <a href="#beruehmte-angelina-jolie">Angelina Jolie (SO1w2)</a> is, like Cooper, an actress and director and is committed to humanitarian work. <a href="#beruehmte-nicole-kidman">Nicole Kidman (SO1w2)</a> also stands for discipline and attentiveness in her profession.</p>
+          <p class="vb-intro">The difference: each sets her or his own priorities, Cooper the fight against cancer. What they share: standards for themselves combined with attention to others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and shadow of the social One with a Two-wing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light lies in standards, diligence and the readiness to take others along. Someone who works consistently on themselves for years and passes on this experience shows the strength of the One with a Two-wing.</p>
+          <p class="vb-intro">The shadow of this combination is the inner strictness that shows as perfectionism and the wish to be seen for it. His sentence about looks and talent shows that he does not want to be reduced to his image.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: directing, roles, restaurant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 24 October 2026) Bradley Cooper is 51 years old. In 2025 he made a cameo as Jor-El in &lsquo;Superman&rsquo;, directed and appeared in &lsquo;Is This Thing On?&rsquo; and opened the cheesesteak restaurant &lsquo;Danny and Coop&rsquo;s&rsquo; in New York. He has a daughter, born in 2017.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 personalities, 27 inner logics &ndash; the handbook for precise self- and other-awareness in the Enneagram.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/so1", label:"SO1 – The Goose: Subtype Profile"},
+        {route:"lebensmusterkompass/so1", label:"Life Pattern Compass: SO1 – Goose"},
+        {route:"beruehmte-angelina-jolie", label:"Portrait: Angelina Jolie (SO1w2)"},
+        {route:"beruehmte-nicole-kidman", label:"Portrait: Nicole Kidman (SO1w2)"},
+        {route:"beruehmte-steve-jobs", label:"Portrait: Steve Jobs (SO1w2)"},
+      ])}
+    </div>
+  `);
+}

@@ -2749,6 +2749,7 @@ export function nicoleKidmanPortraitPage() {
         {route:"beruehmte-david-bowie", label:"Portrait: David Bowie (SO1w2)"},
         {route:"beruehmte-hillary-clinton", label:"Portrait: Hillary Clinton (SO1w2)"},
         {route:"beruehmte-justin-timberlake", label:"Portrait: Justin Timberlake (SO1w2)"},
+        {route:"beruehmte-bradley-cooper", label:"Portrait: Bradley Cooper (SO1w2)"},
       ])}
     </div>
   `);

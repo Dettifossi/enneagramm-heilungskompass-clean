@@ -214,6 +214,7 @@ export function angelinaJoliePortraitPage() {
         {route:"beruehmte-hillary-clinton", label:"Portrait: Hillary Clinton (SO1w2)"},
         {route:"beruehmte-juergen-klopp", label:"Portrait: Jürgen Klopp (SO1w2)"},
         {route:"beruehmte-nicole-kidman", label:"Portrait: Nicole Kidman (SO1w2)"},
+        {route:"beruehmte-bradley-cooper", label:"Portrait: Bradley Cooper (SO1w2)"},
       ])}
     </div>
   `);

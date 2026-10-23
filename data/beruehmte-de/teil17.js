@@ -2885,3 +2885,76 @@ export function volkerRosinPortraitPage() {
     </div>
   `);
 }
+
+
+export function bradleyCooperPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="https://pub-2851309644cc48aea2a2ae780b41b196.r2.dev/assets/portraits/beruehmte-bradley-cooper-portrait.jpg" alt="Bradley Cooper – Porträt" class="krim-portrait-img" loading="lazy" onerror="this.onerror=null;this.src='/assets/portraits/beruehmte-bradley-cooper-portrait.jpg'" />
+        </div>
+        <p class="krim-portrait-name">Bradley Cooper</p>
+        <p class="krim-portrait-typ">SO1w2 &middot; Sozialer Typ 1 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">US-amerikanischer Schauspieler und Regisseur, geb. 1975 &ndash; Tierentsprechung: Gans</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Gans: der Junge aus Jenkintown</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Gans</strong> wacht, achtet auf die Ordnung der Gruppe und schlägt Alarm, wenn etwas nicht stimmt. Bradley Cooper wurde am 5. Januar 1975 in Abington Township bei Philadelphia geboren und wuchs in Jenkintown und Rydal auf. Sein Vater Charles Cooper war Börsenmakler bei Merrill Lynch, seine Mutter Gloria (geb. Campano) arbeitete beim Fernsehsender KYW-TV. Er wurde katholisch erzogen und hat eine ältere Schwester, Holly.</p>
+          <p class="vb-intro">Nach dem Schulabschluss 1993 besuchte er ein Jahr die Villanova University und wechselte dann an die Georgetown University, wo er 1997 einen Bachelor in Englisch mit Französisch im Nebenfach erwarb. 2000 schloss er an der Actors Studio Drama School der New School einen Master in Schauspiel ab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Eins: Anspruch und Verantwortung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Eins will es richtig machen, und Claudio Naranjo beschrieb die <strong>soziale Eins (SO1)</strong> als den Subtyp der Unangepasstheit: Sie richtet den Anspruch auf die Gruppe, nimmt Verantwortung wahr und lässt sich nicht verbiegen. Bei Cooper zeigt sich das in der Gründlichkeit seiner Ausbildung (Englisch, Französisch, ein Schauspiel-Master) und in der Konsequenz, mit der er sich verändert hat: Seit 2004 verzichtet er nach eigener Aussage auf Alkohol und Drogen.</p>
+          <p class="vb-intro">Auch sein Umgang mit dem Verlust des Vaters, der 2011 an Lungenkrebs starb, zeigt die Verantwortung für andere. Er unterstützte danach Krebs-Initiativen, kam 2014 in den Vorstand des Hole in the Wall Gang Camp und war ausführender Produzent von Stand Up to Cancer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Zuwendung und Charme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der Eins Wärme, Zuwendung und den Wunsch, gebraucht zu werden. Bei Cooper zeigt er sich im Umgang mit anderen und in der Frage, wie er auf Menschen wirkt. Er sagte über seine Arbeit: ›I enjoy people, that makes this profession a lot easier, and I can sleep anywhere.‹ – er mag Menschen, das macht den Beruf einfacher, und er kann überall schlafen. Das Magazin ›People‹ ernannte ihn 2011 zum ›Sexiest Man Alive‹ (›begehrtesten Mann der Welt‹), und er antwortete darauf in einem ›Esquire‹-Interview mit dem Satz: ›Fall in love with my looks, fine, but stay with me for my talent.‹ – von mir aus verliebt euch in mein Aussehen, aber bleibt wegen meines Talents.</p>
+          <p class="vb-intro">Der Kerntyp Eins stellt den Anspruch, der Zweierflügel macht ihn menschlich.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Substanz: vom Schauspieler zum Regisseur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Cooper begann 1999 mit einem Auftritt in ›Sex and the City‹, spielte 2001 in ›Wet Hot American Summer‹ und bis 2006 den Will Tippin in ›Alias‹. Der Durchbruch kam 2009 mit ›The Hangover‹ als Phil Wenneck, mit Fortsetzungen 2011 und 2013. Danach zeigte er Bandbreite: ›Limitless‹ (2011), ›The Place Beyond the Pines‹ (2012), ›American Sniper‹ (2014) und am Broadway ›The Elephant Man‹ (Tony-Nominierung). Seit 2014 spricht er den Rocket Raccoon in den ›Guardians of the Galaxy‹-Filmen.</p>
+          <p class="vb-intro">2018 führte er bei ›A Star Is Born‹ erstmals Regie, schrieb das Drehbuch mit und spielte die Hauptrolle; der Film brachte ihm einen BAFTA für die beste Filmmusik und zwei Grammys. 2023 folgte ›Maestro‹, über Leonard Bernstein, bei dem er Regie führte, produzierte, mitschrieb und spielte. Nach der Wikipedia-Seite wurde er insgesamt für zwölf Oscars nominiert, unter anderem für ›Silver Linings Playbook‹, ›American Hustle‹, ›American Sniper‹, ›A Star Is Born‹ und ›Maestro‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Angelina Jolie und Nicole Kidman</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auch unter den SO1w2ern dieses Kompasses stehen Schauspieler, die Verantwortung über die Leinwand hinaus übernehmen. <a href="#beruehmte-angelina-jolie">Angelina Jolie (SO1w2)</a> ist wie Cooper Schauspielerin und Regisseurin und engagiert sich humanitär. <a href="#beruehmte-nicole-kidman">Nicole Kidman (SO1w2)</a> steht ebenfalls für Disziplin und Zuwendung im Beruf.</p>
+          <p class="vb-intro">Der Unterschied: Jede setzt eigene Schwerpunkte, Cooper den Kampf gegen Krebs. Die Gemeinsamkeit: Anspruch an sich selbst, kombiniert mit Zuwendung zu anderen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten der sozialen Eins mit Zweierflügel</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht liegt im Anspruch, im Fleiß und in der Bereitschaft, andere mitzunehmen. Wer jahrelang konsequent an sich arbeitet und diese Erfahrung weitergibt, zeigt die Stärke der Eins mit Zweierflügel.</p>
+          <p class="vb-intro">Der Schatten dieser Kombination ist die innere Strenge, die sich als Perfektionismus zeigt, und der Wunsch, dafür gesehen zu werden. Sein Satz über Aussehen und Talent zeigt, dass er sich nicht auf sein Bild reduzieren lassen will.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Regie, Rolle, Restaurant</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 24. Oktober 2026) ist Bradley Cooper 51 Jahre alt. 2025 hatte er einen Gastauftritt als Jor-El in ›Superman‹, drehte als Regisseur und Darsteller ›Is This Thing On?‹ und eröffnete in New York das Käse-Steak-Restaurant ›Danny and Coop's‹. Er hat eine Tochter, die 2017 geboren wurde.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so1", label:"SO1 – Die Gans: Subtyp-Profil"},
+        {route:"lebensmusterkompass/so1", label:"Lebensmusterkompass: SO1 – Gans"},
+        {route:"beruehmte-angelina-jolie", label:"Porträt: Angelina Jolie (SO1w2)"},
+        {route:"beruehmte-nicole-kidman", label:"Porträt: Nicole Kidman (SO1w2)"},
+        {route:"beruehmte-steve-jobs", label:"Porträt: Steve Jobs (SO1w2)"},
+      ])}
+    </div>
+  `);
+}
