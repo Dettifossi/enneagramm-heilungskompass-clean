@@ -2829,7 +2829,7 @@ export function richyMuellerPortraitPage() {
 
         <h2 class="vb-section">1. Das Faultier: der Werkzeugmacher aus Mannheim</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Faultier</strong> bewegt sich ruhig, trägt viel und gibt sich nicht aus der Ruhe bringen. Richy Müller, bürgerlich Hans-Jürgen Müller, wurde am 26. September 1955 in Mannheim geboren und wuchs im Stadtteil Seckenheim auf. Er machte eine Ausbildung zum Werkzeugmacher, bevor er zur Schauspielerei kam.</p>
+          <p class="vb-intro">Das <strong>Faultier</strong> bewegt sich ruhig, trägt viel und lässt sich nicht aus der Ruhe bringen. Richy Müller, bürgerlich Hans-Jürgen Müller, wurde am 26. September 1955 in Mannheim geboren und wuchs im Stadtteil Seckenheim auf. Er machte eine Ausbildung zum Werkzeugmacher, bevor er zur Schauspielerei kam.</p>
           <p class="vb-intro">Zwei Jahre besuchte er die Schauspielschule Bochum und zog dann nach West-Berlin. 1979 gelang ihm der Durchbruch mit der Fernsehserie ›Die große Flatter‹, in der er einen jungen Mann in einer Berliner Obdachlosensiedlung spielte. Den Namen der Figur nahm er als Künstlernamen an.</p>
         </blockquote>
 
