@@ -83,7 +83,7 @@ async function checkRoute(page, lang, route) {
   page.on("console", onConsole);
 
   const url = `${BASE}/${lang === "en" ? "en/" : ""}#${route}`;
-  let info = { name: "", sections: 0, img: "", bad: false };
+  let info = { name: "", sections: 0, img: "", bad: false, leak: "" };
   try {
     await page.goto(url, { waitUntil: "domcontentloaded" });
     await page.reload({ waitUntil: "domcontentloaded" });
@@ -97,6 +97,7 @@ async function checkRoute(page, lang, route) {
         sections: document.querySelectorAll(".vb-section").length,
         img: document.querySelector(".krim-portrait-wrap img")?.src || "",
         bad: /\bundefined\b|\[object Object\]/.test(text),
+        leak: (text.match(/Porträt|[Ff]lügel|Tierentsprechung|Selbsterhaltend|Sozialer Typ|Sexueller Typ|Subtyp-Profil|Lebensmusterkompass|Alle berühmten/g) || []).slice(0, 3).join(", "),
       };
     });
   } catch (e) {
@@ -109,6 +110,7 @@ async function checkRoute(page, lang, route) {
   if (!info.name) problems.push("kein Porträtname (Seite leer oder falsche Route)");
   if (info.sections < 5) problems.push(`nur ${info.sections} Abschnitte`);
   if (info.bad) problems.push('"undefined" oder "[object Object]" im Text');
+  if (lang === "en" && info.leak) problems.push("Deutsche Wörter in EN-Seite: " + info.leak);
   if (info.img) {
     const ok = await fetch(info.img, { method: "HEAD" }).then((r) => r.ok).catch(() => false);
     if (!ok) problems.push("Bild nicht erreichbar: " + info.img.split("/").pop());
