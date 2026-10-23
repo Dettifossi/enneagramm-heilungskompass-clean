@@ -40999,10 +40999,10 @@ function yogiTeeKompassPage() {
   const nr = parseInt((state.route.split("/")[1] || "")) || 0;
   const tee = id => Y.tees.find(t => t.id === id);
   const az = q => "https://www.amazon.de/s?k=" + encodeURIComponent(q) + "&tag=enneagrammkom-21";
-  const kauf = t => `<a href="${t.link || az(t.such)}" target="_blank" rel="noopener sponsored" style="display:inline-block;font-size:.82rem;font-weight:600;color:var(--copper);border:1px solid var(--line);border-radius:6px;padding:.3rem .7rem;text-decoration:none;">View on Amazon (affiliate link)</a>`;
+  const kauf = t => `<a href="${t.link || az(t.ean)}" target="_blank" rel="noopener sponsored" style="display:inline-block;font-size:.82rem;font-weight:600;color:var(--copper);border:1px solid var(--line);border-radius:6px;padding:.3rem .7rem;text-decoration:none;">View on Amazon (affiliate link)</a>`;
   const karte = (t, warum) => `<div style="border:1px solid var(--line);border-radius:12px;padding:.9rem 1rem;background:var(--paper);">
       <div style="font-weight:700;color:var(--ink);">${t.name}</div>
-      <div style="font-size:.78rem;color:var(--muted);margin:.15rem 0 .5rem;">${Y.fam[t.fam]} &middot; ${t.zutaten.slice(0, 5).join(", ")}</div>
+      <div style="font-size:.78rem;color:var(--muted);margin:.15rem 0 .5rem;">${Y.fam[t.fam]} &middot; ${t.zutaten.slice(0, 5).join(", ")}${t.kof ? " &middot; " + Y.ui.kof : ""}${t.lim ? " &middot; " + Y.ui.lim : ""}</div>
       ${warum ? `<p style="font-size:.9rem;line-height:1.6;margin:0 0 .6rem;">${warum}</p>` : ""}
       ${kauf(t)}
     </div>`;
@@ -41010,7 +41010,7 @@ function yogiTeeKompassPage() {
   const h2 = txt => `<h2 style="font-size:1.1rem;font-weight:700;margin:2rem 0 .6rem;color:var(--ink);">${txt}</h2>`;
   const hinweis = `<div style="margin:1.5rem 0 0;padding:1rem 1.2rem;background:color-mix(in srgb, var(--copper) 6%, var(--paper));border:1px solid var(--line);border-radius:10px;font-size:.84rem;line-height:1.65;color:var(--ink);">
       <p style="margin:0 0 .5rem;font-weight:700;color:var(--copper);text-transform:uppercase;letter-spacing:.04em;font-size:.78rem;">Important notes</p>
-      <p style="margin:0 0 .5rem;">Enjoyment and ritual, not a health claim: this compass is a suggestion of which tea blend may suit your nature. It replaces neither medical or naturopathic advice nor treatment.</p><p style="margin:0 0 .5rem;">Licorice is in many varieties; with high blood pressure do not drink it in larger amounts. Black tea, green tea, white tea, maté and guarana contain caffeine. In pregnancy and breastfeeding, with medication or complaints, ask a doctor or pharmacist first; this applies especially to valerian, echinacea, sage and licorice.</p><p style="margin:0;">Yogi Tea® is a trademark of Yogi Tea GmbH. This is an independent recommendation with no connection to the brand. The links are affiliate links (Amazon Associates programme). Ingredients according to retailer information, as of October 2026: recipes and names may change, the packaging is binding. In other countries varieties have other names; for example Abendtee corresponds to the English Bedtime and Ingwer Orange Vanille to Ginger Orange.</p></div>`;
+      <p style="margin:0 0 .5rem;">Enjoyment and ritual, not a health claim: this compass is a suggestion of which tea blend may suit your nature. It replaces neither medical or naturopathic advice nor treatment.</p><p style="margin:0 0 .5rem;">Licorice is in many varieties; with high blood pressure do not drink it in larger amounts. Black tea, green tea, white tea, maté and guarana contain caffeine. In pregnancy and breastfeeding, with medication or complaints, ask a doctor or pharmacist first; this applies especially to valerian, echinacea, sage and licorice.</p><p style="margin:0;">Yogi Tea® is a trademark of Yogi Tea GmbH. This is an independent recommendation with no connection to the brand. The links are affiliate links (Amazon Associates programme). Varieties and ingredients according to the manufacturer (yogi-life.com), as of October 2026: recipes and names may change, the packaging is binding. In other countries varieties have other names; for example Abendtee corresponds to the English Bedtime and Ingwer Orange Vanille to Ginger Orange.</p></div>`;
   let body = "";
   if (nr >= 1 && nr <= 9) {
     const T = Y.typen[nr];
@@ -41035,13 +41035,13 @@ function yogiTeeKompassPage() {
     }).join("")}</div>`;
   }
   const alle = Y.tees.slice().sort((a, b) => a.name.localeCompare(b.name, "en"));
-  body += `<details style="margin:2.2rem 0 0;"><summary style="cursor:pointer;font-weight:700;color:var(--ink);">All varieties at a glance (${alle.length})</summary><ul style="list-style:none;padding:0;margin:.8rem 0 0;font-size:.86rem;line-height:1.6;">${alle.map(t => `<li style="padding:.5rem 0;border-bottom:1px solid var(--line);"><strong>${t.name}</strong> <span style="color:var(--muted);">&middot; ${Y.fam[t.fam]}</span><br><span style="color:var(--muted);">${t.zutaten.join(", ")}</span><br>${kauf(t)}</li>`).join("")}</ul></details>`;
+  body += `<details style="margin:2.2rem 0 0;"><summary style="cursor:pointer;font-weight:700;color:var(--ink);">All varieties at a glance (${alle.length})</summary><ul style="list-style:none;padding:0;margin:.8rem 0 0;font-size:.86rem;line-height:1.6;">${alle.map(t => `<li style="padding:.5rem 0;border-bottom:1px solid var(--line);"><strong>${t.name}</strong> <span style="color:var(--muted);">&middot; ${Y.fam[t.fam]}${t.kof ? " &middot; " + Y.ui.kof : ""}${t.lim ? " &middot; " + Y.ui.lim : ""}</span><br><span style="color:var(--muted);">${t.zutaten.join(", ")}</span><br>${kauf(t)}</li>`).join("")}</ul></details>`;
   return shell(`
     ${pageHeader("tee-enneagramm")}
     <section class="narrow">
       <p class="eyebrow">Knowledge &middot; Tea &amp; Enneagram</p>
       <h1>The Yogi Tea Compass</h1>
-      ${nr ? "" : `<p class="lead-small">Yogi Tea comes in over 50 blends. Which one suits your Enneagram type, which your subtype? The compass leads from the type via the matching herb to concrete varieties.</p>
+      ${nr ? "" : `<p class="lead-small">Yogi Tea comes in around 65 blends. Which one suits your Enneagram type, which your subtype? The compass leads from the type via the matching herb to concrete varieties.</p>
       <div class="psycho-img-wrap" style="margin-top:1.2rem;">
         <img src="${R2_CDN}assets/schaubilder/yogi-tee/yogi-tee-hero.jpg" alt="Steaming tea cup with saucer in backlight" class="psycho-img" loading="lazy" onerror="this.parentElement.style.display='none'" />
       </div>
