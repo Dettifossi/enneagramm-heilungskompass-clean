@@ -158,10 +158,27 @@ export function brynKenneyPortraitPage() {
           <p class="vb-intro">Sein extravaganter persönlicher Stil &ndash; teure Uhren, auffällige Ketten, unverblümte Ansagen am Tisch &ndash; wirkt auf den ersten Blick wie reine Selbstdarstellung, ist bei genauerem Hinsehen aber eher Ausdruck eines völlig eigenen Maßstabs als der Wunsch, einer Gruppe zu gefallen. Kenney selbst formuliert eine fast schon philosophische Grundhaltung dazu: &bdquo;Meine ganze Lebenserfahrung ist, dass es keinen Traum gab, der zu groß war &ndash; jeder Traum, den ich hatte, wurde Wirklichkeit.&ldquo;</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <h2 class="vb-section">4. Die Substanz: vom Kartenspiel zur Geldrangliste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kenneys Weg ist ein Weg über Zahlen. Nach dem ersten größeren Live-Gewinn 2007 folgten 2010 ein achter Platz bei einem WSOP-Turnier und Platz 28 im Main Event. 2014 gewann er sein erstes WSOP-Armband, 2016 schlug er im Finale des 100.000-Dollar-Super-High-Roller bei der PokerStars Caribbean Adventure den Main-Event-Sieger von 2015, Joe McKeehen, im Duell Mann gegen Mann. 2017 gewann er in Monte Carlo ein Turnier mit 100.000 Euro Buy-in (1,78 Millionen Euro). 2019 holte er den Aussie Millions Main Event und beim Triton-Festival in Montenegro mehr als sieben Millionen Dollar in drei Turnieren. Im August 2019 wurde er Zweiter beim Triton Million for Charity und erhielt durch einen Deal rund 20,6 Millionen Dollar, nach Wikipedia die größte Einzelauszahlung der Live-Pokergeschichte.</p>
+          <p class="vb-intro">Auch danach blieb er an der Spitze: 2023 gewann er das 250.000-Dollar-Luxon-Invitational in London (6,86 Millionen Dollar), 2024 sein zweites WSOP-Armband und ein Triton-Turnier in Monte Carlo (4,41 Millionen Dollar), 2025 ein Triton-Turnier in Jeju. Im Dezember 2025 überschritt er als erster Pokerspieler die Marke von 80 Millionen Dollar Live-Turniergewinn. Das ist eine Laufbahn aus Geduld und Wiederholung, nicht aus einem einzelnen Glückstreffer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Judit Polgár und Dr. Annika von Mutius</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auch unter den SE3w4ern dieses Kompasses stehen Menschen, die ihr Können leise aufgebaut haben, bevor andere es bemerkten. <a href="#beruehmte-judit-polgar">Judit Polgár (SE3w4)</a> ist wie Kenney eine Spielerin an der Weltspitze eines Denksports, Schach statt Poker, mit der gleichen jahrelangen Vorbereitung. <a href="#beruehmte-annika-von-mutius">Dr. Annika von Mutius (SE3w4)</a> zeigt dasselbe Muster in der Wissenschaft: Kompetenz zuerst, Auftritt danach.</p>
+          <p class="vb-intro">Der Unterschied: Kenney zeigt sein Können mit demonstrativer Extravaganz, in einem anderen Feld und mit anderem Auftreten. Die Gemeinsamkeit: Nicht die Bühne, sondern die Meisterschaft ist der eigentliche Antrieb.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SE3w4 ist ihre Fähigkeit, aus reinem Können echte Einzigartigkeit zu schöpfen. Kenneys jahrelange, im Verborgenen erarbeitete Spielstärke führte am Ende zum größten je ausgezahlten Turniergewinn der Pokergeschichte &ndash; kein Zufallstreffer, sondern das Ergebnis von tausenden Stunden Analyse, die niemand von außen sah.</p>
           <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; bei der SE3w4 subtil als das Bedürfnis, als einzigartig und unverwechselbar zu gelten, während die eigene Substanz zugleich hinter einer Fassade aus Understatement oder, wie bei Kenney, hinter demonstrativer Extravaganz verborgen bleibt. Der Schatten des Viererflügels zeigt sich in der Isolation, die das Selbstbild des &bdquo;einsamen Wolfs&ldquo; mit sich bringt: &bdquo;Niemand ist perfekt&ldquo;, räumte Kenney selbst einmal ein &ndash; ein knapper Satz, der andeutet, wie viel Kritik und Reibung ein derart kompromissloser Eigenweg auch nach außen erzeugt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Spitze der Geldrangliste</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 23. Oktober 2026) ist Bryn Kenney 39 Jahre alt, geboren am 1. November 1986 in Long Beach, New York, und führt die Hendon-Mob-Allzeit-Geldrangliste mit mehr als 90 Millionen Dollar Live-Turniergewinnen an. Er spielt für GGPoker, mit dem er seit 2018 zusammenarbeitet.</p>
         </blockquote>
 
       </div>

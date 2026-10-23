@@ -1578,10 +1578,28 @@ export function uweOchsenknechtPortraitPage() {
           <p class="vb-intro">His first major breakthrough came in 1981 as boatswain Lamprecht in Wolfgang Petersen's cult film <em>Das Boot</em>; real international success followed in 1985 with the lead role in Doris Dörrie's comedy <em>Männer</em>, for which he received the German Film Award in Gold. But Ochsenknecht did not stay with comedy: from the early 1990s he also stood on stage as a musician, as singer of the band "The Screen" with several released albums, and in 2010 with <em>Hairspray</em> and 2012 with Peter Maffay's <em>Tabaluga</em> he additionally moved into musical theater &ndash; each new field entered with the same appetite that first sent him to Spain at eleven.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Light and Shadow</h2>
+        <h2 class="vb-section">4. The Substance: from &lsquo;Das Boot&rsquo; to &lsquo;Schtonk!&rsquo;</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ochsenknecht is an actor who gives characters body and voice without hiding. In 1981 he was seen as Bootsmann Lamprecht in &lsquo;Das Boot&rsquo; (&lsquo;The Boat&rsquo;), in 1985 he starred in Doris Dörrie&rsquo;s &lsquo;Männer&rsquo; (&lsquo;Men&rsquo;) and won the Chaplin-Schuh (1985) and the Filmband in Gold (1986) for it. In 1992 he played the forger Fritz Knobel in Helmut Dietl&rsquo;s &lsquo;Schtonk!&rsquo; and received the Bambi. For &lsquo;Fußball ist unser Leben&rsquo; (&lsquo;Football Is Our Life&rsquo;) he received the Deutscher Filmpreis as best leading actor and the Bayerischer Filmpreis in 2000, and in 2001 the Deutscher Fernsehpreis as best supporting actor for &lsquo;Vera Brühne&rsquo;. In 2003 he was among the co-founders of the Deutsche Filmakademie.</p>
+          <p class="vb-intro">His training path shows the toughness behind this: at fifteen he was expelled from the Ludwig-Frank-Gymnasium, worked as an extra in the Nationaltheater chorus and at seventeen completed his Hauptschulabschluss at evening school. Later he lent his voice to international cinema characters, among them Grug in &lsquo;The Croods&rsquo; (2013), Captain Smek in &lsquo;Home&rsquo; (2015) and Papa Smurf in &lsquo;The Smurfs&rsquo; (2025). On the musical stage he appeared in 2009 and 2010 as Edna Turnblad in &lsquo;Hairspray&rsquo;.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Katja Riemann and Alec Baldwin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SX6w7s in this Compass are also actors who do not shy away from intensity. <a href="#beruehmte-katja-riemann">Katja Riemann (SX6w7)</a> is, like Ochsenknecht, an actress in whom directness and curiosity come together. <a href="#beruehmte-alec-baldwin">Alec Baldwin (SX6w7)</a> is, like Ochsenknecht, an actor whose directness is also noticed in public.</p>
+          <p class="vb-intro">The difference: each lives confrontation in their own field, Ochsenknecht mostly in roles and in relationships. What they share: the readiness to face the dispute instead of avoiding it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SX6w7 is the ability to keep reinventing oneself across decades &ndash; from serious war drama to broad comedy, from film to music to musical theater &ndash; without ever settling permanently into a single, safe niche. Ochsenknecht has held his place in German entertainment for over four decades through exactly this restless versatility.</p>
           <p class="vb-intro">The shadow of the SX6 shows in its uncompromising nature: what begins as honest directness can, in the closest relationships, tip into open, public conflict that leaves little room for reconciliation. The ongoing estrangement from daughter Cheyenne and the sharp public reckoning with the failed marriage to Natascha show how high the price of this intensity can be within one's own family.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: Mallorca, garbage collection and Papa Smurf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 23 October 2026) Uwe Ochsenknecht is 70 years old and still active in front of the camera, for example in &lsquo;Die Drei von der Müllabfuhr&rsquo; (&lsquo;The Three from the Garbage Collection&rsquo;) and in &lsquo;Familie Bundschuh&rsquo; alongside <a href="#beruehmte-andrea-sawatzki">Andrea Sawatzki (SX4w3)</a>. In 2023 he won 100,000 euros on &lsquo;Schlag den Star&rsquo; against Heiner Lauterbach and finished sixth as &lsquo;Kiwi&rsquo; on &lsquo;The Masked Singer&rsquo;. His autobiography &lsquo;Was bisher geschah&rsquo; (&lsquo;What Has Happened So Far&rsquo;) appeared in 2013. Since 2017 he has been married to Kirsten &lsquo;Kiki&rsquo; Viebrock, and since 2018 he has co-owned a music bar in Santanyí on Mallorca.</p>
+          <p class="vb-intro">The family includes the sons <a href="#beruehmte-wilson-gonzalez-ochsenknecht">Wilson Gonzalez (SP2w3)</a> and <a href="#beruehmte-jimi-blue-ochsenknecht">Jimi Blue (SP2w3)</a> and the daughter <a href="#beruehmte-cheyenne-ochsenknecht">Cheyenne (SP3w4)</a> from the marriage with <a href="#beruehmte-natascha-ochsenknecht">Natascha Ochsenknecht (SO8w7)</a>.</p>
         </blockquote>
 
       </div>

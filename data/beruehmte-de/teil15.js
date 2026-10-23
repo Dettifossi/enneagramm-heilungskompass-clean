@@ -1580,10 +1580,28 @@ export function uweOchsenknechtPortraitPage() {
           <p class="vb-intro">Seinen ersten großen Durchbruch feierte er 1981 als Bootsmann Lamprecht in Wolfgang Petersens Kultfilm <em>Das Boot</em>, den eigentlichen internationalen Erfolg brachte ihm 1985 die Hauptrolle in Doris Dörries Komödie <em>Männer</em>, für die er mit dem Bundesfilmpreis in Gold ausgezeichnet wurde. Doch Ochsenknecht blieb nicht bei der Komödie: Er stand ab den frühen 1990er-Jahren auch als Musiker auf der Bühne, als Sänger der Band „The Screen" mit mehreren veröffentlichten Alben, und wechselte 2010 mit <em>Hairspray</em> und 2012 mit Peter Maffays <em>Tabaluga</em> zusätzlich ins Musical-Fach. Der Siebenerflügel lässt ihn nie lange auf demselben Terrain verweilen.</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Licht und Schatten</h2>
+        <h2 class="vb-section">4. Die Substanz: von ›Das Boot‹ bis ›Schtonk!‹</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Ochsenknecht ist ein Schauspieler, der Figuren Körper und Stimme gibt, ohne sich zu verstecken. 1981 war er als Bootsmann Lamprecht in ›Das Boot‹ zu sehen, 1985 spielte er in Doris Dörries ›Männer‹ und gewann dafür den Chaplin-Schuh (1985) und das Filmband in Gold (1986). 1992 verkörperte er in Helmut Dietls ›Schtonk!‹ den Fälscher Fritz Knobel und erhielt den Bambi. Für ›Fußball ist unser Leben‹ bekam er 2000 den Deutschen Filmpreis als bester Hauptdarsteller und den Bayerischen Filmpreis, 2001 für ›Vera Brühne‹ den Deutschen Fernsehpreis als bester Nebendarsteller. 2003 gehörte er zu den Mitgründern der Deutschen Filmakademie.</p>
+          <p class="vb-intro">Sein Ausbildungsweg zeigt die Härte, aus der das kommt: Mit fünfzehn flog er vom Ludwig-Frank-Gymnasium, arbeitete als Statist im Chor des Nationaltheaters und machte mit siebzehn seinen Hauptschulabschluss an der Abendschule nach. Später lieh er seine Stimme internationalen Kinofiguren, darunter Grug in ›Die Croods‹ (2013), Captain Smek in ›Home‹ (2015) und Papa Schlumpf in ›Die Schlümpfe: Der große Kinofilm‹ (2025). Auf der Musicalbühne stand er 2009 und 2010 als Edna Turnblad in ›Hairspray‹.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallele im selben Subtyp: Katja Riemann und Alec Baldwin</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Auch unter den SX6w7ern dieses Kompasses stehen Schauspieler, die Intensität nicht scheuen. <a href="#beruehmte-katja-riemann">Katja Riemann (SX6w7)</a> ist wie Ochsenknecht eine Schauspielerin, bei der Direktheit und Neugier zusammenkommen. <a href="#beruehmte-alec-baldwin">Alec Baldwin (SX6w7)</a> ist wie Ochsenknecht ein Schauspieler, dessen Direktheit auch öffentlich auffällt.</p>
+          <p class="vb-intro">Der Unterschied: Jeder lebt die Konfrontation in seinem eigenen Feld, Ochsenknecht vor allem in Rollen und in Beziehungen. Die Gemeinsamkeit: die Bereitschaft, sich der Auseinandersetzung zu stellen, statt ihr auszuweichen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Licht und Schatten</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SX6w7 ist die Fähigkeit, sich über Jahrzehnte hinweg immer wieder neu zu erfinden, ohne sich vor dem Risiko des Scheiterns in einem fremden Metier zu scheuen &ndash; vom Filmschauspieler zum Musical-Darsteller, vom Kinostar zum Bandsänger. Diese Wandlungsfähigkeit trug maßgeblich dazu bei, dass Ochsenknecht über mehr als vier Jahrzehnte hinweg im deutschen Showgeschäft präsent blieb.</p>
           <p class="vb-intro">Der Schatten der SX6 zeigt sich in der Kompromisslosigkeit, mit der Nähe und Konflikt gleichermaßen intensiv gelebt werden: Was als Direktheit und Klarheit beginnt, kann in engen persönlichen Beziehungen auch in offene, öffentlich ausgetragene Brüche münden, die sich nur schwer wieder kitten lassen. Die anhaltende Entfremdung von Tochter Cheyenne und die schroffe öffentliche Aufarbeitung der gescheiterten Ehe mit Natascha zeigen, wie hoch der Preis dieser Intensität im engsten Kreis sein kann &ndash; der Wolf, der sich nie zurückzieht, verliert manchmal genau dort an Boden, wo eine leisere Annäherung mehr bewirkt hätte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Stand: Mallorca, Müllabfuhr und Papa Schlumpf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Nach den vorliegenden Angaben (Stand 23. Oktober 2026) ist Uwe Ochsenknecht 70 Jahre alt und weiter vor der Kamera aktiv, etwa in ›Die Drei von der Müllabfuhr‹ und in ›Familie Bundschuh‹ neben <a href="#beruehmte-andrea-sawatzki">Andrea Sawatzki (SX4w3)</a>. 2023 gewann er bei ›Schlag den Star‹ 100.000 Euro gegen Heiner Lauterbach und belegte als ›Kiwi‹ in ›The Masked Singer‹ den sechsten Platz. Seine Autobiografie ›Was bisher geschah‹ erschien 2013. Seit 2017 ist er mit Kirsten ›Kiki‹ Viebrock verheiratet und besitzt seit 2018 mit anderen eine Musikbar im mallorquinischen Santanyí.</p>
+          <p class="vb-intro">Zur Familie gehören die Söhne <a href="#beruehmte-wilson-gonzalez-ochsenknecht">Wilson Gonzalez (SE2w3)</a> und <a href="#beruehmte-jimi-blue-ochsenknecht">Jimi Blue (SE2w3)</a> sowie die Tochter <a href="#beruehmte-cheyenne-ochsenknecht">Cheyenne (SE3w4)</a> aus der Ehe mit <a href="#beruehmte-natascha-ochsenknecht">Natascha Ochsenknecht (SO8w7)</a>.</p>
         </blockquote>
 
       </div>

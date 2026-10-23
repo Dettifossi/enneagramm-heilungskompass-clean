@@ -158,10 +158,27 @@ export function brynKenneyPortraitPage() {
           <p class="vb-intro">His flamboyant personal style &ndash; expensive watches, showy chains, blunt talk at the table &ndash; looks at first glance like pure self-display, but on closer inspection is more an expression of an entirely own standard than a wish to please a crowd. Kenney himself puts it in almost philosophical terms: "My whole experience of life is there is no dream that's been too big, because any dream that I've had has come into reality."</p>
         </blockquote>
 
-        <h2 class="vb-section">4. Light and Shadow</h2>
+        <h2 class="vb-section">4. The Substance: from card game to the money list</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kenney&rsquo;s path is a path through numbers. After his first larger live cash in 2007 came an eighth place at a WSOP event in 2010 and 28th in the Main Event. In 2014 he won his first WSOP bracelet, and in 2016 he beat the 2015 Main Event champion Joe McKeehen heads-up in the final of the $100,000 Super High Roller at the PokerStars Caribbean Adventure. In 2017 he won a &euro;100,000 buy-in event in Monte Carlo (&euro;1.78 million). In 2019 he took the Aussie Millions Main Event and, at the Triton festival in Montenegro, more than seven million dollars in three tournaments. In August 2019 he finished second in the Triton Million for Charity and received about $20.6 million through a deal, according to Wikipedia the largest single payout in live poker history.</p>
+          <p class="vb-intro">He stayed at the top afterwards: in 2023 he won the $250,000 Luxon Invitational in London ($6.86 million), in 2024 his second WSOP bracelet and a Triton event in Monte Carlo ($4.41 million), and in 2025 a Triton event in Jeju. In December 2025 he became the first poker player to pass the $80 million mark in live tournament winnings. This is a career of patience and repetition, not of a single lucky strike.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Parallel in the same subtype: Judit Polgár and Dr. Annika von Mutius</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Among the SP3w4s in this Compass are also people who built their skill quietly before others noticed. <a href="#beruehmte-judit-polgar">Judit Polgár (SP3w4)</a> is, like Kenney, a player at the world top of a mind sport, chess instead of poker, with the same years of preparation. <a href="#beruehmte-annika-von-mutius">Dr. Annika von Mutius (SP3w4)</a> shows the same pattern in science: competence first, appearance afterwards.</p>
+          <p class="vb-intro">The difference: Kenney shows his skill with demonstrative extravagance, in a different field and with a different manner. What they share: not the stage but mastery is the real driving force.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Light and Shadow</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of SP3w4 is its ability to draw genuine uniqueness from pure skill. Kenney's years of skill-building, developed out of sight, ultimately produced the largest single tournament cash ever paid out in poker history &ndash; not a lucky strike, but the result of thousands of hours of analysis that no one from the outside ever saw.</p>
           <p class="vb-intro">The passion of the Three is <strong>vanity / deceit</strong> &ndash; in SP3w4, subtly present as the need to be seen as unique and unrepeatable, while the real substance stays hidden behind a facade, whether one of understatement or, as with Kenney, one of demonstrative extravagance. The shadow of the Four-wing shows in the isolation that the self-image of the "lone wolf" brings with it: "No one's perfect," Kenney once admitted himself &ndash; a brief line that hints at how much criticism and friction such an uncompromising, individual path can also generate from the outside.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Status: top of the money list</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to the available information (as of 23 October 2026) Bryn Kenney is 39 years old, born on 1 November 1986 in Long Beach, New York, and leads the Hendon Mob all-time money list with more than $90 million in live tournament winnings. He plays for GGPoker, with which he has worked since 2018.</p>
         </blockquote>
 
       </div>
